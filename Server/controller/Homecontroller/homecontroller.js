@@ -3,6 +3,62 @@ const Product = require("../../module/homemodule/homemodule");
 const Category = require("../../module/BlogModule/caetgorymodule.js");
 const slugify = require("slugify"); // ← Install: npm install slugify
 
+// Store images inserted inside the rich-text description as hosted URLs.
+const uploadDescriptionImages = async (description) => {
+  if (!description || typeof description !== "string") return description;
+
+  const imagePattern = /src=(['"])(data:image\/[^;]+;base64,[^'"]+)\1/g;
+  const matches = [...description.matchAll(imagePattern)];
+  let updatedDescription = description;
+
+  for (const [index, match] of matches.entries()) {
+    const dataUrl = match[2];
+    const uploadResponse = await imagekit.upload({
+      file: dataUrl,
+      fileName: `description-${Date.now()}-${index}.png`,
+      folder: "/productDescriptions",
+      useUniqueFileName: true,
+    });
+
+    updatedDescription = updatedDescription.replace(
+      dataUrl,
+      uploadResponse.url,
+    );
+  }
+
+  return updatedDescription;
+};
+
+// ============================
+// UPLOAD DESCRIPTION IMAGE (for CKEditor)
+// ============================
+const uploadDescriptionImage = async (req, res) => {
+  try {
+    if (!req.files?.image) {
+      return res
+        .status(400)
+        .json({ success: false, message: "No image provided" });
+    }
+
+    const file = req.files.image;
+
+    const uploadResponse = await imagekit.upload({
+      file: file.data,
+      fileName: `desc-${Date.now()}-${file.name}`,
+      folder: "/productDescriptions",
+      useUniqueFileName: true,
+    });
+
+    return res.status(200).json({
+      success: true,
+      url: uploadResponse.url,
+    });
+  } catch (error) {
+    console.error(error);
+    return res.status(500).json({ success: false, message: error.message });
+  }
+};
+
 // Helper to generate unique slug
 const generateUniqueSlug = async (name) => {
   const baseSlug =
@@ -39,6 +95,7 @@ const createContent = async (req, res) => {
     }
 
     const slug = await generateUniqueSlug(name);
+    const savedDescription = await uploadDescriptionImages(description);
 
     // Image Upload
     if (!req.files?.images) {
@@ -64,7 +121,7 @@ const createContent = async (req, res) => {
     const newProduct = new Product({
       name,
       slug,
-      description,
+      description: savedDescription,
       category,
       author,
       images: uploadedImages,
@@ -113,6 +170,71 @@ const getHomeData = async (req, res) => {
   }
 };
 
+const normalizeProducts = (products) =>
+  products.map((product) => {
+    if (!product.slug && product.name) {
+      product.slug =
+        slugify(product.name, { lower: true, strict: true }) ||
+        `item-${product._id}`;
+    }
+    return product;
+  });
+
+// Fast first request for the newest content.
+const getLatestProducts = async (req, res) => {
+  try {
+    const limit = Math.min(Math.max(Number(req.query.limit) || 10, 1), 50);
+    const products = await Product.find()
+      .populate("category")
+      .sort({ createdAt: -1, _id: -1 })
+      .limit(limit)
+      .lean();
+
+    return res.json({ success: true, data: normalizeProducts(products) });
+  } catch (error) {
+    return res
+      .status(500)
+      .json({ success: false, message: "Failed to fetch latest products" });
+  }
+};
+
+// Server-side pagination for the rest of the catalogue.
+const getPaginatedProducts = async (req, res) => {
+  try {
+    const page = Math.max(Number(req.query.page) || 1, 1);
+    const limit = Math.min(Math.max(Number(req.query.limit) || 10, 1), 50);
+    const search = String(req.query.search || "").trim();
+    const filter = search
+      ? {
+          $or: [
+            { name: { $regex: search, $options: "i" } },
+            { author: { $regex: search, $options: "i" } },
+          ],
+        }
+      : {};
+
+    const [products, total] = await Promise.all([
+      Product.find(filter)
+        .populate("category")
+        .sort({ createdAt: -1, _id: -1 })
+        .skip((page - 1) * limit)
+        .limit(limit)
+        .lean(),
+      Product.countDocuments(filter),
+    ]);
+
+    return res.json({
+      success: true,
+      data: normalizeProducts(products),
+      pagination: { page, limit, total, totalPages: Math.ceil(total / limit) },
+    });
+  } catch (error) {
+    return res
+      .status(500)
+      .json({ success: false, message: "Failed to fetch products" });
+  }
+};
+
 // ============================
 // UPDATE PRODUCT
 // ============================
@@ -128,7 +250,9 @@ const updateHomeData = async (req, res) => {
     }
 
     if (description?.trim()) {
-      updateFields.description = description.trim();
+      updateFields.description = await uploadDescriptionImages(
+        description.trim(),
+      );
     }
 
     if (author?.trim()) {
@@ -306,7 +430,10 @@ const getSingleContent = async (req, res) => {
 module.exports = {
   createContent,
   getHomeData,
+  getLatestProducts,
+  getPaginatedProducts,
   getSingleContent,
   deletedContent,
   updateHomeData,
+  uploadDescriptionImage,
 };

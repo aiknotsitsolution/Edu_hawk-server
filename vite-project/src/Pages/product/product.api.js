@@ -19,3 +19,11 @@ export const deleteHomeApi = (id) => axios.delete(`${API_URL}/${id}`);
 export const getProductsApi = () => {
   return axios.get(API_URL);
 };
+export const getPaginatedProductsApi = ({
+  page = 1,
+  limit = 10,
+  search = "",
+} = {}) =>
+  axios.get("https://eduhawk-server-urpn.onrender.com/api/product/paginated", {
+    params: { page, limit, search },
+  });

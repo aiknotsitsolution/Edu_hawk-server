@@ -13,6 +13,7 @@ export const loginUser = createAsyncThunk(
         credentials,
         {
           headers: { "Content-Type": "application/json" },
+          withCredentials: true,
         },
       );
       return response.data;
@@ -26,21 +27,52 @@ export const loginUser = createAsyncThunk(
   },
 );
 
+export const restoreSession = createAsyncThunk(
+  "auth/restoreSession",
+  async (_, { rejectWithValue }) => {
+    try {
+      const response = await axios.get(
+        "https://eduhawk-server-urpn.onrender.com/api/auth/me",
+        {
+          withCredentials: true,
+        },
+      );
+      return response.data;
+    } catch (err) {
+      return rejectWithValue(err.response?.data?.message || "Session expired");
+    }
+  },
+);
+
+export const logoutUser = createAsyncThunk("auth/logout", async () => {
+  await axios.post(
+    "https://eduhawk-server-urpn.onrender.com/api/auth/logout",
+    {},
+    { withCredentials: true },
+  );
+});
+
 const initialState = {
-  token: localStorage.getItem("token") || null,
+  token: null,
+  user: null,
   isLoading: false,
   error: null,
-  isAuthenticated: !!localStorage.getItem("token"),
+  isAuthenticated: false,
+  authChecked: false,
 };
 
 const authSlice = createSlice({
   name: "auth",
   initialState,
   reducers: {
+    setUser: (state, action) => {
+      state.user = action.payload;
+    },
     logout: (state) => {
-      localStorage.removeItem("token");
       state.token = null;
+      state.user = null;
       state.isAuthenticated = false;
+      state.authChecked = true;
       state.error = null;
     },
     // You can add more reducers if needed (clearError, etc.)
@@ -53,16 +85,44 @@ const authSlice = createSlice({
       })
       .addCase(loginUser.fulfilled, (state, action) => {
         state.isLoading = false;
-        state.token = action.payload.token;
+        state.token = null;
+        state.user = action.payload.user || null;
         state.isAuthenticated = true;
-        localStorage.setItem("token", action.payload.token);
+        state.authChecked = true;
       })
       .addCase(loginUser.rejected, (state, action) => {
         state.isLoading = false;
         state.error = action.payload;
+      })
+      .addCase(restoreSession.pending, (state) => {
+        state.isLoading = true;
+      })
+      .addCase(restoreSession.fulfilled, (state, action) => {
+        state.isLoading = false;
+        state.user = action.payload.user || null;
+        state.isAuthenticated = true;
+        state.authChecked = true;
+      })
+      .addCase(restoreSession.rejected, (state) => {
+        state.isLoading = false;
+        state.user = null;
+        state.isAuthenticated = false;
+        state.authChecked = true;
+      })
+      .addCase(logoutUser.fulfilled, (state) => {
+        state.token = null;
+        state.user = null;
+        state.isAuthenticated = false;
+        state.authChecked = true;
+      })
+      .addCase(logoutUser.rejected, (state) => {
+        state.token = null;
+        state.user = null;
+        state.isAuthenticated = false;
+        state.authChecked = true;
       });
   },
 });
 
-export const { logout } = authSlice.actions;
+export const { logout, setUser } = authSlice.actions;
 export default authSlice.reducer;

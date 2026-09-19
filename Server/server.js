@@ -16,7 +16,7 @@ const categoryRoutes = require("./Routes/techRoute/categoryRoute.js");
 // const queryRoutes = require("./Routes/queryroutes/queryroutes.js");
 const technologyRoute = require("./Routes/technologyroutes/technologyRoute.js");
 const techcategoryRoute = require("./Routes/technologyroutes/categoryRoute.js");
-const queryRoutes = require("./Routes/queryroutes/queryroutes.js")
+const queryRoutes = require("./Routes/queryroutes/queryroutes.js");
 const blogRoutes = require("./Routes/Blogroute/categoryRoute.js");
 // const galleryRoutes = require("./Routes/galleryroutes/galleryroutes.js");
 dns.setServers(["8.8.8.8", "1.1.1.1", "0.0.0.0"]);
@@ -39,7 +39,9 @@ mongoose
   });
 app.use(
   fileUpload({
+    limits: { fileSize: 50 * 1024 * 1024 },
     useTempFiles: false,
+    abortOnLimit: true,
   }),
 );
 app.use(express.json({ limit: "50mb" }));
@@ -64,7 +66,6 @@ app.use("/api/blogcategory", blogRoutes);
 app.use("/api/technology/category", techcategoryRoute);
 app.use("/api/technology/product", technologyRoute);
 app.use("/tech", techRoutes);
-
 
 app.get("/", (req, res) => {
   res.send("🚀 Server is running successfully");
