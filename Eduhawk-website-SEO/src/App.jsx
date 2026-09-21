@@ -14,7 +14,7 @@ const organizationSchema = {
   contactPoint: {
     "@type": "ContactPoint",
     contactType: "customer support",
-    telephone: "+91-XXXXXXXXXX",
+    telephone: "+91-7632949984",
     email: "admin@eduhawk.in",
   },
   address: {
