@@ -5,7 +5,7 @@
 //   "products/fetchProducts",
 //   async (_, { rejectWithValue }) => {
 //     try {
-//       const res = await fetch("http://localhost:8000/api/product");
+//       const res = await fetch("https://edu-hawk-server.onrender.com/api/product");
 
 //       if (!res.ok) {
 //         throw new Error(`HTTP ${res.status} – ${res.statusText}`);
@@ -32,7 +32,7 @@
 //   "products/fetchProductById",
 //   async (id, { rejectWithValue }) => {
 //     try {
-//       const res = await fetch(`http://localhost:8000/api/product/${id}`);
+//       const res = await fetch(`https://edu-hawk-server.onrender.com/api/product/${id}`);
 
 //       if (!res.ok) {
 //         throw new Error(`HTTP ${res.status} – ${res.statusText}`);
@@ -207,7 +207,7 @@ export const fetchProducts = createAsyncThunk(
       if (searchQuery) params.set("search", searchQuery);
 
       const res = await fetch(
-        `http://localhost:8000/api/product/paginated?${params.toString()}`,
+        `https://edu-hawk-server.onrender.com/api/product/paginated?${params.toString()}`,
       );
 
       if (!res.ok) {
@@ -229,7 +229,9 @@ export const fetchCategories = createAsyncThunk(
   "products/fetchCategories",
   async (_, { rejectWithValue }) => {
     try {
-      const res = await fetch("http://localhost:8000/api/blogcategory");
+      const res = await fetch(
+        "https://edu-hawk-server.onrender.com/api/blogcategory",
+      );
       if (!res.ok) throw new Error(`HTTP ${res.status} - ${res.statusText}`);
 
       const json = await res.json();
@@ -252,9 +254,9 @@ export const fetchProductBySlugOrId = createAsyncThunk(
     }
 
     const endpointCandidates = [
-      `http://localhost:8000/api/blog/${target}`,
-      `http://localhost:8000/api/product/${target}`,
-      `http://localhost:8000/api/product/slug/${target}`,
+      `https://edu-hawk-server.onrender.com/api/blog/${target}`,
+      `https://edu-hawk-server.onrender.com/api/product/${target}`,
+      `https://edu-hawk-server.onrender.com/api/product/slug/${target}`,
     ];
 
     const fetchCandidate = async (url) => {
