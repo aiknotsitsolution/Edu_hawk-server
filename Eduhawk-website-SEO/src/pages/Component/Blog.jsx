@@ -4,6 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import {
   fetchProducts,
+  fetchCategories,
   setActiveCategory,
   setSearchQuery,
   setCurrentPage,
@@ -82,10 +83,12 @@ const Blog = () => {
   };
 
   useEffect(() => {
-    if (status === "idle") {
-      dispatch(fetchProducts());
-    }
-  }, [status, dispatch]);
+    dispatch(fetchProducts());
+  }, [activeCategory, searchQuery, currentPage, dispatch]);
+
+  useEffect(() => {
+    dispatch(fetchCategories());
+  }, [dispatch]);
 
   useEffect(() => {
     if (status === "loading") {

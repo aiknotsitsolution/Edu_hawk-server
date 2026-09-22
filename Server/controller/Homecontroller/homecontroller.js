@@ -204,14 +204,33 @@ const getPaginatedProducts = async (req, res) => {
     const page = Math.max(Number(req.query.page) || 1, 1);
     const limit = Math.min(Math.max(Number(req.query.limit) || 10, 1), 50);
     const search = String(req.query.search || "").trim();
-    const filter = search
-      ? {
-          $or: [
-            { name: { $regex: search, $options: "i" } },
-            { author: { $regex: search, $options: "i" } },
-          ],
-        }
-      : {};
+    const category = String(req.query.category || "").trim();
+    const filter = {};
+
+    if (search) {
+      filter.$or = [
+        { name: { $regex: search, $options: "i" } },
+        { author: { $regex: search, $options: "i" } },
+      ];
+    }
+
+    if (category && category !== "All") {
+      const categoryDocument = await Category.findOne({
+        name: { $regex: `^${category}$`, $options: "i" },
+      })
+        .select("_id")
+        .lean();
+
+      if (!categoryDocument) {
+        return res.json({
+          success: true,
+          data: [],
+          pagination: { page, limit, total: 0, totalPages: 1 },
+        });
+      }
+
+      filter.category = categoryDocument._id;
+    }
 
     const [products, total] = await Promise.all([
       Product.find(filter)

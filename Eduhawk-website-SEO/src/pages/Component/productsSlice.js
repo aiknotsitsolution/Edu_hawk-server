@@ -5,7 +5,7 @@
 //   "products/fetchProducts",
 //   async (_, { rejectWithValue }) => {
 //     try {
-//       const res = await fetch("https://api.eduhawk.in/api/product");
+//       const res = await fetch("http://localhost:8000/api/product");
 
 //       if (!res.ok) {
 //         throw new Error(`HTTP ${res.status} – ${res.statusText}`);
@@ -32,7 +32,7 @@
 //   "products/fetchProductById",
 //   async (id, { rejectWithValue }) => {
 //     try {
-//       const res = await fetch(`https://api.eduhawk.in/api/product/${id}`);
+//       const res = await fetch(`http://localhost:8000/api/product/${id}`);
 
 //       if (!res.ok) {
 //         throw new Error(`HTTP ${res.status} – ${res.statusText}`);
@@ -194,26 +194,50 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 // Fetch All Products
 export const fetchProducts = createAsyncThunk(
   "products/fetchProducts",
-  async (_, { rejectWithValue }) => {
+  async (_, { getState, rejectWithValue }) => {
     try {
-      const res = await fetch("https://api.eduhawk.in/api/product");
+      const { activeCategory, searchQuery, currentPage, itemsPerPage } =
+        getState().products;
+      const params = new URLSearchParams({
+        page: String(currentPage),
+        limit: String(itemsPerPage),
+      });
+
+      if (activeCategory !== "All") params.set("category", activeCategory);
+      if (searchQuery) params.set("search", searchQuery);
+
+      const res = await fetch(
+        `http://localhost:8000/api/product/paginated?${params.toString()}`,
+      );
 
       if (!res.ok) {
         throw new Error(`HTTP ${res.status} – ${res.statusText}`);
       }
 
       const json = await res.json();
-      console.log("Products raw response:", json);
-
-      const productArray = Array.isArray(json)
-        ? json
-        : Array.isArray(json?.data)
-          ? json.data
-          : (json?.products ?? json?.results ?? []);
-
-      return productArray;
+      return {
+        products: Array.isArray(json?.data) ? json.data : [],
+        pagination: json?.pagination ?? {},
+      };
     } catch (err) {
       return rejectWithValue(err.message || "Failed to load products");
+    }
+  },
+);
+
+export const fetchCategories = createAsyncThunk(
+  "products/fetchCategories",
+  async (_, { rejectWithValue }) => {
+    try {
+      const res = await fetch("http://localhost:8000/api/blogcategory");
+      if (!res.ok) throw new Error(`HTTP ${res.status} - ${res.statusText}`);
+
+      const json = await res.json();
+      return (json?.data ?? [])
+        .map((category) => category?.name)
+        .filter(Boolean);
+    } catch (err) {
+      return rejectWithValue(err.message || "Failed to load categories");
     }
   },
 );
@@ -228,9 +252,9 @@ export const fetchProductBySlugOrId = createAsyncThunk(
     }
 
     const endpointCandidates = [
-      `https://api.eduhawk.in/api/blog/${target}`,
-      `https://api.eduhawk.in/api/product/${target}`,
-      `https://api.eduhawk.in/api/product/slug/${target}`,
+      `http://localhost:8000/api/blog/${target}`,
+      `http://localhost:8000/api/product/${target}`,
+      `http://localhost:8000/api/product/slug/${target}`,
     ];
 
     const fetchCandidate = async (url) => {
@@ -276,6 +300,8 @@ const initialState = {
   searchQuery: "",
   currentPage: 1,
   itemsPerPage: 9,
+  totalItems: 0,
+  totalPages: 1,
 };
 
 const productsSlice = createSlice({
@@ -312,21 +338,16 @@ const productsSlice = createSlice({
       })
       .addCase(fetchProducts.fulfilled, (state, action) => {
         state.status = "succeeded";
-        state.products = action.payload;
-
-        const uniqueCategories = [
-          "All",
-          ...new Set(
-            action.payload
-              .map((p) => p?.category?.name ?? null)
-              .filter(Boolean),
-          ),
-        ];
-        state.categories = uniqueCategories;
+        state.products = action.payload.products;
+        state.totalItems = action.payload.pagination.total ?? 0;
+        state.totalPages = action.payload.pagination.totalPages ?? 1;
       })
       .addCase(fetchProducts.rejected, (state, action) => {
         state.status = "failed";
         state.error = action.payload;
+      })
+      .addCase(fetchCategories.fulfilled, (state, action) => {
+        state.categories = ["All", ...new Set(action.payload)];
       })
 
       // Fetch Single Product by Slug or ID
@@ -364,39 +385,16 @@ export const selectProductsStatus = (state) => state.products.status;
 export const selectProductsError = (state) => state.products.error;
 export const selectCurrentPage = (state) => state.products.currentPage;
 export const selectItemsPerPage = (state) => state.products.itemsPerPage;
+export const selectTotalItems = (state) => state.products.totalItems;
+export const selectTotalPages = (state) => state.products.totalPages;
 
 // Visible Products Selector (with pagination & filters)
 export const selectVisibleProducts = (state) => {
-  const { products, activeCategory, searchQuery, currentPage, itemsPerPage } =
-    state.products;
-
-  let result = products;
-
-  // Category Filter
-  if (activeCategory !== "All") {
-    result = result.filter((p) => p?.category?.name === activeCategory);
-  }
-
-  // Search Filter
-  if (searchQuery) {
-    const lowerQuery = searchQuery.toLowerCase();
-    result = result.filter((p) =>
-      (p?.name || "").toLowerCase().includes(lowerQuery),
-    );
-  }
-
-  // Pagination
-  const totalItems = result.length;
-  const totalPages = Math.ceil(totalItems / itemsPerPage) || 1;
-  const safeCurrentPage = Math.min(Math.max(currentPage, 1), totalPages);
-  const startIndex = (safeCurrentPage - 1) * itemsPerPage;
-  const paginatedItems = result.slice(startIndex, startIndex + itemsPerPage);
-
   return {
-    items: paginatedItems,
-    totalItems,
-    totalPages,
-    currentPage: safeCurrentPage,
+    items: state.products.products,
+    totalItems: state.products.totalItems,
+    totalPages: state.products.totalPages,
+    currentPage: state.products.currentPage,
   };
 };
 

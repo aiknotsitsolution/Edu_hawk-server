@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+.ckeditor-list-editor .ck-content ul {
+  list-style-type: disc !important;
+  padding-inline-start: 2.5rem !important;
+}
+
+.ckeditor-list-editor .ck-content ol {
+  list-style-type: decimal !important;
+  padding-inline-start: 2.5rem !important;
+}
+
+.ckeditor-list-editor .ck-content ul > li,
+.ckeditor-list-editor .ck-content ol > li {
+  display: list-item !important;
+}

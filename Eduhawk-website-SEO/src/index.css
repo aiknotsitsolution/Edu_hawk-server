@@ -1,5 +1,24 @@
 @import "tailwindcss";
 
+.blog-description ul,
+.blog-description ol {
+  display: block !important;
+  margin: 1em 0 !important;
+  padding-inline-start: 2.5rem !important;
+}
+
+.blog-description ul {
+  list-style-type: disc !important;
+}
+
+.blog-description ol {
+  list-style-type: decimal !important;
+}
+
+.blog-description li {
+  display: list-item !important;
+}
+
 @keyframes fade-in {
   from {
     opacity: 0;

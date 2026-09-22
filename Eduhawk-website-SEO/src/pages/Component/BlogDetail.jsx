@@ -88,12 +88,13 @@ const BlogDetail = () => {
     "prose-img:rounded-3xl prose-img:shadow-xl prose-img:my-10 prose-img:mx-auto " +
     "prose-img:w-full prose-img:max-w-4xl prose-img:h-auto " +
     "prose-a:text-indigo-600 hover:prose-a:text-indigo-700 " +
+    "prose-ul:list-disc prose-ol:list-decimal prose-ul:pl-6 prose-ol:pl-6 " +
+    "prose-li:my-1 " +
     "prose-code:bg-gray-100 prose-code:px-1 prose-code:rounded " +
     "prose-pre:bg-gray-900 prose-pre:text-gray-100 " +
     "prose-blockquote:border-l-4 prose-blockquote:border-indigo-400 prose-blockquote:pl-4 " +
     "prose-table:border prose-th:bg-gray-100 prose-td:border";
 
-    
   return (
     <article className="min-h-screen bg-gray-50 pt-8 pb-20">
       {/* Hero Image - full width */}
@@ -139,7 +140,7 @@ const BlogDetail = () => {
         {/* Content - Sanitized HTML Rendering */}
         {safeDescription ? (
           <div
-            className={proseClasses}
+            className={`blog-description ${proseClasses}`}
             dangerouslySetInnerHTML={{ __html: safeDescription }}
           />
         ) : (
