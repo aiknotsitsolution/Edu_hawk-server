@@ -925,7 +925,7 @@
 
 //     try {
 //       const res = await fetch(
-//         "http://localhost:8000/api/upload-description-image",
+//         "https://edu-hawk-server.onrender.com/api/upload-description-image",
 //         {
 //           method: "POST",
 //           body: formData,
@@ -1153,7 +1153,7 @@ class CustomUploadAdapter {
 
     try {
       const res = await fetch(
-        "http://localhost:8000/api/upload-description-image",
+        "https://edu-hawk-server.onrender.com/api/upload-description-image",
         {
           method: "POST",
           body: formData,

@@ -3,6 +3,7 @@ const {
   registerUser,
   loginUser,
   getCurrentUser,
+  refreshAccessToken,
   logoutUser,
   updateProfile,
   changePassword,
@@ -13,6 +14,7 @@ const {
 router.post("/register", registerUser);
 router.post("/login", loginUser);
 router.get("/me", getCurrentUser);
+router.post("/refresh", refreshAccessToken);
 router.post("/logout", logoutUser);
 router.put("/profile", updateProfile);
 router.put("/change-password", changePassword);

@@ -49,19 +49,19 @@
 //         const [usersRes, queriesRes, contactsRes, productsRes, categoriesRes] =
 //           await Promise.all([
 //             axios
-//               .get("http://localhost:8000/api/users")
+//               .get("https://edu-hawk-server.onrender.com/api/users")
 //               .catch(() => ({ data: { data: [] } })),
 //             axios
-//               .get("http://localhost:8000/api/query/all")
+//               .get("https://edu-hawk-server.onrender.com/api/query/all")
 //               .catch(() => ({ data: { data: [] } })),
 //             axios
-//               .get("http://localhost:8000/api/contact")
+//               .get("https://edu-hawk-server.onrender.com/api/contact")
 //               .catch(() => ({ data: { data: [] } })),
 //             axios
-//               .get("http://localhost:8000/api/product")
+//               .get("https://edu-hawk-server.onrender.com/api/product")
 //               .catch(() => ({ data: { data: [] } })),
 //             axios
-//               .get("http://localhost:8000/api/blogcategory")
+//               .get("https://edu-hawk-server.onrender.com/api/blogcategory")
 //               .catch(() => ({ data: { data: [] } })),
 //           ]);
 
@@ -512,19 +512,19 @@ const Dashboard = () => {
         const [usersRes, queriesRes, contactsRes, productsRes, categoriesRes] =
           await Promise.all([
             axios
-              .get("http://localhost:8000/api/users")
+              .get("https://edu-hawk-server.onrender.com/api/users")
               .catch(() => ({ data: { data: [] } })),
             axios
-              .get("http://localhost:8000/api/query/all")
+              .get("https://edu-hawk-server.onrender.com/api/query/all")
               .catch(() => ({ data: { data: [] } })),
             axios
-              .get("http://localhost:8000/api/contact")
+              .get("https://edu-hawk-server.onrender.com/api/contact")
               .catch(() => ({ data: { data: [] } })),
             axios
-              .get("http://localhost:8000/api/product")
+              .get("https://edu-hawk-server.onrender.com/api/product")
               .catch(() => ({ data: { data: [] } })),
             axios
-              .get("http://localhost:8000/api/blogcategory")
+              .get("https://edu-hawk-server.onrender.com/api/blogcategory")
               .catch(() => ({ data: { data: [] } })),
           ]);
 

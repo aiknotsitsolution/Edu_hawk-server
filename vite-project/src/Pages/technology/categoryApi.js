@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:8000/api/technology/category",
+  baseURL: "https://edu-hawk-server.onrender.com/api/technology/category",
 });
 
 // CREATE

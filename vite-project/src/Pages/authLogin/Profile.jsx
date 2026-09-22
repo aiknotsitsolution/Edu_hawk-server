@@ -5,7 +5,7 @@ import { Camera, LockKeyhole, Save, UserRound } from "lucide-react";
 import { toast } from "react-toastify";
 import { setUser } from "../auth/authSlice";
 
-const API = "http://localhost:8000/api/auth";
+const API = "https://edu-hawk-server.onrender.com/api/auth";
 
 export default function Profile() {
   const dispatch = useDispatch();

@@ -9,7 +9,7 @@ export const loginUser = createAsyncThunk(
   async (credentials, { rejectWithValue }) => {
     try {
       const response = await axios.post(
-        "http://localhost:8000/api/auth/login",
+        "https://edu-hawk-server.onrender.com/api/auth/login",
         credentials,
         {
           headers: { "Content-Type": "application/json" },
@@ -31,11 +31,33 @@ export const restoreSession = createAsyncThunk(
   "auth/restoreSession",
   async (_, { rejectWithValue }) => {
     try {
-      const response = await axios.get("http://localhost:8000/api/auth/me", {
-        withCredentials: true,
-      });
+      const response = await axios.get(
+        "https://edu-hawk-server.onrender.com/api/auth/me",
+        {
+          withCredentials: true,
+        },
+      );
       return response.data;
     } catch (err) {
+      if (err.response?.status === 401) {
+        try {
+          await axios.post(
+            "https://edu-hawk-server.onrender.com/api/auth/refresh",
+            {},
+            { withCredentials: true },
+          );
+          const refreshedResponse = await axios.get(
+            "https://edu-hawk-server.onrender.com/api/auth/me",
+            { withCredentials: true },
+          );
+          return refreshedResponse.data;
+        } catch (refreshErr) {
+          return rejectWithValue(
+            refreshErr.response?.data?.message || "Session expired",
+          );
+        }
+      }
+
       return rejectWithValue(err.response?.data?.message || "Session expired");
     }
   },
@@ -43,7 +65,7 @@ export const restoreSession = createAsyncThunk(
 
 export const logoutUser = createAsyncThunk("auth/logout", async () => {
   await axios.post(
-    "http://localhost:8000/api/auth/logout",
+    "https://edu-hawk-server.onrender.com/api/auth/logout",
     {},
     { withCredentials: true },
   );

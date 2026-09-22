@@ -43,8 +43,8 @@ export default function ProductTable() {
         }),
         categories.length
           ? Promise.resolve({ success: true, data: categories })
-          : fetch("http://localhost:8000/api/blogcategory").then((r) =>
-              r.json(),
+          : fetch("https://edu-hawk-server.onrender.com/api/blogcategory").then(
+              (r) => r.json(),
             ),
       ]);
 

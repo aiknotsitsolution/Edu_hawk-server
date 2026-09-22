@@ -21,7 +21,7 @@ export default function ResetPassword() {
     setLoading(true);
     try {
       const response = await axios.post(
-        `http://localhost:8000/api/auth/reset-password/${token}`,
+        `https://edu-hawk-server.onrender.com/api/auth/reset-password/${token}`,
         { password },
       );
       setMessage(response.data.message);

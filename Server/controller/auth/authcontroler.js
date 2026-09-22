@@ -14,11 +14,43 @@ const transporter = nodemailer.createTransport({
   tls: { rejectUnauthorized: false },
 });
 
+const ACCESS_TOKEN_TTL = 15 * 60 * 1000;
+const REFRESH_TOKEN_TTL = 7 * 24 * 60 * 60 * 1000;
+
 const authCookieOptions = {
   httpOnly: true,
   sameSite: "lax",
   secure: process.env.NODE_ENV === "production",
-  maxAge: 24 * 60 * 60 * 1000,
+  maxAge: ACCESS_TOKEN_TTL,
+};
+
+const refreshCookieOptions = {
+  httpOnly: true,
+  sameSite: "lax",
+  secure: process.env.NODE_ENV === "production",
+  maxAge: REFRESH_TOKEN_TTL,
+};
+
+const signAccessToken = (userId) =>
+  jwt.sign({ userId }, process.env.JWT_SECRET || "mysecretkey", {
+    expiresIn: "15m",
+  });
+
+const signRefreshToken = (userId) =>
+  jwt.sign(
+    { userId, type: "refresh" },
+    process.env.JWT_SECRET || "mysecretkey",
+    {
+      expiresIn: "7d",
+    },
+  );
+
+const setAuthCookies = (res, userId) => {
+  const accessToken = signAccessToken(userId);
+  const refreshToken = signRefreshToken(userId);
+
+  res.cookie("auth_token", accessToken, authCookieOptions);
+  res.cookie("refresh_token", refreshToken, refreshCookieOptions);
 };
 
 const publicUser = (user) => ({
@@ -108,13 +140,7 @@ const loginUser = async (req, res) => {
       });
     }
 
-    const token = jwt.sign(
-      { userId: user._id },
-      process.env.JWT_SECRET || "mysecretkey",
-      { expiresIn: "1d" },
-    );
-
-    res.cookie("auth_token", token, authCookieOptions);
+    setAuthCookies(res, user._id);
 
     res.status(200).json({
       success: true,
@@ -160,6 +186,75 @@ const getCurrentUser = async (req, res) => {
       user: publicUser(user),
     });
   } catch {
+    const refreshToken = req.cookies?.refresh_token;
+    if (!refreshToken) {
+      return res
+        .status(401)
+        .json({ success: false, message: "Session expired" });
+    }
+
+    try {
+      const payload = jwt.verify(
+        refreshToken,
+        process.env.JWT_SECRET || "mysecretkey",
+      );
+      const user = await User.findById(payload.userId).select(
+        "_id username email phone profilePhoto",
+      );
+
+      if (!user) {
+        return res
+          .status(401)
+          .json({ success: false, message: "User not found" });
+      }
+
+      setAuthCookies(res, user._id);
+
+      return res.status(200).json({
+        success: true,
+        user: publicUser(user),
+      });
+    } catch {
+      return res
+        .status(401)
+        .json({ success: false, message: "Session expired" });
+    }
+  }
+};
+
+const refreshAccessToken = async (req, res) => {
+  try {
+    const refreshToken = req.cookies?.refresh_token;
+    if (!refreshToken) {
+      return res
+        .status(401)
+        .json({ success: false, message: "No refresh token provided" });
+    }
+
+    const payload = jwt.verify(
+      refreshToken,
+      process.env.JWT_SECRET || "mysecretkey",
+    );
+    const user = await User.findById(payload.userId).select(
+      "_id username email phone profilePhoto",
+    );
+
+    if (!user) {
+      return res
+        .status(401)
+        .json({ success: false, message: "User not found" });
+    }
+
+    setAuthCookies(res, user._id);
+
+    return res.status(200).json({
+      success: true,
+      message: "Token refreshed successfully",
+      user: publicUser(user),
+    });
+  } catch {
+    res.clearCookie("auth_token", authCookieOptions);
+    res.clearCookie("refresh_token", refreshCookieOptions);
     return res.status(401).json({ success: false, message: "Session expired" });
   }
 };
@@ -219,13 +314,11 @@ const changePassword = async (req, res) => {
         .json({ success: false, message: "Not authenticated" });
     const { currentPassword, newPassword } = req.body;
     if (!currentPassword || !newPassword || newPassword.length < 6) {
-      return res
-        .status(400)
-        .json({
-          success: false,
-          message:
-            "Current password and a new password of 6+ characters are required",
-        });
+      return res.status(400).json({
+        success: false,
+        message:
+          "Current password and a new password of 6+ characters are required",
+      });
     }
     if (!(await bcrypt.compare(currentPassword, user.password))) {
       return res
@@ -282,12 +375,10 @@ const resetPassword = async (req, res) => {
         .status(400)
         .json({ success: false, message: "Reset link is invalid or expired" });
     if (!req.body.password || req.body.password.length < 6) {
-      return res
-        .status(400)
-        .json({
-          success: false,
-          message: "Password must be at least 6 characters",
-        });
+      return res.status(400).json({
+        success: false,
+        message: "Password must be at least 6 characters",
+      });
     }
     user.password = await bcrypt.hash(req.body.password, 10);
     user.resetPasswordToken = undefined;
@@ -301,6 +392,7 @@ const resetPassword = async (req, res) => {
 
 const logoutUser = (req, res) => {
   res.clearCookie("auth_token", authCookieOptions);
+  res.clearCookie("refresh_token", refreshCookieOptions);
   return res
     .status(200)
     .json({ success: true, message: "Logged out successfully" });
@@ -310,6 +402,7 @@ module.exports = {
   registerUser,
   loginUser,
   getCurrentUser,
+  refreshAccessToken,
   logoutUser,
   updateProfile,
   changePassword,
