@@ -18,7 +18,7 @@
 // } from "react-icons/fa";
 // import { IoMdClose } from "react-icons/io";
 
-// const API = "https://eduhawk-server-urpn.onrender.com/api/query/all";
+// const API = "http://localhost:8000/api/query/all";
 
 // const Query = () => {
 //   const [data, setData] = useState([]);
@@ -160,7 +160,7 @@
 
 //     setDeletingId(id);
 //     try {
-//       const res = await fetch(`https://eduhawk-server-urpn.onrender.com/api/query/delete/${id}`, {
+//       const res = await fetch(`http://localhost:8000/api/query/delete/${id}`, {
 //         method: "DELETE",
 //       });
 //       if (!res.ok) throw new Error("Delete failed");
@@ -485,7 +485,7 @@ import {
   GraduationCap,
 } from "lucide-react";
 
-const API = "https://eduhawk-server-urpn.onrender.com/api/query/all";
+const API = "http://localhost:8000/api/query/all";
 
 const Query = () => {
   const [data, setData] = useState([]);
@@ -605,12 +605,9 @@ const Query = () => {
 
     setDeletingId(id);
     try {
-      const res = await fetch(
-        `https://eduhawk-server-urpn.onrender.com/api/query/delete/${id}`,
-        {
-          method: "DELETE",
-        },
-      );
+      const res = await fetch(`http://localhost:8000/api/query/delete/${id}`, {
+        method: "DELETE",
+      });
       if (!res.ok) throw new Error("Delete failed");
       setData((prev) => prev.filter((item) => item._id !== id));
       toast.success("Query deleted successfully");

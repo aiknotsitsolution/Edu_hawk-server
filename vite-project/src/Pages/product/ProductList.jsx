@@ -43,9 +43,9 @@ export default function ProductTable() {
         }),
         categories.length
           ? Promise.resolve({ success: true, data: categories })
-          : fetch(
-              "https://eduhawk-server-urpn.onrender.com/api/blogcategory",
-            ).then((r) => r.json()),
+          : fetch("http://localhost:8000/api/blogcategory").then((r) =>
+              r.json(),
+            ),
       ]);
 
       setProducts(productsRes.data?.data || []);

@@ -14,7 +14,7 @@ export default function ForgotPassword() {
     setLoading(true);
     try {
       const response = await axios.post(
-        "https://eduhawk-server-urpn.onrender.com/api/auth/forgot-password",
+        "http://localhost:8000/api/auth/forgot-password",
         { email },
       );
       setMessage(response.data.message);

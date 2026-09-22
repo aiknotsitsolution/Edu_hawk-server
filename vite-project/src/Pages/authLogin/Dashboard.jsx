@@ -49,19 +49,19 @@
 //         const [usersRes, queriesRes, contactsRes, productsRes, categoriesRes] =
 //           await Promise.all([
 //             axios
-//               .get("https://eduhawk-server-urpn.onrender.com/api/users")
+//               .get("http://localhost:8000/api/users")
 //               .catch(() => ({ data: { data: [] } })),
 //             axios
-//               .get("https://eduhawk-server-urpn.onrender.com/api/query/all")
+//               .get("http://localhost:8000/api/query/all")
 //               .catch(() => ({ data: { data: [] } })),
 //             axios
-//               .get("https://eduhawk-server-urpn.onrender.com/api/contact")
+//               .get("http://localhost:8000/api/contact")
 //               .catch(() => ({ data: { data: [] } })),
 //             axios
-//               .get("https://eduhawk-server-urpn.onrender.com/api/product")
+//               .get("http://localhost:8000/api/product")
 //               .catch(() => ({ data: { data: [] } })),
 //             axios
-//               .get("https://eduhawk-server-urpn.onrender.com/api/blogcategory")
+//               .get("http://localhost:8000/api/blogcategory")
 //               .catch(() => ({ data: { data: [] } })),
 //           ]);
 
@@ -512,19 +512,19 @@ const Dashboard = () => {
         const [usersRes, queriesRes, contactsRes, productsRes, categoriesRes] =
           await Promise.all([
             axios
-              .get("https://eduhawk-server-urpn.onrender.com/api/users")
+              .get("http://localhost:8000/api/users")
               .catch(() => ({ data: { data: [] } })),
             axios
-              .get("https://eduhawk-server-urpn.onrender.com/api/query/all")
+              .get("http://localhost:8000/api/query/all")
               .catch(() => ({ data: { data: [] } })),
             axios
-              .get("https://eduhawk-server-urpn.onrender.com/api/contact")
+              .get("http://localhost:8000/api/contact")
               .catch(() => ({ data: { data: [] } })),
             axios
-              .get("https://eduhawk-server-urpn.onrender.com/api/product")
+              .get("http://localhost:8000/api/product")
               .catch(() => ({ data: { data: [] } })),
             axios
-              .get("https://eduhawk-server-urpn.onrender.com/api/blogcategory")
+              .get("http://localhost:8000/api/blogcategory")
               .catch(() => ({ data: { data: [] } })),
           ]);
 

@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://eduhawk-server-urpn.onrender.com/api/product";
+const API_URL = "http://localhost:8000/api/product";
 
 export const createProductApi = (formData) => {
   return axios.post(API_URL, formData, {
@@ -9,10 +9,7 @@ export const createProductApi = (formData) => {
 };
 
 export const updateHomeApi = (id, data) => {
-  return axios.put(
-    `https://eduhawk-server-urpn.onrender.com/api/updatehome/${id}`,
-    data,
-  );
+  return axios.put(`http://localhost:8000/api/updatehome/${id}`, data);
 };
 export const deleteHomeApi = (id) => axios.delete(`${API_URL}/${id}`);
 
@@ -24,6 +21,6 @@ export const getPaginatedProductsApi = ({
   limit = 10,
   search = "",
 } = {}) =>
-  axios.get("https://eduhawk-server-urpn.onrender.com/api/product/paginated", {
+  axios.get("http://localhost:8000/api/product/paginated", {
     params: { page, limit, search },
   });

@@ -42,7 +42,7 @@
 //     try {
 //       setLoading(true);
 //       setError(null);
-//       const res = await axios.get("https://eduhawk-server-urpn.onrender.com/api/contact");
+//       const res = await axios.get("http://localhost:8000/api/contact");
 //       const contacts = Array.isArray(res.data)
 //         ? res.data
 //         : res.data?.data || [];
@@ -144,7 +144,7 @@
 
 //     setDeletingId(id);
 //     try {
-//       await axios.delete(`https://eduhawk-server-urpn.onrender.com/api/contact/${id}`);
+//       await axios.delete(`http://localhost:8000/api/contact/${id}`);
 //       setData((prev) => prev.filter((item) => item._id !== id));
 //       showToast("Message deleted successfully", "success");
 //     } catch (err) {
@@ -438,9 +438,7 @@ const Contact = () => {
     try {
       setLoading(true);
       setError(null);
-      const res = await axios.get(
-        "https://eduhawk-server-urpn.onrender.com/api/contact",
-      );
+      const res = await axios.get("http://localhost:8000/api/contact");
       const contacts = Array.isArray(res.data)
         ? res.data
         : res.data?.data || [];
@@ -531,9 +529,7 @@ const Contact = () => {
 
     setDeletingId(id);
     try {
-      await axios.delete(
-        `https://eduhawk-server-urpn.onrender.com/api/contact/${id}`,
-      );
+      await axios.delete(`http://localhost:8000/api/contact/${id}`);
       setData((prev) => prev.filter((item) => item._id !== id));
       toast.success("Message deleted successfully");
     } catch (err) {

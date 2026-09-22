@@ -9,7 +9,7 @@ export const loginUser = createAsyncThunk(
   async (credentials, { rejectWithValue }) => {
     try {
       const response = await axios.post(
-        "https://eduhawk-server-urpn.onrender.com/api/auth/login",
+        "http://localhost:8000/api/auth/login",
         credentials,
         {
           headers: { "Content-Type": "application/json" },
@@ -31,12 +31,9 @@ export const restoreSession = createAsyncThunk(
   "auth/restoreSession",
   async (_, { rejectWithValue }) => {
     try {
-      const response = await axios.get(
-        "https://eduhawk-server-urpn.onrender.com/api/auth/me",
-        {
-          withCredentials: true,
-        },
-      );
+      const response = await axios.get("http://localhost:8000/api/auth/me", {
+        withCredentials: true,
+      });
       return response.data;
     } catch (err) {
       return rejectWithValue(err.response?.data?.message || "Session expired");
@@ -46,7 +43,7 @@ export const restoreSession = createAsyncThunk(
 
 export const logoutUser = createAsyncThunk("auth/logout", async () => {
   await axios.post(
-    "https://eduhawk-server-urpn.onrender.com/api/auth/logout",
+    "http://localhost:8000/api/auth/logout",
     {},
     { withCredentials: true },
   );
