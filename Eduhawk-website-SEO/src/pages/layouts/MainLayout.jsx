@@ -7,25 +7,62 @@ import { ChevronUp, GraduationCap, MapPin, PhoneCall } from "lucide-react";
 const universityDestinations = [
   {
     country: "China",
-    flag: "🇨🇳",
     university: "Peking University Health Science Center",
   },
   {
     country: "Russia",
-    flag: "🇷🇺",
     university: "First Moscow State Medical University (Sechenov)",
   },
   {
     country: "Philippines",
-    flag: "🇵🇭",
     university: "University of Santo Tomas Faculty of Medicine",
   },
   {
     country: "Kazakhstan",
-    flag: "🇰🇿",
     university: "West Kazakhstan Marat Ospanov State Medical University",
   },
 ];
+
+const countryFlags = {
+  China: (
+    <>
+      <rect width="30" height="20" fill="#de2910" />
+      <path
+        d="m7 3 1.1 2.3 2.5.4-1.8 1.7.4 2.5L7 8.7l-2.2 1.2.4-2.5-1.8-1.7 2.5-.4z"
+        fill="#ffde00"
+      />
+      <circle cx="13" cy="4" r="0.8" fill="#ffde00" />
+      <circle cx="16" cy="7" r="0.8" fill="#ffde00" />
+      <circle cx="15" cy="11" r="0.8" fill="#ffde00" />
+      <circle cx="12" cy="14" r="0.8" fill="#ffde00" />
+    </>
+  ),
+  Russia: (
+    <>
+      <rect width="30" height="6.67" fill="#fff" />
+      <rect y="6.67" width="30" height="6.66" fill="#0039a6" />
+      <rect y="13.33" width="30" height="6.67" fill="#d52b1e" />
+    </>
+  ),
+  Philippines: (
+    <>
+      <rect width="30" height="10" fill="#0038a8" />
+      <rect y="10" width="30" height="10" fill="#ce1126" />
+      <path d="M0 0 14 10 0 20z" fill="#fff" />
+      <circle cx="4.5" cy="10" r="2" fill="#fcd116" />
+      <circle cx="4.5" cy="10" r="0.8" fill="#fff" />
+      <path d="m11 3 .5 1.2 1.3.1-1 .8.3 1.2L11 5.6l-1.1.7.3-1.2-.9-.8 1.2-.1zM2 2l.4.8.9.1-.7.6.2.9L2 4l-.8.5.2-.9-.7-.6.9-.1zM2 16l.4.8.9.1-.7.6.2.9L2 18l-.8.5.2-.9-.7-.6.9-.1z" fill="#fcd116" />
+    </>
+  ),
+  Kazakhstan: (
+    <>
+      <rect width="30" height="20" fill="#00afca" />
+      <circle cx="15" cy="8" r="3" fill="#fecd00" />
+      <path d="M15 2.5v1.3m0 8.4v1.3m-5.8-5.7h1.3m9 0h1.3m-9.9-4 1 1m6.2 6.2 1 1m0-8.2-1 1m-6.2 6.2-1 1" stroke="#fecd00" strokeWidth="1" />
+      <path d="M4 0h1v20H4z" fill="#fecd00" />
+    </>
+  ),
+};
 
 const MainLayout = () => {
   const [showScrollTop, setShowScrollTop] = useState(false);
@@ -95,8 +132,14 @@ const MainLayout = () => {
               />
               <p>
                 <span className="font-semibold">Country: </span>
-                <span className="mr-1 inline-flex text-xl leading-none" aria-hidden="true">
-                  {universityDestinations[destinationIndex].flag}
+                <span className="mr-1 inline-flex align-middle" aria-hidden="true">
+                  <svg
+                    viewBox="0 0 30 20"
+                    className="h-5 w-7 rounded-sm border border-gray-300 shadow-sm"
+                    focusable="false"
+                  >
+                    {countryFlags[universityDestinations[destinationIndex].country]}
+                  </svg>
                 </span>
                 {universityDestinations[destinationIndex].country}
               </p>
