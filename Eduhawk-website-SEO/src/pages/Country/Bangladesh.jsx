@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import RussiaFlag from "../../Images/Russia/russia header threejpg.jpg";
 import kernal from "../../Images/top medical collages list/Bangladesh Medical College.png";
 import Bangladeshflag2 from "../../Images/country flag png/Bangladesh-Flag-PNG-Isolated-HD.png";
+import mhsmc from "../../assets/mhsmc.jpg";
 import MARISTATEUNIVERSITY from "../../Images/Russia/MARI STATE UNIVERSITY.jpg";
 import ORELSTATEUNIVERSITY from "../../Images/Russia/OREL STATE UNIVERSITY.jpg";
 import ORENBURGSTATEUNIVERSITY from "../../Images/Russia/ORENBURG STATE UNIVERSITY.jpg";
@@ -292,7 +293,7 @@ const Bangladesh = () => {
 
               {
                 name: "MH Samorita Medical College and Hospital",
-                img: "../../../src/assets/mhsmc.jpg",
+                img: mhsmc,
               },
             ].map((uni, i) => (
               <div
