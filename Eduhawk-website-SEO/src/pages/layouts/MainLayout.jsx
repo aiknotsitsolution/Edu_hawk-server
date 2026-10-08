@@ -2,10 +2,31 @@ import React, { useState, useEffect } from "react";
 import { Outlet } from "react-router-dom";
 import Navbar from "../../component/Navbar";
 import Footer from "../Footer";
-import { ChevronUp } from "lucide-react";
+import { ChevronUp, GraduationCap, MapPin, PhoneCall } from "lucide-react";
+
+const universityDestinations = [
+  {
+    country: "China",
+    university: "Peking University Health Science Center",
+  },
+  {
+    country: "Russia",
+    university: "First Moscow State Medical University (Sechenov)",
+  },
+  {
+    country: "Philippines",
+    university: "University of Santo Tomas Faculty of Medicine",
+  },
+  {
+    country: "Kazakhstan",
+    university: "West Kazakhstan Marat Ospanov State Medical University",
+  },
+];
 
 const MainLayout = () => {
   const [showScrollTop, setShowScrollTop] = useState(false);
+  const [showUniversityCard, setShowUniversityCard] = useState(false);
+  const [destinationIndex, setDestinationIndex] = useState(0);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -14,6 +35,23 @@ const MainLayout = () => {
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  useEffect(() => {
+    let rotationInterval;
+    const visibilityTimeout = window.setTimeout(() => {
+      setShowUniversityCard(true);
+      rotationInterval = window.setInterval(() => {
+        setDestinationIndex((currentIndex) =>
+          (currentIndex + 1) % universityDestinations.length
+        );
+      }, 5000);
+    }, 5000);
+
+    return () => {
+      window.clearTimeout(visibilityTimeout);
+      window.clearInterval(rotationInterval);
+    };
   }, []);
 
   const scrollToTop = () => {
@@ -33,6 +71,50 @@ const MainLayout = () => {
       </main>
 
       <Footer />
+
+      {showUniversityCard && (
+        <section
+          aria-live="polite"
+          aria-label="Study abroad university information"
+          className="fixed bottom-24 left-4 z-40 w-[calc(100vw-2rem)] max-w-sm rounded-2xl border border-blue-100 bg-white p-4 shadow-2xl sm:bottom-6 sm:left-6"
+        >
+          <div className="mb-3 flex items-center gap-2 text-blue-700">
+            <GraduationCap size={20} aria-hidden="true" />
+            <p className="text-sm font-bold">Study Abroad Spotlight</p>
+          </div>
+          <div className="space-y-2">
+            <div className="flex items-start gap-2 text-sm text-gray-700">
+              <MapPin
+                size={17}
+                className="mt-0.5 shrink-0 text-blue-600"
+                aria-hidden="true"
+              />
+              <p>
+                <span className="font-semibold">Country: </span>
+                {universityDestinations[destinationIndex].country}
+              </p>
+            </div>
+            <div className="flex items-start gap-2 text-sm text-gray-700">
+              <GraduationCap
+                size={17}
+                className="mt-0.5 shrink-0 text-blue-600"
+                aria-hidden="true"
+              />
+              <p>
+                <span className="font-semibold">University: </span>
+                {universityDestinations[destinationIndex].university}
+              </p>
+            </div>
+          </div>
+          <a
+            href="tel:+919630736070"
+            className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-lg bg-red-500 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-blue-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-700"
+          >
+            <PhoneCall size={17} aria-hidden="true" />
+            Call Now
+          </a>
+        </section>
+      )}
 
       {/* Floating Buttons */}
       <div className="fixed bottom-6 right-6 flex gap-4 z-50">
