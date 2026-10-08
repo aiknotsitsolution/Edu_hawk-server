@@ -5,6 +5,7 @@ import RussiaFlag from "../../Images/country flag png/Nepal.svg";
 import { Helmet } from 'react-helmet-async';
 import { useNavigate } from "react-router-dom";
 import Kathmandu from "../../../src/Images/Kathmandu.jpg";
+import LumbiniMedicalCollege from "../../Images/Nepal/Lumbini_Medical_College.jpg";
 
 const Nepal = () => {
   const [showMoreAbout, setShowMoreAbout] = useState(false);
@@ -231,7 +232,7 @@ const Nepal = () => {
               },
               {
                 name: "Lumbini Medical College",
-                img: "https://flyfuture.in/admin/services/1658570838.jpg",
+                img: LumbiniMedicalCollege,
               },
               {
                 name: "Devdaha Medical College and Research Institute",
