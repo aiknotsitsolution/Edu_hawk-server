@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Banner from "../../../src/Images/Italy/UniversityPadua.png";
-import MBBSStudent from "../../../src/Images/Italy/MBBS-in-Italy.webp";
+import MBBSStudent from "../../../src/Images/Italy/MBBS-in-Italy.png";
 import Flowchart from "../../../src/Images/Italy/flowchart.png";
 
 import UniversitiesInMilan from "../../../src/Images/Italy/UniversitiesInMilan.png";
