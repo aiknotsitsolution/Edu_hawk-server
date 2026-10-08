@@ -7,18 +7,22 @@ import { ChevronUp, GraduationCap, MapPin, PhoneCall } from "lucide-react";
 const universityDestinations = [
   {
     country: "China",
+    flag: "🇨🇳",
     university: "Peking University Health Science Center",
   },
   {
     country: "Russia",
+    flag: "🇷🇺",
     university: "First Moscow State Medical University (Sechenov)",
   },
   {
     country: "Philippines",
+    flag: "🇵🇭",
     university: "University of Santo Tomas Faculty of Medicine",
   },
   {
     country: "Kazakhstan",
+    flag: "🇰🇿",
     university: "West Kazakhstan Marat Ospanov State Medical University",
   },
 ];
@@ -91,6 +95,9 @@ const MainLayout = () => {
               />
               <p>
                 <span className="font-semibold">Country: </span>
+                <span className="mr-1 inline-flex text-xl leading-none" aria-hidden="true">
+                  {universityDestinations[destinationIndex].flag}
+                </span>
                 {universityDestinations[destinationIndex].country}
               </p>
             </div>
