@@ -867,17 +867,29 @@ const Italy = () => {
               For students, pursuing MBBS in Italy may prove more economical than many private medical colleges in India and other overseas destinations.
             </p>
             <ul className="space-y-4 text-gray-700">
-              <li>
+              <li className="flex items-start">
+                <span className="mr-3 inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-100 text-sm font-bold text-blue-700" aria-hidden="true">1</span>
+                <span>
                 <strong>Public Universities:</strong> Tuition fees are usually tied to income and can be relatively affordable.
+                </span>
               </li>
-              <li>
+              <li className="flex items-start">
+                <span className="mr-3 inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-100 text-sm font-bold text-blue-700" aria-hidden="true">2</span>
+                <span>
                 <strong>Regional Scholarships:</strong> Qualifying international students may be granted tuition reductions and financial assistance.
+                </span>
               </li>
-              <li>
+              <li className="flex items-start">
+                <span className="mr-3 inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-100 text-sm font-bold text-blue-700" aria-hidden="true">3</span>
+                <span>
                 <strong>Private Universities:</strong> Fees tend to be higher and differ from one institution to another.
+                </span>
               </li>
-              <li>
+              <li className="flex items-start">
+                <span className="mr-3 inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-100 text-sm font-bold text-blue-700" aria-hidden="true">4</span>
+                <span>
                 <strong>Additional Costs:</strong> Students should also plan for accommodation, food, transport, insurance, visa and other living expenses.
+                </span>
               </li>
             </ul>
           </div>
@@ -926,7 +938,7 @@ const Italy = () => {
             For Indian students intending to pursue MBBS in Italy and then return to practise medicine in India, the NMC Foreign Medical Graduate Licentiate (FMGL) Regulations are a key consideration.
           </p>
           <h4 className="text-xl font-semibold text-blue-800 mb-4">Key requirements include:</h4>
-          <ul className="space-y-3 text-gray-700">
+          <ul className="list-disc space-y-3 pl-6 text-gray-700">
             <li>
               <strong>Course Duration</strong> – The medical programme must satisfy the applicable minimum duration requirements.
             </li>
