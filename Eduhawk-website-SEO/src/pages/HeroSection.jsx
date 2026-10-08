@@ -12,7 +12,6 @@ import checkup from "../assets/checkup.png";
 import charges from "../assets/charges.png";
 import Kathmandu from "../../src/Images/Kathmandu.jpg";
 import Eduhawk from "../assets/Eduhawk.png"; // ← adjust path if needed
-import { useNavigate } from "react-router-dom";
 import { X, ChevronDown } from "lucide-react";
 
 import univercity from "../Images/university-image/singapore.jpg";
@@ -212,7 +211,6 @@ export default function HeroSection() {
   const [exploreMenuOpen, setExploreMenuOpen] = useState(false);
   const [openFaq, setOpenFaq] = useState(0);
   const exploreMenuRef = useRef(null);
-  const navigate = useNavigate();
   // Toast Notification Functions
   const showSuccess = (message) => {
     toast.success(message, {
@@ -239,14 +237,11 @@ export default function HeroSection() {
 
   // Shared API call
   const submitToApi = async (payload) => {
-    const res = await fetch(
-      "https://edu-hawk-server.onrender.com/api/query/create",
-      {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload),
-      },
-    );
+    const res = await fetch("https://api.eduhawk.in/api/query/create", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    });
     return res.json();
   };
 
@@ -847,7 +842,7 @@ export default function HeroSection() {
                     MBBS India
                   </Link>
                   <Link
-                    to="/mbbs-abroad/russia"
+                    to="/mbbsabroad/russia"
                     onClick={() => setExploreMenuOpen(false)}
                     className="block w-full rounded-2xl border border-white/20 bg-white/5 text-white text-center font-semibold px-4 py-3 transition hover:bg-white/10 hover:shadow-lg"
                   >
@@ -888,7 +883,11 @@ export default function HeroSection() {
                 universities through transparent &amp; ethical counselling.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4 text-base">
-                As trusted overseas medical education consultants, we provide
+                As trusted overseas{" "}
+                <Link to="/mbbsabroad/italy">
+                  <strong>medical education </strong>
+                </Link>
+  consultants, we provide
                 personalized guidance based on your academic profile, budget,
                 and long-term career goals — ensuring the right country,
                 university, and eligibility for practice in India.
@@ -1004,12 +1003,12 @@ export default function HeroSection() {
                       With our assistance, you can bid farewell to the
                       complexities often associated with
                       <strong className="text-[#0a2342] font-semibold hover:text-[#426a91] transition-colors duration-200 p-2">
-                        <button
-                          onClick={() => navigate("/mbbs-abroad/russia")}
+                        <Link
+                          to="/study-abroad"
                           className="hover:text-[#426a91] transition-colors duration-200"
                         >
                           MBBS admission abroad
-                        </button>
+                        </Link>
                       </strong>
                       We streamline the entire process, sparing you from any
                       unnecessary hassle and ensuring a seamless experience

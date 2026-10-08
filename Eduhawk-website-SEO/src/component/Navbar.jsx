@@ -1632,6 +1632,7 @@ const Navbar = () => {
     { name: "Russia", path: "russia" },
     { name: "Bangladesh", path: "bangladesh" },
     { name: "Nepal", path: "nepal" },
+    { name: "Italy", path: "italy" },
     { name: "Kazakhstan", path: "kazakhstan" },
     { name: "Kyrgyzstan", path: "kyrgyzstan" },
     { name: "Uzbekistan", path: "uzbekistan" },
@@ -1639,6 +1640,7 @@ const Navbar = () => {
     { name: "Egypt", path: "egypt" },
     { name: "Georgia", path: "georgia" },
     { name: "Vietnam", path: "vietnam" },
+    
   ];
 
   const engineeringBranches = [

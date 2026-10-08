@@ -412,18 +412,14 @@ const Contact = () => {
                     N-5, South Extension Part-1, New Delhi - 110049
                   </p>
 
-                  {/* New: Horizontal Office Buttons */}
-
-                  <div className="aspect-video rounded-lg overflow-hidden shadow-inner">
+                  <div className="relative aspect-video w-full overflow-hidden rounded-lg shadow-inner">
                     <iframe
-                      src="https://www.google.com/maps?q=N-5%2C%20South%20Extension%20Part-1%2C%20New%20Delhi%20110049&output=embed"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.036209217567!2d77.2195!3d28.5685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce33e1bb0f49f%3A0x187a2bd73bcafa58!2sEdu%20Hawk%20Worldwide%20-%20MBBS%20Abroad%20Consultants%20in%20Delhi!5e0!3m2!1sen!2sin!4v1790078295489!5m2!1sen!2sin"
                       title="EduHawk main office location"
-                      width="100%"
-                      height="100%"
-                      style={{ border: 0 }}
+                      className="absolute inset-0 block h-full w-full border-0"
                       allowFullScreen
                       loading="lazy"
-                      referrerPolicy="no-referrer-when-downgrade"
+                      referrerPolicy="strict-origin-when-cross-origin"
                     />
                   </div>
                 </div>

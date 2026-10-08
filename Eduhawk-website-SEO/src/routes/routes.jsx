@@ -20,6 +20,7 @@ import Nepal from "../pages/Country/Nepal.jsx";
 import Tejikistan from "../pages/Country/Tejikistan.jsx";
 import Uzbekistan from "../pages/Country/Uzbekistan.jsx";
 import Vietnam from "../pages/Country/Vietnam.jsx";
+import Italy from "../pages/Country/Italy.jsx";
 import BlogSection from "../pages/Blog/BlogSection.jsx";
 import Blog from "../pages/Component/Blog.jsx";
 import BlogDetail from "../pages/Component/BlogDetail.jsx";
@@ -118,6 +119,10 @@ export const router = createBrowserRouter([
       {
         path: "mbbsabroad/vietnam",
         element: <Vietnam />,
+      },
+      {
+        path: "mbbsabroad/italy",
+        element: <Italy />,
       },
       {
         path: "blog/education-blog",

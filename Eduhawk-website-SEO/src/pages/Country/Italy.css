@@ -1,0 +1,221 @@
+.italy-page {
+  background:
+    radial-gradient(ellipse at top left, rgb(219 234 254 / 35%), transparent 34rem),
+    #f4f7fb;
+}
+
+.italy-hero {
+  isolation: isolate;
+  background: #10243b;
+}
+
+.italy-hero img {
+  transform: scale(1.025);
+}
+
+.italy-hero__overlay {
+  justify-content: flex-start;
+  padding: clamp(1.5rem, 8vw, 8rem);
+  background:
+    linear-gradient(90deg, rgb(7 21 39 / 82%) 0%, rgb(7 21 39 / 56%) 48%, rgb(7 21 39 / 10%) 100%),
+    linear-gradient(0deg, rgb(7 21 39 / 28%), transparent 60%);
+}
+
+.italy-hero__title {
+  max-width: 900px;
+  margin: 0;
+  text-align: left;
+  font-size: clamp(2.75rem, 7.5vw, 6.5rem);
+  line-height: 1.04;
+  letter-spacing: -0.045em;
+  text-wrap: balance;
+}
+
+.italy-content {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(2.5rem, 5vw, 4rem);
+  padding-top: clamp(2rem, 5vw, 4rem);
+  padding-bottom: clamp(3rem, 6vw, 5rem);
+}
+
+.italy-content > div[class*="mb-"] {
+  margin-bottom: 0;
+  padding: clamp(1.25rem, 3vw, 2.5rem);
+  border: 1px solid #e2e8f0;
+  border-radius: 1.5rem;
+  background-color: #fff;
+  box-shadow: 0 16px 40px rgb(15 39 68 / 6%);
+}
+
+.italy-content > div[class*="bg-blue-50"] {
+  border-color: #bfdbfe;
+  background-color: #eff6ff;
+}
+
+.italy-content > div[class*="bg-yellow-50"] {
+  border-color: #fde68a;
+  background-color: #fffbeb;
+}
+
+.italy-content > div[class*="bg-red-50"] {
+  border-color: #fecaca;
+  background-color: #fef2f2;
+}
+
+.italy-content h2 {
+  color: #153b67;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+  text-wrap: balance;
+}
+
+.italy-content h3,
+.italy-content h4,
+.italy-content h5 {
+  text-wrap: balance;
+}
+
+.italy-content p {
+  line-height: 1.8;
+}
+
+.italy-content table {
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  border-radius: 0.75rem;
+}
+
+.italy-content th,
+.italy-content td {
+  border-color: #e2e8f0;
+}
+
+.italy-faq-list {
+  display: grid;
+  gap: 0.85rem;
+  width: 100%;
+}
+
+.italy-faq-item {
+  overflow: hidden;
+  border: 1px solid #e2e8f0;
+  border-radius: 1rem;
+  background: #fff;
+  box-shadow: 0 5px 16px rgb(15 39 68 / 4%);
+  transition: border-color 220ms ease, box-shadow 220ms ease;
+}
+
+.italy-faq-item.is-open {
+  border-color: #93c5fd;
+  box-shadow: 0 10px 24px rgb(15 39 68 / 8%);
+}
+
+.italy-faq-question {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.15rem 1.25rem;
+  color: #153b67;
+  text-align: left;
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.italy-faq-question:focus-visible {
+  outline: 3px solid #60a5fa;
+  outline-offset: -3px;
+}
+
+.italy-faq-icon {
+  display: grid;
+  width: 2rem;
+  height: 2rem;
+  flex: 0 0 2rem;
+  place-items: center;
+  border-radius: 9999px;
+  background: #eff6ff;
+  color: #1d4ed8;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1;
+  transition: transform 280ms ease, background-color 220ms ease, color 220ms ease;
+}
+
+.italy-faq-item.is-open .italy-faq-icon {
+  transform: rotate(45deg);
+  background: #1d4ed8;
+  color: #fff;
+}
+
+.italy-faq-answer {
+  display: grid;
+  grid-template-rows: 0fr;
+  opacity: 0;
+  transition: grid-template-rows 320ms ease, opacity 220ms ease;
+}
+
+.italy-faq-answer.is-open {
+  grid-template-rows: 1fr;
+  opacity: 1;
+}
+
+.italy-faq-answer__inner {
+  min-height: 0;
+  overflow: hidden;
+  padding: 0 1.25rem;
+  color: #475569;
+  transition: padding 320ms ease;
+}
+
+.italy-faq-answer.is-open .italy-faq-answer__inner {
+  padding-bottom: 1.25rem;
+}
+
+.italy-faq-answer__inner p {
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .italy-hero {
+    min-height: 360px;
+    height: 62svh;
+  }
+
+  .italy-hero__overlay {
+    align-items: flex-end;
+    padding: 2rem 1.5rem 3rem;
+    background:
+      linear-gradient(0deg, rgb(7 21 39 / 82%) 0%, rgb(7 21 39 / 28%) 72%, transparent 100%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .italy-hero img {
+    transform: none;
+  }
+
+  .italy-faq-question,
+  .italy-faq-answer__inner {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .italy-faq-answer.is-open .italy-faq-answer__inner {
+    padding-bottom: 1rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .italy-faq-item,
+  .italy-faq-icon,
+  .italy-faq-answer,
+  .italy-faq-answer__inner {
+    transition-duration: 0.01ms;
+  }
+}
