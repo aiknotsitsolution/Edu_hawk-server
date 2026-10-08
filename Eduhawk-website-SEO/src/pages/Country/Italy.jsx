@@ -891,14 +891,23 @@ const Italy = () => {
             </p>
             <h4 className="text-xl font-semibold text-blue-800 mb-3">Major Scholarship Options</h4>
             <ul className="space-y-4 text-gray-700">
-              <li>
+              <li className="flex items-start">
+                <span className="mr-3 inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-100 text-sm font-bold text-blue-700" aria-hidden="true">1</span>
+                <span>
                 <strong>Regional Scholarships (DSU):</strong> Need-based assistance provided through regional authorities, which may cover tuition benefits, accommodation, meals and financial support.
+                </span>
               </li>
-              <li>
+              <li className="flex items-start">
+                <span className="mr-3 inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-100 text-sm font-bold text-blue-700" aria-hidden="true">2</span>
+                <span>
                 <strong>University Scholarships:</strong> Some individual universities may provide merit-based awards or other forms of tuition-fee assistance.
+                </span>
               </li>
-              <li>
+              <li className="flex items-start">
+                <span className="mr-3 inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-100 text-sm font-bold text-blue-700" aria-hidden="true">3</span>
+                <span>
                 <strong>Government Scholarships (MAECI):</strong> These are scholarships provided by the Italian Government to qualifying international students under the relevant annual call. Eligibility requirements and the programmes covered differ from one call to another.
+                </span>
               </li>
             </ul>
             <h4 className="text-xl font-semibold text-blue-800 mt-6 mb-3">What Scholarships May Cover</h4>
@@ -1075,7 +1084,8 @@ const Italy = () => {
         }}
       >
         <h4 className="text-lg font-semibold text-blue-900 pr-4">
-        Is Italy a Schengen Country?
+          <span className="mr-3 inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-100 text-sm font-bold text-blue-700" aria-hidden="true">1</span>
+          Is Italy a Schengen Country?
         </h4>
         <svg
           className="w-5 h-5 text-blue-700 flex-shrink-0 transition-transform duration-300"
@@ -1105,7 +1115,8 @@ const Italy = () => {
         }}
       >
         <h4 className="text-lg font-semibold text-blue-900 pr-4">
-        Are there any scholarships for MBBS in Italy?
+          <span className="mr-3 inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-100 text-sm font-bold text-blue-700" aria-hidden="true">2</span>
+          Are there any scholarships for MBBS in Italy?
         </h4>
         <svg
           className="w-5 h-5 text-blue-700 flex-shrink-0 transition-transform duration-300"
@@ -1135,6 +1146,7 @@ const Italy = () => {
         }}
       >
         <h4 className="text-lg font-semibold text-blue-900 pr-4">
+          <span className="mr-3 inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-100 text-sm font-bold text-blue-700" aria-hidden="true">3</span>
           What is the medium of teaching MBBS in Italy?
         </h4>
         <svg
@@ -1165,6 +1177,7 @@ const Italy = () => {
         }}
       >
         <h4 className="text-lg font-semibold text-blue-900 pr-4">
+          <span className="mr-3 inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-100 text-sm font-bold text-blue-700" aria-hidden="true">4</span>
           Is it possible to work while pursuing MBBS in Italy?
         </h4>
         <svg
@@ -1195,6 +1208,7 @@ const Italy = () => {
         }}
       >
         <h4 className="text-lg font-semibold text-blue-900 pr-4">
+          <span className="mr-3 inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-100 text-sm font-bold text-blue-700" aria-hidden="true">5</span>
           After completing MBBS in Italy, can I practice in India?
         </h4>
         <svg
@@ -1225,6 +1239,7 @@ const Italy = () => {
         }}
       >
         <h4 className="text-lg font-semibold text-blue-900 pr-4">
+          <span className="mr-3 inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-100 text-sm font-bold text-blue-700" aria-hidden="true">6</span>
           Is NEET required to apply for MBBS in Italy?
         </h4>
         <svg
@@ -1255,7 +1270,8 @@ const Italy = () => {
         }}
       >
         <h4 className="text-lg font-semibold text-blue-900 pr-4">
-        Are medical programmes taught in English available in Italy?
+          <span className="mr-3 inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-100 text-sm font-bold text-blue-700" aria-hidden="true">7</span>
+          Are medical programmes taught in English available in Italy?
         </h4>
         <svg
           className="w-5 h-5 text-blue-700 flex-shrink-0 transition-transform duration-300"
@@ -1285,7 +1301,8 @@ const Italy = () => {
         }}
       >
         <h4 className="text-lg font-semibold text-blue-900 pr-4">
-        Can Indian students obtain scholarships in Italy?
+          <span className="mr-3 inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-100 text-sm font-bold text-blue-700" aria-hidden="true">8</span>
+          Can Indian students obtain scholarships in Italy?
         </h4>
         <svg
           className="w-5 h-5 text-blue-700 flex-shrink-0 transition-transform duration-300"
@@ -1315,7 +1332,8 @@ const Italy = () => {
         }}
       >
         <h4 className="text-lg font-semibold text-blue-900 pr-4">
-        Is an MBBS earned in Italy recognised in India?
+          <span className="mr-3 inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-100 text-sm font-bold text-blue-700" aria-hidden="true">9</span>
+          Is an MBBS earned in Italy recognised in India?
         </h4>
         <svg
           className="w-5 h-5 text-blue-700 flex-shrink-0 transition-transform duration-300"
@@ -1345,6 +1363,7 @@ const Italy = () => {
         }}
       >
         <h4 className="text-lg font-semibold text-blue-900 pr-4">
+          <span className="mr-3 inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-blue-100 text-sm font-bold text-blue-700" aria-hidden="true">10</span>
           What career paths are available after studying Medicine in Italy?
         </h4>
         <svg
