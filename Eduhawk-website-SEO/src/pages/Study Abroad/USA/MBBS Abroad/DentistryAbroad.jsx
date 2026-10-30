@@ -1621,49 +1621,7 @@ const DentistryAbroad = () => {
         </div>
       </section>
 
-      {/* ================= FINAL CTA ================= */}
-      <section
-        id="consult"
-        ref={setRef("consult")}
-        className={`py-16 sm:py-20 transition-all duration-700 ${
-          visibleSections.consult
-            ? "opacity-100 translate-y-0"
-            : "opacity-0 translate-y-8"
-        }`}
-      >
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-3xl px-8 py-14 sm:px-12 text-center text-white relative overflow-hidden">
-            <div className="absolute top-0 right-0 w-64 h-64 bg-teal-600/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none" />
-            <div className="absolute bottom-0 left-0 w-48 h-48 bg-cyan-600/15 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2 pointer-events-none" />
-
-            <h2 className="text-2xl sm:text-3xl font-bold mb-3 relative">
-              Ready to start your Dentistry journey?
-            </h2>
-            <p className="text-white/70 max-w-md mx-auto mb-8 leading-relaxed text-[15px] relative">
-              Book a free counselling session. We will assess your profile,
-              share realistic options and give you a clear cost & process
-              roadmap.
-            </p>
-
-            <div className="flex flex-col sm:flex-row flex-wrap gap-3.5 justify-center relative">
-              <a
-                href="https://wa.me/917632949984"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base bg-teal-600 text-white hover:bg-teal-700 hover:scale-105 transition-all duration-300 no-underline shadow-lg shadow-teal-600/25"
-              >
-                WhatsApp us now
-              </a>
-              <a
-                href="tel:+917632949984"
-                className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base border-[1.5px] border-white/30 text-white hover:bg-white/10 hover:border-white hover:scale-105 transition-all duration-300 no-underline"
-              >
-                Call +91 76329 49984
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+     
     </div>
   );
 };
