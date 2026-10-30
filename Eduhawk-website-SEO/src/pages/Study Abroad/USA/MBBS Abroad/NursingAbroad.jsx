@@ -1,11 +1,46 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 
 const NursingAbroad = () => {
   const [openFaq, setOpenFaq] = useState(null);
+  const pageRef = useRef(null);
 
   const toggleFaq = (index) => {
     setOpenFaq(openFaq === index ? null : index);
   };
+
+  useEffect(() => {
+    const sections = pageRef.current?.querySelectorAll(
+      "section:not(.nursing-hero)",
+    );
+    if (!sections) return;
+
+    if (
+      !("IntersectionObserver" in window) ||
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches
+    ) {
+      sections.forEach((section) => section.classList.add("is-visible"));
+      return;
+    }
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("is-visible");
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.12, rootMargin: "0px 0px -40px 0px" },
+    );
+
+    sections.forEach((section) => {
+      section.classList.add("nursing-reveal");
+      observer.observe(section);
+    });
+
+    return () => observer.disconnect();
+  }, []);
 
   const stats = [
     { label: "Programs", value: "BSc Nursing, GNM, MSc Nursing & Allied" },
@@ -356,13 +391,114 @@ const NursingAbroad = () => {
   ];
 
   return (
-    <div className="font-sans text-slate-800 bg-white min-h-screen antialiased">
+    <div
+      ref={pageRef}
+      className="nursing-page font-sans text-slate-800 bg-white min-h-screen antialiased"
+    >
+      <style>{`
+        @keyframes nursing-float {
+          0%, 100% { transform: translate3d(0, 0, 0); }
+          50% { transform: translate3d(0, -16px, 0); }
+        }
+        @keyframes nursing-image-in {
+          from { opacity: 0; transform: translateX(24px) scale(.98); }
+          to { opacity: 1; transform: translateX(0) scale(1); }
+        }
+        @keyframes nursing-card-in {
+          from { opacity: 0; transform: translateY(16px); }
+          to { opacity: 1; transform: translateY(0); }
+        }
+        .nursing-page .nursing-reveal {
+          opacity: 0;
+          transform: translateY(24px);
+          transition: opacity .65s ease, transform .65s cubic-bezier(.2, .7, .2, 1);
+        }
+        .nursing-page .nursing-reveal.is-visible {
+          opacity: 1;
+          transform: translateY(0);
+        }
+        .nursing-page .nursing-hero-glow {
+          animation: nursing-float 8s ease-in-out infinite;
+        }
+        .nursing-page .nursing-hero-image {
+          animation: nursing-image-in .8s ease-out .15s both;
+        }
+        .nursing-page .nursing-card {
+          animation: nursing-card-in .55s ease-out backwards;
+          animation-delay: var(--card-delay, 0ms);
+          transition: transform .3s ease, box-shadow .3s ease, border-color .3s ease;
+        }
+        .nursing-page .nursing-card:hover {
+          transform: translateY(-4px);
+          box-shadow: 0 16px 35px rgba(15, 23, 42, .09);
+        }
+        .nursing-page .nursing-university-image {
+          transition: transform .7s cubic-bezier(.2, .7, .2, 1);
+        }
+        .nursing-page .nursing-card:hover .nursing-university-image {
+          transform: scale(1.08);
+        }
+        .nursing-page section h2 {
+          letter-spacing: -.025em;
+        }
+        @media (max-width: 1023px) {
+          .nursing-page .nursing-hero-image {
+            height: clamp(14rem, 52vw, 24rem);
+          }
+        }
+        @media (max-width: 639px) {
+          .nursing-page {
+            overflow-x: clip;
+          }
+          .nursing-page section:not(.nursing-hero) {
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+          }
+          .nursing-page .max-w-6xl {
+            padding-left: 1rem;
+            padding-right: 1rem;
+          }
+          .nursing-page h1 {
+            font-size: clamp(2rem, 9vw, 2.5rem);
+            letter-spacing: -.035em;
+          }
+          .nursing-page h2 {
+            text-wrap: balance;
+          }
+          .nursing-page section a {
+            min-height: 2.75rem;
+          }
+          .nursing-page .nursing-hero-glow {
+            width: 18rem;
+            height: 18rem;
+          }
+          .nursing-page img:not(.nursing-hero-image) {
+            max-height: 24rem;
+          }
+        }
+        @media (hover: none) {
+          .nursing-page .nursing-card:hover {
+            transform: none;
+            box-shadow: none;
+          }
+        }
+        @media (prefers-reduced-motion: reduce) {
+          .nursing-page *,
+          .nursing-page *::before,
+          .nursing-page *::after {
+            animation-duration: .01ms !important;
+            animation-iteration-count: 1 !important;
+            scroll-behavior: auto !important;
+            transition-duration: .01ms !important;
+          }
+        }
+      `}</style>
       {/* ================= HERO ================= */}
-      <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white pt-16 pb-20 relative overflow-hidden">
-        <div className="absolute top-[-30%] right-[-10%] w-[500px] h-[500px] bg-indigo-600/20 rounded-full blur-3xl pointer-events-none" />
+      <section className="nursing-hero bg-gradient-to-br from-slate-950 via-slate-900 to-indigo-950 text-white pt-12 pb-14 sm:pt-16 sm:pb-20 relative overflow-hidden">
+        <div className="nursing-hero-glow absolute top-[-30%] right-[-10%] w-[500px] h-[500px] bg-indigo-600/20 rounded-full blur-3xl pointer-events-none" />
         
-        <div className="max-w-6xl mx-auto px-6 relative">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             <div>
               <div className="text-sm text-white/50 mb-5">
                 Home <span className="mx-1.5">›</span> Study Abroad{" "}
@@ -389,27 +525,27 @@ const NursingAbroad = () => {
                 Edu Hawk helps you choose the right country and university, understand real costs, and complete the entire admission + visa process with complete transparency.
               </p>
               
-              <div className="flex flex-wrap gap-3.5">
+              <div className="flex flex-col sm:flex-row flex-wrap gap-3.5">
                 <a
                   href="#consult"
-                  className="inline-flex items-center justify-center px-7 py-3.5 rounded-[10px] font-semibold text-base bg-indigo-600 text-white hover:bg-indigo-700 transition-all no-underline shadow-lg shadow-indigo-600/25"
+                  className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base bg-indigo-600 text-white hover:bg-indigo-700 transition-all no-underline shadow-lg shadow-indigo-600/25"
                 >
                   Book free counselling
                 </a>
                 <a
                   href="#destinations"
-                  className="inline-flex items-center justify-center px-7 py-3.5 rounded-[10px] font-semibold text-base border-[1.5px] border-white/30 text-white hover:bg-white/10 hover:border-white transition-all no-underline"
+                  className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base border-[1.5px] border-white/30 text-white hover:bg-white/10 hover:border-white transition-all no-underline"
                 >
                   View countries
                 </a>
               </div>
             </div>
 
-            <div className="relative hidden lg:block">
+            <div className="relative mt-2 lg:mt-0">
               <img
                 src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80"
                 alt="Nursing students abroad"
-                className="rounded-2xl shadow-2xl object-cover w-full h-[440px]"
+                className="nursing-hero-image rounded-2xl shadow-2xl object-cover w-full h-56 sm:h-72 lg:h-[440px]"
               />
               <div className="absolute bottom-5 left-5 bg-white/15 backdrop-blur-md px-4 py-2.5 rounded-xl text-sm font-medium">
                 Trusted by 1000+ Indian students
@@ -435,7 +571,8 @@ const NursingAbroad = () => {
             {stats.map((item, i) => (
               <div
                 key={i}
-                className="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm hover:shadow-md transition-shadow"
+                className="nursing-card bg-white border border-slate-200 rounded-2xl p-5 shadow-sm"
+                style={{ "--card-delay": `${i * 80}ms` }}
               >
                 <span className="block text-[13px] text-slate-500 font-medium mb-1.5">
                   {item.label}
@@ -498,7 +635,8 @@ const NursingAbroad = () => {
             {features.map((f, i) => (
               <div
                 key={i}
-                className="bg-white border border-slate-200 rounded-2xl p-6 hover:border-indigo-200 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-250"
+                className="nursing-card bg-white border border-slate-200 rounded-2xl p-6 hover:border-indigo-200"
+                style={{ "--card-delay": `${i * 70}ms` }}
               >
                 <div className={`w-[42px] h-[42px] rounded-xl grid place-items-center mb-4 ${f.color}`}>
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4">
@@ -532,7 +670,8 @@ const NursingAbroad = () => {
             {usaBenefits.map((item, i) => (
               <div
                 key={i}
-                className="bg-white border border-slate-200 rounded-2xl p-6 hover:border-indigo-200 hover:shadow-lg hover:-translate-y-0.5 transition-all duration-250"
+                className="nursing-card bg-white border border-slate-200 rounded-2xl p-6 hover:border-indigo-200"
+                style={{ "--card-delay": `${i * 70}ms` }}
               >
                 <div className="w-[42px] h-[42px] rounded-xl grid place-items-center mb-4 bg-indigo-50 text-indigo-600">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4">
@@ -570,7 +709,7 @@ const NursingAbroad = () => {
           </div>
 
           <div className="space-y-6">
-            <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 hover:shadow-lg hover:border-indigo-100 transition-all duration-300">
+            <div className="nursing-card bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 hover:border-indigo-100">
               <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
                 <span className="w-8 h-8 rounded-lg bg-indigo-50 text-indigo-600 grid place-items-center text-sm font-bold">1</span>
                 Bachelor of Science in Nursing (BSN)
@@ -591,7 +730,7 @@ const NursingAbroad = () => {
               </p>
             </div>
 
-            <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 hover:shadow-lg hover:border-indigo-100 transition-all duration-300">
+            <div className="nursing-card bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 hover:border-indigo-100">
               <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
                 <span className="w-8 h-8 rounded-lg bg-violet-50 text-violet-600 grid place-items-center text-sm font-bold">2</span>
                 Associate Degree in Nursing (ADN)
@@ -601,7 +740,7 @@ const NursingAbroad = () => {
               </p>
             </div>
 
-            <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 hover:shadow-lg hover:border-indigo-100 transition-all duration-300">
+            <div className="nursing-card bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 hover:border-indigo-100">
               <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
                 <span className="w-8 h-8 rounded-lg bg-purple-50 text-purple-600 grid place-items-center text-sm font-bold">3</span>
                 Graduate Nursing Programs
@@ -641,14 +780,21 @@ const NursingAbroad = () => {
             {topUniversities.map((uni, i) => (
               <div
                 key={i}
-                className="bg-white border border-slate-200 rounded-xl px-5 py-4 flex items-center gap-3 hover:border-indigo-200 hover:shadow-md transition-all"
+                className="nursing-card group relative overflow-hidden rounded-2xl border border-indigo-100 bg-gradient-to-br from-white via-white to-indigo-50/70 px-5 py-6 shadow-sm hover:border-indigo-200"
+                style={{ "--card-delay": `${i * 90}ms` }}
               >
-                <div className="w-9 h-9 rounded-lg bg-indigo-50 text-indigo-600 grid place-items-center flex-shrink-0">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2">
-                    <path d="M5 13l4 4L19 7" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
+                <div className="absolute -right-7 -top-7 h-24 w-24 rounded-full bg-indigo-100/60 transition-transform duration-500 group-hover:scale-150" />
+                <div className="relative flex items-start gap-4">
+                  <div className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-indigo-600 text-white shadow-md shadow-indigo-600/20">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
+                      <path d="M12 3 3 7.5 12 12l9-4.5L12 3Z" strokeLinejoin="round" />
+                      <path d="M7 10v5c2.8 2.7 7.2 2.7 10 0v-5M21 8v6" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  </div>
+                  <span className="relative pt-1 text-[15px] font-semibold leading-relaxed text-slate-800 group-hover:text-indigo-700 transition-colors">
+                    {uni}
+                  </span>
                 </div>
-                <span className="text-[15px] font-medium text-slate-800">{uni}</span>
               </div>
             ))}
           </div>
@@ -1121,11 +1267,12 @@ const NursingAbroad = () => {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            <div className="relative rounded-2xl overflow-hidden h-60 group">
+            <div className="nursing-card relative rounded-2xl overflow-hidden h-60 group shadow-md">
               <img
-                src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=700&q=80"
+                src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80"
                 alt="Study Nursing in Philippines"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                loading="lazy"
+                className="nursing-university-image w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/75 to-transparent flex items-end p-5">
                 <div>
@@ -1135,11 +1282,12 @@ const NursingAbroad = () => {
               </div>
             </div>
             
-            <div className="relative rounded-2xl overflow-hidden h-60 group">
+            <div className="nursing-card relative rounded-2xl overflow-hidden h-60 group shadow-md">
               <img
                 src="https://images.unsplash.com/photo-1562774053-701939374585?w=700&q=80"
                 alt="Study Nursing in Germany"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                loading="lazy"
+                className="nursing-university-image w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/75 to-transparent flex items-end p-5">
                 <div>
@@ -1149,11 +1297,12 @@ const NursingAbroad = () => {
               </div>
             </div>
             
-            <div className="relative rounded-2xl overflow-hidden h-60 group">
+            <div className="nursing-card relative rounded-2xl overflow-hidden h-60 group shadow-md">
               <img
                 src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=700&q=80"
                 alt="Study Nursing in Canada"
-                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                loading="lazy"
+                className="nursing-university-image w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/75 to-transparent flex items-end p-5">
                 <div>
@@ -1183,7 +1332,11 @@ const NursingAbroad = () => {
           
           <div className="max-w-2xl mx-auto">
             {processSteps.map((s, i) => (
-              <div key={i} className="flex gap-5 pb-9 relative">
+              <div
+                key={i}
+                className="nursing-card flex gap-5 pb-9 relative"
+                style={{ "--card-delay": `${i * 80}ms` }}
+              >
                 {i < processSteps.length - 1 && (
                   <div className="absolute left-5 top-10 bottom-0 w-0.5 bg-slate-200 -translate-x-1/2" />
                 )}
@@ -1212,7 +1365,7 @@ const NursingAbroad = () => {
             </h2>
           </div>
           
-          <div className="max-w-2xl mx-auto space-y-3">
+          <div className="max-w-3xl mx-auto space-y-3">
             {faqs.map((faq, i) => (
               <div key={i} className="bg-white border border-slate-200 rounded-xl overflow-hidden">
                 <button
@@ -1238,8 +1391,8 @@ const NursingAbroad = () => {
       {/* ================= CTA ================= */}
       <section className="py-16 sm:py-20" id="consult">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-3xl px-8 py-14 sm:px-12 text-center text-white relative overflow-hidden">
-            <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-600/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none" />
+          <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-slate-950 via-slate-900 to-indigo-950 px-5 py-10 text-center text-white shadow-2xl shadow-indigo-950/15 sm:px-12 sm:py-14">
+            <div className="nursing-hero-glow absolute top-0 right-0 w-64 h-64 bg-indigo-600/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none" />
             
             <h2 className="text-2xl sm:text-3xl font-bold mb-3 relative">
               Ready to start your Nursing journey?
@@ -1248,18 +1401,18 @@ const NursingAbroad = () => {
               Book a free counselling session. We will assess your profile, share realistic options and give you a clear cost & process roadmap.
             </p>
             
-            <div className="flex flex-wrap gap-3.5 justify-center relative">
+            <div className="relative flex flex-col justify-center gap-3.5 sm:flex-row sm:flex-wrap">
               <a
                 href="https://wa.me/917632949984"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center px-7 py-3.5 rounded-[10px] font-semibold text-base bg-indigo-600 text-white hover:bg-indigo-700 transition-all no-underline shadow-lg shadow-indigo-600/25"
+                className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base bg-indigo-600 text-white hover:bg-indigo-700 transition-all no-underline shadow-lg shadow-indigo-600/25"
               >
                 WhatsApp us now
               </a>
               <a
                 href="tel:+917632949984"
-                className="inline-flex items-center justify-center px-7 py-3.5 rounded-[10px] font-semibold text-base border-[1.5px] border-white/30 text-white hover:bg-white/10 hover:border-white transition-all no-underline"
+                className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base border-[1.5px] border-white/30 text-white hover:bg-white/10 hover:border-white transition-all no-underline"
               >
                 Call +91 76329 49984
               </a>
