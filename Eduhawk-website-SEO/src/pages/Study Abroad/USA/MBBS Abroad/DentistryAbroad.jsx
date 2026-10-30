@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef } from "react";
-import Michigan_School_of_Dentistry from "../../../Images/Abroad/USA/Dentistry_USA/Michigan_School_of_Dentistr.jpg.png";
-import San_Francisco_School_of_Dentistry from "../../../Images/Abroad/USA/Dentistry_USA/San_Francisco_School_of_Dentistry.jpg.png";
-import Pennsylvania_School_of_Dental_Medicine from "../../../Images/Abroad/USA/Dentistry_USA/Pennsylvania_School_of_Dental_Medicine.jpg.png";
+import Michigan_School_of_Dentistry from "../../../../Images/Abroad/USA/Dentistry_USA/Michigan_School_of_Dentistr.jpg.png";
+import San_Francisco_School_of_Dentistry from "../../../../Images/Abroad/USA/Dentistry_USA/San_Francisco_School_of_Dentistry.jpg.png";
+import Pennsylvania_School_of_Dental_Medicine from "../../../../Images/Abroad/USA/Dentistry_USA/Pennsylvania_School_of_Dental_Medicine.jpg.png";
 
-import University_College_of_Dentistry from "../../../Images/Abroad/USA/Dentistry_USA/University_College_of_Dentistry.jpg.png";
+import University_College_of_Dentistry from "../../../../Images/Abroad/USA/Dentistry_USA/University_College_of_Dentistry.jpg.png";
 
 
 const DentistryAbroad = () => {
@@ -17,6 +17,19 @@ const DentistryAbroad = () => {
   };
 
   useEffect(() => {
+    if (
+      !("IntersectionObserver" in window) ||
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches
+    ) {
+      setVisibleSections(
+        Object.keys(sectionRefs.current).reduce((sections, id) => {
+          sections[id] = true;
+          return sections;
+        }, {}),
+      );
+      return;
+    }
+
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -28,7 +41,7 @@ const DentistryAbroad = () => {
           }
         });
       },
-      { threshold: 0.12 },
+      { threshold: 0.12, rootMargin: "0px 0px -40px 0px" },
     );
 
     Object.values(sectionRefs.current).forEach((el) => {
@@ -275,29 +288,117 @@ const DentistryAbroad = () => {
   ];
 
   return (
-    <div className="font-sans text-slate-800 bg-white min-h-screen antialiased">
+    <div className="dentistry-page font-sans text-slate-800 bg-white min-h-screen antialiased">
       <style>{`
         @keyframes fadeUp {
           from { opacity: 0; transform: translateY(30px); }
           to { opacity: 1; transform: translateY(0); }
         }
-        @keyframes fadeIn {
-          from { opacity: 0; }
-          to { opacity: 1; }
+        @keyframes dentistry-float {
+          0%, 100% { transform: translate3d(0, 0, 0); }
+          50% { transform: translate3d(0, -16px, 0); }
+        }
+        @keyframes dentistry-image-in {
+          from { opacity: 0; transform: translateX(24px) scale(.98); }
+          to { opacity: 1; transform: translateX(0) scale(1); }
+        }
+        @keyframes dentistry-card-in {
+          from { opacity: 0; transform: translateY(16px); }
+          to { opacity: 1; transform: translateY(0); }
         }
         .animate-fade-up {
           animation: fadeUp 0.7s ease-out forwards;
         }
         .opacity-0-start { opacity: 0; }
+        .dentistry-page .dentistry-hero-glow {
+          animation: dentistry-float 8s ease-in-out infinite;
+        }
+        .dentistry-page .dentistry-hero-image {
+          animation: dentistry-image-in .8s ease-out .15s both;
+        }
+        .dentistry-page .dentistry-animated-card {
+          animation: dentistry-card-in .55s ease-out both;
+          animation-delay: var(--card-delay, 0ms);
+        }
+        .dentistry-page .dentistry-university-image {
+          transition: transform .7s cubic-bezier(.2, .7, .2, 1);
+        }
+        .dentistry-page .dentistry-university-card:hover .dentistry-university-image {
+          transform: scale(1.08);
+        }
+        .dentistry-page section h2 {
+          letter-spacing: -.025em;
+        }
+        .dentistry-page section .bg-white.border {
+          transition: transform .3s ease, box-shadow .3s ease, border-color .3s ease;
+        }
+        .dentistry-page section .bg-white.border:hover {
+          transform: translateY(-4px);
+          box-shadow: 0 16px 35px rgba(15, 23, 42, .09);
+        }
+        @media (max-width: 1023px) {
+          .dentistry-page .dentistry-hero-image {
+            height: clamp(14rem, 52vw, 24rem);
+          }
+        }
+        @media (max-width: 639px) {
+          .dentistry-page {
+            overflow-x: clip;
+          }
+          .dentistry-page section:not(:first-of-type) {
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+          }
+          .dentistry-page .max-w-6xl {
+            padding-left: 1rem;
+            padding-right: 1rem;
+          }
+          .dentistry-page h1 {
+            font-size: clamp(2rem, 9vw, 2.5rem);
+            letter-spacing: -.035em;
+          }
+          .dentistry-page h2 {
+            text-wrap: balance;
+          }
+          .dentistry-page section a {
+            min-height: 2.75rem;
+          }
+          .dentistry-page .dentistry-hero-glow {
+            width: 18rem;
+            height: 18rem;
+          }
+        }
+        @media (hover: none) {
+          .dentistry-page section .bg-white.border:hover {
+            transform: none;
+            box-shadow: none;
+          }
+        }
+        @media (prefers-reduced-motion: reduce) {
+          .dentistry-page *,
+          .dentistry-page *::before,
+          .dentistry-page *::after {
+            animation-duration: .01ms !important;
+            animation-iteration-count: 1 !important;
+            scroll-behavior: auto !important;
+            transition-duration: .01ms !important;
+          }
+          .dentistry-page .opacity-0-start {
+            opacity: 1;
+          }
+          .dentistry-page .dentistry-animated-card {
+            animation: none;
+          }
+        }
       `}</style>
 
       {/* ================= HERO ================= */}
-      <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white pt-16 pb-20 relative overflow-hidden">
-        <div className="absolute top-[-30%] right-[-10%] w-[500px] h-[500px] bg-teal-600/20 rounded-full blur-3xl pointer-events-none" />
-        <div className="absolute bottom-[-20%] left-[-10%] w-[400px] h-[400px] bg-cyan-600/10 rounded-full blur-3xl pointer-events-none" />
+      <section className="bg-gradient-to-br from-slate-950 via-slate-900 to-teal-950 text-white pt-12 pb-14 sm:pt-16 sm:pb-20 relative overflow-hidden">
+        <div className="dentistry-hero-glow absolute top-[-30%] right-[-10%] w-[500px] h-[500px] bg-teal-600/20 rounded-full blur-3xl pointer-events-none" />
+        <div className="dentistry-hero-glow absolute bottom-[-20%] left-[-10%] w-[400px] h-[400px] bg-cyan-600/10 rounded-full blur-3xl pointer-events-none" />
 
-        <div className="max-w-6xl mx-auto px-6 relative">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             <div className="opacity-0-start animate-fade-up">
               <div className="text-sm text-white/50 mb-5">
                 Home <span className="mx-1.5">›</span> Study Abroad{" "}
@@ -328,16 +429,16 @@ const DentistryAbroad = () => {
                 process with complete transparency.
               </p>
 
-              <div className="flex flex-wrap gap-3.5">
+              <div className="flex flex-col sm:flex-row flex-wrap gap-3.5">
                 <a
                   href="#consult"
-                  className="inline-flex items-center justify-center px-7 py-3.5 rounded-[10px] font-semibold text-base bg-teal-600 text-white hover:bg-teal-700 hover:scale-105 transition-all duration-300 no-underline shadow-lg shadow-teal-600/25"
+                  className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base bg-teal-600 text-white hover:bg-teal-700 hover:scale-105 transition-all duration-300 no-underline shadow-lg shadow-teal-600/25"
                 >
                   Book free counselling
                 </a>
                 <a
                   href="#destinations"
-                  className="inline-flex items-center justify-center px-7 py-3.5 rounded-[10px] font-semibold text-base border-[1.5px] border-white/30 text-white hover:bg-white/10 hover:border-white hover:scale-105 transition-all duration-300 no-underline"
+                  className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base border-[1.5px] border-white/30 text-white hover:bg-white/10 hover:border-white hover:scale-105 transition-all duration-300 no-underline"
                 >
                   View countries
                 </a>
@@ -345,13 +446,13 @@ const DentistryAbroad = () => {
             </div>
 
             <div
-              className="relative hidden lg:block opacity-0-start animate-fade-up"
+              className="relative mt-2 lg:mt-0 opacity-0-start animate-fade-up"
               style={{ animationDelay: "0.2s" }}
             >
               <img
                 src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=900&q=80"
                 alt="Dentistry students abroad"
-                className="rounded-2xl shadow-2xl object-cover w-full h-[440px] hover:scale-[1.02] transition-transform duration-700"
+                className="dentistry-hero-image rounded-2xl shadow-2xl object-cover w-full h-56 sm:h-72 lg:h-[440px] hover:scale-[1.02] transition-transform duration-700"
               />
               <div className="absolute bottom-5 left-5 bg-white/15 backdrop-blur-md px-4 py-2.5 rounded-xl text-sm font-medium border border-white/20">
                 Trusted by 1000+ Indian students
@@ -385,7 +486,8 @@ const DentistryAbroad = () => {
             {stats.map((item, i) => (
               <div
                 key={i}
-                className="bg-white border border-slate-200 rounded-2xl p-5 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
+                className="dentistry-animated-card bg-white border border-slate-200 rounded-2xl p-5 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
+                style={{ "--card-delay": `${i * 80}ms` }}
               >
                 <span className="block text-[13px] text-slate-500 font-medium mb-1.5">
                   {item.label}
@@ -460,7 +562,8 @@ const DentistryAbroad = () => {
             {features.map((f, i) => (
               <div
                 key={i}
-                className="bg-white border border-slate-200 rounded-2xl p-6 hover:border-teal-200 hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300"
+                className="dentistry-animated-card bg-white border border-slate-200 rounded-2xl p-6 hover:border-teal-200 hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300"
+                style={{ "--card-delay": `${i * 70}ms` }}
               >
                 <div
                   className={`w-[42px] h-[42px] rounded-xl grid place-items-center mb-4 ${f.color}`}
@@ -523,7 +626,8 @@ const DentistryAbroad = () => {
             {usaAdvantages.map((item, i) => (
               <div
                 key={i}
-                className="bg-white border border-slate-200 rounded-2xl p-6 hover:border-teal-200 hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300"
+                className="dentistry-animated-card bg-white border border-slate-200 rounded-2xl p-6 hover:border-teal-200 hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300"
+                style={{ "--card-delay": `${i * 70}ms` }}
               >
                 <div className="w-[42px] h-[42px] rounded-xl grid place-items-center mb-4 bg-teal-50 text-teal-600">
                   <svg
@@ -1342,12 +1446,14 @@ const DentistryAbroad = () => {
             ].map((dest, i) => (
               <div
                 key={i}
-                className="relative rounded-2xl overflow-hidden h-60 group cursor-pointer"
+                className="dentistry-animated-card dentistry-university-card relative rounded-2xl overflow-hidden h-60 group cursor-pointer shadow-md hover:shadow-xl"
+                style={{ "--card-delay": `${i * 100}ms` }}
               >
                 <img
                   src={dest.img}
                   alt={`Study Dentistry in ${dest.name}`}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  loading="lazy"
+                  className="dentistry-university-image w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex items-end p-5">
                   <div className="transform group-hover:translate-y-[-4px] transition-transform duration-300">
@@ -1430,7 +1536,7 @@ const DentistryAbroad = () => {
             </h2>
           </div>
 
-          <div className="max-w-2xl mx-auto space-y-3">
+          <div className="max-w-3xl mx-auto space-y-3">
             {faqs.map((faq, i) => (
               <div
                 key={i}
@@ -1488,18 +1594,18 @@ const DentistryAbroad = () => {
               roadmap.
             </p>
 
-            <div className="flex flex-wrap gap-3.5 justify-center relative">
+            <div className="flex flex-col sm:flex-row flex-wrap gap-3.5 justify-center relative">
               <a
                 href="https://wa.me/917632949984"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center px-7 py-3.5 rounded-[10px] font-semibold text-base bg-teal-600 text-white hover:bg-teal-700 hover:scale-105 transition-all duration-300 no-underline shadow-lg shadow-teal-600/25"
+                className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base bg-teal-600 text-white hover:bg-teal-700 hover:scale-105 transition-all duration-300 no-underline shadow-lg shadow-teal-600/25"
               >
                 WhatsApp us now
               </a>
               <a
                 href="tel:+917632949984"
-                className="inline-flex items-center justify-center px-7 py-3.5 rounded-[10px] font-semibold text-base border-[1.5px] border-white/30 text-white hover:bg-white/10 hover:border-white hover:scale-105 transition-all duration-300 no-underline"
+                className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base border-[1.5px] border-white/30 text-white hover:bg-white/10 hover:border-white hover:scale-105 transition-all duration-300 no-underline"
               >
                 Call +91 76329 49984
               </a>

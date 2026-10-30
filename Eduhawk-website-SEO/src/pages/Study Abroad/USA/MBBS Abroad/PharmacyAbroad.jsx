@@ -1,6 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
+import California_San_Francisco from "../../../../Images/Abroad/USA/Pharmacy_USA/California,_San_Francisco.jpg.png";
+import Michigan_Ann_Arbor from "../../../../Images/Abroad/USA/Pharmacy_USA/Michigan_Ann_Arbor.jpg.png";
+import North_Carolina_Chapel_Hill from "../../../../Images/Abroad/USA/Pharmacy_USA/North_Carolina_at_Chapel_Hil.jpg.png";
+import Texas_Austin from "../../../../Images/Abroad/USA/Pharmacy_USA/Texas_at_Austin.jpg.png";
 
-const Biotechnology = () => {
+const PharmacyAbroad = () => {
   const [openFaq, setOpenFaq] = useState(null);
   const pageRef = useRef(null);
 
@@ -38,8 +42,8 @@ const Biotechnology = () => {
   }, []);
 
   const stats = [
-    { label: "Programs", value: "BSc, MS, Bioinformatics, PhD options" },
-    { label: "Countries", value: "USA, UK, Canada, Australia, Ireland & more" },
+    { label: "Programs", value: "B.Pharm, Pharm.D, M.Pharm & related courses" },
+    { label: "Countries", value: "UK, Canada, Australia, USA, Ireland & more" },
     { label: "Support", value: "Complete guidance from profile to arrival" },
     { label: "Approach", value: "Transparent fees, honest counselling & career focus" },
   ];
@@ -47,7 +51,7 @@ const Biotechnology = () => {
   const features = [
     {
       title: "Right university for your goals",
-      desc: "We compare accreditation, curriculum, research focus, ranking and entry requirements before recommending a university.",
+      desc: "We compare accreditation, curriculum, internships, ranking and entry requirements before recommending a university.",
       color: "bg-blue-50 text-blue-600",
     },
     {
@@ -72,289 +76,251 @@ const Biotechnology = () => {
     },
     {
       title: "Honest destination comparison",
-      desc: "Compare USA, UK, Canada, Australia, Ireland and more by cost, career outcomes, specialisations and lifestyle.",
+      desc: "Compare UK, Canada, Australia, USA, Ireland, Germany and more by cost, career outcomes, licensing and lifestyle.",
       color: "bg-teal-50 text-teal-600",
     },
   ];
 
   const usaBenefits = [
     {
-      title: "Advanced Research Facilities",
-      desc: "Prominent universities furnish access to sophisticated laboratories, research centres and instrumentation used in molecular biology, genetics, microbiology and allied scientific domains.",
+      title: "High-quality education",
+      desc: "Clinical and practical learning are integrated with pharmaceutical sciences in professional pharmacy programs.",
     },
     {
-      title: "Industry-Oriented Education",
-      desc: "Certain programmes integrate theoretical instruction with practical laboratory work, quantitative analysis, product development and biotechnology administration.",
-    },
-    {
-      title: "Comprehensive Specialisation Options",
-      desc: "Students may investigate genetic engineering, molecular biotechnology, pharmaceutical biotechnology, bioinformatics, biomedical science and industrial biotechnology.",
+      title: "Clinical Exposure",
+      desc: "PharmD candidates participate in supervised practice in suitable medical environments.",
     },
     {
       title: "Research Opportunities",
-      desc: "Depending on the programme structure, students may participate in faculty-directed research, laboratory investigations, internship placements or thesis development.",
+      desc: "Investigate pharmacology, clinical research, pharmaceutical development, and drug discovery.",
     },
     {
-      title: "Interdisciplinary Learning",
-      desc: "Biotechnology combines biology with chemistry, computer science, engineering, mathematics and statistics.",
+      title: "Options for Specialization",
+      desc: "Take up fields like pharmacotherapy, clinical pharmacy, oncology, and pharmaceutical research.",
     },
     {
-      title: "Career Opportunities",
-      desc: "Graduates may pursue roles in biotechnology companies, pharmaceutical organisations, research laboratories, diagnostic services, agriculture and environmental technology.",
+      title: "Diverse Career Opportunities",
+      desc: "Depending on your qualifications, pursue jobs in hospitals, community pharmacies, pharmaceutical companies, research, and academia.",
+    },
+    {
+      title: "Advanced Healthcare Setting",
+      desc: "Acquire knowledge of patient safety, medication administration.",
     },
   ];
 
-  const bachelorSubjects = [
-    "Cell biology",
-    "Genetics",
-    "Microbiology",
-    "Biochemistry",
-    "Molecular biology",
-    "Immunology",
-    "Laboratory methodologies",
-    "Biotechnology principles",
+  const pharmdSubjects = [
+    "Chemistry of Medicines",
+    "Medicines",
+    "Medication",
+    "Pharmaceutical Calculations in Clinical Pharmacy",
+    "Ethics and Law in Pharmacy",
+    "Care for Patients",
+    "Pharmaceutical Sciences: Supervised Clinical Practice",
   ];
 
-  const mastersPrograms = [
-    "Master of Science in Biotechnology",
-    "Master of Science in Molecular Biotechnology",
-    "Master of Science in Pharmaceutical Biotechnology",
-    "Master of Science in Biomedical Science",
-    "Master of Science in Bioinformatics",
+  const postgraduatePrograms = [
+    "Pharmaceutical Sciences Master of Science",
+    "Pharmacology Master of Science",
+    "Drug Development Master of Science",
+    "Pharmaceutical Sciences Doctor of Philosophy",
+    "Programs in clinical research and regulatory science",
   ];
 
   const topUniversities = [
     {
-      name: "Johns Hopkins University",
-      desc: "Biotechnology, biomedical science and allied life science curricula",
-      image: "https://images.unsplash.com/photo-1562774053-701939374585?w=900&q=85",
+      img: North_Carolina_Chapel_Hill,
+      name: "University of North Carolina at Chapel Hill",
+      desc: "UNC Eshelman School of Pharmacy",
     },
     {
-      name: "University of California, Davis",
-      desc: "Biotechnology, biological sciences and agricultural biotechnology pathways",
-      image: "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?w=900&q=85",
+      img: California_San_Francisco,
+      name: "University of California, San Francisco",
+      desc: "UCSF School of Pharmacy",
     },
     {
-      name: "University of California, San Diego",
-      desc: "Biological sciences, bioengineering and molecular biology programmes",
-      image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=900&q=85",
+      img: Michigan_Ann_Arbor,
+      name: "University of Michigan–Ann Arbor",
+      desc: "University of Michigan College of Pharmacy",
     },
     {
-      name: "University of Pennsylvania",
-      desc: "Biotechnology, biomedical science and interdisciplinary initiatives",
-      image: "https://images.unsplash.com/photo-1564981797816-1043664bf78d?w=900&q=85",
-    },
-    {
-      name: "Northwestern University",
-      desc: "Biotechnology, biomedical research and postgraduate curricula",
-      image: "https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=900&q=85",
-    },
-    {
-      name: "Purdue University",
-      desc: "Biotechnology and life sciences programmes",
-      image: "https://images.unsplash.com/photo-1607237138185-eedd9c632b0b?w=900&q=85",
+      img: Texas_Austin,
+      name: "University of Texas at Austin",
+      desc: "UT Austin College of Pharmacy",
     },
   ];
 
   const comparisonPoints = [
-    "Exact degree title and curriculum",
-    "Availability of your preferred specialisation",
-    "Laboratory facilities and research opportunities",
-    "Internship and industry collaboration options",
-    "Academic eligibility for Indian students",
-    "Required undergraduate subjects and prerequisites",
-    "English-language proficiency requirements",
-    "Tuition fees and total cost of attendance",
-    "Scholarships, assistantships and research funding",
-    "Campus location and accommodation costs",
-    "Career services and graduate outcomes",
-    "International student support and visa documentation",
+    "Program type and admission pathway",
+    "Prerequisite courses and academic eligibility",
+    "Tuition, fees, and living costs",
+    "Accreditation and professional requirements",
+    "Experiential learning and research opportunities",
+    "Location and student support services",
   ];
 
   const after12Eligibility = [
-    "Successfully complete secondary education through an accredited educational institution",
-    "Satisfy the institution's academic entrance criteria",
-    "Demonstrate adequate scientific preparation, typically encompassing biology and chemistry coursework",
-    "Submit official educational documentation and transcripts",
-    "Fulfil English language competency standards where mandated",
-    "Furnish supplementary materials as specified by the institution",
+    "Completed Class 12 or equivalent education",
+    "A suitable academic background in science",
+    "Required subjects, such as Chemistry and Biology, where specified",
+    "English-language proficiency, if required",
+    "The academic preparation needed for university prerequisite courses",
   ];
 
-  const graduateEligibility = [
-    "Possess a recognized baccalaureate degree or equivalent credential",
-    "Demonstrate pertinent academic preparation in biotechnology or an allied field",
-    "Provide official transcripts documenting completed coursework and corresponding grades",
-    "Meet the institution's minimum cumulative grade point average or academic standing threshold",
-    "Submit English language proficiency examination scores, where applicable",
-    "Include a statement articulating academic and professional objectives alongside supplementary application materials",
-  ];
-
-  const doctoralEligibility = [
-    "Robust academic credentials and demonstrated commitment to scholarly investigation",
-    "A relevant bachelor's or master's degree, contingent upon the university's specifications",
-    "Research experience",
-    "Academic recommendations",
-    "A statement of research interests",
-    "Evidence of preparation for advanced scientific study",
+  const bpharmEligibility = [
+    "Pharmaceutical sciences master's programs",
+    "Pharmacology and drug development programs",
+    "Research-based postgraduate degrees",
+    "PharmD admission pathways, where eligible",
   ];
 
   const admissionAcademic = [
-    "Comprehensive academic records from preceding educational institutions",
-    "Undergraduate coursework, academic performance and laboratory experience for postgraduate admission",
-    "Certified translations or formal credential assessments where mandated",
-    "Official transcripts documenting completed coursework and grades",
+    "Class 10 and Class 12 marksheets",
+    "Undergraduate transcripts, where applicable",
+    "Prerequisite science coursework",
+    "Minimum GPA or equivalent academic performance",
+    "Degree certificates for postgraduate programs",
   ];
 
-  const englishTests = ["IELTS Academic", "TOEFL iBT", "PTE Academic", "Other university-approved tests"];
+  const englishTests = ["IELTS", "TOEFL", "PTE Academic", "Another university-approved test"];
 
   const additionalRequirements = [
-    "Statement of Purpose or Personal Essay",
     "Letters of Recommendation",
-    "Resume / Curriculum Vitae",
-    "Research statement or proposal (for research-focused programmes)",
-    "Documentation of laboratory experience and research endeavours",
-    "Interview (when required)",
-    "GRE scores (if required by the specific programme)",
+    "Personal Statement or Statement of Purpose",
+    "Resume/CV",
+    "Interview",
     "Credential evaluation",
+    "Entrance examination, if required",
   ];
 
   const principalCosts = [
     {
-      title: "Tuition Fees",
-      desc: "Tuition charges vary widely by institution, degree level and whether the university is public or private.",
+      title: "Tuition",
+      desc: "Professional PharmD programs can be expensive, especially for students from other countries.",
     },
     {
       title: "Living Expenses",
-      desc: "Accommodation, food, local travel, personal expenses and health insurance. Housing costs differ between university housing, shared residences and private rentals.",
+      desc: "Set aside money for personal expenses, lodging, food, travel, and health insurance.",
     },
     {
       title: "Academic Expenses",
-      desc: "Books, specialized software, laboratory materials, learning resources and university fees.",
+      desc: "Books, lab supplies, equipment, clinical requirements, and university fees are examples of additional expenses.",
     },
     {
       title: "Other Expenses",
-      desc: "Application fees, English tests, credential evaluation, visa costs, flights and initial settlement.",
+      desc: "Students should also think about the costs associated with applying, traveling, obtaining a visa, and paying for any necessary tests or licenses.",
     },
   ];
 
   const admissionSteps = [
     {
       step: 1,
-      title: "Evaluate Your Scholarly Credentials",
-      desc: "Examine your existing qualifications, academic performance, scientific coursework, hands-on laboratory experience and professional aspirations.",
+      title: "Profile Assessment",
+      desc: "Examine subjects, budget, English proficiency, and academic background.",
     },
     {
       step: 2,
-      title: "Determine the Appropriate Degree Level",
-      desc: "Select between pursuing an undergraduate degree, postgraduate master's degree or doctoral (PhD) programme.",
+      title: "Select a Route",
+      desc: "Choose an appropriate PharmD, pre-pharmacy, or pharmaceutical sciences program.",
     },
     {
       step: 3,
-      title: "Identify a Specialized Field of Study",
-      desc: "Investigate disciplinary concentrations including molecular biotechnology, pharmaceutical biotechnology, bioinformatics, biomedical science, genetic engineering or industrial biotechnology.",
+      title: "Make a shortlist of universities",
+      desc: "Compare their international admission policies, fees, duration, accreditation, and eligibility.",
     },
     {
       step: 4,
-      title: "Compile a List of Prospective Institutions",
-      desc: "Analyze and compare institutional offerings regarding curriculum content, admission criteria, financial costs, financial aid availability, geographical location and submission deadlines.",
+      title: "Finish Prerequisites",
+      desc: "Complete any necessary undergraduate coursework.",
     },
     {
       step: 5,
-      title: "Verify Academic Entry Requirements",
-      desc: "Confirm that your prior educational background, completed coursework and credentials satisfy the programme's specified admission prerequisites.",
+      title: "Get Your Documents Ready",
+      desc: "Gather test results, passports, transcripts, and supporting documentation.",
     },
     {
       step: 6,
-      title: "Compile Application Materials",
-      desc: "Gather official academic records, degree documentation, standardized English proficiency examination results, letters of recommendation, a statement of purpose and a curriculum vitae.",
+      title: "Submit Applications",
+      desc: "Use the university's official application system to submit an application.",
     },
     {
       step: 7,
-      title: "Submit Your Application",
-      desc: "Complete the application process via the institution's designated admissions platform and adhere to departmental procedural guidelines.",
+      title: "Admission and Interview",
+      desc: "Review the admission offer and finish any further evaluations.",
     },
     {
       step: 8,
-      title: "Fulfill Supplementary Requirements",
-      desc: "Participate in an admissions interview, provide a research proposal or furnish additional documentation as mandated by the institution.",
+      title: "Financial and Visa Preparation",
+      desc: "Necessary funds and student visa paperwork.",
     },
     {
       step: 9,
-      title: "Assess Your Admission Decision",
-      desc: "Review the programme structure, financial obligations, scholarship conditions, enrollment deadlines and any remaining admission prerequisites.",
-    },
-    {
-      step: 10,
-      title: "Finalize Student Visa and Pre-Departure Arrangements",
-      desc: "Adhere to the institution's protocols for obtaining requisite student documentation and initiating visa procedures. Coordinate housing, insurance, transportation and budget for initial expenditures.",
+      title: "Enrolment",
+      desc: "Begin the selected pharmacy program and complete its academic and practical requirements.",
     },
   ];
 
-  const accreditationPoints = [
-    "Whether the institution possesses authorization to confer the qualification",
-    "Whether the institution maintains recognized institutional accreditation",
-    "Whether specialized programme accreditation is applicable",
-    "Whether the qualification aligns with your professional aspirations or advanced educational objectives",
-    "Not all biotechnology degrees necessitate distinct specialized accreditation requirements",
-    "A United States biotechnology degree does not inherently authorize graduates to engage in all regulated healthcare professions",
+  const licensingPoints = [
+    "completion of a pharmacy program that qualifies",
+    "Getting through the NAPLEX, the North American Pharmacist Licensure Examination",
+    "completing any necessary state-specific legal examination",
+    "completing the necessary number of hours for an internship or practical experience",
+    "Fulfilling additional state-specific requirements",
   ];
 
   const jobOpportunities = [
-    "Biotechnology Research Assistant",
-    "Biological Technician",
-    "Molecular Biology Technician",
-    "Quality Control Analyst",
-    "Quality Assurance Associate",
-    "Bioprocessing Associate",
-    "Bioinformatics Analyst",
-    "Clinical Research Coordinator / Assistant",
-    "Pharmaceutical Research Associate",
-    "Regulatory Affairs Associate",
+    "Community and Retail Pharmacy",
+    "Hospital Pharmacy",
+    "Clinical Pharmacy",
+    "Pharmaceutical Research",
+    "Drug Development",
+    "Regulatory Affairs",
+    "Pharmacovigilance and Drug Safety",
+    "Pharmaceutical Manufacturing",
+    "Medical Affairs",
+    "Academic Research",
   ];
 
   const academicDocs = [
-    "Class 10 marksheet and certificate (where applicable)",
-    "Class 12 marksheet and certificate (for undergraduate applications)",
-    "Bachelor's degree certificate (for graduate applications)",
-    "Master's degree documentation (where mandated for doctoral applications)",
-    "Official academic transcripts and semester-wise results",
-    "Certified translations of academic documents (where applicable)",
-    "Credential evaluation services (if mandated by the institution)",
+    "Scholarly Writings",
+    "Certificates for Classes 10 and 12",
+    "Transcripts and academic grades",
+    "Transcripts and undergraduate degree, if any",
+    "Required course records",
+    "Certificates of degree for postgraduate applications",
   ];
 
   const applicationDocs = [
-    "Current valid passport",
-    "English language proficiency examination scores (if mandated)",
-    "Statement of Purpose or personal narrative essay",
-    "Letters of Recommendation from academic or professional referees",
-    "Professional curriculum vitae or comprehensive resume",
-    "Research proposal or scholarly statement (where required)",
-    "Documentation of laboratory experience and research endeavours",
+    "A valid passport",
+    "Test results in English, if necessary",
+    "Personal Statement or Statement of Purpose",
+    "Recommendation Letters",
+    "CV or resume, if necessary",
+    "Evaluation of credentials, if requested",
+    "Forms for applications",
+    "Records of interviews or exams, if applicable",
   ];
 
   const financialVisaDocs = [
-    "Formal institutional admission notification",
-    "Form I-20 or equivalent student visa documentation",
-    "Financial capability documentation",
-    "Student visa application materials",
-    "Medical insurance and pre-arrival health documentation (where mandated)",
+    "Proof of financial support",
+    "Required bank or sponsorship doc",
+    "Student visa application documents",
+    "Other documents requested by the university or authorities",
   ];
 
   const eligibility = [
-    "Class 12 with biology and chemistry (and other required subjects) for undergraduate programmes",
-    "A recognized bachelor's degree in biotechnology or allied field for master's programmes",
+    "Class 12 with PCB or PCM (Physics, Chemistry, Biology/Mathematics) with minimum required percentage",
     "English language score such as IELTS, PTE or TOEFL where required by the university",
     "Valid passport and academic transcripts prepared ahead of deadlines",
     "A focused statement of purpose and recommendation letters for eligible courses",
     "Proof of funds and financial documents for the visa process",
-    "A realistic study plan that connects your biotechnology course with your future goals",
+    "A realistic study plan that connects your pharmacy course with your future goals",
   ];
 
   const destinations = [
-    { name: "United States", highlight: true },
     { name: "United Kingdom", highlight: true },
     { name: "Canada", highlight: true },
     { name: "Australia", highlight: true },
+    { name: "United States", highlight: true },
     { name: "Ireland", highlight: true },
     { name: "Germany", highlight: false },
     { name: "New Zealand", highlight: false },
@@ -370,7 +336,7 @@ const Biotechnology = () => {
     {
       step: 2,
       title: "Course and university shortlisting",
-      desc: "Based on your profile, budget and preference we shortlist suitable biotechnology courses and universities.",
+      desc: "Based on your profile, budget and preference we shortlist suitable pharmacy courses and universities.",
     },
     {
       step: 3,
@@ -391,40 +357,44 @@ const Biotechnology = () => {
 
   const faqs = [
     {
-      q: "Are Indian students eligible to pursue biotechnology studies in the United States following completion of Class 12?",
-      a: "Yes, Indian students may submit applications for accredited undergraduate programmes in biotechnology or allied biological sciences upon completion of Class 12. Enrollment eligibility is contingent upon academic achievement, requisite coursework, English language proficiency standards and institutional admission protocols.",
+      q: "After Class 12, are Indian students able to pursue pharmacy studies in the United States?",
+      a: "Indeed. Pre-pharmacy routes and qualified PharmD programs are available to Indian students. While some universities offer structured entry pathways after high school, many professional programs require prerequisite undergraduate coursework prior to PharmD study.",
     },
     {
-      q: "What constitutes the typical duration of biotechnology curricula in the United States?",
-      a: "Baccalaureate degrees ordinarily require approximately four years of study. Graduate-level master's programmes typically span one to two years, whereas doctoral programmes necessitate additional years contingent upon research advancement and institutional specifications.",
+      q: "What is the primary pharmacy degree in the United States?",
+      a: "In the United States, the primary professional degree for students aspiring to become pharmacists is the Doctor of Pharmacy (PharmD). Students interested in research and industry can also pursue degrees in pharmaceutical sciences.",
     },
     {
-      q: "Which postgraduate degree is most appropriate following a BSc or BTech in biotechnology?",
-      a: "Contingent upon educational background and professional aspirations, students may pursue an MS in Biotechnology, Molecular Biology, Bioinformatics, Biomedical Science or cognate disciplines. Students aspiring toward autonomous scientific investigation may additionally consider doctoral degree pathways.",
+      q: "After earning a BPharm in India, can I pursue a PharmD in the USA?",
+      a: "Yes, possibly. The university determines eligibility. Although prior coursework does not ensure exemptions or a shorter degree, some universities take international pharmacy graduates into consideration for admission or advanced standing.",
     },
     {
-      q: "What financial investment is required for biotechnology education in the United States?",
-      a: "The aggregate expenditure varies according to institutional selection, programme duration, geographic location, tuition frameworks and subsistence costs. Students should examine published cost of attendance figures and investigate available scholarships, teaching or research assistantships and supplementary funding mechanisms.",
+      q: "How much does a pharmacist make in the United States?",
+      a: "The U.S. Bureau of Labor Statistics reports that in May 2025, the median yearly salary for pharmacists was $140,910. Location, experience, employer, and workplace all affect actual earnings.",
     },
     {
-      q: "What professional opportunities exist for biotechnology graduates from United States institutions?",
-      a: "Depending on qualifications and professional experience, graduates may pursue positions in laboratory operations, scientific research, quality control, quality assurance, bioprocessing, pharmaceutical development, bioinformatics and regulatory compliance. Senior research positions typically necessitate doctoral credentials or specialized professional experience.",
+      q: "Can Indian BPharm graduates work as pharmacists in the USA?",
+      a: "They may pursue U.S. pharmacist licensure, but an Indian BPharm degree does not automatically provide the right to practise. International graduates generally need to meet the FPGEC certification pathway, followed by applicable state licensing requirements.",
     },
     {
-      q: "How can Edu Hawk worldwide help me study Biotechnology abroad?",
-      a: "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration and licensing requirements with the relevant official authorities.",
+      q: "How can Edu Hawk worldwide help me study Pharmacy abroad?",
+      a: "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities.",
     },
     {
-      q: "Is GRE required for Biotechnology programmes in the USA?",
-      a: "The GRE is not universally required for biotechnology programmes in the USA. Requirements vary by university, department and degree level. Check the latest admissions policy before booking a test.",
+      q: "Which country is best for Pharmacy abroad?",
+      a: "There is no single best country. The right choice depends on your budget, academic profile, preferred course (B.Pharm / Pharm.D / M.Pharm), licensing pathway and long-term career plans. UK, Canada and Australia are currently the most popular among Indian students.",
     },
     {
-      q: "What is the salary of biological technicians and biochemists in the USA?",
-      a: "According to the U.S. Bureau of Labor Statistics (May 2025), the median annual wage for biological technicians was $57,510 and for biochemists and biophysicists was $127,410. Actual earnings vary by role, experience, location and employer.",
+      q: "How much does it cost to study Pharmacy abroad?",
+      a: "Costs vary by country and university. Your total budget includes tuition, accommodation, living expenses, insurance, travel and visa costs. We share a realistic estimate before you apply.",
     },
     {
-      q: "Can I work in India after completing a US biotechnology degree?",
-      a: "Students intending to pursue careers in India must confirm the degree's relevance to their professional objectives or postgraduate educational plans. Institutional recognition and professional eligibility criteria may differ substantially across employers, academic institutions and regulated professional disciplines.",
+      q: "Do I need IELTS or another English test?",
+      a: "Most universities in UK, Canada, Australia and USA ask for IELTS, PTE or TOEFL. Some universities offer waivers based on your previous medium of instruction. Requirements are checked university by university.",
+    },
+    {
+      q: "Can I work while studying Pharmacy abroad?",
+      a: "Yes. Most popular destinations allow international students to work part-time during the course (usually 20 hours per week) and full-time during holidays, subject to visa conditions.",
     },
     {
       q: "When should I start my application?",
@@ -467,16 +437,6 @@ const Biotechnology = () => {
         }
         .pharmacy-page .pharmacy-hero-image {
           animation: pharmacy-image-in .8s ease-out both;
-        }
-        .pharmacy-page .physio-university-card {
-          animation: pharmacy-image-in .65s ease-out both;
-          animation-delay: var(--card-delay, 0ms);
-        }
-        .pharmacy-page .physio-university-image {
-          transition: transform .7s cubic-bezier(.2, .7, .2, 1);
-        }
-        .pharmacy-page .physio-university-card:hover .physio-university-image {
-          transform: scale(1.08);
         }
         .pharmacy-page section h2 {
           letter-spacing: -.025em;
@@ -522,12 +482,8 @@ const Biotechnology = () => {
         @media (prefers-reduced-motion: reduce) {
           .pharmacy-page .pharmacy-reveal,
           .pharmacy-page .pharmacy-hero-glow,
-          .pharmacy-page .pharmacy-hero-image,
-          .pharmacy-page .physio-university-card {
+          .pharmacy-page .pharmacy-hero-image {
             animation: none;
-            transition: none;
-          }
-          .pharmacy-page .physio-university-image {
             transition: none;
           }
           .pharmacy-page section .bg-white.border {
@@ -535,7 +491,6 @@ const Biotechnology = () => {
           }
         }
       `}</style>
-
       {/* ================= HERO ================= */}
       <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white pt-12 pb-14 sm:pt-16 sm:pb-20 relative overflow-hidden">
         <div className="pharmacy-hero-glow absolute top-[-30%] right-[-10%] w-[500px] h-[500px] bg-blue-600/20 rounded-full blur-3xl pointer-events-none" />
@@ -544,23 +499,23 @@ const Biotechnology = () => {
             <div>
               <div className="text-sm text-white/50 mb-5">
                 Home <span className="mx-1.5">›</span> Study Abroad{" "}
-                <span className="mx-1.5">›</span> Biotechnology
+                <span className="mx-1.5">›</span> Pharmacy
               </div>
               <div className="text-xs font-semibold tracking-wider uppercase text-blue-300 mb-3">
-                Study Biotechnology · Abroad
+                Study Pharmacy · Abroad
               </div>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-5">
                 Study{" "}
                 <span className="bg-gradient-to-r from-blue-400 to-amber-300 bg-clip-text text-transparent">
-                  Biotechnology in USA
+                  Pharmacy in USA
                 </span>{" "}
                 for Indian Students
               </h1>
               <p className="text-base sm:text-lg text-white/70 max-w-xl mb-5 leading-relaxed">
-                Biotechnology education in the United States presents substantial opportunities for Indian students to pursue advanced studies in biological sciences, genetic engineering, molecular biology, bioinformatics and pharmaceutical biotechnology.
+                Students interested in careers in pharmacy, pharmaceutical sciences, and healthcare frequently travel to the United States. Professional pharmacy education, laboratory training, clinical education, and research opportunities are all provided by American universities.
               </p>
               <p className="text-base sm:text-lg text-white/70 max-w-xl mb-8 leading-relaxed">
-                The United States hosts numerous prestigious universities, research institutions and biotechnology enterprises engaged in diverse sectors including healthcare, pharmaceuticals, agriculture, food science and environmental technology. Indian students may select from undergraduate, graduate and doctoral programmes.
+                Indian students must be aware of course options, eligibility, admission requirements, tuition costs, and pharmacist licensing before deciding to study pharmacy in the United States. The Doctor of Pharmacy (PharmD), which prepares students for pharmacist practices, is the primary professional degree.
               </p>
               <div className="flex flex-col sm:flex-row flex-wrap gap-3.5">
                 <a
@@ -580,8 +535,8 @@ const Biotechnology = () => {
 
             <div className="relative mt-2 lg:mt-0">
               <img
-                src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=900&q=80"
-                alt="Biotechnology laboratory and research in USA"
+                src="https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=900&q=80"
+                alt="Pharmacy students in USA"
                 className="pharmacy-hero-image rounded-2xl shadow-2xl object-cover w-full h-56 sm:h-72 lg:h-[440px]"
               />
               <div className="absolute bottom-5 left-5 bg-white/15 backdrop-blur-md px-4 py-2.5 rounded-xl text-sm font-medium">
@@ -600,7 +555,7 @@ const Biotechnology = () => {
               At a glance
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900">
-              Biotechnology Abroad at a glance
+              Pharmacy Abroad at a glance
             </h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -630,13 +585,13 @@ const Biotechnology = () => {
                 Overview
               </div>
               <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
-                Study Biotechnology in USA for Indian Students
+                Study Pharmacy in USA for Indian Students
               </h2>
               <p className="text-slate-500 text-[15px] leading-relaxed mb-4">
-                Biotechnology education in the United States presents substantial opportunities for Indian students to pursue advanced studies in biological sciences, genetic engineering, molecular biology, bioinformatics and pharmaceutical biotechnology. The United States hosts numerous prestigious universities, research institutions and biotechnology enterprises engaged in diverse sectors including healthcare, pharmaceuticals, agriculture, food science and environmental technology.
+                Students interested in careers in pharmacy, pharmaceutical sciences, and healthcare frequently travel to the United States. Professional pharmacy education, laboratory training, clinical education, and research opportunities are all provided by American universities.
               </p>
               <p className="text-slate-500 text-[15px] leading-relaxed mb-4">
-                Indian students may select from undergraduate degrees, graduate programmes and doctoral programmes in biotechnology and cognate disciplines. Contingent upon the institution and curriculum, students may acquire laboratory experience, engage in research initiatives, pursue internship opportunities and cultivate technical competencies pertinent to the biotechnology sector.
+                Indian students must be aware of course options, eligibility, admission requirements, tuition costs, and pharmacist licensing before deciding to study pharmacy in the United States. The Doctor of Pharmacy (PharmD), which prepares students for pharmacist practices, is the primary professional degree.
               </p>
               <p className="text-slate-500 text-[15px] leading-relaxed mb-6">
                 Edu Hawk worldwide assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.
@@ -651,12 +606,12 @@ const Biotechnology = () => {
 
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1581093588401-fbb62a02f120?w=900&q=80"
-                alt="Biotechnology research and laboratory training"
+                src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=900&q=80"
+                alt="Pharmacy education in USA"
                 className="rounded-2xl shadow-xl object-cover w-full h-[390px]"
               />
               <div className="absolute -bottom-5 -left-5 bg-gradient-to-br from-blue-600 to-sky-500 rounded-2xl p-6 text-white shadow-xl hidden sm:block">
-                <div className="text-3xl font-bold leading-none">25–50L+</div>
+                <div className="text-3xl font-bold leading-none">20–45L</div>
                 <div className="text-sm opacity-90 mt-1">Approx. total budget range</div>
               </div>
             </div>
@@ -681,7 +636,7 @@ const Biotechnology = () => {
         </div>
       </section>
 
-      {/* ================= 1. WHY STUDY BIOTECHNOLOGY IN USA ================= */}
+      {/* ================= 1. WHY STUDY PHARMACY IN USA ================= */}
       <section className="py-16 sm:py-20 bg-slate-50" id="why-usa">
         <div className="max-w-6xl mx-auto px-6">
           <div className="mb-10">
@@ -689,10 +644,10 @@ const Biotechnology = () => {
               Study in USA
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
-              Why Study Biotechnology in the USA?
+              Why Come to the USA to Study Pharmacy?
             </h2>
             <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
-              The United States constitutes a premier academic destination for students pursuing biotechnology education, scientific investigation and life sciences advancement. Programs in basic biology, applied biotechnology, computational science and industrial applications are offered by its academic institutions.
+              Studying pharmacy in the US offers access to advanced pharmaceutical education and a range of career options.
             </p>
           </div>
 
@@ -714,12 +669,12 @@ const Biotechnology = () => {
           </div>
 
           <p className="text-slate-500 text-[15px] leading-relaxed">
-            Studying in the USA also allows students to experience a different academic environment and collaborate with people from diverse educational backgrounds. Through Edu Hawk worldwide study abroad guidance, students can explore these opportunities and understand the requirements involved in pursuing biotechnology education overseas.
+            Through Edu Hawk study abroad guidance, students can explore these opportunities and understand the requirements involved in pursuing pharmacy education overseas.
           </p>
         </div>
       </section>
 
-      {/* ================= 2. BIOTECHNOLOGY COURSES IN USA ================= */}
+      {/* ================= 2. PHARMACY COURSES IN USA ================= */}
       <section className="py-16 sm:py-20" id="usa-courses">
         <div className="max-w-6xl mx-auto px-6">
           <div className="mb-10">
@@ -727,76 +682,64 @@ const Biotechnology = () => {
               Programs in USA
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
-              Biotechnology Courses in the USA
+              Pharmacy Courses in the USA
             </h2>
             <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
-              Universities throughout the United States provide biotechnology educational programmes across multiple academic tiers, with programme selection contingent upon an applicant's prior educational attainment, scholarly inclinations and prospective professional trajectories.
+              Professional pharmacy degrees, pharmaceutical science undergraduate programs, and postgraduate study options are all available in the USA.
             </p>
           </div>
 
           <div className="space-y-6">
-            {/* Bachelor's */}
+            {/* PharmD */}
             <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 hover:shadow-lg hover:border-blue-100 transition-all duration-300">
               <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
                 <span className="w-8 h-8 rounded-lg bg-blue-50 text-blue-600 grid place-items-center text-sm font-bold">1</span>
-                Bachelor's Degree in Biotechnology
+                PharmD, or Doctor of Pharmacy
               </h3>
               <p className="text-slate-500 text-[15px] leading-relaxed mb-4">
-                A bachelor's degree in biotechnology establishes foundational competencies in biological sciences and their corresponding technological implementations. After completing Class 12, Indian students may pursue undergraduate admission, subject to institution-specific requirements.
+                The main professional degree for students who want to work as pharmacists in the United States is the Doctor of Pharmacy (PharmD).
               </p>
               <p className="text-slate-500 text-[15px] leading-relaxed mb-4">
-                Prevalent degree designations encompass Bachelor of Science in Biotechnology, Biological Sciences with biotechnology specialization, Molecular Biology, Biochemistry and Biomedical Science. Typical programme duration is approximately four years.
+                The conventional route typically entails four academic years of professional pharmacy education after prerequisite undergraduate coursework. Different program structures, including accelerated options, are available at some universities.
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
-                {bachelorSubjects.map((sub, i) => (
+                {pharmdSubjects.map((sub, i) => (
                   <div key={i} className="flex items-center gap-2.5 text-[15px] text-slate-700 bg-slate-50 rounded-lg px-3.5 py-2.5">
                     <span className="w-1.5 h-1.5 rounded-full bg-blue-500 flex-shrink-0"></span>
                     {sub}
                   </div>
                 ))}
               </div>
-              <p className="text-slate-500 text-[15px] leading-relaxed">
-                Numerous programmes incorporate undergraduate research initiatives, laboratory instruction and professional internship placements.
-              </p>
             </div>
 
-            {/* Master's */}
+            {/* Pharmaceutical Sciences */}
             <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 hover:shadow-lg hover:border-blue-100 transition-all duration-300">
               <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
                 <span className="w-8 h-8 rounded-lg bg-teal-50 text-teal-600 grid place-items-center text-sm font-bold">2</span>
-                Master's Degree in Biotechnology
+                Pharmaceutical Sciences
+              </h3>
+              <p className="text-slate-500 text-[15px] leading-relaxed">
+                Programs in pharmaceutical sciences, pharmacology, medicinal chemistry, and drug development are available to students who are interested in the science and development of medicines.
+              </p>
+            </div>
+
+            {/* Master's and Doctoral */}
+            <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 hover:shadow-lg hover:border-blue-100 transition-all duration-300">
+              <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
+                <span className="w-8 h-8 rounded-lg bg-indigo-50 text-indigo-600 grid place-items-center text-sm font-bold">3</span>
+                Master's and Doctoral Programs
               </h3>
               <p className="text-slate-500 text-[15px] leading-relaxed mb-4">
-                A Master of Science in Biotechnology from United States institutions serves students pursuing sophisticated scientific understanding, advanced practical laboratory competencies or specialized vocational preparation subsequent to completion of an appropriate bachelor's degree. Typical duration is one to two years.
+                The following are possible postgraduate options, depending on the university:
               </p>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
-                {mastersPrograms.map((prog, i) => (
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                {postgraduatePrograms.map((prog, i) => (
                   <div key={i} className="flex items-center gap-2.5 text-[15px] text-slate-700 bg-slate-50 rounded-lg px-3.5 py-2.5">
                     <span className="w-1.5 h-1.5 rounded-full bg-blue-500 flex-shrink-0"></span>
                     {prog}
                   </div>
                 ))}
               </div>
-              <p className="text-slate-500 text-[15px] leading-relaxed mb-3">
-                <strong>Master's in Bioinformatics:</strong> Integrates biological sciences with computational technologies, statistical analysis and data management. Suitable for students with backgrounds in biotechnology, biology, computer science, mathematics or statistics.
-              </p>
-              <p className="text-slate-500 text-[15px] leading-relaxed">
-                <strong>Master's in Biomedical Science:</strong> Offers comprehensive examination of biological mechanisms underlying human health and pathological conditions. Relevant for students aspiring toward biomedical research, pharmaceutical development and laboratory-centered scientific endeavors.
-              </p>
-            </div>
-
-            {/* PhD */}
-            <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 hover:shadow-lg hover:border-blue-100 transition-all duration-300">
-              <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
-                <span className="w-8 h-8 rounded-lg bg-indigo-50 text-indigo-600 grid place-items-center text-sm font-bold">3</span>
-                PhD in Biotechnology or Related Field
-              </h3>
-              <p className="text-slate-500 text-[15px] leading-relaxed mb-4">
-                In the US educational system, students dedicated to rigorous research and scientific innovation can pursue advanced scholarly inquiry with a PhD in biotechnology or related fields.
-              </p>
-              <p className="text-slate-500 text-[15px] leading-relaxed">
-                Potential research domains encompass genetic engineering and genome modification, oncological biology and immunological studies, synthetic biology, regenerative medicine applications, agricultural biotechnology, pharmaceutical discovery and development, and molecular biology alongside bioprocess engineering. Doctoral programmes characteristically involve substantial research initiatives, rigorous coursework, academic seminars and comprehensive dissertation requirements. Numerous programmes provide financial support mechanisms or research assistantships for qualified candidates.
-              </p>
             </div>
           </div>
         </div>
@@ -810,40 +753,31 @@ const Biotechnology = () => {
               Universities
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
-              Top Universities to Explore for Biotechnology in the USA
+              Top Universities for Pharmacy in the USA
             </h2>
             <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
-              Prospective students should conduct comprehensive evaluations of prospective institutions by examining their precise programmatic offerings, disciplinary concentrations, research laboratory infrastructure, scholarly research capabilities and professional development resources. This compilation constitutes a curated investigative list rather than a hierarchical assessment.
+              Some well-known U.S. pharmacy schools and universities include:
             </p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mb-8">
-            {topUniversities.map((university, index) => (
+            {topUniversities.map((university) => (
               <div
                 key={university.name}
-                className="physio-university-card group relative min-h-64 overflow-hidden rounded-2xl bg-slate-900 shadow-md hover:shadow-xl"
-                style={{ "--card-delay": `${index * 100}ms` }}
+                className="relative rounded-2xl overflow-hidden h-60 group"
               >
                 <img
-                  src={university.image}
-                  alt="University campus"
-                  loading="lazy"
-                  className="physio-university-image absolute inset-0 h-full w-full object-cover opacity-85"
+                  src={university.img}
+                  alt={university.name}
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/95 via-slate-900/35 to-transparent" />
-                <div className="relative flex min-h-64 flex-col justify-end p-5 sm:p-6">
-                  <div className="mb-3 grid h-10 w-10 place-items-center rounded-xl bg-white/15 text-white backdrop-blur-sm">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                      <path d="M12 14l9-5-9-5-9 5 9 5z" />
-                      <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-                    </svg>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex items-end p-5">
+                  <div className="transform group-hover:translate-y-[-4px] transition-transform duration-300">
+                    <h3 className="text-white font-semibold text-lg">
+                      {university.name}
+                    </h3>
+                    <p className="text-white/80 text-sm">{university.desc}</p>
                   </div>
-                  <h3 className="mb-1 text-lg font-semibold text-white sm:text-xl">
-                    {university.name}
-                  </h3>
-                  <p className="text-sm leading-relaxed text-white/80">
-                    {university.desc}
-                  </p>
                 </div>
               </div>
             ))}
@@ -851,10 +785,12 @@ const Biotechnology = () => {
 
           <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8">
             <h3 className="text-lg font-bold text-slate-900 mb-3">
-              How to Choose the Right Biotechnology University
+              How to choose the right university
             </h3>
             <p className="text-slate-500 text-[15px] leading-relaxed mb-4">
-              Before applying, compare the following factors:
+              Compare each pharmacy program by its admission pathway, academic
+              requirements, costs, accreditation, experiential learning, and
+              student support.
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 mb-4">
               {comparisonPoints.map((point) => (
@@ -867,6 +803,11 @@ const Biotechnology = () => {
                 </div>
               ))}
             </div>
+            <p className="text-slate-500 text-[15px] leading-relaxed">
+              Purdue University is another well-known pharmacy school. With Edu
+              Hawk guidance, students can compare suitable institutions based
+              on their background, budget, preferred location, and goals.
+            </p>
           </div>
         </div>
       </section>
@@ -879,18 +820,18 @@ const Biotechnology = () => {
               USA Eligibility
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
-              Eligibility to Study Biotechnology in the USA
+              Eligibility to Study Pharmacy in the USA
             </h2>
             <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
-              The prerequisites for pursuing biotechnology studies in the United States are contingent upon the academic level, institutional affiliation and chosen field of concentration.
+              The eligibility for pharmacy in USA depends on the course and university.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8">
-              <h3 className="text-lg font-bold text-slate-900 mb-4">After Secondary Education</h3>
+              <h3 className="text-lg font-bold text-slate-900 mb-4">For Students After Class 12</h3>
               <p className="text-slate-500 text-[15px] leading-relaxed mb-4">
-                Indian applicants seeking undergraduate admission typically must:
+                Students may explore pre-pharmacy pathways if they have:
               </p>
               <ul className="space-y-3">
                 {after12Eligibility.map((item, i) => (
@@ -907,34 +848,12 @@ const Biotechnology = () => {
             </div>
 
             <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8">
-              <h3 className="text-lg font-bold text-slate-900 mb-4">Graduate-Level Study</h3>
+              <h3 className="text-lg font-bold text-slate-900 mb-4">For Indian BPharm Graduates</h3>
               <p className="text-slate-500 text-[15px] leading-relaxed mb-4">
-                Candidates pursuing an MS in Biotechnology or cognate disciplines ordinarily must:
+                Students with a Bachelor of Pharmacy may explore:
               </p>
               <ul className="space-y-3">
-                {graduateEligibility.map((item, i) => (
-                  <li key={i} className="flex gap-3 text-[15px] text-slate-700">
-                    <span className="flex-shrink-0 w-[22px] h-[22px] rounded-full bg-blue-50 text-blue-600 grid place-items-center mt-0.5">
-                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.8">
-                        <path d="M5 13l4 4L19 7" strokeLinecap="round" strokeLinejoin="round" />
-                      </svg>
-                    </span>
-                    <span>{item}</span>
-                  </li>
-                ))}
-              </ul>
-              <p className="text-slate-500 text-[14px] leading-relaxed mt-4">
-                Candidates with backgrounds in microbiology, biochemistry, biological sciences, biomedical science or bioengineering may be eligible if they meet the requirements.
-              </p>
-            </div>
-
-            <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8">
-              <h3 className="text-lg font-bold text-slate-900 mb-4">Doctoral Research Programmes</h3>
-              <p className="text-slate-500 text-[15px] leading-relaxed mb-4">
-                Applicants pursuing doctoral-level biotechnology research programmes ordinarily require:
-              </p>
-              <ul className="space-y-3">
-                {doctoralEligibility.map((item, i) => (
+                {bpharmEligibility.map((item, i) => (
                   <li key={i} className="flex gap-3 text-[15px] text-slate-700">
                     <span className="flex-shrink-0 w-[22px] h-[22px] rounded-full bg-blue-50 text-blue-600 grid place-items-center mt-0.5">
                       <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.8">
@@ -958,18 +877,18 @@ const Biotechnology = () => {
               Admission Requirements
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
-              Admission Requirements for Biotechnology in the USA
+              Admission Requirements for Pharmacy in the USA
             </h2>
             <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
-              The prerequisites for biotechnology degree programmes across American universities are contingent upon the specific institution, academic level and disciplinary focus. Prospective students are advised to consult the official programme documentation corresponding to their intended enrollment period.
+              The pharmacy admission requirements in USA vary by institution and program.
             </p>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-6">
             <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8">
-              <h3 className="text-lg font-bold text-slate-900 mb-4">Academic Documentation</h3>
+              <h3 className="text-lg font-bold text-slate-900 mb-4">Academic Requirements</h3>
               <p className="text-slate-500 text-[15px] leading-relaxed mb-4">
-                Applicants are typically required to submit:
+                Applicants may need:
               </p>
               <ul className="space-y-3">
                 {admissionAcademic.map((item, i) => (
@@ -986,9 +905,9 @@ const Biotechnology = () => {
             </div>
 
             <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8">
-              <h3 className="text-lg font-bold text-slate-900 mb-4">English Language Competency</h3>
+              <h3 className="text-lg font-bold text-slate-900 mb-4">English-Language Requirements</h3>
               <p className="text-slate-500 text-[15px] leading-relaxed mb-4">
-                Applicants from India may be obligated to demonstrate English language competency through an examination recognized by the target university:
+                International students may be required to submit an accepted English proficiency test, such as:
               </p>
               <div className="flex flex-wrap gap-2.5 mb-4">
                 {englishTests.map((test, i) => (
@@ -1000,16 +919,13 @@ const Biotechnology = () => {
                   </span>
                 ))}
               </div>
-              <p className="text-slate-500 text-[15px] leading-relaxed">
-                Institutional policies regarding minimum score thresholds, score exemptions and score validity periods vary considerably.
-              </p>
             </div>
           </div>
 
-          <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 mb-6">
-            <h3 className="text-lg font-bold text-slate-900 mb-4">Additional Admission Requirements</h3>
+          <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8">
+            <h3 className="text-lg font-bold text-slate-900 mb-4">Additional Requirements</h3>
             <p className="text-slate-500 text-[15px] leading-relaxed mb-4">
-              Depending on the university and programme level, applicants may also need:
+              Depending on the university, applicants may also need:
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
               {additionalRequirements.map((item, i) => (
@@ -1019,9 +935,6 @@ const Biotechnology = () => {
                 </div>
               ))}
             </div>
-            <p className="text-slate-500 text-[15px] leading-relaxed mt-5">
-              The GRE is not universally required for biotechnology programmes in the USA. Requirements vary by university, department and degree level. Research-focused master's and PhD programmes may request a research statement, interview or discussion of the applicant's scientific interests.
-            </p>
           </div>
         </div>
       </section>
@@ -1034,10 +947,10 @@ const Biotechnology = () => {
               USA Cost
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
-              Cost of Studying Biotechnology in the USA
+              Cost of Studying Pharmacy in the USA
             </h2>
             <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
-              The cost of studying biotechnology in the United States varies according to the specific university, academic degree level, programme duration, geographic location and individual lifestyle choices. Institutional fee structures demonstrate considerable variation across public universities, private universities and alternative programme delivery formats.
+              The length of the program, the location, the university, and the student's residency classification all affect the cost of studying pharmacy in the United States.
             </p>
           </div>
 
@@ -1051,9 +964,9 @@ const Biotechnology = () => {
           </div>
 
           <div className="bg-slate-50 border border-slate-200 rounded-2xl p-6 sm:p-8">
-            <h3 className="text-lg font-bold text-slate-900 mb-3">Scholarships and Financial Assistance</h3>
+            <h3 className="text-lg font-bold text-slate-900 mb-3">Planning a Budget</h3>
             <p className="text-slate-500 text-[15px] leading-relaxed">
-              Prospective students should examine institution-based merit scholarships, departmental scholarship awards, graduate assistantship positions, research assistantship opportunities, non-institutional scholarships and programme-specific grants or fellowship awards. Financial assistance remains highly competitive and demonstrates substantial variation across institutions. Certain financial aid mechanisms available to United States citizens or permanent residents may not extend to international student populations.
+              Determine the total cost of attendance: The total cost of tuition, tuition, housing, food, insurance, study materials, travel, and other necessary expenses.
             </p>
           </div>
         </div>
@@ -1067,10 +980,10 @@ const Biotechnology = () => {
               USA Admission Process
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">
-              Admission Process for Biotechnology in the USA
+              Pharmacy Admission Process in the USA
             </h2>
             <p className="text-slate-500 text-[15px] max-w-2xl mx-auto">
-              Prospective students seeking to pursue biotechnology studies within the United States educational system may generally adhere to the following procedural framework.
+              In the USA, the following steps are usually involved in the pharmacy admission process:
             </p>
           </div>
 
@@ -1093,28 +1006,28 @@ const Biotechnology = () => {
         </div>
       </section>
 
-      {/* ================= 8. ACCREDITATION ================= */}
+      {/* ================= 8. LICENSING ================= */}
       <section className="py-16 sm:py-20" id="usa-licensing">
         <div className="max-w-6xl mx-auto px-6">
           <div className="mb-10">
             <div className="text-xs font-semibold tracking-wider uppercase text-blue-600 mb-1.5">
-              Accreditation & Recognition
+              Licensing
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
-              Accreditation and Recognition of Biotechnology Degrees in the USA
+              Pharmacy Licensing in the USA
             </h2>
             <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
-              Before enrolling, prospective students need to find out if the school is accredited and understand the differences between professional certification, specialized program accreditation and institutional accreditation.
+              State boards of pharmacy oversee the licensing of pharmacists in the United States. A degree in pharmacy does not grant one the right to work as a pharmacist.
             </p>
           </div>
 
           <div className="bg-slate-900 text-white rounded-2xl p-6 sm:p-8 mb-6">
-            <h3 className="text-lg font-bold mb-3">Institutional and Programme Verification</h3>
+            <h3 className="text-lg font-bold mb-3">Requirements for U.S. PharmD Graduates</h3>
             <p className="text-white/80 text-[15px] leading-relaxed mb-4">
-              Prospective applicants should examine the following criteria:
+              In general, graduates of qualified U.S. PharmD programs must fulfill state requirements, which may include:
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-              {accreditationPoints.map((item, i) => (
+              {licensingPoints.map((item, i) => (
                 <div key={i} className="flex items-center gap-2.5 text-[15px] text-white/90">
                   <span className="w-1.5 h-1.5 rounded-full bg-blue-400 flex-shrink-0"></span>
                   {item}
@@ -1123,13 +1036,16 @@ const Biotechnology = () => {
             </div>
           </div>
 
-          <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8">
-            <h3 className="text-lg font-bold text-slate-900 mb-3">Research and Laboratory Training & Recognition in India</h3>
+          <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 mb-6">
+            <h3 className="text-lg font-bold text-slate-900 mb-3">For BPharm Graduates from India</h3>
             <p className="text-slate-500 text-[15px] leading-relaxed mb-4">
-              For research-intensive programmes, candidates should evaluate the curriculum design, laboratory infrastructure, research faculty supervision and opportunities to cultivate hands-on competencies in molecular biology methodologies, cellular cultivation, genomic analysis, bioprocessing operations, computational biology and quantitative scientific interpretation.
+              It is not always possible for an Indian graduate with a BPharm degree to obtain a pharmacy license in the United States.
+            </p>
+            <p className="text-slate-500 text-[15px] leading-relaxed mb-4">
+              Internationally educated pharmacists generally need to review the Foreign Pharmacy Graduate Examination Committee (FPGEC) certification process administered through the National Association of Boards of Pharmacy.
             </p>
             <p className="text-slate-500 text-[15px] leading-relaxed">
-              Students intending to pursue careers in India must confirm the degree's relevance to their professional objectives or postgraduate educational plans. Institutional recognition and professional eligibility criteria may differ substantially across employers, academic institutions and regulated professional disciplines.
+              Requirements may include education verification, examinations and English-language documentation. FPGEC certification is not itself a pharmacist licence. Candidates must also satisfy the requirements of the relevant state board.
             </p>
           </div>
         </div>
@@ -1143,14 +1059,14 @@ const Biotechnology = () => {
               Careers
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
-              Career Opportunities and Salary After Biotechnology in the USA
+              Pharmacy Salary and Job Opportunities in the USA
             </h2>
             <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
-              Individuals completing biotechnology degree programmes may pursue professional opportunities spanning scientific investigation, laboratory management, pharmaceutical innovation, biological production systems, quality assurance, computational biology analysis and allied sectors. The specific positions available are contingent upon educational attainment level, acquired technical competencies, hands-on laboratory experience, institutional hiring criteria and relevant employment authorization status.
+              Professionals in pharmacy who are qualified can look into opportunities in a number of industries.
             </p>
           </div>
 
-          <h3 className="text-xl font-bold text-slate-900 mb-5">Professional Pathways in Biotechnology</h3>
+          <h3 className="text-xl font-bold text-slate-900 mb-5">Job Opportunities</h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-10">
             {jobOpportunities.map((job, i) => (
               <div
@@ -1167,27 +1083,11 @@ const Biotechnology = () => {
             ))}
           </div>
 
-          <div className="bg-gradient-to-br from-blue-600 to-sky-600 rounded-2xl p-8 text-white text-center shadow-xl mb-8">
-            <div className="text-sm font-medium opacity-90 mb-2">Biotechnology Salary Reference (USA – May 2025)</div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-xl mx-auto mb-4">
-              <div>
-                <div className="text-3xl sm:text-4xl font-bold mb-1">$57,510</div>
-                <div className="text-white/85 text-sm">Biological Technicians (median)</div>
-              </div>
-              <div>
-                <div className="text-3xl sm:text-4xl font-bold mb-1">$127,410</div>
-                <div className="text-white/85 text-sm">Biochemists & Biophysicists (median)</div>
-              </div>
-            </div>
+          <div className="bg-gradient-to-br from-blue-600 to-sky-600 rounded-2xl p-8 text-white text-center shadow-xl">
+            <div className="text-sm font-medium opacity-90 mb-2">Pharmacist Median Salary (USA)</div>
+            <div className="text-4xl sm:text-5xl font-bold mb-3">$140,910</div>
             <p className="text-white/85 text-[15px] max-w-xl mx-auto leading-relaxed">
-              Source: U.S. Bureau of Labor Statistics. These statistics pertain to particular professional categories, not all biotechnology degree recipients. Actual earnings vary by role, experience, location, employer and technical expertise.
-            </p>
-          </div>
-
-          <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8">
-            <h3 className="text-lg font-bold text-slate-900 mb-3">Potential Employers</h3>
-            <p className="text-slate-500 text-[15px] leading-relaxed">
-              Based on academic credentials and professional background, degree recipients may pursue positions across biotechnology enterprises, pharmaceutical and biopharmaceutical firms, contract research institutions, university and academic research facilities, medical centers and biomedical research institutes, diagnostic and laboratory service enterprises, agricultural biotechnology firms, food science and industrial biotechnology enterprises, environmental biotechnology firms, and scientific instrumentation and life science technology corporations.
+              In May 2025, the U.S. Bureau of Labor Statistics reported that the median yearly salary for pharmacists was $140,910. Pharmacist employment is expected to increase by 5% between 2025 and 2035, with an average of 12,500 positions per year. Location, experience, employer, specialty, and work environment all affect actual pay.
             </p>
           </div>
         </div>
@@ -1201,16 +1101,16 @@ const Biotechnology = () => {
               Documents
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
-              Documents Required for Biotechnology Admission in the USA
+              Documents Required to Study Pharmacy in the USA
             </h2>
             <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
-              The documentation prerequisites for biotechnology program admission in the United States are contingent upon institutional policies and academic degree classification. Prospective students are advised to compile materials as delineated in the institution's formal application requirements.
+              Depending on the program and university, different documents are needed to study pharmacy in the United States.
             </p>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
             <div className="bg-white border border-slate-200 rounded-2xl p-6">
-              <h3 className="text-lg font-bold text-slate-900 mb-4">Academic Credentials</h3>
+              <h3 className="text-lg font-bold text-slate-900 mb-4">Academic Documents</h3>
               <ul className="space-y-3">
                 {academicDocs.map((doc, i) => (
                   <li key={i} className="flex gap-3 text-[14px] text-slate-700">
@@ -1226,7 +1126,7 @@ const Biotechnology = () => {
             </div>
 
             <div className="bg-white border border-slate-200 rounded-2xl p-6">
-              <h3 className="text-lg font-bold text-slate-900 mb-4">Application Materials</h3>
+              <h3 className="text-lg font-bold text-slate-900 mb-4">Documents for Admission</h3>
               <ul className="space-y-3">
                 {applicationDocs.map((doc, i) => (
                   <li key={i} className="flex gap-3 text-[14px] text-slate-700">
@@ -1242,7 +1142,7 @@ const Biotechnology = () => {
             </div>
 
             <div className="bg-white border border-slate-200 rounded-2xl p-6">
-              <h3 className="text-lg font-bold text-slate-900 mb-4">Financial & Immigration Documentation</h3>
+              <h3 className="text-lg font-bold text-slate-900 mb-4">Financial and Visa Documents</h3>
               <ul className="space-y-3">
                 {financialVisaDocs.map((doc, i) => (
                   <li key={i} className="flex gap-3 text-[14px] text-slate-700">
@@ -1259,8 +1159,6 @@ const Biotechnology = () => {
           </div>
         </div>
       </section>
-
-      {/* ================= DESTINATIONS ================= */}
       <section className="py-16 sm:py-20" id="destinations">
         <div className="max-w-6xl mx-auto px-6">
           <div className="mb-8">
@@ -1268,7 +1166,7 @@ const Biotechnology = () => {
               Where to study
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900">
-              Popular destinations for Biotechnology
+              Popular destinations for Pharmacy
             </h2>
           </div>
 
@@ -1287,11 +1185,11 @@ const Biotechnology = () => {
             ))}
           </div>
           <p className="text-slate-500 text-[15px] leading-relaxed mt-5 max-w-xl">
-            Compare tuition, student support, specialisations and career pathways to choose the destination that fits your goals.
+            Compare tuition, student support, licensing requirements, and career
+            pathways to choose the destination that fits your goals.
           </p>
         </div>
       </section>
-
       {/* ================= GENERAL ELIGIBILITY ================= */}
       <section className="py-16 sm:py-20 bg-slate-50" id="eligibility">
         <div className="max-w-6xl mx-auto px-6">
@@ -1325,7 +1223,7 @@ const Biotechnology = () => {
                 Not sure if you are eligible?
               </h3>
               <p className="text-white/70 text-[15px] leading-relaxed mb-5">
-                Share your academic background and preferred countries. We will tell you honestly which universities and programmes are realistic for your profile and budget.
+                Share your Class 12 marks and preferred countries. We will tell you honestly which universities and programs are realistic for your profile and budget.
               </p>
               <a
                 href="#consult"
@@ -1376,7 +1274,7 @@ const Biotechnology = () => {
               FAQ
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900">
-              Frequently Asked Questions About Biotechnology in the USA
+              Frequently Asked Questions About Pharmacy in the USA
             </h2>
           </div>
           <div className="max-w-2xl mx-auto space-y-3">
@@ -1408,7 +1306,7 @@ const Biotechnology = () => {
           <div className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-3xl px-8 py-14 sm:px-12 text-center text-white relative overflow-hidden">
             <div className="absolute top-0 right-0 w-64 h-64 bg-blue-600/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none" />
             <h2 className="text-2xl sm:text-3xl font-bold mb-3 relative">
-              Ready to start your Biotechnology journey?
+              Ready to start your Pharmacy journey?
             </h2>
             <p className="text-white/70 max-w-md mx-auto mb-8 leading-relaxed text-[15px] relative">
               Book a free counselling session. We will assess your profile, share realistic options and give you a clear cost & process roadmap.
@@ -1436,4 +1334,4 @@ const Biotechnology = () => {
   );
 };
 
-export default Biotechnology;
+export default PharmacyAbroad;
