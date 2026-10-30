@@ -1019,8 +1019,8 @@ export default function Landingpage() {
                 <div>
                   <p className="text-white font-medium">New Delhi</p>
                   <p className="text-slate-400">
-                    N-5, South Extension Part-1,
-                    <br />
+                    Bajrang House, N-5, next to Aakash Institute, South
+                    Extension I, Block N <br />
                     New Delhi - 110049
                   </p>
                   <p className="text-cyan-400 mt-1">+91 7319908359</p>

@@ -28,12 +28,13 @@ import AllIndia from "../pages/Country/India/AllIndia.jsx";
 import Landingpage from "../pages/Landingpage/Landingpage.jsx";
 import TermsAndConditions from "../pages/TermsAndConditions/TermsAndConditions.jsx";
 import PrivacyPolicy from "../pages/PrivacyPolicy/PrivacyPolicy.jsx";
+import CookiesPolicy from "../pages/CookiesPolicy/CookiesPolicy.jsx";
 import MbbsAbroad from "../pages/Study Abroad/MbbsAbroad.jsx";
 import MedicalAbroad from "../pages/Study Abroad/MedicalAbroad.jsx";
-import DentistryAbroad from "../pages/Study Abroad/DentistryAbroad.jsx";
-import NursingAbroad from "../pages/Study Abroad/NursingAbroad.jsx";
-import PharmacyAbroad from "../pages/Study Abroad/PharmacyAbroad.jsx";
-import PhysiotherapyAbroad from "../pages/Study Abroad/PhysiotherapyAbroad.jsx";
+import DentistryAbroad from "../pages/Study Abroad/USA/DentistryAbroad.jsx";
+import NursingAbroad from "../pages/Study Abroad/USA/NursingAbroad.jsx";
+import PharmacyAbroad from "../pages/Study Abroad/USA/PharmacyAbroad.jsx";
+import PhysiotherapyAbroad from "../pages/Study Abroad/USA/PhysiotherapyAbroad.jsx";
 import PublicHealthAbroad from "../pages/Study Abroad/PublicHealthAbroad.jsx";
 import BiotechnologyAbroad from "../pages/Study Abroad/BiotechnologyAbroad.jsx";
 import Engineering from "../pages/Study Abroad/Engineering.jsx";
@@ -239,6 +240,10 @@ export const router = createBrowserRouter([
         path: "privacy-policy",
         element: <PrivacyPolicy />,
       },
+      {
+        path: "cookies-policy",
+        element: <CookiesPolicy />,
+      },
     ],
   },
 ]);
@@ -268,5 +273,6 @@ export const routeList = [
   "/allcollege",
   "/terms-conditions",
   "/privacy-policy",
+  "/cookies-policy",
   "/landingpage",
 ];

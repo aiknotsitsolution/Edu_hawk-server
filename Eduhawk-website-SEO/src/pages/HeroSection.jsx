@@ -1645,7 +1645,7 @@ export default function HeroSection() {
                   {
                     icon: "📍",
                     title: "Office",
-                    detail: "Pioneer Square, New Delhi",
+                    detail: "Bajrang House, N-5, next to Aakash Institute, South Extension I, Block N, New Delhi, Delhi 110003",
                     sub: "India, 110001",
                   },
                   {

@@ -478,8 +478,7 @@ const Contact = () => {
                   New Delhi
                 </h4>
                 <p className="text-gray-700 text-sm leading-relaxed mb-4">
-                  N-5, South Extension Part-1,
-                  <br />
+                  Bajrang House, N-5, next to Aakash Institute, South Extension I, Block N                  <br />
                   New Delhi - 110049
                 </p>
                 <p className="text-[#02145a] font-medium flex items-center gap-2">

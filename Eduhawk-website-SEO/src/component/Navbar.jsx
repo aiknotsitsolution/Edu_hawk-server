@@ -1,3 +1,5 @@
+
+
 // import React, { useState } from "react";
 // import { useLocation } from "react-router-dom";
 // import Eduhawk from "../assets/Eduhawk.png"; // ← adjust path if needed
@@ -20,6 +22,7 @@
 //     { name: "Russia", path: "russia" },
 //     { name: "Bangladesh", path: "bangladesh" },
 //     { name: "Nepal", path: "nepal" },
+//     { name: "Italy", path: "italy" },
 //     { name: "Kazakhstan", path: "kazakhstan" },
 //     { name: "Kyrgyzstan", path: "kyrgyzstan" },
 //     { name: "Uzbekistan", path: "uzbekistan" },
@@ -27,6 +30,7 @@
 //     { name: "Egypt", path: "egypt" },
 //     { name: "Georgia", path: "georgia" },
 //     { name: "Vietnam", path: "vietnam" },
+    
 //   ];
 
 //   const engineeringBranches = [
@@ -1406,7 +1410,7 @@
 
 //                     {/* Tests & Exams */}
 //                     <button
-//                       className="w-full flex justify-between items-center px-5 pt-4 pb-2 text-left font-serif text-sm font-semibold text-[#2F327D]"
+//                       className="w-full flex justify-between items-center px-5 pt-4 pb-2 text-left text-sm font-semibold text-[#2F327D]"
 //                       onClick={() => setIsTestsOpen(!isTestsOpen)}
 //                       aria-expanded={isTestsOpen}
 //                     >
@@ -1432,7 +1436,7 @@
 //                       <div className="pb-2">
 //                         {/* English Language Tests */}
 //                         <button
-//                           className="w-full flex justify-between items-center px-8 pt-2 pb-1 text-left font-serif text-sm font-semibold text-[#2F327D]"
+//                           className="w-full flex justify-between items-center px-8 pt-2 pb-1 text-left text-sm font-semibold text-[#2F327D]"
 //                           onClick={() => toggleSection("english")}
 //                           aria-expanded={openSection === "english"}
 //                         >
@@ -1455,7 +1459,7 @@
 
 //                         {/* Foreign Language Tests */}
 //                         <button
-//                           className="w-full flex justify-between items-center px-8 pt-3 pb-1 text-left font-serif text-sm font-semibold text-[#2F327D]"
+//                           className="w-full flex justify-between items-center px-8 pt-3 pb-1 text-left text-sm font-semibold text-[#2F327D]"
 //                           onClick={() => toggleSection("foreign")}
 //                           aria-expanded={openSection === "foreign"}
 //                         >
@@ -1478,7 +1482,7 @@
 
 //                         {/* Entrance & Academic Tests */}
 //                         <button
-//                           className="w-full flex justify-between items-center px-8 pt-3 pb-1 text-left font-serif text-sm font-semibold text-[#2F327D]"
+//                           className="w-full flex justify-between items-center px-8 pt-3 pb-1 text-left text-sm font-semibold text-[#2F327D]"
 //                           onClick={() => toggleSection("entrance")}
 //                           aria-expanded={openSection === "entrance"}
 //                         >
@@ -1626,8 +1630,25 @@ const Navbar = () => {
   const [isEngineeringOpen, setIsEngineeringOpen] = useState(false);
   const [isBusinessOpen, setIsBusinessOpen] = useState(false);
 
+  // Country mega-menu state
+  const [selectedCountry, setSelectedCountry] = useState("USA");
+
   const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
 
+  // Countries for Study Abroad mega menu
+  const studyAbroadCountries = [
+    "USA",
+    "Australia",
+    "Canada",
+    "UK",
+    "Germany",
+    "Ireland",
+    "France",
+    "Finland",
+    "Other",
+  ];
+
+  // Original data (same for all countries)
   const abroadCountries = [
     { name: "Russia", path: "russia" },
     { name: "Bangladesh", path: "bangladesh" },
@@ -1640,7 +1661,6 @@ const Navbar = () => {
     { name: "Egypt", path: "egypt" },
     { name: "Georgia", path: "georgia" },
     { name: "Vietnam", path: "vietnam" },
-    
   ];
 
   const engineeringBranches = [
@@ -1819,33 +1839,234 @@ const Navbar = () => {
                 </svg>
               </button>
 
-              {/* Mega Menu Panel */}
+              {/* Mega Menu Panel - Country Sidebar + Original Courses */}
               <div
-                className={`absolute left-1/2 -translate-x-1/2 top-full mt-3 w-[1100px] max-w-[95vw] bg-white rounded-2xl shadow-2xl border border-gray-100 transition-all duration-200 z-50 overflow-hidden ${isStudyAbroadOpen ? "opacity-100 visible" : "opacity-0 invisible group-hover:opacity-100 group-hover:visible"}`}
+                className={`absolute left-1/2 -translate-x-1/2 top-full mt-3 w-[1200px] max-w-[95vw] bg-white rounded-2xl shadow-2xl border border-gray-100 transition-all duration-200 z-50 overflow-hidden ${
+                  isStudyAbroadOpen
+                    ? "opacity-100 visible"
+                    : "opacity-0 invisible group-hover:opacity-100 group-hover:visible"
+                }`}
               >
-                <div className="flex">
-                  {/* Left Content - 4 Columns */}
-                  <div className="flex-1 grid grid-cols-4 gap-0 p-5">
-                    {/* Column 1: Medical & Health */}
-                    <div className="pr-3 border-r border-gray-100">
-                      <div className="flex items-center gap-2 mb-3">
-                        <span className="w-1.5 h-1.5 rounded-full bg-[#F48C06]"></span>
-                        <h4 className="text-[11px] font-semibold tracking-wider text-gray-400 uppercase">
-                          MBBS Abroad
-                        </h4>
+                <div className="flex min-h-[480px]">
+                  {/* ========== LEFT SIDEBAR - Countries ========== */}
+                  <div className="w-44 bg-[#1e293b] text-white shrink-0 flex flex-col py-2">
+                    {studyAbroadCountries.map((country) => (
+                      <button
+                        key={country}
+                        onClick={() => setSelectedCountry(country)}
+                        className={`w-full text-left px-4 py-3 text-sm font-medium flex items-center justify-between transition-colors ${
+                          selectedCountry === country
+                            ? "bg-[#334155] text-white"
+                            : "text-gray-300 hover:bg-[#334155] hover:text-white"
+                        }`}
+                      >
+                        <span>{country}</span>
+                        <svg
+                          className="w-3.5 h-3.5 opacity-70"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M9 5l7 7-7 7"
+                          />
+                        </svg>
+                      </button>
+                    ))}
+                  </div>
+
+                  {/* ========== RIGHT CONTENT - Original Courses (same for every country) ========== */}
+                  <div className="flex-1 flex">
+                    {/* Left Content - 4 Columns */}
+                    <div className="flex-1 grid grid-cols-4 gap-0 p-5">
+                      {/* Column 1: Medical & Health */}
+                      <div className="pr-3 border-r border-gray-100">
+                        <div className="flex items-center gap-2 mb-3">
+                          <span className="w-1.5 h-1.5 rounded-full bg-[#F48C06]"></span>
+                          <h4 className="text-[11px] font-semibold tracking-wider text-gray-400 uppercase">
+                            MBBS Abroad
+                          </h4>
+                        </div>
+                        <ul className="space-y-0.5">
+                          {[
+                            { name: "Dentistry", path: "dentistry" },
+                            { name: "Nursing", path: "nursing" },
+                            { name: "Pharmacy", path: "pharmacy" },
+                            { name: "Physiotherapy", path: "physiotherapy" },
+                            { name: "Public Health", path: "public-health" },
+                            { name: "Biotechnology", path: "biotechnology" },
+                          ].map((course) => (
+                            <li key={course.path}>
+                              <a
+                                href={`/courses/${course.path}?country=${selectedCountry.toLowerCase()}`}
+                                className="flex items-center gap-2.5 px-2 py-1.5 rounded-lg text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors group/item"
+                              >
+                                <span className="w-6 h-6 rounded-md bg-orange-50 flex items-center justify-center text-[#F48C06] group-hover/item:bg-[#F48C06] group-hover/item:text-white transition-colors shrink-0">
+                                  <svg
+                                    className="w-3 h-3"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <path
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
+                                      strokeWidth={2}
+                                      d="M9 5l7 7-7 7"
+                                    />
+                                  </svg>
+                                </span>
+                                <span className="text-[13px] font-medium leading-tight">
+                                  {course.name}
+                                </span>
+                              </a>
+                            </li>
+                          ))}
+                        </ul>
                       </div>
-                      <ul className="space-y-0.5">
-                        {[
-                          { name: "Dentistry", path: "dentistry" },
-                          { name: "Nursing", path: "nursing" },
-                          { name: "Pharmacy", path: "pharmacy" },
-                          { name: "Physiotherapy", path: "physiotherapy" },
-                          { name: "Public Health", path: "public-health" },
-                          { name: "Biotechnology", path: "biotechnology" },
-                        ].map((course) => (
-                          <li key={course.path}>
+
+                      {/* Column 2: Tech, Business & More */}
+                      <div className="px-3 border-r border-gray-100">
+                        <div className="flex items-center gap-2 mb-3">
+                          <span className="w-1.5 h-1.5 rounded-full bg-[#F48C06]"></span>
+                          <h4 className="text-[11px] font-semibold tracking-wider text-gray-400 uppercase">
+                            Tech, Business & More
+                          </h4>
+                        </div>
+                        <ul className="space-y-0.5">
+                          {/* Engineering → UG & PG → Branches */}
+                          <li className="relative group/eng">
                             <a
-                              href={`/courses/${course.path}`}
+                              href={`/courses/engineering?country=${selectedCountry.toLowerCase()}`}
+                              className="flex items-center justify-between gap-2.5 px-2 py-1.5 rounded-lg text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors group/item"
+                            >
+                              <div className="flex items-center gap-2.5">
+                                <span className="w-6 h-6 rounded-md bg-orange-50 flex items-center justify-center text-[#F48C06] group-hover/item:bg-[#F48C06] group-hover/item:text-white transition-colors shrink-0">
+                                  <svg
+                                    className="w-3 h-3"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <path
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
+                                      strokeWidth={2}
+                                      d="M9 5l7 7-7 7"
+                                    />
+                                  </svg>
+                                </span>
+                                <span className="text-[13px] font-medium leading-tight">
+                                  Engineering
+                                </span>
+                              </div>
+                              <svg
+                                className="w-3.5 h-3.5 text-gray-400 group-hover/eng:text-[#F48C06] transition-transform group-hover/eng:rotate-90"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  strokeWidth={2}
+                                  d="M9 5l7 7-7 7"
+                                />
+                              </svg>
+                            </a>
+                            {/* Level 1: UG & PG */}
+                            <div className="absolute left-full top-0 ml-1 w-52 bg-white rounded-xl shadow-xl border border-gray-100 opacity-0 invisible group-hover/eng:opacity-100 group-hover/eng:visible transition-all duration-200 z-50 py-2">
+                              {/* UG */}
+                              <div className="relative group/ug">
+                                <a
+                                  href={`/courses/ug/engineering?country=${selectedCountry.toLowerCase()}`}
+                                  className="flex items-center justify-between px-4 py-2.5 text-[13px] text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors"
+                                >
+                                  <span className="font-medium">
+                                    Undergraduate (UG)
+                                  </span>
+                                  <svg
+                                    className="w-3.5 h-3.5 text-gray-400 group-hover/ug:text-[#F48C06] transition-transform group-hover/ug:rotate-90"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <path
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
+                                      strokeWidth={2}
+                                      d="M9 5l7 7-7 7"
+                                    />
+                                  </svg>
+                                </a>
+                                {/* Level 2: UG Branches */}
+                                <div className="absolute left-full top-0 ml-1 w-60 bg-white rounded-xl shadow-xl border border-gray-100 opacity-0 invisible group-hover/ug:opacity-100 group-hover/ug:visible transition-all duration-200 z-50 py-2">
+                                  {engineeringBranches.map((branch) => (
+                                    <a
+                                      key={`ug-${branch.path}`}
+                                      href={`/courses/ug/${branch.path}?country=${selectedCountry.toLowerCase()}`}
+                                      className="flex items-center gap-2.5 px-4 py-1.5 text-[13px] text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors"
+                                    >
+                                      <span className="w-1.5 h-1.5 rounded-full bg-[#F48C06] opacity-60"></span>
+                                      {branch.name}
+                                    </a>
+                                  ))}
+                                </div>
+                              </div>
+                              {/* PG */}
+                              <div className="relative group/pg">
+                                <a
+                                  href={`/courses/pg/engineering?country=${selectedCountry.toLowerCase()}`}
+                                  className="flex items-center justify-between px-4 py-2.5 text-[13px] text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors"
+                                >
+                                  <span className="font-medium">
+                                    Postgraduate (PG)
+                                  </span>
+                                  <svg
+                                    className="w-3.5 h-3.5 text-gray-400 group-hover/pg:text-[#F48C06] transition-transform group-hover/pg:rotate-90"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <path
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
+                                      strokeWidth={2}
+                                      d="M9 5l7 7-7 7"
+                                    />
+                                  </svg>
+                                </a>
+                                {/* Level 2: PG Branches */}
+                                <div className="absolute left-full top-0 ml-1 w-60 bg-white rounded-xl shadow-xl border border-gray-100 opacity-0 invisible group-hover/pg:opacity-100 group-hover/pg:visible transition-all duration-200 z-50 py-2">
+                                  {engineeringBranches.map((branch) => (
+                                    <a
+                                      key={`pg-${branch.path}`}
+                                      href={`/courses/pg/${branch.path}?country=${selectedCountry.toLowerCase()}`}
+                                      className="flex items-center gap-2.5 px-4 py-1.5 text-[13px] text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors"
+                                    >
+                                      <span className="w-1.5 h-1.5 rounded-full bg-[#F48C06] opacity-60"></span>
+                                      {branch.name}
+                                    </a>
+                                  ))}
+                                </div>
+                              </div>
+                              <div className="border-t border-gray-100 my-1"></div>
+                              <a
+                                href={`/courses/engineering?country=${selectedCountry.toLowerCase()}`}
+                                className="flex items-center gap-2.5 px-4 py-2 text-[13px] font-medium text-[#F48C06] hover:bg-orange-50 transition-colors"
+                              >
+                                View All Engineering →
+                              </a>
+                            </div>
+                          </li>
+
+                          {/* Computer Science */}
+                          <li>
+                            <a
+                              href={`/courses/computer-science?country=${selectedCountry.toLowerCase()}`}
                               className="flex items-center gap-2.5 px-2 py-1.5 rounded-lg text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors group/item"
                             >
                               <span className="w-6 h-6 rounded-md bg-orange-50 flex items-center justify-center text-[#F48C06] group-hover/item:bg-[#F48C06] group-hover/item:text-white transition-colors shrink-0">
@@ -1864,278 +2085,15 @@ const Navbar = () => {
                                 </svg>
                               </span>
                               <span className="text-[13px] font-medium leading-tight">
-                                {course.name}
+                                Computer Science
                               </span>
                             </a>
                           </li>
-                        ))}
-                      </ul>
-                    </div>
 
-                    {/* Column 2: Tech, Business & More */}
-                    <div className="px-3 border-r border-gray-100">
-                      <div className="flex items-center gap-2 mb-3">
-                        <span className="w-1.5 h-1.5 rounded-full bg-[#F48C06]"></span>
-                        <h4 className="text-[11px] font-semibold tracking-wider text-gray-400 uppercase">
-                          Tech, Business & More
-                        </h4>
-                      </div>
-                      <ul className="space-y-0.5">
-                        {/* Engineering → UG & PG → Branches */}
-                        <li className="relative group/eng">
-                          <a
-                            href="/courses/engineering"
-                            className="flex items-center justify-between gap-2.5 px-2 py-1.5 rounded-lg text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors group/item"
-                          >
-                            <div className="flex items-center gap-2.5">
-                              <span className="w-6 h-6 rounded-md bg-orange-50 flex items-center justify-center text-[#F48C06] group-hover/item:bg-[#F48C06] group-hover/item:text-white transition-colors shrink-0">
-                                <svg
-                                  className="w-3 h-3"
-                                  fill="none"
-                                  stroke="currentColor"
-                                  viewBox="0 0 24 24"
-                                >
-                                  <path
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth={2}
-                                    d="M9 5l7 7-7 7"
-                                  />
-                                </svg>
-                              </span>
-                              <span className="text-[13px] font-medium leading-tight">
-                                Engineering
-                              </span>
-                            </div>
-                            <svg
-                              className="w-3.5 h-3.5 text-gray-400 group-hover/eng:text-[#F48C06] transition-transform group-hover/eng:rotate-90"
-                              fill="none"
-                              stroke="currentColor"
-                              viewBox="0 0 24 24"
-                            >
-                              <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth={2}
-                                d="M9 5l7 7-7 7"
-                              />
-                            </svg>
-                          </a>
-                          {/* Level 1: UG & PG */}
-                          <div className="absolute left-full top-0 ml-1 w-52 bg-white rounded-xl shadow-xl border border-gray-100 opacity-0 invisible group-hover/eng:opacity-100 group-hover/eng:visible transition-all duration-200 z-50 py-2">
-                            {/* UG */}
-                            <div className="relative group/ug">
-                              <a
-                                href="/courses/ug/engineering"
-                                className="flex items-center justify-between px-4 py-2.5 text-[13px] text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors"
-                              >
-                                <span className="font-medium">
-                                  Undergraduate (UG)
-                                </span>
-                                <svg
-                                  className="w-3.5 h-3.5 text-gray-400 group-hover/ug:text-[#F48C06] transition-transform group-hover/ug:rotate-90"
-                                  fill="none"
-                                  stroke="currentColor"
-                                  viewBox="0 0 24 24"
-                                >
-                                  <path
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth={2}
-                                    d="M9 5l7 7-7 7"
-                                  />
-                                </svg>
-                              </a>
-                              {/* Level 2: UG Branches */}
-                              <div className="absolute left-full top-0 ml-1 w-60 bg-white rounded-xl shadow-xl border border-gray-100 opacity-0 invisible group-hover/ug:opacity-100 group-hover/ug:visible transition-all duration-200 z-50 py-2">
-                                {engineeringBranches.map((branch) => (
-                                  <a
-                                    key={`ug-${branch.path}`}
-                                    href={`/courses/ug/${branch.path}`}
-                                    className="flex items-center gap-2.5 px-4 py-1.5 text-[13px] text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors"
-                                  >
-                                    <span className="w-1.5 h-1.5 rounded-full bg-[#F48C06] opacity-60"></span>
-                                    {branch.name}
-                                  </a>
-                                ))}
-                              </div>
-                            </div>
-                            {/* PG */}
-                            <div className="relative group/pg">
-                              <a
-                                href="/courses/pg/engineering"
-                                className="flex items-center justify-between px-4 py-2.5 text-[13px] text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors"
-                              >
-                                <span className="font-medium">
-                                  Postgraduate (PG)
-                                </span>
-                                <svg
-                                  className="w-3.5 h-3.5 text-gray-400 group-hover/pg:text-[#F48C06] transition-transform group-hover/pg:rotate-90"
-                                  fill="none"
-                                  stroke="currentColor"
-                                  viewBox="0 0 24 24"
-                                >
-                                  <path
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth={2}
-                                    d="M9 5l7 7-7 7"
-                                  />
-                                </svg>
-                              </a>
-                              {/* Level 2: PG Branches */}
-                              <div className="absolute left-full top-0 ml-1 w-60 bg-white rounded-xl shadow-xl border border-gray-100 opacity-0 invisible group-hover/pg:opacity-100 group-hover/pg:visible transition-all duration-200 z-50 py-2">
-                                {engineeringBranches.map((branch) => (
-                                  <a
-                                    key={`pg-${branch.path}`}
-                                    href={`/courses/pg/${branch.path}`}
-                                    className="flex items-center gap-2.5 px-4 py-1.5 text-[13px] text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors"
-                                  >
-                                    <span className="w-1.5 h-1.5 rounded-full bg-[#F48C06] opacity-60"></span>
-                                    {branch.name}
-                                  </a>
-                                ))}
-                              </div>
-                            </div>
-                            <div className="border-t border-gray-100 my-1"></div>
+                          {/* Information Technology */}
+                          <li>
                             <a
-                              href="/courses/engineering"
-                              className="flex items-center gap-2.5 px-4 py-2 text-[13px] font-medium text-[#F48C06] hover:bg-orange-50 transition-colors"
-                            >
-                              View All Engineering →
-                            </a>
-                          </div>
-                        </li>
-
-                        {/* Computer Science */}
-                        <li>
-                          <a
-                            href="/courses/computer-science"
-                            className="flex items-center gap-2.5 px-2 py-1.5 rounded-lg text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors group/item"
-                          >
-                            <span className="w-6 h-6 rounded-md bg-orange-50 flex items-center justify-center text-[#F48C06] group-hover/item:bg-[#F48C06] group-hover/item:text-white transition-colors shrink-0">
-                              <svg
-                                className="w-3 h-3"
-                                fill="none"
-                                stroke="currentColor"
-                                viewBox="0 0 24 24"
-                              >
-                                <path
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                  strokeWidth={2}
-                                  d="M9 5l7 7-7 7"
-                                />
-                              </svg>
-                            </span>
-                            <span className="text-[13px] font-medium leading-tight">
-                              Computer Science
-                            </span>
-                          </a>
-                        </li>
-
-                        {/* Information Technology */}
-                        <li>
-                          <a
-                            href="/courses/information-technology"
-                            className="flex items-center gap-2.5 px-2 py-1.5 rounded-lg text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors group/item"
-                          >
-                            <span className="w-6 h-6 rounded-md bg-orange-50 flex items-center justify-center text-[#F48C06] group-hover/item:bg-[#F48C06] group-hover/item:text-white transition-colors shrink-0">
-                              <svg
-                                className="w-3 h-3"
-                                fill="none"
-                                stroke="currentColor"
-                                viewBox="0 0 24 24"
-                              >
-                                <path
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                  strokeWidth={2}
-                                  d="M9 5l7 7-7 7"
-                                />
-                              </svg>
-                            </span>
-                            <span className="text-[13px] font-medium leading-tight">
-                              Information Technology
-                            </span>
-                          </a>
-                        </li>
-
-                        {/* Business Management with nested courses */}
-                        <li className="relative group/biz">
-                          <a
-                            href="/courses/business-management"
-                            className="flex items-center justify-between gap-2.5 px-2 py-1.5 rounded-lg text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors group/item"
-                          >
-                            <div className="flex items-center gap-2.5">
-                              <span className="w-6 h-6 rounded-md bg-orange-50 flex items-center justify-center text-[#F48C06] group-hover/item:bg-[#F48C06] group-hover/item:text-white transition-colors shrink-0">
-                                <svg
-                                  className="w-3 h-3"
-                                  fill="none"
-                                  stroke="currentColor"
-                                  viewBox="0 0 24 24"
-                                >
-                                  <path
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth={2}
-                                    d="M9 5l7 7-7 7"
-                                  />
-                                </svg>
-                              </span>
-                              <span className="text-[13px] font-medium leading-tight">
-                                Business Management
-                              </span>
-                            </div>
-                            <svg
-                              className="w-3.5 h-3.5 text-gray-400 group-hover/biz:text-[#F48C06] transition-transform group-hover/biz:rotate-90"
-                              fill="none"
-                              stroke="currentColor"
-                              viewBox="0 0 24 24"
-                            >
-                              <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth={2}
-                                d="M9 5l7 7-7 7"
-                              />
-                            </svg>
-                          </a>
-                          {/* Nested Business Courses */}
-                          <div className="absolute left-full top-0 ml-1 w-64 bg-white rounded-xl shadow-xl border border-gray-100 opacity-0 invisible group-hover/biz:opacity-100 group-hover/biz:visible transition-all duration-200 z-50 py-2">
-                            {businessCourses.map((course) => (
-                              <a
-                                key={course.path}
-                                href={`/courses/${course.path}`}
-                                className="flex items-center gap-2.5 px-3 py-1.5 text-[13px] text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors"
-                              >
-                                <span className="w-1.5 h-1.5 rounded-full bg-[#F48C06] opacity-60"></span>
-                                {course.name}
-                              </a>
-                            ))}
-                            <div className="border-t border-gray-100 my-1"></div>
-                            <a
-                              href="/courses/business-management"
-                              className="flex items-center gap-2.5 px-3 py-1.5 text-[13px] font-medium text-[#F48C06] hover:bg-orange-50 transition-colors"
-                            >
-                              View All Business Courses →
-                            </a>
-                          </div>
-                        </li>
-
-                        {/* Remaining items */}
-                        {[
-                          {
-                            name: "Hospitality Management",
-                            path: "hospitality-management",
-                          },
-                          { name: "Architecture", path: "architecture" },
-                          { name: "Law", path: "law" },
-                          { name: "Other Courses", path: "other-courses" },
-                        ].map((course) => (
-                          <li key={course.path}>
-                            <a
-                              href={`/courses/${course.path}`}
+                              href={`/courses/information-technology?country=${selectedCountry.toLowerCase()}`}
                               className="flex items-center gap-2.5 px-2 py-1.5 rounded-lg text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors group/item"
                             >
                               <span className="w-6 h-6 rounded-md bg-orange-50 flex items-center justify-center text-[#F48C06] group-hover/item:bg-[#F48C06] group-hover/item:text-white transition-colors shrink-0">
@@ -2154,81 +2112,178 @@ const Navbar = () => {
                                 </svg>
                               </span>
                               <span className="text-[13px] font-medium leading-tight">
-                                {course.name}
+                                Information Technology
                               </span>
                             </a>
                           </li>
-                        ))}
-                      </ul>
-                    </div>
 
-                    {/* Column 3: Programs & More */}
-                    <div className="px-3 border-r border-gray-100">
-                      <div className="flex items-center gap-2 mb-3">
-                        <span className="w-1.5 h-1.5 rounded-full bg-[#F48C06]"></span>
-                        <h4 className="text-[11px] font-semibold tracking-wider text-gray-400 uppercase">
-                          Programs
-                        </h4>
-                      </div>
-                      <ul className="space-y-0.5">
-                        {[
-                          {
-                            name: "Language Courses",
-                            path: "/study-abroad/language-courses",
-                            icon: "M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129",
-                          },
-                          {
-                            name: "Summer Courses",
-                            path: "/study-abroad/summer-courses",
-                            icon: "M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z",
-                          },
-                          {
-                            name: "Winter Courses",
-                            path: "/study-abroad/winter-courses",
-                            icon: "M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z",
-                          },
-                          {
-                            name: "Working Professionals",
-                            path: "/study-abroad/working-professionals",
-                            icon: "M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z",
-                          },
-                          {
-                            name: "News",
-                            path: "/blog",
-                            icon: "M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z",
-                          },
-                        ].map((item) => (
-                          <li key={item.path}>
+                          {/* Business Management with nested courses */}
+                          <li className="relative group/biz">
                             <a
-                              href={item.path}
-                              className="flex items-center gap-2.5 px-2 py-2 rounded-lg text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors group/item"
+                              href={`/courses/business-management?country=${selectedCountry.toLowerCase()}`}
+                              className="flex items-center justify-between gap-2.5 px-2 py-1.5 rounded-lg text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors group/item"
                             >
-                              <span className="w-7 h-7 rounded-lg bg-orange-50 flex items-center justify-center text-[#F48C06] group-hover/item:bg-[#F48C06] group-hover/item:text-white transition-colors shrink-0">
-                                <svg
-                                  className="w-3.5 h-3.5"
-                                  fill="none"
-                                  stroke="currentColor"
-                                  viewBox="0 0 24 24"
-                                >
-                                  <path
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth={2}
-                                    d={item.icon}
-                                  />
-                                </svg>
-                              </span>
-                              <span className="text-[13px] font-medium leading-tight">
-                                {item.name}
-                              </span>
+                              <div className="flex items-center gap-2.5">
+                                <span className="w-6 h-6 rounded-md bg-orange-50 flex items-center justify-center text-[#F48C06] group-hover/item:bg-[#F48C06] group-hover/item:text-white transition-colors shrink-0">
+                                  <svg
+                                    className="w-3 h-3"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <path
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
+                                      strokeWidth={2}
+                                      d="M9 5l7 7-7 7"
+                                    />
+                                  </svg>
+                                </span>
+                                <span className="text-[13px] font-medium leading-tight">
+                                  Business Management
+                                </span>
+                              </div>
+                              <svg
+                                className="w-3.5 h-3.5 text-gray-400 group-hover/biz:text-[#F48C06] transition-transform group-hover/biz:rotate-90"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  strokeWidth={2}
+                                  d="M9 5l7 7-7 7"
+                                />
+                              </svg>
                             </a>
+                            {/* Nested Business Courses */}
+                            <div className="absolute left-full top-0 ml-1 w-64 bg-white rounded-xl shadow-xl border border-gray-100 opacity-0 invisible group-hover/biz:opacity-100 group-hover/biz:visible transition-all duration-200 z-50 py-2">
+                              {businessCourses.map((course) => (
+                                <a
+                                  key={course.path}
+                                  href={`/courses/${course.path}?country=${selectedCountry.toLowerCase()}`}
+                                  className="flex items-center gap-2.5 px-3 py-1.5 text-[13px] text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors"
+                                >
+                                  <span className="w-1.5 h-1.5 rounded-full bg-[#F48C06] opacity-60"></span>
+                                  {course.name}
+                                </a>
+                              ))}
+                              <div className="border-t border-gray-100 my-1"></div>
+                              <a
+                                href={`/courses/business-management?country=${selectedCountry.toLowerCase()}`}
+                                className="flex items-center gap-2.5 px-3 py-1.5 text-[13px] font-medium text-[#F48C06] hover:bg-orange-50 transition-colors"
+                              >
+                                View All Business Courses →
+                              </a>
+                            </div>
                           </li>
-                        ))}
-                      </ul>
-                    </div>
 
-                    {/* Column 4: Tests & Exams - WITH TOOLTIPS */}
-                    <div className="pl-3">
+                          {/* Remaining items */}
+                          {[
+                            {
+                              name: "Hospitality Management",
+                              path: "hospitality-management",
+                            },
+                            { name: "Architecture", path: "architecture" },
+                            { name: "Law", path: "law" },
+                            { name: "Other Courses", path: "other-courses" },
+                          ].map((course) => (
+                            <li key={course.path}>
+                              <a
+                                href={`/courses/${course.path}?country=${selectedCountry.toLowerCase()}`}
+                                className="flex items-center gap-2.5 px-2 py-1.5 rounded-lg text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors group/item"
+                              >
+                                <span className="w-6 h-6 rounded-md bg-orange-50 flex items-center justify-center text-[#F48C06] group-hover/item:bg-[#F48C06] group-hover/item:text-white transition-colors shrink-0">
+                                  <svg
+                                    className="w-3 h-3"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <path
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
+                                      strokeWidth={2}
+                                      d="M9 5l7 7-7 7"
+                                    />
+                                  </svg>
+                                </span>
+                                <span className="text-[13px] font-medium leading-tight">
+                                  {course.name}
+                                </span>
+                              </a>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+
+                      {/* Column 3: Programs & More */}
+                      <div className="px-3 border-r border-gray-100">
+                        <div className="flex items-center gap-2 mb-3">
+                          <span className="w-1.5 h-1.5 rounded-full bg-[#F48C06]"></span>
+                          <h4 className="text-[11px] font-semibold tracking-wider text-gray-400 uppercase">
+                            Programs
+                          </h4>
+                        </div>
+                        <ul className="space-y-0.5">
+                          {[
+                            {
+                              name: "Language Courses",
+                              path: "/study-abroad/language-courses",
+                              icon: "M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129",
+                            },
+                            {
+                              name: "Summer Courses",
+                              path: "/study-abroad/summer-courses",
+                              icon: "M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z",
+                            },
+                            {
+                              name: "Winter Courses",
+                              path: "/study-abroad/winter-courses",
+                              icon: "M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z",
+                            },
+                            {
+                              name: "Working Professionals",
+                              path: "/study-abroad/working-professionals",
+                              icon: "M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z",
+                            },
+                            {
+                              name: "News",
+                              path: "/blog",
+                              icon: "M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z",
+                            },
+                          ].map((item) => (
+                            <li key={item.path}>
+                              <a
+                                href={`${item.path}?country=${selectedCountry.toLowerCase()}`}
+                                className="flex items-center gap-2.5 px-2 py-2 rounded-lg text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors group/item"
+                              >
+                                <span className="w-7 h-7 rounded-lg bg-orange-50 flex items-center justify-center text-[#F48C06] group-hover/item:bg-[#F48C06] group-hover/item:text-white transition-colors shrink-0">
+                                  <svg
+                                    className="w-3.5 h-3.5"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <path
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
+                                      strokeWidth={2}
+                                      d={item.icon}
+                                    />
+                                  </svg>
+                                </span>
+                                <span className="text-[13px] font-medium leading-tight">
+                                  {item.name}
+                                </span>
+                              </a>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+
+                      {/* Column 4: Tests & Exams */}
                       <div className="pl-3">
                         <div className="flex items-center gap-2 mb-3">
                           <span className="w-1.5 h-1.5 rounded-full bg-[#F48C06]"></span>
@@ -2286,7 +2341,7 @@ const Navbar = () => {
                                 {englishTests.map((test) => (
                                   <li key={test.path}>
                                     <a
-                                      href={`/tests/${test.path}`}
+                                      href={`/tests/${test.path}?country=${selectedCountry.toLowerCase()}`}
                                       title={test.tip}
                                       className="flex items-center gap-2.5 px-2 py-1.5 rounded-lg text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors group/item"
                                     >
@@ -2363,7 +2418,7 @@ const Navbar = () => {
                                 {foreignTests.map((test) => (
                                   <li key={test.path}>
                                     <a
-                                      href={`/tests/${test.path}`}
+                                      href={`/tests/${test.path}?country=${selectedCountry.toLowerCase()}`}
                                       title={test.tip}
                                       className="flex items-center gap-2.5 px-2 py-1.5 rounded-lg text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors group/item"
                                     >
@@ -2440,7 +2495,7 @@ const Navbar = () => {
                                 {entranceTests.map((test) => (
                                   <li key={test.path}>
                                     <a
-                                      href={`/tests/${test.path}`}
+                                      href={`/tests/${test.path}?country=${selectedCountry.toLowerCase()}`}
                                       title={test.tip}
                                       className="flex items-center gap-2.5 px-2 py-1.5 rounded-lg text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors group/item"
                                     >
@@ -2472,7 +2527,7 @@ const Navbar = () => {
                           {/* Which Test Do I Need? */}
                           <li className="mt-3">
                             <a
-                              href="/tests/which-test"
+                              href={`/tests/which-test?country=${selectedCountry.toLowerCase()}`}
                               title="Not sure which test you need? Find the best test for your study goals here."
                               className="flex items-center gap-2.5 px-2 py-2 rounded-lg text-[#F48C06] font-semibold hover:bg-orange-50 transition-colors group/item"
                             >
@@ -2498,188 +2553,29 @@ const Navbar = () => {
                           </li>
                         </ul>
                       </div>
-
-                      {openSection === "legacy" && (
-                        <ul className="space-y-0.5">
-                          {/* ========== 1. English Online Exam ========== */}
-                          <li className="px-2 pt-1 pb-1">
-                            <div className="flex items-center gap-2 mb-1.5">
-                              <span className="w-1 h-1 rounded-full bg-[#F48C06]"></span>
-                              <span className="text-[11px] font-semibold text-gray-500 uppercase tracking-wide">
-                                English Online Exam
-                              </span>
-                            </div>
-                          </li>
-
-                          {englishTests.map((test) => (
-                            <li key={test.path}>
-                              <a
-                                href={`/tests/${test.path}`}
-                                title={test.tip}
-                                className="flex items-center gap-2.5 px-2 py-1.5 rounded-lg text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors group/item"
-                              >
-                                <span className="w-6 h-6 rounded-md bg-orange-50 flex items-center justify-center text-[#F48C06] group-hover/item:bg-[#F48C06] group-hover/item:text-white transition-colors shrink-0">
-                                  <svg
-                                    className="w-3 h-3"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    viewBox="0 0 24 24"
-                                  >
-                                    <path
-                                      strokeLinecap="round"
-                                      strokeLinejoin="round"
-                                      strokeWidth={2}
-                                      d="M9 5l7 7-7 7"
-                                    />
-                                  </svg>
-                                </span>
-                                <span className="text-[13px] font-medium leading-tight">
-                                  {test.name}
-                                </span>
-                              </a>
-                            </li>
-                          ))}
-
-                          {/* Divider */}
-                          <li className="my-3 px-2">
-                            <div className="border-t border-gray-200"></div>
-                          </li>
-
-                          {/* ========== 2. Foreign Online Exam ========== */}
-                          <li className="px-2 pt-1 pb-1">
-                            <div className="flex items-center gap-2 mb-1.5">
-                              <span className="w-1 h-1 rounded-full bg-[#F48C06]"></span>
-                              <span className="text-[11px] font-semibold text-gray-500 uppercase tracking-wide">
-                                Foreign Online Exam
-                              </span>
-                            </div>
-                          </li>
-
-                          {foreignTests.map((test) => (
-                            <li key={test.path}>
-                              <a
-                                href={`/tests/${test.path}`}
-                                title={test.tip}
-                                className="flex items-center gap-2.5 px-2 py-1.5 rounded-lg text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors group/item"
-                              >
-                                <span className="w-6 h-6 rounded-md bg-orange-50 flex items-center justify-center text-[#F48C06] group-hover/item:bg-[#F48C06] group-hover/item:text-white transition-colors shrink-0">
-                                  <svg
-                                    className="w-3 h-3"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    viewBox="0 0 24 24"
-                                  >
-                                    <path
-                                      strokeLinecap="round"
-                                      strokeLinejoin="round"
-                                      strokeWidth={2}
-                                      d="M9 5l7 7-7 7"
-                                    />
-                                  </svg>
-                                </span>
-                                <span className="text-[13px] font-medium leading-tight">
-                                  {test.name}
-                                </span>
-                              </a>
-                            </li>
-                          ))}
-
-                          {/* Divider */}
-                          <li className="my-3 px-2">
-                            <div className="border-t border-gray-200"></div>
-                          </li>
-
-                          {/* ========== 3. Entrance & Academic Tests ========== */}
-                          <li className="px-2 pt-1 pb-1">
-                            <div className="flex items-center gap-2 mb-1.5">
-                              <span className="w-1 h-1 rounded-full bg-[#F48C06]"></span>
-                              <span className="text-[11px] font-semibold text-gray-500 uppercase tracking-wide">
-                                Entrance & Academic Tests
-                              </span>
-                            </div>
-                          </li>
-
-                          {entranceTests.map((test) => (
-                            <li key={test.path}>
-                              <a
-                                href={`/tests/${test.path}`}
-                                title={test.tip}
-                                className="flex items-center gap-2.5 px-2 py-1.5 rounded-lg text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors group/item"
-                              >
-                                <span className="w-6 h-6 rounded-md bg-orange-50 flex items-center justify-center text-[#F48C06] group-hover/item:bg-[#F48C06] group-hover/item:text-white transition-colors shrink-0">
-                                  <svg
-                                    className="w-3 h-3"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    viewBox="0 0 24 24"
-                                  >
-                                    <path
-                                      strokeLinecap="round"
-                                      strokeLinejoin="round"
-                                      strokeWidth={2}
-                                      d="M9 5l7 7-7 7"
-                                    />
-                                  </svg>
-                                </span>
-                                <span className="text-[13px] font-medium leading-tight">
-                                  {test.name}
-                                </span>
-                              </a>
-                            </li>
-                          ))}
-
-                          {/* Which Test Do I Need? */}
-                          <li className="mt-3">
-                            <a
-                              href="/tests/which-test"
-                              title="Not sure which test you need? Find the best test for your study goals here."
-                              className="flex items-center gap-2.5 px-2 py-2 rounded-lg text-[#F48C06] font-semibold hover:bg-orange-50 transition-colors group/item"
-                            >
-                              <span className="w-7 h-7 rounded-lg bg-orange-100 flex items-center justify-center text-[#F48C06] group-hover/item:bg-[#F48C06] group-hover/item:text-white transition-colors shrink-0">
-                                <svg
-                                  className="w-3.5 h-3.5"
-                                  fill="none"
-                                  stroke="currentColor"
-                                  viewBox="0 0 24 24"
-                                >
-                                  <path
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth={2}
-                                    d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                                  />
-                                </svg>
-                              </span>
-                              <span className="text-[13px] font-medium leading-tight">
-                                Which Test Do I Need?
-                              </span>
-                            </a>
-                          </li>
-                        </ul>
-                      )}
                     </div>
-                  </div>
 
-                  {/* Right Promo Card */}
-                  <div className="w-[200px] bg-gradient-to-b from-[#1e3a5f] to-[#0f172a] p-5 flex flex-col justify-between text-white shrink-0">
-                    <div>
-                      <span className="inline-block px-2.5 py-1 bg-[#F48C06] text-white text-[10px] font-bold rounded-full uppercase tracking-wide mb-4">
-                        Free
-                      </span>
-                      <h3 className="text-[15px] font-semibold leading-snug mb-2">
-                        Not sure where to start?
-                      </h3>
-                      <p className="text-sm text-gray-300 leading-relaxed">
-                        Get a free profile evaluation from an Eduhawk
-                        counsellor.
-                      </p>
+                    {/* Right Promo Card */}
+                    <div className="w-[180px] bg-gradient-to-b from-[#1e3a5f] to-[#0f172a] p-5 flex flex-col justify-between text-white shrink-0">
+                      <div>
+                        <span className="inline-block px-2.5 py-1 bg-[#F48C06] text-white text-[10px] font-bold rounded-full uppercase tracking-wide mb-4">
+                          Free
+                        </span>
+                        <h3 className="text-[15px] font-semibold leading-snug mb-2">
+                          Studying in {selectedCountry}?
+                        </h3>
+                        <p className="text-sm text-gray-300 leading-relaxed">
+                          Get a free profile evaluation from an Eduhawk
+                          counsellor.
+                        </p>
+                      </div>
+                      <a
+                        href={`/contact?country=${selectedCountry.toLowerCase()}`}
+                        className="mt-6 block w-full text-center bg-[#F48C06] hover:bg-[#e07b00] text-white font-semibold text-sm py-2.5 px-4 rounded-full transition-colors"
+                      >
+                        Book free session
+                      </a>
                     </div>
-                    <a
-                      href="/contact"
-                      className="mt-6 block w-full text-center bg-[#F48C06] hover:bg-[#e07b00] text-white font-semibold text-sm py-2.5 px-4 rounded-full transition-colors"
-                    >
-                      Book free session
-                    </a>
                   </div>
                 </div>
               </div>
@@ -2689,7 +2585,11 @@ const Navbar = () => {
             <div className="relative group">
               <button
                 onClick={() => setIsMedicalOpen(!isMedicalOpen)}
-                className={`${isActive("/allcollege") || isActive("/mbbsabroad") ? "text-[#F48C06]" : "text-[#2F327D]"} hover:text-[#F48C06] transition-colors flex items-center gap-1`}
+                className={`${
+                  isActive("/allcollege") || isActive("/mbbsabroad")
+                    ? "text-[#F48C06]"
+                    : "text-[#2F327D]"
+                } hover:text-[#F48C06] transition-colors flex items-center gap-1`}
                 aria-expanded={isMedicalOpen}
               >
                 Medical Colleges
@@ -2708,7 +2608,11 @@ const Navbar = () => {
                 </svg>
               </button>
               <div
-                className={`absolute left-0 top-full mt-2 w-72 bg-white rounded-lg shadow-xl py-2 transition-all duration-200 border border-gray-200 z-50 ${isMedicalOpen ? "opacity-100 visible" : "opacity-0 invisible group-hover:opacity-100 group-hover:visible"}`}
+                className={`absolute left-0 top-full mt-2 w-72 bg-white rounded-lg shadow-xl py-2 transition-all duration-200 border border-gray-200 z-50 ${
+                  isMedicalOpen
+                    ? "opacity-100 visible"
+                    : "opacity-0 invisible group-hover:opacity-100 group-hover:visible"
+                }`}
               >
                 <a
                   href="/allcollege"
@@ -2806,10 +2710,14 @@ const Navbar = () => {
                 About
               </a>
 
-              {/* Study Abroad Accordion */}
+              {/* Study Abroad Accordion - Mobile */}
               <div>
                 <button
-                  className={`w-full flex justify-between items-center py-4 px-5 ${isActive("/study-abroad") ? "text-[#F48C06]" : "text-[#2F327D]"}`}
+                  className={`w-full flex justify-between items-center py-4 px-5 ${
+                    isActive("/study-abroad")
+                      ? "text-[#F48C06]"
+                      : "text-[#2F327D]"
+                  }`}
                   onClick={() => setIsStudyAbroadOpen(!isStudyAbroadOpen)}
                 >
                   <span>Study Abroad</span>
@@ -2832,6 +2740,26 @@ const Navbar = () => {
 
                 {isStudyAbroadOpen && (
                   <div className="bg-gray-50 pb-3">
+                    {/* Country Selector on Mobile */}
+                    <p className="px-5 pt-3 pb-1 text-[11px] font-semibold tracking-wider text-gray-400 uppercase">
+                      Select Country
+                    </p>
+                    <div className="flex flex-wrap gap-2 px-5 pb-3">
+                      {studyAbroadCountries.map((country) => (
+                        <button
+                          key={country}
+                          onClick={() => setSelectedCountry(country)}
+                          className={`px-3 py-1.5 rounded-full text-sm font-medium transition-colors ${
+                            selectedCountry === country
+                              ? "bg-[#F48C06] text-white"
+                              : "bg-white text-[#2F327D] border border-gray-200"
+                          }`}
+                        >
+                          {country}
+                        </button>
+                      ))}
+                    </div>
+
                     {/* Medical & Health */}
                     <p className="px-5 pt-3 pb-1 text-[11px] font-semibold tracking-wider text-gray-400 uppercase">
                       Medical & Health
@@ -2849,7 +2777,7 @@ const Navbar = () => {
                         key={name}
                         href={`/courses/${name
                           .toLowerCase()
-                          .replace(/ /g, "-")}`}
+                          .replace(/ /g, "-")}?country=${selectedCountry.toLowerCase()}`}
                         className="block py-2.5 px-8 text-[#2F327D]"
                       >
                         {name}
@@ -2892,7 +2820,7 @@ const Navbar = () => {
                           {engineeringBranches.map((b) => (
                             <a
                               key={`ug-${b.path}`}
-                              href={`/courses/ug/${b.path}`}
+                              href={`/courses/ug/${b.path}?country=${selectedCountry.toLowerCase()}`}
                               className="block py-2 px-14 text-sm text-[#2F327D]"
                             >
                               {b.name}
@@ -2904,7 +2832,7 @@ const Navbar = () => {
                           {engineeringBranches.map((b) => (
                             <a
                               key={`pg-${b.path}`}
-                              href={`/courses/pg/${b.path}`}
+                              href={`/courses/pg/${b.path}?country=${selectedCountry.toLowerCase()}`}
                               className="block py-2 px-14 text-sm text-[#2F327D]"
                             >
                               {b.name}
@@ -2915,13 +2843,13 @@ const Navbar = () => {
                     </div>
 
                     <a
-                      href="/courses/computer-science"
+                      href={`/courses/computer-science?country=${selectedCountry.toLowerCase()}`}
                       className="block py-2.5 px-8 text-[#2F327D]"
                     >
                       Computer Science
                     </a>
                     <a
-                      href="/courses/information-technology"
+                      href={`/courses/information-technology?country=${selectedCountry.toLowerCase()}`}
                       className="block py-2.5 px-8 text-[#2F327D]"
                     >
                       Information Technology
@@ -2955,7 +2883,7 @@ const Navbar = () => {
                           {businessCourses.map((c) => (
                             <a
                               key={c.path}
-                              href={`/courses/${c.path}`}
+                              href={`/courses/${c.path}?country=${selectedCountry.toLowerCase()}`}
                               className="block py-2 px-12 text-sm text-[#2F327D]"
                             >
                               {c.name}
@@ -2976,7 +2904,7 @@ const Navbar = () => {
                         href={`/courses/${name
                           .toLowerCase()
                           .replace(/ & /g, "-")
-                          .replace(/ /g, "-")}`}
+                          .replace(/ /g, "-")}?country=${selectedCountry.toLowerCase()}`}
                         className="block py-2.5 px-8 text-[#2F327D]"
                       >
                         {name}
@@ -2988,25 +2916,25 @@ const Navbar = () => {
                       Programs & More
                     </p>
                     <a
-                      href="/study-abroad/language-courses"
+                      href={`/study-abroad/language-courses?country=${selectedCountry.toLowerCase()}`}
                       className="block py-2.5 px-8 text-[#2F327D]"
                     >
                       Language Courses
                     </a>
                     <a
-                      href="/study-abroad/summer-courses"
+                      href={`/study-abroad/summer-courses?country=${selectedCountry.toLowerCase()}`}
                       className="block py-2.5 px-8 text-[#2F327D]"
                     >
                       Summer Courses
                     </a>
                     <a
-                      href="/study-abroad/winter-courses"
+                      href={`/study-abroad/winter-courses?country=${selectedCountry.toLowerCase()}`}
                       className="block py-2.5 px-8 text-[#2F327D]"
                     >
                       Winter Courses
                     </a>
                     <a
-                      href="/study-abroad/working-professionals"
+                      href={`/study-abroad/working-professionals?country=${selectedCountry.toLowerCase()}`}
                       className="block py-2.5 px-8 text-[#2F327D]"
                     >
                       Working Professionals
@@ -3059,7 +2987,7 @@ const Navbar = () => {
                           englishTests.map((test) => (
                             <a
                               key={test.path}
-                              href={`/tests/${test.path}`}
+                              href={`/tests/${test.path}?country=${selectedCountry.toLowerCase()}`}
                               title={test.tip}
                               className="block py-2 px-10 text-[#2F327D]"
                             >
@@ -3082,7 +3010,7 @@ const Navbar = () => {
                           foreignTests.map((test) => (
                             <a
                               key={test.path}
-                              href={`/tests/${test.path}`}
+                              href={`/tests/${test.path}?country=${selectedCountry.toLowerCase()}`}
                               title={test.tip}
                               className="block py-2 px-10 text-[#2F327D]"
                             >
@@ -3105,7 +3033,7 @@ const Navbar = () => {
                           entranceTests.map((test) => (
                             <a
                               key={test.path}
-                              href={`/tests/${test.path}`}
+                              href={`/tests/${test.path}?country=${selectedCountry.toLowerCase()}`}
                               title={test.tip}
                               className="block py-2 px-10 text-[#2F327D]"
                             >
@@ -3114,7 +3042,7 @@ const Navbar = () => {
                           ))}
 
                         <a
-                          href="/tests/which-test"
+                          href={`/tests/which-test?country=${selectedCountry.toLowerCase()}`}
                           title="Not sure which test you need? Find the best test for your study goals here."
                           className="block py-2.5 px-8 mt-1 text-[#F48C06] font-semibold"
                         >
@@ -3129,7 +3057,11 @@ const Navbar = () => {
               {/* Medical Colleges Mobile */}
               <div>
                 <button
-                  className={`w-full flex justify-between items-center py-4 px-5 ${isActive("/allcollege") || isActive("/mbbsabroad") ? "text-[#F48C06]" : "text-[#2F327D]"}`}
+                  className={`w-full flex justify-between items-center py-4 px-5 ${
+                    isActive("/allcollege") || isActive("/mbbsabroad")
+                      ? "text-[#F48C06]"
+                      : "text-[#2F327D]"
+                  }`}
                   onClick={() => setIsMedicalOpen(!isMedicalOpen)}
                 >
                   <span>Medical Colleges</span>
