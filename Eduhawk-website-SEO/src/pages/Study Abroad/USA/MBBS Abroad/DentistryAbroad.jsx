@@ -306,6 +306,14 @@ const DentistryAbroad = () => {
           from { opacity: 0; transform: translateY(16px); }
           to { opacity: 1; transform: translateY(0); }
         }
+        @keyframes dentistry-photo-reveal {
+          from { opacity: 0; transform: scale(1.04); }
+          to { opacity: 1; transform: scale(1); }
+        }
+        @keyframes dentistry-photo-shine {
+          from { transform: translateX(-140%) skewX(-14deg); }
+          to { transform: translateX(140%) skewX(-14deg); }
+        }
         .animate-fade-up {
           animation: fadeUp 0.7s ease-out forwards;
         }
@@ -314,7 +322,7 @@ const DentistryAbroad = () => {
           animation: dentistry-float 8s ease-in-out infinite;
         }
         .dentistry-page .dentistry-hero-image {
-          animation: dentistry-image-in .8s ease-out .15s both;
+          animation: dentistry-image-in .8s ease-out .15s backwards;
         }
         .dentistry-page .dentistry-animated-card {
           animation: dentistry-card-in .55s ease-out both;
@@ -325,6 +333,41 @@ const DentistryAbroad = () => {
         }
         .dentistry-page .dentistry-university-card:hover .dentistry-university-image {
           transform: scale(1.08);
+        }
+        .dentistry-page .dentistry-photo-frame {
+          position: relative;
+          isolation: isolate;
+          overflow: hidden;
+        }
+        .dentistry-page .dentistry-photo-frame::after {
+          content: "";
+          position: absolute;
+          z-index: 1;
+          inset: 0;
+          pointer-events: none;
+          background: linear-gradient(110deg, transparent 25%, rgba(255, 255, 255, .26) 48%, transparent 70%);
+          transform: translateX(-140%) skewX(-14deg);
+        }
+        .dentistry-page .dentistry-photo-frame:hover::after {
+          animation: dentistry-photo-shine .9s ease-out;
+        }
+        .dentistry-page .dentistry-photo-image:not(.dentistry-hero-image) {
+          animation: dentistry-photo-reveal .9s cubic-bezier(.2, .7, .2, 1) backwards;
+          transition: transform .75s cubic-bezier(.2, .7, .2, 1), filter .5s ease;
+        }
+        .dentistry-page .dentistry-photo-frame:hover .dentistry-photo-image:not(.dentistry-hero-image) {
+          transform: scale(1.055);
+          filter: saturate(1.08) brightness(1.04);
+        }
+        .dentistry-page .dentistry-photo-frame .dentistry-hero-image {
+          transition: transform .75s cubic-bezier(.2, .7, .2, 1), filter .5s ease;
+        }
+        .dentistry-page .dentistry-photo-frame:hover .dentistry-hero-image {
+          transform: scale(1.04);
+          filter: saturate(1.08) brightness(1.04);
+        }
+        .dentistry-page .dentistry-photo-frame > :not(img):not(.dentistry-photo-image) {
+          z-index: 2;
         }
         .dentistry-page section h2 {
           letter-spacing: -.025em;
@@ -389,6 +432,12 @@ const DentistryAbroad = () => {
           .dentistry-page .dentistry-animated-card {
             animation: none;
           }
+          .dentistry-page .dentistry-photo-frame::after {
+            animation: none;
+          }
+          .dentistry-page .dentistry-photo-image {
+            animation: none !important;
+          }
         }
       `}</style>
 
@@ -446,7 +495,7 @@ const DentistryAbroad = () => {
             </div>
 
             <div
-              className="relative mt-2 lg:mt-0 opacity-0-start animate-fade-up"
+              className="dentistry-photo-frame group relative mt-2 lg:mt-0 rounded-2xl opacity-0-start animate-fade-up"
               style={{ animationDelay: "0.2s" }}
             >
               <img
@@ -544,11 +593,13 @@ const DentistryAbroad = () => {
             </div>
 
             <div className="relative group">
-              <img
-                src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=900&q=80"
-                alt="Dental education abroad"
-                className="rounded-2xl shadow-xl object-cover w-full h-[390px] group-hover:scale-[1.02] transition-transform duration-700"
-              />
+              <div className="dentistry-photo-frame rounded-2xl">
+                <img
+                  src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=900&q=80"
+                  alt="Dental education abroad"
+                  className="dentistry-photo-image rounded-2xl shadow-xl object-cover w-full h-[390px] group-hover:scale-[1.02] transition-transform duration-700"
+                />
+              </div>
               <div className="absolute -bottom-5 -left-5 bg-gradient-to-br from-teal-600 to-cyan-500 rounded-2xl p-6 text-white shadow-xl hidden sm:block hover:scale-105 transition-transform duration-300">
                 <div className="text-3xl font-bold leading-none">15–38L</div>
                 <div className="text-sm opacity-90 mt-1">
@@ -1446,14 +1497,14 @@ const DentistryAbroad = () => {
             ].map((dest, i) => (
               <div
                 key={i}
-                className="dentistry-animated-card dentistry-university-card relative rounded-2xl overflow-hidden h-60 group cursor-pointer shadow-md hover:shadow-xl"
+                className="dentistry-animated-card dentistry-photo-frame dentistry-university-card relative rounded-2xl overflow-hidden h-60 group cursor-pointer shadow-md hover:shadow-xl"
                 style={{ "--card-delay": `${i * 100}ms` }}
               >
                 <img
                   src={dest.img}
                   alt={`Study Dentistry in ${dest.name}`}
                   loading="lazy"
-                  className="dentistry-university-image w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  className="dentistry-photo-image dentistry-university-image w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex items-end p-5">
                   <div className="transform group-hover:translate-y-[-4px] transition-transform duration-300">
