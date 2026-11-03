@@ -761,6 +761,90 @@ const NursingAbroad = () => {
         </div>
       </section>
 
+      {/* ================= DESTINATIONS ================= */}
+      <section className="py-16 sm:py-20" id="destinations">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="mb-8">
+            <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-1.5">
+              Where to study
+            </div>
+            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">
+              Popular destinations for Nursing
+            </h2>
+            <p className="text-slate-500 text-[15px] leading-relaxed max-w-2xl">
+              We help you compare fees, clinical exposure, job opportunities, safety and recognition so you can choose the right country.
+            </p>
+          </div>
+
+          <div className="flex flex-wrap gap-2.5 mb-10">
+            {destinations.map((d, i) => (
+              <span
+                key={i}
+                className={`inline-flex items-center px-4 py-2 rounded-lg text-sm font-medium border ${
+                  d.highlight
+                    ? "bg-indigo-50 border-indigo-200 text-indigo-700"
+                    : "bg-white border-slate-200 text-slate-800"
+                }`}
+              >
+                {d.highlight && (
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" className="mr-1.5">
+                    <path d="M5 13l4 4L19 7" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                )}
+                {d.name}
+              </span>
+            ))}
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            <div className="nursing-card relative rounded-2xl overflow-hidden h-60 group shadow-md">
+              <img
+                src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80"
+                alt="Study Nursing in Philippines"
+                loading="lazy"
+                className="nursing-university-image w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/75 to-transparent flex items-end p-5">
+                <div>
+                  <h4 className="text-white font-semibold text-lg">Philippines</h4>
+                  <p className="text-white/80 text-sm">Most popular & affordable</p>
+                </div>
+              </div>
+            </div>
+            
+            <div className="nursing-card relative rounded-2xl overflow-hidden h-60 group shadow-md">
+              <img
+                src="https://images.unsplash.com/photo-1562774053-701939374585?w=700&q=80"
+                alt="Study Nursing in Germany"
+                loading="lazy"
+                className="nursing-university-image w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/75 to-transparent flex items-end p-5">
+                <div>
+                  <h4 className="text-white font-semibold text-lg">Germany</h4>
+                  <p className="text-white/80 text-sm">Strong job opportunities</p>
+                </div>
+              </div>
+            </div>
+            
+            <div className="nursing-card relative rounded-2xl overflow-hidden h-60 group shadow-md">
+              <img
+                src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=700&q=80"
+                alt="Study Nursing in Canada"
+                loading="lazy"
+                className="nursing-university-image w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/75 to-transparent flex items-end p-5">
+                <div>
+                  <h4 className="text-white font-semibold text-lg">Canada</h4>
+                  <p className="text-white/80 text-sm">High demand & PR pathway</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ================= 3. TOP UNIVERSITIES ================= */}
       <section className="py-16 sm:py-20 bg-slate-50" id="usa-universities">
         <div className="max-w-6xl mx-auto px-6">
@@ -1231,89 +1315,7 @@ const NursingAbroad = () => {
         </div>
       </section>
 
-      {/* ================= DESTINATIONS ================= */}
-      <section className="py-16 sm:py-20" id="destinations">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="mb-8">
-            <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-1.5">
-              Where to study
-            </div>
-            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">
-              Popular destinations for Nursing
-            </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-2xl">
-              We help you compare fees, clinical exposure, job opportunities, safety and recognition so you can choose the right country.
-            </p>
-          </div>
-
-          <div className="flex flex-wrap gap-2.5 mb-10">
-            {destinations.map((d, i) => (
-              <span
-                key={i}
-                className={`inline-flex items-center px-4 py-2 rounded-lg text-sm font-medium border ${
-                  d.highlight
-                    ? "bg-indigo-50 border-indigo-200 text-indigo-700"
-                    : "bg-white border-slate-200 text-slate-800"
-                }`}
-              >
-                {d.highlight && (
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" className="mr-1.5">
-                    <path d="M5 13l4 4L19 7" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-                )}
-                {d.name}
-              </span>
-            ))}
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            <div className="nursing-card relative rounded-2xl overflow-hidden h-60 group shadow-md">
-              <img
-                src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80"
-                alt="Study Nursing in Philippines"
-                loading="lazy"
-                className="nursing-university-image w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/75 to-transparent flex items-end p-5">
-                <div>
-                  <h4 className="text-white font-semibold text-lg">Philippines</h4>
-                  <p className="text-white/80 text-sm">Most popular & affordable</p>
-                </div>
-              </div>
-            </div>
-            
-            <div className="nursing-card relative rounded-2xl overflow-hidden h-60 group shadow-md">
-              <img
-                src="https://images.unsplash.com/photo-1562774053-701939374585?w=700&q=80"
-                alt="Study Nursing in Germany"
-                loading="lazy"
-                className="nursing-university-image w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/75 to-transparent flex items-end p-5">
-                <div>
-                  <h4 className="text-white font-semibold text-lg">Germany</h4>
-                  <p className="text-white/80 text-sm">Strong job opportunities</p>
-                </div>
-              </div>
-            </div>
-            
-            <div className="nursing-card relative rounded-2xl overflow-hidden h-60 group shadow-md">
-              <img
-                src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=700&q=80"
-                alt="Study Nursing in Canada"
-                loading="lazy"
-                className="nursing-university-image w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/75 to-transparent flex items-end p-5">
-                <div>
-                  <h4 className="text-white font-semibold text-lg">Canada</h4>
-                  <p className="text-white/80 text-sm">High demand & PR pathway</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      
 
       {/* ================= PROCESS ================= */}
       <section className="py-16 sm:py-20 bg-slate-50" id="process">

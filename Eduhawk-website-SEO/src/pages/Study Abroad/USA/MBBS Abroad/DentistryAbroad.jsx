@@ -6,23 +6,28 @@ import Pennsylvania_School_of_Dental_Medicine from "../../../../Images/Abroad/US
 import University_College_of_Dentistry from "../../../../Images/Abroad/USA/Dentistry_USA/University_College_of_Dentistry.jpg.png";
 
 
-const DentistryAbroad = () => {
+const DentistryAbroad = () =>
+{
   const [openFaq, setOpenFaq] = useState(null);
   const [visibleSections, setVisibleSections] = useState({});
 
   const sectionRefs = useRef({});
 
-  const toggleFaq = (index) => {
+  const toggleFaq = (index) =>
+  {
     setOpenFaq(openFaq === index ? null : index);
   };
 
-  useEffect(() => {
+  useEffect(() =>
+  {
     if (
       !("IntersectionObserver" in window) ||
       window.matchMedia("(prefers-reduced-motion: reduce)").matches
-    ) {
+    )
+    {
       setVisibleSections(
-        Object.keys(sectionRefs.current).reduce((sections, id) => {
+        Object.keys(sectionRefs.current).reduce((sections, id) =>
+        {
           sections[id] = true;
           return sections;
         }, {}),
@@ -31,9 +36,12 @@ const DentistryAbroad = () => {
     }
 
     const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
+      (entries) =>
+      {
+        entries.forEach((entry) =>
+        {
+          if (entry.isIntersecting)
+          {
             setVisibleSections((prev) => ({
               ...prev,
               [entry.target.id]: true,
@@ -44,14 +52,16 @@ const DentistryAbroad = () => {
       { threshold: 0.12, rootMargin: "0px 0px -40px 0px" },
     );
 
-    Object.values(sectionRefs.current).forEach((el) => {
+    Object.values(sectionRefs.current).forEach((el) =>
+    {
       if (el) observer.observe(el);
     });
 
     return () => observer.disconnect();
   }, []);
 
-  const setRef = (id) => (el) => {
+  const setRef = (id) => (el) =>
+  {
     sectionRefs.current[id] = el;
   };
 
@@ -515,11 +525,10 @@ const DentistryAbroad = () => {
       <section
         id="stats"
         ref={setRef("stats")}
-        className={`bg-slate-50 pt-12 pb-16 transition-all duration-700 ${
-          visibleSections.stats
+        className={`bg-slate-50 pt-12 pb-16 transition-all duration-700 ${visibleSections.stats
             ? "opacity-100 translate-y-0"
             : "opacity-0 translate-y-8"
-        }`}
+          }`}
       >
         <div className="max-w-6xl mx-auto px-6">
           <div className="mb-9">
@@ -554,11 +563,10 @@ const DentistryAbroad = () => {
       <section
         id="overview"
         ref={setRef("overview")}
-        className={`py-16 sm:py-20 transition-all duration-700 ${
-          visibleSections.overview
+        className={`py-16 sm:py-20 transition-all duration-700 ${visibleSections.overview
             ? "opacity-100 translate-y-0"
             : "opacity-0 translate-y-8"
-        }`}
+          }`}
       >
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
@@ -650,11 +658,10 @@ const DentistryAbroad = () => {
       <section
         id="why-usa"
         ref={setRef("why-usa")}
-        className={`py-16 sm:py-20 bg-slate-50 transition-all duration-700 ${
-          visibleSections["why-usa"]
+        className={`py-16 sm:py-20 bg-slate-50 transition-all duration-700 ${visibleSections["why-usa"]
             ? "opacity-100 translate-y-0"
             : "opacity-0 translate-y-8"
-        }`}
+          }`}
       >
         <div className="max-w-6xl mx-auto px-6">
           <div className="mb-10">
@@ -718,11 +725,10 @@ const DentistryAbroad = () => {
       <section
         id="usa-courses"
         ref={setRef("usa-courses")}
-        className={`py-16 sm:py-20 transition-all duration-700 ${
-          visibleSections["usa-courses"]
+        className={`py-16 sm:py-20 transition-all duration-700 ${visibleSections["usa-courses"]
             ? "opacity-100 translate-y-0"
             : "opacity-0 translate-y-8"
-        }`}
+          }`}
       >
         <div className="max-w-6xl mx-auto px-6">
           <div className="mb-10">
@@ -874,15 +880,91 @@ const DentistryAbroad = () => {
         </div>
       </section>
 
+      {/* ================= DESTINATIONS ================= */}
+      <section
+        id="destinations"
+        ref={setRef("destinations")}
+        className={`py-16 sm:py-20 transition-all duration-700 ${visibleSections.destinations
+            ? "opacity-100 translate-y-0"
+            : "opacity-0 translate-y-8"
+          }`}
+      >
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="mb-8">
+            <div className="text-xs font-semibold tracking-wider uppercase text-teal-600 mb-1.5">
+              Where to study
+            </div>
+            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">
+              Top Dental Universities in the USA
+            </h2>
+            <p className="text-slate-500 text-[15px] leading-relaxed max-w-2xl">
+              Choosing among the top dental universities in the USA requires
+              comparing academic requirements, tuition fees, clinical
+              facilities, programme structure, and international admission
+              policies.
+            </p>
+            <p>Some well-known dental schools include:</p>
+          </div>
+
+
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {[
+              {
+                img: Michigan_School_of_Dentistry,
+                name: "Michigan_School_of_Dentistry",
+                desc: "University of Michigan School of Dentistry",
+              },
+              {
+                img: San_Francisco_School_of_Dentistry,
+                name: "San_Francisco_School_of_Dentistry",
+                desc: "English medium & modern campuses",
+              },
+              {
+                img: Pennsylvania_School_of_Dental_Medicine,
+                name: "Pennsylvania_School_of_Dental_Medicine",
+                desc: "Affordable with good clinical exposure",
+              },
+              {
+                img: University_College_of_Dentistry,
+                name: "University_College_of_Dentistry",
+                desc: "Affordable with good clinical exposure",
+              },
+            ].map((dest, i) => (
+              <div
+                key={i}
+                className="dentistry-animated-card dentistry-photo-frame dentistry-university-card relative rounded-2xl overflow-hidden h-60 group cursor-pointer shadow-md hover:shadow-xl"
+                style={{ "--card-delay": `${i * 100}ms` }}
+              >
+                <img
+                  src={dest.img}
+                  alt={`Study Dentistry in ${dest.name}`}
+                  loading="lazy"
+                  className="dentistry-photo-image dentistry-university-image w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex items-end p-5">
+                  <div className="transform group-hover:translate-y-[-4px] transition-transform duration-300">
+                    <h4 className="text-white font-semibold text-lg">
+                      {dest.name}
+                    </h4>
+                    <p className="text-white/80 text-sm">{dest.desc}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+
       {/* ================= 4. ELIGIBILITY FOR USA ================= */}
       <section
         id="usa-eligibility"
         ref={setRef("usa-eligibility")}
-        className={`py-16 sm:py-20 bg-slate-50 transition-all duration-700 ${
-          visibleSections["usa-eligibility"]
+        className={`py-16 sm:py-20 bg-slate-50 transition-all duration-700 ${visibleSections["usa-eligibility"]
             ? "opacity-100 translate-y-0"
             : "opacity-0 translate-y-8"
-        }`}
+          }`}
       >
         <div className="max-w-6xl mx-auto px-6">
           <div className="mb-10">
@@ -1028,11 +1110,10 @@ const DentistryAbroad = () => {
       <section
         id="usa-admission"
         ref={setRef("usa-admission")}
-        className={`py-16 sm:py-20 transition-all duration-700 ${
-          visibleSections["usa-admission"]
+        className={`py-16 sm:py-20 transition-all duration-700 ${visibleSections["usa-admission"]
             ? "opacity-100 translate-y-0"
             : "opacity-0 translate-y-8"
-        }`}
+          }`}
       >
         <div className="max-w-6xl mx-auto px-6">
           <div className="mb-10 text-center">
@@ -1082,11 +1163,10 @@ const DentistryAbroad = () => {
       <section
         id="usa-cost"
         ref={setRef("usa-cost")}
-        className={`py-16 sm:py-20 bg-slate-50 transition-all duration-700 ${
-          visibleSections["usa-cost"]
+        className={`py-16 sm:py-20 bg-slate-50 transition-all duration-700 ${visibleSections["usa-cost"]
             ? "opacity-100 translate-y-0"
             : "opacity-0 translate-y-8"
-        }`}
+          }`}
       >
         <div className="max-w-6xl mx-auto px-6">
           <div className="mb-10">
@@ -1214,11 +1294,10 @@ const DentistryAbroad = () => {
       <section
         id="usa-licensing"
         ref={setRef("usa-licensing")}
-        className={`py-16 sm:py-20 transition-all duration-700 ${
-          visibleSections["usa-licensing"]
+        className={`py-16 sm:py-20 transition-all duration-700 ${visibleSections["usa-licensing"]
             ? "opacity-100 translate-y-0"
             : "opacity-0 translate-y-8"
-        }`}
+          }`}
       >
         <div className="max-w-6xl mx-auto px-6">
           <div className="mb-10">
@@ -1299,11 +1378,10 @@ const DentistryAbroad = () => {
       <section
         id="usa-careers"
         ref={setRef("usa-careers")}
-        className={`py-16 sm:py-20 bg-slate-50 transition-all duration-700 ${
-          visibleSections["usa-careers"]
+        className={`py-16 sm:py-20 bg-slate-50 transition-all duration-700 ${visibleSections["usa-careers"]
             ? "opacity-100 translate-y-0"
             : "opacity-0 translate-y-8"
-        }`}
+          }`}
       >
         <div className="max-w-6xl mx-auto px-6">
           <div className="mb-10">
@@ -1377,11 +1455,10 @@ const DentistryAbroad = () => {
       <section
         id="usa-documents"
         ref={setRef("usa-documents")}
-        className={`py-16 sm:py-20 transition-all duration-700 ${
-          visibleSections["usa-documents"]
+        className={`py-16 sm:py-20 transition-all duration-700 ${visibleSections["usa-documents"]
             ? "opacity-100 translate-y-0"
             : "opacity-0 translate-y-8"
-        }`}
+          }`}
       >
         <div className="max-w-6xl mx-auto px-6">
           <div className="mb-10">
@@ -1443,92 +1520,15 @@ const DentistryAbroad = () => {
         </div>
       </section>
 
-      {/* ================= DESTINATIONS ================= */}
-      <section
-        id="destinations"
-        ref={setRef("destinations")}
-        className={`py-16 sm:py-20 transition-all duration-700 ${
-          visibleSections.destinations
-            ? "opacity-100 translate-y-0"
-            : "opacity-0 translate-y-8"
-        }`}
-      >
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="mb-8">
-            <div className="text-xs font-semibold tracking-wider uppercase text-teal-600 mb-1.5">
-              Where to study
-            </div>
-            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">
-              Top Dental Universities in the USA
-            </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-2xl">
-              Choosing among the top dental universities in the USA requires
-              comparing academic requirements, tuition fees, clinical
-              facilities, programme structure, and international admission
-              policies.
-            </p>
-            <p>Some well-known dental schools include:</p>
-          </div>
-
-          
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            {[
-              {
-                img: Michigan_School_of_Dentistry,
-                name: "Michigan_School_of_Dentistry",
-                desc: "University of Michigan School of Dentistry",
-              },
-              {
-                img: San_Francisco_School_of_Dentistry,
-                name: "San_Francisco_School_of_Dentistry",
-                desc: "English medium & modern campuses",
-              },
-              {
-                img: Pennsylvania_School_of_Dental_Medicine,
-                name: "Pennsylvania_School_of_Dental_Medicine",
-                desc: "Affordable with good clinical exposure",
-              },
-              {
-                img: University_College_of_Dentistry,
-                name: "University_College_of_Dentistry",
-                desc: "Affordable with good clinical exposure",
-              },
-            ].map((dest, i) => (
-              <div
-                key={i}
-                className="dentistry-animated-card dentistry-photo-frame dentistry-university-card relative rounded-2xl overflow-hidden h-60 group cursor-pointer shadow-md hover:shadow-xl"
-                style={{ "--card-delay": `${i * 100}ms` }}
-              >
-                <img
-                  src={dest.img}
-                  alt={`Study Dentistry in ${dest.name}`}
-                  loading="lazy"
-                  className="dentistry-photo-image dentistry-university-image w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex items-end p-5">
-                  <div className="transform group-hover:translate-y-[-4px] transition-transform duration-300">
-                    <h4 className="text-white font-semibold text-lg">
-                      {dest.name}
-                    </h4>
-                    <p className="text-white/80 text-sm">{dest.desc}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* ================= PROCESS ================= */}
       <section
         id="process"
         ref={setRef("process")}
-        className={`py-16 sm:py-20 bg-slate-50 transition-all duration-700 ${
-          visibleSections.process
+        className={`py-16 sm:py-20 bg-slate-50 transition-all duration-700 ${visibleSections.process
             ? "opacity-100 translate-y-0"
             : "opacity-0 translate-y-8"
-        }`}
+          }`}
       >
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-12">
@@ -1571,11 +1571,10 @@ const DentistryAbroad = () => {
       <section
         id="faq"
         ref={setRef("faq")}
-        className={`py-16 sm:py-20 transition-all duration-700 ${
-          visibleSections.faq
+        className={`py-16 sm:py-20 transition-all duration-700 ${visibleSections.faq
             ? "opacity-100 translate-y-0"
             : "opacity-0 translate-y-8"
-        }`}
+          }`}
       >
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-10">
@@ -1599,17 +1598,15 @@ const DentistryAbroad = () => {
                 >
                   <span>{faq.q}</span>
                   <span
-                    className={`text-xl text-slate-400 font-normal flex-shrink-0 transition-transform duration-300 ${
-                      openFaq === i ? "rotate-180 text-teal-600" : ""
-                    }`}
+                    className={`text-xl text-slate-400 font-normal flex-shrink-0 transition-transform duration-300 ${openFaq === i ? "rotate-180 text-teal-600" : ""
+                      }`}
                   >
                     {openFaq === i ? "−" : "+"}
                   </span>
                 </button>
                 <div
-                  className={`overflow-hidden transition-all duration-300 ease-in-out ${
-                    openFaq === i ? "max-h-48 opacity-100" : "max-h-0 opacity-0"
-                  }`}
+                  className={`overflow-hidden transition-all duration-300 ease-in-out ${openFaq === i ? "max-h-48 opacity-100" : "max-h-0 opacity-0"
+                    }`}
                 >
                   <div className="px-5 pb-5 text-sm text-slate-500 leading-relaxed">
                     {faq.a}
@@ -1621,7 +1618,7 @@ const DentistryAbroad = () => {
         </div>
       </section>
 
-     
+
     </div>
   );
 };

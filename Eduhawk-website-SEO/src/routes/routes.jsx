@@ -43,6 +43,26 @@ import InformationTechnologyAbroad from "../pages/Study Abroad/InformationTechno
 import BusinessManagementAbroad from "../pages/Study Abroad/BusinessManagementAbroad.jsx";
 import MBAAbroad from "../pages/Study Abroad/MBAAbroad.jsx";
 import AccountingFinance from "../pages/Study Abroad/AccountingFinance.jsx";
+import UndergraduateEngineering from "../pages/Study Abroad/USA/Engineering/ug/undergraduate.jsx";
+import ComputerEngineeringUG from "../pages/Study Abroad/USA/Engineering/ug/pages/ComputerEngineering.jsx";
+import MechanicalEngineeringUG from "../pages/Study Abroad/USA/Engineering/ug/pages/MechanicalEngineering.jsx";
+import CivilEngineeringUG from "../pages/Study Abroad/USA/Engineering/ug/pages/CivilEngineering.jsx";
+import ElectricalEngineeringUG from "../pages/Study Abroad/USA/Engineering/ug/pages/ElectricalEngineering.jsx";
+import ElectronicsCommunicationUG from "../pages/Study Abroad/USA/Engineering/ug/pages/ElectronicsCommunication.jsx";
+import ChemicalEngineeringUG from "../pages/Study Abroad/USA/Engineering/ug/pages/ChemicalEngineering.jsx";
+import AerospaceEngineeringUG from "../pages/Study Abroad/USA/Engineering/ug/pages/AerospaceEngineering.jsx";
+import BiomedicalEngineeringUG from "../pages/Study Abroad/USA/Engineering/ug/pages/BiomedicalEngineering.jsx";
+import AutomobileEngineeringUG from "../pages/Study Abroad/USA/Engineering/ug/pages/AutomobileEngineering.jsx";
+import PostgraduateEngineering from "../pages/Study Abroad/USA/Engineering/pg/postgraduate.jsx";
+import ComputerEngineeringPG from "../pages/Study Abroad/USA/Engineering/pg/pages/ComputerEngineering.jsx";
+import MechanicalEngineeringPG from "../pages/Study Abroad/USA/Engineering/pg/pages/MechanicalEngineering.jsx";
+import CivilEngineeringPG from "../pages/Study Abroad/USA/Engineering/pg/pages/CivilEngineering.jsx";
+import ElectricalEngineeringPG from "../pages/Study Abroad/USA/Engineering/pg/pages/ElectricalEngineering.jsx";
+import ElectronicsCommunicationPG from "../pages/Study Abroad/USA/Engineering/pg/pages/ElectronicsCommunication.jsx";
+import ChemicalEngineeringPG from "../pages/Study Abroad/USA/Engineering/pg/pages/ChemicalEngineering.jsx";
+import AerospaceEngineeringPG from "../pages/Study Abroad/USA/Engineering/pg/pages/AerospaceEngineering.jsx";
+import BiomedicalEngineeringPG from "../pages/Study Abroad/USA/Engineering/pg/pages/BiomedicalEngineering.jsx";
+import AutomobileEngineeringPG from "../pages/Study Abroad/USA/Engineering/pg/pages/AutomobileEngineering.jsx";
 
 export const router = createBrowserRouter([
   {
@@ -224,8 +244,90 @@ export const router = createBrowserRouter([
       },
 
        {
-        path: "courses/accounting-financew",
+        path: "courses/accounting-finance",
         element: <AccountingFinance/>,
+      },
+
+      {
+        path: "courses/ug/engineering",
+        element: <UndergraduateEngineering />,
+      },
+      {
+        path: "courses/ug/computer-engineering",
+        element: <ComputerEngineeringUG />,
+      },
+      {
+        path: "courses/ug/mechanical-engineering",
+        element: <MechanicalEngineeringUG />,
+      },
+      {
+        path: "courses/ug/civil-engineering",
+        element: <CivilEngineeringUG />,
+      },
+      {
+        path: "courses/ug/electrical-engineering",
+        element: <ElectricalEngineeringUG />,
+      },
+      {
+        path: "courses/ug/electronics-communication",
+        element: <ElectronicsCommunicationUG />,
+      },
+      {
+        path: "courses/ug/chemical-engineering",
+        element: <ChemicalEngineeringUG />,
+      },
+      {
+        path: "courses/ug/aerospace-engineering",
+        element: <AerospaceEngineeringUG />,
+      },
+      {
+        path: "courses/ug/biomedical-engineering",
+        element: <BiomedicalEngineeringUG />,
+      },
+      {
+        path: "courses/ug/automobile-engineering",
+        element: <AutomobileEngineeringUG />,
+      },
+
+      {
+        path: "courses/pg/engineering",
+        element: <PostgraduateEngineering />,
+      },
+      {
+        path: "courses/pg/computer-engineering",
+        element: <ComputerEngineeringPG />,
+      },
+      {
+        path: "courses/pg/mechanical-engineering",
+        element: <MechanicalEngineeringPG />,
+      },
+      {
+        path: "courses/pg/civil-engineering",
+        element: <CivilEngineeringPG />,
+      },
+      {
+        path: "courses/pg/electrical-engineering",
+        element: <ElectricalEngineeringPG />,
+      },
+      {
+        path: "courses/pg/electronics-communication",
+        element: <ElectronicsCommunicationPG />,
+      },
+      {
+        path: "courses/pg/chemical-engineering",
+        element: <ChemicalEngineeringPG />,
+      },
+      {
+        path: "courses/pg/aerospace-engineering",
+        element: <AerospaceEngineeringPG />,
+      },
+      {
+        path: "courses/pg/biomedical-engineering",
+        element: <BiomedicalEngineeringPG />,
+      },
+      {
+        path: "courses/pg/automobile-engineering",
+        element: <AutomobileEngineeringPG />,
       },
 
 
@@ -252,6 +354,7 @@ export const router = createBrowserRouter([
 export const routeList = [
   "/",
   "/about",
+  "/study-abroad",
   "/mbbsabroad/russia",
   "/mbbsabroad/bangladesh",
   "/mbbsabroad/kazakhstan",
@@ -266,11 +369,46 @@ export const routeList = [
   "/mbbsabroad/tajikistan",
   "/mbbsabroad/uzbekistan",
   "/mbbsabroad/vietnam",
+  "/mbbsabroad/italy",
   "/blog/education-blog",
   "/blog",
   "/services",
   "/contact",
   "/allcollege",
+  "/courses/mbbs",
+  "/courses/medical-abroad",
+  "/courses/dentistry",
+  "/courses/nursing",
+  "/courses/pharmacy",
+  "/courses/physiotherapy",
+  "/courses/public-health",
+  "/courses/biotechnology",
+  "/courses/engineering",
+  "/courses/computer-science",
+  "/courses/information-technology",
+  "/courses/business-management",
+  "/courses/mba",
+  "/courses/accounting-finance",
+  "/courses/ug/engineering",
+  "/courses/ug/computer-engineering",
+  "/courses/ug/mechanical-engineering",
+  "/courses/ug/civil-engineering",
+  "/courses/ug/electrical-engineering",
+  "/courses/ug/electronics-communication",
+  "/courses/ug/chemical-engineering",
+  "/courses/ug/aerospace-engineering",
+  "/courses/ug/biomedical-engineering",
+  "/courses/ug/automobile-engineering",
+  "/courses/pg/engineering",
+  "/courses/pg/computer-engineering",
+  "/courses/pg/mechanical-engineering",
+  "/courses/pg/civil-engineering",
+  "/courses/pg/electrical-engineering",
+  "/courses/pg/electronics-communication",
+  "/courses/pg/chemical-engineering",
+  "/courses/pg/aerospace-engineering",
+  "/courses/pg/biomedical-engineering",
+  "/courses/pg/automobile-engineering",
   "/terms-conditions",
   "/privacy-policy",
   "/cookies-policy",
