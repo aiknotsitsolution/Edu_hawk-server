@@ -9,129 +9,215 @@ import utAustinImg from "../../../../../../Images/Abroad/USA/Engineering_PG/Biom
 const branch = {
   name: "Biomedical Engineering",
   slug: "biomedical-engineering",
-  title: "MS in Biomedical Engineering in USA for Indian Students | PG 2026 | Edu Hawk",
+  title:
+    "MS in Biomedical Engineering in USA for Indian Students | PG 2026 | Edu Hawk",
   description:
     "Study Master's in Biomedical Engineering in the USA after graduation. Eligibility, GRE requirements, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Postgraduate Biomedical Engineering in USA for Indian Students, Top Master's in Biomedical Engineering Universities in USA, MS in Biomedical Engineering in USA, Master's in Biomedical Engineering in USA for Indian Students, Postgraduate Biomedical Engineering Courses in USA, Biomedical Engineering Admission Requirements for Master's in USA, MS in Biomedical Engineering Tuition Fees in USA, Biomedical Engineering Scholarships for Indian Students, Top Graduate Biomedical Engineering Colleges in America, Biomedical Engineering Eligibility for Indian Students, GRE Requirements for MS in Biomedical Engineering in USA, English Language Tests for US Universities, Career Opportunities After MS in Biomedical Engineering, Medical Device Engineering and Bioengineering Master's in USA, USA Student Visa for Indian Postgraduate Students",
   heroIntro:
-    "Postgraduate Biomedical Engineering programs in the USA build on cutting-edge medical technology, extensive biomedical research infrastructure and strong interdisciplinary cooperation between the engineering, healthcare and life sciences sectors. Indian students gain specialist knowledge in biomaterials, medical imaging, biomechanics, medical devices and innovative healthcare technologies.",
+    "With its cutting-edge medical technology, extensive biomedical research infrastructure, and strong interdisciplinary cooperation between the engineering, healthcare, and life sciences sectors, the United States is an attractive location for postgraduate studies in biomedical engineering. Indian students who pursue this subject can gain specific knowledge in biomaterials, medical imaging, biomechanics, medical devices, and innovative healthcare technologies.",
   heroSub:
     "Edu Hawk Worldwide helps you shortlist universities, understand admission requirements and plan your complete study-abroad journey.",
+
+  whyLead: ["Among the main advantages are:"],
   whyPoints: [
-    "Access to state-of-the-art facilities and labs for biomedical research.",
-    "Opportunities to create, develop and evaluate medical equipment and healthcare innovations.",
-    "Specialised instruction in tissue engineering, biomaterials and biomechanics.",
-    "Exposure to biomedical instrumentation systems, biosensor technology and medical imaging modalities.",
-    "Participation in computational biology and rehabilitation engineering research.",
-    "Career paths in biomedical research, biotechnology, medical technology and healthcare innovation.",
+    "access to state-of-the-art facilities and labs for biomedical research.",
+    "Possibilities to create, develop, and evaluate healthcare innovations and medical equipment.",
+    "specific instruction in the fields of tissue engineering, biomaterials, and biomechanics.",
+    "exposure to biomedical instrumentation systems, biosensor technology, and medical imaging modalities.",
+    "participation in computational biology and rehabilitation engineering research.",
+    "Career paths in the fields of biotechnology, medical technology, healthcare innovation, and biomedical research.",
+  ],
+  whyNote: [
+    "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities.",
+  ],
+
+  coursesLead: [
+    "Indian students have the option to choose postgraduate programs that fit their academic background and career goals. Usually, university departments of biomedical engineering, bioengineering, or related engineering and biological sciences oversee these programs.",
+    "Common choices for degrees include:",
   ],
   courses: [
-    "Master of Science in Biomedical Engineering",
-    "Master of Engineering in Biomedical Engineering",
+    "Biomedical Engineering Master of Science",
+    "Biomedical Engineering Master of Engineering",
     "Master of Science in Bioengineering",
     "Master of Science in Biomaterials",
     "Master of Science in Biomechanics",
     "Master of Science in Medical Imaging",
-    "Master of Science in Medical Devices Engineering, where available",
+    "Master of Science in Medical Devices Engineering, if available",
+    "Systems and Instruments for Biomedicine",
+    "Healthcare Technology Development and Medical Devices",
+    "Applications of Biomaterials and Tissue Engineering",
+    "Rehabilitation engineering and biomechanics",
+    "Advanced Image Processing and Medical Imaging",
+    "Neurotechnology and Neural Engineering",
+    "Signal Processing and Analysis in Biomedicine",
+    "Bioelectronics Technology and Biosensors",
+    "Advanced biomedical research, regenerative medicine, and computational biology and systems biology modeling",
   ],
-  duration:
-    "Postgraduate Biomedical Engineering programs in the USA typically take one to two years to complete. The exact timeline depends on institutional requirements, credit hour obligations, research commitments and the choice between course-based and thesis-oriented study. The academic program covers biomedical instrumentation, biomaterials, biomechanics, physiological systems, medical imaging, biological signal processing and medical device design.",
+  coursesNote: ["Typical specializations consist of:"],
+
+  duration: [
+    "In the US, postgraduate studies in biomedical engineering usually take one to two years to complete. Institutional restrictions, credit hour requirements, research commitments, and the student's choice between course-based and thesis-oriented study alternatives all influence the precise timeline. Biomedical instrumentation, biomaterials, biomechanics, physiological systems, medical imaging, biological signal processing, and medical device design are among the subjects covered in the academic program.",
+    "Students can assess appropriate universities depending on their academic background, preferred location, budget, and long-term career aspirations with the help of Edu  Hawk worldwide consultancy's university selection advice.",
+  ],
+
+  eligibilityLead: [
+    "In general, Indian candidates must meet the following requirements in order to be admitted:",
+    "Depending on program requirements, a bachelor's degree in biomedical engineering, biotechnology, electrical engineering, mechanical engineering, electronics engineering, or a similar subject.",
+  ],
   eligibility: [
-    "A bachelor's degree in biomedical engineering, biotechnology, electrical, mechanical or electronics engineering, or a related subject, depending on program requirements.",
-    "Official degree certificates and transcripts.",
-    "Academic performance meeting the institution's minimum standards.",
-    "English language proficiency, where applicable.",
-    "Graduate Record Examination (GRE) scores, if required by the program.",
-    "A statement of purpose and letters of recommendation.",
+    "official degree certificates and transcripts.",
+    "The institution's minimum requirements for academic success.",
+    "proficiency in English, as appropriate.",
+    "scores from the Graduate Record Examination (GRE), if required by the program.",
+    "A purpose statement.",
+    "letters of recommendation.",
     "Curriculum vitae or resume.",
-    "Relevant academic projects, laboratory experience, internships or research work.",
+    "Academic projects, laboratory experience, internships, or research projects that are pertinent.",
+  ],
+
+  englishLead: [
+    "It can be necessary for foreign applicants to take an approved standardized test to prove their English language skills. Assessments that are widely accepted include:",
   ],
   englishTests: [
     "TOEFL iBT",
     "IELTS Academic",
     "PTE Academic",
-    "Duolingo English Test",
+    "The Duolingo English Test was accepted by the organization.",
   ],
-  testsNote:
-    "GRE requirements vary widely across postgraduate Biomedical Engineering programs — some universities require GRE scores, while others treat the test as optional or leave it out of their evaluation criteria. Programs may also expect underlying academic strengths in mathematics, physics, biology, chemistry, engineering principles or programming relevant to your chosen specialisation. Always check the latest admission requirements, deadlines and subject prerequisites of your chosen institutions.",
+  englishNote: [
+    "Universities have different minimum score requirements and exemption standards. Before submitting their application, prospective students should verify the current English language competency criteria for the program they have selected.",
+  ],
+
+  testsNote: [
+    "The requirements for the Graduate Record Examination (GRE) vary significantly throughout postgraduate programs in biomedical engineering. Some universities require GRE scores, while others consider the test optional or do not include it in their evaluation standards.",
+    "The underlying academic requirements relevant to their selected expertise must be examined by prospective applicants. Proficiency in mathematics, physics, biology, chemistry, engineering principles, or programming is sometimes required for academic programs.",
+    "Academic achievements, relevant projects, internship experience, research contributions, recommendation letters, and a thorough Statement of Purpose outlining the candidate's scholarly interest in biomedical technology and career goals are all common components of a competitive application portfolio.",
+  ],
+
+  costsLead: [
+    "The cost of postgraduate biomedical engineering programs in the US varies according to program length, location, institutional affiliation, and available funding sources.",
+    "The main categories of expenditures include:",
+  ],
   costs: [
-    "Tuition and institutional fees",
-    "Housing and meal plans",
-    "Health insurance coverage",
-    "Textbooks, software and other academic materials",
-    "Laboratory and research-related expenses, where applicable",
-    "Local transport and personal expenses",
-    "Travel plans, immigration paperwork and relocation costs",
+    "institutional fees and tuition.",
+    "housing and food services.",
+    "coverage for medical insurance.",
+    "Textbooks, software, and more resources are examples of academic materials.",
+    "expenses related to laboratories and research, if any",
+    "transportation within the region and other personal costs",
+    "travel plans, immigration paperwork, and moving costs.",
   ],
-  costsNote:
-    "The cost of a postgraduate Biomedical Engineering program in the USA varies with program length, location, institution and available funding. Prospective students should refer to official university tuition schedules and estimated living expenses to calculate total program costs.",
+  costsNote: [
+    "To calculate total program expenses, prospective students should refer to official university tuition schedules and estimated living expenses. A thorough budgeting plan can be developed more easily when program costs, research potential, and financial support options are systematically evaluated.",
+  ],
+
+  scholarshipsLead: [
+    "International students who meet the requirements might look into a variety of funding options for their postgraduate study in biomedical engineering.",
+    "Alternatives for funding are as follows:",
+  ],
   scholarships: [
-    "Merit-based scholarship awards",
-    "Departmental scholarships",
-    "Graduate research assistantship positions",
-    "Graduate teaching assistantships",
-    "Tuition waivers for qualifying assistantship positions",
-    "External scholarship opportunities managed by eligible institutions",
+    "scholarship awards based on merit.",
+    "scholarships awarded by departments.",
+    "vacancies for graduate research assistants.",
+    "jobs for graduate teaching assistantships.",
+    "tuition reimbursement for assistantship positions that meet the requirements.",
+    "Opportunities for external scholarships are managed by qualified institutions.",
+  ],
+  scholarshipsNote: [
+    "Students whose interests coincide with active biomedical research projects may be eligible for research assistantships. Academic achievement, research interests, faculty financing, and institution policy all influence funding, which is competitive.",
+  ],
+
+  universitiesLead: [
+    "The following universities should be carefully considered for postgraduate programs in bioengineering, biomedical engineering, and related fields:",
   ],
   universities: [
-    { name: "Johns Hopkins University", location: "Baltimore, Maryland" , img: johnsHopkinsImg },
-    { name: "Massachusetts Institute of Technology", location: "Cambridge, Massachusetts" , img: mitImg },
-    { name: "University of Pennsylvania", location: "Philadelphia, Pennsylvania" , img: pennImg },
-    { name: "University of Texas at Austin", location: "Austin, Texas" , img: utAustinImg },
+    {
+      name: "Johns Hopkins University",
+      location: "Baltimore, Maryland",
+      img: johnsHopkinsImg,
+    },
+    {
+      name: "Massachusetts Institute of Technology",
+      location: "Cambridge, Massachusetts",
+      img: mitImg,
+    },
+    {
+      name: "University of Pennsylvania",
+      location: "Philadelphia, Pennsylvania",
+      img: pennImg,
+    },
+    {
+      name: "University of Texas at Austin",
+      location: "Austin, Texas",
+      img: utAustinImg,
+    },
   ],
-  careers: [
-    "Medical Device Design Engineer",
-    "Biomedical Research Engineer",
-    "Clinical Engineering Specialist",
-    "Biomaterials Engineer",
-    "Medical Imaging Engineer",
-    "Biomechanics Engineer",
-    "Biomedical Instrumentation Engineer",
-    "Quality and Regulatory Affairs Specialist",
-    "Rehabilitation Engineering Specialist",
-    "Healthcare Technology Engineer",
-    "Research and Development Engineer",
+  universitiesNote: [
+    "It is recommended that prospective students use the official digital portals of each institution to verify specific degree curricula, specialized concentrations, research infrastructure, financial commitments, and eligibility requirements.",
   ],
+
   careerIntro:
-    "Graduates with advanced training in Biomedical Engineering develop specialised technical skills for roles in medical technology, biomedical research, healthcare innovation and medical device engineering. Career progression depends on technical expertise, practical experience, employer requirements and work authorisation status. Some roles involving clinical practice, medical device regulation or specialised healthcare environments may require additional professional development or specific certifications.",
-  visaSteps: [
-    "Research universities and identify a suitable biomedical engineering specialisation.",
-    "Confirm academic prerequisites and subject requirements.",
-    "Review GRE and English language proficiency requirements.",
-    "Assemble required documents, including transcripts, CV, academic references and statement of purpose.",
-    "Complete and submit applications by the university deadlines.",
-    "Examine admission decisions, study costs and financial aid options.",
-    "Obtain the required student records from the institution.",
-    "Complete the visa application and pay the SEVIS fee.",
-    "Attend the visa interview where appropriate and arrange travel after approval.",
+    "Graduates with advanced training in this area can develop specialized technical skills useful for jobs in medical technology, biomedical research, healthcare innovation, and medical device engineering.",
+  careerLead: ["Professional roles that are pertinent include:"],
+  careers: [
+    "Medical Device Design Engineer Biomedical Engineer",
+    "Engineer for Biomedical Research",
+    "Specialist in Clinical Engineering",
+    "Engineer for Biomaterials",
+    "Medical Imaging Engineer Biomechanics Engineer",
+    "Biomedical Instrumentation Engineer with expertise in quality and regulatory affairs",
+    "Specialist in Rehabilitation Engineering",
+    "Engineer for Healthcare Technology",
+    "Engineer for Research and Development",
+    "Opportunities for career progression depend on technical expertise, practical experience, organizational requirements, and relevant employment authorization status.",
   ],
-  visaNote:
-    "Visa approval is not guaranteed. Students must follow current US government regulations and university policies.",
+  careerNote: [
+    "Additional professional development or specific certifications may be required for some roles involving clinical practice, medical device regulation, or specialized healthcare environments.",
+  ],
+
+  visaLead: [
+    "Indian students usually have to go through the necessary student visa processes in order to be admitted to an authorized American university.",
+    "Typical application procedures consist of:",
+  ],
+  visaSteps: [
+    "Find a suitable concentration in biomedical engineering by conducting in-depth research on universities.",
+    "Check the topic requirements and academic prerequisites.",
+    "Analyze Graduate Record Examination (GRE) requirements and English language competency norms.",
+    "assemble the required paperwork, such as a curriculum vitae, academic references, a Statement of Purpose, and academic transcripts.",
+    "Complete applications and submit them by the deadlines set by the university.",
+    "Examine financial aid options, educational expenses, and admissions decisions.",
+    "Obtain the necessary student records from the relevant organization.",
+    "Complete the visa application process and send in the required SEVIS (Student and Exchange Visitor Information System) fee.",
+    "When appropriate, take part in visa adjudication interviews and, after approval, make the required travel plans.",
+  ],
+  visaNote: [],
+
   faqs: [
     {
-      q: "Can Indian students study Biomedical Engineering at the postgraduate level in the USA?",
-      a: "Yes. Indian students can apply to suitable postgraduate programs provided they hold a relevant undergraduate degree and have strong academic records.",
+      q: "Can Indian students study biomedical engineering at the postgraduate level in the United States?",
+      a: "Yes, Indian students can apply to suitable postgraduate programs if they have a relevant undergraduate degree and good academic records.",
     },
     {
-      q: "How long does it take to complete a master's in Biomedical Engineering in the USA?",
-      a: "Most programs take one to two years to complete, depending on institutional requirements, curriculum design and research activity.",
+      q: "How long does it take to complete a master's degree in biomedical engineering in the United States?",
+      a: "Depending on institutional restrictions, curriculum design, and research activity, most programs take one to two years to complete.",
     },
     {
-      q: "Is the GRE required for admission?",
-      a: "GRE requirements vary significantly between programs and universities. Some institutions require it, while others classify it as optional or do not consider it in admission decisions.",
+      q: "Does admission require taking the GRE?",
+      a: "No, requirements for the Graduate Record Examination vary significantly between programs and universities. Some institutions require it, while others classify it as optional or do not consider it while making admissions decisions.",
     },
     {
-      q: "What Biomedical Engineering specialisations are available?",
-      a: "Common concentrations include medical devices, biomaterials, biomechanics, medical imaging, tissue engineering, biomedical instrumentation and neural engineering.",
+      q: "What Biomedical Engineering specializations are available?",
+      a: "Medical devices, biomaterials, biomechanics, medical imaging, tissue engineering, biomedical instrumentation, and neural engineering are among the most common concentrations.",
     },
     {
-      q: "Are scholarships available for Indian students?",
-      a: "Yes. Eligible candidates may explore teaching assistantships, research assistantships, merit-based scholarships and other funding sources. Availability depends on institutional policies and budget allocations.",
+      q: "Do Indian students have access to scholarships?",
+      a: "Yes , eligible candidates may look into teaching assistantships, research assistantships, merit-based scholarships, and more financing sources. Budgetary allotments and institutional regulations determine availability.",
     },
     {
-      q: "How can Edu Hawk Worldwide help me study abroad?",
-      a: "Edu Hawk Worldwide helps students research suitable universities, understand admission requirements, organise application documents and plan their study-abroad journey. Students should verify academic, financial, immigration and licensing requirements with the relevant official authorities.",
+      q: "How can I study overseas with the assistance of Edu Hawk Worldwide Consultancy?",
+      a: "Students may plan their study abroad experience, organize their application materials, research appropriate universities, and comprehend admission requirements with the assistance of Edu Hawk Worldwide. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs.",
     },
   ],
 };
@@ -145,9 +231,19 @@ const SectionHeading = ({ eyebrow, title }) => (
   </div>
 );
 
-const ListCard = ({ children }) => (
-  <ul className="space-y-3">{children}</ul>
-);
+const ListCard = ({ children }) => <ul className="space-y-3">{children}</ul>;
+
+const DocParas = ({
+  items,
+  className = "max-w-3xl mb-6 text-slate-600 leading-relaxed space-y-4",
+}) =>
+  items && items.length ? (
+    <div className={className}>
+      {items.map((p, i) => (
+        <p key={i}>{p}</p>
+      ))}
+    </div>
+  ) : null;
 
 const Li = ({ text }) => (
   <li className="flex items-start gap-3">
@@ -340,11 +436,16 @@ const PostgraduateBiomedicalEngineering = () => {
             eyebrow="Why the USA"
             title={`Why Study ${branch.name} in the USA?`}
           />
+          <DocParas items={branch.whyLead} />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-4">
             {branch.whyPoints.map((p) => (
               <Li key={p} text={p} />
             ))}
           </div>
+          <DocParas
+            items={branch.whyNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -355,13 +456,7 @@ const PostgraduateBiomedicalEngineering = () => {
             eyebrow="Programs"
             title={`${branch.name} Courses in the USA`}
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">
-            Postgraduate students can choose programs that match their
-            academic background and career goals, typically overseen by
-            departments of biomedical engineering, bioengineering or related
-            engineering and biological sciences. Common degree pathways
-            include:
-          </p>
+          <DocParas items={branch.coursesLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.courses.map((c) => (
               <div
@@ -372,6 +467,10 @@ const PostgraduateBiomedicalEngineering = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.coursesNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -385,10 +484,10 @@ const PostgraduateBiomedicalEngineering = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">
               Top Universities for {branch.name} in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-2xl">
-              Compare universities on academics, cost, facilities and
-              international admission policies before shortlisting.
-            </p>
+            <DocParas
+              items={branch.universitiesLead}
+              className="text-slate-500 text-[15px] leading-relaxed max-w-2xl space-y-3"
+            />
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {branch.universities.map((u) => (
@@ -421,6 +520,10 @@ const PostgraduateBiomedicalEngineering = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.universitiesNote}
+            className="mt-6 max-w-3xl text-slate-500 text-[15px] leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -429,7 +532,10 @@ const PostgraduateBiomedicalEngineering = () => {
         <div className="max-w-6xl mx-auto px-6">
           <SectionHeading eyebrow="How long" title="Program Duration" />
           <div className="bg-blue-50/60 border border-blue-100 rounded-2xl p-6 sm:p-8 max-w-3xl">
-            <p className="text-slate-700 leading-relaxed">{branch.duration}</p>
+            <DocParas
+              items={branch.duration}
+              className="text-slate-700 leading-relaxed space-y-4"
+            />
           </div>
         </div>
       </section>
@@ -442,6 +548,10 @@ const PostgraduateBiomedicalEngineering = () => {
             title="Eligibility Requirements for Indian Students"
           />
           <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 max-w-3xl shadow-sm">
+            <DocParas
+              items={branch.eligibilityLead}
+              className="mb-5 text-slate-600 leading-relaxed space-y-4"
+            />
             <ListCard>
               {branch.eligibility.map((e) => (
                 <Li key={e} text={e} />
@@ -459,12 +569,10 @@ const PostgraduateBiomedicalEngineering = () => {
               eyebrow="English proficiency"
               title="English Language Requirements"
             />
-            <p className="text-slate-600 mb-5">
-              International applicants may need to prove English competency
-              through a recognised test. Minimum scores differ by university,
-              and some universities may waive the requirement for students
-              educated in English-medium schools.
-            </p>
+            <DocParas
+              items={branch.englishLead}
+              className="mb-5 text-slate-600 leading-relaxed space-y-3"
+            />
             <div className="flex flex-wrap gap-3">
               {branch.englishTests.map((t) => (
                 <span
@@ -475,15 +583,17 @@ const PostgraduateBiomedicalEngineering = () => {
                 </span>
               ))}
             </div>
+            <DocParas
+              items={branch.englishNote}
+              className="mt-5 text-slate-600 leading-relaxed space-y-4"
+            />
           </div>
           <div>
             <SectionHeading
               eyebrow="Standardised tests"
               title="GRE & Other Admission Requirements"
             />
-            <p className="text-slate-600 leading-relaxed">
-              {branch.testsNote}
-            </p>
+            <DocParas items={branch.testsNote} />
           </div>
         </div>
       </section>
@@ -495,7 +605,7 @@ const PostgraduateBiomedicalEngineering = () => {
             eyebrow="Budget"
             title="Tuition Fees and Living Expenses"
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">{branch.costsNote}</p>
+          <DocParas items={branch.costsLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.costs.map((c) => (
               <div
@@ -506,6 +616,10 @@ const PostgraduateBiomedicalEngineering = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.costsNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -518,21 +632,20 @@ const PostgraduateBiomedicalEngineering = () => {
           />
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
             <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-sm">
+              <DocParas
+                items={branch.scholarshipsLead}
+                className="mb-5 text-slate-600 leading-relaxed space-y-4"
+              />
               <ListCard>
                 {branch.scholarships.map((s) => (
                   <Li key={s} text={s} />
                 ))}
               </ListCard>
             </div>
-            <p className="text-slate-600 leading-relaxed">
-              International students who meet the requirements may explore
-              research assistantships, teaching assistantships, merit
-              scholarships and departmental funding. Research assistantships
-              often suit students whose interests align with active biomedical
-              research projects. Funding is competitive and depends on
-              academic achievement, research interests, faculty financing and
-              institutional policy.
-            </p>
+            <DocParas
+              items={branch.scholarshipsNote}
+              className="text-slate-600 leading-relaxed space-y-4"
+            />
           </div>
         </div>
       </section>
@@ -544,9 +657,8 @@ const PostgraduateBiomedicalEngineering = () => {
             eyebrow="After graduation"
             title={`Career Opportunities After ${branch.name}`}
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">
-            {branch.careerIntro}
-          </p>
+          <DocParas items={branch.careerIntro ? [branch.careerIntro] : []} />
+          <DocParas items={branch.careerLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.careers.map((c) => (
               <div
@@ -557,6 +669,10 @@ const PostgraduateBiomedicalEngineering = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.careerNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -567,7 +683,7 @@ const PostgraduateBiomedicalEngineering = () => {
             eyebrow="Step by step"
             title="Visa & Application Process for Indian Students"
           />
-
+          <DocParas items={branch.visaLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {branch.visaSteps.map((s, i) => (
               <div
@@ -580,7 +696,6 @@ const PostgraduateBiomedicalEngineering = () => {
                 {/* Animated Number Circle */}
                 <div className="mb-5 relative w-fit">
                   <div className="visa-number-circle relative flex items-center justify-center w-14 h-14 rounded-full border-2 border-orange-500 bg-orange-50 transition-all duration-500 group-hover:bg-gradient-to-br group-hover:from-orange-500 group-hover:to-orange-600 group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-lg group-hover:shadow-orange-200">
-
                     <span className="text-xl font-bold text-orange-500 transition-colors duration-500 group-hover:text-white">
                       {String(i + 1).padStart(2, "0")}
                     </span>
@@ -601,9 +716,10 @@ const PostgraduateBiomedicalEngineering = () => {
             ))}
           </div>
 
-          <p className="mt-7 text-sm text-slate-500 max-w-3xl">
-            {branch.visaNote}
-          </p>
+          <DocParas
+            items={branch.visaNote}
+            className="mt-7 text-sm text-slate-500 max-w-3xl space-y-4"
+          />
         </div>
       </section>
 

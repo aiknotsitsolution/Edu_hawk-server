@@ -17,16 +17,26 @@ const branch = {
   keywords:
     "Study Postgraduate Civil Engineering in USA, Best Master's in Civil Engineering Universities in USA, Master's in Civil Engineering in USA, Postgraduate Civil Engineering Courses in USA, Civil Engineering Admission Requirements for Master's in USA, MS in Civil Engineering Tuition Fees in USA, Civil Engineering Scholarships for Indian Students, Top Graduate Civil Engineering Colleges in America, Civil Engineering Eligibility for Indian Students, GRE Requirements for MS in Civil Engineering in USA, English Language Tests for US Universities, Career Opportunities After MS in Civil Engineering, Structural and Construction Engineering Master's in USA, USA Student Visa for Indian Postgraduate Students",
   heroIntro:
-    "Postgraduate Civil Engineering programs in the USA combine advanced specialisations with strong research facilities and modern engineering technologies. Indian graduates can pursue a master's degree across structural design, transportation systems, environmental engineering, construction management and sustainable infrastructure, supported by state-of-the-art laboratories.",
+    "The United States represents a highly sought-after destination for Study postgraduate in Civil Engineering, distinguished by its state-of-the-art infrastructure, comprehensive research facilities, cutting-edge engineering technologies, and rigorous specialized academic curricula. Indian scholars possess the opportunity to cultivate advanced competencies across structural design, transportation systems, environmental engineering, construction management, and sustainable infrastructure development.",
   heroSub:
     "Edu Hawk Worldwide helps you shortlist universities, understand admission requirements and plan your complete study-abroad journey.",
+
+  whyLead: ["Principal advantages encompass:"],
   whyPoints: [
-    "Access to sophisticated civil engineering laboratories and research infrastructure.",
-    "Engagement with contemporary infrastructure design methodologies and advanced construction technologies.",
-    "Specialised concentrations in structural, geotechnical, transportation and environmental engineering.",
-    "Exposure to Building Information Modelling (BIM), computer-aided design and engineering simulation tools.",
-    "Research opportunities in sustainable construction, smart city development and disaster-resistant infrastructure.",
-    "Diverse career paths across consulting, construction, transportation, environmental services and infrastructure development.",
+    "Comprehensive access to sophisticated civil engineering laboratories and research infrastructure.",
+    "Opportunities to engage with contemporary infrastructure design methodologies and advanced construction technologies.",
+    "Specialized concentrations in structural, geotechnical, transportation, and environmental engineering disciplines.",
+    "Exposure to Building Information Modelling (BIM), computer-aided design systems, and engineering simulation technologies.",
+    "Research prospects in sustainable construction practices, smart city development, and disaster-resistant infrastructure design.",
+    "Diverse career trajectories in consulting, construction, transportation, environmental services, and infrastructure development sectors.",
+  ],
+  whyNote: [
+    "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey..",
+  ],
+
+  coursesLead: [
+    "Indian students may select from diverse master's degree programs aligned with their academic qualifications and professional aspirations.",
+    "Prevalent degree offerings include:",
   ],
   courses: [
     "Master of Science in Civil Engineering",
@@ -37,53 +47,127 @@ const branch = {
     "Master of Science in Environmental Engineering",
     "Master of Science in Construction Engineering and Management",
     "Master of Science in Water Resources Engineering",
+    "Structural Engineering",
+    "Geotechnical Engineering",
+    "Transportation and Traffic Engineering",
+    "Environmental Engineering",
+    "Construction Engineering and Management",
+    "Water Resources Engineering",
+    "Earthquake and Disaster-Resilient Engineering",
+    "Sustainable and Smart Infrastructure",
+    "Construction Materials and Engineering",
   ],
-  duration:
-    "A postgraduate Civil Engineering degree in the USA typically takes one to two years to complete. The exact duration depends on the university's credit requirements, the chosen specialisation and whether you follow a thesis-based or coursework-based pathway. Coursework covers advanced structural analysis, geotechnical design, transportation planning, environmental systems, construction project management and infrastructure modelling.",
+  coursesNote: ["Common specialisations include:"],
+
+  duration: [
+    "Postgraduate Civil Engineering programs within the United States typically require a duration of one to two years for completion.",
+    "The specific timeframe is contingent upon institutional policies, credit hour requirements, chosen area of specialization, and the student's decision to pursue either a thesis-oriented or course-based academic pathway.",
+    "Students may engage in coursework encompassing advanced structural analysis, geotechnical design, transportation planning, environmental systems, construction project management, and infrastructure modelling.",
+  ],
+
+  eligibilityLead: [
+    "Indian students are generally expected to satisfy the following admission criteria:",
+  ],
   eligibility: [
     "A bachelor's degree in Civil Engineering or an allied discipline.",
     "Official academic transcripts and degree certificates.",
-    "Academic performance meeting the institution's minimum requirements.",
-    "English language proficiency, where mandated.",
-    "Graduate Record Examination (GRE) scores, if required by the program.",
-    "A Statement of Purpose.",
+    "The institution's minimum requirements for academic success.",
+    "English-language proficiency, where mandated.",
+    "Graduate Record Examination (GRE) scores, if stipulated by the program.",
+    "Statement of Purpose.",
     "Letters of Recommendation.",
-    "A resume or curriculum vitae.",
-    "Relevant academic projects, internships, research or professional experience, where applicable.",
+    "Resume or Curriculum Vitae.",
+    "Relevant academic projects, internship experience, research endeavors, or professional background, where pertinent.",
+  ],
+
+  englishLead: [
+    "International applicants may be required to demonstrate English language  proficiency through an accredited standardized examination",
+    "Widely recognized assessments include:",
   ],
   englishTests: [
     "IELTS Academic",
     "TOEFL iBT",
     "PTE Academic",
-    "Duolingo English Test",
+    "Duolingo English Test, where recognized by the institution",
+    "Minimum score thresholds and exemption criteria differ across universities. Prospective students should verify the prevailing requirements for their intended program prior to submitting their application.",
   ],
-  testsNote:
-    "GRE requirements vary widely across institutions. Some Civil Engineering graduate programs require GRE scores, while others treat the exam as optional or exclude it from admissions decisions. Prerequisites also differ by specialisation — structural engineering typically expects strong mechanics and structural analysis background, whereas environmental engineering prioritises chemistry, fluid mechanics and environmental systems knowledge. Always verify the latest requirements, deadlines and test policies for your chosen programs.",
+  englishNote: [],
+
+  testsNote: [
+    "Graduate Record Examination (GRE) prerequisites demonstrate considerable variation across institutions. Certain Civil Engineering graduate programs mandate GRE examination scores whereas others designate the assessment as optional or exclude it from admissions considerations.",
+    "Prospective applicants must examine the specific academic prerequisites corresponding to their intended specialization. For instance, Structural Engineering specializations typically necessitate comprehensive competency in mechanics and structural analysis, whereas Environmental Engineering specializations generally prioritize chemistry, fluid mechanics, and environmental systems knowledge.",
+  ],
+
+  costsLead: [
+    "Postgraduate Civil Engineering program costs in the United States fluctuate based on institutional affiliation, geographic location, curriculum duration, and available financial support mechanisms.",
+    "Main expenses include:",
+  ],
   costs: [
-    "Tuition and institutional fees",
-    "Accommodation and meal plans",
-    "Health insurance coverage",
-    "Textbooks, computational software and study materials",
-    "Local transport and personal expenses",
-    "Visa documentation, airfare and relocation costs",
+    "Tuition and institutional fees.",
+    "Residential accommodation and meal plans.",
+    "Medical insurance coverage.",
+    "Textbooks, computational software, and educational materials.",
+    "Regional transit and miscellaneous personal expenditures.",
+    "Immigration documentation, airfare, and relocation expenses.",
   ],
-  costsNote:
-    "Program costs vary with the university, its location, the duration of study and the funding available. Universities in different regions can differ significantly in total cost, so consult official fee pages and projected living-cost estimates to plan the full expense of your degree rather than tuition alone.",
+  costsNote: [
+    "Prospective students should consult official institutional fee documentation and projected living cost estimates to establish a comprehensive financial plan for their complete degree program. Educational institutions located in different geographical areas often exhibit significantly different overall costs..",
+  ],
+
+  scholarshipsLead: [
+    "International students may qualify for diverse funding mechanisms contingent upon institutional and departmental criteria.",
+    "Available financial support options encompass:",
+  ],
   scholarships: [
-    "Merit-based scholarships",
-    "Departmental financial awards",
-    "Graduate research assistantships",
-    "Graduate teaching assistantships",
-    "Tuition remission linked to assistantship appointments",
-    "External scholarships from qualifying organisations",
+    "Academic merit-based scholarships.",
+    "Departmental financial awards.",
+    "Graduate research assistantship positions.",
+    "Graduate instructional assistantship positions.",
+    "Tuition remission provisions contingent upon eligible assistantship appointments.",
+    "External scholarships administered by qualifying organizations.",
+  ],
+  scholarshipsNote: [
+    "Funding may depend on academic performance, research interests, project availability, and departmental budgets. Students should verify eligibility, application deadlines, and whether the award covers tuition, living costs, or both.",
+  ],
+
+  universitiesLead: [
+    "The following universities are worth researching for Civil Engineering and related postgraduate programs:",
   ],
   universities: [
-    { name: "Massachusetts Institute of Technology", location: "Cambridge, Massachusetts" , img: mitImg },
-    { name: "University of California, Berkeley", location: "Berkeley, California" , img: ucbImg },
-    { name: "Stanford University", location: "Stanford, California" , img: stanfordImg },
-    { name: "Georgia Institute of Technology", location: "Atlanta, Georgia" , img: gatechImg },
-    { name: "Purdue University", location: "West Lafayette, Indiana" , img: purdueImg },
+    {
+      name: "Massachusetts Institute of Technology",
+      location: "Cambridge, Massachusetts",
+      img: mitImg,
+    },
+    {
+      name: "University of California, Berkeley",
+      location: "Berkeley, California",
+      img: ucbImg,
+    },
+    {
+      name: "Stanford University",
+      location: "Stanford, California",
+      img: stanfordImg,
+    },
+    {
+      name: "Georgia Institute of Technology",
+      location: "Atlanta, Georgia",
+      img: gatechImg,
+    },
+    {
+      name: "Purdue University",
+      location: "West Lafayette, Indiana",
+      img: purdueImg,
+    },
   ],
+  universitiesNote: [
+    "Students can assess appropriate universities depending on their academic background, budget, ideal location, and long-term professional aspirations with the help of Edu Hawk Worldwide Consultancy advice and university selection guidance.",
+    "Prospective students are advised to evaluate the precise program structures, investigative specializations, academic personnel qualifications, financial obligations, and enrollment prerequisites through accredited institutional portals.",
+  ],
+
+  careerIntro:
+    "A postgraduate qualification can help graduates develop advanced technical and project management skills for careers in infrastructure, construction, consulting, and environmental services.",
+  careerLead: ["Standard procedural phases include:"],
   careers: [
     "Civil Design Engineer",
     "Structural Engineer",
@@ -94,49 +178,55 @@ const branch = {
     "Construction Manager",
     "Water Resources Engineer",
     "Infrastructure Planning Engineer",
-    "Building Information Modelling Engineer",
+    "Building Information Modeling Engineer or Specialist",
     "Sustainability Consultant",
     "Research and Development Engineer",
   ],
-  careerIntro:
-    "A postgraduate qualification builds advanced technical and project management skills for careers in infrastructure, construction, consulting and environmental services. Some roles — especially those requiring professional engineering licensure or work on public infrastructure — may need state-level certification or additional credentials, and progression depends on experience, employer requirements and work authorisation.",
-  visaSteps: [
-    "Research universities and identify a suitable Civil Engineering specialisation.",
-    "Verify academic prerequisites and foundational subject requirements.",
-    "Check GRE and English language proficiency requirements.",
-    "Prepare transcripts, a Statement of Purpose, recommendation letters and a resume.",
-    "Submit applications before university deadlines.",
-    "Review admission decisions, costs and scholarship offers.",
-    "Obtain the required visa documentation from the university.",
-    "Pay the SEVIS fee and complete the visa application.",
-    "Attend the visa interview where applicable and plan travel after approval.",
+  careerNote: [
+    "Certain professional positions, particularly those necessitating professional engineering certification or involvement in public infrastructure initiatives, may mandate state-mandated professional licensure or supplementary credentials. Professional advancement prospects are contingent upon accumulated professional experience, organizational specifications and immigration authorization status.",
   ],
-  visaNote:
-    "Visa approval is not guaranteed and depends on individual circumstances. Always follow current US government and university guidance.",
+
+  visaLead: [
+    "When admitted to a recognised USA university, Indian nationals usually have to go through the necessary educational visa procedures.",
+    "Typical application steps include:",
+  ],
+  visaSteps: [
+    "Examine educational institutions and identify an appropriate Civil Engineering concentration.",
+    "Verify academic prerequisites and foundational subject requirements.",
+    "Examine standardized examination benchmarks and English language proficiency standards.",
+    "Assemble official academic records, a comprehensive Statement of Purpose, endorsements from academic referees, and professional documentation.",
+    "Transmit completed applications in accordance with institutional deadlines.",
+    "Analyze admission determinations, financial expenditures, and scholarship opportunities.",
+    "Procure essential visa documentation from the educational establishment.",
+    "Remit the mandatory SEVIS payment and finalize visa application procedures.",
+    "Participate in the visa evaluation meeting, if applicable,",
+  ],
+  visaNote: [],
+
   faqs: [
     {
       q: "Can Indian students pursue postgraduate Civil Engineering in the USA?",
-      a: "Yes. Indian students with a relevant bachelor's degree and satisfactory academic credentials can apply to appropriate postgraduate Civil Engineering programs in the USA.",
+      a: "Indian students possessing a relevant bachelor's degree and satisfactory academic credentials are eligible to apply to appropriate postgraduate programs in Civil Engineering.",
     },
     {
       q: "How long does a master's in Civil Engineering take in the USA?",
-      a: "Most postgraduate Civil Engineering programs take one to two years, depending on the university, credit requirements and the chosen specialisation.",
+      a: "The duration of most programs ranges from one to two years, contingent upon institutional policies, credit hour requirements, and the chosen area of specialisation.",
     },
     {
       q: "Is the GRE compulsory for Civil Engineering admission?",
-      a: "No. GRE requirements are institution- and program-specific — some universities require it, while others treat it as optional or do not consider it.",
+      a: "No. The GRE requirement is institution-specific and program-dependent. Certain universities mandate it, whereas others designate it as optional or do not factor it into admissions decisions.",
     },
     {
       q: "Which specialisations are available in Civil Engineering?",
-      a: "Common specialisations include structural, geotechnical, transportation, environmental, water resources and construction management engineering.",
+      a: "Prevalent specialisations encompass Structural Engineering, Geotechnical Engineering, Transportation Engineering, Environmental Engineering, Water Resources Engineering, and Construction Management.",
     },
     {
       q: "Are scholarships available for Indian students?",
-      a: "Yes. Eligible students may access merit-based scholarships, research and teaching assistantships and other funding. Availability and award amounts depend on university policies and resources.",
+      a: "Yes. Qualified applicants may investigate merit-based scholarships, research assistantships, teaching assistantships, and supplementary funding mechanisms. The availability and magnitude of awards are determined by institutional policies and resource allocation.",
     },
     {
-      q: "How can Edu Hawk Worldwide help me study Civil Engineering abroad?",
-      a: "Edu Hawk Worldwide helps students explore suitable universities, understand admission requirements, organise application documents and plan their study-abroad journey. Students should verify academic, financial, immigration and licensing requirements with the relevant official authorities.",
+      q: "How can Edu Hawk worldwide help me study abroad?",
+      a: "Edu Hawk worldwide Consultancy can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities. KEYWORDS - Study Postgraduate Civil Engineering in USA Best Master's in Civil Engineering Universities in USA Master's in Civil Engineering in USA Postgraduate Civil Engineering Courses in USA Civil Engineering Admission Requirements for Master's in USA MS in Civil Engineering Tuition Fees in USA Civil Engineering Scholarships for Indian Students Top Graduate Civil Engineering Colleges in America Civil Engineering Eligibility for Indian Students GRE Requirements for MS in Civil Engineering in USA English Language Tests for US Universities Career Opportunities After MS in Civil Engineering Structural and Construction Engineering Master's in USA USA Student Visa for Indian Postgraduate Students Postgraduate Electrical Engineering in the USA",
     },
   ],
 };
@@ -150,9 +240,19 @@ const SectionHeading = ({ eyebrow, title }) => (
   </div>
 );
 
-const ListCard = ({ children }) => (
-  <ul className="space-y-3">{children}</ul>
-);
+const ListCard = ({ children }) => <ul className="space-y-3">{children}</ul>;
+
+const DocParas = ({
+  items,
+  className = "max-w-3xl mb-6 text-slate-600 leading-relaxed space-y-4",
+}) =>
+  items && items.length ? (
+    <div className={className}>
+      {items.map((p, i) => (
+        <p key={i}>{p}</p>
+      ))}
+    </div>
+  ) : null;
 
 const Li = ({ text }) => (
   <li className="flex items-start gap-3">
@@ -345,11 +445,16 @@ const PostgraduateCivilEngineering = () => {
             eyebrow="Why the USA"
             title={`Why Study ${branch.name} in the USA?`}
           />
+          <DocParas items={branch.whyLead} />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-4">
             {branch.whyPoints.map((p) => (
               <Li key={p} text={p} />
             ))}
           </div>
+          <DocParas
+            items={branch.whyNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -360,12 +465,7 @@ const PostgraduateCivilEngineering = () => {
             eyebrow="Programs"
             title={`${branch.name} Courses in the USA`}
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">
-            Postgraduate students can pursue master's programs across
-            structural, geotechnical, transportation, environmental, water
-            resources and construction management specialisations. Common
-            degree pathways include:
-          </p>
+          <DocParas items={branch.coursesLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.courses.map((c) => (
               <div
@@ -376,6 +476,10 @@ const PostgraduateCivilEngineering = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.coursesNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -389,10 +493,10 @@ const PostgraduateCivilEngineering = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">
               Top Universities for {branch.name} in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-2xl">
-              Compare universities on academics, cost, facilities and
-              international admission policies before shortlisting.
-            </p>
+            <DocParas
+              items={branch.universitiesLead}
+              className="text-slate-500 text-[15px] leading-relaxed max-w-2xl space-y-3"
+            />
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {branch.universities.map((u) => (
@@ -425,6 +529,10 @@ const PostgraduateCivilEngineering = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.universitiesNote}
+            className="mt-6 max-w-3xl text-slate-500 text-[15px] leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -433,7 +541,10 @@ const PostgraduateCivilEngineering = () => {
         <div className="max-w-6xl mx-auto px-6">
           <SectionHeading eyebrow="How long" title="Program Duration" />
           <div className="bg-blue-50/60 border border-blue-100 rounded-2xl p-6 sm:p-8 max-w-3xl">
-            <p className="text-slate-700 leading-relaxed">{branch.duration}</p>
+            <DocParas
+              items={branch.duration}
+              className="text-slate-700 leading-relaxed space-y-4"
+            />
           </div>
         </div>
       </section>
@@ -446,6 +557,10 @@ const PostgraduateCivilEngineering = () => {
             title="Eligibility Requirements for Indian Students"
           />
           <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 max-w-3xl shadow-sm">
+            <DocParas
+              items={branch.eligibilityLead}
+              className="mb-5 text-slate-600 leading-relaxed space-y-4"
+            />
             <ListCard>
               {branch.eligibility.map((e) => (
                 <Li key={e} text={e} />
@@ -463,12 +578,10 @@ const PostgraduateCivilEngineering = () => {
               eyebrow="English proficiency"
               title="English Language Requirements"
             />
-            <p className="text-slate-600 mb-5">
-              International applicants may need to prove English competency
-              through a recognised test. Minimum scores differ by university,
-              and some universities may waive the requirement for students
-              educated in English-medium schools.
-            </p>
+            <DocParas
+              items={branch.englishLead}
+              className="mb-5 text-slate-600 leading-relaxed space-y-3"
+            />
             <div className="flex flex-wrap gap-3">
               {branch.englishTests.map((t) => (
                 <span
@@ -479,15 +592,17 @@ const PostgraduateCivilEngineering = () => {
                 </span>
               ))}
             </div>
+            <DocParas
+              items={branch.englishNote}
+              className="mt-5 text-slate-600 leading-relaxed space-y-4"
+            />
           </div>
           <div>
             <SectionHeading
               eyebrow="Admission tests"
               title="GRE & Other Admission Requirements"
             />
-            <p className="text-slate-600 leading-relaxed">
-              {branch.testsNote}
-            </p>
+            <DocParas items={branch.testsNote} />
           </div>
         </div>
       </section>
@@ -499,7 +614,7 @@ const PostgraduateCivilEngineering = () => {
             eyebrow="Budget"
             title="Tuition Fees and Living Expenses"
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">{branch.costsNote}</p>
+          <DocParas items={branch.costsLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.costs.map((c) => (
               <div
@@ -510,6 +625,10 @@ const PostgraduateCivilEngineering = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.costsNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -522,19 +641,20 @@ const PostgraduateCivilEngineering = () => {
           />
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
             <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-sm">
+              <DocParas
+                items={branch.scholarshipsLead}
+                className="mb-5 text-slate-600 leading-relaxed space-y-4"
+              />
               <ListCard>
                 {branch.scholarships.map((s) => (
                   <Li key={s} text={s} />
                 ))}
               </ListCard>
             </div>
-            <p className="text-slate-600 leading-relaxed">
-              Funding may depend on academic performance, research interests,
-              project availability and departmental budgets. Graduate
-              assistantships can offset tuition and living costs — Edu Hawk
-              Worldwide helps you map realistic funding options for your
-              profile and verify eligibility and deadlines.
-            </p>
+            <DocParas
+              items={branch.scholarshipsNote}
+              className="text-slate-600 leading-relaxed space-y-4"
+            />
           </div>
         </div>
       </section>
@@ -546,9 +666,8 @@ const PostgraduateCivilEngineering = () => {
             eyebrow="After graduation"
             title={`Career Opportunities After ${branch.name}`}
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">
-            {branch.careerIntro}
-          </p>
+          <DocParas items={branch.careerIntro ? [branch.careerIntro] : []} />
+          <DocParas items={branch.careerLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.careers.map((c) => (
               <div
@@ -559,6 +678,10 @@ const PostgraduateCivilEngineering = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.careerNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -569,7 +692,7 @@ const PostgraduateCivilEngineering = () => {
             eyebrow="Step by step"
             title="Visa & Application Process for Indian Students"
           />
-
+          <DocParas items={branch.visaLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {branch.visaSteps.map((s, i) => (
               <div
@@ -582,7 +705,6 @@ const PostgraduateCivilEngineering = () => {
                 {/* Animated Number Circle */}
                 <div className="mb-5 relative w-fit">
                   <div className="visa-number-circle relative flex items-center justify-center w-14 h-14 rounded-full border-2 border-orange-500 bg-orange-50 transition-all duration-500 group-hover:bg-gradient-to-br group-hover:from-orange-500 group-hover:to-orange-600 group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-lg group-hover:shadow-orange-200">
-
                     <span className="text-xl font-bold text-orange-500 transition-colors duration-500 group-hover:text-white">
                       {String(i + 1).padStart(2, "0")}
                     </span>
@@ -603,9 +725,10 @@ const PostgraduateCivilEngineering = () => {
             ))}
           </div>
 
-          <p className="mt-7 text-sm text-slate-500 max-w-3xl">
-            {branch.visaNote}
-          </p>
+          <DocParas
+            items={branch.visaNote}
+            className="mt-7 text-sm text-slate-500 max-w-3xl space-y-4"
+          />
         </div>
       </section>
 

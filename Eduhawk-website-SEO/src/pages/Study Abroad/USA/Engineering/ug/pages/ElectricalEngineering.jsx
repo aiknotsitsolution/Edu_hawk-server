@@ -9,22 +9,33 @@ import ucbImg from "../../../../../../Images/Abroad/USA/Engineering_UG/Electrica
 const branch = {
   name: "Electrical Engineering",
   slug: "electrical-engineering",
-  title: "Electrical Engineering in USA for Indian Students | UG 2026 | Edu Hawk",
+  title:
+    "Electrical Engineering in USA for Indian Students | UG 2026 | Edu Hawk",
   description:
     "Study Bachelor's in Electrical Engineering in the USA after Class 12. Eligibility, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Electrical Engineering in USA for Indian Students, Best Electrical Engineering Universities in USA, Bachelor's in Electrical Engineering in USA, Study Electrical Engineering in USA After 12th, Electrical Engineering Courses in USA, Electrical Engineering Admission Requirements in USA, Electrical Engineering Tuition Fees in USA, Electrical Engineering Scholarships for Indian Students, Top Electrical Engineering Colleges in America, Electrical Engineering Eligibility for Indian Students, SAT Requirements for Electrical Engineering in USA, English Language Tests for US Universities, Career Opportunities After Electrical Engineering, Power Systems and Renewable Energy Engineering in USA, USA Student Visa for Electrical Engineering Students",
   heroIntro:
-    "The United States offers undergraduate Electrical Engineering programs that combine theory, lab work and modern engineering practice. Students after Class 12 can learn to design and test electrical systems used in power generation, communications, industrial control and renewable energy.",
+    "The United States provides undergraduate Electrical Engineering curricula that integrate theoretical scientific principles, hands-on laboratory instruction, and contemporary engineering methodologies. Students acquire competencies in designing, developing, evaluating, and operating electrical and electronic apparatus employed in electricity generation, communication networks, industrial control, sustainable energy systems, and cutting-edge technological innovations.",
   heroSub:
     "Edu Hawk Worldwide helps you shortlist universities, understand admission requirements and plan your complete study-abroad journey.",
+
+  whyLead: ["Principal advantages encompass:"],
   whyPoints: [
-    "Access to state-of-the-art electrical engineering laboratories and research infrastructure.",
-    "Practical skills developed through circuit design, experiments and capstone engineering projects.",
-    "Exposure to renewable energy technologies, smart grids and power infrastructure.",
-    "Opportunities to explore automation, industrial control and robotics systems.",
-    "Learning across electronics, communication systems and signal processing.",
-    "Career options in energy, manufacturing, technology companies and infrastructure.",
+    "Access to state-of-the-art electrical engineering laboratories and investigative infrastructure.",
+    "Practical competency development through circuit design, empirical investigations, and capstone engineering initiatives.",
+    "Familiarity with sustainable energy technologies, intelligent electrical grids, and electrical power infrastructure.",
+    "Prospects to investigate autonomous systems, industrial automation, and regulatory mechanisms.",
+    "Educational exposure to electronic components, communication systems, and signal analysis.",
+    "Diverse professional trajectories within energy sectors, industrial production, technological enterprises, and foundational infrastructure development.",
+  ],
+  whyNote: [
+    "Edu Hawk worldwide assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey..",
+  ],
+
+  coursesLead: [
+    "International students from India may investigate multiple undergraduate degree pathways within electrical engineering disciplines.",
+    "Prevalent degree classifications include:",
   ],
   courses: [
     "Bachelor of Science in Electrical Engineering",
@@ -32,48 +43,109 @@ const branch = {
     "Bachelor of Science in Electrical and Computer Engineering",
     "Bachelor of Science in Electrical Engineering Technology",
     "Bachelor of Science in Electrical and Electronic Engineering",
+    "Program nomenclature, instructional content, and specialized concentrations differ across academic institutions. Prospective applicants must verify the precise program specifications prior to submission.",
   ],
-  duration:
-    "An undergraduate Electrical Engineering degree in the USA typically takes four years. The curriculum covers mathematics, physics, circuit theory, electronics, electrical machines, electromagnetics, control systems, signal processing and power systems, along with lab work, design projects and internships.",
+  coursesNote: [],
+
+  duration: [
+    "An undergraduate Electrical Engineering degree within the United States customarily necessitates four years for completion.",
+    "The instructional framework ordinarily encompasses mathematical sciences, natural philosophy, circuit theory, semiconductor electronics, electrical apparatus, electromagnetic phenomena, automated regulation systems, frequency-domain analysis, and electrical power infrastructure.",
+    "Students may additionally participate in experimental laboratory work, technological design undertakings, scholarly investigations, professional internship experiences, or alternating work-study educational arrangements.",
+    "With Edu Hawk worldwide, university selection guidance, students can compare suitable institutions based on academic background, budget, preferred location, and long-term professional goals.",
+  ],
+
+  eligibilityLead: [
+    "Indian applicants are typically expected to satisfy the subsequent prerequisites:",
+  ],
   eligibility: [
-    "Pass Class 12 from a recognised board.",
-    "Strength in Mathematics and Physics, plus other subjects required by the university.",
-    "Academic performance meeting the university's admission standards.",
-    "English language proficiency, where applicable.",
-    "SAT or ACT scores if required by the university.",
-    "Official academic records and supporting documents for the application.",
+    "Successful completion of Class 12 examinations administered by an accredited educational institution.",
+    "Proficiency in mathematics and physics, supplemented by any additional disciplinary areas mandated by the prospective university.",
+    "Academic performance that aligns with the institution's established admission benchmarks.",
+    "Demonstrated competency in the English language where applicable.",
+    "Standardized examination scores from the SAT or ACT, contingent upon institutional requirements.",
+    "Official academic records and ancillary documentation required for the application process.",
+  ],
+
+  englishLead: [
+    "International applicants may be obligated to substantiate English language competency through an officially recognized assessment instrument.",
+    "Widely acknowledged proficiency examinations encompass:",
   ],
   englishTests: [
     "IELTS Academic",
     "TOEFL iBT",
     "PTE Academic",
-    "Duolingo English Test",
+    "Duolingo English Test, where recognized by the institution",
   ],
-  testsNote:
-    "SAT and ACT requirements vary across universities and admission cycles — some schools are test-optional, others require scores. There is no single entrance exam mandatory for all US universities for undergraduate Electrical Engineering; always check the latest testing policies, deadlines and program requirements of your chosen institutions.",
+  englishNote: [
+    "Minimum score thresholds are institution-specific and subject to variation. Certain universities may exempt this requirement under designated circumstances.",
+  ],
+
+  testsNote: [
+    "SAT and ACT score requirements demonstrate considerable variation across universities and admission cycles. While some universities have test-optional admissions policies, others need test results.",
+    "No universally mandated entrance examination exists across all United States universities for undergraduate Electrical Engineering programs. Applicants must ascertain current institutional testing protocols, submission deadlines, and discipline-specific program requirements.",
+  ],
+
+  costsLead: [
+    "The aggregate expenditure for pursuing an undergraduate degree in Electrical Engineering within the United States is contingent upon institutional selection, geographic location, and residential arrangements.",
+    "Primary cost components encompass:",
+  ],
   costs: [
-    "University tuition and academic fees",
-    "Accommodation and meals",
-    "Health insurance",
-    "Books, lab supplies and equipment",
-    "Local transport and personal expenses",
-    "Visa fees, travel and relocation costs",
+    "Tuition and institutional fees.",
+    "Residential accommodations and dining services.",
+    "Medical insurance coverage.",
+    "Academic materials, laboratory supplies, and specialized equipment.",
+    "Transportation and miscellaneous personal expenditures.",
+    "Immigration documentation, airfare, and relocation expenses.",
   ],
-  costsNote:
-    "Total cost depends on the university, its location and your housing choice. Evaluate the full annual cost of attendance rather than tuition alone, and verify current figures on official university websites.",
+  costsNote: [
+    "Prospective students should conduct a comprehensive evaluation of the total annual cost of attendance rather than examining tuition fees in isolation. Contemporary expense figures should be verified through institutional websites.",
+  ],
+
+  scholarshipsLead: [
+    "Numerous American universities extend scholarship opportunities and financial support mechanisms to qualified international undergraduate applicants.",
+  ],
   scholarships: [
-    "Merit-based scholarships",
-    "International student scholarships",
-    "University tuition waivers",
-    "Need-based financial aid for international students",
-    "External funding from qualifying organisations",
+    "Available financial resources encompass:",
+    "Academic merit-based scholarships.",
+    "International student funding programs.",
+    "Institution-specific tuition waivers.",
+    "International students are eligible for financial aid based on proven need.",
+    "External funding from qualifying entities.",
+  ],
+  scholarshipsNote: [
+    "Applicants must thoroughly examine eligibility requirements, application deadlines, award magnitudes, and renewal stipulations. Scholarship awards remain highly competitive and are not assured.",
+  ],
+
+  universitiesLead: [
+    "The subsequent universities merit investigation for undergraduate Electrical Engineering curricula or allied disciplines:",
   ],
   universities: [
-    { name: "Massachusetts Institute of Technology", location: "Cambridge, Massachusetts" , img: mitImg },
-    { name: "Stanford University", location: "Stanford, California" , img: stanfordImg },
-    { name: "University of California, Berkeley", location: "Berkeley, California" , img: ucbImg },
-    { name: "Georgia Institute of Technology", location: "Atlanta, Georgia" , img: gatechImg },
+    {
+      name: "Massachusetts Institute of Technology",
+      location: "Cambridge, Massachusetts",
+      img: mitImg,
+    },
+    {
+      name: "Stanford University",
+      location: "Stanford, California",
+      img: stanfordImg,
+    },
+    {
+      name: "University of California, Berkeley",
+      location: "Berkeley, California",
+      img: ucbImg,
+    },
+    {
+      name: "Georgia Institute of Technology",
+      location: "Atlanta, Georgia",
+      img: gatechImg,
+    },
   ],
+  universitiesNote: [],
+
+  careerIntro:
+    "Program completers may pursue entry-level positions within electrical infrastructure, electronic systems, energy sectors, industrial automation, and engineering development domains.",
+  careerLead: ["Prospective occupational positions include:"],
   careers: [
     "Electrical Design Engineer",
     "Electrical Systems Engineer",
@@ -85,45 +157,50 @@ const branch = {
     "Telecommunications Engineer",
     "Electrical Testing Engineer",
   ],
-  careerIntro:
-    "Graduates can pursue entry-level roles across power systems, electronics, energy, industrial automation and engineering development.",
-  visaSteps: [
-    "Research universities offering undergraduate Electrical Engineering programs.",
-    "Check academic prerequisites and required Class 12 subjects.",
-    "Review standardised test and English language requirements.",
-    "Prepare transcripts, test scores and supporting documents.",
-    "Submit applications before university deadlines.",
-    "Compare admission offers and costs.",
-    "Complete the university's enrolment steps and receive your student documentation.",
-    "Pay the SEVIS fee, complete the visa application and attend the interview where applicable.",
-    "Arrange travel, housing and health insurance after approval.",
+  careerNote: [],
+
+  visaLead: [
+    "Indian students who have been admitted to an accredited US institution are typically required to navigate the student visa application process.",
+    "The standard procedural steps encompass:",
   ],
-  visaNote:
-    "Visa approval is not guaranteed and depends on individual circumstances. Always follow current US government and university guidance.",
+  visaSteps: [
+    "Investigate universities that provide undergraduate programs in Electrical Engineering.",
+    "Verify academic prerequisites and mandatory Class 12 subject requirements.",
+    "Examine the requirements for standardized tests and English language proficiency..",
+    "Assemble transcripts, examination scores, and ancillary documentation.",
+    "File applications in accordance with specified submission deadlines.",
+    "Evaluate admission decisions and associated financial obligations.",
+    "Secure the requisite student documentation from the respective institution.",
+    "Remit the applicable SEVIS fee and finalize the visa application materials.",
+    "Participate in the visa interview process, when applicable, and make travel arrangements following authorization.",
+    "Student visa approval remains contingent and is not assured. Students must adhere to prevailing US government directives and institutional guidance from their university.",
+  ],
+  visaNote: [],
+
   faqs: [
     {
-      q: "Can Indian students study Electrical Engineering in the USA after Class 12?",
-      a: "Yes. Students can apply after Class 12 if they meet the university's academic, subject and English language requirements.",
+      q: "Are Indian students eligible to pursue undergraduate Electrical Engineering studies in the United States following Class 12 completion?",
+      a: "Yes, Students may submit applications upon Class 12 completion, provided they satisfy the institution's academic, curricular, and English language prerequisites.",
     },
     {
-      q: "How long does an undergraduate Electrical Engineering degree take in the USA?",
-      a: "Most undergraduate Electrical Engineering programs take about four years to complete.",
+      q: "What is the typical duration of an undergraduate Electrical Engineering degree program in the United States?",
+      a: "The majority of undergraduate Electrical Engineering curricula require approximately four years for completion.",
     },
     {
-      q: "Which subjects are most important for Electrical Engineering?",
-      a: "Mathematics and physics are the core foundations. Computer science and chemistry can add value depending on the program.",
+      q: "Which academic disciplines are fundamental to Electrical Engineering studies?",
+      a: "Mathematics and physics constitute essential foundational subjects. Computer science and chemistry may provide supplementary value, contingent upon program specifications.",
     },
     {
-      q: "Is the SAT compulsory for admission?",
-      a: "No. SAT requirements depend on the university and admission cycle — some schools follow test-optional policies.",
+      q: "Is the SAT examination mandatory for admission to Electrical Engineering programs?",
+      a: "No,SAT requirements are institution-specific and contingent upon the admission cycle. Certain universities implement test-optional admission policies.",
     },
     {
-      q: "Are scholarships available for Indian undergraduate students?",
-      a: "Yes. Many universities offer merit-based scholarships and other financial support to eligible international students, but availability and amounts vary widely.",
+      q: "Do scholarships exist for Indian undergraduate international students?",
+      a: "Yes, Numerous universities extend merit-based scholarships and supplementary financial support to qualified international applicants. Award availability and monetary amounts demonstrate considerable variation",
     },
     {
-      q: "How can Edu Hawk Worldwide help me study Electrical Engineering abroad?",
-      a: "Edu Hawk Worldwide helps students explore suitable universities, understand admission requirements, organise application documents and plan their study-abroad journey. Students should verify academic, financial, immigration and licensing requirements with the relevant official authorities.",
+      q: "How can Edu Hawk worldwide help me study Electrical Engineering abroad?",
+      a: "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities.",
     },
   ],
 };
@@ -137,9 +214,19 @@ const SectionHeading = ({ eyebrow, title }) => (
   </div>
 );
 
-const ListCard = ({ children }) => (
-  <ul className="space-y-3">{children}</ul>
-);
+const ListCard = ({ children }) => <ul className="space-y-3">{children}</ul>;
+
+const DocParas = ({
+  items,
+  className = "max-w-3xl mb-6 text-slate-600 leading-relaxed space-y-4",
+}) =>
+  items && items.length ? (
+    <div className={className}>
+      {items.map((p, i) => (
+        <p key={i}>{p}</p>
+      ))}
+    </div>
+  ) : null;
 
 const Li = ({ text }) => (
   <li className="flex items-start gap-3">
@@ -332,11 +419,16 @@ const ElectricalEngineeringUG = () => {
             eyebrow="Why the USA"
             title={`Why Study ${branch.name} in the USA?`}
           />
+          <DocParas items={branch.whyLead} />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-4">
             {branch.whyPoints.map((p) => (
               <Li key={p} text={p} />
             ))}
           </div>
+          <DocParas
+            items={branch.whyNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -347,11 +439,7 @@ const ElectricalEngineeringUG = () => {
             eyebrow="Programs"
             title={`${branch.name} Courses in the USA`}
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">
-            Undergraduate students can pursue programs covering power systems,
-            electronics, control systems and communication technologies. Common
-            degree pathways include:
-          </p>
+          <DocParas items={branch.coursesLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.courses.map((c) => (
               <div
@@ -362,6 +450,10 @@ const ElectricalEngineeringUG = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.coursesNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -375,10 +467,10 @@ const ElectricalEngineeringUG = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">
               Top Universities for {branch.name} in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-2xl">
-              Compare universities on academics, cost, facilities and
-              international admission policies before shortlisting.
-            </p>
+            <DocParas
+              items={branch.universitiesLead}
+              className="text-slate-500 text-[15px] leading-relaxed max-w-2xl space-y-3"
+            />
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {branch.universities.map((u) => (
@@ -411,6 +503,10 @@ const ElectricalEngineeringUG = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.universitiesNote}
+            className="mt-6 max-w-3xl text-slate-500 text-[15px] leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -419,7 +515,10 @@ const ElectricalEngineeringUG = () => {
         <div className="max-w-6xl mx-auto px-6">
           <SectionHeading eyebrow="How long" title="Program Duration" />
           <div className="bg-blue-50/60 border border-blue-100 rounded-2xl p-6 sm:p-8 max-w-3xl">
-            <p className="text-slate-700 leading-relaxed">{branch.duration}</p>
+            <DocParas
+              items={branch.duration}
+              className="text-slate-700 leading-relaxed space-y-4"
+            />
           </div>
         </div>
       </section>
@@ -432,6 +531,10 @@ const ElectricalEngineeringUG = () => {
             title="Eligibility Requirements for Indian Students"
           />
           <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 max-w-3xl shadow-sm">
+            <DocParas
+              items={branch.eligibilityLead}
+              className="mb-5 text-slate-600 leading-relaxed space-y-4"
+            />
             <ListCard>
               {branch.eligibility.map((e) => (
                 <Li key={e} text={e} />
@@ -449,12 +552,10 @@ const ElectricalEngineeringUG = () => {
               eyebrow="English proficiency"
               title="English Language Requirements"
             />
-            <p className="text-slate-600 mb-5">
-              International applicants may need to prove English competency
-              through a recognised test. Minimum scores differ by university,
-              and some universities may waive the requirement for students
-              educated in English-medium schools.
-            </p>
+            <DocParas
+              items={branch.englishLead}
+              className="mb-5 text-slate-600 leading-relaxed space-y-3"
+            />
             <div className="flex flex-wrap gap-3">
               {branch.englishTests.map((t) => (
                 <span
@@ -465,15 +566,17 @@ const ElectricalEngineeringUG = () => {
                 </span>
               ))}
             </div>
+            <DocParas
+              items={branch.englishNote}
+              className="mt-5 text-slate-600 leading-relaxed space-y-4"
+            />
           </div>
           <div>
             <SectionHeading
               eyebrow="Standardised tests"
               title="SAT & Other Admission Tests"
             />
-            <p className="text-slate-600 leading-relaxed">
-              {branch.testsNote}
-            </p>
+            <DocParas items={branch.testsNote} />
           </div>
         </div>
       </section>
@@ -485,7 +588,7 @@ const ElectricalEngineeringUG = () => {
             eyebrow="Budget"
             title="Tuition Fees and Living Expenses"
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">{branch.costsNote}</p>
+          <DocParas items={branch.costsLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.costs.map((c) => (
               <div
@@ -496,6 +599,10 @@ const ElectricalEngineeringUG = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.costsNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -508,19 +615,20 @@ const ElectricalEngineeringUG = () => {
           />
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
             <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-sm">
+              <DocParas
+                items={branch.scholarshipsLead}
+                className="mb-5 text-slate-600 leading-relaxed space-y-4"
+              />
               <ListCard>
                 {branch.scholarships.map((s) => (
                   <Li key={s} text={s} />
                 ))}
               </ListCard>
             </div>
-            <p className="text-slate-600 leading-relaxed">
-              International students may qualify for merit-based scholarships,
-              university grants and other institutional awards. Availability
-              and scope vary across universities and programs — Edu Hawk
-              Worldwide helps you map realistic funding options for your
-              profile and budget.
-            </p>
+            <DocParas
+              items={branch.scholarshipsNote}
+              className="text-slate-600 leading-relaxed space-y-4"
+            />
           </div>
         </div>
       </section>
@@ -532,9 +640,8 @@ const ElectricalEngineeringUG = () => {
             eyebrow="After graduation"
             title={`Career Opportunities After ${branch.name}`}
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">
-            {branch.careerIntro}
-          </p>
+          <DocParas items={branch.careerIntro ? [branch.careerIntro] : []} />
+          <DocParas items={branch.careerLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.careers.map((c) => (
               <div
@@ -545,6 +652,10 @@ const ElectricalEngineeringUG = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.careerNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -555,7 +666,7 @@ const ElectricalEngineeringUG = () => {
             eyebrow="Step by step"
             title="Visa & Application Process for Indian Students"
           />
-
+          <DocParas items={branch.visaLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {branch.visaSteps.map((s, i) => (
               <div
@@ -568,7 +679,6 @@ const ElectricalEngineeringUG = () => {
                 {/* Animated Number Circle */}
                 <div className="mb-5 relative w-fit">
                   <div className="visa-number-circle relative flex items-center justify-center w-14 h-14 rounded-full border-2 border-orange-500 bg-orange-50 transition-all duration-500 group-hover:bg-gradient-to-br group-hover:from-orange-500 group-hover:to-orange-600 group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-lg group-hover:shadow-orange-200">
-
                     <span className="text-xl font-bold text-orange-500 transition-colors duration-500 group-hover:text-white">
                       {String(i + 1).padStart(2, "0")}
                     </span>
@@ -589,9 +699,10 @@ const ElectricalEngineeringUG = () => {
             ))}
           </div>
 
-          <p className="mt-7 text-sm text-slate-500 max-w-3xl">
-            {branch.visaNote}
-          </p>
+          <DocParas
+            items={branch.visaNote}
+            className="mt-7 text-sm text-slate-500 max-w-3xl space-y-4"
+          />
         </div>
       </section>
 

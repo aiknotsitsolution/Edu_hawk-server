@@ -9,22 +9,33 @@ import ucbImg from "../../../../../../Images/Abroad/USA/Engineering_PG/Mechanica
 const branch = {
   name: "Mechanical Engineering",
   slug: "mechanical-engineering",
-  title: "MS in Mechanical Engineering in USA for Indian Students | PG 2026 | Edu Hawk",
+  title:
+    "MS in Mechanical Engineering in USA for Indian Students | PG 2026 | Edu Hawk",
   description:
     "Study Master's in Mechanical Engineering in the USA. Eligibility, GRE and English requirements, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Postgraduate Mechanical Engineering in USA, Top Master's in Mechanical Engineering Universities in USA, MS in Mechanical Engineering in USA, Master's in Mechanical Engineering in USA, Postgraduate Mechanical Engineering Courses in USA, Mechanical Engineering Admission Requirements for Master's in USA, MS in Mechanical Engineering Tuition Fees in USA, Mechanical Engineering Scholarships for Indian Students, Top Graduate Mechanical Engineering Colleges in America, Mechanical Engineering Eligibility for Indian Students, GRE Requirements for MS in Mechanical Engineering in USA, English Language Tests for US Universities, Career Opportunities After MS in Mechanical Engineering",
   heroIntro:
-    "The United States is a leading destination for postgraduate Mechanical Engineering, combining state-of-the-art engineering laboratories, strong research infrastructure and established partnerships across manufacturing, automotive, aerospace, energy and robotics. Indian students can pursue an MS or MEng degree that builds specialised technical expertise through advanced coursework, research and hands-on laboratory training.",
+    "The United States represents a highly sought-after destination for Studying  postgraduate in Mechanical Engineering, distinguished by its state-of-the-art engineering laboratories, comprehensive research infrastructure, and established partnerships with prominent sectors including manufacturing, automotive, aerospace, energy, and robotics. Indian students can cultivate specialized technical expertise and hands-on competencies through structured coursework, investigative research initiatives, and experiential laboratory-based instruction.",
   heroSub:
     "Edu Hawk Worldwide helps you shortlist universities, understand admission requirements and plan your complete study-abroad journey.",
+
+  whyLead: ["Primary advantages encompass:"],
   whyPoints: [
     "Access to cutting-edge engineering laboratories and research infrastructure.",
-    "Opportunities for further specialisation in automation, robotics and intelligent manufacturing systems.",
-    "Specialised concentrations in automotive, aerospace, thermal and mechanical design engineering.",
-    "Familiarity with computer-aided design, computational simulation and product development methodologies.",
-    "Research engagement in sustainable energy systems and advanced materials science.",
-    "Career advancement pathways across manufacturing, automotive, aerospace, energy and industrial technology sectors.",
+    "Possibilities for further education in automation, robotics, and intelligent manufacturing systems .",
+    "Specialized concentrations in automotive, aerospace, thermal, and mechanical design engineering disciplines.",
+    "Familiarity with computer-aided design technologies, computational simulation, and product development methodologies.",
+    "Research engagement in sustainable energy systems and advanced material science.",
+    "Career advancement pathways across manufacturing, automotive, aerospace, energy, and industrial technology sectors.",
+  ],
+  whyNote: [
+    "Edu Hawk worldwide assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey..",
+  ],
+
+  coursesLead: [
+    "Indian students may select from multiple master's degree programs contingent upon their educational background and career aspirations.",
+    "Prevalent degree options include:",
   ],
   courses: [
     "Master of Science in Mechanical Engineering",
@@ -33,20 +44,42 @@ const branch = {
     "Master of Science in Automotive Engineering, where offered",
     "Master of Science in Manufacturing Engineering",
     "Master of Science in Robotics or Mechatronics, where offered",
+    "Thermal and Fluid Scienable Energy",
+    "Machine Design and Solid Mechanics",
+    "Robotics and Automation",
+    "Advanced Manufacturing",
+    "Computational Mechanics",
+    "Materials Science and Engineering",
+    "Energy SystemsAutomotive and Aerospace Engineering",
   ],
-  duration:
-    "Postgraduate Mechanical Engineering programs in the USA typically take one to two years to complete. Program length varies with institutional requirements, credit-hour specifications, the choice between thesis and non-thesis tracks, and whether students take part in supplementary research or project-based work. The curriculum commonly covers advanced mechanics, thermodynamics and fluid dynamics, alongside specialisations such as machine design, robotics, advanced manufacturing, computational mechanics, materials science and energy systems.",
+  coursesNote: [
+    "Frequent areas of specialization include:",
+    "Through Edu Hawk worldwide study abroad guidance, students can explore these opportunities and understand the requirements involved in pursuing Mechanical Engineering education overseas.",
+  ],
+
+  duration: [
+    "Postgraduate Mechanical Engineering curricula in the United States typically require one to two years for completion.",
+  ],
+
+  eligibilityLead: [
+    "Indian applicants are typically required to fulfill the following criteria:",
+  ],
   eligibility: [
-    "A relevant bachelor's degree in Mechanical Engineering or an allied engineering field.",
+    "A pertinent bachelor's degree in Mechanical Engineering or an allied engineering field.",
     "Official academic transcripts and degree certificates.",
-    "Minimum academic performance standards set by the university.",
-    "English language proficiency, as required by the program.",
-    "GRE scores, depending on program requirements.",
-    "A well-developed Statement of Purpose.",
-    "Recommendation letters from academic or professional referees.",
-    "A detailed resume or curriculum vitae.",
-    "Demonstrated involvement in academic projects, research, internships or professional work, where applicable.",
-    "Some universities consider applicants from related engineering disciplines if they have completed the required mathematics and core engineering coursework.",
+    "Minimum scholastic achievement thresholds established by the institution.",
+    "English-language competency, as mandated by the program.",
+    "Graduate Record Examination (GRE) scores, contingent upon program requirements.",
+    "A comprehensive Statement of Purpose.",
+    "Testimonial letters from academic or professional referees.",
+    "A detailed Resume or Curriculum Vitae.",
+    "Proven involvement in academic projects, research, internships, or professional activities, as applicable",
+    "Certain institutions may evaluate candidates from allied engineering disciplines provided they have successfully completed requisite coursework in mathematics and engineering fundamentals.",
+  ],
+
+  englishLead: [
+    "International applicants must substantiate English language competency through an accredited standardized examination.",
+    "Widely recognized assessments encompass:",
   ],
   englishTests: [
     "IELTS Academic",
@@ -54,32 +87,80 @@ const branch = {
     "PTE Academic",
     "Duolingo English Test, where applicable",
   ],
-  testsNote:
-    "GRE requirements depend on the university and the specific Mechanical Engineering program — some universities require the GRE, while others list it as optional or do not consider it at all. Applicants should also check prerequisite coursework in engineering mathematics, mechanics, thermodynamics, fluid mechanics, materials science and mechanical design. A strong application typically includes academic achievements, technical projects, internships, research experience, reference letters and a clear Statement of Purpose.",
-  costs: [
-    "University tuition and institutional fees",
-    "Accommodation and meals",
-    "Health insurance",
-    "Textbooks, software and laboratory materials",
-    "Local transport and personal expenses",
-    "Immigration documentation, travel and relocation costs",
+  englishNote: [
+    "Minimum score thresholds and exemption criteria vary considerably across institutions. Prospective applicants should ascertain the current specifications for their intended program.",
   ],
-  costsNote:
-    "Total cost varies significantly with the university, program length, location and available funding. Estimate the full cost of your entire degree program and compare institutions using official tuition schedules and documented living expense figures. Graduate assistantships and merit-based scholarships can substantially reduce costs for eligible students.",
+
+  testsNote: [
+    "GRE requirements are contingent upon the institution and the particular Mechanical Engineering program under consideration. Certain universities mandate the GRE, whereas others designate it as optional or do not incorporate it into their evaluation process.",
+    "Applicants must examine prerequisite competencies in disciplines including engineering mathematics, mechanics, thermodynamics, fluid mechanics, materials science, and mechanical design.",
+    "A competitive application portfolio typically encompasses academic distinctions, technical project contributions, internship participation, scholarly research involvement, endorsement letters from qualified referees, and a well-articulated Statement of Purpose delineating the applicant's scholarly objectives and professional aspirations.",
+  ],
+
+  costsLead: [
+    "The aggregate expenditure for postgraduate Mechanical Engineering programs within the United States demonstrates considerable variation contingent upon institutional selection, program duration, geographic location, and the availability of financial support mechanisms.",
+    "Primary financial obligations encompass:",
+  ],
+  costs: [
+    "Tuition and institutional fees.",
+    "Residential accommodation and meal provisions.",
+    "Medical insurance coverage.",
+    "Academic materials including textbooks, computational software, and laboratory-related expenses.",
+    "Local transit and miscellaneous personal expenditures.",
+    "Immigration documentation, transportation, and relocation expenses.",
+  ],
+  costsNote: [
+    "Prospective students are advised to project the comprehensive financial requirements for their entire degree program and conduct comparative analyses across institutions utilizing official tuition schedules and documented living expense projections. Graduate assistantships and merit-based scholarships may substantially diminish the financial obligations for qualified applicants.",
+  ],
+
+  scholarshipsLead: [
+    "Qualified international students may investigate diverse funding mechanisms available for postgraduate Mechanical Engineering studies.",
+    "Available funding categories include:",
+  ],
   scholarships: [
-    "Merit-based scholarships",
+    "Academic merit-based scholarships.",
     "Departmental scholarships",
-    "Graduate research assistantships",
-    "Graduate teaching assistantships",
-    "Tuition remission programs linked to qualifying assistantships",
-    "International scholarships administered by recognised institutions",
+    "Graduate research assistantships.",
+    "Graduate instructional assistantships.",
+    "Tuition remission programs associated with qualifying assistantships.",
+    "International scholarships administered by recognized institutions.",
+  ],
+  scholarshipsNote: [
+    "Financial support availability is determined by academic achievement, scholarly research focus, departmental resource allocation, and institutional regulations. Applicants should ascertain eligibility criteria for international candidates and clarify whether funding encompasses tuition, living expenses, or comprehensive coverage.",
+  ],
+
+  universitiesLead: [
+    "The subsequent universities merit thorough examination for postgraduate Mechanical Engineering and allied academic programs:",
   ],
   universities: [
-    { name: "Massachusetts Institute of Technology", location: "Cambridge, Massachusetts" , img: mitImg },
-    { name: "Stanford University", location: "Stanford, California" , img: stanfordImg },
-    { name: "University of California, Berkeley", location: "Berkeley, California" , img: ucbImg },
-    { name: "Georgia Institute of Technology", location: "Atlanta, Georgia" , img: gatechImg },
+    {
+      name: "Massachusetts Institute of Technology",
+      location: "Cambridge, Massachusetts",
+      img: mitImg,
+    },
+    {
+      name: "Stanford University",
+      location: "Stanford, California",
+      img: stanfordImg,
+    },
+    {
+      name: "University of California, Berkeley",
+      location: "Berkeley, California",
+      img: ucbImg,
+    },
+    {
+      name: "Georgia Institute of Technology",
+      location: "Atlanta, Georgia",
+      img: gatechImg,
+    },
   ],
+  universitiesNote: [
+    "Each university offers its own curriculum, research areas, and admission criteria. Students should verify the exact degree title, specialisations, tuition fees, and application deadlines on official university websites.",
+  ],
+
+  careerIntro:
+    "A postgraduate degree facilitates the acquisition of sophisticated technical expertise requisite for professional positions within engineering design, manufacturing, research, automation, and energy systems sectors.",
+  careerLead: ["Prospective career trajectories encompass:"],
   careers: [
     "Mechanical Design Engineer",
     "Product Development Engineer",
@@ -93,29 +174,36 @@ const branch = {
     "Research and Development Engineer",
     "Energy Systems Engineer",
     "Project Engineer",
+    "Career advancement prospects are contingent upon technical competencies, hands-on experience, organizational prerequisites, and pertinent employment authorization status.",
   ],
-  careerIntro:
-    "A postgraduate degree prepares you for advanced technical roles in engineering design, manufacturing, research, automation and energy systems. Availability and fit depend on your technical skills, hands-on experience, employer requirements and work authorisation.",
+  careerNote: [],
+
+  visaLead: [
+    "Indian nationals admitted to accredited United States institutions typically must navigate the requisite student visa framework.",
+    "Standard procedural components include:",
+  ],
   visaSteps: [
-    "Research universities and compare Mechanical Engineering graduate programs.",
-    "Check academic prerequisites and foundational subject requirements.",
-    "Review English language and GRE requirements for each program.",
-    "Prepare transcripts, Statement of Purpose, references and supporting documents.",
-    "Submit applications before university deadlines.",
-    "Evaluate admission offers, projected costs and funding options.",
-    "Obtain required student documentation from the university.",
-    "Pay the SEVIS fee, complete the visa application, attend the interview where applicable and plan travel after approval.",
+    "Investigate academic institutions and evaluate Mechanical Engineering curricula.",
+    "Verify academic prerequisites and foundational subject requirements.",
+    "Examine English-language proficiency and GRE examination criteria.",
+    "Compile official transcripts, a Statement of Purpose, academic references, and professional documentation.",
+    "Submit completed applications in accordance with institutional deadlines.",
+    "Evaluate admission decisions, projected expenditures, and financial assistance possibilities.",
+    "Procure essential student documentation from the educational institution.",
+    "Remit the mandatory SEVIS fee and finalize visa documentation.",
+    "Participate in the visa interview process, when applicable, and arrange travel logistics following authorization.",
+    "Visa authorization remains uncertain. Applicants must adhere to prevailing United States governmental directives and institutional protocols.",
   ],
-  visaNote:
-    "Visa approval is not guaranteed and depends on individual circumstances. Always follow current US government and university guidance.",
+  visaNote: [],
+
   faqs: [
     {
-      q: "Can Indian students pursue a postgraduate Mechanical Engineering degree in the USA?",
-      a: "Yes. Students with a relevant bachelor's degree and the required academic credentials can apply to suitable postgraduate Mechanical Engineering programs.",
+      q: "Are Indian nationals eligible to pursue postgraduate Mechanical Engineering studies in the United States?",
+      a: "Affirmative. Indian nationals possessing a pertinent bachelor's degree and requisite academic credentials may apply to appropriate postgraduate curricula.",
     },
     {
-      q: "How long does a master's program in Mechanical Engineering take in the USA?",
-      a: "Most programs take about one to two years to complete, depending on the program structure, credit requirements and research components.",
+      q: "What is the typical duration of a master's program in Mechanical Engineering within the United States?",
+      a: "The majority of programs require approximately one to two years for completion, contingent upon programmatic structure, credit hour specifications, and research components.",
     },
     {
       q: "Can students from other engineering branches apply?",
@@ -123,11 +211,11 @@ const branch = {
     },
     {
       q: "Are scholarships available for Indian students?",
-      a: "Yes. Eligible students may explore merit scholarships, research assistantships, teaching assistantships and other funding opportunities. Availability is not guaranteed.",
+      a: "Yes. Eligible students may explore merit scholarships, research assistantships, teaching assistantships, and other funding opportunities. Availability is not guaranteed.",
     },
     {
-      q: "How can Edu Hawk Worldwide help me study Mechanical Engineering abroad?",
-      a: "Edu Hawk Worldwide helps students explore suitable universities, understand admission requirements, organise application documents and plan their study-abroad journey. Students should verify academic, financial, immigration and licensing requirements with the relevant official authorities.",
+      q: "How can Edu Hawk worldwide help me study abroad?",
+      a: "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities. KEYWORDS - Study Postgraduate Mechanical Engineering in USA Top Master's in Mechanical Engineering Universities in USA MS in Mechanical Engineering in USA Master's in Mechanical Engineering in USA Postgraduate Mechanical Engineering Courses in USA Mechanical Engineering Admission Requirements for Master's in USA MS in Mechanical Engineering Tuition Fees in USA Mechanical Engineering Scholarships for Indian Students Top Graduate Mechanical Engineering Colleges in America Mechanical Engineering Eligibility for Indian Students GRE Requirements for MS in Mechanical Engineering in USA English Language Tests for US Universities Career Opportunities After MS in Mechanical Engineering Postgraduate Civil Engineering in the USA",
     },
   ],
 };
@@ -141,9 +229,19 @@ const SectionHeading = ({ eyebrow, title }) => (
   </div>
 );
 
-const ListCard = ({ children }) => (
-  <ul className="space-y-3">{children}</ul>
-);
+const ListCard = ({ children }) => <ul className="space-y-3">{children}</ul>;
+
+const DocParas = ({
+  items,
+  className = "max-w-3xl mb-6 text-slate-600 leading-relaxed space-y-4",
+}) =>
+  items && items.length ? (
+    <div className={className}>
+      {items.map((p, i) => (
+        <p key={i}>{p}</p>
+      ))}
+    </div>
+  ) : null;
 
 const Li = ({ text }) => (
   <li className="flex items-start gap-3">
@@ -336,11 +434,16 @@ const PostgraduateMechanicalEngineering = () => {
             eyebrow="Why the USA"
             title={`Why Study ${branch.name} in the USA?`}
           />
+          <DocParas items={branch.whyLead} />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-4">
             {branch.whyPoints.map((p) => (
               <Li key={p} text={p} />
             ))}
           </div>
+          <DocParas
+            items={branch.whyNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -351,11 +454,7 @@ const PostgraduateMechanicalEngineering = () => {
             eyebrow="Programs"
             title={`${branch.name} Courses in the USA`}
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">
-            Postgraduate programs focus on advanced mechanics, thermal and
-            fluid sciences, machine design, robotics, advanced manufacturing
-            and energy systems. Common master's degree pathways include:
-          </p>
+          <DocParas items={branch.coursesLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.courses.map((c) => (
               <div
@@ -366,6 +465,10 @@ const PostgraduateMechanicalEngineering = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.coursesNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -379,10 +482,10 @@ const PostgraduateMechanicalEngineering = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">
               Top Universities for {branch.name} in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-2xl">
-              Compare universities on academics, cost, facilities and
-              international admission policies before shortlisting.
-            </p>
+            <DocParas
+              items={branch.universitiesLead}
+              className="text-slate-500 text-[15px] leading-relaxed max-w-2xl space-y-3"
+            />
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {branch.universities.map((u) => (
@@ -415,6 +518,10 @@ const PostgraduateMechanicalEngineering = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.universitiesNote}
+            className="mt-6 max-w-3xl text-slate-500 text-[15px] leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -423,7 +530,10 @@ const PostgraduateMechanicalEngineering = () => {
         <div className="max-w-6xl mx-auto px-6">
           <SectionHeading eyebrow="How long" title="Program Duration" />
           <div className="bg-blue-50/60 border border-blue-100 rounded-2xl p-6 sm:p-8 max-w-3xl">
-            <p className="text-slate-700 leading-relaxed">{branch.duration}</p>
+            <DocParas
+              items={branch.duration}
+              className="text-slate-700 leading-relaxed space-y-4"
+            />
           </div>
         </div>
       </section>
@@ -436,6 +546,10 @@ const PostgraduateMechanicalEngineering = () => {
             title="Eligibility Requirements for Indian Students"
           />
           <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 max-w-3xl shadow-sm">
+            <DocParas
+              items={branch.eligibilityLead}
+              className="mb-5 text-slate-600 leading-relaxed space-y-4"
+            />
             <ListCard>
               {branch.eligibility.map((e) => (
                 <Li key={e} text={e} />
@@ -453,12 +567,10 @@ const PostgraduateMechanicalEngineering = () => {
               eyebrow="English proficiency"
               title="English Language Requirements"
             />
-            <p className="text-slate-600 mb-5">
-              International applicants must prove English competency through a
-              recognised standardised test. Minimum scores and waiver criteria
-              vary considerably across universities, so confirm the current
-              requirements of your intended program before applying.
-            </p>
+            <DocParas
+              items={branch.englishLead}
+              className="mb-5 text-slate-600 leading-relaxed space-y-3"
+            />
             <div className="flex flex-wrap gap-3">
               {branch.englishTests.map((t) => (
                 <span
@@ -469,15 +581,17 @@ const PostgraduateMechanicalEngineering = () => {
                 </span>
               ))}
             </div>
+            <DocParas
+              items={branch.englishNote}
+              className="mt-5 text-slate-600 leading-relaxed space-y-4"
+            />
           </div>
           <div>
             <SectionHeading
               eyebrow="Standardised tests"
               title="GRE & Other Admission Requirements"
             />
-            <p className="text-slate-600 leading-relaxed">
-              {branch.testsNote}
-            </p>
+            <DocParas items={branch.testsNote} />
           </div>
         </div>
       </section>
@@ -489,7 +603,7 @@ const PostgraduateMechanicalEngineering = () => {
             eyebrow="Budget"
             title="Tuition Fees and Living Expenses"
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">{branch.costsNote}</p>
+          <DocParas items={branch.costsLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.costs.map((c) => (
               <div
@@ -500,6 +614,10 @@ const PostgraduateMechanicalEngineering = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.costsNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -512,20 +630,20 @@ const PostgraduateMechanicalEngineering = () => {
           />
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
             <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-sm">
+              <DocParas
+                items={branch.scholarshipsLead}
+                className="mb-5 text-slate-600 leading-relaxed space-y-4"
+              />
               <ListCard>
                 {branch.scholarships.map((s) => (
                   <Li key={s} text={s} />
                 ))}
               </ListCard>
             </div>
-            <p className="text-slate-600 leading-relaxed">
-              Funding availability depends on academic performance, research
-              focus, departmental budgets and university policies. Check
-              eligibility for international candidates and clarify whether
-              support covers tuition, living expenses or full financing — Edu
-              Hawk Worldwide helps you map realistic funding options for your
-              profile and budget.
-            </p>
+            <DocParas
+              items={branch.scholarshipsNote}
+              className="text-slate-600 leading-relaxed space-y-4"
+            />
           </div>
         </div>
       </section>
@@ -537,9 +655,8 @@ const PostgraduateMechanicalEngineering = () => {
             eyebrow="After graduation"
             title={`Career Opportunities After ${branch.name}`}
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">
-            {branch.careerIntro}
-          </p>
+          <DocParas items={branch.careerIntro ? [branch.careerIntro] : []} />
+          <DocParas items={branch.careerLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.careers.map((c) => (
               <div
@@ -550,6 +667,10 @@ const PostgraduateMechanicalEngineering = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.careerNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -560,7 +681,7 @@ const PostgraduateMechanicalEngineering = () => {
             eyebrow="Step by step"
             title="Visa & Application Process for Indian Students"
           />
-
+          <DocParas items={branch.visaLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {branch.visaSteps.map((s, i) => (
               <div
@@ -573,7 +694,6 @@ const PostgraduateMechanicalEngineering = () => {
                 {/* Animated Number Circle */}
                 <div className="mb-5 relative w-fit">
                   <div className="visa-number-circle relative flex items-center justify-center w-14 h-14 rounded-full border-2 border-orange-500 bg-orange-50 transition-all duration-500 group-hover:bg-gradient-to-br group-hover:from-orange-500 group-hover:to-orange-600 group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-lg group-hover:shadow-orange-200">
-
                     <span className="text-xl font-bold text-orange-500 transition-colors duration-500 group-hover:text-white">
                       {String(i + 1).padStart(2, "0")}
                     </span>
@@ -594,9 +714,10 @@ const PostgraduateMechanicalEngineering = () => {
             ))}
           </div>
 
-          <p className="mt-7 text-sm text-slate-500 max-w-3xl">
-            {branch.visaNote}
-          </p>
+          <DocParas
+            items={branch.visaNote}
+            className="mt-7 text-sm text-slate-500 max-w-3xl space-y-4"
+          />
         </div>
       </section>
 

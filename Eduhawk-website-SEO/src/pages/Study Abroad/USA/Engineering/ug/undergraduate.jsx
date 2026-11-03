@@ -82,23 +82,23 @@ const steps = [
 const faqs = [
   {
     q: "Can Indian students study engineering in the US after Class 12?",
-    a: "Yes. Indian students can apply after Class 12 as long as they meet the university's academic rules, subject requirements and English language standards.",
+    a: "Yes they can. Long as they meet the college’s academic rules, subject requirements and English language standards they are eligible to apply.",
   },
   {
     q: "How long does it take to complete an engineering degree in the USA?",
-    a: "Most undergraduate engineering programs take four years of full-time study.",
+    a: "Most programs take four years of full-time study.",
   },
   {
     q: "How much does engineering education in the USA cost?",
-    a: "Tuition usually ranges from USD 25,000 to USD 65,000 or more per year, excluding housing, food and other living costs. Total cost depends on the university, location and program.",
+    a: "Tuition usually ranges from USD 25,000 to USD 65,000 or more each year. This doesn’t include living expenses. Costs depend on the school and the program.",
   },
   {
     q: "Do I need to take the SAT for engineering admission in the USA?",
-    a: "Not always. Some universities require SAT or ACT scores while others are test-optional, and policies can change year to year — check each university's current requirements.",
+    a: "Not always. Some schools require it others don’t. Requirements can change from year to year. It’s best to check with each college.",
   },
   {
     q: "Can Indian engineering students get aid in the USA?",
-    a: "Yes. Many universities offer scholarships or financial aid to international students who qualify, especially based on academic performance.",
+    a: "Yes. Many universities give scholarships or financial help to students who qualify, especially based on academic performance.",
   },
 ];
 
@@ -147,7 +147,7 @@ const UndergraduateEngineeringUG = () => {
         />
         <meta
           name="keywords"
-          content="Undergraduate Engineering in USA for Indian Students, Best Engineering Universities in USA, Bachelor of Engineering in USA, Engineering Courses in USA for Indian Students, Study Engineering in USA After 12th"
+          content="Undergraduate Engineering in USA for Indian Students, Best Engineering Universities in USA, Bachelor of Engineering in USA, Engineering Courses in USA for Indian Students, Study Engineering, in USA After 12th"
         />
         <meta name="robots" content="index, follow" />
         <meta
@@ -333,36 +333,47 @@ const UndergraduateEngineeringUG = () => {
               Overview
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900">
-              Why Study Engineering in the USA?
+              Undergraduate Engineering in USA for Indian Students
             </h2>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             <div className="space-y-5 text-slate-600 leading-relaxed">
               <p>
-                Engineering bachelor's degrees in the USA take four years to
-                complete. Alongside core subjects, students build critical
-                thinking and problem-solving skills, and often do internships,
-                industry projects and research work — gaining real-world
-                experience before graduation.
+                Choosing to study undergraduate engineering in the USA is a step
+                for many Indian students. It opens doors to notch tech tools,
+                modern labs, hands-on learning and real research projects.
+                Across the United States colleges offer engineering programs with
+                many options. Like computer engineering, mechanical engineering,
+                civil engineering, electrical engineering, aerospace engineering,
+                chemical engineering and biomedical engineering.
               </p>
               <p>
-                To get into these programs, students must have passed Class 12
-                with the required subjects (typically Mathematics and Physics)
-                and demonstrate English proficiency through tests such as IELTS,
-                TOEFL, PTE or Duolingo. SAT or ACT scores are required by some
-                colleges and optional at others, so it is important to check
-                each university's rules.
+                Engineering bachelor’s degrees take four years to finish. During
+                those years students learn skills, how to think critically and
+                how to solve tough problems. They also often do internships, work
+                with companies and take part in research projects. This helps
+                them gain real-world experience before they graduate.
               </p>
               <p>
-                Costs vary widely — tuition ranges from about USD 25,000 to USD
-                65,000+ per year, excluding housing, food and living expenses.
-                Many universities offer scholarships and need-based financial
-                aid to strong international applicants.
+                To get into these programs students must have passed Class 12
+                done the required subjects and show they can understand and speak
+                English well.
               </p>
               <p>
-                After graduation, students can work in engineering roles or
-                continue to higher studies. Job opportunities depend on company
-                demand and US visa rules.
+                SAT or ACT results are also required by several colleges.Not all
+                do. It’s important to check each college’s rules.
+              </p>
+              <p>
+                Costs can vary a lot. Tuition can be between USD 25,000 and USD
+                65,000 or more per year. This doesn’t include housing, food and
+                other living costs.. Some schools offer scholarships or financial
+                help for international students, especially those who do well
+                academically.
+              </p>
+              <p>
+                After graduation students can work in engineering fields. Go on
+                to higher studies.. Job opportunities depend on company needs and
+                visa rules in the US.
               </p>
             </div>
             <div className="relative overflow-hidden rounded-2xl shadow-xl aspect-[3/2]">
@@ -469,7 +480,7 @@ const UndergraduateEngineeringUG = () => {
               FAQs
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900">
-              Frequently Asked Questions
+              Frequently Asked Questions (FAQs)
             </h2>
           </div>
           <div className="space-y-3">

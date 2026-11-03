@@ -10,22 +10,33 @@ import pennImg from "../../../../../../Images/Abroad/USA/Engineering_UG/Biomedic
 const branch = {
   name: "Biomedical Engineering",
   slug: "biomedical-engineering",
-  title: "Biomedical Engineering in USA for Indian Students | UG 2026 | Edu Hawk",
+  title:
+    "Biomedical Engineering in USA for Indian Students | UG 2026 | Edu Hawk",
   description:
     "Study Bachelor's in Biomedical Engineering in the USA after Class 12. Eligibility, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Biomedical Engineering in USA for Indian Students, Best Biomedical Engineering Universities in USA, Bachelor's in Biomedical Engineering in USA, Study Biomedical Engineering in USA After 12th, Biomedical Engineering Courses in USA, Biomedical Engineering Admission Requirements in USA, Biomedical Engineering Tuition Fees in USA, Biomedical Engineering Scholarships for Indian Students, Top Biomedical Engineering Colleges in America, Biomedical Engineering Eligibility for Indian Students, SAT Requirements for Biomedical Engineering in USA, English Language Tests for US Universities, Career Opportunities After Biomedical Engineering, Medical Device Engineering Courses in USA, USA Student Visa for Indian Engineering Students",
   heroIntro:
-    "Undergraduate Biomedical Engineering programs in the USA combine engineering, biological sciences, medical practice and technology to tackle modern healthcare challenges. Indian students after Class 12 can pursue a four-year bachelor's degree with hands-on laboratory work, research and multidisciplinary collaboration.",
+    "Study Undergraduate Biomedical Engineering curricula across USA universities synthesize concepts derived from engineering disciplines, biological sciences, medical practice, and technological innovation to develop novel approaches for resolving contemporary healthcare complications and facilitating advancement in medical scientific inquiry. Students develop proficiency in the domains of medical apparatus design, diagnostic instrumentation development, imaging system optimization, and the engineering of sophisticated medical technologies. Opportunities for hands-on laboratory work, rigorous scholarly research, and multidisciplinary collaborative engagement are offered by educational institution",
   heroSub:
     "Edu Hawk Worldwide helps you shortlist universities, understand admission requirements and plan your complete study-abroad journey.",
+
+  whyLead: ["Key benefits include:"],
   whyPoints: [
-    "Access to state-of-the-art biomedical engineering research facilities.",
-    "Opportunities to explore medical devices and advances in healthcare technology.",
-    "Practical training in biomechanics, biomaterials and biomedical measurement systems.",
-    "Exposure to medical imaging technologies and clinical diagnostic procedures.",
-    "Research work on tissue engineering and assistive technology innovation.",
-    "Career pathways in medical device manufacturing, health technology and biomedical research.",
+    "Access to state-of-the-art biomedical engineering research infrastructure and facilities.",
+    "Opportunities to examine medical apparatus and advancements in healthcare technology.",
+    "Practical instruction in biomechanical principles, biomaterial science, and biomedical measurement systems.",
+    "Exposure to medical visualization technologies and clinical diagnostic procedures.",
+    "Participation in investigative work concerning tissue regeneration and assistive technology innovation.",
+    "Career pathways within medical device manufacturing, healthcare technological advancement, and biomedical scientific research.",
+  ],
+  whyNote: [
+    "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey..",
+  ],
+
+  coursesLead: [
+    "International scholars, particularly those originating from India, may enroll in undergraduate curricula that concentrate on the application of engineering methodologies within medical and healthcare domains.",
+    "Prevalent degree programs include:",
   ],
   courses: [
     "Bachelor of Science in Biomedical Engineering",
@@ -34,48 +45,101 @@ const branch = {
     "Bachelor of Science in Biological Engineering",
     "Bachelor of Science in Biomedical Engineering Technology",
   ],
-  duration:
-    "An undergraduate Biomedical Engineering degree in the USA typically takes four years. The curriculum covers mathematics, physics, biology, chemistry, engineering mechanics, biomaterials, biomechanics, biomedical instrumentation, medical imaging and physiological systems. Students also carry out laboratory experiments, research projects, engineering design work and supervised internships.",
+  coursesNote: [
+    "Program designations, instructional content, and specialized emphases demonstrate considerable variation among universities. Prospective applicants should conduct comprehensive evaluation of program curricula to establish congruence between program offerings and their individual scholarly and vocational aspirations.",
+  ],
+
+  duration: [
+    "An undergraduate Biomedical Engineering degree in the United States ordinarily necessitates a four-year period of study for successful completion.",
+    "The academic program typically incorporates coursework in mathematics, physics, biology, chemistry, engineering mechanics, biomaterials, biomechanics, biomedical instrumentation, medical imaging, and physiological systems.",
+    "Students customarily engage in laboratory experimentation, independent research endeavors, engineering design projects, and supervised internship placements.",
+  ],
+
+  eligibilityLead: [
+    "Indian students are generally expected to satisfy the subsequent criteria:",
+  ],
   eligibility: [
-    "Pass Class 12 from a recognised school.",
-    "Strength in mathematics and physics, plus chemistry, biology or other subjects as required by the university.",
-    "Academic performance meeting the university's admission standards.",
-    "English language proficiency, where applicable.",
-    "SAT or ACT scores if required by the university.",
-    "Official academic records and supporting documents for the application.",
+    "Completion of Class 12 successfully from an accredited school",
+    "Proficiency in mathematics and physics alongside chemistry, biology, or additional subjects as stipulated by the target institution",
+    "Academic achievement that fulfills the university's admission standards",
+    "Demonstrated proficiency in English where required; standardized examination scores from the SAT or ACT",
+    "Provision of detailed academic records and supplementary application documentation.",
   ],
-  englishTests: [
-    "IELTS Academic",
-    "TOEFL iBT",
-    "PTE Academic",
-    "Duolingo English Test",
+
+  englishLead: [
+    "International students may be required to demonstrate English language proficiency via an internationally recognized standardized assessment. Commonly accepted examinations encompass IELTS Academic, TOEFL iBT, PTE Academic, and the Duolingo English Test, contingent upon institutional recognition.",
   ],
-  testsNote:
-    "SAT or ACT requirements vary by institution and admission cycle; some universities require test scores while many have adopted test-optional policies. There is no single entrance exam mandatory for all US universities for undergraduate Biomedical Engineering — always check the latest admission requirements, application deadlines and subject prerequisites of your chosen institutions.",
+  englishTests: [],
+  englishNote: [],
+
+  testsNote: [
+    "Standardized examination prerequisites, specifically the SAT or ACT, vary considerably depending on the institution and the particular admission cycle being evaluated. While some universities require submission of examination scores, many others have adopted test-optional frameworks for their admissions processes. It is important remember that not all USA universities that offer undergraduate Biomedical Engineering programs require the same standardized entry exam. Prospective applicants are advised to thoroughly examine the current admission requirements, application submission deadlines, and discipline-specific prerequisites established by their target institutions.",
+  ],
+
+  costsLead: [
+    "The aggregate financial investment required to complete an undergraduate Biomedical Engineering degree at USA universities is determined by factors including institutional choice, regional location, and housing status.",
+  ],
   costs: [
-    "University tuition and institutional fees",
-    "Housing and meal plans",
-    "Health insurance",
-    "Course materials, lab equipment and specialised instruments",
-    "Local transport and personal expenses",
-    "Visa fees, international travel and relocation costs",
+    "Primary cost categories encompass:",
+    "Tuition and institutional fees.",
+    "Housing accommodations and meal plans.",
+    "Health insurance premiums.",
+    "Course materials, laboratory equipment, and specialized instrumentation.",
+    "Travel expenses and miscellaneous personal costs.",
+    "Visa processing, international travel, and relocation costs",
   ],
-  costsNote:
-    "The total cost of an undergraduate Biomedical Engineering degree in the USA depends on the university, its location and your housing choice.",
+  costsNote: [],
+
+  scholarshipsLead: [
+    "Numerous USA universities provide scholarship awards and financial assistance to eligible international undergraduate candidates.",
+    "Available financial support mechanisms include:",
+  ],
   scholarships: [
-    "Merit-based academic scholarships",
-    "International student financial aid programs",
-    "University-specific tuition assistance",
-    "Need-based financial support for international applicants",
-    "Funding from eligible third-party organisations",
+    "Merit-based academic scholarships.",
+    "International student financial aid programs.",
+    "University-specific tuition assistance.",
+    "Need-based financial support available to international applicants.",
+    "Financial assistance from eligible third-party organizations.",
+  ],
+  scholarshipsNote: [],
+
+  universitiesLead: [
+    "The following institutions warrant careful consideration for undergraduate study in Biomedical Engineering or related fields:",
   ],
   universities: [
-    { name: "Johns Hopkins University", location: "Baltimore, Maryland" , img: johnsHopkinsImg },
-    { name: "Georgia Institute of Technology", location: "Atlanta, Georgia" , img: gatechImg },
-    { name: "Duke University", location: "Durham, North Carolina" , img: dukeImg },
-    { name: "University of Pennsylvania", location: "Philadelphia, Pennsylvania" , img: pennImg },
-    { name: "Boston University", location: "Boston, Massachusetts" , img: bostonImg },
+    {
+      name: "Johns Hopkins University",
+      location: "Baltimore, Maryland",
+      img: johnsHopkinsImg,
+    },
+    {
+      name: "Georgia Institute of Technology",
+      location: "Atlanta, Georgia",
+      img: gatechImg,
+    },
+    {
+      name: "Duke University",
+      location: "Durham, North Carolina",
+      img: dukeImg,
+    },
+    {
+      name: "University of Pennsylvania",
+      location: "Philadelphia, Pennsylvania",
+      img: pennImg,
+    },
+    {
+      name: "Boston University",
+      location: "Boston, Massachusetts",
+      img: bostonImg,
+    },
   ],
+  universitiesNote: [
+    "Edu Hawk worldwide an help students understand the available education pathways and shortlist universities according to their qualifications and career goals.",
+  ],
+
+  careerIntro:
+    "Graduates have the opportunity to pursue entry-level positions across medical technology, healthcare equipment, biomedical research, and engineering design sectors. Prospective career trajectories include the following roles:",
+  careerLead: [],
   careers: [
     "Biomedical Engineering Associate",
     "Medical Device Design Engineer",
@@ -87,46 +151,53 @@ const branch = {
     "Medical Imaging Technology Associate",
     "Product Development Engineer",
     "Regulatory Affairs Associate for Medical Devices",
+    "Certain research, clinical, or specialized positions may require postgraduate education, professional licensure, or additional professional experience.",
+    "Career advancement opportunities depend on individual competencies, institutional requirements, and relevant work authorization status.",
   ],
-  careerIntro:
-    "Graduates can pursue entry-level roles across medical technology, healthcare equipment, biomedical research and engineering design. Some research, clinical or specialised positions may require postgraduate study, professional licensure or additional experience, and career progression depends on individual skills, employer requirements and work authorisation.",
+  careerNote: [],
+
+  visaLead: [
+    "Indian students who obtain admission to an accredited US institution are generally required to complete the applicable student visa process.",
+    "Typical procedural steps include:",
+  ],
   visaSteps: [
     "Research universities offering undergraduate Biomedical Engineering programs.",
-    "Confirm academic prerequisites and required Class 12 subjects.",
-    "Check English language and standardised test requirements.",
+    "Confirm academic prerequisites and required Class 12 subject requirements.",
+    "Assess English-language proficiency and standardized test requirements.",
     "Gather academic credentials and supporting documentation.",
-    "Submit applications according to the stated deadlines.",
-    "Review admission decisions and associated costs.",
-    "Obtain the required student documentation from the university.",
-    "Complete the visa application and pay the SEVIS fee.",
-    "Attend the visa interview where required and arrange travel after approval.",
+    "Submit applications according to specified deadlines.",
+    "Review admission decisions and associated financial costs.",
+    "Obtain necessary student documentation from the educational institution.",
+    "Fill out the visa application and pay the relevant SEVIS cost.",
+    "Attend the visa interview, if required, and arrange travel following approval.",
+    "Visa approval is not guaranteed. Students must comply with current US government regulations and institutional policies.",
   ],
-  visaNote:
-    "Visa approval is not guaranteed. Students must follow current US government regulations and university policies.",
+  visaNote: [],
+
   faqs: [
     {
-      q: "Can Indian students study Biomedical Engineering in the USA after Class 12?",
-      a: "Yes. Indian students can apply after Class 12 provided they meet the university's academic, subject and English language requirements.",
+      q: "Are Indian students permitted to pursue Biomedical Engineering studies in the United States following Class 12 completion?",
+      a: "Yes, Indian students may submit applications upon Class 12 completion provided they satisfy the institution's academic, curricular, and English-language prerequisites.",
     },
     {
-      q: "How long does it take to complete an undergraduate Biomedical Engineering degree in the USA?",
-      a: "Most undergraduate Biomedical Engineering programs take about four years to complete.",
+      q: "What is the typical duration of an undergraduate Biomedical Engineering degree program in the United States?",
+      a: "The majority of undergraduate Biomedical Engineering programs require approximately four years for degree completion.",
     },
     {
-      q: "What subjects are essential for Biomedical Engineering?",
-      a: "Mathematics and physics are the core foundations, with biology and chemistry as important supporting subjects. Many universities require specific subject combinations for admission.",
+      q: "What academic disciplines constitute essential prerequisites for Biomedical Engineering?",
+      a: "Mathematical and physical sciences serve as fundamental pillars of biomedical engineering education. Biological and chemical sciences represent complementary fields of study, with numerous institutions mandating particular subject combinations for program entry.",
     },
     {
-      q: "Is the SAT required for admission?",
-      a: "No. Standardised test requirements vary by university and admission cycle, and some universities have adopted test-optional admission policies.",
+      q: "Is the Scholastic Aptitude Test a mandatory component of the admissions process?",
+      a: "No. Standardized testing prerequisites demonstrate considerable institutional variation and fluctuate across admission cycles. Certain universities have implemented test-optional admission frameworks.",
     },
     {
-      q: "Are scholarships available for Indian students?",
-      a: "Yes. Many universities offer merit-based scholarships and other financial support to eligible international students. Availability and award amounts vary between institutions.",
+      q: "Do scholarship opportunities exist for students originating from India?",
+      a: "Yes, . Numerous institutions extend merit-based scholarship awards and supplementary financial support mechanisms to qualified international student populations. The scope of availability and corresponding award allocations demonstrate considerable institutional variation.",
     },
     {
-      q: "How can Edu Hawk Worldwide help me study abroad?",
-      a: "Edu Hawk Worldwide helps students explore suitable universities, understand admission requirements, organise application documents and plan their study-abroad journey. Students should verify academic, financial, immigration and licensing requirements with the relevant official authorities.",
+      q: "How can Edu Hawk worldwide help me study abroad?",
+      a: "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities. KEYWORDS - Study Biomedical Engineering in USA for Indian Students Best Biomedical Engineering Universities in USA Bachelor's in Biomedical Engineering in USA Study Biomedical Engineering in USA After 12th Biomedical Engineering Courses in USA Biomedical Engineering Admission Requirements in USA Biomedical Engineering Tuition Fees in USA Biomedical Engineering Scholarships for Indian Students Top Biomedical Engineering Colleges in America Biomedical Engineering Eligibility for Indian Students SAT Requirements for Biomedical Engineering in USA English Language Tests for US Universities Career Opportunities After Biomedical Engineering Medical Device Engineering Courses in USA USA Student Visa for Indian Engineering Students Aerospace Engineering in the USA for Indian Students",
     },
   ],
 };
@@ -140,9 +211,19 @@ const SectionHeading = ({ eyebrow, title }) => (
   </div>
 );
 
-const ListCard = ({ children }) => (
-  <ul className="space-y-3">{children}</ul>
-);
+const ListCard = ({ children }) => <ul className="space-y-3">{children}</ul>;
+
+const DocParas = ({
+  items,
+  className = "max-w-3xl mb-6 text-slate-600 leading-relaxed space-y-4",
+}) =>
+  items && items.length ? (
+    <div className={className}>
+      {items.map((p, i) => (
+        <p key={i}>{p}</p>
+      ))}
+    </div>
+  ) : null;
 
 const Li = ({ text }) => (
   <li className="flex items-start gap-3">
@@ -335,11 +416,16 @@ const BiomedicalEngineeringUG = () => {
             eyebrow="Why the USA"
             title={`Why Study ${branch.name} in the USA?`}
           />
+          <DocParas items={branch.whyLead} />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-4">
             {branch.whyPoints.map((p) => (
               <Li key={p} text={p} />
             ))}
           </div>
+          <DocParas
+            items={branch.whyNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -350,11 +436,7 @@ const BiomedicalEngineeringUG = () => {
             eyebrow="Programs"
             title={`${branch.name} Courses in the USA`}
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">
-            Undergraduate students can pursue programs that apply engineering
-            methods to medical and healthcare challenges. Common degree
-            pathways include:
-          </p>
+          <DocParas items={branch.coursesLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.courses.map((c) => (
               <div
@@ -365,6 +447,10 @@ const BiomedicalEngineeringUG = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.coursesNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -378,10 +464,10 @@ const BiomedicalEngineeringUG = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">
               Top Universities for {branch.name} in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-2xl">
-              Compare universities on academics, cost, facilities and
-              international admission policies before shortlisting.
-            </p>
+            <DocParas
+              items={branch.universitiesLead}
+              className="text-slate-500 text-[15px] leading-relaxed max-w-2xl space-y-3"
+            />
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {branch.universities.map((u) => (
@@ -414,6 +500,10 @@ const BiomedicalEngineeringUG = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.universitiesNote}
+            className="mt-6 max-w-3xl text-slate-500 text-[15px] leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -422,7 +512,10 @@ const BiomedicalEngineeringUG = () => {
         <div className="max-w-6xl mx-auto px-6">
           <SectionHeading eyebrow="How long" title="Program Duration" />
           <div className="bg-blue-50/60 border border-blue-100 rounded-2xl p-6 sm:p-8 max-w-3xl">
-            <p className="text-slate-700 leading-relaxed">{branch.duration}</p>
+            <DocParas
+              items={branch.duration}
+              className="text-slate-700 leading-relaxed space-y-4"
+            />
           </div>
         </div>
       </section>
@@ -435,6 +528,10 @@ const BiomedicalEngineeringUG = () => {
             title="Eligibility Requirements for Indian Students"
           />
           <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 max-w-3xl shadow-sm">
+            <DocParas
+              items={branch.eligibilityLead}
+              className="mb-5 text-slate-600 leading-relaxed space-y-4"
+            />
             <ListCard>
               {branch.eligibility.map((e) => (
                 <Li key={e} text={e} />
@@ -452,12 +549,10 @@ const BiomedicalEngineeringUG = () => {
               eyebrow="English proficiency"
               title="English Language Requirements"
             />
-            <p className="text-slate-600 mb-5">
-              International applicants may need to prove English competency
-              through a recognised test. Minimum scores differ by university,
-              and some universities may waive the requirement for students
-              educated in English-medium schools.
-            </p>
+            <DocParas
+              items={branch.englishLead}
+              className="mb-5 text-slate-600 leading-relaxed space-y-3"
+            />
             <div className="flex flex-wrap gap-3">
               {branch.englishTests.map((t) => (
                 <span
@@ -468,15 +563,17 @@ const BiomedicalEngineeringUG = () => {
                 </span>
               ))}
             </div>
+            <DocParas
+              items={branch.englishNote}
+              className="mt-5 text-slate-600 leading-relaxed space-y-4"
+            />
           </div>
           <div>
             <SectionHeading
               eyebrow="Standardised tests"
               title="SAT & Other Admission Tests"
             />
-            <p className="text-slate-600 leading-relaxed">
-              {branch.testsNote}
-            </p>
+            <DocParas items={branch.testsNote} />
           </div>
         </div>
       </section>
@@ -488,7 +585,7 @@ const BiomedicalEngineeringUG = () => {
             eyebrow="Budget"
             title="Tuition Fees and Living Expenses"
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">{branch.costsNote}</p>
+          <DocParas items={branch.costsLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.costs.map((c) => (
               <div
@@ -499,6 +596,10 @@ const BiomedicalEngineeringUG = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.costsNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -511,19 +612,20 @@ const BiomedicalEngineeringUG = () => {
           />
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
             <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-sm">
+              <DocParas
+                items={branch.scholarshipsLead}
+                className="mb-5 text-slate-600 leading-relaxed space-y-4"
+              />
               <ListCard>
                 {branch.scholarships.map((s) => (
                   <Li key={s} text={s} />
                 ))}
               </ListCard>
             </div>
-            <p className="text-slate-600 leading-relaxed">
-              International students may qualify for merit-based scholarships,
-              university grants and other institutional awards. Availability
-              and scope vary across universities and programs — Edu Hawk
-              Worldwide helps you map realistic funding options for your
-              profile and budget.
-            </p>
+            <DocParas
+              items={branch.scholarshipsNote}
+              className="text-slate-600 leading-relaxed space-y-4"
+            />
           </div>
         </div>
       </section>
@@ -535,9 +637,8 @@ const BiomedicalEngineeringUG = () => {
             eyebrow="After graduation"
             title={`Career Opportunities After ${branch.name}`}
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">
-            {branch.careerIntro}
-          </p>
+          <DocParas items={branch.careerIntro ? [branch.careerIntro] : []} />
+          <DocParas items={branch.careerLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.careers.map((c) => (
               <div
@@ -548,6 +649,10 @@ const BiomedicalEngineeringUG = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.careerNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -558,7 +663,7 @@ const BiomedicalEngineeringUG = () => {
             eyebrow="Step by step"
             title="Visa & Application Process for Indian Students"
           />
-
+          <DocParas items={branch.visaLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {branch.visaSteps.map((s, i) => (
               <div
@@ -571,7 +676,6 @@ const BiomedicalEngineeringUG = () => {
                 {/* Animated Number Circle */}
                 <div className="mb-5 relative w-fit">
                   <div className="visa-number-circle relative flex items-center justify-center w-14 h-14 rounded-full border-2 border-orange-500 bg-orange-50 transition-all duration-500 group-hover:bg-gradient-to-br group-hover:from-orange-500 group-hover:to-orange-600 group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-lg group-hover:shadow-orange-200">
-
                     <span className="text-xl font-bold text-orange-500 transition-colors duration-500 group-hover:text-white">
                       {String(i + 1).padStart(2, "0")}
                     </span>
@@ -592,9 +696,10 @@ const BiomedicalEngineeringUG = () => {
             ))}
           </div>
 
-          <p className="mt-7 text-sm text-slate-500 max-w-3xl">
-            {branch.visaNote}
-          </p>
+          <DocParas
+            items={branch.visaNote}
+            className="mt-7 text-sm text-slate-500 max-w-3xl space-y-4"
+          />
         </div>
       </section>
 

@@ -16,16 +16,26 @@ const branch = {
   keywords:
     "Civil Engineering in USA for Indian Students, Best Civil Engineering Universities in USA, Bachelor's in Civil Engineering in USA, Study Civil Engineering in USA After 12th, Civil Engineering Courses in USA, Civil Engineering Admission Requirements in USA, Civil Engineering Tuition Fees in USA, Civil Engineering Scholarships for Indian Students, Top Civil Engineering Colleges in America, Civil Engineering Eligibility for Indian Students, SAT Requirements for Civil Engineering in USA, English Language Tests for US Universities, Career Opportunities After Civil Engineering, Structural Engineering and Construction Management in USA, USA Student Visa for Civil Engineering Students",
   heroIntro:
-    "Undergraduate Civil Engineering programs in the USA blend core engineering fundamentals with hands-on learning, modern infrastructure analysis and research opportunities. Students build skills in planning, designing, constructing and maintaining structures, bridges, roads, water systems and transport networks — and Indian students after Class 12 can pursue a four-year bachelor's degree with access to world-class facilities.",
+    "Undergraduate Civil Engineering programs in the US combine fundamental engineering concepts with hands-on learning, analysis of modern infrastructure, and chances for intellectual inquiry.. Participants acquire competencies in planning, designing, constructing, and preserving built environments including structures, spans, thoroughfares, hydraulic installations, and mobility networks.",
   heroSub:
     "Edu Hawk Worldwide helps you shortlist universities, understand admission requirements and plan your complete study-abroad journey.",
+
+  whyLead: ["Primary advantages encompass:"],
   whyPoints: [
-    "Use of modern civil engineering laboratories and computational design environments.",
-    "Hands-on learning through capstone projects, site visits and practical lab work.",
-    "Exposure to the latest construction methods and infrastructure technologies.",
-    "Opportunities to explore sustainable construction practices and smart infrastructure systems.",
-    "Learning pathways in structural mechanics, transport systems and environmental engineering.",
-    "Career paths spanning engineering innovation, technical consulting, infrastructure development and construction management.",
+    "Utilization of state-of-the-art civil engineering laboratories and computational design environments.",
+    "Experiential education via capstone initiatives, on-site investigations, and practical laboratory instruction.",
+    "Familiarity with cutting-edge construction methodologies and infrastructure technological innovations.",
+    "Avenues to investigate environmentally responsible construction practices and intelligent infrastructure systems.",
+    "Educational pathways in structural mechanics, mobility systems, and ecological engineering.",
+    "Career paths that include engineering innovation, technical consulting, infrastructure development, and construction management.",
+  ],
+  whyNote: [
+    "Edu Hawk worldwide assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey..",
+  ],
+
+  coursesLead: [
+    "International scholars from India may investigate multiple undergraduate degree pathways within civil engineering disciplines.",
+    "Prevalent degree classifications include:",
   ],
   courses: [
     "Bachelor of Science in Civil Engineering",
@@ -34,48 +44,116 @@ const branch = {
     "Bachelor of Science in Civil Engineering Technology",
     "Bachelor of Science in Construction Engineering",
   ],
-  duration:
-    "An undergraduate Civil Engineering degree in the USA typically takes four years of full-time study. The curriculum covers mathematics, physics, engineering mechanics, structural analysis, construction materials, soil mechanics, transportation systems, hydraulics and environmental engineering. Students may also undertake lab investigations, design projects, field research, internships or co-op work-study arrangements.",
+  coursesNote: [
+    "Program nomenclature and specialized concentrations differ across institutions. Prospective students must verify that their chosen curriculum aligns with their scholarly aspirations and vocational objectives.",
+    "Edu Hawk worldwide can help students understand the available Civil Engineering education pathways and shortlist universities according to their qualifications and career goals.",
+  ],
+
+  duration: [
+    "An undergraduate Civil Engineering degree within the United States typically necessitates four years of full-time study.",
+    "The academic framework customarily encompasses mathematics, physics, engineering mechanics, structural investigation, construction material science, soil mechanics, transportation systems, hydrodynamics, and ecological engineering.",
+    "Participants may additionally undertake experimental investigations, design-oriented projects, field-based research, professional internships, or alternating work-study arrangements.",
+  ],
+
+  eligibilityLead: [
+    "Indian applicants are typically expected to satisfy the subsequent prerequisites:",
+  ],
   eligibility: [
-    "Pass Class 12 from a recognised board.",
-    "Strength in Mathematics and Physics, plus other subjects as required by the university.",
-    "Academic performance meeting the university's admission standards.",
-    "English language proficiency, where applicable.",
-    "SAT or ACT scores if required by the university.",
-    "Official academic records and supporting documents for the application.",
+    "Successful completion of Class 12 examinations administered by an accredited educational institution.",
+    "Proficiency in mathematics and physics, supplemented by any supplementary disciplines mandated by the target university.",
+    "Academic performance that aligns with the institution's admission standards.",
+    "Demonstrated competency in the English language where applicable.",
+    "Standardized examination scores from the SAT or ACT, contingent upon institutional requirements.",
+    "Official academic records and requisite supporting documentation for the application process.",
+  ],
+
+  englishLead: [
+    "International candidates may be obligated to substantiate English language competency through an officially recognized assessment instrument",
+    ".",
+    "Widely recognized assessment instruments encompass:",
   ],
   englishTests: [
     "IELTS Academic",
     "TOEFL iBT",
     "PTE Academic",
-    "Duolingo English Test",
+    "Duolingo English Test, where recognized by the institution",
   ],
-  testsNote:
-    "SAT or ACT requirements depend on the university and admission cycle — some require or recommend scores, while others follow test-optional policies. There is no single entrance exam mandatory for all US universities for undergraduate Civil Engineering; always check the latest test policies, deadlines and program-specific requirements of your chosen institutions.",
+  englishNote: [
+    "Minimum score thresholds differ across universities. Under specific conditions, some institutions may be excluded from this obligation.",
+  ],
+
+  testsNote: [
+    "SAT or ACT score requirements are contingent upon the specific university and the particular admission cycle. Certain universities mandate or encourage submission of scores, whereas others implement test-optional admission policies.",
+    "No universally mandated entrance examination exists across all United States universities for undergraduate Civil Engineering programs. Applicants must ascertain current assessment policies, application submission deadlines, and discipline-specific program requirements..",
+  ],
+
+  costsLead: [
+    "The aggregate expenditure for pursuing an undergraduate degree in Civil Engineering within the United States fluctuates based on institutional selection, geographic location, and residential arrangements.",
+    "Primary cost components encompass",
+  ],
   costs: [
-    "University tuition and academic fees",
-    "Accommodation and meals",
-    "Health insurance",
-    "Books, lab equipment and study materials",
-    "Local transport and personal expenses",
-    "Visa fees, travel and relocation costs",
+    "Tuition and institutional academic fees.",
+    "Residential accommodation and meal provisions.",
+    "Medical insurance coverage.",
+    "Textbooks, experimental equipment, and educational materials.",
+    "Regional transit and miscellaneous personal expenditures.",
+    "Immigration documentation, airfare, and relocation expenses.",
   ],
-  costsNote:
-    "Total cost varies with the university, its location and your housing choice. Evaluate the full annual cost of attendance rather than tuition alone, and check current fee figures on official university websites.",
+  costsNote: [
+    "Prospective students are advised to evaluate the comprehensive annual cost of attendance in its entirety rather than examining tuition fees in isolation. Prospective students should consult current fee schedules via institutional websites.",
+  ],
+
+  scholarshipsLead: [
+    "Numerous American universities extend scholarship opportunities and monetary assistance to qualified international undergraduate applicants.",
+    "Available mechanisms include:",
+  ],
   scholarships: [
-    "Merit-based scholarships",
-    "International student scholarships",
-    "University tuition reduction programmes",
-    "Need-based financial aid for eligible international students",
-    "External organisation funding",
+    "Academic merit-based scholarship awards.",
+    "International student-focused scholarship programs.",
+    "Institution-specific tuition reduction initiatives.",
+    "Financial assistance contingent upon demonstrated financial necessity, accessible to international students meeting criteria.",
+    "Financial support administered by qualifying external organizations.",
+    "Prospective recipients should thoroughly examine qualification prerequisites, submission timelines, monetary awards, and conditions for continued funding. Financial aid provision remains contingent and is not universally assured.",
+  ],
+  scholarshipsNote: [],
+
+  universitiesLead: [
+    "The Best institutions merit comprehensive investigation for undergraduate Civil Engineering curricula or allied disciplinary programs:",
   ],
   universities: [
-    { name: "University of California, Berkeley", location: "Berkeley, California" , img: ucbImg },
-    { name: "Massachusetts Institute of Technology", location: "Cambridge, Massachusetts" , img: mitImg },
-    { name: "Georgia Institute of Technology", location: "Atlanta, Georgia" , img: gatechImg },
-    { name: "University of Illinois Urbana-Champaign", location: "Urbana-Champaign, Illinois" , img: illinoisImg },
-    { name: "Purdue University", location: "West Lafayette, Indiana" , img: purdueImg },
+    {
+      name: "University of California, Berkeley",
+      location: "Berkeley, California",
+      img: ucbImg,
+    },
+    {
+      name: "Massachusetts Institute of Technology",
+      location: "Cambridge, Massachusetts",
+      img: mitImg,
+    },
+    {
+      name: "Georgia Institute of Technology",
+      location: "Atlanta, Georgia",
+      img: gatechImg,
+    },
+    {
+      name: "University of Illinois Urbana-Champaign",
+      location: "Urbana-Champaign, Illinois",
+      img: illinoisImg,
+    },
+    {
+      name: "Purdue University",
+      location: "West Lafayette, Indiana",
+      img: purdueImg,
+    },
   ],
+  universitiesNote: [
+    "Through each university's official institutional webpage, prospective applicants should verify the specific undergraduate degree awarded, institutional admission requirements, tuition costs, and curriculum accreditation status.",
+  ],
+
+  careerIntro:
+    "Graduates possess the opportunity to pursue entry-level positions across construction, infrastructure, engineering design, transportation, and project support sectors.",
+  careerLead: ["Prospective career positions encompass:"],
   careers: [
     "Junior Civil Engineer",
     "Structural Design Engineer",
@@ -88,41 +166,49 @@ const branch = {
     "Project Engineering Assistant",
     "Construction Planning Coordinator",
   ],
-  careerIntro:
-    "Civil Engineering graduates can pursue entry-level roles across construction, infrastructure, engineering design, transportation and project support. Some positions may require further training, experience or professional licensure, and career paths depend on your skills, employer requirements and work authorisation.",
-  visaSteps: [
-    "Research universities offering undergraduate Civil Engineering programs.",
-    "Check Class 12 subject prerequisites and academic requirements.",
-    "Verify English language and standardised test requirements.",
-    "Prepare transcripts, test scores and supporting documents.",
-    "Submit applications before university deadlines.",
-    "Review admission offers and costs.",
-    "Arrange required student documentation from the university.",
-    "Pay the SEVIS fee and complete the visa application.",
-    "Attend the visa interview where applicable and plan travel after approval.",
+  careerNote: [
+    "Some jobs require advanced training, more experience, or professional licensure.Career trajectories are contingent upon the graduate's competencies, employer specifications, and pertinent work authorization status.",
   ],
-  visaNote:
-    "Visa approval is not guaranteed and depends on individual circumstances. Always follow current US government and university guidance.",
+
+  visaLead: [
+    "When admitted to a US university, Indian students usually have to go through the necessary student visa application process.",
+    "Standard procedural steps include:",
+  ],
+  visaSteps: [
+    "Investigate universities providing undergraduate Civil Engineering curricula.",
+    "Verify Class 12 subject prerequisites and academic prerequisites.",
+    "Examine English-language proficiency and standardized examination requirements.",
+    "Compile transcripts, examination scores, and ancillary documentation.",
+    "Submit applications in accordance with established deadlines.",
+    "Assess admission determinations and financial obligations.",
+    "Procure essential student documentation from the institution.",
+    "Remit the applicable SEVIS fee and finalize visa application materials.",
+    "Participate in the visa interview, when applicable, and arrange travel logistics following authorization.",
+  ],
+  visaNote: [
+    "Visa authorization remains uncertain. Students must adhere to prevailing US governmental directives and institutional counsel.",
+  ],
+
   faqs: [
     {
-      q: "Can Indian students study Civil Engineering in the USA after Class 12?",
-      a: "Yes. Indian students can apply after Class 12 if they meet the university's academic, subject and English language requirements.",
+      q: "Are Indian students eligible to pursue undergraduate Civil Engineering studies in the United States following Class 12 completion?",
+      a: "Yes, Indian students may apply subsequent to Class 12 provided they satisfy the institution's academic, curricular, and linguistic requirements.",
     },
     {
-      q: "How long does it take to complete an undergraduate Civil Engineering degree in the USA?",
-      a: "Most undergraduate Civil Engineering programs take about four years to complete.",
+      q: "What duration is required for an undergraduate Civil Engineering degree in the United States?",
+      a: "The majority of undergraduate Civil Engineering programs necessitate approximately four years for completion.",
     },
     {
       q: "Is the SAT compulsory for undergraduate Civil Engineering?",
-      a: "No. SAT requirements vary by university and admission cycle, and some institutions are test-optional.",
+      a: "No. SAT requirements vary by university and admission cycle. Some institutions are test-optional.",
     },
     {
       q: "Are scholarships available for Indian undergraduate students?",
       a: "Yes. Some universities offer merit-based scholarships and other financial support to eligible international students. Availability and award amounts vary.",
     },
     {
-      q: "How can Edu Hawk Worldwide help me study Civil Engineering abroad?",
-      a: "Edu Hawk Worldwide helps students explore suitable universities, understand admission requirements, organise application documents and plan their study-abroad journey. Students should verify academic, financial, immigration and licensing requirements with the relevant official authorities.",
+      q: "5, How can Edu Hawk worldwide help me study Civil Engineeing in abroad?",
+      a: "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities.",
     },
   ],
 };
@@ -136,9 +222,19 @@ const SectionHeading = ({ eyebrow, title }) => (
   </div>
 );
 
-const ListCard = ({ children }) => (
-  <ul className="space-y-3">{children}</ul>
-);
+const ListCard = ({ children }) => <ul className="space-y-3">{children}</ul>;
+
+const DocParas = ({
+  items,
+  className = "max-w-3xl mb-6 text-slate-600 leading-relaxed space-y-4",
+}) =>
+  items && items.length ? (
+    <div className={className}>
+      {items.map((p, i) => (
+        <p key={i}>{p}</p>
+      ))}
+    </div>
+  ) : null;
 
 const Li = ({ text }) => (
   <li className="flex items-start gap-3">
@@ -331,11 +427,16 @@ const CivilEngineeringUG = () => {
             eyebrow="Why the USA"
             title={`Why Study ${branch.name} in the USA?`}
           />
+          <DocParas items={branch.whyLead} />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-4">
             {branch.whyPoints.map((p) => (
               <Li key={p} text={p} />
             ))}
           </div>
+          <DocParas
+            items={branch.whyNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -346,11 +447,7 @@ const CivilEngineeringUG = () => {
             eyebrow="Programs"
             title={`${branch.name} Courses in the USA`}
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">
-            Undergraduate students can pursue programs covering structures,
-            construction materials, geotechnics, transportation, hydraulics
-            and environmental systems. Common degree pathways include:
-          </p>
+          <DocParas items={branch.coursesLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.courses.map((c) => (
               <div
@@ -361,6 +458,10 @@ const CivilEngineeringUG = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.coursesNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -374,10 +475,10 @@ const CivilEngineeringUG = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">
               Top Universities for {branch.name} in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-2xl">
-              Compare universities on academics, cost, facilities and
-              international admission policies before shortlisting.
-            </p>
+            <DocParas
+              items={branch.universitiesLead}
+              className="text-slate-500 text-[15px] leading-relaxed max-w-2xl space-y-3"
+            />
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {branch.universities.map((u) => (
@@ -410,6 +511,10 @@ const CivilEngineeringUG = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.universitiesNote}
+            className="mt-6 max-w-3xl text-slate-500 text-[15px] leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -418,7 +523,10 @@ const CivilEngineeringUG = () => {
         <div className="max-w-6xl mx-auto px-6">
           <SectionHeading eyebrow="How long" title="Program Duration" />
           <div className="bg-blue-50/60 border border-blue-100 rounded-2xl p-6 sm:p-8 max-w-3xl">
-            <p className="text-slate-700 leading-relaxed">{branch.duration}</p>
+            <DocParas
+              items={branch.duration}
+              className="text-slate-700 leading-relaxed space-y-4"
+            />
           </div>
         </div>
       </section>
@@ -431,6 +539,10 @@ const CivilEngineeringUG = () => {
             title="Eligibility Requirements for Indian Students"
           />
           <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 max-w-3xl shadow-sm">
+            <DocParas
+              items={branch.eligibilityLead}
+              className="mb-5 text-slate-600 leading-relaxed space-y-4"
+            />
             <ListCard>
               {branch.eligibility.map((e) => (
                 <Li key={e} text={e} />
@@ -448,12 +560,10 @@ const CivilEngineeringUG = () => {
               eyebrow="English proficiency"
               title="English Language Requirements"
             />
-            <p className="text-slate-600 mb-5">
-              International applicants may need to prove English competency
-              through a recognised test. Minimum scores differ by university,
-              and some universities may waive the requirement for students
-              educated in English-medium schools.
-            </p>
+            <DocParas
+              items={branch.englishLead}
+              className="mb-5 text-slate-600 leading-relaxed space-y-3"
+            />
             <div className="flex flex-wrap gap-3">
               {branch.englishTests.map((t) => (
                 <span
@@ -464,15 +574,17 @@ const CivilEngineeringUG = () => {
                 </span>
               ))}
             </div>
+            <DocParas
+              items={branch.englishNote}
+              className="mt-5 text-slate-600 leading-relaxed space-y-4"
+            />
           </div>
           <div>
             <SectionHeading
               eyebrow="Standardised tests"
               title="SAT & Other Admission Tests"
             />
-            <p className="text-slate-600 leading-relaxed">
-              {branch.testsNote}
-            </p>
+            <DocParas items={branch.testsNote} />
           </div>
         </div>
       </section>
@@ -484,7 +596,7 @@ const CivilEngineeringUG = () => {
             eyebrow="Budget"
             title="Tuition Fees and Living Expenses"
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">{branch.costsNote}</p>
+          <DocParas items={branch.costsLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.costs.map((c) => (
               <div
@@ -495,6 +607,10 @@ const CivilEngineeringUG = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.costsNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -507,19 +623,20 @@ const CivilEngineeringUG = () => {
           />
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
             <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-sm">
+              <DocParas
+                items={branch.scholarshipsLead}
+                className="mb-5 text-slate-600 leading-relaxed space-y-4"
+              />
               <ListCard>
                 {branch.scholarships.map((s) => (
                   <Li key={s} text={s} />
                 ))}
               </ListCard>
             </div>
-            <p className="text-slate-600 leading-relaxed">
-              International students may qualify for merit-based scholarships,
-              university grants and other institutional awards. Availability
-              and scope vary across universities and programs — Edu Hawk
-              Worldwide helps you map realistic funding options for your
-              profile and budget.
-            </p>
+            <DocParas
+              items={branch.scholarshipsNote}
+              className="text-slate-600 leading-relaxed space-y-4"
+            />
           </div>
         </div>
       </section>
@@ -531,9 +648,8 @@ const CivilEngineeringUG = () => {
             eyebrow="After graduation"
             title={`Career Opportunities After ${branch.name}`}
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">
-            {branch.careerIntro}
-          </p>
+          <DocParas items={branch.careerIntro ? [branch.careerIntro] : []} />
+          <DocParas items={branch.careerLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.careers.map((c) => (
               <div
@@ -544,6 +660,10 @@ const CivilEngineeringUG = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.careerNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -554,7 +674,7 @@ const CivilEngineeringUG = () => {
             eyebrow="Step by step"
             title="Visa & Application Process for Indian Students"
           />
-
+          <DocParas items={branch.visaLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {branch.visaSteps.map((s, i) => (
               <div
@@ -567,7 +687,6 @@ const CivilEngineeringUG = () => {
                 {/* Animated Number Circle */}
                 <div className="mb-5 relative w-fit">
                   <div className="visa-number-circle relative flex items-center justify-center w-14 h-14 rounded-full border-2 border-orange-500 bg-orange-50 transition-all duration-500 group-hover:bg-gradient-to-br group-hover:from-orange-500 group-hover:to-orange-600 group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-lg group-hover:shadow-orange-200">
-
                     <span className="text-xl font-bold text-orange-500 transition-colors duration-500 group-hover:text-white">
                       {String(i + 1).padStart(2, "0")}
                     </span>
@@ -588,9 +707,10 @@ const CivilEngineeringUG = () => {
             ))}
           </div>
 
-          <p className="mt-7 text-sm text-slate-500 max-w-3xl">
-            {branch.visaNote}
-          </p>
+          <DocParas
+            items={branch.visaNote}
+            className="mt-7 text-sm text-slate-500 max-w-3xl space-y-4"
+          />
         </div>
       </section>
 

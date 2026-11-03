@@ -16,78 +16,153 @@ const branch = {
   keywords:
     "Study Postgraduate Aerospace Engineering in USA for Indian Students, Best Master's in Aerospace Engineering Universities in USA, MS in Aerospace Engineering in USA, Master's in Aerospace Engineering in USA for Indian Students, Postgraduate Aerospace Engineering Courses in USA, Aerospace Engineering Admission Requirements for Master's in USA, MS in Aerospace Engineering Tuition Fees in USA, Aerospace Engineering Scholarships for Indian Students, Top Graduate Aerospace Engineering Colleges in America, Aerospace Engineering Eligibility for Indian Students",
   heroIntro:
-    "The United States is a premier postgraduate destination for Aerospace Engineering, recognised for its advanced research infrastructure, strong aviation sector and leading space exploration programs. Postgraduate Aerospace Engineering studies develop specialised expertise in aerodynamics, propulsion systems, spacecraft design and flight control through advanced coursework and research.",
+    "The United States has established itself as a premier postgraduate destination for Aerospace Engineering, distinguished by its comprehensive aerospace research infrastructure, robust aviation sector, extensive space exploration initiatives and cutting edge engineering technologies. Indian postgraduate students pursuing this discipline can acquire specialized expertise across multiple domains, including aircraft design, spacecraft systems, propulsion mechanisms, aerodynamic principles, and flight control technologies.",
   heroSub:
     "Edu Hawk Worldwide helps you evaluate global study options, understand university admission requirements and prepare for your international academic journey.",
+
+  whyLead: [
+    "Significant advantages of pursuing postgraduate Aerospace Engineering in the USA encompass:",
+  ],
   whyPoints: [
     "Access to state-of-the-art aerospace research laboratories and advanced simulation facilities.",
     "Opportunities to engage in aircraft and spacecraft design studies.",
-    "Specialised concentrations in aerodynamics, propulsion systems and flight mechanics.",
+    "Specialized concentrations in aerodynamics, propulsion systems, and flight mechanics.",
     "Exposure to computational fluid dynamics methodologies and advanced materials science.",
-    "Research engagement in satellite technology, space systems and emerging aviation technologies.",
-    "Diverse career paths in aerospace manufacturing, commercial aviation, engineering research and space technology sectors.",
+    "Research engagement in satellite technology, space systems, and emerging aviation technologies.",
+    "Diverse career trajectories in aerospace manufacturing, commercial aviation, engineering research institutions, and space technology sectors.",
+  ],
+  whyNote: [
+    "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey..",
+  ],
+
+  coursesLead: [
+    "Indian students may select postgraduate programs aligned with their academic qualifications and professional aspirations. Aerospace curricula are typically administered through Aerospace Engineering departments, Aeronautics and Astronautics divisions, or allied engineering programs.",
+    "Popular degree options include:",
   ],
   courses: [
     "Master of Science in Aerospace Engineering",
     "Master of Engineering in Aerospace Engineering",
     "Master of Science in Aeronautics and Astronautics",
-    "Master of Science in Astronautical Engineering",
-    "Master of Science in Space Systems Engineering",
-    "Master of Science in Mechanical and Aerospace Engineering",
+    "Master of Science in Astronautical Engineering, where applicable",
+    "Master of Science in Space Systems Engineering, where applicable",
+    "Master of Science in Mechanical and Aerospace Engineering, where applicable",
+    "Aerodynamics and Computational Fluid Dynamics",
+    "Aircraft Design and Flight Mechanics",
+    "Propulsion and Jet Engine Systems",
+    "Spacecraft and Satellite Engineering",
+    "Guidance, Navigation, and Control Systems",
+    "Aerospace Structures and Materials Science",
+    "Avionics and Flight Control Systems",
+    "Rocket Propulsion and Space Exploration",
+    "Autonomous Aircraft and Unmanned Aerial Vehicle Systems",
+    "Computational Aerospace Engineering",
   ],
-  duration:
-    "Postgraduate Aerospace Engineering programs in the USA typically take one to two years to complete. The exact timeframe depends on the university, credit requirements and research obligations, as well as whether you follow a thesis-based or course-based pathway. The curriculum covers advanced aerodynamics, propulsion systems, flight dynamics, aerospace structures, computational modeling, spacecraft systems and aircraft design.",
+  coursesNote: ["Common specialisations include:"],
+
+  duration: [
+    "Postgraduate Aerospace Engineering programs within the United States typically require one to two years for completion. The specific timeframe is contingent upon institutional policies, credit hour requirements, research obligations, and the student's selection between thesis-oriented or course-based study modalities. The academic curriculum encompasses advanced topics including aerodynamics, propulsion systems, flight dynamics, aerospace structural analysis, computational modeling, spacecraft systems engineering, and aircraft design methodologies.",
+  ],
+
+  eligibilityLead: [
+    "Indian applicants must generally satisfy the following admission criteria:",
+  ],
   eligibility: [
-    "A bachelor's degree in Aerospace Engineering, Aeronautical Engineering, Mechanical Engineering or an equivalent discipline.",
+    "A bachelor's degree in Aerospace Engineering, Aeronautical Engineering, Mechanical Engineering, or an equivalent discipline.",
     "Official academic transcripts and degree certificates.",
-    "Academic performance meeting the university's minimum admission standards.",
-    "Verified English language proficiency, where required.",
+    "Minimum academic performance standards as established by the institution.",
+    "English-language proficiency demonstration, where mandated.",
     "Graduate Record Examination (GRE) scores, if stipulated by the program.",
-    "A Statement of Purpose.",
+    "Statement of Purpose.",
     "Letters of Recommendation.",
-    "A resume or curriculum vitae.",
-    "Documentation of relevant engineering projects, internships, research or professional experience, where applicable.",
+    "Resume or Curriculum Vitae.",
+    "Documentation of relevant engineering projects, internships, research endeavors, or professional experience, where applicable.",
+  ],
+
+  englishLead: [
+    "International applicants may be required to demonstrate English language proficiency through an accredited standardized examination. Widely recognized assessments include:",
   ],
   englishTests: [
     "IELTS Academic",
     "TOEFL iBT",
     "PTE Academic",
-    "Duolingo English Test",
+    "Duolingo English Test, where recognized by the institution",
   ],
-  testsNote:
-    "GRE requirements vary by university and program — some institutions require scores, while others make them optional or do not consider them. No single entrance exam is mandatory for all US universities for postgraduate Aerospace Engineering; always check the current admission policies, application deadlines and program requirements of your chosen institutions.",
+  englishNote: [
+    "Minimum score thresholds and exemption criteria differ across universities. Prospective students should consult the most current English-language proficiency requirements specific to their intended program.",
+  ],
+
+  testsNote: [
+    "No. GRE requirements vary by university and program. Some institutions require it, while others make it optional or do not consider it.",
+  ],
+
+  costsLead: [
+    "The cumulative financial investment required for postgraduate Aerospace Engineering studies within the United States demonstrates considerable variability contingent upon factors including institutional selection, geographic location, program duration, and accessible financial support mechanisms.",
+    "Primary expenditure categories include:",
+  ],
   costs: [
-    "Tuition and institutional fees",
-    "Housing and dining services",
-    "Medical insurance premiums",
-    "Academic textbooks, course materials and software",
-    "Laboratory and research-related expenditures",
-    "Local transportation and personal expenses",
-    "Visa processing, travel and relocation costs",
+    "Tuition and institutional fees.",
+    "Residential accommodation and meal provisions.",
+    "Medical insurance coverage.",
+    "Academic materials, including textbooks and software.",
+    "Laboratory and research-associated expenditures, where pertinent.",
+    "Local transit and miscellaneous personal expenses.",
+    "Visa processing, travel arrangements, and relocation expenses.",
   ],
-  costsNote:
-    "The total cost of a postgraduate Aerospace Engineering degree in the USA varies considerably depending on the institution, its location, program duration and the funding available to you.",
+  costsNote: [
+    "Prospective students are advised to examine institutional fee schedules and living expense projections to ascertain comprehensive program costs. Systematic evaluation of tuition rates, living expenses, and available financial resources enables informed decision-making for international applicants.",
+  ],
+
+  scholarshipsLead: [
+    "Qualified international students may explore multiple funding mechanisms for postgraduate Aerospace Engineering education.",
+    "Available options include:",
+  ],
   scholarships: [
-    "Merit-based scholarships",
-    "Departmental scholarships",
-    "Graduate research assistantships",
-    "Graduate teaching assistantships",
-    "Tuition remission linked to qualifying assistantships",
-    "External scholarships from eligible organisations and institutions",
+    "Merit-based scholarship awards.",
+    "Departmental scholarship allocations.",
+    "Graduate research assistantship positions.",
+    "Graduate teaching assistantship positions.",
+    "Tuition remission associated with qualifying assistantships.",
+    "External scholarship opportunities provided by eligible institutions and organizations.",
+  ],
+  scholarshipsNote: [],
+
+  universitiesLead: [
+    "The following institutions merit investigation for Aerospace Engineering and related postgraduate programs:",
   ],
   universities: [
-    { name: "Massachusetts Institute of Technology", location: "Cambridge, Massachusetts" , img: mitImg },
-    { name: "Stanford University", location: "Stanford, California" , img: stanfordImg },
-    { name: "California Institute of Technology", location: "Pasadena, California" , img: caltechImg },
-    { name: "Georgia Institute of Technology", location: "Atlanta, Georgia" , img: gatechImg },
+    {
+      name: "Massachusetts Institute of Technology",
+      location: "Cambridge, Massachusetts",
+      img: mitImg,
+    },
+    {
+      name: "Stanford University",
+      location: "Stanford, California",
+      img: stanfordImg,
+    },
+    {
+      name: "California Institute of Technology",
+      location: "Pasadena, California",
+      img: caltechImg,
+    },
+    {
+      name: "Georgia Institute of Technology",
+      location: "Atlanta, Georgia",
+      img: gatechImg,
+    },
   ],
+  universitiesNote: [],
+
+  careerIntro:
+    "A postgraduate qualification enables graduates to cultivate sophisticated technical competencies applicable to professional trajectories in aircraft engineering, space systems, propulsion, simulation, and aerospace research.",
+  careerLead: ["Prospective professional positions encompass:"],
   careers: [
     "Aerospace Design Engineer",
     "Aerodynamics Engineer",
     "Aircraft Structures Engineer",
     "Propulsion Engineer",
     "Flight Dynamics Engineer",
-    "Guidance, Navigation and Control Engineer",
+    "Guidance, Navigation, and Control Engineer",
     "Space Systems Engineer",
     "Satellite Systems Engineer",
     "Computational Fluid Dynamics Engineer",
@@ -95,45 +170,51 @@ const branch = {
     "Avionics Engineer",
     "Research and Development Engineer",
   ],
-  careerIntro:
-    "A postgraduate qualification helps graduates develop advanced technical expertise for roles across aircraft engineering, space systems, propulsion, simulation and aerospace research.",
-  visaSteps: [
-    "Research universities and identify a suitable Aerospace Engineering specialisation.",
-    "Verify academic prerequisites and foundational coursework requirements.",
-    "Check English-language proficiency and GRE requirements.",
-    "Assemble transcripts, a Statement of Purpose, references and a resume.",
-    "Submit applications before institutional deadlines.",
-    "Evaluate admission offers, costs and financial aid options.",
-    "Obtain the required student documentation from the university.",
-    "Pay the SEVIS fee and complete the visa application.",
-    "Attend the visa interview where required and arrange travel after approval.",
+  careerNote: [
+    "Career advancement opportunities are contingent upon technical proficiency, professional experience, organizational specifications, and pertinent employment authorization status. Certain positions within the aerospace, defence, and space sectors may impose citizenship prerequisites, export-control regulations, or security-clearance mandates that constrain eligibility for international applicants.",
   ],
-  visaNote:
-    "Visa approval depends on individual circumstances. Certain aerospace, defence and space-sector roles may impose citizenship, export-control or security-clearance requirements that affect international graduates. Always follow current US government and university guidance.",
+
+  visaLead: [
+    "Indian students accepted to an accredited USA  institution typically must complete the requisite student visa procedures.",
+    "Standard application procedures include:",
+  ],
+  visaSteps: [
+    "Investigate academic institutions and identify an appropriate Aerospace Engineering concentration.",
+    "Verify academic prerequisites and foundational coursework requirements.",
+    "Examine English-language proficiency and GRE examination criteria.",
+    "Assemble official transcripts, a Statement of Purpose, academic references, and curriculum vitae.",
+    "Submit completed applications in accordance with institutional deadlines.",
+    "Evaluate admission decisions, educational expenditures, and financial assistance options.",
+    "Procure essential student documentation from the academic institution.",
+    "Remit the applicable SEVIS fee and finalize the visa application.",
+    "Participate in the visa interview, when applicable, and arrange travel logistics following authorization.",
+  ],
+  visaNote: [],
+
   faqs: [
     {
-      q: "Can Indian students study postgraduate Aerospace Engineering in the USA?",
-      a: "Yes. Indian students holding a relevant bachelor's degree and the required academic credentials can apply to suitable postgraduate Aerospace Engineering programs.",
+      q: "Are Indian students eligible to pursue postgraduate Aerospace Engineering studies in the United States?",
+      a: "Yes. Indian students possessing a pertinent bachelor's degree and requisite academic credentials may apply to appropriate postgraduate curricula.",
     },
     {
-      q: "How long does a master's in Aerospace Engineering take in the USA?",
-      a: "Most postgraduate Aerospace Engineering programs take one to two years to complete, depending on credit requirements and whether you follow a thesis-based or course-based pathway.",
+      q: "What is the typical duration of a master's degree in Aerospace Engineering within the United States?",
+      a: "A postgraduate qualification can help graduates develop advanced technical skills for careers in aircraft engineering, space systems, propulsion, simulation, and aerospace research.",
     },
     {
       q: "Is the GRE compulsory for Aerospace Engineering admission?",
-      a: "No. GRE requirements vary by university and program — some institutions require it, while others make it optional or do not consider it.",
+      a: "No. GRE requirements vary by university and program. Some institutions require it, while others make it optional or do not consider it.",
     },
     {
       q: "Which specialisations are available in Aerospace Engineering?",
-      a: "Popular options include aerodynamics, propulsion, aircraft design, aerospace structures, flight control, space systems and satellite engineering.",
+      a: "Popular options include Aerodynamics, Propulsion, Aircraft Design, Aerospace Structures, Flight Control, Space Systems, and Satellite Engineering.",
     },
     {
       q: "Are scholarships available for Indian students?",
-      a: "Yes. Eligible students can explore merit scholarships, research assistantships, teaching assistantships and other funding opportunities, though availability and eligibility vary by institution and research project.",
+      a: "Yes. Eligible students may explore merit scholarships, research assistantships, teaching assistantships, and other funding opportunities. Availability and eligibility vary by institution and research project.",
     },
     {
-      q: "How can Edu Hawk Worldwide help me study Aerospace Engineering abroad?",
-      a: "Edu Hawk Worldwide helps students explore suitable universities, understand admission requirements, organise application documents and plan their study-abroad journey. Students should verify academic, financial, immigration and licensing requirements with the relevant official authorities.",
+      q: "How can Edu Hawk worldwide Consultancy help me study abroad?",
+      a: "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities.",
     },
   ],
 };
@@ -147,9 +228,19 @@ const SectionHeading = ({ eyebrow, title }) => (
   </div>
 );
 
-const ListCard = ({ children }) => (
-  <ul className="space-y-3">{children}</ul>
-);
+const ListCard = ({ children }) => <ul className="space-y-3">{children}</ul>;
+
+const DocParas = ({
+  items,
+  className = "max-w-3xl mb-6 text-slate-600 leading-relaxed space-y-4",
+}) =>
+  items && items.length ? (
+    <div className={className}>
+      {items.map((p, i) => (
+        <p key={i}>{p}</p>
+      ))}
+    </div>
+  ) : null;
 
 const Li = ({ text }) => (
   <li className="flex items-start gap-3">
@@ -342,11 +433,16 @@ const PostgraduateAerospaceEngineering = () => {
             eyebrow="Why the USA"
             title={`Why Study ${branch.name} in the USA?`}
           />
+          <DocParas items={branch.whyLead} />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-4">
             {branch.whyPoints.map((p) => (
               <Li key={p} text={p} />
             ))}
           </div>
+          <DocParas
+            items={branch.whyNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -357,11 +453,7 @@ const PostgraduateAerospaceEngineering = () => {
             eyebrow="Programs"
             title={`${branch.name} Courses in the USA`}
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">
-            Postgraduate students can pursue advanced programs across aircraft
-            and spacecraft engineering, with degree names and specialisations
-            that vary between institutions. Common degree pathways include:
-          </p>
+          <DocParas items={branch.coursesLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.courses.map((c) => (
               <div
@@ -372,6 +464,10 @@ const PostgraduateAerospaceEngineering = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.coursesNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -385,10 +481,10 @@ const PostgraduateAerospaceEngineering = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">
               Top Universities for {branch.name} in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-2xl">
-              Compare universities on academics, cost, facilities and
-              international admission policies before shortlisting.
-            </p>
+            <DocParas
+              items={branch.universitiesLead}
+              className="text-slate-500 text-[15px] leading-relaxed max-w-2xl space-y-3"
+            />
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {branch.universities.map((u) => (
@@ -421,6 +517,10 @@ const PostgraduateAerospaceEngineering = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.universitiesNote}
+            className="mt-6 max-w-3xl text-slate-500 text-[15px] leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -429,7 +529,10 @@ const PostgraduateAerospaceEngineering = () => {
         <div className="max-w-6xl mx-auto px-6">
           <SectionHeading eyebrow="How long" title="Program Duration" />
           <div className="bg-blue-50/60 border border-blue-100 rounded-2xl p-6 sm:p-8 max-w-3xl">
-            <p className="text-slate-700 leading-relaxed">{branch.duration}</p>
+            <DocParas
+              items={branch.duration}
+              className="text-slate-700 leading-relaxed space-y-4"
+            />
           </div>
         </div>
       </section>
@@ -442,6 +545,10 @@ const PostgraduateAerospaceEngineering = () => {
             title="Eligibility Requirements for Indian Students"
           />
           <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 max-w-3xl shadow-sm">
+            <DocParas
+              items={branch.eligibilityLead}
+              className="mb-5 text-slate-600 leading-relaxed space-y-4"
+            />
             <ListCard>
               {branch.eligibility.map((e) => (
                 <Li key={e} text={e} />
@@ -459,12 +566,10 @@ const PostgraduateAerospaceEngineering = () => {
               eyebrow="English proficiency"
               title="English Language Requirements"
             />
-            <p className="text-slate-600 mb-5">
-              International applicants may need to prove English competency
-              through a recognised test. Minimum scores differ by university,
-              and some universities may waive the requirement for students
-              educated in English-medium schools.
-            </p>
+            <DocParas
+              items={branch.englishLead}
+              className="mb-5 text-slate-600 leading-relaxed space-y-3"
+            />
             <div className="flex flex-wrap gap-3">
               {branch.englishTests.map((t) => (
                 <span
@@ -475,16 +580,20 @@ const PostgraduateAerospaceEngineering = () => {
                 </span>
               ))}
             </div>
-          </div>
-          <div>
-            <SectionHeading
-              eyebrow="Standardised tests"
-              title="GRE & Other Admission Tests"
+            <DocParas
+              items={branch.englishNote}
+              className="mt-5 text-slate-600 leading-relaxed space-y-4"
             />
-            <p className="text-slate-600 leading-relaxed">
-              {branch.testsNote}
-            </p>
           </div>
+          {branch.testsNote.length > 0 && (
+            <div>
+              <SectionHeading
+                eyebrow="Standardised tests"
+                title="GRE & Other Admission Tests"
+              />
+              <DocParas items={branch.testsNote} />
+            </div>
+          )}
         </div>
       </section>
 
@@ -495,7 +604,7 @@ const PostgraduateAerospaceEngineering = () => {
             eyebrow="Budget"
             title="Tuition Fees and Living Expenses"
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">{branch.costsNote}</p>
+          <DocParas items={branch.costsLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.costs.map((c) => (
               <div
@@ -506,6 +615,10 @@ const PostgraduateAerospaceEngineering = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.costsNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -518,19 +631,20 @@ const PostgraduateAerospaceEngineering = () => {
           />
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
             <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-sm">
+              <DocParas
+                items={branch.scholarshipsLead}
+                className="mb-5 text-slate-600 leading-relaxed space-y-4"
+              />
               <ListCard>
                 {branch.scholarships.map((s) => (
                   <Li key={s} text={s} />
                 ))}
               </ListCard>
             </div>
-            <p className="text-slate-600 leading-relaxed">
-              International students may qualify for merit-based scholarships,
-              university grants and other institutional awards. Availability
-              and scope vary across universities and programs — Edu Hawk
-              Worldwide helps you map realistic funding options for your
-              profile and budget.
-            </p>
+            <DocParas
+              items={branch.scholarshipsNote}
+              className="text-slate-600 leading-relaxed space-y-4"
+            />
           </div>
         </div>
       </section>
@@ -542,9 +656,8 @@ const PostgraduateAerospaceEngineering = () => {
             eyebrow="After graduation"
             title={`Career Opportunities After ${branch.name}`}
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">
-            {branch.careerIntro}
-          </p>
+          <DocParas items={branch.careerIntro ? [branch.careerIntro] : []} />
+          <DocParas items={branch.careerLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.careers.map((c) => (
               <div
@@ -555,6 +668,10 @@ const PostgraduateAerospaceEngineering = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.careerNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -565,7 +682,7 @@ const PostgraduateAerospaceEngineering = () => {
             eyebrow="Step by step"
             title="Visa & Application Process for Indian Students"
           />
-
+          <DocParas items={branch.visaLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {branch.visaSteps.map((s, i) => (
               <div
@@ -578,7 +695,6 @@ const PostgraduateAerospaceEngineering = () => {
                 {/* Animated Number Circle */}
                 <div className="mb-5 relative w-fit">
                   <div className="visa-number-circle relative flex items-center justify-center w-14 h-14 rounded-full border-2 border-orange-500 bg-orange-50 transition-all duration-500 group-hover:bg-gradient-to-br group-hover:from-orange-500 group-hover:to-orange-600 group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-lg group-hover:shadow-orange-200">
-
                     <span className="text-xl font-bold text-orange-500 transition-colors duration-500 group-hover:text-white">
                       {String(i + 1).padStart(2, "0")}
                     </span>
@@ -599,9 +715,10 @@ const PostgraduateAerospaceEngineering = () => {
             ))}
           </div>
 
-          <p className="mt-7 text-sm text-slate-500 max-w-3xl">
-            {branch.visaNote}
-          </p>
+          <DocParas
+            items={branch.visaNote}
+            className="mt-7 text-sm text-slate-500 max-w-3xl space-y-4"
+          />
         </div>
       </section>
 

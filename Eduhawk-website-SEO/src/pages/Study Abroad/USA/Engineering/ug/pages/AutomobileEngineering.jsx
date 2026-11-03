@@ -9,71 +9,140 @@ import michiganDearbornImg from "../../../../../../Images/Abroad/USA/Engineering
 const branch = {
   name: "Automobile Engineering",
   slug: "automobile-engineering",
-  title: "Automobile Engineering in USA for Indian Students | UG 2026 | Edu Hawk",
+  title:
+    "Automobile Engineering in USA for Indian Students | UG 2026 | Edu Hawk",
   description:
     "Study Bachelor's in Automobile Engineering in the USA after Class 12. Eligibility, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Automobile Engineering in USA for Indian Students, Best Automotive Engineering Universities in USA, Bachelor's in Automobile Engineering in USA, Study Automobile Engineering in USA After 12th, Automotive Engineering Courses in USA, Automobile Engineering Admission Requirements in USA, Automobile Engineering Tuition Fees in USA, Automotive Engineering Scholarships for Indian Students, Top Automotive Engineering Colleges in America, Automobile Engineering Eligibility for Indian Students, SAT Requirements for Automotive Engineering in USA, English Language Tests for US Universities, Career Opportunities After Automobile Engineering, Electric Vehicle Engineering Courses in USA, USA Student Visa for Indian Engineering Students",
   heroIntro:
-    "Undergraduate engineering programs in the USA cover automotive technology, vehicle design, manufacturing and mobility systems. Students learn the design, development, testing and improvement of vehicles through engineering principles, hands-on labs and industry-oriented projects, often via Mechanical Engineering, Automotive Engineering or related programs.",
+    "Undergraduate engineering courses in the United States cover areas such as automotive technology, vehicle design, manufacturing, and mobility systems. Students gain knowledge of the design, development, testing, and improvement of vehicles by means of engineering principles, hands-on laboratory work, and projects that are oriented towards the industry. A number of universities provide subjects related to automotive technology through their Mechanical Engineering, Automotive Engineering, or similar programs.",
   heroSub:
     "Edu Hawk Worldwide helps you explore international study options, understand university admission standards and prepare for your overseas education journey.",
+
+  whyLead: ["Key benefits include:"],
   whyPoints: [
-    "Opportunities to study vehicle design and automotive manufacturing.",
-    "Exposure to electric vehicles and hybrid powertrain technologies.",
-    "Practical learning through automotive laboratories and engineering projects.",
-    "Chances to explore self-driving cars and smart transportation systems.",
-    "Introduction to performance analysis, testing and vehicle safety.",
-    "Career paths in automotive manufacturing, mobility technology and vehicle development.",
+    "There are opportunities to study vehicle design and automotive manufacturing.",
+    "Being exposed to electric vehicles and hybrid powertrain technologies.",
+    "Learning in a practical way by means of automotive laboratories and engineering projects.",
+    "Chances to look into self-driving cars and smart transportation systems.",
+    "Being introduced to performance analysis, testing, and vehicle safety. .",
+    "The career paths available in the fields of automotive manufacturing, mobility technology, and vehicle development.",
+  ],
+  whyNote: [
+    "Edu Hawk worldwide assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey..",
+  ],
+
+  coursesLead: [
+    "In USA the degree of Automobile Engineering can be offered under a variety of titles, such as Automotive Engineering and Mechanical Engineering with an automotive specialisation.",
+    "Popular undergraduate degree options include:",
   ],
   courses: [
     "Bachelor of Science in Automotive Engineering",
     "Bachelor of Science in Mechanical Engineering",
     "Bachelor of Science in Automotive Engineering Technology",
     "Bachelor of Science in Mechanical Engineering Technology",
-    "Bachelor of Science in Engineering Technology with an automotive focus",
+    "Bachelor of Science in Engineering Technology with an automotive focus, where available",
   ],
-  duration:
-    "An undergraduate degree in Automotive or Automobile Engineering in the USA usually takes four years to complete. The curriculum may cover mathematics, physics, engineering mechanics, thermodynamics, materials science, vehicle dynamics, automotive systems, manufacturing processes and computer-aided design, with options to study electric vehicle systems, engine technology, vehicle safety, automotive electronics and control systems.",
+  coursesNote: [],
+
+  duration: [
+    "In the United States an undergraduate degree in Automotive or Automobile Engineering usually takes four years to finish.",
+    "The course could cover mathematics, physics, engineering mechanics, thermodynamics, materials science, vehicle dynamics, automotive systems, and manufacturing processes as well as computer-aided design.",
+    "At different universities students might also have the opportunity to study electric vehicle systems, engine technology, vehicle safety, automotive electronics, and control systems.",
+    "Through Edu Hawk worldwide study abroad guidance, students can explore these opportunities and understand the requirements involved in pursuing Automobile engineering education overseas.",
+  ],
+
+  eligibilityLead: [],
   eligibility: [
-    "Pass Class 12 from a recognised board.",
-    "Strength in Mathematics and Physics, plus any other subjects required by the university.",
-    "Marks that meet the institution's admission requirements.",
-    "English language proficiency, where required.",
-    "SAT or ACT scores, if the university requires them.",
-    "Academic transcripts and all other documents submitted with the application.",
+    "Indian students generally need to meet the following requirements:",
+    "Finishing the Class 12 course with a recognised educational board.",
+    "Mathematics and physics, together with any other subjects required by the university.",
+    "Marks that meet the requirements for admission by the institution.",
+    "English-language proficiency where required.",
+    "The SAT or ACT scores, if the university requires them.",
+    "The academic transcripts and all other documents submitted as part of the application.",
+    "The requirements differ from university to university and depending on the degree type. Students should check the exact eligibility criteria for the program they have chosen.",
+  ],
+
+  englishLead: [
+    "International students might be required to show that they have the necessary level of English by taking a test which is accepted.",
+    "Commonly accepted tests include:",
   ],
   englishTests: [
     "IELTS Academic",
     "TOEFL iBT",
     "PTE Academic",
-    "Duolingo English Test",
+    "Duolingo English Test, where accepted",
   ],
-  testsNote:
-    "The requirement for SAT or ACT scores varies from university to university and by admission cycle; some colleges require the scores while others follow a test-optional policy. No single entrance exam is required by all US universities for undergraduate study in Automotive or Mechanical Engineering — students should check the current admission policies, application deadlines and program-specific requirements.",
+  englishNote: [
+    "Institutions have different minimum scores, and certain universities may waive the English language proficiency requirement.",
+  ],
+
+  testsNote: [
+    "The requirement for SAT or ACT scores varies from university to university and according to the admission cycle; some colleges require the scores while others have a test-optional policy.",
+    "No single entrance examination is required by all US universities for undergraduate study in Automotive or Mechanical Engineering, and students should look into the current admission policies, application deadlines, and the requirements specific to each programme.",
+  ],
+
+  costsLead: [
+    "The amount that one has to pay to study undergraduate Automotive or Automobile Engineering in the USA varies according to the university, the location, and the accommodation arrangements.",
+    "Main expenses include:",
+  ],
   costs: [
-    "Tuition and academic fees",
-    "Accommodation and meals",
-    "Health insurance",
-    "Books, lab supplies and engineering equipment",
-    "Transportation and personal expenses",
-    "Visa, travel and initial settlement costs",
+    "Tuition and academic fees.",
+    "Accommodation and meals.",
+    "Health insurance.",
+    "Books, the supplies for the laboratory, and engineering equipment.",
+    "Transportation and personal expenses.",
+    "Visa, travel, and first settlement costs.",
   ],
-  costsNote:
-    "The cost of studying undergraduate Automotive or Automobile Engineering in the USA varies according to the university, its location and the accommodation arrangements.",
+  costsNote: [],
+
+  scholarshipsLead: [
+    "A number of universities in the United States provide scholarships and financial aid to international undergraduate students who are eligible.",
+    "Possible funding options include:",
+  ],
   scholarships: [
-    "Merit-based academic scholarships",
-    "International student scholarships",
-    "University-specific tuition reductions",
-    "Need-based financial aid for eligible international students",
-    "Scholarships from external organisations",
+    "Merit-based academic scholarships.",
+    "International student scholarships.",
+    "University-specific tuition reductions.",
+    "Financial assistance on a need basis is available to international students.",
+    "Scholarships provided externally by organisations that are eligible.",
+  ],
+  scholarshipsNote: [],
+
+  universitiesLead: [
+    "The following universities are worth researching for automotive engineering, mechanical engineering, or closely related undergraduate programs:",
   ],
   universities: [
-    { name: "University of Michigan–Dearborn", location: "Dearborn, Michigan" , img: michiganDearbornImg },
-    { name: "Kettering University", location: "Flint, Michigan" , img: ketteringImg },
-    { name: "Purdue University", location: "West Lafayette, Indiana" , img: purdueImg },
-    { name: "Michigan State University", location: "East Lansing, Michigan" , img: michiganStateImg },
+    {
+      name: "University of Michigan–Dearborn",
+      location: "Dearborn, Michigan",
+      img: michiganDearbornImg,
+    },
+    {
+      name: "Kettering University",
+      location: "Flint, Michigan",
+      img: ketteringImg,
+    },
+    {
+      name: "Purdue University",
+      location: "West Lafayette, Indiana",
+      img: purdueImg,
+    },
+    {
+      name: "Michigan State University",
+      location: "East Lansing, Michigan",
+      img: michiganStateImg,
+    },
   ],
+  universitiesNote: [
+    "The names of the programmes and their availability may differ, so students should check on the official university websites for the current name of the institution, the exact undergraduate degree offered, the curriculum, the admission requirements, the tuition fees, and the accreditation.",
+  ],
+
+  careerIntro:
+    "Graduates have the opportunity to pursue entry-level careers in automotive design, vehicle testing, manufacturing, electric mobility, and automotive systems.",
+  careerLead: ["Potential career roles include:"],
   careers: [
     "Automotive Design Engineer",
     "Vehicle Testing Engineer",
@@ -86,44 +155,51 @@ const branch = {
     "Production Engineer",
     "Automotive Research Assistant",
   ],
-  careerIntro:
-    "Graduates can pursue entry-level careers in automotive design, vehicle testing, manufacturing, electric mobility and automotive systems. Opportunities depend on technical skills, hands-on experience, employer demand and the right work permits, and some roles may need additional qualifications.",
-  visaSteps: [
-    "Research universities that offer automotive or related engineering programs.",
-    "Check academic eligibility and the required Class 12 subjects.",
-    "Review the English-language and standardised testing requirements.",
-    "Prepare academic transcripts and other required documents.",
-    "Submit applications by the respective deadlines.",
-    "Review admission offers and financial requirements.",
-    "Obtain the required student documents from the university.",
-    "Pay the SEVIS fee, complete the visa application and attend the interview if required.",
+  careerNote: [
+    "Career opportunities depend on technical skills, hands-on experience, what employers want, and the right work permits. Some jobs may need extra qualifications or experience.",
   ],
-  visaNote:
-    "Visa approval depends on individual circumstances. Always follow current US government and university guidance.",
+
+  visaLead: [
+    "Indian students who have been accepted by a suitable US institution usually have to go through the relevant student visa procedure.",
+    "Typical steps include:",
+  ],
+  visaSteps: [
+    "Look at the research universities that offer programs in automotive or related engineering.",
+    "Check that you are academically eligible and see what Class 12 subjects are required.",
+    "Look at the requirements for English-language and standardised testing.",
+    "Get your academic transcripts and other required documents ready.",
+    "Make sure that your applications are submitted by the respective deadlines.",
+    "Look over admission offers and money requirements.",
+    "Get the student documents that are required from the university.",
+    "You must pay the relevant SEVIS fee and fill out the visa application.",
+    "If a visa interview is required, attend it and then prepare for travel once the visa has been approved.",
+  ],
+  visaNote: [],
+
   faqs: [
     {
-      q: "Can Indian students study Automobile Engineering in the USA after Class 12?",
-      a: "Yes. Indian students who have completed Class 12 can apply for undergraduate engineering programs related to automotive studies, provided they meet the university's academic, subject and English language requirements.",
+      q: "Is it possible for Indian students to study Automobile Engineering in the United States after completing Class 12?",
+      a: "Yes, Indian students who have completed Class 12 are able to apply for undergraduate engineering programmes related to automotive studies provided that they satisfy the university's academic, subject, and English language requirements.",
     },
     {
       q: "Is Automobile Engineering available as a separate degree in the USA?",
-      a: "Some institutions offer specialised Automotive Engineering programs, while others include automotive topics within their Mechanical Engineering or Engineering Technology programs.",
+      a: "A number of institutions have specialised Automotive Engineering programs while others include automotive subjects as part of their Mechanical Engineering or Engineering Technology programs.",
     },
     {
-      q: "How long does it take to complete an undergraduate Automobile Engineering degree?",
-      a: "Most relevant undergraduate engineering programs take about four years to complete.",
+      q: "How long does it take to finish an undergraduate degree in Automobile Engineering?",
+      a: "The most relevant undergraduate engineering programmes generally take about four years to finish.",
     },
     {
-      q: "Which subjects are important for Automobile Engineering?",
-      a: "Mathematics and physics form the key foundations, while computer science and chemistry can also be useful depending on the specific program.",
+      q: "What subjects are important in the field of Automobile Engineering?",
+      a: "Mathematics and physics form important foundations, while computer science and chemistry could also be useful it depends on the particular program.",
     },
     {
-      q: "Are scholarships available for Indian students?",
-      a: "Yes. A number of universities offer merit-based scholarships and other financial aid to eligible international students, though the extent of the aid and the amounts awarded vary.",
+      q: "Do Indian students have access to scholarships?",
+      a: "Certainly. A number of universities provide merit-based scholarships and other financial aid to international students who are eligible. The extent of this aid and the amounts awarded will differ.",
     },
     {
-      q: "How can Edu Hawk Worldwide help me study Automobile Engineering abroad?",
-      a: "Edu Hawk Worldwide helps students explore suitable universities, understand admission requirements, organise application documents and plan their study-abroad journey. Students should verify academic, financial, immigration and licensing requirements with the relevant official authorities.",
+      q: "How can Edu Hawk worldwide help me study abroad?",
+      a: "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities.",
     },
   ],
 };
@@ -137,9 +213,19 @@ const SectionHeading = ({ eyebrow, title }) => (
   </div>
 );
 
-const ListCard = ({ children }) => (
-  <ul className="space-y-3">{children}</ul>
-);
+const ListCard = ({ children }) => <ul className="space-y-3">{children}</ul>;
+
+const DocParas = ({
+  items,
+  className = "max-w-3xl mb-6 text-slate-600 leading-relaxed space-y-4",
+}) =>
+  items && items.length ? (
+    <div className={className}>
+      {items.map((p, i) => (
+        <p key={i}>{p}</p>
+      ))}
+    </div>
+  ) : null;
 
 const Li = ({ text }) => (
   <li className="flex items-start gap-3">
@@ -332,11 +418,16 @@ const AutomobileEngineeringUG = () => {
             eyebrow="Why the USA"
             title={`Why Study ${branch.name} in the USA?`}
           />
+          <DocParas items={branch.whyLead} />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-4">
             {branch.whyPoints.map((p) => (
               <Li key={p} text={p} />
             ))}
           </div>
+          <DocParas
+            items={branch.whyNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -347,11 +438,7 @@ const AutomobileEngineeringUG = () => {
             eyebrow="Programs"
             title={`${branch.name} Courses in the USA`}
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">
-            In the USA, Automobile Engineering may be offered under a variety of
-            titles, such as Automotive Engineering or Mechanical Engineering
-            with an automotive specialisation. Common degree pathways include:
-          </p>
+          <DocParas items={branch.coursesLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.courses.map((c) => (
               <div
@@ -362,6 +449,10 @@ const AutomobileEngineeringUG = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.coursesNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -375,10 +466,10 @@ const AutomobileEngineeringUG = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">
               Top Universities for {branch.name} in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-2xl">
-              Compare universities on academics, cost, facilities and
-              international admission policies before shortlisting.
-            </p>
+            <DocParas
+              items={branch.universitiesLead}
+              className="text-slate-500 text-[15px] leading-relaxed max-w-2xl space-y-3"
+            />
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {branch.universities.map((u) => (
@@ -411,6 +502,10 @@ const AutomobileEngineeringUG = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.universitiesNote}
+            className="mt-6 max-w-3xl text-slate-500 text-[15px] leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -419,7 +514,10 @@ const AutomobileEngineeringUG = () => {
         <div className="max-w-6xl mx-auto px-6">
           <SectionHeading eyebrow="How long" title="Program Duration" />
           <div className="bg-blue-50/60 border border-blue-100 rounded-2xl p-6 sm:p-8 max-w-3xl">
-            <p className="text-slate-700 leading-relaxed">{branch.duration}</p>
+            <DocParas
+              items={branch.duration}
+              className="text-slate-700 leading-relaxed space-y-4"
+            />
           </div>
         </div>
       </section>
@@ -432,6 +530,10 @@ const AutomobileEngineeringUG = () => {
             title="Eligibility Requirements for Indian Students"
           />
           <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 max-w-3xl shadow-sm">
+            <DocParas
+              items={branch.eligibilityLead}
+              className="mb-5 text-slate-600 leading-relaxed space-y-4"
+            />
             <ListCard>
               {branch.eligibility.map((e) => (
                 <Li key={e} text={e} />
@@ -449,12 +551,10 @@ const AutomobileEngineeringUG = () => {
               eyebrow="English proficiency"
               title="English Language Requirements"
             />
-            <p className="text-slate-600 mb-5">
-              International applicants may need to prove English competency
-              through a recognised test. Minimum scores differ by university,
-              and some universities may waive the requirement for students
-              educated in English-medium schools.
-            </p>
+            <DocParas
+              items={branch.englishLead}
+              className="mb-5 text-slate-600 leading-relaxed space-y-3"
+            />
             <div className="flex flex-wrap gap-3">
               {branch.englishTests.map((t) => (
                 <span
@@ -465,15 +565,17 @@ const AutomobileEngineeringUG = () => {
                 </span>
               ))}
             </div>
+            <DocParas
+              items={branch.englishNote}
+              className="mt-5 text-slate-600 leading-relaxed space-y-4"
+            />
           </div>
           <div>
             <SectionHeading
               eyebrow="Standardised tests"
               title="SAT & Other Admission Tests"
             />
-            <p className="text-slate-600 leading-relaxed">
-              {branch.testsNote}
-            </p>
+            <DocParas items={branch.testsNote} />
           </div>
         </div>
       </section>
@@ -485,7 +587,7 @@ const AutomobileEngineeringUG = () => {
             eyebrow="Budget"
             title="Tuition Fees and Living Expenses"
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">{branch.costsNote}</p>
+          <DocParas items={branch.costsLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.costs.map((c) => (
               <div
@@ -496,6 +598,10 @@ const AutomobileEngineeringUG = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.costsNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -508,19 +614,20 @@ const AutomobileEngineeringUG = () => {
           />
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
             <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-sm">
+              <DocParas
+                items={branch.scholarshipsLead}
+                className="mb-5 text-slate-600 leading-relaxed space-y-4"
+              />
               <ListCard>
                 {branch.scholarships.map((s) => (
                   <Li key={s} text={s} />
                 ))}
               </ListCard>
             </div>
-            <p className="text-slate-600 leading-relaxed">
-              International students may qualify for merit-based scholarships,
-              university grants and other institutional awards. Availability
-              and scope vary across universities and programs — Edu Hawk
-              Worldwide helps you map realistic funding options for your
-              profile and budget.
-            </p>
+            <DocParas
+              items={branch.scholarshipsNote}
+              className="text-slate-600 leading-relaxed space-y-4"
+            />
           </div>
         </div>
       </section>
@@ -532,9 +639,8 @@ const AutomobileEngineeringUG = () => {
             eyebrow="After graduation"
             title={`Career Opportunities After ${branch.name}`}
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">
-            {branch.careerIntro}
-          </p>
+          <DocParas items={branch.careerIntro ? [branch.careerIntro] : []} />
+          <DocParas items={branch.careerLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.careers.map((c) => (
               <div
@@ -545,6 +651,10 @@ const AutomobileEngineeringUG = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.careerNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -555,7 +665,7 @@ const AutomobileEngineeringUG = () => {
             eyebrow="Step by step"
             title="Visa & Application Process for Indian Students"
           />
-
+          <DocParas items={branch.visaLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {branch.visaSteps.map((s, i) => (
               <div
@@ -568,7 +678,6 @@ const AutomobileEngineeringUG = () => {
                 {/* Animated Number Circle */}
                 <div className="mb-5 relative w-fit">
                   <div className="visa-number-circle relative flex items-center justify-center w-14 h-14 rounded-full border-2 border-orange-500 bg-orange-50 transition-all duration-500 group-hover:bg-gradient-to-br group-hover:from-orange-500 group-hover:to-orange-600 group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-lg group-hover:shadow-orange-200">
-
                     <span className="text-xl font-bold text-orange-500 transition-colors duration-500 group-hover:text-white">
                       {String(i + 1).padStart(2, "0")}
                     </span>
@@ -589,9 +698,10 @@ const AutomobileEngineeringUG = () => {
             ))}
           </div>
 
-          <p className="mt-7 text-sm text-slate-500 max-w-3xl">
-            {branch.visaNote}
-          </p>
+          <DocParas
+            items={branch.visaNote}
+            className="mt-7 text-sm text-slate-500 max-w-3xl space-y-4"
+          />
         </div>
       </section>
 

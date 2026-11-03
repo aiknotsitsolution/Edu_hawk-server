@@ -59,11 +59,13 @@ const highlights = [
   },
   {
     label: "Tuition",
-    value: "Varies by university, program length and location; assistantships can offset costs",
+    value:
+      "Varies by university, program length and location; assistantships can offset costs",
   },
   {
     label: "Entry",
-    value: "Relevant bachelor's degree, official transcripts + English proficiency",
+    value:
+      "Relevant bachelor's degree, official transcripts + English proficiency",
   },
   {
     label: "Tests",
@@ -82,23 +84,23 @@ const steps = [
 const faqs = [
   {
     q: "Can Indian students pursue postgraduate engineering in the USA?",
-    a: "Yes. Candidates with a relevant bachelor's degree and the required academic credentials are eligible to apply to postgraduate engineering programs in the United States.",
+    a: "Yes. Candidates possessing a relevant bachelor's degree and requisite academic credentials are eligible to apply to postgraduate engineering programs.",
   },
   {
     q: "How long does a master's in engineering take in the USA?",
-    a: "Most master's programs take about one to two years to complete, depending on the university and the program structure.",
+    a: "The majority of master's programs require approximately one to two years for completion, contingent upon the institution and program configuration.",
   },
   {
     q: "Is the GRE compulsory for admission?",
-    a: "No. GRE requirements vary across institutions and programs — some universities mandate GRE scores, while others treat it as optional or do not require it at all. Always check each university's current policy.",
+    a: "No. Graduate Record Examination requirements vary across institutions and programs. Certain universities do not mandate GRE scores.",
   },
   {
     q: "Are scholarships available for Indian students?",
-    a: "Yes. Many universities offer merit-based scholarships, research assistantships, teaching assistantships and other financial assistance to qualifying international students; assistantships may also include tuition remission.",
+    a: "Yes. Numerous universities extend merit-based scholarships, research assistantships, teaching assistantships, or supplementary financial assistance to qualified international students.",
   },
   {
     q: "What career opportunities are available after postgraduate engineering?",
-    a: "Graduates can pursue specialised roles in engineering design, research and development, technology, manufacturing, infrastructure and project management, subject to employer requirements and US work authorization rules.",
+    a: "Graduates may pursue specialized positions in engineering design, research and development, technology, manufacturing, infrastructure, or project management, contingent upon their academic qualifications and professional credentials.",
   },
 ];
 
@@ -334,41 +336,31 @@ const PostgraduateEngineering = () => {
               Overview
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900">
-              Why Study Postgraduate Engineering in the USA?
+              Postgraduate Engineering in the USA for Indian Students
             </h2>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             <div className="space-y-5 text-slate-600 leading-relaxed">
               <p>
-                Master's programs in engineering in the USA take one to two
-                years to complete, depending on the degree framework and
-                university structure. Beyond advanced coursework, students gain
-                access to cutting-edge labs, research initiatives and
-                collaborations with industry partners, and can focus on a
-                particular specialisation within their branch.
-              </p>
-              <p>
-                Admission standardly requires a relevant bachelor's degree,
-                official academic transcripts and proof of English proficiency
-                through tests such as IELTS, TOEFL or PTE. Graduate Record
-                Examination (GRE) requirements differ by institution — some
-                universities mandate GRE scores, while others treat them as
-                optional or waive them entirely, so each university's rules
-                must be checked.
-              </p>
-              <p>
-                Total costs vary with the university, program length and
-                location, and include tuition, institutional fees and living
-                expenses. Many universities offer merit-based scholarships,
-                research assistantships and teaching assistantships to
-                qualifying international students, and assistantships often
-                come with tuition remission.
-              </p>
-              <p>
-                After graduation, engineers can pursue specialised careers in
-                engineering design, research and development, technology,
-                manufacturing and infrastructure — subject to employer
-                requirements and US work authorization rules.
+                Indian students can develop advanced technical skills, research
+                techniques, and professionally useful knowledge by pursuing
+                postgraduate engineering education in the United States.
+                Master's degree programs in computer engineering, mechanical
+                engineering, civil engineering, electrical engineering, chemical
+                engineering, aerospace engineering, and biomedical engineering
+                are offered by academic institutions. Depending on the degree
+                framework and institutional structure, most master's programs
+                take one to two years to complete. Students get access to
+                cutting-edge labs, research initiatives, collaborations with
+                business partners, and chances to focus on a particular
+                discipline. A relevant bachelor's degree, official academic
+                records, and proof of English language proficiency are standard
+                requirements for admission. Institutions have different
+                requirements for the Graduate Record Examination (GRE). Subject
+                to employer requirements and pertinent employment authorization
+                laws, graduates may follow career paths in engineering,
+                technology, scientific research, manufacturing, and
+                infrastructure development.
               </p>
             </div>
             <div className="relative overflow-hidden rounded-2xl shadow-xl aspect-[3/2]">
@@ -475,7 +467,7 @@ const PostgraduateEngineering = () => {
               FAQs
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900">
-              Frequently Asked Questions
+              Frequently Asked Questions (FAQs)
             </h2>
           </div>
           <div className="space-y-3">

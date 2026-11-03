@@ -11,74 +11,155 @@ import utAustinImg from "../../../../../../Images/Abroad/USA/Engineering_UG/Mech
 const branch = {
   name: "Mechanical Engineering",
   slug: "mechanical-engineering",
-  title: "Mechanical Engineering in USA for Indian Students | UG 2026 | Edu Hawk",
+  title:
+    "Mechanical Engineering in USA for Indian Students | UG 2026 | Edu Hawk",
   description:
     "Study Bachelor's in Mechanical Engineering in the USA after Class 12. Eligibility, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Mechanical Engineering in USA, Best Mechanical Engineering Universities in USA, Bachelor's in Mechanical Engineering in USA, Mechanical Engineering Courses in USA, Study Mechanical Engineering in USA After 12th, Mechanical Engineering Admission Requirements in USA, Eligibility for Indian Students to Study in USA, Mechanical Engineering Tuition Fees in USA, Mechanical Engineering Scholarships for Indian Students, Top Mechanical Engineering Colleges in America, SAT Requirements for Mechanical Engineering in USA, English Language Tests for US Universities, Career Opportunities After Mechanical Engineering, Automotive and Aerospace Engineering in USA, USA Student Visa for Indian Engineering Students",
   heroIntro:
-    "The United States is a top destination for Mechanical Engineering, combining strong engineering teaching with modern research facilities and a robust industrial ecosystem. Universities pair classroom theory with hands-on lab work, design projects and industry partnerships, and Indian students after Class 12 can pursue a four-year bachelor's degree with access to these opportunities.",
+    "The United States represents a highly sought-after destination for students studying mechanical engineering owing to its sophisticated engineering pedagogy, state-of-the-art research infrastructure, and robust industrial framework. Academic institutions integrate theoretical instruction with hands-on experience via laboratory work, engineering initiatives, design seminars, and partnerships with industry stakeholders.",
   heroSub:
     "Edu Hawk Worldwide helps you shortlist universities, understand admission requirements and plan your complete study-abroad journey.",
+
+  whyLead: ["Principal advantages encompass:"],
   whyPoints: [
-    "Access to advanced engineering laboratories and research infrastructure.",
-    "Opportunities to build skills in computer-aided design, robotics and automation technologies.",
-    "Practical learning through capstone projects, internships and cooperative education programs.",
-    "Exposure to the automotive, aerospace, manufacturing and energy sectors.",
-    "Access to cutting-edge technologies such as additive manufacturing and sustainable engineering practices.",
-    "Career pathways across a wide range of engineering disciplines.",
+    "Access to sophisticated engineering laboratories and research infrastructure.",
+    "Opportunities to acquire proficiency in computer-aided design, robotics, and automation technologies.",
+    "Practical engagement through capstone projects, internship placements, and cooperative education programs.",
+    "Exposure to automotive, aerospace, manufacturing, and energy sectors.",
+    "Access to cutting-edge technologies including additive manufacturing and sustainable engineering practices.",
+    "Career pathways across diverse engineering disciplines.",
+  ],
+  whyNote: [
+    "Edu Hawk worldwide assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey..",
+  ],
+
+  coursesLead: [
+    "Students may select undergraduate curricula emphasizing machine design, manufacturing processes, materials science, thermodynamics, and mechanical systems.",
+    "Prevalent undergraduate degree offerings include:",
   ],
   courses: [
     "Bachelor of Science in Mechanical Engineering",
     "Bachelor of Engineering in Mechanical Engineering",
     "Bachelor of Science in Aerospace and Mechanical Engineering",
     "Bachelor of Science in Manufacturing Engineering",
-    "Bachelor of Science in Engineering Science with a Mechanical Engineering specialisation",
+    "Bachelor of Science in Engineering Science with Mechanical Engineering specialization",
   ],
-  duration:
-    "An undergraduate Mechanical Engineering degree in the USA typically takes four years. The curriculum covers engineering mathematics, physics, mechanics, thermodynamics, fluid mechanics, materials science, manufacturing processes, machine design and computer-aided engineering. Some universities also offer co-op placements, internships or research opportunities that may affect the total duration of study.",
+  coursesNote: ["."],
+
+  duration: [
+    "An undergraduate Mechanical Engineering degree in the United States typically requires four years for completion.",
+    "The academic program generally encompasses engineering mathematics, physics, mechanics, thermodynamics, fluid mechanics, materials science, manufacturing processes, machine design, and computer-aided engineering.",
+    "Certain universities provide cooperative education placements, internship opportunities, or research engagements that may influence the total duration of study.",
+    "With Edu Hawk Worldwide University selection guidance, students can compare suitable institutions based on academic background, budget, preferred location, and long-term professional goals.",
+  ],
+
+  eligibilityLead: [
+    "Indian applicants are typically required to satisfy the following conditions:",
+  ],
   eligibility: [
-    "Pass Class 12 from a recognised board.",
-    "Strength in Mathematics and Physics, plus other subjects as required by the university.",
-    "Academic performance meeting the university's admission standards.",
-    "English language proficiency, where applicable.",
-    "SAT or ACT scores if required by the university.",
-    "Official academic records and supporting documents for the application.",
+    "Successful completion of Class 12 examinations from an accredited educational institution.",
+    "Proficiency in mathematics and physics, supplemented by additional subjects as mandated by the prospective university.",
+    "Academic achievement that meets the requirements set out by the university for admission.",
+    "Demonstrated competency in the English language where applicable.",
+    "Standardized test scores from the SAT or ACT, if mandated by the institution.",
+    "Official academic records and supplementary documentation.",
+    "Admission prerequisites differ across institutions; consequently, applicants should thoroughly examine the admission specifications for each selected program.",
+  ],
+
+  englishLead: [
+    "International applicants may be obligated to establish English language Proficiency through a recognized standardized examination.",
+    "Widely recognized assessments include:",
   ],
   englishTests: [
     "IELTS Academic",
     "TOEFL iBT",
     "PTE Academic",
-    "Duolingo English Test",
+    "Duolingo English Test, where recognized by the institution",
   ],
-  testsNote:
-    "SAT or ACT requirements depend on the university and admission cycle — some institutions require scores, while others are test-optional. There is no single entrance exam mandatory for all US universities for undergraduate Mechanical Engineering; always check the latest requirements and deadlines of your chosen institutions.",
+  englishNote: [
+    "Minimum score thresholds vary across universities. Certain institutions may grant exemptions under particular circumstances.",
+  ],
+
+  testsNote: [
+    "SAT or ACT score requirements are contingent upon the specific university and admission cycle. Certain institutions mandate scores, whereas others maintain test-optional admission policies.",
+    "No standardized entrance examination is universally mandated by all USA universities for undergraduate Mechanical Engineering programs. Applicants should carefully review each university's prevailing admission requirements and application deadlines.",
+  ],
+
+  costsLead: [
+    "The aggregate expenditure for pursuing a degree in Mechanical Engineering within the United States is contingent upon institutional selection, geographic location, and personal consumption patterns.",
+    "Primary financial obligations encompass:",
+  ],
   costs: [
-    "University tuition and academic fees",
-    "Accommodation and meals",
-    "Health insurance",
-    "Books, engineering resources and equipment",
-    "Local transport and personal expenses",
-    "Visa fees, travel and relocation costs",
+    "Tuition and institutional fees.",
+    "Residential accommodation and nutritional provisions.",
+    "Medical insurance coverage.",
+    "Academic materials, specialized engineering resources, and instrumentation.",
+    "Regional transit expenses and miscellaneous personal expenditures.",
+    "Immigration documentation, airfare, and relocation expenses.",
   ],
-  costsNote:
-    "Total cost depends on the university you choose, its location and your lifestyle. Evaluate the full annual cost of attendance rather than tuition alone, and verify current figures on official university websites.",
+  costsNote: [
+    "Prospective students are advised to evaluate the comprehensive annual cost of attendance, rather than restricting their analysis to tuition charges alone. Contemporary expense figures should be obtained and authenticated through institutional websites.",
+  ],
+
+  scholarshipsLead: [
+    "International students may demonstrate eligibility for performance-based scholarships, institutional grants, or supplementary financial support, contingent upon the specific institution's policies.",
+    "Available financial support mechanisms include:",
+  ],
   scholarships: [
-    "Merit-based scholarships",
-    "International student scholarships",
-    "University tuition remission programmes",
-    "Need-based financial aid for international students",
-    "External organisation funding",
+    "Academic achievement-based scholarships.",
+    "Scholarships designated for international student populations.",
+    "Institution-specific tuition remission programs.",
+    "Financial assistance predicated on demonstrated financial necessity, where international students maintain eligibility.",
+    "Financial awards administered by qualifying external organizations.",
+  ],
+  scholarshipsNote: [
+    "Students must thoroughly investigate scholarship application deadlines, qualification prerequisites, award renewal conditions, and the scope of coverage, including whether the award addresses tuition, subsistence expenses, or both categories.",
+  ],
+
+  universitiesLead: [
+    "The subsequent institutions merit comprehensive examination regarding their undergraduate Mechanical Engineering curricula:",
   ],
   universities: [
-    { name: "Massachusetts Institute of Technology", location: "Cambridge, Massachusetts" , img: mitImg },
-    { name: "Stanford University", location: "Stanford, California" , img: stanfordImg },
-    { name: "University of California", location: "California" , img: ucalImg },
-    { name: "Purdue University", location: "West Lafayette, Indiana" , img: purdueImg },
-    { name: "University of Texas at Austin", location: "Austin, Texas" , img: utAustinImg },
-    { name: "California Institute of Technology", location: "Pasadena, California" , img: caltechImg },
+    {
+      name: "Massachusetts Institute of Technology",
+      location: "Cambridge, Massachusetts",
+      img: mitImg,
+    },
+    {
+      name: "Stanford University",
+      location: "Stanford, California",
+      img: stanfordImg,
+    },
+    { name: "University of California", location: "California", img: ucalImg },
+    {
+      name: "Purdue University",
+      location: "West Lafayette, Indiana",
+      img: purdueImg,
+    },
+    {
+      name: "University of Texas at Austin",
+      location: "Austin, Texas",
+      img: utAustinImg,
+    },
+    {
+      name: "California Institute of Technology",
+      location: "Pasadena, California",
+      img: caltechImg,
+    },
   ],
+  universitiesNote: [],
+
+  careerIntro:
+    "Upon completion of a Mechanical Engineering degree, graduates possess the capacity to pursue professional opportunities across diverse sectors including -",
+  careerLead: [],
   careers: [
+    "product design manufacturing",
+    "energy production",
+    "Transportation",
+    "Aerospace",
+    "Automation technologies.",
     "Mechanical Design Engineer",
     "Manufacturing Engineer",
     "Automotive Engineer",
@@ -88,46 +169,54 @@ const branch = {
     "Product Development Engineer",
     "Quality Control Engineer",
     "Maintenance Engineer",
-    "Research and Development Engineer",
+    "Research and Development Engineer.",
   ],
-  careerIntro:
-    "Mechanical Engineering graduates can pursue roles across product design and manufacturing, energy production, transportation, aerospace and automation technologies. Availability and fit depend on your technical skills, experience, employer requirements and work authorisation.",
+  careerNote: [
+    "The spectrum of available professional positions encompasses the following roles:",
+    "The accessibility and suitability of career opportunities are contingent upon an individual's technical competencies, accumulated professional experience, organizational hiring specifications, and relevant employment authorization documentation.",
+  ],
+
+  visaLead: [
+    "Indian students who have been admitted to an accredited US institution are typically required to navigate the student visa process.",
+    "The standard procedure encompasses the following stages:",
+  ],
   visaSteps: [
-    "Research universities and compare Mechanical Engineering programs.",
-    "Check academic prerequisites and English language requirements.",
-    "Prepare transcripts, test scores and supporting documents.",
-    "Submit applications before university deadlines.",
-    "Review admission offers and costs.",
-    "Arrange required student documentation from the university.",
-    "Pay the SEVIS fee and complete the visa application.",
-    "Attend the visa interview where applicable and plan travel after approval.",
+    "Conduct research on universities and evaluate Mechanical Engineering curricula.",
+    "Verify prerequisite academic qualifications and English language proficiency standards.",
+    "Assemble official academic records and standardized examination scores as needed.",
+    "File applications in accordance with institutional submission deadlines.",
+    "Examine admission decisions and associated financial obligations.",
+    "Secure the requisite student documentation provided by the institution.",
+    "Remit the mandatory SEVIS fee and finalize the visa application materials.",
+    "Participate in the visa interview, when applicable, and make travel arrangements following authorization.",
+    "Visa authorization is contingent and not assured. Students must adhere to prevailing US government directives and institutional protocols.",
   ],
-  visaNote:
-    "Visa approval is not guaranteed and depends on individual circumstances. Always follow current US government and university guidance.",
+  visaNote: [],
+
   faqs: [
     {
-      q: "Can Indian students study Mechanical Engineering in the USA after Class 12?",
-      a: "Yes. Students who complete Class 12 and meet the university's academic, subject and English language requirements are eligible to apply.",
+      q: "Can Indian students pursue Mechanical Engineering studies in the USA following Class 12 completion?",
+      a: "Yes, Students who have successfully completed Class 12 and satisfy the institution's academic, disciplinary, and linguistic prerequisites are eligible to submit applications.",
     },
     {
-      q: "How long does a Mechanical Engineering degree in the USA take?",
-      a: "Most undergraduate Mechanical Engineering programs take about four years to complete.",
+      q: "What is the typical duration of a Mechanical Engineering degree program in the USA?",
+      a: "The majority of undergraduate Mechanical Engineering curricula require approximately four years for completion.",
     },
     {
-      q: "Which subjects are essential for Mechanical Engineering?",
-      a: "Mathematics and physics form the core foundation. Additional subjects such as chemistry and computer science can be helpful depending on the program.",
+      q: "Which academic disciplines are fundamental to Mechanical Engineering?",
+      a: "Mathematics and physics constitute essential foundational knowledge. Supplementary subjects including chemistry and computer science may prove advantageous, contingent upon program specifications.",
     },
     {
-      q: "Is financial aid available for Indian students?",
-      a: "Yes. Many universities offer merit-based scholarships and other financial support to international students, though availability and eligibility criteria vary across institutions.",
+      q: "Do financial aid opportunities exist for Indian students?",
+      a: "yes, Numerous institutions extend merit-based scholarships and supplementary financial support to international students, though availability and qualification criteria differ across institutions.",
     },
     {
-      q: "What career options are open to graduates?",
-      a: "Graduates can work in mechanical design, manufacturing, automotive engineering, aerospace, robotics, energy systems and product development.",
+      q: "What professional pathways are accessible to graduates?",
+      a: "Alumni may pursue careers in mechanical design, manufacturing processes, automotive engineering, aerospace applications, robotics development, energy systems, and product innovation.",
     },
     {
-      q: "How can Edu Hawk Worldwide help me study Mechanical Engineering abroad?",
-      a: "Edu Hawk Worldwide helps students explore suitable universities, understand admission requirements, organise application documents and plan their study-abroad journey. Students should verify academic, financial, immigration and licensing requirements with the relevant official authorities.",
+      q: "How can Edu Hawk worldwide help me study Mechanical engineering abroad?",
+      a: "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities. KEYWORDS - Study Mechanical Engineering in USA Best Mechanical Engineering Universities in USA Bachelor's in Mechanical Engineering in USA Mechanical Engineering Courses in USA Study Mechanical Engineering in USA After 12th Mechanical Engineering Admission Requirements in USA Eligibility for Indian Students to Study in USA Mechanical Engineering Tuition Fees in USA Mechanical Engineering Scholarships for Indian Students Top Mechanical Engineering Colleges in America SAT Requirements for Mechanical Engineering in USA English Language Tests for US Universities Career Opportunities After Mechanical Engineering Automotive and Aerospace Engineering in USA USA Student Visa for Indian Engineering Students Civil Engineering in the USA for Indian Students",
     },
   ],
 };
@@ -141,9 +230,19 @@ const SectionHeading = ({ eyebrow, title }) => (
   </div>
 );
 
-const ListCard = ({ children }) => (
-  <ul className="space-y-3">{children}</ul>
-);
+const ListCard = ({ children }) => <ul className="space-y-3">{children}</ul>;
+
+const DocParas = ({
+  items,
+  className = "max-w-3xl mb-6 text-slate-600 leading-relaxed space-y-4",
+}) =>
+  items && items.length ? (
+    <div className={className}>
+      {items.map((p, i) => (
+        <p key={i}>{p}</p>
+      ))}
+    </div>
+  ) : null;
 
 const Li = ({ text }) => (
   <li className="flex items-start gap-3">
@@ -336,11 +435,16 @@ const MechanicalEngineeringUG = () => {
             eyebrow="Why the USA"
             title={`Why Study ${branch.name} in the USA?`}
           />
+          <DocParas items={branch.whyLead} />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-4">
             {branch.whyPoints.map((p) => (
               <Li key={p} text={p} />
             ))}
           </div>
+          <DocParas
+            items={branch.whyNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -351,11 +455,7 @@ const MechanicalEngineeringUG = () => {
             eyebrow="Programs"
             title={`${branch.name} Courses in the USA`}
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">
-            Undergraduate programs focus on machine design, manufacturing
-            processes, materials science, thermodynamics and mechanical
-            systems. Common degree pathways include:
-          </p>
+          <DocParas items={branch.coursesLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.courses.map((c) => (
               <div
@@ -366,6 +466,10 @@ const MechanicalEngineeringUG = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.coursesNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -379,10 +483,10 @@ const MechanicalEngineeringUG = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">
               Top Universities for {branch.name} in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-2xl">
-              Compare universities on academics, cost, facilities and
-              international admission policies before shortlisting.
-            </p>
+            <DocParas
+              items={branch.universitiesLead}
+              className="text-slate-500 text-[15px] leading-relaxed max-w-2xl space-y-3"
+            />
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {branch.universities.map((u) => (
@@ -415,6 +519,10 @@ const MechanicalEngineeringUG = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.universitiesNote}
+            className="mt-6 max-w-3xl text-slate-500 text-[15px] leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -423,7 +531,10 @@ const MechanicalEngineeringUG = () => {
         <div className="max-w-6xl mx-auto px-6">
           <SectionHeading eyebrow="How long" title="Program Duration" />
           <div className="bg-blue-50/60 border border-blue-100 rounded-2xl p-6 sm:p-8 max-w-3xl">
-            <p className="text-slate-700 leading-relaxed">{branch.duration}</p>
+            <DocParas
+              items={branch.duration}
+              className="text-slate-700 leading-relaxed space-y-4"
+            />
           </div>
         </div>
       </section>
@@ -436,6 +547,10 @@ const MechanicalEngineeringUG = () => {
             title="Eligibility Requirements for Indian Students"
           />
           <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 max-w-3xl shadow-sm">
+            <DocParas
+              items={branch.eligibilityLead}
+              className="mb-5 text-slate-600 leading-relaxed space-y-4"
+            />
             <ListCard>
               {branch.eligibility.map((e) => (
                 <Li key={e} text={e} />
@@ -453,12 +568,10 @@ const MechanicalEngineeringUG = () => {
               eyebrow="English proficiency"
               title="English Language Requirements"
             />
-            <p className="text-slate-600 mb-5">
-              International applicants may need to prove English competency
-              through a recognised test. Minimum scores differ by university,
-              and some universities may waive the requirement for students
-              educated in English-medium schools.
-            </p>
+            <DocParas
+              items={branch.englishLead}
+              className="mb-5 text-slate-600 leading-relaxed space-y-3"
+            />
             <div className="flex flex-wrap gap-3">
               {branch.englishTests.map((t) => (
                 <span
@@ -469,15 +582,17 @@ const MechanicalEngineeringUG = () => {
                 </span>
               ))}
             </div>
+            <DocParas
+              items={branch.englishNote}
+              className="mt-5 text-slate-600 leading-relaxed space-y-4"
+            />
           </div>
           <div>
             <SectionHeading
               eyebrow="Standardised tests"
               title="SAT & Other Admission Tests"
             />
-            <p className="text-slate-600 leading-relaxed">
-              {branch.testsNote}
-            </p>
+            <DocParas items={branch.testsNote} />
           </div>
         </div>
       </section>
@@ -489,7 +604,7 @@ const MechanicalEngineeringUG = () => {
             eyebrow="Budget"
             title="Tuition Fees and Living Expenses"
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">{branch.costsNote}</p>
+          <DocParas items={branch.costsLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.costs.map((c) => (
               <div
@@ -500,6 +615,10 @@ const MechanicalEngineeringUG = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.costsNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -512,19 +631,20 @@ const MechanicalEngineeringUG = () => {
           />
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
             <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-sm">
+              <DocParas
+                items={branch.scholarshipsLead}
+                className="mb-5 text-slate-600 leading-relaxed space-y-4"
+              />
               <ListCard>
                 {branch.scholarships.map((s) => (
                   <Li key={s} text={s} />
                 ))}
               </ListCard>
             </div>
-            <p className="text-slate-600 leading-relaxed">
-              International students may qualify for merit-based scholarships,
-              university grants and other institutional awards. Availability
-              and scope vary across universities and programs — Edu Hawk
-              Worldwide helps you map realistic funding options for your
-              profile and budget.
-            </p>
+            <DocParas
+              items={branch.scholarshipsNote}
+              className="text-slate-600 leading-relaxed space-y-4"
+            />
           </div>
         </div>
       </section>
@@ -536,9 +656,8 @@ const MechanicalEngineeringUG = () => {
             eyebrow="After graduation"
             title={`Career Opportunities After ${branch.name}`}
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">
-            {branch.careerIntro}
-          </p>
+          <DocParas items={branch.careerIntro ? [branch.careerIntro] : []} />
+          <DocParas items={branch.careerLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.careers.map((c) => (
               <div
@@ -549,6 +668,10 @@ const MechanicalEngineeringUG = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.careerNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -559,7 +682,7 @@ const MechanicalEngineeringUG = () => {
             eyebrow="Step by step"
             title="Visa & Application Process for Indian Students"
           />
-
+          <DocParas items={branch.visaLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {branch.visaSteps.map((s, i) => (
               <div
@@ -572,7 +695,6 @@ const MechanicalEngineeringUG = () => {
                 {/* Animated Number Circle */}
                 <div className="mb-5 relative w-fit">
                   <div className="visa-number-circle relative flex items-center justify-center w-14 h-14 rounded-full border-2 border-orange-500 bg-orange-50 transition-all duration-500 group-hover:bg-gradient-to-br group-hover:from-orange-500 group-hover:to-orange-600 group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-lg group-hover:shadow-orange-200">
-
                     <span className="text-xl font-bold text-orange-500 transition-colors duration-500 group-hover:text-white">
                       {String(i + 1).padStart(2, "0")}
                     </span>
@@ -593,9 +715,10 @@ const MechanicalEngineeringUG = () => {
             ))}
           </div>
 
-          <p className="mt-7 text-sm text-slate-500 max-w-3xl">
-            {branch.visaNote}
-          </p>
+          <DocParas
+            items={branch.visaNote}
+            className="mt-7 text-sm text-slate-500 max-w-3xl space-y-4"
+          />
         </div>
       </section>
 

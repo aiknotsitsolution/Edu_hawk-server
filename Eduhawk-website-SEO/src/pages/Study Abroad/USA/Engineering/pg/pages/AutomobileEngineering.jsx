@@ -9,22 +9,33 @@ import michiganAnnArborImg from "../../../../../../Images/Abroad/USA/Engineering
 const branch = {
   name: "Automobile Engineering",
   slug: "automobile-engineering",
-  title: "MS in Automobile Engineering in USA for Indian Students | PG 2026 | Edu Hawk",
+  title:
+    "MS in Automobile Engineering in USA for Indian Students | PG 2026 | Edu Hawk",
   description:
     "Study Master's in Automobile Engineering in the USA. Eligibility, tuition fees, top universities, scholarships, specialisations, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Automobile Engineering in USA for Indian Students, Best Master's in Automotive Engineering Universities in USA, Master's in Automobile Engineering in USA for Indian Students, Postgraduate Automobile Engineering Courses in USA, Automotive Engineering Admission Requirements for Master's in USA, MS in Automotive Engineering Tuition Fees in USA, Automobile Engineering Scholarships for Indian Students, Top Graduate Automotive Engineering Colleges in America, Automobile Engineering Eligibility for Indian Students, GRE Requirements for MS in Automotive Engineering in USA, English Language Tests for US Universities, Career Opportunities After MS in Automotive Engineering, Electric Vehicle Engineering Master's Programs in USA, USA Student Visa for Indian Postgraduate Students",
   heroIntro:
-    "Postgraduate programs in the USA cover vehicle design, automotive electronics, powertrain systems and cutting-edge mobility technologies. Students build specialised expertise through world-class automotive research infrastructure, advanced laboratories and industry-oriented projects, often via Automotive Engineering, Mechanical Engineering, Mobility Engineering or related programs.",
+    "The United States represents a compelling option for postgraduate studies in Automobile Engineering, distinguished by its world-class automotive research infrastructure, robust vehicle manufacturing sector, and pioneering advancements in electric mobility, autonomous driving technologies, and intelligent transportation systems. Indian scholars can acquire specialized expertise in vehicle design, automotive electronics, powertrain systems, and cutting-edge mobility technologies.",
   heroSub:
     "Edu Hawk Worldwide helps you explore international study options, understand university admission standards and prepare for your overseas education journey.",
+
+  whyLead: ["Key benefits include:"],
   whyPoints: [
     "Access to state-of-the-art automotive engineering laboratories and comprehensive testing facilities.",
-    "Opportunities to investigate electric vehicles and hybrid powertrain technologies.",
-    "Specialised concentrations in vehicle dynamics, automotive design and control systems.",
-    "Exposure to autonomous driving systems, connected vehicle technologies and automotive software development.",
-    "Research opportunities in battery technology, advanced lightweight materials and sustainable mobility solutions.",
-    "Career paths in automotive manufacturing, electric mobility, vehicle testing and automotive research institutions.",
+    "Prospects for investigating electric vehicles and hybrid powertrain technologies.",
+    "Specialized concentrations in vehicle dynamics, automotive design, and control systems.",
+    "Exposure to autonomous driving systems, connected vehicle technologies, and automotive software development.",
+    "Investigative opportunities in battery technology, advanced lightweight materials, and sustainable mobility solutions.",
+    "Career trajectories in automotive manufacturing, electric mobility sectors, vehicle testing operations, and automotive research institutions.",
+  ],
+  whyNote: [
+    "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey..",
+  ],
+
+  coursesLead: [
+    "Within the United States, automobile-focused postgraduate curricula are typically administered through Mechanical Engineering, Automotive Engineering, Mobility Engineering, or allied engineering departments.",
+    "Popular degree options include:",
   ],
   courses: [
     "Master of Science in Automotive Engineering, where offered",
@@ -32,57 +43,126 @@ const branch = {
     "Master of Engineering in Mechanical Engineering",
     "Master of Science in Mobility Systems Engineering, where offered",
     "Master of Science in Vehicle Engineering, where offered",
-    "Master of Science in Electrical and Computer Engineering, emphasising automotive electronics and control systems",
-    "Master of Science in Robotics, where offered, focusing on autonomous vehicle technologies",
+    "Master of Science in Electrical and Computer Engineering, emphasizing automotive electronics and control systems",
+    "Master of Science in Robotics, where offered, concentrating on autonomous vehicle technologies",
+    "Automotive Design and Vehicle Development",
+    "Electric and Hybrid Vehicle Engineering",
+    "Powertrain and Engine Systems",
+    "Vehicle Dynamics and Control",
+    "Automotive Electronics and Embedded Systems",
+    "Autonomous and Connected Vehicles",
+    "Battery Technology and Energy Storage",
+    "Automotive Manufacturing and Production",
+    "Lightweight Materials and Vehicle Structures",
   ],
-  duration:
-    "A postgraduate degree in Automotive or Automobile Engineering in the USA typically takes one to two years to complete. The exact duration depends on institutional policies, credit requirements, the chosen specialisation and whether the student follows a thesis-based, research-based or coursework-based pathway. The curriculum commonly covers vehicle dynamics, powertrain design, automotive control systems, electric vehicle technology, computational modelling, vehicle safety and manufacturing processes, with specialisations such as electric and hybrid vehicle engineering, automotive electronics and embedded systems, autonomous and connected vehicles, battery technology, lightweight materials and automotive manufacturing.",
+  coursesNote: ["Common specialisations include:"],
+
+  duration: [
+    "Postgraduate programs in Automobile Engineering within the United States typically require a completion timeframe of one to two years.",
+    "The specific duration is contingent upon institutional policies, credit hour requirements, chosen area of specialization, and the student's selection of a thesis-oriented, research-oriented, or coursework-oriented academic pathway.",
+    "The program curriculum encompasses topics including vehicle dynamics, powertrain design, automotive control systems, electric vehicle technology, computational modelling, vehicle safety, and manufacturing processes.",
+  ],
+
+  eligibilityLead: [
+    "Indian students are generally expected to satisfy the following admission criteria:",
+  ],
   eligibility: [
-    "A bachelor's degree in Automobile Engineering, Mechanical Engineering, Automotive Engineering or an allied field.",
+    "A bachelor's degree in Automobile Engineering, Mechanical Engineering, Automotive Engineering, or an allied field of study.",
     "Official academic transcripts and degree certificates.",
-    "Minimum academic performance standards as set by the university.",
-    "English language proficiency, where required.",
-    "Graduate Record Examination (GRE) scores, if required by the program.",
+    "Minimum academic performance standards as established by the institution.",
+    "English-language proficiency, where mandated.",
+    "Graduate Record Examination (GRE) scores, if stipulated by the program.",
     "Statement of Purpose.",
     "Letters of Recommendation.",
     "Resume or Curriculum Vitae.",
-    "Relevant academic projects, internships, research work or professional experience, where applicable.",
-    "Some programs may consider applicants with Electrical, Electronics or Computer Engineering degrees for specialisations such as electric vehicles, embedded systems, vehicle electronics or autonomous driving, subject to prerequisite coursework.",
+    "Relevant academic projects, internships, research endeavors, or professional experience, where pertinent.",
+    "Certain programs may consider applicants holding degrees in Electrical Engineering, Electronics Engineering, or Computer Engineering for specializations in electric vehicles, embedded systems, vehicle electronics, or autonomous driving, contingent upon fulfillment of prerequisite coursework.",
+  ],
+
+  englishLead: [
+    "International students may be obligated to demonstrate English language competency through an accredited standardized examination.",
+    "Widely recognized assessments include:",
   ],
   englishTests: [
     "IELTS Academic",
     "TOEFL iBT",
     "PTE Academic",
-    "Duolingo English Test, where recognised by the institution",
+    "Duolingo English Test, where recognized by the institution",
   ],
-  testsNote:
-    "GRE requirements vary widely across postgraduate programs: some universities require GRE scores, while others keep the exam optional or do not consider it at all. Programs focused on mechanical and automotive engineering typically expect demonstrated proficiency in mathematics, mechanics, thermodynamics, materials science and engineering design. A competitive application usually includes academic credentials, vehicle design projects, internship experience, research contributions, technical software skills, academic references and a well-crafted Statement of Purpose.",
+  englishNote: [
+    "Minimum score thresholds and exemption criteria differ across universities. Prospective students should review the current English-language proficiency requirements specific to their intended program prior to submission of their application.",
+  ],
+
+  testsNote: [
+    "Graduate Record Examination (GRE) prerequisites demonstrate considerable variation across postgraduate programs. Certain institutions mandate GRE scores, whereas others designate the examination as optional or exclude it from consideration entirely.",
+    "Prospective applicants must examine the specific prerequisites corresponding to their chosen field of study. Programs emphasizing mechanical and automotive engineering typically necessitate demonstrated proficiency in mathematics, mechanics, thermodynamics, materials science, and engineering design principles.",
+    "A competitive application portfolio typically encompasses academic credentials, vehicle design initiatives, professional internship experience, research contributions, proficiency in technical software applications, academic references, and a comprehensive Statement of Purpose.",
+  ],
+
+  costsLead: [
+    "Postgraduate Automobile Engineering programs in the United States present variable financial requirements contingent upon institutional selection, geographic location, program duration, and accessible financial support mechanisms.",
+    "Primary financial considerations encompass:",
+  ],
   costs: [
-    "Tuition and institutional fees",
-    "Accommodation and meals",
-    "Health insurance",
-    "Books, software and study materials",
-    "Laboratory, vehicle testing and project costs, where applicable",
-    "Local transportation and personal expenses",
-    "Visa processing, travel and relocation costs",
+    "Tuition and institutional fees.",
+    "Residential accommodation and meal provisions.",
+    "Medical insurance coverage.",
+    "Academic materials including textbooks, software, and supplementary resources.",
+    "Laboratory operations, vehicle testing procedures, and project-associated expenditures, where applicable.",
+    "Regional transportation and miscellaneous personal expenses",
+    "Visa processing, international travel, and relocation expenses.",
   ],
-  costsNote:
-    "The cost of studying postgraduate Automotive or Automobile Engineering in the USA varies with the university, its location, program duration and the financial support available. Students should consult official tuition schedules and living expense estimates to build a realistic budget.",
+  costsNote: [
+    "Prospective students should consult official tuition schedules and living expense projections to establish comprehensive financial planning. Systematic evaluation of institutional fees, curricular structure, and available financial resources facilitates the development of an informed budgetary framework.",
+  ],
+
+  scholarshipsLead: [
+    "Qualified international students may investigate numerous financial support mechanisms for postgraduate Automobile Engineering and cognate disciplines.",
+    "Available funding alternatives encompass:",
+  ],
   scholarships: [
-    "Merit-based scholarships",
-    "Departmental scholarships",
-    "Graduate research assistantships",
-    "Graduate teaching assistantships",
-    "Tuition remission linked to qualifying assistantships",
-    "External scholarships from eligible funding organisations",
-    "Research funding for qualifying academic projects",
+    "Merit-based scholarship awards.",
+    "Departmental scholarship designations.",
+    "Graduate research assistantship positions.",
+    "Graduate teaching assistantship appointments.",
+    "Tuition remission provisions associated with qualifying assistantships.",
+    "External scholarships administered by eligible funding organizations.",
+    "Research funding may be accessible for qualifying scholarly projects",
+  ],
+  scholarshipsNote: [],
+
+  universitiesLead: [
+    "The following universities are worth researching for automotive-related study, Mechanical Engineering, mobility technologies, and vehicle research:",
   ],
   universities: [
-    { name: "University of Michigan–Ann Arbor", location: "Ann Arbor, Michigan" , img: michiganAnnArborImg },
-    { name: "Clemson University", location: "Clemson, South Carolina" , img: clemsonImg },
-    { name: "Ohio State University", location: "Columbus, Ohio" , img: ohioStateImg },
-    { name: "Massachusetts Institute of Technology", location: "Cambridge, Massachusetts" , img: mitImg },
+    {
+      name: "University of Michigan–Ann Arbor",
+      location: "Ann Arbor, Michigan",
+      img: michiganAnnArborImg,
+    },
+    {
+      name: "Clemson University",
+      location: "Clemson, South Carolina",
+      img: clemsonImg,
+    },
+    {
+      name: "Ohio State University",
+      location: "Columbus, Ohio",
+      img: ohioStateImg,
+    },
+    {
+      name: "Massachusetts Institute of Technology",
+      location: "Cambridge, Massachusetts",
+      img: mitImg,
+    },
   ],
+  universitiesNote: [
+    "It should be noted that not all enumerated institutions provide a discrete degree program designated as Automobile or Automotive Engineering.",
+  ],
+
+  careerIntro:
+    "Advanced postgraduate credentials facilitate the acquisition of sophisticated technical competencies applicable to vehicle development, electric mobility sectors, automotive manufacturing operations, quality assurance protocols, and intelligent transportation infrastructure.",
+  careerLead: ["Potential career roles include:"],
   careers: [
     "Automotive Design Engineer",
     "Vehicle Development Engineer",
@@ -97,44 +177,48 @@ const branch = {
     "Manufacturing and Production Engineer",
     "Research and Development Engineer",
   ],
-  careerIntro:
-    "A postgraduate qualification builds advanced technical skills for vehicle development, electric mobility, automotive manufacturing, quality assurance and intelligent transportation. Opportunities depend on technical skills, hands-on experience, employer demand and the right work permits, and some roles may require additional qualifications.",
-  visaSteps: [
-    "Research universities and identify a suitable automotive-focused field of study.",
-    "Verify academic eligibility and prerequisite subject requirements.",
-    "Review English-language proficiency and GRE requirements.",
-    "Prepare transcripts, Statement of Purpose, letters of recommendation and a resume.",
-    "Submit applications by the respective deadlines.",
-    "Evaluate admission offers, study costs and available financial aid.",
-    "Obtain the required student documents from the university.",
-    "Pay the SEVIS fee, complete the visa application and attend the interview if required.",
+  careerNote: ["."],
+
+  visaLead: [
+    "Indian students who gain admission to an accredited United States institution typically must navigate the requisite student visa application procedures.",
+    "Typical application steps include:",
   ],
-  visaNote:
-    "Visa approval depends on individual circumstances. Always follow current US government and university guidance.",
+  visaSteps: [
+    "Conduct comprehensive research on academic institutions and identify an appropriate automotive-focused field of study.",
+    "Verify academic prerequisites and subject matter requirements.",
+    "Examine English language proficiency standards and Graduate Record Examination (GRE) specifications.",
+    "Assemble necessary documentation including academic transcripts, a Statement of Purpose, academic references, and curriculum vitae.",
+    "Submit completed applications in accordance with institutional deadlines.",
+    "Evaluate admission decisions, educational costs, and available financial support mechanisms.",
+    "Secure requisite institutional documentation for visa purposes.",
+    "Remit the applicable SEVIS (Student and Exchange Visitor Information System) fee and finalize visa application materials.",
+  ],
+  visaNote: [],
+
   faqs: [
     {
-      q: "Are Indian students eligible to pursue postgraduate studies in Automobile Engineering in the USA?",
-      a: "Yes. Indian students holding a relevant undergraduate degree can apply to postgraduate programs in Automotive Engineering, Mechanical Engineering and related disciplines, provided they meet the university's academic and English language requirements.",
+      q: "Are Indian students eligible to pursue postgraduate studies in Automobile Engineering within the United States?",
+      a: "Yes,Indian students possessing a pertinent undergraduate degree may apply to accredited postgraduate programs in Automotive Engineering, Mechanical Engineering, and cognate disciplines.",
     },
     {
-      q: "What is the typical duration of a master's degree in Automobile Engineering in the USA?",
-      a: "Most relevant postgraduate programs take about one to two years to complete, depending on the university, program structure and research component.",
+      q: "What is the typical duration of a master's degree program in Automobile Engineering at United States institutions?",
+      a: "The majority of such programs require approximately one to two years for completion, contingent upon institutional factors, program structure, and research components.",
     },
     {
-      q: "Do all universities offer a standalone Automobile Engineering degree?",
-      a: "No. Some institutions offer specialised automotive programs, while others integrate automotive concentrations within Mechanical Engineering, Electrical Engineering or related departments.",
+      q: "Do all universities offer a discrete Automobile Engineering degree program?",
+      a: "No,Certain institutions provide specialized automotive programs, whereas others integrate automotive concentrations within Mechanical Engineering, Electrical Engineering, or allied academic departments.",
     },
     {
-      q: "Is the GRE mandatory for admission?",
-      a: "GRE requirements vary significantly across universities and programs. Some require GRE scores, while others list the exam as optional or do not consider it in admissions decisions.",
+      q: "Is the Graduate Record Examination mandatory for program admission?",
+      a: "No, Graduate Record Examination requirements demonstrate considerable variation across institutions and programs. Certain universities mandate it, while others designate it as optional or do not incorporate it into admissions criteria.",
     },
     {
-      q: "What specialisations are available in Automobile Engineering at the postgraduate level?",
-      a: "Common specialisations include electric vehicle technology, powertrain systems, vehicle dynamics and control, automotive electronics, autonomous vehicle technology, battery technology and energy storage, and vehicle design and development.",
+      q: "What specialized concentrations exist within the Automobile Engineering discipline?",
+      a: "Prevalent specializations encompass Electric Vehicle Technology, Powertrain Systems, Vehicle Dynamics and Control, Automotive Electronics Systems, Autonomous Vehicle Technology, Battery Technology and Energy Storage, and Vehicle Design and Development.",
     },
     {
-      q: "How can Edu Hawk Worldwide help me study Automobile Engineering abroad?",
-      a: "Edu Hawk Worldwide helps students explore suitable universities, understand admission requirements, organise application documents and plan their study-abroad journey. Students should verify academic, financial, immigration and licensing requirements with the relevant official authorities.",
+      q: "How can Edu Hawk worldwide Consultancy help me study abroad?",
+      a: "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities.",
     },
   ],
 };
@@ -148,9 +232,19 @@ const SectionHeading = ({ eyebrow, title }) => (
   </div>
 );
 
-const ListCard = ({ children }) => (
-  <ul className="space-y-3">{children}</ul>
-);
+const ListCard = ({ children }) => <ul className="space-y-3">{children}</ul>;
+
+const DocParas = ({
+  items,
+  className = "max-w-3xl mb-6 text-slate-600 leading-relaxed space-y-4",
+}) =>
+  items && items.length ? (
+    <div className={className}>
+      {items.map((p, i) => (
+        <p key={i}>{p}</p>
+      ))}
+    </div>
+  ) : null;
 
 const Li = ({ text }) => (
   <li className="flex items-start gap-3">
@@ -343,11 +437,16 @@ const PostgraduateAutomobileEngineering = () => {
             eyebrow="Why the USA"
             title={`Why Study ${branch.name} in the USA?`}
           />
+          <DocParas items={branch.whyLead} />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-4">
             {branch.whyPoints.map((p) => (
               <Li key={p} text={p} />
             ))}
           </div>
+          <DocParas
+            items={branch.whyNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -358,15 +457,7 @@ const PostgraduateAutomobileEngineering = () => {
             eyebrow="Programs"
             title={`${branch.name} Courses in the USA`}
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">
-            In the USA, automobile-focused postgraduate programs are typically
-            offered through Automotive Engineering, Mechanical Engineering,
-            Mobility Engineering or related departments, with specialisations
-            such as electric and hybrid vehicles, powertrain systems, vehicle
-            dynamics, automotive electronics, autonomous vehicles, battery
-            technology and automotive manufacturing. Common degree pathways
-            include:
-          </p>
+          <DocParas items={branch.coursesLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.courses.map((c) => (
               <div
@@ -377,6 +468,10 @@ const PostgraduateAutomobileEngineering = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.coursesNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -390,12 +485,10 @@ const PostgraduateAutomobileEngineering = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">
               Top Universities for {branch.name} in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-2xl">
-              These universities are worth researching for automotive-related
-              study, mechanical engineering, mobility technologies and vehicle
-              research. Note that not all of them offer a standalone Automobile
-              or Automotive Engineering degree.
-            </p>
+            <DocParas
+              items={branch.universitiesLead}
+              className="text-slate-500 text-[15px] leading-relaxed max-w-2xl space-y-3"
+            />
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {branch.universities.map((u) => (
@@ -428,6 +521,10 @@ const PostgraduateAutomobileEngineering = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.universitiesNote}
+            className="mt-6 max-w-3xl text-slate-500 text-[15px] leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -436,7 +533,10 @@ const PostgraduateAutomobileEngineering = () => {
         <div className="max-w-6xl mx-auto px-6">
           <SectionHeading eyebrow="How long" title="Program Duration" />
           <div className="bg-blue-50/60 border border-blue-100 rounded-2xl p-6 sm:p-8 max-w-3xl">
-            <p className="text-slate-700 leading-relaxed">{branch.duration}</p>
+            <DocParas
+              items={branch.duration}
+              className="text-slate-700 leading-relaxed space-y-4"
+            />
           </div>
         </div>
       </section>
@@ -449,6 +549,10 @@ const PostgraduateAutomobileEngineering = () => {
             title="Eligibility Requirements for Indian Students"
           />
           <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 max-w-3xl shadow-sm">
+            <DocParas
+              items={branch.eligibilityLead}
+              className="mb-5 text-slate-600 leading-relaxed space-y-4"
+            />
             <ListCard>
               {branch.eligibility.map((e) => (
                 <Li key={e} text={e} />
@@ -466,13 +570,10 @@ const PostgraduateAutomobileEngineering = () => {
               eyebrow="English proficiency"
               title="English Language Requirements"
             />
-            <p className="text-slate-600 mb-5">
-              International students may need to demonstrate English language
-              competency through a recognised standardised test. Minimum score
-              thresholds and exemption criteria differ across universities, so
-              applicants should review the requirements specific to their
-              intended program before applying.
-            </p>
+            <DocParas
+              items={branch.englishLead}
+              className="mb-5 text-slate-600 leading-relaxed space-y-3"
+            />
             <div className="flex flex-wrap gap-3">
               {branch.englishTests.map((t) => (
                 <span
@@ -483,15 +584,17 @@ const PostgraduateAutomobileEngineering = () => {
                 </span>
               ))}
             </div>
+            <DocParas
+              items={branch.englishNote}
+              className="mt-5 text-slate-600 leading-relaxed space-y-4"
+            />
           </div>
           <div>
             <SectionHeading
               eyebrow="Standardised tests"
               title="GRE & Other Admission Tests"
             />
-            <p className="text-slate-600 leading-relaxed">
-              {branch.testsNote}
-            </p>
+            <DocParas items={branch.testsNote} />
           </div>
         </div>
       </section>
@@ -503,7 +606,7 @@ const PostgraduateAutomobileEngineering = () => {
             eyebrow="Budget"
             title="Tuition Fees and Living Expenses"
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">{branch.costsNote}</p>
+          <DocParas items={branch.costsLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.costs.map((c) => (
               <div
@@ -514,6 +617,10 @@ const PostgraduateAutomobileEngineering = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.costsNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -526,21 +633,20 @@ const PostgraduateAutomobileEngineering = () => {
           />
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
             <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-sm">
+              <DocParas
+                items={branch.scholarshipsLead}
+                className="mb-5 text-slate-600 leading-relaxed space-y-4"
+              />
               <ListCard>
                 {branch.scholarships.map((s) => (
                   <Li key={s} text={s} />
                 ))}
               </ListCard>
             </div>
-            <p className="text-slate-600 leading-relaxed">
-              Qualified international students can explore several funding
-              options for postgraduate Automobile Engineering and related
-              disciplines, including merit and departmental scholarships,
-              graduate assistantships with tuition remission, research funding
-              and external awards. Availability and scope vary across
-              universities and programs — Edu Hawk Worldwide helps you map
-              realistic funding options for your profile and budget.
-            </p>
+            <DocParas
+              items={branch.scholarshipsNote}
+              className="text-slate-600 leading-relaxed space-y-4"
+            />
           </div>
         </div>
       </section>
@@ -552,9 +658,8 @@ const PostgraduateAutomobileEngineering = () => {
             eyebrow="After graduation"
             title={`Career Opportunities After ${branch.name}`}
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">
-            {branch.careerIntro}
-          </p>
+          <DocParas items={branch.careerIntro ? [branch.careerIntro] : []} />
+          <DocParas items={branch.careerLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.careers.map((c) => (
               <div
@@ -565,6 +670,10 @@ const PostgraduateAutomobileEngineering = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.careerNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -575,7 +684,7 @@ const PostgraduateAutomobileEngineering = () => {
             eyebrow="Step by step"
             title="Visa & Application Process for Indian Students"
           />
-
+          <DocParas items={branch.visaLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {branch.visaSteps.map((s, i) => (
               <div
@@ -588,7 +697,6 @@ const PostgraduateAutomobileEngineering = () => {
                 {/* Animated Number Circle */}
                 <div className="mb-5 relative w-fit">
                   <div className="visa-number-circle relative flex items-center justify-center w-14 h-14 rounded-full border-2 border-orange-500 bg-orange-50 transition-all duration-500 group-hover:bg-gradient-to-br group-hover:from-orange-500 group-hover:to-orange-600 group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-lg group-hover:shadow-orange-200">
-
                     <span className="text-xl font-bold text-orange-500 transition-colors duration-500 group-hover:text-white">
                       {String(i + 1).padStart(2, "0")}
                     </span>
@@ -609,9 +717,10 @@ const PostgraduateAutomobileEngineering = () => {
             ))}
           </div>
 
-          <p className="mt-7 text-sm text-slate-500 max-w-3xl">
-            {branch.visaNote}
-          </p>
+          <DocParas
+            items={branch.visaNote}
+            className="mt-7 text-sm text-slate-500 max-w-3xl space-y-4"
+          />
         </div>
       </section>
 

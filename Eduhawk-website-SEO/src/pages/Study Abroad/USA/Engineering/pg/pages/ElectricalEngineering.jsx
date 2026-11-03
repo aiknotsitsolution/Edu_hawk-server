@@ -9,36 +9,64 @@ import ucbImg from "../../../../../../Images/Abroad/USA/Engineering_PG/Electrica
 const branch = {
   name: "Electrical Engineering",
   slug: "electrical-engineering",
-  title: "MS in Electrical Engineering in USA for Indian Students | PG 2026 | Edu Hawk",
+  title:
+    "MS in Electrical Engineering in USA for Indian Students | PG 2026 | Edu Hawk",
   description:
     "Study Master's in Electrical Engineering in the USA after graduation. Eligibility, GRE requirements, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Postgraduate Electrical Engineering in USA, Best Master's in Electrical Engineering Universities in USA, Master's in Electrical Engineering in USA for Indian Students, Postgraduate Electrical Engineering Courses in USA, Electrical Engineering Admission Requirements for Master's in USA, MS in Electrical Engineering Tuition Fees in USA, Electrical Engineering Scholarships for Indian Students, Top Graduate Electrical Engineering Colleges in America, Electrical Engineering Eligibility for Indian Students, GRE Requirements for MS in Electrical Engineering in USA, English Language Tests for US Universities, Career Opportunities After Postgraduate Electrical Engineering, USA Student Visa for Electrical Engineering Students",
   heroIntro:
-    "The United States is a leading destination for postgraduate Electrical Engineering study, combining advanced research infrastructure, innovation-driven industrial sectors and comprehensive engineering curricula. Indian graduates can build deep expertise in electrical systems, power generation, electronics, control systems, semiconductor technologies and renewable energy.",
+    "The United States represents a premier location for Study postgraduate iin Electrical Engineering, distinguished by its state-of-the-art research infrastructure, innovation-driven industrial sectors, and comprehensive engineering curricula. Indian scholars have the opportunity to develop extensive expertise in electrical systems, power generation, electronics, control systems, semiconductor technologies, and renewable energy.",
   heroSub:
     "Edu Hawk Worldwide helps you shortlist universities, understand admission requirements and plan your complete study-abroad journey.",
+
+  whyLead: ["Key benefits include:"],
   whyPoints: [
     "Access to cutting-edge electrical engineering laboratories and research infrastructure.",
-    "Opportunities to investigate power systems, intelligent grid technologies and renewable energy applications.",
-    "Specialisations in control systems, microelectronics and semiconductor engineering.",
-    "Exposure to automation, robotics and sophisticated electrical systems.",
-    "Research prospects in electric vehicles, energy storage systems and sustainable power generation.",
-    "Career pathways across energy, electronics, manufacturing, telecommunications and technology sectors.",
+    "Opportunities to investigate power systems, intelligent grid technologies, and renewable energy applications.",
+    "Specialisations in control systems, microelectronics, and semiconductor engineering.",
+    "Exposure to automation, robotics, and sophisticated electrical systems.",
+    "Research prospects in electric vehicles, energy storage systems, and sustainable power generation.",
+    "Career trajectories within energy, electronics, manufacturing, telecommunications, and technology sectors.",
+  ],
+  whyNote: [
+    "Edu Hawk worldwide consultancy  assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey..",
+  ],
+
+  coursesLead: [
+    "Indian scholars may select a master's program aligned with their academic preparation and professional aspirations.",
+    "Prevalent degree offerings include:",
   ],
   courses: [
     "Master of Science in Electrical Engineering",
     "Master of Engineering in Electrical Engineering",
     "Master of Science in Electrical and Computer Engineering",
-    "Master of Science in Power Systems Engineering",
-    "Master of Science in Electronics Engineering",
-    "Master of Science in Renewable Energy Engineering",
-    "Master of Science in Control Systems Engineering",
+    "Master of Science in Power Systems Engineering, where available",
+    "Master of Science in Electronics Engineering, where available",
+    "Master of Science in Renewable Energy Engineering, where available",
+    "Master of Science in Control Systems Engineering, where available",
+    "Electrical Power Systems",
+    "Power Electronics and Electric Drives",
+    "Renewable Energy and Intelligent Grids",
+    "Control Systems and Automation",
+    "Microelectronics and Semiconductor Devices",
+    "Signal Processing and Communications",
+    "Robotics and Intelligent Systems",
+    "Electric Vehicles and Energy Storage",
+    "Electromagnetics and Photonics",
+    "Embedded Systems",
   ],
-  duration:
-    "A postgraduate Electrical Engineering degree in the USA typically takes one to two years to complete. The exact timeframe depends on institutional policies, credit hour requirements, chosen specialisation and whether you follow a thesis-oriented or coursework-oriented curriculum. Advanced study covers circuit analysis, power systems, electrical machinery, digital signal processing, control systems theory, semiconductor technology, power electronics and electrical system design.",
+  coursesNote: ["Common specialisations include:"],
+
+  duration: [
+    "Postgraduate Electrical Engineering programs within the United States typically require one to two years for completion. The specific timeframe is contingent upon institutional policies, credit hour requirements, chosen specialization, and the applicant's selection between thesis-oriented or coursework oriented curricula. Circuit analysis, power systems, electrical machinery, digital signal processing, control systems theory, semiconductor technology, power electronics, and electrical system design are among the advanced subjects covered in the academic curriculum.",
+  ],
+
+  eligibilityLead: [
+    "Indian applicants must generally satisfy the following admission requirements:",
+  ],
   eligibility: [
-    "A bachelor's degree in Electrical Engineering, Electrical and Electronics Engineering, Electronics Engineering or an equivalent discipline.",
+    "A bachelor's degree in Electrical Engineering, Electrical and Electronics Engineering, Electronics Engineering, or an equivalent discipline.",
     "Official academic transcripts and degree certificates.",
     "Minimum academic achievement standards as established by the institution.",
     "English language competency, where applicable.",
@@ -46,41 +74,94 @@ const branch = {
     "Statement of Purpose.",
     "Academic recommendation letters.",
     "Curriculum Vitae or professional resume.",
-    "Documentation of relevant academic projects, internships, research or work experience, as applicable.",
-    "Some institutions consider applicants from related engineering fields with foundational competency in mathematics, circuit theory and electronics.",
+    "Documentation of pertinent academic projects, professional internships, scholarly research, or work experience, as applicable.",
+  ],
+
+  englishLead: [
+    "International applicants may be required to demonstrate English language proficiency through an accredited standardized examination.",
+    "Widely recognized assessment instruments include:",
   ],
   englishTests: [
     "IELTS Academic",
     "TOEFL iBT",
     "PTE Academic",
-    "Duolingo English Test",
+    "Duolingo English Test, where recognized by the institution",
   ],
-  testsNote:
-    "GRE requirements vary across Electrical Engineering programs. Some universities require GRE scores, while others make the test optional or do not consider it. There is no single entrance exam mandatory for all US universities for postgraduate Electrical Engineering; always check the latest testing policies, deadlines and program requirements of your chosen institutions. A strong application may include academic achievements, technical projects, research experience, internships, recommendation letters and a clear Statement of Purpose explaining your interests and career plans.",
+  englishNote: [
+    "Minimum score thresholds and exemption criteria differ across universities. Prospective applicants should verify current institutional requirements for their intended program prior to submission of their application.",
+  ],
+
+  testsNote: [
+    "Graduate Electrical Engineering programs in the United States demonstrate considerable variation regarding Graduate Record Examination (GRE) requirements. Certain institutions mandate GRE scores as part of their admissions criteria, whereas others designate the examination as optional or exclude it from their evaluation processes.",
+    "Prospective applicants must thoroughly examine the specific prerequisites associated with their chosen specialization.",
+    "A competitive application portfolio generally encompasses strong academic credentials, substantive technical projects, documented research experience, relevant internship participation, compelling recommendation letters, and a comprehensive Statement of Purpose articulating the candidate's scholarly interests and professional aspirations.",
+  ],
+
+  costsLead: [
+    "Postgraduate Electrical Engineering education in the United States entails variable financial commitments contingent upon institutional selection, geographic location, program duration, and available funding mechanisms.",
+    "Main expenses include:",
+  ],
   costs: [
-    "University tuition and academic fees",
-    "Accommodation and meals",
-    "Health insurance",
-    "Books, specialised software and lab supplies",
-    "Local transport and personal expenses",
-    "Visa fees, travel and relocation costs",
+    "Tuition and institutional fees.",
+    "Residential accommodation and meal provisions.",
+    "Comprehensive health insurance coverage.",
+    "Academic materials, including textbooks and specialized software.",
+    "Laboratory operations and project-related expenditures, where applicable.",
+    "Local transit and miscellaneous personal expenses.",
+    "Visa processing, international travel, and relocation costs.",
   ],
-  costsNote:
-    "Total cost depends on the university, its location, program duration and available funding. Evaluate the full cost of attendance rather than tuition alone, and verify current figures on official university websites.",
+  costsNote: [
+    "Prospective students should consult comprehensive university fee schedules and documented living expense projections to formulate an accurate financial plan encompassing the entire program duration. Financial requirements demonstrate substantial variation across different institutions and geographic regions.",
+  ],
+
+  scholarshipsLead: [
+    "Qualified international students may investigate numerous financial support mechanisms available for postgraduate Electrical Engineering studies.",
+    "Available funding alternatives include:",
+  ],
   scholarships: [
-    "Merit-based scholarships",
-    "Departmental scholarships",
-    "Graduate research assistantships",
-    "Graduate teaching assistantships",
-    "Tuition remission linked to eligible assistantship appointments",
-    "External funding from qualifying organisations",
+    "Merit-based scholarship awards.",
+    "Departmental scholarship opportunities.",
+    "Graduate research assistantship positions.",
+    "Graduate teaching assistantship positions.",
+    "Tuition remission contingent upon eligible assistantship appointments.",
+    "External scholarship funding administered by qualifying organizations.",
+  ],
+  scholarshipsNote: [
+    "Financial support determination typically depends upon demonstrated academic excellence, research specialization, faculty project alignment, and departmental resource allocation. The qualifying conditions for overseas students, application deadlines, prerequisites for award renewal, and the extent of expenses covered by each funding opportunity should all be confirmed by applicants.",
+    "GRE requirements vary across Electrical Engineering programs. Some universities require GRE scores, while others make the test optional or do not consider it.",
+    "Applicants should review the prerequisites for their intended specialisation. A strong application may include academic achievements, technical projects, research experience, internships, recommendation letters, and a clear Statement of Purpose explaining the student's interests and career plans.",
+  ],
+
+  universitiesLead: [
+    "The subsequent institutions merit thorough examination for postgraduate studies in Electrical Engineering and cognate disciplines:",
   ],
   universities: [
-    { name: "Massachusetts Institute of Technology", location: "Cambridge, Massachusetts" , img: mitImg },
-    { name: "Stanford University", location: "Stanford, California" , img: stanfordImg },
-    { name: "University of California, Berkeley", location: "Berkeley, California" , img: ucbImg },
-    { name: "Carnegie Mellon University", location: "Pittsburgh, Pennsylvania" , img: cmuImg },
+    {
+      name: "Massachusetts Institute of Technology",
+      location: "Cambridge, Massachusetts",
+      img: mitImg,
+    },
+    {
+      name: "Stanford University",
+      location: "Stanford, California",
+      img: stanfordImg,
+    },
+    {
+      name: "University of California, Berkeley",
+      location: "Berkeley, California",
+      img: ucbImg,
+    },
+    {
+      name: "Carnegie Mellon University",
+      location: "Pittsburgh, Pennsylvania",
+      img: cmuImg,
+    },
   ],
+  universitiesNote: [],
+
+  careerIntro:
+    "Advanced postgraduate qualifications enable graduates to cultivate sophisticated technical competencies applicable to sectors encompassing energy systems, electronics manufacturing, industrial automation, telecommunications infrastructure, and technological innovation.",
+  careerLead: ["Potential career roles include:"],
   careers: [
     "Electrical Design Engineer",
     "Power Systems Engineer",
@@ -95,45 +176,53 @@ const branch = {
     "Electric Vehicle Systems Engineer",
     "Research and Development Engineer",
   ],
-  careerIntro:
-    "A postgraduate qualification builds advanced technical expertise for roles across energy systems, electronics manufacturing, industrial automation, telecommunications infrastructure and technology innovation.",
-  visaSteps: [
-    "Research universities offering postgraduate Electrical Engineering programs and choose a specialisation.",
-    "Verify academic prerequisites and subject requirements.",
-    "Review GRE and English language test requirements.",
-    "Prepare transcripts, Statement of Purpose, recommendation letters and your resume.",
-    "Submit applications before university deadlines.",
-    "Compare admission offers, costs and funding options.",
-    "Complete the university's enrolment steps and receive your student documentation.",
-    "Pay the SEVIS fee, complete the visa application and attend the interview where applicable.",
-    "Arrange travel, housing and health insurance after approval.",
+  careerNote: [
+    "Career advancement prospects are contingent upon specialized technical proficiency, hands-on professional experience, organizational prerequisites, and relevant employment authorization status. Certain advanced positions may additionally necessitate supplementary industry-specific certifications or recognized professional qualifications.",
   ],
-  visaNote:
-    "Visa approval is not guaranteed and depends on individual circumstances. Always follow current US government and university guidance.",
+
+  visaLead: [
+    "Indian nationals who receive admission offers from accredited USA educational institutions typically must navigate the requisite international student visa framework.",
+    "Typical steps include:",
+  ],
+  visaSteps: [
+    "Investigate prospective universities and designate an Electrical Engineering concentration.",
+    "Verify academic prerequisites and disciplinary subject requirements.",
+    "Examine standardized English proficiency assessments and Graduate Record Examination specifications.",
+    "Assemble official academic records, a comprehensive Statement of Purpose, institutional recommendation correspondence, and professional curriculum vitae.",
+    "Transmit completed applications in accordance with institutional submission deadlines.",
+    "Evaluate comparative admission decisions, educational expenditures, and financial assistance possibilities.",
+    "Procure mandatory student documentation from the respective institution.",
+    "Remit the designated SEVIS administrative fee and finalize visa application documentation.",
+  ],
+  visaNote: [
+    "Participate in consular visa adjudication proceedings, if applicable and make necessary travel arrangements following authorization.",
+    "Visa authorization outcomes remain uncertain. Applicants must adhere to prevailing United States governmental directives and institutional guidance protocols.",
+  ],
+
   faqs: [
     {
-      q: "Can Indian students study postgraduate Electrical Engineering in the USA?",
-      a: "Yes. Indian students with a relevant bachelor's degree and the required academic qualifications are eligible to apply to suitable postgraduate programs.",
+      q: "Is it possible for Indian students to pursue postgraduate studies in Electrical Engineering within the United States?",
+      a: "Yes, Indian students possessing a pertinent bachelor's degree and requisite academic qualifications are eligible to apply to appropriate postgraduate programs.",
     },
     {
-      q: "How long does a master's degree in Electrical Engineering take in the USA?",
-      a: "Most programs take approximately one to two years to complete, depending on the institution, curriculum structure and area of specialisation.",
+      q: "What is the typical duration of a master's degree in Electrical Engineering in the United States?",
+      a: "The majority of programs require approximately one to two years for completion, contingent upon the institution, curriculum structure, and area of specialisation.’",
     },
     {
-      q: "Is the GRE mandatory for admission?",
-      a: "No. GRE requirements vary widely across universities and programs — some mandate it, while others make it optional or do not include it in their evaluation criteria.",
+      q: "Is the GRE examination a mandatory prerequisite for admission?",
+      a: "No. GRE requirements demonstrate considerable variation across universities and programs. Certain institutions mandate it, whereas others designate it as optional or do not incorporate it into their evaluation criteria.",
     },
     {
-      q: "Which specialisations are offered in Electrical Engineering?",
-      a: "Common specialisations include power systems, power electronics, control systems, renewable energy, semiconductor engineering, signal processing and electric vehicle technologies.",
+      q: "What specialisations are offered within the Electrical Engineering discipline?",
+      a: "Prevalent specialisations encompass Power Systems, Power Electronics, Control Systems, Renewable Energy, Semiconductor Engineering, Signal Processing, and Electric Vehicle Technologies.",
     },
     {
-      q: "Are scholarships and financial aid available for Indian postgraduate students?",
-      a: "Yes. Qualifying students may explore merit-based scholarships, research assistantships, teaching assistantships and other funding mechanisms, but availability depends on institutional policies and departmental budgets.",
+      q: "Are financial aid opportunities accessible to Indian students?",
+      a: "Yes, Qualifying students may investigate merit-based scholarships, research assistantships, teaching assistantships, and supplementary funding mechanisms. The availability of such opportunities is contingent upon institutional policies and departmental budgetary allocations.",
     },
     {
-      q: "How can Edu Hawk Worldwide help me study Electrical Engineering abroad?",
-      a: "Edu Hawk Worldwide helps students explore suitable universities, understand admission requirements, organise application documents and plan their study-abroad journey. Students should verify academic, financial, immigration and licensing requirements with the relevant official authorities.",
+      q: "How can Edu Hawk worldwide help me study abroad?",
+      a: "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities.",
     },
   ],
 };
@@ -147,9 +236,19 @@ const SectionHeading = ({ eyebrow, title }) => (
   </div>
 );
 
-const ListCard = ({ children }) => (
-  <ul className="space-y-3">{children}</ul>
-);
+const ListCard = ({ children }) => <ul className="space-y-3">{children}</ul>;
+
+const DocParas = ({
+  items,
+  className = "max-w-3xl mb-6 text-slate-600 leading-relaxed space-y-4",
+}) =>
+  items && items.length ? (
+    <div className={className}>
+      {items.map((p, i) => (
+        <p key={i}>{p}</p>
+      ))}
+    </div>
+  ) : null;
 
 const Li = ({ text }) => (
   <li className="flex items-start gap-3">
@@ -342,11 +441,16 @@ const PostgraduateElectricalEngineering = () => {
             eyebrow="Why the USA"
             title={`Why Study ${branch.name} in the USA?`}
           />
+          <DocParas items={branch.whyLead} />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-4">
             {branch.whyPoints.map((p) => (
               <Li key={p} text={p} />
             ))}
           </div>
+          <DocParas
+            items={branch.whyNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -357,12 +461,7 @@ const PostgraduateElectricalEngineering = () => {
             eyebrow="Programs"
             title={`Postgraduate ${branch.name} Courses in the USA`}
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">
-            Postgraduate students can pursue programs covering power systems,
-            power electronics, control systems, signal processing,
-            microelectronics and communication technologies. Common degree
-            pathways include:
-          </p>
+          <DocParas items={branch.coursesLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.courses.map((c) => (
               <div
@@ -373,6 +472,10 @@ const PostgraduateElectricalEngineering = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.coursesNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -386,10 +489,10 @@ const PostgraduateElectricalEngineering = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">
               Top Universities for {branch.name} in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-2xl">
-              Compare universities on academics, cost, facilities and
-              international admission policies before shortlisting.
-            </p>
+            <DocParas
+              items={branch.universitiesLead}
+              className="text-slate-500 text-[15px] leading-relaxed max-w-2xl space-y-3"
+            />
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {branch.universities.map((u) => (
@@ -422,6 +525,10 @@ const PostgraduateElectricalEngineering = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.universitiesNote}
+            className="mt-6 max-w-3xl text-slate-500 text-[15px] leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -430,7 +537,10 @@ const PostgraduateElectricalEngineering = () => {
         <div className="max-w-6xl mx-auto px-6">
           <SectionHeading eyebrow="How long" title="Program Duration" />
           <div className="bg-blue-50/60 border border-blue-100 rounded-2xl p-6 sm:p-8 max-w-3xl">
-            <p className="text-slate-700 leading-relaxed">{branch.duration}</p>
+            <DocParas
+              items={branch.duration}
+              className="text-slate-700 leading-relaxed space-y-4"
+            />
           </div>
         </div>
       </section>
@@ -443,6 +553,10 @@ const PostgraduateElectricalEngineering = () => {
             title="Eligibility Requirements for Indian Students"
           />
           <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 max-w-3xl shadow-sm">
+            <DocParas
+              items={branch.eligibilityLead}
+              className="mb-5 text-slate-600 leading-relaxed space-y-4"
+            />
             <ListCard>
               {branch.eligibility.map((e) => (
                 <Li key={e} text={e} />
@@ -460,12 +574,10 @@ const PostgraduateElectricalEngineering = () => {
               eyebrow="English proficiency"
               title="English Language Requirements"
             />
-            <p className="text-slate-600 mb-5">
-              International applicants may need to prove English competency
-              through a recognised test. Minimum scores differ by university,
-              and some universities may waive the requirement for students
-              educated in English-medium schools.
-            </p>
+            <DocParas
+              items={branch.englishLead}
+              className="mb-5 text-slate-600 leading-relaxed space-y-3"
+            />
             <div className="flex flex-wrap gap-3">
               {branch.englishTests.map((t) => (
                 <span
@@ -476,15 +588,17 @@ const PostgraduateElectricalEngineering = () => {
                 </span>
               ))}
             </div>
+            <DocParas
+              items={branch.englishNote}
+              className="mt-5 text-slate-600 leading-relaxed space-y-4"
+            />
           </div>
           <div>
             <SectionHeading
               eyebrow="Standardised tests"
               title="GRE & Other Admission Requirements"
             />
-            <p className="text-slate-600 leading-relaxed">
-              {branch.testsNote}
-            </p>
+            <DocParas items={branch.testsNote} />
           </div>
         </div>
       </section>
@@ -496,7 +610,7 @@ const PostgraduateElectricalEngineering = () => {
             eyebrow="Budget"
             title="Tuition Fees and Living Expenses"
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">{branch.costsNote}</p>
+          <DocParas items={branch.costsLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.costs.map((c) => (
               <div
@@ -507,6 +621,10 @@ const PostgraduateElectricalEngineering = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.costsNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -519,19 +637,20 @@ const PostgraduateElectricalEngineering = () => {
           />
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
             <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-sm">
+              <DocParas
+                items={branch.scholarshipsLead}
+                className="mb-5 text-slate-600 leading-relaxed space-y-4"
+              />
               <ListCard>
                 {branch.scholarships.map((s) => (
                   <Li key={s} text={s} />
                 ))}
               </ListCard>
             </div>
-            <p className="text-slate-600 leading-relaxed">
-              International students may qualify for merit-based scholarships,
-              graduate assistantships, tuition remission and other
-              institutional awards. Availability and scope vary across
-              universities and programs — Edu Hawk Worldwide helps you map
-              realistic funding options for your profile and budget.
-            </p>
+            <DocParas
+              items={branch.scholarshipsNote}
+              className="text-slate-600 leading-relaxed space-y-4"
+            />
           </div>
         </div>
       </section>
@@ -543,9 +662,8 @@ const PostgraduateElectricalEngineering = () => {
             eyebrow="After graduation"
             title={`Career Opportunities After ${branch.name}`}
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">
-            {branch.careerIntro}
-          </p>
+          <DocParas items={branch.careerIntro ? [branch.careerIntro] : []} />
+          <DocParas items={branch.careerLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.careers.map((c) => (
               <div
@@ -556,6 +674,10 @@ const PostgraduateElectricalEngineering = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.careerNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -566,7 +688,7 @@ const PostgraduateElectricalEngineering = () => {
             eyebrow="Step by step"
             title="Visa & Application Process for Indian Students"
           />
-
+          <DocParas items={branch.visaLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {branch.visaSteps.map((s, i) => (
               <div
@@ -579,7 +701,6 @@ const PostgraduateElectricalEngineering = () => {
                 {/* Animated Number Circle */}
                 <div className="mb-5 relative w-fit">
                   <div className="visa-number-circle relative flex items-center justify-center w-14 h-14 rounded-full border-2 border-orange-500 bg-orange-50 transition-all duration-500 group-hover:bg-gradient-to-br group-hover:from-orange-500 group-hover:to-orange-600 group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-lg group-hover:shadow-orange-200">
-
                     <span className="text-xl font-bold text-orange-500 transition-colors duration-500 group-hover:text-white">
                       {String(i + 1).padStart(2, "0")}
                     </span>
@@ -600,9 +721,10 @@ const PostgraduateElectricalEngineering = () => {
             ))}
           </div>
 
-          <p className="mt-7 text-sm text-slate-500 max-w-3xl">
-            {branch.visaNote}
-          </p>
+          <DocParas
+            items={branch.visaNote}
+            className="mt-7 text-sm text-slate-500 max-w-3xl space-y-4"
+          />
         </div>
       </section>
 

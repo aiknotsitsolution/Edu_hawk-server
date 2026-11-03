@@ -9,130 +9,207 @@ import utAustinImg from "../../../../../../Images/Abroad/USA/Engineering_PG/Chem
 const branch = {
   name: "Chemical Engineering",
   slug: "chemical-engineering",
-  title: "MS in Chemical Engineering in USA for Indian Students | PG 2026 | Edu Hawk",
+  title:
+    "MS in Chemical Engineering in USA for Indian Students | PG 2026 | Edu Hawk",
   description:
     "Study Master's in Chemical Engineering in the USA after your bachelor's. Eligibility, GRE policies, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Postgraduate Chemical Engineering in USA, Best Master's in Chemical Engineering Universities in USA, Master's in Chemical Engineering in USA for Indian Students, Postgraduate Chemical Engineering Courses in USA, Chemical Engineering Admission Requirements for Master's in USA, Chemical Engineering Scholarships for Indian Students, Top Graduate Chemical Engineering Colleges in America, Chemical Engineering Eligibility for Indian Students, GRE Requirements for MS in Chemical Engineering in USA, English Language Tests for US Universities, Career Opportunities After MS in Chemical Engineering",
   heroIntro:
-    "Postgraduate Chemical Engineering programs in the USA build on cutting-edge research infrastructure and strengths in pharmaceuticals, energy production, biotechnology, chemical manufacturing and sustainable process systems. Indian students can pursue a one- to two-year master's degree with specialised training in chemical process engineering, materials characterisation and industrial production.",
+    "With its cutting-edge research infrastructure, technological advancements in industrial sectors, and wide range of career opportunities in pharmaceuticals, energy production, biotechnology, chemical manufacturing, and sustainable production systems, the United States is a compelling choice for study postgraduates in chemical engineering. Specialized knowledge in chemical process engineering, materials characterisation, process design methodology, and large-scale industrial production procedures can be acquired by Indian scholars.",
   heroSub:
     "Edu Hawk Worldwide helps you shortlist universities, understand admission requirements and plan your complete study-abroad journey.",
+
+  whyLead: ["The main benefits include:"],
   whyPoints: [
-    "Full access to cutting-edge research facilities and chemical engineering laboratories.",
-    "Education centred on industrial production systems and process improvement.",
-    "Specialised training in energy systems engineering, materials science and biochemical engineering.",
-    "Hands-on experience with advanced materials development, chemical product creation and process simulation technologies.",
-    "Research opportunities in environmental remediation, green chemical projects and renewable energy development.",
-    "Career paths across manufacturing, biotechnology, chemical production, petroleum, food processing and pharmaceutical industries.",
+    "complete access to cutting-edge research facilities and chemical engineering labs.",
+    "options for education centered on industrial production systems and process improvement.",
+    "specialized training in energy systems engineering, materials science, and biochemical engineering.",
+    "hands-on experience with innovative materials development, chemical product creation, and process simulation technologies.",
+    "conducting research on environmental remediation technologies, green chemical projects, and renewable energy development.",
+    "varies job paths in the manufacturing, biotechnology, chemical production, petroleum, food processing, and pharmaceutical industries.",
+  ],
+  whyNote: [
+    "Edu Hawk worldwide Consultancy helps students prepare for their foreign education adventure, understand university admission requirements, and investigate international study possibilities.",
+  ],
+
+  coursesLead: [
+    "Postgraduate programs can be chosen by Indian students based on their educational background and desired careers.",
+    "Common degree programs consist of",
   ],
   courses: [
-    "Master of Science in Chemical Engineering",
-    "Master of Engineering in Chemical Engineering",
+    "Chemical Engineering Master of Science",
+    "Chemical engineering master's degree",
     "Master of Science in Biochemical Engineering, subject to availability at the institution",
     "Master of Science in Engineering and Materials Science",
-    "Master of Science in Pharmaceutical Engineering, subject to institutional availability",
+    "Pharmaceutical engineering master's degree, subject to institutional availability",
     "Master of Science in Energy Engineering, subject to availability at the institution",
     "Master of Science in Environmental Engineering, subject to availability at the institution",
+    "Methodology for Process Engineering and Process Design",
+    "Principles of Chemical Reaction Engineering",
+    "Applications of Biochemical and Bioprocess Engineering",
+    "Process Development in Biotechnology and Pharmaceuticals",
+    "Research on Materials Science and Nanotechnology",
+    "Energy and Petroleum Engineering Systems",
+    "Environmental and Sustainable Process Engineering Polymer and Advanced Materials Engineering",
+    "Methodologies for Computational Chemical Engineering",
+    "Technologies for Food and Industrial Processing",
   ],
-  duration:
-    "Postgraduate Chemical Engineering programs in the USA normally take one to two years to complete. The precise timeline depends on institutional policies, credit hour requirements, the chosen concentration and the academic pathway, whether thesis-oriented, research-intensive or coursework-focused. Coursework typically covers thermodynamics, transport phenomena, chemical reaction engineering, process control, separation processes, process modeling and industrial process design.",
+  coursesNote: ["The main area"],
+
+  duration: [
+    "In the United States, postgraduate Chemical Engineering programs normally take one to two years to complete. Institutional policies, credit hour requirements, the chosen concentration, and the academic pathway—whether thesis-oriented, research-intensive, or coursework-focused—all influence the precise timeline. Advanced subjects like thermodynamics, transport phenomena, chemical reaction engineering, process control, separation processes, process modeling, and industrial process design are typically covered in the academic program.",
+  ],
+
+  eligibilityLead: [
+    "Indian applicants usually need to meet the following criteria in order to be admitted:",
+  ],
   eligibility: [
-    "A bachelor's degree in Chemical Engineering or a related discipline.",
-    "Official degree certificates and transcripts.",
-    "Meeting the minimum academic performance level required by the university.",
-    "Proof of English language proficiency, where required.",
-    "Graduate Record Examination (GRE) scores, if required by the program.",
-    "A Statement of Purpose outlining academic and professional goals.",
-    "Letters of recommendation from academics or industry professionals.",
-    "A curriculum vitae or resume detailing academic and professional background.",
-    "Evidence of relevant research, internships, work experience or academic projects, where applicable.",
+    "earning a bachelor's degree in chemical engineering or a similar discipline.",
+    "official degree certificates and transcripts.",
+    "demonstration of the minimal level of academic success required by the school.",
+    "Evidence of proficiency in English, if required.",
+    "scores from the Graduate Record Examination (GRE), if required by the program.",
+    "Academic and professional goals are outlined in the Statement of Purpose.",
+    "letters of recommendation from scholars or experts in the field.",
+    "A curriculum vitae or resume that details one's professional and academic background.",
+    "Proof of relevant research initiatives, internships, professional involvement, or academic projects, as appropriate.",
+  ],
+
+  englishLead: [
+    "It is often necessary for foreign applicants to demonstrate their English language skills using approved standardized tests. Exams that are widely accepted include:",
   ],
   englishTests: [
-    "TOEFL iBT",
-    "IELTS Academic",
-    "PTE Academic",
-    "Duolingo English Test, where accepted",
+    "TOEFL iBT IELTS Academic PTE Academic",
+    "The Duolingo English Test was accepted by the organization.",
   ],
-  testsNote:
-    "GRE requirements vary significantly across postgraduate Chemical Engineering programs. Some universities require GRE scores, while others consider the test optional or do not include it in their evaluation criteria. Always review the specific requirements of your chosen specialization. A strong foundation in mathematics, chemistry, thermodynamics, fluid mechanics and transport phenomena is usually expected, and competitive applications typically combine academic achievements, laboratory experience, technical projects, internships, research contributions, recommendations and a thorough Statement of Purpose.",
+  englishNote: [
+    "Universities have different minimum score requirements and exemption standards. Before submitting an application, prospective students are recommended to review the most recent prerequisites for the program they wish to attend.",
+  ],
+
+  testsNote: [
+    "The requirements for the Graduate Record Examination (GRE) vary significantly among postgraduate programs in Chemical Engineering. Some universities require GRE scores, while others consider the test optional or do not include it in their evaluation standards.",
+    "It is necessary for prospective applicants to review the particular requirements related to their preferred field of expertise. A strong foundation in mathematics, chemistry, thermodynamics, fluid mechanics, and transport phenomena is usually required for Chemical Engineering studies.",
+    "Academic achievements, laboratory experience, technical projects, internship participation, research contributions, letters of recommendation, and a thorough Statement of Purpose outlining the applicant's academic interests and career goals are typically included in a competitive application portfolio.",
+  ],
+
+  costsLead: [
+    "The total amount spent on postgraduate Chemical Engineering education in the US varies according to program length, geographic location, institutional choice, and available funding sources.",
+    "The following are the main cost components:",
+  ],
   costs: [
-    "University tuition and institutional fees",
-    "Housing and meal services",
-    "Health insurance coverage",
-    "Academic resources such as textbooks and software",
-    "Research and laboratory expenses, where applicable",
-    "Local transport and personal expenses",
-    "Visa fees, travel and relocation costs",
+    "institutional fees and tuition.",
+    "housing and food services.",
+    "coverage for medical insurance.",
+    "academic resources, such as software and textbooks.",
+    "expenses related to research and laboratories, if applicable.",
+    "Local transportation and other individual costs.",
+    "relocation costs, travel plans, and visa processing.",
   ],
-  costsNote:
-    "Total spending on a postgraduate Chemical Engineering degree in the USA varies with program length, geographic location, institutional choice and available funding. Refer to official university fee schedules and living expense estimates to calculate the total program cost, and verify current figures on official university websites.",
+  costsNote: [
+    "To find out the total cost of the program, prospective students should refer to living expenditure estimates and institutional fee schedules. For overseas applicants, a methodical assessment of living costs, tuition costs, and available funds helps them make well-informed decisions.",
+  ],
+
+  scholarshipsLead: [
+    "International students who meet the requirements might look into various funding options for postgraduate studies in chemical engineering.",
+    "Alternatives that are available include:",
+  ],
   scholarships: [
-    "Merit-based scholarship awards",
-    "Department-level scholarships",
-    "Graduate research assistantship positions",
-    "Graduate teaching assistantship roles",
-    "Tuition remissions for qualifying assistantships",
-    "External scholarship opportunities from eligible organisations and institutes",
+    "scholarship awards based on merit.",
+    "scholarships awarded by departments.",
+    "vacancies for graduate research assistants.",
+    "jobs for graduate teaching assistantships.",
+    "tuition reimbursement for assistantships that meet the requirements.",
+    "Opportunities for external scholarships offered by qualified organizations and institutes.",
+  ],
+  scholarshipsNote: [
+    "Programs in Chemical Engineering have different GRE requirements. While some colleges make the test optional or do not take it into consideration, others demand GRE scores.",
+    "Candidates should go over the requirements for the specialization they want to pursue. A solid background in mathematics, chemistry, thermodynamics, fluid mechanics, and transport phenomena is typically required for Chemical Engineering programs.",
+    "Academic accomplishments, lab experience, technical projects, internships, research experience, recommendation letters, and a concise Statement of Purpose outlining the student's academic interests and career objectives can all be included in a great application.",
+  ],
+
+  universitiesLead: [
+    "It is worthwhile to look into the following universities for postgraduate programs in Chemical Engineering and related fields:",
   ],
   universities: [
-    { name: "University of Illinois Urbana-Champaign", location: "Urbana, Illinois" , img: illinoisImg },
-    { name: "Purdue University", location: "West Lafayette, Indiana" , img: purdueImg },
-    { name: "University of Texas at Austin", location: "Austin, Texas" , img: utAustinImg },
-    { name: "University of Minnesota Twin Cities", location: "Minneapolis, Minnesota" , img: minnesotaImg },
+    {
+      name: "University of Illinois Urbana-Champaign",
+      location: "Urbana, Illinois",
+      img: illinoisImg,
+    },
+    {
+      name: "Purdue University",
+      location: "West Lafayette, Indiana",
+      img: purdueImg,
+    },
+    {
+      name: "University of Texas at Austin",
+      location: "Austin, Texas",
+      img: utAustinImg,
+    },
+    {
+      name: "University of Minnesota Twin Cities",
+      location: "Minneapolis, Minnesota",
+      img: minnesotaImg,
+    },
   ],
-  careers: [
-    "Process Design Engineer",
-    "Chemical Process Engineer",
-    "Production and Process Development Engineer",
-    "Bioprocess Engineer",
-    "Materials Engineer",
-    "Pharmaceutical Process Engineer",
-    "Quality Control Engineer",
-    "Environmental Process Engineer",
-    "Energy Systems Engineer",
-    "Research and Development Engineer",
-    "Process Safety Engineer",
-  ],
+  universitiesNote: [],
+
   careerIntro:
-    "Postgraduate graduates develop advanced technical skills relevant to roles in materials science, chemical processing, industrial production, biotechnology, pharmaceutical research and energy. Role availability depends on technical skills, research experience, employer requirements and work authorisation; some positions may need additional qualifications or professional licensing.",
-  visaSteps: [
-    "Research universities and choose a suitable Chemical Engineering concentration.",
-    "Check academic eligibility and subject-specific requirements.",
-    "Review Graduate Record Examination (GRE) and English proficiency test requirements.",
-    "Prepare official transcripts, a detailed resume, academic references and a Statement of Purpose.",
-    "Complete applications and submit them before university deadlines.",
-    "Review admission decisions, financial commitments and available funding support.",
-    "Obtain the required student documentation from the university.",
-    "Complete the visa paperwork and pay the required SEVIS fee.",
-    "Participate in the visa adjudication process where applicable and plan travel after approval.",
+    "Graduates with a postgraduate degree can develop advanced technical skills relevant to jobs in the fields of materials science, chemical processing, industrial production, biotechnology, pharmaceutical research, and energy.",
+  careerLead: ["Potential career roles include:"],
+  careers: [
+    "Process Design Engineer Chemical Process Engineer",
+    "Engineer for Production and Process Development",
+    "Engineer for Bioprocesses",
+    "Materials Engineer and Pharmaceutical Process Engineer",
+    "Engineers with expertise in quality control, environmental processes, energy systems, research and development, and process safety",
   ],
-  visaNote:
-    "Visa authorisation depends on individual circumstances. Always follow current US government regulations and university policies.",
+  careerNote: [],
+
+  visaLead: [
+    "Indian nationals must usually traverse the necessary international student visa system in order to be admitted to reputable US universities.",
+    "Typical application procedures consist of:",
+  ],
+  visaSteps: [
+    "Look at educational establishments and choose a suitable concentration in Chemical Engineering.",
+    "Check subject-specific requirements and academic qualifications.",
+    "Analyze the Graduate Record Examination (GRE) requirements and English proficiency tests.",
+    "Put together official transcripts, a thorough curriculum vitae, academic references, and a Statement of Purpose.",
+    "Complete applications and submit them by the deadlines set by the university.",
+    "Analyze financial commitments, available financial help, and admissions decisions.",
+    "Obtain the necessary paperwork from the organization.",
+    "Complete the visa paperwork and pay the required SEVIS cost.",
+    "Make travel plans after authorization and take part in the visa adjudication process, if applicable.",
+  ],
+  visaNote: [
+    "Authorization for a visa is still dependent on personal circumstances. Candidates must follow current institutional and governmental directives in the United States.",
+  ],
+
   faqs: [
     {
-      q: "Can Indian students pursue postgraduate Chemical Engineering in the USA?",
-      a: "Yes. Indian students can apply to eligible postgraduate programs if they hold a relevant undergraduate degree and acceptable academic qualifications.",
+      q: "Can Indian nationals study for postgraduate degrees in Chemical Engineering in the US?",
+      a: "Yes, Indian nationals may apply to eligible postgraduate programs if they have a relevant undergraduate degree and acceptable academic qualifications.",
     },
     {
-      q: "How long does a Master's in Chemical Engineering typically take in the USA?",
-      a: "Most programs take one to two years to complete, depending on the research type, institutional requirements and the total credit hours required.",
+      q: "How long does a Master's degree in Chemical Engineering typically take in the US?",
+      a: "Most academic programs take one to two years to complete, depending on the type of research being done, institutional requirements, and the total number of credit hours required.",
     },
     {
-      q: "Is the GRE required for admission?",
-      a: "No single rule applies. GRE requirements vary widely between programs and universities; some require it, while others treat it as optional or exclude it from their evaluation criteria.",
+      q: "Does program admission require passing the Graduate Record Examination (GRE)?",
+      a: "No, there is a lot of variety in the prerequisites for the Graduate Record Examination between different programs and schools. Some colleges require it, while others classify it as optional or do not include it in their evaluation standards.",
     },
     {
-      q: "Which specializations are available in Chemical Engineering programs?",
-      a: "Common specializations include process engineering, biochemical engineering, pharmaceutical processes, materials science, energy engineering and sustainable process engineering.",
+      q: "Which courses in Chemical Engineering provide particular concentrations?",
+      a: "Process engineering, biochemical engineering, pharmaceutical processes, materials science, energy engineering, and sustainable process engineering are among the most common specializations.",
     },
     {
-      q: "Are financial aid options available for Indian students?",
-      a: "Yes. Eligible candidates can explore teaching assistantships, research assistantships, merit-based scholarships and other funding sources. Availability depends on university resources and policies.",
+      q: "Do Indian students have access to financial help packages?",
+      a: "Yes, eligible candidates can look into teaching assistantships, research assistantships, merit-based scholarships, and additional financing sources. The availability of these chances depends on the financial resources available as well as specific university policies.",
     },
     {
-      q: "How can Edu Hawk Worldwide help me study abroad?",
-      a: "Edu Hawk Worldwide helps students research suitable universities, understand admission requirements, organise application documents and plan their study-abroad journey. Students should verify academic, financial, immigration and licensing requirements with the relevant official authorities.",
+      q: "How may I study abroad with Edu Hawk Worldwide's assistance?",
+      a: "Students may plan their study abroad experience, organize their application materials, research appropriate universities, and comprehend admission requirements with the assistance of Edu Hawk Worldwide. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs. KEYWORDS- Study Postgraduate Chemical Engineering in USA Best Master's in Chemical Engineering Universities in USA Master's in Chemical Engineering in USA for Indian Students Postgraduate Chemical Engineering Courses in USA Chemical Engineering Admission Requirements for Master's in USA Chemical Engineering Scholarships for Indian Students Top Graduate Chemical Engineering Colleges in America Chemical Engineering Eligibility for Indian Students GRE Requirements for MS in Chemical Engineering in USA English Language Tests for US Universities Career Opportunities After MS in Chemical Engineering Postgraduate Aerospace Engineering in the USA for Indian Students",
     },
   ],
 };
@@ -146,9 +223,19 @@ const SectionHeading = ({ eyebrow, title }) => (
   </div>
 );
 
-const ListCard = ({ children }) => (
-  <ul className="space-y-3">{children}</ul>
-);
+const ListCard = ({ children }) => <ul className="space-y-3">{children}</ul>;
+
+const DocParas = ({
+  items,
+  className = "max-w-3xl mb-6 text-slate-600 leading-relaxed space-y-4",
+}) =>
+  items && items.length ? (
+    <div className={className}>
+      {items.map((p, i) => (
+        <p key={i}>{p}</p>
+      ))}
+    </div>
+  ) : null;
 
 const Li = ({ text }) => (
   <li className="flex items-start gap-3">
@@ -341,11 +428,16 @@ const PostgraduateChemicalEngineering = () => {
             eyebrow="Why the USA"
             title={`Why Study ${branch.name} in the USA?`}
           />
+          <DocParas items={branch.whyLead} />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-4">
             {branch.whyPoints.map((p) => (
               <Li key={p} text={p} />
             ))}
           </div>
+          <DocParas
+            items={branch.whyNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -356,13 +448,7 @@ const PostgraduateChemicalEngineering = () => {
             eyebrow="Programs"
             title={`${branch.name} Courses in the USA`}
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">
-            Postgraduate students can choose programs based on their academic
-            background and career goals, with specializations spanning process
-            engineering, biochemical and bioprocess engineering, materials
-            science, energy, pharmaceutical and environmental systems. Common
-            degree pathways include:
-          </p>
+          <DocParas items={branch.coursesLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.courses.map((c) => (
               <div
@@ -373,6 +459,10 @@ const PostgraduateChemicalEngineering = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.coursesNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -386,10 +476,10 @@ const PostgraduateChemicalEngineering = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">
               Top Universities for {branch.name} in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-2xl">
-              Compare universities on academics, cost, facilities and
-              international admission policies before shortlisting.
-            </p>
+            <DocParas
+              items={branch.universitiesLead}
+              className="text-slate-500 text-[15px] leading-relaxed max-w-2xl space-y-3"
+            />
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {branch.universities.map((u) => (
@@ -422,6 +512,10 @@ const PostgraduateChemicalEngineering = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.universitiesNote}
+            className="mt-6 max-w-3xl text-slate-500 text-[15px] leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -430,7 +524,10 @@ const PostgraduateChemicalEngineering = () => {
         <div className="max-w-6xl mx-auto px-6">
           <SectionHeading eyebrow="How long" title="Program Duration" />
           <div className="bg-blue-50/60 border border-blue-100 rounded-2xl p-6 sm:p-8 max-w-3xl">
-            <p className="text-slate-700 leading-relaxed">{branch.duration}</p>
+            <DocParas
+              items={branch.duration}
+              className="text-slate-700 leading-relaxed space-y-4"
+            />
           </div>
         </div>
       </section>
@@ -443,6 +540,10 @@ const PostgraduateChemicalEngineering = () => {
             title="Eligibility Requirements for Indian Students"
           />
           <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 max-w-3xl shadow-sm">
+            <DocParas
+              items={branch.eligibilityLead}
+              className="mb-5 text-slate-600 leading-relaxed space-y-4"
+            />
             <ListCard>
               {branch.eligibility.map((e) => (
                 <Li key={e} text={e} />
@@ -460,12 +561,10 @@ const PostgraduateChemicalEngineering = () => {
               eyebrow="English proficiency"
               title="English Language Requirements"
             />
-            <p className="text-slate-600 mb-5">
-              International applicants may need to prove English competency
-              through a recognised test. Minimum scores differ by university,
-              and some universities may waive the requirement for students
-              educated in English-medium schools.
-            </p>
+            <DocParas
+              items={branch.englishLead}
+              className="mb-5 text-slate-600 leading-relaxed space-y-3"
+            />
             <div className="flex flex-wrap gap-3">
               {branch.englishTests.map((t) => (
                 <span
@@ -476,15 +575,17 @@ const PostgraduateChemicalEngineering = () => {
                 </span>
               ))}
             </div>
+            <DocParas
+              items={branch.englishNote}
+              className="mt-5 text-slate-600 leading-relaxed space-y-4"
+            />
           </div>
           <div>
             <SectionHeading
               eyebrow="Standardised tests"
               title="GRE & Other Admission Tests"
             />
-            <p className="text-slate-600 leading-relaxed">
-              {branch.testsNote}
-            </p>
+            <DocParas items={branch.testsNote} />
           </div>
         </div>
       </section>
@@ -496,7 +597,7 @@ const PostgraduateChemicalEngineering = () => {
             eyebrow="Budget"
             title="Tuition Fees and Living Expenses"
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">{branch.costsNote}</p>
+          <DocParas items={branch.costsLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.costs.map((c) => (
               <div
@@ -507,6 +608,10 @@ const PostgraduateChemicalEngineering = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.costsNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -519,19 +624,20 @@ const PostgraduateChemicalEngineering = () => {
           />
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
             <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-sm">
+              <DocParas
+                items={branch.scholarshipsLead}
+                className="mb-5 text-slate-600 leading-relaxed space-y-4"
+              />
               <ListCard>
                 {branch.scholarships.map((s) => (
                   <Li key={s} text={s} />
                 ))}
               </ListCard>
             </div>
-            <p className="text-slate-600 leading-relaxed">
-              International students may qualify for merit-based scholarships,
-              university grants and other institutional awards. Availability
-              and scope vary across universities and programs — Edu Hawk
-              Worldwide helps you map realistic funding options for your
-              profile and budget.
-            </p>
+            <DocParas
+              items={branch.scholarshipsNote}
+              className="text-slate-600 leading-relaxed space-y-4"
+            />
           </div>
         </div>
       </section>
@@ -543,9 +649,8 @@ const PostgraduateChemicalEngineering = () => {
             eyebrow="After graduation"
             title={`Career Opportunities After ${branch.name}`}
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">
-            {branch.careerIntro}
-          </p>
+          <DocParas items={branch.careerIntro ? [branch.careerIntro] : []} />
+          <DocParas items={branch.careerLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.careers.map((c) => (
               <div
@@ -556,6 +661,10 @@ const PostgraduateChemicalEngineering = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.careerNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -566,7 +675,7 @@ const PostgraduateChemicalEngineering = () => {
             eyebrow="Step by step"
             title="Visa & Application Process for Indian Students"
           />
-
+          <DocParas items={branch.visaLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {branch.visaSteps.map((s, i) => (
               <div
@@ -579,7 +688,6 @@ const PostgraduateChemicalEngineering = () => {
                 {/* Animated Number Circle */}
                 <div className="mb-5 relative w-fit">
                   <div className="visa-number-circle relative flex items-center justify-center w-14 h-14 rounded-full border-2 border-orange-500 bg-orange-50 transition-all duration-500 group-hover:bg-gradient-to-br group-hover:from-orange-500 group-hover:to-orange-600 group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-lg group-hover:shadow-orange-200">
-
                     <span className="text-xl font-bold text-orange-500 transition-colors duration-500 group-hover:text-white">
                       {String(i + 1).padStart(2, "0")}
                     </span>
@@ -600,9 +708,10 @@ const PostgraduateChemicalEngineering = () => {
             ))}
           </div>
 
-          <p className="mt-7 text-sm text-slate-500 max-w-3xl">
-            {branch.visaNote}
-          </p>
+          <DocParas
+            items={branch.visaNote}
+            className="mt-7 text-sm text-slate-500 max-w-3xl space-y-4"
+          />
         </div>
       </section>
 

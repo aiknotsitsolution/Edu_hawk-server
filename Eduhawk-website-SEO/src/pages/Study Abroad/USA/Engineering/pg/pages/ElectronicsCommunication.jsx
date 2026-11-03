@@ -9,127 +9,186 @@ import cmuImg from "../../../../../../Images/Abroad/USA/Engineering_PG/Electroni
 const branch = {
   name: "Electronics & Communication Engineering",
   slug: "electronics-communication",
-  title: "MS in Electronics and Communication Engineering in USA for Indian Students | PG 2026 | Edu Hawk",
+  title:
+    "MS in Electronics and Communication Engineering in USA for Indian Students | PG 2026 | Edu Hawk",
   description:
     "Study Master's (MS) in Electronics and Communication Engineering (ECE) in the USA after graduation. Eligibility, GRE requirements, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Postgraduate Electronics and Communication Engineering in USA for Indian Students, Best Master's in Electronics and Communication Engineering Universities in USA, Postgraduate Electronics and Communication Engineering Courses in USA, ECE Admission Requirements for Master's in USA, MS in Electronics and Communication Engineering Tuition Fees in USA, ECE Scholarships for Indian Students, Top Graduate Electronics and Communication Engineering Colleges in America, USA Student Visa for Indian Postgraduate Students, VLSI and Semiconductor Engineering Masters in USA, Wireless Communication and IoT Specializations in USA",
   heroIntro:
-    "Postgraduate Electronics and Communication Engineering (ECE) in the USA builds advanced expertise in embedded systems architecture, wireless communication, microelectronics manufacturing, signal processing and modern networking. US universities typically deliver these degrees through Electrical Engineering or Electrical and Computer Engineering departments, with master's programs completed in one to two years.",
+    "With its cutting-edge research infrastructure, thriving semiconductor industry, advanced communication technologies, and ongoing technological innovation in the electronics field, the United States is a compelling choice for postgraduate study in Electronics and Communication Engineering. Indian students have the chance to develop advanced skills in fields such as embedded systems architecture, wireless communication systems, microelectronics manufacturing, signal processing techniques, and modern networking paradigms.",
   heroSub:
     "Edu Hawk Worldwide helps you shortlist universities, understand admission requirements and plan your complete study-abroad journey.",
+
+  whyLead: ["Among the main advantages are:"],
   whyPoints: [
-    "Access to state-of-the-art labs devoted to communication and electronics research.",
-    "Chances to work on integrated circuit technology development and semiconductor design.",
-    "Specialised focuses in embedded systems engineering, signal processing and wireless communication technologies.",
-    "Exposure to Internet of Things (IoT) infrastructure, connected device ecosystems, 5G networks and developing 6G technology research.",
-    "Research activity spanning intelligent electronic devices, robotics applications and satellite communication systems.",
-    "Career paths in consumer electronics manufacturing, aerospace, telecommunications, semiconductor design and technology-driven businesses.",
+    "access to state-of-the-art labs devoted to communication and electronics research.",
+    "chances to work on integrated circuit technology development and semiconductor design.",
+    "specialized focuses in embedded systems engineering, signal processing, and wireless communication technologies.",
+    "exposure to Internet of Things (IoT) infrastructure, connected device ecosystems, fifth-generation (5G) networks, and developing sixth-generation (6G) technology research.",
+    "Research activities include the development of intelligent electronic devices, robotics applications, and satellite communication systems.",
+    "career paths in consumer electronics manufacturing, aerospace engineering, telecommunications, semiconductor design, and technology-driven businesses.",
+  ],
+  whyNote: [
+    "Edu Hawk Worldwide Consultancy helps students prepare for their foreign education adventure, understand university admission requirements, and investigate international study possibilities.",
+  ],
+
+  coursesLead: [
+    "Indian students can choose graduate programs that fit their educational background and career goals. These programs are usually run by Electrical Engineering, Electrical and Computer Engineering, or similar academic departments in US universities.",
+    "Common choices for degrees include:",
   ],
   courses: [
-    "Master of Science in Electrical and Computer Engineering",
-    "Master of Science in Electrical Engineering",
-    "Master of Science in Telecommunications Engineering",
-    "Master of Science in Wireless Communications",
-    "Master of Science in Microelectronics or Semiconductor Engineering",
-    "Master of Science in Embedded Systems Engineering",
+    "Electrical and computer engineering master's degree",
+    "Electrical Engineering Master of Science",
+    "Electrical and computer engineering master's degree",
+    "Master of Science in Telecommunications Engineering, subject to availability at the institution",
+    "Master of Science in Wireless Communications, subject to availability at the institution",
+    "A Master of Science in Microelectronics or Semiconductor Engineering Master of Science in Embedded Systems Engineering, subject to institutional availability",
+    "Electronics, both digital and analog",
+    "Systems for Wireless and Mobile Communication",
+    "Techniques for Signal and Image Processing",
+    "Design of Very Large Scale Integration (VLSI) and Microelectronics",
+    "Integrated circuit technologies and semiconductor devices",
+    "Internet of Things and Embedded Systems",
+    "Telecommunications and Computer Networks",
+    "Optical and satellite communication, microwave engineering, and antenna design",
+    "Intelligent Electronic Systems and Robotics",
   ],
-  duration:
-    "Postgraduate degrees in ECE-related engineering fields in the USA normally take one to two years to complete. The exact timeline depends on your specialization, credit-hour requirements, institutional structure and whether you choose a thesis, research or course-based modality. Coursework may cover digital communication systems, advanced electronics, semiconductor physics, VLSI design, wireless networks, digital signal processing, embedded systems, antenna engineering and communication system design.",
+  coursesNote: ["Typical specializations consist of:"],
+
+  duration: [
+    "In the US, postgraduate degrees in Electronics and Communication Engineering normally take one to two years to complete. The exact timeline is influenced by a number of factors, including specialization, credit hour requirements, institutional restrictions, and the student's choice of thesis-oriented, research-oriented, or course-based modalities. Digital communication systems, advanced electronics, semiconductor physics, VLSI design, wireless networks, digital signal processing, embedded systems, antenna engineering, and communication system design are all possible topics for coursework.",
+  ],
+
+  eligibilityLead: [
+    "In general, Indian candidates must meet the following requirements for admission:",
+  ],
   eligibility: [
-    "Hold a bachelor's degree in electrical engineering, electrical and electronics engineering, electronics and communication engineering or a related technological field.",
-    "Provide official degree certificates and transcripts.",
-    "Meet the institution's minimum academic performance requirements.",
-    "Demonstrate English language proficiency, where required.",
-    "Submit Graduate Record Examination (GRE) scores, if required by the program.",
-    "Provide a statement of purpose, letters of recommendation and a resume.",
-    "Document relevant professional experience, research projects and internships, as applicable.",
-    "Some universities consider applicants with computer engineering or related technical degrees who can show proficiency in electronics, circuit theory, mathematics, programming or communication systems.",
+    "a bachelor's degree in electrical engineering, electrical and electronics engineering, electronics and communication engineering, or a related technological field.",
+    "official degree certificates and transcripts.",
+    "The institution's minimum requirements for academic success.",
+    "competence in English when required.",
+    "scores from the Graduate Record Examination (GRE), if required by the program.",
+    "A purpose statement.",
+    "letters of recommendation.",
+    "Curriculum vitae or resume.",
+    "documentation of pertinent professional experience, research initiatives, internships, and academic work, as appropriate.",
+  ],
+
+  englishLead: [
+    "It can be necessary for foreign applicants to pass an approved standardized test to prove their English language competency.",
+    "Assessments that are widely accepted include:",
   ],
   englishTests: [
-    "TOEFL iBT",
-    "IELTS Academic",
-    "PTE Academic",
-    "Duolingo English Test",
+    "Academic TOEFL iBT IELTS",
+    "Academic PTE",
+    "The Duolingo English Test was accepted by the organization.",
   ],
-  testsNote:
-    "GRE requirements vary widely across universities and postgraduate programs — some require GRE scores, while others treat the test as optional or leave it out of their evaluation entirely. Competitive applications also reflect strong academic credentials, proven electronics engineering projects, programming proficiency, documented research experience, relevant internships and references. Check current admission policies for each program rather than relying on outdated guidelines.",
-  costs: [
-    "Tuition and university fees",
-    "Living expenses and accommodation",
-    "Visa processing fees",
-    "International travel",
-    "Initial relocation costs",
+  englishNote: [
+    "Universities have different minimum score requirements and exemption standards. Before submitting an application, prospective students should verify the current language requirements for the program they want to attend.",
   ],
-  costsNote:
-    "Total cost varies significantly with the university, program length, geographic location and available funding. Review official tuition schedules and detailed living-cost projections, and build a complete financial forecast for the full program before choosing an institution.",
+
+  testsNote: [
+    "Requirements for the Graduate Record Examination (GRE) exhibit significant institutional diversity among postgraduate programs and universities. While some universities require GRE scores in order to admit students, others consider the test optional or do not include it in their evaluation standards.",
+  ],
+
+  costsLead: [
+    "The total cost of completing postgraduate courses in Electronics and Communication Engineering in the United States varies significantly depending on program length, geographic location, institutional choice, and available financing sources.",
+    "Principal costs consist of: Individual costs, fees for processing visas, the cost of traveling abroad, and the initial costs of moving.",
+    "Before choosing an institution, prospective students are advised to review official tuition schedules and detailed living cost projections. Creating a comprehensive financial forecast for the life of the program allows Indian students to create practical financial planning strategies and allows for meaningful institutional comparison.",
+  ],
+  costs: [],
+  costsNote: [],
+
+  scholarshipsLead: [
+    "International students that meet the requirements might look into a variety of funding options.",
+    "Alternatives for postgraduate academic PG financing include:",
+  ],
   scholarships: [
-    "Merit-based scholarship awards",
-    "Department scholarships",
-    "Graduate research assistantships",
-    "Graduate teaching assistantships",
-    "Tuition benefits tied to qualifying assistantship positions",
-    "External scholarships managed by qualified funding agencies",
+    "scholarship awards based on merit.",
+    "scholarships awarded by departments.",
+    "vacancies for graduate research assistants.",
+    "jobs for graduate teaching assistantships.",
+    "Benefits for tuition reimbursement are dependent on qualified assistantship positions.",
+    "Opportunities for external scholarships are managed by qualified funding agencies.",
+  ],
+  scholarshipsNote: [],
+
+  universitiesLead: [
+    "For postgraduate studies in Electrical Engineering, Electrical and Computer Engineering, and related subjects, the following universities are worth investigating:",
   ],
   universities: [
-    { name: "Massachusetts Institute of Technology", location: "Cambridge, Massachusetts" , img: mitImg },
-    { name: "Stanford University", location: "Stanford, California" , img: stanfordImg },
-    { name: "University of California, Berkeley", location: "Berkeley, California" , img: ucbImg },
-    { name: "Carnegie Mellon University", location: "Pittsburgh, Pennsylvania" , img: cmuImg },
+    {
+      name: "Massachusetts Institute of Technology",
+      location: "Cambridge, Massachusetts",
+      img: mitImg,
+    },
+    {
+      name: "Stanford University",
+      location: "Stanford, California",
+      img: stanfordImg,
+    },
+    {
+      name: "University of California, Berkeley",
+      location: "Berkeley, California",
+      img: ucbImg,
+    },
+    {
+      name: "Carnegie Mellon University",
+      location: "Pittsburgh, Pennsylvania",
+      img: cmuImg,
+    },
   ],
-  careers: [
-    "Electronics Design Engineer",
-    "Communication Systems Engineer",
-    "VLSI and Semiconductor Design Engineer",
-    "Embedded Systems Engineer",
-    "Wireless Network Engineer",
-    "RF Design Engineer",
-    "Digital Signal Processing Engineer",
-    "Telecommunications Engineer",
-    "IoT Systems Engineer",
-    "Hardware Design Engineer",
-    "Research and Development Engineer",
-  ],
+  universitiesNote: [],
+
   careerIntro:
-    "Postgraduates develop advanced technical skills relevant to careers in semiconductors, networking, electronics, communication systems and research. Job availability depends on the specialization, skills, experience and work authorisation rules.",
-  visaSteps: [
-    "Examine universities and shortlist curricula that emphasise electronics and communication.",
-    "Check foundational coursework and academic prerequisites for each program.",
-    "Review English language proficiency and GRE requirements for your intended intake.",
-    "Prepare official transcripts, degree certificates, a Statement of Purpose, references and a resume.",
-    "Complete applications and submit them by the deadlines set by each university.",
-    "Assess admission decisions, financial obligations and funding options.",
-    "Obtain the necessary student records from your admitted institution.",
-    "Receive Form I-20 from your SEVP-certified university after proving finances.",
-    "Pay the SEVIS fee, apply for the student visa and attend the interview if required.",
-    "Arrange housing, insurance, travel and other pre-departure preparations.",
+    "Graduates with a postgraduate degree can develop advanced technical skills relevant to career paths in semiconductors, networking, electronics, communication systems, and research.",
+  careerLead: ["Possible occupations include:"],
+  careers: [
+    "Engineer for Electronics Design",
+    "Engineer for Communication Systems, VLSI, and Semiconductor Design",
+    "Engineers in the fields of embedded systems, wireless networks, and radio frequency (RF)",
+    "Engineers in the fields of digital signal processing, telecommunications, IoT systems, hardware design, research, and development",
   ],
-  visaNote:
-    "University admission and visa approval are separate decisions — visa authorisation is not guaranteed. Always consult official US government resources and your university for current visa requirements.",
+  careerNote: [],
+
+  visaLead: [
+    "Indian students who are admitted to US universities usually have to go through the necessary steps to obtain a student visa.",
+    "Typical application procedures consist of:",
+  ],
+  visaSteps: [
+    "Examine educational establishments and determine suitable curricula that emphasize electronics and communication.",
+    "Check the criteria for foundational coursework and academic prerequisites.",
+    "Examine your English language skills and the requirements for the GRE.",
+    "Put together professional paperwork, academic references, official transcripts, and a Statement of Purpose.",
+    "Complete applications and submit them by the deadlines set by the university.",
+    "Assess financial responsibilities, financial assistance opportunities, and admission decisions.",
+    "Obtain the necessary student records from the relevant organization.",
+    "Complete the visa application process and pay the required SEVIS cost.",
+    "If necessary, take part in the visa interview process and make travel arrangements after authorization.",
+  ],
+  visaNote: [],
+
   faqs: [
     {
-      q: "Can Indian students study postgraduate Electronics and Communication Engineering in the USA?",
-      a: "Yes. Indian students may apply to eligible postgraduate programs if they hold the necessary academic qualifications and a relevant bachelor's degree.",
+      q: "Can Indian students study postgraduate Electronics and Communication Engineering in the US?",
+      a: "Yes, Indian students may apply to eligible postgraduate programs if they have the necessary academic qualifications and a relevant bachelor's degree.",
     },
     {
-      q: "How long does a master's degree in Electronics and Communication Engineering take in the USA?",
-      a: "Most comparable programs require one to two years of study, depending on the degree structure, specialization and institutional policies.",
+      q: "How long does it take to earn a master's degree in Electronics and Communication Engineering in the US?",
+      a: "Most similar programs require one to two years of study, depending on degree structure, specialization, and institutional policies.",
     },
     {
-      q: "Is the GRE required for admission to these programs?",
-      a: "It varies. Requirements differ across programs and institutions — some colleges require GRE scores, while others treat it as optional or do not include it in their evaluation.",
+      q: "Does admission to the program require taking the GRE?",
+      a: "Yes, different programs and institutions have different requirements for the GRE. Some colleges require it, while others classify it as optional or do not take it into account.",
     },
     {
-      q: "What specializations are available in this field?",
-      a: "Popular choices include VLSI design, semiconductor engineering, wireless communication, signal processing, embedded systems, the Internet of Things (IoT) and telecommunications.",
+      q: "In this field, what specializations are available?",
+      a: "VLSI design, semiconductor engineering, wireless communication, signal processing, embedded systems, the Internet of Things, and telecommunications are popular choices.",
     },
     {
-      q: "Are scholarships available for Indian students studying ECE at postgraduate level in the USA?",
-      a: "Yes. Merit scholarships, research assistantships, teaching assistantships and other funding options are available to qualified students, but availability and criteria vary across institutions.",
-    },
-    {
-      q: "How can Edu Hawk Worldwide help me study abroad?",
-      a: "Edu Hawk Worldwide helps students explore suitable universities, understand admission requirements, organise application documents and plan their study-abroad journey. Students should verify academic, financial, immigration and licensing requirements with the relevant official authorities.",
+      q: "Do Indian students have access to scholarships?",
+      a: "Yes merit scholarships, research assistantships, teaching assistantships, and other financing options are available to qualified students.",
     },
   ],
 };
@@ -143,9 +202,19 @@ const SectionHeading = ({ eyebrow, title }) => (
   </div>
 );
 
-const ListCard = ({ children }) => (
-  <ul className="space-y-3">{children}</ul>
-);
+const ListCard = ({ children }) => <ul className="space-y-3">{children}</ul>;
+
+const DocParas = ({
+  items,
+  className = "max-w-3xl mb-6 text-slate-600 leading-relaxed space-y-4",
+}) =>
+  items && items.length ? (
+    <div className={className}>
+      {items.map((p, i) => (
+        <p key={i}>{p}</p>
+      ))}
+    </div>
+  ) : null;
 
 const Li = ({ text }) => (
   <li className="flex items-start gap-3">
@@ -337,11 +406,16 @@ const PostgraduateElectronicsCommunication = () => {
             eyebrow="Why the USA"
             title={`Why Study ${branch.name} in the USA?`}
           />
+          <DocParas items={branch.whyLead} />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-4">
             {branch.whyPoints.map((p) => (
               <Li key={p} text={p} />
             ))}
           </div>
+          <DocParas
+            items={branch.whyNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -352,12 +426,7 @@ const PostgraduateElectronicsCommunication = () => {
             eyebrow="Programs"
             title={`${branch.name} Courses in the USA`}
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">
-            In the USA, postgraduate ECE programs are usually run by Electrical
-            Engineering, Electrical and Computer Engineering or similar
-            academic departments, so students should compare curriculum
-            content rather than degree titles alone. Common pathways include:
-          </p>
+          <DocParas items={branch.coursesLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.courses.map((c) => (
               <div
@@ -368,6 +437,10 @@ const PostgraduateElectronicsCommunication = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.coursesNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -381,10 +454,10 @@ const PostgraduateElectronicsCommunication = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">
               Top Universities for {branch.name} in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-2xl">
-              Compare universities on academics, cost, facilities and
-              international admission policies before shortlisting.
-            </p>
+            <DocParas
+              items={branch.universitiesLead}
+              className="text-slate-500 text-[15px] leading-relaxed max-w-2xl space-y-3"
+            />
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {branch.universities.map((u) => (
@@ -417,6 +490,10 @@ const PostgraduateElectronicsCommunication = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.universitiesNote}
+            className="mt-6 max-w-3xl text-slate-500 text-[15px] leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -425,7 +502,10 @@ const PostgraduateElectronicsCommunication = () => {
         <div className="max-w-6xl mx-auto px-6">
           <SectionHeading eyebrow="How long" title="Program Duration" />
           <div className="bg-blue-50/60 border border-blue-100 rounded-2xl p-6 sm:p-8 max-w-3xl">
-            <p className="text-slate-700 leading-relaxed">{branch.duration}</p>
+            <DocParas
+              items={branch.duration}
+              className="text-slate-700 leading-relaxed space-y-4"
+            />
           </div>
         </div>
       </section>
@@ -438,6 +518,10 @@ const PostgraduateElectronicsCommunication = () => {
             title="Eligibility Requirements for Indian Students"
           />
           <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 max-w-3xl shadow-sm">
+            <DocParas
+              items={branch.eligibilityLead}
+              className="mb-5 text-slate-600 leading-relaxed space-y-4"
+            />
             <ListCard>
               {branch.eligibility.map((e) => (
                 <Li key={e} text={e} />
@@ -455,12 +539,10 @@ const PostgraduateElectronicsCommunication = () => {
               eyebrow="English proficiency"
               title="English Language Requirements"
             />
-            <p className="text-slate-600 mb-5">
-              International applicants may need to prove English competency
-              through a recognised test. Minimum scores differ by university,
-              and some universities may waive the requirement for students
-              educated in English-medium schools.
-            </p>
+            <DocParas
+              items={branch.englishLead}
+              className="mb-5 text-slate-600 leading-relaxed space-y-3"
+            />
             <div className="flex flex-wrap gap-3">
               {branch.englishTests.map((t) => (
                 <span
@@ -471,15 +553,17 @@ const PostgraduateElectronicsCommunication = () => {
                 </span>
               ))}
             </div>
+            <DocParas
+              items={branch.englishNote}
+              className="mt-5 text-slate-600 leading-relaxed space-y-4"
+            />
           </div>
           <div>
             <SectionHeading
               eyebrow="Standardised tests"
               title="GRE & Other Admission Requirements"
             />
-            <p className="text-slate-600 leading-relaxed">
-              {branch.testsNote}
-            </p>
+            <DocParas items={branch.testsNote} />
           </div>
         </div>
       </section>
@@ -491,7 +575,7 @@ const PostgraduateElectronicsCommunication = () => {
             eyebrow="Budget"
             title="Tuition Fees and Living Expenses"
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">{branch.costsNote}</p>
+          <DocParas items={branch.costsLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.costs.map((c) => (
               <div
@@ -502,6 +586,10 @@ const PostgraduateElectronicsCommunication = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.costsNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -514,19 +602,20 @@ const PostgraduateElectronicsCommunication = () => {
           />
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
             <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-sm">
+              <DocParas
+                items={branch.scholarshipsLead}
+                className="mb-5 text-slate-600 leading-relaxed space-y-4"
+              />
               <ListCard>
                 {branch.scholarships.map((s) => (
                   <Li key={s} text={s} />
                 ))}
               </ListCard>
             </div>
-            <p className="text-slate-600 leading-relaxed">
-              International students may qualify for merit-based scholarships,
-              university grants and other institutional awards. Availability
-              and scope vary across universities and programs — Edu Hawk
-              Worldwide helps you map realistic funding options for your
-              profile and budget.
-            </p>
+            <DocParas
+              items={branch.scholarshipsNote}
+              className="text-slate-600 leading-relaxed space-y-4"
+            />
           </div>
         </div>
       </section>
@@ -538,9 +627,8 @@ const PostgraduateElectronicsCommunication = () => {
             eyebrow="After graduation"
             title={`Career Opportunities After ${branch.name}`}
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">
-            {branch.careerIntro}
-          </p>
+          <DocParas items={branch.careerIntro ? [branch.careerIntro] : []} />
+          <DocParas items={branch.careerLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.careers.map((c) => (
               <div
@@ -551,6 +639,10 @@ const PostgraduateElectronicsCommunication = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.careerNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -561,7 +653,7 @@ const PostgraduateElectronicsCommunication = () => {
             eyebrow="Step by step"
             title="Visa & Application Process for Indian Students"
           />
-
+          <DocParas items={branch.visaLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {branch.visaSteps.map((s, i) => (
               <div
@@ -574,7 +666,6 @@ const PostgraduateElectronicsCommunication = () => {
                 {/* Animated Number Circle */}
                 <div className="mb-5 relative w-fit">
                   <div className="visa-number-circle relative flex items-center justify-center w-14 h-14 rounded-full border-2 border-orange-500 bg-orange-50 transition-all duration-500 group-hover:bg-gradient-to-br group-hover:from-orange-500 group-hover:to-orange-600 group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-lg group-hover:shadow-orange-200">
-
                     <span className="text-xl font-bold text-orange-500 transition-colors duration-500 group-hover:text-white">
                       {String(i + 1).padStart(2, "0")}
                     </span>
@@ -595,9 +686,10 @@ const PostgraduateElectronicsCommunication = () => {
             ))}
           </div>
 
-          <p className="mt-7 text-sm text-slate-500 max-w-3xl">
-            {branch.visaNote}
-          </p>
+          <DocParas
+            items={branch.visaNote}
+            className="mt-7 text-sm text-slate-500 max-w-3xl space-y-4"
+          />
         </div>
       </section>
 

@@ -15,16 +15,26 @@ const branch = {
   keywords:
     "Study Chemical Engineering in USA for Indian Students, Best Chemical Engineering Universities in USA, Bachelor's in Chemical Engineering in USA, Study Chemical Engineering in USA After 12th, Chemical Engineering Courses in USA, Chemical Engineering Admission Requirements in USA, Chemical Engineering Tuition Fees in USA, Chemical Engineering Scholarships for Indian Students, Top Chemical Engineering Colleges in America, Chemical Engineering Eligibility for Indian Students, SAT Requirements for Chemical Engineering in USA, English Language Tests for US Universities, Career Opportunities After Chemical Engineering, Pharmaceutical and Process Engineering in USA, USA Student Visa for Indian Engineering Students",
   heroIntro:
-    "Undergraduate Chemical Engineering programs in the USA combine chemistry, physics, mathematics and engineering principles to design processes for producing chemicals, fuels, medicines, food and advanced materials. Indian students after Class 12 can pursue a four-year bachelor's degree with practical laboratory work, research and industry-focused projects.",
+    "Study Undergraduate Chemical Engineering programs in the USA integrate chemistry, physics, mathematics, and engineering principles in order to develop processes for the production of chemicals, fuels, medicines, food, and advanced materials, and the universities give students the chance to carry out practical laboratory work, take part in research, engage in process design, and work on projects that are focused on industry.",
   heroSub:
     "Edu Hawk Worldwide helps you shortlist universities, understand admission requirements and plan your complete study-abroad journey.",
+
+  whyLead: ["Key benefits include:"],
   whyPoints: [
     "Opportunity to use modern chemical engineering laboratories and research facilities.",
-    "Practical learning in chemical processes, materials and industrial production.",
-    "Exposure to the pharmaceutical, energy and petrochemical industries.",
-    "Learning about sustainable manufacturing and environmental technologies.",
-    "Study opportunities in biotechnology, nanotechnology and advanced materials.",
-    "Career paths in process engineering, manufacturing, research and quality management.",
+    "Learning that is practical in the areas of chemical processes, materials, and industrial production.",
+    "There are opportunities for exploring the pharmaceutical, energy, and petrochemical industries.",
+    "Being exposed to sustainable manufacturing and environmental technologies.",
+    "There are learning opportunities in the fields of biotechnology, nanotechnology, and advanced materials.",
+    "The career paths available in the fields of process engineering, manufacturing, research, and quality management.",
+  ],
+  whyNote: [
+    "Edu Hawk worldwide assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey..",
+  ],
+
+  coursesLead: [
+    "Indian students have the opportunity to study undergraduate programmes that focus on chemical processes, industrial production, and applied chemistry.",
+    "Popular degree options include:",
   ],
   courses: [
     "Bachelor of Science in Chemical Engineering",
@@ -33,15 +43,31 @@ const branch = {
     "Bachelor of Science in Chemical and Biological Engineering",
     "Bachelor of Science in Biochemical Engineering, where available",
   ],
-  duration:
-    "An undergraduate Chemical Engineering degree in the USA typically takes four years. The curriculum covers mathematics, chemistry, physics, thermodynamics, fluid mechanics, heat and mass transfer, chemical reaction engineering, process control and process design. Students can also carry out laboratory experiments, design projects, research activities, internships or cooperative education placements.",
+  coursesNote: [
+    "Through Edu Hawk worldwide study abroad guidance, students can explore these opportunities and understand the requirements involved in pursuing chemical engineering overseas.",
+  ],
+
+  duration: [
+    "In the United States an undergraduate degree in Chemical Engineering usually takes four years to finish.",
+    "The course usually covers mathematics, chemistry, physics, thermodynamics, fluid mechanics, heat and mass transfer, chemical reaction engineering, process control, and process design.",
+    "Students have the opportunity as well to carry out laboratory experiments, carry out design projects, take part in research activities, do internships, or undertake cooperative education placements.",
+  ],
+
+  eligibilityLead: [
+    "Indian students generally need to meet the following requirements:",
+  ],
   eligibility: [
-    "Pass Class 12 from a recognised board.",
-    "Mathematics and chemistry, plus physics and any other subjects required by the university.",
-    "Academic performance meeting the university's admission standards.",
-    "English language proficiency, where applicable.",
-    "SAT or ACT scores if required by the university.",
-    "Official academic records and supporting documents for the application.",
+    "Finishing the Class 12 course with a recognised educational board.",
+    "The subjects needed by the university include mathematics and chemistry, as well as physics and any other subjects required.",
+    "Marks that meet the requirements for admission by the institution.",
+    "English-language proficiency where required.",
+    "The SAT or ACT scores, if the university requires them.",
+    "The academic transcripts and other documents required for the application.",
+  ],
+
+  englishLead: [
+    "International students might be required to show that they have the necessary level of English by taking a test which is accepted.",
+    "Commonly accepted tests include:",
   ],
   englishTests: [
     "IELTS Academic",
@@ -49,31 +75,76 @@ const branch = {
     "PTE Academic",
     "Duolingo English Test, where accepted",
   ],
-  testsNote:
-    "SAT or ACT requirements vary from university to university and by admission cycle; some schools require the scores while others have a test-optional policy. There is no single entrance exam mandatory for all US universities for undergraduate Chemical Engineering — always check the latest testing policies, application deadlines and program-specific requirements of your chosen institutions.",
-  costs: [
-    "University tuition and academic fees",
-    "Accommodation and meals",
-    "Health insurance",
-    "Books, lab supplies and equipment",
-    "Local transport and personal expenses",
-    "Visa fees, travel and initial settlement costs",
+  englishNote: [],
+
+  testsNote: [
+    "The requirement for SAT or ACT scores varies from university to university and according to the admission cycle; some schools do require the scores while others have a test-optional policy.",
+    "No single entrance examination is required by all US universities for admission to an undergraduate Chemical Engineering programme. It is advisable for students to look into the current testing policies, the application deadlines, and the requirements specific to the programme.",
   ],
-  costsNote:
-    "Total cost depends on the university, its location and your accommodation choice. Compare the total annual cost of attendance rather than tuition alone, and verify current figures on official university websites.",
+
+  costsLead: [
+    "The total cost of undertaking an undergraduate course in Chemical Engineering in the United States varies according to the university, the location, and the accommodation arrangements.",
+    "Main expenses include:",
+  ],
+  costs: [
+    "Tuition and academic fees.",
+    "Accommodation and meals.",
+    "Health insurance.",
+    "Books, lab supplies, and school equipment.",
+    "Transportation and personal expenses.",
+    "Visa, travel, and first settlement costs.",
+  ],
+  costsNote: [
+    "Instead, students should look at the total annual cost of attendance rather than just the tuition fee and make sure that the current costs are checked on the official university websites.",
+  ],
+
+  scholarshipsLead: [
+    "A number of universities in the United States give scholarships and financial aid to international undergraduate students who are eligible.",
+    "Possible funding options include:",
+  ],
   scholarships: [
-    "Merit-based academic scholarships",
-    "International student scholarships",
-    "University-specific tuition reductions",
-    "Need-based financial aid for international students",
-    "External scholarships from eligible organisations",
+    "Merit-based academic scholarships.",
+    "International student scholarships.",
+    "University-specific tuition reductions.",
+    "Financial aid on a need basis is available to international students.",
+    "Scholarships provided externally by organisations that are eligible.",
+  ],
+  scholarshipsNote: [
+    "Students must check the eligibility criteria, the deadlines, the amounts offered, and the conditions for renewal. Scholarships are competitive and not guaranteed.",
+  ],
+
+  universitiesLead: [
+    "The following universities are worth researching for undergraduate Chemical Engineering or closely related programs:",
   ],
   universities: [
-    { name: "Massachusetts Institute of Technology", location: "Cambridge, Massachusetts" , img: mitImg },
-    { name: "Stanford University", location: "Stanford, California" , img: stanfordImg },
-    { name: "University of California, Berkeley", location: "Berkeley, California" , img: ucbImg },
-    { name: "Georgia Institute of Technology", location: "Atlanta, Georgia" , img: gatechImg },
+    {
+      name: "Massachusetts Institute of Technology",
+      location: "Cambridge, Massachusetts",
+      img: mitImg,
+    },
+    {
+      name: "Stanford University",
+      location: "Stanford, California",
+      img: stanfordImg,
+    },
+    {
+      name: "University of California, Berkeley",
+      location: "Berkeley, California",
+      img: ucbImg,
+    },
+    {
+      name: "Georgia Institute of Technology",
+      location: "Atlanta, Georgia",
+      img: gatechImg,
+    },
   ],
+  universitiesNote: [
+    "Students must check on each university's official website to find out the precise undergraduate degree offered, the admission requirements, the tuition fees, and whether the programme is accredited.",
+  ],
+
+  careerIntro:
+    "Graduates have the opportunity to take up starting careers in the fields of chemical processing, manufacturing, energy, pharmaceuticals, materials, and environmental technology.",
+  careerLead: ["Potential career roles include:"],
   careers: [
     "Junior Chemical Engineer",
     "Process Engineer",
@@ -86,41 +157,47 @@ const branch = {
     "Research and Development Assistant",
     "Manufacturing Engineer",
   ],
-  careerIntro:
-    "Graduates can begin careers in chemical processing, manufacturing, energy, pharmaceuticals, materials and environmental technology. Role availability depends on technical skills, practical experience, employer requirements and work authorisation; some positions may need additional qualifications or professional licensing.",
-  visaSteps: [
-    "Research universities awarding chemical engineering degrees.",
-    "Check academic eligibility and required Class 12 subjects.",
-    "Review English language and standardised test requirements.",
-    "Prepare transcripts and other required documents.",
-    "Submit applications before the relevant deadlines.",
-    "Review admission offers and financial requirements.",
-    "Obtain the required student documentation from the university.",
-    "Pay the SEVIS fee and complete the visa application.",
-    "Attend the visa interview where applicable and plan travel after approval.",
+  careerNote: [
+    "The variety of careers available will depend on one's technical skills, practical experience, the requirements of the employer, and the appropriate work authorisation. In some cases, extra qualifications or professional licensing will be needed.",
   ],
-  visaNote:
-    "Visa approval is not guaranteed. Always follow current US government regulations and university policies.",
+
+  visaLead: [
+    "Indian students who have been accepted by a suitable US institution usually have to go through the relevant student visa procedure.",
+    "Typical steps include:",
+  ],
+  visaSteps: [
+    "Examine the colleges that grant degrees in chemical engineering.",
+    "Check that you are academically eligible and see what Class 12 subjects are required.",
+    "Look at the requirements for English-language and standardised testing.",
+    "Get your school transcripts and other needed documents ready.",
+    "Make sure that your applications are submitted by the relevant deadlines.",
+    "Look over admission offers and money requirements.",
+    "Get the student documents that are required from the university.",
+    "You must pay the relevant SEVIS fee and fill out the visa application.",
+    "If a visa interview is required, attend it and then prepare for travel after your visa has been approved.",
+  ],
+  visaNote: [],
+
   faqs: [
     {
-      q: "Can Indian students study Chemical Engineering in the USA after Class 12?",
-      a: "Yes. Indian students can apply after Class 12 provided they meet the university's academic, subject and English language requirements.",
+      q: "Is it possible for Indian students to study for their undergraduate degree in Chemical Engineering in the United States after completing Class 12?",
+      a: "Yes, Indian students may apply after they have completed Class 12 provided that they fulfill the university's academic, subject, and English-language requirements.",
     },
     {
-      q: "How long does it take to complete an undergraduate Chemical Engineering degree in the USA?",
-      a: "Most undergraduate Chemical Engineering programs take about four years to complete.",
+      q: "What is the duration of an undergraduate degree in Chemical Engineering in the United States?",
+      a: "It usually takes about four years to finish most undergraduate programmes in Chemical Engineering.",
     },
     {
-      q: "What subjects are important for Chemical Engineering?",
-      a: "Mathematics, chemistry and physics form the key foundations. Students should check the Class 12 subject requirements of each university.",
+      q: "What subjects are important in the field of Chemical Engineering?",
+      a: "Mathematics, chemistry, and physics form important foundations and students should look at the subjects required for Class 12 at each university.",
     },
     {
       q: "Is the SAT required for admission?",
-      a: "SAT requirements differ by university and admission cycle, and some universities offer test-optional admission.",
+      a: "The SAT requirements differ from university to university and from admission cycle to admission cycle, and some universities provide test-optional admission.",
     },
     {
-      q: "How can Edu Hawk Worldwide help me study abroad?",
-      a: "Edu Hawk Worldwide helps students explore suitable universities, understand admission requirements, organise application documents and plan their study-abroad journey. Students should verify academic, financial, immigration and licensing requirements with the relevant official authorities.",
+      q: "How can Edu Hawk worldwide help me study  abroad?",
+      a: "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities.",
     },
   ],
 };
@@ -134,9 +211,19 @@ const SectionHeading = ({ eyebrow, title }) => (
   </div>
 );
 
-const ListCard = ({ children }) => (
-  <ul className="space-y-3">{children}</ul>
-);
+const ListCard = ({ children }) => <ul className="space-y-3">{children}</ul>;
+
+const DocParas = ({
+  items,
+  className = "max-w-3xl mb-6 text-slate-600 leading-relaxed space-y-4",
+}) =>
+  items && items.length ? (
+    <div className={className}>
+      {items.map((p, i) => (
+        <p key={i}>{p}</p>
+      ))}
+    </div>
+  ) : null;
 
 const Li = ({ text }) => (
   <li className="flex items-start gap-3">
@@ -329,11 +416,16 @@ const ChemicalEngineeringUG = () => {
             eyebrow="Why the USA"
             title={`Why Study ${branch.name} in the USA?`}
           />
+          <DocParas items={branch.whyLead} />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-4">
             {branch.whyPoints.map((p) => (
               <Li key={p} text={p} />
             ))}
           </div>
+          <DocParas
+            items={branch.whyNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -344,11 +436,7 @@ const ChemicalEngineeringUG = () => {
             eyebrow="Programs"
             title={`${branch.name} Courses in the USA`}
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">
-            Undergraduate students can pursue programs focused on chemical
-            processes, industrial production and applied chemistry. Common
-            degree pathways include:
-          </p>
+          <DocParas items={branch.coursesLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.courses.map((c) => (
               <div
@@ -359,6 +447,10 @@ const ChemicalEngineeringUG = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.coursesNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -372,10 +464,10 @@ const ChemicalEngineeringUG = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">
               Top Universities for {branch.name} in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-2xl">
-              Compare universities on academics, cost, facilities and
-              international admission policies before shortlisting.
-            </p>
+            <DocParas
+              items={branch.universitiesLead}
+              className="text-slate-500 text-[15px] leading-relaxed max-w-2xl space-y-3"
+            />
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {branch.universities.map((u) => (
@@ -408,6 +500,10 @@ const ChemicalEngineeringUG = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.universitiesNote}
+            className="mt-6 max-w-3xl text-slate-500 text-[15px] leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -416,7 +512,10 @@ const ChemicalEngineeringUG = () => {
         <div className="max-w-6xl mx-auto px-6">
           <SectionHeading eyebrow="How long" title="Program Duration" />
           <div className="bg-blue-50/60 border border-blue-100 rounded-2xl p-6 sm:p-8 max-w-3xl">
-            <p className="text-slate-700 leading-relaxed">{branch.duration}</p>
+            <DocParas
+              items={branch.duration}
+              className="text-slate-700 leading-relaxed space-y-4"
+            />
           </div>
         </div>
       </section>
@@ -429,6 +528,10 @@ const ChemicalEngineeringUG = () => {
             title="Eligibility Requirements for Indian Students"
           />
           <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 max-w-3xl shadow-sm">
+            <DocParas
+              items={branch.eligibilityLead}
+              className="mb-5 text-slate-600 leading-relaxed space-y-4"
+            />
             <ListCard>
               {branch.eligibility.map((e) => (
                 <Li key={e} text={e} />
@@ -446,12 +549,10 @@ const ChemicalEngineeringUG = () => {
               eyebrow="English proficiency"
               title="English Language Requirements"
             />
-            <p className="text-slate-600 mb-5">
-              International applicants may need to prove English competency
-              through a recognised test. Minimum scores differ by university,
-              and some universities may waive the requirement for students
-              educated in English-medium schools.
-            </p>
+            <DocParas
+              items={branch.englishLead}
+              className="mb-5 text-slate-600 leading-relaxed space-y-3"
+            />
             <div className="flex flex-wrap gap-3">
               {branch.englishTests.map((t) => (
                 <span
@@ -462,15 +563,17 @@ const ChemicalEngineeringUG = () => {
                 </span>
               ))}
             </div>
+            <DocParas
+              items={branch.englishNote}
+              className="mt-5 text-slate-600 leading-relaxed space-y-4"
+            />
           </div>
           <div>
             <SectionHeading
               eyebrow="Standardised tests"
               title="SAT & Other Admission Tests"
             />
-            <p className="text-slate-600 leading-relaxed">
-              {branch.testsNote}
-            </p>
+            <DocParas items={branch.testsNote} />
           </div>
         </div>
       </section>
@@ -482,7 +585,7 @@ const ChemicalEngineeringUG = () => {
             eyebrow="Budget"
             title="Tuition Fees and Living Expenses"
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">{branch.costsNote}</p>
+          <DocParas items={branch.costsLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.costs.map((c) => (
               <div
@@ -493,6 +596,10 @@ const ChemicalEngineeringUG = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.costsNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -505,19 +612,20 @@ const ChemicalEngineeringUG = () => {
           />
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
             <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-sm">
+              <DocParas
+                items={branch.scholarshipsLead}
+                className="mb-5 text-slate-600 leading-relaxed space-y-4"
+              />
               <ListCard>
                 {branch.scholarships.map((s) => (
                   <Li key={s} text={s} />
                 ))}
               </ListCard>
             </div>
-            <p className="text-slate-600 leading-relaxed">
-              International students may qualify for merit-based scholarships,
-              university grants and other institutional awards. Availability
-              and scope vary across universities and programs — Edu Hawk
-              Worldwide helps you map realistic funding options for your
-              profile and budget.
-            </p>
+            <DocParas
+              items={branch.scholarshipsNote}
+              className="text-slate-600 leading-relaxed space-y-4"
+            />
           </div>
         </div>
       </section>
@@ -529,9 +637,8 @@ const ChemicalEngineeringUG = () => {
             eyebrow="After graduation"
             title={`Career Opportunities After ${branch.name}`}
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">
-            {branch.careerIntro}
-          </p>
+          <DocParas items={branch.careerIntro ? [branch.careerIntro] : []} />
+          <DocParas items={branch.careerLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.careers.map((c) => (
               <div
@@ -542,6 +649,10 @@ const ChemicalEngineeringUG = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.careerNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -552,7 +663,7 @@ const ChemicalEngineeringUG = () => {
             eyebrow="Step by step"
             title="Visa & Application Process for Indian Students"
           />
-
+          <DocParas items={branch.visaLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {branch.visaSteps.map((s, i) => (
               <div
@@ -565,7 +676,6 @@ const ChemicalEngineeringUG = () => {
                 {/* Animated Number Circle */}
                 <div className="mb-5 relative w-fit">
                   <div className="visa-number-circle relative flex items-center justify-center w-14 h-14 rounded-full border-2 border-orange-500 bg-orange-50 transition-all duration-500 group-hover:bg-gradient-to-br group-hover:from-orange-500 group-hover:to-orange-600 group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-lg group-hover:shadow-orange-200">
-
                     <span className="text-xl font-bold text-orange-500 transition-colors duration-500 group-hover:text-white">
                       {String(i + 1).padStart(2, "0")}
                     </span>
@@ -586,9 +696,10 @@ const ChemicalEngineeringUG = () => {
             ))}
           </div>
 
-          <p className="mt-7 text-sm text-slate-500 max-w-3xl">
-            {branch.visaNote}
-          </p>
+          <DocParas
+            items={branch.visaNote}
+            className="mt-7 text-sm text-slate-500 max-w-3xl space-y-4"
+          />
         </div>
       </section>
 

@@ -10,39 +10,56 @@ import stanfordImg from "../../../../../../Images/Abroad/USA/Engineering_UG/Aero
 const branch = {
   name: "Aerospace Engineering",
   slug: "aerospace-engineering",
-  title: "Aerospace Engineering in USA for Indian Students | UG 2026 | Edu Hawk",
+  title:
+    "Aerospace Engineering in USA for Indian Students | UG 2026 | Edu Hawk",
   description:
     "Study Bachelor's in Aerospace Engineering in the USA after Class 12. Eligibility, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Aerospace Engineering in USA for Indian Students, Best Aerospace Engineering Universities in USA, Bachelor's in Aerospace Engineering in USA, Study Aerospace Engineering in USA After 12th, Aerospace Engineering Courses in USA, Aerospace Engineering Admission Requirements in USA, Aerospace Engineering Tuition Fees in USA, Aerospace Engineering Scholarships for Indian Students, Top Aerospace Engineering Colleges in America, Aerospace Engineering Eligibility for Indian Students, SAT Requirements for Aerospace Engineering in USA, English Language Tests for US Universities, Career Opportunities After Aerospace Engineering, Aeronautical and Astronautical Engineering in USA, USA Student Visa for Indian Engineering Students",
   heroIntro:
-    "The United States is a leading destination for students interested in aircraft design, spacecraft development, aviation technology and aerospace research. Undergraduate Aerospace Engineering programs combine mathematics, physics, engineering design and practical learning to teach how aircraft and spacecraft systems are designed, developed, tested and operated.",
+    "The United States continues to serve as a leading academic institution for students interested in aircraft design, spacecraft development, aviation technology, and aerospace research activities. To help students comprehend the design, development, testing, and operating features of aircraft and spacecraft systems, undergraduate programs in aerospace engineering integrate mathematics, physics, engineering design processes, and practical learning approaches.",
   heroSub:
     "Edu Hawk Worldwide helps you evaluate global study options, understand university admission requirements and prepare for your international academic journey.",
+
+  whyLead: ["Significant benefits include:"],
   whyPoints: [
     "Access to cutting-edge aerospace research facilities and advanced engineering equipment.",
-    "Opportunities to explore aircraft design approaches, spacecraft system configurations and flight dynamics concepts.",
-    "Practical experience through simulation platforms, project-based design work and laboratory testing methods.",
-    "Extensive training in aeronautical material engineering, propulsion mechanisms and aerodynamics.",
+    "Opportunities to examine aircraft design approaches, spacecraft system configurations, and flight dynamics concepts.",
+    "Practical experience through simulation platforms, project-based design work, and laboratory testing methods.",
+    "Extensive training in aeronautical material engineering, propulsion mechanisms, and aerodynamics",
     "Participation in research initiatives focused on space technology development and aviation advancement.",
-    "Career opportunities in aerospace production, engineering research and related industrial domains.",
+    "Career opportunities in aerospace production, engineering research, and related industrial domains.",
   ],
-  courses: [
-    "Bachelor of Science in Aerospace Engineering",
-    "Bachelor of Engineering in Aerospace Engineering",
-    "Bachelor of Science in Aeronautical Engineering",
-    "Bachelor of Science in Astronautical Engineering",
-    "Bachelor of Science in Aerospace Engineering Sciences",
+  whyNote: [
+    "Edu Hawk worldwide provides support to students in evaluating global educational opportunities, understanding institutional admission requirements, and preparing for international academic pursuits.",
   ],
-  duration:
-    "An undergraduate Aerospace Engineering degree in the USA typically takes four years. The curriculum covers mathematics, physics, engineering mechanics, aerodynamics, propulsion systems, flight mechanics, aerospace structures, control systems and spacecraft fundamentals, along with laboratory work, design projects, research and internships.",
+
+  coursesLead: [
+    "Indian undergraduate students possess the opportunity to pursue diverse academic pathways within the fields of aircraft and spacecraft engineering. Prevalent degree programs encompass the Bachelor of Science in Aerospace Engineering, Bachelor of Engineering in Aerospace Engineering, Bachelor of Science in Aeronautical Engineering, Bachelor of Science in Astronautical Engineering (subject to institutional offerings), and Bachelor of Science in Aerospace Engineering Sciences. The nomenclature of degrees and available specializations exhibit substantial heterogeneity across educational institutions. Prospective students are encouraged to investigate whether institutional curricula prioritize aircraft engineering, spacecraft engineering, or comprehensive methodologies integrating both disciplines.",
+    "Edu Hawk Worldwide facilitates students in comprehending accessible educational pathways and identifying universities aligned with their academic credentials and professional aspirations.",
+  ],
+  courses: [],
+  coursesNote: [],
+
+  duration: [
+    "Completion of an undergraduate Aerospace Engineering degree in the United States ordinarily necessitates four years of academic study. The curriculum typically incorporates mathematics, physics, engineering mechanics, aerodynamics, propulsion systems, flight mechanics, aerospace structures, control systems, and spacecraft fundamentals. Students customarily participate in experimental laboratory work, aircraft or spacecraft design projects, academic research activities, and professional internship experiences.",
+    "Edu Hawk worldwide an help students understand the available education pathways and shortlist universities according to their qualifications and career goals.",
+  ],
+
+  eligibilityLead: [
+    "Indian students are typically obligated to fulfill the subsequent prerequisites:",
+  ],
   eligibility: [
-    "Pass Class 12 from a recognised board.",
-    "Strength in Mathematics and Physics, plus any additional subjects required by the university.",
-    "Academic performance meeting the university's admission standards.",
-    "Verified English language proficiency, where required.",
-    "SAT or ACT scores, depending on university requirements.",
-    "Official academic records and any supporting documents needed for the application.",
+    "Successful attainment of Class 12 certification from a recognized educational establishment.",
+    "Competence in mathematics and physics, augmented by any supplementary disciplines stipulated by the target university.",
+    "Academic achievement that corresponds with the institution's enrollment criteria.",
+    "Verified proficiency in the English language where mandated.",
+    "Performance on the SAT or ACT assessments, contingent upon institutional requirements.",
+    "Verified academic records and any supporting documentation are necessary for submission.",
+  ],
+
+  englishLead: [
+    "International applicants are typically required to demonstrate their fluency in the English language by taking a test recognized by higher education establishments.The most extensively recognized assessments include the following:",
   ],
   englishTests: [
     "IELTS Academic",
@@ -50,33 +67,81 @@ const branch = {
     "PTE Academic",
     "Duolingo English Test",
   ],
-  testsNote:
-    "SAT or ACT requirements depend on the university and admission cycle; some institutions require scores while others have adopted test-optional policies. No single entrance exam is mandatory for all US universities for undergraduate Aerospace Engineering — always check the current admission policies, application deadlines and program requirements of your chosen institutions.",
+  englishNote: [
+    "subject to institutional approval. The requisite score thresholds exhibit substantial heterogeneity across universities, as certain establishments may provide dispensations from English-language assessments under designated conditions.",
+  ],
+
+  testsNote: [
+    "The necessity for SAT or ACT examinations is contingent upon the specific university and the particular admission cycle in question. Certain institutions mandate examination scores, whereas others have adopted test-optional admission frameworks. It is noteworthy that no singular entrance examination is universally mandated by all USA universities for undergraduate Aerospace Engineering programs. It is recommended that prospective students review the institution's current admissions regulations, application deadlines, and program requirements related to their discipline.",
+  ],
+
+  costsLead: [
+    "The total Cost required to pursue an undergraduate degree in aerospace engineering in the United States varies greatly depending on the choice of institution, location, and housing situation",
+    "Primary cost components encompass:",
+  ],
   costs: [
     "Tuition and institutional fees",
     "Housing and dining services",
     "Medical insurance premiums",
     "Academic textbooks and course materials",
-    "Lab equipment and specialised engineering instrumentation",
-    "Transportation, personal and relocation costs",
-    "International documentation, airfare and visa fees",
+    "Laboratory equipment and supplies",
+    "Specialized engineering instrumentation",
+    "Transportation and commuting expenses",
+    "Personal and miscellaneous costs",
+    "International documentation, airfare, and relocation expenses.",
   ],
-  costsNote:
-    "The total cost of an undergraduate Aerospace Engineering degree in the USA varies greatly depending on the institution, its location and the housing choice.",
+  costsNote: [],
+
+  scholarshipsLead: [
+    "Numerous American universities extend scholarship opportunities and monetary support to qualified international undergraduate applicants.",
+    "Available financial support mechanisms include:",
+  ],
   scholarships: [
-    "Merit-based scholarships",
-    "International student scholarships",
-    "University tuition waivers and reductions",
-    "Need-based financial aid for eligible international students",
-    "Funding from external organisations and foundations",
+    "Academic merit-based scholarships.",
+    "Scholarships designated for international students.",
+    "Institution-specific tuition waivers and reductions.",
+    "Financial assistance based on demonstrated financial need, accessible to qualifying international students.",
+    "Financial awards administered by external organizations and foundations.",
+  ],
+  scholarshipsNote: [],
+
+  universitiesLead: [
+    "The subsequent universities merit thorough examination for undergraduate Aerospace Engineering and related disciplinary programs:",
   ],
   universities: [
-    { name: "Massachusetts Institute of Technology", location: "Cambridge, Massachusetts" , img: mitImg },
-    { name: "Stanford University", location: "Stanford, California" , img: stanfordImg },
-    { name: "California Institute of Technology", location: "Pasadena, California" , img: caltechImg },
-    { name: "Georgia Institute of Technology", location: "Atlanta, Georgia" , img: gatechImg },
-    { name: "Purdue University", location: "West Lafayette, Indiana" , img: purdueImg },
+    {
+      name: "Massachusetts Institute of Technology",
+      location: "Cambridge, Massachusetts",
+      img: mitImg,
+    },
+    {
+      name: "Stanford University",
+      location: "Stanford, California",
+      img: stanfordImg,
+    },
+    {
+      name: "California Institute of Technology",
+      location: "Pasadena, California",
+      img: caltechImg,
+    },
+    {
+      name: "Georgia Institute of Technology",
+      location: "Atlanta, Georgia",
+      img: gatechImg,
+    },
+    {
+      name: "Purdue University",
+      location: "West Lafayette, Indiana",
+      img: purdueImg,
+    },
   ],
+  universitiesNote: [
+    "Through Edu Hawk Worldwide's institutional selection services, prospective students can evaluate and contrast universities according to their academic qualifications, financial constraints, geographic preferences, and career aspirations.",
+  ],
+
+  careerIntro:
+    "After graduation, people can work in a variety of entry-level roles in the aerospace industry, including aircraft design, aerospace production, testing, simulation, and related engineering fields. .",
+  careerLead: ["Potential career roles include:"],
   careers: [
     "Aerospace Design Engineer",
     "Aerodynamics Engineer",
@@ -89,44 +154,47 @@ const branch = {
     "Research and Development Assistant",
     "Mechanical Design Engineer in aerospace-related industries",
   ],
-  careerIntro:
-    "After graduation, Aerospace Engineering graduates can work in entry-level roles across the aerospace industry, including aircraft design, aerospace production, testing, simulation and related engineering fields.",
-  visaSteps: [
-    "Research universities that offer undergraduate Aerospace Engineering programs.",
-    "Verify academic prerequisites and required Class 12 subjects.",
-    "Check English-language proficiency and standardised test requirements.",
-    "Assemble academic transcripts and supporting documents.",
-    "Submit applications before institutional deadlines.",
-    "Evaluate admission offers and associated costs.",
-    "Obtain the required student documentation from the university.",
-    "Pay the SEVIS fee, complete the visa application and attend the interview where required.",
+  careerNote: [],
+
+  visaLead: [
+    "Indian nationals who receive admission to a qualifying American educational institution are typically obligated to undertake the requisite student visa procedures.",
+    "Typical steps include:",
   ],
-  visaNote:
-    "Visa approval depends on individual circumstances. Always follow current US government and university guidance.",
+  visaSteps: [
+    "Conduct comprehensive research on universities providing undergraduate Aerospace Engineering curricula.",
+    "Verify academic prerequisites and mandated Class 12 subject requirements.",
+    "Examine English-language proficiency assessments and standardized examination prerequisites.",
+    "Assemble academic credentials and ancillary documentation.",
+    "Submit application materials in accordance with established institutional deadlines.",
+    "Evaluate admission determinations and associated financial obligations.",
+    "Procure the requisite student documentation from the respective institution.",
+  ],
+  visaNote: [],
+
   faqs: [
     {
-      q: "Can Indian students study Aerospace Engineering in the USA after Class 12?",
-      a: "Yes. Indian students can apply after Class 12 if they meet the university's academic prerequisites, subject requirements and English language proficiency standards.",
+      q: "Can Indian students pursue Aerospace Engineering studies in the United States following completion of Class 12?",
+      a: "Yes, Indian students may submit applications upon completion of Class 12, provided they satisfy the institution's academic prerequisites, subject-specific requirements, and English language proficiency standards.",
     },
     {
-      q: "How long does it take to complete an undergraduate Aerospace Engineering degree in the USA?",
-      a: "Most undergraduate Aerospace Engineering programs take about four years to complete.",
+      q: "What is the typical duration of an undergraduate Aerospace Engineering degree program in the United States?",
+      a: "The majority of undergraduate Aerospace Engineering curricula require approximately four years for successful completion. .",
     },
     {
       q: "Which academic disciplines are fundamental to Aerospace Engineering?",
-      a: "Mathematics and physics are the essential foundational subjects. Computer science and chemistry can add value depending on the specific program.",
+      a: "Mathematics and physics constitute essential foundational disciplines. Computer science and chemistry may provide supplementary value, contingent upon the specific program structure.",
     },
     {
-      q: "Is the SAT mandatory for admission?",
-      a: "No. SAT requirements vary widely across institutions and admission cycles, and some universities follow test-optional admission policies.",
+      q: "Is the SAT examination mandatory for university admission?",
+      a: "No, SAT requirements demonstrate considerable variation across institutions and admission cycles. Certain universities implement test-optional admission policies.",
     },
     {
-      q: "Are scholarships available for Indian students?",
-      a: "Yes. Many universities offer merit-based scholarships and other financial support to eligible international students, though availability and award amounts vary by institution.",
+      q: "Do scholarship opportunities exist for Indian students?",
+      a: "Yes, numerous universities extend merit-based scholarships and supplementary financial support mechanisms to qualified international students. The availability and magnitude of awards demonstrate considerable institutional variation.",
     },
     {
-      q: "How can Edu Hawk Worldwide help me study Aerospace Engineering abroad?",
-      a: "Edu Hawk Worldwide helps students explore suitable universities, understand admission requirements, organise application documents and plan their study-abroad journey. Students should verify academic, financial, immigration and licensing requirements with the relevant official authorities.",
+      q: "How can Edu Hawk worldwide help me study abroad?",
+      a: "Edu Hawk worldwide .can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities . KEYWORDS - Study Aerospace Engineering in USA for Indian Students Best Aerospace Engineering Universities in USA Bachelor's in Aerospace Engineering in USA Study Aerospace Engineering in USA After 12th Aerospace Engineering Courses in USA Aerospace Engineering Admission Requirements in USA Aerospace Engineering Tuition Fees in USA Aerospace Engineering Scholarships for Indian Students Top Aerospace Engineering Colleges in America Aerospace Engineering Eligibility for Indian Students SAT Requirements for Aerospace Engineering in USA English Language Tests for US Universities Career Opportunities After Aerospace Engineering Aeronautical and Astronautical Engineering in USA USA Student Visa for Indian Engineering Students Automobile Engineering in the USA for Indian Students",
     },
   ],
 };
@@ -140,9 +208,19 @@ const SectionHeading = ({ eyebrow, title }) => (
   </div>
 );
 
-const ListCard = ({ children }) => (
-  <ul className="space-y-3">{children}</ul>
-);
+const ListCard = ({ children }) => <ul className="space-y-3">{children}</ul>;
+
+const DocParas = ({
+  items,
+  className = "max-w-3xl mb-6 text-slate-600 leading-relaxed space-y-4",
+}) =>
+  items && items.length ? (
+    <div className={className}>
+      {items.map((p, i) => (
+        <p key={i}>{p}</p>
+      ))}
+    </div>
+  ) : null;
 
 const Li = ({ text }) => (
   <li className="flex items-start gap-3">
@@ -335,11 +413,16 @@ const AerospaceEngineeringUG = () => {
             eyebrow="Why the USA"
             title={`Why Study ${branch.name} in the USA?`}
           />
+          <DocParas items={branch.whyLead} />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-4">
             {branch.whyPoints.map((p) => (
               <Li key={p} text={p} />
             ))}
           </div>
+          <DocParas
+            items={branch.whyNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -350,11 +433,7 @@ const AerospaceEngineeringUG = () => {
             eyebrow="Programs"
             title={`${branch.name} Courses in the USA`}
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">
-            Undergraduate students can pursue programs across aircraft and
-            spacecraft engineering, with degree names and specialisations that
-            vary between institutions. Common degree pathways include:
-          </p>
+          <DocParas items={branch.coursesLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.courses.map((c) => (
               <div
@@ -365,6 +444,10 @@ const AerospaceEngineeringUG = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.coursesNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -378,10 +461,10 @@ const AerospaceEngineeringUG = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">
               Top Universities for {branch.name} in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-2xl">
-              Compare universities on academics, cost, facilities and
-              international admission policies before shortlisting.
-            </p>
+            <DocParas
+              items={branch.universitiesLead}
+              className="text-slate-500 text-[15px] leading-relaxed max-w-2xl space-y-3"
+            />
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {branch.universities.map((u) => (
@@ -414,6 +497,10 @@ const AerospaceEngineeringUG = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.universitiesNote}
+            className="mt-6 max-w-3xl text-slate-500 text-[15px] leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -422,7 +509,10 @@ const AerospaceEngineeringUG = () => {
         <div className="max-w-6xl mx-auto px-6">
           <SectionHeading eyebrow="How long" title="Program Duration" />
           <div className="bg-blue-50/60 border border-blue-100 rounded-2xl p-6 sm:p-8 max-w-3xl">
-            <p className="text-slate-700 leading-relaxed">{branch.duration}</p>
+            <DocParas
+              items={branch.duration}
+              className="text-slate-700 leading-relaxed space-y-4"
+            />
           </div>
         </div>
       </section>
@@ -435,6 +525,10 @@ const AerospaceEngineeringUG = () => {
             title="Eligibility Requirements for Indian Students"
           />
           <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 max-w-3xl shadow-sm">
+            <DocParas
+              items={branch.eligibilityLead}
+              className="mb-5 text-slate-600 leading-relaxed space-y-4"
+            />
             <ListCard>
               {branch.eligibility.map((e) => (
                 <Li key={e} text={e} />
@@ -452,12 +546,10 @@ const AerospaceEngineeringUG = () => {
               eyebrow="English proficiency"
               title="English Language Requirements"
             />
-            <p className="text-slate-600 mb-5">
-              International applicants may need to prove English competency
-              through a recognised test. Minimum scores differ by university,
-              and some universities may waive the requirement for students
-              educated in English-medium schools.
-            </p>
+            <DocParas
+              items={branch.englishLead}
+              className="mb-5 text-slate-600 leading-relaxed space-y-3"
+            />
             <div className="flex flex-wrap gap-3">
               {branch.englishTests.map((t) => (
                 <span
@@ -468,15 +560,17 @@ const AerospaceEngineeringUG = () => {
                 </span>
               ))}
             </div>
+            <DocParas
+              items={branch.englishNote}
+              className="mt-5 text-slate-600 leading-relaxed space-y-4"
+            />
           </div>
           <div>
             <SectionHeading
               eyebrow="Standardised tests"
               title="SAT & Other Admission Tests"
             />
-            <p className="text-slate-600 leading-relaxed">
-              {branch.testsNote}
-            </p>
+            <DocParas items={branch.testsNote} />
           </div>
         </div>
       </section>
@@ -488,7 +582,7 @@ const AerospaceEngineeringUG = () => {
             eyebrow="Budget"
             title="Tuition Fees and Living Expenses"
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">{branch.costsNote}</p>
+          <DocParas items={branch.costsLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.costs.map((c) => (
               <div
@@ -499,6 +593,10 @@ const AerospaceEngineeringUG = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.costsNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -511,19 +609,20 @@ const AerospaceEngineeringUG = () => {
           />
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
             <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-sm">
+              <DocParas
+                items={branch.scholarshipsLead}
+                className="mb-5 text-slate-600 leading-relaxed space-y-4"
+              />
               <ListCard>
                 {branch.scholarships.map((s) => (
                   <Li key={s} text={s} />
                 ))}
               </ListCard>
             </div>
-            <p className="text-slate-600 leading-relaxed">
-              International students may qualify for merit-based scholarships,
-              university grants and other institutional awards. Availability
-              and scope vary across universities and programs — Edu Hawk
-              Worldwide helps you map realistic funding options for your
-              profile and budget.
-            </p>
+            <DocParas
+              items={branch.scholarshipsNote}
+              className="text-slate-600 leading-relaxed space-y-4"
+            />
           </div>
         </div>
       </section>
@@ -535,9 +634,8 @@ const AerospaceEngineeringUG = () => {
             eyebrow="After graduation"
             title={`Career Opportunities After ${branch.name}`}
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">
-            {branch.careerIntro}
-          </p>
+          <DocParas items={branch.careerIntro ? [branch.careerIntro] : []} />
+          <DocParas items={branch.careerLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.careers.map((c) => (
               <div
@@ -548,6 +646,10 @@ const AerospaceEngineeringUG = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.careerNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -558,7 +660,7 @@ const AerospaceEngineeringUG = () => {
             eyebrow="Step by step"
             title="Visa & Application Process for Indian Students"
           />
-
+          <DocParas items={branch.visaLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {branch.visaSteps.map((s, i) => (
               <div
@@ -571,7 +673,6 @@ const AerospaceEngineeringUG = () => {
                 {/* Animated Number Circle */}
                 <div className="mb-5 relative w-fit">
                   <div className="visa-number-circle relative flex items-center justify-center w-14 h-14 rounded-full border-2 border-orange-500 bg-orange-50 transition-all duration-500 group-hover:bg-gradient-to-br group-hover:from-orange-500 group-hover:to-orange-600 group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-lg group-hover:shadow-orange-200">
-
                     <span className="text-xl font-bold text-orange-500 transition-colors duration-500 group-hover:text-white">
                       {String(i + 1).padStart(2, "0")}
                     </span>
@@ -592,9 +693,10 @@ const AerospaceEngineeringUG = () => {
             ))}
           </div>
 
-          <p className="mt-7 text-sm text-slate-500 max-w-3xl">
-            {branch.visaNote}
-          </p>
+          <DocParas
+            items={branch.visaNote}
+            className="mt-7 text-sm text-slate-500 max-w-3xl space-y-4"
+          />
         </div>
       </section>
 

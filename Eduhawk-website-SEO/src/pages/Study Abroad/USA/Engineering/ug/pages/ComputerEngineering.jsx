@@ -15,16 +15,26 @@ const branch = {
   keywords:
     "Computer Engineering in USA for Indian Students, Best Computer Engineering Universities in USA, Bachelor's in Computer Engineering in USA, Computer Engineering Courses in USA, Study Computer Engineering in USA After 12th, Computer Engineering Admission Requirements in USA, Computer Engineering Tuition Fees in USA, Computer Engineering Scholarships for Indian Students, Career Opportunities After Computer Engineering",
   heroIntro:
-    "The United States is a leading destination for Computer Engineering, combining rigorous theory with hands-on labs, design projects and internships. Indian students after Class 12 can pursue a four-year bachelor's degree with access to world-class research and industry networks.",
+    "The United States represents a preeminent destination for scholars studying computer engineering distinguished by its sophisticated technological infrastructure, abundant research prospects, and industry-aligned pedagogical frameworks. Academic institutions within the United States integrate rigorous theoretical foundations with experiential learning methodologies, encompassing laboratory investigations, technical design projects, and professional internship placements.",
   heroSub:
     "Edu Hawk Worldwide helps you shortlist universities, understand admission requirements and plan your complete study-abroad journey.",
+
+  whyLead: ["Principal advantages encompass:"],
   whyPoints: [
     "Access to state-of-the-art computer engineering laboratories and research infrastructure.",
-    "Opportunities to explore cutting-edge domains such as artificial intelligence, robotics and embedded systems.",
-    "Hands-on skill development through engineering design projects and professional internships.",
-    "Networking with leading technology companies and research institutions.",
-    "Flexible academic pathways and interdisciplinary learning.",
-    "Career options across hardware architecture, software systems, semiconductor engineering and computing technologies.",
+    "Prospects to investigate cutting-edge technological domains including artificial intelligence, robotics, and embedded systems.",
+    "Hands-on competency development through engineering design initiatives and professional internship experiences.",
+    "Networking opportunities with leading technology enterprises and scholarly research institutions.",
+    "Diverse academic trajectories and cross-disciplinary educational approaches.",
+    "Comprehensive career pathways spanning hardware architecture, software systems, semiconductor engineering, and computational technologies.",
+  ],
+  whyNote: [
+    "Edu Hawk worldwide assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey..",
+  ],
+
+  coursesLead: [
+    "Undergraduate students possess the opportunity to pursue academic programs encompassing computer hardware, digital systems, software, and computer architecture disciplines.",
+    "Prevalent undergraduate degree pathways include:",
   ],
   courses: [
     "Bachelor of Science in Computer Engineering",
@@ -33,15 +43,30 @@ const branch = {
     "Bachelor of Science in Computer Systems Engineering",
     "Bachelor of Science in Computer Engineering Technology",
   ],
-  duration:
-    "An undergraduate Computer Engineering degree in the USA typically takes four years. The curriculum covers mathematics, physics, programming, digital logic, electronics, computer architecture, operating systems and engineering design.",
+  coursesNote: [],
+
+  duration: [
+    "An undergraduate Computer Engineering degree within the United States typically requires four years for completion.",
+    "The academic curriculum generally encompasses mathematics, physics, programming, digital logic, electronics, computer architecture, operating systems, and engineering design coursework.",
+    "Through Edu Hawk worldwide study abroad guidance, students can explore these opportunities and understand the requirements involved in pursuing dental education overseas.",
+  ],
+
+  eligibilityLead: [
+    "Indian applicants are typically required to satisfy the subsequent criteria:",
+  ],
   eligibility: [
-    "Pass Class 12 from a recognised board.",
-    "Strength in Mathematics and Physics, plus other science subjects as required by the university.",
-    "Academic performance meeting the university's admission standards.",
-    "English language proficiency, where applicable.",
-    "SAT or ACT scores if required by the university.",
-    "Official academic records and supporting documents for the application.",
+    "Successful completion of Class 12 examinations from an accredited educational institution.",
+    "Proficiency in mathematics and physics, alongside additional science disciplines as stipulated by the respective university.",
+    "Academic performance that aligns with the institution's admission standards.",
+    "Demonstrated competency in the English language where applicable.",
+    "Standardized examination scores from the SAT or ACT, should the institution mandate such assessments.",
+    "Official academic records and requisite supplementary documentation for the application process.",
+  ],
+
+  englishLead: [
+    "International candidates may be obligated to establish English language competency through a recognized standardized examination.",
+    "Widely recognized assessments encompass:",
+    "The minimum score threshold differs across institutions. Certain universities may exempt applicants from this requirement under particular circumstances, including successful completion of prior academic course",
   ],
   englishTests: [
     "IELTS Academic",
@@ -49,31 +74,79 @@ const branch = {
     "PTE Academic",
     "Duolingo English Test",
   ],
-  testsNote:
-    "SAT may be required, optional or waived depending on the university and admission cycle; some universities also accept ACT. There is no single entrance exam mandatory for all US universities for undergraduate Computer Engineering — always check the latest requirements and deadlines of your chosen institutions.",
-  costs: [
-    "University tuition and academic fees",
-    "Accommodation and meals",
-    "Health insurance",
-    "Books, equipment and lab costs",
-    "Local transport and personal expenses",
-    "Visa fees, travel and other initial costs",
+  englishNote: [],
+
+  testsNote: [
+    "The Scholastic Aptitude Test (SAT) may be mandated, discretionary, or disregarded contingent upon the institution and the particular admission cycle. Certain universities additionally recognize American College Testing (ACT) examination results.",
+    "There exists no standardized entrance examination universally mandated by all United States universities for undergraduate Computer Engineering programs. Prospective students are advised to examine the prevailing admission requirements and application submission deadlines established by their selected institutions.",
   ],
-  costsNote:
-    "Total cost depends on whether the university is public or private, its location, and the housing choice.",
+
+  costsLead: [
+    "The aggregate expenditure is contingent upon whether the student enrolls at a public or private institution, the geographic location, and the residential arrangement selected.",
+    "Primary expenditures encompass:",
+  ],
+  costs: [
+    "University tuition and associated academic fees.",
+    "Residential accommodations and meal provisions.",
+    "Medical insurance coverage.",
+    "Textbooks, specialized equipment, and laboratory-related expenditures.",
+    "Regional transportation and miscellaneous personal expenses.",
+    "Visa documentation, international travel, and supplementary initial expenses.",
+    "University tuition and associated academic fees.",
+    "Residential accommodation and meal provisions.",
+    "Health insurance coverage.",
+    "Textbooks, specialized equipment, and laboratory-related expenditures.",
+    "Local transit and miscellaneous personal expenses.",
+    "Visa processing, travel arrangements, and supplementary initial costs.",
+  ],
+  costsNote: [
+    "7. Tuition Fees and Living Expenses",
+    "Primary expenditures encompass:",
+  ],
+
+  scholarshipsLead: [
+    "International students may qualify for performance-based scholarships, institutional grants, or other university-sponsored financial awards. The scope and availability of such opportunities differ across institutions and academic disciplines.",
+    "Available funding mechanisms include:",
+  ],
   scholarships: [
-    "Merit-based scholarships",
-    "International student scholarships",
-    "University fee waivers",
-    "Need-based financial aid for international students",
-    "External organisation funding",
+    "Academic performance-based scholarships.",
+    "Scholarships designated for international student populations.",
+    "Institution-specific tuition reduction programs.",
+    "Financial assistance based on demonstrated financial need, accessible to international students.",
+    "Financial support from recognized external organizations.",
+  ],
+  scholarshipsNote: [],
+
+  universitiesLead: [
+    "The subsequent institutions merit thorough examination for computer engineering or allied academic programs:",
   ],
   universities: [
-    { name: "Massachusetts Institute of Technology", location: "Cambridge, Massachusetts", img: mitImg },
-    { name: "Stanford University", location: "Stanford, California", img: stanfordImg },
-    { name: "University of California, Berkeley", location: "Berkeley, California", img: ucbImg },
-    { name: "Georgia Institute of Technology", location: "Atlanta, Georgia", img: gatechImg },
+    {
+      name: "Massachusetts Institute of Technology",
+      location: "Cambridge, Massachusetts",
+      img: mitImg,
+    },
+    {
+      name: "Stanford University",
+      location: "Stanford, California",
+      img: stanfordImg,
+    },
+    {
+      name: "University of California, Berkeley",
+      location: "Berkeley, California",
+      img: ucbImg,
+    },
+    {
+      name: "Georgia Institute of Technology",
+      location: "Atlanta, Georgia",
+      img: gatechImg,
+    },
   ],
+  universitiesNote: [],
+
+  careerIntro:
+    "Computer Engineering graduates are positioned to pursue diverse professional trajectories encompassing computer hardware development, integrated systems architecture, computing infrastructure management, and intelligent device engineering.",
+  careerLead: ["Principal career trajectories include:"],
   careers: [
     "Computer Hardware Engineer",
     "Computer Systems Engineer",
@@ -86,44 +159,50 @@ const branch = {
     "Computer Network Engineer",
     "Research and Development Engineer",
   ],
-  careerIntro:
-    "Computer Engineering graduates can work across computer hardware, integrated systems, computing infrastructure and intelligent devices.",
-  visaSteps: [
-    "Research universities and compare programs.",
-    "Check academic prerequisites and English language requirements.",
-    "Prepare transcripts, test scores and supporting documents.",
-    "Submit applications before university deadlines.",
-    "Review admission offers and costs.",
-    "Arrange required student documentation from the university.",
-    "Pay the SEVIS fee and complete the visa application.",
-    "Attend the visa interview where applicable and plan travel after approval.",
+  careerNote: [],
+
+  visaLead: [
+    "Indian nationals who receive admission offers from accredited United States institutions are typically required to navigate the formal student visa acquisition process.",
+    "The standard procedural sequence encompasses:",
   ],
-  visaNote:
-    "Visa approval depends on individual circumstances. Always follow current US government and university guidance.",
+  visaSteps: [
+    "Conducting institutional research and evaluating comparative program offerings.",
+    "Verifying prerequisite academic credentials and English language proficiency standards.",
+    "Compiling official transcripts, standardized examination scores, and ancillary documentation.",
+    "Submitting completed applications in accordance with institutional deadlines.",
+    "Evaluating admission decisions and associated financial obligations.",
+    "Acquiring requisite student documentation from the host institution.",
+    "Remitting the mandatory SEVIS fee and executing visa application procedures.",
+    "Participating in visa adjudication interviews, when applicable, and finalizing travel arrangements following authorization.",
+  ],
+  visaNote: [
+    "Visa authorization remains contingent upon individual circumstances. Prospective students must adhere to prevailing United States government directives and institutional guidance.",
+  ],
+
   faqs: [
     {
-      q: "Can Indian students study Computer Engineering in the USA after Class 12?",
-      a: "Yes. Indian students can apply after Class 12 if they meet the university's subject prerequisites, academic standards, English language requirements and other admission criteria.",
+      q: "Are Indian students eligible to pursue Computer Engineering studies in the United States following secondary education completion?",
+      a: "Yes,Indian nationals may submit applications upon completion of Class 12 provided they satisfy the institution's disciplinary prerequisites, academic performance benchmarks, English language competency standards, and supplementary admission criteria.",
     },
     {
-      q: "How long does it take to complete an engineering degree in the USA?",
-      a: "Most undergraduate Computer Engineering programs take about four years to complete.",
+      q: "What is the typical duration required to complete a Computer Engineering undergraduate degree in the United States?",
+      a: "The majority of undergraduate Computer Engineering programs necessitate approximately four years for degree completion.",
     },
     {
-      q: "What is the difference between Computer Engineering and Computer Science?",
-      a: "Computer Engineering focuses on the interaction between hardware and software — digital systems, computer architecture, electronics and embedded systems. Computer Science focuses on programming, algorithms, software development and computing theory.",
+      q: "How does Computer Engineering differ from Computer Science as academic disciplines?",
+      a: "Computer Engineering predominantly emphasizes the synergistic relationship between hardware and software components, encompassing digital systems, computer architecture, electronics, and embedded systems. Computer Science, conversely, prioritizes programming methodologies, algorithmic theory, software development, and computational applications. Graduates can pursue careers involving computer hardware, integrated systems, computing infrastructure, and intelligent devices.",
     },
     {
       q: "Is the SAT compulsory for admission?",
       a: "Not at every university. SAT or ACT requirements depend on the institution and admission cycle.",
     },
     {
-      q: "Can Indian engineering students get aid in the USA?",
-      a: "Yes. Some universities offer scholarships or financial support to international students. Eligibility, award amounts and deadlines vary.",
+      q: "Are scholarships available for Indian students?",
+      a: "Yes. Some universities offer scholarships or financial support to international students. Eligibility, award amounts, and deadlines vary.",
     },
     {
-      q: "How can Edu Hawk Worldwide help me study Computer Engineering abroad?",
-      a: "Edu Hawk Worldwide helps students explore suitable universities, understand admission requirements, organise application documents and plan their study-abroad journey. Students should verify academic, financial, immigration and licensing requirements with the relevant official authorities.",
+      q: "How can Edu Hawk worldwide help me study Computer Engineering abroad?",
+      a: "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities.",
     },
   ],
 };
@@ -137,9 +216,19 @@ const SectionHeading = ({ eyebrow, title }) => (
   </div>
 );
 
-const ListCard = ({ children }) => (
-  <ul className="space-y-3">{children}</ul>
-);
+const ListCard = ({ children }) => <ul className="space-y-3">{children}</ul>;
+
+const DocParas = ({
+  items,
+  className = "max-w-3xl mb-6 text-slate-600 leading-relaxed space-y-4",
+}) =>
+  items && items.length ? (
+    <div className={className}>
+      {items.map((p, i) => (
+        <p key={i}>{p}</p>
+      ))}
+    </div>
+  ) : null;
 
 const Li = ({ text }) => (
   <li className="flex items-start gap-3">
@@ -332,11 +421,16 @@ const ComputerEngineeringUG = () => {
             eyebrow="Why the USA"
             title={`Why Study ${branch.name} in the USA?`}
           />
+          <DocParas items={branch.whyLead} />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-4">
             {branch.whyPoints.map((p) => (
               <Li key={p} text={p} />
             ))}
           </div>
+          <DocParas
+            items={branch.whyNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -347,11 +441,7 @@ const ComputerEngineeringUG = () => {
             eyebrow="Programs"
             title={`${branch.name} Courses in the USA`}
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">
-            Undergraduate students can pursue programs covering computer
-            hardware, digital systems, software and computer architecture.
-            Common degree pathways include:
-          </p>
+          <DocParas items={branch.coursesLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.courses.map((c) => (
               <div
@@ -362,6 +452,10 @@ const ComputerEngineeringUG = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.coursesNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -375,10 +469,10 @@ const ComputerEngineeringUG = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">
               Top Universities for {branch.name} in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-2xl">
-              Compare universities on academics, cost, facilities and
-              international admission policies before shortlisting.
-            </p>
+            <DocParas
+              items={branch.universitiesLead}
+              className="text-slate-500 text-[15px] leading-relaxed max-w-2xl space-y-3"
+            />
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {branch.universities.map((u) => (
@@ -411,6 +505,10 @@ const ComputerEngineeringUG = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.universitiesNote}
+            className="mt-6 max-w-3xl text-slate-500 text-[15px] leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -419,7 +517,10 @@ const ComputerEngineeringUG = () => {
         <div className="max-w-6xl mx-auto px-6">
           <SectionHeading eyebrow="How long" title="Program Duration" />
           <div className="bg-blue-50/60 border border-blue-100 rounded-2xl p-6 sm:p-8 max-w-3xl">
-            <p className="text-slate-700 leading-relaxed">{branch.duration}</p>
+            <DocParas
+              items={branch.duration}
+              className="text-slate-700 leading-relaxed space-y-4"
+            />
           </div>
         </div>
       </section>
@@ -432,6 +533,10 @@ const ComputerEngineeringUG = () => {
             title="Eligibility Requirements for Indian Students"
           />
           <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 max-w-3xl shadow-sm">
+            <DocParas
+              items={branch.eligibilityLead}
+              className="mb-5 text-slate-600 leading-relaxed space-y-4"
+            />
             <ListCard>
               {branch.eligibility.map((e) => (
                 <Li key={e} text={e} />
@@ -449,12 +554,10 @@ const ComputerEngineeringUG = () => {
               eyebrow="English proficiency"
               title="English Language Requirements"
             />
-            <p className="text-slate-600 mb-5">
-              International applicants may need to prove English competency
-              through a recognised test. Minimum scores differ by university,
-              and some universities may waive the requirement for students
-              educated in English-medium schools.
-            </p>
+            <DocParas
+              items={branch.englishLead}
+              className="mb-5 text-slate-600 leading-relaxed space-y-3"
+            />
             <div className="flex flex-wrap gap-3">
               {branch.englishTests.map((t) => (
                 <span
@@ -465,15 +568,17 @@ const ComputerEngineeringUG = () => {
                 </span>
               ))}
             </div>
+            <DocParas
+              items={branch.englishNote}
+              className="mt-5 text-slate-600 leading-relaxed space-y-4"
+            />
           </div>
           <div>
             <SectionHeading
               eyebrow="Standardised tests"
               title="SAT & Other Admission Tests"
             />
-            <p className="text-slate-600 leading-relaxed">
-              {branch.testsNote}
-            </p>
+            <DocParas items={branch.testsNote} />
           </div>
         </div>
       </section>
@@ -485,7 +590,7 @@ const ComputerEngineeringUG = () => {
             eyebrow="Budget"
             title="Tuition Fees and Living Expenses"
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">{branch.costsNote}</p>
+          <DocParas items={branch.costsLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.costs.map((c) => (
               <div
@@ -496,6 +601,10 @@ const ComputerEngineeringUG = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.costsNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -508,19 +617,20 @@ const ComputerEngineeringUG = () => {
           />
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
             <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-sm">
+              <DocParas
+                items={branch.scholarshipsLead}
+                className="mb-5 text-slate-600 leading-relaxed space-y-4"
+              />
               <ListCard>
                 {branch.scholarships.map((s) => (
                   <Li key={s} text={s} />
                 ))}
               </ListCard>
             </div>
-            <p className="text-slate-600 leading-relaxed">
-              International students may qualify for merit-based scholarships,
-              university grants and other institutional awards. Availability
-              and scope vary across universities and programs — Edu Hawk
-              Worldwide helps you map realistic funding options for your
-              profile and budget.
-            </p>
+            <DocParas
+              items={branch.scholarshipsNote}
+              className="text-slate-600 leading-relaxed space-y-4"
+            />
           </div>
         </div>
       </section>
@@ -532,9 +642,8 @@ const ComputerEngineeringUG = () => {
             eyebrow="After graduation"
             title={`Career Opportunities After ${branch.name}`}
           />
-          <p className="text-slate-600 mb-6 max-w-3xl">
-            {branch.careerIntro}
-          </p>
+          <DocParas items={branch.careerIntro ? [branch.careerIntro] : []} />
+          <DocParas items={branch.careerLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {branch.careers.map((c) => (
               <div
@@ -545,6 +654,10 @@ const ComputerEngineeringUG = () => {
               </div>
             ))}
           </div>
+          <DocParas
+            items={branch.careerNote}
+            className="mt-6 max-w-3xl text-slate-500 leading-relaxed space-y-4"
+          />
         </div>
       </section>
 
@@ -555,7 +668,7 @@ const ComputerEngineeringUG = () => {
             eyebrow="Step by step"
             title="Visa & Application Process for Indian Students"
           />
-
+          <DocParas items={branch.visaLead} />
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {branch.visaSteps.map((s, i) => (
               <div
@@ -568,7 +681,6 @@ const ComputerEngineeringUG = () => {
                 {/* Animated Number Circle */}
                 <div className="mb-5 relative w-fit">
                   <div className="visa-number-circle relative flex items-center justify-center w-14 h-14 rounded-full border-2 border-orange-500 bg-orange-50 transition-all duration-500 group-hover:bg-gradient-to-br group-hover:from-orange-500 group-hover:to-orange-600 group-hover:scale-110 group-hover:rotate-6 group-hover:shadow-lg group-hover:shadow-orange-200">
-
                     <span className="text-xl font-bold text-orange-500 transition-colors duration-500 group-hover:text-white">
                       {String(i + 1).padStart(2, "0")}
                     </span>
@@ -589,9 +701,10 @@ const ComputerEngineeringUG = () => {
             ))}
           </div>
 
-          <p className="mt-7 text-sm text-slate-500 max-w-3xl">
-            {branch.visaNote}
-          </p>
+          <DocParas
+            items={branch.visaNote}
+            className="mt-7 text-sm text-slate-500 max-w-3xl space-y-4"
+          />
         </div>
       </section>
 
