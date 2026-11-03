@@ -40,8 +40,20 @@ import BiotechnologyAbroad from "../pages/Study Abroad/USA/MBBS Abroad/Biotechno
 import Engineering from "../pages/Study Abroad/Engineering.jsx";
 import ComputerScienceAbroad from "../pages/Study Abroad/ComputerScienceAbroad.jsx";
 import InformationTechnologyAbroad from "../pages/Study Abroad/InformationTechnologyAbroad.jsx";
-import BusinessManagementAbroad from "../pages/Study Abroad/BusinessManagementAbroad.jsx";
-import MBAAbroad from "../pages/Study Abroad/MBAAbroad.jsx";
+import BusinessManagementAbroad from "../pages/Study Abroad/USA/BusinessManagement/business-management.jsx";
+import MbaAbroad from "../pages/Study Abroad/USA/MBA/mba.jsx";
+import MbsAbroad from "../pages/Study Abroad/USA/MBS/mbs.jsx";
+import BbaAbroad from "../pages/Study Abroad/USA/BBA/bba.jsx";
+import BbsAbroad from "../pages/Study Abroad/USA/BBS/bbs.jsx";
+import ExecutiveMbaAbroad from "../pages/Study Abroad/USA/ExecutiveMBA/executive-mba.jsx";
+import InternationalBusinessAbroad from "../pages/Study Abroad/USA/InternationalBusiness/international-business.jsx";
+import MarketingManagementAbroad from "../pages/Study Abroad/USA/MarketingManagement/marketing-management.jsx";
+import HospitalityManagementAbroad from "../pages/Study Abroad/USA/HospitalityManagement/hospitality-management.jsx";
+import ArchitectureAbroad from "../pages/Study Abroad/USA/Architecture/architecture.jsx";
+import LawAbroad from "../pages/Study Abroad/USA/Law/law.jsx";
+import LanguageCoursesAbroad from "../pages/Study Abroad/USA/LanguageCourses/language-courses.jsx";
+import SummerCoursesAbroad from "../pages/Study Abroad/USA/SummerCourses/summer-courses.jsx";
+import WinterCoursesAbroad from "../pages/Study Abroad/USA/WinterCourses/winter-courses.jsx";
 import AccountingFinance from "../pages/Study Abroad/AccountingFinance.jsx";
 import UndergraduateEngineering from "../pages/Study Abroad/USA/Engineering/ug/undergraduate.jsx";
 import ComputerEngineeringUG from "../pages/Study Abroad/USA/Engineering/ug/pages/ComputerEngineering.jsx";
@@ -240,7 +252,55 @@ export const router = createBrowserRouter([
 
         {
         path: "courses/mba",
-        element: <MBAAbroad/>,
+        element: <MbaAbroad/>,
+      },
+      {
+        path: "courses/mbs",
+        element: <MbsAbroad/>,
+      },
+      {
+        path: "courses/bba",
+        element: <BbaAbroad/>,
+      },
+      {
+        path: "courses/bbs",
+        element: <BbsAbroad/>,
+      },
+      {
+        path: "courses/executive-mba",
+        element: <ExecutiveMbaAbroad/>,
+      },
+      {
+        path: "courses/international-business",
+        element: <InternationalBusinessAbroad/>,
+      },
+      {
+        path: "courses/marketing-management",
+        element: <MarketingManagementAbroad/>,
+      },
+      {
+        path: "courses/hospitality-management",
+        element: <HospitalityManagementAbroad/>,
+      },
+      {
+        path: "courses/architecture",
+        element: <ArchitectureAbroad/>,
+      },
+      {
+        path: "courses/law",
+        element: <LawAbroad/>,
+      },
+      {
+        path: "study-abroad/language-courses",
+        element: <LanguageCoursesAbroad/>,
+      },
+      {
+        path: "study-abroad/summer-courses",
+        element: <SummerCoursesAbroad/>,
+      },
+      {
+        path: "study-abroad/winter-courses",
+        element: <WinterCoursesAbroad/>,
       },
 
        {
@@ -388,6 +448,18 @@ export const routeList = [
   "/courses/information-technology",
   "/courses/business-management",
   "/courses/mba",
+  "/courses/mbs",
+  "/courses/bba",
+  "/courses/bbs",
+  "/courses/executive-mba",
+  "/courses/international-business",
+  "/courses/marketing-management",
+  "/courses/hospitality-management",
+  "/courses/architecture",
+  "/courses/law",
+  "/study-abroad/language-courses",
+  "/study-abroad/summer-courses",
+  "/study-abroad/winter-courses",
   "/courses/accounting-finance",
   "/courses/ug/engineering",
   "/courses/ug/computer-engineering",
