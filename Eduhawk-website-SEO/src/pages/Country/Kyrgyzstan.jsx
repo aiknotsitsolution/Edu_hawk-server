@@ -230,7 +230,7 @@
 //         <div className="grid md:grid-cols-2 gap-12 mb-20">
 //           <div>
 //             <h2 className="text-3xl font-bold text-blue-900 mb-8 text-center md:text-left">
-//               Advantages of Studying MBBS in Russia 2025–2026
+//               Advantages of Studying MBBS in Russia 2026–2027
 //             </h2>
 
 //             <div className="space-y-6">
@@ -339,7 +339,7 @@
 //             </ul>
 
 //             <p className="mt-6">
-//               <strong>Approximate monthly living expenses (2025–2026):</strong>
+//               <strong>Approximate monthly living expenses (2026–2027):</strong>
 //             </p>
 //             <ul className="list-disc pl-6 mt-4 space-y-2">
 //               <li>Hostel / Accommodation: ₹8,000 – ₹18,000</li>
@@ -362,7 +362,7 @@
 //       <div className="py-16 bg-white">
 //         <div className="container mx-auto px-4 max-w-6xl">
 //           <h2 className="text-3xl md:text-4xl font-bold text-blue-900 text-center mb-10">
-//             Admission Process for MBBS in Russia 2025–2026
+//             Admission Process for MBBS in Russia 2026–2027
 //           </h2>
 
 //           <div className="max-w-4xl mx-auto">
@@ -441,7 +441,7 @@
 //             {/* Left - Required Documents */}
 //             <div>
 //               <h2 className="text-3xl font-bold text-blue-900 mb-8 text-center md:text-left">
-//                 Required Documents for MBBS in Russia 2025–2026
+//                 Required Documents for MBBS in Russia 2026–2027
 //               </h2>
 
 //               <div className="space-y-6">
@@ -529,7 +529,7 @@
 //       <div className="py-16 bg-white">
 //         <div className="container mx-auto px-4 max-w-5xl">
 //           <h2 className="text-3xl md:text-4xl font-bold text-blue-900 text-center mb-12">
-//             MBBS in Russia vs MBBS in India – Quick Comparison (2025–2026)
+//             MBBS in Russia vs MBBS in India – Quick Comparison (2026–2027)
 //           </h2>
 
 //           <div className="overflow-x-auto">
@@ -753,7 +753,7 @@ const Kyrgyzstan = () => {
                 <tbody>
                   <tr className="bg-gray-100">
                     <td className="p-4 font-semibold">Recognition</td>
-                    <td className="p-4">NMC & WHO approved</td>
+                    <td className="p-4">NMC & WHO Recognized</td>
                   </tr>
                   <tr>
                     <td className="p-4 font-semibold">Eligibility</td>
@@ -779,7 +779,7 @@ const Kyrgyzstan = () => {
                     <td className="p-4 font-semibold">
                       Universities Recognition
                     </td>
-                    <td className="p-4">NMC & WHO-approved</td>
+                    <td className="p-4">NMC & WHO-Recognized</td>
                   </tr>
                 </tbody>
               </table>
@@ -1244,7 +1244,7 @@ const Kyrgyzstan = () => {
                   Is MBBS in Kyrgyzstan valid in India?
                 </summary>
                 <p className="mt-4 text-gray-700">
-                  Yes, if the university is NMC approved. Students must clear
+                  Yes, if the university is NMC recognized. Students must clear
                   FMGE or NEXT to practice in India.
                 </p>
               </details>

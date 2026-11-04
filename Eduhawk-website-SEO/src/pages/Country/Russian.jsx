@@ -21,7 +21,7 @@ const Russia = () => {
     
     <SeoHead
       title="MBBS in Russia for Indian Students | Russia MBBS Fees & Admission"
-      description="Study MBBS in Russia with low fees and NMC approved universities. Check eligibility, admission process, and top medical universities in Russia."
+      description="Study MBBS in Russia with low fees and NMC recognized universities. Check eligibility, admission process, and top medical universities in Russia."
       keywords="mbbs in russia, russia mbbs fees, study mbbs russia, russia medical colleges, mbbs russia admission"
       path="/mbbsabroad/russia"
       ogType="website"
@@ -154,7 +154,7 @@ const Russia = () => {
                 <tbody>
                   <tr className="bg-gray-100">
                     <td className="p-4 font-semibold">Recognition</td>
-                    <td className="p-4">NMC & WHO approved</td>
+                    <td className="p-4">NMC & WHO Recognized</td>
                   </tr>
                   <tr>
                     <td className="p-4 font-semibold">Eligibility</td>
@@ -547,10 +547,10 @@ const Russia = () => {
                 <tr className="bg-gray-50">
                   <td className="p-4 border font-medium">Global Recognition</td>
                   <td className="p-4 border">
-                    NMC, WHO, WFME approved universities
+                    NMC, WHO, WFME recognized universities
                   </td>
                   <td className="p-4 border">
-                    NMC approved, but private colleges vary
+                    NMC recognized, but private colleges vary
                   </td>
                 </tr>
                 <tr>

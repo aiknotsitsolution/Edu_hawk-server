@@ -147,7 +147,7 @@ const Nepal = () => {
                 <tbody>
                   <tr className="bg-gray-100">
                     <td className="p-4 font-semibold">Recognition</td>
-                    <td className="p-4">NMC & WHO approved</td>
+                    <td className="p-4">NMC & WHO Recognized</td>
                   </tr>
                   <tr>
                     <td className="p-4 font-semibold">Eligibility</td>
@@ -175,7 +175,7 @@ const Nepal = () => {
                     <td className="p-4 font-semibold">
                       Universities Recognition
                     </td>
-                    <td className="p-4">NMC & WHO-approved</td>
+                    <td className="p-4">NMC & WHO-Recognized</td>
                   </tr>
                 </tbody>
               </table>

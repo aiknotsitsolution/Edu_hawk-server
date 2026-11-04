@@ -202,7 +202,7 @@ const Bangladesh = () => {
                 <tbody>
                   <tr className="bg-gray-100">
                     <td className="p-4 font-semibold">Recognition</td>
-                    <td className="p-4">NMC & WHO approved</td>
+                    <td className="p-4">NMC & WHO Recognized</td>
                   </tr>
                   <tr>
                     <td className="p-4 font-semibold">Eligibility</td>
@@ -229,7 +229,7 @@ const Bangladesh = () => {
                     <td className="p-4 font-semibold">
                       Universities Recognition
                     </td>
-                    <td className="p-4">NMC & WHO-approved</td>
+                    <td className="p-4">NMC & WHO-Recognized</td>
                   </tr>
                 </tbody>
               </table>
@@ -482,7 +482,7 @@ const Bangladesh = () => {
                   1. Research and Select a University
                 </h4>
                 <p className="text-gray-700">
-                  Research NMC-approved medical universities/colleges in
+                  Research NMC-recognized medical universities/colleges in
                   Bangladesh that offer MBBS in English medium.
                   <br />
                   <strong>Some well-known options include:</strong>
@@ -703,9 +703,9 @@ const Bangladesh = () => {
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="p-4 border font-medium">Global Recognition</td>
-                  <td className="p-4 border">NMC, WHO, BMDC approved</td>
+                  <td className="p-4 border">NMC, WHO, BMDC recognized</td>
                   <td className="p-4 border">
-                    NMC approved (govt better recognized)
+                    NMC recognized (govt better recognized)
                   </td>
                 </tr>
                 <tr>

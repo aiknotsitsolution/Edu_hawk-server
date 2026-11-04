@@ -139,7 +139,7 @@ const Tajikistan = () => {
                   <tbody>
                     <tr className="bg-gray-100">
                       <td className="p-4 font-semibold">Recognition</td>
-                      <td className="p-4">NMC & WHO approved</td>
+                      <td className="p-4">NMC & WHO Recognized</td>
                     </tr>
                     <tr>
                       <td className="p-4 font-semibold">Eligibility</td>
@@ -174,7 +174,7 @@ const Tajikistan = () => {
               <p className="text-lg leading-relaxed text-gray-700">
                 Tajikistan's MBBS program is gaining popularity among Indian
                 students due to its very low tuition fees and quality medical
-                education at MCI/NMC-affiliated universities.
+                education at NMC-recognized universities.
               </p>
 
               {showMoreClimate ? (
@@ -288,7 +288,7 @@ const Tajikistan = () => {
                     5. Globally Recognized Degrees
                   </h5>
                   <p className="text-gray-700">
-                    Approved by NMC, WHO — eligible for FMGE/NEXT and practice
+                    Recognized by NMC, WHO — eligible for FMGE/NEXT and practice
                     worldwide.
                   </p>
                 </div>

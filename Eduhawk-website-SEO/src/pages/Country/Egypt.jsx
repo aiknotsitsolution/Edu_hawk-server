@@ -102,7 +102,7 @@ const Egypt = () => {
             </div>
             <div>
               <h1 className="text-4xl md:text-5xl font-bold text-blue-900">
-                Explore MBBS Opportunities in Egypt 2025–2026
+                Explore MBBS Opportunities in Egypt 2026–2027
               </h1>
             </div>
           </div>
@@ -166,7 +166,7 @@ const Egypt = () => {
                   <tbody>
                     <tr className="bg-gray-100">
                       <td className="p-4 font-semibold">Recognition</td>
-                      <td className="p-4">NMC & WHO approved</td>
+                      <td className="p-4">NMC & WHO Recognized</td>
                     </tr>
                     <tr>
                       <td className="p-4 font-semibold">Eligibility</td>
@@ -280,7 +280,7 @@ const Egypt = () => {
           <div className="grid md:grid-cols-2 gap-12 mb-20">
             <div>
               <h2 className="text-3xl font-bold text-blue-900 mb-8 text-center md:text-left">
-                Advantages of Studying MBBS in Egypt 2025–2026
+                Advantages of Studying MBBS in Egypt 2026–2027
               </h2>
               <div className="space-y-6">
                 <div>
@@ -420,7 +420,7 @@ const Egypt = () => {
                 </ul>
                 <p className="mt-8">
                   <strong>
-                    Approximate monthly living expenses (2025–2026):
+                    Approximate monthly living expenses (2026–2027):
                   </strong>
                 </p>
                 <ul className="list-disc pl-6 mt-4 space-y-2">

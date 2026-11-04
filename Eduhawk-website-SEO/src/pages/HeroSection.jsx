@@ -48,7 +48,7 @@ const TESTIMONIALS = [
   {
     name: "Priya Sharma",
     loc: "Delhi → Russia",
-    text: "Edu-Hawk guided me every step of the way. No hidden charges, clear advice. Got into a top NMC-approved university in Russia!",
+    text: "Edu-Hawk guided me every step of the way. No hidden charges, clear advice. Got into a top NMC-recognized university in Russia!",
     stars: 5,
   },
   {
@@ -98,7 +98,7 @@ const HERO_SLIDES = [
     image: heroRussia,
     title: "Study MBBS in Russia",
     subtitle:
-      "Top NMC-approved universities • Affordable fees • Safe & Recognized",
+      "Top NMC-recognized universities • Affordable fees • Safe & Recognized",
     cta: "Get Free Counselling",
   },
   {
@@ -463,7 +463,7 @@ export default function HeroSection() {
                     </h2>
                     <p className="text-teal-100 text-base mb-8">
                       Trusted by 400+ Indian students • Transparent process •
-                      NMC-approved universities only
+                      NMC-recognized universities only
                     </p>
 
                     <ul className="space-y-5 text-base">
@@ -816,7 +816,7 @@ export default function HeroSection() {
 
           <div className="max-w-5xl mx-auto relative">
             <p className="text-[#d4a853] uppercase tracking-wider text-sm md:text-base font-medium mb-6">
-              🏥 NMC-Approved Universities Abroad
+              🏥 NMC-Recognized Universities Abroad
             </p>
 
             <h2 className="text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-6 md:mb-8">
@@ -900,7 +900,7 @@ export default function HeroSection() {
                 </strong>{" "}
                 is a professional team of experienced education advisors
                 specializing in MBBS counselling abroad services. We guide
-                Indian students toward admission in NMC-approved medical
+                Indian students toward admission in NMC-recognized medical
                 universities through transparent &amp; ethical counselling.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4 text-base">
@@ -942,13 +942,13 @@ export default function HeroSection() {
                     <img
                       src={checkup}
                       loading="lazy"
-                      alt="NMC Approved"
+                      alt="NMC Recognized"
                       width={200}
                       height={200}
                       className="w-12 h-12"
                     />
                   ),
-                  title: "NMC Approved Only",
+                  title: "NMC Recognized Only",
                   desc: "Only recognized universities recommended",
                 },
                 {

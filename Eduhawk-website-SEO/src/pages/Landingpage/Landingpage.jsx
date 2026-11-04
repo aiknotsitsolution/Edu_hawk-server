@@ -62,7 +62,7 @@ const COUNTRIES = [
   {
     name: "Bangladesh",
     path: "mbbsabroad/bangladesh",
-    rank: "NMC Approved",
+    rank: "NMC Recognized",
     color: "#06b6d4",
     uniImage:
       "https://upload.wikimedia.org/wikipedia/commons/f/f6/2.%E0%A6%B6%E0%A6%BE%E0%A6%AA%E0%A6%B2%E0%A6%BE_%E0%A6%9A%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%B0.jpg",
@@ -124,7 +124,7 @@ const BENEFITS = [
   },
   {
     icon: Landmark,
-    title: "NMC/MCI Approved",
+    title: "NMC Recognized",
     desc: "All universities are NMC & WHO recognized",
   },
   {
@@ -165,7 +165,7 @@ const STEPS = [
   {
     num: "03",
     title: "University Selection & Admission",
-    desc: "Secure admission in best NMC-approved university",
+    desc: "Secure admission in best NMC-recognized university",
     icon: Landmark,
   },
   {
@@ -324,11 +324,21 @@ export default function Landingpage() {
     <div className="font-['Sora'] bg-slate-50 text-slate-950 overflow-x-hidden">
       <SeoHead
         title="MBBS Abroad Consultant | Edu-Hawk Worldwide"
-        description="Your dream of MBBS abroad starts here. India's trusted MBBS abroad consultancy: NMC approved universities, low fees, no donation. 2026-27 admissions open."
+        description="Your dream of MBBS abroad starts here. India's trusted MBBS abroad consultancy: NMC recognized universities, low fees, no donation. 2026-27 admissions open."
         path="/landingpage"
-      />
+      >
+        {/* Fonts loaded via proper <link> in head (preconnect hints) instead of a
+            JS-injected CSS @import. Scoped to this page only so the other 73
+            routes never fetch these font stylesheets. CSP already allows
+            fonts.googleapis.com (style-src) and fonts.gstatic.com (font-src). */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,700;1,600&display=swap"
+        />
+      </SeoHead>
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,700;1,600&display=swap');
         .glass {
           background: rgba(255,255,255,0.95);
           backdrop-filter: blur(16px);
@@ -435,7 +445,7 @@ export default function Landingpage() {
             Starts Here
           </h1>
           <p className="text-xl text-white/90 max-w-2xl mb-10">
-            India's trusted MBBS abroad consultancy. NMC approved universities •
+            India's trusted MBBS abroad consultancy. NMC recognized universities •
             Low fees • No donation
           </p>
           <button
@@ -978,7 +988,7 @@ export default function Landingpage() {
               <img src={Eduhawk} loading="lazy" alt="Eduhawk Logo" className="h-14 mb-6" width={244} height={72} />
               <p className="text-slate-300 leading-relaxed mb-6">
                 India's most trusted MBBS abroad education consultant. Helping
-                aspiring doctors get admission in top NMC-approved universities
+                aspiring doctors get admission in top NMC-recognized universities
                 worldwide.
               </p>
               <div className="space-y-2 text-sm">

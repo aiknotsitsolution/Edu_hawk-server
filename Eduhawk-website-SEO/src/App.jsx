@@ -10,7 +10,7 @@ const organizationSchema = {
   url: "https://www.eduhawk.in/",
   logo: "https://www.eduhawk.in/Eduhawk.svg",
   description:
-    "Edu-Hawk Worldwide helps Indian students secure MBBS admissions abroad in NMC-approved universities with expert counselling and complete support.",
+    "Edu-Hawk Worldwide helps Indian students secure MBBS admissions abroad in NMC-recognized universities with expert counselling and complete support.",
   contactPoint: {
     "@type": "ContactPoint",
     contactType: "customer support",

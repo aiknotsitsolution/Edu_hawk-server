@@ -18,7 +18,7 @@ const TESTIMONIALS = [
   {
     name: "Priya Sharma",
     loc: "Delhi → Russia",
-    text: "Edu-Hawk guided me every step of the way. No hidden charges, clear advice. Got into a top NMC-approved university in Russia!",
+    text: "Edu-Hawk guided me every step of the way. No hidden charges, clear advice. Got into a top NMC-recognized university in Russia!",
     stars: 5,
   },
   {
@@ -41,7 +41,7 @@ const HERO_SLIDES = [
       "https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?auto=format&fit=crop&q=80&w=2070",
     title: "Your Dream Medical Career Starts Here",
     subtitle:
-      "Expert MBBS Abroad Counselling • NMC Approved Universities • Transparent Process",
+      "Expert MBBS Abroad Counselling • NMC Recognized Universities • Transparent Process",
     cta: "Book Free Counselling",
   },
   {
@@ -66,7 +66,7 @@ const FAQ_ITEMS = [
   {
     question: "Is MBBS abroad from these countries valid in India?",
     answer:
-      "Yes, all universities we recommend are NMC (National Medical Commission) approved. After completing MBBS, students can appear for the FMGE/NEXT exam to practice in India.",
+      "Yes, all universities we recommend are NMC (National Medical Commission) recognized. After completing MBBS, students can appear for the FMGE/NEXT exam to practice in India.",
   },
   {
     question: "What is the total cost of MBBS abroad?",
