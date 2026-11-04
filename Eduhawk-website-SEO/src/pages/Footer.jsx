@@ -102,25 +102,25 @@
 //                 href="https://www.facebook.com/eduhawkglobal"
 //                 className="hover:text-amber-400 transition-colors duration-200"
 //               >
-//                 <FaFacebookF />
+//                 <Facebook />
 //               </a>
 //               <a
 //                 href="https://www.youtube.com/@Eduhawkteam"
 //                 className="hover:text-amber-400 transition-colors duration-200"
 //               >
-//                 <FaYoutube />
+//                 <Youtube />
 //               </a>
 //               <a
 //                 href="https://www.instagram.com/eduhawk_global/"
 //                 className="hover:text-amber-400 transition-colors duration-200"
 //               >
-//                 <FaInstagram />
+//                 <Instagram />
 //               </a>
 //               <a
 //                 href="https://www.linkedin.com/company/edu-hawk-worldwide/?viewAsMember=true"
 //                 className="hover:text-amber-400 transition-colors duration-200"
 //               >
-//                 <FaLinkedinIn />
+//                 <Linkedin />
 //               </a>
 //             </div>
 //           </div>
@@ -241,11 +241,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Eduhawk from "../assets/icon.webp";
 import {
-  FaFacebookF,
-  FaInstagram,
-  FaLinkedinIn,
-  FaYoutube,
-} from "react-icons/fa";
+  Facebook,
+  Youtube,
+  Instagram,
+  Linkedin,
+} from "lucide-react";
 
 export default function Footer() {
   const COUNTRIES = [
@@ -462,25 +462,25 @@ export default function Footer() {
                 href="https://www.facebook.com/eduhawkglobal"
                 className="hover:text-amber-400 transition-colors duration-200"
               >
-                <FaFacebookF />
+                <Facebook />
               </a>
               <a
                 href="https://www.youtube.com/@Eduhawkteam"
                 className="hover:text-amber-400 transition-colors duration-200"
               >
-                <FaYoutube />
+                <Youtube />
               </a>
               <a
                 href="https://www.instagram.com/eduhawk_global/"
                 className="hover:text-amber-400 transition-colors duration-200"
               >
-                <FaInstagram />
+                <Instagram />
               </a>
               <a
                 href="https://www.linkedin.com/company/edu-hawk-worldwide/?viewAsMember=true"
                 className="hover:text-amber-400 transition-colors duration-200"
               >
-                <FaLinkedinIn />
+                <Linkedin />
               </a>
             </div>
           </div>

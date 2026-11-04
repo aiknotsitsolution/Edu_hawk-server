@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import EgyptFlag from "../../Images/country flag png/Egypt.svg"; // Correct path to Egypt flag
-import { FiPlus, FiMinus } from "react-icons/fi";
+import { Plus as FiPlus, Minus as FiMinus } from "lucide-react";
 import SeoHead from "../../component/SeoHead.jsx";
 const Egypt = () => {
   const [showMoreAbout, setShowMoreAbout] = useState(false);

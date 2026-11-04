@@ -592,7 +592,7 @@
 
 import React, { useState } from "react";
 import GeorgiaFlag from "../../Images/country flag png/Georgia.svg"; // Correct path – update if needed
-import { FiPlus, FiMinus } from "react-icons/fi";
+import { Plus as FiPlus, Minus as FiMinus } from "lucide-react";
 import SeoHead from "../../component/SeoHead.jsx";
 import { useNavigate } from "react-router-dom";
 

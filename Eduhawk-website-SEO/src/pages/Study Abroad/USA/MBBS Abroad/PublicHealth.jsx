@@ -576,7 +576,7 @@ const PublicHealth = () => {
                 className="pharmacy-hero-image rounded-2xl shadow-2xl object-cover w-full h-56 sm:h-72 lg:h-[440px]"
               />
               <div className="absolute bottom-5 left-5 bg-white/15 backdrop-blur-md px-4 py-2.5 rounded-xl text-sm font-medium">
-                Trusted by 1000+ Indian students
+                Trusted by 400+ Indian students
               </div>
             </div>
           </div>

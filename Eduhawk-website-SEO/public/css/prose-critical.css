@@ -1,0 +1,42 @@
+/* Prose styles */
+.prose {
+  font-family: 'Sora', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.prose-headings {
+  font-family: 'Playfair Display', serif;
+}
+.prose-p {
+  font-family: 'Sora', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+.prose-img {
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  margin: 10px 0;
+  max-width: 100%;
+  width: 100%;
+}
+.prose-a {
+  color: #6366f1;
+  text-decoration: underline;
+}
+.prose-ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+.prose-ol {
+  list-style-type: decimal;
+}
+.prose-blockquote {
+  border-left-width: 4px;
+  border-left-color: #6366f1;
+  padding-left: 1.5rem;
+}
+.prose-table {
+  border: 1px solid #e5e7eb;
+}
+.prose-th {
+  background-color: #f9fafb;
+}
+.prose-td {
+  border: 1px solid #e5e7eb;
+}

@@ -1,10 +1,10 @@
 import React from "react";
 import {
-  FaFacebookF,
-  FaYoutube,
-  FaInstagram,
-  FaLinkedinIn,
-} from "react-icons/fa";
+  Facebook,
+  Youtube,
+  Instagram,
+  Linkedin,
+} from "lucide-react";
 import SeoHead from "../../component/SeoHead.jsx";
 
 const PrivacyPolicy = () => {
@@ -168,7 +168,7 @@ const PrivacyPolicy = () => {
                 className="text-blue-600 hover:text-blue-700 transition-colors duration-200 hover:scale-110"
                 aria-label="Facebook"
               >
-                <FaFacebookF />
+                <Facebook />
               </a>
               <a
                 href="https://www.youtube.com/@Eduhawkteam"
@@ -177,7 +177,7 @@ const PrivacyPolicy = () => {
                 className="text-red-600 hover:text-red-700 transition-colors duration-200 hover:scale-110"
                 aria-label="YouTube"
               >
-                <FaYoutube />
+                <Youtube />
               </a>
               <a
                 href="https://www.instagram.com/eduhawk_global/"
@@ -186,7 +186,7 @@ const PrivacyPolicy = () => {
                 className="text-pink-600 hover:text-pink-700 transition-colors duration-200 hover:scale-110"
                 aria-label="Instagram"
               >
-                <FaInstagram />
+                <Instagram />
               </a>
               <a
                 href="https://www.linkedin.com/company/edu-hawk-worldwide/?viewAsMember=true"
@@ -195,7 +195,7 @@ const PrivacyPolicy = () => {
                 className="text-blue-700 hover:text-blue-800 transition-colors duration-200 hover:scale-110"
                 aria-label="LinkedIn"
               >
-                <FaLinkedinIn />
+                <Linkedin />
               </a>
             </div>
 

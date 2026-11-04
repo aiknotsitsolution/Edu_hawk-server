@@ -2,13 +2,16 @@ import React, { useState, useEffect } from "react";
 import ExpertGuidance from "../../Images/Service Image/Expert Guidance.webp";
 import Globalmap from "../../Images/Service Image/global-map.webp";
 import Globalmap2 from "../../Images/Service Image/backround one.webp";
+import FixedBanner from "../../Images/fixed.webp";
+import serviceHero1 from "../../Images/Service Image/service-hero-1.webp";
+import serviceHero3 from "../../Images/Service Image/service-hero-3.webp";
 import { Link } from "react-router-dom";
 import SeoHead from "../../component/SeoHead.jsx";
-// Random high-quality study abroad themed images (Unsplash – free to use)
+// Study-abroad themed hero images (self-hosted WebP, previously Unsplash hotlinks)
 const slideImages = [
-  "https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&auto=format&fit=crop&w=1471&q=80", // University campus
-  "https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&auto=format&fit=crop&w=1471&q=80", // Student with books & globe
-  "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80", // Library / global education vibe
+  serviceHero1, // University campus
+  serviceHero1, // Student with books & globe
+  serviceHero3, // Library / global education vibe
 ];
 
 const Services = () => {
@@ -60,8 +63,11 @@ const Services = () => {
               <img
                 src={slide.img}
                 alt={slide.title}
+                width={1600}
+                height={1067}
                 className="h-full w-full object-cover transition-transform duration-[1600ms] ease-out"
                 loading={idx === 0 ? "eager" : "lazy"}
+                fetchPriority={idx === 0 ? "high" : "low"}
               />
               <div className="absolute inset-0 flex items-center justify-center px-5">
                 {currentSlide === idx ? (
@@ -149,7 +155,7 @@ const Services = () => {
       {/* ─── Banner / CTA Strip ─────────────────────────────────────────── */}
       <section
         className="relative h-80 bg-cover bg-center md:h-96 animate-fade-in-up"
-        style={{ backgroundImage: "url('Images/fixed.webp')" }}
+        style={{ backgroundImage: `url(${FixedBanner})` }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-blue-900/70 to-indigo-900/70" />
         <div className="relative z-10 flex h-full flex-col items-center justify-center px-5 text-center text-white">

@@ -178,7 +178,7 @@ const MedicalAbroad = () => {
                 className="rounded-2xl shadow-2xl object-cover w-full h-[420px]"
               />
               <div className="absolute bottom-4 left-4 bg-white/15 backdrop-blur-md px-4 py-2 rounded-lg text-sm font-medium">
-                Trusted by 1000+ Indian students
+                Trusted by 400+ Indian students
               </div>
             </div>
           </div>

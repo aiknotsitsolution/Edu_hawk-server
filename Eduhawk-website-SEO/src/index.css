@@ -1,5 +1,20 @@
 @import "tailwindcss";
-@plugin "@tailwindcss/typography";
+
+/* Remove unused styles */
+@layer properties { @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color: rgb(from red g b)))) {*, :before, :after, ::backdrop { --tw-translate-x: 0; --tw-translate-y: 0; --tw-translate-z: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-scale-z: 1; --tw-rotate-x: initial; --tw-rotate-y: initial; --tw-rotate-z: initial; --tw-skew-x: initial; --tw-skew-y: initial; --tw-space-y-reverse: 0; --tw-space-x-reverse: 0; --tw-divide-y-reverse: 0; --tw-border-style: solid; --tw-gradient-position: initial; --tw-shadow: 0 0 #0000; --tw-ring-inset: initial; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-offset-shadow: 0 0 #0000; --tw-blur: initial; --tw-drop-shadow: initial; --tw-drop-shadow-color: initial; --tw-drop-shadow-alpha: 100%; --tw-drop-shadow-size: initial; --tw-backdrop-blur: initial; --tw-backdrop-opacity: initial; --tw-duration: initial; --tw-ease: initial; --tw-outline-style: solid; } }
+
+@layer theme { :root, :host { --font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; --font-serif: system-ui, serif; --font-mono: ui-monospace, monospace; --tw-font-sans: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; --tw-font-serif: system-ui, serif; --tw-font-mono: ui-monospace, monospace; --tw-text-color: #000000; --tw-text-color: #000000; --tw-text-color: #000000; --tw-text-color: #000000; --tw-text-color: #000000; --tw-text-color: #000000; --tw-text-color: #000000; --tw-text-color: #000000; --tw-text-color: #000000; --tw-text-color: #000000; --tw-text-color: #000000; --tw-text-color: #000000; --tw-text-color: #000000; --tw-text-color: #000000; --tw-text-color: #000000; --tw-text-color: #000000; --tw-text-color: #000000; --tw-text-color: #000000; --tw-text-color: #000000; --tw-text-color: #000000; --tw-text-color: #000000; --tw-text-color: #000000; --tw-text-color: #000000; --tw-text-color: #000000; --tw-text-color: base; --tw-text-color: #000000; --tw-font-display: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+/* Remove unused keyframes and animations */
+@layer animations { @supports (animation: fade-in 1s ease-out forwards) { .animate-fade-in { animation: fade-in 1s ease-out forwards; }
+  .animate-slide-up { animation: slide-up 1s ease-out forwards; }
+  .animate-fade-in-up { animation: fade-in-up 0.9s ease-out forwards; }
+  .animation-delay-200 { animation-delay: 0.2s; }
+  .animation-delay-400 { animation-delay: 0.4s; }
+}
+
+html { scroll-behavior: smooth; }
+.gtm-noscript-frame { display: none; visibility: hidden; }
 
 .blog-description ul,
 .blog-description ol {

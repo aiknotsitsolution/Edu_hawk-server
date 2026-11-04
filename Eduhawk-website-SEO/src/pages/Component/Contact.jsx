@@ -2,6 +2,7 @@ import React, { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import ReCAPTCHA from "react-google-recaptcha";
 import SeoHead from "../../component/SeoHead.jsx";
+import contactHero from "../../Images/Contact Us/contact-hero.webp";
 // Animation Variants
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -184,19 +185,23 @@ const Contact = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1.2 }}
-          className="relative h-[500px] bg-cover bg-center flex items-center justify-center"
-          style={{
-            backgroundImage:
-              "url('https://t3.ftcdn.net/jpg/05/47/40/44/240_F_547404496_ZV5aB55KPrKJ90qzD2zhoPhNbjn07wX3.jpg')", // ← Yahan naya image daala hai
-            backgroundBlendMode: "multiply",
-            backgroundColor: "rgba(0, 0, 0, 0.60)", // Dark overlay for better text visibility
-          }}
+          className="relative h-[500px] flex items-center justify-center overflow-hidden bg-[#02145a]"
         >
+          <img
+            src={contactHero}
+            alt="Edu Hawk Worldwide office"
+            width={1920}
+            height={1282}
+            loading="eager"
+            fetchPriority="high"
+            className="absolute inset-0 h-full w-full object-cover"
+          />
+          <div className="absolute inset-0 bg-black/60" />
           <motion.h1
             initial={{ opacity: 0, scale: 0.85 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1.1, ease: "easeOut", delay: 0.4 }}
-            className="text-6xl md:text-8xl font-bold text-white tracking-wider drop-shadow-2xl text-center"
+            className="relative z-10 text-6xl md:text-8xl font-bold text-white tracking-wider drop-shadow-2xl text-center"
           >
             CONTACT
           </motion.h1>

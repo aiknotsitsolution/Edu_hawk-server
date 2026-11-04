@@ -78,7 +78,7 @@ const routes = [
 ];
 
 // Or better: import your route config if possible (with babel-register or by exporting a plain array)
-const baseUrl = "https://eduhawk.in"; // Change this
+const baseUrl = "https://www.eduhawk.in"; // Change this
 
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

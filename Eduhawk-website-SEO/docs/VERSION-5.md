@@ -1,0 +1,282 @@
+# EduHawk Website — Version 5 Changelog
+
+> **Branch:** `feature/content-update`
+> **Base:** `master` (merge-base `5288ec0`)
+> **Scope:** SEO overhaul, performance work, content migration and compliance fixes
+> **Commits covered:** 14 (plus uncommitted work-in-progress)
+
+This document records every change shipped on the `feature/content-update`
+branch — what was done, why, and the measured impact.
+
+---
+
+## Quick Summary
+
+| Area | Change | Status |
+|---|---|---|
+| 1. Navigation & Routing | Broken links fixed, 404 catch-all added, duplicate route removed | ✅ Done |
+| 2. Shared SEO architecture | `SeoHead` component + per-page meta on all routed pages | ✅ Done |
+| 3. New content | 34 new USA course pages (Tech, Business & more) + content added | ✅ Done |
+| 4. Code splitting | 73 routes lazy-loaded, framework vendor chunk | ✅ Done |
+| 5. Image optimization | JPG/PNG converted to WebP, hotlinks self-hosted | ✅ Done |
+| 6. Hero / LCP | Local WebP heroes with priority hints on 4 key pages | ✅ Done |
+| 7. Accessibility | H1 heading issue fixed, image dimensions added | ✅ Done |
+| 8. Content compliance | NMC wording corrected, placement numbers fixed, stale years updated | ✅ Done |
+| 9. Assets & misc | Favicon, brochure PDF, gtag position, fonts, dead code | ✅ Done |
+| 10. Prerendering | Scripts present but NOT wired into build | ⏳ Pending |
+| 11. Canonical host | `www` vs apex alignment | ⏳ In progress |
+
+---
+
+## 1. Navigation & Routing
+
+### Broken homepage country links fixed
+- **File:** `src/pages/HeroSection.jsx`
+- **Before:** homepage grid/dropdown linked to `/mbbs-abroad/*` (no such route).
+- **After:** all 10 country links point to valid `/mbbsabroad/*` routes
+  (`russia, bangladesh, nepal, kyrgyzstan, kazakhstan, uzbekistan, tajikistan, egypt, georgia, vietnam`).
+- The Samarkand card (which had no route) was pointed at `/mbbsabroad/uzbekistan`.
+
+### Duplicate `/courses/mbbs` route removed
+- **File:** `src/routes/routes.jsx`
+- **Before:** `/courses/mbbs` was declared twice.
+- **After:** a single declaration; the route list and sitemap stay in sync.
+
+### 404 catch-all added
+- **Files:** `src/pages/NotFound.jsx`, `src/routes/routes.jsx`
+- Added a `path: "*"` catch-all and a `NotFound` page.
+- NotFound emits `noindex, nofollow` and no canonical (safe for search engines).
+
+### Known remaining issue
+- `Navbar` still links to `/study-abroad/working-professionals`, which has no
+  route/page. Needs a content decision (drop the menu item or build the page).
+
+---
+
+## 2. Shared SEO Architecture
+
+### Shared `SeoHead` component
+- **File:** `src/component/SeoHead.jsx`
+- Single source of truth for per-page `<title>`, `description`, `canonical`,
+  Open Graph, Twitter Card and `robots` directives.
+- **Supported props:** `title`, `description`, `path`, `ogTitle`,
+  `ogDescription`, `ogImage`, `ogType`, `twitterCard`, `twitterTitle`,
+  `twitterDescription`, `twitterImage`, `noindex`, `keywords`, `children`.
+- `SITE_URL` = `https://www.eduhawk.in`; `DEFAULT_OG_IMAGE` = `/Eduhawk.png`.
+
+### Coverage
+- **49 files** import/render `SeoHead` (directly or via `CoursePageKit`).
+- Every one of the **71 indexable routes** emits page-specific metadata.
+- Dynamic blog detail (`BlogDetail.jsx`) builds its title/description from the
+  actual blog data fetched by slug/id.
+
+### Homepage
+- Static homepage metadata was **removed from `index.html`** (so other routes no
+  longer inherit it). Home now sets its own via `SeoHead`:
+  - Title: *"MBBS Abroad Guidance | Indian Students Admission 2026"*
+
+### Known remaining issues
+- **`Kyrgyzstan.jsx`** ships Kazakhstan's title/description (wrong country) — needs content fix.
+- **`Belarus.jsx`** has two live `<SeoHead>` blocks (duplicate tags).
+- **`App.jsx`** JSON-LD logo points at `/Eduhawk.svg`, which does not exist (404).
+- `DEFAULT_OG_IMAGE` (`/Eduhawk.png`) is a **244×72 logo**, not a 1200×630 social card.
+- `generate-sitemap.cjs` still holds a **separate copy** of the route list
+  (should be a single source of truth with `routes.jsx`).
+
+---
+
+## 3. New Content — USA Course Pages (Tech, Business & More)
+
+37 new study-abroad pages were created under **Study Abroad → USA**, covering
+Technology, Business, Health and General streams, with full content added to each.
+
+- **New USA course pages (34 files):**
+  - **Engineering (UG & PG)** — Computer, Mechanical, Civil, Electrical,
+    Electronics & Communication, Chemical, Aerospace, Biomedical, Automobile,
+    plus the UG/PG landing pages.
+  - **Business & Management** — MBA, MBS, BBA, BBS, Executive MBA,
+    International Business, Marketing Management, Hospitality Management.
+  - **Other programs** — Architecture, Law, Language Courses, Summer Courses,
+    Winter Courses, Business Management.
+  - **Health (MBBS Abroad section)** — Dentistry, Nursing, Pharmacy,
+    Physiotherapy, Public Health, Biotechnology.
+- Each page ships with hero, overview, universities, eligibility, fees, visa
+  steps, FAQs and a shared polished layout via `CoursePageKit.jsx`.
+- The 12 new USA URLs were registered in the sitemap generator.
+
+> Note: a separate `NotFound.jsx` page (the 404) was also added — bringing the
+> total new page files on this branch to ~35.
+
+---
+
+## 4. Route-Level Code Splitting
+
+- **Files:** `src/routes/routes.jsx`, `src/pages/layouts/MainLayout.jsx`, `vite.config.js`
+- **71** of 74 routes are loaded with `React.lazy(() => import(...))`.
+- Homepage stays eager (it is needed on first paint anyway).
+- `MainLayout` wraps `<Outlet />` in `<Suspense fallback={<RouteLoader />}>`.
+- `vite.config.js` adds a `manualChunks` rule that puts React / React-DOM /
+  React-Router / Redux / Helmet into a single stable **`vendor`** chunk.
+
+### Measured impact
+
+| Metric | Before | After |
+|---|---:|---:|
+| JavaScript bundle | 2,557 KB (1 chunk) | **2,173 KB (78 chunks)** |
+| Largest chunk | 2,557 KB | **vendor ≈ 329 KB** |
+| Route chunks | none | 77 route chunks |
+
+---
+
+## 5. Image Optimization
+
+- 181 unreferenced images and unused files removed.
+- **JPG / PNG assets converted to WebP** (~27 heavy images in one batch alone,
+  dropping source weight from 26.4 MB → 22.1 MB in that pass).
+- Brochure PDF de-duplicated: now served once from `public/Eduhawk.pdf`.
+
+### Measured impact
+
+| Metric | Original baseline | Now |
+|---|---:|---:|
+| Source image inventory | 253 files / 67.5 MB | 270 files / 22.73 MB |
+| Generated `dist/` images | ~62.9 MB | **19.02 MB (202 files)** |
+| Total `dist/` size | — | **23.12 MB** |
+| Total CSS | 134 KB | 153 KB |
+
+### Missing image work (still pending)
+- No valid 1200×630 OG image yet.
+- `fetchpriority="high"` on heroes, and `srcset`/`sizes` — not yet used site-wide.
+
+---
+
+## 6. Hero Images / LCP Fix
+
+Hero images that were **third-party hotlinks** (slow, copyright-risky) were
+downloaded, converted to WebP and self-hosted.
+
+| Page | Before (external hotlink) | After (local WebP) |
+|---|---|---|
+| **Home** | already local WebP | `hero-russia` 115 KB, `hero-georgia` 50 KB, `hero-kazakhstan` 180 KB, `hero-trusted` 29 KB |
+| **About** | `images.unsplash.com` (×2) + `psgimsr.ac.in` JPG | `about-hero-1.webp` 112 KB, `about-hero-3.webp` 53 KB |
+| **Services** | `images.unsplash.com` (×3) | `service-hero-1.webp` 184 KB, `service-hero-3.webp` 95 KB |
+| **Contact** | `t3.ftcdn.net` Adobe Stock thumbnail (548×240) | `contact-hero.webp` 65 KB (1920×1282, royalty-free) |
+
+Additional optimizations applied on the hero `<img>` elements:
+- First slide: `loading="eager"` + `fetchPriority="high"`.
+- Explicit `width`/`height` added (removes layout shift / CLS).
+- Contact hero converted from a CSS `background-image` to a real `<img>`
+  (so the LCP image is discovered earlier).
+
+---
+
+## 7. Accessibility & Structural Fixes
+
+### H1 heading issue — fixed
+- Pages were rendering multiple / mis-ordered `<h1>` tags, and the hero `<h1>`
+  was not the first heading in the DOM.
+- **Fixed:** a single `<h1>` is now the first heading on each page. The homepage
+  hoists a single `sr-only` `<h1>` above the carousel, and lower-level headings
+  were re-mapped (`h4 → h2`, `h4 → h3`, `h5 → h3`) so no heading level is skipped.
+- Verified across country pages: each renders exactly one live `<h1>`.
+
+### Image dimensions issue — fixed
+- Hero and content `<img>` elements now carry explicit `width`/`height`
+  attributes, and section images use a fixed aspect ratio.
+- This removes layout shift (CLS) and lets the browser reserve space before the
+  image loads.
+
+---
+
+## 8. Content Compliance & Consistency
+
+### NMC / WHO wording: "Approved" → "Recognized" — fixed
+Across the site, overstated "approved" claims were changed to the legally safer
+"recognized" wording. This touched ~50 live text strings in 17 files including
+`HeroSection.jsx`, `Landingpage.jsx`, `About.jsx`, `App.jsx` and the country
+pages (`Russian`, `Armernia`, `Bangladesh`, `China`, `Belarus`, `Iran`,
+`Kyrgyzstan`, `Nepal`, `Uzbekistan`, `Egypt`, `Tejikistan`, `kazakhstan`).
+
+### Defunct "MCI" claims removed — fixed
+- `Georgia.jsx`: "MCI and WHO acknowledge…" → "NMC and WHO recognize…"
+- `Georgia.jsx`: "WHO and MCI support…" → "WHO and NMC recognize…"
+- `Landingpage.jsx`: "NMC/MCI Approved" → "NMC Recognized".
+
+### Conflicting student-placement numbers — fixed
+- The site previously showed conflicting figures (2,000+ / 1,000+ / 400+
+  students placed) across different pages.
+- **Fixed to a single value (400+)** everywhere in the live copy —
+  `HeroSection.jsx`, `About.jsx`, `Footer.jsx`, `Landingpage.jsx`. The old
+  `2000+` text now exists only inside commented-out code.
+
+### Stale admission years updated — fixed
+- All `2025–2026` → `2026–2027` and `2025-26` → `2026-27` across country pages
+  and FAQs (`MedicalAbroad`, `DentistryAbroad`, etc.).
+- **Left unchanged on purpose:** official BLS "May 2025" salary data,
+  "2025 to 2035" employment projections, and image URLs containing a year path.
+
+### Other fixes
+- Fixed broken imports, duplicate imports, unterminated strings and missing imports.
+
+### Still open (needs content/legal approval)
+- Wrong-country "MBBS in Russia" headings inside Armenia / Belarus / China / Iran pages.
+- "100% Visa Support", "#1 Choice", "Best in Bhopal" style wording review.
+- Two different WhatsApp/phone numbers (`9630736070` vs `7632949984`).
+- `Footer.jsx` still links to `http://aiknotsit.com/` (insecure external link).
+
+---
+
+## 9. Assets & Miscellaneous
+
+- **Favicon fixed:** replaced in-house SVG (was ~400 KB) with `public/favicon.png`
+  (**1.3 KB**) and added `public/apple-touch-icon.png` (7.4 KB).
+- **Google tag (`gtag`) position fixed** in `index.html`.
+- **Fonts moved out of JS** — the landing-page font `@import` was replaced with
+  real `<link rel="preconnect">` + stylesheet tags, scoped to that page only.
+- **Dead code removed** — unused imports/dependencies and dead CSS files cleaned up.
+- Brochure PDF added at `/Eduhawk.pdf` and linked from the About page.
+
+---
+
+## 10. Prerendering — ⏳ Pending
+
+- Prerender scripts exist (`prerender.cjs`, `prerender.mjs`,
+  `prerender-puppeteer.mjs`) plus an SSR entry (`src/entry-server.jsx`), but
+  **none of them are wired into `npm run build`.**
+- Today `dist/` contains a **single HTML shell** with no `<title>`, canonical or
+  OG tags — all metadata is injected client-side by Helmet at runtime.
+- **Impact:** search engines that do not run JS see no per-page metadata,
+  which negates much of the Phase-2 SEO work until prerendering ships.
+- **Next step:** wire a prerender step into the build and switch
+  `main.jsx` from `createRoot` to `hydrateRoot`.
+
+---
+
+## 9. Canonical Host — ⏳ In Progress
+
+- `SeoHead.jsx` and `App.jsx` JSON-LD use `https://www.eduhawk.in`.
+- `generate-sitemap.cjs` was updated to `https://www.eduhawk.in`.
+- `public/robots.txt` and `public/sitemap.xml` must be regenerated/verified to
+  match. A management decision on the canonical host (apex vs `www`) and the
+  Nginx 301 redirect is still required.
+
+---
+
+## Pending / Management Decisions
+
+The following cannot be finalised by developers alone:
+
+1. **Canonical host** — apex `eduhawk.in` vs `www.eduhawk.in` (blocking sitemap/robots/Nginx).
+2. **Official student-placement statistic** — 400 vs 1000 vs 2000 (three values live).
+3. **Regulatory/legal wording** — NMC/WHO/WFME recognition claims need sign-off.
+4. **Official contact/WhatsApp number** — 9630736070 vs 7632949984 both appear.
+5. **Backend/API host** — `api.eduhawk.in` vs `edu-hawk-server.onrender.com`;
+   the current CSP does not allow `api.eduhawk.in`, which may block the homepage enquiry form.
+6. **Production Nginx config** — 301 redirect, security headers, cache rules,
+   SPA fallback for prerendered HTML.
+7. **1200×630 OG image asset** — needs a designed social-share image.
+
+---
+
+*Generated from repository evidence. Metrics measured against the production
+`vite build` output on this branch.*

@@ -1,8 +1,14 @@
-﻿import { useEffect, useMemo } from "react";
+﻿import { useEffect } from "react";
 import { useParams, useLocation, Link } from "react-router-dom";
 import DOMPurify from "dompurify";
-import { ShareIcon } from "@heroicons/react/24/outline";
+import { Share as ShareIcon } from "lucide-react";
 import { useSelector, useDispatch } from "react-redux";
+import {
+  selectCurrentProduct,
+  selectDetailStatus,
+  fetchProductBySlugOrId,
+  clearCurrentProduct,
+} from "./productsSlice";
 import SeoHead from "../../component/SeoHead.jsx";
 
 const BlogDetail = () => {
@@ -14,8 +20,7 @@ const BlogDetail = () => {
   const mySlug = slugOrId || location.pathname.replace(/^\/blog\/?/, "");
 
   const post = useSelector(selectCurrentProduct);
-  const loading = useSelector(selectDetailStatus) === "loading";
-  const error = useSelector((state) => state.products.error);
+  const detailStatus = useSelector(selectDetailStatus);
 
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "auto" });
@@ -76,6 +81,48 @@ const BlogDetail = () => {
     "prose-blockquote:border-l-4 prose-blockquote:border-indigo-400 prose-blockquote:pl-4 " +
     "prose-table:border prose-th:bg-gray-100 prose-td:border";
 
+  // Post failed to load (rejected thunk, no data) — small message, no endless spinner.
+  if (!post && detailStatus === "failed") {
+    return (
+      <article className="min-h-screen bg-gray-50 pt-8 pb-20">
+        <div className="mx-auto max-w-2xl px-4 py-24 text-center">
+          <p className="mb-6 text-lg text-gray-600">
+            This article could not be loaded. It may have been removed.
+          </p>
+          <Link
+            to="/blog"
+            className="inline-flex items-center rounded-full bg-indigo-600 px-6 py-3 font-medium text-white transition-colors hover:bg-indigo-700"
+          >
+            ← View all articles
+          </Link>
+        </div>
+      </article>
+    );
+  }
+
+  // Light skeleton while the post is being fetched (no data yet).
+  if (!post) {
+    return (
+      <article className="min-h-screen bg-gray-50 pt-8 pb-20" aria-busy="true">
+        <div className="mx-auto max-w-4xl px-4 pt-6 sm:px-6 lg:px-8">
+          <div className="mb-8 h-9 w-36 animate-pulse rounded-full bg-gray-200" />
+          <div className="mb-3 h-12 w-11/12 animate-pulse rounded-xl bg-gray-200" />
+          <div className="mb-10 h-12 w-2/3 animate-pulse rounded-xl bg-gray-200" />
+          <div className="mb-12 h-4 w-52 animate-pulse rounded bg-gray-200" />
+          <div className="space-y-5">
+            {[92, 100, 96, 100, 88, 100, 74].map((w, i) => (
+              <div
+                key={i}
+                className="h-4 animate-pulse rounded bg-gray-200"
+                style={{ width: `${w}%` }}
+              />
+            ))}
+          </div>
+        </div>
+      </article>
+    );
+  }
+
   return (
     <>
       <SeoHead
@@ -90,23 +137,19 @@ const BlogDetail = () => {
         ogImage={postOgImage}
       />
       <article className="min-h-screen bg-gray-50 pt-8 pb-20">
-        {/* Hero Image - full width */}
-        <div className="relative mx-auto mb-10 max-w-6xl overflow-hidden rounded-3xl px-4 shadow-2xl sm:px-6">
-          <div className="w-full overflow-hidden bg-slate-100">
-            {heroImage ? (
+        {/* Hero Image - full width (rendered only when the post has an image) */}
+        {heroImage && (
+          <div className="relative mx-auto mb-10 max-w-6xl overflow-hidden rounded-3xl px-4 shadow-2xl sm:px-6">
+            <div className="w-full overflow-hidden bg-slate-100">
               <img
                 src={heroImage}
                 alt={post?.name}
                 className="h-[240px] w-full object-cover sm:h-[440px] md:h-[520px] lg:h-[620px]"
               />
-            ) : (
-              <div className="flex h-72 w-full items-center justify-center bg-gradient-to-br from-indigo-100 to-purple-100 sm:h-96">
-                <span className="text-6xl text-indigo-300">📷</span>
-              </div>
-            )}
+            </div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
           </div>
-          <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
-        </div>
+        )}
 
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Category Badge */}

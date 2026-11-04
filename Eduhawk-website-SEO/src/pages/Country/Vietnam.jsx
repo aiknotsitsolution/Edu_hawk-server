@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FiPlus, FiMinus } from "react-icons/fi";
+import { Plus as FiPlus, Minus as FiMinus } from "lucide-react";
 import SeoHead from "../../component/SeoHead.jsx";
 import { useNavigate } from "react-router-dom";
 import CanThoUniversity from "../../assets/CanTho_University.webp";

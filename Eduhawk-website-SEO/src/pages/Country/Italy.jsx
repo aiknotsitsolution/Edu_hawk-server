@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import SeoHead from "../../component/SeoHead.jsx";
 import { Link } from "react-router-dom";
-import Banner from "../../../src/Images/Italy/UniversityPadua.webp";
 import MBBSStudent from "../../../src/Images/Italy/MBBS-in-Italy.webp";
 import Flowchart from "../../../src/Images/Italy/flowchart.webp";
 
@@ -38,7 +37,7 @@ const Italy = () => {
       <div className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src={Banner}
+            src={UniversityPadua}
             width={2050}
             height={830}
             alt="Italy Landscape"

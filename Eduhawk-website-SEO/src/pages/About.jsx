@@ -3,6 +3,9 @@ import AboutImage from "../Images/About us page.webp";
 import imageAbout2 from "../Images/ABOUT SERVICE.webp";
 import { useNavigate } from "react-router-dom";
 import SeoHead from "../component/SeoHead.jsx";
+import FixedBanner from "../Images/fixed.webp";
+import aboutHero1 from "../Images/hero/about-hero-1.webp";
+import aboutHero3 from "../Images/hero/about-hero-3.webp";
 
 
 const COUNTRIES = [
@@ -37,24 +40,21 @@ const TESTIMONIALS = [
 
 const HERO_SLIDES = [
   {
-    image:
-      "https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?auto=format&fit=crop&q=80&w=2070",
+    image: aboutHero1,
     title: "Your Dream Medical Career Starts Here",
     subtitle:
       "Expert MBBS Abroad Counselling • NMC Recognized Universities • Transparent Process",
     cta: "Book Free Counselling",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?auto=format&fit=crop&q=80&w=2070",
+    image: aboutHero1,
     title: "Study MBBS in Russia & Georgia",
     subtitle:
       "Top Universities • Affordable Fees • Complete End-to-End Support",
     cta: "Get Started Today",
   },
   {
-    image:
-      "https://psgimsr.ac.in/wp-content/uploads/2024/07/20240717_220126.jpg",
+    image: aboutHero3,
     title: "Admission Made Simple & Secure",
     subtitle:
       "No Hidden Charges • Personalized Guidance • 400+ Happy Students",
@@ -152,6 +152,10 @@ export default function HeroSection() {
               <img
                 src={slide.image}
                 alt={slide.title}
+                width={1920}
+                height={1281}
+                loading={idx === 0 ? "eager" : "lazy"}
+                fetchPriority={idx === 0 ? "high" : "low"}
                 className="w-full h-full object-cover scale-105 transition-transform duration-[15000ms] brightness-[0.85]"
                 style={{
                   transform:
@@ -296,7 +300,7 @@ export default function HeroSection() {
         <section
   className="relative h-80 bg-cover bg-center md:h-96 animate-fade-in-up"
   style={{
-    backgroundImage: "url('https://myphysiogroup.com/wp-content/uploads/2018/12/CTA-background.jpg')"
+    backgroundImage: `url(${FixedBanner})`
   }}
 >
   {/* Dark Overlay */}

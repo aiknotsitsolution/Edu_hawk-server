@@ -11,7 +11,7 @@ import TVERSTATEMEDICALUNIVERSITY from "../../Images/Russia/TVER STATE MEDICAL U
 import AltaiStateMedicalUniversity from "../../Images/Russia/Altai State Medical University.jpg";
 import { useNavigate } from "react-router-dom";
 
-import { FiPlus, FiMinus } from "react-icons/fi";
+import { Plus as FiPlus, Minus as FiMinus } from "lucide-react";
 const faqData = [
   {
     question: "Is MBBS in Bangladesh safe for Indian students?",
