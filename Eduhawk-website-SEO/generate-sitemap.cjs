@@ -79,28 +79,99 @@ const routes = [
 
 const baseUrl = "https://www.eduhawk.in";
 
-// Helper function to get last modified date of corresponding route component
+// Map each route to its exact file on disk (handles case-sensitivity across OS environments)
+const routeComponentMap = {
+  "/": "src/pages/HeroSection.jsx",
+  "/about": "src/pages/About.jsx",
+  "/study-abroad": "src/pages/Study Abroad/MbbsAbroad.jsx",
+  "/services": "src/pages/Component/Services.jsx",
+  "/contact": "src/pages/Component/Contact.jsx",
+  "/allcollege": "src/pages/Country/India/AllIndia.jsx",
+  "/blog": "src/pages/Component/Blog.jsx",
+  "/blog/education-blog": "src/pages/Blog/BlogSection.jsx",
+  "/terms-conditions": "src/pages/TermsAndConditions/TermsAndConditions.jsx",
+  "/privacy-policy": "src/pages/PrivacyPolicy/PrivacyPolicy.jsx",
+  "/cookies-policy": "src/pages/CookiesPolicy/CookiesPolicy.jsx",
+  "/landingpage": "src/pages/Landingpage/Landingpage.jsx",
+  "/courses/mbbs": "src/pages/Study Abroad/MbbsAbroad.jsx",
+  "/courses/medical-abroad": "src/pages/Study Abroad/MedicalAbroad.jsx",
+  "/courses/dentistry": "src/pages/Study Abroad/USA/MBBS Abroad/DentistryAbroad.jsx",
+  "/courses/nursing": "src/pages/Study Abroad/USA/MBBS Abroad/NursingAbroad.jsx",
+  "/courses/pharmacy": "src/pages/Study Abroad/USA/MBBS Abroad/PharmacyAbroad.jsx",
+  "/courses/physiotherapy": "src/pages/Study Abroad/USA/MBBS Abroad/PhysiotherapyAbroad.jsx",
+  "/courses/public-health": "src/pages/Study Abroad/USA/MBBS Abroad/PublicHealth.jsx",
+  "/courses/biotechnology": "src/pages/Study Abroad/USA/MBBS Abroad/Biotechnology.jsx",
+  "/courses/engineering": "src/pages/Study Abroad/Engineering.jsx",
+  "/courses/business-management": "src/pages/Study Abroad/USA/BusinessManagement/business-management.jsx",
+  "/courses/mba": "src/pages/Study Abroad/USA/MBA/mba.jsx",
+  "/courses/mbs": "src/pages/Study Abroad/USA/MBS/mbs.jsx",
+  "/courses/bba": "src/pages/Study Abroad/USA/BBA/bba.jsx",
+  "/courses/bbs": "src/pages/Study Abroad/USA/BBS/bbs.jsx",
+  "/courses/executive-mba": "src/pages/Study Abroad/USA/ExecutiveMBA/executive-mba.jsx",
+  "/courses/international-business": "src/pages/Study Abroad/USA/InternationalBusiness/international-business.jsx",
+  "/courses/marketing-management": "src/pages/Study Abroad/USA/MarketingManagement/marketing-management.jsx",
+  "/courses/hospitality-management": "src/pages/Study Abroad/USA/HospitalityManagement/hospitality-management.jsx",
+  "/courses/architecture": "src/pages/Study Abroad/USA/Architecture/architecture.jsx",
+  "/courses/law": "src/pages/Study Abroad/USA/Law/law.jsx",
+  "/study-abroad/language-courses": "src/pages/Study Abroad/USA/LanguageCourses/language-courses.jsx",
+  "/study-abroad/summer-courses": "src/pages/Study Abroad/USA/SummerCourses/summer-courses.jsx",
+  "/study-abroad/winter-courses": "src/pages/Study Abroad/USA/WinterCourses/winter-courses.jsx",
+  "/courses/accounting-finance": "src/pages/Study Abroad/AccountingFinance.jsx",
+  "/courses/ug/engineering": "src/pages/Study Abroad/USA/Engineering/ug/undergraduate.jsx",
+  "/courses/ug/computer-engineering": "src/pages/Study Abroad/USA/Engineering/ug/pages/ComputerEngineering.jsx",
+  "/courses/ug/mechanical-engineering": "src/pages/Study Abroad/USA/Engineering/ug/pages/MechanicalEngineering.jsx",
+  "/courses/ug/civil-engineering": "src/pages/Study Abroad/USA/Engineering/ug/pages/CivilEngineering.jsx",
+  "/courses/ug/electrical-engineering": "src/pages/Study Abroad/USA/Engineering/ug/pages/ElectricalEngineering.jsx",
+  "/courses/ug/electronics-communication": "src/pages/Study Abroad/USA/Engineering/ug/pages/ElectronicsCommunication.jsx",
+  "/courses/ug/chemical-engineering": "src/pages/Study Abroad/USA/Engineering/ug/pages/ChemicalEngineering.jsx",
+  "/courses/ug/aerospace-engineering": "src/pages/Study Abroad/USA/Engineering/ug/pages/AerospaceEngineering.jsx",
+  "/courses/ug/biomedical-engineering": "src/pages/Study Abroad/USA/Engineering/ug/pages/BiomedicalEngineering.jsx",
+  "/courses/ug/automobile-engineering": "src/pages/Study Abroad/USA/Engineering/ug/pages/AutomobileEngineering.jsx",
+  "/courses/pg/engineering": "src/pages/Study Abroad/USA/Engineering/pg/postgraduate.jsx",
+  "/courses/pg/computer-engineering": "src/pages/Study Abroad/USA/Engineering/pg/pages/ComputerEngineering.jsx",
+  "/courses/pg/mechanical-engineering": "src/pages/Study Abroad/USA/Engineering/pg/pages/MechanicalEngineering.jsx",
+  "/courses/pg/civil-engineering": "src/pages/Study Abroad/USA/Engineering/pg/pages/CivilEngineering.jsx",
+  "/courses/pg/electrical-engineering": "src/pages/Study Abroad/USA/Engineering/pg/pages/ElectricalEngineering.jsx",
+  "/courses/pg/electronics-communication": "src/pages/Study Abroad/USA/Engineering/pg/pages/ElectronicsCommunication.jsx",
+  "/courses/pg/chemical-engineering": "src/pages/Study Abroad/USA/Engineering/pg/pages/ChemicalEngineering.jsx",
+  "/courses/pg/aerospace-engineering": "src/pages/Study Abroad/USA/Engineering/pg/pages/AerospaceEngineering.jsx",
+  "/courses/pg/biomedical-engineering": "src/pages/Study Abroad/USA/Engineering/pg/pages/BiomedicalEngineering.jsx",
+  "/courses/pg/automobile-engineering": "src/pages/Study Abroad/USA/Engineering/pg/pages/AutomobileEngineering.jsx",
+  "/mbbs-abroad/russia": "src/pages/Country/Russian.jsx",
+  "/mbbs-abroad/bangladesh": "src/pages/Country/Bangladesh.jsx",
+  "/mbbs-abroad/kazakhstan": "src/pages/Country/kazakhstan.jsx",
+  "/mbbs-abroad/armernia": "src/pages/Country/Armernia.jsx",
+  "/mbbs-abroad/belarus": "src/pages/Country/Belarus.jsx",
+  "/mbbs-abroad/china": "src/pages/Country/China.jsx",
+  "/mbbs-abroad/kyrgyzstan": "src/pages/Country/Kyrgyzstan.jsx",
+  "/mbbs-abroad/egypt": "src/pages/Country/Egypt.jsx",
+  "/mbbs-abroad/georgia": "src/pages/Country/Georgia.jsx",
+  "/mbbs-abroad/iran": "src/pages/Country/Iran.jsx",
+  "/mbbs-abroad/nepal": "src/pages/Country/Nepal.jsx",
+  "/mbbs-abroad/tajikistan": "src/pages/Country/Tejikistan.jsx",
+  "/mbbs-abroad/uzbekistan": "src/pages/Country/Uzbekistan.jsx",
+  "/mbbs-abroad/vietnam": "src/pages/Country/Vietnam.jsx",
+  "/mbbs-abroad/italy": "src/pages/Country/Italy.jsx",
+};
+
+// Stable fallback date so lastmod doesn't change on every daily build unless file changes
+const BASELINE_DATE = "2026-11-04";
+
+// Helper function to get real last modified date of corresponding route component
 function getLastModDate(route) {
   try {
-    let relPath = "";
-    if (route === "/") relPath = "src/pages/HeroSection.jsx";
-    else if (route === "/about") relPath = "src/pages/About.jsx";
-    else if (route === "/blog") relPath = "src/pages/Component/Blog.jsx";
-    else if (route === "/services") relPath = "src/pages/Component/Services.jsx";
-    else if (route === "/contact") relPath = "src/pages/Component/Contact.jsx";
-    else if (route.startsWith("/mbbs-abroad/")) {
-      const country = route.replace("/mbbs-abroad/", "");
-      relPath = `src/pages/Country/${country.charAt(0).toUpperCase() + country.slice(1)}.jsx`;
-    }
-
-    if (relPath && fs.existsSync(path.join(__dirname, relPath))) {
-      const stat = fs.statSync(path.join(__dirname, relPath));
-      return stat.mtime.toISOString().split("T")[0];
+    const relPath = routeComponentMap[route];
+    if (relPath) {
+      const fullPath = path.join(__dirname, relPath);
+      if (fs.existsSync(fullPath)) {
+        const stat = fs.statSync(fullPath);
+        return stat.mtime.toISOString().split("T")[0];
+      }
     }
   } catch (e) {
-    // Fallback to build time
+    // Fallback on error
   }
-  return new Date().toISOString().split("T")[0];
+  return BASELINE_DATE;
 }
 
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
@@ -119,4 +190,4 @@ ${routes
 </urlset>`;
 
 fs.writeFileSync(path.join(__dirname, "public", "sitemap.xml"), sitemap);
-console.log("✅ sitemap.xml generated with dynamic lastmod!");
+console.log("✅ sitemap.xml generated with verified component lastmod!");

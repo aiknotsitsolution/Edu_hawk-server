@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "generate-sitemap": "node generate-sitemap.cjs",
-    "prerender": "node prerender.js",
+    "prerender": "node prerender-puppeteer.mjs",
     "prerender:all": "npm run build && npm run prerender"
   },
   "dependencies": {

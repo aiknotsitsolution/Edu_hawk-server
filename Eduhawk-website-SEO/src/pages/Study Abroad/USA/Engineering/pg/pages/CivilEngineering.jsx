@@ -180,7 +180,7 @@ const branch = {
   ],
 
   careerIntro: (
-    <>A postgraduate qualification can help graduates develop advanced technical and project management skills for careers in infrastructure, construction, consulting, and environmental services.</>,
+    <>A postgraduate qualification can help graduates develop advanced technical and project management skills for careers in infrastructure, construction, consulting, and environmental services.</>
   ),
   careerLead: ["Standard procedural phases include:"],
   careers: [

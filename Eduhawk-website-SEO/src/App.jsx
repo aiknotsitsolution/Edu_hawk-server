@@ -28,11 +28,6 @@ const websiteSchema = {
   "@type": "WebSite",
   name: "Edu-Hawk Worldwide",
   url: "https://www.eduhawk.in/",
-  potentialAction: {
-    "@type": "SearchAction",
-    target: "https://www.eduhawk.in/search?q={search_term_string}",
-    "query-input": "required name=search_term_string",
-  },
 };
 
 const App = () => {

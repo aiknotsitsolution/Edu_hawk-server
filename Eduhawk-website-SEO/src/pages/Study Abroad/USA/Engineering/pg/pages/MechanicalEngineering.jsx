@@ -171,7 +171,7 @@ const branch = {
   ],
 
   careerIntro: (
-    <>A postgraduate degree facilitates the acquisition of <strong>sophisticated technical expertise</strong> requisite for professional positions within engineering design, manufacturing, research, automation, and energy systems sectors.</>,
+    <>A postgraduate degree facilitates the acquisition of <strong>sophisticated technical expertise</strong> requisite for professional positions within engineering design, manufacturing, research, automation, and energy systems sectors.</>
   ),
   careerLead: ["Prospective career trajectories encompass:"],
   careers: [
