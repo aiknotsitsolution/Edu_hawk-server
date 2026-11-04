@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Suspense } from "react";
 import { Outlet } from "react-router-dom";
 import Navbar from "../../component/Navbar";
 import Footer from "../Footer";
+import RouteLoader from "../../component/RouteLoader";
 import { ChevronUp, GraduationCap, MapPin, PhoneCall } from "lucide-react";
 
 const universityDestinations = [
@@ -108,7 +109,9 @@ const MainLayout = () => {
       <Navbar />
 
       <main className="md:pt-1">
-        <Outlet />
+        <Suspense fallback={<RouteLoader />}>
+          <Outlet />
+        </Suspense>
       </main>
 
       <Footer />

@@ -1,84 +1,97 @@
+import React, { lazy } from "react";
 import { createBrowserRouter } from "react-router-dom";
 import MainLayout from "../pages/layouts/MainLayout.jsx";
+import Home from "../pages/HeroSection.jsx";
+
+/* Route-level code splitting (Phase 1):
+ * Every page except the homepage is loaded on demand via React.lazy.
+ * The homepage stays eager: its chunk is required on initial load anyway,
+ * so lazy-loading it would only add an extra round-trip and a
+ * fallback-to-content layout shift (CLS) without saving any bytes.
+ * Shared layout (MainLayout, Navbar, Footer) stays eager so navigation
+ * chrome renders instantly. Route paths and routeList are unchanged. */
 
 // Pages
-import Home from "../pages/HeroSection.jsx";
-import About from "../pages/About.jsx";
-import NotFound from "../pages/NotFound.jsx";
-import Russian from "../pages/Country/Russian.jsx";
-import Bangladesh from "../pages/Country/Bangladesh.jsx";
-import Services from "../pages/Component/Services.jsx";
-import Contact from "../pages/Component/Contact.jsx";
-import Kazakhstan from "../pages/Country/kazakhstan.jsx";
-import Kyrgyzstan from "../pages/Country/Kyrgyzstan.jsx";
-import Armernia from "../pages/Country/Armernia.jsx";
-import Belarus from "../pages/Country/Belarus.jsx";
-import China from "../pages/Country/China.jsx";
-import Egypt from "../pages/Country/Egypt.jsx";
-import Georgia from "../pages/Country/Georgia.jsx";
-import Iran from "../pages/Country/Iran.jsx";
-import Nepal from "../pages/Country/Nepal.jsx";
-import Tejikistan from "../pages/Country/Tejikistan.jsx";
-import Uzbekistan from "../pages/Country/Uzbekistan.jsx";
-import Vietnam from "../pages/Country/Vietnam.jsx";
-import Italy from "../pages/Country/Italy.jsx";
-import BlogSection from "../pages/Blog/BlogSection.jsx";
-import Blog from "../pages/Component/Blog.jsx";
-import BlogDetail from "../pages/Component/BlogDetail.jsx";
-import AllIndia from "../pages/Country/India/AllIndia.jsx";
-import Landingpage from "../pages/Landingpage/Landingpage.jsx";
-import TermsAndConditions from "../pages/TermsAndConditions/TermsAndConditions.jsx";
-import PrivacyPolicy from "../pages/PrivacyPolicy/PrivacyPolicy.jsx";
-import CookiesPolicy from "../pages/CookiesPolicy/CookiesPolicy.jsx";
-import MbbsAbroad from "../pages/Study Abroad/MbbsAbroad.jsx";
-import MedicalAbroad from "../pages/Study Abroad/MedicalAbroad.jsx";
-import DentistryAbroad from "../pages/Study Abroad/USA/MBBS Abroad/DentistryAbroad.jsx";
-import NursingAbroad from "../pages/Study Abroad/USA/MBBS Abroad/NursingAbroad.jsx";
-import PharmacyAbroad from "../pages/Study Abroad/USA/MBBS Abroad/PharmacyAbroad.jsx";
-import PhysiotherapyAbroad from "../pages/Study Abroad/USA/MBBS Abroad/PhysiotherapyAbroad.jsx";
-import PublicHealthAbroad from "../pages/Study Abroad/USA/MBBS Abroad/PublicHealth.jsx";
-import BiotechnologyAbroad from "../pages/Study Abroad/USA/MBBS Abroad/Biotechnology.jsx";
-import Engineering from "../pages/Study Abroad/Engineering.jsx";
-import BusinessManagementAbroad from "../pages/Study Abroad/USA/BusinessManagement/business-management.jsx";
-import MbaAbroad from "../pages/Study Abroad/USA/MBA/mba.jsx";
-import MbsAbroad from "../pages/Study Abroad/USA/MBS/mbs.jsx";
-import BbaAbroad from "../pages/Study Abroad/USA/BBA/bba.jsx";
-import BbsAbroad from "../pages/Study Abroad/USA/BBS/bbs.jsx";
-import ExecutiveMbaAbroad from "../pages/Study Abroad/USA/ExecutiveMBA/executive-mba.jsx";
-import InternationalBusinessAbroad from "../pages/Study Abroad/USA/InternationalBusiness/international-business.jsx";
-import MarketingManagementAbroad from "../pages/Study Abroad/USA/MarketingManagement/marketing-management.jsx";
-import HospitalityManagementAbroad from "../pages/Study Abroad/USA/HospitalityManagement/hospitality-management.jsx";
-import ArchitectureAbroad from "../pages/Study Abroad/USA/Architecture/architecture.jsx";
-import LawAbroad from "../pages/Study Abroad/USA/Law/law.jsx";
-import LanguageCoursesAbroad from "../pages/Study Abroad/USA/LanguageCourses/language-courses.jsx";
-import SummerCoursesAbroad from "../pages/Study Abroad/USA/SummerCourses/summer-courses.jsx";
-import WinterCoursesAbroad from "../pages/Study Abroad/USA/WinterCourses/winter-courses.jsx";
-import AccountingFinance from "../pages/Study Abroad/AccountingFinance.jsx";
-import UndergraduateEngineering from "../pages/Study Abroad/USA/Engineering/ug/undergraduate.jsx";
-import ComputerEngineeringUG from "../pages/Study Abroad/USA/Engineering/ug/pages/ComputerEngineering.jsx";
-import MechanicalEngineeringUG from "../pages/Study Abroad/USA/Engineering/ug/pages/MechanicalEngineering.jsx";
-import CivilEngineeringUG from "../pages/Study Abroad/USA/Engineering/ug/pages/CivilEngineering.jsx";
-import ElectricalEngineeringUG from "../pages/Study Abroad/USA/Engineering/ug/pages/ElectricalEngineering.jsx";
-import ElectronicsCommunicationUG from "../pages/Study Abroad/USA/Engineering/ug/pages/ElectronicsCommunication.jsx";
-import ChemicalEngineeringUG from "../pages/Study Abroad/USA/Engineering/ug/pages/ChemicalEngineering.jsx";
-import AerospaceEngineeringUG from "../pages/Study Abroad/USA/Engineering/ug/pages/AerospaceEngineering.jsx";
-import BiomedicalEngineeringUG from "../pages/Study Abroad/USA/Engineering/ug/pages/BiomedicalEngineering.jsx";
-import AutomobileEngineeringUG from "../pages/Study Abroad/USA/Engineering/ug/pages/AutomobileEngineering.jsx";
-import PostgraduateEngineering from "../pages/Study Abroad/USA/Engineering/pg/postgraduate.jsx";
-import ComputerEngineeringPG from "../pages/Study Abroad/USA/Engineering/pg/pages/ComputerEngineering.jsx";
-import MechanicalEngineeringPG from "../pages/Study Abroad/USA/Engineering/pg/pages/MechanicalEngineering.jsx";
-import CivilEngineeringPG from "../pages/Study Abroad/USA/Engineering/pg/pages/CivilEngineering.jsx";
-import ElectricalEngineeringPG from "../pages/Study Abroad/USA/Engineering/pg/pages/ElectricalEngineering.jsx";
-import ElectronicsCommunicationPG from "../pages/Study Abroad/USA/Engineering/pg/pages/ElectronicsCommunication.jsx";
-import ChemicalEngineeringPG from "../pages/Study Abroad/USA/Engineering/pg/pages/ChemicalEngineering.jsx";
-import AerospaceEngineeringPG from "../pages/Study Abroad/USA/Engineering/pg/pages/AerospaceEngineering.jsx";
-import BiomedicalEngineeringPG from "../pages/Study Abroad/USA/Engineering/pg/pages/BiomedicalEngineering.jsx";
-import AutomobileEngineeringPG from "../pages/Study Abroad/USA/Engineering/pg/pages/AutomobileEngineering.jsx";
+const About = lazy(() => import("../pages/About.jsx"));
+const NotFound = lazy(() => import("../pages/NotFound.jsx"));
+const Russian = lazy(() => import("../pages/Country/Russian.jsx"));
+const Bangladesh = lazy(() => import("../pages/Country/Bangladesh.jsx"));
+const Services = lazy(() => import("../pages/Component/Services.jsx"));
+const Contact = lazy(() => import("../pages/Component/Contact.jsx"));
+const Kazakhstan = lazy(() => import("../pages/Country/kazakhstan.jsx"));
+const Kyrgyzstan = lazy(() => import("../pages/Country/Kyrgyzstan.jsx"));
+const Armernia = lazy(() => import("../pages/Country/Armernia.jsx"));
+const Belarus = lazy(() => import("../pages/Country/Belarus.jsx"));
+const China = lazy(() => import("../pages/Country/China.jsx"));
+const Egypt = lazy(() => import("../pages/Country/Egypt.jsx"));
+const Georgia = lazy(() => import("../pages/Country/Georgia.jsx"));
+const Iran = lazy(() => import("../pages/Country/Iran.jsx"));
+const Nepal = lazy(() => import("../pages/Country/Nepal.jsx"));
+const Tejikistan = lazy(() => import("../pages/Country/Tejikistan.jsx"));
+const Uzbekistan = lazy(() => import("../pages/Country/Uzbekistan.jsx"));
+const Vietnam = lazy(() => import("../pages/Country/Vietnam.jsx"));
+const Italy = lazy(() => import("../pages/Country/Italy.jsx"));
+const BlogSection = lazy(() => import("../pages/Blog/BlogSection.jsx"));
+const Blog = lazy(() => import("../pages/Component/Blog.jsx"));
+const BlogDetail = lazy(() => import("../pages/Component/BlogDetail.jsx"));
+const AllIndia = lazy(() => import("../pages/Country/India/AllIndia.jsx"));
+const Landingpage = lazy(() => import("../pages/Landingpage/Landingpage.jsx"));
+const TermsAndConditions = lazy(() => import("../pages/TermsAndConditions/TermsAndConditions.jsx"));
+const PrivacyPolicy = lazy(() => import("../pages/PrivacyPolicy/PrivacyPolicy.jsx"));
+const CookiesPolicy = lazy(() => import("../pages/CookiesPolicy/CookiesPolicy.jsx"));
+const MbbsAbroad = lazy(() => import("../pages/Study Abroad/MbbsAbroad.jsx"));
+const MedicalAbroad = lazy(() => import("../pages/Study Abroad/MedicalAbroad.jsx"));
+const DentistryAbroad = lazy(() => import("../pages/Study Abroad/USA/MBBS Abroad/DentistryAbroad.jsx"));
+const NursingAbroad = lazy(() => import("../pages/Study Abroad/USA/MBBS Abroad/NursingAbroad.jsx"));
+const PharmacyAbroad = lazy(() => import("../pages/Study Abroad/USA/MBBS Abroad/PharmacyAbroad.jsx"));
+const PhysiotherapyAbroad = lazy(() => import("../pages/Study Abroad/USA/MBBS Abroad/PhysiotherapyAbroad.jsx"));
+const PublicHealthAbroad = lazy(() => import("../pages/Study Abroad/USA/MBBS Abroad/PublicHealth.jsx"));
+const BiotechnologyAbroad = lazy(() => import("../pages/Study Abroad/USA/MBBS Abroad/Biotechnology.jsx"));
+const Engineering = lazy(() => import("../pages/Study Abroad/Engineering.jsx"));
+const BusinessManagementAbroad = lazy(() => import("../pages/Study Abroad/USA/BusinessManagement/business-management.jsx"));
+const MbaAbroad = lazy(() => import("../pages/Study Abroad/USA/MBA/mba.jsx"));
+const MbsAbroad = lazy(() => import("../pages/Study Abroad/USA/MBS/mbs.jsx"));
+const BbaAbroad = lazy(() => import("../pages/Study Abroad/USA/BBA/bba.jsx"));
+const BbsAbroad = lazy(() => import("../pages/Study Abroad/USA/BBS/bbs.jsx"));
+const ExecutiveMbaAbroad = lazy(() => import("../pages/Study Abroad/USA/ExecutiveMBA/executive-mba.jsx"));
+const InternationalBusinessAbroad = lazy(() => import("../pages/Study Abroad/USA/InternationalBusiness/international-business.jsx"));
+const MarketingManagementAbroad = lazy(() => import("../pages/Study Abroad/USA/MarketingManagement/marketing-management.jsx"));
+const HospitalityManagementAbroad = lazy(() => import("../pages/Study Abroad/USA/HospitalityManagement/hospitality-management.jsx"));
+const ArchitectureAbroad = lazy(() => import("../pages/Study Abroad/USA/Architecture/architecture.jsx"));
+const LawAbroad = lazy(() => import("../pages/Study Abroad/USA/Law/law.jsx"));
+const LanguageCoursesAbroad = lazy(() => import("../pages/Study Abroad/USA/LanguageCourses/language-courses.jsx"));
+const SummerCoursesAbroad = lazy(() => import("../pages/Study Abroad/USA/SummerCourses/summer-courses.jsx"));
+const WinterCoursesAbroad = lazy(() => import("../pages/Study Abroad/USA/WinterCourses/winter-courses.jsx"));
+const AccountingFinance = lazy(() => import("../pages/Study Abroad/AccountingFinance.jsx"));
+const UndergraduateEngineering = lazy(() => import("../pages/Study Abroad/USA/Engineering/ug/undergraduate.jsx"));
+const ComputerEngineeringUG = lazy(() => import("../pages/Study Abroad/USA/Engineering/ug/pages/ComputerEngineering.jsx"));
+const MechanicalEngineeringUG = lazy(() => import("../pages/Study Abroad/USA/Engineering/ug/pages/MechanicalEngineering.jsx"));
+const CivilEngineeringUG = lazy(() => import("../pages/Study Abroad/USA/Engineering/ug/pages/CivilEngineering.jsx"));
+const ElectricalEngineeringUG = lazy(() => import("../pages/Study Abroad/USA/Engineering/ug/pages/ElectricalEngineering.jsx"));
+const ElectronicsCommunicationUG = lazy(() => import("../pages/Study Abroad/USA/Engineering/ug/pages/ElectronicsCommunication.jsx"));
+const ChemicalEngineeringUG = lazy(() => import("../pages/Study Abroad/USA/Engineering/ug/pages/ChemicalEngineering.jsx"));
+const AerospaceEngineeringUG = lazy(() => import("../pages/Study Abroad/USA/Engineering/ug/pages/AerospaceEngineering.jsx"));
+const BiomedicalEngineeringUG = lazy(() => import("../pages/Study Abroad/USA/Engineering/ug/pages/BiomedicalEngineering.jsx"));
+const AutomobileEngineeringUG = lazy(() => import("../pages/Study Abroad/USA/Engineering/ug/pages/AutomobileEngineering.jsx"));
+const PostgraduateEngineering = lazy(() => import("../pages/Study Abroad/USA/Engineering/pg/postgraduate.jsx"));
+const ComputerEngineeringPG = lazy(() => import("../pages/Study Abroad/USA/Engineering/pg/pages/ComputerEngineering.jsx"));
+const MechanicalEngineeringPG = lazy(() => import("../pages/Study Abroad/USA/Engineering/pg/pages/MechanicalEngineering.jsx"));
+const CivilEngineeringPG = lazy(() => import("../pages/Study Abroad/USA/Engineering/pg/pages/CivilEngineering.jsx"));
+const ElectricalEngineeringPG = lazy(() => import("../pages/Study Abroad/USA/Engineering/pg/pages/ElectricalEngineering.jsx"));
+const ElectronicsCommunicationPG = lazy(() => import("../pages/Study Abroad/USA/Engineering/pg/pages/ElectronicsCommunication.jsx"));
+const ChemicalEngineeringPG = lazy(() => import("../pages/Study Abroad/USA/Engineering/pg/pages/ChemicalEngineering.jsx"));
+const AerospaceEngineeringPG = lazy(() => import("../pages/Study Abroad/USA/Engineering/pg/pages/AerospaceEngineering.jsx"));
+const BiomedicalEngineeringPG = lazy(() => import("../pages/Study Abroad/USA/Engineering/pg/pages/BiomedicalEngineering.jsx"));
+const AutomobileEngineeringPG = lazy(() => import("../pages/Study Abroad/USA/Engineering/pg/pages/AutomobileEngineering.jsx"));
 
 export const router = createBrowserRouter([
   {
     path: "landingpage",
-    element: <Landingpage />,
+    element: (
+      <React.Suspense fallback={null}>
+        <Landingpage />
+      </React.Suspense>
+    ),
   },
   {
     path: "/",
@@ -375,7 +388,6 @@ export const router = createBrowserRouter([
       },
 
 
-      
 
       
       {
