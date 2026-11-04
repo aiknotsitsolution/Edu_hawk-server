@@ -202,7 +202,7 @@ export default function HeroSection() {
 
   const [modalForm, setModalForm] = useState(EMPTY_MODAL_FORM);
   const [modalErrors, setModalErrors] = useState({});
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
   const [isModalSubmitting, setIsModalSubmitting] = useState(false);
 
   const [contactForm, setContactForm] = useState(EMPTY_CONTACT_FORM);
@@ -211,6 +211,13 @@ export default function HeroSection() {
   const [exploreMenuOpen, setExploreMenuOpen] = useState(false);
   const [openFaq, setOpenFaq] = useState(0);
   const exploreMenuRef = useRef(null);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsOpen(true);
+    }, 2500);
+    return () => clearTimeout(timer);
+  }, []);
   // Toast Notification Functions
   const showSuccess = (message) => {
     toast.success(message, {
@@ -870,7 +877,7 @@ export default function HeroSection() {
                 { n: "100%", l: "Visa Support" },
               ].map((s, i) => (
                 <div key={i} className="text-center">
-                  <div className="text-[#d4a853] text-4xl md:text-5xl font-extrabold">
+                  <div className="text-[#9e711d] text-4xl md:text-5xl font-extrabold">
                     {s.n}
                   </div>
                   <div className="text-[#0a2342] text-sm md:text-base uppercase tracking-wider mt-2 font-semibold">
