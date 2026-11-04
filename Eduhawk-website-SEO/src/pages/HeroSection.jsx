@@ -12,6 +12,10 @@ import checkup from "../assets/checkup.webp";
 import charges from "../assets/charges.webp";
 import Kathmandu from "../../src/Images/Kathmandu.webp";
 import Eduhawk from "../assets/Eduhawk.webp"; // ← adjust path if needed
+import heroRussia from "../Images/hero/hero-russia.webp";
+import heroGeorgia from "../Images/hero/hero-georgia.webp";
+import heroKazakhstan from "../Images/hero/hero-kazakhstan.webp";
+import heroTrusted from "../Images/hero/hero-trusted.webp";
 import { X, ChevronDown } from "lucide-react";
 
 import univercity from "../Images/university-image/singapore.webp";
@@ -91,30 +95,26 @@ const FAQ_ITEMS = [
 
 const HERO_SLIDES = [
   {
-    image:
-      "https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?auto=format&fit=crop&q=80&w=1920",
+    image: heroRussia,
     title: "Study MBBS in Russia",
     subtitle:
       "Top NMC-approved universities • Affordable fees • Safe & Recognized",
     cta: "Get Free Counselling",
   },
   {
-    image:
-      "https://psgimsr.ac.in/wp-content/uploads/2024/07/20240717_220126.jpg",
+    image: heroGeorgia,
     title: "MBBS in Georgia – Modern & Affordable",
     subtitle: "English medium • European standards • Low cost of living",
     cta: "Explore Georgia Options",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1920",
+    image: heroKazakhstan,
     title: "Kazakhstan & Kyrgyzstan – Best Value",
     subtitle: "₹15–32 Lakh total • No entrance exam • Direct admission",
     cta: "Compare Packages",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1584982751601-97dcc096659c?auto=format&fit=crop&q=80&w=1920",
+    image: heroTrusted,
     title: "Your Trusted MBBS Abroad Partner",
     subtitle:
       "400+ students placed • Transparent process • End-to-end support",
@@ -420,7 +420,11 @@ export default function HeroSection() {
         keywords="study mbbs abroad, mbbs abroad, mbbs admission abroad, mbbs counselling, medical education abroad, overseas education, foreign medical universities, guidance, lakhs study mbbs, study mbbs"
         path="/"
         ogType="website"
-      />
+      >
+        {/* LCP hint: the first hero slide is the homepage LCP element.
+            Preload it so the browser starts fetching before JS discovers it. */}
+        <link rel="preload" as="image" href={heroRussia} fetchPriority="high" />
+      </SeoHead>
 
       <div className="min-h-screen bg-white font-sans">
         {/* Toast Container */}
@@ -739,6 +743,8 @@ export default function HeroSection() {
                   alt={slide.title}
                   width={1920}
                   height={800}
+                  loading={index === 0 ? "eager" : "lazy"}
+                  fetchPriority={index === 0 ? "high" : undefined}
                   className="w-full h-full object-cover brightness-[0.85] aspect-auto"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/35 to-transparent/30" />
