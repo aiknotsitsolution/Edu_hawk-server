@@ -276,7 +276,6 @@ export const fetchProductBySlugOrId = createAsyncThunk(
         if (!res) continue;
 
         const json = await res.json();
-        console.log("Single Product raw response:", json);
 
         const product = json?.data ?? json;
         if (product) {
