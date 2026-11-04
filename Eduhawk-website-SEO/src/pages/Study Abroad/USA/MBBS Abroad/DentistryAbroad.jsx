@@ -1,9 +1,10 @@
 import React, { useState, useEffect, useRef } from "react";
-import Michigan_School_of_Dentistry from "../../../../Images/Abroad/USA/Dentistry_USA/Michigan_School_of_Dentistr.jpg.png";
-import San_Francisco_School_of_Dentistry from "../../../../Images/Abroad/USA/Dentistry_USA/San_Francisco_School_of_Dentistry.jpg.png";
-import Pennsylvania_School_of_Dental_Medicine from "../../../../Images/Abroad/USA/Dentistry_USA/Pennsylvania_School_of_Dental_Medicine.jpg.png";
+import SeoHead from "../../../../component/SeoHead.jsx";
+import Michigan_School_of_Dentistry from "../../../../Images/Abroad/USA/Dentistry_USA/Michigan_School_of_Dentistr.webp";
+import San_Francisco_School_of_Dentistry from "../../../../Images/Abroad/USA/Dentistry_USA/San_Francisco_School_of_Dentistry.webp";
+import Pennsylvania_School_of_Dental_Medicine from "../../../../Images/Abroad/USA/Dentistry_USA/Pennsylvania_School_of_Dental_Medicine.webp";
 
-import University_College_of_Dentistry from "../../../../Images/Abroad/USA/Dentistry_USA/University_College_of_Dentistry.jpg.png";
+import University_College_of_Dentistry from "../../../../Images/Abroad/USA/Dentistry_USA/University_College_of_Dentistry.webp";
 
 
 const DentistryAbroad = () =>
@@ -299,6 +300,12 @@ const DentistryAbroad = () =>
 
   return (
     <div className="dentistry-page font-sans text-slate-800 bg-white min-h-screen antialiased">
+      <SeoHead
+        title="Study Dentistry Abroad for Indian Students | Edu Hawk"
+        description="Planning to study dentistry abroad? EduHawk shortlists NMC-recognised universities for BDS, explains real costs and guides you through admission and visas."
+        path="/courses/dentistry"
+        ogType="website"
+      />
       <style>{`
         @keyframes fadeUp {
           from { opacity: 0; transform: translateY(30px); }
@@ -604,6 +611,7 @@ const DentistryAbroad = () =>
               <div className="dentistry-photo-frame rounded-2xl">
                 <img
                   src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=900&q=80"
+                  loading="lazy"
                   alt="Dental education abroad"
                   className="dentistry-photo-image rounded-2xl shadow-xl object-cover w-full h-[390px] group-hover:scale-[1.02] transition-transform duration-700"
                 />

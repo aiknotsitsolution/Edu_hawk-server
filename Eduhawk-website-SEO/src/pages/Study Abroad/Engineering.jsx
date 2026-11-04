@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import SeoHead from "../../component/SeoHead.jsx";
 
 const Engineering = () => {
   const [openFaq, setOpenFaq] = useState(null);
@@ -120,6 +121,13 @@ const Engineering = () => {
 
   return (
     <div className="font-sans text-slate-800 bg-white min-h-screen antialiased">
+      <SeoHead
+        title="Engineering Abroad for Indian Students | Edu Hawk"
+        description="Study Engineering abroad at top universities in Germany, Canada, UK, USA and Australia with end-to-end guidance from admission to pre-departure."
+        path="/courses/engineering"
+        ogType="website"
+        twitterCard="summary_large_image"
+      />
       {/* Hero with Image */}
       <section className="relative h-[520px] md:h-[580px] flex items-center overflow-hidden">
         <img
@@ -234,6 +242,7 @@ const Engineering = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-xl">
               <img
                 src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=2070&auto=format&fit=crop"
+                loading="lazy"
                 alt="Engineering lab and technology"
                 className="w-full h-[340px] object-cover"
               />
@@ -288,6 +297,7 @@ const Engineering = () => {
           <div className="relative rounded-2xl overflow-hidden h-[280px] md:h-[340px]">
             <img
               src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop"
+              loading="lazy"
               alt="Engineering technology and innovation"
               className="w-full h-full object-cover"
             />
@@ -526,4 +536,4 @@ const Engineering = () => {
   );
 };
 
-export default Engineering;
+    export default Engineering;

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import SeoHead from "../../component/SeoHead.jsx";
 
 const MbbsAbroad = () => {
   const [openFaq, setOpenFaq] = useState(null);
@@ -120,6 +121,12 @@ const MbbsAbroad = () => {
 
   return (
     <div className="font-sans text-slate-800 bg-white min-h-screen antialiased">
+      <SeoHead
+        title="Study MBBS Abroad with Confidence | NMC-Recognised Universities | Edu Hawk"
+        description="NMC-recognised universities, transparent fees, safe campuses and complete end-to-end support - from admission to pre-departure. Honest guidance by Eduhawk."
+        path="/study-abroad"
+        ogType="website"
+      />
       {/* Header */}
 
       {/* Hero */}

@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import SeoHead from "../../../../component/SeoHead.jsx";
 
 const Biotechnology = () => {
   const [openFaq, setOpenFaq] = useState(null);
@@ -437,6 +438,12 @@ const Biotechnology = () => {
       ref={pageRef}
       className="pharmacy-page font-sans text-slate-800 bg-white min-h-screen antialiased"
     >
+      <SeoHead
+        title="Study Biotechnology in USA for Indian Students | Edu Hawk"
+        description="Study biotechnology in the USA for Indian students — BSc to MS and PhD programmes in genetic engineering, molecular biology and bioinformatics."
+        path="/courses/biotechnology"
+        ogType="website"
+      />
       <style>{`
         @keyframes pharmacy-float {
           0%, 100% { transform: translate3d(0, 0, 0); }
@@ -652,6 +659,7 @@ const Biotechnology = () => {
             <div className="relative">
               <img
                 src="https://images.unsplash.com/photo-1581093588401-fbb62a02f120?w=900&q=80"
+                loading="lazy"
                 alt="Biotechnology research and laboratory training"
                 className="rounded-2xl shadow-xl object-cover w-full h-[390px]"
               />

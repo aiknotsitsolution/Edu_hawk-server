@@ -233,6 +233,7 @@ const BiotechnologyAbroad = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-xl">
               <img
                 src="https://images.unsplash.com/photo-1576086213369-97a306d36557?q=80&w=2080&auto=format&fit=crop"
+                loading="lazy"
                 alt="Scientist working in biotechnology lab"
                 className="w-full h-[340px] object-cover"
               />
@@ -287,6 +288,7 @@ const BiotechnologyAbroad = () => {
           <div className="relative rounded-2xl overflow-hidden h-[280px] md:h-[340px]">
             <img
               src="https://images.unsplash.com/photo-1581093458791-9d42e3c7e584?q=80&w=2070&auto=format&fit=crop"
+              loading="lazy"
               alt="Biotechnology laboratory equipment"
               className="w-full h-full object-cover"
             />

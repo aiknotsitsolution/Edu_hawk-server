@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import SeoHead from "../../component/SeoHead.jsx";
 
 const MedicalAbroad = () => {
   const [openFaq, setOpenFaq] = useState(null);
@@ -120,6 +121,13 @@ const MedicalAbroad = () => {
 
   return (
     <div className="font-sans text-slate-800 bg-white min-h-screen antialiased">
+      <SeoHead
+        title="Medical Courses Abroad for Indian Students | Edu Hawk"
+        description="Study MBBS and other medical programs abroad at NMC-recognised universities with transparent costs and end-to-end admission & visa support."
+        path="/courses/medical-abroad"
+        ogType="website"
+        twitterCard="summary_large_image"
+      />
       {/* Hero */}
       <section className="bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white pt-16 pb-20 relative overflow-hidden">
         <div className="absolute top-[-30%] right-[-10%] w-[500px] h-[500px] bg-blue-600/20 rounded-full blur-3xl pointer-events-none" />
@@ -237,6 +245,7 @@ const MedicalAbroad = () => {
             <div className="relative">
               <img
                 src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800&q=80"
+                loading="lazy"
                 alt="Medical education abroad"
                 className="rounded-2xl shadow-xl object-cover w-full h-[380px]"
               />
@@ -396,6 +405,7 @@ const MedicalAbroad = () => {
             <div className="relative rounded-2xl overflow-hidden h-56 group">
               <img
                 src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600&q=80"
+                loading="lazy"
                 alt="Study in Russia"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
@@ -409,6 +419,7 @@ const MedicalAbroad = () => {
             <div className="relative rounded-2xl overflow-hidden h-56 group">
               <img
                 src="https://images.unsplash.com/photo-1562774053-701939374585?w=600&q=80"
+                loading="lazy"
                 alt="Study in Georgia"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
@@ -422,6 +433,7 @@ const MedicalAbroad = () => {
             <div className="relative rounded-2xl overflow-hidden h-56 group">
               <img
                 src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=600&q=80"
+                loading="lazy"
                 alt="Study in Kazakhstan"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
@@ -544,4 +556,4 @@ const MedicalAbroad = () => {
   );
 };
 
-export default MedicalAbroad;
+    export default MedicalAbroad;

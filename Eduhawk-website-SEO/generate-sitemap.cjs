@@ -36,8 +36,6 @@ const routes = [
   "/courses/public-health",
   "/courses/biotechnology",
   "/courses/engineering",
-  "/courses/computer-science",
-  "/courses/information-technology",
   "/courses/business-management",
   "/courses/mba",
   "/courses/mbs",

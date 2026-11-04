@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import SeoHead from "../../../../component/SeoHead.jsx";
 
 const NursingAbroad = () => {
   const [openFaq, setOpenFaq] = useState(null);
@@ -395,6 +396,12 @@ const NursingAbroad = () => {
       ref={pageRef}
       className="nursing-page font-sans text-slate-800 bg-white min-h-screen antialiased"
     >
+      <SeoHead
+        title="Study Nursing Abroad for Indian Students | Edu Hawk"
+        description="Nursing is one of the most in-demand professions worldwide. Edu Hawk helps you choose nursing courses abroad with clear costs and complete admission support."
+        path="/courses/nursing"
+        ogType="website"
+      />
       <style>{`
         @keyframes nursing-float {
           0%, 100% { transform: translate3d(0, 0, 0); }
@@ -621,6 +628,7 @@ const NursingAbroad = () => {
             <div className="relative">
               <img
                 src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=900&q=80"
+                loading="lazy"
                 alt="Nursing education abroad"
                 className="rounded-2xl shadow-xl object-cover w-full h-[390px]"
               />

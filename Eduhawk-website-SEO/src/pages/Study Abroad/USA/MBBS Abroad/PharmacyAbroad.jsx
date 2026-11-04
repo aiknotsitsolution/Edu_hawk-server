@@ -1,8 +1,9 @@
 import React, { useEffect, useRef, useState } from "react";
-import California_San_Francisco from "../../../../Images/Abroad/USA/Pharmacy_USA/California,_San_Francisco.jpg.png";
-import Michigan_Ann_Arbor from "../../../../Images/Abroad/USA/Pharmacy_USA/Michigan_Ann_Arbor.jpg.png";
-import North_Carolina_Chapel_Hill from "../../../../Images/Abroad/USA/Pharmacy_USA/North_Carolina_at_Chapel_Hil.jpg.png";
-import Texas_Austin from "../../../../Images/Abroad/USA/Pharmacy_USA/Texas_at_Austin.jpg.png";
+import SeoHead from "../../../../component/SeoHead.jsx";
+import California_San_Francisco from "../../../../Images/Abroad/USA/Pharmacy_USA/California,_San_Francisco.webp";
+import Michigan_Ann_Arbor from "../../../../Images/Abroad/USA/Pharmacy_USA/Michigan_Ann_Arbor.webp";
+import North_Carolina_Chapel_Hill from "../../../../Images/Abroad/USA/Pharmacy_USA/North_Carolina_at_Chapel_Hil.webp";
+import Texas_Austin from "../../../../Images/Abroad/USA/Pharmacy_USA/Texas_at_Austin.webp";
 
 const PharmacyAbroad = () => {
   const [openFaq, setOpenFaq] = useState(null);
@@ -407,6 +408,12 @@ const PharmacyAbroad = () => {
       ref={pageRef}
       className="pharmacy-page font-sans text-slate-800 bg-white min-h-screen antialiased"
     >
+      <SeoHead
+        title="Study Pharmacy in USA for Indian Students | Edu Hawk"
+        description="Learn about pharmacy courses in the USA for Indian students, including the PharmD degree, eligibility, admission requirements, costs and licensing pathways."
+        path="/courses/pharmacy"
+        ogType="website"
+      />
       <style>{`
         @keyframes pharmacy-float {
           0%, 100% { transform: translate3d(0, 0, 0); }
@@ -607,6 +614,7 @@ const PharmacyAbroad = () => {
             <div className="relative">
               <img
                 src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=900&q=80"
+                loading="lazy"
                 alt="Pharmacy education in USA"
                 className="rounded-2xl shadow-xl object-cover w-full h-[390px]"
               />
@@ -768,6 +776,7 @@ const PharmacyAbroad = () => {
               >
                 <img
                   src={university.img}
+                  loading="lazy"
                   alt={university.name}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                 />

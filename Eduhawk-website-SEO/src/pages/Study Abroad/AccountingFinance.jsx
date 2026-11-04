@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import SeoHead from "../../component/SeoHead.jsx";
 
 const AccountingFinance = () => {
   const [openFaq, setOpenFaq] = useState(null);
@@ -120,6 +121,13 @@ const AccountingFinance = () => {
 
   return (
     <div className="font-sans text-slate-800 bg-white min-h-screen antialiased">
+      <SeoHead
+        title="Study Accounting & Finance Abroad | Edu Hawk"
+        description="Study Accounting & Finance abroad with professional pathways like ACCA, CFA and CPA and complete end-to-end admission support."
+        path="/courses/accounting-finance"
+        ogType="website"
+        twitterCard="summary_large_image"
+      />
       {/* Hero with Image */}
       <section className="relative h-[520px] md:h-[580px] flex items-center overflow-hidden">
         <img
@@ -234,6 +242,7 @@ const AccountingFinance = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-xl">
               <img
                 src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop"
+                loading="lazy"
                 alt="Financial analysis and accounting workspace"
                 className="w-full h-[340px] object-cover"
               />
@@ -288,6 +297,7 @@ const AccountingFinance = () => {
           <div className="relative rounded-2xl overflow-hidden h-[280px] md:h-[340px]">
             <img
               src="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?q=80&w=2071&auto=format&fit=crop"
+              loading="lazy"
               alt="Finance and investment growth"
               className="w-full h-full object-cover"
             />
@@ -526,4 +536,4 @@ const AccountingFinance = () => {
   );
 };
 
-export default AccountingFinance;
+    export default AccountingFinance;

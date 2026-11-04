@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import SeoHead from "../../../../component/SeoHead.jsx";
 
 const PhysiotherapyAbroad = () => {
   const [openFaq, setOpenFaq] = useState(null);
@@ -420,6 +421,12 @@ const PhysiotherapyAbroad = () => {
       ref={pageRef}
       className="pharmacy-page font-sans text-slate-800 bg-white min-h-screen antialiased"
     >
+      <SeoHead
+        title="Study Physiotherapy in USA for Indian Students | Edu Hawk"
+        description="Study physiotherapy in the USA for Indian students — the DPT degree, eligibility, admission process, costs and physiotherapy career pathways explained."
+        path="/courses/physiotherapy"
+        ogType="website"
+      />
       <style>{`
         @keyframes pharmacy-float {
           0%, 100% { transform: translate3d(0, 0, 0); }
@@ -635,6 +642,7 @@ const PhysiotherapyAbroad = () => {
             <div className="relative">
               <img
                 src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=900&q=80"
+                loading="lazy"
                 alt="Physiotherapy education and rehabilitation training"
                 className="rounded-2xl shadow-xl object-cover w-full h-[390px]"
               />

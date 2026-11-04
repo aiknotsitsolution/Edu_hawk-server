@@ -2,7 +2,7 @@
 
 // import React, { useState } from "react";
 // import { useLocation } from "react-router-dom";
-// import Eduhawk from "../assets/Eduhawk.png"; // ← adjust path if needed
+// import Eduhawk from "../assets/Eduhawk.webp"; // ← adjust path if needed
 
 // const Navbar = () => {
 //   const location = useLocation();
@@ -1616,7 +1616,7 @@
 
 import React, { useState } from "react";
 import { useLocation } from "react-router-dom";
-import Eduhawk from "../assets/Eduhawk.png"; // ← adjust path if needed
+import Eduhawk from "../assets/Eduhawk.webp"; // ← adjust path if needed
 
 const Navbar = () => {
   const location = useLocation();
@@ -1799,6 +1799,8 @@ const Navbar = () => {
               <div className="absolute -inset-4 bg-gradient-to-br from-[#65DAFF]/30 to-[#F48C06]/20 rounded-full blur-xl opacity-60 -z-10"></div>
               <img
                 src={Eduhawk}
+                width={244}
+                height={72}
                 alt="Eduhawk Logo"
                 className="h-10 sm:h-11 md:h-12 w-auto object-contain"
               />
@@ -2064,58 +2066,10 @@ const Navbar = () => {
                           </li>
 
                           {/* Computer Science */}
-                          <li>
-                            <a
-                              href={`/courses/computer-science?country=${selectedCountry.toLowerCase()}`}
-                              className="flex items-center gap-2.5 px-2 py-1.5 rounded-lg text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors group/item"
-                            >
-                              <span className="w-6 h-6 rounded-md bg-orange-50 flex items-center justify-center text-[#F48C06] group-hover/item:bg-[#F48C06] group-hover/item:text-white transition-colors shrink-0">
-                                <svg
-                                  className="w-3 h-3"
-                                  fill="none"
-                                  stroke="currentColor"
-                                  viewBox="0 0 24 24"
-                                >
-                                  <path
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth={2}
-                                    d="M9 5l7 7-7 7"
-                                  />
-                                </svg>
-                              </span>
-                              <span className="text-[13px] font-medium leading-tight">
-                                Computer Science
-                              </span>
-                            </a>
-                          </li>
+                          {/* (removed page) */}
 
                           {/* Information Technology */}
-                          <li>
-                            <a
-                              href={`/courses/information-technology?country=${selectedCountry.toLowerCase()}`}
-                              className="flex items-center gap-2.5 px-2 py-1.5 rounded-lg text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors group/item"
-                            >
-                              <span className="w-6 h-6 rounded-md bg-orange-50 flex items-center justify-center text-[#F48C06] group-hover/item:bg-[#F48C06] group-hover/item:text-white transition-colors shrink-0">
-                                <svg
-                                  className="w-3 h-3"
-                                  fill="none"
-                                  stroke="currentColor"
-                                  viewBox="0 0 24 24"
-                                >
-                                  <path
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth={2}
-                                    d="M9 5l7 7-7 7"
-                                  />
-                                </svg>
-                              </span>
-                              <span className="text-[13px] font-medium leading-tight">
-                                Information Technology
-                              </span>
-                            </a>
-                          </li>
+                          {/* (removed page) */}
 
                           {/* Business Management with nested courses */}
                           <li className="relative group/biz">
@@ -2841,19 +2795,6 @@ const Navbar = () => {
                         </div>
                       )}
                     </div>
-
-                    <a
-                      href={`/courses/computer-science?country=${selectedCountry.toLowerCase()}`}
-                      className="block py-2.5 px-8 text-[#2F327D]"
-                    >
-                      Computer Science
-                    </a>
-                    <a
-                      href={`/courses/information-technology?country=${selectedCountry.toLowerCase()}`}
-                      className="block py-2.5 px-8 text-[#2F327D]"
-                    >
-                      Information Technology
-                    </a>
 
                     {/* Business Management Accordion */}
                     <div>

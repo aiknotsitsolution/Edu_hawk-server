@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import { Helmet } from "react-helmet-async";
+import SeoHead from "../../../../component/SeoHead";
 import heroImg from "../../../../Images/Abroad/USA/MBA/hero.webp";
 import sideImg from "../../../../Images/Abroad/USA/MBA/overview.webp";
 import u0Img from "../../../../Images/Abroad/USA/MBA/Harvard Business School.webp";
@@ -529,16 +529,11 @@ const MbaAbroad = () => {
 
   return (
     <div ref={pageRef} className="bg-white text-slate-800">
-      <Helmet>
-        <title>{page.title}</title>
-        <meta name="description" content={page.description} />
-        <meta name="keywords" content={page.keywords} />
-        <meta name="robots" content="index, follow" />
-        <meta property="og:title" content={page.introTitle} />
-        <meta property="og:description" content={page.description} />
-        <meta property="og:url" content={"https://www.eduhawk.in/courses/mba"} />
-        <meta property="og:type" content="website" />
-        <link rel="canonical" href={"https://www.eduhawk.in/courses/mba"} />
+      <SeoHead
+        title={page.title}
+        description={page.description}
+        path="/courses/mba"
+      >
         {page.faqs.length > 0 && (
           <script type="application/ld+json">
             {JSON.stringify({
@@ -552,7 +547,7 @@ const MbaAbroad = () => {
             })}
           </script>
         )}
-      </Helmet>
+      </SeoHead>
 
       <style>{`
         .reveal { opacity: 0; transform: translateY(24px); transition: opacity .6s ease, transform .6s ease; }
@@ -662,6 +657,8 @@ const MbaAbroad = () => {
             <div className="relative mt-2 lg:mt-0">
               <img
                 src={heroImg}
+                width={900}
+                height={760}
                 alt={`${page.name} in the USA`}
                 className="rounded-2xl shadow-2xl object-cover w-full h-56 sm:h-72 lg:h-[440px]"
                 loading="eager"
@@ -687,6 +684,8 @@ const MbaAbroad = () => {
               <div className="relative overflow-hidden rounded-2xl shadow-xl aspect-[3/2]">
                 <img
                   src={sideImg}
+                  width={1200}
+                  height={800}
                   alt={`${page.name} at a university in the USA`}
                   className="w-full h-full object-cover overview-zoom-img"
                   loading="lazy"

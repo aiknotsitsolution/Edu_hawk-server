@@ -248,6 +248,7 @@ const PublicHealthAbroad = () => {
             <div className="relative">
               <img
                 src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=900&q=80"
+                loading="lazy"
                 alt="Public Health education abroad"
                 className="rounded-2xl shadow-xl object-cover w-full h-[390px]"
               />
@@ -365,6 +366,7 @@ const PublicHealthAbroad = () => {
             <div className="relative rounded-2xl overflow-hidden h-60 group">
               <img
                 src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=700&q=80"
+                loading="lazy"
                 alt="Study Public Health in USA"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
@@ -379,6 +381,7 @@ const PublicHealthAbroad = () => {
             <div className="relative rounded-2xl overflow-hidden h-60 group">
               <img
                 src="https://images.unsplash.com/photo-1562774053-701939374585?w=700&q=80"
+                loading="lazy"
                 alt="Study Public Health in UK"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
@@ -393,6 +396,7 @@ const PublicHealthAbroad = () => {
             <div className="relative rounded-2xl overflow-hidden h-60 group">
               <img
                 src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=700&q=80"
+                loading="lazy"
                 alt="Study Public Health in Canada"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />

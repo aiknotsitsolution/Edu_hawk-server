@@ -4,6 +4,7 @@ import MainLayout from "../pages/layouts/MainLayout.jsx";
 // Pages
 import Home from "../pages/HeroSection.jsx";
 import About from "../pages/About.jsx";
+import NotFound from "../pages/NotFound.jsx";
 import Russian from "../pages/Country/Russian.jsx";
 import Bangladesh from "../pages/Country/Bangladesh.jsx";
 import Services from "../pages/Component/Services.jsx";
@@ -38,8 +39,6 @@ import PhysiotherapyAbroad from "../pages/Study Abroad/USA/MBBS Abroad/Physiothe
 import PublicHealthAbroad from "../pages/Study Abroad/USA/MBBS Abroad/PublicHealth.jsx";
 import BiotechnologyAbroad from "../pages/Study Abroad/USA/MBBS Abroad/Biotechnology.jsx";
 import Engineering from "../pages/Study Abroad/Engineering.jsx";
-import ComputerScienceAbroad from "../pages/Study Abroad/ComputerScienceAbroad.jsx";
-import InformationTechnologyAbroad from "../pages/Study Abroad/InformationTechnologyAbroad.jsx";
 import BusinessManagementAbroad from "../pages/Study Abroad/USA/BusinessManagement/business-management.jsx";
 import MbaAbroad from "../pages/Study Abroad/USA/MBA/mba.jsx";
 import MbsAbroad from "../pages/Study Abroad/USA/MBS/mbs.jsx";
@@ -186,11 +185,6 @@ export const router = createBrowserRouter([
         path: "/courses/mbbs",
         element: <MbbsAbroad />,
       },
-
-      {
-        path: "/courses/mbbs",
-        element: <MbbsAbroad />,
-      },
       {
         path: "/courses/medical-abroad",
         element: <MedicalAbroad />,
@@ -232,16 +226,6 @@ export const router = createBrowserRouter([
       {
         path: "courses/engineering",
         element: <Engineering/>,
-      },
-
-
-       {
-        path: "courses/computer-science",
-        element: <ComputerScienceAbroad/>,
-      },
-   {
-        path: "courses/information-technology",
-        element: <InformationTechnologyAbroad/>,
       },
 
          {
@@ -406,6 +390,10 @@ export const router = createBrowserRouter([
         path: "cookies-policy",
         element: <CookiesPolicy />,
       },
+      {
+        path: "*",
+        element: <NotFound />,
+      },
     ],
   },
 ]);
@@ -444,8 +432,6 @@ export const routeList = [
   "/courses/public-health",
   "/courses/biotechnology",
   "/courses/engineering",
-  "/courses/computer-science",
-  "/courses/information-technology",
   "/courses/business-management",
   "/courses/mba",
   "/courses/mbs",

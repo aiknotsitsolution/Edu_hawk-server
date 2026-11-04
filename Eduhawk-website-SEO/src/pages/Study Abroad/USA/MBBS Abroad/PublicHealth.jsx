@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import SeoHead from "../../../../component/SeoHead.jsx";
 
 const PublicHealth = () => {
   const [openFaq, setOpenFaq] = useState(null);
@@ -421,6 +422,12 @@ const PublicHealth = () => {
       ref={pageRef}
       className="pharmacy-page font-sans text-slate-800 bg-white min-h-screen antialiased"
     >
+      <SeoHead
+        title="Study Public Health in USA for Indian Students | Edu Hawk"
+        description="Explore public health courses in the USA for Indian students — bachelor’s to MPH and doctoral degrees in epidemiology, health policy and biostatistics."
+        path="/courses/public-health"
+        ogType="website"
+      />
       <style>{`
         @keyframes pharmacy-float {
           0%, 100% { transform: translate3d(0, 0, 0); }
@@ -636,6 +643,7 @@ const PublicHealth = () => {
             <div className="relative">
               <img
                 src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80"
+                loading="lazy"
                 alt="Public health research and education"
                 className="rounded-2xl shadow-xl object-cover w-full h-[390px]"
               />
