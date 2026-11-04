@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import AboutImage from "../Images/About us page.gif";
+import AboutImage from "../Images/About us page.webp";
 import imageAbout2 from "../Images/ABOUT SERVICE.webp";
 import { useNavigate } from "react-router-dom";
 import SeoHead from "../component/SeoHead.jsx";
