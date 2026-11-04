@@ -726,6 +726,23 @@ const BbsAbroad = () => {
             </section>
           );
         const boxed = s.slot === "duration" || s.slot === "tuition";
+        if (s.slot === "eligibility") {
+          return (
+            <section key={idx} className={"py-14 sm:py-16 " + shade} id="eligibility">
+              <div className="max-w-6xl mx-auto px-6">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-start">
+                  <div>
+                    <SectionHeading eyebrow={s.eyebrow} title={s.title} />
+                    <Groups groups={s.groups} />
+                  </div>
+                  <div className="lg:pt-6">
+                    <EligibilityCtaCard level={page.level} />
+                  </div>
+                </div>
+              </div>
+            </section>
+          );
+        }
         return (
           <section key={idx} className={"py-14 sm:py-16 " + shade}>
             <div className="max-w-6xl mx-auto px-6">

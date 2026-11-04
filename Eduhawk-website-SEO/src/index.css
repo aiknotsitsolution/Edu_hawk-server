@@ -70,6 +70,22 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Ensure bold text is always visible on dark backgrounds across all pages */
+.text-white strong,
+.text-white\/70 strong,
+.text-white\/80 strong,
+.text-white\/90 strong,
+.bg-slate-900 strong,
+.bg-slate-800 strong,
+[class*="bg-slate-900"] strong,
+[class*="bg-slate-800"] strong,
+[class*="from-slate-900"] strong,
+[class*="from-[#0b"] strong,
+[class*="bg-[#0b"] strong,
+[class*="bg-[#0f"] strong {
+  color: #ffffff !important;
+}
+
 .gtm-noscript-frame {
   display: none;
   visibility: hidden;

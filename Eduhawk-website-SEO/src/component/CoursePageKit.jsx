@@ -51,6 +51,15 @@ export const EHP_CSS = `
   .ehp-page h2 {
     letter-spacing: -.025em;
   }
+  .ehp-page strong {
+    font-weight: 700;
+  }
+  .ehp-page .bg-slate-900 strong,
+  .ehp-page [class*="bg-slate-900"] strong,
+  .ehp-page [class*="from-slate-900"] strong,
+  .ehp-page .text-white strong {
+    color: #ffffff !important;
+  }
   @media (max-width: 1023px) {
     .ehp-page .ehp-hero-image {
       height: clamp(14rem, 52vw, 24rem);
@@ -178,14 +187,14 @@ export const formatRichText = (content) => {
     }
     if (part.startsWith("**") && part.endsWith("**")) {
       return (
-        <strong key={index} className="font-semibold text-slate-900">
+        <strong key={index} className="font-bold text-inherit">
           {part.slice(2, -2)}
         </strong>
       );
     }
     if (part.startsWith("<strong>") && part.endsWith("</strong>")) {
       return (
-        <strong key={index} className="font-semibold text-slate-900">
+        <strong key={index} className="font-bold text-inherit">
           {part.slice(8, -9)}
         </strong>
       );
@@ -248,7 +257,7 @@ export const EhpHero = ({
           {paras.map((p, i) => (
             <p
               key={i}
-              className="text-base sm:text-lg text-white/70 max-w-xl mb-5 leading-relaxed"
+              className="text-base sm:text-lg text-white/70 max-w-xl mb-5 leading-relaxed [&_strong]:text-white [&_strong]:font-bold"
             >
               {formatRichText(p)}
             </p>
@@ -324,7 +333,7 @@ export const Paragraphs = ({ items, className, tone }) => {
       {items.map((p, i) => (
         <p
           key={i}
-          className={tone === "dark" ? "text-white/80 text-[15px] leading-relaxed" : undefined}
+          className={tone === "dark" ? "text-white/85 text-[15px] leading-relaxed [&_strong]:text-white [&_strong]:font-bold" : undefined}
         >
           {formatRichText(p)}
         </p>
@@ -573,7 +582,7 @@ export const Panel = ({ children, tone = "light", className = "" }) => (
   <div
     className={
       (tone === "dark"
-        ? "bg-slate-900 text-white rounded-2xl p-6 sm:p-8 ehp-shadow-none"
+        ? "bg-slate-900 text-white rounded-2xl p-6 sm:p-8 ehp-shadow-none [&_strong]:text-white [&_strong]:font-bold"
         : tone === "soft"
           ? "bg-slate-50 border border-slate-200 rounded-2xl p-6 sm:p-8"
           : "bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 ehp-card") +
@@ -661,21 +670,20 @@ export const EligibilityCtaCard = ({
 }) => {
   const isPG = level === "PG" || level === "Postgraduate";
   return (
-    <div className="bg-[#0b1329] text-white p-7 sm:p-9 rounded-3xl shadow-xl mt-8 max-w-4xl border border-slate-800 relative overflow-hidden">
-      <div className="absolute top-0 right-0 w-48 h-48 bg-indigo-600/15 rounded-full blur-2xl -translate-y-1/2 translate-x-1/2 pointer-events-none" />
-      <h3 className="text-xl sm:text-2xl font-bold mb-3 text-white relative">
+    <div className="bg-slate-900 text-white rounded-2xl p-7 sm:p-8 shadow-xl border border-slate-800">
+      <h3 className="text-xl sm:text-2xl font-bold mb-2.5 text-white">
         Not sure if you are eligible?
       </h3>
-      <p className="text-slate-300 text-sm sm:text-base leading-relaxed mb-6 max-w-2xl relative">
+      <p className="text-white/70 text-[15px] leading-relaxed mb-6">
         {isPG
-          ? "Share your graduation marks, academic background, and preferred universities. We will tell you honestly which options are realistic for your profile and budget."
-          : "Share your Class 12 marks and preferred countries. We will tell you honestly which options are realistic for your profile and budget."}
+          ? "Share your graduation marks and preferred universities. We will tell you honestly which universities and programs are realistic for your profile and budget."
+          : "Share your Class 12 marks and preferred countries. We will tell you honestly which universities and programs are realistic for your profile and budget."}
       </p>
       <a
         href={`https://api.whatsapp.com/send?phone=${whatsappNumber}&text=Hi%2C%20I%20want%20to%20check%20my%20eligibility%20for%20study%20abroad`}
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-flex items-center justify-center bg-[#4f46e5] hover:bg-[#4338ca] text-white font-medium px-6 py-3.5 rounded-xl transition-all duration-200 no-underline shadow-md shadow-indigo-500/25 relative"
+        className="inline-flex items-center justify-center px-6 py-3 rounded-xl font-semibold text-[15px] bg-blue-600 text-white hover:bg-blue-700 transition-all no-underline shadow-md shadow-blue-600/30 w-full sm:w-auto"
       >
         Book free eligibility check
       </a>
@@ -902,20 +910,24 @@ export const EngineeringBranchPage = ({
       )}
 
       {/* ELIGIBILITY */}
-      <section className="py-16 sm:py-20">
+      <section className="py-16 sm:py-20" id="eligibility">
         <div className="max-w-6xl mx-auto px-6">
-          <EhpHead
-            eyebrow="Who can apply"
-            title="Eligibility Requirements for Indian Students"
-          />
-          <Panel className="max-w-4xl">
-            <Paragraphs
-              items={branch.eligibilityLead}
-              className="text-slate-500 text-[15px] leading-relaxed space-y-4 mb-5"
-            />
-            <CheckList items={branch.eligibility} />
-          </Panel>
-          <EligibilityCtaCard level={level} />
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-start">
+            <div>
+              <EhpHead
+                eyebrow="Who can apply"
+                title="Eligibility Requirements for Indian Students"
+              />
+              <Paragraphs
+                items={branch.eligibilityLead}
+                className="text-slate-500 text-[15px] leading-relaxed space-y-4 mb-5"
+              />
+              <CheckList items={branch.eligibility} />
+            </div>
+            <div className="lg:pt-6">
+              <EligibilityCtaCard level={level} />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -1229,6 +1241,23 @@ export const AbroadCoursePage = ({ page, heroImg, sideImg, seoPath, imgDims }) =
           );
 
         const boxed = s.slot === "duration" || s.slot === "tuition";
+        if (s.slot === "eligibility") {
+          return (
+            <section key={idx} className={"py-16 sm:py-20 " + shade} id="eligibility">
+              <div className="max-w-6xl mx-auto px-6">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-start">
+                  <div>
+                    <EhpHead eyebrow={s.eyebrow} title={s.title} />
+                    <AbroadGroups groups={s.groups} />
+                  </div>
+                  <div className="lg:pt-6">
+                    <EligibilityCtaCard level={page.level} />
+                  </div>
+                </div>
+              </div>
+            </section>
+          );
+        }
         return (
           <section key={idx} className={"py-16 sm:py-20 " + shade}>
             <div className="max-w-6xl mx-auto px-6">

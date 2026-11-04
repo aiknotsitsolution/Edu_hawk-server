@@ -171,8 +171,14 @@ const UndergraduateEngineeringUG = () => (
     {/* HIGHLIGHTS */}
     <section className="py-16 sm:py-20 bg-slate-50">
       <div className="max-w-6xl mx-auto px-6">
-        <StatGrid items={highlights} />
-        <EligibilityCtaCard level="UG" />
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          <div className="lg:col-span-7">
+            <StatGrid items={highlights} />
+          </div>
+          <div className="lg:col-span-5">
+            <EligibilityCtaCard level="UG" />
+          </div>
+        </div>
       </div>
     </section>
 
