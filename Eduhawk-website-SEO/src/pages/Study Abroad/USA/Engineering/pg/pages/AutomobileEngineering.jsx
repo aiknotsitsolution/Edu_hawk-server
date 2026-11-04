@@ -9,10 +9,8 @@ import michiganAnnArborImg from "../../../../../../Images/Abroad/USA/Engineering
 const branch = {
   name: "Automobile Engineering",
   slug: "automobile-engineering",
-  title:
-    "MS in Automobile Engineering in USA for Indian Students | PG 2026 | Edu Hawk",
-  description:
-    "Study Master's in Automobile Engineering in the USA. Eligibility, tuition fees, top universities, scholarships, specialisations, careers and visa process for Indian students with Edu Hawk Worldwide.",
+  title: "MS in Automobile Engineering in USA for Indian Students | PG 2026 | Edu Hawk",
+  description: "Study Master's in Automobile Engineering in the USA. Eligibility, tuition fees, top universities, scholarships, specialisations, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Automobile Engineering in USA for Indian Students, Best Master's in Automotive Engineering Universities in USA, Master's in Automobile Engineering in USA for Indian Students, Postgraduate Automobile Engineering Courses in USA, Automotive Engineering Admission Requirements for Master's in USA, MS in Automotive Engineering Tuition Fees in USA, Automobile Engineering Scholarships for Indian Students, Top Graduate Automotive Engineering Colleges in America, Automobile Engineering Eligibility for Indian Students, GRE Requirements for MS in Automotive Engineering in USA, English Language Tests for US Universities, Career Opportunities After MS in Automotive Engineering, Electric Vehicle Engineering Master's Programs in USA, USA Student Visa for Indian Postgraduate Students",
   heroIntro: (
@@ -44,7 +42,7 @@ const branch = {
   ],
 
   coursesLead: [
-    "Within the United States, automobile-focused postgraduate curricula are typically administered through Mechanical Engineering, Automotive Engineering, Mobility Engineering, or allied engineering departments.",
+    "Within the **United States**, automobile-focused postgraduate curricula are typically administered through Mechanical Engineering, Automotive Engineering, Mobility Engineering, or allied engineering departments.",
     "Popular degree options include:",
   ],
   courses: [
@@ -65,26 +63,28 @@ const branch = {
     "Automotive Manufacturing and Production",
     "Lightweight Materials and Vehicle Structures",
   ],
-  coursesNote: ["Common specialisations include:"],
+  coursesNote: [
+    "Common specialisations include: advanced engineering design, computational methods, and system modeling. Students also compare related postgraduate programs such as [MS in Mechanical Engineering](/courses/pg/mechanical-engineering) and [MS in Aerospace Engineering](/courses/pg/aerospace-engineering), or review [Undergraduate Automobile Engineering](/courses/ug/automobile-engineering).",
+  ],
 
   duration: [
-    "Postgraduate programs in Automobile Engineering within the United States typically require a completion timeframe of one to two years.",
+    "Postgraduate programs in Automobile Engineering within the **United States** typically require a completion timeframe of one to two years.",
     "The specific duration is contingent upon institutional policies, credit hour requirements, chosen area of specialization, and the student's selection of a thesis-oriented, research-oriented, or coursework-oriented academic pathway.",
     "The program curriculum encompasses topics including vehicle dynamics, powertrain design, automotive control systems, electric vehicle technology, computational modelling, vehicle safety, and manufacturing processes.",
   ],
 
   eligibilityLead: [
-    "Indian students are generally expected to satisfy the following admission criteria:",
+    "Indian students are generally expected to satisfy the following admission criteria: ",
   ],
   eligibility: [
-    "A bachelor's degree in Automobile Engineering, Mechanical Engineering, Automotive Engineering, or an allied field of study.",
-    "Official academic transcripts and degree certificates.",
+    "A **bachelor's degree** in Automobile Engineering, Mechanical Engineering, Automotive Engineering, or an allied field of study.",
+    "Official **academic transcripts** and degree certificates.",
     "Minimum academic performance standards as established by the institution.",
     "English-language proficiency, where mandated.",
-    "Graduate Record Examination (GRE) scores, if stipulated by the program.",
-    "Statement of Purpose.",
-    "Letters of Recommendation.",
-    "Resume or Curriculum Vitae.",
+    "**Graduate Record Examination (GRE)** scores, if stipulated by the program.",
+    "**Statement of Purpose (SOP)**.",
+    "**Letters of Recommendation (LOR)**.",
+    "**Resume or Curriculum Vitae**.",
     "Relevant academic projects, internships, research endeavors, or professional experience, where pertinent.",
     "Certain programs may consider applicants holding degrees in Electrical Engineering, Electronics Engineering, or Computer Engineering for specializations in electric vehicles, embedded systems, vehicle electronics, or autonomous driving, contingent upon fulfillment of prerequisite coursework.",
   ],
@@ -104,13 +104,13 @@ const branch = {
   ],
 
   testsNote: [
-    "Graduate Record Examination (GRE) prerequisites demonstrate considerable variation across postgraduate programs. Certain institutions mandate GRE scores, whereas others designate the examination as optional or exclude it from consideration entirely.",
+    "**Graduate Record Examination (GRE)** prerequisites demonstrate considerable variation across postgraduate programs. Certain institutions mandate **GRE scores**, whereas others designate the examination as optional or exclude it from consideration entirely.",
     "Prospective applicants must examine the specific prerequisites corresponding to their chosen field of study. Programs emphasizing mechanical and automotive engineering typically necessitate demonstrated proficiency in mathematics, mechanics, thermodynamics, materials science, and engineering design principles.",
-    "A competitive application portfolio typically encompasses academic credentials, vehicle design initiatives, professional internship experience, research contributions, proficiency in technical software applications, academic references, and a comprehensive Statement of Purpose.",
+    "A competitive application portfolio typically encompasses academic credentials, vehicle design initiatives, professional internship experience, research contributions, proficiency in technical software applications, academic references, and a comprehensive **Statement of Purpose (SOP)**.",
   ],
 
   costsLead: [
-    "Postgraduate Automobile Engineering programs in the United States present variable financial requirements contingent upon institutional selection, geographic location, program duration, and accessible financial support mechanisms.",
+    "Postgraduate Automobile Engineering programs in the **United States** present variable financial requirements contingent upon institutional selection, geographic location, program duration, and accessible financial support mechanisms.",
     "Primary financial considerations encompass:",
   ],
   costs: [
@@ -135,7 +135,7 @@ const branch = {
     "Departmental scholarship designations.",
     "Graduate research assistantship positions.",
     "Graduate teaching assistantship appointments.",
-    "Tuition remission provisions associated with qualifying assistantships.",
+    "Tuition remission provisions associated with qualifying **graduate assistantships**.",
     "External scholarships administered by eligible funding organizations.",
     "Research funding may be accessible for qualifying scholarly projects",
   ],
@@ -171,7 +171,7 @@ const branch = {
   ],
 
   careerIntro:
-    "Advanced postgraduate credentials facilitate the acquisition of sophisticated technical competencies applicable to vehicle development, electric mobility sectors, automotive manufacturing operations, quality assurance protocols, and intelligent transportation infrastructure.",
+    "Advanced postgraduate credentials facilitate the acquisition of sophisticated technical competencies applicable to vehicle development, electric mobility sectors, automotive manufacturing operations, quality assurance protocols, and intelligent transportation infrastructure. As a **STEM-designated degree program**, automobile engineering graduates are eligible for up to **3 years of OPT (Optional Practical Training)** under an **F-1 student visa**.",
   careerLead: ["Potential career roles include:"],
   careers: [
     "Automotive Design Engineer",
@@ -190,14 +190,14 @@ const branch = {
   careerNote: ["."],
 
   visaLead: [
-    "Indian students who gain admission to an accredited United States institution typically must navigate the requisite student visa application procedures.",
+    "Indian students who gain admission to an accredited **United States** institution typically must navigate the requisite **F-1 student visa** application procedures.",
     "Typical application steps include:",
   ],
   visaSteps: [
     "Conduct comprehensive research on academic institutions and identify an appropriate automotive-focused field of study.",
     "Verify academic prerequisites and subject matter requirements.",
-    "Examine English language proficiency standards and Graduate Record Examination (GRE) specifications.",
-    "Assemble necessary documentation including academic transcripts, a Statement of Purpose, academic references, and curriculum vitae.",
+    "Examine English language proficiency standards and **Graduate Record Examination (GRE)** specifications.",
+    "Assemble necessary documentation including **academic transcripts**, a **Statement of Purpose (SOP)**, academic references, and curriculum vitae.",
     "Submit completed applications in accordance with institutional deadlines.",
     "Evaluate admission decisions, educational costs, and available financial support mechanisms.",
     "Secure requisite institutional documentation for visa purposes.",
@@ -211,7 +211,7 @@ const branch = {
       a: "Yes,Indian students possessing a pertinent undergraduate degree may apply to accredited postgraduate programs in Automotive Engineering, Mechanical Engineering, and cognate disciplines.",
     },
     {
-      q: "What is the typical duration of a master's degree program in Automobile Engineering at United States institutions?",
+      q: "What is the typical duration of a master's degree program in Automobile Engineering at **United States** institutions?",
       a: "The majority of such programs require approximately one to two years for completion, contingent upon institutional factors, program structure, and research components.",
     },
     {

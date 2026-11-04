@@ -9,10 +9,8 @@ import ucbImg from "../../../../../../Images/Abroad/USA/Engineering_UG/Electrica
 const branch = {
   name: "Electrical Engineering",
   slug: "electrical-engineering",
-  title:
-    "Electrical Engineering in USA for Indian Students | UG 2026 | Edu Hawk",
-  description:
-    "Study Bachelor's in Electrical Engineering in the USA after Class 12. Eligibility, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
+  title: "Electrical Engineering in USA for Indian Students | UG 2026 | Edu Hawk",
+  description: "Study Bachelor's in Electrical Engineering in the USA after Class 12. Eligibility, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Electrical Engineering in USA for Indian Students, Best Electrical Engineering Universities in USA, Bachelor's in Electrical Engineering in USA, Study Electrical Engineering in USA After 12th, Electrical Engineering Courses in USA, Electrical Engineering Admission Requirements in USA, Electrical Engineering Tuition Fees in USA, Electrical Engineering Scholarships for Indian Students, Top Electrical Engineering Colleges in America, Electrical Engineering Eligibility for Indian Students, SAT Requirements for Electrical Engineering in USA, English Language Tests for US Universities, Career Opportunities After Electrical Engineering, Power Systems and Renewable Energy Engineering in USA, USA Student Visa for Electrical Engineering Students",
   heroIntro: (
@@ -55,10 +53,12 @@ const branch = {
     "Bachelor of Science in Electrical and Electronic Engineering",
     "Program nomenclature, instructional content, and specialized concentrations differ across academic institutions. Prospective applicants must verify the precise program specifications prior to submission.",
   ],
-  coursesNote: [],
+  coursesNote: [
+    "Students also compare related programs such as [Computer Engineering in the USA](/courses/ug/computer-engineering) and [Electronics & Communication Engineering](/courses/ug/electronics-communication), or explore advanced [Postgraduate MS in Electrical Engineering](/courses/pg/electrical-engineering).",
+  ],
 
   duration: [
-    "An undergraduate Electrical Engineering degree within the United States customarily necessitates four years for completion.",
+    "An undergraduate Electrical Engineering degree within the **United States** customarily necessitates **four years** for completion.",
     "The instructional framework ordinarily encompasses mathematical sciences, natural philosophy, circuit theory, semiconductor electronics, electrical apparatus, electromagnetic phenomena, automated regulation systems, frequency-domain analysis, and electrical power infrastructure.",
     "Students may additionally participate in experimental laboratory work, technological design undertakings, scholarly investigations, professional internship experiences, or alternating work-study educational arrangements.",
     "With Edu Hawk worldwide, university selection guidance, students can compare suitable institutions based on academic background, budget, preferred location, and long-term professional goals.",
@@ -68,12 +68,12 @@ const branch = {
     "Indian applicants are typically expected to satisfy the subsequent prerequisites:",
   ],
   eligibility: [
-    "Successful completion of Class 12 examinations administered by an accredited educational institution.",
-    "Proficiency in mathematics and physics, supplemented by any additional disciplinary areas mandated by the prospective university.",
+    "Successful completion of **Class 12 examinations** administered by an accredited educational institution.",
+    "Proficiency in **mathematics and physics**, supplemented by any additional disciplinary areas mandated by the prospective university.",
     "Academic performance that aligns with the institution's established admission benchmarks.",
     "Demonstrated competency in the English language where applicable.",
-    "Standardized examination scores from the SAT or ACT, contingent upon institutional requirements.",
-    "Official academic records and ancillary documentation required for the application process.",
+    "Standardized examination scores from the **SAT or ACT**, contingent upon institutional requirements.",
+    "Official **academic records** and ancillary documentation required for the application process.",
   ],
 
   englishLead: [
@@ -91,12 +91,12 @@ const branch = {
   ],
 
   testsNote: [
-    "SAT and ACT score requirements demonstrate considerable variation across universities and admission cycles. While some universities have test-optional admissions policies, others need test results.",
-    "No universally mandated entrance examination exists across all United States universities for undergraduate Electrical Engineering programs. Applicants must ascertain current institutional testing protocols, submission deadlines, and discipline-specific program requirements.",
+    "**SAT and ACT** score requirements demonstrate considerable variation across universities and admission cycles. While some universities have test-optional admissions policies, others need test results.",
+    "No universally mandated entrance examination exists across all **United States** universities for undergraduate Electrical Engineering programs. Applicants must ascertain current institutional testing protocols, submission deadlines, and discipline-specific program requirements.",
   ],
 
   costsLead: [
-    "The aggregate expenditure for pursuing an undergraduate degree in Electrical Engineering within the United States is contingent upon institutional selection, geographic location, and residential arrangements.",
+    "The aggregate expenditure for pursuing an undergraduate degree in Electrical Engineering within the **United States** is contingent upon institutional selection, geographic location, and residential arrangements.",
     "Primary cost components encompass:",
   ],
   costs: [
@@ -108,7 +108,7 @@ const branch = {
     "Immigration documentation, airfare, and relocation expenses.",
   ],
   costsNote: [
-    "Prospective students should conduct a comprehensive evaluation of the total annual cost of attendance rather than examining tuition fees in isolation. Contemporary expense figures should be verified through institutional websites.",
+    "Prospective students should conduct a comprehensive evaluation of the total annual cost of attendance rather than examining **tuition fees** in isolation. Contemporary expense figures should be verified through institutional websites.",
   ],
 
   scholarshipsLead: [
@@ -116,7 +116,7 @@ const branch = {
   ],
   scholarships: [
     "Available financial resources encompass:",
-    "Academic merit-based scholarships.",
+    "Academic **merit-based scholarships**.",
     "International student funding programs.",
     "Institution-specific tuition waivers.",
     "International students are eligible for financial aid based on proven need.",
@@ -154,7 +154,7 @@ const branch = {
   universitiesNote: [],
 
   careerIntro:
-    "Program completers may pursue entry-level positions within electrical infrastructure, electronic systems, energy sectors, industrial automation, and engineering development domains.",
+    "Program completers may pursue entry-level positions within electrical infrastructure, electronic systems, energy sectors, industrial automation, and engineering development domains. As a **STEM-designated degree program**, electrical engineering graduates are eligible for up to **3 years of OPT (Optional Practical Training)** under an **F-1 student visa**.",
   careerLead: ["Prospective occupational positions include:"],
   careers: [
     "Electrical Design Engineer",
@@ -170,7 +170,7 @@ const branch = {
   careerNote: [],
 
   visaLead: [
-    "Indian students who have been admitted to an accredited US institution are typically required to navigate the student visa application process.",
+    "Indian students who have been admitted to an accredited US institution are typically required to navigate the **F-1 student visa** application process.",
     "The standard procedural steps encompass:",
   ],
   visaSteps: [
@@ -181,7 +181,7 @@ const branch = {
     "File applications in accordance with specified submission deadlines.",
     "Evaluate admission decisions and associated financial obligations.",
     "Secure the requisite student documentation from the respective institution.",
-    "Remit the applicable SEVIS fee and finalize the visa application materials.",
+    "Remit the applicable **SEVIS fee** and finalize the visa application materials.",
     "Participate in the visa interview process, when applicable, and make travel arrangements following authorization.",
     "Student visa approval remains contingent and is not assured. Students must adhere to prevailing US government directives and institutional guidance from their university.",
   ],

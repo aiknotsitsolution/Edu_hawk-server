@@ -11,10 +11,8 @@ import ucbImg from "../../../../../../Images/Abroad/USA/Engineering_PG/CivilEngi
 const branch = {
   name: "Civil Engineering",
   slug: "civil-engineering",
-  title:
-    "MS in Civil Engineering in USA for Indian Students | PG 2026 | Edu Hawk",
-  description:
-    "Study a Master's (MS or MEng) in Civil Engineering in the USA after graduation. Eligibility, GRE, tuition fees, top universities, scholarships, specialisations, careers and the visa process for Indian students with Edu Hawk Worldwide.",
+  title: "MS in Civil Engineering in USA for Indian Students | PG 2026 | Edu Hawk",
+  description: "Study a Master's (MS or MEng) in Civil Engineering in the USA after graduation. Eligibility, GRE, tuition fees, top universities, scholarships, specialisations, careers and the visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Postgraduate Civil Engineering in USA, Best Master's in Civil Engineering Universities in USA, Master's in Civil Engineering in USA, Postgraduate Civil Engineering Courses in USA, Civil Engineering Admission Requirements for Master's in USA, MS in Civil Engineering Tuition Fees in USA, Civil Engineering Scholarships for Indian Students, Top Graduate Civil Engineering Colleges in America, Civil Engineering Eligibility for Indian Students, GRE Requirements for MS in Civil Engineering in USA, English Language Tests for US Universities, Career Opportunities After MS in Civil Engineering, Structural and Construction Engineering Master's in USA, USA Student Visa for Indian Postgraduate Students",
   heroIntro: (
@@ -80,7 +78,7 @@ const branch = {
   ],
 
   eligibilityLead: [
-    "Indian students are generally expected to satisfy the following admission criteria:",
+    "Indian students are generally expected to satisfy the following admission criteria: ",
   ],
   eligibility: [
     <>A bachelor's degree in <strong>Civil Engineering</strong> or an allied discipline.</>,

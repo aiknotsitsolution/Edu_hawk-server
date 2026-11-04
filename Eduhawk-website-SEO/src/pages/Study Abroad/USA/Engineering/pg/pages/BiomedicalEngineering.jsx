@@ -9,10 +9,8 @@ import utAustinImg from "../../../../../../Images/Abroad/USA/Engineering_PG/Biom
 const branch = {
   name: "Biomedical Engineering",
   slug: "biomedical-engineering",
-  title:
-    "MS in Biomedical Engineering in USA for Indian Students | PG 2026 | Edu Hawk",
-  description:
-    "Study Master's in Biomedical Engineering in the USA after graduation. Eligibility, GRE requirements, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
+  title: "MS in Biomedical Engineering in USA for Indian Students | PG 2026 | Edu Hawk",
+  description: "Study Master's in Biomedical Engineering in the USA after graduation. Eligibility, GRE requirements, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Postgraduate Biomedical Engineering in USA for Indian Students, Top Master's in Biomedical Engineering Universities in USA, MS in Biomedical Engineering in USA, Master's in Biomedical Engineering in USA for Indian Students, Postgraduate Biomedical Engineering Courses in USA, Biomedical Engineering Admission Requirements for Master's in USA, MS in Biomedical Engineering Tuition Fees in USA, Biomedical Engineering Scholarships for Indian Students, Top Graduate Biomedical Engineering Colleges in America, Biomedical Engineering Eligibility for Indian Students, GRE Requirements for MS in Biomedical Engineering in USA, English Language Tests for US Universities, Career Opportunities After MS in Biomedical Engineering, Medical Device Engineering and Bioengineering Master's in USA, USA Student Visa for Indian Postgraduate Students",
   heroIntro: (
@@ -68,21 +66,21 @@ const branch = {
   coursesNote: ["Typical specializations consist of:"],
 
   duration: [
-    "In the US, postgraduate studies in biomedical engineering usually take one to two years to complete. Institutional restrictions, credit hour requirements, research commitments, and the student's choice between course-based and thesis-oriented study alternatives all influence the precise timeline. Biomedical instrumentation, biomaterials, biomechanics, physiological systems, medical imaging, biological signal processing, and medical device design are among the subjects covered in the academic program.",
+    "In the US, postgraduate studies in biomedical engineering usually take **one to two years** to complete. Institutional restrictions, credit hour requirements, research commitments, and the student's choice between course-based and thesis-oriented study alternatives all influence the precise timeline. Biomedical instrumentation, biomaterials, biomechanics, physiological systems, medical imaging, biological signal processing, and medical device design are among the subjects covered in the academic program.",
     "Students can assess appropriate universities depending on their academic background, preferred location, budget, and long-term career aspirations with the help of Edu  Hawk worldwide consultancy's university selection advice.",
   ],
 
   eligibilityLead: [
     "In general, Indian candidates must meet the following requirements in order to be admitted:",
-    "Depending on program requirements, a bachelor's degree in biomedical engineering, biotechnology, electrical engineering, mechanical engineering, electronics engineering, or a similar subject.",
+    "Depending on program requirements, a **bachelor's degree** in biomedical engineering, biotechnology, electrical engineering, mechanical engineering, electronics engineering, or a similar subject.",
   ],
   eligibility: [
     "official degree certificates and transcripts.",
     "The institution's minimum requirements for academic success.",
     "proficiency in English, as appropriate.",
-    "scores from the Graduate Record Examination (GRE), if required by the program.",
+    "scores from the **Graduate Record Examination (GRE)**, if required by the program.",
     "A purpose statement.",
-    "letters of recommendation.",
+    "**letters of recommendation (LOR)**.",
     "Curriculum vitae or resume.",
     "Academic projects, laboratory experience, internships, or research projects that are pertinent.",
   ],
@@ -101,9 +99,9 @@ const branch = {
   ],
 
   testsNote: [
-    "The requirements for the Graduate Record Examination (GRE) vary significantly throughout postgraduate programs in biomedical engineering. Some universities require GRE scores, while others consider the test optional or do not include it in their evaluation standards.",
+    "The requirements for the **Graduate Record Examination (GRE)** vary significantly throughout postgraduate programs in biomedical engineering. Some universities require **GRE scores**, while others consider the test optional or do not include it in their evaluation standards.",
     "The underlying academic requirements relevant to their selected expertise must be examined by prospective applicants. Proficiency in mathematics, physics, biology, chemistry, engineering principles, or programming is sometimes required for academic programs.",
-    "Academic achievements, relevant projects, internship experience, research contributions, recommendation letters, and a thorough Statement of Purpose outlining the candidate's scholarly interest in biomedical technology and career goals are all common components of a competitive application portfolio.",
+    "Academic achievements, relevant projects, internship experience, research contributions, recommendation letters, and a thorough **Statement of Purpose (SOP)** outlining the candidate's scholarly interest in biomedical technology and career goals are all common components of a competitive application portfolio.",
   ],
 
   costsLead: [
@@ -120,7 +118,7 @@ const branch = {
     "travel plans, immigration paperwork, and moving costs.",
   ],
   costsNote: [
-    "To calculate total program expenses, prospective students should refer to official university tuition schedules and estimated living expenses. A thorough budgeting plan can be developed more easily when program costs, research potential, and financial support options are systematically evaluated.",
+    "To calculate total program expenses, prospective students should refer to official university tuition schedules and estimated **living expenses**. A thorough budgeting plan can be developed more easily when program costs, research potential, and financial support options are systematically evaluated.",
   ],
 
   scholarshipsLead: [
@@ -131,12 +129,12 @@ const branch = {
     "scholarship awards based on merit.",
     "scholarships awarded by departments.",
     "vacancies for graduate research assistants.",
-    "jobs for graduate teaching assistantships.",
+    "jobs for graduate **teaching **graduate assistantships****.",
     "tuition reimbursement for assistantship positions that meet the requirements.",
     "Opportunities for external scholarships are managed by qualified institutions.",
   ],
   scholarshipsNote: [
-    "Students whose interests coincide with active biomedical research projects may be eligible for research assistantships. Academic achievement, research interests, faculty financing, and institution policy all influence funding, which is competitive.",
+    "Students whose interests coincide with active biomedical research projects may be eligible for **research **graduate assistantships****. Academic achievement, research interests, faculty financing, and institution policy all influence funding, which is competitive.",
   ],
 
   universitiesLead: [
@@ -169,7 +167,7 @@ const branch = {
   ],
 
   careerIntro:
-    "Graduates with advanced training in this area can develop specialized technical skills useful for jobs in medical technology, biomedical research, healthcare innovation, and medical device engineering.",
+    "Graduates with advanced training in this area can develop specialized technical skills useful for jobs in medical technology, biomedical research, healthcare innovation, and medical device engineering. As a **STEM-designated degree program**, biomedical engineering graduates are eligible for up to **3 years of OPT (Optional Practical Training)** under an **F-1 student visa**.",
   careerLead: ["Professional roles that are pertinent include:"],
   careers: [
     "Medical Device Design Engineer Biomedical Engineer",
@@ -188,14 +186,14 @@ const branch = {
   ],
 
   visaLead: [
-    "Indian students usually have to go through the necessary student visa processes in order to be admitted to an authorized American university.",
+    "Indian students usually have to go through the necessary **F-1 student visa** processes in order to be admitted to an authorized American university.",
     "Typical application procedures consist of:",
   ],
   visaSteps: [
     "Find a suitable concentration in biomedical engineering by conducting in-depth research on universities.",
     "Check the topic requirements and academic prerequisites.",
-    "Analyze Graduate Record Examination (GRE) requirements and English language competency norms.",
-    "assemble the required paperwork, such as a curriculum vitae, academic references, a Statement of Purpose, and academic transcripts.",
+    "Analyze **Graduate Record Examination (GRE)** requirements and English language competency norms.",
+    "assemble the required paperwork, such as a curriculum vitae, academic references, a **Statement of Purpose (SOP)**, and **academic transcripts**.",
     "Complete applications and submit them by the deadlines set by the university.",
     "Examine financial aid options, educational expenses, and admissions decisions.",
     "Obtain the necessary student records from the relevant organization.",
@@ -210,7 +208,7 @@ const branch = {
       a: "Yes, Indian students can apply to suitable postgraduate programs if they have a relevant undergraduate degree and good academic records.",
     },
     {
-      q: "How long does it take to complete a master's degree in biomedical engineering in the United States?",
+      q: "How long does it take to complete a master's degree in biomedical engineering in the **United States**?",
       a: "Depending on institutional restrictions, curriculum design, and research activity, most programs take one to two years to complete.",
     },
     {
@@ -223,7 +221,7 @@ const branch = {
     },
     {
       q: "Do Indian students have access to scholarships?",
-      a: "Yes , eligible candidates may look into teaching assistantships, research assistantships, merit-based scholarships, and more financing sources. Budgetary allotments and institutional regulations determine availability.",
+      a: "Yes , eligible candidates may look into teaching graduate assistantships, research graduate assistantships, merit-based scholarships, and more financing sources. Budgetary allotments and institutional regulations determine availability.",
     },
     {
       q: "How can I study overseas with the assistance of Edu Hawk Worldwide Consultancy?",

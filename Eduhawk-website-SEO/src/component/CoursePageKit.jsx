@@ -151,6 +151,66 @@ export const EhpShell = ({ children }) => {
 };
 
 /* ------------------------------------------------------------------ */
+/*  Rich Text Formatter (Supports **bold**, [text](/url), <strong>)    */
+/* ------------------------------------------------------------------ */
+export const formatRichText = (content) => {
+  if (!content || typeof content !== "string") return content;
+  const parts = content.split(/(\*\*\[.*?\]\(.*?\)\*\*|\*\*.*?\*\*|\[.*?\]\(.*?\)|<strong>.*?<\/strong>)/g);
+  if (parts.length === 1) return content;
+  return parts.filter(Boolean).map((part, index) => {
+    if (part.startsWith("**[") && part.endsWith(")**")) {
+      const match = part.slice(2, -2).match(/^\[(.*?)\]\((.*?)\)$/);
+      if (match) {
+        const [, label, url] = match;
+        if (url.startsWith("#")) {
+          return (
+            <a key={index} href={url} className="text-blue-600 font-bold hover:underline cursor-pointer">
+              <strong>{label}</strong>
+            </a>
+          );
+        }
+        return (
+          <Link key={index} to={url} className="text-blue-600 font-bold hover:underline">
+            <strong>{label}</strong>
+          </Link>
+        );
+      }
+    }
+    if (part.startsWith("**") && part.endsWith("**")) {
+      return (
+        <strong key={index} className="font-semibold text-slate-900">
+          {part.slice(2, -2)}
+        </strong>
+      );
+    }
+    if (part.startsWith("<strong>") && part.endsWith("</strong>")) {
+      return (
+        <strong key={index} className="font-semibold text-slate-900">
+          {part.slice(8, -9)}
+        </strong>
+      );
+    }
+    const linkMatch = part.match(/^\[(.*?)\]\((.*?)\)$/);
+    if (linkMatch) {
+      const [, label, url] = linkMatch;
+      if (url.startsWith("#")) {
+        return (
+          <a key={index} href={url} className="text-blue-600 font-semibold hover:underline cursor-pointer">
+            {label}
+          </a>
+        );
+      }
+      return (
+        <Link key={index} to={url} className="text-blue-600 font-semibold hover:underline">
+          {label}
+        </Link>
+      );
+    }
+    return part;
+  });
+};
+
+/* ------------------------------------------------------------------ */
 /*  Hero                                                               */
 /* ------------------------------------------------------------------ */
 export const EhpHero = ({
@@ -190,7 +250,7 @@ export const EhpHero = ({
               key={i}
               className="text-base sm:text-lg text-white/70 max-w-xl mb-5 leading-relaxed"
             >
-              {p}
+              {formatRichText(p)}
             </p>
           ))}
           <div className="flex flex-col sm:flex-row flex-wrap gap-3.5 mt-3">
@@ -266,7 +326,7 @@ export const Paragraphs = ({ items, className, tone }) => {
           key={i}
           className={tone === "dark" ? "text-white/80 text-[15px] leading-relaxed" : undefined}
         >
-          {p}
+          {formatRichText(p)}
         </p>
       ))}
     </div>
@@ -307,7 +367,7 @@ export const CheckList = ({ items, cols = 1, tone = "light" }) => (
           <CheckIcon />
         )}
         <span className={tone === "dark" ? "text-white/85" : "text-slate-700"}>
-          {it}
+          {formatRichText(it)}
         </span>
       </div>
     ))}
@@ -375,7 +435,7 @@ export const TileGrid = ({ items, area = "" }) => (
           </svg>
         </div>
         <span className="text-[15px] font-medium text-slate-800 leading-snug">
-          {it}
+          {formatRichText(it)}
         </span>
       </div>
     ))}
@@ -480,7 +540,7 @@ export const StepTimeline = ({ steps, center }) => (
         <div className="pt-1 bg-white/0 rounded-lg">
           {typeof s === "string" ? (
             <p className="text-[15px] text-slate-700 leading-relaxed pt-1.5">
-              {s}
+              {formatRichText(s)}
             </p>
           ) : React.isValidElement(s) ? (
             <p className="text-[15px] text-slate-700 leading-relaxed pt-1.5">
@@ -490,12 +550,12 @@ export const StepTimeline = ({ steps, center }) => (
             <>
               {s.title && (
                 <h3 className="text-[17px] font-semibold text-slate-900 mb-1">
-                  {s.title}
+                  {formatRichText(s.title)}
                 </h3>
               )}
               {s.text && (
                 <p className="text-[15px] text-slate-500 leading-relaxed">
-                  {s.text}
+                  {formatRichText(s.text)}
                 </p>
               )}
             </>
@@ -591,6 +651,37 @@ export const CtaBand = ({ title, desc }) => (
     </div>
   </section>
 );
+
+/* ------------------------------------------------------------------ */
+/*  Eligibility CTA Card (Dark card matching user screenshot)          */
+/* ------------------------------------------------------------------ */
+export const EligibilityCtaCard = ({
+  level = "UG",
+  whatsappNumber = "919630736070",
+}) => {
+  const isPG = level === "PG" || level === "Postgraduate";
+  return (
+    <div className="bg-[#0b1329] text-white p-7 sm:p-9 rounded-3xl shadow-xl mt-8 max-w-4xl border border-slate-800 relative overflow-hidden">
+      <div className="absolute top-0 right-0 w-48 h-48 bg-indigo-600/15 rounded-full blur-2xl -translate-y-1/2 translate-x-1/2 pointer-events-none" />
+      <h3 className="text-xl sm:text-2xl font-bold mb-3 text-white relative">
+        Not sure if you are eligible?
+      </h3>
+      <p className="text-slate-300 text-sm sm:text-base leading-relaxed mb-6 max-w-2xl relative">
+        {isPG
+          ? "Share your graduation marks, academic background, and preferred universities. We will tell you honestly which options are realistic for your profile and budget."
+          : "Share your Class 12 marks and preferred countries. We will tell you honestly which options are realistic for your profile and budget."}
+      </p>
+      <a
+        href={`https://api.whatsapp.com/send?phone=${whatsappNumber}&text=Hi%2C%20I%20want%20to%20check%20my%20eligibility%20for%20study%20abroad`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center justify-center bg-[#4f46e5] hover:bg-[#4338ca] text-white font-medium px-6 py-3.5 rounded-xl transition-all duration-200 no-underline shadow-md shadow-indigo-500/25 relative"
+      >
+        Book free eligibility check
+      </a>
+    </div>
+  );
+};
 
 /* ================================================================== */
 /*  ENGINEERING BRANCH PAGE (UG / PG)                                  */
@@ -824,6 +915,7 @@ export const EngineeringBranchPage = ({
             />
             <CheckList items={branch.eligibility} />
           </Panel>
+          <EligibilityCtaCard level={level} />
         </div>
       </section>
 

@@ -9,10 +9,8 @@ import cmuImg from "../../../../../../Images/Abroad/USA/Engineering_PG/Electroni
 const branch = {
   name: "Electronics & Communication Engineering",
   slug: "electronics-communication",
-  title:
-    "MS in Electronics and Communication Engineering in USA for Indian Students | PG 2026 | Edu Hawk",
-  description:
-    "Study Master's (MS) in Electronics and Communication Engineering (ECE) in the USA after graduation. Eligibility, GRE requirements, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
+  title: "MS in Electronics and Communication Engineering in USA for Indian Students | PG 2026 | Edu Hawk",
+  description: "Study Master's (MS) in Electronics and Communication Engineering (ECE) in the USA after graduation. Eligibility, GRE requirements, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Postgraduate Electronics and Communication Engineering in USA for Indian Students, Best Master's in Electronics and Communication Engineering Universities in USA, Postgraduate Electronics and Communication Engineering Courses in USA, ECE Admission Requirements for Master's in USA, MS in Electronics and Communication Engineering Tuition Fees in USA, ECE Scholarships for Indian Students, Top Graduate Electronics and Communication Engineering Colleges in America, USA Student Visa for Indian Postgraduate Students, VLSI and Semiconductor Engineering Masters in USA, Wireless Communication and IoT Specializations in USA",
   heroIntro: (
@@ -70,20 +68,20 @@ const branch = {
   coursesNote: ["Typical specializations consist of:"],
 
   duration: [
-    "In the US, postgraduate degrees in Electronics and Communication Engineering normally take one to two years to complete. The exact timeline is influenced by a number of factors, including specialization, credit hour requirements, institutional restrictions, and the student's choice of thesis-oriented, research-oriented, or course-based modalities. Digital communication systems, advanced electronics, semiconductor physics, VLSI design, wireless networks, digital signal processing, embedded systems, antenna engineering, and communication system design are all possible topics for coursework.",
+    "In the US, postgraduate degrees in Electronics and Communication Engineering normally take **one to two years** to complete. The exact timeline is influenced by a number of factors, including specialization, credit hour requirements, institutional restrictions, and the student's choice of thesis-oriented, research-oriented, or course-based modalities. Digital communication systems, advanced electronics, semiconductor physics, VLSI design, wireless networks, digital signal processing, embedded systems, antenna engineering, and communication system design are all possible topics for coursework.",
   ],
 
   eligibilityLead: [
     "In general, Indian candidates must meet the following requirements for admission:",
   ],
   eligibility: [
-    "a bachelor's degree in electrical engineering, electrical and electronics engineering, electronics and communication engineering, or a related technological field.",
+    "a **bachelor's degree** in electrical engineering, electrical and electronics engineering, electronics and communication engineering, or a related technological field.",
     "official degree certificates and transcripts.",
     "The institution's minimum requirements for academic success.",
     "competence in English when required.",
-    "scores from the Graduate Record Examination (GRE), if required by the program.",
+    "scores from the **Graduate Record Examination (GRE)**, if required by the program.",
     "A purpose statement.",
-    "letters of recommendation.",
+    "**letters of recommendation (LOR)**.",
     "Curriculum vitae or resume.",
     "documentation of pertinent professional experience, research initiatives, internships, and academic work, as appropriate.",
   ],
@@ -102,11 +100,11 @@ const branch = {
   ],
 
   testsNote: [
-    "Requirements for the Graduate Record Examination (GRE) exhibit significant institutional diversity among postgraduate programs and universities. While some universities require GRE scores in order to admit students, others consider the test optional or do not include it in their evaluation standards.",
+    "Requirements for the **Graduate Record Examination (GRE)** exhibit significant institutional diversity among postgraduate programs and universities. While some universities require **GRE scores** in order to admit students, others consider the test optional or do not include it in their evaluation standards.",
   ],
 
   costsLead: [
-    "The total cost of completing postgraduate courses in Electronics and Communication Engineering in the United States varies significantly depending on program length, geographic location, institutional choice, and available financing sources.",
+    "The total cost of completing postgraduate courses in Electronics and Communication Engineering in the **United States** varies significantly depending on program length, geographic location, institutional choice, and available financing sources.",
     "Principal costs consist of: Individual costs, fees for processing visas, the cost of traveling abroad, and the initial costs of moving.",
     "Before choosing an institution, prospective students are advised to review official tuition schedules and detailed living cost projections. Creating a comprehensive financial forecast for the life of the program allows Indian students to create practical financial planning strategies and allows for meaningful institutional comparison.",
   ],
@@ -121,7 +119,7 @@ const branch = {
     "scholarship awards based on merit.",
     "scholarships awarded by departments.",
     "vacancies for graduate research assistants.",
-    "jobs for graduate teaching assistantships.",
+    "jobs for graduate **teaching **graduate assistantships****.",
     "Benefits for tuition reimbursement are dependent on qualified assistantship positions.",
     "Opportunities for external scholarships are managed by qualified funding agencies.",
   ],
@@ -155,7 +153,7 @@ const branch = {
   universitiesNote: [],
 
   careerIntro:
-    "Graduates with a postgraduate degree can develop advanced technical skills relevant to career paths in semiconductors, networking, electronics, communication systems, and research.",
+    "Graduates with a postgraduate degree can develop advanced technical skills relevant to career paths in semiconductors, networking, electronics, communication systems, and research. As a **STEM-designated degree program**, ECE graduates are eligible for up to **3 years of OPT (Optional Practical Training)** under an **F-1 student visa**.",
   careerLead: ["Possible occupations include:"],
   careers: [
     "Engineer for Electronics Design",
@@ -166,14 +164,14 @@ const branch = {
   careerNote: [],
 
   visaLead: [
-    "Indian students who are admitted to US universities usually have to go through the necessary steps to obtain a student visa.",
+    "Indian students who are admitted to US universities usually have to go through the necessary steps to obtain a **F-1 student visa**.",
     "Typical application procedures consist of:",
   ],
   visaSteps: [
     "Examine educational establishments and determine suitable curricula that emphasize electronics and communication.",
     "Check the criteria for foundational coursework and academic prerequisites.",
     "Examine your English language skills and the requirements for the GRE.",
-    "Put together professional paperwork, academic references, official transcripts, and a Statement of Purpose.",
+    "Put together professional paperwork, academic references, official transcripts, and a **Statement of Purpose (SOP)**.",
     "Complete applications and submit them by the deadlines set by the university.",
     "Assess financial responsibilities, financial assistance opportunities, and admission decisions.",
     "Obtain the necessary student records from the relevant organization.",
@@ -185,7 +183,7 @@ const branch = {
   faqs: [
     {
       q: "Can Indian students study postgraduate Electronics and Communication Engineering in the US?",
-      a: "Yes, Indian students may apply to eligible postgraduate programs if they have the necessary academic qualifications and a relevant bachelor's degree.",
+      a: "Yes, Indian students may apply to eligible postgraduate programs if they have the necessary academic qualifications and a relevant bachelor's degree**.",
     },
     {
       q: "How long does it take to earn a master's degree in Electronics and Communication Engineering in the US?",
@@ -201,7 +199,7 @@ const branch = {
     },
     {
       q: "Do Indian students have access to scholarships?",
-      a: "Yes merit scholarships, research assistantships, teaching assistantships, and other financing options are available to qualified students.",
+      a: "Yes merit scholarships, research graduate assistantships, teaching graduate assistantships, and other financing options are available to qualified students.",
     },
   ],
 };

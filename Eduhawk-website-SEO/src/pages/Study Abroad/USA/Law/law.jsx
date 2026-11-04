@@ -1,3 +1,4 @@
+import { formatRichText, EligibilityCtaCard } from "../../../../component/CoursePageKit";
 import React from "react";
 import { AbroadCoursePage } from "../../../../component/CoursePageKit";
 import heroImg from "../../../../Images/Abroad/USA/Law/hero.webp";
@@ -16,10 +17,10 @@ const page = {
   "introTitle": "Law in the United States",
   "heroParas": [
     "Studying Law in the USA gives students an opportunity to learn about the legal systems, constitutional principles, international regulations, business law, human rights and dispute resolution. American law schools focus on legal research, analytical reasoning, case analysis, writing, advocacy and practical learning.",
-    "The United States offers Indian students a range of undergraduate, postgraduate, doctoral and specialized legal education options, for those interested in pursuing a career in legal practice, corporate law, international relations, compliance, policy research or academia."
+    "The **United States** offers **Indian students** a range of undergraduate, postgraduate, doctoral and specialized legal education options, for those interested in pursuing a career in legal practice, corporate law, international relations, compliance, policy research or academia."
   ],
   "overview": [
-    "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."
+    "Edu Hawk Worldwide assists students in exploring international study options, comprehending university admission standards, comparing pathways like [International Business](/courses/international-business) and [Study Abroad](/study-abroad), and [getting expert counselling](/contact). Check our [admission FAQs](#faq) and [top universities](#universities)."
   ],
   "level": "UG & PG",
   "crumb": "Courses",
@@ -274,9 +275,9 @@ const page = {
             "Completion of Class 12 from a recognized board.",
             "Academic performance consistent with the requirements of the university.",
             "English-language skills where applicable.",
-            "School certificates and academic transcripts.",
+            "School certificates and **academic transcripts**.",
             "Statement of purpose or personal essay, if applicable.",
-            "Letters of recommendation (if required).",
+            "**Letters of recommendation (LOR)** (if required).",
             "SAT or ACT scores, only if required or considered by the institution.",
             "Generally, students applying for legal studies or a pre-law track do not need to hold a law degree."
           ]
@@ -294,7 +295,7 @@ const page = {
             "A completed bachelor’s degree or an equivalent qualification recognized by the law school.",
             "Academic Transcripts & Degree Certificates.",
             "An essay or personal statement .",
-            "Letters of recommendation (where applicable)",
+            "**Letters of recommendation (LOR)** (where applicable)",
             "English language proficiency, if applicable.",
             "LSAT or other acceptable admissions test, as determined by individual law school.",
             "Some law schools accept the Graduate Record Examination (GRE) or have alternative testing policies. International students need to verify requirements for the individual school."
@@ -311,10 +312,10 @@ const page = {
           "t": "ul",
           "items": [
             "A first degree law degree, such as an LLB or an equivalent foreign law qualification.",
-            "Degree certificates and academic transcripts.",
+            "Degree certificates and **academic transcripts**.",
             "A statement of intent.",
             "A curriculum vitae or resume",
-            "Letters of recommendation, if any are needed.",
+            "**Letters of recommendation (LOR)**, if any are needed.",
             "English language test scores, as applicable.",
             "Other documents as required by the School of Law."
           ]
@@ -419,13 +420,13 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Tuition fees vary widely depending on the institution, the program, its location and the academic year. Private universities can be especially costly for professional law degrees.",
+            "**Tuition fees** vary widely depending on the institution, the program, its location and the academic year. Private universities can be especially costly for professional law degrees.",
             "Estimated Cost per Year",
             "Tuition for undergraduates",
             "USD 20,000-50,000+",
             "JD tuition",
             "35,000-80,000+ US$",
-            "LLM tuition fees",
+            "LLM **tuition fees**",
             "$30,000–75,000+ USD",
             "Cost of living",
             "30,000+",
@@ -443,7 +444,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Indian students may also be eligible for university scholarships, fellowships, assistantships or external funding opportunities. Eligibility depends on the university, program, academic profile, financial circumstances and rules of the scholarship."
+            "**Indian students** may also be eligible for university scholarships, fellowships, assistantships or external funding opportunities. Eligibility depends on the university, program, academic profile, financial circumstances and rules of the scholarship."
           ]
         },
         {
@@ -509,7 +510,7 @@ const page = {
         },
         {
           "title": "Select Universities",
-          "text": "Program structure, tuition fees, scholarships, location, faculty expertise, career objectives etc."
+          "text": "Program structure, **tuition fees**, scholarships, location, faculty expertise, career objectives etc."
         },
         {
           "title": "Determine if You Qualify",
@@ -545,7 +546,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Typically, international students accepted into an eligible academic program apply for an F-1 student visa.",
+            "Typically, international students accepted into an eligible academic program apply for an **F-1 student visa**.",
             "The process usually entails:"
           ]
         },

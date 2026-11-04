@@ -1,3 +1,4 @@
+import { formatRichText, EligibilityCtaCard } from "../../../../component/CoursePageKit";
 import React from "react";
 import { AbroadCoursePage } from "../../../../component/CoursePageKit";
 import heroImg from "../../../../Images/Abroad/USA/WinterCourses/hero.webp";
@@ -74,7 +75,7 @@ const page = {
       "title": "Opportunities for Winter 2026-2027 & Winter 2027",
       "groups": [],
       "lead": [
-        "Some institutions in the United States offer winter-session courses between December and January. Here are a few examples:"
+        "Some institutions in the **United States** offer winter-session courses between December and January. Here are a few examples:"
       ],
       "note": [],
       "unis": [
@@ -146,7 +147,7 @@ const page = {
             "English language skills as per requirement.",
             "A valid passport for the length of the intended travel.",
             "Academic Records. Identification Documents. Application Forms.",
-            "Other documents, such as a statement of purpose or letters of recommendation, if required.",
+            "Other documents, such as a statement of purpose or **letters of recommendation (LOR)**, if required.",
             "Proof of funds and valid immigration paperwork for travel and study, if applicable."
           ]
         }
@@ -234,7 +235,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Don't count on getting full scholarships for all winter courses. Check the eligibility, application deadlines and whether the funding covers tuition, accommodation, travel or living expenses."
+            "Don't count on getting full scholarships for all winter courses. Check the eligibility, application deadlines and whether the funding covers tuition, accommodation, travel or **living expenses**."
           ]
         }
       ]
@@ -272,7 +273,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "The appropriate US immigration category will depend on the program and its structure. Some qualifying academic programs may require an F-1 student visa, and qualifying exchange programs may use the J-1 exchange visitor category. Not all short-term courses are included, but some short non-credit recreational courses might be held to different visitor rules."
+            "The appropriate US immigration category will depend on the program and its structure. Some qualifying academic programs may require an **F-1 student visa**, and qualifying exchange programs may use the J-1 exchange visitor category. Not all short-term courses are included, but some short non-credit recreational courses might be held to different visitor rules."
           ]
         }
       ]

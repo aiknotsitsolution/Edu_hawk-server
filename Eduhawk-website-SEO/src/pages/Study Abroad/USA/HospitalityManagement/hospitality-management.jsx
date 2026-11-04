@@ -1,3 +1,4 @@
+import { formatRichText, EligibilityCtaCard } from "../../../../component/CoursePageKit";
 import React from "react";
 import { AbroadCoursePage } from "../../../../component/CoursePageKit";
 import heroImg from "../../../../Images/Abroad/USA/HospitalityManagement/hero.webp";
@@ -13,7 +14,7 @@ const page = {
   "keywords": "Hospitality Management in USA for Indian Students, Best Universities for Hospitality Management in USA, Hospitality Management Courses in USA, Hospitality Management Admission Requirements in USA, Hospitality Management Fees in USA for Indian Students, Hospitality Management Scholarships for International Students, Hospitality Management Eligibility After Class 12, Bachelor's in Hospitality Management in USA, Master's in Hospitality Management in USA, Hotel Management Courses in USA for Indian Students, Hospitality Management Specializations in USA, Hospitality Management Course Duration in USA, Career Opportunities After Hospitality Management Degree, Hospitality Management Without Work Experience in USA, USA Student Visa for Indian Hospitality Management Students",
   "introTitle": "Hospitality Management in USA",
   "heroParas": [
-    "Hospitality Management in the USA provides students with the opportunity to develop business, leadership, customer service and operational management skills for the global hospitality industry. The United States provides a variety of programs in hotel management, tourism, restaurant operations, event planning, resort management and hospitality business leadership.",
+    "Hospitality Management in the USA provides students with the opportunity to develop business, leadership, customer service and operational management skills for the global hospitality industry. The **United States** provides a variety of programs in hotel management, tourism, restaurant operations, event planning, resort management and hospitality business leadership.",
     "Depending on your academic background and career goals, you can choose from undergraduate degrees, postgraduate programs, associate degrees, professional certificates and doctoral studies."
   ],
   "overview": [],
@@ -39,7 +40,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."
+            "Edu Hawk Worldwide assists students in exploring international study options, comprehending university admission standards, comparing pathways like [Business Management](/courses/business-management) and [Study Abroad programs](/study-abroad), and [getting expert counselling](/contact). Check our [admission FAQs](#faq) and [top universities](#universities)."
           ]
         }
       ]
@@ -173,13 +174,13 @@ const page = {
             "12th pass or equivalent from recognized board.",
             "Academic scores which meet the admission standards of the university.",
             "English skills, if needed.",
-            "Supporting documents and academic transcripts.",
+            "Supporting documents and **academic transcripts**.",
             "Valid international passport for study.",
             "For Master’s Degree Programs",
             "A recognized undergraduate degree.",
-            "Degree certificates and academic transcripts.",
+            "Degree certificates and **academic transcripts**.",
             "If applicable, English language test scores.",
-            "Statement of purpose, résumé or letters of recommendation, where requested.",
+            "Statement of purpose, résumé or **letters of recommendation (LOR)**, where requested.",
             "Relevant work experience (where required for programmes)."
           ]
         },
@@ -278,7 +279,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Scholarships are competitive and may require separate application criteria. Funding is not guaranteed and students should check to see if the award is for tuition only or living expenses as well."
+            "Scholarships are competitive and may require separate application criteria. Funding is not guaranteed and students should check to see if the award is for tuition only or **living expenses** as well."
           ]
         }
       ]
@@ -354,7 +355,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "International students may apply for an F-1 student visa for a full-time academic program if the institution and program meet the necessary requirements. In the case of short-term or exchange programs the arrangements for immigration might differ.",
+            "International students may apply for an **F-1 student visa** for a full-time academic program if the institution and program meet the necessary requirements. In the case of short-term or exchange programs the arrangements for immigration might differ.",
             "Students must ensure the institution is approved to enroll international students in the course of study they wish to pursue and observe the official visa process. Admission is not a guarantee of visa approval."
           ]
         }

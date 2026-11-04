@@ -9,10 +9,8 @@ import utAustinImg from "../../../../../../Images/Abroad/USA/Engineering_PG/Chem
 const branch = {
   name: "Chemical Engineering",
   slug: "chemical-engineering",
-  title:
-    "MS in Chemical Engineering in USA for Indian Students | PG 2026 | Edu Hawk",
-  description:
-    "Study Master's in Chemical Engineering in the USA after your bachelor's. Eligibility, GRE policies, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
+  title: "MS in Chemical Engineering in USA for Indian Students | PG 2026 | Edu Hawk",
+  description: "Study Master's in Chemical Engineering in the USA after your bachelor's. Eligibility, GRE policies, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Postgraduate Chemical Engineering in USA, Best Master's in Chemical Engineering Universities in USA, Master's in Chemical Engineering in USA for Indian Students, Postgraduate Chemical Engineering Courses in USA, Chemical Engineering Admission Requirements for Master's in USA, Chemical Engineering Scholarships for Indian Students, Top Graduate Chemical Engineering Colleges in America, Chemical Engineering Eligibility for Indian Students, GRE Requirements for MS in Chemical Engineering in USA, English Language Tests for US Universities, Career Opportunities After MS in Chemical Engineering",
   heroIntro: (
@@ -69,20 +67,20 @@ const branch = {
   coursesNote: ["The main area"],
 
   duration: [
-    "In the United States, postgraduate Chemical Engineering programs normally take one to two years to complete. Institutional policies, credit hour requirements, the chosen concentration, and the academic pathway—whether thesis-oriented, research-intensive, or coursework-focused—all influence the precise timeline. Advanced subjects like thermodynamics, transport phenomena, chemical reaction engineering, process control, separation processes, process modeling, and industrial process design are typically covered in the academic program.",
+    "In the **United States**, postgraduate Chemical Engineering programs normally take **one to two years** to complete. Institutional policies, credit hour requirements, the chosen concentration, and the academic pathway—whether thesis-oriented, research-intensive, or coursework-focused—all influence the precise timeline. Advanced subjects like thermodynamics, transport phenomena, chemical reaction engineering, process control, separation processes, process modeling, and industrial process design are typically covered in the academic program.",
   ],
 
   eligibilityLead: [
     "Indian applicants usually need to meet the following criteria in order to be admitted:",
   ],
   eligibility: [
-    "earning a bachelor's degree in chemical engineering or a similar discipline.",
+    "earning a **bachelor's degree** in chemical engineering or a similar discipline.",
     "official degree certificates and transcripts.",
     "demonstration of the minimal level of academic success required by the school.",
     "Evidence of proficiency in English, if required.",
-    "scores from the Graduate Record Examination (GRE), if required by the program.",
-    "Academic and professional goals are outlined in the Statement of Purpose.",
-    "letters of recommendation from scholars or experts in the field.",
+    "scores from the **Graduate Record Examination (GRE)**, if required by the program.",
+    "Academic and professional goals are outlined in the **Statement of Purpose (SOP)**.",
+    "**letters of recommendation (LOR)** from scholars or experts in the field.",
     "A curriculum vitae or resume that details one's professional and academic background.",
     "Proof of relevant research initiatives, internships, professional involvement, or academic projects, as appropriate.",
   ],
@@ -99,9 +97,9 @@ const branch = {
   ],
 
   testsNote: [
-    "The requirements for the Graduate Record Examination (GRE) vary significantly among postgraduate programs in Chemical Engineering. Some universities require GRE scores, while others consider the test optional or do not include it in their evaluation standards.",
+    "The requirements for the **Graduate Record Examination (GRE)** vary significantly among postgraduate programs in Chemical Engineering. Some universities require **GRE scores**, while others consider the test optional or do not include it in their evaluation standards.",
     "It is necessary for prospective applicants to review the particular requirements related to their preferred field of expertise. A strong foundation in mathematics, chemistry, thermodynamics, fluid mechanics, and transport phenomena is usually required for Chemical Engineering studies.",
-    "Academic achievements, laboratory experience, technical projects, internship participation, research contributions, letters of recommendation, and a thorough Statement of Purpose outlining the applicant's academic interests and career goals are typically included in a competitive application portfolio.",
+    "Academic achievements, laboratory experience, technical projects, internship participation, research contributions, **letters of recommendation (LOR)**, and a thorough **Statement of Purpose (SOP)** outlining the applicant's academic interests and career goals are typically included in a competitive application portfolio.",
   ],
 
   costsLead: [
@@ -129,14 +127,14 @@ const branch = {
     "scholarship awards based on merit.",
     "scholarships awarded by departments.",
     "vacancies for graduate research assistants.",
-    "jobs for graduate teaching assistantships.",
-    "tuition reimbursement for assistantships that meet the requirements.",
+    "jobs for graduate **teaching **graduate assistantships****.",
+    "tuition reimbursement for **graduate assistantships** that meet the requirements.",
     "Opportunities for external scholarships offered by qualified organizations and institutes.",
   ],
   scholarshipsNote: [
-    "Programs in Chemical Engineering have different GRE requirements. While some colleges make the test optional or do not take it into consideration, others demand GRE scores.",
+    "Programs in Chemical Engineering have different **GRE requirements**. While some colleges make the test optional or do not take it into consideration, others demand **GRE scores**.",
     "Candidates should go over the requirements for the specialization they want to pursue. A solid background in mathematics, chemistry, thermodynamics, fluid mechanics, and transport phenomena is typically required for Chemical Engineering programs.",
-    "Academic accomplishments, lab experience, technical projects, internships, research experience, recommendation letters, and a concise Statement of Purpose outlining the student's academic interests and career objectives can all be included in a great application.",
+    "Academic accomplishments, lab experience, technical projects, internships, research experience, recommendation letters, and a concise **Statement of Purpose (SOP)** outlining the student's academic interests and career objectives can all be included in a great application.",
   ],
 
   universitiesLead: [
@@ -167,7 +165,7 @@ const branch = {
   universitiesNote: [],
 
   careerIntro:
-    "Graduates with a postgraduate degree can develop advanced technical skills relevant to jobs in the fields of materials science, chemical processing, industrial production, biotechnology, pharmaceutical research, and energy.",
+    "Graduates with a postgraduate degree can develop advanced technical skills relevant to jobs in the fields of materials science, chemical processing, industrial production, biotechnology, pharmaceutical research, and energy. As a **STEM-designated degree program**, chemical engineering graduates are eligible for up to **3 years of OPT (Optional Practical Training)** under an **F-1 student visa**.",
   careerLead: ["Potential career roles include:"],
   careers: [
     "Process Design Engineer Chemical Process Engineer",
@@ -179,14 +177,14 @@ const branch = {
   careerNote: [],
 
   visaLead: [
-    "Indian nationals must usually traverse the necessary international student visa system in order to be admitted to reputable US universities.",
+    "Indian nationals must usually traverse the necessary international **F-1 student visa** system in order to be admitted to reputable US universities.",
     "Typical application procedures consist of:",
   ],
   visaSteps: [
     "Look at educational establishments and choose a suitable concentration in Chemical Engineering.",
     "Check subject-specific requirements and academic qualifications.",
-    "Analyze the Graduate Record Examination (GRE) requirements and English proficiency tests.",
-    "Put together official transcripts, a thorough curriculum vitae, academic references, and a Statement of Purpose.",
+    "Analyze the **Graduate Record Examination (GRE)** requirements and English proficiency tests.",
+    "Put together official transcripts, a thorough curriculum vitae, academic references, and a **Statement of Purpose (SOP)**.",
     "Complete applications and submit them by the deadlines set by the university.",
     "Analyze financial commitments, available financial help, and admissions decisions.",
     "Obtain the necessary paperwork from the organization.",
@@ -194,7 +192,7 @@ const branch = {
     "Make travel plans after authorization and take part in the visa adjudication process, if applicable.",
   ],
   visaNote: [
-    "Authorization for a visa is still dependent on personal circumstances. Candidates must follow current institutional and governmental directives in the United States.",
+    "Authorization for a visa is still dependent on personal circumstances. Candidates must follow current institutional and governmental directives in the **United States**.",
   ],
 
   faqs: [
@@ -216,7 +214,7 @@ const branch = {
     },
     {
       q: "Do Indian students have access to financial help packages?",
-      a: "Yes, eligible candidates can look into teaching assistantships, research assistantships, merit-based scholarships, and additional financing sources. The availability of these chances depends on the financial resources available as well as specific university policies.",
+      a: "Yes, eligible candidates can look into teaching graduate assistantships, research graduate assistantships, merit-based scholarships, and additional financing sources. The availability of these chances depends on the financial resources available as well as specific university policies.",
     },
     {
       q: "How may I study abroad with Edu Hawk Worldwide's assistance?",

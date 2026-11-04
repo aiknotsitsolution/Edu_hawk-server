@@ -1,3 +1,4 @@
+import { formatRichText, EligibilityCtaCard } from "../../../../component/CoursePageKit";
 import React from "react";
 import { AbroadCoursePage } from "../../../../component/CoursePageKit";
 import heroImg from "../../../../Images/Abroad/USA/SummerCourses/hero.webp";
@@ -309,11 +310,11 @@ const page = {
           "t": "ul",
           "items": [
             "Enrolled in secondary school or completed a specified grade.",
-            "School records or academic transcripts.",
+            "School records or **academic transcripts**.",
             "A passport valid for the duration of the intended travel.",
             "Proficiency in English where required.",
             "A short essay/personal statement for application.",
-            "Letters of recommendation where applicable.",
+            "**Letters of recommendation (LOR)** where applicable.",
             "Minors require parental consent.",
             "Proof of funds for tuition and living costs."
           ]
@@ -332,7 +333,7 @@ const page = {
             "Academic Transcripts",
             "English language where appropriate.",
             "A resume, statement of interest or personal essay.",
-            "Letters of recommendation for particular programs.",
+            "**Letters of recommendation (LOR)** for particular programs.",
             "Subject(s) prerequisite for advanced courses."
           ]
         },
@@ -346,7 +347,7 @@ const page = {
         {
           "t": "ul",
           "items": [
-            "Relevant Bachelor's degree or current postgraduate enrollment.",
+            "Relevant **Bachelor's degree** or current postgraduate enrollment.",
             "Academic certificates",
             "A curriculum vitae or resume.",
             "Statement of purpose/research interests.",

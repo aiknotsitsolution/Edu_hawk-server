@@ -1,3 +1,4 @@
+import { formatRichText, EligibilityCtaCard } from "../../../../component/CoursePageKit";
 import React, { useEffect, useRef, useState } from "react";
 import SeoHead from "../../../../component/SeoHead";
 import heroImg from "../../../../Images/Abroad/USA/MarketingManagement/hero.webp";
@@ -31,7 +32,7 @@ const page = {
             "Marketing Management is a business discipline that deals with the understanding of customer needs, formulation of marketing strategy, brand building and promotion of product or service. It blends creativity, market research, consumer psychology, data analysis, communication and business strategy.",
             "Students studying Marketing Management in the USA can explore traditional marketing as well as digital marketing, brand management, advertising, marketing analytics and international marketing.",
             "Students can choose undergraduate, postgraduate, doctorate or certificate courses in marketing, depending on their academic qualification and career goals.",
-            "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."
+            "Edu Hawk Worldwide assists students in exploring international study options, comprehending university admission standards, comparing pathways like [Business Management](/courses/business-management) and [MBA in Marketing](/courses/mba), and [getting expert counselling](/contact). Check our [admission FAQs](#faq) and [top universities](#universities)."
           ]
         }
       ]
@@ -46,7 +47,7 @@ const page = {
           "items": [
             "Industry Ready Education: Learn modern marketing strategies, consumer behavior, branding and market research.",
             "Digital Marketing Exposure: Social media marketing, search engine marketing, content strategy and marketing analytics.",
-            "Practical Learning: Develop skills in campaigns, case studies, presentations and business projects.",
+            "**Practical Learning:** Develop skills in campaigns, case studies, presentations and business projects.",
             "Specialization Options: Choose to specialize in brand management, advertising, international marketing or digital strategy.",
             "Professional Networking: Build connections with faculty, classmates, alumni and industry professionals.",
             "Career Flexibility: Prepare for opportunities in technology, retail, media, consulting, consumer goods and more."
@@ -224,7 +225,7 @@ const page = {
             "Statement of purpose or application essay;",
             "Recommendation letters.",
             "Résumé or curriculum vitae, if applicable.",
-            "GMAT or GRE scores (if required by university);"
+            "**GMAT or GRE** scores (if required by university);"
           ]
         },
         {
@@ -240,7 +241,7 @@ const page = {
             "Relevant bachelor's or master's degree depending on the program.",
             "Academic transcripts",
             "Statement of research interests or research proposal as appropriate.",
-            "Letters of recommendation",
+            "**Letters of recommendation (LOR)**",
             "Resume or Curriculum Vitae.",
             "GMAT/GRE scores (if applicable).",
             "Proof of English proficiency, if applicable."
@@ -287,8 +288,8 @@ const page = {
           "items": [
             "Undergraduate Class 12 results, SAT or ACT if applicable, English proficiency",
             "Post-graduate",
-            "Bachelor’s degree, transcripts, essays, résumé, GMAT or GRE if required Doctorate",
-            "Academic qualifications, research statement, recommendations, GMAT or GRE if required"
+            "Bachelor’s degree, transcripts, essays, résumé, **GMAT or GRE** if required Doctorate",
+            "Academic qualifications, research statement, recommendations, **GMAT or GRE** if required"
           ]
         },
         {
@@ -400,7 +401,7 @@ const page = {
       "title": "Student Visa & Application",
       "groups": [],
       "lead": [
-        "Here are the usual steps taken by Indian students to study Marketing Management in the USA:"
+        "Here are the usual steps taken by **Indian students** to study Marketing Management in the USA:"
       ],
       "steps": [
         {
@@ -409,7 +410,7 @@ const page = {
         },
         {
           "title": "List of Universities",
-          "text": "Compare marketing specializations, curriculum, tuition fees, scholarships and location."
+          "text": "Compare marketing specializations, curriculum, **tuition fees**, scholarships and location."
         },
         {
           "title": "Verify Eligibility",
@@ -417,7 +418,7 @@ const page = {
         },
         {
           "title": "Get Your Documents Ready",
-          "text": "Gather transcripts, diplomas, passport, essays, letters of recommendation, resume and other necessary documents."
+          "text": "Gather transcripts, diplomas, passport, essays, **letters of recommendation (LOR)**, resume and other necessary documents."
         },
         {
           "title": "Apply for",
@@ -429,7 +430,7 @@ const page = {
         },
         {
           "title": "Complete the Required Visa Process",
-          "text": "Qualified students accepted into eligible programs may be issued a Form I-20 and apply for an F-1 student visa subject to current immigration requirements. The visa eligibility of short-term certificate programs can vary based on the program format and institution."
+          "text": "Qualified students accepted into eligible programs may be issued a Form I-20 and apply for an **F-1 student visa** subject to current immigration requirements. The visa eligibility of short-term certificate programs can vary based on the program format and institution."
         },
         {
           "title": "Get Ready for Departure",
@@ -483,7 +484,7 @@ const DocParas = ({
   items && items.length ? (
     <div className={className}>
       {items.map((p, i) => (
-        <p key={i}>{p}</p>
+        <p key={i}>{formatRichText(p)}</p>
       ))}
     </div>
   ) : null;
@@ -491,7 +492,7 @@ const DocParas = ({
 const Li = ({ text }) => (
   <li className="flex items-start gap-3">
     <span className="mt-2 w-1.5 h-1.5 rounded-full bg-orange-500 shrink-0" />
-    <span className="text-slate-600 leading-relaxed">{text}</span>
+    <span className="text-slate-600 leading-relaxed">{formatRichText(text)}</span>
   </li>
 );
 

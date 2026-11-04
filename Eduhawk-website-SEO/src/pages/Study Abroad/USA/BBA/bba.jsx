@@ -1,3 +1,4 @@
+import { formatRichText, EligibilityCtaCard } from "../../../../component/CoursePageKit";
 import React, { useEffect, useRef, useState } from "react";
 import SeoHead from "../../../../component/SeoHead";
 import heroImg from "../../../../Images/Abroad/USA/BBA/hero.webp";
@@ -27,10 +28,10 @@ const page = {
         {
           "t": "p",
           "items": [
-            "A Bachelor of Business Administration (BBA) is an undergraduate degree designed to develop business knowledge, management skills and leadership capabilities. The United States offers students opportunities to study business through hands-on projects, case studies, applicable internships, and industry-focused coursework.",
+            "A **Bachelor of Business Administration (BBA)** is an undergraduate degree designed to develop business knowledge, management skills and leadership capabilities. The **United States** offers students opportunities to study business through hands-on projects, case studies, applicable internships, and industry-focused coursework.",
             "In the USA, similar undergraduate business degrees may also be offered as a Bachelor of Science in Business Administration, Bachelor of Business Administration or Bachelor of Arts in Business depending upon the university.",
             "Students can select from a variety of business specializations based on their academic interests and career goals.",
-            "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."
+            "Edu Hawk Worldwide assists students in exploring international study options, comprehending university admission standards, comparing pathways like [Bachelor of Business Studies (BBS)](/courses/bbs) and advance towards an [MBA in the USA](/courses/mba), and [getting expert counselling](/contact). Check our [admission FAQs](#faq) and [top universities](#universities)."
           ]
         }
       ]
@@ -43,11 +44,11 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Worldwide Recognized Education: Attend universities that offer globally recognized business programs.",
-            "Diverse Specializations: Explore finance, marketing, management, entrepreneurship and more.",
-            "Practical Learning: Learn through projects, presentations, case studies and business simulations.",
-            "Industry Exposure: Some programs provide internship opportunities and connections with employers.",
-            "Flexible Curriculum: Combine business studies with analytics, technology, communication, or other disciplines.",
+            "**Worldwide Recognized Education:** Attend universities that offer globally recognized business programs.",
+            "**Diverse Specializations:** Explore finance, marketing, management, entrepreneurship and more.",
+            "**Practical Learning:** Learn through projects, presentations, case studies and business simulations.",
+            "**Industry Exposure:** Some programs provide internship opportunities and connections with employers.",
+            "**Flexible Curriculum:** Combine business studies with analytics, technology, communication, or other disciplines.",
             "Career Development Learn business, management, marketing, finance and entrepreneurship skills."
           ]
         }
@@ -136,11 +137,11 @@ const page = {
           "items": [
             "12th Class Passed from recognized Board.",
             "Academic grades that satisfy the university’s admission criteria.",
-            "School-leaving documents and academic transcripts.",
+            "School-leaving documents and **academic transcripts**.",
             "Evidence of proficiency in the English Language (if required).",
             "Valid passport.",
             "Application form and supporting documents.",
-            "Personal statement, essay, or letters of recommendation, as applicable."
+            "Personal statement, essay, or **letters of recommendation (LOR)**, as applicable."
           ]
         },
         {
@@ -226,7 +227,7 @@ const page = {
         {
           "t": "ul",
           "items": [
-            "Tuition fees",
+            "**Tuition fees**",
             "15,000-45,000+ USD",
             "Lodging and meals USD 10,000-20,000",
             "Books, supplies and personal expenses.",
@@ -310,12 +311,12 @@ const page = {
       "title": "Process for Student Visa and Application",
       "groups": [],
       "lead": [
-        "Usually, Indian students follow these steps when they plan to study BBA in the USA:"
+        "Usually, **Indian students** follow these steps when they plan to study BBA in the USA:"
       ],
       "steps": [
         {
           "title": "Select a University",
-          "text": "Compare business programs, entry requirements, tuition fees, scholarships & campus location."
+          "text": "Compare business programs, entry requirements, **tuition fees**, scholarships & campus location."
         },
         {
           "title": "Find Out If You Qualify",
@@ -323,7 +324,7 @@ const page = {
         },
         {
           "title": "Organize Documents",
-          "text": "Provide and submit academic transcripts, passport, English exam results, essays, letters of recommendation and financial statements as required."
+          "text": "Provide and submit **academic transcripts**, passport, English exam results, essays, **letters of recommendation (LOR)** and financial statements as required."
         },
         {
           "title": "Apply Now",
@@ -389,7 +390,7 @@ const DocParas = ({
   items && items.length ? (
     <div className={className}>
       {items.map((p, i) => (
-        <p key={i}>{p}</p>
+        <p key={i}>{formatRichText(p)}</p>
       ))}
     </div>
   ) : null;
@@ -397,7 +398,7 @@ const DocParas = ({
 const Li = ({ text }) => (
   <li className="flex items-start gap-3">
     <span className="mt-2 w-1.5 h-1.5 rounded-full bg-orange-500 shrink-0" />
-    <span className="text-slate-600 leading-relaxed">{text}</span>
+    <span className="text-slate-600 leading-relaxed">{formatRichText(text)}</span>
   </li>
 );
 

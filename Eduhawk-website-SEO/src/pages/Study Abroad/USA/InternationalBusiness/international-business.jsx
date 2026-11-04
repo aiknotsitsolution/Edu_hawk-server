@@ -1,3 +1,4 @@
+import { formatRichText, EligibilityCtaCard } from "../../../../component/CoursePageKit";
 import React, { useEffect, useRef, useState } from "react";
 import SeoHead from "../../../../component/SeoHead";
 import heroImg from "../../../../Images/Abroad/USA/InternationalBusiness/hero.webp";
@@ -31,7 +32,7 @@ const page = {
             "International Business is a multidisciplinary field that studies how firms operate, compete and expand in international markets. It is a mix of business management, economics, finance, marketing, international trade and cross-cultural communication.",
             "Students who study international business in the US get an overview of the global market, international business strategies, trade regulations and the complex nature of managing organizations across borders.",
             "Students can study International Business at the undergraduate, master’s, MBA specialization or doctoral level depending on their qualifications and career goals.",
-            "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."
+            "Edu Hawk Worldwide assists students in exploring international study options, comprehending university admission standards, comparing pathways like [MBA in the USA](/courses/mba) and [Business Management](/courses/business-management), and [getting expert counselling](/contact). Check our [admission FAQs](#faq) and [top universities](#universities)."
           ]
         }
       ]
@@ -287,9 +288,9 @@ const page = {
           "items": [
             "Undergraduate Results of Class 12, SAT/ACT where required, English proficiency",
             "Graduate",
-            "Bachelor's Degree, Academic Transcripts, Resume, Essays, GMAT or GRE where required",
+            "Bachelor's Degree, Academic Transcripts, Resume, Essays, **GMAT or GRE** where required",
             "PhD",
-            "Academic Qualifications, Research Statement, Recommendations, GMAT or GRE as required"
+            "Academic Qualifications, Research Statement, Recommendations, **GMAT or GRE** as required"
           ]
         },
         {
@@ -404,7 +405,7 @@ const page = {
       "title": "Student Visa & Application Process",
       "groups": [],
       "lead": [
-        "The Indian students interested to study International Business in the USA generally follow the below-mentioned steps:"
+        "The **Indian students** interested to study International Business in the USA generally follow the below-mentioned steps:"
       ],
       "steps": [
         {
@@ -413,7 +414,7 @@ const page = {
         },
         {
           "title": "Choosing the Universities",
-          "text": "Compare curriculum, specializations, tuition fees, location, scholarships & admission criteria."
+          "text": "Compare curriculum, specializations, **tuition fees**, location, scholarships & admission criteria."
         },
         {
           "title": "Confirm Eligibility",
@@ -421,7 +422,7 @@ const page = {
         },
         {
           "title": "Get Your Documents Ready",
-          "text": "Gather transcripts, diplomas, passport, essays, letters of recommendation, resume and other necessary documents."
+          "text": "Gather transcripts, diplomas, passport, essays, **letters of recommendation (LOR)**, resume and other necessary documents."
         },
         {
           "title": "Apply",
@@ -433,7 +434,7 @@ const page = {
         },
         {
           "title": "Apply for the Appropriate Visa",
-          "text": "Students who meet the admission requirements for qualifying programs may receive a Form I-20 and apply for an F-1 student visa, subject to current immigration requirements."
+          "text": "Students who meet the admission requirements for qualifying programs may receive a Form I-20 and apply for an **F-1 student visa**, subject to current immigration requirements."
         },
         {
           "title": "Get Ready to Leave",
@@ -487,7 +488,7 @@ const DocParas = ({
   items && items.length ? (
     <div className={className}>
       {items.map((p, i) => (
-        <p key={i}>{p}</p>
+        <p key={i}>{formatRichText(p)}</p>
       ))}
     </div>
   ) : null;
@@ -495,7 +496,7 @@ const DocParas = ({
 const Li = ({ text }) => (
   <li className="flex items-start gap-3">
     <span className="mt-2 w-1.5 h-1.5 rounded-full bg-orange-500 shrink-0" />
-    <span className="text-slate-600 leading-relaxed">{text}</span>
+    <span className="text-slate-600 leading-relaxed">{formatRichText(text)}</span>
   </li>
 );
 

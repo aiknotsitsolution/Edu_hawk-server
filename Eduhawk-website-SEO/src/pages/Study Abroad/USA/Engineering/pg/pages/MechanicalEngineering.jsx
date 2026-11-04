@@ -10,10 +10,8 @@ import ucbImg from "../../../../../../Images/Abroad/USA/Engineering_PG/Mechanica
 const branch = {
   name: "Mechanical Engineering",
   slug: "mechanical-engineering",
-  title:
-    "MS in Mechanical Engineering in USA for Indian Students | PG 2026 | Edu Hawk",
-  description:
-    "Study Master's in Mechanical Engineering in the USA. Eligibility, GRE and English requirements, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
+  title: "MS in Mechanical Engineering in USA for Indian Students | PG 2026 | Edu Hawk",
+  description: "Study Master's in Mechanical Engineering in the USA. Eligibility, GRE and English requirements, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Postgraduate Mechanical Engineering in USA, Top Master's in Mechanical Engineering Universities in USA, MS in Mechanical Engineering in USA, Master's in Mechanical Engineering in USA, Postgraduate Mechanical Engineering Courses in USA, Mechanical Engineering Admission Requirements for Master's in USA, MS in Mechanical Engineering Tuition Fees in USA, Mechanical Engineering Scholarships for Indian Students, Top Graduate Mechanical Engineering Colleges in America, Mechanical Engineering Eligibility for Indian Students, GRE Requirements for MS in Mechanical Engineering in USA, English Language Tests for US Universities, Career Opportunities After MS in Mechanical Engineering",
   heroIntro: (
@@ -74,7 +72,7 @@ const branch = {
   ],
 
   eligibilityLead: [
-    "Indian applicants are typically required to fulfill the following criteria:",
+    "Indian applicants are typically required to fulfill the following criteria: ",
   ],
   eligibility: [
     <>A pertinent <strong>bachelor's degree in Mechanical Engineering</strong> or an allied engineering field.</>,

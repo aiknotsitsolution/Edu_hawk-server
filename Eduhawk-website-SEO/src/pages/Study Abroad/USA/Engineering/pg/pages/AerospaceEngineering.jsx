@@ -9,10 +9,8 @@ import stanfordImg from "../../../../../../Images/Abroad/USA/Engineering_PG/Aero
 const branch = {
   name: "Aerospace Engineering",
   slug: "aerospace-engineering",
-  title:
-    "MS in Aerospace Engineering in USA for Indian Students | PG 2026 | Edu Hawk",
-  description:
-    "Study Master's in Aerospace Engineering in the USA. Eligibility, tuition fees, top universities, scholarships, careers and the visa process for Indian students with Edu Hawk Worldwide.",
+  title: "MS in Aerospace Engineering in USA for Indian Students | PG 2026 | Edu Hawk",
+  description: "Study Master's in Aerospace Engineering in the USA. Eligibility, tuition fees, top universities, scholarships, careers and the visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Postgraduate Aerospace Engineering in USA for Indian Students, Best Master's in Aerospace Engineering Universities in USA, MS in Aerospace Engineering in USA, Master's in Aerospace Engineering in USA for Indian Students, Postgraduate Aerospace Engineering Courses in USA, Aerospace Engineering Admission Requirements for Master's in USA, MS in Aerospace Engineering Tuition Fees in USA, Aerospace Engineering Scholarships for Indian Students, Top Graduate Aerospace Engineering Colleges in America, Aerospace Engineering Eligibility for Indian Students",
   heroIntro: (
@@ -67,24 +65,26 @@ const branch = {
     "Autonomous Aircraft and Unmanned Aerial Vehicle Systems",
     "Computational Aerospace Engineering",
   ],
-  coursesNote: ["Common specialisations include:"],
+  coursesNote: [
+    "Common specialisations include: advanced engineering design, computational methods, and system modeling. Students also compare related postgraduate programs such as [MS in Mechanical Engineering](/courses/pg/mechanical-engineering) and [MS in Automobile Engineering](/courses/pg/automobile-engineering), or review [Undergraduate Aerospace Engineering](/courses/ug/aerospace-engineering).",
+  ],
 
   duration: [
-    "Postgraduate Aerospace Engineering programs within the United States typically require one to two years for completion. The specific timeframe is contingent upon institutional policies, credit hour requirements, research obligations, and the student's selection between thesis-oriented or course-based study modalities. The academic curriculum encompasses advanced topics including aerodynamics, propulsion systems, flight dynamics, aerospace structural analysis, computational modeling, spacecraft systems engineering, and aircraft design methodologies.",
+    "Postgraduate Aerospace Engineering programs within the **United States** typically require **one to two years** for completion. The specific timeframe is contingent upon institutional policies, credit hour requirements, research obligations, and the student's selection between thesis-oriented or course-based study modalities. The academic curriculum encompasses advanced topics including aerodynamics, propulsion systems, flight dynamics, aerospace structural analysis, computational modeling, spacecraft systems engineering, and aircraft design methodologies.",
   ],
 
   eligibilityLead: [
-    "Indian applicants must generally satisfy the following admission criteria:",
+    "Indian applicants must generally satisfy the following admission criteria: ",
   ],
   eligibility: [
-    "A bachelor's degree in Aerospace Engineering, Aeronautical Engineering, Mechanical Engineering, or an equivalent discipline.",
-    "Official academic transcripts and degree certificates.",
+    "A **bachelor's degree** in Aerospace Engineering, Aeronautical Engineering, Mechanical Engineering, or an equivalent discipline.",
+    "Official **academic transcripts** and degree certificates.",
     "Minimum academic performance standards as established by the institution.",
     "English-language proficiency demonstration, where mandated.",
-    "Graduate Record Examination (GRE) scores, if stipulated by the program.",
-    "Statement of Purpose.",
-    "Letters of Recommendation.",
-    "Resume or Curriculum Vitae.",
+    "**Graduate Record Examination (GRE)** scores, if stipulated by the program.",
+    "**Statement of Purpose (SOP)**.",
+    "**Letters of Recommendation (LOR)**.",
+    "**Resume or Curriculum Vitae**.",
     "Documentation of relevant engineering projects, internships, research endeavors, or professional experience, where applicable.",
   ],
 
@@ -102,11 +102,11 @@ const branch = {
   ],
 
   testsNote: [
-    "No. GRE requirements vary by university and program. Some institutions require it, while others make it optional or do not consider it.",
+    "No. **GRE requirements** vary by university and program. Some institutions require it, while others make it optional or do not consider it.",
   ],
 
   costsLead: [
-    "The cumulative financial investment required for postgraduate Aerospace Engineering studies within the United States demonstrates considerable variability contingent upon factors including institutional selection, geographic location, program duration, and accessible financial support mechanisms.",
+    "The cumulative financial investment required for postgraduate Aerospace Engineering studies within the **United States** demonstrates considerable variability contingent upon factors including institutional selection, geographic location, program duration, and accessible financial support mechanisms.",
     "Primary expenditure categories include:",
   ],
   costs: [
@@ -119,7 +119,7 @@ const branch = {
     "Visa processing, travel arrangements, and relocation expenses.",
   ],
   costsNote: [
-    "Prospective students are advised to examine institutional fee schedules and living expense projections to ascertain comprehensive program costs. Systematic evaluation of tuition rates, living expenses, and available financial resources enables informed decision-making for international applicants.",
+    "Prospective students are advised to examine institutional fee schedules and living expense projections to ascertain comprehensive program costs. Systematic evaluation of tuition rates, **living expenses**, and available financial resources enables informed decision-making for international applicants.",
   ],
 
   scholarshipsLead: [
@@ -131,7 +131,7 @@ const branch = {
     "Departmental scholarship allocations.",
     "Graduate research assistantship positions.",
     "Graduate teaching assistantship positions.",
-    "Tuition remission associated with qualifying assistantships.",
+    "Tuition remission associated with qualifying **graduate assistantships**.",
     "External scholarship opportunities provided by eligible institutions and organizations.",
   ],
   scholarshipsNote: [],
@@ -164,7 +164,7 @@ const branch = {
   universitiesNote: [],
 
   careerIntro:
-    "A postgraduate qualification enables graduates to cultivate sophisticated technical competencies applicable to professional trajectories in aircraft engineering, space systems, propulsion, simulation, and aerospace research.",
+    "A postgraduate qualification enables graduates to cultivate sophisticated technical competencies applicable to professional trajectories in aircraft engineering, space systems, propulsion, simulation, and aerospace research. As a **STEM-designated degree program**, aerospace engineering graduates are eligible for up to **3 years of OPT (Optional Practical Training)** under an **F-1 student visa**.",
   careerLead: ["Prospective professional positions encompass:"],
   careers: [
     "Aerospace Design Engineer",
@@ -185,18 +185,18 @@ const branch = {
   ],
 
   visaLead: [
-    "Indian students accepted to an accredited USA  institution typically must complete the requisite student visa procedures.",
+    "Indian students accepted to an accredited USA  institution typically must complete the requisite **F-1 student visa** procedures.",
     "Standard application procedures include:",
   ],
   visaSteps: [
     "Investigate academic institutions and identify an appropriate Aerospace Engineering concentration.",
     "Verify academic prerequisites and foundational coursework requirements.",
     "Examine English-language proficiency and GRE examination criteria.",
-    "Assemble official transcripts, a Statement of Purpose, academic references, and curriculum vitae.",
+    "Assemble official transcripts, a **Statement of Purpose (SOP)**, academic references, and curriculum vitae.",
     "Submit completed applications in accordance with institutional deadlines.",
     "Evaluate admission decisions, educational expenditures, and financial assistance options.",
     "Procure essential student documentation from the academic institution.",
-    "Remit the applicable SEVIS fee and finalize the visa application.",
+    "Remit the applicable **SEVIS fee** and finalize the visa application.",
     "Participate in the visa interview, when applicable, and arrange travel logistics following authorization.",
   ],
   visaNote: [],
@@ -204,10 +204,10 @@ const branch = {
   faqs: [
     {
       q: "Are Indian students eligible to pursue postgraduate Aerospace Engineering studies in the United States?",
-      a: "Yes. Indian students possessing a pertinent bachelor's degree and requisite academic credentials may apply to appropriate postgraduate curricula.",
+      a: "Yes. Indian students possessing a pertinent bachelor's degree** and requisite academic credentials may apply to appropriate postgraduate curricula.",
     },
     {
-      q: "What is the typical duration of a master's degree in Aerospace Engineering within the United States?",
+      q: "What is the typical duration of a master's degree in Aerospace Engineering within the **United States**?",
       a: "A postgraduate qualification can help graduates develop advanced technical skills for careers in aircraft engineering, space systems, propulsion, simulation, and aerospace research.",
     },
     {
@@ -220,7 +220,7 @@ const branch = {
     },
     {
       q: "Are scholarships available for Indian students?",
-      a: "Yes. Eligible students may explore merit scholarships, research assistantships, teaching assistantships, and other funding opportunities. Availability and eligibility vary by institution and research project.",
+      a: "Yes. Eligible students may explore merit scholarships, research graduate assistantships, teaching graduate assistantships, and other funding opportunities. Availability and eligibility vary by institution and research project.",
     },
     {
       q: "How can Edu Hawk worldwide Consultancy help me study abroad?",

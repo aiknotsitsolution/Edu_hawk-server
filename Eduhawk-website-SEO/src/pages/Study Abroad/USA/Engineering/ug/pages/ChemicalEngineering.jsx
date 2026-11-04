@@ -10,8 +10,7 @@ const branch = {
   name: "Chemical Engineering",
   slug: "chemical-engineering",
   title: "Chemical Engineering in USA for Indian Students | UG 2026 | Edu Hawk",
-  description:
-    "Study Bachelor's in Chemical Engineering in the USA after Class 12. Eligibility, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
+  description: "Study Bachelor's in Chemical Engineering in the USA after Class 12. Eligibility, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Chemical Engineering in USA for Indian Students, Best Chemical Engineering Universities in USA, Bachelor's in Chemical Engineering in USA, Study Chemical Engineering in USA After 12th, Chemical Engineering Courses in USA, Chemical Engineering Admission Requirements in USA, Chemical Engineering Tuition Fees in USA, Chemical Engineering Scholarships for Indian Students, Top Chemical Engineering Colleges in America, Chemical Engineering Eligibility for Indian Students, SAT Requirements for Chemical Engineering in USA, English Language Tests for US Universities, Career Opportunities After Chemical Engineering, Pharmaceutical and Process Engineering in USA, USA Student Visa for Indian Engineering Students",
   heroIntro: (
@@ -56,7 +55,7 @@ const branch = {
   ],
 
   duration: [
-    "In the United States an undergraduate degree in Chemical Engineering usually takes four years to finish.",
+    "In the **United States** an undergraduate degree in Chemical Engineering usually takes four years to finish.",
     "The course usually covers mathematics, chemistry, physics, thermodynamics, fluid mechanics, heat and mass transfer, chemical reaction engineering, process control, and process design.",
     "Students have the opportunity as well to carry out laboratory experiments, carry out design projects, take part in research activities, do internships, or undertake cooperative education placements.",
   ],
@@ -69,7 +68,7 @@ const branch = {
     "The subjects needed by the university include mathematics and chemistry, as well as physics and any other subjects required.",
     "Marks that meet the requirements for admission by the institution.",
     "English-language proficiency where required.",
-    "The SAT or ACT scores, if the university requires them.",
+    "The **SAT or ACT** scores, if the university requires them.",
     "The academic transcripts and other documents required for the application.",
   ],
 
@@ -86,12 +85,12 @@ const branch = {
   englishNote: [],
 
   testsNote: [
-    "The requirement for SAT or ACT scores varies from university to university and according to the admission cycle; some schools do require the scores while others have a test-optional policy.",
+    "The requirement for **SAT or ACT** scores varies from university to university and according to the admission cycle; some schools do require the scores while others have a test-optional policy.",
     "No single entrance examination is required by all US universities for admission to an undergraduate Chemical Engineering programme. It is advisable for students to look into the current testing policies, the application deadlines, and the requirements specific to the programme.",
   ],
 
   costsLead: [
-    "The total cost of undertaking an undergraduate course in Chemical Engineering in the United States varies according to the university, the location, and the accommodation arrangements.",
+    "The total cost of undertaking an undergraduate course in Chemical Engineering in the **United States** varies according to the university, the location, and the accommodation arrangements.",
     "Main expenses include:",
   ],
   costs: [
@@ -107,7 +106,7 @@ const branch = {
   ],
 
   scholarshipsLead: [
-    "A number of universities in the United States give scholarships and financial aid to international undergraduate students who are eligible.",
+    "A number of universities in the **United States** give scholarships and financial aid to international undergraduate students who are eligible.",
     "Possible funding options include:",
   ],
   scholarships: [
@@ -147,11 +146,11 @@ const branch = {
     },
   ],
   universitiesNote: [
-    "Students must check on each university's official website to find out the precise undergraduate degree offered, the admission requirements, the tuition fees, and whether the programme is accredited.",
+    "Students must check on each university's official website to find out the precise undergraduate degree offered, the admission requirements, the **tuition fees**, and whether the programme is accredited.",
   ],
 
   careerIntro:
-    "Graduates have the opportunity to take up starting careers in the fields of chemical processing, manufacturing, energy, pharmaceuticals, materials, and environmental technology.",
+    "Graduates have the opportunity to take up starting careers in the fields of chemical processing, manufacturing, energy, pharmaceuticals, materials, and environmental technology. As a **STEM-designated degree program**, chemical engineering graduates are eligible for up to **3 years of OPT (Optional Practical Training)** under an **F-1 student visa**.",
   careerLead: ["Potential career roles include:"],
   careers: [
     "Junior Chemical Engineer",
@@ -170,7 +169,7 @@ const branch = {
   ],
 
   visaLead: [
-    "Indian students who have been accepted by a suitable US institution usually have to go through the relevant student visa procedure.",
+    "Indian students who have been accepted by a suitable US institution usually have to go through the relevant **F-1 student visa** procedure.",
     "Typical steps include:",
   ],
   visaSteps: [
@@ -181,7 +180,7 @@ const branch = {
     "Make sure that your applications are submitted by the relevant deadlines.",
     "Look over admission offers and money requirements.",
     "Get the student documents that are required from the university.",
-    "You must pay the relevant SEVIS fee and fill out the visa application.",
+    "You must pay the relevant **SEVIS fee** and fill out the visa application.",
     "If a visa interview is required, attend it and then prepare for travel after your visa has been approved.",
   ],
   visaNote: [],

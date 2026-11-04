@@ -10,10 +10,8 @@ import pennImg from "../../../../../../Images/Abroad/USA/Engineering_UG/Biomedic
 const branch = {
   name: "Biomedical Engineering",
   slug: "biomedical-engineering",
-  title:
-    "Biomedical Engineering in USA for Indian Students | UG 2026 | Edu Hawk",
-  description:
-    "Study Bachelor's in Biomedical Engineering in the USA after Class 12. Eligibility, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
+  title: "Biomedical Engineering in USA for Indian Students | UG 2026 | Edu Hawk",
+  description: "Study Bachelor's in Biomedical Engineering in the USA after Class 12. Eligibility, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Biomedical Engineering in USA for Indian Students, Best Biomedical Engineering Universities in USA, Bachelor's in Biomedical Engineering in USA, Study Biomedical Engineering in USA After 12th, Biomedical Engineering Courses in USA, Biomedical Engineering Admission Requirements in USA, Biomedical Engineering Tuition Fees in USA, Biomedical Engineering Scholarships for Indian Students, Top Biomedical Engineering Colleges in America, Biomedical Engineering Eligibility for Indian Students, SAT Requirements for Biomedical Engineering in USA, English Language Tests for US Universities, Career Opportunities After Biomedical Engineering, Medical Device Engineering Courses in USA, USA Student Visa for Indian Engineering Students",
   heroIntro: (
@@ -62,20 +60,20 @@ const branch = {
   ],
 
   duration: [
-    "An undergraduate Biomedical Engineering degree in the United States ordinarily necessitates a four-year period of study for successful completion.",
+    "An undergraduate Biomedical Engineering degree in the **United States** ordinarily necessitates a four-year period of study for successful completion.",
     "The academic program typically incorporates coursework in mathematics, physics, biology, chemistry, engineering mechanics, biomaterials, biomechanics, biomedical instrumentation, medical imaging, and physiological systems.",
     "Students customarily engage in laboratory experimentation, independent research endeavors, engineering design projects, and supervised internship placements.",
   ],
 
   eligibilityLead: [
-    "Indian students are generally expected to satisfy the subsequent criteria:",
+    "Indian students are generally expected to satisfy the subsequent criteria: ",
   ],
   eligibility: [
     "Completion of Class 12 successfully from an accredited school",
-    "Proficiency in mathematics and physics alongside chemistry, biology, or additional subjects as stipulated by the target institution",
+    "Proficiency in **mathematics and physics** alongside chemistry, biology, or additional subjects as stipulated by the target institution",
     "Academic achievement that fulfills the university's admission standards",
-    "Demonstrated proficiency in English where required; standardized examination scores from the SAT or ACT",
-    "Provision of detailed academic records and supplementary application documentation.",
+    "Demonstrated proficiency in English where required; standardized examination scores from the **SAT or ACT**",
+    "Provision of detailed **academic records** and supplementary application documentation.",
   ],
 
   englishLead: [
@@ -85,7 +83,7 @@ const branch = {
   englishNote: [],
 
   testsNote: [
-    "Standardized examination prerequisites, specifically the SAT or ACT, vary considerably depending on the institution and the particular admission cycle being evaluated. While some universities require submission of examination scores, many others have adopted test-optional frameworks for their admissions processes. It is important remember that not all USA universities that offer undergraduate Biomedical Engineering programs require the same standardized entry exam. Prospective applicants are advised to thoroughly examine the current admission requirements, application submission deadlines, and discipline-specific prerequisites established by their target institutions.",
+    "Standardized examination prerequisites, specifically the **SAT or ACT**, vary considerably depending on the institution and the particular admission cycle being evaluated. While some universities require submission of examination scores, many others have adopted test-optional frameworks for their admissions processes. It is important remember that not all USA universities that offer undergraduate Biomedical Engineering programs require the same standardized entry exam. Prospective applicants are advised to thoroughly examine the current admission requirements, application submission deadlines, and discipline-specific prerequisites established by their target institutions.",
   ],
 
   costsLead: [
@@ -146,11 +144,11 @@ const branch = {
     },
   ],
   universitiesNote: [
-    "Edu Hawk worldwide an help students understand the available education pathways and shortlist universities according to their qualifications and career goals.",
+    "With Edu Hawk Worldwide guidance, students can explore [Undergraduate Engineering in the USA](/courses/ug/engineering) and [book free counselling](/contact) to shortlist universities according to their qualifications and career goals.",
   ],
 
   careerIntro:
-    "Graduates have the opportunity to pursue entry-level positions across medical technology, healthcare equipment, biomedical research, and engineering design sectors. Prospective career trajectories include the following roles:",
+    "Graduates have the opportunity to pursue entry-level positions across medical technology, healthcare equipment, biomedical research, and engineering design sectors. Prospective career trajectories include the following roles: As a **STEM-designated degree program**, biomedical engineering graduates are eligible for up to **3 years of OPT (Optional Practical Training)** under an **F-1 student visa**.",
   careerLead: [],
   careers: [
     "Biomedical Engineering Associate",
@@ -169,7 +167,7 @@ const branch = {
   careerNote: [],
 
   visaLead: [
-    "Indian students who obtain admission to an accredited US institution are generally required to complete the applicable student visa process.",
+    "Indian students who obtain admission to an accredited US institution are generally required to complete the applicable **F-1 student visa** process.",
     "Typical procedural steps include:",
   ],
   visaSteps: [

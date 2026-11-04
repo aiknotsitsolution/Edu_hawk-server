@@ -1,3 +1,4 @@
+import { formatRichText, EligibilityCtaCard } from "../../../../component/CoursePageKit";
 import React, { useEffect, useRef, useState } from "react";
 import SeoHead from "../../../../component/SeoHead";
 import heroImg from "../../../../Images/Abroad/USA/ExecutiveMBA/hero.webp";
@@ -29,8 +30,8 @@ const page = {
           "t": "p",
           "items": [
             "The Executive Master of Business Administration (Executive MBA or EMBA) is a postgraduate business degree program designed for experienced professionals, managers, business leaders and entrepreneurs who want to improve their leadership and strategic management skills.",
-            "Executive MBA programs generally include business strategy, finance, marketing, organizational leadership, innovation and decision-making. Many are geared to allow professionals to work while they earn their advanced education.",
-            "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."
+            "**Executive MBA** programs generally include business strategy, finance, marketing, organizational leadership, innovation and decision-making. Many are geared to allow professionals to work while they earn their advanced education.",
+            "Edu Hawk Worldwide assists students in exploring international study options, comprehending university admission standards, comparing pathways like [MBA in the USA](/courses/mba) and [International Business](/courses/international-business), and [getting expert counselling](/contact). Check our [admission FAQs](#faq) and [top universities](#universities)."
           ]
         }
       ]
@@ -48,7 +49,7 @@ const page = {
             "Professional Networking: Connect with experienced professionals, managers, entrepreneurs and business leaders.",
             "Hands-On Learning: Learn business principles using case studies, projects, simulations and leadership exercises.",
             "Global Business Perspective: Explore international markets, business strategy and cross-cultural management.",
-            "Career Development: Get ready to take on more responsibilities, leadership roles or even start your own business."
+            "**Career Development:** Get ready to take on more responsibilities, leadership roles or even start your own business."
           ]
         }
       ]
@@ -88,7 +89,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Executive MBA programs tend to provide general management education and elective topics or concentrations vary by school.",
+            "**Executive MBA** programs tend to provide general management education and elective topics or concentrations vary by school.",
             "Some of the popular study areas are:"
           ]
         },
@@ -124,7 +125,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Typically, the duration of Executive MBA programs in the USA is 18-24 months, but there are some shorter and longer programs.",
+            "Typically, the duration of **Executive MBA** programs in the USA is 18-24 months, but there are some shorter and longer programs.",
             "The length depends on the university, class schedule, credit requirements, format of study, and any international modules or residency sessions.",
             "Many programs are geared toward working professionals but students should check attendance requirements and the expected time commitment before signing up."
           ]
@@ -152,7 +153,7 @@ const page = {
             "Academic transcripts and certificates of degree.",
             "Resume or curriculum vitae – current.",
             "Essays or professional objective statements.",
-            "Letters of recommendation.",
+            "**Letters of recommendation (LOR)**.",
             "An interview, where necessary."
           ]
         }
@@ -172,7 +173,7 @@ const page = {
             "TOEFL iBT",
             "PTE Academic where accepted",
             "Other approved English language assessments",
-            "Some Executive MBA programs waive English-language tests for qualified applicants. Students should check the university policy, minimum scores and exemption criteria."
+            "Some **Executive MBA** programs waive English-language tests for qualified applicants. Students should check the university policy, minimum scores and exemption criteria."
           ]
         }
       ]
@@ -192,11 +193,11 @@ const page = {
         {
           "t": "ul",
           "items": [
-            "GMAT or GRE scores, if applicable.",
+            "**GMAT or GRE** scores, if applicable.",
             "School transcripts.",
             "Professional résumé or CV.",
             "Personal statement or essay.",
-            "Letters of recommendation.",
+            "**Letters of recommendation (LOR)**.",
             "Documentation of employer sponsorship or support, if applicable.",
             "Interview with admissions team."
           ]
@@ -204,7 +205,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Many Executive MBA programs do not require the GMAT or GRE, but policies vary. Applicants should check current admission requirements directly with the university they are interested in."
+            "Many **Executive MBA** programs do not require the **GMAT or GRE**, but policies vary. Applicants should check current admission requirements directly with the university they are interested in."
           ]
         }
       ]
@@ -217,7 +218,7 @@ const page = {
         {
           "t": "dl",
           "items": [
-            "Executive MBA programs in the USA can be a huge investment. The cost of tuition depends on the program’s format, the services it includes, and the opportunities for learning internationally.",
+            "**Executive MBA** programs in the USA can be a huge investment. The cost of tuition depends on the program’s format, the services it includes, and the opportunities for learning internationally.",
             "Cost",
             "Planning Estimate Broad",
             "Executive MBA tuition USD 60,000-200,000+ for the whole program, Travel & Accommodations, Depending on attendance format and location",
@@ -228,7 +229,7 @@ const page = {
           "pairs": [
             {
               "t": null,
-              "d": "Executive MBA programs in the USA can be a huge investment. The cost of tuition depends on the program’s format, the services it includes, and the opportunities for learning internationally."
+              "d": "**Executive MBA** programs in the USA can be a huge investment. The cost of tuition depends on the program’s format, the services it includes, and the opportunities for learning internationally."
             },
             {
               "t": null,
@@ -335,11 +336,11 @@ const page = {
         },
         {
           "title": "Review the Offer & Funding",
-          "text": "Please review the admission requirements, tuition fees, scholarship opportunities and payment due dates."
+          "text": "Please review the admission requirements, **tuition fees**, scholarship opportunities and payment due dates."
         },
         {
           "title": "Verify immigration requirements",
-          "text": "Confirm with the university’s international student office that the program and study format is conducive to the appropriate student visa route. Students in eligible programs and qualifying programs are eligible for Form I-20 for application for an F-1 student visa."
+          "text": "Confirm with the university’s international student office that the program and study format is conducive to the appropriate student visa route. Students in eligible programs and qualifying programs are eligible for Form I-20 for application for an **F-1 student visa**."
         },
         {
           "title": "Getting ready to go or attend",
@@ -393,7 +394,7 @@ const DocParas = ({
   items && items.length ? (
     <div className={className}>
       {items.map((p, i) => (
-        <p key={i}>{p}</p>
+        <p key={i}>{formatRichText(p)}</p>
       ))}
     </div>
   ) : null;
@@ -401,7 +402,7 @@ const DocParas = ({
 const Li = ({ text }) => (
   <li className="flex items-start gap-3">
     <span className="mt-2 w-1.5 h-1.5 rounded-full bg-orange-500 shrink-0" />
-    <span className="text-slate-600 leading-relaxed">{text}</span>
+    <span className="text-slate-600 leading-relaxed">{formatRichText(text)}</span>
   </li>
 );
 

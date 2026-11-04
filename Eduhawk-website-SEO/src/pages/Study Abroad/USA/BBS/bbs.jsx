@@ -1,3 +1,4 @@
+import { formatRichText, EligibilityCtaCard } from "../../../../component/CoursePageKit";
 import React, { useEffect, useRef, useState } from "react";
 import SeoHead from "../../../../component/SeoHead";
 import heroImg from "../../../../Images/Abroad/USA/BBS/hero.webp";
@@ -32,7 +33,7 @@ const page = {
             "The Bachelor of Business Studies (BBS) is an undergraduate degree that covers business principles, management, economics, finance, marketing and organizational operations. It enables students to acquire skills in analytical thinking, communication, problem solving and decision making for the modern business environment.",
             "The particular degree Bachelor of Business Studies (BBS) is less common in the US. Students interested in a similar qualification could look at undergraduate degrees in Business Administration, Business Management, Business or International Business.",
             "These programs offer a solid grounding in business operations and enable students to acquire specialized knowledge in areas that are consistent with their academic interests and career goals.",
-            "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."
+            "Edu Hawk Worldwide assists students in exploring international study options, comprehending university admission standards, comparing pathways like [Bachelor of Business Administration (BBA)](/courses/bba) and [Business Management](/courses/business-management), and [getting expert counselling](/contact). Check our [admission FAQs](#faq) and [top universities](#universities)."
           ]
         }
       ]
@@ -49,7 +50,7 @@ const page = {
             "Broad Business Knowledge Study management, finance, accounting, economics and marketing |",
             "Hands-on Experience: Gain practical abilities through case studies, group projects, presentations and business simulations.",
             "Specialization Options: Select from areas like entrepreneurship, international business, finance or marketing.",
-            "Industry Exposure: Some universities provide internship opportunities and career development resources.",
+            "**Industry Exposure:** Some universities provide internship opportunities and career development resources.",
             "Additional Study Options: Lay a foundation for an MBA or specialized master’s degree."
           ]
         }
@@ -141,7 +142,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "The typical requirements for Indian students applying to undergraduate business programs are:"
+            "The typical requirements for **Indian students** applying to undergraduate business programs are:"
           ]
         },
         {
@@ -153,7 +154,7 @@ const page = {
             "Proof of English language proficiency, if required.",
             "A current passport.",
             "Application form completed.",
-            "Personal essays and/or letters of recommendation, if applicable."
+            "Personal essays and/or **letters of recommendation (LOR)**, if applicable."
           ]
         },
         {
@@ -298,12 +299,12 @@ const page = {
       "title": "Application Procedure & Student Visa",
       "groups": [],
       "lead": [
-        "Generally Indian students planning to study business in USA go through the following steps:"
+        "Generally **Indian students** planning to study business in USA go through the following steps:"
       ],
       "steps": [
         {
           "title": "Pick a program",
-          "text": "Compare business degrees by curriculum, tuition fees, university location and career goals"
+          "text": "Compare business degrees by curriculum, **tuition fees**, university location and career goals"
         },
         {
           "title": "Know if You are Eligible",
@@ -311,7 +312,7 @@ const page = {
         },
         {
           "title": "Collect Documents",
-          "text": "Arrange academic transcripts, passport, test scores, essays, recommendation letters and financial documents as requested."
+          "text": "Arrange **academic transcripts**, passport, test scores, essays, recommendation letters and financial documents as requested."
         },
         {
           "title": "Apply",
@@ -377,7 +378,7 @@ const DocParas = ({
   items && items.length ? (
     <div className={className}>
       {items.map((p, i) => (
-        <p key={i}>{p}</p>
+        <p key={i}>{formatRichText(p)}</p>
       ))}
     </div>
   ) : null;
@@ -385,7 +386,7 @@ const DocParas = ({
 const Li = ({ text }) => (
   <li className="flex items-start gap-3">
     <span className="mt-2 w-1.5 h-1.5 rounded-full bg-orange-500 shrink-0" />
-    <span className="text-slate-600 leading-relaxed">{text}</span>
+    <span className="text-slate-600 leading-relaxed">{formatRichText(text)}</span>
   </li>
 );
 

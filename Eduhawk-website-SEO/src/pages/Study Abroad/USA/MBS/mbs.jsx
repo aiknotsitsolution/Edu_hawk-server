@@ -1,3 +1,4 @@
+import { formatRichText, EligibilityCtaCard } from "../../../../component/CoursePageKit";
 import React, { useEffect, useRef, useState } from "react";
 import SeoHead from "../../../../component/SeoHead";
 import heroImg from "../../../../Images/Abroad/USA/MBS/hero.webp";
@@ -29,7 +30,7 @@ const page = {
           "t": "p",
           "items": [
             "MBS generally stands for Master of Business Studies. However, the precise meaning of an MBS degree and its availability varies from country to country and university to university. Those interested in business and management education in the USA should verify whether the institution they are interested in offers a program specifically named Master of Business Studies or a related degree such as a Master of Science in Management or Master of Business Administration.",
-            "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."
+            "Edu Hawk Worldwide assists students in exploring international study options, comprehending university admission standards, comparing pathways like [MBA in the USA](/courses/mba) and [Business Management](/courses/business-management), and [getting expert counselling](/contact). Check our [admission FAQs](#faq) and [top universities](#universities)."
           ]
         }
       ]
@@ -109,10 +110,10 @@ const page = {
           "items": [
             "Academic transcript and degree certificates.",
             "Proficiency in English language, as required.",
-            "Statement of Purpose or application essay.",
-            "Letters of recommendation (if required)",
+            "**Statement of Purpose (SOP)** or application essay.",
+            "**Letters of recommendation (LOR)** (if required)",
             "Resume or CV, as appropriate to the program.",
-            "GMAT or GRE scores, if the school requires it."
+            "**GMAT or GRE** scores, if the school requires it."
           ]
         },
         {
@@ -148,7 +149,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Program requirements vary based on GMAT or GRE.",
+            "Program requirements vary based on **GMAT or GRE**.",
             "Some universities are making these tests optional or offering waivers."
           ]
         },
@@ -156,7 +157,7 @@ const page = {
           "t": "ul",
           "items": [
             "Applicants may also be required to submit academic essays",
-            "letters of recommendation,",
+            "**letters of recommendation (LOR)**,",
             "Interviews and evidence of relevant academic or professional experience."
           ]
         }
@@ -171,8 +172,8 @@ const page = {
           "t": "p",
           "items": [
             "Indicative Annual Planning Estimates for Related Master’s Programs:",
-            "Tuition fees: Around USD 20,000-60,000 and above.",
-            "Living expenses: Around USD 14,000–35,000.",
+            "**Tuition fees**: Around USD 20,000-60,000 and above.",
+            "**Living expenses**: Around USD 14,000–35,000.",
             "Actual costs will vary depending on the university, location, length of the program, accommodation and lifestyle. Check official fees before applying."
           ]
         }
@@ -235,7 +236,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Most Indian students require a valid student visa to study an approved academic program. The full-time academic study visa is the F-1 visa.",
+            "Most **Indian students** require a valid student visa to study an approved academic program. The full-time academic study visa is the **F-1 student visa**.",
             "Application process:"
           ]
         },
@@ -301,7 +302,7 @@ const DocParas = ({
   items && items.length ? (
     <div className={className}>
       {items.map((p, i) => (
-        <p key={i}>{p}</p>
+        <p key={i}>{formatRichText(p)}</p>
       ))}
     </div>
   ) : null;
@@ -309,7 +310,7 @@ const DocParas = ({
 const Li = ({ text }) => (
   <li className="flex items-start gap-3">
     <span className="mt-2 w-1.5 h-1.5 rounded-full bg-orange-500 shrink-0" />
-    <span className="text-slate-600 leading-relaxed">{text}</span>
+    <span className="text-slate-600 leading-relaxed">{formatRichText(text)}</span>
   </li>
 );
 

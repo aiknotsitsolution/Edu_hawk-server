@@ -10,8 +10,7 @@ const branch = {
   name: "Computer Engineering",
   slug: "computer-engineering",
   title: "Computer Engineering in USA for Indian Students | UG 2026 | Edu Hawk",
-  description:
-    "Study Bachelor's in Computer Engineering in the USA after Class 12. Eligibility, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
+  description: "Study Bachelor's in Computer Engineering in the USA after Class 12. Eligibility, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Computer Engineering in USA for Indian Students, Best Computer Engineering Universities in USA, Bachelor's in Computer Engineering in USA, Computer Engineering Courses in USA, Study Computer Engineering in USA After 12th, Computer Engineering Admission Requirements in USA, Computer Engineering Tuition Fees in USA, Computer Engineering Scholarships for Indian Students, Career Opportunities After Computer Engineering",
   heroIntro: (
@@ -30,19 +29,19 @@ const branch = {
 
   whyLead: ["Principal advantages encompass:"],
   whyPoints: [
-    "Access to state-of-the-art computer engineering laboratories and research infrastructure.",
-    "Prospects to investigate cutting-edge technological domains including artificial intelligence, robotics, and embedded systems.",
-    "Hands-on competency development through engineering design initiatives and professional internship experiences.",
-    "Networking opportunities with leading technology enterprises and scholarly research institutions.",
-    "Diverse academic trajectories and cross-disciplinary educational approaches.",
-    "Comprehensive career pathways spanning hardware architecture, software systems, semiconductor engineering, and computational technologies.",
+    "Access to state-of-the-art **computer engineering laboratories** and research infrastructure.",
+    "Prospects to investigate cutting-edge technological domains including **artificial intelligence**, **robotics**, and **embedded systems**.",
+    "Hands-on competency development through **engineering design initiatives** and **professional internship experiences**.",
+    "Networking opportunities with leading **technology enterprises** and scholarly research institutions.",
+    "Diverse academic trajectories and **cross-disciplinary educational approaches**.",
+    "Comprehensive career pathways spanning **hardware architecture**, **software systems**, **semiconductor engineering**, and computational technologies.",
   ],
   whyNote: [
     "Edu Hawk worldwide assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey..",
   ],
 
   coursesLead: [
-    "Undergraduate students possess the opportunity to pursue academic programs encompassing computer hardware, digital systems, software, and computer architecture disciplines.",
+    "Undergraduate students possess the opportunity to pursue academic programs encompassing **computer hardware**, **digital systems**, **software**, and **computer architecture** disciplines.",
     "Prevalent undergraduate degree pathways include:",
   ],
   courses: [
@@ -52,24 +51,26 @@ const branch = {
     "Bachelor of Science in Computer Systems Engineering",
     "Bachelor of Science in Computer Engineering Technology",
   ],
-  coursesNote: [],
+  coursesNote: [
+    "Students also compare related programs such as [Electrical Engineering in the USA](/courses/ug/electrical-engineering) and [Electronics & Communication Engineering](/courses/ug/electronics-communication), or explore advanced [Postgraduate MS in Computer Engineering](/courses/pg/computer-engineering).",
+  ],
 
   duration: [
-    "An undergraduate Computer Engineering degree within the United States typically requires four years for completion.",
-    "The academic curriculum generally encompasses mathematics, physics, programming, digital logic, electronics, computer architecture, operating systems, and engineering design coursework.",
-    "With Edu Hawk Worldwide university selection guidance, students can compare suitable institutions based on academic background, budget, preferred location, and long-term professional goals.",
+    "An undergraduate **Computer Engineering degree** within the **United States** typically requires **four years** for completion.",
+    "The academic curriculum generally encompasses **mathematics, physics, programming, digital logic, electronics, computer architecture, operating systems**, and engineering design coursework.",
+    "With Edu Hawk Worldwide university selection guidance, students can compare suitable institutions based on academic background, budget, preferred location, and long-term professional goals. Learn more about [Undergraduate Engineering in the USA](/courses/ug/engineering) and [book free counselling](/contact).",
   ],
 
   eligibilityLead: [
-    "Indian applicants are typically required to satisfy the subsequent criteria:",
+    "Indian applicants are typically required to satisfy the subsequent criteria: ",
   ],
   eligibility: [
-    "Successful completion of Class 12 examinations from an accredited educational institution.",
-    "Proficiency in mathematics and physics, alongside additional science disciplines as stipulated by the respective university.",
-    "Academic performance that aligns with the institution's admission standards.",
-    "Demonstrated competency in the English language where applicable.",
-    "Standardized examination scores from the SAT or ACT, should the institution mandate such assessments.",
-    "Official academic records and requisite supplementary documentation for the application process.",
+    "Successful completion of **Class 12 examinations** from an accredited educational institution.",
+    "Proficiency in **mathematics and physics**, alongside additional science disciplines as stipulated by the respective university.",
+    "Academic performance that aligns with the institution's **admission standards**.",
+    "Demonstrated competency in the **English language** where applicable.",
+    "Standardized examination scores from the **SAT or ACT**, should the institution mandate such assessments.",
+    "Official **academic records** and requisite supplementary documentation for the application process.",
   ],
 
   englishLead: [
@@ -86,8 +87,8 @@ const branch = {
   englishNote: [],
 
   testsNote: [
-    "The Scholastic Aptitude Test (SAT) may be mandated, discretionary, or disregarded contingent upon the institution and the particular admission cycle. Certain universities additionally recognize American College Testing (ACT) examination results.",
-    "There exists no standardized entrance examination universally mandated by all United States universities for undergraduate Computer Engineering programs. Prospective students are advised to examine the prevailing admission requirements and application submission deadlines established by their selected institutions.",
+    "The **Scholastic Aptitude Test (SAT)** may be mandated, discretionary, or disregarded contingent upon the institution and the particular admission cycle. Certain universities additionally recognize **American College Testing (ACT)** examination results.",
+    "There exists no standardized entrance examination universally mandated by all United States universities for undergraduate Computer Engineering programs. Prospective students are advised to examine the prevailing admission requirements and application submission deadlines established by their selected institutions. Explore our [admission FAQs](#faq) and [top universities in the USA](#universities).",
   ],
 
   costsLead: [
@@ -95,18 +96,12 @@ const branch = {
     "Primary expenditures encompass:",
   ],
   costs: [
-    "University tuition and associated academic fees.",
-    "Residential accommodations and meal provisions.",
+    "University **tuition and associated academic fees**.",
+    "Residential **accommodations and meal provisions**.",
     "Medical insurance coverage.",
     "Textbooks, specialized equipment, and laboratory-related expenditures.",
     "Regional transportation and miscellaneous personal expenses.",
-    "Visa documentation, international travel, and supplementary initial expenses.",
-    "University tuition and associated academic fees.",
-    "Residential accommodation and meal provisions.",
-    "Health insurance coverage.",
-    "Textbooks, specialized equipment, and laboratory-related expenditures.",
-    "Local transit and miscellaneous personal expenses.",
-    "Visa processing, travel arrangements, and supplementary initial costs.",
+    "**Visa documentation**, international travel, and supplementary initial expenses.",
   ],
   costsNote: [
     "7. Tuition Fees and Living Expenses",
@@ -118,10 +113,10 @@ const branch = {
     "Available funding mechanisms include:",
   ],
   scholarships: [
-    "Academic performance-based scholarships.",
-    "Scholarships designated for international student populations.",
-    "Institution-specific tuition reduction programs.",
-    "Financial assistance based on demonstrated financial need, accessible to international students.",
+    "Academic **performance-based scholarships**.",
+    "Scholarships designated for **international student populations**.",
+    "Institution-specific **tuition reduction programs**.",
+    "Financial assistance based on **demonstrated financial need**, accessible to international students.",
     "Financial support from recognized external organizations.",
   ],
   scholarshipsNote: [],
@@ -154,7 +149,7 @@ const branch = {
   universitiesNote: [],
 
   careerIntro:
-    "Computer Engineering graduates are positioned to pursue diverse professional trajectories encompassing computer hardware development, integrated systems architecture, computing infrastructure management, and intelligent device engineering.",
+    "**Computer Engineering graduates** are positioned to pursue diverse professional trajectories encompassing **computer hardware development**, integrated systems architecture, computing infrastructure management, and **intelligent device engineering**. As a **STEM-designated degree program**, graduates can qualify for up to **3 years of OPT (Optional Practical Training)** on an **F-1 visa**.",
   careerLead: ["Principal career trajectories include:"],
   careers: [
     "Computer Hardware Engineer",
@@ -181,8 +176,8 @@ const branch = {
     "Submitting completed applications in accordance with institutional deadlines.",
     "Evaluating admission decisions and associated financial obligations.",
     "Acquiring requisite student documentation from the host institution.",
-    "Remitting the mandatory SEVIS fee and executing visa application procedures.",
-    "Participating in visa adjudication interviews, when applicable, and finalizing travel arrangements following authorization.",
+    "Remitting the mandatory **SEVIS fee** and executing **F-1 student visa** application procedures.",
+    "Participating in **visa adjudication interviews**, when applicable, and finalizing travel arrangements following authorization.",
   ],
   visaNote: [
     "Visa authorization remains contingent upon individual circumstances. Prospective students must adhere to prevailing United States government directives and institutional guidance.",

@@ -1,3 +1,4 @@
+import { formatRichText, EligibilityCtaCard } from "../../../../component/CoursePageKit";
 import React from "react";
 import { AbroadCoursePage } from "../../../../component/CoursePageKit";
 import heroImg from "../../../../Images/Abroad/USA/LanguageCourses/hero.webp";
@@ -15,13 +16,13 @@ const page = {
   "keywords": "Study Language Courses in USA for Indian Students, Best Universities for Language Courses in USA, English Language Courses in USA for International Students, Language Course Fees in USA for Indian Students, Language Course Admission Requirements in USA, Short-Term English Language Courses in USA, Bachelor's in Linguistics in USA for Indian Students, Master's in Applied Linguistics in USA, TESOL and TEFL Courses in USA for International Students, IELTS and TOEFL Preparation Courses in USA, Foreign Language Courses in USA for Indian Students, Language Course Scholarships in USA for International Students, Duration of Language Courses in USA, Career Opportunities After Studying Languages in USA, USA Student Visa for Language Courses",
   "introTitle": "Language Courses In The United States",
   "heroParas": [
-    "Learning Languages Opportunities in the United States",
+    "Learning Languages Opportunities in the **United States**",
     "International students studying languages in the USA can develop their communication skills, improve their academic English, learn foreign languages and explore linguistics, translation, interpretation and intercultural communication."
   ],
   "overview": [
     "American universities, colleges and language institutes offer programs from short-term language courses to undergraduate degrees, postgraduate qualifications and research programs. Students can choose a course according to their academic background, language proficiency, career goals and duration they prefer.",
     "If you are an Indian student who wants to improve your English, get ready for university admission, learn a new language or build a career in language-related fields, the USA has a variety of learning pathways for you.",
-    "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."
+    "Edu Hawk Worldwide assists students in exploring international study options, comprehending university admission standards, comparing pathways like [Study Abroad programs](/study-abroad) and [Summer Courses](/study-abroad/summer-courses), and [getting expert counselling](/contact). Check our [admission FAQs](#faq) and [top universities](#universities)."
   ],
   "level": "Short-term",
   "crumb": "Programs",
@@ -256,7 +257,7 @@ const page = {
             "English language skills when required.",
             "School transcripts and certificates.",
             "An essay or personal statement (if applicable).",
-            "Letters of recommendation if needed.",
+            "**Letters of recommendation (LOR)** if needed.",
             "SAT or ACT scores, where required or where considered by the institution."
           ]
         },
@@ -273,9 +274,9 @@ const page = {
             "Recognized Bachelor degree.",
             "Transcripts and degree certificates, academic.",
             "Scores on English Language Tests where needed.",
-            "Statement of Purpose",
+            "**Statement of Purpose (SOP)**",
             "Résumé or curriculum vitae if required.",
-            "Letters of recommendation (if applicable).",
+            "**Letters of recommendation (LOR)** (if applicable).",
             "Writing sample or research proposal for selected programs."
           ]
         },
@@ -458,7 +459,7 @@ const page = {
           "items": [
             "Visa requirements depend on the course, institution, length and type of study.",
             "F-1 Visa for Students",
-            "Generally, students pursuing a full course of study at an institution certified by the Student and Exchange Visitor Program (SEVP) need an F-1 student visa, which is the most common visa type for international students.",
+            "Generally, students pursuing a full course of study at an institution certified by the Student and Exchange Visitor Program (SEVP) need an **F-1 student visa**, which is the most common visa type for international students.",
             "Short-Term studies",
             "Not all short term courses have the same visa requirements. Your eligibility for a visitor visa or other immigration category depends on the actual study activity and applicable US rules. Students should check the correct category before traveling.",
             "The process for an F-1 student is usually as follows:",
@@ -471,7 +472,7 @@ const page = {
             },
             {
               "t": "F-1 Visa for Students",
-              "d": "Generally, students pursuing a full course of study at an institution certified by the Student and Exchange Visitor Program (SEVP) need an F-1 student visa, which is the most common visa type for international students."
+              "d": "Generally, students pursuing a full course of study at an institution certified by the Student and Exchange Visitor Program (SEVP) need an **F-1 student visa**, which is the most common visa type for international students."
             },
             {
               "t": "Short-Term studies",

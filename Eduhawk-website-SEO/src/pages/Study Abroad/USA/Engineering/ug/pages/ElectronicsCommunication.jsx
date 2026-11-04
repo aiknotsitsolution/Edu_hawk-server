@@ -8,10 +8,8 @@ import ucbImg from "../../../../../../Images/Abroad/USA/Engineering_UG/Electroni
 const branch = {
   name: "Electronics & Communication Engineering",
   slug: "electronics-communication",
-  title:
-    "Electronics & Communication Engineering in USA for Indian Students | UG 2026 | Edu Hawk",
-  description:
-    "Study Bachelor's in Electronics and Communication Engineering (ECE) in the USA after Class 12. Eligibility, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
+  title: "Electronics & Communication Engineering in USA for Indian Students | UG 2026 | Edu Hawk",
+  description: "Study Bachelor's in Electronics and Communication Engineering (ECE) in the USA after Class 12. Eligibility, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Electronics and Communication Engineering in USA for Indian Students, Best ECE Universities in USA, Bachelor's in Electronics and Communication Engineering in USA, Study ECE in USA After 12th, Electrical and Computer Engineering Courses in USA, ECE Admission Requirements in USA, ECE Tuition Fees in USA, ECE Scholarships for Indian Students, Top Electronics Engineering Colleges in America, ECE Eligibility for Indian Students, SAT Requirements for Engineering in USA, English Language Tests for US Universities, Career Opportunities After ECE, Telecommunications and Semiconductor Engineering in USA, USA Student Visa for Indian Engineering Students",
   heroIntro: (
@@ -29,7 +27,7 @@ const branch = {
     "Edu Hawk Worldwide helps you shortlist universities, understand admission requirements and plan your complete study-abroad journey.",
 
   whyLead: [
-    "Principal Advantages of Electronics and Communication Engineering Education in the United States-",
+    "Principal Advantages of Electronics and Communication Engineering Education in the **United States**-",
   ],
   whyPoints: [
     "State-of-the-Art Electronics Laboratories: Cultivate applied expertise in electronic circuit systems, digital architectures, microprocessor technology, and hardware development methodologies.",
@@ -44,7 +42,7 @@ const branch = {
   whyNote: [],
 
   coursesLead: [
-    "Within the United States, Electronics and Communication Engineering curricula may be designated under various degree nomenclatures. Indian students are advised to conduct a thorough examination of the curriculum content rather than depending exclusively on the programme designation.",
+    "Within the **United States**, Electronics and Communication Engineering curricula may be designated under various degree nomenclatures. Indian students are advised to conduct a thorough examination of the curriculum content rather than depending exclusively on the programme designation.",
     "Prevalent Undergraduate Degree Designations",
   ],
   courses: [
@@ -74,7 +72,7 @@ const branch = {
   ],
 
   duration: [
-    "The majority of undergraduate engineering degrees in this discipline require approximately four years for completion, though the actual timeframe may vary depending on programme structure and individual student academic planning.",
+    "The majority of undergraduate engineering degrees in this discipline require approximately **four years** for completion, though the actual timeframe may vary depending on programme structure and individual student academic planning.",
   ],
 
   eligibilityLead: [
@@ -84,7 +82,7 @@ const branch = {
   ],
   eligibility: [
     "Complete secondary education (Class 12) through an accredited educational institution.",
-    "Have studied mathematics and physics alongside any supplementary disciplines mandated by the target university.",
+    "Have studied **mathematics and physics** alongside any supplementary disciplines mandated by the target university.",
     "Satisfy the institution's minimum academic performance benchmarks.",
     "Provide official school transcripts, examination marksheets, and educational certificates.",
     "Establish English language competency, where applicable.",
@@ -108,12 +106,12 @@ const branch = {
   testsNote: [
     "Depending on the institution and the particular admission cycle in question, SAT scores may or may not be required for admission to engineering programs at US institutions.",
     "Certain universities maintain mandatory standardized testing requirements, whereas others have adopted test-optional admission frameworks. Additionally, ACT examination scores may be either accepted or mandated by particular institutions.",
-    "Whether test results from the SAT or ACT are required for the application",
+    "Whether test results from the **SAT or ACT** are required for the application",
     "Students are advised to adhere to the admission policies pertinent to their intended enrollment period rather than depending upon outdated or superseded testing guidelines.",
   ],
 
   costsLead: [
-    "The aggregate expenditure associated with pursuing an ECE degree in the United States as an Indian student is contingent upon multiple variables, including the specific university, tuition fee structure, geographic location, residential arrangements, and program duration.",
+    "The aggregate expenditure associated with pursuing an ECE degree in the **United States** as an Indian student is contingent upon multiple variables, including the specific university, tuition fee structure, geographic location, residential arrangements, and program duration.",
     "The comprehensive financial budget must encompass considerably more than tuition expenses alone. Students should thoroughly examine the university's official cost of attendance documentation specifically designated for international undergraduate enrollees.",
     "Primary Expenditure Categories-",
   ],
@@ -128,7 +126,7 @@ const branch = {
   costsNote: [],
 
   scholarshipsLead: [
-    "Numerous institutions within the United States provide scholarship opportunities for international undergraduate students pursuing engineering disciplines, though the specific eligibility requirements, monetary allocations, and resource accessibility demonstrate substantial variation across institutions.",
+    "Numerous institutions within the **United States** provide scholarship opportunities for international undergraduate students pursuing engineering disciplines, though the specific eligibility requirements, monetary allocations, and resource accessibility demonstrate substantial variation across institutions.",
     "Prospective Funding Mechanisms-",
   ],
   scholarships: [
@@ -147,7 +145,7 @@ const branch = {
   scholarshipsNote: ["Methodologies for Scholarship Identification"],
 
   universitiesLead: [
-    "The United States provides comprehensive undergraduate curricula in Electronics and Communication Engineering (ECE) through specialized degrees in Electrical Engineering, Electrical and Computer Engineering, and Computer Engineering. Electronics And communication systems, wireless networks, signal processing, embedded systems, and semiconductor technologies are all included in these university programs.",
+    "The **United States** provides comprehensive undergraduate curricula in Electronics and Communication Engineering (ECE) through specialized degrees in Electrical Engineering, Electrical and Computer Engineering, and Computer Engineering. Electronics And communication systems, wireless networks, signal processing, embedded systems, and semiconductor technologies are all included in these university programs.",
     "Preeminent Institutions Offering ECE Programs:",
   ],
   universities: [
@@ -170,7 +168,7 @@ const branch = {
   universitiesNote: [
     "University of California, Berkeley – Bachelor of Science in Electrical Engineering and Computer Sciences",
     "Eligibility for Indian Students",
-    "Prospective applicants typically must demonstrate completion of secondary education (Class 12) with proficiency in Mathematics and Physics, submit official academic records, and provide evidence of English language competency through standardized examinations where applicable. Standardized testing requirements, including the SAT or ACT, vary across institutions.",
+    "Prospective applicants typically must demonstrate completion of secondary education (Class 12) with proficiency in **Mathematics and Physics**, submit official **academic records**, and provide evidence of English language competency through standardized examinations where applicable. Standardized testing requirements, including the **SAT or ACT**, vary across institutions.",
     "CAREER OPPORTUNITIES",
     "Program graduates may pursue professional opportunities in electronics design,",
     "telecommunications, wireless communication systems, semiconductor engineering, embedded systems development, signal processing, and computer hardware engineering.",
@@ -182,7 +180,7 @@ const branch = {
     "Semiconductor, microelectronics and wireless communication electives",
     "Laboratory facilities and engineering project opportunities",
     "Internship and co-op options",
-    "Tuition fees and estimated total cost",
+    "**Tuition fees** and estimated total cost",
     "Scholarships for international students",
     "Academic eligibility and required Class 12 subjects",
     "Accreditation and programme recognition",
@@ -191,7 +189,7 @@ const branch = {
   ],
 
   careerIntro:
-    "Individuals completing degree programmes in electronics and communication engineering disciplines may pursue professional trajectories encompassing electronics design, telecommunications, computer hardware, wireless systems, and semiconductor technology.",
+    "Individuals completing degree programmes in electronics and communication engineering disciplines may pursue professional trajectories encompassing electronics design, telecommunications, computer hardware, wireless systems, and semiconductor technology. As a **STEM-designated degree program**, ECE graduates are eligible for up to **3 years of OPT (Optional Practical Training)** under an **F-1 student visa**.",
   careerLead: [
     "The availability of specific career opportunities is contingent upon the degree programme curriculum, acquired technical competencies, hands-on experience, organisational requirements, and pertinent work authorisation regulations.",
     "Prospective Career Positions",
@@ -226,14 +224,14 @@ const branch = {
   ],
 
   visaLead: [
-    "Indian students who have secured admission to an accredited United States institution are typically required to complete the requisite student visa procedures prior to entering the United States.",
+    "Indian students who have secured admission to an accredited **United States** institution are typically required to complete the requisite **F-1 student visa** procedures prior to entering the **United States**.",
     "Step-by-Step Admission and Visa Process",
     "Step 1: Institutional Research",
     "Conduct thorough research to identify universities that offer pertinent undergraduate engineering programmes and evaluate their respective curricula.",
     "Step 2: Verify Eligibility Requirements",
     "Examine the subject prerequisites for Class 12, academic performance standards, and proficiency requirements in the English language.",
     "Step 3: Examine Standardised Assessment Policies",
-    "Determine whether SAT or ACT examination scores are mandated for the intended admission cycle.",
+    "Determine whether **SAT or ACT** examination scores are mandated for the intended admission cycle.",
     "Step 4: Compile Application Materials",
     "Gather official academic transcripts, examination marksheets, standardised test scores, and any supplementary documentation specified by the institution.",
     "Step 5: Submit Application Materials",
@@ -245,10 +243,10 @@ const branch = {
     "Step 8: Secure Requisite Student Documentation",
     "Qualified applicants typically obtain Form I-20 documentation from their SEVP-designated institution upon satisfying all procedural requirements and demonstrating adequate financial resources.",
     "Step 9: Execute Visa Application Procedures",
-    "Adhere to current official protocols pertaining to the applicable student visa classification, SEVIS fee payment, and visa application submission. Participate in an interview if mandated.",
+    "Adhere to current official protocols pertaining to the applicable **F-1 student visa** classification, **SEVIS fee** payment, and visa application submission. Participate in an interview if mandated.",
     "Step 10: Execute Pre-Departure Preparations",
     "Secure residential arrangements, procure health insurance coverage as applicable, organise transportation, and complete other necessary pre-departure arrangements.",
-    "NOTE -: University admission decisions and visa authorisation represent independent determinations. Applicants should consult authoritative United States government resources for contemporary visa requirements and procedural guidelines.",
+    "NOTE -: University admission decisions and visa authorisation represent independent determinations. Applicants should consult authoritative **United States** government resources for contemporary visa requirements and procedural guidelines.",
   ],
   visaSteps: [],
   visaNote: [],

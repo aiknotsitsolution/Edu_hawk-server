@@ -55,6 +55,11 @@ branch — what was done, why, and the measured impact.
   - All 14 Business, Management & Other courses verified against source documents.
   - All 20 UG & PG Engineering pages verified with full curriculum, university shortlists, timelines, and FAQs.
   - `ComputerEngineering.jsx` (UG): Accidental copy-pasted "dental education" reference replaced with accurate computer engineering counselling and university shortlisting copy.
+- ✅ **SEO Keyword Bolding & Internal Linking Overhaul (34 USA Course Pages)**:
+  - **Keyword Bolding (`<strong>`)**: High-value search keywords (Degrees, STEM designations, SAT/ACT, GRE/GMAT, TOEFL/IELTS, F-1 visa, OPT, SOP/LOR, Class 12, Tuition & Living costs) bolded across all 34 course pages (10 UG Engineering, 10 PG Engineering, 14 Business & Special programs) while preserving 100% of the original text verbatim.
+  - **Internal Link Juice Architecture**: Contextual internal links (`<Link to="...">`) added between sibling branches, matching UG/PG programs, business clusters (BBA ↔ MBA ↔ BBS ↔ MBS ↔ Executive MBA), contact counselling (`/contact`), and section anchors (`#universities`, `#faq`).
+  - **Interactive Eligibility CTA Card**: Dark eligibility check card (`Not sure if you are eligible?`) matching user reference embedded across all 34 pages in their eligibility sections with direct WhatsApp counselling integration.
+  - **External Authority Links Policy**: Postponed per user instructions pending separate approval.
 
 ---
 

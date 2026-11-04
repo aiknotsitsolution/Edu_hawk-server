@@ -11,10 +11,8 @@ import utAustinImg from "../../../../../../Images/Abroad/USA/Engineering_UG/Mech
 const branch = {
   name: "Mechanical Engineering",
   slug: "mechanical-engineering",
-  title:
-    "Mechanical Engineering in USA for Indian Students | UG 2026 | Edu Hawk",
-  description:
-    "Study Bachelor's in Mechanical Engineering in the USA after Class 12. Eligibility, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
+  title: "Mechanical Engineering in USA for Indian Students | UG 2026 | Edu Hawk",
+  description: "Study Bachelor's in Mechanical Engineering in the USA after Class 12. Eligibility, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Mechanical Engineering in USA, Best Mechanical Engineering Universities in USA, Bachelor's in Mechanical Engineering in USA, Mechanical Engineering Courses in USA, Study Mechanical Engineering in USA After 12th, Mechanical Engineering Admission Requirements in USA, Eligibility for Indian Students to Study in USA, Mechanical Engineering Tuition Fees in USA, Mechanical Engineering Scholarships for Indian Students, Top Mechanical Engineering Colleges in America, SAT Requirements for Mechanical Engineering in USA, English Language Tests for US Universities, Career Opportunities After Mechanical Engineering, Automotive and Aerospace Engineering in USA, USA Student Visa for Indian Engineering Students",
   heroIntro: (
@@ -59,7 +57,7 @@ const branch = {
   coursesNote: ["."],
 
   duration: [
-    "An undergraduate Mechanical Engineering degree in the United States typically requires four years for completion.",
+    "An undergraduate Mechanical Engineering degree in the **United States** typically requires **four years** for completion.",
     "The academic program generally encompasses engineering mathematics, physics, mechanics, thermodynamics, fluid mechanics, materials science, manufacturing processes, machine design, and computer-aided engineering.",
     "Certain universities provide cooperative education placements, internship opportunities, or research engagements that may influence the total duration of study.",
     "With Edu Hawk Worldwide University selection guidance, students can compare suitable institutions based on academic background, budget, preferred location, and long-term professional goals.",
@@ -69,12 +67,12 @@ const branch = {
     "Indian applicants are typically required to satisfy the following conditions:",
   ],
   eligibility: [
-    "Successful completion of Class 12 examinations from an accredited educational institution.",
-    "Proficiency in mathematics and physics, supplemented by additional subjects as mandated by the prospective university.",
+    "Successful completion of **Class 12 examinations** from an accredited educational institution.",
+    "Proficiency in **mathematics and physics**, supplemented by additional subjects as mandated by the prospective university.",
     "Academic achievement that meets the requirements set out by the university for admission.",
     "Demonstrated competency in the English language where applicable.",
-    "Standardized test scores from the SAT or ACT, if mandated by the institution.",
-    "Official academic records and supplementary documentation.",
+    "Standardized test scores from the **SAT or ACT**, if mandated by the institution.",
+    "Official **academic records** and supplementary documentation.",
     "Admission prerequisites differ across institutions; consequently, applicants should thoroughly examine the admission specifications for each selected program.",
   ],
 
@@ -93,12 +91,12 @@ const branch = {
   ],
 
   testsNote: [
-    "SAT or ACT score requirements are contingent upon the specific university and admission cycle. Certain institutions mandate scores, whereas others maintain test-optional admission policies.",
+    "**SAT or ACT** score requirements are contingent upon the specific university and admission cycle. Certain institutions mandate scores, whereas others maintain test-optional admission policies.",
     "No standardized entrance examination is universally mandated by all USA universities for undergraduate Mechanical Engineering programs. Applicants should carefully review each university's prevailing admission requirements and application deadlines.",
   ],
 
   costsLead: [
-    "The aggregate expenditure for pursuing a degree in Mechanical Engineering within the United States is contingent upon institutional selection, geographic location, and personal consumption patterns.",
+    "The aggregate expenditure for pursuing a degree in Mechanical Engineering within the **United States** is contingent upon institutional selection, geographic location, and personal consumption patterns.",
     "Primary financial obligations encompass:",
   ],
   costs: [
@@ -114,7 +112,7 @@ const branch = {
   ],
 
   scholarshipsLead: [
-    "International students may demonstrate eligibility for performance-based scholarships, institutional grants, or supplementary financial support, contingent upon the specific institution's policies.",
+    "International students may demonstrate eligibility for **performance-based scholarships**, institutional grants, or supplementary financial support, contingent upon the specific institution's policies.",
     "Available financial support mechanisms include:",
   ],
   scholarships: [
@@ -129,7 +127,7 @@ const branch = {
   ],
 
   universitiesLead: [
-    "The subsequent institutions merit comprehensive examination regarding their undergraduate Mechanical Engineering curricula:",
+    "The subsequent institutions merit comprehensive examination regarding their undergraduate Mechanical Engineering curricula: ",
   ],
   universities: [
     {
@@ -162,7 +160,7 @@ const branch = {
   universitiesNote: [],
 
   careerIntro:
-    "Upon completion of a Mechanical Engineering degree, graduates possess the capacity to pursue professional opportunities across diverse sectors including -",
+    "Upon completion of a Mechanical Engineering degree, graduates possess the capacity to pursue professional opportunities across diverse sectors including - As a **STEM-designated degree program**, mechanical engineering graduates are eligible for up to **3 years of OPT (Optional Practical Training)** under an **F-1 student visa**.",
   careerLead: [],
   careers: [
     "product design manufacturing",
@@ -187,17 +185,17 @@ const branch = {
   ],
 
   visaLead: [
-    "Indian students who have been admitted to an accredited US institution are typically required to navigate the student visa process.",
+    "Indian students who have been admitted to an accredited US institution are typically required to navigate the **F-1 student visa** process.",
     "The standard procedure encompasses the following stages:",
   ],
   visaSteps: [
     "Conduct research on universities and evaluate Mechanical Engineering curricula.",
     "Verify prerequisite academic qualifications and English language proficiency standards.",
-    "Assemble official academic records and standardized examination scores as needed.",
+    "Assemble official **academic records** and standardized examination scores as needed.",
     "File applications in accordance with institutional submission deadlines.",
     "Examine admission decisions and associated financial obligations.",
     "Secure the requisite student documentation provided by the institution.",
-    "Remit the mandatory SEVIS fee and finalize the visa application materials.",
+    "Remit the mandatory **SEVIS fee** and finalize the visa application materials.",
     "Participate in the visa interview, when applicable, and make travel arrangements following authorization.",
     "Visa authorization is contingent and not assured. Students must adhere to prevailing US government directives and institutional protocols.",
   ],

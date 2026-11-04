@@ -11,8 +11,7 @@ const branch = {
   name: "Civil Engineering",
   slug: "civil-engineering",
   title: "Civil Engineering in USA for Indian Students | UG 2026 | Edu Hawk",
-  description:
-    "Study Bachelor's in Civil Engineering in the USA after Class 12. Eligibility, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
+  description: "Study Bachelor's in Civil Engineering in the USA after Class 12. Eligibility, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Civil Engineering in USA for Indian Students, Best Civil Engineering Universities in USA, Bachelor's in Civil Engineering in USA, Study Civil Engineering in USA After 12th, Civil Engineering Courses in USA, Civil Engineering Admission Requirements in USA, Civil Engineering Tuition Fees in USA, Civil Engineering Scholarships for Indian Students, Top Civil Engineering Colleges in America, Civil Engineering Eligibility for Indian Students, SAT Requirements for Civil Engineering in USA, English Language Tests for US Universities, Career Opportunities After Civil Engineering, Structural Engineering and Construction Management in USA, USA Student Visa for Civil Engineering Students",
   heroIntro: (
@@ -58,7 +57,7 @@ const branch = {
   ],
 
   duration: [
-    "An undergraduate Civil Engineering degree within the United States typically necessitates four years of full-time study.",
+    "An undergraduate Civil Engineering degree within the **United States** typically necessitates **four years** of full-time study.",
     "The academic framework customarily encompasses mathematics, physics, engineering mechanics, structural investigation, construction material science, soil mechanics, transportation systems, hydrodynamics, and ecological engineering.",
     "Participants may additionally undertake experimental investigations, design-oriented projects, field-based research, professional internships, or alternating work-study arrangements.",
   ],
@@ -67,12 +66,12 @@ const branch = {
     "Indian applicants are typically expected to satisfy the subsequent prerequisites:",
   ],
   eligibility: [
-    "Successful completion of Class 12 examinations administered by an accredited educational institution.",
-    "Proficiency in mathematics and physics, supplemented by any supplementary disciplines mandated by the target university.",
+    "Successful completion of **Class 12 examinations** administered by an accredited educational institution.",
+    "Proficiency in **mathematics and physics**, supplemented by any supplementary disciplines mandated by the target university.",
     "Academic performance that aligns with the institution's admission standards.",
     "Demonstrated competency in the English language where applicable.",
-    "Standardized examination scores from the SAT or ACT, contingent upon institutional requirements.",
-    "Official academic records and requisite supporting documentation for the application process.",
+    "Standardized examination scores from the **SAT or ACT**, contingent upon institutional requirements.",
+    "Official **academic records** and requisite supporting documentation for the application process.",
   ],
 
   englishLead: [
@@ -91,12 +90,12 @@ const branch = {
   ],
 
   testsNote: [
-    "SAT or ACT score requirements are contingent upon the specific university and the particular admission cycle. Certain universities mandate or encourage submission of scores, whereas others implement test-optional admission policies.",
-    "No universally mandated entrance examination exists across all United States universities for undergraduate Civil Engineering programs. Applicants must ascertain current assessment policies, application submission deadlines, and discipline-specific program requirements..",
+    "**SAT or ACT** score requirements are contingent upon the specific university and the particular admission cycle. Certain universities mandate or encourage submission of scores, whereas others implement test-optional admission policies.",
+    "No universally mandated entrance examination exists across all **United States** universities for undergraduate Civil Engineering programs. Applicants must ascertain current assessment policies, application submission deadlines, and discipline-specific program requirements..",
   ],
 
   costsLead: [
-    "The aggregate expenditure for pursuing an undergraduate degree in Civil Engineering within the United States fluctuates based on institutional selection, geographic location, and residential arrangements.",
+    "The aggregate expenditure for pursuing an undergraduate degree in Civil Engineering within the **United States** fluctuates based on institutional selection, geographic location, and residential arrangements.",
     "Primary cost components encompass",
   ],
   costs: [
@@ -108,7 +107,7 @@ const branch = {
     "Immigration documentation, airfare, and relocation expenses.",
   ],
   costsNote: [
-    "Prospective students are advised to evaluate the comprehensive annual cost of attendance in its entirety rather than examining tuition fees in isolation. Prospective students should consult current fee schedules via institutional websites.",
+    "Prospective students are advised to evaluate the comprehensive annual cost of attendance in its entirety rather than examining **tuition fees** in isolation. Prospective students should consult current fee schedules via institutional websites.",
   ],
 
   scholarshipsLead: [
@@ -160,7 +159,7 @@ const branch = {
   ],
 
   careerIntro:
-    "Graduates possess the opportunity to pursue entry-level positions across construction, infrastructure, engineering design, transportation, and project support sectors.",
+    "Graduates possess the opportunity to pursue entry-level positions across construction, infrastructure, engineering design, transportation, and project support sectors. As a **STEM-designated degree program**, civil engineering graduates are eligible for up to **3 years of OPT (Optional Practical Training)** under an **F-1 student visa**.",
   careerLead: ["Prospective career positions encompass:"],
   careers: [
     "Junior Civil Engineer",
@@ -179,7 +178,7 @@ const branch = {
   ],
 
   visaLead: [
-    "When admitted to a US university, Indian students usually have to go through the necessary student visa application process.",
+    "When admitted to a US university, Indian students usually have to go through the necessary **F-1 student visa** application process.",
     "Standard procedural steps include:",
   ],
   visaSteps: [
@@ -190,7 +189,7 @@ const branch = {
     "Submit applications in accordance with established deadlines.",
     "Assess admission determinations and financial obligations.",
     "Procure essential student documentation from the institution.",
-    "Remit the applicable SEVIS fee and finalize visa application materials.",
+    "Remit the applicable **SEVIS fee** and finalize visa application materials.",
     "Participate in the visa interview, when applicable, and arrange travel logistics following authorization.",
   ],
   visaNote: [

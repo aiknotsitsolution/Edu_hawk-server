@@ -10,10 +10,8 @@ import illinoisImg from "../../../../../../Images/Abroad/USA/Engineering_PG/Comp
 const branch = {
   name: "Computer Engineering",
   slug: "computer-engineering",
-  title:
-    "MS in Computer Engineering in USA for Indian Students | PG 2026 | Edu Hawk",
-  description:
-    "Study Master's in Computer Engineering in the USA after graduation. Eligibility, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
+  title: "MS in Computer Engineering in USA for Indian Students | PG 2026 | Edu Hawk",
+  description: "Study Master's in Computer Engineering in the USA after graduation. Eligibility, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Postgraduate Computer Engineering in USA for Indian Students, Best Master's in Computer Engineering Universities in USA, MS in Computer Engineering in USA, Master's in Computer Engineering in USA for Indian Students, Postgraduate Computer Engineering Courses in USA, Computer Engineering Admission Requirements for Master's in USA, MS in Computer Engineering Tuition Fees in USA, Computer Engineering Scholarships for Indian Students, Top Graduate Computer Engineering Colleges in America, Computer Engineering Eligibility for Indian Students, GRE Requirements for MS in Computer Engineering in USA, English Language Tests for US Universities, Career Opportunities After MS in Computer Engineering, Embedded Systems and Hardware Engineering Master's in USA, USA Student Visa for Indian Postgraduate Students",
   heroIntro: (
@@ -65,7 +63,7 @@ const branch = {
   ],
 
   eligibilityLead: [
-    "Indian applicants are typically required to fulfill the following criteria:",
+    "Indian applicants are typically required to fulfill the following criteria: ",
   ],
   eligibility: [
     <>Possession of a relevant bachelor's degree in <strong>Computer Engineering</strong>, <strong>Electrical Engineering</strong>, Electronics Engineering, <strong>Computer Science</strong>, or an allied field.</>,

@@ -9,15 +9,13 @@ import michiganDearbornImg from "../../../../../../Images/Abroad/USA/Engineering
 const branch = {
   name: "Automobile Engineering",
   slug: "automobile-engineering",
-  title:
-    "Automobile Engineering in USA for Indian Students | UG 2026 | Edu Hawk",
-  description:
-    "Study Bachelor's in Automobile Engineering in the USA after Class 12. Eligibility, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
+  title: "Automobile Engineering in USA for Indian Students | UG 2026 | Edu Hawk",
+  description: "Study Bachelor's in Automobile Engineering in the USA after Class 12. Eligibility, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Automobile Engineering in USA for Indian Students, Best Automotive Engineering Universities in USA, Bachelor's in Automobile Engineering in USA, Study Automobile Engineering in USA After 12th, Automotive Engineering Courses in USA, Automobile Engineering Admission Requirements in USA, Automobile Engineering Tuition Fees in USA, Automotive Engineering Scholarships for Indian Students, Top Automotive Engineering Colleges in America, Automobile Engineering Eligibility for Indian Students, SAT Requirements for Automotive Engineering in USA, English Language Tests for US Universities, Career Opportunities After Automobile Engineering, Electric Vehicle Engineering Courses in USA, USA Student Visa for Indian Engineering Students",
   heroIntro: (
     <>
-      <strong>Undergraduate engineering courses in the United States</strong> cover
+      <strong>Undergraduate engineering courses in the **United States**</strong> cover
       areas such as automotive technology, vehicle design, manufacturing, and
       mobility systems. Students gain knowledge of the design, development,
       testing, and improvement of vehicles by means of engineering principles,
@@ -54,10 +52,12 @@ const branch = {
     "Bachelor of Science in Mechanical Engineering Technology",
     "Bachelor of Science in Engineering Technology with an automotive focus, where available",
   ],
-  coursesNote: [],
+  coursesNote: [
+    "Students also compare related programs such as [Mechanical Engineering in the USA](/courses/ug/mechanical-engineering) and [Aerospace Engineering](/courses/ug/aerospace-engineering), or explore advanced [Postgraduate MS in Automobile Engineering](/courses/pg/automobile-engineering).",
+  ],
 
   duration: [
-    "In the United States an undergraduate degree in Automotive or Automobile Engineering usually takes four years to finish.",
+    "In the **United States** an undergraduate degree in Automotive or Automobile Engineering usually takes four years to finish.",
     "The course could cover mathematics, physics, engineering mechanics, thermodynamics, materials science, vehicle dynamics, automotive systems, and manufacturing processes as well as computer-aided design.",
     "At different universities students might also have the opportunity to study electric vehicle systems, engine technology, vehicle safety, automotive electronics, and control systems.",
     "Through Edu Hawk worldwide study abroad guidance, students can explore these opportunities and understand the requirements involved in pursuing Automobile engineering education overseas.",
@@ -67,10 +67,10 @@ const branch = {
   eligibility: [
     "Indian students generally need to meet the following requirements:",
     "Finishing the Class 12 course with a recognised educational board.",
-    "Mathematics and physics, together with any other subjects required by the university.",
+    "**Mathematics and physics**, together with any other subjects required by the university.",
     "Marks that meet the requirements for admission by the institution.",
     "English-language proficiency where required.",
-    "The SAT or ACT scores, if the university requires them.",
+    "The **SAT or ACT** scores, if the university requires them.",
     "The academic transcripts and all other documents submitted as part of the application.",
     "The requirements differ from university to university and depending on the degree type. Students should check the exact eligibility criteria for the program they have chosen.",
   ],
@@ -90,7 +90,7 @@ const branch = {
   ],
 
   testsNote: [
-    "The requirement for SAT or ACT scores varies from university to university and according to the admission cycle; some colleges require the scores while others have a test-optional policy.",
+    "The requirement for **SAT or ACT** scores varies from university to university and according to the admission cycle; some colleges require the scores while others have a test-optional policy.",
     "No single entrance examination is required by all US universities for undergraduate study in Automotive or Mechanical Engineering, and students should look into the current admission policies, application deadlines, and the requirements specific to each programme.",
   ],
 
@@ -109,7 +109,7 @@ const branch = {
   costsNote: [],
 
   scholarshipsLead: [
-    "A number of universities in the United States provide scholarships and financial aid to international undergraduate students who are eligible.",
+    "A number of universities in the **United States** provide scholarships and financial aid to international undergraduate students who are eligible.",
     "Possible funding options include:",
   ],
   scholarships: [
@@ -147,11 +147,11 @@ const branch = {
     },
   ],
   universitiesNote: [
-    "The names of the programmes and their availability may differ, so students should check on the official university websites for the current name of the institution, the exact undergraduate degree offered, the curriculum, the admission requirements, the tuition fees, and the accreditation.",
+    "The names of the programmes and their availability may differ, so students should check on the official university websites for the current name of the institution, the exact undergraduate degree offered, the curriculum, the admission requirements, the **tuition fees**, and the accreditation.",
   ],
 
   careerIntro:
-    "Graduates have the opportunity to pursue entry-level careers in automotive design, vehicle testing, manufacturing, electric mobility, and automotive systems.",
+    "Graduates have the opportunity to pursue entry-level careers in automotive design, vehicle testing, manufacturing, electric mobility, and automotive systems. As a **STEM-designated degree program**, automobile engineering graduates are eligible for up to **3 years of OPT (Optional Practical Training)** under an **F-1 student visa**.",
   careerLead: ["Potential career roles include:"],
   careers: [
     "Automotive Design Engineer",
@@ -170,7 +170,7 @@ const branch = {
   ],
 
   visaLead: [
-    "Indian students who have been accepted by a suitable US institution usually have to go through the relevant student visa procedure.",
+    "Indian students who have been accepted by a suitable US institution usually have to go through the relevant **F-1 student visa** procedure.",
     "Typical steps include:",
   ],
   visaSteps: [
@@ -181,7 +181,7 @@ const branch = {
     "Make sure that your applications are submitted by the respective deadlines.",
     "Look over admission offers and money requirements.",
     "Get the student documents that are required from the university.",
-    "You must pay the relevant SEVIS fee and fill out the visa application.",
+    "You must pay the relevant **SEVIS fee** and fill out the visa application.",
     "If a visa interview is required, attend it and then prepare for travel once the visa has been approved.",
   ],
   visaNote: [],

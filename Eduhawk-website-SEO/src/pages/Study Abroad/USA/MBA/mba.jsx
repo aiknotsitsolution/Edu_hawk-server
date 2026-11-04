@@ -1,3 +1,4 @@
+import { formatRichText, EligibilityCtaCard } from "../../../../component/CoursePageKit";
 import React, { useEffect, useRef, useState } from "react";
 import SeoHead from "../../../../component/SeoHead";
 import heroImg from "../../../../Images/Abroad/USA/MBA/hero.webp";
@@ -10,7 +11,7 @@ const page = {
   "name": "MBA",
   "slug": "mba",
   "title": "MBA in USA for Indian Students | 2026 | Edu Hawk Worldwide",
-  "description": "Study MBA in the USA for Indian students. Programs and specialisations, duration, eligibility, GMAT and GRE, tuition, scholarships, top business schools, careers and F-1 visa process with Edu Hawk Worldwide.",
+  "description": "Study MBA in the USA for Indian students. Programs and specialisations, duration, eligibility, GMAT and GRE, tuition, scholarships, top business schools, careers and F-1 student visa process with Edu Hawk Worldwide.",
   "keywords": "Study MBA in USA for Indian Students, Best MBA Universities in USA, MBA Admission Requirements in USA for Indian Students, Top MBA Colleges in America, MBA Courses and Specializations in USA, MBA Tuition Fees in USA for Indian Students, MBA Scholarships for Indian Students in USA, One-Year MBA Programs in USA for International Students, MBA Eligibility After Graduation in India, GMAT and GRE Requirements for MBA in USA, English Language Tests for MBA Admission in USA, MBA Without Work Experience in USA, Career Opportunities After MBA in USA, MBA in Finance and Business Analytics in USA, USA Student Visa for Indian MBA Students",
   "introTitle": "MBA in the United States",
   "heroParas": [
@@ -28,7 +29,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "With its business schools offering thorough management education, leadership development programs, real-world business projects, and exposure to global business environments, the United States is a top choice for Master of Business Administration (MBA) programs.",
+            "With its business schools offering thorough management education, leadership development programs, real-world business projects, and exposure to global business environments, the **United States** is a top choice for **Master of Business Administration (MBA)** programs.",
             "Developing skills in strategic planning, finance, marketing, operations, entrepreneurship, and organizational leadership is made easier with an MBA. Students may also gain from industry-based projects, networking opportunities, internship placements, and career development services, depending on the school.",
             "The main benefits of pursuing an MBA in the US"
           ]
@@ -36,10 +37,10 @@ const page = {
         {
           "t": "ul",
           "items": [
-            "Globally Recognized Credentials: Attend reputable business schools with a wide range of professional and academic networks.",
-            "Leadership Competency Development: Develop your ability to make decisions, communicate, and manage.",
+            "**Globally Recognized Credentials:** Attend reputable business schools with a wide range of professional and academic networks.",
+            "**Leadership Competency Development:** Develop your ability to make decisions, communicate, and manage.",
             "Learn through case study analysis, business simulations, group projects, and real-world business situations.",
-            "Specialization Pathways: Choose areas of focus such as technology management, marketing, finance, business analytics, or entrepreneurship.",
+            "**Specialization Pathways:** Choose areas of focus such as technology management, marketing, finance, business analytics, or entrepreneurship.",
             "Develop relationships with colleagues, former students, instructors, and business stakeholders through professional networking.",
             "Support for Career Advancement: When appropriate, make use of internship programs, recruitment campaigns, and career coaching.",
             "Gain knowledge of business processes in various industries, cultural contexts, and foreign marketplaces by adopting a global business perspective."
@@ -48,7 +49,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and explore international study possibilities."
+            "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, explore pathways like [BBA in the USA](/courses/bba), [Executive MBA](/courses/executive-mba), and [International Business](/courses/international-business), and [get personalized counselling](/contact). Explore our [admission FAQs](#faq) and [top universities in the USA](#universities)."
           ]
         }
       ]
@@ -68,8 +69,8 @@ const page = {
         {
           "t": "ul",
           "items": [
-            "Full-Time MBA: An extensive program designed for students who are able to devote themselves fully to their studies.",
-            "Part-Time MBA: Designed for students who want to continue working while attending graduate school.",
+            "**Full-Time MBA:** An extensive program designed for students who are able to devote themselves fully to their studies.",
+            "**Part-Time MBA:** Designed for students who want to continue working while attending graduate school.",
             "Senior managers and seasoned professionals are the target audience for the executive MBA program.",
             "Some business schools provide an intensive accelerated one-year MBA program.",
             "Conventional Two-Year MBA: This traditional structure may provide options for career exploration, elective coursework, and internships."
@@ -78,7 +79,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Universities differ in terms of program availability, length, and eligibility. International students applying for an F-1 visa may be eligible differently for online and part-time forms.",
+            "Universities differ in terms of program availability, length, and eligibility. International students applying for an **F-1 student visa** may be eligible differently for online and part-time forms.",
             "Popular Specializations in MBA"
           ]
         },
@@ -105,7 +106,7 @@ const page = {
       "title": "Top US Universities for MBA Programs",
       "groups": [],
       "lead": [
-        "The business schools listed below are acknowledged for their superior MBA programs. Instead of relying just on institutional rankings, prospective students should consider program design, tuition fees, student composition, career assistance services, and admission requirements."
+        "The business schools listed below are acknowledged for their superior MBA programs. Instead of relying just on institutional rankings, prospective students should consider program design, **tuition fees**, student composition, career assistance services, and admission requirements."
       ],
       "note": [],
       "unis": [
@@ -171,8 +172,8 @@ const page = {
         {
           "t": "ul",
           "items": [
-            "The following academic requirements are usually required of potential  candidates:having a bachelor's degree from an approved or other recognized university.",
-            "submission of degree documentation and certified academic transcripts.",
+            "The following academic requirements are usually required of potential  candidates:having a **bachelor's degree** from an approved or other recognized university.",
+            "submission of degree documentation and certified **academic transcripts**.",
             "demonstration of academic success in line with the requirements for admission set by the institution.",
             "completion of any further preparatory coursework that may be required by the program."
           ]
@@ -180,7 +181,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "It is not always required to have a bachelor's degree in business administration. Applicants with undergraduate training in engineering, natural sciences, commerce, humanities, and other disciplines are often accepted by educational institutions.",
+            "It is not always required to have a **bachelor's degree** in business administration. Applicants with undergraduate training in engineering, natural sciences, commerce, humanities, and other disciplines are often accepted by educational institutions.",
             "Experience in the Workplace"
           ]
         },
@@ -205,8 +206,8 @@ const page = {
           "t": "ul",
           "items": [
             "Typically, applicants require:",
-            "a valid bachelor's degree from a school that has been approved or otherwise recognized.",
-            "degree certificates and academic transcripts.",
+            "a valid **bachelor's degree** from a school that has been approved or otherwise recognized.",
+            "degree certificates and **academic transcripts**.",
             "academic achievement that satisfies the requirements for admission to the university."
           ]
         },
@@ -221,10 +222,10 @@ const page = {
           "t": "ul",
           "items": [
             "Curriculum vitae or resume",
-            "MBA essays or Statements of Purpose",
-            "Letters of recommendation",
+            "MBA essays or **Statements of Purpose (SOP)**",
+            "**Letters of recommendation (LOR)**",
             "Test results in English, if necessary",
-            "GMAT or GRE results, if necessary",
+            "**GMAT or GRE** results, if necessary",
             "Conversations",
             "Information about leadership, extracurricular pursuits, or career accomplishments"
           ]
@@ -304,7 +305,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Indian students may be eligible for employer-sponsored help, external financial sources, business school awards, and university scholarships. The particular institution, the applicant's qualifications, the program's nature, and the institution's finance structure all influence whether or not such financial aid is available.",
+            "**Indian students** may be eligible for employer-sponsored help, external financial sources, business school awards, and university scholarships. The particular institution, the applicant's qualifications, the program's nature, and the institution's finance structure all influence whether or not such financial aid is available.",
             "Typical Funding Choices"
           ]
         },
@@ -357,7 +358,7 @@ const page = {
       "title": "Application Process for Student Visas and MBA",
       "groups": [],
       "lead": [
-        "The F-1 visa is the conventional authorization for academic pursuits, and Indian students wishing to enrolll full-time in authorized MBA programs in the United States usually need an appropriate student visa."
+        "The **F-1 student visa** is the conventional authorization for academic pursuits, and **Indian students** wishing to enrolll full-time in authorized MBA programs in the **United States** usually need an appropriate student visa."
       ],
       "steps": [
         {
@@ -407,7 +408,7 @@ const page = {
   "faqs": [
     {
       "q": "1t. Can Indian students study for an MBA in the US?",
-      "a": "Yes . After meeting the relevant academic requirements, English language proficiency levels, standardized test requirements, and other institutional admission criteria, Indian students with an accredited bachelor's degree are eligible to apply to MBA programs."
+      "a": "Yes . After meeting the relevant academic requirements, English language proficiency levels, standardized test requirements, and other institutional admission criteria, Indian students with an accredited bachelor's degree** are eligible to apply to MBA programs."
     },
     {
       "q": "How long does an MBA program in the US typically last?",
@@ -448,7 +449,7 @@ const DocParas = ({
   items && items.length ? (
     <div className={className}>
       {items.map((p, i) => (
-        <p key={i}>{p}</p>
+        <p key={i}>{formatRichText(p)}</p>
       ))}
     </div>
   ) : null;
@@ -456,7 +457,7 @@ const DocParas = ({
 const Li = ({ text }) => (
   <li className="flex items-start gap-3">
     <span className="mt-2 w-1.5 h-1.5 rounded-full bg-orange-500 shrink-0" />
-    <span className="text-slate-600 leading-relaxed">{text}</span>
+    <span className="text-slate-600 leading-relaxed">{formatRichText(text)}</span>
   </li>
 );
 

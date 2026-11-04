@@ -1,3 +1,4 @@
+import { formatRichText, EligibilityCtaCard } from "../../../../component/CoursePageKit";
 import React from "react";
 import { AbroadCoursePage } from "../../../../component/CoursePageKit";
 import heroImg from "../../../../Images/Abroad/USA/BusinessManagement/hero.webp";
@@ -29,7 +30,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "The United States represents a highly sought-after destination for Business Management education, providing internationally acclaimed credentials, experiential learning methodologies, and comprehensive exposure to global business operations. Participants acquire competencies across leadership development, strategic analysis, financial management, marketing strategy, venture creation, and organizational administration.",
+            "The **United States** represents a highly sought-after destination for Business Management education, providing internationally acclaimed credentials, experiential learning methodologies, and comprehensive exposure to global business operations. Participants acquire competencies across leadership development, strategic analysis, financial management, marketing strategy, venture creation, and organizational administration.",
             "Primary Advantages"
           ]
         },
@@ -46,7 +47,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."
+            "Edu Hawk Worldwide assists students in exploring international study options, comprehending university admission standards, comparing pathways like [MBA in the USA](/courses/mba), [BBA](/courses/bba), and [Marketing Management](/courses/marketing-management), and [getting expert counselling](/contact). Check our [admission FAQs](#faq) and [top universities](#universities)."
           ]
         }
       ]
@@ -196,7 +197,7 @@ const page = {
           "items": [
             "SAT/ACT: May be required for undergraduate admission.",
             "GMAT/GRE: May be required, optional, or not accepted for postgraduate programs.",
-            "Statement of Purpose or Essays: Commonly requested.",
+            "**Statement of Purpose (SOP)** or Essays: Commonly requested.",
             "Letters of Recommendation: Required by some universities.",
             "Resume/CV: Often required for postgraduate applications."
           ]
@@ -235,7 +236,7 @@ const page = {
         {
           "t": "ul",
           "items": [
-            "Academic merit-based scholarships",
+            "Academic **merit-based scholarships**",
             "Institution-specific financial awards",
             "Discipline-focused scholarship programs",
             "Graduate research and teaching assistantships, where applicable",
@@ -286,7 +287,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Indian students frequently pursue F-1 student visas to enroll in qualifying academic programs.",
+            "**Indian students** frequently pursue **F-1 student visa**s to enroll in qualifying academic programs.",
             "Application Procedures"
           ]
         },
@@ -295,13 +296,13 @@ const page = {
           "items": [
             "Identify an academic discipline and compile a list of prospective institutions.",
             "Verify admission prerequisites and application submission deadlines.",
-            "Assemble academic records, standardized examination results, personal statements, and letters of recommendation.",
+            "Assemble academic records, standardized examination results, personal statements, and **letters of recommendation (LOR)**.",
             "Transmit completed applications via designated university platforms.",
             "Obtain and evaluate an acceptance letter from the institution.",
             "Secure Form I-20 documentation from the university upon fulfilling all prerequisites.",
             "Finalize requisite SEVIS registration and visa procedures.",
             "Arrange housing accommodations and organize travel logistics.",
-            "Visa authorization remains contingent upon compliance with prevailing United States immigration statutes."
+            "Visa authorization remains contingent upon compliance with prevailing **United States** immigration statutes."
           ]
         }
       ]

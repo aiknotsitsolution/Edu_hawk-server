@@ -8,6 +8,8 @@ import {
   StepTimeline,
   FaqList,
   CtaBand,
+  EligibilityCtaCard,
+  formatRichText,
 } from "../../../../../component/CoursePageKit";
 import SeoHead from "../../../../../component/SeoHead";
 import heroImg from "../../../../../Images/Abroad/USA/Engineering_PG/engineering-pg.webp";
@@ -114,7 +116,10 @@ const faqs = [
 ];
 
 const overviewParas = [
-  "Indian students can develop advanced technical skills, research techniques, and professionally useful knowledge by pursuing postgraduate engineering education in the United States. Master's degree programs in computer engineering, mechanical engineering, civil engineering, electrical engineering, chemical engineering, aerospace engineering, and biomedical engineering are offered by academic institutions. Depending on the degree framework and institutional structure, most master's programs take one to two years to complete. Students get access to cutting-edge labs, research initiatives, collaborations with business partners, and chances to focus on a particular discipline. A relevant bachelor's degree, official academic records, and proof of English language proficiency are standard requirements for admission. Institutions have different requirements for the Graduate Record Examination (GRE). Subject to employer requirements and pertinent employment authorization laws, graduates may follow career paths in engineering, technology, scientific research, manufacturing, and infrastructure development.",
+  "**Indian students** can develop advanced technical skills, research techniques, and professionally useful knowledge by pursuing **postgraduate engineering education in the United States**. Master's degree programs in [computer engineering](/courses/pg/computer-engineering), [mechanical engineering](/courses/pg/mechanical-engineering), [civil engineering](/courses/pg/civil-engineering), [electrical engineering](/courses/pg/electrical-engineering), [chemical engineering](/courses/pg/chemical-engineering), [aerospace engineering](/courses/pg/aerospace-engineering), and [biomedical engineering](/courses/pg/biomedical-engineering) are offered by academic institutions.",
+  "Depending on the degree framework and institutional structure, most master's programs take **one to two years** to complete. Students get access to cutting-edge labs, research initiatives, collaborations with business partners, and chances to focus on a particular discipline.",
+  "A **relevant bachelor's degree**, official academic records, and proof of **English language proficiency** are standard requirements for admission. Institutions have different requirements for the **Graduate Record Examination (GRE)**.",
+  "Subject to employer requirements and pertinent employment authorization laws, graduates may follow career paths in engineering, technology, scientific research, manufacturing, and infrastructure development. Prospective candidates can also explore [Undergraduate Engineering in the USA](/courses/ug/engineering) or [connect with Edu Hawk Worldwide counsellors](/contact).",
 ];
 
 const PostgraduateEngineering = () => (
@@ -167,6 +172,7 @@ const PostgraduateEngineering = () => (
     <section className="py-16 sm:py-20 bg-slate-50">
       <div className="max-w-6xl mx-auto px-6">
         <StatGrid items={highlights} />
+        <EligibilityCtaCard level="PG" />
       </div>
     </section>
 
@@ -178,7 +184,7 @@ const PostgraduateEngineering = () => (
           <div className="space-y-5">
             {overviewParas.map((p, i) => (
               <p key={i} className="text-slate-500 text-[15px] leading-relaxed">
-                {p}
+                {formatRichText(p)}
               </p>
             ))}
           </div>

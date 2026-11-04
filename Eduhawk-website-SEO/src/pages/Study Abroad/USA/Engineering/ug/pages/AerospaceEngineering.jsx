@@ -10,10 +10,8 @@ import stanfordImg from "../../../../../../Images/Abroad/USA/Engineering_UG/Aero
 const branch = {
   name: "Aerospace Engineering",
   slug: "aerospace-engineering",
-  title:
-    "Aerospace Engineering in USA for Indian Students | UG 2026 | Edu Hawk",
-  description:
-    "Study Bachelor's in Aerospace Engineering in the USA after Class 12. Eligibility, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
+  title: "Aerospace Engineering in USA for Indian Students | UG 2026 | Edu Hawk",
+  description: "Study Bachelor's in Aerospace Engineering in the USA after Class 12. Eligibility, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Aerospace Engineering in USA for Indian Students, Best Aerospace Engineering Universities in USA, Bachelor's in Aerospace Engineering in USA, Study Aerospace Engineering in USA After 12th, Aerospace Engineering Courses in USA, Aerospace Engineering Admission Requirements in USA, Aerospace Engineering Tuition Fees in USA, Aerospace Engineering Scholarships for Indian Students, Top Aerospace Engineering Colleges in America, Aerospace Engineering Eligibility for Indian Students, SAT Requirements for Aerospace Engineering in USA, English Language Tests for US Universities, Career Opportunities After Aerospace Engineering, Aeronautical and Astronautical Engineering in USA, USA Student Visa for Indian Engineering Students",
   heroIntro: (
@@ -51,23 +49,25 @@ const branch = {
     "Edu Hawk Worldwide facilitates students in comprehending accessible educational pathways and identifying universities aligned with their academic credentials and professional aspirations.",
   ],
   courses: [],
-  coursesNote: [],
+  coursesNote: [
+    "Students also compare related programs such as [Mechanical Engineering in the USA](/courses/ug/mechanical-engineering) and [Automobile Engineering](/courses/ug/automobile-engineering), or explore advanced [Postgraduate MS in Aerospace Engineering](/courses/pg/aerospace-engineering).",
+  ],
 
   duration: [
-    "Completion of an undergraduate Aerospace Engineering degree in the United States ordinarily necessitates four years of academic study. The curriculum typically incorporates mathematics, physics, engineering mechanics, aerodynamics, propulsion systems, flight mechanics, aerospace structures, control systems, and spacecraft fundamentals. Students customarily participate in experimental laboratory work, aircraft or spacecraft design projects, academic research activities, and professional internship experiences.",
-    "Edu Hawk worldwide an help students understand the available education pathways and shortlist universities according to their qualifications and career goals.",
+    "Completion of an undergraduate Aerospace Engineering degree in the **United States** ordinarily necessitates **four years** of academic study. The curriculum typically incorporates mathematics, physics, engineering mechanics, aerodynamics, propulsion systems, flight mechanics, aerospace structures, control systems, and spacecraft fundamentals. Students customarily participate in experimental laboratory work, aircraft or spacecraft design projects, academic research activities, and professional internship experiences.",
+    "With Edu Hawk Worldwide guidance, students can explore [Undergraduate Engineering in the USA](/courses/ug/engineering) and [book free counselling](/contact) to shortlist universities according to their qualifications and career goals.",
   ],
 
   eligibilityLead: [
     "Indian students are typically obligated to fulfill the subsequent prerequisites:",
   ],
   eligibility: [
-    "Successful attainment of Class 12 certification from a recognized educational establishment.",
-    "Competence in mathematics and physics, augmented by any supplementary disciplines stipulated by the target university.",
+    "Successful attainment of **Class 12 certification** from a recognized educational establishment.",
+    "Competence in **mathematics and physics**, augmented by any supplementary disciplines stipulated by the target university.",
     "Academic achievement that corresponds with the institution's enrollment criteria.",
     "Verified proficiency in the English language where mandated.",
-    "Performance on the SAT or ACT assessments, contingent upon institutional requirements.",
-    "Verified academic records and any supporting documentation are necessary for submission.",
+    "Performance on the ****SAT or ACT** assessments**, contingent upon institutional requirements.",
+    "Verified **academic records** and any supporting documentation are necessary for submission.",
   ],
 
   englishLead: [
@@ -84,11 +84,11 @@ const branch = {
   ],
 
   testsNote: [
-    "The necessity for SAT or ACT examinations is contingent upon the specific university and the particular admission cycle in question. Certain institutions mandate examination scores, whereas others have adopted test-optional admission frameworks. It is noteworthy that no singular entrance examination is universally mandated by all USA universities for undergraduate Aerospace Engineering programs. It is recommended that prospective students review the institution's current admissions regulations, application deadlines, and program requirements related to their discipline.",
+    "The necessity for **SAT or ACT** examinations is contingent upon the specific university and the particular admission cycle in question. Certain institutions mandate examination scores, whereas others have adopted test-optional admission frameworks. It is noteworthy that no singular entrance examination is universally mandated by all USA universities for undergraduate Aerospace Engineering programs. It is recommended that prospective students review the institution's current admissions regulations, application deadlines, and program requirements related to their discipline.",
   ],
 
   costsLead: [
-    "The total Cost required to pursue an undergraduate degree in aerospace engineering in the United States varies greatly depending on the choice of institution, location, and housing situation",
+    "The total Cost required to pursue an undergraduate degree in aerospace engineering in the **United States** varies greatly depending on the choice of institution, location, and housing situation",
     "Primary cost components encompass:",
   ],
   costs: [
@@ -109,7 +109,7 @@ const branch = {
     "Available financial support mechanisms include:",
   ],
   scholarships: [
-    "Academic merit-based scholarships.",
+    "Academic **merit-based scholarships**.",
     "Scholarships designated for international students.",
     "Institution-specific tuition waivers and reductions.",
     "Financial assistance based on demonstrated financial need, accessible to qualifying international students.",
@@ -152,7 +152,7 @@ const branch = {
   ],
 
   careerIntro:
-    "After graduation, people can work in a variety of entry-level roles in the aerospace industry, including aircraft design, aerospace production, testing, simulation, and related engineering fields. .",
+    "After graduation, people can work in a variety of entry-level roles in the aerospace industry, including aircraft design, aerospace production, testing, simulation, and related engineering fields. . As a **STEM-designated degree program**, aerospace graduates are eligible for up to **3 years of OPT (Optional Practical Training)** under an **F-1 student visa**.",
   careerLead: ["Potential career roles include:"],
   careers: [
     "Aerospace Design Engineer",
@@ -169,7 +169,7 @@ const branch = {
   careerNote: [],
 
   visaLead: [
-    "Indian nationals who receive admission to a qualifying American educational institution are typically obligated to undertake the requisite student visa procedures.",
+    "Indian nationals who receive admission to a qualifying American educational institution are typically obligated to undertake the requisite **F-1 student visa** procedures.",
     "Typical steps include:",
   ],
   visaSteps: [

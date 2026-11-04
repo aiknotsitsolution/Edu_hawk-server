@@ -1,3 +1,4 @@
+import { formatRichText, EligibilityCtaCard } from "../../../../component/CoursePageKit";
 import React from "react";
 import { AbroadCoursePage } from "../../../../component/CoursePageKit";
 import heroImg from "../../../../Images/Abroad/USA/Architecture/hero.webp";
@@ -31,7 +32,7 @@ const page = {
           "items": [
             "In the USA, students can study Architecture and explore innovative design, sustainable construction, urban planning, digital modeling, and modern architectural technologies. U.S. colleges blend creative thinking and technical knowledge with hands-on projects, research and interdisciplinary learning.",
             "If you are an Indian student who wants to design buildings, create sustainable spaces or build future cities, then the USA has undergraduate, postgraduate, doctoral and specialist courses in architecture and related fields for you.",
-            "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."
+            "Edu Hawk Worldwide assists students in exploring international study options, comprehending university admission standards, comparing pathways like [Civil Engineering](/courses/ug/civil-engineering) and [Undergraduate Engineering in USA](/courses/ug/engineering), and [getting expert counselling](/contact). Check our [admission FAQs](#faq) and [top universities](#universities)."
           ]
         }
       ]
@@ -126,7 +127,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "There are a number of academic routes to architecture education in the United States. The right program will depend on the student’s previous education, career goals and interest in professional architectural practice.",
+            "There are a number of academic routes to architecture education in the **United States**. The right program will depend on the student’s previous education, career goals and interest in professional architectural practice.",
             "Undergraduate Degrees",
             "B.ARCH. (BACHELOR OF ARCHITECTURE)",
             "A professional degree in architecture, normally a 5-year program, which comprises architectural design, building technology, history and theory, and a studio component.",
@@ -225,9 +226,9 @@ const page = {
           "items": [
             "A recognized undergraduate degree.",
             "Academic background appropriate to the program selected.",
-            "Degree certificates and academic transcripts.",
+            "Degree certificates and **academic transcripts**.",
             "Statement of purpose.",
-            "Letters of recommendation, as appropriate.",
+            "**Letters of recommendation (LOR)**, as appropriate.",
             "A portfolio that shows design ability, creative thinking or relevant project work.",
             "English language knowledge",
             "GRE scores only if required by the university/programme."
@@ -246,7 +247,7 @@ const page = {
             "A relevant masters degree or other qualification acceptable to the university.",
             "Transcripts of academic records",
             "Research proposal or statement of research interests (if applicable).",
-            "Letters of recommendation.",
+            "**Letters of recommendation (LOR)**.",
             "A declaration of intent.",
             "Portfolio or writing sample, depending on the research area.",
             "English language skills.",
@@ -315,11 +316,11 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Tuition fees vary according to university, degree level, residency classification, length of program, and academic year. Architecture students may also have to budget for studio materials, printing, model-making, specialist software and equipment.",
+            "**Tuition fees** vary according to university, degree level, residency classification, length of program, and academic year. Architecture students may also have to budget for studio materials, printing, model-making, specialist software and equipment.",
             "Estimated Cost per Annum",
             "Tuition College",
             "USD 20,000-50,000+",
-            "Postgraduate tuition fees",
+            "Postgraduate **tuition fees**",
             "USD 25,000–60,000+",
             "Food and accommodation",
             "USD 10,000 - 20,000",
@@ -402,7 +403,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Having a degree in architecture does not automatically entitle you to practice as a licensed architect in the United States.",
+            "Having a degree in architecture does not automatically entitle you to practice as a licensed architect in the **United States**.",
             "Licensure requirements are determined by the applicable state or jurisdiction and typically include:",
             "Following an approved educational track."
           ]
@@ -431,7 +432,7 @@ const page = {
         },
         {
           "title": "Shortlisting Universities",
-          "text": "Compare course structure, program duration, tuition fees, scholarships, studio facilities, location and career goals."
+          "text": "Compare course structure, program duration, **tuition fees**, scholarships, studio facilities, location and career goals."
         },
         {
           "title": "Verify Eligibility",
@@ -471,7 +472,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Typically, an F-1 student visa is applied for by international students enrolled in an eligible academic program.",
+            "Typically, an **F-1 student visa** is applied for by international students enrolled in an eligible academic program.",
             "The process is typically:"
           ]
         },
@@ -492,7 +493,7 @@ const page = {
           "t": "p",
           "items": [
             "Why Edu Hawk?",
-            "If you are thinking about studying Architecture in the USA, you’ll need to think in detail about your academic eligibility, how to prepare your portfolio, program accreditation, tuition fees and scholarships, and your future career goals.",
+            "If you are thinking about studying Architecture in the USA, you’ll need to think in detail about your academic eligibility, how to prepare your portfolio, program accreditation, **tuition fees** and scholarships, and your future career goals.",
             "Edu Hawk guides students to better understand their options and to plan the application process more clearly."
           ]
         }

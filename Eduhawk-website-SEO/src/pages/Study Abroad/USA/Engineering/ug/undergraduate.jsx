@@ -8,6 +8,8 @@ import {
   StepTimeline,
   FaqList,
   CtaBand,
+  EligibilityCtaCard,
+  formatRichText,
 } from "../../../../../component/CoursePageKit";
 import SeoHead from "../../../../../component/SeoHead";
 import heroImg from "../../../../../Images/Abroad/USA/Engineering_UG/engineering-ug.webp";
@@ -112,12 +114,12 @@ const faqs = [
 ];
 
 const overviewParas = [
-  "Choosing to study undergraduate engineering in the USA is a step for many Indian students. It opens doors to notch tech tools, modern labs, hands-on learning and real research projects. Across the United States colleges offer engineering programs with many options. Like computer engineering, mechanical engineering, civil engineering, electrical engineering, aerospace engineering, chemical engineering and biomedical engineering.",
-  "Engineering bachelor’s degrees take four years to finish. During those years students learn skills, how to think critically and how to solve tough problems. They also often do internships, work with companies and take part in research projects. This helps them gain real-world experience before they graduate.",
-  "To get into these programs students must have passed Class 12 done the required subjects and show they can understand and speak English well.",
-  "SAT or ACT results are also required by several colleges.Not all do. It’s important to check each college’s rules.",
-  "Costs can vary a lot. Tuition can be between USD 25,000 and USD 65,000 or more per year. This doesn’t include housing, food and other living costs.. Some schools offer scholarships or financial help for international students, especially those who do well academically.",
-  "After graduation students can work in engineering fields. Go on to higher studies.. Job opportunities depend on company needs and visa rules in the US.",
+  "Choosing to study **undergraduate engineering in the USA** is a step for many **Indian students**. It opens doors to notch tech tools, modern labs, hands-on learning and real research projects. Across the United States colleges offer engineering programs with many options. Like [computer engineering](/courses/ug/computer-engineering), [mechanical engineering](/courses/ug/mechanical-engineering), [civil engineering](/courses/ug/civil-engineering), [electrical engineering](/courses/ug/electrical-engineering), [aerospace engineering](/courses/ug/aerospace-engineering), [chemical engineering](/courses/ug/chemical-engineering) and [biomedical engineering](/courses/ug/biomedical-engineering).",
+  "Engineering bachelor’s degrees take **four years** to finish. During those years students learn skills, how to think critically and how to solve tough problems. They also often do internships, work with companies and take part in research projects. This helps them gain real-world experience before they graduate.",
+  "To get into these programs students must have passed **Class 12** done the required subjects and show they can understand and speak English well.",
+  "**SAT or ACT** results are also required by several colleges. Not all do. It’s important to check each college’s rules.",
+  "Costs can vary a lot. Tuition can be between **USD 25,000 and USD 65,000 or more per year**. This doesn’t include housing, food and other living costs.. Some schools offer scholarships or financial help for international students, especially those who do well academically.",
+  "After graduation students can work in engineering fields, or go on to higher studies such as [Postgraduate Engineering in the USA](/courses/pg/engineering). Job opportunities depend on company needs and visa rules in the US.",
 ];
 
 const UndergraduateEngineeringUG = () => (
@@ -170,6 +172,7 @@ const UndergraduateEngineeringUG = () => (
     <section className="py-16 sm:py-20 bg-slate-50">
       <div className="max-w-6xl mx-auto px-6">
         <StatGrid items={highlights} />
+        <EligibilityCtaCard level="UG" />
       </div>
     </section>
 
@@ -181,7 +184,7 @@ const UndergraduateEngineeringUG = () => (
           <div className="space-y-5">
             {overviewParas.map((p, i) => (
               <p key={i} className="text-slate-500 text-[15px] leading-relaxed">
-                {p}
+                {formatRichText(p)}
               </p>
             ))}
           </div>
