@@ -9,7 +9,10 @@ const frameworkLibs =
   /[\\/]node_modules[\\/](react|react-dom|scheduler|react-router|react-router-dom|@reduxjs[\\/]toolkit|redux|react-redux|reselect|react-helmet-async|prop-types)[\\/]/;
 
 export default defineConfig({
-  plugins: [react(), tailwindcss()],
+  plugins: [
+    react(),
+    tailwindcss(),
+  ],
   base: "/",
   build: {
     rollupOptions: {

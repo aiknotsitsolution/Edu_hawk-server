@@ -93,21 +93,21 @@ export async function render(url) {
               <Route index element={<Home />} />
               <Route path="about" element={<About />} />
               <Route path="study-abroad" element={<MbbsAbroad />} />
-              <Route path="mbbsabroad/russia" element={<Russian />} />
-              <Route path="mbbsabroad/bangladesh" element={<Bangladesh />} />
-              <Route path="mbbsabroad/kazakhstan" element={<Kazakhstan />} />
-              <Route path="mbbsabroad/armernia" element={<Armernia />} />
-              <Route path="mbbsabroad/belarus" element={<Belarus />} />
-              <Route path="mbbsabroad/china" element={<China />} />
-              <Route path="mbbsabroad/kyrgyzstan" element={<Kyrgyzstan />} />
-              <Route path="mbbsabroad/egypt" element={<Egypt />} />
-              <Route path="mbbsabroad/georgia" element={<Georgia />} />
-              <Route path="mbbsabroad/iran" element={<Iran />} />
-              <Route path="mbbsabroad/nepal" element={<Nepal />} />
-              <Route path="mbbsabroad/tajikistan" element={<Tejikistan />} />
-              <Route path="mbbsabroad/uzbekistan" element={<Uzbekistan />} />
-              <Route path="mbbsabroad/vietnam" element={<Vietnam />} />
-              <Route path="mbbsabroad/italy" element={<Italy />} />
+              <Route path="mbbs-abroad/russia" element={<Russian />} />
+              <Route path="mbbs-abroad/bangladesh" element={<Bangladesh />} />
+              <Route path="mbbs-abroad/kazakhstan" element={<Kazakhstan />} />
+              <Route path="mbbs-abroad/armernia" element={<Armernia />} />
+              <Route path="mbbs-abroad/belarus" element={<Belarus />} />
+              <Route path="mbbs-abroad/china" element={<China />} />
+              <Route path="mbbs-abroad/kyrgyzstan" element={<Kyrgyzstan />} />
+              <Route path="mbbs-abroad/egypt" element={<Egypt />} />
+              <Route path="mbbs-abroad/georgia" element={<Georgia />} />
+              <Route path="mbbs-abroad/iran" element={<Iran />} />
+              <Route path="mbbs-abroad/nepal" element={<Nepal />} />
+              <Route path="mbbs-abroad/tajikistan" element={<Tejikistan />} />
+              <Route path="mbbs-abroad/uzbekistan" element={<Uzbekistan />} />
+              <Route path="mbbs-abroad/vietnam" element={<Vietnam />} />
+              <Route path="mbbs-abroad/italy" element={<Italy />} />
               <Route path="blog/education-blog" element={<BlogSection />} />
               <Route path="blog" element={<Blog />} />
               <Route path="services" element={<Services />} />

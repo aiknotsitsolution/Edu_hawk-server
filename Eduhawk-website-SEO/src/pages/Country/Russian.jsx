@@ -23,7 +23,7 @@ const Russia = () => {
       title="MBBS in Russia for Indian Students | Russia MBBS Fees & Admission"
       description="Study MBBS in Russia with low fees and NMC recognized universities. Check eligibility, admission process, and top medical universities in Russia."
       keywords="mbbs in russia, russia mbbs fees, study mbbs russia, russia medical colleges, mbbs russia admission"
-      path="/mbbsabroad/russia"
+      path="/mbbs-abroad/russia"
       ogType="website"
     />
     <div className="min-h-screen bg-gray-50 font-sans">

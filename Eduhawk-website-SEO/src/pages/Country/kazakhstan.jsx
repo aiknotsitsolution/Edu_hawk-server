@@ -1039,7 +1039,7 @@ const Kazakhstan = () => {
         title="MBBS in Kazakhstan for Indian Students | Fees & Admission 2026"
         description="MBBS in Kazakhstan at low cost with top universities. Get details on fees, eligibility, admission process and medical colleges."
         keywords="mbbs in kazakhstan, kazakhstan mbbs fees, study mbbs kazakhstan, kazakhstan medical colleges, mbbs kazakhstan admission"
-        path="/mbbsabroad/kazakhstan"
+        path="/mbbs-abroad/kazakhstan"
         ogType="website"
       />
     

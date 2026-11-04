@@ -14,42 +14,42 @@
 //     {
 //       name: "Russia",
 //       flag: "🇷🇺",
-//       path: "/mbbsabroad/russia",
+//       path: "/mbbs-abroad/russia",
 //       seats: "600+",
 //       fee: "₹20-35L",
 //     },
 //     {
 //       name: "Georgia",
 //       flag: "🇬🇪",
-//       path: "/mbbsabroad/georgia",
+//       path: "/mbbs-abroad/georgia",
 //       seats: "200+",
 //       fee: "₹25-40L",
 //     },
 //     {
 //       name: "Uzbekistan",
 //       flag: "🇺🇿",
-//       path: "/mbbsabroad/uzbekistan",
+//       path: "/mbbs-abroad/uzbekistan",
 //       seats: "400+",
 //       fee: "₹15-30L",
 //     },
 //     {
 //       name: "Kazakhstan",
 //       flag: "🇰🇿",
-//       path: "/mbbsabroad/kazakhstan",
+//       path: "/mbbs-abroad/kazakhstan",
 //       seats: "300+",
 //       fee: "₹18-32L",
 //     },
 //     {
 //       name: "Kyrgyzstan",
 //       flag: "🇰🇬",
-//       path: "/mbbsabroad/kyrgyzstan",
+//       path: "/mbbs-abroad/kyrgyzstan",
 //       seats: "250+",
 //       fee: "₹15-27L",
 //     },
 //     {
 //       name: "Nepal",
 //       flag: "🇳🇵",
-//       path: "/mbbsabroad/nepal",
+//       path: "/mbbs-abroad/nepal",
 //       seats: "150+",
 //       fee: "₹35-50L",
 //     },
@@ -57,14 +57,14 @@
 //     {
 //       name: "Bangladesh",
 //       flag: "🇧🇩",
-//       path: "/mbbsabroad/bangladesh",
+//       path: "/mbbs-abroad/bangladesh",
 //       seats: "200+",
 //       fee: "₹22-40L",
 //     },
 //     {
 //       name: "Vietnam",
 //       flag: "🇻🇳",
-//       path: "/mbbsabroad/vietnam",
+//       path: "/mbbs-abroad/vietnam",
 //       seats: "100+",
 //       fee: "₹25-35L",
 //     },
@@ -251,7 +251,7 @@ export default function Footer() {
   const COUNTRIES = [
     {
       name: "Russia",
-      path: "/mbbsabroad/russia",
+      path: "/mbbs-abroad/russia",
       seats: "600+",
       fee: "₹20-35L",
       flag: (
@@ -267,7 +267,7 @@ export default function Footer() {
     },
     {
       name: "Georgia",
-      path: "/mbbsabroad/georgia",
+      path: "/mbbs-abroad/georgia",
       seats: "200+",
       fee: "₹25-40L",
       flag: (
@@ -296,7 +296,7 @@ export default function Footer() {
     },
     {
       name: "Uzbekistan",
-      path: "/mbbsabroad/uzbekistan",
+      path: "/mbbs-abroad/uzbekistan",
       seats: "400+",
       fee: "₹15-30L",
       flag: (
@@ -330,7 +330,7 @@ export default function Footer() {
     },
     {
       name: "Kazakhstan",
-      path: "/mbbsabroad/kazakhstan",
+      path: "/mbbs-abroad/kazakhstan",
       seats: "300+",
       fee: "₹18-32L",
       flag: (
@@ -353,7 +353,7 @@ export default function Footer() {
     },
     {
       name: "Kyrgyzstan",
-      path: "/mbbsabroad/kyrgyzstan",
+      path: "/mbbs-abroad/kyrgyzstan",
       seats: "250+",
       fee: "₹15-27L",
       flag: (
@@ -374,7 +374,7 @@ export default function Footer() {
     },
     {
       name: "Nepal",
-      path: "/mbbsabroad/nepal",
+      path: "/mbbs-abroad/nepal",
       seats: "150+",
       fee: "₹35-50L",
       flag: (
@@ -395,7 +395,7 @@ export default function Footer() {
     },
     {
       name: "Bangladesh",
-      path: "/mbbsabroad/bangladesh",
+      path: "/mbbs-abroad/bangladesh",
       seats: "200+",
       fee: "₹22-40L",
       flag: (
@@ -410,7 +410,7 @@ export default function Footer() {
     },
     {
       name: "Vietnam",
-      path: "/mbbsabroad/vietnam",
+      path: "/mbbs-abroad/vietnam",
       seats: "100+",
       fee: "₹25-35L",
       flag: (

@@ -30,7 +30,7 @@ const Italy = () => {
       <SeoHead
         title="MBBS in Italy 2026-27 | Admissions, Fees & Universities | Edu Hawk"
         description="Explore MBBS in Italy for Indian students: eligibility, admission process, top medical universities, documents and food & accommodation costs. Study MBBS in Italy for a safe, affordable, and globally recognized medical education."
-        path="/mbbsabroad/italy"
+        path="/mbbs-abroad/italy"
         ogType="website"
       />
       {/* ==================== HEADER CAROUSEL ==================== */}

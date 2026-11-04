@@ -66,7 +66,7 @@ const Egypt = () => {
         title="MBBS in Egypt for Indian Students | Fees & Top Universities"
         description="MBBS in Egypt with globally recognized universities. Get details on fees, eligibility and admission process for Indian students."
         keywords="mbbs in egypt, egypt mbbs fees, study mbbs egypt, mbbs in egypt for indian students, top medical universities in egypt, mbbs in egypt eligibility, mbbs in egypt admission"
-        path="/mbbsabroad/egypt"
+        path="/mbbs-abroad/egypt"
         ogType="website"
       />
       <div className="min-h-screen bg-gray-50 font-sans">

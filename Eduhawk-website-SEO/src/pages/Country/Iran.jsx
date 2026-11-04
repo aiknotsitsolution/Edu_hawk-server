@@ -17,7 +17,7 @@ const Iran = () => {
       <SeoHead
         title="MBBS in Iran 2026-27 | Admissions, Fees & Universities | Edu Hawk"
         description="Explore MBBS in Iran for Indian students: eligibility, admission process, top medical universities, documents and food & accommodation costs. Study MBBS in Iran for a safe, affordable, and globally recognized medical education."
-        path="/mbbsabroad/iran"
+        path="/mbbs-abroad/iran"
         ogType="website"
       />
       {/* ==================== HEADER CAROUSEL ==================== */}

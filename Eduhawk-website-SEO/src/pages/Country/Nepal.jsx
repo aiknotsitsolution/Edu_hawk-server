@@ -18,7 +18,7 @@ const Nepal = () => {
       title="MBBS in Nepal for Indian Students | Fees & Admission Process"
       description="MBBS in Nepal with affordable fees and Indian syllabus. Get complete details on admission process, eligibility and top medical colleges."
       keywords=" mbbs in nepal, nepal mbbs fees, study mbbs nepal, nepal medical colleges"
-      path="/mbbsabroad/nepal"
+      path="/mbbs-abroad/nepal"
       ogType="website"
     />
    

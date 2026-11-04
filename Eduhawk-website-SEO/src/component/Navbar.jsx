@@ -924,7 +924,7 @@ const Navbar = () => {
               <button
                 onClick={() => setIsMedicalOpen(!isMedicalOpen)}
                 className={`${
-                  isActive("/allcollege") || isActive("/mbbsabroad")
+                  isActive("/allcollege") || isActive("/mbbs-abroad")
                     ? "text-[#F48C06]"
                     : "text-[#2F327D]"
                 } hover:text-[#F48C06] transition-colors flex items-center gap-1`}
@@ -980,7 +980,7 @@ const Navbar = () => {
                     {abroadCountries.map((country) => (
                       <a
                         key={country.path}
-                        href={`/mbbsabroad/${country.path}`}
+                        href={`/mbbs-abroad/${country.path}`}
                         className="block px-5 py-2.5 text-sm text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors"
                       >
                         {country.name}
@@ -1383,7 +1383,7 @@ const Navbar = () => {
               <div>
                 <button
                   className={`w-full flex justify-between items-center py-4 px-5 ${
-                    isActive("/allcollege") || isActive("/mbbsabroad")
+                    isActive("/allcollege") || isActive("/mbbs-abroad")
                       ? "text-[#F48C06]"
                       : "text-[#2F327D]"
                   }`}
@@ -1440,7 +1440,7 @@ const Navbar = () => {
                         {abroadCountries.map((c) => (
                           <a
                             key={c.path}
-                            href={`/mbbsabroad/${c.path}`}
+                            href={`/mbbs-abroad/${c.path}`}
                             className="block py-2.5 px-14 text-sm text-[#2F327D]"
                           >
                             {c.name}

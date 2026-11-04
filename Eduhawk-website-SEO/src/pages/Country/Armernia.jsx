@@ -17,7 +17,7 @@ const Armernia = () => {
       <SeoHead
         title="Study MBBS in Armenia for Indian Students | Edu Hawk"
         description="Plan MBBS in Armenia for Indian students: NEET-based admission, NMC & WHO-recognized universities, English-medium courses and hostel living cost details."
-        path="/mbbsabroad/armernia"
+        path="/mbbs-abroad/armernia"
         ogType="website"
       />
       {/* ==================== HEADER CAROUSEL ==================== */}

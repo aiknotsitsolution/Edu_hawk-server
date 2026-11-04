@@ -651,7 +651,7 @@ const Georgia = () => {
       title="MBBS in Georgia for Indian Students | Fees & Admission Process"
       description="Study MBBS in Georgia with English medium and affordable fees. Check eligibility, admission process and top universities."
       keywords="mbbs in georgia, georgia mbbs fees, study mbbs georgia, mbbs in georgia for indian students, top medical universities in georgia, mbbs in georgia eligibility, mbbs in georgia admission"
-      path="/mbbsabroad/georgia"
+      path="/mbbs-abroad/georgia"
       ogType="website"
     />
     <div className="min-h-screen bg-gray-50 font-sans">

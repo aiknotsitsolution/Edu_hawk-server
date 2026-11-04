@@ -58,7 +58,7 @@ const Vietnam = () => {
         title="MBBS in Vietnam for Indian Students | Fees & Colleges"
         description="Study MBBS in Vietnam with English medium and affordable fees. Check eligibility, admission process and top universities."
         keywords="mbbs in vietnam, vietnam mbbs fees, study mbbs vietnam, mbbs in vietnam for indian students, top medical universities in vietnam, mbbs in vietnam eligibility, mbbs in vietnam admission"
-        path="/mbbsabroad/vietnam"
+        path="/mbbs-abroad/vietnam"
         ogType="website"
       />
       <div className="min-h-screen bg-gray-50 font-sans">

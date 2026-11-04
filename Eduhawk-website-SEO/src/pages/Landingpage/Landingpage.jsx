@@ -37,7 +37,7 @@ const HERO_IMAGES = [
 const COUNTRIES = [
   {
     name: "Russia",
-    path: "mbbsabroad/russia",
+    path: "mbbs-abroad/russia",
     rank: "#1 Choice",
     color: "#06b6d4",
     uniImage:
@@ -45,7 +45,7 @@ const COUNTRIES = [
   },
   {
     name: "Kazakhstan",
-    path: "mbbsabroad/kazakhstan",
+    path: "mbbs-abroad/kazakhstan",
     rank: "Top Rated",
     color: "#22d3ee",
     uniImage:
@@ -53,7 +53,7 @@ const COUNTRIES = [
   },
   {
     name: "Georgia",
-    path: "mbbsabroad/georgia",
+    path: "mbbs-abroad/georgia",
     rank: "EU Standard",
     color: "#0ea5e9",
     uniImage:
@@ -61,7 +61,7 @@ const COUNTRIES = [
   },
   {
     name: "Bangladesh",
-    path: "mbbsabroad/bangladesh",
+    path: "mbbs-abroad/bangladesh",
     rank: "NMC Recognized",
     color: "#06b6d4",
     uniImage:
@@ -69,14 +69,14 @@ const COUNTRIES = [
   },
   {
     name: "Nepal",
-    path: "mbbsabroad/nepal",
+    path: "mbbs-abroad/nepal",
     rank: "Affordable",
     color: "#10b981",
     uniImage: "https://asmi.edu.kg/wp-content/uploads/slider2/DJI_0086.jpeg",
   },
   {
     name: "Kyrgyzstan",
-    path: "mbbsabroad/kyrgyzstan",
+    path: "mbbs-abroad/kyrgyzstan",
     rank: "Low Cost",
     color: "#eab308",
     uniImage:
@@ -84,7 +84,7 @@ const COUNTRIES = [
   },
   {
     name: "Uzbekistan",
-    path: "mbbsabroad/uzbekistan",
+    path: "mbbs-abroad/uzbekistan",
     rank: "Emerging",
     color: "#8b5cf6",
     uniImage:
@@ -92,7 +92,7 @@ const COUNTRIES = [
   },
   {
     name: "Tajikistan",
-    path: "mbbsabroad/tajikistan",
+    path: "mbbs-abroad/tajikistan",
     rank: "Budget Friendly",
     color: "#ec4899",
     uniImage:
@@ -100,7 +100,7 @@ const COUNTRIES = [
   },
   {
     name: "Egypt",
-    path: "mbbsabroad/egypt",
+    path: "mbbs-abroad/egypt",
     rank: "Ancient Legacy",
     color: "#f59e0b",
     uniImage:
@@ -108,7 +108,7 @@ const COUNTRIES = [
   },
   {
     name: "Vietnam",
-    path: "mbbsabroad/vietnam",
+    path: "mbbs-abroad/vietnam",
     rank: "Fast Growing",
     color: "#22c55e",
     uniImage:

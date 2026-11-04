@@ -19,7 +19,7 @@ const Tajikistan = () => {
         title="MBBS in Tajikistan for Indian Students | Fees & Admission"
         description="Study MBBS in Tajikistan at affordable cost. Check eligibility, admission process and recognized medical universities."
         keywords="mbbs in tajikistan, tajikistan mbbs fees, study mbbs tajikistan, tajikistan medical colleges, mbbs tajikistan admission"
-        path="/mbbsabroad/tajikistan"
+        path="/mbbs-abroad/tajikistan"
         ogType="website"
       />
       <div className="min-h-screen bg-gray-50 font-sans">

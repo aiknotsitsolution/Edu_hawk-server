@@ -72,7 +72,7 @@ const Bangladesh = () => {
       title="MBBS in Bangladesh for Indian Students | Fees & Admission Process"
       description="MBBS in Bangladesh with affordable fees and Indian syllabus. Get complete details on admission process, eligibility and top medical colleges."
       keywords=" mbbs in bangladesh, bangladesh mbbs fees, study mbbs bangladesh, bangladesh medical colleges"
-      path="/mbbsabroad/bangladesh"
+      path="/mbbs-abroad/bangladesh"
       ogType="website"
     />
 

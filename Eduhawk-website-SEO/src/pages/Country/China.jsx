@@ -17,7 +17,7 @@ const China = () => {
       <SeoHead
         title="MBBS in China 2026-27 | Admissions, Fees & Universities | Edu Hawk"
         description="Explore MBBS in China for Indian students: eligibility, admission process, top medical universities, documents and food & accommodation costs. Study MBBS in China for a safe, affordable, and globally recognized medical education."
-        path="/mbbsabroad/china"
+        path="/mbbs-abroad/china"
         ogType="website"
       />
       {/* ==================== HEADER CAROUSEL ==================== */}

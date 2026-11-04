@@ -126,52 +126,52 @@ const mbbsOptions = [
   {
     country: "Bangladesh",
     fees: "24 Lakhs to 41 Lakhs",
-    link: "/mbbsabroad/bangladesh",
+    link: "/mbbs-abroad/bangladesh",
   },
   {
     country: "Russia",
     fees: "24 Lakhs to 41 Lakhs",
-    link: "/mbbsabroad/russia",
+    link: "/mbbs-abroad/russia",
   },
   {
     country: "Uzbekistan",
     fees: "16 Lakhs to 21 Lakhs",
-    link: "/mbbsabroad/uzbekistan",
+    link: "/mbbs-abroad/uzbekistan",
   },
   {
     country: "Kyrgyzstan",
     fees: "14 Lakhs to 21 Lakhs",
-    link: "/mbbsabroad/kyrgyzstan",
+    link: "/mbbs-abroad/kyrgyzstan",
   },
   {
     country: "Egypt",
     fees: "31 Lakhs to 36 Lakhs",
-    link: "/mbbsabroad/egypt",
+    link: "/mbbs-abroad/egypt",
   },
   {
     country: "Kazakhstan",
     fees: "16 Lakhs to 23 Lakhs",
-    link: "/mbbsabroad/kazakhstan",
+    link: "/mbbs-abroad/kazakhstan",
   },
   {
     country: "Tajikistan",
     fees: "17 Lakhs to 25 Lakhs",
-    link: "/mbbsabroad/tajikistan",
+    link: "/mbbs-abroad/tajikistan",
   },
   {
     country: "Nepal",
     fees: "20 Lakhs to 35 Lakhs",
-    link: "/mbbsabroad/nepal",
+    link: "/mbbs-abroad/nepal",
   },
   {
     country: "Georgia",
     fees: "18 Lakhs to 28 Lakhs",
-    link: "/mbbsabroad/georgia",
+    link: "/mbbs-abroad/georgia",
   },
   {
     country: "Vietnam",
     fees: "21 Lakhs to 30 Lakhs",
-    link: "/mbbsabroad/vietnam",
+    link: "/mbbs-abroad/vietnam",
   },
 ];
 
@@ -742,9 +742,11 @@ export default function HeroSection() {
                   src={slide.image}
                   alt={slide.title}
                   width={1920}
-                  height={800}
+                  height={1281}
+                  sizes="100vw"
                   loading={index === 0 ? "eager" : "lazy"}
                   fetchPriority={index === 0 ? "high" : undefined}
+                  decoding={index === 0 ? "sync" : "async"}
                   className="w-full h-full object-cover brightness-[0.85] aspect-auto"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/35 to-transparent/30" />
@@ -863,7 +865,7 @@ export default function HeroSection() {
                     MBBS India
                   </Link>
                   <Link
-                    to="/mbbsabroad/russia"
+                    to="/mbbs-abroad/russia"
                     onClick={() => setExploreMenuOpen(false)}
                     className="block w-full rounded-2xl border border-white/20 bg-white/5 text-white text-center font-semibold px-4 py-3 transition hover:bg-white/10 hover:shadow-lg"
                   >
@@ -905,7 +907,7 @@ export default function HeroSection() {
               </p>
               <p className="text-gray-700 leading-relaxed mb-4 text-base">
                 As trusted overseas{" "}
-                <Link to="/mbbsabroad/italy">
+                <Link to="/mbbs-abroad/italy">
                   <strong>medical education </strong>
                 </Link>
   consultants, we provide
@@ -1200,42 +1202,42 @@ export default function HeroSection() {
               {
                 name: "Altai State Medical University",
                 img: topRanking2,
-                path: "/mbbsabroad/russia",
+                path: "/mbbs-abroad/russia",
               },
               {
                 name: "Dhaka National Medical College",
                 img: "https://educationvibes.in/uploads/university_banner/mbbs_abroad/dhaka-national-medical-college.webp",
-                path: "/mbbsabroad/bangladesh",
+                path: "/mbbs-abroad/bangladesh",
               },
               {
                 name: "Kathmandu Medical College",
                 img: Kathmandu,
-                path: "/mbbsabroad/nepal",
+                path: "/mbbs-abroad/nepal",
               },
               {
                 name: "International Medical College",
                 img: "https://upload.wikimedia.org/wikipedia/commons/b/b9/International_higher_school_of_medicine_central_campus.jpg",
-                path: "/mbbsabroad/kyrgyzstan",
+                path: "/mbbs-abroad/kyrgyzstan",
               },
               {
                 name: "West Kazakhstan Marat Ospanov State Medical University",
                 img: topRanking4,
-                path: "/mbbsabroad/kazakhstan",
+                path: "/mbbs-abroad/kazakhstan",
               },
               {
                 name: "Samarkand State Medical Institute",
                 img: "https://www.moksh16.com/uploads/images/samarkand1.webp",
-                path: "/mbbsabroad/uzbekistan",
+                path: "/mbbs-abroad/uzbekistan",
               },
               {
                 name: "Tajik National University",
                 img: "https://upload.wikimedia.org/wikipedia/commons/3/36/Tajik_National_University_%28Main_Building%29.jpg",
-                path: "/mbbsabroad/tajikistan",
+                path: "/mbbs-abroad/tajikistan",
               },
               {
                 name: "Assiut University",
                 img: "https://oktamam.com/wp-content/uploads/2024/03/assiut-university.png",
-                path: "/mbbsabroad/egypt",
+                path: "/mbbs-abroad/egypt",
               },
             ].map((college, index) => (
               <Link

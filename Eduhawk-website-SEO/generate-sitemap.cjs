@@ -7,21 +7,21 @@ const routes = [
   "/",
   "/about",
   "/study-abroad",
-  "/mbbsabroad/russia",
-  "/mbbsabroad/bangladesh",
-  "/mbbsabroad/kazakhstan",
-  "/mbbsabroad/armernia",
-  "/mbbsabroad/belarus",
-  "/mbbsabroad/china",
-  "/mbbsabroad/kyrgyzstan",
-  "/mbbsabroad/egypt",
-  "/mbbsabroad/georgia",
-  "/mbbsabroad/iran",
-  "/mbbsabroad/nepal",
-  "/mbbsabroad/tajikistan",
-  "/mbbsabroad/uzbekistan",
-  "/mbbsabroad/vietnam",
-  "/mbbsabroad/italy",
+  "/mbbs-abroad/russia",
+  "/mbbs-abroad/bangladesh",
+  "/mbbs-abroad/kazakhstan",
+  "/mbbs-abroad/armernia",
+  "/mbbs-abroad/belarus",
+  "/mbbs-abroad/china",
+  "/mbbs-abroad/kyrgyzstan",
+  "/mbbs-abroad/egypt",
+  "/mbbs-abroad/georgia",
+  "/mbbs-abroad/iran",
+  "/mbbs-abroad/nepal",
+  "/mbbs-abroad/tajikistan",
+  "/mbbs-abroad/uzbekistan",
+  "/mbbs-abroad/vietnam",
+  "/mbbs-abroad/italy",
   "/blog/education-blog",
   "/blog",
   "/services",
@@ -88,8 +88,8 @@ function getLastModDate(route) {
     else if (route === "/blog") relPath = "src/pages/Component/Blog.jsx";
     else if (route === "/services") relPath = "src/pages/Component/Services.jsx";
     else if (route === "/contact") relPath = "src/pages/Component/Contact.jsx";
-    else if (route.startsWith("/mbbsabroad/")) {
-      const country = route.replace("/mbbsabroad/", "");
+    else if (route.startsWith("/mbbs-abroad/")) {
+      const country = route.replace("/mbbs-abroad/", "");
       relPath = `src/pages/Country/${country.charAt(0).toUpperCase() + country.slice(1)}.jsx`;
     }
 
