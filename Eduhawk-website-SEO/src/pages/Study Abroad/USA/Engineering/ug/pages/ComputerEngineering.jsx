@@ -57,7 +57,7 @@ const branch = {
   duration: [
     "An undergraduate Computer Engineering degree within the United States typically requires four years for completion.",
     "The academic curriculum generally encompasses mathematics, physics, programming, digital logic, electronics, computer architecture, operating systems, and engineering design coursework.",
-    "Through Edu Hawk worldwide study abroad guidance, students can explore these opportunities and understand the requirements involved in pursuing dental education overseas.",
+    "With Edu Hawk Worldwide university selection guidance, students can compare suitable institutions based on academic background, budget, preferred location, and long-term professional goals.",
   ],
 
   eligibilityLead: [

@@ -44,6 +44,17 @@ branch — what was done, why, and the measured impact.
 - ✅ **Kyrgyzstan Page SEO Metadata Fixed**: `Kyrgyzstan.jsx` se galti se laga Kazakhstan title/keywords hata kar proper "MBBS in Kyrgyzstan for Indian Students | Fees & Admission 2026-27" update kiya gaya.
 - ✅ **Belarus Duplicate Head & App JSON-LD Fixed**: `Belarus.jsx` se duplicate `<SeoHead>` block remove kiya gaya; `App.jsx` JSON-LD logo 404 path (`/Eduhawk.svg`) ko correct `/Eduhawk.png` se replace kiya gaya.
 - ✅ **Footer Insecure External Link Fixed**: `Footer.jsx` me insecure `http://aiknotsit.com/` ko `https://aiknotsit.com/` me update kiya gaya.
+- ✅ **Code Syntax & Build Bugs Fixed**:
+  - `CivilEngineering.jsx` & `MechanicalEngineering.jsx`: `careerIntro: (<>...</>,)` trailing comma syntax errors resolved.
+  - `prerender.js`: CommonJS `require()` converted to ESM imports for `"type": "module"` compatibility; `"prerender:all"` build pipeline added.
+  - `Landingpage.jsx`: Duplicate `<h1>` ("Talk to our Experts") demoted to `<h2>`; 60 occurrences of raw `class="..."` converted to JSX-compliant `className="..."`.
+  - `index.html`: SEO fallback `<title>` and `<meta name="description">` added for static crawler indexation.
+  - `App.jsx`: Non-existent `SearchAction` (`/search`) removed from WebSite schema to prevent Sitelinks 404 penalties.
+  - `generate-sitemap.cjs`: All 74 routes mapped to verified component files, case-sensitivity bug fixed (`kazakhstan.jsx`), and static baseline `lastmod` applied.
+- ✅ **34 USA Course Pages Audit & Content Fix**:
+  - All 14 Business, Management & Other courses verified against source documents.
+  - All 20 UG & PG Engineering pages verified with full curriculum, university shortlists, timelines, and FAQs.
+  - `ComputerEngineering.jsx` (UG): Accidental copy-pasted "dental education" reference replaced with accurate computer engineering counselling and university shortlisting copy.
 
 ---
 

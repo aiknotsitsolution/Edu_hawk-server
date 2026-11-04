@@ -6,12 +6,12 @@ import { spawn } from "child_process";
 const distDir = path.join(process.cwd(), "dist");
 
 const routes = [
-  "/", "/about", "/study-abroad", "/mbbsabroad/russia", "/mbbsabroad/bangladesh",
-  "/mbbsabroad/kazakhstan", "/mbbsabroad/armernia", "/mbbsabroad/belarus",
-  "/mbbsabroad/china", "/mbbsabroad/kyrgyzstan", "/mbbsabroad/egypt",
-  "/mbbsabroad/georgia", "/mbbsabroad/iran", "/mbbsabroad/nepal",
-  "/mbbsabroad/tajikistan", "/mbbsabroad/uzbekistan", "/mbbsabroad/vietnam",
-  "/mbbsabroad/italy", "/blog/education-blog", "/blog", "/services", "/contact",
+  "/", "/about", "/study-abroad", "/mbbs-abroad/russia", "/mbbs-abroad/bangladesh",
+  "/mbbs-abroad/kazakhstan", "/mbbs-abroad/armernia", "/mbbs-abroad/belarus",
+  "/mbbs-abroad/china", "/mbbs-abroad/kyrgyzstan", "/mbbs-abroad/egypt",
+  "/mbbs-abroad/georgia", "/mbbs-abroad/iran", "/mbbs-abroad/nepal",
+  "/mbbs-abroad/tajikistan", "/mbbs-abroad/uzbekistan", "/mbbs-abroad/vietnam",
+  "/mbbs-abroad/italy", "/blog/education-blog", "/blog", "/services", "/contact",
   "/allcollege", "/courses/mbbs", "/courses/medical-abroad", "/courses/dentistry",
   "/courses/nursing", "/courses/pharmacy", "/courses/physiotherapy",
   "/courses/public-health", "/courses/biotechnology", "/courses/engineering",
