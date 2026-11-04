@@ -101,7 +101,7 @@ const MainLayout = () => {
   };
 
   const openWhatsApp = () => {
-    window.open("https://api.whatsapp.com/send?phone=919630736070", "_blank");
+    window.open("https://api.whatsapp.com/send?phone=919630736070", "_blank", "noopener,noreferrer");
   };
 
   return (
@@ -178,6 +178,7 @@ const MainLayout = () => {
           
           <button
             onClick={openWhatsApp}
+            aria-label="Chat with Edu-Hawk on WhatsApp"
             className="relative w-14 h-14 bg-[#25D366] hover:bg-[#20ba5c] text-white rounded-full shadow-xl flex items-center justify-center transition-all duration-300 hover:scale-110 active:scale-95"
             title="Chat on WhatsApp"
           >
@@ -196,6 +197,7 @@ const MainLayout = () => {
         {showScrollTop && (
           <button
             onClick={scrollToTop}
+            aria-label="Scroll to top of page"
             className="w-14 h-14 bg-blue-600 hover:bg-blue-700 text-white rounded-full shadow-xl flex items-center justify-center transition-all duration-300 hover:scale-110 active:scale-95"
             title="Scroll to Top"
           >

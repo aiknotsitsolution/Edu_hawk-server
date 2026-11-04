@@ -460,24 +460,36 @@ export default function Footer() {
             <div className="flex gap-4 text-xl">
               <a
                 href="https://www.facebook.com/eduhawkglobal"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Edu-Hawk Worldwide on Facebook"
                 className="hover:text-amber-400 transition-colors duration-200"
               >
                 <Facebook />
               </a>
               <a
                 href="https://www.youtube.com/@Eduhawkteam"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Edu-Hawk Worldwide on YouTube"
                 className="hover:text-amber-400 transition-colors duration-200"
               >
                 <Youtube />
               </a>
               <a
                 href="https://www.instagram.com/eduhawk_global/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Edu-Hawk Worldwide on Instagram"
                 className="hover:text-amber-400 transition-colors duration-200"
               >
                 <Instagram />
               </a>
               <a
                 href="https://www.linkedin.com/company/edu-hawk-worldwide/?viewAsMember=true"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Edu-Hawk Worldwide on LinkedIn"
                 className="hover:text-amber-400 transition-colors duration-200"
               >
                 <Linkedin />

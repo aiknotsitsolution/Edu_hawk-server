@@ -299,6 +299,10 @@ export const router = createBrowserRouter([
         path: "study-abroad/winter-courses",
         element: <WinterCoursesAbroad/>,
       },
+      {
+        path: "study-abroad/working-professionals",
+        element: <ExecutiveMbaAbroad />,
+      },
 
        {
         path: "courses/accounting-finance",
@@ -458,6 +462,7 @@ export const routeList = [
   "/study-abroad/language-courses",
   "/study-abroad/summer-courses",
   "/study-abroad/winter-courses",
+  "/study-abroad/working-professionals",
   "/courses/accounting-finance",
   "/courses/ug/engineering",
   "/courses/ug/computer-engineering",
