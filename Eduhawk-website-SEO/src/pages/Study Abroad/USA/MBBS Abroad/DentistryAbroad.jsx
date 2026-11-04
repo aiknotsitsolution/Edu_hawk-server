@@ -193,7 +193,7 @@ const DentistryAbroad = () =>
       a: "Yes. As per current NMC guidelines, Indian students must qualify NEET to pursue BDS abroad. Without NEET, the degree will not be valid for registration or practice in India.",
     },
     {
-      q: "Which countries are best for BDS abroad in 2025-26?",
+      q: "Which countries are best for BDS abroad in 2026-27?",
       a: "Russia, Georgia, Kazakhstan, Uzbekistan and Kyrgyzstan are currently the most preferred destinations for Indian students due to NMC recognition, reasonable fees and good clinical exposure. The best choice depends on your budget and NEET score.",
     },
     {

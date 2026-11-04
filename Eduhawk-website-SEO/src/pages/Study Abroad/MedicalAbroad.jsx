@@ -102,7 +102,7 @@ const MedicalAbroad = () => {
       a: "Yes. As per current NMC guidelines, Indian students must qualify NEET to pursue MBBS abroad and later practice or pursue PG in India. Without NEET, the degree will not be considered valid for registration in India.",
     },
     {
-      q: "Which countries are best for MBBS abroad in 2025-26?",
+      q: "Which countries are best for MBBS abroad in 2026-27?",
       a: "Russia, Georgia, Kazakhstan, Uzbekistan and Kyrgyzstan remain the most popular for Indian students due to NMC recognition, reasonable fees and large Indian student communities. The best country depends on your budget, NEET score and long-term plans (FMGE/NExT or PG abroad).",
     },
     {
