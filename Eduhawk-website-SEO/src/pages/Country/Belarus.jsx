@@ -17,12 +17,7 @@ const Belarus = () => {
       <SeoHead
         title="MBBS in Belarus 2026-27 | Admissions, Fees & Universities | Edu Hawk"
         description="Explore MBBS in Belarus for Indian students: eligibility, admission process, top medical universities, documents and food & accommodation costs. Study MBBS in Belarus for a safe, affordable, and globally recognized medical education."
-        path="/mbbs-abroad/belarus"
-        ogType="website"
-      />
-      <SeoHead
-        title="Study MBBS in Belarus for Indian Students | Edu Hawk"
-        description="Explore MBBS in Belarus for Indian students: eligibility, admission process, top medical universities, documents and food & accommodation costs."
+        keywords="mbbs in belarus, belarus mbbs fees, study mbbs belarus, belarus medical universities, mbbs abroad belarus"
         path="/mbbs-abroad/belarus"
         ogType="website"
       />

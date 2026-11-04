@@ -205,7 +205,7 @@
 //           <p className="mt-1">
 //             Powered By{" "}
 //             <a
-//               href="http://aiknotsit.com/"
+//               href="https://aiknotsit.com/"
 //               target="_blank"
 //               rel="noopener noreferrer"
 //             >
@@ -564,7 +564,7 @@ export default function Footer() {
           <p className="mt-1">
             Powered By{" "}
             <a
-              href="http://aiknotsit.com/"
+              href="https://aiknotsit.com/"
               target="_blank"
               rel="noopener noreferrer"
             >

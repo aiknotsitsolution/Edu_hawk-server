@@ -623,13 +623,13 @@ const Kyrgyzstan = () => {
   return (
     <>
     
-         <SeoHead
-      title="MBBS in Kazakhstan for Indian Students | Fees & Admission 2026"
-      description="MBBS in Kazakhstan at low cost with top universities. Get details on fees, eligibility, admission process and medical colleges."
-      keywords="mbbs in kazakhstan, kazakhstan mbbs fees, study mbbs kazakhstan, kazakhstan medical colleges, mbbs kazakhstan admission"
-      path="/mbbs-abroad/kyrgyzstan"
-      ogType="website"
-    />
+      <SeoHead
+        title="MBBS in Kyrgyzstan for Indian Students | Fees & Admission 2026-27"
+        description="Study MBBS in Kyrgyzstan at low cost with top NMC recognized universities. Get details on fees, eligibility, admission process and medical colleges."
+        keywords="mbbs in kyrgyzstan, kyrgyzstan mbbs fees, study mbbs kyrgyzstan, kyrgyzstan medical colleges, mbbs kyrgyzstan admission"
+        path="/mbbs-abroad/kyrgyzstan"
+        ogType="website"
+      />
 
     <div className="min-h-screen bg-gray-50 font-sans">
       {/* ==================== HEADER CAROUSEL ==================== */}

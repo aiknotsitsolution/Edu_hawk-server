@@ -8,7 +8,7 @@ const organizationSchema = {
   "@type": "EducationalOrganization",
   name: "Edu-Hawk Worldwide",
   url: "https://www.eduhawk.in/",
-  logo: "https://www.eduhawk.in/Eduhawk.svg",
+  logo: "https://www.eduhawk.in/Eduhawk.png",
   description:
     "Edu-Hawk Worldwide helps Indian students secure MBBS admissions abroad in NMC-recognized universities with expert counselling and complete support.",
   contactPoint: {
