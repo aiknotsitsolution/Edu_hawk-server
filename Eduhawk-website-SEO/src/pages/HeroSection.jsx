@@ -577,13 +577,13 @@ export default function HeroSection() {
                     {/* Full Name & Email in 2 columns */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 sm:gap-4">
                       <div>
-                        <label className="block text-xs font-semibold text-slate-700 mb-1.5">
+                        <label htmlFor="modal-name" className="block text-xs font-semibold text-slate-700 mb-1.5">
                           Full Name <span className="text-rose-500 font-bold">*</span>
                         </label>
                         <div className="relative group">
                           <User size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-teal-600 transition-colors pointer-events-none" />
                           <input
-                            type="text"
+                            id="modal-name" type="text"
                             name="name"
                             placeholder="Enter your full name"
                             value={modalForm.name}
@@ -601,13 +601,13 @@ export default function HeroSection() {
                       </div>
 
                       <div>
-                        <label className="block text-xs font-semibold text-slate-700 mb-1.5">
+                        <label htmlFor="modal-email" className="block text-xs font-semibold text-slate-700 mb-1.5">
                           Email <span className="text-rose-500 font-bold">*</span>
                         </label>
                         <div className="relative group">
                           <Mail size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-teal-600 transition-colors pointer-events-none" />
                           <input
-                            type="email"
+                            id="modal-email" type="email"
                             name="email"
                             placeholder="your.email@gmail.com"
                             value={modalForm.email}
@@ -627,13 +627,13 @@ export default function HeroSection() {
 
                     {/* Phone Number - full width */}
                     <div>
-                      <label className="block text-xs font-semibold text-slate-700 mb-1.5">
+                      <label htmlFor="modal-phone" className="block text-xs font-semibold text-slate-700 mb-1.5">
                         Phone Number (+91) <span className="text-rose-500 font-bold">*</span>
                       </label>
                       <div className="relative group">
                         <Phone size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-teal-600 transition-colors pointer-events-none" />
                         <input
-                          type="tel"
+                          id="modal-phone" type="tel"
                           name="phone"
                           placeholder="+91 9630736070"
                           value={modalForm.phone}
@@ -652,13 +652,13 @@ export default function HeroSection() {
 
                     {/* Current City - full width */}
                     <div>
-                      <label className="block text-xs font-semibold text-slate-700 mb-1.5">
+                      <label htmlFor="modal-city" className="block text-xs font-semibold text-slate-700 mb-1.5">
                         Current City <span className="text-rose-500 font-bold">*</span>
                       </label>
                       <div className="relative group">
                         <MapPin size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-teal-600 transition-colors pointer-events-none" />
                         <select
-                          name="city"
+                          id="modal-city" name="city"
                           value={modalForm.city}
                           onChange={(e) =>
                             updateModalField("city", e.target.value)
@@ -690,13 +690,13 @@ export default function HeroSection() {
 
                     {/* NEET Status - full width */}
                     <div>
-                      <label className="block text-xs font-semibold text-slate-700 mb-1.5">
+                      <label htmlFor="modal-neet" className="block text-xs font-semibold text-slate-700 mb-1.5">
                         NEET Status <span className="text-rose-500 font-bold">*</span>
                       </label>
                       <div className="relative group">
                         <GraduationCap size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-teal-600 transition-colors pointer-events-none" />
                         <select
-                          name="neetStatus"
+                          id="modal-neet" name="neetStatus"
                           value={modalForm.neetStatus}
                           onChange={(e) =>
                             updateModalField("neetStatus", e.target.value)
@@ -723,13 +723,13 @@ export default function HeroSection() {
 
                     {/* Interested Country - full width */}
                     <div>
-                      <label className="block text-xs font-semibold text-slate-700 mb-1.5">
+                      <label htmlFor="modal-country" className="block text-xs font-semibold text-slate-700 mb-1.5">
                         Interested Country
                       </label>
                       <div className="relative group">
                         <Globe size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-teal-600 transition-colors pointer-events-none" />
                         <select
-                          name="country"
+                          id="modal-country" name="country"
                           value={modalForm.country}
                           onChange={(e) =>
                             updateModalField("country", e.target.value)
@@ -838,24 +838,18 @@ export default function HeroSection() {
                     <p className="text-lg sm:text-xl md:text-2xl text-white/95 font-medium mb-8 md:mb-12 max-w-4xl mx-auto drop-shadow-lg">
                       {slide.subtitle}
                     </p>
-                    <Link
-                      to="/contact"
-                      className="inline-block"
-                      onClick={() => setCurrentHeroSlide(0)}
-                    >
-                      <button className="bg-gradient-to-r from-[#d4a853] via-[#e0b76b] to-[#f0c070] text-[#0a2342] font-bold uppercase tracking-wider px-10 py-5 rounded-xl shadow-2xl hover:shadow-3xl hover:-translate-y-1.5 transition-all duration-300 text-lg md:text-xl">
-                        {slide.cta} →
-                      </button>
-                    </Link>
+                    <Link to="/contact" className="inline-block bg-gradient-to-r from-[#d4a853] via-[#e0b76b] to-[#f0c070] text-[#0a2342] font-bold uppercase tracking-wider px-10 py-5 rounded-xl shadow-2xl hover:shadow-3xl hover:-translate-y-1.5 transition-all duration-300 text-lg md:text-xl cursor-pointer" onClick={() => setCurrentHeroSlide(0)}>{slide.cta} →</Link>
                   </div>
                 </div>
               </div>
             ))}
 
             <div className="absolute bottom-6 sm:bottom-10 left-0 right-0 flex justify-center gap-4 z-20">
-              {HERO_SLIDES.map((_, i) => (
+              {HERO_SLIDES.map((slide, i) => (
                 <button
                   key={i}
+                  type="button"
+                  aria-label={`Go to slide ${i + 1}: ${slide.country || ""}`}
                   onClick={() => setCurrentHeroSlide(i)}
                   className={`w-3.5 h-3.5 rounded-full transition-all duration-400 shadow-md ${
                     i === currentHeroSlide
@@ -912,11 +906,7 @@ export default function HeroSection() {
             </p>
 
             <div className="flex flex-col sm:flex-row justify-center items-center gap-5 md:gap-8">
-              <Link to="/landingpage">
-                <button className="bg-gradient-to-r from-[#d4a853] to-[#f0c070] text-[#0a2342] font-bold uppercase tracking-wider px-10 py-4 rounded-lg shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 text-sm sm:text-base w-full sm:w-auto">
-                  Book Free Counselling →
-                </button>
-              </Link>
+              <Link to="/landingpage" className="inline-block bg-gradient-to-r from-[#d4a853] to-[#f0c070] text-[#0a2342] font-bold uppercase tracking-wider px-10 py-4 rounded-lg shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 text-sm sm:text-base w-full sm:w-auto cursor-pointer">Book Free Counselling →</Link>
 
               <div
                 ref={exploreMenuRef}
@@ -1574,11 +1564,11 @@ export default function HeroSection() {
               <form onSubmit={handleContactSubmit} className="space-y-6">
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
-                    <label className="block text-gray-700 font-semibold mb-2 text-sm uppercase tracking-wide">
+                    <label htmlFor="contact-name" className="block text-gray-700 font-semibold mb-2 text-sm uppercase tracking-wide">
                       Full Name
                     </label>
                     <input
-                      className="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-2 focus:ring-[#d4a853]/30 bg-gray-50 transition"
+                      id="contact-name" className="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-2 focus:ring-[#d4a853]/30 bg-gray-50 transition"
                       placeholder="John Doe"
                       value={contactForm.name}
                       onChange={(e) =>
@@ -1592,12 +1582,12 @@ export default function HeroSection() {
                     )}
                   </div>
                   <div>
-                    <label className="block text-gray-700 font-semibold mb-2 text-sm uppercase tracking-wide">
+                    <label htmlFor="contact-email" className="block text-gray-700 font-semibold mb-2 text-sm uppercase tracking-wide">
                       Email
                     </label>
                     <input
                       type="email"
-                      className="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-2 focus:ring-[#d4a853]/30 bg-gray-50 transition"
+                      id="contact-email" className="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-2 focus:ring-[#d4a853]/30 bg-gray-50 transition"
                       placeholder="you@email.com"
                       value={contactForm.email}
                       onChange={(e) =>
@@ -1614,11 +1604,11 @@ export default function HeroSection() {
 
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
-                    <label className="block text-gray-700 font-semibold mb-2 text-sm uppercase tracking-wide">
+                    <label htmlFor="contact-phone" className="block text-gray-700 font-semibold mb-2 text-sm uppercase tracking-wide">
                       Phone Number
                     </label>
                     <input
-                      className="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-2 focus:ring-[#d4a853]/30 bg-gray-50 transition"
+                      id="contact-phone" className="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-2 focus:ring-[#d4a853]/30 bg-gray-50 transition"
                       placeholder="+91 00000 00000"
                       value={contactForm.phone}
                       onChange={(e) =>
@@ -1634,11 +1624,11 @@ export default function HeroSection() {
 
                   {/* Preferred Country */}
                   <div>
-                    <label className="block text-gray-700 font-semibold mb-2 text-sm uppercase tracking-wide">
+                    <label htmlFor="contact-country" className="block text-gray-700 font-semibold mb-2 text-sm uppercase tracking-wide">
                       Preferred Country
                     </label>
                     <select
-                      className="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-2 focus:ring-[#d4a853]/30 bg-gray-50 transition"
+                      id="contact-country" className="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-2 focus:ring-[#d4a853]/30 bg-gray-50 transition"
                       value={contactForm.country}
                       onChange={(e) =>
                         updateContactField("country", e.target.value)
@@ -1662,11 +1652,11 @@ export default function HeroSection() {
                 {/* New City Dropdown */}
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
-                    <label className="block text-gray-700 font-semibold mb-2 text-sm uppercase tracking-wide">
+                    <label htmlFor="contact-city" className="block text-gray-700 font-semibold mb-2 text-sm uppercase tracking-wide">
                       Preferred City
                     </label>
                     <select
-                      className="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-2 focus:ring-[#d4a853]/30 bg-gray-50 transition"
+                      id="contact-city" className="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-2 focus:ring-[#d4a853]/30 bg-gray-50 transition"
                       value={contactForm.city || ""}
                       onChange={(e) =>
                         updateContactField("city", e.target.value)
@@ -1695,11 +1685,11 @@ export default function HeroSection() {
                   </div>
 
                   <div>
-                    <label className="block text-gray-700 font-semibold mb-2 text-sm uppercase tracking-wide">
+                    <label htmlFor="contact-neet" className="block text-gray-700 font-semibold mb-2 text-sm uppercase tracking-wide">
                       NEET Status
                     </label>
                     <select
-                      className="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-2 focus:ring-[#d4a853]/30 bg-gray-50 transition"
+                      id="contact-neet" className="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-2 focus:ring-[#d4a853]/30 bg-gray-50 transition"
                       value={contactForm.neetStatus}
                       onChange={(e) =>
                         updateContactField("neetStatus", e.target.value)
@@ -1718,11 +1708,11 @@ export default function HeroSection() {
                 </div>
 
                 <div>
-                  <label className="block text-gray-700 font-semibold mb-2 text-sm uppercase tracking-wide">
+                  <label htmlFor="contact-message" className="block text-gray-700 font-semibold mb-2 text-sm uppercase tracking-wide">
                     Message
                   </label>
                   <textarea
-                    rows={5}
+                    id="contact-message" rows={5}
                     minLength={10}
                     className="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-2 focus:ring-[#d4a853]/30 bg-gray-50 transition resize-y"
                     placeholder="Tell us about your academic profile, budget, and any queries..."
