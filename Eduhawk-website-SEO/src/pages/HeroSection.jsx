@@ -6,28 +6,28 @@ import icon1 from "../Images/icons/ux-design_2998253.svg";
 import icon2 from "../Images/icons/selling_12091247.svg";
 import icon3 from "../Images/icons/ux-design_2998253.svg";
 import icon4 from "../Images/icons/selling_12091247.svg";
-import personalized from "../assets/personalized.png";
-import support from "../assets/support.png";
-import checkup from "../assets/checkup.png";
-import charges from "../assets/charges.png";
-import Kathmandu from "../../src/Images/Kathmandu.jpg";
-import Eduhawk from "../assets/Eduhawk.png"; // ← adjust path if needed
+import personalized from "../assets/personalized.webp";
+import support from "../assets/support.webp";
+import checkup from "../assets/checkup.webp";
+import charges from "../assets/charges.webp";
+import Kathmandu from "../../src/Images/Kathmandu.webp";
+import Eduhawk from "../assets/Eduhawk.webp"; // ← adjust path if needed
 import { X, ChevronDown } from "lucide-react";
 
-import univercity from "../Images/university-image/singapore.jpg";
-import topRanking1 from "../Images/Peking University Health Science Center.jpg";
+import univercity from "../Images/university-image/singapore.webp";
+import topRanking1 from "../Images/Peking University Health Science Center.webp";
 import topRanking2 from "../Images/Russia/Altai State Medical University.jpg";
-import topRanking3 from "../Images/Tsinghua University School of Medicine.jpg";
-import topRanking4 from "../Images/Kazakhstan/West Kazakhstan Marat Ospanov State Medical University.jpg";
+import topRanking3 from "../Images/Tsinghua University School of Medicine.webp";
+import topRanking4 from "../Images/Kazakhstan/West Kazakhstan Marat Ospanov State Medical University.webp";
 import topRanking5 from "../Images/Saint Petersburg State Medical University (Pavlov First Saint Petersburg State Medical University).jpeg";
-import topRanking6 from "../Images/Pirogov Russian National Research Medical University (RNRMU).jpg";
-import topRanking7 from "../Images/University of Santo Tomas Faculty of Medicine and Surgery.jpg";
+import topRanking6 from "../Images/Pirogov Russian National Research Medical University (RNRMU).webp";
+import topRanking7 from "../Images/University of Santo Tomas Faculty of Medicine and Surgery.webp";
 import topRanking8 from "../Images/University of the Philippines Manila, College of Medicine.jpeg";
 
-import globalImage from "../Images/home_page_Image/class room.jpg";
-import globalImage2 from "../Images/home_page_Image/class room 2.jpg";
+import globalImage from "../Images/home_page_Image/class room.webp";
+import globalImage2 from "../Images/home_page_Image/class room 2.webp";
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet-async";
+import SeoHead from "../component/SeoHead.jsx";
 
 const NAV_LINKS = ["Home", "About", "Services", "Countries", "Contact"];
 
@@ -117,7 +117,7 @@ const HERO_SLIDES = [
       "https://images.unsplash.com/photo-1584982751601-97dcc096659c?auto=format&fit=crop&q=80&w=1920",
     title: "Your Trusted MBBS Abroad Partner",
     subtitle:
-      "2000+ students placed • Transparent process • End-to-end support",
+      "400+ students placed • Transparent process • End-to-end support",
     cta: "Start Your Journey Today",
   },
 ];
@@ -126,52 +126,52 @@ const mbbsOptions = [
   {
     country: "Bangladesh",
     fees: "24 Lakhs to 41 Lakhs",
-    link: "https://eduhawk.in/mbbs-abroad/bangladesh",
+    link: "/mbbsabroad/bangladesh",
   },
   {
     country: "Russia",
     fees: "24 Lakhs to 41 Lakhs",
-    link: "https://eduhawk.in/mbbs-abroad/russia",
+    link: "/mbbsabroad/russia",
   },
   {
     country: "Uzbekistan",
     fees: "16 Lakhs to 21 Lakhs",
-    link: "https://eduhawk.in/mbbs-abroad/uzbekistan",
+    link: "/mbbsabroad/uzbekistan",
   },
   {
     country: "Kyrgyzstan",
     fees: "14 Lakhs to 21 Lakhs",
-    link: "https://eduhawk.in/mbbs-abroad/kyrgyzstan",
+    link: "/mbbsabroad/kyrgyzstan",
   },
   {
     country: "Egypt",
     fees: "31 Lakhs to 36 Lakhs",
-    link: "https://eduhawk.in/mbbs-abroad/egypt",
+    link: "/mbbsabroad/egypt",
   },
   {
     country: "Kazakhstan",
     fees: "16 Lakhs to 23 Lakhs",
-    link: "https://eduhawk.in/mbbs-abroad/kazakhstan",
+    link: "/mbbsabroad/kazakhstan",
   },
   {
     country: "Tajikistan",
     fees: "17 Lakhs to 25 Lakhs",
-    link: "https://eduhawk.in/mbbs-abroad/tajikistan",
+    link: "/mbbsabroad/tajikistan",
   },
   {
     country: "Nepal",
     fees: "20 Lakhs to 35 Lakhs",
-    link: "https://eduhawk.in/mbbs-abroad/nepal",
+    link: "/mbbsabroad/nepal",
   },
   {
     country: "Georgia",
     fees: "18 Lakhs to 28 Lakhs",
-    link: "https://eduhawk.in/mbbs-abroad/georgia",
+    link: "/mbbsabroad/georgia",
   },
   {
     country: "Vietnam",
     fees: "21 Lakhs to 30 Lakhs",
-    link: "https://eduhawk.in/mbbs-abroad/vietnam",
+    link: "/mbbsabroad/vietnam",
   },
 ];
 
@@ -414,21 +414,20 @@ export default function HeroSection() {
 
   return (
     <>
-      <Helmet>
-        <title>MBBS Abroad Guidance | Indian Students Admission 2026</title>
-        <meta
-          name="description"
-          content="Study MBBS abroad with expert guidance, affordable fees, and trusted admission support in Russia, Georgia, Uzbekistan, Kazakhstan & Kyrgyzstan."
-        />
-        <meta
-          name="keywords"
-          content="study mbbs abroad, mbbs abroad, mbbs admission abroad, mbbs counselling, medical education abroad, overseas education, foreign medical universities, guidance, lakhs study mbbs, study mbbs"
-        />
-      </Helmet>
+      <SeoHead
+        title="MBBS Abroad Guidance | Indian Students Admission 2026"
+        description="Study MBBS abroad with expert guidance, affordable fees, and trusted admission support in Russia, Georgia, Uzbekistan, Kazakhstan & Kyrgyzstan."
+        keywords="study mbbs abroad, mbbs abroad, mbbs admission abroad, mbbs counselling, medical education abroad, overseas education, foreign medical universities, guidance, lakhs study mbbs, study mbbs"
+        path="/"
+        ogType="website"
+      />
 
       <div className="min-h-screen bg-white font-sans">
         {/* Toast Container */}
         <ToastContainer />
+
+        {/* Page heading — first heading in DOM order, visually hidden */}
+        <h1 className="sr-only">MBBS Abroad Counselling for Indian Students</h1>
 
         {/* POPUP MODAL */}
         {isOpen && (
@@ -450,6 +449,8 @@ export default function HeroSection() {
                       <img
                         src={Eduhawk}
                         alt="MBBS Abroad"
+                        width={244}
+                        height={72}
                         className="mx-auto h-16 w-auto object-contain brightness-110 drop-shadow-[0_0_10px_rgba(255,255,255,0.18)]"
                       />
                     </div>
@@ -457,7 +458,7 @@ export default function HeroSection() {
                       Your MBBS Abroad Journey Starts Here
                     </h2>
                     <p className="text-teal-100 text-base mb-8">
-                      Trusted by 2,000+ Indian students • Transparent process •
+                      Trusted by 400+ Indian students • Transparent process •
                       NMC-approved universities only
                     </p>
 
@@ -466,7 +467,10 @@ export default function HeroSection() {
                         <span className="text-2xl flex-shrink-0">
                           <img
                             src={personalized}
+                            loading="lazy"
                             alt="Free Expert Counselling"
+                            width={246}
+                            height={197}
                             className="w-8 h-8 brightness-0 invert"
                           />
                         </span>
@@ -477,7 +481,10 @@ export default function HeroSection() {
                         <span className="text-2xl flex-shrink-0">
                           <img
                             src={checkup}
+                            loading="lazy"
                             alt="Best University Match"
+                            width={200}
+                            height={200}
                             className="w-8 h-8 brightness-0 invert"
                           />
                         </span>
@@ -490,7 +497,10 @@ export default function HeroSection() {
                         <span className="text-2xl flex-shrink-0">
                           <img
                             src={support}
+                            loading="lazy"
                             alt="End-to-End Support"
+                            width={512}
+                            height={512}
                             className="w-8 h-8 brightness-0 invert"
                           />
                         </span>
@@ -503,7 +513,10 @@ export default function HeroSection() {
                         <span className="text-2xl flex-shrink-0">
                           <img
                             src={charges}
+                            loading="lazy"
                             alt="Transparent Process"
+                            width={512}
+                            height={512}
                             className="w-8 h-8 brightness-0 invert"
                           />
                         </span>
@@ -520,7 +533,7 @@ export default function HeroSection() {
                       MBBS Abroad Counselling
                     </h2>
                     <p className="text-gray-600 text-sm">
-                      Free • Expert • Trusted by 2000+ students
+                      Free • Expert • Trusted by 400+ students
                     </p>
                   </div>
 
@@ -724,7 +737,9 @@ export default function HeroSection() {
                 <img
                   src={slide.image}
                   alt={slide.title}
-                  className="w-full h-full object-cover brightness-[0.85]"
+                  width={1920}
+                  height={800}
+                  className="w-full h-full object-cover brightness-[0.85] aspect-auto"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/35 to-transparent/30" />
                 <div className="absolute inset-0 flex items-center justify-center px-5 sm:px-10">
@@ -770,10 +785,10 @@ export default function HeroSection() {
           <div className="max-w-6xl mx-auto px-6 -mt-20 sm:-mt-24 relative z-10">
             <div className="bg-white/95 backdrop-blur-lg border border-[#d4a853]/30 rounded-2xl shadow-2xl grid grid-cols-2 md:grid-cols-4 gap-6 p-8 md:p-10">
               {[
-                { n: "2000+", l: "Students Placed" },
+                { n: "400+", l: "Students Placed" },
                 { n: "10+", l: "Countries" },
                 { n: "100+", l: "Universities/Colleges" },
-                { n: "100%", l: "NMC Approved" },
+                { n: "100%", l: "Visa Support" },
               ].map((s, i) => (
                 <div key={i} className="text-center">
                   <div className="text-[#d4a853] text-4xl md:text-5xl font-extrabold">
@@ -906,7 +921,10 @@ export default function HeroSection() {
                   icon: (
                     <img
                       src={personalized}
+                      loading="lazy"
                       alt="Personalized Counselling"
+                      width={246}
+                      height={197}
                       className="w-12 h-12"
                     />
                   ),
@@ -917,7 +935,10 @@ export default function HeroSection() {
                   icon: (
                     <img
                       src={checkup}
+                      loading="lazy"
                       alt="NMC Approved"
+                      width={200}
+                      height={200}
                       className="w-12 h-12"
                     />
                   ),
@@ -928,7 +949,10 @@ export default function HeroSection() {
                   icon: (
                     <img
                       src={charges}
+                      loading="lazy"
                       alt="No Hidden Charges"
+                      width={512}
+                      height={512}
                       className="w-12 h-12"
                     />
                   ),
@@ -939,7 +963,10 @@ export default function HeroSection() {
                   icon: (
                     <img
                       src={support}
+                      loading="lazy"
                       alt="End-to-End Support"
+                      width={512}
+                      height={512}
                       className="w-12 h-12"
                     />
                   ),
@@ -952,9 +979,9 @@ export default function HeroSection() {
                   className="bg-white rounded-xl p-5 border border-[#e8d5b0]/60 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 text-center max-w-xs w-full"
                 >
                   <div className="flex justify-center mb-3">{item.icon}</div>
-                  <h4 className="font-bold text-[#0a2342] mb-2 text-base">
+                  <h3 className="font-bold text-[#0a2342] mb-2 text-base">
                     {item.title}
-                  </h4>
+                  </h3>
                   <p className="text-gray-600 text-sm leading-relaxed">
                     {item.desc}
                   </p>
@@ -971,13 +998,16 @@ export default function HeroSection() {
               <div className="bg-white rounded-xl shadow-lg overflow-hidden max-w-sm mx-auto md:max-w-none">
                 <img
                   src={univercity}
+                  loading="lazy"
                   alt="MBBS Admission Abroad"
+                  width={3264}
+                  height={2448}
                   className="w-full h-48 object-cover"
                 />
                 <div className="p-6">
-                  <h1 className="text-xl font-bold text-gray-800 mb-3">
+                  <h3 className="text-xl font-bold text-gray-800 mb-3">
                     MBBS Admission in Abroad
-                  </h1>
+                  </h3>
                   <p className="text-gray-600 mb-6">
                     Expert Assistance for MBBS Admission in Renowned Abroad
                     Institutions.
@@ -1074,7 +1104,10 @@ export default function HeroSection() {
                 <div key={i} className="text-center md:text-left">
                   <img
                     src={item.icon}
+                    loading="lazy"
                     alt={item.alt}
+                    width={512}
+                    height={512}
                     className="w-24 h-24 mx-auto md:mx-0 mb-6"
                   />
                   <h3 className="text-2xl font-bold text-gray-800 mb-4">
@@ -1133,6 +1166,8 @@ export default function HeroSection() {
                 <img
                   src={college.img}
                   alt={college.name}
+                  width={400}
+                  height={224}
                   className="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
@@ -1150,51 +1185,51 @@ export default function HeroSection() {
           </div>
         </div> */}
         <div className="container mx-auto px-4 py-16">
-          <h4 className="text-3xl font-bold text-center text-gray-800 mb-10">
+          <h2 className="text-3xl font-bold text-center text-gray-800 mb-10">
             TOP MEDICAL COLLEGES
-          </h4>
+          </h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-6">
             {[
               {
                 name: "Altai State Medical University",
                 img: topRanking2,
-                path: "/mbbs-abroad/russia",
+                path: "/mbbsabroad/russia",
               },
               {
                 name: "Dhaka National Medical College",
                 img: "https://educationvibes.in/uploads/university_banner/mbbs_abroad/dhaka-national-medical-college.webp",
-                path: "/mbbs-abroad/bangladesh",
+                path: "/mbbsabroad/bangladesh",
               },
               {
                 name: "Kathmandu Medical College",
                 img: Kathmandu,
-                path: "/mbbs-abroad/nepal",
+                path: "/mbbsabroad/nepal",
               },
               {
                 name: "International Medical College",
                 img: "https://upload.wikimedia.org/wikipedia/commons/b/b9/International_higher_school_of_medicine_central_campus.jpg",
-                path: "/mbbs-abroad/kyrgyzstan",
+                path: "/mbbsabroad/kyrgyzstan",
               },
               {
                 name: "West Kazakhstan Marat Ospanov State Medical University",
                 img: topRanking4,
-                path: "mbbs-abroad/kazakhstan",
+                path: "/mbbsabroad/kazakhstan",
               },
               {
                 name: "Samarkand State Medical Institute",
                 img: "https://www.moksh16.com/uploads/images/samarkand1.webp",
-                path: "/mbbs-abroad/russia/pirogov-university",
+                path: "/mbbsabroad/uzbekistan",
               },
               {
                 name: "Tajik National University",
                 img: "https://upload.wikimedia.org/wikipedia/commons/3/36/Tajik_National_University_%28Main_Building%29.jpg",
-                path: "/mbbs-abroad/tajikistan",
+                path: "/mbbsabroad/tajikistan",
               },
               {
                 name: "Assiut University",
                 img: "https://oktamam.com/wp-content/uploads/2024/03/assiut-university.png",
-                path: "/mbbs-abroad/egypt",
+                path: "/mbbsabroad/egypt",
               },
             ].map((college, index) => (
               <Link
@@ -1204,7 +1239,10 @@ export default function HeroSection() {
               >
                 <img
                   src={college.img}
+                  loading="lazy"
                   alt={college.name}
+                  width={400}
+                  height={224}
                   className="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
@@ -1244,15 +1282,18 @@ export default function HeroSection() {
                   <div className="relative overflow-hidden h-64 md:h-80">
                     <img
                       src={card.img}
+                      loading="lazy"
                       alt={card.alt}
-                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                      width={800}
+                      height={512}
+                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 aspect-auto"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-60" />
                   </div>
                   <div className="p-6 md:p-8">
-                    <h5 className="text-xl md:text-2xl font-bold text-gray-800 mb-4 leading-tight">
+                    <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-4 leading-tight">
                       {card.title}
-                    </h5>
+                    </h3>
                     <p className="text-gray-700 leading-relaxed text-base">
                       {card.desc}
                     </p>

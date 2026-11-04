@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import { Helmet } from 'react-helmet-async';
-import RussiaFlag from "../../Images/Russia/russia header threejpg.jpg";
-import kernal from "../../Images/top medical collages list/Bangladesh Medical College.png";
-import Bangladeshflag2 from "../../Images/country flag png/Bangladesh-Flag-PNG-Isolated-HD.png";
+import SeoHead from "../../component/SeoHead.jsx";
+import RussiaFlag from "../../Images/Russia/russia header threejpg.webp";
+import kernal from "../../Images/top medical collages list/Bangladesh Medical College.webp";
+import Bangladeshflag2 from "../../Images/country flag png/Bangladesh-Flag-PNG-Isolated-HD.webp";
 import mhsmc from "../../assets/mhsmc.jpg";
-import MARISTATEUNIVERSITY from "../../Images/Russia/MARI STATE UNIVERSITY.jpg";
-import ORELSTATEUNIVERSITY from "../../Images/Russia/OREL STATE UNIVERSITY.jpg";
-import ORENBURGSTATEUNIVERSITY from "../../Images/Russia/ORENBURG STATE UNIVERSITY.jpg";
+import MARISTATEUNIVERSITY from "../../Images/Russia/MARI STATE UNIVERSITY.webp";
+import ORELSTATEUNIVERSITY from "../../Images/Russia/OREL STATE UNIVERSITY.webp";
+import ORENBURGSTATEUNIVERSITY from "../../Images/Russia/ORENBURG STATE UNIVERSITY.webp";
 import TVERSTATEMEDICALUNIVERSITY from "../../Images/Russia/TVER STATE MEDICAL UNIVERSITY.jpeg";
 import AltaiStateMedicalUniversity from "../../Images/Russia/Altai State Medical University.jpg";
 import { useNavigate } from "react-router-dom";
@@ -68,11 +68,13 @@ const Bangladesh = () => {
   return (
     <>
 
-     <Helmet>
-                  <title> MBBS in Bangladesh for Indian Students | Fees & Admission Process </title>
-                  <meta name="description" content="MBBS in Bangladesh with affordable fees and Indian syllabus. Get complete details on admission process, eligibility and top medical colleges." />
-                  <meta name="keywords" content=" mbbs in bangladesh, bangladesh mbbs fees, study mbbs bangladesh, bangladesh medical colleges" />
-                </Helmet>
+     <SeoHead
+      title="MBBS in Bangladesh for Indian Students | Fees & Admission Process"
+      description="MBBS in Bangladesh with affordable fees and Indian syllabus. Get complete details on admission process, eligibility and top medical colleges."
+      keywords=" mbbs in bangladesh, bangladesh mbbs fees, study mbbs bangladesh, bangladesh medical colleges"
+      path="/mbbsabroad/bangladesh"
+      ogType="website"
+    />
 
     <div className="min-h-screen bg-gray-50 font-sans">
       {/* ==================== HEADER CAROUSEL ==================== */}
@@ -100,6 +102,9 @@ const Bangladesh = () => {
           <div>
             <img
               src={Bangladeshflag2}
+              loading="lazy"
+              width={512}
+              height={512}
               alt="Russia flag"
               className="w-32 md:w-40  rounded shadow-lg"
             />
@@ -175,6 +180,9 @@ const Bangladesh = () => {
           <div>
             <img
               src={kernal}
+              loading="lazy"
+              width={585}
+              height={440}
               alt="Kremlin"
               className="rounded-xl shadow-2xl w-full h-auto object-cover"
             />
@@ -302,6 +310,7 @@ const Bangladesh = () => {
               >
                 <img
                   src={uni.img}
+                  loading="lazy"
                   alt={uni.name}
                   className="w-full h-64 object-cover"
                 />

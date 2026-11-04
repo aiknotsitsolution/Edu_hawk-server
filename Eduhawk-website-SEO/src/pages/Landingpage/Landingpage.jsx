@@ -13,9 +13,10 @@ import {
   Star,
   X,
 } from "lucide-react";
-import Eduhawk from "../../assets/Eduhawk.png";
+import Eduhawk from "../../assets/Eduhawk.webp";
 import ReCAPTCHA from "react-google-recaptcha";
-import landingpage from "../../assets/landingpage.png";
+import landingpage from "../../assets/landingpage.webp";
+import SeoHead from "../../component/SeoHead.jsx";
 
 const NAV_LINKS = [
   "Home",
@@ -321,6 +322,11 @@ export default function Landingpage() {
 
   return (
     <div className="font-['Sora'] bg-slate-50 text-slate-950 overflow-x-hidden">
+      <SeoHead
+        title="MBBS Abroad Consultant | Edu-Hawk Worldwide"
+        description="Your dream of MBBS abroad starts here. India's trusted MBBS abroad consultancy: NMC approved universities, low fees, no donation. 2026-27 admissions open."
+        path="/landingpage"
+      />
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,700;1,600&display=swap');
         .glass {
@@ -348,7 +354,7 @@ export default function Landingpage() {
         }`}
       >
         <div className="flex items-center gap-3">
-          <img src={Eduhawk} alt="Eduhawk Logo" className="h-12 w-auto" />
+          <img src={Eduhawk} alt="Eduhawk Logo" className="h-12 w-auto" width={244} height={72} />
         </div>
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-700">
           {NAV_LINKS.map((link) => (
@@ -460,6 +466,7 @@ export default function Landingpage() {
             >
               <img
                 src={country.uniImage}
+                loading="lazy"
                 alt={country.name}
                 className="uni-image w-full"
               />
@@ -595,6 +602,7 @@ export default function Landingpage() {
               <div class="w-20 h-20 rounded-full overflow-hidden border-4 border-white shadow-lg mb-3 transition-transform group-hover:scale-110">
                 <img
                   src="https://flagcdn.com/w320/ru.png"
+                  loading="lazy"
                   alt="Russia"
                   class="w-full h-full object-cover"
                 />
@@ -607,6 +615,7 @@ export default function Landingpage() {
               <div class="w-20 h-20 rounded-full overflow-hidden border-4 border-white shadow-lg mb-3 transition-transform group-hover:scale-110">
                 <img
                   src="https://flagcdn.com/w320/kz.png"
+                  loading="lazy"
                   alt="Kazakhstan"
                   class="w-full h-full object-cover"
                 />
@@ -619,6 +628,7 @@ export default function Landingpage() {
               <div class="w-20 h-20 rounded-full overflow-hidden border-4 border-white shadow-lg mb-3 transition-transform group-hover:scale-110">
                 <img
                   src="https://flagcdn.com/w320/ge.png"
+                  loading="lazy"
                   alt="Georgia"
                   class="w-full h-full object-cover"
                 />
@@ -631,6 +641,7 @@ export default function Landingpage() {
               <div class="w-20 h-20 rounded-full overflow-hidden border-4 border-white shadow-lg mb-3 transition-transform group-hover:scale-110">
                 <img
                   src="https://flagcdn.com/w320/uz.png"
+                  loading="lazy"
                   alt="Uzbekistan"
                   class="w-full h-full object-cover"
                 />
@@ -643,6 +654,7 @@ export default function Landingpage() {
               <div class="w-20 h-20 rounded-full overflow-hidden border-4 border-white shadow-lg mb-3 transition-transform group-hover:scale-110">
                 <img
                   src="https://flagcdn.com/w320/np.png"
+                  loading="lazy"
                   alt="Nepal"
                   class="w-full h-full object-cover"
                 />
@@ -655,6 +667,7 @@ export default function Landingpage() {
               <div class="w-20 h-20 rounded-full overflow-hidden border-4 border-white shadow-lg mb-3 transition-transform group-hover:scale-110">
                 <img
                   src="https://flagcdn.com/w320/bd.png"
+                  loading="lazy"
                   alt="Bangladesh"
                   class="w-full h-full object-cover"
                 />
@@ -667,6 +680,7 @@ export default function Landingpage() {
               <div class="w-20 h-20 rounded-full overflow-hidden border-4 border-white shadow-lg mb-3 transition-transform group-hover:scale-110">
                 <img
                   src="https://flagcdn.com/w320/kg.png"
+                  loading="lazy"
                   alt="Kyrgyzstan"
                   class="w-full h-full object-cover"
                 />
@@ -961,7 +975,7 @@ export default function Landingpage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12">
             {/* Logo & Description */}
             <div className="lg:col-span-4">
-              <img src={Eduhawk} alt="Eduhawk Logo" className="h-14 mb-6" />
+              <img src={Eduhawk} loading="lazy" alt="Eduhawk Logo" className="h-14 mb-6" width={244} height={72} />
               <p className="text-slate-300 leading-relaxed mb-6">
                 India's most trusted MBBS abroad education consultant. Helping
                 aspiring doctors get admission in top NMC-approved universities

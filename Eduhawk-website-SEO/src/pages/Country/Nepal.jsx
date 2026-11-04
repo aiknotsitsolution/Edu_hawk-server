@@ -2,9 +2,9 @@
 
 import React, { useState } from "react";
 import RussiaFlag from "../../Images/country flag png/Nepal.svg";
-import { Helmet } from 'react-helmet-async';
+import SeoHead from "../../component/SeoHead.jsx";
 import { useNavigate } from "react-router-dom";
-import Kathmandu from "../../../src/Images/Kathmandu.jpg";
+import Kathmandu from "../../../src/Images/Kathmandu.webp";
 import LumbiniMedicalCollege from "../../Images/Nepal/Lumbini_Medical_College.jpg";
 
 const Nepal = () => {
@@ -14,11 +14,13 @@ const Nepal = () => {
 
   return (
     <>
-         <Helmet>
-                      <title> MBBS in Nepal for Indian Students | Fees & Admission Process </title>
-                      <meta name="description" content="MBBS in Nepal with affordable fees and Indian syllabus. Get complete details on admission process, eligibility and top medical colleges." />
-                      <meta name="keywords" content=" mbbs in nepal, nepal mbbs fees, study mbbs nepal, nepal medical colleges" />
-                    </Helmet>
+         <SeoHead
+      title="MBBS in Nepal for Indian Students | Fees & Admission Process"
+      description="MBBS in Nepal with affordable fees and Indian syllabus. Get complete details on admission process, eligibility and top medical colleges."
+      keywords=" mbbs in nepal, nepal mbbs fees, study mbbs nepal, nepal medical colleges"
+      path="/mbbsabroad/nepal"
+      ogType="website"
+    />
    
     <div className="min-h-screen bg-gray-50 font-sans">
       {/* ==================== HEADER CAROUSEL ==================== */}
@@ -44,6 +46,9 @@ const Nepal = () => {
           <div>
             <img
               src={RussiaFlag}
+              loading="lazy"
+              width={72}
+              height={87}
               alt="Nepal flag"
               className="w-32 md:w-40  shadow-lg"
             />
@@ -122,6 +127,7 @@ const Nepal = () => {
           <div>
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/4/40/Nepal_Patan_Mangal.jpg"
+              loading="lazy"
               alt="Patan Durbar Square, Nepal"
               className="rounded-xl shadow-2xl w-full h-auto object-cover"
             />
@@ -249,6 +255,7 @@ const Nepal = () => {
               >
                 <img
                   src={uni.img}
+                  loading="lazy"
                   alt={uni.name}
                   className="w-full h-64 object-cover"
                 />

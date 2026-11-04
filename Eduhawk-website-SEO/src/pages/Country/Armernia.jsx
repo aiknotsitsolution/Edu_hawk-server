@@ -1,18 +1,25 @@
 import React, { useState } from "react";
-import RussiaFlag from "../../Images/Russia/russia header threejpg.jpg";
-import kernal from "../../Images/top medical collages list/Bangladesh Medical College.png";
-import Russianflag2 from "../../Images/country flag png/am-wave-01.png";
-import MARISTATEUNIVERSITY from "../../Images/Russia/MARI STATE UNIVERSITY.jpg";
-import ORELSTATEUNIVERSITY from "../../Images/Russia/OREL STATE UNIVERSITY.jpg";
-import ORENBURGSTATEUNIVERSITY from "../../Images/Russia/ORENBURG STATE UNIVERSITY.jpg";
+import RussiaFlag from "../../Images/Russia/russia header threejpg.webp";
+import kernal from "../../Images/top medical collages list/Bangladesh Medical College.webp";
+import Russianflag2 from "../../Images/country flag png/am-wave-01.webp";
+import MARISTATEUNIVERSITY from "../../Images/Russia/MARI STATE UNIVERSITY.webp";
+import ORELSTATEUNIVERSITY from "../../Images/Russia/OREL STATE UNIVERSITY.webp";
+import ORENBURGSTATEUNIVERSITY from "../../Images/Russia/ORENBURG STATE UNIVERSITY.webp";
 import TVERSTATEMEDICALUNIVERSITY from "../../Images/Russia/TVER STATE MEDICAL UNIVERSITY.jpeg";
 import AltaiStateMedicalUniversity from "../../Images/Russia/Altai State Medical University.jpg";
+import SeoHead from "../../component/SeoHead.jsx";
 const Armernia = () => {
   const [showMoreAbout, setShowMoreAbout] = useState(false);
   const [showMoreClimate, setShowMoreClimate] = useState(false);
 
   return (
     <div className="min-h-screen bg-gray-50 font-sans">
+      <SeoHead
+        title="Study MBBS in Armenia for Indian Students | Edu Hawk"
+        description="Plan MBBS in Armenia for Indian students: NEET-based admission, NMC & WHO-approved universities, English-medium courses and hostel living cost details."
+        path="/mbbsabroad/armernia"
+        ogType="website"
+      />
       {/* ==================== HEADER CAROUSEL ==================== */}
       <div className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
@@ -38,6 +45,9 @@ const Armernia = () => {
           <div>
             <img
               src={Russianflag2}
+              loading="lazy"
+              width={500}
+              height={308}
               alt="Russia flag"
               className="w-32 md:w-40 border-4 border-gray-800 rounded shadow-lg"
             />
@@ -100,6 +110,9 @@ const Armernia = () => {
           <div>
             <img
               src={kernal}
+              loading="lazy"
+              width={585}
+              height={440}
               alt="Kremlin"
               className="rounded-xl shadow-2xl w-full h-auto object-cover"
             />
@@ -206,6 +219,7 @@ const Armernia = () => {
               >
                 <img
                   src={uni.img}
+                  loading="lazy"
                   alt={uni.name}
                   className="w-full h-64 object-cover"
                 />

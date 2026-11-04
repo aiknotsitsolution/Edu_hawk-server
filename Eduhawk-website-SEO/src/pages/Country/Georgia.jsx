@@ -593,7 +593,7 @@
 import React, { useState } from "react";
 import GeorgiaFlag from "../../Images/country flag png/Georgia.svg"; // Correct path – update if needed
 import { FiPlus, FiMinus } from "react-icons/fi";
-import { Helmet } from "react-helmet-async";
+import SeoHead from "../../component/SeoHead.jsx";
 import { useNavigate } from "react-router-dom";
 
 const Georgia = () => {
@@ -647,17 +647,13 @@ const Georgia = () => {
   return (
     <>
     
-    <Helmet>
-            <title>MBBS in Georgia for Indian Students | Fees & Admission Process</title>
-            <meta
-              name="description"
-              content="Study MBBS in Georgia with English medium and affordable fees. Check eligibility, admission process and top universities."
-            />
-            <meta
-              name="keywords"
-              content="mbbs in georgia, georgia mbbs fees, study mbbs georgia, mbbs in georgia for indian students, top medical universities in georgia, mbbs in georgia eligibility, mbbs in georgia admission"
-            />
-          </Helmet>
+    <SeoHead
+      title="MBBS in Georgia for Indian Students | Fees & Admission Process"
+      description="Study MBBS in Georgia with English medium and affordable fees. Check eligibility, admission process and top universities."
+      keywords="mbbs in georgia, georgia mbbs fees, study mbbs georgia, mbbs in georgia for indian students, top medical universities in georgia, mbbs in georgia eligibility, mbbs in georgia admission"
+      path="/mbbsabroad/georgia"
+      ogType="website"
+    />
     <div className="min-h-screen bg-gray-50 font-sans">
       {/* ==================== HEADER CAROUSEL ==================== */}
       <div className="relative h-screen overflow-hidden">
@@ -682,6 +678,9 @@ const Georgia = () => {
           <div>
             <img
               src={GeorgiaFlag}
+              loading="lazy"
+              width={30}
+              height={20}
               alt="Georgia flag"
               className="w-32 md:w-40 border-4 border-gray-800 rounded shadow-lg"
             />
@@ -752,6 +751,7 @@ const Georgia = () => {
           <div>
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Kasbek_from_Tsminda_Gergeti_%2810600419415%29.jpg"
+              loading="lazy"
               alt="Tbilisi - Georgia"
               className="rounded-xl shadow-2xl w-full h-auto object-cover"
             />
@@ -1314,6 +1314,7 @@ const Georgia = () => {
                 >
                   <img
                     src={uni.img}
+                    loading="lazy"
                     alt={uni.name}
                     className="w-full h-64 object-cover"
                     onError={(e) => {

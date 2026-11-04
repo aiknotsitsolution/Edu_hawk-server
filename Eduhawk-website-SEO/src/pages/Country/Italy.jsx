@@ -1,16 +1,17 @@
 import React, { useState } from "react";
+import SeoHead from "../../component/SeoHead.jsx";
 import { Link } from "react-router-dom";
-import Banner from "../../../src/Images/Italy/UniversityPadua.png";
-import MBBSStudent from "../../../src/Images/Italy/MBBS-in-Italy.png";
-import Flowchart from "../../../src/Images/Italy/flowchart.png";
+import Banner from "../../../src/Images/Italy/UniversityPadua.webp";
+import MBBSStudent from "../../../src/Images/Italy/MBBS-in-Italy.webp";
+import Flowchart from "../../../src/Images/Italy/flowchart.webp";
 
-import UniversitiesInMilan from "../../../src/Images/Italy/UniversitiesInMilan.png";
-import UniversityBologna from "../../../src/Images/Italy/UniversityBologna.png";
-import UniversityPadua from "../../../src/Images/Italy/UniversityPadua.png";
-import UniversityTurin from "../../../src/Images/Italy/UniversityTurin.png";
-import UniversityPavia from "../../../src/Images/Italy/UniversityPavia.png";
+import UniversitiesInMilan from "../../../src/Images/Italy/UniversitiesInMilan.webp";
+import UniversityBologna from "../../../src/Images/Italy/UniversityBologna.webp";
+import UniversityPadua from "../../../src/Images/Italy/UniversityPadua.webp";
+import UniversityTurin from "../../../src/Images/Italy/UniversityTurin.webp";
+import UniversityPavia from "../../../src/Images/Italy/UniversityPavia.webp";
 
-import UniversityRome from "../../../src/Images/Italy/UniversityRome.png";
+import UniversityRome from "../../../src/Images/Italy/UniversityRome.webp";
 
 
 
@@ -27,11 +28,19 @@ const Italy = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 font-sans">
+      <SeoHead
+        title="MBBS in Italy 2026-27 | Admissions, Fees & Universities | Edu Hawk"
+        description="Explore MBBS in Italy for Indian students: eligibility, admission process, top medical universities, documents and food & accommodation costs. Study MBBS in Italy for a safe, affordable, and globally recognized medical education."
+        path="/mbbsabroad/italy"
+        ogType="website"
+      />
       {/* ==================== HEADER CAROUSEL ==================== */}
       <div className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
           <img
             src={Banner}
+            width={2050}
+            height={830}
             alt="Italy Landscape"
             className="w-full h-full object-cover brightness-75"
           />
@@ -50,6 +59,7 @@ const Italy = () => {
           <div>
                 <img
                 src="https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg"
+                loading="lazy"
               alt="Italy flag"
               className="w-32 md:w-40 border-4 border-gray-800 rounded shadow-lg"
             />
@@ -101,6 +111,9 @@ const Italy = () => {
           <div>
             <img
               src={MBBSStudent}
+              loading="lazy"
+              width={1086}
+              height={1448}
               alt="Italy University"
               className="rounded-xl shadow-2xl w-full h-auto object-cover"
             />
@@ -380,6 +393,7 @@ const Italy = () => {
           <div className="lg:w-1/2 p-6 flex flex-col sm:flex-row gap-5">
             <img
               src={uni.img}
+              loading="lazy"
               alt={uni.name}
               className="w-full sm:w-44 h-40 object-cover rounded-xl flex-shrink-0"
             />
@@ -1019,6 +1033,9 @@ const Italy = () => {
   <h4 className="mb-5 text-xl font-bold text-blue-900">Admission Flow</h4>
   <img
     src={Flowchart}
+    loading="lazy"
+    width={1254}
+    height={1254}
     alt="Admission Flow"
     className="mx-auto h-auto w-full max-w-3xl object-contain"
   />

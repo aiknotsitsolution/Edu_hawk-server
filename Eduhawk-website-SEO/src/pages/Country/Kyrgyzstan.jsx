@@ -1,6 +1,6 @@
 // import React, { useState } from "react";
-// import RussiaFlag from "../../Images/Russia/russia header threejpg.jpg";
-// import kernal from "../../Images/kazakhstan student.jpg";
+// import RussiaFlag from "../../Images/Russia/russia header threejpg.webp";
+// import kernal from "../../Images/kazakhstan student.webp";
 // import Russianflag2 from "../../Images/country flag png/Kyrgyzstan.svg";
 
 // const Kyrgyzstan = () => {
@@ -608,10 +608,10 @@
 // export default Kyrgyzstan;
 
 import React, { useState } from "react";
-import RussiaFlag from "../../Images/Russia/russia header threejpg.jpg";
-import kernal from "../../Images/kazakhstan student.jpg";
+import RussiaFlag from "../../Images/Russia/russia header threejpg.webp";
+import kernal from "../../Images/kazakhstan student.webp";
 import Russianflag2 from "../../Images/country flag png/Kyrgyzstan.svg";
-import { Helmet } from 'react-helmet-async';
+import SeoHead from "../../component/SeoHead.jsx";
 import { useNavigate } from "react-router-dom";
 
 
@@ -623,11 +623,13 @@ const Kyrgyzstan = () => {
   return (
     <>
     
-         <Helmet>
-                      <title>MBBS in Kazakhstan for Indian Students | Fees & Admission 2026</title>
-                      <meta name="description" content="MBBS in Kazakhstan at low cost with top universities. Get details on fees, eligibility, admission process and medical colleges." />
-                      <meta name="keywords" content="mbbs in kazakhstan, kazakhstan mbbs fees, study mbbs kazakhstan, kazakhstan medical colleges, mbbs kazakhstan admission" />
-                    </Helmet>
+         <SeoHead
+      title="MBBS in Kazakhstan for Indian Students | Fees & Admission 2026"
+      description="MBBS in Kazakhstan at low cost with top universities. Get details on fees, eligibility, admission process and medical colleges."
+      keywords="mbbs in kazakhstan, kazakhstan mbbs fees, study mbbs kazakhstan, kazakhstan medical colleges, mbbs kazakhstan admission"
+      path="/mbbsabroad/kyrgyzstan"
+      ogType="website"
+    />
 
     <div className="min-h-screen bg-gray-50 font-sans">
       {/* ==================== HEADER CAROUSEL ==================== */}
@@ -653,6 +655,9 @@ const Kyrgyzstan = () => {
           <div>
             <img
               src={Russianflag2}
+              loading="lazy"
+              width={1000}
+              height={600}
               alt="Kyrgyzstan flag"
               className="w-32 md:w-40 border-4 border-gray-800 rounded shadow-lg"
             />
@@ -726,6 +731,9 @@ const Kyrgyzstan = () => {
           <div>
             <img
               src={kernal}
+              loading="lazy"
+              width={1500}
+              height={1000}
               alt="Kyrgyzstan student life / campus"
               className="rounded-xl shadow-2xl w-full h-auto object-cover"
             />
@@ -852,6 +860,7 @@ const Kyrgyzstan = () => {
               >
                 <img
                   src={uni.img}
+                  loading="lazy"
                   alt={uni.name}
                   className="w-full h-64 object-cover"
                 />

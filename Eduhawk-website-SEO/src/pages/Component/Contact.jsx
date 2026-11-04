@@ -1,7 +1,7 @@
 import React, { useState, useRef } from "react";
 import { motion } from "framer-motion";
 import ReCAPTCHA from "react-google-recaptcha";
-import { Helmet } from "react-helmet-async";
+import SeoHead from "../../component/SeoHead.jsx";
 // Animation Variants
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -172,17 +172,12 @@ const Contact = () => {
 
   return (
     <>
-      <Helmet>
-        <title>Contact MBBS Abroad Consultancy | EduHawk</title>
-        <meta
-          name="description"
-          content="Contact EduHawk for MBBS abroad admission guidance, fees details and university selection support."
-        />
-        <meta
-          name="keywords"
-          content="contact mbbs consultancy, mbbs abroad contact, study abroad help "
-        />
-      </Helmet>
+      <SeoHead
+        title="Contact MBBS Abroad Consultancy | EduHawk"
+        description="Contact EduHawk for MBBS abroad admission guidance, fees details and university selection support."
+        path="/contact"
+        ogType="website"
+      />
       <div className="min-h-screen bg-gray-50 font-poppins overflow-x-hidden">
         {/* Hero Section with New Background Image */}
         <motion.section

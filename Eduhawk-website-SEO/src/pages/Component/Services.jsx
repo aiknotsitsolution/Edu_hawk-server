@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import ExpertGuidance from "../../Images/Service Image/Expert Guidance.jpg";
-import Globalmap from "../../Images/Service Image/global-map.png";
-import Globalmap2 from "../../Images/Service Image/backround one.jpg";
+import ExpertGuidance from "../../Images/Service Image/Expert Guidance.webp";
+import Globalmap from "../../Images/Service Image/global-map.webp";
+import Globalmap2 from "../../Images/Service Image/backround one.webp";
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet-async";
+import SeoHead from "../../component/SeoHead.jsx";
 // Random high-quality study abroad themed images (Unsplash – free to use)
 const slideImages = [
   "https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&auto=format&fit=crop&w=1471&q=80", // University campus
@@ -38,44 +38,44 @@ const Services = () => {
 
   return (
     <>
-    
-     <Helmet>
-                      <title>MBBS Abroad Services | Admission and Visa Assistance </title>
-                      <meta name="description" content="Complete MBBS abroad services including counseling, admission, documentation and visa support for Indian students." />
-                      <meta name="keywords" content="mbbs services, mbbs admission services, study abroad services" />
-                    </Helmet>
-    <div className="bg-gray-50 font-sans antialiased">
-      {/* ─── Hero Carousel ──────────────────────────────────────────────── */}
-      <section className="relative h-screen min-h-[700px] w-full overflow-hidden">
-        {slides.map((slide, idx) => (
-          <div
-            key={idx}
-            className={`absolute inset-0 transition-all duration-1000 ease-in-out ${
-              currentSlide === idx
-                ? "opacity-100 scale-100"
-                : "opacity-0 scale-105"
-            }`}
-          >
-            <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/40 to-black/60" />
-            <img
-              src={slide.img}
-              alt={slide.title}
-              className="h-full w-full object-cover transition-transform duration-[1600ms] ease-out"
-              loading={idx === 0 ? "eager" : "lazy"}
-            />
-            <div className="absolute inset-0 flex items-center justify-center px-5">
-              {currentSlide === idx ? (
-                <h1 className="max-w-5xl text-center text-4xl font-extrabold tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl drop-shadow-2xl transition-all duration-1000 delay-300 opacity-100 translate-y-0">
-                  {slide.title}
-                </h1>
-              ) : (
-                <h2 className="max-w-5xl text-center text-4xl font-extrabold tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl drop-shadow-2xl transition-all duration-1000 delay-300 opacity-0 translate-y-12">
-                  {slide.title}
-                </h2>
-              )}
+      <SeoHead
+        title="MBBS Abroad Services | Admission and Visa Assistance"
+        description="Complete MBBS abroad services including counseling, admission, documentation and visa support for Indian students."
+        path="/services"
+        ogType="website"
+      />
+      <div className="bg-gray-50 font-sans antialiased">
+        {/* ─── Hero Carousel ──────────────────────────────────────────────── */}
+        <section className="relative h-screen min-h-[700px] w-full overflow-hidden">
+          {slides.map((slide, idx) => (
+            <div
+              key={idx}
+              className={`absolute inset-0 transition-all duration-1000 ease-in-out ${
+                currentSlide === idx
+                  ? "opacity-100 scale-100"
+                  : "opacity-0 scale-150"
+              }`}
+            >
+              <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/40 to-black/60" />
+              <img
+                src={slide.img}
+                alt={slide.title}
+                className="h-full w-full object-cover transition-transform duration-[1600ms] ease-out"
+                loading={idx === 0 ? "eager" : "lazy"}
+              />
+              <div className="absolute inset-0 flex items-center justify-center px-5">
+                {currentSlide === idx ? (
+                  <h1 className="max-w-5xl text-center text-4xl font-extrabold tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl drop-shadow-2xl transition-all duration-1000 delay-300 opacity-100 translate-y-0">
+                    {slide.title}
+                  </h1>
+                ) : (
+                  <h2 className="max-w-5xl text-center text-4xl font-extrabold tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl drop-shadow-2xl transition-all duration-1000 delay-300 opacity-0 translate-y-12">
+                    {slide.title}
+                  </h2>
+                )}
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
 
         {/* Dots */}
         <div className="absolute bottom-10 left-1/2 z-10 flex -translate-x-1/2 gap-4">
@@ -149,7 +149,7 @@ const Services = () => {
       {/* ─── Banner / CTA Strip ─────────────────────────────────────────── */}
       <section
         className="relative h-80 bg-cover bg-center md:h-96 animate-fade-in-up"
-        style={{ backgroundImage: "url('Images/fixed.jpg')" }}
+        style={{ backgroundImage: "url('Images/fixed.webp')" }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-blue-900/70 to-indigo-900/70" />
         <div className="relative z-10 flex h-full flex-col items-center justify-center px-5 text-center text-white">
@@ -179,6 +179,9 @@ const Services = () => {
             <div className="h-60 overflow-hidden">
               <img
                 src={ExpertGuidance}
+                loading="lazy"
+                width={1726}
+                height={980}
                 alt="Expert Guidance"
                 className="h-full w-full object-cover transition-transform duration-1000 group-hover:scale-110"
               />
@@ -199,6 +202,9 @@ const Services = () => {
             <div className="h-60 overflow-hidden bg-gray-50 flex items-center justify-center p-8">
               <img
                 src={Globalmap}
+                loading="lazy"
+                width={915}
+                height={435}
                 alt="Global Network"
                 className="max-h-40 w-auto object-contain transition-transform duration-1000 group-hover:scale-125"
               />
@@ -219,6 +225,9 @@ const Services = () => {
             <div className="h-60 overflow-hidden">
               <img
                 src={Globalmap2}
+                loading="lazy"
+                width={520}
+                height={260}
                 alt="Success Stories"
                 className="h-full w-full object-cover transition-transform duration-1000 group-hover:scale-110"
               />
@@ -240,5 +249,6 @@ const Services = () => {
     </>
   );
 };
+
 
 export default Services;

@@ -1,13 +1,13 @@
 // // import React, { useState } from "react";
-// // import RussiaFlag from "../../Images/Russia/russia header threejpg.jpg";
-// // import kernal from "../../Images/university-image/kazakistan.jpg";
+// // import RussiaFlag from "../../Images/Russia/russia header threejpg.webp";
+// // import kernal from "../../Images/university-image/kazakistan.webp";
 // // import Russianflag2 from "../../Images/country flag png/Kazakhstan.svg";
-// // import MARISTATEUNIVERSITY from "../../Images/Kazakhstan/Asfendiyarov Kazakh National Medical University.jpg";
-// // import ORELSTATEUNIVERSITY from "../../Images/Kazakhstan/Karaganda State Medical University.jpg";
-// // import ORENBURGSTATEUNIVERSITY from "../../Images/Kazakhstan/Kokshetau State University.jpg";
-// // import TVERSTATEMEDICALUNIVERSITY from "../../Images/Kazakhstan/Semey State Medical University.jpg";
-// // import AltaiStateMedicalUniversity from "../../Images/Kazakhstan/South-Kazakhstan-Medical-Academy.jpg";
-// // import AltaiStateMedicalUniversity2 from "../../Images/Kazakhstan/West Kazakhstan Marat Ospanov State Medical University.jpg";
+// // import MARISTATEUNIVERSITY from "../../Images/Kazakhstan/Asfendiyarov Kazakh National Medical University.webp";
+// // import ORELSTATEUNIVERSITY from "../../Images/Kazakhstan/Karaganda State Medical University.webp";
+// // import ORENBURGSTATEUNIVERSITY from "../../Images/Kazakhstan/Kokshetau State University.webp";
+// // import TVERSTATEMEDICALUNIVERSITY from "../../Images/Kazakhstan/Semey State Medical University.webp";
+// // import AltaiStateMedicalUniversity from "../../Images/Kazakhstan/South-Kazakhstan-Medical-Academy.webp";
+// // import AltaiStateMedicalUniversity2 from "../../Images/Kazakhstan/West Kazakhstan Marat Ospanov State Medical University.webp";
 
 // // const Kazakhstan = () => {
 // //   const [showMoreAbout, setShowMoreAbout] = useState(false);
@@ -621,15 +621,15 @@
 // // export default Kazakhstan;
 
 // import React, { useState } from "react";
-// import RussiaFlag from "../../Images/Russia/russia header threejpg.jpg";
-// import kernal from "../../Images/university-image/kazakistan.jpg";
+// import RussiaFlag from "../../Images/Russia/russia header threejpg.webp";
+// import kernal from "../../Images/university-image/kazakistan.webp";
 // import Russianflag2 from "../../Images/country flag png/Kazakhstan.svg";
-// import MARISTATEUNIVERSITY from "../../Images/Kazakhstan/Asfendiyarov Kazakh National Medical University.jpg";
-// import ORELSTATEUNIVERSITY from "../../Images/Kazakhstan/Karaganda State Medical University.jpg";
-// import ORENBURGSTATEUNIVERSITY from "../../Images/Kazakhstan/Kokshetau State University.jpg";
-// import TVERSTATEMEDICALUNIVERSITY from "../../Images/Kazakhstan/Semey State Medical University.jpg";
-// import AltaiStateMedicalUniversity from "../../Images/Kazakhstan/South-Kazakhstan-Medical-Academy.jpg";
-// import AltaiStateMedicalUniversity2 from "../../Images/Kazakhstan/West Kazakhstan Marat Ospanov State Medical University.jpg";
+// import MARISTATEUNIVERSITY from "../../Images/Kazakhstan/Asfendiyarov Kazakh National Medical University.webp";
+// import ORELSTATEUNIVERSITY from "../../Images/Kazakhstan/Karaganda State Medical University.webp";
+// import ORENBURGSTATEUNIVERSITY from "../../Images/Kazakhstan/Kokshetau State University.webp";
+// import TVERSTATEMEDICALUNIVERSITY from "../../Images/Kazakhstan/Semey State Medical University.webp";
+// import AltaiStateMedicalUniversity from "../../Images/Kazakhstan/South-Kazakhstan-Medical-Academy.webp";
+// import AltaiStateMedicalUniversity2 from "../../Images/Kazakhstan/West Kazakhstan Marat Ospanov State Medical University.webp";
 
 // const Kazakhstan = () => {
 //   const [showMoreAbout, setShowMoreAbout] = useState(false);
@@ -1013,17 +1013,17 @@
 // export default Kazakhstan;
 
 import React, { useState } from "react";
-import { Helmet } from 'react-helmet-async';
+import SeoHead from "../../component/SeoHead.jsx";
 
-import RussiaFlag from "../../Images/Russia/russia header threejpg.jpg";
-import kernal from "../../Images/university-image/kazakistan.jpg";
+import RussiaFlag from "../../Images/Russia/russia header threejpg.webp";
+import kernal from "../../Images/university-image/kazakistan.webp";
 import Russianflag2 from "../../Images/country flag png/Kazakhstan.svg";
-import MARISTATEUNIVERSITY from "../../Images/Kazakhstan/Asfendiyarov Kazakh National Medical University.jpg";
-import ORELSTATEUNIVERSITY from "../../Images/Kazakhstan/Karaganda State Medical University.jpg";
-import ORENBURGSTATEUNIVERSITY from "../../Images/Kazakhstan/Kokshetau State University.jpg";
-import TVERSTATEMEDICALUNIVERSITY from "../../Images/Kazakhstan/Semey State Medical University.jpg";
-import AltaiStateMedicalUniversity from "../../Images/Kazakhstan/South-Kazakhstan-Medical-Academy.jpg";
-import AltaiStateMedicalUniversity2 from "../../Images/Kazakhstan/West Kazakhstan Marat Ospanov State Medical University.jpg";
+import MARISTATEUNIVERSITY from "../../Images/Kazakhstan/Asfendiyarov Kazakh National Medical University.webp";
+import ORELSTATEUNIVERSITY from "../../Images/Kazakhstan/Karaganda State Medical University.webp";
+import ORENBURGSTATEUNIVERSITY from "../../Images/Kazakhstan/Kokshetau State University.webp";
+import TVERSTATEMEDICALUNIVERSITY from "../../Images/Kazakhstan/Semey State Medical University.webp";
+import AltaiStateMedicalUniversity from "../../Images/Kazakhstan/South-Kazakhstan-Medical-Academy.webp";
+import AltaiStateMedicalUniversity2 from "../../Images/Kazakhstan/West Kazakhstan Marat Ospanov State Medical University.webp";
 import { useNavigate } from "react-router-dom";
 
 
@@ -1035,11 +1035,13 @@ const Kazakhstan = () => {
 
   return (
     <>
-      <Helmet>
-                  <title>MBBS in Kazakhstan for Indian Students | Fees & Admission 2026</title>
-                  <meta name="description" content="MBBS in Kazakhstan at low cost with top universities. Get details on fees, eligibility, admission process and medical colleges." />
-                  <meta name="keywords" content="mbbs in kazakhstan, kazakhstan mbbs fees, study mbbs kazakhstan, kazakhstan medical colleges, mbbs kazakhstan admission" />
-                </Helmet>
+      <SeoHead
+        title="MBBS in Kazakhstan for Indian Students | Fees & Admission 2026"
+        description="MBBS in Kazakhstan at low cost with top universities. Get details on fees, eligibility, admission process and medical colleges."
+        keywords="mbbs in kazakhstan, kazakhstan mbbs fees, study mbbs kazakhstan, kazakhstan medical colleges, mbbs kazakhstan admission"
+        path="/mbbsabroad/kazakhstan"
+        ogType="website"
+      />
     
     <div className="min-h-screen bg-gray-50 font-sans">
       {/* ==================== HEADER CAROUSEL ==================== */}
@@ -1065,6 +1067,9 @@ const Kazakhstan = () => {
           <div>
             <img
               src={Russianflag2}
+              loading="lazy"
+              width={1000}
+              height={500}
               alt="Kazakhstan flag"
               className="w-32 md:w-40 border-4 border-gray-800 rounded shadow-lg"
             />
@@ -1142,6 +1147,9 @@ const Kazakhstan = () => {
           <div>
             <img
               src={kernal}
+              loading="lazy"
+              width={640}
+              height={427}
               alt="Kazakhstan"
               className="rounded-xl shadow-2xl w-full h-auto object-cover"
             />
@@ -1270,6 +1278,7 @@ const Kazakhstan = () => {
               >
                 <img
                   src={uni.img}
+                  loading="lazy"
                   alt={uni.name}
                   className="w-full h-64 object-cover"
                 />

@@ -1,6 +1,6 @@
 // import React from "react";
 // import { Link } from "react-router-dom"; // Make sure to install & import react-router-dom
-// import Eduhawk from "../assets/icon.jpg"; // Your logo path
+// import Eduhawk from "../assets/icon.webp"; // Your logo path
 // import {
 //   FaFacebookF,
 //   FaTwitter,
@@ -93,7 +93,7 @@
 //             </div>
 
 //             <p className="text-gray-400 text-sm leading-relaxed mb-6 max-w-sm">
-//               Trusted & ethical counselling for MBBS abroad — helping 2000+
+//               Trusted & ethical counselling for MBBS abroad — helping 400+
 //               Indian students since inception.
 //             </p>
 
@@ -239,7 +239,7 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
-import Eduhawk from "../assets/icon.jpg";
+import Eduhawk from "../assets/icon.webp";
 import {
   FaFacebookF,
   FaInstagram,
@@ -437,6 +437,8 @@ export default function Footer() {
             <div className="flex items-center gap-3 mb-5">
               <img
                 src={Eduhawk}
+                width={1280}
+                height={720}
                 alt="Edu-Hawk Logo"
                 className="w-15 h-15 rounded-full object-cover"
               />
@@ -451,7 +453,7 @@ export default function Footer() {
             </div>
 
             <p className="text-gray-400 text-sm leading-relaxed mb-6 max-w-sm">
-              Trusted & ethical counselling for MBBS abroad — helping 2000+
+              Trusted & ethical counselling for MBBS abroad — helping 400+
               Indian students since inception.
             </p>
 
@@ -571,7 +573,7 @@ export default function Footer() {
               </span>
             </a>
             <a className="font-small text-gray-400"> version 5.0.0 </a>
-            Trusted by 2000+ Indian Students
+            Trusted by 400+ Indian Students
           </p>
 
           <div className="mt-4 flex justify-center gap-6 text-xs flex-wrap">

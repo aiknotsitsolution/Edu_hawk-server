@@ -1,10 +1,10 @@
 
 
 import React, { useState } from "react";
-import RussiaFlag from "../../Images/Russia/russia header threejpg.jpg";
+import RussiaFlag from "../../Images/Russia/russia header threejpg.webp";
 import Russianflag2 from "../../Images/country flag png/Tajikistan.svg";
-import MARISTATEUNIVERSITY from "../../Images/tajikistan/Khatlon-State-Medical-University-Tajikistan.jpg";
-import { Helmet } from "react-helmet-async";
+import MARISTATEUNIVERSITY from "../../Images/tajikistan/Khatlon-State-Medical-University-Tajikistan.webp";
+import SeoHead from "../../component/SeoHead.jsx";
 import { useNavigate } from "react-router-dom";
 
 
@@ -15,17 +15,13 @@ const Tajikistan = () => {
 
   return (
     <>
-      <Helmet>
-        <title>MBBS in Tajikistan for Indian Students | Fees & Admission</title>
-        <meta
-          name="description"
-          content="Study MBBS in Tajikistan at affordable cost. Check eligibility, admission process and recognized medical universities."
-        />
-        <meta
-          name="keywords"
-          content="mbbs in tajikistan, tajikistan mbbs fees, study mbbs tajikistan, tajikistan medical colleges, mbbs tajikistan admission"
-        />
-      </Helmet>
+      <SeoHead
+        title="MBBS in Tajikistan for Indian Students | Fees & Admission"
+        description="Study MBBS in Tajikistan at affordable cost. Check eligibility, admission process and recognized medical universities."
+        keywords="mbbs in tajikistan, tajikistan mbbs fees, study mbbs tajikistan, tajikistan medical colleges, mbbs tajikistan admission"
+        path="/mbbsabroad/tajikistan"
+        ogType="website"
+      />
       <div className="min-h-screen bg-gray-50 font-sans">
         {/* ==================== HEADER CAROUSEL ==================== */}
         <div className="relative h-screen overflow-hidden">
@@ -50,6 +46,9 @@ const Tajikistan = () => {
             <div>
               <img
                 src={Russianflag2}
+                loading="lazy"
+                width={1400}
+                height={700}
                 alt="Tajikistan flag"
                 className="w-32 md:w-40 border-4 border-gray-800 rounded shadow-lg"
               />
@@ -120,6 +119,7 @@ const Tajikistan = () => {
             <div>
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/6/63/Tajik_Parliament_House%2C_Dushanbe%2C_Tajikistan.JPG"
+                loading="lazy"
                 alt="Tajikistan Parliament House, Dushanbe"
                 className="rounded-xl shadow-2xl w-full h-auto object-cover"
               />
@@ -227,6 +227,7 @@ const Tajikistan = () => {
                 >
                   <img
                     src={uni.img}
+                    loading="lazy"
                     alt={uni.name}
                     className="w-full h-64 object-cover"
                   />

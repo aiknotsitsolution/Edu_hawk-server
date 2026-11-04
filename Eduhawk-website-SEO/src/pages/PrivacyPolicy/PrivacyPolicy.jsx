@@ -5,6 +5,7 @@ import {
   FaInstagram,
   FaLinkedinIn,
 } from "react-icons/fa";
+import SeoHead from "../../component/SeoHead.jsx";
 
 const PrivacyPolicy = () => {
   const lastUpdated = new Date().toLocaleDateString("en-US", {
@@ -15,6 +16,11 @@ const PrivacyPolicy = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 py-12 px-4">
+      <SeoHead
+        title="Privacy Policy | Edu-Hawk Worldwide"
+        description="Read EduHawk Worldwide's privacy policy to learn what personal information we collect, how we use and protect it, and your rights."
+        path="/privacy-policy"
+      />
       <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-2xl overflow-hidden">
         {/* Header */}
         <div className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-12 px-8 text-center">

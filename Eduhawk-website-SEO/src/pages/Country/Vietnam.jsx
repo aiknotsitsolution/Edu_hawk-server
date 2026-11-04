@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { FiPlus, FiMinus } from "react-icons/fi";
-import { Helmet } from "react-helmet-async";
+import SeoHead from "../../component/SeoHead.jsx";
 import { useNavigate } from "react-router-dom";
+import CanThoUniversity from "../../assets/CanTho_University.webp";
 
 const Vietnam = () => {
   const [showMoreAbout, setShowMoreAbout] = useState(false);
@@ -53,17 +54,13 @@ const Vietnam = () => {
 
   return (
     <>
-      <Helmet>
-        <title> MBBS in Vietnam for Indian Students | Fees & Colleges</title>
-        <meta
-          name="description"
-          content="Study MBBS in Vietnam with English medium and affordable fees. Check eligibility, admission process and top universities."
-        />
-        <meta
-          name="keywords"
-          content="mbbs in vietnam, vietnam mbbs fees, study mbbs vietnam, mbbs in vietnam for indian students, top medical universities in vietnam, mbbs in vietnam eligibility, mbbs in vietnam admission"
-        />
-      </Helmet>
+      <SeoHead
+        title="MBBS in Vietnam for Indian Students | Fees & Colleges"
+        description="Study MBBS in Vietnam with English medium and affordable fees. Check eligibility, admission process and top universities."
+        keywords="mbbs in vietnam, vietnam mbbs fees, study mbbs vietnam, mbbs in vietnam for indian students, top medical universities in vietnam, mbbs in vietnam eligibility, mbbs in vietnam admission"
+        path="/mbbsabroad/vietnam"
+        ogType="website"
+      />
       <div className="min-h-screen bg-gray-50 font-sans">
         {/* ==================== HEADER CAROUSEL ==================== */}
         <div className="relative h-screen overflow-hidden">
@@ -88,6 +85,7 @@ const Vietnam = () => {
             <div>
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg"
+                loading="lazy"
                 alt="Vietnam flag"
                 className="w-32 md:w-40 border-4 border-gray-800 rounded shadow-lg"
               />
@@ -165,6 +163,7 @@ const Vietnam = () => {
             <div className="rounded-3xl overflow-hidden shadow-2xl border border-blue-100 bg-white">
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Hanoi_dhyk.jpg"
+                loading="lazy"
                 alt="Hanoi Medical University"
                 className="w-full h-full object-cover min-h-[420px]"
               />
@@ -350,7 +349,7 @@ const Vietnam = () => {
                 },
                 {
                   name: "Can Tho University of Medicine and Pharmacy",
-                  img: "../../../src/assets/CanTho_University.jpg",
+                  img: CanThoUniversity,
                 },
                 {
                   name: "Hai Phong University of Medicine and Pharmacy",
@@ -363,6 +362,7 @@ const Vietnam = () => {
                 >
                   <img
                     src={uni.img}
+                    loading="lazy"
                     alt={uni.name}
                     className="w-full h-64 object-cover"
                   />

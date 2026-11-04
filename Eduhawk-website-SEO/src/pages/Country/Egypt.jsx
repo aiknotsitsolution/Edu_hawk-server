@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import EgyptFlag from "../../Images/country flag png/Egypt.svg"; // Correct path to Egypt flag
 import { FiPlus, FiMinus } from "react-icons/fi";
-import { Helmet } from "react-helmet-async";
+import SeoHead from "../../component/SeoHead.jsx";
 const Egypt = () => {
   const [showMoreAbout, setShowMoreAbout] = useState(false);
   const [showMoreClimate, setShowMoreClimate] = useState(false);
@@ -62,17 +62,13 @@ const Egypt = () => {
   return (
     <>
     
-      <Helmet>
-        <title>MBBS in Egypt for Indian Students | Fees & Top Universities</title>
-        <meta
-          name="description"
-          content="MBBS in Egypt with globally recognized universities. Get details on fees, eligibility and admission process for Indian students."
-        />
-        <meta
-          name="keywords"
-          content="mbbs in egypt, egypt mbbs fees, study mbbs egypt, mbbs in egypt for indian students, top medical universities in egypt, mbbs in egypt eligibility, mbbs in egypt admission"
-        />
-      </Helmet>
+      <SeoHead
+        title="MBBS in Egypt for Indian Students | Fees & Top Universities"
+        description="MBBS in Egypt with globally recognized universities. Get details on fees, eligibility and admission process for Indian students."
+        keywords="mbbs in egypt, egypt mbbs fees, study mbbs egypt, mbbs in egypt for indian students, top medical universities in egypt, mbbs in egypt eligibility, mbbs in egypt admission"
+        path="/mbbsabroad/egypt"
+        ogType="website"
+      />
       <div className="min-h-screen bg-gray-50 font-sans">
         {/* ==================== HEADER CAROUSEL ==================== */}
         <div className="relative h-screen overflow-hidden">
@@ -97,6 +93,9 @@ const Egypt = () => {
             <div>
               <img
                 src={EgyptFlag}
+                loading="lazy"
+                width={900}
+                height={600}
                 alt="Egypt flag"
                 className="w-32 md:w-40 border-4 border-gray-800 rounded shadow-lg"
               />
@@ -149,6 +148,7 @@ const Egypt = () => {
             <div>
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Egyptian_Museum_in_Cairo_in_May_2015.JPG"
+                loading="lazy"
                 alt="Egyptian Museum"
                 className="rounded-xl shadow-2xl w-full h-auto object-cover"
               />
@@ -233,7 +233,7 @@ const Egypt = () => {
               {[
                 {
                   name: "Cairo University",
-                  img: "https://upload.wikimedia.org/wikipedia/commons/5/57/CairoUniv.jpg",
+                  img: "https://upload.wikimedia.org/wikipedia/commons/5/57/CairoUniv.webp",
                 },
                 {
                   name: "Ain Shams University",
@@ -262,6 +262,7 @@ const Egypt = () => {
                 >
                   <img
                     src={uni.img}
+                    loading="lazy"
                     alt={uni.name}
                     className="w-full h-64 object-cover"
                   />

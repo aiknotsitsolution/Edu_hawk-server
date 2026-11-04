@@ -227,6 +227,7 @@ function Service() {
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
               <img
                 src="https://images.unsplash.com/photo-1557426272-fc91fdb8f385?w=800"
+                loading="lazy"
                 alt="Laptop news"
                 className="w-full h-48 object-cover"
               />
@@ -255,6 +256,7 @@ function Service() {
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
               <img
                 src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800"
+                loading="lazy"
                 alt="Students with laptop"
                 className="w-full h-48 object-cover"
               />
@@ -282,6 +284,7 @@ function Service() {
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
               <img
                 src="https://images.unsplash.com/photo-1517248135467-2c7ed3ab7229?w=800"
+                loading="lazy"
                 alt="Girl with laptop"
                 className="w-full h-48 object-cover"
               />
@@ -375,6 +378,7 @@ function Service() {
           <div className="relative">
             <img
               src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1200"
+              loading="lazy"
               alt="Teacher explaining"
               className="rounded-3xl shadow-2xl w-full"
             />

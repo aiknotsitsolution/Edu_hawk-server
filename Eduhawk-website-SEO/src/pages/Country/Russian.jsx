@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import { Helmet } from 'react-helmet-async';
-import RussiaFlag from "../../Images/Russia/russia header threejpg.jpg";
-import kernal from "../../Images/Russia/about-russia.jpg";
+import SeoHead from "../../component/SeoHead.jsx";
+import RussiaFlag from "../../Images/Russia/russia header threejpg.webp";
+import kernal from "../../Images/Russia/about-russia.webp";
 import Russianflag2 from "../../Images/country flag png/Russia.svg";
-import MARISTATEUNIVERSITY from "../../Images/Russia/MARI STATE UNIVERSITY.jpg";
-import ORELSTATEUNIVERSITY from "../../Images/Russia/OREL STATE UNIVERSITY.jpg";
-import ORENBURGSTATEUNIVERSITY from "../../Images/Russia/ORENBURG STATE UNIVERSITY.jpg";
+import MARISTATEUNIVERSITY from "../../Images/Russia/MARI STATE UNIVERSITY.webp";
+import ORELSTATEUNIVERSITY from "../../Images/Russia/OREL STATE UNIVERSITY.webp";
+import ORENBURGSTATEUNIVERSITY from "../../Images/Russia/ORENBURG STATE UNIVERSITY.webp";
 import TVERSTATEMEDICALUNIVERSITY from "../../Images/Russia/TVER STATE MEDICAL UNIVERSITY.jpeg";
 import AltaiStateMedicalUniversity from "../../Images/Russia/Altai State Medical University.jpg";
 import { useNavigate } from "react-router-dom";
@@ -19,17 +19,21 @@ const Russia = () => {
     <>
     
     
-    <Helmet>
-              <title>MBBS in Russia for Indian Students | Russia MBBS Fees & Admission </title>
-              <meta name="description" content="Study MBBS in Russia with low fees and NMC approved universities. Check eligibility, admission process, and top medical universities in Russia." />
-              <meta name="keywords" content="mbbs in russia, russia mbbs fees, study mbbs russia, russia medical colleges, mbbs russia admission" />
-            </Helmet>
+    <SeoHead
+      title="MBBS in Russia for Indian Students | Russia MBBS Fees & Admission"
+      description="Study MBBS in Russia with low fees and NMC approved universities. Check eligibility, admission process, and top medical universities in Russia."
+      keywords="mbbs in russia, russia mbbs fees, study mbbs russia, russia medical colleges, mbbs russia admission"
+      path="/mbbsabroad/russia"
+      ogType="website"
+    />
     <div className="min-h-screen bg-gray-50 font-sans">
       {/* ==================== HEADER CAROUSEL ==================== */}
       <div className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
           <img
             src={RussiaFlag}
+            width={3000}
+            height={1900}
             alt="Kremlin Bridge City"
             className="w-full h-full object-cover brightness-75"
           />
@@ -50,6 +54,9 @@ const Russia = () => {
           <div>
             <img
               src={Russianflag2}
+              loading="lazy"
+              width={9}
+              height={6}
               alt="Russia flag"
               className="w-32 md:w-40 border-4 border-gray-800 rounded shadow-lg"
             />
@@ -125,6 +132,9 @@ const Russia = () => {
           <div>
             <img
               src={kernal}
+              loading="lazy"
+              width={626}
+              height={413}
               alt="Kremlin"
               className="rounded-xl shadow-2xl w-full h-auto object-cover"
             />
@@ -236,6 +246,7 @@ const Russia = () => {
               >
                 <img
                   src={uni.img}
+                  loading="lazy"
                   alt={uni.name}
                   className="w-full h-64 object-cover"
                 />

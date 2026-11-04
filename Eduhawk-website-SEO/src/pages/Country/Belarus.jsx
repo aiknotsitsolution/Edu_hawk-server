@@ -1,10 +1,11 @@
 import React, { useState } from "react";
-import RussiaFlag from "../../Images/Russia/russia header threejpg.jpg";
-import kernal from "../../Images/Russia/about-russia.jpg";
+import SeoHead from "../../component/SeoHead.jsx";
+import RussiaFlag from "../../Images/Russia/russia header threejpg.webp";
+import kernal from "../../Images/Russia/about-russia.webp";
 import Russianflag2 from "../../Images/country flag png/Belarus.svg";
-import MARISTATEUNIVERSITY from "../../Images/Russia/MARI STATE UNIVERSITY.jpg";
-import ORELSTATEUNIVERSITY from "../../Images/Russia/OREL STATE UNIVERSITY.jpg";
-import ORENBURGSTATEUNIVERSITY from "../../Images/Russia/ORENBURG STATE UNIVERSITY.jpg";
+import MARISTATEUNIVERSITY from "../../Images/Russia/MARI STATE UNIVERSITY.webp";
+import ORELSTATEUNIVERSITY from "../../Images/Russia/OREL STATE UNIVERSITY.webp";
+import ORENBURGSTATEUNIVERSITY from "../../Images/Russia/ORENBURG STATE UNIVERSITY.webp";
 import TVERSTATEMEDICALUNIVERSITY from "../../Images/Russia/TVER STATE MEDICAL UNIVERSITY.jpeg";
 import AltaiStateMedicalUniversity from "../../Images/Russia/Altai State Medical University.jpg";
 const Belarus = () => {
@@ -13,6 +14,18 @@ const Belarus = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 font-sans">
+      <SeoHead
+        title="MBBS in Belarus 2026-27 | Admissions, Fees & Universities | Edu Hawk"
+        description="Explore MBBS in Belarus for Indian students: eligibility, admission process, top medical universities, documents and food & accommodation costs. Study MBBS in Belarus for a safe, affordable, and globally recognized medical education."
+        path="/mbbsabroad/belarus"
+        ogType="website"
+      />
+      <SeoHead
+        title="Study MBBS in Belarus for Indian Students | Edu Hawk"
+        description="Explore MBBS in Belarus for Indian students: eligibility, admission process, top medical universities, documents and food & accommodation costs."
+        path="/mbbsabroad/belarus"
+        ogType="website"
+      />
       {/* ==================== HEADER CAROUSEL ==================== */}
       <div className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
@@ -38,6 +51,9 @@ const Belarus = () => {
           <div>
             <img
               src={Russianflag2}
+              loading="lazy"
+              width={378}
+              height={189}
               alt="Russia flag"
               className="w-32 md:w-40 border-4 border-gray-800 rounded shadow-lg"
             />
@@ -98,6 +114,7 @@ const Belarus = () => {
           <div>
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/9/99/Victory_square%2C_Minsk_01.jpg"
+              loading="lazy"
               alt="Kremlin"
               className="rounded-xl shadow-2xl w-full h-auto object-cover"
             />
@@ -201,6 +218,7 @@ const Belarus = () => {
               >
                 <img
                   src={uni.img}
+                  loading="lazy"
                   alt={uni.name}
                   className="w-full h-64 object-cover"
                 />

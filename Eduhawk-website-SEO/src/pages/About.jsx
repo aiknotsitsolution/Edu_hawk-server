@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import AboutImage from "../Images/About us page.gif";
-import imageAbout2 from "../Images/ABOUT SERVICE.jpg";
+import imageAbout2 from "../Images/ABOUT SERVICE.webp";
 import { useNavigate } from "react-router-dom";
-import { Helmet } from "react-helmet-async";
+import SeoHead from "../component/SeoHead.jsx";
 
 
 const COUNTRIES = [
@@ -57,7 +57,7 @@ const HERO_SLIDES = [
       "https://psgimsr.ac.in/wp-content/uploads/2024/07/20240717_220126.jpg",
     title: "Admission Made Simple & Secure",
     subtitle:
-      "No Hidden Charges • Personalized Guidance • 2000+ Happy Students",
+      "No Hidden Charges • Personalized Guidance • 400+ Happy Students",
     cta: "Free Consultation Now",
   },
 ];
@@ -96,10 +96,10 @@ export default function HeroSection() {
   const navigate = useNavigate();
   // ✅ FIXED: PDF download function
   const downloadPDF = () => {
+    const pdfUrl = "/Eduhawk.pdf";
     const link = document.createElement("a");
-    link.href = "../src/Images/Eduhawk.pdf"; // public folder mein PDF rakhna zaroori hai
+    link.href = pdfUrl;
     link.download = "Eduhawk.pdf";
-    link.target = "_blank";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -132,17 +132,12 @@ export default function HeroSection() {
 
   return (
     <>
-      <Helmet>
-        <title>MBBS Abroad Consultancy in India | About EduHawk</title>
-        <meta
-          name="description"
-          content="EduHawk is a leading MBBS abroad consultancy in India providing admission guidance, university selection, and visa assistance for Indian students."
-        />
-        <meta
-          name="keywords"
-          content="MBBS Abroad consultancy, study abroad consultants india, mbbs admission consultants, eduhawk"
-        />
-      </Helmet>
+      <SeoHead
+        title="MBBS Abroad Consultancy in India | About EduHawk"
+        description="EduHawk is a leading MBBS abroad consultancy in India providing admission guidance, university selection, and visa assistance for Indian students."
+        path="/about"
+        ogType="website"
+      />
 
       <div className="min-h-screen bg-gray-50 font-sans">
         {/* HERO CAROUSEL */}
@@ -223,10 +218,10 @@ export default function HeroSection() {
         <div className="max-w-7xl mx-auto px-6 -mt-24 md:-mt-28 relative z-10">
           <div className="bg-white/95 backdrop-blur-xl border border-[#d4a853]/20 rounded-3xl shadow-2xl p-8 md:p-10 grid grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { n: "2000+", l: "Students Placed" },
+              { n: "400+", l: "Students Placed" },
               { n: "10+", l: "Countries" },
               { n: "100+", l: "Universities/Colleges" },
-              { n: "100%", l: "NMC Approved" },
+              { n: "100%", l: "Visa Support" },
             ].map((s, i) => (
               <div key={i} className="text-center">
                 <div className="text-5xl md:text-6xl font-black text-[#d4a853]">
@@ -281,6 +276,9 @@ export default function HeroSection() {
               <div>
                 <img
                   src={AboutImage}
+                  loading="lazy"
+                  width={500}
+                  height={500}
                   alt="EduHawk students and campus life"
                   className="rounded-2xl shadow-2xl w-full object-cover"
                 />
@@ -374,6 +372,9 @@ export default function HeroSection() {
               <div className="w-full lg:w-2/5 flex flex-col items-center lg:items-start gap-6">
                 <img
                   src={imageAbout2}
+                  loading="lazy"
+                  width={612}
+                  height={408}
                   alt="MBBS abroad service illustration"
                   className="rounded-2xl shadow-xl w-full max-w-md object-cover"
                 />

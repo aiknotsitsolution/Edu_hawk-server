@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { Link, useNavigate } from "react-router-dom";
-import { Helmet } from "react-helmet-async";
+import { useNavigate } from "react-router-dom";
+import SeoHead from "../../component/SeoHead.jsx";
+import BannerCTA from "../../assets/BannerCTA.webp";
 import {
   fetchProducts,
   fetchCategories,
@@ -75,7 +76,6 @@ const Blog = () => {
 
   // State for accordion (which FAQ is open)
   const [openFaq, setOpenFaq] = useState(null);
-  const [loadingProgress, setLoadingProgress] = useState(0);
   const isInitialLoading = status === "loading" && products.length === 0;
 
   const toggleFaq = (index) => {
@@ -89,25 +89,6 @@ const Blog = () => {
   useEffect(() => {
     dispatch(fetchCategories());
   }, [dispatch]);
-
-  useEffect(() => {
-    if (status === "loading") {
-      setLoadingProgress(12);
-
-      const interval = setInterval(() => {
-        setLoadingProgress((prev) => {
-          if (prev >= 92) return prev;
-          return Math.min(prev + Math.random() * 18 + 8, 92);
-        });
-      }, 500);
-
-      return () => clearInterval(interval);
-    }
-
-    if (status === "succeeded" || status === "failed") {
-      setLoadingProgress(100);
-    }
-  }, [status]);
 
   if (status === "failed") {
     return (
@@ -162,17 +143,12 @@ const Blog = () => {
 
   return (
     <>
-      <Helmet>
-        <title>MBBS Abroad Blog | MBBS Admission, Fees and Country Guide</title>
-        <meta
-          name="description"
-          content="Read blogs on MBBS abroad including admission process, fees, eligibility and country comparison for Indian students"
-        />
-        <meta
-          name="keywords"
-          content=" mbbs abroad blog, mbbs admission guide, study abroad blog"
-        />
-      </Helmet>
+      <SeoHead
+        title="MBBS Abroad Blog | MBBS Admission, Fees and Country Guide"
+        description="Read blogs on MBBS abroad including admission process, fees, eligibility and country comparison for Indian students"
+        path="/blog"
+        ogType="website"
+      />
       <section className="bg-gray-50 min-h-screen py-12 md:py-16 lg:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Header */}
@@ -209,24 +185,6 @@ const Blog = () => {
           {/* Products Grid + Pagination */}
           {isInitialLoading ? (
             <div className="mb-16">
-              <div className="mx-auto mb-6 w-full max-w-md">
-                <div className="mb-2 flex items-center justify-between gap-3 text-sm font-medium text-indigo-700">
-                  <span className="inline-flex items-center gap-2 truncate">
-                    <span className="inline-flex h-2.5 w-2.5 rounded-full bg-indigo-500 animate-pulse" />
-                    <span className="truncate">Loading latest articles...</span>
-                  </span>
-                  <span className="shrink-0">
-                    {Math.round(loadingProgress)}%
-                  </span>
-                </div>
-                <div className="h-2.5 w-full overflow-hidden rounded-full bg-slate-200">
-                  <div
-                    className="h-full rounded-full bg-gradient-to-r from-indigo-500 via-blue-500 to-cyan-500 transition-all duration-500 ease-out"
-                    style={{ width: `${loadingProgress}%` }}
-                  />
-                </div>
-              </div>
-
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-10">
                 {Array.from({ length: 6 }).map((_, index) => (
                   <div
@@ -357,7 +315,10 @@ const Blog = () => {
           <section className="relative mb-16 overflow-hidden rounded-[30px] border border-white/20 shadow-[0_20px_60px_rgba(15,23,42,0.12)] animate-fade-in-up">
             <div className="absolute inset-0">
               <img
-                src="../../src/assets/BannerCTA.jpg"
+                src={BannerCTA}
+                loading="lazy"
+                width={898}
+                height={360}
                 alt="MBBS Abroad counselling banner"
                 className="h-full w-full object-cover"
               />

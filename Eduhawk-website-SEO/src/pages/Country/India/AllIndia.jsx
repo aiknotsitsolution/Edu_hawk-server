@@ -1,5 +1,12 @@
 import React, { useState, useMemo } from "react";
-import { Helmet } from 'react-helmet-async';
+import SeoHead from "../../../component/SeoHead.jsx";
+
+<SeoHead
+  title="Indian Medical Colleges List | MBBS Admission Guide"
+  description="Complete list of Indian medical colleges with MBBS admission details, fees, and eligibility criteria."
+  path="/allcollege"
+  ogType="website"
+/>
 
 const mockParsedData = [
   {
@@ -6065,11 +6072,12 @@ const AllIndia = () => {
 
   return (
     <>
-     <Helmet>
-          <title> MBBS Abroad 2026 | Top Countries for MBBS Abroad for Indian Students</title>
-          <meta name="description" content="Explore MBBS abroad options including Russia, Kazakhstan, Georgia, Nepal and more. Check fees, eligibility, admission process and top universities." />
-          <meta name="keywords" content="mbbs abroad 2026, top countries for mbbs abroad, study mbbs abroad, mbbs abroad admission process, mbbs abroad eligibility" />
-        </Helmet>
+     <SeoHead
+          title="MBBS Abroad 2026 | Top Countries for MBBS Abroad for Indian Students"
+          description="Explore MBBS abroad options including Russia, Kazakhstan, Georgia, Nepal and more. Check fees, eligibility, admission process and top universities."
+          path="/allcollege"
+          ogType="website"
+        />
     
     <div className="min-h-screen bg-gray-50 font-sans">
       {/* Header */}
