@@ -3,7 +3,8 @@
 > **Branch:** `feature/content-update`
 > **Base:** `master` (merge-base `5288ec0`)
 > **Scope:** SEO overhaul, performance work, content migration and compliance fixes
-> **Commits covered:** 14 (plus uncommitted work-in-progress)
+> **Commits covered:** 15 (plus uncommitted work-in-progress)
+> **Latest commit:** `0c48c57` — final cleanup, icon dedupe, blog fixes, CSS optimization
 
 This document records every change shipped on the `feature/content-update`
 branch — what was done, why, and the measured impact.
@@ -23,8 +24,11 @@ branch — what was done, why, and the measured impact.
 | 7. Accessibility | H1 heading issue fixed, image dimensions added | ✅ Done |
 | 8. Content compliance | NMC wording corrected, placement numbers fixed, stale years updated | ✅ Done |
 | 9. Assets & misc | Favicon, brochure PDF, gtag position, fonts, dead code | ✅ Done |
-| 10. Prerendering | Scripts present but NOT wired into build | ⏳ Pending |
-| 11. Canonical host | `www` vs apex alignment | ⏳ In progress |
+| 10. Icon library dedupe | `react-icons` + `@heroicons/react` removed, migrated to `lucide-react` | ✅ Done |
+| 11. Blog detail fixes | Loading skeleton + error state + fixed Redux imports | ✅ Done |
+| 12. Prerendering | Scripts present but NOT wired into build | ⏳ Pending |
+| 13. Canonical host | `www.eduhawk.in` alignment (sitemap, robots, JSON-LD) | ⚠️ Partial |
+| 14. CSS optimization | Build-breaking regression found and **fixed** | ✅ Fixed |
 
 ---
 
@@ -66,7 +70,9 @@ branch — what was done, why, and the measured impact.
 
 ### Coverage
 - **49 files** import/render `SeoHead` (directly or via `CoursePageKit`).
-- Every one of the **71 indexable routes** emits page-specific metadata.
+- All remaining pages were **migrated to `SeoHead`** (and their assets converted
+  to WebP in the same pass) — every one of the **71 indexable routes** now emits
+  page-specific metadata.
 - Dynamic blog detail (`BlogDetail.jsx`) builds its title/description from the
   actual blog data fetched by slug/id.
 
@@ -112,8 +118,8 @@ Technology, Business, Health and General streams, with full content added to eac
 ## 4. Route-Level Code Splitting
 
 - **Files:** `src/routes/routes.jsx`, `src/pages/layouts/MainLayout.jsx`, `vite.config.js`
-- **71** of 74 routes are loaded with `React.lazy(() => import(...))`.
-- Homepage stays eager (it is needed on first paint anyway).
+- **73 routes** are loaded with `React.lazy(() => import(...))` (route-level code
+  splitting), leaving the shared layout eager so navigation chrome renders instantly.
 - `MainLayout` wraps `<Outlet />` in `<Suspense fallback={<RouteLoader />}>`.
 - `vite.config.js` adds a `manualChunks` rule that puts React / React-DOM /
   React-Router / Redux / Helmet into a single stable **`vendor`** chunk.
@@ -234,11 +240,87 @@ pages (`Russian`, `Armernia`, `Bangladesh`, `China`, `Belarus`, `Iran`,
 - **Fonts moved out of JS** — the landing-page font `@import` was replaced with
   real `<link rel="preconnect">` + stylesheet tags, scoped to that page only.
 - **Dead code removed** — unused imports/dependencies and dead CSS files cleaned up.
+  - `src/pages/Service.jsx` (515 lines, unused duplicate) deleted.
+  - Broken-reference cleanup: duplicate `Banner` import removed from `Italy.jsx`.
 - Brochure PDF added at `/Eduhawk.pdf` and linked from the About page.
 
 ---
 
-## 10. Prerendering — ⏳ Pending
+## 10. Icon Library Dedupe
+
+The site carried three icon libraries (`react-icons`, `lucide-react`,
+`@heroicons/react`). Two were removed and everything was consolidated onto
+`lucide-react`.
+
+- Removed dependencies: **`react-icons`** and **`@heroicons/react`** (from `package.json`).
+- Migrated usages:
+  - `react-icons/fi` `FiPlus / FiMinus` → `lucide-react` `Plus / Minus`
+    (in `Bangladesh`, `Egypt`, `Georgia`, `Vietnam` and others).
+  - `@heroicons/react` `ShareIcon` → `lucide-react` `Share` (in `BlogDetail.jsx`).
+- **Result:** one icon library instead of three → smaller, more consistent bundle.
+
+---
+
+## 11. Blog Detail Fixes
+
+- **Fixed missing Redux imports** in `src/pages/Component/BlogDetail.jsx`
+  (`selectCurrentProduct`, `selectDetailStatus`, `fetchProductBySlugOrId`,
+  `clearCurrentProduct`) — these were used but not imported (a real bug).
+- Added a **loading skeleton** (shown while the post is being fetched).
+- Added a **"could not be loaded" error state** with a link back to `/blog`.
+- Hero image now renders **only when the post has an image** (avoids an empty box).
+- Removed the unused `useMemo` import and the `error` selector.
+
+---
+
+## 12. Canonical Host — ⚠️ Partial
+
+- `SeoHead.jsx` and `App.jsx` JSON-LD use `https://www.eduhawk.in`.
+- `generate-sitemap.cjs` updated to `https://www.eduhawk.in`.
+- `public/robots.txt` updated: `Sitemap` + `Host` → `www.eduhawk.in`.
+- `public/sitemap.xml` regenerated to match.
+- **Still required:** management decision on the canonical host (apex vs `www`)
+  and the production Nginx 301 redirect. `llms.txt` still references the apex form.
+
+---
+
+## 13. CSS Optimization — 🔴 Regression found & ✅ Fixed
+
+> In commit `0c48c57` a "CSS optimization" change introduced a broken stylesheet
+> that **failed the production build**. It has since been **fixed** (see below).
+
+### What happened
+- `src/index.css` had its `@import "tailwindcss"` / `@plugin "@tailwindcss/typography"`
+  setup replaced with a hand-copied dump of compiled Tailwind layers plus a
+  malformed `@layer animations { ... }` block.
+- The `@layer animations` block was **missing its closing braces**, so Tailwind's
+  compiler aborted.
+
+### Evidence (before the fix)
+- `npx vite build` failed with:
+  `[@tailwindcss/vite:generate:build] Missing closing } at @layer animations`
+- The built CSS **no longer contained `.prose`** classes → blog article styling was
+  also lost (the `@tailwind`/`@import url(...)` block added to `index.html` inside
+  a `<style>` tag is **not processed** by Vite/PostCSS).
+
+### Fix applied
+1. Restored `src/index.css` to the clean Tailwind v4 setup:
+   ```css
+   @import "tailwindcss";
+   @plugin "@tailwindcss/typography";
+   ```
+   (custom `.blog-description` rules and keyframe animations kept).
+2. Removed the invalid `@tailwind` / `@import` block from `index.html`.
+3. Deleted `public/css/prose-critical.css` (it used incorrect `.prose-headings`
+   selectors instead of `.prose h2` descendant selectors).
+
+### Verification after fix
+- `npx vite build` → **✓ built successfully** (no errors).
+- Built CSS contains **`.prose`** again (573 occurrences) → blog typography restored.
+
+---
+
+## 14. Prerendering — ⏳ Pending
 
 - Prerender scripts exist (`prerender.cjs`, `prerender.mjs`,
   `prerender-puppeteer.mjs`) plus an SSR entry (`src/entry-server.jsx`), but
@@ -252,29 +334,20 @@ pages (`Russian`, `Armernia`, `Bangladesh`, `China`, `Belarus`, `Iran`,
 
 ---
 
-## 9. Canonical Host — ⏳ In Progress
-
-- `SeoHead.jsx` and `App.jsx` JSON-LD use `https://www.eduhawk.in`.
-- `generate-sitemap.cjs` was updated to `https://www.eduhawk.in`.
-- `public/robots.txt` and `public/sitemap.xml` must be regenerated/verified to
-  match. A management decision on the canonical host (apex vs `www`) and the
-  Nginx 301 redirect is still required.
-
----
-
 ## Pending / Management Decisions
 
 The following cannot be finalised by developers alone:
 
-1. **Canonical host** — apex `eduhawk.in` vs `www.eduhawk.in` (blocking sitemap/robots/Nginx).
-2. **Official student-placement statistic** — 400 vs 1000 vs 2000 (three values live).
-3. **Regulatory/legal wording** — NMC/WHO/WFME recognition claims need sign-off.
-4. **Official contact/WhatsApp number** — 9630736070 vs 7632949984 both appear.
-5. **Backend/API host** — `api.eduhawk.in` vs `edu-hawk-server.onrender.com`;
+1. **CSS regression (blocker)** — ✅ **fixed** (Section 13); build now passes.
+2. **Canonical host** — apex `eduhawk.in` vs `www.eduhawk.in` (blocking sitemap/robots/Nginx).
+3. **Official student-placement statistic** — 400 vs 1000 vs 2000 (three values live).
+4. **Regulatory/legal wording** — NMC/WHO/WFME recognition claims need sign-off.
+5. **Official contact/WhatsApp number** — 9630736070 vs 7632949984 both appear.
+6. **Backend/API host** — `api.eduhawk.in` vs `edu-hawk-server.onrender.com`;
    the current CSP does not allow `api.eduhawk.in`, which may block the homepage enquiry form.
-6. **Production Nginx config** — 301 redirect, security headers, cache rules,
+7. **Production Nginx config** — 301 redirect, security headers, cache rules,
    SPA fallback for prerendered HTML.
-7. **1200×630 OG image asset** — needs a designed social-share image.
+8. **1200×630 OG image asset** — needs a designed social-share image.
 
 ---
 
