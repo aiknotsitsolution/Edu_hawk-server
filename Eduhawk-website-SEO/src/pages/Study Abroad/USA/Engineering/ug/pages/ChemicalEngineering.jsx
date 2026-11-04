@@ -14,8 +14,16 @@ const branch = {
     "Study Bachelor's in Chemical Engineering in the USA after Class 12. Eligibility, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Chemical Engineering in USA for Indian Students, Best Chemical Engineering Universities in USA, Bachelor's in Chemical Engineering in USA, Study Chemical Engineering in USA After 12th, Chemical Engineering Courses in USA, Chemical Engineering Admission Requirements in USA, Chemical Engineering Tuition Fees in USA, Chemical Engineering Scholarships for Indian Students, Top Chemical Engineering Colleges in America, Chemical Engineering Eligibility for Indian Students, SAT Requirements for Chemical Engineering in USA, English Language Tests for US Universities, Career Opportunities After Chemical Engineering, Pharmaceutical and Process Engineering in USA, USA Student Visa for Indian Engineering Students",
-  heroIntro:
-    "Study Undergraduate Chemical Engineering programs in the USA integrate chemistry, physics, mathematics, and engineering principles in order to develop processes for the production of chemicals, fuels, medicines, food, and advanced materials, and the universities give students the chance to carry out practical laboratory work, take part in research, engage in process design, and work on projects that are focused on industry.",
+  heroIntro: (
+    <>
+      <strong>Study Undergraduate Chemical Engineering programs in the USA</strong>{" "}
+      integrate chemistry, physics, mathematics, and engineering principles in
+      order to develop processes for the production of chemicals, fuels,
+      medicines, food, and advanced materials, and the universities give students
+      the chance to carry out practical laboratory work, take part in research,
+      engage in process design, and work on projects that are focused on industry.
+    </>
+  ),
   heroSub:
     "Edu Hawk Worldwide helps you shortlist universities, understand admission requirements and plan your complete study-abroad journey.",
 

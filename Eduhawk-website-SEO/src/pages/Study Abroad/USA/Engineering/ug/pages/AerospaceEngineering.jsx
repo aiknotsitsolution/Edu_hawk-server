@@ -16,8 +16,20 @@ const branch = {
     "Study Bachelor's in Aerospace Engineering in the USA after Class 12. Eligibility, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Aerospace Engineering in USA for Indian Students, Best Aerospace Engineering Universities in USA, Bachelor's in Aerospace Engineering in USA, Study Aerospace Engineering in USA After 12th, Aerospace Engineering Courses in USA, Aerospace Engineering Admission Requirements in USA, Aerospace Engineering Tuition Fees in USA, Aerospace Engineering Scholarships for Indian Students, Top Aerospace Engineering Colleges in America, Aerospace Engineering Eligibility for Indian Students, SAT Requirements for Aerospace Engineering in USA, English Language Tests for US Universities, Career Opportunities After Aerospace Engineering, Aeronautical and Astronautical Engineering in USA, USA Student Visa for Indian Engineering Students",
-  heroIntro:
-    "The United States continues to serve as a leading academic institution for students interested in aircraft design, spacecraft development, aviation technology, and aerospace research activities. To help students comprehend the design, development, testing, and operating features of aircraft and spacecraft systems, undergraduate programs in aerospace engineering integrate mathematics, physics, engineering design processes, and practical learning approaches.",
+  heroIntro: (
+    <>
+      The <strong>United States</strong> continues to serve as a leading academic
+      institution for students interested in{" "}
+      <strong>
+        aircraft design, spacecraft development, aviation technology, and
+        aerospace research
+      </strong>{" "}
+      activities. To help students comprehend the design, development, testing,
+      and operating features of aircraft and spacecraft systems, undergraduate
+      programs in aerospace engineering integrate mathematics, physics,
+      engineering design processes, and practical learning approaches.
+    </>
+  ),
   heroSub:
     "Edu Hawk Worldwide helps you evaluate global study options, understand university admission requirements and prepare for your international academic journey.",
 

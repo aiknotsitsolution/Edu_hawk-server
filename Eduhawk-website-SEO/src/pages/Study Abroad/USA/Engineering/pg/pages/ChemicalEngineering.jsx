@@ -15,8 +15,19 @@ const branch = {
     "Study Master's in Chemical Engineering in the USA after your bachelor's. Eligibility, GRE policies, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Postgraduate Chemical Engineering in USA, Best Master's in Chemical Engineering Universities in USA, Master's in Chemical Engineering in USA for Indian Students, Postgraduate Chemical Engineering Courses in USA, Chemical Engineering Admission Requirements for Master's in USA, Chemical Engineering Scholarships for Indian Students, Top Graduate Chemical Engineering Colleges in America, Chemical Engineering Eligibility for Indian Students, GRE Requirements for MS in Chemical Engineering in USA, English Language Tests for US Universities, Career Opportunities After MS in Chemical Engineering",
-  heroIntro:
-    "With its cutting-edge research infrastructure, technological advancements in industrial sectors, and wide range of career opportunities in pharmaceuticals, energy production, biotechnology, chemical manufacturing, and sustainable production systems, the United States is a compelling choice for study postgraduates in chemical engineering. Specialized knowledge in chemical process engineering, materials characterisation, process design methodology, and large-scale industrial production procedures can be acquired by Indian scholars.",
+  heroIntro: (
+    <>
+      With its cutting-edge research infrastructure, technological advancements
+      in industrial sectors, and wide range of career opportunities in
+      pharmaceuticals, energy production, biotechnology, chemical manufacturing,
+      and sustainable production systems, the <strong>United States</strong> is a
+      compelling choice for{" "}
+      <strong>study postgraduates in chemical engineering</strong>. Specialized
+      knowledge in chemical process engineering, materials characterisation,
+      process design methodology, and large-scale industrial production
+      procedures can be acquired by Indian scholars.
+    </>
+  ),
   heroSub:
     "Edu Hawk Worldwide helps you shortlist universities, understand admission requirements and plan your complete study-abroad journey.",
 

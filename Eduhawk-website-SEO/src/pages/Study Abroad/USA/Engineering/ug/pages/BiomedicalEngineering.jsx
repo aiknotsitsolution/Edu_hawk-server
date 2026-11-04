@@ -16,8 +16,20 @@ const branch = {
     "Study Bachelor's in Biomedical Engineering in the USA after Class 12. Eligibility, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Biomedical Engineering in USA for Indian Students, Best Biomedical Engineering Universities in USA, Bachelor's in Biomedical Engineering in USA, Study Biomedical Engineering in USA After 12th, Biomedical Engineering Courses in USA, Biomedical Engineering Admission Requirements in USA, Biomedical Engineering Tuition Fees in USA, Biomedical Engineering Scholarships for Indian Students, Top Biomedical Engineering Colleges in America, Biomedical Engineering Eligibility for Indian Students, SAT Requirements for Biomedical Engineering in USA, English Language Tests for US Universities, Career Opportunities After Biomedical Engineering, Medical Device Engineering Courses in USA, USA Student Visa for Indian Engineering Students",
-  heroIntro:
-    "Study Undergraduate Biomedical Engineering curricula across USA universities synthesize concepts derived from engineering disciplines, biological sciences, medical practice, and technological innovation to develop novel approaches for resolving contemporary healthcare complications and facilitating advancement in medical scientific inquiry. Students develop proficiency in the domains of medical apparatus design, diagnostic instrumentation development, imaging system optimization, and the engineering of sophisticated medical technologies. Opportunities for hands-on laboratory work, rigorous scholarly research, and multidisciplinary collaborative engagement are offered by educational institution",
+  heroIntro: (
+    <>
+      <strong>Study Undergraduate Biomedical Engineering</strong> curricula across
+      USA universities synthesize concepts derived from engineering disciplines,
+      biological sciences, medical practice, and technological innovation to
+      develop novel approaches for resolving contemporary healthcare
+      complications and facilitating advancement in medical scientific inquiry.
+      Students develop proficiency in the domains of medical apparatus design,
+      diagnostic instrumentation development, imaging system optimization, and the
+      engineering of sophisticated medical technologies. Opportunities for
+      hands-on laboratory work, rigorous scholarly research, and multidisciplinary
+      collaborative engagement are offered by educational institution
+    </>
+  ),
   heroSub:
     "Edu Hawk Worldwide helps you shortlist universities, understand admission requirements and plan your complete study-abroad journey.",
 

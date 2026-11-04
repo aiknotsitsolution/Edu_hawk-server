@@ -17,8 +17,18 @@ const branch = {
     "Study Bachelor's in Mechanical Engineering in the USA after Class 12. Eligibility, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Mechanical Engineering in USA, Best Mechanical Engineering Universities in USA, Bachelor's in Mechanical Engineering in USA, Mechanical Engineering Courses in USA, Study Mechanical Engineering in USA After 12th, Mechanical Engineering Admission Requirements in USA, Eligibility for Indian Students to Study in USA, Mechanical Engineering Tuition Fees in USA, Mechanical Engineering Scholarships for Indian Students, Top Mechanical Engineering Colleges in America, SAT Requirements for Mechanical Engineering in USA, English Language Tests for US Universities, Career Opportunities After Mechanical Engineering, Automotive and Aerospace Engineering in USA, USA Student Visa for Indian Engineering Students",
-  heroIntro:
-    "The United States represents a highly sought-after destination for students studying mechanical engineering owing to its sophisticated engineering pedagogy, state-of-the-art research infrastructure, and robust industrial framework. Academic institutions integrate theoretical instruction with hands-on experience via laboratory work, engineering initiatives, design seminars, and partnerships with industry stakeholders.",
+  heroIntro: (
+    <>
+      The <strong>United States</strong> represents a highly sought-after
+      destination for{" "}
+      <strong>students studying mechanical engineering</strong> owing to its
+      sophisticated engineering pedagogy, state-of-the-art research
+      infrastructure, and robust industrial framework. Academic institutions
+      integrate theoretical instruction with hands-on experience via laboratory
+      work, engineering initiatives, design seminars, and partnerships with
+      industry stakeholders.
+    </>
+  ),
   heroSub:
     "Edu Hawk Worldwide helps you shortlist universities, understand admission requirements and plan your complete study-abroad journey.",
 

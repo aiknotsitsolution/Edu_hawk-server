@@ -15,8 +15,18 @@ const branch = {
     "Study Master's in Biomedical Engineering in the USA after graduation. Eligibility, GRE requirements, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Postgraduate Biomedical Engineering in USA for Indian Students, Top Master's in Biomedical Engineering Universities in USA, MS in Biomedical Engineering in USA, Master's in Biomedical Engineering in USA for Indian Students, Postgraduate Biomedical Engineering Courses in USA, Biomedical Engineering Admission Requirements for Master's in USA, MS in Biomedical Engineering Tuition Fees in USA, Biomedical Engineering Scholarships for Indian Students, Top Graduate Biomedical Engineering Colleges in America, Biomedical Engineering Eligibility for Indian Students, GRE Requirements for MS in Biomedical Engineering in USA, English Language Tests for US Universities, Career Opportunities After MS in Biomedical Engineering, Medical Device Engineering and Bioengineering Master's in USA, USA Student Visa for Indian Postgraduate Students",
-  heroIntro:
-    "With its cutting-edge medical technology, extensive biomedical research infrastructure, and strong interdisciplinary cooperation between the engineering, healthcare, and life sciences sectors, the United States is an attractive location for postgraduate studies in biomedical engineering. Indian students who pursue this subject can gain specific knowledge in biomaterials, medical imaging, biomechanics, medical devices, and innovative healthcare technologies.",
+  heroIntro: (
+    <>
+      With its cutting-edge medical technology, extensive biomedical research
+      infrastructure, and strong interdisciplinary cooperation between the
+      engineering, healthcare, and life sciences sectors, the{" "}
+      <strong>United States</strong> is an attractive location for{" "}
+      <strong>postgraduate studies in biomedical engineering</strong>. Indian
+      students who pursue this subject can gain specific knowledge in
+      biomaterials, medical imaging, biomechanics, medical devices, and
+      innovative healthcare technologies.
+    </>
+  ),
   heroSub:
     "Edu Hawk Worldwide helps you shortlist universities, understand admission requirements and plan your complete study-abroad journey.",
 

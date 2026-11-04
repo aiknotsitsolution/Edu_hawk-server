@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { EngineeringBranchPage } from "../../../../../../component/CoursePageKit";
 import heroImg from "../../../../../../Images/Abroad/USA/Engineering_PG/mechanical-engineering.webp";
 import gatechImg from "../../../../../../Images/Abroad/USA/Engineering_PG/MechanicalEngineeringPG/Georgia Institute of Technology.webp";
@@ -15,8 +16,19 @@ const branch = {
     "Study Master's in Mechanical Engineering in the USA. Eligibility, GRE and English requirements, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Postgraduate Mechanical Engineering in USA, Top Master's in Mechanical Engineering Universities in USA, MS in Mechanical Engineering in USA, Master's in Mechanical Engineering in USA, Postgraduate Mechanical Engineering Courses in USA, Mechanical Engineering Admission Requirements for Master's in USA, MS in Mechanical Engineering Tuition Fees in USA, Mechanical Engineering Scholarships for Indian Students, Top Graduate Mechanical Engineering Colleges in America, Mechanical Engineering Eligibility for Indian Students, GRE Requirements for MS in Mechanical Engineering in USA, English Language Tests for US Universities, Career Opportunities After MS in Mechanical Engineering",
-  heroIntro:
-    "The United States represents a highly sought-after destination for Studying  postgraduate in Mechanical Engineering, distinguished by its state-of-the-art engineering laboratories, comprehensive research infrastructure, and established partnerships with prominent sectors including manufacturing, automotive, aerospace, energy, and robotics. Indian students can cultivate specialized technical expertise and hands-on competencies through structured coursework, investigative research initiatives, and experiential laboratory-based instruction.",
+  heroIntro: (
+    <>
+      The <strong>United States</strong> represents a highly sought-after
+      destination for{" "}
+      <strong>Studying postgraduate in Mechanical Engineering</strong>,
+      distinguished by its state-of-the-art engineering laboratories,
+      comprehensive research infrastructure, and established partnerships with
+      prominent sectors including manufacturing, automotive, aerospace, energy,
+      and robotics. Indian students can cultivate specialized technical expertise
+      and hands-on competencies through structured coursework, investigative
+      research initiatives, and experiential laboratory-based instruction.
+    </>
+  ),
   heroSub:
     "Edu Hawk Worldwide helps you shortlist universities, understand admission requirements and plan your complete study-abroad journey.",
 
@@ -34,7 +46,7 @@ const branch = {
   ],
 
   coursesLead: [
-    "Indian students may select from multiple master's degree programs contingent upon their educational background and career aspirations.",
+    <>Indian students may select from multiple <strong>master's degree programs in Mechanical Engineering</strong> contingent upon their educational background and career aspirations.</>,
     "Prevalent degree options include:",
   ],
   courses: [
@@ -53,26 +65,26 @@ const branch = {
     "Energy SystemsAutomotive and Aerospace Engineering",
   ],
   coursesNote: [
-    "Frequent areas of specialization include:",
-    "Through Edu Hawk worldwide study abroad guidance, students can explore these opportunities and understand the requirements involved in pursuing Mechanical Engineering education overseas.",
+    <><strong>Frequent areas of specialization</strong> include: <strong>Thermal and Fluid Science</strong>, <strong>Machine Design and Solid Mechanics</strong>, <strong>Robotics and Automation</strong>, <strong>Advanced Manufacturing</strong>, <strong>Computational Mechanics</strong>, and <strong>Materials Science and Engineering</strong>.</>,
+    <>Through Edu Hawk worldwide study abroad guidance, students can explore these opportunities and understand the requirements involved in pursuing <strong>Mechanical Engineering education overseas</strong>. Many applicants also compare <Link to="/courses/pg/aerospace-engineering">postgraduate Aerospace Engineering</Link>{" "}and{" "}<Link to="/courses/pg/automobile-engineering">Automobile Engineering</Link>{" "}in the USA.</>,
   ],
 
   duration: [
-    "Postgraduate Mechanical Engineering curricula in the United States typically require one to two years for completion.",
+    <>Postgraduate Mechanical Engineering curricula in the <strong>United States</strong> typically require <strong>one to two years</strong> for completion.</>,
   ],
 
   eligibilityLead: [
     "Indian applicants are typically required to fulfill the following criteria:",
   ],
   eligibility: [
-    "A pertinent bachelor's degree in Mechanical Engineering or an allied engineering field.",
+    <>A pertinent <strong>bachelor's degree in Mechanical Engineering</strong> or an allied engineering field.</>,
     "Official academic transcripts and degree certificates.",
     "Minimum scholastic achievement thresholds established by the institution.",
     "English-language competency, as mandated by the program.",
-    "Graduate Record Examination (GRE) scores, contingent upon program requirements.",
-    "A comprehensive Statement of Purpose.",
+    <>Graduate Record Examination (<strong>GRE</strong>) scores, contingent upon program requirements.</>,
+    <>A comprehensive <strong>Statement of Purpose</strong>.</>,
     "Testimonial letters from academic or professional referees.",
-    "A detailed Resume or Curriculum Vitae.",
+    <>A detailed <strong>Resume or Curriculum Vitae</strong>.</>,
     "Proven involvement in academic projects, research, internships, or professional activities, as applicable",
     "Certain institutions may evaluate candidates from allied engineering disciplines provided they have successfully completed requisite coursework in mathematics and engineering fundamentals.",
   ],
@@ -92,25 +104,25 @@ const branch = {
   ],
 
   testsNote: [
-    "GRE requirements are contingent upon the institution and the particular Mechanical Engineering program under consideration. Certain universities mandate the GRE, whereas others designate it as optional or do not incorporate it into their evaluation process.",
+    <><strong>GRE requirements</strong> are contingent upon the institution and the particular Mechanical Engineering program under consideration. Certain universities mandate the <strong>GRE</strong>, whereas others designate it as optional or do not incorporate it into their evaluation process.</>,
     "Applicants must examine prerequisite competencies in disciplines including engineering mathematics, mechanics, thermodynamics, fluid mechanics, materials science, and mechanical design.",
-    "A competitive application portfolio typically encompasses academic distinctions, technical project contributions, internship participation, scholarly research involvement, endorsement letters from qualified referees, and a well-articulated Statement of Purpose delineating the applicant's scholarly objectives and professional aspirations.",
+    <>A competitive application portfolio typically encompasses <strong>academic distinctions</strong>, technical project contributions, internship participation, scholarly research involvement, endorsement letters from qualified referees, and a well-articulated <strong>Statement of Purpose</strong> delineating the applicant's scholarly objectives and professional aspirations.</>,
   ],
 
   costsLead: [
-    "The aggregate expenditure for postgraduate Mechanical Engineering programs within the United States demonstrates considerable variation contingent upon institutional selection, program duration, geographic location, and the availability of financial support mechanisms.",
+    <>The aggregate expenditure for <strong>postgraduate Mechanical Engineering programs</strong> within the United States demonstrates considerable variation contingent upon institutional selection, program duration, geographic location, and the availability of financial support mechanisms.</>,
     "Primary financial obligations encompass:",
   ],
   costs: [
-    "Tuition and institutional fees.",
-    "Residential accommodation and meal provisions.",
+    <><strong>Tuition and institutional fees</strong>.</>,
+    <><strong>Residential accommodation and meal provisions</strong>.</>,
     "Medical insurance coverage.",
     "Academic materials including textbooks, computational software, and laboratory-related expenses.",
     "Local transit and miscellaneous personal expenditures.",
     "Immigration documentation, transportation, and relocation expenses.",
   ],
   costsNote: [
-    "Prospective students are advised to project the comprehensive financial requirements for their entire degree program and conduct comparative analyses across institutions utilizing official tuition schedules and documented living expense projections. Graduate assistantships and merit-based scholarships may substantially diminish the financial obligations for qualified applicants.",
+    <>Prospective students are advised to project the comprehensive financial requirements for their entire degree program and conduct comparative analyses across institutions utilizing official <strong>tuition schedules</strong> and documented <strong>living expense</strong> projections. <strong>Graduate assistantships</strong> and <strong>merit-based scholarships</strong> may substantially diminish the financial obligations for qualified applicants.</>,
   ],
 
   scholarshipsLead: [
@@ -118,12 +130,12 @@ const branch = {
     "Available funding categories include:",
   ],
   scholarships: [
-    "Academic merit-based scholarships.",
-    "Departmental scholarships",
-    "Graduate research assistantships.",
-    "Graduate instructional assistantships.",
-    "Tuition remission programs associated with qualifying assistantships.",
-    "International scholarships administered by recognized institutions.",
+    <><strong>Academic merit-based scholarships</strong>.</>,
+    <>Departmental scholarships</>,
+    <><strong>Graduate research assistantships</strong>.</>,
+    <><strong>Graduate instructional assistantships</strong>.</>,
+    <><strong>Tuition remission</strong> programs associated with qualifying assistantships.</>,
+    <>International scholarships administered by recognized institutions.</>,
   ],
   scholarshipsNote: [
     "Financial support availability is determined by academic achievement, scholarly research focus, departmental resource allocation, and institutional regulations. Applicants should ascertain eligibility criteria for international candidates and clarify whether funding encompasses tuition, living expenses, or comprehensive coverage.",
@@ -158,8 +170,9 @@ const branch = {
     "Each university offers its own curriculum, research areas, and admission criteria. Students should verify the exact degree title, specialisations, tuition fees, and application deadlines on official university websites.",
   ],
 
-  careerIntro:
-    "A postgraduate degree facilitates the acquisition of sophisticated technical expertise requisite for professional positions within engineering design, manufacturing, research, automation, and energy systems sectors.",
+  careerIntro: (
+    <>A postgraduate degree facilitates the acquisition of <strong>sophisticated technical expertise</strong> requisite for professional positions within engineering design, manufacturing, research, automation, and energy systems sectors.</>,
+  ),
   careerLead: ["Prospective career trajectories encompass:"],
   careers: [
     "Mechanical Design Engineer",
@@ -179,19 +192,19 @@ const branch = {
   careerNote: [],
 
   visaLead: [
-    "Indian nationals admitted to accredited United States institutions typically must navigate the requisite student visa framework.",
+    <>Indian nationals admitted to accredited United States institutions typically must navigate the requisite <strong>student visa framework</strong>.</>,
     "Standard procedural components include:",
   ],
   visaSteps: [
     "Investigate academic institutions and evaluate Mechanical Engineering curricula.",
     "Verify academic prerequisites and foundational subject requirements.",
-    "Examine English-language proficiency and GRE examination criteria.",
-    "Compile official transcripts, a Statement of Purpose, academic references, and professional documentation.",
+    <>Examine <strong>English-language proficiency</strong> and <strong>GRE examination criteria</strong>. <Link to="/courses/pg/electrical-engineering">Learn about GRE requirements for Electrical Engineering</Link>.</>,
+    <>Compile official transcripts, a <strong>Statement of Purpose</strong>, academic references, and professional documentation.</>,
     "Submit completed applications in accordance with institutional deadlines.",
     "Evaluate admission decisions, projected expenditures, and financial assistance possibilities.",
     "Procure essential student documentation from the educational institution.",
-    "Remit the mandatory SEVIS fee and finalize visa documentation.",
-    "Participate in the visa interview process, when applicable, and arrange travel logistics following authorization.",
+    <>Remit the mandatory <strong>SEVIS fee</strong> and finalize visa documentation.</>,
+    <>Participate in the <strong>visa interview</strong> process, when applicable, and arrange travel logistics following authorization.</>,
     "Visa authorization remains uncertain. Applicants must adhere to prevailing United States governmental directives and institutional protocols.",
   ],
   visaNote: [],

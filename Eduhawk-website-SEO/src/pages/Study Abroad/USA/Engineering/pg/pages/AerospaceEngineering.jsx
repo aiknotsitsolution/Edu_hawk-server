@@ -15,8 +15,18 @@ const branch = {
     "Study Master's in Aerospace Engineering in the USA. Eligibility, tuition fees, top universities, scholarships, careers and the visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Postgraduate Aerospace Engineering in USA for Indian Students, Best Master's in Aerospace Engineering Universities in USA, MS in Aerospace Engineering in USA, Master's in Aerospace Engineering in USA for Indian Students, Postgraduate Aerospace Engineering Courses in USA, Aerospace Engineering Admission Requirements for Master's in USA, MS in Aerospace Engineering Tuition Fees in USA, Aerospace Engineering Scholarships for Indian Students, Top Graduate Aerospace Engineering Colleges in America, Aerospace Engineering Eligibility for Indian Students",
-  heroIntro:
-    "The United States has established itself as a premier postgraduate destination for Aerospace Engineering, distinguished by its comprehensive aerospace research infrastructure, robust aviation sector, extensive space exploration initiatives and cutting edge engineering technologies. Indian postgraduate students pursuing this discipline can acquire specialized expertise across multiple domains, including aircraft design, spacecraft systems, propulsion mechanisms, aerodynamic principles, and flight control technologies.",
+  heroIntro: (
+    <>
+      The <strong>United States</strong> has established itself as a premier{" "}
+      <strong>postgraduate destination for Aerospace Engineering</strong>,
+      distinguished by its comprehensive aerospace research infrastructure,
+      robust aviation sector, extensive space exploration initiatives and
+      cutting edge engineering technologies. Indian postgraduate students
+      pursuing this discipline can acquire specialized expertise across multiple
+      domains, including aircraft design, spacecraft systems, propulsion
+      mechanisms, aerodynamic principles, and flight control technologies.
+    </>
+  ),
   heroSub:
     "Edu Hawk Worldwide helps you evaluate global study options, understand university admission requirements and prepare for your international academic journey.",
 

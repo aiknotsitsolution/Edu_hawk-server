@@ -14,8 +14,17 @@ const branch = {
     "Study Bachelor's in Electronics and Communication Engineering (ECE) in the USA after Class 12. Eligibility, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Electronics and Communication Engineering in USA for Indian Students, Best ECE Universities in USA, Bachelor's in Electronics and Communication Engineering in USA, Study ECE in USA After 12th, Electrical and Computer Engineering Courses in USA, ECE Admission Requirements in USA, ECE Tuition Fees in USA, ECE Scholarships for Indian Students, Top Electronics Engineering Colleges in America, ECE Eligibility for Indian Students, SAT Requirements for Engineering in USA, English Language Tests for US Universities, Career Opportunities After ECE, Telecommunications and Semiconductor Engineering in USA, USA Student Visa for Indian Engineering Students",
-  heroIntro:
-    "The United States provides undergraduate engineering curricula encompassing electronic device technology, communication network infrastructure, wireless technology systems and digital system architecture. Students establish foundational competencies in engineering principles while pursuing specialized knowledge domains through elective coursework, laboratory work, and investigative research endeavors.",
+  heroIntro: (
+    <>
+      The <strong>United States</strong> provides{" "}
+      <strong>undergraduate engineering curricula</strong> encompassing electronic
+      device technology, communication network infrastructure, wireless technology
+      systems and digital system architecture. Students establish foundational
+      competencies in engineering principles while pursuing specialized knowledge
+      domains through elective coursework, laboratory work, and investigative
+      research endeavors.
+    </>
+  ),
   heroSub:
     "Edu Hawk Worldwide helps you shortlist universities, understand admission requirements and plan your complete study-abroad journey.",
 

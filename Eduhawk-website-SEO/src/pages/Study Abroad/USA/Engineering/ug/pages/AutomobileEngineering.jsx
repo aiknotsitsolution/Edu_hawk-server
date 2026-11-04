@@ -15,8 +15,18 @@ const branch = {
     "Study Bachelor's in Automobile Engineering in the USA after Class 12. Eligibility, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Automobile Engineering in USA for Indian Students, Best Automotive Engineering Universities in USA, Bachelor's in Automobile Engineering in USA, Study Automobile Engineering in USA After 12th, Automotive Engineering Courses in USA, Automobile Engineering Admission Requirements in USA, Automobile Engineering Tuition Fees in USA, Automotive Engineering Scholarships for Indian Students, Top Automotive Engineering Colleges in America, Automobile Engineering Eligibility for Indian Students, SAT Requirements for Automotive Engineering in USA, English Language Tests for US Universities, Career Opportunities After Automobile Engineering, Electric Vehicle Engineering Courses in USA, USA Student Visa for Indian Engineering Students",
-  heroIntro:
-    "Undergraduate engineering courses in the United States cover areas such as automotive technology, vehicle design, manufacturing, and mobility systems. Students gain knowledge of the design, development, testing, and improvement of vehicles by means of engineering principles, hands-on laboratory work, and projects that are oriented towards the industry. A number of universities provide subjects related to automotive technology through their Mechanical Engineering, Automotive Engineering, or similar programs.",
+  heroIntro: (
+    <>
+      <strong>Undergraduate engineering courses in the United States</strong> cover
+      areas such as automotive technology, vehicle design, manufacturing, and
+      mobility systems. Students gain knowledge of the design, development,
+      testing, and improvement of vehicles by means of engineering principles,
+      hands-on laboratory work, and projects that are oriented towards the
+      industry. A number of universities provide subjects related to automotive
+      technology through their Mechanical Engineering, Automotive Engineering, or
+      similar programs.
+    </>
+  ),
   heroSub:
     "Edu Hawk Worldwide helps you explore international study options, understand university admission standards and prepare for your overseas education journey.",
 

@@ -15,8 +15,16 @@ const branch = {
     "Study Bachelor's in Civil Engineering in the USA after Class 12. Eligibility, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Civil Engineering in USA for Indian Students, Best Civil Engineering Universities in USA, Bachelor's in Civil Engineering in USA, Study Civil Engineering in USA After 12th, Civil Engineering Courses in USA, Civil Engineering Admission Requirements in USA, Civil Engineering Tuition Fees in USA, Civil Engineering Scholarships for Indian Students, Top Civil Engineering Colleges in America, Civil Engineering Eligibility for Indian Students, SAT Requirements for Civil Engineering in USA, English Language Tests for US Universities, Career Opportunities After Civil Engineering, Structural Engineering and Construction Management in USA, USA Student Visa for Civil Engineering Students",
-  heroIntro:
-    "Undergraduate Civil Engineering programs in the US combine fundamental engineering concepts with hands-on learning, analysis of modern infrastructure, and chances for intellectual inquiry.. Participants acquire competencies in planning, designing, constructing, and preserving built environments including structures, spans, thoroughfares, hydraulic installations, and mobility networks.",
+  heroIntro: (
+    <>
+      <strong>Undergraduate Civil Engineering programs in the US</strong> combine
+      fundamental engineering concepts with hands-on learning, analysis of modern
+      infrastructure, and chances for intellectual inquiry.. Participants acquire
+      competencies in planning, designing, constructing, and preserving built
+      environments including structures, spans, thoroughfares, hydraulic
+      installations, and mobility networks.
+    </>
+  ),
   heroSub:
     "Edu Hawk Worldwide helps you shortlist universities, understand admission requirements and plan your complete study-abroad journey.",
 

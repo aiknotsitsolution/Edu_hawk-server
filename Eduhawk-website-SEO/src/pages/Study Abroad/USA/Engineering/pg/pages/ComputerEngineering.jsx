@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { EngineeringBranchPage } from "../../../../../../component/CoursePageKit";
 import heroImg from "../../../../../../Images/Abroad/USA/Engineering_PG/computer-engineering.webp";
 import cmuImg from "../../../../../../Images/Abroad/USA/Engineering_PG/ComputerEngineeringPG/Carnegie Mellon University.webp";
@@ -15,12 +16,21 @@ const branch = {
     "Study Master's in Computer Engineering in the USA after graduation. Eligibility, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Postgraduate Computer Engineering in USA for Indian Students, Best Master's in Computer Engineering Universities in USA, MS in Computer Engineering in USA, Master's in Computer Engineering in USA for Indian Students, Postgraduate Computer Engineering Courses in USA, Computer Engineering Admission Requirements for Master's in USA, MS in Computer Engineering Tuition Fees in USA, Computer Engineering Scholarships for Indian Students, Top Graduate Computer Engineering Colleges in America, Computer Engineering Eligibility for Indian Students, GRE Requirements for MS in Computer Engineering in USA, English Language Tests for US Universities, Career Opportunities After MS in Computer Engineering, Embedded Systems and Hardware Engineering Master's in USA, USA Student Visa for Indian Postgraduate Students",
-  heroIntro:
-    "The United States represents a premier destination for Study postgraduate Computer Engineering education, distinguished by its state-of-the-art research infrastructure, robust technology sector, and industry-aligned pedagogical approaches. Graduate students have the opportunity to advance their expertise in computer hardware, software systems, embedded computing, computer architecture, and cutting-edge technological innovations.",
+  heroIntro: (
+    <>
+      The <strong>United States</strong> represents a premier destination for{" "}
+      <strong>Study postgraduate Computer Engineering education</strong>,
+      distinguished by its state-of-the-art research infrastructure, robust
+      technology sector, and industry-aligned pedagogical approaches. Graduate
+      students have the opportunity to advance their expertise in computer
+      hardware, software systems, embedded computing, computer architecture, and
+      cutting-edge technological innovations.
+    </>
+  ),
   heroSub:
     "Edu Hawk Worldwide helps you shortlist universities, understand admission requirements and plan your complete study-abroad journey.",
 
-  whyLead: ["Principal advantages encompass:"],
+  whyLead: [<strong>Principal advantages encompass:</strong>],
   whyPoints: [
     "Access to sophisticated computing laboratories and research infrastructure.",
     "Opportunities to investigate artificial intelligence, robotics, and embedded systems.",
@@ -34,7 +44,7 @@ const branch = {
   ],
 
   coursesLead: [
-    "Indian students may select master's degree programs aligned with their academic preparation and professional aspirations.",
+    <>Indian students may select <strong>master's degree programs in Computer Engineering</strong> aligned with their academic preparation and professional aspirations.</>,
     "Prevalent degree offerings include:",
   ],
   courses: [
@@ -45,27 +55,27 @@ const branch = {
     "Master of Science in Embedded Systems, where applicable",
   ],
   coursesNote: [
-    "Programs frequently provide specializations in computer architecture, integrated circuits, embedded systems, robotics, hardware security, and intelligent computing. Degree nomenclature and curricular options differ across institutions.",
+    <>Programs frequently provide specializations in <strong>computer architecture</strong>, integrated circuits, <strong>embedded systems</strong>, robotics, <strong>hardware security</strong>, and intelligent computing. Degree nomenclature and curricular options differ across institutions. Students who prefer a related pathway often also compare{" "}<Link to="/courses/pg/electrical-engineering">postgraduate Electrical Engineering</Link>{" "}and{" "}<Link to="/courses/pg/electronics-communication">Electronics &amp; Communication Engineering</Link>{" "}in the USA.</>,
   ],
 
   duration: [
-    "Postgraduate Computer Engineering programs throughout the United States typically require one to two years for completion.",
+    <>Postgraduate Computer Engineering programs throughout the <strong>United States</strong> typically require <strong>one to two years</strong> for completion.</>,
     "Program length is contingent upon credit requirements, research obligations, internship participation, and whether the curriculum emphasizes thesis-based or coursework-based completion pathways.",
-    "Students engage with advanced coursework encompassing computer architecture, embedded systems, digital design, operating systems, hardware-software integration, and semiconductor technologies.",
+    <>Students engage with advanced coursework encompassing <strong>computer architecture</strong>, <strong>embedded systems</strong>, digital design, operating systems, <strong>hardware-software integration</strong>, and semiconductor technologies.</>,
   ],
 
   eligibilityLead: [
     "Indian applicants are typically required to fulfill the following criteria:",
   ],
   eligibility: [
-    "Possession of a relevant bachelor's degree in Computer Engineering, Electrical Engineering, Electronics Engineering, Computer Science, or an allied field.",
+    <>Possession of a relevant bachelor's degree in <strong>Computer Engineering</strong>, <strong>Electrical Engineering</strong>, Electronics Engineering, <strong>Computer Science</strong>, or an allied field.</>,
     "Official academic transcripts and degree certificates.",
     "Academic achievement meeting the minimum standards established by the institution.",
     "Demonstration of English-language competency where mandated.",
-    "Graduate Record Examination (GRE) scores, contingent upon program requirements.",
-    "A comprehensive Statement of Purpose.",
+    <>Graduate Record Examination (<strong>GRE</strong>) scores, contingent upon program requirements.</>,
+    <>A comprehensive <strong>Statement of Purpose</strong>.</>,
     "References from academic or professional recommenders.",
-    "A detailed Resume or Curriculum Vitae.",
+    <>A detailed <strong>Resume or Curriculum Vitae</strong>.</>,
     "Documentation of pertinent project work, scholarly research, or professional engagement, as applicable.",
   ],
 
@@ -84,25 +94,25 @@ const branch = {
   ],
 
   testsNote: [
-    "GRE requirements demonstrate considerable variation across institutions and postgraduate Computer Engineering curricula. Certain universities mandate GRE scores, whereas others designate the examination as optional or exclude it from consideration.",
+    <><strong>GRE requirements</strong> demonstrate considerable variation across institutions and postgraduate Computer Engineering curricula. Certain universities mandate <strong>GRE scores</strong>, whereas others designate the examination as optional or exclude it from consideration.</>,
     "Applicants must additionally examine prerequisite competencies in mathematics, programming, electronics, computer architecture, and foundational engineering principles.",
     "Admission determinations may incorporate evaluation of academic performance, pertinent project contributions, scholarly research experience, professional work history, letters of recommendation, and the Statement of Purpose.",
   ],
 
   costsLead: [
-    "The expenses associated with pursuing a postgraduate degree in Computer Engineering within the United States are contingent upon multiple factors, including institutional selection, program length, geographic location, and the availability of financial resources.",
+    <>The expenses associated with pursuing a <strong>postgraduate degree in Computer Engineering</strong> within the United States are contingent upon multiple factors, including institutional selection, program length, geographic location, and the availability of financial resources.</>,
     "Primary cost components encompass:",
   ],
   costs: [
-    "Tuition and institutional fees.",
-    "Residential accommodation and meal provisions.",
-    "Medical insurance coverage.",
+    <><strong>Tuition</strong> and institutional fees.</>,
+    <><strong>Residential accommodation and meal provisions</strong>.</>,
+    <>Medical insurance coverage.</>,
     "Educational materials, technological equipment, and academic resources.",
     "Travel expenses and miscellaneous personal expenditures.",
     "Immigration documentation, airfare, and relocation expenses.",
   ],
   costsNote: [
-    "Prospective students are advised to evaluate the comprehensive program expenditure rather than focusing exclusively on tuition costs. Current fee schedules and living expense projections should be obtained directly from institutional websites.",
+    <>Prospective students are advised to evaluate the comprehensive program expenditure rather than focusing exclusively on <strong>tuition costs</strong>. Current fee schedules and <strong>living expense</strong> projections should be obtained directly from institutional websites.</>,
   ],
 
   scholarshipsLead: [
@@ -110,11 +120,11 @@ const branch = {
     "Available mechanisms include:",
   ],
   scholarships: [
-    "Academic merit-based scholarships.",
-    "Disciplinary-specific scholarship programs.",
-    "Graduate research fellowship positions.",
-    "Graduate instructional assistant positions.",
-    "Tuition remission provisions linked to qualifying assistantships.",
+    <><strong>Academic merit-based scholarships</strong>.</>,
+    <>Disciplinary-specific scholarship programs.</>,
+    <><strong>Graduate research fellowship</strong> positions.</>,
+    <><strong>Graduate instructional assistant</strong> positions.</>,
+    <><strong>Tuition remission</strong> provisions linked to qualifying assistantships.</>,
     "Financial support from recognized external organizations.",
   ],
   scholarshipsNote: [
@@ -166,7 +176,7 @@ const branch = {
     "Research and Development Engineer",
   ],
   careerNote: [
-    "Career advancement prospects are contingent upon technical proficiency, pertinent professional experience, institutional requirements, and relevant work authorization status. Certain advanced positions may necessitate supplementary eligibility criteria.",
+    <>Career advancement prospects are contingent upon <strong>technical proficiency</strong>, pertinent professional experience, institutional requirements, and relevant work authorization status. Certain advanced positions may necessitate supplementary eligibility criteria.</>,
   ],
 
   visaLead: [
@@ -174,15 +184,15 @@ const branch = {
     "Standard procedural components include:",
   ],
   visaSteps: [
-    "Investigate academic institutions and evaluate postgraduate Computer Engineering curricula.",
-    "Verify academic prerequisites and foundational subject requirements.",
-    "Examine English-language proficiency standards and Graduate Record Examination (GRE) prerequisites.",
-    "Assemble official transcripts, a comprehensive Statement of Purpose, academic recommendation letters, and a professional resume.",
-    "Submit completed applications in accordance with institutional deadlines.",
-    "Evaluate financial commitments, financial assistance options, and admissions decisions. .",
-    "Procure essential student documentation from the academic institution.",
-    "Remit the requisite SEVIS fee and finalize visa application materials.",
-    "Participate in the visa interview process, when applicable, and make travel arrangements following authorization.",
+    <>Investigate <strong>academic institutions</strong> and evaluate postgraduate <strong>Computer Engineering curricula</strong>.</>,
+    <>Verify <strong>academic prerequisites</strong> and <strong>foundational subject requirements</strong>.</>,
+    <>Examine <strong>English-language proficiency</strong> standards and <strong>Graduate Record Examination (GRE)</strong> prerequisites. <Link to="/courses/pg/electrical-engineering">Learn about GRE requirements for Electrical Engineering</Link>.</>,
+    <>Assemble official <strong>transcripts</strong>, a comprehensive <strong>Statement of Purpose</strong>, academic <strong>recommendation letters</strong>, and a professional <strong>resume</strong>.</>,
+    <>Submit completed applications in accordance with <strong>institutional deadlines</strong>.</>,
+    <>Evaluate <strong>financial commitments</strong>, <strong>financial assistance</strong> options, and <strong>admissions decisions</strong>.</>,
+    <>Procure essential <strong>student documentation</strong> from the academic institution.</>,
+    <>Remit the requisite <strong>SEVIS fee</strong> and finalize <strong>visa application materials</strong>.</>,
+    <>Participate in the <strong>visa interview</strong> process, when applicable, and make <strong>travel arrangements</strong> following authorization.</>,
   ],
   visaNote: [
     "Visa authorization remains contingent and not assured. Applicants must adhere to prevailing United States governmental directives and institutional guidance.",

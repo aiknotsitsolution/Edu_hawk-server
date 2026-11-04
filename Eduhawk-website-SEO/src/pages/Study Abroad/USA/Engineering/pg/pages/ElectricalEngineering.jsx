@@ -15,8 +15,17 @@ const branch = {
     "Study Master's in Electrical Engineering in the USA after graduation. Eligibility, GRE requirements, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Postgraduate Electrical Engineering in USA, Best Master's in Electrical Engineering Universities in USA, Master's in Electrical Engineering in USA for Indian Students, Postgraduate Electrical Engineering Courses in USA, Electrical Engineering Admission Requirements for Master's in USA, MS in Electrical Engineering Tuition Fees in USA, Electrical Engineering Scholarships for Indian Students, Top Graduate Electrical Engineering Colleges in America, Electrical Engineering Eligibility for Indian Students, GRE Requirements for MS in Electrical Engineering in USA, English Language Tests for US Universities, Career Opportunities After Postgraduate Electrical Engineering, USA Student Visa for Electrical Engineering Students",
-  heroIntro:
-    "The United States represents a premier location for Study postgraduate iin Electrical Engineering, distinguished by its state-of-the-art research infrastructure, innovation-driven industrial sectors, and comprehensive engineering curricula. Indian scholars have the opportunity to develop extensive expertise in electrical systems, power generation, electronics, control systems, semiconductor technologies, and renewable energy.",
+  heroIntro: (
+    <>
+      The <strong>United States</strong> represents a premier location for{" "}
+      <strong>Study postgraduate in Electrical Engineering</strong>, distinguished
+      by its state-of-the-art research infrastructure, innovation-driven
+      industrial sectors, and comprehensive engineering curricula. Indian scholars
+      have the opportunity to develop extensive expertise in electrical systems,
+      power generation, electronics, control systems, semiconductor technologies,
+      and renewable energy.
+    </>
+  ),
   heroSub:
     "Edu Hawk Worldwide helps you shortlist universities, understand admission requirements and plan your complete study-abroad journey.",
 

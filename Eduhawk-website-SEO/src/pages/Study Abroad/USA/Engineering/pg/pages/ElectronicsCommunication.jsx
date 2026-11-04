@@ -15,8 +15,21 @@ const branch = {
     "Study Master's (MS) in Electronics and Communication Engineering (ECE) in the USA after graduation. Eligibility, GRE requirements, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Postgraduate Electronics and Communication Engineering in USA for Indian Students, Best Master's in Electronics and Communication Engineering Universities in USA, Postgraduate Electronics and Communication Engineering Courses in USA, ECE Admission Requirements for Master's in USA, MS in Electronics and Communication Engineering Tuition Fees in USA, ECE Scholarships for Indian Students, Top Graduate Electronics and Communication Engineering Colleges in America, USA Student Visa for Indian Postgraduate Students, VLSI and Semiconductor Engineering Masters in USA, Wireless Communication and IoT Specializations in USA",
-  heroIntro:
-    "With its cutting-edge research infrastructure, thriving semiconductor industry, advanced communication technologies, and ongoing technological innovation in the electronics field, the United States is a compelling choice for postgraduate study in Electronics and Communication Engineering. Indian students have the chance to develop advanced skills in fields such as embedded systems architecture, wireless communication systems, microelectronics manufacturing, signal processing techniques, and modern networking paradigms.",
+  heroIntro: (
+    <>
+      With its cutting-edge research infrastructure, thriving semiconductor
+      industry, advanced communication technologies, and ongoing technological
+      innovation in the electronics field, the <strong>United States</strong> is a
+      compelling choice for{" "}
+      <strong>
+        postgraduate study in Electronics and Communication Engineering
+      </strong>
+      . Indian students have the chance to develop advanced skills in fields such
+      as embedded systems architecture, wireless communication systems,
+      microelectronics manufacturing, signal processing techniques, and modern
+      networking paradigms.
+    </>
+  ),
   heroSub:
     "Edu Hawk Worldwide helps you shortlist universities, understand admission requirements and plan your complete study-abroad journey.",
 

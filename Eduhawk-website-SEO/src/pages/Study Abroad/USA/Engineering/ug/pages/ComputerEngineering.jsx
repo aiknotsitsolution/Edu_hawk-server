@@ -14,8 +14,17 @@ const branch = {
     "Study Bachelor's in Computer Engineering in the USA after Class 12. Eligibility, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Computer Engineering in USA for Indian Students, Best Computer Engineering Universities in USA, Bachelor's in Computer Engineering in USA, Computer Engineering Courses in USA, Study Computer Engineering in USA After 12th, Computer Engineering Admission Requirements in USA, Computer Engineering Tuition Fees in USA, Computer Engineering Scholarships for Indian Students, Career Opportunities After Computer Engineering",
-  heroIntro:
-    "The United States represents a preeminent destination for scholars studying computer engineering distinguished by its sophisticated technological infrastructure, abundant research prospects, and industry-aligned pedagogical frameworks. Academic institutions within the United States integrate rigorous theoretical foundations with experiential learning methodologies, encompassing laboratory investigations, technical design projects, and professional internship placements.",
+  heroIntro: (
+    <>
+      The <strong>United States</strong> represents a preeminent destination for{" "}
+      <strong>scholars studying computer engineering</strong> distinguished by its
+      sophisticated technological infrastructure, abundant research prospects, and
+      industry-aligned pedagogical frameworks. Academic institutions within the
+      United States integrate rigorous theoretical foundations with experiential
+      learning methodologies, encompassing laboratory investigations, technical
+      design projects, and professional internship placements.
+    </>
+  ),
   heroSub:
     "Edu Hawk Worldwide helps you shortlist universities, understand admission requirements and plan your complete study-abroad journey.",
 

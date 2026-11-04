@@ -15,8 +15,18 @@ const branch = {
     "Study Bachelor's in Electrical Engineering in the USA after Class 12. Eligibility, tuition fees, top universities, scholarships, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Electrical Engineering in USA for Indian Students, Best Electrical Engineering Universities in USA, Bachelor's in Electrical Engineering in USA, Study Electrical Engineering in USA After 12th, Electrical Engineering Courses in USA, Electrical Engineering Admission Requirements in USA, Electrical Engineering Tuition Fees in USA, Electrical Engineering Scholarships for Indian Students, Top Electrical Engineering Colleges in America, Electrical Engineering Eligibility for Indian Students, SAT Requirements for Electrical Engineering in USA, English Language Tests for US Universities, Career Opportunities After Electrical Engineering, Power Systems and Renewable Energy Engineering in USA, USA Student Visa for Electrical Engineering Students",
-  heroIntro:
-    "The United States provides undergraduate Electrical Engineering curricula that integrate theoretical scientific principles, hands-on laboratory instruction, and contemporary engineering methodologies. Students acquire competencies in designing, developing, evaluating, and operating electrical and electronic apparatus employed in electricity generation, communication networks, industrial control, sustainable energy systems, and cutting-edge technological innovations.",
+  heroIntro: (
+    <>
+      The <strong>United States</strong> provides{" "}
+      <strong>undergraduate Electrical Engineering</strong> curricula that integrate
+      theoretical scientific principles, hands-on laboratory instruction, and
+      contemporary engineering methodologies. Students acquire competencies in
+      designing, developing, evaluating, and operating electrical and electronic
+      apparatus employed in electricity generation, communication networks,
+      industrial control, sustainable energy systems, and cutting-edge
+      technological innovations.
+    </>
+  ),
   heroSub:
     "Edu Hawk Worldwide helps you shortlist universities, understand admission requirements and plan your complete study-abroad journey.",
 

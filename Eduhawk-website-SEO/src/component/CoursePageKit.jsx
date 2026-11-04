@@ -10,6 +10,7 @@
  * passed in by the pages is rendered as-is (content is never modified).
  */
 import React, { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 import SeoHead from "./SeoHead";
 
 /* ------------------------------------------------------------------ */
@@ -481,6 +482,10 @@ export const StepTimeline = ({ steps, center }) => (
             <p className="text-[15px] text-slate-700 leading-relaxed pt-1.5">
               {s}
             </p>
+          ) : React.isValidElement(s) ? (
+            <p className="text-[15px] text-slate-700 leading-relaxed pt-1.5">
+              {s}
+            </p>
           ) : (
             <>
               {s.title && (
@@ -590,6 +595,85 @@ export const CtaBand = ({ title, desc }) => (
 /* ================================================================== */
 /*  ENGINEERING BRANCH PAGE (UG / PG)                                  */
 /* ================================================================== */
+
+/* Canonical list of engineering branches, used to build the internal
+   "explore other specialisations" cross-links on every branch page.
+   Slugs match the routes registered in src/routes/routes.jsx. */
+const ENGINEERING_BRANCHES = [
+  { name: "Computer Engineering", slug: "computer-engineering" },
+  { name: "Mechanical Engineering", slug: "mechanical-engineering" },
+  { name: "Civil Engineering", slug: "civil-engineering" },
+  { name: "Electrical Engineering", slug: "electrical-engineering" },
+  { name: "Electronics & Communication", slug: "electronics-communication" },
+  { name: "Chemical Engineering", slug: "chemical-engineering" },
+  { name: "Aerospace Engineering", slug: "aerospace-engineering" },
+  { name: "Biomedical Engineering", slug: "biomedical-engineering" },
+  { name: "Automobile Engineering", slug: "automobile-engineering" },
+];
+
+/* Internal-linking block: links back to the parent engineering landing
+   page and across to the sibling specialisations (same level). */
+const RelatedBranches = ({ level, currentSlug }) => {
+  const isPG = level === "PG";
+  const levelText = isPG ? "Postgraduate" : "Undergraduate";
+  const base = isPG ? "/courses/pg" : "/courses/ug";
+  const siblings = ENGINEERING_BRANCHES.filter((b) => b.slug !== currentSlug);
+
+  return (
+    <section className="py-16 sm:py-20 bg-slate-50">
+      <div className="max-w-6xl mx-auto px-6">
+        <EhpHead
+          eyebrow="Explore more"
+          title={`Other ${levelText} Engineering Specialisations in the USA`}
+          desc={[
+            `Compare ${levelText.toLowerCase()} engineering branches, or return to the full ${levelText.toLowerCase()} engineering in the USA guide for Indian students.`,
+          ]}
+          descClass="text-slate-500 text-[15px] leading-relaxed max-w-3xl"
+        />
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <Link
+            to={`${base}/engineering`}
+            className="group ehp-card bg-white border border-blue-200 rounded-xl p-5 no-underline"
+          >
+            <div className="flex items-center justify-between mb-2">
+              <h3 className="font-semibold text-slate-900 group-hover:text-blue-600 transition-colors">
+                {levelText} Engineering in the USA
+              </h3>
+              <span className="text-slate-300 group-hover:text-blue-600 transition-colors">
+                →
+              </span>
+            </div>
+            <p className="text-sm text-slate-500 leading-relaxed">
+              Browse every {levelText.toLowerCase()} engineering branch, process
+              and career pathway in one place.
+            </p>
+          </Link>
+          {siblings.map((b) => (
+            <Link
+              key={b.slug}
+              to={`${base}/${b.slug}`}
+              className="group ehp-card bg-white border border-slate-200 rounded-xl p-5 no-underline"
+            >
+              <div className="flex items-center justify-between mb-2">
+                <h3 className="font-semibold text-slate-900 group-hover:text-blue-600 transition-colors">
+                  {b.name}
+                </h3>
+                <span className="text-slate-300 group-hover:text-blue-600 transition-colors">
+                  →
+                </span>
+              </div>
+              <p className="text-sm text-slate-500 leading-relaxed">
+                {levelText} {b.name} in the USA — eligibility, fees, universities
+                and careers.
+              </p>
+            </Link>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
 export const EngineeringBranchPage = ({
   branch,
   level,
@@ -864,6 +948,9 @@ export const EngineeringBranchPage = ({
           </div>
         </div>
       </section>
+
+      {/* INTERNAL LINKING — related branches */}
+      <RelatedBranches level={level} currentSlug={branch.slug} />
 
       {/* CTA */}
       <CtaBand

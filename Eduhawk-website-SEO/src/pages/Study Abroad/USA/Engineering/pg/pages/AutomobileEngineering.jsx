@@ -15,8 +15,18 @@ const branch = {
     "Study Master's in Automobile Engineering in the USA. Eligibility, tuition fees, top universities, scholarships, specialisations, careers and visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Automobile Engineering in USA for Indian Students, Best Master's in Automotive Engineering Universities in USA, Master's in Automobile Engineering in USA for Indian Students, Postgraduate Automobile Engineering Courses in USA, Automotive Engineering Admission Requirements for Master's in USA, MS in Automotive Engineering Tuition Fees in USA, Automobile Engineering Scholarships for Indian Students, Top Graduate Automotive Engineering Colleges in America, Automobile Engineering Eligibility for Indian Students, GRE Requirements for MS in Automotive Engineering in USA, English Language Tests for US Universities, Career Opportunities After MS in Automotive Engineering, Electric Vehicle Engineering Master's Programs in USA, USA Student Visa for Indian Postgraduate Students",
-  heroIntro:
-    "The United States represents a compelling option for postgraduate studies in Automobile Engineering, distinguished by its world-class automotive research infrastructure, robust vehicle manufacturing sector, and pioneering advancements in electric mobility, autonomous driving technologies, and intelligent transportation systems. Indian scholars can acquire specialized expertise in vehicle design, automotive electronics, powertrain systems, and cutting-edge mobility technologies.",
+  heroIntro: (
+    <>
+      The <strong>United States</strong> represents a compelling option for{" "}
+      <strong>postgraduate studies in Automobile Engineering</strong>,
+      distinguished by its world-class automotive research infrastructure, robust
+      vehicle manufacturing sector, and pioneering advancements in electric
+      mobility, autonomous driving technologies, and intelligent transportation
+      systems. Indian scholars can acquire specialized expertise in vehicle
+      design, automotive electronics, powertrain systems, and cutting-edge
+      mobility technologies.
+    </>
+  ),
   heroSub:
     "Edu Hawk Worldwide helps you explore international study options, understand university admission standards and prepare for your overseas education journey.",
 

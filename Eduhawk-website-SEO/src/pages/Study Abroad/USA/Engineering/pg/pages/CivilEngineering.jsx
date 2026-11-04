@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { EngineeringBranchPage } from "../../../../../../component/CoursePageKit";
 import heroImg from "../../../../../../Images/Abroad/USA/Engineering_PG/civil-engineering.webp";
 import gatechImg from "../../../../../../Images/Abroad/USA/Engineering_PG/CivilEngineeringPG/Georgia Institute of Technology.webp";
@@ -16,8 +17,19 @@ const branch = {
     "Study a Master's (MS or MEng) in Civil Engineering in the USA after graduation. Eligibility, GRE, tuition fees, top universities, scholarships, specialisations, careers and the visa process for Indian students with Edu Hawk Worldwide.",
   keywords:
     "Study Postgraduate Civil Engineering in USA, Best Master's in Civil Engineering Universities in USA, Master's in Civil Engineering in USA, Postgraduate Civil Engineering Courses in USA, Civil Engineering Admission Requirements for Master's in USA, MS in Civil Engineering Tuition Fees in USA, Civil Engineering Scholarships for Indian Students, Top Graduate Civil Engineering Colleges in America, Civil Engineering Eligibility for Indian Students, GRE Requirements for MS in Civil Engineering in USA, English Language Tests for US Universities, Career Opportunities After MS in Civil Engineering, Structural and Construction Engineering Master's in USA, USA Student Visa for Indian Postgraduate Students",
-  heroIntro:
-    "The United States represents a highly sought-after destination for Study postgraduate in Civil Engineering, distinguished by its state-of-the-art infrastructure, comprehensive research facilities, cutting-edge engineering technologies, and rigorous specialized academic curricula. Indian scholars possess the opportunity to cultivate advanced competencies across structural design, transportation systems, environmental engineering, construction management, and sustainable infrastructure development.",
+  heroIntro: (
+    <>
+      The <strong>United States</strong> represents a highly sought-after
+      destination for{" "}
+      <strong>Study postgraduate in Civil Engineering</strong>, distinguished by
+      its state-of-the-art infrastructure, comprehensive research facilities,
+      cutting-edge engineering technologies, and rigorous specialized academic
+      curricula. Indian scholars possess the opportunity to cultivate advanced
+      competencies across structural design, transportation systems,
+      environmental engineering, construction management, and sustainable
+      infrastructure development.
+    </>
+  ),
   heroSub:
     "Edu Hawk Worldwide helps you shortlist universities, understand admission requirements and plan your complete study-abroad journey.",
 
@@ -57,26 +69,28 @@ const branch = {
     "Sustainable and Smart Infrastructure",
     "Construction Materials and Engineering",
   ],
-  coursesNote: ["Common specialisations include:"],
+  coursesNote: [
+    <>Common specialisations include: <strong>Structural Engineering</strong>, <strong>Geotechnical Engineering</strong>, <strong>Transportation Engineering</strong>, <strong>Environmental Engineering</strong>, and <strong>Construction Management</strong>. Students interested in infrastructure often also compare <Link to="/courses/pg/mechanical-engineering">postgraduate Mechanical Engineering</Link> in the USA.</>,
+  ],
 
   duration: [
-    "Postgraduate Civil Engineering programs within the United States typically require a duration of one to two years for completion.",
+    <>Postgraduate Civil Engineering programs within the <strong>United States</strong> typically require a duration of <strong>one to two years</strong> for completion.</>,
     "The specific timeframe is contingent upon institutional policies, credit hour requirements, chosen area of specialization, and the student's decision to pursue either a thesis-oriented or course-based academic pathway.",
-    "Students may engage in coursework encompassing advanced structural analysis, geotechnical design, transportation planning, environmental systems, construction project management, and infrastructure modelling.",
+    <>Students may engage in coursework encompassing advanced structural analysis, <strong>geotechnical design</strong>, transportation planning, environmental systems, construction project management, and infrastructure modelling.</>,
   ],
 
   eligibilityLead: [
     "Indian students are generally expected to satisfy the following admission criteria:",
   ],
   eligibility: [
-    "A bachelor's degree in Civil Engineering or an allied discipline.",
+    <>A bachelor's degree in <strong>Civil Engineering</strong> or an allied discipline.</>,
     "Official academic transcripts and degree certificates.",
     "The institution's minimum requirements for academic success.",
     "English-language proficiency, where mandated.",
-    "Graduate Record Examination (GRE) scores, if stipulated by the program.",
-    "Statement of Purpose.",
-    "Letters of Recommendation.",
-    "Resume or Curriculum Vitae.",
+    <>Graduate Record Examination (<strong>GRE</strong>) scores, if stipulated by the program.</>,
+    <>Statement of Purpose.</>,
+    <>Letters of Recommendation.</>,
+    <>Resume or Curriculum Vitae.</>,
     "Relevant academic projects, internship experience, research endeavors, or professional background, where pertinent.",
   ],
 
@@ -94,24 +108,24 @@ const branch = {
   englishNote: [],
 
   testsNote: [
-    "Graduate Record Examination (GRE) prerequisites demonstrate considerable variation across institutions. Certain Civil Engineering graduate programs mandate GRE examination scores whereas others designate the assessment as optional or exclude it from admissions considerations.",
+    <><strong>Graduate Record Examination (GRE)</strong> prerequisites demonstrate considerable variation across institutions. Certain Civil Engineering graduate programs mandate GRE examination scores whereas others designate the assessment as optional or exclude it from admissions considerations.</>,
     "Prospective applicants must examine the specific academic prerequisites corresponding to their intended specialization. For instance, Structural Engineering specializations typically necessitate comprehensive competency in mechanics and structural analysis, whereas Environmental Engineering specializations generally prioritize chemistry, fluid mechanics, and environmental systems knowledge.",
   ],
 
   costsLead: [
-    "Postgraduate Civil Engineering program costs in the United States fluctuate based on institutional affiliation, geographic location, curriculum duration, and available financial support mechanisms.",
+    <>Postgraduate Civil Engineering program costs in the <strong>United States</strong> fluctuate based on institutional affiliation, geographic location, curriculum duration, and available financial support mechanisms.</>,
     "Main expenses include:",
   ],
   costs: [
-    "Tuition and institutional fees.",
-    "Residential accommodation and meal plans.",
+    <><strong>Tuition and institutional fees</strong>.</>,
+    <><strong>Residential accommodation and meal plans</strong>.</>,
     "Medical insurance coverage.",
     "Textbooks, computational software, and educational materials.",
     "Regional transit and miscellaneous personal expenditures.",
     "Immigration documentation, airfare, and relocation expenses.",
   ],
   costsNote: [
-    "Prospective students should consult official institutional fee documentation and projected living cost estimates to establish a comprehensive financial plan for their complete degree program. Educational institutions located in different geographical areas often exhibit significantly different overall costs..",
+    <>Prospective students should consult official institutional fee documentation and projected <strong>living cost</strong> estimates to establish a comprehensive financial plan for their complete degree program. Educational institutions located in different geographical areas often exhibit significantly different overall costs..</>,
   ],
 
   scholarshipsLead: [
@@ -119,12 +133,12 @@ const branch = {
     "Available financial support options encompass:",
   ],
   scholarships: [
-    "Academic merit-based scholarships.",
-    "Departmental financial awards.",
-    "Graduate research assistantship positions.",
-    "Graduate instructional assistantship positions.",
-    "Tuition remission provisions contingent upon eligible assistantship appointments.",
-    "External scholarships administered by qualifying organizations.",
+    <><strong>Academic merit-based scholarships</strong>.</>,
+    <>Departmental financial awards.</>,
+    <><strong>Graduate research assistantship</strong> positions.</>,
+    <><strong>Graduate instructional assistantship</strong> positions.</>,
+    <><strong>Tuition remission</strong> provisions contingent upon eligible assistantship appointments.</>,
+    <>External scholarships administered by qualifying organizations.</>,
   ],
   scholarshipsNote: [
     "Funding may depend on academic performance, research interests, project availability, and departmental budgets. Students should verify eligibility, application deadlines, and whether the award covers tuition, living costs, or both.",
@@ -165,8 +179,9 @@ const branch = {
     "Prospective students are advised to evaluate the precise program structures, investigative specializations, academic personnel qualifications, financial obligations, and enrollment prerequisites through accredited institutional portals.",
   ],
 
-  careerIntro:
-    "A postgraduate qualification can help graduates develop advanced technical and project management skills for careers in infrastructure, construction, consulting, and environmental services.",
+  careerIntro: (
+    <>A postgraduate qualification can help graduates develop advanced technical and project management skills for careers in infrastructure, construction, consulting, and environmental services.</>,
+  ),
   careerLead: ["Standard procedural phases include:"],
   careers: [
     "Civil Design Engineer",
@@ -187,19 +202,19 @@ const branch = {
   ],
 
   visaLead: [
-    "When admitted to a recognised USA university, Indian nationals usually have to go through the necessary educational visa procedures.",
+    <>When admitted to a recognised USA university, Indian nationals usually have to go through the necessary <strong>educational visa procedures</strong>.</>,
     "Typical application steps include:",
   ],
   visaSteps: [
-    "Examine educational institutions and identify an appropriate Civil Engineering concentration.",
+    <>Examine educational institutions and identify an appropriate <strong>Civil Engineering</strong> concentration.</>,
     "Verify academic prerequisites and foundational subject requirements.",
-    "Examine standardized examination benchmarks and English language proficiency standards.",
-    "Assemble official academic records, a comprehensive Statement of Purpose, endorsements from academic referees, and professional documentation.",
+    <>Examine standardized examination benchmarks and <strong>English language proficiency</strong> standards. <Link to="/courses/pg/mechanical-engineering">Learn about Mechanical Engineering requirements</Link>.</>,
+    <>Assemble official academic records, a comprehensive <strong>Statement of Purpose</strong>, endorsements from academic referees, and professional documentation.</>,
     "Transmit completed applications in accordance with institutional deadlines.",
     "Analyze admission determinations, financial expenditures, and scholarship opportunities.",
     "Procure essential visa documentation from the educational establishment.",
-    "Remit the mandatory SEVIS payment and finalize visa application procedures.",
-    "Participate in the visa evaluation meeting, if applicable,",
+    <>Remit the mandatory <strong>SEVIS payment</strong> and finalize visa application procedures.</>,
+    <>Participate in the <strong>visa evaluation meeting</strong>, if applicable,</>,
   ],
   visaNote: [],
 
