@@ -441,7 +441,9 @@ export default function Footer() {
                 height={720}
                 alt="Edu-Hawk Logo"
                 className="w-15 h-15 rounded-full object-cover"
-              />
+                  srcSet={`${Eduhawk} 1x, ${Eduhawk} 2x`}
+                  sizes="(max-width: 640px) 180px, 244px"
+                />
               <div>
                 <h3 className="text-white font-bold text-xl tracking-tight">
                   Edu-Hawk Worldwide

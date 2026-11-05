@@ -468,7 +468,9 @@ export default function HeroSection() {
                         width={244}
                         height={72}
                         className="mx-auto h-13 w-auto object-contain brightness-110 drop-shadow-[0_2px_12px_rgba(255,255,255,0.2)]"
-                      />
+                  srcSet={`${Eduhawk} 1x, ${Eduhawk} 2x`}
+                  sizes="100vw"
+                />
                     </div>
 
                     {/* Admissions Badge */}
@@ -495,7 +497,9 @@ export default function HeroSection() {
                             width={246}
                             height={197}
                             className="w-4.5 h-4.5 brightness-0 invert"
-                          />
+                  srcSet={`${personalized} 1x, ${personalized} 2x`}
+                  sizes="100vw"
+                />
                         </div>
                         <span className="text-slate-100 font-medium">Free expert 1-on-1 counselling</span>
                       </li>
@@ -509,7 +513,9 @@ export default function HeroSection() {
                             width={200}
                             height={200}
                             className="w-4.5 h-4.5 brightness-0 invert"
-                          />
+                  srcSet={`${checkup} 1x, ${checkup} 2x`}
+                  sizes="100vw"
+                />
                         </div>
                         <span className="text-slate-100 font-medium">
                           Best university match as per your NEET &amp; budget
@@ -525,7 +531,9 @@ export default function HeroSection() {
                             width={512}
                             height={512}
                             className="w-4.5 h-4.5 brightness-0 invert"
-                          />
+                  srcSet={`${support} 1x, ${support} 2x`}
+                  sizes="100vw"
+                />
                         </div>
                         <span className="text-slate-100 font-medium">
                           End-to-end support: visa, travel, FMGE guidance
@@ -541,7 +549,9 @@ export default function HeroSection() {
                             width={512}
                             height={512}
                             className="w-4.5 h-4.5 brightness-0 invert"
-                          />
+                  srcSet={`${charges} 1x, ${charges} 2x`}
+                  sizes="100vw"
+                />
                         </div>
                         <span className="text-slate-100 font-medium">No hidden charges – 100% transparent</span>
                       </li>
@@ -826,6 +836,7 @@ export default function HeroSection() {
                   fetchPriority={index === 0 ? "high" : undefined}
                   decoding={index === 0 ? "sync" : "async"}
                   className="w-full h-full object-cover brightness-[0.85] aspect-auto"
+                  srcSet={`${slide.image} 1x, ${slide.image} 2x`}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/35 to-transparent/30" />
                 <div className="absolute inset-0 flex items-center justify-center px-5 sm:px-10">
@@ -1002,7 +1013,9 @@ export default function HeroSection() {
                       width={246}
                       height={197}
                       className="w-12 h-12"
-                    />
+                  srcSet={`${personalized} 1x, ${personalized} 2x`}
+                  sizes="100vw"
+                />
                   ),
                   title: "Personalized Counselling",
                   desc: "Guidance matched to your profile & budget",
@@ -1016,7 +1029,9 @@ export default function HeroSection() {
                       width={200}
                       height={200}
                       className="w-12 h-12"
-                    />
+                  srcSet={`${checkup} 1x, ${checkup} 2x`}
+                  sizes="100vw"
+                />
                   ),
                   title: "NMC Recognized Only",
                   desc: "Only recognized universities recommended",
@@ -1030,7 +1045,9 @@ export default function HeroSection() {
                       width={512}
                       height={512}
                       className="w-12 h-12"
-                    />
+                  srcSet={`${charges} 1x, ${charges} 2x`}
+                  sizes="100vw"
+                />
                   ),
                   title: "No Hidden Charges",
                   desc: "100% transparent fee structure",
@@ -1044,7 +1061,9 @@ export default function HeroSection() {
                       width={512}
                       height={512}
                       className="w-12 h-12"
-                    />
+                  srcSet={`${support} 1x, ${support} 2x`}
+                  sizes="100vw"
+                />
                   ),
                   title: "End-to-End Support",
                   desc: "Application to post-arrival assistance",
@@ -1079,6 +1098,8 @@ export default function HeroSection() {
                   width={3264}
                   height={2448}
                   className="w-full h-48 object-cover"
+                  srcSet={`${univercity} 1x, ${univercity} 2x`}
+                  sizes="100vw"
                 />
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-gray-800 mb-3">
@@ -1185,7 +1206,9 @@ export default function HeroSection() {
                     width={512}
                     height={512}
                     className="w-24 h-24 mx-auto md:mx-0 mb-6"
-                  />
+                  srcSet={`${item.icon} 1x, ${item.icon} 2x`}
+                  sizes="100vw"
+                />
                   <h3 className="text-2xl font-bold text-gray-800 mb-4">
                     {item.title}
                   </h3>
@@ -1320,6 +1343,8 @@ export default function HeroSection() {
                   width={400}
                   height={224}
                   className="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-105"
+                  srcSet={`${college.img} 1x, ${college.img} 2x`}
+                  sizes="100vw"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
                   <div className="p-4 w-full">
@@ -1363,7 +1388,9 @@ export default function HeroSection() {
                       width={800}
                       height={512}
                       className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 aspect-auto"
-                    />
+                  srcSet={`${card.img} 1x, ${card.img} 2x`}
+                  sizes="100vw"
+                />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-60" />
                   </div>
                   <div className="p-6 md:p-8">

@@ -519,7 +519,9 @@ const DentistryAbroad = () =>
                 src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=900&q=80"
                 alt="Dentistry students abroad"
                 className="dentistry-hero-image rounded-2xl shadow-2xl object-cover w-full h-56 sm:h-72 lg:h-[440px] hover:scale-[1.02] transition-transform duration-700"
-              />
+                  srcSet="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=900&q=80 1x, https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=900&q=80 2x"
+                  sizes="100vw"
+                />
               <div className="absolute bottom-5 left-5 bg-white/15 backdrop-blur-md px-4 py-2.5 rounded-xl text-sm font-medium border border-white/20">
                 Trusted by 400+ Indian students
               </div>
@@ -614,6 +616,8 @@ const DentistryAbroad = () =>
                   loading="lazy"
                   alt="Dental education abroad"
                   className="dentistry-photo-image rounded-2xl shadow-xl object-cover w-full h-[390px] group-hover:scale-[1.02] transition-transform duration-700"
+                  srcSet="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=900&q=80 1x, https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=900&q=80 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
                 />
               </div>
               <div className="absolute -bottom-5 -left-5 bg-gradient-to-br from-teal-600 to-cyan-500 rounded-2xl p-6 text-white shadow-xl hidden sm:block hover:scale-105 transition-transform duration-300">
@@ -949,6 +953,8 @@ const DentistryAbroad = () =>
                   alt={`Study Dentistry in ${dest.name}`}
                   loading="lazy"
                   className="dentistry-photo-image dentistry-university-image w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  srcSet={`${dest.img} 1x, ${dest.img} 2x`}
+                  sizes="(max-width: 768px) 100vw, 50vw"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex items-end p-5">
                   <div className="transform group-hover:translate-y-[-4px] transition-transform duration-300">

@@ -364,7 +364,10 @@ export default function Landingpage() {
         }`}
       >
         <div className="flex items-center gap-3">
-          <img src={Eduhawk} alt="Eduhawk Logo" className="h-12 w-auto" width={244} height={72} />
+          <img src={Eduhawk} alt="Eduhawk Logo" className="h-12 w-auto" width={244} height={72}
+                  srcSet={`${Eduhawk} 1x, ${Eduhawk} 2x`}
+                  sizes="(max-width: 640px) 180px, 244px"
+                />
         </div>
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-700">
           {NAV_LINKS.map((link) => (
@@ -479,7 +482,9 @@ export default function Landingpage() {
                 loading="lazy"
                 alt={country.name}
                 className="uni-image w-full"
-              />
+                  srcSet={`${country.uniImage} 1x, ${country.uniImage} 2x`}
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
               <div className="p-8">
                 <div
                   className="inline-block px-4 py-1 rounded-full text-xs font-bold mb-2"
@@ -615,6 +620,8 @@ export default function Landingpage() {
                   loading="lazy"
                   alt="Russia"
                   className="w-full h-full object-cover"
+                  srcSet="https://flagcdn.com/w320/ru.png 1x, https://flagcdn.com/w320/ru.png 2x"
+                  sizes="(max-width: 768px) 120px, 160px"
                 />
               </div>
               <h3 className="font-semibold text-gray-800">Russia</h3>
@@ -628,6 +635,8 @@ export default function Landingpage() {
                   loading="lazy"
                   alt="Kazakhstan"
                   className="w-full h-full object-cover"
+                  srcSet="https://flagcdn.com/w320/kz.png 1x, https://flagcdn.com/w320/kz.png 2x"
+                  sizes="(max-width: 768px) 120px, 160px"
                 />
               </div>
               <h3 className="font-semibold text-gray-800">Kazakhstan</h3>
@@ -641,6 +650,8 @@ export default function Landingpage() {
                   loading="lazy"
                   alt="Georgia"
                   className="w-full h-full object-cover"
+                  srcSet="https://flagcdn.com/w320/ge.png 1x, https://flagcdn.com/w320/ge.png 2x"
+                  sizes="(max-width: 768px) 120px, 160px"
                 />
               </div>
               <h3 className="font-semibold text-gray-800">Georgia</h3>
@@ -654,6 +665,8 @@ export default function Landingpage() {
                   loading="lazy"
                   alt="Uzbekistan"
                   className="w-full h-full object-cover"
+                  srcSet="https://flagcdn.com/w320/uz.png 1x, https://flagcdn.com/w320/uz.png 2x"
+                  sizes="(max-width: 768px) 120px, 160px"
                 />
               </div>
               <h3 className="font-semibold text-gray-800">Uzbekistan</h3>
@@ -667,6 +680,8 @@ export default function Landingpage() {
                   loading="lazy"
                   alt="Nepal"
                   className="w-full h-full object-cover"
+                  srcSet="https://flagcdn.com/w320/np.png 1x, https://flagcdn.com/w320/np.png 2x"
+                  sizes="(max-width: 768px) 120px, 160px"
                 />
               </div>
               <h3 className="font-semibold text-gray-800">Nepal</h3>
@@ -680,6 +695,8 @@ export default function Landingpage() {
                   loading="lazy"
                   alt="Bangladesh"
                   className="w-full h-full object-cover"
+                  srcSet="https://flagcdn.com/w320/bd.png 1x, https://flagcdn.com/w320/bd.png 2x"
+                  sizes="(max-width: 768px) 120px, 160px"
                 />
               </div>
               <h3 className="font-semibold text-gray-800">Bangladesh</h3>
@@ -693,6 +710,8 @@ export default function Landingpage() {
                   loading="lazy"
                   alt="Kyrgyzstan"
                   className="w-full h-full object-cover"
+                  srcSet="https://flagcdn.com/w320/kg.png 1x, https://flagcdn.com/w320/kg.png 2x"
+                  sizes="(max-width: 768px) 120px, 160px"
                 />
               </div>
               <h3 className="font-semibold text-gray-800">Kyrgyzstan</h3>
@@ -985,7 +1004,10 @@ export default function Landingpage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12">
             {/* Logo & Description */}
             <div className="lg:col-span-4">
-              <img src={Eduhawk} loading="lazy" alt="Eduhawk Logo" className="h-14 mb-6" width={244} height={72} />
+              <img src={Eduhawk} loading="lazy" alt="Eduhawk Logo" className="h-14 mb-6" width={244} height={72}
+                  srcSet={`${Eduhawk} 1x, ${Eduhawk} 2x`}
+                  sizes="(max-width: 640px) 180px, 244px"
+                />
               <p className="text-slate-300 leading-relaxed mb-6">
                 India's most trusted MBBS abroad education consultant. Helping
                 aspiring doctors get admission in top NMC-recognized universities

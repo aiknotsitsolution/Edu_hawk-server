@@ -195,7 +195,9 @@ const Contact = () => {
             loading="eager"
             fetchPriority="high"
             className="absolute inset-0 h-full w-full object-cover"
-          />
+                  srcSet={`${contactHero} 1x, ${contactHero} 2x`}
+                  sizes="100vw"
+                />
           <div className="absolute inset-0 bg-black/60" />
           <motion.h1
             initial={{ opacity: 0, scale: 0.85 }}

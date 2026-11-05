@@ -187,7 +187,9 @@ const Navbar = () => {
                 height={72}
                 alt="Eduhawk Logo"
                 className="h-10 sm:h-11 md:h-12 w-auto object-contain"
-              />
+                  srcSet={`${Eduhawk} 1x, ${Eduhawk} 2x`}
+                  sizes="(max-width: 640px) 180px, 244px"
+                />
             </div>
           </div>
 

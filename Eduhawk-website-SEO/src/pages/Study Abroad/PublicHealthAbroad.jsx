@@ -174,7 +174,9 @@ const PublicHealthAbroad = () => {
                 src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=900&q=80"
                 alt="Public Health students abroad"
                 className="rounded-2xl shadow-2xl object-cover w-full h-[440px]"
-              />
+                  srcSet="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=900&q=80 1x, https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=900&q=80 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
               <div className="absolute bottom-5 left-5 bg-white/15 backdrop-blur-md px-4 py-2.5 rounded-xl text-sm font-medium">
                 Trusted by 400+ Indian students
               </div>
@@ -251,7 +253,9 @@ const PublicHealthAbroad = () => {
                 loading="lazy"
                 alt="Public Health education abroad"
                 className="rounded-2xl shadow-xl object-cover w-full h-[390px]"
-              />
+                  srcSet="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=900&q=80 1x, https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=900&q=80 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
               <div className="absolute -bottom-5 -left-5 bg-gradient-to-br from-emerald-600 to-teal-500 rounded-2xl p-6 text-white shadow-xl hidden sm:block">
                 <div className="text-3xl font-bold leading-none">18–60L</div>
                 <div className="text-sm opacity-90 mt-1">Approx. total budget range</div>
@@ -369,7 +373,9 @@ const PublicHealthAbroad = () => {
                 loading="lazy"
                 alt="Study Public Health in USA"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-              />
+                  srcSet="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=700&q=80 1x, https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=700&q=80 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
               <div className="absolute inset-0 bg-gradient-to-t from-black/75 to-transparent flex items-end p-5">
                 <div>
                   <h4 className="text-white font-semibold text-lg">USA</h4>
@@ -384,7 +390,9 @@ const PublicHealthAbroad = () => {
                 loading="lazy"
                 alt="Study Public Health in UK"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-              />
+                  srcSet="https://images.unsplash.com/photo-1562774053-701939374585?w=700&q=80 1x, https://images.unsplash.com/photo-1562774053-701939374585?w=700&q=80 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
               <div className="absolute inset-0 bg-gradient-to-t from-black/75 to-transparent flex items-end p-5">
                 <div>
                   <h4 className="text-white font-semibold text-lg">UK</h4>
@@ -399,7 +407,9 @@ const PublicHealthAbroad = () => {
                 loading="lazy"
                 alt="Study Public Health in Canada"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-              />
+                  srcSet="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=700&q=80 1x, https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=700&q=80 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
               <div className="absolute inset-0 bg-gradient-to-t from-black/75 to-transparent flex items-end p-5">
                 <div>
                   <h4 className="text-white font-semibold text-lg">Canada</h4>

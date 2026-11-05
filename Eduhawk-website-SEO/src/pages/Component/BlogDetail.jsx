@@ -163,7 +163,9 @@ const BlogDetail = () => {
                 src={heroImage}
                 alt={post?.name}
                 className="h-[240px] w-full object-cover sm:h-[440px] md:h-[520px] lg:h-[620px]"
-              />
+                  srcSet={`${heroImage} 1x, ${heroImage} 2x`}
+                  sizes="100vw"
+                />
             </div>
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
           </div>

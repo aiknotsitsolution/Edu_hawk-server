@@ -698,7 +698,9 @@ const MarketingManagementAbroad = () => {
                 alt={`${page.name} in the USA`}
                 className="rounded-2xl shadow-2xl object-cover w-full h-56 sm:h-72 lg:h-[440px]"
                 loading="eager"
-              />
+                  srcSet={`${heroImg} 1x, ${heroImg} 2x`}
+                  sizes="100vw"
+                />
               <div className="absolute bottom-5 left-5 bg-white/15 backdrop-blur-md px-4 py-2.5 rounded-xl text-sm font-medium">
                 Trusted by 400+ Indian students
               </div>
@@ -725,6 +727,8 @@ const MarketingManagementAbroad = () => {
                   alt={`${page.name} at a university in the USA`}
                   className="w-full h-full object-cover overview-zoom-img"
                   loading="lazy"
+                  srcSet={`${sideImg} 1x, ${sideImg} 2x`}
+                  sizes="(max-width: 1024px) 100vw, 50vw"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent pointer-events-none" />
               </div>
@@ -764,7 +768,9 @@ const MarketingManagementAbroad = () => {
                           alt={u.name + " campus"}
                           loading="lazy"
                           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                        />
+                  srcSet={`${u.img} 1x, ${u.img} 2x`}
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
                       ) : (
                         <div className="w-full h-full bg-gradient-to-br from-[#101c47] to-blue-900 flex items-center justify-center">
                           <span className="text-5xl font-bold text-white/20">

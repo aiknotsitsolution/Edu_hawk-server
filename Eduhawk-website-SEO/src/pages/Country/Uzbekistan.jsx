@@ -638,7 +638,9 @@ const Uzbekistan = () => {
             src="https://ik.imagekit.io/syustaging/SYU_PREPROD/Campus_vYiO8Uzxk.webp?tr=w-3840"
             alt="Uzbekistan Landscape"
             className="w-full h-full object-cover brightness-75"
-          />
+                  srcSet="https://ik.imagekit.io/syustaging/SYU_PREPROD/Campus_vYiO8Uzxk.webp?tr=w-3840 1x, https://ik.imagekit.io/syustaging/SYU_PREPROD/Campus_vYiO8Uzxk.webp?tr=w-3840 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
           <div className="absolute inset-0 flex items-center justify-center">
             <h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-2xl">
               STUDY MBBS IN UZBEKISTAN
@@ -659,7 +661,9 @@ const Uzbekistan = () => {
               height={250}
               alt="Uzbekistan flag"
               className="w-32 md:w-40"
-            />
+                  srcSet={`${Russianflag2} 1x, ${Russianflag2} 2x`}
+                  sizes="(max-width: 768px) 120px, 160px"
+                />
           </div>
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-blue-900">
@@ -735,7 +739,9 @@ const Uzbekistan = () => {
               loading="lazy"
               alt="Uzbekistan"
               className="rounded-xl shadow-2xl w-full h-auto object-cover"
-            />
+                  srcSet="https://media.licdn.com/dms/image/v2/D5622AQH_NBaVS2Wr5A/feedshare-shrink_800/B56Ze8aBxrGQAg-/0/1751212639737?e=2147483647&v=beta&t=lNBxoP-lnV2mO5eyrjFmkmEY8AvTYjOmiSBrAKIkeoM 1x, https://media.licdn.com/dms/image/v2/D5622AQH_NBaVS2Wr5A/feedshare-shrink_800/B56Ze8aBxrGQAg-/0/1751212639737?e=2147483647&v=beta&t=lNBxoP-lnV2mO5eyrjFmkmEY8AvTYjOmiSBrAKIkeoM 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
           </div>
         </div>
 
@@ -846,6 +852,8 @@ const Uzbekistan = () => {
                   loading="lazy"
                   alt={uni.name}
                   className="w-full h-64 object-cover"
+                  srcSet={`${uni.img} 1x, ${uni.img} 2x`}
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
                 <div className="p-6 text-center">
                   <h4 className="text-xl font-bold text-blue-900">

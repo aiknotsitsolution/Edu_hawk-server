@@ -77,7 +77,9 @@ const Egypt = () => {
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Alexandria_University.JPG/1280px-Alexandria_University.JPG"
               alt="Alexandria University"
               className="w-full h-full object-cover brightness-75"
-            />
+                  srcSet="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Alexandria_University.JPG/1280px-Alexandria_University.JPG 1x, https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Alexandria_University.JPG/1280px-Alexandria_University.JPG 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
             <div className="absolute inset-0 flex items-center justify-center">
               <h2 className="text-5xl md:text-7xl font-bold text-white drop-shadow-2xl">
                 STUDY MBBS IN EGYPT
@@ -98,7 +100,9 @@ const Egypt = () => {
                 height={600}
                 alt="Egypt flag"
                 className="w-32 md:w-40 border-4 border-gray-800 rounded shadow-lg"
-              />
+                  srcSet={`${EgyptFlag} 1x, ${EgyptFlag} 2x`}
+                  sizes="(max-width: 768px) 120px, 160px"
+                />
             </div>
             <div>
               <h1 className="text-4xl md:text-5xl font-bold text-blue-900">
@@ -151,7 +155,9 @@ const Egypt = () => {
                 loading="lazy"
                 alt="Egyptian Museum"
                 className="rounded-xl shadow-2xl w-full h-auto object-cover"
-              />
+                  srcSet="https://upload.wikimedia.org/wikipedia/commons/a/a8/Egyptian_Museum_in_Cairo_in_May_2015.JPG 1x, https://upload.wikimedia.org/wikipedia/commons/a/a8/Egyptian_Museum_in_Cairo_in_May_2015.JPG 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
             </div>
           </div>
 
@@ -265,7 +271,9 @@ const Egypt = () => {
                     loading="lazy"
                     alt={uni.name}
                     className="w-full h-64 object-cover"
-                  />
+                  srcSet={`${uni.img} 1x, ${uni.img} 2x`}
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                />
                   <div className="p-6 text-center">
                     <h4 className="text-xl font-bold text-blue-900">
                       {uni.name}

@@ -176,7 +176,9 @@ const MedicalAbroad = () => {
                 src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80"
                 alt="Medical students studying abroad"
                 className="rounded-2xl shadow-2xl object-cover w-full h-[420px]"
-              />
+                  srcSet="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80 1x, https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
               <div className="absolute bottom-4 left-4 bg-white/15 backdrop-blur-md px-4 py-2 rounded-lg text-sm font-medium">
                 Trusted by 400+ Indian students
               </div>
@@ -248,7 +250,9 @@ const MedicalAbroad = () => {
                 loading="lazy"
                 alt="Medical education abroad"
                 className="rounded-2xl shadow-xl object-cover w-full h-[380px]"
-              />
+                  srcSet="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800&q=80 1x, https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=800&q=80 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
               <div className="absolute -bottom-5 -left-5 bg-gradient-to-br from-blue-600 to-sky-500 rounded-2xl p-6 text-white shadow-xl hidden sm:block">
                 <div className="text-3xl font-bold leading-none">15–40L</div>
                 <div className="text-sm opacity-90 mt-1">Approx. total budget range</div>
@@ -408,7 +412,9 @@ const MedicalAbroad = () => {
                 loading="lazy"
                 alt="Study in Russia"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-              />
+                  srcSet="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600&q=80 1x, https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600&q=80 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-5">
                 <div>
                   <h4 className="text-white font-semibold text-lg">Russia</h4>
@@ -422,7 +428,9 @@ const MedicalAbroad = () => {
                 loading="lazy"
                 alt="Study in Georgia"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-              />
+                  srcSet="https://images.unsplash.com/photo-1562774053-701939374585?w=600&q=80 1x, https://images.unsplash.com/photo-1562774053-701939374585?w=600&q=80 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-5">
                 <div>
                   <h4 className="text-white font-semibold text-lg">Georgia</h4>
@@ -436,7 +444,9 @@ const MedicalAbroad = () => {
                 loading="lazy"
                 alt="Study in Kazakhstan"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-              />
+                  srcSet="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=600&q=80 1x, https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=600&q=80 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-5">
                 <div>
                   <h4 className="text-white font-semibold text-lg">Kazakhstan</h4>

@@ -553,7 +553,9 @@ const NursingAbroad = () => {
                 src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80"
                 alt="Nursing students abroad"
                 className="nursing-hero-image rounded-2xl shadow-2xl object-cover w-full h-56 sm:h-72 lg:h-[440px]"
-              />
+                  srcSet="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80 1x, https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80 2x"
+                  sizes="100vw"
+                />
               <div className="absolute bottom-5 left-5 bg-white/15 backdrop-blur-md px-4 py-2.5 rounded-xl text-sm font-medium">
                 Trusted by 400+ Indian students
               </div>
@@ -631,7 +633,9 @@ const NursingAbroad = () => {
                 loading="lazy"
                 alt="Nursing education abroad"
                 className="rounded-2xl shadow-xl object-cover w-full h-[390px]"
-              />
+                  srcSet="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=900&q=80 1x, https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=900&q=80 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
               <div className="absolute -bottom-5 -left-5 bg-gradient-to-br from-indigo-600 to-violet-500 rounded-2xl p-6 text-white shadow-xl hidden sm:block">
                 <div className="text-3xl font-bold leading-none">12–45L</div>
                 <div className="text-sm opacity-90 mt-1">Approx. total budget range</div>
@@ -811,7 +815,9 @@ const NursingAbroad = () => {
                 alt="Study Nursing in Philippines"
                 loading="lazy"
                 className="nursing-university-image w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-              />
+                  srcSet="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80 1x, https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
               <div className="absolute inset-0 bg-gradient-to-t from-black/75 to-transparent flex items-end p-5">
                 <div>
                   <h4 className="text-white font-semibold text-lg">Philippines</h4>
@@ -826,7 +832,9 @@ const NursingAbroad = () => {
                 alt="Study Nursing in Germany"
                 loading="lazy"
                 className="nursing-university-image w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-              />
+                  srcSet="https://images.unsplash.com/photo-1562774053-701939374585?w=700&q=80 1x, https://images.unsplash.com/photo-1562774053-701939374585?w=700&q=80 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
               <div className="absolute inset-0 bg-gradient-to-t from-black/75 to-transparent flex items-end p-5">
                 <div>
                   <h4 className="text-white font-semibold text-lg">Germany</h4>
@@ -841,7 +849,9 @@ const NursingAbroad = () => {
                 alt="Study Nursing in Canada"
                 loading="lazy"
                 className="nursing-university-image w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-              />
+                  srcSet="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=700&q=80 1x, https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=700&q=80 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
               <div className="absolute inset-0 bg-gradient-to-t from-black/75 to-transparent flex items-end p-5">
                 <div>
                   <h4 className="text-white font-semibold text-lg">Canada</h4>

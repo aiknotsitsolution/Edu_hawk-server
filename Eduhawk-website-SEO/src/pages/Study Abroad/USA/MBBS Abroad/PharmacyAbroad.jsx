@@ -545,7 +545,9 @@ const PharmacyAbroad = () => {
                 src="https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=900&q=80"
                 alt="Pharmacy students in USA"
                 className="pharmacy-hero-image rounded-2xl shadow-2xl object-cover w-full h-56 sm:h-72 lg:h-[440px]"
-              />
+                  srcSet="https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=900&q=80 1x, https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=900&q=80 2x"
+                  sizes="100vw"
+                />
               <div className="absolute bottom-5 left-5 bg-white/15 backdrop-blur-md px-4 py-2.5 rounded-xl text-sm font-medium">
                 Trusted by 400+ Indian students
               </div>
@@ -617,7 +619,9 @@ const PharmacyAbroad = () => {
                 loading="lazy"
                 alt="Pharmacy education in USA"
                 className="rounded-2xl shadow-xl object-cover w-full h-[390px]"
-              />
+                  srcSet="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=900&q=80 1x, https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=900&q=80 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
               <div className="absolute -bottom-5 -left-5 bg-gradient-to-br from-blue-600 to-sky-500 rounded-2xl p-6 text-white shadow-xl hidden sm:block">
                 <div className="text-3xl font-bold leading-none">20–45L</div>
                 <div className="text-sm opacity-90 mt-1">Approx. total budget range</div>
@@ -779,6 +783,8 @@ const PharmacyAbroad = () => {
                   loading="lazy"
                   alt={university.name}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  srcSet={`${university.img} 1x, ${university.img} 2x`}
+                  sizes="(max-width: 768px) 100vw, 50vw"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex items-end p-5">
                   <div className="transform group-hover:translate-y-[-4px] transition-transform duration-300">

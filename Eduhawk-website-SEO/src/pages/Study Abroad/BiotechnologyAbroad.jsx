@@ -126,7 +126,9 @@ const BiotechnologyAbroad = () => {
           src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?q=80&w=2070&auto=format&fit=crop"
           alt="Biotechnology research lab"
           className="absolute inset-0 w-full h-full object-cover"
-        />
+                  srcSet="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?q=80&w=2070&auto=format&fit=crop 1x, https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?q=80&w=2070&auto=format&fit=crop 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 via-slate-900/75 to-slate-900/50" />
         <div className="relative max-w-6xl mx-auto px-6 w-full">
           <div className="text-sm text-white/60 mb-5">
@@ -236,7 +238,9 @@ const BiotechnologyAbroad = () => {
                 loading="lazy"
                 alt="Scientist working in biotechnology lab"
                 className="w-full h-[340px] object-cover"
-              />
+                  srcSet="https://images.unsplash.com/photo-1576086213369-97a306d36557?q=80&w=2080&auto=format&fit=crop 1x, https://images.unsplash.com/photo-1576086213369-97a306d36557?q=80&w=2080&auto=format&fit=crop 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-slate-900/80 to-transparent p-5">
                 <p className="text-white text-sm font-medium">
                   Advanced research facilities · Global opportunities
@@ -291,7 +295,9 @@ const BiotechnologyAbroad = () => {
               loading="lazy"
               alt="Biotechnology laboratory equipment"
               className="w-full h-full object-cover"
-            />
+                  srcSet="https://images.unsplash.com/photo-1581093458791-9d42e3c7e584?q=80&w=2070&auto=format&fit=crop 1x, https://images.unsplash.com/photo-1581093458791-9d42e3c7e584?q=80&w=2070&auto=format&fit=crop 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
             <div className="absolute inset-0 bg-slate-900/55 flex items-center justify-center">
               <div className="text-center text-white px-6">
                 <h3 className="text-2xl md:text-3xl font-bold mb-2">

@@ -68,7 +68,9 @@ const Services = () => {
                 className="h-full w-full object-cover transition-transform duration-[1600ms] ease-out"
                 loading={idx === 0 ? "eager" : "lazy"}
                 fetchPriority={idx === 0 ? "high" : "low"}
-              />
+                  srcSet={`${slide.img} 1x, ${slide.img} 2x`}
+                  sizes="100vw"
+                />
               <div className="absolute inset-0 flex items-center justify-center px-5">
                 {currentSlide === idx ? (
                   <h1 className="max-w-5xl text-center text-4xl font-extrabold tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl drop-shadow-2xl transition-all duration-1000 delay-300 opacity-100 translate-y-0">
@@ -190,7 +192,9 @@ const Services = () => {
                 height={980}
                 alt="Expert Guidance"
                 className="h-full w-full object-cover transition-transform duration-1000 group-hover:scale-110"
-              />
+                  srcSet={`${ExpertGuidance} 1x, ${ExpertGuidance} 2x`}
+                  sizes="100vw"
+                />
             </div>
             <div className="p-8 text-center">
               <h4 className="text-2xl font-bold text-gray-800 transition-colors group-hover:text-blue-700">
@@ -213,7 +217,9 @@ const Services = () => {
                 height={435}
                 alt="Global Network"
                 className="max-h-40 w-auto object-contain transition-transform duration-1000 group-hover:scale-125"
-              />
+                  srcSet={`${Globalmap} 1x, ${Globalmap} 2x`}
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
             </div>
             <div className="p-8 text-center">
               <h4 className="text-2xl font-bold text-gray-800 transition-colors group-hover:text-blue-700">
@@ -236,7 +242,9 @@ const Services = () => {
                 height={260}
                 alt="Success Stories"
                 className="h-full w-full object-cover transition-transform duration-1000 group-hover:scale-110"
-              />
+                  srcSet={`${Globalmap2} 1x, ${Globalmap2} 2x`}
+                  sizes="(max-width: 768px) 100vw, 500px"
+                />
             </div>
             <div className="p-8 text-center">
               <h4 className="text-2xl font-bold text-gray-800 transition-colors group-hover:text-blue-700">

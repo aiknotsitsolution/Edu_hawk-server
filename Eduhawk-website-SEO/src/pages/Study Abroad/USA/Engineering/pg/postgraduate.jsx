@@ -202,7 +202,9 @@ const PostgraduateEngineering = () => (
               alt="Graduate engineering students conducting research in a university laboratory"
               className="w-full h-full object-cover"
               loading="lazy"
-            />
+                  srcSet={`${overviewImg} 1x, ${overviewImg} 2x`}
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
             <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent pointer-events-none" />
             <div className="absolute bottom-4 left-4 bg-white/15 backdrop-blur-md px-4 py-2 rounded-xl text-sm font-medium text-white">
               Advanced research · Specialisations · Industry collaboration

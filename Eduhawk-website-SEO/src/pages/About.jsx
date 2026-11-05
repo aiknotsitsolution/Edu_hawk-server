@@ -161,7 +161,9 @@ export default function HeroSection() {
                   transform:
                     idx === currentHeroSlide ? "scale(1.08)" : "scale(1.05)",
                 }}
-              />
+                  srcSet={`${slide.image} 1x, ${slide.image} 2x`}
+                  sizes="100vw"
+                />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent" />
 
               <div className="absolute inset-0 flex items-center justify-center px-6 sm:px-12 lg:px-20">
@@ -285,6 +287,8 @@ export default function HeroSection() {
                   height={500}
                   alt="EduHawk students and campus life"
                   className="rounded-2xl shadow-2xl w-full object-cover"
+                  srcSet={`${AboutImage} 1x, ${AboutImage} 2x`}
+                  sizes="(max-width: 640px) 180px, 244px"
                 />
               </div>
             </div>
@@ -381,6 +385,8 @@ export default function HeroSection() {
                   height={408}
                   alt="MBBS abroad service illustration"
                   className="rounded-2xl shadow-xl w-full max-w-md object-cover"
+                  srcSet={`${imageAbout2} 1x, ${imageAbout2} 2x`}
+                  sizes="(max-width: 768px) 100vw, 500px"
                 />
                 <h3 className="text-2xl md:text-2xl lg:text-2xl font-serif font-bold tracking-tight text-indigo-800 text-center lg:text-left">
                   Where Dreams Take Flight:

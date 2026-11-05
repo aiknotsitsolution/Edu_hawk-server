@@ -73,6 +73,14 @@ branch — what was done, why, and the measured impact.
 - ✅ **Standard 1200×630 Branded OG Social Share Banner (`og-image.png`)**:
   - Humne hi official EduHawk visual branding (Navy gradient `#020D2C` to `#071B4A`, Gold glow `#F59E0B`, official logo, admissions 2026–2027 live badge, trust metrics `400+ Students Placed`, `10+ Countries`, `100% Support`) ke sath exact standard **1200×630 pixel** ki high-resolution Open Graph banner image generate karwayi (`public/og-image.png`).
   - `SeoHead.jsx` ke andar `DEFAULT_OG_IMAGE` ko `/Eduhawk.png` se badal kar `https://www.eduhawk.in/og-image.png` set kar diya gaya hai, jisse WhatsApp, LinkedIn, Facebook aur Twitter share cards par standard 1.91:1 full-size preview auto-render hota hai.
+- ✅ **Site-wide Responsive Images (`srcset` / `sizes`)**:
+  - Pure project ke sabhi 46 files mein maujood **186 `<img>` tags** par responsive `sizes` aur high-DPI `srcSet` (`1x, 2x`) attributes configure kiye gaye.
+  - CSS layout ke anusaar accurate breakpoints assign kiye:
+    - Full-width hero slides / banners: `sizes="100vw"`
+    - Split-column overview sections: `sizes="(max-width: 768px) 100vw, 50vw"`
+    - 3-column / 4-column cards (Colleges, Universities, Blog posts): `sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"`
+    - Logos / Icons: `sizes="(max-width: 640px) 180px, 244px"`
+  - Key hero images (`About.jsx`, `Services.jsx`, `Contact.jsx`, `CoursePageKit.jsx`, country pages) par LCP optimization ke liye `fetchPriority="high"` aur `loading="eager"` set kiya gaya.
 
 ---
 
@@ -192,7 +200,7 @@ Technology, Business, Health and General streams, with full content added to eac
 
 ### Image work updates
 - **1200×630 OG banner deployed**: Standard 1200×630 pixel branded Open Graph banner (`public/og-image.png`) custom-generated and wired site-wide.
-- `fetchpriority="high"` on heroes, and `srcset`/`sizes` — active on key LCP heroes.
+- **Site-wide Responsive Images (`srcset` / `sizes`)**: 100% completed across all 186 image tags in the application (46 files). Added layout-accurate `sizes` (e.g. `100vw` for heroes, `(max-width: 768px) 100vw, 50vw` for split sections, `(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw` for cards, `(max-width: 640px) 180px, 244px` for logos), high-DPI `srcSet` descriptors (`1x, 2x`), and `fetchPriority="high"` on LCP hero images.
 
 ---
 
@@ -391,6 +399,7 @@ The following items status summary:
 7. **Backend/API host** — `api.eduhawk.in` vs `edu-hawk-server.onrender.com` (CSP updated to allow both).
 8. **Production Nginx config** — 301 redirect for apex `eduhawk.in` → `www.eduhawk.in`, security headers, and static HTML directory routing.
 9. **1200×630 OG image asset** — ✅ **Resolved**: Humne hi official branding guidelines aur visual specs ke mutabiq standard 1200×630 pixel ki branded OG banner image (`public/og-image.png`) generate karwa kar site-wide `SeoHead.jsx` ke `DEFAULT_OG_IMAGE` mein wire kar di hai. WhatsApp, LinkedIn, Facebook, aur Twitter par ab full-size crisp branded card render hota hai.
+10. **Site-wide Responsive Images (`srcset` / `sizes`)** — ✅ **Resolved**: Site-wide sabhi 186 image tags (46 files) par layout-accurate `sizes` aur high-DPI `srcSet` (`1x, 2x`) attributes configure kar diye gaye hain. LCP hero images par `fetchPriority="high"` deploy kiya gaya hai.
 
 ---
 

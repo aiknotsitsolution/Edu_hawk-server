@@ -662,7 +662,9 @@ const Georgia = () => {
             src="https://upload.wikimedia.org/wikipedia/commons/5/50/2014_Kutaisi%2C_Fontanna_na_centralnym_placu_%2806%29.jpg"
             alt="Tbilisi Old Town - Georgia"
             className="w-full h-full object-cover brightness-75"
-          />
+                  srcSet="https://upload.wikimedia.org/wikipedia/commons/5/50/2014_Kutaisi%2C_Fontanna_na_centralnym_placu_%2806%29.jpg 1x, https://upload.wikimedia.org/wikipedia/commons/5/50/2014_Kutaisi%2C_Fontanna_na_centralnym_placu_%2806%29.jpg 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
           <div className="absolute inset-0 flex items-center justify-center">
             <h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-2xl">
               STUDY MBBS IN GEORGIA
@@ -683,7 +685,9 @@ const Georgia = () => {
               height={20}
               alt="Georgia flag"
               className="w-32 md:w-40 border-4 border-gray-800 rounded shadow-lg"
-            />
+                  srcSet={`${GeorgiaFlag} 1x, ${GeorgiaFlag} 2x`}
+                  sizes="(max-width: 768px) 120px, 160px"
+                />
           </div>
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-blue-900">
@@ -754,7 +758,9 @@ const Georgia = () => {
               loading="lazy"
               alt="Tbilisi - Georgia"
               className="rounded-xl shadow-2xl w-full h-auto object-cover"
-            />
+                  srcSet="https://upload.wikimedia.org/wikipedia/commons/d/d3/Kasbek_from_Tsminda_Gergeti_%2810600419415%29.jpg 1x, https://upload.wikimedia.org/wikipedia/commons/d/d3/Kasbek_from_Tsminda_Gergeti_%2810600419415%29.jpg 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
           </div>
         </div>
 
@@ -1317,6 +1323,8 @@ const Georgia = () => {
                     loading="lazy"
                     alt={uni.name}
                     className="w-full h-64 object-cover"
+                    srcSet={`${uni.img} 1x, ${uni.img} 2x`}
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     onError={(e) => {
                       e.target.src = "https://via.placeholder.com/400x300?text=" + encodeURIComponent(uni.name);
                     }}

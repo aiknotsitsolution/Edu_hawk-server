@@ -69,7 +69,9 @@ const Vietnam = () => {
               src="https://upload.wikimedia.org/wikipedia/commons/2/23/%C3%93pera%2C_Ciudad_Ho_Chi_Minh%2C_Vietnam%2C_2013-08-14%2C_DD_02.JPG"
               alt="Ho Chi Minh City Opera House"
               className="w-full h-full object-cover brightness-75"
-            />
+                  srcSet="https://upload.wikimedia.org/wikipedia/commons/2/23/%C3%93pera%2C_Ciudad_Ho_Chi_Minh%2C_Vietnam%2C_2013-08-14%2C_DD_02.JPG 1x, https://upload.wikimedia.org/wikipedia/commons/2/23/%C3%93pera%2C_Ciudad_Ho_Chi_Minh%2C_Vietnam%2C_2013-08-14%2C_DD_02.JPG 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
             <div className="absolute inset-0 flex items-center justify-center">
               <h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-2xl">
                 STUDY MBBS IN VIETNAM
@@ -88,7 +90,9 @@ const Vietnam = () => {
                 loading="lazy"
                 alt="Vietnam flag"
                 className="w-32 md:w-40 border-4 border-gray-800 rounded shadow-lg"
-              />
+                  srcSet="https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg 1x, https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg 2x"
+                  sizes="(max-width: 768px) 120px, 160px"
+                />
             </div>
             <div>
               <h2 className="text-4xl md:text-5xl font-bold text-blue-900">
@@ -166,7 +170,9 @@ const Vietnam = () => {
                 loading="lazy"
                 alt="Hanoi Medical University"
                 className="w-full h-full object-cover min-h-[420px]"
-              />
+                  srcSet="https://upload.wikimedia.org/wikipedia/commons/a/ac/Hanoi_dhyk.jpg 1x, https://upload.wikimedia.org/wikipedia/commons/a/ac/Hanoi_dhyk.jpg 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
             </div>
           </div>
 
@@ -365,7 +371,9 @@ const Vietnam = () => {
                     loading="lazy"
                     alt={uni.name}
                     className="w-full h-64 object-cover"
-                  />
+                  srcSet={`${uni.img} 1x, ${uni.img} 2x`}
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                />
                   <div className="p-6 text-center">
                     <h4 className="text-xl font-bold text-blue-900">
                       {uni.name}

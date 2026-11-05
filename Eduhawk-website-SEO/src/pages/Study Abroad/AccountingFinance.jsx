@@ -134,7 +134,9 @@ const AccountingFinance = () => {
           src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=2011&auto=format&fit=crop"
           alt="Accounting and Finance professionals"
           className="absolute inset-0 w-full h-full object-cover"
-        />
+                  srcSet="https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=2011&auto=format&fit=crop 1x, https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=2011&auto=format&fit=crop 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 via-slate-900/75 to-slate-900/55" />
         <div className="relative max-w-6xl mx-auto px-6 w-full">
           <div className="text-sm text-white/60 mb-5">
@@ -245,7 +247,9 @@ const AccountingFinance = () => {
                 loading="lazy"
                 alt="Financial analysis and accounting workspace"
                 className="w-full h-[340px] object-cover"
-              />
+                  srcSet="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop 1x, https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-slate-900/80 to-transparent p-5">
                 <p className="text-white text-sm font-medium">
                   Accounting · Finance · Audit · Financial Analysis
@@ -300,7 +304,9 @@ const AccountingFinance = () => {
               loading="lazy"
               alt="Finance and investment growth"
               className="w-full h-full object-cover"
-            />
+                  srcSet="https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?q=80&w=2071&auto=format&fit=crop 1x, https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?q=80&w=2071&auto=format&fit=crop 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
             <div className="absolute inset-0 bg-slate-900/55 flex items-center justify-center">
               <div className="text-center text-white px-6">
                 <h3 className="text-2xl md:text-3xl font-bold mb-2">

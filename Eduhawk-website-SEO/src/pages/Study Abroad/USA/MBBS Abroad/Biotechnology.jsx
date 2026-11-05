@@ -590,7 +590,9 @@ const Biotechnology = () => {
                 src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=900&q=80"
                 alt="Biotechnology laboratory and research in USA"
                 className="pharmacy-hero-image rounded-2xl shadow-2xl object-cover w-full h-56 sm:h-72 lg:h-[440px]"
-              />
+                  srcSet="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=900&q=80 1x, https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=900&q=80 2x"
+                  sizes="100vw"
+                />
               <div className="absolute bottom-5 left-5 bg-white/15 backdrop-blur-md px-4 py-2.5 rounded-xl text-sm font-medium">
                 Trusted by 400+ Indian students
               </div>
@@ -662,7 +664,9 @@ const Biotechnology = () => {
                 loading="lazy"
                 alt="Biotechnology research and laboratory training"
                 className="rounded-2xl shadow-xl object-cover w-full h-[390px]"
-              />
+                  srcSet="https://images.unsplash.com/photo-1581093588401-fbb62a02f120?w=900&q=80 1x, https://images.unsplash.com/photo-1581093588401-fbb62a02f120?w=900&q=80 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
               <div className="absolute -bottom-5 -left-5 bg-gradient-to-br from-blue-600 to-sky-500 rounded-2xl p-6 text-white shadow-xl hidden sm:block">
                 <div className="text-3xl font-bold leading-none">25–50L+</div>
                 <div className="text-sm opacity-90 mt-1">Approx. total budget range</div>
@@ -837,6 +841,8 @@ const Biotechnology = () => {
                   alt="University campus"
                   loading="lazy"
                   className="physio-university-image absolute inset-0 h-full w-full object-cover opacity-85"
+                  srcSet={`${university.image} 1x, ${university.image} 2x`}
+                  sizes="(max-width: 768px) 100vw, 50vw"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/95 via-slate-900/35 to-transparent" />
                 <div className="relative flex min-h-64 flex-col justify-end p-5 sm:p-6">

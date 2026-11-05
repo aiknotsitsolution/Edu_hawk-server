@@ -84,7 +84,9 @@ const Bangladesh = () => {
             src="https://upload.wikimedia.org/wikipedia/commons/f/f6/2.%E0%A6%B6%E0%A6%BE%E0%A6%AA%E0%A6%B2%E0%A6%BE_%E0%A6%9A%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%B0.jpg"
             alt="Kremlin Bridge City"
             className="w-full h-full object-cover brightness-75"
-          />
+                  srcSet="https://upload.wikimedia.org/wikipedia/commons/f/f6/2.%E0%A6%B6%E0%A6%BE%E0%A6%AA%E0%A6%B2%E0%A6%BE_%E0%A6%9A%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%B0.jpg 1x, https://upload.wikimedia.org/wikipedia/commons/f/f6/2.%E0%A6%B6%E0%A6%BE%E0%A6%AA%E0%A6%B2%E0%A6%BE_%E0%A6%9A%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%B0.jpg 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
           <div className="absolute inset-0 flex items-center justify-center">
             <h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-2xl">
               STUDY MBBS IN Bangladesh
@@ -107,7 +109,9 @@ const Bangladesh = () => {
               height={512}
               alt="Russia flag"
               className="w-32 md:w-40  rounded shadow-lg"
-            />
+                  srcSet={`${Bangladeshflag2} 1x, ${Bangladeshflag2} 2x`}
+                  sizes="(max-width: 768px) 120px, 160px"
+                />
           </div>
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-blue-900">
@@ -185,7 +189,9 @@ const Bangladesh = () => {
               height={440}
               alt="Kremlin"
               className="rounded-xl shadow-2xl w-full h-auto object-cover"
-            />
+                  srcSet={`${kernal} 1x, ${kernal} 2x`}
+                  sizes="(max-width: 768px) 100vw, 500px"
+                />
           </div>
         </div>
 
@@ -313,6 +319,8 @@ const Bangladesh = () => {
                   loading="lazy"
                   alt={uni.name}
                   className="w-full h-64 object-cover"
+                  srcSet={`${uni.img} 1x, ${uni.img} 2x`}
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
                 <div className="p-6 text-center">
                   <h4 className="text-xl font-bold text-blue-900">

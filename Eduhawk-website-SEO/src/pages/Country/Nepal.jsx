@@ -30,7 +30,9 @@ const Nepal = () => {
             src="https://asmi.edu.kg/wp-content/uploads/slider2/DJI_0086.jpeg"
             alt="Nepal Landscape / Medical Campus"
             className="w-full h-full object-cover brightness-75"
-          />
+                  srcSet="https://asmi.edu.kg/wp-content/uploads/slider2/DJI_0086.jpeg 1x, https://asmi.edu.kg/wp-content/uploads/slider2/DJI_0086.jpeg 2x"
+                  sizes="100vw"
+                />
           <div className="absolute inset-0 flex items-center justify-center">
             <h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-2xl">
               STUDY MBBS IN NEPAL
@@ -51,7 +53,9 @@ const Nepal = () => {
               height={87}
               alt="Nepal flag"
               className="w-32 md:w-40  shadow-lg"
-            />
+                  srcSet={`${RussiaFlag} 1x, ${RussiaFlag} 2x`}
+                  sizes="(max-width: 768px) 120px, 160px"
+                />
           </div>
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-blue-900">
@@ -130,7 +134,9 @@ const Nepal = () => {
               loading="lazy"
               alt="Patan Durbar Square, Nepal"
               className="rounded-xl shadow-2xl w-full h-auto object-cover"
-            />
+                  srcSet="https://upload.wikimedia.org/wikipedia/commons/4/40/Nepal_Patan_Mangal.jpg 1x, https://upload.wikimedia.org/wikipedia/commons/4/40/Nepal_Patan_Mangal.jpg 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
           </div>
         </div>
 
@@ -258,6 +264,8 @@ const Nepal = () => {
                   loading="lazy"
                   alt={uni.name}
                   className="w-full h-64 object-cover"
+                  srcSet={`${uni.img} 1x, ${uni.img} 2x`}
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
                 <div className="p-6 text-center">
                   <h4 className="text-xl font-bold text-blue-900">

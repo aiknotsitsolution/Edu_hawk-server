@@ -134,7 +134,9 @@ const Engineering = () => {
           src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2070&auto=format&fit=crop"
           alt="Engineering students and modern technology"
           className="absolute inset-0 w-full h-full object-cover"
-        />
+                  srcSet="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2070&auto=format&fit=crop 1x, https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2070&auto=format&fit=crop 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
         <div className="absolute inset-0 bg-gradient-to-r from-slate-900/90 via-slate-900/75 to-slate-900/50" />
         <div className="relative max-w-6xl mx-auto px-6 w-full">
           <div className="text-sm text-white/60 mb-5">
@@ -245,7 +247,9 @@ const Engineering = () => {
                 loading="lazy"
                 alt="Engineering lab and technology"
                 className="w-full h-[340px] object-cover"
-              />
+                  srcSet="https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=2070&auto=format&fit=crop 1x, https://images.unsplash.com/photo-1581092160562-40aa08e78837?q=80&w=2070&auto=format&fit=crop 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-slate-900/80 to-transparent p-5">
                 <p className="text-white text-sm font-medium">
                   Modern labs · Industry projects · Global careers
@@ -300,7 +304,9 @@ const Engineering = () => {
               loading="lazy"
               alt="Engineering technology and innovation"
               className="w-full h-full object-cover"
-            />
+                  srcSet="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop 1x, https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
             <div className="absolute inset-0 bg-slate-900/55 flex items-center justify-center">
               <div className="text-center text-white px-6">
                 <h3 className="text-2xl md:text-3xl font-bold mb-2">
