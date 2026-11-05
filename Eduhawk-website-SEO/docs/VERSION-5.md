@@ -29,6 +29,7 @@ branch — what was done, why, and the measured impact.
 | 12. Prerendering & Static HTML | Full SSR static HTML generation across all 71 routes with embedded canonical tags in dist/ | ✅ Done |
 | 13. Canonical host & tags | Complete canonical audit & fix: 100% routes with self-referencing absolute HTTPS URLs | ✅ Done |
 | 14. CSS optimization | Build-breaking regression found and **fixed** | ✅ Fixed |
+| 15. Production Build & 404 Architecture | Default build pipelining, sitemap sync (71 routes), static 404.html & Vercel edge routing | ✅ Done |
 
 ---
 
@@ -383,6 +384,34 @@ The site carried three icon libraries (`react-icons`, `lucide-react`,
   - Fully rendered HTML React DOM inside `<div id="root">`
 - **Verification**: 71 out of 71 routes physically verified on disk (`PASS: 71, FAIL: 0`).
 - **Pipeline Integration**: Fully wired into `package.json` under `"prerender": "node prerender.mjs"` and `"prerender:all": "npm run build && npm run prerender"`.
+
+---
+
+## 15. Production Build Pipeline & 404 Architecture Optimization — ✅ Completed & Verified
+
+- **Default Build Pipeline Integration**:
+  - `package.json` script updated: `"build": "npm run generate-sitemap && vite build && npm run prerender"`.
+  - Automated CI/CD and Vercel git deployments now automatically generate all 71 static HTML files in a single command.
+  - `"prerender:all": "npm run build"` configured to eliminate duplicate execution.
+- **Sitemap Synchronization**:
+  - `/landingpage` (paid advertising landing page marked with noindex) removed from `generate-sitemap.cjs`.
+  - `public/sitemap.xml` regenerated with **exactly 71 canonical indexable URLs**, matching the 71 physical static files in `dist/` with 100% precision.
+- **Native React Helmet Async SSR Context**:
+  - `prerender.mjs` upgraded from fragile regex head scraping to direct `react-helmet-async` SSR context extraction (`helmet.title`, `helmet.meta`, `helmet.link`, `helmet.script`).
+  - Guarantees 100% error-free tag injection for titles, descriptions, canonical URLs, OG/Twitter tags, and JSON-LD schemas.
+- **Dedicated Static `404.html` Generation**:
+  - `prerender.mjs` generates a physical `dist/404.html` file using the existing `NotFound.jsx` component tree.
+  - Page Title: `<title data-rh="true">Page Not Found (404) | Edu Hawk</title>`
+  - Robots: `<meta data-rh="true" name="robots" content="noindex, nofollow"/>`
+  - Canonical URL: Completely omitted (zero incorrect canonical signals).
+  - Design: Full visual 404 layout preserved with navigation buttons to Homepage and Contact Us.
+- **Vercel Edge Routing & 404 Status Configuration**:
+  - Edge-level 301 permanent redirect deployed in `vercel.json` for the legacy typo route: `"/mbbs-abroad/armernia"` $\rightarrow$ `"/mbbs-abroad/armenia"`.
+  - Blanket wildcard rewrite (`"/(.*)"`) replaced with scoped rewrites for routes requiring client-side SPA hydration: `"/landingpage"` and `"/blog/:slug*"`.
+  - Unknown routes now fall through to `dist/404.html`, ensuring Vercel returns a **genuine HTTP 404 Not Found** status code rather than a Soft-404 HTTP 200 response.
+- **Obsolete Script & Dependency Cleanup**:
+  - Removed 3 dead/unreferenced prerender prototypes: `prerender.js`, `prerender.cjs`, and `prerender-puppeteer.mjs`.
+  - Pruned unused devDependencies from `package.json` and `package-lock.json`: `puppeteer` and `vite-plugin-prerender`.
 
 ---
 

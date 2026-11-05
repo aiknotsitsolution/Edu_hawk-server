@@ -110,21 +110,7 @@ async function prerender() {
 
   for (const route of routes) {
     try {
-      const { html } = await render(route);
-
-      const firstDivIndex = html.indexOf("<div");
-      const headSnippet = firstDivIndex !== -1 ? html.substring(0, firstDivIndex) : "";
-      const bodySnippet = firstDivIndex !== -1 ? html.substring(firstDivIndex) : html;
-
-      // Extract SEO head tags
-      const titleMatch = headSnippet.match(/<title[^>]*>[\s\S]*?<\/title>/i);
-      const descMatch = headSnippet.match(/<meta\s+name="description"[\s\S]*?>/i);
-      const robotsMatch = headSnippet.match(/<meta\s+name="robots"[\s\S]*?>/i);
-      const canonMatch = headSnippet.match(/<link[^>]*rel="canonical"[\s\S]*?>/i);
-      const keywordsMatch = headSnippet.match(/<meta\s+name="keywords"[\s\S]*?>/i);
-      const ogMatches = headSnippet.match(/<meta\s+property="og:[^"]*"[\s\S]*?>/gi) || [];
-      const twitterMatches = headSnippet.match(/<meta\s+name="twitter:[^"]*"[\s\S]*?>/gi) || [];
-      const jsonLdMatches = headSnippet.match(/<script\s+type="application\/ld\+json"[\s\S]*?<\/script>/gi) || [];
+      const { html, helmet } = await render(route);
 
       // Clean base template: remove default title, description, and any leftover SEO tags
       let pageHtml = baseTemplate;
@@ -135,23 +121,19 @@ async function prerender() {
       pageHtml = pageHtml.replace(/<meta\s+property="og:[^"]*"[\s\S]*?>/gi, "");
       pageHtml = pageHtml.replace(/<meta\s+name="twitter:[^"]*"[\s\S]*?>/gi, "");
 
-      // Assemble new head tags
-      const injectedTags = [
-        titleMatch ? titleMatch[0] : "",
-        descMatch ? descMatch[0] : "",
-        robotsMatch ? robotsMatch[0] : "",
-        canonMatch ? canonMatch[0] : "",
-        keywordsMatch ? keywordsMatch[0] : "",
-        ...ogMatches,
-        ...twitterMatches,
-        ...jsonLdMatches
-      ].filter(Boolean).join("\n    ");
+      // Assemble head tags directly from react-helmet-async SSR context
+      const titleTag = helmet?.title?.toString() || "";
+      const metaTags = helmet?.meta?.toString() || "";
+      const linkTags = helmet?.link?.toString() || "";
+      const scriptTags = helmet?.script?.toString() || "";
+
+      const injectedTags = [titleTag, metaTags, linkTags, scriptTags].filter(Boolean).join("\n    ");
 
       // Inject tags right after <head>
       pageHtml = pageHtml.replace("<head>", `<head>\n    ${injectedTags}`);
 
       // Inject rendered body into <div id="root"></div>
-      pageHtml = pageHtml.replace('<div id="root"></div>', `<div id="root">${bodySnippet}</div>`);
+      pageHtml = pageHtml.replace('<div id="root"></div>', `<div id="root">${html}</div>`);
 
       // Determine output directory & file path
       const routePath = route === "/" ? "" : route.replace(/^\//, "");
@@ -170,6 +152,36 @@ async function prerender() {
       failures.push({ route, error: err.message });
       console.error(`❌ Failed: ${route} - ${err.message}`);
     }
+  }
+
+  // Generate static 404.html using the existing NotFound component
+  try {
+    console.log("📄 Generating static 404.html error page...");
+    const { html: notFoundHtml, helmet: notFoundHelmet } = await render("/404-page-not-found");
+
+    let notFoundPage = baseTemplate;
+    notFoundPage = notFoundPage.replace(/<title[^>]*>[\s\S]*?<\/title>/i, "");
+    notFoundPage = notFoundPage.replace(/<meta\s+name="description"[\s\S]*?>/i, "");
+    notFoundPage = notFoundPage.replace(/<meta\s+name="robots"[\s\S]*?>/gi, "");
+    notFoundPage = notFoundPage.replace(/<link\s+rel="canonical"[\s\S]*?>/gi, "");
+    notFoundPage = notFoundPage.replace(/<meta\s+property="og:[^"]*"[\s\S]*?>/gi, "");
+    notFoundPage = notFoundPage.replace(/<meta\s+name="twitter:[^"]*"[\s\S]*?>/gi, "");
+
+    const notFoundTitle = notFoundHelmet?.title?.toString() || "<title>Page Not Found (404) | Edu Hawk</title>";
+    const notFoundMeta = notFoundHelmet?.meta?.toString() || '<meta name="robots" content="noindex, nofollow"/>';
+    const notFoundLink = notFoundHelmet?.link?.toString() || "";
+    const notFoundScript = notFoundHelmet?.script?.toString() || "";
+
+    const injectedTags = [notFoundTitle, notFoundMeta, notFoundLink, notFoundScript].filter(Boolean).join("\n    ");
+
+    notFoundPage = notFoundPage.replace("<head>", `<head>\n    ${injectedTags}`);
+    notFoundPage = notFoundPage.replace('<div id="root"></div>', `<div id="root">${notFoundHtml}</div>`);
+
+    const notFoundFile = path.join(distDir, "404.html");
+    fs.writeFileSync(notFoundFile, notFoundPage, "utf-8");
+    console.log("✅ Generated static 404 error page -> dist/404.html");
+  } catch (err) {
+    console.error("❌ Failed to generate 404.html:", err.message);
   }
 
   await vite.close();

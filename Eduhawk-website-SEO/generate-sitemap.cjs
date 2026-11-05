@@ -75,7 +75,6 @@ const routes = [
   "/terms-conditions",
   "/privacy-policy",
   "/cookies-policy",
-  "/landingpage",
 ];
 
 const baseUrl = "https://www.eduhawk.in";
