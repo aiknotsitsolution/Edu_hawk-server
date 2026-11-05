@@ -12,11 +12,9 @@ import { Helmet } from "react-helmet-async";
 export const SITE_URL = "https://www.eduhawk.in";
 
 /**
- * Shared OG / social image (verified existing asset served from public/).
- * TODO (Phase 6 - image optimization): replace with a dedicated
- * 1200x630 social share image when created by management.
+ * Shared OG / social image (official branded 1200x630 banner asset served from public/).
  */
-export const DEFAULT_OG_IMAGE = `${SITE_URL}/Eduhawk.png`;
+export const DEFAULT_OG_IMAGE = `${SITE_URL}/og-image.png`;
 
 /**
  * SeoHead - shared per-page SEO metadata component.

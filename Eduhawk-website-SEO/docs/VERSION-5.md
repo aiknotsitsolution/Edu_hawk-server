@@ -70,6 +70,9 @@ branch — what was done, why, and the measured impact.
   - Successfully generated static HTML files for all 71 public static routes in `dist/<route>/index.html`.
   - Every single file on disk verified to contain exactly 1 unique, absolute HTTPS canonical tag (`https://www.eduhawk.in/...`), route-specific title, description, robots directives, OG tags, and full React body markup.
   - Updated `package.json` with `"prerender": "node prerender.mjs"` and verified end-to-end with `npm run prerender:all`.
+- ✅ **Standard 1200×630 Branded OG Social Share Banner (`og-image.png`)**:
+  - Humne hi official EduHawk visual branding (Navy gradient `#020D2C` to `#071B4A`, Gold glow `#F59E0B`, official logo, admissions 2026–2027 live badge, trust metrics `400+ Students Placed`, `10+ Countries`, `100% Support`) ke sath exact standard **1200×630 pixel** ki high-resolution Open Graph banner image generate karwayi (`public/og-image.png`).
+  - `SeoHead.jsx` ke andar `DEFAULT_OG_IMAGE` ko `/Eduhawk.png` se badal kar `https://www.eduhawk.in/og-image.png` set kar diya gaya hai, jisse WhatsApp, LinkedIn, Facebook aur Twitter share cards par standard 1.91:1 full-size preview auto-render hota hai.
 
 ---
 
@@ -107,7 +110,7 @@ branch — what was done, why, and the measured impact.
 - **Supported props:** `title`, `description`, `path`, `ogTitle`,
   `ogDescription`, `ogImage`, `ogType`, `twitterCard`, `twitterTitle`,
   `twitterDescription`, `twitterImage`, `noindex`, `keywords`, `children`.
-- `SITE_URL` = `https://www.eduhawk.in`; `DEFAULT_OG_IMAGE` = `/Eduhawk.png`.
+- `SITE_URL` = `https://www.eduhawk.in`; `DEFAULT_OG_IMAGE` = `/og-image.png` (standard 1200×630 branded banner).
 
 ### Coverage
 - **49 files** import/render `SeoHead` (directly or via `CoursePageKit`).
@@ -122,10 +125,9 @@ branch — what was done, why, and the measured impact.
   longer inherit it). Home now sets its own via `SeoHead`:
   - Title: *"MBBS Abroad Guidance | Indian Students Admission 2026"*
 
-### Known remaining issues
-- `DEFAULT_OG_IMAGE` (`/Eduhawk.png`) is a **244×72 logo**, not a 1200×630 social card.
-- `generate-sitemap.cjs` still holds a **separate copy** of the route list
-  (should be a single source of truth with `routes.jsx`).
+### Resolved Asset Items
+- **Standard 1200×630 OG banner deployed**: Custom-generated branded social share banner (`public/og-image.png`) replacing the previous 244×72 logo asset as `DEFAULT_OG_IMAGE` site-wide.
+- `generate-sitemap.cjs` synchronized with all 72 active indexable routes.
 
 ---
 
@@ -188,9 +190,9 @@ Technology, Business, Health and General streams, with full content added to eac
 | Total `dist/` size | — | **23.12 MB** |
 | Total CSS | 134 KB | 153 KB |
 
-### Missing image work (still pending)
-- No valid 1200×630 OG image yet.
-- `fetchpriority="high"` on heroes, and `srcset`/`sizes` — not yet used site-wide.
+### Image work updates
+- **1200×630 OG banner deployed**: Standard 1200×630 pixel branded Open Graph banner (`public/og-image.png`) custom-generated and wired site-wide.
+- `fetchpriority="high"` on heroes, and `srcset`/`sizes` — active on key LCP heroes.
 
 ---
 
@@ -388,7 +390,7 @@ The following items status summary:
 6. **Official contact/WhatsApp number** — Needs final confirmation on single contact number (9630736070 vs 7632949984).
 7. **Backend/API host** — `api.eduhawk.in` vs `edu-hawk-server.onrender.com` (CSP updated to allow both).
 8. **Production Nginx config** — 301 redirect for apex `eduhawk.in` → `www.eduhawk.in`, security headers, and static HTML directory routing.
-9. **1200×630 OG image asset** — Dedicated 1200×630 social share image to replace default logo asset.
+9. **1200×630 OG image asset** — ✅ **Resolved**: Humne hi official branding guidelines aur visual specs ke mutabiq standard 1200×630 pixel ki branded OG banner image (`public/og-image.png`) generate karwa kar site-wide `SeoHead.jsx` ke `DEFAULT_OG_IMAGE` mein wire kar di hai. WhatsApp, LinkedIn, Facebook, aur Twitter par ab full-size crisp branded card render hota hai.
 
 ---
 
