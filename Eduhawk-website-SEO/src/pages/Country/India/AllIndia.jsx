@@ -1,13 +1,6 @@
 import React, { useState, useMemo } from "react";
 import SeoHead from "../../../component/SeoHead.jsx";
 
-<SeoHead
-  title="Indian Medical Colleges List | MBBS Admission Guide"
-  description="Complete list of Indian medical colleges with MBBS admission details, fees, and eligibility criteria."
-  path="/allcollege"
-  ogType="website"
-/>
-
 const mockParsedData = [
   {
     sNo: 1,
@@ -6073,11 +6066,11 @@ const AllIndia = () => {
   return (
     <>
      <SeoHead
-          title="MBBS Abroad 2026 | Top Countries for MBBS Abroad for Indian Students"
-          description="Explore MBBS abroad options including Russia, Kazakhstan, Georgia, Nepal and more. Check fees, eligibility, admission process and top universities."
-          path="/allcollege"
-          ogType="website"
-        />
+        title="Indian Medical Colleges List | MBBS Admission Guide"
+        description="Complete list of Indian medical colleges with MBBS admission details, fees, and eligibility criteria."
+        path="/allcollege"
+        ogType="website"
+      />
     
     <div className="min-h-screen bg-gray-50 font-sans">
       {/* Header */}

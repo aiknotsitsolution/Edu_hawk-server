@@ -1,5 +1,5 @@
 import React, { lazy } from "react";
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, Navigate } from "react-router-dom";
 import MainLayout from "../pages/layouts/MainLayout.jsx";
 import Home from "../pages/HeroSection.jsx";
 
@@ -122,8 +122,12 @@ export const router = createBrowserRouter([
         element: <Kazakhstan />,
       },
       {
-        path: "mbbs-abroad/armernia",
+        path: "mbbs-abroad/armenia",
         element: <Armernia />,
+      },
+      {
+        path: "mbbs-abroad/armernia",
+        element: <Navigate to="/mbbs-abroad/armenia" replace />,
       },
       {
         path: "mbbs-abroad/belarus",
@@ -422,7 +426,7 @@ export const routeList = [
   "/mbbs-abroad/russia",
   "/mbbs-abroad/bangladesh",
   "/mbbs-abroad/kazakhstan",
-  "/mbbs-abroad/armernia",
+  "/mbbs-abroad/armenia",
   "/mbbs-abroad/belarus",
   "/mbbs-abroad/china",
   "/mbbs-abroad/kyrgyzstan",

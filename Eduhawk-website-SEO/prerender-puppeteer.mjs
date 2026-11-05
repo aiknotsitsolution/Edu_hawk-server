@@ -7,7 +7,7 @@ const distDir = path.join(process.cwd(), "dist");
 
 const routes = [
   "/", "/about", "/study-abroad", "/mbbs-abroad/russia", "/mbbs-abroad/bangladesh",
-  "/mbbs-abroad/kazakhstan", "/mbbs-abroad/armernia", "/mbbs-abroad/belarus",
+  "/mbbs-abroad/kazakhstan", "/mbbs-abroad/armenia", "/mbbs-abroad/belarus",
   "/mbbs-abroad/china", "/mbbs-abroad/kyrgyzstan", "/mbbs-abroad/egypt",
   "/mbbs-abroad/georgia", "/mbbs-abroad/iran", "/mbbs-abroad/nepal",
   "/mbbs-abroad/tajikistan", "/mbbs-abroad/uzbekistan", "/mbbs-abroad/vietnam",
@@ -19,7 +19,7 @@ const routes = [
   "/courses/bbs", "/courses/executive-mba", "/courses/international-business",
   "/courses/marketing-management", "/courses/hospitality-management",
   "/courses/architecture", "/courses/law", "/study-abroad/language-courses",
-  "/study-abroad/summer-courses", "/study-abroad/winter-courses",
+  "/study-abroad/summer-courses", "/study-abroad/winter-courses", "/study-abroad/working-professionals",
   "/courses/accounting-finance", "/courses/ug/engineering",
   "/courses/ug/computer-engineering", "/courses/ug/mechanical-engineering",
   "/courses/ug/civil-engineering", "/courses/ug/electrical-engineering",

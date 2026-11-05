@@ -81,58 +81,76 @@ const BlogDetail = () => {
     "prose-blockquote:border-l-4 prose-blockquote:border-indigo-400 prose-blockquote:pl-4 " +
     "prose-table:border prose-th:bg-gray-100 prose-td:border";
 
+  const seoTitle = post?.name ? `${post.name.trim()} | Edu Hawk` : "Blog | Edu Hawk";
+  const seoDescription =
+    postExcerpt || "Read the latest study abroad articles from Edu Hawk.";
+  const canonicalPath = mySlug ? `/blog/${mySlug}` : "/blog";
+
   // Post failed to load (rejected thunk, no data) — small message, no endless spinner.
   if (!post && detailStatus === "failed") {
     return (
-      <article className="min-h-screen bg-gray-50 pt-8 pb-20">
-        <div className="mx-auto max-w-2xl px-4 py-24 text-center">
-          <p className="mb-6 text-lg text-gray-600">
-            This article could not be loaded. It may have been removed.
-          </p>
-          <Link
-            to="/blog"
-            className="inline-flex items-center rounded-full bg-indigo-600 px-6 py-3 font-medium text-white transition-colors hover:bg-indigo-700"
-          >
-            ← View all articles
-          </Link>
-        </div>
-      </article>
+      <>
+        <SeoHead
+          title="Article Not Found | Edu Hawk"
+          description="This article could not be loaded or may have been removed."
+          path={canonicalPath}
+          noindex
+        />
+        <article className="min-h-screen bg-gray-50 pt-8 pb-20">
+          <div className="mx-auto max-w-2xl px-4 py-24 text-center">
+            <p className="mb-6 text-lg text-gray-600">
+              This article could not be loaded. It may have been removed.
+            </p>
+            <Link
+              to="/blog"
+              className="inline-flex items-center rounded-full bg-indigo-600 px-6 py-3 font-medium text-white transition-colors hover:bg-indigo-700"
+            >
+              ← View all articles
+            </Link>
+          </div>
+        </article>
+      </>
     );
   }
 
   // Light skeleton while the post is being fetched (no data yet).
   if (!post) {
     return (
-      <article className="min-h-screen bg-gray-50 pt-8 pb-20" aria-busy="true">
-        <div className="mx-auto max-w-4xl px-4 pt-6 sm:px-6 lg:px-8">
-          <div className="mb-8 h-9 w-36 animate-pulse rounded-full bg-gray-200" />
-          <div className="mb-3 h-12 w-11/12 animate-pulse rounded-xl bg-gray-200" />
-          <div className="mb-10 h-12 w-2/3 animate-pulse rounded-xl bg-gray-200" />
-          <div className="mb-12 h-4 w-52 animate-pulse rounded bg-gray-200" />
-          <div className="space-y-5">
-            {[92, 100, 96, 100, 88, 100, 74].map((w, i) => (
-              <div
-                key={i}
-                className="h-4 animate-pulse rounded bg-gray-200"
-                style={{ width: `${w}%` }}
-              />
-            ))}
+      <>
+        <SeoHead
+          title={seoTitle}
+          description={seoDescription}
+          path={canonicalPath}
+          ogType="article"
+          ogImage={postOgImage}
+        />
+        <article className="min-h-screen bg-gray-50 pt-8 pb-20" aria-busy="true">
+          <div className="mx-auto max-w-4xl px-4 pt-6 sm:px-6 lg:px-8">
+            <div className="mb-8 h-9 w-36 animate-pulse rounded-full bg-gray-200" />
+            <div className="mb-3 h-12 w-11/12 animate-pulse rounded-xl bg-gray-200" />
+            <div className="mb-10 h-12 w-2/3 animate-pulse rounded-xl bg-gray-200" />
+            <div className="mb-12 h-4 w-52 animate-pulse rounded bg-gray-200" />
+            <div className="space-y-5">
+              {[92, 100, 96, 100, 88, 100, 74].map((w, i) => (
+                <div
+                  key={i}
+                  className="h-4 animate-pulse rounded bg-gray-200"
+                  style={{ width: `${w}%` }}
+                />
+              ))}
+            </div>
           </div>
-        </div>
-      </article>
+        </article>
+      </>
     );
   }
 
   return (
     <>
       <SeoHead
-        title={
-          post?.name ? `${post.name.trim()} | Edu Hawk` : "Blog | Edu Hawk"
-        }
-        description={
-          postExcerpt || "Read the latest study abroad articles from Edu Hawk."
-        }
-        path={`/blog/${mySlug}`}
+        title={seoTitle}
+        description={seoDescription}
+        path={canonicalPath}
         ogType="article"
         ogImage={postOgImage}
       />

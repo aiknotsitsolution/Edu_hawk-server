@@ -30,6 +30,7 @@ import Vietnam from "./pages/Country/Vietnam.jsx";
 import Italy from "./pages/Country/Italy.jsx";
 import BlogSection from "./pages/Blog/BlogSection.jsx";
 import Blog from "./pages/Component/Blog.jsx";
+import BlogDetail from "./pages/Component/BlogDetail.jsx";
 import AllIndia from "./pages/Country/India/AllIndia.jsx";
 import Landingpage from "./pages/Landingpage/Landingpage.jsx";
 import TermsAndConditions from "./pages/TermsAndConditions/TermsAndConditions.jsx";
@@ -96,6 +97,7 @@ export async function render(url) {
               <Route path="mbbs-abroad/russia" element={<Russian />} />
               <Route path="mbbs-abroad/bangladesh" element={<Bangladesh />} />
               <Route path="mbbs-abroad/kazakhstan" element={<Kazakhstan />} />
+              <Route path="mbbs-abroad/armenia" element={<Armernia />} />
               <Route path="mbbs-abroad/armernia" element={<Armernia />} />
               <Route path="mbbs-abroad/belarus" element={<Belarus />} />
               <Route path="mbbs-abroad/china" element={<China />} />
@@ -110,6 +112,7 @@ export async function render(url) {
               <Route path="mbbs-abroad/italy" element={<Italy />} />
               <Route path="blog/education-blog" element={<BlogSection />} />
               <Route path="blog" element={<Blog />} />
+              <Route path="blog/:slugOrId" element={<BlogDetail />} />
               <Route path="services" element={<Services />} />
               <Route path="contact" element={<Contact />} />
               <Route path="allcollege" element={<AllIndia />} />
@@ -136,6 +139,7 @@ export async function render(url) {
               <Route path="study-abroad/language-courses" element={<LanguageCoursesAbroad />} />
               <Route path="study-abroad/summer-courses" element={<SummerCoursesAbroad />} />
               <Route path="study-abroad/winter-courses" element={<WinterCoursesAbroad />} />
+              <Route path="study-abroad/working-professionals" element={<ExecutiveMbaAbroad />} />
               <Route path="courses/accounting-finance" element={<AccountingFinance />} />
               <Route path="courses/ug/engineering" element={<UndergraduateEngineering />} />
               <Route path="courses/ug/computer-engineering" element={<ComputerEngineeringUG />} />
