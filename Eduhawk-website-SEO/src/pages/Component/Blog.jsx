@@ -7,7 +7,6 @@ import {
   fetchProducts,
   fetchCategories,
   setActiveCategory,
-  setSearchQuery,
   setCurrentPage,
   selectVisibleProducts,
   selectCategories,
@@ -17,22 +16,6 @@ import {
   selectProductsError,
 } from "./productsSlice"; // adjust path as needed
 
-const getProductSlug = (product) => {
-  if (!product) return "";
-  if (product.slug) return product.slug;
-  if (product._id || product.id) return product._id || product.id;
-  if (product.name) {
-    return product.name
-      .toString()
-      .trim()
-      .toLowerCase()
-      .replace(/[^a-z0-9\s-]/g, "")
-      .replace(/\s+/g, "-")
-      .replace(/-+/g, "-")
-      .replace(/^-+|-+$/g, "");
-  }
-  return "";
-};
 
 // Helper function to get short description (first 50 words, remove images)
 const getShortDescription = (html) => {

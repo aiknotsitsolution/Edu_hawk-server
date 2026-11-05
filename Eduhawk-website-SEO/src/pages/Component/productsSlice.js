@@ -1,201 +1,21 @@
-// import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-
-// // Fetch All Products
-// export const fetchProducts = createAsyncThunk(
-//   "products/fetchProducts",
-//   async (_, { rejectWithValue }) => {
-//     try {
-//       const res = await fetch("https://edu-hawk-server.onrender.com/api/product");
-
-//       if (!res.ok) {
-//         throw new Error(`HTTP ${res.status} – ${res.statusText}`);
-//       }
-
-//       const json = await res.json();
-//       console.log("Products raw response:", json);
-
-//       const productArray = Array.isArray(json)
-//         ? json
-//         : Array.isArray(json?.data)
-//           ? json.data
-//           : (json?.products ?? json?.results ?? []);
-
-//       return productArray;
-//     } catch (err) {
-//       return rejectWithValue(err.message || "Failed to load products");
-//     }
-//   },
-// );
-
-// // Fetch Single Product by ID
-// export const fetchProductById = createAsyncThunk(
-//   "products/fetchProductById",
-//   async (id, { rejectWithValue }) => {
-//     try {
-//       const res = await fetch(`https://edu-hawk-server.onrender.com/api/product/${id}`);
-
-//       if (!res.ok) {
-//         throw new Error(`HTTP ${res.status} – ${res.statusText}`);
-//       }
-
-//       const json = await res.json();
-//       console.log("Single Product raw response:", json);
-
-//       const product = json?.data ?? json;
-//       if (!product) throw new Error("Product not found");
-
-//       return product;
-//     } catch (err) {
-//       return rejectWithValue(err.message || "Failed to fetch product");
-//     }
-//   },
-// );
-
-// const initialState = {
-//   products: [],
-//   currentProduct: null,
-//   relatedPosts: [],
-//   status: "idle",
-//   detailStatus: "idle",
-//   error: null,
-//   categories: ["All"],
-//   activeCategory: "All",
-//   searchQuery: "",
-//   currentPage: 1,
-//   itemsPerPage: 9,
-// };
-
-// const productsSlice = createSlice({
-//   name: "products",
-//   initialState,
-//   reducers: {
-//     setActiveCategory: (state, action) => {
-//       state.activeCategory = action.payload;
-//       state.currentPage = 1;
-//     },
-//     setSearchQuery: (state, action) => {
-//       state.searchQuery = action.payload.trim();
-//       state.currentPage = 1;
-//     },
-//     setCurrentPage: (state, action) => {
-//       state.currentPage = Number(action.payload);
-//     },
-//     resetFilters: (state) => {
-//       state.activeCategory = "All";
-//       state.searchQuery = "";
-//       state.currentPage = 1;
-//     },
-//     clearCurrentProduct: (state) => {
-//       state.currentProduct = null;
-//       state.relatedPosts = [];
-//     },
-//   },
-//   extraReducers: (builder) => {
-//     builder
-//       .addCase(fetchProducts.pending, (state) => {
-//         state.status = "loading";
-//         state.error = null;
-//       })
-//       .addCase(fetchProducts.fulfilled, (state, action) => {
-//         state.status = "succeeded";
-//         state.products = action.payload;
-
-//         const uniqueCategories = [
-//           "All",
-//           ...new Set(
-//             action.payload
-//               .map((p) => p?.category?.name ?? null)
-//               .filter(Boolean),
-//           ),
-//         ];
-//         state.categories = uniqueCategories;
-//       })
-//       .addCase(fetchProducts.rejected, (state, action) => {
-//         state.status = "failed";
-//         state.error = action.payload;
-//       })
-
-//       .addCase(fetchProductById.pending, (state) => {
-//         state.detailStatus = "loading";
-//         state.error = null;
-//       })
-//       .addCase(fetchProductById.fulfilled, (state, action) => {
-//         state.detailStatus = "succeeded";
-//         state.currentProduct = action.payload;
-//       })
-//       .addCase(fetchProductById.rejected, (state, action) => {
-//         state.detailStatus = "failed";
-//         state.error = action.payload;
-//       });
-//   },
-// });
-
-// export const {
-//   setActiveCategory,
-//   setSearchQuery,
-//   setCurrentPage,
-//   resetFilters,
-//   clearCurrentProduct,
-// } = productsSlice.actions;
-
-// // ====================== SELECTORS ======================
-// export const selectProducts = (state) => state.products.products;
-// export const selectCurrentProduct = (state) => state.products.currentProduct;
-// export const selectDetailStatus = (state) => state.products.detailStatus;
-// export const selectCategories = (state) => state.products.categories;
-// export const selectActiveCategory = (state) => state.products.activeCategory;
-// export const selectSearchQuery = (state) => state.products.searchQuery;
-// export const selectProductsStatus = (state) => state.products.status;
-// export const selectProductsError = (state) => state.products.error;
-// export const selectCurrentPage = (state) => state.products.currentPage;
-// export const selectItemsPerPage = (state) => state.products.itemsPerPage;
-
-// // Combined selector for Blog List Page (This was missing!)
-// export const selectVisibleProducts = (state) => {
-//   const { products, activeCategory, searchQuery, currentPage, itemsPerPage } =
-//     state.products;
-
-//   let result = products;
-
-//   // Category Filter
-//   if (activeCategory !== "All") {
-//     result = result.filter((p) => p?.category?.name === activeCategory);
-//   }
-
-//   // Search Filter
-//   if (searchQuery) {
-//     const lowerQuery = searchQuery.toLowerCase();
-//     result = result.filter((p) =>
-//       (p?.name || "").toLowerCase().includes(lowerQuery),
-//     );
-//   }
-
-//   // Pagination
-//   const totalItems = result.length;
-//   const totalPages = Math.ceil(totalItems / itemsPerPage) || 1;
-//   const safeCurrentPage = Math.min(Math.max(currentPage, 1), totalPages);
-//   const startIndex = (safeCurrentPage - 1) * itemsPerPage;
-//   const paginatedItems = result.slice(startIndex, startIndex + itemsPerPage);
-
-//   return {
-//     items: paginatedItems,
-//     totalItems,
-//     totalPages,
-//     currentPage: safeCurrentPage,
-//   };
-// };
-
-// export const selectFilteredProducts = selectVisibleProducts;
-
-// export default productsSlice.reducer;
-
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
+
+// AWS API (Uncomment when AWS backend deployment is ready):
+// const API_BASE = "https://api.eduhawk.in";
+
+// Render API (Currently active):
+const API_BASE = "https://edu-hawk-server.onrender.com";
 
 // Fetch All Products
 export const fetchProducts = createAsyncThunk(
   "products/fetchProducts",
   async (_, { getState, rejectWithValue }) => {
     try {
+      /*
+      // When AWS API is ready, switch to:
+      // const res = await fetch("https://api.eduhawk.in/api/product");
+      */
+
       const { activeCategory, searchQuery, currentPage, itemsPerPage } =
         getState().products;
       const params = new URLSearchParams({
@@ -206,8 +26,9 @@ export const fetchProducts = createAsyncThunk(
       if (activeCategory !== "All") params.set("category", activeCategory);
       if (searchQuery) params.set("search", searchQuery);
 
+      // Render Paginated API
       const res = await fetch(
-        `https://edu-hawk-server.onrender.com/api/product/paginated?${params.toString()}`,
+        `${API_BASE}/api/product/paginated?${params.toString()}`,
       );
 
       if (!res.ok) {
@@ -229,9 +50,7 @@ export const fetchCategories = createAsyncThunk(
   "products/fetchCategories",
   async (_, { rejectWithValue }) => {
     try {
-      const res = await fetch(
-        "https://edu-hawk-server.onrender.com/api/blogcategory",
-      );
+      const res = await fetch(`${API_BASE}/api/blogcategory`);
       if (!res.ok) throw new Error(`HTTP ${res.status} - ${res.statusText}`);
 
       const json = await res.json();
@@ -254,20 +73,20 @@ export const fetchProductBySlugOrId = createAsyncThunk(
     }
 
     const endpointCandidates = [
-      `https://edu-hawk-server.onrender.com/api/blog/${target}`,
-      `https://edu-hawk-server.onrender.com/api/product/${target}`,
-      `https://edu-hawk-server.onrender.com/api/product/slug/${target}`,
+      `${API_BASE}/api/blog/${target}`,
+      `${API_BASE}/api/product/${target}`,
+      `${API_BASE}/api/product/slug/${target}`,
     ];
 
     const fetchCandidate = async (url) => {
-      const res = await fetch(url);
-      if (res.status === 404) {
+      try {
+        const res = await fetch(url);
+        if (res.status === 404) return null;
+        if (!res.ok) throw new Error(`HTTP ${res.status} – ${res.statusText}`);
+        return res;
+      } catch {
         return null;
       }
-      if (!res.ok) {
-        throw new Error(`HTTP ${res.status} – ${res.statusText}`);
-      }
-      return res;
     };
 
     try {
@@ -276,9 +95,8 @@ export const fetchProductBySlugOrId = createAsyncThunk(
         if (!res) continue;
 
         const json = await res.json();
-
         const product = json?.data ?? json;
-        if (product) {
+        if (product && (product._id || product.name)) {
           return product;
         }
       }
@@ -339,9 +157,16 @@ const productsSlice = createSlice({
       })
       .addCase(fetchProducts.fulfilled, (state, action) => {
         state.status = "succeeded";
-        state.products = action.payload.products;
-        state.totalItems = action.payload.pagination.total ?? 0;
-        state.totalPages = action.payload.pagination.totalPages ?? 1;
+        const items = action.payload.products || [];
+        state.products = items;
+
+        if (action.payload.pagination && action.payload.pagination.total !== undefined) {
+          state.totalItems = action.payload.pagination.total;
+          state.totalPages = action.payload.pagination.totalPages || 1;
+        } else {
+          state.totalItems = items.length;
+          state.totalPages = Math.ceil(items.length / state.itemsPerPage) || 1;
+        }
       })
       .addCase(fetchProducts.rejected, (state, action) => {
         state.status = "failed";
@@ -389,7 +214,7 @@ export const selectItemsPerPage = (state) => state.products.itemsPerPage;
 export const selectTotalItems = (state) => state.products.totalItems;
 export const selectTotalPages = (state) => state.products.totalPages;
 
-// Visible Products Selector (with pagination & filters)
+// Visible Products Selector
 export const selectVisibleProducts = (state) => {
   return {
     items: state.products.products,
