@@ -1,3 +1,4 @@
+import { useLocation } from "react-router-dom";
 import { formatRichText, EligibilityCtaCard } from "../../../../component/CoursePageKit";
 import React, { useEffect, useRef, useState } from "react";
 import SeoHead from "../../../../component/SeoHead";
@@ -443,6 +444,8 @@ const Groups = ({ groups }) => (
 );
 
 const ExecutiveMbaAbroad = () => {
+  const location = useLocation();
+  const canonicalPath = location.pathname.includes("working-professionals") ? "/study-abroad/working-professionals" : "/courses/executive-mba";
   const [openFaq, setOpenFaq] = useState(null);
   const pageRef = useRef(null);
   const toggleFaq = (i) => setOpenFaq(openFaq === i ? null : i);
@@ -478,7 +481,7 @@ const ExecutiveMbaAbroad = () => {
       <SeoHead
         title={page.title}
         description={page.description}
-        path="/courses/executive-mba"
+        path={canonicalPath}
       >
         {page.faqs.length > 0 && (
           <script type="application/ld+json">

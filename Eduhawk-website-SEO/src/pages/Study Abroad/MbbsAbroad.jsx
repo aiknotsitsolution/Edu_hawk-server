@@ -1,7 +1,10 @@
 import React, { useState } from "react";
+import { useLocation } from "react-router-dom";
 import SeoHead from "../../component/SeoHead.jsx";
 
 const MbbsAbroad = () => {
+  const location = useLocation();
+  const canonicalPath = location.pathname.includes("courses/mbbs") ? "/courses/mbbs" : "/study-abroad";
   const [openFaq, setOpenFaq] = useState(null);
 
   const toggleFaq = (index) => {
@@ -124,7 +127,7 @@ const MbbsAbroad = () => {
       <SeoHead
         title="Study MBBS Abroad with Confidence | NMC-Recognised Universities | Edu Hawk"
         description="NMC-recognised universities, transparent fees, safe campuses and complete end-to-end support - from admission to pre-departure. Honest guidance by Eduhawk."
-        path="/study-abroad"
+        path={canonicalPath}
         ogType="website"
       />
       {/* Header */}
