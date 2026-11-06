@@ -1,23 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import Eduhawk from "../assets/Eduhawk.webp"; // ← adjust path if needed
-
-const Navbar = () => {
-  const location = useLocation();
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [isMedicalOpen, setIsMedicalOpen] = useState(false);
-  const [isAbroadOpen, setIsAbroadOpen] = useState(false);
-  const [isStudyAbroadOpen, setIsStudyAbroadOpen] = useState(false);
-  const [isTestsOpen, setIsTestsOpen] = useState(true);
-  const [openSection, setOpenSection] = useState(null);
-  // Mobile nested toggles
-  const [isEngineeringOpen, setIsEngineeringOpen] = useState(false);
-  const [isBusinessOpen, setIsBusinessOpen] = useState(false);
-
-  // Country mega-menu state
-  const [selectedCountry, setSelectedCountry] = useState("USA");
-
-  const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
 
   // Countries for Study Abroad mega menu
   const studyAbroadCountries = [
@@ -31,6 +14,106 @@ const Navbar = () => {
     "Finland",
     "Other",
   ];
+
+const Navbar = () => {
+  const location = useLocation();
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isMedicalOpen, setIsMedicalOpen] = useState(false);
+  const [isAbroadOpen, setIsAbroadOpen] = useState(false);
+  const [isStudyAbroadOpen, setIsStudyAbroadOpen] = useState(false);
+  const [isTestsOpen, setIsTestsOpen] = useState(true);
+  const [openSection, setOpenSection] = useState(null);
+  // Mobile nested toggles
+  const [isEngineeringOpen, setIsEngineeringOpen] = useState(false);
+  const [isBusinessOpen, setIsBusinessOpen] = useState(false);
+
+  // Helper to detect country from URL
+  const getCountryFromLocation = (pathname, searchStr) => {
+    const path = (pathname || "").toLowerCase();
+    const search = new URLSearchParams(searchStr || "");
+    const countryParam = (search.get("country") || "").toLowerCase();
+
+    return (
+      studyAbroadCountries.find((c) => {
+        const cLower = c.toLowerCase();
+        return path.includes(`/${cLower}`) || countryParam === cLower;
+      }) || "USA"
+    );
+  };
+
+  // Country mega-menu state - initialized from current URL
+  const [selectedCountry, setSelectedCountry] = useState(() =>
+    getCountryFromLocation(location.pathname, location.search)
+  );
+
+  // Automatically sync selectedCountry with current route/country in URL
+  useEffect(() => {
+    const matched = getCountryFromLocation(location.pathname, location.search);
+    setSelectedCountry(matched);
+  }, [location.pathname, location.search]);
+
+  const handleMenuLeave = () => {
+    const current = getCountryFromLocation(location.pathname, location.search);
+    setSelectedCountry(current);
+  };
+
+  const finlandStandaloneRoutes = new Set([
+    "architecture",
+    "bba",
+    "bbs",
+    "biotechnology",
+    "business-management",
+    "dentistry",
+    "executive-mba",
+    "hospitality-management",
+    "international-business",
+    "language-courses",
+    "law",
+    "mba",
+    "mbs",
+    "nursing",
+    "pharmacy",
+    "physiotherapy",
+    "public-health",
+    "summer-courses",
+    "winter-courses",
+  ]);
+
+  const getCourseHref = (path, prefix = "/courses") => {
+    if (selectedCountry === "Finland") {
+      if (prefix === "/courses/ug") {
+        if (path === "engineering") return "/study-abroad/finland/ug/engineering";
+        return `/study-abroad/finland/ug/${path}`;
+      }
+      if (prefix === "/courses/pg") {
+        return `/study-abroad/finland/pg/${path}`;
+      }
+      if (prefix === "/study-abroad") {
+        if (finlandStandaloneRoutes.has(path)) return `/study-abroad/finland/${path}`;
+        if (path === "working-professionals") return "/study-abroad/working-professionals?country=finland";
+        return `/study-abroad/finland/business-management`;
+      }
+      if (path === "engineering") return "/study-abroad/finland/ug/engineering";
+      if (finlandStandaloneRoutes.has(path)) {
+        return `/study-abroad/finland/${path}`;
+      }
+      if (path === "marketing-management" || path === "accounting-finance") {
+        return `/courses/${path}?country=finland`;
+      }
+      if (path === "hr-management" || path === "other-courses") {
+        return `/study-abroad/finland/business-management`;
+      }
+      if (path === "medical-abroad") {
+        return `/courses/medical-abroad?country=finland`;
+      }
+      return `${prefix}/${path}?country=finland`;
+    }
+    return `${prefix}/${path}?country=${selectedCountry.toLowerCase()}`;
+  };
+
+  const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
+
+
 
   // Original data (same for all countries)
   const abroadCountries = [
@@ -205,7 +288,7 @@ const Navbar = () => {
             </a>
 
             {/* ========== STUDY ABROAD MEGA MENU ========== */}
-            <div className="relative group">
+            <div className="relative group" onMouseLeave={handleMenuLeave}>
               <button
                 onClick={() => setIsStudyAbroadOpen(!isStudyAbroadOpen)}
                 className={`${isActive("/study-abroad") ? "text-[#F48C06]" : "text-[#2F327D]"} hover:text-[#F48C06] transition-colors flex items-center gap-1 py-2`}
@@ -242,6 +325,7 @@ const Navbar = () => {
                       <button
                         key={country}
                         onClick={() => setSelectedCountry(country)}
+                        onMouseEnter={() => setSelectedCountry(country)}
                         className={`w-full text-left px-4 py-3 text-sm font-medium flex items-center justify-between transition-colors ${
                           selectedCountry === country
                             ? "bg-[#334155] text-white"
@@ -289,7 +373,7 @@ const Navbar = () => {
                           ].map((course) => (
                             <li key={course.path}>
                               <a
-                                href={`/courses/${course.path}?country=${selectedCountry.toLowerCase()}`}
+                                href={getCourseHref(course.path, "/courses")}
                                 className="flex items-center gap-2.5 px-2 py-1.5 rounded-lg text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors group/item"
                               >
                                 <span className="w-6 h-6 rounded-md bg-orange-50 flex items-center justify-center text-[#F48C06] group-hover/item:bg-[#F48C06] group-hover/item:text-white transition-colors shrink-0">
@@ -328,7 +412,7 @@ const Navbar = () => {
                           {/* Engineering → UG & PG → Branches */}
                           <li className="relative group/eng">
                             <a
-                              href={`/courses/engineering?country=${selectedCountry.toLowerCase()}`}
+                              href={getCourseHref("engineering", "/courses")}
                               className="flex items-center justify-between gap-2.5 px-2 py-1.5 rounded-lg text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors group/item"
                             >
                               <div className="flex items-center gap-2.5">
@@ -370,7 +454,7 @@ const Navbar = () => {
                               {/* UG */}
                               <div className="relative group/ug">
                                 <a
-                                  href={`/courses/ug/engineering?country=${selectedCountry.toLowerCase()}`}
+                                  href={getCourseHref("engineering", "/courses/ug")}
                                   className="flex items-center justify-between px-4 py-2.5 text-[13px] text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors"
                                 >
                                   <span className="font-medium">
@@ -395,7 +479,7 @@ const Navbar = () => {
                                   {engineeringBranches.map((branch) => (
                                     <a
                                       key={`ug-${branch.path}`}
-                                      href={`/courses/ug/${branch.path}?country=${selectedCountry.toLowerCase()}`}
+                                      href={getCourseHref(branch.path, "/courses/ug")}
                                       className="flex items-center gap-2.5 px-4 py-1.5 text-[13px] text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors"
                                     >
                                       <span className="w-1.5 h-1.5 rounded-full bg-[#F48C06] opacity-60"></span>
@@ -407,7 +491,7 @@ const Navbar = () => {
                               {/* PG */}
                               <div className="relative group/pg">
                                 <a
-                                  href={`/courses/pg/engineering?country=${selectedCountry.toLowerCase()}`}
+                                  href={getCourseHref("engineering", "/courses/pg")}
                                   className="flex items-center justify-between px-4 py-2.5 text-[13px] text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors"
                                 >
                                   <span className="font-medium">
@@ -432,7 +516,7 @@ const Navbar = () => {
                                   {engineeringBranches.map((branch) => (
                                     <a
                                       key={`pg-${branch.path}`}
-                                      href={`/courses/pg/${branch.path}?country=${selectedCountry.toLowerCase()}`}
+                                      href={getCourseHref(branch.path, "/courses/pg")}
                                       className="flex items-center gap-2.5 px-4 py-1.5 text-[13px] text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors"
                                     >
                                       <span className="w-1.5 h-1.5 rounded-full bg-[#F48C06] opacity-60"></span>
@@ -443,7 +527,7 @@ const Navbar = () => {
                               </div>
                               <div className="border-t border-gray-100 my-1"></div>
                               <a
-                                href={`/courses/engineering?country=${selectedCountry.toLowerCase()}`}
+                                href={getCourseHref("engineering", "/courses")}
                                 className="flex items-center gap-2.5 px-4 py-2 text-[13px] font-medium text-[#F48C06] hover:bg-orange-50 transition-colors"
                               >
                                 View All Engineering →
@@ -460,7 +544,7 @@ const Navbar = () => {
                           {/* Business Management with nested courses */}
                           <li className="relative group/biz">
                             <a
-                              href={`/courses/business-management?country=${selectedCountry.toLowerCase()}`}
+                              href={getCourseHref("business-management", "/courses")}
                               className="flex items-center justify-between gap-2.5 px-2 py-1.5 rounded-lg text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors group/item"
                             >
                               <div className="flex items-center gap-2.5">
@@ -502,7 +586,7 @@ const Navbar = () => {
                               {businessCourses.map((course) => (
                                 <a
                                   key={course.path}
-                                  href={`/courses/${course.path}?country=${selectedCountry.toLowerCase()}`}
+                                  href={getCourseHref(course.path, "/courses")}
                                   className="flex items-center gap-2.5 px-3 py-1.5 text-[13px] text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors"
                                 >
                                   <span className="w-1.5 h-1.5 rounded-full bg-[#F48C06] opacity-60"></span>
@@ -511,7 +595,7 @@ const Navbar = () => {
                               ))}
                               <div className="border-t border-gray-100 my-1"></div>
                               <a
-                                href={`/courses/business-management?country=${selectedCountry.toLowerCase()}`}
+                                href={getCourseHref("business-management", "/courses")}
                                 className="flex items-center gap-2.5 px-3 py-1.5 text-[13px] font-medium text-[#F48C06] hover:bg-orange-50 transition-colors"
                               >
                                 View All Business Courses →
@@ -531,7 +615,7 @@ const Navbar = () => {
                           ].map((course) => (
                             <li key={course.path}>
                               <a
-                                href={`/courses/${course.path}?country=${selectedCountry.toLowerCase()}`}
+                                href={getCourseHref(course.path, "/courses")}
                                 className="flex items-center gap-2.5 px-2 py-1.5 rounded-lg text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors group/item"
                               >
                                 <span className="w-6 h-6 rounded-md bg-orange-50 flex items-center justify-center text-[#F48C06] group-hover/item:bg-[#F48C06] group-hover/item:text-white transition-colors shrink-0">
@@ -596,7 +680,11 @@ const Navbar = () => {
                           ].map((item) => (
                             <li key={item.path}>
                               <a
-                                href={`${item.path}?country=${selectedCountry.toLowerCase()}`}
+                                href={
+                                  item.path === "/blog"
+                                    ? item.path
+                                    : getCourseHref(item.path.replace("/study-abroad/", ""), "/study-abroad")
+                                }
                                 className="flex items-center gap-2.5 px-2 py-2 rounded-lg text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors group/item"
                               >
                                 <span className="w-7 h-7 rounded-lg bg-orange-50 flex items-center justify-center text-[#F48C06] group-hover/item:bg-[#F48C06] group-hover/item:text-white transition-colors shrink-0">
@@ -1160,7 +1248,7 @@ const Navbar = () => {
                           {engineeringBranches.map((b) => (
                             <a
                               key={`ug-${b.path}`}
-                              href={`/courses/ug/${b.path}?country=${selectedCountry.toLowerCase()}`}
+                              href={getCourseHref(b.path, "/courses/ug")}
                               className="block py-2 px-14 text-sm text-[#2F327D]"
                             >
                               {b.name}
@@ -1172,7 +1260,7 @@ const Navbar = () => {
                           {engineeringBranches.map((b) => (
                             <a
                               key={`pg-${b.path}`}
-                              href={`/courses/pg/${b.path}?country=${selectedCountry.toLowerCase()}`}
+                              href={getCourseHref(b.path, "/courses/pg")}
                               className="block py-2 px-14 text-sm text-[#2F327D]"
                             >
                               {b.name}
@@ -1210,7 +1298,7 @@ const Navbar = () => {
                           {businessCourses.map((c) => (
                             <a
                               key={c.path}
-                              href={`/courses/${c.path}?country=${selectedCountry.toLowerCase()}`}
+                              href={getCourseHref(c.path, "/courses")}
                               className="block py-2 px-12 text-sm text-[#2F327D]"
                             >
                               {c.name}
@@ -1243,19 +1331,19 @@ const Navbar = () => {
                       Programs & More
                     </p>
                     <a
-                      href={`/study-abroad/language-courses?country=${selectedCountry.toLowerCase()}`}
+                      href={getCourseHref("language-courses", "/study-abroad")}
                       className="block py-2.5 px-8 text-[#2F327D]"
                     >
                       Language Courses
                     </a>
                     <a
-                      href={`/study-abroad/summer-courses?country=${selectedCountry.toLowerCase()}`}
+                      href={getCourseHref("summer-courses", "/study-abroad")}
                       className="block py-2.5 px-8 text-[#2F327D]"
                     >
                       Summer Courses
                     </a>
                     <a
-                      href={`/study-abroad/winter-courses?country=${selectedCountry.toLowerCase()}`}
+                      href={getCourseHref("winter-courses", "/study-abroad")}
                       className="block py-2.5 px-8 text-[#2F327D]"
                     >
                       Winter Courses

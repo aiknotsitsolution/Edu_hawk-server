@@ -5,7 +5,7 @@ import { Provider } from "react-redux";
 import { HelmetProvider } from "react-helmet-async";
 import store from "./store.js";
 import MainLayout from "./pages/layouts/MainLayout.jsx";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 
 // Import all page components
 import Home from "./pages/HeroSection.jsx";
@@ -36,15 +36,15 @@ import Landingpage from "./pages/Landingpage/Landingpage.jsx";
 import TermsAndConditions from "./pages/TermsAndConditions/TermsAndConditions.jsx";
 import PrivacyPolicy from "./pages/PrivacyPolicy/PrivacyPolicy.jsx";
 import CookiesPolicy from "./pages/CookiesPolicy/CookiesPolicy.jsx";
-import MbbsAbroad from "./pages/Study Abroad/MbbsAbroad.jsx";
-import MedicalAbroad from "./pages/Study Abroad/MedicalAbroad.jsx";
+import MbbsAbroad from "./pages/Study Abroad/USA/MbbsAbroad.jsx";
+import MedicalAbroad from "./pages/Study Abroad/USA/MedicalAbroad.jsx";
 import DentistryAbroad from "./pages/Study Abroad/USA/MBBS Abroad/DentistryAbroad.jsx";
 import NursingAbroad from "./pages/Study Abroad/USA/MBBS Abroad/NursingAbroad.jsx";
 import PharmacyAbroad from "./pages/Study Abroad/USA/MBBS Abroad/PharmacyAbroad.jsx";
 import PhysiotherapyAbroad from "./pages/Study Abroad/USA/MBBS Abroad/PhysiotherapyAbroad.jsx";
 import PublicHealthAbroad from "./pages/Study Abroad/USA/MBBS Abroad/PublicHealth.jsx";
 import BiotechnologyAbroad from "./pages/Study Abroad/USA/MBBS Abroad/Biotechnology.jsx";
-import Engineering from "./pages/Study Abroad/Engineering.jsx";
+import Engineering from "./pages/Study Abroad/USA/Engineering.jsx";
 import BusinessManagementAbroad from "./pages/Study Abroad/USA/BusinessManagement/business-management.jsx";
 import MbaAbroad from "./pages/Study Abroad/USA/MBA/mba.jsx";
 import MbsAbroad from "./pages/Study Abroad/USA/MBS/mbs.jsx";
@@ -59,7 +59,7 @@ import LawAbroad from "./pages/Study Abroad/USA/Law/law.jsx";
 import LanguageCoursesAbroad from "./pages/Study Abroad/USA/LanguageCourses/language-courses.jsx";
 import SummerCoursesAbroad from "./pages/Study Abroad/USA/SummerCourses/summer-courses.jsx";
 import WinterCoursesAbroad from "./pages/Study Abroad/USA/WinterCourses/winter-courses.jsx";
-import AccountingFinance from "./pages/Study Abroad/AccountingFinance.jsx";
+import AccountingFinance from "./pages/Study Abroad/USA/AccountingFinance.jsx";
 import UndergraduateEngineering from "./pages/Study Abroad/USA/Engineering/ug/undergraduate.jsx";
 import ComputerEngineeringUG from "./pages/Study Abroad/USA/Engineering/ug/pages/ComputerEngineering.jsx";
 import MechanicalEngineeringUG from "./pages/Study Abroad/USA/Engineering/ug/pages/MechanicalEngineering.jsx";
@@ -80,6 +80,49 @@ import ChemicalEngineeringPG from "./pages/Study Abroad/USA/Engineering/pg/pages
 import AerospaceEngineeringPG from "./pages/Study Abroad/USA/Engineering/pg/pages/AerospaceEngineering.jsx";
 import BiomedicalEngineeringPG from "./pages/Study Abroad/USA/Engineering/pg/pages/BiomedicalEngineering.jsx";
 import AutomobileEngineeringPG from "./pages/Study Abroad/USA/Engineering/pg/pages/AutomobileEngineering.jsx";
+
+// Finland SSR Imports
+import ArchitectureFinland from "./pages/Study Abroad/Finland/Architecture/architecture.jsx";
+import BBAFinland from "./pages/Study Abroad/Finland/BBA/bba.jsx";
+import BBSFinland from "./pages/Study Abroad/Finland/BBS/bbs.jsx";
+import BusinessManagementFinland from "./pages/Study Abroad/Finland/BusinessManagement/business-management.jsx";
+import InformationTechnologyFinland from "./pages/Study Abroad/Finland/Engineering/InformationTechnology.jsx";
+import MastersinAerospaceEngineeringPGFinland from "./pages/Study Abroad/Finland/Engineering/pg/pages/AerospaceEngineering.jsx";
+import MastersinAutomobileEngineeringPGFinland from "./pages/Study Abroad/Finland/Engineering/pg/pages/AutomobileEngineering.jsx";
+import MastersinBiomedicalEngineeringPGFinland from "./pages/Study Abroad/Finland/Engineering/pg/pages/BiomedicalEngineering.jsx";
+import MastersinChemicalEngineeringPGFinland from "./pages/Study Abroad/Finland/Engineering/pg/pages/ChemicalEngineering.jsx";
+import MastersinCivilEngineeringPGFinland from "./pages/Study Abroad/Finland/Engineering/pg/pages/CivilEngineering.jsx";
+import MastersinComputerEngineeringPGFinland from "./pages/Study Abroad/Finland/Engineering/pg/pages/ComputerEngineering.jsx";
+import MastersinComputerScienceEngineeringPGFinland from "./pages/Study Abroad/Finland/Engineering/pg/pages/ComputerScienceEngineering.jsx";
+import MastersinElectricalEngineeringPGFinland from "./pages/Study Abroad/Finland/Engineering/pg/pages/ElectricalEngineering.jsx";
+import MastersinElectronicsEngineeringPGFinland from "./pages/Study Abroad/Finland/Engineering/pg/pages/ElectronicsCommunication.jsx";
+import MastersinMechanicalEngineeringPGFinland from "./pages/Study Abroad/Finland/Engineering/pg/pages/MechanicalEngineering.jsx";
+import AerospaceRelatedEngineeringUGFinland from "./pages/Study Abroad/Finland/Engineering/ug/pages/AerospaceEngineering.jsx";
+import AutomobileEngineeringUGFinland from "./pages/Study Abroad/Finland/Engineering/ug/pages/AutomobileEngineering.jsx";
+import BiomedicalEngineeringUGFinland from "./pages/Study Abroad/Finland/Engineering/ug/pages/BiomedicalEngineering.jsx";
+import ChemicalEngineeringUGFinland from "./pages/Study Abroad/Finland/Engineering/ug/pages/ChemicalEngineering.jsx";
+import CivilEngineeringUGFinland from "./pages/Study Abroad/Finland/Engineering/ug/pages/CivilEngineering.jsx";
+import ComputerEngineeringUGFinland from "./pages/Study Abroad/Finland/Engineering/ug/pages/ComputerEngineering.jsx";
+import ComputerScienceEngineeringUGFinland from "./pages/Study Abroad/Finland/Engineering/ug/pages/ComputerScienceEngineering.jsx";
+import ElectricalEngineeringUGFinland from "./pages/Study Abroad/Finland/Engineering/ug/pages/ElectricalEngineering.jsx";
+import ElectronicsEngineeringUGFinland from "./pages/Study Abroad/Finland/Engineering/ug/pages/ElectronicsCommunication.jsx";
+import MechanicalEngineeringUGFinland from "./pages/Study Abroad/Finland/Engineering/ug/pages/MechanicalEngineering.jsx";
+import BachelorsinEngineeringFinland from "./pages/Study Abroad/Finland/Engineering/ug/undergraduate.jsx";
+import ExecutiveMBAFinland from "./pages/Study Abroad/Finland/ExecutiveMBA/executive-mba.jsx";
+import HospitalityManagementFinland from "./pages/Study Abroad/Finland/HospitalityManagement/hospitality-management.jsx";
+import InternationalBusinessFinland from "./pages/Study Abroad/Finland/InternationalBusiness/international-business.jsx";
+import LanguageCoursesFinland from "./pages/Study Abroad/Finland/LanguageCourses/language-courses.jsx";
+import LawFinland from "./pages/Study Abroad/Finland/Law/law.jsx";
+import MBAFinland from "./pages/Study Abroad/Finland/MBA/mba.jsx";
+import BiotechnologyFinland from "./pages/Study Abroad/Finland/MBBS Abroad/Biotechnology.jsx";
+import DentistryFinland from "./pages/Study Abroad/Finland/MBBS Abroad/DentistryAbroad.jsx";
+import NursingFinland from "./pages/Study Abroad/Finland/MBBS Abroad/NursingAbroad.jsx";
+import PharmacyFinland from "./pages/Study Abroad/Finland/MBBS Abroad/PharmacyAbroad.jsx";
+import PhysiotherapyFinland from "./pages/Study Abroad/Finland/MBBS Abroad/PhysiotherapyAbroad.jsx";
+import PublicHealthFinland from "./pages/Study Abroad/Finland/MBBS Abroad/PublicHealth.jsx";
+import MBSFinland from "./pages/Study Abroad/Finland/MBS/mbs.jsx";
+import SummerCoursesFinland from "./pages/Study Abroad/Finland/SummerCourses/summer-courses.jsx";
+import WinterCoursesFinland from "./pages/Study Abroad/Finland/WinterCourses/winter-courses.jsx";
 
 export async function render(url) {
   const helmetContext = {};
@@ -161,6 +204,52 @@ export async function render(url) {
               <Route path="courses/pg/aerospace-engineering" element={<AerospaceEngineeringPG />} />
               <Route path="courses/pg/biomedical-engineering" element={<BiomedicalEngineeringPG />} />
               <Route path="courses/pg/automobile-engineering" element={<AutomobileEngineeringPG />} />
+              {/* Finland SSR Routes */}
+              <Route path="study-abroad/finland/architecture" element={<ArchitectureFinland />} />
+              <Route path="study-abroad/finland/bba" element={<BBAFinland />} />
+              <Route path="study-abroad/finland/bbs" element={<BBSFinland />} />
+              <Route path="study-abroad/finland/business-management" element={<BusinessManagementFinland />} />
+              <Route path="study-abroad/finland/it" element={<InformationTechnologyFinland />} />
+              <Route path="study-abroad/finland/pg/aerospace-engineering" element={<MastersinAerospaceEngineeringPGFinland />} />
+              <Route path="study-abroad/finland/pg/automobile-engineering" element={<MastersinAutomobileEngineeringPGFinland />} />
+              <Route path="study-abroad/finland/pg/biomedical-engineering" element={<MastersinBiomedicalEngineeringPGFinland />} />
+              <Route path="study-abroad/finland/pg/chemical-engineering" element={<MastersinChemicalEngineeringPGFinland />} />
+              <Route path="study-abroad/finland/pg/civil-engineering" element={<MastersinCivilEngineeringPGFinland />} />
+              <Route path="study-abroad/finland/pg/computer-engineering" element={<MastersinComputerEngineeringPGFinland />} />
+              <Route path="study-abroad/finland/pg/computer-science" element={<MastersinComputerScienceEngineeringPGFinland />} />
+              <Route path="study-abroad/finland/pg/electrical-engineering" element={<MastersinElectricalEngineeringPGFinland />} />
+              <Route path="study-abroad/finland/pg/electronics-communication" element={<MastersinElectronicsEngineeringPGFinland />} />
+              <Route path="study-abroad/finland/pg/mechanical-engineering" element={<MastersinMechanicalEngineeringPGFinland />} />
+              <Route path="study-abroad/finland/ug/aerospace-engineering" element={<AerospaceRelatedEngineeringUGFinland />} />
+              <Route path="study-abroad/finland/ug/automobile-engineering" element={<AutomobileEngineeringUGFinland />} />
+              <Route path="study-abroad/finland/ug/biomedical-engineering" element={<BiomedicalEngineeringUGFinland />} />
+              <Route path="study-abroad/finland/ug/chemical-engineering" element={<ChemicalEngineeringUGFinland />} />
+              <Route path="study-abroad/finland/ug/civil-engineering" element={<CivilEngineeringUGFinland />} />
+              <Route path="study-abroad/finland/ug/computer-engineering" element={<ComputerEngineeringUGFinland />} />
+              <Route path="study-abroad/finland/ug/computer-science" element={<ComputerScienceEngineeringUGFinland />} />
+              <Route path="study-abroad/finland/ug/electrical-engineering" element={<ElectricalEngineeringUGFinland />} />
+              <Route path="study-abroad/finland/ug/electronics-communication" element={<ElectronicsEngineeringUGFinland />} />
+              <Route path="study-abroad/finland/ug/mechanical-engineering" element={<MechanicalEngineeringUGFinland />} />
+              <Route path="study-abroad/finland/ug/engineering" element={<BachelorsinEngineeringFinland />} />
+              <Route path="study-abroad/finland/executive-mba" element={<ExecutiveMBAFinland />} />
+              <Route path="study-abroad/finland/hospitality-management" element={<HospitalityManagementFinland />} />
+              <Route path="study-abroad/finland/international-business" element={<InternationalBusinessFinland />} />
+              <Route path="study-abroad/finland/language-courses" element={<LanguageCoursesFinland />} />
+              <Route path="study-abroad/finland/law" element={<LawFinland />} />
+              <Route path="study-abroad/finland/mba" element={<MBAFinland />} />
+              <Route path="study-abroad/finland/biotechnology" element={<BiotechnologyFinland />} />
+              <Route path="study-abroad/finland/dentistry" element={<DentistryFinland />} />
+              <Route path="study-abroad/finland/nursing" element={<NursingFinland />} />
+              <Route path="study-abroad/finland/pharmacy" element={<PharmacyFinland />} />
+              <Route path="study-abroad/finland/physiotherapy" element={<PhysiotherapyFinland />} />
+              <Route path="study-abroad/finland/public-health" element={<PublicHealthFinland />} />
+              <Route path="study-abroad/finland/mbs" element={<MBSFinland />} />
+              <Route path="study-abroad/finland/summer-courses" element={<SummerCoursesFinland />} />
+              <Route path="study-abroad/finland/winter-courses" element={<WinterCoursesFinland />} />
+              <Route path="study-abroad/finland/marketing-management" element={<Navigate to="/courses/marketing-management?country=finland" replace />} />
+              <Route path="study-abroad/finland/accounting-finance" element={<Navigate to="/courses/accounting-finance?country=finland" replace />} />
+              <Route path="study-abroad/finland/hr-management" element={<Navigate to="/study-abroad/finland/business-management" replace />} />
+              <Route path="study-abroad/finland/other-courses" element={<Navigate to="/study-abroad/finland/business-management" replace />} />
               <Route path="terms-conditions" element={<TermsAndConditions />} />
               <Route path="privacy-policy" element={<PrivacyPolicy />} />
               <Route path="cookies-policy" element={<CookiesPolicy />} />

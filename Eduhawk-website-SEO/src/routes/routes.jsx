@@ -39,15 +39,15 @@ const Landingpage = lazy(() => import("../pages/Landingpage/Landingpage.jsx"));
 const TermsAndConditions = lazy(() => import("../pages/TermsAndConditions/TermsAndConditions.jsx"));
 const PrivacyPolicy = lazy(() => import("../pages/PrivacyPolicy/PrivacyPolicy.jsx"));
 const CookiesPolicy = lazy(() => import("../pages/CookiesPolicy/CookiesPolicy.jsx"));
-const MbbsAbroad = lazy(() => import("../pages/Study Abroad/MbbsAbroad.jsx"));
-const MedicalAbroad = lazy(() => import("../pages/Study Abroad/MedicalAbroad.jsx"));
+const MbbsAbroad = lazy(() => import("../pages/Study Abroad/USA/MbbsAbroad.jsx"));
+const MedicalAbroad = lazy(() => import("../pages/Study Abroad/USA/MedicalAbroad.jsx"));
 const DentistryAbroad = lazy(() => import("../pages/Study Abroad/USA/MBBS Abroad/DentistryAbroad.jsx"));
 const NursingAbroad = lazy(() => import("../pages/Study Abroad/USA/MBBS Abroad/NursingAbroad.jsx"));
 const PharmacyAbroad = lazy(() => import("../pages/Study Abroad/USA/MBBS Abroad/PharmacyAbroad.jsx"));
 const PhysiotherapyAbroad = lazy(() => import("../pages/Study Abroad/USA/MBBS Abroad/PhysiotherapyAbroad.jsx"));
 const PublicHealthAbroad = lazy(() => import("../pages/Study Abroad/USA/MBBS Abroad/PublicHealth.jsx"));
 const BiotechnologyAbroad = lazy(() => import("../pages/Study Abroad/USA/MBBS Abroad/Biotechnology.jsx"));
-const Engineering = lazy(() => import("../pages/Study Abroad/Engineering.jsx"));
+const Engineering = lazy(() => import("../pages/Study Abroad/USA/Engineering.jsx"));
 const BusinessManagementAbroad = lazy(() => import("../pages/Study Abroad/USA/BusinessManagement/business-management.jsx"));
 const MbaAbroad = lazy(() => import("../pages/Study Abroad/USA/MBA/mba.jsx"));
 const MbsAbroad = lazy(() => import("../pages/Study Abroad/USA/MBS/mbs.jsx"));
@@ -62,7 +62,7 @@ const LawAbroad = lazy(() => import("../pages/Study Abroad/USA/Law/law.jsx"));
 const LanguageCoursesAbroad = lazy(() => import("../pages/Study Abroad/USA/LanguageCourses/language-courses.jsx"));
 const SummerCoursesAbroad = lazy(() => import("../pages/Study Abroad/USA/SummerCourses/summer-courses.jsx"));
 const WinterCoursesAbroad = lazy(() => import("../pages/Study Abroad/USA/WinterCourses/winter-courses.jsx"));
-const AccountingFinance = lazy(() => import("../pages/Study Abroad/AccountingFinance.jsx"));
+const AccountingFinance = lazy(() => import("../pages/Study Abroad/USA/AccountingFinance.jsx"));
 const UndergraduateEngineering = lazy(() => import("../pages/Study Abroad/USA/Engineering/ug/undergraduate.jsx"));
 const ComputerEngineeringUG = lazy(() => import("../pages/Study Abroad/USA/Engineering/ug/pages/ComputerEngineering.jsx"));
 const MechanicalEngineeringUG = lazy(() => import("../pages/Study Abroad/USA/Engineering/ug/pages/MechanicalEngineering.jsx"));
@@ -83,6 +83,49 @@ const ChemicalEngineeringPG = lazy(() => import("../pages/Study Abroad/USA/Engin
 const AerospaceEngineeringPG = lazy(() => import("../pages/Study Abroad/USA/Engineering/pg/pages/AerospaceEngineering.jsx"));
 const BiomedicalEngineeringPG = lazy(() => import("../pages/Study Abroad/USA/Engineering/pg/pages/BiomedicalEngineering.jsx"));
 const AutomobileEngineeringPG = lazy(() => import("../pages/Study Abroad/USA/Engineering/pg/pages/AutomobileEngineering.jsx"));
+
+// Study Abroad - Finland Pages
+const ArchitectureFinland = lazy(() => import("../pages/Study Abroad/Finland/Architecture/architecture.jsx"));
+const BBAFinland = lazy(() => import("../pages/Study Abroad/Finland/BBA/bba.jsx"));
+const BBSFinland = lazy(() => import("../pages/Study Abroad/Finland/BBS/bbs.jsx"));
+const BusinessManagementFinland = lazy(() => import("../pages/Study Abroad/Finland/BusinessManagement/business-management.jsx"));
+const InformationTechnologyFinland = lazy(() => import("../pages/Study Abroad/Finland/Engineering/InformationTechnology.jsx"));
+const MastersinAerospaceEngineeringPGFinland = lazy(() => import("../pages/Study Abroad/Finland/Engineering/pg/pages/AerospaceEngineering.jsx"));
+const MastersinAutomobileEngineeringPGFinland = lazy(() => import("../pages/Study Abroad/Finland/Engineering/pg/pages/AutomobileEngineering.jsx"));
+const MastersinBiomedicalEngineeringPGFinland = lazy(() => import("../pages/Study Abroad/Finland/Engineering/pg/pages/BiomedicalEngineering.jsx"));
+const MastersinChemicalEngineeringPGFinland = lazy(() => import("../pages/Study Abroad/Finland/Engineering/pg/pages/ChemicalEngineering.jsx"));
+const MastersinCivilEngineeringPGFinland = lazy(() => import("../pages/Study Abroad/Finland/Engineering/pg/pages/CivilEngineering.jsx"));
+const MastersinComputerEngineeringPGFinland = lazy(() => import("../pages/Study Abroad/Finland/Engineering/pg/pages/ComputerEngineering.jsx"));
+const MastersinComputerScienceEngineeringPGFinland = lazy(() => import("../pages/Study Abroad/Finland/Engineering/pg/pages/ComputerScienceEngineering.jsx"));
+const MastersinElectricalEngineeringPGFinland = lazy(() => import("../pages/Study Abroad/Finland/Engineering/pg/pages/ElectricalEngineering.jsx"));
+const MastersinElectronicsEngineeringPGFinland = lazy(() => import("../pages/Study Abroad/Finland/Engineering/pg/pages/ElectronicsCommunication.jsx"));
+const MastersinMechanicalEngineeringPGFinland = lazy(() => import("../pages/Study Abroad/Finland/Engineering/pg/pages/MechanicalEngineering.jsx"));
+const AerospaceRelatedEngineeringUGFinland = lazy(() => import("../pages/Study Abroad/Finland/Engineering/ug/pages/AerospaceEngineering.jsx"));
+const AutomobileEngineeringUGFinland = lazy(() => import("../pages/Study Abroad/Finland/Engineering/ug/pages/AutomobileEngineering.jsx"));
+const BiomedicalEngineeringUGFinland = lazy(() => import("../pages/Study Abroad/Finland/Engineering/ug/pages/BiomedicalEngineering.jsx"));
+const ChemicalEngineeringUGFinland = lazy(() => import("../pages/Study Abroad/Finland/Engineering/ug/pages/ChemicalEngineering.jsx"));
+const CivilEngineeringUGFinland = lazy(() => import("../pages/Study Abroad/Finland/Engineering/ug/pages/CivilEngineering.jsx"));
+const ComputerEngineeringUGFinland = lazy(() => import("../pages/Study Abroad/Finland/Engineering/ug/pages/ComputerEngineering.jsx"));
+const ComputerScienceEngineeringUGFinland = lazy(() => import("../pages/Study Abroad/Finland/Engineering/ug/pages/ComputerScienceEngineering.jsx"));
+const ElectricalEngineeringUGFinland = lazy(() => import("../pages/Study Abroad/Finland/Engineering/ug/pages/ElectricalEngineering.jsx"));
+const ElectronicsEngineeringUGFinland = lazy(() => import("../pages/Study Abroad/Finland/Engineering/ug/pages/ElectronicsCommunication.jsx"));
+const MechanicalEngineeringUGFinland = lazy(() => import("../pages/Study Abroad/Finland/Engineering/ug/pages/MechanicalEngineering.jsx"));
+const BachelorsinEngineeringFinland = lazy(() => import("../pages/Study Abroad/Finland/Engineering/ug/undergraduate.jsx"));
+const ExecutiveMBAFinland = lazy(() => import("../pages/Study Abroad/Finland/ExecutiveMBA/executive-mba.jsx"));
+const HospitalityManagementFinland = lazy(() => import("../pages/Study Abroad/Finland/HospitalityManagement/hospitality-management.jsx"));
+const InternationalBusinessFinland = lazy(() => import("../pages/Study Abroad/Finland/InternationalBusiness/international-business.jsx"));
+const LanguageCoursesFinland = lazy(() => import("../pages/Study Abroad/Finland/LanguageCourses/language-courses.jsx"));
+const LawFinland = lazy(() => import("../pages/Study Abroad/Finland/Law/law.jsx"));
+const MBAFinland = lazy(() => import("../pages/Study Abroad/Finland/MBA/mba.jsx"));
+const BiotechnologyFinland = lazy(() => import("../pages/Study Abroad/Finland/MBBS Abroad/Biotechnology.jsx"));
+const DentistryFinland = lazy(() => import("../pages/Study Abroad/Finland/MBBS Abroad/DentistryAbroad.jsx"));
+const NursingFinland = lazy(() => import("../pages/Study Abroad/Finland/MBBS Abroad/NursingAbroad.jsx"));
+const PharmacyFinland = lazy(() => import("../pages/Study Abroad/Finland/MBBS Abroad/PharmacyAbroad.jsx"));
+const PhysiotherapyFinland = lazy(() => import("../pages/Study Abroad/Finland/MBBS Abroad/PhysiotherapyAbroad.jsx"));
+const PublicHealthFinland = lazy(() => import("../pages/Study Abroad/Finland/MBBS Abroad/PublicHealth.jsx"));
+const MBSFinland = lazy(() => import("../pages/Study Abroad/Finland/MBS/mbs.jsx"));
+const SummerCoursesFinland = lazy(() => import("../pages/Study Abroad/Finland/SummerCourses/summer-courses.jsx"));
+const WinterCoursesFinland = lazy(() => import("../pages/Study Abroad/Finland/WinterCourses/winter-courses.jsx"));
 
 export const router = createBrowserRouter([
   {
@@ -398,6 +441,189 @@ export const router = createBrowserRouter([
 
 
       
+      
+      // Study Abroad - Finland Routes
+      {
+        path: "study-abroad/finland/architecture",
+        element: <ArchitectureFinland />,
+      },
+      {
+        path: "study-abroad/finland/bba",
+        element: <BBAFinland />,
+      },
+      {
+        path: "study-abroad/finland/bbs",
+        element: <BBSFinland />,
+      },
+      {
+        path: "study-abroad/finland/business-management",
+        element: <BusinessManagementFinland />,
+      },
+      {
+        path: "study-abroad/finland/engineering/information-technology",
+        element: <InformationTechnologyFinland />,
+      },
+      {
+        path: "study-abroad/finland/pg/aerospace-engineering",
+        element: <MastersinAerospaceEngineeringPGFinland />,
+      },
+      {
+        path: "study-abroad/finland/pg/automobile-engineering",
+        element: <MastersinAutomobileEngineeringPGFinland />,
+      },
+      {
+        path: "study-abroad/finland/pg/biomedical-engineering",
+        element: <MastersinBiomedicalEngineeringPGFinland />,
+      },
+      {
+        path: "study-abroad/finland/pg/chemical-engineering",
+        element: <MastersinChemicalEngineeringPGFinland />,
+      },
+      {
+        path: "study-abroad/finland/pg/civil-engineering",
+        element: <MastersinCivilEngineeringPGFinland />,
+      },
+      {
+        path: "study-abroad/finland/pg/computer-engineering",
+        element: <MastersinComputerEngineeringPGFinland />,
+      },
+      {
+        path: "study-abroad/finland/pg/computer-science-engineering",
+        element: <MastersinComputerScienceEngineeringPGFinland />,
+      },
+      {
+        path: "study-abroad/finland/pg/electrical-engineering",
+        element: <MastersinElectricalEngineeringPGFinland />,
+      },
+      {
+        path: "study-abroad/finland/pg/electronics-communication",
+        element: <MastersinElectronicsEngineeringPGFinland />,
+      },
+      {
+        path: "study-abroad/finland/pg/mechanical-engineering",
+        element: <MastersinMechanicalEngineeringPGFinland />,
+      },
+      {
+        path: "study-abroad/finland/ug/aerospace-engineering",
+        element: <AerospaceRelatedEngineeringUGFinland />,
+      },
+      {
+        path: "study-abroad/finland/ug/automobile-engineering",
+        element: <AutomobileEngineeringUGFinland />,
+      },
+      {
+        path: "study-abroad/finland/ug/biomedical-engineering",
+        element: <BiomedicalEngineeringUGFinland />,
+      },
+      {
+        path: "study-abroad/finland/ug/chemical-engineering",
+        element: <ChemicalEngineeringUGFinland />,
+      },
+      {
+        path: "study-abroad/finland/ug/civil-engineering",
+        element: <CivilEngineeringUGFinland />,
+      },
+      {
+        path: "study-abroad/finland/ug/computer-engineering",
+        element: <ComputerEngineeringUGFinland />,
+      },
+      {
+        path: "study-abroad/finland/ug/computer-science-engineering",
+        element: <ComputerScienceEngineeringUGFinland />,
+      },
+      {
+        path: "study-abroad/finland/ug/electrical-engineering",
+        element: <ElectricalEngineeringUGFinland />,
+      },
+      {
+        path: "study-abroad/finland/ug/electronics-communication",
+        element: <ElectronicsEngineeringUGFinland />,
+      },
+      {
+        path: "study-abroad/finland/ug/mechanical-engineering",
+        element: <MechanicalEngineeringUGFinland />,
+      },
+      {
+        path: "study-abroad/finland/ug/engineering",
+        element: <BachelorsinEngineeringFinland />,
+      },
+      {
+        path: "study-abroad/finland/executive-mba",
+        element: <ExecutiveMBAFinland />,
+      },
+      {
+        path: "study-abroad/finland/hospitality-management",
+        element: <HospitalityManagementFinland />,
+      },
+      {
+        path: "study-abroad/finland/international-business",
+        element: <InternationalBusinessFinland />,
+      },
+      {
+        path: "study-abroad/finland/language-courses",
+        element: <LanguageCoursesFinland />,
+      },
+      {
+        path: "study-abroad/finland/law",
+        element: <LawFinland />,
+      },
+      {
+        path: "study-abroad/finland/mba",
+        element: <MBAFinland />,
+      },
+      {
+        path: "study-abroad/finland/biotechnology",
+        element: <BiotechnologyFinland />,
+      },
+      {
+        path: "study-abroad/finland/dentistry",
+        element: <DentistryFinland />,
+      },
+      {
+        path: "study-abroad/finland/nursing",
+        element: <NursingFinland />,
+      },
+      {
+        path: "study-abroad/finland/pharmacy",
+        element: <PharmacyFinland />,
+      },
+      {
+        path: "study-abroad/finland/physiotherapy",
+        element: <PhysiotherapyFinland />,
+      },
+      {
+        path: "study-abroad/finland/public-health",
+        element: <PublicHealthFinland />,
+      },
+      {
+        path: "study-abroad/finland/mbs",
+        element: <MBSFinland />,
+      },
+      {
+        path: "study-abroad/finland/summer-courses",
+        element: <SummerCoursesFinland />,
+      },
+      {
+        path: "study-abroad/finland/winter-courses",
+        element: <WinterCoursesFinland />,
+      },
+      // Finland fallback/redirect routes to prevent 404s
+      {
+        path: "study-abroad/finland/marketing-management",
+        element: <Navigate to="/courses/marketing-management?country=finland" replace />,
+      },
+      {
+        path: "study-abroad/finland/accounting-finance",
+        element: <Navigate to="/courses/accounting-finance?country=finland" replace />,
+      },
+      {
+        path: "study-abroad/finland/hr-management",
+        element: <Navigate to="/study-abroad/finland/business-management" replace />,
+      },
+      {
+        path: "study-abroad/finland/other-courses",
+        element: <Navigate to="/study-abroad/finland/business-management" replace />,
+      },
       {
         path: "terms-conditions",
         element: <TermsAndConditions />,
@@ -488,6 +714,48 @@ export const routeList = [
   "/courses/pg/aerospace-engineering",
   "/courses/pg/biomedical-engineering",
   "/courses/pg/automobile-engineering",
+  // Finland Routes
+  "/study-abroad/finland/architecture",
+  "/study-abroad/finland/bba",
+  "/study-abroad/finland/bbs",
+  "/study-abroad/finland/business-management",
+  "/study-abroad/finland/it",
+  "/study-abroad/finland/pg/aerospace-engineering",
+  "/study-abroad/finland/pg/automobile-engineering",
+  "/study-abroad/finland/pg/biomedical-engineering",
+  "/study-abroad/finland/pg/chemical-engineering",
+  "/study-abroad/finland/pg/civil-engineering",
+  "/study-abroad/finland/pg/computer-engineering",
+  "/study-abroad/finland/pg/computer-science",
+  "/study-abroad/finland/pg/electrical-engineering",
+  "/study-abroad/finland/pg/electronics-communication",
+  "/study-abroad/finland/pg/mechanical-engineering",
+  "/study-abroad/finland/ug/aerospace-engineering",
+  "/study-abroad/finland/ug/automobile-engineering",
+  "/study-abroad/finland/ug/biomedical-engineering",
+  "/study-abroad/finland/ug/chemical-engineering",
+  "/study-abroad/finland/ug/civil-engineering",
+  "/study-abroad/finland/ug/computer-engineering",
+  "/study-abroad/finland/ug/computer-science",
+  "/study-abroad/finland/ug/electrical-engineering",
+  "/study-abroad/finland/ug/electronics-communication",
+  "/study-abroad/finland/ug/mechanical-engineering",
+  "/study-abroad/finland/ug/engineering",
+  "/study-abroad/finland/executive-mba",
+  "/study-abroad/finland/hospitality-management",
+  "/study-abroad/finland/international-business",
+  "/study-abroad/finland/language-courses",
+  "/study-abroad/finland/law",
+  "/study-abroad/finland/mba",
+  "/study-abroad/finland/biotechnology",
+  "/study-abroad/finland/dentistry",
+  "/study-abroad/finland/nursing",
+  "/study-abroad/finland/pharmacy",
+  "/study-abroad/finland/physiotherapy",
+  "/study-abroad/finland/public-health",
+  "/study-abroad/finland/mbs",
+  "/study-abroad/finland/summer-courses",
+  "/study-abroad/finland/winter-courses",
   "/terms-conditions",
   "/privacy-policy",
   "/cookies-policy",
