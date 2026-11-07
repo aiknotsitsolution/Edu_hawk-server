@@ -221,6 +221,15 @@ collections:
               - { label: "Email", name: "email", widget: "string" }
               - { label: "WhatsApp", name: "whatsapp", widget: "string" }
               - { label: "Address", name: "address", widget: "string" }
+          - label: "Branch Offices"
+            name: "branches"
+            widget: "list"
+            fields:
+              - { label: "City Name", name: "city", widget: "string" }
+              - { label: "Branch Tag", name: "tag", widget: "string", required: false }
+              - { label: "Full Address", name: "address", widget: "text" }
+              - { label: "Phone Number", name: "phone", widget: "string" }
+              - { label: "Google Maps Link", name: "mapLink", widget: "string", required: false }
 
       - label: "Landing Page"
         name: "landingpage"

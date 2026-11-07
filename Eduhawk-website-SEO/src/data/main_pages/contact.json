@@ -1,16 +1,47 @@
 {
   "seo": {
-    "title": "Contact Us | Edu Hawk Worldwide ",
-    "description": "Get in touch with Edu Hawk Worldwide counselling team for admissions to MBBS, Tech, Business and other courses."
+    "title": "Contact MBBS Abroad Consultancy | EduHawk Worldwide",
+    "description": "Contact EduHawk Worldwide for expert MBBS abroad admission guidance, fee structures, and university selection support in Delhi, Patna, Bhopal & Lucknow."
   },
   "hero": {
-    "title": "Get in Touch with Edu Hawk Experts",
-    "subtitle": "Visit our offices, give us a call, or fill out the form below. Our counsellors will guide you through every step."
+    "title": "Get in Touch with Edu-Hawk Experts",
+    "subtitle": "Have questions about MBBS abroad? Visit our corporate office or branch centres, talk to a counsellor, or send us a message below."
   },
   "contactInfo": {
-    "phone": "+91 99999 99999",
-    "email": "info@eduhawk.com",
-    "whatsapp": "+91 99999 99999",
-    "address": "Edu Hawk Worldwide, Corporate Office, India"
-  }
+    "phone": "+91 96307 36070",
+    "altPhone": "+91 76329 49984",
+    "email": "admin@eduhawk.in",
+    "whatsapp": "+91 9630736070",
+    "address": "Bajrang House, N-5, South Extension Part-1, New Delhi - 110049"
+  },
+  "branches": [
+    {
+      "city": "New Delhi",
+      "tag": "Head Office",
+      "address": "Bajrang House, N-5, next to Aakash Institute, South Extension I, Block N, New Delhi - 110049",
+      "phone": "+91 73199 08359",
+      "mapLink": "https://maps.google.com/?q=Edu+Hawk+Worldwide+Delhi"
+    },
+    {
+      "city": "Patna",
+      "tag": "Branch Office",
+      "address": "P-24, Dumraon Place, Frazer Road, Patna, Bihar - 800001",
+      "phone": "+91 76329 49984",
+      "mapLink": "https://maps.google.com/?q=Frazer+Road+Patna"
+    },
+    {
+      "city": "Bhopal",
+      "tag": "Branch Office",
+      "address": "103, Goyal Vihar, Plot No.31-C, Zone-II, M.P Nagar, Bhopal, Madhya Pradesh - 462011",
+      "phone": "+91 96307 36070",
+      "mapLink": "https://maps.google.com/?q=MP+Nagar+Bhopal"
+    },
+    {
+      "city": "Lucknow",
+      "tag": "Branch Office",
+      "address": "2nd Floor Noor Plaza, Tedhi Pulia Ring Road, Near Lenskart showroom, Kalyanpur, Lucknow - 226022",
+      "phone": "+91 84000 56046",
+      "mapLink": "https://maps.google.com/?q=Tedhi+Pulia+Ring+Road+Lucknow"
+    }
+  ]
 }
