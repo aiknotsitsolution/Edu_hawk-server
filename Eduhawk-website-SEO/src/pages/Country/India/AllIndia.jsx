@@ -5989,6 +5989,7 @@ const AllIndia = () => {
   const [filterType, setFilterType] = useState("All"); // All / Govt. / Private
   const [isLoading, setIsLoading] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
+  const [stateSearch, setStateSearch] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 20;
 
@@ -6006,7 +6007,7 @@ const AllIndia = () => {
       data = data.filter(
         (row) =>
           row.management?.toLowerCase().includes("govt") ||
-          row.management?.toLowerCase().includes("government"),
+          row.management?.toLowerCase().includes("government")
       );
     } else if (filterType === "Private") {
       data = data.filter((row) => {
@@ -6016,275 +6017,536 @@ const AllIndia = () => {
     }
 
     // Filter by search
-    if (searchTerm) {
-      data = data.filter((row) =>
-        row.college.toLowerCase().includes(searchTerm.toLowerCase()),
+    if (searchTerm.trim()) {
+      const q = searchTerm.toLowerCase().trim();
+      data = data.filter(
+        (row) =>
+          row.college.toLowerCase().includes(q) ||
+          row.state.toLowerCase().includes(q) ||
+          (row.management && row.management.toLowerCase().includes(q))
       );
     }
 
     return data;
   }, [selectedState, filterType, searchTerm]);
 
-  // Calculate total seats
-  const totalSeats = filteredColleges.reduce((sum, row) => {
-    const seats = Number(row.seats) || 0;
-    return sum + seats;
-  }, 0);
+  // Overall statistics for all India
+  const overallStats = useMemo(() => {
+    const totalSeats = mockParsedData.reduce((acc, row) => acc + (Number(row.seats) || 0), 0);
+    const govtColleges = mockParsedData.filter((r) =>
+      r.management?.toLowerCase().includes("govt") || r.management?.toLowerCase().includes("government")
+    );
+    const govtSeats = govtColleges.reduce((acc, r) => acc + (Number(r.seats) || 0), 0);
+    const privateColleges = mockParsedData.length - govtColleges.length;
+    const privateSeats = totalSeats - govtSeats;
+    return {
+      totalColleges: mockParsedData.length,
+      totalSeats,
+      govtColleges: govtColleges.length,
+      govtSeats,
+      privateColleges,
+      privateSeats,
+    };
+  }, []);
+
+  // Filtered seats
+  const filteredSeats = useMemo(() => {
+    return filteredColleges.reduce((sum, row) => sum + (Number(row.seats) || 0), 0);
+  }, [filteredColleges]);
+
+  // State counts mapping for sidebar
+  const stateCounts = useMemo(() => {
+    const map = {};
+    mockParsedData.forEach((row) => {
+      if (!map[row.state]) {
+        map[row.state] = { colleges: 0, seats: 0 };
+      }
+      map[row.state].colleges += 1;
+      map[row.state].seats += Number(row.seats) || 0;
+    });
+    return map;
+  }, []);
+
+  // Filtered state list based on sidebar state search
+  const visibleStates = useMemo(() => {
+    if (!stateSearch.trim()) return uniqueStates;
+    const q = stateSearch.toLowerCase().trim();
+    return uniqueStates.filter((s) => s.toLowerCase().includes(q));
+  }, [stateSearch]);
 
   // Filter state info based on selected state
-  const filteredStateInfo = useMemo(() => {
-    if (selectedState === "ALL INDIA") {
-      return stateInfo;
-    }
-    return stateInfo.filter((info) => info.state === selectedState);
+  const currentStateInfo = useMemo(() => {
+    if (selectedState === "ALL INDIA") return null;
+    return stateInfo.find((info) => info.state === selectedState);
   }, [selectedState]);
 
   const totalPages = Math.ceil(filteredColleges.length / itemsPerPage);
-  const paginatedColleges = filteredColleges.slice(
-    (currentPage - 1) * itemsPerPage,
-    currentPage * itemsPerPage,
-  );
+  const paginatedColleges = useMemo(() => {
+    const start = (currentPage - 1) * itemsPerPage;
+    return filteredColleges.slice(start, start + itemsPerPage);
+  }, [filteredColleges, currentPage, itemsPerPage]);
 
   const handleStateChange = (state) => {
     setIsLoading(true);
+    setSelectedState(state);
+    setCurrentPage(1);
     setTimeout(() => {
-      setSelectedState(state);
-      setCurrentPage(1);
       setIsLoading(false);
-    }, 400);
+    }, 150);
   };
 
   const handleFilterChange = (type) => {
     setIsLoading(true);
+    setFilterType(type);
+    setCurrentPage(1);
     setTimeout(() => {
-      setFilterType(type);
-      setCurrentPage(1);
       setIsLoading(false);
-    }, 400);
+    }, 150);
   };
 
   return (
     <>
-     <SeoHead
-        title="Indian Medical Colleges List | MBBS Admission Guide"
-        description="Complete list of Indian medical colleges with MBBS admission details, fees, and eligibility criteria."
+      <SeoHead
+        title="Indian Medical Colleges List 2026-27 | State Wise MBBS Seats & Fees"
+        description="Comprehensive directory of State-Wise MBBS Medical Colleges in India (AY 2026-27). Search 800+ Government and Private medical colleges, seats distribution, and state admission highlights."
         path="/allcollege"
         ogType="website"
       />
-    
-    <div className="min-h-screen bg-gray-50 font-sans">
-      {/* Header */}
-      <div className="bg-white shadow-md sticky top-0 z-40">
-        <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 py-8 text-center">
-          <h1 className="text-3xl md:text-5xl font-bold text-[#2F327D]">
-            STATE WISE MBBS COLLEGES & SEATS (AY 2026-27)
-          </h1>
-          <p className="mt-3 text-lg md:text-xl text-gray-700">
-            Total Seats in India:{" "}
-            <span className="font-bold text-[#F48C06]">
-              {totalSeats.toLocaleString()}
-            </span>{" "}
-            | Colleges: {filteredColleges.length}
-          </p>
-        </div>
-      </div>
 
-      {/* Main Layout */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="flex flex-col lg:flex-row gap-8">
-          {/* Sidebar - States */}
-          <aside className="w-full lg:w-80 bg-white rounded-xl shadow-md border border-gray-200 overflow-hidden">
-            <div className="p-5 bg-[#2F327D] text-white">
-              <h2 className="text-xl font-bold">Select State / UT</h2>
+      <div className="min-h-screen bg-slate-50 font-sans text-slate-800">
+        {/* Modern Hero Header Banner */}
+        <section className="relative bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 text-white overflow-hidden border-b border-slate-800">
+          {/* Subtle Ambient Decorative Glows */}
+          <div className="absolute top-0 right-1/4 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none" />
+          <div className="absolute bottom-0 left-1/4 w-96 h-96 bg-blue-600/15 rounded-full blur-3xl pointer-events-none" />
+
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-14 relative z-10">
+            <div className="text-center max-w-4xl mx-auto">
+              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/15 text-amber-300 text-xs sm:text-sm font-semibold tracking-wide uppercase mb-4 shadow-sm">
+                <span>AY 2026-27 Admission Directory</span>
+              </div>
+              <h1 className="text-2xl sm:text-4xl lg:text-5xl font-black tracking-tight text-white uppercase leading-tight">
+                State Wise MBBS Colleges & Seats
+              </h1>
+              <p className="mt-3 text-slate-300 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
+                Explore recognized medical institutions across India, compare Government and Private colleges, seat matrix, and state admission highlights.
+              </p>
             </div>
-            <div className="max-h-[70vh] overflow-y-auto scrollbar-hide">
-              <ul>
-                <li>
-                  <button
-                    onClick={() => handleStateChange("ALL INDIA")}
-                    className={`w-full text-left px-6 py-4 text-base transition-all duration-200 ${
-                      selectedState === "ALL INDIA"
-                        ? "bg-orange-50 text-[#F48C06] font-semibold border-l-4 border-[#F48C06]"
-                        : "text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] hover:pl-8"
-                    }`}
-                  >
-                    ★ ALL INDIA
-                  </button>
-                </li>
 
-                {uniqueStates.map((state) => (
-                  <li key={state}>
+            {/* Quick Metrics Bar */}
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 mt-8 max-w-5xl mx-auto">
+              <div className="bg-white/10 backdrop-blur-md rounded-xl p-4 border border-white/15 text-center transition-all hover:bg-white/15">
+                <div className="text-xs uppercase tracking-wider text-slate-300 font-semibold">Total MBBS Seats</div>
+                <div className="text-xl sm:text-3xl font-extrabold text-amber-400 mt-1">
+                  {overallStats.totalSeats.toLocaleString()}
+                </div>
+                <div className="text-[11px] text-slate-400 mt-0.5">Across All States & UTs</div>
+              </div>
+              <div className="bg-white/10 backdrop-blur-md rounded-xl p-4 border border-white/15 text-center transition-all hover:bg-white/15">
+                <div className="text-xs uppercase tracking-wider text-slate-300 font-semibold">Total Colleges</div>
+                <div className="text-xl sm:text-3xl font-extrabold text-white mt-1">
+                  {overallStats.totalColleges.toLocaleString()}
+                </div>
+                <div className="text-[11px] text-slate-400 mt-0.5">Recognized Medical Colleges</div>
+              </div>
+              <div className="bg-white/10 backdrop-blur-md rounded-xl p-4 border border-white/15 text-center transition-all hover:bg-white/15">
+                <div className="text-xs uppercase tracking-wider text-slate-300 font-semibold">Govt. Medical Seats</div>
+                <div className="text-xl sm:text-3xl font-extrabold text-emerald-400 mt-1">
+                  {overallStats.govtSeats.toLocaleString()}
+                </div>
+                <div className="text-[11px] text-slate-400 mt-0.5">{overallStats.govtColleges} Government Colleges</div>
+              </div>
+              <div className="bg-white/10 backdrop-blur-md rounded-xl p-4 border border-white/15 text-center transition-all hover:bg-white/15">
+                <div className="text-xs uppercase tracking-wider text-slate-300 font-semibold">Private & Trust Seats</div>
+                <div className="text-xl sm:text-3xl font-extrabold text-sky-400 mt-1">
+                  {overallStats.privateSeats.toLocaleString()}
+                </div>
+                <div className="text-[11px] text-slate-400 mt-0.5">{overallStats.privateColleges} Private Institutions</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Main Content Layout */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10">
+          <div className="flex flex-col lg:flex-row gap-8 items-start">
+            {/* Sidebar - State Selector */}
+            <aside className="w-full lg:w-80 flex-shrink-0 bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden sticky lg:top-24 z-20">
+              <div className="p-4 sm:p-5 bg-gradient-to-r from-slate-900 to-indigo-950 text-white">
+                <div className="flex items-center justify-between">
+                  <h2 className="text-base sm:text-lg font-bold">Select State / UT</h2>
+                  <span className="text-xs bg-white/20 px-2.5 py-0.5 rounded-full font-medium">
+                    {uniqueStates.length} Regions
+                  </span>
+                </div>
+                {/* State search input inside sidebar */}
+                <div className="mt-3 relative">
+                  <input
+                    type="text"
+                    placeholder="Search state..."
+                    value={stateSearch}
+                    onChange={(e) => setStateSearch(e.target.value)}
+                    className="w-full bg-white/10 border border-white/20 rounded-lg px-3 py-1.5 text-xs text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-amber-400"
+                  />
+                  {stateSearch && (
                     <button
-                      onClick={() => handleStateChange(state)}
-                      className={`w-full text-left px-6 py-3.5 text-base transition-all duration-200 ${
-                        selectedState === state
-                          ? "bg-orange-50 text-[#F48C06] font-semibold border-l-4 border-[#F48C06]"
-                          : "text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] hover:pl-8"
-                      }`}
+                      onClick={() => setStateSearch("")}
+                      className="absolute right-2.5 top-1.5 text-slate-400 hover:text-white text-xs"
+                      aria-label="Clear state search"
                     >
-                      + {state}
+                      ✕
                     </button>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </aside>
+                  )}
+                </div>
+              </div>
 
-          {/* Main Content */}
-          <main className="flex-1">
-            {/* Search */}
-            <div className="mb-6">
-              <input
-                type="text"
-                placeholder="Search colleges by name..."
-                value={searchTerm}
-                onChange={(e) => {
-                  setSearchTerm(e.target.value);
-                  setCurrentPage(1);
-                }}
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#F48C06]"
-              />
-            </div>
-
-            {/* Filter Buttons */}
-            <div className="flex flex-wrap gap-3 mb-6">
-              {["All", "Govt.", "Private"].map((type) => (
+              <div className="max-h-[60vh] lg:max-h-[70vh] overflow-y-auto divide-y divide-slate-100">
+                {/* All India Option */}
                 <button
-                  key={type}
-                  onClick={() => handleFilterChange(type)}
-                  className={`px-6 py-2.5 font-medium rounded-lg transition-all shadow-sm ${
-                    filterType === type
-                      ? "bg-[#F48C06] text-white shadow-md"
-                      : "bg-gray-200 text-[#2F327D] hover:bg-orange-100"
+                  onClick={() => handleStateChange("ALL INDIA")}
+                  className={`w-full text-left px-5 py-3.5 text-sm font-semibold transition-all flex items-center justify-between ${
+                    selectedState === "ALL INDIA"
+                      ? "bg-amber-50 text-amber-900 border-l-4 border-amber-500 font-bold"
+                      : "text-slate-700 hover:bg-slate-50 hover:text-indigo-900"
                   }`}
                 >
-                  {type}
+                  <span className="flex items-center gap-2">
+                    <span className="text-amber-500">★</span>
+                    <span>ALL INDIA</span>
+                  </span>
+                  <span className="text-xs px-2 py-0.5 rounded-full bg-slate-100 text-slate-600 font-medium">
+                    {mockParsedData.length}
+                  </span>
                 </button>
-              ))}
-            </div>
 
-            {/* State Info Cards */}
-            {filteredStateInfo.length > 0 && (
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
-                {filteredStateInfo.map((info, index) => (
-                  <div
-                    key={index}
-                    className="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow duration-300"
-                  >
-                    <h3 className="text-xl font-bold text-[#2F327D] mb-3">
-                      {info.state}
-                    </h3>
-                    <p className="text-gray-700 leading-relaxed">{info.text}</p>
-                  </div>
-                ))}
-              </div>
-            )}
-
-            {/* Table Card */}
-            <div
-              className={`bg-white rounded-xl shadow-md p-6 border border-gray-100 transition-opacity duration-500 ${isLoading ? "opacity-60" : "opacity-100"}`}
-            >
-              <h2 className="text-2xl md:text-3xl font-bold text-[#2F327D] mb-5">
-                {selectedState === "ALL INDIA" ? "All India" : selectedState}{" "}
-                Medical Colleges
-                <span className="text-base font-normal text-gray-600 ml-4">
-                  ({filteredColleges.length} colleges)
-                </span>
-              </h2>
-
-              {filteredColleges.length > 0 ? (
-                <>
-                  <div className="overflow-x-auto rounded-lg border border-gray-200 mb-6">
-                    <table className="min-w-full divide-y divide-gray-200">
-                      <thead className="bg-orange-50">
-                        <tr>
-                          <th className="px-6 py-4 text-left text-sm font-semibold text-[#2F327D] uppercase tracking-wider">
-                            S.No.
-                          </th>
-                          <th className="px-6 py-4 text-left text-sm font-semibold text-[#2F327D] uppercase tracking-wider">
-                            College Name
-                          </th>
-                          <th className="px-6 py-4 text-left text-sm font-semibold text-[#2F327D] uppercase tracking-wider">
-                            Management
-                          </th>
-                          <th className="px-6 py-4 text-left text-sm font-semibold text-[#2F327D] uppercase tracking-wider">
-                            Seats
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody className="divide-y divide-gray-100 bg-white">
-                        {paginatedColleges.map((row, idx) => (
-                          <tr
-                            key={idx}
-                            className="hover:bg-orange-50/40 transition-colors"
-                          >
-                            <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-700">
-                              {row.sNo}
-                            </td>
-                            <td className="px-6 py-4 text-sm font-medium text-[#2F327D]">
-                              {row.college}
-                            </td>
-                            <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-700">
-                              {row.management}
-                            </td>
-                            <td className="px-6 py-4 whitespace-nowrap text-sm font-bold text-green-700">
-                              {row.seats}
-                            </td>
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
-                  </div>
-
-                  <div className="bg-orange-50 p-5 rounded-lg text-center font-bold text-[#F48C06] text-xl shadow-sm">
-                    Total MBBS Seats: {totalSeats.toLocaleString()}
-                  </div>
-
-                  {/* Pagination */}
-                  <div className="flex justify-center items-center gap-2 mt-6">
+                {/* Individual States */}
+                {visibleStates.map((state) => {
+                  const isSelected = selectedState === state;
+                  const count = stateCounts[state]?.colleges || 0;
+                  return (
                     <button
-                      onClick={() =>
-                        setCurrentPage(Math.max(1, currentPage - 1))
-                      }
-                      disabled={currentPage === 1}
-                      className="px-4 py-2 bg-gray-200 text-gray-700 rounded disabled:opacity-50"
+                      key={state}
+                      onClick={() => handleStateChange(state)}
+                      className={`w-full text-left px-5 py-3 text-sm transition-all flex items-center justify-between ${
+                        isSelected
+                          ? "bg-amber-50 text-amber-900 border-l-4 border-amber-500 font-bold"
+                          : "text-slate-600 hover:bg-slate-50 hover:text-slate-900 hover:pl-6"
+                      }`}
                     >
-                      Previous
+                      <span className="truncate pr-2">{state}</span>
+                      <span className={`text-xs px-2 py-0.5 rounded-full font-medium ${
+                        isSelected
+                          ? "bg-amber-200 text-amber-900"
+                          : "bg-slate-100 text-slate-500"
+                      }`}>
+                        {count}
+                      </span>
                     </button>
-                    {Array.from({ length: Math.min(5, totalPages) }, (_, i) => {
-                      const page = Math.max(1, currentPage - 2) + i;
-                      if (page > totalPages) return null;
+                  );
+                })}
+
+                {visibleStates.length === 0 && (
+                  <div className="p-4 text-center text-xs text-slate-400">
+                    No states found matching "{stateSearch}"
+                  </div>
+                )}
+              </div>
+            </aside>
+
+            {/* Main Interactive Table & Cards Column */}
+            <main className="flex-1 min-w-0 w-full">
+              {/* Search & Filter Toolbar */}
+              <div className="bg-white rounded-2xl p-4 sm:p-5 shadow-sm border border-slate-200 mb-6">
+                <div className="flex flex-col sm:flex-row gap-3 sm:items-center justify-between">
+                  {/* Search input */}
+                  <div className="relative flex-1">
+                    <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
+                      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                        <circle cx="11" cy="11" r="8" />
+                        <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                      </svg>
+                    </div>
+                    <input
+                      type="text"
+                      placeholder="Search colleges by name or location..."
+                      value={searchTerm}
+                      onChange={(e) => {
+                        setSearchTerm(e.target.value);
+                        setCurrentPage(1);
+                      }}
+                      className="w-full pl-10 pr-9 py-2.5 text-sm bg-slate-50 border border-slate-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-amber-500/20 focus:border-amber-500 transition-all text-slate-800 placeholder-slate-400"
+                    />
+                    {searchTerm && (
+                      <button
+                        onClick={() => {
+                          setSearchTerm("");
+                          setCurrentPage(1);
+                        }}
+                        className="absolute inset-y-0 right-0 pr-3 flex items-center text-slate-400 hover:text-slate-600 text-xs"
+                        aria-label="Clear search"
+                      >
+                        ✕
+                      </button>
+                    )}
+                  </div>
+
+                  {/* Filter segmented buttons */}
+                  <div className="flex items-center gap-1.5 p-1 bg-slate-100 rounded-xl flex-shrink-0 self-start sm:self-auto">
+                    {[
+                      { key: "All", label: "All Types" },
+                      { key: "Govt.", label: "Govt." },
+                      { key: "Private", label: "Private / Trust" }
+                    ].map((tab) => {
+                      const isActive = filterType === tab.key;
                       return (
                         <button
-                          key={page}
-                          onClick={() => setCurrentPage(page)}
-                          className={`px-4 py-2 rounded ${page === currentPage ? "bg-[#F48C06] text-white" : "bg-gray-200 text-gray-700"}`}
+                          key={tab.key}
+                          onClick={() => handleFilterChange(tab.key)}
+                          className={`px-3.5 py-1.5 text-xs sm:text-sm font-semibold rounded-lg transition-all ${
+                            isActive
+                              ? "bg-white text-slate-900 shadow-sm"
+                              : "text-slate-600 hover:text-slate-900 hover:bg-slate-200/60"
+                          }`}
                         >
-                          {page}
+                          {tab.label}
                         </button>
                       );
                     })}
-                    <button
-                      onClick={() =>
-                        setCurrentPage(Math.min(totalPages, currentPage + 1))
-                      }
-                      disabled={currentPage === totalPages}
-                      className="px-4 py-2 bg-gray-200 text-gray-700 rounded disabled:opacity-50"
-                    >
-                      Next
-                    </button>
                   </div>
-                </>
-              ) : (
-                <div className="text-center py-16 text-gray-600 text-xl font-medium">
-                  No colleges found matching the selected filters.
+                </div>
+
+                {/* Active filter summary pill */}
+                <div className="mt-3 pt-3 border-t border-slate-100 flex flex-wrap items-center justify-between gap-2 text-xs text-slate-500">
+                  <div className="flex items-center gap-2">
+                    <span>Showing results for:</span>
+                    <span className="font-semibold text-slate-800 bg-slate-100 px-2.5 py-0.5 rounded-full">
+                      📍 {selectedState}
+                    </span>
+                    {filterType !== "All" && (
+                      <span className="font-semibold text-slate-800 bg-slate-100 px-2.5 py-0.5 rounded-full">
+                        🏷️ {filterType}
+                      </span>
+                    )}
+                    {searchTerm && (
+                      <span className="font-semibold text-slate-800 bg-slate-100 px-2.5 py-0.5 rounded-full">
+                        🔍 "{searchTerm}"
+                      </span>
+                    )}
+                  </div>
+                  <div className="font-semibold text-slate-700">
+                    {filteredColleges.length} Colleges ({filteredSeats.toLocaleString()} Seats)
+                  </div>
+                </div>
+              </div>
+
+              {/* State Highlight Card (when a specific state is selected) */}
+              {currentStateInfo && (
+                <div className="bg-gradient-to-br from-indigo-50/60 via-white to-amber-50/40 rounded-2xl p-5 sm:p-6 shadow-sm border border-indigo-100/80 mb-6">
+                  <div className="flex items-center justify-between gap-4 mb-2">
+                    <div className="flex items-center gap-2.5">
+                      <span className="w-8 h-8 rounded-lg bg-indigo-600 text-white flex items-center justify-center text-sm font-bold shadow-sm">
+                        📍
+                      </span>
+                      <h3 className="text-lg sm:text-xl font-bold text-slate-900">
+                        {currentStateInfo.state} Medical Education Overview
+                      </h3>
+                    </div>
+                    <span className="text-xs px-3 py-1 rounded-full bg-indigo-100 text-indigo-800 font-semibold">
+                      State Summary
+                    </span>
+                  </div>
+                  <p className="text-slate-600 text-sm leading-relaxed mt-2">
+                    {currentStateInfo.text}
+                  </p>
                 </div>
               )}
-            </div>
-          </main>
+
+              {/* Table Card Container */}
+              <div className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
+                <div className="p-5 border-b border-slate-100 flex flex-wrap items-center justify-between gap-3">
+                  <div>
+                    <h2 className="text-lg sm:text-xl font-bold text-slate-900">
+                      {selectedState === "ALL INDIA" ? "All India Medical Colleges" : `${selectedState} Medical Colleges`}
+                    </h2>
+                    <p className="text-xs text-slate-500 mt-0.5">
+                      Displaying Page {currentPage} of {totalPages || 1} · {filteredColleges.length} institutions matched
+                    </p>
+                  </div>
+                  <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200 text-xs font-bold">
+                    <span>Total Seats:</span>
+                    <span className="text-emerald-700 font-black">{filteredSeats.toLocaleString()}</span>
+                  </div>
+                </div>
+
+                {filteredColleges.length > 0 ? (
+                  <>
+                    <div className="overflow-x-auto">
+                      <table className="w-full text-left border-collapse">
+                        <thead>
+                          <tr className="bg-slate-50/90 text-slate-600 text-xs font-semibold uppercase tracking-wider border-b border-slate-200">
+                            <th className="px-4 sm:px-6 py-3.5 w-16 text-center">S.No.</th>
+                            <th className="px-4 sm:px-6 py-3.5">College Name & Affiliation</th>
+                            <th className="px-4 sm:px-6 py-3.5 w-36">Management</th>
+                            <th className="px-4 sm:px-6 py-3.5 w-28 text-right">MBBS Seats</th>
+                          </tr>
+                        </thead>
+                        <tbody className={`divide-y divide-slate-100 text-sm transition-opacity duration-200 ${isLoading ? "opacity-50" : "opacity-100"}`}>
+                          {paginatedColleges.map((row, idx) => {
+                            const isGovt =
+                              row.management?.toLowerCase().includes("govt") ||
+                              row.management?.toLowerCase().includes("government");
+                            return (
+                              <tr
+                                key={idx}
+                                className="hover:bg-slate-50/80 transition-colors group"
+                              >
+                                <td className="px-4 sm:px-6 py-4 text-center text-xs font-medium text-slate-400">
+                                  {row.sNo}
+                                </td>
+                                <td className="px-4 sm:px-6 py-4">
+                                  <div className="font-semibold text-slate-900 group-hover:text-indigo-600 transition-colors leading-snug">
+                                    {row.college}
+                                  </div>
+                                  <div className="text-xs text-slate-500 mt-0.5 flex items-center gap-1.5">
+                                    <span className="text-slate-400">State:</span>
+                                    <span className="font-medium text-slate-700">{row.state}</span>
+                                  </div>
+                                </td>
+                                <td className="px-4 sm:px-6 py-4 whitespace-nowrap">
+                                  {isGovt ? (
+                                    <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold bg-emerald-50 text-emerald-700 border border-emerald-200">
+                                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-500" />
+                                      Govt.
+                                    </span>
+                                  ) : (
+                                    <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold bg-sky-50 text-sky-700 border border-sky-200">
+                                      <span className="w-1.5 h-1.5 rounded-full bg-sky-500" />
+                                      {row.management || "Private"}
+                                    </span>
+                                  )}
+                                </td>
+                                <td className="px-4 sm:px-6 py-4 whitespace-nowrap text-right">
+                                  <span className="inline-block px-3 py-1 rounded-lg bg-amber-50 text-amber-900 border border-amber-200 font-bold text-sm">
+                                    {row.seats}
+                                  </span>
+                                </td>
+                              </tr>
+                            );
+                          })}
+                        </tbody>
+                      </table>
+                    </div>
+
+                    {/* Modern Pagination Controls */}
+                    <div className="p-4 sm:p-5 border-t border-slate-100 bg-slate-50/50 flex flex-col sm:flex-row items-center justify-between gap-4">
+                      <div className="text-xs text-slate-500">
+                        Showing{" "}
+                        <span className="font-semibold text-slate-700">
+                          {(currentPage - 1) * itemsPerPage + 1}
+                        </span>{" "}
+                        to{" "}
+                        <span className="font-semibold text-slate-700">
+                          {Math.min(currentPage * itemsPerPage, filteredColleges.length)}
+                        </span>{" "}
+                        of{" "}
+                        <span className="font-semibold text-slate-700">
+                          {filteredColleges.length}
+                        </span>{" "}
+                        colleges
+                      </div>
+
+                      <div className="flex items-center gap-1.5">
+                        <button
+                          onClick={() => setCurrentPage(1)}
+                          disabled={currentPage === 1}
+                          className="px-2.5 py-1.5 rounded-lg border border-slate-200 bg-white text-xs font-semibold text-slate-600 hover:bg-slate-50 disabled:opacity-40 disabled:cursor-not-allowed transition-all"
+                          title="First Page"
+                        >
+                          « First
+                        </button>
+                        <button
+                          onClick={() => setCurrentPage((p) => Math.max(1, p - 1))}
+                          disabled={currentPage === 1}
+                          className="px-3 py-1.5 rounded-lg border border-slate-200 bg-white text-xs font-semibold text-slate-600 hover:bg-slate-50 disabled:opacity-40 disabled:cursor-not-allowed transition-all"
+                        >
+                          ‹ Prev
+                        </button>
+
+                        <div className="flex items-center gap-1 px-1">
+                          {Array.from({ length: Math.min(5, totalPages) }, (_, i) => {
+                            let pageNum;
+                            if (totalPages <= 5) {
+                              pageNum = i + 1;
+                            } else if (currentPage <= 3) {
+                              pageNum = i + 1;
+                            } else if (currentPage >= totalPages - 2) {
+                              pageNum = totalPages - 4 + i;
+                            } else {
+                              pageNum = currentPage - 2 + i;
+                            }
+
+                            const isActive = pageNum === currentPage;
+                            return (
+                              <button
+                                key={pageNum}
+                                onClick={() => setCurrentPage(pageNum)}
+                                className={`w-8 h-8 rounded-lg text-xs font-semibold transition-all ${
+                                  isActive
+                                    ? "bg-amber-500 text-white font-bold shadow-sm shadow-amber-500/30"
+                                    : "border border-slate-200 bg-white text-slate-600 hover:bg-slate-50"
+                                }`}
+                              >
+                                {pageNum}
+                              </button>
+                            );
+                          })}
+                        </div>
+
+                        <button
+                          onClick={() => setCurrentPage((p) => Math.min(totalPages, p + 1))}
+                          disabled={currentPage === totalPages || totalPages === 0}
+                          className="px-3 py-1.5 rounded-lg border border-slate-200 bg-white text-xs font-semibold text-slate-600 hover:bg-slate-50 disabled:opacity-40 disabled:cursor-not-allowed transition-all"
+                        >
+                          Next ›
+                        </button>
+                        <button
+                          onClick={() => setCurrentPage(totalPages)}
+                          disabled={currentPage === totalPages || totalPages === 0}
+                          className="px-2.5 py-1.5 rounded-lg border border-slate-200 bg-white text-xs font-semibold text-slate-600 hover:bg-slate-50 disabled:opacity-40 disabled:cursor-not-allowed transition-all"
+                          title="Last Page"
+                        >
+                          Last »
+                        </button>
+                      </div>
+                    </div>
+                  </>
+                ) : (
+                  <div className="py-16 px-4 text-center">
+                    <div className="w-14 h-14 mx-auto mb-3 rounded-full bg-slate-100 flex items-center justify-center text-slate-400 text-2xl">
+                      🔍
+                    </div>
+                    <h3 className="text-base font-bold text-slate-900">No medical colleges found</h3>
+                    <p className="text-xs text-slate-500 mt-1 max-w-sm mx-auto">
+                      No institutions match your search query or selected filter criteria. Try resetting your search or selecting a different state.
+                    </p>
+                    <button
+                      onClick={() => {
+                        setSelectedState("ALL INDIA");
+                        setFilterType("All");
+                        setSearchTerm("");
+                        setCurrentPage(1);
+                      }}
+                      className="mt-4 px-4 py-2 rounded-xl bg-amber-500 text-white text-xs font-bold hover:bg-amber-600 shadow-sm transition-all"
+                    >
+                      Reset Filters
+                    </button>
+                  </div>
+                )}
+              </div>
+            </main>
+          </div>
         </div>
       </div>
-    </div>
     </>
   );
 };

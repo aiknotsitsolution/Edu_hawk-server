@@ -45,7 +45,7 @@
 
 | Overall # | Group # | Status | Page Name | Route Path |
 | :---: | :---: | :---: | :--- | :--- |
-| **008** | 01 | [ ] | All Medical Colleges Hub | `/allcollege` |
+| **008** | 01 | ✔️ | All Medical Colleges Hub | `/allcollege` |
 | **009** | 02 | [ ] | MBBS in Russia | `/mbbs-abroad/russia` |
 | **010** | 03 | [ ] | MBBS in Bangladesh | `/mbbs-abroad/bangladesh` |
 | **011** | 04 | [ ] | MBBS in Kazakhstan | `/mbbs-abroad/kazakhstan` |
@@ -598,8 +598,8 @@
 ### Tech & Engineering Hubs (5)
 | Overall # | Group # | Status | Page Name | Route Path |
 | :---: | :---: | :---: | :--- | :--- |
-| **345** | 07 | [ ] | Computer Science in Finland | `/study-abroad/finland/computer-science` |
-| **346** | 08 | [ ] | Information Technology in Finland | `/study-abroad/finland/information-technology` |
+| **345** | 07 | ✔️ | Computer Science in Finland | `/study-abroad/finland/computer-science` |
+| **346** | 08 | ✔️ | Information Technology in Finland | `/study-abroad/finland/information-technology` |
 | **347** | 09 | [ ] | Undergraduate Engineering Hub | `/study-abroad/finland/ug/engineering` |
 | **348** | 10 | [ ] | Postgraduate Engineering Hub | `/study-abroad/finland/pg/engineering` |
 | **349** | 11 | [ ] | General Engineering Overview | `/study-abroad/finland/engineering` |
@@ -615,7 +615,7 @@
 | **355** | 17 | [ ] | Chemical Engineering - UG | `/study-abroad/finland/ug/chemical-engineering` |
 | **356** | 18 | [ ] | Aerospace Engineering - UG | `/study-abroad/finland/ug/aerospace-engineering` |
 | **357** | 19 | [ ] | Biomedical Engineering - UG | `/study-abroad/finland/ug/biomedical-engineering` |
-| **358** | 20 | [ ] | Automobile Engineering - UG | `/study-abroad/finland/ug/automobile-engineering` |
+| **358** | 20 | ✔️ | Automobile Engineering - UG | `/study-abroad/finland/ug/automobile-engineering` |
 
 ### PG Engineering Branches (9)
 | Overall # | Group # | Status | Page Name | Route Path |
@@ -626,9 +626,9 @@
 | **362** | 24 | [ ] | Electrical Engineering - PG | `/study-abroad/finland/pg/electrical-engineering` |
 | **363** | 25 | [ ] | Electronics & Communication - PG | `/study-abroad/finland/pg/electronics-communication` |
 | **364** | 26 | [ ] | Chemical Engineering - PG | `/study-abroad/finland/pg/chemical-engineering` |
-| **365** | 27 | [ ] | Aerospace Engineering - PG | `/study-abroad/finland/pg/aerospace-engineering` |
+| **365** | 27 | ✔️ | Aerospace Engineering - PG | `/study-abroad/finland/pg/aerospace-engineering` |
 | **366** | 28 | [ ] | Biomedical Engineering - PG | `/study-abroad/finland/pg/biomedical-engineering` |
-| **367** | 29 | [ ] | Automobile Engineering - PG | `/study-abroad/finland/pg/automobile-engineering` |
+| **367** | 29 | ✔️ | Automobile Engineering - PG | `/study-abroad/finland/pg/automobile-engineering` |
 
 ### Business, Management & Law (12)
 | Overall # | Group # | Status | Page Name | Route Path |

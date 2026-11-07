@@ -1,78 +1,73 @@
 import React from "react";
 import { AbroadCoursePage, formatRichText } from "../../../../../../component/CoursePageKit.jsx";
+
+// Page layout images
 import heroImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/Aerospace/aero_pg_hero.webp";
 import heroBgImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/Aerospace/aero_pg_hero_bg.webp";
 import sideImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/Aerospace/aero_pg_windtunnel.webp";
 import ctaBgImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/Aerospace/aero_pg_cta_bg.webp";
-import u0Img from "../../../../../../Images/Abroad/Finland/Engineering_PG/Aerospace/Aalto_University.webp";
-import u1Img from "../../../../../../Images/Abroad/Finland/Engineering_PG/Aerospace/LUT_University.webp";
-import u2Img from "../../../../../../Images/Abroad/Finland/Engineering_PG/Aerospace/Tampere_University.webp";
-import u3Img from "../../../../../../Images/Abroad/Finland/Engineering_PG/Aerospace/University_of_Oulu.webp";
+
+// Authentic University Campus Images
+import aaltoImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/Aerospace/Aalto-university-image5.png";
+import lutImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/Aerospace/LTU-university-image2.png";
+import tampereImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/Aerospace/Tampere-University-image1.png";
+import ouluImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/Aerospace/University-of-Oulu-image3.png";
 
 const page = {
-  name: "Master's in Aerospace Engineering",
+  name: "Master’s in Aerospace Engineering",
   country: "Finland",
   slug: "aerospace-engineering",
-  title: "Master's in Aerospace Engineering in Finland for Indian Students | Edu-Hawk Worldwide",
-  description: "Study Master's in Aerospace & Space Engineering in Finland: English-taught M.Sc. degrees (120 ECTS, 2 years) in satellite systems, space robotics, and aerodynamics at Aalto, LUT, Tampere, and Oulu. Fees, admissions, and 2-year post-study work visa.",
-  keywords: "Master's in Aerospace Engineering in Finland, Aerospace Engineering Master's Programmes in Finland, Study Aerospace Engineering in Finland, Aerospace Engineering Universities in Finland, Master's in Aerospace Engineering in Finland Fees",
-  introTitle: "Master's in Aerospace Engineering in Finland",
+  title: "Master’s in Aerospace Engineering in Finland | Edu-Hawk Worldwide",
+  description:
+    "Explore Master's in Aerospace Engineering in Finland, space science and satellite technology programs, top Finnish universities, tuition fees, eligibility, admission process, and career opportunities.",
+  keywords:
+    "Master's in Aerospace Engineering in Finland, Aerospace Engineering Master's Programmes in Finland, Study Aerospace Engineering in Finland, Aerospace Engineering Universities in Finland, Master's in Aerospace Engineering in Finland Fees",
+  introTitle: "Master’s in Aerospace Engineering in Finland",
   heroParas: [
-    "Study **Master's in Aerospace Engineering in Finland** to experience a globally renowned Scandinavian space innovation ecosystem, world-leading satellite laboratories, advanced robotics research, and high career ROI with **[Edu-Hawk Worldwide](/services)**."
+    "Finland is an interesting destination for students who want to explore aerospace-related technologies, satellite systems, space robotics, advanced materials and engineering research. The country's technology sector has expertise in areas such as satellite development, remote sensing, autonomous systems and space technology.",
+    "A Master’s in Aerospace Engineering in Finland can be a suitable goal for students interested in aircraft systems, aerospace structures, propulsion, flight technology or space exploration."
   ],
-  overview: [],
-  level: "PG",
+  overview: [
+    "However, students should understand that Finland's English-taught postgraduate options may focus more on space science and technology or related engineering disciplines than on a conventional aerospace engineering degree.",
+    "Students who want to Study Aerospace Engineering in Finland can explore programmes related to space technology, robotics and automation, mechanical engineering, electronics and materials science. These fields can provide useful foundations for careers involving satellites, aerospace components, space missions and advanced engineering systems.",
+    "Finland may appeal to students looking for research-based education, practical projects and international academic opportunities. Edu-Hawk Worldwide helps students explore relevant programmes, compare eligibility requirements and understand the application process for studying abroad."
+  ],
+  level: "Postgraduate & Master's",
   crumb: "Engineering",
-
-  stats: [
-    { label: "Degree Awarded", value: "Master of Science in Technology (M.Sc. Tech)" },
-    { label: "Course Duration", value: "2 Years (120 ECTS)" },
-    { label: "Top Institutions", value: "Aalto University, LUT, Tampere, Oulu" },
-    { label: "Teaching Language", value: "100% English Taught" }
-  ],
 
   sections: [
     {
       slot: "why",
       eyebrow: "Why Finland",
-      title: "Why Study a Master's in Aerospace Engineering in Finland?",
+      title: "Why Study a Master’s in Aerospace Engineering in Finland?",
       groups: [
         {
           t: "p",
           items: [
-            "**Finland** is a premier European destination for students who want to explore **aerospace-related technologies**, satellite systems, space robotics, advanced materials, and engineering research. The country's technology sector possesses world-renowned expertise in satellite development, remote sensing, autonomous guidance, and New Space commercial exploration.",
-            "A **Master's in Aerospace Engineering in Finland for Indian Students** prepares engineers for leadership careers involving aircraft systems, aerospace structures, space propulsion, flight simulation, and satellite constellations. While traditional aerospace degrees focus on civil aviation, Finland excels in interdisciplinary space science, satellite engineering, and advanced computational mechanics.",
-            "Students who want to **Study Aerospace Engineering in Finland** can explore cutting-edge programmes in space technology, robotics and automation, mechanical engineering, RF electronics, and materials science. These fields provide robust foundations for high-level technical careers across the global aerospace industry.",
-            "Finland provides research-based education, modern cleanrooms, wind tunnels, and international academic collaborations. **[Edu-Hawk Worldwide](/services)** helps students explore relevant programmes, verify eligibility, compare tuition fees, and navigate the application process seamlessly.",
-            "**Key Advantages of Studying Aerospace Engineering in Finland**"
+            "Finland is an interesting destination for students who want to explore aerospace-related technologies, satellite systems, space robotics, advanced materials and engineering research. The country's technology sector has expertise in areas such as satellite development, remote sensing, autonomous systems and space technology.",
+            "A Master’s in Aerospace Engineering in Finland can be a suitable goal for students interested in aircraft systems, aerospace structures, propulsion, flight technology or space exploration. However, students should understand that Finland's English-taught postgraduate options may focus more on space science and technology or related engineering disciplines than on a conventional aerospace engineering degree.",
+            "Students who want to Study Aerospace Engineering in Finland can explore programmes related to space technology, robotics and automation, mechanical engineering, electronics and materials science. These fields can provide useful foundations for careers involving satellites, aerospace components, space missions and advanced engineering systems.",
+            "Finland may appeal to students looking for research-based education, practical projects and international academic opportunities. Edu-Hawk Worldwide helps students explore relevant programmes, compare eligibility requirements and understand the application process for studying abroad."
           ]
         },
         {
           t: "dl",
           pairs: [
             {
-              t: "Pioneering New Space & Satellite Tech",
-              d: "Learn in a nation world-famous for miniaturised radar satellites (ICEYE), Arctic Earth observation, and ESA mission partnerships."
+              t: "Aerospace & Satellite Technologies",
+              d: "Explore Finland's expertise in satellite development, remote sensing, autonomous systems, space technology, and advanced materials."
             },
             {
-              t: "Advanced Cleanroom & Wind Tunnel Labs",
-              d: "Gain hands-on research experience in satellite assembly cleanrooms, computational fluid dynamics (CFD) supercomputing, and vibration testing suites."
+              t: "Interdisciplinary Space Science Focus",
+              d: "English-taught postgraduate options provide specialized pathways focusing on space science, satellite engineering, and related engineering disciplines."
             },
             {
-              t: "100% English-Taught Master's Degrees",
-              d: "Study comprehensive international postgraduate curricula delivered completely in English with international cohorts from across 40+ countries."
+              t: "Comprehensive Career Foundations",
+              d: "Build technical skills across space technology, robotics, automation, mechanical engineering, electronics, and materials science."
             },
             {
-              t: "Corporate & ESA Research Projects",
-              d: "Conduct your 30 ECTS master's thesis in direct collaboration with aerospace enterprises, research institutes (VTT), or European Space Agency teams."
-            },
-            {
-              t: "Two-Year Post-Study Work Permit",
-              d: "International graduates can apply for Finland's extended 2-year job seeker residence permit to work across European aerospace and tech sectors."
-            },
-            {
-              t: "Generous Merit Scholarships",
-              d: "Universities offer competitive tuition fee waivers covering 50% to 100% of annual fees for qualifying international applicants."
+              t: "Edu-Hawk Worldwide Guidance",
+              d: "Explore relevant programmes, compare eligibility criteria, understand tuition fees, and navigate the application process seamlessly."
             }
           ]
         }
@@ -80,350 +75,434 @@ const page = {
     },
     {
       slot: "courses",
-      eyebrow: "Programs",
-      title: "Master's in Aerospace Engineering Courses in Finland",
+      eyebrow: "Curriculum & Specialisations",
+      title: "Master’s in Aerospace Engineering Courses in Finland",
       groups: [
         {
           t: "p",
           items: [
-            "Aerospace engineering combines mechanical engineering, electronics, materials science, mathematics, and physics to develop technologies for aircraft, unmanned aerial systems, and spacecraft.",
-            "Students researching **Aerospace Engineering Master's Programmes in Finland** can explore relevant subjects such as:",
-            "**Core Curriculum & Specialisation Subjects**"
+            "Aerospace engineering combines mechanical engineering, electronics, materials science, mathematics and physics to develop technologies for aircraft and spacecraft. The subjects available depend on the university and the exact degree selected.",
+            "Students researching Aerospace Engineering Master’s Programmes in Finland can explore relevant subjects such as:"
           ]
         },
         {
           t: "pills",
           items: [
-            "Space Technology & Satellite Systems",
-            "Space Robotics & Autonomous Guidance",
-            "Aerospace Structures & Advanced Composites",
-            "Mechanical Design & Finite Element Analysis (FEM)",
-            "Control Systems, GNC & Flight Dynamics",
-            "Orbital Mechanics & Space Mission Design",
-            "Sensors, Radar & RF Instrumentation",
-            "Computational Fluid Dynamics (CFD) Modelling",
-            "Electronics for Space & Harsh Environments",
-            "Research Methods & Master's Thesis (30 ECTS)"
+            "Space technology and satellite systems",
+            "Space robotics and automation",
+            "Aerospace structures and advanced materials",
+            "Mechanical design and engineering analysis",
+            "Control systems and autonomous technologies",
+            "Orbital mechanics and space mission concepts",
+            "Sensors and instrumentation",
+            "Computational modelling and simulation",
+            "Electronics for space applications",
+            "Research methods and master's thesis"
           ]
         },
         {
           t: "p",
           items: [
-            "Programmes take **2 years (120 ECTS)** and culminate in an internationally accredited **Master of Science in Technology (M.Sc. Tech)**. Students interested specifically in aircraft aerodynamics or space robotics should check the curriculum of each institution carefully. Connect with **[Edu-Hawk Worldwide specialists](/contact)** for personalised course selection."
+            "Not every Finnish programme covers all these subjects. A space technology degree may concentrate on satellites and space missions, while a mechanical engineering degree may focus on structures, design and simulation.",
+            "Students interested specifically in aircraft design, aerodynamics or propulsion should check each curriculum carefully. Those focused on satellites, space robotics and space technology may find a closer match through interdisciplinary programmes.",
+            "Edu-Hawk Worldwide can help students compare course content and distinguish dedicated aerospace degrees from related engineering pathways."
           ]
         }
       ]
     },
     {
-      slot: "universities",
-      eyebrow: "Where to study",
+      slot: "unis",
+      eyebrow: "Top Institutions",
       title: "Top Universities for Aerospace Engineering in Finland",
       lead: [
-        "Students searching for Aerospace Engineering Universities in Finland should explore the following premier research institutions offering space science, aeronautical, and related engineering master's tracks.",
-        "Compare top Finnish institutions below:"
+        "Students searching for Aerospace Engineering Universities in Finland should consider the following institutions for space technology and related engineering studies. These are relevant options to investigate, not a claim that every university offers a dedicated Aerospace Engineering master's degree."
       ],
       unis: [
         {
           name: "Aalto University",
-          desc: "Aalto University in Espoo offers the English-taught Master's Programme in Space Science and Technology (and participates in the prestigious Erasmus Mundus SpaceMaster consortium). Students explore satellite systems, space robotics, Earth observation, and radio astronomy in Finland's top space research facility.",
-          img: u0Img
+          img: aaltoImg,
+          location: "Espoo, Greater Helsinki, Finland",
+          desc: "Aalto University offers the English-taught Master’s Programme in Space Science and Technology, an interdisciplinary programme designed for students interested in space-related science, engineering and research. The programme leads to a Master of Science (Technology) degree and comprises 120 ECTS credits over two years. Students can pursue specialisations in Space Technology or Space Robotics and Automation at Aalto University as part of the joint SpaceMaster programme. The joint programme involves studying at two partner universities. Its structure is particularly relevant to students interested in satellites, space systems, robotics and space-related research rather than conventional aircraft engineering. Aalto lists annual tuition of €17,000 for eligible non-EU/EEA students liable for tuition fees at Aalto. Participation and fee arrangements at partner universities follow their respective policies, so applicants should review the complete programme's funding and mobility requirements.",
+          fee: "€17,000 / year (approx. ₹18.46 lakh)",
+          duration: "2 Years (120 ECTS)",
+          link: "https://www.aalto.fi/en/study-options/space-science-and-technology-master-of-science-technology"
         },
         {
           name: "LUT University",
-          desc: "LUT University in Lappeenranta offers advanced Master's programmes in Mechanical Engineering and Computational Engineering, with specialised coursework in structural simulation, fluid mechanics, automation, and lightweight materials directly applicable to aerospace manufacturing.",
-          img: u1Img
+          img: lutImg,
+          location: "Lappeenranta / Lahti, Finland",
+          desc: "LUT University is worth investigating for students interested in mechanical engineering, modelling, automation, energy systems and advanced industrial technologies that can be relevant to aerospace applications. These related engineering areas may help students build skills in design, simulation, control systems and materials-related applications. However, applicants should verify the current English-taught master's programme list and curriculum before treating any LUT programme as an aerospace engineering qualification. Students whose main interests are aircraft structures, propulsion or flight systems should check whether the available courses directly cover those topics.",
+          fee: "Check official university portal",
+          duration: "2 Years Master's Programmes",
+          link: "https://www.lut.fi/en"
         },
         {
           name: "Tampere University",
-          desc: "Tampere University provides world-class education in robotics, automation, intelligent machines, and sensor technology, preparing graduates for high-level guidance, control, and autonomous aerial system engineering.",
-          img: u2Img
+          img: tampereImg,
+          location: "Tampere, Finland",
+          desc: "Tampere University offers education and research in technology and engineering disciplines that may be relevant to aerospace-related work. Depending on the available programme and curriculum, students can investigate areas such as mechanical engineering, automation, control systems and advanced materials. These disciplines can provide transferable technical knowledge for aerospace manufacturing, systems engineering and research. However, they should not be considered equivalent to a dedicated Aerospace Engineering degree without checking the actual qualification and course content. Students should compare the programme's specialisations, project opportunities and research facilities with their intended career path.",
+          fee: "Check official university website",
+          duration: "2 Years Master's Programmes",
+          link: "https://www.tuni.fi/en"
         },
         {
           name: "University of Oulu",
-          desc: "The University of Oulu offers advanced research environments in wireless communications, radar technology, RF engineering, and space physics, fostering critical technical skills for satellite communications and aerospace telemetry.",
-          img: u3Img
+          img: ouluImg,
+          location: "Oulu, Finland",
+          desc: "The University of Oulu is another institution to investigate for related technology and engineering studies. Its research environment may be relevant to students interested in electronics, wireless communication, sensing systems and technologies used in advanced engineering applications. These subjects can be useful for satellite communications and electronic systems, but they do not replace specialised aerospace coursework in areas such as aerodynamics, aircraft structures or propulsion. Applicants should check the current English-taught master's programmes and confirm that the curriculum meets their academic and professional objectives.",
+          fee: "Check official university website",
+          duration: "2 Years Master's Programmes",
+          link: "https://www.oulu.fi/en"
         }
       ],
       note: [
-        "Before selecting a university, applicants should compare programme details, admission criteria, teaching language, and current application deadlines with **[Edu-Hawk Worldwide](/contact)**."
+        "When comparing Aerospace Engineering Universities in Finland, check the exact degree title, course modules, tuition fees, research projects and opportunities for practical experience. Edu-Hawk Worldwide can help students shortlist relevant programmes and understand the differences between aerospace engineering, space technology and related engineering disciplines."
       ]
     },
     {
       slot: "eligibility",
-      eyebrow: "Eligibility",
-      title: "Eligibility for a Master's in Aerospace Engineering in Finland",
+      eyebrow: "Academic Criteria",
+      title: "Eligibility for a Master’s in Aerospace Engineering in Finland",
       groups: [
         {
           t: "p",
           items: [
-            "Students applying for a **Master's in Aerospace Engineering in Finland for Indian Students** generally require a recognised Bachelor's degree in aerospace engineering, mechanical engineering, engineering physics, electrical engineering, or another relevant discipline.",
-            "**Standard Eligibility Criteria for Indian Students**"
+            "Students applying for a Master’s in Aerospace Engineering in Finland for Indian Students generally need a recognised bachelor's degree in aerospace engineering, mechanical engineering, engineering physics or another relevant field accepted by the selected programme.",
+            "Typical eligibility requirements may include:"
           ]
         },
         {
           t: "ul",
           items: [
-            "A recognised 4-year **Bachelor's degree (B.E. / B.Tech / B.Sc. Tech)** from an accredited university in India or abroad.",
-            "Strong academic preparation in **higher mathematics, physics, and engineering mechanics**.",
-            "Previous undergraduate coursework in mechanical systems, fluid dynamics, electronics, or control theory, depending on the chosen track.",
-            "Competitive academic GPA (typically first class / 65%+ or equivalent).",
-            "Proof of **English language proficiency** through IELTS Academic (minimum 6.5 with no band below 5.5), TOEFL iBT (92+), or PTE Academic (62+).",
-            "Official academic transcripts, graduation certificate, Statement of Purpose (SOP), and curriculum vitae (CV)."
+            "A recognised bachelor's degree relevant to the chosen programme.",
+            "Previous coursework in mathematics and physics.",
+            "Knowledge of mechanical systems, materials, electronics or control systems, depending on the specialisation.",
+            "Academic performance meeting the university's selection criteria.",
+            "English-language proficiency through an accepted test or another approved method, where required.",
+            "Official academic transcripts and degree documents.",
+            "Additional prerequisites specified by the programme."
           ]
         },
         {
           t: "p",
           items: [
+            "For a space technology programme, applicants may need a background in engineering, physics or another closely related discipline. Requirements vary, and not every programme accepts all engineering backgrounds.",
+            "Students should also consider whether their career goals require an aerospace-specific degree. For example, aircraft design roles may require coursework in aerodynamics, propulsion and structural analysis, while satellite-related roles may place more emphasis on space systems, electronics or robotics.",
             "Edu-Hawk Worldwide helps students review eligibility requirements and identify relevant programmes based on their undergraduate qualifications."
           ]
         }
       ]
     },
     {
-      slot: "admission",
-      eyebrow: "Admission",
-      title: "Admission Requirements for Aerospace Engineering Master's Programmes",
+      slot: "admissions",
+      eyebrow: "Documentation & Criteria",
+      title: "Admission Requirements for Aerospace Engineering Master’s Programmes in Finland",
       groups: [
         {
           t: "p",
           items: [
-            "Admission requirements depend on the university and degree track. Indian students should prepare the following verified application materials:",
-            "**Required Application Documentation**"
+            "Admission requirements for Aerospace Engineering Master’s Programmes in Finland depend on the institution and the selected degree. Applicants should review the official admission criteria before preparing their documents.",
+            "Commonly requested documents include:"
           ]
         },
         {
           t: "ul",
           items: [
-            "Bachelor's degree certificate or official provisional degree certificate.",
-            "Official consolidated semester-wise academic transcripts with grading scale.",
-            "Valid international passport with at least 2 years validity.",
-            "Official English language proficiency scorecard (IELTS / TOEFL / PTE).",
-            "Curriculum Vitae (CV) in standard Europass format highlighting technical projects and internships.",
-            "Statement of Purpose (SOP) or motivation essay detailing aerospace interests.",
-            "Course descriptions or syllabus copies of relevant undergraduate mathematics and mechanics courses.",
-            "Two Letters of Recommendation (LORs) from academic professors or technical supervisors."
+            "Bachelor's degree certificate or proof of expected graduation.",
+            "Official academic transcripts.",
+            "Valid passport or accepted identity document.",
+            "English-language test results, if required.",
+            "CV or résumé, where requested.",
+            "Motivation letter or statement of purpose, if required.",
+            "Course descriptions or syllabus documents, where requested.",
+            "Recommendation letters, if applicable.",
+            "Additional programme-specific documents."
           ]
         },
         {
           t: "p",
           items: [
-            "Edu-Hawk Worldwide provides end-to-end guidance to review requirements, certify translations, and submit flawless applications."
+            "Universities may assess the relevance of previous studies, academic performance and preparation for advanced technical subjects. Some programmes may ask applicants to demonstrate knowledge of mathematics, physics, mechanical systems, electronics or programming.",
+            "For joint programmes such as SpaceMaster, students should also review the programme's partner-university structure, mobility requirements and separate tuition policies.",
+            "Application deadlines and language requirements can change between intakes. Edu-Hawk Worldwide can help students understand admission criteria and organise their application documents, while the university makes the final admission decision."
           ]
         }
       ]
     },
     {
-      slot: "costs",
-      eyebrow: "Tuition & Costs",
-      title: "Master's in Aerospace Engineering in Finland Fees",
+      slot: "fees",
+      eyebrow: "Study Budget & Living Costs",
+      title: "Master’s in Aerospace Engineering in Finland Fees",
       groups: [
         {
           t: "p",
           items: [
-            "Tuition fees depend on the university, programme, and study structure. Non-EU/EEA international students pay annual tuition fees for English-taught master's programmes. INR conversions use an indicative exchange rate of **€1 ≈ ₹108.60**.",
-            "**Annual Tuition Fees Overview**"
+            "The Master’s in Aerospace Engineering in Finland Fees depend on the exact programme, university and tuition-fee category. Since Finland's relevant options may be space technology or related engineering degrees rather than dedicated aerospace engineering degrees, students should compare fees for the actual programme they plan to apply to.",
+            "**Example tuition fee**"
           ]
         },
         {
           t: "table",
-          headers: ["University & Programme", "Published Annual Fee (EUR)", "Approximate Annual Fee (INR)"],
+          headers: ["University and programme", "Published annual fee", "Approximate INR"],
           rows: [
-            ["Aalto University – Space Science & Technology", "€17,000", "₹18.46 lakh"],
-            ["LUT University – Mechanical / Computational Eng.", "€13,500", "₹14.66 lakh"],
-            ["Tampere University – Automation & Robotics", "€12,000", "₹13.03 lakh"],
-            ["University of Oulu – Wireless & Electronics", "€10,000", "₹10.86 lakh"]
+            [
+              "Aalto University – Space Science and Technology",
+              "€17,000 at Aalto for eligible fee-paying students",
+              "₹18.46 lakh"
+            ]
           ]
         },
         {
           t: "p",
           items: [
-            "**Scholarships & Tuition Waivers**",
-            "Finnish universities offer competitive merit scholarships covering 50% to 100% of tuition fees for high-performing international master's students.",
-            "**Estimated Monthly Living Expenses for Students**"
+            "The Aalto fee is the amount listed for eligible non-EU/EEA students liable for tuition fees at Aalto. The SpaceMaster programme involves partner universities, so applicants should confirm the total fee arrangements for all study locations and the intended intake.",
+            "The INR conversion uses an illustrative exchange rate of €1 ≈ ₹108.60. Actual exchange rates and tuition fees may change.",
+            "**Estimated monthly living expenses**",
+            "Students should also budget for accommodation, food, transport and personal expenses."
           ]
         },
         {
           t: "table",
-          headers: ["Expense Category", "Estimated Monthly Budget (EUR)", "Approximate Monthly Budget (INR)"],
+          headers: ["Expense", "Estimated monthly budget"],
           rows: [
-            ["Student Housing / Apartment", "€300 – €700", "₹32,580 – ₹76,020"],
-            ["Food & Groceries", "€200 – €350", "₹21,720 – ₹38,010"],
-            ["Public Transportation Pass", "€40 – €80", "₹4,344 – ₹8,688"],
-            ["Personal Expenses & Utilities", "€100 – €200", "₹10,860 – ₹21,720"],
-            ["Estimated Total Monthly Expenses", "€640 – €1,330", "₹69,504 – ₹1,44,438"]
+            ["Accommodation", "€300–€700"],
+            ["Food and groceries", "€200–€350"],
+            ["Transportation", "€40–€80"],
+            ["Personal expenses", "€100–€200"]
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "These figures are general estimates and may vary depending on the city, housing arrangement and lifestyle. Students should also account for insurance, residence-permit requirements, travel and initial settling-in costs.",
+            "Scholarships or tuition-fee waivers may be available under specific university or programme conditions. When comparing the Master’s in Aerospace Engineering in Finland Fees, students should consider tuition at every partner institution, living expenses and programme duration.",
+            "Edu-Hawk Worldwide can help students compare estimated costs and understand the financial planning involved in international study."
           ]
         }
       ]
     },
     {
-      slot: "steps",
-      eyebrow: "Step by step",
-      title: "Admission Process for a Master's in Aerospace Engineering in Finland",
+      slot: "process",
+      eyebrow: "Step-by-Step",
+      title: "Admission Process for a Master’s in Aerospace Engineering in Finland",
       groups: [
         {
           t: "p",
           items: [
-            "Students interested in aerospace-related postgraduate education follow a structured multi-step timeline through Studyinfo.fi or institutional application portals.",
-            "Follow these key steps to secure your admission:"
+            "Students interested in aerospace-related postgraduate education can generally follow these steps:"
           ]
         },
         {
           t: "step",
-          step: "1",
-          title: "Identify Your Specialisation",
-          desc: "Decide whether to focus on satellite systems, space robotics, autonomous guidance, aerodynamic design, or aerospace structures."
+          items: [
+            {
+              title: "Identify your specialisation",
+              text: "Decide whether you want to focus on aircraft engineering, space technology, robotics, mechanical systems or satellite technologies."
+            },
+            {
+              title: "Find a suitable programme",
+              text: "Compare dedicated aerospace degrees with related space technology and engineering options."
+            },
+            {
+              title: "Check eligibility",
+              text: "Review the required bachelor's degree and prerequisite subjects."
+            },
+            {
+              title: "Compare tuition fees",
+              text: "Check the fees for all study locations if applying to a joint programme."
+            },
+            {
+              title: "Prepare documents",
+              text: "Collect academic transcripts, degree certificates and language test results, if required."
+            },
+            {
+              title: "Check the application portal",
+              text: "Confirm whether the university uses Studyinfo or a programme-specific application system."
+            },
+            {
+              title: "Submit your application",
+              text: "Complete the application form and upload all required documents before the deadline."
+            },
+            {
+              title: "Complete additional requirements",
+              text: "Provide any extra documents or evidence requested by the programme."
+            },
+            {
+              title: "Review the admission decision",
+              text: "Follow the university's instructions for accepting an offer."
+            },
+            {
+              title: "Plan your finances",
+              text: "Arrange tuition payments, accommodation and living expenses."
+            },
+            {
+              title: "Apply for a residence permit",
+              text: "Follow the relevant Finnish immigration requirements if applicable."
+            },
+            {
+              title: "Prepare for departure",
+              text: "Arrange travel, housing and insurance."
+            }
+          ]
         },
         {
-          t: "step",
-          step: "2",
-          title: "Select Programme & University",
-          desc: "Compare programmes at Aalto University, LUT University, Tampere, and Oulu based on research laboratories, faculty, and career pathways."
-        },
-        {
-          t: "step",
-          step: "3",
-          title: "Verify Academic & Language Eligibility",
-          desc: "Ensure your undergraduate degree prerequisites in mathematics, mechanics, and physics match the target programme, and achieve required IELTS/TOEFL scores."
-        },
-        {
-          t: "step",
-          step: "4",
-          title: "Assemble Academic Documents",
-          desc: "Gather bachelor's degree certificates, consolidated transcripts, Europass CV, Statement of Purpose, and academic recommendation letters."
-        },
-        {
-          t: "step",
-          step: "5",
-          title: "Submit Online Application",
-          desc: "Complete the online application via Studyinfo.fi during the joint application window (typically December–January) or rolling intakes."
-        },
-        {
-          t: "step",
-          step: "6",
-          title: "Apply for University Scholarships",
-          desc: "Apply simultaneously for university merit-based scholarships covering 50% to 100% of tuition fees."
-        },
-        {
-          t: "step",
-          step: "7",
-          title: "Receive Admission Offer & Confirm Place",
-          desc: "Review your admission offer, accept your study place electronically, and complete tuition deposit formalities."
-        },
-        {
-          t: "step",
-          step: "8",
-          title: "Apply for Student Residence Permit",
-          desc: "Submit your Finnish student residence permit application on EnterFinland.fi with proof of funds, health insurance, and paid tuition confirmation."
+          t: "p",
+          items: [
+            "The published application period for Aalto's Space Science and Technology programme for the 2026 intake was 16 October 2025 to 15 January 2026, which has passed. Applicants should check the official programme website for the next intake and current application dates.",
+            "Edu-Hawk Worldwide can help students understand the application process, compare relevant programmes and prepare documents. Admission decisions are made by the universities."
+          ]
         }
       ]
     },
     {
       slot: "licensing",
-      eyebrow: "Licensing & Regulation",
-      title: "Licensing and Professional Requirements After Aerospace Engineering",
+      eyebrow: "Professional Standards",
+      title: "Licensing and Professional Requirements After Aerospace Engineering in Finland",
       groups: [
         {
           t: "p",
           items: [
-            "A master's degree in aerospace or space technology provides an accredited European university qualification under the Bologna process and the EUR-ACE engineering framework.",
-            "Engineering, research, simulation, and product development roles in private aerospace enterprises and satellite manufacturers do not require mandatory state licensing.",
-            "Aviation maintenance, flight certification, and airworthiness engineering follow **European Union Aviation Safety Agency (EASA)** regulatory standards.",
-            "International graduates are legally entitled to Finland's **2-year post-study job seeker residence permit**, enabling them to work full-time across European aerospace and advanced technology sectors."
+            "Professional requirements depend on the type of work a graduate wants to perform. Many engineering, research, simulation and product-development roles do not require a universal professional licence simply because a person holds a master's degree.",
+            "However, aircraft design, maintenance, airworthiness and other aviation-related responsibilities may be subject to specific regulatory standards and approval requirements. Students interested in aircraft certification or maintenance should investigate the relevant European Union Aviation Safety Agency (EASA) framework and the requirements for the particular role.",
+            "Space technology and satellite engineering roles may involve different technical standards, project requirements and employer expectations.",
+            "Graduates planning to work in Finland should also research employer requirements, applicable residence and work-permit rules, and whether local-language skills are needed for their preferred roles."
+          ]
+        },
+        {
+          t: "dl",
+          pairs: [
+            {
+              t: "General Engineering & Research Roles",
+              d: "Many engineering, research, simulation and product-development roles do not require a universal professional licence simply because a person holds a master's degree."
+            },
+            {
+              t: "Aviation & EASA Regulatory Standards",
+              d: "Aircraft design, maintenance, airworthiness and aviation-related responsibilities may be subject to specific European Union Aviation Safety Agency (EASA) regulatory frameworks."
+            },
+            {
+              t: "Space & Satellite Engineering Standards",
+              d: "Space technology and satellite engineering roles involve distinct technical project standards and employer expectations."
+            },
+            {
+              t: "Working in Finland",
+              d: "Research employer requirements, applicable residence and work-permit rules, and language skills needed for target roles."
+            }
           ]
         }
       ]
     },
     {
       slot: "careers",
-      eyebrow: "Careers & Salary",
-      title: "Jobs and Salary After a Master's in Aerospace Engineering in Finland",
+      eyebrow: "Career Pathways",
+      title: "Jobs and Salary After a Master’s in Aerospace Engineering in Finland",
       groups: [
         {
           t: "p",
           items: [
-            "Graduates explore high-impact career opportunities across aerospace manufacturers, satellite operators, New Space startups, robotics companies, and research institutions.",
-            "**Potential Career Paths for Aerospace Engineers**"
+            "Graduates from relevant aerospace, space technology and engineering programmes may explore opportunities in aerospace suppliers, satellite companies, research organisations, electronics, robotics and advanced manufacturing. Career options depend on the degree, technical specialisation, practical experience and employer requirements.",
+            "**Potential career paths include:**"
           ]
         },
         {
           t: "pills",
           items: [
-            "Aerospace Systems Engineer",
+            "Aerospace Engineer",
+            "Space Systems Engineer",
             "Satellite Systems Engineer",
-            "Space Robotics & Guidance Engineer",
-            "CFD Aerodynamics Specialist",
-            "Aerospace Structural Design Engineer",
-            "GNC (Guidance, Navigation & Control) Engineer",
-            "RF & Satellite Telecommunications Engineer",
-            "Thermal & Propulsion Simulation Specialist",
-            "Flight Software & Embedded Developer",
-            "R&D Aerospace Scientist"
+            "Mechanical Design Engineer",
+            "Space Robotics Engineer",
+            "Guidance, Navigation and Control Engineer",
+            "Simulation and Modelling Engineer",
+            "Systems Integration Engineer",
+            "Materials and Structures Engineer",
+            "Electronics Engineer for Space Applications",
+            "Research and Development Engineer",
+            "Test and Validation Engineer"
           ]
         },
         {
           t: "p",
           items: [
-            "**Salary Expectations in Finland**",
-            "Entry-level master's graduates in aerospace and space engineering in Finland typically earn between **€3,800 and €4,500 per month** (approx. ₹4.12 lakh to ₹4.88 lakh monthly). Experienced aerospace systems engineers and project leaders command salaries from **€5,000 to €7,000+ per month** (approx. ₹5.43 lakh to ₹7.60+ lakh monthly).",
-            "Internship experience with satellite manufacturers, proficiency in simulation tools (ANSYS, MATLAB, Nastran), and fundamental Finnish language skills significantly enhance career progression and permanent residency (PR) eligibility."
+            "Salary levels vary according to experience, location, employer and technical specialisation. Students should review current job advertisements and reliable salary surveys in Finland and other countries where they plan to work rather than relying on a single salary estimate.",
+            "Skills in CAD, simulation, programming, control systems, robotics, systems engineering and technical analysis can improve career readiness, depending on the chosen role. Research projects and internships may also provide valuable experience.",
+            "A Master’s in Aerospace Engineering in Finland or a related space technology degree can support a career in advanced engineering, but employment is not guaranteed. Students should check whether the programme provides the specialised knowledge required for their target occupation."
           ]
         }
       ]
     },
     {
-      slot: "documents",
+      slot: "docs",
       eyebrow: "Checklist",
-      title: "Documents Required for Admission",
+      title: "Documents Required for a Master’s in Aerospace Engineering in Finland",
       groups: [
         {
           t: "p",
           items: [
-            "Indian students applying for a Master's in Aerospace Engineering in Finland should prepare the following documents:"
+            "Applicants should prepare the documents listed by their chosen university. Common requirements include:"
           ]
         },
         {
           t: "ul",
           items: [
-            "Valid international passport.",
-            "Bachelor's degree certificate or provisional completion certificate.",
-            "Consolidated undergraduate academic transcripts with grading scale.",
-            "Official English language proficiency test report (IELTS / TOEFL / PTE).",
-            "Curriculum Vitae (CV) in standard Europass format.",
-            "Statement of Purpose (SOP) tailored to aerospace and space engineering.",
-            "Two Letters of Recommendation (Academic / Professional).",
-            "Course descriptions or syllabus copies of undergraduate mathematics and mechanics subjects."
+            "Valid passport or accepted identity document.",
+            "Bachelor's degree certificate or proof of expected graduation.",
+            "Official academic transcripts.",
+            "English-language proficiency results, if required.",
+            "CV or résumé, where requested.",
+            "Motivation letter or statement of purpose, if required.",
+            "Course descriptions or syllabus documents, where requested.",
+            "Recommendation letters, if applicable.",
+            "Certified translations, where necessary.",
+            "Additional programme-specific documents.",
+            "Financial and insurance documents for the residence-permit process, where applicable.",
+            "Admission confirmation and tuition-payment records, if required."
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "Applicants to joint programmes should also review any additional instructions concerning partner universities, study locations and programme-specific documents.",
+            "Edu-Hawk Worldwide can help students understand document checklists and organise their application materials. Students should always follow the latest official university and Finnish immigration instructions."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "faq",
+      eyebrow: "FAQ",
+      title: "Frequently Asked Questions About a Master’s in Aerospace Engineering in Finland",
+      groups: [
+        {
+          t: "faq",
+          items: [
+            {
+              q: "Can Indian students study aerospace engineering in Finland?",
+              a: "Yes, Indian students can apply to relevant engineering and space technology master's programmes if they meet the academic, language and documentation requirements. They should confirm whether a programme is specifically in aerospace engineering or a related field."
+            },
+            {
+              q: "Does Finland offer a dedicated Master’s in Aerospace Engineering?",
+              a: "The programme options highlighted here include space technology and related engineering pathways rather than a confirmed conventional degree titled Aerospace Engineering. Students should verify current programme listings and curricula before applying."
+            },
+            {
+              q: "What is the duration of aerospace-related master's programmes in Finland?",
+              a: "Many relevant engineering and space technology master's programmes take two years and comprise 120 ECTS credits. The exact duration and structure depend on the programme."
+            },
+            {
+              q: "What are the Master’s in Aerospace Engineering in Finland Fees?",
+              a: "Fees depend on the selected university and programme. Aalto lists €17,000 per academic year for eligible fee-paying students at Aalto in its Space Science and Technology programme. Joint-programme applicants should confirm the tuition arrangements for all partner universities."
+            },
+            {
+              q: "How can Edu-Hawk Worldwide help with admissions?",
+              a: "Edu-Hawk Worldwide helps students explore relevant universities, compare programme requirements, understand fees and organise application documents. Students should confirm programme availability, deadlines and final admission decisions directly with the universities."
+            }
           ]
         }
       ]
     }
-  ],
-
-  faqs: [
-    {
-      q: "Can Indian students pursue a Master's in Aerospace Engineering in Finland?",
-      a: "Yes. Indian students with a recognized Bachelor's in Aerospace, Mechanical, Electrical, or Physics can apply to English-taught Master's programmes in space science, satellite engineering, and mechanical aerospace tracks."
-    },
-    {
-      q: "What is the duration of a Master's in Aerospace Engineering in Finland?",
-      a: "Most university-based Master's programmes in Finland take 2 years to complete and comprise 120 ECTS credits, including coursework and a 30 ECTS research thesis."
-    },
-    {
-      q: "What are the tuition fees for Aerospace Engineering in Finland?",
-      a: "Annual tuition fees range from €10,000 to €17,000 (around ₹10.86 lakh to ₹18.46 lakh). Finnish universities offer competitive 50% to 100% merit scholarships for international students."
-    },
-    {
-      q: "Is IELTS mandatory for Master's admission in Finland?",
-      a: "An English proficiency test is generally required. Universities widely accept IELTS Academic (typically 6.5+), TOEFL iBT (92+), and PTE Academic (62+)."
-    },
-    {
-      q: "How can Edu-Hawk Worldwide help with admission?",
-      a: "Edu-Hawk Worldwide provides end-to-end guidance: university shortlisting, eligibility evaluation, document verification, SOP reviews, Studyinfo.fi portal application, scholarship applications, and Finnish student residence permit guidance."
-    }
-  ],
-  faqTitle: "Frequently Asked Questions About Master's in Aerospace Engineering in Finland"
+  ]
 };
 
-const MastersinAerospaceEngineeringPGFinland = () => {
+export default function MastersinAerospaceEngineeringPGFinland() {
   return (
     <AbroadCoursePage
       page={page}
@@ -431,9 +510,8 @@ const MastersinAerospaceEngineeringPGFinland = () => {
       heroBgImg={heroBgImg}
       sideImg={sideImg}
       ctaBgImg={ctaBgImg}
+      showHeroStats={false}
       seoPath="/study-abroad/finland/pg/aerospace-engineering"
     />
   );
-};
-
-export default MastersinAerospaceEngineeringPGFinland;
+}

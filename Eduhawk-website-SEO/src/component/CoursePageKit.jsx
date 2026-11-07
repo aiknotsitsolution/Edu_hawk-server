@@ -1323,42 +1323,17 @@ export const EhpHead = ({ eyebrow, title, desc, descClass, center, as }) => (
 
 
 export const Paragraphs = ({ items, className, tone }) => {
-
-
-
-  if (!items || !items.length) return null;
-
-
-
+  if (!items) return null;
+  const list = Array.isArray(items) ? items : (typeof items === 'string' ? [items] : []);
+  if (!list.length) return null;
   return (
-
-
-
     <div
-
-
-
       className={
-
-
-
         className ??
-
-
-
         "text-slate-500 text-[15px] leading-relaxed space-y-4"
-
-
-
       }
-
-
-
     >
-
-
-
-      {items.map((p, i) => {
+      {list.map((p, i) => {
         if (!p) return null;
         if (typeof p === "object" && !React.isValidElement(p)) {
           const title = p.title || p.t;
@@ -2017,113 +1992,206 @@ export const StatGrid = ({ items }) => (
 
 
 
-/*  University cards (image)                                           */
-
-
-
+/*  University cards (solid & artwork)                                 */
 /* ------------------------------------------------------------------ */
 
-
-
-export const UniversityGrid = ({ unis, alt, className = "" }) => (
-
-
-
-  <div className={"grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 " + className}>
-
-
-
-    {unis.map((u, i) => (
-
-
-
-      <div
-
-
-
-        key={u.name ?? i}
-
-
-
-        className="relative rounded-2xl overflow-hidden h-60 group"
-
-
-
+export const UniversityArtwork = ({ theme = "automotive" }) => {
+  if (theme === "automotive" || theme === "auto") {
+    return (
+      <svg
+        viewBox="0 0 400 180"
+        className="w-full h-full object-cover pointer-events-none"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
       >
+        <defs>
+          <linearGradient id="art-auto-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stopColor="#1e3a8a" />
+            <stop offset="55%" stopColor="#0f172a" />
+            <stop offset="100%" stopColor="#1e293b" />
+          </linearGradient>
+          <pattern id="art-auto-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+            <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(255,255,255,0.06)" strokeWidth="0.8" />
+          </pattern>
+        </defs>
+        <rect width="400" height="180" fill="url(#art-auto-bg)" />
+        <rect width="400" height="180" fill="url(#art-auto-grid)" />
+        {/* Precision Blueprint Circles & Gear */}
+        <circle cx="330" cy="90" r="58" stroke="#38bdf8" strokeWidth="1.2" strokeDasharray="3 3" opacity="0.45" />
+        <circle cx="330" cy="90" r="40" stroke="#60a5fa" strokeWidth="1.5" opacity="0.65" />
+        <circle cx="330" cy="90" r="14" fill="#38bdf8" fillOpacity="0.2" stroke="#38bdf8" strokeWidth="1.5" />
+        <path
+          d="M330 42 L330 48 M330 132 L330 138 M282 90 L288 90 M372 90 L378 90 M296 56 L301 61 M359 119 L364 124 M296 124 L301 119 M359 61 L364 56"
+          stroke="#38bdf8"
+          strokeWidth="2.5"
+          strokeLinecap="round"
+          opacity="0.75"
+        />
+        {/* Aerodynamic vehicle chassis line & speed contours */}
+        <path
+          d="M35 135 C 75 135, 105 130, 135 118 C 165 106, 192 74, 235 70 C 280 67, 315 84, 355 118 L 375 135"
+          stroke="#f59e0b"
+          strokeWidth="2.4"
+          strokeLinecap="round"
+          fill="none"
+          opacity="0.9"
+        />
+        <path d="M50 144 L 355 144" stroke="#94a3b8" strokeWidth="1.4" strokeDasharray="4 4" opacity="0.5" />
+        <path d="M155 102 C 185 82, 225 80, 255 90" stroke="#38bdf8" strokeWidth="1.8" opacity="0.7" fill="none" />
+        {/* Dimension & blueprint labels */}
+        <line x1="60" y1="46" x2="160" y2="46" stroke="#38bdf8" strokeWidth="1" strokeDasharray="2 2" opacity="0.45" />
+        <circle cx="60" cy="46" r="2.5" fill="#38bdf8" opacity="0.7" />
+        <circle cx="160" cy="46" r="2.5" fill="#38bdf8" opacity="0.7" />
+        <text x="110" y="42" fill="#93c5fd" fontSize="9" textAnchor="middle" fontFamily="monospace" letterSpacing="1.2" opacity="0.8">
+          AUTOMOTIVE BLUEPRINT
+        </text>
+      </svg>
+    );
+  }
 
+  if (theme === "innovation") {
+    return (
+      <svg
+        viewBox="0 0 400 180"
+        className="w-full h-full object-cover pointer-events-none"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <defs>
+          <linearGradient id="art-innov-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stopColor="#4338ca" />
+            <stop offset="55%" stopColor="#312e81" />
+            <stop offset="100%" stopColor="#0f172a" />
+          </linearGradient>
+          <pattern id="art-innov-dots" width="18" height="18" patternUnits="userSpaceOnUse">
+            <circle cx="3" cy="3" r="1" fill="rgba(255,255,255,0.08)" />
+          </pattern>
+        </defs>
+        <rect width="400" height="180" fill="url(#art-innov-bg)" />
+        <rect width="400" height="180" fill="url(#art-innov-dots)" />
+        {/* Isometric 3D faceted crystal / architectural nexus */}
+        <path d="M305 38 L355 68 L355 128 L305 158 L255 128 L255 68 Z" stroke="#a78bfa" strokeWidth="1.6" fill="#8b5cf6" fillOpacity="0.12" />
+        <path d="M305 38 L305 98 L355 128 M305 98 L255 128 M305 98 L355 68 M305 98 L255 68" stroke="#c4b5fd" strokeWidth="1.3" opacity="0.65" />
+        <circle cx="305" cy="98" r="4.5" fill="#f59e0b" />
+        {/* Constellation & Network nodes */}
+        <path d="M45 125 L105 85 L175 115 L235 75" stroke="#67e8f9" strokeWidth="1.6" strokeDasharray="3 3" opacity="0.55" fill="none" />
+        <circle cx="45" cy="125" r="3.5" fill="#38bdf8" />
+        <circle cx="105" cy="85" r="4.5" fill="#818cf8" />
+        <circle cx="175" cy="115" r="3.5" fill="#c084fc" />
+        <circle cx="235" cy="75" r="5" fill="#f43f5e" />
+        <text x="135" y="42" fill="#c7d2fe" fontSize="9" textAnchor="middle" fontFamily="monospace" letterSpacing="1.2" opacity="0.85">
+          INNOVATION & SYSTEMS
+        </text>
+      </svg>
+    );
+  }
 
+  if (theme === "automation") {
+    return (
+      <svg
+        viewBox="0 0 400 180"
+        className="w-full h-full object-cover pointer-events-none"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <defs>
+          <linearGradient id="art-auto-sys-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stopColor="#0f766e" />
+            <stop offset="55%" stopColor="#115e59" />
+            <stop offset="100%" stopColor="#042f2e" />
+          </linearGradient>
+        </defs>
+        <rect width="400" height="180" fill="url(#art-auto-sys-bg)" />
+        {/* Radar sweep & telemetry circles */}
+        <circle cx="315" cy="90" r="68" stroke="#2dd4bf" strokeWidth="1" strokeDasharray="4 4" opacity="0.4" />
+        <circle cx="315" cy="90" r="44" stroke="#5eead4" strokeWidth="1.3" opacity="0.55" />
+        <circle cx="315" cy="90" r="20" stroke="#99f6e4" strokeWidth="1.5" opacity="0.75" />
+        <line x1="235" y1="90" x2="395" y2="90" stroke="#2dd4bf" strokeWidth="0.8" opacity="0.45" />
+        <line x1="315" y1="12" x2="315" y2="168" stroke="#2dd4bf" strokeWidth="0.8" opacity="0.45" />
+        {/* Robotic articulation arm vector */}
+        <path d="M38 145 L88 120 L148 135 L198 90 L238 95" stroke="#fbbf24" strokeWidth="2.6" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+        <circle cx="88" cy="120" r="4.5" fill="#14b8a6" stroke="#fff" strokeWidth="1.5" />
+        <circle cx="148" cy="135" r="4.5" fill="#14b8a6" stroke="#fff" strokeWidth="1.5" />
+        <circle cx="198" cy="90" r="5" fill="#f59e0b" stroke="#fff" strokeWidth="1.5" />
+        <path d="M233 85 L248 95 L233 105" stroke="#f59e0b" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" fill="none" />
+        <text x="125" y="42" fill="#a7f3d0" fontSize="9" textAnchor="middle" fontFamily="monospace" letterSpacing="1.2" opacity="0.85">
+          AUTOMATION & ROBOTICS
+        </text>
+      </svg>
+    );
+  }
 
-        {u.img ? (
+  // Energy & Sustainable Mobility theme (LUT & default)
+  return (
+    <svg
+      viewBox="0 0 400 180"
+      className="w-full h-full object-cover pointer-events-none"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <defs>
+        <linearGradient id="art-energy-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stopColor="#065f46" />
+          <stop offset="55%" stopColor="#064e3b" />
+          <stop offset="100%" stopColor="#022c22" />
+        </linearGradient>
+      </defs>
+      <rect width="400" height="180" fill="url(#art-energy-bg)" />
+      {/* Clean Energy & Turbine dynamics */}
+      <circle cx="320" cy="90" r="56" stroke="#34d399" strokeWidth="1.2" strokeDasharray="3 3" opacity="0.5" />
+      {/* 3-blade turbine rotor */}
+      <path d="M320 90 C330 65, 335 45, 320 35 C315 45, 318 65, 320 90 Z" fill="#6ee7b7" opacity="0.8" />
+      <path d="M320 90 C345 100, 365 110, 370 98 C360 92, 342 92, 320 90 Z" fill="#6ee7b7" opacity="0.8" />
+      <path d="M320 90 C300 110, 280 120, 275 110 C282 100, 300 95, 320 90 Z" fill="#6ee7b7" opacity="0.8" />
+      <circle cx="320" cy="90" r="6" fill="#fbbf24" />
+      {/* Flow waves & clean energy traces */}
+      <path d="M35 112 C85 82, 135 142, 205 102 C235 87, 265 92, 285 107" stroke="#10b981" strokeWidth="2.4" strokeLinecap="round" fill="none" opacity="0.85" />
+      <path d="M45 132 C95 102, 145 152, 215 122" stroke="#34d399" strokeWidth="1.5" strokeDasharray="3 3" fill="none" opacity="0.65" />
+      <text x="130" y="42" fill="#a7f3d0" fontSize="9" textAnchor="middle" fontFamily="monospace" letterSpacing="1.2" opacity="0.85">
+        SUSTAINABLE MOBILITY
+      </text>
+    </svg>
+  );
+};
 
+export const SolidUniversityCard = ({ uni, index = 0, className = "" }) => {
+  const u = uni;
+  const theme =
+    u.artTheme ||
+    (index % 4 === 0
+      ? "automotive"
+      : index % 4 === 1
+      ? "innovation"
+      : index % 4 === 2
+      ? "automation"
+      : "energy");
 
+  return (
+    <div
+      className={
+        "ehp-card bg-white rounded-2xl border border-slate-200/90 hover:border-blue-400 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col overflow-hidden group " +
+        className
+      }
+    >
+      {/* Top Artwork Banner */}
+      <div className="relative h-44 w-full overflow-hidden flex items-center justify-center bg-slate-900">
+        <UniversityArtwork theme={theme} />
 
-          <img
+        {/* Floating University Initial Crest */}
+        <div className="absolute top-4 left-4 z-10 w-11 h-11 rounded-xl bg-white/15 backdrop-blur-md border border-white/30 flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform">
+          <span className="text-white font-extrabold text-xl tracking-tight">
+            {u.name ? u.name.charAt(0) : "U"}
+          </span>
+        </div>
 
-
-
-            src={u.img}
-
-
-
-            alt={(typeof alt === "function" ? alt(u) : alt) ?? u.name}
-
-
-
-            loading="lazy"
-
-
-
-            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-
-
-
-                  srcSet={`${u.img} 1x, ${u.img} 2x`}
-
-
-
-                  sizes="(max-width: 768px) 100vw, 50vw"
-
-
-
-                />
-
-
-
-        ) : (
-
-
-
-          <div className="w-full h-full bg-gradient-to-br from-slate-900 to-blue-900 flex items-center justify-center">
-
-
-
-            <span className="text-5xl font-bold text-white/20">
-
-
-
-              {u.name.charAt(0)}
-
-
-
-            </span>
-
-
-
-          </div>
-
-
-
-        )}
-
-
-
+        {/* Official Website External Link Button */}
         {(u.link || u.url || u.website) && (
           <a
             href={u.link || u.url || u.website}
             target="_blank"
             rel="noopener noreferrer"
             title={`Visit ${u.name} official website`}
-            className="absolute top-3.5 right-3.5 z-20 w-8 h-8 rounded-full bg-black/60 hover:bg-black/90 backdrop-blur-md border border-white/20 flex items-center justify-center text-white/90 hover:text-white hover:scale-110 transition-all duration-200 shadow-md"
+            className="absolute top-4 right-4 z-10 w-9 h-9 rounded-full bg-black/50 hover:bg-black/80 backdrop-blur-md border border-white/25 flex items-center justify-center text-white/90 hover:text-white hover:scale-110 transition-all duration-200 shadow-md"
             onClick={(e) => e.stopPropagation()}
             aria-label={`Visit ${u.name} official website`}
           >
@@ -2144,85 +2212,192 @@ export const UniversityGrid = ({ unis, alt, className = "" }) => (
           </a>
         )}
 
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex items-end p-5">
-
-
-
-          <div className="transform group-hover:-translate-y-1 transition-transform duration-300">
-
-
-
-            <h3 className="text-white font-semibold text-lg leading-snug">
-
-
-
-              {u.name}
-
-
-
-            </h3>
-
-
-
-            {(u.desc || u.location) && (
-
-
-
-              <p className="text-white/80 text-sm line-clamp-3">
-
-
-
-                {formatRichText(u.desc || u.location)}
-
-
-
-              </p>
-
-
-
-            )}
-
-
-
+        {/* Location pill on artwork banner */}
+        {u.location && (
+          <div className="absolute bottom-3 left-4 z-10 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-black/60 backdrop-blur-md border border-white/20 text-xs text-white/95 font-medium shadow-sm">
+            <svg
+              className="w-3.5 h-3.5 text-amber-400 flex-shrink-0"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth="2.2"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+              />
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+              />
+            </svg>
+            <span className="truncate max-w-[240px]">{u.location}</span>
           </div>
-
-
-
-        </div>
-
-
-
+        )}
       </div>
 
+      {/* Solid Card Body */}
+      <div className="p-5 sm:p-6 flex-1 flex flex-col justify-between bg-white">
+        <div>
+          {/* University Name */}
+          <h3 className="text-lg font-bold text-slate-900 group-hover:text-blue-600 transition-colors leading-snug">
+            {u.name}
+          </h3>
 
+          {/* Description */}
+          {u.desc && (
+            <p className="text-slate-600 text-[13.5px] leading-relaxed mt-2.5">
+              {formatRichText(u.desc)}
+            </p>
+          )}
 
-    ))}
+          {/* Key Metrics / Badges */}
+          {(u.duration || u.fee) && (
+            <div className="mt-4 pt-3 border-t border-slate-100 flex flex-wrap gap-2 text-xs">
+              {u.duration && (
+                <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-blue-50 text-blue-700 font-medium border border-blue-100">
+                  <svg className="w-3.5 h-3.5 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                    <circle cx="12" cy="12" r="10" />
+                    <polyline points="12 6 12 12 16 14" />
+                  </svg>
+                  {u.duration}
+                </span>
+              )}
+              {u.fee && (
+                <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-amber-50 text-amber-900 font-medium border border-amber-200/80">
+                  <svg className="w-3.5 h-3.5 text-amber-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  {u.fee}
+                </span>
+              )}
+            </div>
+          )}
 
+          {/* Features / Highlights */}
+          {Array.isArray(u.features) && u.features.length > 0 && (
+            <div className="mt-4 pt-3 border-t border-slate-100">
+              <div className="text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-2">
+                Programme Highlights
+              </div>
+              <ul className="space-y-1.5 text-xs text-slate-600">
+                {u.features.slice(0, 3).map((f, fi) => (
+                  <li key={fi} className="flex items-start gap-2">
+                    <span className="text-blue-600 font-bold flex-shrink-0 mt-0.5">✓</span>
+                    <span className="leading-snug">{formatRichText(f)}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </div>
 
+        {/* Footer / Official Portal Link */}
+        {(u.link || u.url || u.website) && (
+          <div className="mt-5 pt-4 border-t border-slate-100 flex items-center justify-between">
+            <span className="text-xs text-slate-400 font-medium">Official Portal</span>
+            <a
+              href={u.link || u.url || u.website}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 text-xs font-semibold text-blue-600 hover:text-blue-800 group/btn transition-colors"
+            >
+              <span>Visit Official Website</span>
+              <svg
+                className="w-3.5 h-3.5 transition-transform group-hover/btn:translate-x-1"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth="2.2"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
+            </a>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+};
 
-  </div>
+export const UniversityGrid = ({ unis, alt, className = "" }) => {
+  const isFourItems = Array.isArray(unis) && unis.length === 4;
+  const gridLayout = isFourItems
+    ? "grid grid-cols-1 md:grid-cols-2 gap-6 "
+    : "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 ";
 
+  return (
+    <div className={gridLayout + className}>
+      {Array.isArray(unis) &&
+        unis.map((u, i) => {
+          if (u.img) {
+            return (
+              <div
+                key={u.name ?? i}
+                className="relative rounded-2xl overflow-hidden h-64 group shadow-sm hover:shadow-xl transition-all duration-300"
+              >
+                <img
+                  src={u.img}
+                  alt={(typeof alt === "function" ? alt(u) : alt) ?? u.name}
+                  loading="lazy"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  srcSet={`${u.img} 1x, ${u.img} 2x`}
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+                {(u.link || u.url || u.website) && (
+                  <a
+                    href={u.link || u.url || u.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title={`Visit ${u.name} official website`}
+                    className="absolute top-3.5 right-3.5 z-20 w-8 h-8 rounded-full bg-black/60 hover:bg-black/90 backdrop-blur-md border border-white/20 flex items-center justify-center text-white/90 hover:text-white hover:scale-110 transition-all duration-200 shadow-md"
+                    onClick={(e) => e.stopPropagation()}
+                    aria-label={`Visit ${u.name} official website`}
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="w-4 h-4"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth="2.2"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                      />
+                    </svg>
+                  </a>
+                )}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-transparent flex items-end p-5">
+                  <div className="transform group-hover:-translate-y-1 transition-transform duration-300">
+                    <h3 className="text-white font-semibold text-lg leading-snug">
+                      {u.name}
+                    </h3>
+                    {(u.desc || u.location) && (
+                      <p className="text-white/85 text-sm line-clamp-3 mt-1">
+                        {formatRichText(u.desc || u.location)}
+                      </p>
+                    )}
+                  </div>
+                </div>
+              </div>
+            );
+          }
 
-
-);
-
-
-
-
-
-
+          // If no campus image, render solid background card with artwork banner
+          return <SolidUniversityCard key={u.name ?? i} uni={u} index={i} />;
+        })}
+    </div>
+  );
+};
 
 /* ------------------------------------------------------------------ */
-
-
-
-/*  Numbered step timeline (like reference "admission process")        */
-
-
-
+/*  Timeline / Steps                                                  */
 /* ------------------------------------------------------------------ */
-
-
 
 export const StepTimeline = ({ steps, center }) => (
 

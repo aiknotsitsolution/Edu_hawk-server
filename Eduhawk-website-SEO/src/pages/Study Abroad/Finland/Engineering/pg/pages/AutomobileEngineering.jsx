@@ -1,35 +1,32 @@
 import React from "react";
-import { AbroadCoursePage, formatRichText } from "../../../../../../component/CoursePageKit.jsx";
+import { AbroadCoursePage } from "../../../../../../component/CoursePageKit.jsx";
+
+// Page layout images
 import heroImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/Automobile/auto_pg_hero.webp";
 import heroBgImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/Automobile/auto_pg_hero_bg.webp";
 import sideImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/Automobile/auto_pg_chassis.webp";
 import ctaBgImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/Automobile/auto_pg_cta_bg.webp";
-import u0Img from "../../../../../../Images/Abroad/Finland/Engineering_PG/Automobile/Metropolia_University_of_Applied_Sciences.webp";
-import u1Img from "../../../../../../Images/Abroad/Finland/Engineering_PG/Automobile/Aalto_University.webp";
-import u2Img from "../../../../../../Images/Abroad/Finland/Engineering_PG/Automobile/Tampere_University.webp";
-import u3Img from "../../../../../../Images/Abroad/Finland/Engineering_PG/Automobile/LUT_University.webp";
 
 const page = {
-  name: "Master's in Automobile Engineering",
+  name: "Automobile Engineering",
   country: "Finland",
   slug: "automobile-engineering",
-  title: "Master's in Automobile Engineering in Finland for Indian Students | Edu-Hawk Worldwide",
-  description: "Study Master's in Automobile & Electric Vehicle Engineering in Finland: English-taught M.Eng & M.Sc. degrees (60–120 ECTS) in electric mobility, battery systems, and autonomous vehicles at Metropolia UAS, Aalto, Tampere, and LUT. Fees, admissions, and 2-year post-study work visa.",
-  keywords: "Master's in Automobile Engineering in Finland, Automobile Engineering in Finland for Indian Students, Study Automobile Engineering in Finland, Automobile Engineering Universities in Finland, Master's in Automobile Engineering Admission in Finland",
-  introTitle: "Master's in Automobile Engineering in Finland",
+  title: "Master’s in Automobile Engineering in Finland for Indian Students | Edu-Hawk Worldwide",
+  description:
+    "Finland is an attractive destination for students who want to pursue advanced engineering education in a technology-driven environment. Explore Master's in Automobile Engineering in Finland, universities, eligibility, fees, and career pathways.",
+  keywords:
+    "Master’s in Automobile Engineering in Finland, Automobile Engineering in Finland for Indian Students, Study Automobile Engineering in Finland, Automotive Engineering Universities in Finland, Automobile Engineering Courses in Finland Fees",
+  introTitle: "Master’s in Automobile Engineering in Finland for Indian Students",
   heroParas: [
-    "Study **Master's in Automobile Engineering in Finland** to experience a globally renowned Scandinavian automotive innovation ecosystem, advanced electric vehicle laboratories, battery systems testing, and high career ROI with **[Edu-Hawk Worldwide](/services)**."
+    "Finland is an attractive destination for students who want to pursue advanced engineering education in a technology-driven environment. With its focus on automotive technologies, sustainable mobility, vehicle systems, and industrial innovation, Finland offers opportunities for students interested in developing their engineering careers.",
+    "A **Master’s in Automobile Engineering in Finland** helps students explore advanced automotive technologies, vehicle engineering, automotive systems, mobility solutions, and engineering management."
   ],
-  overview: [],
-  level: "PG",
+  overview: [
+    "For Indian students planning to study abroad, Finland offers engineering education, practical learning opportunities, and exposure to international technology industries. Students can explore automotive-related programmes that focus on vehicle technology, engineering development, industrial systems, and sustainable mobility.",
+    "Edu-Hawk Worldwide helps students understand the study abroad process, compare suitable automotive engineering programmes, review admission criteria, and prepare their applications for studying in Finland."
+  ],
+  level: "Master’s & UG Pathways",
   crumb: "Engineering",
-
-  stats: [
-    { label: "Degree Awarded", value: "Master of Engineering (M.Eng) / M.Sc. Tech" },
-    { label: "Course Duration", value: "1 to 2 Years (60–120 ECTS)" },
-    { label: "Top Institutions", value: "Metropolia UAS, Aalto, Tampere, LUT" },
-    { label: "Teaching Language", value: "100% English Taught" }
-  ],
 
   sections: [
     {
@@ -40,355 +37,532 @@ const page = {
         {
           t: "p",
           items: [
-            "**Finland** offers a technology-focused education system with extensive opportunities to explore advanced engineering, research, and mobility innovation. Automobile engineering is undergoing rapid transformation through **electric vehicles (EVs)**, intelligent transportation systems, vehicle automation, and sustainable energy mobility.",
-            "Studying **Automobile Engineering in Finland for Indian Students** at the postgraduate level provides access to premier automotive manufacturing partnerships (such as **Valmet Automotive**, producing electric vehicles and high-voltage battery modules) and heavy vehicle engineering pioneers (e.g. **Sisu Auto, Ponsse, Patria**).",
-            "With **[Edu-Hawk Worldwide](/services)**, students explore accredited programmes, compare entry requirements, and plan their applications seamlessly.",
-            "**Key Advantages of Studying Automobile Engineering in Finland**"
+            "Finland offers a technology-focused education system with opportunities to explore engineering, research, and innovation. Automobile engineering is evolving through electric vehicles, intelligent transportation, vehicle automation, and sustainable mobility.",
+            "**Key Benefits**"
           ]
         },
         {
           t: "dl",
           pairs: [
             {
-              t: "Advanced Automotive & EV Innovation",
-              d: "Develop cutting-edge expertise in vehicle systems, electric powertrains, battery management systems, and zero-emission transportation."
+              t: "Advanced Engineering Education",
+              d: "Develop knowledge of automotive systems, vehicle technologies, engineering design, and industrial applications."
             },
             {
-              t: "Practical & Industry-Driven Learning",
-              d: "Build technical competencies through hands-on vehicle workshops, chassis dynamics testing, Formula Student engineering, and enterprise project work."
+              t: "Automotive Technology",
+              d: "Explore vehicle development, automotive systems, electric mobility, and modern transportation technologies."
             },
             {
-              t: "100% English-Taught Programmes",
-              d: "Study in international degree programmes delivered entirely in English across top research universities and premier UAS institutions."
+              t: "Practical Learning",
+              d: "Build technical and analytical skills through projects, assignments, and engineering applications."
             },
             {
-              t: "Sustainable Green Mobility Focus",
-              d: "Master the development of energy-efficient vehicle systems and environmentally responsible manufacturing processes in one of Europe's greenest countries."
+              t: "Sustainable Mobility",
+              d: "Understand the development of energy-efficient transportation and environmentally responsible vehicle technologies."
             },
             {
-              t: "Two-Year Post-Study Work Permit",
-              d: "International graduates can apply for Finland's extended 2-year job seeker residence permit to work across the EU automotive and e-mobility sector."
+              t: "International Exposure",
+              d: "Study in a multicultural environment and develop global professional skills."
             },
             {
-              t: "Valuable Scholarships & Tuition Waivers",
-              d: "Access university merit scholarships covering 50% to 100% of annual tuition fees and early-bird payment reductions."
+              t: "Career Development",
+              d: "Prepare for opportunities in automotive engineering, vehicle technology, manufacturing, and related industries."
             }
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "Choosing to study Automobile Engineering in Finland can be a valuable option for students who want to develop advanced engineering knowledge and explore the future of mobility."
           ]
         }
       ]
     },
     {
       slot: "courses",
-      eyebrow: "Programs",
+      eyebrow: "Specialisations",
       title: "Automobile Engineering Courses in Finland",
       groups: [
         {
           t: "p",
           items: [
-            "Automobile engineering focuses on the design, development, testing, manufacturing, and lifecycle improvement of modern vehicles and their intelligent subsystems.",
-            "In Finland, automotive-related postgraduate education is delivered through dedicated automotive engineering programmes (such as Metropolia's Master of Engineering) and specialised vehicle engineering tracks within mechanical engineering.",
-            "**Popular Specialisation Areas & Subjects**"
+            "Automobile engineering focuses on the design, development, testing, manufacturing, and improvement of vehicles and their systems.",
+            "In Finland, automotive-related education may be available through dedicated automotive engineering programmes or broader engineering programmes with relevant specialisations.",
+            "**Popular Specialisation Areas**"
           ]
         },
         {
-          t: "pills",
-          items: [
-            "Electric Vehicle Engineering & Powertrain Design",
-            "High-Voltage Battery Systems & Thermal Management",
-            "Vehicle Dynamics, Handling & Chassis Control",
-            "Automotive Embedded Electronics & CAN/LIN Buses",
-            "Autonomous Driving Systems & Sensor Fusion",
-            "Vehicle Design, Crashworthiness & Safety Engineering",
-            "Automotive Manufacturing & Assembly Automation",
-            "Automotive Business & Engineering Management",
-            "Connected Mobility & Telematics"
+          t: "dl",
+          pairs: [
+            {
+              t: "Automotive Engineering",
+              d: "Students explore vehicle systems, automotive technologies, engineering development, and vehicle performance."
+            },
+            {
+              t: "Electric Vehicle Engineering",
+              d: "This area focuses on electric vehicle technologies, electric powertrains, battery systems, and energy-efficient transportation."
+            },
+            {
+              t: "Vehicle Design and Development",
+              d: "Students learn about vehicle design principles, engineering analysis, product development, and vehicle system integration."
+            },
+            {
+              t: "Automotive Electronics",
+              d: "This specialisation covers electronic systems, sensors, control systems, and technologies used in modern vehicles."
+            },
+            {
+              t: "Automotive Manufacturing",
+              d: "Students explore manufacturing processes, production systems, quality control, and industrial engineering applications."
+            },
+            {
+              t: "Vehicle Dynamics and Control Systems",
+              d: "This area focuses on vehicle motion, stability, handling, control technologies, and engineering analysis."
+            },
+            {
+              t: "Automotive Business and Engineering Management",
+              d: "Students develop knowledge of engineering management, business development, automotive industry operations, and leadership."
+            }
           ]
         },
         {
           t: "p",
           items: [
-            "Programmes range from **60 ECTS (1 to 1.5 years)** at Universities of Applied Sciences for experienced engineers to **120 ECTS (2 years)** at research universities. Connect with **[Edu-Hawk Worldwide](/contact)** for curriculum guidance."
+            "The availability of these subjects depends on the selected university and its current curriculum."
           ]
         }
       ]
     },
     {
-      slot: "universities",
-      eyebrow: "Where to study",
+      slot: "unis",
+      eyebrow: "Top Institutions",
       title: "Top Universities for Automobile Engineering in Finland",
       lead: [
-        "Finland features leading technical universities and universities of applied sciences offering English-taught master's degrees in automotive technology, electric mobility, and vehicle systems.",
-        "Compare top Finnish institutions below:"
+        "Finland offers engineering education through universities and universities of applied sciences. Students interested in automobile engineering should explore dedicated automotive programmes and related engineering options."
       ],
       unis: [
         {
           name: "Metropolia University of Applied Sciences",
-          desc: "Metropolia UAS in Helsinki offers a dedicated English-taught Master's Degree Programme in Automotive Engineering. The programme leads to a Master of Engineering (60 ECTS) and is designed for professionals seeking advanced expertise in vehicle electrification, powertrain engineering, and engineering leadership.",
-          img: u0Img
+          location: "Helsinki Metropolitan Area, Finland",
+          artTheme: "automotive",
+          desc: "Metropolia University of Applied Sciences offers a Master's Degree Programme in Automotive Engineering. The programme is part-time, with contact sessions organised mainly during weeknights. The master's thesis involves a research and development project carried out in cooperation with working life.",
+          fee: "60 ECTS Master's Degree",
+          duration: "Approx. 1.5 Years (Part-time)",
+          exams: "Bachelor's in engineering + 2 yrs work experience",
+          features: [
+            "Leads to a Master of Engineering (MEng) degree",
+            "Includes 60 ECTS credits, designed for working professionals alongside employment",
+            "Focuses on advanced automotive engineering skills, analytical and methodological skills",
+            "Business development, communication, leadership competencies, and industry growth",
+            "Important for Indian students: Requires at least two years of relevant work experience"
+          ],
+          link: "https://www.metropolia.fi/en"
         },
         {
           name: "Aalto University",
-          desc: "Aalto University in Espoo provides elite engineering education and research in vehicle engineering, mechatronics, and sustainable mobility, supporting active student Formula Student racecar development teams.",
-          img: u1Img
+          location: "Espoo, Greater Helsinki, Finland",
+          artTheme: "innovation",
+          desc: "Aalto University offers engineering education and research in areas related to technology, industrial development, energy, and engineering systems. Students interested in automotive-related technologies can explore relevant engineering programmes and interdisciplinary study opportunities. Applicants should review the current programme catalogue to identify suitable options related to vehicle technologies, energy systems, engineering, and industrial development.",
+          fee: "Check official catalogue for intake",
+          duration: "Master's & Interdisciplinary Pathways",
+          exams: "Relevant Bachelor's degree, English test",
+          features: [
+            "Top-tier engineering education and industrial innovation ecosystem",
+            "Interdisciplinary study opportunities across technology and energy systems",
+            "Active vehicle engineering, smart mobility, and formula racing initiatives"
+          ],
+          link: "https://www.aalto.fi/en"
         },
         {
           name: "Tampere University",
-          desc: "Tampere University offers advanced research in mobile hydraulics, off-road vehicle automation, intelligent machines, and industrial robotics in close partnership with Nordic equipment manufacturers.",
-          img: u2Img
+          location: "Tampere, Finland",
+          artTheme: "automation",
+          desc: "Tampere University provides engineering education and research in areas related to technology, automation, materials, and industrial development. Students interested in automotive-related engineering may explore relevant programmes and interdisciplinary study opportunities. The exact programme title and available specialisations should be verified through the university's official website.",
+          fee: "Check official university website",
+          duration: "Master's Degree Programmes",
+          exams: "Relevant Bachelor's degree, English test",
+          features: [
+            "High research focus on technology, automation, and advanced materials",
+            "Interdisciplinary study opportunities in automation and mechanical systems",
+            "Strong industrial linkages with Finland's vehicle manufacturing corridor"
+          ],
+          link: "https://www.tuni.fi/en"
         },
         {
           name: "LUT University",
-          desc: "LUT University in Lappeenranta offers specialized education in energy systems, electric drive units, computational mechanics, and sustainable transportation solutions.",
-          img: u3Img
+          location: "Lappeenranta / Lahti, Finland",
+          artTheme: "energy",
+          desc: "LUT University offers technology and engineering education with a focus on energy, sustainability, and industrial development. Students interested in electric mobility, energy systems, and related engineering fields can review the university's current master's programmes.",
+          fee: "Check official university website",
+          duration: "Master's Degree Programmes",
+          exams: "Relevant Bachelor's degree, English test",
+          features: [
+            "Pioneering technology university in energy and sustainable mobility",
+            "Programmes in electric mobility, energy systems, and clean technologies",
+            "Broad engineering, energy, and automation Master's specialisations"
+          ],
+          link: "https://www.lut.fi/en"
         }
       ],
       note: [
-        "Before selecting a university, applicants should compare programme details, admission criteria, teaching language, and current application deadlines with **[Edu-Hawk Worldwide](/contact)**."
+        "Important: Not every Finnish university offers a programme titled exactly “Automobile Engineering.” Some related subjects may be available through broader engineering, energy, automation, or technology programmes."
       ]
     },
     {
       slot: "eligibility",
-      eyebrow: "Eligibility",
+      eyebrow: "Requirements",
       title: "Eligibility to Study Automobile Engineering in Finland",
       groups: [
         {
           t: "p",
           items: [
-            "Indian students planning to apply for a master's programme in automobile engineering must meet academic and programme-specific eligibility criteria.",
+            "Indian students planning to apply for a master's programme in automobile engineering should meet the academic and programme-specific eligibility criteria.",
             "**General Eligibility Criteria**"
           ]
         },
         {
           t: "ul",
           items: [
-            "A recognised 4-year **Bachelor's degree (B.E. / B.Tech / B.Sc. Tech)** in Automobile Engineering, Mechanical Engineering, Electrical Engineering, or a relevant discipline.",
-            "Relevant coursework in engineering mechanics, thermodynamics, automotive systems, control theory, or manufacturing.",
-            "Proof of **English language proficiency** (IELTS Academic 6.5, TOEFL iBT 92+, or PTE Academic 62+), where required.",
-            "For Metropolia UAS Automotive Engineering: A minimum of **two years of relevant engineering work experience** gained after completing the bachelor's degree.",
-            "Official academic transcripts, degree certificate, Statement of Purpose (SOP), and curriculum vitae (CV)."
+            "A recognised bachelor's degree in Automobile Engineering, Mechanical Engineering, or a relevant engineering discipline.",
+            "A bachelor's degree that meets the academic requirements of the selected university.",
+            "Relevant coursework in subjects such as engineering mechanics, thermodynamics, automotive systems, mathematics, or manufacturing.",
+            "English language proficiency as required by the university.",
+            "Academic transcripts and degree certificates.",
+            "Additional programme-specific requirements, if applicable."
           ]
         },
         {
           t: "p",
           items: [
-            "Meeting the minimum eligibility requirements does not guarantee admission. Universities evaluate applications based on academic merit, work experience relevance, and statement of purpose. **[Edu-Hawk Worldwide](/services)** ensures candidates submit competitive files."
-          ]
-        }
-      ]
-    },
-    {
-      slot: "admission",
-      eyebrow: "Admission",
-      title: "Admission Requirements for Automobile Engineering in Finland",
-      groups: [
-        {
-          t: "p",
-          items: [
-            "The admission process for a Master's in Automobile Engineering in Finland generally includes academic evaluation, work experience verification, English language proficiency, and submission of supporting documents.",
-            "**Required Application Documentation**"
+            "**For Metropolia University's Automotive Engineering master's programme, applicants need:**"
           ]
         },
         {
           t: "ul",
           items: [
-            "Valid international passport.",
-            "Bachelor's degree certificate or official provisional certificate.",
-            "Consolidated undergraduate academic transcripts with grading scale.",
-            "Official English language proficiency test result (IELTS / TOEFL / PTE).",
-            "Curriculum vitae (CV) detailing technical experience and engineering software proficiency.",
-            "Statement of purpose (SOP) or motivation letter explaining career goals in vehicle engineering.",
-            "Employment certificates verifying post-graduation engineering work experience (where required).",
-            "Two letters of recommendation from professors or engineering managers."
+            "A bachelor's degree in engineering.",
+            "At least two years of relevant work experience gained after completing the required degree."
           ]
         },
         {
           t: "p",
           items: [
-            "Edu-Hawk Worldwide provides end-to-end guidance to review requirements, certify translations, and submit flawless applications."
+            "Students with bachelor's degrees in Mechanical Engineering, Automobile Engineering, Automotive Technology, or related disciplines may be considered for suitable programmes, depending on the university's academic prerequisites.",
+            "Applicants should carefully review the admission criteria before selecting a programme.",
+            "Meeting the minimum eligibility requirements does not guarantee admission. Universities evaluate applications according to their selection criteria and the applicant's academic background."
           ]
         }
       ]
     },
     {
-      slot: "costs",
-      eyebrow: "Tuition & Costs",
+      slot: "requirements",
+      eyebrow: "Documentation",
+      title: "Admission Requirements for Automobile Engineering in Finland",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "The admission process for a Master's in Automobile Engineering in Finland generally includes academic evaluation, relevant work experience where required, English language proficiency, and submission of supporting documents.",
+            "**Core Admission Components**"
+          ]
+        },
+        {
+          t: "dl",
+          pairs: [
+            {
+              t: "Academic Requirements",
+              d: "Applicants should have a relevant bachelor's degree with coursework related to the selected programme. Universities evaluate academic performance and grades, relevance of the bachelor's degree, previous engineering coursework, professional experience, research or project experience, and suitability for the selected programme."
+            },
+            {
+              t: "Work Experience Requirements",
+              d: "Some automotive engineering master's programmes are designed for professionals who already have industry experience. For example, Metropolia University's Automotive Engineering programme requires at least two years of relevant work experience gained after the required bachelor's degree. Applicants should verify whether their professional experience meets requirements."
+            },
+            {
+              t: "English Language Requirements",
+              d: "International students may need to demonstrate English proficiency through an accepted test (such as IELTS Academic, TOEFL iBT, or PTE Academic). The accepted tests, minimum scores, exemptions, and validity requirements vary by university. Students should check the official programme requirements before booking a test."
+            }
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "**Additional Requirements: Depending on the programme, applicants may need to submit:**"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "Statement of purpose or motivation letter",
+            "CV or résumé",
+            "Academic transcripts",
+            "Degree certificate",
+            "Employment certificates",
+            "Course descriptions",
+            "Additional academic or professional information requested by the university"
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "Applicants should ensure that all documents are complete and submitted before the application deadline."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "fees",
+      eyebrow: "Tuition & Living",
       title: "Cost of Studying Automobile Engineering in Finland",
       groups: [
         {
           t: "p",
           items: [
-            "The cost of studying in Finland depends on the university, programme structure, tuition category, accommodation, and personal lifestyle. Non-EU/EEA students pay annual tuition fees for English-taught master's programmes.",
-            "**Annual Tuition Fees Overview**"
+            "The cost of studying in Finland depends on the university, programme, tuition fee category, accommodation, and personal lifestyle. For Indian students, tuition fees generally apply to English-taught bachelor's and master's programmes for non-EU/EEA students, unless a scholarship or exemption is available.",
+            "**Tuition Fees:** Tuition fees vary between Finnish universities and programmes. Metropolia University's Automotive Engineering programme is a 60 ECTS master's degree. Applicants should check the university's official tuition fee information for the relevant intake, as the programme information does not provide a tuition fee figure in the details reviewed here. Students should not assume that tuition fees for other engineering master's programmes apply to Automotive Engineering.",
+            "**Estimated Study Budget**"
           ]
         },
         {
           t: "table",
-          headers: ["University & Programme", "Duration & ECTS", "Annual Tuition Fee (EUR)", "Approximate Annual Fee (INR)"],
+          headers: ["Expense", "What to Consider"],
           rows: [
-            ["Metropolia UAS – Automotive Engineering", "1 to 1.5 Years (60 ECTS)", "€11,500 – €12,500", "₹12.49L – ₹13.58L"],
-            ["Aalto University – Mechanical / Vehicle Eng.", "2 Years (120 ECTS)", "€17,000", "₹18.46 lakh"],
-            ["Tampere University – Automation / Machinery", "2 Years (120 ECTS)", "€12,000", "₹13.03 lakh"],
-            ["LUT University – Mechanical Engineering", "2 Years (120 ECTS)", "€13,500", "₹14.66 lakh"]
+            ["Tuition fees", "Confirm the current programme-specific fee"],
+            ["Accommodation", "Rent, housing deposits, and utilities"],
+            ["Food", "Groceries and meals"],
+            ["Transportation", "Local travel and public transport"],
+            ["Insurance", "Required health and other insurance costs"],
+            ["Study materials", "Books, software, and engineering resources"],
+            ["Personal expenses", "Daily needs and miscellaneous costs"]
           ]
         },
         {
           t: "p",
           items: [
-            "Currency conversion is calculated at an indicative exchange rate of **€1 ≈ ₹108.60**. Merit scholarships covering 50% to 100% of tuition fees are available.",
-            "**Estimated Monthly Living Expenses for Students**"
+            "Living costs depend on the city, accommodation type, and lifestyle. Students should prepare a realistic budget that includes both tuition fees and living expenses before applying.",
+            "**Scholarships for Indian Students:** Some Finnish universities offer scholarships or tuition fee waivers to eligible international students based on academic performance, programme-specific conditions, or university policies. Students should check:"
           ]
         },
         {
-          t: "table",
-          headers: ["Expense Category", "Monthly Cost in EUR", "Approximate Monthly Cost in INR"],
-          rows: [
-            ["Student Housing / Apartment", "€300 – €700", "₹32,580 – ₹76,020"],
-            ["Food & Groceries", "€200 – €350", "₹21,720 – ₹38,010"],
-            ["Local City Transportation Pass", "€40 – €80", "₹4,344 – ₹8,688"],
-            ["Personal Expenses & Utilities", "€100 – €200", "₹10,860 – ₹21,720"],
-            ["Estimated Total Monthly Expenses", "€640 – €1,330", "₹69,504 – ₹1,44,438"]
+          t: "ul",
+          items: [
+            "Scholarship eligibility",
+            "Application deadlines",
+            "Tuition fee coverage",
+            "Renewal requirements",
+            "Whether living expenses are included"
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "A scholarship may reduce tuition costs, but students should not assume that it covers all expenses."
           ]
         }
       ]
     },
     {
-      slot: "steps",
-      eyebrow: "Step by step",
+      slot: "process",
+      eyebrow: "Admissions",
       title: "Admission Process for Master's in Automobile Engineering in Finland",
       groups: [
         {
-          t: "p",
-          items: [
-            "Applying for a Master's in Automobile Engineering follows a structured, transparent timeline through Studyinfo.fi or institutional rolling portals.",
-            "Follow these key steps to secure your admission:"
-          ]
-        },
-        {
           t: "step",
-          step: "1",
+          num: "01",
           title: "Choose Your Programme",
           desc: "Identify master's programmes related to automobile engineering based on your bachelor's degree, academic background, work experience, and career interests."
         },
         {
           t: "step",
-          step: "2",
-          title: "Check Academic & Experience Criteria",
-          desc: "Review university academic requirements, English language criteria, accepted undergraduate disciplines, and work experience criteria."
+          num: "02",
+          title: "Check Eligibility",
+          desc: "Review the university's academic requirements, work experience criteria, English language requirements, accepted degrees, and application instructions."
         },
         {
           t: "step",
-          step: "3",
+          num: "03",
           title: "Prepare Your Documents",
-          desc: "Collect academic transcripts, degree certificates, employment verification letters, English proficiency results, CV, and Statement of Purpose."
+          desc: "Collect academic transcripts, degree certificates, employment certificates, English proficiency results, CV, motivation letter, and other required documents."
         },
         {
           t: "step",
-          step: "4",
-          title: "Submit Online Application",
-          desc: "Apply through Studyinfo.fi during the national joint application period or via university-specific application portals."
+          num: "04",
+          title: "Submit Your Application",
+          desc: "Apply through the university's official application process or designated application portal during the relevant application period."
         },
         {
           t: "step",
-          step: "5",
-          title: "Apply for University Scholarships",
-          desc: "Complete the scholarship application simultaneously to be considered for tuition fee waivers and merit discounts."
+          num: "05",
+          title: "Complete Additional Requirements",
+          desc: "Submit supplementary documents or complete additional steps requested by the university."
         },
         {
           t: "step",
-          step: "6",
-          title: "Receive Admission Decision & Confirm Offer",
-          desc: "Review your electronic admission offer, accept your study place on the portal, and pay the first-year tuition fee deposit."
+          num: "06",
+          title: "Receive the Admission Decision",
+          desc: "Universities evaluate applications and communicate their admission decisions according to their timelines."
         },
         {
           t: "step",
-          step: "7",
-          title: "Apply for Student Residence Permit",
-          desc: "Submit your Finnish student residence permit application on EnterFinland.fi with tuition payment confirmation and health insurance."
+          num: "07",
+          title: "Apply for Scholarships",
+          desc: "If eligible, complete the scholarship application according to the university's requirements and deadlines."
         },
         {
           t: "step",
-          step: "8",
-          title: "Book Student Housing & Relocate",
-          desc: "Reserve student apartments through local housing foundations (HOAS, TOAS) and prepare for your move to Finland."
+          num: "08",
+          title: "Prepare for Your Student Residence Permit",
+          desc: "After receiving admission and meeting the required conditions, prepare the documents needed for your Finnish student residence permit application. Students should verify current immigration requirements through official Finnish authorities."
         }
       ]
     },
     {
-      slot: "licensing",
-      eyebrow: "Licensing & Regulation",
-      title: "Licensing and Professional Requirements in Finland",
+      slot: "documents",
+      eyebrow: "Documentation",
+      title: "Documents Required for Admission",
       groups: [
         {
           t: "p",
           items: [
-            "A master's degree in automotive or vehicle engineering provides an accredited European university qualification under the Bologna process and EUR-ACE framework.",
-            "Automotive engineering roles in vehicle design, powertrain development, battery integration, and manufacturing in private industry do not require mandatory state licensing.",
-            "Vehicle safety standards and roadworthiness testing comply with European Union type-approval directives and Traficom (Finnish Transport and Communications Agency) regulations.",
-            "International graduates are legally entitled to Finland's **2-year post-study job seeker residence permit**, enabling them to work full-time across European automotive and mobility sectors."
+            "Indian students applying for a master's programme in automobile engineering may need the following documents:"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "Valid passport",
+            "Bachelor's degree certificate or provisional certificate",
+            "Academic transcripts",
+            "English language proficiency test result, if required",
+            "Curriculum vitae or résumé",
+            "Statement of purpose or motivation letter, if required",
+            "Employment certificates, if work experience is required",
+            "Course descriptions or academic information, if requested",
+            "Scholarship application documents, if applicable",
+            "Additional documents specified by the university"
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "Document requirements may differ between universities and programmes.",
+            "Students should ensure that all documents are accurate, complete, and submitted in the required format."
           ]
         }
       ]
     },
     {
       slot: "careers",
-      eyebrow: "Careers & Salary",
+      eyebrow: "Careers",
       title: "Career Opportunities After Automobile Engineering in Finland",
       groups: [
         {
           t: "p",
           items: [
-            "A master's degree in automobile engineering prepares graduates for dynamic opportunities in electric vehicle manufacturing, autonomous driving systems, powertrain engineering, and smart mobility consultancy.",
-            "**Potential Career Paths for Automotive Engineers**"
+            "A master's degree in automobile engineering can prepare students for technical, industrial, and research-oriented career paths. Career opportunities depend on the programme, practical experience, technical skills, language abilities, and employer requirements.",
+            "**Possible Job Roles**"
+          ]
+        },
+        {
+          t: "dl",
+          pairs: [
+            {
+              t: "Automotive Engineer",
+              d: "Work on vehicle systems, automotive technologies, engineering development, and vehicle performance."
+            },
+            {
+              t: "Vehicle Design Engineer",
+              d: "Contribute to vehicle design, engineering analysis, product development, and system integration."
+            },
+            {
+              t: "Electric Vehicle Engineer",
+              d: "Work on electric vehicle systems, battery technologies, powertrains, and electric mobility solutions."
+            },
+            {
+              t: "Automotive Systems Engineer",
+              d: "Develop, integrate, and evaluate vehicle systems and engineering components."
+            },
+            {
+              t: "Manufacturing Engineer",
+              d: "Support automotive production processes, manufacturing operations, and industrial quality."
+            },
+            {
+              t: "Automotive Testing Engineer",
+              d: "Participate in vehicle testing, performance evaluation, quality validation, and engineering analysis."
+            },
+            {
+              t: "Automotive Project Engineer",
+              d: "Coordinate engineering projects, product development activities, technical planning, and project execution."
+            }
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "**Industries for Automobile Engineering Graduates**"
           ]
         },
         {
           t: "pills",
           items: [
-            "Automotive Design Engineer",
-            "Electric Vehicle Powertrain Specialist",
-            "Battery Systems Integration Engineer",
-            "Vehicle Dynamics & Chassis Engineer",
-            "Automotive Electronics & ECU Developer",
-            "Manufacturing & Production Engineer",
-            "Vehicle Safety & Crashworthiness Specialist",
-            "Autonomous Driving Systems Engineer",
-            "Automotive Project Manager",
-            "R&D Mobility Engineer"
+            "Automotive engineering",
+            "Electric vehicle technology",
+            "Vehicle component manufacturing",
+            "Automotive electronics",
+            "Industrial manufacturing",
+            "Engineering consultancy",
+            "Mobility technology",
+            "Research and development"
           ]
         },
         {
           t: "p",
           items: [
-            "**Salary Expectations in Finland**",
-            "Entry-level master's graduates in automotive engineering in Finland typically earn between **€3,800 and €4,600 per month** (approx. ₹4.12 lakh to ₹4.99 lakh monthly). Experienced automotive engineers and battery specialists command salaries between **€5,000 and €6,800+ per month** (approx. ₹5.43 lakh to ₹7.38+ lakh monthly).",
-            "Hands-on EV project experience, CAD/simulation proficiency, and basic Finnish language skills significantly accelerate career progression and permanent residency (PR) eligibility."
+            "Employment is not guaranteed by completing a master's degree. Students should develop practical skills, project experience, and professional networks during their studies."
           ]
         }
       ]
     },
     {
-      slot: "documents",
-      eyebrow: "Checklist",
-      title: "Documents Required for Admission",
+      slot: "salary",
+      eyebrow: "Industry Outlook",
+      title: "Salary After Master's in Automobile Engineering in Finland",
       groups: [
         {
           t: "p",
           items: [
-            "Indian students applying for a master's programme in automobile engineering should prepare the following documents:"
+            "Salary depends on the job role, employer, experience, technical specialisation, location, and market conditions. Automobile engineering graduates may explore different salary levels across industries such as automotive technology, electric mobility, manufacturing, engineering consultancy, and research.",
+            "Rather than relying on a single salary figure, students should research current job advertisements and salary information for their intended role.",
+            "**Factors Affecting Salary**"
           ]
         },
         {
           t: "ul",
           items: [
-            "Valid international passport.",
-            "Bachelor's degree certificate or provisional completion certificate.",
-            "Consolidated undergraduate academic transcripts with grading scale.",
-            "Official English language proficiency test report (IELTS / TOEFL / PTE).",
-            "Curriculum Vitae (CV) detailing technical experience and engineering software proficiency.",
-            "Statement of Purpose (SOP) tailored to automobile engineering.",
-            "Employment certificates verifying post-graduation engineering work experience (where required).",
-            "Two Letters of Recommendation (Academic / Professional)."
+            "Relevant engineering experience",
+            "Technical and software skills",
+            "Industry and company",
+            "Job responsibilities",
+            "Location",
+            "Finnish or other language skills",
+            "Internship and project experience",
+            "Specialisation in electric vehicles, vehicle systems, or automotive electronics"
           ]
+        },
+        {
+          t: "p",
+          items: [
+            "Students can improve their career readiness by participating in university projects, internships, research activities, and industry networking opportunities."
+          ]
+        },
+        {
+          t: "cta",
+          badge: "Global Education Pathway",
+          tagline: "Start in India. Continue Abroad. Graduate Globally.",
+          desc: "Planning to pursue a Master's in Automobile Engineering in Finland? Edu-Hawk Worldwide can help you understand the study abroad process and prepare for your international education journey. Connect with Edu-Hawk Worldwide and take the next step toward your engineering education abroad.",
+          phone: "+91 96307 36070",
+          email: "eduhawk.global@gmail.com",
+          site: "eduhawk.in",
+          buttonText: "Connect With Us",
+          buttonLink: "https://api.whatsapp.com/send?phone=919630736070"
         }
       ]
     }
@@ -397,26 +571,25 @@ const page = {
   faqs: [
     {
       q: "Can Indian students study a Master's in Automobile Engineering in Finland?",
-      a: "Yes. Indian students with a recognized Bachelor's in Automobile, Mechanical, or Electrical Engineering can apply for eligible Master's programmes. UAS programmes (such as Metropolia) also require 2 years of relevant work experience."
+      a: "Yes. Indian students can apply for relevant master's programmes if they meet the academic, language, and programme-specific admission requirements. Some programmes also require relevant professional work experience."
     },
     {
       q: "Is Automobile Engineering available in English in Finland?",
-      a: "Yes. Metropolia University of Applied Sciences offers a Master's Degree Programme in Automotive Engineering taught in English. Research universities like Aalto and Tampere also offer English-taught vehicle engineering tracks."
+      a: "Yes. Metropolia University of Applied Sciences offers a Master's Degree Programme in Automotive Engineering. Students should verify the current language and admission requirements through the official programme information."
     },
     {
       q: "What is the tuition fee for Automobile Engineering in Finland?",
-      a: "Annual tuition fees range from €11,500 to €17,000 (around ₹12.49 lakh to ₹18.46 lakh). Universities offer competitive merit scholarships covering 50% to 100% of tuition fees."
+      a: "Tuition fees depend on the university and programme. Students should check the current official tuition fee for their selected programme before applying. Metropolia's programme information identifies a 60 ECTS master's degree but does not provide a tuition fee figure in the details reviewed here."
     },
     {
       q: "Is IELTS required to study Automobile Engineering in Finland?",
-      a: "English proficiency is mandatory for English-taught programmes. Universities accept IELTS Academic (typically 6.5+), TOEFL iBT (92+), and PTE Academic (62+)."
+      a: "English proficiency is generally required for English-taught programmes. IELTS may be accepted, but universities can also accept other tests or approved methods. Students should check the specific programme requirements."
     },
     {
       q: "Can students work after completing their Master's in Automobile Engineering in Finland?",
-      a: "Yes. Graduates are eligible for Finland's 2-year post-study job seeker residence permit, which enables them to work full-time in Finland and across the European Union automotive industry."
+      a: "Graduates may explore employment opportunities in Finland and other countries. Their options depend on job availability, qualifications, language skills, employer requirements, and applicable residence permit rules."
     }
-  ],
-  faqTitle: "Frequently Asked Questions About Master's in Automobile Engineering in Finland"
+  ]
 };
 
 const MastersinAutomobileEngineeringPGFinland = () => {

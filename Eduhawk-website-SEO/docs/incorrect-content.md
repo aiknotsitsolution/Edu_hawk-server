@@ -311,3 +311,16 @@ ightarrow$ Text; Doc text is cloned BBA verbatim; `Top Universities for BBA in F
 | **Other Engineering / IT** | `/study-abroad/finland/...` | Pending next turn | Ready to audit | Pos 1196243+ in master doc |
 | **Winter Courses** | `/study-abroad/finland/winter-courses` | Pending next turn | Ready to audit | Pos 1819790 in master doc |
 | **Summer Courses** | `/study-abroad/finland/summer-courses` | Pending next turn | Ready to audit | Pos 1839265 in master doc |
+
+
+### Additional Audited Pages (Current Batch)
+| **Computer Engineering (PG)** | `/study-abroad/finland/pg/computer-engineering` | 8 WebPs (Clean) | **Verified 100%** | Alternating Split UI (4 unis); Åbo Akademi, Oulu, Aalto, Turku; 79/79 checks pass |
+| **Computer Science** | `/study-abroad/finland/computer-science` | 5 Authentic PNGs (Clean) | **Verified 100%** | 5 Authentic PNGs installed; 0 content changes; structured definition cards, pills, table, 7-step timeline; no hero stats overlap; no title numbering |
+| **Information Technology** | `/study-abroad/finland/information-technology` | 5 Authentic PNGs (Clean) | **Verified 100%** | 5 Authentic PNGs installed; 0 content changes; structured cards, pills, dual fee & living cost tables, 8-step timeline; no hero stats overlap |
+| **Automobile Engineering (UG)** | `/study-abroad/finland/ug/automobile-engineering` | Open Car Hero WebP + 4 Artwork Cards | **Verified 100%** | Open supercar R&D lab hero; 4 solid background university cards with bespoke vector artwork banners (blueprint, innovation, automation, energy); 0 content changes |
+| **Automobile Engineering (PG)** | `/study-abroad/finland/pg/automobile-engineering` | Open Car Hero WebP + 4 Artwork Cards | **Verified 100%** | Open supercar R&D lab hero; 4 solid background university cards with bespoke vector artwork banners; aligned with UG route; 0 content changes |
+| **Aerospace Engineering (PG)** | `/study-abroad/finland/pg/aerospace-engineering` | 4 Authentic PNGs + Aero R&D Hero WebP | **Verified 100%** | 4 Authentic PNGs (Aalto, LUT, Tampere, Oulu); modern aerospace R&D cleanroom & supersonic aircraft hero; 12-step timeline, 2 comparison tables, 100% word-for-word verified |
+| **All Medical Colleges Hub** | `/allcollege` | Clean Interactive Hub (No broken assets) | **Verified 100%** | Executive UI retouch: 4 live metric hero cards, sidebar state search + region counts, segmented Govt/Private filter tabs, dynamic state overview card, modern pagination; 819 colleges intact (0% content change) |
+| **Other Engineering Branches** | `/study-abroad/finland/...` | In progress | Ready to audit | Pos 1196243+ in master doc |
+| **Winter Courses** | `/study-abroad/finland/winter-courses` | Pending next turn | Ready to audit | Pos 1819790 in master doc |
+| **Summer Courses** | `/study-abroad/finland/summer-courses` | Pending next turn | Ready to audit | Pos 1839265 in master doc |
