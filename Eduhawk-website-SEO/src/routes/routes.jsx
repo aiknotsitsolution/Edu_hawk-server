@@ -11,13 +11,30 @@ import Home from "../pages/HeroSection.jsx";
  * Shared layout (MainLayout, Navbar, Footer) stays eager so navigation
  * chrome renders instantly. Route paths and routeList are unchanged. */
 
+/* Route-level code splitting with auto-recovery for hot-reloads / chunk drops */
+const safeLazy = (importFn) =>
+  lazy(async () => {
+    try {
+      return await importFn();
+    } catch (err) {
+      if (typeof window !== "undefined") {
+        const key = "chunk_retry_" + window.location.pathname;
+        if (!sessionStorage.getItem(key)) {
+          sessionStorage.setItem(key, "1");
+          window.location.reload();
+        }
+      }
+      throw err;
+    }
+  });
+
 // Pages
-const About = lazy(() => import("../pages/About.jsx"));
-const NotFound = lazy(() => import("../pages/NotFound.jsx"));
-const Russian = lazy(() => import("../pages/Country/Russian.jsx"));
-const Bangladesh = lazy(() => import("../pages/Country/Bangladesh.jsx"));
-const Services = lazy(() => import("../pages/Component/Services.jsx"));
-const Contact = lazy(() => import("../pages/Component/Contact.jsx"));
+const About = safeLazy(() => import("../pages/About.jsx"));
+const NotFound = safeLazy(() => import("../pages/NotFound.jsx"));
+const Russian = safeLazy(() => import("../pages/Country/Russian.jsx"));
+const Bangladesh = safeLazy(() => import("../pages/Country/Bangladesh.jsx"));
+const Services = safeLazy(() => import("../pages/Component/Services.jsx"));
+const Contact = safeLazy(() => import("../pages/Component/Contact.jsx"));
 const Kazakhstan = lazy(() => import("../pages/Country/kazakhstan.jsx"));
 const Kyrgyzstan = lazy(() => import("../pages/Country/Kyrgyzstan.jsx"));
 const Armernia = lazy(() => import("../pages/Country/Armernia.jsx"));
