@@ -66,7 +66,7 @@ const branch = {
     "Computational Aerospace Engineering",
   ],
   coursesNote: [
-    "Common specialisations include: advanced engineering design, computational methods, and system modeling. Students also compare related postgraduate programs such as [MS in Mechanical Engineering](/courses/pg/mechanical-engineering) and [MS in Automobile Engineering](/courses/pg/automobile-engineering), or review [Undergraduate Aerospace Engineering](/courses/ug/aerospace-engineering).",
+    "Common specialisations include: advanced engineering design, computational methods, and system modeling. Students also compare related postgraduate programs such as [MS in Mechanical Engineering](/study-abroad/usa/pg/mechanical-engineering) and [MS in Automobile Engineering](/study-abroad/usa/pg/automobile-engineering), or review [Undergraduate Aerospace Engineering](/study-abroad/usa/ug/aerospace-engineering).",
   ],
 
   duration: [
@@ -244,7 +244,7 @@ const PostgraduateAerospaceEngineering = () => (
     level="PG"
     heroImg={heroImg}
     imgDims={imgDims}
-    seoPath="/courses/pg/aerospace-engineering"
+    seoPath="/study-abroad/usa/pg/aerospace-engineering"
     heroAlt={heroAlt}
     coursesTitle={coursesTitle}
     unisTitle={unisTitle}

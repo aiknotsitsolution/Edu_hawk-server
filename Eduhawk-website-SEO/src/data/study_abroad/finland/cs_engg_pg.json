@@ -1,0 +1,57 @@
+{
+  "seo": {
+    "title": "Master",
+    "description": "Study Master"
+  },
+  "hero": {
+    "badge": "Study Abroad - Finland",
+    "title": "Master",
+    "subtitle": "Study **Master",
+    "ctaText": "Book Free Counselling",
+    "image": ""
+  },
+  "stats": [
+    {
+      "n": "1000+",
+      "l": "Students Placed Globally"
+    },
+    {
+      "n": "20+",
+      "l": "Countries"
+    },
+    {
+      "n": "200+",
+      "l": "Partner Universities"
+    },
+    {
+      "n": "100%",
+      "l": "Support (Visa & End-to-End Guidance)"
+    }
+  ],
+  "highlights": {
+    "degree": "Master of Science in Technology (M.Sc. Tech)",
+    "duration": "2 Years (120 ECTS)",
+    "fee": "€10,000 – €16,000 / Year",
+    "eligibility": "Recognised academic qualification + English proficiency",
+    "medium": "100% English Taught"
+  },
+  "overview": "Studying Computer Science Engineering - PG in Finland offers Indian students access to world-renowned Nordic education, innovative practical research, English-taught programmes, and excellent European career pathways.",
+  "universities": [
+    {
+      "name": "Top University in Finland",
+      "location": "Finland",
+      "fee": "€10,000 – €16,000 / Year",
+      "image": ""
+    }
+  ],
+  "faq": [
+    {
+      "question": "Which university is best for computer science in Finland?",
+      "answer": "Top universities include Aalto University (ranked among the world"
+    },
+    {
+      "question": "How can Edu-Hawk Worldwide help with the admission process?",
+      "answer": "Edu-Hawk Worldwide provides comprehensive support covering university shortlisting, prerequisite checking, SOP/CV drafting, Studyinfo filing, scholarship applications, and Finnish student visa processing."
+    }
+  ]
+}

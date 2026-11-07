@@ -9,28 +9,32 @@
 
 ## 📋 Step-by-Step Implementation Checklist
 
-- [ ] **Step 1: Content Decoupling (Data Layer Setup)**
-  - [ ] `src/data/` directory create karna
-  - [ ] `About.jsx` ka hardcoded content extract karke `src/data/about.json` me convert karna
-  - [ ] `About.jsx` ko refactor karna taaki sara data `about.json` se dynamic render ho
-  - [ ] Local build & dev verify karna (ensure styling & prerender bilkul intact rahe)
+- [x] **Step 1: Content Decoupling (Data Layer Setup)**
+  - [x] `src/data/` directory create karna
+  - [x] `About.jsx` ka hardcoded content extract karke `src/data/about.json` me convert karna
+  - [x] `About.jsx` ko refactor karna taaki sara data `about.json` se dynamic render ho
+  - [x] Local build & dev verify karna (ensure styling & 112-page prerender intact rahe)
 
-- [ ] **Step 2: Decap CMS Client Files Setup**
-  - [ ] `public/admin/index.html` create karna (Decap CMS core script load)
-  - [ ] `public/admin/config.yml` create karna (backend, collections, fields & `local_backend: true`)
-  - [ ] `public/uploads/` directory ensure karna media/images ke liye
+- [x] **Step 2: Decap CMS Client Files Setup**
+  - [x] `public/admin/index.html` create karna (Decap CMS core script load)
+  - [x] `public/admin/config.yml` create karna (backend, collections, fields & `local_backend: true`)
+  - [x] `public/uploads/` directory ensure karna media/images ke liye
+  - [x] `decap-server` local proxy dependency install & npm script add karna
+  - [x] `vercel.json` me CSP headers update karna (allow unpkg & github api)
 
 - [ ] **Step 3: Local Testing & Validation**
-  - [ ] Local proxy server start karna (`npx decap-server`)
+  - [ ] Local proxy server start karna (`npm run cms`)
   - [ ] Vite dev server start karna (`npm run dev`)
   - [ ] Browser me `http://localhost:5173/admin/` open karke test karna
   - [ ] Test edit karna (e.g. Russia MBBS fees ya title) aur "Publish" dabana
   - [ ] Verify karna ki `src/data/about.json` automatically update hui aur browser me hot-reload hua
 
-- [ ] **Step 4: Extension to Other Pages (Incremental Rollout)**
-  - [ ] Landing page (`Landingpage/`) sections ko `src/data/landing.json` me shift karna
-  - [ ] Courses / Study Abroad country data ko `config.yml` me map karna
-  - [ ] Testimonials & FAQ data ko config me add karna
+- [x] **Step 4: Extension to Other Pages (Incremental Rollout)**
+  - [x] Home Page (`HeroSection.jsx`) content ko `src/data/home.json` me shift & decouple karna
+  - [x] Master grouped CMS collections configure karna (Main Pages, USA, Finland, Tests & Exams, News, Blog)
+  - [x] Sub-folder organized media folders setup karna (`public/uploads/{home,about,news,tests,study_abroad}`)
+  - [x] Site-wide statistics unify karna (1000+ Students, 20+ Countries, 200+ Universities, 100% Support)
+  - [ ] Remaining country programs (Australia, Canada, UK, etc.) jaise hi content receive ho tab integrate karna
 
 - [ ] **Step 5: Production GitHub OAuth & Deployment Setup**
   - [ ] GitHub Developer Settings me OAuth App create karna (Client ID & Secret)
@@ -173,37 +177,67 @@ backend:
 # Local development me bina GitHub login ke test karne ke liye:
 local_backend: true
 
-# Media / Images upload directory:
-media_folder: "Eduhawk-website-SEO/public/uploads"
+# Media / Images upload directory (partitioned by section):
+media_folder: "public/uploads"
 public_folder: "/uploads"
 
 collections:
-  - name: "pages"
-    label: "Pages Content"
+  # 1. Main Pages (Home, About, Services, Contact Us, Landing Page)
+  - name: "main_pages"
+    label: "Main Pages"
+    delete: false
+    files: [...]
+
+  # 2. Medical Colleges (MBBS India + 16 Countries)
+  - name: "medical_colleges"
+    label: "Medical Colleges (MBBS)"
+    delete: false
+    files: [...]
+
+  # 3. Study Abroad - USA (All 38+ Individual Course Pages as standalone cards)
+  - name: "study_abroad_usa"
+    label: "Study Abroad - USA"
     delete: false
     files:
-      - label: "About Page Content"
-        name: "about_page"
-        file: "Eduhawk-website-SEO/src/data/about.json"
-        fields:
-          - { label: "Hero Title", name: "heroTitle", widget: "string" }
-          - { label: "Hero Subtitle", name: "heroSubtitle", widget: "text" }
-          - { label: "Banner Image", name: "heroBanner", widget: "image" }
-          - label: "MBBS Countries"
-            name: "countries"
-            widget: "list"
-            fields:
-              - { label: "Country Name", name: "name", widget: "string" }
-              - { label: "Total Seats", name: "seats", widget: "string" }
-              - { label: "Package Fee", name: "fee", widget: "string" }
-          - label: "Student Testimonials"
-            name: "testimonials"
-            widget: "list"
-            fields:
-              - { label: "Student Name", name: "name", widget: "string" }
-              - { label: "Location", name: "loc", widget: "string" }
-              - { label: "Review Text", name: "text", widget: "text" }
-              - { label: "Rating Stars", name: "stars", widget: "number", value_type: "int", min: 1, max: 5 }
+      - label: "Dentistry (MBBS Abroad)"
+        name: "usa_dentistry"
+        file: "src/data/study_abroad/usa/dentistry.json"
+      - label: "Nursing (MBBS Abroad)"
+        name: "usa_nursing"
+        file: "src/data/study_abroad/usa/nursing.json"
+      - label: "Engineering (Main Hub Page)"
+        name: "usa_engineering_hub"
+        file: "src/data/study_abroad/usa/engineering_hub.json"
+      - label: "Undergraduate Engineering (UG Hub)"
+        name: "usa_ug_hub"
+        file: "src/data/study_abroad/usa/ug_hub.json"
+      - label: "Computer Engineering - UG"
+        name: "usa_comp_engg_ug"
+        file: "src/data/study_abroad/usa/comp_engg_ug.json"
+      # ... Mechanical, Civil, Electrical, PG Hub, MBA, BBA, Law, etc.
+
+  # 4. Study Abroad - Finland
+  - name: "study_abroad_finland"
+    label: "Study Abroad - Finland"
+    ...
+
+  # 5. Common Programs (News & Updates)
+  - name: "programs_news"
+    label: "Programs News & Updates (Common)"
+    folder: "src/data/news"
+    create: true
+
+  # 6. Tests & Online Exams (Common for All Countries)
+  - name: "tests_exams"
+    label: "Tests & Online Exams (Common)"
+    folder: "src/data/common/tests"
+    create: true
+
+  # 7. Our Blog Articles
+  - name: "blog"
+    label: "Our Blog Articles"
+    folder: "src/data/blogs"
+    create: true
 ```
 
 ---
@@ -255,3 +289,59 @@ Peeche background me:
 - **Full Version History:** Har content change Git history me record hota hai. Agar koi galti se galat text daal de, toh 1-click me purana version rollback kiya ja sakta hai.
 - **Access Control:** Sirf wahi log `/admin` access kar sakte hain jinko GitHub repo ya invite token ka access diya gaya ho.
 - **Zero Hack Risk:** Database na hone ki wajah se SQL Injection ya database leak ka risk 0% hai.
+
+---
+
+## 8. Implemented Collections & Individual Page Cards
+
+Decap CMS configuration (`public/admin/config.yml`):
+
+1. **Main Pages:** Home, About, Services, Contact Us, Landing Page.
+2. **Medical Colleges:** MBBS Abroad (Russia, Bangladesh, Nepal, Italy, Kazakhstan, Kyrgyzstan, Uzbekistan, Tajikistan, Egypt, Georgia, Vietnam).
+3. **Study Abroad - USA (44 Individual Cards):**
+   - MBBS Abroad (Dentistry, Nursing, Pharmacy, Physiotherapy, Public Health, Biotechnology)
+   - Tech Standalone (Computer Science, Information Technology)
+   - Engineering Hub, UG Branches (10 cards), PG Branches (10 cards)
+   - Business Management Hub, MBA, Executive MBA, BBA, BBS, International Business, Marketing Management, Accounting & Finance, Hospitality Management
+   - Architecture, Law
+   - Programs (Language, Summer, Winter, Working Professionals)
+4. **Study Abroad - Finland (42 Individual Cards):**
+   - MBBS Abroad (Dentistry, Nursing, Pharmacy, Physiotherapy, Public Health, Biotechnology)
+   - Tech Standalone (Computer Science, Information Technology)
+   - Engineering UG Hub, UG Branches (10 cards: Computer, CSE, Mechanical, Civil, Electrical, ECE, Chemical, Aerospace, Biomedical, Automobile)
+   - Engineering PG Branches (10 cards: Computer, CSE, Mechanical, Civil, Electrical, ECE, Chemical, Aerospace, Biomedical, Automobile)
+   - Business Management Hub, MBA, Executive MBA, BBA, BBS, International Business, MBS, Hospitality Management
+   - Architecture, Law
+   - Programs (Language Courses, Summer Courses, Winter Courses)
+5. **Common Programs:** News & Updates (Common across all countries).
+6. **Tests & Online Exams (Common):** English (IELTS, TOEFL, Duolingo, PTE, OET), Foreign (France, Germany, Spanish), Entrance (GRE, GMAT, SAT, ACT, CMAT, CAT, MCAT, USMLE, NEET, NCLEX-RN).
+7. **Our Blog:** Individual blog article publishing with slug-based markdown files.
+
+
+---
+
+## 9. Engineering PG Hub Update (Finland & USA Aliases)
+
+- **Finland PG Hub (`finland_pg_hub`)**:
+  - Data file: `src/data/study_abroad/finland/pg_hub.json`
+  - Component: `src/pages/Study Abroad/Finland/Engineering/pg/postgraduate.jsx`
+  - Route: `/study-abroad/finland/pg/engineering`
+  - Mapped in `public/admin/config.yml` under `study_abroad_finland` collection.
+- **USA Hub Aliases**:
+  - USA UG Hub: `/courses/ug/engineering` & `/study-abroad/usa/ug/engineering`
+  - USA PG Hub: `/courses/pg/engineering` & `/study-abroad/usa/pg/engineering`
+- **Total Static Routes Prerendered**: **121 routes** with 0 errors.
+
+
+---
+
+## 10. URL Architecture Harmonization (`/study-abroad/[country]/...`)
+
+- **Elimination of Query Parameters**:
+  - Replaced legacy `?country=usa` and `?country=finland` with clean RESTful URLs across the entire frontend.
+- **Unified Structure**:
+  - `http://localhost:5173/study-abroad/usa/pg/computer-engineering`
+  - `http://localhost:5173/study-abroad/finland/pg/computer-engineering`
+  - `http://localhost:5173/study-abroad/usa/ug/computer-engineering`
+  - `http://localhost:5173/study-abroad/finland/ug/computer-engineering`
+- **Total Static HTML Pages Prerendered**: **163 static routes** (0 failed).

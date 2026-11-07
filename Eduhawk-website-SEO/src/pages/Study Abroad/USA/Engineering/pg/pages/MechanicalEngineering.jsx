@@ -64,7 +64,7 @@ const branch = {
   ],
   coursesNote: [
     <><strong>Frequent areas of specialization</strong> include: <strong>Thermal and Fluid Science</strong>, <strong>Machine Design and Solid Mechanics</strong>, <strong>Robotics and Automation</strong>, <strong>Advanced Manufacturing</strong>, <strong>Computational Mechanics</strong>, and <strong>Materials Science and Engineering</strong>.</>,
-    <>Through Edu Hawk worldwide study abroad guidance, students can explore these opportunities and understand the requirements involved in pursuing <strong>Mechanical Engineering education overseas</strong>. Many applicants also compare <Link to="/courses/pg/aerospace-engineering">postgraduate Aerospace Engineering</Link>{" "}and{" "}<Link to="/courses/pg/automobile-engineering">Automobile Engineering</Link>{" "}in the USA.</>,
+    <>Through Edu Hawk worldwide study abroad guidance, students can explore these opportunities and understand the requirements involved in pursuing <strong>Mechanical Engineering education overseas</strong>. Many applicants also compare <Link to="/study-abroad/usa/pg/aerospace-engineering">postgraduate Aerospace Engineering</Link>{" "}and{" "}<Link to="/study-abroad/usa/pg/automobile-engineering">Automobile Engineering</Link>{" "}in the USA.</>,
   ],
 
   duration: [
@@ -196,7 +196,7 @@ const branch = {
   visaSteps: [
     "Investigate academic institutions and evaluate Mechanical Engineering curricula.",
     "Verify academic prerequisites and foundational subject requirements.",
-    <>Examine <strong>English-language proficiency</strong> and <strong>GRE examination criteria</strong>. <Link to="/courses/pg/electrical-engineering">Learn about GRE requirements for Electrical Engineering</Link>.</>,
+    <>Examine <strong>English-language proficiency</strong> and <strong>GRE examination criteria</strong>. <Link to="/study-abroad/usa/pg/electrical-engineering">Learn about GRE requirements for Electrical Engineering</Link>.</>,
     <>Compile official transcripts, a <strong>Statement of Purpose</strong>, academic references, and professional documentation.</>,
     "Submit completed applications in accordance with institutional deadlines.",
     "Evaluate admission decisions, projected expenditures, and financial assistance possibilities.",
@@ -246,7 +246,7 @@ const PostgraduateMechanicalEngineering = () => (
     level="PG"
     heroImg={heroImg}
     imgDims={imgDims}
-    seoPath="/courses/pg/mechanical-engineering"
+    seoPath="/study-abroad/usa/pg/mechanical-engineering"
     heroAlt={heroAlt}
     coursesTitle={coursesTitle}
     unisTitle={unisTitle}

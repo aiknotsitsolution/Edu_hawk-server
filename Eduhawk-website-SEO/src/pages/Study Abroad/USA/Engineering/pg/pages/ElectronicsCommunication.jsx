@@ -219,7 +219,7 @@ const PostgraduateElectronicsCommunication = () => (
     level="PG"
     heroImg={heroImg}
     imgDims={imgDims}
-    seoPath="/courses/pg/electronics-communication"
+    seoPath="/study-abroad/usa/pg/electronics-communication"
     heroAlt={heroAlt}
     coursesTitle={coursesTitle}
     unisTitle={unisTitle}

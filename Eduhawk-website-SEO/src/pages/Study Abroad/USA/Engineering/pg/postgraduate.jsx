@@ -116,10 +116,10 @@ const faqs = [
 ];
 
 const overviewParas = [
-  "**Indian students** can develop advanced technical skills, research techniques, and professionally useful knowledge by pursuing **postgraduate engineering education in the United States**. Master's degree programs in [computer engineering](/courses/pg/computer-engineering), [mechanical engineering](/courses/pg/mechanical-engineering), [civil engineering](/courses/pg/civil-engineering), [electrical engineering](/courses/pg/electrical-engineering), [chemical engineering](/courses/pg/chemical-engineering), [aerospace engineering](/courses/pg/aerospace-engineering), and [biomedical engineering](/courses/pg/biomedical-engineering) are offered by academic institutions.",
+  "**Indian students** can develop advanced technical skills, research techniques, and professionally useful knowledge by pursuing **postgraduate engineering education in the United States**. Master's degree programs in [computer engineering](/study-abroad/usa/pg/computer-engineering), [mechanical engineering](/study-abroad/usa/pg/mechanical-engineering), [civil engineering](/study-abroad/usa/pg/civil-engineering), [electrical engineering](/study-abroad/usa/pg/electrical-engineering), [chemical engineering](/study-abroad/usa/pg/chemical-engineering), [aerospace engineering](/study-abroad/usa/pg/aerospace-engineering), and [biomedical engineering](/study-abroad/usa/pg/biomedical-engineering) are offered by academic institutions.",
   "Depending on the degree framework and institutional structure, most master's programs take **one to two years** to complete. Students get access to cutting-edge labs, research initiatives, collaborations with business partners, and chances to focus on a particular discipline.",
   "A **relevant bachelor's degree**, official academic records, and proof of **English language proficiency** are standard requirements for admission. Institutions have different requirements for the **Graduate Record Examination (GRE)**.",
-  "Subject to employer requirements and pertinent employment authorization laws, graduates may follow career paths in engineering, technology, scientific research, manufacturing, and infrastructure development. Prospective candidates can also explore [Undergraduate Engineering in the USA](/courses/ug/engineering) or [connect with Edu Hawk Worldwide counsellors](/contact).",
+  "Subject to employer requirements and pertinent employment authorization laws, graduates may follow career paths in engineering, technology, scientific research, manufacturing, and infrastructure development. Prospective candidates can also explore [Undergraduate Engineering in the USA](/study-abroad/usa/ug/engineering) or [connect with Edu Hawk Worldwide counsellors](/contact).",
 ];
 
 const PostgraduateEngineering = () => (
@@ -127,7 +127,7 @@ const PostgraduateEngineering = () => (
     <SeoHead
       title="Postgraduate Engineering in USA for Indian Students | MS in USA | Edu Hawk"
       description="Study postgraduate engineering in the USA after your bachelor's. Explore 1–2 year MS / MEng programs — Computer, Mechanical, Civil, Electrical, ECE, Chemical, Aerospace, Biomedical & Automobile — with GRE guidance, scholarships, assistantships, careers and visa support from Edu Hawk Worldwide."
-      path="/courses/pg/engineering"
+      path="/study-abroad/usa/pg/engineering"
     >
       <script type="application/ld+json">
         {JSON.stringify({
@@ -222,7 +222,7 @@ const PostgraduateEngineering = () => (
           {branches.map((b) => (
             <Link
               key={b.slug}
-              to={`/courses/pg/${b.slug}`}
+              to={`/study-abroad/usa/pg/${b.slug}`}
               className="group ehp-card bg-white border border-slate-200 rounded-xl p-5 no-underline"
             >
               <div className="flex items-center justify-between mb-2">

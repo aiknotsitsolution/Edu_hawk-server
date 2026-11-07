@@ -114,12 +114,12 @@ const faqs = [
 ];
 
 const overviewParas = [
-  "Choosing to study **undergraduate engineering in the USA** is a step for many **Indian students**. It opens doors to notch tech tools, modern labs, hands-on learning and real research projects. Across the United States colleges offer engineering programs with many options. Like [computer engineering](/courses/ug/computer-engineering), [mechanical engineering](/courses/ug/mechanical-engineering), [civil engineering](/courses/ug/civil-engineering), [electrical engineering](/courses/ug/electrical-engineering), [aerospace engineering](/courses/ug/aerospace-engineering), [chemical engineering](/courses/ug/chemical-engineering) and [biomedical engineering](/courses/ug/biomedical-engineering).",
+  "Choosing to study **undergraduate engineering in the USA** is a step for many **Indian students**. It opens doors to notch tech tools, modern labs, hands-on learning and real research projects. Across the United States colleges offer engineering programs with many options. Like [computer engineering](/study-abroad/usa/ug/computer-engineering), [mechanical engineering](/study-abroad/usa/ug/mechanical-engineering), [civil engineering](/study-abroad/usa/ug/civil-engineering), [electrical engineering](/study-abroad/usa/ug/electrical-engineering), [aerospace engineering](/study-abroad/usa/ug/aerospace-engineering), [chemical engineering](/study-abroad/usa/ug/chemical-engineering) and [biomedical engineering](/study-abroad/usa/ug/biomedical-engineering).",
   "Engineering bachelor’s degrees take **four years** to finish. During those years students learn skills, how to think critically and how to solve tough problems. They also often do internships, work with companies and take part in research projects. This helps them gain real-world experience before they graduate.",
   "To get into these programs students must have passed **Class 12** done the required subjects and show they can understand and speak English well.",
   "**SAT or ACT** results are also required by several colleges. Not all do. It’s important to check each college’s rules.",
   "Costs can vary a lot. Tuition can be between **USD 25,000 and USD 65,000 or more per year**. This doesn’t include housing, food and other living costs.. Some schools offer scholarships or financial help for international students, especially those who do well academically.",
-  "After graduation students can work in engineering fields, or go on to higher studies such as [Postgraduate Engineering in the USA](/courses/pg/engineering). Job opportunities depend on company needs and visa rules in the US.",
+  "After graduation students can work in engineering fields, or go on to higher studies such as [Postgraduate Engineering in the USA](/study-abroad/usa/pg/engineering). Job opportunities depend on company needs and visa rules in the US.",
 ];
 
 const UndergraduateEngineeringUG = () => (
@@ -127,7 +127,7 @@ const UndergraduateEngineeringUG = () => (
     <SeoHead
       title="Undergraduate Engineering in USA for Indian Students | B.E. 2026 | Edu Hawk"
       description="Study Bachelor of Engineering in the USA after Class 12. Explore UG engineering branches — Computer, Mechanical, Civil, Electrical, ECE, Chemical, Aerospace, Biomedical & Automobile — with fees, eligibility, universities and visa guidance from Edu Hawk Worldwide."
-      path="/courses/ug/engineering"
+      path="/study-abroad/usa/ug/engineering"
     >
       <script type="application/ld+json">
         {JSON.stringify({
@@ -222,7 +222,7 @@ const UndergraduateEngineeringUG = () => (
           {branches.map((b) => (
             <Link
               key={b.slug}
-              to={`/courses/ug/${b.slug}`}
+              to={`/study-abroad/usa/ug/${b.slug}`}
               className="group ehp-card bg-white border border-slate-200 rounded-xl p-5 no-underline"
             >
               <div className="flex items-center justify-between mb-2">

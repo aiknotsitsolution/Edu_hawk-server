@@ -31,7 +31,7 @@ const page = {
             "A **Bachelor of Business Administration (BBA)** is an undergraduate degree designed to develop business knowledge, management skills and leadership capabilities. The **United States** offers students opportunities to study business through hands-on projects, case studies, applicable internships, and industry-focused coursework.",
             "In the USA, similar undergraduate business degrees may also be offered as a Bachelor of Science in Business Administration, Bachelor of Business Administration or Bachelor of Arts in Business depending upon the university.",
             "Students can select from a variety of business specializations based on their academic interests and career goals.",
-            "Edu Hawk Worldwide assists students in exploring international study options, comprehending university admission standards, comparing pathways like [Bachelor of Business Studies (BBS)](/courses/bbs) and advance towards an [MBA in the USA](/courses/mba), and [getting expert counselling](/contact). Check our [admission FAQs](#faq) and [top universities](#universities)."
+            "Edu Hawk Worldwide assists students in exploring international study options, comprehending university admission standards, comparing pathways like [Bachelor of Business Studies (BBS)](/study-abroad/usa/bbs) and advance towards an [MBA in the USA](/study-abroad/usa/mba), and [getting expert counselling](/contact). Check our [admission FAQs](#faq) and [top universities](#universities)."
           ]
         }
       ]
@@ -474,7 +474,7 @@ const BbaAbroad = () => {
       <SeoHead
         title={page.title}
         description={page.description}
-        path="/courses/bba"
+        path="/study-abroad/usa/bba"
       >
         {page.faqs.length > 0 && (
           <script type="application/ld+json">
@@ -608,7 +608,7 @@ const BbaAbroad = () => {
                   sizes="100vw"
                 />
               <div className="absolute bottom-5 left-5 bg-white/15 backdrop-blur-md px-4 py-2.5 rounded-xl text-sm font-medium">
-                Trusted by 400+ Indian students
+                Trusted by 1000+ Indian students
               </div>
             </div>
           </div>

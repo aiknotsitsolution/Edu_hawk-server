@@ -1,0 +1,75 @@
+{
+  "seo": {
+    "title": "Study Information Technology in USA for Indian Students | Edu-Hawk Worldwide",
+    "description": "Study Information Technology in the USA: Leading universities like CMU, MIT, Stanford, Georgia Tech. Bachelor's, MS in IT, cloud computing, cybersecurity, tuition fees, eligibility, and F-1 visa guide."
+  },
+  "hero": {
+    "badge": "Tech, Business & More",
+    "title": "Information Technology in the USA",
+    "subtitle": "The United States is a popular destination for students pursuing Information Technology (IT) because of its technology-driven economy, internationally recognized universities, and wide range of academic programs.",
+    "ctaText": "Book Free Counselling",
+    "image": ""
+  },
+  "stats": [
+    {
+      "n": "1000+",
+      "l": "Students Placed Globally"
+    },
+    {
+      "n": "20+",
+      "l": "Countries"
+    },
+    {
+      "n": "200+",
+      "l": "Partner Universities"
+    },
+    {
+      "n": "100%",
+      "l": "Support (Visa & End-to-End Guidance)"
+    }
+  ],
+  "highlights": {
+    "degree": "B.S. / M.S. in Information Technology & Systems",
+    "duration": "4 Yrs (UG) / 1–2 Yrs (MS) / 4–6 Yrs (PhD)",
+    "fee": "USD 20,000 – 55,000 / Year",
+    "eligibility": "Class 12 (UG) / Bachelor's in IT, CS or Engineering (MS)",
+    "medium": "English"
+  },
+  "overview": "Information Technology education combines technical knowledge with practical skills in computer systems, networking, databases, cloud infrastructure, cybersecurity, and enterprise technology management.",
+  "universities": [
+    {
+      "name": "Carnegie Mellon University",
+      "location": "Pittsburgh, PA",
+      "fee": "$58,000 / Year",
+      "image": ""
+    },
+    {
+      "name": "Massachusetts Institute of Technology (MIT)",
+      "location": "Cambridge, MA",
+      "fee": "$55,000 / Year",
+      "image": ""
+    },
+    {
+      "name": "Stanford University",
+      "location": "Stanford, CA",
+      "fee": "$56,000 / Year",
+      "image": ""
+    },
+    {
+      "name": "Georgia Institute of Technology",
+      "location": "Atlanta, GA",
+      "fee": "$33,000 / Year",
+      "image": ""
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can Indian students pursue Information Technology studies in the United States following Class 12 completion?",
+      "answer": "Yes, Indian students are eligible to apply for undergraduate programs in Information Technology-related disciplines upon completion of Class 12."
+    },
+    {
+      "question": "What is the typical duration for completing an Information Technology degree program in the United States?",
+      "answer": "Bachelor's degree programs generally require four years of study, whereas master's degree programs typically necessitate one to two years of enrollment."
+    }
+  ]
+}

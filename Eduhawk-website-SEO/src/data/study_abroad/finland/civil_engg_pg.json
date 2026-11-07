@@ -1,0 +1,65 @@
+{
+  "seo": {
+    "title": "Master",
+    "description": "Study Master"
+  },
+  "hero": {
+    "badge": "Study Abroad - Finland",
+    "title": "Master",
+    "subtitle": "Study **Master",
+    "ctaText": "Book Free Counselling",
+    "image": ""
+  },
+  "stats": [
+    {
+      "n": "1000+",
+      "l": "Students Placed Globally"
+    },
+    {
+      "n": "20+",
+      "l": "Countries"
+    },
+    {
+      "n": "200+",
+      "l": "Partner Universities"
+    },
+    {
+      "n": "100%",
+      "l": "Support (Visa & End-to-End Guidance)"
+    }
+  ],
+  "highlights": {
+    "degree": "Master of Science in Technology (M.Sc. Tech)",
+    "duration": "2 Years (120 ECTS)",
+    "fee": "€10,000 – €16,000 / Year",
+    "eligibility": "Recognised academic qualification + English proficiency",
+    "medium": "100% English Taught"
+  },
+  "overview": "Studying Civil Engineering - PG in Finland offers Indian students access to world-renowned Nordic education, innovative practical research, English-taught programmes, and excellent European career pathways.",
+  "universities": [
+    {
+      "name": "Top University in Finland",
+      "location": "Finland",
+      "fee": "€10,000 – €16,000 / Year",
+      "image": ""
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can Indian students study Civil Engineering in Finland?",
+      "answer": "Yes. Indian students with a recognized B.Tech/B.E. in Civil Engineering or related fields can apply for English-taught master"
+    },
+    {
+      "question": "Is Civil Engineering taught in English in Finland?",
+      "answer": "Yes. Prestigious Finnish universities like Aalto University, Tampere University, and the University of Oulu offer 100% English-taught master"
+    },
+    {
+      "question": "What is the tuition fee for Civil Engineering in Finland?",
+      "answer": "Tuition fees for non-EU/EEA students range between €10,000 and €17,000 per year (approximately ₹10.5 to ₹17.85 lakh per annum). Merit-based scholarships covering 50% to 100% of tuition are widely available."
+    },
+    {
+      "question": "Can international graduates work in Finland after completing Civil Engineering?",
+      "answer": "Yes. Finland provides an extended 2-year post-study work permit for international graduates, allowing them to work in structural engineering, construction management, infrastructure, and consultancy across Finland and the EU."
+    }
+  ]
+}

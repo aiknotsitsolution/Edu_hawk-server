@@ -535,7 +535,7 @@ const ArchitectureAbroad = () => (
     heroImg={heroImg}
     sideImg={sideImg}
     imgDims={imgDims}
-    seoPath="/courses/architecture"
+    seoPath="/study-abroad/usa/architecture"
   />
 );
 

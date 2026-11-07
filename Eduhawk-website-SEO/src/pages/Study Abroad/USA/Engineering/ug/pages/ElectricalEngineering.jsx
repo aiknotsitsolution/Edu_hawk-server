@@ -54,7 +54,7 @@ const branch = {
     "Program nomenclature, instructional content, and specialized concentrations differ across academic institutions. Prospective applicants must verify the precise program specifications prior to submission.",
   ],
   coursesNote: [
-    "Students also compare related programs such as [Computer Engineering in the USA](/courses/ug/computer-engineering) and [Electronics & Communication Engineering](/courses/ug/electronics-communication), or explore advanced [Postgraduate MS in Electrical Engineering](/courses/pg/electrical-engineering).",
+    "Students also compare related programs such as [Computer Engineering in the USA](/study-abroad/usa/ug/computer-engineering) and [Electronics & Communication Engineering](/study-abroad/usa/ug/electronics-communication), or explore advanced [Postgraduate MS in Electrical Engineering](/study-abroad/usa/pg/electrical-engineering).",
   ],
 
   duration: [
@@ -230,7 +230,7 @@ const ElectricalEngineeringUG = () => (
     level="UG"
     heroImg={heroImg}
     imgDims={imgDims}
-    seoPath="/courses/ug/electrical-engineering"
+    seoPath="/study-abroad/usa/ug/electrical-engineering"
     heroAlt={heroAlt}
     coursesTitle={coursesTitle}
     unisTitle={unisTitle}

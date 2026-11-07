@@ -124,7 +124,7 @@ const MedicalAbroad = () => {
       <SeoHead
         title="Medical Courses Abroad for Indian Students | Edu Hawk"
         description="Study MBBS and other medical programs abroad at NMC-recognised universities with transparent costs and end-to-end admission & visa support."
-        path="/courses/medical-abroad"
+        path="/study-abroad/usa/medical-abroad"
         ogType="website"
         twitterCard="summary_large_image"
       />
@@ -180,7 +180,7 @@ const MedicalAbroad = () => {
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />
               <div className="absolute bottom-4 left-4 bg-white/15 backdrop-blur-md px-4 py-2 rounded-lg text-sm font-medium">
-                Trusted by 400+ Indian students
+                Trusted by 1000+ Indian students
               </div>
             </div>
           </div>

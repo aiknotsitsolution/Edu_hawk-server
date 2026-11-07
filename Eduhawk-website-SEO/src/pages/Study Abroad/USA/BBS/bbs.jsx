@@ -33,7 +33,7 @@ const page = {
             "The Bachelor of Business Studies (BBS) is an undergraduate degree that covers business principles, management, economics, finance, marketing and organizational operations. It enables students to acquire skills in analytical thinking, communication, problem solving and decision making for the modern business environment.",
             "The particular degree Bachelor of Business Studies (BBS) is less common in the US. Students interested in a similar qualification could look at undergraduate degrees in Business Administration, Business Management, Business or International Business.",
             "These programs offer a solid grounding in business operations and enable students to acquire specialized knowledge in areas that are consistent with their academic interests and career goals.",
-            "Edu Hawk Worldwide assists students in exploring international study options, comprehending university admission standards, comparing pathways like [Bachelor of Business Administration (BBA)](/courses/bba) and [Business Management](/courses/business-management), and [getting expert counselling](/contact). Check our [admission FAQs](#faq) and [top universities](#universities)."
+            "Edu Hawk Worldwide assists students in exploring international study options, comprehending university admission standards, comparing pathways like [Bachelor of Business Administration (BBA)](/study-abroad/usa/bba) and [Business Management](/study-abroad/usa/business-management), and [getting expert counselling](/contact). Check our [admission FAQs](#faq) and [top universities](#universities)."
           ]
         }
       ]
@@ -462,7 +462,7 @@ const BbsAbroad = () => {
       <SeoHead
         title={page.title}
         description={page.description}
-        path="/courses/bbs"
+        path="/study-abroad/usa/bbs"
       >
         {page.faqs.length > 0 && (
           <script type="application/ld+json">
@@ -596,7 +596,7 @@ const BbsAbroad = () => {
                   sizes="100vw"
                 />
               <div className="absolute bottom-5 left-5 bg-white/15 backdrop-blur-md px-4 py-2.5 rounded-xl text-sm font-medium">
-                Trusted by 400+ Indian students
+                Trusted by 1000+ Indian students
               </div>
             </div>
           </div>

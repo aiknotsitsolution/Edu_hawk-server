@@ -124,7 +124,7 @@ const AccountingFinance = () => {
       <SeoHead
         title="Study Accounting & Finance Abroad | Edu Hawk"
         description="Study Accounting & Finance abroad with professional pathways like ACCA, CFA and CPA and complete end-to-end admission support."
-        path="/courses/accounting-finance"
+        path="/study-abroad/usa/accounting-finance"
         ogType="website"
         twitterCard="summary_large_image"
       />

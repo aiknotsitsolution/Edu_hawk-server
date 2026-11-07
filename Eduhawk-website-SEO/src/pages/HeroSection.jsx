@@ -32,148 +32,21 @@ import globalImage from "../Images/home_page_Image/class room.webp";
 import globalImage2 from "../Images/home_page_Image/class room 2.webp";
 import { Link } from "react-router-dom";
 import SeoHead from "../component/SeoHead.jsx";
+import homeData from "../data/home.json";
 
 const NAV_LINKS = ["Home", "About", "Services", "Countries", "Contact"];
 
-const COUNTRIES = [
-  { name: "Russia", flag: "🇷🇺", seats: "600+ seats", fee: "₹20-30L total" },
-  { name: "Georgia", flag: "🇬🇪", seats: "200+ seats", fee: "₹25-35L total" },
-  { name: "Uzbekistan", flag: "🇺🇿", seats: "400+ seats", fee: "₹18-28L total" },
-  { name: "Kazakhstan", flag: "🇰🇿", seats: "300+ seats", fee: "₹22-32L total" },
-  { name: "Kyrgyzstan", flag: "🇰🇬", seats: "250+ seats", fee: "₹15-25L total" },
-  { name: "Nepal", flag: "🇳🇵", seats: "150+ seats", fee: "₹35-50L total" },
-];
+const HERO_SLIDE_IMAGES = [heroRussia, heroGeorgia, heroKazakhstan, heroTrusted];
 
-const TESTIMONIALS = [
-  {
-    name: "Priya Sharma",
-    loc: "Delhi → Russia",
-    text: "Edu-Hawk guided me every step of the way. No hidden charges, clear advice. Got into a top NMC-recognized university in Russia!",
-    stars: 5,
-  },
-  {
-    name: "Rahul Verma",
-    loc: "Mumbai → Georgia",
-    text: "The counsellors were transparent and genuinely cared about my future. Best decision to trust Edu-Hawk for my MBBS abroad journey.",
-    stars: 5,
-  },
-  {
-    name: "Ananya Patel",
-    loc: "Ahmedabad → Kazakhstan",
-    text: "From application to post-arrival, they supported me fully. I feel confident about my FMGE preparation with their guidance.",
-    stars: 5,
-  },
-];
+const HERO_SLIDES = (homeData.heroSlides || []).map((slide, idx) => ({
+  ...slide,
+  image: slide.image || HERO_SLIDE_IMAGES[idx % HERO_SLIDE_IMAGES.length],
+}));
 
-const FAQ_ITEMS = [
-  {
-    question: "How can I study MBBS abroad with low fees?",
-    answer:
-      "Edu-Hawk helps students compare affordable MBBS options in countries like Russia, Georgia, Uzbekistan, Kazakhstan, Kyrgyzstan and Nepal based on fees, eligibility, and career goals.",
-  },
-  {
-    question: "What guidance do you provide for MBBS admission abroad?",
-    answer:
-      "We provide step-by-step counselling for university selection, application support, documentation, visa guidance, and pre-departure preparation for overseas education.",
-  },
-  {
-    question: "Is MBBS abroad a good option for Indian students?",
-    answer:
-      "Yes, many Indian students choose foreign medical universities for quality medical education, internationally recognized programs, and cost-effective study options in lakhs.",
-  },
-  {
-    question: "Do I need to clear NEET for studying MBBS abroad?",
-    answer:
-      "Yes, NEET qualification is mandatory for Indian students who wish to pursue MBBS abroad and later practice medicine in India after clearing the FMGE/NExT exam.",
-  },
-  {
-    question: "What is the total cost of studying MBBS abroad?",
-    answer:
-      "The total cost usually ranges between ₹15–40 lakhs for the complete course, depending on the country and university. This includes tuition fees, hostel, and living expenses.",
-  },
-];
-
-const HERO_SLIDES = [
-  {
-    image: heroRussia,
-    title: "Study MBBS in Russia",
-    subtitle:
-      "Top NMC-recognized universities • Affordable fees • Safe & Recognized",
-    cta: "Get Free Counselling",
-  },
-  {
-    image: heroGeorgia,
-    title: "MBBS in Georgia – Modern & Affordable",
-    subtitle: "English medium • European standards • Low cost of living",
-    cta: "Explore Georgia Options",
-  },
-  {
-    image: heroKazakhstan,
-    title: "Kazakhstan & Kyrgyzstan – Best Value",
-    subtitle: "₹15–32 Lakh total • No entrance exam • Direct admission",
-    cta: "Compare Packages",
-  },
-  {
-    image: heroTrusted,
-    title: "Your Trusted MBBS Abroad Partner",
-    subtitle:
-      "400+ students placed • Transparent process • End-to-end support",
-    cta: "Start Your Journey Today",
-  },
-];
-
-const mbbsOptions = [
-  {
-    country: "Bangladesh",
-    fees: "24 Lakhs to 41 Lakhs",
-    link: "/mbbs-abroad/bangladesh",
-  },
-  {
-    country: "Russia",
-    fees: "24 Lakhs to 41 Lakhs",
-    link: "/mbbs-abroad/russia",
-  },
-  {
-    country: "Uzbekistan",
-    fees: "16 Lakhs to 21 Lakhs",
-    link: "/mbbs-abroad/uzbekistan",
-  },
-  {
-    country: "Kyrgyzstan",
-    fees: "14 Lakhs to 21 Lakhs",
-    link: "/mbbs-abroad/kyrgyzstan",
-  },
-  {
-    country: "Egypt",
-    fees: "31 Lakhs to 36 Lakhs",
-    link: "/mbbs-abroad/egypt",
-  },
-  {
-    country: "Kazakhstan",
-    fees: "16 Lakhs to 23 Lakhs",
-    link: "/mbbs-abroad/kazakhstan",
-  },
-  {
-    country: "Tajikistan",
-    fees: "17 Lakhs to 25 Lakhs",
-    link: "/mbbs-abroad/tajikistan",
-  },
-  {
-    country: "Nepal",
-    fees: "20 Lakhs to 35 Lakhs",
-    link: "/mbbs-abroad/nepal",
-  },
-  {
-    country: "Georgia",
-    fees: "18 Lakhs to 28 Lakhs",
-    link: "/mbbs-abroad/georgia",
-  },
-  {
-    country: "Vietnam",
-    fees: "21 Lakhs to 30 Lakhs",
-    link: "/mbbs-abroad/vietnam",
-  },
-];
+const COUNTRIES = homeData.countries || [];
+const TESTIMONIALS = homeData.testimonials || [];
+const FAQ_ITEMS = homeData.faq || [];
+const mbbsOptions = homeData.mbbsOptions || [];
 
 const EMPTY_MODAL_FORM = {
   name: "",
@@ -483,7 +356,7 @@ export default function HeroSection() {
                       Your MBBS Abroad Journey Starts Here
                     </h2>
                     <p className="text-teal-100/90 text-xs sm:text-sm mb-5 leading-relaxed font-normal">
-                      Trusted by 400+ Indian students • Transparent process •
+                      Trusted by 1000+ Indian students • Transparent process •
                       NMC-recognized universities only
                     </p>
 
@@ -563,7 +436,7 @@ export default function HeroSection() {
                     <div className="flex items-center gap-1.5 font-medium">
                       <span className="text-amber-400">★★★★★</span>
                       <span className="text-white font-semibold">4.9/5</span>
-                      <span className="text-teal-200/60 text-[11px]">(400+ Reviews)</span>
+                      <span className="text-teal-200/60 text-[11px]">(1000+ Reviews)</span>
                     </div>
                     <div className="flex items-center gap-1 text-[11px] font-medium text-emerald-300 bg-emerald-500/15 border border-emerald-400/20 px-2.5 py-0.5 rounded-full">
                       <span className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
@@ -579,7 +452,7 @@ export default function HeroSection() {
                       MBBS Abroad Counselling
                     </h2>
                     <p className="text-slate-500 text-sm">
-                      Free • Expert • Trusted by 400+ students
+                      Free • Expert • Trusted by 1000+ students
                     </p>
                   </div>
 
@@ -875,12 +748,12 @@ export default function HeroSection() {
           {/* Stats Bar */}
           <div className="max-w-6xl mx-auto px-6 -mt-20 sm:-mt-24 relative z-10">
             <div className="bg-white/95 backdrop-blur-lg border border-[#d4a853]/30 rounded-2xl shadow-2xl grid grid-cols-2 md:grid-cols-4 gap-6 p-8 md:p-10">
-              {[
-                { n: "400+", l: "Students Placed" },
-                { n: "10+", l: "Countries" },
-                { n: "100+", l: "Universities/Colleges" },
-                { n: "100%", l: "Visa Support" },
-              ].map((s, i) => (
+              {(homeData.stats || [
+                { n: "1000+", l: "Students Placed Globally" },
+                { n: "20+", l: "Countries" },
+                { n: "200+", l: "Partner Universities" },
+                { n: "100%", l: "Visa & End-to-End Guidance" },
+              ]).map((s, i) => (
                 <div key={i} className="text-center">
                   <div className="text-[#9e711d] text-4xl md:text-5xl font-extrabold">
                     {s.n}

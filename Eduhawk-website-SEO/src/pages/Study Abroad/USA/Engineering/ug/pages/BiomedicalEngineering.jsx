@@ -144,7 +144,7 @@ const branch = {
     },
   ],
   universitiesNote: [
-    "With Edu Hawk Worldwide guidance, students can explore [Undergraduate Engineering in the USA](/courses/ug/engineering) and [book free counselling](/contact) to shortlist universities according to their qualifications and career goals.",
+    "With Edu Hawk Worldwide guidance, students can explore [Undergraduate Engineering in the USA](/study-abroad/usa/ug/engineering) and [book free counselling](/contact) to shortlist universities according to their qualifications and career goals.",
   ],
 
   careerIntro:
@@ -227,7 +227,7 @@ const BiomedicalEngineeringUG = () => (
     level="UG"
     heroImg={heroImg}
     imgDims={imgDims}
-    seoPath="/courses/ug/biomedical-engineering"
+    seoPath="/study-abroad/usa/ug/biomedical-engineering"
     heroAlt={heroAlt}
     coursesTitle={coursesTitle}
     unisTitle={unisTitle}

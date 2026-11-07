@@ -4,7 +4,7 @@ import SeoHead from "../../../component/SeoHead.jsx";
 
 const MbbsAbroad = () => {
   const location = useLocation();
-  const canonicalPath = location.pathname.includes("courses/mbbs") ? "/courses/mbbs" : "/study-abroad";
+  const canonicalPath = location.pathname.includes("courses/mbbs") ? "/study-abroad/usa/mbbs" : "/study-abroad";
   const [openFaq, setOpenFaq] = useState(null);
 
   const toggleFaq = (index) => {

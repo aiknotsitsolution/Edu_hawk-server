@@ -52,13 +52,13 @@ const branch = {
     "Bachelor of Science in Computer Engineering Technology",
   ],
   coursesNote: [
-    "Students also compare related programs such as [Electrical Engineering in the USA](/courses/ug/electrical-engineering) and [Electronics & Communication Engineering](/courses/ug/electronics-communication), or explore advanced [Postgraduate MS in Computer Engineering](/courses/pg/computer-engineering).",
+    "Students also compare related programs such as [Electrical Engineering in the USA](/study-abroad/usa/ug/electrical-engineering) and [Electronics & Communication Engineering](/study-abroad/usa/ug/electronics-communication), or explore advanced [Postgraduate MS in Computer Engineering](/study-abroad/usa/pg/computer-engineering).",
   ],
 
   duration: [
     "An undergraduate **Computer Engineering degree** within the **United States** typically requires **four years** for completion.",
     "The academic curriculum generally encompasses **mathematics, physics, programming, digital logic, electronics, computer architecture, operating systems**, and engineering design coursework.",
-    "With Edu Hawk Worldwide university selection guidance, students can compare suitable institutions based on academic background, budget, preferred location, and long-term professional goals. Learn more about [Undergraduate Engineering in the USA](/courses/ug/engineering) and [book free counselling](/contact).",
+    "With Edu Hawk Worldwide university selection guidance, students can compare suitable institutions based on academic background, budget, preferred location, and long-term professional goals. Learn more about [Undergraduate Engineering in the USA](/study-abroad/usa/ug/engineering) and [book free counselling](/contact).",
   ],
 
   eligibilityLead: [
@@ -226,7 +226,7 @@ const ComputerEngineeringUG = () => (
     level="UG"
     heroImg={heroImg}
     imgDims={imgDims}
-    seoPath="/courses/ug/computer-engineering"
+    seoPath="/study-abroad/usa/ug/computer-engineering"
     heroAlt={heroAlt}
     coursesTitle={coursesTitle}
     unisTitle={unisTitle}

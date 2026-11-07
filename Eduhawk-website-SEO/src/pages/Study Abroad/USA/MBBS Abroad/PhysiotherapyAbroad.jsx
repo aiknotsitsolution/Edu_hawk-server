@@ -424,7 +424,7 @@ const PhysiotherapyAbroad = () => {
       <SeoHead
         title="Study Physiotherapy in USA for Indian Students | Edu Hawk"
         description="Study physiotherapy in the USA for Indian students — the DPT degree, eligibility, admission process, costs and physiotherapy career pathways explained."
-        path="/courses/physiotherapy"
+        path="/study-abroad/usa/physiotherapy"
         ogType="website"
       />
       <style>{`
@@ -577,7 +577,7 @@ const PhysiotherapyAbroad = () => {
                   sizes="100vw"
                 />
               <div className="absolute bottom-5 left-5 bg-white/15 backdrop-blur-md px-4 py-2.5 rounded-xl text-sm font-medium">
-                Trusted by 400+ Indian students
+                Trusted by 1000+ Indian students
               </div>
             </div>
           </div>

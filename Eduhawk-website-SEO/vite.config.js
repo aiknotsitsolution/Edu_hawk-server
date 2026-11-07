@@ -8,10 +8,28 @@ import tailwindcss from "@tailwindcss/vite";
 const frameworkLibs =
   /[\\/]node_modules[\\/](react|react-dom|scheduler|react-router|react-router-dom|@reduxjs[\\/]toolkit|redux|react-redux|reselect|react-helmet-async|prop-types)[\\/]/;
 
+function adminRedirectPlugin() {
+  return {
+    name: "admin-redirect-plugin",
+    configureServer(server) {
+      server.middlewares.use((req, res, next) => {
+        const url = req.url.split("?")[0];
+        if (url === "/admin" || url === "/admin/") {
+          res.writeHead(302, { Location: "/admin/index.html" });
+          res.end();
+          return;
+        }
+        next();
+      });
+    },
+  };
+}
+
 export default defineConfig({
   plugins: [
     react(),
     tailwindcss(),
+    adminRedirectPlugin(),
   ],
   base: "/",
   build: {

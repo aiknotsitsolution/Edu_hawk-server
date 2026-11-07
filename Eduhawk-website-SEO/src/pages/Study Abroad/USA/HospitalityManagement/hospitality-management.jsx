@@ -40,7 +40,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Edu Hawk Worldwide assists students in exploring international study options, comprehending university admission standards, comparing pathways like [Business Management](/courses/business-management) and [Study Abroad programs](/study-abroad), and [getting expert counselling](/contact). Check our [admission FAQs](#faq) and [top universities](#universities)."
+            "Edu Hawk Worldwide assists students in exploring international study options, comprehending university admission standards, comparing pathways like [Business Management](/study-abroad/usa/business-management) and [Study Abroad programs](/study-abroad), and [getting expert counselling](/contact). Check our [admission FAQs](#faq) and [top universities](#universities)."
           ]
         }
       ]
@@ -401,7 +401,7 @@ const HospitalityManagementAbroad = () => (
     heroImg={heroImg}
     sideImg={sideImg}
     imgDims={imgDims}
-    seoPath="/courses/hospitality-management"
+    seoPath="/study-abroad/usa/hospitality-management"
   />
 );
 

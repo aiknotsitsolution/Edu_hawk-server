@@ -53,7 +53,7 @@ const branch = {
     "Bachelor of Science in Engineering Technology with an automotive focus, where available",
   ],
   coursesNote: [
-    "Students also compare related programs such as [Mechanical Engineering in the USA](/courses/ug/mechanical-engineering) and [Aerospace Engineering](/courses/ug/aerospace-engineering), or explore advanced [Postgraduate MS in Automobile Engineering](/courses/pg/automobile-engineering).",
+    "Students also compare related programs such as [Mechanical Engineering in the USA](/study-abroad/usa/ug/mechanical-engineering) and [Aerospace Engineering](/study-abroad/usa/ug/aerospace-engineering), or explore advanced [Postgraduate MS in Automobile Engineering](/study-abroad/usa/pg/automobile-engineering).",
   ],
 
   duration: [
@@ -229,7 +229,7 @@ const AutomobileEngineeringUG = () => (
     level="UG"
     heroImg={heroImg}
     imgDims={imgDims}
-    seoPath="/courses/ug/automobile-engineering"
+    seoPath="/study-abroad/usa/ug/automobile-engineering"
     heroAlt={heroAlt}
     coursesTitle={coursesTitle}
     unisTitle={unisTitle}

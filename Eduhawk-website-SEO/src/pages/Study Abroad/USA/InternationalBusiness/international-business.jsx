@@ -32,7 +32,7 @@ const page = {
             "International Business is a multidisciplinary field that studies how firms operate, compete and expand in international markets. It is a mix of business management, economics, finance, marketing, international trade and cross-cultural communication.",
             "Students who study international business in the US get an overview of the global market, international business strategies, trade regulations and the complex nature of managing organizations across borders.",
             "Students can study International Business at the undergraduate, master’s, MBA specialization or doctoral level depending on their qualifications and career goals.",
-            "Edu Hawk Worldwide assists students in exploring international study options, comprehending university admission standards, comparing pathways like [MBA in the USA](/courses/mba) and [Business Management](/courses/business-management), and [getting expert counselling](/contact). Check our [admission FAQs](#faq) and [top universities](#universities)."
+            "Edu Hawk Worldwide assists students in exploring international study options, comprehending university admission standards, comparing pathways like [MBA in the USA](/study-abroad/usa/mba) and [Business Management](/study-abroad/usa/business-management), and [getting expert counselling](/contact). Check our [admission FAQs](#faq) and [top universities](#universities)."
           ]
         }
       ]
@@ -572,7 +572,7 @@ const InternationalBusinessAbroad = () => {
       <SeoHead
         title={page.title}
         description={page.description}
-        path="/courses/international-business"
+        path="/study-abroad/usa/international-business"
       >
         {page.faqs.length > 0 && (
           <script type="application/ld+json">
@@ -706,7 +706,7 @@ const InternationalBusinessAbroad = () => {
                   sizes="100vw"
                 />
               <div className="absolute bottom-5 left-5 bg-white/15 backdrop-blur-md px-4 py-2.5 rounded-xl text-sm font-medium">
-                Trusted by 400+ Indian students
+                Trusted by 1000+ Indian students
               </div>
             </div>
           </div>

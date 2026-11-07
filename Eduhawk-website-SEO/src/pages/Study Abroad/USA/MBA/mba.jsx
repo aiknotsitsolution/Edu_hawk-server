@@ -49,7 +49,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, explore pathways like [BBA in the USA](/courses/bba), [Executive MBA](/courses/executive-mba), and [International Business](/courses/international-business), and [get personalized counselling](/contact). Explore our [admission FAQs](#faq) and [top universities in the USA](#universities)."
+            "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, explore pathways like [BBA in the USA](/study-abroad/usa/bba), [Executive MBA](/study-abroad/usa/executive-mba), and [International Business](/study-abroad/usa/international-business), and [get personalized counselling](/contact). Explore our [admission FAQs](#faq) and [top universities in the USA](#universities)."
           ]
         }
       ]
@@ -533,7 +533,7 @@ const MbaAbroad = () => {
       <SeoHead
         title={page.title}
         description={page.description}
-        path="/courses/mba"
+        path="/study-abroad/usa/mba"
       >
         {page.faqs.length > 0 && (
           <script type="application/ld+json">
@@ -667,7 +667,7 @@ const MbaAbroad = () => {
                   sizes="100vw"
                 />
               <div className="absolute bottom-5 left-5 bg-white/15 backdrop-blur-md px-4 py-2.5 rounded-xl text-sm font-medium">
-                Trusted by 400+ Indian students
+                Trusted by 1000+ Indian students
               </div>
             </div>
           </div>

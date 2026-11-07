@@ -64,7 +64,7 @@ const branch = {
     "Embedded Systems",
   ],
   coursesNote: [
-    "Common specialisations include: advanced engineering design, computational methods, and system modeling. Students also compare related postgraduate programs such as [MS in Computer Engineering](/courses/pg/computer-engineering) and [MS in Electronics & Communication](/courses/pg/electronics-communication), or review [Undergraduate Electrical Engineering](/courses/ug/electrical-engineering).",
+    "Common specialisations include: advanced engineering design, computational methods, and system modeling. Students also compare related postgraduate programs such as [MS in Computer Engineering](/study-abroad/usa/pg/computer-engineering) and [MS in Electronics & Communication](/study-abroad/usa/pg/electronics-communication), or review [Undergraduate Electrical Engineering](/study-abroad/usa/ug/electrical-engineering).",
   ],
 
   duration: [
@@ -251,7 +251,7 @@ const PostgraduateElectricalEngineering = () => (
     level="PG"
     heroImg={heroImg}
     imgDims={imgDims}
-    seoPath="/courses/pg/electrical-engineering"
+    seoPath="/study-abroad/usa/pg/electrical-engineering"
     heroAlt={heroAlt}
     coursesTitle={coursesTitle}
     unisTitle={unisTitle}

@@ -238,7 +238,7 @@ const PostgraduateChemicalEngineering = () => (
     level="PG"
     heroImg={heroImg}
     imgDims={imgDims}
-    seoPath="/courses/pg/chemical-engineering"
+    seoPath="/study-abroad/usa/pg/chemical-engineering"
     heroAlt={heroAlt}
     coursesTitle={coursesTitle}
     unisTitle={unisTitle}

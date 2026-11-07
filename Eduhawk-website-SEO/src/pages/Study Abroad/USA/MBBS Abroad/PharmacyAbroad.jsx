@@ -411,7 +411,7 @@ const PharmacyAbroad = () => {
       <SeoHead
         title="Study Pharmacy in USA for Indian Students | Edu Hawk"
         description="Learn about pharmacy courses in the USA for Indian students, including the PharmD degree, eligibility, admission requirements, costs and licensing pathways."
-        path="/courses/pharmacy"
+        path="/study-abroad/usa/pharmacy"
         ogType="website"
       />
       <style>{`
@@ -549,7 +549,7 @@ const PharmacyAbroad = () => {
                   sizes="100vw"
                 />
               <div className="absolute bottom-5 left-5 bg-white/15 backdrop-blur-md px-4 py-2.5 rounded-xl text-sm font-medium">
-                Trusted by 400+ Indian students
+                Trusted by 1000+ Indian students
               </div>
             </div>
           </div>

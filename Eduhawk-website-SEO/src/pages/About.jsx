@@ -6,79 +6,9 @@ import SeoHead from "../component/SeoHead.jsx";
 import FixedBanner from "../Images/fixed.webp";
 import aboutHero1 from "../Images/hero/about-hero-1.webp";
 import aboutHero3 from "../Images/hero/about-hero-3.webp";
+import aboutData from "../data/about.json";
 
-
-const COUNTRIES = [
-  { name: "Russia", flag: "🇷🇺", seats: "600+ seats", fee: "₹20-30L total" },
-  { name: "Georgia", flag: "🇬🇪", seats: "200+ seats", fee: "₹25-35L total" },
-  { name: "Uzbekistan", flag: "🇺🇿", seats: "400+ seats", fee: "₹18-28L total" },
-  { name: "Kazakhstan", flag: "🇰🇿", seats: "300+ seats", fee: "₹22-32L total" },
-  { name: "Kyrgyzstan", flag: "🇰🇬", seats: "250+ seats", fee: "₹15-25L total" },
-  { name: "Nepal", flag: "🇳🇵", seats: "150+ seats", fee: "₹35-50L total" },
-];
-
-const TESTIMONIALS = [
-  {
-    name: "Priya Sharma",
-    loc: "Delhi → Russia",
-    text: "Edu-Hawk guided me every step of the way. No hidden charges, clear advice. Got into a top NMC-recognized university in Russia!",
-    stars: 5,
-  },
-  {
-    name: "Rahul Verma",
-    loc: "Mumbai → Georgia",
-    text: "The counsellors were transparent and genuinely cared about my future. Best decision to trust Edu-Hawk for my MBBS abroad journey.",
-    stars: 5,
-  },
-  {
-    name: "Ananya Patel",
-    loc: "Ahmedabad → Kazakhstan",
-    text: "From application to post-arrival, they supported me fully. I feel confident about my FMGE preparation with their guidance.",
-    stars: 5,
-  },
-];
-
-const HERO_SLIDES = [
-  {
-    image: aboutHero1,
-    title: "Your Dream Medical Career Starts Here",
-    subtitle:
-      "Expert MBBS Abroad Counselling • NMC Recognized Universities • Transparent Process",
-    cta: "Book Free Counselling",
-  },
-  {
-    image: aboutHero1,
-    title: "Study MBBS in Russia & Georgia",
-    subtitle:
-      "Top Universities • Affordable Fees • Complete End-to-End Support",
-    cta: "Get Started Today",
-  },
-  {
-    image: aboutHero3,
-    title: "Admission Made Simple & Secure",
-    subtitle:
-      "No Hidden Charges • Personalized Guidance • 400+ Happy Students",
-    cta: "Free Consultation Now",
-  },
-];
-
-const FAQ_ITEMS = [
-  {
-    question: "Is MBBS abroad from these countries valid in India?",
-    answer:
-      "Yes, all universities we recommend are NMC (National Medical Commission) recognized. After completing MBBS, students can appear for the FMGE/NEXT exam to practice in India.",
-  },
-  {
-    question: "What is the total cost of MBBS abroad?",
-    answer:
-      "The total cost (including tuition, hostel, food & miscellaneous) usually ranges between ₹15 Lakh to ₹50 Lakh depending on the country and university. We provide complete transparent fee breakdowns.",
-  },
-  {
-    question: "How long does the admission process take?",
-    answer:
-      "The entire process usually takes 2–6 months depending on the country, university, and how early you start. We recommend starting as early as possible after NEET results.",
-  },
-];
+const HERO_IMAGES = [aboutHero1, aboutHero1, aboutHero3];
 
 export default function HeroSection() {
   const [currentHeroSlide, setCurrentHeroSlide] = useState(0);
@@ -94,6 +24,12 @@ export default function HeroSection() {
   });
 
   const navigate = useNavigate();
+
+  const heroSlides = (aboutData.heroSlides || []).map((slide, idx) => ({
+    ...slide,
+    image: slide.image || HERO_IMAGES[idx % HERO_IMAGES.length],
+  }));
+
   // ✅ FIXED: PDF download function
   const downloadPDF = () => {
     const pdfUrl = "/Eduhawk.pdf";
@@ -107,18 +43,20 @@ export default function HeroSection() {
 
   useEffect(() => {
     const heroInterval = setInterval(() => {
-      setCurrentHeroSlide((prev) => (prev + 1) % HERO_SLIDES.length);
+      setCurrentHeroSlide((prev) => (prev + 1) % (heroSlides.length || 1));
     }, 6000);
 
     const testimonialInterval = setInterval(() => {
-      setCurrentTestimonial((prev) => (prev + 1) % TESTIMONIALS.length);
+      setCurrentTestimonial(
+        (prev) => (prev + 1) % (aboutData.testimonials?.length || 1)
+      );
     }, 7500);
 
     return () => {
       clearInterval(heroInterval);
       clearInterval(testimonialInterval);
     };
-  }, []);
+  }, [heroSlides.length]);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -133,8 +71,14 @@ export default function HeroSection() {
   return (
     <>
       <SeoHead
-        title="MBBS Abroad Consultancy in India | About EduHawk"
-        description="EduHawk is a leading MBBS abroad consultancy in India providing admission guidance, university selection, and visa assistance for Indian students."
+        title={
+          aboutData.seo?.title ||
+          "MBBS Abroad Consultancy in India | About EduHawk"
+        }
+        description={
+          aboutData.seo?.description ||
+          "EduHawk is a leading MBBS abroad consultancy in India providing admission guidance, university selection, and visa assistance for Indian students."
+        }
         path="/about"
         ogType="website"
       />
@@ -142,7 +86,7 @@ export default function HeroSection() {
       <div className="min-h-screen bg-gray-50 font-sans">
         {/* HERO CAROUSEL */}
         <section className="relative w-full h-screen min-h-[720px] overflow-hidden">
-          {HERO_SLIDES.map((slide, idx) => (
+          {heroSlides.map((slide, idx) => (
             <div
               key={idx}
               className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
@@ -161,15 +105,16 @@ export default function HeroSection() {
                   transform:
                     idx === currentHeroSlide ? "scale(1.08)" : "scale(1.05)",
                 }}
-                  srcSet={`${slide.image} 1x, ${slide.image} 2x`}
-                  sizes="100vw"
-                />
+                srcSet={`${slide.image} 1x, ${slide.image} 2x`}
+                sizes="100vw"
+              />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent" />
 
               <div className="absolute inset-0 flex items-center justify-center px-6 sm:px-12 lg:px-20">
                 <div className="text-center max-w-6xl">
                   <p className="inline-block mb-6 px-6 py-3 bg-[#d4a853]/30 backdrop-blur-md rounded-full text-white font-semibold tracking-wider text-base uppercase">
-                    EDU HAWK – Where Innovation Meets Excellence
+                    {aboutData.welcome?.badge ||
+                      "EDU HAWK – Where Innovation Meets Excellence"}
                   </p>
 
                   {idx === currentHeroSlide ? (
@@ -206,7 +151,7 @@ export default function HeroSection() {
 
           {/* Dots */}
           <div className="absolute bottom-10 left-0 right-0 flex justify-center gap-4 z-20">
-            {HERO_SLIDES.map((_, i) => (
+            {heroSlides.map((_, i) => (
               <button
                 key={i}
                 onClick={() => setCurrentHeroSlide(i)}
@@ -223,12 +168,7 @@ export default function HeroSection() {
         {/* STATS BAR */}
         <div className="max-w-7xl mx-auto px-6 -mt-24 md:-mt-28 relative z-10">
           <div className="bg-white/95 backdrop-blur-xl border border-[#d4a853]/20 rounded-3xl shadow-2xl p-8 md:p-10 grid grid-cols-2 lg:grid-cols-4 gap-8">
-            {[
-              { n: "400+", l: "Students Placed" },
-              { n: "10+", l: "Countries" },
-              { n: "100+", l: "Universities/Colleges" },
-              { n: "100%", l: "Visa Support" },
-            ].map((s, i) => (
+            {(aboutData.stats || []).map((s, i) => (
               <div key={i} className="text-center">
                 <div className="text-5xl md:text-6xl font-black text-[#d4a853]">
                   {s.n}
@@ -246,42 +186,39 @@ export default function HeroSection() {
           <div className="max-w-7xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-4xl md:text-5xl font-bold text-[#0a2342] mb-4">
-                Welcome to EDU HAWK
+                {aboutData.welcome?.title || "Welcome to EDU HAWK"}
               </h2>
               <p className="text-xl text-gray-600 max-w-4xl mx-auto">
-                Where innovation meets excellence in overseas medical education.
+                {aboutData.welcome?.subtitle ||
+                  "Where innovation meets excellence in overseas medical education."}
               </p>
             </div>
 
             <div className="grid md:grid-cols-2 gap-12 lg:gap-16 items-center">
               <div className="space-y-6 text-lg text-gray-700 leading-relaxed">
                 <p className="mb-4">
-                  At Eduhawk, we understand the complex world of college admissions and the challenges students and families face. Our mission is to simplify this journey through personalized guidance, trusted support, and expert counseling for students planning to 
-                  {" "}
-                  <button onClick={() => navigate("/")}
-                       className=" hover:text-[#426a91] text-blue-600 font-bold transition-colors duration-200 cursor-pointer"
-                       >
-                         study MBBS abroad.
-                    </button>  
+                  {aboutData.welcome?.p1_before}{" "}
+                  <button
+                    onClick={() => navigate("/")}
+                    className="hover:text-[#426a91] text-blue-600 font-bold transition-colors duration-200 cursor-pointer"
+                  >
+                    {aboutData.welcome?.p1_link_text || "study MBBS abroad."}
+                  </button>
                 </p>
-                <p className="mb-4">
-                  We’re here to guide you through every decision — big or small — on the path to college success and the right global career opportunities.
-                </p>
-                <p className="font-medium">
-                  Together, we turn the challenge of admissions into an opportunity for growth, learning, and success.
-                </p>
+                <p className="mb-4">{aboutData.welcome?.p2}</p>
+                <p className="font-medium">{aboutData.welcome?.p3}</p>
 
                 <button
                   onClick={() => navigate("/contact")}
                   className="mt-4 bg-gradient-to-r from-[#d4a853] to-[#f0c070] text-[#0a2342] font-bold uppercase tracking-wider px-10 py-5 rounded-xl shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
                 >
-                  Join Us Today →
+                  {aboutData.welcome?.ctaText || "Join Us Today →"}
                 </button>
               </div>
 
               <div>
                 <img
-                  src={AboutImage}
+                  src={aboutData.welcome?.image || AboutImage}
                   loading="lazy"
                   width={500}
                   height={500}
@@ -295,56 +232,66 @@ export default function HeroSection() {
 
             <div className="text-center mt-16">
               <p className="text-2xl md:text-3xl font-semibold text-[#d4a853] italic">
-                "Where Dreams Take Flight – College Counselling Done Right"
+                {aboutData.welcome?.quote ||
+                  '"Where Dreams Take Flight – College Counselling Done Right"'}
               </p>
             </div>
           </div>
         </section>
 
+        {/* BANNER SECTION */}
         <section
-  className="relative h-80 bg-cover bg-center md:h-96 animate-fade-in-up"
-  style={{
-    backgroundImage: `url(${FixedBanner})`
-  }}
->
-  {/* Dark Overlay */}
-  <div className="absolute inset-0 bg-gradient-to-r from-blue-900/70 to-indigo-900/70" />
+          className="relative h-80 bg-cover bg-center md:h-96 animate-fade-in-up"
+          style={{
+            backgroundImage: `url(${aboutData.banner?.backgroundImage || FixedBanner})`,
+          }}
+        >
+          {/* Dark Overlay */}
+          <div className="absolute inset-0 bg-gradient-to-r from-blue-900/70 to-indigo-900/70" />
 
-  <div className="relative z-10 flex h-full flex-col items-center justify-center px-5 text-center text-white">
-    <h3 className="text-3xl font-bold sm:text-4xl md:text-5xl animate-fade-in-up delay-100">
-      Start Your Global Journey Today
-    </h3>
-    <p className="mt-4 max-w-2xl text-lg sm:text-xl animate-fade-in-up delay-200">
-      Free profile evaluation • No-obligation consultation
-    </p>
+          <div className="relative z-10 flex h-full flex-col items-center justify-center px-5 text-center text-white">
+            <h3 className="text-3xl font-bold sm:text-4xl md:text-5xl animate-fade-in-up delay-100">
+              {aboutData.banner?.title || "Start Your Global Journey Today"}
+            </h3>
+            <p className="mt-4 max-w-2xl text-lg sm:text-xl animate-fade-in-up delay-200">
+              {aboutData.banner?.subtitle ||
+                "Free profile evaluation • No-obligation consultation"}
+            </p>
 
-    {/* WhatsApp Button */}
-    <button
-      onClick={() => window.open("https://api.whatsapp.com/send?phone=919630736070", "_blank")}
-      className="mt-8 rounded-full bg-white px-10 py-4 text-lg font-semibold text-blue-900 transition-all duration-300 hover:bg-gray-100 hover:shadow-2xl hover:scale-105 active:scale-95"
-    >
-      Talk to an Expert →
-    </button>
-  </div>
-</section>
+            {/* WhatsApp Button */}
+            <button
+              onClick={() =>
+                window.open(
+                  `https://api.whatsapp.com/send?phone=${
+                    aboutData.banner?.whatsappPhone || "919630736070"
+                  }`,
+                  "_blank"
+                )
+              }
+              className="mt-8 rounded-full bg-white px-10 py-4 text-lg font-semibold text-blue-900 transition-all duration-300 hover:bg-gray-100 hover:shadow-2xl hover:scale-105 active:scale-95"
+            >
+              {aboutData.banner?.ctaText || "Talk to an Expert →"}
+            </button>
+          </div>
+        </section>
 
         {/* FAQ SECTION */}
         <section className="py-20 md:py-24 px-6 bg-[#faf8f4]">
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-14">
               <h2 className="text-4xl md:text-5xl font-bold text-[#0a2342] mb-4">
-                Frequently Asked Questions
+                {aboutData.faq?.title || "Frequently Asked Questions"}
               </h2>
               <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-                Quick answers to the most common questions about MBBS abroad
-                with EDU HAWK
+                {aboutData.faq?.subtitle ||
+                  "Quick answers to the most common questions about MBBS abroad with EDU HAWK"}
               </p>
             </div>
 
             <div className="flex flex-col lg:flex-row gap-10 md:gap-12 items-start">
               {/* FAQ List */}
               <div className="w-full lg:w-3/5 space-y-5">
-                {FAQ_ITEMS.map((item, index) => (
+                {(aboutData.faq?.items || []).map((item, index) => (
                   <div
                     key={index}
                     className="bg-white rounded-2xl shadow-md border border-gray-200 overflow-hidden"
@@ -379,7 +326,7 @@ export default function HeroSection() {
               {/* Image + Tagline */}
               <div className="w-full lg:w-2/5 flex flex-col items-center lg:items-start gap-6">
                 <img
-                  src={imageAbout2}
+                  src={aboutData.faq?.sidebarImage || imageAbout2}
                   loading="lazy"
                   width={612}
                   height={408}
@@ -388,10 +335,9 @@ export default function HeroSection() {
                   srcSet={`${imageAbout2} 1x, ${imageAbout2} 2x`}
                   sizes="(max-width: 768px) 100vw, 500px"
                 />
-                <h3 className="text-2xl md:text-2xl lg:text-2xl font-serif font-bold tracking-tight text-indigo-800 text-center lg:text-left">
-                  Where Dreams Take Flight:
-                  <br className="hidden lg:block" /> College Counseling Done
-                  Right
+                <h3 className="text-2xl md:text-2xl lg:text-2xl font-serif font-bold tracking-tight text-indigo-800 text-center lg:text-left whitespace-pre-line">
+                  {aboutData.faq?.sidebarHeading ||
+                    "Where Dreams Take Flight:\nCollege Counseling Done Right"}
                 </h3>
               </div>
             </div>

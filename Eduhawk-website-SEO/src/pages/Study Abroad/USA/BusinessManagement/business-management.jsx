@@ -47,7 +47,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Edu Hawk Worldwide assists students in exploring international study options, comprehending university admission standards, comparing pathways like [MBA in the USA](/courses/mba), [BBA](/courses/bba), and [Marketing Management](/courses/marketing-management), and [getting expert counselling](/contact). Check our [admission FAQs](#faq) and [top universities](#universities)."
+            "Edu Hawk Worldwide assists students in exploring international study options, comprehending university admission standards, comparing pathways like [MBA in the USA](/study-abroad/usa/mba), [BBA](/study-abroad/usa/bba), and [Marketing Management](/study-abroad/usa/marketing-management), and [getting expert counselling](/contact). Check our [admission FAQs](#faq) and [top universities](#universities)."
           ]
         }
       ]
@@ -347,7 +347,7 @@ const BusinessManagementAbroad = () => (
     heroImg={heroImg}
     sideImg={sideImg}
     imgDims={imgDims}
-    seoPath="/courses/business-management"
+    seoPath="/study-abroad/usa/business-management"
   />
 );
 

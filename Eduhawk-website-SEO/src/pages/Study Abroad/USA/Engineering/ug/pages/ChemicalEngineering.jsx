@@ -224,7 +224,7 @@ const ChemicalEngineeringUG = () => (
     level="UG"
     heroImg={heroImg}
     imgDims={imgDims}
-    seoPath="/courses/ug/chemical-engineering"
+    seoPath="/study-abroad/usa/ug/chemical-engineering"
     heroAlt={heroAlt}
     coursesTitle={coursesTitle}
     unisTitle={unisTitle}

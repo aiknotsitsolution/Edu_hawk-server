@@ -294,7 +294,7 @@ const ElectronicsCommunicationUG = () => (
     level="UG"
     heroImg={heroImg}
     imgDims={imgDims}
-    seoPath="/courses/ug/electronics-communication"
+    seoPath="/study-abroad/usa/ug/electronics-communication"
     heroAlt={heroAlt}
     coursesTitle={coursesTitle}
     unisTitle={unisTitle}

@@ -455,8 +455,8 @@ export default function Footer() {
             </div>
 
             <p className="text-gray-400 text-sm leading-relaxed mb-6 max-w-sm">
-              Trusted & ethical counselling for MBBS abroad — helping 400+
-              Indian students since inception.
+              Trusted & ethical counselling for MBBS abroad — helping 1000+
+              Indian students globally since inception.
             </p>
 
             <div className="flex gap-4 text-xl">
@@ -587,7 +587,7 @@ export default function Footer() {
               </span>
             </a>
             <a className="font-small text-gray-400"> version 5.0.0 </a>
-            Trusted by 400+ Indian Students
+            Trusted by 1000+ Indian Students Globally
           </p>
 
           <div className="mt-4 flex justify-center gap-6 text-xs flex-wrap">

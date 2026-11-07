@@ -32,7 +32,7 @@ const page = {
           "items": [
             "The Executive Master of Business Administration (Executive MBA or EMBA) is a postgraduate business degree program designed for experienced professionals, managers, business leaders and entrepreneurs who want to improve their leadership and strategic management skills.",
             "**Executive MBA** programs generally include business strategy, finance, marketing, organizational leadership, innovation and decision-making. Many are geared to allow professionals to work while they earn their advanced education.",
-            "Edu Hawk Worldwide assists students in exploring international study options, comprehending university admission standards, comparing pathways like [MBA in the USA](/courses/mba) and [International Business](/courses/international-business), and [getting expert counselling](/contact). Check our [admission FAQs](#faq) and [top universities](#universities)."
+            "Edu Hawk Worldwide assists students in exploring international study options, comprehending university admission standards, comparing pathways like [MBA in the USA](/study-abroad/usa/mba) and [International Business](/study-abroad/usa/international-business), and [getting expert counselling](/contact). Check our [admission FAQs](#faq) and [top universities](#universities)."
           ]
         }
       ]
@@ -445,7 +445,7 @@ const Groups = ({ groups }) => (
 
 const ExecutiveMbaAbroad = () => {
   const location = useLocation();
-  const canonicalPath = location.pathname.includes("working-professionals") ? "/study-abroad/working-professionals" : "/courses/executive-mba";
+  const canonicalPath = location.pathname.includes("working-professionals") ? "/study-abroad/working-professionals" : "/study-abroad/usa/executive-mba";
   const [openFaq, setOpenFaq] = useState(null);
   const pageRef = useRef(null);
   const toggleFaq = (i) => setOpenFaq(openFaq === i ? null : i);
@@ -615,7 +615,7 @@ const ExecutiveMbaAbroad = () => {
                   sizes="100vw"
                 />
               <div className="absolute bottom-5 left-5 bg-white/15 backdrop-blur-md px-4 py-2.5 rounded-xl text-sm font-medium">
-                Trusted by 400+ Indian students
+                Trusted by 1000+ Indian students
               </div>
             </div>
           </div>

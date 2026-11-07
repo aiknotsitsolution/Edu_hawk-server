@@ -1194,7 +1194,7 @@ export const EhpHero = ({
 
 
 
-            Trusted by 400+ Indian students
+            Trusted by 1000+ Indian students
 
 
 
@@ -5381,7 +5381,7 @@ export const AbroadCoursePage = ({
 
 
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
 
 
 

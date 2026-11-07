@@ -178,7 +178,7 @@ const PublicHealthAbroad = () => {
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />
               <div className="absolute bottom-5 left-5 bg-white/15 backdrop-blur-md px-4 py-2.5 rounded-xl text-sm font-medium">
-                Trusted by 400+ Indian students
+                Trusted by 1000+ Indian students
               </div>
             </div>
           </div>

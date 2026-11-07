@@ -1,0 +1,61 @@
+{
+  "seo": {
+    "title": "Bachelor",
+    "description": "Study Bachelor"
+  },
+  "hero": {
+    "badge": "Study Abroad - Finland",
+    "title": "Bachelor",
+    "subtitle": "Study **Bachelor",
+    "ctaText": "Book Free Counselling",
+    "image": ""
+  },
+  "stats": [
+    {
+      "n": "1000+",
+      "l": "Students Placed Globally"
+    },
+    {
+      "n": "20+",
+      "l": "Countries"
+    },
+    {
+      "n": "200+",
+      "l": "Partner Universities"
+    },
+    {
+      "n": "100%",
+      "l": "Support (Visa & End-to-End Guidance)"
+    }
+  ],
+  "highlights": {
+    "degree": "Bachelor of Engineering (B.Eng) / B.Sc. Tech",
+    "duration": "3.5 to 4 Years (210–240 ECTS)",
+    "fee": "€10,000 – €16,000 / Year",
+    "eligibility": "Recognised academic qualification + English proficiency",
+    "medium": "100% English Taught"
+  },
+  "overview": "Studying Undergraduate Engineering (UG Hub) in Finland offers Indian students access to world-renowned Nordic education, innovative practical research, English-taught programmes, and excellent European career pathways.",
+  "universities": [
+    {
+      "name": "Top University in Finland",
+      "location": "Finland",
+      "fee": "€10,000 – €16,000 / Year",
+      "image": ""
+    }
+  ],
+  "faq": [
+    {
+      "question": "Which are the top universities for Engineering in Finland?",
+      "answer": "Aalto University, Tampere University, LUT University, Metropolia UAS, HAMK, and VAMK are among Finland"
+    },
+    {
+      "question": "Is IELTS mandatory to study Engineering in Finland?",
+      "answer": "Not always. While research universities commonly require IELTS Academic (min 6.0–6.5), many Universities of Applied Sciences evaluate English proficiency directly through the International UAS Online Joint Entrance Exam."
+    },
+    {
+      "question": "Can I work in Finland during and after my Engineering degree?",
+      "answer": "Yes. International students can work up to 30 hours per week during term time and full-time during holidays. After graduation, students can apply for a two-year post-study residence permit to work as engineers in Finland."
+    }
+  ]
+}

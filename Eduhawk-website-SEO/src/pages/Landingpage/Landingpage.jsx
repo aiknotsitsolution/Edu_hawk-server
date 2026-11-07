@@ -817,10 +817,26 @@ export default function Landingpage() {
           <div className="flex flex-wrap justify-center gap-8 md:gap-16 mb-12">
             <div className="text-center">
               <div className="text-4xl md:text-5xl font-bold text-yellow-400">
-                400+
+                1000+
               </div>
               <div className="text-sm md:text-base mt-1 opacity-90">
-                Students Placed
+                Students Placed Globally
+              </div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl md:text-5xl font-bold text-yellow-400">
+                20+
+              </div>
+              <div className="text-sm md:text-base mt-1 opacity-90">
+                Countries
+              </div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl md:text-5xl font-bold text-yellow-400">
+                200+
+              </div>
+              <div className="text-sm md:text-base mt-1 opacity-90">
+                Partner Universities
               </div>
             </div>
             <div className="text-center">
@@ -828,14 +844,8 @@ export default function Landingpage() {
                 100%
               </div>
               <div className="text-sm md:text-base mt-1 opacity-90">
-                Visa Support
+                Visa & End-to-End Guidance
               </div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-yellow-400">
-                10+
-              </div>
-              <div className="text-sm md:text-base mt-1 opacity-90">Countries</div>
             </div>
           </div>
 

@@ -425,7 +425,7 @@ const PublicHealth = () => {
       <SeoHead
         title="Study Public Health in USA for Indian Students | Edu Hawk"
         description="Explore public health courses in the USA for Indian students — bachelor’s to MPH and doctoral degrees in epidemiology, health policy and biostatistics."
-        path="/courses/public-health"
+        path="/study-abroad/usa/public-health"
         ogType="website"
       />
       <style>{`
@@ -578,7 +578,7 @@ const PublicHealth = () => {
                   sizes="100vw"
                 />
               <div className="absolute bottom-5 left-5 bg-white/15 backdrop-blur-md px-4 py-2.5 rounded-xl text-sm font-medium">
-                Trusted by 400+ Indian students
+                Trusted by 1000+ Indian students
               </div>
             </div>
           </div>

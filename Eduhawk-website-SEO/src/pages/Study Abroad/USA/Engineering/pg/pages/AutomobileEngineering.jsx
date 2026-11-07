@@ -64,7 +64,7 @@ const branch = {
     "Lightweight Materials and Vehicle Structures",
   ],
   coursesNote: [
-    "Common specialisations include: advanced engineering design, computational methods, and system modeling. Students also compare related postgraduate programs such as [MS in Mechanical Engineering](/courses/pg/mechanical-engineering) and [MS in Aerospace Engineering](/courses/pg/aerospace-engineering), or review [Undergraduate Automobile Engineering](/courses/ug/automobile-engineering).",
+    "Common specialisations include: advanced engineering design, computational methods, and system modeling. Students also compare related postgraduate programs such as [MS in Mechanical Engineering](/study-abroad/usa/pg/mechanical-engineering) and [MS in Aerospace Engineering](/study-abroad/usa/pg/aerospace-engineering), or review [Undergraduate Automobile Engineering](/study-abroad/usa/ug/automobile-engineering).",
   ],
 
   duration: [
@@ -248,7 +248,7 @@ const PostgraduateAutomobileEngineering = () => (
     level="PG"
     heroImg={heroImg}
     imgDims={imgDims}
-    seoPath="/courses/pg/automobile-engineering"
+    seoPath="/study-abroad/usa/pg/automobile-engineering"
     heroAlt={heroAlt}
     coursesTitle={coursesTitle}
     unisTitle={unisTitle}

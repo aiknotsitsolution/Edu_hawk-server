@@ -50,12 +50,12 @@ const branch = {
   ],
   courses: [],
   coursesNote: [
-    "Students also compare related programs such as [Mechanical Engineering in the USA](/courses/ug/mechanical-engineering) and [Automobile Engineering](/courses/ug/automobile-engineering), or explore advanced [Postgraduate MS in Aerospace Engineering](/courses/pg/aerospace-engineering).",
+    "Students also compare related programs such as [Mechanical Engineering in the USA](/study-abroad/usa/ug/mechanical-engineering) and [Automobile Engineering](/study-abroad/usa/ug/automobile-engineering), or explore advanced [Postgraduate MS in Aerospace Engineering](/study-abroad/usa/pg/aerospace-engineering).",
   ],
 
   duration: [
     "Completion of an undergraduate Aerospace Engineering degree in the **United States** ordinarily necessitates **four years** of academic study. The curriculum typically incorporates mathematics, physics, engineering mechanics, aerodynamics, propulsion systems, flight mechanics, aerospace structures, control systems, and spacecraft fundamentals. Students customarily participate in experimental laboratory work, aircraft or spacecraft design projects, academic research activities, and professional internship experiences.",
-    "With Edu Hawk Worldwide guidance, students can explore [Undergraduate Engineering in the USA](/courses/ug/engineering) and [book free counselling](/contact) to shortlist universities according to their qualifications and career goals.",
+    "With Edu Hawk Worldwide guidance, students can explore [Undergraduate Engineering in the USA](/study-abroad/usa/ug/engineering) and [book free counselling](/contact) to shortlist universities according to their qualifications and career goals.",
   ],
 
   eligibilityLead: [
@@ -226,7 +226,7 @@ const AerospaceEngineeringUG = () => (
     level="UG"
     heroImg={heroImg}
     imgDims={imgDims}
-    seoPath="/courses/ug/aerospace-engineering"
+    seoPath="/study-abroad/usa/ug/aerospace-engineering"
     heroAlt={heroAlt}
     coursesTitle={coursesTitle}
     unisTitle={unisTitle}

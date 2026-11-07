@@ -1,0 +1,75 @@
+{
+  "seo": {
+    "title": "Study Computer Science in USA for Indian Students | Edu-Hawk Worldwide",
+    "description": "Study Computer Science in the USA: Top universities like MIT, Stanford, CMU, UC Berkeley. Explore undergraduate, master's (MS), PhD courses, tuition fees, eligibility, and F-1 visa guide."
+  },
+  "hero": {
+    "badge": "Tech, Business & More",
+    "title": "Study Computer Science in the United States",
+    "subtitle": "The United States' cutting-edge technology ecosystem, internationally renowned universities, research facilities, and industry-focused education make it a popular choice for international students.",
+    "ctaText": "Book Free Counselling",
+    "image": ""
+  },
+  "stats": [
+    {
+      "n": "1000+",
+      "l": "Students Placed Globally"
+    },
+    {
+      "n": "20+",
+      "l": "Countries"
+    },
+    {
+      "n": "200+",
+      "l": "Partner Universities"
+    },
+    {
+      "n": "100%",
+      "l": "Support (Visa & End-to-End Guidance)"
+    }
+  ],
+  "highlights": {
+    "degree": "B.S. / M.S. / Ph.D. in Computer Science",
+    "duration": "4 Yrs (UG) / 1–2 Yrs (MS) / 4–6 Yrs (PhD)",
+    "fee": "$20,000 – $60,000 / Year",
+    "eligibility": "Class 12 PCM (UG) / Relevant Bachelor's (MS)",
+    "medium": "English"
+  },
+  "overview": "The United States represents a preeminent destination for scholars studying computer science distinguished by its sophisticated technological infrastructure, abundant research prospects, and industry-aligned pedagogical frameworks.",
+  "universities": [
+    {
+      "name": "Massachusetts Institute of Technology (MIT)",
+      "location": "Cambridge, MA",
+      "fee": "$55,000 / Year",
+      "image": ""
+    },
+    {
+      "name": "Stanford University",
+      "location": "Stanford, CA",
+      "fee": "$56,000 / Year",
+      "image": ""
+    },
+    {
+      "name": "Carnegie Mellon University",
+      "location": "Pittsburgh, PA",
+      "fee": "$58,000 / Year",
+      "image": ""
+    },
+    {
+      "name": "University of California, Berkeley",
+      "location": "Berkeley, CA",
+      "fee": "$44,000 / Year",
+      "image": ""
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can Indian students who have completed their Class 12 education pursue undergraduate studies in computer science in the United States?",
+      "answer": "Yes, after completing Class 12 or an equivalent degree, Indian students can apply to undergraduate computer science degree programs."
+    },
+    {
+      "question": "How long does it usually take to earn a degree in computer science in the US?",
+      "answer": "A master's degree usually involves one to two years of coursework and research, while an undergraduate bachelor's degree normally requires four years."
+    }
+  ]
+}

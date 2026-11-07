@@ -20,7 +20,7 @@ const page = {
     "The **United States** offers **Indian students** a range of undergraduate, postgraduate, doctoral and specialized legal education options, for those interested in pursuing a career in legal practice, corporate law, international relations, compliance, policy research or academia."
   ],
   "overview": [
-    "Edu Hawk Worldwide assists students in exploring international study options, comprehending university admission standards, comparing pathways like [International Business](/courses/international-business) and [Study Abroad](/study-abroad), and [getting expert counselling](/contact). Check our [admission FAQs](#faq) and [top universities](#universities)."
+    "Edu Hawk Worldwide assists students in exploring international study options, comprehending university admission standards, comparing pathways like [International Business](/study-abroad/usa/international-business) and [Study Abroad](/study-abroad), and [getting expert counselling](/contact). Check our [admission FAQs](#faq) and [top universities](#universities)."
   ],
   "level": "UG & PG",
   "crumb": "Courses",
@@ -607,7 +607,7 @@ const LawAbroad = () => (
     heroImg={heroImg}
     sideImg={sideImg}
     imgDims={imgDims}
-    seoPath="/courses/law"
+    seoPath="/study-abroad/usa/law"
   />
 );
 

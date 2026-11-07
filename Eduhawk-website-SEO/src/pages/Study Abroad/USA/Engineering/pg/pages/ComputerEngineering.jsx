@@ -53,7 +53,7 @@ const branch = {
     "Master of Science in Embedded Systems, where applicable",
   ],
   coursesNote: [
-    <>Programs frequently provide specializations in <strong>computer architecture</strong>, integrated circuits, <strong>embedded systems</strong>, robotics, <strong>hardware security</strong>, and intelligent computing. Degree nomenclature and curricular options differ across institutions. Students who prefer a related pathway often also compare{" "}<Link to="/courses/pg/electrical-engineering">postgraduate Electrical Engineering</Link>{" "}and{" "}<Link to="/courses/pg/electronics-communication">Electronics &amp; Communication Engineering</Link>{" "}in the USA.</>,
+    <>Programs frequently provide specializations in <strong>computer architecture</strong>, integrated circuits, <strong>embedded systems</strong>, robotics, <strong>hardware security</strong>, and intelligent computing. Degree nomenclature and curricular options differ across institutions. Students who prefer a related pathway often also compare{" "}<Link to="/study-abroad/usa/pg/electrical-engineering">postgraduate Electrical Engineering</Link>{" "}and{" "}<Link to="/study-abroad/usa/pg/electronics-communication">Electronics &amp; Communication Engineering</Link>{" "}in the USA.</>,
   ],
 
   duration: [
@@ -184,7 +184,7 @@ const branch = {
   visaSteps: [
     <>Investigate <strong>academic institutions</strong> and evaluate postgraduate <strong>Computer Engineering curricula</strong>.</>,
     <>Verify <strong>academic prerequisites</strong> and <strong>foundational subject requirements</strong>.</>,
-    <>Examine <strong>English-language proficiency</strong> standards and <strong>Graduate Record Examination (GRE)</strong> prerequisites. <Link to="/courses/pg/electrical-engineering">Learn about GRE requirements for Electrical Engineering</Link>.</>,
+    <>Examine <strong>English-language proficiency</strong> standards and <strong>Graduate Record Examination (GRE)</strong> prerequisites. <Link to="/study-abroad/usa/pg/electrical-engineering">Learn about GRE requirements for Electrical Engineering</Link>.</>,
     <>Assemble official <strong>transcripts</strong>, a comprehensive <strong>Statement of Purpose</strong>, academic <strong>recommendation letters</strong>, and a professional <strong>resume</strong>.</>,
     <>Submit completed applications in accordance with <strong>institutional deadlines</strong>.</>,
     <>Evaluate <strong>financial commitments</strong>, <strong>financial assistance</strong> options, and <strong>admissions decisions</strong>.</>,
@@ -239,7 +239,7 @@ const PostgraduateComputerEngineering = () => (
     level="PG"
     heroImg={heroImg}
     imgDims={imgDims}
-    seoPath="/courses/pg/computer-engineering"
+    seoPath="/study-abroad/usa/pg/computer-engineering"
     heroAlt={heroAlt}
     coursesTitle={coursesTitle}
     unisTitle={unisTitle}

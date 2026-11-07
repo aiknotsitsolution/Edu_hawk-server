@@ -245,7 +245,7 @@ const PostgraduateBiomedicalEngineering = () => (
     level="PG"
     heroImg={heroImg}
     imgDims={imgDims}
-    seoPath="/courses/pg/biomedical-engineering"
+    seoPath="/study-abroad/usa/pg/biomedical-engineering"
     heroAlt={heroAlt}
     coursesTitle={coursesTitle}
     unisTitle={unisTitle}

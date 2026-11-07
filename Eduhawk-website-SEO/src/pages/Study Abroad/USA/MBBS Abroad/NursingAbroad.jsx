@@ -399,7 +399,7 @@ const NursingAbroad = () => {
       <SeoHead
         title="Study Nursing Abroad for Indian Students | Edu Hawk"
         description="Nursing is one of the most in-demand professions worldwide. Edu Hawk helps you choose nursing courses abroad with clear costs and complete admission support."
-        path="/courses/nursing"
+        path="/study-abroad/usa/nursing"
         ogType="website"
       />
       <style>{`
@@ -557,7 +557,7 @@ const NursingAbroad = () => {
                   sizes="100vw"
                 />
               <div className="absolute bottom-5 left-5 bg-white/15 backdrop-blur-md px-4 py-2.5 rounded-xl text-sm font-medium">
-                Trusted by 400+ Indian students
+                Trusted by 1000+ Indian students
               </div>
             </div>
           </div>

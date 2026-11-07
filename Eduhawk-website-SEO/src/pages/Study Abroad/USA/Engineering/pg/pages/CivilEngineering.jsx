@@ -68,7 +68,7 @@ const branch = {
     "Construction Materials and Engineering",
   ],
   coursesNote: [
-    <>Common specialisations include: <strong>Structural Engineering</strong>, <strong>Geotechnical Engineering</strong>, <strong>Transportation Engineering</strong>, <strong>Environmental Engineering</strong>, and <strong>Construction Management</strong>. Students interested in infrastructure often also compare <Link to="/courses/pg/mechanical-engineering">postgraduate Mechanical Engineering</Link> in the USA.</>,
+    <>Common specialisations include: <strong>Structural Engineering</strong>, <strong>Geotechnical Engineering</strong>, <strong>Transportation Engineering</strong>, <strong>Environmental Engineering</strong>, and <strong>Construction Management</strong>. Students interested in infrastructure often also compare <Link to="/study-abroad/usa/pg/mechanical-engineering">postgraduate Mechanical Engineering</Link> in the USA.</>,
   ],
 
   duration: [
@@ -206,7 +206,7 @@ const branch = {
   visaSteps: [
     <>Examine educational institutions and identify an appropriate <strong>Civil Engineering</strong> concentration.</>,
     "Verify academic prerequisites and foundational subject requirements.",
-    <>Examine standardized examination benchmarks and <strong>English language proficiency</strong> standards. <Link to="/courses/pg/mechanical-engineering">Learn about Mechanical Engineering requirements</Link>.</>,
+    <>Examine standardized examination benchmarks and <strong>English language proficiency</strong> standards. <Link to="/study-abroad/usa/pg/mechanical-engineering">Learn about Mechanical Engineering requirements</Link>.</>,
     <>Assemble official academic records, a comprehensive <strong>Statement of Purpose</strong>, endorsements from academic referees, and professional documentation.</>,
     "Transmit completed applications in accordance with institutional deadlines.",
     "Analyze admission determinations, financial expenditures, and scholarship opportunities.",
@@ -259,7 +259,7 @@ const PostgraduateCivilEngineering = () => (
     level="PG"
     heroImg={heroImg}
     imgDims={imgDims}
-    seoPath="/courses/pg/civil-engineering"
+    seoPath="/study-abroad/usa/pg/civil-engineering"
     heroAlt={heroAlt}
     coursesTitle={coursesTitle}
     unisTitle={unisTitle}

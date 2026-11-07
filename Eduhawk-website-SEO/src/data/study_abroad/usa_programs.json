@@ -1,0 +1,25 @@
+{
+  "engineering": {
+    "title": "Engineering in the USA (STEM Designated)",
+    "ug_desc": "4-year ABET-accredited Bachelor of Science (B.S.) in Computer Science, Mechanical, Civil, Electrical, ECE, Chemical, Aerospace, and Biomedical Engineering.",
+    "pg_desc": "1-2 year Master of Science (M.S.) / Master of Engineering (M.Eng) programs offering cutting-edge research, teaching assistantships, and 3-year OPT work extension.",
+    "universities": [
+      "MIT",
+      "Stanford University",
+      "University of Texas at Austin",
+      "Purdue University",
+      "Georgia Tech"
+    ]
+  },
+  "business": {
+    "title": "Business & Management in the USA",
+    "programs": [
+      "Full-Time MBA",
+      "Executive MBA",
+      "BBA / BBS (Undergraduate)",
+      "MS in Business Analytics (STEM)",
+      "MS in Finance"
+    ],
+    "career_scope": "Top US business schools offer AACSB-accredited degrees with world-class faculty, Fortune 500 recruitment, and starting salaries exceeding $95,000+."
+  }
+}

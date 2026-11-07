@@ -1,0 +1,144 @@
+{
+  "seo": {
+    "title": "MBBS Abroad Consultancy in India | About EduHawk",
+    "description": "EduHawk is a leading MBBS abroad consultancy in India providing admission guidance, university selection, and visa assistance for Indian students."
+  },
+  "heroSlides": [
+    {
+      "id": 1,
+      "title": "Your Dream Medical Career Starts Here",
+      "subtitle": "Expert MBBS Abroad Counselling • NMC Recognized Universities • Transparent Process",
+      "cta": "Book Free Counselling",
+      "image": "/uploads/about/about-hero-1.webp"
+    },
+    {
+      "id": 2,
+      "title": "Study MBBS in Russia & Georgia",
+      "subtitle": "Top Universities • Affordable Fees • Complete End-to-End Support",
+      "cta": "Get Started Today",
+      "image": "/uploads/about/about-hero-1.webp"
+    },
+    {
+      "id": 3,
+      "title": "Admission Made Simple & Secure",
+      "subtitle": "No Hidden Charges • Personalized Guidance • 1000+ Happy Students",
+      "cta": "Free Consultation Now",
+      "image": "/uploads/about/about-hero-3.webp"
+    }
+  ],
+  "stats": [
+    {
+      "n": "1000+",
+      "l": "Students Placed Globally"
+    },
+    {
+      "n": "20+",
+      "l": "Countries"
+    },
+    {
+      "n": "200+",
+      "l": "Partner Universities"
+    },
+    {
+      "n": "100%",
+      "l": "Visa & End-to-End Guidance"
+    }
+  ],
+  "welcome": {
+    "image": "/uploads/about/about-us-page.webp",
+    "p2": "We’re here to guide you through every decision — big or small — on the path to college success and the right global career opportunities.",
+    "p3": "Together, we turn the challenge of admissions into an opportunity for growth, learning, and success.",
+    "badge": "EDU HAWK – Where Innovation Meets Excellence",
+    "p1_link_text": "study MBBS abroad.",
+    "subtitle": "Where innovation meets excellence in overseas medical education.",
+    "title": "Welcome to EDU HAWK",
+    "quote": "\"Where Dreams Take Flight – College Counselling Done Right\"",
+    "ctaText": "Join Us Today →",
+    "p1_before": "At Eduhawk, we understand the complex world of college admissions and the challenges students and families face. Our mission is to simplify this journey through personalized guidance, trusted support, and expert counseling for students planning to"
+  },
+  "banner": {
+    "backgroundImage": "/uploads/about/fixed-banner.webp",
+    "title": "Start Your Global Journey Today ",
+    "subtitle": "Free profile evaluation • No-obligation consultation",
+    "ctaText": "Talk to an Expert →",
+    "whatsappPhone": "919630736070"
+  },
+  "countries": [
+    {
+      "name": "Russia",
+      "flag": "🇷🇺",
+      "seats": "600+ seats",
+      "fee": "₹20-30L total"
+    },
+    {
+      "name": "Georgia",
+      "flag": "🇬🇪",
+      "seats": "200+ seats",
+      "fee": "₹25-35L total"
+    },
+    {
+      "name": "Uzbekistan",
+      "flag": "🇺🇿",
+      "seats": "400+ seats",
+      "fee": "₹18-28L total"
+    },
+    {
+      "name": "Kazakhstan",
+      "flag": "🇰🇿",
+      "seats": "300+ seats",
+      "fee": "₹22-32L total"
+    },
+    {
+      "name": "Kyrgyzstan",
+      "flag": "🇰🇬",
+      "seats": "250+ seats",
+      "fee": "₹15-25L total"
+    },
+    {
+      "name": "Nepal",
+      "flag": "🇳🇵",
+      "seats": "150+ seats",
+      "fee": "₹35-50L total"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Priya Sharma",
+      "loc": "Delhi → Russia",
+      "text": "Edu-Hawk guided me every step of the way. No hidden charges, clear advice. Got into a top NMC-recognized university in Russia!",
+      "stars": 5
+    },
+    {
+      "name": "Rahul Verma",
+      "loc": "Mumbai → Georgia",
+      "text": "The counsellors were transparent and genuinely cared about my future. Best decision to trust Edu-Hawk for my MBBS abroad journey.",
+      "stars": 5
+    },
+    {
+      "name": "Ananya Patel",
+      "loc": "Ahmedabad → Kazakhstan",
+      "text": "From application to post-arrival, they supported me fully. I feel confident about my FMGE preparation with their guidance.",
+      "stars": 5
+    }
+  ],
+  "faq": {
+    "sidebarImage": "/uploads/about-service.webp",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Quick answers to the most common questions about MBBS abroad with EDU HAWK",
+    "sidebarHeading": "Where Dreams Take Flight:\nCollege Counseling Done Right",
+    "items": [
+      {
+        "question": "Is MBBS abroad from these countries valid in India?",
+        "answer": "Yes, all universities we recommend are NMC (National Medical Commission) recognized. After completing MBBS, students can appear for the FMGE/NEXT exam to practice in India."
+      },
+      {
+        "question": "What is the total cost of MBBS abroad?",
+        "answer": "The total cost (including tuition, hostel, food & miscellaneous) usually ranges between ₹15 Lakh to ₹50 Lakh depending on the country and university. We provide complete transparent fee breakdowns."
+      },
+      {
+        "question": "How long does the admission process take?",
+        "answer": "The entire process usually takes 2–6 months depending on the country, university, and how early you start. We recommend starting as early as possible after NEET results."
+      }
+    ]
+  }
+}

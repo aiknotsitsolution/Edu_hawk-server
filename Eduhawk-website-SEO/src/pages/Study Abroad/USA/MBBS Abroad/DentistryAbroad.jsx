@@ -303,7 +303,7 @@ const DentistryAbroad = () =>
       <SeoHead
         title="Study Dentistry Abroad for Indian Students | Edu Hawk"
         description="Planning to study dentistry abroad? EduHawk shortlists NMC-recognised universities for BDS, explains real costs and guides you through admission and visas."
-        path="/courses/dentistry"
+        path="/study-abroad/usa/dentistry"
         ogType="website"
       />
       <style>{`
@@ -523,7 +523,7 @@ const DentistryAbroad = () =>
                   sizes="100vw"
                 />
               <div className="absolute bottom-5 left-5 bg-white/15 backdrop-blur-md px-4 py-2.5 rounded-xl text-sm font-medium border border-white/20">
-                Trusted by 400+ Indian students
+                Trusted by 1000+ Indian students
               </div>
             </div>
           </div>

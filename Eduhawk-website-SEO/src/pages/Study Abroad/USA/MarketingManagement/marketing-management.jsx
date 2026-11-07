@@ -32,7 +32,7 @@ const page = {
             "Marketing Management is a business discipline that deals with the understanding of customer needs, formulation of marketing strategy, brand building and promotion of product or service. It blends creativity, market research, consumer psychology, data analysis, communication and business strategy.",
             "Students studying Marketing Management in the USA can explore traditional marketing as well as digital marketing, brand management, advertising, marketing analytics and international marketing.",
             "Students can choose undergraduate, postgraduate, doctorate or certificate courses in marketing, depending on their academic qualification and career goals.",
-            "Edu Hawk Worldwide assists students in exploring international study options, comprehending university admission standards, comparing pathways like [Business Management](/courses/business-management) and [MBA in Marketing](/courses/mba), and [getting expert counselling](/contact). Check our [admission FAQs](#faq) and [top universities](#universities)."
+            "Edu Hawk Worldwide assists students in exploring international study options, comprehending university admission standards, comparing pathways like [Business Management](/study-abroad/usa/business-management) and [MBA in Marketing](/study-abroad/usa/mba), and [getting expert counselling](/contact). Check our [admission FAQs](#faq) and [top universities](#universities)."
           ]
         }
       ]
@@ -568,7 +568,7 @@ const MarketingManagementAbroad = () => {
       <SeoHead
         title={page.title}
         description={page.description}
-        path="/courses/marketing-management"
+        path="/study-abroad/usa/marketing-management"
       >
         {page.faqs.length > 0 && (
           <script type="application/ld+json">
@@ -702,7 +702,7 @@ const MarketingManagementAbroad = () => {
                   sizes="100vw"
                 />
               <div className="absolute bottom-5 left-5 bg-white/15 backdrop-blur-md px-4 py-2.5 rounded-xl text-sm font-medium">
-                Trusted by 400+ Indian students
+                Trusted by 1000+ Indian students
               </div>
             </div>
           </div>

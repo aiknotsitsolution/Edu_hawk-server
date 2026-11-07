@@ -41,7 +41,7 @@ const page = {
         {
           t: "p",
           items: [
-            "**[Study Dentistry in Finland](/courses/dentistry)** to experience a highly developed education system that focuses on **practical training**, research, **modern dental technology**, and patient-centred healthcare. Finland is an attractive destination for students interested in building a **career in dentistry** and gaining exposure to **[European healthcare practices](/study-abroad)**.",
+            "**[Study Dentistry in Finland](/study-abroad/finland/dentistry)** to experience a highly developed education system that focuses on **practical training**, research, **modern dental technology**, and patient-centred healthcare. Finland is an attractive destination for students interested in building a **career in dentistry** and gaining exposure to **[European healthcare practices](/study-abroad)**.",
             "For Indian students, understanding the **eligibility criteria**, **language requirements**, **admission process**, and **cost of education** is essential before choosing this destination. **Dentistry in Finland for Indian students** offers an opportunity to explore professional dental education in a country known for its emphasis on **evidence-based dentistry** and **preventive oral healthcare**.",
             "Finnish dental education combines **theoretical knowledge**, **simulation-based learning**, and **clinical patient training**. At the **University of Oulu**, for example, students progress from foundational studies to clinical training and practical work in dental healthcare settings.",
             "**Benefits of Studying Dentistry in Finland**"

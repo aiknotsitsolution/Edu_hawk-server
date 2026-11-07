@@ -30,6 +30,9 @@ branch — what was done, why, and the measured impact.
 | 13. Canonical host & tags | Complete canonical audit & fix: 100% routes with self-referencing absolute HTTPS URLs | ✅ Done |
 | 14. CSS optimization | Build-breaking regression found and **fixed** | ✅ Fixed |
 | 15. Production Build & 404 Architecture | Default build pipelining, sitemap sync (71 routes), static 404.html & Vercel edge routing | ✅ Done |
+| 16. Dynamic Content & Git-based CMS | Decap CMS integration, data decoupling (JSON layer), /admin panel & CSP update | ✅ Done |
+| 17. Study Abroad Finland Overhaul | 40 course pages created, 13 verified verbatim from doc, CoursePageKit layouts, image optimization, dynamic binding prep | ✅ 40 Created (13 Verified) |
+| 18. USA Tech Courses (CS & IT) | 2 new USA pages added verbatim from doc (Computer Science & Information Technology), Navbar links, routes, sitemap, prerender & CMS cards | ✅ Complete |
 
 ---
 
@@ -415,6 +418,181 @@ The site carried three icon libraries (`react-icons`, `lucide-react`,
 
 ---
 
+## 16. Dynamic Content Layer & Git-based Headless CMS (Decap CMS) — ✅ Implemented & Verified
+
+- **Problem Solved**:
+  - Website content previously lived hardcoded inside JSX components. Updating content (e.g. fees, testimonials, contact details, titles) required touching React JSX files, introducing risk of breaking DOM structure and necessitating manual developer involvement for routine copy edits.
+  - Per management requirement: No full-stack custom admin panel / SQL database overhead to maintain, yet content must be dynamic, editable via a friendly web UI, and published in a single automated deployment.
+
+- **Data Layer Architecture (`src/data/about.json`)**:
+  - Extracted all copy and configuration from `About.jsx` into a modular, decoupled JSON structure at `Eduhawk-website-SEO/src/data/about.json`.
+  - Structured into logical sub-trees: `seo` (title, meta description), `heroSlides` (carousel copy, CTAs, IDs), `stats` (metrics bar), `welcome` (headings, body paragraphs, CTAs, quotes), `banner` (evaluation CTA with WhatsApp link), `countries` (flags, seats, fee structures), `testimonials` (ratings, reviews, locations), and `faq` (questions, answers, sidebar tagline).
+
+- **Component Dynamic Binding (`About.jsx`)**:
+  - Refactored `About.jsx` to dynamically consume data from `src/data/about.json`.
+  - Preserved 100% of the original CSS classes, layout grid, typography, animations, lazy loading, responsive `srcSet`, and hydration hooks.
+  - Retained local hero WebP assets mapped to slides with `fetchPriority="high"`.
+
+- **Decap CMS Client Integration & Collection Architecture (`public/admin/`)**:
+  - `public/admin/index.html`: Lightweight client-side Single Page Application (SPA) loading Decap CMS script via CDN.
+  - `public/admin/config.yml`: Completely restructured into individual, unbundled page cards per management directive (avoiding lumped cards) across 7 distinct collections:
+    1. **Main Pages**: Home Page (`home.json`), About Page (`about.json`), Services Page (`services.json`), Contact Us Page (`contact.json`), Landing Page (`landingpage.json`).
+    2. **Medical Colleges (MBBS)**: Individual cards for 17 destinations (MBBS India, MBBS Abroad Overview, Russia, Bangladesh, Nepal, Italy, Kazakhstan, Kyrgyzstan, Uzbekistan, Tajikistan, Egypt, Georgia, Vietnam, Armenia, Belarus, China, Iran).
+    3. **Study Abroad - USA**: 38+ individual page cards:
+       - *MBBS Abroad:* Dentistry, Nursing, Pharmacy, Physiotherapy, Public Health, Biotechnology.
+       - *Tech & Engineering (UG):* Engineering Hub, UG Hub, Computer Engineering, Mechanical, Civil, Electrical, ECE, Chemical, Aerospace, Biomedical, Automobile.
+       - *Tech & Engineering (PG):* PG Hub, Computer Engineering (MS), Mechanical, Civil, Electrical, ECE, Chemical, Aerospace, Biomedical, Automobile.
+       - *Business & Management:* Business Management Hub, MBA, Executive MBA, BBA, BBS, International Business, Marketing Management, Accounting & Finance, Hospitality Management, Architecture, Law.
+       - *Immersion Programs:* Language Courses, Summer Courses, Winter Courses, Working Professionals.
+    4. **Study Abroad - Finland**: Individual course cards for Finland medical and tech/business programs.
+    5. **Programs News & Updates (Common)**: Dynamic folder collection (`src/data/news/`) shared across all countries.
+    6. **Tests & Online Exams (Common)**: Pre-seeded folder collection (`src/data/common/tests/`) for 13 exam cards (IELTS, TOEFL, PTE, Duolingo, DELF, Goethe, SAT, GRE, GMAT, NEET, FMGE, USMLE, Which Test Do I Need) + `+ Add New Test`.
+    7. **Our Blog Articles**: Dynamic article authoring collection (`src/data/blogs/`).
+  - **Media Partitioning**: Media folders explicitly partitioned on disk into `public/uploads/{home,about,colleges,study_abroad/usa,study_abroad/finland,news,tests,blogs}` so page uploads go directly into dedicated folders without cluttering the global media library.
+  - **Label Cleanliness**: Pure UTF-8 text labels applied to collections and cards, resolving Windows/browser mangled emoji letter glitches ("us", "FT").
+
+- **Local Proxy & Development Scripts**:
+  - Installed `decap-server` devDependency to proxy file-system writes during local development.
+  - Added `"cms": "decap-server"` script to `package.json`. Developers can run `npm run cms` alongside `npm run dev` and immediately test content updates at `http://localhost:5173/admin/` without requiring GitHub OAuth credentials.
+
+- **Security & CSP Alignment (`vercel.json`)**:
+  - Content-Security-Policy in `vercel.json` updated:
+    - `script-src` & `style-src`: Added `https://unpkg.com` for Decap CMS UI assets.
+    - `connect-src`: Added `https://unpkg.com` and `https://api.github.com` so production Decap CMS can communicate with GitHub APIs to push content commits without CSP violation errors.
+
+- **Home Page Decoupling & CMS Collection (`src/data/home.json`)**:
+  - Extracted all Home Page copy, countries, carousel slides, FAQ, testimonials, and MBBS options into `src/data/home.json`.
+  - Refactored `HeroSection.jsx` to dynamically consume `src/data/home.json`.
+  - Added "Home Page" collection to `public/admin/config.yml` with full widget mapping (slides, stats, countries, packages, FAQs).
+
+- **Site-wide Statistics Unification**:
+  - Replaced legacy disparate numbers across the entire codebase with verified unified numbers:
+    - **1000+** Students Placed Globally
+    - **20+** Countries
+    - **200+** Partner Universities
+    - **100%** Support (Visa & End-to-End Guidance)
+  - Synchronized across `HeroSection.jsx`, `Landingpage.jsx`, `about.json`, `Footer.jsx`, `CoursePageKit.jsx`, and 17+ course pages.
+
+- **Master Grouped CMS Architecture & Per-Section Media Organization**:
+  - `config.yml` modularized into distinct, dedicated collections matching the mega-menu:
+    1. `📄 Main Pages`: Home Page, About Page.
+    2. `🇺🇸 Study Abroad - USA`: MBBS 6 programs (Dentistry, Nursing, Pharmacy, Physiotherapy, Public Health, Biotechnology) + Tech (Engineering UG/PG) + Business Management.
+    3. `🇫🇮 Study Abroad - Finland`: MBBS & Health programs + Tech/Business.
+    4. `📰 Programs News & Updates (Common)`: Dynamic news creation collection with markdown body, category tags, and publish dates.
+    5. `📝 Tests & Online Exams (Common)`: Dynamic exam catalog (IELTS, TOEFL, GRE, GMAT, SAT, NEET, FMGE) with scores, formats, fees, and syllabus.
+    6. `✍️ Our Blog Articles`: Dynamic blog article authoring.
+  - Upload directories partitioned into subfolders (`public/uploads/{home,about,news,tests,study_abroad/usa,study_abroad/finland,blogs}`) to eliminate media clutter.
+
+- **Production Prerendering & Build Verification**:
+  - Full production build pipeline run: `generate-sitemap` + `vite build` + `prerender.mjs`.
+  - Verified static output: **112 pages successfully prerendered with 0 errors**.
+  - Confirmed `/admin/index.html` and `/admin/config.yml` copy cleanly into `dist/admin/`.
+
+- **Documentation & Workflow Guide**:
+  - Detailed architecture guide and step-by-step checklist maintained in [`Eduhawk-website-SEO/docs/setup-plan-dcap-cms.md`](./setup-plan-dcap-cms.md).
+  - High-resolution visual architecture diagram stored in [`Eduhawk-website-SEO/docs/images/decap-cms-workflow.jpg`](./images/decap-cms-workflow.jpg).
+
+---
+
+## 17. Study Abroad Finland Architecture & Course Pages — 40 Pages Created (13 Verified & Shipped)
+
+- **Scale of Implementation**:
+  - Created **40 dedicated study abroad course pages** for Finland across Business & Management, Specialized fields, Engineering PG, Engineering UG, and Allied Healthcare.
+  - Filled comprehensive curriculum and course content across remaining pages.
+  - Planned architecture and component structure for upcoming dynamic data binding.
+
+- **13 Pages Fully Audited & Shipped (100% Verbatim Google Doc Match)**:
+  1. **Language Courses in Finland** (`/study-abroad/finland/language-courses`): 4 WebP assets, 0 unused.
+  2. **Law in Finland** (`/study-abroad/finland/law`): 7 WebP assets, 0 unused, €1 ≈ ₹105 exchange rate noted.
+  3. **Architecture in Finland** (`/study-abroad/finland/architecture`): 6 WebP assets, 0 unused, Aalto Töölö campus photo note.
+  4. **Hospitality Management in Finland** (`/study-abroad/finland/hospitality-management`): 8 WebP assets, 0 unused, Jamk 16:9 campus image.
+  5. **International Business in Finland** (`/study-abroad/finland/international-business`): 9 WebP assets, 0 unused, HAMK 20% scholarship.
+  6. **Executive MBA in Finland** (`/study-abroad/finland/executive-mba`): 7 WebP assets, 0 unused, clean headings & steps.
+  7. **BBS in Finland** (`/study-abroad/finland/bbs`): 6 WebP assets, 0 unused, cloned BBA text verbatim from doc.
+  8. **BBA in Finland** (`/study-abroad/finland/bba`): 6 WebP assets, 0 unused, Alternating Split UI, wave paper art on Card 2, `{ 01 }`/`{ 02 }` tags removed.
+  9. **Master of Business Studies (MBS)** (`/study-abroad/finland/mbs`): 8 WebP assets, 0 unused, Alternating Split UI (4 universities: Aalto, Oulu, Vaasa, LUT), 91/91 audit checks passed.
+  10. **MBA in Finland** (`/study-abroad/finland/mba`): 9 WebP assets, 0 unused, Alternating Split UI (5 universities: Hanken, Aalto, Haaga-Helia, Turku UAS, JAMK), 92/92 audit checks passed.
+  11. **Business Management in Finland** (`/study-abroad/finland/business-management`): 9 WebP assets, 0 unused, Alternating Split UI (5 universities), 101/101 audit checks passed.
+  12. **Master’s in Computer Engineering in Finland** (`/study-abroad/finland/pg/computer-engineering`): 8 WebP assets, 0 unused, Alternating Split UI (4 universities: Åbo Akademi, Oulu, Aalto, Turku), 79/79 audit checks passed.
+  13. **Master’s in Mechanical Engineering in Finland** (`/study-abroad/finland/pg/mechanical-engineering`): 4 WebP assets, 0 unused (raw university images safely removed per user instruction), Card-only UI with DevFest-style paper art on Card 2, 178/178 audit checks passed.
+
+- **Component & UI Enhancements (`CoursePageKit.jsx`)**:
+  - **Alternating Split Showcase UI**: Left-right alternating university campus showcases with official website external link buttons.
+  - **Card-Only University Showcase**: When Google Doc does not provide campus photos, renders clean, full-width university cards without broken image containers.
+  - **Decorative Paper Art Patterns**: Subtle SVG paper art corner patterns applied to selected cards (e.g. Card 2 in BBA and Mechanical PG).
+  - **StepTimeline Numbering**: Automatic circle badges 1..10 without duplicate text prefixes (`1. `).
+  - **Numbering & Heading Verification**: Complete removal of bracket tags (`{ 01 }`, `{ 02 }`) and section heading numbers (`1. `, `2. `).
+
+- **Asset Optimization Across All Directories**:
+  - All raw PNGs and JPGs converted to optimized WebP.
+  - Leftover and unused image files removed so that each completed course folder maintains **0 unused assets**.
+
+- **Routing, Sitemap & Documentation**:
+  - Study Abroad routes cleanly organized under `/study-abroad/usa/*` and `/study-abroad/finland/*` with 301 permanent redirects.
+  - Pre-rendering pipeline (`prerender.mjs`), sitemap generator (`generate-sitemap.cjs`), and `public/sitemap.xml` fully synchronized.
+  - Detailed discrepancies, exchange rate differences (€1 ≈ ₹105 vs ₹108.60), and content anomalies logged in [`Eduhawk-website-SEO/docs/incorrect-content.md`](./incorrect-content.md).
+
+---
+
+## 18. USA Computer Science & Information Technology Course Pages — ✅ Implemented & Verified
+
+- **User Directive**:
+  - Add 2 new pages to USA under `Tech, Business & More` right under `Engineering`:
+    1. **Computer Science**
+    2. **Information Technology**
+  - Content sourced directly from Google Doc tabs (`finlandusa.html` and downloaded images at `E:\Downloads-pro\USA`).
+- **Verbatim Content Preservation (Rule 1 & 2)**:
+  - Both course pages implement `AbroadCoursePage` from `CoursePageKit.jsx`.
+  - Introductory Paragraph 1 isolated in `heroParas`, subsequent overview copy in `overview`.
+  - All specializations (UG, MS, PhD), duration breakdown, eligibility criteria for Indian students, language requirements (IELTS, TOEFL, PTE, Duolingo), standardized testing (SAT, ACT, GRE, SOP, LOR), tuition & living cost tables, scholarships, career pathways (15+ roles), 9-step visa & application workflow, Edu-Hawk Global Pathway CTA Card, and 6 FAQs rendered 100% verbatim from the master document.
+- **Image Optimization & Assets (Rule 3)**:
+  - Stored under `src/Images/Abroad/USA/ComputerScience/` and `src/Images/Abroad/USA/InformationTechnology/`.
+  - University images converted from raw PNGs to modern, fast-loading `.webp` (MIT, Stanford, CMU, UC Berkeley, Georgia Tech).
+  - High-res discipline hero images, dark atmospheric hero backgrounds, overview laboratory/workstation photos, and textured dark CTA banners linked.
+- **Navbar & Routing (Rule 5)**:
+  - Desktop mega-menu updated under `Tech, Business & More`:
+    - Engineering
+    - **Computer Science** (`/courses/computer-science` / `/study-abroad/usa/computer-science`)
+    - **Information Technology** (`/courses/information-technology` / `/study-abroad/usa/information-technology`)
+    - Business Management ...
+  - Mobile responsive drawer updated with direct navigation links.
+  - Lazy routes registered in `routes.jsx`, dynamic route mapping in `generate-sitemap.cjs`, and prerender paths added to `prerender.mjs`.
+- **Decap CMS Integration**:
+  - Added individual CMS editing cards in `public/admin/config.yml` and seeded initial JSON files in `src/data/study_abroad/usa/`:
+    - `computer_science.json`
+    - `information_technology.json`
+- **Build & Static Prerender**:
+  - `npm run build` executed and passed with **116 successful static prerendered HTML pages and 0 errors**.
+
+---
+
+## 19. Finland Courses Expansion — Computer Science & Information Technology (07-Nov-2026)
+
+- **Context & Source**:
+  - Implemented 2 dedicated standalone pages for **Finland** under `Tech, Business & More` right under `Engineering`:
+    1. **Computer Science** (`/study-abroad/finland/computer-science`)
+    2. **Information Technology** (`/study-abroad/finland/information-technology`)
+  - Content sourced directly from `E:\Downloads-pro\Finland\Computer Science-finland\finlandusa.html` and `E:\Downloads-pro\Finland\Information Technology-finland\finlandusa.html`.
+- **Verbatim Content Preservation (Rule 1 & 2)**:
+  - Both pages built with `AbroadCoursePage` from `CoursePageKit.jsx`.
+  - Overview grid container updated with `items-start` for perfect top-aligned visual balance.
+  - Comprehensive details for both Bachelor's (180–240 ECTS) and Master's (120 ECTS) programmes, combined degree options (3+2), tuition fee schedules in EUR & INR, living cost breakdowns, 7-to-8 step admission procedures, Finnish residence permit guidance, 2-year post-study work permit information, and FAQs preserved 100% verbatim from the master documents.
+- **Image Assets & Optimization (Rule 3)**:
+  - Stored under `src/Images/Abroad/Finland/ComputerScience/` and `src/Images/Abroad/Finland/InformationTechnology/`.
+  - Authentic campus imagery for Finnish universities: University of Oulu, Aalto University, University of Eastern Finland (UEF), University of Helsinki, LUT University, University of Turku, Metropolia University of Applied Sciences.
+  - High-res discipline hero banners, dark cinematic atmospheric backgrounds, authentic coding IDE/cloud lab images, and textured dark CTA banners linked.
+- **Navbar & Routing (Rule 5)**:
+  - Added `"computer-science"` and `"information-technology"` to `finlandStandaloneRoutes` in `Navbar.jsx`.
+  - Lazy routes registered in `routes.jsx` with full component mapping in `generate-sitemap.cjs` and `prerender.mjs`.
+- **Decap CMS Data Layer**:
+  - Added CMS files in `public/admin/config.yml` (and synced to `dist/admin/config.yml`):
+    - `finland_computer_science` (`src/data/study_abroad/finland/computer_science.json`)
+    - `finland_information_technology` (`src/data/study_abroad/finland/information_technology.json`)
+- **Build & Static Prerender**:
+  - `npm run build` completed with **118 successful static HTML pages prerendered (0 errors)**.
+
+---
+
 ## Pending / Management Decisions
 
 The following items status summary:
@@ -434,3 +612,52 @@ The following items status summary:
 
 *Generated from repository evidence. Metrics measured against the production
 `vite build` output on this branch.*
+
+
+## 20. Engineering PG Hub Pages Implementation (Finland & USA)
+
+- **Architecture Audit & Resolution**:
+  - **USA PG Hub**: Already existed at `src/pages/Study Abroad/USA/Engineering/pg/postgraduate.jsx` under route `/courses/pg/engineering`. Added clean alias route `/study-abroad/usa/pg/engineering` and `/study-abroad/usa/ug/engineering` in `routes.jsx`, `generate-sitemap.cjs`, and `prerender.mjs`.
+  - **Finland PG Hub**: Created dedicated component `src/pages/Study Abroad/Finland/Engineering/pg/postgraduate.jsx` using `AbroadCoursePage` pattern.
+  - **Branches Linked (10 Streams)**:
+    - Master's in Computer Engineering (`/study-abroad/finland/pg/computer-engineering`)
+    - Master's in Computer Science Engineering (`/study-abroad/finland/pg/computer-science-engineering`)
+    - Master's in Mechanical Engineering (`/study-abroad/finland/pg/mechanical-engineering`)
+    - Master's in Civil Engineering (`/study-abroad/finland/pg/civil-engineering`)
+    - Master's in Electrical Engineering (`/study-abroad/finland/pg/electrical-engineering`)
+    - Master's in Electronics & Communication (`/study-abroad/finland/pg/electronics-communication`)
+    - Master's in Chemical Engineering (`/study-abroad/finland/pg/chemical-engineering`)
+    - Master's in Aerospace Engineering (`/study-abroad/finland/pg/aerospace-engineering`)
+    - Master's in Biomedical Engineering (`/study-abroad/finland/pg/biomedical-engineering`)
+    - Master's in Automobile Engineering (`/study-abroad/finland/pg/automobile-engineering`)
+- **Images Created & Optimized (`src/Images/Abroad/Finland/Engineering_PG/General/`)**:
+  - `eng_pg_hero.webp`, `eng_pg_hero_bg.webp`, `eng_pg_study.webp`, `eng_pg_cta_bg.webp`
+  - Authentic university campus photos: `Aalto_University.webp`, `Tampere_University.webp`, `LUT_University.webp`, `University_of_Oulu.webp`, `University_of_Turku.webp`, `Abo_Akademi_University.webp`.
+- **Decap CMS Layer**:
+  - Added `src/data/study_abroad/finland/pg_hub.json`.
+  - Added `finland_pg_hub` card under `study_abroad_finland` in `public/admin/config.yml` (and synchronized with `dist/admin/config.yml`).
+- **Navbar & Navigation**:
+  - Verified `Navbar.jsx`: Clicking "Postgraduate (PG)" under Engineering dynamically points to `/study-abroad/finland/pg/engineering` for Finland, and `/study-abroad/usa/pg/engineering` for USA.
+- **Static Prerender & Build Verification**:
+  - Total prerendered static routes increased to **121 routes** with **0 errors**.
+
+
+## 21. Complete URL Architecture Unification: RESTful `/study-abroad/[country]/...`
+
+- **Core Mandate**:
+  - Eliminated all query-parameter URLs like `/courses/ug/computer-engineering?country=usa` and `/courses/dentistry?country=finland`.
+  - Enforced strict RESTful SEO routing across both USA and Finland:
+    - **UG Engineering Branches**: `/study-abroad/[country]/ug/[branch]` (e.g. `/study-abroad/usa/ug/computer-engineering`, `/study-abroad/finland/ug/computer-engineering`)
+    - **PG Engineering Branches**: `/study-abroad/[country]/pg/[branch]` (e.g. `/study-abroad/usa/pg/computer-engineering`, `/study-abroad/finland/pg/computer-engineering`)
+    - **Engineering Hubs**: `/study-abroad/[country]/ug/engineering` & `/study-abroad/[country]/pg/engineering`
+    - **Allied Healthcare / MBBS Abroad**: `/study-abroad/[country]/[course]` (e.g. `dentistry`, `nursing`, `pharmacy`, `physiotherapy`, `public-health`, `biotechnology`)
+    - **Tech Standalone**: `/study-abroad/[country]/computer-science`, `/study-abroad/[country]/information-technology`
+    - **Business & Programs**: `/study-abroad/[country]/business-management`, `mba`, `executive-mba`, `bba`, `bbs`, `mbs`, `international-business`, `marketing-management`, `accounting-finance`, `hospitality-management`, `architecture`, `law`, `language-courses`, `summer-courses`, `winter-courses`, `working-professionals`.
+- **Navigation & Mobile Menu (`Navbar.jsx`)**:
+  - `getCourseHref` updated so that whenever USA or Finland is selected, every dropdown link and mobile menu item dynamically resolves to the clean `/study-abroad/[country]/...` path with 0 query params.
+- **Internal Cross-Linking Updates**:
+  - Updated 22 USA course component files and 6 Finland healthcare files so internal anchor tags and `SeoHead` paths point to clean `/study-abroad/...` URLs.
+- **Router & Static Prerendering Verification**:
+  - Registered 49 dedicated USA routes in `routes.jsx`.
+  - Added all routes to `generate-sitemap.cjs` and `prerender.mjs`.
+  - `npm run build` executed: **163 static HTML pages successfully prerendered with 0 errors**.

@@ -30,7 +30,7 @@ const page = {
           "t": "p",
           "items": [
             "MBS generally stands for Master of Business Studies. However, the precise meaning of an MBS degree and its availability varies from country to country and university to university. Those interested in business and management education in the USA should verify whether the institution they are interested in offers a program specifically named Master of Business Studies or a related degree such as a Master of Science in Management or Master of Business Administration.",
-            "Edu Hawk Worldwide assists students in exploring international study options, comprehending university admission standards, comparing pathways like [MBA in the USA](/courses/mba) and [Business Management](/courses/business-management), and [getting expert counselling](/contact). Check our [admission FAQs](#faq) and [top universities](#universities)."
+            "Edu Hawk Worldwide assists students in exploring international study options, comprehending university admission standards, comparing pathways like [MBA in the USA](/study-abroad/usa/mba) and [Business Management](/study-abroad/usa/business-management), and [getting expert counselling](/contact). Check our [admission FAQs](#faq) and [top universities](#universities)."
           ]
         }
       ]
@@ -386,7 +386,7 @@ const MbsAbroad = () => {
       <SeoHead
         title={page.title}
         description={page.description}
-        path="/courses/mbs"
+        path="/study-abroad/usa/mbs"
       >
         {page.faqs.length > 0 && (
           <script type="application/ld+json">
@@ -520,7 +520,7 @@ const MbsAbroad = () => {
                   sizes="100vw"
                 />
               <div className="absolute bottom-5 left-5 bg-white/15 backdrop-blur-md px-4 py-2.5 rounded-xl text-sm font-medium">
-                Trusted by 400+ Indian students
+                Trusted by 1000+ Indian students
               </div>
             </div>
           </div>
