@@ -772,7 +772,7 @@ export default function HeroSection() {
             ))}
 
             {/* Slide Indicators positioned safely above the floating stats card */}
-            <div className="absolute bottom-20 sm:bottom-24 left-0 right-0 flex justify-center gap-2.5 z-20">
+            <div className="absolute bottom-26 sm:bottom-30 md:bottom-34 left-0 right-0 flex justify-center gap-2.5 z-20 pointer-events-auto">
               {HERO_SLIDES.map((slide, i) => (
                 <button
                   key={i}
@@ -794,7 +794,7 @@ export default function HeroSection() {
         <section className="bg-gradient-to-br from-[#0a2342] via-[#1a4a7a] to-[#0d3460] pt-0 pb-20 md:pb-28 px-5 sm:px-8 lg:px-12 text-center relative overflow-visible">
           {/* STATS BAR: Exactly like About page, compact sleek height, 50/50 split */}
           <div className="max-w-6xl mx-auto px-4 sm:px-6 relative z-30 -translate-y-1/2 -mb-8 sm:-mb-10">
-            <div className="bg-white/95 backdrop-blur-xl border border-[#d4a853]/30 rounded-2xl sm:rounded-3xl shadow-2xl py-4.5 px-4 sm:py-5 sm:px-8 grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6">
+            <div className="bg-white border border-[#d4a853]/30 rounded-2xl sm:rounded-3xl shadow-2xl py-4.5 px-4 sm:py-5 sm:px-8 grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6">
               {(homeData.stats || [
                 { n: "1000+", l: "Students Placed Globally" },
                 { n: "20+", l: "Countries Covered" },

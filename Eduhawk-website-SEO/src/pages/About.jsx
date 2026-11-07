@@ -177,17 +177,17 @@ export default function About() {
           ))}
 
           {/* Slide Indicators positioned comfortably above the floating stats card */}
-          <div className="absolute bottom-24 sm:bottom-28 md:bottom-32 left-0 right-0 flex justify-center gap-2.5 z-20">
+          <div className="absolute bottom-28 sm:bottom-32 md:bottom-36 left-0 right-0 flex justify-center gap-2.5 z-20 pointer-events-auto">
             {heroSlides.map((_, i) => (
               <button
                 key={i}
                 type="button"
                 aria-label={`Go to slide ${i + 1}`}
                 onClick={() => setCurrentHeroSlide(i)}
-                className={`h-2 rounded-full transition-all duration-400 shadow-md ${
+                className={`h-2.5 rounded-full transition-all duration-400 shadow-md cursor-pointer ${
                   i === currentHeroSlide
-                    ? "w-7 bg-[#d4a853] ring-2 ring-[#d4a853]/60"
-                    : "w-2 bg-white/60 hover:bg-white/90"
+                    ? "w-8 bg-[#d4a853] ring-2 ring-[#d4a853]/60"
+                    : "w-2.5 bg-white/70 hover:bg-white"
                 }`}
               />
             ))}
@@ -197,7 +197,7 @@ export default function About() {
         {/* FLOATING STATS BAR (Half on Hero, Half on Welcome Section) */}
         {aboutData.stats && aboutData.stats.length > 0 && (
           <div className="max-w-6xl mx-auto px-4 sm:px-6 relative z-30 -translate-y-1/2 -mb-8 sm:-mb-10">
-            <div className="bg-white/95 backdrop-blur-xl border border-[#d4a853]/30 rounded-2xl sm:rounded-3xl shadow-2xl py-5 px-4 sm:py-6 sm:px-8 grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6">
+            <div className="bg-white border border-[#d4a853]/30 rounded-2xl sm:rounded-3xl shadow-2xl py-5 px-4 sm:py-6 sm:px-8 grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6">
               {aboutData.stats.map((s, i) => (
                 <div key={i} className="flex flex-col items-center justify-center text-center p-1 sm:p-2 group">
                   <div className="text-3xl sm:text-4xl lg:text-5xl font-black text-[#d4a853] tracking-tight leading-none group-hover:scale-105 transition-transform">
