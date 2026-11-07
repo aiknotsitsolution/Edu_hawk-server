@@ -35,17 +35,17 @@
   ],
   "stats": [
     { "n": "1000+", "l": "Students Placed Globally" },
-    { "n": "20+", "l": "Countries" },
-    { "n": "200+", "l": "Partner Universities" },
-    { "n": "100%", "l": "Visa & End-to-End Guidance" }
+    { "n": "20+", "l": "Countries Covered" },
+    { "n": "200+", "l": "Partner Medical Universities" },
+    { "n": "100%", "l": "Visa & Admission Success" }
   ],
   "countries": [
-    { "name": "Russia", "flag": "🇷🇺", "seats": "600+ seats", "fee": "₹20-30L total" },
-    { "name": "Georgia", "flag": "🇬🇪", "seats": "200+ seats", "fee": "₹25-35L total" },
-    { "name": "Uzbekistan", "flag": "🇺🇿", "seats": "400+ seats", "fee": "₹18-28L total" },
-    { "name": "Kazakhstan", "flag": "🇰🇿", "seats": "300+ seats", "fee": "₹22-32L total" },
-    { "name": "Kyrgyzstan", "flag": "🇰🇬", "seats": "250+ seats", "fee": "₹15-25L total" },
-    { "name": "Nepal", "flag": "🇳🇵", "seats": "150+ seats", "fee": "₹35-50L total" }
+    { "name": "Russia", "flag": "🇷🇺", "seats": "600+ seats", "fee": "₹20-30L total", "link": "/mbbs-abroad/russia", "tag": "#1 Choice" },
+    { "name": "Georgia", "flag": "🇬🇪", "seats": "200+ seats", "fee": "₹25-35L total", "link": "/mbbs-abroad/georgia", "tag": "European Standard" },
+    { "name": "Uzbekistan", "flag": "🇺🇿", "seats": "400+ seats", "fee": "₹18-28L total", "link": "/mbbs-abroad/uzbekistan", "tag": "Best Budget" },
+    { "name": "Kazakhstan", "flag": "🇰🇿", "seats": "300+ seats", "fee": "₹22-32L total", "link": "/mbbs-abroad/kazakhstan", "tag": "Top Rated" },
+    { "name": "Kyrgyzstan", "flag": "🇰🇬", "seats": "250+ seats", "fee": "₹15-25L total", "link": "/mbbs-abroad/kyrgyzstan", "tag": "Affordable Package" },
+    { "name": "Nepal", "flag": "🇳🇵", "seats": "150+ seats", "fee": "₹35-50L total", "link": "/mbbs-abroad/nepal", "tag": "Close to India" }
   ],
   "mbbsOptions": [
     { "country": "Bangladesh", "fees": "24 Lakhs to 41 Lakhs", "link": "/mbbs-abroad/bangladesh" },
@@ -63,18 +63,21 @@
     {
       "name": "Priya Sharma",
       "loc": "Delhi → Russia",
+      "university": "Bashkir State Medical University",
       "text": "Edu-Hawk guided me every step of the way. No hidden charges, clear advice. Got into a top NMC-recognized university in Russia!",
       "stars": 5
     },
     {
       "name": "Rahul Verma",
       "loc": "Mumbai → Georgia",
+      "university": "Tbilisi State Medical University",
       "text": "The counsellors were transparent and genuinely cared about my future. Best decision to trust Edu-Hawk for my MBBS abroad journey.",
       "stars": 5
     },
     {
       "name": "Ananya Patel",
       "loc": "Ahmedabad → Kazakhstan",
+      "university": "Kazakh National Medical University",
       "text": "From application to post-arrival, they supported me fully. I feel confident about my FMGE preparation with their guidance.",
       "stars": 5
     }
@@ -98,7 +101,7 @@
     },
     {
       "question": "What is the total cost of studying MBBS abroad?",
-      "answer": "The total cost usually ranges between ₹15–40 lakhs for the complete course, depending on the country and university. This includes tuition fees, hostel, and living expenses."
+      "answer": "Total costs usually range from ₹15 Lakhs to ₹35 Lakhs depending on the chosen country, university tuition, hostel, and personal expenses."
     }
   ]
 }

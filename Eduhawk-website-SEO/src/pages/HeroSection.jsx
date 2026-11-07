@@ -16,7 +16,7 @@ import heroRussia from "../Images/hero/hero-russia.webp";
 import heroGeorgia from "../Images/hero/hero-georgia.webp";
 import heroKazakhstan from "../Images/hero/hero-kazakhstan.webp";
 import heroTrusted from "../Images/hero/hero-trusted.webp";
-import { X, ChevronDown, User, Mail, Phone, MapPin, GraduationCap, Globe, ArrowRight } from "lucide-react";
+import { X, ChevronDown, User, Mail, Phone, MapPin, GraduationCap, Globe, ArrowRight, Star, Award, CheckCircle2, Sparkles, MessageCircle } from "lucide-react";
 
 import univercity from "../Images/university-image/singapore.webp";
 import topRanking1 from "../Images/Peking University Health Science Center.webp";
@@ -33,6 +33,26 @@ import globalImage2 from "../Images/home_page_Image/class room 2.webp";
 import { Link } from "react-router-dom";
 import SeoHead from "../component/SeoHead.jsx";
 import homeData from "../data/home.json";
+import russiaFlag from "../Images/country flag png/Russia.svg";
+import georgiaFlag from "../Images/country flag png/Georgia.svg";
+import uzbekistanFlag from "../Images/country flag png/Uzbekistan-Flag.svg";
+import kazakhstanFlag from "../Images/country flag png/Kazakhstan.svg";
+import kyrgyzstanFlag from "../Images/country flag png/Kyrgyzstan.svg";
+import nepalFlag from "../Images/country flag png/Nepal.svg";
+import bangladeshFlag from "../Images/country flag png/Bangladesh-Flag-PNG-Isolated-HD.webp";
+import egyptFlag from "../Images/country flag png/Egypt.svg";
+
+const COUNTRY_FLAGS = {
+  Russia: { flag: russiaFlag, code: "RU" },
+  Georgia: { flag: georgiaFlag, code: "GE" },
+  Uzbekistan: { flag: uzbekistanFlag, code: "UZ" },
+  Kazakhstan: { flag: kazakhstanFlag, code: "KZ" },
+  Kyrgyzstan: { flag: kyrgyzstanFlag, code: "KG" },
+  Nepal: { flag: nepalFlag, code: "NP" },
+  Bangladesh: { flag: bangladeshFlag, code: "BD" },
+  Egypt: { flag: egyptFlag, code: "EG" },
+};
+
 
 const NAV_LINKS = ["Home", "About", "Services", "Countries", "Contact"];
 
@@ -691,7 +711,7 @@ export default function HeroSection() {
 
         {/* HERO CAROUSEL */}
         <section className="relative">
-          <div className="relative w-full h-[70vh] min-h-[520px] overflow-hidden">
+          <div className="relative w-full min-h-[580px] sm:min-h-[640px] lg:h-[78vh] lg:min-h-[660px] overflow-hidden">
             {HERO_SLIDES.map((slide, index) => (
               <div
                 key={index}
@@ -711,64 +731,87 @@ export default function HeroSection() {
                   className="w-full h-full object-cover brightness-[0.85] aspect-auto"
                   srcSet={`${slide.image} 1x, ${slide.image} 2x`}
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/35 to-transparent/30" />
-                <div className="absolute inset-0 flex items-center justify-center px-5 sm:px-10">
-                  <div className="text-center max-w-8xl">
-                    <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight mb-4 md:mb-6 drop-shadow-2xl">
+                <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/45 to-black/30" />
+                <div className="absolute inset-0 flex items-center justify-center px-5 sm:px-10 pb-20 sm:pb-24">
+                  <div className="text-center max-w-5xl mx-auto">
+                    <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-black/45 backdrop-blur-md border border-white/20 text-white text-xs sm:text-sm font-semibold mb-3 sm:mb-5 shadow-xl">
+                      <span className="text-amber-400">★★★★★</span>
+                      <span className="text-amber-300 font-bold">4.9/5 Rating</span>
+                      <span className="hidden sm:inline text-white/90">• 1000+ Placed • NMC &amp; WHO Recognized</span>
+                    </div>
+
+                    <h2 className="text-3xl sm:text-5xl md:text-6xl font-extrabold text-white leading-tight mb-3 md:mb-5 drop-shadow-2xl">
                       Your MBBS Abroad Journey
                       <br />
                       <span className="text-[#d4a853]">{slide.title}</span>
                     </h2>
-                    <p className="text-lg sm:text-xl md:text-2xl text-white/95 font-medium mb-8 md:mb-12 max-w-4xl mx-auto drop-shadow-lg">
+                    <p className="text-sm sm:text-base md:text-lg text-white/95 font-medium mb-5 md:mb-7 max-w-3xl mx-auto drop-shadow-lg">
                       {slide.subtitle}
                     </p>
-                    <Link to="/contact" className="inline-block bg-gradient-to-r from-[#d4a853] via-[#e0b76b] to-[#f0c070] text-[#0a2342] font-bold uppercase tracking-wider px-10 py-5 rounded-xl shadow-2xl hover:shadow-3xl hover:-translate-y-1.5 transition-all duration-300 text-lg md:text-xl cursor-pointer" onClick={() => setCurrentHeroSlide(0)}>{slide.cta} →</Link>
+
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
+                      <button
+                        type="button"
+                        onClick={() => setIsOpen(true)}
+                        className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4a853] via-[#e0b76b] to-[#f0c070] text-[#0a2342] font-bold uppercase tracking-wider px-6 sm:px-8 py-3 sm:py-3.5 rounded-xl shadow-2xl hover:shadow-3xl hover:-translate-y-0.5 transition-all duration-300 text-xs sm:text-sm cursor-pointer"
+                      >
+                        <span>{slide.cta || "Get Free Counselling"}</span>
+                        <ArrowRight size={16} />
+                      </button>
+                      <a
+                        href="#destinations"
+                        className="inline-flex items-center justify-center gap-2 bg-white/15 hover:bg-white/25 text-white border border-white/30 backdrop-blur-md font-semibold px-5 sm:px-7 py-3 sm:py-3.5 rounded-xl transition-all duration-300 text-xs sm:text-sm cursor-pointer"
+                      >
+                        <span>Explore Countries</span>
+                        <ChevronDown size={16} />
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
             ))}
 
-            <div className="absolute bottom-6 sm:bottom-10 left-0 right-0 flex justify-center gap-4 z-20">
+            {/* Slide Indicators positioned safely above the floating stats card */}
+            <div className="absolute bottom-20 sm:bottom-24 left-0 right-0 flex justify-center gap-2.5 z-20">
               {HERO_SLIDES.map((slide, i) => (
                 <button
                   key={i}
                   type="button"
                   aria-label={`Go to slide ${i + 1}: ${slide.country || ""}`}
                   onClick={() => setCurrentHeroSlide(i)}
-                  className={`w-3.5 h-3.5 rounded-full transition-all duration-400 shadow-md ${
+                  className={`h-2 rounded-full transition-all duration-400 shadow-md ${
                     i === currentHeroSlide
-                      ? "bg-[#d4a853] scale-125 ring-2 ring-[#d4a853]/60"
-                      : "bg-white/60 hover:bg-white/90"
+                      ? "w-7 bg-[#d4a853] ring-2 ring-[#d4a853]/60"
+                      : "w-2 bg-white/60 hover:bg-white/90"
                   }`}
                 />
               ))}
             </div>
           </div>
+        </section>
 
-          {/* Stats Bar */}
-          <div className="max-w-6xl mx-auto px-6 -mt-20 sm:-mt-24 relative z-10">
-            <div className="bg-white/95 backdrop-blur-lg border border-[#d4a853]/30 rounded-2xl shadow-2xl grid grid-cols-2 md:grid-cols-4 gap-6 p-8 md:p-10">
+        {/* BANNER SECTION WITH FLOATING STATS CARD (Exactly 50% on Hero Image, 50% on Blue Banner, styled like About page) */}
+        <section className="bg-gradient-to-br from-[#0a2342] via-[#1a4a7a] to-[#0d3460] pt-0 pb-20 md:pb-28 px-5 sm:px-8 lg:px-12 text-center relative overflow-visible">
+          {/* STATS BAR: Exactly like About page, compact sleek height, 50/50 split */}
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 relative z-30 -translate-y-1/2 -mb-8 sm:-mb-10">
+            <div className="bg-white/95 backdrop-blur-xl border border-[#d4a853]/30 rounded-2xl sm:rounded-3xl shadow-2xl py-4.5 px-4 sm:py-5 sm:px-8 grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6">
               {(homeData.stats || [
                 { n: "1000+", l: "Students Placed Globally" },
-                { n: "20+", l: "Countries" },
-                { n: "200+", l: "Partner Universities" },
-                { n: "100%", l: "Visa & End-to-End Guidance" },
+                { n: "20+", l: "Countries Covered" },
+                { n: "200+", l: "Partner Medical Universities" },
+                { n: "100%", l: "Visa & Admission Success" },
               ]).map((s, i) => (
-                <div key={i} className="text-center">
-                  <div className="text-[#9e711d] text-4xl md:text-5xl font-extrabold">
+                <div key={i} className="flex flex-col items-center justify-center text-center p-1 sm:p-2 group">
+                  <div className="text-3xl sm:text-4xl lg:text-5xl font-black text-[#d4a853] tracking-tight leading-none group-hover:scale-105 transition-transform">
                     {s.n}
                   </div>
-                  <div className="text-[#0a2342] text-sm md:text-base uppercase tracking-wider mt-2 font-semibold">
+                  <div className="text-[#0a2342] font-bold text-[11px] sm:text-xs md:text-sm uppercase tracking-wider mt-1.5 sm:mt-2">
                     {s.l}
                   </div>
                 </div>
               ))}
             </div>
           </div>
-        </section>
-
-        {/* BANNER SECTION */}
-        <section className="bg-gradient-to-br from-[#0a2342] via-[#1a4a7a] to-[#0d3460] py-20 md:py-28 px-5 sm:px-8 lg:px-12 text-center relative overflow-hidden">
           <div className="absolute -top-20 -right-20 w-72 sm:w-96 h-72 sm:h-96 rounded-full bg-[#d4a853]/10 pointer-events-none" />
           <div className="absolute -bottom-20 -left-20 w-64 sm:w-80 h-64 sm:h-80 rounded-full bg-[#d4a853]/5 pointer-events-none" />
 
@@ -828,6 +871,99 @@ export default function HeroSection() {
             </div>
           </div>
         </section>
+
+        {/* TOP MBBS DESTINATIONS GRID (Dynamic - auto-hides if empty in CMS) */}
+        {COUNTRIES && COUNTRIES.length > 0 && (
+        <section id="destinations" className="py-16 md:py-24 px-5 sm:px-8 lg:px-12 bg-gradient-to-b from-white via-slate-50 to-white">
+          <div className="max-w-7xl mx-auto">
+            <div className="text-center max-w-3xl mx-auto mb-14">
+              <span className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-amber-100 text-amber-900 text-xs font-bold uppercase tracking-wider mb-4 border border-amber-200">
+                <Globe size={14} className="text-amber-700" />
+                Popular Study Hubs
+              </span>
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0a2342] leading-tight mb-4">
+                Top MBBS Abroad Destinations for Indian Students
+              </h2>
+              <p className="text-gray-600 text-base sm:text-lg">
+                Compare premier medical universities, transparent fee structures, and NMC-compliant curriculums across top overseas education destinations.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+              {COUNTRIES.map((country, idx) => (
+                <div
+                  key={country.name || idx}
+                  className="group relative bg-white rounded-2xl border border-slate-200/80 shadow-md hover:shadow-2xl hover:border-amber-400/80 transition-all duration-300 p-6 flex flex-col justify-between hover:-translate-y-1.5"
+                >
+                  <div>
+                    <div className="flex items-center justify-between mb-4">
+                      <div className="flex items-center gap-2.5">
+                        {COUNTRY_FLAGS[country.name] ? (
+                          <img
+                            src={COUNTRY_FLAGS[country.name].flag}
+                            alt={`${country.name} flag`}
+                            width={36}
+                            height={24}
+                            className="w-9 h-6 sm:w-10 sm:h-6.5 object-cover rounded shadow-xs border border-slate-200/90"
+                          />
+                        ) : (
+                          <span className="text-2xl">{country.flag}</span>
+                        )}
+                        <span className="text-xs font-extrabold text-slate-700 bg-slate-100/90 px-2 py-0.5 rounded-md border border-slate-200 uppercase tracking-wider">
+                          {COUNTRY_FLAGS[country.name]?.code || (country.name || "").slice(0, 2).toUpperCase()}
+                        </span>
+                      </div>
+                      {country.tag && (
+                        <span className="px-3 py-1 rounded-full text-xs font-bold bg-amber-50 text-amber-700 border border-amber-200/70">
+                          {country.tag}
+                        </span>
+                      )}
+                    </div>
+                    <h3 className="text-2xl font-bold text-[#0a2342] group-hover:text-amber-600 transition-colors mb-2">
+                      MBBS in {country.name}
+                    </h3>
+                    <div className="space-y-2 mb-6 text-sm">
+                      <div className="flex items-center justify-between py-1.5 border-b border-slate-100">
+                        <span className="text-slate-500 font-medium">Estimated Package</span>
+                        <span className="font-bold text-slate-900">{country.fee || "Contact for fees"}</span>
+                      </div>
+                      <div className="flex items-center justify-between py-1.5 border-b border-slate-100">
+                        <span className="text-slate-500 font-medium">Available Seats</span>
+                        <span className="font-semibold text-emerald-600 flex items-center gap-1">
+                          <CheckCircle2 size={14} />
+                          {country.seats || "Seats Available"}
+                        </span>
+                      </div>
+                      <div className="flex items-center justify-between py-1.5">
+                        <span className="text-slate-500 font-medium">Recognition</span>
+                        <span className="font-semibold text-slate-700">NMC &amp; WHO Approved</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <Link
+                    to={country.link || `/mbbs-abroad/${(country.name || "").toLowerCase()}`}
+                    className="w-full py-3 px-4 rounded-xl font-bold text-sm text-center bg-slate-900 text-white group-hover:bg-gradient-to-r group-hover:from-[#d4a853] group-hover:to-[#e0b76b] group-hover:text-[#0a2342] transition-all duration-300 flex items-center justify-center gap-2 shadow-sm"
+                  >
+                    <span>View Universities &amp; Fees</span>
+                    <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+                  </Link>
+                </div>
+              ))}
+            </div>
+
+            <div className="mt-12 text-center">
+              <Link
+                to="/allcollege"
+                className="inline-flex items-center gap-2 text-base font-bold text-[#0a2342] hover:text-amber-600 transition-colors border-b-2 border-amber-400 pb-1"
+              >
+                <span>View All Medical Colleges Worldwide</span>
+                <ArrowRight size={18} />
+              </Link>
+            </div>
+          </div>
+        </section>
+        )}
 
         {/* ABOUT SECTION - (kept as in original) */}
         <section className="py-8 md:py-10 px-5 sm:px-6 lg:px-10 bg-[#faf8f4]">
@@ -1385,6 +1521,63 @@ export default function HeroSection() {
           </div>
         </section>
 
+        
+        {/* STUDENT TESTIMONIALS SECTION (Dynamic - auto-hides if empty in CMS) */}
+        {TESTIMONIALS && TESTIMONIALS.length > 0 && (
+        <section className="py-20 md:py-24 px-5 sm:px-8 lg:px-12 bg-gradient-to-br from-[#071d38] via-[#0a2a4e] to-[#0d3460] text-white relative overflow-hidden">
+          <div className="absolute top-0 right-0 w-96 h-96 bg-amber-400/10 rounded-full blur-3xl pointer-events-none" />
+          <div className="absolute bottom-0 left-0 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none" />
+
+          <div className="max-w-7xl mx-auto relative z-10">
+            <div className="text-center max-w-3xl mx-auto mb-16">
+              <span className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-amber-400/20 text-amber-300 text-xs font-bold uppercase tracking-wider mb-4 border border-amber-400/30">
+                <Star size={14} className="fill-amber-400 text-amber-400" />
+                Verified Student Reviews
+              </span>
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white leading-tight mb-4">
+                Stories of Success From Our Medical Students
+              </h2>
+              <p className="text-slate-300 text-base sm:text-lg">
+                Hear directly from students and parents who placed their trust in Edu-Hawk Worldwide for their overseas medical journey.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              {TESTIMONIALS.map((review, i) => (
+                <div
+                  key={i}
+                  className="bg-white/10 backdrop-blur-md rounded-2xl border border-white/15 p-7 flex flex-col justify-between hover:bg-white/15 hover:border-amber-400/50 transition-all duration-300 hover:-translate-y-1.5 shadow-xl"
+                >
+                  <div>
+                    <div className="flex items-center gap-1 text-amber-400 mb-4">
+                      {Array.from({ length: review.stars || 5 }).map((_, sIdx) => (
+                        <Star key={sIdx} size={18} className="fill-amber-400 text-amber-400" />
+                      ))}
+                    </div>
+                    <p className="text-slate-200 text-sm sm:text-base leading-relaxed mb-6 italic">
+                      "{review.text}"
+                    </p>
+                  </div>
+                  <div className="pt-4 border-t border-white/15 flex items-center justify-between">
+                    <div>
+                      <h4 className="font-bold text-white text-base">{review.name}</h4>
+                      <p className="text-xs text-amber-300 font-medium">{review.loc}</p>
+                      {review.university && (
+                        <p className="text-xs text-slate-300 mt-0.5">{review.university}</p>
+                      )}
+                    </div>
+                    <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-emerald-300 bg-emerald-500/20 px-2.5 py-1 rounded-full border border-emerald-400/30">
+                      <CheckCircle2 size={12} />
+                      Verified
+                    </span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+        )}
+
         <section className="py-16 md:py-20 px-5 sm:px-8 lg:px-12 bg-white">
           <div className="max-w-4xl mx-auto">
             <div className="mb-8 text-center">
@@ -1695,6 +1888,34 @@ export default function HeroSection() {
             </div>
           </div>
         </section>
+
+        {/* MOBILE STICKY ACTION BAR */}
+        <div className="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-t border-slate-200 p-2.5 shadow-2xl flex items-center gap-2">
+          <a
+            href="tel:+919630736070"
+            className="flex-1 flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl bg-slate-100 text-slate-800 font-semibold text-xs border border-slate-300"
+          >
+            <Phone size={15} className="text-[#0a2342]" />
+            <span>Call Now</span>
+          </a>
+          <a
+            href="https://wa.me/919630736070?text=Hi%20EduHawk,%20I%20am%20interested%20in%20MBBS%20Abroad"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex-1 flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl bg-emerald-600 text-white font-semibold text-xs shadow-md"
+          >
+            <MessageCircle size={15} />
+            <span>WhatsApp</span>
+          </a>
+          <button
+            type="button"
+            onClick={() => setIsOpen(true)}
+            className="flex-1 flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl bg-gradient-to-r from-[#d4a853] to-[#e0b76b] text-[#0a2342] font-bold text-xs shadow-md cursor-pointer"
+          >
+            <Sparkles size={14} />
+            <span>Apply Free</span>
+          </button>
+        </div>
       </div>
     </>
   );
