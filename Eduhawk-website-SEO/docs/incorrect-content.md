@@ -324,3 +324,4 @@ ightarrow$ Text; Doc text is cloned BBA verbatim; `Top Universities for BBA in F
 | **Other Engineering Branches** | `/study-abroad/finland/...` | In progress | Ready to audit | Pos 1196243+ in master doc |
 | **Winter Courses** | `/study-abroad/finland/winter-courses` | Pending next turn | Ready to audit | Pos 1819790 in master doc |
 | **Summer Courses** | `/study-abroad/finland/summer-courses` | Pending next turn | Ready to audit | Pos 1839265 in master doc |
+| **Biomedical Engineering (PG)** | `/study-abroad/finland/pg/biomedical-engineering` | 3 Campus WebPs + BME Device Assets | **Verified 100%** | Dedicated Oulu €10,000 M.Sc. Tech, Aalto, Tampere; 0 content changes; structured definition cards, pills, 8-step admission process, fee conversion table, FAQ accordion; fixed EBP `page` reference error |

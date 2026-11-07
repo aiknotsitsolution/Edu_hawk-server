@@ -4562,7 +4562,7 @@ export const EngineeringBranchPage = ({
 
 
 
-        desc={page.ctaDesc || "Get expert guidance on university shortlisting, applications, scholarships, visas and pre-departure preparation — all in one place."}
+        desc={branch?.ctaDesc || "Get expert guidance on university shortlisting, applications, scholarships, visas and pre-departure preparation — all in one place."}
 
 
 

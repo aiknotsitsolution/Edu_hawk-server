@@ -627,7 +627,7 @@
 | **363** | 25 | [ ] | Electronics & Communication - PG | `/study-abroad/finland/pg/electronics-communication` |
 | **364** | 26 | [ ] | Chemical Engineering - PG | `/study-abroad/finland/pg/chemical-engineering` |
 | **365** | 27 | ✔️ | Aerospace Engineering - PG | `/study-abroad/finland/pg/aerospace-engineering` |
-| **366** | 28 | [ ] | Biomedical Engineering - PG | `/study-abroad/finland/pg/biomedical-engineering` |
+| **366** | 28 | ✔️ | Biomedical Engineering - PG | `/study-abroad/finland/pg/biomedical-engineering` |
 | **367** | 29 | ✔️ | Automobile Engineering - PG | `/study-abroad/finland/pg/automobile-engineering` |
 
 ### Business, Management & Law (12)
