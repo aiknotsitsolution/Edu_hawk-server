@@ -209,6 +209,50 @@ import LanguageCoursesItaly from "./pages/Study Abroad/Italy/LanguageCourses/lan
 import SummerCoursesItaly from "./pages/Study Abroad/Italy/SummerCourses/summer-courses.jsx";
 import WinterCoursesItaly from "./pages/Study Abroad/Italy/WinterCourses/winter-courses.jsx";
 
+// Canada Routes
+import DentistryAbroadCanada from "./pages/Study Abroad/Canada/MBBS Abroad/DentistryAbroad.jsx";
+import NursingAbroadCanada from "./pages/Study Abroad/Canada/MBBS Abroad/NursingAbroad.jsx";
+import PharmacyAbroadCanada from "./pages/Study Abroad/Canada/MBBS Abroad/PharmacyAbroad.jsx";
+import PhysiotherapyAbroadCanada from "./pages/Study Abroad/Canada/MBBS Abroad/PhysiotherapyAbroad.jsx";
+import PublicHealthCanada from "./pages/Study Abroad/Canada/MBBS Abroad/PublicHealth.jsx";
+import BiotechnologyCanada from "./pages/Study Abroad/Canada/MBBS Abroad/Biotechnology.jsx";
+import ComputerScienceCanada from "./pages/Study Abroad/Canada/ComputerScience/computer-science.jsx";
+import InformationTechnologyCanada from "./pages/Study Abroad/Canada/InformationTechnology/information-technology.jsx";
+import UndergraduateEngineeringCanada from "./pages/Study Abroad/Canada/Engineering/ug/undergraduate.jsx";
+import ComputerEngineeringUGCanada from "./pages/Study Abroad/Canada/Engineering/ug/pages/ComputerEngineering.jsx";
+import MechanicalEngineeringUGCanada from "./pages/Study Abroad/Canada/Engineering/ug/pages/MechanicalEngineering.jsx";
+import CivilEngineeringUGCanada from "./pages/Study Abroad/Canada/Engineering/ug/pages/CivilEngineering.jsx";
+import ElectricalEngineeringUGCanada from "./pages/Study Abroad/Canada/Engineering/ug/pages/ElectricalEngineering.jsx";
+import ElectronicsCommunicationUGCanada from "./pages/Study Abroad/Canada/Engineering/ug/pages/ElectronicsCommunication.jsx";
+import ChemicalEngineeringUGCanada from "./pages/Study Abroad/Canada/Engineering/ug/pages/ChemicalEngineering.jsx";
+import AerospaceEngineeringUGCanada from "./pages/Study Abroad/Canada/Engineering/ug/pages/AerospaceEngineering.jsx";
+import BiomedicalEngineeringUGCanada from "./pages/Study Abroad/Canada/Engineering/ug/pages/BiomedicalEngineering.jsx";
+import AutomobileEngineeringUGCanada from "./pages/Study Abroad/Canada/Engineering/ug/pages/AutomobileEngineering.jsx";
+import PostgraduateEngineeringCanada from "./pages/Study Abroad/Canada/Engineering/pg/postgraduate.jsx";
+import ComputerEngineeringPGCanada from "./pages/Study Abroad/Canada/Engineering/pg/pages/ComputerEngineering.jsx";
+import MechanicalEngineeringPGCanada from "./pages/Study Abroad/Canada/Engineering/pg/pages/MechanicalEngineering.jsx";
+import CivilEngineeringPGCanada from "./pages/Study Abroad/Canada/Engineering/pg/pages/CivilEngineering.jsx";
+import ElectricalEngineeringPGCanada from "./pages/Study Abroad/Canada/Engineering/pg/pages/ElectricalEngineering.jsx";
+import ElectronicsCommunicationPGCanada from "./pages/Study Abroad/Canada/Engineering/pg/pages/ElectronicsCommunication.jsx";
+import ChemicalEngineeringPGCanada from "./pages/Study Abroad/Canada/Engineering/pg/pages/ChemicalEngineering.jsx";
+import AerospaceEngineeringPGCanada from "./pages/Study Abroad/Canada/Engineering/pg/pages/AerospaceEngineering.jsx";
+import BiomedicalEngineeringPGCanada from "./pages/Study Abroad/Canada/Engineering/pg/pages/BiomedicalEngineering.jsx";
+import AutomobileEngineeringPGCanada from "./pages/Study Abroad/Canada/Engineering/pg/pages/AutomobileEngineering.jsx";
+import BusinessManagementCanada from "./pages/Study Abroad/Canada/BusinessManagement/business-management.jsx";
+import MBACanada from "./pages/Study Abroad/Canada/MBA/mba.jsx";
+import ExecutiveMBACanada from "./pages/Study Abroad/Canada/ExecutiveMBA/executive-mba.jsx";
+import BBACanada from "./pages/Study Abroad/Canada/BBA/bba.jsx";
+import BBSCanada from "./pages/Study Abroad/Canada/BBS/bbs.jsx";
+import MBSCanada from "./pages/Study Abroad/Canada/MBS/mbs.jsx";
+import InternationalBusinessCanada from "./pages/Study Abroad/Canada/InternationalBusiness/international-business.jsx";
+import MarketingManagementCanada from "./pages/Study Abroad/Canada/MarketingManagement/marketing-management.jsx";
+import HospitalityManagementCanada from "./pages/Study Abroad/Canada/HospitalityManagement/hospitality-management.jsx";
+import ArchitectureCanada from "./pages/Study Abroad/Canada/Architecture/architecture.jsx";
+import LawCanada from "./pages/Study Abroad/Canada/Law/law.jsx";
+import LanguageCoursesCanada from "./pages/Study Abroad/Canada/LanguageCourses/language-courses.jsx";
+import SummerCoursesCanada from "./pages/Study Abroad/Canada/SummerCourses/summer-courses.jsx";
+import WinterCoursesCanada from "./pages/Study Abroad/Canada/WinterCourses/winter-courses.jsx";
+
 export async function render(url) {
   const helmetContext = {};
 
@@ -419,6 +463,49 @@ export async function render(url) {
               <Route path="study-abroad/italy/language-courses" element={<LanguageCoursesItaly />} />
               <Route path="study-abroad/italy/summer-courses" element={<SummerCoursesItaly />} />
               <Route path="study-abroad/italy/winter-courses" element={<WinterCoursesItaly />} />
+              {/* Canada Routes */}
+              <Route path="study-abroad/canada/dentistry" element={<DentistryAbroadCanada />} />
+              <Route path="study-abroad/canada/nursing" element={<NursingAbroadCanada />} />
+              <Route path="study-abroad/canada/pharmacy" element={<PharmacyAbroadCanada />} />
+              <Route path="study-abroad/canada/physiotherapy" element={<PhysiotherapyAbroadCanada />} />
+              <Route path="study-abroad/canada/public-health" element={<PublicHealthCanada />} />
+              <Route path="study-abroad/canada/biotechnology" element={<BiotechnologyCanada />} />
+              <Route path="study-abroad/canada/computer-science" element={<ComputerScienceCanada />} />
+              <Route path="study-abroad/canada/information-technology" element={<InformationTechnologyCanada />} />
+              <Route path="study-abroad/canada/ug/engineering" element={<UndergraduateEngineeringCanada />} />
+              <Route path="study-abroad/canada/ug/computer-engineering" element={<ComputerEngineeringUGCanada />} />
+              <Route path="study-abroad/canada/ug/mechanical-engineering" element={<MechanicalEngineeringUGCanada />} />
+              <Route path="study-abroad/canada/ug/civil-engineering" element={<CivilEngineeringUGCanada />} />
+              <Route path="study-abroad/canada/ug/electrical-engineering" element={<ElectricalEngineeringUGCanada />} />
+              <Route path="study-abroad/canada/ug/electronics-communication" element={<ElectronicsCommunicationUGCanada />} />
+              <Route path="study-abroad/canada/ug/chemical-engineering" element={<ChemicalEngineeringUGCanada />} />
+              <Route path="study-abroad/canada/ug/aerospace-engineering" element={<AerospaceEngineeringUGCanada />} />
+              <Route path="study-abroad/canada/ug/biomedical-engineering" element={<BiomedicalEngineeringUGCanada />} />
+              <Route path="study-abroad/canada/ug/automobile-engineering" element={<AutomobileEngineeringUGCanada />} />
+              <Route path="study-abroad/canada/pg/engineering" element={<PostgraduateEngineeringCanada />} />
+              <Route path="study-abroad/canada/pg/computer-engineering" element={<ComputerEngineeringPGCanada />} />
+              <Route path="study-abroad/canada/pg/mechanical-engineering" element={<MechanicalEngineeringPGCanada />} />
+              <Route path="study-abroad/canada/pg/civil-engineering" element={<CivilEngineeringPGCanada />} />
+              <Route path="study-abroad/canada/pg/electrical-engineering" element={<ElectricalEngineeringPGCanada />} />
+              <Route path="study-abroad/canada/pg/electronics-communication" element={<ElectronicsCommunicationPGCanada />} />
+              <Route path="study-abroad/canada/pg/chemical-engineering" element={<ChemicalEngineeringPGCanada />} />
+              <Route path="study-abroad/canada/pg/aerospace-engineering" element={<AerospaceEngineeringPGCanada />} />
+              <Route path="study-abroad/canada/pg/biomedical-engineering" element={<BiomedicalEngineeringPGCanada />} />
+              <Route path="study-abroad/canada/pg/automobile-engineering" element={<AutomobileEngineeringPGCanada />} />
+              <Route path="study-abroad/canada/business-management" element={<BusinessManagementCanada />} />
+              <Route path="study-abroad/canada/mba" element={<MBACanada />} />
+              <Route path="study-abroad/canada/executive-mba" element={<ExecutiveMBACanada />} />
+              <Route path="study-abroad/canada/bba" element={<BBACanada />} />
+              <Route path="study-abroad/canada/bbs" element={<BBSCanada />} />
+              <Route path="study-abroad/canada/mbs" element={<MBSCanada />} />
+              <Route path="study-abroad/canada/international-business" element={<InternationalBusinessCanada />} />
+              <Route path="study-abroad/canada/marketing-management" element={<MarketingManagementCanada />} />
+              <Route path="study-abroad/canada/hospitality-management" element={<HospitalityManagementCanada />} />
+              <Route path="study-abroad/canada/architecture" element={<ArchitectureCanada />} />
+              <Route path="study-abroad/canada/law" element={<LawCanada />} />
+              <Route path="study-abroad/canada/language-courses" element={<LanguageCoursesCanada />} />
+              <Route path="study-abroad/canada/summer-courses" element={<SummerCoursesCanada />} />
+              <Route path="study-abroad/canada/winter-courses" element={<WinterCoursesCanada />} />
               <Route path="terms-conditions" element={<TermsAndConditions />} />
               <Route path="privacy-policy" element={<PrivacyPolicy />} />
               <Route path="cookies-policy" element={<CookiesPolicy />} />

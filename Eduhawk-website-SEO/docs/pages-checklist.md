@@ -219,70 +219,70 @@
 ### Healthcare & MBBS Abroad (6)
 | Overall # | Group # | Status | Page Name | Route Path |
 | :---: | :---: | :---: | :--- | :--- |
-| **114** | 01 | [ ] | Dentistry in Canada | `/study-abroad/canada/dentistry` |
-| **115** | 02 | [ ] | Nursing in Canada | `/study-abroad/canada/nursing` |
-| **116** | 03 | [ ] | Pharmacy in Canada | `/study-abroad/canada/pharmacy` |
-| **117** | 04 | [ ] | Physiotherapy in Canada | `/study-abroad/canada/physiotherapy` |
-| **118** | 05 | [ ] | Public Health in Canada | `/study-abroad/canada/public-health` |
-| **119** | 06 | [ ] | Biotechnology in Canada | `/study-abroad/canada/biotechnology` |
+| **114** | 01 | ✔️ | Dentistry in Canada | `/study-abroad/canada/dentistry` |
+| **115** | 02 | ✔️ | Nursing in Canada | `/study-abroad/canada/nursing` |
+| **116** | 03 | ✔️ | Pharmacy in Canada | `/study-abroad/canada/pharmacy` |
+| **117** | 04 | ✔️ | Physiotherapy in Canada | `/study-abroad/canada/physiotherapy` |
+| **118** | 05 | ✔️ | Public Health in Canada | `/study-abroad/canada/public-health` |
+| **119** | 06 | ✔️ | Biotechnology in Canada | `/study-abroad/canada/biotechnology` |
 
 ### Tech & Engineering Hubs (5)
 | Overall # | Group # | Status | Page Name | Route Path |
 | :---: | :---: | :---: | :--- | :--- |
-| **120** | 07 | [ ] | Computer Science in Canada | `/study-abroad/canada/computer-science` |
-| **121** | 08 | [ ] | Information Technology in Canada | `/study-abroad/canada/information-technology` |
-| **122** | 09 | [ ] | Undergraduate Engineering Hub | `/study-abroad/canada/ug/engineering` |
-| **123** | 10 | [ ] | Postgraduate Engineering Hub | `/study-abroad/canada/pg/engineering` |
+| **120** | 07 | ✔️ | Computer Science in Canada | `/study-abroad/canada/computer-science` |
+| **121** | 08 | ✔️ | Information Technology in Canada | `/study-abroad/canada/information-technology` |
+| **122** | 09 | ✔️ | Undergraduate Engineering Hub | `/study-abroad/canada/ug/engineering` |
+| **123** | 10 | ✔️ | Postgraduate Engineering Hub | `/study-abroad/canada/pg/engineering` |
 | **124** | 11 | [ ] | General Engineering Overview | `/study-abroad/canada/engineering` |
 
 ### UG Engineering Branches (9)
 | Overall # | Group # | Status | Page Name | Route Path |
 | :---: | :---: | :---: | :--- | :--- |
-| **125** | 12 | [ ] | Computer Engineering - UG | `/study-abroad/canada/ug/computer-engineering` |
-| **126** | 13 | [ ] | Mechanical Engineering - UG | `/study-abroad/canada/ug/mechanical-engineering` |
-| **127** | 14 | [ ] | Civil Engineering - UG | `/study-abroad/canada/ug/civil-engineering` |
-| **128** | 15 | [ ] | Electrical Engineering - UG | `/study-abroad/canada/ug/electrical-engineering` |
-| **129** | 16 | [ ] | Electronics & Communication - UG | `/study-abroad/canada/ug/electronics-communication` |
-| **130** | 17 | [ ] | Chemical Engineering - UG | `/study-abroad/canada/ug/chemical-engineering` |
-| **131** | 18 | [ ] | Aerospace Engineering - UG | `/study-abroad/canada/ug/aerospace-engineering` |
-| **132** | 19 | [ ] | Biomedical Engineering - UG | `/study-abroad/canada/ug/biomedical-engineering` |
-| **133** | 20 | [ ] | Automobile Engineering - UG | `/study-abroad/canada/ug/automobile-engineering` |
+| **125** | 12 | ✔️ | Computer Engineering - UG | `/study-abroad/canada/ug/computer-engineering` |
+| **126** | 13 | ✔️ | Mechanical Engineering - UG | `/study-abroad/canada/ug/mechanical-engineering` |
+| **127** | 14 | ✔️ | Civil Engineering - UG | `/study-abroad/canada/ug/civil-engineering` |
+| **128** | 15 | ✔️ | Electrical Engineering - UG | `/study-abroad/canada/ug/electrical-engineering` |
+| **129** | 16 | ✔️ | Electronics & Communication - UG | `/study-abroad/canada/ug/electronics-communication` |
+| **130** | 17 | ✔️ | Chemical Engineering - UG | `/study-abroad/canada/ug/chemical-engineering` |
+| **131** | 18 | ✔️ | Aerospace Engineering - UG | `/study-abroad/canada/ug/aerospace-engineering` |
+| **132** | 19 | ✔️ | Biomedical Engineering - UG | `/study-abroad/canada/ug/biomedical-engineering` |
+| **133** | 20 | ✔️ | Automobile Engineering - UG | `/study-abroad/canada/ug/automobile-engineering` |
 
 ### PG Engineering Branches (9)
 | Overall # | Group # | Status | Page Name | Route Path |
 | :---: | :---: | :---: | :--- | :--- |
-| **134** | 21 | [ ] | Computer Engineering - PG | `/study-abroad/canada/pg/computer-engineering` |
-| **135** | 22 | [ ] | Mechanical Engineering - PG | `/study-abroad/canada/pg/mechanical-engineering` |
-| **136** | 23 | [ ] | Civil Engineering - PG | `/study-abroad/canada/pg/civil-engineering` |
-| **137** | 24 | [ ] | Electrical Engineering - PG | `/study-abroad/canada/pg/electrical-engineering` |
-| **138** | 25 | [ ] | Electronics & Communication - PG | `/study-abroad/canada/pg/electronics-communication` |
-| **139** | 26 | [ ] | Chemical Engineering - PG | `/study-abroad/canada/pg/chemical-engineering` |
-| **140** | 27 | [ ] | Aerospace Engineering - PG | `/study-abroad/canada/pg/aerospace-engineering` |
-| **141** | 28 | [ ] | Biomedical Engineering - PG | `/study-abroad/canada/pg/biomedical-engineering` |
-| **142** | 29 | [ ] | Automobile Engineering - PG | `/study-abroad/canada/pg/automobile-engineering` |
+| **134** | 21 | ✔️ | Computer Engineering - PG | `/study-abroad/canada/pg/computer-engineering` |
+| **135** | 22 | ✔️ | Mechanical Engineering - PG | `/study-abroad/canada/pg/mechanical-engineering` |
+| **136** | 23 | ✔️ | Civil Engineering - PG | `/study-abroad/canada/pg/civil-engineering` |
+| **137** | 24 | ✔️ | Electrical Engineering - PG | `/study-abroad/canada/pg/electrical-engineering` |
+| **138** | 25 | ✔️ | Electronics & Communication - PG | `/study-abroad/canada/pg/electronics-communication` |
+| **139** | 26 | ✔️ | Chemical Engineering - PG | `/study-abroad/canada/pg/chemical-engineering` |
+| **140** | 27 | ✔️ | Aerospace Engineering - PG | `/study-abroad/canada/pg/aerospace-engineering` |
+| **141** | 28 | ✔️ | Biomedical Engineering - PG | `/study-abroad/canada/pg/biomedical-engineering` |
+| **142** | 29 | ✔️ | Automobile Engineering - PG | `/study-abroad/canada/pg/automobile-engineering` |
 
 ### Business, Management & Law (12)
 | Overall # | Group # | Status | Page Name | Route Path |
 | :---: | :---: | :---: | :--- | :--- |
-| **143** | 30 | [ ] | Business Management in Canada | `/study-abroad/canada/business-management` |
-| **144** | 31 | [ ] | MBA in Canada | `/study-abroad/canada/mba` |
-| **145** | 32 | [ ] | Executive MBA in Canada | `/study-abroad/canada/executive-mba` |
-| **146** | 33 | [ ] | BBA in Canada | `/study-abroad/canada/bba` |
-| **147** | 34 | [ ] | BBS in Canada | `/study-abroad/canada/bbs` |
-| **148** | 35 | [ ] | MBS in Canada | `/study-abroad/canada/mbs` |
-| **149** | 36 | [ ] | International Business in Canada | `/study-abroad/canada/international-business` |
-| **150** | 37 | [ ] | Marketing Management in Canada | `/study-abroad/canada/marketing-management` |
+| **143** | 30 | ✔️ | Business Management in Canada | `/study-abroad/canada/business-management` |
+| **144** | 31 | ✔️ | MBA in Canada | `/study-abroad/canada/mba` |
+| **145** | 32 | ✔️ | Executive MBA in Canada | `/study-abroad/canada/executive-mba` |
+| **146** | 33 | ✔️ | BBA in Canada | `/study-abroad/canada/bba` |
+| **147** | 34 | ✔️ | BBS in Canada | `/study-abroad/canada/bbs` |
+| **148** | 35 | ✔️ | MBS in Canada | `/study-abroad/canada/mbs` |
+| **149** | 36 | ✔️ | International Business in Canada | `/study-abroad/canada/international-business` |
+| **150** | 37 | ✔️ | Marketing Management in Canada | `/study-abroad/canada/marketing-management` |
 | **151** | 38 | [ ] | Accounting & Finance in Canada | `/study-abroad/canada/accounting-finance` |
-| **152** | 39 | [ ] | Hospitality Management in Canada | `/study-abroad/canada/hospitality-management` |
-| **153** | 40 | [ ] | Architecture in Canada | `/study-abroad/canada/architecture` |
-| **154** | 41 | [ ] | Law in Canada | `/study-abroad/canada/law` |
+| **152** | 39 | ✔️ | Hospitality Management in Canada | `/study-abroad/canada/hospitality-management` |
+| **153** | 40 | ✔️ | Architecture in Canada | `/study-abroad/canada/architecture` |
+| **154** | 41 | ✔️ | Law in Canada | `/study-abroad/canada/law` |
 
 ### Programs & Pathways (4)
 | Overall # | Group # | Status | Page Name | Route Path |
 | :---: | :---: | :---: | :--- | :--- |
-| **155** | 42 | [ ] | Language Courses in Canada | `/study-abroad/canada/language-courses` |
-| **156** | 43 | [ ] | Summer Courses in Canada | `/study-abroad/canada/summer-courses` |
-| **157** | 44 | [ ] | Winter Courses in Canada | `/study-abroad/canada/winter-courses` |
+| **155** | 42 | ✔️ | Language Courses in Canada | `/study-abroad/canada/language-courses` |
+| **156** | 43 | ✔️ | Summer Courses in Canada | `/study-abroad/canada/summer-courses` |
+| **157** | 44 | ✔️ | Winter Courses in Canada | `/study-abroad/canada/winter-courses` |
 | **158** | 45 | [ ] | Working Professionals in Canada | `/study-abroad/canada/working-professionals` |
 
 ---

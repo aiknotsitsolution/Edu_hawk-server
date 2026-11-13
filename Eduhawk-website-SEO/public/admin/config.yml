@@ -10355,6 +10355,2237 @@ collections:
               - {"label": "Question", "name": "question", "widget": "string"}
               - {"label": "Answer", "name": "answer", "widget": "text"}
 
+  - name: "study_abroad_canada"
+    label: "Study Abroad - Canada"
+    delete: false
+    files:
+      - label: "Dentistry (MBBS Abroad)"
+        name: "canada_dentistry"
+        file: "src/data/study_abroad/canada/dentistry.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Nursing (MBBS Abroad)"
+        name: "canada_nursing"
+        file: "src/data/study_abroad/canada/nursing.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Pharmacy (MBBS Abroad)"
+        name: "canada_pharmacy"
+        file: "src/data/study_abroad/canada/pharmacy.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Physiotherapy (MBBS Abroad)"
+        name: "canada_physiotherapy"
+        file: "src/data/study_abroad/canada/physiotherapy.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Public Health (MBBS Abroad)"
+        name: "canada_public_health"
+        file: "src/data/study_abroad/canada/public_health.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Biotechnology (MBBS Abroad)"
+        name: "canada_biotechnology"
+        file: "src/data/study_abroad/canada/biotechnology.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Computer Science"
+        name: "canada_computer_science"
+        file: "src/data/study_abroad/canada/computer_science.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Information Technology"
+        name: "canada_information_technology"
+        file: "src/data/study_abroad/canada/information_technology.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "UG Engineering Hub"
+        name: "canada_ug_engineering_hub"
+        file: "src/data/study_abroad/canada/ug_hub.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Computer Engineering (UG)"
+        name: "canada_comp_engg_ug"
+        file: "src/data/study_abroad/canada/comp_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Mechanical Engineering (UG)"
+        name: "canada_mech_engg_ug"
+        file: "src/data/study_abroad/canada/mech_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Civil Engineering (UG)"
+        name: "canada_civil_engg_ug"
+        file: "src/data/study_abroad/canada/civil_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Electrical Engineering (UG)"
+        name: "canada_elec_engg_ug"
+        file: "src/data/study_abroad/canada/elec_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Electronics & Communication (UG)"
+        name: "canada_ece_engg_ug"
+        file: "src/data/study_abroad/canada/ece_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Chemical Engineering (UG)"
+        name: "canada_chem_engg_ug"
+        file: "src/data/study_abroad/canada/chem_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Aerospace Engineering (UG)"
+        name: "canada_aero_engg_ug"
+        file: "src/data/study_abroad/canada/aero_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Biomedical Engineering (UG)"
+        name: "canada_biomed_engg_ug"
+        file: "src/data/study_abroad/canada/biomed_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Automobile Engineering (UG)"
+        name: "canada_auto_engg_ug"
+        file: "src/data/study_abroad/canada/auto_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "PG Engineering Hub"
+        name: "canada_pg_engineering_hub"
+        file: "src/data/study_abroad/canada/pg_hub.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Computer Engineering (PG)"
+        name: "canada_comp_engg_pg"
+        file: "src/data/study_abroad/canada/comp_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Mechanical Engineering (PG)"
+        name: "canada_mech_engg_pg"
+        file: "src/data/study_abroad/canada/mech_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Civil Engineering (PG)"
+        name: "canada_civil_engg_pg"
+        file: "src/data/study_abroad/canada/civil_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Electrical Engineering (PG)"
+        name: "canada_elec_engg_pg"
+        file: "src/data/study_abroad/canada/elec_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Electronics & Communication (PG)"
+        name: "canada_ece_engg_pg"
+        file: "src/data/study_abroad/canada/ece_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Chemical Engineering (PG)"
+        name: "canada_chem_engg_pg"
+        file: "src/data/study_abroad/canada/chem_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Aerospace Engineering (PG)"
+        name: "canada_aero_engg_pg"
+        file: "src/data/study_abroad/canada/aero_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Biomedical Engineering (PG)"
+        name: "canada_biomed_engg_pg"
+        file: "src/data/study_abroad/canada/biomed_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Automobile Engineering (PG)"
+        name: "canada_auto_engg_pg"
+        file: "src/data/study_abroad/canada/auto_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Business Management Hub"
+        name: "canada_business_hub"
+        file: "src/data/study_abroad/canada/business_hub.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "MBA"
+        name: "canada_mba"
+        file: "src/data/study_abroad/canada/mba.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Executive MBA"
+        name: "canada_executive_mba"
+        file: "src/data/study_abroad/canada/executive_mba.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "BBA"
+        name: "canada_bba"
+        file: "src/data/study_abroad/canada/bba.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "BBS"
+        name: "canada_bbs"
+        file: "src/data/study_abroad/canada/bbs.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "MBS"
+        name: "canada_mbs"
+        file: "src/data/study_abroad/canada/mbs.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "International Business"
+        name: "canada_international_business"
+        file: "src/data/study_abroad/canada/international_business.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Marketing Management"
+        name: "canada_marketing_management"
+        file: "src/data/study_abroad/canada/marketing_management.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Hospitality Management"
+        name: "canada_hospitality_management"
+        file: "src/data/study_abroad/canada/hospitality_management.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Architecture"
+        name: "canada_architecture"
+        file: "src/data/study_abroad/canada/architecture.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Law"
+        name: "canada_law"
+        file: "src/data/study_abroad/canada/law.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Language Courses"
+        name: "canada_language_courses"
+        file: "src/data/study_abroad/canada/language_courses.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Summer Courses"
+        name: "canada_summer_courses"
+        file: "src/data/study_abroad/canada/summer_courses.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Winter Courses"
+        name: "canada_winter_courses"
+        file: "src/data/study_abroad/canada/winter_courses.json"
+        media_folder: "public/uploads/study_abroad/canada"
+        public_folder: "/uploads/study_abroad/canada"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Canadian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+
   - name: "tests_exams"
     label: "Tests & Online Exams (Common)"
     folder: "src/data/common/tests"

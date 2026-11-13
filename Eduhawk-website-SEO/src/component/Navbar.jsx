@@ -112,6 +112,19 @@ const Navbar = () => {
         if (path === "engineering") return "/study-abroad/australia/ug/engineering";
         return `/study-abroad/australia/ug/${path}`;
       }
+      if (prefix === "/courses/pg") {
+        if (path === "engineering") return "/study-abroad/australia/pg/engineering";
+        return `/study-abroad/australia/pg/${path}`;
+      }
+      if (path === "dentistry") return "/study-abroad/australia/dentistry";
+      if (path === "nursing") return "/study-abroad/australia/nursing";
+      if (path === "pharmacy") return "/study-abroad/australia/pharmacy";
+      if (path === "physiotherapy") return "/study-abroad/australia/physiotherapy";
+      if (path === "public-health") return "/study-abroad/australia/public-health";
+      if (path === "biotechnology") return "/study-abroad/australia/biotechnology";
+      if (path === "engineering") return "/study-abroad/australia/ug/engineering";
+      return `/study-abroad/australia/${path}`;
+    }
     if (selectedCountry === "Italy") {
       if (prefix === "/courses/ug") {
         if (path === "engineering") return "/study-abroad/italy/ug/engineering";
@@ -130,18 +143,23 @@ const Navbar = () => {
       if (path === "engineering") return "/study-abroad/italy/ug/engineering";
       return `/study-abroad/italy/${path}`;
     }
-      if (prefix === "/courses/pg") {
-        if (path === "engineering") return "/study-abroad/australia/pg/engineering";
-        return `/study-abroad/australia/pg/${path}`;
+    if (selectedCountry === "Canada") {
+      if (prefix === "/courses/ug") {
+        if (path === "engineering") return "/study-abroad/canada/ug/engineering";
+        return `/study-abroad/canada/ug/${path}`;
       }
-      if (path === "dentistry") return "/study-abroad/australia/dentistry";
-      if (path === "nursing") return "/study-abroad/australia/nursing";
-      if (path === "pharmacy") return "/study-abroad/australia/pharmacy";
-      if (path === "physiotherapy") return "/study-abroad/australia/physiotherapy";
-      if (path === "public-health") return "/study-abroad/australia/public-health";
-      if (path === "biotechnology") return "/study-abroad/australia/biotechnology";
-      if (path === "engineering") return "/study-abroad/australia/ug/engineering";
-      return `/study-abroad/australia/${path}`;
+      if (prefix === "/courses/pg") {
+        if (path === "engineering") return "/study-abroad/canada/pg/engineering";
+        return `/study-abroad/canada/pg/${path}`;
+      }
+      if (path === "dentistry") return "/study-abroad/canada/dentistry";
+      if (path === "nursing") return "/study-abroad/canada/nursing";
+      if (path === "pharmacy") return "/study-abroad/canada/pharmacy";
+      if (path === "physiotherapy") return "/study-abroad/canada/physiotherapy";
+      if (path === "public-health") return "/study-abroad/canada/public-health";
+      if (path === "biotechnology") return "/study-abroad/canada/biotechnology";
+      if (path === "engineering") return "/study-abroad/canada/ug/engineering";
+      return `/study-abroad/canada/${path}`;
     }
     return `${prefix}/${path}?country=${selectedCountry.toLowerCase()}`;
   };

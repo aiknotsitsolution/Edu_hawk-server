@@ -236,6 +236,50 @@ const LanguageCoursesItaly = lazy(() => import("../pages/Study Abroad/Italy/Lang
 const SummerCoursesItaly = lazy(() => import("../pages/Study Abroad/Italy/SummerCourses/summer-courses.jsx"));
 const WinterCoursesItaly = lazy(() => import("../pages/Study Abroad/Italy/WinterCourses/winter-courses.jsx"));
 
+// Canada Routes
+const DentistryAbroadCanada = lazy(() => import("../pages/Study Abroad/Canada/MBBS Abroad/DentistryAbroad.jsx"));
+const NursingAbroadCanada = lazy(() => import("../pages/Study Abroad/Canada/MBBS Abroad/NursingAbroad.jsx"));
+const PharmacyAbroadCanada = lazy(() => import("../pages/Study Abroad/Canada/MBBS Abroad/PharmacyAbroad.jsx"));
+const PhysiotherapyAbroadCanada = lazy(() => import("../pages/Study Abroad/Canada/MBBS Abroad/PhysiotherapyAbroad.jsx"));
+const PublicHealthCanada = lazy(() => import("../pages/Study Abroad/Canada/MBBS Abroad/PublicHealth.jsx"));
+const BiotechnologyCanada = lazy(() => import("../pages/Study Abroad/Canada/MBBS Abroad/Biotechnology.jsx"));
+const ComputerScienceCanada = lazy(() => import("../pages/Study Abroad/Canada/ComputerScience/computer-science.jsx"));
+const InformationTechnologyCanada = lazy(() => import("../pages/Study Abroad/Canada/InformationTechnology/information-technology.jsx"));
+const UndergraduateEngineeringCanada = lazy(() => import("../pages/Study Abroad/Canada/Engineering/ug/undergraduate.jsx"));
+const ComputerEngineeringUGCanada = lazy(() => import("../pages/Study Abroad/Canada/Engineering/ug/pages/ComputerEngineering.jsx"));
+const MechanicalEngineeringUGCanada = lazy(() => import("../pages/Study Abroad/Canada/Engineering/ug/pages/MechanicalEngineering.jsx"));
+const CivilEngineeringUGCanada = lazy(() => import("../pages/Study Abroad/Canada/Engineering/ug/pages/CivilEngineering.jsx"));
+const ElectricalEngineeringUGCanada = lazy(() => import("../pages/Study Abroad/Canada/Engineering/ug/pages/ElectricalEngineering.jsx"));
+const ElectronicsCommunicationUGCanada = lazy(() => import("../pages/Study Abroad/Canada/Engineering/ug/pages/ElectronicsCommunication.jsx"));
+const ChemicalEngineeringUGCanada = lazy(() => import("../pages/Study Abroad/Canada/Engineering/ug/pages/ChemicalEngineering.jsx"));
+const AerospaceEngineeringUGCanada = lazy(() => import("../pages/Study Abroad/Canada/Engineering/ug/pages/AerospaceEngineering.jsx"));
+const BiomedicalEngineeringUGCanada = lazy(() => import("../pages/Study Abroad/Canada/Engineering/ug/pages/BiomedicalEngineering.jsx"));
+const AutomobileEngineeringUGCanada = lazy(() => import("../pages/Study Abroad/Canada/Engineering/ug/pages/AutomobileEngineering.jsx"));
+const PostgraduateEngineeringCanada = lazy(() => import("../pages/Study Abroad/Canada/Engineering/pg/postgraduate.jsx"));
+const ComputerEngineeringPGCanada = lazy(() => import("../pages/Study Abroad/Canada/Engineering/pg/pages/ComputerEngineering.jsx"));
+const MechanicalEngineeringPGCanada = lazy(() => import("../pages/Study Abroad/Canada/Engineering/pg/pages/MechanicalEngineering.jsx"));
+const CivilEngineeringPGCanada = lazy(() => import("../pages/Study Abroad/Canada/Engineering/pg/pages/CivilEngineering.jsx"));
+const ElectricalEngineeringPGCanada = lazy(() => import("../pages/Study Abroad/Canada/Engineering/pg/pages/ElectricalEngineering.jsx"));
+const ElectronicsCommunicationPGCanada = lazy(() => import("../pages/Study Abroad/Canada/Engineering/pg/pages/ElectronicsCommunication.jsx"));
+const ChemicalEngineeringPGCanada = lazy(() => import("../pages/Study Abroad/Canada/Engineering/pg/pages/ChemicalEngineering.jsx"));
+const AerospaceEngineeringPGCanada = lazy(() => import("../pages/Study Abroad/Canada/Engineering/pg/pages/AerospaceEngineering.jsx"));
+const BiomedicalEngineeringPGCanada = lazy(() => import("../pages/Study Abroad/Canada/Engineering/pg/pages/BiomedicalEngineering.jsx"));
+const AutomobileEngineeringPGCanada = lazy(() => import("../pages/Study Abroad/Canada/Engineering/pg/pages/AutomobileEngineering.jsx"));
+const BusinessManagementCanada = lazy(() => import("../pages/Study Abroad/Canada/BusinessManagement/business-management.jsx"));
+const MBACanada = lazy(() => import("../pages/Study Abroad/Canada/MBA/mba.jsx"));
+const ExecutiveMBACanada = lazy(() => import("../pages/Study Abroad/Canada/ExecutiveMBA/executive-mba.jsx"));
+const BBACanada = lazy(() => import("../pages/Study Abroad/Canada/BBA/bba.jsx"));
+const BBSCanada = lazy(() => import("../pages/Study Abroad/Canada/BBS/bbs.jsx"));
+const MBSCanada = lazy(() => import("../pages/Study Abroad/Canada/MBS/mbs.jsx"));
+const InternationalBusinessCanada = lazy(() => import("../pages/Study Abroad/Canada/InternationalBusiness/international-business.jsx"));
+const MarketingManagementCanada = lazy(() => import("../pages/Study Abroad/Canada/MarketingManagement/marketing-management.jsx"));
+const HospitalityManagementCanada = lazy(() => import("../pages/Study Abroad/Canada/HospitalityManagement/hospitality-management.jsx"));
+const ArchitectureCanada = lazy(() => import("../pages/Study Abroad/Canada/Architecture/architecture.jsx"));
+const LawCanada = lazy(() => import("../pages/Study Abroad/Canada/Law/law.jsx"));
+const LanguageCoursesCanada = lazy(() => import("../pages/Study Abroad/Canada/LanguageCourses/language-courses.jsx"));
+const SummerCoursesCanada = lazy(() => import("../pages/Study Abroad/Canada/SummerCourses/summer-courses.jsx"));
+const WinterCoursesCanada = lazy(() => import("../pages/Study Abroad/Canada/WinterCourses/winter-courses.jsx"));
+
 export const router = createBrowserRouter([
   {
     path: "landingpage",
@@ -1576,6 +1620,49 @@ export const routeList = [
   "/study-abroad/italy/language-courses",
   "/study-abroad/italy/summer-courses",
   "/study-abroad/italy/winter-courses",
+  // Canada Routes
+  "/study-abroad/canada/dentistry",
+  "/study-abroad/canada/nursing",
+  "/study-abroad/canada/pharmacy",
+  "/study-abroad/canada/physiotherapy",
+  "/study-abroad/canada/public-health",
+  "/study-abroad/canada/biotechnology",
+  "/study-abroad/canada/computer-science",
+  "/study-abroad/canada/information-technology",
+  "/study-abroad/canada/ug/engineering",
+  "/study-abroad/canada/ug/computer-engineering",
+  "/study-abroad/canada/ug/mechanical-engineering",
+  "/study-abroad/canada/ug/civil-engineering",
+  "/study-abroad/canada/ug/electrical-engineering",
+  "/study-abroad/canada/ug/electronics-communication",
+  "/study-abroad/canada/ug/chemical-engineering",
+  "/study-abroad/canada/ug/aerospace-engineering",
+  "/study-abroad/canada/ug/biomedical-engineering",
+  "/study-abroad/canada/ug/automobile-engineering",
+  "/study-abroad/canada/pg/engineering",
+  "/study-abroad/canada/pg/computer-engineering",
+  "/study-abroad/canada/pg/mechanical-engineering",
+  "/study-abroad/canada/pg/civil-engineering",
+  "/study-abroad/canada/pg/electrical-engineering",
+  "/study-abroad/canada/pg/electronics-communication",
+  "/study-abroad/canada/pg/chemical-engineering",
+  "/study-abroad/canada/pg/aerospace-engineering",
+  "/study-abroad/canada/pg/biomedical-engineering",
+  "/study-abroad/canada/pg/automobile-engineering",
+  "/study-abroad/canada/business-management",
+  "/study-abroad/canada/mba",
+  "/study-abroad/canada/executive-mba",
+  "/study-abroad/canada/bba",
+  "/study-abroad/canada/bbs",
+  "/study-abroad/canada/mbs",
+  "/study-abroad/canada/international-business",
+  "/study-abroad/canada/marketing-management",
+  "/study-abroad/canada/hospitality-management",
+  "/study-abroad/canada/architecture",
+  "/study-abroad/canada/law",
+  "/study-abroad/canada/language-courses",
+  "/study-abroad/canada/summer-courses",
+  "/study-abroad/canada/winter-courses",
   "/terms-conditions",
   "/privacy-policy",
   "/cookies-policy",
