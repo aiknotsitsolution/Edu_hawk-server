@@ -1,0 +1,87 @@
+{
+  "seo": {
+    "title": "Undergraduate Automobile Engineering in Australia | Edu-Hawk Worldwide",
+    "description": "Study Bachelor's in Automobile Engineering in Australia for Indian students. Learn about top universities (UNSW, RMIT, Swinburne), eligibility, fees, accreditation, and career opportunities."
+  },
+  "hero": {
+    "badge": "Study Abroad - Australia",
+    "title": "Australia's Automobile Engineering",
+    "subtitle": "Automobile engineering focuses on vehicle design, powertrain development, electric vehicle (EV) technologies, autonomous driving systems, and smart mobility solutions.",
+    "ctaText": "Book Free Counselling",
+    "image": ""
+  },
+  "stats": [
+    {
+      "n": "1000+",
+      "l": "Students Placed Globally"
+    },
+    {
+      "n": "20+",
+      "l": "Countries"
+    },
+    {
+      "n": "200+",
+      "l": "Partner Universities"
+    },
+    {
+      "n": "100%",
+      "l": "Support (Visa & End-to-End Guidance)"
+    }
+  ],
+  "highlights": {
+    "degree": "Bachelor of Engineering (Honours)",
+    "duration": "4 Years Full-Time",
+    "fee": "AUD 30,000 – AUD 52,000 / Year",
+    "eligibility": "Recognised academic qualification + English proficiency",
+    "medium": "100% English Taught"
+  },
+  "overview": "Undergraduate programs focus on vehicle dynamics, battery electric powertrains, autonomous vehicle control, crash safety, lightweight materials, and advanced automotive manufacturing.",
+  "universities": [
+    {
+      "name": "The University of Melbourne",
+      "location": "Melbourne, Australia",
+      "fee": "AUD 30,000 – AUD 52,000 / Year",
+      "image": ""
+    },
+    {
+      "name": "The University of Sydney",
+      "location": "Sydney, Australia",
+      "fee": "AUD 30,000 – AUD 52,000 / Year",
+      "image": ""
+    },
+    {
+      "name": "The University of Queensland",
+      "location": "Brisbane, Australia",
+      "fee": "AUD 30,000 – AUD 52,000 / Year",
+      "image": ""
+    },
+    {
+      "name": "Monash University",
+      "location": "Melbourne, Australia",
+      "fee": "AUD 30,000 – AUD 52,000 / Year",
+      "image": ""
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is it possible for Indian students to study automotive engineering in Australia?",
+      "answer": "Indeed, when available, Indian students can pursue degrees in mechanical, mechatronic, and electrical engineering as well as automotive engineering. The course and the institution determine eligibility."
+    },
+    {
+      "question": "How long does it take to become an automobile engineer in Australia?",
+      "answer": "It typically takes three to four years to complete a relevant undergraduate engineering degree. The degree and university determine the precise time frame."
+    },
+    {
+      "question": "What topics are crucial for automotive engineering?",
+      "answer": "Physics and mathematics are very pertinent. Certain Class 12 subjects or comparable prerequisites may be necessary for certain courses."
+    },
+    {
+      "question": "Are scholarships available to students?",
+      "answer": "Scholarships are available from some universities to qualified foreign students. Academic merit, course eligibility, and other factors may influence awards."
+    },
+    {
+      "question": "Does a degree in automotive engineering provide employment or long-term residency?",
+      "answer": "No, a degree does not ensure employment, a specific wage, immigration status, or permanent residency. These rely on the specifics of each case, the demands of the employer, and the regulations in force at the time."
+    }
+  ]
+}

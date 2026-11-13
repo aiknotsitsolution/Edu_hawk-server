@@ -1,0 +1,87 @@
+{
+  "seo": {
+    "title": "Undergraduate Aerospace Engineering in Australia | Edu-Hawk Worldwide",
+    "description": "Study Bachelor's in Aerospace Engineering in Australia for Indian students. Learn about top universities (UNSW, RMIT, Monash, Adelaide), eligibility, fees, accreditation, and career opportunities."
+  },
+  "hero": {
+    "badge": "Study Abroad - Australia",
+    "title": "Study Australia's Undergraduate Aerospace Engineering Program",
+    "subtitle": "Aerospace engineering encompasses the design, development, testing, and production of aircraft, spacecraft, satellites, drones, and advanced defense systems.",
+    "ctaText": "Book Free Counselling",
+    "image": ""
+  },
+  "stats": [
+    {
+      "n": "1000+",
+      "l": "Students Placed Globally"
+    },
+    {
+      "n": "20+",
+      "l": "Countries"
+    },
+    {
+      "n": "200+",
+      "l": "Partner Universities"
+    },
+    {
+      "n": "100%",
+      "l": "Support (Visa & End-to-End Guidance)"
+    }
+  ],
+  "highlights": {
+    "degree": "Bachelor of Engineering (Honours)",
+    "duration": "4 Years Full-Time",
+    "fee": "AUD 30,000 – AUD 52,000 / Year",
+    "eligibility": "Recognised academic qualification + English proficiency",
+    "medium": "100% English Taught"
+  },
+  "overview": "Undergraduate programs focus on aerodynamics, propulsion systems, flight mechanics, orbital dynamics, composite materials, avionics, and autonomous aerospace systems.",
+  "universities": [
+    {
+      "name": "The University of Melbourne",
+      "location": "Melbourne, Australia",
+      "fee": "AUD 30,000 – AUD 52,000 / Year",
+      "image": ""
+    },
+    {
+      "name": "The University of Sydney",
+      "location": "Sydney, Australia",
+      "fee": "AUD 30,000 – AUD 52,000 / Year",
+      "image": ""
+    },
+    {
+      "name": "The University of Queensland",
+      "location": "Brisbane, Australia",
+      "fee": "AUD 30,000 – AUD 52,000 / Year",
+      "image": ""
+    },
+    {
+      "name": "Monash University",
+      "location": "Melbourne, Australia",
+      "fee": "AUD 30,000 – AUD 52,000 / Year",
+      "image": ""
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is it possible for Indian students to study aerospace engineering in Australia?",
+      "answer": "Yes, qualified students completing Class 12 with senior secondary Mathematics and Physics are eligible to apply."
+    },
+    {
+      "question": "What is the duration of an Australian degree program in aerospace engineering?",
+      "answer": "A standard Bachelor of Engineering (Honours) requires 4 years of full-time study."
+    },
+    {
+      "question": "Does aerospace engineering require mathematics?",
+      "answer": "Yes, advanced mathematics and physics are mandatory prerequisites."
+    },
+    {
+      "question": "Which Australian colleges provide degrees specifically in aerospace engineering?",
+      "answer": "Leading institutions include UNSW Sydney, RMIT University, Monash University, and The University of Adelaide."
+    },
+    {
+      "question": "How much does it cost to study aerospace engineering in Australia?",
+      "answer": "Annual international tuition ranges from AUD 42,000 to AUD 55,000, depending on the university."
+    }
+  ]
+}

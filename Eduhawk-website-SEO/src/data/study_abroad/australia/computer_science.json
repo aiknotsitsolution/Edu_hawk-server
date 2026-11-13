@@ -1,0 +1,87 @@
+{
+  "seo": {
+    "title": "Postgraduate Computer Science in Australia for Indian Students | Edu-Hawk Worldwide",
+    "description": "Study Postgraduate Computer Science in Australia. Compare top universities (Melbourne, Sydney, UNSW, Deakin), eligibility, fees, ACS accreditation, and tech career opportunities."
+  },
+  "hero": {
+    "badge": "Study Abroad - Australia",
+    "title": "Australia's postgraduate computer science program",
+    "subtitle": "Students who wish to gain advanced technical knowledge, programming skills, analytical ability, and expertise in contemporary computing technologies can enrolll in postgraduate computer science programs in Australia.",
+    "ctaText": "Book Free Counselling",
+    "image": ""
+  },
+  "stats": [
+    {
+      "n": "1000+",
+      "l": "Students Placed Globally"
+    },
+    {
+      "n": "20+",
+      "l": "Countries"
+    },
+    {
+      "n": "200+",
+      "l": "Partner Universities"
+    },
+    {
+      "n": "100%",
+      "l": "Support (Visa & End-to-End Guidance)"
+    }
+  ],
+  "highlights": {
+    "degree": "Master of Computer Science (M.CS / M.Sc)",
+    "duration": "1.5 to 2 Years Full-Time",
+    "fee": "AUD 30,000 – AUD 52,000 / Year",
+    "eligibility": "Recognised academic qualification + English proficiency",
+    "medium": "100% English Taught"
+  },
+  "overview": "Depending on their educational background and professional aspirations, Indian students can investigate postgraduate options in computer science, information technology, software engineering, artificial intelligence, data science, cybersecurity, and related fields.\n\nStudents can improve their technical proficiency and get ready for opportunities in technology businesses, financial services, healthcare, telecommunications, research, and other areas with a postgraduate degree.\n\nEdu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities.",
+  "universities": [
+    {
+      "name": "The University of Melbourne",
+      "location": "Melbourne, Australia",
+      "fee": "AUD 30,000 – AUD 52,000 / Year",
+      "image": ""
+    },
+    {
+      "name": "The University of Sydney",
+      "location": "Sydney, Australia",
+      "fee": "AUD 30,000 – AUD 52,000 / Year",
+      "image": ""
+    },
+    {
+      "name": "The University of Queensland",
+      "location": "Brisbane, Australia",
+      "fee": "AUD 30,000 – AUD 52,000 / Year",
+      "image": ""
+    },
+    {
+      "name": "Monash University",
+      "location": "Melbourne, Australia",
+      "fee": "AUD 30,000 – AUD 52,000 / Year",
+      "image": ""
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is it possible for Indian students to pursue graduate studies in computer science in Australia?",
+      "answer": "Indeed. Indian students who fulfill the academic, English language, and other requirements of the university and course of their choice are eligible to apply."
+    },
+    {
+      "question": "Which undergraduate degree is appropriate for a computer science master's degree?",
+      "answer": "Common backgrounds include computer science, information technology, software engineering, and computer engineering. Subject to their admission standards, several programs admit students from different fields."
+    },
+    {
+      "question": "What is the duration of a masters course in computer science?",
+      "answer": "Depending on the course design, prior credentials, and authorized credit, many programs last one to two years."
+    },
+    {
+      "question": "Does admission require taking the IELTS?",
+      "answer": "Unless there is a recognized exception, English language evidence is typically needed. IELTS, TOEFL, PTE, and other authorized tests may be accepted by universities."
+    },
+    {
+      "question": "Can kids who have never used a computer apply?",
+      "answer": "For students without a computing degree, some colleges offer conversion or more comprehensive IT programs. Programming or math experience may be necessary for technical programs."
+    }
+  ]
+}

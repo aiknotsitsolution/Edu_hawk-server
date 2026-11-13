@@ -1,0 +1,87 @@
+{
+  "seo": {
+    "title": "Undergraduate Biomedical Engineering in Australia | Edu-Hawk Worldwide",
+    "description": "Study Bachelor's in Biomedical Engineering in Australia for Indian students. Learn about top universities (Flinders, UTS, Swinburne, Monash), eligibility, fees, accreditation, and career opportunities."
+  },
+  "hero": {
+    "badge": "Study Abroad - Australia",
+    "title": "Australian undergraduate biomedical engineering programs",
+    "subtitle": "Biomedical engineering bridges engineering principles with medical sciences to design life-saving technologies such as artificial organs, medical imaging devices, prosthetics, and biomaterials.",
+    "ctaText": "Book Free Counselling",
+    "image": ""
+  },
+  "stats": [
+    {
+      "n": "1000+",
+      "l": "Students Placed Globally"
+    },
+    {
+      "n": "20+",
+      "l": "Countries"
+    },
+    {
+      "n": "200+",
+      "l": "Partner Universities"
+    },
+    {
+      "n": "100%",
+      "l": "Support (Visa & End-to-End Guidance)"
+    }
+  ],
+  "highlights": {
+    "degree": "Bachelor of Engineering (Honours)",
+    "duration": "4 Years Full-Time",
+    "fee": "AUD 30,000 – AUD 52,000 / Year",
+    "eligibility": "Recognised academic qualification + English proficiency",
+    "medium": "100% English Taught"
+  },
+  "overview": "Undergraduate programs focus on biomechanics, biomaterials, physiological modeling, medical imaging, bioinstrumentation, and neural engineering.",
+  "universities": [
+    {
+      "name": "The University of Melbourne",
+      "location": "Melbourne, Australia",
+      "fee": "AUD 30,000 – AUD 52,000 / Year",
+      "image": ""
+    },
+    {
+      "name": "The University of Sydney",
+      "location": "Sydney, Australia",
+      "fee": "AUD 30,000 – AUD 52,000 / Year",
+      "image": ""
+    },
+    {
+      "name": "The University of Queensland",
+      "location": "Brisbane, Australia",
+      "fee": "AUD 30,000 – AUD 52,000 / Year",
+      "image": ""
+    },
+    {
+      "name": "Monash University",
+      "location": "Melbourne, Australia",
+      "fee": "AUD 30,000 – AUD 52,000 / Year",
+      "image": ""
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is it possible for Indian students to pursue biomedical engineering in Australia?",
+      "answer": "Yes, qualified students completing Class 12 with Mathematics, Physics, or Biology are eligible to apply."
+    },
+    {
+      "question": "How long does it take to earn a degree in biomedical engineering in Australia?",
+      "answer": "A standard Bachelor of Engineering (Honours) requires 4 years of full-time study."
+    },
+    {
+      "question": "Is biology required to pursue a career in biomedical engineering?",
+      "answer": "Mathematics is compulsory, while Biology is recommended but often taught from introductory levels in university."
+    },
+    {
+      "question": "What proportion of Class 12 is needed?",
+      "answer": "Minimum percentage cut-offs typically range from 68% to 82% depending on the institution."
+    },
+    {
+      "question": "Is employment or permanent residency in Australia guaranteed by a degree in biomedical engineering?",
+      "answer": "No degree guarantees employment or PR, but biomedical engineering is in high demand across Australia's healthcare technology sector."
+    }
+  ]
+}

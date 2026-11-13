@@ -34,7 +34,8 @@
   - [x] Master grouped CMS collections configure karna (Main Pages, USA, Finland, Tests & Exams, News, Blog)
   - [x] Sub-folder organized media folders setup karna (`public/uploads/{home,about,news,tests,study_abroad}`)
   - [x] Site-wide statistics unify karna (1000+ Students, 20+ Countries, 200+ Universities, 100% Support)
-  - [ ] Remaining country programs (Australia, Canada, UK, etc.) jaise hi content receive ho tab integrate karna
+  - [x] Australia program (All 42 pages) Decap CMS collection, JSON data schema & upload directories integrate karna
+  - [ ] Remaining country programs (Canada, UK, Germany, Ireland, etc.) jaise hi content receive ho tab integrate karna
 
 - [ ] **Step 5: Production GitHub OAuth & Deployment Setup**
   - [ ] GitHub Developer Settings me OAuth App create karna (Client ID & Secret)

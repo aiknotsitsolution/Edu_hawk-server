@@ -1,0 +1,87 @@
+{
+  "seo": {
+    "title": "Undergraduate Electrical Engineering in Australia | Edu-Hawk Worldwide",
+    "description": "Study Bachelor's in Electrical Engineering in Australia for Indian students. Learn about top universities (Monash, UNSW, QUT, UQ), eligibility, fees, Engineers Australia accreditation, and career opportunities."
+  },
+  "hero": {
+    "badge": "Study Abroad - Australia",
+    "title": "Study Australian undergraduate electrical engineering programs.",
+    "subtitle": "Electrical engineering focuses on power generation, renewable energy systems, electronics, telecommunications, and digital automation.",
+    "ctaText": "Book Free Counselling",
+    "image": ""
+  },
+  "stats": [
+    {
+      "n": "1000+",
+      "l": "Students Placed Globally"
+    },
+    {
+      "n": "20+",
+      "l": "Countries"
+    },
+    {
+      "n": "200+",
+      "l": "Partner Universities"
+    },
+    {
+      "n": "100%",
+      "l": "Support (Visa & End-to-End Guidance)"
+    }
+  ],
+  "highlights": {
+    "degree": "Bachelor of Engineering (Honours)",
+    "duration": "4 Years Full-Time",
+    "fee": "AUD 30,000 – AUD 52,000 / Year",
+    "eligibility": "Recognised academic qualification + English proficiency",
+    "medium": "100% English Taught"
+  },
+  "overview": "Undergraduate electrical engineering programs in Australia integrate fundamental circuit analysis, power systems, renewable energy, control systems, and advanced electronics.",
+  "universities": [
+    {
+      "name": "The University of Melbourne",
+      "location": "Melbourne, Australia",
+      "fee": "AUD 30,000 – AUD 52,000 / Year",
+      "image": ""
+    },
+    {
+      "name": "The University of Sydney",
+      "location": "Sydney, Australia",
+      "fee": "AUD 30,000 – AUD 52,000 / Year",
+      "image": ""
+    },
+    {
+      "name": "The University of Queensland",
+      "location": "Brisbane, Australia",
+      "fee": "AUD 30,000 – AUD 52,000 / Year",
+      "image": ""
+    },
+    {
+      "name": "Monash University",
+      "location": "Melbourne, Australia",
+      "fee": "AUD 30,000 – AUD 52,000 / Year",
+      "image": ""
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is it possible for Indian students to study electrical engineering in Australia?",
+      "answer": "Yes, qualified students with Class 12 mathematics and physics can apply for accredited Bachelor of Engineering (Honours) programs."
+    },
+    {
+      "question": "What is the duration of an Australian degree in electrical engineering?",
+      "answer": "A standard Bachelor of Engineering (Honours) takes 4 years of full-time study."
+    },
+    {
+      "question": "Does electrical engineering require mathematics?",
+      "answer": "Yes, senior secondary mathematics is an essential prerequisite for admission."
+    },
+    {
+      "question": "Do Australian universities require NEET for electrical engineering?",
+      "answer": "No, NEET is exclusively for medical degrees and is not required for engineering programs."
+    },
+    {
+      "question": "How much does electrical engineering cost in Australia?",
+      "answer": "Annual international tuition typically ranges from AUD 40,000 to AUD 55,000, depending on the university."
+    }
+  ]
+}

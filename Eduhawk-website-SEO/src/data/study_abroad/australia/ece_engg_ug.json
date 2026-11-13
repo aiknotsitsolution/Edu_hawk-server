@@ -1,0 +1,87 @@
+{
+  "seo": {
+    "title": "Undergraduate Electronics & Communication in Australia | Edu-Hawk Worldwide",
+    "description": "Study Bachelor's in Electronics and Communication Engineering in Australia for Indian students. Learn about top universities (RMIT, UNSW, QUT, Curtin), eligibility, fees, accreditation, and career opportunities."
+  },
+  "hero": {
+    "badge": "Study Abroad - Australia",
+    "title": "Australian undergraduate communication and electronics engineering programs.",
+    "subtitle": "Electronics and communication engineering drives modern telecommunications, microelectronics, wireless networks, satellite communications, and Internet of Things (IoT) technologies.",
+    "ctaText": "Book Free Counselling",
+    "image": ""
+  },
+  "stats": [
+    {
+      "n": "1000+",
+      "l": "Students Placed Globally"
+    },
+    {
+      "n": "20+",
+      "l": "Countries"
+    },
+    {
+      "n": "200+",
+      "l": "Partner Universities"
+    },
+    {
+      "n": "100%",
+      "l": "Support (Visa & End-to-End Guidance)"
+    }
+  ],
+  "highlights": {
+    "degree": "Bachelor of Engineering (Honours)",
+    "duration": "4 Years Full-Time",
+    "fee": "AUD 30,000 – AUD 52,000 / Year",
+    "eligibility": "Recognised academic qualification + English proficiency",
+    "medium": "100% English Taught"
+  },
+  "overview": "Undergraduate programs focus on analog and digital circuits, microprocessors, signal processing, antenna design, optical communications, and next-generation mobile networks (5G/6G).",
+  "universities": [
+    {
+      "name": "The University of Melbourne",
+      "location": "Melbourne, Australia",
+      "fee": "AUD 30,000 – AUD 52,000 / Year",
+      "image": ""
+    },
+    {
+      "name": "The University of Sydney",
+      "location": "Sydney, Australia",
+      "fee": "AUD 30,000 – AUD 52,000 / Year",
+      "image": ""
+    },
+    {
+      "name": "The University of Queensland",
+      "location": "Brisbane, Australia",
+      "fee": "AUD 30,000 – AUD 52,000 / Year",
+      "image": ""
+    },
+    {
+      "name": "Monash University",
+      "location": "Melbourne, Australia",
+      "fee": "AUD 30,000 – AUD 52,000 / Year",
+      "image": ""
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is it possible for Indian students to study communication and electronics engineering in Australia?",
+      "answer": "Yes, qualified students can apply after completing Class 12 with mathematics and physics."
+    },
+    {
+      "question": "What is the duration of an Australian degree in communication and electronics engineering?",
+      "answer": "The standard course duration is 4 years of full-time study for an accredited honours degree."
+    },
+    {
+      "question": "Does communication and electronics engineering require mathematics?",
+      "answer": "Yes, advanced mathematics is a compulsory prerequisite for admission."
+    },
+    {
+      "question": "Do Australian universities require NEET for electronics engineering?",
+      "answer": "No, NEET is not required for engineering admissions in Australia."
+    },
+    {
+      "question": "How much does communication and electronics engineering cost in Australia?",
+      "answer": "Annual international tuition generally ranges between AUD 39,000 and AUD 53,000."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "seo": {
+    "title": "Postgraduate Engineering in Australia for Indian Students | Edu-Hawk Worldwide",
+    "description": "Pursue a postgraduate engineering degree in Australia to acquire advanced technical expertise, research capabilities, and industry-focused experience. Learn about Master of Engineering degrees, top universities, eligibility, tuition fees, and career pathways."
+  },
+  "hero": {
+    "badge": "Study Abroad - Australia",
+    "title": "Postgraduate Engineering in Australia",
+    "subtitle": "To get advanced technical knowledge, research abilities, and industry-focused experience, pursue a postgraduate engineering degree in Australia. Indian students can select from specializations that fit their educational background and professional objectives.",
+    "ctaText": "Book Free Counselling",
+    "image": ""
+  },
+  "stats": [
+    {
+      "n": "1000+",
+      "l": "Students Placed Globally"
+    },
+    {
+      "n": "20+",
+      "l": "Countries"
+    },
+    {
+      "n": "200+",
+      "l": "Partner Universities"
+    },
+    {
+      "n": "100%",
+      "l": "Support (Visa & End-to-End Guidance)"
+    }
+  ],
+  "highlights": {
+    "degree": "Master of Engineering / M.Sc. Eng",
+    "duration": "1 to 2 Years Full-Time",
+    "fee": "AUD 30,000 – AUD 52,000 / Year",
+    "eligibility": "Recognised academic qualification + English proficiency",
+    "medium": "100% English Taught"
+  },
+  "overview": "Australian universities deliver globally recognized postgraduate engineering education accredited by Engineers Australia under the Washington Accord. Students benefit from modern research facilities, practical design projects, industry internships, and international career opportunities.",
+  "universities": [
+    {
+      "name": "The University of Melbourne",
+      "location": "Melbourne, Australia",
+      "fee": "AUD 30,000 – AUD 52,000 / Year",
+      "image": ""
+    },
+    {
+      "name": "The University of Sydney",
+      "location": "Sydney, Australia",
+      "fee": "AUD 30,000 – AUD 52,000 / Year",
+      "image": ""
+    },
+    {
+      "name": "The University of Queensland",
+      "location": "Brisbane, Australia",
+      "fee": "AUD 30,000 – AUD 52,000 / Year",
+      "image": ""
+    },
+    {
+      "name": "Monash University",
+      "location": "Melbourne, Australia",
+      "fee": "AUD 30,000 – AUD 52,000 / Year",
+      "image": ""
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can Indian students study engineering in Australia after Class 12?",
+      "answer": "Yes, provided they meet the university's academic, subject, and English language criteria."
+    },
+    {
+      "question": "How long does an Australian engineering degree take?",
+      "answer": "Many bachelor's degrees take three to four years to complete, but master's programs usually take one to two years."
+    },
+    {
+      "question": "Is learning maths required?",
+      "answer": "Many engineering schools require mathematics as a requirement, and some additionally require physics or other science courses."
+    },
+    {
+      "question": "Is it necessary to take the IELTS?",
+      "answer": "Although there are a few exclusions and acceptable tests, students must fulfill the university's English language requirements."
+    },
+    {
+      "question": "How much does tuition typically cost?",
+      "answer": "Many programs cost between AUD 35,000 and AUD 70,000 or more per year, depending on the course and school."
+    }
+  ]
+}

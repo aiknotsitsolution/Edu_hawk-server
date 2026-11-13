@@ -1,0 +1,66 @@
+{
+  "seo": {
+    "title": "Postgraduate Electronics Engineering in Australia | Edu-Hawk Worldwide",
+    "description": "Study Master's in Electronics Engineering in Australia for Indian students. Learn about top universities (Curtin, RMIT, Queensland, UTS), telecommunications, embedded systems, microelectronics, eligibility, and fees."
+  },
+  "hero": {
+    "badge": "Study Abroad - Australia",
+    "title": "Australia&#39;s postgraduate program in communication and electronics engineering",
+    "subtitle": "Australia&#39;s postgraduate program in communication and electronics engineering",
+    "ctaText": "Book Free Counselling",
+    "image": ""
+  },
+  "stats": [
+    {
+      "n": "1000+",
+      "l": "Students Placed Globally"
+    },
+    {
+      "n": "20+",
+      "l": "Countries"
+    },
+    {
+      "n": "200+",
+      "l": "Partner Universities"
+    },
+    {
+      "n": "100%",
+      "l": "Support (Visa & End-to-End Guidance)"
+    }
+  ],
+  "highlights": {
+    "degree": "Master of Engineering (M.Eng / M.Sc)",
+    "duration": "1 to 2 Years Full-Time",
+    "fee": "AUD 30,000 – AUD 52,000 / Year",
+    "eligibility": "Recognised academic qualification + English proficiency",
+    "medium": "100% English Taught"
+  },
+  "overview": "Australian universities deliver globally recognized postgraduate electronics & communication education accredited by Engineers Australia under the Washington Accord. Students gain advanced design skills, research expertise, and international employment opportunities.",
+  "universities": [
+    {
+      "name": "The University of Melbourne",
+      "location": "Melbourne, Australia",
+      "fee": "AUD 30,000 – AUD 52,000 / Year",
+      "image": ""
+    },
+    {
+      "name": "The University of Sydney",
+      "location": "Sydney, Australia",
+      "fee": "AUD 30,000 – AUD 52,000 / Year",
+      "image": ""
+    },
+    {
+      "name": "The University of Queensland",
+      "location": "Brisbane, Australia",
+      "fee": "AUD 30,000 – AUD 52,000 / Year",
+      "image": ""
+    },
+    {
+      "name": "Monash University",
+      "location": "Melbourne, Australia",
+      "fee": "AUD 30,000 – AUD 52,000 / Year",
+      "image": ""
+    }
+  ],
+  "faq": []
+}
