@@ -8177,6 +8177,2184 @@ collections:
   # ============================================================
   # 6. TESTS & ONLINE EXAMS (COMMON FOR ALL COUNTRIES)
   # ============================================================
+  - name: "study_abroad_italy"
+    label: "Study Abroad - Italy"
+    delete: false
+    files:
+      - label: "Dentistry (MBBS Abroad)"
+        name: "italy_dentistry"
+        file: "src/data/study_abroad/italy/dentistry.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Nursing (MBBS Abroad)"
+        name: "italy_nursing"
+        file: "src/data/study_abroad/italy/nursing.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Pharmacy (MBBS Abroad)"
+        name: "italy_pharmacy"
+        file: "src/data/study_abroad/italy/pharmacy.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Physiotherapy (MBBS Abroad)"
+        name: "italy_physiotherapy"
+        file: "src/data/study_abroad/italy/physiotherapy.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Public Health (MBBS Abroad)"
+        name: "italy_public_health"
+        file: "src/data/study_abroad/italy/public_health.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Biotechnology (MBBS Abroad)"
+        name: "italy_biotechnology"
+        file: "src/data/study_abroad/italy/biotechnology.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Computer Science in Italy"
+        name: "italy_computer_science"
+        file: "src/data/study_abroad/italy/computer_science.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Information Technology in Italy"
+        name: "italy_information_technology"
+        file: "src/data/study_abroad/italy/information_technology.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Undergraduate Engineering (UG Hub)"
+        name: "italy_ug_hub"
+        file: "src/data/study_abroad/italy/ug_hub.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Computer Engineering - UG"
+        name: "italy_comp_engg_ug"
+        file: "src/data/study_abroad/italy/comp_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Mechanical Engineering - UG"
+        name: "italy_mech_engg_ug"
+        file: "src/data/study_abroad/italy/mech_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Civil Engineering - UG"
+        name: "italy_civil_engg_ug"
+        file: "src/data/study_abroad/italy/civil_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Electrical Engineering - UG"
+        name: "italy_elec_engg_ug"
+        file: "src/data/study_abroad/italy/elec_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Electronics & Communication - UG"
+        name: "italy_ece_engg_ug"
+        file: "src/data/study_abroad/italy/ece_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Chemical Engineering - UG"
+        name: "italy_chem_engg_ug"
+        file: "src/data/study_abroad/italy/chem_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Aerospace Engineering - UG"
+        name: "italy_aero_engg_ug"
+        file: "src/data/study_abroad/italy/aero_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Biomedical Engineering - UG"
+        name: "italy_biomed_engg_ug"
+        file: "src/data/study_abroad/italy/biomed_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Automobile Engineering - UG"
+        name: "italy_auto_engg_ug"
+        file: "src/data/study_abroad/italy/auto_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Postgraduate Engineering (PG Hub)"
+        name: "italy_pg_hub"
+        file: "src/data/study_abroad/italy/pg_hub.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Computer Engineering - PG"
+        name: "italy_comp_engg_pg"
+        file: "src/data/study_abroad/italy/comp_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Mechanical Engineering - PG"
+        name: "italy_mech_engg_pg"
+        file: "src/data/study_abroad/italy/mech_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Civil Engineering - PG"
+        name: "italy_civil_engg_pg"
+        file: "src/data/study_abroad/italy/civil_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Electrical Engineering - PG"
+        name: "italy_elec_engg_pg"
+        file: "src/data/study_abroad/italy/elec_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Electronics & Communication - PG"
+        name: "italy_ece_engg_pg"
+        file: "src/data/study_abroad/italy/ece_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Chemical Engineering - PG"
+        name: "italy_chem_engg_pg"
+        file: "src/data/study_abroad/italy/chem_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Aerospace Engineering - PG"
+        name: "italy_aero_engg_pg"
+        file: "src/data/study_abroad/italy/aero_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Biomedical Engineering - PG"
+        name: "italy_biomed_engg_pg"
+        file: "src/data/study_abroad/italy/biomed_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Automobile Engineering - PG"
+        name: "italy_auto_engg_pg"
+        file: "src/data/study_abroad/italy/auto_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Business Management (Hub Page)"
+        name: "italy_business_hub"
+        file: "src/data/study_abroad/italy/business_hub.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "MBA (Master of Business Administration)"
+        name: "italy_mba"
+        file: "src/data/study_abroad/italy/mba.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Executive MBA"
+        name: "italy_executive_mba"
+        file: "src/data/study_abroad/italy/executive_mba.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "BBA (Bachelor of Business Admin)"
+        name: "italy_bba"
+        file: "src/data/study_abroad/italy/bba.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "BBS (Bachelor of Business Studies)"
+        name: "italy_bbs"
+        file: "src/data/study_abroad/italy/bbs.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "MBS (Master of Business Studies)"
+        name: "italy_mbs"
+        file: "src/data/study_abroad/italy/mbs.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "International Business"
+        name: "italy_international_business"
+        file: "src/data/study_abroad/italy/international_business.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Hospitality Management"
+        name: "italy_hospitality_management"
+        file: "src/data/study_abroad/italy/hospitality_management.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Architecture"
+        name: "italy_architecture"
+        file: "src/data/study_abroad/italy/architecture.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Law (International Law)"
+        name: "italy_law"
+        file: "src/data/study_abroad/italy/law.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Language Courses"
+        name: "italy_language_courses"
+        file: "src/data/study_abroad/italy/language_courses.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Summer Courses"
+        name: "italy_summer_courses"
+        file: "src/data/study_abroad/italy/summer_courses.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Winter Courses"
+        name: "italy_winter_courses"
+        file: "src/data/study_abroad/italy/winter_courses.json"
+        media_folder: "public/uploads/study_abroad/italy"
+        public_folder: "/uploads/study_abroad/italy"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Italian Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+
   - name: "tests_exams"
     label: "Tests & Online Exams (Common)"
     folder: "src/data/common/tests"

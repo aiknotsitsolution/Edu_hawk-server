@@ -19,6 +19,7 @@
 8. [Study Abroad - Ireland (45)](#8-study-abroad---ireland-45)
 9. [Study Abroad - France (45)](#9-study-abroad---france-45)
 10. [Study Abroad - Finland (45)](#10-study-abroad---finland-45)
+11. [Study Abroad - Italy (41)](#11-study-abroad---italy-41)
 11. [Study Abroad - Other (45)](#11-study-abroad---other-45)
 12. [Common Global Programs & Seasonal Hubs (4)](#12-common-global-programs--seasonal-hubs-4)
 13. [Global Fallback / Common Courses (43)](#13-global-fallback--common-courses-43)
@@ -56,7 +57,7 @@
 | **016** | 09 | [ ] | MBBS in Georgia | `/mbbs-abroad/georgia` |
 | **017** | 10 | [ ] | MBBS in Nepal | `/mbbs-abroad/nepal` |
 | **018** | 11 | [ ] | MBBS in Vietnam | `/mbbs-abroad/vietnam` |
-| **019** | 12 | [ ] | MBBS in Italy | `/mbbs-abroad/italy` |
+| **019** | 12 | ✔️ | MBBS in Italy | `/mbbs-abroad/italy` |
 | **020** | 13 | [ ] | MBBS in Armenia | `/mbbs-abroad/armenia` |
 | **021** | 14 | [ ] | MBBS in Belarus | `/mbbs-abroad/belarus` |
 | **022** | 15 | [ ] | MBBS in China | `/mbbs-abroad/china` |
@@ -656,7 +657,77 @@
 
 ---
 
-## 11. Study Abroad - Other 🌍 (45)
+
+---
+
+## 11. Study Abroad - Italy 🇮🇹 (41)
+
+### Healthcare & MBBS Abroad (6)
+| Overall # | Group # | Status | Page Name | Route Path |
+| :---: | :---: | :---: | :--- | :--- |
+| **IT01** | 01 | ✔️ | Dentistry in Italy | `/study-abroad/italy/dentistry` |
+| **IT02** | 02 | ✔️ | Nursing in Italy | `/study-abroad/italy/nursing` |
+| **IT03** | 03 | ✔️ | Pharmacy in Italy | `/study-abroad/italy/pharmacy` |
+| **IT04** | 04 | ✔️ | Physiotherapy in Italy | `/study-abroad/italy/physiotherapy` |
+| **IT05** | 05 | ✔️ | Public Health in Italy | `/study-abroad/italy/public-health` |
+| **IT06** | 06 | ✔️ | Biotechnology in Italy | `/study-abroad/italy/biotechnology` |
+
+### Technology Standalone (2)
+| Overall # | Group # | Status | Page Name | Route Path |
+| :---: | :---: | :---: | :--- | :--- |
+| **IT07** | 07 | ✔️ | Computer Science in Italy | `/study-abroad/italy/computer-science` |
+| **IT08** | 08 | ✔️ | Information Technology in Italy | `/study-abroad/italy/information-technology` |
+
+### Undergraduate Engineering (10)
+| Overall # | Group # | Status | Page Name | Route Path |
+| :---: | :---: | :---: | :--- | :--- |
+| **IT09** | 09 | ✔️ | UG Engineering Hub in Italy | `/study-abroad/italy/ug/engineering` |
+| **IT10** | 10 | ✔️ | Computer Engineering (UG) in Italy | `/study-abroad/italy/ug/computer-engineering` |
+| **IT11** | 11 | ✔️ | Mechanical Engineering (UG) in Italy | `/study-abroad/italy/ug/mechanical-engineering` |
+| **IT12** | 12 | ✔️ | Civil Engineering (UG) in Italy | `/study-abroad/italy/ug/civil-engineering` |
+| **IT13** | 13 | ✔️ | Electrical Engineering (UG) in Italy | `/study-abroad/italy/ug/electrical-engineering` |
+| **IT14** | 14 | ✔️ | Electronics & Communication (UG) in Italy | `/study-abroad/italy/ug/electronics-communication` |
+| **IT15** | 15 | ✔️ | Chemical Engineering (UG) in Italy | `/study-abroad/italy/ug/chemical-engineering` |
+| **IT16** | 16 | ✔️ | Aerospace Engineering (UG) in Italy | `/study-abroad/italy/ug/aerospace-engineering` |
+| **IT17** | 17 | ✔️ | Biomedical Engineering (UG) in Italy | `/study-abroad/italy/ug/biomedical-engineering` |
+| **IT18** | 18 | ✔️ | Automobile Engineering (UG) in Italy | `/study-abroad/italy/ug/automobile-engineering` |
+
+### Postgraduate Engineering (10)
+| Overall # | Group # | Status | Page Name | Route Path |
+| :---: | :---: | :---: | :--- | :--- |
+| **IT19** | 19 | ✔️ | PG Engineering Hub in Italy | `/study-abroad/italy/pg/engineering` |
+| **IT20** | 20 | ✔️ | Computer Engineering (PG) in Italy | `/study-abroad/italy/pg/computer-engineering` |
+| **IT21** | 21 | ✔ | Mechanical Engineering (PG) in Italy | `/study-abroad/italy/pg/mechanical-engineering` |
+| **IT22** | 22 | ✔️ | Civil Engineering (PG) in Italy | `/study-abroad/italy/pg/civil-engineering` |
+| **IT23** | 23 | ✔️ | Electrical Engineering (PG) in Italy | `/study-abroad/italy/pg/electrical-engineering` |
+| **IT24** | 24 | ✔️ | Electronics & Communication (PG) in Italy | `/study-abroad/italy/pg/electronics-communication` |
+| **IT25** | 25 | ✔️ | Chemical Engineering (PG) in Italy | `/study-abroad/italy/pg/chemical-engineering` |
+| **IT26** | 26 | ✔️ | Aerospace Engineering (PG) in Italy | `/study-abroad/italy/pg/aerospace-engineering` |
+| **IT27** | 27 | ✔️ | Biomedical Engineering (PG) in Italy | `/study-abroad/italy/pg/biomedical-engineering` |
+| **IT28** | 28 | ✔️ | Automobile Engineering (PG) in Italy | `/study-abroad/italy/pg/automobile-engineering` |
+
+### Business, Management & Law (10)
+| Overall # | Group # | Status | Page Name | Route Path |
+| :---: | :---: | :---: | :--- | :--- |
+| **IT29** | 29 | ✔️ | Business Management Hub in Italy | `/study-abroad/italy/business-management` |
+| **IT30** | 30 | ✔️ | MBA in Italy | `/study-abroad/italy/mba` |
+| **IT31** | 31 | ✔️ | Executive MBA in Italy | `/study-abroad/italy/executive-mba` |
+| **IT32** | 32 | ✔️ | BBA in Italy | `/study-abroad/italy/bba` |
+| **IT33** | 33 | ✔️ | BBS in Italy | `/study-abroad/italy/bbs` |
+| **IT34** | 34 | ✔️ | MBS in Italy | `/study-abroad/italy/mbs` |
+| **IT35** | 35 | ✔️ | International Business in Italy | `/study-abroad/italy/international-business` |
+| **IT36** | 36 | ✔️ | Hospitality Management in Italy | `/study-abroad/italy/hospitality-management` |
+| **IT37** | 37 | ✔️ | Architecture in Italy | `/study-abroad/italy/architecture` |
+| **IT38** | 38 | ✔️ | Law in Italy | `/study-abroad/italy/law` |
+
+### Pathways & Seasonal Programs (3)
+| Overall # | Group # | Status | Page Name | Route Path |
+| :---: | :---: | :---: | :--- | :--- |
+| **IT39** | 39 | ✔️ | Language Courses in Italy | `/study-abroad/italy/language-courses` |
+| **IT40** | 40 | ✔️ | Summer Courses in Italy | `/study-abroad/italy/summer-courses` |
+| **IT41** | 41 | ✔️ | Winter Courses in Italy | `/study-abroad/italy/winter-courses` |
+
+## 12. Study Abroad - Other 🌍 (45)
 
 
 ### Healthcare & MBBS Abroad (6)

@@ -193,6 +193,49 @@ const LanguageCoursesAustralia = lazy(() => import("../pages/Study Abroad/Austra
 const SummerCoursesAustralia = lazy(() => import("../pages/Study Abroad/Australia/SummerCourses/summer-courses.jsx"));
 const WinterCoursesAustralia = lazy(() => import("../pages/Study Abroad/Australia/WinterCourses/winter-courses.jsx"));
 
+// Italy Routes
+const DentistryAbroadItaly = lazy(() => import("../pages/Study Abroad/Italy/MBBS Abroad/DentistryAbroad.jsx"));
+const NursingAbroadItaly = lazy(() => import("../pages/Study Abroad/Italy/MBBS Abroad/NursingAbroad.jsx"));
+const PharmacyAbroadItaly = lazy(() => import("../pages/Study Abroad/Italy/MBBS Abroad/PharmacyAbroad.jsx"));
+const PhysiotherapyAbroadItaly = lazy(() => import("../pages/Study Abroad/Italy/MBBS Abroad/PhysiotherapyAbroad.jsx"));
+const PublicHealthItaly = lazy(() => import("../pages/Study Abroad/Italy/MBBS Abroad/PublicHealth.jsx"));
+const BiotechnologyItaly = lazy(() => import("../pages/Study Abroad/Italy/MBBS Abroad/Biotechnology.jsx"));
+const ComputerScienceItaly = lazy(() => import("../pages/Study Abroad/Italy/ComputerScience/computer-science.jsx"));
+const InformationTechnologyItaly = lazy(() => import("../pages/Study Abroad/Italy/InformationTechnology/information-technology.jsx"));
+const UndergraduateEngineeringItaly = lazy(() => import("../pages/Study Abroad/Italy/Engineering/ug/undergraduate.jsx"));
+const ComputerEngineeringUGItaly = lazy(() => import("../pages/Study Abroad/Italy/Engineering/ug/pages/ComputerEngineering.jsx"));
+const MechanicalEngineeringUGItaly = lazy(() => import("../pages/Study Abroad/Italy/Engineering/ug/pages/MechanicalEngineering.jsx"));
+const CivilEngineeringUGItaly = lazy(() => import("../pages/Study Abroad/Italy/Engineering/ug/pages/CivilEngineering.jsx"));
+const ElectricalEngineeringUGItaly = lazy(() => import("../pages/Study Abroad/Italy/Engineering/ug/pages/ElectricalEngineering.jsx"));
+const ElectronicsCommunicationUGItaly = lazy(() => import("../pages/Study Abroad/Italy/Engineering/ug/pages/ElectronicsCommunication.jsx"));
+const ChemicalEngineeringUGItaly = lazy(() => import("../pages/Study Abroad/Italy/Engineering/ug/pages/ChemicalEngineering.jsx"));
+const AerospaceEngineeringUGItaly = lazy(() => import("../pages/Study Abroad/Italy/Engineering/ug/pages/AerospaceEngineering.jsx"));
+const BiomedicalEngineeringUGItaly = lazy(() => import("../pages/Study Abroad/Italy/Engineering/ug/pages/BiomedicalEngineering.jsx"));
+const AutomobileEngineeringUGItaly = lazy(() => import("../pages/Study Abroad/Italy/Engineering/ug/pages/AutomobileEngineering.jsx"));
+const PostgraduateEngineeringItaly = lazy(() => import("../pages/Study Abroad/Italy/Engineering/pg/postgraduate.jsx"));
+const ComputerEngineeringPGItaly = lazy(() => import("../pages/Study Abroad/Italy/Engineering/pg/pages/ComputerEngineering.jsx"));
+const MechanicalEngineeringPGItaly = lazy(() => import("../pages/Study Abroad/Italy/Engineering/pg/pages/MechanicalEngineering.jsx"));
+const CivilEngineeringPGItaly = lazy(() => import("../pages/Study Abroad/Italy/Engineering/pg/pages/CivilEngineering.jsx"));
+const ElectricalEngineeringPGItaly = lazy(() => import("../pages/Study Abroad/Italy/Engineering/pg/pages/ElectricalEngineering.jsx"));
+const ElectronicsCommunicationPGItaly = lazy(() => import("../pages/Study Abroad/Italy/Engineering/pg/pages/ElectronicsCommunication.jsx"));
+const ChemicalEngineeringPGItaly = lazy(() => import("../pages/Study Abroad/Italy/Engineering/pg/pages/ChemicalEngineering.jsx"));
+const AerospaceEngineeringPGItaly = lazy(() => import("../pages/Study Abroad/Italy/Engineering/pg/pages/AerospaceEngineering.jsx"));
+const BiomedicalEngineeringPGItaly = lazy(() => import("../pages/Study Abroad/Italy/Engineering/pg/pages/BiomedicalEngineering.jsx"));
+const AutomobileEngineeringPGItaly = lazy(() => import("../pages/Study Abroad/Italy/Engineering/pg/pages/AutomobileEngineering.jsx"));
+const BusinessManagementItaly = lazy(() => import("../pages/Study Abroad/Italy/BusinessManagement/business-management.jsx"));
+const MBAItaly = lazy(() => import("../pages/Study Abroad/Italy/MBA/mba.jsx"));
+const ExecutiveMBAItaly = lazy(() => import("../pages/Study Abroad/Italy/ExecutiveMBA/executive-mba.jsx"));
+const BBAItaly = lazy(() => import("../pages/Study Abroad/Italy/BBA/bba.jsx"));
+const BBSItaly = lazy(() => import("../pages/Study Abroad/Italy/BBS/bbs.jsx"));
+const MBSItaly = lazy(() => import("../pages/Study Abroad/Italy/MBS/mbs.jsx"));
+const InternationalBusinessItaly = lazy(() => import("../pages/Study Abroad/Italy/InternationalBusiness/international-business.jsx"));
+const HospitalityManagementItaly = lazy(() => import("../pages/Study Abroad/Italy/HospitalityManagement/hospitality-management.jsx"));
+const ArchitectureItaly = lazy(() => import("../pages/Study Abroad/Italy/Architecture/architecture.jsx"));
+const LawItaly = lazy(() => import("../pages/Study Abroad/Italy/Law/law.jsx"));
+const LanguageCoursesItaly = lazy(() => import("../pages/Study Abroad/Italy/LanguageCourses/language-courses.jsx"));
+const SummerCoursesItaly = lazy(() => import("../pages/Study Abroad/Italy/SummerCourses/summer-courses.jsx"));
+const WinterCoursesItaly = lazy(() => import("../pages/Study Abroad/Italy/WinterCourses/winter-courses.jsx"));
+
 export const router = createBrowserRouter([
   {
     path: "landingpage",
@@ -1094,6 +1137,170 @@ export const router = createBrowserRouter([
         element: <WinterCoursesAustralia />,
       },
       {
+        path: "study-abroad/italy/dentistry",
+        element: <DentistryAbroadItaly />,
+      },
+      {
+        path: "study-abroad/italy/nursing",
+        element: <NursingAbroadItaly />,
+      },
+      {
+        path: "study-abroad/italy/pharmacy",
+        element: <PharmacyAbroadItaly />,
+      },
+      {
+        path: "study-abroad/italy/physiotherapy",
+        element: <PhysiotherapyAbroadItaly />,
+      },
+      {
+        path: "study-abroad/italy/public-health",
+        element: <PublicHealthItaly />,
+      },
+      {
+        path: "study-abroad/italy/biotechnology",
+        element: <BiotechnologyItaly />,
+      },
+      {
+        path: "study-abroad/italy/computer-science",
+        element: <ComputerScienceItaly />,
+      },
+      {
+        path: "study-abroad/italy/information-technology",
+        element: <InformationTechnologyItaly />,
+      },
+      {
+        path: "study-abroad/italy/ug/engineering",
+        element: <UndergraduateEngineeringItaly />,
+      },
+      {
+        path: "study-abroad/italy/ug/computer-engineering",
+        element: <ComputerEngineeringUGItaly />,
+      },
+      {
+        path: "study-abroad/italy/ug/mechanical-engineering",
+        element: <MechanicalEngineeringUGItaly />,
+      },
+      {
+        path: "study-abroad/italy/ug/civil-engineering",
+        element: <CivilEngineeringUGItaly />,
+      },
+      {
+        path: "study-abroad/italy/ug/electrical-engineering",
+        element: <ElectricalEngineeringUGItaly />,
+      },
+      {
+        path: "study-abroad/italy/ug/electronics-communication",
+        element: <ElectronicsCommunicationUGItaly />,
+      },
+      {
+        path: "study-abroad/italy/ug/chemical-engineering",
+        element: <ChemicalEngineeringUGItaly />,
+      },
+      {
+        path: "study-abroad/italy/ug/aerospace-engineering",
+        element: <AerospaceEngineeringUGItaly />,
+      },
+      {
+        path: "study-abroad/italy/ug/biomedical-engineering",
+        element: <BiomedicalEngineeringUGItaly />,
+      },
+      {
+        path: "study-abroad/italy/ug/automobile-engineering",
+        element: <AutomobileEngineeringUGItaly />,
+      },
+      {
+        path: "study-abroad/italy/pg/engineering",
+        element: <PostgraduateEngineeringItaly />,
+      },
+      {
+        path: "study-abroad/italy/pg/computer-engineering",
+        element: <ComputerEngineeringPGItaly />,
+      },
+      {
+        path: "study-abroad/italy/pg/mechanical-engineering",
+        element: <MechanicalEngineeringPGItaly />,
+      },
+      {
+        path: "study-abroad/italy/pg/civil-engineering",
+        element: <CivilEngineeringPGItaly />,
+      },
+      {
+        path: "study-abroad/italy/pg/electrical-engineering",
+        element: <ElectricalEngineeringPGItaly />,
+      },
+      {
+        path: "study-abroad/italy/pg/electronics-communication",
+        element: <ElectronicsCommunicationPGItaly />,
+      },
+      {
+        path: "study-abroad/italy/pg/chemical-engineering",
+        element: <ChemicalEngineeringPGItaly />,
+      },
+      {
+        path: "study-abroad/italy/pg/aerospace-engineering",
+        element: <AerospaceEngineeringPGItaly />,
+      },
+      {
+        path: "study-abroad/italy/pg/biomedical-engineering",
+        element: <BiomedicalEngineeringPGItaly />,
+      },
+      {
+        path: "study-abroad/italy/pg/automobile-engineering",
+        element: <AutomobileEngineeringPGItaly />,
+      },
+      {
+        path: "study-abroad/italy/business-management",
+        element: <BusinessManagementItaly />,
+      },
+      {
+        path: "study-abroad/italy/mba",
+        element: <MBAItaly />,
+      },
+      {
+        path: "study-abroad/italy/executive-mba",
+        element: <ExecutiveMBAItaly />,
+      },
+      {
+        path: "study-abroad/italy/bba",
+        element: <BBAItaly />,
+      },
+      {
+        path: "study-abroad/italy/bbs",
+        element: <BBSItaly />,
+      },
+      {
+        path: "study-abroad/italy/mbs",
+        element: <MBSItaly />,
+      },
+      {
+        path: "study-abroad/italy/international-business",
+        element: <InternationalBusinessItaly />,
+      },
+      {
+        path: "study-abroad/italy/hospitality-management",
+        element: <HospitalityManagementItaly />,
+      },
+      {
+        path: "study-abroad/italy/architecture",
+        element: <ArchitectureItaly />,
+      },
+      {
+        path: "study-abroad/italy/law",
+        element: <LawItaly />,
+      },
+      {
+        path: "study-abroad/italy/language-courses",
+        element: <LanguageCoursesItaly />,
+      },
+      {
+        path: "study-abroad/italy/summer-courses",
+        element: <SummerCoursesItaly />,
+      },
+      {
+        path: "study-abroad/italy/winter-courses",
+        element: <WinterCoursesItaly />,
+      },
+      {
         path: "terms-conditions",
         element: <TermsAndConditions />,
       },
@@ -1328,6 +1535,47 @@ export const routeList = [
   "/study-abroad/australia/language-courses",
   "/study-abroad/australia/summer-courses",
   "/study-abroad/australia/winter-courses",
+  "/study-abroad/italy/dentistry",
+  "/study-abroad/italy/nursing",
+  "/study-abroad/italy/pharmacy",
+  "/study-abroad/italy/physiotherapy",
+  "/study-abroad/italy/public-health",
+  "/study-abroad/italy/biotechnology",
+  "/study-abroad/italy/computer-science",
+  "/study-abroad/italy/information-technology",
+  "/study-abroad/italy/ug/engineering",
+  "/study-abroad/italy/ug/computer-engineering",
+  "/study-abroad/italy/ug/mechanical-engineering",
+  "/study-abroad/italy/ug/civil-engineering",
+  "/study-abroad/italy/ug/electrical-engineering",
+  "/study-abroad/italy/ug/electronics-communication",
+  "/study-abroad/italy/ug/chemical-engineering",
+  "/study-abroad/italy/ug/aerospace-engineering",
+  "/study-abroad/italy/ug/biomedical-engineering",
+  "/study-abroad/italy/ug/automobile-engineering",
+  "/study-abroad/italy/pg/engineering",
+  "/study-abroad/italy/pg/computer-engineering",
+  "/study-abroad/italy/pg/mechanical-engineering",
+  "/study-abroad/italy/pg/civil-engineering",
+  "/study-abroad/italy/pg/electrical-engineering",
+  "/study-abroad/italy/pg/electronics-communication",
+  "/study-abroad/italy/pg/chemical-engineering",
+  "/study-abroad/italy/pg/aerospace-engineering",
+  "/study-abroad/italy/pg/biomedical-engineering",
+  "/study-abroad/italy/pg/automobile-engineering",
+  "/study-abroad/italy/business-management",
+  "/study-abroad/italy/mba",
+  "/study-abroad/italy/executive-mba",
+  "/study-abroad/italy/bba",
+  "/study-abroad/italy/bbs",
+  "/study-abroad/italy/mbs",
+  "/study-abroad/italy/international-business",
+  "/study-abroad/italy/hospitality-management",
+  "/study-abroad/italy/architecture",
+  "/study-abroad/italy/law",
+  "/study-abroad/italy/language-courses",
+  "/study-abroad/italy/summer-courses",
+  "/study-abroad/italy/winter-courses",
   "/terms-conditions",
   "/privacy-policy",
   "/cookies-policy",

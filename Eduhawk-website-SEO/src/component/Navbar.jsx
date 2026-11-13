@@ -12,6 +12,7 @@ import Eduhawk from "../assets/Eduhawk.webp"; // ← adjust path if needed
     "Ireland",
     "France",
     "Finland",
+    "Italy",
     "Other",
   ];
 
@@ -111,6 +112,24 @@ const Navbar = () => {
         if (path === "engineering") return "/study-abroad/australia/ug/engineering";
         return `/study-abroad/australia/ug/${path}`;
       }
+    if (selectedCountry === "Italy") {
+      if (prefix === "/courses/ug") {
+        if (path === "engineering") return "/study-abroad/italy/ug/engineering";
+        return `/study-abroad/italy/ug/${path}`;
+      }
+      if (prefix === "/courses/pg") {
+        if (path === "engineering") return "/study-abroad/italy/pg/engineering";
+        return `/study-abroad/italy/pg/${path}`;
+      }
+      if (path === "dentistry") return "/study-abroad/italy/dentistry";
+      if (path === "nursing") return "/study-abroad/italy/nursing";
+      if (path === "pharmacy") return "/study-abroad/italy/pharmacy";
+      if (path === "physiotherapy") return "/study-abroad/italy/physiotherapy";
+      if (path === "public-health") return "/study-abroad/italy/public-health";
+      if (path === "biotechnology") return "/study-abroad/italy/biotechnology";
+      if (path === "engineering") return "/study-abroad/italy/ug/engineering";
+      return `/study-abroad/italy/${path}`;
+    }
       if (prefix === "/courses/pg") {
         if (path === "engineering") return "/study-abroad/australia/pg/engineering";
         return `/study-abroad/australia/pg/${path}`;
