@@ -37,7 +37,7 @@
 | **004** | 04 | ✔️ | Contact Us | `/contact` |
 | **005** | 05 | ✔️ | Study Abroad Landing Hub | `/study-abroad` |
 | **006** | 06 | ✔️ | Blog Listing Page | `/blog` |
-| **007** | 07 | [ ] | Featured Education Blog | `/blog/education-blog` |
+| **007** | 07 | [REMOVED] | Featured Education Blog (Removed - Main blog page /blog exists) | `/blog/education-blog` |
 
 ---
 
@@ -123,7 +123,7 @@
 | **058** | 35 | [ ] | MBS in USA | `/study-abroad/usa/mbs` |
 | **059** | 36 | [ ] | International Business in USA | `/study-abroad/usa/international-business` |
 | **060** | 37 | [ ] | Marketing Management in USA | `/study-abroad/usa/marketing-management` |
-| **061** | 38 | [ ] | Accounting & Finance in USA | `/study-abroad/usa/accounting-finance` |
+| **061** | 38 | [REMOVED] | Accounting & Finance in USA (Removed - Not in docs) | `/study-abroad/usa/accounting-finance` |
 | **062** | 39 | [ ] | Hospitality Management in USA | `/study-abroad/usa/hospitality-management` |
 | **063** | 40 | [ ] | Architecture in USA | `/study-abroad/usa/architecture` |
 | **064** | 41 | [ ] | Law in USA | `/study-abroad/usa/law` |
@@ -134,7 +134,7 @@
 | **065** | 42 | [ ] | Language Courses in USA | `/study-abroad/usa/language-courses` |
 | **066** | 43 | [ ] | Summer Courses in USA | `/study-abroad/usa/summer-courses` |
 | **067** | 44 | [ ] | Winter Courses in USA | `/study-abroad/usa/winter-courses` |
-| **068** | 45 | [ ] | Working Professionals in USA | `/study-abroad/usa/working-professionals` |
+| **068** | 45 | [REMOVED] | Working Professionals in USA (Removed - Not in docs) | `/study-abroad/usa/working-professionals` |
 
 ---
 
@@ -144,70 +144,70 @@
 ### Healthcare & MBBS Abroad (6)
 | Overall # | Group # | Status | Page Name | Route Path |
 | :---: | :---: | :---: | :--- | :--- |
-| **069** | 01 | [ ] | Dentistry in Australia | `/study-abroad/australia/dentistry` |
-| **070** | 02 | [ ] | Nursing in Australia | `/study-abroad/australia/nursing` |
-| **071** | 03 | [ ] | Pharmacy in Australia | `/study-abroad/australia/pharmacy` |
-| **072** | 04 | [ ] | Physiotherapy in Australia | `/study-abroad/australia/physiotherapy` |
-| **073** | 05 | [ ] | Public Health in Australia | `/study-abroad/australia/public-health` |
-| **074** | 06 | [ ] | Biotechnology in Australia | `/study-abroad/australia/biotechnology` |
+| **069** | 01 | ✔️ | Dentistry in Australia | `/study-abroad/australia/dentistry` |
+| **070** | 02 | ✔️ | Nursing in Australia | `/study-abroad/australia/nursing` |
+| **071** | 03 | ✔️ | Pharmacy in Australia | `/study-abroad/australia/pharmacy` |
+| **072** | 04 | ✔️ | Physiotherapy in Australia | `/study-abroad/australia/physiotherapy` |
+| **073** | 05 | ✔️ | Public Health in Australia | `/study-abroad/australia/public-health` |
+| **074** | 06 | ✔️ | Biotechnology in Australia | `/study-abroad/australia/biotechnology` |
 
 ### Tech & Engineering Hubs (5)
 | Overall # | Group # | Status | Page Name | Route Path |
 | :---: | :---: | :---: | :--- | :--- |
-| **075** | 07 | [ ] | Computer Science in Australia | `/study-abroad/australia/computer-science` |
-| **076** | 08 | [ ] | Information Technology in Australia | `/study-abroad/australia/information-technology` |
-| **077** | 09 | [ ] | Undergraduate Engineering Hub | `/study-abroad/australia/ug/engineering` |
-| **078** | 10 | [ ] | Postgraduate Engineering Hub | `/study-abroad/australia/pg/engineering` |
+| **075** | 07 | ✔️ | Computer Science in Australia | `/study-abroad/australia/computer-science` |
+| **076** | 08 | ✔️ | Information Technology in Australia | `/study-abroad/australia/information-technology` |
+| **077** | 09 | ✔️ | Undergraduate Engineering Hub | `/study-abroad/australia/ug/engineering` |
+| **078** | 10 | ✔️ | Postgraduate Engineering Hub | `/study-abroad/australia/pg/engineering` |
 | **079** | 11 | [ ] | General Engineering Overview | `/study-abroad/australia/engineering` |
 
 ### UG Engineering Branches (9)
 | Overall # | Group # | Status | Page Name | Route Path |
 | :---: | :---: | :---: | :--- | :--- |
-| **080** | 12 | [ ] | Computer Engineering - UG | `/study-abroad/australia/ug/computer-engineering` |
-| **081** | 13 | [ ] | Mechanical Engineering - UG | `/study-abroad/australia/ug/mechanical-engineering` |
-| **082** | 14 | [ ] | Civil Engineering - UG | `/study-abroad/australia/ug/civil-engineering` |
-| **083** | 15 | [ ] | Electrical Engineering - UG | `/study-abroad/australia/ug/electrical-engineering` |
-| **084** | 16 | [ ] | Electronics & Communication - UG | `/study-abroad/australia/ug/electronics-communication` |
-| **085** | 17 | [ ] | Chemical Engineering - UG | `/study-abroad/australia/ug/chemical-engineering` |
-| **086** | 18 | [ ] | Aerospace Engineering - UG | `/study-abroad/australia/ug/aerospace-engineering` |
-| **087** | 19 | [ ] | Biomedical Engineering - UG | `/study-abroad/australia/ug/biomedical-engineering` |
-| **088** | 20 | [ ] | Automobile Engineering - UG | `/study-abroad/australia/ug/automobile-engineering` |
+| **080** | 12 | ✔️ | Computer Engineering - UG | `/study-abroad/australia/ug/computer-engineering` |
+| **081** | 13 | ✔️ | Mechanical Engineering - UG | `/study-abroad/australia/ug/mechanical-engineering` |
+| **082** | 14 | ✔️ | Civil Engineering - UG | `/study-abroad/australia/ug/civil-engineering` |
+| **083** | 15 | ✔️ | Electrical Engineering - UG | `/study-abroad/australia/ug/electrical-engineering` |
+| **084** | 16 | ✔️ | Electronics & Communication - UG | `/study-abroad/australia/ug/electronics-communication` |
+| **085** | 17 | ✔️ | Chemical Engineering - UG | `/study-abroad/australia/ug/chemical-engineering` |
+| **086** | 18 | ✔️ | Aerospace Engineering - UG | `/study-abroad/australia/ug/aerospace-engineering` |
+| **087** | 19 | ✔️ | Biomedical Engineering - UG | `/study-abroad/australia/ug/biomedical-engineering` |
+| **088** | 20 | ✔️ | Automobile Engineering - UG | `/study-abroad/australia/ug/automobile-engineering` |
 
 ### PG Engineering Branches (9)
 | Overall # | Group # | Status | Page Name | Route Path |
 | :---: | :---: | :---: | :--- | :--- |
-| **089** | 21 | [ ] | Computer Engineering - PG | `/study-abroad/australia/pg/computer-engineering` |
-| **090** | 22 | [ ] | Mechanical Engineering - PG | `/study-abroad/australia/pg/mechanical-engineering` |
-| **091** | 23 | [ ] | Civil Engineering - PG | `/study-abroad/australia/pg/civil-engineering` |
-| **092** | 24 | [ ] | Electrical Engineering - PG | `/study-abroad/australia/pg/electrical-engineering` |
-| **093** | 25 | [ ] | Electronics & Communication - PG | `/study-abroad/australia/pg/electronics-communication` |
-| **094** | 26 | [ ] | Chemical Engineering - PG | `/study-abroad/australia/pg/chemical-engineering` |
-| **095** | 27 | [ ] | Aerospace Engineering - PG | `/study-abroad/australia/pg/aerospace-engineering` |
-| **096** | 28 | [ ] | Biomedical Engineering - PG | `/study-abroad/australia/pg/biomedical-engineering` |
-| **097** | 29 | [ ] | Automobile Engineering - PG | `/study-abroad/australia/pg/automobile-engineering` |
+| **089** | 21 | ✔️ | Computer Engineering - PG | `/study-abroad/australia/pg/computer-engineering` |
+| **090** | 22 | ✔️ | Mechanical Engineering - PG | `/study-abroad/australia/pg/mechanical-engineering` |
+| **091** | 23 | ✔️ | Civil Engineering - PG | `/study-abroad/australia/pg/civil-engineering` |
+| **092** | 24 | ✔️ | Electrical Engineering - PG | `/study-abroad/australia/pg/electrical-engineering` |
+| **093** | 25 | ✔️ | Electronics & Communication - PG | `/study-abroad/australia/pg/electronics-communication` |
+| **094** | 26 | ✔️ | Chemical Engineering - PG | `/study-abroad/australia/pg/chemical-engineering` |
+| **095** | 27 | ✔️ | Aerospace Engineering - PG | `/study-abroad/australia/pg/aerospace-engineering` |
+| **096** | 28 | ✔️ | Biomedical Engineering - PG | `/study-abroad/australia/pg/biomedical-engineering` |
+| **097** | 29 | ✔️ | Automobile Engineering - PG | `/study-abroad/australia/pg/automobile-engineering` |
 
 ### Business, Management & Law (12)
 | Overall # | Group # | Status | Page Name | Route Path |
 | :---: | :---: | :---: | :--- | :--- |
-| **098** | 30 | [ ] | Business Management in Australia | `/study-abroad/australia/business-management` |
-| **099** | 31 | [ ] | MBA in Australia | `/study-abroad/australia/mba` |
-| **100** | 32 | [ ] | Executive MBA in Australia | `/study-abroad/australia/executive-mba` |
-| **101** | 33 | [ ] | BBA in Australia | `/study-abroad/australia/bba` |
-| **102** | 34 | [ ] | BBS in Australia | `/study-abroad/australia/bbs` |
-| **103** | 35 | [ ] | MBS in Australia | `/study-abroad/australia/mbs` |
-| **104** | 36 | [ ] | International Business in Australia | `/study-abroad/australia/international-business` |
-| **105** | 37 | [ ] | Marketing Management in Australia | `/study-abroad/australia/marketing-management` |
+| **098** | 30 | ✔️ | Business Management in Australia | `/study-abroad/australia/business-management` |
+| **099** | 31 | ✔️ | MBA in Australia | `/study-abroad/australia/mba` |
+| **100** | 32 | ✔️ | Executive MBA in Australia | `/study-abroad/australia/executive-mba` |
+| **101** | 33 | ✔️ | BBA in Australia | `/study-abroad/australia/bba` |
+| **102** | 34 | ✔️ | BBS in Australia | `/study-abroad/australia/bbs` |
+| **103** | 35 | ✔️ | MBS in Australia | `/study-abroad/australia/mbs` |
+| **104** | 36 | ✔️ | International Business in Australia | `/study-abroad/australia/international-business` |
+| **105** | 37 | ✔️ | Marketing Management in Australia | `/study-abroad/australia/marketing-management` |
 | **106** | 38 | [ ] | Accounting & Finance in Australia | `/study-abroad/australia/accounting-finance` |
-| **107** | 39 | [ ] | Hospitality Management in Australia | `/study-abroad/australia/hospitality-management` |
-| **108** | 40 | [ ] | Architecture in Australia | `/study-abroad/australia/architecture` |
-| **109** | 41 | [ ] | Law in Australia | `/study-abroad/australia/law` |
+| **107** | 39 | ✔️ | Hospitality Management in Australia | `/study-abroad/australia/hospitality-management` |
+| **108** | 40 | ✔️ | Architecture in Australia | `/study-abroad/australia/architecture` |
+| **109** | 41 | ✔️ | Law in Australia | `/study-abroad/australia/law` |
 
 ### Programs & Pathways (4)
 | Overall # | Group # | Status | Page Name | Route Path |
 | :---: | :---: | :---: | :--- | :--- |
-| **110** | 42 | [ ] | Language Courses in Australia | `/study-abroad/australia/language-courses` |
-| **111** | 43 | [ ] | Summer Courses in Australia | `/study-abroad/australia/summer-courses` |
-| **112** | 44 | [ ] | Winter Courses in Australia | `/study-abroad/australia/winter-courses` |
+| **110** | 42 | ✔️ | Language Courses in Australia | `/study-abroad/australia/language-courses` |
+| **111** | 43 | ✔️ | Summer Courses in Australia | `/study-abroad/australia/summer-courses` |
+| **112** | 44 | ✔️ | Winter Courses in Australia | `/study-abroad/australia/winter-courses` |
 | **113** | 45 | [ ] | Working Professionals in Australia | `/study-abroad/australia/working-professionals` |
 
 ---
@@ -620,12 +620,12 @@
 ### PG Engineering Branches (9)
 | Overall # | Group # | Status | Page Name | Route Path |
 | :---: | :---: | :---: | :--- | :--- |
-| **359** | 21 | [ ] | Computer Engineering - PG | `/study-abroad/finland/pg/computer-engineering` |
-| **360** | 22 | [ ] | Mechanical Engineering - PG | `/study-abroad/finland/pg/mechanical-engineering` |
-| **361** | 23 | [ ] | Civil Engineering - PG | `/study-abroad/finland/pg/civil-engineering` |
-| **362** | 24 | [ ] | Electrical Engineering - PG | `/study-abroad/finland/pg/electrical-engineering` |
-| **363** | 25 | [ ] | Electronics & Communication - PG | `/study-abroad/finland/pg/electronics-communication` |
-| **364** | 26 | [ ] | Chemical Engineering - PG | `/study-abroad/finland/pg/chemical-engineering` |
+| **359** | 21 | ✔️ | Computer Engineering - PG | `/study-abroad/finland/pg/computer-engineering` |
+| **360** | 22 | ✔️ | Mechanical Engineering - PG | `/study-abroad/finland/pg/mechanical-engineering` |
+| **361** | 23 | ✔️ | Civil Engineering - PG | `/study-abroad/finland/pg/civil-engineering` |
+| **362** | 24 | ✔️ | Electrical Engineering - PG | `/study-abroad/finland/pg/electrical-engineering` |
+| **363** | 25 | ✔️ | Electronics & Communication - PG | `/study-abroad/finland/pg/electronics-communication` |
+| **364** | 26 | ✔️ | Chemical Engineering - PG | `/study-abroad/finland/pg/chemical-engineering` |
 | **365** | 27 | ✔️ | Aerospace Engineering - PG | `/study-abroad/finland/pg/aerospace-engineering` |
 | **366** | 28 | ✔️ | Biomedical Engineering - PG | `/study-abroad/finland/pg/biomedical-engineering` |
 | **367** | 29 | ✔️ | Automobile Engineering - PG | `/study-abroad/finland/pg/automobile-engineering` |
@@ -640,8 +640,8 @@
 | **372** | 34 | [ ] | BBS in Finland | `/study-abroad/finland/bbs` |
 | **373** | 35 | [ ] | MBS in Finland | `/study-abroad/finland/mbs` |
 | **374** | 36 | [ ] | International Business in Finland | `/study-abroad/finland/international-business` |
-| **375** | 37 | [ ] | Marketing Management in Finland | `/study-abroad/finland/marketing-management` |
-| **376** | 38 | [ ] | Accounting & Finance in Finland | `/study-abroad/finland/accounting-finance` |
+| **375** | 37 | [REMOVED] | Marketing Management in Finland (Removed - Not in docs) | `/study-abroad/finland/marketing-management` |
+| **376** | 38 | [REMOVED] | Accounting & Finance in Finland (Removed - Not in docs) | `/study-abroad/finland/accounting-finance` |
 | **377** | 39 | [ ] | Hospitality Management in Finland | `/study-abroad/finland/hospitality-management` |
 | **378** | 40 | [ ] | Architecture in Finland | `/study-abroad/finland/architecture` |
 | **379** | 41 | [ ] | Law in Finland | `/study-abroad/finland/law` |
@@ -652,7 +652,7 @@
 | **380** | 42 | [ ] | Language Courses in Finland | `/study-abroad/finland/language-courses` |
 | **381** | 43 | [ ] | Summer Courses in Finland | `/study-abroad/finland/summer-courses` |
 | **382** | 44 | [ ] | Winter Courses in Finland | `/study-abroad/finland/winter-courses` |
-| **383** | 45 | [ ] | Working Professionals in Finland | `/study-abroad/finland/working-professionals` |
+| **383** | 45 | [REMOVED] | Working Professionals in Finland (Removed - Not in docs) | `/study-abroad/finland/working-professionals` |
 
 ---
 

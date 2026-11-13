@@ -1,34 +1,36 @@
 import React from "react";
-import { AbroadCoursePage, formatRichText } from "../../../../../../component/CoursePageKit.jsx";
+import { AbroadCoursePage } from "../../../../../../component/CoursePageKit.jsx";
+
+// Page layout images
 import heroImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/Electrical/ee_pg_hero.webp";
 import heroBgImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/Electrical/ee_pg_hero_bg.webp";
 import sideImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/Electrical/ee_pg_circuits.webp";
 import ctaBgImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/Electrical/ee_pg_cta_bg.webp";
-import u0Img from "../../../../../../Images/Abroad/Finland/Engineering_PG/Electrical/Aalto_University.webp";
-import u1Img from "../../../../../../Images/Abroad/Finland/Engineering_PG/Electrical/Tampere_University.webp";
-import u2Img from "../../../../../../Images/Abroad/Finland/Engineering_PG/Electrical/University_of_Oulu.webp";
+
+// University Campus Images
+import aaltoImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/Electrical/Aalto_University.webp";
+import tampereImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/Electrical/Tampere_University.webp";
+import ouluImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/Electrical/University_of_Oulu.webp";
 
 const page = {
-  name: "Master's in Electrical Engineering",
+  name: "Master’s in Electrical Engineering",
   country: "Finland",
   slug: "electrical-engineering",
-  title: "Master's in Electrical Engineering in Finland for Indian Students | Edu-Hawk Worldwide",
-  description: "Study Master's in Electrical Engineering in Finland: English-taught M.Sc. degrees (120 ECTS, 2 years) in smart grids, power electronics, industrial automation, wireless systems & robotics at Aalto, Tampere & Oulu.",
-  keywords: "Master's in Electrical Engineering in Finland, Electrical Engineering in Finland for Indian Students, Study Electrical Engineering in Finland, Electrical Engineering Universities in Finland, Master's in Electrical Engineering Admission in Finland",
-  introTitle: "Master's in Electrical Engineering in Finland",
+  title: "Master’s in Electrical Engineering in Finland for Indian Students | Edu-Hawk Worldwide",
+  description:
+    "Explore Master’s in Electrical Engineering in Finland for Indian students. Learn about English-taught programmes, top universities (Aalto, Tampere, Oulu), eligibility, fees, admission process, and career opportunities.",
+  keywords:
+    "Master's in Electrical Engineering in Finland, Electrical Engineering in Finland for Indian Students, Study Electrical Engineering in Finland, Electrical Engineering Courses in Finland, Electrical Engineering Universities in Finland, Electrical Engineering in Finland Fees",
+  introTitle: "Master’s in Electrical Engineering in Finland for Indian Students",
   heroParas: [
-    "Study **Master's in Electrical Engineering in Finland** to experience cutting-edge Nordic smart grid technology, industrial automation, power electronics research, and high-demand international career opportunities with **[Edu-Hawk Worldwide](/services)**."
+    "Finland is becoming a popular destination for Indian students who want to pursue advanced engineering education in a technology-driven environment. With its strong focus on innovation, research, sustainable energy, automation, and digital technologies, Finland offers opportunities for students interested in developing expertise in electrical engineering.",
+    "A Master’s in Electrical Engineering in Finland can help students build advanced technical knowledge, gain international exposure, and explore career opportunities in industries such as energy, electronics, telecommunications, automation, and smart systems."
   ],
-  overview: [],
-  level: "PG",
+  overview: [
+    "For Indian students planning to study abroad, Finland offers English-taught master's programmes, modern laboratories, research opportunities, and an international learning environment."
+  ],
+  level: "Postgraduate & Master's",
   crumb: "Engineering",
-
-  stats: [
-    { label: "Degree Awarded", value: "Master of Science in Technology (M.Sc. Tech)" },
-    { label: "Course Duration", value: "2 Years (120 ECTS)" },
-    { label: "Top Institutions", value: "Aalto University, Tampere, University of Oulu" },
-    { label: "Teaching Language", value: "100% English Taught" }
-  ],
 
   sections: [
     {
@@ -39,461 +41,577 @@ const page = {
         {
           t: "p",
           items: [
-            "**Finland** is globally celebrated for its advanced technology ecosystem, pioneering engineering research, and leadership in sustainable energy transition. Students pursuing electrical engineering explore domains connecting traditional high-voltage electrical networks with modern electronics, automation, and telecommunications.",
-            "Choosing to **[study Electrical Engineering in Finland](/study-abroad/finland)** is a strategic step for students seeking world-class technical expertise, hands-on laboratory training, and direct pathways into Europe's energy and automation industries.",
-            "**Key Advantages of Studying Electrical Engineering in Finland**"
+            "Finland is known for its advanced technology ecosystem, engineering research, and commitment to sustainable development. Students pursuing electrical engineering can explore areas that connect traditional electrical systems with modern technologies.",
+            "**Key Benefits**"
           ]
         },
         {
           t: "dl",
           pairs: [
             {
-              t: "100% English-Taught Master's Programmes",
-              d: "Study comprehensive international M.Sc. curricula delivered entirely in English with globally recognized ECTS qualifications."
+              t: "English-Taught Master's Programmes",
+              d: "Several Finnish universities offer international master's programmes taught in English."
             },
             {
-              t: "Advanced Multi-Disciplinary Engineering",
-              d: "Master smart electrical grids, high-power electronics, industrial robotics, embedded automation, and next-generation wireless communications."
+              t: "Advanced Engineering Education",
+              d: "Students can explore electrical systems, electronics, automation, communication technologies, and energy solutions."
             },
             {
-              t: "World-Class Laboratory Research",
-              d: "Participate in real-world research at state-of-the-art power systems testbeds, high-voltage laboratories, and cleanroom microelectronics facilities."
+              t: "Research Opportunities",
+              d: "Universities provide opportunities to participate in research projects, laboratory work, and technology development."
             },
             {
-              t: "Deep Industrial Integration",
-              d: "Benefit from strong corporate partnerships with global giants like ABB, Wärtsilä, Danfoss, Nokia, and Fingrid for thesis sponsorships."
+              t: "Industry Exposure",
+              d: "Finland has technology-focused industries working in areas such as telecommunications, renewable energy, electronics, and automation."
             },
             {
-              t: "Two-Year Post-Study Work Permit",
-              d: "International graduates receive a 2-year post-study residence permit to work or launch startups across the European Union."
+              t: "International Learning Environment",
+              d: "Students study alongside peers from different countries and develop global professional skills."
             },
             {
-              t: "Competitive Merit Scholarships",
-              d: "Finnish universities provide 50% to 100% tuition scholarships and fee waivers to talented international engineering applicants."
+              t: "Career Development",
+              d: "Graduates can explore opportunities in engineering, research, technology, and related sectors, depending on their skills and eligibility."
             }
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "Choosing to study Electrical Engineering in Finland can be a valuable step for students who want to develop technical expertise and prepare for an international engineering career."
           ]
         }
       ]
     },
     {
       slot: "courses",
-      eyebrow: "Programs",
+      eyebrow: "Specialisation Areas",
       title: "Electrical Engineering Courses in Finland",
       groups: [
         {
           t: "p",
           items: [
-            "Electrical engineering is a broad field encompassing electrical power systems, smart grids, industrial automation, electronic devices, and wireless communication networks.",
-            "In Finland, programmes are offered under specialized titles such as **Automation and Electrical Engineering**, **Smart Grids & Power Systems**, **Wireless Communications Engineering**, and **Electronics & Nanotechnology**.",
-            "**Popular Specialisation Areas & Subjects**"
-          ]
-        },
-        {
-          t: "pills",
-          items: [
-            "Smart Grids & Electrical Power Systems",
-            "Power Electronics & Electric Drives",
-            "Industrial Automation & Control Systems",
-            "Robotics & Autonomous Systems",
-            "Renewable Energy Integration & Energy Storage",
-            "Wireless Communications & 5G/6G Networks",
-            "Embedded Systems & IoT Sensors",
-            "Micro- & Nano-Electronic Devices"
+            "Electrical engineering is a broad field that includes the study of electrical systems, electronic devices, communication networks, automation, and energy technologies.",
+            "In Finland, students may find electrical engineering specialisations through programmes with different titles, including Automation and Electrical Engineering, Communications Engineering, Electronics and Nanotechnology, and Energy Systems.",
+            "**Popular Specialisation Areas**"
           ]
         },
         {
           t: "dl",
           pairs: [
             {
-              t: "Electrical Engineering & Power Systems",
-              d: "Explore electrical power generation, transmission, high-voltage distribution, smart metering, and decentralized renewable energy networks."
+              t: "Electrical Engineering and Power Systems",
+              d: "Students explore electrical power generation, transmission, distribution, electrical networks, and modern energy systems."
             },
             {
               t: "Automation and Control Engineering",
-              d: "Focus on industrial automation, programmable logic controllers (PLCs), distributed control systems (DCS), robotics, and smart manufacturing."
-            },
-            {
-              t: "Power Electronics and Electric Drives",
-              d: "Study power semiconductor converters, inverters, electric vehicle (EV) drivetrains, and energy-efficient motor drives."
+              d: "This area focuses on industrial automation, control systems, robotics, smart technologies, and automated processes."
             },
             {
               t: "Electronics and Nanotechnology",
-              d: "Develop expertise in semiconductor physics, integrated circuit (IC) design, micro-sensors, and photonics."
+              d: "Students learn about electronic devices, semiconductor technologies, integrated circuits, and advanced electronic systems."
             },
             {
-              t: "Wireless & Communication Engineering",
-              d: "Master RF circuit design, antenna engineering, satellite communications, and cutting-edge 5G and 6G network architectures."
+              t: "Communication Engineering",
+              d: "This specialisation covers communication networks, wireless systems, signal transmission, and telecommunications technologies."
+            },
+            {
+              t: "Renewable Energy and Energy Systems",
+              d: "Students explore sustainable energy technologies, smart grids, energy markets, and modern electricity systems."
+            },
+            {
+              t: "Embedded Systems and Smart Technologies",
+              d: "This field combines hardware and software knowledge to develop intelligent devices, sensors, and connected systems."
             }
           ]
         },
         {
           t: "p",
           items: [
-            "The exact course structure and specialisations vary by university. Explore related fields like **[Master's in Electronics & Communication](/study-abroad/finland/pg/electronics-communication)** and **[Master's in Mechanical Engineering](/study-abroad/finland/pg/mechanical-engineering)**."
+            "The exact course structure and available specialisations depend on the university and the selected master's programme."
           ]
         }
       ]
     },
     {
-      slot: "universities",
-      eyebrow: "Where to study",
+      slot: "unis",
+      eyebrow: "Top Institutions",
       title: "Top Universities for Electrical Engineering in Finland",
       lead: [
-        "Finland features globally ranked research universities offering English-taught master's degrees in electrical engineering, power systems, and automation.",
-        "Students should compare curriculum structures, laboratory equipment, faculty specialisations, and tuition fees before applying."
+        "Finland has several universities offering engineering and technology programmes. Students should compare programme titles, curriculum, admission requirements, tuition fees, and specialisation options before applying."
       ],
       unis: [
         {
           name: "Aalto University",
-          desc: "Aalto University offers premier master's degrees through its School of Electrical Engineering in Otaniemi, Espoo. Programmes include Automation and Electrical Engineering, Electronics and Nanotechnology, and Communications Engineering, with world-class smart grid testing labs.",
-          img: u0Img
+          img: aaltoImg,
+          location: "Espoo, Greater Helsinki, Finland",
+          desc: "Aalto University is a major Finnish university offering master's-level education through its School of Electrical Engineering. Relevant English-taught programme options include Automation and Electrical Engineering, Communications Engineering, Electronics and Nanotechnology, Energy Systems and Markets, and Hydrogen and Electric Systems. The Automation and Electrical Engineering Master's Programme is a two-year, full-time programme worth 120 ECTS credits. It includes areas such as autonomous systems, industrial automation, sustainable energy solutions, and smart technologies.",
+          fee: "€17,000 / year (approx. ₹17.85 lakh)",
+          duration: "2 Years (120 ECTS)",
+          link: "https://www.aalto.fi/en"
         },
         {
           name: "Tampere University",
-          desc: "Tampere University provides renowned education in Electrical Engineering, Power Electronics, Smart Grids, and Wireless Communications, featuring extensive joint research labs with ABB and Nokia.",
-          img: u1Img
+          img: tampereImg,
+          location: "Tampere, Finland",
+          desc: "Tampere University offers education and research in technology and engineering. Students interested in electrical engineering can explore relevant programmes and specialisations in areas such as automation, electronics, signal processing, and communications. Applicants should review the university's current programme catalogue to identify the master's programme that best matches their bachelor's degree and career interests.",
+          fee: "Check official university catalogue",
+          duration: "2 Years Master's Programmes",
+          link: "https://www.tuni.fi/en"
         },
         {
           name: "University of Oulu",
-          desc: "The University of Oulu is globally acclaimed for telecommunications, electronics, and wireless systems, serving as the flagship hub for the world's first 6G research initiative (6G Flagship).",
-          img: u2Img
+          img: ouluImg,
+          location: "Oulu, Finland",
+          desc: "The University of Oulu is known for technology-related education and research. Students interested in electrical engineering may explore relevant opportunities in electronics, wireless communications, information technology, and related engineering fields. Programme availability and admission requirements should be checked through the university's official website.",
+          fee: "Check official university catalogue",
+          duration: "2 Years Master's Programmes",
+          link: "https://www.oulu.fi/en"
         }
       ],
       note: [
-        "Before selecting a university, applicants should compare programme prerequisites, admission criteria, and scholarship deadlines with **[Edu-Hawk Worldwide](/services)**."
+        "Important: Not every university offers a master's programme titled exactly “Electrical Engineering.” Related specialisations may be offered under different programme names."
       ]
     },
     {
       slot: "eligibility",
-      eyebrow: "Eligibility",
+      eyebrow: "Academic Criteria",
       title: "Eligibility to Study Electrical Engineering in Finland",
       groups: [
         {
           t: "p",
           items: [
-            "Indian students planning to apply for a **Master's in Electrical Engineering in Finland** should meet the academic and programme-specific eligibility criteria."
+            "Indian students planning to apply for a master's programme in electrical engineering should meet the academic and programme-specific eligibility requirements.",
+            "**General Eligibility Criteria**"
           ]
         },
         {
-          t: "dl",
-          pairs: [
-            {
-              t: "Recognized Bachelor's Degree",
-              d: "A recognized 4-year undergraduate degree (B.Tech / B.E. / B.S.) in Electrical Engineering, EEE, ECE, Instrumentation, or a closely relevant discipline."
-            },
-            {
-              t: "Prerequisite Coursework",
-              d: "Documented credits in circuit analysis, electromagnetic fields, mathematics (calculus & differential equations), signals & systems, and control theory."
-            },
-            {
-              t: "Academic Performance Cutoff",
-              d: "A strong academic background with a minimum aggregate typically of 65%–70%+ or equivalent CGPA in undergraduate technical coursework."
-            },
-            {
-              t: "English Language Proficiency",
-              d: "Standardized test score demonstrating English competence (IELTS Academic, TOEFL iBT, or PTE Academic)."
-            }
+          t: "ul",
+          items: [
+            "A recognised bachelor's degree in Electrical Engineering or a relevant engineering discipline.",
+            "A bachelor's degree that meets the academic requirements of the selected university.",
+            "Relevant academic background in subjects such as electrical circuits, electronics, mathematics, control systems, or engineering fundamentals.",
+            "English language proficiency as required by the university.",
+            "Required academic documents and application materials.",
+            "Additional programme-specific requirements, if applicable."
           ]
         },
         {
           t: "p",
           items: [
-            "Meeting minimum eligibility requirements does not guarantee admission. Universities evaluate applications holistically based on academic excellence and subject alignment."
+            "Students with degrees in Electronics and Communication Engineering, Electrical and Electronics Engineering, or related disciplines may be considered for relevant programmes, depending on the university's academic prerequisites.",
+            "Meeting the minimum eligibility criteria does not guarantee admission. Universities evaluate applications according to their programme-specific selection criteria."
           ]
         }
       ]
     },
     {
-      slot: "admission",
-      eyebrow: "Admission",
+      slot: "admissions",
+      eyebrow: "Application Evaluation",
       title: "Admission Requirements for Electrical Engineering in Finland",
       groups: [
         {
           t: "p",
           items: [
-            "The admission process for a **Master's in Electrical Engineering in Finland** generally includes academic evaluation, English proficiency verification, and document review."
+            "The admission process for a Master's in Electrical Engineering in Finland generally involves academic evaluation, English language proficiency, and submission of supporting documents.",
+            "**Academic Requirements**",
+            "Applicants should have a relevant bachelor's degree with coursework related to the chosen master's programme. Universities may evaluate:"
           ]
         },
         {
-          t: "dl",
-          pairs: [
-            {
-              t: "Academic Transcripts & Degree Certificates",
-              d: "Complete semester grade sheets, provisional/original degree certificate, and grading scale documentation."
-            },
-            {
-              t: "English Proficiency Scorecards",
-              d: "IELTS Academic (minimum 6.5 overall, with 5.5–6.0 minimum subscores), TOEFL iBT (minimum 92), or PTE Academic (minimum 62)."
-            },
-            {
-              t: "Statement of Purpose (SOP)",
-              d: "A well-structured motivation letter outlining your electrical engineering background, research interest (e.g. smart grids or power electronics), and career goals."
-            },
-            {
-              t: "Curriculum Vitae (CV) & Course Descriptions",
-              d: "An updated Europass CV detailing engineering internships, lab projects, MATLAB/Simulink skills, and detailed course syllabi."
-            }
+          t: "ul",
+          items: [
+            "Academic performance and grades",
+            "Relevance of the bachelor's degree",
+            "Previous engineering coursework",
+            "Academic projects and research experience",
+            "Suitability for the selected specialisation"
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "**English Language Requirements**",
+            "International students may need to demonstrate English proficiency through an accepted test or another university-approved method. Commonly accepted tests may include:"
+          ]
+        },
+        {
+          t: "pills",
+          items: ["IELTS Academic", "TOEFL iBT", "PTE Academic"]
+        },
+        {
+          t: "p",
+          items: [
+            "The accepted tests, minimum scores, exemptions, and validity requirements vary by university and programme.",
+            "**Additional Requirements**",
+            "Depending on the programme, students may need to submit:"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "A motivation letter or statement of purpose",
+            "A CV or résumé",
+            "Academic transcripts",
+            "Degree certificate",
+            "Relevant project or research information"
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "Applicants should always check the latest admission criteria before submitting their application."
           ]
         }
       ]
     },
     {
-      slot: "costs",
-      eyebrow: "Tuition & Costs",
+      slot: "fees",
+      eyebrow: "Tuition, Scholarships & Living Costs",
       title: "Cost of Studying Electrical Engineering in Finland",
       groups: [
         {
           t: "p",
           items: [
-            "The cost of studying in Finland depends on the university, programme, accommodation, and personal lifestyle.",
-            "Non-EU/EEA students pay tuition for English-taught master's degrees, with generous merit scholarships and fee waivers available."
+            "The cost of studying in Finland depends on the university, tuition fee category, accommodation, lifestyle, and personal expenses.",
+            "For students from India, tuition fees generally apply to English-taught bachelor's and master's programmes for non-EU/EEA students, unless a scholarship or exemption is available.",
+            "**Tuition Fees**",
+            "Aalto University's Automation and Electrical Engineering Master's Programme lists tuition fees of €17,000 per year for non-EU/EEA students.",
+            "Approximate conversion:"
           ]
         },
         {
           t: "table",
-          headers: ["Expense Category", "Estimated Cost (EUR)", "Indicative Cost (INR)"],
+          headers: ["Expense", "Approximate Cost"],
           rows: [
-            ["Aalto University Annual Tuition", "€17,000 / year", "₹17,85,000"],
-            ["Tampere / Oulu Annual Tuition", "€10,000 – €12,000 / year", "₹10,50,000 – ₹12,60,000"],
-            ["Total 2-Year Master's Tuition", "€20,000 – €34,000", "₹21,00,000 – ₹35,70,000"],
-            ["Monthly Student Accommodation", "€300 – €650 / month", "₹31,500 – ₹68,250"],
-            ["Monthly Food, Utilities & Transit", "€400 – €550 / month", "₹42,000 – ₹57,750"],
-            ["Estimated Total Annual Living Cost", "€8,400 – €10,800 / year", "₹8,82,000 – ₹11,34,000"]
+            ["Annual tuition fee", "€17,000"],
+            ["Annual tuition in INR", "₹17,85,000"],
+            ["Two-year tuition in EUR", "€34,000"],
+            ["Two-year tuition in INR", "₹35,70,000"]
           ]
         },
         {
           t: "p",
           items: [
-            "INR conversions are indicative using €1 ≈ ₹105. Students should verify the latest fee structure before applying.",
-            "**Merit Scholarships for Indian Students**",
-            "Finnish universities offer merit-based **tuition scholarships and waivers** covering **50% to 100% of tuition fees** for high-achieving applicants. Explore scholarship strategies with **[Edu-Hawk Worldwide](/services)**."
+            "INR conversion is indicative, using €1 ≈ ₹105. Actual exchange rates may vary. These figures refer to the stated Aalto programme and should not be treated as the tuition fee for every Finnish university.",
+            "**Living Expenses**",
+            "Students should also plan for accommodation, food, transportation, insurance, study materials, and personal expenses. Typical expense categories include:"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "Accommodation and rent",
+            "Food and groceries",
+            "Public transportation",
+            "Health insurance and related costs",
+            "Books and study materials",
+            "Personal and miscellaneous expenses"
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "Living costs vary by city, accommodation type, and lifestyle. Students should prepare a realistic budget before applying.",
+            "**Scholarships for Indian Students**",
+            "Some Finnish universities offer scholarships or tuition fee waivers for eligible international students.",
+            "Scholarships may be based on academic performance, programme criteria, or university-specific conditions.",
+            "Students should check:"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "Scholarship eligibility",
+            "Application deadlines",
+            "Tuition fee coverage",
+            "Renewal requirements",
+            "Whether living expenses are included"
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "A scholarship may reduce tuition costs, but students should not assume that it covers all expenses."
           ]
         }
       ]
     },
     {
-      slot: "steps",
-      eyebrow: "Step by step",
+      slot: "process",
+      eyebrow: "Step-by-Step",
       title: "Admission Process for Master's in Electrical Engineering in Finland",
-      lead: [
-        "The admission process follows these systematic steps:"
-      ],
-      steps: [
-        {
-          title: "Step 1: Choose Your Specialisation",
-          text: "Identify master's programmes related to electrical engineering, smart grids, automation, or wireless systems."
-        },
-        {
-          title: "Step 2: Check Eligibility & Prerequisites",
-          text: "Review university academic requirements, prerequisite math & circuit theory credits, and language criteria."
-        },
-        {
-          title: "Step 3: Prepare Application Documents",
-          text: "Collect transcripts, degree certificates, English test results, Europass CV, motivation letter, and course syllabi."
-        },
-        {
-          title: "Step 4: Submit Studyinfo.fi Application",
-          text: "Apply online via the Finnish national application portal (Studyinfo.fi) during the winter joint application window (January)."
-        },
-        {
-          title: "Step 5: Apply for University Scholarships",
-          text: "Include your merit scholarship application simultaneously within your Studyinfo online submission."
-        },
-        {
-          title: "Step 6: Receive Admission Decision",
-          text: "Universities evaluate applications and publish decisions alongside scholarship awards in March/April."
-        },
-        {
-          title: "Step 7: Accept Offer & Pay Deposit",
-          text: "Confirm your study place electronically and pay the required tuition deposit to secure university enrolment."
-        },
-        {
-          title: "Step 8: Apply for Finnish Residence Permit",
-          text: "Submit your student residence permit application on Enter Finland, complete biometric verification, and book student housing."
-        }
-      ]
-    },
-    {
-      slot: "documents",
-      eyebrow: "Checklist",
-      title: "Documents Required for Admission",
       groups: [
         {
           t: "p",
           items: [
-            "Indian students applying for a master's programme in electrical engineering should assemble the following documents:"
+            "The admission process generally follows these steps:"
           ]
         },
         {
-          t: "pills",
+          t: "step",
           items: [
-            "Valid International Passport",
-            "Bachelor's Degree Certificate (B.Tech / B.E.)",
-            "Official Semester Transcripts",
-            "Course Syllabus / Curriculum Descriptions",
-            "English Proficiency Test Result (IELTS / TOEFL / PTE)",
-            "Statement of Purpose (SOP)",
-            "Europass Curriculum Vitae (CV)",
-            "Letters of Recommendation (LOR)",
-            "Proof of Financial Means (€9,600+)",
-            "Comprehensive Health Insurance Coverage"
-          ]
-        },
-        {
-          t: "p",
-          items: [
-            "Document requirements may differ between universities. Students should ensure that all documents are certified, complete, and submitted in the required format."
-          ]
-        }
-      ]
-    },
-    {
-      slot: "careers",
-      eyebrow: "Careers & Salary",
-      title: "Career Opportunities After Electrical Engineering in Finland",
-      groups: [
-        {
-          t: "p",
-          items: [
-            "A master's degree in electrical engineering prepares students for high-impact technical, industrial, and research career paths across Scandinavia and Europe.",
-            "**Key Career Roles for Graduates**"
-          ]
-        },
-        {
-          t: "pills",
-          items: [
-            "Electrical Engineer & Power Grid Specialist",
-            "Automation & Control Systems Engineer",
-            "Power Electronics & Electric Drive Designer",
-            "Robotics & Autonomous Systems Developer",
-            "RF & Wireless Communications Engineer",
-            "Smart Grid & Renewable Integration Specialist",
-            "Embedded Firmware Engineer",
-            "R&D Engineer & Research Scientist"
-          ]
-        },
-        {
-          t: "dl",
-          pairs: [
             {
-              t: "Electrical & Power Systems Engineer",
-              d: "Work on high-voltage power grids, substation design, renewable energy integration, and smart metering solutions."
+              title: "Step 1: Choose Your Programme",
+              text: "Identify master's programmes related to electrical engineering based on your bachelor's degree, academic background, and preferred specialisation."
             },
             {
-              t: "Automation Engineer",
-              d: "Develop, program, and maintain automated industrial production lines, PLC/SCADA systems, and industrial robotics."
+              title: "Step 2: Check Eligibility",
+              text: "Review the university's academic requirements, English language criteria, accepted degrees, and application instructions."
             },
             {
-              t: "Power Electronics Designer",
-              d: "Design inverters, EV battery charging systems, renewable power converters, and high-efficiency electric drivetrains."
+              title: "Step 3: Prepare Your Documents",
+              text: "Collect academic transcripts, degree certificates, English proficiency results, CV, motivation letter, and other required documents."
             },
             {
-              t: "Wireless & Telecommunications Engineer",
-              d: "Design RF circuits, 5G/6G wireless networks, antenna arrays, and satellite communication equipment."
+              title: "Step 4: Submit Your Application",
+              text: "Apply through the university's official application process or the designated application portal during the relevant application period."
+            },
+            {
+              title: "Step 5: Complete Additional Requirements",
+              text: "Submit any supplementary documents or complete additional steps requested by the university."
+            },
+            {
+              title: "Step 6: Receive the Admission Decision",
+              text: "Universities evaluate applications and communicate their admission decisions according to their timelines."
+            },
+            {
+              title: "Step 7: Apply for Scholarships",
+              text: "If eligible, complete the scholarship application according to the university's requirements and deadlines."
+            },
+            {
+              title: "Step 8: Prepare for Your Student Residence Permit",
+              text: "After receiving admission and meeting the required conditions, prepare the documents needed for your Finnish student residence permit application."
             }
           ]
         },
         {
           t: "p",
           items: [
-            "**Leading Employers in Finland**",
-            "Prominent employers include **ABB, Wärtsilä, Danfoss, Nokia, Fingrid, Valmet, Konecranes, Vaisala, and Helen**.",
-            "International graduates in Finland benefit from a **2-year post-study work permit** upon completing their degree."
+            "Students should verify current immigration requirements through official Finnish authorities."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "docs",
+      eyebrow: "Documentation",
+      title: "Documents Required for Admission",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Indian students applying for a master's programme in electrical engineering may need the following documents:"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "Valid passport",
+            "Bachelor's degree certificate or provisional certificate",
+            "Academic transcripts",
+            "English language proficiency test result, if required",
+            "Curriculum vitae or résumé",
+            "Statement of purpose or motivation letter, if required",
+            "Course descriptions or other academic information, if requested",
+            "Scholarship application documents, if applicable",
+            "Additional documents specified by the university"
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "Document requirements can differ between universities and programmes.",
+            "Students should ensure that their documents are accurate, complete, and submitted in the required format."
           ]
         }
       ]
     },
     {
       slot: "careers",
-      eyebrow: "Careers & Salary",
-      title: "Salary After Master's in Electrical Engineering in Finland",
+      eyebrow: "Career Pathways",
+      title: "Career Opportunities After Electrical Engineering in Finland",
       groups: [
         {
           t: "p",
           items: [
-            "Salaries for electrical engineering professionals in Finland depend on role, industrial sector, previous experience, technical mastery, and location.",
-            "Typical starting salaries for electrical engineers in Finland range between **€3,600 and €4,600 per month** (approximately **₹37.8 to ₹48.3 lakh per annum**). Experienced power systems specialists and automation architects earn **€5,500 to €7,000+ per month**.",
-            "**Key Factors Enhancing Compensation**"
+            "A master's degree in electrical engineering can prepare students for different technical and research-oriented career paths.",
+            "Career opportunities depend on the programme, practical experience, technical skills, language abilities, and employer requirements.",
+            "**Possible Job Roles**"
+          ]
+        },
+        {
+          t: "dl",
+          pairs: [
+            {
+              t: "Electrical Engineer",
+              d: "Work on electrical systems, equipment, power distribution, and engineering projects."
+            },
+            {
+              t: "Automation Engineer",
+              d: "Develop, maintain, and improve automated systems used in industrial and manufacturing environments."
+            },
+            {
+              t: "Electronics Engineer",
+              d: "Work on electronic devices, circuits, embedded systems, and hardware development."
+            },
+            {
+              t: "Power Systems Engineer",
+              d: "Contribute to electrical power networks, energy systems, and related engineering projects."
+            },
+            {
+              t: "Control Systems Engineer",
+              d: "Design and develop control systems for industrial applications, machines, and smart technologies."
+            },
+            {
+              t: "Telecommunications Engineer",
+              d: "Work with communication networks, wireless technologies, and telecommunications systems."
+            },
+            {
+              t: "Research and Development Engineer",
+              d: "Participate in engineering research, product development, testing, and innovation projects."
+            }
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "**Industries for Electrical Engineering Graduates**",
+            "Graduates may explore opportunities in:"
           ]
         },
         {
           t: "pills",
           items: [
-            "Power Grid Simulation Tools (PSCAD, DIgSILENT PowerFactory)",
-            "Industrial PLC / SCADA Programming (Siemens, Beckhoff)",
-            "MATLAB / Simulink & Embedded C Proficiency",
-            "Clean Energy & EV Drivetrain Experience",
-            "Finnish Language Skills for On-Site Engineering Roles"
+            "Electrical power and energy",
+            "Renewable energy",
+            "Electronics and semiconductor technologies",
+            "Telecommunications",
+            "Industrial automation",
+            "Manufacturing",
+            "Robotics and smart systems",
+            "Engineering research and development"
           ]
         },
         {
           t: "p",
           items: [
-            "Students improve career readiness by participating in university research projects, company-sponsored master's theses, and summer engineering internships."
+            "Employment is not guaranteed by completing a master's degree. Students should develop practical skills, project experience, and professional networks while studying."
           ]
         }
       ]
     },
     {
-      slot: "content",
-      eyebrow: "Guidance",
+      slot: "salary",
+      eyebrow: "Industry Compensation",
+      title: "Salary After Master's in Electrical Engineering in Finland",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Salary depends on the job role, employer, experience, technical specialisation, location, and overall market conditions.",
+            "Electrical engineering graduates may find different salary levels across industries such as energy, electronics, telecommunications, and automation.",
+            "Rather than relying on a single salary figure, students should research current job advertisements and salary information for their intended role.",
+            "**Factors Affecting Salary**"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "Relevant engineering experience",
+            "Technical and software skills",
+            "Industry and company",
+            "Job responsibilities",
+            "Location",
+            "Finnish or other language skills",
+            "Internship and project experience"
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "Students can improve their career readiness by participating in university projects, internships, research activities, and industry networking opportunities."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "faq",
+      eyebrow: "FAQ",
+      title: "Frequently Asked Questions",
+      groups: [
+        {
+          t: "faq",
+          items: [
+            {
+              q: "Can Indian students study a Master's in Electrical Engineering in Finland?",
+              a: "Yes. Indian students can apply for relevant English-taught master's programmes if they meet the academic, language, and programme-specific admission requirements."
+            },
+            {
+              q: "Is Electrical Engineering available in English in Finland?",
+              a: "Yes. Finnish universities offer several English-taught engineering programmes and specialisations related to electrical engineering. The exact programme title and curriculum vary by university."
+            },
+            {
+              q: "What is the tuition fee for Electrical Engineering in Finland?",
+              a: "Tuition fees depend on the university and programme. For example, Aalto University's Automation and Electrical Engineering Master's Programme lists a tuition fee of €17,000 per year for non-EU/EEA students, approximately ₹17,85,000 using an indicative exchange rate of €1 = ₹105."
+            },
+            {
+              q: "Is IELTS required to study Electrical Engineering in Finland?",
+              a: "English proficiency is generally required for English-taught programmes. IELTS may be accepted, but universities can also accept other tests or approved methods. Check the specific programme's requirements."
+            },
+            {
+              q: "Can students work after completing their Master's in Electrical Engineering in Finland?",
+              a: "Graduates may explore employment opportunities in Finland and other countries. Their options depend on job availability, qualifications, language skills, employer requirements, and applicable residence permit rules."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      slot: "guidance",
+      eyebrow: "Edu-Hawk Worldwide",
       title: "Study Electrical Engineering in Finland with Edu-Hawk Worldwide",
       groups: [
         {
           t: "p",
           items: [
-            "Planning to pursue a **Master's in Electrical Engineering in Finland**? **[Edu-Hawk Worldwide](/services)** provides comprehensive, personalized guidance to ensure a seamless study abroad experience.",
+            "Planning to pursue a Master's in Electrical Engineering in Finland? Edu-Hawk Worldwide can help you understand the study abroad process and prepare for your international education journey.",
+            "Our guidance can help you explore:"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "Suitable universities and engineering programmes",
+            "Eligibility and admission requirements",
+            "Application preparation",
+            "English language requirements",
+            "Tuition fees and scholarship options",
+            "Study abroad documentation and guidance"
+          ]
+        },
+        {
+          t: "p",
+          items: [
             "Start in India. Continue Abroad. Graduate Globally.",
-            "Our certified international counsellors provide:",
-            "• University selection tailored to your engineering specialization",
-            "• Transcript evaluation and prerequisite verification",
-            "• Statement of Purpose (SOP) and Europass CV drafting mentorship",
-            "• Studyinfo portal application filing and document tracking",
-            "• Merit scholarship and fee waiver application strategy",
-            "• Complete Finnish student residence permit and visa interview guidance",
-            "**[Connect with Edu-Hawk Worldwide today](/contact)** and accelerate your international engineering career."
+            "Connect with Edu-Hawk Worldwide and take the next step toward your engineering education abroad.",
+            "Website: eduhawk.in | Email: eduhawk.global@gmail.com"
           ]
         }
       ]
     }
-  ],
-
-  faqs: [
-    {
-      q: "Can Indian students study a Master's in Electrical Engineering in Finland?",
-      a: "Yes. Indian students holding a recognized 4-year bachelor's degree in Electrical Engineering, EEE, ECE, or a relevant field can apply for English-taught master's programmes across top Finnish universities if they meet academic and language criteria."
-    },
-    {
-      q: "Is Electrical Engineering available in English in Finland?",
-      a: "Yes. Leading Finnish universities including Aalto University, Tampere University, and the University of Oulu offer 100% English-taught master's degrees in electrical engineering, smart grids, and industrial automation."
-    },
-    {
-      q: "What is the tuition fee for Electrical Engineering in Finland?",
-      a: "Annual tuition fees for non-EU/EEA students range between €10,000 and €17,000 per year (approximately ₹10.5 to ₹17.85 lakh per annum). Merit-based scholarships covering 50% to 100% of tuition are widely available."
-    },
-    {
-      q: "Is IELTS required to study Electrical Engineering in Finland?",
-      a: "Yes, proof of English proficiency is generally mandatory. Accepted tests include IELTS Academic (overall 6.5 minimum), TOEFL iBT (92+), and PTE Academic (62+)."
-    },
-    {
-      q: "Can international graduates work in Finland after completing their degree?",
-      a: "Yes. Finland provides an extended 2-year post-study residence permit for international graduates, allowing them to work in engineering, automation, power systems, and technology consulting across the EU."
-    }
-  ],
-  faqTitle: "Frequently Asked Questions About Master's in Electrical Engineering in Finland"
+  ]
 };
 
-const MastersinElectricalEngineeringPG = () => {
+export default function MastersinElectricalEngineeringPGFinland() {
   return (
     <AbroadCoursePage
       page={page}
       heroImg={heroImg}
-      sideImg={sideImg}
       heroBgImg={heroBgImg}
+      sideImg={sideImg}
       ctaBgImg={ctaBgImg}
+      showHeroStats={false}
       seoPath="/study-abroad/finland/pg/electrical-engineering"
     />
   );
-};
-
-export default MastersinElectricalEngineeringPG;
+}

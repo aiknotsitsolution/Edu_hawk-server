@@ -22,7 +22,6 @@ const routes = [
   "/mbbs-abroad/uzbekistan",
   "/mbbs-abroad/vietnam",
   "/mbbs-abroad/italy",
-  "/blog/education-blog",
   "/blog",
   "/services",
   "/contact",
@@ -57,14 +56,12 @@ const routes = [
   "/study-abroad/usa/mbs",
   "/study-abroad/usa/international-business",
   "/study-abroad/usa/marketing-management",
-  "/study-abroad/usa/accounting-finance",
   "/study-abroad/usa/hospitality-management",
   "/study-abroad/usa/architecture",
   "/study-abroad/usa/law",
   "/study-abroad/usa/language-courses",
   "/study-abroad/usa/summer-courses",
   "/study-abroad/usa/winter-courses",
-  "/study-abroad/usa/working-professionals",
   "/study-abroad/usa/ug/computer-engineering",
   "/study-abroad/usa/ug/mechanical-engineering",
   "/study-abroad/usa/ug/civil-engineering",
@@ -83,7 +80,6 @@ const routes = [
   "/study-abroad/usa/pg/aerospace-engineering",
   "/study-abroad/usa/pg/biomedical-engineering",
   "/study-abroad/usa/pg/automobile-engineering",
-  "/study-abroad/finland/working-professionals",
   "/courses/business-management",
   "/courses/mba",
   "/courses/mbs",
@@ -165,12 +161,63 @@ const routes = [
   "/study-abroad/finland/mbs",
   "/study-abroad/finland/summer-courses",
   "/study-abroad/finland/winter-courses",
+  "/study-abroad/australia/dentistry",
+  "/study-abroad/australia/nursing",
+  "/study-abroad/australia/pharmacy",
+  "/study-abroad/australia/physiotherapy",
+  "/study-abroad/australia/public-health",
+  "/study-abroad/australia/biotechnology",
+  "/study-abroad/australia/ug/engineering",
+  "/study-abroad/australia/ug/computer-engineering",
+  "/study-abroad/australia/ug/mechanical-engineering",
+  "/study-abroad/australia/ug/civil-engineering",
+  "/study-abroad/australia/ug/electrical-engineering",
+  "/study-abroad/australia/ug/electronics-communication",
+  "/study-abroad/australia/ug/chemical-engineering",
+  "/study-abroad/australia/ug/aerospace-engineering",
+  "/study-abroad/australia/ug/biomedical-engineering",
+  "/study-abroad/australia/ug/automobile-engineering",
+  "/study-abroad/australia/pg/engineering",
+  "/study-abroad/australia/pg/computer-engineering",
+  "/study-abroad/australia/pg/mechanical-engineering",
+  "/study-abroad/australia/pg/civil-engineering",
+  "/study-abroad/australia/pg/electrical-engineering",
+  "/study-abroad/australia/pg/electronics-communication",
+  "/study-abroad/australia/pg/chemical-engineering",
+  "/study-abroad/australia/pg/aerospace-engineering",
+  "/study-abroad/australia/pg/biomedical-engineering",
+  "/study-abroad/australia/pg/automobile-engineering",
+  "/study-abroad/australia/computer-science",
+  "/study-abroad/australia/information-technology",
+  "/study-abroad/australia/business-management",
+  "/study-abroad/australia/mba",
+  "/study-abroad/australia/executive-mba",
+  "/study-abroad/australia/bba",
+  "/study-abroad/australia/bbs",
+  "/study-abroad/australia/mbs",
+  "/study-abroad/australia/international-business",
+  "/study-abroad/australia/marketing-management",
+  "/study-abroad/australia/hospitality-management",
+  "/study-abroad/australia/architecture",
+  "/study-abroad/australia/law",
+  "/study-abroad/australia/language-courses",
+  "/study-abroad/australia/summer-courses",
+  "/study-abroad/australia/winter-courses",
   "/terms-conditions",
   "/privacy-policy",
   "/cookies-policy"
 ];
 
 async function prerender() {
+  // Suppress verbose React useLayoutEffect SSR warnings that overflow Windows console buffer
+  const origError = console.error;
+  console.error = (...args) => {
+    if (typeof args[0] === "string" && args[0].includes("useLayoutEffect does nothing on the server")) {
+      return;
+    }
+    origError(...args);
+  };
+
   const distDir = path.join(process.cwd(), "dist");
   const templatePath = path.join(distDir, "index.html");
   const cleanTemplatePath = path.join(distDir, "template.html");
@@ -201,7 +248,7 @@ async function prerender() {
   let failCount = 0;
   const failures = [];
 
-  for (const route of routes) {
+  const renderRoute = async (route) => {
     try {
       const { html, helmet } = await render(route);
 
@@ -245,6 +292,12 @@ async function prerender() {
       failures.push({ route, error: err.message });
       console.error(`❌ Failed: ${route} - ${err.message}`);
     }
+  };
+
+  const CONCURRENCY = 8;
+  for (let i = 0; i < routes.length; i += CONCURRENCY) {
+    const chunk = routes.slice(i, i + CONCURRENCY);
+    await Promise.all(chunk.map(renderRoute));
   }
 
   // Generate static 404.html using the existing NotFound component

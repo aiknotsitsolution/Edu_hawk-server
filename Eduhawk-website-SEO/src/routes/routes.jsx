@@ -149,6 +149,50 @@ const MBSFinland = lazy(() => import("../pages/Study Abroad/Finland/MBS/mbs.jsx"
 const SummerCoursesFinland = lazy(() => import("../pages/Study Abroad/Finland/SummerCourses/summer-courses.jsx"));
 const WinterCoursesFinland = lazy(() => import("../pages/Study Abroad/Finland/WinterCourses/winter-courses.jsx"));
 
+// Australia Routes
+const NursingAustralia = lazy(() => import("../pages/Study Abroad/Australia/MBBS Abroad/NursingAbroad.jsx"));
+const DentistryAustralia = lazy(() => import("../pages/Study Abroad/Australia/MBBS Abroad/DentistryAbroad.jsx"));
+const PharmacyAustralia = lazy(() => import("../pages/Study Abroad/Australia/MBBS Abroad/PharmacyAbroad.jsx"));
+const PhysiotherapyAustralia = lazy(() => import("../pages/Study Abroad/Australia/MBBS Abroad/PhysiotherapyAbroad.jsx"));
+const PublicHealthAustralia = lazy(() => import("../pages/Study Abroad/Australia/MBBS Abroad/PublicHealth.jsx"));
+const BiotechnologyAustralia = lazy(() => import("../pages/Study Abroad/Australia/MBBS Abroad/Biotechnology.jsx"));
+const UndergraduateEngineeringAustralia = lazy(() => import("../pages/Study Abroad/Australia/Engineering/ug/undergraduate.jsx"));
+const ComputerEngineeringUGAustralia = lazy(() => import("../pages/Study Abroad/Australia/Engineering/ug/pages/ComputerEngineering.jsx"));
+const MechanicalEngineeringUGAustralia = lazy(() => import("../pages/Study Abroad/Australia/Engineering/ug/pages/MechanicalEngineering.jsx"));
+const CivilEngineeringUGAustralia = lazy(() => import("../pages/Study Abroad/Australia/Engineering/ug/pages/CivilEngineering.jsx"));
+const ElectricalEngineeringUGAustralia = lazy(() => import("../pages/Study Abroad/Australia/Engineering/ug/pages/ElectricalEngineering.jsx"));
+const ElectronicsCommunicationUGAustralia = lazy(() => import("../pages/Study Abroad/Australia/Engineering/ug/pages/ElectronicsCommunication.jsx"));
+const ChemicalEngineeringUGAustralia = lazy(() => import("../pages/Study Abroad/Australia/Engineering/ug/pages/ChemicalEngineering.jsx"));
+const AerospaceEngineeringUGAustralia = lazy(() => import("../pages/Study Abroad/Australia/Engineering/ug/pages/AerospaceEngineering.jsx"));
+const BiomedicalEngineeringUGAustralia = lazy(() => import("../pages/Study Abroad/Australia/Engineering/ug/pages/BiomedicalEngineering.jsx"));
+const AutomobileEngineeringUGAustralia = lazy(() => import("../pages/Study Abroad/Australia/Engineering/ug/pages/AutomobileEngineering.jsx"));
+const PostgraduateEngineeringAustralia = lazy(() => import("../pages/Study Abroad/Australia/Engineering/pg/postgraduate.jsx"));
+const ComputerEngineeringPGAustralia = lazy(() => import("../pages/Study Abroad/Australia/Engineering/pg/pages/ComputerEngineering.jsx"));
+const MechanicalEngineeringPGAustralia = lazy(() => import("../pages/Study Abroad/Australia/Engineering/pg/pages/MechanicalEngineering.jsx"));
+const CivilEngineeringPGAustralia = lazy(() => import("../pages/Study Abroad/Australia/Engineering/pg/pages/CivilEngineering.jsx"));
+const ElectricalEngineeringPGAustralia = lazy(() => import("../pages/Study Abroad/Australia/Engineering/pg/pages/ElectricalEngineering.jsx"));
+const ElectronicsCommunicationPGAustralia = lazy(() => import("../pages/Study Abroad/Australia/Engineering/pg/pages/ElectronicsCommunication.jsx"));
+const ChemicalEngineeringPGAustralia = lazy(() => import("../pages/Study Abroad/Australia/Engineering/pg/pages/ChemicalEngineering.jsx"));
+const AerospaceEngineeringPGAustralia = lazy(() => import("../pages/Study Abroad/Australia/Engineering/pg/pages/AerospaceEngineering.jsx"));
+const BiomedicalEngineeringPGAustralia = lazy(() => import("../pages/Study Abroad/Australia/Engineering/pg/pages/BiomedicalEngineering.jsx"));
+const AutomobileEngineeringPGAustralia = lazy(() => import("../pages/Study Abroad/Australia/Engineering/pg/pages/AutomobileEngineering.jsx"));
+const ComputerScienceAustralia = lazy(() => import("../pages/Study Abroad/Australia/ComputerScience/computer-science.jsx"));
+const InformationTechnologyAustralia = lazy(() => import("../pages/Study Abroad/Australia/InformationTechnology/information-technology.jsx"));
+const BusinessManagementAustralia = lazy(() => import("../pages/Study Abroad/Australia/BusinessManagement/business-management.jsx"));
+const MBAAustralia = lazy(() => import("../pages/Study Abroad/Australia/MBA/mba.jsx"));
+const ExecutiveMBAAustralia = lazy(() => import("../pages/Study Abroad/Australia/ExecutiveMBA/executive-mba.jsx"));
+const BBAAustralia = lazy(() => import("../pages/Study Abroad/Australia/BBA/bba.jsx"));
+const BBSAustralia = lazy(() => import("../pages/Study Abroad/Australia/BBS/bbs.jsx"));
+const MBSAustralia = lazy(() => import("../pages/Study Abroad/Australia/MBS/mbs.jsx"));
+const InternationalBusinessAustralia = lazy(() => import("../pages/Study Abroad/Australia/InternationalBusiness/international-business.jsx"));
+const MarketingManagementAustralia = lazy(() => import("../pages/Study Abroad/Australia/MarketingManagement/marketing-management.jsx"));
+const HospitalityManagementAustralia = lazy(() => import("../pages/Study Abroad/Australia/HospitalityManagement/hospitality-management.jsx"));
+const ArchitectureAustralia = lazy(() => import("../pages/Study Abroad/Australia/Architecture/architecture.jsx"));
+const LawAustralia = lazy(() => import("../pages/Study Abroad/Australia/Law/law.jsx"));
+const LanguageCoursesAustralia = lazy(() => import("../pages/Study Abroad/Australia/LanguageCourses/language-courses.jsx"));
+const SummerCoursesAustralia = lazy(() => import("../pages/Study Abroad/Australia/SummerCourses/summer-courses.jsx"));
+const WinterCoursesAustralia = lazy(() => import("../pages/Study Abroad/Australia/WinterCourses/winter-courses.jsx"));
+
 export const router = createBrowserRouter([
   {
     path: "landingpage",
@@ -236,7 +280,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "study-abroad/usa/accounting-finance",
-        element: <AccountingFinance />,
+        element: <Navigate to="/study-abroad/usa/business-management" replace />,
       },
       {
         path: "study-abroad/usa/hospitality-management",
@@ -256,7 +300,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "study-abroad/usa/hr-management",
-        element: <BusinessManagementAbroad />,
+        element: <Navigate to="/study-abroad/usa/business-management" replace />,
       },
       {
         path: "study-abroad/usa/language-courses",
@@ -272,7 +316,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "study-abroad/usa/working-professionals",
-        element: <ExecutiveMbaAbroad />,
+        element: <Navigate to="/study-abroad/usa/executive-mba" replace />,
       },
 
       // USA UG Branches
@@ -429,7 +473,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "blog/education-blog",
-        element: <BlogSection />,
+        element: <Navigate to="/blog" replace />,
       },
       {
         path: "blog",
@@ -797,7 +841,7 @@ export const router = createBrowserRouter([
 
       {
         path: "study-abroad/finland/working-professionals",
-        element: <ExecutiveMBAFinland />,
+        element: <Navigate to="/study-abroad/finland/executive-mba" replace />,
       },
       {
         path: "study-abroad/finland/engineering",
@@ -866,11 +910,11 @@ export const router = createBrowserRouter([
       // Finland fallback/redirect routes to prevent 404s
       {
         path: "study-abroad/finland/marketing-management",
-        element: <Navigate to="/courses/marketing-management?country=finland" replace />,
+        element: <Navigate to="/study-abroad/finland/business-management" replace />,
       },
       {
         path: "study-abroad/finland/accounting-finance",
-        element: <Navigate to="/courses/accounting-finance?country=finland" replace />,
+        element: <Navigate to="/study-abroad/finland/business-management" replace />,
       },
       {
         path: "study-abroad/finland/hr-management",
@@ -879,6 +923,175 @@ export const router = createBrowserRouter([
       {
         path: "study-abroad/finland/other-courses",
         element: <Navigate to="/study-abroad/finland/business-management" replace />,
+      },
+      // Australia Routes
+      {
+        path: "study-abroad/australia/dentistry",
+        element: <DentistryAustralia />,
+      },
+      {
+        path: "study-abroad/australia/nursing",
+        element: <NursingAustralia />,
+      },
+      {
+        path: "study-abroad/australia/pharmacy",
+        element: <PharmacyAustralia />,
+      },
+      {
+        path: "study-abroad/australia/physiotherapy",
+        element: <PhysiotherapyAustralia />,
+      },
+      {
+        path: "study-abroad/australia/public-health",
+        element: <PublicHealthAustralia />,
+      },
+      {
+        path: "study-abroad/australia/biotechnology",
+        element: <BiotechnologyAustralia />,
+      },
+      {
+        path: "study-abroad/australia/ug/engineering",
+        element: <UndergraduateEngineeringAustralia />,
+      },
+      {
+        path: "study-abroad/australia/ug/computer-engineering",
+        element: <ComputerEngineeringUGAustralia />,
+      },
+      {
+        path: "study-abroad/australia/ug/mechanical-engineering",
+        element: <MechanicalEngineeringUGAustralia />,
+      },
+      {
+        path: "study-abroad/australia/ug/civil-engineering",
+        element: <CivilEngineeringUGAustralia />,
+      },
+      {
+        path: "study-abroad/australia/ug/electrical-engineering",
+        element: <ElectricalEngineeringUGAustralia />,
+      },
+      {
+        path: "study-abroad/australia/ug/electronics-communication",
+        element: <ElectronicsCommunicationUGAustralia />,
+      },
+      {
+        path: "study-abroad/australia/ug/chemical-engineering",
+        element: <ChemicalEngineeringUGAustralia />,
+      },
+      {
+        path: "study-abroad/australia/ug/aerospace-engineering",
+        element: <AerospaceEngineeringUGAustralia />,
+      },
+      {
+        path: "study-abroad/australia/ug/biomedical-engineering",
+        element: <BiomedicalEngineeringUGAustralia />,
+      },
+      {
+        path: "study-abroad/australia/ug/automobile-engineering",
+        element: <AutomobileEngineeringUGAustralia />,
+      },
+      {
+        path: "study-abroad/australia/pg/engineering",
+        element: <PostgraduateEngineeringAustralia />,
+      },
+      {
+        path: "study-abroad/australia/pg/computer-engineering",
+        element: <ComputerEngineeringPGAustralia />,
+      },
+      {
+        path: "study-abroad/australia/pg/mechanical-engineering",
+        element: <MechanicalEngineeringPGAustralia />,
+      },
+      {
+        path: "study-abroad/australia/pg/civil-engineering",
+        element: <CivilEngineeringPGAustralia />,
+      },
+      {
+        path: "study-abroad/australia/pg/electrical-engineering",
+        element: <ElectricalEngineeringPGAustralia />,
+      },
+      {
+        path: "study-abroad/australia/pg/electronics-communication",
+        element: <ElectronicsCommunicationPGAustralia />,
+      },
+      {
+        path: "study-abroad/australia/pg/chemical-engineering",
+        element: <ChemicalEngineeringPGAustralia />,
+      },
+      {
+        path: "study-abroad/australia/pg/aerospace-engineering",
+        element: <AerospaceEngineeringPGAustralia />,
+      },
+      {
+        path: "study-abroad/australia/pg/biomedical-engineering",
+        element: <BiomedicalEngineeringPGAustralia />,
+      },
+      {
+        path: "study-abroad/australia/pg/automobile-engineering",
+        element: <AutomobileEngineeringPGAustralia />,
+      },
+      {
+        path: "study-abroad/australia/computer-science",
+        element: <ComputerScienceAustralia />,
+      },
+      {
+        path: "study-abroad/australia/information-technology",
+        element: <InformationTechnologyAustralia />,
+      },
+      {
+        path: "study-abroad/australia/business-management",
+        element: <BusinessManagementAustralia />,
+      },
+      {
+        path: "study-abroad/australia/mba",
+        element: <MBAAustralia />,
+      },
+      {
+        path: "study-abroad/australia/executive-mba",
+        element: <ExecutiveMBAAustralia />,
+      },
+      {
+        path: "study-abroad/australia/bba",
+        element: <BBAAustralia />,
+      },
+      {
+        path: "study-abroad/australia/bbs",
+        element: <BBSAustralia />,
+      },
+      {
+        path: "study-abroad/australia/mbs",
+        element: <MBSAustralia />,
+      },
+      {
+        path: "study-abroad/australia/international-business",
+        element: <InternationalBusinessAustralia />,
+      },
+      {
+        path: "study-abroad/australia/marketing-management",
+        element: <MarketingManagementAustralia />,
+      },
+      {
+        path: "study-abroad/australia/hospitality-management",
+        element: <HospitalityManagementAustralia />,
+      },
+      {
+        path: "study-abroad/australia/architecture",
+        element: <ArchitectureAustralia />,
+      },
+      {
+        path: "study-abroad/australia/law",
+        element: <LawAustralia />,
+      },
+      {
+        path: "study-abroad/australia/language-courses",
+        element: <LanguageCoursesAustralia />,
+      },
+      {
+        path: "study-abroad/australia/summer-courses",
+        element: <SummerCoursesAustralia />,
+      },
+      {
+        path: "study-abroad/australia/winter-courses",
+        element: <WinterCoursesAustralia />,
       },
       {
         path: "terms-conditions",
@@ -934,7 +1147,6 @@ export const routeList = [
   "/mbbs-abroad/uzbekistan",
   "/mbbs-abroad/vietnam",
   "/mbbs-abroad/italy",
-  "/blog/education-blog",
   "/blog",
   "/services",
   "/contact",
@@ -969,14 +1181,12 @@ export const routeList = [
   "/study-abroad/usa/mbs",
   "/study-abroad/usa/international-business",
   "/study-abroad/usa/marketing-management",
-  "/study-abroad/usa/accounting-finance",
   "/study-abroad/usa/hospitality-management",
   "/study-abroad/usa/architecture",
   "/study-abroad/usa/law",
   "/study-abroad/usa/language-courses",
   "/study-abroad/usa/summer-courses",
   "/study-abroad/usa/winter-courses",
-  "/study-abroad/usa/working-professionals",
   "/study-abroad/usa/ug/computer-engineering",
   "/study-abroad/usa/ug/mechanical-engineering",
   "/study-abroad/usa/ug/civil-engineering",
@@ -995,7 +1205,6 @@ export const routeList = [
   "/study-abroad/usa/pg/aerospace-engineering",
   "/study-abroad/usa/pg/biomedical-engineering",
   "/study-abroad/usa/pg/automobile-engineering",
-  "/study-abroad/finland/working-professionals",
   "/courses/business-management",
   "/courses/mba",
   "/courses/mbs",
@@ -1077,6 +1286,48 @@ export const routeList = [
   "/study-abroad/finland/mbs",
   "/study-abroad/finland/summer-courses",
   "/study-abroad/finland/winter-courses",
+  "/study-abroad/australia/dentistry",
+  "/study-abroad/australia/nursing",
+  "/study-abroad/australia/pharmacy",
+  "/study-abroad/australia/physiotherapy",
+  "/study-abroad/australia/public-health",
+  "/study-abroad/australia/biotechnology",
+  "/study-abroad/australia/ug/engineering",
+  "/study-abroad/australia/ug/computer-engineering",
+  "/study-abroad/australia/ug/mechanical-engineering",
+  "/study-abroad/australia/ug/civil-engineering",
+  "/study-abroad/australia/ug/electrical-engineering",
+  "/study-abroad/australia/ug/electronics-communication",
+  "/study-abroad/australia/ug/chemical-engineering",
+  "/study-abroad/australia/ug/aerospace-engineering",
+  "/study-abroad/australia/ug/biomedical-engineering",
+  "/study-abroad/australia/ug/automobile-engineering",
+  "/study-abroad/australia/pg/engineering",
+  "/study-abroad/australia/pg/computer-engineering",
+  "/study-abroad/australia/pg/mechanical-engineering",
+  "/study-abroad/australia/pg/civil-engineering",
+  "/study-abroad/australia/pg/electrical-engineering",
+  "/study-abroad/australia/pg/electronics-communication",
+  "/study-abroad/australia/pg/chemical-engineering",
+  "/study-abroad/australia/pg/aerospace-engineering",
+  "/study-abroad/australia/pg/biomedical-engineering",
+  "/study-abroad/australia/pg/automobile-engineering",
+  "/study-abroad/australia/computer-science",
+  "/study-abroad/australia/information-technology",
+  "/study-abroad/australia/business-management",
+  "/study-abroad/australia/mba",
+  "/study-abroad/australia/executive-mba",
+  "/study-abroad/australia/bba",
+  "/study-abroad/australia/bbs",
+  "/study-abroad/australia/mbs",
+  "/study-abroad/australia/international-business",
+  "/study-abroad/australia/marketing-management",
+  "/study-abroad/australia/hospitality-management",
+  "/study-abroad/australia/architecture",
+  "/study-abroad/australia/law",
+  "/study-abroad/australia/language-courses",
+  "/study-abroad/australia/summer-courses",
+  "/study-abroad/australia/winter-courses",
   "/terms-conditions",
   "/privacy-policy",
   "/cookies-policy",

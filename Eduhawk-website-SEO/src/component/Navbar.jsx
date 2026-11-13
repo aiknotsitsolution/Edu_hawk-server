@@ -106,6 +106,24 @@ const Navbar = () => {
       if (path === "engineering") return "/study-abroad/finland/ug/engineering";
       return `/study-abroad/finland/${path}`;
     }
+    if (selectedCountry === "Australia") {
+      if (prefix === "/courses/ug") {
+        if (path === "engineering") return "/study-abroad/australia/ug/engineering";
+        return `/study-abroad/australia/ug/${path}`;
+      }
+      if (prefix === "/courses/pg") {
+        if (path === "engineering") return "/study-abroad/australia/pg/engineering";
+        return `/study-abroad/australia/pg/${path}`;
+      }
+      if (path === "dentistry") return "/study-abroad/australia/dentistry";
+      if (path === "nursing") return "/study-abroad/australia/nursing";
+      if (path === "pharmacy") return "/study-abroad/australia/pharmacy";
+      if (path === "physiotherapy") return "/study-abroad/australia/physiotherapy";
+      if (path === "public-health") return "/study-abroad/australia/public-health";
+      if (path === "biotechnology") return "/study-abroad/australia/biotechnology";
+      if (path === "engineering") return "/study-abroad/australia/ug/engineering";
+      return `/study-abroad/australia/${path}`;
+    }
     return `${prefix}/${path}?country=${selectedCountry.toLowerCase()}`;
   };
 
@@ -151,6 +169,58 @@ const Navbar = () => {
     { name: "Human Resource Management", path: "hr-management" },
     { name: "Finance & Accounting", path: "accounting-finance" },
   ];
+
+  const getBusinessCoursesForCountry = (country) => {
+    if (country === "USA") {
+      return businessCourses.filter(
+        (c) => c.path !== "hr-management" && c.path !== "accounting-finance"
+      );
+    }
+    if (country === "Finland") {
+      return businessCourses.filter(
+        (c) =>
+          c.path !== "marketing-management" &&
+          c.path !== "hr-management" &&
+          c.path !== "accounting-finance"
+      );
+    }
+    return businessCourses;
+  };
+
+  const programsList = [
+    {
+      name: "Language Courses",
+      path: "/study-abroad/language-courses",
+      icon: "M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129",
+    },
+    {
+      name: "Summer Courses",
+      path: "/study-abroad/summer-courses",
+      icon: "M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z",
+    },
+    {
+      name: "Winter Courses",
+      path: "/study-abroad/winter-courses",
+      icon: "M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z",
+    },
+    {
+      name: "Working Professionals",
+      path: "/study-abroad/working-professionals",
+      icon: "M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z",
+    },
+    {
+      name: "News",
+      path: "/blog",
+      icon: "M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z",
+    },
+  ];
+
+  const getProgramsForCountry = (country) => {
+    if (country === "USA" || country === "Finland") {
+      return programsList.filter((item) => item.name !== "Working Professionals");
+    }
+    return programsList;
+  };
 
   // English Language Tests with tooltips
   const englishTests = [
@@ -636,7 +706,7 @@ const Navbar = () => {
                             </a>
                             {/* Nested Business Courses */}
                             <div className="absolute left-full top-0 ml-1 w-64 bg-white rounded-xl shadow-xl border border-gray-100 opacity-0 invisible group-hover/biz:opacity-100 group-hover/biz:visible transition-all duration-200 z-50 py-2">
-                              {businessCourses.map((course) => (
+                              {getBusinessCoursesForCountry(selectedCountry).map((course) => (
                                 <a
                                   key={course.path}
                                   href={getCourseHref(course.path, "/courses")}
@@ -704,33 +774,7 @@ const Navbar = () => {
                           </h4>
                         </div>
                         <ul className="space-y-0.5">
-                          {[
-                            {
-                              name: "Language Courses",
-                              path: "/study-abroad/language-courses",
-                              icon: "M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129",
-                            },
-                            {
-                              name: "Summer Courses",
-                              path: "/study-abroad/summer-courses",
-                              icon: "M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z",
-                            },
-                            {
-                              name: "Winter Courses",
-                              path: "/study-abroad/winter-courses",
-                              icon: "M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z",
-                            },
-                            {
-                              name: "Working Professionals",
-                              path: "/study-abroad/working-professionals",
-                              icon: "M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z",
-                            },
-                            {
-                              name: "News",
-                              path: "/blog",
-                              icon: "M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z",
-                            },
-                          ].map((item) => (
+                          {getProgramsForCountry(selectedCountry).map((item) => (
                             <li key={item.path}>
                               <a
                                 href={
@@ -1370,7 +1414,7 @@ const Navbar = () => {
                       </button>
                       {isBusinessOpen && (
                         <div className="bg-gray-100">
-                          {businessCourses.map((c) => (
+                          {getBusinessCoursesForCountry(selectedCountry).map((c) => (
                             <a
                               key={c.path}
                               href={getCourseHref(c.path, "/courses")}
@@ -1420,12 +1464,14 @@ const Navbar = () => {
                     >
                       Winter Courses
                     </a>
-                    <a
-                      href={getCourseHref("working-professionals", "/study-abroad")}
-                      className="block py-2.5 px-8 text-[#2F327D]"
-                    >
-                      Working Professionals
-                    </a>
+                    {selectedCountry !== "USA" && selectedCountry !== "Finland" && (
+                      <a
+                        href={getCourseHref("working-professionals", "/study-abroad")}
+                        className="block py-2.5 px-8 text-[#2F327D]"
+                      >
+                        Working Professionals
+                      </a>
+                    )}
                     <a
                       href="/blog"
                       className="block py-2.5 px-8 text-[#2F327D]"

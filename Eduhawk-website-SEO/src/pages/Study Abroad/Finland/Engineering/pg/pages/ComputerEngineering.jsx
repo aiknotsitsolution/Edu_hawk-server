@@ -1,39 +1,38 @@
 import React from "react";
 import { AbroadCoursePage } from "../../../../../../component/CoursePageKit.jsx";
+
+// Page layout images
 import heroImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/Computer/ce_pg_hero.webp";
 import heroBgImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/Computer/ce_pg_hero_bg.webp";
 import sideImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/Computer/ce_pg_hardware.webp";
 import ctaBgImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/Computer/ce_pg_cta_bg.webp";
-import u0Img from "../../../../../../Images/Abroad/Finland/Engineering_PG/Computer/Abo_Akademi_University.webp";
-import u1Img from "../../../../../../Images/Abroad/Finland/Engineering_PG/Computer/University_of_Oulu.webp";
-import u2Img from "../../../../../../Images/Abroad/Finland/Engineering_PG/Computer/Aalto_University.webp";
-import u3Img from "../../../../../../Images/Abroad/Finland/Engineering_PG/Computer/University_of_Turku.webp";
+
+// University Campus Images
+import aboImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/Computer/Abo_Akademi_University.webp";
+import ouluImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/Computer/University_of_Oulu.webp";
+import aaltoImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/Computer/Aalto_University.webp";
+import turkuImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/Computer/University_of_Turku.webp";
 
 const page = {
-  name: "Master's in Computer Engineering",
+  name: "Master’s in Computer Engineering",
   country: "Finland",
-  slug: "pg/computer-engineering",
+  slug: "computer-engineering",
   title: "Master’s in Computer Engineering in Finland for Indian Students | Edu-Hawk Worldwide",
-  description: "Study Master’s in Computer Engineering in Finland: Explore top universities (Åbo Akademi, Oulu, Aalto, Turku), English-taught programmes, tuition fees, eligibility, and tech careers.",
-  keywords: "Master’s in Computer Engineering in Finland, Study Computer Engineering in Finland, Computer Engineering Universities in Finland, Master’s in Computer Engineering in Finland for Indian Students, Computer Engineering Master’s Programmes in Finland",
+  description:
+    "Explore Master’s in Computer Engineering in Finland for Indian students. Learn about English-taught programmes, top universities (Åbo Akademi, Oulu, Aalto, Turku), eligibility, fees, admission process, and career opportunities.",
+  keywords:
+    "Master’s in Computer Engineering in Finland, Study Computer Engineering in Finland, Computer Engineering Universities in Finland, Master’s in Computer Engineering in Finland for Indian Students, Computer Engineering Master’s Programmes in Finland",
   introTitle: "Master’s in Computer Engineering in Finland",
   heroParas: [
-    "A **[Master’s in Computer Engineering in Finland](/study-abroad/finland/pg/computer-engineering)** offers international students an exceptional gateway to advanced computing, software development, digital systems, electronics and technological innovation. Finnish universities are known for research-oriented education, practical learning and opportunities to explore emerging technologies such as artificial intelligence, cybersecurity, embedded systems and computer networks."
+    "Finland is an attractive destination for international students interested in advanced computing, software development, digital systems, electronics and technological innovation. Finnish universities are known for research-oriented education, practical learning and opportunities to explore emerging technologies such as artificial intelligence, cybersecurity, embedded systems and computer networks.",
+    "Pursuing a Master’s in Computer Engineering in Finland can help students strengthen their technical knowledge, develop problem-solving skills and prepare for careers in engineering, software development and research. Depending on their academic background, students can choose specialised programmes in computer engineering, computer science or information and communication technology."
   ],
   overview: [
-    "Pursuing a Master’s in Computer Engineering in Finland can help students strengthen their technical knowledge, develop problem-solving skills and prepare for careers in engineering, software development and research. Depending on their academic background, students can choose specialised programmes in computer engineering, computer science or information and communication technology.",
     "Students planning to Study Computer Engineering in Finland can benefit from an international learning environment and opportunities to work on research projects and industry-related assignments. Programme availability, specialisations and admission criteria vary between universities, so selecting the right course is an important first step.",
-    "**[Edu-Hawk Worldwide](/services)** helps students explore international study opportunities, compare universities and understand admission requirements. With guidance on programme selection and application preparation, students can make more informed decisions about pursuing postgraduate education abroad."
+    "Edu-Hawk Worldwide helps students explore international study opportunities, compare universities and understand admission requirements. With guidance on programme selection and application preparation, students can make more informed decisions about pursuing postgraduate education abroad."
   ],
-  level: "Postgraduate",
+  level: "Postgraduate & Master's",
   crumb: "Engineering",
-
-  stats: [
-    { label: "Degree Awarded", value: "Master of Science in Technology (M.Sc. Tech)" },
-    { label: "Course Duration", value: "2 Years (120 ECTS)" },
-    { label: "Top Institutions", value: "Åbo Akademi, Oulu, Aalto, Turku" },
-    { label: "Tuition Fees", value: "€10,000 – €17,000 / Year (~₹10.86L – ₹18.46L)" }
-  ],
 
   sections: [
     {
@@ -54,7 +53,7 @@ const page = {
     },
     {
       slot: "courses",
-      eyebrow: "Specialisations & Structure",
+      eyebrow: "Courses & Subjects",
       title: "Master’s in Computer Engineering Courses in Finland",
       groups: [
         {
@@ -83,117 +82,63 @@ const page = {
           items: [
             "Students who want to Study Computer Engineering in Finland should compare course modules, specialisations and degree titles before applying. Some universities offer a dedicated Computer Engineering track, while others provide related programmes in Computer Science and Engineering or Information and Communication Technology.",
             "The right programme depends on the student's previous qualifications and career goals. Applicants interested in hardware, embedded systems or computer architecture should examine technical course content carefully, while students interested in software, AI or cybersecurity may prefer a related computing specialisation.",
-            "**[Edu-Hawk Worldwide](/services)** can help students explore suitable study options and understand the differences between closely related master's programmes."
+            "Edu-Hawk Worldwide can help students explore suitable study options and understand the differences between closely related master's programmes."
           ]
         }
       ]
     },
     {
-      slot: "universities",
-      eyebrow: "Institutions",
+      slot: "unis",
+      eyebrow: "Top Institutions",
       title: "Top Computer Engineering Universities in Finland",
-      groups: [
+      lead: [
+        "Students researching Computer Engineering Universities in Finland can consider the following institutions. Some offer a dedicated Computer Engineering track, while others provide related degrees in computing and information technology. Applicants should check the official university websites for current programme details, eligibility and tuition fees."
+      ],
+      unis: [
         {
-          t: "p",
-          items: [
-            "Students researching Computer Engineering Universities in Finland can consider the following institutions. Some offer a dedicated Computer Engineering track, while others provide related degrees in computing and information technology. Applicants should check the official university websites for current programme details, eligibility and tuition fees."
-          ]
+          name: "Åbo Akademi University",
+          img: aboImg,
+          location: "Turku & Vaasa, Finland",
+          desc: "Åbo Akademi University offers a master's programme in Information Technology with a Computer Engineering track in Turku and related study options in Vaasa. The programme is taught in English, and applicants generally need a relevant bachelor's degree with suitable previous studies in computing, mathematics or engineering. This university may be worth considering for students looking for a programme with a computer engineering focus. Applicants should review the curriculum and track-specific requirements to confirm that the course matches their academic background and career plans.",
+          fee: "Confirm with university",
+          duration: "2 Years Master's Programme",
+          link: "https://www.abo.fi/en/study/apply/international-master-programmes/academic-requirements/admission-to-masters-degree-programme-in-information-technology/"
         },
         {
-          t: "split",
-          imgPos: "left",
-          title: "Åbo Akademi University",
-          img: u0Img,
-          alt: "Åbo Akademi University Faculty of Science and Engineering",
-          link: "https://www.abo.fi/en/study/apply/international-master-programmes/academic-requirements/admission-to-masters-degree-programme-in-information-technology/",
-          items: [
-            "Åbo Akademi University offers a master's programme in Information Technology with a Computer Engineering track in Turku and related study options in Vaasa. The programme is taught in English, and applicants generally need a relevant bachelor's degree with suitable previous studies in computing, mathematics or engineering.",
-            "This university may be worth considering for students looking for a programme with a computer engineering focus. Applicants should review the curriculum and track-specific requirements to confirm that the course matches their academic background and career plans."
-          ],
-          bullets: [
-            "**Track:** Information Technology, Computer Engineering track",
-            "**Campus:** Turku (with related study options in Vaasa)",
-            "**Language:** English",
-            "**Tuition fee:** Confirm with university (To be confirmed)",
-            "**Official website:** https://www.abo.fi/en/study/apply/international-master-programmes/academic-requirements/admission-to-masters-degree-programme-in-information-technology/"
-          ],
-          note: "Applicants should review the track-specific academic requirements and language criteria directly on the university's admissions portal."
+          name: "University of Oulu",
+          img: ouluImg,
+          location: "Oulu, Finland",
+          desc: "The University of Oulu offers a two-year Master's in Computer Science and Engineering worth 120 ECTS credits. Students can explore areas such as computer engineering, applied computing, artificial intelligence and cybersecurity, depending on the available study options. The programme is taught in English. The listed tuition fee for non-EU/EEA students is €10,000 per year, although applicants should confirm the fee for their intended intake. This programme can be relevant to students searching for Computer Engineering Universities in Finland, particularly those interested in advanced computing systems, software and research-oriented study.",
+          fee: "€10,000 / year (approx. ₹10.86 lakh)",
+          duration: "2 Years (120 ECTS)",
+          link: "https://www.oulu.fi/en/apply/masters-computer-science-and-engineering"
         },
         {
-          t: "split",
-          imgPos: "right",
-          title: "University of Oulu",
-          img: u1Img,
-          alt: "University of Oulu Faculty of Information Technology and Electrical Engineering",
-          link: "https://www.oulu.fi/en/apply/masters-computer-science-and-engineering",
-          items: [
-            "The University of Oulu offers a two-year Master's in Computer Science and Engineering worth 120 ECTS credits. Students can explore areas such as computer engineering, applied computing, artificial intelligence and cybersecurity, depending on the available study options.",
-            "This programme can be relevant to students searching for Computer Engineering Universities in Finland, particularly those interested in advanced computing systems, software and research-oriented study."
-          ],
-          bullets: [
-            "**Programme:** Computer Science and Engineering",
-            "**Duration:** 2 years",
-            "**Credits:** 120 ECTS",
-            "**Language:** English",
-            "**Tuition fee:** €10,000 per year for non-EU/EEA students (~₹10.86 lakh)",
-            "**Official website:** https://www.oulu.fi/en/apply/masters-computer-science-and-engineering"
-          ],
-          note: "Applicants should confirm the fee schedule, intake availability and scholarship criteria before submitting their application."
+          name: "Aalto University",
+          img: aaltoImg,
+          location: "Espoo, Greater Helsinki, Finland",
+          desc: "Aalto University offers a two-year Master of Science (Technology) programme in Computer Science, taught in English. It covers advanced areas of computing, including algorithms, software, computing systems and related technologies. Although this is not a degree specifically titled Computer Engineering, it may be a suitable related option for students interested in computing systems, software and technological research. Students considering this programme should review the curriculum, academic prerequisites and selection criteria before submitting an application.",
+          fee: "€17,000 / academic year (approx. ₹18.46 lakh)",
+          duration: "2 Years Master's Programme",
+          link: "https://www.aalto.fi/en/study-options/computer-science-master-of-science-technology"
         },
         {
-          t: "split",
-          imgPos: "left",
-          title: "Aalto University",
-          img: u2Img,
-          alt: "Aalto University School of Science",
-          link: "https://www.aalto.fi/en/study-options/computer-science-master-of-science-technology",
-          items: [
-            "Aalto University offers a two-year Master of Science (Technology) programme in Computer Science, taught in English. It covers advanced areas of computing, including algorithms, software, computing systems and related technologies.",
-            "Although this is not a degree specifically titled Computer Engineering, it may be a suitable related option for students interested in computing systems, software and technological research."
-          ],
-          bullets: [
-            "**Degree:** Master of Science (Technology) in Computer Science",
-            "**Duration:** 2 years",
-            "**Credits:** 120 ECTS",
-            "**Language:** English",
-            "**Tuition fee:** €17,000 per academic year (~₹18.46 lakh)",
-            "**Published application period:** 7 December 2026 to 5 January 2027",
-            "**Official website:** https://www.aalto.fi/en/study-options/computer-science-master-of-science-technology"
-          ],
-          note: "Students considering this programme should review the curriculum, academic prerequisites and selection criteria before submitting an application."
-        },
-        {
-          t: "split",
-          imgPos: "right",
-          title: "University of Turku",
-          img: u3Img,
-          alt: "University of Turku Faculty of Technology",
-          link: "https://www.utu.fi/en/study-at-utu/masters-degree-programme-in-information-and-communication-technology-software-engineering",
-          items: [
-            "The University of Turku offers a two-year master's programme in Information and Communication Technology: Software Engineering. The programme focuses on software development, engineering practices, project work and advanced ICT knowledge.",
-            "This is a related option rather than a degree specifically titled Computer Engineering. It may appeal to students interested in software-intensive systems, application development and advanced information technology."
-          ],
-          bullets: [
-            "**Programme:** Information and Communication Technology: Software Engineering",
-            "**Duration:** 2 years",
-            "**Credits:** 120 ECTS",
-            "**Language:** English",
-            "**Tuition fee:** €12,000 per academic year (~₹13.03 lakh)",
-            "**Official website:** https://www.utu.fi/en/study-at-utu/masters-degree-programme-in-information-and-communication-technology-software-engineering"
-          ],
-          note: "Applicants should check the official programme page for updated admission criteria, tuition fees and application dates."
-        },
-        {
-          t: "p",
-          items: [
-            "When comparing Computer Engineering Universities in Finland, students should look beyond the degree title and compare the curriculum, specialisation, research opportunities and career relevance. Edu-Hawk Worldwide can help applicants organise their options and identify programmes worth exploring."
-          ]
+          name: "University of Turku",
+          img: turkuImg,
+          location: "Turku, Finland",
+          desc: "The University of Turku offers a two-year master's programme in Information and Communication Technology: Software Engineering. The programme focuses on software development, engineering practices, project work and advanced ICT knowledge. This is a related option rather than a degree specifically titled Computer Engineering. It may appeal to students interested in software-intensive systems, application development and advanced information technology. Applicants should check the official programme page for updated admission criteria, tuition fees and application dates.",
+          fee: "€12,000 / academic year (approx. ₹13.03 lakh)",
+          duration: "2 Years Master's Programme",
+          link: "https://www.utu.fi/en/study-at-utu/masters-degree-programme-in-information-and-communication-technology-software-engineering"
         }
+      ],
+      note: [
+        "When comparing Computer Engineering Universities in Finland, students should look beyond the degree title and compare the curriculum, specialisation, research opportunities and career relevance. Edu-Hawk Worldwide can help applicants organise their options and identify programmes worth exploring."
       ]
     },
     {
       slot: "eligibility",
-      eyebrow: "Eligibility",
+      eyebrow: "Academic Criteria",
       title: "Eligibility for a Master’s in Computer Engineering in Finland",
       groups: [
         {
@@ -217,14 +162,14 @@ const page = {
           t: "p",
           items: [
             "The exact criteria vary by university. Some programmes require specific prerequisite subjects, while others assess the overall relevance and quality of the applicant's previous degree. Meeting the minimum eligibility criteria does not guarantee admission.",
-            "Indian students should review the requirements for their selected intake before applying. **[Edu-Hawk Worldwide](/services)** can help students understand eligibility criteria, compare suitable courses and prepare for the application process."
+            "Indian students should review the requirements for their selected intake before applying. Edu-Hawk Worldwide can help students understand eligibility criteria, compare suitable courses and prepare for the application process."
           ]
         }
       ]
     },
     {
-      slot: "admission",
-      eyebrow: "Admission Requirements",
+      slot: "admissions",
+      eyebrow: "Application Evaluation",
       title: "Admission Requirements for Computer Engineering Master’s Programmes in Finland",
       groups: [
         {
@@ -252,14 +197,14 @@ const page = {
           items: [
             "Some universities place considerable importance on academic performance and the relevance of previous studies. Other programmes may have additional selection criteria, so applicants should not assume that the same documents or requirements apply everywhere.",
             "Students should consult the official university website and Finland's Studyinfo portal for current instructions.",
-            "**[Edu-Hawk Worldwide](/services)** supports students by helping them understand admission criteria, organise application documents and explore suitable postgraduate study options. Early preparation can help applicants identify missing documents and avoid last-minute errors."
+            "Edu-Hawk Worldwide supports students by helping them understand admission criteria, organise application documents and explore suitable postgraduate study options. Early preparation can help applicants identify missing documents and avoid last-minute errors."
           ]
         }
       ]
     },
     {
-      slot: "costs",
-      eyebrow: "Tuition & Expenses",
+      slot: "fees",
+      eyebrow: "Tuition & Living Costs",
       title: "Master’s in Computer Engineering in Finland Fees",
       groups: [
         {
@@ -282,16 +227,8 @@ const page = {
         {
           t: "p",
           items: [
-            "The figures above are indicative fees for the listed programmes and may change for future intakes. INR conversions use an illustrative exchange rate of €1 ≈ ₹108.60. Applicants should confirm the current fee and any scholarship conditions directly with their chosen university."
-          ]
-        },
-        {
-          t: "h4",
-          text: "Estimated monthly living expenses"
-        },
-        {
-          t: "p",
-          items: [
+            "The figures above are indicative fees for the listed programmes and may change for future intakes. INR conversions use an illustrative exchange rate of €1 ≈ ₹108.60. Applicants should confirm the current fee and any scholarship conditions directly with their chosen university.",
+            "**Estimated monthly living expenses**",
             "In addition to tuition, students should budget for accommodation, food, transportation, insurance and personal expenses."
           ]
         },
@@ -302,8 +239,7 @@ const page = {
             ["Accommodation", "€300–€700"],
             ["Food and groceries", "€200–€350"],
             ["Transportation", "€40–€80"],
-            ["Personal expenses", "€100–€200"],
-            ["Estimated total", "€640–€1,330 (~₹69,504–₹1,44,438)"]
+            ["Personal expenses", "€100–€200"]
           ]
         },
         {
@@ -317,7 +253,7 @@ const page = {
     },
     {
       slot: "process",
-      eyebrow: "Application Steps",
+      eyebrow: "Step-by-Step",
       title: "Admission Process for a Master’s in Computer Engineering in Finland",
       groups: [
         {
@@ -331,43 +267,43 @@ const page = {
           items: [
             {
               title: "Choose a programme",
-              desc: "Compare computer engineering, computer science and ICT specialisations."
+              text: "Compare computer engineering, computer science and ICT specialisations."
             },
             {
               title: "Check eligibility",
-              desc: "Review the required bachelor's degree, prerequisite subjects and language criteria."
+              text: "Review the required bachelor's degree, prerequisite subjects and language criteria."
             },
             {
               title: "Compare fees",
-              desc: "Check tuition costs, scholarship availability and living expenses."
+              text: "Check tuition costs, scholarship availability and living expenses."
             },
             {
               title: "Prepare documents",
-              desc: "Collect academic certificates, transcripts, language results and other required documents."
+              text: "Collect academic certificates, transcripts, language results and other required documents."
             },
             {
               title: "Submit the application",
-              desc: "Apply through the university's designated application route or the official Studyinfo portal, as instructed."
+              text: "Apply through the university's designated application route or the official Studyinfo portal, as instructed."
             },
             {
               title: "Complete additional requirements",
-              desc: "Provide course descriptions or other supporting documents if requested."
+              text: "Provide course descriptions or other supporting documents if requested."
             },
             {
               title: "Receive the admission decision",
-              desc: "Follow the university's instructions for accepting the offer."
+              text: "Follow the university's instructions for accepting the offer."
             },
             {
               title: "Arrange finances",
-              desc: "Plan for tuition, accommodation and daily expenses."
+              text: "Plan for tuition, accommodation and daily expenses."
             },
             {
               title: "Apply for a residence permit",
-              desc: "Follow the official Finnish immigration process if applicable."
+              text: "Follow the official Finnish immigration process if applicable."
             },
             {
               title: "Prepare for departure",
-              desc: "Arrange housing, insurance and travel documents."
+              text: "Arrange housing, insurance and travel documents."
             }
           ]
         },
@@ -382,7 +318,7 @@ const page = {
     },
     {
       slot: "licensing",
-      eyebrow: "Professional Scope",
+      eyebrow: "Professional Practice",
       title: "Licensing and Professional Requirements After Computer Engineering in Finland",
       groups: [
         {
@@ -397,8 +333,8 @@ const page = {
       ]
     },
     {
-      slot: "jobs",
-      eyebrow: "Careers & Outcomes",
+      slot: "careers",
+      eyebrow: "Career Pathways & Compensation",
       title: "Jobs and Salary After a Master’s in Computer Engineering in Finland",
       groups: [
         {
@@ -434,8 +370,8 @@ const page = {
       ]
     },
     {
-      slot: "documents",
-      eyebrow: "Checklist",
+      slot: "docs",
+      eyebrow: "Documentation",
       title: "Documents Required for a Master’s in Computer Engineering in Finland",
       groups: [
         {
@@ -468,34 +404,43 @@ const page = {
           ]
         }
       ]
-    }
-  ],
-
-  faqs: [
-    {
-      q: "Can Indian students apply for a Master’s in Computer Engineering in Finland?",
-      a: "Yes. Indian students can apply if they hold a recognised bachelor's degree in computer engineering or a relevant discipline and meet the academic, language and document requirements of their chosen programme. Eligibility criteria vary between universities."
     },
     {
-      q: "What is the duration of a master's degree in computer engineering in Finland?",
-      a: "Many relevant master's programmes take two years and require 120 ECTS credits. The exact duration and curriculum depend on the institution and selected programme."
-    },
-    {
-      q: "What are the Master’s in Computer Engineering in Finland Fees?",
-      a: "Tuition fees vary by institution and programme. The examples discussed in this article range from €10,000 to €17,000 per year for selected related programmes. Applicants should confirm current tuition fees and scholarship conditions directly with their chosen university."
-    },
-    {
-      q: "Are English-taught master's programmes available in Finland?",
-      a: "Yes. Universities such as Åbo Akademi, Aalto, Oulu and Turku offer relevant computing or ICT master's programmes taught in English. However, degree titles, specialisations and eligibility requirements differ."
-    },
-    {
-      q: "How can Edu-Hawk Worldwide help students apply?",
-      a: "Edu-Hawk Worldwide helps students explore suitable universities, understand eligibility and admission requirements, organise application documents and compare study options. Applicants should confirm programme availability, tuition fees, deadlines and final admission decisions through the official university."
+      slot: "faq",
+      eyebrow: "FAQ",
+      title: "Frequently Asked Questions About a Master’s in Computer Engineering in Finland",
+      groups: [
+        {
+          t: "faq",
+          items: [
+            {
+              q: "Can Indian students apply for a Master’s in Computer Engineering in Finland?",
+              a: "Yes. Indian students can apply if they hold a recognised bachelor's degree in computer engineering or a relevant discipline and meet the academic, language and document requirements of their chosen programme. Eligibility criteria vary between universities."
+            },
+            {
+              q: "What is the duration of a master's degree in computer engineering in Finland?",
+              a: "Many relevant master's programmes take two years and require 120 ECTS credits. The exact duration and curriculum depend on the institution and selected programme."
+            },
+            {
+              q: "What are the Master’s in Computer Engineering in Finland Fees?",
+              a: "Tuition fees vary by institution and programme. The examples discussed in this article range from €10,000 to €17,000 per year for selected related programmes. Applicants should confirm current tuition fees and scholarship conditions directly with their chosen university."
+            },
+            {
+              q: "Are English-taught master's programmes available in Finland?",
+              a: "Yes. Universities such as Åbo Akademi, Aalto, Oulu and Turku offer relevant computing or ICT master's programmes taught in English. However, degree titles, specialisations and eligibility requirements differ."
+            },
+            {
+              q: "How can Edu-Hawk Worldwide help students apply?",
+              a: "Edu-Hawk Worldwide helps students explore suitable universities, understand eligibility and admission requirements, organise application documents and compare study options. Applicants should confirm programme availability, tuition fees, deadlines and final admission decisions through the official university."
+            }
+          ]
+        }
+      ]
     }
   ]
 };
 
-export default function ComputerEngineeringPGInFinland() {
+export default function MastersinComputerEngineeringPGFinland() {
   return (
     <AbroadCoursePage
       page={page}
@@ -503,6 +448,8 @@ export default function ComputerEngineeringPGInFinland() {
       heroBgImg={heroBgImg}
       sideImg={sideImg}
       ctaBgImg={ctaBgImg}
+      showHeroStats={false}
+      seoPath="/study-abroad/finland/pg/computer-engineering"
     />
   );
 }

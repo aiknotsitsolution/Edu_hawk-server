@@ -123,6 +123,48 @@ import PublicHealthFinland from "./pages/Study Abroad/Finland/MBBS Abroad/Public
 import MBSFinland from "./pages/Study Abroad/Finland/MBS/mbs.jsx";
 import SummerCoursesFinland from "./pages/Study Abroad/Finland/SummerCourses/summer-courses.jsx";
 import WinterCoursesFinland from "./pages/Study Abroad/Finland/WinterCourses/winter-courses.jsx";
+import NursingAustralia from "./pages/Study Abroad/Australia/MBBS Abroad/NursingAbroad.jsx";
+import DentistryAustralia from "./pages/Study Abroad/Australia/MBBS Abroad/DentistryAbroad.jsx";
+import PharmacyAustralia from "./pages/Study Abroad/Australia/MBBS Abroad/PharmacyAbroad.jsx";
+import PhysiotherapyAustralia from "./pages/Study Abroad/Australia/MBBS Abroad/PhysiotherapyAbroad.jsx";
+import PublicHealthAustralia from "./pages/Study Abroad/Australia/MBBS Abroad/PublicHealth.jsx";
+import BiotechnologyAustralia from "./pages/Study Abroad/Australia/MBBS Abroad/Biotechnology.jsx";
+import UndergraduateEngineeringAustralia from "./pages/Study Abroad/Australia/Engineering/ug/undergraduate.jsx";
+import ComputerEngineeringUGAustralia from "./pages/Study Abroad/Australia/Engineering/ug/pages/ComputerEngineering.jsx";
+import MechanicalEngineeringUGAustralia from "./pages/Study Abroad/Australia/Engineering/ug/pages/MechanicalEngineering.jsx";
+import CivilEngineeringUGAustralia from "./pages/Study Abroad/Australia/Engineering/ug/pages/CivilEngineering.jsx";
+import ElectricalEngineeringUGAustralia from "./pages/Study Abroad/Australia/Engineering/ug/pages/ElectricalEngineering.jsx";
+import ElectronicsCommunicationUGAustralia from "./pages/Study Abroad/Australia/Engineering/ug/pages/ElectronicsCommunication.jsx";
+import ChemicalEngineeringUGAustralia from "./pages/Study Abroad/Australia/Engineering/ug/pages/ChemicalEngineering.jsx";
+import AerospaceEngineeringUGAustralia from "./pages/Study Abroad/Australia/Engineering/ug/pages/AerospaceEngineering.jsx";
+import BiomedicalEngineeringUGAustralia from "./pages/Study Abroad/Australia/Engineering/ug/pages/BiomedicalEngineering.jsx";
+import AutomobileEngineeringUGAustralia from "./pages/Study Abroad/Australia/Engineering/ug/pages/AutomobileEngineering.jsx";
+import PostgraduateEngineeringAustralia from "./pages/Study Abroad/Australia/Engineering/pg/postgraduate.jsx";
+import ComputerEngineeringPGAustralia from "./pages/Study Abroad/Australia/Engineering/pg/pages/ComputerEngineering.jsx";
+import MechanicalEngineeringPGAustralia from "./pages/Study Abroad/Australia/Engineering/pg/pages/MechanicalEngineering.jsx";
+import CivilEngineeringPGAustralia from "./pages/Study Abroad/Australia/Engineering/pg/pages/CivilEngineering.jsx";
+import ElectricalEngineeringPGAustralia from "./pages/Study Abroad/Australia/Engineering/pg/pages/ElectricalEngineering.jsx";
+import ElectronicsCommunicationPGAustralia from "./pages/Study Abroad/Australia/Engineering/pg/pages/ElectronicsCommunication.jsx";
+import ChemicalEngineeringPGAustralia from "./pages/Study Abroad/Australia/Engineering/pg/pages/ChemicalEngineering.jsx";
+import AerospaceEngineeringPGAustralia from "./pages/Study Abroad/Australia/Engineering/pg/pages/AerospaceEngineering.jsx";
+import BiomedicalEngineeringPGAustralia from "./pages/Study Abroad/Australia/Engineering/pg/pages/BiomedicalEngineering.jsx";
+import AutomobileEngineeringPGAustralia from "./pages/Study Abroad/Australia/Engineering/pg/pages/AutomobileEngineering.jsx";
+import ComputerScienceAustralia from "./pages/Study Abroad/Australia/ComputerScience/computer-science.jsx";
+import InformationTechnologyAustralia from "./pages/Study Abroad/Australia/InformationTechnology/information-technology.jsx";
+import BusinessManagementAustralia from "./pages/Study Abroad/Australia/BusinessManagement/business-management.jsx";
+import MBAAustralia from "./pages/Study Abroad/Australia/MBA/mba.jsx";
+import ExecutiveMBAAustralia from "./pages/Study Abroad/Australia/ExecutiveMBA/executive-mba.jsx";
+import BBAAustralia from "./pages/Study Abroad/Australia/BBA/bba.jsx";
+import BBSAustralia from "./pages/Study Abroad/Australia/BBS/bbs.jsx";
+import MBSAustralia from "./pages/Study Abroad/Australia/MBS/mbs.jsx";
+import InternationalBusinessAustralia from "./pages/Study Abroad/Australia/InternationalBusiness/international-business.jsx";
+import MarketingManagementAustralia from "./pages/Study Abroad/Australia/MarketingManagement/marketing-management.jsx";
+import HospitalityManagementAustralia from "./pages/Study Abroad/Australia/HospitalityManagement/hospitality-management.jsx";
+import ArchitectureAustralia from "./pages/Study Abroad/Australia/Architecture/architecture.jsx";
+import LawAustralia from "./pages/Study Abroad/Australia/Law/law.jsx";
+import LanguageCoursesAustralia from "./pages/Study Abroad/Australia/LanguageCourses/language-courses.jsx";
+import SummerCoursesAustralia from "./pages/Study Abroad/Australia/SummerCourses/summer-courses.jsx";
+import WinterCoursesAustralia from "./pages/Study Abroad/Australia/WinterCourses/winter-courses.jsx";
 
 export async function render(url) {
   const helmetContext = {};
@@ -153,7 +195,7 @@ export async function render(url) {
               <Route path="mbbs-abroad/uzbekistan" element={<Uzbekistan />} />
               <Route path="mbbs-abroad/vietnam" element={<Vietnam />} />
               <Route path="mbbs-abroad/italy" element={<Italy />} />
-              <Route path="blog/education-blog" element={<BlogSection />} />
+              <Route path="blog/education-blog" element={<Navigate to="/blog" replace />} />
               <Route path="blog" element={<Blog />} />
               <Route path="blog/:slugOrId" element={<BlogDetail />} />
               <Route path="services" element={<Services />} />
@@ -250,6 +292,49 @@ export async function render(url) {
               <Route path="study-abroad/finland/accounting-finance" element={<Navigate to="/courses/accounting-finance?country=finland" replace />} />
               <Route path="study-abroad/finland/hr-management" element={<Navigate to="/study-abroad/finland/business-management" replace />} />
               <Route path="study-abroad/finland/other-courses" element={<Navigate to="/study-abroad/finland/business-management" replace />} />
+              {/* Australia SSR Routes */}
+              <Route path="study-abroad/australia/dentistry" element={<DentistryAustralia />} />
+              <Route path="study-abroad/australia/nursing" element={<NursingAustralia />} />
+              <Route path="study-abroad/australia/pharmacy" element={<PharmacyAustralia />} />
+              <Route path="study-abroad/australia/physiotherapy" element={<PhysiotherapyAustralia />} />
+              <Route path="study-abroad/australia/public-health" element={<PublicHealthAustralia />} />
+              <Route path="study-abroad/australia/biotechnology" element={<BiotechnologyAustralia />} />
+              <Route path="study-abroad/australia/ug/engineering" element={<UndergraduateEngineeringAustralia />} />
+              <Route path="study-abroad/australia/ug/computer-engineering" element={<ComputerEngineeringUGAustralia />} />
+              <Route path="study-abroad/australia/ug/mechanical-engineering" element={<MechanicalEngineeringUGAustralia />} />
+              <Route path="study-abroad/australia/ug/civil-engineering" element={<CivilEngineeringUGAustralia />} />
+              <Route path="study-abroad/australia/ug/electrical-engineering" element={<ElectricalEngineeringUGAustralia />} />
+              <Route path="study-abroad/australia/ug/electronics-communication" element={<ElectronicsCommunicationUGAustralia />} />
+              <Route path="study-abroad/australia/ug/chemical-engineering" element={<ChemicalEngineeringUGAustralia />} />
+              <Route path="study-abroad/australia/ug/aerospace-engineering" element={<AerospaceEngineeringUGAustralia />} />
+              <Route path="study-abroad/australia/ug/biomedical-engineering" element={<BiomedicalEngineeringUGAustralia />} />
+              <Route path="study-abroad/australia/ug/automobile-engineering" element={<AutomobileEngineeringUGAustralia />} />
+              <Route path="study-abroad/australia/pg/engineering" element={<PostgraduateEngineeringAustralia />} />
+              <Route path="study-abroad/australia/pg/computer-engineering" element={<ComputerEngineeringPGAustralia />} />
+              <Route path="study-abroad/australia/pg/mechanical-engineering" element={<MechanicalEngineeringPGAustralia />} />
+              <Route path="study-abroad/australia/pg/civil-engineering" element={<CivilEngineeringPGAustralia />} />
+              <Route path="study-abroad/australia/pg/electrical-engineering" element={<ElectricalEngineeringPGAustralia />} />
+              <Route path="study-abroad/australia/pg/electronics-communication" element={<ElectronicsCommunicationPGAustralia />} />
+              <Route path="study-abroad/australia/pg/chemical-engineering" element={<ChemicalEngineeringPGAustralia />} />
+              <Route path="study-abroad/australia/pg/aerospace-engineering" element={<AerospaceEngineeringPGAustralia />} />
+              <Route path="study-abroad/australia/pg/biomedical-engineering" element={<BiomedicalEngineeringPGAustralia />} />
+              <Route path="study-abroad/australia/pg/automobile-engineering" element={<AutomobileEngineeringPGAustralia />} />
+              <Route path="study-abroad/australia/computer-science" element={<ComputerScienceAustralia />} />
+              <Route path="study-abroad/australia/information-technology" element={<InformationTechnologyAustralia />} />
+              <Route path="study-abroad/australia/business-management" element={<BusinessManagementAustralia />} />
+              <Route path="study-abroad/australia/mba" element={<MBAAustralia />} />
+              <Route path="study-abroad/australia/executive-mba" element={<ExecutiveMBAAustralia />} />
+              <Route path="study-abroad/australia/bba" element={<BBAAustralia />} />
+              <Route path="study-abroad/australia/bbs" element={<BBSAustralia />} />
+              <Route path="study-abroad/australia/mbs" element={<MBSAustralia />} />
+              <Route path="study-abroad/australia/international-business" element={<InternationalBusinessAustralia />} />
+              <Route path="study-abroad/australia/marketing-management" element={<MarketingManagementAustralia />} />
+              <Route path="study-abroad/australia/hospitality-management" element={<HospitalityManagementAustralia />} />
+              <Route path="study-abroad/australia/architecture" element={<ArchitectureAustralia />} />
+              <Route path="study-abroad/australia/law" element={<LawAustralia />} />
+              <Route path="study-abroad/australia/language-courses" element={<LanguageCoursesAustralia />} />
+              <Route path="study-abroad/australia/summer-courses" element={<SummerCoursesAustralia />} />
+              <Route path="study-abroad/australia/winter-courses" element={<WinterCoursesAustralia />} />
               <Route path="terms-conditions" element={<TermsAndConditions />} />
               <Route path="privacy-policy" element={<PrivacyPolicy />} />
               <Route path="cookies-policy" element={<CookiesPolicy />} />

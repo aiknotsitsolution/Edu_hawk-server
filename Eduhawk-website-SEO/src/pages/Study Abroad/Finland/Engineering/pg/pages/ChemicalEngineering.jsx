@@ -1,35 +1,37 @@
 import React from "react";
-import { AbroadCoursePage, formatRichText } from "../../../../../../component/CoursePageKit.jsx";
+import { AbroadCoursePage } from "../../../../../../component/CoursePageKit.jsx";
+
+// Page layout images
 import heroImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/Chemical/chem_pg_hero.webp";
 import heroBgImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/Chemical/chem_pg_hero_bg.webp";
 import sideImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/Chemical/chem_pg_lab.webp";
 import ctaBgImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/Chemical/chem_pg_cta_bg.webp";
-import u0Img from "../../../../../../Images/Abroad/Finland/Engineering_PG/Chemical/Aalto_University.webp";
-import u1Img from "../../../../../../Images/Abroad/Finland/Engineering_PG/Chemical/LUT_University.webp";
-import u2Img from "../../../../../../Images/Abroad/Finland/Engineering_PG/Chemical/Tampere_University.webp";
-import u3Img from "../../../../../../Images/Abroad/Finland/Engineering_PG/Chemical/University_of_Oulu.webp";
+
+// University Campus Images
+import aaltoImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/Chemical/Aalto_University.webp";
+import lutImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/Chemical/LUT_University.webp";
+import tampereImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/Chemical/Tampere_University.webp";
+import ouluImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/Chemical/University_of_Oulu.webp";
 
 const page = {
-  name: "Master's in Chemical Engineering",
+  name: "Master’s in Chemical Engineering",
   country: "Finland",
   slug: "chemical-engineering",
-  title: "Master's in Chemical Engineering in Finland for Indian Students | Edu-Hawk Worldwide",
-  description: "Study Master's in Chemical Engineering in Finland: English-taught M.Sc. degrees (120 ECTS, 2 years) in chemical processes, circular economy, metallurgical & sustainable engineering at Aalto, LUT, Tampere & Oulu.",
-  keywords: "Master's in Chemical Engineering in Finland, Chemical Engineering in Finland for Indian Students, Study Chemical Engineering in Finland, Chemical Engineering Universities in Finland, Master's in Chemical Engineering Admission in Finland",
-  introTitle: "Master's in Chemical Engineering in Finland",
+  title: "Master’s in Chemical Engineering in Finland for Indian Students | Edu-Hawk Worldwide",
+  description:
+    "Explore Master’s in Chemical Engineering in Finland for Indian students. Learn about English-taught programmes, top universities (Aalto, LUT, Tampere, Oulu), eligibility, fees, admission process, and career opportunities.",
+  keywords:
+    "Master's in Chemical Engineering in Finland, Chemical Engineering in Finland for Indian Students, Study Chemical Engineering in Finland, Chemical Engineering Courses in Finland, Chemical Engineering Universities in Finland, Chemical Engineering in Finland Fees",
+  introTitle: "Master’s in Chemical Engineering in Finland for Indian Students",
   heroParas: [
-    "Study **Master's in Chemical Engineering in Finland** to experience a highly developed European education system, practical laboratory training, sustainable process research opportunities, and vibrant international student life with **[Edu-Hawk Worldwide](/services)**."
+    "Finland is an attractive destination for students who want to pursue advanced engineering education in a technology-driven and research-oriented environment. With its focus on sustainable industrial development, innovation, process technology, and environmental responsibility, Finland offers opportunities for students interested in building a career in chemical engineering.",
+    "A Master’s in Chemical Engineering in Finland helps students develop advanced knowledge of chemical processes, industrial production, materials, energy systems, and sustainable technologies. Students can explore how engineering principles are applied to solve real-world industrial challenges."
   ],
-  overview: [],
-  level: "PG",
+  overview: [
+    "For Indian students planning to study abroad, Finland offers English-taught master's programmes, modern research facilities, international exposure, and opportunities to explore engineering careers across different industries."
+  ],
+  level: "Postgraduate & Master's",
   crumb: "Engineering",
-
-  stats: [
-    { label: "Degree Awarded", value: "Master of Science in Technology (M.Sc. Tech)" },
-    { label: "Course Duration", value: "2 Years (120 ECTS)" },
-    { label: "Top Institutions", value: "Aalto, LUT University, Tampere, Oulu" },
-    { label: "Teaching Language", value: "100% English Taught" }
-  ],
 
   sections: [
     {
@@ -40,9 +42,8 @@ const page = {
         {
           t: "p",
           items: [
-            "**Finland** is recognised for its technology-focused education, research, and commitment to sustainable development. **Chemical engineering** plays an important role in industries that are working towards efficient production, renewable bio-based resources, and reduced environmental impact.",
-            "Choosing to **[study Chemical Engineering in Finland](/study-abroad/finland)** can be a valuable option for students who want to combine technical expertise with sustainability and industrial innovation.",
-            "**Key Benefits of Studying Chemical Engineering in Finland**"
+            "Finland is recognised for its technology-focused education, research, and commitment to sustainable development. Chemical engineering plays an important role in industries that are working towards efficient production, renewable resources, and reduced environmental impact.",
+            "**Key Benefits**"
           ]
         },
         {
@@ -50,56 +51,49 @@ const page = {
           pairs: [
             {
               t: "English-Taught Programmes",
-              d: "International students can find comprehensive **master's programmes taught entirely in English** across top research institutions."
+              d: "International students can find master's programmes taught in English."
             },
             {
               t: "Advanced Engineering Education",
-              d: "Develop advanced knowledge of **chemical processes**, **industrial production**, **process modelling**, and complex engineering systems."
+              d: "Develop knowledge of chemical processes, industrial production, process modelling, and engineering systems."
             },
             {
-              t: "World-Class Research Opportunities",
-              d: "Explore state-of-the-art **laboratory pilot plants**, sponsored research projects, and cutting-edge clean-technology development."
+              t: "Research Opportunities",
+              d: "Explore laboratory work, research projects, and technology development."
             },
             {
-              t: "Sustainable & Circular Engineering",
-              d: "Learn about **energy efficiency**, **circular economy principles**, waste valorisation, and green industrial chemistry."
+              t: "Sustainable Engineering",
+              d: "Learn about energy efficiency, circular economy principles, waste reduction, and sustainable industrial processes."
             },
             {
-              t: "Global Multicultural Exposure",
-              d: "Study in an international environment with students from over 60 nations and build global professional networks."
+              t: "International Exposure",
+              d: "Study in a multicultural environment and develop global professional skills."
             },
             {
-              t: "High-Demand Career Development",
-              d: "Prepare for international opportunities in **chemical manufacturing**, **process engineering**, **novel biomaterials**, energy, and R&D."
+              t: "Career Development",
+              d: "Prepare for opportunities in chemical industries, process engineering, materials, energy, and research."
             }
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "Choosing to study Chemical Engineering in Finland can be a valuable option for students who want to combine technical expertise with sustainability and innovation."
           ]
         }
       ]
     },
     {
       slot: "courses",
-      eyebrow: "Programs",
+      eyebrow: "Specialisation Areas",
       title: "Chemical Engineering Courses in Finland",
       groups: [
         {
           t: "p",
           items: [
-            "Chemical engineering is a broad discipline that focuses on transforming raw materials into useful, high-value products through industrial, biological, and chemical processes.",
-            "In Finland, related master's programmes may be offered under titles such as **Chemical Engineering**, **Chemical and Metallurgical Engineering**, **Materials Engineering**, and **Sustainable Process Engineering**.",
+            "Chemical engineering is a broad discipline that focuses on transforming raw materials into useful products through industrial and chemical processes.",
+            "In Finland, related master's programmes may be offered under titles such as Chemical Engineering, Chemical and Metallurgical Engineering, Materials Engineering, and Sustainable Process Engineering.",
             "**Popular Specialisation Areas**"
-          ]
-        },
-        {
-          t: "pills",
-          items: [
-            "Chemical Process Engineering & Plant Design",
-            "Process Modelling, Simulation & Digital Twins",
-            "Sustainable & Circular Chemical Engineering",
-            "Materials Science & Metallurgical Engineering",
-            "Energy & Industrial Process Technologies",
-            "Biochemical & Industrial Biotechnology Engineering",
-            "Battery Chemicals & Hydrometallurgy",
-            "Polymer Technology & Bio-Based Materials"
           ]
         },
         {
@@ -111,7 +105,7 @@ const page = {
             },
             {
               t: "Process Modelling and Simulation",
-              d: "This area focuses on using engineering software tools to model, simulate, analyse, and digitally optimise industrial production processes."
+              d: "This area focuses on using engineering tools to model, simulate, analyse, and improve industrial processes."
             },
             {
               t: "Sustainable Chemical Engineering",
@@ -119,29 +113,29 @@ const page = {
             },
             {
               t: "Materials and Metallurgical Engineering",
-              d: "This specialisation explores materials processing, battery metals, industrial alloys, and the development of advanced material production technologies."
+              d: "This specialisation explores materials processing, metals, industrial materials, and the development of advanced production technologies."
             },
             {
               t: "Energy and Industrial Processes",
-              d: "Students study energy efficiency, industrial thermodynamic systems, and technologies that support low-carbon sustainable production."
+              d: "Students study energy efficiency, industrial energy systems, and technologies that support sustainable production."
             },
             {
-              t: "Biochemical and Biotechnology Engineering",
-              d: "Depending on the university and programme, students explore biological processes, industrial enzyme technologies, and related bio-refinery applications."
+              t: "Biochemical and Biotechnology-Related Engineering",
+              d: "Depending on the university and programme, students may explore biological processes, biotechnology applications, and related industrial technologies."
             }
           ]
         },
         {
           t: "p",
           items: [
-            "The availability of these subjects depends on the selected university and its current curriculum. Explore related options like **[Master's in Mechanical Engineering](/study-abroad/finland/pg/mechanical-engineering)** and **[Master's in Biomedical Engineering](/study-abroad/finland/pg/biomedical-engineering)**."
+            "The availability of these subjects depends on the selected university and its current curriculum."
           ]
         }
       ]
     },
     {
-      slot: "universities",
-      eyebrow: "Where to study",
+      slot: "unis",
+      eyebrow: "Top Institutions",
       title: "Top Universities for Chemical Engineering in Finland",
       lead: [
         "Finland has universities offering engineering and technology programmes related to chemical engineering, industrial processes, materials, and sustainable technologies.",
@@ -150,243 +144,313 @@ const page = {
       unis: [
         {
           name: "Aalto University",
-          desc: "Aalto University offers the Chemical and Metallurgical Engineering Master's Programme, leading to a Master of Science (Technology) degree. The programme is taught in English and has world-class laboratory facilities in Espoo.",
-          img: u0Img
+          img: aaltoImg,
+          location: "Espoo, Greater Helsinki, Finland",
+          desc: "Aalto University offers the Chemical and Metallurgical Engineering Master's Programme, leading to a Master of Science (Technology) degree. The programme is taught in English, has a duration of two years, includes 120 ECTS credits, requires a relevant bachelor's degree, focuses on chemical and metallurgical engineering, and includes sustainable industrial technologies and process engineering. Students explore how engineering principles can be applied to industrial production, resource efficiency, process safety, and sustainable development. For non-EU/EEA students, the programme lists tuition fees of €17,000 per year.",
+          fee: "€17,000 / year (approx. ₹17.85 lakh)",
+          duration: "2 Years (120 ECTS)",
+          link: "https://www.aalto.fi/en"
         },
         {
           name: "LUT University",
-          desc: "LUT University offers technology and engineering education with a strong focus on sustainability, renewable energy, separation technologies, and industrial circular development.",
-          img: u1Img
+          img: lutImg,
+          location: "Lappeenranta & Lahti, Finland",
+          desc: "LUT University offers technology and engineering education with a focus on sustainability, energy, and industrial development. Students interested in chemical engineering-related areas can explore relevant programmes and specialisations connected with process technology, materials, energy, and sustainable production. Applicants should review the current programme catalogue to identify the most suitable master's degree.",
+          fee: "Check official university catalogue",
+          duration: "2 Years Master's Programmes",
+          link: "https://www.lut.fi/en"
         },
         {
           name: "Tampere University",
-          desc: "Tampere University provides engineering education and research in areas related to process technology, materials chemistry, energy systems, and industrial development.",
-          img: u2Img
+          img: tampereImg,
+          location: "Tampere, Finland",
+          desc: "Tampere University provides engineering education and research in areas related to technology, materials, and industrial development. Students interested in chemical engineering may explore relevant engineering programmes and interdisciplinary study options. The exact programme title and available specialisations should be verified through the university's official website.",
+          fee: "Check official university website",
+          duration: "2 Years Master's Programmes",
+          link: "https://www.tuni.fi/en"
         },
         {
           name: "University of Oulu",
-          desc: "The University of Oulu offers technology-related education and research opportunities in process engineering, materials metallurgy, industrial technologies, and sustainable resources.",
-          img: u3Img
+          img: ouluImg,
+          location: "Oulu, Finland",
+          desc: "The University of Oulu offers technology-related education and research opportunities. Students interested in materials, industrial technologies, process-related engineering, and sustainability can review the university's current master's programmes.",
+          fee: "Check official university catalogue",
+          duration: "2 Years Master's Programmes",
+          link: "https://www.oulu.fi/en"
         }
       ],
       note: [
-        "Before selecting a university, applicants should compare programme details, admission criteria, teaching language, and current application deadlines with **[Edu-Hawk Worldwide](/services)**."
+        "Important: Not every Finnish university offers a programme titled exactly “Chemical Engineering.” Related subjects may be available through broader engineering or materials programmes."
       ]
     },
     {
       slot: "eligibility",
-      eyebrow: "Eligibility",
+      eyebrow: "Academic Criteria",
       title: "Eligibility to Study Chemical Engineering in Finland",
       groups: [
         {
           t: "p",
           items: [
-            "Indian students planning to apply for a **Master's in Chemical Engineering in Finland** should meet the academic and programme-specific eligibility criteria."
+            "Indian students planning to apply for a master's programme in chemical engineering should meet the academic and programme-specific eligibility criteria.",
+            "**General Eligibility Criteria**"
           ]
         },
         {
-          t: "dl",
-          pairs: [
-            {
-              t: "Academic Degree",
-              d: "A recognised bachelor's degree in Chemical Engineering, Biochemical Engineering, Materials Engineering, or a closely relevant engineering discipline from an accredited university."
-            },
-            {
-              t: "Relevant Coursework",
-              d: "Documented coursework in fundamental subjects such as chemistry, mathematics, thermodynamics, transport phenomena, mass & heat transfer, or process engineering."
-            },
-            {
-              t: "Minimum Academic Marks",
-              d: "Generally a first-class undergraduate academic standing (typically 65%–70%+ or equivalent CGPA) meeting the university's evaluation cutoff."
-            },
-            {
-              t: "English Language Proficiency",
-              d: "Proof of English proficiency through university-approved standardized exams (IELTS Academic, TOEFL iBT, or PTE Academic)."
-            }
+          t: "ul",
+          items: [
+            "A recognised bachelor's degree in Chemical Engineering or a relevant engineering discipline.",
+            "A bachelor's degree that meets the academic requirements of the selected university.",
+            "Relevant coursework in subjects such as chemistry, mathematics, thermodynamics, transport phenomena, or process engineering.",
+            "English language proficiency as required by the university.",
+            "Academic transcripts and degree certificates.",
+            "Additional programme-specific requirements, if applicable."
           ]
         },
         {
           t: "p",
           items: [
-            "Students with degrees in **Chemical Engineering**, **Biochemical Engineering**, **Materials Science**, or related fields may be considered for suitable programmes, depending on the university's prerequisites.",
-            "Applicants should carefully review academic prerequisites before selecting a programme. Meeting minimum eligibility requirements does not guarantee admission, as applications are evaluated competitively."
+            "Students with degrees in Chemical Engineering, Biochemical Engineering, Materials Engineering, or related fields may be considered for suitable programmes, depending on the university's requirements.",
+            "Applicants should carefully review the academic prerequisites before selecting a programme.",
+            "Meeting the minimum eligibility requirements does not guarantee admission. Universities evaluate applications based on their selection criteria and the applicant's academic background."
           ]
         }
       ]
     },
     {
-      slot: "admission",
-      eyebrow: "Admission",
+      slot: "admissions",
+      eyebrow: "Application Evaluation",
       title: "Admission Requirements for Chemical Engineering in Finland",
       groups: [
         {
           t: "p",
           items: [
-            "The admission process for a **Master's in Chemical Engineering in Finland** generally includes academic evaluation, English language proficiency, and submission of supporting documents."
+            "The admission process for a Master's in Chemical Engineering in Finland generally includes academic evaluation, English language proficiency, and submission of supporting documents.",
+            "**Academic Requirements**",
+            "Applicants should have a relevant bachelor's degree with coursework related to the selected programme. Universities may evaluate:"
           ]
         },
         {
-          t: "dl",
-          pairs: [
-            {
-              t: "Academic Performance & Transcript Review",
-              d: "Universities evaluate cumulative GPA, grading trends, relevant engineering and chemistry credits, and the rigor of the applicant's undergraduate coursework."
-            },
-            {
-              t: "English Proficiency Tests",
-              d: "Accepted tests include IELTS Academic (typical requirement: 6.5 overall with no band below 5.5–6.0), TOEFL iBT (minimum 92), or PTE Academic (minimum 62)."
-            },
-            {
-              t: "Statement of Purpose (SOP)",
-              d: "A well-written motivation letter articulating your engineering background, research focus (e.g. green chemistry or process modelling), and career goals."
-            },
-            {
-              t: "Curriculum Vitae (CV)",
-              d: "An updated Europass or academic CV highlighting technical projects, chemical plant internships, laboratory research, publications, and technical tool proficiencies."
-            }
+          t: "ul",
+          items: [
+            "Academic performance and grades",
+            "Relevance of the bachelor's degree",
+            "Previous engineering coursework",
+            "Research or project experience",
+            "Suitability for the selected programme"
           ]
         },
         {
           t: "p",
           items: [
-            "Applicants should ensure that all documents are complete and submitted before the designated annual joint application deadlines."
+            "**English Language Requirements**",
+            "International students may need to demonstrate English proficiency through an accepted test or another university-approved method. Commonly accepted English language tests may include:"
+          ]
+        },
+        {
+          t: "pills",
+          items: ["IELTS Academic", "TOEFL iBT", "PTE Academic"]
+        },
+        {
+          t: "p",
+          items: [
+            "The accepted tests, minimum scores, exemptions, and validity requirements vary by university. Students should check the official programme requirements before booking an English language test.",
+            "**Additional Requirements**",
+            "Depending on the programme, applicants may need to submit:"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "Statement of purpose or motivation letter",
+            "CV or résumé",
+            "Academic transcripts",
+            "Degree certificate",
+            "Course descriptions",
+            "Additional academic information requested by the university"
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "Applicants should ensure that all documents are complete and submitted before the application deadline."
           ]
         }
       ]
     },
     {
-      slot: "costs",
-      eyebrow: "Tuition & Costs",
+      slot: "fees",
+      eyebrow: "Tuition, Scholarships & Living Costs",
       title: "Cost of Studying Chemical Engineering in Finland",
       groups: [
         {
           t: "p",
           items: [
             "The cost of studying in Finland depends on the university, programme, tuition fee category, accommodation, and personal lifestyle.",
-            "For Indian students, tuition fees generally apply to English-taught master's programmes for non-EU/EEA students, unless a scholarship or fee waiver is awarded."
+            "For Indian students, tuition fees generally apply to English-taught bachelor's and master's programmes for non-EU/EEA students, unless a scholarship or exemption is available.",
+            "**Tuition Fees**",
+            "Aalto University's Chemical and Metallurgical Engineering Master's Programme lists tuition fees of €17,000 per year for non-EU/EEA students.",
+            "Approximate tuition fee conversion:"
           ]
         },
         {
           t: "table",
-          headers: ["Expense Category", "Estimated Cost (EUR)", "Indicative Cost (INR)"],
+          headers: ["Expense", "Approximate Cost"],
           rows: [
-            ["Aalto University Annual Tuition", "€17,000 / year", "₹17,85,000"],
-            ["LUT / Oulu Annual Tuition", "€10,000 – €13,500 / year", "₹10,50,000 – ₹14,17,500"],
-            ["Two-Year Total Master's Tuition", "€20,000 – €34,000", "₹21,00,000 – ₹35,70,000"],
-            ["Monthly Student Accommodation", "€300 – €650 / month", "₹31,500 – ₹68,250"],
-            ["Monthly Food, Utilities & Living", "€400 – €550 / month", "₹42,000 – ₹57,750"],
-            ["Annual Living Cost Budget", "€8,400 – €10,800 / year", "₹8,82,000 – ₹11,34,000"]
+            ["Annual tuition fee", "€17,000"],
+            ["Annual tuition in INR", "₹17,85,000"],
+            ["Two-year tuition in EUR", "€34,000"],
+            ["Two-year tuition in INR", "₹35,70,000"]
           ]
         },
         {
           t: "p",
           items: [
-            "INR conversions are indicative using €1 ≈ ₹105. Actual exchange rates may vary. These figures refer to the stated programmes and should not be treated as a uniform fee for every Finnish institution.",
+            "INR conversion is indicative, using €1 ≈ ₹105. Actual exchange rates may vary. These figures refer to the stated Aalto programme and should not be treated as the tuition fee for every Finnish university.",
+            "**Living Expenses**",
+            "Students should also budget for accommodation, food, transportation, insurance, study materials, and personal expenses. Common living expense categories include:"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "Accommodation and rent",
+            "Food and groceries",
+            "Public transportation",
+            "Health insurance and related costs",
+            "Books and study materials",
+            "Personal and miscellaneous expenses"
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "Living costs depend on the city, accommodation type, and lifestyle.",
+            "Students should prepare a realistic budget that includes both tuition fees and living expenses before applying.",
             "**Scholarships for Indian Students**",
-            "Finnish universities offer merit-based **tuition scholarships and fee waivers** (typically covering 50% to 100% of tuition fees) based on academic excellence. Explore options with **[Edu-Hawk Worldwide](/services)** to maximise scholarship opportunities."
+            "Some Finnish universities offer scholarships or tuition fee waivers to eligible international students.",
+            "Scholarships may depend on academic performance, programme-specific conditions, or university policies.",
+            "Students should check:"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "Scholarship eligibility",
+            "Application deadlines",
+            "Tuition fee coverage",
+            "Renewal requirements",
+            "Whether living expenses are included"
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "A scholarship may reduce tuition costs, but students should not assume that it covers all expenses."
           ]
         }
       ]
     },
     {
-      slot: "steps",
-      eyebrow: "Step by step",
+      slot: "process",
+      eyebrow: "Step-by-Step",
       title: "Admission Process for Master's in Chemical Engineering in Finland",
-      lead: [
-        "The admission process generally follows these systematic steps:"
-      ],
-      steps: [
+      groups: [
         {
-          title: "Step 1: Choose Your Programme",
-          text: "Identify master's programmes related to chemical engineering based on your bachelor's degree, academic background, and career interests."
+          t: "p",
+          items: [
+            "The admission process generally follows these steps:"
+          ]
         },
         {
-          title: "Step 2: Check Eligibility & Prerequisites",
-          text: "Review the university's academic requirements, English language criteria, accepted degrees, and prerequisite coursework."
+          t: "step",
+          items: [
+            {
+              title: "Step 1: Choose Your Programme",
+              text: "Identify master's programmes related to chemical engineering based on your bachelor's degree, academic background, and career interests."
+            },
+            {
+              title: "Step 2: Check Eligibility",
+              text: "Review the university's academic requirements, English language criteria, accepted degrees, and application instructions."
+            },
+            {
+              title: "Step 3: Prepare Your Documents",
+              text: "Collect academic transcripts, degree certificates, English proficiency results, CV, motivation letter, and other required documents."
+            },
+            {
+              title: "Step 4: Submit Your Application",
+              text: "Apply through the university's official application process or the designated application portal during the relevant application period."
+            },
+            {
+              title: "Step 5: Complete Additional Requirements",
+              text: "Submit supplementary documents or complete additional steps requested by the university."
+            },
+            {
+              title: "Step 6: Receive the Admission Decision",
+              text: "Universities evaluate applications and communicate their admission decisions according to their timelines."
+            },
+            {
+              title: "Step 7: Apply for Scholarships",
+              text: "If eligible, complete the scholarship application according to the university's requirements and deadlines."
+            },
+            {
+              title: "Step 8: Prepare for Your Student Residence Permit",
+              text: "After receiving admission and meeting the required conditions, prepare the documents needed for your Finnish student residence permit application."
+            }
+          ]
         },
         {
-          title: "Step 3: Prepare Your Documentation",
-          text: "Collect academic transcripts, degree certificates, English proficiency test scores, CV, motivation letter, and course descriptions."
-        },
-        {
-          title: "Step 4: Submit Online Application",
-          text: "Apply through the official Studyinfo portal (Opintopolku) or direct university application system during the winter joint application round."
-        },
-        {
-          title: "Step 5: Complete Additional Evaluation",
-          text: "Submit supplementary documents or attend online technical interviews if requested by the university faculty."
-        },
-        {
-          title: "Step 6: Receive Admission Decision",
-          text: "Universities evaluate applications and communicate their admission decisions alongside tuition scholarship offers."
-        },
-        {
-          title: "Step 7: Accept Offer & Pay Tuition Deposit",
-          text: "Confirm your study place online and pay the first instalment of tuition fees to secure university enrolment."
-        },
-        {
-          title: "Step 8: Apply for Finnish Residence Permit",
-          text: "Apply for your Finnish student residence permit via Enter Finland with your admission letter, health insurance, and proof of funds."
+          t: "p",
+          items: [
+            "Students should verify current immigration requirements through official Finnish authorities."
+          ]
         }
       ]
     },
     {
-      slot: "documents",
-      eyebrow: "Checklist",
+      slot: "docs",
+      eyebrow: "Documentation",
       title: "Documents Required for Admission",
       groups: [
         {
           t: "p",
           items: [
-            "Indian students applying for a master's programme in chemical engineering should assemble the following documents:"
+            "Indian students applying for a master's programme in chemical engineering may need the following documents:"
           ]
         },
         {
-          t: "pills",
+          t: "ul",
           items: [
-            "Valid International Passport",
-            "Bachelor's Degree Certificate",
-            "Official Semester Transcripts",
-            "Course Syllabus / Descriptions",
-            "English Test Score (IELTS/TOEFL)",
-            "Statement of Purpose (SOP)",
-            "Curriculum Vitae (Europass CV)",
-            "Letters of Recommendation (LOR)",
-            "Proof of Financial Means",
-            "Comprehensive Health Insurance"
+            "Valid passport",
+            "Bachelor's degree certificate or provisional certificate",
+            "Academic transcripts",
+            "English language proficiency test result, if required",
+            "Curriculum vitae or résumé",
+            "Statement of purpose or motivation letter, if required",
+            "Course descriptions or academic information, if requested",
+            "Scholarship application documents, if applicable",
+            "Additional documents specified by the university"
           ]
         },
         {
           t: "p",
           items: [
-            "Document requirements may differ between universities. Students should ensure that all documents are certified, complete, and submitted in the prescribed format."
+            "Document requirements may differ between universities and programmes.",
+            "Students should ensure that all documents are accurate, complete, and submitted in the required format."
           ]
         }
       ]
     },
     {
       slot: "careers",
-      eyebrow: "Careers & Salary",
+      eyebrow: "Career Pathways",
       title: "Career Opportunities After Chemical Engineering in Finland",
       groups: [
         {
           t: "p",
           items: [
-            "A master's degree in chemical engineering prepares students for high-impact technical, industrial, and research-oriented career paths across Scandinavia and Europe.",
-            "**Key Career Roles for Graduates**"
-          ]
-        },
-        {
-          t: "pills",
-          items: [
-            "Chemical Engineer",
-            "Process Design Engineer",
-            "Production & Plant Engineer",
-            "Materials & Metallurgical Engineer",
-            "Environmental & Sustainability Engineer",
-            "R&D Engineer & Research Scientist",
-            "Quality Assurance Engineer",
-            "Clean-Tech & Bio-Refinery Specialist"
+            "A master's degree in chemical engineering can prepare students for technical, industrial, and research-oriented career paths.",
+            "Career opportunities depend on the programme, practical experience, technical skills, language abilities, and employer requirements.",
+            "**Possible Job Roles**"
           ]
         },
         {
@@ -394,122 +458,172 @@ const page = {
           pairs: [
             {
               t: "Chemical Engineer",
-              d: "Work on chemical reaction systems, industrial synthesis, process efficiency, and cutting-edge engineering plant solutions."
+              d: "Work on chemical processes, industrial production, process improvement, and engineering solutions."
             },
             {
               t: "Process Engineer",
-              d: "Develop, simulate, and optimise industrial manufacturing processes to enhance output, energy efficiency, and operational safety."
+              d: "Develop, analyse, and optimise industrial processes to improve efficiency, quality, and safety."
+            },
+            {
+              t: "Production Engineer",
+              d: "Support manufacturing operations, production planning, process performance, and industrial quality."
             },
             {
               t: "Materials Engineer",
-              d: "Lead materials development, metallurgical testing, corrosion prevention, and battery mineral recycling technologies."
+              d: "Work with materials development, material processing, testing, and industrial applications."
             },
             {
               t: "Environmental Engineer",
-              d: "Design eco-friendly solutions for emissions reduction, waste treatment, circular recycling, and green industrial chemistry."
+              d: "Contribute to environmental technologies, waste management, resource efficiency, and sustainable production."
+            },
+            {
+              t: "Research and Development Engineer",
+              d: "Participate in research projects, product development, process innovation, and laboratory work."
+            },
+            {
+              t: "Quality Engineer",
+              d: "Support quality assurance, testing, process control, and compliance with industry standards."
             }
           ]
         },
         {
           t: "p",
           items: [
-            "**Industries Hiring Graduates in Finland**",
-            "Graduates find opportunities in **chemical manufacturing (Kemira, Neste)**, **clean energy & biofuels**, **forest bio-products (UPM, Stora Enso)**, **metals and battery technologies (Outokumpu, Terrafame)**, and **environmental consulting**.",
-            "International graduates in Finland benefit from a **2-year post-study work permit** upon completing their degree."
-          ]
-        }
-      ]
-    },
-    {
-      slot: "careers",
-      eyebrow: "Careers & Salary",
-      title: "Salary After Master's in Chemical Engineering in Finland",
-      groups: [
-        {
-          t: "p",
-          items: [
-            "Salaries in Finland for chemical engineering professionals depend on role, industry sector, previous experience, technical mastery, and location.",
-            "Typical entry-level salaries for chemical engineers in Finland range from **€3,400 to €4,500 per month** (approximately **₹35.7 to ₹47.2 lakh per annum**), with experienced senior engineers earning **€5,500+ per month**.",
-            "**Factors Influencing Compensation**"
+            "**Industries for Chemical Engineering Graduates**",
+            "Graduates may explore opportunities in:"
           ]
         },
         {
           t: "pills",
           items: [
-            "Relevant Process & Lab Experience",
-            "Simulation Software Proficiency (Aspen Plus, COMSOL)",
-            "Industry Sector (Biofuels, Batteries, Specialty Chemicals)",
-            "Project Management Credentials",
-            "Finnish Language Familiarity for Plant Roles"
+            "Chemical manufacturing",
+            "Process industries",
+            "Energy and renewable energy",
+            "Materials and metals",
+            "Biotechnology-related industries",
+            "Environmental technologies",
+            "Industrial research and development",
+            "Manufacturing and production"
           ]
         },
         {
           t: "p",
           items: [
-            "Students can significantly enhance their employability by participating in university collaborative projects, thesis sponsorships with Finnish industrial firms, and international internships."
+            "Employment is not guaranteed by completing a master's degree. Students should develop practical skills, project experience, and professional networks during their studies."
           ]
         }
       ]
     },
     {
-      slot: "content",
-      eyebrow: "Guidance",
+      slot: "salary",
+      eyebrow: "Industry Compensation",
+      title: "Salary After Master's in Chemical Engineering in Finland",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Salary depends on the job role, employer, experience, technical specialisation, location, and market conditions.",
+            "Chemical engineering graduates may explore different salary levels across industries such as chemical manufacturing, energy, materials, environmental technologies, and process engineering.",
+            "Rather than relying on a single salary figure, students should research current job advertisements and salary information for their intended role.",
+            "**Factors Affecting Salary**"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "Relevant engineering experience",
+            "Technical and software skills",
+            "Industry and company",
+            "Job responsibilities",
+            "Location",
+            "Finnish or other language skills",
+            "Internship and project experience"
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "Students can improve their career readiness by participating in university projects, internships, research activities, and industry networking opportunities."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "faq",
+      eyebrow: "FAQ",
+      title: "Frequently Asked Questions",
+      groups: [
+        {
+          t: "faq",
+          items: [
+            {
+              q: "Can Indian students study a Master's in Chemical Engineering in Finland?",
+              a: "Yes. Indian students can apply for relevant English-taught master's programmes if they meet the academic, language, and programme-specific admission requirements."
+            },
+            {
+              q: "Is Chemical Engineering available in English in Finland?",
+              a: "Yes. Finnish universities offer English-taught programmes related to chemical engineering and industrial technologies. The exact programme title and curriculum vary by university."
+            },
+            {
+              q: "What is the tuition fee for Chemical Engineering in Finland?",
+              a: "Tuition fees depend on the university and programme. For example, Aalto University's Chemical and Metallurgical Engineering Master's Programme lists a tuition fee of €17,000 per year for non-EU/EEA students, approximately ₹17,85,000 using an indicative exchange rate of €1 = ₹105."
+            },
+            {
+              q: "Is IELTS required to study Chemical Engineering in Finland?",
+              a: "English proficiency is generally required for English-taught programmes. IELTS may be accepted, but universities can also accept other tests or approved methods. Students should check the specific programme requirements."
+            },
+            {
+              q: "Can students work after completing their Master's in Chemical Engineering in Finland?",
+              a: "Graduates may explore employment opportunities in Finland and other countries. Their options depend on job availability, qualifications, language skills, employer requirements, and applicable residence permit rules."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      slot: "guidance",
+      eyebrow: "Edu-Hawk Worldwide",
       title: "Study Chemical Engineering in Finland with Edu-Hawk Worldwide",
       groups: [
         {
           t: "p",
           items: [
-            "Planning to pursue a **Master's in Chemical Engineering in Finland**? **[Edu-Hawk Worldwide](/services)** provides comprehensive, personalized end-to-end guidance to make your European study journey smooth and successful.",
-            "Our certified international education counsellors support you with:",
-            "• Shortlisting top Finnish universities and matching specialized curricula",
-            "• Academic profile evaluation and prerequisite coursework guidance",
-            "• Statement of Purpose (SOP) and Europass CV drafting assistance",
-            "• Application submission via the Finnish Studyinfo portal",
-            "• University scholarship and tuition fee waiver applications",
-            "• Finnish student residence permit documentation and interview coaching",
-            "**[Contact Edu-Hawk Worldwide today](/contact)** to take the next confident step toward your global engineering career."
+            "Planning to pursue a Master's in Chemical Engineering in Finland? Edu-Hawk Worldwide can help you understand the study abroad process and prepare for your international education journey.",
+            "Our guidance can help you explore:"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "Suitable universities and engineering programmes",
+            "Eligibility and admission requirements",
+            "Application preparation",
+            "English language requirements",
+            "Tuition fees and scholarship options",
+            "Study abroad documentation and guidance"
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "Connect with Edu-Hawk Worldwide and take the next step toward your engineering education abroad."
           ]
         }
       ]
     }
-  ],
-
-  faqs: [
-    {
-      q: "Can Indian students study a Master's in Chemical Engineering in Finland?",
-      a: "Yes. Indian students with a recognized 4-year bachelor's degree in Chemical Engineering, Biotechnology, or a relevant discipline can apply for English-taught master's programmes across top Finnish universities if they meet academic and language criteria."
-    },
-    {
-      q: "Is Chemical Engineering taught in English in Finland?",
-      a: "Yes. Leading Finnish universities including Aalto University, LUT University, Tampere University, and the University of Oulu offer 100% English-taught master's degrees in chemical and sustainable process engineering."
-    },
-    {
-      q: "What is the tuition fee for Chemical Engineering in Finland?",
-      a: "Annual tuition fees for non-EU/EEA students range between €10,000 and €17,000 per year (approximately ₹10.5 to ₹17.85 lakh per annum). Generous merit scholarships offering 50% to 100% tuition fee waivers are available."
-    },
-    {
-      q: "Is IELTS required to study Chemical Engineering in Finland?",
-      a: "Yes, proof of English proficiency is generally mandatory. Accepted tests include IELTS Academic (overall 6.5 minimum), TOEFL iBT (92+), and PTE Academic (62+)."
-    },
-    {
-      q: "Can international students work in Finland after graduation?",
-      a: "Yes. International graduates can apply for a 2-year post-study residence permit to seek employment or start a business in Finland and across the European Union."
-    }
-  ],
-  faqTitle: "Frequently Asked Questions About Master's in Chemical Engineering in Finland"
+  ]
 };
 
-const MastersinChemicalEngineeringPG = () => {
+export default function MastersinChemicalEngineeringPGFinland() {
   return (
     <AbroadCoursePage
       page={page}
       heroImg={heroImg}
-      sideImg={sideImg}
       heroBgImg={heroBgImg}
+      sideImg={sideImg}
       ctaBgImg={ctaBgImg}
+      showHeroStats={false}
       seoPath="/study-abroad/finland/pg/chemical-engineering"
     />
   );
-};
-
-export default MastersinChemicalEngineeringPG;
+}
