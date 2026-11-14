@@ -424,6 +424,49 @@ import LawFrance from "./pages/Study Abroad/France/Law/law.jsx";
 import LanguageCoursesFrance from "./pages/Study Abroad/France/LanguageCourses/language-courses.jsx";
 import SummerCoursesFrance from "./pages/Study Abroad/France/SummerCourses/summer-courses.jsx";
 import WinterCoursesFrance from "./pages/Study Abroad/France/WinterCourses/winter-courses.jsx";
+// Study Abroad - Germany (42 Courses)
+import DentistryAbroadGermany from "./pages/Study Abroad/Germany/MBBS Abroad/DentistryAbroad.jsx";
+import NursingAbroadGermany from "./pages/Study Abroad/Germany/MBBS Abroad/NursingAbroad.jsx";
+import PharmacyAbroadGermany from "./pages/Study Abroad/Germany/MBBS Abroad/PharmacyAbroad.jsx";
+import PhysiotherapyAbroadGermany from "./pages/Study Abroad/Germany/MBBS Abroad/PhysiotherapyAbroad.jsx";
+import PublicHealthGermany from "./pages/Study Abroad/Germany/MBBS Abroad/PublicHealth.jsx";
+import BiotechnologyGermany from "./pages/Study Abroad/Germany/MBBS Abroad/Biotechnology.jsx";
+import UndergraduateEngineeringGermany from "./pages/Study Abroad/Germany/Engineering/ug/undergraduate.jsx";
+import ComputerEngineeringUGGermany from "./pages/Study Abroad/Germany/Engineering/ug/pages/ComputerEngineering.jsx";
+import CivilEngineeringUGGermany from "./pages/Study Abroad/Germany/Engineering/ug/pages/CivilEngineering.jsx";
+import MechanicalEngineeringUGGermany from "./pages/Study Abroad/Germany/Engineering/ug/pages/MechanicalEngineering.jsx";
+import ComputerScienceGermany from "./pages/Study Abroad/Germany/ComputerScience/ComputerScience.jsx";
+import InformationTechnologyGermany from "./pages/Study Abroad/Germany/InformationTechnology/InformationTechnology.jsx";
+import ElectricalEngineeringUGGermany from "./pages/Study Abroad/Germany/Engineering/ug/pages/ElectricalEngineering.jsx";
+import ElectronicsCommunicationUGGermany from "./pages/Study Abroad/Germany/Engineering/ug/pages/ElectronicsCommunication.jsx";
+import ChemicalEngineeringUGGermany from "./pages/Study Abroad/Germany/Engineering/ug/pages/ChemicalEngineering.jsx";
+import AerospaceEngineeringUGGermany from "./pages/Study Abroad/Germany/Engineering/ug/pages/AerospaceEngineering.jsx";
+import BiomedicalEngineeringUGGermany from "./pages/Study Abroad/Germany/Engineering/ug/pages/BiomedicalEngineering.jsx";
+import AutomobileEngineeringUGGermany from "./pages/Study Abroad/Germany/Engineering/ug/pages/AutomobileEngineering.jsx";
+import PostgraduateEngineeringGermany from "./pages/Study Abroad/Germany/Engineering/pg/postgraduate.jsx";
+import ComputerEngineeringPGGermany from "./pages/Study Abroad/Germany/Engineering/pg/pages/ComputerEngineering.jsx";
+import MechanicalEngineeringPGGermany from "./pages/Study Abroad/Germany/Engineering/pg/pages/MechanicalEngineering.jsx";
+import CivilEngineeringPGGermany from "./pages/Study Abroad/Germany/Engineering/pg/pages/CivilEngineering.jsx";
+import ElectricalEngineeringPGGermany from "./pages/Study Abroad/Germany/Engineering/pg/pages/ElectricalEngineering.jsx";
+import ElectronicsCommunicationPGGermany from "./pages/Study Abroad/Germany/Engineering/pg/pages/ElectronicsCommunication.jsx";
+import ChemicalEngineeringPGGermany from "./pages/Study Abroad/Germany/Engineering/pg/pages/ChemicalEngineering.jsx";
+import AerospaceEngineeringPGGermany from "./pages/Study Abroad/Germany/Engineering/pg/pages/AerospaceEngineering.jsx";
+import BiomedicalEngineeringPGGermany from "./pages/Study Abroad/Germany/Engineering/pg/pages/BiomedicalEngineering.jsx";
+import AutomobileEngineeringPGGermany from "./pages/Study Abroad/Germany/Engineering/pg/pages/AutomobileEngineering.jsx";
+import BusinessManagementGermany from "./pages/Study Abroad/Germany/BusinessManagement/BusinessManagement.jsx";
+import MBAGermany from "./pages/Study Abroad/Germany/MBA/MBA.jsx";
+import ExecutiveMBAGermany from "./pages/Study Abroad/Germany/ExecutiveMBA/ExecutiveMBA.jsx";
+import BBAGermany from "./pages/Study Abroad/Germany/BBA/BBA.jsx";
+import BBSGermany from "./pages/Study Abroad/Germany/BBS/BBS.jsx";
+import MBSGermany from "./pages/Study Abroad/Germany/MBS/MBS.jsx";
+import InternationalBusinessGermany from "./pages/Study Abroad/Germany/InternationalBusiness/InternationalBusiness.jsx";
+import MarketingManagementGermany from "./pages/Study Abroad/Germany/MarketingManagement/MarketingManagement.jsx";
+import HospitalityManagementGermany from "./pages/Study Abroad/Germany/HospitalityManagement/HospitalityManagement.jsx";
+import ArchitectureGermany from "./pages/Study Abroad/Germany/Architecture/Architecture.jsx";
+import LawGermany from "./pages/Study Abroad/Germany/Law/Law.jsx";
+import LanguageCoursesGermany from "./pages/Study Abroad/Germany/LanguageCourses/LanguageCourses.jsx";
+import SummerCoursesGermany from "./pages/Study Abroad/Germany/SummerCourses/SummerCourses.jsx";
+import WinterCoursesGermany from "./pages/Study Abroad/Germany/WinterCourses/WinterCourses.jsx";
 
 
 
@@ -852,6 +895,49 @@ export async function render(url) {
         <Route path="study-abroad/france/language-courses" element={<LanguageCoursesFrance />} />
         <Route path="study-abroad/france/summer-courses" element={<SummerCoursesFrance />} />
         <Route path="study-abroad/france/winter-courses" element={<WinterCoursesFrance />} />
+        {/* Study Abroad - Germany (42 Courses) */}
+        <Route path="study-abroad/germany/dentistry" element={<DentistryAbroadGermany />} />
+        <Route path="study-abroad/germany/nursing" element={<NursingAbroadGermany />} />
+        <Route path="study-abroad/germany/pharmacy" element={<PharmacyAbroadGermany />} />
+        <Route path="study-abroad/germany/physiotherapy" element={<PhysiotherapyAbroadGermany />} />
+        <Route path="study-abroad/germany/public-health" element={<PublicHealthGermany />} />
+        <Route path="study-abroad/germany/biotechnology" element={<BiotechnologyGermany />} />
+        <Route path="study-abroad/germany/ug/engineering" element={<UndergraduateEngineeringGermany />} />
+        <Route path="study-abroad/germany/ug/computer-engineering" element={<ComputerEngineeringUGGermany />} />
+        <Route path="study-abroad/germany/ug/civil-engineering" element={<CivilEngineeringUGGermany />} />
+        <Route path="study-abroad/germany/ug/mechanical-engineering" element={<MechanicalEngineeringUGGermany />} />
+        <Route path="study-abroad/germany/computer-science" element={<ComputerScienceGermany />} />
+        <Route path="study-abroad/germany/information-technology" element={<InformationTechnologyGermany />} />
+        <Route path="study-abroad/germany/ug/electrical-engineering" element={<ElectricalEngineeringUGGermany />} />
+        <Route path="study-abroad/germany/ug/electronics-communication" element={<ElectronicsCommunicationUGGermany />} />
+        <Route path="study-abroad/germany/ug/chemical-engineering" element={<ChemicalEngineeringUGGermany />} />
+        <Route path="study-abroad/germany/ug/aerospace-engineering" element={<AerospaceEngineeringUGGermany />} />
+        <Route path="study-abroad/germany/ug/biomedical-engineering" element={<BiomedicalEngineeringUGGermany />} />
+        <Route path="study-abroad/germany/ug/automobile-engineering" element={<AutomobileEngineeringUGGermany />} />
+        <Route path="study-abroad/germany/pg/engineering" element={<PostgraduateEngineeringGermany />} />
+        <Route path="study-abroad/germany/pg/computer-engineering" element={<ComputerEngineeringPGGermany />} />
+        <Route path="study-abroad/germany/pg/mechanical-engineering" element={<MechanicalEngineeringPGGermany />} />
+        <Route path="study-abroad/germany/pg/civil-engineering" element={<CivilEngineeringPGGermany />} />
+        <Route path="study-abroad/germany/pg/electrical-engineering" element={<ElectricalEngineeringPGGermany />} />
+        <Route path="study-abroad/germany/pg/electronics-communication" element={<ElectronicsCommunicationPGGermany />} />
+        <Route path="study-abroad/germany/pg/chemical-engineering" element={<ChemicalEngineeringPGGermany />} />
+        <Route path="study-abroad/germany/pg/aerospace-engineering" element={<AerospaceEngineeringPGGermany />} />
+        <Route path="study-abroad/germany/pg/biomedical-engineering" element={<BiomedicalEngineeringPGGermany />} />
+        <Route path="study-abroad/germany/pg/automobile-engineering" element={<AutomobileEngineeringPGGermany />} />
+        <Route path="study-abroad/germany/business-management" element={<BusinessManagementGermany />} />
+        <Route path="study-abroad/germany/mba" element={<MBAGermany />} />
+        <Route path="study-abroad/germany/executive-mba" element={<ExecutiveMBAGermany />} />
+        <Route path="study-abroad/germany/bba" element={<BBAGermany />} />
+        <Route path="study-abroad/germany/bbs" element={<BBSGermany />} />
+        <Route path="study-abroad/germany/mbs" element={<MBSGermany />} />
+        <Route path="study-abroad/germany/international-business" element={<InternationalBusinessGermany />} />
+        <Route path="study-abroad/germany/marketing-management" element={<MarketingManagementGermany />} />
+        <Route path="study-abroad/germany/hospitality-management" element={<HospitalityManagementGermany />} />
+        <Route path="study-abroad/germany/architecture" element={<ArchitectureGermany />} />
+        <Route path="study-abroad/germany/law" element={<LawGermany />} />
+        <Route path="study-abroad/germany/language-courses" element={<LanguageCoursesGermany />} />
+        <Route path="study-abroad/germany/summer-courses" element={<SummerCoursesGermany />} />
+        <Route path="study-abroad/germany/winter-courses" element={<WinterCoursesGermany />} />
 
               <Route path="terms-conditions" element={<TermsAndConditions />} />
               <Route path="privacy-policy" element={<PrivacyPolicy />} />

@@ -454,6 +454,49 @@ const LawFrance = lazy(() => import("../pages/Study Abroad/France/Law/law.jsx"))
 const LanguageCoursesFrance = lazy(() => import("../pages/Study Abroad/France/LanguageCourses/language-courses.jsx"));
 const SummerCoursesFrance = lazy(() => import("../pages/Study Abroad/France/SummerCourses/summer-courses.jsx"));
 const WinterCoursesFrance = lazy(() => import("../pages/Study Abroad/France/WinterCourses/winter-courses.jsx"));
+// Study Abroad - Germany (42 Courses)
+const DentistryAbroadGermany = lazy(() => import("../pages/Study Abroad/Germany/MBBS Abroad/DentistryAbroad.jsx"));
+const NursingAbroadGermany = lazy(() => import("../pages/Study Abroad/Germany/MBBS Abroad/NursingAbroad.jsx"));
+const PharmacyAbroadGermany = lazy(() => import("../pages/Study Abroad/Germany/MBBS Abroad/PharmacyAbroad.jsx"));
+const PhysiotherapyAbroadGermany = lazy(() => import("../pages/Study Abroad/Germany/MBBS Abroad/PhysiotherapyAbroad.jsx"));
+const PublicHealthGermany = lazy(() => import("../pages/Study Abroad/Germany/MBBS Abroad/PublicHealth.jsx"));
+const BiotechnologyGermany = lazy(() => import("../pages/Study Abroad/Germany/MBBS Abroad/Biotechnology.jsx"));
+const UndergraduateEngineeringGermany = lazy(() => import("../pages/Study Abroad/Germany/Engineering/ug/undergraduate.jsx"));
+const ComputerEngineeringUGGermany = lazy(() => import("../pages/Study Abroad/Germany/Engineering/ug/pages/ComputerEngineering.jsx"));
+const CivilEngineeringUGGermany = lazy(() => import("../pages/Study Abroad/Germany/Engineering/ug/pages/CivilEngineering.jsx"));
+const MechanicalEngineeringUGGermany = lazy(() => import("../pages/Study Abroad/Germany/Engineering/ug/pages/MechanicalEngineering.jsx"));
+const ComputerScienceGermany = lazy(() => import("../pages/Study Abroad/Germany/ComputerScience/ComputerScience.jsx"));
+const InformationTechnologyGermany = lazy(() => import("../pages/Study Abroad/Germany/InformationTechnology/InformationTechnology.jsx"));
+const ElectricalEngineeringUGGermany = lazy(() => import("../pages/Study Abroad/Germany/Engineering/ug/pages/ElectricalEngineering.jsx"));
+const ElectronicsCommunicationUGGermany = lazy(() => import("../pages/Study Abroad/Germany/Engineering/ug/pages/ElectronicsCommunication.jsx"));
+const ChemicalEngineeringUGGermany = lazy(() => import("../pages/Study Abroad/Germany/Engineering/ug/pages/ChemicalEngineering.jsx"));
+const AerospaceEngineeringUGGermany = lazy(() => import("../pages/Study Abroad/Germany/Engineering/ug/pages/AerospaceEngineering.jsx"));
+const BiomedicalEngineeringUGGermany = lazy(() => import("../pages/Study Abroad/Germany/Engineering/ug/pages/BiomedicalEngineering.jsx"));
+const AutomobileEngineeringUGGermany = lazy(() => import("../pages/Study Abroad/Germany/Engineering/ug/pages/AutomobileEngineering.jsx"));
+const PostgraduateEngineeringGermany = lazy(() => import("../pages/Study Abroad/Germany/Engineering/pg/postgraduate.jsx"));
+const ComputerEngineeringPGGermany = lazy(() => import("../pages/Study Abroad/Germany/Engineering/pg/pages/ComputerEngineering.jsx"));
+const MechanicalEngineeringPGGermany = lazy(() => import("../pages/Study Abroad/Germany/Engineering/pg/pages/MechanicalEngineering.jsx"));
+const CivilEngineeringPGGermany = lazy(() => import("../pages/Study Abroad/Germany/Engineering/pg/pages/CivilEngineering.jsx"));
+const ElectricalEngineeringPGGermany = lazy(() => import("../pages/Study Abroad/Germany/Engineering/pg/pages/ElectricalEngineering.jsx"));
+const ElectronicsCommunicationPGGermany = lazy(() => import("../pages/Study Abroad/Germany/Engineering/pg/pages/ElectronicsCommunication.jsx"));
+const ChemicalEngineeringPGGermany = lazy(() => import("../pages/Study Abroad/Germany/Engineering/pg/pages/ChemicalEngineering.jsx"));
+const AerospaceEngineeringPGGermany = lazy(() => import("../pages/Study Abroad/Germany/Engineering/pg/pages/AerospaceEngineering.jsx"));
+const BiomedicalEngineeringPGGermany = lazy(() => import("../pages/Study Abroad/Germany/Engineering/pg/pages/BiomedicalEngineering.jsx"));
+const AutomobileEngineeringPGGermany = lazy(() => import("../pages/Study Abroad/Germany/Engineering/pg/pages/AutomobileEngineering.jsx"));
+const BusinessManagementGermany = lazy(() => import("../pages/Study Abroad/Germany/BusinessManagement/BusinessManagement.jsx"));
+const MBAGermany = lazy(() => import("../pages/Study Abroad/Germany/MBA/MBA.jsx"));
+const ExecutiveMBAGermany = lazy(() => import("../pages/Study Abroad/Germany/ExecutiveMBA/ExecutiveMBA.jsx"));
+const BBAGermany = lazy(() => import("../pages/Study Abroad/Germany/BBA/BBA.jsx"));
+const BBSGermany = lazy(() => import("../pages/Study Abroad/Germany/BBS/BBS.jsx"));
+const MBSGermany = lazy(() => import("../pages/Study Abroad/Germany/MBS/MBS.jsx"));
+const InternationalBusinessGermany = lazy(() => import("../pages/Study Abroad/Germany/InternationalBusiness/InternationalBusiness.jsx"));
+const MarketingManagementGermany = lazy(() => import("../pages/Study Abroad/Germany/MarketingManagement/MarketingManagement.jsx"));
+const HospitalityManagementGermany = lazy(() => import("../pages/Study Abroad/Germany/HospitalityManagement/HospitalityManagement.jsx"));
+const ArchitectureGermany = lazy(() => import("../pages/Study Abroad/Germany/Architecture/Architecture.jsx"));
+const LawGermany = lazy(() => import("../pages/Study Abroad/Germany/Law/Law.jsx"));
+const LanguageCoursesGermany = lazy(() => import("../pages/Study Abroad/Germany/LanguageCourses/LanguageCourses.jsx"));
+const SummerCoursesGermany = lazy(() => import("../pages/Study Abroad/Germany/SummerCourses/SummerCourses.jsx"));
+const WinterCoursesGermany = lazy(() => import("../pages/Study Abroad/Germany/WinterCourses/WinterCourses.jsx"));
 
 
 
@@ -2367,6 +2410,175 @@ export const router = createBrowserRouter([
         path: "study-abroad/france/winter-courses",
         element: <WinterCoursesFrance />,
       },
+      // Study Abroad - Germany (42 Courses)
+      {
+        path: "study-abroad/germany/dentistry",
+        element: <DentistryAbroadGermany />,
+      },
+      {
+        path: "study-abroad/germany/nursing",
+        element: <NursingAbroadGermany />,
+      },
+      {
+        path: "study-abroad/germany/pharmacy",
+        element: <PharmacyAbroadGermany />,
+      },
+      {
+        path: "study-abroad/germany/physiotherapy",
+        element: <PhysiotherapyAbroadGermany />,
+      },
+      {
+        path: "study-abroad/germany/public-health",
+        element: <PublicHealthGermany />,
+      },
+      {
+        path: "study-abroad/germany/biotechnology",
+        element: <BiotechnologyGermany />,
+      },
+      {
+        path: "study-abroad/germany/ug/engineering",
+        element: <UndergraduateEngineeringGermany />,
+      },
+      {
+        path: "study-abroad/germany/ug/computer-engineering",
+        element: <ComputerEngineeringUGGermany />,
+      },
+      {
+        path: "study-abroad/germany/ug/civil-engineering",
+        element: <CivilEngineeringUGGermany />,
+      },
+      {
+        path: "study-abroad/germany/ug/mechanical-engineering",
+        element: <MechanicalEngineeringUGGermany />,
+      },
+      {
+        path: "study-abroad/germany/computer-science",
+        element: <ComputerScienceGermany />,
+      },
+      {
+        path: "study-abroad/germany/information-technology",
+        element: <InformationTechnologyGermany />,
+      },
+      {
+        path: "study-abroad/germany/ug/electrical-engineering",
+        element: <ElectricalEngineeringUGGermany />,
+      },
+      {
+        path: "study-abroad/germany/ug/electronics-communication",
+        element: <ElectronicsCommunicationUGGermany />,
+      },
+      {
+        path: "study-abroad/germany/ug/chemical-engineering",
+        element: <ChemicalEngineeringUGGermany />,
+      },
+      {
+        path: "study-abroad/germany/ug/aerospace-engineering",
+        element: <AerospaceEngineeringUGGermany />,
+      },
+      {
+        path: "study-abroad/germany/ug/biomedical-engineering",
+        element: <BiomedicalEngineeringUGGermany />,
+      },
+      {
+        path: "study-abroad/germany/ug/automobile-engineering",
+        element: <AutomobileEngineeringUGGermany />,
+      },
+      {
+        path: "study-abroad/germany/pg/engineering",
+        element: <PostgraduateEngineeringGermany />,
+      },
+      {
+        path: "study-abroad/germany/pg/computer-engineering",
+        element: <ComputerEngineeringPGGermany />,
+      },
+      {
+        path: "study-abroad/germany/pg/mechanical-engineering",
+        element: <MechanicalEngineeringPGGermany />,
+      },
+      {
+        path: "study-abroad/germany/pg/civil-engineering",
+        element: <CivilEngineeringPGGermany />,
+      },
+      {
+        path: "study-abroad/germany/pg/electrical-engineering",
+        element: <ElectricalEngineeringPGGermany />,
+      },
+      {
+        path: "study-abroad/germany/pg/electronics-communication",
+        element: <ElectronicsCommunicationPGGermany />,
+      },
+      {
+        path: "study-abroad/germany/pg/chemical-engineering",
+        element: <ChemicalEngineeringPGGermany />,
+      },
+      {
+        path: "study-abroad/germany/pg/aerospace-engineering",
+        element: <AerospaceEngineeringPGGermany />,
+      },
+      {
+        path: "study-abroad/germany/pg/biomedical-engineering",
+        element: <BiomedicalEngineeringPGGermany />,
+      },
+      {
+        path: "study-abroad/germany/pg/automobile-engineering",
+        element: <AutomobileEngineeringPGGermany />,
+      },
+      {
+        path: "study-abroad/germany/business-management",
+        element: <BusinessManagementGermany />,
+      },
+      {
+        path: "study-abroad/germany/mba",
+        element: <MBAGermany />,
+      },
+      {
+        path: "study-abroad/germany/executive-mba",
+        element: <ExecutiveMBAGermany />,
+      },
+      {
+        path: "study-abroad/germany/bba",
+        element: <BBAGermany />,
+      },
+      {
+        path: "study-abroad/germany/bbs",
+        element: <BBSGermany />,
+      },
+      {
+        path: "study-abroad/germany/mbs",
+        element: <MBSGermany />,
+      },
+      {
+        path: "study-abroad/germany/international-business",
+        element: <InternationalBusinessGermany />,
+      },
+      {
+        path: "study-abroad/germany/marketing-management",
+        element: <MarketingManagementGermany />,
+      },
+      {
+        path: "study-abroad/germany/hospitality-management",
+        element: <HospitalityManagementGermany />,
+      },
+      {
+        path: "study-abroad/germany/architecture",
+        element: <ArchitectureGermany />,
+      },
+      {
+        path: "study-abroad/germany/law",
+        element: <LawGermany />,
+      },
+      {
+        path: "study-abroad/germany/language-courses",
+        element: <LanguageCoursesGermany />,
+      },
+      {
+        path: "study-abroad/germany/summer-courses",
+        element: <SummerCoursesGermany />,
+      },
+      {
+        path: "study-abroad/germany/winter-courses",
+        element: <WinterCoursesGermany />,
+      },
 
       {
         path: "terms-conditions",
@@ -2859,6 +3071,49 @@ export const routeList = [
   "/study-abroad/france/language-courses",
   "/study-abroad/france/summer-courses",
   "/study-abroad/france/winter-courses",
+  // Study Abroad - Germany (42 Courses)
+  "/study-abroad/germany/dentistry",
+  "/study-abroad/germany/nursing",
+  "/study-abroad/germany/pharmacy",
+  "/study-abroad/germany/physiotherapy",
+  "/study-abroad/germany/public-health",
+  "/study-abroad/germany/biotechnology",
+  "/study-abroad/germany/ug/engineering",
+  "/study-abroad/germany/ug/computer-engineering",
+  "/study-abroad/germany/ug/civil-engineering",
+  "/study-abroad/germany/ug/mechanical-engineering",
+  "/study-abroad/germany/computer-science",
+  "/study-abroad/germany/information-technology",
+  "/study-abroad/germany/ug/electrical-engineering",
+  "/study-abroad/germany/ug/electronics-communication",
+  "/study-abroad/germany/ug/chemical-engineering",
+  "/study-abroad/germany/ug/aerospace-engineering",
+  "/study-abroad/germany/ug/biomedical-engineering",
+  "/study-abroad/germany/ug/automobile-engineering",
+  "/study-abroad/germany/pg/engineering",
+  "/study-abroad/germany/pg/computer-engineering",
+  "/study-abroad/germany/pg/mechanical-engineering",
+  "/study-abroad/germany/pg/civil-engineering",
+  "/study-abroad/germany/pg/electrical-engineering",
+  "/study-abroad/germany/pg/electronics-communication",
+  "/study-abroad/germany/pg/chemical-engineering",
+  "/study-abroad/germany/pg/aerospace-engineering",
+  "/study-abroad/germany/pg/biomedical-engineering",
+  "/study-abroad/germany/pg/automobile-engineering",
+  "/study-abroad/germany/business-management",
+  "/study-abroad/germany/mba",
+  "/study-abroad/germany/executive-mba",
+  "/study-abroad/germany/bba",
+  "/study-abroad/germany/bbs",
+  "/study-abroad/germany/mbs",
+  "/study-abroad/germany/international-business",
+  "/study-abroad/germany/marketing-management",
+  "/study-abroad/germany/hospitality-management",
+  "/study-abroad/germany/architecture",
+  "/study-abroad/germany/law",
+  "/study-abroad/germany/language-courses",
+  "/study-abroad/germany/summer-courses",
+  "/study-abroad/germany/winter-courses",
 
 
   "/terms-conditions",

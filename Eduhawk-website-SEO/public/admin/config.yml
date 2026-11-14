@@ -21559,3 +21559,1605 @@ collections:
               - {"label": "Question", "name": "question", "widget": "string"}
               - {"label": "Answer", "name": "answer", "widget": "text"}
 
+
+  - name: "study_abroad_germany"
+    label: "Study Abroad - Germany"
+    delete: false
+    files:
+      - label: "Dentistry (MBBS Abroad)"
+        name: "germany_dentistry"
+        file: "src/data/study_abroad/germany/dentistry.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Nursing (MBBS Abroad)"
+        name: "germany_nursing"
+        file: "src/data/study_abroad/germany/nursing.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Pharmacy (MBBS Abroad)"
+        name: "germany_pharmacy"
+        file: "src/data/study_abroad/germany/pharmacy.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Physiotherapy (MBBS Abroad)"
+        name: "germany_physiotherapy"
+        file: "src/data/study_abroad/germany/physiotherapy.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Public Health (MBBS Abroad)"
+        name: "germany_public_health"
+        file: "src/data/study_abroad/germany/public_health.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Biotechnology (MBBS Abroad)"
+        name: "germany_biotechnology"
+        file: "src/data/study_abroad/germany/biotechnology.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Undergraduate Engineering Hub"
+        name: "germany_ug_hub"
+        file: "src/data/study_abroad/germany/ug_hub.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "UG Computer Engineering"
+        name: "germany_comp_engg_ug"
+        file: "src/data/study_abroad/germany/comp_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "UG Civil Engineering"
+        name: "germany_civil_engg_ug"
+        file: "src/data/study_abroad/germany/civil_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "UG Mechanical Engineering"
+        name: "germany_mech_engg_ug"
+        file: "src/data/study_abroad/germany/mech_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Computer Science"
+        name: "germany_computer_science"
+        file: "src/data/study_abroad/germany/computer_science.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Information Technology"
+        name: "germany_information_technology"
+        file: "src/data/study_abroad/germany/information_technology.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "UG Electrical Engineering"
+        name: "germany_elec_engg_ug"
+        file: "src/data/study_abroad/germany/elec_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "UG Electronics & Communication"
+        name: "germany_ece_engg_ug"
+        file: "src/data/study_abroad/germany/ece_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "UG Chemical Engineering"
+        name: "germany_chem_engg_ug"
+        file: "src/data/study_abroad/germany/chem_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "UG Aerospace Engineering"
+        name: "germany_aero_engg_ug"
+        file: "src/data/study_abroad/germany/aero_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "UG Biomedical Engineering"
+        name: "germany_biomed_engg_ug"
+        file: "src/data/study_abroad/germany/biomed_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "UG Automobile Engineering"
+        name: "germany_auto_engg_ug"
+        file: "src/data/study_abroad/germany/auto_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Postgraduate Engineering Hub"
+        name: "germany_pg_hub"
+        file: "src/data/study_abroad/germany/pg_hub.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "PG Computer Engineering"
+        name: "germany_comp_engg_pg"
+        file: "src/data/study_abroad/germany/comp_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "PG Mechanical Engineering"
+        name: "germany_mech_engg_pg"
+        file: "src/data/study_abroad/germany/mech_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "PG Civil Engineering"
+        name: "germany_civil_engg_pg"
+        file: "src/data/study_abroad/germany/civil_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "PG Electrical Engineering"
+        name: "germany_elec_engg_pg"
+        file: "src/data/study_abroad/germany/elec_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "PG Electronics & Communication"
+        name: "germany_ece_engg_pg"
+        file: "src/data/study_abroad/germany/ece_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "PG Chemical Engineering"
+        name: "germany_chem_engg_pg"
+        file: "src/data/study_abroad/germany/chem_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "PG Aerospace Engineering"
+        name: "germany_aero_engg_pg"
+        file: "src/data/study_abroad/germany/aero_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "PG Biomedical Engineering"
+        name: "germany_biomed_engg_pg"
+        file: "src/data/study_abroad/germany/biomed_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "PG Automobile Engineering"
+        name: "germany_auto_engg_pg"
+        file: "src/data/study_abroad/germany/auto_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Business Management"
+        name: "germany_business_hub"
+        file: "src/data/study_abroad/germany/business_hub.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "MBA"
+        name: "germany_mba"
+        file: "src/data/study_abroad/germany/mba.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Executive MBA"
+        name: "germany_executive_mba"
+        file: "src/data/study_abroad/germany/executive_mba.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "BBA"
+        name: "germany_bba"
+        file: "src/data/study_abroad/germany/bba.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "BBS"
+        name: "germany_bbs"
+        file: "src/data/study_abroad/germany/bbs.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "MBS"
+        name: "germany_mbs"
+        file: "src/data/study_abroad/germany/mbs.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "International Business"
+        name: "germany_international_business"
+        file: "src/data/study_abroad/germany/international_business.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Marketing Management"
+        name: "germany_marketing_management"
+        file: "src/data/study_abroad/germany/marketing_management.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Hospitality Management"
+        name: "germany_hospitality_management"
+        file: "src/data/study_abroad/germany/hospitality_management.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Architecture"
+        name: "germany_architecture"
+        file: "src/data/study_abroad/germany/architecture.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Law"
+        name: "germany_law"
+        file: "src/data/study_abroad/germany/law.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Language Courses"
+        name: "germany_language_courses"
+        file: "src/data/study_abroad/germany/language_courses.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Summer Courses"
+        name: "germany_summer_courses"
+        file: "src/data/study_abroad/germany/summer_courses.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Winter Courses"
+        name: "germany_winter_courses"
+        file: "src/data/study_abroad/germany/winter_courses.json"
+        media_folder: "public/uploads/study_abroad/germany"
+        public_folder: "/uploads/study_abroad/germany"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+

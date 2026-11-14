@@ -237,6 +237,26 @@ const Navbar = () => {
       return `/study-abroad/france/${path}`;
     }
 
+    if (selectedCountry === "Germany") {
+      if (prefix === "/courses/ug") {
+        if (path === "engineering") return "/study-abroad/germany/ug/engineering";
+        return `/study-abroad/germany/ug/${path}`;
+      }
+      if (prefix === "/courses/pg") {
+        if (path === "engineering") return "/study-abroad/germany/pg/engineering";
+        return `/study-abroad/germany/pg/${path}`;
+      }
+      if (path === "dentistry") return "/study-abroad/germany/dentistry";
+      if (path === "nursing") return "/study-abroad/germany/nursing";
+      if (path === "pharmacy") return "/study-abroad/germany/pharmacy";
+      if (path === "physiotherapy") return "/study-abroad/germany/physiotherapy";
+      if (path === "public-health") return "/study-abroad/germany/public-health";
+      if (path === "biotechnology") return "/study-abroad/germany/biotechnology";
+      if (path === "engineering") return "/study-abroad/germany/ug/engineering";
+      return `/study-abroad/germany/${path}`;
+    }
+
+
 
 
     return `${prefix}/${path}?country=${selectedCountry.toLowerCase()}`;
