@@ -1,0 +1,510 @@
+import React from "react";
+import { AbroadCoursePage } from "../../../../component/CoursePageKit.jsx";
+
+// Page layout images
+import heroImg from "../../../../Images/Abroad/France/MarketingManagement/hero.webp";
+import heroBgImg from "../../../../Images/Abroad/France/MarketingManagement/hero_bg.webp";
+import sideImg from "../../../../Images/Abroad/France/MarketingManagement/side.webp";
+import ctaBgImg from "../../../../Images/Abroad/France/MarketingManagement/cta_bg.webp";
+
+// University images
+import uniImg1 from "../../../../Images/Abroad/France/MarketingManagement/HEC_Paris.webp";
+import uniImg2 from "../../../../Images/Abroad/France/MarketingManagement/ESSEC_Business_School.webp";
+import uniImg3 from "../../../../Images/Abroad/France/MarketingManagement/ESCP_Business_School.webp";
+
+const page = {
+  "name": "Marketing Management in France",
+  "country": "France",
+  "slug": "marketing-management",
+  "title": "Study Marketing Management in France for Indian Students | Edu-Hawk Worldwide",
+  "description": "Complete guide to Marketing Management in France for Indian students: Top French universities, admission requirements, tuition fees (€255 – €3,950 / year public), scholarships, and 2-year post-study work visa.",
+  "keywords": "Study Marketing Management in France, Marketing Management in France for Indian Students, Marketing Management Courses in France, Bachelor’s Degree in Marketing Management in France, Master’s in Marketing Management in France, Best Universities for Marketing Management in France, Top Business Schools for Marketing in France, Marketing Management Eligibility Requirements in France, Marketing Management Admission Requirements in France, Cost of Studying Marketing Management in France, Marketing Management Tuition Fees in France, Marketing Management Scholarships in France for Indian Students, Digital Marketing Courses in France",
+  "introTitle": "MARKETING MANAGEMENT IN FRANCE",
+  "heroParas": [
+    "**Studying Marketing Management in France** is a good option for Indian students who want to pursue careers in **brand management, digital marketing, advertising, market research, and international business. In French universities and business schools, you’ll find undergraduate and postgraduate programs that mix marketing theory with practical business skills, consumer insights and digital marketing strategies.",
+    "**Studying Marketing Management in France**  for Indian students can be a great way to gain the knowledge and skills needed to work in both local and global markets, with opportunities for internships, industry projects and international exposure. For students interested in luxury brands, fashion marketing, international marketing and consumer-facing industries, France is especially relevant.",
+    "Students can explore these opportunities and learn about the requirements of studying abroad with **Edu Hawk worldwide study abroad guidance.**",
+    "**"
+  ],
+  "overview": [
+    "**Studying Marketing Management in France** is a good option for Indian students who want to pursue careers in **brand management, digital marketing, advertising, market research, and international business. In French universities and business schools, you’ll find undergraduate and postgraduate programs that mix marketing theory with practical business skills, consumer insights and digital marketing strategies.",
+    "**Studying Marketing Management in France**  for Indian students can be a great way to gain the knowledge and skills needed to work in both local and global markets, with opportunities for internships, industry projects and international exposure. For students interested in luxury brands, fashion marketing, international marketing and consumer-facing industries, France is especially relevant.",
+    "Students can explore these opportunities and learn about the requirements of studying abroad with **Edu Hawk worldwide study abroad guidance.**",
+    "**"
+  ],
+  "level": "Master of Science (MSc) in Marketing Management",
+  "crumb": "Business / Marketing",
+  "stats": [
+    {
+      "label": "Degree Choices",
+      "value": "Master of Science (MSc) in Marketing Management"
+    },
+    {
+      "label": "Course Duration",
+      "value": "3 to 5 Years (Licence / Diplôme d'Ingénieur)"
+    },
+    {
+      "label": "Top Institutions",
+      "value": "HEC Paris, ESSEC Business School"
+    },
+    {
+      "label": "Post-Study Work",
+      "value": "2-Year APS / Autorisation Provisoire de Séjour"
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why",
+      "eyebrow": "Why Study in France",
+      "title": "1. HEC Paris -** HEC Paris is one of the top French business schools offering management education and specialized learning opportunities in **marketing strategy, brand management, business leadership and customer-centric business development**.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "**"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "courses",
+      "eyebrow": "Degrees & Specializations",
+      "title": "2. ESSEC Business School -** Marketing, digital business, luxury brand management and international business are the fields in which ESSEC Business School offers management programs and specialized postgraduate options.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "**"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "unis",
+      "eyebrow": "Top Institutions in France",
+      "title": "3 : Who can do Marketing Management in France?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "For bachelor's applicants a recognized secondary-school qualification is usually required. A recognized bachelor's degree is normally required of master applicants. Admission requirements vary by institution and may include language proficiency, academic performance, interviews, etc.",
+            "4: Is Marketing Management in France available in English for Indian students?",
+            "Yes. A number of French business schools provide business and marketing courses in English. Applicants should verify the teaching language and accept English language tests for their course.",
+            "5: What jobs can I do after studying Marketing Management in France?",
+            "Graduates may find employment in **digital marketing, brand management, market research, advertising, social media, product marketing, customer insights and international marketing**. Relevant professional experience and academic qualifications are usually required for senior positions.",
+            "How Can **Edu Hawk Worldwide Consultancy** Assist Me to Study Marketing Management in France?",
+            "How to choose the best ****Marketing Management course in France****? Compare universities and business schools, check admission requirements, tuition fees and application process."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Academic & Language Criteria",
+      "title": "4. Eligibility criteria for Marketing Management in France**",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "**Eligibility criteria for Marketing Management in France** depend on the level of study, the institution, the program structure and the language of instruction.",
+            "**Requirements for a Bachelor’s Degree**",
+            "For an undergraduate program Indian students applying usually need:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "- Secondary-school qualification or the equivalent (Class 12).",
+            "- Academic transcripts and certificates of completion of high school.",
+            "- Good academic standing.",
+            "- English language skills for courses taught in English.",
+            "- French language knowledge for the courses taught in French.",
+            "- Interview, motivation statement or entrance assessment as required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some institutions may have specific academic subject requirements and/or an additional admissions process.",
+            "**Eligibility for Master's Degree**",
+            "To **study a Master’s in Marketing Management in France**, students typically need to:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "- Recognized Bachelor's degree or equivalent qualification.",
+            "- Academic transcripts and diplomas.",
+            "- English language proficiency for programs taught in English.",
+            "- CV/Resume (updated).",
+            "- A letter of motivation/statement of purpose.",
+            "- Interview or entrance assessment, where appropriate.",
+            "- Relevant academic or professional experience if requested by the program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "**English Requirements**",
+            "For English language marketing programs, institutions may accept language tests, such as:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "- IELTS Academic Training",
+            "- Internet-Based TOEFL (TOEFL iBT)",
+            "- TOEIC",
+            "- Cambridge English Exams",
+            "- Another approved institutional assessment"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Minimum scores, accepted tests, validity periods and exemptions vary by institution. The general score is not valid for all French business schools and applicants should check the current official admission requirements.",
+            "**"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "requirements",
+      "eyebrow": "Application Checklist",
+      "title": "5. Admission to Marketing Management in France**",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Students are expected to follow the official checklist of the program they applied to.",
+            "**Requirements for General Admission**"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "- Filled in online application form",
+            "- School transcripts",
+            "- Bachelor’s degree certificate or class 12 certificate, as per the program",
+            "- Passport or recognized identity document",
+            "- Results of English or French language tests, if applicable",
+            "- CV or resume for postgraduate study",
+            "- Letter of intent or motivation letter",
+            "- Letter of recommendation (when requested)",
+            "- Interview or motivation video if required",
+            "- proof of payment of the application fee"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "**What are business schools looking for?**",
+            "Some French business schools assess candidates with **interviews, written tests, motivation videos or other admissions exercises**.",
+            "For postgraduate candidates, discussion should include a candidate’s interest in marketing, academic projects or work experience, and career goals. Undergraduate applicants should demonstrate academic readiness and an interest in business and marketing.",
+            "**"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "fees",
+      "eyebrow": "Tuition & Cost of Living",
+      "title": "6. Cost of Marketing Management Studies in France**",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "**The cost of studying Marketing Management in France** depends on the institution, the level of the program, the nationality or residence status of the student and if the institution is public or private.",
+            "Licence (Bachelor's Degree) \\| 178 € per year \\| 2,902 € per year",
+            "Postgraduate Degree \\| €255 per year \\| €3,950 per year",
+            "These are the reported enrollment figures for 2026-2027 for national public institutions. Amounts payable may be affected by exemptions, special student categories and institutional policies. Fee structure is not the same for all programmes/institutions.",
+            "**Other Cost of Living in France**",
+            "Apart from tuition fee, the Indian students should plan for:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "- Utilities and accommodation",
+            "- Groceries and food",
+            "- Public transport",
+            "- Medical/health costs",
+            "- Learning materials and software & books",
+            "- Visa or residence related costs, if applicable",
+            "- personal and travel expenses"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "**France Marketing Management Scholarships**",
+            "Indian students interested in **Scholarships for Marketing Management in France** can consider the following funding options:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "* Institutional Merit Scholarships:  Scholarships awarded for academic performance and achievements.",
+            "* Need-based financial aid : Aid provided by the institution to eligible students.",
+            "* Government / International Scholarships:  Scholarships provided by the respective government or international bodies.",
+            "* Early Application or Fee Reduction Offers: Some schools offer fee reductions for early applicants who qualify.",
+            "* Education Loans: Financial assistance from eligible banks and education-finance providers.",
+            "* Family or Employer Sponsorship: Where applicable, financial assistance from personal or employer sponsorship."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "**"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "process",
+      "eyebrow": "Step-by-Step Guide",
+      "title": "7. How to apply for a Marketing Management program in France**",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Usually the process to apply for **Marketing Management in France**  involves the following steps.",
+            "Step 1: Select a Programme",
+            "Choose whether to study for a bachelor’s degree or a master’s degree or related management qualification with a marketing specialism.",
+            "Step 2: Eligibility Check",
+            "Look up academic requirements, language requirements, deadlines for applications, and any admissions tests that you need to take.",
+            "Step 3: Prepare your documents",
+            "Collect transcripts, certificates, identification, language test scores and other required documentation.",
+            "Step 4: Apply",
+            "Apply through the school’s official application portal or the appropriate application platform for your applicant category.",
+            "Step 5: Complete Additional Assessments",
+            "You may have to attend an interview, submit a motivation video or take an entrance test if the institution has one.",
+            "Step 6: See the admission result",
+            "Please review the offer, tuition fee schedule, enrollment conditions and scholarship information.",
+            "Step 7: Make Sure You’re In",
+            "Complete the enrollment formalities and pay any deposit or registration fee required.",
+            "Step 8: Get Ready to Study in France",
+            "Arrange accommodation, funding, travel and any necessary visa/residency processes. Indian applicants should refer to the official French government guidance for the rules relevant to their case.",
+            "**"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "accreditation",
+      "eyebrow": "Degrees & Recognition",
+      "title": "8. Accreditation and Recognition**",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Accreditation and degree recognition are important aspects to consider when choosing a Marketing Management program in France. Students should carefully read the qualification prior to accepting an offer.",
+            "Major recognition factors"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "* Recognition of the Institution: Ensure the institution is officially recognized by the relevant French authorities.",
+            "* Type of Qualification: Determine whether the program results in a national degree or a qualification unique to the school.",
+            "* Grade de Licence: If relevant, check if an undergraduate course includes the French *grade de licence*.",
+            "* Grade de Master:  If applicable, check if a postgraduate program holds the French *grade de master*.",
+            "* RNCP registration: If applicable, verify whether the qualification is listed in the French National Directory of Professional Certifications (RNCP).",
+            "* International Business-School Accreditations: See whether the applicable accreditations matter for the school or the program.",
+            "* Further Study and Employment: Find out if this qualification is the one your prospective employer requires or where you want to study next."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "**What is an International Business-School Accreditation?**",
+            "When comparing French business schools, students may find the following accreditations:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "* - **AACSB:** Association for the Advancement of Collegiate Schools of Business.",
+            "* - **EQUIS:** EFMD European Quality Improvement System.",
+            "* - **AMBA:** Association of Masters of Business Administration."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These accreditations can provide useful information concerning the standards and quality of business schools. But they are **not equivalent to government recognition of a particular academic degree**.",
+            "**"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Job Roles & Industry Growth",
+      "title": "9. Job Opportunities and Salary after Marketing Management in France**",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Graduates of Marketing Management courses in France can work in a variety of sectors including retail, technology, luxury goods, finance, tourism and consumer products.",
+            "Career opportunities depend on the level of qualification, work experience, language ability, internships, technical skills and requirements of employers.",
+            "**Popular Career Paths After Marketing Management**",
+            "Career opportunities for graduates:",
+            "-Marketing Executive",
+            "-Digital Marketing Expert"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "- Executive Brand",
+            "- Social Media Administrator",
+            "- Market Research Analyst",
+            "- MarCom Specialist",
+            "- Search Marketing Specialist or SEO",
+            "- Content Marketing Manager",
+            "- Marketing Specialist, Product",
+            "- CRM/Customer Insights Analyst",
+            "- International Marketing Co-ordinator",
+            "- Brand Manager-",
+            "- Marketing Advisor"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "**Possible fields of employment include:**"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "* Fashion and Luxury:** Product marketing, consumer engagement, and brand strategy.",
+            "* Retail & E-commerce:** Digital campaigns, merchandising and online customer experience.",
+            "* Technology & Digital Services:** Product Marketing, Online Advertising, Customer Acquisition.",
+            "* Consumer Goods:** Branding, marketing research, and product promotion.",
+            "* Advertising and Public Relations:** Campaign management, communications & public relations.",
+            "* Tourism and Hospitality:** Destination marketing, client engagement, and brand marketing.",
+            "* Banking & Financial Services:** Marketing communications & customer relationship management",
+            "* Healthcare and Pharmaceuticals:** Product communication and market development.",
+            "* Automotive and Manufacturing: Market research, product marketing, and brand management.",
+            "* Consulting & Professional Services:** Business Development & Marketing Strategy",
+            "* Marketing management in France : what salary to expect?"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Entry-level jobs usually pay differently than specialist and management positions with experience. Students should compare existing job ads and reputable salary surveys for the specific job and city they are targeting.",
+            "**"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Document Requirements",
+      "title": "10. Documents Required to Study Marketing Management in France**",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The exact list of documents varies by institution and academic level.",
+            "**Documents for Bachelor’s Program Applicants**"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "- Passport or recognized ID",
+            "- Marksheets of class 10 and class 12",
+            "- School leaving certificate of class 12 or equivalent qualification",
+            "- Results of English or French language test, if required",
+            "- Letter of motivation or personal statement",
+            "- Letter of reference (if asked for)",
+            "- CV, if needed",
+            "- Application Fee Verification",
+            "- Photo on request"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "**Documents needed for Master's Applicants**",
+            "-Valid passport or recognized identity document"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "- Bachelor’s Degree Certificate",
+            "- Academic transcripts from the university",
+            "- Results of an English or French language test, if necessary",
+            "- CV or resume updated",
+            "- Letter of intent / statement of purpose",
+            "- Letters of recommendation, if required",
+            "- Evidence of work experience, if asked for",
+            "- Motivational/interview video, if applicable",
+            "- Confirmation of application fee"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "**"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "faqs",
+      "eyebrow": "Frequently Asked Questions",
+      "title": "11. Marketing Management in France FAQs**",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "1: Is France a good place to study Marketing Management?",
+            "France has a wide range of business schools and universities, international learning environments and exposure to industries such as luxury goods, fashion, retail, technology and consumer products. The right choice depends on the quality of the program, recognition, fees, medium of teaching and career objectives.",
+            "2: How long will it take to **study Marketing Management in France?**",
+            "A bachelor’s degree usually takes **three years**. Master’s programs typically take **one or two years** depending on the qualification, the structure of the course and whether internships or additional projects are included."
+          ]
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "1: Is France a good place to study Marketing Management?",
+      "a": "France has a wide range of business schools and universities, international learning environments and exposure to industries such as luxury goods, fashion, retail, technology and consumer products. The right choice depends on the quality of the program, recognition, fees, medium of teaching and career objectives. 2: How long will it take to **study Marketing Management in France?** A bachelor’s degree usually takes **three years**. Master’s programs typically take **one or two years** depending on the qualification, the structure of the course and whether internships or additional projects are included."
+    }
+  ]
+};
+
+export default function MarketingManagementinFrancePage() {
+  const images = {
+    hero: heroImg,
+    heroBg: heroBgImg,
+    side: sideImg,
+    ctaBg: ctaBgImg,
+    universities: [
+    {
+      name: "HEC Paris",
+      img: uniImg1,
+      desc: "Recognized French higher education institution offering accredited curriculum, world-class research facilities, and excellent industry connections."
+    },
+    {
+      name: "ESSEC Business School",
+      img: uniImg2,
+      desc: "Recognized French higher education institution offering accredited curriculum, world-class research facilities, and excellent industry connections."
+    },
+    {
+      name: "ESCP Business School",
+      img: uniImg3,
+      desc: "Recognized French higher education institution offering accredited curriculum, world-class research facilities, and excellent industry connections."
+    }
+    ]
+  };
+
+  return <AbroadCoursePage page={page} images={images} />;
+}

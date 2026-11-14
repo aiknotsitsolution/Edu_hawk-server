@@ -381,6 +381,49 @@ import LawIreland from "./pages/Study Abroad/Ireland/Law/law.jsx";
 import LanguageCoursesIreland from "./pages/Study Abroad/Ireland/LanguageCourses/language-courses.jsx";
 import SummerCoursesIreland from "./pages/Study Abroad/Ireland/SummerCourses/summer-courses.jsx";
 import WinterCoursesIreland from "./pages/Study Abroad/Ireland/WinterCourses/winter-courses.jsx";
+// Study Abroad - France (42 Courses)
+import DentistryAbroadFrance from "./pages/Study Abroad/France/MBBS Abroad/DentistryAbroad.jsx";
+import NursingAbroadFrance from "./pages/Study Abroad/France/MBBS Abroad/NursingAbroad.jsx";
+import PharmacyAbroadFrance from "./pages/Study Abroad/France/MBBS Abroad/PharmacyAbroad.jsx";
+import PhysiotherapyAbroadFrance from "./pages/Study Abroad/France/MBBS Abroad/PhysiotherapyAbroad.jsx";
+import PublicHealthFrance from "./pages/Study Abroad/France/MBBS Abroad/PublicHealth.jsx";
+import BiotechnologyFrance from "./pages/Study Abroad/France/MBBS Abroad/Biotechnology.jsx";
+import UndergraduateEngineeringFrance from "./pages/Study Abroad/France/Engineering/ug/undergraduate.jsx";
+import ComputerEngineeringUGFrance from "./pages/Study Abroad/France/Engineering/ug/pages/ComputerEngineering.jsx";
+import CivilEngineeringUGFrance from "./pages/Study Abroad/France/Engineering/ug/pages/CivilEngineering.jsx";
+import MechanicalEngineeringUGFrance from "./pages/Study Abroad/France/Engineering/ug/pages/MechanicalEngineering.jsx";
+import ComputerScienceFrance from "./pages/Study Abroad/France/ComputerScience/computer-science.jsx";
+import InformationTechnologyFrance from "./pages/Study Abroad/France/InformationTechnology/information-technology.jsx";
+import ElectricalEngineeringUGFrance from "./pages/Study Abroad/France/Engineering/ug/pages/ElectricalEngineering.jsx";
+import ElectronicsCommunicationUGFrance from "./pages/Study Abroad/France/Engineering/ug/pages/ElectronicsCommunication.jsx";
+import ChemicalEngineeringUGFrance from "./pages/Study Abroad/France/Engineering/ug/pages/ChemicalEngineering.jsx";
+import AerospaceEngineeringUGFrance from "./pages/Study Abroad/France/Engineering/ug/pages/AerospaceEngineering.jsx";
+import BiomedicalEngineeringUGFrance from "./pages/Study Abroad/France/Engineering/ug/pages/BiomedicalEngineering.jsx";
+import AutomobileEngineeringUGFrance from "./pages/Study Abroad/France/Engineering/ug/pages/AutomobileEngineering.jsx";
+import PostgraduateEngineeringFrance from "./pages/Study Abroad/France/Engineering/pg/postgraduate.jsx";
+import ComputerEngineeringPGFrance from "./pages/Study Abroad/France/Engineering/pg/pages/ComputerEngineering.jsx";
+import MechanicalEngineeringPGFrance from "./pages/Study Abroad/France/Engineering/pg/pages/MechanicalEngineering.jsx";
+import CivilEngineeringPGFrance from "./pages/Study Abroad/France/Engineering/pg/pages/CivilEngineering.jsx";
+import ElectricalEngineeringPGFrance from "./pages/Study Abroad/France/Engineering/pg/pages/ElectricalEngineering.jsx";
+import ElectronicsCommunicationPGFrance from "./pages/Study Abroad/France/Engineering/pg/pages/ElectronicsCommunication.jsx";
+import ChemicalEngineeringPGFrance from "./pages/Study Abroad/France/Engineering/pg/pages/ChemicalEngineering.jsx";
+import AerospaceEngineeringPGFrance from "./pages/Study Abroad/France/Engineering/pg/pages/AerospaceEngineering.jsx";
+import BiomedicalEngineeringPGFrance from "./pages/Study Abroad/France/Engineering/pg/pages/BiomedicalEngineering.jsx";
+import AutomobileEngineeringPGFrance from "./pages/Study Abroad/France/Engineering/pg/pages/AutomobileEngineering.jsx";
+import BusinessManagementFrance from "./pages/Study Abroad/France/BusinessManagement/business-management.jsx";
+import MBAFrance from "./pages/Study Abroad/France/MBA/mba.jsx";
+import ExecutiveMBAFrance from "./pages/Study Abroad/France/ExecutiveMBA/executive-mba.jsx";
+import BBAFrance from "./pages/Study Abroad/France/BBA/bba.jsx";
+import BBSFrance from "./pages/Study Abroad/France/BBS/bbs.jsx";
+import MBSFrance from "./pages/Study Abroad/France/MBS/mbs.jsx";
+import InternationalBusinessFrance from "./pages/Study Abroad/France/InternationalBusiness/international-business.jsx";
+import MarketingManagementFrance from "./pages/Study Abroad/France/MarketingManagement/marketing-management.jsx";
+import HospitalityManagementFrance from "./pages/Study Abroad/France/HospitalityManagement/hospitality-management.jsx";
+import ArchitectureFrance from "./pages/Study Abroad/France/Architecture/architecture.jsx";
+import LawFrance from "./pages/Study Abroad/France/Law/law.jsx";
+import LanguageCoursesFrance from "./pages/Study Abroad/France/LanguageCourses/language-courses.jsx";
+import SummerCoursesFrance from "./pages/Study Abroad/France/SummerCourses/summer-courses.jsx";
+import WinterCoursesFrance from "./pages/Study Abroad/France/WinterCourses/winter-courses.jsx";
 
 
 
@@ -766,6 +809,49 @@ export async function render(url) {
               <Route path="study-abroad/ireland/language-courses" element={<LanguageCoursesIreland />} />
               <Route path="study-abroad/ireland/summer-courses" element={<SummerCoursesIreland />} />
               <Route path="study-abroad/ireland/winter-courses" element={<WinterCoursesIreland />} />
+        {/* Study Abroad - France (42 Courses) */}
+        <Route path="study-abroad/france/dentistry" element={<DentistryAbroadFrance />} />
+        <Route path="study-abroad/france/nursing" element={<NursingAbroadFrance />} />
+        <Route path="study-abroad/france/pharmacy" element={<PharmacyAbroadFrance />} />
+        <Route path="study-abroad/france/physiotherapy" element={<PhysiotherapyAbroadFrance />} />
+        <Route path="study-abroad/france/public-health" element={<PublicHealthFrance />} />
+        <Route path="study-abroad/france/biotechnology" element={<BiotechnologyFrance />} />
+        <Route path="study-abroad/france/ug/engineering" element={<UndergraduateEngineeringFrance />} />
+        <Route path="study-abroad/france/ug/computer-engineering" element={<ComputerEngineeringUGFrance />} />
+        <Route path="study-abroad/france/ug/civil-engineering" element={<CivilEngineeringUGFrance />} />
+        <Route path="study-abroad/france/ug/mechanical-engineering" element={<MechanicalEngineeringUGFrance />} />
+        <Route path="study-abroad/france/computer-science" element={<ComputerScienceFrance />} />
+        <Route path="study-abroad/france/information-technology" element={<InformationTechnologyFrance />} />
+        <Route path="study-abroad/france/ug/electrical-engineering" element={<ElectricalEngineeringUGFrance />} />
+        <Route path="study-abroad/france/ug/electronics-communication" element={<ElectronicsCommunicationUGFrance />} />
+        <Route path="study-abroad/france/ug/chemical-engineering" element={<ChemicalEngineeringUGFrance />} />
+        <Route path="study-abroad/france/ug/aerospace-engineering" element={<AerospaceEngineeringUGFrance />} />
+        <Route path="study-abroad/france/ug/biomedical-engineering" element={<BiomedicalEngineeringUGFrance />} />
+        <Route path="study-abroad/france/ug/automobile-engineering" element={<AutomobileEngineeringUGFrance />} />
+        <Route path="study-abroad/france/pg/engineering" element={<PostgraduateEngineeringFrance />} />
+        <Route path="study-abroad/france/pg/computer-engineering" element={<ComputerEngineeringPGFrance />} />
+        <Route path="study-abroad/france/pg/mechanical-engineering" element={<MechanicalEngineeringPGFrance />} />
+        <Route path="study-abroad/france/pg/civil-engineering" element={<CivilEngineeringPGFrance />} />
+        <Route path="study-abroad/france/pg/electrical-engineering" element={<ElectricalEngineeringPGFrance />} />
+        <Route path="study-abroad/france/pg/electronics-communication" element={<ElectronicsCommunicationPGFrance />} />
+        <Route path="study-abroad/france/pg/chemical-engineering" element={<ChemicalEngineeringPGFrance />} />
+        <Route path="study-abroad/france/pg/aerospace-engineering" element={<AerospaceEngineeringPGFrance />} />
+        <Route path="study-abroad/france/pg/biomedical-engineering" element={<BiomedicalEngineeringPGFrance />} />
+        <Route path="study-abroad/france/pg/automobile-engineering" element={<AutomobileEngineeringPGFrance />} />
+        <Route path="study-abroad/france/business-management" element={<BusinessManagementFrance />} />
+        <Route path="study-abroad/france/mba" element={<MBAFrance />} />
+        <Route path="study-abroad/france/executive-mba" element={<ExecutiveMBAFrance />} />
+        <Route path="study-abroad/france/bba" element={<BBAFrance />} />
+        <Route path="study-abroad/france/bbs" element={<BBSFrance />} />
+        <Route path="study-abroad/france/mbs" element={<MBSFrance />} />
+        <Route path="study-abroad/france/international-business" element={<InternationalBusinessFrance />} />
+        <Route path="study-abroad/france/marketing-management" element={<MarketingManagementFrance />} />
+        <Route path="study-abroad/france/hospitality-management" element={<HospitalityManagementFrance />} />
+        <Route path="study-abroad/france/architecture" element={<ArchitectureFrance />} />
+        <Route path="study-abroad/france/law" element={<LawFrance />} />
+        <Route path="study-abroad/france/language-courses" element={<LanguageCoursesFrance />} />
+        <Route path="study-abroad/france/summer-courses" element={<SummerCoursesFrance />} />
+        <Route path="study-abroad/france/winter-courses" element={<WinterCoursesFrance />} />
 
               <Route path="terms-conditions" element={<TermsAndConditions />} />
               <Route path="privacy-policy" element={<PrivacyPolicy />} />

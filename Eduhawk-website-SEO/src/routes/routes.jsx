@@ -411,6 +411,50 @@ const LanguageCoursesIreland = lazy(() => import("../pages/Study Abroad/Ireland/
 const SummerCoursesIreland = lazy(() => import("../pages/Study Abroad/Ireland/SummerCourses/summer-courses.jsx"));
 const WinterCoursesIreland = lazy(() => import("../pages/Study Abroad/Ireland/WinterCourses/winter-courses.jsx"));
 
+// Study Abroad - France (42 Courses)
+const DentistryAbroadFrance = lazy(() => import("../pages/Study Abroad/France/MBBS Abroad/DentistryAbroad.jsx"));
+const NursingAbroadFrance = lazy(() => import("../pages/Study Abroad/France/MBBS Abroad/NursingAbroad.jsx"));
+const PharmacyAbroadFrance = lazy(() => import("../pages/Study Abroad/France/MBBS Abroad/PharmacyAbroad.jsx"));
+const PhysiotherapyAbroadFrance = lazy(() => import("../pages/Study Abroad/France/MBBS Abroad/PhysiotherapyAbroad.jsx"));
+const PublicHealthFrance = lazy(() => import("../pages/Study Abroad/France/MBBS Abroad/PublicHealth.jsx"));
+const BiotechnologyFrance = lazy(() => import("../pages/Study Abroad/France/MBBS Abroad/Biotechnology.jsx"));
+const UndergraduateEngineeringFrance = lazy(() => import("../pages/Study Abroad/France/Engineering/ug/undergraduate.jsx"));
+const ComputerEngineeringUGFrance = lazy(() => import("../pages/Study Abroad/France/Engineering/ug/pages/ComputerEngineering.jsx"));
+const CivilEngineeringUGFrance = lazy(() => import("../pages/Study Abroad/France/Engineering/ug/pages/CivilEngineering.jsx"));
+const MechanicalEngineeringUGFrance = lazy(() => import("../pages/Study Abroad/France/Engineering/ug/pages/MechanicalEngineering.jsx"));
+const ComputerScienceFrance = lazy(() => import("../pages/Study Abroad/France/ComputerScience/computer-science.jsx"));
+const InformationTechnologyFrance = lazy(() => import("../pages/Study Abroad/France/InformationTechnology/information-technology.jsx"));
+const ElectricalEngineeringUGFrance = lazy(() => import("../pages/Study Abroad/France/Engineering/ug/pages/ElectricalEngineering.jsx"));
+const ElectronicsCommunicationUGFrance = lazy(() => import("../pages/Study Abroad/France/Engineering/ug/pages/ElectronicsCommunication.jsx"));
+const ChemicalEngineeringUGFrance = lazy(() => import("../pages/Study Abroad/France/Engineering/ug/pages/ChemicalEngineering.jsx"));
+const AerospaceEngineeringUGFrance = lazy(() => import("../pages/Study Abroad/France/Engineering/ug/pages/AerospaceEngineering.jsx"));
+const BiomedicalEngineeringUGFrance = lazy(() => import("../pages/Study Abroad/France/Engineering/ug/pages/BiomedicalEngineering.jsx"));
+const AutomobileEngineeringUGFrance = lazy(() => import("../pages/Study Abroad/France/Engineering/ug/pages/AutomobileEngineering.jsx"));
+const PostgraduateEngineeringFrance = lazy(() => import("../pages/Study Abroad/France/Engineering/pg/postgraduate.jsx"));
+const ComputerEngineeringPGFrance = lazy(() => import("../pages/Study Abroad/France/Engineering/pg/pages/ComputerEngineering.jsx"));
+const MechanicalEngineeringPGFrance = lazy(() => import("../pages/Study Abroad/France/Engineering/pg/pages/MechanicalEngineering.jsx"));
+const CivilEngineeringPGFrance = lazy(() => import("../pages/Study Abroad/France/Engineering/pg/pages/CivilEngineering.jsx"));
+const ElectricalEngineeringPGFrance = lazy(() => import("../pages/Study Abroad/France/Engineering/pg/pages/ElectricalEngineering.jsx"));
+const ElectronicsCommunicationPGFrance = lazy(() => import("../pages/Study Abroad/France/Engineering/pg/pages/ElectronicsCommunication.jsx"));
+const ChemicalEngineeringPGFrance = lazy(() => import("../pages/Study Abroad/France/Engineering/pg/pages/ChemicalEngineering.jsx"));
+const AerospaceEngineeringPGFrance = lazy(() => import("../pages/Study Abroad/France/Engineering/pg/pages/AerospaceEngineering.jsx"));
+const BiomedicalEngineeringPGFrance = lazy(() => import("../pages/Study Abroad/France/Engineering/pg/pages/BiomedicalEngineering.jsx"));
+const AutomobileEngineeringPGFrance = lazy(() => import("../pages/Study Abroad/France/Engineering/pg/pages/AutomobileEngineering.jsx"));
+const BusinessManagementFrance = lazy(() => import("../pages/Study Abroad/France/BusinessManagement/business-management.jsx"));
+const MBAFrance = lazy(() => import("../pages/Study Abroad/France/MBA/mba.jsx"));
+const ExecutiveMBAFrance = lazy(() => import("../pages/Study Abroad/France/ExecutiveMBA/executive-mba.jsx"));
+const BBAFrance = lazy(() => import("../pages/Study Abroad/France/BBA/bba.jsx"));
+const BBSFrance = lazy(() => import("../pages/Study Abroad/France/BBS/bbs.jsx"));
+const MBSFrance = lazy(() => import("../pages/Study Abroad/France/MBS/mbs.jsx"));
+const InternationalBusinessFrance = lazy(() => import("../pages/Study Abroad/France/InternationalBusiness/international-business.jsx"));
+const MarketingManagementFrance = lazy(() => import("../pages/Study Abroad/France/MarketingManagement/marketing-management.jsx"));
+const HospitalityManagementFrance = lazy(() => import("../pages/Study Abroad/France/HospitalityManagement/hospitality-management.jsx"));
+const ArchitectureFrance = lazy(() => import("../pages/Study Abroad/France/Architecture/architecture.jsx"));
+const LawFrance = lazy(() => import("../pages/Study Abroad/France/Law/law.jsx"));
+const LanguageCoursesFrance = lazy(() => import("../pages/Study Abroad/France/LanguageCourses/language-courses.jsx"));
+const SummerCoursesFrance = lazy(() => import("../pages/Study Abroad/France/SummerCourses/summer-courses.jsx"));
+const WinterCoursesFrance = lazy(() => import("../pages/Study Abroad/France/WinterCourses/winter-courses.jsx"));
+
 
 
 export const router = createBrowserRouter([
@@ -2154,6 +2198,176 @@ export const router = createBrowserRouter([
         element: <WinterCoursesIreland />,
       },
 
+      // Study Abroad - France (42 Courses)
+      {
+        path: "study-abroad/france/dentistry",
+        element: <DentistryAbroadFrance />,
+      },
+      {
+        path: "study-abroad/france/nursing",
+        element: <NursingAbroadFrance />,
+      },
+      {
+        path: "study-abroad/france/pharmacy",
+        element: <PharmacyAbroadFrance />,
+      },
+      {
+        path: "study-abroad/france/physiotherapy",
+        element: <PhysiotherapyAbroadFrance />,
+      },
+      {
+        path: "study-abroad/france/public-health",
+        element: <PublicHealthFrance />,
+      },
+      {
+        path: "study-abroad/france/biotechnology",
+        element: <BiotechnologyFrance />,
+      },
+      {
+        path: "study-abroad/france/ug/engineering",
+        element: <UndergraduateEngineeringFrance />,
+      },
+      {
+        path: "study-abroad/france/ug/computer-engineering",
+        element: <ComputerEngineeringUGFrance />,
+      },
+      {
+        path: "study-abroad/france/ug/civil-engineering",
+        element: <CivilEngineeringUGFrance />,
+      },
+      {
+        path: "study-abroad/france/ug/mechanical-engineering",
+        element: <MechanicalEngineeringUGFrance />,
+      },
+      {
+        path: "study-abroad/france/computer-science",
+        element: <ComputerScienceFrance />,
+      },
+      {
+        path: "study-abroad/france/information-technology",
+        element: <InformationTechnologyFrance />,
+      },
+      {
+        path: "study-abroad/france/ug/electrical-engineering",
+        element: <ElectricalEngineeringUGFrance />,
+      },
+      {
+        path: "study-abroad/france/ug/electronics-communication",
+        element: <ElectronicsCommunicationUGFrance />,
+      },
+      {
+        path: "study-abroad/france/ug/chemical-engineering",
+        element: <ChemicalEngineeringUGFrance />,
+      },
+      {
+        path: "study-abroad/france/ug/aerospace-engineering",
+        element: <AerospaceEngineeringUGFrance />,
+      },
+      {
+        path: "study-abroad/france/ug/biomedical-engineering",
+        element: <BiomedicalEngineeringUGFrance />,
+      },
+      {
+        path: "study-abroad/france/ug/automobile-engineering",
+        element: <AutomobileEngineeringUGFrance />,
+      },
+      {
+        path: "study-abroad/france/pg/engineering",
+        element: <PostgraduateEngineeringFrance />,
+      },
+      {
+        path: "study-abroad/france/pg/computer-engineering",
+        element: <ComputerEngineeringPGFrance />,
+      },
+      {
+        path: "study-abroad/france/pg/mechanical-engineering",
+        element: <MechanicalEngineeringPGFrance />,
+      },
+      {
+        path: "study-abroad/france/pg/civil-engineering",
+        element: <CivilEngineeringPGFrance />,
+      },
+      {
+        path: "study-abroad/france/pg/electrical-engineering",
+        element: <ElectricalEngineeringPGFrance />,
+      },
+      {
+        path: "study-abroad/france/pg/electronics-communication",
+        element: <ElectronicsCommunicationPGFrance />,
+      },
+      {
+        path: "study-abroad/france/pg/chemical-engineering",
+        element: <ChemicalEngineeringPGFrance />,
+      },
+      {
+        path: "study-abroad/france/pg/aerospace-engineering",
+        element: <AerospaceEngineeringPGFrance />,
+      },
+      {
+        path: "study-abroad/france/pg/biomedical-engineering",
+        element: <BiomedicalEngineeringPGFrance />,
+      },
+      {
+        path: "study-abroad/france/pg/automobile-engineering",
+        element: <AutomobileEngineeringPGFrance />,
+      },
+      {
+        path: "study-abroad/france/business-management",
+        element: <BusinessManagementFrance />,
+      },
+      {
+        path: "study-abroad/france/mba",
+        element: <MBAFrance />,
+      },
+      {
+        path: "study-abroad/france/executive-mba",
+        element: <ExecutiveMBAFrance />,
+      },
+      {
+        path: "study-abroad/france/bba",
+        element: <BBAFrance />,
+      },
+      {
+        path: "study-abroad/france/bbs",
+        element: <BBSFrance />,
+      },
+      {
+        path: "study-abroad/france/mbs",
+        element: <MBSFrance />,
+      },
+      {
+        path: "study-abroad/france/international-business",
+        element: <InternationalBusinessFrance />,
+      },
+      {
+        path: "study-abroad/france/marketing-management",
+        element: <MarketingManagementFrance />,
+      },
+      {
+        path: "study-abroad/france/hospitality-management",
+        element: <HospitalityManagementFrance />,
+      },
+      {
+        path: "study-abroad/france/architecture",
+        element: <ArchitectureFrance />,
+      },
+      {
+        path: "study-abroad/france/law",
+        element: <LawFrance />,
+      },
+      {
+        path: "study-abroad/france/language-courses",
+        element: <LanguageCoursesFrance />,
+      },
+      {
+        path: "study-abroad/france/summer-courses",
+        element: <SummerCoursesFrance />,
+      },
+      {
+        path: "study-abroad/france/winter-courses",
+        element: <WinterCoursesFrance />,
+      },
+
       {
         path: "terms-conditions",
         element: <TermsAndConditions />,
@@ -2601,6 +2815,50 @@ export const routeList = [
   "/study-abroad/ireland/language-courses",
   "/study-abroad/ireland/summer-courses",
   "/study-abroad/ireland/winter-courses",
+
+  // Study Abroad - France (42 Courses)
+  "/study-abroad/france/dentistry",
+  "/study-abroad/france/nursing",
+  "/study-abroad/france/pharmacy",
+  "/study-abroad/france/physiotherapy",
+  "/study-abroad/france/public-health",
+  "/study-abroad/france/biotechnology",
+  "/study-abroad/france/ug/engineering",
+  "/study-abroad/france/ug/computer-engineering",
+  "/study-abroad/france/ug/civil-engineering",
+  "/study-abroad/france/ug/mechanical-engineering",
+  "/study-abroad/france/computer-science",
+  "/study-abroad/france/information-technology",
+  "/study-abroad/france/ug/electrical-engineering",
+  "/study-abroad/france/ug/electronics-communication",
+  "/study-abroad/france/ug/chemical-engineering",
+  "/study-abroad/france/ug/aerospace-engineering",
+  "/study-abroad/france/ug/biomedical-engineering",
+  "/study-abroad/france/ug/automobile-engineering",
+  "/study-abroad/france/pg/engineering",
+  "/study-abroad/france/pg/computer-engineering",
+  "/study-abroad/france/pg/mechanical-engineering",
+  "/study-abroad/france/pg/civil-engineering",
+  "/study-abroad/france/pg/electrical-engineering",
+  "/study-abroad/france/pg/electronics-communication",
+  "/study-abroad/france/pg/chemical-engineering",
+  "/study-abroad/france/pg/aerospace-engineering",
+  "/study-abroad/france/pg/biomedical-engineering",
+  "/study-abroad/france/pg/automobile-engineering",
+  "/study-abroad/france/business-management",
+  "/study-abroad/france/mba",
+  "/study-abroad/france/executive-mba",
+  "/study-abroad/france/bba",
+  "/study-abroad/france/bbs",
+  "/study-abroad/france/mbs",
+  "/study-abroad/france/international-business",
+  "/study-abroad/france/marketing-management",
+  "/study-abroad/france/hospitality-management",
+  "/study-abroad/france/architecture",
+  "/study-abroad/france/law",
+  "/study-abroad/france/language-courses",
+  "/study-abroad/france/summer-courses",
+  "/study-abroad/france/winter-courses",
 
 
   "/terms-conditions",

@@ -19957,3 +19957,1605 @@ collections:
             fields:
               - {"label": "Question", "name": "q", "widget": "string"}
               - {"label": "Answer", "name": "a", "widget": "text"}
+
+  - name: "study_abroad_france"
+    label: "Study Abroad - France"
+    delete: false
+    files:
+      - label: "Dentistry (MBBS Abroad)"
+        name: "france_dentistry"
+        file: "src/data/study_abroad/france/dentistry.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Nursing (MBBS Abroad)"
+        name: "france_nursing"
+        file: "src/data/study_abroad/france/nursing.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Pharmacy (MBBS Abroad)"
+        name: "france_pharmacy"
+        file: "src/data/study_abroad/france/pharmacy.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Physiotherapy (MBBS Abroad)"
+        name: "france_physiotherapy"
+        file: "src/data/study_abroad/france/physiotherapy.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Public Health (MBBS Abroad)"
+        name: "france_public_health"
+        file: "src/data/study_abroad/france/public_health.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Biotechnology (MBBS Abroad)"
+        name: "france_biotechnology"
+        file: "src/data/study_abroad/france/biotechnology.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Undergraduate Engineering Hub"
+        name: "france_ug_hub"
+        file: "src/data/study_abroad/france/ug_hub.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "UG Computer Engineering"
+        name: "france_comp_engg_ug"
+        file: "src/data/study_abroad/france/comp_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "UG Civil Engineering"
+        name: "france_civil_engg_ug"
+        file: "src/data/study_abroad/france/civil_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "UG Mechanical Engineering"
+        name: "france_mech_engg_ug"
+        file: "src/data/study_abroad/france/mech_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Computer Science"
+        name: "france_computer_science"
+        file: "src/data/study_abroad/france/computer_science.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Information Technology"
+        name: "france_information_technology"
+        file: "src/data/study_abroad/france/information_technology.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "UG Electrical Engineering"
+        name: "france_elec_engg_ug"
+        file: "src/data/study_abroad/france/elec_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "UG Electronics & Communication"
+        name: "france_ece_engg_ug"
+        file: "src/data/study_abroad/france/ece_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "UG Chemical Engineering"
+        name: "france_chem_engg_ug"
+        file: "src/data/study_abroad/france/chem_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "UG Aerospace Engineering"
+        name: "france_aero_engg_ug"
+        file: "src/data/study_abroad/france/aero_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "UG Biomedical Engineering"
+        name: "france_biomed_engg_ug"
+        file: "src/data/study_abroad/france/biomed_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "UG Automobile Engineering"
+        name: "france_auto_engg_ug"
+        file: "src/data/study_abroad/france/auto_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Postgraduate Engineering Hub"
+        name: "france_pg_hub"
+        file: "src/data/study_abroad/france/pg_hub.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "PG Computer Engineering"
+        name: "france_comp_engg_pg"
+        file: "src/data/study_abroad/france/comp_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "PG Mechanical Engineering"
+        name: "france_mech_engg_pg"
+        file: "src/data/study_abroad/france/mech_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "PG Civil Engineering"
+        name: "france_civil_engg_pg"
+        file: "src/data/study_abroad/france/civil_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "PG Electrical Engineering"
+        name: "france_elec_engg_pg"
+        file: "src/data/study_abroad/france/elec_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "PG Electronics & Communication"
+        name: "france_ece_engg_pg"
+        file: "src/data/study_abroad/france/ece_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "PG Chemical Engineering"
+        name: "france_chem_engg_pg"
+        file: "src/data/study_abroad/france/chem_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "PG Aerospace Engineering"
+        name: "france_aero_engg_pg"
+        file: "src/data/study_abroad/france/aero_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "PG Biomedical Engineering"
+        name: "france_biomed_engg_pg"
+        file: "src/data/study_abroad/france/biomed_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "PG Automobile Engineering"
+        name: "france_auto_engg_pg"
+        file: "src/data/study_abroad/france/auto_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Business Management"
+        name: "france_business_hub"
+        file: "src/data/study_abroad/france/business_hub.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "MBA"
+        name: "france_mba"
+        file: "src/data/study_abroad/france/mba.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Executive MBA"
+        name: "france_executive_mba"
+        file: "src/data/study_abroad/france/executive_mba.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "BBA"
+        name: "france_bba"
+        file: "src/data/study_abroad/france/bba.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "BBS"
+        name: "france_bbs"
+        file: "src/data/study_abroad/france/bbs.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "MBS"
+        name: "france_mbs"
+        file: "src/data/study_abroad/france/mbs.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "International Business"
+        name: "france_international_business"
+        file: "src/data/study_abroad/france/international_business.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Marketing Management"
+        name: "france_marketing_management"
+        file: "src/data/study_abroad/france/marketing_management.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Hospitality Management"
+        name: "france_hospitality_management"
+        file: "src/data/study_abroad/france/hospitality_management.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Architecture"
+        name: "france_architecture"
+        file: "src/data/study_abroad/france/architecture.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Law"
+        name: "france_law"
+        file: "src/data/study_abroad/france/law.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Language Courses"
+        name: "france_language_courses"
+        file: "src/data/study_abroad/france/language_courses.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Summer Courses"
+        name: "france_summer_courses"
+        file: "src/data/study_abroad/france/summer_courses.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Winter Courses"
+        name: "france_winter_courses"
+        file: "src/data/study_abroad/france/winter_courses.json"
+        media_folder: "public/uploads/study_abroad/france"
+        public_folder: "/uploads/study_abroad/france"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+

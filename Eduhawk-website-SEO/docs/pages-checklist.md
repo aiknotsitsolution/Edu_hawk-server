@@ -510,77 +510,77 @@
 
 ---
 
-## 9. Study Abroad - France 🇫🇷 (45)
+## 9. Study Abroad - France 🇫🇷 (42 Pages) ✔️
 
 
 ### Healthcare & MBBS Abroad (6)
 | Overall # | Group # | Status | Page Name | Route Path |
 | :---: | :---: | :---: | :--- | :--- |
-| **294** | 01 | [ ] | Dentistry in France | `/study-abroad/france/dentistry` |
-| **295** | 02 | [ ] | Nursing in France | `/study-abroad/france/nursing` |
-| **296** | 03 | [ ] | Pharmacy in France | `/study-abroad/france/pharmacy` |
-| **297** | 04 | [ ] | Physiotherapy in France | `/study-abroad/france/physiotherapy` |
-| **298** | 05 | [ ] | Public Health in France | `/study-abroad/france/public-health` |
-| **299** | 06 | [ ] | Biotechnology in France | `/study-abroad/france/biotechnology` |
+| **294** | 01 | [x] | Dentistry in France | `/study-abroad/france/dentistry` |
+| **295** | 02 | [x] | Nursing in France | `/study-abroad/france/nursing` |
+| **296** | 03 | [x] | Pharmacy in France | `/study-abroad/france/pharmacy` |
+| **297** | 04 | [x] | Physiotherapy in France | `/study-abroad/france/physiotherapy` |
+| **298** | 05 | [x] | Public Health in France | `/study-abroad/france/public-health` |
+| **299** | 06 | [x] | Biotechnology in France | `/study-abroad/france/biotechnology` |
 
 ### Tech & Engineering Hubs (5)
 | Overall # | Group # | Status | Page Name | Route Path |
 | :---: | :---: | :---: | :--- | :--- |
-| **300** | 07 | [ ] | Computer Science in France | `/study-abroad/france/computer-science` |
-| **301** | 08 | [ ] | Information Technology in France | `/study-abroad/france/information-technology` |
-| **302** | 09 | [ ] | Undergraduate Engineering Hub | `/study-abroad/france/ug/engineering` |
-| **303** | 10 | [ ] | Postgraduate Engineering Hub | `/study-abroad/france/pg/engineering` |
-| **304** | 11 | [ ] | General Engineering Overview | `/study-abroad/france/engineering` |
+| **300** | 07 | [x] | Computer Science in France | `/study-abroad/france/computer-science` |
+| **301** | 08 | [x] | Information Technology in France | `/study-abroad/france/information-technology` |
+| **302** | 09 | [x] | Undergraduate Engineering Hub | `/study-abroad/france/ug/engineering` |
+| **303** | 10 | [x] | Postgraduate Engineering Hub | `/study-abroad/france/pg/engineering` |
+| **304** | 11 | [x] | General Engineering Overview | `/study-abroad/france/engineering` |
 
 ### UG Engineering Branches (9)
 | Overall # | Group # | Status | Page Name | Route Path |
 | :---: | :---: | :---: | :--- | :--- |
-| **305** | 12 | [ ] | Computer Engineering - UG | `/study-abroad/france/ug/computer-engineering` |
-| **306** | 13 | [ ] | Mechanical Engineering - UG | `/study-abroad/france/ug/mechanical-engineering` |
-| **307** | 14 | [ ] | Civil Engineering - UG | `/study-abroad/france/ug/civil-engineering` |
-| **308** | 15 | [ ] | Electrical Engineering - UG | `/study-abroad/france/ug/electrical-engineering` |
-| **309** | 16 | [ ] | Electronics & Communication - UG | `/study-abroad/france/ug/electronics-communication` |
-| **310** | 17 | [ ] | Chemical Engineering - UG | `/study-abroad/france/ug/chemical-engineering` |
-| **311** | 18 | [ ] | Aerospace Engineering - UG | `/study-abroad/france/ug/aerospace-engineering` |
-| **312** | 19 | [ ] | Biomedical Engineering - UG | `/study-abroad/france/ug/biomedical-engineering` |
-| **313** | 20 | [ ] | Automobile Engineering - UG | `/study-abroad/france/ug/automobile-engineering` |
+| **305** | 12 | [x] | Computer Engineering - UG | `/study-abroad/france/ug/computer-engineering` |
+| **306** | 13 | [x] | Mechanical Engineering - UG | `/study-abroad/france/ug/mechanical-engineering` |
+| **307** | 14 | [x] | Civil Engineering - UG | `/study-abroad/france/ug/civil-engineering` |
+| **308** | 15 | [x] | Electrical Engineering - UG | `/study-abroad/france/ug/electrical-engineering` |
+| **309** | 16 | [x] | Electronics & Communication - UG | `/study-abroad/france/ug/electronics-communication` |
+| **310** | 17 | [x] | Chemical Engineering - UG | `/study-abroad/france/ug/chemical-engineering` |
+| **311** | 18 | [x] | Aerospace Engineering - UG | `/study-abroad/france/ug/aerospace-engineering` |
+| **312** | 19 | [x] | Biomedical Engineering - UG | `/study-abroad/france/ug/biomedical-engineering` |
+| **313** | 20 | [x] | Automobile Engineering - UG | `/study-abroad/france/ug/automobile-engineering` |
 
 ### PG Engineering Branches (9)
 | Overall # | Group # | Status | Page Name | Route Path |
 | :---: | :---: | :---: | :--- | :--- |
-| **314** | 21 | [ ] | Computer Engineering - PG | `/study-abroad/france/pg/computer-engineering` |
-| **315** | 22 | [ ] | Mechanical Engineering - PG | `/study-abroad/france/pg/mechanical-engineering` |
-| **316** | 23 | [ ] | Civil Engineering - PG | `/study-abroad/france/pg/civil-engineering` |
-| **317** | 24 | [ ] | Electrical Engineering - PG | `/study-abroad/france/pg/electrical-engineering` |
-| **318** | 25 | [ ] | Electronics & Communication - PG | `/study-abroad/france/pg/electronics-communication` |
-| **319** | 26 | [ ] | Chemical Engineering - PG | `/study-abroad/france/pg/chemical-engineering` |
-| **320** | 27 | [ ] | Aerospace Engineering - PG | `/study-abroad/france/pg/aerospace-engineering` |
-| **321** | 28 | [ ] | Biomedical Engineering - PG | `/study-abroad/france/pg/biomedical-engineering` |
-| **322** | 29 | [ ] | Automobile Engineering - PG | `/study-abroad/france/pg/automobile-engineering` |
+| **314** | 21 | [x] | Computer Engineering - PG | `/study-abroad/france/pg/computer-engineering` |
+| **315** | 22 | [x] | Mechanical Engineering - PG | `/study-abroad/france/pg/mechanical-engineering` |
+| **316** | 23 | [x] | Civil Engineering - PG | `/study-abroad/france/pg/civil-engineering` |
+| **317** | 24 | [x] | Electrical Engineering - PG | `/study-abroad/france/pg/electrical-engineering` |
+| **318** | 25 | [x] | Electronics & Communication - PG | `/study-abroad/france/pg/electronics-communication` |
+| **319** | 26 | [x] | Chemical Engineering - PG | `/study-abroad/france/pg/chemical-engineering` |
+| **320** | 27 | [x] | Aerospace Engineering - PG | `/study-abroad/france/pg/aerospace-engineering` |
+| **321** | 28 | [x] | Biomedical Engineering - PG | `/study-abroad/france/pg/biomedical-engineering` |
+| **322** | 29 | [x] | Automobile Engineering - PG | `/study-abroad/france/pg/automobile-engineering` |
 
 ### Business, Management & Law (12)
 | Overall # | Group # | Status | Page Name | Route Path |
 | :---: | :---: | :---: | :--- | :--- |
-| **323** | 30 | [ ] | Business Management in France | `/study-abroad/france/business-management` |
-| **324** | 31 | [ ] | MBA in France | `/study-abroad/france/mba` |
-| **325** | 32 | [ ] | Executive MBA in France | `/study-abroad/france/executive-mba` |
-| **326** | 33 | [ ] | BBA in France | `/study-abroad/france/bba` |
-| **327** | 34 | [ ] | BBS in France | `/study-abroad/france/bbs` |
-| **328** | 35 | [ ] | MBS in France | `/study-abroad/france/mbs` |
-| **329** | 36 | [ ] | International Business in France | `/study-abroad/france/international-business` |
-| **330** | 37 | [ ] | Marketing Management in France | `/study-abroad/france/marketing-management` |
-| **331** | 38 | [ ] | Accounting & Finance in France | `/study-abroad/france/accounting-finance` |
-| **332** | 39 | [ ] | Hospitality Management in France | `/study-abroad/france/hospitality-management` |
-| **333** | 40 | [ ] | Architecture in France | `/study-abroad/france/architecture` |
-| **334** | 41 | [ ] | Law in France | `/study-abroad/france/law` |
+| **323** | 30 | [x] | Business Management in France | `/study-abroad/france/business-management` |
+| **324** | 31 | [x] | MBA in France | `/study-abroad/france/mba` |
+| **325** | 32 | [x] | Executive MBA in France | `/study-abroad/france/executive-mba` |
+| **326** | 33 | [x] | BBA in France | `/study-abroad/france/bba` |
+| **327** | 34 | [x] | BBS in France | `/study-abroad/france/bbs` |
+| **328** | 35 | [x] | MBS in France | `/study-abroad/france/mbs` |
+| **329** | 36 | [x] | International Business in France | `/study-abroad/france/international-business` |
+| **330** | 37 | [x] | Marketing Management in France | `/study-abroad/france/marketing-management` |
+| **331** | 38 | [x] | Accounting & Finance in France | `/study-abroad/france/accounting-finance` |
+| **332** | 39 | [x] | Hospitality Management in France | `/study-abroad/france/hospitality-management` |
+| **333** | 40 | [x] | Architecture in France | `/study-abroad/france/architecture` |
+| **334** | 41 | [x] | Law in France | `/study-abroad/france/law` |
 
 ### Programs & Pathways (4)
 | Overall # | Group # | Status | Page Name | Route Path |
 | :---: | :---: | :---: | :--- | :--- |
-| **335** | 42 | [ ] | Language Courses in France | `/study-abroad/france/language-courses` |
-| **336** | 43 | [ ] | Summer Courses in France | `/study-abroad/france/summer-courses` |
-| **337** | 44 | [ ] | Winter Courses in France | `/study-abroad/france/winter-courses` |
-| **338** | 45 | [ ] | Working Professionals in France | `/study-abroad/france/working-professionals` |
+| **335** | 42 | [x] | Language Courses in France | `/study-abroad/france/language-courses` |
+| **336** | 43 | [x] | Summer Courses in France | `/study-abroad/france/summer-courses` |
+| **337** | 44 | [x] | Winter Courses in France | `/study-abroad/france/winter-courses` |
+| **338** | 45 | [x] | Working Professionals in France | `/study-abroad/france/working-professionals` |
 
 ---
 
@@ -885,7 +885,7 @@
 | **6** | Study Abroad - UK 🇬🇧 | `45` |
 | **7** | Study Abroad - Germany 🇩🇪 | `45` |
 | **8** | Study Abroad - Ireland 🇮🇪 | `45` |
-| **9** | Study Abroad - France 🇫🇷 | `45` |
+| **9** | Study Abroad - France 🇫🇷 | `42` ✔️ |
 | **10** | Study Abroad - Finland 🇫🇮 | `45` |
 | **11** | Study Abroad - Other 🌍 | `45` |
 | **12** | Common Global Programs & Seasonal Hubs | `4` |

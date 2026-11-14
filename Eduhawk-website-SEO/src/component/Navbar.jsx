@@ -218,6 +218,26 @@ const Navbar = () => {
       return `/study-abroad/ireland/${path}`;
     }
 
+    if (selectedCountry === "France") {
+      if (prefix === "/courses/ug") {
+        if (path === "engineering") return "/study-abroad/france/ug/engineering";
+        return `/study-abroad/france/ug/${path}`;
+      }
+      if (prefix === "/courses/pg") {
+        if (path === "engineering") return "/study-abroad/france/pg/engineering";
+        return `/study-abroad/france/pg/${path}`;
+      }
+      if (path === "dentistry") return "/study-abroad/france/dentistry";
+      if (path === "nursing") return "/study-abroad/france/nursing";
+      if (path === "pharmacy") return "/study-abroad/france/pharmacy";
+      if (path === "physiotherapy") return "/study-abroad/france/physiotherapy";
+      if (path === "public-health") return "/study-abroad/france/public-health";
+      if (path === "biotechnology") return "/study-abroad/france/biotechnology";
+      if (path === "engineering") return "/study-abroad/france/ug/engineering";
+      return `/study-abroad/france/${path}`;
+    }
+
+
 
     return `${prefix}/${path}?country=${selectedCountry.toLowerCase()}`;
   };
