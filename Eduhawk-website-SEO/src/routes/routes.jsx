@@ -367,6 +367,19 @@ const LanguageCoursesUK = lazy(() => import("../pages/Study Abroad/UK/LanguageCo
 const SummerCoursesUK = lazy(() => import("../pages/Study Abroad/UK/SummerCourses/summer-courses.jsx"));
 const WinterCoursesUK = lazy(() => import("../pages/Study Abroad/UK/WinterCourses/winter-courses.jsx"));
 
+// Ireland Routes
+const DentistryAbroadIreland = lazy(() => import("../pages/Study Abroad/Ireland/MBBS Abroad/DentistryAbroad.jsx"));
+const NursingAbroadIreland = lazy(() => import("../pages/Study Abroad/Ireland/MBBS Abroad/NursingAbroad.jsx"));
+const PharmacyAbroadIreland = lazy(() => import("../pages/Study Abroad/Ireland/MBBS Abroad/PharmacyAbroad.jsx"));
+const PhysiotherapyAbroadIreland = lazy(() => import("../pages/Study Abroad/Ireland/MBBS Abroad/PhysiotherapyAbroad.jsx"));
+const PublicHealthIreland = lazy(() => import("../pages/Study Abroad/Ireland/MBBS Abroad/PublicHealth.jsx"));
+const BiotechnologyIreland = lazy(() => import("../pages/Study Abroad/Ireland/MBBS Abroad/Biotechnology.jsx"));
+const UndergraduateEngineeringIreland = lazy(() => import("../pages/Study Abroad/Ireland/Engineering/ug/undergraduate.jsx"));
+const ComputerEngineeringUGIreland = lazy(() => import("../pages/Study Abroad/Ireland/Engineering/ug/pages/ComputerEngineering.jsx"));
+const CivilEngineeringUGIreland = lazy(() => import("../pages/Study Abroad/Ireland/Engineering/ug/pages/CivilEngineering.jsx"));
+const MechanicalEngineeringUGIreland = lazy(() => import("../pages/Study Abroad/Ireland/Engineering/ug/pages/MechanicalEngineering.jsx"));
+
+
 
 export const router = createBrowserRouter([
   {
@@ -1938,6 +1951,49 @@ export const router = createBrowserRouter([
         path: "study-abroad/uk/winter-courses",
         element: <WinterCoursesUK />,
       },
+
+      // Ireland Routes
+      {
+        path: "study-abroad/ireland/dentistry",
+        element: <DentistryAbroadIreland />,
+      },
+      {
+        path: "study-abroad/ireland/nursing",
+        element: <NursingAbroadIreland />,
+      },
+      {
+        path: "study-abroad/ireland/pharmacy",
+        element: <PharmacyAbroadIreland />,
+      },
+      {
+        path: "study-abroad/ireland/physiotherapy",
+        element: <PhysiotherapyAbroadIreland />,
+      },
+      {
+        path: "study-abroad/ireland/public-health",
+        element: <PublicHealthIreland />,
+      },
+      {
+        path: "study-abroad/ireland/biotechnology",
+        element: <BiotechnologyIreland />,
+      },
+      {
+        path: "study-abroad/ireland/ug/engineering",
+        element: <UndergraduateEngineeringIreland />,
+      },
+      {
+        path: "study-abroad/ireland/ug/computer-engineering",
+        element: <ComputerEngineeringUGIreland />,
+      },
+      {
+        path: "study-abroad/ireland/ug/civil-engineering",
+        element: <CivilEngineeringUGIreland />,
+      },
+      {
+        path: "study-abroad/ireland/ug/mechanical-engineering",
+        element: <MechanicalEngineeringUGIreland />,
+      },
+
       {
         path: "terms-conditions",
         element: <TermsAndConditions />,
@@ -2342,6 +2398,18 @@ export const routeList = [
   "/study-abroad/uk/language-courses",
   "/study-abroad/uk/summer-courses",
   "/study-abroad/uk/winter-courses",
+// Ireland Routes
+  "/study-abroad/ireland/dentistry",
+  "/study-abroad/ireland/nursing",
+  "/study-abroad/ireland/pharmacy",
+  "/study-abroad/ireland/physiotherapy",
+  "/study-abroad/ireland/public-health",
+  "/study-abroad/ireland/biotechnology",
+  "/study-abroad/ireland/ug/engineering",
+  "/study-abroad/ireland/ug/computer-engineering",
+  "/study-abroad/ireland/ug/civil-engineering",
+  "/study-abroad/ireland/ug/mechanical-engineering",
+
 
   "/terms-conditions",
   "/privacy-policy",

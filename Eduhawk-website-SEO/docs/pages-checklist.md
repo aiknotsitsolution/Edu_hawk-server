@@ -994,3 +994,17 @@
 | **UK41** | 41 | ✔️ | Summer Courses in the UK | `/study-abroad/uk/summer-courses` |
 | **UK42** | 42 | ✔️ | Winter Courses in the UK | `/study-abroad/uk/winter-courses` |
 
+## 14. Ireland (10 Pages)
+
+| ID | Index | Status | Course / Page | Route |
+|---|---|---|---|---|
+| **IRE01** | 1 | ✔️ | Dentistry in Ireland | `/study-abroad/ireland/dentistry` |
+| **IRE02** | 2 | ✔️ | Nursing in Ireland | `/study-abroad/ireland/nursing` |
+| **IRE03** | 3 | ✔️ | Pharmacy in Ireland | `/study-abroad/ireland/pharmacy` |
+| **IRE04** | 4 | ✔️ | Physiotherapy in Ireland | `/study-abroad/ireland/physiotherapy` |
+| **IRE05** | 5 | ✔️ | Public Health in Ireland | `/study-abroad/ireland/public-health` |
+| **IRE06** | 6 | ✔️ | Biotechnology in Ireland | `/study-abroad/ireland/biotechnology` |
+| **IRE07** | 7 | ✔️ | Undergraduate Engineering in Ireland | `/study-abroad/ireland/ug/engineering` |
+| **IRE08** | 8 | ✔️ | BEng Computer Engineering in Ireland | `/study-abroad/ireland/ug/computer-engineering` |
+| **IRE09** | 9 | ✔️ | BEng Civil Engineering in Ireland | `/study-abroad/ireland/ug/civil-engineering` |
+| **IRE10** | 10 | ✔️ | BEng Mechanical Engineering in Ireland | `/study-abroad/ireland/ug/mechanical-engineering` |

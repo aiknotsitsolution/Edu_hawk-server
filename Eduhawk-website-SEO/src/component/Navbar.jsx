@@ -199,6 +199,22 @@ const Navbar = () => {
       return `/study-abroad/uk/${path}`;
     }
 
+    if (selectedCountry === "Ireland") {
+      if (prefix === "/courses/ug") {
+        if (path === "engineering") return "/study-abroad/ireland/ug/engineering";
+        return `/study-abroad/ireland/ug/${path}`;
+      }
+      if (path === "dentistry") return "/study-abroad/ireland/dentistry";
+      if (path === "nursing") return "/study-abroad/ireland/nursing";
+      if (path === "pharmacy") return "/study-abroad/ireland/pharmacy";
+      if (path === "physiotherapy") return "/study-abroad/ireland/physiotherapy";
+      if (path === "public-health") return "/study-abroad/ireland/public-health";
+      if (path === "biotechnology") return "/study-abroad/ireland/biotechnology";
+      if (path === "engineering") return "/study-abroad/ireland/ug/engineering";
+      return `/study-abroad/ireland/${path}`;
+    }
+
+
     return `${prefix}/${path}?country=${selectedCountry.toLowerCase()}`;
   };
 

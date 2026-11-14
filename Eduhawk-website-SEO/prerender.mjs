@@ -372,6 +372,18 @@ const routes = [
   "/study-abroad/uk/language-courses",
   "/study-abroad/uk/summer-courses",
   "/study-abroad/uk/winter-courses",
+  // Ireland Routes
+  "/study-abroad/ireland/dentistry",
+  "/study-abroad/ireland/nursing",
+  "/study-abroad/ireland/pharmacy",
+  "/study-abroad/ireland/physiotherapy",
+  "/study-abroad/ireland/public-health",
+  "/study-abroad/ireland/biotechnology",
+  "/study-abroad/ireland/ug/engineering",
+  "/study-abroad/ireland/ug/computer-engineering",
+  "/study-abroad/ireland/ug/civil-engineering",
+  "/study-abroad/ireland/ug/mechanical-engineering",
+
 
   "/terms-conditions",
   "/privacy-policy",

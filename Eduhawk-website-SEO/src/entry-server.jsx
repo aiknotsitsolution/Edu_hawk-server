@@ -338,6 +338,18 @@ import LawUK from "./pages/Study Abroad/UK/Law/law.jsx";
 import LanguageCoursesUK from "./pages/Study Abroad/UK/LanguageCourses/language-courses.jsx";
 import SummerCoursesUK from "./pages/Study Abroad/UK/SummerCourses/summer-courses.jsx";
 import WinterCoursesUK from "./pages/Study Abroad/UK/WinterCourses/winter-courses.jsx";
+// Ireland Routes
+import DentistryAbroadIreland from "./pages/Study Abroad/Ireland/MBBS Abroad/DentistryAbroad.jsx";
+import NursingAbroadIreland from "./pages/Study Abroad/Ireland/MBBS Abroad/NursingAbroad.jsx";
+import PharmacyAbroadIreland from "./pages/Study Abroad/Ireland/MBBS Abroad/PharmacyAbroad.jsx";
+import PhysiotherapyAbroadIreland from "./pages/Study Abroad/Ireland/MBBS Abroad/PhysiotherapyAbroad.jsx";
+import PublicHealthIreland from "./pages/Study Abroad/Ireland/MBBS Abroad/PublicHealth.jsx";
+import BiotechnologyIreland from "./pages/Study Abroad/Ireland/MBBS Abroad/Biotechnology.jsx";
+import UndergraduateEngineeringIreland from "./pages/Study Abroad/Ireland/Engineering/ug/undergraduate.jsx";
+import ComputerEngineeringUGIreland from "./pages/Study Abroad/Ireland/Engineering/ug/pages/ComputerEngineering.jsx";
+import CivilEngineeringUGIreland from "./pages/Study Abroad/Ireland/Engineering/ug/pages/CivilEngineering.jsx";
+import MechanicalEngineeringUGIreland from "./pages/Study Abroad/Ireland/Engineering/ug/pages/MechanicalEngineering.jsx";
+
 
 
 export async function render(url) {
@@ -678,6 +690,19 @@ export async function render(url) {
               <Route path="study-abroad/uk/language-courses" element={<LanguageCoursesUK />} />
               <Route path="study-abroad/uk/summer-courses" element={<SummerCoursesUK />} />
               <Route path="study-abroad/uk/winter-courses" element={<WinterCoursesUK />} />
+
+              {/* Ireland Routes */}
+              <Route path="study-abroad/ireland/dentistry" element={<DentistryAbroadIreland />} />
+              <Route path="study-abroad/ireland/nursing" element={<NursingAbroadIreland />} />
+              <Route path="study-abroad/ireland/pharmacy" element={<PharmacyAbroadIreland />} />
+              <Route path="study-abroad/ireland/physiotherapy" element={<PhysiotherapyAbroadIreland />} />
+              <Route path="study-abroad/ireland/public-health" element={<PublicHealthIreland />} />
+              <Route path="study-abroad/ireland/biotechnology" element={<BiotechnologyIreland />} />
+              <Route path="study-abroad/ireland/ug/engineering" element={<UndergraduateEngineeringIreland />} />
+              <Route path="study-abroad/ireland/ug/computer-engineering" element={<ComputerEngineeringUGIreland />} />
+              <Route path="study-abroad/ireland/ug/civil-engineering" element={<CivilEngineeringUGIreland />} />
+              <Route path="study-abroad/ireland/ug/mechanical-engineering" element={<MechanicalEngineeringUGIreland />} />
+
               <Route path="terms-conditions" element={<TermsAndConditions />} />
               <Route path="privacy-policy" element={<PrivacyPolicy />} />
               <Route path="cookies-policy" element={<CookiesPolicy />} />

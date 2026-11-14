@@ -372,6 +372,18 @@ const routes = [
   "/study-abroad/uk/language-courses",
   "/study-abroad/uk/summer-courses",
   "/study-abroad/uk/winter-courses",
+  // Ireland Routes
+  "/study-abroad/ireland/dentistry",
+  "/study-abroad/ireland/nursing",
+  "/study-abroad/ireland/pharmacy",
+  "/study-abroad/ireland/physiotherapy",
+  "/study-abroad/ireland/public-health",
+  "/study-abroad/ireland/biotechnology",
+  "/study-abroad/ireland/ug/engineering",
+  "/study-abroad/ireland/ug/computer-engineering",
+  "/study-abroad/ireland/ug/civil-engineering",
+  "/study-abroad/ireland/ug/mechanical-engineering",
+
 
   "/terms-conditions",
   "/privacy-policy",
@@ -694,6 +706,18 @@ const routeComponentMap = {
   "/study-abroad/uk/language-courses": "src/pages/Study Abroad/UK/LanguageCourses/language-courses.jsx",
   "/study-abroad/uk/summer-courses": "src/pages/Study Abroad/UK/SummerCourses/summer-courses.jsx",
   "/study-abroad/uk/winter-courses": "src/pages/Study Abroad/UK/WinterCourses/winter-courses.jsx",
+  // Ireland Mappings
+  "/study-abroad/ireland/dentistry": "src/pages/Study Abroad/Ireland/MBBS Abroad/DentistryAbroad.jsx",
+  "/study-abroad/ireland/nursing": "src/pages/Study Abroad/Ireland/MBBS Abroad/NursingAbroad.jsx",
+  "/study-abroad/ireland/pharmacy": "src/pages/Study Abroad/Ireland/MBBS Abroad/PharmacyAbroad.jsx",
+  "/study-abroad/ireland/physiotherapy": "src/pages/Study Abroad/Ireland/MBBS Abroad/PhysiotherapyAbroad.jsx",
+  "/study-abroad/ireland/public-health": "src/pages/Study Abroad/Ireland/MBBS Abroad/PublicHealth.jsx",
+  "/study-abroad/ireland/biotechnology": "src/pages/Study Abroad/Ireland/MBBS Abroad/Biotechnology.jsx",
+  "/study-abroad/ireland/ug/engineering": "src/pages/Study Abroad/Ireland/Engineering/ug/undergraduate.jsx",
+  "/study-abroad/ireland/ug/computer-engineering": "src/pages/Study Abroad/Ireland/Engineering/ug/pages/ComputerEngineering.jsx",
+  "/study-abroad/ireland/ug/civil-engineering": "src/pages/Study Abroad/Ireland/Engineering/ug/pages/CivilEngineering.jsx",
+  "/study-abroad/ireland/ug/mechanical-engineering": "src/pages/Study Abroad/Ireland/Engineering/ug/pages/MechanicalEngineering.jsx",
+
 
   "/courses/dentistry": "src/pages/Study Abroad/USA/MBBS Abroad/DentistryAbroad.jsx",
   "/courses/nursing": "src/pages/Study Abroad/USA/MBBS Abroad/NursingAbroad.jsx",
@@ -794,5 +818,18 @@ ${routes
   .join("")}
 </urlset>`;
 
-fs.writeFileSync(path.join(__dirname, "public", "sitemap.xml"), sitemap);
+function safeWrite(dest, data) {
+  for (let i = 0; i < 15; i++) {
+    try {
+      try { if (fs.existsSync(dest)) fs.unlinkSync(dest); } catch (_) {}
+      fs.writeFileSync(dest, data, "utf8");
+      return;
+    } catch (err) {
+      if (i === 14) throw err;
+      const t = Date.now();
+      while (Date.now() - t < 200) {}
+    }
+  }
+}
+safeWrite(path.join(__dirname, "public", "sitemap.xml"), sitemap);
 console.log("✅ sitemap.xml generated with verified component lastmod!");
