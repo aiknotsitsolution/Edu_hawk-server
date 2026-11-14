@@ -323,6 +323,51 @@ const LanguageCoursesSpain = lazy(() => import("../pages/Study Abroad/Spain/Lang
 const SummerCoursesSpain = lazy(() => import("../pages/Study Abroad/Spain/SummerCourses/summer-courses.jsx"));
 const WinterCoursesSpain = lazy(() => import("../pages/Study Abroad/Spain/WinterCourses/winter-courses.jsx"));
 
+// UK Routes
+const DentistryAbroadUK = lazy(() => import("../pages/Study Abroad/UK/MBBS Abroad/DentistryAbroad.jsx"));
+const NursingAbroadUK = lazy(() => import("../pages/Study Abroad/UK/MBBS Abroad/NursingAbroad.jsx"));
+const PharmacyAbroadUK = lazy(() => import("../pages/Study Abroad/UK/MBBS Abroad/PharmacyAbroad.jsx"));
+const PhysiotherapyAbroadUK = lazy(() => import("../pages/Study Abroad/UK/MBBS Abroad/PhysiotherapyAbroad.jsx"));
+const PublicHealthUK = lazy(() => import("../pages/Study Abroad/UK/MBBS Abroad/PublicHealth.jsx"));
+const BiotechnologyUK = lazy(() => import("../pages/Study Abroad/UK/MBBS Abroad/Biotechnology.jsx"));
+const ComputerScienceUK = lazy(() => import("../pages/Study Abroad/UK/ComputerScience/computer-science.jsx"));
+const InformationTechnologyUK = lazy(() => import("../pages/Study Abroad/UK/InformationTechnology/information-technology.jsx"));
+const UndergraduateEngineeringUK = lazy(() => import("../pages/Study Abroad/UK/Engineering/ug/undergraduate.jsx"));
+const ComputerEngineeringUGUK = lazy(() => import("../pages/Study Abroad/UK/Engineering/ug/pages/ComputerEngineering.jsx"));
+const MechanicalEngineeringUGUK = lazy(() => import("../pages/Study Abroad/UK/Engineering/ug/pages/MechanicalEngineering.jsx"));
+const CivilEngineeringUGUK = lazy(() => import("../pages/Study Abroad/UK/Engineering/ug/pages/CivilEngineering.jsx"));
+const ElectricalEngineeringUGUK = lazy(() => import("../pages/Study Abroad/UK/Engineering/ug/pages/ElectricalEngineering.jsx"));
+const ElectronicsCommunicationUGUK = lazy(() => import("../pages/Study Abroad/UK/Engineering/ug/pages/ElectronicsCommunication.jsx"));
+const ChemicalEngineeringUGUK = lazy(() => import("../pages/Study Abroad/UK/Engineering/ug/pages/ChemicalEngineering.jsx"));
+const AerospaceEngineeringUGUK = lazy(() => import("../pages/Study Abroad/UK/Engineering/ug/pages/AerospaceEngineering.jsx"));
+const BiomedicalEngineeringUGUK = lazy(() => import("../pages/Study Abroad/UK/Engineering/ug/pages/BiomedicalEngineering.jsx"));
+const AutomobileEngineeringUGUK = lazy(() => import("../pages/Study Abroad/UK/Engineering/ug/pages/AutomobileEngineering.jsx"));
+const PostgraduateEngineeringUK = lazy(() => import("../pages/Study Abroad/UK/Engineering/pg/postgraduate.jsx"));
+const ComputerEngineeringPGUK = lazy(() => import("../pages/Study Abroad/UK/Engineering/pg/pages/ComputerEngineering.jsx"));
+const MechanicalEngineeringPGUK = lazy(() => import("../pages/Study Abroad/UK/Engineering/pg/pages/MechanicalEngineering.jsx"));
+const CivilEngineeringPGUK = lazy(() => import("../pages/Study Abroad/UK/Engineering/pg/pages/CivilEngineering.jsx"));
+const ElectricalEngineeringPGUK = lazy(() => import("../pages/Study Abroad/UK/Engineering/pg/pages/ElectricalEngineering.jsx"));
+const ElectronicsCommunicationPGUK = lazy(() => import("../pages/Study Abroad/UK/Engineering/pg/pages/ElectronicsCommunication.jsx"));
+const ChemicalEngineeringPGUK = lazy(() => import("../pages/Study Abroad/UK/Engineering/pg/pages/ChemicalEngineering.jsx"));
+const AerospaceEngineeringPGUK = lazy(() => import("../pages/Study Abroad/UK/Engineering/pg/pages/AerospaceEngineering.jsx"));
+const BiomedicalEngineeringPGUK = lazy(() => import("../pages/Study Abroad/UK/Engineering/pg/pages/BiomedicalEngineering.jsx"));
+const AutomobileEngineeringPGUK = lazy(() => import("../pages/Study Abroad/UK/Engineering/pg/pages/AutomobileEngineering.jsx"));
+const BusinessManagementUK = lazy(() => import("../pages/Study Abroad/UK/BusinessManagement/business-management.jsx"));
+const MBAUK = lazy(() => import("../pages/Study Abroad/UK/MBA/mba.jsx"));
+const ExecutiveMBAUK = lazy(() => import("../pages/Study Abroad/UK/ExecutiveMBA/executive-mba.jsx"));
+const BBAUK = lazy(() => import("../pages/Study Abroad/UK/BBA/bba.jsx"));
+const BBSUK = lazy(() => import("../pages/Study Abroad/UK/BBS/bbs.jsx"));
+const MBSUK = lazy(() => import("../pages/Study Abroad/UK/MBS/mbs.jsx"));
+const InternationalBusinessUK = lazy(() => import("../pages/Study Abroad/UK/InternationalBusiness/international-business.jsx"));
+const MarketingManagementUK = lazy(() => import("../pages/Study Abroad/UK/MarketingManagement/marketing-management.jsx"));
+const HospitalityManagementUK = lazy(() => import("../pages/Study Abroad/UK/HospitalityManagement/hospitality-management.jsx"));
+const ArchitectureUK = lazy(() => import("../pages/Study Abroad/UK/Architecture/architecture.jsx"));
+const LawUK = lazy(() => import("../pages/Study Abroad/UK/Law/law.jsx"));
+const LanguageCoursesUK = lazy(() => import("../pages/Study Abroad/UK/LanguageCourses/language-courses.jsx"));
+const SummerCoursesUK = lazy(() => import("../pages/Study Abroad/UK/SummerCourses/summer-courses.jsx"));
+const WinterCoursesUK = lazy(() => import("../pages/Study Abroad/UK/WinterCourses/winter-courses.jsx"));
+
+
 export const router = createBrowserRouter([
   {
     path: "landingpage",
@@ -1387,6 +1432,512 @@ export const router = createBrowserRouter([
         path: "study-abroad/italy/winter-courses",
         element: <WinterCoursesItaly />,
       },
+
+      // Canada Routes
+      {
+        path: "study-abroad/canada/dentistry",
+        element: <DentistryAbroadCanada />,
+      },
+      {
+        path: "study-abroad/canada/nursing",
+        element: <NursingAbroadCanada />,
+      },
+      {
+        path: "study-abroad/canada/pharmacy",
+        element: <PharmacyAbroadCanada />,
+      },
+      {
+        path: "study-abroad/canada/physiotherapy",
+        element: <PhysiotherapyAbroadCanada />,
+      },
+      {
+        path: "study-abroad/canada/public-health",
+        element: <PublicHealthCanada />,
+      },
+      {
+        path: "study-abroad/canada/biotechnology",
+        element: <BiotechnologyCanada />,
+      },
+      {
+        path: "study-abroad/canada/computer-science",
+        element: <ComputerScienceCanada />,
+      },
+      {
+        path: "study-abroad/canada/information-technology",
+        element: <InformationTechnologyCanada />,
+      },
+      {
+        path: "study-abroad/canada/ug/engineering",
+        element: <UndergraduateEngineeringCanada />,
+      },
+      {
+        path: "study-abroad/canada/ug/computer-engineering",
+        element: <ComputerEngineeringUGCanada />,
+      },
+      {
+        path: "study-abroad/canada/ug/mechanical-engineering",
+        element: <MechanicalEngineeringUGCanada />,
+      },
+      {
+        path: "study-abroad/canada/ug/civil-engineering",
+        element: <CivilEngineeringUGCanada />,
+      },
+      {
+        path: "study-abroad/canada/ug/electrical-engineering",
+        element: <ElectricalEngineeringUGCanada />,
+      },
+      {
+        path: "study-abroad/canada/ug/electronics-communication",
+        element: <ElectronicsCommunicationUGCanada />,
+      },
+      {
+        path: "study-abroad/canada/ug/chemical-engineering",
+        element: <ChemicalEngineeringUGCanada />,
+      },
+      {
+        path: "study-abroad/canada/ug/aerospace-engineering",
+        element: <AerospaceEngineeringUGCanada />,
+      },
+      {
+        path: "study-abroad/canada/ug/biomedical-engineering",
+        element: <BiomedicalEngineeringUGCanada />,
+      },
+      {
+        path: "study-abroad/canada/ug/automobile-engineering",
+        element: <AutomobileEngineeringUGCanada />,
+      },
+      {
+        path: "study-abroad/canada/pg/engineering",
+        element: <PostgraduateEngineeringCanada />,
+      },
+      {
+        path: "study-abroad/canada/pg/computer-engineering",
+        element: <ComputerEngineeringPGCanada />,
+      },
+      {
+        path: "study-abroad/canada/pg/mechanical-engineering",
+        element: <MechanicalEngineeringPGCanada />,
+      },
+      {
+        path: "study-abroad/canada/pg/civil-engineering",
+        element: <CivilEngineeringPGCanada />,
+      },
+      {
+        path: "study-abroad/canada/pg/electrical-engineering",
+        element: <ElectricalEngineeringPGCanada />,
+      },
+      {
+        path: "study-abroad/canada/pg/electronics-communication",
+        element: <ElectronicsCommunicationPGCanada />,
+      },
+      {
+        path: "study-abroad/canada/pg/chemical-engineering",
+        element: <ChemicalEngineeringPGCanada />,
+      },
+      {
+        path: "study-abroad/canada/pg/aerospace-engineering",
+        element: <AerospaceEngineeringPGCanada />,
+      },
+      {
+        path: "study-abroad/canada/pg/biomedical-engineering",
+        element: <BiomedicalEngineeringPGCanada />,
+      },
+      {
+        path: "study-abroad/canada/pg/automobile-engineering",
+        element: <AutomobileEngineeringPGCanada />,
+      },
+      {
+        path: "study-abroad/canada/business-management",
+        element: <BusinessManagementCanada />,
+      },
+      {
+        path: "study-abroad/canada/mba",
+        element: <MBACanada />,
+      },
+      {
+        path: "study-abroad/canada/executive-mba",
+        element: <ExecutiveMBACanada />,
+      },
+      {
+        path: "study-abroad/canada/bba",
+        element: <BBACanada />,
+      },
+      {
+        path: "study-abroad/canada/bbs",
+        element: <BBSCanada />,
+      },
+      {
+        path: "study-abroad/canada/mbs",
+        element: <MBSCanada />,
+      },
+      {
+        path: "study-abroad/canada/international-business",
+        element: <InternationalBusinessCanada />,
+      },
+      {
+        path: "study-abroad/canada/marketing-management",
+        element: <MarketingManagementCanada />,
+      },
+      {
+        path: "study-abroad/canada/hospitality-management",
+        element: <HospitalityManagementCanada />,
+      },
+      {
+        path: "study-abroad/canada/architecture",
+        element: <ArchitectureCanada />,
+      },
+      {
+        path: "study-abroad/canada/law",
+        element: <LawCanada />,
+      },
+      {
+        path: "study-abroad/canada/language-courses",
+        element: <LanguageCoursesCanada />,
+      },
+      {
+        path: "study-abroad/canada/summer-courses",
+        element: <SummerCoursesCanada />,
+      },
+      {
+        path: "study-abroad/canada/winter-courses",
+        element: <WinterCoursesCanada />,
+      },
+
+      // Spain Routes
+      {
+        path: "study-abroad/spain/dentistry",
+        element: <DentistryAbroadSpain />,
+      },
+      {
+        path: "study-abroad/spain/nursing",
+        element: <NursingAbroadSpain />,
+      },
+      {
+        path: "study-abroad/spain/pharmacy",
+        element: <PharmacyAbroadSpain />,
+      },
+      {
+        path: "study-abroad/spain/physiotherapy",
+        element: <PhysiotherapyAbroadSpain />,
+      },
+      {
+        path: "study-abroad/spain/public-health",
+        element: <PublicHealthSpain />,
+      },
+      {
+        path: "study-abroad/spain/biotechnology",
+        element: <BiotechnologySpain />,
+      },
+      {
+        path: "study-abroad/spain/computer-science",
+        element: <ComputerScienceSpain />,
+      },
+      {
+        path: "study-abroad/spain/information-technology",
+        element: <InformationTechnologySpain />,
+      },
+      {
+        path: "study-abroad/spain/ug/engineering",
+        element: <UndergraduateEngineeringSpain />,
+      },
+      {
+        path: "study-abroad/spain/ug/computer-engineering",
+        element: <ComputerEngineeringUGSpain />,
+      },
+      {
+        path: "study-abroad/spain/ug/mechanical-engineering",
+        element: <MechanicalEngineeringUGSpain />,
+      },
+      {
+        path: "study-abroad/spain/ug/civil-engineering",
+        element: <CivilEngineeringUGSpain />,
+      },
+      {
+        path: "study-abroad/spain/ug/electrical-engineering",
+        element: <ElectricalEngineeringUGSpain />,
+      },
+      {
+        path: "study-abroad/spain/ug/electronics-communication",
+        element: <ElectronicsCommunicationUGSpain />,
+      },
+      {
+        path: "study-abroad/spain/ug/chemical-engineering",
+        element: <ChemicalEngineeringUGSpain />,
+      },
+      {
+        path: "study-abroad/spain/ug/aerospace-engineering",
+        element: <AerospaceEngineeringUGSpain />,
+      },
+      {
+        path: "study-abroad/spain/ug/biomedical-engineering",
+        element: <BiomedicalEngineeringUGSpain />,
+      },
+      {
+        path: "study-abroad/spain/ug/automobile-engineering",
+        element: <AutomobileEngineeringUGSpain />,
+      },
+      {
+        path: "study-abroad/spain/pg/engineering",
+        element: <PostgraduateEngineeringSpain />,
+      },
+      {
+        path: "study-abroad/spain/pg/computer-engineering",
+        element: <ComputerEngineeringPGSpain />,
+      },
+      {
+        path: "study-abroad/spain/pg/mechanical-engineering",
+        element: <MechanicalEngineeringPGSpain />,
+      },
+      {
+        path: "study-abroad/spain/pg/civil-engineering",
+        element: <CivilEngineeringPGSpain />,
+      },
+      {
+        path: "study-abroad/spain/pg/electrical-engineering",
+        element: <ElectricalEngineeringPGSpain />,
+      },
+      {
+        path: "study-abroad/spain/pg/electronics-communication",
+        element: <ElectronicsCommunicationPGSpain />,
+      },
+      {
+        path: "study-abroad/spain/pg/chemical-engineering",
+        element: <ChemicalEngineeringPGSpain />,
+      },
+      {
+        path: "study-abroad/spain/pg/aerospace-engineering",
+        element: <AerospaceEngineeringPGSpain />,
+      },
+      {
+        path: "study-abroad/spain/pg/biomedical-engineering",
+        element: <BiomedicalEngineeringPGSpain />,
+      },
+      {
+        path: "study-abroad/spain/pg/automobile-engineering",
+        element: <AutomobileEngineeringPGSpain />,
+      },
+      {
+        path: "study-abroad/spain/business-management",
+        element: <BusinessManagementSpain />,
+      },
+      {
+        path: "study-abroad/spain/mba",
+        element: <MBASpain />,
+      },
+      {
+        path: "study-abroad/spain/executive-mba",
+        element: <ExecutiveMBASpain />,
+      },
+      {
+        path: "study-abroad/spain/bba",
+        element: <BBASpain />,
+      },
+      {
+        path: "study-abroad/spain/bbs",
+        element: <BBSSpain />,
+      },
+      {
+        path: "study-abroad/spain/mbs",
+        element: <MBSSpain />,
+      },
+      {
+        path: "study-abroad/spain/international-business",
+        element: <InternationalBusinessSpain />,
+      },
+      {
+        path: "study-abroad/spain/hospitality-management",
+        element: <HospitalityManagementSpain />,
+      },
+      {
+        path: "study-abroad/spain/architecture",
+        element: <ArchitectureSpain />,
+      },
+      {
+        path: "study-abroad/spain/law",
+        element: <LawSpain />,
+      },
+      {
+        path: "study-abroad/spain/language-courses",
+        element: <LanguageCoursesSpain />,
+      },
+      {
+        path: "study-abroad/spain/summer-courses",
+        element: <SummerCoursesSpain />,
+      },
+      {
+        path: "study-abroad/spain/winter-courses",
+        element: <WinterCoursesSpain />,
+      },
+
+      // UK Routes
+      {
+        path: "study-abroad/uk/dentistry",
+        element: <DentistryAbroadUK />,
+      },
+      {
+        path: "study-abroad/uk/nursing",
+        element: <NursingAbroadUK />,
+      },
+      {
+        path: "study-abroad/uk/pharmacy",
+        element: <PharmacyAbroadUK />,
+      },
+      {
+        path: "study-abroad/uk/physiotherapy",
+        element: <PhysiotherapyAbroadUK />,
+      },
+      {
+        path: "study-abroad/uk/public-health",
+        element: <PublicHealthUK />,
+      },
+      {
+        path: "study-abroad/uk/biotechnology",
+        element: <BiotechnologyUK />,
+      },
+      {
+        path: "study-abroad/uk/computer-science",
+        element: <ComputerScienceUK />,
+      },
+      {
+        path: "study-abroad/uk/information-technology",
+        element: <InformationTechnologyUK />,
+      },
+      {
+        path: "study-abroad/uk/ug/engineering",
+        element: <UndergraduateEngineeringUK />,
+      },
+      {
+        path: "study-abroad/uk/ug/computer-engineering",
+        element: <ComputerEngineeringUGUK />,
+      },
+      {
+        path: "study-abroad/uk/ug/mechanical-engineering",
+        element: <MechanicalEngineeringUGUK />,
+      },
+      {
+        path: "study-abroad/uk/ug/civil-engineering",
+        element: <CivilEngineeringUGUK />,
+      },
+      {
+        path: "study-abroad/uk/ug/electrical-engineering",
+        element: <ElectricalEngineeringUGUK />,
+      },
+      {
+        path: "study-abroad/uk/ug/electronics-communication",
+        element: <ElectronicsCommunicationUGUK />,
+      },
+      {
+        path: "study-abroad/uk/ug/chemical-engineering",
+        element: <ChemicalEngineeringUGUK />,
+      },
+      {
+        path: "study-abroad/uk/ug/aerospace-engineering",
+        element: <AerospaceEngineeringUGUK />,
+      },
+      {
+        path: "study-abroad/uk/ug/biomedical-engineering",
+        element: <BiomedicalEngineeringUGUK />,
+      },
+      {
+        path: "study-abroad/uk/ug/automobile-engineering",
+        element: <AutomobileEngineeringUGUK />,
+      },
+      {
+        path: "study-abroad/uk/pg/engineering",
+        element: <PostgraduateEngineeringUK />,
+      },
+      {
+        path: "study-abroad/uk/pg/computer-engineering",
+        element: <ComputerEngineeringPGUK />,
+      },
+      {
+        path: "study-abroad/uk/pg/mechanical-engineering",
+        element: <MechanicalEngineeringPGUK />,
+      },
+      {
+        path: "study-abroad/uk/pg/civil-engineering",
+        element: <CivilEngineeringPGUK />,
+      },
+      {
+        path: "study-abroad/uk/pg/electrical-engineering",
+        element: <ElectricalEngineeringPGUK />,
+      },
+      {
+        path: "study-abroad/uk/pg/electronics-communication",
+        element: <ElectronicsCommunicationPGUK />,
+      },
+      {
+        path: "study-abroad/uk/pg/chemical-engineering",
+        element: <ChemicalEngineeringPGUK />,
+      },
+      {
+        path: "study-abroad/uk/pg/aerospace-engineering",
+        element: <AerospaceEngineeringPGUK />,
+      },
+      {
+        path: "study-abroad/uk/pg/biomedical-engineering",
+        element: <BiomedicalEngineeringPGUK />,
+      },
+      {
+        path: "study-abroad/uk/pg/automobile-engineering",
+        element: <AutomobileEngineeringPGUK />,
+      },
+      {
+        path: "study-abroad/uk/business-management",
+        element: <BusinessManagementUK />,
+      },
+      {
+        path: "study-abroad/uk/mba",
+        element: <MBAUK />,
+      },
+      {
+        path: "study-abroad/uk/executive-mba",
+        element: <ExecutiveMBAUK />,
+      },
+      {
+        path: "study-abroad/uk/bba",
+        element: <BBAUK />,
+      },
+      {
+        path: "study-abroad/uk/bbs",
+        element: <BBSUK />,
+      },
+      {
+        path: "study-abroad/uk/mbs",
+        element: <MBSUK />,
+      },
+      {
+        path: "study-abroad/uk/international-business",
+        element: <InternationalBusinessUK />,
+      },
+      {
+        path: "study-abroad/uk/marketing-management",
+        element: <MarketingManagementUK />,
+      },
+      {
+        path: "study-abroad/uk/hospitality-management",
+        element: <HospitalityManagementUK />,
+      },
+      {
+        path: "study-abroad/uk/architecture",
+        element: <ArchitectureUK />,
+      },
+      {
+        path: "study-abroad/uk/law",
+        element: <LawUK />,
+      },
+      {
+        path: "study-abroad/uk/language-courses",
+        element: <LanguageCoursesUK />,
+      },
+      {
+        path: "study-abroad/uk/summer-courses",
+        element: <SummerCoursesUK />,
+      },
+      {
+        path: "study-abroad/uk/winter-courses",
+        element: <WinterCoursesUK />,
+      },
       {
         path: "terms-conditions",
         element: <TermsAndConditions />,
@@ -1748,6 +2299,50 @@ export const routeList = [
   "/study-abroad/spain/language-courses",
   "/study-abroad/spain/summer-courses",
   "/study-abroad/spain/winter-courses",
+// UK Routes
+  "/study-abroad/uk/dentistry",
+  "/study-abroad/uk/nursing",
+  "/study-abroad/uk/pharmacy",
+  "/study-abroad/uk/physiotherapy",
+  "/study-abroad/uk/public-health",
+  "/study-abroad/uk/biotechnology",
+  "/study-abroad/uk/computer-science",
+  "/study-abroad/uk/information-technology",
+  "/study-abroad/uk/ug/engineering",
+  "/study-abroad/uk/ug/computer-engineering",
+  "/study-abroad/uk/ug/mechanical-engineering",
+  "/study-abroad/uk/ug/civil-engineering",
+  "/study-abroad/uk/ug/electrical-engineering",
+  "/study-abroad/uk/ug/electronics-communication",
+  "/study-abroad/uk/ug/chemical-engineering",
+  "/study-abroad/uk/ug/aerospace-engineering",
+  "/study-abroad/uk/ug/biomedical-engineering",
+  "/study-abroad/uk/ug/automobile-engineering",
+  "/study-abroad/uk/pg/engineering",
+  "/study-abroad/uk/pg/computer-engineering",
+  "/study-abroad/uk/pg/mechanical-engineering",
+  "/study-abroad/uk/pg/civil-engineering",
+  "/study-abroad/uk/pg/electrical-engineering",
+  "/study-abroad/uk/pg/electronics-communication",
+  "/study-abroad/uk/pg/chemical-engineering",
+  "/study-abroad/uk/pg/aerospace-engineering",
+  "/study-abroad/uk/pg/biomedical-engineering",
+  "/study-abroad/uk/pg/automobile-engineering",
+  "/study-abroad/uk/business-management",
+  "/study-abroad/uk/mba",
+  "/study-abroad/uk/executive-mba",
+  "/study-abroad/uk/bba",
+  "/study-abroad/uk/bbs",
+  "/study-abroad/uk/mbs",
+  "/study-abroad/uk/international-business",
+  "/study-abroad/uk/marketing-management",
+  "/study-abroad/uk/hospitality-management",
+  "/study-abroad/uk/architecture",
+  "/study-abroad/uk/law",
+  "/study-abroad/uk/language-courses",
+  "/study-abroad/uk/summer-courses",
+  "/study-abroad/uk/winter-courses",
+
   "/terms-conditions",
   "/privacy-policy",
   "/cookies-policy",

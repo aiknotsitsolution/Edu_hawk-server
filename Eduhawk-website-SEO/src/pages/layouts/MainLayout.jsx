@@ -105,10 +105,10 @@ const MainLayout = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 overflow-x-hidden w-full">
       <Navbar />
 
-      <main className="md:pt-1">
+      <main className="md:pt-1 overflow-x-hidden">
         <Suspense fallback={<RouteLoader />}>
           <Outlet />
         </Suspense>
@@ -120,7 +120,7 @@ const MainLayout = () => {
         <section
           aria-live="polite"
           aria-label="Study abroad university information"
-          className="fixed bottom-24 left-4 z-40 w-[calc(100vw-2rem)] max-w-sm rounded-2xl border border-blue-100 bg-white p-4 shadow-2xl sm:bottom-6 sm:left-6"
+          className="fixed bottom-24 left-4 right-4 sm:right-auto sm:w-full z-40 max-w-sm rounded-2xl border border-blue-100 bg-white p-4 shadow-2xl sm:bottom-6 sm:left-6"
         >
           <div className="mb-3 flex items-center gap-2 text-blue-700">
             <GraduationCap size={20} aria-hidden="true" />

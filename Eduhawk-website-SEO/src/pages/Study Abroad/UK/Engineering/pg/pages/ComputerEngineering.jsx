@@ -1,0 +1,1027 @@
+import React from "react";
+import { AbroadCoursePage } from "../../../../../../component/CoursePageKit.jsx";
+
+// Page layout images
+import heroImg from "../../../../../../Images/Abroad/UK/Engineering_PG/Computer/hero.webp";
+import heroBgImg from "../../../../../../Images/Abroad/UK/Engineering_PG/Computer/hero_bg.webp";
+import sideImg from "../../../../../../Images/Abroad/UK/Engineering_PG/Computer/side.webp";
+import ctaBgImg from "../../../../../../Images/Abroad/UK/Engineering_PG/Computer/cta_bg.webp";
+
+// University images
+import uniImg1 from "../../../../../../Images/Abroad/UK/Engineering_PG/Computer/Coventry_University.webp";
+import uniImg2 from "../../../../../../Images/Abroad/UK/Engineering_PG/Computer/Glasgow_University.webp";
+import uniImg3 from "../../../../../../Images/Abroad/UK/Engineering_PG/Computer/Leicester_University.webp";
+import uniImg4 from "../../../../../../Images/Abroad/UK/Engineering_PG/Computer/University_of_Essex.webp";
+
+const page = {
+  "name": "MSc Computer Engineering in the UK",
+  "country": "UK",
+  "slug": "pg/computer-engineering",
+  "title": "Study MSc Computer Engineering in the UK for Indian Students | Edu-Hawk Worldwide",
+  "description": "Complete guide to MSc Computer Engineering in the UK for Indian students: Top UK universities, eligibility criteria, tuition fees (£14,000–£35,000/yr), scholarships, and 2-year post-study work visa (Graduate Route).",
+  "keywords": "Study MSc Computer Engineering in the UK, MSc Computer Engineering in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
+  "introTitle": "Study Computer Engineering in the United Kingdom",
+  "heroParas": [
+    "Computer hardware, software, electronics, digital systems, and computing architecture are all included in computer engineering. It focuses on the design, development, testing, and enhancement of the systems that drive embedded applications, smart devices, industrial equipment, computers, and communication technologies.",
+    "Postgraduate programs in Computer Engineering and related subjects are available in the UK. A dedicated MSc in Computer Engineering or a comparable degree in Computer Systems Engineering, Embedded Systems Engineering, or electronic and computing technologies are available to students, depending on the university.",
+    "With proper planning and assistance, Edu Hawk Worldwide Consultancy helps students understand university admission requirements, explore international study possibilities, and prepare for the overseas education journey."
+  ],
+  "overview": [
+    "Computer hardware, software, electronics, digital systems, and computing architecture are all included in computer engineering. It focuses on the design, development, testing, and enhancement of the systems that drive embedded applications, smart devices, industrial equipment, computers, and communication technologies.",
+    "Postgraduate programs in Computer Engineering and related subjects are available in the UK. A dedicated MSc in Computer Engineering or a comparable degree in Computer Systems Engineering, Embedded Systems Engineering, or electronic and computing technologies are available to students, depending on the university.",
+    "With proper planning and assistance, Edu Hawk Worldwide Consultancy helps students understand university admission requirements, explore international study possibilities, and prepare for the overseas education journey."
+  ],
+  "level": "MSc Computer Engineering",
+  "crumb": "Engineering / PG / Computer Engineering",
+  "stats": [
+    {
+      "label": "Degree Choices",
+      "value": "MSc Computer Engineering"
+    },
+    {
+      "label": "Course Duration",
+      "value": "1 to 2 Years (PG)"
+    },
+    {
+      "label": "Top Institutions",
+      "value": "Coventry University, Glasgow University, Leicester University"
+    },
+    {
+      "label": "Post-Study Work",
+      "value": "2 Years Graduate Route Visa"
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why",
+      "eyebrow": "Why Study in the UK",
+      "title": "Why Study Computer Engineering in the UK?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Computer hardware, software, electronics, digital systems, and computing architecture are all included in computer engineering. It focuses on the design, development, testing, and enhancement of the systems that drive embedded applications, smart devices, industrial equipment, computers, and communication technologies."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Postgraduate programs in Computer Engineering and related subjects are available in the UK. A dedicated MSc in Computer Engineering or a comparable degree in Computer Systems Engineering, Embedded Systems Engineering, or electronic and computing technologies are available to students, depending on the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "With proper planning and assistance, Edu Hawk Worldwide Consultancy helps students understand university admission requirements, explore international study possibilities, and prepare for the overseas education journey."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The main advantages of studying computer engineering in the UK are as follows:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Develop a deep understanding of computer architecture, digital systems, embedded technologies, and hardware-software integration through specialized technical learning.",
+            "As part of the curriculum, work with microcontrollers, field-programmable gate arrays, digital hardware, programming platforms, and simulation tools.",
+            "Examine processor systems, embedded programming, operating systems, computer networks, and system optimization for advanced computing abilities.",
+            "Opportunities for research: Finish a significant technical project or dissertation in a computer engineering field.",
+            "Industry-oriented education: Certain courses contain practical engineering assignments, professional placements, or industry-linked projects.",
+            "Examine hardware engineering, embedded systems, electronics, computer systems, firmware, telecommunications, and software-related careers for career flexibility."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "content",
+      "eyebrow": "Course Guide",
+      "title": "Postgraduate Computer Engineering Courses in the United Kingdom",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Depending on their technical interests, professional goals, and undergraduate experience, Indian students can pursue a variety of postgraduate Computer Engineering qualifications in the UK."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master of Science in Computer Engineering (MSc)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Advanced study of computer hardware, software, digital systems, and embedded technologies is offered by a MSc in Computer Engineering."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Typical topics could be:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "The Architecture of Computers",
+            "Design of Embedded Systems",
+            "Designing Digital Logic",
+            "Languages Used for Hardware Description",
+            "Microcontrollers and microprocessors",
+            "Systems of Computers",
+            "Operating Systems",
+            "Embedded System Programming",
+            "Integration of Hardware and Software",
+            "Networks of Computers",
+            "Methods of Research",
+            "A major engineering project or dissertation"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master of Science in Computer Systems Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Computing science and electronic and engineering principles are combined in this qualification."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The design and development of computer-based systems, smart devices, and systems that integrate hardware, software, and digital technologies is taught to students."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Among the potential topics are:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "The Architecture of Computer Systems",
+            "Design of Very-Large-Scale Integration (VLSI)",
+            "Digital Systems",
+            "Programming for Embedded Systems",
+            "Software Development",
+            "Systems in Real Time",
+            "Electronic Communications",
+            "Integration of Hardware and Software",
+            "Design of Computer Systems",
+            "Work on Engineering Projects"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Advanced Computer Science Master of Science"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For graduates who choose to concentrate more on software, computing systems, networks, artificial intelligence, or data technologies, Advanced Computer Science is a related option."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Instead than focusing on electronic hardware design, it can be appropriate for students who are interested in the software and systems aspects of Computer Engineering."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Among the possible topics are:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Advanced Programming",
+            "Systems of Computers",
+            "The use of cloud computing",
+            "Cybersecurity",
+            "Artificial Intelligence",
+            "Software Development",
+            "Networks of Computers",
+            "The Engineering of Data",
+            "Machine Learning"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Institutions",
+      "title": "The UK's Top Computer Engineering Universities",
+      "groups": [
+        {
+          "t": "universities",
+          "items": [
+            {
+              "name": "Coventry University",
+              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
+              "imgKey": "uniImg_Coventry_University_webp",
+              "img": uniImg1
+            },
+            {
+              "name": "Glasgow University",
+              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
+              "imgKey": "uniImg_Glasgow_University_webp",
+              "img": uniImg2
+            },
+            {
+              "name": "Leicester University",
+              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
+              "imgKey": "uniImg_Leicester_University_webp",
+              "img": uniImg3
+            },
+            {
+              "name": "University of Essex",
+              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
+              "imgKey": "uniImg_University_of_Essex_webp",
+              "img": uniImg4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "content",
+      "eyebrow": "Course Guide",
+      "title": "Qualifications for Postgraduate Computer Engineering Studies in the UK",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The university, chosen specialization, prior education, academic standing, and technological background all affect admission requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic Eligibility"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "When applying to a postgraduate Computer Engineering program in the UK, Indian students often require:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "An accredited bachelor's degree in computer science, computer engineering, electronics engineering, electrical engineering, or another pertinent field.",
+            "Academic performance that satisfies the minimal admission standards of the university.",
+            "Technical expertise in mathematics, programming, computing systems, electronics, or engineering that is pertinent.",
+            "Evidence of English language proficiency is needed."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Relevant Undergraduate Experience"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The program determines the most appropriate prior qualification."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Degrees that are frequently pertinent include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Computer Science",
+            "Computer Science",
+            "Computer Systems Engineering",
+            "Communication and Electronics Engineering",
+            "Electrical and Electronic Technology",
+            "The field of electronics engineering",
+            "Engineering for Embedded Systems",
+            "Engineering for Mechatronics",
+            "Robotics Engineering",
+            "Physics or a relevant technical field that the university has approved"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Language Requirements in English"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Unless they are eligible for an authorized exemption, international students must typically meet the university's English language requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Tests that are widely recognized include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "IELTS Academic",
+            "The TOEFL iBT",
+            "PTE Academic",
+            "Additional exams that the university accepts"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Eligibility & Process",
+      "title": "Admission Requirements for Postgraduate Computer Engineering Programs in the UK",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Before applying, students should check each university's academic criteria and application procedure."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic Records and Degree Categorization"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Universities frequently evaluate:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Results for a bachelor's degree.",
+            "The prior qualification's relevance.",
+            "Knowledge of technical subjects and mathematics.",
+            "Computing and programming modules.",
+            "Preparation for embedded systems, computer architecture, or electronics.",
+            "Minimum grades for a certain course."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "English Language Requirements"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Candidates ought to verify:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Which English language assessments are recognized?",
+            "The lowest possible total score.",
+            "Minimum scores for each component.",
+            "Is there a possibility of an exemption?",
+            "The availability of pre-sessional English courses."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Exams for Entrance"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A common international entrance exam is not required for the majority of taught postgraduate Computer Engineering programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Typically, admission is determined by academic credentials, pertinent technical training, fluency in English, and supporting documentation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Statement of Purpose"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The application may need to include a statement of purpose."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Candidates ought to clarify:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "What motivates them to focus on Computer Engineering?",
+            "How their bachelor's degree equipped them for further education.",
+            "Relevant professional experience, internships, or academic projects.",
+            "Their passion for computer architecture, embedded systems, software, or hardware.",
+            "The technological abilities they seek to acquire.",
+            "Their planned post-graduation professional path."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "cost",
+      "eyebrow": "Tuition & Living",
+      "title": "The cost of a postgraduate computer engineering degree in the UK",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The university, length of the course, location, lodging, and individual lifestyle all affect the total cost."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Tuition Fees"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Oxford Brookes advertises £20,800 for its Advanced Computer Science MSc for 2027–2028, but the published overseas tuition examples in Section 3 range from roughly £19,500 to £34,815 for the specified degrees and academic years."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Rather than being a general cost range for all UK Computer Engineering master's"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Living Expenses"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The city and type of lodging determine the cost of living. In general, the cost of living in London is higher than in many other cities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Typical costs consist of:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Accommodations and utilities",
+            "Food and groceries",
+            "Local transportation",
+            "Internet and mobile services",
+            "Books and study guides",
+            "A laptop and other technical devices",
+            "Personal costs",
+            "Extra materials for projects or labs, if needed"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Eligibility & Process",
+      "title": "The UK's Postgraduate Computer Engineering Admissions Process",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Step 1: Select Your Area of Expertise"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Choose if you want to concentrate on embedded programming, digital electronics, computer systems, computer hardware, or more software-oriented computing."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 2: Make a shortlist of universities"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Examine and contrast course modules, tuition costs, length, location, labs, project alternatives, placement pathways, and accreditation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 3: Verify Your Academic Eligibility"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Examine the minimal grades, approved bachelor's degrees, and pertinent technical courses that each university requires."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 4: Verify Your English Language Proficiency"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Verify the minimum overall score, component scores, any exemption rules, and the approved English test."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 5: Get Your Documents Ready"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Gather your academic credentials, transcripts, passport information, English test scores, statement of purpose, references, and any other documents that are needed."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 6: Send in Your Application"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Instead of using UCAS, the majority of taught postgraduate applications are submitted directly through the university's online application portal."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 7: Finish Any Further Evaluations"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A technical work portfolio, an interview, academic clarification, or other documentation may be required for certain courses."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 8: Accept and Examine the Offer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Verify if the offer is unconditional or conditional. Examine the enrollment guidelines, deadlines, deposit requirements, tuition costs, and academic criteria."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 9: Accept the Offer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Finish the university's admissions process and fulfilll any requirements regarding documents or tuition deposits."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 10: Get Your Study Acceptance Confirmation"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The university may provide a Confirmation of Acceptance for Studies (CAS) for the student visa application procedure if the pertinent offer requirements have been met."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 11: Submit an application for a UK student visa."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Prepare the necessary documentation and file your application in accordance with the most recent UK immigration rules."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 12: Make Travel and Accommodation Plans"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Make travel, lodging, financial, enrollment, and pre-departure plans."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "content",
+      "eyebrow": "Course Guide",
+      "title": "UK Computer Engineering Accreditation and Professional Recognition",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "For students hoping to pursue long-term engineering employment in the UK, professional qualification is crucial."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Accreditation in Engineering and Computing"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Professional organizations like the following may accredit pertinent postgraduate programs:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "The Engineering and Technology Institution (IET)",
+            "The Institute of Mechanical Engineers (IMechE)",
+            "The British Computer Society (BCS)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Accreditation varies depending on the course. Every MSc in Computer Engineering, Computer Systems Engineering, or Advanced Computer Science has a different level of professional recognition, so students shouldn't expect that."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "career",
+      "eyebrow": "Career & Prospects",
+      "title": "Pay and Employment Prospects in the UK Following Computer Engineering",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Careers in computer hardware, embedded systems, electronics, digital technologies, and software-based engineering systems are available to postgraduate Computer Engineering graduates."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Opportunities for employment are determined by prior education, technical proficiency, project experience, employer demands, and labor market conditions."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Opportunities for Careers"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A computer engineer",
+            "Engineer for Computer Systems",
+            "Engineer for Embedded Systems",
+            "Engineer for Hardware Design",
+            "Engineer for Firmware",
+            "Engineer for FPGA Design",
+            "Engineer in Electronics",
+            "Engineer for Systems Integration",
+            "A microprocessor or computer hardware engineer",
+            "Developer of Embedded Software",
+            "An analyst of systems",
+            "A developer of software."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Salary Expectations"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For a number of similar jobs, the UK National Careers Service offers approximate salaries:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electronics Engineer: About £28,000 annually for beginners to £60,000 for seasoned pros."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Software Developer: About £30,000 annually for beginners to £75,000 for seasoned pros."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Systems Analyst: About £34,000 annually for novices to £65,000 for seasoned specialists."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Companies Employing Graduates in Computer Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Among the potential industries are:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Hardware and electronics for computers",
+            "Development of semiconductors and microelectronics",
+            "Telecommunications",
+            "Smart gadgets and embedded systems",
+            "Automotive electronics",
+            "Engineering and aerospace",
+            "Robotics and industrial automation",
+            "Healthcare technologies and medical gadgets",
+            "Electronics for consumers",
+            "Manufacturing",
+            "Infrastructure for computing",
+            "Exploration and advancement"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "content",
+      "eyebrow": "Course Guide",
+      "title": "Documents Needed",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The university, course, and visa arrangements determine the precise paperwork checklist."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Documents for University Applications"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Indian candidates could require:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A valid passport",
+            "A provisional or bachelor's degree certificate",
+            "Official transcripts from universities",
+            "The results of any necessary English language tests",
+            "A purpose statement",
+            "Scholarly references",
+            "When asked, a curriculum vitae or resume",
+            "Details about pertinent technical projects or prior work experience",
+            "When necessary, official translations of non-English documents",
+            "The institution has sought additional documents."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Documents for Student Visas"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "In order to apply for a UK student visa, candidates could require:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Verification of Acceptance for Research (CAS)",
+            "A valid passport or other travel paperwork",
+            "Financial proof that satisfies current standards",
+            "Evidence in the English language, if applicable",
+            "The application's specified academic evidence",
+            "Results of a tuberculosis test, if necessary given the applicant's situation",
+            "If necessary for the course and the applicant's situation, an ATAS certificate",
+            "Extra paperwork that UK Visas and Immigration has required"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The Academic Technology Approval Scheme (ATAS) may apply to specific technological disciplines or research areas. Depending on the course, subject classification, nationality, and relevant regulations, a certificate may or may not be necessary."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "faqs",
+      "eyebrow": "Got Questions?",
+      "title": "FAQs",
+      "groups": [
+        {
+          "t": "faqs",
+          "items": [
+            {
+              "q": "Q1. After earning a bachelor's degree, are Indian students able to study postgraduate computer engineering in the UK?",
+              "a": "Yes . A MSc in Computer Engineering or a similar program like Computer Systems Engineering or Embedded Systems Engineering is open to qualified Indian graduates. The university and the student's technical background determine the requirements."
+            },
+            {
+              "q": "Q2. How long do postgraduate courses in computer engineering take in the UK?**",
+              "a": "The duration of many full-time taught The MSc programs is one year. Certain programs that include an extended study option or an industrial placement may take up to two years. Verify the precise length of the chosen course at all times."
+            },
+            {
+              "q": "Q3. How much does it cost to pursue a postgraduate degree in computer engineering in the UK?",
+              "a": "For the designated courses and academic years, the published overseas tuition examples in this book vary around £19,500 to £34,815. Budgets for housing, living expenses, visa fees, medical expenses, and any other placement-related costs must be kept apart."
+            },
+            {
+              "q": "Q4. What careers are available to me in the UK with a masters degree in computer engineering?",
+              "a": "Computer Engineer, Computer Systems Engineer, Embedded Systems Engineer, Hardware Design Engineer, Firmware Engineer, FPGA Design Engineer, Electronics Engineer, or Embedded Software Developer are among the positions that graduates might consider. Technical proficiency, experience, employer demands, and market conditions all affect career results."
+            },
+            {
+              "q": "Q5. After earning a postgraduate degree in computer engineering, may I remain in the UK?",
+              "a": "Graduates who meet the requirements may apply for a Graduate visa. A 18-month Graduate visa is granted to qualified master's graduates who apply on or after January 1, 2027, in accordance with the regulations released in October 2026. Before applying, students should confirm the current prerequisites."
+            },
+            {
+              "q": "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
+              "a": "Students can use Edu Hawk Worldwide to plan their study-abroad journey, organize their application materials, research appropriate universities, and comprehend admission standards. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "universities": [
+    {
+      "name": "Coventry University",
+      "city": "United Kingdom",
+      "rank": "Top Ranked UK University",
+      "fee": "£16,000 - £35,000 / yr",
+      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
+      "imgFile": "Coventry_University.webp"
+    },
+    {
+      "name": "Glasgow University",
+      "city": "United Kingdom",
+      "rank": "Top Ranked UK University",
+      "fee": "£16,000 - £35,000 / yr",
+      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
+      "imgFile": "Glasgow_University.webp"
+    },
+    {
+      "name": "Leicester University",
+      "city": "United Kingdom",
+      "rank": "Top Ranked UK University",
+      "fee": "£16,000 - £35,000 / yr",
+      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
+      "imgFile": "Leicester_University.webp"
+    },
+    {
+      "name": "University of Essex",
+      "city": "United Kingdom",
+      "rank": "Top Ranked UK University",
+      "fee": "£16,000 - £35,000 / yr",
+      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
+      "imgFile": "University_of_Essex.webp"
+    }
+  ],
+  "table": {
+    "title": "Estimated Cost of Studying MSc Computer Engineering in the UK (Tuition & Living)",
+    "headers": [
+      "Category / Level",
+      "Estimated Cost (£ / GBP)",
+      "Details / Scope"
+    ],
+    "rows": [
+      [
+        "Undergraduate Degree (Annual)",
+        "£14,000 – £28,000 / year",
+        "Varies by university ranking, laboratory access, and course type"
+      ],
+      [
+        "Postgraduate Degree (Annual)",
+        "£16,000 – £35,000 / year",
+        "1-year intensive master's program or research dissertation"
+      ],
+      [
+        "Monthly Living Costs (Outside London)",
+        "£900 – £1,100 / month",
+        "Includes private/student accommodation, groceries, and utilities"
+      ],
+      [
+        "Monthly Living Costs (London)",
+        "£1,250 – £1,450 / month",
+        "Mandated UKVI maintenance requirement for London study"
+      ],
+      [
+        "Health Surcharge (IHS)",
+        "£776 / year",
+        "Access to UK National Health Service (NHS) for student visa holders"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Q1. After earning a bachelor's degree, are Indian students able to study postgraduate computer engineering in the UK?",
+      "a": "Yes . A MSc in Computer Engineering or a similar program like Computer Systems Engineering or Embedded Systems Engineering is open to qualified Indian graduates. The university and the student's technical background determine the requirements."
+    },
+    {
+      "q": "Q2. How long do postgraduate courses in computer engineering take in the UK?**",
+      "a": "The duration of many full-time taught The MSc programs is one year. Certain programs that include an extended study option or an industrial placement may take up to two years. Verify the precise length of the chosen course at all times."
+    },
+    {
+      "q": "Q3. How much does it cost to pursue a postgraduate degree in computer engineering in the UK?",
+      "a": "For the designated courses and academic years, the published overseas tuition examples in this book vary around £19,500 to £34,815. Budgets for housing, living expenses, visa fees, medical expenses, and any other placement-related costs must be kept apart."
+    },
+    {
+      "q": "Q4. What careers are available to me in the UK with a masters degree in computer engineering?",
+      "a": "Computer Engineer, Computer Systems Engineer, Embedded Systems Engineer, Hardware Design Engineer, Firmware Engineer, FPGA Design Engineer, Electronics Engineer, or Embedded Software Developer are among the positions that graduates might consider. Technical proficiency, experience, employer demands, and market conditions all affect career results."
+    },
+    {
+      "q": "Q5. After earning a postgraduate degree in computer engineering, may I remain in the UK?",
+      "a": "Graduates who meet the requirements may apply for a Graduate visa. A 18-month Graduate visa is granted to qualified master's graduates who apply on or after January 1, 2027, in accordance with the regulations released in October 2026. Before applying, students should confirm the current prerequisites."
+    },
+    {
+      "q": "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
+      "a": "Students can use Edu Hawk Worldwide to plan their study-abroad journey, organize their application materials, research appropriate universities, and comprehend admission standards. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
+    }
+  ]
+};
+
+export default function ComputerEngineeringUK() {
+  return (
+    <AbroadCoursePage
+      page={page}
+      heroImg={heroImg}
+      heroBgImg={heroBgImg}
+      sideImg={sideImg}
+      ctaBgImg={ctaBgImg}
+      showHeroStats={false}
+      seoPath="/study-abroad/uk/pg/computer-engineering"
+    />
+  );
+}

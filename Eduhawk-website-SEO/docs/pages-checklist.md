@@ -1,7 +1,7 @@
 # 📋 Edu-Hawk Website Pages Master Checklist
 
 > **Total Website Pages Listed:** `478 Pages`  
-> **Covered Countries:** `9 Countries` (USA, Australia, Canada, UK, Germany, Ireland, France, Finland, Other)  
+> **Covered Countries:** `10 Countries` (USA, Australia, Canada, UK, Germany, Ireland, France, Finland, Other)  
 > **Status:** In Progress (Page 001 Home ✔️, Page 002 About ✔️, Page 003 Services ✔️, Page 004 Contact ✔️, Page 005 Study Abroad ✔️, Page 006 Blog ✔️)  
 > **Purpose:** Use this checklist to mark verified, approved, or pending content pages.
 
@@ -944,3 +944,53 @@
 | **ES39** | 39 | ✔️ | Language Courses in Spain | `/study-abroad/spain/language-courses` |
 | **ES40** | 40 | ✔️ | Summer Courses in Spain | `/study-abroad/spain/summer-courses` |
 | **ES41** | 41 | ✔️ | Winter Courses in Spain | `/study-abroad/spain/winter-courses` |
+
+---
+
+## 13. Study Abroad — UK (42 Pages)
+
+| Page Code | Doc # | Status | Page Name | Target Route |
+| :--- | :--- | :---: | :--- | :--- |
+| **UK01** | 1 | ✔️ | Dentistry in the UK | `/study-abroad/uk/dentistry` |
+| **UK02** | 2 | ✔️ | Nursing in the UK | `/study-abroad/uk/nursing` |
+| **UK03** | 3 | ✔️ | Pharmacy in the UK | `/study-abroad/uk/pharmacy` |
+| **UK04** | 4 | ✔️ | Physiotherapy in the UK | `/study-abroad/uk/physiotherapy` |
+| **UK05** | 5 | ✔️ | Public Health in the UK | `/study-abroad/uk/public-health` |
+| **UK06** | 6 | ✔️ | Biotechnology in the UK | `/study-abroad/uk/biotechnology` |
+| **UK07** | 7 | ✔️ | Computer Science in the UK | `/study-abroad/uk/computer-science` |
+| **UK08** | 8 | ✔️ | Information Technology in the UK | `/study-abroad/uk/information-technology` |
+| **UK09** | 9 | ✔️ | Undergraduate Engineering in the UK | `/study-abroad/uk/ug/engineering` |
+| **UK10** | 10 | ✔️ | BEng Computer Engineering in the UK | `/study-abroad/uk/ug/computer-engineering` |
+| **UK11** | 11 | ✔️ | BEng Mechanical Engineering in the UK | `/study-abroad/uk/ug/mechanical-engineering` |
+| **UK12** | 12 | ✔️ | BEng Civil Engineering in the UK | `/study-abroad/uk/ug/civil-engineering` |
+| **UK13** | 13 | ✔️ | BEng Electrical Engineering in the UK | `/study-abroad/uk/ug/electrical-engineering` |
+| **UK14** | 14 | ✔️ | BEng Electronics & Communication in the UK | `/study-abroad/uk/ug/electronics-communication` |
+| **UK15** | 15 | ✔️ | BEng Chemical Engineering in the UK | `/study-abroad/uk/ug/chemical-engineering` |
+| **UK16** | 16 | ✔️ | BEng Aerospace Engineering in the UK | `/study-abroad/uk/ug/aerospace-engineering` |
+| **UK17** | 17 | ✔️ | BEng Biomedical Engineering in the UK | `/study-abroad/uk/ug/biomedical-engineering` |
+| **UK18** | 18 | ✔️ | BEng Automobile Engineering in the UK | `/study-abroad/uk/ug/automobile-engineering` |
+| **UK19** | 19 | ✔️ | Postgraduate Engineering in the UK | `/study-abroad/uk/pg/engineering` |
+| **UK20** | 20 | ✔️ | MSc Computer Engineering in the UK | `/study-abroad/uk/pg/computer-engineering` |
+| **UK21** | 21 | ✔️ | MSc Mechanical Engineering in the UK | `/study-abroad/uk/pg/mechanical-engineering` |
+| **UK22** | 22 | ✔️ | MSc Civil Engineering in the UK | `/study-abroad/uk/pg/civil-engineering` |
+| **UK23** | 23 | ✔️ | MSc Electrical Engineering in the UK | `/study-abroad/uk/pg/electrical-engineering` |
+| **UK24** | 24 | ✔️ | MSc Electronics & Communication in the UK | `/study-abroad/uk/pg/electronics-communication` |
+| **UK25** | 25 | ✔️ | MSc Chemical Engineering in the UK | `/study-abroad/uk/pg/chemical-engineering` |
+| **UK26** | 26 | ✔️ | MSc Aerospace Engineering in the UK | `/study-abroad/uk/pg/aerospace-engineering` |
+| **UK27** | 27 | ✔️ | MSc Biomedical Engineering in the UK | `/study-abroad/uk/pg/biomedical-engineering` |
+| **UK28** | 28 | ✔️ | MSc Automobile Engineering in the UK | `/study-abroad/uk/pg/automobile-engineering` |
+| **UK29** | 29 | ✔️ | Business Management in the UK | `/study-abroad/uk/business-management` |
+| **UK30** | 30 | ✔️ | MBA in the UK | `/study-abroad/uk/mba` |
+| **UK31** | 31 | ✔️ | Executive MBA in the UK | `/study-abroad/uk/executive-mba` |
+| **UK32** | 32 | ✔️ | BBA in the UK | `/study-abroad/uk/bba` |
+| **UK33** | 33 | ✔️ | BBS in the UK | `/study-abroad/uk/bbs` |
+| **UK34** | 34 | ✔️ | MBS in the UK | `/study-abroad/uk/mbs` |
+| **UK35** | 35 | ✔️ | International Business in the UK | `/study-abroad/uk/international-business` |
+| **UK36** | 36 | ✔️ | Marketing Management in the UK | `/study-abroad/uk/marketing-management` |
+| **UK37** | 37 | ✔️ | Hospitality Management in the UK | `/study-abroad/uk/hospitality-management` |
+| **UK38** | 38 | ✔️ | Architecture in the UK | `/study-abroad/uk/architecture` |
+| **UK39** | 39 | ✔️ | Law in the UK | `/study-abroad/uk/law` |
+| **UK40** | 40 | ✔️ | Language Courses in the UK | `/study-abroad/uk/language-courses` |
+| **UK41** | 41 | ✔️ | Summer Courses in the UK | `/study-abroad/uk/summer-courses` |
+| **UK42** | 42 | ✔️ | Winter Courses in the UK | `/study-abroad/uk/winter-courses` |
+

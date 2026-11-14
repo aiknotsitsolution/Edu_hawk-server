@@ -180,6 +180,25 @@ const Navbar = () => {
       if (path === "engineering") return "/study-abroad/spain/ug/engineering";
       return `/study-abroad/spain/${path}`;
     }
+    if (selectedCountry === "UK") {
+      if (prefix === "/courses/ug") {
+        if (path === "engineering") return "/study-abroad/uk/ug/engineering";
+        return `/study-abroad/uk/ug/${path}`;
+      }
+      if (prefix === "/courses/pg") {
+        if (path === "engineering") return "/study-abroad/uk/pg/engineering";
+        return `/study-abroad/uk/pg/${path}`;
+      }
+      if (path === "dentistry") return "/study-abroad/uk/dentistry";
+      if (path === "nursing") return "/study-abroad/uk/nursing";
+      if (path === "pharmacy") return "/study-abroad/uk/pharmacy";
+      if (path === "physiotherapy") return "/study-abroad/uk/physiotherapy";
+      if (path === "public-health") return "/study-abroad/uk/public-health";
+      if (path === "biotechnology") return "/study-abroad/uk/biotechnology";
+      if (path === "engineering") return "/study-abroad/uk/ug/engineering";
+      return `/study-abroad/uk/${path}`;
+    }
+
     return `${prefix}/${path}?country=${selectedCountry.toLowerCase()}`;
   };
 

@@ -326,7 +326,7 @@ export default function HeroSection() {
         <link rel="preload" as="image" href={heroRussia} fetchPriority="high" />
       </SeoHead>
 
-      <div className="min-h-screen bg-white font-sans">
+      <div className="min-h-screen bg-white font-sans overflow-x-hidden w-full">
         {/* Toast Container */}
         <ToastContainer />
 
@@ -812,8 +812,11 @@ export default function HeroSection() {
               ))}
             </div>
           </div>
-          <div className="absolute -top-20 -right-20 w-72 sm:w-96 h-72 sm:h-96 rounded-full bg-[#d4a853]/10 pointer-events-none" />
-          <div className="absolute -bottom-20 -left-20 w-64 sm:w-80 h-64 sm:h-80 rounded-full bg-[#d4a853]/5 pointer-events-none" />
+          {/* Decorative background glow circles contained so they never overflow the viewport */}
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            <div className="absolute -top-20 -right-20 w-72 sm:w-96 h-72 sm:h-96 rounded-full bg-[#d4a853]/10" />
+            <div className="absolute -bottom-20 -left-20 w-64 sm:w-80 h-64 sm:h-80 rounded-full bg-[#d4a853]/5" />
+          </div>
 
           <div className="max-w-5xl mx-auto relative">
             <p className="text-[#d4a853] uppercase tracking-wider text-sm md:text-base font-medium mb-6">
@@ -848,7 +851,7 @@ export default function HeroSection() {
                 </Link>
 
                 <div
-                  className={`absolute top-0 left-full ml-3 min-w-[220px] rounded-3xl border border-white/15 bg-slate-950/95 p-3 shadow-2xl backdrop-blur-xl sm:w-max transition-opacity duration-200 ${
+                  className={`absolute top-full left-1/2 -translate-x-1/2 mt-3 w-56 sm:w-64 max-w-[90vw] rounded-2xl border border-white/15 bg-slate-950/95 p-3 shadow-2xl backdrop-blur-xl transition-all duration-200 z-30 ${
                     exploreMenuOpen ? "block opacity-100" : "hidden opacity-0"
                   }`}
                 >

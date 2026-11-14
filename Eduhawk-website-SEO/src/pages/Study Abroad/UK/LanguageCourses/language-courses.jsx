@@ -1,0 +1,773 @@
+import React from "react";
+import { AbroadCoursePage } from "../../../../component/CoursePageKit.jsx";
+
+// Page layout images
+import heroImg from "../../../../Images/Abroad/UK/LanguageCourses/hero.webp";
+import heroBgImg from "../../../../Images/Abroad/UK/LanguageCourses/hero_bg.webp";
+import sideImg from "../../../../Images/Abroad/UK/LanguageCourses/side.webp";
+import ctaBgImg from "../../../../Images/Abroad/UK/LanguageCourses/cta_bg.webp";
+
+// University images
+
+
+const page = {
+  "name": "Language Courses in the UK",
+  "country": "UK",
+  "slug": "language-courses",
+  "title": "Study Language Courses in the UK for Indian Students | Edu-Hawk Worldwide",
+  "description": "Complete guide to Language Courses in the UK for Indian students: Top UK universities, eligibility criteria, tuition fees (£14,000–£35,000/yr), scholarships, and 2-year post-study work visa (Graduate Route).",
+  "keywords": "Study Language Courses in the UK, Language Courses in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
+  "introTitle": "Language Courses in the UK for Indian Students",
+  "heroParas": [
+    "Language courses in the UK are a great option for students who want to study a foreign language, boost their career prospects, get ready for college or improve their English communication skills. The UK has a wide range of language programmes such as: English language courses, academic English, business English and specialist language training.",
+    "Benefits of studying languages in the UK",
+    "Immersive language learning allows students to engage with people from different backgrounds and apply English in real-life situations."
+  ],
+  "overview": [
+    "Language courses in the UK are a great option for students who want to study a foreign language, boost their career prospects, get ready for college or improve their English communication skills. The UK has a wide range of language programmes such as: English language courses, academic English, business English and specialist language training.",
+    "Benefits of studying languages in the UK",
+    "Immersive language learning allows students to engage with people from different backgrounds and apply English in real-life situations."
+  ],
+  "level": "English Language Programs & Pre-sessional Pathways",
+  "crumb": "Language & Pathways / Language Courses",
+  "stats": [
+    {
+      "label": "Degree Choices",
+      "value": "English Language Programs & Pre-sessional Pathways"
+    },
+    {
+      "label": "Course Duration",
+      "value": "1 to 2 Years (PG)"
+    },
+    {
+      "label": "Top Institutions",
+      "value": "University of Oxford, Cambridge, Imperial College London"
+    },
+    {
+      "label": "Post-Study Work",
+      "value": "2 Years Graduate Route Visa"
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why",
+      "eyebrow": "Why Study in the UK",
+      "title": "Why Study **Language Courses in the UK**?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Language courses in the UK are a great option for students who want to study a foreign language, boost their career prospects, get ready for college or improve their English communication skills. The UK has a wide range of language programmes such as: English language courses, academic English, business English and specialist language training."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Benefits of studying languages in the UK"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Immersive language learning allows students to engage with people from different backgrounds and apply English in real-life situations.",
+            "Qualified Teachers: Many universities and language institutions offer formal courses taught by qualified language teachers.",
+            "Students develop intercultural communication skills, by interacting with students from different countries.",
+            "Programs are available for beginners, intermediate learners and advanced students.",
+            "Academic Preparation: Students can take English language courses to improve their academic writing, reading, speaking and listening skills and prepare for college.",
+            "Improving your language skills can be useful if you want a career in business, tourism, teaching, translation, customer service or international relations.",
+            "Students can prepare for exams including IELTS, Cambridge English qualifications and other recognized language tests.",
+            "Learning a language can boost your confidence, communication skills, and understanding of various cultures."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu Hawk worldwide consultation helps students to comprehend university admission requirements, explore international study options and get ready for overseas education journey with right preparation and direction."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "content",
+      "eyebrow": "Course Guide",
+      "title": "Languages Courses in the UK",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The UK has language courses for different aims, proficiency levels and career ambitions. Students have the option of short-term programs, intensive courses, university-based courses, and extended language-training alternatives."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Top Courses in Languages"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "General English is the improvement of skills in normal speaking, listening, reading, writing, grammar and vocabulary.",
+            "Intensive English provides more classes for students who want to improve their English in less time.",
+            "Academic English develops your essay writing, academic reading, presentations, research skills and university level communication.",
+            "Business English focuses on workplace vocabulary, professional communication, meetings, presentations, emails and negotiations.",
+            "IELTS preparation is the process of preparing students for the International English Language Testing System (IELTS) exam.",
+            "The Cambridge English Exam Preparation course helps students prepare for exams such as B2 First, C1 Advanced and C2 Proficiency.",
+            "English for Teachers : A resource for teachers wanting to improve their English or learn how to teach it."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Course Duration"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Short language classes can be of any length from some weeks to many weeks.",
+            "General English courses range in duration from a few weeks to several months.",
+            "Exam preparation and intensive courses differ depending on the level of the learner and the desired score.",
+            "Universities may offer pre-sessional English classes that last several weeks or months.",
+            "Short language courses are usually insufficient for degrees in translation, interpreting and language-related fields."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "content",
+      "eyebrow": "Course Guide",
+      "title": "The UK's Top Language Schools",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "English language and foreign language courses are offered by universities, specialized language schools, and independent education providers in the UK. The ideal school is determined by the student's objectives, financial situation, desired location, and necessary qualifications."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Institutions to explore"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "University of Oxford - offer English language help or programs in addition to language-related academic studies."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "University of Cambridge - provides English language learning tools and language-related academic activities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "University College London (UCL - offers opportunities for language-related study and English language assistance."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Eligibility & Process",
+      "title": "The UK's requirements for enrolling in language classes",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The type of course, the school, the age of the student, and the goal of the study all affect eligibility."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For Courses in General English"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Students with basic to advanced competency levels may be admitted.",
+            "It's not always necessary to have a formal education.",
+            "To ascertain the student's language proficiency, certain providers might administer a placement test.",
+            "Minimum age requirements differ depending on the program and school.",
+            "For younger students, parental consent might be necessary."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For Courses in Academic English"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "It can be necessary for students to have a certain level of English proficiency.",
+            "Certain programs are intended for candidates who have already received a university degree offer.",
+            "Students might have to fulfill certain linguistic or academic requirements.",
+            "A university offer and a valid English test score may be prerequisites for pre-sessional courses."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For IELTS or Exam Preparation"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Students should be proficient enough in English to pass the intended test.",
+            "Before enrolling, some providers might advise taking a placement test.",
+            "While not always required, prior IELTS or other test results may be helpful."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For Foreign Students in Need of a Visa"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The course, provider, length, and circumstances all affect which visa is best. Students should confirm whether their course satisfies the required immigration standards and whether the institution is permitted to sponsor the necessary visa."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Eligibility & Process",
+      "title": "The requirements for admission to language courses in the United Kingdom",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The admission requirements depend on whether the student is applying for a short language course, a language program at a university or a language related degree."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic requirements"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "General English courses often do not require formal academic qualifications.",
+            "Academic English programs may require university offers or proof of previous education.",
+            "To translate and interpret you may need to have the right language skills and recognized academic qualifications.",
+            "Some specialized courses may have prerequisite training or certification requirements.",
+            "English Language Proficiency Requirements",
+            "The program will specify the requirements. Some advanced academic or professional English classes may require a certain level of proficiency, while basic English classes may be open to beginners."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students may be asked to provide:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Results of the IELTS or other recognized English language tests."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A placement test organized by the supplier.",
+            "Previous experience with English.",
+            "Evidence of the language proficiency required for the upcoming course of study.",
+            "Additional requirements",
+            "Applicants may be required, depending on the institution, to:",
+            "A filled out application.",
+            "A valid ID card or passport.",
+            "Academic credentials, if required.",
+            "Previous language test results if any.",
+            "A personal statement for some academic programs.",
+            "Some professional courses require a CV or references to be submitted.",
+            "Some specialized programs require a portfolio or language assessment."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "cost",
+      "eyebrow": "Tuition & Living",
+      "title": "How much does it cost to study language classes in the UK",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The cost of language lessons in the UK is influenced by the provider, course intensity, length, location, and program type."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The course fee is approximately"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "General English lessons cost between £150 and £400 per week.",
+            "Intensive English training costs between £200 and £500 a week.",
+            "IELTS preparation courses vary in cost from £150 to £450 per week.",
+            "Academic or pre-sessional English can cost from hundreds to thousands of pounds, depending on the university and the length of the course.",
+            "The price of foreign language lessons depends on the teacher, the number of teaching hours, the group size and the language.",
+            "Tuition costs for translation and interpreting degrees will differ based on the university, the degree requirements and the fee status of the student."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The approximate living cost"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "UK student accommodation, food, transportation, utilities, and personal items are all things students need to budget for.",
+            "Accommodation costs vary by location and type of property and can be between £500 and £1,200 per month.",
+            "Food and shopping £150 - £300 per month",
+            "Monthly transport costs are between £50 and £150.",
+            "Utilities, phones and personal expenses are about £100 to £250 a month."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Eligibility & Process",
+      "title": "Language Courses Admission Procedure in UK",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The admission process for language courses is usually straightforward, although criteria vary by type of course and school."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 1: Choose Your Course and Language"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Choose to learn General English, Academic English, Business English, IELTS preparation, a foreign language or translation and interpreting."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 2: Select Organization"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Check out the course content, teaching hours, location, costs, class sizes, accommodation options and the provider's reputation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 3: Confirm Eligibility"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Check the requirements regarding age, language skills, educational background, duration of the course and visa conditions."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 4: Organize Your Documents"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Gather your passport information, your application information, any previous qualifications and, if applicable, the language test results."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 5: Submit Your Application"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The institution will provide an application form, which you must fill out along with the required supporting documents."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 6: Take the Placement Test"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some providers will carry out a language assessment to place students in the right class."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 7: Receive an Offer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "If you are successful you may receive an offer or a confirmation of your enrollment. This may include information about the course, dates, costs and how to pay."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 8. Settle Your Debt"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Follow the deposit and payment instructions from the provider. Please check the cancellation and return policies before making a payment."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 9: Check Your Visa Requirement"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Find out which UK immigration route is right for you and your course of study. Not every language course is eligible for a Student visa."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 10: Planning Travel and Accommodation"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Book accommodation and confirm your arrival and start time. Arrange your travel."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 11: Attend orientation to begin your course."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Follow the provider's academic and attendance policies Complete the registration process Complete any necessary placement assessments."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "content",
+      "eyebrow": "Course Guide",
+      "title": "Recognition and Accreditation of Language Courses in the UK",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Before registering for a language coursestudents need to check that the provider is suitably qualified, maintains high standards and can help them reach their academic or professional goals."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students Should Check"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Accreditation: Verify that the provider is accredited by a suitable, recognized organization, such as the British Council, regarding English language schools.",
+            "Check the syllabus, teaching hours, class numbers, methods of assessment and credentials of the instructors to assess the quality of the course.",
+            "Exam Recognition: If you're preparing for IELTS or another exam, check whether the course is preparation only or also includes an official exam.",
+            "To prepare for enrollment, students should inquire whether the university will accept the course completion certificate or language proficiency.",
+            "Professional Recognition: The criteria for professional recognition may vary for interpreting and translation qualifications."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "career",
+      "eyebrow": "Career & Prospects",
+      "title": "Salary and Job Opportunities",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Language training can improve both career development and communication skills."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "International sales executive.",
+            "Tourism and hospitality specialist.",
+            "Admin assistant.",
+            "International Student Support Officer",
+            "Assistant, Communications.",
+            "Language Programs Coordinator background, work experience and employer needs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Popular Career Paths"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "English language instructor, provided they meet the requirements.",
+            "An English as a foreign language (EFL) teacher.",
+            "A tutor in language.",
+            "Translator, depending on specialization and level of linguistic skills."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "UK Salary Ranges (estimated)"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Role, experience, location, employer, language combination and qualifications influence pay.",
+            "The customer service and admin roles pay between £22,000 and £30,000 a year.",
+            "Teaching assistants and language assistants are paid between £22,000 and £30,000 per year.",
+            "The salary range for English language teaching employment is £25,000 to £38,000 per year.",
+            "Some employed roles for translators can earn between £25,000 and £40,000 a year.",
+            "Interpreters make very different amounts depending on their area of expertise, language combination, employer, and whether they are paid on a freelance or salaried basis.",
+            "Salaries for some international business and communications jobs range from £25,000-£40,000 per year."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are not guaranteed salaries, they are estimates only. Professional posts may require additional training/experience and freelance income can be variable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Opportunities for International Students to Work"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "International students are required to comply with the conditions of employment indicated in their immigration permit. A short language course does not automatically qualify a student for a visa to stay in the UK after their studies or for permission to work in the UK."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students are recommended to check the latest guidance from the UK government before making plans for work or immigration."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "content",
+      "eyebrow": "Course Guide",
+      "title": "DOCUMENTS REQUIRED",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Documents needed to study language courses in the UK will depend on the provider, the length of the course, the age of the applicant and the type of visa."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Academic and Personal Records",
+            "A valid passport or other accepted form of identification.",
+            "Application has been submitted.",
+            "Prior academic credentials if needed.",
+            "Results of tests in English, as appropriate or required.",
+            "Previous language exposure, if any.",
+            "A CV or personal statement for some academic or professional program.",
+            "Where required, parental or guardian consent is obtained from pupils who are under the age of majority.",
+            "Additional Requirements for Specialized Courses",
+            "A Bachelor's degree certificate for relevant post graduate courses.",
+            "Proof of language proficiency for translation or interpretation courses.",
+            "If asked, give references or information about your employment experience.",
+            "A research proposition for relevant research projects.",
+            "Immigration Application Papers"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Depending on the course and visa route, applicants may be required to:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A valid passport or travel document.",
+            "A letter confirming enrollment on your course or, if relevant, a Confirmation of Acceptance for Studies (CAS)",
+            "Proof of financials if required.",
+            "Proof of English language proficiency, if required.",
+            "Results of TB test, if applicable to the applicant's circumstances and country of residence.",
+            "For candidates below the age of 18 years proof of relationship and parental consent are required.",
+            "Additional documentation required under the relevant UK visa application process."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students must read the institution's guidance and the UK government's official guidance before applying. Visa requirements will depend on the type and length of the course and the individual circumstances of each student."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "faqs",
+      "eyebrow": "Got Questions?",
+      "title": "FAQs regarding UK Language Courses",
+      "groups": [
+        {
+          "t": "faqs",
+          "items": [
+            {
+              "q": "Q1. Is taking language classes in the UK a best option?",
+              "a": "Yes . The UK provides a range of specialized courses, university-based programs, and language schools. Students can study foreign languages in a global setting, get ready for language tests, or enhance their English communication abilities."
+            },
+            {
+              "q": "Q2. What is the duration of language lessons in the United Kingdom?",
+              "a": "Longer programs can run for several months, although shorter courses might just last a few weeks. The length is determined by the provider's course format, the student's language proficiency, and their learning objectives."
+            },
+            {
+              "q": "Q3. What qualifications are needed to enrolll in language classes in the UK?",
+              "a": "Beginners may be accepted into general English courses, which may not require formal academic credentials. University-level programs, academic English, translation, and interpreting may call for prior training or a certain degree of language competency."
+            },
+            {
+              "q": "Q4. In the UK, how much do language classes cost?",
+              "a": "Many General English courses cost between £200 and £500 per week, many General English courses cost between £150 and £400 per week. Additional charges include living expenses, test fees, lodging, and other expenses."
+            },
+            {
+              "q": "Q5. After finishing a language course, can I get employment in the UK?",
+              "a": "Completing a language course does not automatically make one eligible for a post-study visa or authorization to work in the UK. The rules that apply to a person's course and circumstances, as well as their immigration status, determine their work rights."
+            },
+            {
+              "q": "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
+              "a": "Students can use Edu Hawk Worldwide to plan their study-abroad journey, organize their application materials, research appropriate universities, and comprehend admission standards. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "universities": [],
+  "table": {
+    "title": "Estimated Cost of Studying Language Courses in the UK (Tuition & Living)",
+    "headers": [
+      "Category / Level",
+      "Estimated Cost (£ / GBP)",
+      "Details / Scope"
+    ],
+    "rows": [
+      [
+        "Undergraduate Degree (Annual)",
+        "£14,000 – £28,000 / year",
+        "Varies by university ranking, laboratory access, and course type"
+      ],
+      [
+        "Postgraduate Degree (Annual)",
+        "£16,000 – £35,000 / year",
+        "1-year intensive master's program or research dissertation"
+      ],
+      [
+        "Monthly Living Costs (Outside London)",
+        "£900 – £1,100 / month",
+        "Includes private/student accommodation, groceries, and utilities"
+      ],
+      [
+        "Monthly Living Costs (London)",
+        "£1,250 – £1,450 / month",
+        "Mandated UKVI maintenance requirement for London study"
+      ],
+      [
+        "Health Surcharge (IHS)",
+        "£776 / year",
+        "Access to UK National Health Service (NHS) for student visa holders"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Q1. Is taking language classes in the UK a best option?",
+      "a": "Yes . The UK provides a range of specialized courses, university-based programs, and language schools. Students can study foreign languages in a global setting, get ready for language tests, or enhance their English communication abilities."
+    },
+    {
+      "q": "Q2. What is the duration of language lessons in the United Kingdom?",
+      "a": "Longer programs can run for several months, although shorter courses might just last a few weeks. The length is determined by the provider's course format, the student's language proficiency, and their learning objectives."
+    },
+    {
+      "q": "Q3. What qualifications are needed to enrolll in language classes in the UK?",
+      "a": "Beginners may be accepted into general English courses, which may not require formal academic credentials. University-level programs, academic English, translation, and interpreting may call for prior training or a certain degree of language competency."
+    },
+    {
+      "q": "Q4. In the UK, how much do language classes cost?",
+      "a": "Many General English courses cost between £200 and £500 per week, many General English courses cost between £150 and £400 per week. Additional charges include living expenses, test fees, lodging, and other expenses."
+    },
+    {
+      "q": "Q5. After finishing a language course, can I get employment in the UK?",
+      "a": "Completing a language course does not automatically make one eligible for a post-study visa or authorization to work in the UK. The rules that apply to a person's course and circumstances, as well as their immigration status, determine their work rights."
+    },
+    {
+      "q": "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
+      "a": "Students can use Edu Hawk Worldwide to plan their study-abroad journey, organize their application materials, research appropriate universities, and comprehend admission standards. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
+    }
+  ]
+};
+
+export default function languagecoursesUK() {
+  return (
+    <AbroadCoursePage
+      page={page}
+      heroImg={heroImg}
+      heroBgImg={heroBgImg}
+      sideImg={sideImg}
+      ctaBgImg={ctaBgImg}
+      showHeroStats={false}
+      seoPath="/study-abroad/uk/language-courses"
+    />
+  );
+}

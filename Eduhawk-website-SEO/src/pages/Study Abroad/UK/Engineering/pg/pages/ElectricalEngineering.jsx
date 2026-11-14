@@ -1,0 +1,850 @@
+import React from "react";
+import { AbroadCoursePage } from "../../../../../../component/CoursePageKit.jsx";
+
+// Page layout images
+import heroImg from "../../../../../../Images/Abroad/UK/Engineering_PG/Electrical/hero.webp";
+import heroBgImg from "../../../../../../Images/Abroad/UK/Engineering_PG/Electrical/hero_bg.webp";
+import sideImg from "../../../../../../Images/Abroad/UK/Engineering_PG/Electrical/side.webp";
+import ctaBgImg from "../../../../../../Images/Abroad/UK/Engineering_PG/Electrical/cta_bg.webp";
+
+// University images
+import uniImg1 from "../../../../../../Images/Abroad/UK/Engineering_PG/Electrical/Birmingham_University.webp";
+import uniImg2 from "../../../../../../Images/Abroad/UK/Engineering_PG/Electrical/Bristol_University.webp";
+import uniImg3 from "../../../../../../Images/Abroad/UK/Engineering_PG/Electrical/Nottingham_University.webp";
+import uniImg4 from "../../../../../../Images/Abroad/UK/Engineering_PG/Electrical/Strathclyde_University.webp";
+
+const page = {
+  "name": "MSc Electrical Engineering in the UK",
+  "country": "UK",
+  "slug": "pg/electrical-engineering",
+  "title": "Study MSc Electrical Engineering in the UK for Indian Students | Edu-Hawk Worldwide",
+  "description": "Complete guide to MSc Electrical Engineering in the UK for Indian students: Top UK universities, eligibility criteria, tuition fees (£14,000–£35,000/yr), scholarships, and 2-year post-study work visa (Graduate Route).",
+  "keywords": "Study MSc Electrical Engineering in the UK, MSc Electrical Engineering in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
+  "introTitle": "Study Electrical Engineering (PG) in the United Kingdom",
+  "heroParas": [
+    "International students pursuing postgraduate studies in Electrical Engineering frequently choose to study in the United Kingdom. Advanced programs that integrate engineering theory, practical applications, research, and industry-focused learning are available at UK universities.",
+    "The main advantages of studying electrical engineering in the UK",
+    "Obtain a postgraduate degree from a UK university that is recognized internationally."
+  ],
+  "overview": [
+    "International students pursuing postgraduate studies in Electrical Engineering frequently choose to study in the United Kingdom. Advanced programs that integrate engineering theory, practical applications, research, and industry-focused learning are available at UK universities.",
+    "The main advantages of studying electrical engineering in the UK",
+    "Obtain a postgraduate degree from a UK university that is recognized internationally."
+  ],
+  "level": "MSc Electrical Engineering",
+  "crumb": "Engineering / PG / Electrical Engineering",
+  "stats": [
+    {
+      "label": "Degree Choices",
+      "value": "MSc Electrical Engineering"
+    },
+    {
+      "label": "Course Duration",
+      "value": "1 to 2 Years (PG)"
+    },
+    {
+      "label": "Top Institutions",
+      "value": "Birmingham University, Bristol University, Nottingham University"
+    },
+    {
+      "label": "Post-Study Work",
+      "value": "2 Years Graduate Route Visa"
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why",
+      "eyebrow": "Why Study in the UK",
+      "title": "Why Study Electrical Engineering in the UK?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "International students pursuing postgraduate studies in Electrical Engineering frequently choose to study in the United Kingdom. Advanced programs that integrate engineering theory, practical applications, research, and industry-focused learning are available at UK universities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The main advantages of studying electrical engineering in the UK"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Obtain a postgraduate degree from a UK university that is recognized internationally.",
+            "Advanced Technical Knowledge: Gain proficiency in electrical machines, electronics, control systems, and power systems.",
+            "Through laboratory sessions, engineering projects, simulations, and research assignments, students can acquire practical knowledge through industry-focused education.",
+            "Opportunities for Specialization: Select fields like power engineering, electrical systems, automation, control engineering, or renewable energy.",
+            "Explore smart grids, electric vehicles, energy storage, robotics, and intelligent electrical systems as emerging technologies.",
+            "Innovation and Research: Take part in studies on advanced electrical systems, energy efficiency, power electronics, and sustainable energy.",
+            "International Career Opportunities: Get ready for engineering positions in the manufacturing, energy, utilities, automation, and technology sectors.",
+            "Professional Development: Choose programs that have the necessary accreditation to help you register as a professional with the proper engineering institutes."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students who wish to specialize in a particular area, expand their technical knowledge, or acquire skills for research and professional engineering positions should pursue a postgraduate degree in Electrical Engineering."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu Hawk worldwide consultancy helps students prepare for their foreign education adventure, understand university admission requirements, and investigate international study possibilities with the right preparation and direction."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "content",
+      "eyebrow": "Course Guide",
+      "title": "UK Courses in Electrical Engineering",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "In the UK, master's degrees and research credentials are offered in postgraduate electrical engineering programs. While part-time and research programs may take longer, the majority of full-time taught master's programs last one year."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Course"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Electrical engineering master's degree",
+            "Electrical Power Systems Master of Science",
+            "Power Electronics and Drives Master of Science",
+            "Renewable Energy Engineering Master of Science",
+            "Control Systems Engineering Master of Science",
+            "Electronic engineering master's degree",
+            "Electrical and electronic engineering master's degree",
+            "Master of Science in Energy Systems and Smart Grids",
+            "Master of Science in Electric Vehicle Engineering",
+            "Electrical Engineering Master of Philosophy",
+            "Electrical Engineering Doctor of Philosophy"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Postgraduate Electrical Engineering Core Subjects"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students may study the following, depending on their selected specialization:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Advanced Circuit Analysis of Electrical Systems",
+            "Electrical Drives and Machines",
+            "The analysis of power systems",
+            "Converters and Power Electronics",
+            "Technologies for Renewable Energy",
+            "\"Smart Grid Technologies\"",
+            "Automation and Control Systems",
+            "Digital Signal Processing",
+            "Microcontrollers and Embedded Systems",
+            "Battery technologies and energy storage",
+            "Electrical System Simulation and Modeling",
+            "Methods of Research and Dissertation"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Institutions",
+      "title": "The UK's Best Universities for Electrical Engineering",
+      "groups": [
+        {
+          "t": "universities",
+          "items": [
+            {
+              "name": "Birmingham University",
+              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
+              "imgKey": "uniImg_Birmingham_University_webp",
+              "img": uniImg1
+            },
+            {
+              "name": "Bristol University",
+              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
+              "imgKey": "uniImg_Bristol_University_webp",
+              "img": uniImg2
+            },
+            {
+              "name": "Nottingham University",
+              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
+              "imgKey": "uniImg_Nottingham_University_webp",
+              "img": uniImg3
+            },
+            {
+              "name": "Strathclyde University",
+              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
+              "imgKey": "uniImg_Strathclyde_University_webp",
+              "img": uniImg4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "content",
+      "eyebrow": "Course Guide",
+      "title": "Qualifications for Studying Electrical Engineering in the United Kingdom",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "To apply for postgraduate Electrical Engineering programs in the UK , Indian students typically need a valid undergraduate degree and adequate English language proficiency."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic Qualifications"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A bachelor's degree in electrical engineering, electrical and electronics engineering, electronics engineering, or a similar field that has been approved by the university.",
+            "Minimum Academic Marks: Approximately 55%–65% or an equivalent grade is required by several colleges. Higher grades can be necessary for competitive programs.",
+            "A suitable foundation in mathematics, electrical circuits, electronics, power systems, or other pertinent engineering courses is required of applicants.",
+            "Final-Year Students: If they meet the final entrance requirements, certain universities will accept applications from students who have completed their bachelor's degree.",
+            "Work experience is typically not required for ordinary MSc programs, though it can help with applications to specialized courses.",
+            "Research Background: Master's programs and doctorate applications may benefit from research experience."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "English-Language Qualifications"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The institution may require international applicants to prove their English proficiency using IELTS Academic, TOEFL iBT, PTE Academic or another credential."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "An IELTS score of approximately 6.5 overall is required for many postgraduate programs, sometimes with minimal levels in individual components. Institutions and programs have different requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Extra Eligibility Factors"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "When necessary, professional recommendations or scholarly references.",
+            "A statement of purpose outlining one's academic pursuits and professional objectives.",
+            "A curriculum vitae for courses or research applications that are pertinent.",
+            "A research proposal for courses that call for one.",
+            "Relevant work experience, if the university specifies."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Eligibility & Process",
+      "title": "UK Admission Requirements for Electrical Engineering",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The university, the chosen specialization, and whether the program is taught or research-based all affect the requirements for postgraduate entry."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A recognized bachelor's degree in electrical engineering or a related discipline",
+            "The minimum score usually ranges from 55% to 65%, depending on the university. .",
+            "Academic transcripts | Undergraduate grades and official transcripts",
+            "English proficiency | IELTS, TOEFL, PTE, or a recognized substitute, if necessary",
+            "Statement of purpose | Describes professional goals, course selection, and academic background",
+            "Academic or professional references, if necessary",
+            "Letters of recommendation",
+            "Curriculum vitae | Frequently needed for research applications and pertinent courses",
+            "Work experience is only necessary for specific programs; otherwise, it could be optional.",
+            "Research proposals could be necessary for research degrees.",
+            "Interview | May be necessary for some programs or research roles"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Language Requirements in English"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "English-language requirements for postgraduate Electrical Engineering programs are determined by universities. On the official course page, applicants should verify the accepted tests, minimum component scores, and overall score."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "cost",
+      "eyebrow": "Tuition & Living",
+      "title": "The cost of studying electrical engineering in the United Kingdom",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The university, program, location, and lifestyle of the student all affect the cost of postgraduate Electrical Engineering. Budgeting for tuition, lodging, food, transportation, study materials, and personal expenses is important for international students."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The cost of tuition"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "For a one-year postgraduate Electrical Engineering program, overseas students should budget roughly £20,000–£40,000 or more as a general planning estimate. Certain universities may charge more for specialized programs.",
+            "Always use the university's official website to verify the current international tuition fee for the planned intake."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Estimated Annual Costs"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "The cost of tuition is between £20,000 and £40,000+.",
+            "Accommodation: £6,000 to £12,000",
+            "Food and groceries: £2,000–£3,600",
+            "Local transportation costs between £600 and £1,500.",
+            "Books and study materials: £300 to £800",
+            "Personal costs: £1,000–£2,400"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The estimated cost is between £29,900 and £60,300+."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Postgraduate Electrical Engineering Scholarships"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students from other countries can explore :"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "International scholarships tailored to a particular university",
+            "Postgraduate scholarships are awarded based on merit.",
+            "Scholarships and bursaries from the engineering department",
+            "Grants and funding opportunities for education from outside sources.",
+            "Subject to the relevant eligibility requirements, there are Chevening Scholarships.",
+            "When a candidate and program fulfill the conditions for the award, they are eligible for a Commonwealth Scholarship."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Scholarships might pay for living expenses, tuition, or only a portion of the total cost. Before applying, students should review the funding levels, dates, and eligibility requirements."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Eligibility & Process",
+      "title": "The UK's Admissions Process for Electrical Engineering",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Indian students can apply for a postgraduate Electrical Engineering program in the UK by following these steps."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 1: Look Up Courses and Universities"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Universities with MSc programs in Electrical Engineering and related specializations should be on your shortlist. Examine course modules, costs, length, prerequisites, research facilities, and employment prospects."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 2: Verify Your Academic Eligibility"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Verify that your prior engineering courses, academic standing, and bachelor's degree fulfilll the university's requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 3 : Prepare the necessary documents"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Gather your degree certificates, academic transcripts, passport, resume, academic references, statement of purpose, and, if necessary, the results of your English language tests."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 4: Send in Your Application"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Apply via the designated application route or the university's official application portal. Applications are accepted directly through university websites for the majority of postgraduate taught programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 5: Get a Decision on Admission"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "After reviewing your application, the institution may make an unconditional or conditional offer. Fulfill any unfulfilled academic or paperwork requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 6: Make Accommodation and Funding Arrangements"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Make arrangements for living expenses, housing, tuition, and any other financial documentation for your student visa application."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 7 : Applying for a UK student visa"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Apply for a student visa if necessary after fulfilling the requirements for admission and obtaining your Confirmation of Acceptance for Studies (CAS)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 8: Go to the UK and Start Your Program"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Start your postgraduate Electrical Engineering program after completing your university registration and attending orientation."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "content",
+      "eyebrow": "Course Guide",
+      "title": "Accreditation and Professional Recognition for Electrical Engineering in the United Kingdom",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "For postgraduate Electrical Engineering students hoping to go toward professional engineering registration in the UK , professional recognition can be crucial."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The Engineering and Technology Institute (IET)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The Institution of Engineering and Technology (IET) is a professional engineering organization that offers avenues for professional registration, membership, and professional growth to engineers."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "How to Verify Accreditation"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Determine the precise university and postgraduate course.",
+            "Verify its accreditation status by contacting the appropriate professional engineering organization.",
+            "Verify which academic prerequisites the program meets.",
+            "Examine any prerequisites for more education, experience, and professional growth.",
+            "Program and intake year can have an impact on accreditation. Before submitting an application, confirm the current status directly with the appropriate institution."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "career",
+      "eyebrow": "Career & Prospects",
+      "title": "Pay and Employment Prospects for Electrical Engineers in the United Kingdom",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Opportunities in energy, power production, renewable energy, manufacturing, automation, electronics, and engineering consulting are available to graduates of postgraduate electrical engineering programs. Technical proficiency, specialization, experience, employer demands, and professional growth all affect career advancement."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Postgraduate Electrical Engineering Career Opportunities"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Job opportunities"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "An electrical engineer",
+            "Engineer for Power Systems",
+            "Engineer for Electrical Design",
+            "Engineer for Control Systems",
+            "Engineer for Power Electronics",
+            "Engineer for Renewable Energy",
+            "An electronics engineer",
+            "Engineer for Automation",
+            "Engineer for Electrical Projects",
+            "Engineer for Electric Vehicles"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Graduate or Entry-Level Electrical Engineer | £25,000–£32,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electrical Engineer with two to five years of experience | £30,000 to £45,000 |"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Experienced Power Systems or Electrical Engineer | £40,000–£60,000 |"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Senior Electrical Engineer or Engineering Manager | £50,000–£75,000+ |"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Principal Sectors of Employment"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Graduates in electrical engineering may look for work in:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Companies that generate and distribute electricity",
+            "Clean technology and renewable energy firms.",
+            "Producers of electrical equipment.",
+            "Manufacturing and industrial automation companies.",
+            "Electronics and semiconductor firms.",
+            "Companies that develop batteries and electric vehicles.",
+            "Engineering design and consulting firms.",
+            "Transportation, infrastructure, and railroad companies.",
+            "Companies that provide electrical and building services."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "content",
+      "eyebrow": "Course Guide",
+      "title": "Documents Needed to Study Electrical Engineering in the United Kingdom",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "For university admission and the ensuing visa procedure, Indian students need to have the following paperwork ready."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic Writings"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "If requested, the class 10 marksheet and certificate.",
+            "If requested, the class 12 marksheet and certificate.",
+            "A provisional or bachelor's degree certificate.",
+            "Undergraduate academic transcripts and marksheets.",
+            "If necessary, further qualifying certifications."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Documents for Applications"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A current passport.",
+            "The purpose statement",
+            "A resume or curriculum vitae",
+            "When necessary, academic or professional recommendation letters.",
+            "If necessary, the results of the English language test.",
+            "A completed application for a university.",
+            "A research proposal for programs that call for one.",
+            "Proof of pertinent research, projects, internships, or employment, if relevant."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Documents related to finances and visas"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Confirmation of Acceptance for Research (CAS)",
+            "Proof of funds fulfilling the requirements for a UK student visa.",
+            "When applicable, proof of previously paid tuition.",
+            "Financial sponsorship records, if applicable.",
+            "Payment information for immigration health surcharges, if any.",
+            "Extra paperwork that the university or UK Visas and Immigration requests."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "faqs",
+      "eyebrow": "Got Questions?",
+      "title": "FAQs",
+      "groups": [
+        {
+          "t": "faqs",
+          "items": [
+            {
+              "q": "What is the duration required to finish a postgraduate degree in Electrical Engineering in the United Kingdom?",
+              "a": "The majority of master's programs that are taught full-time last a year. Depending on the university and program structure, research degrees and part-time master's programs may take longer."
+            },
+            {
+              "q": "After earning a bachelor's degree in India, are Indian students able to pursue postgraduate studies in Electrical Engineering in the UK?",
+              "a": "Yes . If they fulfill the academic and English-language requirements of the university, Indian students having a recognized bachelor's degree in Electrical Engineering, Electrical and Electronics Engineering, or a similar field may apply."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "cost",
+      "eyebrow": "Tuition & Living",
+      "title": "How much does a postgraduate degree in electrical engineering cost in the UK?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "For a one-year master's program, international tuition costs might vary from between £20,000 to £40,000 or more. Living costs are extra, and the whole budget is determined by the lifestyle, city, and university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "4. Does postgraduate Electrical Engineering in the UK require taking the IELTS?"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Not all the time. While some colleges may accept alternative proof or provide exemptions, many others need IELTS Academic or another recognized English-language qualification. Candidates should verify the prerequisites of the curriculum they have selected."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "5. After earning a masters degree in electrical engineering in the UK, what professional options are available?"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electrical engineers, power systems engineers, electrical design engineers, control systems engineers, renewable energy engineers, electronics engineers, and automation engineers are among the professions that graduates can pursue. Technical proficiency, experience, corporate demands, and professional recognition all influence career prospects."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students may choose appropriate colleges, comprehend entrance standards, organize application materials, and arrange their study abroad experience with the assistance of Edu Hawk worldwide. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
+          ]
+        }
+      ]
+    }
+  ],
+  "universities": [
+    {
+      "name": "Birmingham University",
+      "city": "United Kingdom",
+      "rank": "Top Ranked UK University",
+      "fee": "£16,000 - £35,000 / yr",
+      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
+      "imgFile": "Birmingham_University.webp"
+    },
+    {
+      "name": "Bristol University",
+      "city": "United Kingdom",
+      "rank": "Top Ranked UK University",
+      "fee": "£16,000 - £35,000 / yr",
+      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
+      "imgFile": "Bristol_University.webp"
+    },
+    {
+      "name": "Nottingham University",
+      "city": "United Kingdom",
+      "rank": "Top Ranked UK University",
+      "fee": "£16,000 - £35,000 / yr",
+      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
+      "imgFile": "Nottingham_University.webp"
+    },
+    {
+      "name": "Strathclyde University",
+      "city": "United Kingdom",
+      "rank": "Top Ranked UK University",
+      "fee": "£16,000 - £35,000 / yr",
+      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
+      "imgFile": "Strathclyde_University.webp"
+    }
+  ],
+  "table": {
+    "title": "Estimated Cost of Studying MSc Electrical Engineering in the UK (Tuition & Living)",
+    "headers": [
+      "Category / Level",
+      "Estimated Cost (£ / GBP)",
+      "Details / Scope"
+    ],
+    "rows": [
+      [
+        "Undergraduate Degree (Annual)",
+        "£14,000 – £28,000 / year",
+        "Varies by university ranking, laboratory access, and course type"
+      ],
+      [
+        "Postgraduate Degree (Annual)",
+        "£16,000 – £35,000 / year",
+        "1-year intensive master's program or research dissertation"
+      ],
+      [
+        "Monthly Living Costs (Outside London)",
+        "£900 – £1,100 / month",
+        "Includes private/student accommodation, groceries, and utilities"
+      ],
+      [
+        "Monthly Living Costs (London)",
+        "£1,250 – £1,450 / month",
+        "Mandated UKVI maintenance requirement for London study"
+      ],
+      [
+        "Health Surcharge (IHS)",
+        "£776 / year",
+        "Access to UK National Health Service (NHS) for student visa holders"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "What is the duration required to finish a postgraduate degree in Electrical Engineering in the United Kingdom?",
+      "a": "The majority of master's programs that are taught full-time last a year. Depending on the university and program structure, research degrees and part-time master's programs may take longer."
+    },
+    {
+      "q": "After earning a bachelor's degree in India, are Indian students able to pursue postgraduate studies in Electrical Engineering in the UK?",
+      "a": "Yes . If they fulfill the academic and English-language requirements of the university, Indian students having a recognized bachelor's degree in Electrical Engineering, Electrical and Electronics Engineering, or a similar field may apply."
+    }
+  ]
+};
+
+export default function ElectricalEngineeringUK() {
+  return (
+    <AbroadCoursePage
+      page={page}
+      heroImg={heroImg}
+      heroBgImg={heroBgImg}
+      sideImg={sideImg}
+      ctaBgImg={ctaBgImg}
+      showHeroStats={false}
+      seoPath="/study-abroad/uk/pg/electrical-engineering"
+    />
+  );
+}

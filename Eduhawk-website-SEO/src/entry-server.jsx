@@ -295,6 +295,50 @@ import LawSpain from "./pages/Study Abroad/Spain/Law/law.jsx";
 import LanguageCoursesSpain from "./pages/Study Abroad/Spain/LanguageCourses/language-courses.jsx";
 import SummerCoursesSpain from "./pages/Study Abroad/Spain/SummerCourses/summer-courses.jsx";
 import WinterCoursesSpain from "./pages/Study Abroad/Spain/WinterCourses/winter-courses.jsx";
+// UK Routes
+import DentistryAbroadUK from "./pages/Study Abroad/UK/MBBS Abroad/DentistryAbroad.jsx";
+import NursingAbroadUK from "./pages/Study Abroad/UK/MBBS Abroad/NursingAbroad.jsx";
+import PharmacyAbroadUK from "./pages/Study Abroad/UK/MBBS Abroad/PharmacyAbroad.jsx";
+import PhysiotherapyAbroadUK from "./pages/Study Abroad/UK/MBBS Abroad/PhysiotherapyAbroad.jsx";
+import PublicHealthUK from "./pages/Study Abroad/UK/MBBS Abroad/PublicHealth.jsx";
+import BiotechnologyUK from "./pages/Study Abroad/UK/MBBS Abroad/Biotechnology.jsx";
+import ComputerScienceUK from "./pages/Study Abroad/UK/ComputerScience/computer-science.jsx";
+import InformationTechnologyUK from "./pages/Study Abroad/UK/InformationTechnology/information-technology.jsx";
+import UndergraduateEngineeringUK from "./pages/Study Abroad/UK/Engineering/ug/undergraduate.jsx";
+import ComputerEngineeringUGUK from "./pages/Study Abroad/UK/Engineering/ug/pages/ComputerEngineering.jsx";
+import MechanicalEngineeringUGUK from "./pages/Study Abroad/UK/Engineering/ug/pages/MechanicalEngineering.jsx";
+import CivilEngineeringUGUK from "./pages/Study Abroad/UK/Engineering/ug/pages/CivilEngineering.jsx";
+import ElectricalEngineeringUGUK from "./pages/Study Abroad/UK/Engineering/ug/pages/ElectricalEngineering.jsx";
+import ElectronicsCommunicationUGUK from "./pages/Study Abroad/UK/Engineering/ug/pages/ElectronicsCommunication.jsx";
+import ChemicalEngineeringUGUK from "./pages/Study Abroad/UK/Engineering/ug/pages/ChemicalEngineering.jsx";
+import AerospaceEngineeringUGUK from "./pages/Study Abroad/UK/Engineering/ug/pages/AerospaceEngineering.jsx";
+import BiomedicalEngineeringUGUK from "./pages/Study Abroad/UK/Engineering/ug/pages/BiomedicalEngineering.jsx";
+import AutomobileEngineeringUGUK from "./pages/Study Abroad/UK/Engineering/ug/pages/AutomobileEngineering.jsx";
+import PostgraduateEngineeringUK from "./pages/Study Abroad/UK/Engineering/pg/postgraduate.jsx";
+import ComputerEngineeringPGUK from "./pages/Study Abroad/UK/Engineering/pg/pages/ComputerEngineering.jsx";
+import MechanicalEngineeringPGUK from "./pages/Study Abroad/UK/Engineering/pg/pages/MechanicalEngineering.jsx";
+import CivilEngineeringPGUK from "./pages/Study Abroad/UK/Engineering/pg/pages/CivilEngineering.jsx";
+import ElectricalEngineeringPGUK from "./pages/Study Abroad/UK/Engineering/pg/pages/ElectricalEngineering.jsx";
+import ElectronicsCommunicationPGUK from "./pages/Study Abroad/UK/Engineering/pg/pages/ElectronicsCommunication.jsx";
+import ChemicalEngineeringPGUK from "./pages/Study Abroad/UK/Engineering/pg/pages/ChemicalEngineering.jsx";
+import AerospaceEngineeringPGUK from "./pages/Study Abroad/UK/Engineering/pg/pages/AerospaceEngineering.jsx";
+import BiomedicalEngineeringPGUK from "./pages/Study Abroad/UK/Engineering/pg/pages/BiomedicalEngineering.jsx";
+import AutomobileEngineeringPGUK from "./pages/Study Abroad/UK/Engineering/pg/pages/AutomobileEngineering.jsx";
+import BusinessManagementUK from "./pages/Study Abroad/UK/BusinessManagement/business-management.jsx";
+import MBAUK from "./pages/Study Abroad/UK/MBA/mba.jsx";
+import ExecutiveMBAUK from "./pages/Study Abroad/UK/ExecutiveMBA/executive-mba.jsx";
+import BBAUK from "./pages/Study Abroad/UK/BBA/bba.jsx";
+import BBSUK from "./pages/Study Abroad/UK/BBS/bbs.jsx";
+import MBSUK from "./pages/Study Abroad/UK/MBS/mbs.jsx";
+import InternationalBusinessUK from "./pages/Study Abroad/UK/InternationalBusiness/international-business.jsx";
+import MarketingManagementUK from "./pages/Study Abroad/UK/MarketingManagement/marketing-management.jsx";
+import HospitalityManagementUK from "./pages/Study Abroad/UK/HospitalityManagement/hospitality-management.jsx";
+import ArchitectureUK from "./pages/Study Abroad/UK/Architecture/architecture.jsx";
+import LawUK from "./pages/Study Abroad/UK/Law/law.jsx";
+import LanguageCoursesUK from "./pages/Study Abroad/UK/LanguageCourses/language-courses.jsx";
+import SummerCoursesUK from "./pages/Study Abroad/UK/SummerCourses/summer-courses.jsx";
+import WinterCoursesUK from "./pages/Study Abroad/UK/WinterCourses/winter-courses.jsx";
+
 
 export async function render(url) {
   const helmetContext = {};
@@ -591,6 +635,49 @@ export async function render(url) {
               <Route path="study-abroad/spain/language-courses" element={<LanguageCoursesSpain />} />
               <Route path="study-abroad/spain/summer-courses" element={<SummerCoursesSpain />} />
               <Route path="study-abroad/spain/winter-courses" element={<WinterCoursesSpain />} />
+              {/* UK Routes */}
+              <Route path="study-abroad/uk/dentistry" element={<DentistryAbroadUK />} />
+              <Route path="study-abroad/uk/nursing" element={<NursingAbroadUK />} />
+              <Route path="study-abroad/uk/pharmacy" element={<PharmacyAbroadUK />} />
+              <Route path="study-abroad/uk/physiotherapy" element={<PhysiotherapyAbroadUK />} />
+              <Route path="study-abroad/uk/public-health" element={<PublicHealthUK />} />
+              <Route path="study-abroad/uk/biotechnology" element={<BiotechnologyUK />} />
+              <Route path="study-abroad/uk/computer-science" element={<ComputerScienceUK />} />
+              <Route path="study-abroad/uk/information-technology" element={<InformationTechnologyUK />} />
+              <Route path="study-abroad/uk/ug/engineering" element={<UndergraduateEngineeringUK />} />
+              <Route path="study-abroad/uk/ug/computer-engineering" element={<ComputerEngineeringUGUK />} />
+              <Route path="study-abroad/uk/ug/mechanical-engineering" element={<MechanicalEngineeringUGUK />} />
+              <Route path="study-abroad/uk/ug/civil-engineering" element={<CivilEngineeringUGUK />} />
+              <Route path="study-abroad/uk/ug/electrical-engineering" element={<ElectricalEngineeringUGUK />} />
+              <Route path="study-abroad/uk/ug/electronics-communication" element={<ElectronicsCommunicationUGUK />} />
+              <Route path="study-abroad/uk/ug/chemical-engineering" element={<ChemicalEngineeringUGUK />} />
+              <Route path="study-abroad/uk/ug/aerospace-engineering" element={<AerospaceEngineeringUGUK />} />
+              <Route path="study-abroad/uk/ug/biomedical-engineering" element={<BiomedicalEngineeringUGUK />} />
+              <Route path="study-abroad/uk/ug/automobile-engineering" element={<AutomobileEngineeringUGUK />} />
+              <Route path="study-abroad/uk/pg/engineering" element={<PostgraduateEngineeringUK />} />
+              <Route path="study-abroad/uk/pg/computer-engineering" element={<ComputerEngineeringPGUK />} />
+              <Route path="study-abroad/uk/pg/mechanical-engineering" element={<MechanicalEngineeringPGUK />} />
+              <Route path="study-abroad/uk/pg/civil-engineering" element={<CivilEngineeringPGUK />} />
+              <Route path="study-abroad/uk/pg/electrical-engineering" element={<ElectricalEngineeringPGUK />} />
+              <Route path="study-abroad/uk/pg/electronics-communication" element={<ElectronicsCommunicationPGUK />} />
+              <Route path="study-abroad/uk/pg/chemical-engineering" element={<ChemicalEngineeringPGUK />} />
+              <Route path="study-abroad/uk/pg/aerospace-engineering" element={<AerospaceEngineeringPGUK />} />
+              <Route path="study-abroad/uk/pg/biomedical-engineering" element={<BiomedicalEngineeringPGUK />} />
+              <Route path="study-abroad/uk/pg/automobile-engineering" element={<AutomobileEngineeringPGUK />} />
+              <Route path="study-abroad/uk/business-management" element={<BusinessManagementUK />} />
+              <Route path="study-abroad/uk/mba" element={<MBAUK />} />
+              <Route path="study-abroad/uk/executive-mba" element={<ExecutiveMBAUK />} />
+              <Route path="study-abroad/uk/bba" element={<BBAUK />} />
+              <Route path="study-abroad/uk/bbs" element={<BBSUK />} />
+              <Route path="study-abroad/uk/mbs" element={<MBSUK />} />
+              <Route path="study-abroad/uk/international-business" element={<InternationalBusinessUK />} />
+              <Route path="study-abroad/uk/marketing-management" element={<MarketingManagementUK />} />
+              <Route path="study-abroad/uk/hospitality-management" element={<HospitalityManagementUK />} />
+              <Route path="study-abroad/uk/architecture" element={<ArchitectureUK />} />
+              <Route path="study-abroad/uk/law" element={<LawUK />} />
+              <Route path="study-abroad/uk/language-courses" element={<LanguageCoursesUK />} />
+              <Route path="study-abroad/uk/summer-courses" element={<SummerCoursesUK />} />
+              <Route path="study-abroad/uk/winter-courses" element={<WinterCoursesUK />} />
               <Route path="terms-conditions" element={<TermsAndConditions />} />
               <Route path="privacy-policy" element={<PrivacyPolicy />} />
               <Route path="cookies-policy" element={<CookiesPolicy />} />
