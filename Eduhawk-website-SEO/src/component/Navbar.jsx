@@ -13,6 +13,7 @@ import Eduhawk from "../assets/Eduhawk.webp"; // ← adjust path if needed
     "France",
     "Finland",
     "Italy",
+    "Spain",
     "Other",
   ];
 
@@ -160,6 +161,24 @@ const Navbar = () => {
       if (path === "biotechnology") return "/study-abroad/canada/biotechnology";
       if (path === "engineering") return "/study-abroad/canada/ug/engineering";
       return `/study-abroad/canada/${path}`;
+    }
+    if (selectedCountry === "Spain") {
+      if (prefix === "/courses/ug") {
+        if (path === "engineering") return "/study-abroad/spain/ug/engineering";
+        return `/study-abroad/spain/ug/${path}`;
+      }
+      if (prefix === "/courses/pg") {
+        if (path === "engineering") return "/study-abroad/spain/pg/engineering";
+        return `/study-abroad/spain/pg/${path}`;
+      }
+      if (path === "dentistry") return "/study-abroad/spain/dentistry";
+      if (path === "nursing") return "/study-abroad/spain/nursing";
+      if (path === "pharmacy") return "/study-abroad/spain/pharmacy";
+      if (path === "physiotherapy") return "/study-abroad/spain/physiotherapy";
+      if (path === "public-health") return "/study-abroad/spain/public-health";
+      if (path === "biotechnology") return "/study-abroad/spain/biotechnology";
+      if (path === "engineering") return "/study-abroad/spain/ug/engineering";
+      return `/study-abroad/spain/${path}`;
     }
     return `${prefix}/${path}?country=${selectedCountry.toLowerCase()}`;
   };

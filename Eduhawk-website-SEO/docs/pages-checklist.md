@@ -20,6 +20,7 @@
 9. [Study Abroad - France (45)](#9-study-abroad---france-45)
 10. [Study Abroad - Finland (45)](#10-study-abroad---finland-45)
 11. [Study Abroad - Italy (41)](#11-study-abroad---italy-41)
+12. [Study Abroad - Spain (41)](#12-study-abroad---spain-41)
 11. [Study Abroad - Other (45)](#11-study-abroad---other-45)
 12. [Common Global Programs & Seasonal Hubs (4)](#12-common-global-programs--seasonal-hubs-4)
 13. [Global Fallback / Common Courses (43)](#13-global-fallback--common-courses-43)
@@ -895,3 +896,51 @@
 ---
 *Created for Edu-Hawk Worldwide Website Audit & Content Verification.*  
 *Note: Dedicated routes for USA and Finland are currently live and pre-rendered; remaining countries are mapped for full coverage audit.*
+
+---
+
+## 12. Study Abroad - Spain 🇪🇸 (41)
+
+| Overall # | Group # | Status | Page Name | Route Path |
+| :---: | :---: | :---: | :--- | :--- |
+| **ES01** | 01 | ✔️ | Dentistry in Spain | `/study-abroad/spain/dentistry` |
+| **ES02** | 02 | ✔️ | Nursing in Spain | `/study-abroad/spain/nursing` |
+| **ES03** | 03 | ✔️ | Pharmacy in Spain | `/study-abroad/spain/pharmacy` |
+| **ES04** | 04 | ✔️ | Physiotherapy in Spain | `/study-abroad/spain/physiotherapy` |
+| **ES05** | 05 | ✔️ | Public Health in Spain | `/study-abroad/spain/public-health` |
+| **ES06** | 06 | ✔️ | Biotechnology in Spain | `/study-abroad/spain/biotechnology` |
+| **ES07** | 07 | ✔️ | Computer Science in Spain | `/study-abroad/spain/computer-science` |
+| **ES08** | 08 | ✔️ | Information Technology in Spain | `/study-abroad/spain/information-technology` |
+| **ES09** | 09 | ✔️ | UG Engineering Hub in Spain | `/study-abroad/spain/ug/engineering` |
+| **ES10** | 10 | ✔️ | Computer Engineering in Spain | `/study-abroad/spain/ug/computer-engineering` |
+| **ES11** | 11 | ✔️ | Mechanical Engineering in Spain | `/study-abroad/spain/ug/mechanical-engineering` |
+| **ES12** | 12 | ✔️ | Civil Engineering in Spain | `/study-abroad/spain/ug/civil-engineering` |
+| **ES13** | 13 | ✔️ | Electrical Engineering in Spain | `/study-abroad/spain/ug/electrical-engineering` |
+| **ES14** | 14 | ✔️ | Electronics & Communication in Spain | `/study-abroad/spain/ug/electronics-communication` |
+| **ES15** | 15 | ✔️ | Chemical Engineering in Spain | `/study-abroad/spain/ug/chemical-engineering` |
+| **ES16** | 16 | ✔️ | Aerospace Engineering in Spain | `/study-abroad/spain/ug/aerospace-engineering` |
+| **ES17** | 17 | ✔️ | Biomedical Engineering in Spain | `/study-abroad/spain/ug/biomedical-engineering` |
+| **ES18** | 18 | ✔️ | Automobile Engineering in Spain | `/study-abroad/spain/ug/automobile-engineering` |
+| **ES19** | 19 | ✔️ | PG Engineering Hub in Spain | `/study-abroad/spain/pg/engineering` |
+| **ES20** | 20 | ✔️ | Computer Engineering in Spain | `/study-abroad/spain/pg/computer-engineering` |
+| **ES21** | 21 | ✔️ | Mechanical Engineering in Spain | `/study-abroad/spain/pg/mechanical-engineering` |
+| **ES22** | 22 | ✔️ | Civil Engineering in Spain | `/study-abroad/spain/pg/civil-engineering` |
+| **ES23** | 23 | ✔️ | Electrical Engineering in Spain | `/study-abroad/spain/pg/electrical-engineering` |
+| **ES24** | 24 | ✔️ | Electronics & Communication in Spain | `/study-abroad/spain/pg/electronics-communication` |
+| **ES25** | 25 | ✔️ | Chemical Engineering in Spain | `/study-abroad/spain/pg/chemical-engineering` |
+| **ES26** | 26 | ✔️ | Aerospace Engineering in Spain | `/study-abroad/spain/pg/aerospace-engineering` |
+| **ES27** | 27 | ✔️ | Biomedical Engineering in Spain | `/study-abroad/spain/pg/biomedical-engineering` |
+| **ES28** | 28 | ✔️ | Automobile Engineering in Spain | `/study-abroad/spain/pg/automobile-engineering` |
+| **ES29** | 29 | ✔️ | Business Management Hub in Spain | `/study-abroad/spain/business-management` |
+| **ES30** | 30 | ✔️ | MBA in Spain | `/study-abroad/spain/mba` |
+| **ES31** | 31 | ✔️ | Executive MBA in Spain | `/study-abroad/spain/executive-mba` |
+| **ES32** | 32 | ✔️ | BBA in Spain | `/study-abroad/spain/bba` |
+| **ES33** | 33 | ✔️ | BBS in Spain | `/study-abroad/spain/bbs` |
+| **ES34** | 34 | ✔️ | MBS in Spain | `/study-abroad/spain/mbs` |
+| **ES35** | 35 | ✔️ | International Business in Spain | `/study-abroad/spain/international-business` |
+| **ES36** | 36 | ✔️ | Hospitality Management in Spain | `/study-abroad/spain/hospitality-management` |
+| **ES37** | 37 | ✔️ | Architecture in Spain | `/study-abroad/spain/architecture` |
+| **ES38** | 38 | ✔️ | Law in Spain | `/study-abroad/spain/law` |
+| **ES39** | 39 | ✔️ | Language Courses in Spain | `/study-abroad/spain/language-courses` |
+| **ES40** | 40 | ✔️ | Summer Courses in Spain | `/study-abroad/spain/summer-courses` |
+| **ES41** | 41 | ✔️ | Winter Courses in Spain | `/study-abroad/spain/winter-courses` |

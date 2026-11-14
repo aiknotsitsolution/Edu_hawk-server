@@ -12586,6 +12586,2184 @@ collections:
               - {"label": "Question", "name": "question", "widget": "string"}
               - {"label": "Answer", "name": "answer", "widget": "text"}
 
+  - name: "study_abroad_spain"
+    label: "Study Abroad - Spain"
+    delete: false
+    files:
+      - label: "Dentistry (MBBS Abroad)"
+        name: "spain_dentistry"
+        file: "src/data/study_abroad/spain/dentistry.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Nursing (MBBS Abroad)"
+        name: "spain_nursing"
+        file: "src/data/study_abroad/spain/nursing.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Pharmacy (MBBS Abroad)"
+        name: "spain_pharmacy"
+        file: "src/data/study_abroad/spain/pharmacy.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Physiotherapy (MBBS Abroad)"
+        name: "spain_physiotherapy"
+        file: "src/data/study_abroad/spain/physiotherapy.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Public Health (MBBS Abroad)"
+        name: "spain_public_health"
+        file: "src/data/study_abroad/spain/public_health.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Biotechnology (MBBS Abroad)"
+        name: "spain_biotechnology"
+        file: "src/data/study_abroad/spain/biotechnology.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Computer Science"
+        name: "spain_computer_science"
+        file: "src/data/study_abroad/spain/computer_science.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Information Technology"
+        name: "spain_information_technology"
+        file: "src/data/study_abroad/spain/information_technology.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "UG Engineering Hub"
+        name: "spain_ug_engineering_hub"
+        file: "src/data/study_abroad/spain/ug_hub.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Computer Engineering (UG)"
+        name: "spain_comp_engg_ug"
+        file: "src/data/study_abroad/spain/comp_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Mechanical Engineering (UG)"
+        name: "spain_mech_engg_ug"
+        file: "src/data/study_abroad/spain/mech_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Civil Engineering (UG)"
+        name: "spain_civil_engg_ug"
+        file: "src/data/study_abroad/spain/civil_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Electrical Engineering (UG)"
+        name: "spain_elec_engg_ug"
+        file: "src/data/study_abroad/spain/elec_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Electronics & Communication (UG)"
+        name: "spain_ece_engg_ug"
+        file: "src/data/study_abroad/spain/ece_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Chemical Engineering (UG)"
+        name: "spain_chem_engg_ug"
+        file: "src/data/study_abroad/spain/chem_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Aerospace Engineering (UG)"
+        name: "spain_aero_engg_ug"
+        file: "src/data/study_abroad/spain/aero_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Biomedical Engineering (UG)"
+        name: "spain_biomed_engg_ug"
+        file: "src/data/study_abroad/spain/biomed_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Automobile Engineering (UG)"
+        name: "spain_auto_engg_ug"
+        file: "src/data/study_abroad/spain/auto_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "PG Engineering Hub"
+        name: "spain_pg_engineering_hub"
+        file: "src/data/study_abroad/spain/pg_hub.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Computer Engineering (PG)"
+        name: "spain_comp_engg_pg"
+        file: "src/data/study_abroad/spain/comp_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Mechanical Engineering (PG)"
+        name: "spain_mech_engg_pg"
+        file: "src/data/study_abroad/spain/mech_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Civil Engineering (PG)"
+        name: "spain_civil_engg_pg"
+        file: "src/data/study_abroad/spain/civil_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Electrical Engineering (PG)"
+        name: "spain_elec_engg_pg"
+        file: "src/data/study_abroad/spain/elec_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Electronics & Communication (PG)"
+        name: "spain_ece_engg_pg"
+        file: "src/data/study_abroad/spain/ece_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Chemical Engineering (PG)"
+        name: "spain_chem_engg_pg"
+        file: "src/data/study_abroad/spain/chem_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Aerospace Engineering (PG)"
+        name: "spain_aero_engg_pg"
+        file: "src/data/study_abroad/spain/aero_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Biomedical Engineering (PG)"
+        name: "spain_biomed_engg_pg"
+        file: "src/data/study_abroad/spain/biomed_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Automobile Engineering (PG)"
+        name: "spain_auto_engg_pg"
+        file: "src/data/study_abroad/spain/auto_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Business Management Hub"
+        name: "spain_business_hub"
+        file: "src/data/study_abroad/spain/business_hub.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "MBA"
+        name: "spain_mba"
+        file: "src/data/study_abroad/spain/mba.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Executive MBA"
+        name: "spain_executive_mba"
+        file: "src/data/study_abroad/spain/executive_mba.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "BBA"
+        name: "spain_bba"
+        file: "src/data/study_abroad/spain/bba.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "BBS"
+        name: "spain_bbs"
+        file: "src/data/study_abroad/spain/bbs.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "MBS"
+        name: "spain_mbs"
+        file: "src/data/study_abroad/spain/mbs.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "International Business"
+        name: "spain_international_business"
+        file: "src/data/study_abroad/spain/international_business.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Hospitality Management"
+        name: "spain_hospitality_management"
+        file: "src/data/study_abroad/spain/hospitality_management.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Architecture"
+        name: "spain_architecture"
+        file: "src/data/study_abroad/spain/architecture.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Law"
+        name: "spain_law"
+        file: "src/data/study_abroad/spain/law.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Language Courses"
+        name: "spain_language_courses"
+        file: "src/data/study_abroad/spain/language_courses.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Summer Courses"
+        name: "spain_summer_courses"
+        file: "src/data/study_abroad/spain/summer_courses.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Winter Courses"
+        name: "spain_winter_courses"
+        file: "src/data/study_abroad/spain/winter_courses.json"
+        media_folder: "public/uploads/study_abroad/spain"
+        public_folder: "/uploads/study_abroad/spain"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Spanish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+
   - name: "tests_exams"
     label: "Tests & Online Exams (Common)"
     folder: "src/data/common/tests"

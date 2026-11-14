@@ -280,6 +280,49 @@ const LanguageCoursesCanada = lazy(() => import("../pages/Study Abroad/Canada/La
 const SummerCoursesCanada = lazy(() => import("../pages/Study Abroad/Canada/SummerCourses/summer-courses.jsx"));
 const WinterCoursesCanada = lazy(() => import("../pages/Study Abroad/Canada/WinterCourses/winter-courses.jsx"));
 
+// Spain Routes
+const DentistryAbroadSpain = lazy(() => import("../pages/Study Abroad/Spain/MBBS Abroad/DentistryAbroad.jsx"));
+const NursingAbroadSpain = lazy(() => import("../pages/Study Abroad/Spain/MBBS Abroad/NursingAbroad.jsx"));
+const PharmacyAbroadSpain = lazy(() => import("../pages/Study Abroad/Spain/MBBS Abroad/PharmacyAbroad.jsx"));
+const PhysiotherapyAbroadSpain = lazy(() => import("../pages/Study Abroad/Spain/MBBS Abroad/PhysiotherapyAbroad.jsx"));
+const PublicHealthSpain = lazy(() => import("../pages/Study Abroad/Spain/MBBS Abroad/PublicHealth.jsx"));
+const BiotechnologySpain = lazy(() => import("../pages/Study Abroad/Spain/MBBS Abroad/Biotechnology.jsx"));
+const ComputerScienceSpain = lazy(() => import("../pages/Study Abroad/Spain/ComputerScience/computer-science.jsx"));
+const InformationTechnologySpain = lazy(() => import("../pages/Study Abroad/Spain/InformationTechnology/information-technology.jsx"));
+const UndergraduateEngineeringSpain = lazy(() => import("../pages/Study Abroad/Spain/Engineering/ug/undergraduate.jsx"));
+const ComputerEngineeringUGSpain = lazy(() => import("../pages/Study Abroad/Spain/Engineering/ug/pages/ComputerEngineering.jsx"));
+const MechanicalEngineeringUGSpain = lazy(() => import("../pages/Study Abroad/Spain/Engineering/ug/pages/MechanicalEngineering.jsx"));
+const CivilEngineeringUGSpain = lazy(() => import("../pages/Study Abroad/Spain/Engineering/ug/pages/CivilEngineering.jsx"));
+const ElectricalEngineeringUGSpain = lazy(() => import("../pages/Study Abroad/Spain/Engineering/ug/pages/ElectricalEngineering.jsx"));
+const ElectronicsCommunicationUGSpain = lazy(() => import("../pages/Study Abroad/Spain/Engineering/ug/pages/ElectronicsCommunication.jsx"));
+const ChemicalEngineeringUGSpain = lazy(() => import("../pages/Study Abroad/Spain/Engineering/ug/pages/ChemicalEngineering.jsx"));
+const AerospaceEngineeringUGSpain = lazy(() => import("../pages/Study Abroad/Spain/Engineering/ug/pages/AerospaceEngineering.jsx"));
+const BiomedicalEngineeringUGSpain = lazy(() => import("../pages/Study Abroad/Spain/Engineering/ug/pages/BiomedicalEngineering.jsx"));
+const AutomobileEngineeringUGSpain = lazy(() => import("../pages/Study Abroad/Spain/Engineering/ug/pages/AutomobileEngineering.jsx"));
+const PostgraduateEngineeringSpain = lazy(() => import("../pages/Study Abroad/Spain/Engineering/pg/postgraduate.jsx"));
+const ComputerEngineeringPGSpain = lazy(() => import("../pages/Study Abroad/Spain/Engineering/pg/pages/ComputerEngineering.jsx"));
+const MechanicalEngineeringPGSpain = lazy(() => import("../pages/Study Abroad/Spain/Engineering/pg/pages/MechanicalEngineering.jsx"));
+const CivilEngineeringPGSpain = lazy(() => import("../pages/Study Abroad/Spain/Engineering/pg/pages/CivilEngineering.jsx"));
+const ElectricalEngineeringPGSpain = lazy(() => import("../pages/Study Abroad/Spain/Engineering/pg/pages/ElectricalEngineering.jsx"));
+const ElectronicsCommunicationPGSpain = lazy(() => import("../pages/Study Abroad/Spain/Engineering/pg/pages/ElectronicsCommunication.jsx"));
+const ChemicalEngineeringPGSpain = lazy(() => import("../pages/Study Abroad/Spain/Engineering/pg/pages/ChemicalEngineering.jsx"));
+const AerospaceEngineeringPGSpain = lazy(() => import("../pages/Study Abroad/Spain/Engineering/pg/pages/AerospaceEngineering.jsx"));
+const BiomedicalEngineeringPGSpain = lazy(() => import("../pages/Study Abroad/Spain/Engineering/pg/pages/BiomedicalEngineering.jsx"));
+const AutomobileEngineeringPGSpain = lazy(() => import("../pages/Study Abroad/Spain/Engineering/pg/pages/AutomobileEngineering.jsx"));
+const BusinessManagementSpain = lazy(() => import("../pages/Study Abroad/Spain/BusinessManagement/business-management.jsx"));
+const MBASpain = lazy(() => import("../pages/Study Abroad/Spain/MBA/mba.jsx"));
+const ExecutiveMBASpain = lazy(() => import("../pages/Study Abroad/Spain/ExecutiveMBA/executive-mba.jsx"));
+const BBASpain = lazy(() => import("../pages/Study Abroad/Spain/BBA/bba.jsx"));
+const BBSSpain = lazy(() => import("../pages/Study Abroad/Spain/BBS/bbs.jsx"));
+const MBSSpain = lazy(() => import("../pages/Study Abroad/Spain/MBS/mbs.jsx"));
+const InternationalBusinessSpain = lazy(() => import("../pages/Study Abroad/Spain/InternationalBusiness/international-business.jsx"));
+const HospitalityManagementSpain = lazy(() => import("../pages/Study Abroad/Spain/HospitalityManagement/hospitality-management.jsx"));
+const ArchitectureSpain = lazy(() => import("../pages/Study Abroad/Spain/Architecture/architecture.jsx"));
+const LawSpain = lazy(() => import("../pages/Study Abroad/Spain/Law/law.jsx"));
+const LanguageCoursesSpain = lazy(() => import("../pages/Study Abroad/Spain/LanguageCourses/language-courses.jsx"));
+const SummerCoursesSpain = lazy(() => import("../pages/Study Abroad/Spain/SummerCourses/summer-courses.jsx"));
+const WinterCoursesSpain = lazy(() => import("../pages/Study Abroad/Spain/WinterCourses/winter-courses.jsx"));
+
 export const router = createBrowserRouter([
   {
     path: "landingpage",
@@ -1663,6 +1706,48 @@ export const routeList = [
   "/study-abroad/canada/language-courses",
   "/study-abroad/canada/summer-courses",
   "/study-abroad/canada/winter-courses",
+  // Spain Routes
+  "/study-abroad/spain/dentistry",
+  "/study-abroad/spain/nursing",
+  "/study-abroad/spain/pharmacy",
+  "/study-abroad/spain/physiotherapy",
+  "/study-abroad/spain/public-health",
+  "/study-abroad/spain/biotechnology",
+  "/study-abroad/spain/computer-science",
+  "/study-abroad/spain/information-technology",
+  "/study-abroad/spain/ug/engineering",
+  "/study-abroad/spain/ug/computer-engineering",
+  "/study-abroad/spain/ug/mechanical-engineering",
+  "/study-abroad/spain/ug/civil-engineering",
+  "/study-abroad/spain/ug/electrical-engineering",
+  "/study-abroad/spain/ug/electronics-communication",
+  "/study-abroad/spain/ug/chemical-engineering",
+  "/study-abroad/spain/ug/aerospace-engineering",
+  "/study-abroad/spain/ug/biomedical-engineering",
+  "/study-abroad/spain/ug/automobile-engineering",
+  "/study-abroad/spain/pg/engineering",
+  "/study-abroad/spain/pg/computer-engineering",
+  "/study-abroad/spain/pg/mechanical-engineering",
+  "/study-abroad/spain/pg/civil-engineering",
+  "/study-abroad/spain/pg/electrical-engineering",
+  "/study-abroad/spain/pg/electronics-communication",
+  "/study-abroad/spain/pg/chemical-engineering",
+  "/study-abroad/spain/pg/aerospace-engineering",
+  "/study-abroad/spain/pg/biomedical-engineering",
+  "/study-abroad/spain/pg/automobile-engineering",
+  "/study-abroad/spain/business-management",
+  "/study-abroad/spain/mba",
+  "/study-abroad/spain/executive-mba",
+  "/study-abroad/spain/bba",
+  "/study-abroad/spain/bbs",
+  "/study-abroad/spain/mbs",
+  "/study-abroad/spain/international-business",
+  "/study-abroad/spain/hospitality-management",
+  "/study-abroad/spain/architecture",
+  "/study-abroad/spain/law",
+  "/study-abroad/spain/language-courses",
+  "/study-abroad/spain/summer-courses",
+  "/study-abroad/spain/winter-courses",
   "/terms-conditions",
   "/privacy-policy",
   "/cookies-policy",

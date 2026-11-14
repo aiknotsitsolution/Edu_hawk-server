@@ -253,6 +253,49 @@ import LanguageCoursesCanada from "./pages/Study Abroad/Canada/LanguageCourses/l
 import SummerCoursesCanada from "./pages/Study Abroad/Canada/SummerCourses/summer-courses.jsx";
 import WinterCoursesCanada from "./pages/Study Abroad/Canada/WinterCourses/winter-courses.jsx";
 
+// Spain Routes
+import DentistryAbroadSpain from "./pages/Study Abroad/Spain/MBBS Abroad/DentistryAbroad.jsx";
+import NursingAbroadSpain from "./pages/Study Abroad/Spain/MBBS Abroad/NursingAbroad.jsx";
+import PharmacyAbroadSpain from "./pages/Study Abroad/Spain/MBBS Abroad/PharmacyAbroad.jsx";
+import PhysiotherapyAbroadSpain from "./pages/Study Abroad/Spain/MBBS Abroad/PhysiotherapyAbroad.jsx";
+import PublicHealthSpain from "./pages/Study Abroad/Spain/MBBS Abroad/PublicHealth.jsx";
+import BiotechnologySpain from "./pages/Study Abroad/Spain/MBBS Abroad/Biotechnology.jsx";
+import ComputerScienceSpain from "./pages/Study Abroad/Spain/ComputerScience/computer-science.jsx";
+import InformationTechnologySpain from "./pages/Study Abroad/Spain/InformationTechnology/information-technology.jsx";
+import UndergraduateEngineeringSpain from "./pages/Study Abroad/Spain/Engineering/ug/undergraduate.jsx";
+import ComputerEngineeringUGSpain from "./pages/Study Abroad/Spain/Engineering/ug/pages/ComputerEngineering.jsx";
+import MechanicalEngineeringUGSpain from "./pages/Study Abroad/Spain/Engineering/ug/pages/MechanicalEngineering.jsx";
+import CivilEngineeringUGSpain from "./pages/Study Abroad/Spain/Engineering/ug/pages/CivilEngineering.jsx";
+import ElectricalEngineeringUGSpain from "./pages/Study Abroad/Spain/Engineering/ug/pages/ElectricalEngineering.jsx";
+import ElectronicsCommunicationUGSpain from "./pages/Study Abroad/Spain/Engineering/ug/pages/ElectronicsCommunication.jsx";
+import ChemicalEngineeringUGSpain from "./pages/Study Abroad/Spain/Engineering/ug/pages/ChemicalEngineering.jsx";
+import AerospaceEngineeringUGSpain from "./pages/Study Abroad/Spain/Engineering/ug/pages/AerospaceEngineering.jsx";
+import BiomedicalEngineeringUGSpain from "./pages/Study Abroad/Spain/Engineering/ug/pages/BiomedicalEngineering.jsx";
+import AutomobileEngineeringUGSpain from "./pages/Study Abroad/Spain/Engineering/ug/pages/AutomobileEngineering.jsx";
+import PostgraduateEngineeringSpain from "./pages/Study Abroad/Spain/Engineering/pg/postgraduate.jsx";
+import ComputerEngineeringPGSpain from "./pages/Study Abroad/Spain/Engineering/pg/pages/ComputerEngineering.jsx";
+import MechanicalEngineeringPGSpain from "./pages/Study Abroad/Spain/Engineering/pg/pages/MechanicalEngineering.jsx";
+import CivilEngineeringPGSpain from "./pages/Study Abroad/Spain/Engineering/pg/pages/CivilEngineering.jsx";
+import ElectricalEngineeringPGSpain from "./pages/Study Abroad/Spain/Engineering/pg/pages/ElectricalEngineering.jsx";
+import ElectronicsCommunicationPGSpain from "./pages/Study Abroad/Spain/Engineering/pg/pages/ElectronicsCommunication.jsx";
+import ChemicalEngineeringPGSpain from "./pages/Study Abroad/Spain/Engineering/pg/pages/ChemicalEngineering.jsx";
+import AerospaceEngineeringPGSpain from "./pages/Study Abroad/Spain/Engineering/pg/pages/AerospaceEngineering.jsx";
+import BiomedicalEngineeringPGSpain from "./pages/Study Abroad/Spain/Engineering/pg/pages/BiomedicalEngineering.jsx";
+import AutomobileEngineeringPGSpain from "./pages/Study Abroad/Spain/Engineering/pg/pages/AutomobileEngineering.jsx";
+import BusinessManagementSpain from "./pages/Study Abroad/Spain/BusinessManagement/business-management.jsx";
+import MBASpain from "./pages/Study Abroad/Spain/MBA/mba.jsx";
+import ExecutiveMBASpain from "./pages/Study Abroad/Spain/ExecutiveMBA/executive-mba.jsx";
+import BBASpain from "./pages/Study Abroad/Spain/BBA/bba.jsx";
+import BBSSpain from "./pages/Study Abroad/Spain/BBS/bbs.jsx";
+import MBSSpain from "./pages/Study Abroad/Spain/MBS/mbs.jsx";
+import InternationalBusinessSpain from "./pages/Study Abroad/Spain/InternationalBusiness/international-business.jsx";
+import HospitalityManagementSpain from "./pages/Study Abroad/Spain/HospitalityManagement/hospitality-management.jsx";
+import ArchitectureSpain from "./pages/Study Abroad/Spain/Architecture/architecture.jsx";
+import LawSpain from "./pages/Study Abroad/Spain/Law/law.jsx";
+import LanguageCoursesSpain from "./pages/Study Abroad/Spain/LanguageCourses/language-courses.jsx";
+import SummerCoursesSpain from "./pages/Study Abroad/Spain/SummerCourses/summer-courses.jsx";
+import WinterCoursesSpain from "./pages/Study Abroad/Spain/WinterCourses/winter-courses.jsx";
+
 export async function render(url) {
   const helmetContext = {};
 
@@ -506,6 +549,48 @@ export async function render(url) {
               <Route path="study-abroad/canada/language-courses" element={<LanguageCoursesCanada />} />
               <Route path="study-abroad/canada/summer-courses" element={<SummerCoursesCanada />} />
               <Route path="study-abroad/canada/winter-courses" element={<WinterCoursesCanada />} />
+              {/* Spain Routes */}
+              <Route path="study-abroad/spain/dentistry" element={<DentistryAbroadSpain />} />
+              <Route path="study-abroad/spain/nursing" element={<NursingAbroadSpain />} />
+              <Route path="study-abroad/spain/pharmacy" element={<PharmacyAbroadSpain />} />
+              <Route path="study-abroad/spain/physiotherapy" element={<PhysiotherapyAbroadSpain />} />
+              <Route path="study-abroad/spain/public-health" element={<PublicHealthSpain />} />
+              <Route path="study-abroad/spain/biotechnology" element={<BiotechnologySpain />} />
+              <Route path="study-abroad/spain/computer-science" element={<ComputerScienceSpain />} />
+              <Route path="study-abroad/spain/information-technology" element={<InformationTechnologySpain />} />
+              <Route path="study-abroad/spain/ug/engineering" element={<UndergraduateEngineeringSpain />} />
+              <Route path="study-abroad/spain/ug/computer-engineering" element={<ComputerEngineeringUGSpain />} />
+              <Route path="study-abroad/spain/ug/mechanical-engineering" element={<MechanicalEngineeringUGSpain />} />
+              <Route path="study-abroad/spain/ug/civil-engineering" element={<CivilEngineeringUGSpain />} />
+              <Route path="study-abroad/spain/ug/electrical-engineering" element={<ElectricalEngineeringUGSpain />} />
+              <Route path="study-abroad/spain/ug/electronics-communication" element={<ElectronicsCommunicationUGSpain />} />
+              <Route path="study-abroad/spain/ug/chemical-engineering" element={<ChemicalEngineeringUGSpain />} />
+              <Route path="study-abroad/spain/ug/aerospace-engineering" element={<AerospaceEngineeringUGSpain />} />
+              <Route path="study-abroad/spain/ug/biomedical-engineering" element={<BiomedicalEngineeringUGSpain />} />
+              <Route path="study-abroad/spain/ug/automobile-engineering" element={<AutomobileEngineeringUGSpain />} />
+              <Route path="study-abroad/spain/pg/engineering" element={<PostgraduateEngineeringSpain />} />
+              <Route path="study-abroad/spain/pg/computer-engineering" element={<ComputerEngineeringPGSpain />} />
+              <Route path="study-abroad/spain/pg/mechanical-engineering" element={<MechanicalEngineeringPGSpain />} />
+              <Route path="study-abroad/spain/pg/civil-engineering" element={<CivilEngineeringPGSpain />} />
+              <Route path="study-abroad/spain/pg/electrical-engineering" element={<ElectricalEngineeringPGSpain />} />
+              <Route path="study-abroad/spain/pg/electronics-communication" element={<ElectronicsCommunicationPGSpain />} />
+              <Route path="study-abroad/spain/pg/chemical-engineering" element={<ChemicalEngineeringPGSpain />} />
+              <Route path="study-abroad/spain/pg/aerospace-engineering" element={<AerospaceEngineeringPGSpain />} />
+              <Route path="study-abroad/spain/pg/biomedical-engineering" element={<BiomedicalEngineeringPGSpain />} />
+              <Route path="study-abroad/spain/pg/automobile-engineering" element={<AutomobileEngineeringPGSpain />} />
+              <Route path="study-abroad/spain/business-management" element={<BusinessManagementSpain />} />
+              <Route path="study-abroad/spain/mba" element={<MBASpain />} />
+              <Route path="study-abroad/spain/executive-mba" element={<ExecutiveMBASpain />} />
+              <Route path="study-abroad/spain/bba" element={<BBASpain />} />
+              <Route path="study-abroad/spain/bbs" element={<BBSSpain />} />
+              <Route path="study-abroad/spain/mbs" element={<MBSSpain />} />
+              <Route path="study-abroad/spain/international-business" element={<InternationalBusinessSpain />} />
+              <Route path="study-abroad/spain/hospitality-management" element={<HospitalityManagementSpain />} />
+              <Route path="study-abroad/spain/architecture" element={<ArchitectureSpain />} />
+              <Route path="study-abroad/spain/law" element={<LawSpain />} />
+              <Route path="study-abroad/spain/language-courses" element={<LanguageCoursesSpain />} />
+              <Route path="study-abroad/spain/summer-courses" element={<SummerCoursesSpain />} />
+              <Route path="study-abroad/spain/winter-courses" element={<WinterCoursesSpain />} />
               <Route path="terms-conditions" element={<TermsAndConditions />} />
               <Route path="privacy-policy" element={<PrivacyPolicy />} />
               <Route path="cookies-policy" element={<CookiesPolicy />} />
