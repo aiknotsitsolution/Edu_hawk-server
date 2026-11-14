@@ -1,0 +1,545 @@
+import React from "react";
+import { AbroadCoursePage } from "../../../../component/CoursePageKit.jsx";
+
+// Page layout images
+import heroImg from "../../../../Images/Abroad/Ireland/ComputerScience/hero.webp";
+import heroBgImg from "../../../../Images/Abroad/Ireland/ComputerScience/hero_bg.webp";
+import sideImg from "../../../../Images/Abroad/Ireland/ComputerScience/side.webp";
+import ctaBgImg from "../../../../Images/Abroad/Ireland/ComputerScience/cta_bg.webp";
+
+// University images
+import uniImg1 from "../../../../Images/Abroad/Ireland/ComputerScience/Trinity_College_Dublin.webp";
+import uniImg2 from "../../../../Images/Abroad/Ireland/ComputerScience/University_College_Cork.webp";
+import uniImg3 from "../../../../Images/Abroad/Ireland/ComputerScience/Dublin_City_University.webp";
+
+const page = {
+  "name": "Computer Science in Ireland",
+  "country": "Ireland",
+  "slug": "computer-science",
+  "title": "Study Computer Science in Ireland for Indian Students | Edu-Hawk Worldwide",
+  "description": "Complete guide to Computer Science in Ireland for Indian students: Top Irish universities, eligibility criteria, tuition fees (€13,500 – €28,640 / year), scholarships, and 2-year post-study work visa (Stamp 1G).",
+  "keywords": "Study Computer Science in Ireland for Indian Students, Top Universities for Computer Science in Ireland, Undergraduate Computer Science Courses in Ireland, Postgraduate Computer Science Courses in Ireland, BSc Computer Science Admission Requirements in Ireland, MSc Computer Science Eligibility for International Students, Computer Science Tuition Fees in Ireland 2026/27, Affordable Universities for Computer Science in Ireland, IELTS Requirements for Computer Science Courses in Ireland, Artificial Intelligence and Machine Learning Courses in Ireland",
+  "introTitle": "COMPUTER SCIENCE IN IRELAND",
+  "heroParas": [
+    "Computer Science in Ireland",
+    "Computer Science in Ireland is an attractive study option for international students who are interested in programming, software development, artificial intelligence, cybersecurity, data science and other areas of information technology. Irish universities and technological universities provide undergraduate degrees, postgraduate programs, research qualifications and a range of diplomas or pathway courses."
+  ],
+  "overview": [
+    "Computer Science in Ireland",
+    "Computer Science in Ireland is an attractive study option for international students who are interested in programming, software development, artificial intelligence, cybersecurity, data science and other areas of information technology. Irish universities and technological universities provide undergraduate degrees, postgraduate programs, research qualifications and a range of diplomas or pathway courses."
+  ],
+  "level": "Bachelor of Science (BSc) & Master of Science (MSc) in Computer Science",
+  "crumb": "Technology / Computer Science",
+  "stats": [
+    {
+      "label": "Degree Choices",
+      "value": "Bachelor of Science (BSc) & Master of Science (MSc) in Computer Science"
+    },
+    {
+      "label": "Course Duration",
+      "value": "3 to 4 Years (UG) / 1 Year (PG)"
+    },
+    {
+      "label": "Top Institutions",
+      "value": "Trinity College Dublin, University College Cork"
+    },
+    {
+      "label": "Post-Study Work",
+      "value": "2 Years Third Level Graduate Scheme (Stamp 1G)"
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why",
+      "eyebrow": "Why Study in Ireland",
+      "title": "1. Why Study Computer Science in Ireland?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Ireland has a combination of accredited higher education, an existing technology industry, and the opportunity to gain practical computing skills. Computer Science graduates can work in software development, data analytics, cloud computing, cybersecurity, financial technology and technology consulting.",
+            "Ireland has a lot to offer to the Computer Science students including:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "*Internationally recognized academic qualifications.",
+            "- Undergraduate and postgraduate courses for a variety of educational backgrounds.",
+            "- Specializes in AI, machine learning, software engineering, cybersecurity and data analytics.",
+            "- Programming projects, research and practical assignments that you can do.",
+            "- Network with technology employers, professional networks and industry events.",
+            "- Opportunities for jobs in technology, finance, healthcare, manufacturing and consulting",
+            "- Potential access to graduate immigration permission"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu Hawk worldwide consultancy - University selection guidance helps students to compare suitable universities based on their academic background, budget, preferred location and long-term career goals."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "courses",
+      "eyebrow": "Degrees & Programs",
+      "title": "2. Ireland Computer Science Classes",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Students can opt for Computer Science at different levels as per their academic qualifications and career goals.",
+            "Undergraduate courses"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "- Bachelor of Science (BSc) in Computer Science: Programming, algorithms, software development, computer systems, databases and maths.",
+            "- BSc Computer Science and Information Technology: Merges the basic principles of computing with the practice and systems of IT.",
+            "- BSc Software Development: Software design, construction, testing and maintenance.",
+            "- BSc in Computing or Information Technology: Covers computer systems, networks, databases and programming in more detail.",
+            "Bachelor’s degrees typically take three or four years, depending on the qualification and institution."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Postgraduate training course"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "- MSc Computer Science: Computing theory at an advanced level, software systems, algorithms and research.",
+            "- MSc Artificial Intelligence: Machine learning, intelligent systems and AI applications.",
+            "- MSc Data Analytics: Data analysis, statistical methods and modeling for prediction.",
+            "- MSc Cybersecurity: Secure systems, network protection, digital forensics.",
+            "- MSc Software Engineering: Software architecture, development methods and testing.",
+            "- MSc Cloud Computing or similar computing programs Cloud platforms, scalable infrastructure, automation and deployment."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Many taught master's degrees are about one year full-time but program length varies."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Institutions",
+      "title": "3. Top Computer Science Colleges in Ireland",
+      "unis": [
+        {
+          "name": "Trinity College Dublin",
+          "desc": "Trinity College, Dublin - Trinity has a four year undergraduate degree in Computer Science and also has the option of a Master in Computer Science. The program is made up of core computing subjects and is listed as accredited by Engineers Ireland.",
+          "imgKey": "uniImg_Trinity_College_Dublin_webp",
+          "imgIdentifier": "uniImg1",
+          "city": "Dublin, Ireland",
+          "rank": "Top Ranked Irish Institution",
+          "tag": "Featured",
+          "img": uniImg1
+        },
+        {
+          "name": "University College Cork",
+          "desc": "UCC (University College Cork) - UCC has a BSc (Hons) in Computer Science. The published international undergraduate fee for the course is €27,000 per year for 2026/27,",
+          "imgKey": "uniImg_University_College_Cork_webp",
+          "imgIdentifier": "uniImg2",
+          "city": "Cork, Ireland",
+          "rank": "Top Ranked Irish Institution",
+          "tag": "Featured",
+          "img": uniImg2
+        },
+        {
+          "name": "Dublin City University",
+          "desc": "Trinity College, Dublin - Trinity has a four year undergraduate degree in Computer Science and also has the option of a Master in Computer Science. The program is made up of core computing subjects and is listed as accredited by Engineers Ireland.",
+          "imgKey": "uniImg_Dublin_City_University_webp",
+          "imgIdentifier": "uniImg3",
+          "city": "Dublin, Ireland",
+          "rank": "Top Ranked Irish Institution",
+          "tag": "Featured",
+          "img": uniImg3
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admissions Criteria",
+      "title": "4. Eligibility for Study Computer Science in Ireland",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Eligibility will depend on the applicant’s level of study, program, institution and educational background.",
+            "For undergraduate courses"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "- Secondary education to Leaving Certificate level or equivalent.",
+            "- Good academic performance in the required subjects.",
+            "- Mathematics to the level required by the program.",
+            "- Proof of English proficiency (if required).",
+            "- any further subject or qualification requirements which may be imposed by the institution."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students with Indian qualifications should check with each university how it assesses their Class 12 results, subjects and examination board.",
+            "Some applicants may need a foundation programme or other recognized route of entry.",
+            "For post-graduate courses",
+            "Applicants generally require:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "- Recognized bachelor’s degree in Computer Science, IT, Software Engineering, Computer Engineering or related fields.",
+            "- Academic grades that meet the minimum entry standard for the program.",
+            "- Adequate knowledge of computing, programming, mathematics or statistics as required.",
+            "- English language proficiency, if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For Diploma & pathway courses",
+            "Requirements depend on qualification level and provider. Before enrolling, students should verify that the course is recognized and what progression opportunities it provides, how long it takes and whether it fits the immigration status they plan to apply for."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "requirements",
+      "eyebrow": "Entry Requirements",
+      "title": "5. Admission Requirements for Computer Science in Ireland",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Universities will take into account academic qualifications, English language ability, subject requirements and program specific requirements.",
+            "Commonly requested documents for undergraduate applicants include:",
+            "Class 10 and Class 12 Marksheets or equivalent school records"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Academic transcripts and examination results.",
+            "Results of the English-language test, if required.",
+            "Passport information.",
+            "Any other documents that the university may request."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Documents that are commonly requested for postgraduate applicants are:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Certificate of Bachelor’s Degree.",
+            "University transcripts and mark sheets.",
+            "Results of English language tests where applicable.",
+            "CV or résumé (if required).",
+            "Statement of purpose or personal statement, if applicable.",
+            "Academic or work references, if required.",
+            "Information on relevant projects or work experience, if any."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Meeting the minimum requirements does not ensure admission. Each university makes decisions on its admissions policy and places available."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "6. Cost for Studying Computer Science in Ireland",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "How much it costs to study Computer Science depends on the institution, the level of qualification, the length of the program, fee status and where you live and study.",
+            "Published undergraduate fees for international students in 2026/27 (examples):"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "TU Dublin — Computer Science (International) \\| €13,500 per year",
+            "DCU — Computer Science \\| €17,900 per year",
+            "UCC - BSc Computer Science \\| €27,000 per annum",
+            "University of Galway — Computer Science and Information Technology \\| €27,640 per year"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Postgraduate tuition fees are set individually and depend on the MSc specialization and the university. Students should check the fee specific to their intended intake and not apply an undergraduate fee for a master’s program.",
+            "Extra costs could include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "*Living and utilities.",
+            "- Cost of living, food.",
+            "- Costs related to health insurance and immigration, if applicable.",
+            "- Books and study materials. Transport.",
+            "*Settling-in expenses and flights."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The cost of living depends on your city, housing type, and lifestyle. Students are advised to prepare a realistic budget for the length of their program and to research scholarships or other university funding."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "process",
+      "eyebrow": "Application Steps",
+      "title": "7. Admission Process of Computer Science in Ireland",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Choose Degree & University",
+          "desc": "Select your preferred Computer Science in Ireland program and shortlist target Irish institutions."
+        },
+        {
+          "step": "02",
+          "title": "Verify Entry Requirements",
+          "desc": "Check academic prerequisites, mathematics/science standards, and English test scores (IELTS/TOEFL)."
+        },
+        {
+          "step": "03",
+          "title": "Prepare Documentation",
+          "desc": "Gather academic transcripts, statement of purpose, recommendation letters, and valid passport."
+        },
+        {
+          "step": "04",
+          "title": "Submit University Application",
+          "desc": "Apply directly through the university international admissions portal or via Edu-Hawk Worldwide."
+        },
+        {
+          "step": "05",
+          "title": "Accept Offer & Pay Deposit",
+          "desc": "Review academic conditions, pay the tuition deposit, and receive the official acceptance letter."
+        },
+        {
+          "step": "06",
+          "title": "Apply for Irish Student Visa (Stamp 2)",
+          "desc": "Submit the visa application with proof of sufficient finances, medical insurance, and accommodation."
+        }
+      ]
+    },
+    {
+      "slot": "accreditation",
+      "eyebrow": "Accreditation & Recognition",
+      "title": "8. Sort out finances and immigration: Look up the current Irish student immigration requirements and get the required financial and insurance paperwork in order.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Detailed information on Accreditation & Recognition will be provided during personalized counseling with Edu-Hawk Worldwide."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Outcomes",
+      "title": "9. Plan your arrival. Book accommodation, travel and university registration.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Students applying from outside Ireland should allow sufficient time for document verification, admissions decisions, financial arrangements and any required visa procedure.",
+            "8\\. Computer Science accreditation & recognition in Ireland",
+            "Students should verify the recognition of the institution and the exact qualification before choosing any course.",
+            "Key considerations include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "- Whether the institution and qualification are officially recognised.",
+            "- Whether the specific program is professionally accredited.",
+            "- The compatibility of the degree’s modules and learning outcomes with the intended career.",
+            "- If the qualification is intended to lead to further study or professional recognition in the student's home country."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some computer programmes may be professionally accredited and some may not.",
+            "9\\. Jobs and Salary after Computer Science in Ireland",
+            "Computer Science graduates are employed in the technology sector and any industry that utilizes software, data, cybersecurity and digital infrastructure. Practical skills, experience, employer requirements and work authorization influence career opportunities.",
+            "Possible career paths include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "- Software Developer or Software Engineer.",
+            "*Web/Mobile Application Developer.",
+            "- Data Analyst/Data Scientist.",
+            "*AI or Machine Learning Engineer.",
+            "- Cyber Security Analyst.",
+            "- Cloud/DevOps Engineer.",
+            "- Engineer (db).",
+            "- Systems Analysis.",
+            "-IT consultant.",
+            "- Research Scientist or Computer Scientist."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Expected annual salaries in Ireland:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Graduate software developer: around €35,000–€45,000.",
+            "Junior software engineer: from €40,000 to €60,000.",
+            "Mid-level software developer or engineer: €55,000-€85,000.",
+            "Senior or highly specialized technology professional: €80,000+ in some roles.",
+            "These are indicative market ranges and not guaranteed salaries.",
+            "Ireland Software Development Salary Guide 2026 Junior developer salary ranges are generally around €45,000–€60,000 for various languages and roles.",
+            "Graduate salary data can be lower. Actual pay varies according to employer, location, specialization and experience."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Where possible, students may improve their employability prospects through internships, practical projects, programming portfolios, technical interview preparation and skills in areas like cloud infrastructure, AI, secure software development, and data engineering."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Document Checklist",
+      "title": "10. What Documents Do You Need to Study Computer Science in Ireland?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The exact document checklist will be determined by the institution and level of study but typically students will need:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "- Passport valid.",
+            "- Academic certificates and transcripts.",
+            "- Class 10 and Class 12 results for the purpose of applying to undergraduate studies.",
+            "- Bachelor's degree certificate and university transcripts (for postgraduate applications)",
+            "- Test results in English language (if required).",
+            "- CV or résumé, if requested.",
+            "- Statement of purpose, if required.",
+            "- Letters of recommendation from academic or professional references, where applicable.",
+            "- Details of any computing projects or work experience where relevant.",
+            "- Financial evidence and other papers you need for the immigration process."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Applicants may be asked to provide official English translations of documents issued in another language. Universities may ask for certified copies or further evidence, so follow the instructions for the program you choose.",
+            "Immigration documents are separate from university admission documents. Students should check the official Irish immigration guidance for the most up to date requirements."
+          ]
+        }
+      ]
+    }
+  ],
+  "table": {
+    "title": "Estimated Cost of Studying Computer Science in Ireland in Ireland (Tuition & Living)",
+    "headers": [
+      "Category / Level",
+      "Estimated Cost (€ / EUR)",
+      "Details / Scope"
+    ],
+    "rows": [
+      [
+        "Undergraduate Degree (Annual)",
+        "€13,500 – €27,640 / year",
+        "Varies by institution ranking, laboratory facilities, and program"
+      ],
+      [
+        "Postgraduate Degree (Annual)",
+        "€15,000 – €28,640 / year",
+        "1-year intensive master's program or 2-year research degree"
+      ],
+      [
+        "Living Expenses (Dublin)",
+        "€1,000 – €1,400 / month",
+        "Includes student accommodation, meals, utilities, and public transit"
+      ],
+      [
+        "Living Expenses (Outside Dublin)",
+        "€800 – €1,100 / month",
+        "Cost of living in Cork, Galway, Limerick, or Maynooth"
+      ],
+      [
+        "Student Visa & IRP Card Fee",
+        "€300 / year",
+        "Mandatory Irish Residence Permit (IRP) registration fee"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Q1. Can I study computer science in Ireland after 12th?",
+      "a": "Yes. Students who have passed Class 12 or an equivalent qualification can apply for undergraduate Computer Science degrees if they meet the university’s academic, mathematics and English language requirements."
+    },
+    {
+      "q": "Q2. How long does it take to finish a Computer Science course in Ireland?",
+      "a": "Undergraduate degrees generally take three or four years to finish. Most master's degrees are taught over approximately one year full-time, but diplomas, foundation programs and research degrees vary in length."
+    },
+    {
+      "q": "3. What is the tuition fee structure for Computer Science in Ireland?",
+      "a": "Non-EU undergraduate fees published for 2026/27 vary from €13,500 per year at TU Dublin to €27,640 per year at University of Galway. Fees differ by institution, course and intake. Postgraduate fees are calculated separately."
+    },
+    {
+      "q": "Q4. What are the universities in Ireland for Computer Science?",
+      "a": "Options include Dublin City University, University College Cork, Trinity College Dublin, University of Galway and TU Dublin. Students should look closely at individual programs and check their current entry requirements and fees."
+    },
+    {
+      "q": "Q5. What jobs are available with a Computer Science degree? Can I stay and work in Ireland?",
+      "a": "If you find a suitable role and meet the relevant work-permission requirements, you may be able to get a job. Eligible graduates may also be eligible for the Third Level Graduate Program in Ireland but eligibility will depend on the qualification and the immigration rules at the time."
+    },
+    {
+      "q": "How can Edu Hawk worldwide Consultancy help me to study abroad?",
+      "a": "Edu Hawk worldwide can help students find suitable universities, understand admission requirements, organize application documents and plan their study-abroad journey. Students should consult the relevant official authorities regarding academic, financial, immigration and licensing requirements."
+    }
+  ]
+};
+
+export default function ComputerScienceIreland() {
+  return (
+    <AbroadCoursePage
+      page={page}
+      heroImg={heroImg}
+      heroBgImg={heroBgImg}
+      sideImg={sideImg}
+      ctaBgImg={ctaBgImg}
+      showHeroStats={false}
+      seoPath="/study-abroad/ireland/computer-science"
+    />
+  );
+}

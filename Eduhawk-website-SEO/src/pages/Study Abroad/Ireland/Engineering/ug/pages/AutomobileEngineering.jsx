@@ -1,0 +1,477 @@
+import React from "react";
+import { AbroadCoursePage } from "../../../../../../component/CoursePageKit.jsx";
+
+// Page layout images
+import heroImg from "../../../../../../Images/Abroad/Ireland/Engineering_UG/Automobile/hero.webp";
+import heroBgImg from "../../../../../../Images/Abroad/Ireland/Engineering_UG/Automobile/hero_bg.webp";
+import sideImg from "../../../../../../Images/Abroad/Ireland/Engineering_UG/Automobile/side.webp";
+import ctaBgImg from "../../../../../../Images/Abroad/Ireland/Engineering_UG/Automobile/cta_bg.webp";
+
+// University images
+import uniImg1 from "../../../../../../Images/Abroad/Ireland/Engineering_UG/Automobile/University_of_Limerick.webp";
+import uniImg2 from "../../../../../../Images/Abroad/Ireland/Engineering_UG/Automobile/University_of_Limerick_2.webp";
+
+const page = {
+  "name": "Automobile Engineering in Ireland",
+  "country": "Ireland",
+  "slug": "ug/automobile-engineering",
+  "title": "Study Automobile Engineering in Ireland for Indian Students | Edu-Hawk Worldwide",
+  "description": "Complete guide to Automobile Engineering in Ireland for Indian students: Top Irish universities, eligibility criteria, tuition fees (€13,500 – €28,640 / year), scholarships, and 2-year post-study work visa (Stamp 1G).",
+  "keywords": "Study Automobile Engineering in Ireland for Indian Students, Top Universities for Automobile Engineering in Ireland, Automotive Management and Technology Courses in Ireland, Automobile Engineering Undergraduate Courses in Ireland, Mechanical Engineering Courses for Automotive Careers in Ireland, Automobile Engineering Eligibility Requirements in Ireland, Admission Requirements for Automotive Courses in Ireland, IELTS Requirements for Automobile Engineering in Ireland, Automobile Engineering Tuition Fees in Ireland for International Students, Cost of Living for Automotive Engineering Students in Ireland",
+  "introTitle": "AUTOMOBILE ENGINEERING IN IRELAND",
+  "heroParas": [
+    "Automobile Engineering in Ireland"
+  ],
+  "overview": [
+    "Automobile Engineering in Ireland"
+  ],
+  "level": "Bachelor of Engineering (BEng Hons) in Automotive & Mechanical Engineering",
+  "crumb": "Engineering / Automobile Engineering",
+  "stats": [
+    {
+      "label": "Degree Choices",
+      "value": "Bachelor of Engineering (BEng Hons) in Automotive & Mechanical Engineering"
+    },
+    {
+      "label": "Course Duration",
+      "value": "4 Years (BEng)"
+    },
+    {
+      "label": "Top Institutions",
+      "value": "University of Limerick, University of Limerick"
+    },
+    {
+      "label": "Post-Study Work",
+      "value": "2 Years Third Level Graduate Scheme (Stamp 1G)"
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why",
+      "eyebrow": "Why Study in Ireland",
+      "title": "1. Why Study Automotive Engineering in Ireland?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Automobile Engineering is a branch of engineering dealing with the design, performance, manufacture, maintenance, safety and emerging automotive technologies. Ireland can be the right place for students who want to build a career in the automotive industry.",
+            "Benefits of studying in Ireland are -"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "- Hands-on learning: Automotive workshop practice, vehicle diagnostics, engineering projects and laboratory work. -",
+            "Modern vehicle technology: Find out more about automotive electronics and advanced driver assistance systems, electric mobility",
+            "International recognition: An Irish degree can open up career opportunities in Ireland and abroad, depending on the employer and professional criteria.",
+            "Industry-related careers: Graduates may pursue careers in vehicle manufacturing, service operations, fleet management, technical support and automotive product development.",
+            "More reading: Where an approved progression route exists, an ordinary bachelor’s degree may progress to an honors degree or master’s program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students can know these opportunities and the requirements involved in pursuing overseas education through Edu Hawk worldwide study abroad guidance."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "courses",
+      "eyebrow": "Degrees & Programs",
+      "title": "2. Automobile Engineering Courses in Ireland",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Undergraduate options in Automobile Engineering in Ireland include specialist automotive technology programs and general engineering degrees that can lead to automotive careers.",
+            "Typical course choices -"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Automotive Management and Technology",
+            "Vehicle technology, workshop practice, automotive electronics and industry management Mechanical Engineering",
+            "Mechanics, materials, manufacturing, machine design and engineering analysis",
+            "Mechanical or Automotive Engineering",
+            "Advanced engineering design, analysis, testing and project work"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The course content may consist of:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "- Basic knowledge of automotive engineering",
+            "Vehicle and engine technology",
+            "*Automotive electrical and electronic systems",
+            "- Vehicle safety and dynamics",
+            "- Engineering design and CAD",
+            "- Production and materials",
+            "*Electric cars and e-mobility",
+            "- Advanced Driver Assistance Systems (ADAS)",
+            "Workshop practice & project work in automobile"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Institutions",
+      "title": "3. Best Automobile Engineering Universities & Colleges in Irish",
+      "unis": [
+        {
+          "name": "University of Limerick",
+          "desc": "Technological University of Dublin (TU Dublin)",
+          "imgKey": "uniImg_University_of_Limerick_webp",
+          "imgIdentifier": "uniImg1",
+          "city": "Limerick, Ireland",
+          "rank": "Top Ranked Irish Institution",
+          "tag": "Featured",
+          "img": uniImg1
+        },
+        {
+          "name": "University of Limerick",
+          "desc": "Technological University of Dublin (TU Dublin)",
+          "imgKey": "uniImg_University_of_Limerick_2_webp",
+          "imgIdentifier": "uniImg2",
+          "city": "Limerick, Ireland",
+          "rank": "Top Ranked Irish Institution",
+          "tag": "Featured",
+          "img": uniImg2
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admissions Criteria",
+      "title": "4. Preparation of documents: Collect academic transcripts, certificates, passport details and, if applicable, results of English language tests.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Detailed information on Admissions Criteria will be provided during personalized counseling with Edu-Hawk Worldwide."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "requirements",
+      "eyebrow": "Entry Requirements",
+      "title": "5. Admission Requirements for Automobile Engineering in Ireland",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The admission requirements for international applicants are set by the universities and technological universities themselves.",
+            "Academic requirements -",
+            "Candidates should keep their Class 10 and Class 12 marksheets handy and prepare for Mathematics and related science subjects. Some institutions may have minimum grades in Mathematics or combinations of subjects.",
+            "English language requirements",
+            "Students whose previous studies do not satisfy the institution’s English-language exemption requirements may require a IELTS Academic, TOEFL iBT, PTE Academic or other accepted tests.",
+            "The minimum score required and any minimum score on individual test components varies by institution.",
+            "Additional requirements"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Depending on the course and applicant, universities might require:",
+            "Educational certificates and transcripts.",
+            "Passport details.",
+            "Results of the tests in English tongue.",
+            "Additional information about the grading system or prior education.",
+            "Payment of application fee.",
+            "Other documents proving qualifications."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "6. Cost of Automobile Engineering in Ireland",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The cost of studying Automobile Engineering in Ireland depends on the institution, duration of the course, accommodation, city and lifestyle. Students need to calculate the full cost of study, not just the tuition fees."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Estimated annual expenses for an international student"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Tuition fees* \\| €12,500–€25,000+"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Accommodation \\| €7,000-€14,000",
+            "Food & Groceries \\| €2,500-€4,000",
+            "Transport \\| €600-€1,200",
+            "Books, materials and personal expenses \\| €1,000-€2,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Estimated total \\| €23,600-€46,200+",
+            "The non-EU fee for the Automotive Management and Technology course at TU Dublin is €12,500 per year.",
+            "Students should also plan for the cost of health insurance, visa related charges, airfare and any financial proof required. Scholarships are available, but eligibility and amounts may vary."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "process",
+      "eyebrow": "Application Steps",
+      "title": "7. Admission Process for Automobile Engineering in Ireland",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Choose Degree & University",
+          "desc": "Select your preferred Automobile Engineering in Ireland program and shortlist target Irish institutions."
+        },
+        {
+          "step": "02",
+          "title": "Verify Entry Requirements",
+          "desc": "Check academic prerequisites, mathematics/science standards, and English test scores (IELTS/TOEFL)."
+        },
+        {
+          "step": "03",
+          "title": "Prepare Documentation",
+          "desc": "Gather academic transcripts, statement of purpose, recommendation letters, and valid passport."
+        },
+        {
+          "step": "04",
+          "title": "Submit University Application",
+          "desc": "Apply directly through the university international admissions portal or via Edu-Hawk Worldwide."
+        },
+        {
+          "step": "05",
+          "title": "Accept Offer & Pay Deposit",
+          "desc": "Review academic conditions, pay the tuition deposit, and receive the official acceptance letter."
+        },
+        {
+          "step": "06",
+          "title": "Apply for Irish Student Visa (Stamp 2)",
+          "desc": "Submit the visa application with proof of sufficient finances, medical insurance, and accommodation."
+        }
+      ]
+    },
+    {
+      "slot": "accreditation",
+      "eyebrow": "Accreditation & Recognition",
+      "title": "8. Deal with immigration formalities: Find out the official visa and student immigration rules applicable to your specific situation.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Detailed information on Accreditation & Recognition will be provided during personalized counseling with Edu-Hawk Worldwide."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Outcomes",
+      "title": "9. Arrange accommodation and enrolment: Arrange accommodation, insurance, travel and registration before the course begins.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "8\\. Recognition and Accreditation of Automobile Engineering in Ireland",
+            "Accreditation is important as it allows students to judge the educational and professional standing of an engineering qualification.",
+            "In Ireland, Engineers Ireland is the body that accredits eligible engineering programs against the professional standards it has set. However, not all automotive-related courses are automatically an accredited engineering degree.",
+            "Students should: Before accepting an offer."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Locate the exact program and award in the Engineers Ireland accredited-course database.",
+            "Check the accreditation standard and the years of graduation covered.",
+            "Determine whether the program is a engineering degree or an engineering technology qualification",
+            "Consider whether the qualification meets the educational requirements for any professional recognition they may want in the future.",
+            "Check for any specific recognition requirements in their intended country of employment."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "9\\. Salary and Jobs Prospects after Automobile Engineering in Ireland",
+            "Depending on the type of degree you earn, the technical skills you have, your practical experience and the requirements of the employer, you can pursue a career.",
+            "A technology-and-management qualification might lead to different roles than a design-focused engineering degree.",
+            "Potential career paths",
+            "Automotive Technician*"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Vehicle Diagnostics Expert",
+            "Automotive Service Engineer",
+            "Automotive Quality Engineer",
+            "Manufacturing Engineer",
+            "Mechanical Design Engineer",
+            "Electric Vehicle Technician or Specialist",
+            "Fleet or Service Operations Manager",
+            "Automotive Technical Support Specialist"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Expected indicative salary",
+            "The following broad estimates can assist with preliminary career planning. They aren’t official salary bands or guaranteed earnings ."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Graduate/Entry level technical roles \\| €28,000 - €38,000",
+            "Technical/Engineering roles with experience \\| €38,000–€55,000",
+            "Senior Specialist or Management Roles \\| €55,000-€75,000+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Actual salaries vary by role, employer, experience, qualifications, and location. Technician, service management and engineering design roles are not interchangeable for salary data comparison.",
+            "Students can learn CAD, vehicle diagnostics, automotive electronics, quality systems, manufacturing, battery technology and electric vehicle systems to improve their employability. Relevant internships and project experience can also be valuable"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Document Checklist",
+      "title": "10. What Documents are Required to Study Automobile Engineering in Ireland?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Typically, applicants will need the following documents, but every institution has its own checklist:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Valid Passport",
+            "Certificates and transcripts of Class 10 and Class 12, or equivalent qualifications.",
+            "Results in mathematics and science subjects."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Results of tests in English*, if required."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Filled out the university application",
+            "Personal statement or motivation letter (if required).",
+            "References available upon request.",
+            "Resume or CV, if you want.",
+            "Certified translations of documents if necessary.",
+            "Proof of payment of application fee, if any."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Proof of financial means and health insurance* for immigration procedures, if required."
+          ]
+        }
+      ]
+    }
+  ],
+  "table": {
+    "title": "Estimated Cost of Studying Automobile Engineering in Ireland in Ireland (Tuition & Living)",
+    "headers": [
+      "Category / Level",
+      "Estimated Cost (€ / EUR)",
+      "Details / Scope"
+    ],
+    "rows": [
+      [
+        "Undergraduate Degree (Annual)",
+        "€13,500 – €27,640 / year",
+        "Varies by institution ranking, laboratory facilities, and program"
+      ],
+      [
+        "Postgraduate Degree (Annual)",
+        "€15,000 – €28,640 / year",
+        "1-year intensive master's program or 2-year research degree"
+      ],
+      [
+        "Living Expenses (Dublin)",
+        "€1,000 – €1,400 / month",
+        "Includes student accommodation, meals, utilities, and public transit"
+      ],
+      [
+        "Living Expenses (Outside Dublin)",
+        "€800 – €1,100 / month",
+        "Cost of living in Cork, Galway, Limerick, or Maynooth"
+      ],
+      [
+        "Student Visa & IRP Card Fee",
+        "€300 / year",
+        "Mandatory Irish Residence Permit (IRP) registration fee"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "1\\. Is there an undergraduate course for Automobile Engineering in Ireland?",
+      "a": "There are specialist automotive programs such as TU Dublin’s Automotive Management and Technology degree. Students interested in vehicle design and engineering analysis may also look at mechanical engineering programmes with relevant automotive-related modules."
+    },
+    {
+      "q": "2\\. What is the duration of an undergraduate automotive course?",
+      "a": "The TU Dublin Automotive Management and Technology program lasts three years. The duration of other engineering programs may differ depending on the level of qualification and course structure."
+    },
+    {
+      "q": "3\\. What are the Automobile Engineering fees in Ireland?",
+      "a": "Fees vary by institution and program. The course, Automotive Management and Technology at TU Dublin is listed at a fee of €12,500 per year for non-EU students. Always check the fee for the intake you are applying to and budget separately for living expenses."
+    },
+    {
+      "q": "4\\. What subjects matter for admission?",
+      "a": "Mathematics is especially important . Physics and other science subjects may be required or recommended, depending on the institution and qualification."
+    },
+    {
+      "q": "5\\. Is it possible to get a job in Ireland after studying automotive?",
+      "a": "Getting a job depends on your qualifications, experience, the job market and what the role requires. Eligible international graduates may be eligible for Irish graduate immigration permission, depending on the rules at the time and the qualification achieved."
+    },
+    {
+      "q": "How can Edu Hawk Worldwide Consultancy help me to study overseas?",
+      "a": "Edu Hawk worldwide can help students find suitable universities, understand admission requirements, organize application documents, and plan their study-abroad journey. Students are responsible for checking academic, financial, immigration and licensing requirements with the appropriate official authorities."
+    }
+  ]
+};
+
+export default function AutomobileEngineeringUGIreland() {
+  return (
+    <AbroadCoursePage
+      page={page}
+      heroImg={heroImg}
+      heroBgImg={heroBgImg}
+      sideImg={sideImg}
+      ctaBgImg={ctaBgImg}
+      showHeroStats={false}
+      seoPath="/study-abroad/ireland/ug/automobile-engineering"
+    />
+  );
+}

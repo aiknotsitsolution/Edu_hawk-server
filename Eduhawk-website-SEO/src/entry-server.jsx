@@ -349,6 +349,38 @@ import UndergraduateEngineeringIreland from "./pages/Study Abroad/Ireland/Engine
 import ComputerEngineeringUGIreland from "./pages/Study Abroad/Ireland/Engineering/ug/pages/ComputerEngineering.jsx";
 import CivilEngineeringUGIreland from "./pages/Study Abroad/Ireland/Engineering/ug/pages/CivilEngineering.jsx";
 import MechanicalEngineeringUGIreland from "./pages/Study Abroad/Ireland/Engineering/ug/pages/MechanicalEngineering.jsx";
+import ComputerScienceIreland from "./pages/Study Abroad/Ireland/ComputerScience/computer-science.jsx";
+import InformationTechnologyIreland from "./pages/Study Abroad/Ireland/InformationTechnology/information-technology.jsx";
+import ElectricalEngineeringUGIreland from "./pages/Study Abroad/Ireland/Engineering/ug/pages/ElectricalEngineering.jsx";
+import ElectronicsCommunicationUGIreland from "./pages/Study Abroad/Ireland/Engineering/ug/pages/ElectronicsCommunication.jsx";
+import ChemicalEngineeringUGIreland from "./pages/Study Abroad/Ireland/Engineering/ug/pages/ChemicalEngineering.jsx";
+import AerospaceEngineeringUGIreland from "./pages/Study Abroad/Ireland/Engineering/ug/pages/AerospaceEngineering.jsx";
+import BiomedicalEngineeringUGIreland from "./pages/Study Abroad/Ireland/Engineering/ug/pages/BiomedicalEngineering.jsx";
+import AutomobileEngineeringUGIreland from "./pages/Study Abroad/Ireland/Engineering/ug/pages/AutomobileEngineering.jsx";
+import PostgraduateEngineeringIreland from "./pages/Study Abroad/Ireland/Engineering/pg/postgraduate.jsx";
+import ComputerEngineeringPGIreland from "./pages/Study Abroad/Ireland/Engineering/pg/pages/ComputerEngineering.jsx";
+import MechanicalEngineeringPGIreland from "./pages/Study Abroad/Ireland/Engineering/pg/pages/MechanicalEngineering.jsx";
+import CivilEngineeringPGIreland from "./pages/Study Abroad/Ireland/Engineering/pg/pages/CivilEngineering.jsx";
+import ElectricalEngineeringPGIreland from "./pages/Study Abroad/Ireland/Engineering/pg/pages/ElectricalEngineering.jsx";
+import ElectronicsCommunicationPGIreland from "./pages/Study Abroad/Ireland/Engineering/pg/pages/ElectronicsCommunication.jsx";
+import ChemicalEngineeringPGIreland from "./pages/Study Abroad/Ireland/Engineering/pg/pages/ChemicalEngineering.jsx";
+import AerospaceEngineeringPGIreland from "./pages/Study Abroad/Ireland/Engineering/pg/pages/AerospaceEngineering.jsx";
+import BiomedicalEngineeringPGIreland from "./pages/Study Abroad/Ireland/Engineering/pg/pages/BiomedicalEngineering.jsx";
+import AutomobileEngineeringPGIreland from "./pages/Study Abroad/Ireland/Engineering/pg/pages/AutomobileEngineering.jsx";
+import BusinessManagementIreland from "./pages/Study Abroad/Ireland/BusinessManagement/business-management.jsx";
+import MBAIreland from "./pages/Study Abroad/Ireland/MBA/mba.jsx";
+import ExecutiveMBAIreland from "./pages/Study Abroad/Ireland/ExecutiveMBA/executive-mba.jsx";
+import BBAIreland from "./pages/Study Abroad/Ireland/BBA/bba.jsx";
+import BBSIreland from "./pages/Study Abroad/Ireland/BBS/bbs.jsx";
+import MBSIreland from "./pages/Study Abroad/Ireland/MBS/mbs.jsx";
+import InternationalBusinessIreland from "./pages/Study Abroad/Ireland/InternationalBusiness/international-business.jsx";
+import MarketingManagementIreland from "./pages/Study Abroad/Ireland/MarketingManagement/marketing-management.jsx";
+import HospitalityManagementIreland from "./pages/Study Abroad/Ireland/HospitalityManagement/hospitality-management.jsx";
+import ArchitectureIreland from "./pages/Study Abroad/Ireland/Architecture/architecture.jsx";
+import LawIreland from "./pages/Study Abroad/Ireland/Law/law.jsx";
+import LanguageCoursesIreland from "./pages/Study Abroad/Ireland/LanguageCourses/language-courses.jsx";
+import SummerCoursesIreland from "./pages/Study Abroad/Ireland/SummerCourses/summer-courses.jsx";
+import WinterCoursesIreland from "./pages/Study Abroad/Ireland/WinterCourses/winter-courses.jsx";
 
 
 
@@ -702,6 +734,38 @@ export async function render(url) {
               <Route path="study-abroad/ireland/ug/computer-engineering" element={<ComputerEngineeringUGIreland />} />
               <Route path="study-abroad/ireland/ug/civil-engineering" element={<CivilEngineeringUGIreland />} />
               <Route path="study-abroad/ireland/ug/mechanical-engineering" element={<MechanicalEngineeringUGIreland />} />
+              <Route path="study-abroad/ireland/computer-science" element={<ComputerScienceIreland />} />
+              <Route path="study-abroad/ireland/information-technology" element={<InformationTechnologyIreland />} />
+              <Route path="study-abroad/ireland/ug/electrical-engineering" element={<ElectricalEngineeringUGIreland />} />
+              <Route path="study-abroad/ireland/ug/electronics-communication" element={<ElectronicsCommunicationUGIreland />} />
+              <Route path="study-abroad/ireland/ug/chemical-engineering" element={<ChemicalEngineeringUGIreland />} />
+              <Route path="study-abroad/ireland/ug/aerospace-engineering" element={<AerospaceEngineeringUGIreland />} />
+              <Route path="study-abroad/ireland/ug/biomedical-engineering" element={<BiomedicalEngineeringUGIreland />} />
+              <Route path="study-abroad/ireland/ug/automobile-engineering" element={<AutomobileEngineeringUGIreland />} />
+              <Route path="study-abroad/ireland/pg/engineering" element={<PostgraduateEngineeringIreland />} />
+              <Route path="study-abroad/ireland/pg/computer-engineering" element={<ComputerEngineeringPGIreland />} />
+              <Route path="study-abroad/ireland/pg/mechanical-engineering" element={<MechanicalEngineeringPGIreland />} />
+              <Route path="study-abroad/ireland/pg/civil-engineering" element={<CivilEngineeringPGIreland />} />
+              <Route path="study-abroad/ireland/pg/electrical-engineering" element={<ElectricalEngineeringPGIreland />} />
+              <Route path="study-abroad/ireland/pg/electronics-communication" element={<ElectronicsCommunicationPGIreland />} />
+              <Route path="study-abroad/ireland/pg/chemical-engineering" element={<ChemicalEngineeringPGIreland />} />
+              <Route path="study-abroad/ireland/pg/aerospace-engineering" element={<AerospaceEngineeringPGIreland />} />
+              <Route path="study-abroad/ireland/pg/biomedical-engineering" element={<BiomedicalEngineeringPGIreland />} />
+              <Route path="study-abroad/ireland/pg/automobile-engineering" element={<AutomobileEngineeringPGIreland />} />
+              <Route path="study-abroad/ireland/business-management" element={<BusinessManagementIreland />} />
+              <Route path="study-abroad/ireland/mba" element={<MBAIreland />} />
+              <Route path="study-abroad/ireland/executive-mba" element={<ExecutiveMBAIreland />} />
+              <Route path="study-abroad/ireland/bba" element={<BBAIreland />} />
+              <Route path="study-abroad/ireland/bbs" element={<BBSIreland />} />
+              <Route path="study-abroad/ireland/mbs" element={<MBSIreland />} />
+              <Route path="study-abroad/ireland/international-business" element={<InternationalBusinessIreland />} />
+              <Route path="study-abroad/ireland/marketing-management" element={<MarketingManagementIreland />} />
+              <Route path="study-abroad/ireland/hospitality-management" element={<HospitalityManagementIreland />} />
+              <Route path="study-abroad/ireland/architecture" element={<ArchitectureIreland />} />
+              <Route path="study-abroad/ireland/law" element={<LawIreland />} />
+              <Route path="study-abroad/ireland/language-courses" element={<LanguageCoursesIreland />} />
+              <Route path="study-abroad/ireland/summer-courses" element={<SummerCoursesIreland />} />
+              <Route path="study-abroad/ireland/winter-courses" element={<WinterCoursesIreland />} />
 
               <Route path="terms-conditions" element={<TermsAndConditions />} />
               <Route path="privacy-policy" element={<PrivacyPolicy />} />

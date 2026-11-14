@@ -1,0 +1,464 @@
+import React from "react";
+import { AbroadCoursePage } from "../../../../component/CoursePageKit.jsx";
+
+// Page layout images
+import heroImg from "../../../../Images/Abroad/Ireland/InternationalBusiness/hero.webp";
+import heroBgImg from "../../../../Images/Abroad/Ireland/InternationalBusiness/hero_bg.webp";
+import sideImg from "../../../../Images/Abroad/Ireland/InternationalBusiness/side.webp";
+import ctaBgImg from "../../../../Images/Abroad/Ireland/InternationalBusiness/cta_bg.webp";
+
+// University images
+import uniImg1 from "../../../../Images/Abroad/Ireland/InternationalBusiness/University_College_Dublin.webp";
+import uniImg2 from "../../../../Images/Abroad/Ireland/InternationalBusiness/University_College_Cork.webp";
+import uniImg3 from "../../../../Images/Abroad/Ireland/InternationalBusiness/University_College_Cork_2.webp";
+
+const page = {
+  "name": "International Business in Ireland",
+  "country": "Ireland",
+  "slug": "international-business",
+  "title": "Study International Business in Ireland for Indian Students | Edu-Hawk Worldwide",
+  "description": "Complete guide to International Business in Ireland for Indian students: Top Irish universities, eligibility criteria, tuition fees (€13,500 – €28,640 / year), scholarships, and 2-year post-study work visa (Stamp 1G).",
+  "keywords": "Study International Business in Ireland for Indian Students, Top Universities for International Business in Ireland, International Business Courses in Ireland for International Students, Bachelor of International Business in Ireland, MSc International Business in Ireland, International Business and Languages Courses in Ireland, International Business Eligibility Requirements in Ireland, Admission Requirements for International Business in Ireland, International Business Tuition Fees in Ireland 2026/27, Cost of Studying International Business in Ireland",
+  "introTitle": "INTERNATIONAL BUSINESS COURSES IN IRELAND",
+  "heroParas": [
+    "International Business Courses in Ireland",
+    "Ireland is a favorite choice for international students who are interested in studying International Business due to its well-connected economy globally, numerous multinational corporations and its strong business education sector. International Business courses enhance students' skills in international trade, finance, global marketing, cross-cultural management and business strategy.",
+    "Students can explore these opportunities and understand the requirements involved in pursuing education overseas through Edu Hawk worldwide study abroad guidance."
+  ],
+  "overview": [
+    "International Business Courses in Ireland",
+    "Ireland is a favorite choice for international students who are interested in studying International Business due to its well-connected economy globally, numerous multinational corporations and its strong business education sector. International Business courses enhance students' skills in international trade, finance, global marketing, cross-cultural management and business strategy.",
+    "Students can explore these opportunities and understand the requirements involved in pursuing education overseas through Edu Hawk worldwide study abroad guidance."
+  ],
+  "level": "BSc International Business & MSc Global Business",
+  "crumb": "Business / International Business",
+  "stats": [
+    {
+      "label": "Degree Choices",
+      "value": "BSc International Business & MSc Global Business"
+    },
+    {
+      "label": "Course Duration",
+      "value": "3 to 4 Years (UG) / 1 Year (PG)"
+    },
+    {
+      "label": "Top Institutions",
+      "value": "University College Dublin, University College Cork"
+    },
+    {
+      "label": "Post-Study Work",
+      "value": "2 Years Third Level Graduate Scheme (Stamp 1G)"
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why",
+      "eyebrow": "Why Study in Ireland",
+      "title": "1. Why study international business in Ireland?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Students studying International Business in Ireland can build a foundation for careers with international companies, exporters, consulting firms and multinational organisations",
+            "The key benefits are:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "- Exposure to international business: Ireland is home to a large number of multinationals and has strong links with European and global markets.",
+            "Industry-oriented education: Courses can cover business projects, case studies, presentations and practical assignments.",
+            "Several study options: Students may choose between bachelor’s degrees, master’s programs and other business-related qualifications.",
+            "Languages and cultural skills: Some programs combine business studies with foreign languages and international study opportunities.",
+            "Career flexibility: Graduates can find employment in international marketing, export management, business development, logistics and consulting.",
+            "English language education: The majority of the programs are taught in English, although some degrees also include other languages."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For students who want to understand how businesses operate in different countries and cultures, Ireland can be a good option."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "courses",
+      "eyebrow": "Degrees & Programs",
+      "title": "2. International Business Courses in Ireland",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "There are several academic routes through which you can pursue International Business courses in Ireland. The course title and syllabus will differ from one institution to another so students should compare the modules, length of study and the level of qualification before applying.",
+            "Undergraduate courses",
+            "Undergraduate choices are for students who have completed their secondary education.",
+            "Typical options include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "- Bachelor of Business International Business",
+            "Bachelor of Commerce with international business specialization",
+            "- Bachelor of Arts in International Business and Languages",
+            "- Business Studies Degrees with the option to specialize in international business"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A bachelor’s degree usually takes three to four years to complete, depending on the institution and the structure of the program.",
+            "Postgraduate Studies",
+            "Postgraduate courses are designed for graduates who want to specialize in international business or develop advanced management skills.",
+            "Options might be:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "MSc International Business",
+            "International Management Master Degrees",
+            "- International Business and Global Strategy courses",
+            "- Postgraduate diploma in international business"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Many master 's programs are one year full-time, but some programs are longer or differently structured."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Institutions",
+      "title": "3. Best Universities to Study International Business in Ireland",
+      "unis": [
+        {
+          "name": "University College Dublin",
+          "desc": "University College Dublin, UCD - University College Dublin (UCD) MSc International Business and undergraduate Commerce International options. Its programs can cater for students interested in global markets, international strategy and cross-border business operations.",
+          "imgKey": "uniImg_University_College_Dublin_webp",
+          "imgIdentifier": "uniImg1",
+          "city": "Dublin, Ireland",
+          "rank": "Top Ranked Irish Institution",
+          "tag": "Featured",
+          "img": uniImg1
+        },
+        {
+          "name": "University College Cork",
+          "desc": "University College Dublin, UCD - University College Dublin (UCD) MSc International Business and undergraduate Commerce International options. Its programs can cater for students interested in global markets, international strategy and cross-border business operations.",
+          "imgKey": "uniImg_University_College_Cork_webp",
+          "imgIdentifier": "uniImg2",
+          "city": "Cork, Ireland",
+          "rank": "Top Ranked Irish Institution",
+          "tag": "Featured",
+          "img": uniImg2
+        },
+        {
+          "name": "University College Cork",
+          "desc": "University College Dublin, UCD - University College Dublin (UCD) MSc International Business and undergraduate Commerce International options. Its programs can cater for students interested in global markets, international strategy and cross-border business operations.",
+          "imgKey": "uniImg_University_College_Cork_2_webp",
+          "imgIdentifier": "uniImg3",
+          "city": "Cork, Ireland",
+          "rank": "Top Ranked Irish Institution",
+          "tag": "Featured",
+          "img": uniImg3
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admissions Criteria",
+      "title": "4. Eligibility to Study International Business in Ireland",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Eligibility requirements for International Business in Ireland vary depending on the level of the course, the institution and the previous education of the applicant.",
+            "Bachelor degrees",
+            "Students usually need:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Completed secondary school or equivalent.",
+            "Academic results that meet the entry requirements of the university in the country concerned.",
+            "Proof of English language proficiency if required.",
+            "Relevant subject prerequisites (if required by the institution).",
+            "Indian applicants may need to submit Class 12 results and other academic documents.",
+            "The marks or equivalent qualification required depends on the university and program"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For degrees of master",
+            "Applicants usually require:",
+            "Recognized Bachelor's degree"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Academic grades above the program minimum requirement.",
+            "A relevant background in business, commerce, management or another acceptable discipline, depending on the course. -"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Proof of English proficiency, where applicable."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Other documents, if required, such as CV or statement of purpose."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "requirements",
+      "eyebrow": "Entry Requirements",
+      "title": "5. Eligibility to Study International Business in Ireland",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Admission requirements international business Ireland are based on academic record, English language proficiency and programme-specific requirements.",
+            "Typical requirements are:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Academic qualifications: Students must have completed the previous qualification required for their course of choice.",
+            "English proficiency: You may be required to provide IELTS Academic, TOEFL iBT, PTE Academic or another recognized English language qualification. The minimum scores vary from institution to institution and from course to course.",
+            "Purpose statement: Sometimes postgraduate programs ask candidates to discuss their academic interests, career goals and reasons for choosing the program.",
+            "CV or résumé: You may be required to submit this for postgraduate courses, particularly where relevant work experience is taken into account.",
+            "References: Some master’s programs require academic or professional references.",
+            "Work experience: Not all International Business master’s programmes require it, but some specialized management courses may prefer or require relevant experience."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Admission is not assured by merely fulfilling the prerequisites.",
+            "Universities may also take into account the competitiveness of the applicant pool and the overall quality of the application."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "6. Cost to Study International Business in Ireland",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The cost of studying International Business in Ireland depends on the institution, level of the program, student fee status and duration.",
+            "Tuition fees estimates Study level \\| Estimated annual tuition fee",
+            "Bachelor's degree \\| €10,000–€29,000",
+            "Master's degree \\| €14,000–€40,000",
+            "These are indicative planning ranges from published Irish study fee guidance and are not guaranteed prices for each International Business course.",
+            "Actual fees may fall outside of these ranges and may vary each academic year.",
+            "Other costs of living",
+            "Students should also budget for accommodation, food, transport, health insurance (where applicable), books, personal expenses and visa costs."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "process",
+      "eyebrow": "Application Steps",
+      "title": "7. Ireland International Business Admission Process",
+      "steps": [
+        {
+          "step": "01",
+          "title": "The Admission process for International Business in Ireland usually consists of the following steps",
+          "desc": ""
+        }
+      ]
+    },
+    {
+      "slot": "accreditation",
+      "eyebrow": "Accreditation & Recognition",
+      "title": "8. Complete immigration formalities: If you need a Irish student visa or immigration permission, comply with the current official requirements prior to traveling.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Application deadlines and intakes varies by university. Students should start preparing a couple of months in advance of their desired start date.",
+            "8\\. International Business Recognition and Accreditation in Ireland",
+            "Useful checks are:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "- Recognition of Irish higher education:",
+            "Check that the institution is recognized and the qualification is clearly identified.",
+            "National Framework of Qualifications (NFQ): Indicate the level of the qualification and the type of award (if applicable).",
+            "Quality and Qualifications Ireland (QQI): See QQI resources for guidance on checking qualifications and quality assurance information.",
+            "Professional recognition: Some business schools or related programs hold other accreditations."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are not generic requirements for International Business degrees."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Outcomes",
+      "title": "9. Salary & Job Opportunities after International Business in Ireland",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "An International Business qualification can lead to companies involved in international trade, marketing, operations and world-wide expansion.",
+            "Job options -",
+            "Graduates might look at careers like:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "- International Business Development Manager",
+            "Export Import Coordinator",
+            "- International Marketing for Executives",
+            "- Specialist in Market Research",
+            "- Global Accounts Coordinator",
+            "- Logistics or Supply Chain Coordinator",
+            "Business Consultant*",
+            "- International Sales Manager",
+            "- Assistant Trade Compliance Officer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some roles may require further technical skills, relevant experience, language skills or professional qualifications.",
+            "Expected Salary",
+            "Salary depends on the job title, employer, location, industry, experience and special skills. Entry-level positions may be paid less than positions that require several years’ experience.",
+            "Students should research current salary ranges for individual roles as a guide for planning and not assume all International Business graduates get the same salary.",
+            "There can also be differences in pay structures for business development, analytics, supply chain and specialist trade jobs."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Document Checklist",
+      "title": "10. Documents Needed to Study International Business in Ireland",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The documents required to study International Business in Ireland vary according to the university and if the applicant is applying for undergraduate or postgraduate study.",
+            "Typical documents include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "- Passport valid for at least",
+            "Transcripts and certificates",
+            "- Class 10 and Class 12 documents for undergraduates where applicable",
+            "- Postgraduate applicants: Bachelor’s degree certificate and transcripts",
+            "- Test results in English (if required)",
+            "- Statement of purpose or personal statement, if applicable",
+            "- CV or resume for programs that ask for it",
+            "Recommendation letters if applicable - Application fee and application form (if applicable)",
+            "- Documents required for the student visa process, if applicable, such as proof of funding and other documents"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Applicants should check if certified copies, official translations or verification are required for their documents. University admission documents may have different requirements than immigration documents."
+          ]
+        }
+      ]
+    }
+  ],
+  "table": {
+    "title": "Estimated Cost of Studying International Business in Ireland in Ireland (Tuition & Living)",
+    "headers": [
+      "Category / Level",
+      "Estimated Cost (€ / EUR)",
+      "Details / Scope"
+    ],
+    "rows": [
+      [
+        "Undergraduate Degree (Annual)",
+        "€13,500 – €27,640 / year",
+        "Varies by institution ranking, laboratory facilities, and program"
+      ],
+      [
+        "Postgraduate Degree (Annual)",
+        "€15,000 – €28,640 / year",
+        "1-year intensive master's program or 2-year research degree"
+      ],
+      [
+        "Living Expenses (Dublin)",
+        "€1,000 – €1,400 / month",
+        "Includes student accommodation, meals, utilities, and public transit"
+      ],
+      [
+        "Living Expenses (Outside Dublin)",
+        "€800 – €1,100 / month",
+        "Cost of living in Cork, Galway, Limerick, or Maynooth"
+      ],
+      [
+        "Student Visa & IRP Card Fee",
+        "€300 / year",
+        "Mandatory Irish Residence Permit (IRP) registration fee"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "1\\. Is Ireland a good place to study International Business?",
+      "a": "Ireland is a good option for students who want an English-language business education and exposure to an internationally connected economy. The best one depends on the course curriculum, fees, location & career goals."
+    },
+    {
+      "q": "2\\. What is the duration of an International Business course in Ireland?",
+      "a": "Bachelor degrees typically take three to four years. Many master's programmes are full-time and last about a year, although the exact length can vary between universities and courses."
+    },
+    {
+      "q": "3\\. What qualifications are needed to study International Business in Ireland?",
+      "a": "A bachelor's degree generally requires a recognized secondary-school qualification. For a master’s degree they generally need a recognized bachelor’s degree and must satisfy the programme’s academic and English language requirements."
+    },
+    {
+      "q": "4\\. What is the cost of studying International Business in Ireland?",
+      "a": "Tuition fees vary according to university, study level and student status. As a rough guide, undergraduate business tuition could be in the €10,000 - €29,000 per annum range, with postgraduate tuition in the €14,000 - €40,000 per annum range. Students must verify the exact fee on the official course page and should keep aside living expenses separately."
+    },
+    {
+      "q": "How can Edu Hawk Worldwide Consultancy help me in my studies abroad?",
+      "a": "Edu Hawk worldwide can help students to find the right universities, to get to know the admission requirements, to prepare the application documents and to plan their study-abroad journey. Students should check academic, financial, immigration and licensing requirements with official sources."
+    }
+  ]
+};
+
+export default function InternationalBusinessIreland() {
+  return (
+    <AbroadCoursePage
+      page={page}
+      heroImg={heroImg}
+      heroBgImg={heroBgImg}
+      sideImg={sideImg}
+      ctaBgImg={ctaBgImg}
+      showHeroStats={false}
+      seoPath="/study-abroad/ireland/international-business"
+    />
+  );
+}

@@ -204,6 +204,10 @@ const Navbar = () => {
         if (path === "engineering") return "/study-abroad/ireland/ug/engineering";
         return `/study-abroad/ireland/ug/${path}`;
       }
+      if (prefix === "/courses/pg") {
+        if (path === "engineering") return "/study-abroad/ireland/pg/engineering";
+        return `/study-abroad/ireland/pg/${path}`;
+      }
       if (path === "dentistry") return "/study-abroad/ireland/dentistry";
       if (path === "nursing") return "/study-abroad/ireland/nursing";
       if (path === "pharmacy") return "/study-abroad/ireland/pharmacy";

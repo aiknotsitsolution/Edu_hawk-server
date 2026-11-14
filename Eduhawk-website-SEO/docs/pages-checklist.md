@@ -442,70 +442,70 @@
 ### Healthcare & MBBS Abroad (6)
 | Overall # | Group # | Status | Page Name | Route Path |
 | :---: | :---: | :---: | :--- | :--- |
-| **249** | 01 | [ ] | Dentistry in Ireland | `/study-abroad/ireland/dentistry` |
-| **250** | 02 | [ ] | Nursing in Ireland | `/study-abroad/ireland/nursing` |
-| **251** | 03 | [ ] | Pharmacy in Ireland | `/study-abroad/ireland/pharmacy` |
-| **252** | 04 | [ ] | Physiotherapy in Ireland | `/study-abroad/ireland/physiotherapy` |
-| **253** | 05 | [ ] | Public Health in Ireland | `/study-abroad/ireland/public-health` |
-| **254** | 06 | [ ] | Biotechnology in Ireland | `/study-abroad/ireland/biotechnology` |
+| **249** | 01 | [x] | Dentistry in Ireland | `/study-abroad/ireland/dentistry` |
+| **250** | 02 | [x] | Nursing in Ireland | `/study-abroad/ireland/nursing` |
+| **251** | 03 | [x] | Pharmacy in Ireland | `/study-abroad/ireland/pharmacy` |
+| **252** | 04 | [x] | Physiotherapy in Ireland | `/study-abroad/ireland/physiotherapy` |
+| **253** | 05 | [x] | Public Health in Ireland | `/study-abroad/ireland/public-health` |
+| **254** | 06 | [x] | Biotechnology in Ireland | `/study-abroad/ireland/biotechnology` |
 
 ### Tech & Engineering Hubs (5)
 | Overall # | Group # | Status | Page Name | Route Path |
 | :---: | :---: | :---: | :--- | :--- |
-| **255** | 07 | [ ] | Computer Science in Ireland | `/study-abroad/ireland/computer-science` |
-| **256** | 08 | [ ] | Information Technology in Ireland | `/study-abroad/ireland/information-technology` |
-| **257** | 09 | [ ] | Undergraduate Engineering Hub | `/study-abroad/ireland/ug/engineering` |
-| **258** | 10 | [ ] | Postgraduate Engineering Hub | `/study-abroad/ireland/pg/engineering` |
+| **255** | 07 | [x] | Computer Science in Ireland | `/study-abroad/ireland/computer-science` |
+| **256** | 08 | [x] | Information Technology in Ireland | `/study-abroad/ireland/information-technology` |
+| **257** | 09 | [x] | Undergraduate Engineering Hub | `/study-abroad/ireland/ug/engineering` |
+| **258** | 10 | [x] | Postgraduate Engineering Hub | `/study-abroad/ireland/pg/engineering` |
 | **259** | 11 | [ ] | General Engineering Overview | `/study-abroad/ireland/engineering` |
 
 ### UG Engineering Branches (9)
 | Overall # | Group # | Status | Page Name | Route Path |
 | :---: | :---: | :---: | :--- | :--- |
-| **260** | 12 | [ ] | Computer Engineering - UG | `/study-abroad/ireland/ug/computer-engineering` |
-| **261** | 13 | [ ] | Mechanical Engineering - UG | `/study-abroad/ireland/ug/mechanical-engineering` |
-| **262** | 14 | [ ] | Civil Engineering - UG | `/study-abroad/ireland/ug/civil-engineering` |
-| **263** | 15 | [ ] | Electrical Engineering - UG | `/study-abroad/ireland/ug/electrical-engineering` |
-| **264** | 16 | [ ] | Electronics & Communication - UG | `/study-abroad/ireland/ug/electronics-communication` |
-| **265** | 17 | [ ] | Chemical Engineering - UG | `/study-abroad/ireland/ug/chemical-engineering` |
-| **266** | 18 | [ ] | Aerospace Engineering - UG | `/study-abroad/ireland/ug/aerospace-engineering` |
-| **267** | 19 | [ ] | Biomedical Engineering - UG | `/study-abroad/ireland/ug/biomedical-engineering` |
-| **268** | 20 | [ ] | Automobile Engineering - UG | `/study-abroad/ireland/ug/automobile-engineering` |
+| **260** | 12 | [x] | Computer Engineering - UG | `/study-abroad/ireland/ug/computer-engineering` |
+| **261** | 13 | [x] | Mechanical Engineering - UG | `/study-abroad/ireland/ug/mechanical-engineering` |
+| **262** | 14 | [x] | Civil Engineering - UG | `/study-abroad/ireland/ug/civil-engineering` |
+| **263** | 15 | [x] | Electrical Engineering - UG | `/study-abroad/ireland/ug/electrical-engineering` |
+| **264** | 16 | [x] | Electronics & Communication - UG | `/study-abroad/ireland/ug/electronics-communication` |
+| **265** | 17 | [x] | Chemical Engineering - UG | `/study-abroad/ireland/ug/chemical-engineering` |
+| **266** | 18 | [x] | Aerospace Engineering - UG | `/study-abroad/ireland/ug/aerospace-engineering` |
+| **267** | 19 | [x] | Biomedical Engineering - UG | `/study-abroad/ireland/ug/biomedical-engineering` |
+| **268** | 20 | [x] | Automobile Engineering - UG | `/study-abroad/ireland/ug/automobile-engineering` |
 
 ### PG Engineering Branches (9)
 | Overall # | Group # | Status | Page Name | Route Path |
 | :---: | :---: | :---: | :--- | :--- |
-| **269** | 21 | [ ] | Computer Engineering - PG | `/study-abroad/ireland/pg/computer-engineering` |
-| **270** | 22 | [ ] | Mechanical Engineering - PG | `/study-abroad/ireland/pg/mechanical-engineering` |
-| **271** | 23 | [ ] | Civil Engineering - PG | `/study-abroad/ireland/pg/civil-engineering` |
-| **272** | 24 | [ ] | Electrical Engineering - PG | `/study-abroad/ireland/pg/electrical-engineering` |
-| **273** | 25 | [ ] | Electronics & Communication - PG | `/study-abroad/ireland/pg/electronics-communication` |
-| **274** | 26 | [ ] | Chemical Engineering - PG | `/study-abroad/ireland/pg/chemical-engineering` |
-| **275** | 27 | [ ] | Aerospace Engineering - PG | `/study-abroad/ireland/pg/aerospace-engineering` |
-| **276** | 28 | [ ] | Biomedical Engineering - PG | `/study-abroad/ireland/pg/biomedical-engineering` |
-| **277** | 29 | [ ] | Automobile Engineering - PG | `/study-abroad/ireland/pg/automobile-engineering` |
+| **269** | 21 | [x] | Computer Engineering - PG | `/study-abroad/ireland/pg/computer-engineering` |
+| **270** | 22 | [x] | Mechanical Engineering - PG | `/study-abroad/ireland/pg/mechanical-engineering` |
+| **271** | 23 | [x] | Civil Engineering - PG | `/study-abroad/ireland/pg/civil-engineering` |
+| **272** | 24 | [x] | Electrical Engineering - PG | `/study-abroad/ireland/pg/electrical-engineering` |
+| **273** | 25 | [x] | Electronics & Communication - PG | `/study-abroad/ireland/pg/electronics-communication` |
+| **274** | 26 | [x] | Chemical Engineering - PG | `/study-abroad/ireland/pg/chemical-engineering` |
+| **275** | 27 | [x] | Aerospace Engineering - PG | `/study-abroad/ireland/pg/aerospace-engineering` |
+| **276** | 28 | [x] | Biomedical Engineering - PG | `/study-abroad/ireland/pg/biomedical-engineering` |
+| **277** | 29 | [x] | Automobile Engineering - PG | `/study-abroad/ireland/pg/automobile-engineering` |
 
 ### Business, Management & Law (12)
 | Overall # | Group # | Status | Page Name | Route Path |
 | :---: | :---: | :---: | :--- | :--- |
-| **278** | 30 | [ ] | Business Management in Ireland | `/study-abroad/ireland/business-management` |
-| **279** | 31 | [ ] | MBA in Ireland | `/study-abroad/ireland/mba` |
-| **280** | 32 | [ ] | Executive MBA in Ireland | `/study-abroad/ireland/executive-mba` |
-| **281** | 33 | [ ] | BBA in Ireland | `/study-abroad/ireland/bba` |
-| **282** | 34 | [ ] | BBS in Ireland | `/study-abroad/ireland/bbs` |
-| **283** | 35 | [ ] | MBS in Ireland | `/study-abroad/ireland/mbs` |
-| **284** | 36 | [ ] | International Business in Ireland | `/study-abroad/ireland/international-business` |
-| **285** | 37 | [ ] | Marketing Management in Ireland | `/study-abroad/ireland/marketing-management` |
+| **278** | 30 | [x] | Business Management in Ireland | `/study-abroad/ireland/business-management` |
+| **279** | 31 | [x] | MBA in Ireland | `/study-abroad/ireland/mba` |
+| **280** | 32 | [x] | Executive MBA in Ireland | `/study-abroad/ireland/executive-mba` |
+| **281** | 33 | [x] | BBA in Ireland | `/study-abroad/ireland/bba` |
+| **282** | 34 | [x] | BBS in Ireland | `/study-abroad/ireland/bbs` |
+| **283** | 35 | [x] | MBS in Ireland | `/study-abroad/ireland/mbs` |
+| **284** | 36 | [x] | International Business in Ireland | `/study-abroad/ireland/international-business` |
+| **285** | 37 | [x] | Marketing Management in Ireland | `/study-abroad/ireland/marketing-management` |
 | **286** | 38 | [ ] | Accounting & Finance in Ireland | `/study-abroad/ireland/accounting-finance` |
-| **287** | 39 | [ ] | Hospitality Management in Ireland | `/study-abroad/ireland/hospitality-management` |
-| **288** | 40 | [ ] | Architecture in Ireland | `/study-abroad/ireland/architecture` |
-| **289** | 41 | [ ] | Law in Ireland | `/study-abroad/ireland/law` |
+| **287** | 39 | [x] | Hospitality Management in Ireland | `/study-abroad/ireland/hospitality-management` |
+| **288** | 40 | [x] | Architecture in Ireland | `/study-abroad/ireland/architecture` |
+| **289** | 41 | [x] | Law in Ireland | `/study-abroad/ireland/law` |
 
 ### Programs & Pathways (4)
 | Overall # | Group # | Status | Page Name | Route Path |
 | :---: | :---: | :---: | :--- | :--- |
-| **290** | 42 | [ ] | Language Courses in Ireland | `/study-abroad/ireland/language-courses` |
-| **291** | 43 | [ ] | Summer Courses in Ireland | `/study-abroad/ireland/summer-courses` |
-| **292** | 44 | [ ] | Winter Courses in Ireland | `/study-abroad/ireland/winter-courses` |
+| **290** | 42 | [x] | Language Courses in Ireland | `/study-abroad/ireland/language-courses` |
+| **291** | 43 | [x] | Summer Courses in Ireland | `/study-abroad/ireland/summer-courses` |
+| **292** | 44 | [x] | Winter Courses in Ireland | `/study-abroad/ireland/winter-courses` |
 | **293** | 45 | [ ] | Working Professionals in Ireland | `/study-abroad/ireland/working-professionals` |
 
 ---
@@ -994,7 +994,7 @@
 | **UK41** | 41 | ✔️ | Summer Courses in the UK | `/study-abroad/uk/summer-courses` |
 | **UK42** | 42 | ✔️ | Winter Courses in the UK | `/study-abroad/uk/winter-courses` |
 
-## 14. Ireland (10 Pages)
+## 14. Ireland (42 Pages)
 
 | ID | Index | Status | Course / Page | Route |
 |---|---|---|---|---|
@@ -1008,3 +1008,35 @@
 | **IRE08** | 8 | ✔️ | BEng Computer Engineering in Ireland | `/study-abroad/ireland/ug/computer-engineering` |
 | **IRE09** | 9 | ✔️ | BEng Civil Engineering in Ireland | `/study-abroad/ireland/ug/civil-engineering` |
 | **IRE10** | 10 | ✔️ | BEng Mechanical Engineering in Ireland | `/study-abroad/ireland/ug/mechanical-engineering` |
+| **IRE11** | 11 | ✔️ | Computer Science in Ireland | `/study-abroad/ireland/computer-science` |
+| **IRE12** | 12 | ✔️ | Information Technology in Ireland | `/study-abroad/ireland/information-technology` |
+| **IRE13** | 13 | ✔️ | BEng Electrical Engineering in Ireland | `/study-abroad/ireland/ug/electrical-engineering` |
+| **IRE14** | 14 | ✔️ | BEng Electronics & Communication in Ireland | `/study-abroad/ireland/ug/electronics-communication` |
+| **IRE15** | 15 | ✔️ | BEng Chemical Engineering in Ireland | `/study-abroad/ireland/ug/chemical-engineering` |
+| **IRE16** | 16 | ✔️ | BEng Aerospace Engineering in Ireland | `/study-abroad/ireland/ug/aerospace-engineering` |
+| **IRE17** | 17 | ✔️ | BEng Biomedical Engineering in Ireland | `/study-abroad/ireland/ug/biomedical-engineering` |
+| **IRE18** | 18 | ✔️ | BEng Automobile Engineering in Ireland | `/study-abroad/ireland/ug/automobile-engineering` |
+| **IRE19** | 19 | ✔️ | Postgraduate Engineering in Ireland | `/study-abroad/ireland/pg/engineering` |
+| **IRE20** | 20 | ✔️ | MSc Computer Engineering in Ireland | `/study-abroad/ireland/pg/computer-engineering` |
+| **IRE21** | 21 | ✔️ | MSc Mechanical Engineering in Ireland | `/study-abroad/ireland/pg/mechanical-engineering` |
+| **IRE22** | 22 | ✔️ | MSc Civil Engineering in Ireland | `/study-abroad/ireland/pg/civil-engineering` |
+| **IRE23** | 23 | ✔️ | MSc Electrical Engineering in Ireland | `/study-abroad/ireland/pg/electrical-engineering` |
+| **IRE24** | 24 | ✔️ | MSc Electronics & Communication in Ireland | `/study-abroad/ireland/pg/electronics-communication` |
+| **IRE25** | 25 | ✔️ | MSc Chemical Engineering in Ireland | `/study-abroad/ireland/pg/chemical-engineering` |
+| **IRE26** | 26 | ✔️ | MSc Aerospace Engineering in Ireland | `/study-abroad/ireland/pg/aerospace-engineering` |
+| **IRE27** | 27 | ✔️ | MSc Biomedical Engineering in Ireland | `/study-abroad/ireland/pg/biomedical-engineering` |
+| **IRE28** | 28 | ✔️ | MSc Automobile Engineering in Ireland | `/study-abroad/ireland/pg/automobile-engineering` |
+| **IRE29** | 29 | ✔️ | Business Management in Ireland | `/study-abroad/ireland/business-management` |
+| **IRE30** | 30 | ✔️ | MBA in Ireland | `/study-abroad/ireland/mba` |
+| **IRE31** | 31 | ✔️ | Executive MBA in Ireland | `/study-abroad/ireland/executive-mba` |
+| **IRE32** | 32 | ✔️ | BBA in Ireland | `/study-abroad/ireland/bba` |
+| **IRE33** | 33 | ✔️ | BBS in Ireland | `/study-abroad/ireland/bbs` |
+| **IRE34** | 34 | ✔️ | MBS in Ireland | `/study-abroad/ireland/mbs` |
+| **IRE35** | 35 | ✔️ | International Business in Ireland | `/study-abroad/ireland/international-business` |
+| **IRE36** | 36 | ✔️ | Marketing Management in Ireland | `/study-abroad/ireland/marketing-management` |
+| **IRE37** | 37 | ✔️ | Hospitality Management in Ireland | `/study-abroad/ireland/hospitality-management` |
+| **IRE38** | 38 | ✔️ | Architecture in Ireland | `/study-abroad/ireland/architecture` |
+| **IRE39** | 39 | ✔️ | Law in Ireland | `/study-abroad/ireland/law` |
+| **IRE40** | 40 | ✔️ | Language Courses in Ireland | `/study-abroad/ireland/language-courses` |
+| **IRE41** | 41 | ✔️ | Summer Courses in Ireland | `/study-abroad/ireland/summer-courses` |
+| **IRE42** | 42 | ✔️ | Winter Courses in Ireland | `/study-abroad/ireland/winter-courses` |

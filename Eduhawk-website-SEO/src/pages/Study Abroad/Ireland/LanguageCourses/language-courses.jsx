@@ -1,0 +1,635 @@
+import React from "react";
+import { AbroadCoursePage } from "../../../../component/CoursePageKit.jsx";
+
+// Page layout images
+import heroImg from "../../../../Images/Abroad/Ireland/LanguageCourses/hero.webp";
+import heroBgImg from "../../../../Images/Abroad/Ireland/LanguageCourses/hero_bg.webp";
+import sideImg from "../../../../Images/Abroad/Ireland/LanguageCourses/side.webp";
+import ctaBgImg from "../../../../Images/Abroad/Ireland/LanguageCourses/cta_bg.webp";
+
+// University images
+import uniImg1 from "../../../../Images/Abroad/Ireland/LanguageCourses/Trinity_College_Dublin.webp";
+import uniImg2 from "../../../../Images/Abroad/Ireland/LanguageCourses/University_College_Cork.webp";
+import uniImg3 from "../../../../Images/Abroad/Ireland/LanguageCourses/University_College_Dublin.webp";
+import uniImg4 from "../../../../Images/Abroad/Ireland/LanguageCourses/University_College_Dublin_2.webp";
+
+const page = {
+  "name": "Language Courses in Ireland",
+  "country": "Ireland",
+  "slug": "language-courses",
+  "title": "Study Language Courses in Ireland for Indian Students | Edu-Hawk Worldwide",
+  "description": "Complete guide to Language Courses in Ireland for Indian students: Top Irish universities, eligibility criteria, tuition fees (€13,500 – €28,640 / year), scholarships, and 2-year post-study work visa (Stamp 1G).",
+  "keywords": "Language Courses in Ireland for Indian Students, English Language Courses in Ireland for International Students, Top Universities for Language Courses in Ireland, General English Courses in Ireland for International Students, Intensive English Language Courses in Ireland, IELTS Preparation Courses in Ireland, Business English Courses in Ireland, Foreign Language Courses in Ireland, Undergraduate Language Degrees in Ireland, Postgraduate Linguistics and Translation Courses in Ireland",
+  "introTitle": "STUDY LANGUAGE COURSES IN IRELAND",
+  "heroParas": [
+    "Study Language courses in Ireland",
+    "English courses in Ireland provide opportunities for students who want to improve their English, learn a foreign language or to study an academic degree in linguistics, translation and modern languages.",
+    "Ireland has English-language schools, university language departments and degree programmes that combine languages with business, law and international studies."
+  ],
+  "overview": [
+    "Study Language courses in Ireland",
+    "English courses in Ireland provide opportunities for students who want to improve their English, learn a foreign language or to study an academic degree in linguistics, translation and modern languages.",
+    "Ireland has English-language schools, university language departments and degree programmes that combine languages with business, law and international studies.",
+    "Edu Hawk worldwide study abroad guidance helps learners to comprehend these opportunities and to know the requirements to get education abroad."
+  ],
+  "level": "Certificate, Diploma & University Academic English Pathways",
+  "crumb": "Special Courses / Language Courses",
+  "stats": [
+    {
+      "label": "Degree Choices",
+      "value": "Certificate, Diploma & University Academic English Pathways"
+    },
+    {
+      "label": "Course Duration",
+      "value": "4 Weeks to 1 Academic Year"
+    },
+    {
+      "label": "Top Institutions",
+      "value": "Trinity College Dublin, University College Cork"
+    },
+    {
+      "label": "Post-Study Work",
+      "value": "2 Years Third Level Graduate Scheme (Stamp 1G)"
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why",
+      "eyebrow": "Why Study in Ireland",
+      "title": "1. Why Study Language Courses Ireland?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Students can not only study English in a English-speaking environment but also explore Ireland’s culture and international education opportunities, making it an attractive destination for language learning.",
+            "The main advantages are:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "- English immersion: Students can practice speaking, listening, reading and writing in everyday situations.",
+            "- Flexible course options: Select from general English, academic English, business English, exam preparation or university language degrees.",
+            "- Multilingual education: University programs may provide languages such as French, German, Spanish, Italian, Irish and Russian.",
+            "- Career development: Language skills can help advance careers in translation, tourism, education, international business and communications.",
+            "- Cultural learning: Language programs may include cultural events, workshops and opportunities to mix with international students.",
+            "- Moving on to further study: Some students take English-language courses as preparation for further education, provided they meet the entry requirements of the degree they wish to study separately."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "courses",
+      "eyebrow": "Degrees & Programs",
+      "title": "2. Ireland Language Courses",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Language courses in Ireland are divided into a number of categories.",
+            "English Courses",
+            "English language schools usually offer:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "- English General",
+            "Intensive English",
+            "- English Academic",
+            "English for Business",
+            "- Preparation for IELTS",
+            "- Preparation for Cambridge English tests",
+            "English for business communication",
+            "- English for university entrance"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Course Duration varies from a few weeks to several months depending on the provider and programme.",
+            "Foreign language courses",
+            "Students whose native language is not English may take courses in:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "French",
+            "German",
+            "Spanish",
+            "Italian",
+            "Russian",
+            "Irish (Gaeilge)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Availability by provider may vary. Some are available through university degree programmes and others may be offered through short courses or cultural organizations.",
+            "Language degrees – undergraduate",
+            "Students wishing to study languages at an academic level might consider:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "BA Modern Languages",
+            "BA Global Languages",
+            "BA European Studies",
+            "Languages and International Business",
+            "Languages and Law",
+            "Linguistics and Languages",
+            "Translation and Intercultural Studies"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These programs may combine language proficiency with literature, culture, history, linguistics and international communication.",
+            "Language courses for postgraduates",
+            "Postgraduate language courses can include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Applied Linguistics",
+            "Translation Studies",
+            "Interpreting Studies",
+            "Language Teaching",
+            "Linguistics",
+            "Intercultural Communication",
+            "Language and Cultural Studies"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Entry requirements and the length of course varies between institutions and the qualification."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Institutions",
+      "title": "3. Top Universities and Colleges for Language Courses in Ireland",
+      "unis": [
+        {
+          "name": "Trinity College Dublin",
+          "desc": "Trinity College Dublin - Trinity College Dublin has undergraduate Modern Languages programmes and joint degrees with other subjects.",
+          "imgKey": "uniImg_Trinity_College_Dublin_webp",
+          "imgIdentifier": "uniImg1",
+          "city": "Dublin, Ireland",
+          "rank": "Top Ranked Irish Institution",
+          "tag": "Featured",
+          "img": uniImg1
+        },
+        {
+          "name": "University College Cork",
+          "desc": "Ireland offers university degrees in languages and English-language programs by specialist providers. What is the best choice depends on if you want a short language course or an academic qualification.",
+          "imgKey": "uniImg_University_College_Cork_webp",
+          "imgIdentifier": "uniImg2",
+          "city": "Cork, Ireland",
+          "rank": "Top Ranked Irish Institution",
+          "tag": "Featured",
+          "img": uniImg2
+        },
+        {
+          "name": "University College Dublin",
+          "desc": "Ireland offers university degrees in languages and English-language programs by specialist providers. What is the best choice depends on if you want a short language course or an academic qualification.",
+          "imgKey": "uniImg_University_College_Dublin_webp",
+          "imgIdentifier": "uniImg3",
+          "city": "Dublin, Ireland",
+          "rank": "Top Ranked Irish Institution",
+          "tag": "Featured",
+          "img": uniImg3
+        },
+        {
+          "name": "University College Dublin",
+          "desc": "Ireland offers university degrees in languages and English-language programs by specialist providers. What is the best choice depends on if you want a short language course or an academic qualification.",
+          "imgKey": "uniImg_University_College_Dublin_2_webp",
+          "imgIdentifier": "uniImg4",
+          "city": "Dublin, Ireland",
+          "rank": "Top Ranked Irish Institution",
+          "tag": "Featured",
+          "img": uniImg4
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admissions Criteria",
+      "title": "4. Eligibility for Language Courses in Ireland",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Who can study language courses in Ireland depends on the type of course, institution and educational background of the applicant.",
+            "Eligibility for English-language courses",
+            "General English courses can be for beginners, intermediate and advanced learners.",
+            "Applicants may be asked to provide:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "- A valid passport or other acceptable identification.",
+            "- Application form.",
+            "- Information about their current level of English.",
+            "- A placement test if needed.",
+            "- Visa or immigration papers, if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some courses require a minimum level of English, especially academic English or examination-preparation programs.",
+            "Who can apply for undergraduate language degrees?",
+            "Normally applicants will need:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "- An accepted qualification for secondary school like Class 12 for Indian applicants.",
+            "- University entry requirements in terms of academic results.",
+            "- Evidence of English language proficiency where applicable.",
+            "- Any particular language requirements for the program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some university language degrees allow you to start some languages from scratch ; others require you to have studied the language before . Check course requirements at all times.",
+            "Eligibility for postgraduate language programmes",
+            "Applicants will generally need:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "- Recognized bachelor's degree.",
+            "- Academic grades satisfying the programme’s entry requirements.",
+            "- Proof of English-language proficiency, where required.",
+            "- Relevant language skills or previous study if the program requires it."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Translation, interpreting and language-teaching programmes may have additional requirements, such as competence in certain languages or relevant professional experience."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "requirements",
+      "eyebrow": "Entry Requirements",
+      "title": "5. Admission Requirements for Ireland Language Courses",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Private language schools and universities have different admission requirements.",
+            "For English language schools",
+            "Typical requirements include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Application form filled out",
+            "Passport data.",
+            "Course selection and preferred start date.",
+            "English placement test if necessary.",
+            "Deposit or tuition payment as required.",
+            "Visa or immigration papers where applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For degrees in university language",
+            "Applicants will frequently be asked to:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Academic documents and transcripts.",
+            "Results of English language tests, if required.",
+            "Proof of prior language study where relevant.",
+            "A statement of purpose or references for some postgraduate courses.",
+            "Further information sought by the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "English language and visa requirements",
+            "The university standard of English is different from the minimum standard for immigration purposes. Students must meet the requirements for their course and for their immigration application."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "6. Cost of Study Language Courses in Ireland",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The cost of language courses in Ireland will depend on the type of program, length of time, where you take the course and if it is a short course or academic degree.",
+            "Estimated indicative tuition fees",
+            "General English (private language school) \\| €180-€350 / week* \\|"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Intensive English course \\| €250-€450 per week \\|",
+            "Bachelor's degree in language \\| €12,000-€25,000 per annum \\|"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Language course (postgraduate) \\| €14,000-€25,000 per year* \\|",
+            "The charges listed are budget estimates, not guaranteed charges. The cost of a language school depends on the number of hours of teaching per week, the length of the course, the season, the accommodation package and the exam fees. University tuition depends on the program and student fee category.",
+            "Other Costs",
+            "Students should plan to budget for:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Accommodation and utilities",
+            "Groceries and food",
+            "Public transit",
+            "Books and study materials",
+            "Examination fee (if any)",
+            "Health insurance (where applicable)",
+            "Individual costs",
+            "Visa and immigration related fees, where applicable"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some university programs may have Scholarships available. Short-term English courses may be funded in a different way and students should check with the provider for the arrangements."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "process",
+      "eyebrow": "Application Steps",
+      "title": "7. Language Course Admission Procedure in Ireland",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Choose Degree & University",
+          "desc": "Select your preferred Language Courses in Ireland program and shortlist target Irish institutions."
+        },
+        {
+          "step": "02",
+          "title": "Verify Entry Requirements",
+          "desc": "Check academic prerequisites, mathematics/science standards, and English test scores (IELTS/TOEFL)."
+        },
+        {
+          "step": "03",
+          "title": "Prepare Documentation",
+          "desc": "Gather academic transcripts, statement of purpose, recommendation letters, and valid passport."
+        },
+        {
+          "step": "04",
+          "title": "Submit University Application",
+          "desc": "Apply directly through the university international admissions portal or via Edu-Hawk Worldwide."
+        },
+        {
+          "step": "05",
+          "title": "Accept Offer & Pay Deposit",
+          "desc": "Review academic conditions, pay the tuition deposit, and receive the official acceptance letter."
+        },
+        {
+          "step": "06",
+          "title": "Apply for Irish Student Visa (Stamp 2)",
+          "desc": "Submit the visa application with proof of sufficient finances, medical insurance, and accommodation."
+        }
+      ]
+    },
+    {
+      "slot": "accreditation",
+      "eyebrow": "Accreditation & Recognition",
+      "title": "8. Plan finances and accommodation: Plan your budget and accommodation before traveling.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Detailed information on Accreditation & Recognition will be provided during personalized counseling with Edu-Hawk Worldwide."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Outcomes",
+      "title": "9. Complete immigration formalities: If applicable, complete the current Irish visa and immigration requirements.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Detailed information on Career Outcomes will be provided during personalized counseling with Edu-Hawk Worldwide."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Document Checklist",
+      "title": "10. Get ready for the course: Review placement test instructions, orientation details, and any suggested learning resources.",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Apply early if you need a visa or have special accommodation needs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "8\\. Recognition and Accreditation of Language Courses in Ireland",
+            "Before enrolling check the provider’s standing and what qualification or certificate you will be getting.",
+            "Important considerations are:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Provider identification: Check the institution's identity, reputation and published course details.",
+            "Eligible programmes: If you need student immigration permission, please refer to the current official list of eligible programs.",
+            "Recognition by the university: In the case of academic degrees, check the qualification and the level of the degree.",
+            "Recognition of examinations: If you need an English certificate for university admission, for work or any other reason, check that the organization you are applying to accepts it.",
+            "Quality assurance: Inquire about teaching standards, class sizes, attendance monitoring and assessment arrangements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "9\\. Salary and Job Opportunities for Language Courses in Ireland",
+            "Language skills can be helpful for jobs in a variety of industries, but career prospects are determined by your skill, qualifications, experience and the job.",
+            "Career opportunities after English language training",
+            "An English language course can help students to improve their communication for further education or work. However, a general English course alone does not qualify you for a specialized profession.",
+            "Potential career areas include, depending on the student’s other qualifications and experience:",
+            "Hospitality and tourism"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Admin-Support"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Retail & Sales"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Service for international students",
+            "Professional training or further education"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Careers after studying languages",
+            "Graduates with advanced language skills and suitable qualifications could look at positions like:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "- Translator",
+            "- Language Teacher, as per applicable requirements",
+            "- Localization Expert",
+            "- Customer Support Specialist – Multi Lingual",
+            "- International Sales Executive",
+            "- Travel & Tourism Coordinator",
+            "- Communication Assistant",
+            "- Research Assistant in Language",
+            "International Relations or Cultural Program Officer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Specialist training, professional experience or proven competence in certain language combinations may be required for translation and interpreting jobs.",
+            "Salary expectations",
+            "Pay varies depending on the job, language pair, employer, location and experience. General customer service or hospitality jobs are paid at different salary levels to specialist positions in translation, interpretation or international business.",
+            "10\\. What Documents You Need for Studying Language Courses in Ireland",
+            "Depending on the course, institution and immigration status the documents needed will vary.",
+            "Common documents are:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Passport (valid)",
+            "Application form filled out",
+            "University program academic transcripts and certificates",
+            "English language test results, if required",
+            "Evidence of prior language study, if applicable",
+            "Letter of acceptance/registration in the course",
+            "Proof of payment if required",
+            "Proof of funds for immigration purposes, where applicable",
+            "Health insurance papers, if applicable",
+            "Accommodation information if requested",
+            "any other documents requested by the relevant immigration authority."
+          ]
+        }
+      ]
+    }
+  ],
+  "table": {
+    "title": "Estimated Cost of Studying Language Courses in Ireland in Ireland (Tuition & Living)",
+    "headers": [
+      "Category / Level",
+      "Estimated Cost (€ / EUR)",
+      "Details / Scope"
+    ],
+    "rows": [
+      [
+        "Undergraduate Degree (Annual)",
+        "€13,500 – €27,640 / year",
+        "Varies by institution ranking, laboratory facilities, and program"
+      ],
+      [
+        "Postgraduate Degree (Annual)",
+        "€15,000 – €28,640 / year",
+        "1-year intensive master's program or 2-year research degree"
+      ],
+      [
+        "Living Expenses (Dublin)",
+        "€1,000 – €1,400 / month",
+        "Includes student accommodation, meals, utilities, and public transit"
+      ],
+      [
+        "Living Expenses (Outside Dublin)",
+        "€800 – €1,100 / month",
+        "Cost of living in Cork, Galway, Limerick, or Maynooth"
+      ],
+      [
+        "Student Visa & IRP Card Fee",
+        "€300 / year",
+        "Mandatory Irish Residence Permit (IRP) registration fee"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "1\\. What kind of language courses are available to study in Ireland?",
+      "a": "Students can choose from general English, intensive English, academic English, IELTS preparation, business English, modern-language degrees, linguistics, translation and interpreting programmes. This will differ depending on the provider and institution."
+    },
+    {
+      "q": "2\\. How long does it take to do a language course in Ireland?",
+      "a": "Short English courses can be just a few weeks long. Some qualifying full-time English language programmes are of at least 25 weeks. Undergraduate degrees in languages usually last three to four years, with many postgraduate courses lasting around one year."
+    },
+    {
+      "q": "3\\. How much do language courses in Ireland cost?",
+      "a": "Private English-language courses can cost €180–€450 per week depending on intensity and provider. Language degrees at a university are charged separately and are a rough guide for planning purposes in the region of €12,000-€25,000 per annum. Always check the actual fee."
+    },
+    {
+      "q": "4\\. Can we study English in Ireland without IELTS?",
+      "a": "Some English language schools will take beginners without an IELTS and will test students with a placement test. University admission requirements and immigration rules are different. Check the rules applicable to your intended program and your circumstances."
+    },
+    {
+      "q": "5\\. Can I work while I am studying a language course in Ireland?",
+      "a": "Some eligible non-EEA students on qualifying programmes may have restricted working rights under their immigration permission. Not all language courses include automatic work rights. Employment income If you’re relying on employment income, check the current rules and whether your particular program qualifies."
+    },
+    {
+      "q": "How can Edu Hawk Worldwide Consultancy help me to study abroad?",
+      "a": "Edu Hawk worldwide assists students in finding the right universities, understanding admission requirements, handling application documents, and planning their study abroad journey. Students should contact the relevant official bodies to verify the academic, financial, immigration and licensing requirements."
+    }
+  ]
+};
+
+export default function LanguageCoursesIreland() {
+  return (
+    <AbroadCoursePage
+      page={page}
+      heroImg={heroImg}
+      heroBgImg={heroBgImg}
+      sideImg={sideImg}
+      ctaBgImg={ctaBgImg}
+      showHeroStats={false}
+      seoPath="/study-abroad/ireland/language-courses"
+    />
+  );
+}

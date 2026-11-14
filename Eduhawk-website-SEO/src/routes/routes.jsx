@@ -378,6 +378,38 @@ const UndergraduateEngineeringIreland = lazy(() => import("../pages/Study Abroad
 const ComputerEngineeringUGIreland = lazy(() => import("../pages/Study Abroad/Ireland/Engineering/ug/pages/ComputerEngineering.jsx"));
 const CivilEngineeringUGIreland = lazy(() => import("../pages/Study Abroad/Ireland/Engineering/ug/pages/CivilEngineering.jsx"));
 const MechanicalEngineeringUGIreland = lazy(() => import("../pages/Study Abroad/Ireland/Engineering/ug/pages/MechanicalEngineering.jsx"));
+const ComputerScienceIreland = lazy(() => import("../pages/Study Abroad/Ireland/ComputerScience/computer-science.jsx"));
+const InformationTechnologyIreland = lazy(() => import("../pages/Study Abroad/Ireland/InformationTechnology/information-technology.jsx"));
+const ElectricalEngineeringUGIreland = lazy(() => import("../pages/Study Abroad/Ireland/Engineering/ug/pages/ElectricalEngineering.jsx"));
+const ElectronicsCommunicationUGIreland = lazy(() => import("../pages/Study Abroad/Ireland/Engineering/ug/pages/ElectronicsCommunication.jsx"));
+const ChemicalEngineeringUGIreland = lazy(() => import("../pages/Study Abroad/Ireland/Engineering/ug/pages/ChemicalEngineering.jsx"));
+const AerospaceEngineeringUGIreland = lazy(() => import("../pages/Study Abroad/Ireland/Engineering/ug/pages/AerospaceEngineering.jsx"));
+const BiomedicalEngineeringUGIreland = lazy(() => import("../pages/Study Abroad/Ireland/Engineering/ug/pages/BiomedicalEngineering.jsx"));
+const AutomobileEngineeringUGIreland = lazy(() => import("../pages/Study Abroad/Ireland/Engineering/ug/pages/AutomobileEngineering.jsx"));
+const PostgraduateEngineeringIreland = lazy(() => import("../pages/Study Abroad/Ireland/Engineering/pg/postgraduate.jsx"));
+const ComputerEngineeringPGIreland = lazy(() => import("../pages/Study Abroad/Ireland/Engineering/pg/pages/ComputerEngineering.jsx"));
+const MechanicalEngineeringPGIreland = lazy(() => import("../pages/Study Abroad/Ireland/Engineering/pg/pages/MechanicalEngineering.jsx"));
+const CivilEngineeringPGIreland = lazy(() => import("../pages/Study Abroad/Ireland/Engineering/pg/pages/CivilEngineering.jsx"));
+const ElectricalEngineeringPGIreland = lazy(() => import("../pages/Study Abroad/Ireland/Engineering/pg/pages/ElectricalEngineering.jsx"));
+const ElectronicsCommunicationPGIreland = lazy(() => import("../pages/Study Abroad/Ireland/Engineering/pg/pages/ElectronicsCommunication.jsx"));
+const ChemicalEngineeringPGIreland = lazy(() => import("../pages/Study Abroad/Ireland/Engineering/pg/pages/ChemicalEngineering.jsx"));
+const AerospaceEngineeringPGIreland = lazy(() => import("../pages/Study Abroad/Ireland/Engineering/pg/pages/AerospaceEngineering.jsx"));
+const BiomedicalEngineeringPGIreland = lazy(() => import("../pages/Study Abroad/Ireland/Engineering/pg/pages/BiomedicalEngineering.jsx"));
+const AutomobileEngineeringPGIreland = lazy(() => import("../pages/Study Abroad/Ireland/Engineering/pg/pages/AutomobileEngineering.jsx"));
+const BusinessManagementIreland = lazy(() => import("../pages/Study Abroad/Ireland/BusinessManagement/business-management.jsx"));
+const MBAIreland = lazy(() => import("../pages/Study Abroad/Ireland/MBA/mba.jsx"));
+const ExecutiveMBAIreland = lazy(() => import("../pages/Study Abroad/Ireland/ExecutiveMBA/executive-mba.jsx"));
+const BBAIreland = lazy(() => import("../pages/Study Abroad/Ireland/BBA/bba.jsx"));
+const BBSIreland = lazy(() => import("../pages/Study Abroad/Ireland/BBS/bbs.jsx"));
+const MBSIreland = lazy(() => import("../pages/Study Abroad/Ireland/MBS/mbs.jsx"));
+const InternationalBusinessIreland = lazy(() => import("../pages/Study Abroad/Ireland/InternationalBusiness/international-business.jsx"));
+const MarketingManagementIreland = lazy(() => import("../pages/Study Abroad/Ireland/MarketingManagement/marketing-management.jsx"));
+const HospitalityManagementIreland = lazy(() => import("../pages/Study Abroad/Ireland/HospitalityManagement/hospitality-management.jsx"));
+const ArchitectureIreland = lazy(() => import("../pages/Study Abroad/Ireland/Architecture/architecture.jsx"));
+const LawIreland = lazy(() => import("../pages/Study Abroad/Ireland/Law/law.jsx"));
+const LanguageCoursesIreland = lazy(() => import("../pages/Study Abroad/Ireland/LanguageCourses/language-courses.jsx"));
+const SummerCoursesIreland = lazy(() => import("../pages/Study Abroad/Ireland/SummerCourses/summer-courses.jsx"));
+const WinterCoursesIreland = lazy(() => import("../pages/Study Abroad/Ireland/WinterCourses/winter-courses.jsx"));
 
 
 
@@ -1993,6 +2025,134 @@ export const router = createBrowserRouter([
         path: "study-abroad/ireland/ug/mechanical-engineering",
         element: <MechanicalEngineeringUGIreland />,
       },
+      {
+        path: "study-abroad/ireland/computer-science",
+        element: <ComputerScienceIreland />,
+      },
+      {
+        path: "study-abroad/ireland/information-technology",
+        element: <InformationTechnologyIreland />,
+      },
+      {
+        path: "study-abroad/ireland/ug/electrical-engineering",
+        element: <ElectricalEngineeringUGIreland />,
+      },
+      {
+        path: "study-abroad/ireland/ug/electronics-communication",
+        element: <ElectronicsCommunicationUGIreland />,
+      },
+      {
+        path: "study-abroad/ireland/ug/chemical-engineering",
+        element: <ChemicalEngineeringUGIreland />,
+      },
+      {
+        path: "study-abroad/ireland/ug/aerospace-engineering",
+        element: <AerospaceEngineeringUGIreland />,
+      },
+      {
+        path: "study-abroad/ireland/ug/biomedical-engineering",
+        element: <BiomedicalEngineeringUGIreland />,
+      },
+      {
+        path: "study-abroad/ireland/ug/automobile-engineering",
+        element: <AutomobileEngineeringUGIreland />,
+      },
+      {
+        path: "study-abroad/ireland/pg/engineering",
+        element: <PostgraduateEngineeringIreland />,
+      },
+      {
+        path: "study-abroad/ireland/pg/computer-engineering",
+        element: <ComputerEngineeringPGIreland />,
+      },
+      {
+        path: "study-abroad/ireland/pg/mechanical-engineering",
+        element: <MechanicalEngineeringPGIreland />,
+      },
+      {
+        path: "study-abroad/ireland/pg/civil-engineering",
+        element: <CivilEngineeringPGIreland />,
+      },
+      {
+        path: "study-abroad/ireland/pg/electrical-engineering",
+        element: <ElectricalEngineeringPGIreland />,
+      },
+      {
+        path: "study-abroad/ireland/pg/electronics-communication",
+        element: <ElectronicsCommunicationPGIreland />,
+      },
+      {
+        path: "study-abroad/ireland/pg/chemical-engineering",
+        element: <ChemicalEngineeringPGIreland />,
+      },
+      {
+        path: "study-abroad/ireland/pg/aerospace-engineering",
+        element: <AerospaceEngineeringPGIreland />,
+      },
+      {
+        path: "study-abroad/ireland/pg/biomedical-engineering",
+        element: <BiomedicalEngineeringPGIreland />,
+      },
+      {
+        path: "study-abroad/ireland/pg/automobile-engineering",
+        element: <AutomobileEngineeringPGIreland />,
+      },
+      {
+        path: "study-abroad/ireland/business-management",
+        element: <BusinessManagementIreland />,
+      },
+      {
+        path: "study-abroad/ireland/mba",
+        element: <MBAIreland />,
+      },
+      {
+        path: "study-abroad/ireland/executive-mba",
+        element: <ExecutiveMBAIreland />,
+      },
+      {
+        path: "study-abroad/ireland/bba",
+        element: <BBAIreland />,
+      },
+      {
+        path: "study-abroad/ireland/bbs",
+        element: <BBSIreland />,
+      },
+      {
+        path: "study-abroad/ireland/mbs",
+        element: <MBSIreland />,
+      },
+      {
+        path: "study-abroad/ireland/international-business",
+        element: <InternationalBusinessIreland />,
+      },
+      {
+        path: "study-abroad/ireland/marketing-management",
+        element: <MarketingManagementIreland />,
+      },
+      {
+        path: "study-abroad/ireland/hospitality-management",
+        element: <HospitalityManagementIreland />,
+      },
+      {
+        path: "study-abroad/ireland/architecture",
+        element: <ArchitectureIreland />,
+      },
+      {
+        path: "study-abroad/ireland/law",
+        element: <LawIreland />,
+      },
+      {
+        path: "study-abroad/ireland/language-courses",
+        element: <LanguageCoursesIreland />,
+      },
+      {
+        path: "study-abroad/ireland/summer-courses",
+        element: <SummerCoursesIreland />,
+      },
+      {
+        path: "study-abroad/ireland/winter-courses",
+        element: <WinterCoursesIreland />,
+      },
 
       {
         path: "terms-conditions",
@@ -2409,6 +2569,38 @@ export const routeList = [
   "/study-abroad/ireland/ug/computer-engineering",
   "/study-abroad/ireland/ug/civil-engineering",
   "/study-abroad/ireland/ug/mechanical-engineering",
+  "/study-abroad/ireland/computer-science",
+  "/study-abroad/ireland/information-technology",
+  "/study-abroad/ireland/ug/electrical-engineering",
+  "/study-abroad/ireland/ug/electronics-communication",
+  "/study-abroad/ireland/ug/chemical-engineering",
+  "/study-abroad/ireland/ug/aerospace-engineering",
+  "/study-abroad/ireland/ug/biomedical-engineering",
+  "/study-abroad/ireland/ug/automobile-engineering",
+  "/study-abroad/ireland/pg/engineering",
+  "/study-abroad/ireland/pg/computer-engineering",
+  "/study-abroad/ireland/pg/mechanical-engineering",
+  "/study-abroad/ireland/pg/civil-engineering",
+  "/study-abroad/ireland/pg/electrical-engineering",
+  "/study-abroad/ireland/pg/electronics-communication",
+  "/study-abroad/ireland/pg/chemical-engineering",
+  "/study-abroad/ireland/pg/aerospace-engineering",
+  "/study-abroad/ireland/pg/biomedical-engineering",
+  "/study-abroad/ireland/pg/automobile-engineering",
+  "/study-abroad/ireland/business-management",
+  "/study-abroad/ireland/mba",
+  "/study-abroad/ireland/executive-mba",
+  "/study-abroad/ireland/bba",
+  "/study-abroad/ireland/bbs",
+  "/study-abroad/ireland/mbs",
+  "/study-abroad/ireland/international-business",
+  "/study-abroad/ireland/marketing-management",
+  "/study-abroad/ireland/hospitality-management",
+  "/study-abroad/ireland/architecture",
+  "/study-abroad/ireland/law",
+  "/study-abroad/ireland/language-courses",
+  "/study-abroad/ireland/summer-courses",
+  "/study-abroad/ireland/winter-courses",
 
 
   "/terms-conditions",

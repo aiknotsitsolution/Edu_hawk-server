@@ -18005,3 +18005,1955 @@ collections:
             fields:
               - {"label": "Question", "name": "q", "widget": "string"}
               - {"label": "Answer", "name": "a", "widget": "text"}
+      - label: "Computer Science"
+        name: "ireland_computer_science"
+        file: "src/data/study_abroad/ireland/computer_science.json"
+        media_folder: "public/uploads/study_abroad/ireland"
+        public_folder: "/uploads/study_abroad/ireland"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Top Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "City / Location", "name": "city", "widget": "string"}
+              - {"label": "Rank / Badge", "name": "rank", "widget": "string"}
+              - {"label": "Tuition Fee Range", "name": "fee", "widget": "string"}
+              - {"label": "Description", "name": "desc", "widget": "text"}
+              - {"label": "Image File", "name": "imgFile", "widget": "string"}
+          - label: "Cost & Fee Structure"
+            name: "table"
+            widget: "object"
+            fields:
+              - {"label": "Table Title", "name": "title", "widget": "string"}
+              - {"label": "Headers", "name": "headers", "widget": "list", "field": {"label": "Header", "name": "h", "widget": "string"}}
+              - label: "Rows"
+                name: "rows"
+                widget: "list"
+                fields:
+                  - {"label": "Category", "name": "category", "widget": "string"}
+                  - {"label": "Estimated Cost", "name": "cost", "widget": "string"}
+                  - {"label": "Details / Scope", "name": "details", "widget": "string"}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "q", "widget": "string"}
+              - {"label": "Answer", "name": "a", "widget": "text"}
+      - label: "Information Technology"
+        name: "ireland_information_technology"
+        file: "src/data/study_abroad/ireland/information_technology.json"
+        media_folder: "public/uploads/study_abroad/ireland"
+        public_folder: "/uploads/study_abroad/ireland"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Top Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "City / Location", "name": "city", "widget": "string"}
+              - {"label": "Rank / Badge", "name": "rank", "widget": "string"}
+              - {"label": "Tuition Fee Range", "name": "fee", "widget": "string"}
+              - {"label": "Description", "name": "desc", "widget": "text"}
+              - {"label": "Image File", "name": "imgFile", "widget": "string"}
+          - label: "Cost & Fee Structure"
+            name: "table"
+            widget: "object"
+            fields:
+              - {"label": "Table Title", "name": "title", "widget": "string"}
+              - {"label": "Headers", "name": "headers", "widget": "list", "field": {"label": "Header", "name": "h", "widget": "string"}}
+              - label: "Rows"
+                name: "rows"
+                widget: "list"
+                fields:
+                  - {"label": "Category", "name": "category", "widget": "string"}
+                  - {"label": "Estimated Cost", "name": "cost", "widget": "string"}
+                  - {"label": "Details / Scope", "name": "details", "widget": "string"}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "q", "widget": "string"}
+              - {"label": "Answer", "name": "a", "widget": "text"}
+      - label: "BEng Electrical Engineering"
+        name: "ireland_elec_engg_ug"
+        file: "src/data/study_abroad/ireland/elec_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/ireland"
+        public_folder: "/uploads/study_abroad/ireland"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Top Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "City / Location", "name": "city", "widget": "string"}
+              - {"label": "Rank / Badge", "name": "rank", "widget": "string"}
+              - {"label": "Tuition Fee Range", "name": "fee", "widget": "string"}
+              - {"label": "Description", "name": "desc", "widget": "text"}
+              - {"label": "Image File", "name": "imgFile", "widget": "string"}
+          - label: "Cost & Fee Structure"
+            name: "table"
+            widget: "object"
+            fields:
+              - {"label": "Table Title", "name": "title", "widget": "string"}
+              - {"label": "Headers", "name": "headers", "widget": "list", "field": {"label": "Header", "name": "h", "widget": "string"}}
+              - label: "Rows"
+                name: "rows"
+                widget: "list"
+                fields:
+                  - {"label": "Category", "name": "category", "widget": "string"}
+                  - {"label": "Estimated Cost", "name": "cost", "widget": "string"}
+                  - {"label": "Details / Scope", "name": "details", "widget": "string"}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "q", "widget": "string"}
+              - {"label": "Answer", "name": "a", "widget": "text"}
+      - label: "BEng Electronics & Communication"
+        name: "ireland_ece_engg_ug"
+        file: "src/data/study_abroad/ireland/ece_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/ireland"
+        public_folder: "/uploads/study_abroad/ireland"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Top Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "City / Location", "name": "city", "widget": "string"}
+              - {"label": "Rank / Badge", "name": "rank", "widget": "string"}
+              - {"label": "Tuition Fee Range", "name": "fee", "widget": "string"}
+              - {"label": "Description", "name": "desc", "widget": "text"}
+              - {"label": "Image File", "name": "imgFile", "widget": "string"}
+          - label: "Cost & Fee Structure"
+            name: "table"
+            widget: "object"
+            fields:
+              - {"label": "Table Title", "name": "title", "widget": "string"}
+              - {"label": "Headers", "name": "headers", "widget": "list", "field": {"label": "Header", "name": "h", "widget": "string"}}
+              - label: "Rows"
+                name: "rows"
+                widget: "list"
+                fields:
+                  - {"label": "Category", "name": "category", "widget": "string"}
+                  - {"label": "Estimated Cost", "name": "cost", "widget": "string"}
+                  - {"label": "Details / Scope", "name": "details", "widget": "string"}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "q", "widget": "string"}
+              - {"label": "Answer", "name": "a", "widget": "text"}
+      - label: "BEng Chemical Engineering"
+        name: "ireland_chem_engg_ug"
+        file: "src/data/study_abroad/ireland/chem_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/ireland"
+        public_folder: "/uploads/study_abroad/ireland"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Top Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "City / Location", "name": "city", "widget": "string"}
+              - {"label": "Rank / Badge", "name": "rank", "widget": "string"}
+              - {"label": "Tuition Fee Range", "name": "fee", "widget": "string"}
+              - {"label": "Description", "name": "desc", "widget": "text"}
+              - {"label": "Image File", "name": "imgFile", "widget": "string"}
+          - label: "Cost & Fee Structure"
+            name: "table"
+            widget: "object"
+            fields:
+              - {"label": "Table Title", "name": "title", "widget": "string"}
+              - {"label": "Headers", "name": "headers", "widget": "list", "field": {"label": "Header", "name": "h", "widget": "string"}}
+              - label: "Rows"
+                name: "rows"
+                widget: "list"
+                fields:
+                  - {"label": "Category", "name": "category", "widget": "string"}
+                  - {"label": "Estimated Cost", "name": "cost", "widget": "string"}
+                  - {"label": "Details / Scope", "name": "details", "widget": "string"}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "q", "widget": "string"}
+              - {"label": "Answer", "name": "a", "widget": "text"}
+      - label: "BEng Aerospace Engineering"
+        name: "ireland_aero_engg_ug"
+        file: "src/data/study_abroad/ireland/aero_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/ireland"
+        public_folder: "/uploads/study_abroad/ireland"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Top Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "City / Location", "name": "city", "widget": "string"}
+              - {"label": "Rank / Badge", "name": "rank", "widget": "string"}
+              - {"label": "Tuition Fee Range", "name": "fee", "widget": "string"}
+              - {"label": "Description", "name": "desc", "widget": "text"}
+              - {"label": "Image File", "name": "imgFile", "widget": "string"}
+          - label: "Cost & Fee Structure"
+            name: "table"
+            widget: "object"
+            fields:
+              - {"label": "Table Title", "name": "title", "widget": "string"}
+              - {"label": "Headers", "name": "headers", "widget": "list", "field": {"label": "Header", "name": "h", "widget": "string"}}
+              - label: "Rows"
+                name: "rows"
+                widget: "list"
+                fields:
+                  - {"label": "Category", "name": "category", "widget": "string"}
+                  - {"label": "Estimated Cost", "name": "cost", "widget": "string"}
+                  - {"label": "Details / Scope", "name": "details", "widget": "string"}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "q", "widget": "string"}
+              - {"label": "Answer", "name": "a", "widget": "text"}
+      - label: "BEng Biomedical Engineering"
+        name: "ireland_biomed_engg_ug"
+        file: "src/data/study_abroad/ireland/biomed_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/ireland"
+        public_folder: "/uploads/study_abroad/ireland"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Top Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "City / Location", "name": "city", "widget": "string"}
+              - {"label": "Rank / Badge", "name": "rank", "widget": "string"}
+              - {"label": "Tuition Fee Range", "name": "fee", "widget": "string"}
+              - {"label": "Description", "name": "desc", "widget": "text"}
+              - {"label": "Image File", "name": "imgFile", "widget": "string"}
+          - label: "Cost & Fee Structure"
+            name: "table"
+            widget: "object"
+            fields:
+              - {"label": "Table Title", "name": "title", "widget": "string"}
+              - {"label": "Headers", "name": "headers", "widget": "list", "field": {"label": "Header", "name": "h", "widget": "string"}}
+              - label: "Rows"
+                name: "rows"
+                widget: "list"
+                fields:
+                  - {"label": "Category", "name": "category", "widget": "string"}
+                  - {"label": "Estimated Cost", "name": "cost", "widget": "string"}
+                  - {"label": "Details / Scope", "name": "details", "widget": "string"}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "q", "widget": "string"}
+              - {"label": "Answer", "name": "a", "widget": "text"}
+      - label: "BEng Automobile Engineering"
+        name: "ireland_auto_engg_ug"
+        file: "src/data/study_abroad/ireland/auto_engg_ug.json"
+        media_folder: "public/uploads/study_abroad/ireland"
+        public_folder: "/uploads/study_abroad/ireland"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Top Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "City / Location", "name": "city", "widget": "string"}
+              - {"label": "Rank / Badge", "name": "rank", "widget": "string"}
+              - {"label": "Tuition Fee Range", "name": "fee", "widget": "string"}
+              - {"label": "Description", "name": "desc", "widget": "text"}
+              - {"label": "Image File", "name": "imgFile", "widget": "string"}
+          - label: "Cost & Fee Structure"
+            name: "table"
+            widget: "object"
+            fields:
+              - {"label": "Table Title", "name": "title", "widget": "string"}
+              - {"label": "Headers", "name": "headers", "widget": "list", "field": {"label": "Header", "name": "h", "widget": "string"}}
+              - label: "Rows"
+                name: "rows"
+                widget: "list"
+                fields:
+                  - {"label": "Category", "name": "category", "widget": "string"}
+                  - {"label": "Estimated Cost", "name": "cost", "widget": "string"}
+                  - {"label": "Details / Scope", "name": "details", "widget": "string"}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "q", "widget": "string"}
+              - {"label": "Answer", "name": "a", "widget": "text"}
+      - label: "Postgraduate Engineering Hub"
+        name: "ireland_pg_hub"
+        file: "src/data/study_abroad/ireland/pg_hub.json"
+        media_folder: "public/uploads/study_abroad/ireland"
+        public_folder: "/uploads/study_abroad/ireland"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Top Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "City / Location", "name": "city", "widget": "string"}
+              - {"label": "Rank / Badge", "name": "rank", "widget": "string"}
+              - {"label": "Tuition Fee Range", "name": "fee", "widget": "string"}
+              - {"label": "Description", "name": "desc", "widget": "text"}
+              - {"label": "Image File", "name": "imgFile", "widget": "string"}
+          - label: "Cost & Fee Structure"
+            name: "table"
+            widget: "object"
+            fields:
+              - {"label": "Table Title", "name": "title", "widget": "string"}
+              - {"label": "Headers", "name": "headers", "widget": "list", "field": {"label": "Header", "name": "h", "widget": "string"}}
+              - label: "Rows"
+                name: "rows"
+                widget: "list"
+                fields:
+                  - {"label": "Category", "name": "category", "widget": "string"}
+                  - {"label": "Estimated Cost", "name": "cost", "widget": "string"}
+                  - {"label": "Details / Scope", "name": "details", "widget": "string"}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "q", "widget": "string"}
+              - {"label": "Answer", "name": "a", "widget": "text"}
+      - label: "MSc Computer Engineering"
+        name: "ireland_comp_engg_pg"
+        file: "src/data/study_abroad/ireland/comp_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/ireland"
+        public_folder: "/uploads/study_abroad/ireland"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Top Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "City / Location", "name": "city", "widget": "string"}
+              - {"label": "Rank / Badge", "name": "rank", "widget": "string"}
+              - {"label": "Tuition Fee Range", "name": "fee", "widget": "string"}
+              - {"label": "Description", "name": "desc", "widget": "text"}
+              - {"label": "Image File", "name": "imgFile", "widget": "string"}
+          - label: "Cost & Fee Structure"
+            name: "table"
+            widget: "object"
+            fields:
+              - {"label": "Table Title", "name": "title", "widget": "string"}
+              - {"label": "Headers", "name": "headers", "widget": "list", "field": {"label": "Header", "name": "h", "widget": "string"}}
+              - label: "Rows"
+                name: "rows"
+                widget: "list"
+                fields:
+                  - {"label": "Category", "name": "category", "widget": "string"}
+                  - {"label": "Estimated Cost", "name": "cost", "widget": "string"}
+                  - {"label": "Details / Scope", "name": "details", "widget": "string"}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "q", "widget": "string"}
+              - {"label": "Answer", "name": "a", "widget": "text"}
+      - label: "MSc Mechanical Engineering"
+        name: "ireland_mech_engg_pg"
+        file: "src/data/study_abroad/ireland/mech_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/ireland"
+        public_folder: "/uploads/study_abroad/ireland"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Top Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "City / Location", "name": "city", "widget": "string"}
+              - {"label": "Rank / Badge", "name": "rank", "widget": "string"}
+              - {"label": "Tuition Fee Range", "name": "fee", "widget": "string"}
+              - {"label": "Description", "name": "desc", "widget": "text"}
+              - {"label": "Image File", "name": "imgFile", "widget": "string"}
+          - label: "Cost & Fee Structure"
+            name: "table"
+            widget: "object"
+            fields:
+              - {"label": "Table Title", "name": "title", "widget": "string"}
+              - {"label": "Headers", "name": "headers", "widget": "list", "field": {"label": "Header", "name": "h", "widget": "string"}}
+              - label: "Rows"
+                name: "rows"
+                widget: "list"
+                fields:
+                  - {"label": "Category", "name": "category", "widget": "string"}
+                  - {"label": "Estimated Cost", "name": "cost", "widget": "string"}
+                  - {"label": "Details / Scope", "name": "details", "widget": "string"}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "q", "widget": "string"}
+              - {"label": "Answer", "name": "a", "widget": "text"}
+      - label: "MSc Civil Engineering"
+        name: "ireland_civil_engg_pg"
+        file: "src/data/study_abroad/ireland/civil_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/ireland"
+        public_folder: "/uploads/study_abroad/ireland"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Top Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "City / Location", "name": "city", "widget": "string"}
+              - {"label": "Rank / Badge", "name": "rank", "widget": "string"}
+              - {"label": "Tuition Fee Range", "name": "fee", "widget": "string"}
+              - {"label": "Description", "name": "desc", "widget": "text"}
+              - {"label": "Image File", "name": "imgFile", "widget": "string"}
+          - label: "Cost & Fee Structure"
+            name: "table"
+            widget: "object"
+            fields:
+              - {"label": "Table Title", "name": "title", "widget": "string"}
+              - {"label": "Headers", "name": "headers", "widget": "list", "field": {"label": "Header", "name": "h", "widget": "string"}}
+              - label: "Rows"
+                name: "rows"
+                widget: "list"
+                fields:
+                  - {"label": "Category", "name": "category", "widget": "string"}
+                  - {"label": "Estimated Cost", "name": "cost", "widget": "string"}
+                  - {"label": "Details / Scope", "name": "details", "widget": "string"}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "q", "widget": "string"}
+              - {"label": "Answer", "name": "a", "widget": "text"}
+      - label: "MSc Electrical Engineering"
+        name: "ireland_elec_engg_pg"
+        file: "src/data/study_abroad/ireland/elec_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/ireland"
+        public_folder: "/uploads/study_abroad/ireland"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Top Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "City / Location", "name": "city", "widget": "string"}
+              - {"label": "Rank / Badge", "name": "rank", "widget": "string"}
+              - {"label": "Tuition Fee Range", "name": "fee", "widget": "string"}
+              - {"label": "Description", "name": "desc", "widget": "text"}
+              - {"label": "Image File", "name": "imgFile", "widget": "string"}
+          - label: "Cost & Fee Structure"
+            name: "table"
+            widget: "object"
+            fields:
+              - {"label": "Table Title", "name": "title", "widget": "string"}
+              - {"label": "Headers", "name": "headers", "widget": "list", "field": {"label": "Header", "name": "h", "widget": "string"}}
+              - label: "Rows"
+                name: "rows"
+                widget: "list"
+                fields:
+                  - {"label": "Category", "name": "category", "widget": "string"}
+                  - {"label": "Estimated Cost", "name": "cost", "widget": "string"}
+                  - {"label": "Details / Scope", "name": "details", "widget": "string"}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "q", "widget": "string"}
+              - {"label": "Answer", "name": "a", "widget": "text"}
+      - label: "MSc Electronics & Communication"
+        name: "ireland_ece_engg_pg"
+        file: "src/data/study_abroad/ireland/ece_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/ireland"
+        public_folder: "/uploads/study_abroad/ireland"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Top Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "City / Location", "name": "city", "widget": "string"}
+              - {"label": "Rank / Badge", "name": "rank", "widget": "string"}
+              - {"label": "Tuition Fee Range", "name": "fee", "widget": "string"}
+              - {"label": "Description", "name": "desc", "widget": "text"}
+              - {"label": "Image File", "name": "imgFile", "widget": "string"}
+          - label: "Cost & Fee Structure"
+            name: "table"
+            widget: "object"
+            fields:
+              - {"label": "Table Title", "name": "title", "widget": "string"}
+              - {"label": "Headers", "name": "headers", "widget": "list", "field": {"label": "Header", "name": "h", "widget": "string"}}
+              - label: "Rows"
+                name: "rows"
+                widget: "list"
+                fields:
+                  - {"label": "Category", "name": "category", "widget": "string"}
+                  - {"label": "Estimated Cost", "name": "cost", "widget": "string"}
+                  - {"label": "Details / Scope", "name": "details", "widget": "string"}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "q", "widget": "string"}
+              - {"label": "Answer", "name": "a", "widget": "text"}
+      - label: "MSc Chemical Engineering"
+        name: "ireland_chem_engg_pg"
+        file: "src/data/study_abroad/ireland/chem_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/ireland"
+        public_folder: "/uploads/study_abroad/ireland"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Top Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "City / Location", "name": "city", "widget": "string"}
+              - {"label": "Rank / Badge", "name": "rank", "widget": "string"}
+              - {"label": "Tuition Fee Range", "name": "fee", "widget": "string"}
+              - {"label": "Description", "name": "desc", "widget": "text"}
+              - {"label": "Image File", "name": "imgFile", "widget": "string"}
+          - label: "Cost & Fee Structure"
+            name: "table"
+            widget: "object"
+            fields:
+              - {"label": "Table Title", "name": "title", "widget": "string"}
+              - {"label": "Headers", "name": "headers", "widget": "list", "field": {"label": "Header", "name": "h", "widget": "string"}}
+              - label: "Rows"
+                name: "rows"
+                widget: "list"
+                fields:
+                  - {"label": "Category", "name": "category", "widget": "string"}
+                  - {"label": "Estimated Cost", "name": "cost", "widget": "string"}
+                  - {"label": "Details / Scope", "name": "details", "widget": "string"}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "q", "widget": "string"}
+              - {"label": "Answer", "name": "a", "widget": "text"}
+      - label: "MSc Aerospace Engineering"
+        name: "ireland_aero_engg_pg"
+        file: "src/data/study_abroad/ireland/aero_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/ireland"
+        public_folder: "/uploads/study_abroad/ireland"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Top Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "City / Location", "name": "city", "widget": "string"}
+              - {"label": "Rank / Badge", "name": "rank", "widget": "string"}
+              - {"label": "Tuition Fee Range", "name": "fee", "widget": "string"}
+              - {"label": "Description", "name": "desc", "widget": "text"}
+              - {"label": "Image File", "name": "imgFile", "widget": "string"}
+          - label: "Cost & Fee Structure"
+            name: "table"
+            widget: "object"
+            fields:
+              - {"label": "Table Title", "name": "title", "widget": "string"}
+              - {"label": "Headers", "name": "headers", "widget": "list", "field": {"label": "Header", "name": "h", "widget": "string"}}
+              - label: "Rows"
+                name: "rows"
+                widget: "list"
+                fields:
+                  - {"label": "Category", "name": "category", "widget": "string"}
+                  - {"label": "Estimated Cost", "name": "cost", "widget": "string"}
+                  - {"label": "Details / Scope", "name": "details", "widget": "string"}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "q", "widget": "string"}
+              - {"label": "Answer", "name": "a", "widget": "text"}
+      - label: "MSc Biomedical Engineering"
+        name: "ireland_biomed_engg_pg"
+        file: "src/data/study_abroad/ireland/biomed_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/ireland"
+        public_folder: "/uploads/study_abroad/ireland"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Top Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "City / Location", "name": "city", "widget": "string"}
+              - {"label": "Rank / Badge", "name": "rank", "widget": "string"}
+              - {"label": "Tuition Fee Range", "name": "fee", "widget": "string"}
+              - {"label": "Description", "name": "desc", "widget": "text"}
+              - {"label": "Image File", "name": "imgFile", "widget": "string"}
+          - label: "Cost & Fee Structure"
+            name: "table"
+            widget: "object"
+            fields:
+              - {"label": "Table Title", "name": "title", "widget": "string"}
+              - {"label": "Headers", "name": "headers", "widget": "list", "field": {"label": "Header", "name": "h", "widget": "string"}}
+              - label: "Rows"
+                name: "rows"
+                widget: "list"
+                fields:
+                  - {"label": "Category", "name": "category", "widget": "string"}
+                  - {"label": "Estimated Cost", "name": "cost", "widget": "string"}
+                  - {"label": "Details / Scope", "name": "details", "widget": "string"}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "q", "widget": "string"}
+              - {"label": "Answer", "name": "a", "widget": "text"}
+      - label: "MSc Automobile Engineering"
+        name: "ireland_auto_engg_pg"
+        file: "src/data/study_abroad/ireland/auto_engg_pg.json"
+        media_folder: "public/uploads/study_abroad/ireland"
+        public_folder: "/uploads/study_abroad/ireland"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Top Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "City / Location", "name": "city", "widget": "string"}
+              - {"label": "Rank / Badge", "name": "rank", "widget": "string"}
+              - {"label": "Tuition Fee Range", "name": "fee", "widget": "string"}
+              - {"label": "Description", "name": "desc", "widget": "text"}
+              - {"label": "Image File", "name": "imgFile", "widget": "string"}
+          - label: "Cost & Fee Structure"
+            name: "table"
+            widget: "object"
+            fields:
+              - {"label": "Table Title", "name": "title", "widget": "string"}
+              - {"label": "Headers", "name": "headers", "widget": "list", "field": {"label": "Header", "name": "h", "widget": "string"}}
+              - label: "Rows"
+                name: "rows"
+                widget: "list"
+                fields:
+                  - {"label": "Category", "name": "category", "widget": "string"}
+                  - {"label": "Estimated Cost", "name": "cost", "widget": "string"}
+                  - {"label": "Details / Scope", "name": "details", "widget": "string"}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "q", "widget": "string"}
+              - {"label": "Answer", "name": "a", "widget": "text"}
+      - label: "Business Management Hub"
+        name: "ireland_business_hub"
+        file: "src/data/study_abroad/ireland/business_hub.json"
+        media_folder: "public/uploads/study_abroad/ireland"
+        public_folder: "/uploads/study_abroad/ireland"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Top Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "City / Location", "name": "city", "widget": "string"}
+              - {"label": "Rank / Badge", "name": "rank", "widget": "string"}
+              - {"label": "Tuition Fee Range", "name": "fee", "widget": "string"}
+              - {"label": "Description", "name": "desc", "widget": "text"}
+              - {"label": "Image File", "name": "imgFile", "widget": "string"}
+          - label: "Cost & Fee Structure"
+            name: "table"
+            widget: "object"
+            fields:
+              - {"label": "Table Title", "name": "title", "widget": "string"}
+              - {"label": "Headers", "name": "headers", "widget": "list", "field": {"label": "Header", "name": "h", "widget": "string"}}
+              - label: "Rows"
+                name: "rows"
+                widget: "list"
+                fields:
+                  - {"label": "Category", "name": "category", "widget": "string"}
+                  - {"label": "Estimated Cost", "name": "cost", "widget": "string"}
+                  - {"label": "Details / Scope", "name": "details", "widget": "string"}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "q", "widget": "string"}
+              - {"label": "Answer", "name": "a", "widget": "text"}
+      - label: "MBA"
+        name: "ireland_mba"
+        file: "src/data/study_abroad/ireland/mba.json"
+        media_folder: "public/uploads/study_abroad/ireland"
+        public_folder: "/uploads/study_abroad/ireland"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Top Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "City / Location", "name": "city", "widget": "string"}
+              - {"label": "Rank / Badge", "name": "rank", "widget": "string"}
+              - {"label": "Tuition Fee Range", "name": "fee", "widget": "string"}
+              - {"label": "Description", "name": "desc", "widget": "text"}
+              - {"label": "Image File", "name": "imgFile", "widget": "string"}
+          - label: "Cost & Fee Structure"
+            name: "table"
+            widget: "object"
+            fields:
+              - {"label": "Table Title", "name": "title", "widget": "string"}
+              - {"label": "Headers", "name": "headers", "widget": "list", "field": {"label": "Header", "name": "h", "widget": "string"}}
+              - label: "Rows"
+                name: "rows"
+                widget: "list"
+                fields:
+                  - {"label": "Category", "name": "category", "widget": "string"}
+                  - {"label": "Estimated Cost", "name": "cost", "widget": "string"}
+                  - {"label": "Details / Scope", "name": "details", "widget": "string"}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "q", "widget": "string"}
+              - {"label": "Answer", "name": "a", "widget": "text"}
+      - label: "Executive MBA"
+        name: "ireland_executive_mba"
+        file: "src/data/study_abroad/ireland/executive_mba.json"
+        media_folder: "public/uploads/study_abroad/ireland"
+        public_folder: "/uploads/study_abroad/ireland"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Top Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "City / Location", "name": "city", "widget": "string"}
+              - {"label": "Rank / Badge", "name": "rank", "widget": "string"}
+              - {"label": "Tuition Fee Range", "name": "fee", "widget": "string"}
+              - {"label": "Description", "name": "desc", "widget": "text"}
+              - {"label": "Image File", "name": "imgFile", "widget": "string"}
+          - label: "Cost & Fee Structure"
+            name: "table"
+            widget: "object"
+            fields:
+              - {"label": "Table Title", "name": "title", "widget": "string"}
+              - {"label": "Headers", "name": "headers", "widget": "list", "field": {"label": "Header", "name": "h", "widget": "string"}}
+              - label: "Rows"
+                name: "rows"
+                widget: "list"
+                fields:
+                  - {"label": "Category", "name": "category", "widget": "string"}
+                  - {"label": "Estimated Cost", "name": "cost", "widget": "string"}
+                  - {"label": "Details / Scope", "name": "details", "widget": "string"}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "q", "widget": "string"}
+              - {"label": "Answer", "name": "a", "widget": "text"}
+      - label: "BBA"
+        name: "ireland_bba"
+        file: "src/data/study_abroad/ireland/bba.json"
+        media_folder: "public/uploads/study_abroad/ireland"
+        public_folder: "/uploads/study_abroad/ireland"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Top Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "City / Location", "name": "city", "widget": "string"}
+              - {"label": "Rank / Badge", "name": "rank", "widget": "string"}
+              - {"label": "Tuition Fee Range", "name": "fee", "widget": "string"}
+              - {"label": "Description", "name": "desc", "widget": "text"}
+              - {"label": "Image File", "name": "imgFile", "widget": "string"}
+          - label: "Cost & Fee Structure"
+            name: "table"
+            widget: "object"
+            fields:
+              - {"label": "Table Title", "name": "title", "widget": "string"}
+              - {"label": "Headers", "name": "headers", "widget": "list", "field": {"label": "Header", "name": "h", "widget": "string"}}
+              - label: "Rows"
+                name: "rows"
+                widget: "list"
+                fields:
+                  - {"label": "Category", "name": "category", "widget": "string"}
+                  - {"label": "Estimated Cost", "name": "cost", "widget": "string"}
+                  - {"label": "Details / Scope", "name": "details", "widget": "string"}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "q", "widget": "string"}
+              - {"label": "Answer", "name": "a", "widget": "text"}
+      - label: "BBS"
+        name: "ireland_bbs"
+        file: "src/data/study_abroad/ireland/bbs.json"
+        media_folder: "public/uploads/study_abroad/ireland"
+        public_folder: "/uploads/study_abroad/ireland"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Top Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "City / Location", "name": "city", "widget": "string"}
+              - {"label": "Rank / Badge", "name": "rank", "widget": "string"}
+              - {"label": "Tuition Fee Range", "name": "fee", "widget": "string"}
+              - {"label": "Description", "name": "desc", "widget": "text"}
+              - {"label": "Image File", "name": "imgFile", "widget": "string"}
+          - label: "Cost & Fee Structure"
+            name: "table"
+            widget: "object"
+            fields:
+              - {"label": "Table Title", "name": "title", "widget": "string"}
+              - {"label": "Headers", "name": "headers", "widget": "list", "field": {"label": "Header", "name": "h", "widget": "string"}}
+              - label: "Rows"
+                name: "rows"
+                widget: "list"
+                fields:
+                  - {"label": "Category", "name": "category", "widget": "string"}
+                  - {"label": "Estimated Cost", "name": "cost", "widget": "string"}
+                  - {"label": "Details / Scope", "name": "details", "widget": "string"}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "q", "widget": "string"}
+              - {"label": "Answer", "name": "a", "widget": "text"}
+      - label: "MBS"
+        name: "ireland_mbs"
+        file: "src/data/study_abroad/ireland/mbs.json"
+        media_folder: "public/uploads/study_abroad/ireland"
+        public_folder: "/uploads/study_abroad/ireland"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Top Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "City / Location", "name": "city", "widget": "string"}
+              - {"label": "Rank / Badge", "name": "rank", "widget": "string"}
+              - {"label": "Tuition Fee Range", "name": "fee", "widget": "string"}
+              - {"label": "Description", "name": "desc", "widget": "text"}
+              - {"label": "Image File", "name": "imgFile", "widget": "string"}
+          - label: "Cost & Fee Structure"
+            name: "table"
+            widget: "object"
+            fields:
+              - {"label": "Table Title", "name": "title", "widget": "string"}
+              - {"label": "Headers", "name": "headers", "widget": "list", "field": {"label": "Header", "name": "h", "widget": "string"}}
+              - label: "Rows"
+                name: "rows"
+                widget: "list"
+                fields:
+                  - {"label": "Category", "name": "category", "widget": "string"}
+                  - {"label": "Estimated Cost", "name": "cost", "widget": "string"}
+                  - {"label": "Details / Scope", "name": "details", "widget": "string"}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "q", "widget": "string"}
+              - {"label": "Answer", "name": "a", "widget": "text"}
+      - label: "International Business"
+        name: "ireland_international_business"
+        file: "src/data/study_abroad/ireland/international_business.json"
+        media_folder: "public/uploads/study_abroad/ireland"
+        public_folder: "/uploads/study_abroad/ireland"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Top Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "City / Location", "name": "city", "widget": "string"}
+              - {"label": "Rank / Badge", "name": "rank", "widget": "string"}
+              - {"label": "Tuition Fee Range", "name": "fee", "widget": "string"}
+              - {"label": "Description", "name": "desc", "widget": "text"}
+              - {"label": "Image File", "name": "imgFile", "widget": "string"}
+          - label: "Cost & Fee Structure"
+            name: "table"
+            widget: "object"
+            fields:
+              - {"label": "Table Title", "name": "title", "widget": "string"}
+              - {"label": "Headers", "name": "headers", "widget": "list", "field": {"label": "Header", "name": "h", "widget": "string"}}
+              - label: "Rows"
+                name: "rows"
+                widget: "list"
+                fields:
+                  - {"label": "Category", "name": "category", "widget": "string"}
+                  - {"label": "Estimated Cost", "name": "cost", "widget": "string"}
+                  - {"label": "Details / Scope", "name": "details", "widget": "string"}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "q", "widget": "string"}
+              - {"label": "Answer", "name": "a", "widget": "text"}
+      - label: "Marketing Management"
+        name: "ireland_marketing_management"
+        file: "src/data/study_abroad/ireland/marketing_management.json"
+        media_folder: "public/uploads/study_abroad/ireland"
+        public_folder: "/uploads/study_abroad/ireland"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Top Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "City / Location", "name": "city", "widget": "string"}
+              - {"label": "Rank / Badge", "name": "rank", "widget": "string"}
+              - {"label": "Tuition Fee Range", "name": "fee", "widget": "string"}
+              - {"label": "Description", "name": "desc", "widget": "text"}
+              - {"label": "Image File", "name": "imgFile", "widget": "string"}
+          - label: "Cost & Fee Structure"
+            name: "table"
+            widget: "object"
+            fields:
+              - {"label": "Table Title", "name": "title", "widget": "string"}
+              - {"label": "Headers", "name": "headers", "widget": "list", "field": {"label": "Header", "name": "h", "widget": "string"}}
+              - label: "Rows"
+                name: "rows"
+                widget: "list"
+                fields:
+                  - {"label": "Category", "name": "category", "widget": "string"}
+                  - {"label": "Estimated Cost", "name": "cost", "widget": "string"}
+                  - {"label": "Details / Scope", "name": "details", "widget": "string"}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "q", "widget": "string"}
+              - {"label": "Answer", "name": "a", "widget": "text"}
+      - label: "Hospitality Management"
+        name: "ireland_hospitality_management"
+        file: "src/data/study_abroad/ireland/hospitality_management.json"
+        media_folder: "public/uploads/study_abroad/ireland"
+        public_folder: "/uploads/study_abroad/ireland"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Top Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "City / Location", "name": "city", "widget": "string"}
+              - {"label": "Rank / Badge", "name": "rank", "widget": "string"}
+              - {"label": "Tuition Fee Range", "name": "fee", "widget": "string"}
+              - {"label": "Description", "name": "desc", "widget": "text"}
+              - {"label": "Image File", "name": "imgFile", "widget": "string"}
+          - label: "Cost & Fee Structure"
+            name: "table"
+            widget: "object"
+            fields:
+              - {"label": "Table Title", "name": "title", "widget": "string"}
+              - {"label": "Headers", "name": "headers", "widget": "list", "field": {"label": "Header", "name": "h", "widget": "string"}}
+              - label: "Rows"
+                name: "rows"
+                widget: "list"
+                fields:
+                  - {"label": "Category", "name": "category", "widget": "string"}
+                  - {"label": "Estimated Cost", "name": "cost", "widget": "string"}
+                  - {"label": "Details / Scope", "name": "details", "widget": "string"}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "q", "widget": "string"}
+              - {"label": "Answer", "name": "a", "widget": "text"}
+      - label: "Architecture"
+        name: "ireland_architecture"
+        file: "src/data/study_abroad/ireland/architecture.json"
+        media_folder: "public/uploads/study_abroad/ireland"
+        public_folder: "/uploads/study_abroad/ireland"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Top Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "City / Location", "name": "city", "widget": "string"}
+              - {"label": "Rank / Badge", "name": "rank", "widget": "string"}
+              - {"label": "Tuition Fee Range", "name": "fee", "widget": "string"}
+              - {"label": "Description", "name": "desc", "widget": "text"}
+              - {"label": "Image File", "name": "imgFile", "widget": "string"}
+          - label: "Cost & Fee Structure"
+            name: "table"
+            widget: "object"
+            fields:
+              - {"label": "Table Title", "name": "title", "widget": "string"}
+              - {"label": "Headers", "name": "headers", "widget": "list", "field": {"label": "Header", "name": "h", "widget": "string"}}
+              - label: "Rows"
+                name: "rows"
+                widget: "list"
+                fields:
+                  - {"label": "Category", "name": "category", "widget": "string"}
+                  - {"label": "Estimated Cost", "name": "cost", "widget": "string"}
+                  - {"label": "Details / Scope", "name": "details", "widget": "string"}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "q", "widget": "string"}
+              - {"label": "Answer", "name": "a", "widget": "text"}
+      - label: "Law"
+        name: "ireland_law"
+        file: "src/data/study_abroad/ireland/law.json"
+        media_folder: "public/uploads/study_abroad/ireland"
+        public_folder: "/uploads/study_abroad/ireland"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Top Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "City / Location", "name": "city", "widget": "string"}
+              - {"label": "Rank / Badge", "name": "rank", "widget": "string"}
+              - {"label": "Tuition Fee Range", "name": "fee", "widget": "string"}
+              - {"label": "Description", "name": "desc", "widget": "text"}
+              - {"label": "Image File", "name": "imgFile", "widget": "string"}
+          - label: "Cost & Fee Structure"
+            name: "table"
+            widget: "object"
+            fields:
+              - {"label": "Table Title", "name": "title", "widget": "string"}
+              - {"label": "Headers", "name": "headers", "widget": "list", "field": {"label": "Header", "name": "h", "widget": "string"}}
+              - label: "Rows"
+                name: "rows"
+                widget: "list"
+                fields:
+                  - {"label": "Category", "name": "category", "widget": "string"}
+                  - {"label": "Estimated Cost", "name": "cost", "widget": "string"}
+                  - {"label": "Details / Scope", "name": "details", "widget": "string"}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "q", "widget": "string"}
+              - {"label": "Answer", "name": "a", "widget": "text"}
+      - label: "Language Courses"
+        name: "ireland_language_courses"
+        file: "src/data/study_abroad/ireland/language_courses.json"
+        media_folder: "public/uploads/study_abroad/ireland"
+        public_folder: "/uploads/study_abroad/ireland"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Top Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "City / Location", "name": "city", "widget": "string"}
+              - {"label": "Rank / Badge", "name": "rank", "widget": "string"}
+              - {"label": "Tuition Fee Range", "name": "fee", "widget": "string"}
+              - {"label": "Description", "name": "desc", "widget": "text"}
+              - {"label": "Image File", "name": "imgFile", "widget": "string"}
+          - label: "Cost & Fee Structure"
+            name: "table"
+            widget: "object"
+            fields:
+              - {"label": "Table Title", "name": "title", "widget": "string"}
+              - {"label": "Headers", "name": "headers", "widget": "list", "field": {"label": "Header", "name": "h", "widget": "string"}}
+              - label: "Rows"
+                name: "rows"
+                widget: "list"
+                fields:
+                  - {"label": "Category", "name": "category", "widget": "string"}
+                  - {"label": "Estimated Cost", "name": "cost", "widget": "string"}
+                  - {"label": "Details / Scope", "name": "details", "widget": "string"}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "q", "widget": "string"}
+              - {"label": "Answer", "name": "a", "widget": "text"}
+      - label: "Summer Courses"
+        name: "ireland_summer_courses"
+        file: "src/data/study_abroad/ireland/summer_courses.json"
+        media_folder: "public/uploads/study_abroad/ireland"
+        public_folder: "/uploads/study_abroad/ireland"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Top Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "City / Location", "name": "city", "widget": "string"}
+              - {"label": "Rank / Badge", "name": "rank", "widget": "string"}
+              - {"label": "Tuition Fee Range", "name": "fee", "widget": "string"}
+              - {"label": "Description", "name": "desc", "widget": "text"}
+              - {"label": "Image File", "name": "imgFile", "widget": "string"}
+          - label: "Cost & Fee Structure"
+            name: "table"
+            widget: "object"
+            fields:
+              - {"label": "Table Title", "name": "title", "widget": "string"}
+              - {"label": "Headers", "name": "headers", "widget": "list", "field": {"label": "Header", "name": "h", "widget": "string"}}
+              - label: "Rows"
+                name: "rows"
+                widget: "list"
+                fields:
+                  - {"label": "Category", "name": "category", "widget": "string"}
+                  - {"label": "Estimated Cost", "name": "cost", "widget": "string"}
+                  - {"label": "Details / Scope", "name": "details", "widget": "string"}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "q", "widget": "string"}
+              - {"label": "Answer", "name": "a", "widget": "text"}
+      - label: "Winter Courses"
+        name: "ireland_winter_courses"
+        file: "src/data/study_abroad/ireland/winter_courses.json"
+        media_folder: "public/uploads/study_abroad/ireland"
+        public_folder: "/uploads/study_abroad/ireland"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Banner"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge", "name": "badge", "widget": "string"}
+              - {"label": "Title", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+          - {"label": "Overview Paragraphs", "name": "overview", "widget": "list", "field": {"label": "Paragraph", "name": "p", "widget": "text"}}
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {"label": "Section Title", "name": "title", "widget": "string"}
+              - {"label": "Eyebrow Badge", "name": "eyebrow", "widget": "string"}
+              - label: "Content Groups"
+                name: "groups"
+                widget: "list"
+                fields:
+                  - {"label": "Group Type (p, ul, faqs, universities)", "name": "t", "widget": "string"}
+                  - {"label": "Items", "name": "items", "widget": "list", "field": {"label": "Item", "name": "item", "widget": "string"}}
+          - label: "Top Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "City / Location", "name": "city", "widget": "string"}
+              - {"label": "Rank / Badge", "name": "rank", "widget": "string"}
+              - {"label": "Tuition Fee Range", "name": "fee", "widget": "string"}
+              - {"label": "Description", "name": "desc", "widget": "text"}
+              - {"label": "Image File", "name": "imgFile", "widget": "string"}
+          - label: "Cost & Fee Structure"
+            name: "table"
+            widget: "object"
+            fields:
+              - {"label": "Table Title", "name": "title", "widget": "string"}
+              - {"label": "Headers", "name": "headers", "widget": "list", "field": {"label": "Header", "name": "h", "widget": "string"}}
+              - label: "Rows"
+                name: "rows"
+                widget: "list"
+                fields:
+                  - {"label": "Category", "name": "category", "widget": "string"}
+                  - {"label": "Estimated Cost", "name": "cost", "widget": "string"}
+                  - {"label": "Details / Scope", "name": "details", "widget": "string"}
+          - label: "Frequently Asked Questions"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "q", "widget": "string"}
+              - {"label": "Answer", "name": "a", "widget": "text"}
