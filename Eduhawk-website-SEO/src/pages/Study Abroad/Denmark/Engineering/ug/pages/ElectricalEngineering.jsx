@@ -7,60 +7,65 @@ import heroBgImg from "../../../../../../Images/Abroad/Denmark/Engineering_UG/El
 import sideImg from "../../../../../../Images/Abroad/Denmark/Engineering_UG/Electrical/side.webp";
 import ctaBgImg from "../../../../../../Images/Abroad/Denmark/Engineering_UG/Electrical/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../../../Images/Abroad/Denmark/Engineering_UG/Electrical/image1.png";
+import uniImg2 from "../../../../../../Images/Abroad/Denmark/Engineering_UG/Electrical/image2.png";
+import uniImg3 from "../../../../../../Images/Abroad/Denmark/Engineering_UG/Electrical/image3.png";
+
 const page = {
-  "name": "Electrical Engineering (UG)",
+  "name": "Electrical Engineering",
   "country": "Denmark",
   "slug": "ug/electrical-engineering",
-  "title": "Electrical Engineering (UG) in Denmark for Indian Students | Edu-Hawk Worldwide",
-  "description": "Study Electrical Engineering (UG) in Denmark: Top universities, course duration, tuition fees in DKK & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study Electrical Engineering (UG) in Denmark, Electrical Engineering (UG) in Denmark for Indian Students, Best Universities in Denmark, Denmark Electrical Engineering (UG) Admission, Cost of Studying in Denmark, Edu-Hawk Worldwide",
-  "introTitle": "Electrical Engineering (UG) in Denmark for Indian Students",
+  "title": "Electrical Engineering in Denmark for Indian Students | Edu-Hawk Worldwide",
+  "description": "Study Electrical Engineering in Denmark: Top universities, course duration, tuition fees in DKK & INR, eligibility criteria, admission process & visa requirements for Indian students.",
+  "keywords": "Study Electrical Engineering in Denmark, Electrical Engineering in Denmark for Indian Students, Best Universities in Denmark, Denmark Electrical Engineering Admission, Cost of Studying in Denmark, Edu-Hawk Worldwide",
+  "introTitle": "Electrical Engineering in Denmark for Indian Students",
   "heroParas": [
-    "Comprehensive guide to studying Electrical Engineering (UG) in Denmark for Indian students."
+    "Comprehensive guide to studying Electrical Engineering in Denmark for Indian students."
   ],
   "overview": [
-    "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Denmark for Electrical Engineering (UG) in Denmark."
+    "Explore top accredited Danish universities, tuition costs, eligibility, and visa procedures for Electrical Engineering."
   ],
   "level": "B.Eng / B.Sc. Electrical Engineering",
   "crumb": "Engineering / UG Engineering",
   "stats": [
     {
-      "val": "DKK 60K-120K",
+      "val": "DKK 60K-130K",
       "label": "Tuition / Year"
     },
     {
-      "val": "20 Hrs/Wk",
-      "label": "Part-Time Work"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
       "val": "3-4 Years",
       "label": "Course Duration"
     },
     {
-      "val": "English",
-      "label": "Medium of Study"
+      "val": "20 Hrs/Week",
+      "label": "Part-Time Work"
     }
   ],
   "highlights": [
     {
       "icon": "FaAward",
-      "title": "World-Class Nordic Education",
-      "desc": "Study in Denmark's globally ranked universities featuring innovative Problem-Based Learning (PBL) and state-of-the-art research."
+      "title": "World Top-100 Universities",
+      "desc": "Study in globally respected Danish institutions including University of Copenhagen, DTU, and Aarhus University."
     },
     {
       "icon": "FaGraduationCap",
-      "title": "English-Taught Degrees",
-      "desc": "Wide range of bachelor's and master's degrees delivered entirely in English with international accreditation."
+      "title": "Innovative PBL Learning",
+      "desc": "Problem-Based Learning model focusing on collaborative projects, real-world applications, and critical analysis."
     },
     {
       "icon": "FaFileAlt",
-      "title": "Generous Post-Study Work",
-      "desc": "Denmark offers post-study work permits for international graduates to start European careers in high-demand industries."
+      "title": "High Living Standard & Safety",
+      "desc": "Denmark consistently ranks among the happiest, safest, and most progressive countries in the world."
     },
     {
       "icon": "FaCheckCircle",
-      "title": "High Quality of Life",
-      "desc": "Consistently ranked among the world's happiest, safest, and most sustainable countries with vibrant student communities."
+      "title": "Post-Study Work Visa",
+      "desc": "Non-EU graduates are eligible for post-study residence permits to seek employment and build global careers."
     }
   ],
   "sections": [
@@ -68,11 +73,11 @@ const page = {
       "slot": "why",
       "eyebrow": "Why Denmark",
       "title": "Why Study Electrical Engineering in Denmark?",
+      "lead": "Essential details regarding electrical engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**1\\. Why Study Electrical Engineering in Denmark?**",
             "For students interested in electrical systems, renewable energy, automation and modern engineering technologies Denmark is a great country. The country is known for its emphasis on clean energy, wind energy, energy-efficient infrastructure, and sustainable development.",
             "A bachelor's degree in electrical engineering can help students to develop technical knowledge and practical problem-solving skills. Depending on the program they choose, students can explore electrical circuits, power systems, electronics, control systems and automation."
           ]
@@ -83,11 +88,11 @@ const page = {
       "slot": "courses",
       "eyebrow": "Degrees & Pathways",
       "title": "Electrical Engineering Programs in Denmark",
+      "lead": "Essential details regarding electrical engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**2\\. Electrical Engineering Programs in Denmark**",
             "Students can study bachelor's programs in electrical engineering and related areas, like:",
             "Bachelor\u2019s in Electrical Engineering \u2013 electrical circuits, electrical machines, power systems.",
             "Bachelor of Engineering in Electrical Engineering \u2013 applied electrical engineering and industry projects.",
@@ -104,57 +109,95 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Best Universities for Electrical Engineering in Denmark",
-      "lead": "Explore leading universities and institutions in Denmark offering accredited Electrical Engineering (UG) in Denmark programmes, world-class research facilities, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Denmark offering accredited Electrical Engineering programmes, modern campuses, and international student support.",
+      "unis": [
         {
           "name": "University of Copenhagen (UCPH)",
           "location": "Copenhagen, Denmark",
           "fee": "DKK 65,000 \u2013 120,000 / Year",
           "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
           "name": "Technical University of Denmark (DTU)",
           "location": "Kongens Lyngby, Denmark",
           "fee": "DKK 75,000 \u2013 115,000 / Year",
           "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-          "img_var": "null"
+          "img": uniImg2
         },
         {
           "name": "Aarhus University (AU)",
           "location": "Aarhus, Denmark",
           "fee": "DKK 60,000 \u2013 110,000 / Year",
           "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-          "img_var": "null"
+          "img": uniImg3
         },
         {
           "name": "Aalborg University (AAU)",
           "location": "Aalborg, Denmark",
           "fee": "DKK 58,000 \u2013 105,000 / Year",
           "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
-          "name": "Copenhagen Business School (CBS)",
-          "location": "Frederiksberg, Denmark",
-          "fee": "DKK 70,000 \u2013 130,000 / Year",
-          "desc": "Triple-crown accredited business institution recognized across Europe for excellence in management, economics, and finance.",
-          "img_var": "null"
+          "name": "University of Southern Denmark (SDU)",
+          "location": "Odense, Denmark",
+          "fee": "DKK 62,000 \u2013 115,000 / Year",
+          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+          "img": uniImg2
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "University of Copenhagen (UCPH)",
+          "location": "Copenhagen, Denmark",
+          "fee": "DKK 65,000 \u2013 120,000 / Year",
+          "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
+          "img": uniImg1
+        },
+        {
+          "name": "Technical University of Denmark (DTU)",
+          "location": "Kongens Lyngby, Denmark",
+          "fee": "DKK 75,000 \u2013 115,000 / Year",
+          "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
+          "img": uniImg2
+        },
+        {
+          "name": "Aarhus University (AU)",
+          "location": "Aarhus, Denmark",
+          "fee": "DKK 60,000 \u2013 110,000 / Year",
+          "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
+          "img": uniImg3
+        },
+        {
+          "name": "Aalborg University (AAU)",
+          "location": "Aalborg, Denmark",
+          "fee": "DKK 58,000 \u2013 105,000 / Year",
+          "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
+          "img": uniImg1
+        },
+        {
+          "name": "University of Southern Denmark (SDU)",
+          "location": "Odense, Denmark",
+          "fee": "DKK 62,000 \u2013 115,000 / Year",
+          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+          "img": uniImg2
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
+        "Tuition fees are indicative and subject to annual review by Danish higher education institutions.",
+        "EU/EEA students may study tuition-free; international fees apply to non-EU/EEA citizens."
       ]
     },
     {
       "slot": "eligibility",
       "eyebrow": "Eligibility Criteria",
       "title": "Who can study electrical engineering in Denmark?",
+      "lead": "Essential details regarding electrical engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**4\\. Who can study electrical engineering in Denmark?**",
             "International students generally require:",
             "Class 12 or equivalent from recognized board.",
             "Mathematics and Physics with the required level of subject.",
@@ -170,11 +213,11 @@ const page = {
       "slot": "requirements",
       "eyebrow": "Admission Requirements",
       "title": "Electrical Engineering Admission Requirements in Denmark",
+      "lead": "Essential details regarding electrical engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**5\\. Electrical Engineering Admission Requirements in Denmark**",
             "Common admission requirements are:",
             "Mark sheets of 10th and 12th.",
             "Subject records: Mathematics and physics.",
@@ -191,11 +234,11 @@ const page = {
       "slot": "fees",
       "eyebrow": "Tuition & Living Costs",
       "title": "Electrical Engineering in Denmark Tuition Fees",
+      "lead": "Essential details regarding electrical engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**6\\. Electrical Engineering in Denmark Tuition Fees**",
             "This will depend on the university, the program and the lifestyle. Below are indicative planning estimates for Indian students."
           ]
         },
@@ -241,11 +284,11 @@ const page = {
       "slot": "timeline",
       "eyebrow": "Admission Procedure",
       "title": "How to get admission as Electrical Engineer in Denmark",
+      "lead": "Essential details regarding electrical engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**7\\. How to get admission as Electrical Engineer in Denmark**",
             "Choose a program: Compare electrical engineering, electronics and electrical energy technology degrees",
             "Eligibility Check: Check academic requirements and language of instruction.",
             "Get documents ready: Collect passport, language test result and mark sheets.",
@@ -261,11 +304,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Further Studies & Scope",
       "title": "Recognition and Accreditation",
+      "lead": "Essential details regarding electrical engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**8\\. Recognition and Accreditation**",
             "Check the university's recognition, degree title, program duration and curriculum before enrolling. Danish universities use the European Credit Transfer and Accumulation System (ECTS) for academic credits, which facilitates mobility within European higher education.",
             "Students who plan to work in India should also check the recognition of the degree and any employer or professional requirements."
           ]
@@ -276,11 +319,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Career Opportunities",
       "title": "Electrical Engineering Salary and Career Outlook",
+      "lead": "Essential details regarding electrical engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**9\\. Electrical Engineering Salary and Career Outlook**",
             "Graduates will be able to find opportunities in power generation, electronics, renewable energy, automation, telecommunications and industrial technology.",
             "You might pursue a career in:",
             "Electrical Engineer",
@@ -326,11 +369,11 @@ const page = {
       "slot": "documents",
       "eyebrow": "Required Documentation",
       "title": "Required Documents",
+      "lead": "Essential details regarding electrical engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**10\\. Required Documents**",
             "The following documents may be required by students:",
             "Class 10th & Class 12th certificates and marksheets.",
             "Passport valid.",
@@ -351,53 +394,53 @@ const page = {
       "location": "Copenhagen, Denmark",
       "fee": "DKK 65,000 \u2013 120,000 / Year",
       "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
       "name": "Technical University of Denmark (DTU)",
       "location": "Kongens Lyngby, Denmark",
       "fee": "DKK 75,000 \u2013 115,000 / Year",
       "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-      "img_var": "null"
+      "img": uniImg2
     },
     {
       "name": "Aarhus University (AU)",
       "location": "Aarhus, Denmark",
       "fee": "DKK 60,000 \u2013 110,000 / Year",
       "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-      "img_var": "null"
+      "img": uniImg3
     },
     {
       "name": "Aalborg University (AAU)",
       "location": "Aalborg, Denmark",
       "fee": "DKK 58,000 \u2013 105,000 / Year",
       "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
-      "name": "Copenhagen Business School (CBS)",
-      "location": "Frederiksberg, Denmark",
-      "fee": "DKK 70,000 \u2013 130,000 / Year",
-      "desc": "Triple-crown accredited business institution recognized across Europe for excellence in management, economics, and finance.",
-      "img_var": "null"
+      "name": "University of Southern Denmark (SDU)",
+      "location": "Odense, Denmark",
+      "fee": "DKK 62,000 \u2013 115,000 / Year",
+      "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+      "img": uniImg2
     }
   ],
   "faqs": [
     {
-      "q": "Can Indian students apply for Electrical Engineering (UG) in Denmark?",
-      "a": "Yes, Indian students with qualifying credentials meeting English language proficiency (IELTS/TOEFL) and academic prerequisites can apply to recognized universities in Denmark."
+      "q": "Can Indian students apply for Electrical Engineering in Denmark?",
+      "a": "Yes, Indian students meeting the academic eligibility prerequisites and English language proficiency requirements (IELTS/TOEFL) can apply to Danish higher education institutions."
     },
     {
-      "q": "What is the medium of instruction for Electrical Engineering (UG) in Denmark?",
-      "a": "Most master's and international bachelor's degree programmes are taught entirely in English for international students across Danish universities."
+      "q": "What is the medium of instruction for Electrical Engineering in Denmark?",
+      "a": "Programmes designed for international students across Danish universities are taught entirely in English."
     },
     {
-      "q": "What are the typical tuition fees for Electrical Engineering (UG) in Denmark?",
-      "a": "Tuition fees for international students generally range between DKK 60,000 and DKK 120,000 per year, depending on the institution and level of study."
+      "q": "What are the typical tuition fees for Electrical Engineering in Denmark?",
+      "a": "Tuition fees for non-EU international students typically range from DKK 60,000 to DKK 120,000 per year, depending on the programme and university."
     },
     {
-      "q": "Can international students work while studying in Denmark?",
-      "a": "Yes, non-EU international students with a valid Danish residence permit are legally permitted to work part-time (up to 20 hours per week) during semester periods and full-time during June, July, and August."
+      "q": "Can international students work part-time in Denmark?",
+      "a": "Yes, non-EU international students holding a valid Danish residence permit are legally permitted to work up to 20 hours per week during term and full-time in June, July, and August."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

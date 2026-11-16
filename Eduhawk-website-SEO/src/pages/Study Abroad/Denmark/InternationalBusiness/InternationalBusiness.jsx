@@ -7,6 +7,11 @@ import heroBgImg from "../../../../Images/Abroad/Denmark/InternationalBusiness/h
 import sideImg from "../../../../Images/Abroad/Denmark/InternationalBusiness/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Denmark/InternationalBusiness/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../Images/Abroad/Denmark/InternationalBusiness/image1.png";
+import uniImg2 from "../../../../Images/Abroad/Denmark/InternationalBusiness/image2.png";
+import uniImg3 from "../../../../Images/Abroad/Denmark/InternationalBusiness/image3.png";
+
 const page = {
   "name": "International Business",
   "country": "Denmark",
@@ -19,48 +24,48 @@ const page = {
     "Comprehensive guide to studying International Business in Denmark for Indian students."
   ],
   "overview": [
-    "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Denmark for International Business in Denmark."
+    "Explore top accredited Danish universities, tuition costs, eligibility, and visa procedures for International Business."
   ],
   "level": "Bachelor & Master in International Business",
   "crumb": "International Business",
   "stats": [
     {
-      "val": "DKK 60K-120K",
+      "val": "DKK 60K-130K",
       "label": "Tuition / Year"
     },
     {
-      "val": "20 Hrs/Wk",
-      "label": "Part-Time Work"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
       "val": "3-4 Years",
       "label": "Course Duration"
     },
     {
-      "val": "English",
-      "label": "Medium of Study"
+      "val": "20 Hrs/Week",
+      "label": "Part-Time Work"
     }
   ],
   "highlights": [
     {
       "icon": "FaAward",
-      "title": "World-Class Nordic Education",
-      "desc": "Study in Denmark's globally ranked universities featuring innovative Problem-Based Learning (PBL) and state-of-the-art research."
+      "title": "World Top-100 Universities",
+      "desc": "Study in globally respected Danish institutions including University of Copenhagen, DTU, and Aarhus University."
     },
     {
       "icon": "FaGraduationCap",
-      "title": "English-Taught Degrees",
-      "desc": "Wide range of bachelor's and master's degrees delivered entirely in English with international accreditation."
+      "title": "Innovative PBL Learning",
+      "desc": "Problem-Based Learning model focusing on collaborative projects, real-world applications, and critical analysis."
     },
     {
       "icon": "FaFileAlt",
-      "title": "Generous Post-Study Work",
-      "desc": "Denmark offers post-study work permits for international graduates to start European careers in high-demand industries."
+      "title": "High Living Standard & Safety",
+      "desc": "Denmark consistently ranks among the happiest, safest, and most progressive countries in the world."
     },
     {
       "icon": "FaCheckCircle",
-      "title": "High Quality of Life",
-      "desc": "Consistently ranked among the world's happiest, safest, and most sustainable countries with vibrant student communities."
+      "title": "Post-Study Work Visa",
+      "desc": "Non-EU graduates are eligible for post-study residence permits to seek employment and build global careers."
     }
   ],
   "sections": [
@@ -68,11 +73,11 @@ const page = {
       "slot": "why",
       "eyebrow": "Why Denmark",
       "title": "Why study International Business in Denmark?",
+      "lead": "Essential details regarding international business in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**1\\. Why study International Business in Denmark?**",
             "Denmark is an attractive destination for students who are interested in global trade, international management, business strategy and cross-border operations. The international business environment provides an opportunity to understand the way companies operate in different countries and markets.",
             "International Business studies prepare students for skills in global marketing, international finance, supply chain management, negotiations, and cross-cultural communication. Denmark\u2019s emphasis on innovation, sustainability, teamwork, and hands-on learning can prepare graduates for success in multinational corporations and international organizations.",
             "Some of the major benefits are:"
@@ -100,11 +105,11 @@ const page = {
       "slot": "courses",
       "eyebrow": "Degrees & Pathways",
       "title": "International Business Studies in Denmark",
+      "lead": "Essential details regarding international business in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**2\\. International Business Studies in Denmark**",
             "Denmark offers undergraduate and postgraduate programs in international business and related fields. Students can explore a **Bachelor's in International Business in Denmark** or choose a **Master's in International Business in Denmark**, depending on their academic qualifications and career goals.",
             "The Bachelor\u2019s programs may include:"
           ]
@@ -151,57 +156,95 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Best International Business Universities in Denmark",
-      "lead": "Explore leading universities and institutions in Denmark offering accredited International Business in Denmark programmes, world-class research facilities, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Denmark offering accredited International Business programmes, modern campuses, and international student support.",
+      "unis": [
         {
           "name": "University of Copenhagen (UCPH)",
           "location": "Copenhagen, Denmark",
           "fee": "DKK 65,000 \u2013 120,000 / Year",
           "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
           "name": "Technical University of Denmark (DTU)",
           "location": "Kongens Lyngby, Denmark",
           "fee": "DKK 75,000 \u2013 115,000 / Year",
           "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-          "img_var": "null"
+          "img": uniImg2
         },
         {
           "name": "Aarhus University (AU)",
           "location": "Aarhus, Denmark",
           "fee": "DKK 60,000 \u2013 110,000 / Year",
           "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-          "img_var": "null"
+          "img": uniImg3
         },
         {
           "name": "Aalborg University (AAU)",
           "location": "Aalborg, Denmark",
           "fee": "DKK 58,000 \u2013 105,000 / Year",
           "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
-          "name": "Copenhagen Business School (CBS)",
-          "location": "Frederiksberg, Denmark",
-          "fee": "DKK 70,000 \u2013 130,000 / Year",
-          "desc": "Triple-crown accredited business institution recognized across Europe for excellence in management, economics, and finance.",
-          "img_var": "null"
+          "name": "University of Southern Denmark (SDU)",
+          "location": "Odense, Denmark",
+          "fee": "DKK 62,000 \u2013 115,000 / Year",
+          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+          "img": uniImg2
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "University of Copenhagen (UCPH)",
+          "location": "Copenhagen, Denmark",
+          "fee": "DKK 65,000 \u2013 120,000 / Year",
+          "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
+          "img": uniImg1
+        },
+        {
+          "name": "Technical University of Denmark (DTU)",
+          "location": "Kongens Lyngby, Denmark",
+          "fee": "DKK 75,000 \u2013 115,000 / Year",
+          "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
+          "img": uniImg2
+        },
+        {
+          "name": "Aarhus University (AU)",
+          "location": "Aarhus, Denmark",
+          "fee": "DKK 60,000 \u2013 110,000 / Year",
+          "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
+          "img": uniImg3
+        },
+        {
+          "name": "Aalborg University (AAU)",
+          "location": "Aalborg, Denmark",
+          "fee": "DKK 58,000 \u2013 105,000 / Year",
+          "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
+          "img": uniImg1
+        },
+        {
+          "name": "University of Southern Denmark (SDU)",
+          "location": "Odense, Denmark",
+          "fee": "DKK 62,000 \u2013 115,000 / Year",
+          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+          "img": uniImg2
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
+        "Tuition fees are indicative and subject to annual review by Danish higher education institutions.",
+        "EU/EEA students may study tuition-free; international fees apply to non-EU/EEA citizens."
       ]
     },
     {
       "slot": "eligibility",
       "eyebrow": "Eligibility Criteria",
       "title": "Eligibility for International Business Studies in Denmark",
+      "lead": "Essential details regarding international business in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**4\\. Eligibility for International Business Studies in Denmark**",
             "**Bachelor\u2019s qualification**",
             "Applicants typically require:"
           ]
@@ -245,11 +288,11 @@ const page = {
       "slot": "requirements",
       "eyebrow": "Admission Requirements",
       "title": "Denmark International Business Entry Requirements",
+      "lead": "Essential details regarding international business in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**5\\. Denmark International Business Entry Requirements**",
             "For bachelor\u2019s programs, universities generally consider school qualifications, academic grades, required subjects and language proficiency.",
             "Typically, master\u2019s programs require applicants to submit a degree certificate, academic transcripts and information about previous coursework from their bachelor\u2019s degree. A few programs require particular credits in business administration, economics, quantitative methods or management.",
             "A CV, motivation letter, recommendation letters or interview may also be required. Students are advised to check the deadlines and procedures for international applicants before applying."
@@ -261,11 +304,11 @@ const page = {
       "slot": "fees",
       "eyebrow": "Tuition & Living Costs",
       "title": "What is the cost of studying International Business in Denmark?",
+      "lead": "Essential details regarding international business in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**6\\. What is the cost of studying International Business in Denmark?**",
             "Indicative planning estimates for Indian students are given below. Fees are determined by the institution and the program."
           ]
         },
@@ -317,13 +360,8 @@ const page = {
       "slot": "timeline",
       "eyebrow": "Admission Procedure",
       "title": "How to Apply for International Business in Denmark",
+      "lead": "Essential details regarding international business in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "**7\\. How to Apply for International Business in Denmark**"
-          ]
-        },
         {
           "t": "ul",
           "items": [
@@ -349,11 +387,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Further Studies & Scope",
       "title": "Accreditation and Recognition",
+      "lead": "Essential details regarding international business in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**8\\. Accreditation and Recognition**",
             "Before enrolling check that the institution is officially recognized in Denmark and check what qualification you will receive when you graduate.",
             "Students should consider the program content, the opportunities for internships, for international exchange, for partnership with industry and further education. If you are thinking of doing an MBA in the future, you should also look at the entry requirements of the schools you are considering."
           ]
@@ -364,11 +402,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Career Opportunities",
       "title": "Job Opportunities in International Business",
+      "lead": "Essential details regarding international business in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**9\\. Job Opportunities in International Business**",
             "Graduates have opportunities available with multinational corporations, international trade, consulting, logistics, finance, technology and global marketing.",
             "Possible job titles include:"
           ]
@@ -401,11 +439,11 @@ const page = {
       "slot": "documents",
       "eyebrow": "Required Documentation",
       "title": "Required documents",
+      "lead": "Essential details regarding international business in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**10\\. Required documents**",
             "**For Bachelor\u2019s Degree Applicants**"
           ]
         },
@@ -456,53 +494,57 @@ const page = {
       "location": "Copenhagen, Denmark",
       "fee": "DKK 65,000 \u2013 120,000 / Year",
       "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
       "name": "Technical University of Denmark (DTU)",
       "location": "Kongens Lyngby, Denmark",
       "fee": "DKK 75,000 \u2013 115,000 / Year",
       "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-      "img_var": "null"
+      "img": uniImg2
     },
     {
       "name": "Aarhus University (AU)",
       "location": "Aarhus, Denmark",
       "fee": "DKK 60,000 \u2013 110,000 / Year",
       "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-      "img_var": "null"
+      "img": uniImg3
     },
     {
       "name": "Aalborg University (AAU)",
       "location": "Aalborg, Denmark",
       "fee": "DKK 58,000 \u2013 105,000 / Year",
       "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
-      "name": "Copenhagen Business School (CBS)",
-      "location": "Frederiksberg, Denmark",
-      "fee": "DKK 70,000 \u2013 130,000 / Year",
-      "desc": "Triple-crown accredited business institution recognized across Europe for excellence in management, economics, and finance.",
-      "img_var": "null"
+      "name": "University of Southern Denmark (SDU)",
+      "location": "Odense, Denmark",
+      "fee": "DKK 62,000 \u2013 115,000 / Year",
+      "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+      "img": uniImg2
     }
   ],
   "faqs": [
     {
-      "q": "Can Indian students apply for International Business in Denmark?",
-      "a": "Yes, Indian students with qualifying credentials meeting English language proficiency (IELTS/TOEFL) and academic prerequisites can apply to recognized universities in Denmark."
+      "q": "Q1. Can Indian students pursue International Business in Denmark after completing Class 12?",
+      "a": "Yes. Students who meet the academic, subject and language requirements can apply for the eligible bachelor\u2019s programs."
     },
     {
-      "q": "What is the medium of instruction for International Business in Denmark?",
-      "a": "Most master's and international bachelor's degree programmes are taught entirely in English for international students across Danish universities."
+      "q": "Q2. How long is International Business course in Denmark?",
+      "a": "A bachelor\u2019s degree usually takes three years to complete and most master\u2019s programs two years."
     },
     {
-      "q": "What are the typical tuition fees for International Business in Denmark?",
-      "a": "Tuition fees for international students generally range between DKK 60,000 and DKK 120,000 per year, depending on the institution and level of study."
+      "q": "Q3. Is it possible to do a master's in International Business after a bachelor's in a different subject?",
+      "a": "A number of programs will accept graduates from related disciplines whereas others will require a business, management or economics background. See the specific programme's prerequisites."
     },
     {
-      "q": "Can international students work while studying in Denmark?",
-      "a": "Yes, non-EU international students with a valid Danish residence permit are legally permitted to work part-time (up to 20 hours per week) during semester periods and full-time during June, July, and August."
+      "q": "Q4. How much does it cost to study International Business in Denmark?",
+      "a": "On the rough estimate, a three-year bachelor\u2019s degree will cost \u20b947-92 lakh and a two-year master\u2019s degree will cost \u20b935-70 lakh, which includes tuition and living expenses."
+    },
+    {
+      "q": "Q5. Are there International Business programs in Denmark taught in English?",
+      "a": "Yes, especially at the master\u2019s level. At undergraduate level there may be fewer options so students should check the language of instruction for each course. **Edu-Hawk Worldwide** helps students explore international business study options, understand university admission requirements and plan their study-abroad applications."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

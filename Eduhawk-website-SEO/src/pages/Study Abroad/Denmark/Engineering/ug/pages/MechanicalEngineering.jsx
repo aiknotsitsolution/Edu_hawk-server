@@ -7,60 +7,65 @@ import heroBgImg from "../../../../../../Images/Abroad/Denmark/Engineering_UG/Me
 import sideImg from "../../../../../../Images/Abroad/Denmark/Engineering_UG/Mechanical/side.webp";
 import ctaBgImg from "../../../../../../Images/Abroad/Denmark/Engineering_UG/Mechanical/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../../../Images/Abroad/Denmark/Engineering_UG/Mechanical/image1.png";
+import uniImg2 from "../../../../../../Images/Abroad/Denmark/Engineering_UG/Mechanical/image2.png";
+import uniImg3 from "../../../../../../Images/Abroad/Denmark/Engineering_UG/Mechanical/image3.png";
+
 const page = {
-  "name": "Mechanical Engineering (UG)",
+  "name": "Mechanical Engineering",
   "country": "Denmark",
   "slug": "ug/mechanical-engineering",
-  "title": "Mechanical Engineering (UG) in Denmark for Indian Students | Edu-Hawk Worldwide",
-  "description": "Study Mechanical Engineering (UG) in Denmark: Top universities, course duration, tuition fees in DKK & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study Mechanical Engineering (UG) in Denmark, Mechanical Engineering (UG) in Denmark for Indian Students, Best Universities in Denmark, Denmark Mechanical Engineering (UG) Admission, Cost of Studying in Denmark, Edu-Hawk Worldwide",
-  "introTitle": "Mechanical Engineering (UG) in Denmark for Indian Students",
+  "title": "Mechanical Engineering in Denmark for Indian Students | Edu-Hawk Worldwide",
+  "description": "Study Mechanical Engineering in Denmark: Top universities, course duration, tuition fees in DKK & INR, eligibility criteria, admission process & visa requirements for Indian students.",
+  "keywords": "Study Mechanical Engineering in Denmark, Mechanical Engineering in Denmark for Indian Students, Best Universities in Denmark, Denmark Mechanical Engineering Admission, Cost of Studying in Denmark, Edu-Hawk Worldwide",
+  "introTitle": "Mechanical Engineering in Denmark for Indian Students",
   "heroParas": [
-    "Comprehensive guide to studying Mechanical Engineering (UG) in Denmark for Indian students."
+    "Comprehensive guide to studying Mechanical Engineering in Denmark for Indian students."
   ],
   "overview": [
-    "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Denmark for Mechanical Engineering (UG) in Denmark."
+    "Explore top accredited Danish universities, tuition costs, eligibility, and visa procedures for Mechanical Engineering."
   ],
   "level": "B.Eng / B.Sc. Mechanical Engineering",
   "crumb": "Engineering / UG Engineering",
   "stats": [
     {
-      "val": "DKK 60K-120K",
+      "val": "DKK 60K-130K",
       "label": "Tuition / Year"
     },
     {
-      "val": "20 Hrs/Wk",
-      "label": "Part-Time Work"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
       "val": "3-4 Years",
       "label": "Course Duration"
     },
     {
-      "val": "English",
-      "label": "Medium of Study"
+      "val": "20 Hrs/Week",
+      "label": "Part-Time Work"
     }
   ],
   "highlights": [
     {
       "icon": "FaAward",
-      "title": "World-Class Nordic Education",
-      "desc": "Study in Denmark's globally ranked universities featuring innovative Problem-Based Learning (PBL) and state-of-the-art research."
+      "title": "World Top-100 Universities",
+      "desc": "Study in globally respected Danish institutions including University of Copenhagen, DTU, and Aarhus University."
     },
     {
       "icon": "FaGraduationCap",
-      "title": "English-Taught Degrees",
-      "desc": "Wide range of bachelor's and master's degrees delivered entirely in English with international accreditation."
+      "title": "Innovative PBL Learning",
+      "desc": "Problem-Based Learning model focusing on collaborative projects, real-world applications, and critical analysis."
     },
     {
       "icon": "FaFileAlt",
-      "title": "Generous Post-Study Work",
-      "desc": "Denmark offers post-study work permits for international graduates to start European careers in high-demand industries."
+      "title": "High Living Standard & Safety",
+      "desc": "Denmark consistently ranks among the happiest, safest, and most progressive countries in the world."
     },
     {
       "icon": "FaCheckCircle",
-      "title": "High Quality of Life",
-      "desc": "Consistently ranked among the world's happiest, safest, and most sustainable countries with vibrant student communities."
+      "title": "Post-Study Work Visa",
+      "desc": "Non-EU graduates are eligible for post-study residence permits to seek employment and build global careers."
     }
   ],
   "sections": [
@@ -68,11 +73,11 @@ const page = {
       "slot": "why",
       "eyebrow": "Why Denmark",
       "title": "Why Pursue Mechanical Engineering in Denmark?",
+      "lead": "Essential details regarding mechanical engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**1\\. Why Pursue Mechanical Engineering in Denmark?**",
             "If you are a student looking to study a **Bachelor of Mechanical Engineering in Denmark** and would like to learn through practical experience, innovation and sustainable technology, then Denmark is a great study-abroad destination to choose. The Danish universities put emphasis on basic engineering, laboratory work, design projects and cooperation with industry.",
             "Students can learn about robotics, renewable energy, product development, manufacturing, automation and mechanical design. Denmark\u2019s commitment to green energy and high-tech engineering provides an opportunity to learn about sustainable industrial solutions. These areas make Mechanical Engineering in Denmark an interesting choice for Indian students looking for international engineering exposure."
           ]
@@ -100,11 +105,11 @@ const page = {
       "slot": "courses",
       "eyebrow": "Degrees & Pathways",
       "title": "Studies in Mechanical Engineering in Denmark",
+      "lead": "Essential details regarding mechanical engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**2\\. Studies in Mechanical Engineering in Denmark**",
             "Students may pursue undergraduate degrees in mechanical engineering and related engineering fields. Each university has different program titles, language of instruction and eligibility requirements. When comparing **Mechanical Engineering courses in Denmark**, students should consider the length of the course, the amount of practical training, the specializations and the language requirements."
           ]
         },
@@ -150,57 +155,53 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Top Mechanical Engineering Universities in Denmark",
-      "lead": "Explore leading universities and institutions in Denmark offering accredited Mechanical Engineering (UG) in Denmark programmes, world-class research facilities, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Denmark offering accredited Mechanical Engineering programmes, modern campuses, and international student support.",
+      "unis": [
         {
           "name": "Technical University of Denmark (DTU)",
-          "location": "Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
+          "location": "Technical University of Denmark (DTU)",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
           "desc": "The Technical University of Denmark is a leading university with a clear focus on engineering, technology, innovation and research. Students should consult the current list of bachelor's programs and language requirements.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
           "name": "Aarhus University",
-          "location": "Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
-          "desc": "Aarhus University provides education in engineering, technology and related science and technology subjects. Students may pursue appropriate academic pathways according to their interests.",
-          "img_var": "null"
+          "location": "Aarhus University, Denmark",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
+          "desc": "Leading institution in Denmark offering world-class degree programmes, modern laboratories, and international student support.",
+          "img": uniImg2
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "Technical University of Denmark (DTU)",
+          "location": "Technical University of Denmark (DTU)",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
+          "desc": "The Technical University of Denmark is a leading university with a clear focus on engineering, technology, innovation and research. Students should consult the current list of bachelor's programs and language requirements.",
+          "img": uniImg1
         },
         {
-          "name": "University of Southern Denmark (SDU)",
-          "location": "Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
-          "desc": "The University of Southern Denmark offers engineering programs and technology-oriented disciplines. SDU offers a BEng in Mechanical Engineering in English in S\u00f8nderborg. The program is based on practical projects and an internship.",
-          "img_var": "null"
-        },
-        {
-          "name": "Aalborg University (AAU)",
-          "location": "Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
-          "desc": "Aalborg University is well known for its problem-based learning approach and engineering education. Students who are interested in practical engineering and project-based learning can explore its relevant programs.",
-          "img_var": "null"
-        },
-        {
-          "name": "VIA University College",
-          "location": "Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
-          "desc": "VIA University College offers education within applied engineering, including professional programs within engineering. It has a Mechanical Engineering bachelor's program in Horsens with a focus on product development and design. Students should check the language and current intake before applying. Important: These institutions are suggestions to consider, not a confirmation that each currently offers an English-taught bachelor's degree specifically called Mechanical Engineering. Always check the exact program and intake before applying. Edu-Hawk Worldwide can help students compare available study options and understand the application process.",
-          "img_var": "null"
+          "name": "Aarhus University",
+          "location": "Aarhus University, Denmark",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
+          "desc": "Leading institution in Denmark offering world-class degree programmes, modern laboratories, and international student support.",
+          "img": uniImg2
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
+        "Tuition fees are indicative and subject to annual review by Danish higher education institutions.",
+        "EU/EEA students may study tuition-free; international fees apply to non-EU/EEA citizens."
       ]
     },
     {
       "slot": "eligibility",
       "eyebrow": "Eligibility Criteria",
       "title": "Mechanical Engineering Study in Denmark",
+      "lead": "Essential details regarding mechanical engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**4\\. Mechanical Engineering Study in Denmark**",
             "Indian students generally need to meet the following requirements. Before applying to a university, it is important to understand **Mechanical Engineering eligibility in Denmark**."
           ]
         },
@@ -227,11 +228,11 @@ const page = {
       "slot": "requirements",
       "eyebrow": "Admission Requirements",
       "title": "Entry Requirements to Study Mechanical Engineering in Denmark",
+      "lead": "Essential details regarding mechanical engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**5\\. Entry Requirements to Study Mechanical Engineering in Denmark**",
             "Applicants should go to the university's official admission page for full details. Usually, these comprise the following **Mechanical Engineering admission requirements in Denmark**:"
           ]
         },
@@ -258,13 +259,12 @@ const page = {
       "slot": "fees",
       "eyebrow": "Tuition & Living Costs",
       "title": "How Much Does It Cost to Study Mechanical Engineering in Denmark?",
+      "lead": "Essential details regarding mechanical engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**6\\. How Much Does It Cost to Study Mechanical Engineering in Denmark?**",
-            "The **Cost of studying Mechanical Engineering in Denmark** varies depending on the university, program, accommodation and lifestyle. The following are indicative planning estimates for an Indian student. Each institution, program and year of study has different actual fees.",
-            "**Estimated Tuition Fees and Living Costs**"
+            "The **Cost of studying Mechanical Engineering in Denmark** varies depending on the university, program, accommodation and lifestyle. The following are indicative planning estimates for an Indian student. Each institution, program and year of study has different actual fees."
           ]
         },
         {
@@ -313,11 +313,11 @@ const page = {
       "slot": "timeline",
       "eyebrow": "Admission Procedure",
       "title": "How to Get Admission for Mechanical Engineering in Denmark?",
+      "lead": "Essential details regarding mechanical engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**7\\. How to Get Admission for Mechanical Engineering in Denmark?**",
             "Students who want to study mechanical engineering in Denmark should consider the following steps:"
           ]
         },
@@ -335,7 +335,6 @@ const page = {
         {
           "t": "p",
           "items": [
-            "**Deadlines for Applications**",
             "Some Danish undergraduate studies have deadlines around 15 March for international students, but the dates vary depending on the institution and the category of applicant. Check the deadline for the intake you have selected.",
             "Indian students should begin the application process early, giving them enough time to prepare documents, meet language requirements and complete university applications. **Edu-Hawk Worldwide** offers study-abroad guidance to help students understand the application process and prepare for the intake they have chosen."
           ]
@@ -346,11 +345,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Further Studies & Scope",
       "title": "Recognition and Accreditation",
+      "lead": "Essential details regarding mechanical engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**8\\. Recognition and Accreditation**",
             "Check that the degree is awarded by a recognized Danish university and that the course fits your academic and career goals before enrolling.",
             "A **Bachelor of Mechanical Engineering in Denmark** can lead to graduate studies in engineering, energy systems, manufacturing, robotics or related fields. Before selecting a program, students should consider the curriculum and academic progression options.",
             "If you intend to work in India or another country after graduation, consult the requirements of the relevant employer, professional body or further-study institution. Recognition of a qualification may depend on the institution, degree structure and rules of the country where you intend to continue your education or career."
@@ -362,13 +361,12 @@ const page = {
       "slot": "careers",
       "eyebrow": "Career Opportunities",
       "title": "Job Opportunities and Salary After Mechanical Engineering in Denmark",
+      "lead": "Essential details regarding mechanical engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**9\\. Job Opportunities and Salary After Mechanical Engineering in Denmark**",
-            "Graduates can find opportunities in energy, manufacturing and transportation, product development and industrial automation. A mechanical engineering degree can be a launchpad for a variety of technical and industrial career paths.",
-            "**Possible Job Titles**"
+            "Graduates can find opportunities in energy, manufacturing and transportation, product development and industrial automation. A mechanical engineering degree can be a launchpad for a variety of technical and industrial career paths."
           ]
         },
         {
@@ -382,12 +380,6 @@ const page = {
             "CAD Engineer",
             "Energy Systems Engineer",
             "Automation and Robotics Engineer"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "**Indicative Salary Planning Ranges**"
           ]
         },
         {
@@ -424,13 +416,12 @@ const page = {
       "slot": "documents",
       "eyebrow": "Required Documentation",
       "title": "Documents Required",
+      "lead": "Essential details regarding mechanical engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**10\\. Documents Required**",
-            "Students must prepare the following documents, as applicable, for their chosen university.",
-            "**Academic Documents**"
+            "Students must prepare the following documents, as applicable, for their chosen university."
           ]
         },
         {
@@ -443,23 +434,11 @@ const page = {
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "**Application Documents and Language**"
-          ]
-        },
-        {
           "t": "ul",
           "items": [
             "Results of any English language proficiency test, if applicable.",
             "Completed application form and supporting documents.",
             "CV or motivation statement, if required."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "**Admission and Immigration Documents**"
           ]
         },
         {
@@ -482,11 +461,11 @@ const page = {
       "slot": "section-12",
       "eyebrow": "Conclusion",
       "title": "Conclusion",
+      "lead": "Essential details regarding mechanical engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**Conclusion**",
             "A **Bachelor of Mechanical Engineering in Denmark** can provide students with technical knowledge, practical engineering skills and an understanding of modern industrial technologies. Denmark is a possibility for students who are interested in engineering education and want to look into areas such as manufacturing, robotics, renewable energy and product development.",
             "There are many options for **Mechanical Engineering in Denmark for Indian students**. It is important to compare universities, teaching languages, admission requirements, tuition fees and career pathways before making a decision. **Edu-Hawk Worldwide** provides study-abroad guidance to help students identify suitable programs, understand admission processes and get ready for their international education experience."
           ]
@@ -497,60 +476,35 @@ const page = {
   "universities": [
     {
       "name": "Technical University of Denmark (DTU)",
-      "location": "Denmark",
-      "fee": "DKK 65,000 \u2013 120,000 / Year",
+      "location": "Technical University of Denmark (DTU)",
+      "fee": "DKK 60,000 \u2013 120,000 / Year",
       "desc": "The Technical University of Denmark is a leading university with a clear focus on engineering, technology, innovation and research. Students should consult the current list of bachelor's programs and language requirements.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
       "name": "Aarhus University",
-      "location": "Denmark",
-      "fee": "DKK 65,000 \u2013 120,000 / Year",
-      "desc": "Aarhus University provides education in engineering, technology and related science and technology subjects. Students may pursue appropriate academic pathways according to their interests.",
-      "img_var": "null"
-    },
-    {
-      "name": "University of Southern Denmark (SDU)",
-      "location": "Denmark",
-      "fee": "DKK 65,000 \u2013 120,000 / Year",
-      "desc": "The University of Southern Denmark offers engineering programs and technology-oriented disciplines. SDU offers a BEng in Mechanical Engineering in English in S\u00f8nderborg. The program is based on practical projects and an internship.",
-      "img_var": "null"
-    },
-    {
-      "name": "Aalborg University (AAU)",
-      "location": "Denmark",
-      "fee": "DKK 65,000 \u2013 120,000 / Year",
-      "desc": "Aalborg University is well known for its problem-based learning approach and engineering education. Students who are interested in practical engineering and project-based learning can explore its relevant programs.",
-      "img_var": "null"
-    },
-    {
-      "name": "VIA University College",
-      "location": "Denmark",
-      "fee": "DKK 65,000 \u2013 120,000 / Year",
-      "desc": "VIA University College offers education within applied engineering, including professional programs within engineering. It has a Mechanical Engineering bachelor's program in Horsens with a focus on product development and design. Students should check the language and current intake before applying. Important: These institutions are suggestions to consider, not a confirmation that each currently offers an English-taught bachelor's degree specifically called Mechanical Engineering. Always check the exact program and intake before applying. Edu-Hawk Worldwide can help students compare available study options and understand the application process.",
-      "img_var": "null"
+      "location": "Aarhus University, Denmark",
+      "fee": "DKK 60,000 \u2013 120,000 / Year",
+      "desc": "Leading institution in Denmark offering world-class degree programmes, modern laboratories, and international student support.",
+      "img": uniImg2
     }
   ],
   "faqs": [
     {
-      "q": "How Long Does It Take to Get a Bachelor's Degree in Mechanical Engineering in Denmark?",
-      "a": "A standard bachelor's degree is three years, but a professional Bachelor of Engineering degree is usually 3.5 years and may include an internship. How long it takes to complete depends on the university and program you choose."
+      "q": "Can Indian students apply for Mechanical Engineering in Denmark?",
+      "a": "Yes, Indian students meeting the academic eligibility prerequisites and English language proficiency requirements (IELTS/TOEFL) can apply to Danish higher education institutions."
     },
     {
-      "q": "Can Indian Students Study Mechanical Engineering in English in Denmark?",
-      "a": "Yes. For example, the University of Southern Denmark offers a BEng in Mechanical Engineering, taught in English, in S\u00f8nderborg. Students should check with the program to verify current availability and admission requirements prior to application."
+      "q": "What is the medium of instruction for Mechanical Engineering in Denmark?",
+      "a": "Programmes designed for international students across Danish universities are taught entirely in English."
     },
     {
-      "q": "What Will Be the Cost Per Year?",
-      "a": "The first-year budget is around \u20b920 lakh\u2013\u20b932 lakh, including tuition and living expenses. Check the actual university fees and calculate your own living expenses before applying."
+      "q": "What are the typical tuition fees for Mechanical Engineering in Denmark?",
+      "a": "Tuition fees for non-EU international students typically range from DKK 60,000 to DKK 120,000 per year, depending on the programme and university."
     },
     {
-      "q": "Do You Need Mathematics to Get In?",
-      "a": "Mathematics is often one of the key admission subjects for mechanical engineering. Physics and sometimes Chemistry may also be required, depending on the program."
-    },
-    {
-      "q": "Is It Possible to Do a Master's After Completing My Bachelor's?",
-      "a": "Yes. Depending on your degree, academic performance and prerequisite subjects, you may be eligible to apply for a relevant master's program in mechanical engineering or a related field."
+      "q": "Can international students work part-time in Denmark?",
+      "a": "Yes, non-EU international students holding a valid Danish residence permit are legally permitted to work up to 20 hours per week during term and full-time in June, July, and August."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

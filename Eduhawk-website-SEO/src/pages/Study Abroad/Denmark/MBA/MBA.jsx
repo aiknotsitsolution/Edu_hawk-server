@@ -7,6 +7,11 @@ import heroBgImg from "../../../../Images/Abroad/Denmark/MBA/hero_bg.webp";
 import sideImg from "../../../../Images/Abroad/Denmark/MBA/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Denmark/MBA/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../Images/Abroad/Denmark/MBA/image1.png";
+import uniImg2 from "../../../../Images/Abroad/Denmark/MBA/image2.png";
+import uniImg3 from "../../../../Images/Abroad/Denmark/MBA/image3.png";
+
 const page = {
   "name": "MBA",
   "country": "Denmark",
@@ -25,42 +30,42 @@ const page = {
   "crumb": "MBA",
   "stats": [
     {
-      "val": "DKK 60K-120K",
+      "val": "DKK 60K-130K",
       "label": "Tuition / Year"
-    },
-    {
-      "val": "20 Hrs/Wk",
-      "label": "Part-Time Work"
-    },
-    {
-      "val": "3-4 Years",
-      "label": "Course Duration"
     },
     {
       "val": "English",
       "label": "Medium of Study"
+    },
+    {
+      "val": "2 Years",
+      "label": "Course Duration"
+    },
+    {
+      "val": "20 Hrs/Week",
+      "label": "Part-Time Work"
     }
   ],
   "highlights": [
     {
       "icon": "FaAward",
-      "title": "World-Class Nordic Education",
-      "desc": "Study in Denmark's globally ranked universities featuring innovative Problem-Based Learning (PBL) and state-of-the-art research."
+      "title": "World Top-100 Universities",
+      "desc": "Study in globally respected Danish institutions including University of Copenhagen, DTU, and Aarhus University."
     },
     {
       "icon": "FaGraduationCap",
-      "title": "English-Taught Degrees",
-      "desc": "Wide range of bachelor's and master's degrees delivered entirely in English with international accreditation."
+      "title": "Innovative PBL Learning",
+      "desc": "Problem-Based Learning model focusing on collaborative projects, real-world applications, and critical analysis."
     },
     {
       "icon": "FaFileAlt",
-      "title": "Generous Post-Study Work",
-      "desc": "Denmark offers post-study work permits for international graduates to start European careers in high-demand industries."
+      "title": "High Living Standard & Safety",
+      "desc": "Denmark consistently ranks among the happiest, safest, and most progressive countries in the world."
     },
     {
       "icon": "FaCheckCircle",
-      "title": "High Quality of Life",
-      "desc": "Consistently ranked among the world's happiest, safest, and most sustainable countries with vibrant student communities."
+      "title": "Post-Study Work Visa",
+      "desc": "Non-EU graduates are eligible for post-study residence permits to seek employment and build global careers."
     }
   ],
   "sections": [
@@ -68,11 +73,11 @@ const page = {
       "slot": "courses",
       "eyebrow": "Degrees & Pathways",
       "title": "Denmark MBA and Bachelor's Courses",
+      "lead": "Essential details regarding mba in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**2\\. Denmark MBA and Bachelor's Courses**",
             "A Bachelor\u2019s in Business Management will give you the basic knowledge required in business operations, economics, accounting, marketing and organizational management. It is suitable for students who have passed Class 12\\. Students exploring a **Bachelor's in Business in Denmark** can develop a foundation in these areas before pursuing an MBA.",
             "The MBA in Denmark is concentrated on advanced management, leadership, business strategy, finance and decision making. Most **MBA programs in Denmark** require a bachelor\u2019s degree and work experience in a related field.",
             "Areas of study are typically:"
@@ -104,60 +109,92 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Denmark\u2019s Top Universities for MBA and Business Studies",
-      "lead": "Explore leading universities and institutions in Denmark offering accredited MBA in Denmark programmes, world-class research facilities, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Denmark offering accredited MBA programmes, modern campuses, and international student support.",
+      "unis": [
         {
           "name": "University of Copenhagen (UCPH)",
           "location": "Copenhagen, Denmark",
           "fee": "DKK 65,000 \u2013 120,000 / Year",
           "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
           "name": "Technical University of Denmark (DTU)",
           "location": "Kongens Lyngby, Denmark",
           "fee": "DKK 75,000 \u2013 115,000 / Year",
           "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-          "img_var": "null"
+          "img": uniImg2
         },
         {
           "name": "Aarhus University (AU)",
           "location": "Aarhus, Denmark",
           "fee": "DKK 60,000 \u2013 110,000 / Year",
           "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-          "img_var": "null"
+          "img": uniImg3
         },
         {
           "name": "Aalborg University (AAU)",
           "location": "Aalborg, Denmark",
           "fee": "DKK 58,000 \u2013 105,000 / Year",
           "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
-          "name": "Copenhagen Business School (CBS)",
-          "location": "Frederiksberg, Denmark",
-          "fee": "DKK 70,000 \u2013 130,000 / Year",
-          "desc": "Triple-crown accredited business institution recognized across Europe for excellence in management, economics, and finance.",
-          "img_var": "null"
+          "name": "University of Southern Denmark (SDU)",
+          "location": "Odense, Denmark",
+          "fee": "DKK 62,000 \u2013 115,000 / Year",
+          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+          "img": uniImg2
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "University of Copenhagen (UCPH)",
+          "location": "Copenhagen, Denmark",
+          "fee": "DKK 65,000 \u2013 120,000 / Year",
+          "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
+          "img": uniImg1
+        },
+        {
+          "name": "Technical University of Denmark (DTU)",
+          "location": "Kongens Lyngby, Denmark",
+          "fee": "DKK 75,000 \u2013 115,000 / Year",
+          "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
+          "img": uniImg2
+        },
+        {
+          "name": "Aarhus University (AU)",
+          "location": "Aarhus, Denmark",
+          "fee": "DKK 60,000 \u2013 110,000 / Year",
+          "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
+          "img": uniImg3
+        },
+        {
+          "name": "Aalborg University (AAU)",
+          "location": "Aalborg, Denmark",
+          "fee": "DKK 58,000 \u2013 105,000 / Year",
+          "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
+          "img": uniImg1
+        },
+        {
+          "name": "University of Southern Denmark (SDU)",
+          "location": "Odense, Denmark",
+          "fee": "DKK 62,000 \u2013 115,000 / Year",
+          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+          "img": uniImg2
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
+        "Tuition fees are indicative and subject to annual review by Danish higher education institutions.",
+        "EU/EEA students may study tuition-free; international fees apply to non-EU/EEA citizens."
       ]
     },
     {
       "slot": "eligibility",
       "eyebrow": "Eligibility Criteria",
       "title": "Study eligibility in Denmark",
+      "lead": "Essential details regarding mba in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "**4\\. Study eligibility in Denmark**",
-            "**Bachelor\u2019s Eligibility**"
-          ]
-        },
         {
           "t": "ul",
           "items": [
@@ -165,12 +202,6 @@ const page = {
             "Academic grades and subject prerequisites",
             "English language requirement for programs taught in English.",
             "Danish language skills if the program is taught in Danish."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "**MBA Eligibility Criteria**"
           ]
         },
         {
@@ -195,11 +226,11 @@ const page = {
       "slot": "requirements",
       "eyebrow": "Admission Requirements",
       "title": "Eligibility for Admission",
+      "lead": "Essential details regarding mba in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**5\\. Eligibility for Admission**",
             "When assessing bachelor\u2019s applicants, school qualifications, grades, relevant subjects and language skills are taken into account.",
             "MBA applicants usually provide their undergraduate transcripts, CV, proof of work experience, English-language results and motivation essays. Some programs also require recommendation letters, GMAT/GRE scores and an admissions interview.",
             "Meeting minimum eligibility requirements does not assure admission. Students should carefully review the **MBA admission requirements in Denmark** before submitting their applications."
@@ -211,11 +242,11 @@ const page = {
       "slot": "fees",
       "eyebrow": "Tuition & Living Costs",
       "title": "Cost of education in Denmark",
+      "lead": "Essential details regarding mba in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**6\\. Cost of education in Denmark**",
             "The following are rough estimates for Indian students: Tuition fees vary widely depending on the university and the course. The **MBA fees in Denmark** can differ according to the institution, qualification and study format."
           ]
         },
@@ -262,11 +293,11 @@ const page = {
       "slot": "timeline",
       "eyebrow": "Admission Procedure",
       "title": "Admission Procedure",
+      "lead": "Essential details regarding mba in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**7\\. Admission Procedure**",
             "The general admission procedure for an **MBA in Denmark** includes the following steps:"
           ]
         },
@@ -295,11 +326,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Further Studies & Scope",
       "title": "Recognition and Accreditation",
+      "lead": "Essential details regarding mba in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**8\\. Recognition and Accreditation**",
             "Make sure that the institution and the qualification are officially recognized. Check the programme\u2019s accreditation status, curriculum and links with employers.",
             "When comparing schools, MBA applicants might want to consider international accreditation, leadership training, networking opportunities and career support."
           ]
@@ -310,11 +341,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Career Opportunities",
       "title": "Career Opportunities After MBA",
+      "lead": "Essential details regarding mba in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**9\\. Career Opportunities After MBA**",
             "Opportunities may be available for graduates in:"
           ]
         },
@@ -345,14 +376,8 @@ const page = {
       "slot": "documents",
       "eyebrow": "Required Documentation",
       "title": "Necessary documents",
+      "lead": "Essential details regarding mba in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "**10\\. Necessary documents**",
-            "**For a bachelor degree:**"
-          ]
-        },
         {
           "t": "ul",
           "items": [
@@ -361,12 +386,6 @@ const page = {
             "Leaving School Certificate",
             "Results of English language tests (if required)",
             "Letter of motivation (if needed)"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "**For MBA student:**"
           ]
         },
         {
@@ -396,53 +415,57 @@ const page = {
       "location": "Copenhagen, Denmark",
       "fee": "DKK 65,000 \u2013 120,000 / Year",
       "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
       "name": "Technical University of Denmark (DTU)",
       "location": "Kongens Lyngby, Denmark",
       "fee": "DKK 75,000 \u2013 115,000 / Year",
       "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-      "img_var": "null"
+      "img": uniImg2
     },
     {
       "name": "Aarhus University (AU)",
       "location": "Aarhus, Denmark",
       "fee": "DKK 60,000 \u2013 110,000 / Year",
       "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-      "img_var": "null"
+      "img": uniImg3
     },
     {
       "name": "Aalborg University (AAU)",
       "location": "Aalborg, Denmark",
       "fee": "DKK 58,000 \u2013 105,000 / Year",
       "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
-      "name": "Copenhagen Business School (CBS)",
-      "location": "Frederiksberg, Denmark",
-      "fee": "DKK 70,000 \u2013 130,000 / Year",
-      "desc": "Triple-crown accredited business institution recognized across Europe for excellence in management, economics, and finance.",
-      "img_var": "null"
+      "name": "University of Southern Denmark (SDU)",
+      "location": "Odense, Denmark",
+      "fee": "DKK 62,000 \u2013 115,000 / Year",
+      "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+      "img": uniImg2
     }
   ],
   "faqs": [
     {
-      "q": "Can Indian students apply for MBA in Denmark?",
-      "a": "Yes, Indian students with qualifying credentials meeting English language proficiency (IELTS/TOEFL) and academic prerequisites can apply to recognized universities in Denmark."
+      "q": "Q1. Can I study MBA in Denmark after 12th?",
+      "a": "Naw. Typically, for admission to an MBA, you will need a bachelor\u2019s degree and to meet the programme\u2019s requirements for professional experience."
     },
     {
-      "q": "What is the medium of instruction for MBA in Denmark?",
-      "a": "Most master's and international bachelor's degree programmes are taught entirely in English for international students across Danish universities."
+      "q": "Q2. Is work experience needed for an MBA in Denmark?",
+      "a": "Work experience is a prerequisite for many MBA programs. Minimums differ by institution."
     },
     {
-      "q": "What are the typical tuition fees for MBA in Denmark?",
-      "a": "Tuition fees for international students generally range between DKK 60,000 and DKK 120,000 per year, depending on the institution and level of study."
+      "q": "Q3. What is the duration to complete an MBA in Denmark?",
+      "a": "Some full-time programs are about one year, other formats can take longer."
     },
     {
-      "q": "Can international students work while studying in Denmark?",
-      "a": "Yes, non-EU international students with a valid Danish residence permit are legally permitted to work part-time (up to 20 hours per week) during semester periods and full-time during June, July, and August."
+      "q": "Q4. What is the cost of studying MBA in Denmark?",
+      "a": "Tuition varies greatly. The tuition fee for some of the chosen programs could be in the range of \u20b917-50 lakh, excluding the living expenses."
+    },
+    {
+      "q": "Q5. Do you offer scholarships?",
+      "a": "Some institutions offer scholarships or financial assistance to eligible candidates, but these vary in availability and eligibility. Please check the official program website before applying. Students interested in pursuing an **MBA in Denmark** can connect with **Edu-Hawk Worldwide** for guidance on choosing suitable programs, understanding admission requirements and planning their study-abroad journey."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

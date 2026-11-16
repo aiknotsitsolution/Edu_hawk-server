@@ -7,6 +7,12 @@ import heroBgImg from "../../../../Images/Abroad/Denmark/MBS/hero_bg.webp";
 import sideImg from "../../../../Images/Abroad/Denmark/MBS/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Denmark/MBS/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../Images/Abroad/Denmark/MBS/image1.png";
+import uniImg2 from "../../../../Images/Abroad/Denmark/MBS/image2.png";
+import uniImg3 from "../../../../Images/Abroad/Denmark/MBS/image3.png";
+import uniImg4 from "../../../../Images/Abroad/Denmark/MBS/image4.png";
+
 const page = {
   "name": "MBS",
   "country": "Denmark",
@@ -24,10 +30,8 @@ const page = {
     "* Business Administration & Management  \n* International Business  \n* Strategic Management  \n* Finance and Accounting  \n* Marketing Management  \n* Innovation & Entrepreneurship  \n* Business Analytics Human Resource Management",
     "These subjects offer different academic pathways for students interested in **MBS in Denmark** and related business qualifications.",
     "Students researching **business universities in Denmark** can consider:",
-    "Copenhagen Business School (CBS) Business administration, international business and MBA programs.",
-    "Aarhus University, Business administration, economics and management-related programs",
-    "University of Southern Denmark (SDU) has a wide range of study options related to business and management.",
-    "Aalborg University: Innovation in business and organization.",
+    "**Copenhagen Business School (CBS)** Business administration, international business and MBA programs.",
+    "**University of Southern Denmark (SDU)** has a wide range of study options related to business and management.",
     "Program availability and entry criteria vary. These are related options not verification that each school has a degree specifically called MBS.",
     "For postgraduate business programs students generally need:",
     "* A recognized bachelor\u2019s degree.  \n* Relevant academic studies depending on the program.  \n* English language proficiency if needed.  \n* Work experience, as required for MBA programs.",
@@ -60,42 +64,42 @@ const page = {
   "crumb": "MBS",
   "stats": [
     {
-      "val": "DKK 60K-120K",
+      "val": "DKK 60K-130K",
       "label": "Tuition / Year"
-    },
-    {
-      "val": "20 Hrs/Wk",
-      "label": "Part-Time Work"
-    },
-    {
-      "val": "3-4 Years",
-      "label": "Course Duration"
     },
     {
       "val": "English",
       "label": "Medium of Study"
+    },
+    {
+      "val": "2 Years",
+      "label": "Course Duration"
+    },
+    {
+      "val": "20 Hrs/Week",
+      "label": "Part-Time Work"
     }
   ],
   "highlights": [
     {
       "icon": "FaAward",
-      "title": "World-Class Nordic Education",
-      "desc": "Study in Denmark's globally ranked universities featuring innovative Problem-Based Learning (PBL) and state-of-the-art research."
+      "title": "World Top-100 Universities",
+      "desc": "Study in globally respected Danish institutions including University of Copenhagen, DTU, and Aarhus University."
     },
     {
       "icon": "FaGraduationCap",
-      "title": "English-Taught Degrees",
-      "desc": "Wide range of bachelor's and master's degrees delivered entirely in English with international accreditation."
+      "title": "Innovative PBL Learning",
+      "desc": "Problem-Based Learning model focusing on collaborative projects, real-world applications, and critical analysis."
     },
     {
       "icon": "FaFileAlt",
-      "title": "Generous Post-Study Work",
-      "desc": "Denmark offers post-study work permits for international graduates to start European careers in high-demand industries."
+      "title": "High Living Standard & Safety",
+      "desc": "Denmark consistently ranks among the happiest, safest, and most progressive countries in the world."
     },
     {
       "icon": "FaCheckCircle",
-      "title": "High Quality of Life",
-      "desc": "Consistently ranked among the world's happiest, safest, and most sustainable countries with vibrant student communities."
+      "title": "Post-Study Work Visa",
+      "desc": "Non-EU graduates are eligible for post-study residence permits to seek employment and build global careers."
     }
   ],
   "sections": [],
@@ -105,53 +109,53 @@ const page = {
       "location": "Copenhagen, Denmark",
       "fee": "DKK 65,000 \u2013 120,000 / Year",
       "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
       "name": "Technical University of Denmark (DTU)",
       "location": "Kongens Lyngby, Denmark",
       "fee": "DKK 75,000 \u2013 115,000 / Year",
       "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-      "img_var": "null"
+      "img": uniImg2
     },
     {
       "name": "Aarhus University (AU)",
       "location": "Aarhus, Denmark",
       "fee": "DKK 60,000 \u2013 110,000 / Year",
       "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-      "img_var": "null"
+      "img": uniImg3
     },
     {
       "name": "Aalborg University (AAU)",
       "location": "Aalborg, Denmark",
       "fee": "DKK 58,000 \u2013 105,000 / Year",
       "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-      "img_var": "null"
+      "img": uniImg4
     },
     {
-      "name": "Copenhagen Business School (CBS)",
-      "location": "Frederiksberg, Denmark",
-      "fee": "DKK 70,000 \u2013 130,000 / Year",
-      "desc": "Triple-crown accredited business institution recognized across Europe for excellence in management, economics, and finance.",
-      "img_var": "null"
+      "name": "University of Southern Denmark (SDU)",
+      "location": "Odense, Denmark",
+      "fee": "DKK 62,000 \u2013 115,000 / Year",
+      "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+      "img": uniImg1
     }
   ],
   "faqs": [
     {
       "q": "Can Indian students apply for MBS in Denmark?",
-      "a": "Yes, Indian students with qualifying credentials meeting English language proficiency (IELTS/TOEFL) and academic prerequisites can apply to recognized universities in Denmark."
+      "a": "Yes, Indian students meeting the academic eligibility prerequisites and English language proficiency requirements (IELTS/TOEFL) can apply to Danish higher education institutions."
     },
     {
       "q": "What is the medium of instruction for MBS in Denmark?",
-      "a": "Most master's and international bachelor's degree programmes are taught entirely in English for international students across Danish universities."
+      "a": "Programmes designed for international students across Danish universities are taught entirely in English."
     },
     {
       "q": "What are the typical tuition fees for MBS in Denmark?",
-      "a": "Tuition fees for international students generally range between DKK 60,000 and DKK 120,000 per year, depending on the institution and level of study."
+      "a": "Tuition fees for non-EU international students typically range from DKK 60,000 to DKK 120,000 per year, depending on the programme and university."
     },
     {
-      "q": "Can international students work while studying in Denmark?",
-      "a": "Yes, non-EU international students with a valid Danish residence permit are legally permitted to work part-time (up to 20 hours per week) during semester periods and full-time during June, July, and August."
+      "q": "Can international students work part-time in Denmark?",
+      "a": "Yes, non-EU international students holding a valid Danish residence permit are legally permitted to work up to 20 hours per week during term and full-time in June, July, and August."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

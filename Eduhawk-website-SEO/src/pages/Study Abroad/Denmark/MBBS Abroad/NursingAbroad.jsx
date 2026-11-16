@@ -7,6 +7,11 @@ import heroBgImg from "../../../../Images/Abroad/Denmark/Nursing/hero_bg.webp";
 import sideImg from "../../../../Images/Abroad/Denmark/Nursing/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Denmark/Nursing/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../Images/Abroad/Denmark/Nursing/image1.png";
+import uniImg2 from "../../../../Images/Abroad/Denmark/Nursing/image2.png";
+import uniImg3 from "../../../../Images/Abroad/Denmark/Nursing/image3.png";
+
 const page = {
   "name": "Nursing",
   "country": "Denmark",
@@ -19,48 +24,48 @@ const page = {
     "Comprehensive guide to studying Nursing in Denmark for Indian students."
   ],
   "overview": [
-    "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Denmark for Nursing in Denmark."
+    "Explore top accredited Danish universities, tuition costs, eligibility, and visa procedures for Nursing."
   ],
   "level": "B.Sc. & M.Sc. in Nursing",
   "crumb": "MBBS Abroad",
   "stats": [
     {
-      "val": "DKK 60K-120K",
+      "val": "DKK 60K-130K",
       "label": "Tuition / Year"
     },
     {
-      "val": "20 Hrs/Wk",
-      "label": "Part-Time Work"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
       "val": "3-4 Years",
       "label": "Course Duration"
     },
     {
-      "val": "English",
-      "label": "Medium of Study"
+      "val": "20 Hrs/Week",
+      "label": "Part-Time Work"
     }
   ],
   "highlights": [
     {
       "icon": "FaAward",
-      "title": "World-Class Nordic Education",
-      "desc": "Study in Denmark's globally ranked universities featuring innovative Problem-Based Learning (PBL) and state-of-the-art research."
+      "title": "World Top-100 Universities",
+      "desc": "Study in globally respected Danish institutions including University of Copenhagen, DTU, and Aarhus University."
     },
     {
       "icon": "FaGraduationCap",
-      "title": "English-Taught Degrees",
-      "desc": "Wide range of bachelor's and master's degrees delivered entirely in English with international accreditation."
+      "title": "Innovative PBL Learning",
+      "desc": "Problem-Based Learning model focusing on collaborative projects, real-world applications, and critical analysis."
     },
     {
       "icon": "FaFileAlt",
-      "title": "Generous Post-Study Work",
-      "desc": "Denmark offers post-study work permits for international graduates to start European careers in high-demand industries."
+      "title": "High Living Standard & Safety",
+      "desc": "Denmark consistently ranks among the happiest, safest, and most progressive countries in the world."
     },
     {
       "icon": "FaCheckCircle",
-      "title": "High Quality of Life",
-      "desc": "Consistently ranked among the world's happiest, safest, and most sustainable countries with vibrant student communities."
+      "title": "Post-Study Work Visa",
+      "desc": "Non-EU graduates are eligible for post-study residence permits to seek employment and build global careers."
     }
   ],
   "sections": [
@@ -68,11 +73,11 @@ const page = {
       "slot": "why",
       "eyebrow": "Why Denmark",
       "title": "Why Choose to Study Nursing in Denmark?",
+      "lead": "Essential details regarding nursing in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**1\\. Why Choose to Study Nursing in Denmark?**",
             "**Nursing in Denmark** can be an attractive option for students interested in a well-developed healthcare system, high levels of patient care and a strong focus on evidence-based medicine. In Denmark, nursing students gain theoretical knowledge and practical skills through classroom study and supervised clinical placements.",
             "The key benefits are:"
           ]
@@ -100,13 +105,12 @@ const page = {
       "slot": "courses",
       "eyebrow": "Degrees & Pathways",
       "title": "Nursing Programs in Denmark",
+      "lead": "Essential details regarding nursing in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**2\\. Nursing Programs in Denmark**",
             "Denmark provides undergraduate education in nursing and postgraduate education in nursing-related and wider healthcare subjects. The availability, duration, language and eligibility of **Nursing programs in Denmark** vary by institution.",
-            "**Bachelor of Science in Nursing**",
             "A bachelor's-level nursing program usually lasts about 3.5 years. It combines theoretical education with clinical placements under supervision.",
             "Common topics include:"
           ]
@@ -127,7 +131,6 @@ const page = {
         {
           "t": "p",
           "items": [
-            "**Master\u2019s Degree in Nursing and Related Health Services**",
             "The normal length of a full-time Master\u2019s is about two years, though there is some variation. Related fields of study include nursing science, public health, health sciences, clinical research, healthcare management and health promotion.",
             "Not all institutions offer a degree with the title Master\u2019s in Nursing. Some programs require an appropriate bachelor's degree, professional nursing qualifications or work experience.",
             "Students interested in **Nursing programs in Denmark** should compare course structures, academic requirements and teaching languages before selecting an institution. Understanding the available undergraduate and postgraduate options can help students plan their academic pathway."
@@ -139,59 +142,96 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Best Universities for Nursing in Denmark",
-      "lead": "Explore leading universities and institutions in Denmark offering accredited Nursing in Denmark programmes, world-class research facilities, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Denmark offering accredited Nursing programmes, modern campuses, and international student support.",
+      "unis": [
         {
           "name": "University of Copenhagen (UCPH)",
           "location": "Copenhagen, Denmark",
           "fee": "DKK 65,000 \u2013 120,000 / Year",
           "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
           "name": "Technical University of Denmark (DTU)",
           "location": "Kongens Lyngby, Denmark",
           "fee": "DKK 75,000 \u2013 115,000 / Year",
           "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-          "img_var": "null"
+          "img": uniImg2
         },
         {
           "name": "Aarhus University (AU)",
           "location": "Aarhus, Denmark",
           "fee": "DKK 60,000 \u2013 110,000 / Year",
           "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-          "img_var": "null"
+          "img": uniImg3
         },
         {
           "name": "Aalborg University (AAU)",
           "location": "Aalborg, Denmark",
           "fee": "DKK 58,000 \u2013 105,000 / Year",
           "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
-          "name": "Copenhagen Business School (CBS)",
-          "location": "Frederiksberg, Denmark",
-          "fee": "DKK 70,000 \u2013 130,000 / Year",
-          "desc": "Triple-crown accredited business institution recognized across Europe for excellence in management, economics, and finance.",
-          "img_var": "null"
+          "name": "University of Southern Denmark (SDU)",
+          "location": "Odense, Denmark",
+          "fee": "DKK 62,000 \u2013 115,000 / Year",
+          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+          "img": uniImg2
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "University of Copenhagen (UCPH)",
+          "location": "Copenhagen, Denmark",
+          "fee": "DKK 65,000 \u2013 120,000 / Year",
+          "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
+          "img": uniImg1
+        },
+        {
+          "name": "Technical University of Denmark (DTU)",
+          "location": "Kongens Lyngby, Denmark",
+          "fee": "DKK 75,000 \u2013 115,000 / Year",
+          "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
+          "img": uniImg2
+        },
+        {
+          "name": "Aarhus University (AU)",
+          "location": "Aarhus, Denmark",
+          "fee": "DKK 60,000 \u2013 110,000 / Year",
+          "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
+          "img": uniImg3
+        },
+        {
+          "name": "Aalborg University (AAU)",
+          "location": "Aalborg, Denmark",
+          "fee": "DKK 58,000 \u2013 105,000 / Year",
+          "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
+          "img": uniImg1
+        },
+        {
+          "name": "University of Southern Denmark (SDU)",
+          "location": "Odense, Denmark",
+          "fee": "DKK 62,000 \u2013 115,000 / Year",
+          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+          "img": uniImg2
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
+        "Tuition fees are indicative and subject to annual review by Danish higher education institutions.",
+        "EU/EEA students may study tuition-free; international fees apply to non-EU/EEA citizens."
       ]
     },
     {
       "slot": "eligibility",
       "eyebrow": "Eligibility Criteria",
       "title": "Who Can Study Nursing in Denmark?",
+      "lead": "Essential details regarding nursing in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**4\\. Who Can Study Nursing in Denmark?**",
-            "The **Nursing eligibility in Denmark** criteria vary by course level and institution. Applicants should check the academic qualifications, language requirements and additional conditions for their chosen program.",
-            "**Bachelor's Eligibility**"
+            "The **Nursing eligibility in Denmark** criteria vary by course level and institution. Applicants should check the academic qualifications, language requirements and additional conditions for their chosen program."
           ]
         },
         {
@@ -207,8 +247,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Indian students should check that their Class 12 qualifications meet the entry requirements of the institution. Students considering **Nursing in Denmark for Indian students** should also verify whether additional subject documentation or qualification assessment is required.",
-            "**Master's Eligibility**"
+            "Indian students should check that their Class 12 qualifications meet the entry requirements of the institution. Students considering **Nursing in Denmark for Indian students** should also verify whether additional subject documentation or qualification assessment is required."
           ]
         },
         {
@@ -233,11 +272,11 @@ const page = {
       "slot": "requirements",
       "eyebrow": "Admission Requirements",
       "title": "Nursing Admission in Denmark",
+      "lead": "Essential details regarding nursing in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**5\\. Nursing Admission in Denmark**",
             "Applicants are required to meet the academic and language requirements of the chosen institution. The **Nursing admission in Denmark** process depends on the course level, applicant qualifications and selection criteria of the institution.",
             "**Academic qualifications:** Universities and university colleges will take into account your previous education, grades, the relevance of your subjects and the equivalence of your qualification.",
             "**Language requirements:** Generally, Danish is required for professional nursing programs with clinical placements. Some postgraduate healthcare programs may be taught in English, but applicants should check the language requirements for their specific course.",
@@ -253,15 +292,13 @@ const page = {
       "slot": "fees",
       "eyebrow": "Tuition & Living Costs",
       "title": "Nursing Course Fees in Denmark",
+      "lead": "Essential details regarding nursing in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**6\\. Nursing Course Fees in Denmark**",
             "The **Nursing course fees in Denmark** and overall education expenses are comprised of tuition fees, accommodation, food, transport, study materials and personal expenses.",
-            "**Tuition and Cost**",
-            "Tuition fees vary depending on your citizenship and program type. EU/EEA students generally have different tuition rules from non-EU/EEA students. Indian applicants should check whether tuition fees are applicable and obtain the latest fee structure directly from the institution.",
-            "**Estimated Cost of Living (INR)**"
+            "Tuition fees vary depending on your citizenship and program type. EU/EEA students generally have different tuition rules from non-EU/EEA students. Indian applicants should check whether tuition fees are applicable and obtain the latest fee structure directly from the institution."
           ]
         },
         {
@@ -315,11 +352,11 @@ const page = {
       "slot": "timeline",
       "eyebrow": "Admission Procedure",
       "title": "Nursing Admission Denmark",
+      "lead": "Essential details regarding nursing in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**7\\. Nursing Admission Denmark**",
             "Here is a general outline of the admission process for students interested in **Nursing in Denmark**:"
           ]
         },
@@ -349,11 +386,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Further Studies & Scope",
       "title": "Nursing License in Denmark",
+      "lead": "Essential details regarding nursing in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**8\\. Nursing License in Denmark**",
             "It is not possible to work automatically as a nurse in Denmark after having completed a nursing education. Depending on the applicant\u2019s education and situation, the requirements for professional licensing and recognition of qualifications are different.",
             "Internationally trained nurses may have to pass qualification assessment and meet other requirements, such as Danish language proficiency and other professional requirements.",
             "Indian students wishing to work in Denmark after graduation should:"
@@ -381,13 +418,12 @@ const page = {
       "slot": "careers",
       "eyebrow": "Career Opportunities",
       "title": "Denmark Nursing Salary and Job Opportunities",
+      "lead": "Essential details regarding nursing in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**9\\. Denmark Nursing Salary and Job Opportunities**",
-            "Nursing graduates may be employed in hospitals, community healthcare, elderly care, rehabilitation, mental healthcare and other healthcare services. Depending on qualifications and experience, related opportunities may also be available in public health, healthcare research and administration.",
-            "**Possible Career Roles**"
+            "Nursing graduates may be employed in hospitals, community healthcare, elderly care, rehabilitation, mental healthcare and other healthcare services. Depending on qualifications and experience, related opportunities may also be available in public health, healthcare research and administration."
           ]
         },
         {
@@ -406,7 +442,6 @@ const page = {
         {
           "t": "p",
           "items": [
-            "**Expected Salary**",
             "Nursing salaries differ depending on experience, employer, location, specialization, working hours and applicable employment agreements. Students should consult recent salary information in Denmark for the job they are planning to work in, instead of relying on a single salary figure.",
             "International graduates should also consider professional authorization, Danish language skills and work eligibility. A degree does not guarantee a job or a certain salary. Students interested in **Nursing in Denmark** should understand the professional requirements and employment conditions before making career decisions."
           ]
@@ -417,11 +452,11 @@ const page = {
       "slot": "documents",
       "eyebrow": "Required Documentation",
       "title": "Documents Needed to Study Nursing in Denmark",
+      "lead": "Essential details regarding nursing in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**10\\. Documents Needed to Study Nursing in Denmark**",
             "The specific document checklist will vary according to the program and institution. The documents most often requested are:"
           ]
         },
@@ -455,53 +490,57 @@ const page = {
       "location": "Copenhagen, Denmark",
       "fee": "DKK 65,000 \u2013 120,000 / Year",
       "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
       "name": "Technical University of Denmark (DTU)",
       "location": "Kongens Lyngby, Denmark",
       "fee": "DKK 75,000 \u2013 115,000 / Year",
       "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-      "img_var": "null"
+      "img": uniImg2
     },
     {
       "name": "Aarhus University (AU)",
       "location": "Aarhus, Denmark",
       "fee": "DKK 60,000 \u2013 110,000 / Year",
       "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-      "img_var": "null"
+      "img": uniImg3
     },
     {
       "name": "Aalborg University (AAU)",
       "location": "Aalborg, Denmark",
       "fee": "DKK 58,000 \u2013 105,000 / Year",
       "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
-      "name": "Copenhagen Business School (CBS)",
-      "location": "Frederiksberg, Denmark",
-      "fee": "DKK 70,000 \u2013 130,000 / Year",
-      "desc": "Triple-crown accredited business institution recognized across Europe for excellence in management, economics, and finance.",
-      "img_var": "null"
+      "name": "University of Southern Denmark (SDU)",
+      "location": "Odense, Denmark",
+      "fee": "DKK 62,000 \u2013 115,000 / Year",
+      "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+      "img": uniImg2
     }
   ],
   "faqs": [
     {
-      "q": "Can Indian students apply for Nursing in Denmark?",
-      "a": "Yes, Indian students with qualifying credentials meeting English language proficiency (IELTS/TOEFL) and academic prerequisites can apply to recognized universities in Denmark."
+      "q": "Q1. What is the duration of nursing study in Denmark?",
+      "a": "A professional bachelor\u2019s program in nursing typically lasts approximately 3.5 years. Master's courses in related healthcare fields usually take about two years, depending on the course."
     },
     {
-      "q": "What is the medium of instruction for Nursing in Denmark?",
-      "a": "Most master's and international bachelor's degree programmes are taught entirely in English for international students across Danish universities."
+      "q": "Q2. Is Nursing in Denmark possible for Indian students?",
+      "a": "Yes. Indian students can apply if they meet the institution\u2019s academic, language and other admission requirements. They will have to be assessed according to the rules of the institution."
     },
     {
-      "q": "What are the typical tuition fees for Nursing in Denmark?",
-      "a": "Tuition fees for international students generally range between DKK 60,000 and DKK 120,000 per year, depending on the institution and level of study."
+      "q": "Q3. Is the nursing program in Denmark offered in English?",
+      "a": "Many professional nursing programs are taught in Danish due to clinical placements involving interaction with patients. Some postgraduate healthcare programs may be taught in English. Students should check the language of instruction for individual courses."
     },
     {
-      "q": "Can international students work while studying in Denmark?",
-      "a": "Yes, non-EU international students with a valid Danish residence permit are legally permitted to work part-time (up to 20 hours per week) during semester periods and full-time during June, July, and August."
+      "q": "Q4. How much does it cost to study nursing in Denmark in Indian Rupees?",
+      "a": "The estimated living expenses are \u20b98.9 lakh to \u20b916.8 lakh annually. Tuition fees depend on the program and student citizenship. Students should contact their institution for the latest fee information."
+    },
+    {
+      "q": "Q5. Are Indian nursing graduates eligible to work in Denmark?",
+      "a": "Indian nursing graduates may be eligible subject to meeting relevant qualification recognition, professional authorization, language, immigration and employment requirements. Graduates are advised to check the present rules before they commence practice. Choosing **Nursing in Denmark** requires careful planning around university selection, program availability, academic eligibility, language proficiency, tuition fees and professional licensing. Students should compare institutional requirements and verify the latest information before applying. Edu-Hawk Worldwide helps students explore international education opportunities through study-abroad guidance, university selection and application planning. Students interested in pursuing nursing abroad can seek information about their available study options and prepare for their next academic journey with Edu-Hawk Worldwide."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

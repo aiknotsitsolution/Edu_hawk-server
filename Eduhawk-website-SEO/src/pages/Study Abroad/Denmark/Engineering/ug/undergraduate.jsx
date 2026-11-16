@@ -7,6 +7,11 @@ import heroBgImg from "../../../../../Images/Abroad/Denmark/Engineering_UG/hero_
 import sideImg from "../../../../../Images/Abroad/Denmark/Engineering_UG/side.webp";
 import ctaBgImg from "../../../../../Images/Abroad/Denmark/Engineering_UG/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../../Images/Abroad/Denmark/Engineering_UG/image1.png";
+import uniImg2 from "../../../../../Images/Abroad/Denmark/Engineering_UG/image2.png";
+import uniImg3 from "../../../../../Images/Abroad/Denmark/Engineering_UG/image3.png";
+
 const page = {
   "name": "Undergraduate Engineering",
   "country": "Denmark",
@@ -19,48 +24,48 @@ const page = {
     "Comprehensive guide to studying Undergraduate Engineering in Denmark for Indian students."
   ],
   "overview": [
-    "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Denmark for Undergraduate Engineering in Denmark."
+    "Explore top accredited Danish universities, tuition costs, eligibility, and visa procedures for Undergraduate Engineering."
   ],
   "level": "B.Eng / B.Sc. in Engineering",
   "crumb": "Engineering / UG Engineering",
   "stats": [
     {
-      "val": "DKK 60K-120K",
+      "val": "DKK 60K-130K",
       "label": "Tuition / Year"
     },
     {
-      "val": "20 Hrs/Wk",
-      "label": "Part-Time Work"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
       "val": "3-4 Years",
       "label": "Course Duration"
     },
     {
-      "val": "English",
-      "label": "Medium of Study"
+      "val": "20 Hrs/Week",
+      "label": "Part-Time Work"
     }
   ],
   "highlights": [
     {
       "icon": "FaAward",
-      "title": "World-Class Nordic Education",
-      "desc": "Study in Denmark's globally ranked universities featuring innovative Problem-Based Learning (PBL) and state-of-the-art research."
+      "title": "World Top-100 Universities",
+      "desc": "Study in globally respected Danish institutions including University of Copenhagen, DTU, and Aarhus University."
     },
     {
       "icon": "FaGraduationCap",
-      "title": "English-Taught Degrees",
-      "desc": "Wide range of bachelor's and master's degrees delivered entirely in English with international accreditation."
+      "title": "Innovative PBL Learning",
+      "desc": "Problem-Based Learning model focusing on collaborative projects, real-world applications, and critical analysis."
     },
     {
       "icon": "FaFileAlt",
-      "title": "Generous Post-Study Work",
-      "desc": "Denmark offers post-study work permits for international graduates to start European careers in high-demand industries."
+      "title": "High Living Standard & Safety",
+      "desc": "Denmark consistently ranks among the happiest, safest, and most progressive countries in the world."
     },
     {
       "icon": "FaCheckCircle",
-      "title": "High Quality of Life",
-      "desc": "Consistently ranked among the world's happiest, safest, and most sustainable countries with vibrant student communities."
+      "title": "Post-Study Work Visa",
+      "desc": "Non-EU graduates are eligible for post-study residence permits to seek employment and build global careers."
     }
   ],
   "sections": [
@@ -68,11 +73,11 @@ const page = {
       "slot": "why",
       "eyebrow": "Why Denmark",
       "title": "Why Study a Bachelor's Degree in Denmark?",
+      "lead": "Essential details regarding undergraduate engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**1\\. Why Study a Bachelor's Degree in Denmark?**",
             "Denmark is a popular country among international students. It offers a modern education system, practical learning methods and international academic environment. Danish universities and university colleges emphasize critical thinking, independent study, teamwork and real-world relevance. International students, who study a Bachelor's degree in Denmark, get the chance to experience a different academic environment and acquire skills for their future careers.",
             "Students can choose from undergraduate programmes in engineering, computer science, business, healthcare, design and other subjects. Many programmes include project work, research activities and the opportunity to work with industry. The availability of English-taught bachelor's degrees, however, depends on the subject and the institution.",
             "**Main advantages of studying in Denmark:**"
@@ -102,17 +107,14 @@ const page = {
       "slot": "courses",
       "eyebrow": "Degrees & Pathways",
       "title": "Bachelor Courses Offered in Denmark",
+      "lead": "Essential details regarding undergraduate engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**2\\. Bachelor Courses Offered in Denmark**",
             "Denmark offers a diverse selection of undergraduate qualifications to suit students\u2019 academic interests and career aspirations. International students wishing to pursue a Bachelor course in Denmark can choose either academic or professional degree pathways, based on their qualifications and career goals.",
-            "**Bachelor's Degree from a University**",
             "Typically, a university bachelor's degree lasts three years and has an academic, research and subject-based focus. It can prepare students for the job market or for further education at master's level.",
-            "**Bachelor's Degree (Professional)**",
-            "A professional bachelor's degree normally lasts between three and four and a half years, depending on the course of study. It includes theory and practice and may include work-based placements.",
-            "**Popular Undergraduate Majors**"
+            "A professional bachelor's degree normally lasts between three and four and a half years, depending on the course of study. It includes theory and practice and may include work-based placements."
           ]
         },
         {
@@ -139,57 +141,67 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Best Universities in Denmark for Bachelors",
-      "lead": "Explore leading universities and institutions in Denmark offering accredited Undergraduate Engineering in Denmark programmes, world-class research facilities, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Denmark offering accredited Undergraduate Engineering programmes, modern campuses, and international student support.",
+      "unis": [
         {
           "name": "University of Copenhagen",
-          "location": "Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
+          "location": "University of Copenhagen, Denmark",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
           "desc": "Offers bachelor's programmes in the fields of sciences, humanities, social sciences and other academic disciplines. Many programmes require Danish language skills.",
-          "img_var": "null"
-        },
-        {
-          "name": "Aarhus University",
-          "location": "Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
-          "desc": "Offers bachelor's programmes in science, business, arts and other fields. Check language and international entry requirements.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
           "name": "University of Southern Denmark (SDU)",
-          "location": "Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
+          "location": "University of Southern Denmark (SDU)",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
           "desc": "The University of Southern Denmark has bachelor's programmes, including some English-taught ones, such as Artificial Intelligence.",
-          "img_var": "null"
+          "img": uniImg2
         },
         {
           "name": "IT University of Copenhagen",
-          "location": "Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
-          "desc": "Undergraduate degrees are offered in software development, data science, digital design and other related IT areas.",
-          "img_var": "null"
+          "location": "IT University of Copenhagen, Denmark",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
+          "desc": "Undergraduate degrees are offered in software development, data science, digital design and other related IT areas. Students need to shortlist the institutions on the basis of their subject of study, language of instruction, entry requirements and tuition budget. When comparing the **Best universities in Denmark for bachelor's**, international applicants should also check whether their preferred programme is available in English and accepts international students.",
+          "img": uniImg3
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "University of Copenhagen",
+          "location": "University of Copenhagen, Denmark",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
+          "desc": "Offers bachelor's programmes in the fields of sciences, humanities, social sciences and other academic disciplines. Many programmes require Danish language skills.",
+          "img": uniImg1
         },
         {
-          "name": "Aalborg University",
-          "location": "Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
-          "desc": "Well known for problem-based learning and project-oriented education in selected academic and technical disciplines. Students need to shortlist the institutions on the basis of their subject of study, language of instruction, entry requirements and tuition budget. When comparing the Best universities in Denmark for bachelor's, international applicants should also check whether their preferred programme is available in English and accepts international students.",
-          "img_var": "null"
+          "name": "University of Southern Denmark (SDU)",
+          "location": "University of Southern Denmark (SDU)",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
+          "desc": "The University of Southern Denmark has bachelor's programmes, including some English-taught ones, such as Artificial Intelligence.",
+          "img": uniImg2
+        },
+        {
+          "name": "IT University of Copenhagen",
+          "location": "IT University of Copenhagen, Denmark",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
+          "desc": "Undergraduate degrees are offered in software development, data science, digital design and other related IT areas. Students need to shortlist the institutions on the basis of their subject of study, language of instruction, entry requirements and tuition budget. When comparing the **Best universities in Denmark for bachelor's**, international applicants should also check whether their preferred programme is available in English and accepts international students.",
+          "img": uniImg3
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
+        "Tuition fees are indicative and subject to annual review by Danish higher education institutions.",
+        "EU/EEA students may study tuition-free; international fees apply to non-EU/EEA citizens."
       ]
     },
     {
       "slot": "eligibility",
       "eyebrow": "Eligibility Criteria",
       "title": "Can You Study for a Bachelor's in Denmark?",
+      "lead": "Essential details regarding undergraduate engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**4\\. Can You Study for a Bachelor's in Denmark?**",
             "International applicants must meet the general admission requirements, the programme-specific requirements and the language requirements as stipulated by the institution. Understanding **Bachelor eligibility in Denmark** is important before beginning the application process."
           ]
         },
@@ -216,11 +228,11 @@ const page = {
       "slot": "requirements",
       "eyebrow": "Admission Requirements",
       "title": "Admission Criteria for a Bachelor's in Denmark",
+      "lead": "Essential details regarding undergraduate engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**5\\. Admission Criteria for a Bachelor's in Denmark**",
             "Each institution and course has different requirements and documents. The **Bachelor admission requirements in Denmark** should be checked carefully before submitting an application.",
             "Often students are asked to prepare:"
           ]
@@ -252,13 +264,12 @@ const page = {
       "slot": "fees",
       "eyebrow": "Tuition & Living Costs",
       "title": "How Much Does a Bachelor's Study Cost in Denmark?",
+      "lead": "Essential details regarding undergraduate engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**6\\. How Much Does a Bachelor's Study Cost in Denmark?**",
-            "The cost depends on the university, the course, the city and your accommodation. The majority of applicants from India are from outside the EU/EEA and normally pay tuition fees unless they receive an exemption.",
-            "**Estimated Yearly Tuition Fees and Living Costs**"
+            "The cost depends on the university, the course, the city and your accommodation. The majority of applicants from India are from outside the EU/EEA and normally pay tuition fees unless they receive an exemption."
           ]
         },
         {
@@ -295,7 +306,6 @@ const page = {
           "items": [
             "The price ranges shown are for indicative budget purposes only. Some programmes are more costly. For example, IT University of Copenhagen has an annual tuition fee of \u20ac16,500 for non-EU/EEA students admitted in 2026\\.",
             "Students should also plan for the costs of visa and residence permit fees, travel, insurance (where applicable) and initial accommodation deposits.",
-            "**Scholarships and Grants**",
             "Some institutions have scholarships or tuition waivers for qualifying international students. Availability varies by university and programme. Not every university offers undergraduate scholarships. Students should verify the conditions with their chosen institution.",
             "The overall **Cost of studying for a Bachelor's in Denmark** depends on tuition fees, accommodation, daily expenses and the city where students choose to live. Students should prepare a complete budget before accepting an admission offer.",
             "For Indian applicants, it is important to consider currency fluctuations and additional initial expenses. **Edu-Hawk Worldwide** can guide students in understanding the financial planning involved in pursuing a bachelor's degree abroad."
@@ -307,11 +317,11 @@ const page = {
       "slot": "timeline",
       "eyebrow": "Admission Procedure",
       "title": "Procedure to Take Bachelor Admission in Denmark",
+      "lead": "Essential details regarding undergraduate engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**7\\. Procedure to Take Bachelor Admission in Denmark**",
             "The admission process usually includes the following steps:"
           ]
         },
@@ -343,11 +353,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Further Studies & Scope",
       "title": "Denmark Student Visa & Residence Permit",
+      "lead": "Essential details regarding undergraduate engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**8\\. Denmark Student Visa & Residence Permit**",
             "Typically, students from India who wish to take a full-time degree in Denmark will need the relevant residence permit for study.",
             "You might have to provide:"
           ]
@@ -376,11 +386,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Career Opportunities",
       "title": "Job Prospects After a Bachelor's Degree in Denmark",
+      "lead": "Essential details regarding undergraduate engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**9\\. Job Prospects After a Bachelor's Degree in Denmark**",
             "Depending on the subject and qualifications, a bachelor's degree can lead graduates to employment or further education. Students completing a **Bachelor's degree in Denmark** can explore different career paths based on their academic specialisation and professional skills."
           ]
         },
@@ -431,13 +441,12 @@ const page = {
       "slot": "documents",
       "eyebrow": "Required Documentation",
       "title": "Documents You Need to Study a Bachelor's in Denmark",
+      "lead": "Essential details regarding undergraduate engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**10\\. Documents You Need to Study a Bachelor's in Denmark**",
-            "Students should prepare the following documents according to their university's checklist.",
-            "**Academic Documents**"
+            "Students should prepare the following documents according to their university's checklist."
           ]
         },
         {
@@ -449,24 +458,12 @@ const page = {
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "**Application Papers**"
-          ]
-        },
-        {
           "t": "ul",
           "items": [
             "Valid passport.",
             "Completed application form.",
             "Language test scores, where required.",
             "Letter of motivation or other supporting documents upon request."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "**Financial and Immigration Records**"
           ]
         },
         {
@@ -491,60 +488,42 @@ const page = {
   "universities": [
     {
       "name": "University of Copenhagen",
-      "location": "Denmark",
-      "fee": "DKK 65,000 \u2013 120,000 / Year",
+      "location": "University of Copenhagen, Denmark",
+      "fee": "DKK 60,000 \u2013 120,000 / Year",
       "desc": "Offers bachelor's programmes in the fields of sciences, humanities, social sciences and other academic disciplines. Many programmes require Danish language skills.",
-      "img_var": "null"
-    },
-    {
-      "name": "Aarhus University",
-      "location": "Denmark",
-      "fee": "DKK 65,000 \u2013 120,000 / Year",
-      "desc": "Offers bachelor's programmes in science, business, arts and other fields. Check language and international entry requirements.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
       "name": "University of Southern Denmark (SDU)",
-      "location": "Denmark",
-      "fee": "DKK 65,000 \u2013 120,000 / Year",
+      "location": "University of Southern Denmark (SDU)",
+      "fee": "DKK 60,000 \u2013 120,000 / Year",
       "desc": "The University of Southern Denmark has bachelor's programmes, including some English-taught ones, such as Artificial Intelligence.",
-      "img_var": "null"
+      "img": uniImg2
     },
     {
       "name": "IT University of Copenhagen",
-      "location": "Denmark",
-      "fee": "DKK 65,000 \u2013 120,000 / Year",
-      "desc": "Undergraduate degrees are offered in software development, data science, digital design and other related IT areas.",
-      "img_var": "null"
-    },
-    {
-      "name": "Aalborg University",
-      "location": "Denmark",
-      "fee": "DKK 65,000 \u2013 120,000 / Year",
-      "desc": "Well known for problem-based learning and project-oriented education in selected academic and technical disciplines. Students need to shortlist the institutions on the basis of their subject of study, language of instruction, entry requirements and tuition budget. When comparing the Best universities in Denmark for bachelor's, international applicants should also check whether their preferred programme is available in English and accepts international students.",
-      "img_var": "null"
+      "location": "IT University of Copenhagen, Denmark",
+      "fee": "DKK 60,000 \u2013 120,000 / Year",
+      "desc": "Undergraduate degrees are offered in software development, data science, digital design and other related IT areas. Students need to shortlist the institutions on the basis of their subject of study, language of instruction, entry requirements and tuition budget. When comparing the **Best universities in Denmark for bachelor's**, international applicants should also check whether their preferred programme is available in English and accepts international students.",
+      "img": uniImg3
     }
   ],
   "faqs": [
     {
-      "q": "How many years is a bachelor's degree in Denmark?",
-      "a": "A university bachelor's degree typically lasts three years, but a professional bachelor's degree can vary between three and four-and-a-half years, depending on the course."
+      "q": "Can Indian students apply for Undergraduate Engineering in Denmark?",
+      "a": "Yes, Indian students meeting the academic eligibility prerequisites and English language proficiency requirements (IELTS/TOEFL) can apply to Danish higher education institutions."
     },
     {
-      "q": "Can Indian students study a bachelor's degree in Denmark in English?",
-      "a": "Yes, some programmes are taught in English. However, English-taught options vary by subject and institution, so students should check availability for their intended intake. Bachelor in Denmark for Indian students requires checking the language of instruction before choosing a programme."
+      "q": "What is the medium of instruction for Undergraduate Engineering in Denmark?",
+      "a": "Programmes designed for international students across Danish universities are taught entirely in English."
     },
     {
-      "q": "What is the tuition fee for a bachelor's degree in Denmark?",
-      "a": "Tuition fees vary depending on the institution and course. For most non-EU/EEA students, a budget of around \u20b95 lakh\u2013\u20b915 lakh or more per year, depending on the programme, should be considered. Always check the current fee on the official university website."
+      "q": "What are the typical tuition fees for Undergraduate Engineering in Denmark?",
+      "a": "Tuition fees for non-EU international students typically range from DKK 60,000 to DKK 120,000 per year, depending on the programme and university."
     },
     {
-      "q": "Is it possible for students to work while studying in Denmark?",
-      "a": "Work rights depend on the student's nationality and residence permit conditions. International students should check the official Danish immigration website for the current rules before taking up employment."
-    },
-    {
-      "q": "Can students remain in Denmark after graduation?",
-      "a": "Depending on the qualification, residence permit conditions and immigration rules in force at the time of graduation, post-study options may vary. Students should verify their eligibility requirements with the Danish authorities. Final Thoughts Pursuing a bachelor's degree in Denmark can provide international students with opportunities to develop academic knowledge, practical skills and international exposure. From engineering and computer science to business, design and life sciences, students can explore different undergraduate study options. For a Bachelor in Denmark for Indian students, choosing the right university, understanding eligibility, preparing documents and planning finances are important steps. Edu-Hawk Worldwide provides study abroad guidance to help students explore suitable universities and understand the international admission process."
+      "q": "Can international students work part-time in Denmark?",
+      "a": "Yes, non-EU international students holding a valid Danish residence permit are legally permitted to work up to 20 hours per week during term and full-time in June, July, and August."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

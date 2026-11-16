@@ -7,60 +7,65 @@ import heroBgImg from "../../../../../../Images/Abroad/Denmark/Engineering_UG/Au
 import sideImg from "../../../../../../Images/Abroad/Denmark/Engineering_UG/Automobile/side.webp";
 import ctaBgImg from "../../../../../../Images/Abroad/Denmark/Engineering_UG/Automobile/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../../../Images/Abroad/Denmark/Engineering_UG/Automobile/image1.png";
+import uniImg2 from "../../../../../../Images/Abroad/Denmark/Engineering_UG/Automobile/image2.png";
+import uniImg3 from "../../../../../../Images/Abroad/Denmark/Engineering_UG/Automobile/image3.png";
+
 const page = {
-  "name": "Automobile Engineering (UG)",
+  "name": "Automobile Engineering",
   "country": "Denmark",
   "slug": "ug/automobile-engineering",
-  "title": "Automobile Engineering (UG) in Denmark for Indian Students | Edu-Hawk Worldwide",
-  "description": "Study Automobile Engineering (UG) in Denmark: Top universities, course duration, tuition fees in DKK & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study Automobile Engineering (UG) in Denmark, Automobile Engineering (UG) in Denmark for Indian Students, Best Universities in Denmark, Denmark Automobile Engineering (UG) Admission, Cost of Studying in Denmark, Edu-Hawk Worldwide",
-  "introTitle": "Automobile Engineering (UG) in Denmark for Indian Students",
+  "title": "Automobile Engineering in Denmark for Indian Students | Edu-Hawk Worldwide",
+  "description": "Study Automobile Engineering in Denmark: Top universities, course duration, tuition fees in DKK & INR, eligibility criteria, admission process & visa requirements for Indian students.",
+  "keywords": "Study Automobile Engineering in Denmark, Automobile Engineering in Denmark for Indian Students, Best Universities in Denmark, Denmark Automobile Engineering Admission, Cost of Studying in Denmark, Edu-Hawk Worldwide",
+  "introTitle": "Automobile Engineering in Denmark for Indian Students",
   "heroParas": [
-    "Comprehensive guide to studying Automobile Engineering (UG) in Denmark for Indian students."
+    "Comprehensive guide to studying Automobile Engineering in Denmark for Indian students."
   ],
   "overview": [
-    "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Denmark for Automobile Engineering (UG) in Denmark."
+    "Explore top accredited Danish universities, tuition costs, eligibility, and visa procedures for Automobile Engineering."
   ],
   "level": "B.Eng / B.Sc. Automobile Engineering",
   "crumb": "Engineering / UG Engineering",
   "stats": [
     {
-      "val": "DKK 60K-120K",
+      "val": "DKK 60K-130K",
       "label": "Tuition / Year"
     },
     {
-      "val": "20 Hrs/Wk",
-      "label": "Part-Time Work"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
       "val": "3-4 Years",
       "label": "Course Duration"
     },
     {
-      "val": "English",
-      "label": "Medium of Study"
+      "val": "20 Hrs/Week",
+      "label": "Part-Time Work"
     }
   ],
   "highlights": [
     {
       "icon": "FaAward",
-      "title": "World-Class Nordic Education",
-      "desc": "Study in Denmark's globally ranked universities featuring innovative Problem-Based Learning (PBL) and state-of-the-art research."
+      "title": "World Top-100 Universities",
+      "desc": "Study in globally respected Danish institutions including University of Copenhagen, DTU, and Aarhus University."
     },
     {
       "icon": "FaGraduationCap",
-      "title": "English-Taught Degrees",
-      "desc": "Wide range of bachelor's and master's degrees delivered entirely in English with international accreditation."
+      "title": "Innovative PBL Learning",
+      "desc": "Problem-Based Learning model focusing on collaborative projects, real-world applications, and critical analysis."
     },
     {
       "icon": "FaFileAlt",
-      "title": "Generous Post-Study Work",
-      "desc": "Denmark offers post-study work permits for international graduates to start European careers in high-demand industries."
+      "title": "High Living Standard & Safety",
+      "desc": "Denmark consistently ranks among the happiest, safest, and most progressive countries in the world."
     },
     {
       "icon": "FaCheckCircle",
-      "title": "High Quality of Life",
-      "desc": "Consistently ranked among the world's happiest, safest, and most sustainable countries with vibrant student communities."
+      "title": "Post-Study Work Visa",
+      "desc": "Non-EU graduates are eligible for post-study residence permits to seek employment and build global careers."
     }
   ],
   "sections": [
@@ -68,11 +73,11 @@ const page = {
       "slot": "why",
       "eyebrow": "Why Denmark",
       "title": "Why Study Automobile Engineering in Denmark?",
+      "lead": "Essential details regarding automobile engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**1\\. Why Study Automobile Engineering in Denmark?**",
             "Denmark is a great place for students who want to study automotive technology, electric cars, vehicle design and sustainable transport. The country is strongly focused on green mobility, energy efficiency and innovative engineering, which makes it relevant for students exploring the future of the automobile industry. Studying **Automobile Engineering in Denmark** can help students understand modern vehicle technologies and developments in sustainable transportation.",
             "A bachelor's degree in automobile engineering helps students to learn about the design of vehicles, engine systems, automotive electronics, manufacturing and performance of vehicles. Depending on the program, students may also study electric mobility, hybrid vehicles, autonomous driving technology and vehicle safety systems.",
             "For students considering **Automobile Engineering in Denmark for Indian students**, related engineering courses can provide a foundation for entering the automotive and mobility sectors. **Edu-Hawk Worldwide** can help students explore suitable study options and understand the international admission process."
@@ -84,11 +89,11 @@ const page = {
       "slot": "courses",
       "eyebrow": "Degrees & Pathways",
       "title": "Car Engineering Courses in Denmark",
+      "lead": "Essential details regarding automobile engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**2\\. Car Engineering Courses in Denmark**",
             "Students can explore automobile engineering and related bachelor\u2019s degree courses, for example:"
           ]
         },
@@ -116,57 +121,95 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Best Automobile Engineering Universities in Denmark",
-      "lead": "Explore leading universities and institutions in Denmark offering accredited Automobile Engineering (UG) in Denmark programmes, world-class research facilities, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Denmark offering accredited Automobile Engineering programmes, modern campuses, and international student support.",
+      "unis": [
         {
           "name": "University of Copenhagen (UCPH)",
           "location": "Copenhagen, Denmark",
           "fee": "DKK 65,000 \u2013 120,000 / Year",
           "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
           "name": "Technical University of Denmark (DTU)",
           "location": "Kongens Lyngby, Denmark",
           "fee": "DKK 75,000 \u2013 115,000 / Year",
           "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-          "img_var": "null"
+          "img": uniImg2
         },
         {
           "name": "Aarhus University (AU)",
           "location": "Aarhus, Denmark",
           "fee": "DKK 60,000 \u2013 110,000 / Year",
           "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-          "img_var": "null"
+          "img": uniImg3
         },
         {
           "name": "Aalborg University (AAU)",
           "location": "Aalborg, Denmark",
           "fee": "DKK 58,000 \u2013 105,000 / Year",
           "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
-          "name": "Copenhagen Business School (CBS)",
-          "location": "Frederiksberg, Denmark",
-          "fee": "DKK 70,000 \u2013 130,000 / Year",
-          "desc": "Triple-crown accredited business institution recognized across Europe for excellence in management, economics, and finance.",
-          "img_var": "null"
+          "name": "University of Southern Denmark (SDU)",
+          "location": "Odense, Denmark",
+          "fee": "DKK 62,000 \u2013 115,000 / Year",
+          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+          "img": uniImg2
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "University of Copenhagen (UCPH)",
+          "location": "Copenhagen, Denmark",
+          "fee": "DKK 65,000 \u2013 120,000 / Year",
+          "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
+          "img": uniImg1
+        },
+        {
+          "name": "Technical University of Denmark (DTU)",
+          "location": "Kongens Lyngby, Denmark",
+          "fee": "DKK 75,000 \u2013 115,000 / Year",
+          "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
+          "img": uniImg2
+        },
+        {
+          "name": "Aarhus University (AU)",
+          "location": "Aarhus, Denmark",
+          "fee": "DKK 60,000 \u2013 110,000 / Year",
+          "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
+          "img": uniImg3
+        },
+        {
+          "name": "Aalborg University (AAU)",
+          "location": "Aalborg, Denmark",
+          "fee": "DKK 58,000 \u2013 105,000 / Year",
+          "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
+          "img": uniImg1
+        },
+        {
+          "name": "University of Southern Denmark (SDU)",
+          "location": "Odense, Denmark",
+          "fee": "DKK 62,000 \u2013 115,000 / Year",
+          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+          "img": uniImg2
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
+        "Tuition fees are indicative and subject to annual review by Danish higher education institutions.",
+        "EU/EEA students may study tuition-free; international fees apply to non-EU/EEA citizens."
       ]
     },
     {
       "slot": "eligibility",
       "eyebrow": "Eligibility Criteria",
       "title": "Is Automobile Engineering Available in Denmark?",
+      "lead": "Essential details regarding automobile engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**4\\. Is Automobile Engineering Available in Denmark?**",
             "International applicants usually need:"
           ]
         },
@@ -193,11 +236,11 @@ const page = {
       "slot": "requirements",
       "eyebrow": "Admission Requirements",
       "title": "Denmark Automobile Engineering Admission Requirements",
+      "lead": "Essential details regarding automobile engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**5\\. Denmark Automobile Engineering Admission Requirements**",
             "Common admissions requirements include:"
           ]
         },
@@ -224,11 +267,11 @@ const page = {
       "slot": "fees",
       "eyebrow": "Tuition & Living Costs",
       "title": "Denmark Automobile Engineering Study Cost",
+      "lead": "Essential details regarding automobile engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**6\\. Denmark Automobile Engineering Study Cost**",
             "Indicative budgeting estimates for Indian students are as follows. The real cost will depend on the institution and the program, and your lifestyle."
           ]
         },
@@ -274,11 +317,11 @@ const page = {
       "slot": "timeline",
       "eyebrow": "Admission Procedure",
       "title": "Admission Process for Automobile Engineering in Denmark",
+      "lead": "Essential details regarding automobile engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**7\\. Admission Process for Automobile Engineering in Denmark**",
             "The **Automobile Engineering admission process in Denmark** generally involves the following steps:"
           ]
         },
@@ -305,11 +348,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Further Studies & Scope",
       "title": "Accreditation and Recognition",
+      "lead": "Essential details regarding automobile engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**8\\. Accreditation and Recognition**",
             "Check the university recognition, degree title, curriculum and specialization opportunities before enrolling. Danish higher education is based on the European Credit Transfer and Accumulation System (ECTS), which enables the transfer of credits between European institutions participating in the system.",
             "If you want to work in the automobile industry in India, it is good to check the degree requirements of your desired employers and also find out if they expect any extra qualifications or practical experience."
           ]
@@ -320,11 +363,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Career Opportunities",
       "title": "Automobile Engineering Salary and Career Opportunities",
+      "lead": "Essential details regarding automobile engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**9\\. Automobile Engineering Salary and Career Opportunities**",
             "Graduates can find opportunities in automotive manufacturing, electric vehicles, vehicle testing, automotive electronics and mobility technology. Students completing relevant **Automobile Engineering courses in Denmark** may explore career opportunities according to their qualifications, specialization and practical experience.",
             "Possible career roles include:"
           ]
@@ -380,11 +423,11 @@ const page = {
       "slot": "documents",
       "eyebrow": "Required Documentation",
       "title": "Required Documents",
+      "lead": "Essential details regarding automobile engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**10\\. Required Documents**",
             "Students may require:"
           ]
         },
@@ -415,53 +458,57 @@ const page = {
       "location": "Copenhagen, Denmark",
       "fee": "DKK 65,000 \u2013 120,000 / Year",
       "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
       "name": "Technical University of Denmark (DTU)",
       "location": "Kongens Lyngby, Denmark",
       "fee": "DKK 75,000 \u2013 115,000 / Year",
       "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-      "img_var": "null"
+      "img": uniImg2
     },
     {
       "name": "Aarhus University (AU)",
       "location": "Aarhus, Denmark",
       "fee": "DKK 60,000 \u2013 110,000 / Year",
       "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-      "img_var": "null"
+      "img": uniImg3
     },
     {
       "name": "Aalborg University (AAU)",
       "location": "Aalborg, Denmark",
       "fee": "DKK 58,000 \u2013 105,000 / Year",
       "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
-      "name": "Copenhagen Business School (CBS)",
-      "location": "Frederiksberg, Denmark",
-      "fee": "DKK 70,000 \u2013 130,000 / Year",
-      "desc": "Triple-crown accredited business institution recognized across Europe for excellence in management, economics, and finance.",
-      "img_var": "null"
+      "name": "University of Southern Denmark (SDU)",
+      "location": "Odense, Denmark",
+      "fee": "DKK 62,000 \u2013 115,000 / Year",
+      "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+      "img": uniImg2
     }
   ],
   "faqs": [
     {
-      "q": "Can Indian students apply for Automobile Engineering (UG) in Denmark?",
-      "a": "Yes, Indian students with qualifying credentials meeting English language proficiency (IELTS/TOEFL) and academic prerequisites can apply to recognized universities in Denmark."
+      "q": "Q1. Can Indian students pursue automobile engineering in Denmark after Class 12?",
+      "a": "Sure. If you meet the academic and language requirements of the university, you can study engineering with a focus on the automotive industry. Students should check the **Automobile Engineering eligibility in Denmark** before applying."
     },
     {
-      "q": "What is the medium of instruction for Automobile Engineering (UG) in Denmark?",
-      "a": "Most master's and international bachelor's degree programmes are taught entirely in English for international students across Danish universities."
+      "q": "Q2. Does Denmark teach automobile engineering in English?",
+      "a": "There may be few English-taught bachelor\u2019s programs dedicated to automobile engineering. Mechanical engineering and mechatronics are alternatives, but students are advised to check the language of each program."
     },
     {
-      "q": "What are the typical tuition fees for Automobile Engineering (UG) in Denmark?",
-      "a": "Tuition fees for international students generally range between DKK 60,000 and DKK 120,000 per year, depending on the institution and level of study."
+      "q": "Q3. How long does it take to get a Bachelor\u2019s degree?",
+      "a": "A university bachelor's degree is normally three years, though some professional engineering programs are around 3\u00bd years. The length will depend on the qualification."
     },
     {
-      "q": "Can international students work while studying in Denmark?",
-      "a": "Yes, non-EU international students with a valid Danish residence permit are legally permitted to work part-time (up to 20 hours per week) during semester periods and full-time during June, July, and August."
+      "q": "Q4. Are international students allowed to work while studying in Denmark?",
+      "a": "International students are allowed to work under the conditions of their residence permit and current regulations."
+    },
+    {
+      "q": "Q5. After automobile engineering, can I do a master's?",
+      "a": "Yes. Graduates who fulfill the admission requirements can apply for appropriate master\u2019s programs in automotive engineering, electric mobility, mechanical engineering or related subjects. Studying **Automobile Engineering in Denmark** can be an interesting option for students interested in vehicle design, automotive technology, electric vehicles and sustainable mobility. Before selecting a university, students should compare available engineering courses, academic eligibility, language requirements, tuition fees and future career opportunities. For Indian students planning international education, **Edu-Hawk Worldwide** can provide guidance on exploring suitable programs, understanding admission requirements and preparing application documents for studying abroad."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

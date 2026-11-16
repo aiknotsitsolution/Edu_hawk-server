@@ -7,6 +7,11 @@ import heroBgImg from "../../../../Images/Abroad/Denmark/Pharmacy/hero_bg.webp";
 import sideImg from "../../../../Images/Abroad/Denmark/Pharmacy/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Denmark/Pharmacy/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../Images/Abroad/Denmark/Pharmacy/image1.png";
+import uniImg2 from "../../../../Images/Abroad/Denmark/Pharmacy/image2.png";
+import uniImg3 from "../../../../Images/Abroad/Denmark/Pharmacy/image3.png";
+
 const page = {
   "name": "Pharmacy",
   "country": "Denmark",
@@ -19,48 +24,48 @@ const page = {
     "Comprehensive guide to studying Pharmacy in Denmark for Indian students."
   ],
   "overview": [
-    "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Denmark for Pharmacy in Denmark."
+    "Explore top accredited Danish universities, tuition costs, eligibility, and visa procedures for Pharmacy."
   ],
   "level": "B.Pharm & M.Pharm",
   "crumb": "MBBS Abroad",
   "stats": [
     {
-      "val": "DKK 60K-120K",
+      "val": "DKK 60K-130K",
       "label": "Tuition / Year"
     },
     {
-      "val": "20 Hrs/Wk",
-      "label": "Part-Time Work"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
       "val": "3-4 Years",
       "label": "Course Duration"
     },
     {
-      "val": "English",
-      "label": "Medium of Study"
+      "val": "20 Hrs/Week",
+      "label": "Part-Time Work"
     }
   ],
   "highlights": [
     {
       "icon": "FaAward",
-      "title": "World-Class Nordic Education",
-      "desc": "Study in Denmark's globally ranked universities featuring innovative Problem-Based Learning (PBL) and state-of-the-art research."
+      "title": "World Top-100 Universities",
+      "desc": "Study in globally respected Danish institutions including University of Copenhagen, DTU, and Aarhus University."
     },
     {
       "icon": "FaGraduationCap",
-      "title": "English-Taught Degrees",
-      "desc": "Wide range of bachelor's and master's degrees delivered entirely in English with international accreditation."
+      "title": "Innovative PBL Learning",
+      "desc": "Problem-Based Learning model focusing on collaborative projects, real-world applications, and critical analysis."
     },
     {
       "icon": "FaFileAlt",
-      "title": "Generous Post-Study Work",
-      "desc": "Denmark offers post-study work permits for international graduates to start European careers in high-demand industries."
+      "title": "High Living Standard & Safety",
+      "desc": "Denmark consistently ranks among the happiest, safest, and most progressive countries in the world."
     },
     {
       "icon": "FaCheckCircle",
-      "title": "High Quality of Life",
-      "desc": "Consistently ranked among the world's happiest, safest, and most sustainable countries with vibrant student communities."
+      "title": "Post-Study Work Visa",
+      "desc": "Non-EU graduates are eligible for post-study residence permits to seek employment and build global careers."
     }
   ],
   "sections": [
@@ -68,11 +73,11 @@ const page = {
       "slot": "why",
       "eyebrow": "Why Denmark",
       "title": "Why Study Pharmacy in Denmark?",
+      "lead": "Essential details regarding pharmacy in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**1\\. Why Study Pharmacy in Denmark?**",
             "**Pharmacy in Denmark** can be a good option for students interested in pharmaceutical sciences, drug development, medicine safety and healthcare research. Denmark boasts a strong life sciences sector, featuring modern research facilities and pharmaceutical companies active in drug discovery, biotechnology and medicine production.",
             "Studying pharmacy in Denmark can help students develop scientific knowledge and an understanding of how medicines are developed, tested, manufactured and used safely. Depending on the program, students may study pharmaceutical chemistry, pharmacology, clinical pharmacy, drug formulation and pharmaceutical technology.",
             "The main benefits of studying pharmacy in Denmark are:"
@@ -102,13 +107,12 @@ const page = {
       "slot": "courses",
       "eyebrow": "Degrees & Pathways",
       "title": "Pharmacy Courses in Denmark",
+      "lead": "Essential details regarding pharmacy in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**2\\. Pharmacy Courses in Denmark**",
             "Denmark has undergraduate and postgraduate study options in pharmacy and related pharmaceutical sciences. The course title, length, language and professional recognition depend on the institution. Students exploring **Pharmacy courses in Denmark** should understand the difference between professional pharmacy education and pharmaceutical science programs.",
-            "**Bachelor of Pharmacy and Pharmaceutical Sciences**",
             "Bachelor\u2019s degree programs or other related pharmaceutical science pathways provide basic knowledge in chemistry, biology, drugs and laboratory techniques. Depending on the program, study may include:"
           ]
         },
@@ -128,7 +132,6 @@ const page = {
           "t": "p",
           "items": [
             "Graduates with a bachelor\u2019s degree in pharmaceutical sciences are not automatically eligible to practise as pharmacists. Students must verify whether the program is part of the recognized professional pharmacy track in Denmark.",
-            "**Master of Pharmaceutical Science and Pharmacy**",
             "Master\u2019s-level programs provide advanced study in pharmaceutical science, drug development, research and related disciplines. Relevant areas of study may include:"
           ]
         },
@@ -158,45 +161,68 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Best Pharmacy Universities in Denmark",
-      "lead": "Explore leading universities and institutions in Denmark offering accredited Pharmacy in Denmark programmes, world-class research facilities, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Denmark offering accredited Pharmacy programmes, modern campuses, and international student support.",
+      "unis": [
         {
           "name": "University of Copenhagen",
-          "location": "Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
-          "desc": "The University of Copenhagen provides pharmaceutical education through its School of Pharmaceutical Sciences. * Bachelor in Pharmacy: A Danish-taught program. * Master's in Pharmacy: A Danish-taught program that builds on undergraduate education in pharmacy. * MSc in Pharmaceutical Sciences (Global): A two-year English-taught program focusing on pharmaceutical science and the development of medicines. The English-taught Pharmaceutical Sciences program is relevant for students who want to pursue a career in the pharmaceutical industry and research. It does not qualify graduates to work as pharmacists in community or hospital pharmacy.",
-          "img_var": "null"
+          "location": "University of Copenhagen, Denmark",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
+          "desc": "The University of Copenhagen provides pharmaceutical education through its School of Pharmaceutical Sciences. * **Bachelor in Pharmacy:** A Danish-taught program. * **Master's in Pharmacy:** A Danish-taught program that builds on undergraduate education in pharmacy. * **MSc in Pharmaceutical Sciences (Global):** A two-year English-taught program focusing on pharmaceutical science and the development of medicines. The English-taught Pharmaceutical Sciences program is relevant for students who want to pursue a career in the pharmaceutical industry and research. It does not qualify graduates to work as pharmacists in community or hospital pharmacy.",
+          "img": uniImg1
         },
         {
           "name": "Aarhus University",
-          "location": "Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
+          "location": "Aarhus University, Denmark",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
           "desc": "Aarhus University conducts education and research in pharmaceutical-related scientific disciplines such as medicinal chemistry and molecular sciences. Students interested in drug discovery and pharmaceutical research should look at its program catalogue to see whether their academic background meets the admission requirements.",
-          "img_var": "null"
+          "img": uniImg2
         },
         {
           "name": "How to Select the Right University",
-          "location": "Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
-          "desc": "When choosing a university, consider the language of instruction, curriculum, laboratory facilities, admission requirements, tuition fees and professional recognition of the program. Students who want to practise as pharmacists should ensure that the chosen qualification satisfies the relevant Danish authorization requirements. Before applying, compare Pharmacy universities in Denmark and check the official course information to understand program availability, academic conditions and professional opportunities.",
-          "img_var": "null"
+          "location": "How to Select the Right University, Denmark",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
+          "desc": "When choosing a university, consider the language of instruction, curriculum, laboratory facilities, admission requirements, tuition fees and professional recognition of the program. Students who want to practise as pharmacists should ensure that the chosen qualification satisfies the relevant Danish authorization requirements. Before applying, compare **Pharmacy universities in Denmark** and check the official course information to understand program availability, academic conditions and professional opportunities.",
+          "img": uniImg3
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "University of Copenhagen",
+          "location": "University of Copenhagen, Denmark",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
+          "desc": "The University of Copenhagen provides pharmaceutical education through its School of Pharmaceutical Sciences. * **Bachelor in Pharmacy:** A Danish-taught program. * **Master's in Pharmacy:** A Danish-taught program that builds on undergraduate education in pharmacy. * **MSc in Pharmaceutical Sciences (Global):** A two-year English-taught program focusing on pharmaceutical science and the development of medicines. The English-taught Pharmaceutical Sciences program is relevant for students who want to pursue a career in the pharmaceutical industry and research. It does not qualify graduates to work as pharmacists in community or hospital pharmacy.",
+          "img": uniImg1
+        },
+        {
+          "name": "Aarhus University",
+          "location": "Aarhus University, Denmark",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
+          "desc": "Aarhus University conducts education and research in pharmaceutical-related scientific disciplines such as medicinal chemistry and molecular sciences. Students interested in drug discovery and pharmaceutical research should look at its program catalogue to see whether their academic background meets the admission requirements.",
+          "img": uniImg2
+        },
+        {
+          "name": "How to Select the Right University",
+          "location": "How to Select the Right University, Denmark",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
+          "desc": "When choosing a university, consider the language of instruction, curriculum, laboratory facilities, admission requirements, tuition fees and professional recognition of the program. Students who want to practise as pharmacists should ensure that the chosen qualification satisfies the relevant Danish authorization requirements. Before applying, compare **Pharmacy universities in Denmark** and check the official course information to understand program availability, academic conditions and professional opportunities.",
+          "img": uniImg3
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
+        "Tuition fees are indicative and subject to annual review by Danish higher education institutions.",
+        "EU/EEA students may study tuition-free; international fees apply to non-EU/EEA citizens."
       ]
     },
     {
       "slot": "eligibility",
       "eyebrow": "Eligibility Criteria",
       "title": "You Can Study Pharmacy in Denmark If You:",
+      "lead": "Essential details regarding pharmacy in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**4\\. You Can Study Pharmacy in Denmark If You:**",
             "You must meet the requirements of the course level, university and type of qualification. **Pharmacy eligibility in Denmark** varies according to the selected program and the applicant's previous education.",
-            "**Eligibility for Bachelor's in Pharmacy**",
             "In general, applicants must have:"
           ]
         },
@@ -214,7 +240,6 @@ const page = {
           "t": "p",
           "items": [
             "Indian students must see whether their Class 12 subjects and scores are in line with the requirements of the institution they are applying to. Admission is not automatic after completing Class 12 in a science stream. Students interested in **Pharmacy in Denmark for Indian students** should review the subject requirements and qualification assessment process before applying.",
-            "**Eligibility for Master's in Pharmacy or Pharmaceutical Sciences**",
             "Usually, applicants need:"
           ]
         },
@@ -241,11 +266,11 @@ const page = {
       "slot": "requirements",
       "eyebrow": "Admission Requirements",
       "title": "Denmark Pharmacy Admission Requirements",
+      "lead": "Essential details regarding pharmacy in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**5\\. Denmark Pharmacy Admission Requirements**",
             "International applicants should refer to the official admission requirements before applying. The **Pharmacy admission requirements in Denmark** depend on the course, university, academic qualifications and language of instruction.",
             "**Academic qualifications:** Universities consider previous education, grades, relevant subjects and course credits. Applicants for master's programs may be required to show appropriate chemistry and biological sciences coursework in their bachelor's degrees.",
             "**Language of instruction:** Danish is required for programs taught in Danish. Postgraduate programs taught in English may require proof of English proficiency through accepted qualifications or tests.",
@@ -261,16 +286,14 @@ const page = {
       "slot": "fees",
       "eyebrow": "Tuition & Living Costs",
       "title": "Cost of Studying Pharmacy in Denmark",
+      "lead": "Essential details regarding pharmacy in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**6\\. Cost of Studying Pharmacy in Denmark**",
             "The total **Cost of studying pharmacy in Denmark** includes tuition fees, accommodation, food, transport, study materials and personal expenses. Costs will vary depending on the university, city, program and student's citizenship.",
-            "**Tuition Fees**",
             "Tuition fees are dependent on the institution and course. Students from outside the EU/EEA pay different tuition fees than students inside the EU/EEA. Indian students should check the current fee for their specific program.",
             "Non-EU/EEA students may be liable to pay tuition fees for English-taught master's programs. There may be scholarships available to qualified applicants, but they are competitive and should not be assumed.",
-            "**Approximate Cost of Living in INR**",
             "The figures below are preliminary budget estimates, not official university quotations."
           ]
         },
@@ -324,11 +347,11 @@ const page = {
       "slot": "timeline",
       "eyebrow": "Admission Procedure",
       "title": "Pharmacy School Admission Denmark",
+      "lead": "Essential details regarding pharmacy in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**7\\. Pharmacy School Admission Denmark**",
             "Here\u2019s how students who wish to study pharmacy in Denmark can go about it:"
           ]
         },
@@ -360,11 +383,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Further Studies & Scope",
       "title": "Danish Pharmacy Licensing",
+      "lead": "Essential details regarding pharmacy in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**8\\. Danish Pharmacy Licensing**",
             "Students who want to become a pharmacist in Denmark should be aware that there is a difference between a pharmaceutical science qualification and a professional qualification in pharmacy.",
             "Graduates with a pharmaceutical sciences degree are prepared to work in research, pharmaceutical development or industry settings. However, this degree does not qualify a graduate to practise as a pharmacist. Professional pharmacy work is regulated by the relevant Danish qualification and authorization rules.",
             "International graduates should:"
@@ -392,13 +415,12 @@ const page = {
       "slot": "careers",
       "eyebrow": "Career Opportunities",
       "title": "Pharmacy Graduates: Jobs and Salary in Denmark",
+      "lead": "Essential details regarding pharmacy in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**9\\. Pharmacy Graduates: Jobs and Salary in Denmark**",
             "Pharmacy and pharmaceutical science graduates may find employment in the healthcare industry, research, pharmaceutical production, biotechnology and drug development. The available roles depend on qualifications, work experience, language skills and professional recognition.",
-            "**Career Opportunities**",
             "**Community and Hospital Pharmacy:** Pharmacists who are suitably qualified and registered can counsel patients and healthcare professionals on the safe and effective use of medicines.",
             "**Pharmaceutical Research:** Graduates may be involved in drug discovery, laboratory research, formulation development and scientific studies.",
             "**Drug Development and Biotechnology:** Opportunities exist in research support, development projects and work with pharmaceutical or biotechnology companies.",
@@ -406,7 +428,6 @@ const page = {
             "**Regulatory Affairs:** Roles include pharmaceutical documentation, compliance, product registration and regulatory procedures.",
             "**Clinical Research:** Suitable graduates can assist in clinical trials, research coordination and drug safety activities.",
             "**Pharmaceutical Manufacturing:** Opportunities may include production, process development, validation and technical operations.",
-            "**What Salary Could You Expect?**",
             "Salaries depend on the role, experience, employer, location and professional qualifications. Positions in research and industry may have different salary structures than pharmacist positions in community or hospital settings.",
             "Instead of relying on a single guaranteed salary figure, students are encouraged to search for current Danish salary information for the job they want. A degree does not guarantee employment, and professional authorization may be required for regulated pharmacy roles."
           ]
@@ -417,11 +438,11 @@ const page = {
       "slot": "documents",
       "eyebrow": "Required Documentation",
       "title": "Documents Required for Studying Pharmacy in Denmark",
+      "lead": "Essential details regarding pharmacy in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**10\\. Documents Required for Studying Pharmacy in Denmark**",
             "The exact list of required documents depends on the university and the program. Common documents requested include:"
           ]
         },
@@ -453,42 +474,46 @@ const page = {
   "universities": [
     {
       "name": "University of Copenhagen",
-      "location": "Denmark",
-      "fee": "DKK 65,000 \u2013 120,000 / Year",
-      "desc": "The University of Copenhagen provides pharmaceutical education through its School of Pharmaceutical Sciences. * Bachelor in Pharmacy: A Danish-taught program. * Master's in Pharmacy: A Danish-taught program that builds on undergraduate education in pharmacy. * MSc in Pharmaceutical Sciences (Global): A two-year English-taught program focusing on pharmaceutical science and the development of medicines. The English-taught Pharmaceutical Sciences program is relevant for students who want to pursue a career in the pharmaceutical industry and research. It does not qualify graduates to work as pharmacists in community or hospital pharmacy.",
-      "img_var": "null"
+      "location": "University of Copenhagen, Denmark",
+      "fee": "DKK 60,000 \u2013 120,000 / Year",
+      "desc": "The University of Copenhagen provides pharmaceutical education through its School of Pharmaceutical Sciences. * **Bachelor in Pharmacy:** A Danish-taught program. * **Master's in Pharmacy:** A Danish-taught program that builds on undergraduate education in pharmacy. * **MSc in Pharmaceutical Sciences (Global):** A two-year English-taught program focusing on pharmaceutical science and the development of medicines. The English-taught Pharmaceutical Sciences program is relevant for students who want to pursue a career in the pharmaceutical industry and research. It does not qualify graduates to work as pharmacists in community or hospital pharmacy.",
+      "img": uniImg1
     },
     {
       "name": "Aarhus University",
-      "location": "Denmark",
-      "fee": "DKK 65,000 \u2013 120,000 / Year",
+      "location": "Aarhus University, Denmark",
+      "fee": "DKK 60,000 \u2013 120,000 / Year",
       "desc": "Aarhus University conducts education and research in pharmaceutical-related scientific disciplines such as medicinal chemistry and molecular sciences. Students interested in drug discovery and pharmaceutical research should look at its program catalogue to see whether their academic background meets the admission requirements.",
-      "img_var": "null"
+      "img": uniImg2
     },
     {
       "name": "How to Select the Right University",
-      "location": "Denmark",
-      "fee": "DKK 65,000 \u2013 120,000 / Year",
-      "desc": "When choosing a university, consider the language of instruction, curriculum, laboratory facilities, admission requirements, tuition fees and professional recognition of the program. Students who want to practise as pharmacists should ensure that the chosen qualification satisfies the relevant Danish authorization requirements. Before applying, compare Pharmacy universities in Denmark and check the official course information to understand program availability, academic conditions and professional opportunities.",
-      "img_var": "null"
+      "location": "How to Select the Right University, Denmark",
+      "fee": "DKK 60,000 \u2013 120,000 / Year",
+      "desc": "When choosing a university, consider the language of instruction, curriculum, laboratory facilities, admission requirements, tuition fees and professional recognition of the program. Students who want to practise as pharmacists should ensure that the chosen qualification satisfies the relevant Danish authorization requirements. Before applying, compare **Pharmacy universities in Denmark** and check the official course information to understand program availability, academic conditions and professional opportunities.",
+      "img": uniImg3
     }
   ],
   "faqs": [
     {
-      "q": "Can Indian students apply for Pharmacy in Denmark?",
-      "a": "Yes, Indian students with qualifying credentials meeting English language proficiency (IELTS/TOEFL) and academic prerequisites can apply to recognized universities in Denmark."
+      "q": "Q1. Can Indian students study pharmacy in Denmark?",
+      "a": "Yes. Indian students are eligible to apply if they fulfil the academic, language and other admission requirements. They should check whether their qualifications are accepted for the chosen course. Students exploring **Pharmacy in Denmark for Indian students** should also review professional recognition requirements if they plan to work as pharmacists."
     },
     {
-      "q": "What is the medium of instruction for Pharmacy in Denmark?",
-      "a": "Most master's and international bachelor's degree programmes are taught entirely in English for international students across Danish universities."
+      "q": "Q2. Are pharmacy studies in Denmark taught in English?",
+      "a": "Many professional pharmacy programs at the University of Copenhagen are taught in Danish. There are, however, postgraduate options in pharmaceutical sciences taught in English. Students should refer to the language of instruction for the particular program."
     },
     {
-      "q": "What are the typical tuition fees for Pharmacy in Denmark?",
-      "a": "Tuition fees for international students generally range between DKK 60,000 and DKK 120,000 per year, depending on the institution and level of study."
+      "q": "Q3. How many years does it take to study pharmacy in Denmark?",
+      "a": "The professional pharmacy pathway at the University of Copenhagen includes bachelor's and master's studies. A separate master's in pharmaceutical sciences can take around two years, depending on the program. Students are advised to consult the official course structure before applying."
     },
     {
-      "q": "Can international students work while studying in Denmark?",
-      "a": "Yes, non-EU international students with a valid Danish residence permit are legally permitted to work part-time (up to 20 hours per week) during semester periods and full-time during June, July, and August."
+      "q": "Q4. How much does it cost to study pharmacy in Denmark in Indian rupees?",
+      "a": "The estimated cost of living can vary from \u20b98.9 lakh to \u20b916.8 lakh a year. Tuition fees depend on the university, program and nationality. Students should contact the institution for current fee schedules."
+    },
+    {
+      "q": "Q5. Can I work as a pharmacist after graduation in Denmark?",
+      "a": "Possibly, if you satisfy the relevant professional qualification, authorization, language and employment requirements. Having a degree in pharmaceutical science does not automatically qualify you to work as a professional pharmacist. Choosing **Pharmacy in Denmark** requires careful consideration of the available programs, university selection, academic eligibility, language requirements, tuition fees and professional recognition. Students should compare the official information provided by universities and understand the difference between pharmaceutical science and professional pharmacy qualifications before applying. Edu-Hawk Worldwide provides study-abroad guidance and application planning information to students interested in international education. With the right academic preparation and understanding of admission requirements, students can make informed decisions about their pharmaceutical education and future career opportunities."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

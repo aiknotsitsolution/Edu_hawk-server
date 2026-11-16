@@ -7,6 +7,12 @@ import heroBgImg from "../../../../Images/Abroad/Denmark/Physiotherapy/hero_bg.w
 import sideImg from "../../../../Images/Abroad/Denmark/Physiotherapy/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Denmark/Physiotherapy/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../Images/Abroad/Denmark/Physiotherapy/image1.png";
+import uniImg2 from "../../../../Images/Abroad/Denmark/Physiotherapy/image2.png";
+import uniImg3 from "../../../../Images/Abroad/Denmark/Physiotherapy/image3.png";
+import uniImg4 from "../../../../Images/Abroad/Denmark/Physiotherapy/image4.png";
+
 const page = {
   "name": "Physiotherapy",
   "country": "Denmark",
@@ -19,48 +25,48 @@ const page = {
     "Comprehensive guide to studying Physiotherapy in Denmark for Indian students."
   ],
   "overview": [
-    "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Denmark for Physiotherapy in Denmark."
+    "Explore top accredited Danish universities, tuition costs, eligibility, and visa procedures for Physiotherapy."
   ],
   "level": "BPT / Physiotherapy",
   "crumb": "MBBS Abroad",
   "stats": [
     {
-      "val": "DKK 60K-120K",
+      "val": "DKK 60K-130K",
       "label": "Tuition / Year"
     },
     {
-      "val": "20 Hrs/Wk",
-      "label": "Part-Time Work"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
       "val": "3-4 Years",
       "label": "Course Duration"
     },
     {
-      "val": "English",
-      "label": "Medium of Study"
+      "val": "20 Hrs/Week",
+      "label": "Part-Time Work"
     }
   ],
   "highlights": [
     {
       "icon": "FaAward",
-      "title": "World-Class Nordic Education",
-      "desc": "Study in Denmark's globally ranked universities featuring innovative Problem-Based Learning (PBL) and state-of-the-art research."
+      "title": "World Top-100 Universities",
+      "desc": "Study in globally respected Danish institutions including University of Copenhagen, DTU, and Aarhus University."
     },
     {
       "icon": "FaGraduationCap",
-      "title": "English-Taught Degrees",
-      "desc": "Wide range of bachelor's and master's degrees delivered entirely in English with international accreditation."
+      "title": "Innovative PBL Learning",
+      "desc": "Problem-Based Learning model focusing on collaborative projects, real-world applications, and critical analysis."
     },
     {
       "icon": "FaFileAlt",
-      "title": "Generous Post-Study Work",
-      "desc": "Denmark offers post-study work permits for international graduates to start European careers in high-demand industries."
+      "title": "High Living Standard & Safety",
+      "desc": "Denmark consistently ranks among the happiest, safest, and most progressive countries in the world."
     },
     {
       "icon": "FaCheckCircle",
-      "title": "High Quality of Life",
-      "desc": "Consistently ranked among the world's happiest, safest, and most sustainable countries with vibrant student communities."
+      "title": "Post-Study Work Visa",
+      "desc": "Non-EU graduates are eligible for post-study residence permits to seek employment and build global careers."
     }
   ],
   "sections": [
@@ -68,11 +74,11 @@ const page = {
       "slot": "why",
       "eyebrow": "Why Denmark",
       "title": "Why Choose Physiotherapy in Denmark?",
+      "lead": "Essential details regarding physiotherapy in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**1\\. Why Choose Physiotherapy in Denmark?**",
             "**Physiotherapy in Denmark** can be an interesting option for students who are interested in physiotherapy, rehabilitation, sports injuries and healthcare sciences. The country has a well-developed healthcare system, a strong focus on rehabilitation, preventive healthcare and improving the quality of life for patients.",
             "By studying physiotherapy in Denmark, students are able to acquire practical experience in the assessment of movement, therapeutic exercise, rehabilitation planning and patient care. Depending on the institution, programs combine theoretical knowledge with practical learning and clinical placements.",
             "Some of the main benefits of studying physiotherapy in Denmark are:"
@@ -102,13 +108,12 @@ const page = {
       "slot": "courses",
       "eyebrow": "Degrees & Pathways",
       "title": "Physiotherapy Courses in Denmark",
+      "lead": "Essential details regarding physiotherapy in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**2\\. Physiotherapy Courses in Denmark**",
             "Denmark has professional bachelor's education in physiotherapy and postgraduate education in rehabilitation, health sciences and related fields. The length of the course, entrance requirements and language of instruction vary according to the institution. Students exploring **Physiotherapy courses in Denmark** should compare the available academic pathways and their professional recognition.",
-            "**BPT (Bachelor of Physiotherapy)**",
             "In Denmark, a professional bachelor-level physiotherapy program typically lasts 3.5 years. The program combines theoretical studies, practical training and supervised clinical placements.",
             "Common themes include:"
           ]
@@ -131,7 +136,6 @@ const page = {
           "t": "p",
           "items": [
             "Students will learn how to assess physical limitations, develop rehabilitation plans and assist patients in regaining mobility and function.",
-            "**MSc Physiotherapy and Allied Subjects**",
             "At master's level, there may be opportunities in rehabilitation, health sciences, public health, sports science, clinical research and related areas. The length of time varies, but full-time study generally takes about two years.",
             "Areas that may be studied include:"
           ]
@@ -161,59 +165,68 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Best Universities for Physiotherapy in Denmark",
-      "lead": "Explore leading universities and institutions in Denmark offering accredited Physiotherapy in Denmark programmes, world-class research facilities, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Denmark offering accredited Physiotherapy programmes, modern campuses, and international student support.",
+      "unis": [
         {
           "name": "University College Copenhagen (KP)",
-          "location": "Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
+          "location": "University College Copenhagen (KP), Denmark",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
           "desc": "University College Copenhagen provides professional healthcare education, including physiotherapy. Its programs integrate academic education with practical training and clinical experience.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
           "name": "VIA University College",
-          "location": "Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
+          "location": "VIA University College, Denmark",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
           "desc": "VIA University College is a professional higher education institution that offers courses in healthcare and other fields. Future students should consult its current physiotherapy program details, language of instruction and admission criteria.",
-          "img_var": "null"
-        },
-        {
-          "name": "University College Lillebaelt (UCL)",
-          "location": "Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
-          "desc": "University College Lillebaelt provides professional education within several areas of healthcare. Students wishing to study physiotherapy should check the current availability of programs and the requirements for international applicants.",
-          "img_var": "null"
-        },
-        {
-          "name": "University of Southern Denmark (SDU)",
-          "location": "Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
-          "desc": "The University of Southern Denmark offers health-related education and research. Students interested in pursuing rehabilitation research, sports science or related postgraduate study should check the requirements of individual programs rather than assuming that a professional physiotherapy degree is available in English.",
-          "img_var": "null"
+          "img": uniImg2
         },
         {
           "name": "How to Choose the Right Institution",
-          "location": "Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
-          "desc": "Compare the curriculum, language requirements, clinical placement arrangements, tuition fees, location and whether the qualification meets the requirements for professional practice. When reviewing Physiotherapy universities in Denmark, applicants should also confirm the latest course availability and international admission conditions directly with the institutions.",
-          "img_var": "null"
+          "location": "How to Choose the Right Institution, Denmark",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
+          "desc": "Compare the curriculum, language requirements, clinical placement arrangements, tuition fees, location and whether the qualification meets the requirements for professional practice. When reviewing **Physiotherapy universities in Denmark**, applicants should also confirm the latest course availability and international admission conditions directly with the institutions.",
+          "img": uniImg3
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "University College Copenhagen (KP)",
+          "location": "University College Copenhagen (KP), Denmark",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
+          "desc": "University College Copenhagen provides professional healthcare education, including physiotherapy. Its programs integrate academic education with practical training and clinical experience.",
+          "img": uniImg1
+        },
+        {
+          "name": "VIA University College",
+          "location": "VIA University College, Denmark",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
+          "desc": "VIA University College is a professional higher education institution that offers courses in healthcare and other fields. Future students should consult its current physiotherapy program details, language of instruction and admission criteria.",
+          "img": uniImg2
+        },
+        {
+          "name": "How to Choose the Right Institution",
+          "location": "How to Choose the Right Institution, Denmark",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
+          "desc": "Compare the curriculum, language requirements, clinical placement arrangements, tuition fees, location and whether the qualification meets the requirements for professional practice. When reviewing **Physiotherapy universities in Denmark**, applicants should also confirm the latest course availability and international admission conditions directly with the institutions.",
+          "img": uniImg3
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
+        "Tuition fees are indicative and subject to annual review by Danish higher education institutions.",
+        "EU/EEA students may study tuition-free; international fees apply to non-EU/EEA citizens."
       ]
     },
     {
       "slot": "eligibility",
       "eyebrow": "Eligibility Criteria",
       "title": "Prerequisites for Studying Physiotherapy in Denmark",
+      "lead": "Essential details regarding physiotherapy in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**4\\. Prerequisites for Studying Physiotherapy in Denmark**",
             "The eligibility is based on the course level and institution. **Physiotherapy eligibility in Denmark** may vary according to the academic pathway, previous qualifications and language requirements.",
-            "**Eligibility for B.Sc. Physiotherapy**",
             "Applicants usually require:"
           ]
         },
@@ -231,7 +244,6 @@ const page = {
           "t": "p",
           "items": [
             "Indian students should confirm whether their Class 12 qualification and science subjects meet the requirements of their selected institution. Just passing Class 12 is not enough for admission. Applicants interested in **Physiotherapy in Denmark for Indian students** should check subject-specific conditions and qualification equivalency before applying.",
-            "**Master's Degree in Physiotherapy or Related Fields**",
             "Applicants generally require:"
           ]
         },
@@ -258,11 +270,11 @@ const page = {
       "slot": "requirements",
       "eyebrow": "Admission Requirements",
       "title": "Entry Requirements for Physiotherapy in Denmark",
+      "lead": "Essential details regarding physiotherapy in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**5\\. Entry Requirements for Physiotherapy in Denmark**",
             "Students are required to meet the academic, language and application requirements of their chosen institution. The **Physiotherapy admission requirements in Denmark** depend on the selected course, institution and applicant's educational background.",
             "**Academic qualifications:** Universities and university colleges assess previous education, grades, subject prerequisites and equivalence of qualifications. Applicants to master's programs may need to show relevant undergraduate coursework.",
             "**Language skills:** Danish is generally important for professional physiotherapy programs with clinical placements and communication with patients. Postgraduate programs taught in English may have separate English language requirements.",
@@ -277,16 +289,14 @@ const page = {
       "slot": "fees",
       "eyebrow": "Tuition & Living Costs",
       "title": "Cost of Physiotherapy Studies in Denmark",
+      "lead": "Essential details regarding physiotherapy in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**6\\. Cost of Physiotherapy Studies in Denmark**",
             "The total **Cost of studying physiotherapy in Denmark** includes tuition, accommodation, food, transport, study materials and personal expenses.",
-            "**Tuition Fee**",
             "Tuition fees depend on citizenship and the selected program. Students from the EU/EEA usually have different tuition fee rules from students outside the EU/EEA. Indian applicants should check whether tuition fees are applicable for the course of their choice and request the institution's latest fee structure.",
             "Qualified students may be eligible for scholarships, but these are competitive and should not be expected to cover the entire educational cost.",
-            "**Estimated Living Expenses in INR**",
             "The following are illustrative budget estimates, not official university quotations."
           ]
         },
@@ -340,11 +350,11 @@ const page = {
       "slot": "timeline",
       "eyebrow": "Admission Procedure",
       "title": "Physiotherapy Admission Process in Denmark",
+      "lead": "Essential details regarding physiotherapy in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**7\\. Physiotherapy Admission Process in Denmark**",
             "If you are a student who wants to study physiotherapy in Denmark, then follow these steps:"
           ]
         },
@@ -376,11 +386,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Further Studies & Scope",
       "title": "License for Physiotherapists in Denmark",
+      "lead": "Essential details regarding physiotherapy in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**8\\. License for Physiotherapists in Denmark**",
             "Physiotherapy is a regulated health profession in Denmark. However, not all international students will be able to practise simply because they have graduated from a physiotherapy course.",
             "The requirements for professional authorization depend on the qualification, the country of education and the applicant's circumstances. Internationally qualified physiotherapists may need their qualifications assessed and may be required to meet further requirements.",
             "Students expecting to work in Denmark should:"
@@ -408,13 +418,12 @@ const page = {
       "slot": "careers",
       "eyebrow": "Career Opportunities",
       "title": "Physiotherapist Salary and Employment in Denmark",
+      "lead": "Essential details regarding physiotherapy in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**9\\. Physiotherapist Salary and Employment in Denmark**",
             "Physiotherapy graduates can find opportunities in rehabilitation, hospitals, community healthcare, private clinics, sports-related settings and research. Available roles are based on professional authorization, qualifications, language skills and employer requirements.",
-            "**Careers**",
             "**Hospital Physiotherapist:** Helps patients recover movement and function after illness, injury or surgery, subject to professional authorization.",
             "**Rehabilitation Physiotherapist:** Provides support to recovery programs for patients with mobility limitations and physical impairments.",
             "**Sports Physiotherapist:** Works in sports injury prevention, rehabilitation and physical performance, where suitably qualified.",
@@ -422,7 +431,6 @@ const page = {
             "**Neurological Rehabilitation Professional:** Depending on qualifications and role requirements, assists with rehabilitation of patients with neurological disorders.",
             "**Community Health Worker:** Assists with rehabilitation, mobility support and preventive health programs.",
             "**Research and Academic Positions:** Offers opportunities to work with the required additional qualifications in rehabilitation research, healthcare projects or teaching.",
-            "**What Is Your Salary Expectation?**",
             "Salaries depend on experience, employer, location, specialization, working hours and employment agreements. Government healthcare jobs may have different pay scales than private-sector jobs.",
             "Students are advised to look for up-to-date information about salaries in Denmark for the position they are interested in, rather than relying on one estimated salary. Getting a degree does not guarantee a job, professional licence or specific salary."
           ]
@@ -433,11 +441,11 @@ const page = {
       "slot": "documents",
       "eyebrow": "Required Documentation",
       "title": "Documents Needed to Study Physiotherapy in Denmark",
+      "lead": "Essential details regarding physiotherapy in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**10\\. Documents Needed to Study Physiotherapy in Denmark**",
             "The exact checklist of documents varies according to the institution and program. Some of the most requested documents are:"
           ]
         },
@@ -469,56 +477,46 @@ const page = {
   "universities": [
     {
       "name": "University College Copenhagen (KP)",
-      "location": "Denmark",
-      "fee": "DKK 65,000 \u2013 120,000 / Year",
+      "location": "University College Copenhagen (KP), Denmark",
+      "fee": "DKK 60,000 \u2013 120,000 / Year",
       "desc": "University College Copenhagen provides professional healthcare education, including physiotherapy. Its programs integrate academic education with practical training and clinical experience.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
       "name": "VIA University College",
-      "location": "Denmark",
-      "fee": "DKK 65,000 \u2013 120,000 / Year",
+      "location": "VIA University College, Denmark",
+      "fee": "DKK 60,000 \u2013 120,000 / Year",
       "desc": "VIA University College is a professional higher education institution that offers courses in healthcare and other fields. Future students should consult its current physiotherapy program details, language of instruction and admission criteria.",
-      "img_var": "null"
-    },
-    {
-      "name": "University College Lillebaelt (UCL)",
-      "location": "Denmark",
-      "fee": "DKK 65,000 \u2013 120,000 / Year",
-      "desc": "University College Lillebaelt provides professional education within several areas of healthcare. Students wishing to study physiotherapy should check the current availability of programs and the requirements for international applicants.",
-      "img_var": "null"
-    },
-    {
-      "name": "University of Southern Denmark (SDU)",
-      "location": "Denmark",
-      "fee": "DKK 65,000 \u2013 120,000 / Year",
-      "desc": "The University of Southern Denmark offers health-related education and research. Students interested in pursuing rehabilitation research, sports science or related postgraduate study should check the requirements of individual programs rather than assuming that a professional physiotherapy degree is available in English.",
-      "img_var": "null"
+      "img": uniImg2
     },
     {
       "name": "How to Choose the Right Institution",
-      "location": "Denmark",
-      "fee": "DKK 65,000 \u2013 120,000 / Year",
-      "desc": "Compare the curriculum, language requirements, clinical placement arrangements, tuition fees, location and whether the qualification meets the requirements for professional practice. When reviewing Physiotherapy universities in Denmark, applicants should also confirm the latest course availability and international admission conditions directly with the institutions.",
-      "img_var": "null"
+      "location": "How to Choose the Right Institution, Denmark",
+      "fee": "DKK 60,000 \u2013 120,000 / Year",
+      "desc": "Compare the curriculum, language requirements, clinical placement arrangements, tuition fees, location and whether the qualification meets the requirements for professional practice. When reviewing **Physiotherapy universities in Denmark**, applicants should also confirm the latest course availability and international admission conditions directly with the institutions.",
+      "img": uniImg3
     }
   ],
   "faqs": [
     {
-      "q": "Can Indian students apply for Physiotherapy in Denmark?",
-      "a": "Yes, Indian students with qualifying credentials meeting English language proficiency (IELTS/TOEFL) and academic prerequisites can apply to recognized universities in Denmark."
+      "q": "Q1. How long does Physiotherapy in Denmark take to study?",
+      "a": "A professional bachelor-level physiotherapy program lasts about 3.5 years. Other master's programs in healthcare areas usually last around two years, depending on the program."
     },
     {
-      "q": "What is the medium of instruction for Physiotherapy in Denmark?",
-      "a": "Most master's and international bachelor's degree programmes are taught entirely in English for international students across Danish universities."
+      "q": "Q2. Can Indian students study physiotherapy in Denmark?",
+      "a": "Yes. Indian students can apply provided they meet the academic, language and other admission requirements of the institution. They should check that their previous qualifications are accepted for the program they choose."
     },
     {
-      "q": "What are the typical tuition fees for Physiotherapy in Denmark?",
-      "a": "Tuition fees for international students generally range between DKK 60,000 and DKK 120,000 per year, depending on the institution and level of study."
+      "q": "Q3. Are physiotherapy courses in Denmark taught in English?",
+      "a": "Most professional physiotherapy programs are taught in Danish, as clinical placements involve communication with patients. Some related postgraduate courses may be delivered in English. Applicants should confirm the language of instruction for each course."
     },
     {
-      "q": "Can international students work while studying in Denmark?",
-      "a": "Yes, non-EU international students with a valid Danish residence permit are legally permitted to work part-time (up to 20 hours per week) during semester periods and full-time during June, July, and August."
+      "q": "Q4. How much does it cost to study physiotherapy in Denmark in Indian rupees?",
+      "a": "Living costs are estimated to be between \u20b98.9 lakh and \u20b916.8 lakh a year. Tuition fees vary depending on the institution, the program and your citizenship. Students should contact the institution of their choice for current fee information."
+    },
+    {
+      "q": "Q5. Are international graduates allowed to work as physiotherapists in Denmark?",
+      "a": "Potentially, depending on relevant qualification recognition, professional authorization, language and employment requirements. Graduates should check the current rules before planning to practise. Choosing **Physiotherapy in Denmark** requires careful planning around university selection, academic eligibility, language proficiency, tuition fees and professional authorization. Students should compare official course details and check the latest admission conditions before applying. **Edu-Hawk Worldwide** provides study-abroad guidance, university selection information and application planning support for students interested in international education. For students who wish to explore physiotherapy and other healthcare courses abroad, **Edu-Hawk Worldwide** can help them understand available study options and prepare for their next academic journey."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

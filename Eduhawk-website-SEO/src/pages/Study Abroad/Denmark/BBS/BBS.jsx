@@ -7,6 +7,11 @@ import heroBgImg from "../../../../Images/Abroad/Denmark/BBS/hero_bg.webp";
 import sideImg from "../../../../Images/Abroad/Denmark/BBS/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Denmark/BBS/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../Images/Abroad/Denmark/BBS/image1.png";
+import uniImg2 from "../../../../Images/Abroad/Denmark/BBS/image2.png";
+import uniImg3 from "../../../../Images/Abroad/Denmark/BBS/image3.png";
+
 const page = {
   "name": "BBS",
   "country": "Denmark",
@@ -19,48 +24,48 @@ const page = {
     "Comprehensive guide to studying BBS in Denmark for Indian students."
   ],
   "overview": [
-    "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Denmark for BBS in Denmark."
+    "Explore top accredited Danish universities, tuition costs, eligibility, and visa procedures for BBS."
   ],
   "level": "Bachelor of Business Studies",
   "crumb": "BBS",
   "stats": [
     {
-      "val": "DKK 60K-120K",
+      "val": "DKK 60K-130K",
       "label": "Tuition / Year"
     },
     {
-      "val": "20 Hrs/Wk",
-      "label": "Part-Time Work"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
       "val": "3-4 Years",
       "label": "Course Duration"
     },
     {
-      "val": "English",
-      "label": "Medium of Study"
+      "val": "20 Hrs/Week",
+      "label": "Part-Time Work"
     }
   ],
   "highlights": [
     {
       "icon": "FaAward",
-      "title": "World-Class Nordic Education",
-      "desc": "Study in Denmark's globally ranked universities featuring innovative Problem-Based Learning (PBL) and state-of-the-art research."
+      "title": "World Top-100 Universities",
+      "desc": "Study in globally respected Danish institutions including University of Copenhagen, DTU, and Aarhus University."
     },
     {
       "icon": "FaGraduationCap",
-      "title": "English-Taught Degrees",
-      "desc": "Wide range of bachelor's and master's degrees delivered entirely in English with international accreditation."
+      "title": "Innovative PBL Learning",
+      "desc": "Problem-Based Learning model focusing on collaborative projects, real-world applications, and critical analysis."
     },
     {
       "icon": "FaFileAlt",
-      "title": "Generous Post-Study Work",
-      "desc": "Denmark offers post-study work permits for international graduates to start European careers in high-demand industries."
+      "title": "High Living Standard & Safety",
+      "desc": "Denmark consistently ranks among the happiest, safest, and most progressive countries in the world."
     },
     {
       "icon": "FaCheckCircle",
-      "title": "High Quality of Life",
-      "desc": "Consistently ranked among the world's happiest, safest, and most sustainable countries with vibrant student communities."
+      "title": "Post-Study Work Visa",
+      "desc": "Non-EU graduates are eligible for post-study residence permits to seek employment and build global careers."
     }
   ],
   "sections": [
@@ -68,11 +73,11 @@ const page = {
       "slot": "why",
       "eyebrow": "Why Denmark",
       "title": "Why choose BBS in Denmark?",
+      "lead": "Essential details regarding bbs in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**1\\. Why choose BBS in Denmark?**",
             "Denmark offers international students the opportunity to study business, economics, management and international trade in an innovative learning environment. Universities in Denmark place emphasis on practical projects, teamwork, critical thinking and real-world business applications.",
             "Students can obtain a **Bachelor of Business Studies in Denmark** or a related undergraduate business degree to learn about business operations, marketing, accounting, economics, and organizational management. It may also be a launchpad for postgraduate study in management, international business, finance or an MBA.",
             "Key benefits are:"
@@ -94,11 +99,11 @@ const page = {
       "slot": "courses",
       "eyebrow": "Degrees & Pathways",
       "title": "BBS Courses in Denmark",
+      "lead": "Essential details regarding bbs in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**2\\. BBS Courses in Denmark**",
             "Students may investigate equivalent BBS and associated undergraduate programs in business and management.",
             "Common subject areas include:"
           ]
@@ -128,57 +133,95 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Leading Business Schools in Denmark",
-      "lead": "Explore leading universities and institutions in Denmark offering accredited BBS in Denmark programmes, world-class research facilities, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Denmark offering accredited BBS programmes, modern campuses, and international student support.",
+      "unis": [
         {
           "name": "University of Copenhagen (UCPH)",
           "location": "Copenhagen, Denmark",
           "fee": "DKK 65,000 \u2013 120,000 / Year",
           "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
           "name": "Technical University of Denmark (DTU)",
           "location": "Kongens Lyngby, Denmark",
           "fee": "DKK 75,000 \u2013 115,000 / Year",
           "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-          "img_var": "null"
+          "img": uniImg2
         },
         {
           "name": "Aarhus University (AU)",
           "location": "Aarhus, Denmark",
           "fee": "DKK 60,000 \u2013 110,000 / Year",
           "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-          "img_var": "null"
+          "img": uniImg3
         },
         {
           "name": "Aalborg University (AAU)",
           "location": "Aalborg, Denmark",
           "fee": "DKK 58,000 \u2013 105,000 / Year",
           "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
-          "name": "Copenhagen Business School (CBS)",
-          "location": "Frederiksberg, Denmark",
-          "fee": "DKK 70,000 \u2013 130,000 / Year",
-          "desc": "Triple-crown accredited business institution recognized across Europe for excellence in management, economics, and finance.",
-          "img_var": "null"
+          "name": "University of Southern Denmark (SDU)",
+          "location": "Odense, Denmark",
+          "fee": "DKK 62,000 \u2013 115,000 / Year",
+          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+          "img": uniImg2
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "University of Copenhagen (UCPH)",
+          "location": "Copenhagen, Denmark",
+          "fee": "DKK 65,000 \u2013 120,000 / Year",
+          "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
+          "img": uniImg1
+        },
+        {
+          "name": "Technical University of Denmark (DTU)",
+          "location": "Kongens Lyngby, Denmark",
+          "fee": "DKK 75,000 \u2013 115,000 / Year",
+          "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
+          "img": uniImg2
+        },
+        {
+          "name": "Aarhus University (AU)",
+          "location": "Aarhus, Denmark",
+          "fee": "DKK 60,000 \u2013 110,000 / Year",
+          "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
+          "img": uniImg3
+        },
+        {
+          "name": "Aalborg University (AAU)",
+          "location": "Aalborg, Denmark",
+          "fee": "DKK 58,000 \u2013 105,000 / Year",
+          "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
+          "img": uniImg1
+        },
+        {
+          "name": "University of Southern Denmark (SDU)",
+          "location": "Odense, Denmark",
+          "fee": "DKK 62,000 \u2013 115,000 / Year",
+          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+          "img": uniImg2
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
+        "Tuition fees are indicative and subject to annual review by Danish higher education institutions.",
+        "EU/EEA students may study tuition-free; international fees apply to non-EU/EEA citizens."
       ]
     },
     {
       "slot": "eligibility",
       "eyebrow": "Eligibility Criteria",
       "title": "Who can study BBS in Denmark?",
+      "lead": "Essential details regarding bbs in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**4\\. Who can study BBS in Denmark?**",
             "Indian students generally require:"
           ]
         },
@@ -204,11 +247,11 @@ const page = {
       "slot": "requirements",
       "eyebrow": "Admission Requirements",
       "title": "BBS Admission Requirements in Denmark",
+      "lead": "Essential details regarding bbs in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**5\\. BBS Admission Requirements in Denmark**",
             "Applicants are usually required to submit academic transcripts and evidence of meeting the programme\u2019s admission requirements.",
             "Common requirements include:"
           ]
@@ -234,11 +277,11 @@ const page = {
       "slot": "fees",
       "eyebrow": "Tuition & Living Costs",
       "title": "BBS Fees in Denmark",
+      "lead": "Essential details regarding bbs in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**6\\. BBS Fees in Denmark**",
             "These are general estimates for planning purposes for Indian students. The real tuition fees depend on the school and the course."
           ]
         },
@@ -284,13 +327,8 @@ const page = {
       "slot": "timeline",
       "eyebrow": "Admission Procedure",
       "title": "BBS Admission Procedure in Denmark",
+      "lead": "Essential details regarding bbs in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "**7\\. BBS Admission Procedure in Denmark**"
-          ]
-        },
         {
           "t": "ul",
           "items": [
@@ -316,11 +354,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Further Studies & Scope",
       "title": "Accreditation and Recognition",
+      "lead": "Essential details regarding bbs in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**8\\. Accreditation and Recognition**",
             "Before enrolling, students should check that the institution is officially recognized in Denmark and verify the qualification awarded at graduation.",
             "It\u2019s also useful to compare course content, internship opportunities, industry connections, international exchange options and further-study pathways. If you are planning to do a master\u2019s degree or an MBA, check the eligibility criteria of the institutes you want to join."
           ]
@@ -331,11 +369,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Career Opportunities",
       "title": "Job opportunities after BBS Denmark",
+      "lead": "Essential details regarding bbs in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**9\\. Job opportunities after BBS Denmark**",
             "A degree in business studies can equip graduates for entry-level jobs in a variety of fields.",
             "Possible careers include:"
           ]
@@ -368,11 +406,11 @@ const page = {
       "slot": "documents",
       "eyebrow": "Required Documentation",
       "title": "BBS in Denmark Documents Required",
+      "lead": "Essential details regarding bbs in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**10\\. BBS in Denmark Documents Required**",
             "Students might need:"
           ]
         },
@@ -404,53 +442,57 @@ const page = {
       "location": "Copenhagen, Denmark",
       "fee": "DKK 65,000 \u2013 120,000 / Year",
       "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
       "name": "Technical University of Denmark (DTU)",
       "location": "Kongens Lyngby, Denmark",
       "fee": "DKK 75,000 \u2013 115,000 / Year",
       "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-      "img_var": "null"
+      "img": uniImg2
     },
     {
       "name": "Aarhus University (AU)",
       "location": "Aarhus, Denmark",
       "fee": "DKK 60,000 \u2013 110,000 / Year",
       "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-      "img_var": "null"
+      "img": uniImg3
     },
     {
       "name": "Aalborg University (AAU)",
       "location": "Aalborg, Denmark",
       "fee": "DKK 58,000 \u2013 105,000 / Year",
       "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
-      "name": "Copenhagen Business School (CBS)",
-      "location": "Frederiksberg, Denmark",
-      "fee": "DKK 70,000 \u2013 130,000 / Year",
-      "desc": "Triple-crown accredited business institution recognized across Europe for excellence in management, economics, and finance.",
-      "img_var": "null"
+      "name": "University of Southern Denmark (SDU)",
+      "location": "Odense, Denmark",
+      "fee": "DKK 62,000 \u2013 115,000 / Year",
+      "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+      "img": uniImg2
     }
   ],
   "faqs": [
     {
-      "q": "Can Indian students apply for BBS in Denmark?",
-      "a": "Yes, Indian students with qualifying credentials meeting English language proficiency (IELTS/TOEFL) and academic prerequisites can apply to recognized universities in Denmark."
+      "q": "Q1. What is the meaning of BBS?",
+      "a": "BBS is generally an abbreviation for Bachelor of Business Studies. It is a bachelor's degree focusing on business and management."
     },
     {
-      "q": "What is the medium of instruction for BBS in Denmark?",
-      "a": "Most master's and international bachelor's degree programmes are taught entirely in English for international students across Danish universities."
+      "q": "Q2. Is BBS in Denmark after Class 12 possible for Indian students?",
+      "a": "Yes, provided they fulfill the academic, subject and language requirements for the selected program."
     },
     {
-      "q": "What are the typical tuition fees for BBS in Denmark?",
-      "a": "Tuition fees for international students generally range between DKK 60,000 and DKK 120,000 per year, depending on the institution and level of study."
+      "q": "Q3. How long does a bachelor degree like BBS take?",
+      "a": "A bachelor\u2019s degree in business normally takes three years, but program length can vary."
     },
     {
-      "q": "Can international students work while studying in Denmark?",
-      "a": "Yes, non-EU international students with a valid Danish residence permit are legally permitted to work part-time (up to 20 hours per week) during semester periods and full-time during June, July, and August."
+      "q": "Q4. Are there any BBS programs taught in English in Denmark?",
+      "a": "There are some English-taught undergraduate business programs but most bachelor\u2019s programs are taught in Danish. Students should check the language of instruction prior to application."
+    },
+    {
+      "q": "Q5. Can I pursue MBA after BBS?",
+      "a": "Yes. Graduates may apply to MBA programs if they meet the university\u2019s academic requirements and any professional experience criteria. **Edu-Hawk Worldwide** helps students explore business study options, understand university requirements and plan their study-abroad applications for **BBS in Denmark**."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

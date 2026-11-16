@@ -7,6 +7,12 @@ import heroBgImg from "../../../../Images/Abroad/Denmark/Law/hero_bg.webp";
 import sideImg from "../../../../Images/Abroad/Denmark/Law/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Denmark/Law/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../Images/Abroad/Denmark/Law/image1.png";
+import uniImg2 from "../../../../Images/Abroad/Denmark/Law/image2.png";
+import uniImg3 from "../../../../Images/Abroad/Denmark/Law/image3.png";
+import uniImg4 from "../../../../Images/Abroad/Denmark/Law/image4.png";
+
 const page = {
   "name": "Law",
   "country": "Denmark",
@@ -19,48 +25,48 @@ const page = {
     "Comprehensive guide to studying Law in Denmark for Indian students."
   ],
   "overview": [
-    "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Denmark for Law in Denmark."
+    "Explore top accredited Danish universities, tuition costs, eligibility, and visa procedures for Law."
   ],
   "level": "LLB & LLM in Law",
   "crumb": "Law",
   "stats": [
     {
-      "val": "DKK 60K-120K",
+      "val": "DKK 60K-130K",
       "label": "Tuition / Year"
     },
     {
-      "val": "20 Hrs/Wk",
-      "label": "Part-Time Work"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
       "val": "3-4 Years",
       "label": "Course Duration"
     },
     {
-      "val": "English",
-      "label": "Medium of Study"
+      "val": "20 Hrs/Week",
+      "label": "Part-Time Work"
     }
   ],
   "highlights": [
     {
       "icon": "FaAward",
-      "title": "World-Class Nordic Education",
-      "desc": "Study in Denmark's globally ranked universities featuring innovative Problem-Based Learning (PBL) and state-of-the-art research."
+      "title": "World Top-100 Universities",
+      "desc": "Study in globally respected Danish institutions including University of Copenhagen, DTU, and Aarhus University."
     },
     {
       "icon": "FaGraduationCap",
-      "title": "English-Taught Degrees",
-      "desc": "Wide range of bachelor's and master's degrees delivered entirely in English with international accreditation."
+      "title": "Innovative PBL Learning",
+      "desc": "Problem-Based Learning model focusing on collaborative projects, real-world applications, and critical analysis."
     },
     {
       "icon": "FaFileAlt",
-      "title": "Generous Post-Study Work",
-      "desc": "Denmark offers post-study work permits for international graduates to start European careers in high-demand industries."
+      "title": "High Living Standard & Safety",
+      "desc": "Denmark consistently ranks among the happiest, safest, and most progressive countries in the world."
     },
     {
       "icon": "FaCheckCircle",
-      "title": "High Quality of Life",
-      "desc": "Consistently ranked among the world's happiest, safest, and most sustainable countries with vibrant student communities."
+      "title": "Post-Study Work Visa",
+      "desc": "Non-EU graduates are eligible for post-study residence permits to seek employment and build global careers."
     }
   ],
   "sections": [
@@ -68,11 +74,11 @@ const page = {
       "slot": "why",
       "eyebrow": "Why Denmark",
       "title": "Why Study Law in Denmark?",
+      "lead": "Essential details regarding law in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**1\\. Why Study Law in Denmark?**",
             "**Law in Denmark** offers opportunities for students interested in the study of law, international law, European law, business law and human rights. A study of law in Denmark can assist students in comprehending European legal systems, international regulations, commercial agreements and the relationship between law and society. Students considering a **Bachelor of Laws in Denmark** or a **Master of Laws in Denmark** should understand the academic and professional opportunities available before selecting a program.",
             "Analytical thinking, research, case-based learning and understanding of legal principles in practical contexts are emphasized at Danish universities. But many Danish law degrees are taught in Danish and English taught options might be more common at the postgraduate level in specialized fields. Exploring available **Law courses in Denmark** can help students identify programs that match their academic interests and career plans.",
             "Main benefits are:"
@@ -101,11 +107,11 @@ const page = {
       "slot": "courses",
       "eyebrow": "Degrees & Pathways",
       "title": "Law Studies in Denmark",
+      "lead": "Essential details regarding law in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**2\\. Law Studies in Denmark**",
             "Law-related programs are available at various academic levels but course titles, teaching languages and professional recognition vary from institution to institution. Students interested in a **Bachelor of Laws in Denmark** can explore undergraduate legal education, while those who already hold a qualifying law degree may consider a **Master of Laws in Denmark** or a specialist postgraduate program.",
             "Choices at the bachelor's level are:"
           ]
@@ -152,59 +158,96 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Top Universities in Denmark to Study Law",
-      "lead": "Explore leading universities and institutions in Denmark offering accredited Law in Denmark programmes, world-class research facilities, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Denmark offering accredited Law programmes, modern campuses, and international student support.",
+      "unis": [
         {
           "name": "University of Copenhagen (UCPH)",
           "location": "Copenhagen, Denmark",
           "fee": "DKK 65,000 \u2013 120,000 / Year",
           "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
           "name": "Technical University of Denmark (DTU)",
           "location": "Kongens Lyngby, Denmark",
           "fee": "DKK 75,000 \u2013 115,000 / Year",
           "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-          "img_var": "null"
+          "img": uniImg2
         },
         {
           "name": "Aarhus University (AU)",
           "location": "Aarhus, Denmark",
           "fee": "DKK 60,000 \u2013 110,000 / Year",
           "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-          "img_var": "null"
+          "img": uniImg3
         },
         {
           "name": "Aalborg University (AAU)",
           "location": "Aalborg, Denmark",
           "fee": "DKK 58,000 \u2013 105,000 / Year",
           "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-          "img_var": "null"
+          "img": uniImg4
         },
         {
-          "name": "Copenhagen Business School (CBS)",
-          "location": "Frederiksberg, Denmark",
-          "fee": "DKK 70,000 \u2013 130,000 / Year",
-          "desc": "Triple-crown accredited business institution recognized across Europe for excellence in management, economics, and finance.",
-          "img_var": "null"
+          "name": "University of Southern Denmark (SDU)",
+          "location": "Odense, Denmark",
+          "fee": "DKK 62,000 \u2013 115,000 / Year",
+          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+          "img": uniImg1
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "University of Copenhagen (UCPH)",
+          "location": "Copenhagen, Denmark",
+          "fee": "DKK 65,000 \u2013 120,000 / Year",
+          "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
+          "img": uniImg1
+        },
+        {
+          "name": "Technical University of Denmark (DTU)",
+          "location": "Kongens Lyngby, Denmark",
+          "fee": "DKK 75,000 \u2013 115,000 / Year",
+          "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
+          "img": uniImg2
+        },
+        {
+          "name": "Aarhus University (AU)",
+          "location": "Aarhus, Denmark",
+          "fee": "DKK 60,000 \u2013 110,000 / Year",
+          "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
+          "img": uniImg3
+        },
+        {
+          "name": "Aalborg University (AAU)",
+          "location": "Aalborg, Denmark",
+          "fee": "DKK 58,000 \u2013 105,000 / Year",
+          "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
+          "img": uniImg4
+        },
+        {
+          "name": "University of Southern Denmark (SDU)",
+          "location": "Odense, Denmark",
+          "fee": "DKK 62,000 \u2013 115,000 / Year",
+          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+          "img": uniImg1
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
+        "Tuition fees are indicative and subject to annual review by Danish higher education institutions.",
+        "EU/EEA students may study tuition-free; international fees apply to non-EU/EEA citizens."
       ]
     },
     {
       "slot": "eligibility",
       "eyebrow": "Eligibility Criteria",
       "title": "Who can study law in Denmark?",
+      "lead": "Essential details regarding law in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**4\\. Who can study law in Denmark?**",
             "Students planning a **Bachelor of Laws in Denmark** or a **Master of Laws in Denmark** should check the academic and language criteria of their chosen institution. The **Law admission requirements in Denmark** can differ depending on the degree level and specialization.",
-            "**Eligibility for Bachelor\u2019s**",
             "Applicants typically require:"
           ]
         },
@@ -221,7 +264,6 @@ const page = {
         {
           "t": "p",
           "items": [
-            "**Eligibility for Masters**",
             "Applicants will generally need:"
           ]
         },
@@ -248,11 +290,11 @@ const page = {
       "slot": "requirements",
       "eyebrow": "Admission Requirements",
       "title": "Admission Requirements to Law in Denmark",
+      "lead": "Essential details regarding law in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**5\\. Admission Requirements to Law in Denmark**",
             "Universities will consider applications on the basis of the program chosen. Requirements may include academic grades, subject prerequisites, language proficiency and supporting documents. Applicants planning to pursue a **Bachelor of Laws in Denmark** or a **Master of Laws in Denmark** should check the relevant application process for their selected qualification.",
             "Applicants to specialist postgraduate programs may be asked to demonstrate relevant knowledge of international law, commercial law, human rights or other related areas.",
             "Before applying, check the program language, eligibility requirements, application deadline and if the qualification will support your intended career path."
@@ -264,11 +306,11 @@ const page = {
       "slot": "fees",
       "eyebrow": "Tuition & Living Costs",
       "title": "What is the Price of Studying Law in Denmark?",
+      "lead": "Essential details regarding law in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**6\\. What is the Price of Studying Law in Denmark?**",
             "These numbers are approximate for international students from non-EU/EEA countries. Tuition depends on the university, the program and the fee schedule at the time. Students comparing **Law courses in Denmark** should consider tuition fees, living expenses and other study-related costs when planning their budgets."
           ]
         },
@@ -320,11 +362,11 @@ const page = {
       "slot": "timeline",
       "eyebrow": "Admission Procedure",
       "title": "How to get admitted to study law in Denmark",
+      "lead": "Essential details regarding law in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**7\\. How to get admitted to study law in Denmark**",
             "The admission process for **Law in Denmark** involves selecting a suitable specialization, checking academic eligibility and preparing the required documents. Students should understand the application process before applying to a **Bachelor of Laws in Denmark** or a **Master of Laws in Denmark** program.",
             "Select your specialization: Choose general legal studies, business law, international law or some other field of law.",
             "Make a list of colleges to apply to: Compare course language, course curriculum, course duration and career outcomes.",
@@ -343,11 +385,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Further Studies & Scope",
       "title": "Recognition and Professional Accreditation",
+      "lead": "Essential details regarding law in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**8\\. Recognition and Professional Accreditation**",
             "Before you enrolll for a law degree, ensure that the institution is recognized and the qualification it awards. The recognition of the academic title and the right to exercise the profession are two distinct issues.",
             "Students intending to practice in India should check the relevant requirements with the Bar Council of India before enrolling. Do not assume that a foreign law degree automatically qualifies you to practice in India.",
             "Those wishing to qualify as lawyers in Denmark may be subject to professional rules and nationality related restrictions. In Denmark the rules for foreign lawyers are set out in official guidance."
@@ -359,11 +401,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Career Opportunities",
       "title": "Job Opportunities Law, B.A.",
+      "lead": "Essential details regarding law in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**9\\. Job Opportunities Law, B.A.**",
             "Law graduates may find openings in legal research, business, compliance, public policy, international organizations and corporate services. Specific roles will be defined using degree, language skills, work authorization and professional qualifications.",
             "Possible career routes are:"
           ]
@@ -394,14 +436,8 @@ const page = {
       "slot": "documents",
       "eyebrow": "Required Documentation",
       "title": "Required documents",
+      "lead": "Essential details regarding law in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "**10\\. Required documents**",
-            "**For Bachelor\u2019s Degree Applicants**"
-          ]
-        },
         {
           "t": "ul",
           "items": [
@@ -412,12 +448,6 @@ const page = {
             "Language proficiency results, if needed",
             "Letter of motivation if required",
             "Certified translations where applicable"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "**For M.A. Candidates:**"
           ]
         },
         {
@@ -448,53 +478,57 @@ const page = {
       "location": "Copenhagen, Denmark",
       "fee": "DKK 65,000 \u2013 120,000 / Year",
       "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
       "name": "Technical University of Denmark (DTU)",
       "location": "Kongens Lyngby, Denmark",
       "fee": "DKK 75,000 \u2013 115,000 / Year",
       "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-      "img_var": "null"
+      "img": uniImg2
     },
     {
       "name": "Aarhus University (AU)",
       "location": "Aarhus, Denmark",
       "fee": "DKK 60,000 \u2013 110,000 / Year",
       "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-      "img_var": "null"
+      "img": uniImg3
     },
     {
       "name": "Aalborg University (AAU)",
       "location": "Aalborg, Denmark",
       "fee": "DKK 58,000 \u2013 105,000 / Year",
       "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-      "img_var": "null"
+      "img": uniImg4
     },
     {
-      "name": "Copenhagen Business School (CBS)",
-      "location": "Frederiksberg, Denmark",
-      "fee": "DKK 70,000 \u2013 130,000 / Year",
-      "desc": "Triple-crown accredited business institution recognized across Europe for excellence in management, economics, and finance.",
-      "img_var": "null"
+      "name": "University of Southern Denmark (SDU)",
+      "location": "Odense, Denmark",
+      "fee": "DKK 62,000 \u2013 115,000 / Year",
+      "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+      "img": uniImg1
     }
   ],
   "faqs": [
     {
-      "q": "Can Indian students apply for Law in Denmark?",
-      "a": "Yes, Indian students with qualifying credentials meeting English language proficiency (IELTS/TOEFL) and academic prerequisites can apply to recognized universities in Denmark."
+      "q": "Q1. Can Indian students pursue Law in Denmark after Class 12?",
+      "a": "Yes, as long as they meet the admission requirements for a relevant bachelor\u2019s program. Many of the standard Danish law degrees are taught in Danish though, which is an important factor to consider for international applicants."
     },
     {
-      "q": "What is the medium of instruction for Law in Denmark?",
-      "a": "Most master's and international bachelor's degree programmes are taught entirely in English for international students across Danish universities."
+      "q": "Q2. Is it possible to study Law in Denmark in English?",
+      "a": "There are a few specialized law-related courses that may be taught in English, but full professional law degrees in English are limited. For the latest teaching language and curriculum, please visit the university\u2019s official website."
     },
     {
-      "q": "What are the typical tuition fees for Law in Denmark?",
-      "a": "Tuition fees for international students generally range between DKK 60,000 and DKK 120,000 per year, depending on the institution and level of study."
+      "q": "Q3. What is the duration of Law Study in Denmark?",
+      "a": "Typically, a bachelor\u2019s degree takes around three years and a master\u2019s degree around two years, although this can vary for professional qualification routes and individual programs."
     },
     {
-      "q": "Can international students work while studying in Denmark?",
-      "a": "Yes, non-EU international students with a valid Danish residence permit are legally permitted to work part-time (up to 20 hours per week) during semester periods and full-time during June, July, and August."
+      "q": "Q4. If I study law in Denmark, will I be able to practise in India?",
+      "a": "Not by default. You should check with the Bar Council of India before you select your program to ensure that your foreign-law-degree is recognized and that you will be eligible to practice law."
+    },
+    {
+      "q": "Q5. How much does it cost to study Law in Denmark?",
+      "a": "Tuition and living costs depend on the university, program and length of study. Please use the estimates in this guide for initial planning and confirm the exact fees with the institution."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

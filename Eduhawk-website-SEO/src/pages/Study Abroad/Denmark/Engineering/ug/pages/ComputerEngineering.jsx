@@ -7,60 +7,65 @@ import heroBgImg from "../../../../../../Images/Abroad/Denmark/Engineering_UG/Co
 import sideImg from "../../../../../../Images/Abroad/Denmark/Engineering_UG/Computer/side.webp";
 import ctaBgImg from "../../../../../../Images/Abroad/Denmark/Engineering_UG/Computer/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../../../Images/Abroad/Denmark/Engineering_UG/Computer/image1.png";
+import uniImg2 from "../../../../../../Images/Abroad/Denmark/Engineering_UG/Computer/image2.png";
+import uniImg3 from "../../../../../../Images/Abroad/Denmark/Engineering_UG/Computer/image3.png";
+
 const page = {
-  "name": "Computer Engineering (UG)",
+  "name": "Computer Engineering",
   "country": "Denmark",
   "slug": "ug/computer-engineering",
-  "title": "Computer Engineering (UG) in Denmark for Indian Students | Edu-Hawk Worldwide",
-  "description": "Study Computer Engineering (UG) in Denmark: Top universities, course duration, tuition fees in DKK & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study Computer Engineering (UG) in Denmark, Computer Engineering (UG) in Denmark for Indian Students, Best Universities in Denmark, Denmark Computer Engineering (UG) Admission, Cost of Studying in Denmark, Edu-Hawk Worldwide",
-  "introTitle": "Computer Engineering (UG) in Denmark for Indian Students",
+  "title": "Computer Engineering in Denmark for Indian Students | Edu-Hawk Worldwide",
+  "description": "Study Computer Engineering in Denmark: Top universities, course duration, tuition fees in DKK & INR, eligibility criteria, admission process & visa requirements for Indian students.",
+  "keywords": "Study Computer Engineering in Denmark, Computer Engineering in Denmark for Indian Students, Best Universities in Denmark, Denmark Computer Engineering Admission, Cost of Studying in Denmark, Edu-Hawk Worldwide",
+  "introTitle": "Computer Engineering in Denmark for Indian Students",
   "heroParas": [
-    "Comprehensive guide to studying Computer Engineering (UG) in Denmark for Indian students."
+    "Comprehensive guide to studying Computer Engineering in Denmark for Indian students."
   ],
   "overview": [
-    "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Denmark for Computer Engineering (UG) in Denmark."
+    "Explore top accredited Danish universities, tuition costs, eligibility, and visa procedures for Computer Engineering."
   ],
   "level": "B.Eng / B.Sc. Computer Engineering",
   "crumb": "Engineering / UG Engineering",
   "stats": [
     {
-      "val": "DKK 60K-120K",
+      "val": "DKK 60K-130K",
       "label": "Tuition / Year"
     },
     {
-      "val": "20 Hrs/Wk",
-      "label": "Part-Time Work"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
       "val": "3-4 Years",
       "label": "Course Duration"
     },
     {
-      "val": "English",
-      "label": "Medium of Study"
+      "val": "20 Hrs/Week",
+      "label": "Part-Time Work"
     }
   ],
   "highlights": [
     {
       "icon": "FaAward",
-      "title": "World-Class Nordic Education",
-      "desc": "Study in Denmark's globally ranked universities featuring innovative Problem-Based Learning (PBL) and state-of-the-art research."
+      "title": "World Top-100 Universities",
+      "desc": "Study in globally respected Danish institutions including University of Copenhagen, DTU, and Aarhus University."
     },
     {
       "icon": "FaGraduationCap",
-      "title": "English-Taught Degrees",
-      "desc": "Wide range of bachelor's and master's degrees delivered entirely in English with international accreditation."
+      "title": "Innovative PBL Learning",
+      "desc": "Problem-Based Learning model focusing on collaborative projects, real-world applications, and critical analysis."
     },
     {
       "icon": "FaFileAlt",
-      "title": "Generous Post-Study Work",
-      "desc": "Denmark offers post-study work permits for international graduates to start European careers in high-demand industries."
+      "title": "High Living Standard & Safety",
+      "desc": "Denmark consistently ranks among the happiest, safest, and most progressive countries in the world."
     },
     {
       "icon": "FaCheckCircle",
-      "title": "High Quality of Life",
-      "desc": "Consistently ranked among the world's happiest, safest, and most sustainable countries with vibrant student communities."
+      "title": "Post-Study Work Visa",
+      "desc": "Non-EU graduates are eligible for post-study residence permits to seek employment and build global careers."
     }
   ],
   "sections": [
@@ -68,11 +73,11 @@ const page = {
       "slot": "why",
       "eyebrow": "Why Denmark",
       "title": "Why Computer Engineering in Denmark?",
+      "lead": "Essential details regarding computer engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**1\\. Why Computer Engineering in Denmark?**",
             "A **Bachelor\u2019s in Computer Engineering in Denmark** gives students the opportunity to develop technical skills in computer hardware, software systems, electronics and embedded technologies. Danish engineering education is based on practical learning, teamwork, problem solving and project-based assignments.",
             "Students can take courses in digital circuits, computer architecture, programming, microprocessors, robotics, and intelligent electronic devices. Denmark is also a home to technology-driven industries such as automation, telecommunications, energy and digital solutions. The areas make C**omputer Engineering in Denmark** an interesting option for Indian students who want to develop technical and engineering skills in an international academic environment.",
             "Among the key benefits are:"
@@ -101,19 +106,16 @@ const page = {
       "slot": "courses",
       "eyebrow": "Degrees & Pathways",
       "title": "Computer Engineering Education in Denmark",
+      "lead": "Essential details regarding computer engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**2\\. Computer Engineering Education in Denmark**",
             "Computer engineering is the merging of computer science with electronics and hardware design. Students should distinguish it from computer science, which has a much heavier emphasis on algorithms, software and computing theory.",
-            "**Computer Engineering B.S.**",
             "In Denmark, a BSc in Computer Engineering usually takes about three years to complete. The curriculum may cover mathematics, programming, computer architecture, digital systems, electronics and embedded computing.",
             "At DTU, the BSc Computer Engineering program covers software and hardware structures, digital circuits, electronics and computer architecture. The program is taught in Danish.",
-            "**Bachelor of Engineering in Computer Engineering**",
             "A BEng in Computer Engineering usually specializes in practical engineering, hardware platforms, software development, digital electronics and embedded systems.",
             "DTU's BEng program is a three-and-a-half-year degree with a six-month internship period. The language of instruction is Danish.",
-            "**Related Undergraduate Degrees**",
             "Students looking to study in English can also look at related fields such as:"
           ]
         },
@@ -139,50 +141,67 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Best Universities for Computer Engineering in Denmark",
-      "lead": "Explore leading universities and institutions in Denmark offering accredited Computer Engineering (UG) in Denmark programmes, world-class research facilities, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Denmark offering accredited Computer Engineering programmes, modern campuses, and international student support.",
+      "unis": [
         {
           "name": "Technical University of Denmark (DTU)",
-          "location": "Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
+          "location": "Technical University of Denmark (DTU)",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
           "desc": "DTU offers BSc and BEng programs in Computer Engineering, with a focus on hardware, electronics, programming and computer systems. Both programs are taught in Danish.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
           "name": "Aarhus University",
-          "location": "Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
+          "location": "Aarhus University, Denmark",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
           "desc": "Aarhus University has a bachelor's degree program in Computer Science taught in English. It is a related option for students interested in software, algorithms and computing systems.",
-          "img_var": "null"
+          "img": uniImg2
         },
         {
           "name": "University of Southern Denmark (SDU)",
-          "location": "Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
-          "desc": "The University of Southern Denmark offers a bachelor's program in Software Engineering taught in English and is an alternative for students interested in software development and engineering.",
-          "img_var": "null"
+          "location": "University of Southern Denmark (SDU)",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
+          "desc": "The University of Southern Denmark offers a bachelor's program in Software Engineering taught in English and is an alternative for students interested in software development and engineering. These programs are not interchangeable. Computer Engineering is generally more hardware- and electronics-oriented, whereas Computer Science and Software Engineering are more software- and computing-systems-oriented. Students should compare the **Computer Engineering universities in Denmark** and related institutions according to their academic interests and future plans.",
+          "img": uniImg3
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "Technical University of Denmark (DTU)",
+          "location": "Technical University of Denmark (DTU)",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
+          "desc": "DTU offers BSc and BEng programs in Computer Engineering, with a focus on hardware, electronics, programming and computer systems. Both programs are taught in Danish.",
+          "img": uniImg1
         },
         {
-          "name": "IT University of Copenhagen",
-          "location": "Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
-          "desc": "The IT University of Copenhagen offers bachelor's programs with a focus on computing, such as Software Development and Data Science. Students should check the language and program availability for their desired intake date. These programs are not interchangeable. Computer Engineering is generally more hardware- and electronics-oriented, whereas Computer Science and Software Engineering are more software- and computing-systems-oriented. Students should compare the Computer Engineering universities in Denmark and related institutions according to their academic interests and future plans.",
-          "img_var": "null"
+          "name": "Aarhus University",
+          "location": "Aarhus University, Denmark",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
+          "desc": "Aarhus University has a bachelor's degree program in Computer Science taught in English. It is a related option for students interested in software, algorithms and computing systems.",
+          "img": uniImg2
+        },
+        {
+          "name": "University of Southern Denmark (SDU)",
+          "location": "University of Southern Denmark (SDU)",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
+          "desc": "The University of Southern Denmark offers a bachelor's program in Software Engineering taught in English and is an alternative for students interested in software development and engineering. These programs are not interchangeable. Computer Engineering is generally more hardware- and electronics-oriented, whereas Computer Science and Software Engineering are more software- and computing-systems-oriented. Students should compare the **Computer Engineering universities in Denmark** and related institutions according to their academic interests and future plans.",
+          "img": uniImg3
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
+        "Tuition fees are indicative and subject to annual review by Danish higher education institutions.",
+        "EU/EEA students may study tuition-free; international fees apply to non-EU/EEA citizens."
       ]
     },
     {
       "slot": "eligibility",
       "eyebrow": "Eligibility Criteria",
       "title": "Can I Study Computer Engineering in Denmark?",
+      "lead": "Essential details regarding computer engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**4\\. Can I Study Computer Engineering in Denmark?**",
             "International applicants generally require a recognized upper-secondary qualification equivalent to Danish university entrance requirements. Understanding **Computer Engineering eligibility in Denmark** is an important step for international applicants before selecting a university."
           ]
         },
@@ -208,11 +227,11 @@ const page = {
       "slot": "requirements",
       "eyebrow": "Admission Requirements",
       "title": "Denmark Computer Engineering Admission Requirements",
+      "lead": "Essential details regarding computer engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**5\\. Denmark Computer Engineering Admission Requirements**",
             "Students must have the following documents and qualifications ready. These are important **Computer Engineering admission requirements in Denmark** for applicants preparing their university applications:"
           ]
         },
@@ -241,13 +260,12 @@ const page = {
       "slot": "fees",
       "eyebrow": "Tuition & Living Costs",
       "title": "Cost of Computer Engineering in Denmark",
+      "lead": "Essential details regarding computer engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**6\\. Cost of Computer Engineering in Denmark**",
-            "The **Cost of studying Computer Engineering in Denmark** will depend on the university, program, accommodation and lifestyle. Most Indian students who do not have a qualifying tuition fee exemption should budget for tuition and living costs.",
-            "**Estimated Tuition Fees and Living Expenses per Year**"
+            "The **Cost of studying Computer Engineering in Denmark** will depend on the university, program, accommodation and lifestyle. Most Indian students who do not have a qualifying tuition fee exemption should budget for tuition and living costs."
           ]
         },
         {
@@ -284,7 +302,6 @@ const page = {
           "items": [
             "These are general planning estimates, not definitive fees for a specific computer engineering degree. Some schools are more expensive. DTU publishes separate tuition information for its English-taught General Engineering program; fees for other programs may vary.",
             "Students should also budget for application fees, residence-permit costs, travel and first-accommodation deposits. The overall **Cost of studying Computer Engineering in Denmark** can change depending on the city, university and individual lifestyle.",
-            "**Scholarships**",
             "Some universities offer scholarships or tuition waivers to qualifying international students. Availability varies, and students should check the funding conditions of individual institutions. **Computer Engineering in Denmark for Indian students** may involve different funding opportunities depending on the university and eligibility criteria."
           ]
         }
@@ -294,11 +311,11 @@ const page = {
       "slot": "timeline",
       "eyebrow": "Admission Procedure",
       "title": "How to Get Into a Computer Engineering Program in Denmark",
+      "lead": "Essential details regarding computer engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**7\\. How to Get Into a Computer Engineering Program in Denmark**",
             "The usual admission process consists of the following steps:"
           ]
         },
@@ -329,11 +346,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Further Studies & Scope",
       "title": "Recognition and Accreditation of Degree in Computer Engineering in Denmark",
+      "lead": "Essential details regarding computer engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**8\\. Recognition and Accreditation of Degree in Computer Engineering in Denmark**",
             "Students should consider the academic reputation, curriculum and relevance of the program to their future career before selecting a program."
           ]
         },
@@ -359,13 +376,12 @@ const page = {
       "slot": "careers",
       "eyebrow": "Career Opportunities",
       "title": "Salary and Job Scope in Denmark after Computer Engineering",
+      "lead": "Essential details regarding computer engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**9\\. Salary and Job Scope in Denmark after Computer Engineering**",
-            "Graduates with computer engineering knowledge can find opportunities in technology companies, electronics manufacturing, telecommunications, automation and industrial computing. Career options depend on the student's specialization, technical skills, experience and employer requirements.",
-            "**Popular Career Paths**"
+            "Graduates with computer engineering knowledge can find opportunities in technology companies, electronics manufacturing, telecommunications, automation and industrial computing. Career options depend on the student's specialization, technical skills, experience and employer requirements."
           ]
         },
         {
@@ -379,12 +395,6 @@ const page = {
             "**Robotics Engineer:** Develops control systems and computing technologies for robots.",
             "**Software Developer:** Develops applications and software systems using relevant skills and experience.",
             "**IT Consultant:** Assists organizations in implementing and maintaining technology solutions."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "**Estimated Annual Salary Ranges**"
           ]
         },
         {
@@ -429,13 +439,12 @@ const page = {
       "slot": "documents",
       "eyebrow": "Required Documentation",
       "title": "Required Documents for Studying Computer Engineering in Denmark",
+      "lead": "Essential details regarding computer engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**10\\. Required Documents for Studying Computer Engineering in Denmark**",
-            "Students should prepare the necessary documents for the institution they have chosen.",
-            "**Academic Documents**"
+            "Students should prepare the necessary documents for the institution they have chosen."
           ]
         },
         {
@@ -448,23 +457,11 @@ const page = {
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "**Application Documents**"
-          ]
-        },
-        {
           "t": "ul",
           "items": [
             "Valid passport.",
             "Completed application form.",
             "Letter of motivation or supporting documents, upon request."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "**Financial and Immigration Documents**"
           ]
         },
         {
@@ -488,53 +485,42 @@ const page = {
   "universities": [
     {
       "name": "Technical University of Denmark (DTU)",
-      "location": "Denmark",
-      "fee": "DKK 65,000 \u2013 120,000 / Year",
+      "location": "Technical University of Denmark (DTU)",
+      "fee": "DKK 60,000 \u2013 120,000 / Year",
       "desc": "DTU offers BSc and BEng programs in Computer Engineering, with a focus on hardware, electronics, programming and computer systems. Both programs are taught in Danish.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
       "name": "Aarhus University",
-      "location": "Denmark",
-      "fee": "DKK 65,000 \u2013 120,000 / Year",
+      "location": "Aarhus University, Denmark",
+      "fee": "DKK 60,000 \u2013 120,000 / Year",
       "desc": "Aarhus University has a bachelor's degree program in Computer Science taught in English. It is a related option for students interested in software, algorithms and computing systems.",
-      "img_var": "null"
+      "img": uniImg2
     },
     {
       "name": "University of Southern Denmark (SDU)",
-      "location": "Denmark",
-      "fee": "DKK 65,000 \u2013 120,000 / Year",
-      "desc": "The University of Southern Denmark offers a bachelor's program in Software Engineering taught in English and is an alternative for students interested in software development and engineering.",
-      "img_var": "null"
-    },
-    {
-      "name": "IT University of Copenhagen",
-      "location": "Denmark",
-      "fee": "DKK 65,000 \u2013 120,000 / Year",
-      "desc": "The IT University of Copenhagen offers bachelor's programs with a focus on computing, such as Software Development and Data Science. Students should check the language and program availability for their desired intake date. These programs are not interchangeable. Computer Engineering is generally more hardware- and electronics-oriented, whereas Computer Science and Software Engineering are more software- and computing-systems-oriented. Students should compare the Computer Engineering universities in Denmark and related institutions according to their academic interests and future plans.",
-      "img_var": "null"
+      "location": "University of Southern Denmark (SDU)",
+      "fee": "DKK 60,000 \u2013 120,000 / Year",
+      "desc": "The University of Southern Denmark offers a bachelor's program in Software Engineering taught in English and is an alternative for students interested in software development and engineering. These programs are not interchangeable. Computer Engineering is generally more hardware- and electronics-oriented, whereas Computer Science and Software Engineering are more software- and computing-systems-oriented. Students should compare the **Computer Engineering universities in Denmark** and related institutions according to their academic interests and future plans.",
+      "img": uniImg3
     }
   ],
   "faqs": [
     {
-      "q": "What is the duration of a bachelor's degree in Computer Engineering in Denmark?",
-      "a": "At DTU, the BSc in Computer Engineering is a three-year program. The BEng in Computer Engineering is a three-and-a-half-year degree program, including a six-month internship. Both are taught in Danish."
+      "q": "Can Indian students apply for Computer Engineering in Denmark?",
+      "a": "Yes, Indian students meeting the academic eligibility prerequisites and English language proficiency requirements (IELTS/TOEFL) can apply to Danish higher education institutions."
     },
     {
-      "q": "Can Indian students study Computer Engineering in Denmark in English?",
-      "a": "There are English-taught options in closely related areas such as Computer Science and Software Engineering. However, DTU's specific Computer Engineering bachelor's programs are Danish-taught, so students should check the language before applying."
+      "q": "What is the medium of instruction for Computer Engineering in Denmark?",
+      "a": "Programmes designed for international students across Danish universities are taught entirely in English."
     },
     {
-      "q": "How much does it cost to study Computer Engineering in Denmark?",
-      "a": "That depends on the university. As a rough estimate, tuition fees can range anywhere between \u20b95 lakh and \u20b915 lakh or more per year, plus living expenses. Exact program fees should be confirmed with the university."
+      "q": "What are the typical tuition fees for Computer Engineering in Denmark?",
+      "a": "Tuition fees for non-EU international students typically range from DKK 60,000 to DKK 120,000 per year, depending on the programme and university."
     },
     {
-      "q": "What are the core subjects in Computer Engineering?",
-      "a": "Mathematics is usually important, and it may be necessary to have physics and other science subjects. The exact subject levels and grades will vary with the course."
-    },
-    {
-      "q": "After graduating, are you able to get a job in Denmark?",
-      "a": "Graduates can enter relevant engineering and technology jobs, depending on employer requirements and applicable work-permit and immigration rules. There is no guarantee of employment. Pursuing a Bachelor's in Computer Engineering in Denmark can help students develop knowledge of hardware, software systems, electronics and embedded technologies. However, applicants should carefully compare course content, language of instruction, admission requirements, tuition fees and future study opportunities before selecting a university. For Computer Engineering in Denmark for Indian students, early planning is especially important because some dedicated computer engineering bachelor's programs are taught in Danish, while related computing degrees may offer English-taught options. Edu-Hawk Worldwide provides study-abroad guidance to help students explore suitable courses, understand admission requirements and prepare their applications for international education."
+      "q": "Can international students work part-time in Denmark?",
+      "a": "Yes, non-EU international students holding a valid Danish residence permit are legally permitted to work up to 20 hours per week during term and full-time in June, July, and August."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

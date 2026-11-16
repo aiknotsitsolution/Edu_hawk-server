@@ -7,6 +7,11 @@ import heroBgImg from "../../../../Images/Abroad/Denmark/Dentistry/hero_bg.webp"
 import sideImg from "../../../../Images/Abroad/Denmark/Dentistry/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Denmark/Dentistry/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../Images/Abroad/Denmark/Dentistry/image1.png";
+import uniImg2 from "../../../../Images/Abroad/Denmark/Dentistry/image2.png";
+import uniImg3 from "../../../../Images/Abroad/Denmark/Dentistry/image3.png";
+
 const page = {
   "name": "Dentistry",
   "country": "Denmark",
@@ -19,48 +24,48 @@ const page = {
     "Comprehensive guide to studying Dentistry in Denmark for Indian students."
   ],
   "overview": [
-    "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Denmark for Dentistry in Denmark."
+    "Explore top accredited Danish universities, tuition costs, eligibility, and visa procedures for Dentistry."
   ],
   "level": "BDS / Dental Surgery",
   "crumb": "MBBS Abroad",
   "stats": [
     {
-      "val": "DKK 60K-120K",
+      "val": "DKK 60K-130K",
       "label": "Tuition / Year"
     },
     {
-      "val": "20 Hrs/Wk",
-      "label": "Part-Time Work"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
       "val": "3-4 Years",
       "label": "Course Duration"
     },
     {
-      "val": "English",
-      "label": "Medium of Study"
+      "val": "20 Hrs/Week",
+      "label": "Part-Time Work"
     }
   ],
   "highlights": [
     {
       "icon": "FaAward",
-      "title": "World-Class Nordic Education",
-      "desc": "Study in Denmark's globally ranked universities featuring innovative Problem-Based Learning (PBL) and state-of-the-art research."
+      "title": "World Top-100 Universities",
+      "desc": "Study in globally respected Danish institutions including University of Copenhagen, DTU, and Aarhus University."
     },
     {
       "icon": "FaGraduationCap",
-      "title": "English-Taught Degrees",
-      "desc": "Wide range of bachelor's and master's degrees delivered entirely in English with international accreditation."
+      "title": "Innovative PBL Learning",
+      "desc": "Problem-Based Learning model focusing on collaborative projects, real-world applications, and critical analysis."
     },
     {
       "icon": "FaFileAlt",
-      "title": "Generous Post-Study Work",
-      "desc": "Denmark offers post-study work permits for international graduates to start European careers in high-demand industries."
+      "title": "High Living Standard & Safety",
+      "desc": "Denmark consistently ranks among the happiest, safest, and most progressive countries in the world."
     },
     {
       "icon": "FaCheckCircle",
-      "title": "High Quality of Life",
-      "desc": "Consistently ranked among the world's happiest, safest, and most sustainable countries with vibrant student communities."
+      "title": "Post-Study Work Visa",
+      "desc": "Non-EU graduates are eligible for post-study residence permits to seek employment and build global careers."
     }
   ],
   "sections": [
@@ -68,11 +73,11 @@ const page = {
       "slot": "why",
       "eyebrow": "Why Denmark",
       "title": "Why to Study Dentistry in Denmark?",
+      "lead": "Essential details regarding dentistry in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**1\\. Why to Study Dentistry in Denmark?**",
             "Students have the opportunity to experience high-quality dental education, modern clinical facilities, research opportunities and a strong focus on preventive and community oral healthcare in Denmark. Students are trained in clinical hands-on and the most modern dental technologies. However, the majority of the dentistry degree programs are offered in Danish, which is an important factor for international students.",
             "Studying dentistry in Denmark If you are a student attracted to a healthcare system that values prevention, patient education, evidence-based practice and oral health promotion then studying dentistry in Denmark might be of interest. Dental education is a mix of science and practical skills, and teaches students about the relationship between oral and general health.",
             "Students study the structure and function of teeth, gums, jaws and associated tissues, and subjects that support clinical decision-making. The academic track also introduces the students to patient communication, diagnosis, treatment planning and responsible clinical practice. Indian students who want to study Dentistry in Denmark need to know the language of instruction and the professional requirements before choosing this destination.",
@@ -85,11 +90,11 @@ const page = {
       "slot": "courses",
       "eyebrow": "Degrees & Pathways",
       "title": "Bachelor\u2019s and Master\u2019s in Dentistry in Denmark",
+      "lead": "Essential details regarding dentistry in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**2\\. Bachelor\u2019s and Master\u2019s in Dentistry in Denmark**",
             "In Denmark, the usual way to acquire dental education is through an integrated university pathway:"
           ]
         },
@@ -115,57 +120,95 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Best Universities for Dentistry in Denmark",
-      "lead": "Explore leading universities and institutions in Denmark offering accredited Dentistry in Denmark programmes, world-class research facilities, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Denmark offering accredited Dentistry programmes, modern campuses, and international student support.",
+      "unis": [
         {
           "name": "University of Copenhagen (UCPH)",
           "location": "Copenhagen, Denmark",
           "fee": "DKK 65,000 \u2013 120,000 / Year",
           "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
           "name": "Technical University of Denmark (DTU)",
           "location": "Kongens Lyngby, Denmark",
           "fee": "DKK 75,000 \u2013 115,000 / Year",
           "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-          "img_var": "null"
+          "img": uniImg2
         },
         {
           "name": "Aarhus University (AU)",
           "location": "Aarhus, Denmark",
           "fee": "DKK 60,000 \u2013 110,000 / Year",
           "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-          "img_var": "null"
+          "img": uniImg3
         },
         {
           "name": "Aalborg University (AAU)",
           "location": "Aalborg, Denmark",
           "fee": "DKK 58,000 \u2013 105,000 / Year",
           "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
-          "name": "Copenhagen Business School (CBS)",
-          "location": "Frederiksberg, Denmark",
-          "fee": "DKK 70,000 \u2013 130,000 / Year",
-          "desc": "Triple-crown accredited business institution recognized across Europe for excellence in management, economics, and finance.",
-          "img_var": "null"
+          "name": "University of Southern Denmark (SDU)",
+          "location": "Odense, Denmark",
+          "fee": "DKK 62,000 \u2013 115,000 / Year",
+          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+          "img": uniImg2
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "University of Copenhagen (UCPH)",
+          "location": "Copenhagen, Denmark",
+          "fee": "DKK 65,000 \u2013 120,000 / Year",
+          "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
+          "img": uniImg1
+        },
+        {
+          "name": "Technical University of Denmark (DTU)",
+          "location": "Kongens Lyngby, Denmark",
+          "fee": "DKK 75,000 \u2013 115,000 / Year",
+          "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
+          "img": uniImg2
+        },
+        {
+          "name": "Aarhus University (AU)",
+          "location": "Aarhus, Denmark",
+          "fee": "DKK 60,000 \u2013 110,000 / Year",
+          "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
+          "img": uniImg3
+        },
+        {
+          "name": "Aalborg University (AAU)",
+          "location": "Aalborg, Denmark",
+          "fee": "DKK 58,000 \u2013 105,000 / Year",
+          "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
+          "img": uniImg1
+        },
+        {
+          "name": "University of Southern Denmark (SDU)",
+          "location": "Odense, Denmark",
+          "fee": "DKK 62,000 \u2013 115,000 / Year",
+          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+          "img": uniImg2
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
+        "Tuition fees are indicative and subject to annual review by Danish higher education institutions.",
+        "EU/EEA students may study tuition-free; international fees apply to non-EU/EEA citizens."
       ]
     },
     {
       "slot": "eligibility",
       "eyebrow": "Eligibility Criteria",
       "title": "Who Can Study Dentistry in Denmark?",
+      "lead": "Essential details regarding dentistry in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**4\\. Who Can Study Dentistry in Denmark?**",
             "Applicants typically need:"
           ]
         },
@@ -192,11 +235,11 @@ const page = {
       "slot": "requirements",
       "eyebrow": "Admission Requirements",
       "title": "Requirements for Admission",
+      "lead": "Essential details regarding dentistry in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**5\\. Requirements for Admission**",
             "Your admission is based on academic grades, subject requirements, language proficiency and the selection process of the university. International qualifications are evaluated according to Danish admission rules. Meeting minimum requirements does not guarantee admission.",
             "Students should complete the following checks before applying:"
           ]
@@ -226,11 +269,11 @@ const page = {
       "slot": "fees",
       "eyebrow": "Tuition & Living Costs",
       "title": "Price of Studying Dentistry in Denmark",
+      "lead": "Essential details regarding dentistry in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**6\\. Price of Studying Dentistry in Denmark**",
             "Estimated expenses for international students:"
           ]
         },
@@ -256,11 +299,11 @@ const page = {
       "slot": "timeline",
       "eyebrow": "Admission Procedure",
       "title": "Admission Procedure",
+      "lead": "Essential details regarding dentistry in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**7\\. Admission Procedure**",
             "The normal way to apply is through these steps:"
           ]
         },
@@ -290,11 +333,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Further Studies & Scope",
       "title": "Post-Dentistry Careers",
+      "lead": "Essential details regarding dentistry in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**8\\. Post-Dentistry Careers**",
             "Graduates can pursue careers in dental practice, oral health research, public dental services, academia and further specialization. Dental professionals are able to work with patients to review oral-health conditions, explain preventive care, plan treatment and promote long-term dental health.",
             "Areas for professional development include:"
           ]
@@ -322,11 +365,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Career Opportunities",
       "title": "Job Prospects and Salary",
+      "lead": "Essential details regarding dentistry in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**9\\. Job Prospects and Salary**",
             "Dentist salaries may differ depending on experience, employer, location and specialization. Graduation does not guarantee employment. International graduates should check Danish authorization requirements and job eligibility before planning to practise.",
             "Danish language skills, clinical experience, professional registration and the availability of suitable positions can influence career prospects. Dentists may work in private practices, public dental services, research or academia, depending on their qualifications and authorization.",
             "Students need to understand the difference between achieving a dentistry qualification and becoming eligible to practise as a dentist in their own right. Professional rules may apply to clinical practice, and applicants are recommended to consult the relevant Danish authority for current requirements."
@@ -338,11 +381,11 @@ const page = {
       "slot": "documents",
       "eyebrow": "Required Documentation",
       "title": "Required Documents",
+      "lead": "Essential details regarding dentistry in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**10\\. Required Documents**",
             "You might be asked to provide:"
           ]
         },
@@ -373,53 +416,57 @@ const page = {
       "location": "Copenhagen, Denmark",
       "fee": "DKK 65,000 \u2013 120,000 / Year",
       "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
       "name": "Technical University of Denmark (DTU)",
       "location": "Kongens Lyngby, Denmark",
       "fee": "DKK 75,000 \u2013 115,000 / Year",
       "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-      "img_var": "null"
+      "img": uniImg2
     },
     {
       "name": "Aarhus University (AU)",
       "location": "Aarhus, Denmark",
       "fee": "DKK 60,000 \u2013 110,000 / Year",
       "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-      "img_var": "null"
+      "img": uniImg3
     },
     {
       "name": "Aalborg University (AAU)",
       "location": "Aalborg, Denmark",
       "fee": "DKK 58,000 \u2013 105,000 / Year",
       "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
-      "name": "Copenhagen Business School (CBS)",
-      "location": "Frederiksberg, Denmark",
-      "fee": "DKK 70,000 \u2013 130,000 / Year",
-      "desc": "Triple-crown accredited business institution recognized across Europe for excellence in management, economics, and finance.",
-      "img_var": "null"
+      "name": "University of Southern Denmark (SDU)",
+      "location": "Odense, Denmark",
+      "fee": "DKK 62,000 \u2013 115,000 / Year",
+      "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+      "img": uniImg2
     }
   ],
   "faqs": [
     {
-      "q": "Can Indian students apply for Dentistry in Denmark?",
-      "a": "Yes, Indian students with qualifying credentials meeting English language proficiency (IELTS/TOEFL) and academic prerequisites can apply to recognized universities in Denmark."
+      "q": "Q1. What is the length of study for Dentistry in Denmark?",
+      "a": "The university route usually takes about five years, split between a three-year bachelor's degree and a two-year master's degree in odontology."
     },
     {
-      "q": "What is the medium of instruction for Dentistry in Denmark?",
-      "a": "Most master's and international bachelor's degree programmes are taught entirely in English for international students across Danish universities."
+      "q": "Q2. Are dentistry courses in Denmark conducted in English?",
+      "a": "Many qualifying programs in dentistry are taught in Danish. Check with the university for the language of instruction and the required Danish language proficiency before applying."
     },
     {
-      "q": "What are the typical tuition fees for Dentistry in Denmark?",
-      "a": "Tuition fees for international students generally range between DKK 60,000 and DKK 120,000 per year, depending on the institution and level of study."
+      "q": "Q3. Can Indian students study dentistry in Denmark?",
+      "a": "Yes, if they meet the university's academic, language and other admission requirements. Indian applicants should check the qualification assessment, subject prerequisites and language requirements for the program they intend to apply for. **Dentistry in Denmark for Indian students** requires careful planning, particularly when reviewing language and qualification conditions."
     },
     {
-      "q": "Can international students work while studying in Denmark?",
-      "a": "Yes, non-EU international students with a valid Danish residence permit are legally permitted to work part-time (up to 20 hours per week) during semester periods and full-time during June, July, and August."
+      "q": "Q4. What is the cost of living in Denmark as a student?",
+      "a": "A planning estimate is \u20b990,000\u2013\u20b91,40,000 per month, depending on your accommodation and lifestyle. Tuition fees, travel, insurance and other initial expenses should be budgeted for separately."
+    },
+    {
+      "q": "Q5. Are international graduates allowed to work as dentists in Denmark?",
+      "a": "They must fulfil the relevant Danish professional authorization and language requirements. Graduates are advised to consult the appropriate authority to understand the current rules before undertaking professional practice. Choosing **Dentistry in Denmark** calls for careful planning around university choice, academic eligibility, Danish language proficiency, tuition and professional authorization. Students are advised to compare the official program details at the University of Copenhagen and Aarhus University and check the current requirements before applying. Edu-Hawk Worldwide helps students discover international education opportunities through study-abroad advice and application planning. For students who are interested in studying dentistry abroad, Edu-Hawk Worldwide, a study-abroad consultancy, can provide information on their options and help them prepare for their next academic journey."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

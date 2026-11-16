@@ -7,60 +7,65 @@ import heroBgImg from "../../../../../../Images/Abroad/Denmark/Engineering_PG/Co
 import sideImg from "../../../../../../Images/Abroad/Denmark/Engineering_PG/Computer/side.webp";
 import ctaBgImg from "../../../../../../Images/Abroad/Denmark/Engineering_PG/Computer/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../../../Images/Abroad/Denmark/Engineering_PG/Computer/image1.png";
+import uniImg2 from "../../../../../../Images/Abroad/Denmark/Engineering_PG/Computer/image2.png";
+import uniImg3 from "../../../../../../Images/Abroad/Denmark/Engineering_PG/Computer/image3.png";
+
 const page = {
-  "name": "Computer Engineering (PG)",
+  "name": "Computer Engineering",
   "country": "Denmark",
   "slug": "pg/computer-engineering",
-  "title": "Computer Engineering (PG) in Denmark for Indian Students | Edu-Hawk Worldwide",
-  "description": "Study Computer Engineering (PG) in Denmark: Top universities, course duration, tuition fees in DKK & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study Computer Engineering (PG) in Denmark, Computer Engineering (PG) in Denmark for Indian Students, Best Universities in Denmark, Denmark Computer Engineering (PG) Admission, Cost of Studying in Denmark, Edu-Hawk Worldwide",
-  "introTitle": "Computer Engineering (PG) in Denmark for Indian Students",
+  "title": "Computer Engineering in Denmark for Indian Students | Edu-Hawk Worldwide",
+  "description": "Study Computer Engineering in Denmark: Top universities, course duration, tuition fees in DKK & INR, eligibility criteria, admission process & visa requirements for Indian students.",
+  "keywords": "Study Computer Engineering in Denmark, Computer Engineering in Denmark for Indian Students, Best Universities in Denmark, Denmark Computer Engineering Admission, Cost of Studying in Denmark, Edu-Hawk Worldwide",
+  "introTitle": "Computer Engineering in Denmark for Indian Students",
   "heroParas": [
-    "Comprehensive guide to studying Computer Engineering (PG) in Denmark for Indian students."
+    "Comprehensive guide to studying Computer Engineering in Denmark for Indian students."
   ],
   "overview": [
-    "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Denmark for Computer Engineering (PG) in Denmark."
+    "Explore top accredited Danish universities, tuition costs, eligibility, and visa procedures for Computer Engineering."
   ],
   "level": "M.Eng / M.Sc. Computer Engineering",
   "crumb": "Engineering / PG Engineering",
   "stats": [
     {
-      "val": "DKK 60K-120K",
+      "val": "DKK 60K-130K",
       "label": "Tuition / Year"
-    },
-    {
-      "val": "20 Hrs/Wk",
-      "label": "Part-Time Work"
-    },
-    {
-      "val": "3-4 Years",
-      "label": "Course Duration"
     },
     {
       "val": "English",
       "label": "Medium of Study"
+    },
+    {
+      "val": "2 Years",
+      "label": "Course Duration"
+    },
+    {
+      "val": "20 Hrs/Week",
+      "label": "Part-Time Work"
     }
   ],
   "highlights": [
     {
       "icon": "FaAward",
-      "title": "World-Class Nordic Education",
-      "desc": "Study in Denmark's globally ranked universities featuring innovative Problem-Based Learning (PBL) and state-of-the-art research."
+      "title": "World Top-100 Universities",
+      "desc": "Study in globally respected Danish institutions including University of Copenhagen, DTU, and Aarhus University."
     },
     {
       "icon": "FaGraduationCap",
-      "title": "English-Taught Degrees",
-      "desc": "Wide range of bachelor's and master's degrees delivered entirely in English with international accreditation."
+      "title": "Innovative PBL Learning",
+      "desc": "Problem-Based Learning model focusing on collaborative projects, real-world applications, and critical analysis."
     },
     {
       "icon": "FaFileAlt",
-      "title": "Generous Post-Study Work",
-      "desc": "Denmark offers post-study work permits for international graduates to start European careers in high-demand industries."
+      "title": "High Living Standard & Safety",
+      "desc": "Denmark consistently ranks among the happiest, safest, and most progressive countries in the world."
     },
     {
       "icon": "FaCheckCircle",
-      "title": "High Quality of Life",
-      "desc": "Consistently ranked among the world's happiest, safest, and most sustainable countries with vibrant student communities."
+      "title": "Post-Study Work Visa",
+      "desc": "Non-EU graduates are eligible for post-study residence permits to seek employment and build global careers."
     }
   ],
   "sections": [
@@ -68,11 +73,11 @@ const page = {
       "slot": "why",
       "eyebrow": "Why Denmark",
       "title": "Why Study Computer Engineering in Denmark?",
+      "lead": "Essential details regarding computer engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**1\\. Why Study Computer Engineering in Denmark?**",
             "Denmark is a good place to study for those who wish to extend their knowledge of computer hardware, software systems, embedded technologies and intelligent computing. Danish universities focus on innovation, practical projects, research and collaboration with technology companies. Choosing to **Study Computer Engineering in Denmark** can help students develop advanced technical knowledge and explore modern computing technologies.",
             "A Master\u2019s degree in computer engineering can assist students to focus on computer architecture, embedded systems, digital hardware, robotics, cybersecurity, and hardware-software integration. Depending on the program, students can also explore artificial intelligence, Internet of Things (IoT) and high-performance computing.",
             "Denmark provides international academic exposure and opportunities for Indian students to gain skills that are relevant to the global technology and engineering industries. **Computer Engineering in Denmark for Indian students** can be an option for graduates who want to develop specialized skills and explore international career opportunities. **Edu-Hawk Worldwide** can help students understand study options and the application process."
@@ -84,11 +89,11 @@ const page = {
       "slot": "courses",
       "eyebrow": "Degrees & Pathways",
       "title": "Master\u2019s Programs in Computer Engineering in Denmark",
+      "lead": "Essential details regarding computer engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**2\\. Master\u2019s Programs in Computer Engineering in Denmark**",
             "Students can pursue master\u2019s degree programs in computer engineering and related areas such as:"
           ]
         },
@@ -117,57 +122,95 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Best Universities for Master\u2019s in Computer Engineering in Denmark",
-      "lead": "Explore leading universities and institutions in Denmark offering accredited Computer Engineering (PG) in Denmark programmes, world-class research facilities, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Denmark offering accredited Computer Engineering programmes, modern campuses, and international student support.",
+      "unis": [
         {
           "name": "University of Copenhagen (UCPH)",
           "location": "Copenhagen, Denmark",
           "fee": "DKK 65,000 \u2013 120,000 / Year",
           "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
           "name": "Technical University of Denmark (DTU)",
           "location": "Kongens Lyngby, Denmark",
           "fee": "DKK 75,000 \u2013 115,000 / Year",
           "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-          "img_var": "null"
+          "img": uniImg2
         },
         {
           "name": "Aarhus University (AU)",
           "location": "Aarhus, Denmark",
           "fee": "DKK 60,000 \u2013 110,000 / Year",
           "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-          "img_var": "null"
+          "img": uniImg3
         },
         {
           "name": "Aalborg University (AAU)",
           "location": "Aalborg, Denmark",
           "fee": "DKK 58,000 \u2013 105,000 / Year",
           "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
-          "name": "Copenhagen Business School (CBS)",
-          "location": "Frederiksberg, Denmark",
-          "fee": "DKK 70,000 \u2013 130,000 / Year",
-          "desc": "Triple-crown accredited business institution recognized across Europe for excellence in management, economics, and finance.",
-          "img_var": "null"
+          "name": "University of Southern Denmark (SDU)",
+          "location": "Odense, Denmark",
+          "fee": "DKK 62,000 \u2013 115,000 / Year",
+          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+          "img": uniImg2
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "University of Copenhagen (UCPH)",
+          "location": "Copenhagen, Denmark",
+          "fee": "DKK 65,000 \u2013 120,000 / Year",
+          "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
+          "img": uniImg1
+        },
+        {
+          "name": "Technical University of Denmark (DTU)",
+          "location": "Kongens Lyngby, Denmark",
+          "fee": "DKK 75,000 \u2013 115,000 / Year",
+          "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
+          "img": uniImg2
+        },
+        {
+          "name": "Aarhus University (AU)",
+          "location": "Aarhus, Denmark",
+          "fee": "DKK 60,000 \u2013 110,000 / Year",
+          "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
+          "img": uniImg3
+        },
+        {
+          "name": "Aalborg University (AAU)",
+          "location": "Aalborg, Denmark",
+          "fee": "DKK 58,000 \u2013 105,000 / Year",
+          "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
+          "img": uniImg1
+        },
+        {
+          "name": "University of Southern Denmark (SDU)",
+          "location": "Odense, Denmark",
+          "fee": "DKK 62,000 \u2013 115,000 / Year",
+          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+          "img": uniImg2
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
+        "Tuition fees are indicative and subject to annual review by Danish higher education institutions.",
+        "EU/EEA students may study tuition-free; international fees apply to non-EU/EEA citizens."
       ]
     },
     {
       "slot": "eligibility",
       "eyebrow": "Eligibility Criteria",
       "title": "Who Can Study Computer Engineering in Denmark?",
+      "lead": "Essential details regarding computer engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**4\\. Who Can Study Computer Engineering in Denmark?**",
             "International students usually require:"
           ]
         },
@@ -194,11 +237,11 @@ const page = {
       "slot": "requirements",
       "eyebrow": "Admission Requirements",
       "title": "Computer Engineering Admission Requirements in Denmark",
+      "lead": "Essential details regarding computer engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**5\\. Computer Engineering Admission Requirements in Denmark**",
             "You may be required to submit:"
           ]
         },
@@ -228,11 +271,11 @@ const page = {
       "slot": "fees",
       "eyebrow": "Tuition & Living Costs",
       "title": "What Is the Cost of Studying Computer Engineering in Denmark?",
+      "lead": "Essential details regarding computer engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**6\\. What Is the Cost of Studying Computer Engineering in Denmark?**",
             "The total cost depends on the university, tuition fee, accommodation and lifestyle. Indicative estimates for Indian students are below."
           ]
         },
@@ -278,11 +321,11 @@ const page = {
       "slot": "timeline",
       "eyebrow": "Admission Procedure",
       "title": "Getting Admission in Computer Engineering in Denmark",
+      "lead": "Essential details regarding computer engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**7\\. Getting Admission in Computer Engineering in Denmark**",
             "The **Computer Engineering admission process in Denmark** generally involves the following steps:"
           ]
         },
@@ -310,11 +353,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Further Studies & Scope",
       "title": "Recognition and Accreditation",
+      "lead": "Essential details regarding computer engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**8\\. Recognition and Accreditation**",
             "Before enrolling, check the university's accreditation, the name of the degree you will receive, the curriculum and the specializations available. Danish master\u2019s programs usually work with the European Credit Transfer and Accumulation System (ECTS); many engineering master\u2019s programs are two years long and consist of 120 ECTS credits.",
             "Students intending to work in India or another country should also find out about degree-recognition requirements and any additional qualifications that employers might require."
           ]
@@ -325,11 +368,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Career Opportunities",
       "title": "Job Opportunities and Salary in Computer Engineering",
+      "lead": "Essential details regarding computer engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**9\\. Job Opportunities and Salary in Computer Engineering**",
             "Graduates can work in areas that include software development, embedded systems, cloud computing, cybersecurity, AI, telecommunications, and computer hardware. Completing **Computer Engineering in Denmark** can help students develop a foundation for specialized roles in the technology and engineering industries.",
             "Potential job titles include:"
           ]
@@ -386,11 +429,11 @@ const page = {
       "slot": "documents",
       "eyebrow": "Required Documentation",
       "title": "Required Documents",
+      "lead": "Essential details regarding computer engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**10\\. Required Documents**",
             "Students often require:"
           ]
         },
@@ -423,53 +466,57 @@ const page = {
       "location": "Copenhagen, Denmark",
       "fee": "DKK 65,000 \u2013 120,000 / Year",
       "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
       "name": "Technical University of Denmark (DTU)",
       "location": "Kongens Lyngby, Denmark",
       "fee": "DKK 75,000 \u2013 115,000 / Year",
       "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-      "img_var": "null"
+      "img": uniImg2
     },
     {
       "name": "Aarhus University (AU)",
       "location": "Aarhus, Denmark",
       "fee": "DKK 60,000 \u2013 110,000 / Year",
       "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-      "img_var": "null"
+      "img": uniImg3
     },
     {
       "name": "Aalborg University (AAU)",
       "location": "Aalborg, Denmark",
       "fee": "DKK 58,000 \u2013 105,000 / Year",
       "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
-      "name": "Copenhagen Business School (CBS)",
-      "location": "Frederiksberg, Denmark",
-      "fee": "DKK 70,000 \u2013 130,000 / Year",
-      "desc": "Triple-crown accredited business institution recognized across Europe for excellence in management, economics, and finance.",
-      "img_var": "null"
+      "name": "University of Southern Denmark (SDU)",
+      "location": "Odense, Denmark",
+      "fee": "DKK 62,000 \u2013 115,000 / Year",
+      "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+      "img": uniImg2
     }
   ],
   "faqs": [
     {
-      "q": "Can Indian students apply for Computer Engineering (PG) in Denmark?",
-      "a": "Yes, Indian students with qualifying credentials meeting English language proficiency (IELTS/TOEFL) and academic prerequisites can apply to recognized universities in Denmark."
+      "q": "Q1. Are Indian students able to do a master's in computer engineering in Denmark?",
+      "a": "Yes. Indian students are eligible to apply provided they have the relevant bachelor\u2019s degree and meet the university\u2019s academic and language requirements. Checking the **Computer Engineering eligibility in Denmark** is an important step before applying."
     },
     {
-      "q": "What is the medium of instruction for Computer Engineering (PG) in Denmark?",
-      "a": "Most master's and international bachelor's degree programmes are taught entirely in English for international students across Danish universities."
+      "q": "Q2. Do master\u2019s programs in computer engineering take place in English?",
+      "a": "Yes. The Computer Engineering master's at Aalborg University and Computer Science and Engineering master's at DTU are taught in English."
     },
     {
-      "q": "What are the typical tuition fees for Computer Engineering (PG) in Denmark?",
-      "a": "Tuition fees for international students generally range between DKK 60,000 and DKK 120,000 per year, depending on the institution and level of study."
+      "q": "Q3. How long does a Master\u2019s in Computer Engineering take?",
+      "a": "Generally, the courses at Aalborg University and DTU are two-year programs."
     },
     {
-      "q": "Can international students work while studying in Denmark?",
-      "a": "Yes, non-EU international students with a valid Danish residence permit are legally permitted to work part-time (up to 20 hours per week) during semester periods and full-time during June, July, and August."
+      "q": "Q4. Is it possible for students to work while studying in Denmark?",
+      "a": "Depending on the conditions of your residence permit and the current regulations, international students are allowed to work."
+    },
+    {
+      "q": "Q5. Can I do a PhD after my master's?",
+      "a": "Yes. Graduates who meet the academic and research requirements can apply for relevant PhD programs. Choosing to **Study Computer Engineering in Denmark** can be a suitable option for students interested in computer architecture, embedded systems, artificial intelligence, cybersecurity and advanced computing technologies. Students should compare universities, program specializations, eligibility criteria, tuition fees and career opportunities before making their decision. For Indian students planning postgraduate education abroad, **Edu-Hawk Worldwide** can provide guidance on exploring suitable universities, understanding admission requirements and preparing application documents for international study."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

@@ -7,6 +7,11 @@ import heroBgImg from "../../../../Images/Abroad/Denmark/Biotechnology/hero_bg.w
 import sideImg from "../../../../Images/Abroad/Denmark/Biotechnology/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Denmark/Biotechnology/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../Images/Abroad/Denmark/Biotechnology/image1.png";
+import uniImg2 from "../../../../Images/Abroad/Denmark/Biotechnology/image2.png";
+import uniImg3 from "../../../../Images/Abroad/Denmark/Biotechnology/image3.png";
+
 const page = {
   "name": "Biotechnology",
   "country": "Denmark",
@@ -19,48 +24,48 @@ const page = {
     "Comprehensive guide to studying Biotechnology in Denmark for Indian students."
   ],
   "overview": [
-    "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Denmark for Biotechnology in Denmark."
+    "Explore top accredited Danish universities, tuition costs, eligibility, and visa procedures for Biotechnology."
   ],
   "level": "Bachelor & Master of Biotechnology",
   "crumb": "MBBS Abroad",
   "stats": [
     {
-      "val": "DKK 60K-120K",
+      "val": "DKK 60K-130K",
       "label": "Tuition / Year"
     },
     {
-      "val": "20 Hrs/Wk",
-      "label": "Part-Time Work"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
       "val": "3-4 Years",
       "label": "Course Duration"
     },
     {
-      "val": "English",
-      "label": "Medium of Study"
+      "val": "20 Hrs/Week",
+      "label": "Part-Time Work"
     }
   ],
   "highlights": [
     {
       "icon": "FaAward",
-      "title": "World-Class Nordic Education",
-      "desc": "Study in Denmark's globally ranked universities featuring innovative Problem-Based Learning (PBL) and state-of-the-art research."
+      "title": "World Top-100 Universities",
+      "desc": "Study in globally respected Danish institutions including University of Copenhagen, DTU, and Aarhus University."
     },
     {
       "icon": "FaGraduationCap",
-      "title": "English-Taught Degrees",
-      "desc": "Wide range of bachelor's and master's degrees delivered entirely in English with international accreditation."
+      "title": "Innovative PBL Learning",
+      "desc": "Problem-Based Learning model focusing on collaborative projects, real-world applications, and critical analysis."
     },
     {
       "icon": "FaFileAlt",
-      "title": "Generous Post-Study Work",
-      "desc": "Denmark offers post-study work permits for international graduates to start European careers in high-demand industries."
+      "title": "High Living Standard & Safety",
+      "desc": "Denmark consistently ranks among the happiest, safest, and most progressive countries in the world."
     },
     {
       "icon": "FaCheckCircle",
-      "title": "High Quality of Life",
-      "desc": "Consistently ranked among the world's happiest, safest, and most sustainable countries with vibrant student communities."
+      "title": "Post-Study Work Visa",
+      "desc": "Non-EU graduates are eligible for post-study residence permits to seek employment and build global careers."
     }
   ],
   "sections": [
@@ -68,14 +73,13 @@ const page = {
       "slot": "why",
       "eyebrow": "Why Denmark",
       "title": "Why Should You Study Biotechnology in Denmark?",
+      "lead": "Essential details regarding biotechnology in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**1\\. Why Should You Study Biotechnology in Denmark?**",
             "If you are an international student studying **Biotechnology in Denmark**, you will be able to explore molecular biology, genetic engineering, pharmaceutical research, bioinformatics and industrial biotechnology. Denmark has a strong life science industry with research and innovation in the fields of pharmaceuticals, healthcare, food technology and sustainable biological production.",
-            "Danish universities are focused on scientific knowledge, practical learning, research projects and interdisciplinary education. Students learn laboratory skills and how biotechnology is applied to healthcare, agriculture, medicine and environmental sustainability, depending on the programme.",
-            "**Why Studying Biotechnology in Denmark is a Good Idea**"
+            "Danish universities are focused on scientific knowledge, practical learning, research projects and interdisciplinary education. Students learn laboratory skills and how biotechnology is applied to healthcare, agriculture, medicine and environmental sustainability, depending on the programme."
           ]
         },
         {
@@ -102,13 +106,12 @@ const page = {
       "slot": "courses",
       "eyebrow": "Degrees & Pathways",
       "title": "Biotechnology Studies in Denmark",
+      "lead": "Essential details regarding biotechnology in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**2\\. Biotechnology Studies in Denmark**",
             "In Denmark, biotechnology education is offered through dedicated biotechnology programmes and related disciplines such as molecular biology, biochemistry, bioinformatics and biological engineering. The language of instruction and the courses offered differ between universities. Students exploring **Biotechnology courses in Denmark** should compare programme structures, laboratory training, research opportunities and academic requirements.",
-            "**Biotechnology BSc**",
             "A bachelor's programme lasts approximately three years, depending on the course structure. It familiarises students with basic biological, chemical, genetic and laboratory science concepts.",
             "Typical topics include:"
           ]
@@ -129,7 +132,6 @@ const page = {
           "t": "p",
           "items": [
             "Some bachelor's programmes in Denmark are taught in Danish, so international students should check the language of instruction.",
-            "**Master of Science in Biotechnology**",
             "Usually, a master's programme takes about two years and gives students more specialised knowledge if they want to go into research or industry.",
             "Possible specialisations include:"
           ]
@@ -150,7 +152,6 @@ const page = {
         {
           "t": "p",
           "items": [
-            "**Related Training**",
             "Students may also learn molecular biology, biochemistry, biological engineering, pharmaceutical sciences, microbiology and computational biology. Depending on their curriculum, these courses offer relevant routes into the biotechnology industry.",
             "The selection of **Biotechnology courses in Denmark** should depend on the student's previous academic background and career interests. Undergraduate students can build a foundation in biological sciences, while postgraduate students can explore specialised research and industrial applications."
           ]
@@ -161,59 +162,54 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Best Biotechnology Universities in Denmark",
-      "lead": "Explore leading universities and institutions in Denmark offering accredited Biotechnology in Denmark programmes, world-class research facilities, and international student support.",
+      "lead": "Explore leading universities and institutions in Denmark offering accredited Biotechnology programmes, modern campuses, and international student support.",
+      "unis": [
+        {
+          "name": "\\. University of Aarhus",
+          "location": "\\. University of Aarhus, Denmark",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
+          "desc": "Aarhus University provides education and research within biological sciences, molecular biology and biochemistry. Areas to explore: Molecular biology, biological research and related life sciences. Website: [https\\://international.au.dk/](https://international.au.dk/)",
+          "img": uniImg1
+        },
+        {
+          "name": "\\. University of Aalborg",
+          "location": "\\. University of Aalborg, Denmark",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
+          "desc": "Aalborg University is characterised by interdisciplinary and project-organised learning. Students may look at relevant programmes in biotechnology, biology and bioengineering, if available. Website: [https\\://www\\.aau.dk/en](https://www.aau.dk/en) You might want to compare course content, laboratory facilities, research opportunities, tuition fees, language of teaching and relevance to your future career. When shortlisting **Biotechnology universities in Denmark**, applicants should also verify whether the selected programme accepts international students and whether the degree is available in English. **Edu-Hawk Worldwide** can help students understand university options and organise their study abroad application planning.",
+          "img": uniImg2
+        }
+      ],
       "unis_data": [
         {
-          "name": "K\u00f8benhavns Universitet (University of Copenhagen)",
-          "location": "Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
-          "desc": "The University of Copenhagen conducts research and teaching in the biological sciences, molecular biology, biochemistry and pharmaceutical sciences. Areas to explore: Molecular biology, biological research, biochemistry and biotechnology-related fields.",
-          "img_var": "null"
+          "name": "\\. University of Aarhus",
+          "location": "\\. University of Aarhus, Denmark",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
+          "desc": "Aarhus University provides education and research within biological sciences, molecular biology and biochemistry. Areas to explore: Molecular biology, biological research and related life sciences. Website: [https\\://international.au.dk/](https://international.au.dk/)",
+          "img": uniImg1
         },
         {
-          "name": "Technical University of Denmark (DTU)",
-          "location": "Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
-          "desc": "DTU is known for engineering and applied scientific research, including biotechnology-related areas such as biological production, industrial biotechnology and bioprocess technology. Areas of interest: Industrial biotechnology, biological engineering and applied biotechnology research.",
-          "img_var": "null"
-        },
-        {
-          "name": "University of Aarhus",
-          "location": "Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
-          "desc": "Aarhus University provides education and research within biological sciences, molecular biology and biochemistry. Areas to explore: Molecular biology, biological research and related life sciences.",
-          "img_var": "null"
-        },
-        {
-          "name": "University of Southern Denmark (SDU)",
-          "location": "Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
-          "desc": "SDU has programmes and research within several scientific and biomedical disciplines. Students should refer to its current course catalogue for relevant biotechnology pathways.",
-          "img_var": "null"
-        },
-        {
-          "name": "University of Aalborg",
-          "location": "Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
-          "desc": "Aalborg University is characterised by interdisciplinary and project-organised learning. Students may look at relevant programmes in biotechnology, biology and bioengineering, if available. You might want to compare course content, laboratory facilities, research opportunities, tuition fees, language of teaching and relevance to your future career. When shortlisting Biotechnology universities in Denmark, applicants should also verify whether the selected programme accepts international students and whether the degree is available in English. Edu-Hawk Worldwide can help students understand university options and organise their study abroad application planning.",
-          "img_var": "null"
+          "name": "\\. University of Aalborg",
+          "location": "\\. University of Aalborg, Denmark",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
+          "desc": "Aalborg University is characterised by interdisciplinary and project-organised learning. Students may look at relevant programmes in biotechnology, biology and bioengineering, if available. Website: [https\\://www\\.aau.dk/en](https://www.aau.dk/en) You might want to compare course content, laboratory facilities, research opportunities, tuition fees, language of teaching and relevance to your future career. When shortlisting **Biotechnology universities in Denmark**, applicants should also verify whether the selected programme accepts international students and whether the degree is available in English. **Edu-Hawk Worldwide** can help students understand university options and organise their study abroad application planning.",
+          "img": uniImg2
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
+        "Tuition fees are indicative and subject to annual review by Danish higher education institutions.",
+        "EU/EEA students may study tuition-free; international fees apply to non-EU/EEA citizens."
       ]
     },
     {
       "slot": "eligibility",
       "eyebrow": "Eligibility Criteria",
       "title": "Who Can Study Biotechnology in Denmark?",
+      "lead": "Essential details regarding biotechnology in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**4\\. Who Can Study Biotechnology in Denmark?**",
             "Eligibility is based on the university, programme and level of degree. Students researching **Biotechnology eligibility in Denmark** should understand the academic qualifications and subject requirements before applying.",
-            "**Eligibility for Bachelor's Programs**",
             "Indian students generally require:"
           ]
         },
@@ -231,7 +227,6 @@ const page = {
           "t": "p",
           "items": [
             "Not every programme accepts the same combination of subjects. Students should check the specific eligibility criteria.",
-            "**Eligibility for Master's Programs**",
             "Applicants typically need:"
           ]
         },
@@ -248,7 +243,6 @@ const page = {
         {
           "t": "p",
           "items": [
-            "**English Language Requirements**",
             "IELTS Academic, TOEFL iBT or other accepted evidence of English proficiency may be accepted by universities. Required scores and exemption policies differ from institution to institution.",
             "Meeting the minimum entry requirements does not guarantee an offer, especially for competitive courses. Students should review the course-specific academic requirements and confirm that their previous qualifications are suitable."
           ]
@@ -259,18 +253,15 @@ const page = {
       "slot": "requirements",
       "eyebrow": "Admission Requirements",
       "title": "Denmark Biotechnology Admission Requirements",
+      "lead": "Essential details regarding biotechnology in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**5\\. Denmark Biotechnology Admission Requirements**",
             "Danish universities assess applicants on the basis of the academic and language requirements of the programme they are applying for. The **Biotechnology admission requirements in Denmark** can differ according to the institution, degree level and specialisation.",
-            "**Academic Qualifications & Documents**",
             "For bachelor's degree applicants, universities generally require proof of secondary education through academic transcripts and certificates. Master's degree applicants must submit proof of their bachelor's degree and the corresponding academic records.",
             "Universities may also take into account subject combinations, course descriptions, grades and the relevance of previous studies.",
-            "**Proficiency in English**",
             "Students applying for English-language programmes may need to have an IELTS Academic, a TOEFL iBT or another accepted language qualification. Students are requested to check the minimum score and validity requirements from the official website of the university.",
-            "**Supplemental Requirements**",
             "Depending on the programme, applicants may be asked to submit:"
           ]
         },
@@ -288,7 +279,6 @@ const page = {
         {
           "t": "p",
           "items": [
-            "**When to Apply?**",
             "Deadlines vary by institution, intake and applicant category. Applicants from outside the EU might have earlier deadlines to allow for tuition payment and residence-permit procedures. Students should get their submissions in order well before the deadline.",
             "Applicants should carefully review the **Biotechnology admission requirements in Denmark** and prepare the necessary documents before submitting an application. **Edu-Hawk Worldwide** can provide study abroad guidance to help students understand admission requirements and organise their application documents."
           ]
@@ -299,13 +289,12 @@ const page = {
       "slot": "fees",
       "eyebrow": "Tuition & Living Costs",
       "title": "Cost of Studying Biotechnology in Denmark",
+      "lead": "Essential details regarding biotechnology in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**6\\. Cost of Studying Biotechnology in Denmark**",
-            "How much does it cost to study biotechnology? The **Cost of studying Biotechnology in Denmark** depends on the university, the level of study, the city and the lifestyle. Indicative estimates in Indian rupees (INR) are as below. Please cross-check with official university fee schedules.",
-            "**Tuition Fees**"
+            "How much does it cost to study biotechnology? The **Cost of studying Biotechnology in Denmark** depends on the university, the level of study, the city and the lifestyle. Indicative estimates in Indian rupees (INR) are as below. Please cross-check with official university fee schedules."
           ]
         },
         {
@@ -328,8 +317,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Fees vary greatly between universities and programmes. These figures are planning estimates and not confirmed charges for each course.",
-            "**Monthly Living Costs**"
+            "Fees vary greatly between universities and programmes. These figures are planning estimates and not confirmed charges for each course."
           ]
         },
         {
@@ -373,7 +361,6 @@ const page = {
           "t": "p",
           "items": [
             "The cost of living depends on accommodation, city and personal spending. Housing in Copenhagen can be expensive, so you might want to consider sharing a flat to keep the costs down.",
-            "**Total Estimated Annual Budget**",
             "The cost of tuition fees and living expenses for students may differ depending on the programme and lifestyle, ranging from about \u20b914,00,000 to \u20b934,00,000 per year.",
             "Other costs may include flights, residence permit fees, deposits for accommodation and other one-off costs relating to settling in. Funding is competitive and should not be assumed, but eligible students may be able to apply for scholarships.",
             "Students planning **Biotechnology in Denmark for Indian students** should prepare a complete financial plan that includes tuition, accommodation, food, transportation and other personal expenses. The actual **Cost of studying Biotechnology in Denmark** may change depending on the university, city, currency exchange rates and individual lifestyle."
@@ -385,11 +372,11 @@ const page = {
       "slot": "timeline",
       "eyebrow": "Admission Procedure",
       "title": "Biotechnology Admission Procedure in Denmark",
+      "lead": "Essential details regarding biotechnology in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**7\\. Biotechnology Admission Procedure in Denmark**",
             "Students can use these steps to apply for a biotechnology programme or a related programme in Denmark."
           ]
         },
@@ -422,15 +409,13 @@ const page = {
       "slot": "careers",
       "eyebrow": "Further Studies & Scope",
       "title": "Denmark's Biotechnology Licensing",
+      "lead": "Essential details regarding biotechnology in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**8\\. Denmark's Biotechnology Licensing**",
             "Biotechnology is not about one universal professional licence for all graduates. The requirements will depend on the job, workplace and type of work.",
-            "**Do I Need a Licence?**",
-            "For many biotechnology careers in research, industrial production, laboratory analysis and bioinformatics, a degree is often sufficient to qualify for entry-level professional roles. However, some specialised roles may require further training, qualifications or regulatory approvals.",
-            "**Key Areas**"
+            "For many biotechnology careers in research, industrial production, laboratory analysis and bioinformatics, a degree is often sufficient to qualify for entry-level professional roles. However, some specialised roles may require further training, qualifications or regulatory approvals."
           ]
         },
         {
@@ -456,13 +441,12 @@ const page = {
       "slot": "careers",
       "eyebrow": "Career Opportunities",
       "title": "Denmark Biotechnology Graduate Salary & Job Opportunities",
+      "lead": "Essential details regarding biotechnology in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**9\\. Denmark Biotechnology Graduate Salary & Job Opportunities**",
             "Biotechnology graduates can find employment in pharmaceuticals, research laboratories, biological manufacturing, diagnostics, food technology and bioinformatics. Job opportunities are influenced by qualifications, technical skills, work experience, language skills and market demand.",
-            "**Estimated Salaries in Denmark**",
             "Here are some broad, indicative gross monthly salary estimates converted into INR. These are not official average salaries or guaranteed job offers."
           ]
         },
@@ -511,7 +495,6 @@ const page = {
           "t": "p",
           "items": [
             "Salaries are dependent on experience, employer and location. Salaries in Denmark are paid in Danish kroner, and their equivalent in INR is influenced by exchange rates. Take-home income will be less than gross salary after applicable taxes.",
-            "**Career Opportunities After Biotechnology**",
             "Graduates may explore career opportunities in:"
           ]
         },
@@ -540,13 +523,12 @@ const page = {
       "slot": "documents",
       "eyebrow": "Required Documentation",
       "title": "Documents Needed to Study Biotechnology in Denmark",
+      "lead": "Essential details regarding biotechnology in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**10\\. Documents Needed to Study Biotechnology in Denmark**",
-            "The documents required will vary according to the university, the programme and your academic background. Students applying for **Biotechnology in Denmark** should prepare the following documents according to the official university checklist.",
-            "**Academic Papers**"
+            "The documents required will vary according to the university, the programme and your academic background. Students applying for **Biotechnology in Denmark** should prepare the following documents according to the official university checklist."
           ]
         },
         {
@@ -560,12 +542,6 @@ const page = {
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "**Application and Identification Papers**"
-          ]
-        },
-        {
           "t": "ul",
           "items": [
             "Valid passport.",
@@ -573,12 +549,6 @@ const page = {
             "Where applicable, receipt of application fee.",
             "Resume or CV, if required.",
             "Statement of Purpose or Motivation Letter, if applicable."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "**Language and Supporting Documents**"
           ]
         },
         {
@@ -602,61 +572,36 @@ const page = {
   ],
   "universities": [
     {
-      "name": "K\u00f8benhavns Universitet (University of Copenhagen)",
-      "location": "Denmark",
-      "fee": "DKK 65,000 \u2013 120,000 / Year",
-      "desc": "The University of Copenhagen conducts research and teaching in the biological sciences, molecular biology, biochemistry and pharmaceutical sciences. Areas to explore: Molecular biology, biological research, biochemistry and biotechnology-related fields.",
-      "img_var": "null"
+      "name": "\\. University of Aarhus",
+      "location": "\\. University of Aarhus, Denmark",
+      "fee": "DKK 60,000 \u2013 120,000 / Year",
+      "desc": "Aarhus University provides education and research within biological sciences, molecular biology and biochemistry. Areas to explore: Molecular biology, biological research and related life sciences. Website: [https\\://international.au.dk/](https://international.au.dk/)",
+      "img": uniImg1
     },
     {
-      "name": "Technical University of Denmark (DTU)",
-      "location": "Denmark",
-      "fee": "DKK 65,000 \u2013 120,000 / Year",
-      "desc": "DTU is known for engineering and applied scientific research, including biotechnology-related areas such as biological production, industrial biotechnology and bioprocess technology. Areas of interest: Industrial biotechnology, biological engineering and applied biotechnology research.",
-      "img_var": "null"
-    },
-    {
-      "name": "University of Aarhus",
-      "location": "Denmark",
-      "fee": "DKK 65,000 \u2013 120,000 / Year",
-      "desc": "Aarhus University provides education and research within biological sciences, molecular biology and biochemistry. Areas to explore: Molecular biology, biological research and related life sciences.",
-      "img_var": "null"
-    },
-    {
-      "name": "University of Southern Denmark (SDU)",
-      "location": "Denmark",
-      "fee": "DKK 65,000 \u2013 120,000 / Year",
-      "desc": "SDU has programmes and research within several scientific and biomedical disciplines. Students should refer to its current course catalogue for relevant biotechnology pathways.",
-      "img_var": "null"
-    },
-    {
-      "name": "University of Aalborg",
-      "location": "Denmark",
-      "fee": "DKK 65,000 \u2013 120,000 / Year",
-      "desc": "Aalborg University is characterised by interdisciplinary and project-organised learning. Students may look at relevant programmes in biotechnology, biology and bioengineering, if available. You might want to compare course content, laboratory facilities, research opportunities, tuition fees, language of teaching and relevance to your future career. When shortlisting Biotechnology universities in Denmark, applicants should also verify whether the selected programme accepts international students and whether the degree is available in English. Edu-Hawk Worldwide can help students understand university options and organise their study abroad application planning.",
-      "img_var": "null"
+      "name": "\\. University of Aalborg",
+      "location": "\\. University of Aalborg, Denmark",
+      "fee": "DKK 60,000 \u2013 120,000 / Year",
+      "desc": "Aalborg University is characterised by interdisciplinary and project-organised learning. Students may look at relevant programmes in biotechnology, biology and bioengineering, if available. Website: [https\\://www\\.aau.dk/en](https://www.aau.dk/en) You might want to compare course content, laboratory facilities, research opportunities, tuition fees, language of teaching and relevance to your future career. When shortlisting **Biotechnology universities in Denmark**, applicants should also verify whether the selected programme accepts international students and whether the degree is available in English. **Edu-Hawk Worldwide** can help students understand university options and organise their study abroad application planning.",
+      "img": uniImg2
     }
   ],
   "faqs": [
     {
-      "q": "Is Biotechnology Good to Study in Denmark?",
-      "a": "Yes. If you're interested in biotechnology, pharmaceuticals, biological engineering, molecular biology or sustainable production research, Denmark can be a good choice. Students should compare individual programmes and research opportunities before deciding. Biotechnology in Denmark can provide exposure to scientific research and life science applications."
+      "q": "Can Indian students apply for Biotechnology in Denmark?",
+      "a": "Yes, Indian students meeting the academic eligibility prerequisites and English language proficiency requirements (IELTS/TOEFL) can apply to Danish higher education institutions."
     },
     {
-      "q": "How much does it cost to study biotechnology in Denmark?",
-      "a": "As a rough estimate, many biotechnology-related programmes may cost between \u20b96,00,000 and \u20b918,00,000 a year. The cost of living could be somewhere around \u20b97,70,000\u2013\u20b916,10,000 per year. Actual costs vary by university and lifestyle. Students should confirm tuition fees with their selected institution."
+      "q": "What is the medium of instruction for Biotechnology in Denmark?",
+      "a": "Programmes designed for international students across Danish universities are taught entirely in English."
     },
     {
-      "q": "Can Indian students study Biotechnology in Denmark in the English language?",
-      "a": "Yes, some biotechnology-related programmes are taught in English, especially at the master's level. However, not all programmes are taught in English, so students will need to check the language requirements before applying."
+      "q": "What are the typical tuition fees for Biotechnology in Denmark?",
+      "a": "Tuition fees for non-EU international students typically range from DKK 60,000 to DKK 120,000 per year, depending on the programme and university."
     },
     {
-      "q": "What are the career prospects after Biotechnology in Denmark?",
-      "a": "Graduates can work in research, laboratory analysis, quality control, quality assurance, pharmaceutical research, bioprocess engineering, bioinformatics and food or environmental biotechnology."
-    },
-    {
-      "q": "What are the possibilities for me to get a job in Denmark after I graduate with a Biotechnology degree?",
-      "a": "International graduates may be able to find employment, depending on their qualifications, residence permit conditions and the immigration rules in force at the time. They should check the current post-study work permit requirements with the relevant Danish authorities. Final Thoughts Studying biotechnology in Denmark can help students develop knowledge in molecular biology, genetics, pharmaceutical research, industrial biotechnology and other life science disciplines. For Biotechnology in Denmark for Indian students, selecting the right university, checking admission eligibility and planning finances are important steps towards an international education journey. Edu-Hawk Worldwide provides study abroad guidance to students exploring international education opportunities, helping them understand university options, admission requirements and application planning."
+      "q": "Can international students work part-time in Denmark?",
+      "a": "Yes, non-EU international students holding a valid Danish residence permit are legally permitted to work up to 20 hours per week during term and full-time in June, July, and August."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

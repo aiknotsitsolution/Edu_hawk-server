@@ -7,60 +7,65 @@ import heroBgImg from "../../../../../../Images/Abroad/Denmark/Engineering_UG/Ci
 import sideImg from "../../../../../../Images/Abroad/Denmark/Engineering_UG/Civil/side.webp";
 import ctaBgImg from "../../../../../../Images/Abroad/Denmark/Engineering_UG/Civil/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../../../Images/Abroad/Denmark/Engineering_UG/Civil/image1.png";
+import uniImg2 from "../../../../../../Images/Abroad/Denmark/Engineering_UG/Civil/image2.png";
+import uniImg3 from "../../../../../../Images/Abroad/Denmark/Engineering_UG/Civil/image3.png";
+
 const page = {
-  "name": "Civil Engineering (UG)",
+  "name": "Civil Engineering",
   "country": "Denmark",
   "slug": "ug/civil-engineering",
-  "title": "Civil Engineering (UG) in Denmark for Indian Students | Edu-Hawk Worldwide",
-  "description": "Study Civil Engineering (UG) in Denmark: Top universities, course duration, tuition fees in DKK & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study Civil Engineering (UG) in Denmark, Civil Engineering (UG) in Denmark for Indian Students, Best Universities in Denmark, Denmark Civil Engineering (UG) Admission, Cost of Studying in Denmark, Edu-Hawk Worldwide",
-  "introTitle": "Civil Engineering (UG) in Denmark for Indian Students",
+  "title": "Civil Engineering in Denmark for Indian Students | Edu-Hawk Worldwide",
+  "description": "Study Civil Engineering in Denmark: Top universities, course duration, tuition fees in DKK & INR, eligibility criteria, admission process & visa requirements for Indian students.",
+  "keywords": "Study Civil Engineering in Denmark, Civil Engineering in Denmark for Indian Students, Best Universities in Denmark, Denmark Civil Engineering Admission, Cost of Studying in Denmark, Edu-Hawk Worldwide",
+  "introTitle": "Civil Engineering in Denmark for Indian Students",
   "heroParas": [
-    "Comprehensive guide to studying Civil Engineering (UG) in Denmark for Indian students."
+    "Comprehensive guide to studying Civil Engineering in Denmark for Indian students."
   ],
   "overview": [
-    "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Denmark for Civil Engineering (UG) in Denmark."
+    "Explore top accredited Danish universities, tuition costs, eligibility, and visa procedures for Civil Engineering."
   ],
   "level": "B.Eng / B.Sc. Civil Engineering",
   "crumb": "Engineering / UG Engineering",
   "stats": [
     {
-      "val": "DKK 60K-120K",
+      "val": "DKK 60K-130K",
       "label": "Tuition / Year"
     },
     {
-      "val": "20 Hrs/Wk",
-      "label": "Part-Time Work"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
       "val": "3-4 Years",
       "label": "Course Duration"
     },
     {
-      "val": "English",
-      "label": "Medium of Study"
+      "val": "20 Hrs/Week",
+      "label": "Part-Time Work"
     }
   ],
   "highlights": [
     {
       "icon": "FaAward",
-      "title": "World-Class Nordic Education",
-      "desc": "Study in Denmark's globally ranked universities featuring innovative Problem-Based Learning (PBL) and state-of-the-art research."
+      "title": "World Top-100 Universities",
+      "desc": "Study in globally respected Danish institutions including University of Copenhagen, DTU, and Aarhus University."
     },
     {
       "icon": "FaGraduationCap",
-      "title": "English-Taught Degrees",
-      "desc": "Wide range of bachelor's and master's degrees delivered entirely in English with international accreditation."
+      "title": "Innovative PBL Learning",
+      "desc": "Problem-Based Learning model focusing on collaborative projects, real-world applications, and critical analysis."
     },
     {
       "icon": "FaFileAlt",
-      "title": "Generous Post-Study Work",
-      "desc": "Denmark offers post-study work permits for international graduates to start European careers in high-demand industries."
+      "title": "High Living Standard & Safety",
+      "desc": "Denmark consistently ranks among the happiest, safest, and most progressive countries in the world."
     },
     {
       "icon": "FaCheckCircle",
-      "title": "High Quality of Life",
-      "desc": "Consistently ranked among the world's happiest, safest, and most sustainable countries with vibrant student communities."
+      "title": "Post-Study Work Visa",
+      "desc": "Non-EU graduates are eligible for post-study residence permits to seek employment and build global careers."
     }
   ],
   "sections": [
@@ -68,11 +73,11 @@ const page = {
       "slot": "why",
       "eyebrow": "Why Denmark",
       "title": "Why Pursue Civil Engineering in Denmark?",
+      "lead": "Essential details regarding civil engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**1\\. Why Pursue Civil Engineering in Denmark?**",
             "Denmark is an attractive option for students seeking to study civil engineering, sustainable construction and modern infrastructure. A **Bachelor in Civil Engineering in Denmark** lets students dive into hands-on learning, engineering innovation, teamwork, and environmentally sustainable design. The universities in Denmark are focused on practical engineering knowledge and up-to-date construction technologies.",
             "Students can specialize in areas like structural engineering, transportation systems, construction management, or sustainable building technologies. Students are also exposed to modern construction methods, thanks to Denmark's emphasis on green buildings and energy-efficient infrastructure. These opportunities make **Civil Engineering in Denmark for Indian Students** a very attractive option for those seeking international engineering exposure.",
             "The main benefits of studying civil engineering in Denmark are:"
@@ -98,11 +103,11 @@ const page = {
       "slot": "courses",
       "eyebrow": "Degrees & Pathways",
       "title": "Civil Engineering studies in Denmark",
+      "lead": "Essential details regarding civil engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**2 Civil Engineering studies in Denmark**",
             "The **Civil Engineering courses in Denmark** at the bachelor level may include:"
           ]
         },
@@ -127,43 +132,67 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Top Civil Engineering Universities in Denmark",
-      "lead": "Explore leading universities and institutions in Denmark offering accredited Civil Engineering (UG) in Denmark programmes, world-class research facilities, and international student support.",
+      "lead": "Explore leading universities and institutions in Denmark offering accredited Civil Engineering programmes, modern campuses, and international student support.",
+      "unis": [
+        {
+          "name": "DTU (Technical University of Denmark)",
+          "location": "DTU (Technical University of Denmark)",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
+          "desc": "The Technical University of Denmark is known for its work in engineering, technology, infrastructure and sustainable development. Students are advised to check its current undergraduate programs, subject requirements and language of instructions.",
+          "img": uniImg1
+        },
+        {
+          "name": "Aarhus University has engineering and science programs that may be relevant to construction and infrastructure.",
+          "location": "Aarhus University has engineering and science programs that may be relevant to construction and infrastructure., Denmark",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
+          "desc": "Leading institution in Denmark offering world-class degree programmes, modern laboratories, and international student support.",
+          "img": uniImg2
+        },
+        {
+          "name": "University of Southern Denmark (SDU) \\",
+          "location": "University of Southern Denmark (SDU) \\",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
+          "desc": "Students should check with each university for the current list of undergraduate programs offered. Select a specific bachelor's degree program in Civil Engineering in either English or Danish depending on your language qualifications. These schools offer different academic tracks and not all of the related engineering courses are devoted to civil engineering degrees. If you are an Indian student planning to pursue **Civil Engineering in Denmark**, then you should carefully compare the degree title, curriculum, admission criteria and teaching language before applying.",
+          "img": uniImg3
+        }
+      ],
       "unis_data": [
         {
           "name": "DTU (Technical University of Denmark)",
-          "location": "Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
+          "location": "DTU (Technical University of Denmark)",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
           "desc": "The Technical University of Denmark is known for its work in engineering, technology, infrastructure and sustainable development. Students are advised to check its current undergraduate programs, subject requirements and language of instructions.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
-          "name": "Aarhus University Aarhus University has engineering and science programs that may be relevant to construction and infrastructure.",
-          "location": "Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
-          "desc": "Accredited institution offering comprehensive programmes with recognized European career pathways.",
-          "img_var": "null"
+          "name": "Aarhus University has engineering and science programs that may be relevant to construction and infrastructure.",
+          "location": "Aarhus University has engineering and science programs that may be relevant to construction and infrastructure., Denmark",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
+          "desc": "Leading institution in Denmark offering world-class degree programmes, modern laboratories, and international student support.",
+          "img": uniImg2
         },
         {
-          "name": "Aalborg Universitet Aalborg Universitet is famous for its problem-based learning and engineering education. Students interested in practical engineering and project-based learning can explore its related programs. \\#\\#\\# University of Southern Denmark (SDU)",
-          "location": "Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
-          "desc": "The University of Southern Denmark offers engineering programs with practical and technological focus. Students should check with each university for the current list of undergraduate programs offered. Select a specific bachelor's degree program in Civil Engineering in either English or Danish depending on your language qualifications. These schools offer different academic tracks and not all of the related engineering courses are devoted to civil engineering degrees. If you are an Indian student planning to pursue Civil Engineering in Denmark, then you should carefully compare the degree title, curriculum, admission criteria and teaching language before applying.",
-          "img_var": "null"
+          "name": "University of Southern Denmark (SDU) \\",
+          "location": "University of Southern Denmark (SDU) \\",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
+          "desc": "Students should check with each university for the current list of undergraduate programs offered. Select a specific bachelor's degree program in Civil Engineering in either English or Danish depending on your language qualifications. These schools offer different academic tracks and not all of the related engineering courses are devoted to civil engineering degrees. If you are an Indian student planning to pursue **Civil Engineering in Denmark**, then you should carefully compare the degree title, curriculum, admission criteria and teaching language before applying.",
+          "img": uniImg3
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
+        "Tuition fees are indicative and subject to annual review by Danish higher education institutions.",
+        "EU/EEA students may study tuition-free; international fees apply to non-EU/EEA citizens."
       ]
     },
     {
       "slot": "eligibility",
       "eyebrow": "Eligibility Criteria",
       "title": "Requirements for Civil Engineering Studies in Denmark",
+      "lead": "Essential details regarding civil engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**4\\. Requirements for Civil Engineering Studies in Denmark**",
             "International applicants generally have to meet the following requirements. It is important to know about the **Civil Engineering eligibility in Denmark** before choosing a university."
           ]
         },
@@ -201,11 +230,11 @@ const page = {
       "slot": "requirements",
       "eyebrow": "Admission Requirements",
       "title": "Admission Requirements of Civil Engineering in Denmark",
+      "lead": "Essential details regarding civil engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**5\\. Admission Requirements of Civil Engineering in Denmark**",
             "Universities may consider applicants based on their academic achievements, subject knowledge and proficiency in language. Here are some common **Admission requirements for Civil Engineering in Denmark**."
           ]
         },
@@ -231,13 +260,12 @@ const page = {
       "slot": "fees",
       "eyebrow": "Tuition & Living Costs",
       "title": "Tuition Fees for Civil Engineering in Denmark",
+      "lead": "Essential details regarding civil engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**6\\. Tuition Fees for Civil Engineering in Denmark**",
-            "The **Cost of studying Civil Engineering in Denmark** will depend on the university, program, accommodation and lifestyle. The figures below are indicative planning estimates and are not confirmed fees for a particular civil engineering course.",
-            "**Estimated Tuition Fees and Living Expenses**"
+            "The **Cost of studying Civil Engineering in Denmark** will depend on the university, program, accommodation and lifestyle. The figures below are indicative planning estimates and are not confirmed fees for a particular civil engineering course."
           ]
         },
         {
@@ -282,11 +310,11 @@ const page = {
       "slot": "timeline",
       "eyebrow": "Admission Procedure",
       "title": "How to Get Admission in Civil Engineering in Denmark",
+      "lead": "Essential details regarding civil engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**7\\. How to Get Admission in Civil Engineering in Denmark**",
             "The normal admission procedure for students interested in **Bachelor in Civil Engineering in Denmark** is as follows:"
           ]
         },
@@ -304,7 +332,6 @@ const page = {
         {
           "t": "p",
           "items": [
-            "**Application Dates**",
             "Deadlines can be different by applicant type and by university, so it\u2019s best to start applying early. International applicants should check the official application calendar for the intake they are interested in.",
             "Indian students should begin the application process early so they have enough time to prepare documents, meet language requirements and complete university applications. **Edu-Hawk Worldwide** is a study abroad consultancy that helps students comprehend the application process and prepare for their selected intake."
           ]
@@ -315,11 +342,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Further Studies & Scope",
       "title": "Accreditation and Recognition",
+      "lead": "Essential details regarding civil engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**8\\. Accreditation and Recognition**",
             "Before choosing a university, make sure that it is officially recognized and the qualification you will receive is valid. Danish engineering programs may be based on the European Credit Transfer and Accumulation System (ECTS) which enables transfer of academic credits between European institutions participating in the system. DTU study programs are normally 180 ECTS points for a bachelor\u2019s degree.",
             "A **Bachelor in Civil Engineering in Denmark** can also provide an academic basis for further studies in structural engineering, construction management, transportation engineering and sustainable infrastructure.",
             "Students considering work in India or another country should also verify local degree recognition and professional engineering requirements. Recognition may depend upon the institution, qualification and regulations of the country in which graduates wish to work or pursue further studies."
@@ -331,13 +358,12 @@ const page = {
       "slot": "careers",
       "eyebrow": "Career Opportunities",
       "title": "Civil Engineering Salary & Career Opportunities",
+      "lead": "Essential details regarding civil engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**9\\. Civil Engineering Salary & Career Opportunities**",
-            "Civil engineering graduates can work in the fields of construction, infrastructure, structural design, transportation & environmental engineering. A **Bachelor in Civil Engineering in Denmark** can prepare students with technical knowledge for a variety of career options related to construction and infrastructure.",
-            "**Possible Job Titles**"
+            "Civil engineering graduates can work in the fields of construction, infrastructure, structural design, transportation & environmental engineering. A **Bachelor in Civil Engineering in Denmark** can prepare students with technical knowledge for a variety of career options related to construction and infrastructure."
           ]
         },
         {
@@ -350,12 +376,6 @@ const page = {
             "Engineer, Transportation",
             "Building & Infrastructure Consultant",
             "Environmental Engineering and Sustainability Associate"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "**Indicative Annual Salary Bands in India**"
           ]
         },
         {
@@ -392,78 +412,12 @@ const page = {
       "slot": "documents",
       "eyebrow": "Required Documentation",
       "title": "Required Documents",
+      "lead": "Essential details regarding civil engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**10\\. Required Documents**",
             "These are the documents that are normally needed by students applying for an undergraduate course:"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "faq",
-      "eyebrow": "Frequently Asked Questions",
-      "title": "Scientific Papers",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "**Scientific Papers**"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Marksheets and certificates of Class 10 and Class 12 .",
-            "Academic transcripts and subject matter details.",
-            "Valid passport."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "**Language and application documents**"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Results of an English language test (if necessary).",
-            "Statement of purpose if requested.",
-            "CV or recommendation letters (if required by the university).",
-            "Filled application form and supporting documents."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "**Financial and immigration papers**"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Evidence of funds.",
-            "Documents related to admission.",
-            "Other immigration-related documents required for the residence permit process."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Each university has different requirements so check the official checklist of the university you have chosen. Students must ensure that all documents are correct and submitted by the deadlines.",
-            "**Q1. Can Indian students opt for Civil Engineering in Denmark after Class 12?**",
-            "Yes, if they meet the academic, subject and language requirements of the program they wish to attend. **Civil Engineering in Denmark for Indian students** \u2013 Students must check the admission requirements of the university they have chosen.",
-            "**Q2. Are Civil Engineering programs in Denmark taught in English?**",
-            "Many dedicated undergraduate programs in engineering are taught in Danish. DTU confirms that its full degree undergraduate programs are taught in Danish, except for General Engineering. Students should always verify the current language of instruction for the chosen program of study.",
-            "**3\\. How Long Does It Take to Get a Bachelor\u2019s Degree in Civil Engineering?**",
-            "A bachelor's level engineering program typically lasts 3-3.5 years, depending on the qualification and university. The BSc and BEng programs at DTU are organized differently.",
-            "**Q4. Are students allowed to work while studying in Denmark?**",
-            "Depending on the conditions of the residence permit, international students may be allowed to work. Students should read the current rules before taking a job.",
-            "**Q5. Can I Do a Master\u2019s Degree After My Bachelor\u2019s?**",
-            "Yup Graduates may apply for suitable master\u2019s programs, subject to meeting the academic requirements and admission criteria."
           ]
         }
       ]
@@ -472,11 +426,11 @@ const page = {
       "slot": "section-12",
       "eyebrow": "Conclusion",
       "title": "Conclusion",
+      "lead": "Essential details regarding civil engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**Conclusion**",
             "A **Bachelor in Civil Engineering in Denmark** can offer students with technical knowledge, practical engineering skills and an understanding of modern infrastructure and sustainable construction. In Denmark you can study structural engineering, transportation systems, construction management and environmentally responsible building technology.",
             "**Civil Engineering in Denmark for Indian students** is important to compare the universities, the language of teaching, admission requirements, tuition fees and career pathways before taking a decision. **Edu-Hawk Worldwide** is a study abroad consultant that helps students find the right program, understand the admission process and prepare for their international education experience."
           ]
@@ -487,42 +441,42 @@ const page = {
   "universities": [
     {
       "name": "DTU (Technical University of Denmark)",
-      "location": "Denmark",
-      "fee": "DKK 65,000 \u2013 120,000 / Year",
+      "location": "DTU (Technical University of Denmark)",
+      "fee": "DKK 60,000 \u2013 120,000 / Year",
       "desc": "The Technical University of Denmark is known for its work in engineering, technology, infrastructure and sustainable development. Students are advised to check its current undergraduate programs, subject requirements and language of instructions.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
-      "name": "Aarhus University Aarhus University has engineering and science programs that may be relevant to construction and infrastructure.",
-      "location": "Denmark",
-      "fee": "DKK 65,000 \u2013 120,000 / Year",
-      "desc": "Accredited institution offering comprehensive programmes with recognized European career pathways.",
-      "img_var": "null"
+      "name": "Aarhus University has engineering and science programs that may be relevant to construction and infrastructure.",
+      "location": "Aarhus University has engineering and science programs that may be relevant to construction and infrastructure., Denmark",
+      "fee": "DKK 60,000 \u2013 120,000 / Year",
+      "desc": "Leading institution in Denmark offering world-class degree programmes, modern laboratories, and international student support.",
+      "img": uniImg2
     },
     {
-      "name": "Aalborg Universitet Aalborg Universitet is famous for its problem-based learning and engineering education. Students interested in practical engineering and project-based learning can explore its related programs. \\#\\#\\# University of Southern Denmark (SDU)",
-      "location": "Denmark",
-      "fee": "DKK 65,000 \u2013 120,000 / Year",
-      "desc": "The University of Southern Denmark offers engineering programs with practical and technological focus. Students should check with each university for the current list of undergraduate programs offered. Select a specific bachelor's degree program in Civil Engineering in either English or Danish depending on your language qualifications. These schools offer different academic tracks and not all of the related engineering courses are devoted to civil engineering degrees. If you are an Indian student planning to pursue Civil Engineering in Denmark, then you should carefully compare the degree title, curriculum, admission criteria and teaching language before applying.",
-      "img_var": "null"
+      "name": "University of Southern Denmark (SDU) \\",
+      "location": "University of Southern Denmark (SDU) \\",
+      "fee": "DKK 60,000 \u2013 120,000 / Year",
+      "desc": "Students should check with each university for the current list of undergraduate programs offered. Select a specific bachelor's degree program in Civil Engineering in either English or Danish depending on your language qualifications. These schools offer different academic tracks and not all of the related engineering courses are devoted to civil engineering degrees. If you are an Indian student planning to pursue **Civil Engineering in Denmark**, then you should carefully compare the degree title, curriculum, admission criteria and teaching language before applying.",
+      "img": uniImg3
     }
   ],
   "faqs": [
     {
-      "q": "Can Indian students apply for Civil Engineering (UG) in Denmark?",
-      "a": "Yes, Indian students with qualifying credentials meeting English language proficiency (IELTS/TOEFL) and academic prerequisites can apply to recognized universities in Denmark."
+      "q": "Can Indian students apply for Civil Engineering in Denmark?",
+      "a": "Yes, Indian students meeting the academic eligibility prerequisites and English language proficiency requirements (IELTS/TOEFL) can apply to Danish higher education institutions."
     },
     {
-      "q": "What is the medium of instruction for Civil Engineering (UG) in Denmark?",
-      "a": "Most master's and international bachelor's degree programmes are taught entirely in English for international students across Danish universities."
+      "q": "What is the medium of instruction for Civil Engineering in Denmark?",
+      "a": "Programmes designed for international students across Danish universities are taught entirely in English."
     },
     {
-      "q": "What are the typical tuition fees for Civil Engineering (UG) in Denmark?",
-      "a": "Tuition fees for international students generally range between DKK 60,000 and DKK 120,000 per year, depending on the institution and level of study."
+      "q": "What are the typical tuition fees for Civil Engineering in Denmark?",
+      "a": "Tuition fees for non-EU international students typically range from DKK 60,000 to DKK 120,000 per year, depending on the programme and university."
     },
     {
-      "q": "Can international students work while studying in Denmark?",
-      "a": "Yes, non-EU international students with a valid Danish residence permit are legally permitted to work part-time (up to 20 hours per week) during semester periods and full-time during June, July, and August."
+      "q": "Can international students work part-time in Denmark?",
+      "a": "Yes, non-EU international students holding a valid Danish residence permit are legally permitted to work up to 20 hours per week during term and full-time in June, July, and August."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

@@ -7,6 +7,11 @@ import heroBgImg from "../../../../Images/Abroad/Denmark/InformationTechnology/h
 import sideImg from "../../../../Images/Abroad/Denmark/InformationTechnology/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Denmark/InformationTechnology/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../Images/Abroad/Denmark/InformationTechnology/image1.png";
+import uniImg2 from "../../../../Images/Abroad/Denmark/InformationTechnology/image2.png";
+import uniImg3 from "../../../../Images/Abroad/Denmark/InformationTechnology/image3.png";
+
 const page = {
   "name": "Information Technology",
   "country": "Denmark",
@@ -19,48 +24,48 @@ const page = {
     "Comprehensive guide to studying Information Technology in Denmark for Indian students."
   ],
   "overview": [
-    "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Denmark for Information Technology in Denmark."
+    "Explore top accredited Danish universities, tuition costs, eligibility, and visa procedures for Information Technology."
   ],
   "level": "B.Sc. & M.Sc. in IT",
   "crumb": "Information Technology",
   "stats": [
     {
-      "val": "DKK 60K-120K",
+      "val": "DKK 60K-130K",
       "label": "Tuition / Year"
     },
     {
-      "val": "20 Hrs/Wk",
-      "label": "Part-Time Work"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
       "val": "3-4 Years",
       "label": "Course Duration"
     },
     {
-      "val": "English",
-      "label": "Medium of Study"
+      "val": "20 Hrs/Week",
+      "label": "Part-Time Work"
     }
   ],
   "highlights": [
     {
       "icon": "FaAward",
-      "title": "World-Class Nordic Education",
-      "desc": "Study in Denmark's globally ranked universities featuring innovative Problem-Based Learning (PBL) and state-of-the-art research."
+      "title": "World Top-100 Universities",
+      "desc": "Study in globally respected Danish institutions including University of Copenhagen, DTU, and Aarhus University."
     },
     {
       "icon": "FaGraduationCap",
-      "title": "English-Taught Degrees",
-      "desc": "Wide range of bachelor's and master's degrees delivered entirely in English with international accreditation."
+      "title": "Innovative PBL Learning",
+      "desc": "Problem-Based Learning model focusing on collaborative projects, real-world applications, and critical analysis."
     },
     {
       "icon": "FaFileAlt",
-      "title": "Generous Post-Study Work",
-      "desc": "Denmark offers post-study work permits for international graduates to start European careers in high-demand industries."
+      "title": "High Living Standard & Safety",
+      "desc": "Denmark consistently ranks among the happiest, safest, and most progressive countries in the world."
     },
     {
       "icon": "FaCheckCircle",
-      "title": "High Quality of Life",
-      "desc": "Consistently ranked among the world's happiest, safest, and most sustainable countries with vibrant student communities."
+      "title": "Post-Study Work Visa",
+      "desc": "Non-EU graduates are eligible for post-study residence permits to seek employment and build global careers."
     }
   ],
   "sections": [
@@ -68,11 +73,11 @@ const page = {
       "slot": "why",
       "eyebrow": "Why Denmark",
       "title": "Why to Study Information Technology in Denmark?",
+      "lead": "Essential details regarding information technology in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**1\\. Why to Study Information Technology in Denmark?**",
             "Denmark is a popular study abroad destination for students interested in **Information Technology in Denmark**, software development, cybersecurity, cloud computing and digital transformation. Danish universities emphasize on innovation, hands-on learning, research and solving problems through technology.",
             "Graduates of a degree in Information Technology acquire the technical skills to develop software, manage digital systems, safeguard information, and support modern businesses. Students have the opportunity to study new areas in artificial intelligence, data analytics, cloud infrastructure and enterprise technology. Pursuing a **Bachelor and Master of Information Technology in Denmark** can help students develop technical knowledge and practical skills for the global technology industry."
           ]
@@ -83,11 +88,11 @@ const page = {
       "slot": "courses",
       "eyebrow": "Degrees & Pathways",
       "title": "Information Technology Courses in Denmark",
+      "lead": "Essential details regarding information technology in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**2\\. Information Technology Courses in Denmark**",
             "Denmark offers undergraduate and postgraduate **Information Technology courses in Denmark**, computer science, software engineering and related fields.",
             "The bachelor\u2019s programs may comprise:"
           ]
@@ -136,58 +141,95 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Leading Information Technology Colleges in Denmark",
-      "lead": "Explore leading universities and institutions in Denmark offering accredited Information Technology in Denmark programmes, world-class research facilities, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Denmark offering accredited Information Technology programmes, modern campuses, and international student support.",
+      "unis": [
         {
           "name": "University of Copenhagen (UCPH)",
           "location": "Copenhagen, Denmark",
           "fee": "DKK 65,000 \u2013 120,000 / Year",
           "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
           "name": "Technical University of Denmark (DTU)",
           "location": "Kongens Lyngby, Denmark",
           "fee": "DKK 75,000 \u2013 115,000 / Year",
           "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-          "img_var": "null"
+          "img": uniImg2
         },
         {
           "name": "Aarhus University (AU)",
           "location": "Aarhus, Denmark",
           "fee": "DKK 60,000 \u2013 110,000 / Year",
           "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-          "img_var": "null"
+          "img": uniImg3
         },
         {
           "name": "Aalborg University (AAU)",
           "location": "Aalborg, Denmark",
           "fee": "DKK 58,000 \u2013 105,000 / Year",
           "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
-          "name": "Copenhagen Business School (CBS)",
-          "location": "Frederiksberg, Denmark",
-          "fee": "DKK 70,000 \u2013 130,000 / Year",
-          "desc": "Triple-crown accredited business institution recognized across Europe for excellence in management, economics, and finance.",
-          "img_var": "null"
+          "name": "University of Southern Denmark (SDU)",
+          "location": "Odense, Denmark",
+          "fee": "DKK 62,000 \u2013 115,000 / Year",
+          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+          "img": uniImg2
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "University of Copenhagen (UCPH)",
+          "location": "Copenhagen, Denmark",
+          "fee": "DKK 65,000 \u2013 120,000 / Year",
+          "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
+          "img": uniImg1
+        },
+        {
+          "name": "Technical University of Denmark (DTU)",
+          "location": "Kongens Lyngby, Denmark",
+          "fee": "DKK 75,000 \u2013 115,000 / Year",
+          "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
+          "img": uniImg2
+        },
+        {
+          "name": "Aarhus University (AU)",
+          "location": "Aarhus, Denmark",
+          "fee": "DKK 60,000 \u2013 110,000 / Year",
+          "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
+          "img": uniImg3
+        },
+        {
+          "name": "Aalborg University (AAU)",
+          "location": "Aalborg, Denmark",
+          "fee": "DKK 58,000 \u2013 105,000 / Year",
+          "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
+          "img": uniImg1
+        },
+        {
+          "name": "University of Southern Denmark (SDU)",
+          "location": "Odense, Denmark",
+          "fee": "DKK 62,000 \u2013 115,000 / Year",
+          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+          "img": uniImg2
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
+        "Tuition fees are indicative and subject to annual review by Danish higher education institutions.",
+        "EU/EEA students may study tuition-free; international fees apply to non-EU/EEA citizens."
       ]
     },
     {
       "slot": "eligibility",
       "eyebrow": "Eligibility Criteria",
       "title": "Who can study Information Technology in Denmark?",
+      "lead": "Essential details regarding information technology in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**4\\. Who can study Information Technology in Denmark?**",
-            "**Eligibility for a bachelor\u2019s**",
             "International applicants typically need:"
           ]
         },
@@ -205,7 +247,6 @@ const page = {
           "t": "p",
           "items": [
             "Meeting the **Information Technology eligibility requirements in Denmark** is important for international applicants planning undergraduate admission. The exact requirements depend on the university and selected course.",
-            "**Eligibility for Masters**",
             "Applicants will usually need:"
           ]
         },
@@ -230,11 +271,11 @@ const page = {
       "slot": "requirements",
       "eyebrow": "Admission Requirements",
       "title": "Denmark Entry Requirements Information Technology",
+      "lead": "Essential details regarding information technology in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**5\\. Denmark Entry Requirements Information Technology**",
             "Universities look at the academic qualifications, grades, subject background and language proficiency of applicants. The **Information Technology admission requirements in Denmark** can vary according to the degree level and university.",
             "For the bachelor\u2019s courses, students may be required to submit marksheets of Class 10 and 12, completion certificates and proof of knowledge of relevant subjects.",
             "Applicants to master\u2019s programs usually submit their certificate of bachelor\u2019s degree, academic transcripts and detailed course descriptions. Certain programs have requirements for specific credits in programming, mathematics, software development, or computer science.",
@@ -247,11 +288,11 @@ const page = {
       "slot": "fees",
       "eyebrow": "Tuition & Living Costs",
       "title": "Study Information Technology in Denmark Cost",
+      "lead": "Essential details regarding information technology in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**6\\. Study Information Technology in Denmark Cost**",
             "The **Information Technology fees in Denmark** depend on university, program and life-style. Here are the approximate numbers for planning for Indian students."
           ]
         },
@@ -303,11 +344,11 @@ const page = {
       "slot": "timeline",
       "eyebrow": "Admission Procedure",
       "title": "How to Get Admission in Information Technology in Denmark",
+      "lead": "Essential details regarding information technology in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**7\\. How to Get Admission in Information Technology in Denmark**",
             "The general **Information Technology admission process in Denmark** consists of the following steps:"
           ]
         },
@@ -336,11 +377,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Further Studies & Scope",
       "title": "Recognition and Accreditation 8.1",
+      "lead": "Essential details regarding information technology in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**8\\. Recognition and Accreditation 8.1**",
             "Students should check that the university is formally recognized in Denmark and look at the programme\u2019s curriculum, teaching methods, research facilities and industry links before enrolling.",
             "For IT careers, it helps to look at the opportunities for internships, real-world projects, industry certifications, and exposure to modern development tools. Students aspiring to work in India or abroad should also check the qualification\u2019s alignment with their future career and further study plans."
           ]
@@ -351,11 +392,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Career Opportunities",
       "title": "Information Technology Salary and Job Prospects",
+      "lead": "Essential details regarding information technology in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**9\\. Information Technology Salary and Job Prospects**",
             "Graduates can go for opportunities in technology companies, IT consulting, software development, financial services, healthcare technology and digital businesses. Completing a **Bachelor and Master of Information Technology in Denmark** can prepare students for different career paths, depending on their qualifications and practical experience.",
             "Career paths could include:"
           ]
@@ -385,14 +426,8 @@ const page = {
       "slot": "documents",
       "eyebrow": "Required Documentation",
       "title": "Required Documents",
+      "lead": "Essential details regarding information technology in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "**10\\. Required Documents**",
-            "**For Bachelor\u2019s Degree Applicants**"
-          ]
-        },
         {
           "t": "ul",
           "items": [
@@ -403,12 +438,6 @@ const page = {
             "English language test results, if required",
             "Statement of purpose (if required)",
             "Certified translations where applicable"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "**For M.A. Candidates:**"
           ]
         },
         {
@@ -439,53 +468,57 @@ const page = {
       "location": "Copenhagen, Denmark",
       "fee": "DKK 65,000 \u2013 120,000 / Year",
       "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
       "name": "Technical University of Denmark (DTU)",
       "location": "Kongens Lyngby, Denmark",
       "fee": "DKK 75,000 \u2013 115,000 / Year",
       "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-      "img_var": "null"
+      "img": uniImg2
     },
     {
       "name": "Aarhus University (AU)",
       "location": "Aarhus, Denmark",
       "fee": "DKK 60,000 \u2013 110,000 / Year",
       "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-      "img_var": "null"
+      "img": uniImg3
     },
     {
       "name": "Aalborg University (AAU)",
       "location": "Aalborg, Denmark",
       "fee": "DKK 58,000 \u2013 105,000 / Year",
       "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
-      "name": "Copenhagen Business School (CBS)",
-      "location": "Frederiksberg, Denmark",
-      "fee": "DKK 70,000 \u2013 130,000 / Year",
-      "desc": "Triple-crown accredited business institution recognized across Europe for excellence in management, economics, and finance.",
-      "img_var": "null"
+      "name": "University of Southern Denmark (SDU)",
+      "location": "Odense, Denmark",
+      "fee": "DKK 62,000 \u2013 115,000 / Year",
+      "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+      "img": uniImg2
     }
   ],
   "faqs": [
     {
-      "q": "Can Indian students apply for Information Technology in Denmark?",
-      "a": "Yes, Indian students with qualifying credentials meeting English language proficiency (IELTS/TOEFL) and academic prerequisites can apply to recognized universities in Denmark."
+      "q": "Q1. How many years is the study of IT in Denmark?",
+      "a": "A bachelor\u2019s degree is usually three years, and most relevant master\u2019s programs two years."
     },
     {
-      "q": "What is the medium of instruction for Information Technology in Denmark?",
-      "a": "Most master's and international bachelor's degree programmes are taught entirely in English for international students across Danish universities."
+      "q": "Q2. Can Indian students study IT in Denmark after 12th grade?",
+      "a": "Yes. Students may apply for bachelor\u2019s programs if their school qualifications, subjects, grades and language proficiency are in line with the university requirements."
     },
     {
-      "q": "What are the typical tuition fees for Information Technology in Denmark?",
-      "a": "Tuition fees for international students generally range between DKK 60,000 and DKK 120,000 per year, depending on the institution and level of study."
+      "q": "Q3. Can a student with a bachelor degree in computer science apply for an IT master program?",
+      "a": "Yes. Applicants may be eligible if their undergraduate studies meet the academic entry requirements of the chosen program."
     },
     {
-      "q": "Can international students work while studying in Denmark?",
-      "a": "Yes, non-EU international students with a valid Danish residence permit are legally permitted to work part-time (up to 20 hours per week) during semester periods and full-time during June, July, and August."
+      "q": "Q4. How much does it cost to study IT in Denmark?",
+      "a": "On an average, a three-year bachelor\u2019s degree will cost \u20b947-92 lakh and a two-year master\u2019s degree \u20b935-70 lakh, including tuition and living costs. Costs are variable."
+    },
+    {
+      "q": "Q5. Do you have scholarships for international students?",
+      "a": "Some Danish universities offer scholarships or tuition fee waivers for eligible international students. Availability is subject to the institution, the degree level and the intake. Students interested in studying IT abroad can seek guidance from **Edu-Hawk Worldwide** to understand course options, university applications, admission requirements and the overall study-abroad process."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

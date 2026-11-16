@@ -7,6 +7,11 @@ import heroBgImg from "../../../../Images/Abroad/Denmark/PublicHealth/hero_bg.we
 import sideImg from "../../../../Images/Abroad/Denmark/PublicHealth/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Denmark/PublicHealth/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../Images/Abroad/Denmark/PublicHealth/image1.png";
+import uniImg2 from "../../../../Images/Abroad/Denmark/PublicHealth/image2.png";
+import uniImg3 from "../../../../Images/Abroad/Denmark/PublicHealth/image3.png";
+
 const page = {
   "name": "Public Health",
   "country": "Denmark",
@@ -19,48 +24,48 @@ const page = {
     "Comprehensive guide to studying Public Health in Denmark for Indian students."
   ],
   "overview": [
-    "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Denmark for Public Health in Denmark."
+    "Explore top accredited Danish universities, tuition costs, eligibility, and visa procedures for Public Health."
   ],
   "level": "Master of Public Health (MPH)",
   "crumb": "MBBS Abroad",
   "stats": [
     {
-      "val": "DKK 60K-120K",
+      "val": "DKK 60K-130K",
       "label": "Tuition / Year"
     },
     {
-      "val": "20 Hrs/Wk",
-      "label": "Part-Time Work"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
       "val": "3-4 Years",
       "label": "Course Duration"
     },
     {
-      "val": "English",
-      "label": "Medium of Study"
+      "val": "20 Hrs/Week",
+      "label": "Part-Time Work"
     }
   ],
   "highlights": [
     {
       "icon": "FaAward",
-      "title": "World-Class Nordic Education",
-      "desc": "Study in Denmark's globally ranked universities featuring innovative Problem-Based Learning (PBL) and state-of-the-art research."
+      "title": "World Top-100 Universities",
+      "desc": "Study in globally respected Danish institutions including University of Copenhagen, DTU, and Aarhus University."
     },
     {
       "icon": "FaGraduationCap",
-      "title": "English-Taught Degrees",
-      "desc": "Wide range of bachelor's and master's degrees delivered entirely in English with international accreditation."
+      "title": "Innovative PBL Learning",
+      "desc": "Problem-Based Learning model focusing on collaborative projects, real-world applications, and critical analysis."
     },
     {
       "icon": "FaFileAlt",
-      "title": "Generous Post-Study Work",
-      "desc": "Denmark offers post-study work permits for international graduates to start European careers in high-demand industries."
+      "title": "High Living Standard & Safety",
+      "desc": "Denmark consistently ranks among the happiest, safest, and most progressive countries in the world."
     },
     {
       "icon": "FaCheckCircle",
-      "title": "High Quality of Life",
-      "desc": "Consistently ranked among the world's happiest, safest, and most sustainable countries with vibrant student communities."
+      "title": "Post-Study Work Visa",
+      "desc": "Non-EU graduates are eligible for post-study residence permits to seek employment and build global careers."
     }
   ],
   "sections": [
@@ -68,11 +73,11 @@ const page = {
       "slot": "why",
       "eyebrow": "Why Denmark",
       "title": "Why Study Public Health in Denmark?",
+      "lead": "Essential details regarding public health in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**1\\. Why Study Public Health in Denmark?**",
             "If disease prevention, health promotion, epidemiology, healthcare policy or population health are areas of interest to you, Denmark can be an attractive study destination. The country has a well-established public healthcare system and a strong emphasis on preventive healthcare, health research and improving the quality of life of communities. Studying **Public Health in Denmark** gives students an opportunity to understand how healthcare systems work and how public health strategies can improve community well-being.",
             "In Denmark, studying public health means understanding how social, environmental, economic and behavioural factors impact health outcomes. Students can develop analytical and research skills to tackle public health challenges, evaluate healthcare programmes and participate in community health initiatives. These skills are valuable for students planning careers in healthcare research, health administration and international public health.",
             "The main benefits of studying public health in Denmark are:"
@@ -102,13 +107,12 @@ const page = {
       "slot": "courses",
       "eyebrow": "Degrees & Pathways",
       "title": "Public Health Studies in Denmark",
+      "lead": "Essential details regarding public health in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**2\\. Public Health Studies in Denmark**",
             "Denmark provides bachelor's-level studies in health-related disciplines and postgraduate programmes in public health, global health, epidemiology and related fields. Universities differ in their courses, length of study, language and admission criteria. Students exploring **Public Health courses in Denmark** should compare the curriculum, academic requirements and language of instruction before selecting a programme.",
-            "**Bachelor's in Public Health and Related Programs**",
             "Undergraduate students interested in public health may major in health sciences, public health-related fields, biology or social sciences.",
             "In the Danish university system, a bachelor's degree is typically three years, although professional and other programmes may vary in length.",
             "Areas of study often include:"
@@ -131,7 +135,6 @@ const page = {
           "t": "p",
           "items": [
             "Applicants must verify that the chosen university has a particular bachelor's degree in public health and that the course is taught in English. Students should also review the academic subjects covered in the programme to understand whether they match their future study or career interests.",
-            "**Master's in Public Health Denmark**",
             "Master's programmes will probably be of particular interest to students who already have a bachelor's degree in a related field. In Denmark, many full-time master's degrees take two years, although some programmes have different structures.",
             "Possible specialisations and related fields of study include:"
           ]
@@ -160,45 +163,68 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Best Public Health Colleges in Denmark",
-      "lead": "Explore leading universities and institutions in Denmark offering accredited Public Health in Denmark programmes, world-class research facilities, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Denmark offering accredited Public Health programmes, modern campuses, and international student support.",
+      "unis": [
         {
           "name": "University of Copenhagen",
-          "location": "Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
+          "location": "University of Copenhagen, Denmark",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
           "desc": "The Department of Public Health at the University of Copenhagen is involved in education and research in the area of public health. Areas of study include epidemiology, health services research, health promotion and population health. Students may explore its public health programmes and research opportunities. Language of instruction and eligibility requirements vary by degree. Official website: [https\\://www\\.ku.dk/](https://www.ku.dk/)",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
           "name": "University of Aarhus",
-          "location": "Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
-          "desc": "Aarhus University undertakes research and education in health sciences, epidemiology and related fields. Students who are interested in population health, research and scientific disciplines related to health should refer to the current programme catalogue.",
-          "img_var": "null"
+          "location": "University of Aarhus, Denmark",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
+          "desc": "Aarhus University undertakes research and education in health sciences, epidemiology and related fields. Students who are interested in population health, research and scientific disciplines related to health should refer to the current programme catalogue. Website: [https\\://international.au.dk/](https://international.au.dk/)",
+          "img": uniImg2
         },
         {
           "name": "University of Southern Denmark (SDU)",
-          "location": "Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
-          "desc": "The University of Southern Denmark teaches and conducts research in the area of health sciences, including population health, epidemiology and healthcare. Applicants need to check individual programmes to see if they are suitable for their academic background and career objectives. Homepage: [https\\://www\\.sdu.dk/da](https://www.sdu.dk/da) Before applying, students should confirm the availability of their preferred programme, its teaching language and the admission criteria for international applicants. Edu-Hawk Worldwide can guide students in understanding programme options and preparing their study abroad applications.",
-          "img_var": "null"
+          "location": "University of Southern Denmark (SDU)",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
+          "desc": "The University of Southern Denmark teaches and conducts research in the area of health sciences, including population health, epidemiology and healthcare. Applicants need to check individual programmes to see if they are suitable for their academic background and career objectives. Homepage: [https\\://www\\.sdu.dk/da](https://www.sdu.dk/da) Before applying, students should confirm the availability of their preferred programme, its teaching language and the admission criteria for international applicants. **Edu-Hawk Worldwide** can guide students in understanding programme options and preparing their study abroad applications.",
+          "img": uniImg3
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "University of Copenhagen",
+          "location": "University of Copenhagen, Denmark",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
+          "desc": "The Department of Public Health at the University of Copenhagen is involved in education and research in the area of public health. Areas of study include epidemiology, health services research, health promotion and population health. Students may explore its public health programmes and research opportunities. Language of instruction and eligibility requirements vary by degree. Official website: [https\\://www\\.ku.dk/](https://www.ku.dk/)",
+          "img": uniImg1
+        },
+        {
+          "name": "University of Aarhus",
+          "location": "University of Aarhus, Denmark",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
+          "desc": "Aarhus University undertakes research and education in health sciences, epidemiology and related fields. Students who are interested in population health, research and scientific disciplines related to health should refer to the current programme catalogue. Website: [https\\://international.au.dk/](https://international.au.dk/)",
+          "img": uniImg2
+        },
+        {
+          "name": "University of Southern Denmark (SDU)",
+          "location": "University of Southern Denmark (SDU)",
+          "fee": "DKK 60,000 \u2013 120,000 / Year",
+          "desc": "The University of Southern Denmark teaches and conducts research in the area of health sciences, including population health, epidemiology and healthcare. Applicants need to check individual programmes to see if they are suitable for their academic background and career objectives. Homepage: [https\\://www\\.sdu.dk/da](https://www.sdu.dk/da) Before applying, students should confirm the availability of their preferred programme, its teaching language and the admission criteria for international applicants. **Edu-Hawk Worldwide** can guide students in understanding programme options and preparing their study abroad applications.",
+          "img": uniImg3
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
+        "Tuition fees are indicative and subject to annual review by Danish higher education institutions.",
+        "EU/EEA students may study tuition-free; international fees apply to non-EU/EEA citizens."
       ]
     },
     {
       "slot": "eligibility",
       "eyebrow": "Eligibility Criteria",
       "title": "Study Public Health in Denmark \\- Requirements",
+      "lead": "Essential details regarding public health in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**4\\. Study Public Health in Denmark \\- Requirements**",
             "Eligibility is subject to the university, programme and level of study. Students researching **Public Health eligibility in Denmark** should carefully review the requirements of each institution because bachelor's and master's programmes may have different academic expectations.",
-            "**Eligibility for Bachelor Programs**",
             "Applicants should generally have:"
           ]
         },
@@ -216,7 +242,6 @@ const page = {
           "t": "p",
           "items": [
             "Indian students can verify whether their Class 12 qualification fulfils the admission criteria of the institution. Some programmes have specific science or mathematics prerequisites.",
-            "**Admission to Master's Programs**",
             "Most applicants will require:"
           ]
         },
@@ -243,11 +268,11 @@ const page = {
       "slot": "requirements",
       "eyebrow": "Admission Requirements",
       "title": "Denmark Public Health Admission Requirements",
+      "lead": "Essential details regarding public health in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**5\\. Denmark Public Health Admission Requirements**",
             "International students are recommended to check the admission requirements of each university prior to application. The **Public Health admission requirements in Denmark** can differ depending on the university, programme level and academic specialisation."
           ]
         },
@@ -272,16 +297,14 @@ const page = {
       "slot": "fees",
       "eyebrow": "Tuition & Living Costs",
       "title": "Tuition Fees for Public Health Studies in Denmark",
+      "lead": "Essential details regarding public health in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**6\\. Tuition Fees for Public Health Studies in Denmark**",
             "The total **Cost of studying Public Health in Denmark** includes tuition fees, accommodation, food, transportation, study materials and personal expenses. The overall cost depends on the university, city, lifestyle and citizenship.",
-            "**Tuition Cost**",
             "Tuition fees vary according to citizenship and programme. EU/EEA students typically have different tuition rules than students outside the EU/EEA. Indian students need to check the tuition fee for the programme they have chosen.",
             "There are scholarships available from universities or other funding schemes for those who are eligible to apply. However, scholarships are competitive and should not be relied on to fund the full cost of study.",
-            "**Estimated Cost of Living (INR)**",
             "These are indicative planning estimates and not official university quotations."
           ]
         },
@@ -335,11 +358,11 @@ const page = {
       "slot": "timeline",
       "eyebrow": "Admission Procedure",
       "title": "Admission Procedure for Public Health in Denmark",
+      "lead": "Essential details regarding public health in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**7\\. Admission Procedure for Public Health in Denmark**",
             "Students who want to study **Public Health in Denmark** can take the following steps:"
           ]
         },
@@ -371,11 +394,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Further Studies & Scope",
       "title": "Licensing for Public Health in Denmark",
+      "lead": "Essential details regarding public health in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**8\\. Licensing for Public Health in Denmark**",
             "Public health is a major educational and professional discipline, and many roles do not have the same professional registration requirements as regulated clinical professions. However, requirements vary by specific job and whether clinical practice is involved.",
             "Students planning to pursue a career in public health in Denmark should:"
           ]
@@ -403,13 +426,12 @@ const page = {
       "slot": "careers",
       "eyebrow": "Career Opportunities",
       "title": "Public Health Graduates Salary & Job Prospects in Denmark",
+      "lead": "Essential details regarding public health in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**9\\. Public Health Graduates Salary & Job Prospects in Denmark**",
-            "Public health graduates can work in research, administration of healthcare systems, epidemiology, health promotion, policymaking and international health projects. What determines your ability to get a job is your education, experience, language skills, eligibility to work and the requirements of employers.",
-            "**Careers & Jobs**"
+            "Public health graduates can work in research, administration of healthcare systems, epidemiology, health promotion, policymaking and international health projects. What determines your ability to get a job is your education, experience, language skills, eligibility to work and the requirements of employers."
           ]
         },
         {
@@ -428,7 +450,6 @@ const page = {
         {
           "t": "p",
           "items": [
-            "**Expected Salary**",
             "Salary depends on job title, employer, experience, level of education, location and sector. Salary structures can differ for research posts, the public sector, private organisations and international development projects.",
             "Students should check current Danish salary information for the role they are targeting and should not assume that graduation equals employment or a particular salary.",
             "Knowledge of Danish could help to gain access to some jobs, especially those involving public service, community interaction or direct patient contact. Relevant research experience, data analysis skills and knowledge of healthcare systems can also support career development."
@@ -440,11 +461,11 @@ const page = {
       "slot": "documents",
       "eyebrow": "Required Documentation",
       "title": "Documents Needed to Study Public Health in Denmark",
+      "lead": "Essential details regarding public health in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**10\\. Documents Needed to Study Public Health in Denmark**",
             "The exact document checklist is dependent on the institution and the programme. Typical documents that are requested include:"
           ]
         },
@@ -478,42 +499,46 @@ const page = {
   "universities": [
     {
       "name": "University of Copenhagen",
-      "location": "Denmark",
-      "fee": "DKK 65,000 \u2013 120,000 / Year",
+      "location": "University of Copenhagen, Denmark",
+      "fee": "DKK 60,000 \u2013 120,000 / Year",
       "desc": "The Department of Public Health at the University of Copenhagen is involved in education and research in the area of public health. Areas of study include epidemiology, health services research, health promotion and population health. Students may explore its public health programmes and research opportunities. Language of instruction and eligibility requirements vary by degree. Official website: [https\\://www\\.ku.dk/](https://www.ku.dk/)",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
       "name": "University of Aarhus",
-      "location": "Denmark",
-      "fee": "DKK 65,000 \u2013 120,000 / Year",
-      "desc": "Aarhus University undertakes research and education in health sciences, epidemiology and related fields. Students who are interested in population health, research and scientific disciplines related to health should refer to the current programme catalogue.",
-      "img_var": "null"
+      "location": "University of Aarhus, Denmark",
+      "fee": "DKK 60,000 \u2013 120,000 / Year",
+      "desc": "Aarhus University undertakes research and education in health sciences, epidemiology and related fields. Students who are interested in population health, research and scientific disciplines related to health should refer to the current programme catalogue. Website: [https\\://international.au.dk/](https://international.au.dk/)",
+      "img": uniImg2
     },
     {
       "name": "University of Southern Denmark (SDU)",
-      "location": "Denmark",
-      "fee": "DKK 65,000 \u2013 120,000 / Year",
-      "desc": "The University of Southern Denmark teaches and conducts research in the area of health sciences, including population health, epidemiology and healthcare. Applicants need to check individual programmes to see if they are suitable for their academic background and career objectives. Homepage: [https\\://www\\.sdu.dk/da](https://www.sdu.dk/da) Before applying, students should confirm the availability of their preferred programme, its teaching language and the admission criteria for international applicants. Edu-Hawk Worldwide can guide students in understanding programme options and preparing their study abroad applications.",
-      "img_var": "null"
+      "location": "University of Southern Denmark (SDU)",
+      "fee": "DKK 60,000 \u2013 120,000 / Year",
+      "desc": "The University of Southern Denmark teaches and conducts research in the area of health sciences, including population health, epidemiology and healthcare. Applicants need to check individual programmes to see if they are suitable for their academic background and career objectives. Homepage: [https\\://www\\.sdu.dk/da](https://www.sdu.dk/da) Before applying, students should confirm the availability of their preferred programme, its teaching language and the admission criteria for international applicants. **Edu-Hawk Worldwide** can guide students in understanding programme options and preparing their study abroad applications.",
+      "img": uniImg3
     }
   ],
   "faqs": [
     {
-      "q": "Can Indian students apply for Public Health in Denmark?",
-      "a": "Yes, Indian students with qualifying credentials meeting English language proficiency (IELTS/TOEFL) and academic prerequisites can apply to recognized universities in Denmark."
+      "q": "Q1. Can Indian students study public health in Denmark?",
+      "a": "Yes. Indian students are eligible to apply if they meet the academic, language and other admission requirements of the university they choose. Eligibility depends on the programme and the students' previous qualifications. **Public Health in Denmark for Indian students** can be a suitable option for those interested in healthcare research, epidemiology and population health."
     },
     {
-      "q": "What is the medium of instruction for Public Health in Denmark?",
-      "a": "Most master's and international bachelor's degree programmes are taught entirely in English for international students across Danish universities."
+      "q": "Q2. Is public health in Denmark available in English?",
+      "a": "Some postgraduate programmes in public health and related disciplines are available in English, while others are taught in Danish. Applicants should check the teaching language for the particular course."
     },
     {
-      "q": "What are the typical tuition fees for Public Health in Denmark?",
-      "a": "Tuition fees for international students generally range between DKK 60,000 and DKK 120,000 per year, depending on the institution and level of study."
+      "q": "Q3. How long does it take to study public health in Denmark?",
+      "a": "In the Danish university system, a bachelor's degree usually takes three years and many full-time master's programmes take two years. How long it takes to complete depends on the institution and the programme."
     },
     {
-      "q": "Can international students work while studying in Denmark?",
-      "a": "Yes, non-EU international students with a valid Danish residence permit are legally permitted to work part-time (up to 20 hours per week) during semester periods and full-time during June, July, and August."
+      "q": "Q4. What is the cost of studying public health in Denmark in Indian Rupees?",
+      "a": "The estimated living expenses could be between \u20b98.9 lakh and \u20b916.8 lakh per annum. Tuition fees are determined by citizenship, university and programme. Applicants are advised to check the latest tuition fee with the institution. The **Cost of studying Public Health in Denmark** will therefore vary according to the selected university and individual lifestyle."
+    },
+    {
+      "q": "Q5. Which jobs can I get after studying public health in Denmark?",
+      "a": "Potential career fields include epidemiology, health promotion, public health research, healthcare administration, health policy, global health projects and health data analysis. The available roles will be determined by the graduate's qualifications, skills, experience and work eligibility. **Final Thoughts** Studying public health can provide an academic foundation in disease prevention, health promotion, epidemiology and healthcare policy. Students interested in **Public Health in Denmark for Indian students** should compare programmes, verify eligibility, understand tuition and living costs and prepare their applications carefully. **Edu-Hawk Worldwide** can support students with study abroad guidance and application planning as they explore suitable international education opportunities."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

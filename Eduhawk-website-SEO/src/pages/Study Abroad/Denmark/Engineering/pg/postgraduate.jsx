@@ -7,6 +7,11 @@ import heroBgImg from "../../../../../Images/Abroad/Denmark/Engineering_PG/hero_
 import sideImg from "../../../../../Images/Abroad/Denmark/Engineering_PG/side.webp";
 import ctaBgImg from "../../../../../Images/Abroad/Denmark/Engineering_PG/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../../Images/Abroad/Denmark/Engineering_PG/image1.png";
+import uniImg2 from "../../../../../Images/Abroad/Denmark/Engineering_PG/image2.png";
+import uniImg3 from "../../../../../Images/Abroad/Denmark/Engineering_PG/image3.png";
+
 const page = {
   "name": "Postgraduate Engineering",
   "country": "Denmark",
@@ -19,48 +24,48 @@ const page = {
     "Comprehensive guide to studying Postgraduate Engineering in Denmark for Indian students."
   ],
   "overview": [
-    "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Denmark for Postgraduate Engineering in Denmark."
+    "Explore top accredited Danish universities, tuition costs, eligibility, and visa procedures for Postgraduate Engineering."
   ],
   "level": "M.Eng / M.Sc. in Engineering",
   "crumb": "Engineering / PG Engineering",
   "stats": [
     {
-      "val": "DKK 60K-120K",
+      "val": "DKK 60K-130K",
       "label": "Tuition / Year"
-    },
-    {
-      "val": "20 Hrs/Wk",
-      "label": "Part-Time Work"
-    },
-    {
-      "val": "3-4 Years",
-      "label": "Course Duration"
     },
     {
       "val": "English",
       "label": "Medium of Study"
+    },
+    {
+      "val": "2 Years",
+      "label": "Course Duration"
+    },
+    {
+      "val": "20 Hrs/Week",
+      "label": "Part-Time Work"
     }
   ],
   "highlights": [
     {
       "icon": "FaAward",
-      "title": "World-Class Nordic Education",
-      "desc": "Study in Denmark's globally ranked universities featuring innovative Problem-Based Learning (PBL) and state-of-the-art research."
+      "title": "World Top-100 Universities",
+      "desc": "Study in globally respected Danish institutions including University of Copenhagen, DTU, and Aarhus University."
     },
     {
       "icon": "FaGraduationCap",
-      "title": "English-Taught Degrees",
-      "desc": "Wide range of bachelor's and master's degrees delivered entirely in English with international accreditation."
+      "title": "Innovative PBL Learning",
+      "desc": "Problem-Based Learning model focusing on collaborative projects, real-world applications, and critical analysis."
     },
     {
       "icon": "FaFileAlt",
-      "title": "Generous Post-Study Work",
-      "desc": "Denmark offers post-study work permits for international graduates to start European careers in high-demand industries."
+      "title": "High Living Standard & Safety",
+      "desc": "Denmark consistently ranks among the happiest, safest, and most progressive countries in the world."
     },
     {
       "icon": "FaCheckCircle",
-      "title": "High Quality of Life",
-      "desc": "Consistently ranked among the world's happiest, safest, and most sustainable countries with vibrant student communities."
+      "title": "Post-Study Work Visa",
+      "desc": "Non-EU graduates are eligible for post-study residence permits to seek employment and build global careers."
     }
   ],
   "sections": [
@@ -68,11 +73,11 @@ const page = {
       "slot": "why",
       "eyebrow": "Why Denmark",
       "title": "Why Pursue a Master\u2019s in Engineering in Denmark?",
+      "lead": "Essential details regarding postgraduate engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**1\\. Why Pursue a Master\u2019s in Engineering in Denmark?**",
             "Denmark is a good destination for students who want to upgrade their technical knowledge and develop specialized engineering skills. Danish universities are research-, innovation-, practical project- and industry-oriented. Pursuing a **Master of Engineering in Denmark** gives students opportunities to explore advanced technologies and develop specialized knowledge in their chosen engineering field.",
             "Those pursuing a **Master\u2019s in Engineering in Denmark** can specialize in areas that include sustainable energy, robotics, artificial intelligence, mechanical systems, electronics and advanced materials. Denmark\u2019s emphasis on green technology and sustainable development provides opportunities to explore engineering solutions to real-world problems.",
             "Indian students can get international exposure in academics by studying in Denmark and can build a career in the fields of engineering, technology, manufacturing, energy and research. **Edu-Hawk Worldwide** can help students explore suitable postgraduate programs and understand the study-abroad application process."
@@ -84,11 +89,11 @@ const page = {
       "slot": "courses",
       "eyebrow": "Degrees & Pathways",
       "title": "Master\u2019s in Engineering Courses in Denmark",
+      "lead": "Essential details regarding postgraduate engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**2\\. Master\u2019s in Engineering Courses in Denmark**",
             "Depending on their undergraduate degree and interests, students have several engineering specializations to explore at the master\u2019s level. Some popular **Master\u2019s in Engineering courses in Denmark** include:"
           ]
         },
@@ -120,57 +125,95 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Best Universities for Engineering Masters in Denmark",
-      "lead": "Explore leading universities and institutions in Denmark offering accredited Postgraduate Engineering in Denmark programmes, world-class research facilities, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Denmark offering accredited Postgraduate Engineering programmes, modern campuses, and international student support.",
+      "unis": [
         {
           "name": "University of Copenhagen (UCPH)",
           "location": "Copenhagen, Denmark",
           "fee": "DKK 65,000 \u2013 120,000 / Year",
           "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
           "name": "Technical University of Denmark (DTU)",
           "location": "Kongens Lyngby, Denmark",
           "fee": "DKK 75,000 \u2013 115,000 / Year",
           "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-          "img_var": "null"
+          "img": uniImg2
         },
         {
           "name": "Aarhus University (AU)",
           "location": "Aarhus, Denmark",
           "fee": "DKK 60,000 \u2013 110,000 / Year",
           "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-          "img_var": "null"
+          "img": uniImg3
         },
         {
           "name": "Aalborg University (AAU)",
           "location": "Aalborg, Denmark",
           "fee": "DKK 58,000 \u2013 105,000 / Year",
           "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
-          "name": "Copenhagen Business School (CBS)",
-          "location": "Frederiksberg, Denmark",
-          "fee": "DKK 70,000 \u2013 130,000 / Year",
-          "desc": "Triple-crown accredited business institution recognized across Europe for excellence in management, economics, and finance.",
-          "img_var": "null"
+          "name": "University of Southern Denmark (SDU)",
+          "location": "Odense, Denmark",
+          "fee": "DKK 62,000 \u2013 115,000 / Year",
+          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+          "img": uniImg2
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "University of Copenhagen (UCPH)",
+          "location": "Copenhagen, Denmark",
+          "fee": "DKK 65,000 \u2013 120,000 / Year",
+          "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
+          "img": uniImg1
+        },
+        {
+          "name": "Technical University of Denmark (DTU)",
+          "location": "Kongens Lyngby, Denmark",
+          "fee": "DKK 75,000 \u2013 115,000 / Year",
+          "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
+          "img": uniImg2
+        },
+        {
+          "name": "Aarhus University (AU)",
+          "location": "Aarhus, Denmark",
+          "fee": "DKK 60,000 \u2013 110,000 / Year",
+          "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
+          "img": uniImg3
+        },
+        {
+          "name": "Aalborg University (AAU)",
+          "location": "Aalborg, Denmark",
+          "fee": "DKK 58,000 \u2013 105,000 / Year",
+          "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
+          "img": uniImg1
+        },
+        {
+          "name": "University of Southern Denmark (SDU)",
+          "location": "Odense, Denmark",
+          "fee": "DKK 62,000 \u2013 115,000 / Year",
+          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+          "img": uniImg2
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
+        "Tuition fees are indicative and subject to annual review by Danish higher education institutions.",
+        "EU/EEA students may study tuition-free; international fees apply to non-EU/EEA citizens."
       ]
     },
     {
       "slot": "eligibility",
       "eyebrow": "Eligibility Criteria",
       "title": "Who Can Pursue a Master\u2019s in Engineering in Denmark?",
+      "lead": "Essential details regarding postgraduate engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**4\\. Who Can Pursue a Master\u2019s in Engineering in Denmark?**",
             "International applicants generally need to meet the following requirements for a **Master\u2019s in Engineering in Denmark**:"
           ]
         },
@@ -198,11 +241,11 @@ const page = {
       "slot": "requirements",
       "eyebrow": "Admission Requirements",
       "title": "Requirements for Admission to Master\u2019s Degrees in Engineering in Denmark",
+      "lead": "Essential details regarding postgraduate engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**5\\. Requirements for Admission to Master\u2019s Degrees in Engineering in Denmark**",
             "Applicants may be asked to submit:"
           ]
         },
@@ -231,11 +274,11 @@ const page = {
       "slot": "fees",
       "eyebrow": "Tuition & Living Costs",
       "title": "Cost of Master\u2019s in Engineering Studies in Denmark",
+      "lead": "Essential details regarding postgraduate engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**6\\. Cost of Master\u2019s in Engineering Studies in Denmark**",
             "Indicative budgeting estimates for Indian students are as below. The actual cost will vary by university and program."
           ]
         },
@@ -282,11 +325,11 @@ const page = {
       "slot": "timeline",
       "eyebrow": "Admission Procedure",
       "title": "Denmark Engineering Master\u2019s Admission Process",
+      "lead": "Essential details regarding postgraduate engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**7\\. Denmark Engineering Master\u2019s Admission Process**",
             "The **Master\u2019s in Engineering admission process in Denmark** generally involves the following steps:"
           ]
         },
@@ -314,11 +357,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Further Studies & Scope",
       "title": "Accreditation and Recognition",
+      "lead": "Essential details regarding postgraduate engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**8\\. Accreditation and Recognition**",
             "Before you enroll, make sure to check the recognition of the university, the title of the degree, the curriculum and the specialization. Most Danish master\u2019s programs are ECTS credit-rated. A standard two-year engineering master\u2019s degree consists of 120 ECTS credits.",
             "Students intending to work in India or abroad should look at the degree recognition requirements and any additional professional qualifications needed for the jobs they want to follow."
           ]
@@ -329,11 +372,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Career Opportunities",
       "title": "Career and Salary Opportunities After an Engineering Master\u2019s Degree",
+      "lead": "Essential details regarding postgraduate engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**9\\. Career and Salary Opportunities After an Engineering Master\u2019s Degree**",
             "A master's degree can assist graduates in gaining advanced technical skills and pursuing specialized engineering roles in several industries. Completing a **Master of Engineering in Denmark** can provide an academic foundation for exploring opportunities in engineering, technology, manufacturing, energy and research, depending on the graduate's specialization and experience.",
             "Potential career options are:"
           ]
@@ -390,11 +433,11 @@ const page = {
       "slot": "documents",
       "eyebrow": "Required Documentation",
       "title": "Documents Needed",
+      "lead": "Essential details regarding postgraduate engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**10\\. Documents Needed**",
             "Students often require:"
           ]
         },
@@ -424,6 +467,7 @@ const page = {
       "slot": "section-12",
       "eyebrow": "",
       "title": "",
+      "lead": "Essential details regarding postgraduate engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
@@ -441,53 +485,57 @@ const page = {
       "location": "Copenhagen, Denmark",
       "fee": "DKK 65,000 \u2013 120,000 / Year",
       "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
       "name": "Technical University of Denmark (DTU)",
       "location": "Kongens Lyngby, Denmark",
       "fee": "DKK 75,000 \u2013 115,000 / Year",
       "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-      "img_var": "null"
+      "img": uniImg2
     },
     {
       "name": "Aarhus University (AU)",
       "location": "Aarhus, Denmark",
       "fee": "DKK 60,000 \u2013 110,000 / Year",
       "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-      "img_var": "null"
+      "img": uniImg3
     },
     {
       "name": "Aalborg University (AAU)",
       "location": "Aalborg, Denmark",
       "fee": "DKK 58,000 \u2013 105,000 / Year",
       "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
-      "name": "Copenhagen Business School (CBS)",
-      "location": "Frederiksberg, Denmark",
-      "fee": "DKK 70,000 \u2013 130,000 / Year",
-      "desc": "Triple-crown accredited business institution recognized across Europe for excellence in management, economics, and finance.",
-      "img_var": "null"
+      "name": "University of Southern Denmark (SDU)",
+      "location": "Odense, Denmark",
+      "fee": "DKK 62,000 \u2013 115,000 / Year",
+      "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+      "img": uniImg2
     }
   ],
   "faqs": [
     {
-      "q": "Can Indian students apply for Postgraduate Engineering in Denmark?",
-      "a": "Yes, Indian students with qualifying credentials meeting English language proficiency (IELTS/TOEFL) and academic prerequisites can apply to recognized universities in Denmark."
+      "q": "Q1. Can Indian students do a master's in engineering in Denmark?",
+      "a": "Yes, Indian students can apply if they possess a relevant bachelor\u2019s degree and meet the university\u2019s academic and language requirements. The **Master\u2019s in Engineering eligibility in Denmark** depends on the chosen specialization and previous academic qualifications."
     },
     {
-      "q": "What is the medium of instruction for Postgraduate Engineering in Denmark?",
-      "a": "Most master's and international bachelor's degree programmes are taught entirely in English for international students across Danish universities."
+      "q": "Q2. How long is the Master\u2019s in Engineering in Denmark?",
+      "a": "Master\u2019s programs in engineering typically last two years and are awarded 120 ECTS credits."
     },
     {
-      "q": "What are the typical tuition fees for Postgraduate Engineering in Denmark?",
-      "a": "Tuition fees for international students generally range between DKK 60,000 and DKK 120,000 per year, depending on the institution and level of study."
+      "q": "Q3. Are engineering master\u2019s programs taught in English?",
+      "a": "Yes. All DTU Master of Science in Engineering programs are taught in English. Other universities also have engineering master\u2019s degrees taught in English."
     },
     {
-      "q": "Can international students work while studying in Denmark?",
-      "a": "Yes, non-EU international students with a valid Danish residence permit are legally permitted to work part-time (up to 20 hours per week) during semester periods and full-time during June, July, and August."
+      "q": "Q4. Do you offer scholarships for Indian students?",
+      "a": "Some universities offer scholarships or tuition fee waivers for eligible non-EU/EEA students. Availability and eligibility differ depending on the university and the course."
+    },
+    {
+      "q": "Q5. Can I work after a master\u2019s?",
+      "a": "Graduates may look for work within the existing Danish residence and work permit regulations. Check current immigration requirements before you make your plans."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

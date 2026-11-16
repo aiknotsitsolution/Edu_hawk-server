@@ -7,60 +7,65 @@ import heroBgImg from "../../../../../../Images/Abroad/Denmark/Engineering_UG/Ae
 import sideImg from "../../../../../../Images/Abroad/Denmark/Engineering_UG/Aerospace/side.webp";
 import ctaBgImg from "../../../../../../Images/Abroad/Denmark/Engineering_UG/Aerospace/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../../../Images/Abroad/Denmark/Engineering_UG/Aerospace/image1.png";
+import uniImg2 from "../../../../../../Images/Abroad/Denmark/Engineering_UG/Aerospace/image2.png";
+import uniImg3 from "../../../../../../Images/Abroad/Denmark/Engineering_UG/Aerospace/image3.png";
+
 const page = {
-  "name": "Aerospace Engineering (UG)",
+  "name": "Aerospace Engineering",
   "country": "Denmark",
   "slug": "ug/aerospace-engineering",
-  "title": "Aerospace Engineering (UG) in Denmark for Indian Students | Edu-Hawk Worldwide",
-  "description": "Study Aerospace Engineering (UG) in Denmark: Top universities, course duration, tuition fees in DKK & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study Aerospace Engineering (UG) in Denmark, Aerospace Engineering (UG) in Denmark for Indian Students, Best Universities in Denmark, Denmark Aerospace Engineering (UG) Admission, Cost of Studying in Denmark, Edu-Hawk Worldwide",
-  "introTitle": "Aerospace Engineering (UG) in Denmark for Indian Students",
+  "title": "Aerospace Engineering in Denmark for Indian Students | Edu-Hawk Worldwide",
+  "description": "Study Aerospace Engineering in Denmark: Top universities, course duration, tuition fees in DKK & INR, eligibility criteria, admission process & visa requirements for Indian students.",
+  "keywords": "Study Aerospace Engineering in Denmark, Aerospace Engineering in Denmark for Indian Students, Best Universities in Denmark, Denmark Aerospace Engineering Admission, Cost of Studying in Denmark, Edu-Hawk Worldwide",
+  "introTitle": "Aerospace Engineering in Denmark for Indian Students",
   "heroParas": [
-    "Comprehensive guide to studying Aerospace Engineering (UG) in Denmark for Indian students."
+    "Comprehensive guide to studying Aerospace Engineering in Denmark for Indian students."
   ],
   "overview": [
-    "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Denmark for Aerospace Engineering (UG) in Denmark."
+    "Explore top accredited Danish universities, tuition costs, eligibility, and visa procedures for Aerospace Engineering."
   ],
   "level": "B.Eng / B.Sc. Aerospace Engineering",
   "crumb": "Engineering / UG Engineering",
   "stats": [
     {
-      "val": "DKK 60K-120K",
+      "val": "DKK 60K-130K",
       "label": "Tuition / Year"
     },
     {
-      "val": "20 Hrs/Wk",
-      "label": "Part-Time Work"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
       "val": "3-4 Years",
       "label": "Course Duration"
     },
     {
-      "val": "English",
-      "label": "Medium of Study"
+      "val": "20 Hrs/Week",
+      "label": "Part-Time Work"
     }
   ],
   "highlights": [
     {
       "icon": "FaAward",
-      "title": "World-Class Nordic Education",
-      "desc": "Study in Denmark's globally ranked universities featuring innovative Problem-Based Learning (PBL) and state-of-the-art research."
+      "title": "World Top-100 Universities",
+      "desc": "Study in globally respected Danish institutions including University of Copenhagen, DTU, and Aarhus University."
     },
     {
       "icon": "FaGraduationCap",
-      "title": "English-Taught Degrees",
-      "desc": "Wide range of bachelor's and master's degrees delivered entirely in English with international accreditation."
+      "title": "Innovative PBL Learning",
+      "desc": "Problem-Based Learning model focusing on collaborative projects, real-world applications, and critical analysis."
     },
     {
       "icon": "FaFileAlt",
-      "title": "Generous Post-Study Work",
-      "desc": "Denmark offers post-study work permits for international graduates to start European careers in high-demand industries."
+      "title": "High Living Standard & Safety",
+      "desc": "Denmark consistently ranks among the happiest, safest, and most progressive countries in the world."
     },
     {
       "icon": "FaCheckCircle",
-      "title": "High Quality of Life",
-      "desc": "Consistently ranked among the world's happiest, safest, and most sustainable countries with vibrant student communities."
+      "title": "Post-Study Work Visa",
+      "desc": "Non-EU graduates are eligible for post-study residence permits to seek employment and build global careers."
     }
   ],
   "sections": [
@@ -68,11 +73,11 @@ const page = {
       "slot": "why",
       "eyebrow": "Why Denmark",
       "title": "Why Study Aerospace Engineering in Denmark?",
+      "lead": "Essential details regarding aerospace engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**1\\. Why Study Aerospace Engineering in Denmark?**",
             "Denmark is an interesting student destination for those who have a passion for aircraft, aviation technology, space systems and advanced engineering. Its engineering education is based on scientific fundamentals, innovation, practical projects and sustainable technology. Pursuing a **Bachelor\u2019s in Aerospace Engineering in Denmark** can help students build a foundation in advanced engineering concepts and explore aerospace-related technologies.",
             "Students with a bachelor's degree in aerospace engineering learn how aircraft and other aerospace systems are designed, tested and maintained. Students can learn about aerodynamics, propulsion, flight mechanics, materials, and control systems. Other related fields such as mechanical engineering, robotics and space technology can also be a route into the aerospace industry, depending on the program. **Aerospace Engineering in Denmark for Indian students** can be explored through dedicated aerospace courses as well as related engineering degrees."
           ]
@@ -83,11 +88,11 @@ const page = {
       "slot": "courses",
       "eyebrow": "Degrees & Pathways",
       "title": "Courses in Aerospace Engineering in Denmark",
+      "lead": "Essential details regarding aerospace engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**2\\. Courses in Aerospace Engineering in Denmark**",
             "Students may explore **Aerospace Engineering courses in Denmark** and related bachelor\u2019s-level courses including:"
           ]
         },
@@ -114,57 +119,95 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Best Aerospace Engineering Colleges in Denmark",
-      "lead": "Explore leading universities and institutions in Denmark offering accredited Aerospace Engineering (UG) in Denmark programmes, world-class research facilities, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Denmark offering accredited Aerospace Engineering programmes, modern campuses, and international student support.",
+      "unis": [
         {
           "name": "University of Copenhagen (UCPH)",
           "location": "Copenhagen, Denmark",
           "fee": "DKK 65,000 \u2013 120,000 / Year",
           "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
           "name": "Technical University of Denmark (DTU)",
           "location": "Kongens Lyngby, Denmark",
           "fee": "DKK 75,000 \u2013 115,000 / Year",
           "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-          "img_var": "null"
+          "img": uniImg2
         },
         {
           "name": "Aarhus University (AU)",
           "location": "Aarhus, Denmark",
           "fee": "DKK 60,000 \u2013 110,000 / Year",
           "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-          "img_var": "null"
+          "img": uniImg3
         },
         {
           "name": "Aalborg University (AAU)",
           "location": "Aalborg, Denmark",
           "fee": "DKK 58,000 \u2013 105,000 / Year",
           "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
-          "name": "Copenhagen Business School (CBS)",
-          "location": "Frederiksberg, Denmark",
-          "fee": "DKK 70,000 \u2013 130,000 / Year",
-          "desc": "Triple-crown accredited business institution recognized across Europe for excellence in management, economics, and finance.",
-          "img_var": "null"
+          "name": "University of Southern Denmark (SDU)",
+          "location": "Odense, Denmark",
+          "fee": "DKK 62,000 \u2013 115,000 / Year",
+          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+          "img": uniImg2
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "University of Copenhagen (UCPH)",
+          "location": "Copenhagen, Denmark",
+          "fee": "DKK 65,000 \u2013 120,000 / Year",
+          "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
+          "img": uniImg1
+        },
+        {
+          "name": "Technical University of Denmark (DTU)",
+          "location": "Kongens Lyngby, Denmark",
+          "fee": "DKK 75,000 \u2013 115,000 / Year",
+          "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
+          "img": uniImg2
+        },
+        {
+          "name": "Aarhus University (AU)",
+          "location": "Aarhus, Denmark",
+          "fee": "DKK 60,000 \u2013 110,000 / Year",
+          "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
+          "img": uniImg3
+        },
+        {
+          "name": "Aalborg University (AAU)",
+          "location": "Aalborg, Denmark",
+          "fee": "DKK 58,000 \u2013 105,000 / Year",
+          "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
+          "img": uniImg1
+        },
+        {
+          "name": "University of Southern Denmark (SDU)",
+          "location": "Odense, Denmark",
+          "fee": "DKK 62,000 \u2013 115,000 / Year",
+          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+          "img": uniImg2
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
+        "Tuition fees are indicative and subject to annual review by Danish higher education institutions.",
+        "EU/EEA students may study tuition-free; international fees apply to non-EU/EEA citizens."
       ]
     },
     {
       "slot": "eligibility",
       "eyebrow": "Eligibility Criteria",
       "title": "Who can study aerospace engineering in Denmark?",
+      "lead": "Essential details regarding aerospace engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**4\\. Who can study aerospace engineering in Denmark?**",
             "International students typically require the following **Aerospace Engineering eligibility in Denmark** criteria:"
           ]
         },
@@ -190,11 +233,11 @@ const page = {
       "slot": "requirements",
       "eyebrow": "Admission Requirements",
       "title": "Entry Requirements for Aerospace Engineering in Denmark",
+      "lead": "Essential details regarding aerospace engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**5\\. Entry Requirements for Aerospace Engineering in Denmark**",
             "Students planning to apply should understand the **Aerospace Engineering admission requirements in Denmark** before choosing a university.",
             "Typical application requirements are:"
           ]
@@ -222,11 +265,11 @@ const page = {
       "slot": "fees",
       "eyebrow": "Tuition & Living Costs",
       "title": "Cost of Studying Aerospace Engineering in Denmark",
+      "lead": "Essential details regarding aerospace engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**6\\. Cost of Studying Aerospace Engineering in Denmark**",
             "The overall **Cost of Studying Aerospace Engineering in Denmark** varies by university and course. \u201cThese represent indicative planning figures for international students, not confirmed fees for a dedicated aerospace programme.\u201d"
           ]
         },
@@ -271,11 +314,11 @@ const page = {
       "slot": "timeline",
       "eyebrow": "Admission Procedure",
       "title": "Denmark Aerospace Engineering Admission Process",
+      "lead": "Essential details regarding aerospace engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**7\\. Denmark Aerospace Engineering Admission Process**",
             "The **Aerospace Engineering admission process in Denmark** generally involves the following steps:",
             "Select your program: Look into aerospace courses, but also consider alternatives like mechanical or general engineering.",
             "Verify eligibility. Review math, science, and language requirements.",
@@ -293,11 +336,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Further Studies & Scope",
       "title": "Recognition and Accreditation",
+      "lead": "Essential details regarding aerospace engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**8\\. Recognition and Accreditation**",
             "Before applying, make sure you check the recognition of the university, the title of the degree, the curriculum and the specializations offered. The European Credit Transfer and Accumulation System (ECTS) is used in Danish higher education to facilitate the transfer of academic credits between European institutions that participate in the system.",
             "If you want to work in the aviation or aerospace industry in India, you should check the degree requirements of potential employers and any applicable professional or regulatory requirements."
           ]
@@ -308,11 +351,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Career Opportunities",
       "title": "Aerospace Engineering Salary and Job Prospects",
+      "lead": "Essential details regarding aerospace engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**9\\. Aerospace Engineering Salary and Job Prospects**",
             "With suitable qualifications in aerospace or mechanical engineering graduates can find careers in aircraft systems, aviation, propulsion, materials, simulation and advanced manufacturing. A **Bachelor\u2019s in Aerospace Engineering in Denmark** can provide an academic foundation for exploring technical career opportunities in the aerospace and aviation industries.",
             "Possible careers include:"
           ]
@@ -368,11 +411,11 @@ const page = {
       "slot": "documents",
       "eyebrow": "Required Documentation",
       "title": "Required Documents",
+      "lead": "Essential details regarding aerospace engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**10\\. Required Documents**",
             "Students may require:"
           ]
         },
@@ -400,11 +443,11 @@ const page = {
       "slot": "section-12",
       "eyebrow": "Conclusion",
       "title": "Conclusion",
+      "lead": "Essential details regarding aerospace engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**Conclusion**",
             "A **Bachelor\u2019s in Aerospace Engineering in Denmark** can help students develop a foundation in aircraft design, aerodynamics, propulsion, materials and advanced engineering technologies. Since dedicated undergraduate aerospace programs may be limited, students should also explore related courses in mechanical engineering, robotics, electrical engineering and space technology.",
             "For **Aerospace Engineering in Denmark for Indian students**, it is important to compare university programs, eligibility criteria, teaching language, tuition fees and future specialization options. **Edu-Hawk Worldwide** can help students explore suitable study options, understand admission requirements and prepare for their international education journey."
           ]
@@ -418,53 +461,57 @@ const page = {
       "location": "Copenhagen, Denmark",
       "fee": "DKK 65,000 \u2013 120,000 / Year",
       "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
       "name": "Technical University of Denmark (DTU)",
       "location": "Kongens Lyngby, Denmark",
       "fee": "DKK 75,000 \u2013 115,000 / Year",
       "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-      "img_var": "null"
+      "img": uniImg2
     },
     {
       "name": "Aarhus University (AU)",
       "location": "Aarhus, Denmark",
       "fee": "DKK 60,000 \u2013 110,000 / Year",
       "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-      "img_var": "null"
+      "img": uniImg3
     },
     {
       "name": "Aalborg University (AAU)",
       "location": "Aalborg, Denmark",
       "fee": "DKK 58,000 \u2013 105,000 / Year",
       "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
-      "name": "Copenhagen Business School (CBS)",
-      "location": "Frederiksberg, Denmark",
-      "fee": "DKK 70,000 \u2013 130,000 / Year",
-      "desc": "Triple-crown accredited business institution recognized across Europe for excellence in management, economics, and finance.",
-      "img_var": "null"
+      "name": "University of Southern Denmark (SDU)",
+      "location": "Odense, Denmark",
+      "fee": "DKK 62,000 \u2013 115,000 / Year",
+      "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+      "img": uniImg2
     }
   ],
   "faqs": [
     {
-      "q": "Can Indian students apply for Aerospace Engineering (UG) in Denmark?",
-      "a": "Yes, Indian students with qualifying credentials meeting English language proficiency (IELTS/TOEFL) and academic prerequisites can apply to recognized universities in Denmark."
+      "q": "Q1. After 12th, can Indian students study aerospace engineering in Denmark?",
+      "a": "Yes, students can study aerospace related engineering courses, if they satisfy the academic and language requirements of the chosen university. **Aerospace Engineering in Denmark for Indian students** can include related engineering programs where a dedicated aerospace bachelor's degree is not available."
     },
     {
-      "q": "What is the medium of instruction for Aerospace Engineering (UG) in Denmark?",
-      "a": "Most master's and international bachelor's degree programmes are taught entirely in English for international students across Danish universities."
+      "q": "Q2. Are there any English taught bachelor\u2019s degree programs in aerospace engineering in Denmark?",
+      "a": "The dedicated English-taught aerospace bachelor\u2019s option may be a restricted choice. Check the related programs and verify the current offers with the universities."
     },
     {
-      "q": "What are the typical tuition fees for Aerospace Engineering (UG) in Denmark?",
-      "a": "Tuition fees for international students generally range between DKK 60,000 and DKK 120,000 per year, depending on the institution and level of study."
+      "q": "Q3. How long does it take to earn a bachelor\u2019s degree?",
+      "a": "Typically, a bachelor's degree takes about three years to complete. Professional engineering degrees may take 3.5 years or more, depending on the qualification."
     },
     {
-      "q": "Can international students work while studying in Denmark?",
-      "a": "Yes, non-EU international students with a valid Danish residence permit are legally permitted to work part-time (up to 20 hours per week) during semester periods and full-time during June, July, and August."
+      "q": "Q4. Are students allowed to work while studying in Denmark?",
+      "a": "Eligible international students may work subject to the conditions of their residence permit and current regulations."
+    },
+    {
+      "q": "Q5. After a bachelor's in a related field, can I do a master's in aerospace engineering?",
+      "a": "Yes, that depends on the academic prerequisites, the required subjects and the entry requirements for the master's program."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

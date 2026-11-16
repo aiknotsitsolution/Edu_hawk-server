@@ -7,60 +7,65 @@ import heroBgImg from "../../../../../../Images/Abroad/Denmark/Engineering_PG/El
 import sideImg from "../../../../../../Images/Abroad/Denmark/Engineering_PG/Electronics/side.webp";
 import ctaBgImg from "../../../../../../Images/Abroad/Denmark/Engineering_PG/Electronics/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../../../Images/Abroad/Denmark/Engineering_PG/Electronics/image1.png";
+import uniImg2 from "../../../../../../Images/Abroad/Denmark/Engineering_PG/Electronics/image2.png";
+import uniImg3 from "../../../../../../Images/Abroad/Denmark/Engineering_PG/Electronics/image3.png";
+
 const page = {
-  "name": "Electronics & Communication (PG)",
+  "name": "Electronics & Communication",
   "country": "Denmark",
   "slug": "pg/electronics-communication",
-  "title": "Electronics & Communication (PG) in Denmark for Indian Students | Edu-Hawk Worldwide",
-  "description": "Study Electronics & Communication (PG) in Denmark: Top universities, course duration, tuition fees in DKK & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study Electronics & Communication (PG) in Denmark, Electronics & Communication (PG) in Denmark for Indian Students, Best Universities in Denmark, Denmark Electronics & Communication (PG) Admission, Cost of Studying in Denmark, Edu-Hawk Worldwide",
-  "introTitle": "Electronics & Communication (PG) in Denmark for Indian Students",
+  "title": "Electronics & Communication in Denmark for Indian Students | Edu-Hawk Worldwide",
+  "description": "Study Electronics & Communication in Denmark: Top universities, course duration, tuition fees in DKK & INR, eligibility criteria, admission process & visa requirements for Indian students.",
+  "keywords": "Study Electronics & Communication in Denmark, Electronics & Communication in Denmark for Indian Students, Best Universities in Denmark, Denmark Electronics & Communication Admission, Cost of Studying in Denmark, Edu-Hawk Worldwide",
+  "introTitle": "Electronics & Communication in Denmark for Indian Students",
   "heroParas": [
-    "Comprehensive guide to studying Electronics & Communication (PG) in Denmark for Indian students."
+    "Comprehensive guide to studying Electronics & Communication in Denmark for Indian students."
   ],
   "overview": [
-    "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Denmark for Electronics & Communication (PG) in Denmark."
+    "Explore top accredited Danish universities, tuition costs, eligibility, and visa procedures for Electronics & Communication."
   ],
   "level": "M.Eng / M.Sc. Electronics Engineering",
   "crumb": "Engineering / PG Engineering",
   "stats": [
     {
-      "val": "DKK 60K-120K",
+      "val": "DKK 60K-130K",
       "label": "Tuition / Year"
-    },
-    {
-      "val": "20 Hrs/Wk",
-      "label": "Part-Time Work"
-    },
-    {
-      "val": "3-4 Years",
-      "label": "Course Duration"
     },
     {
       "val": "English",
       "label": "Medium of Study"
+    },
+    {
+      "val": "2 Years",
+      "label": "Course Duration"
+    },
+    {
+      "val": "20 Hrs/Week",
+      "label": "Part-Time Work"
     }
   ],
   "highlights": [
     {
       "icon": "FaAward",
-      "title": "World-Class Nordic Education",
-      "desc": "Study in Denmark's globally ranked universities featuring innovative Problem-Based Learning (PBL) and state-of-the-art research."
+      "title": "World Top-100 Universities",
+      "desc": "Study in globally respected Danish institutions including University of Copenhagen, DTU, and Aarhus University."
     },
     {
       "icon": "FaGraduationCap",
-      "title": "English-Taught Degrees",
-      "desc": "Wide range of bachelor's and master's degrees delivered entirely in English with international accreditation."
+      "title": "Innovative PBL Learning",
+      "desc": "Problem-Based Learning model focusing on collaborative projects, real-world applications, and critical analysis."
     },
     {
       "icon": "FaFileAlt",
-      "title": "Generous Post-Study Work",
-      "desc": "Denmark offers post-study work permits for international graduates to start European careers in high-demand industries."
+      "title": "High Living Standard & Safety",
+      "desc": "Denmark consistently ranks among the happiest, safest, and most progressive countries in the world."
     },
     {
       "icon": "FaCheckCircle",
-      "title": "High Quality of Life",
-      "desc": "Consistently ranked among the world's happiest, safest, and most sustainable countries with vibrant student communities."
+      "title": "Post-Study Work Visa",
+      "desc": "Non-EU graduates are eligible for post-study residence permits to seek employment and build global careers."
     }
   ],
   "sections": [
@@ -68,11 +73,11 @@ const page = {
       "slot": "why",
       "eyebrow": "Why Denmark",
       "title": "Why Study Electronic Engineering in Denmark?",
+      "lead": "Essential details regarding electronics & communication in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**1\\. Why Study Electronic Engineering in Denmark?**",
             "Denmark is a very attractive destination for students with an interest in electronics, semiconductor technologies, embedded systems and intelligent electronic devices. The Danish universities are characterized by research, practical learning, innovation and cooperation with the industry. Students who are pursuing **M.E. in Electronics Engineering in Denmark** get a chance to develop advanced technical knowledge and explore modern electronic technologies.",
             "Students enrolled in a master\u2019s degree in electronics engineering develop advanced skills in circuit design, microelectronics, signal processing, communication systems and embedded technologies. Moreover, with Denmark\u2019s increasing emphasis on automation, renewable energy and digital innovation, there\u2019s an opportunity to explore modern electronic systems and smart technologies. Students can specialize in modern engineering fields by these Electronics Engineering courses in Denmark."
           ]
@@ -83,11 +88,11 @@ const page = {
       "slot": "courses",
       "eyebrow": "Degrees & Pathways",
       "title": "Electronics Engineering Courses in Denmark",
+      "lead": "Essential details regarding electronics & communication in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**2\\. Electronics Engineering Courses in Denmark**",
             "Discover master\u2019s programs in electronics engineering and related fields for students. Specializations may include, depending on university:"
           ]
         },
@@ -118,57 +123,95 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Leading Universities for Electronics Engineering in Denmark",
-      "lead": "Explore leading universities and institutions in Denmark offering accredited Electronics & Communication (PG) in Denmark programmes, world-class research facilities, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Denmark offering accredited Electronics & Communication programmes, modern campuses, and international student support.",
+      "unis": [
         {
           "name": "University of Copenhagen (UCPH)",
           "location": "Copenhagen, Denmark",
           "fee": "DKK 65,000 \u2013 120,000 / Year",
           "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
           "name": "Technical University of Denmark (DTU)",
           "location": "Kongens Lyngby, Denmark",
           "fee": "DKK 75,000 \u2013 115,000 / Year",
           "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-          "img_var": "null"
+          "img": uniImg2
         },
         {
           "name": "Aarhus University (AU)",
           "location": "Aarhus, Denmark",
           "fee": "DKK 60,000 \u2013 110,000 / Year",
           "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-          "img_var": "null"
+          "img": uniImg3
         },
         {
           "name": "Aalborg University (AAU)",
           "location": "Aalborg, Denmark",
           "fee": "DKK 58,000 \u2013 105,000 / Year",
           "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
-          "name": "Copenhagen Business School (CBS)",
-          "location": "Frederiksberg, Denmark",
-          "fee": "DKK 70,000 \u2013 130,000 / Year",
-          "desc": "Triple-crown accredited business institution recognized across Europe for excellence in management, economics, and finance.",
-          "img_var": "null"
+          "name": "University of Southern Denmark (SDU)",
+          "location": "Odense, Denmark",
+          "fee": "DKK 62,000 \u2013 115,000 / Year",
+          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+          "img": uniImg2
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "University of Copenhagen (UCPH)",
+          "location": "Copenhagen, Denmark",
+          "fee": "DKK 65,000 \u2013 120,000 / Year",
+          "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
+          "img": uniImg1
+        },
+        {
+          "name": "Technical University of Denmark (DTU)",
+          "location": "Kongens Lyngby, Denmark",
+          "fee": "DKK 75,000 \u2013 115,000 / Year",
+          "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
+          "img": uniImg2
+        },
+        {
+          "name": "Aarhus University (AU)",
+          "location": "Aarhus, Denmark",
+          "fee": "DKK 60,000 \u2013 110,000 / Year",
+          "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
+          "img": uniImg3
+        },
+        {
+          "name": "Aalborg University (AAU)",
+          "location": "Aalborg, Denmark",
+          "fee": "DKK 58,000 \u2013 105,000 / Year",
+          "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
+          "img": uniImg1
+        },
+        {
+          "name": "University of Southern Denmark (SDU)",
+          "location": "Odense, Denmark",
+          "fee": "DKK 62,000 \u2013 115,000 / Year",
+          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+          "img": uniImg2
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
+        "Tuition fees are indicative and subject to annual review by Danish higher education institutions.",
+        "EU/EEA students may study tuition-free; international fees apply to non-EU/EEA citizens."
       ]
     },
     {
       "slot": "eligibility",
       "eyebrow": "Eligibility Criteria",
       "title": "Eligibility for Studying Electronic Engineering in Denmark",
+      "lead": "Essential details regarding electronics & communication in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**4\\. Eligibility for Studying Electronic Engineering in Denmark**",
             "What does an international student usually require to apply for a master's in electronics engineering?"
           ]
         },
@@ -194,11 +237,11 @@ const page = {
       "slot": "requirements",
       "eyebrow": "Admission Requirements",
       "title": "Electronics Engineering Admission Requirements in Denmark",
+      "lead": "Essential details regarding electronics & communication in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**5\\. Electronics Engineering Admission Requirements in Denmark**",
             "Universities assess applicants on the basis of their undergraduate qualifications, academic performance, relevant technical subjects and English-language proficiency.",
             "Some programs may require knowledge of circuit analysis, digital electronics, programming, communication systems or signal processing. The university may require applicants to provide detailed course descriptions to help in assessing the relevance of prior education.",
             "Students should check the **Electronics Engineering admission requirements in Denmark**, application deadlines, tuition fees and documentation requirements well before the desired intake."
@@ -210,11 +253,11 @@ const page = {
       "slot": "fees",
       "eyebrow": "Tuition & Living Costs",
       "title": "Electrical Engineering Studies in Denmark Price",
+      "lead": "Essential details regarding electronics & communication in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**6\\. Electrical Engineering Studies in Denmark Price**",
             "The overall cost of studying an **M.E. in Electronics Engineering in Denmark** will vary based on university, program and your lifestyle. The figures below are rough planning estimates for Indian students."
           ]
         },
@@ -256,11 +299,11 @@ const page = {
       "slot": "timeline",
       "eyebrow": "Admission Procedure",
       "title": "How to Get Admitted to Electronics Engineering in Denmark",
+      "lead": "Essential details regarding electronics & communication in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**7\\. How to Get Admitted to Electronics Engineering in Denmark**",
             "The **Electronics Engineering admission process in Denmark** normally follows the steps below:"
           ]
         },
@@ -290,11 +333,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Further Studies & Scope",
       "title": "Recognition and Accreditation",
+      "lead": "Essential details regarding electronics & communication in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**8\\. Recognition and Accreditation**",
             "Students should ensure that the university is officially recognized in Denmark and that the program offers the right kind of technical training, research facilities and industry exposure before they begin their studies.",
             "Indian students also need to consider how the qualification will fit in with their planned future employment or further-study plans. Employers looking to fill specialized electronics positions may also place a high value on things like hands-on projects, programming skills, lab experience and knowledge of industry-standard design tools.",
             "Students planning to study at **Electronics Engineering universities in Denmark** should review the degree structure and recognition requirements according to their future career plans."
@@ -306,11 +349,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Career Opportunities",
       "title": "Job Opportunities and Earnings After Obtaining a Master\u2019s Degree in Electronics Engineering",
+      "lead": "Essential details regarding electronics & communication in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**9\\. Job Opportunities and Earnings After Obtaining a Master\u2019s Degree in Electronics Engineering**",
             "Graduates can seek employment in electronics manufacturing, telecommunications, semiconductor development, automation, medical devices, and research and development after completing their **M.E. in Electronics Engineering in Denmark**.",
             "Possible positions include:"
           ]
@@ -340,11 +383,11 @@ const page = {
       "slot": "documents",
       "eyebrow": "Required Documentation",
       "title": "Required Documents",
+      "lead": "Essential details regarding electronics & communication in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**10\\. Required Documents**",
             "Generally, the applicants need the following documents:"
           ]
         },
@@ -378,53 +421,57 @@ const page = {
       "location": "Copenhagen, Denmark",
       "fee": "DKK 65,000 \u2013 120,000 / Year",
       "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
       "name": "Technical University of Denmark (DTU)",
       "location": "Kongens Lyngby, Denmark",
       "fee": "DKK 75,000 \u2013 115,000 / Year",
       "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-      "img_var": "null"
+      "img": uniImg2
     },
     {
       "name": "Aarhus University (AU)",
       "location": "Aarhus, Denmark",
       "fee": "DKK 60,000 \u2013 110,000 / Year",
       "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-      "img_var": "null"
+      "img": uniImg3
     },
     {
       "name": "Aalborg University (AAU)",
       "location": "Aalborg, Denmark",
       "fee": "DKK 58,000 \u2013 105,000 / Year",
       "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
-      "name": "Copenhagen Business School (CBS)",
-      "location": "Frederiksberg, Denmark",
-      "fee": "DKK 70,000 \u2013 130,000 / Year",
-      "desc": "Triple-crown accredited business institution recognized across Europe for excellence in management, economics, and finance.",
-      "img_var": "null"
+      "name": "University of Southern Denmark (SDU)",
+      "location": "Odense, Denmark",
+      "fee": "DKK 62,000 \u2013 115,000 / Year",
+      "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+      "img": uniImg2
     }
   ],
   "faqs": [
     {
-      "q": "Can Indian students apply for Electronics & Communication (PG) in Denmark?",
-      "a": "Yes, Indian students with qualifying credentials meeting English language proficiency (IELTS/TOEFL) and academic prerequisites can apply to recognized universities in Denmark."
+      "q": "Q1. How long is a master\u2019s in electronics engineering in Denmark?",
+      "a": "Depending on the structure of the program, the most relevant master\u2019s programs will take around two years to complete."
     },
     {
-      "q": "What is the medium of instruction for Electronics & Communication (PG) in Denmark?",
-      "a": "Most master's and international bachelor's degree programmes are taught entirely in English for international students across Danish universities."
+      "q": "Q2. How much is the tuition fee for electronics engineering in Denmark?",
+      "a": "For non EU/EEA students, tuition is likely to be between \u20b98 lakh and \u20b918 lakh per year. Costs depend on the university and course."
     },
     {
-      "q": "What are the typical tuition fees for Electronics & Communication (PG) in Denmark?",
-      "a": "Tuition fees for international students generally range between DKK 60,000 and DKK 120,000 per year, depending on the institution and level of study."
+      "q": "Q3. Can Indian students pursue electronics engineering in Denmark?",
+      "a": "Yes. Indian students are eligible to apply provided they meet the university\u2019s academic, English-language and other entry requirements. An **M.E. in Electronics Engineering in Denmark for Indian students** can provide international academic exposure and advanced technical knowledge."
     },
     {
-      "q": "Can international students work while studying in Denmark?",
-      "a": "Yes, non-EU international students with a valid Danish residence permit are legally permitted to work part-time (up to 20 hours per week) during semester periods and full-time during June, July, and August."
+      "q": "Q4. Are there scholarships for electronics engineering students?",
+      "a": "Some Danish universities provide scholarships or tuition-fee waivers to eligible international students. Availability and selection criteria differ between institutions and intakes."
+    },
+    {
+      "q": "Q5. What are the job opportunities after graduation?",
+      "a": "The specialization and skills of the graduates will decide the future scope of the graduates in the areas of embedded systems, semiconductor technology, hardware design, telecommunication, automation and electronics research. Students interested in pursuing an **M.E. in Electronics Engineering in Denmark** should compare universities, specializations, admission requirements and tuition costs before making a decision. **Edu-Hawk Worldwide** can assist students with study-abroad guidance and application preparation for their international education journey."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

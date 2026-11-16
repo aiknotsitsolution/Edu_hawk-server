@@ -7,6 +7,11 @@ import heroBgImg from "../../../../Images/Abroad/Denmark/ComputerScience/hero_bg
 import sideImg from "../../../../Images/Abroad/Denmark/ComputerScience/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Denmark/ComputerScience/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../Images/Abroad/Denmark/ComputerScience/image1.png";
+import uniImg2 from "../../../../Images/Abroad/Denmark/ComputerScience/image2.png";
+import uniImg3 from "../../../../Images/Abroad/Denmark/ComputerScience/image3.png";
+
 const page = {
   "name": "Computer Science",
   "country": "Denmark",
@@ -19,60 +24,60 @@ const page = {
     "Comprehensive guide to studying Computer Science in Denmark for Indian students."
   ],
   "overview": [
-    "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Denmark for Computer Science in Denmark."
+    "Explore top accredited Danish universities, tuition costs, eligibility, and visa procedures for Computer Science."
   ],
   "level": "B.Sc. & M.Sc. in Computer Science",
   "crumb": "Computer Science",
   "stats": [
     {
-      "val": "DKK 60K-120K",
+      "val": "DKK 60K-130K",
       "label": "Tuition / Year"
     },
     {
-      "val": "20 Hrs/Wk",
-      "label": "Part-Time Work"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
       "val": "3-4 Years",
       "label": "Course Duration"
     },
     {
-      "val": "English",
-      "label": "Medium of Study"
+      "val": "20 Hrs/Week",
+      "label": "Part-Time Work"
     }
   ],
   "highlights": [
     {
       "icon": "FaAward",
-      "title": "World-Class Nordic Education",
-      "desc": "Study in Denmark's globally ranked universities featuring innovative Problem-Based Learning (PBL) and state-of-the-art research."
+      "title": "World Top-100 Universities",
+      "desc": "Study in globally respected Danish institutions including University of Copenhagen, DTU, and Aarhus University."
     },
     {
       "icon": "FaGraduationCap",
-      "title": "English-Taught Degrees",
-      "desc": "Wide range of bachelor's and master's degrees delivered entirely in English with international accreditation."
+      "title": "Innovative PBL Learning",
+      "desc": "Problem-Based Learning model focusing on collaborative projects, real-world applications, and critical analysis."
     },
     {
       "icon": "FaFileAlt",
-      "title": "Generous Post-Study Work",
-      "desc": "Denmark offers post-study work permits for international graduates to start European careers in high-demand industries."
+      "title": "High Living Standard & Safety",
+      "desc": "Denmark consistently ranks among the happiest, safest, and most progressive countries in the world."
     },
     {
       "icon": "FaCheckCircle",
-      "title": "High Quality of Life",
-      "desc": "Consistently ranked among the world's happiest, safest, and most sustainable countries with vibrant student communities."
+      "title": "Post-Study Work Visa",
+      "desc": "Non-EU graduates are eligible for post-study residence permits to seek employment and build global careers."
     }
   ],
   "sections": [
     {
       "slot": "why",
       "eyebrow": "Why Denmark",
-      "title": "Why To Study Computer Science Engineering In Denmark?",
+      "title": "Why Engineering In Denmark?",
+      "lead": "Essential details regarding computer science in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**1\\. Why To Study Computer Science Engineering In Denmark?**",
             "Denmark is a popular destination for students interested in studying software development, artificial intelligence, cybersecurity, and digital innovation. The Danish universities focus on practical learning, project-based education and problem-solving skills that equip students for careers in the global technology industry. Studying **Computer Science Engineering in Denmark** can help students develop a strong foundation in modern computing and technology.",
             "A bachelor\u2019s degree in computer science engineering provides the foundation in programming, algorithms, databases, operating systems and computer networks. Students will learn about new technologies including cloud computing, machine learning and intelligent software systems. A **Bachelor's in Computer Science Engineering in Denmark** can provide opportunities to explore these areas through academic and practical learning."
           ]
@@ -83,11 +88,11 @@ const page = {
       "slot": "courses",
       "eyebrow": "Degrees & Pathways",
       "title": "Computer Science Engineering Courses Denmark",
+      "lead": "Essential details regarding computer science in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**2\\. Computer Science Engineering Courses Denmark**",
             "Bachelor\u2019s programs in computer science and related fields may include:"
           ]
         },
@@ -116,57 +121,95 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Best Computer Science Engineering Universities in Denmark",
-      "lead": "Explore leading universities and institutions in Denmark offering accredited Computer Science in Denmark programmes, world-class research facilities, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Denmark offering accredited Computer Science programmes, modern campuses, and international student support.",
+      "unis": [
         {
           "name": "University of Copenhagen (UCPH)",
           "location": "Copenhagen, Denmark",
           "fee": "DKK 65,000 \u2013 120,000 / Year",
           "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
           "name": "Technical University of Denmark (DTU)",
           "location": "Kongens Lyngby, Denmark",
           "fee": "DKK 75,000 \u2013 115,000 / Year",
           "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-          "img_var": "null"
+          "img": uniImg2
         },
         {
           "name": "Aarhus University (AU)",
           "location": "Aarhus, Denmark",
           "fee": "DKK 60,000 \u2013 110,000 / Year",
           "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-          "img_var": "null"
+          "img": uniImg3
         },
         {
           "name": "Aalborg University (AAU)",
           "location": "Aalborg, Denmark",
           "fee": "DKK 58,000 \u2013 105,000 / Year",
           "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
-          "name": "Copenhagen Business School (CBS)",
-          "location": "Frederiksberg, Denmark",
-          "fee": "DKK 70,000 \u2013 130,000 / Year",
-          "desc": "Triple-crown accredited business institution recognized across Europe for excellence in management, economics, and finance.",
-          "img_var": "null"
+          "name": "University of Southern Denmark (SDU)",
+          "location": "Odense, Denmark",
+          "fee": "DKK 62,000 \u2013 115,000 / Year",
+          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+          "img": uniImg2
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "University of Copenhagen (UCPH)",
+          "location": "Copenhagen, Denmark",
+          "fee": "DKK 65,000 \u2013 120,000 / Year",
+          "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
+          "img": uniImg1
+        },
+        {
+          "name": "Technical University of Denmark (DTU)",
+          "location": "Kongens Lyngby, Denmark",
+          "fee": "DKK 75,000 \u2013 115,000 / Year",
+          "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
+          "img": uniImg2
+        },
+        {
+          "name": "Aarhus University (AU)",
+          "location": "Aarhus, Denmark",
+          "fee": "DKK 60,000 \u2013 110,000 / Year",
+          "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
+          "img": uniImg3
+        },
+        {
+          "name": "Aalborg University (AAU)",
+          "location": "Aalborg, Denmark",
+          "fee": "DKK 58,000 \u2013 105,000 / Year",
+          "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
+          "img": uniImg1
+        },
+        {
+          "name": "University of Southern Denmark (SDU)",
+          "location": "Odense, Denmark",
+          "fee": "DKK 62,000 \u2013 115,000 / Year",
+          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+          "img": uniImg2
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
+        "Tuition fees are indicative and subject to annual review by Danish higher education institutions.",
+        "EU/EEA students may study tuition-free; international fees apply to non-EU/EEA citizens."
       ]
     },
     {
       "slot": "eligibility",
       "eyebrow": "Eligibility Criteria",
       "title": "Who Can Study Computer Science Engineering in Denmark?",
+      "lead": "Essential details regarding computer science in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**4\\. Who Can Study Computer Science Engineering in Denmark?**",
             "International students generally require:"
           ]
         },
@@ -192,11 +235,11 @@ const page = {
       "slot": "requirements",
       "eyebrow": "Admission Requirements",
       "title": "Computer Science Engineering Admission Requirements in Denmark",
+      "lead": "Essential details regarding computer science in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**5\\. Computer Science Engineering Admission Requirements in Denmark**",
             "Universities may evaluate school grades, math readiness, language competence, and the comparability of the applicant\u2019s prior education. The **Computer Science Engineering admission requirements in Denmark** may differ depending on the university and selected bachelor's program.",
             "Students may have to submit Class 10 and 12 marksheets, school leaving certificates, proof of English proficiency and any other required documents. Some programs may have specific maths requirements or other selection criteria."
           ]
@@ -207,11 +250,11 @@ const page = {
       "slot": "fees",
       "eyebrow": "Tuition & Living Costs",
       "title": "Cost to Study Computer Science Engineering in Denmark",
+      "lead": "Essential details regarding computer science in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**6\\. Cost to Study Computer Science Engineering in Denmark**",
             "The following are rough planning estimates for Indian students considering **Computer Science Engineering fees in Denmark**."
           ]
         },
@@ -252,11 +295,11 @@ const page = {
       "slot": "timeline",
       "eyebrow": "Admission Procedure",
       "title": "Admission Process for Computer Science Engineering in Denmark",
+      "lead": "Essential details regarding computer science in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**7\\. Admission Process for Computer Science Engineering in Denmark**",
             "The **Computer Science Engineering admission process in Denmark** generally involves the following steps:"
           ]
         },
@@ -285,11 +328,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Further Studies & Scope",
       "title": "Accreditation & Recognition",
+      "lead": "Essential details regarding computer science in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**8\\. Accreditation & Recognition**",
             "Students should ensure that the institution is officially recognized in Denmark and that the curriculum of the program is relevant to their career goals. They should also consider internship opportunities, practical projects, computing facilities and links with technology companies.",
             "Students should check that the qualification will meet any relevant employer or further study requirements for future employment in India or elsewhere."
           ]
@@ -300,11 +343,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Career Opportunities",
       "title": "Salaries and Jobs Post-Bachelor\u2019s Studies",
+      "lead": "Essential details regarding computer science in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**9\\. Salaries and Jobs Post-Bachelor\u2019s Studies**",
             "Graduates can find entry-level jobs in software companies, IT services, technology startups and digital businesses.",
             "Possible roles include:"
           ]
@@ -334,11 +377,11 @@ const page = {
       "slot": "documents",
       "eyebrow": "Required Documentation",
       "title": "Required Documents",
+      "lead": "Essential details regarding computer science in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**10\\. Required Documents**",
             "General applicants need:"
           ]
         },
@@ -362,11 +405,11 @@ const page = {
       "slot": "why",
       "eyebrow": "Why Denmark",
       "title": "Why Study Computer Science Engineering in Denmark?",
+      "lead": "Essential details regarding computer science in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**1\\. Why Study Computer Science Engineering in Denmark?**",
             "Postgraduate study in advanced computing, software engineering, artificial intelligence and data-driven technologies is offered in Denmark. Its universities combine research with practical projects, helping with the development of students\u2019 analytical and technical skills. A **Master's in Computer Science Engineering in Denmark** can help graduates advance their knowledge of computing and emerging technologies.",
             "At the master\u2019s level, students can specialize in fields like machine learning, distributed systems, cybersecurity, algorithms and software architecture. These skills can benefit careers in technology companies, research organizations, and digital innovation. Students pursuing **Computer Science Engineering in Denmark** at the postgraduate level can explore advanced technical subjects and research opportunities."
           ]
@@ -377,11 +420,11 @@ const page = {
       "slot": "courses",
       "eyebrow": "Degrees & Pathways",
       "title": "Computer Science Engineering Courses in Denmark",
+      "lead": "Essential details regarding computer science in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**2\\. Computer Science Engineering Courses in Denmark**",
             "Possible specializations of Master programs are:"
           ]
         },
@@ -411,57 +454,95 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Best Computer Science Engineering Colleges in Denmark",
-      "lead": "Explore leading universities and institutions in Denmark offering accredited Computer Science in Denmark programmes, world-class research facilities, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Denmark offering accredited Computer Science programmes, modern campuses, and international student support.",
+      "unis": [
         {
           "name": "University of Copenhagen (UCPH)",
           "location": "Copenhagen, Denmark",
           "fee": "DKK 65,000 \u2013 120,000 / Year",
           "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
           "name": "Technical University of Denmark (DTU)",
           "location": "Kongens Lyngby, Denmark",
           "fee": "DKK 75,000 \u2013 115,000 / Year",
           "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-          "img_var": "null"
+          "img": uniImg2
         },
         {
           "name": "Aarhus University (AU)",
           "location": "Aarhus, Denmark",
           "fee": "DKK 60,000 \u2013 110,000 / Year",
           "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-          "img_var": "null"
+          "img": uniImg3
         },
         {
           "name": "Aalborg University (AAU)",
           "location": "Aalborg, Denmark",
           "fee": "DKK 58,000 \u2013 105,000 / Year",
           "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
-          "name": "Copenhagen Business School (CBS)",
-          "location": "Frederiksberg, Denmark",
-          "fee": "DKK 70,000 \u2013 130,000 / Year",
-          "desc": "Triple-crown accredited business institution recognized across Europe for excellence in management, economics, and finance.",
-          "img_var": "null"
+          "name": "University of Southern Denmark (SDU)",
+          "location": "Odense, Denmark",
+          "fee": "DKK 62,000 \u2013 115,000 / Year",
+          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+          "img": uniImg2
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "University of Copenhagen (UCPH)",
+          "location": "Copenhagen, Denmark",
+          "fee": "DKK 65,000 \u2013 120,000 / Year",
+          "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
+          "img": uniImg1
+        },
+        {
+          "name": "Technical University of Denmark (DTU)",
+          "location": "Kongens Lyngby, Denmark",
+          "fee": "DKK 75,000 \u2013 115,000 / Year",
+          "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
+          "img": uniImg2
+        },
+        {
+          "name": "Aarhus University (AU)",
+          "location": "Aarhus, Denmark",
+          "fee": "DKK 60,000 \u2013 110,000 / Year",
+          "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
+          "img": uniImg3
+        },
+        {
+          "name": "Aalborg University (AAU)",
+          "location": "Aalborg, Denmark",
+          "fee": "DKK 58,000 \u2013 105,000 / Year",
+          "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
+          "img": uniImg1
+        },
+        {
+          "name": "University of Southern Denmark (SDU)",
+          "location": "Odense, Denmark",
+          "fee": "DKK 62,000 \u2013 115,000 / Year",
+          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+          "img": uniImg2
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
+        "Tuition fees are indicative and subject to annual review by Danish higher education institutions.",
+        "EU/EEA students may study tuition-free; international fees apply to non-EU/EEA citizens."
       ]
     },
     {
       "slot": "eligibility",
       "eyebrow": "Eligibility Criteria",
       "title": "Study Computer Science Engineering in Denmark Eligibility",
+      "lead": "Essential details regarding computer science in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**4\\. Study Computer Science Engineering in Denmark Eligibility**",
             "International applicants typically require:"
           ]
         },
@@ -487,11 +568,11 @@ const page = {
       "slot": "requirements",
       "eyebrow": "Admission Requirements",
       "title": "Admission Criteria for Computer Science Engineering in Denmark",
+      "lead": "Essential details regarding computer science in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**5\\. Admission Criteria for Computer Science Engineering in Denmark**",
             "The normal assessment criteria for undergraduate qualifications are academic performance, technical subjects and English language proficiency. The **Computer Science Engineering admission requirements in Denmark** may include specific academic credits and subject prerequisites.",
             "Applicants may be asked to show knowledge of algorithms, programming, data structures, operating systems, databases and mathematics. Some may also look at relevant projects, research or work experience.",
             "Students should consult application deadlines and credit requirements carefully, as fulfilling the general degree requirement does not ensure eligibility."
@@ -503,11 +584,11 @@ const page = {
       "slot": "fees",
       "eyebrow": "Tuition & Living Costs",
       "title": "Computer Science Engineering Cost in Denmark",
+      "lead": "Essential details regarding computer science in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**6\\. Computer Science Engineering Cost in Denmark**",
             "The following are rough planning estimates for Indian students considering postgraduate **Computer Science Engineering fees in Denmark**."
           ]
         },
@@ -548,11 +629,11 @@ const page = {
       "slot": "timeline",
       "eyebrow": "Admission Procedure",
       "title": "Admission Process for Computer Science Engineering in Denmark",
+      "lead": "Essential details regarding computer science in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**7\\. Admission Process for Computer Science Engineering in Denmark**",
             "The **Computer Science Engineering admission process in Denmark** generally involves these steps:"
           ]
         },
@@ -581,11 +662,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Further Studies & Scope",
       "title": "Accreditation and Acknowledgments",
+      "lead": "Essential details regarding computer science in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**8\\. Accreditation and Acknowledgments**",
             "Before taking admission check whether the university is accredited or not, check the syllabus, labs, industry exposure and internship opportunities.",
             "Students should choose programs that will equip them with relevant technical skills and that are compatible with their future employment or research plans. Those looking to work internationally should also consider the relevance of the degree to their target roles."
           ]
@@ -596,11 +677,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Career Opportunities",
       "title": "Salary and Job Opportunities Following a Master\u2019s",
+      "lead": "Essential details regarding computer science in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**9\\. Salary and Job Opportunities Following a Master\u2019s**",
             "Graduates pursue advanced careers in software development, data science, cybersecurity, artificial intelligence and technology research.",
             "Possible roles include:"
           ]
@@ -630,11 +711,11 @@ const page = {
       "slot": "documents",
       "eyebrow": "Required Documentation",
       "title": "Required Documents",
+      "lead": "Essential details regarding computer science in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**10\\. Required Documents**",
             "General applicants need:"
           ]
         },
@@ -662,53 +743,57 @@ const page = {
       "location": "Copenhagen, Denmark",
       "fee": "DKK 65,000 \u2013 120,000 / Year",
       "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
       "name": "Technical University of Denmark (DTU)",
       "location": "Kongens Lyngby, Denmark",
       "fee": "DKK 75,000 \u2013 115,000 / Year",
       "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-      "img_var": "null"
+      "img": uniImg2
     },
     {
       "name": "Aarhus University (AU)",
       "location": "Aarhus, Denmark",
       "fee": "DKK 60,000 \u2013 110,000 / Year",
       "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-      "img_var": "null"
+      "img": uniImg3
     },
     {
       "name": "Aalborg University (AAU)",
       "location": "Aalborg, Denmark",
       "fee": "DKK 58,000 \u2013 105,000 / Year",
       "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
-      "name": "Copenhagen Business School (CBS)",
-      "location": "Frederiksberg, Denmark",
-      "fee": "DKK 70,000 \u2013 130,000 / Year",
-      "desc": "Triple-crown accredited business institution recognized across Europe for excellence in management, economics, and finance.",
-      "img_var": "null"
+      "name": "University of Southern Denmark (SDU)",
+      "location": "Odense, Denmark",
+      "fee": "DKK 62,000 \u2013 115,000 / Year",
+      "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+      "img": uniImg2
     }
   ],
   "faqs": [
     {
-      "q": "Can Indian students apply for Computer Science in Denmark?",
-      "a": "Yes, Indian students with qualifying credentials meeting English language proficiency (IELTS/TOEFL) and academic prerequisites can apply to recognized universities in Denmark."
+      "q": "Q1. How many years is a master\u2019s degree in Denmark?",
+      "a": "Most of the master\u2019s programs last two years."
     },
     {
-      "q": "What is the medium of instruction for Computer Science in Denmark?",
-      "a": "Most master's and international bachelor's degree programmes are taught entirely in English for international students across Danish universities."
+      "q": "Q2. What is the fee for Indian students?",
+      "a": "Non-EU/EEA students can expect to pay a broad estimate of \u20b98 lakh\u2013\u20b918 lakh per year depending on the university and program."
     },
     {
-      "q": "What are the typical tuition fees for Computer Science in Denmark?",
-      "a": "Tuition fees for international students generally range between DKK 60,000 and DKK 120,000 per year, depending on the institution and level of study."
+      "q": "Q3. Can a student having bachelor\u2019s in IT apply?",
+      "a": "Yes, if their degree and coursework meet the programme\u2019s academic requirements."
     },
     {
-      "q": "Can international students work while studying in Denmark?",
-      "a": "Yes, non-EU international students with a valid Danish residence permit are legally permitted to work part-time (up to 20 hours per week) during semester periods and full-time during June, July, and August."
+      "q": "Q4. Do you offer scholarships for masters students?",
+      "a": "Some Danish universities provide scholarships or tuition fee waivers for eligible international applicants. Depends."
+    },
+    {
+      "q": "Q5. What can I do after graduation?",
+      "a": "Graduates can pursue careers in software engineering, artificial intelligence, data science, cybersecurity, cloud computing, and research. Students planning a **Master's in Computer Science Engineering in Denmark** or a bachelor's degree can explore university options, eligibility criteria, fees and admission procedures with guidance from **Edu-Hawk Worldwide**."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

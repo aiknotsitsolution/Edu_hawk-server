@@ -7,6 +7,11 @@ import heroBgImg from "../../../../Images/Abroad/Denmark/Architecture/hero_bg.we
 import sideImg from "../../../../Images/Abroad/Denmark/Architecture/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Denmark/Architecture/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../Images/Abroad/Denmark/Architecture/image1.png";
+import uniImg2 from "../../../../Images/Abroad/Denmark/Architecture/image2.png";
+import uniImg3 from "../../../../Images/Abroad/Denmark/Architecture/image3.png";
+
 const page = {
   "name": "Architecture",
   "country": "Denmark",
@@ -19,48 +24,48 @@ const page = {
     "Comprehensive guide to studying Architecture in Denmark for Indian students."
   ],
   "overview": [
-    "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Denmark for Architecture in Denmark."
+    "Explore top accredited Danish universities, tuition costs, eligibility, and visa procedures for Architecture."
   ],
   "level": "Bachelor & Master of Architecture",
   "crumb": "Architecture",
   "stats": [
     {
-      "val": "DKK 60K-120K",
+      "val": "DKK 60K-130K",
       "label": "Tuition / Year"
     },
     {
-      "val": "20 Hrs/Wk",
-      "label": "Part-Time Work"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
       "val": "3-4 Years",
       "label": "Course Duration"
     },
     {
-      "val": "English",
-      "label": "Medium of Study"
+      "val": "20 Hrs/Week",
+      "label": "Part-Time Work"
     }
   ],
   "highlights": [
     {
       "icon": "FaAward",
-      "title": "World-Class Nordic Education",
-      "desc": "Study in Denmark's globally ranked universities featuring innovative Problem-Based Learning (PBL) and state-of-the-art research."
+      "title": "World Top-100 Universities",
+      "desc": "Study in globally respected Danish institutions including University of Copenhagen, DTU, and Aarhus University."
     },
     {
       "icon": "FaGraduationCap",
-      "title": "English-Taught Degrees",
-      "desc": "Wide range of bachelor's and master's degrees delivered entirely in English with international accreditation."
+      "title": "Innovative PBL Learning",
+      "desc": "Problem-Based Learning model focusing on collaborative projects, real-world applications, and critical analysis."
     },
     {
       "icon": "FaFileAlt",
-      "title": "Generous Post-Study Work",
-      "desc": "Denmark offers post-study work permits for international graduates to start European careers in high-demand industries."
+      "title": "High Living Standard & Safety",
+      "desc": "Denmark consistently ranks among the happiest, safest, and most progressive countries in the world."
     },
     {
       "icon": "FaCheckCircle",
-      "title": "High Quality of Life",
-      "desc": "Consistently ranked among the world's happiest, safest, and most sustainable countries with vibrant student communities."
+      "title": "Post-Study Work Visa",
+      "desc": "Non-EU graduates are eligible for post-study residence permits to seek employment and build global careers."
     }
   ],
   "sections": [
@@ -68,11 +73,11 @@ const page = {
       "slot": "why",
       "eyebrow": "Why Denmark",
       "title": "Why study Architecture in Denmark???",
+      "lead": "Essential details regarding architecture in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**1\\. Why study Architecture in Denmark???**",
             "Denmark is an attractive destination for students who are interested in architecture, sustainable design, urban planning and innovative solutions in building. Danish architecture is characterized by functionality, minimalism, environmental responsibility and human-focused spaces.",
             "Students in Denmark who study architecture can learn how buildings and cities are designed to fit modern ways of living, as well as coping with sustainability and climate change. Students can look into architectural design, construction technology, landscape integration and urban development.",
             "Choosing **Architecture in Denmark** gives students an opportunity to explore sustainable architectural practices, modern design concepts and innovative construction approaches.",
@@ -101,11 +106,11 @@ const page = {
       "slot": "courses",
       "eyebrow": "Degrees & Pathways",
       "title": "Denmark Architecture Courses",
+      "lead": "Essential details regarding architecture in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**2\\. Denmark Architecture Courses**",
             "Architecture education is available in Denmark at Bachelor and Master level, and program names and admission routes vary between institutions. Students exploring **Architecture courses in Denmark** can consider different academic pathways according to their interests and qualifications.",
             "Bachelor-level programs and pathways may include:"
           ]
@@ -134,7 +139,7 @@ const page = {
             "Design Architecture",
             "Sustainable Architecture",
             "Planning and Urban Design",
-            "Landscape Architectur",
+            "Landscape Architecture",
             "Environmental Design and Building Technology",
             "Computational Design and Digital Architecture",
             "Conservation and Reuse of Heritage"
@@ -153,59 +158,96 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Top Universities and Institutions to Study Architecture in Denmark",
-      "lead": "Explore leading universities and institutions in Denmark offering accredited Architecture in Denmark programmes, world-class research facilities, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Denmark offering accredited Architecture programmes, modern campuses, and international student support.",
+      "unis": [
         {
           "name": "University of Copenhagen (UCPH)",
           "location": "Copenhagen, Denmark",
           "fee": "DKK 65,000 \u2013 120,000 / Year",
           "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
           "name": "Technical University of Denmark (DTU)",
           "location": "Kongens Lyngby, Denmark",
           "fee": "DKK 75,000 \u2013 115,000 / Year",
           "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-          "img_var": "null"
+          "img": uniImg2
         },
         {
           "name": "Aarhus University (AU)",
           "location": "Aarhus, Denmark",
           "fee": "DKK 60,000 \u2013 110,000 / Year",
           "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-          "img_var": "null"
+          "img": uniImg3
         },
         {
           "name": "Aalborg University (AAU)",
           "location": "Aalborg, Denmark",
           "fee": "DKK 58,000 \u2013 105,000 / Year",
           "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
-          "name": "Copenhagen Business School (CBS)",
-          "location": "Frederiksberg, Denmark",
-          "fee": "DKK 70,000 \u2013 130,000 / Year",
-          "desc": "Triple-crown accredited business institution recognized across Europe for excellence in management, economics, and finance.",
-          "img_var": "null"
+          "name": "University of Southern Denmark (SDU)",
+          "location": "Odense, Denmark",
+          "fee": "DKK 62,000 \u2013 115,000 / Year",
+          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+          "img": uniImg2
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "University of Copenhagen (UCPH)",
+          "location": "Copenhagen, Denmark",
+          "fee": "DKK 65,000 \u2013 120,000 / Year",
+          "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
+          "img": uniImg1
+        },
+        {
+          "name": "Technical University of Denmark (DTU)",
+          "location": "Kongens Lyngby, Denmark",
+          "fee": "DKK 75,000 \u2013 115,000 / Year",
+          "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
+          "img": uniImg2
+        },
+        {
+          "name": "Aarhus University (AU)",
+          "location": "Aarhus, Denmark",
+          "fee": "DKK 60,000 \u2013 110,000 / Year",
+          "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
+          "img": uniImg3
+        },
+        {
+          "name": "Aalborg University (AAU)",
+          "location": "Aalborg, Denmark",
+          "fee": "DKK 58,000 \u2013 105,000 / Year",
+          "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
+          "img": uniImg1
+        },
+        {
+          "name": "University of Southern Denmark (SDU)",
+          "location": "Odense, Denmark",
+          "fee": "DKK 62,000 \u2013 115,000 / Year",
+          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+          "img": uniImg2
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
+        "Tuition fees are indicative and subject to annual review by Danish higher education institutions.",
+        "EU/EEA students may study tuition-free; international fees apply to non-EU/EEA citizens."
       ]
     },
     {
       "slot": "eligibility",
       "eyebrow": "Eligibility Criteria",
       "title": "Eligibility for the Denmark Architecture Study",
+      "lead": "Essential details regarding architecture in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**4\\. Eligibility for the Denmark Architecture Study**",
             "Students planning to study **Architecture in Denmark** should understand the academic qualifications, language requirements and portfolio criteria specified by their chosen institution. Checking **Architecture eligibility in Denmark** before selecting a program can help applicants understand the qualifications needed for admission.",
-            "**Bachelor's eligibility**",
             "Applicants typically require:"
           ]
         },
@@ -223,7 +265,6 @@ const page = {
         {
           "t": "p",
           "items": [
-            "**Master\u2019s Qualification:**",
             "Applicants normally need:"
           ]
         },
@@ -250,11 +291,11 @@ const page = {
       "slot": "requirements",
       "eyebrow": "Admission Requirements",
       "title": "Denmark Architecture Admission requirements",
+      "lead": "Essential details regarding architecture in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**5\\. Denmark Architecture Admission requirements**",
             "At the bachelor level, institutions may consider school qualifications, design aptitude, portfolio and language skills. Some schools of architecture use creative assignments or other selection procedures.",
             "Master's applicants usually need to submit a bachelor's degree certificate, transcripts and a portfolio of architectural projects. Some programs may also ask for a CV, motivation letter, course descriptions or evidence of relevant professional experience.",
             "Before applying, applicants are advised to verify if their prior degree is relevant to the Master's program they intend to apply for.",
@@ -267,11 +308,11 @@ const page = {
       "slot": "fees",
       "eyebrow": "Tuition & Living Costs",
       "title": "Architecture Studies in Denmark: Cost",
+      "lead": "Essential details regarding architecture in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**6\\. Architecture Studies in Denmark: Cost**",
             "Here are some approximate planning estimates for Indian students. The actual fees will vary between institutions and courses. Students comparing **Architecture fees in Denmark** should consider tuition fees, accommodation, daily expenses and additional academic costs."
           ]
         },
@@ -324,11 +365,11 @@ const page = {
       "slot": "timeline",
       "eyebrow": "Admission Procedure",
       "title": "How to get admission in Architecture in Denmark",
+      "lead": "Essential details regarding architecture in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**7\\. How to get admission in Architecture in Denmark**",
             "The admission process for **Architecture in Denmark** generally involves selecting a suitable program, checking eligibility and preparing the required application documents.",
             "Select a program: Choose a degree in architecture, architectural design, or a related field of the built environment. Compare available **Architecture courses in Denmark** to identify a program that matches your academic interests.",
             "Eligibility Check: Check academic requirements, language of instruction and portfolio requirements.",
@@ -347,11 +388,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Further Studies & Scope",
       "title": "Accreditation and Professional Recognition",
+      "lead": "Essential details regarding architecture in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**8\\. Accreditation and Professional Recognition**",
             "Before registering, check that the institution is recognized and that the exact qualification awarded is given. In some countries architecture is a controlled profession and a degree that allows for progression within academia does not necessarily also allow for professional registration.",
             "Students who plan to apply for registration as licensed architects in Denmark or India should investigate the professional requirements, recognition of degrees, supervised experience and registration procedures before choosing a program."
           ]
@@ -362,11 +403,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Career Opportunities",
       "title": "Career Opportunities in Architecture",
+      "lead": "Essential details regarding architecture in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**9\\. Career Opportunities in Architecture**",
             "Graduates can pursue careers with architecture firms, construction companies, property development, urban planning and sustainable design.",
             "Possible job titles include:"
           ]
@@ -394,14 +435,8 @@ const page = {
       "slot": "documents",
       "eyebrow": "Required Documentation",
       "title": "Required Documents",
+      "lead": "Essential details regarding architecture in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "**10\\. Required Documents**",
-            "**For Bachelor\u2019s Degree Applicants**"
-          ]
-        },
         {
           "t": "ul",
           "items": [
@@ -413,12 +448,6 @@ const page = {
             "Portfolio of design or entrance task, as required",
             "Letter of Motivation (if required)",
             "Certified translations where applicable"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "**For M.A. Candidates:**"
           ]
         },
         {
@@ -449,53 +478,57 @@ const page = {
       "location": "Copenhagen, Denmark",
       "fee": "DKK 65,000 \u2013 120,000 / Year",
       "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
       "name": "Technical University of Denmark (DTU)",
       "location": "Kongens Lyngby, Denmark",
       "fee": "DKK 75,000 \u2013 115,000 / Year",
       "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-      "img_var": "null"
+      "img": uniImg2
     },
     {
       "name": "Aarhus University (AU)",
       "location": "Aarhus, Denmark",
       "fee": "DKK 60,000 \u2013 110,000 / Year",
       "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-      "img_var": "null"
+      "img": uniImg3
     },
     {
       "name": "Aalborg University (AAU)",
       "location": "Aalborg, Denmark",
       "fee": "DKK 58,000 \u2013 105,000 / Year",
       "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
-      "name": "Copenhagen Business School (CBS)",
-      "location": "Frederiksberg, Denmark",
-      "fee": "DKK 70,000 \u2013 130,000 / Year",
-      "desc": "Triple-crown accredited business institution recognized across Europe for excellence in management, economics, and finance.",
-      "img_var": "null"
+      "name": "University of Southern Denmark (SDU)",
+      "location": "Odense, Denmark",
+      "fee": "DKK 62,000 \u2013 115,000 / Year",
+      "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+      "img": uniImg2
     }
   ],
   "faqs": [
     {
-      "q": "Can Indian students apply for Architecture in Denmark?",
-      "a": "Yes, Indian students with qualifying credentials meeting English language proficiency (IELTS/TOEFL) and academic prerequisites can apply to recognized universities in Denmark."
+      "q": "Q1. Can the Indian students study Architecture in Denmark after Class 12?",
+      "a": "Yes, if they meet the entry requirements of the chosen architecture or related bachelor\u2019s program. A portfolio or design assessment is required by some institutions."
     },
     {
-      "q": "What is the medium of instruction for Architecture in Denmark?",
-      "a": "Most master's and international bachelor's degree programmes are taught entirely in English for international students across Danish universities."
+      "q": "Q2. How long is the Architecture study in Denmark?",
+      "a": "Time is according to the qualification. Some undergraduate courses last for three years, and professional architecture education may take longer. Master\u2019s programs are usually about two years long."
     },
     {
-      "q": "What are the typical tuition fees for Architecture in Denmark?",
-      "a": "Tuition fees for international students generally range between DKK 60,000 and DKK 120,000 per year, depending on the institution and level of study."
+      "q": "Q3. Is portfolio required for architecture admission?",
+      "a": "Most architecture courses will require a portfolio or some kind of creative assessment, especially if you are applying for a masters level course. Requirements vary by school."
     },
     {
-      "q": "Can international students work while studying in Denmark?",
-      "a": "Yes, non-EU international students with a valid Danish residence permit are legally permitted to work part-time (up to 20 hours per week) during semester periods and full-time during June, July, and August."
+      "q": "Q4. What is the cost of studying Architecture in Denmark?",
+      "a": "The tuition fees and living costs will depend on the university, and also on the length of the course. \\*Use the estimates above as a rough guide, and verify fees with the institution directly."
+    },
+    {
+      "q": "Q5. After finishing my graduation in Denmark, am I eligible to work as an architect in India?",
+      "a": "Perhaps, but professional registration is subject to applicable Indian recognition and qualification requirements. You might want to check with the Council of Architecture in India if you want to be professionally registered before you enroll."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

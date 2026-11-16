@@ -7,6 +7,11 @@ import heroBgImg from "../../../../Images/Abroad/Denmark/BusinessManagement/hero
 import sideImg from "../../../../Images/Abroad/Denmark/BusinessManagement/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Denmark/BusinessManagement/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../Images/Abroad/Denmark/BusinessManagement/image1.png";
+import uniImg2 from "../../../../Images/Abroad/Denmark/BusinessManagement/image2.png";
+import uniImg3 from "../../../../Images/Abroad/Denmark/BusinessManagement/image3.png";
+
 const page = {
   "name": "Business Management",
   "country": "Denmark",
@@ -19,48 +24,48 @@ const page = {
     "Comprehensive guide to studying Business Management in Denmark for Indian students."
   ],
   "overview": [
-    "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Denmark for Business Management in Denmark."
+    "Explore top accredited Danish universities, tuition costs, eligibility, and visa procedures for Business Management."
   ],
   "level": "Bachelor & Master in Business Management",
   "crumb": "Business Management",
   "stats": [
     {
-      "val": "DKK 60K-120K",
+      "val": "DKK 60K-130K",
       "label": "Tuition / Year"
     },
     {
-      "val": "20 Hrs/Wk",
-      "label": "Part-Time Work"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
       "val": "3-4 Years",
       "label": "Course Duration"
     },
     {
-      "val": "English",
-      "label": "Medium of Study"
+      "val": "20 Hrs/Week",
+      "label": "Part-Time Work"
     }
   ],
   "highlights": [
     {
       "icon": "FaAward",
-      "title": "World-Class Nordic Education",
-      "desc": "Study in Denmark's globally ranked universities featuring innovative Problem-Based Learning (PBL) and state-of-the-art research."
+      "title": "World Top-100 Universities",
+      "desc": "Study in globally respected Danish institutions including University of Copenhagen, DTU, and Aarhus University."
     },
     {
       "icon": "FaGraduationCap",
-      "title": "English-Taught Degrees",
-      "desc": "Wide range of bachelor's and master's degrees delivered entirely in English with international accreditation."
+      "title": "Innovative PBL Learning",
+      "desc": "Problem-Based Learning model focusing on collaborative projects, real-world applications, and critical analysis."
     },
     {
       "icon": "FaFileAlt",
-      "title": "Generous Post-Study Work",
-      "desc": "Denmark offers post-study work permits for international graduates to start European careers in high-demand industries."
+      "title": "High Living Standard & Safety",
+      "desc": "Denmark consistently ranks among the happiest, safest, and most progressive countries in the world."
     },
     {
       "icon": "FaCheckCircle",
-      "title": "High Quality of Life",
-      "desc": "Consistently ranked among the world's happiest, safest, and most sustainable countries with vibrant student communities."
+      "title": "Post-Study Work Visa",
+      "desc": "Non-EU graduates are eligible for post-study residence permits to seek employment and build global careers."
     }
   ],
   "sections": [
@@ -68,11 +73,11 @@ const page = {
       "slot": "why",
       "eyebrow": "Why Denmark",
       "title": "Why pursue Business Management in Denmark?",
+      "lead": "Essential details regarding business management in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**1\\. Why pursue Business Management in Denmark?**",
             "For students who want to enhance their business knowledge, leadership skills and international management skills, Denmark is a good choice. It is a country with a strong business environment, innovative companies and a focus on sustainability, entrepreneurship and digital transformation. Studying **Business Administration in Denmark** allows students to explore modern business practices and international management.",
             "Studying Business Management helps students learn how organizations function, how to lead teams, develop strategies and make informed business decisions. Students can also learn about international business, marketing, finance, human resource management and entrepreneurship.",
             "Denmark\u2019s focus on practical learning, teamwork and real-world business cases can help students prepare for careers in multinational companies, startups, consulting firms and global organizations. A bachelor's or master's degree in this field can help students develop the knowledge and skills required for international business careers."
@@ -84,11 +89,11 @@ const page = {
       "slot": "courses",
       "eyebrow": "Degrees & Pathways",
       "title": "Business Administration Studies in Denmark",
+      "lead": "Essential details regarding business management in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**2\\. Business Administration Studies in Denmark**",
             "Danish universities offer business-related programs at bachelor\u2019s and master\u2019s level. **Business Administration courses in Denmark** cover different areas of business, and course titles and specializations vary by school.",
             "The bachelor's programs may include:"
           ]
@@ -137,58 +142,95 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Best Universities for Business Management in Denmark",
-      "lead": "Explore leading universities and institutions in Denmark offering accredited Business Management in Denmark programmes, world-class research facilities, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Denmark offering accredited Business Management programmes, modern campuses, and international student support.",
+      "unis": [
         {
           "name": "University of Copenhagen (UCPH)",
           "location": "Copenhagen, Denmark",
           "fee": "DKK 65,000 \u2013 120,000 / Year",
           "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
           "name": "Technical University of Denmark (DTU)",
           "location": "Kongens Lyngby, Denmark",
           "fee": "DKK 75,000 \u2013 115,000 / Year",
           "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-          "img_var": "null"
+          "img": uniImg2
         },
         {
           "name": "Aarhus University (AU)",
           "location": "Aarhus, Denmark",
           "fee": "DKK 60,000 \u2013 110,000 / Year",
           "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-          "img_var": "null"
+          "img": uniImg3
         },
         {
           "name": "Aalborg University (AAU)",
           "location": "Aalborg, Denmark",
           "fee": "DKK 58,000 \u2013 105,000 / Year",
           "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
-          "name": "Copenhagen Business School (CBS)",
-          "location": "Frederiksberg, Denmark",
-          "fee": "DKK 70,000 \u2013 130,000 / Year",
-          "desc": "Triple-crown accredited business institution recognized across Europe for excellence in management, economics, and finance.",
-          "img_var": "null"
+          "name": "University of Southern Denmark (SDU)",
+          "location": "Odense, Denmark",
+          "fee": "DKK 62,000 \u2013 115,000 / Year",
+          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+          "img": uniImg2
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "University of Copenhagen (UCPH)",
+          "location": "Copenhagen, Denmark",
+          "fee": "DKK 65,000 \u2013 120,000 / Year",
+          "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
+          "img": uniImg1
+        },
+        {
+          "name": "Technical University of Denmark (DTU)",
+          "location": "Kongens Lyngby, Denmark",
+          "fee": "DKK 75,000 \u2013 115,000 / Year",
+          "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
+          "img": uniImg2
+        },
+        {
+          "name": "Aarhus University (AU)",
+          "location": "Aarhus, Denmark",
+          "fee": "DKK 60,000 \u2013 110,000 / Year",
+          "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
+          "img": uniImg3
+        },
+        {
+          "name": "Aalborg University (AAU)",
+          "location": "Aalborg, Denmark",
+          "fee": "DKK 58,000 \u2013 105,000 / Year",
+          "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
+          "img": uniImg1
+        },
+        {
+          "name": "University of Southern Denmark (SDU)",
+          "location": "Odense, Denmark",
+          "fee": "DKK 62,000 \u2013 115,000 / Year",
+          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+          "img": uniImg2
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
+        "Tuition fees are indicative and subject to annual review by Danish higher education institutions.",
+        "EU/EEA students may study tuition-free; international fees apply to non-EU/EEA citizens."
       ]
     },
     {
       "slot": "eligibility",
       "eyebrow": "Eligibility Criteria",
       "title": "Is it possible to Study Business Management in Denmark?",
+      "lead": "Essential details regarding business management in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**4\\. Is it possible to Study Business Management in Denmark?**",
-            "**Eligibility for Bachelor\u2019s**",
             "Applicants typically require:"
           ]
         },
@@ -206,7 +248,6 @@ const page = {
           "t": "p",
           "items": [
             "Students planning to pursue a bachelor's degree should review the **Business Administration eligibility in Denmark** according to their selected university and course.",
-            "**Eligibility for Master\u2019s**",
             "In general, applicants need:"
           ]
         },
@@ -231,11 +272,11 @@ const page = {
       "slot": "requirements",
       "eyebrow": "Admission Requirements",
       "title": "Admission requirements for the Business Management program in Denmark",
+      "lead": "Essential details regarding business management in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**5\\. Admission requirements for the Business Management program in Denmark**",
             "For undergraduate study the university will look at your school-leaving qualifications, your academic grades, your competence in the language of instruction and whether you have studied the right subjects.",
             "For master\u2019s programs, universities generally consider the applicant\u2019s bachelor\u2019s degree, academic records and previous coursework. Some programs may require a specific number of credits in business administration, economics, quantitative methods or management.",
             "Applicants should also check if motivation letter, r\u00e9sum\u00e9, recommendation letters or further assessment is required. Understanding the **Business Administration admission requirements in Denmark** can help students prepare their academic documents and application materials."
@@ -247,11 +288,11 @@ const page = {
       "slot": "fees",
       "eyebrow": "Tuition & Living Costs",
       "title": "Cost to Study Business Management in Denmark",
+      "lead": "Essential details regarding business management in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**6\\. Cost to Study Business Management in Denmark**",
             "The following are approximate planning estimates for Indian students studying **Business Administration in Denmark**: The actual costs will depend on the university, program, accommodation and your lifestyle."
           ]
         },
@@ -303,11 +344,11 @@ const page = {
       "slot": "timeline",
       "eyebrow": "Admission Procedure",
       "title": "How to Get Admission to Business Management Program in Denmark",
+      "lead": "Essential details regarding business management in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**7\\. How to Get Admission to Business Management Program in Denmark**",
             "Select a program: Choose a bachelor\u2019s or master\u2019s degree that fits your educational background and career goals.",
             "Eligibility Check: Check the university academic requirements, language requirements and deadlines.",
             "Draft documents: Gather academic certificates, transcripts, passport details and language test results as required.",
@@ -325,11 +366,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Further Studies & Scope",
       "title": "Recognition and Accreditation",
+      "lead": "Essential details regarding business management in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**8\\. Recognition and Accreditation**",
             "Students are advised to verify the university\u2019s official recognition in Denmark and the chosen programme\u2019s relevance to their academic and career goals before enrolling.",
             "Business students should compare curriculum, internship opportunities, international exchange options, industry projects and links with employers. If you intend to study for an MBA or other postgraduate qualification later, you should also check the entry requirements of your preferred institutions."
           ]
@@ -340,11 +381,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Career Opportunities",
       "title": "Business Management Salary & Job Opportunities",
+      "lead": "Essential details regarding business management in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**9\\. Business Management Salary & Job Opportunities**",
             "Graduates with a Business Management degree can pursue opportunities in many industries, including consulting, banking, retail, technology, manufacturing, logistics, and professional services. Studying **Business Administration in Denmark** can help students develop knowledge for different business and management career paths.",
             "Possible career roles are:"
           ]
@@ -377,14 +418,8 @@ const page = {
       "slot": "documents",
       "eyebrow": "Required Documentation",
       "title": "Required Documents",
+      "lead": "Essential details regarding business management in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "**10\\. Required Documents**",
-            "**For Bachelor\u2019s Degree Applicants**"
-          ]
-        },
         {
           "t": "ul",
           "items": [
@@ -395,12 +430,6 @@ const page = {
             "English language test results, if required",
             "Statement of purpose/motivational letter (if applicable)",
             "Certified translations (if applicable)"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "**For M.A. Candidates:**"
           ]
         },
         {
@@ -431,53 +460,57 @@ const page = {
       "location": "Copenhagen, Denmark",
       "fee": "DKK 65,000 \u2013 120,000 / Year",
       "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
       "name": "Technical University of Denmark (DTU)",
       "location": "Kongens Lyngby, Denmark",
       "fee": "DKK 75,000 \u2013 115,000 / Year",
       "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-      "img_var": "null"
+      "img": uniImg2
     },
     {
       "name": "Aarhus University (AU)",
       "location": "Aarhus, Denmark",
       "fee": "DKK 60,000 \u2013 110,000 / Year",
       "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-      "img_var": "null"
+      "img": uniImg3
     },
     {
       "name": "Aalborg University (AAU)",
       "location": "Aalborg, Denmark",
       "fee": "DKK 58,000 \u2013 105,000 / Year",
       "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
-      "name": "Copenhagen Business School (CBS)",
-      "location": "Frederiksberg, Denmark",
-      "fee": "DKK 70,000 \u2013 130,000 / Year",
-      "desc": "Triple-crown accredited business institution recognized across Europe for excellence in management, economics, and finance.",
-      "img_var": "null"
+      "name": "University of Southern Denmark (SDU)",
+      "location": "Odense, Denmark",
+      "fee": "DKK 62,000 \u2013 115,000 / Year",
+      "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+      "img": uniImg2
     }
   ],
   "faqs": [
     {
-      "q": "Can Indian students apply for Business Management in Denmark?",
-      "a": "Yes, Indian students with qualifying credentials meeting English language proficiency (IELTS/TOEFL) and academic prerequisites can apply to recognized universities in Denmark."
+      "q": "Q1. How long does it take to study Business Management in Denmark?",
+      "a": "Bachelor\u2019s programs usually last three years and most master\u2019s programs two years."
     },
     {
-      "q": "What is the medium of instruction for Business Management in Denmark?",
-      "a": "Most master's and international bachelor's degree programmes are taught entirely in English for international students across Danish universities."
+      "q": "Q2. Can Indian students do Business Management in Denmark after class 12?",
+      "a": "Yeah. Students may apply if they have the school qualifications, academic performance, subject background and language skills required by their chosen university."
     },
     {
-      "q": "What are the typical tuition fees for Business Management in Denmark?",
-      "a": "Tuition fees for international students generally range between DKK 60,000 and DKK 120,000 per year, depending on the institution and level of study."
+      "q": "Q3. Can I do masters in Business Management after bachelor in some other subject?",
+      "a": "Some courses will accept graduates from related subjects, while others require a background in business or economics and certain academic credits. Check individual program requirements."
     },
     {
-      "q": "Can international students work while studying in Denmark?",
-      "a": "Yes, non-EU international students with a valid Danish residence permit are legally permitted to work part-time (up to 20 hours per week) during semester periods and full-time during June, July, and August."
+      "q": "Q4. How much does it cost to study Business Management in Denmark?",
+      "a": "A three-year bachelor\u2019s degree will set you back \u20b947\u201392 lakh and a two-year master\u2019s degree \u20b935\u201370 lakh, including tuition and living expenses."
+    },
+    {
+      "q": "Q5. Are there Business Management programs taught in English in Denmark?",
+      "a": "There are options in English, particularly at the master's level. Availability varies, however, and students should check the language of instruction for their chosen bachelor\u2019s or master\u2019s program. Students interested in pursuing a bachelor's or master's degree can seek guidance from **Edu-Hawk Worldwide** for university selection, course information, application preparation and study-abroad admission support."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

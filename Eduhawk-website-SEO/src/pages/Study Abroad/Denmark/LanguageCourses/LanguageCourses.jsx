@@ -7,6 +7,11 @@ import heroBgImg from "../../../../Images/Abroad/Denmark/LanguageCourses/hero_bg
 import sideImg from "../../../../Images/Abroad/Denmark/LanguageCourses/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Denmark/LanguageCourses/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../Images/Abroad/Denmark/LanguageCourses/image1.png";
+import uniImg2 from "../../../../Images/Abroad/Denmark/LanguageCourses/image2.png";
+import uniImg3 from "../../../../Images/Abroad/Denmark/LanguageCourses/image3.png";
+
 const page = {
   "name": "Language Courses",
   "country": "Denmark",
@@ -19,48 +24,48 @@ const page = {
     "Comprehensive guide to studying Language Courses in Denmark for Indian students."
   ],
   "overview": [
-    "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Denmark for Language Courses in Denmark."
+    "Explore top accredited Danish universities, tuition costs, eligibility, and visa procedures for Language Courses."
   ],
   "level": "Language Proficiency & Foundation",
   "crumb": "Language Courses",
   "stats": [
     {
-      "val": "DKK 60K-120K",
+      "val": "DKK 60K-130K",
       "label": "Tuition / Year"
     },
     {
-      "val": "20 Hrs/Wk",
-      "label": "Part-Time Work"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
       "val": "3-4 Years",
       "label": "Course Duration"
     },
     {
-      "val": "English",
-      "label": "Medium of Study"
+      "val": "20 Hrs/Week",
+      "label": "Part-Time Work"
     }
   ],
   "highlights": [
     {
       "icon": "FaAward",
-      "title": "World-Class Nordic Education",
-      "desc": "Study in Denmark's globally ranked universities featuring innovative Problem-Based Learning (PBL) and state-of-the-art research."
+      "title": "World Top-100 Universities",
+      "desc": "Study in globally respected Danish institutions including University of Copenhagen, DTU, and Aarhus University."
     },
     {
       "icon": "FaGraduationCap",
-      "title": "English-Taught Degrees",
-      "desc": "Wide range of bachelor's and master's degrees delivered entirely in English with international accreditation."
+      "title": "Innovative PBL Learning",
+      "desc": "Problem-Based Learning model focusing on collaborative projects, real-world applications, and critical analysis."
     },
     {
       "icon": "FaFileAlt",
-      "title": "Generous Post-Study Work",
-      "desc": "Denmark offers post-study work permits for international graduates to start European careers in high-demand industries."
+      "title": "High Living Standard & Safety",
+      "desc": "Denmark consistently ranks among the happiest, safest, and most progressive countries in the world."
     },
     {
       "icon": "FaCheckCircle",
-      "title": "High Quality of Life",
-      "desc": "Consistently ranked among the world's happiest, safest, and most sustainable countries with vibrant student communities."
+      "title": "Post-Study Work Visa",
+      "desc": "Non-EU graduates are eligible for post-study residence permits to seek employment and build global careers."
     }
   ],
   "sections": [
@@ -68,11 +73,11 @@ const page = {
       "slot": "why",
       "eyebrow": "Why Denmark",
       "title": "Why study languages in Denmark?",
+      "lead": "Essential details regarding language courses in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**1\\. Why study languages in Denmark?**",
             "**Language Courses in Denmark** are a great option for students who want to learn new languages, especially Danish and English. International students can join language programs to enhance their communication skills, get ready for higher education and to adjust to Danish culture. Learning Danish can also allow students to interact with local communities and comprehend the work environment.",
             "Students may be able to take classes in beginning, intermediate, and advanced languages, depending on the institution, as well as specialized language classes for academic or professional purposes. Exploring **Danish language courses in Denmark** can help international students improve their language skills and become familiar with local communication and culture.",
             "**Edu-Hawk Worldwide** helps students explore hospitality and tourism study options, understand university requirements and plan their study-abroad applications"
@@ -84,11 +89,11 @@ const page = {
       "slot": "courses",
       "eyebrow": "Degrees & Pathways",
       "title": "Danish Language Courses",
+      "lead": "Essential details regarding language courses in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**2\\. Danish Language Courses**",
             "**Language Courses in Denmark** are offered for various levels and learning goals. Students can choose from different languages depending on their academic, personal and professional interests."
           ]
         },
@@ -116,57 +121,95 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Best Courses to Learn Language in Denmark",
-      "lead": "Explore leading universities and institutions in Denmark offering accredited Language Courses in Denmark programmes, world-class research facilities, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Denmark offering accredited Language Courses programmes, modern campuses, and international student support.",
+      "unis": [
         {
           "name": "University of Copenhagen (UCPH)",
           "location": "Copenhagen, Denmark",
           "fee": "DKK 65,000 \u2013 120,000 / Year",
           "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
           "name": "Technical University of Denmark (DTU)",
           "location": "Kongens Lyngby, Denmark",
           "fee": "DKK 75,000 \u2013 115,000 / Year",
           "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-          "img_var": "null"
+          "img": uniImg2
         },
         {
           "name": "Aarhus University (AU)",
           "location": "Aarhus, Denmark",
           "fee": "DKK 60,000 \u2013 110,000 / Year",
           "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-          "img_var": "null"
+          "img": uniImg3
         },
         {
           "name": "Aalborg University (AAU)",
           "location": "Aalborg, Denmark",
           "fee": "DKK 58,000 \u2013 105,000 / Year",
           "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
-          "name": "Copenhagen Business School (CBS)",
-          "location": "Frederiksberg, Denmark",
-          "fee": "DKK 70,000 \u2013 130,000 / Year",
-          "desc": "Triple-crown accredited business institution recognized across Europe for excellence in management, economics, and finance.",
-          "img_var": "null"
+          "name": "University of Southern Denmark (SDU)",
+          "location": "Odense, Denmark",
+          "fee": "DKK 62,000 \u2013 115,000 / Year",
+          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+          "img": uniImg2
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "University of Copenhagen (UCPH)",
+          "location": "Copenhagen, Denmark",
+          "fee": "DKK 65,000 \u2013 120,000 / Year",
+          "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
+          "img": uniImg1
+        },
+        {
+          "name": "Technical University of Denmark (DTU)",
+          "location": "Kongens Lyngby, Denmark",
+          "fee": "DKK 75,000 \u2013 115,000 / Year",
+          "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
+          "img": uniImg2
+        },
+        {
+          "name": "Aarhus University (AU)",
+          "location": "Aarhus, Denmark",
+          "fee": "DKK 60,000 \u2013 110,000 / Year",
+          "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
+          "img": uniImg3
+        },
+        {
+          "name": "Aalborg University (AAU)",
+          "location": "Aalborg, Denmark",
+          "fee": "DKK 58,000 \u2013 105,000 / Year",
+          "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
+          "img": uniImg1
+        },
+        {
+          "name": "University of Southern Denmark (SDU)",
+          "location": "Odense, Denmark",
+          "fee": "DKK 62,000 \u2013 115,000 / Year",
+          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+          "img": uniImg2
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
+        "Tuition fees are indicative and subject to annual review by Danish higher education institutions.",
+        "EU/EEA students may study tuition-free; international fees apply to non-EU/EEA citizens."
       ]
     },
     {
       "slot": "eligibility",
       "eyebrow": "Eligibility Criteria",
       "title": "Eligible to Study language courses in Denmark",
+      "lead": "Essential details regarding language courses in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**4\\. Eligible to Study language courses in Denmark**",
             "Eligibility depends on the language school, program type and course level. Students planning to join **Language Courses in Denmark** should review the admission conditions before registering. In general students should fulfilll the following conditions:"
           ]
         },
@@ -193,11 +236,11 @@ const page = {
       "slot": "requirements",
       "eyebrow": "Admission Requirements",
       "title": "Entry Requirements for Language Courses Denmark",
+      "lead": "Essential details regarding language courses in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**5\\. Entry Requirements for Language Courses Denmark**",
             "Entry to language programs at the beginner level is generally fairly easy. Applicants may be required to:"
           ]
         },
@@ -225,11 +268,11 @@ const page = {
       "slot": "fees",
       "eyebrow": "Tuition & Living Costs",
       "title": "Prices of Language Courses in Denmark",
+      "lead": "Essential details regarding language courses in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**6\\. Prices of Language Courses in Denmark**",
             "The price of **Language Courses in Denmark** differs depending on the institution, the duration, the form of teaching, and the chosen language. Students should compare the fees of different providers before selecting a suitable course."
           ]
         },
@@ -276,11 +319,11 @@ const page = {
       "slot": "timeline",
       "eyebrow": "Admission Procedure",
       "title": "Admission Procedure for Language Courses in Denmark",
+      "lead": "Essential details regarding language courses in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**7\\. Admission Procedure for Language Courses in Denmark**",
             "The admission process for **Language Courses in Denmark** generally involves selecting a language, researching institutions and completing the registration process.",
             "Select your language: Select whether you want to learn Danish, English or another language.",
             "Research Institutions: Check courses, fees, duration, learning format and eligibility.",
@@ -299,11 +342,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Further Studies & Scope",
       "title": "Danish Language Skills Proof in Denmark",
+      "lead": "Essential details regarding language courses in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**8\\. Danish Language Skills Proof in Denmark**",
             "Students can use language proficiency certification to show their communication skills for education, work and everyday life.",
             "**Danish language examinations:** Official Danish courses may offer examinations such as Pr\u00f8ve i Dansk 1 (PD1), Pr\u00f8ve i Dansk 2 (PD2) and Pr\u00f8ve i Dansk 3 (PD3).",
             "**Studiepr\u00f8ven:** A higher level Danish test which may fulfill the language requirement for some study programs taught in Danish.",
@@ -318,11 +361,11 @@ const page = {
       "slot": "careers",
       "eyebrow": "Career Opportunities",
       "title": "Salary and Job Prospects After Language Courses in Denmark",
+      "lead": "Essential details regarding language courses in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**9\\. Salary and Job Prospects After Language Courses in Denmark**",
             "Learning Danish or another foreign language can enhance communication skills and assist in career advancement. But a language course alone does not guaranty a job or a certain salary.",
             "Possible opportunities include:"
           ]
@@ -350,11 +393,11 @@ const page = {
       "slot": "documents",
       "eyebrow": "Required Documentation",
       "title": "Documents Needed to Study Language Courses in Denmark",
+      "lead": "Essential details regarding language courses in Denmark, covering key requirements, procedures, and guidance for international applicants.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**10\\. Documents Needed to Study Language Courses in Denmark**",
             "The exact documents vary depending on the language school and the course. Applicants may be required to submit:"
           ]
         },
@@ -379,29 +422,6 @@ const page = {
           ]
         }
       ]
-    },
-    {
-      "slot": "faq",
-      "eyebrow": "Frequently Asked Questions",
-      "title": "Common Questions About Language Courses in Denmark",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "**11\\. Common Questions About Language Courses in Denmark**",
-            "**Q1. Are foreigners able to learn Danish in Denmark?**",
-            "Yes. International students may be able to study Danish language at universities and language centers. Eligibility and fees vary according to program and residence status.",
-            "**Q2. Are language courses free of cost in Denmark?**",
-            "Some Danish language courses are offered officially and are free for eligible residents or international students, but you may have to pay a refundable deposit. Private courses are usually self-supporting and have their own fee structure.",
-            "**Q3. Do I need IELTS to pursue a language course in Denmark?**",
-            "Generally, there is no need for an IELTS for language classes at the beginner level. However, there may be separate entry requirements for individual academic or English language programs.",
-            "**Q4. Is it possible to obtain a Danish student visa for a language course?**",
-            "Not all language courses allow you to get a student residence permit. Applicants are advised to check with the relevant Danish immigration authorities prior to application whether their particular course is eligible.",
-            "**Q5. Will learning Danish help me find a job in Denmark?**",
-            "Yes, speaking Danish will increase your ability to communicate and open up opportunities in some fields. Employment, however, is subject to your qualifications, experience, language level and legal right to work."
-          ]
-        }
-      ]
     }
   ],
   "universities": [
@@ -410,53 +430,57 @@ const page = {
       "location": "Copenhagen, Denmark",
       "fee": "DKK 65,000 \u2013 120,000 / Year",
       "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
       "name": "Technical University of Denmark (DTU)",
       "location": "Kongens Lyngby, Denmark",
       "fee": "DKK 75,000 \u2013 115,000 / Year",
       "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-      "img_var": "null"
+      "img": uniImg2
     },
     {
       "name": "Aarhus University (AU)",
       "location": "Aarhus, Denmark",
       "fee": "DKK 60,000 \u2013 110,000 / Year",
       "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-      "img_var": "null"
+      "img": uniImg3
     },
     {
       "name": "Aalborg University (AAU)",
       "location": "Aalborg, Denmark",
       "fee": "DKK 58,000 \u2013 105,000 / Year",
       "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-      "img_var": "null"
+      "img": uniImg1
     },
     {
-      "name": "Copenhagen Business School (CBS)",
-      "location": "Frederiksberg, Denmark",
-      "fee": "DKK 70,000 \u2013 130,000 / Year",
-      "desc": "Triple-crown accredited business institution recognized across Europe for excellence in management, economics, and finance.",
-      "img_var": "null"
+      "name": "University of Southern Denmark (SDU)",
+      "location": "Odense, Denmark",
+      "fee": "DKK 62,000 \u2013 115,000 / Year",
+      "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+      "img": uniImg2
     }
   ],
   "faqs": [
     {
-      "q": "Can Indian students apply for Language Courses in Denmark?",
-      "a": "Yes, Indian students with qualifying credentials meeting English language proficiency (IELTS/TOEFL) and academic prerequisites can apply to recognized universities in Denmark."
+      "q": "Q1. Are foreigners able to learn Danish in Denmark?",
+      "a": "Yes. International students may be able to study Danish language at universities and language centers. Eligibility and fees vary according to program and residence status."
     },
     {
-      "q": "What is the medium of instruction for Language Courses in Denmark?",
-      "a": "Most master's and international bachelor's degree programmes are taught entirely in English for international students across Danish universities."
+      "q": "Q2. Are language courses free of cost in Denmark?",
+      "a": "Some Danish language courses are offered officially and are free for eligible residents or international students, but you may have to pay a refundable deposit. Private courses are usually self-supporting and have their own fee structure."
     },
     {
-      "q": "What are the typical tuition fees for Language Courses in Denmark?",
-      "a": "Tuition fees for international students generally range between DKK 60,000 and DKK 120,000 per year, depending on the institution and level of study."
+      "q": "Q3. Do I need IELTS to pursue a language course in Denmark?",
+      "a": "Generally, there is no need for an IELTS for language classes at the beginner level. However, there may be separate entry requirements for individual academic or English language programs."
     },
     {
-      "q": "Can international students work while studying in Denmark?",
-      "a": "Yes, non-EU international students with a valid Danish residence permit are legally permitted to work part-time (up to 20 hours per week) during semester periods and full-time during June, July, and August."
+      "q": "Q4. Is it possible to obtain a Danish student visa for a language course?",
+      "a": "Not all language courses allow you to get a student residence permit. Applicants are advised to check with the relevant Danish immigration authorities prior to application whether their particular course is eligible."
+    },
+    {
+      "q": "Q5. Will learning Danish help me find a job in Denmark?",
+      "a": "Yes, speaking Danish will increase your ability to communicate and open up opportunities in some fields. Employment, however, is subject to your qualifications, experience, language level and legal right to work."
     }
   ],
   "faqTitle": "Frequently Asked Questions"
