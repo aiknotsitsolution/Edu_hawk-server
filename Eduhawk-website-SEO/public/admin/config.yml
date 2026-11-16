@@ -27517,3 +27517,2181 @@ collections:
             fields:
               - {"label": "Question", "name": "question", "widget": "string"}
               - {"label": "Answer", "name": "answer", "widget": "text"}
+
+  - name: "study_abroad_denmark"
+    label: "Study Abroad - Denmark"
+    delete: false
+    files:
+      - label: "Dentistry (MBBS Abroad)"
+        name: "denmark_dentistry"
+        file: "src/data/study_abroad/denmark/dentistry.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Biotechnology (MBBS Abroad)"
+        name: "denmark_biotechnology"
+        file: "src/data/study_abroad/denmark/biotechnology.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Nursing (MBBS Abroad)"
+        name: "denmark_nursing"
+        file: "src/data/study_abroad/denmark/nursing.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Pharmacy (MBBS Abroad)"
+        name: "denmark_pharmacy"
+        file: "src/data/study_abroad/denmark/pharmacy.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Physiotherapy (MBBS Abroad)"
+        name: "denmark_physiotherapy"
+        file: "src/data/study_abroad/denmark/physiotherapy.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Public Health (MBBS Abroad)"
+        name: "denmark_public_health"
+        file: "src/data/study_abroad/denmark/public-health.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "UG Engineering Hub"
+        name: "denmark_ug_engineering_hub"
+        file: "src/data/study_abroad/denmark/ug_engineering.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Aerospace Engineering (UG)"
+        name: "denmark_aero_engg_ug"
+        file: "src/data/study_abroad/denmark/ug_aerospace-engineering.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Automobile Engineering (UG)"
+        name: "denmark_auto_engg_ug"
+        file: "src/data/study_abroad/denmark/ug_automobile-engineering.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Biomedical Engineering (UG)"
+        name: "denmark_biomed_engg_ug"
+        file: "src/data/study_abroad/denmark/ug_biomedical-engineering.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Chemical Engineering (UG)"
+        name: "denmark_chem_engg_ug"
+        file: "src/data/study_abroad/denmark/ug_chemical-engineering.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Civil Engineering (UG)"
+        name: "denmark_civil_engg_ug"
+        file: "src/data/study_abroad/denmark/ug_civil-engineering.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Computer Engineering (UG)"
+        name: "denmark_comp_engg_ug"
+        file: "src/data/study_abroad/denmark/ug_computer-engineering.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Electrical Engineering (UG)"
+        name: "denmark_elec_engg_ug"
+        file: "src/data/study_abroad/denmark/ug_electrical-engineering.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Electronics & Communication (UG)"
+        name: "denmark_ece_engg_ug"
+        file: "src/data/study_abroad/denmark/ug_electronics-communication.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Mechanical Engineering (UG)"
+        name: "denmark_mech_engg_ug"
+        file: "src/data/study_abroad/denmark/ug_mechanical-engineering.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "PG Engineering Hub"
+        name: "denmark_pg_engineering_hub"
+        file: "src/data/study_abroad/denmark/pg_engineering.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Aerospace Engineering (PG)"
+        name: "denmark_aero_engg_pg"
+        file: "src/data/study_abroad/denmark/pg_aerospace-engineering.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Automobile Engineering (PG)"
+        name: "denmark_auto_engg_pg"
+        file: "src/data/study_abroad/denmark/pg_automobile-engineering.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Biomedical Engineering (PG)"
+        name: "denmark_biomed_engg_pg"
+        file: "src/data/study_abroad/denmark/pg_biomedical-engineering.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Chemical Engineering (PG)"
+        name: "denmark_chem_engg_pg"
+        file: "src/data/study_abroad/denmark/pg_chemical-engineering.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Civil Engineering (PG)"
+        name: "denmark_civil_engg_pg"
+        file: "src/data/study_abroad/denmark/pg_civil-engineering.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Computer Engineering (PG)"
+        name: "denmark_comp_engg_pg"
+        file: "src/data/study_abroad/denmark/pg_computer-engineering.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Electrical Engineering (PG)"
+        name: "denmark_elec_engg_pg"
+        file: "src/data/study_abroad/denmark/pg_electrical-engineering.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Electronics & Communication (PG)"
+        name: "denmark_ece_engg_pg"
+        file: "src/data/study_abroad/denmark/pg_electronics-communication.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Mechanical Engineering (PG)"
+        name: "denmark_mech_engg_pg"
+        file: "src/data/study_abroad/denmark/pg_mechanical-engineering.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Computer Science"
+        name: "denmark_computer_science"
+        file: "src/data/study_abroad/denmark/computer-science.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Information Technology"
+        name: "denmark_information_technology"
+        file: "src/data/study_abroad/denmark/information-technology.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Business Management"
+        name: "denmark_business_management"
+        file: "src/data/study_abroad/denmark/business-management.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "BBA"
+        name: "denmark_bba"
+        file: "src/data/study_abroad/denmark/bba.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "BBS"
+        name: "denmark_bbs"
+        file: "src/data/study_abroad/denmark/bbs.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "MBA"
+        name: "denmark_mba"
+        file: "src/data/study_abroad/denmark/mba.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "MBS"
+        name: "denmark_mbs"
+        file: "src/data/study_abroad/denmark/mbs.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Executive MBA"
+        name: "denmark_executive_mba"
+        file: "src/data/study_abroad/denmark/executive-mba.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "International Business"
+        name: "denmark_international_business"
+        file: "src/data/study_abroad/denmark/international-business.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Hospitality Management"
+        name: "denmark_hospitality_management"
+        file: "src/data/study_abroad/denmark/hospitality-management.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Architecture"
+        name: "denmark_architecture"
+        file: "src/data/study_abroad/denmark/architecture.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Law"
+        name: "denmark_law"
+        file: "src/data/study_abroad/denmark/law.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Language Courses"
+        name: "denmark_language_courses"
+        file: "src/data/study_abroad/denmark/language-courses.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Summer Courses"
+        name: "denmark_summer_courses"
+        file: "src/data/study_abroad/denmark/summer-courses.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Winter Courses"
+        name: "denmark_winter_courses"
+        file: "src/data/study_abroad/denmark/winter-courses.json"
+        media_folder: "public/uploads/study_abroad/denmark"
+        public_folder: "/uploads/study_abroad/denmark"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Danish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}

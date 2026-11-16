@@ -557,6 +557,49 @@ import LawMauritius from "./pages/Study Abroad/Mauritius/Law/Law.jsx";
 import LanguageCoursesMauritius from "./pages/Study Abroad/Mauritius/LanguageCourses/LanguageCourses.jsx";
 import SummerCoursesMauritius from "./pages/Study Abroad/Mauritius/SummerCourses/SummerCourses.jsx";
 import WinterCoursesMauritius from "./pages/Study Abroad/Mauritius/WinterCourses/WinterCourses.jsx";
+
+// Study Abroad - Denmark
+import DentistryDenmark from "./pages/Study Abroad/Denmark/MBBS Abroad/DentistryAbroad.jsx";
+import BiotechnologyDenmark from "./pages/Study Abroad/Denmark/MBBS Abroad/Biotechnology.jsx";
+import NursingDenmark from "./pages/Study Abroad/Denmark/MBBS Abroad/NursingAbroad.jsx";
+import PharmacyDenmark from "./pages/Study Abroad/Denmark/MBBS Abroad/PharmacyAbroad.jsx";
+import PhysiotherapyDenmark from "./pages/Study Abroad/Denmark/MBBS Abroad/PhysiotherapyAbroad.jsx";
+import PublicHealthDenmark from "./pages/Study Abroad/Denmark/MBBS Abroad/PublicHealth.jsx";
+import UndergraduateEngineeringDenmark from "./pages/Study Abroad/Denmark/Engineering/ug/undergraduate.jsx";
+import AerospaceEngineeringUGDenmark from "./pages/Study Abroad/Denmark/Engineering/ug/pages/AerospaceEngineering.jsx";
+import AutomobileEngineeringUGDenmark from "./pages/Study Abroad/Denmark/Engineering/ug/pages/AutomobileEngineering.jsx";
+import BiomedicalEngineeringUGDenmark from "./pages/Study Abroad/Denmark/Engineering/ug/pages/BiomedicalEngineering.jsx";
+import ChemicalEngineeringUGDenmark from "./pages/Study Abroad/Denmark/Engineering/ug/pages/ChemicalEngineering.jsx";
+import CivilEngineeringUGDenmark from "./pages/Study Abroad/Denmark/Engineering/ug/pages/CivilEngineering.jsx";
+import ComputerEngineeringUGDenmark from "./pages/Study Abroad/Denmark/Engineering/ug/pages/ComputerEngineering.jsx";
+import ElectricalEngineeringUGDenmark from "./pages/Study Abroad/Denmark/Engineering/ug/pages/ElectricalEngineering.jsx";
+import ElectronicsCommunicationUGDenmark from "./pages/Study Abroad/Denmark/Engineering/ug/pages/ElectronicsCommunication.jsx";
+import MechanicalEngineeringUGDenmark from "./pages/Study Abroad/Denmark/Engineering/ug/pages/MechanicalEngineering.jsx";
+import PostgraduateEngineeringDenmark from "./pages/Study Abroad/Denmark/Engineering/pg/postgraduate.jsx";
+import AerospaceEngineeringPGDenmark from "./pages/Study Abroad/Denmark/Engineering/pg/pages/AerospaceEngineering.jsx";
+import AutomobileEngineeringPGDenmark from "./pages/Study Abroad/Denmark/Engineering/pg/pages/AutomobileEngineering.jsx";
+import BiomedicalEngineeringPGDenmark from "./pages/Study Abroad/Denmark/Engineering/pg/pages/BiomedicalEngineering.jsx";
+import ChemicalEngineeringPGDenmark from "./pages/Study Abroad/Denmark/Engineering/pg/pages/ChemicalEngineering.jsx";
+import CivilEngineeringPGDenmark from "./pages/Study Abroad/Denmark/Engineering/pg/pages/CivilEngineering.jsx";
+import ComputerEngineeringPGDenmark from "./pages/Study Abroad/Denmark/Engineering/pg/pages/ComputerEngineering.jsx";
+import ElectricalEngineeringPGDenmark from "./pages/Study Abroad/Denmark/Engineering/pg/pages/ElectricalEngineering.jsx";
+import ElectronicsCommunicationPGDenmark from "./pages/Study Abroad/Denmark/Engineering/pg/pages/ElectronicsCommunication.jsx";
+import MechanicalEngineeringPGDenmark from "./pages/Study Abroad/Denmark/Engineering/pg/pages/MechanicalEngineering.jsx";
+import ComputerScienceDenmark from "./pages/Study Abroad/Denmark/ComputerScience/ComputerScience.jsx";
+import InformationTechnologyDenmark from "./pages/Study Abroad/Denmark/InformationTechnology/InformationTechnology.jsx";
+import BusinessManagementDenmark from "./pages/Study Abroad/Denmark/BusinessManagement/BusinessManagement.jsx";
+import BBADenmark from "./pages/Study Abroad/Denmark/BBA/BBA.jsx";
+import BBSDenmark from "./pages/Study Abroad/Denmark/BBS/BBS.jsx";
+import MBADenmark from "./pages/Study Abroad/Denmark/MBA/MBA.jsx";
+import MBSDenmark from "./pages/Study Abroad/Denmark/MBS/MBS.jsx";
+import ExecutiveMBADenmark from "./pages/Study Abroad/Denmark/ExecutiveMBA/ExecutiveMBA.jsx";
+import InternationalBusinessDenmark from "./pages/Study Abroad/Denmark/InternationalBusiness/InternationalBusiness.jsx";
+import HospitalityManagementDenmark from "./pages/Study Abroad/Denmark/HospitalityManagement/HospitalityManagement.jsx";
+import ArchitectureDenmark from "./pages/Study Abroad/Denmark/Architecture/Architecture.jsx";
+import LawDenmark from "./pages/Study Abroad/Denmark/Law/Law.jsx";
+import LanguageCoursesDenmark from "./pages/Study Abroad/Denmark/LanguageCourses/LanguageCourses.jsx";
+import SummerCoursesDenmark from "./pages/Study Abroad/Denmark/SummerCourses/SummerCourses.jsx";
+import WinterCoursesDenmark from "./pages/Study Abroad/Denmark/WinterCourses/WinterCourses.jsx";
 import TestDetailPage from "./pages/Tests/TestDetailPage.jsx";
 
 
@@ -1121,6 +1164,49 @@ export async function render(url) {
         <Route path="study-abroad/mauritius/language-courses" element={<LanguageCoursesMauritius />} />
         <Route path="study-abroad/mauritius/summer-courses" element={<SummerCoursesMauritius />} />
         <Route path="study-abroad/mauritius/winter-courses" element={<WinterCoursesMauritius />} />
+
+        {/* Study Abroad - Denmark */}
+        <Route path="study-abroad/denmark/dentistry" element={<DentistryDenmark />} />
+        <Route path="study-abroad/denmark/biotechnology" element={<BiotechnologyDenmark />} />
+        <Route path="study-abroad/denmark/nursing" element={<NursingDenmark />} />
+        <Route path="study-abroad/denmark/pharmacy" element={<PharmacyDenmark />} />
+        <Route path="study-abroad/denmark/physiotherapy" element={<PhysiotherapyDenmark />} />
+        <Route path="study-abroad/denmark/public-health" element={<PublicHealthDenmark />} />
+        <Route path="study-abroad/denmark/ug/engineering" element={<UndergraduateEngineeringDenmark />} />
+        <Route path="study-abroad/denmark/ug/aerospace-engineering" element={<AerospaceEngineeringUGDenmark />} />
+        <Route path="study-abroad/denmark/ug/automobile-engineering" element={<AutomobileEngineeringUGDenmark />} />
+        <Route path="study-abroad/denmark/ug/biomedical-engineering" element={<BiomedicalEngineeringUGDenmark />} />
+        <Route path="study-abroad/denmark/ug/chemical-engineering" element={<ChemicalEngineeringUGDenmark />} />
+        <Route path="study-abroad/denmark/ug/civil-engineering" element={<CivilEngineeringUGDenmark />} />
+        <Route path="study-abroad/denmark/ug/computer-engineering" element={<ComputerEngineeringUGDenmark />} />
+        <Route path="study-abroad/denmark/ug/electrical-engineering" element={<ElectricalEngineeringUGDenmark />} />
+        <Route path="study-abroad/denmark/ug/electronics-communication" element={<ElectronicsCommunicationUGDenmark />} />
+        <Route path="study-abroad/denmark/ug/mechanical-engineering" element={<MechanicalEngineeringUGDenmark />} />
+        <Route path="study-abroad/denmark/pg/engineering" element={<PostgraduateEngineeringDenmark />} />
+        <Route path="study-abroad/denmark/pg/aerospace-engineering" element={<AerospaceEngineeringPGDenmark />} />
+        <Route path="study-abroad/denmark/pg/automobile-engineering" element={<AutomobileEngineeringPGDenmark />} />
+        <Route path="study-abroad/denmark/pg/biomedical-engineering" element={<BiomedicalEngineeringPGDenmark />} />
+        <Route path="study-abroad/denmark/pg/chemical-engineering" element={<ChemicalEngineeringPGDenmark />} />
+        <Route path="study-abroad/denmark/pg/civil-engineering" element={<CivilEngineeringPGDenmark />} />
+        <Route path="study-abroad/denmark/pg/computer-engineering" element={<ComputerEngineeringPGDenmark />} />
+        <Route path="study-abroad/denmark/pg/electrical-engineering" element={<ElectricalEngineeringPGDenmark />} />
+        <Route path="study-abroad/denmark/pg/electronics-communication" element={<ElectronicsCommunicationPGDenmark />} />
+        <Route path="study-abroad/denmark/pg/mechanical-engineering" element={<MechanicalEngineeringPGDenmark />} />
+        <Route path="study-abroad/denmark/computer-science" element={<ComputerScienceDenmark />} />
+        <Route path="study-abroad/denmark/information-technology" element={<InformationTechnologyDenmark />} />
+        <Route path="study-abroad/denmark/business-management" element={<BusinessManagementDenmark />} />
+        <Route path="study-abroad/denmark/bba" element={<BBADenmark />} />
+        <Route path="study-abroad/denmark/bbs" element={<BBSDenmark />} />
+        <Route path="study-abroad/denmark/mba" element={<MBADenmark />} />
+        <Route path="study-abroad/denmark/mbs" element={<MBSDenmark />} />
+        <Route path="study-abroad/denmark/executive-mba" element={<ExecutiveMBADenmark />} />
+        <Route path="study-abroad/denmark/international-business" element={<InternationalBusinessDenmark />} />
+        <Route path="study-abroad/denmark/hospitality-management" element={<HospitalityManagementDenmark />} />
+        <Route path="study-abroad/denmark/architecture" element={<ArchitectureDenmark />} />
+        <Route path="study-abroad/denmark/law" element={<LawDenmark />} />
+        <Route path="study-abroad/denmark/language-courses" element={<LanguageCoursesDenmark />} />
+        <Route path="study-abroad/denmark/summer-courses" element={<SummerCoursesDenmark />} />
+        <Route path="study-abroad/denmark/winter-courses" element={<WinterCoursesDenmark />} />
 
         
         {/* USA Routes */}

@@ -1,0 +1,100 @@
+{
+  "seo": {
+    "title": "Public Health in Denmark for Indian Students | Edu-Hawk Worldwide",
+    "description": "Study Public Health in Denmark: Top universities, course duration, tuition fees in DKK & INR, eligibility criteria, admission process & visa requirements for Indian students."
+  },
+  "hero": {
+    "badge": "Study Abroad - Denmark",
+    "title": "Public Health in Denmark for Indian Students",
+    "paras": [
+      "Comprehensive guide to studying Public Health in Denmark for Indian students."
+    ]
+  },
+  "stats": [
+    {
+      "val": "DKK 60K-120K",
+      "label": "Tuition / Year"
+    },
+    {
+      "val": "20 Hrs/Wk",
+      "label": "Part-Time Work"
+    },
+    {
+      "val": "3-4 Years",
+      "label": "Course Duration"
+    },
+    {
+      "val": "English",
+      "label": "Medium of Study"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "World-Class Nordic Education",
+      "desc": "Study in Denmark's globally ranked universities featuring innovative Problem-Based Learning (PBL) and state-of-the-art research."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "English-Taught Degrees",
+      "desc": "Wide range of bachelor's and master's degrees delivered entirely in English with international accreditation."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Generous Post-Study Work",
+      "desc": "Denmark offers post-study work permits for international graduates to start European careers in high-demand industries."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "High Quality of Life",
+      "desc": "Consistently ranked among the world's happiest, safest, and most sustainable countries with vibrant student communities."
+    }
+  ],
+  "overview": [
+    "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Denmark for Public Health in Denmark."
+  ],
+  "universities": [
+    {
+      "name": "University of Copenhagen",
+      "location": "Denmark",
+      "fee": "DKK 65,000 – 120,000 / Year",
+      "desc": "The Department of Public Health at the University of Copenhagen is involved in education and research in the area of public health. Areas of study include epidemiology, health services research, health promotion and population health. Students may explore its public health programmes and research opportunities. Language of instruction and eligibility requirements vary by degree. Official website: [https\\://www\\.ku.dk/](https://www.ku.dk/)",
+      "img_var": "null"
+    },
+    {
+      "name": "University of Aarhus",
+      "location": "Denmark",
+      "fee": "DKK 65,000 – 120,000 / Year",
+      "desc": "Aarhus University undertakes research and education in health sciences, epidemiology and related fields. Students who are interested in population health, research and scientific disciplines related to health should refer to the current programme catalogue.",
+      "img_var": "null"
+    },
+    {
+      "name": "University of Southern Denmark (SDU)",
+      "location": "Denmark",
+      "fee": "DKK 65,000 – 120,000 / Year",
+      "desc": "The University of Southern Denmark teaches and conducts research in the area of health sciences, including population health, epidemiology and healthcare. Applicants need to check individual programmes to see if they are suitable for their academic background and career objectives. Homepage: [https\\://www\\.sdu.dk/da](https://www.sdu.dk/da) Before applying, students should confirm the availability of their preferred programme, its teaching language and the admission criteria for international applicants. Edu-Hawk Worldwide can guide students in understanding programme options and preparing their study abroad applications.",
+      "img_var": "null"
+    }
+  ],
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "Can Indian students apply for Public Health in Denmark?",
+        "a": "Yes, Indian students with qualifying credentials meeting English language proficiency (IELTS/TOEFL) and academic prerequisites can apply to recognized universities in Denmark."
+      },
+      {
+        "q": "What is the medium of instruction for Public Health in Denmark?",
+        "a": "Most master's and international bachelor's degree programmes are taught entirely in English for international students across Danish universities."
+      },
+      {
+        "q": "What are the typical tuition fees for Public Health in Denmark?",
+        "a": "Tuition fees for international students generally range between DKK 60,000 and DKK 120,000 per year, depending on the institution and level of study."
+      },
+      {
+        "q": "Can international students work while studying in Denmark?",
+        "a": "Yes, non-EU international students with a valid Danish residence permit are legally permitted to work part-time (up to 20 hours per week) during semester periods and full-time during June, July, and August."
+      }
+    ]
+  }
+}

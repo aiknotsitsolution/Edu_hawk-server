@@ -1,0 +1,100 @@
+{
+  "seo": {
+    "title": "Winter Courses in Denmark for Indian Students | Edu-Hawk Worldwide",
+    "description": "Study Winter Courses in Denmark: Top universities, course duration, tuition fees in DKK & INR, eligibility criteria, admission process & visa requirements for Indian students."
+  },
+  "hero": {
+    "badge": "Study Abroad - Denmark",
+    "title": "Winter Courses in Denmark for Indian Students",
+    "paras": [
+      "Comprehensive guide to studying Winter Courses in Denmark for Indian students."
+    ]
+  },
+  "stats": [
+    {
+      "val": "DKK 60K-120K",
+      "label": "Tuition / Year"
+    },
+    {
+      "val": "20 Hrs/Wk",
+      "label": "Part-Time Work"
+    },
+    {
+      "val": "3-4 Years",
+      "label": "Course Duration"
+    },
+    {
+      "val": "English",
+      "label": "Medium of Study"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "World-Class Nordic Education",
+      "desc": "Study in Denmark's globally ranked universities featuring innovative Problem-Based Learning (PBL) and state-of-the-art research."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "English-Taught Degrees",
+      "desc": "Wide range of bachelor's and master's degrees delivered entirely in English with international accreditation."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Generous Post-Study Work",
+      "desc": "Denmark offers post-study work permits for international graduates to start European careers in high-demand industries."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "High Quality of Life",
+      "desc": "Consistently ranked among the world's happiest, safest, and most sustainable countries with vibrant student communities."
+    }
+  ],
+  "overview": [
+    "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Denmark for Winter Courses in Denmark."
+  ],
+  "universities": [
+    {
+      "name": "Technical University of Denmark (DTU)",
+      "location": "Denmark",
+      "fee": "DKK 65,000 – 120,000 / Year",
+      "desc": "DTU is offering three-week courses in January on a wide range of subjects within engineering, science and technology. Teaching in January 2027 will take place from 4 to 22 January. International guest-student eligibility and course prerequisites are to be checked on a case-by-case basis.",
+      "img_var": "null"
+    },
+    {
+      "name": "Copenhagen University",
+      "location": "Denmark",
+      "fee": "DKK 65,000 – 120,000 / Year",
+      "desc": "Provides a variety of winter schools, research courses and pre-semester learning experiences. In January 2027, it offers winter schools in humanities and philosophy, some specifically geared toward PhD students and early-career researchers.",
+      "img_var": "null"
+    },
+    {
+      "name": "Copenhagen Business School",
+      "location": "Denmark",
+      "fee": "DKK 65,000 – 120,000 / Year",
+      "desc": "Academic subjects are offered for students interested in computing and technology. The university lists single subject courses but applicants should check if a suitable course is available in the winter period and if external international applicants are eligible.",
+      "img_var": "null"
+    }
+  ],
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "Can Indian students apply for Winter Courses in Denmark?",
+        "a": "Yes, Indian students with qualifying credentials meeting English language proficiency (IELTS/TOEFL) and academic prerequisites can apply to recognized universities in Denmark."
+      },
+      {
+        "q": "What is the medium of instruction for Winter Courses in Denmark?",
+        "a": "Most master's and international bachelor's degree programmes are taught entirely in English for international students across Danish universities."
+      },
+      {
+        "q": "What are the typical tuition fees for Winter Courses in Denmark?",
+        "a": "Tuition fees for international students generally range between DKK 60,000 and DKK 120,000 per year, depending on the institution and level of study."
+      },
+      {
+        "q": "Can international students work while studying in Denmark?",
+        "a": "Yes, non-EU international students with a valid Danish residence permit are legally permitted to work part-time (up to 20 hours per week) during semester periods and full-time during June, July, and August."
+      }
+    ]
+  }
+}

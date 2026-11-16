@@ -581,6 +581,49 @@ const LawMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/Law/Law.
 const LanguageCoursesMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/LanguageCourses/LanguageCourses.jsx"));
 const SummerCoursesMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/SummerCourses/SummerCourses.jsx"));
 const WinterCoursesMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/WinterCourses/WinterCourses.jsx"));
+
+// Study Abroad - Denmark
+const DentistryDenmark = lazy(() => import("../pages/Study Abroad/Denmark/MBBS Abroad/DentistryAbroad.jsx"));
+const BiotechnologyDenmark = lazy(() => import("../pages/Study Abroad/Denmark/MBBS Abroad/Biotechnology.jsx"));
+const NursingDenmark = lazy(() => import("../pages/Study Abroad/Denmark/MBBS Abroad/NursingAbroad.jsx"));
+const PharmacyDenmark = lazy(() => import("../pages/Study Abroad/Denmark/MBBS Abroad/PharmacyAbroad.jsx"));
+const PhysiotherapyDenmark = lazy(() => import("../pages/Study Abroad/Denmark/MBBS Abroad/PhysiotherapyAbroad.jsx"));
+const PublicHealthDenmark = lazy(() => import("../pages/Study Abroad/Denmark/MBBS Abroad/PublicHealth.jsx"));
+const UndergraduateEngineeringDenmark = lazy(() => import("../pages/Study Abroad/Denmark/Engineering/ug/undergraduate.jsx"));
+const AerospaceEngineeringUGDenmark = lazy(() => import("../pages/Study Abroad/Denmark/Engineering/ug/pages/AerospaceEngineering.jsx"));
+const AutomobileEngineeringUGDenmark = lazy(() => import("../pages/Study Abroad/Denmark/Engineering/ug/pages/AutomobileEngineering.jsx"));
+const BiomedicalEngineeringUGDenmark = lazy(() => import("../pages/Study Abroad/Denmark/Engineering/ug/pages/BiomedicalEngineering.jsx"));
+const ChemicalEngineeringUGDenmark = lazy(() => import("../pages/Study Abroad/Denmark/Engineering/ug/pages/ChemicalEngineering.jsx"));
+const CivilEngineeringUGDenmark = lazy(() => import("../pages/Study Abroad/Denmark/Engineering/ug/pages/CivilEngineering.jsx"));
+const ComputerEngineeringUGDenmark = lazy(() => import("../pages/Study Abroad/Denmark/Engineering/ug/pages/ComputerEngineering.jsx"));
+const ElectricalEngineeringUGDenmark = lazy(() => import("../pages/Study Abroad/Denmark/Engineering/ug/pages/ElectricalEngineering.jsx"));
+const ElectronicsCommunicationUGDenmark = lazy(() => import("../pages/Study Abroad/Denmark/Engineering/ug/pages/ElectronicsCommunication.jsx"));
+const MechanicalEngineeringUGDenmark = lazy(() => import("../pages/Study Abroad/Denmark/Engineering/ug/pages/MechanicalEngineering.jsx"));
+const PostgraduateEngineeringDenmark = lazy(() => import("../pages/Study Abroad/Denmark/Engineering/pg/postgraduate.jsx"));
+const AerospaceEngineeringPGDenmark = lazy(() => import("../pages/Study Abroad/Denmark/Engineering/pg/pages/AerospaceEngineering.jsx"));
+const AutomobileEngineeringPGDenmark = lazy(() => import("../pages/Study Abroad/Denmark/Engineering/pg/pages/AutomobileEngineering.jsx"));
+const BiomedicalEngineeringPGDenmark = lazy(() => import("../pages/Study Abroad/Denmark/Engineering/pg/pages/BiomedicalEngineering.jsx"));
+const ChemicalEngineeringPGDenmark = lazy(() => import("../pages/Study Abroad/Denmark/Engineering/pg/pages/ChemicalEngineering.jsx"));
+const CivilEngineeringPGDenmark = lazy(() => import("../pages/Study Abroad/Denmark/Engineering/pg/pages/CivilEngineering.jsx"));
+const ComputerEngineeringPGDenmark = lazy(() => import("../pages/Study Abroad/Denmark/Engineering/pg/pages/ComputerEngineering.jsx"));
+const ElectricalEngineeringPGDenmark = lazy(() => import("../pages/Study Abroad/Denmark/Engineering/pg/pages/ElectricalEngineering.jsx"));
+const ElectronicsCommunicationPGDenmark = lazy(() => import("../pages/Study Abroad/Denmark/Engineering/pg/pages/ElectronicsCommunication.jsx"));
+const MechanicalEngineeringPGDenmark = lazy(() => import("../pages/Study Abroad/Denmark/Engineering/pg/pages/MechanicalEngineering.jsx"));
+const ComputerScienceDenmark = lazy(() => import("../pages/Study Abroad/Denmark/ComputerScience/ComputerScience.jsx"));
+const InformationTechnologyDenmark = lazy(() => import("../pages/Study Abroad/Denmark/InformationTechnology/InformationTechnology.jsx"));
+const BusinessManagementDenmark = lazy(() => import("../pages/Study Abroad/Denmark/BusinessManagement/BusinessManagement.jsx"));
+const BBADenmark = lazy(() => import("../pages/Study Abroad/Denmark/BBA/BBA.jsx"));
+const BBSDenmark = lazy(() => import("../pages/Study Abroad/Denmark/BBS/BBS.jsx"));
+const MBADenmark = lazy(() => import("../pages/Study Abroad/Denmark/MBA/MBA.jsx"));
+const MBSDenmark = lazy(() => import("../pages/Study Abroad/Denmark/MBS/MBS.jsx"));
+const ExecutiveMBADenmark = lazy(() => import("../pages/Study Abroad/Denmark/ExecutiveMBA/ExecutiveMBA.jsx"));
+const InternationalBusinessDenmark = lazy(() => import("../pages/Study Abroad/Denmark/InternationalBusiness/InternationalBusiness.jsx"));
+const HospitalityManagementDenmark = lazy(() => import("../pages/Study Abroad/Denmark/HospitalityManagement/HospitalityManagement.jsx"));
+const ArchitectureDenmark = lazy(() => import("../pages/Study Abroad/Denmark/Architecture/Architecture.jsx"));
+const LawDenmark = lazy(() => import("../pages/Study Abroad/Denmark/Law/Law.jsx"));
+const LanguageCoursesDenmark = lazy(() => import("../pages/Study Abroad/Denmark/LanguageCourses/LanguageCourses.jsx"));
+const SummerCoursesDenmark = lazy(() => import("../pages/Study Abroad/Denmark/SummerCourses/SummerCourses.jsx"));
+const WinterCoursesDenmark = lazy(() => import("../pages/Study Abroad/Denmark/WinterCourses/WinterCourses.jsx"));
 const TestDetailPage = safeLazy(() => import("../pages/Tests/TestDetailPage.jsx"));
 
 
@@ -2993,6 +3036,172 @@ export const router = createBrowserRouter([
       {
         path: "study-abroad/mauritius/winter-courses",
         element: <WinterCoursesMauritius />,
+      },
+
+      // Study Abroad - Denmark
+      {
+        path: "study-abroad/denmark/dentistry",
+        element: <DentistryDenmark />,
+      },
+      {
+        path: "study-abroad/denmark/biotechnology",
+        element: <BiotechnologyDenmark />,
+      },
+      {
+        path: "study-abroad/denmark/nursing",
+        element: <NursingDenmark />,
+      },
+      {
+        path: "study-abroad/denmark/pharmacy",
+        element: <PharmacyDenmark />,
+      },
+      {
+        path: "study-abroad/denmark/physiotherapy",
+        element: <PhysiotherapyDenmark />,
+      },
+      {
+        path: "study-abroad/denmark/public-health",
+        element: <PublicHealthDenmark />,
+      },
+      {
+        path: "study-abroad/denmark/ug/engineering",
+        element: <UndergraduateEngineeringDenmark />,
+      },
+      {
+        path: "study-abroad/denmark/ug/aerospace-engineering",
+        element: <AerospaceEngineeringUGDenmark />,
+      },
+      {
+        path: "study-abroad/denmark/ug/automobile-engineering",
+        element: <AutomobileEngineeringUGDenmark />,
+      },
+      {
+        path: "study-abroad/denmark/ug/biomedical-engineering",
+        element: <BiomedicalEngineeringUGDenmark />,
+      },
+      {
+        path: "study-abroad/denmark/ug/chemical-engineering",
+        element: <ChemicalEngineeringUGDenmark />,
+      },
+      {
+        path: "study-abroad/denmark/ug/civil-engineering",
+        element: <CivilEngineeringUGDenmark />,
+      },
+      {
+        path: "study-abroad/denmark/ug/computer-engineering",
+        element: <ComputerEngineeringUGDenmark />,
+      },
+      {
+        path: "study-abroad/denmark/ug/electrical-engineering",
+        element: <ElectricalEngineeringUGDenmark />,
+      },
+      {
+        path: "study-abroad/denmark/ug/electronics-communication",
+        element: <ElectronicsCommunicationUGDenmark />,
+      },
+      {
+        path: "study-abroad/denmark/ug/mechanical-engineering",
+        element: <MechanicalEngineeringUGDenmark />,
+      },
+      {
+        path: "study-abroad/denmark/pg/engineering",
+        element: <PostgraduateEngineeringDenmark />,
+      },
+      {
+        path: "study-abroad/denmark/pg/aerospace-engineering",
+        element: <AerospaceEngineeringPGDenmark />,
+      },
+      {
+        path: "study-abroad/denmark/pg/automobile-engineering",
+        element: <AutomobileEngineeringPGDenmark />,
+      },
+      {
+        path: "study-abroad/denmark/pg/biomedical-engineering",
+        element: <BiomedicalEngineeringPGDenmark />,
+      },
+      {
+        path: "study-abroad/denmark/pg/chemical-engineering",
+        element: <ChemicalEngineeringPGDenmark />,
+      },
+      {
+        path: "study-abroad/denmark/pg/civil-engineering",
+        element: <CivilEngineeringPGDenmark />,
+      },
+      {
+        path: "study-abroad/denmark/pg/computer-engineering",
+        element: <ComputerEngineeringPGDenmark />,
+      },
+      {
+        path: "study-abroad/denmark/pg/electrical-engineering",
+        element: <ElectricalEngineeringPGDenmark />,
+      },
+      {
+        path: "study-abroad/denmark/pg/electronics-communication",
+        element: <ElectronicsCommunicationPGDenmark />,
+      },
+      {
+        path: "study-abroad/denmark/pg/mechanical-engineering",
+        element: <MechanicalEngineeringPGDenmark />,
+      },
+      {
+        path: "study-abroad/denmark/computer-science",
+        element: <ComputerScienceDenmark />,
+      },
+      {
+        path: "study-abroad/denmark/information-technology",
+        element: <InformationTechnologyDenmark />,
+      },
+      {
+        path: "study-abroad/denmark/business-management",
+        element: <BusinessManagementDenmark />,
+      },
+      {
+        path: "study-abroad/denmark/bba",
+        element: <BBADenmark />,
+      },
+      {
+        path: "study-abroad/denmark/bbs",
+        element: <BBSDenmark />,
+      },
+      {
+        path: "study-abroad/denmark/mba",
+        element: <MBADenmark />,
+      },
+      {
+        path: "study-abroad/denmark/mbs",
+        element: <MBSDenmark />,
+      },
+      {
+        path: "study-abroad/denmark/executive-mba",
+        element: <ExecutiveMBADenmark />,
+      },
+      {
+        path: "study-abroad/denmark/international-business",
+        element: <InternationalBusinessDenmark />,
+      },
+      {
+        path: "study-abroad/denmark/hospitality-management",
+        element: <HospitalityManagementDenmark />,
+      },
+      {
+        path: "study-abroad/denmark/architecture",
+        element: <ArchitectureDenmark />,
+      },
+      {
+        path: "study-abroad/denmark/law",
+        element: <LawDenmark />,
+      },
+      {
+        path: "study-abroad/denmark/language-courses",
+        element: <LanguageCoursesDenmark />,
+      },
+      {
+        path: "study-abroad/denmark/summer-courses",
+        element: <SummerCoursesDenmark />,
+      },
+      {
+        path: "study-abroad/denmark/winter-courses",
+        element: <WinterCoursesDenmark />,
       },
 
       // =====================================================================

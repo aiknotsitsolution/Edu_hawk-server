@@ -1,0 +1,118 @@
+{
+  "seo": {
+    "title": "Mechanical Engineering (UG) in Denmark for Indian Students | Edu-Hawk Worldwide",
+    "description": "Study Mechanical Engineering (UG) in Denmark: Top universities, course duration, tuition fees in DKK & INR, eligibility criteria, admission process & visa requirements for Indian students."
+  },
+  "hero": {
+    "badge": "Study Abroad - Denmark",
+    "title": "Mechanical Engineering (UG) in Denmark for Indian Students",
+    "paras": [
+      "Comprehensive guide to studying Mechanical Engineering (UG) in Denmark for Indian students."
+    ]
+  },
+  "stats": [
+    {
+      "val": "DKK 60K-120K",
+      "label": "Tuition / Year"
+    },
+    {
+      "val": "20 Hrs/Wk",
+      "label": "Part-Time Work"
+    },
+    {
+      "val": "3-4 Years",
+      "label": "Course Duration"
+    },
+    {
+      "val": "English",
+      "label": "Medium of Study"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "World-Class Nordic Education",
+      "desc": "Study in Denmark's globally ranked universities featuring innovative Problem-Based Learning (PBL) and state-of-the-art research."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "English-Taught Degrees",
+      "desc": "Wide range of bachelor's and master's degrees delivered entirely in English with international accreditation."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Generous Post-Study Work",
+      "desc": "Denmark offers post-study work permits for international graduates to start European careers in high-demand industries."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "High Quality of Life",
+      "desc": "Consistently ranked among the world's happiest, safest, and most sustainable countries with vibrant student communities."
+    }
+  ],
+  "overview": [
+    "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Denmark for Mechanical Engineering (UG) in Denmark."
+  ],
+  "universities": [
+    {
+      "name": "Technical University of Denmark (DTU)",
+      "location": "Denmark",
+      "fee": "DKK 65,000 – 120,000 / Year",
+      "desc": "The Technical University of Denmark is a leading university with a clear focus on engineering, technology, innovation and research. Students should consult the current list of bachelor's programs and language requirements.",
+      "img_var": "null"
+    },
+    {
+      "name": "Aarhus University",
+      "location": "Denmark",
+      "fee": "DKK 65,000 – 120,000 / Year",
+      "desc": "Aarhus University provides education in engineering, technology and related science and technology subjects. Students may pursue appropriate academic pathways according to their interests.",
+      "img_var": "null"
+    },
+    {
+      "name": "University of Southern Denmark (SDU)",
+      "location": "Denmark",
+      "fee": "DKK 65,000 – 120,000 / Year",
+      "desc": "The University of Southern Denmark offers engineering programs and technology-oriented disciplines. SDU offers a BEng in Mechanical Engineering in English in Sønderborg. The program is based on practical projects and an internship.",
+      "img_var": "null"
+    },
+    {
+      "name": "Aalborg University (AAU)",
+      "location": "Denmark",
+      "fee": "DKK 65,000 – 120,000 / Year",
+      "desc": "Aalborg University is well known for its problem-based learning approach and engineering education. Students who are interested in practical engineering and project-based learning can explore its relevant programs.",
+      "img_var": "null"
+    },
+    {
+      "name": "VIA University College",
+      "location": "Denmark",
+      "fee": "DKK 65,000 – 120,000 / Year",
+      "desc": "VIA University College offers education within applied engineering, including professional programs within engineering. It has a Mechanical Engineering bachelor's program in Horsens with a focus on product development and design. Students should check the language and current intake before applying. Important: These institutions are suggestions to consider, not a confirmation that each currently offers an English-taught bachelor's degree specifically called Mechanical Engineering. Always check the exact program and intake before applying. Edu-Hawk Worldwide can help students compare available study options and understand the application process.",
+      "img_var": "null"
+    }
+  ],
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "How Long Does It Take to Get a Bachelor's Degree in Mechanical Engineering in Denmark?",
+        "a": "A standard bachelor's degree is three years, but a professional Bachelor of Engineering degree is usually 3.5 years and may include an internship. How long it takes to complete depends on the university and program you choose."
+      },
+      {
+        "q": "Can Indian Students Study Mechanical Engineering in English in Denmark?",
+        "a": "Yes. For example, the University of Southern Denmark offers a BEng in Mechanical Engineering, taught in English, in Sønderborg. Students should check with the program to verify current availability and admission requirements prior to application."
+      },
+      {
+        "q": "What Will Be the Cost Per Year?",
+        "a": "The first-year budget is around ₹20 lakh–₹32 lakh, including tuition and living expenses. Check the actual university fees and calculate your own living expenses before applying."
+      },
+      {
+        "q": "Do You Need Mathematics to Get In?",
+        "a": "Mathematics is often one of the key admission subjects for mechanical engineering. Physics and sometimes Chemistry may also be required, depending on the program."
+      },
+      {
+        "q": "Is It Possible to Do a Master's After Completing My Bachelor's?",
+        "a": "Yes. Depending on your degree, academic performance and prerequisite subjects, you may be eligible to apply for a relevant master's program in mechanical engineering or a related field."
+      }
+    ]
+  }
+}
