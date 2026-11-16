@@ -20,8 +20,7 @@ const page = {
   "keywords": "Study MBS in Canada, MBS in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "MBS in Canada for Indian Students",
   "heroParas": [
-    "In educational systems that provide this degree title, a Master of Business Studies (MBS) is a postgraduate business qualification. It might concentrate on marketing, finance, organizational strategy, management, business administration, or other related business fields.",
-    "Crucial: Not all Canadian universities offer MBS degrees. Similar postgraduate programs may be offered by Canadian universities under titles like Master of Management in Canada, Master of Business Administration (MBA), Master of Science in Management, or other specialized master's degrees. Before applying, students must verify their precise qualifications."
+    "In educational systems that provide this degree title, a Master of Business Studies (MBS) is a postgraduate business qualification. It might concentrate on marketing, finance, organizational strategy, management, business administration, or other related business fields."
   ],
   "overview": [
     "In educational systems that provide this degree title, a Master of Business Studies (MBS) is a postgraduate business qualification. It might concentrate on marketing, finance, organizational strategy, management, business administration, or other related business fields.",
@@ -179,7 +178,7 @@ const page = {
             "A recognized bachelor's degree or its equivalent is typically required of applicants. Depending on the program, different academic backgrounds are needed.",
             "While some programs may require prior study in business, economics, mathematics, statistics, or a similar field, others may accept graduates from a broad range of fields.",
             "Academic Achievement",
-            "A minimum grade-point average or comparable academic standing may be set by the institution. Stronger academic achievement than the stated minimum may be required for competitive programs.## Proficiency in English",
+            "A minimum grade-point average or comparable academic standing may be set by the institution. Stronger academic achievement than the stated minimum may be required for competitive programs.",
             "The TOEFL, IELTS Academic, or another recognized English language exam may be required of foreign applicants. Institutions have different requirements and exclusions",
             "Experience at Work",
             "Certain management programs may need or favor work experience. Other master's degrees are intended for candidates who plan to pursue postgraduate work shortly after earning their bachelor's degree.",

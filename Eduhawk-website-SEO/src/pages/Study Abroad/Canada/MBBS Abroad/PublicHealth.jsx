@@ -20,8 +20,7 @@ const page = {
   "keywords": "Study Public Health in Canada, Public Health in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Indian Students Can Study Public Health in Canada",
   "heroParas": [
-    "Disease prevention, health promotion, epidemiology, healthcare systems, environmental health, and population well-being are among the many public health programs in Canada available in Canada. These courses equip students to comprehend public health issues and create evidence-based solutions.",
-    "The key advantages for studying public health in Canada are:"
+    "Disease prevention, health promotion, epidemiology, healthcare systems, environmental health, and population well-being are among the many public health programs in Canada available in Canada. These courses equip students to comprehend public health issues and create evidence-based solutions."
   ],
   "overview": [
     "Disease prevention, health promotion, epidemiology, healthcare systems, environmental health, and population well-being are among the many public health programs in Canada available in Canada. These courses equip students to comprehend public health issues and create evidence-based solutions.",

@@ -497,6 +497,91 @@ const LawGermany = lazy(() => import("../pages/Study Abroad/Germany/Law/Law.jsx"
 const LanguageCoursesGermany = lazy(() => import("../pages/Study Abroad/Germany/LanguageCourses/LanguageCourses.jsx"));
 const SummerCoursesGermany = lazy(() => import("../pages/Study Abroad/Germany/SummerCourses/SummerCourses.jsx"));
 const WinterCoursesGermany = lazy(() => import("../pages/Study Abroad/Germany/WinterCourses/WinterCourses.jsx"));
+// Study Abroad - Switzerland
+const DentistryAbroadSwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/MBBS Abroad/DentistryAbroad.jsx"));
+const BiotechnologySwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/MBBS Abroad/Biotechnology.jsx"));
+const NursingAbroadSwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/MBBS Abroad/NursingAbroad.jsx"));
+const PharmacyAbroadSwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/MBBS Abroad/PharmacyAbroad.jsx"));
+const PhysiotherapyAbroadSwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/MBBS Abroad/PhysiotherapyAbroad.jsx"));
+const PublicHealthSwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/MBBS Abroad/PublicHealth.jsx"));
+const UndergraduateEngineeringSwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/Engineering/ug/undergraduate.jsx"));
+const AerospaceEngineeringUGSwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/Engineering/ug/pages/AerospaceEngineering.jsx"));
+const AutomobileEngineeringUGSwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/Engineering/ug/pages/AutomobileEngineering.jsx"));
+const BiomedicalEngineeringUGSwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/Engineering/ug/pages/BiomedicalEngineering.jsx"));
+const ChemicalEngineeringUGSwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/Engineering/ug/pages/ChemicalEngineering.jsx"));
+const CivilEngineeringUGSwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/Engineering/ug/pages/CivilEngineering.jsx"));
+const ComputerEngineeringUGSwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/Engineering/ug/pages/ComputerEngineering.jsx"));
+const ElectricalEngineeringUGSwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/Engineering/ug/pages/ElectricalEngineering.jsx"));
+const ElectronicsCommunicationUGSwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/Engineering/ug/pages/ElectronicsCommunication.jsx"));
+const MechanicalEngineeringUGSwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/Engineering/ug/pages/MechanicalEngineering.jsx"));
+const PostgraduateEngineeringSwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/Engineering/pg/postgraduate.jsx"));
+const AerospaceEngineeringPGSwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/Engineering/pg/pages/AerospaceEngineering.jsx"));
+const AutomobileEngineeringPGSwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/Engineering/pg/pages/AutomobileEngineering.jsx"));
+const BiomedicalEngineeringPGSwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/Engineering/pg/pages/BiomedicalEngineering.jsx"));
+const ChemicalEngineeringPGSwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/Engineering/pg/pages/ChemicalEngineering.jsx"));
+const CivilEngineeringPGSwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/Engineering/pg/pages/CivilEngineering.jsx"));
+const ComputerEngineeringPGSwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/Engineering/pg/pages/ComputerEngineering.jsx"));
+const ElectricalEngineeringPGSwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/Engineering/pg/pages/ElectricalEngineering.jsx"));
+const ElectronicsCommunicationPGSwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/Engineering/pg/pages/ElectronicsCommunication.jsx"));
+const MechanicalEngineeringPGSwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/Engineering/pg/pages/MechanicalEngineering.jsx"));
+const ComputerScienceSwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/ComputerScience/ComputerScience.jsx"));
+const InformationTechnologySwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/InformationTechnology/InformationTechnology.jsx"));
+const BusinessManagementSwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/BusinessManagement/BusinessManagement.jsx"));
+const BBASwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/BBA/BBA.jsx"));
+const BBSSwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/BBS/BBS.jsx"));
+const MBASwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/MBA/MBA.jsx"));
+const MBSSwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/MBS/MBS.jsx"));
+const ExecutiveMBASwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/ExecutiveMBA/ExecutiveMBA.jsx"));
+const InternationalBusinessSwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/InternationalBusiness/InternationalBusiness.jsx"));
+const HospitalityManagementSwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/HospitalityManagement/HospitalityManagement.jsx"));
+const ArchitectureSwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/Architecture/Architecture.jsx"));
+const LawSwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/Law/Law.jsx"));
+const LanguageCoursesSwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/LanguageCourses/LanguageCourses.jsx"));
+const SummerCoursesSwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/SummerCourses/SummerCourses.jsx"));
+const WinterCoursesSwitzerland = lazy(() => import("../pages/Study Abroad/Switzerland/WinterCourses/WinterCourses.jsx"));
+// Study Abroad - Mauritius
+const DentistryAbroadMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/MBBS Abroad/DentistryAbroad.jsx"));
+const BiotechnologyMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/MBBS Abroad/Biotechnology.jsx"));
+const NursingAbroadMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/MBBS Abroad/NursingAbroad.jsx"));
+const PharmacyAbroadMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/MBBS Abroad/PharmacyAbroad.jsx"));
+const PhysiotherapyAbroadMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/MBBS Abroad/PhysiotherapyAbroad.jsx"));
+const PublicHealthMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/MBBS Abroad/PublicHealth.jsx"));
+const UndergraduateEngineeringMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/Engineering/ug/undergraduate.jsx"));
+const AerospaceEngineeringUGMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/Engineering/ug/pages/AerospaceEngineering.jsx"));
+const AutomobileEngineeringUGMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/Engineering/ug/pages/AutomobileEngineering.jsx"));
+const BiomedicalEngineeringUGMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/Engineering/ug/pages/BiomedicalEngineering.jsx"));
+const ChemicalEngineeringUGMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/Engineering/ug/pages/ChemicalEngineering.jsx"));
+const CivilEngineeringUGMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/Engineering/ug/pages/CivilEngineering.jsx"));
+const ComputerEngineeringUGMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/Engineering/ug/pages/ComputerEngineering.jsx"));
+const ElectricalEngineeringUGMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/Engineering/ug/pages/ElectricalEngineering.jsx"));
+const ElectronicsCommunicationUGMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/Engineering/ug/pages/ElectronicsCommunication.jsx"));
+const MechanicalEngineeringUGMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/Engineering/ug/pages/MechanicalEngineering.jsx"));
+const PostgraduateEngineeringMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/Engineering/pg/postgraduate.jsx"));
+const AerospaceEngineeringPGMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/Engineering/pg/pages/AerospaceEngineering.jsx"));
+const AutomobileEngineeringPGMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/Engineering/pg/pages/AutomobileEngineering.jsx"));
+const BiomedicalEngineeringPGMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/Engineering/pg/pages/BiomedicalEngineering.jsx"));
+const ChemicalEngineeringPGMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/Engineering/pg/pages/ChemicalEngineering.jsx"));
+const CivilEngineeringPGMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/Engineering/pg/pages/CivilEngineering.jsx"));
+const ComputerEngineeringPGMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/Engineering/pg/pages/ComputerEngineering.jsx"));
+const ElectricalEngineeringPGMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/Engineering/pg/pages/ElectricalEngineering.jsx"));
+const ElectronicsCommunicationPGMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/Engineering/pg/pages/ElectronicsCommunication.jsx"));
+const MechanicalEngineeringPGMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/Engineering/pg/pages/MechanicalEngineering.jsx"));
+const ComputerScienceMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/ComputerScience/ComputerScience.jsx"));
+const InformationTechnologyMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/InformationTechnology/InformationTechnology.jsx"));
+const BusinessManagementMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/BusinessManagement/BusinessManagement.jsx"));
+const BBAMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/BBA/BBA.jsx"));
+const BBSMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/BBS/BBS.jsx"));
+const MBAMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/MBA/MBA.jsx"));
+const MBSMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/MBS/MBS.jsx"));
+const ExecutiveMBAMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/ExecutiveMBA/ExecutiveMBA.jsx"));
+const InternationalBusinessMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/InternationalBusiness/InternationalBusiness.jsx"));
+const HospitalityManagementMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/HospitalityManagement/HospitalityManagement.jsx"));
+const ArchitectureMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/Architecture/Architecture.jsx"));
+const LawMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/Law/Law.jsx"));
+const LanguageCoursesMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/LanguageCourses/LanguageCourses.jsx"));
+const SummerCoursesMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/SummerCourses/SummerCourses.jsx"));
+const WinterCoursesMauritius = lazy(() => import("../pages/Study Abroad/Mauritius/WinterCourses/WinterCourses.jsx"));
+const TestDetailPage = safeLazy(() => import("../pages/Tests/TestDetailPage.jsx"));
 
 
 
@@ -2579,6 +2664,353 @@ export const router = createBrowserRouter([
         path: "study-abroad/germany/winter-courses",
         element: <WinterCoursesGermany />,
       },
+      // Study Abroad - Switzerland
+      {
+        path: "study-abroad/switzerland/dentistry",
+        element: <DentistryAbroadSwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/biotechnology",
+        element: <BiotechnologySwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/nursing",
+        element: <NursingAbroadSwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/pharmacy",
+        element: <PharmacyAbroadSwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/physiotherapy",
+        element: <PhysiotherapyAbroadSwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/public-health",
+        element: <PublicHealthSwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/ug/engineering",
+        element: <UndergraduateEngineeringSwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/ug/aerospace-engineering",
+        element: <AerospaceEngineeringUGSwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/ug/automobile-engineering",
+        element: <AutomobileEngineeringUGSwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/ug/biomedical-engineering",
+        element: <BiomedicalEngineeringUGSwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/ug/chemical-engineering",
+        element: <ChemicalEngineeringUGSwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/ug/civil-engineering",
+        element: <CivilEngineeringUGSwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/ug/computer-engineering",
+        element: <ComputerEngineeringUGSwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/ug/electrical-engineering",
+        element: <ElectricalEngineeringUGSwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/ug/electronics-communication",
+        element: <ElectronicsCommunicationUGSwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/ug/mechanical-engineering",
+        element: <MechanicalEngineeringUGSwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/pg/engineering",
+        element: <PostgraduateEngineeringSwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/pg/aerospace-engineering",
+        element: <AerospaceEngineeringPGSwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/pg/automobile-engineering",
+        element: <AutomobileEngineeringPGSwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/pg/biomedical-engineering",
+        element: <BiomedicalEngineeringPGSwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/pg/chemical-engineering",
+        element: <ChemicalEngineeringPGSwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/pg/civil-engineering",
+        element: <CivilEngineeringPGSwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/pg/computer-engineering",
+        element: <ComputerEngineeringPGSwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/pg/electrical-engineering",
+        element: <ElectricalEngineeringPGSwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/pg/electronics-communication",
+        element: <ElectronicsCommunicationPGSwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/pg/mechanical-engineering",
+        element: <MechanicalEngineeringPGSwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/computer-science",
+        element: <ComputerScienceSwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/information-technology",
+        element: <InformationTechnologySwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/business-management",
+        element: <BusinessManagementSwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/bba",
+        element: <BBASwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/bbs",
+        element: <BBSSwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/mba",
+        element: <MBASwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/mbs",
+        element: <MBSSwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/executive-mba",
+        element: <ExecutiveMBASwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/international-business",
+        element: <InternationalBusinessSwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/hospitality-management",
+        element: <HospitalityManagementSwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/architecture",
+        element: <ArchitectureSwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/law",
+        element: <LawSwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/language-courses",
+        element: <LanguageCoursesSwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/summer-courses",
+        element: <SummerCoursesSwitzerland />,
+      },
+      {
+        path: "study-abroad/switzerland/winter-courses",
+        element: <WinterCoursesSwitzerland />,
+      },
+      // Study Abroad - Mauritius
+      {
+        path: "study-abroad/mauritius/dentistry",
+        element: <DentistryAbroadMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/biotechnology",
+        element: <BiotechnologyMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/nursing",
+        element: <NursingAbroadMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/pharmacy",
+        element: <PharmacyAbroadMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/physiotherapy",
+        element: <PhysiotherapyAbroadMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/public-health",
+        element: <PublicHealthMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/ug/engineering",
+        element: <UndergraduateEngineeringMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/ug/aerospace-engineering",
+        element: <AerospaceEngineeringUGMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/ug/automobile-engineering",
+        element: <AutomobileEngineeringUGMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/ug/biomedical-engineering",
+        element: <BiomedicalEngineeringUGMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/ug/chemical-engineering",
+        element: <ChemicalEngineeringUGMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/ug/civil-engineering",
+        element: <CivilEngineeringUGMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/ug/computer-engineering",
+        element: <ComputerEngineeringUGMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/ug/electrical-engineering",
+        element: <ElectricalEngineeringUGMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/ug/electronics-communication",
+        element: <ElectronicsCommunicationUGMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/ug/mechanical-engineering",
+        element: <MechanicalEngineeringUGMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/pg/engineering",
+        element: <PostgraduateEngineeringMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/pg/aerospace-engineering",
+        element: <AerospaceEngineeringPGMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/pg/automobile-engineering",
+        element: <AutomobileEngineeringPGMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/pg/biomedical-engineering",
+        element: <BiomedicalEngineeringPGMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/pg/chemical-engineering",
+        element: <ChemicalEngineeringPGMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/pg/civil-engineering",
+        element: <CivilEngineeringPGMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/pg/computer-engineering",
+        element: <ComputerEngineeringPGMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/pg/electrical-engineering",
+        element: <ElectricalEngineeringPGMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/pg/electronics-communication",
+        element: <ElectronicsCommunicationPGMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/pg/mechanical-engineering",
+        element: <MechanicalEngineeringPGMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/computer-science",
+        element: <ComputerScienceMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/information-technology",
+        element: <InformationTechnologyMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/business-management",
+        element: <BusinessManagementMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/bba",
+        element: <BBAMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/bbs",
+        element: <BBSMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/mba",
+        element: <MBAMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/mbs",
+        element: <MBSMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/executive-mba",
+        element: <ExecutiveMBAMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/international-business",
+        element: <InternationalBusinessMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/hospitality-management",
+        element: <HospitalityManagementMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/architecture",
+        element: <ArchitectureMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/law",
+        element: <LawMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/language-courses",
+        element: <LanguageCoursesMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/summer-courses",
+        element: <SummerCoursesMauritius />,
+      },
+      {
+        path: "study-abroad/mauritius/winter-courses",
+        element: <WinterCoursesMauritius />,
+      },
+
+      // =====================================================================
+      // TESTS & COMMON ONLINE EXAMS (Common to All Countries)
+      // =====================================================================
+      {
+        path: "tests/:testId",
+        element: <TestDetailPage />,
+      },
+      {
+        path: "tests",
+        element: <Navigate to="/tests/which-test" replace />,
+      },
+      {
+        path: "online-exams",
+        element: <Navigate to="/tests/which-test" replace />,
+      
+      },
 
       {
         path: "terms-conditions",
@@ -3114,6 +3546,68 @@ export const routeList = [
   "/study-abroad/germany/language-courses",
   "/study-abroad/germany/summer-courses",
   "/study-abroad/germany/winter-courses",
+
+  // Study Abroad - Switzerland
+  "/study-abroad/switzerland/dentistry",
+  "/study-abroad/switzerland/biotechnology",
+  "/study-abroad/switzerland/nursing",
+  "/study-abroad/switzerland/pharmacy",
+  "/study-abroad/switzerland/physiotherapy",
+  "/study-abroad/switzerland/public-health",
+  "/study-abroad/switzerland/ug/engineering",
+  "/study-abroad/switzerland/ug/aerospace-engineering",
+  "/study-abroad/switzerland/ug/automobile-engineering",
+  "/study-abroad/switzerland/ug/biomedical-engineering",
+  "/study-abroad/switzerland/ug/chemical-engineering",
+  "/study-abroad/switzerland/ug/civil-engineering",
+  "/study-abroad/switzerland/ug/computer-engineering",
+  "/study-abroad/switzerland/ug/electrical-engineering",
+  "/study-abroad/switzerland/ug/electronics-communication",
+  "/study-abroad/switzerland/ug/mechanical-engineering",
+  "/study-abroad/switzerland/pg/engineering",
+  "/study-abroad/switzerland/pg/aerospace-engineering",
+  "/study-abroad/switzerland/pg/automobile-engineering",
+  "/study-abroad/switzerland/pg/biomedical-engineering",
+  "/study-abroad/switzerland/pg/chemical-engineering",
+  "/study-abroad/switzerland/pg/civil-engineering",
+  "/study-abroad/switzerland/pg/computer-engineering",
+  "/study-abroad/switzerland/pg/electrical-engineering",
+  "/study-abroad/switzerland/pg/electronics-communication",
+  "/study-abroad/switzerland/pg/mechanical-engineering",
+  "/study-abroad/switzerland/computer-science",
+  "/study-abroad/switzerland/information-technology",
+  "/study-abroad/switzerland/business-management",
+  "/study-abroad/switzerland/bba",
+  "/study-abroad/switzerland/bbs",
+  "/study-abroad/switzerland/mba",
+  "/study-abroad/switzerland/mbs",
+  "/study-abroad/switzerland/executive-mba",
+  "/study-abroad/switzerland/international-business",
+  "/study-abroad/switzerland/hospitality-management",
+  "/study-abroad/switzerland/architecture",
+  "/study-abroad/switzerland/law",
+  "/study-abroad/switzerland/language-courses",
+  "/study-abroad/switzerland/summer-courses",
+  "/study-abroad/switzerland/winter-courses",
+
+  // Tests & Common Online Exams (17 routes)
+  "/tests/which-test",
+  "/tests/ielts",
+  "/tests/toefl",
+  "/tests/duolingo",
+  "/tests/pte",
+  "/tests/oet",
+  "/tests/france",
+  "/tests/germany",
+  "/tests/spanish",
+  "/tests/gre",
+  "/tests/gmat",
+  "/tests/sat",
+  "/tests/act",
+  "/tests/cmat",
+  "/tests/imat",
+  "/tests/ucat",
+  "/tests/mcat",
 
 
   "/terms-conditions",

@@ -17,10 +17,10 @@ const page = {
   "description": "Study Chemical Engineering - UG in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
   "keywords": "",
   "introTitle": "Chemical Engineering in Italy",
-  "heroParas": [
-    "Yes, Indian students can apply if they meet the university's academic, entrance-test, language and documentation requirements. Each institution has its own rules for deciding who is eligible."
+  heroParas: [
+    "Undergraduate Chemical Engineering in Italy prepares students with rigorous training in chemical reactions, thermodynamics, separation processes, and industrial plant design across leading Italian technical universities."
   ],
-  "overview": [
+  overview: [
     "Yes, Indian students can apply if they meet the university's academic, entrance-test, language and documentation requirements. Each institution has its own rules for deciding who is eligible."
   ],
   "level": "Undergraduate",
@@ -146,17 +146,6 @@ const page = {
           "items": [
             "Yes. Graduates can apply for master's programs in chemical engineering, sustainable processes, energy, materials or related areas. Admission is based on the academic and other entry requirements of the master's program."
           ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Bachelors Chemical Engineering Italy",
-            "Study Chemical Engineering in Italy Bachelor",
-            "Courses in Chemical Engineering in Italy",
-            "Chemical Engineering in Italian Universities",
-            "Chemical Engineering Tuition Fees in Italy",
-            "Indian Students for Chemical Engineering Bachelors in Italy"
-          ]
         }
       ]
     },
@@ -166,21 +155,30 @@ const page = {
       "title": "Admission Process for Indian Students",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "The general application procedure for Study Chemical Engineering in Italy Bachelors programs is:",
-            "Shortlist universities: Compare course content, language of instruction, fees, location and entrance test requirements.",
-            "Check eligibility: Ensure your Class 12 marks and subjects meet the university's admission requirements.",
-            "Prepare for the entrance exam: If applicable, register for the required exam and follow the university's exam instructions.",
-            "Prepare documents: Gather academic records, passport details, photographs, and language certificates as needed.",
-            "Submit the application: Apply through the university's official application portal and observe all deadlines.",
-            "Complete international-student procedures Complete the relevant pre-enrolment and qualification verification process, including Universitaly procedures where applicable.",
-            "Apply for the study visa When the requirements are met, send the visa application together with the required supporting documents to the competent Italian consular authority.",
-            "Complete enrollment: Follow the final enrollment instructions from the university and prepare for travel and accommodation.",
-            "Admission, pre-enrolment and visa approval are independent decisions. Meeting the university's requirements does not automatically mean you will get a visa.",
-            "Official rules for international students: https://www.universitaly.org/en/studenti-stranieri"
-          ]
-        }
+        "t": "timeline",
+        "items": [
+                {
+                        "step": "1",
+                        "title": "Check Eligibility",
+                        "desc": "Ensure your Class 12 marks and subjects meet the university's admission requirements."
+                },
+                {
+                        "step": "2",
+                        "title": "Step 2",
+                        "desc": "Complete international-student procedures Complete the relevant pre-enrolment and qualification verification process, including Universitaly procedures where applicable."
+                },
+                {
+                        "step": "3",
+                        "title": "Step 3",
+                        "desc": "Apply for the study visa When the requirements are met, send the visa application together with the required supporting documents to the competent Italian consular authority."
+                },
+                {
+                        "step": "4",
+                        "title": "Complete Enrollment",
+                        "desc": "Follow the final enrollment instructions from the university and prepare for travel and accommodation."
+                }
+        ]
+}
       ]
     },
     {
@@ -193,63 +191,6 @@ const page = {
           "items": [
             "A degree from an Italian university can serve as a basis for further education and professional development. However, recognition for employment, regulated professional activities or further education is dependent on the relevant institution, employer and applicable regulations.",
             "Master programs in areas like: Graduates could look into"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Chemistry Engineering",
-            "Chemical and Sustainable Processes Engineering",
-            "Engineering - Environmental",
-            "Materials Engineering",
-            "Energy Engineering",
-            "Biochemical or Industrial Biotechnologies",
-            "Engineering Process and Plant"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Students planning to return to India should check any qualification-recognition or professional requirements for their intended career. They also need to know that a bachelor's degree does not automatically provide all the professional licenses and qualifications needed for a particular job."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Career Prospects",
-      "title": "Career Options After Chemical Engineering",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Graduates can take up entry-level technical positions or pursue postgraduate study after a bachelor's degree. Actual opportunities will be defined by the role, the practical experience, language skills and the local employment requirements.",
-            "Possible career areas could be:",
-            "Chemical Process Engineering: Supporting industrial process operations and optimization.",
-            "Production and manufacturing: Helping to monitor and improve production systems.",
-            "Quality control: Support for product testing, documentation and process standards.",
-            "Pharmaceutical manufacturing: Supporting production processes and quality systems.",
-            "Food processing: Industrial production, processing and safety systems",
-            "Environmental technology: Support for waste treatment, recycling and resource efficiency projects.",
-            "Energy and materials: Investigating industrial applications of fuels, materials and sustainable technologies.",
-            "Research and development: Supporting laboratory work and product or process development as per role requirements.",
-            "Expectations for salary",
-            "There is not a single salary for all graduates. Earnings vary by employer, city, job responsibilities, experience, language proficiency, and economic conditions. Students should research recent vacancies and graduate employment statistics before estimating their future income.",
-            "For many specialist engineering positions, having a related master's degree or further industrial experience can be the key to more advanced technical positions."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Document Checklist",
-      "title": "Required Documents",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "For Bachelor's students applying for Chemical Engineering in Italy, the documents specified by the university and the visa authority concerned need to be prepared.",
-            "Commonly requested documents are:"
           ]
         },
         {
@@ -276,7 +217,34 @@ const page = {
         }
       ]
     }
-  ]
+  ],
+  faqs: [
+    {
+        "q": "Can Indian students study Chemical Engineering in Italy after Class 12?",
+        "a": "Yes. Indian students with strong high school preparation in chemistry, mathematics, and physics can apply for bachelor's degrees in chemical engineering."
+    },
+    {
+        "q": "What is the duration of a Bachelor's in Chemical Engineering in Italy?",
+        "a": "Undergraduate chemical engineering degrees take 3 years (180 ECTS credits) of full-time academic study."
+    },
+    {
+        "q": "What are the tuition fees for chemical engineering bachelor's in Italy?",
+        "a": "Annual public university tuition ranges from €1,000 to €3,800, with extensive income-based discounts and full DSU scholarship awards."
+    },
+    {
+        "q": "What entrance exams are needed for undergraduate admission?",
+        "a": "Universities evaluate applicants based on the English TOLC-I entrance test or equivalent high school science criteria."
+    },
+    {
+        "q": "What core topics are studied in the undergraduate curriculum?",
+        "a": "Students study thermodynamics, mass and heat transfer, fluid dynamics, chemical kinetics, reactor design, and environmental safety."
+    },
+    {
+        "q": "What career and postgraduate paths follow this degree?",
+        "a": "Graduates frequently proceed to an MSc in Chemical or Materials Engineering, or enter industries including petrochemicals, pharmaceuticals, and sustainable materials."
+    }
+],
+  faqTitle: "Frequently Asked Questions About Chemical Engineering UG in Italy"
 };
 
 export default function ChemicalEngineeringUGItaly() {

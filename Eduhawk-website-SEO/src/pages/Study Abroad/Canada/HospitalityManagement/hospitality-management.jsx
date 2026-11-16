@@ -19,8 +19,7 @@ const page = {
   "keywords": "Study Hospitality Management in Canada, Hospitality Management in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Canada's Hospitality Management",
   "heroParas": [
-    "The study of Hospitality Management equips students to run hotels, resorts, dining establishments, travel agencies, event spaces, and other establishments that cater to visitors. Business administration , customer service , hotel management , food and beverage operations , event planning , tourism management, and hospitality marketing are all included.",
-    "Students who wish to pursue careers in hospitality, tourism, hotel operations, or service management may consider studying in Canada. Undergraduate degrees, diplomas, postgraduate programs, and graduate certificates are among the several pathways offered by educational institutions. A student's prior education, career aspirations, financial situation, and selected field of specialty all influence the best option."
+    "The study of Hospitality Management equips students to run hotels, resorts, dining establishments, travel agencies, event spaces, and other establishments that cater to visitors. Business administration , customer service , hotel management , food and beverage operations , event planning , tourism management, and hospitality marketing are all included."
   ],
   "overview": [
     "The study of Hospitality Management equips students to run hotels, resorts, dining establishments, travel agencies, event spaces, and other establishments that cater to visitors. Business administration , customer service , hotel management , food and beverage operations , event planning , tourism management, and hospitality marketing are all included.",
@@ -457,7 +456,7 @@ const page = {
             },
             {
               "q": "How Can I Study Abroad with the Assistance of Edu Hawk Worldwide Consultancy?",
-              "a": "Students may plan their study-abroad journey, organize their application materials, research appropriate universities, and comprehend admission requirements with the assistance of Edu Hawk globally. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs. Study Hospitality Management in Canada for Indian StudentsBest Universities and Colleges for Hospitality Management in CanadaHospitality Management Courses in Canada for International StudentsHospitality Management Eligibility in Canada After Class 12Hospitality Management Admission Requirements in CanadaHospitality Management Fees in Canada for Indian StudentsHospitality Management Scholarships in Canada for International StudentsBachelor's in Hospitality Management in CanadaMaster's in Hospitality and Tourism Management in CanadaHotel Management and Resort Management Courses in Canada"
+              "a": "Students may plan their study-abroad journey, organize their application materials, research appropriate universities, and comprehend admission requirements with the assistance of Edu Hawk globally. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
             }
           ]
         }

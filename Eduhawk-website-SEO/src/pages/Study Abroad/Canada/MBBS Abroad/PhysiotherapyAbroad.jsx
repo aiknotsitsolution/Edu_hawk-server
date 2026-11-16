@@ -20,8 +20,7 @@ const page = {
   "keywords": "Study Physiotherapy in Canada, Physiotherapy in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Indian Students Can Study Physiotherapy in Canada",
   "heroParas": [
-    "Students interested in studying international healthcare frequently choose Canada as their location. Universities with cutting-edge rehabilitation facilities, hands-on clinical training, and a focus on evidence-based treatment can offer programs for students who wish to study physiotherapy in Canada.",
-    "The information and practical abilities needed to evaluate movement issues, enhance physical function, control pain and aid in patient recovery are developed by students enrolled in physiotherapy courses in Canada."
+    "Students interested in studying international healthcare frequently choose Canada as their location. Universities with cutting-edge rehabilitation facilities, hands-on clinical training, and a focus on evidence-based treatment can offer programs for students who wish to study physiotherapy in Canada."
   ],
   "overview": [
     "Students interested in studying international healthcare frequently choose Canada as their location. Universities with cutting-edge rehabilitation facilities, hands-on clinical training, and a focus on evidence-based treatment can offer programs for students who wish to study physiotherapy in Canada.",

@@ -20,8 +20,7 @@ const page = {
   "keywords": "Study Mechanical Engineering - UG in Canada, Mechanical Engineering - UG in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Indian Students Studying Mechanical Engineering in Canada",
   "heroParas": [
-    "Indian students that are interested in machinery, manufacturing, robotics, automotive systems, energy technology, and product design frequently travel to Canada. Mathematics, physics, engineering design, laboratory work and real-world problem solving are all combined in Canadian undergraduate mechanical engineering programs.",
-    "Careers in manufacturing, transportation, energy, construction, aerospace and industrial technology are available to graduates of mechanical engineering programs in Canada."
+    "Indian students that are interested in machinery, manufacturing, robotics, automotive systems, energy technology, and product design frequently travel to Canada. Mathematics, physics, engineering design, laboratory work and real-world problem solving are all combined in Canadian undergraduate mechanical engineering programs."
   ],
   "overview": [
     "Indian students that are interested in machinery, manufacturing, robotics, automotive systems, energy technology, and product design frequently travel to Canada. Mathematics, physics, engineering design, laboratory work and real-world problem solving are all combined in Canadian undergraduate mechanical engineering programs.",

@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import SeoHead from "../../../../component/SeoHead.jsx";
+import nursingData from "../../../../data/study_abroad/usa/nursing.json";
 
 const NursingAbroad = () => {
   const [openFaq, setOpenFaq] = useState(null);
@@ -43,12 +44,14 @@ const NursingAbroad = () => {
     return () => observer.disconnect();
   }, []);
 
-  const stats = [
-    { label: "Programs", value: "BSc Nursing, GNM, MSc Nursing & Allied" },
-    { label: "Countries", value: "12+ destinations with good recognition" },
-    { label: "Support", value: "End-to-end guidance from profile to arrival" },
-    { label: "Approach", value: "Transparent fees, honest counselling & outcome focus" },
-  ];
+  const stats = (nursingData?.stats && nursingData.stats.length > 0)
+    ? nursingData.stats.map((s) => ({ label: s.l, value: s.n }))
+    : [
+        { label: "Programs", value: "BSc Nursing, GNM, MSc Nursing & Allied" },
+        { label: "Countries", value: "12+ destinations with good recognition" },
+        { label: "Support", value: "End-to-end guidance from profile to arrival" },
+        { label: "Approach", value: "Transparent fees, honest counselling & outcome focus" },
+      ];
 
   const features = [
     {
@@ -127,13 +130,15 @@ const NursingAbroad = () => {
     "Specialised Nursing Programs",
   ];
 
-  const topUniversities = [
-    "University of Pennsylvania",
-    "Johns Hopkins University",
-    "Duke University",
-    "University of California, San Francisco",
-    "University of Washington",
-  ];
+  const topUniversities = (nursingData?.universities && nursingData.universities.length > 0)
+    ? nursingData.universities.map((u) => u.name)
+    : [
+        "University of Pennsylvania",
+        "Johns Hopkins University",
+        "Duke University",
+        "University of California, San Francisco",
+        "University of Washington",
+      ];
 
   const comparisonPoints = [
     "Nursing program curriculum",
@@ -344,52 +349,54 @@ const NursingAbroad = () => {
     },
   ];
 
-  const faqs = [
-    {
-      q: "Is NEET required for Nursing abroad?",
-      a: "No. NEET is not mandatory for Nursing courses abroad. Admission is mainly based on Class 12 marks and English proficiency scores.",
-    },
-    {
-      q: "Which countries are best for Nursing abroad?",
-      a: "Philippines, Germany, Canada, UK and Australia are among the most preferred destinations. Philippines is popular for affordable fees, while Germany, Canada and UK offer strong job opportunities after graduation.",
-    },
-    {
-      q: "What is the total cost of Nursing abroad?",
-      a: "Total cost usually ranges between ₹12–45 lakhs depending on the country and university. Philippines is more affordable, while Canada, UK and Australia are higher. We provide a clear cost sheet before you apply.",
-    },
-    {
-      q: "Can I work while studying Nursing abroad?",
-      a: "Yes. Most popular countries allow part-time work (usually 20 hours per week during studies). This helps students manage living expenses.",
-    },
-    {
-      q: "When should I start the process?",
-      a: "Ideally 8–12 months before the intake. Early application helps with better university options, scholarships and smoother visa processing.",
-    },
-    {
-      q: "Can Indian students study nursing in the USA?",
-      a: "Yes. Indian students can apply to eligible nursing programs in the USA if they meet the academic, English-language and university-specific admission requirements.",
-    },
-    {
-      q: "After 12th grade, can I pursue a BSN in the United States?",
-      a: "Yes, eligible international students can explore Bachelor of Science in Nursing (BSN) programs after Class 12. However, admission requirements, prerequisite subjects and international student eligibility vary by university.",
-    },
-    {
-      q: "Is NCLEX-RN required to work as a nurse in the USA?",
-      a: "Generally, candidates seeking Registered Nurse licensure need to meet the relevant state Board of Nursing requirements and pass the NCLEX-RN. Licensing requirements vary by state.",
-    },
-    {
-      q: "What is the average nursing salary in USA?",
-      a: "The U.S. Bureau of Labor Statistics reported a median annual wage of $97,550 for Registered Nurses in May 2025. Actual salary depends on location, experience, specialty, employer and work setting.",
-    },
-    {
-      q: "Can Indian nurses work in the USA?",
-      a: "Yes, Indian-trained nurses may pursue U.S. nursing licensure, but an Indian nursing qualification does not automataically provide authorization to practise in the USA. Candidates must satisfy the requirements of the relevant state Board of Nursing and complete the applicable licensing process.",
-    },
-    {
-      q: "How can Edu Hawk worldwide help me study abroad?",
-      a: "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities.",
-    },
-  ];
+  const faqs = (nursingData?.faq && nursingData.faq.length > 0)
+    ? nursingData.faq.map((f) => ({ q: f.question, a: f.answer }))
+    : [
+        {
+          q: "Is NEET required for Nursing abroad?",
+          a: "No. NEET is not mandatory for Nursing courses abroad. Admission is mainly based on Class 12 marks and English proficiency scores.",
+        },
+        {
+          q: "Which countries are best for Nursing abroad?",
+          a: "Philippines, Germany, Canada, UK and Australia are among the most preferred destinations. Philippines is popular for affordable fees, while Germany, Canada and UK offer strong job opportunities after graduation.",
+        },
+        {
+          q: "What is the total cost of Nursing abroad?",
+          a: "Total cost usually ranges between ₹12–45 lakhs depending on the country and university. Philippines is more affordable, while Canada, UK and Australia are higher. We provide a clear cost sheet before you apply.",
+        },
+        {
+          q: "Can I work while studying Nursing abroad?",
+          a: "Yes. Most popular countries allow part-time work (usually 20 hours per week during studies). This helps students manage living expenses.",
+        },
+        {
+          q: "When should I start the process?",
+          a: "Ideally 8–12 months before the intake. Early application helps with better university options, scholarships and smoother visa processing.",
+        },
+        {
+          q: "Can Indian students study nursing in the USA?",
+          a: "Yes. Indian students can apply to eligible nursing programs in the USA if they meet the academic, English-language and university-specific admission requirements.",
+        },
+        {
+          q: "After 12th grade, can I pursue a BSN in the United States?",
+          a: "Yes, eligible international students can explore Bachelor of Science in Nursing (BSN) programs after Class 12. However, admission requirements, prerequisite subjects and international student eligibility vary by university.",
+        },
+        {
+          q: "Is NCLEX-RN required to work as a nurse in the USA?",
+          a: "Generally, candidates seeking Registered Nurse licensure need to meet the relevant state Board of Nursing requirements and pass the NCLEX-RN. Licensing requirements vary by state.",
+        },
+        {
+          q: "What is the average nursing salary in USA?",
+          a: "The U.S. Bureau of Labor Statistics reported a median annual wage of $97,550 for Registered Nurses in May 2025. Actual salary depends on location, experience, specialty, employer and work setting.",
+        },
+        {
+          q: "Can Indian nurses work in the USA?",
+          a: "Yes, Indian-trained nurses may pursue U.S. nursing licensure, but an Indian nursing qualification does not automataically provide authorization to practise in the USA. Candidates must satisfy the requirements of the relevant state Board of Nursing and complete the applicable licensing process.",
+        },
+        {
+          q: "How can Edu Hawk worldwide help me study abroad?",
+          a: "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities.",
+        },
+      ];
 
   return (
     <div
@@ -523,15 +530,11 @@ const NursingAbroad = () => {
                 </span>{" "}
                 with confidence
               </h1>
-              
-              <p className="text-base sm:text-lg text-white/70 max-w-xl mb-5 leading-relaxed">
-                Nursing is one of the most in-demand professions worldwide. Studying Nursing abroad opens doors to better clinical training, international exposure and strong career opportunities.
-              </p>
-              
+
               <p className="text-base sm:text-lg text-white/70 max-w-xl mb-8 leading-relaxed">
-                Edu Hawk helps you choose the right country and university, understand real costs, and complete the entire admission + visa process with complete transparency.
+                Studying Nursing abroad opens doors to advanced clinical training, global healthcare exposure, and high-demand international career opportunities, backed by Edu Hawk's end-to-end admission, university selection, and visa support.
               </p>
-              
+
               <div className="flex flex-col sm:flex-row flex-wrap gap-3.5">
                 <a
                   href="#consult"

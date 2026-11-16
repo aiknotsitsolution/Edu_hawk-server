@@ -13,438 +13,392 @@ import uniImg2 from "../../../../../../Images/Abroad/Ireland/Engineering_PG/Aero
 import uniImg3 from "../../../../../../Images/Abroad/Ireland/Engineering_PG/Aerospace/University_of_Galway_2.webp";
 
 const page = {
-  "name": "Aerospace Engineering (PG) in Ireland",
-  "country": "Ireland",
-  "slug": "pg/aerospace-engineering",
-  "title": "Study Aerospace Engineering (PG) in Ireland for Indian Students | Edu-Hawk Worldwide",
-  "description": "Complete guide to Aerospace Engineering (PG) in Ireland for Indian students: Top Irish universities, eligibility criteria, tuition fees (€13,500 – €28,640 / year), scholarships, and 2-year post-study work visa (Stamp 1G).",
-  "keywords": "Study Aerospace Engineering PG in Ireland for Indian Students, Top Universities for Aerospace Engineering Master's in Ireland, MSc Aeronautical Engineering at University of Limerick, MEng Flight Test Engineering at SETU Ireland, Postgraduate Aerospace Engineering Courses in Ireland, Aerospace Engineering PG Eligibility Requirements in Ireland, Admission Requirements for Aerospace Engineering Master's in Ireland, IELTS Requirements for Aerospace Engineering PG in Ireland, Aerospace Engineering Tuition Fees in Ireland for International Students, MSc Wind Energy Engineering at University of Galway",
-  "introTitle": "STUDY AEROSPACE ENGINEERING IN IRELAND",
-  "heroParas": [
-    "Study Aerospace Engineering in Ireland"
+  name: "Aerospace Engineering (PG) in Ireland",
+  country: "Ireland",
+  slug: "study-abroad/ireland/pg/aerospace-engineering",
+  title: "Study Aerospace Engineering (PG) in Ireland for Indian Students | EduHawk",
+  description: "Complete guide to Master's in Aerospace & Aeronautical Engineering in Ireland: Top universities (Limerick, SETU, Galway), eligibility, tuition fees (€16,000 – €28,640/yr), salaries, and 2-year Stamp 1G work visa.",
+  keywords: "Study Aerospace Engineering PG in Ireland for Indian Students, Top Universities for Aerospace Engineering Master's in Ireland, MSc Aeronautical Engineering at University of Limerick, MEng Flight Test Engineering at SETU Ireland, Postgraduate Aerospace Engineering Courses in Ireland, Aerospace Engineering PG Eligibility Requirements in Ireland, Admission Requirements for Aerospace Engineering Master's in Ireland, IELTS Requirements for Aerospace Engineering PG in Ireland, Aerospace Engineering Tuition Fees in Ireland for International Students, MSc Wind Energy Engineering at University of Galway",
+  introTitle: "STUDY AEROSPACE ENGINEERING IN IRELAND",
+  heroParas: [
+    "Aerospace and Aeronautical Engineering in Ireland offers specialized 1-year postgraduate programs (MSc, MEng) designed for engineers targeting aircraft structures, flight test evaluation, computational fluid dynamics (CFD), and advanced propulsion systems. With specialized faculties at the University of Limerick (MSc Aeronautical Engineering) and South East Technological University (MEng Flight Test Engineering), international students benefit from world-class flight simulators, wind tunnels, tuition fees ranging from €16,000 to €28,640 per year, and a 2-year post-study work visa under Ireland's Third Level Graduate Scheme (Stamp 1G)."
   ],
-  "overview": [
-    "Study Aerospace Engineering in Ireland"
+  overview: [
+    "Ireland provides highly targeted postgraduate pathways for international graduates aspiring to master advanced aircraft systems, aerodynamic modeling, aerospace structures, and flight performance evaluation. Home to the world's largest aviation leasing and aircraft finance sector, Ireland complements its commercial aviation dominance with specialized technical and research faculties.",
+    "Postgraduate qualifications in this sector encompass the Master of Science (MSc in Aeronautical Engineering) and Master of Engineering (MEng in Flight Test Engineering), both rated at NFQ Level 9 (90 ECTS credits). Full-time programs typically require 1 year of intensive modular study, laboratory wind-tunnel testing, and a major technical research thesis or flight trial evaluation.",
+    "Students acquire advanced mastery over aerodynamics, computational fluid dynamics (CFD), aircraft structural finite element analysis (FEA), composite aerospace materials, avionics, gas turbine propulsion, and flight simulation dynamics. Academic training is supported by specialized experimental research in adjacent domains such as wind energy turbine aerodynamics, space instrumentation, and advanced composite manufacturing.",
+    "Accredited programs by Engineers Ireland ensure international alignment with the Washington Accord, granting global professional recognition across India, the UK, USA, Australia, and Canada. EduHawk Worldwide delivers tailored advisory support—helping aerospace and mechanical graduates navigate program options, academic requirements, portfolio reviews, and Irish student visa (Stamp 2) applications."
   ],
-  "level": "Master of Science (MSc) & Master of Engineering (MEng) in Aeronautical Engineering",
-  "crumb": "Engineering / Aerospace Engineering (PG)",
-  "stats": [
+  level: "Master of Science (MSc) & Master of Engineering (MEng) in Aeronautical & Aerospace Systems (NFQ Level 9)",
+  crumb: "Engineering / Aerospace Engineering (PG)",
+  stats: [
     {
-      "label": "Degree Choices",
-      "value": "Master of Science (MSc) & Master of Engineering (MEng) in Aeronautical Engineering"
+      label: "Course Duration",
+      value: "1 Year Full-Time (90 ECTS)"
     },
     {
-      "label": "Course Duration",
-      "value": "1 to 2 Years (Full-Time)"
+      label: "Aviation Capital",
+      value: "Global Hub for Aviation & Leasing"
     },
     {
-      "label": "Top Institutions",
-      "value": "University of Limerick, University of Galway"
+      label: "Tuition Range",
+      value: "€16,000 – €28,640 / Year"
     },
     {
-      "label": "Post-Study Work",
-      "value": "2 Years Third Level Graduate Scheme (Stamp 1G)"
+      label: "Post-Study Work",
+      value: "2 Years (Stamp 1G Graduate Visa)"
     }
   ],
-  "sections": [
+  sections: [
     {
-      "slot": "why",
-      "eyebrow": "Why Study in Ireland",
-      "title": "1. Why Study Aerospace Engineering in Ireland?",
-      "groups": [
+      slot: "why",
+      eyebrow: "Why Study in Ireland",
+      title: "Why Study Aerospace Engineering at Postgraduate Level in Ireland?",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Ireland offers postgraduate study options for students who want to study aerospace engineering, aircraft systems, flight testing, aerodynamics and advanced engineering research.",
-            "There are fewer dedicated aerospace master’s programmes than in some larger countries, but students can study aeronautical engineering and related specializations.",
-            "A postgraduate degree in Aerospace Engineering can help graduates improve their understanding of aircraft design, propulsion, structural analysis, computational fluid dynamics, and flight systems.",
-            "The key benefits are:",
-            "A *further study in aeronautical engineering & aircraft technology."
+          t: "p",
+          items: [
+            "With Ireland managing over 60% of the world's commercial leased aircraft fleet and operating major Shannon and Dublin aerospace engineering clusters, postgraduate study offers unique strategic benefits:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Research projects in computational and experimental engineering."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Opportunities to specialize in *flight testing, aircraft performance or aerospace materials."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Related career pathways in aviation, engineering consultancy, manufacturing and research",
-            "Access to adjacent fields such as wind energy, composites and advanced mechanical engineering"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Edu Hawk worldwide consultancy provides university selection guidance to help students compare suitable universities according to their academic background, budget, preferred location, and long-term professional goals."
+          t: "ul",
+          items: [
+            "Specialized Technical Curriculum: Intensive coursework focusing on advanced aircraft design, computational aerodynamics, flight dynamics, and aerospace composites.",
+            "High-Tech Aerospace Laboratories: State-of-the-art facilities including subsonic and supersonic wind tunnels, six-axis full-motion flight simulators, and composite autoclave testing.",
+            "Niche Flight Testing Specializations: Home to Europe's only specialized MEng in Flight Test Engineering at SETU Carlow, preparing engineers for certified aircraft evaluation.",
+            "Proximity to Aviation Multinationals: Direct interaction with global aerospace maintenance, repair, and overhaul (MRO) leaders, avionics suppliers, and airline operators (Shannon Aerospace, Lufthansa Technik, Ryanair).",
+            "Cross-Disciplinary Transferability: Expertise in aerodynamics, fluid mechanics, and structural dynamics seamlessly translates into offshore wind turbine engineering and automotive racing."
           ]
         }
       ]
     },
     {
-      "slot": "courses",
-      "eyebrow": "Degrees & Programs",
-      "title": "2. Aerospace Engineering Colleges in Ireland",
-      "groups": [
+      slot: "courses",
+      eyebrow: "Degrees & Programs",
+      title: "Postgraduate Aerospace Programs & Technical Curriculum",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "In Ireland, Postgraduate Aerospace Engineering options include specialized aeronautical engineering degrees and related engineering programs.",
-            "Typical fields of study include"
+          t: "p",
+          items: [
+            "Postgraduate aerospace programs in Ireland are designed for both aerospace graduates and mechanical engineering graduates seeking technical specialization:",
+            "Key Program Offerings:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Aerodynamics and Computational Fluid Dynamics",
-            "Aircraft design and flight dynamics",
-            "- Aircraft structures and materials",
-            "- Engines",
-            "- Flight dynamics and simulation",
-            "- Finite element method",
-            "- Aircraft systems and avionics",
-            "- Flight test and performance evaluation",
-            "- Development and research in engineering"
+          t: "ul",
+          items: [
+            "MSc in Aeronautical Engineering (University of Limerick): 1-year Level 9 degree focusing on advanced fluid dynamics, aircraft structural mechanics, aerospace propulsion, and computational simulation.",
+            "MEng in Flight Test Engineering (South East Technological University - SETU): Specialized Master's degree in flight test instrumentation, aircraft performance trials, stability and control, and flight data analysis.",
+            "MSc in Wind Energy Engineering (University of Galway): Complementary 1-year program leveraging aerodynamic principles, rotor aerodynamics, composite blade structures, and structural dynamics."
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Relevant postgraduate qualifications include a MSc, MEng or specialist engineering masters degree Most full-time master’s degrees take about one year, although this varies according to the university and the course structure."
+          t: "p",
+          items: [
+            "Core Topics & Specialist Modules:"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "Aerodynamics and Advanced Computational Fluid Dynamics (CFD)",
+            "Aircraft Conceptual Design & Structural Mechanics",
+            "Advanced Composite Materials and Aerospace Metallurgy",
+            "Gas Turbine Engines & Jet Propulsion Systems",
+            "Flight Dynamics, Aircraft Stability & Control",
+            "Finite Element Analysis (FEA) for Aerospace Structures",
+            "Avionics, Aircraft Systems & Navigation Protocols",
+            "Flight Test Techniques & Airborne Performance Evaluation",
+            "Individual Engineering Research Dissertation"
           ]
         }
       ]
     },
     {
-      "slot": "universities",
-      "eyebrow": "Top Institutions",
-      "title": "3. Top Universities for Aerospace Engineering in Ireland",
-      "unis": [
+      slot: "universities",
+      eyebrow: "Top Institutions",
+      title: "Top Universities for Postgraduate Aerospace Engineering in Ireland",
+      groups: [
         {
-          "name": "University of Limerick",
-          "desc": "University of Limerick - provides a MSc Aeronautical Engineering . This is pertinent for graduates who want to pursue advanced aircraft engineering, computational analysis, experimental methods and research",
-          "imgKey": "uniImg_University_of_Limerick_webp",
-          "imgIdentifier": "uniImg1",
-          "city": "Limerick, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg1
+          t: "p",
+          items: [
+            "The following Irish institutions provide specialized postgraduate programs in aeronautical, flight test, and aerodynamic engineering:"
+          ]
+        }
+      ],
+      unis: [
+        {
+          name: "University of Limerick (UL)",
+          city: "Limerick",
+          state: "Munster",
+          desc: "Offers the premier MSc in Aeronautical Engineering. Houses Ireland's leading flight simulation suite, boundary layer wind tunnels, and advanced composite materials laboratories, located adjacent to the Shannon aviation hub.",
+          img: uniImg1
         },
         {
-          "name": "University of Galway",
-          "desc": "University of Limerick - provides a MSc Aeronautical Engineering . This is pertinent for graduates who want to pursue advanced aircraft engineering, computational analysis, experimental methods and research",
-          "imgKey": "uniImg_University_of_Galway_webp",
-          "imgIdentifier": "uniImg2",
-          "city": "Galway, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg2
+          name: "South East Technological University (SETU)",
+          city: "Carlow",
+          state: "Leinster",
+          desc: "Features a specialized MEng in Flight Test Engineering. Taught by certified flight test pilots and aeronautical engineers, integrating real-world flight trials, aircraft instrumentation, and telemetry.",
+          img: uniImg2
         },
         {
-          "name": "University of Galway",
-          "desc": "University of Limerick - provides a MSc Aeronautical Engineering . This is pertinent for graduates who want to pursue advanced aircraft engineering, computational analysis, experimental methods and research",
-          "imgKey": "uniImg_University_of_Galway_2_webp",
-          "imgIdentifier": "uniImg3",
-          "city": "Galway, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg3
+          name: "University of Galway",
+          city: "Galway",
+          state: "Connacht",
+          desc: "Offers related Level 9 Master's programs including the MSc in Wind Energy Engineering and Mechanical Engineering, focusing on advanced aerodynamic modeling, structural dynamics, and computational mechanics (€28,640/yr).",
+          img: uniImg3
         }
       ]
     },
     {
-      "slot": "eligibility",
-      "eyebrow": "Admissions Criteria",
-      "title": "4. Eligibility to study Aerospace Engineering in Ireland",
-      "groups": [
+      slot: "eligibility",
+      eyebrow: "Admissions Criteria",
+      title: "Eligibility Criteria & Admission Requirements",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Generally, depending on the program, applicants must have a recognised bachelor's degree in Aerospace Engineering, Aeronautical Engineering, Aircraft Engineering, Mechanical Engineering or a related discipline.",
-            "Common eligibility requirements are:"
+          t: "p",
+          items: [
+            "Postgraduate aerospace engineering programs require a rigorous foundation in mathematics, mechanics, and fluid dynamics.",
+            "Academic Entry Requirements for Indian Applicants:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "An engineering degree that is relevant.",
-            "Minimum entry standard for the university’s academic performance.",
-            "Knowledge of mathematics, mechanics and engineering basics.",
-            "English language skills, where applicable.",
-            "Relevant work experience for programs that require it."
+          t: "ul",
+          items: [
+            "Undergraduate Degree: Recognized 4-year Bachelor's degree (BE or BTech) in Aerospace Engineering, Aeronautical Engineering, Aircraft Engineering, or Mechanical Engineering.",
+            "Minimum Academic Grades: Typically a minimum of 60% to 65%+ aggregate, or equivalent CGPA (6.5 to 7.0+ out of 10) in undergraduate study.",
+            "SETU Flight Test Entry Pathways: Minimum 2.2 Honours Level 8 aerospace/aeronautical degree, or a Level 7 Bachelor degree with distinction plus at least 3 years of relevant aerospace industry experience.",
+            "Mechanical Engineering Crossover: Graduates in mechanical engineering are eligible provided they have completed coursework in fluid mechanics, thermodynamics, and materials science."
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "The advertised entry routes for SETU’s MEng in Flight Test Engineering are a minimum 2.2 honors in a Level 8 aerospace, aeronautical or aircraft engineering degree, or a Level 7 distinction with at least three years relevant experience. International qualifications will be considered for equivalency."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "requirements",
-      "eyebrow": "Entry Requirements",
-      "title": "5. Aerospace Engineering Admission Requirements in Ireland",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Universities look at academic qualifications, subject preparation and English language proficiency.",
-            "Typical requirements are:"
+          t: "p",
+          items: [
+            "English Language Competency Standards:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Bachelor's degree certificate or provisional certificate.",
-            "Certified copies of academic transcripts and mark-sheets.",
-            "Proof of English language proficiency if required.",
-            "CV or résumé, where requested.",
-            "Statement of purpose/personal statement, if required.",
-            "References from academic or professional circles when indicated.",
-            "Evidence of relevant engineering experience, where applicable.",
-            "Details of previous projects, research or technical experience as requested."
+          t: "ul",
+          items: [
+            "IELTS Academic: Overall band 6.5 with at least 6.0 in each individual band.",
+            "TOEFL iBT: Minimum total score of 88 to 92 (sub-scores 20+).",
+            "PTE Academic: Overall score of 63 to 65 (minimum 59 in communicative skills)."
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Some specialist courses may have additional requirements. For instance, a flight-test programme might consider relevant aerospace education or industry experience.",
-            "Applicants should check the official course page for accepted qualifications, English language scores, application deadlines and required documents before submitting an application."
+          t: "p",
+          items: [
+            "Required Application Documents:",
+            "• Official Bachelor's degree certificates and semester mark sheets",
+            "• Valid international passport with at least 12 months remaining validity",
+            "• Technical Statement of Purpose (SOP) articulating passion for aeronautical research or flight test evaluation",
+            "• Two academic or professional letters of recommendation from engineering professors/managers",
+            "• Detailed CV highlighting technical project work (CFD, FEA, CAD, aerodynamics, or drone design)"
           ]
         }
       ]
     },
     {
-      "slot": "tuition",
-      "eyebrow": "Tuition & Living Costs",
-      "title": "6. Cost of Studying Aerospace Engineering in Ireland",
-      "groups": [
+      slot: "costs",
+      eyebrow: "Tuition & Living Costs",
+      title: "Tuition Fees & Estimated Student Budget (2026–2027)",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "The total cost includes tuition fees, accommodation, food, transportation, medical insurance, study materials and personal items.",
-            "For a similar engineering option, the University of Galway shows the following tuition for 2026/27:",
-            "University of Galway \\| €28,640",
-            "Other costs you may need to factor in:"
+          t: "p",
+          items: [
+            "Tuition fees for international postgraduate students vary by institution and laboratory testing scope. Published figures for the 2026/27 academic year include:"
+          ]
+        }
+      ],
+      table: {
+        caption: "Aerospace PG Tuition Fees & Living Costs in Ireland (2026–2027)",
+        headers: ["Expense Category", "Estimated Cost", "Key Details & Notes"],
+        rows: [
+          [
+            "University of Limerick (UL)",
+            "€17,500 – €22,000 / year",
+            "MSc Aeronautical Engineering (annual non-EU postgraduate tuition)"
+          ],
+          [
+            "South East Technological University (SETU)",
+            "€16,000 – €18,500 / year",
+            "MEng Flight Test Engineering (specialized technical degree)"
+          ],
+          [
+            "University of Galway",
+            "€28,640 / year",
+            "MSc in Wind Energy / Mechanical Engineering (includes listed levy)"
+          ],
+          [
+            "Student Housing (Limerick / Carlow / Galway)",
+            "€550 – €850 / month",
+            "Significantly lower accommodation costs outside Dublin"
+          ],
+          [
+            "Food, Utilities & Transit",
+            "€300 – €450 / month",
+            "Groceries, heating, electricity, high-speed WiFi, and student transport"
+          ],
+          [
+            "Irish Residence Permit (IRP) & Medical Insurance",
+            "€300 (IRP) + €180 – €300 (Insurance)",
+            "Mandatory annual immigration fee and international health insurance"
+          ]
+        ]
+      }
+    },
+    {
+      slot: "process",
+      eyebrow: "Step-by-Step Guide",
+      title: "Application & Visa Roadmap for Ireland",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Follow this structured 8-step roadmap to secure admission and your student visa for postgraduate Aerospace Engineering in Ireland:"
+          ]
+        }
+      ],
+      steps: [
+        {
+          num: "1",
+          title: "Program Selection",
+          desc: "Compare specialized curricula across UL (MSc Aeronautical), SETU (MEng Flight Test), and Galway (aerodynamics & energy) based on career goals."
+        },
+        {
+          num: "2",
+          title: "Assess Academic Eligibility",
+          desc: "Verify your BE/BTech marks (minimum 60–65%) in aerospace or mechanical engineering, and confirm English language testing scores (IELTS/TOEFL/PTE)."
+        },
+        {
+          num: "3",
+          title: "Assemble Application Files",
+          desc: "Compile official university degree certificates, transcripts, a focused SOP, academic references, and a detailed technical project portfolio."
+        },
+        {
+          num: "4",
+          title: "Submit Direct Applications",
+          desc: "Apply online through individual university postgraduate portals well before published deadlines (typically October to June for September intake)."
+        },
+        {
+          num: "5",
+          title: "Accept Offer & Pay Deposit",
+          desc: "Upon receiving your conditional or full offer, review terms, accept your place, and wire the required tuition deposit."
+        },
+        {
+          num: "6",
+          title: "Prepare Financial Evidence",
+          desc: "Organize documentation showing readily available funds of at least €10,000 for living costs plus evidence of full first-year tuition payment."
+        },
+        {
+          num: "7",
+          title: "Apply for Irish Student Visa (Stamp 2)",
+          desc: "Complete your online AVATS application, attend your VFS biometric appointment, and submit all authenticated documents."
+        },
+        {
+          num: "8",
+          title: "Relocate & Register with Immigration",
+          desc: "Travel to Ireland, attend university orientation, settle into student accommodation, and register with immigration for your Irish Residence Permit (IRP)."
+        }
+      ]
+    },
+    {
+      slot: "accreditation",
+      eyebrow: "Professional Recognition",
+      title: "Accreditation & Engineers Ireland Recognition",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Engineers Ireland accredits engineering programs against rigorous academic and professional training standards.",
+            "Accreditation Benefits & Global Mobility:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "- Accommodation and utility costs",
-            "- Food and groceries",
-            "- Public transit",
-            "- Medical insurance",
-            "- Visa and immigration expenses, where applicable",
-            "- Books, supplies and personal expenses."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Accommodation can be a big expense, particularly in cities where student accommodation is hard to find. Verify whether there are scholarships, research funding or other financial support available and check their eligibility conditions before counting on them."
+          t: "ul",
+          items: [
+            "Chartered Engineer (CEng) Educational Benchmark: Level 9 Master's qualifications fulfill the educational requirement for Chartered Engineer registration.",
+            "Washington Accord Reciprocity: Ensures reciprocal professional recognition in India (NBA), the UK (Royal Aeronautical Society), USA (ABET), Australia, and Canada.",
+            "Industry Alignment: Programs are audited regularly to reflect modern flight certification standards (EASA / FAA) and computational simulation standards."
           ]
         }
       ]
     },
     {
-      "slot": "process",
-      "eyebrow": "Application Steps",
-      "title": "7. Ireland Aerospace Engineering Admission Process",
-      "steps": [
+      slot: "careers",
+      eyebrow: "Career & Salaries",
+      title: "Career Opportunities & Post-Study Work Scheme in Ireland",
+      groups: [
         {
-          "step": "01",
-          "title": "The application process typically includes the following steps",
-          "desc": ""
-        }
-      ]
-    },
-    {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Recognition",
-      "title": "8. Complete immigration formalities: Check the current requirements for Irish visas and student permission for international students.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "8\\. Accreditation and Recognition of Aerospace Engineering in Ireland",
-            "Accreditation is important for students seeking professional engineering recognition However, accreditation is for specific programs and may depend on the qualification, course structure and relevant years of intake.",
-            "Check before you accept an offer:"
+          t: "p",
+          items: [
+            "Aerospace and aeronautical Master's graduates work across international aircraft manufacturing, flight testing, aviation leasing, airline engineering, and simulation consultancies.",
+            "Prominent Career Roles:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Whether the exact program is recognized.",
-            "What professional body / accreditation framework is relevant",
-            "Whether the accreditation is for the year you plan to study.",
-            "if your qualification meets the educational requirements of your chosen professional stream.",
-            "Whether any additional experience or competencies are required."
+          t: "ul",
+          items: [
+            "Aeronautical & Aerospace Design Engineer",
+            "Aerospace Structural & Stress Analysis Engineer (FEA)",
+            "Flight Test & Performance Evaluation Engineer",
+            "Aerodynamics & Computational Fluid Dynamics (CFD) Specialist",
+            "Aircraft Systems & Avionics Integration Engineer",
+            "Flight Simulation & Virtual Testing Engineer",
+            "Aircraft Fleet Technical & Leasing Manager",
+            "Wind Turbine Aerodynamicist & Blade Design Specialist"
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Engineers Ireland holds specifics on recognized engineering programs and professional validation."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Career Outcomes",
-      "title": "9. Salary and Job Prospects After Studying Aerospace Engineering in Ireland",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Aerospace and Aeronautical Engineering Graduates can work in aircraft systems, engineering analysis, flight testing, structural design, simulation and technical research.",
-            "Possible job titles include:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "- Aeronautical Engineering",
-            "- Aerospace Design Engineer",
-            "Aerospace Structures Engineer",
-            "- Flight Testing Engineer",
-            "- Aerodynamic Engineer",
-            "- Computational Fluid Dynamics Engineer",
-            "*Aircraft Systems Engineer",
-            "*Engineer (Avionics)",
-            "Simulation Engineer - Engineering",
-            "*Development Engineer"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Advanced manufacturing, composites, aviation technology, engineering consultancy and related energy sectors may also offer career opportunities.",
-            "The salary is determined by experience, specialization, employer and location. Graduates should compare graduate level positions from experienced engineering roles for the specific role they want to use Irish vacancies"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Document Checklist",
-      "title": "10. Documents to Study Aerospace Engineering in Ireland",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Universities might ask for the following documents:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Passport with validity -",
-            "Bachelor’s degree certificate or provisional certificate",
-            "Academic transcripts and mark sheets.",
-            "Results of English proficiency test, if applicable",
-            "CV or résumé, if requested"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "If applicable, a purpose statement"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Academic or professional references if needed",
-            "Details of engineering projects, research or work experience (if relevant)",
-            "Certified translations for documents that are not accepted in the original language",
-            "Documentation regarding finance and immigration for the particular visa or permit"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "For some programs you may be asked to provide evidence of relevant industry experience or further technical information."
+          t: "p",
+          items: [
+            "Indicative Annual Gross Salaries in Ireland:",
+            "• Entry-Level Master's Graduate: €33,000 – €43,000 per year",
+            "• Experienced Aerospace Engineer (3–5 years experience): €45,000 – €65,000 per year",
+            "• Senior Specialist / Flight Test Lead: €65,000 – €85,000+ per year",
+            "2-Year Graduate Visa (Stamp 1G): Graduates of NFQ Level 9 Master's programs are granted 24 months of full-time, unrestricted employment authorization in Ireland, providing a direct bridge to Critical Skills Employment Permits."
           ]
         }
       ]
     }
   ],
-  "table": {
-    "title": "Estimated Cost of Studying Aerospace Engineering (PG) in Ireland in Ireland (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (€ / EUR)",
-      "Details / Scope"
-    ],
-    "rows": [
-      [
-        "Undergraduate Degree (Annual)",
-        "€13,500 – €27,640 / year",
-        "Varies by institution ranking, laboratory facilities, and program"
-      ],
-      [
-        "Postgraduate Degree (Annual)",
-        "€15,000 – €28,640 / year",
-        "1-year intensive master's program or 2-year research degree"
-      ],
-      [
-        "Living Expenses (Dublin)",
-        "€1,000 – €1,400 / month",
-        "Includes student accommodation, meals, utilities, and public transit"
-      ],
-      [
-        "Living Expenses (Outside Dublin)",
-        "€800 – €1,100 / month",
-        "Cost of living in Cork, Galway, Limerick, or Maynooth"
-      ],
-      [
-        "Student Visa & IRP Card Fee",
-        "€300 / year",
-        "Mandatory Irish Residence Permit (IRP) registration fee"
-      ]
-    ]
-  },
-  "faqs": [
+  faqs: [
     {
-      "q": "Q1. Is Ireland good for Aerospace Engineering postgraduates?",
-      "a": "Aeronautical engineering, flight testing, aircraft systems and related engineering research are fields that may make Ireland an option for students. However, the choice of dedicated Aerospace master's programs is more limited than in some countries, so look carefully at the exact course options."
+      q: "Is Ireland a good destination for postgraduate Aerospace Engineering?",
+      a: "Yes. Ireland is the world's commercial aviation leasing capital and hosts specialized aeronautical and flight testing faculties. Master's students benefit from advanced flight simulators, wind tunnels, 1-year degree structures, and a 2-year post-study work visa (Stamp 1G)."
     },
     {
-      "q": "Q2. What are the relevant postgraduate courses available?",
-      "a": "The University of Limerick offers an MSc in Aeronautical Engineering. SETU offers an MEng in Flight Test Engineering and the University of Galway offers an associated MSc in Wind Energy Engineering. These courses have different specializations and should not be treated as equivalents."
+      q: "What specific postgraduate aerospace courses are available in Ireland?",
+      a: "The University of Limerick offers an MSc in Aeronautical Engineering, South East Technological University (SETU) offers a specialized MEng in Flight Test Engineering, and the University of Galway offers aerodynamic research options through its MSc in Wind Energy Engineering and Mechanical Engineering."
     },
     {
-      "q": "Q3. What is the duration of a postgraduate engineering course?",
-      "a": "Many full-time engineering masters programs are about one year long. Check how long that particular program is, including the research project or other requirements."
+      q: "Can Mechanical Engineering graduates apply for Aerospace Master's programs in Ireland?",
+      a: "Yes. Graduates holding a recognized 4-year BE/BTech in Mechanical Engineering are eligible to apply, provided they have completed prerequisite coursework in fluid dynamics, thermodynamics, mathematics, and materials science."
     },
     {
-      "q": "Q4. Can Aerospace Engineering PG be pursued by Mechanical Engineering Graduates?",
-      "a": "Some related programs also accept graduates of mechanical engineering. But it is contingent upon the university and the course. Check the requirements for * aerodynamics , mechanics , materials and other relevant subjects ."
+      q: "What is the duration of an aerospace Master's program in Ireland?",
+      a: "Most taught engineering Master's degrees in Ireland are 1 year full-time (90 ECTS credits), divided into two semesters of modular coursework and a summer technical research dissertation or flight test evaluation project."
     },
     {
-      "q": "Q5. What types of jobs are available after a postgraduate course?",
-      "a": "The positions that can be taken up are aeronautical engineer, aircraft structures engineer, flight test engineer, aerodynamics engineer, simulation engineer and research engineer. Chances depend on your qualifications, technical skills, employer demands and prevailing work-permission rules."
+      q: "What career opportunities are available after completing an aerospace Master's in Ireland?",
+      a: "Graduates secure roles as aeronautical engineers, structural stress analysts, CFD specialists, flight test engineers, avionics integration engineers, and aircraft leasing technical managers across Ireland, the UK, Europe, and India."
     },
     {
-      "q": "How can Edu Hawk worldwide Consultancy help me to study abroad?",
-      "a": "Edu Hawk worldwide allows students to find the right universities, get to know admission requirements, arrange application documents and plan their study-abroad journey. Students are responsible for checking academic, financial, immigration and licensing requirements with the appropriate official authority."
+      q: "How does EduHawk Worldwide assist students with aerospace engineering applications?",
+      a: "EduHawk Worldwide provides specialized counseling—including matching student backgrounds with specialized aeronautical or flight test tracks, SOP editing, LOR coordination, scholarship guidance, and full Irish student visa (AVATS) processing."
     }
   ]
 };
 
 export default function AerospaceEngineeringPGIreland() {
+  const images = {
+    hero: heroImg,
+    heroBg: heroBgImg,
+    side: sideImg,
+    ctaBg: ctaBgImg
+  };
+
   return (
     <AbroadCoursePage
       page={page}
@@ -452,8 +406,8 @@ export default function AerospaceEngineeringPGIreland() {
       heroBgImg={heroBgImg}
       sideImg={sideImg}
       ctaBgImg={ctaBgImg}
-      showHeroStats={false}
-      seoPath="/study-abroad/ireland/pg/aerospace-engineering"
+      seoPath={page.slug}
+      images={images}
     />
   );
 }

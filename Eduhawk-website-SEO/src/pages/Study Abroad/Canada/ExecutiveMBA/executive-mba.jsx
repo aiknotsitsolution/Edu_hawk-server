@@ -20,8 +20,7 @@ const page = {
   "keywords": "Study Executive MBA in Canada, Executive MBA in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Indian Students studying an Executive MBA in Canada",
   "heroParas": [
-    "A postgraduate management program called a Executive Master of company Administration (Executive MBA or EMBA) is primarily intended for seasoned professionals, managers, company executives, and entrepreneurs who wish to improve their leadership and strategic decision-making skills",
-    "Executive MBA programs in Canada are frequently designed with working professionals' requirements in mind, in contrast to many typical full-time MBA programs. Classes may be offered online, on weekends, in intense modules, or through a combination of learning modes, depending on the university."
+    "A postgraduate management program called a Executive Master of company Administration (Executive MBA or EMBA) is primarily intended for seasoned professionals, managers, company executives, and entrepreneurs who wish to improve their leadership and strategic decision-making skills"
   ],
   "overview": [
     "A postgraduate management program called a Executive Master of company Administration (Executive MBA or EMBA) is primarily intended for seasoned professionals, managers, company executives, and entrepreneurs who wish to improve their leadership and strategic decision-making skills",

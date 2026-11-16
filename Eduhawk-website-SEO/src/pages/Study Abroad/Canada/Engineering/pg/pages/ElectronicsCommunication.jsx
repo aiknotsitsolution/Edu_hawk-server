@@ -20,8 +20,7 @@ const page = {
   "keywords": "Study Electronics & Communication - PG in Canada, Electronics & Communication - PG in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Indian Students Studying Electronics and Communication Engineering in Canada",
   "heroParas": [
-    "Students looking for postgraduate Electronics and Communication Engineering courses in Canada I have a lot of options. Advanced knowledge of semiconductor technologies, embedded systems, wireless networks, electronics, signal processing, and telecommunications can be acquired by students.",
-    "These courses may be offered by Electrical Engineering, Electrical and Computer Engineering , Telecommunications Engineering, or similar departments in Canadian universities. Students should choose a curriculum based on their academic background, career goals, and areas of expertise."
+    "Students looking for postgraduate Electronics and Communication Engineering courses in Canada I have a lot of options. Advanced knowledge of semiconductor technologies, embedded systems, wireless networks, electronics, signal processing, and telecommunications can be acquired by students."
   ],
   "overview": [
     "Students looking for postgraduate Electronics and Communication Engineering courses in Canada I have a lot of options. Advanced knowledge of semiconductor technologies, embedded systems, wireless networks, electronics, signal processing, and telecommunications can be acquired by students.",

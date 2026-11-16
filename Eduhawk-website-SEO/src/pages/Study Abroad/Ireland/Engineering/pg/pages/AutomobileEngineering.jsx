@@ -12,364 +12,368 @@ import uniImg1 from "../../../../../../Images/Abroad/Ireland/Engineering_PG/Auto
 import uniImg2 from "../../../../../../Images/Abroad/Ireland/Engineering_PG/Automobile/University_of_Galway.webp";
 
 const page = {
-  "name": "Automobile Engineering (PG) in Ireland",
-  "country": "Ireland",
-  "slug": "pg/automobile-engineering",
-  "title": "Study Automobile Engineering (PG) in Ireland for Indian Students | Edu-Hawk Worldwide",
-  "description": "Complete guide to Automobile Engineering (PG) in Ireland for Indian students: Top Irish universities, eligibility criteria, tuition fees (€13,500 – €28,640 / year), scholarships, and 2-year post-study work visa (Stamp 1G).",
-  "keywords": "Study Automobile Engineering PG in Ireland for Indian Students, Top Universities for Automobile Engineering Master's in Ireland, Postgraduate Automobile Engineering Courses in Ireland, MSc Mechanical Engineering in Ireland for International Students, Trinity College Dublin MSc Mechanical Engineering Fees 2026/27, University of Galway MSc Mechanical Engineering Fees, Automobile Engineering Tuition Fees in Ireland for Indian Students, Electric Vehicle Technology and Sustainable Transport Courses in Ireland, Zero-Carbon Technology Master's in Ireland, Automotive Systems and Mechanical Design Engineering in Ireland",
-  "introTitle": "STUDY AUTOMOBILE ENGINEERING IN IRELAND",
-  "heroParas": [
-    "Study Automobile Engineering in Ireland"
+  name: "Automobile Engineering (PG) in Ireland",
+  country: "Ireland",
+  slug: "study-abroad/ireland/pg/automobile-engineering",
+  title: "Study Automobile Engineering (PG) in Ireland for Indian Students | EduHawk",
+  description: "Complete guide to Master's in Automobile & Sustainable Transport Engineering in Ireland: Top universities (Trinity, Galway), EV technology, eligibility, fees (€27,780 – €28,640/yr), salaries, and 2-year Stamp 1G work visa.",
+  keywords: "Study Automobile Engineering PG in Ireland for Indian Students, Top Universities for Automobile Engineering Master's in Ireland, Postgraduate Automobile Engineering Courses in Ireland, MSc Mechanical Engineering in Ireland for International Students, Trinity College Dublin MSc Mechanical Engineering Fees 2026/27, University of Galway MSc Mechanical Engineering Fees, Automobile Engineering Tuition Fees in Ireland for Indian Students, Electric Vehicle Technology and Sustainable Transport Courses in Ireland, Zero-Carbon Technology Master's in Ireland, Automotive Systems and Mechanical Design Engineering in Ireland",
+  introTitle: "STUDY AUTOMOBILE ENGINEERING IN IRELAND",
+  heroParas: [
+    "Automobile and Sustainable Transport Engineering in Ireland offers specialized 1-year postgraduate programs (MSc, MEng) focusing on electric vehicle (EV) drivetrains, battery energy storage, zero-carbon transport technologies, and advanced vehicle systems modeling. Offered through premier mechanical engineering faculties including Trinity College Dublin (Zero-Carbon Technology pathway) and the University of Galway, these NFQ Level 9 Master's programs feature non-EU tuition fees from €27,780 to €28,640 per year, Engineers Ireland Washington Accord accreditation, and a 2-year post-study work visa under the Third Level Graduate Scheme (Stamp 1G)."
   ],
-  "overview": [
-    "Study Automobile Engineering in Ireland"
+  overview: [
+    "The global automotive sector is undergoing its most radical transformation in a century, led by vehicle electrification, autonomous driving, connected telematics, and decarbonization mandates. Ireland offers postgraduate engineering candidates an exceptional launchpad into sustainable mobility and automotive systems engineering.",
+    "While standalone Master's degrees bearing the exact title 'Automobile Engineering' are selective, Irish universities offer specialized postgraduate pathways within Master of Science in Mechanical Engineering curricula. Notable among these is the specialized Zero-Carbon Technology pathway at Trinity College Dublin (TCD) and advanced computational vehicle mechanics at the University of Galway, both rated at NFQ Level 9 (90 ECTS).",
+    "Students develop advanced expertise across automotive design, electric drivetrains, battery chemistry and battery management systems (BMS), structural crashworthiness, vehicle dynamics simulation, and computational fluid dynamics (CFD). Training utilizes cutting-edge CAD/CAE tools (CATIA, SolidWorks, ANSYS) and hardware-in-the-loop control testbeds.",
+    "Engineering Master's programs in Ireland are accredited by Engineers Ireland under the Washington Accord, guaranteeing reciprocal recognition in India, the UK, USA, Australia, and Canada. EduHawk Worldwide provides dedicated support for automotive and mechanical graduates—from curriculum evaluation and university shortlisting to SOP drafting and Irish student visa (Stamp 2) guidance."
   ],
-  "level": "Master of Science (MSc) in Mechanical Engineering / Sustainable Automotive Technology",
-  "crumb": "Engineering / Automobile Engineering (PG)",
-  "stats": [
+  level: "Master of Science (MSc) in Mechanical Engineering (Automotive Systems & Zero-Carbon Technology) (NFQ Level 9)",
+  crumb: "Engineering / Automobile Engineering (PG)",
+  stats: [
     {
-      "label": "Degree Choices",
-      "value": "Master of Science (MSc) in Mechanical Engineering / Sustainable Automotive Technology"
+      label: "Course Duration",
+      value: "1 Year Full-Time (90 ECTS)"
     },
     {
-      "label": "Course Duration",
-      "value": "1 to 2 Years (Full-Time)"
+      label: "Green Mobility",
+      value: "EV & Zero-Carbon Transport Focus"
     },
     {
-      "label": "Top Institutions",
-      "value": "Trinity College Dublin, University of Galway"
+      label: "Tuition Range",
+      value: "€27,780 – €28,640 / Year"
     },
     {
-      "label": "Post-Study Work",
-      "value": "2 Years Third Level Graduate Scheme (Stamp 1G)"
+      label: "Post-Study Work",
+      value: "2 Years (Stamp 1G Graduate Visa)"
     }
   ],
-  "sections": [
+  sections: [
     {
-      "slot": "why",
-      "eyebrow": "Why Study in Ireland",
-      "title": "1. Why Automobile Engineering in Ireland?",
-      "groups": [
+      slot: "why",
+      eyebrow: "Why Study in Ireland",
+      title: "Why Study Automobile & Sustainable Mobility Engineering in Ireland?",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Ireland is a sought-after location for postgraduate engineering studies, owing to its robust higher-education system, its international business environment and its opportunities in advanced manufacturing, engineering research, automation and sustainable transport.",
-            "Dedicated masters programs in Automobile Engineering are limited in Ireland, but students can opt for related postgraduate courses in mechanical engineering, zero-carbon technology, transport technology and advanced engineering.",
-            "Main benefits include:"
+          t: "p",
+          items: [
+            "With Europe enforcing stringent net-zero transport targets and Ireland investing heavily in EV charging infrastructure and clean transport research, postgraduate study offers distinctive strategic advantages:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Postgraduate qualifications which are internationally recognised. - Investigation of electric vehicles, sustainable mobility, energy efficiency and advanced manufacturing. - Research-led engineering education and access to hands-on projects. - Career opportunities in mechanical design, automotive systems, manufacturing, testing and research and development. - Multicultural study environment and opportunities to develop professional networks."
+          t: "ul",
+          items: [
+            "Internationally Recognized Level 9 Master's: Globally acclaimed qualifications integrating automotive engineering, sustainable energy, and advanced manufacturing.",
+            "Specialized EV & Zero-Carbon Focus: Direct investigation into electric drivetrains, battery energy storage systems, hydrogen fuel cells, and transport emissions abatement.",
+            "Research-Led Project Work: Applied automotive design, finite element crash analysis, and aerodynamic drag reduction conducted within premier academic laboratories.",
+            "Thriving Advanced Engineering Ecosystem: Direct recruitment by multinational automotive tier-1 suppliers, engineering consultancies, autonomous vehicle software teams, and fleet electrification operators.",
+            "Multicultural Professional Environment: High-caliber academic cohorts, industry guest lectures, and direct networking with European automotive engineering societies."
           ]
         }
       ]
     },
     {
-      "slot": "courses",
-      "eyebrow": "Degrees & Programs",
-      "title": "2. Car Engineering Courses in Ireland",
-      "groups": [
+      slot: "courses",
+      eyebrow: "Degrees & Programs",
+      title: "Automobile & Vehicle Engineering Curriculum Areas",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Automobile Engineering deals with the design, development, testing and manufacture of vehicles and their systems. In Ireland, relevant postgraduate options are generally available through related engineering disciplines.",
-            "Popular fields of study include"
+          t: "p",
+          items: [
+            "Postgraduate automotive modules in Ireland combine classical vehicle mechanics with next-generation electrified and autonomous vehicle systems:",
+            "Key Focus Disciplines:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Automotive and vehicle systems: Car design, parts development, car dynamics and performance. - Electric vehicle technology: electric drivetrains, batteries and energy storage, vehicle electrification. - Mechanical engineering: design, materials, manufacturing, thermodynamics and fluid mechanics. - Sustainable transport technology: Low carbon mobility, transport energy systems and emission reduction. - Computational engineering: Simulation, modeling, control systems and engineering analysis. - Advanced manufacturing: Production systems, automation, quality engineering and industrial processes."
+          t: "ul",
+          items: [
+            "Automotive & Vehicle Dynamics: Vehicle chassis architecture, suspension kinematics, braking systems, and directional stability modeling.",
+            "Electric Vehicle (EV) Technology: Electric motor topologies, high-voltage battery storage, regenerative braking, and power electronics converters.",
+            "Mechanical Engineering Principles: Advanced thermal management of battery packs, lightweight alloy composites, and fatigue analysis.",
+            "Sustainable Transport Technology: Low-carbon public mobility, lifecycle emissions assessment (LCA), and alternative green fuels.",
+            "Computational Engineering & Simulation: Finite Element Analysis (FEA), Multibody Simulation (MBD), and Computational Fluid Dynamics (CFD).",
+            "Advanced Manufacturing Automation: Automated assembly, robotic laser welding, digital twins, and automotive quality assurance standards."
           ]
         }
       ]
     },
     {
-      "slot": "universities",
-      "eyebrow": "Top Institutions",
-      "title": "3. Best Universities for Automobile Engineering in Ireland",
-      "unis": [
+      slot: "universities",
+      eyebrow: "Top Institutions",
+      title: "Top Universities for Postgraduate Automobile Engineering in Ireland",
+      groups: [
         {
-          "name": "Trinity College Dublin",
-          "desc": "Trinity College, Dublin",
-          "imgKey": "uniImg_Trinity_College_Dublin_webp",
-          "imgIdentifier": "uniImg1",
-          "city": "Dublin, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg1
+          t: "p",
+          items: [
+            "The following top-ranked universities provide specialized Master's programs focused on vehicle systems, zero-carbon technology, and mechanical engineering:"
+          ]
+        }
+      ],
+      unis: [
+        {
+          name: "Trinity College Dublin (TCD)",
+          city: "Dublin",
+          state: "Leinster",
+          desc: "Offers the prestigious MSc in Mechanical Engineering with a dedicated Zero-Carbon Technology pathway. Directly explores low-carbon vehicle technology, energy systems, and advanced thermodynamics with tuition of €27,780/year.",
+          img: uniImg1
         },
         {
-          "name": "University of Galway",
-          "desc": "* Galway University,",
-          "imgKey": "uniImg_University_of_Galway_webp",
-          "imgIdentifier": "uniImg2",
-          "city": "Galway, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg2
+          name: "University of Galway",
+          city: "Galway",
+          state: "Connacht",
+          desc: "Provides a premier MSc in Mechanical Engineering emphasizing computational design, vehicle mechanics, composite materials, and industrial automation, with non-EU tuition of €28,640/year.",
+          img: uniImg2
         }
       ]
     },
     {
-      "slot": "eligibility",
-      "eyebrow": "Admissions Criteria",
-      "title": "4. Who is eligible to study Automobile Engineering in Ireland?",
-      "groups": [
+      slot: "eligibility",
+      eyebrow: "Admissions Criteria",
+      title: "Eligibility Criteria & Admission Requirements",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Eligibility varies from university to program. For related engineering master’s degrees applicants generally need:"
+          t: "p",
+          items: [
+            "Admission to automotive and mechanical Master's programs in Ireland requires strong quantitative and mechanical engineering fundamentals.",
+            "Academic Entry Requirements for Indian Applicants:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Bachelor’s degree in Automobile Engineering, Mechanical Engineering, Automotive Engineering, Manufacturing Engineering or closely related field recognized by the Council. - A good academic record that meets the minimum entry requirements of the university. - Relevant academic knowledge in engineering mathematics, mechanics, materials, thermodynamics or related topics. - English-language proficiency if needed, demonstrated by an accepted test or qualification."
+          t: "ul",
+          items: [
+            "Undergraduate Degree: Recognized 4-year Bachelor's degree (BE or BTech) in Automobile Engineering, Mechanical Engineering, Automotive Engineering, Manufacturing Engineering, or Mechatronics.",
+            "Minimum Academic Scores: First Class or upper Second Class Honours equivalent (minimum 60% to 65%+ aggregate, or 6.5 to 7.0+ CGPA out of 10).",
+            "Foundational Knowledge: Satisfactory coursework in engineering mathematics, mechanics of solids, fluid mechanics, thermodynamics, and materials science.",
+            "Interdisciplinary Applicants: Graduates in related electrical, mechatronics, or physics disciplines may be considered if their coursework demonstrates sufficient mechanical preparation."
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Some programs may admit graduates from other engineering, science, computing or mathematical disciplines if their background is suitable."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "requirements",
-      "eyebrow": "Entry Requirements",
-      "title": "5. Requirements to get into Automobile Engineering in Ireland",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Universities will consider your academic qualifications, subject background, English-language ability and how well your previous studies match.",
-            "Typical requirements are:"
+          t: "p",
+          items: [
+            "English Language Competency Standards:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "An accredited bachelor’s degree and academic transcripts - Evidence that the required engineering subjects are covered in previous studies. - Evidence of English proficiency, if applicable. - Statement of Purpose or Personal Statement, where required. - CV with academic projects, internships or relevant working experience, if requested. • Academic or professional references, if required by the program."
+          t: "ul",
+          items: [
+            "IELTS Academic: Overall band 6.5 (with a minimum of 6.0 in each sub-component).",
+            "TOEFL iBT: Minimum total score of 88 to 92 (sub-scores 20+).",
+            "PTE Academic: Overall score of 63 to 65 (minimum 59 in communicative skills)."
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Some courses may require additional information on a final year project, research interests or professional experience."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "tuition",
-      "eyebrow": "Tuition & Living Costs",
-      "title": "6. Study Automobile Engineering in Ireland Fees",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The cost of postgraduate study depends on the university, the course, the student fee category, accommodation and lifestyle. Dedicated master's programs in automobile engineering are limited, so students are advised to budget on the fees of the specific related program they intend to study.",
-            "Indicative tuition fees for 2026/27:",
-            "Trinity College Dublin — MSc Mechanical Engineering / Zero-Carbon Technology: €27,780 for the full-time non-EU program. - MSc Mechanical Engineering, University of Galway: Non-EU students pay a total of €28,640 for the one-year program.",
-            "These are published fees for the named programs and not a standard fee for all automotive related courses. Fees are liable to revision for subsequent intakes.",
-            "Students should also provide for: •"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Rent and utilities. - food and daily living expenses. - Health insurance and immigration-related expenses, if applicable. - Books, software, transport and other study materials. - Flights and initial set up expenses."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Accommodation in Dublin is expensive so students should compare accommodation costs in different cities and book accommodation early. Scholarships and university funding may be available but eligibility criteria and award amounts vary."
+          t: "p",
+          items: [
+            "Required Application Documents:",
+            "• Consolidated Bachelor's degree certificate and semester mark sheets",
+            "• Valid international passport with at least 12 months validity",
+            "• Statement of Purpose (SOP) articulating specific interest in vehicle electrification, mechanical design, or sustainable transport",
+            "• Two academic or professional letters of recommendation",
+            "• Comprehensive CV detailing automotive capstone projects, SAE competitions (Formula Student / Baja), or industry internships"
           ]
         }
       ]
     },
     {
-      "slot": "process",
-      "eyebrow": "Application Steps",
-      "title": "7. Automobile Engineering Admission Process in Ireland",
-      "steps": [
+      slot: "costs",
+      eyebrow: "Tuition & Living Costs",
+      title: "Tuition Fees & Estimated Student Budget (2026–2027)",
+      groups: [
         {
-          "step": "01",
-          "title": "The application process usually involves the following steps",
-          "desc": ""
+          t: "p",
+          items: [
+            "Tuition fees for international non-EU students for automotive-related Master's programs for the 2026/27 academic year include:"
+          ]
+        }
+      ],
+      table: {
+        caption: "Automobile PG Tuition Fees & Living Costs in Ireland (2026–2027)",
+        headers: ["Expense Category", "Estimated Cost", "Key Details & Notes"],
+        rows: [
+          [
+            "Trinity College Dublin (TCD)",
+            "€27,780 / year",
+            "MSc Mechanical Engineering (Zero-Carbon Technology pathway)"
+          ],
+          [
+            "University of Galway",
+            "€28,640 / year",
+            "MSc Mechanical Engineering (vehicle simulation & design)"
+          ],
+          [
+            "Student Housing (Dublin)",
+            "€800 – €1,250 / month",
+            "On-campus student residences or private shared student flats"
+          ],
+          [
+            "Student Housing (Galway)",
+            "€650 – €950 / month",
+            "More affordable student rental accommodation outside the capital"
+          ],
+          [
+            "Food, Utilities & Transit",
+            "€350 – €500 / month",
+            "Groceries, heating, electricity, WiFi, and Student Leap Card"
+          ],
+          [
+            "IRP Card & Medical Insurance",
+            "€300 (IRP) + €180 – €300 (Insurance)",
+            "Mandatory annual Irish Residence Permit and private health insurance"
+          ]
+        ]
+      }
+    },
+    {
+      slot: "process",
+      eyebrow: "Step-by-Step Guide",
+      title: "Application & Visa Roadmap for Ireland",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Follow this structured 8-step roadmap to secure admission and your student visa for postgraduate Automobile Engineering in Ireland:"
+          ]
+        }
+      ],
+      steps: [
+        {
+          num: "1",
+          title: "Select Course Pathway",
+          desc: "Compare vehicle systems and zero-carbon curricula across Trinity College Dublin and University of Galway according to your career vision."
+        },
+        {
+          num: "2",
+          title: "Assess Academic Eligibility",
+          desc: "Confirm your BE/BTech marks meet the minimum 60–65% standard and fulfill English language test requirements (IELTS/TOEFL/PTE)."
+        },
+        {
+          num: "3",
+          title: "Assemble Application Files",
+          desc: "Compile official degree certificates, academic transcripts, focused SOP, recommendation letters, and technical project portfolio."
+        },
+        {
+          num: "4",
+          title: "Submit Online Applications",
+          desc: "Apply directly through individual university postgraduate portals well ahead of deadlines (typically October to June for September start)."
+        },
+        {
+          num: "5",
+          title: "Accept Offer & Pay Deposit",
+          desc: "Upon receiving your conditional or unconditional offer, accept your seat and wire the required tuition deposit to confirm enrollment."
+        },
+        {
+          num: "6",
+          title: "Demonstrate Proof of Funds",
+          desc: "Organize documentation showing readily available funds of at least €10,000 for living costs plus evidence of full first-year tuition fee payment."
+        },
+        {
+          num: "7",
+          title: "Apply for Irish Student Visa (Stamp 2)",
+          desc: "Complete your online AVATS visa application, book your VFS Global appointment, and submit all required biometric and financial records."
+        },
+        {
+          num: "8",
+          title: "Relocate & Register with Immigration",
+          desc: "Travel to Ireland for campus orientation, finalize student accommodation, and book an appointment with immigration to obtain your Irish Residence Permit (IRP)."
         }
       ]
     },
     {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Recognition",
-      "title": "8. Prepare for your arrival: Book accommodation, travel and insurance, and register at the university.",
-      "groups": [
+      slot: "accreditation",
+      eyebrow: "Professional Standards",
+      title: "Accreditation & Engineers Ireland Recognition",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "International applicants should start early as document verification, English language testing, funding arrangements and visa processing can take time. Always check the current university deadlines and not the previous intake’s.",
-            "8\\. Recognition and Accreditation of Automobile Engineering in Ireland",
-            "When deciding on postgraduate engineering qualifications, accreditation and recognition are important considerations. Students should check the status of the particular program and not assume that all masters degrees are the same in terms of professional accreditation.",
-            "Before you apply check:",
-            "The lrecognition of the university and its credentials . - Whether the particular program has professional accreditation, and by which body. - How the qualification supports the student’s intended professional registration pathway. - Whether any further education, experience or assessment is necessary for professional recognition in Ireland or another country.",
-            "Engineers Ireland is the professional body for engineering recognition and professional registration. However, just having a master’s does not automatically mean that you are professionally registered or accredited.",
-            "Students intending to work in India or elsewhere after graduation should also check how the qualification will be evaluated by employers and the relevant professional bodies in that destination."
+          t: "p",
+          items: [
+            "Accreditation by Engineers Ireland validates that a postgraduate engineering curriculum satisfies international professional standards.",
+            "Accreditation Benefits & Global Recognition:"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "Chartered Engineer (CEng) Educational Benchmark: Level 9 MEng/MSc programs fulfill the academic requirement for Chartered Engineer registration.",
+            "Washington Accord Signatory: Confers full reciprocal recognition in India (NBA), the UK (IMechE), USA (ABET), Australia, and Canada.",
+            "Global Employability: European automotive OEMs and engineering consultancies place a premium on candidates from accredited programs."
           ]
         }
       ]
     },
     {
-      "slot": "careers",
-      "eyebrow": "Career Outcomes",
-      "title": "9. Wages and Job Opportunities in Automobile Engineering in Ireland",
-      "groups": [
+      slot: "careers",
+      eyebrow: "Career & Salaries",
+      title: "Career Opportunities & Post-Study Work Scheme in Ireland",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "A postgraduate qualification in a relevant engineering discipline can enhance applications for jobs in automotive-related engineering, mechanical design, manufacturing, testing and sustainable transport. The real odds depend on what employers are looking for and what jobs are open that match up.",
-            "Possible positions:"
+          t: "p",
+          items: [
+            "Graduates with a Master's degree in automotive systems, zero-carbon technology, and mechanical engineering enjoy vibrant career demand across automotive OEMs, tier-1 suppliers, battery developers, and engineering consultancies.",
+            "Prominent Career Roles:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Automotive/Mechanical Design Engineer. - Vehicle Systems Engineer.",
-            "Production or Manufacturing Engineer. - Test & Validation Engineer. - Systems Engineering for Electric Vehicles."
+          t: "ul",
+          items: [
+            "Automotive Design & CAD/CAE Modeling Engineer",
+            "Electric Vehicle (EV) Systems & Drivetrain Engineer",
+            "Battery Thermal Management & Enclosure Specialist",
+            "Vehicle Dynamics & Crash Simulation Engineer (FEA)",
+            "Automotive Testing, Telemetry & Validation Engineer",
+            "Manufacturing & Robotic Assembly Automation Engineer",
+            "Sustainable Transport & Fleet Decarbonization Consultant",
+            "R&D Engineer in Advanced Mobility & Energy Storage"
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Quality engineer."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Research & Development Engineer",
-            "Project Engineer, Engineering."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Graduates may also consider positions in industrial manufacturing, automation, energy systems, engineering consultancy and product development. These are related career paths, but a particular automotive job may require specific skills or prior experience.",
-            "Indicative salary ranges in Ireland are as follows:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Jobs for graduate engineers: Approx. €39,000–€45,000. - Early-career mechanical or design engineering roles: €40,000–€55,000. - Senior engineering positions: around €55,000–€75,000+ depending on the position."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Note that these are approximate figures based on average engineering salary benchmarks and not guarantyd salaries for automobile engineering graduates. Engineers Ireland says graduate engineers with between one and two years’ experience usually earn about €39,000, while a 2026 engineering salary guide shows mechanical design positions ranging from €40,000 to €55,000 for those with up to three years’ experience. \\",
-            "Your salary is based on where you work, who you work for, your technical expertise, your experience and the duties of the position. Skills in electric vehicle systems, simulation, CAD/CAE tools, control systems, testing and manufacturing help candidates to demonstrate their suitability for relevant positions."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Document Checklist",
-      "title": "10. Documents Required to Study Automobile Engineering in Ireland",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The following documents are often required, depending on the university and the applicant’s situation:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Passport is valid. - Bachelor’s degree certificate or provisional certificate. - Academic transcripts and mark sheets."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "English language test results (where applicable). - CV or résumé if requested. - Personal statement or statement of purpose (if applicable). - Letters of recommendation, if applicable. - Evidence of relevant experience, where applicable. - Portfolio or project details if required for a specific program. *Financial documents and other immigration paperwork, as applicable.",
-            "Documents issued in a language other than English may require translation into English. Applicants must adhere to the University’s format and verification requirements for documents and the official Irish immigration guidance for visa documents."
+          t: "p",
+          items: [
+            "Indicative Annual Gross Salaries in Ireland:",
+            "• Entry-Level / Junior Graduate: €39,000 – €45,000 per year",
+            "• Early-Career Engineer (2–4 years experience): €40,000 – €55,000 per year",
+            "• Senior Engineer / Project Lead: €55,000 – €75,000+ per year",
+            "2-Year Graduate Visa (Stamp 1G): Graduates of NFQ Level 9 Master's programs are entitled to 24 months of unrestricted full-time work authorization in Ireland, providing a direct route to Critical Skills Employment Permits."
           ]
         }
       ]
     }
   ],
-  "table": {
-    "title": "Estimated Cost of Studying Automobile Engineering (PG) in Ireland in Ireland (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (€ / EUR)",
-      "Details / Scope"
-    ],
-    "rows": [
-      [
-        "Undergraduate Degree (Annual)",
-        "€13,500 – €27,640 / year",
-        "Varies by institution ranking, laboratory facilities, and program"
-      ],
-      [
-        "Postgraduate Degree (Annual)",
-        "€15,000 – €28,640 / year",
-        "1-year intensive master's program or 2-year research degree"
-      ],
-      [
-        "Living Expenses (Dublin)",
-        "€1,000 – €1,400 / month",
-        "Includes student accommodation, meals, utilities, and public transit"
-      ],
-      [
-        "Living Expenses (Outside Dublin)",
-        "€800 – €1,100 / month",
-        "Cost of living in Cork, Galway, Limerick, or Maynooth"
-      ],
-      [
-        "Student Visa & IRP Card Fee",
-        "€300 / year",
-        "Mandatory Irish Residence Permit (IRP) registration fee"
-      ]
-    ]
-  },
-  "faqs": [
+  faqs: [
     {
-      "q": "Q1. Is it possible to do master’s in Automobile Engineering in Ireland?",
-      "a": "There are few postgraduate programs in Ireland with the specific title Automobile Engineering. Students can also look into related degrees in Mechanical Engineering, Zero-Carbon Technology, and other engineering fields that align with their interest in the automotive industry."
+      q: "Can I study a Master's specifically in Automobile Engineering in Ireland?",
+      a: "While dedicated programs titled 'Automobile Engineering' are selective, Irish universities offer specialized Master of Science (MSc) in Mechanical Engineering degrees with dedicated pathways in vehicle systems, electric vehicles, and Zero-Carbon Technology (such as Trinity College Dublin)."
     },
     {
-      "q": "Q2. Which are the best universities for postgraduate study in automobile-related courses?",
-      "a": "For related mechanical engineering and sustainable transport studies, you could check out Trinity College Dublin and University of Galway. See their current course modules and entry requirements for suitability to your goals."
+      q: "Which are the best universities in Ireland for automotive-related postgraduate study?",
+      a: "Trinity College Dublin (TCD) offers an MSc in Mechanical Engineering with a specialized Zero-Carbon Technology pathway, and the University of Galway offers an MSc in Mechanical Engineering focusing on vehicle design, materials, and CAD/FEA simulation."
     },
     {
-      "q": "Q3. What is the cost of automobile-based master’s courses in Ireland?",
-      "a": "Published non-EU tuition fees for 2026/27 include Trinity's full-time MSc in Mechanical Engineering / Zero-Carbon Technology at €27,780 and the University of Galway's MSc in Mechanical Engineering at €28,640. Other programs may charge different fees."
+      q: "What are the tuition fees for automobile-related Master's programs in Ireland?",
+      a: "For the 2026/27 academic year, published non-EU tuition fees are €27,780 at Trinity College Dublin for its full-time MSc in Mechanical Engineering (Zero-Carbon Technology) and €28,640 at the University of Galway. Living expenses average €10,000 to €15,000 annually."
     },
     {
-      "q": "Q4. What are the career options after PG in engineering related to automobiles?",
-      "a": "Depending on your specialization and experience, you can apply for mechanical design, manufacturing, testing and validation, vehicle systems, electric vehicle technology, quality engineering or research and development positions."
+      q: "What are the career prospects after an automotive-focused Master's in Ireland?",
+      a: "Graduates secure roles as vehicle design engineers, EV powertrain specialists, test and validation engineers, manufacturing automation leads, and R&D engineers across Ireland, the UK, Europe, and India."
     },
     {
-      "q": "Q5. Is Ireland a good location for electric vehicles and sustainable automotive technology?",
-      "a": "Students who want to focus on the transition to low-carbon transport could find Ireland a good fit. Some programs include low-carbon transport content, such as the Zero-Carbon Technology pathway at Trinity, though students should check the current curriculum and research opportunities before applying."
+      q: "Is Ireland a good destination for electric vehicle (EV) and sustainable transport technology?",
+      a: "Yes. Ireland is actively transitioning to net-zero transport and hosts leading research centers in sustainable energy and advanced materials. Programs like TCD's Zero-Carbon pathway provide cutting-edge research in electric drivetrains and sustainable mobility."
     },
     {
-      "q": "What can Edu Hawk worldwide Consultancy do for me to study overseas?",
-      "a": "Edu Hawk worldwide can help students to find the right universities, understand the admission requirements, organize their application documents, and plan their study abroad journey. The appropriate official authorities should be consulted by students regarding academic, financial, immigration and licensing requirements."
+      q: "How does EduHawk Worldwide assist students with Ireland engineering admissions?",
+      a: "EduHawk Worldwide provides end-to-end overseas education counseling—including matching student backgrounds with specialized automotive and zero-carbon engineering programs, SOP refinement, scholarship applications, and complete Irish student visa (AVATS) processing."
     }
   ]
 };
 
 export default function AutomobileEngineeringPGIreland() {
+  const images = {
+    hero: heroImg,
+    heroBg: heroBgImg,
+    side: sideImg,
+    ctaBg: ctaBgImg
+  };
+
   return (
     <AbroadCoursePage
       page={page}
@@ -377,8 +381,8 @@ export default function AutomobileEngineeringPGIreland() {
       heroBgImg={heroBgImg}
       sideImg={sideImg}
       ctaBgImg={ctaBgImg}
-      showHeroStats={false}
-      seoPath="/study-abroad/ireland/pg/automobile-engineering"
+      seoPath={page.slug}
+      images={images}
     />
   );
 }

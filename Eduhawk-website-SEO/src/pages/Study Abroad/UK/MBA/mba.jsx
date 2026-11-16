@@ -22,13 +22,10 @@ const page = {
   "keywords": "Study MBA in the UK, MBA in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Study MBA in the United Kingdom",
   "heroParas": [
-    "Professionals and students can enhance their leadership, strategic thinking, financial decision-making, and business management skills by pursuing a Master of Business Administration (MBA) in the UK. Professionals looking for career growth, a shift in industry, or entrepreneurial opportunities can enrolll in MBA programs offered by UK business institutions.",
-    "Main Advantages of Pursuing an MBA in the UK",
-    "Obtain a business degree that is valued by companies in a variety of sectors and nations."
+    "Professionals and students can enhance their leadership, strategic thinking, financial decision-making, and business management skills by pursuing a Master of Business Administration (MBA) in the UK. Professionals looking for career growth, a shift in industry, or entrepreneurial opportunities can enrolll in MBA programs offered by UK business institutions."
   ],
   "overview": [
     "Professionals and students can enhance their leadership, strategic thinking, financial decision-making, and business management skills by pursuing a Master of Business Administration (MBA) in the UK. Professionals looking for career growth, a shift in industry, or entrepreneurial opportunities can enrolll in MBA programs offered by UK business institutions.",
-    "Main Advantages of Pursuing an MBA in the UK",
     "Obtain a business degree that is valued by companies in a variety of sectors and nations."
   ],
   "level": "Master of Business Administration",

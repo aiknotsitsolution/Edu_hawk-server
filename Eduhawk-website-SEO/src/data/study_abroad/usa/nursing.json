@@ -1,57 +1,117 @@
 {
   "seo": {
-    "title": "Nursing in USA | Top Universities, Fees & Visa 2026 | Edu Hawk",
-    "description": "Complete guide to studying Nursing in USA for Indian students. Admissions, entry requirements, tuition fees, top US universities and scholarships."
+    "title": "Study Nursing Abroad for Indian Students | Edu Hawk",
+    "description": "Nursing is one of the most in-demand professions worldwide. Edu Hawk helps you choose nursing courses abroad with clear costs and complete admission support."
   },
   "hero": {
-    "badge": "MBBS & Medical Abroad",
-    "title": "Nursing in USA",
-    "subtitle": "Experience world-class academic training and global career pathways in the United States with Edu Hawk Worldwide.",
-    "ctaText": "Book Free Counselling",
-    "image": ""
+    "badge": "Study Nursing · Abroad",
+    "title": "Nursing Abroad",
+    "subtitle": "Studying Nursing abroad opens doors to advanced clinical training, global healthcare exposure, and high-demand international career opportunities, backed by Edu Hawk's end-to-end admission, university selection, and visa support.",
+    "ctaText": "Book free counselling",
+    "image": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80"
   },
   "stats": [
     {
-      "n": "1000+",
-      "l": "Students Placed Globally"
+      "n": "BSc Nursing, GNM, MSc Nursing & Allied",
+      "l": "Programs"
     },
     {
-      "n": "20+",
+      "n": "12+ destinations with good recognition",
       "l": "Countries"
     },
     {
-      "n": "200+",
-      "l": "Partner Universities"
+      "n": "End-to-end guidance from profile to arrival",
+      "l": "Support"
     },
     {
-      "n": "100%",
-      "l": "Support (Visa & End-to-End Guidance)"
+      "n": "Transparent fees, honest counselling & outcome focus",
+      "l": "Approach"
     }
   ],
   "highlights": {
-    "degree": "BSN (Bachelor of Science in Nursing)",
-    "duration": "4 Years",
-    "fee": "$25,000 - $45,000 / Year",
-    "eligibility": "Class 12 Science / Biology",
+    "degree": "BSN, GNM, MSc Nursing & Allied",
+    "duration": "3 to 4 Years",
+    "fee": "₹12–45 Lakhs (Total Budget Range)",
+    "eligibility": "Minimum 45–50% in Class 12 (PCB / Science)",
     "medium": "English"
   },
-  "overview": "Studying Nursing in USA provides Indian scholars with unparalleled research facilities, industry-aligned curriculum, STEM OPT work authorization, and global professional prospects.",
+  "overview": "Nursing is a highly respected and globally demanded profession. Studying Nursing abroad gives students access to advanced clinical training, modern healthcare systems and better career opportunities.\n\nCountries like Philippines, Germany, Canada, UK and Australia are popular among Indian students because of quality education, clinical exposure and post-study work options.\n\nAt Edu Hawk, we help you choose the right destination based on your budget, academic profile and long-term goals — with complete transparency in fees and process.",
   "universities": [
     {
-      "name": "Top Ranked US Institution",
-      "location": "United States",
-      "fee": "$25,000 - $45,000 / Year",
-      "image": ""
+      "name": "University of Pennsylvania",
+      "location": "Philadelphia, Pennsylvania",
+      "fee": "$45,000 - $60,000 / Year",
+      "image": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=700&q=80"
+    },
+    {
+      "name": "Johns Hopkins University",
+      "location": "Baltimore, Maryland",
+      "fee": "$48,000 - $62,000 / Year",
+      "image": "https://images.unsplash.com/photo-1562774053-701939374585?w=700&q=80"
+    },
+    {
+      "name": "Duke University",
+      "location": "Durham, North Carolina",
+      "fee": "$46,000 - $58,000 / Year",
+      "image": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80"
+    },
+    {
+      "name": "University of California, San Francisco",
+      "location": "San Francisco, California",
+      "fee": "$42,000 - $55,000 / Year",
+      "image": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=900&q=80"
+    },
+    {
+      "name": "University of Washington",
+      "location": "Seattle, Washington",
+      "fee": "$38,000 - $50,000 / Year",
+      "image": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=700&q=80"
     }
   ],
   "faq": [
     {
-      "question": "What are the admission requirements for Nursing in USA?",
-      "answer": "Indian applicants generally require: Class 12 Science / Biology, English proficiency (IELTS/TOEFL/PTE or Duolingo), academic transcripts, and letters of recommendation."
+      "question": "Is NEET required for Nursing abroad?",
+      "answer": "No. NEET is not mandatory for Nursing courses abroad. Admission is mainly based on Class 12 marks and English proficiency scores."
     },
     {
-      "question": "Can I work while studying in the USA?",
-      "answer": "International students on F-1 visa can work on-campus up to 20 hours per week during semesters and full-time during breaks. Graduates of STEM programs receive up to 3 years of post-study OPT work authorization."
+      "question": "Which countries are best for Nursing abroad?",
+      "answer": "Philippines, Germany, Canada, UK and Australia are among the most preferred destinations. Philippines is popular for affordable fees, while Germany, Canada and UK offer strong job opportunities after graduation."
+    },
+    {
+      "question": "What is the total cost of Nursing abroad?",
+      "answer": "Total cost usually ranges between ₹12–45 lakhs depending on the country and university. Philippines is more affordable, while Canada, UK and Australia are higher. We provide a clear cost sheet before you apply."
+    },
+    {
+      "question": "Can I work while studying Nursing abroad?",
+      "answer": "Yes. Most popular countries allow part-time work (usually 20 hours per week during studies). This helps students manage living expenses."
+    },
+    {
+      "question": "When should I start the process?",
+      "answer": "Ideally 8–12 months before the intake. Early application helps with better university options, scholarships and smoother visa processing."
+    },
+    {
+      "question": "Can Indian students study nursing in the USA?",
+      "answer": "Yes. Indian students can apply to eligible nursing programs in the USA if they meet the academic, English-language and university-specific admission requirements."
+    },
+    {
+      "question": "After 12th grade, can I pursue a BSN in the United States?",
+      "answer": "Yes, eligible international students can explore Bachelor of Science in Nursing (BSN) programs after Class 12. However, admission requirements, prerequisite subjects and international student eligibility vary by university."
+    },
+    {
+      "question": "Is NCLEX-RN required to work as a nurse in the USA?",
+      "answer": "Generally, candidates seeking Registered Nurse licensure need to meet the relevant state Board of Nursing requirements and pass the NCLEX-RN. Licensing requirements vary by state."
+    },
+    {
+      "question": "What is the average nursing salary in USA?",
+      "answer": "The U.S. Bureau of Labor Statistics reported a median annual wage of $97,550 for Registered Nurses in May 2025. Actual salary depends on location, experience, specialty, employer and work setting."
+    },
+    {
+      "question": "Can Indian nurses work in the USA?",
+      "answer": "Yes, Indian-trained nurses may pursue U.S. nursing licensure, but an Indian nursing qualification does not automataically provide authorization to practise in the USA. Candidates must satisfy the requirements of the relevant state Board of Nursing and complete the applicable licensing process."
+    },
+    {
+      "question": "How can Edu Hawk worldwide help me study abroad?",
+      "answer": "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities."
     }
   ]
 }

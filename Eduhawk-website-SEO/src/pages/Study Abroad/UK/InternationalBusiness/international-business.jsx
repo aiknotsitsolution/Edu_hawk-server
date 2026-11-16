@@ -22,9 +22,7 @@ const page = {
   "keywords": "Study International Business in the UK, International Business in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Study International Business in United Kingdom",
   "heroParas": [
-    "Students who are interested in global markets, international business, multinational corporations and cross-cultural management should look into studying International Business in the UK. UK universities provide business programmes that assist students in gaining the skills necessary to operate in an ever more interconnected global economy.",
-    "Here are some compelling reasons to study International Business in the UK:",
-    "Internationally Recognized Qualifications: UK university degrees are recognized worldwide and can open doors to job opportunities in different countries and sectors."
+    "Students who are interested in global markets, international business, multinational corporations and cross-cultural management should look into studying International Business in the UK. UK universities provide business programmes that assist students in gaining the skills necessary to operate in an ever more interconnected global economy."
   ],
   "overview": [
     "Students who are interested in global markets, international business, multinational corporations and cross-cultural management should look into studying International Business in the UK. UK universities provide business programmes that assist students in gaining the skills necessary to operate in an ever more interconnected global economy.",

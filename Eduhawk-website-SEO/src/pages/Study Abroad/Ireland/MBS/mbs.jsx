@@ -13,436 +13,304 @@ import uniImg2 from "../../../../Images/Abroad/Ireland/MBS/University_College_Du
 import uniImg3 from "../../../../Images/Abroad/Ireland/MBS/University_College_Cork.webp";
 
 const page = {
-  "name": "MBS in Ireland",
-  "country": "Ireland",
-  "slug": "mbs",
-  "title": "Study MBS in Ireland for Indian Students | Edu-Hawk Worldwide",
-  "description": "Complete guide to MBS in Ireland for Indian students: Top Irish universities, eligibility criteria, tuition fees (€13,500 – €28,640 / year), scholarships, and 2-year post-study work visa (Stamp 1G).",
-  "keywords": "Study MBS in Ireland for Indian Students, Top Universities for MBS in Ireland, Master of Business Studies Courses in Ireland, MBS in Accounting in Ireland for International Students, MBS in Finance and Management in Ireland, MBS Eligibility Requirements in Ireland, MBS Admission Requirements for Indian Students, MBS Tuition Fees in Ireland 2026/27, Cost of Studying MBS in Ireland for International Students, TU Dublin MBS in Accounting International Fees",
-  "introTitle": "MBS IN IRELAND",
-  "heroParas": [
-    "MBS in Ireland",
-    "Ireland is a popular destination for international students looking for postgraduate business education.",
-    "A Master of Business Studies (MBS) helps students to gain knowledge in business operations, accounting, finance, management, strategy and other fields of commerce."
+  name: "MBS in Ireland",
+  country: "Ireland",
+  slug: "study-abroad/ireland/mbs",
+  title: "Study Master of Business Studies (MBS) in Ireland | Fees, Colleges & Work Visa 2026/27",
+  description: "Complete guide to Master of Business Studies (MBS) in Ireland: top business schools, NFQ Level 9 qualifications, tuition fees (€13,500 – €24,500), 2-year Stamp 1G post-study work visa, and professional accounting/finance pathways.",
+  keywords: "Study MBS in Ireland, Master of Business Studies Ireland, TU Dublin MBS Accounting, UCD Smurfit MBS, UCC Business postgraduate, MBS tuition fees Ireland 2026 2027, Level 9 Master Ireland, Stamp 1G post study work visa, MBS vs MBA Ireland",
+  introTitle: "MASTER OF BUSINESS STUDIES IN IRELAND",
+  heroParas: [
+    "A Master of Business Studies (MBS) in Ireland offers an intensive, industry-aligned NFQ Level 9 postgraduate qualification, preparing ambitious graduates for specialist executive and financial leadership roles across Europe's multinational business capital."
   ],
-  "overview": [
-    "MBS in Ireland",
-    "Ireland is a popular destination for international students looking for postgraduate business education.",
-    "A Master of Business Studies (MBS) helps students to gain knowledge in business operations, accounting, finance, management, strategy and other fields of commerce."
+  overview: [
+    "The Master of Business Studies (MBS) is a prestigious postgraduate business credential widely awarded across Ireland's universities and technological universities. Unlike general management MBA programs that mandate years of prior executive experience, the MBS focuses on specialized, in-depth academic mastery across functional commerce disciplines including Professional Accounting, Corporate Finance, Strategic Marketing, International Management, and Business Analytics.",
+    "Rooted in the National Framework of Qualifications (NFQ) at Level 9 (90 ECTS credits), Irish MBS programs are completed in one calendar year of full-time study. Curricula combine applied corporate research, live consulting practicums with European multinational headquarters in Dublin and Cork, and extensive exemptions from premier global chartered credentialing bodies such as ACCA, CPA, CIMA, and ACA.",
+    "Non-EU international graduates of NFQ Level 9 MBS programs qualify for Ireland's Third Level Graduate Scheme (Stamp 1G), granting 24 months (2 full years) of unrestricted post-study work authorization to establish high-trajectory corporate careers across Ireland and the European Union."
   ],
-  "level": "Master of Business Studies (MBS)",
-  "crumb": "Business / MBS",
-  "stats": [
+  level: "NFQ Level 9 (Postgraduate Master's Degree)",
+  crumb: "Business / MBS",
+  stats: [
     {
-      "label": "Degree Choices",
-      "value": "Master of Business Studies (MBS)"
+      label: "Qualification Framework",
+      value: "NFQ Level 9 (90 ECTS Credits)"
     },
     {
-      "label": "Course Duration",
-      "value": "1 Year (Full-Time)"
+      label: "Program Duration",
+      value: "1 Year Full-Time (12 Months)"
     },
     {
-      "label": "Top Institutions",
-      "value": "University College Dublin, University College Dublin"
+      label: "Tuition Fees (2026/27)",
+      value: "€13,500 – €24,500 / year"
     },
     {
-      "label": "Post-Study Work",
-      "value": "2 Years Third Level Graduate Scheme (Stamp 1G)"
+      label: "Post-Study Work Visa",
+      value: "2 Years Stamp 1G Graduate Scheme"
     }
   ],
-  "sections": [
+  unis: [
     {
-      "slot": "why",
-      "eyebrow": "Why Study in Ireland",
-      "title": "1. Why Study MBAs in Ireland?",
-      "groups": [
+      name: "Technological University Dublin (TU Dublin)",
+      city: "Dublin",
+      state: "Leinster, Ireland",
+      desc: "Delivers the renowned Master of Business Studies in Accounting (International), a 1-year NFQ Level 9 program designed for international graduates offering advanced professional accreditation, practical corporate reporting, and tuition at €13,500 per year.",
+      img: uniImg1
+    },
+    {
+      name: "University College Dublin (UCD Michael Smurfit Graduate Business School)",
+      city: "Dublin",
+      state: "Leinster, Ireland",
+      desc: "Ireland's premier Triple Crown graduate business school (AACSB, AMBA, EQUIS). Delivers specialized Master of Business Studies and specialized MSc qualifications in Finance, Accounting, Project Management, and Strategic Management.",
+      img: uniImg2
+    },
+    {
+      name: "University College Cork (Cork University Business School - CUBS)",
+      city: "Cork",
+      state: "Munster, Ireland",
+      desc: "CUBS offers leading postgraduate business studies and MSc degrees in Management, Corporate Finance, Business Economics, and Marketing, maintaining deep corporate hiring links with Cork's thriving multinational tech and pharma corridor.",
+      img: uniImg3
+    }
+  ],
+  sections: [
+    {
+      slot: "why",
+      eyebrow: "Why Ireland",
+      title: "Why Study Master of Business Studies (MBS) in Ireland?",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "A Master of Business Studies in Ireland can provide a number of professional and academic benefits."
+          t: "p",
+          items: [
+            "An MBS in Ireland merges rigorous academic specialization with immediate corporate access across Europe's fastest-growing English-speaking economy."
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "- International business environment: Ireland hosts a large number of multinational companies in the technology, financial services, consulting, pharmaceuticals and other industries.",
-            "Specialised business knowledge: Students are able to acquire in-depth knowledge in fields like *accounting, finance, management, marketing and business operations.",
-            "- Career development: An MBS degree allows graduates to prepare for positions in business, analytical, accounting, and management-related areas, depending on their specialization.",
-            "- International exposure: Students are able to acquire skills in communication, teamwork and cross-cultural collaboration by studying in a multicultural environment.",
-            "- Postgraduate qualification: Depending on the relevant entry requirements, an MBS can provide a route to further professional development or further postgraduate study.",
-            "- Learning relevant to industry: Depending on the program, students may undertake case studies, group projects, research assignments or practical business exercises."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "With Edu Hawk worldwide study abroad guidance students can find these opportunities and know the requirements involved in pursuing education overseas."
+          t: "ul",
+          items: [
+            "European Headquarters Hub: Ireland hosts the European headquarters of Google, Apple, Microsoft, Pfizer, Meta, Citi, and over 50% of the world's leading financial services firms, creating extraordinary opportunities for graduate recruitment.",
+            "Functional Specialization Without Prior Work Experience: Unlike traditional MBA degrees that require 3–5 years of executive experience, MBS programs welcome recent bachelor's graduates eager to build specialized domain mastery.",
+            "Fast-Track 1-Year Curriculum: Completed in 12 intensive months (90 ECTS credits), minimizing tuition and living costs while accelerating return on investment and entry into the European workforce.",
+            "Professional Body Accreditations: MBS in Accounting and Finance curricula offer extensive exemptions from international professional bodies including ACCA, CIMA, ACA, and CPA Ireland.",
+            "2-Year Post-Study Work Visa (Stamp 1G): As an NFQ Level 9 qualification, MBS graduates receive 24 months of full-time, unrestricted employment authorization in Ireland.",
+            "Multicultural Leadership Training: Classrooms bring together ambitious talent from across Europe, Asia, and the Americas, building global negotiation, cross-cultural teamwork, and strategic leadership capabilities."
           ]
         }
       ]
     },
     {
-      "slot": "courses",
-      "eyebrow": "Degrees & Programs",
-      "title": "2. MBS Courses in Ireland",
-      "groups": [
+      slot: "courses",
+      eyebrow: "Specializations",
+      title: "Core MBS Degree Specializations in Ireland",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "The Master of Business Studies (MBS) is a postgraduate qualification, and so students normally apply after completing a recognised undergraduate degree or an accepted equivalent qualification. Ireland also offers undergraduate business degrees and related postgraduate courses for applicants not yet eligible for an MBS.",
-            "Common MBS and related business study options are",
-            "MBS (Accounting)",
-            "The accounting-oriented programme builds knowledge in financial reporting, auditing, taxation, management accounting and other business processes. Some courses may be suitable for graduates seeking a route into professional accounting.",
-            "MBS in Finance",
-            "Finance programmes focus on financial analysis, investment principles, corporate finance, risk management and financial decision-making. Applicants should check whether the course requires previous study of finance, economics or quantitative subjects.",
-            "MBS in Management",
-            "Management-focused programmes include organisational behavior, leadership, strategy, operations and business planning. Depending on the program, they may also be suitable for graduates from business or other academic backgrounds.",
-            "MBS in Marketing",
-            "Marketing related study can include consumer behavior, market research, digital marketing, brand strategy and customer involvement. Some universities offer an MSc or other postgraduate award with this title rather than an MBS."
+          t: "p",
+          items: [
+            "Irish universities offer several specialized streams within the Master of Business Studies framework:",
+            "MBS in Accounting: Concentrates on international financial reporting standards (IFRS), advanced taxation, forensic audit, corporate governance, and strategic management accounting, providing direct pathways to professional chartered certification.",
+            "MBS in Finance: Focuses on quantitative financial modeling, derivative markets, corporate valuation, risk management, and algorithmic trading, preparing graduates for investment banking and corporate treasury roles.",
+            "MBS in Strategic Management: Deep dives into corporate restructuring, competitive intelligence, business agility, multinational operations, and strategic leadership across technology and services enterprises.",
+            "MBS in Marketing: Covers data-driven consumer insights, omnichannel digital campaign strategy, brand architecture, and marketing metrics for international commercial growth."
           ]
         }
       ]
     },
     {
-      "slot": "universities",
-      "eyebrow": "Top Institutions",
-      "title": "3. Top Colleges for MBS in Ireland",
-      "unis": [
+      slot: "eligibility",
+      eyebrow: "Admissions",
+      title: "Eligibility Criteria for MBS Programs in Ireland",
+      groups: [
         {
-          "name": "University College Dublin",
-          "desc": "2. University College Dublin",
-          "imgKey": "uniImg_University_College_Dublin_webp",
-          "imgIdentifier": "uniImg1",
-          "city": "Dublin, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg1
+          t: "p",
+          items: [
+            "Admissions to Irish MBS programs evaluate undergraduate academic background, quantitative aptitude, and English language competence."
+          ]
         },
         {
-          "name": "University College Dublin",
-          "desc": "2. University College Dublin",
-          "imgKey": "uniImg_University_College_Dublin_2_webp",
-          "imgIdentifier": "uniImg2",
-          "city": "Dublin, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg2
-        },
-        {
-          "name": "University College Cork",
-          "desc": "2. University College Dublin",
-          "imgKey": "uniImg_University_College_Cork_webp",
-          "imgIdentifier": "uniImg3",
-          "city": "Cork, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg3
-        }
-      ]
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Admissions Criteria",
-      "title": "4. MBS in Ireland Eligibility to Study",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Eligibility criteria for MBS in Ireland differ from university to university and also from the specialization chosen. Typical requirements are:",
-            "Bachelor’s degree",
-            "Applicants usually require a recognised bachelor’s degree or equivalent qualification. The minimum grade/classification depends on the institution and the program.",
-            "Educational background",
-            "Some MBS courses will accept graduates from a range of disciplines, although specialist accounting, finance or analytics courses may require study in relevant areas.",
-            "English eligibility",
-            "English-language proficiency may be required for international applicants through IELTS Academic, TOEFL iBT, PTE Academic or other accepted qualifications. The scores you need will depend on the university and the course.",
-            "Educational requirements",
-            "Universities consider undergraduate marks, subject knowledge and the overall academic suitability of the applicant."
+          t: "ul",
+          items: [
+            "Undergraduate Degree: A recognized Bachelor's degree (3 or 4 years) in business, commerce, economics, engineering, or related discipline with a minimum of Second Class Honours (2.2 or 2.1) or 60%–65% aggregate from a recognized university.",
+            "Discipline Prerequisites: Specialized tracks such as MBS in Accounting or Finance typically require prior coursework in accounting, microeconomics, mathematics, or statistics.",
+            "Work Experience: Generally not mandatory for MBS entry, though relevant corporate internships or 1–2 years of work experience strengthen an applicant's dossier.",
+            "English Language Test Scores: Non-native English speakers must achieve IELTS Academic 6.5 overall (minimum 6.0 in each sub-test), TOEFL iBT 88–92, or PTE Academic 61–65.",
+            "GMAT / GRE Requirement: Rarely required for MBS programs (unlike executive MBAs), making the MBS an accessible and direct route to elite Irish business education."
           ]
         }
       ]
     },
     {
-      "slot": "requirements",
-      "eyebrow": "Entry Requirements",
-      "title": "5. MBS Admission Requirements in Ireland",
-      "groups": [
+      slot: "admission",
+      eyebrow: "Checklist",
+      title: "Application Checklist & Required Documents",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Before applying students should check the official entry requirements for their chosen MBS programme.",
-            "Typical documents and information that are requested are:"
+          t: "p",
+          items: [
+            "International applicants must compile and upload certified digital documentation for university admissions assessment:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "- Degree certificate (recognised bachelor's degree) or provisional degree certificate.",
-            "- Academic transcripts and marksheets",
-            "- Proof of proficiency in English (if required).",
-            "- Current Curriculum Vitae or résumé (if requested).",
-            "- Purpose statement or personal declaration, if relevant.",
-            "- Academic or professional references if applicable.",
-            "- Passport ID page (for international applicants).",
-            "- Proof of relevant work experience or professional qualifications, if any.",
-            "- Other documents required for the specific course."
+          t: "ul",
+          items: [
+            "Official Bachelor's Degree Certificate and semester-by-semester mark sheets / academic transcripts.",
+            "Valid International Passport with minimum 12 months validity.",
+            "Official English Language proficiency scorecard (IELTS, TOEFL iBT, or PTE Academic).",
+            "Professional Curriculum Vitae (CV) highlighting academic projects, internships, and quantitative competencies.",
+            "Detailed Statement of Purpose (SOP, 600–800 words) highlighting specialized career motivations, subject interests, and university alignment.",
+            "Two Letters of Recommendation (LORs), ideally one academic reference and one professional internship supervisor.",
+            "Certified English translations of any documentation originally issued in non-English languages."
           ]
         }
       ]
     },
     {
-      "slot": "tuition",
-      "eyebrow": "Tuition & Living Costs",
-      "title": "6. Cost of MBS in Ireland",
-      "groups": [
+      slot: "cost",
+      eyebrow: "Tuition & Living",
+      title: "Cost of Studying MBS in Ireland (2026/27 Intake)",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "The total cost of studying an MBS in Ireland includes tuition fees, accommodation, food, transport, health insurance, study materials and personal expenses.",
-            "Fees",
-            "For example, for the 2026 intake, TU Dublin’s MBS in Accounting (International) has a total tuition fee of €13,500 for non-EU students.",
-            "The EU fee published is €10,000.",
-            "These are the numbers for that particular course and intake.",
-            "They should not be considered as the standard fee for all MBS Programs in Ireland.",
-            "Cost of living",
-            "The cost of living in Ireland varies depending on the city, type of accommodation and personal spending habits.",
-            "Students should allow for:"
+          t: "p",
+          items: [
+            "The overall expenditure for an MBS program in Ireland includes non-EU tuition fees, accommodation, food, local transport, health insurance, and immigration registration."
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "*Accommodation and utilities.",
-            "- Groceries and food.",
-            "*Public transport.",
-            "*Mobile phone or Internet.",
-            "*Health insurance.",
-            "- Books, software, and course materials",
-            "- Personal expenses and entertainment."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Extra costs",
-            "International students should also consider travel, visa-related costs where applicable, immigration registration and initial accommodation costs.",
-            "Scholarships and financial aid",
-            "Some Irish universities offer scholarships, bursaries or merit-based awards to eligible international students.",
-            "Funding available varies by course, academic performance, nationality and application deadlines. Don’t assume that all MBS programs are funded"
+          t: "ul",
+          items: [
+            "Tuition Fees: Published non-EU tuition fees for 2026/27 intakes range from €13,500 per year at TU Dublin for its MBS in Accounting (International) to €16,000–€24,500 at major research universities like UCC and UCD.",
+            "Living Costs (Dublin): Monthly expenses average €1,000 to €1,400 (€12,000 to €16,000 for the full 12-month calendar year) covering shared student housing, groceries, transport, and utilities.",
+            "Living Costs (Cork & Regional Hubs): Monthly expenses average €800 to €1,100 (€10,000 to €13,000 for 12 months), providing a more cost-effective alternative to capital housing.",
+            "Immigration & Health Insurance: €300 annual Irish Residence Permit (IRP) card fee and €150–€350 for mandatory private medical insurance.",
+            "Part-Time Work Rights (Stamp 2): Non-EU international students can legally work up to 20 hours per week during term time and up to 40 hours per week during official holidays, earning the national minimum wage of €13.50 per hour."
           ]
         }
       ]
     },
     {
-      "slot": "process",
-      "eyebrow": "Application Steps",
-      "title": "7. Admission Process for MBS Ireland",
-      "steps": [
+      slot: "accreditation",
+      eyebrow: "Quality Standards",
+      title: "MBS vs MBA & NFQ Level 9 Quality Standards",
+      groups: [
         {
-          "step": "01",
-          "title": "Step 01",
-          "desc": "The MBS admission process in Ireland usually includes the following steps."
-        },
-        {
-          "step": "02",
-          "title": "Step 1",
-          "desc": "Pick the right course"
-        },
-        {
-          "step": "03",
-          "title": "Step 2",
-          "desc": "Check for eligibility"
-        },
-        {
-          "step": "04",
-          "title": "Step 3",
-          "desc": "Get your application documents ready"
-        },
-        {
-          "step": "05",
-          "title": "Step 4",
-          "desc": "Complete the online application"
-        },
-        {
-          "step": "06",
-          "title": "Step 5",
-          "desc": "Reply to university requests"
-        },
-        {
-          "step": "07",
-          "title": "Step 6",
-          "desc": "Receive and review your offer"
-        },
-        {
-          "step": "08",
-          "title": "Step 7",
-          "desc": "Sort out immigration and money papers"
-        },
-        {
-          "step": "09",
-          "title": "Step 8",
-          "desc": "Get ready for enrolment"
-        }
-      ]
-    },
-    {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Recognition",
-      "title": "8. MBS Accreditation and Recognition in Ireland",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Students should check the recognition of the awarding institution and the qualification itself before enrolling in a MBS programme.",
-            "Key things to consider include:"
+          t: "p",
+          items: [
+            "Understanding the academic distinction between an MBS and an MBA clarifies the ideal career trajectory for prospective applicants:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "- Institution recognition: Ensure that the University or Institution is recognized and authorized to confer the qualification.",
-            "- National Framework of Qualifications: In Ireland a master's level award may be positioned at Level 9 of the National Framework of Qualifications, Check the course listing for its specific level.",
-            "- Professional recognition: For accounting-related courses, check whether the course provides exemptions, eligibility or recognized pathways with relevant professional accounting bodies.",
-            "The benefits will differ depending on the course and professional body.",
-            "- Programme-specific accreditation: Accreditation can be on the level of a particular program, department or institution.",
-            "International recognition: Verify that the qualification is recognized by the relevant employers, professional bodies or educational institutions if you plan to work or study outside Ireland."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "An MBS is different from an MBA Depending on the role, experience required and professional pathway, the two qualifications may be assessed differently by employers and professional bodies."
+          t: "ul",
+          items: [
+            "MBS vs MBA Focus: An MBS provides deep technical and functional specialization (ideal for candidates looking to become expert accountants, financial analysts, or marketing strategists), whereas an MBA provides broad general management and leadership training for experienced professionals.",
+            "Work Experience Requirement: MBS programs admit candidates directly after their undergraduate degree, while MBAs typically demand 3 to 5 years of verified professional management experience.",
+            "National Framework of Qualifications (NFQ Level 9): Both degrees are positioned at NFQ Level 9 on the Irish National Framework, carrying 90 ECTS credits and qualifying for the 2-year Stamp 1G post-study work visa.",
+            "Professional Body Recognition: MBS accounting pathways provide substantial exemptions toward professional designations (ACCA, CIMA, ACA, CPA Ireland), significantly accelerating professional qualification."
           ]
         }
       ]
     },
     {
-      "slot": "careers",
-      "eyebrow": "Career Outcomes",
-      "title": "9. Salary and Job Opportunities after MBS in Ireland",
-      "groups": [
+      slot: "careers",
+      eyebrow: "Career Pathways",
+      title: "Career Opportunities & Salary Expectations After MBS",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Career opportunities after an MBS in Ireland vary according to the program specialization, previous education, practical skills and professional experience. The degree may help graduates develop relevant business knowledge, but it does not guarantee a job or a certain salary.",
-            "Career opportunities at MBS",
-            "Depending on the specialization, possible roles are:"
+          t: "p",
+          items: [
+            "Graduates of Irish MBS programs enter an exceptional employment market driven by Ireland's status as a global corporate and financial services nexus:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "- Accountant / Accounts Assistant according to qualifications and professional criteria.",
-            "- Finance Analyst.",
-            "- Business Analyst -",
-            "- Trainee Management.",
-            "- Business Development Executive",
-            "- Marketing Executive.",
-            "- Analyst, Operations.",
-            "- Co-ordinator of Project",
-            "- Risk or Compliance Analyst.",
-            "- Junior Consultant",
-            "*Finance/Commercial Executive."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Some roles, especially in regulated accounting or financial services may require additional professional qualifications, experience or approval.",
-            "Expected salary after MBS",
-            "There is no one salary for MBS graduates in Ireland . Pay is based on occupation, employer, location, experience and technical skills.",
-            "Some entry-level business and finance roles might advertise annual gross salaries in the region of €30,000-€45,000 as a general planning guide, but those with relevant experience or specialist skills could be eligible for higher paying positions. These are indicative estimates, not verified average salaries of individual MBS graduates."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Document Checklist",
-      "title": "10. Documents Required to Study MBA in Ireland",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The document checklist will depend on the institution, course and nationality of the applicant. Typical requirements are:",
-            "1\\. Passport valid",
-            "2\\. Bachelor’s Degree Certificate or Provisional Certificate.",
-            "3\\. Academic transcripts & mark sheets",
-            "4\\. Results of English language tests, if any.",
-            "5\\. Updated CV or résumé available upon request.",
-            "6\\. Personal statement or statement of purpose (if required)",
-            "7\\. Academic or professional recommendation letters, if required.",
-            "8\\. Proof of relevant working experience.",
-            "9\\. Certified translations of documents not issued in English, if needed.",
-            "10\\. Universities offer letters and proof of payment of fees, if applicable."
+          t: "ul",
+          items: [
+            "Key Career Roles: Financial Analyst, Senior Accountant, Risk & Compliance Analyst, Business Operations Consultant, Junior Management Consultant, Digital Strategy Lead, and Commercial Executive.",
+            "Starting Salaries: Indicative gross starting salaries for MBS graduates in Ireland range between €35,000 and €48,000 per year, with specialized financial and data consulting roles exceeding €52,000.",
+            "Prominent Recruiters: Big Four accounting firms (PwC, EY, Deloitte, KPMG), international banks (Citi, State Street, BNY Mellon), global tech firms (Google, Microsoft, Stripe), and multinational pharma companies.",
+            "Stamp 1G Graduate Visa: 2 years of full-time employment authorization enables seamless transition onto Irish Critical Skills Employment Permits (CSEP) or General Employment Permits."
           ]
         }
       ]
     }
   ],
-  "table": {
-    "title": "Estimated Cost of Studying MBS in Ireland in Ireland (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (€ / EUR)",
-      "Details / Scope"
-    ],
-    "rows": [
-      [
-        "Undergraduate Degree (Annual)",
-        "€13,500 – €27,640 / year",
-        "Varies by institution ranking, laboratory facilities, and program"
-      ],
-      [
-        "Postgraduate Degree (Annual)",
-        "€15,000 – €28,640 / year",
-        "1-year intensive master's program or 2-year research degree"
-      ],
-      [
-        "Living Expenses (Dublin)",
-        "€1,000 – €1,400 / month",
-        "Includes student accommodation, meals, utilities, and public transit"
-      ],
-      [
-        "Living Expenses (Outside Dublin)",
-        "€800 – €1,100 / month",
-        "Cost of living in Cork, Galway, Limerick, or Maynooth"
-      ],
-      [
-        "Student Visa & IRP Card Fee",
-        "€300 / year",
-        "Mandatory Irish Residence Permit (IRP) registration fee"
-      ]
+  steps: [
+    {
+      title: "Select Functional MBS Specialization",
+      desc: "Identify whether your professional ambitions lie in Accounting, Corporate Finance, Strategic Management, or Marketing."
+    },
+    {
+      title: "Review Undergraduate Entry Standards",
+      desc: "Confirm that your Bachelor's degree meets the minimum 60%–65% aggregate benchmark and satisfies specific subject prerequisites."
+    },
+    {
+      title: "Complete English Proficiency Testing",
+      desc: "Achieve the required scores in IELTS Academic (6.5 overall, 6.0 sub-bands), TOEFL iBT (88+), or PTE Academic (61+)."
+    },
+    {
+      title: "Prepare Dossier & Tailored SOP",
+      desc: "Draft a focused Statement of Purpose detailing your functional interest, career vision, and reasons for choosing Ireland and the university."
+    },
+    {
+      title: "Submit Direct University Applications",
+      desc: "Apply through institutional international admissions portals, uploading transcripts, references, and proof of identity."
+    },
+    {
+      title: "Accept Offer & Pay Tuition Deposit",
+      desc: "Review your acceptance letter, confirm your offer, and wire the requisite tuition deposit to secure your university place."
+    },
+    {
+      title: "Apply for Irish Student Visa (Stamp 2)",
+      desc: "Assemble proof of fee payment, medical insurance, and required living funds (€10,000–€12,000) for INIS visa processing."
+    },
+    {
+      title: "Travel to Ireland & Register for IRP",
+      desc: "Arrive in Ireland, settle into student housing, attend academic orientation, and register with Immigration Service Delivery for your Irish Residence Permit."
+    }
+  ],
+  table: {
+    caption: "Indicative Tuition Fees for MBS & Postgraduate Business in Ireland (2026/27 Intake)",
+    headers: ["Institution", "Degree Title", "NFQ Level", "Annual Tuition (Non-EU)"],
+    rows: [
+      ["Technological University Dublin (TU Dublin)", "MBS in Accounting (International)", "Level 9 Master's", "€13,500 (1 Year)"],
+      ["University College Dublin (UCD Smurfit)", "MBS / MSc in Finance & Management", "Level 9 Master's", "€21,500 – €24,500 (1 Year)"],
+      ["University College Cork (CUBS)", "MBS / MSc in Management & Marketing", "Level 9 Master's", "€18,500 – €20,500 (1 Year)"],
+      ["Dublin City University (DCU Business School)", "MSc / MBS in Accounting & Finance", "Level 9 Master's", "€17,000 – €19,000 (1 Year)"],
+      ["University of Galway", "MBS / MSc in International Business", "Level 9 Master's", "€18,500 – €19,500 (1 Year)"],
+      ["University of Limerick (Kemmy Business School)", "MBS / MSc in Financial Services", "Level 9 Master's", "€16,500 – €18,000 (1 Year)"]
     ]
   },
-  "faqs": [
+  faqs: [
     {
-      "q": "Q1. What is MBS in Ireland?",
-      "a": "12\\. Other documents as required by the university or Irish immigration authorities. Students should refer to the official application and visa checklists applicable to their situation. Providing full and accurate documentation helps avoid unnecessary delays. 11\\. MBS FAQs in Ireland MBS is often used as an abbreviation for Master of Business Studies. It is a postgraduate business qualification that can be taken in accounting, finance, management or another business related subject. The specific curriculum and the title of the award vary between universities."
+      q: "What is the difference between an MBS and an MBA in Ireland?",
+      a: "An MBS (Master of Business Studies) is an intensive, specialized postgraduate business degree focused on deep functional mastery in disciplines like Accounting, Finance, or Marketing, and typically admits graduates directly after their bachelor's degree. An MBA (Master of Business Administration) is a broad, senior executive leadership credential that generally requires 3 to 5 years of verified professional management experience prior to admission."
     },
     {
-      "q": "Q2. How much does it cost to study MBS in Ireland?",
-      "a": "Tuition fees for MBS in Ireland vary by institution and the specific course. For example, TU Dublin has a total non-EU tuition fee of €13,500 for its one-year MBS in Accounting (International) for September 2026 intake. Plus the cost of living, insurance and other costs."
+      q: "How much does an MBS in Ireland cost for international students in 2026/27?",
+      a: "Annual non-EU tuition fees for 2026/27 intakes range from €13,500 for TU Dublin's MBS in Accounting (International) to €17,000–€24,500 at major research universities like DCU, UCC, and UCD Smurfit. In addition, students should budget approximately €10,000 to €15,000 for living expenses over the 12-month program."
     },
     {
-      "q": "Q3. Is work experience necessary for MBS in Ireland?",
-      "a": "Many MBS programs focus on academic and subject entry requirements and may not require extensive professional experience. However, requirements vary by specialization and university, so applicants should check the individual course criteria."
+      q: "Is prior work experience required to apply for an MBS in Ireland?",
+      a: "No, extensive professional work experience is generally not mandatory for MBS programs. Most Irish universities accept applicants based on strong academic undergraduate performance (minimum 60%–65% aggregate) in business, commerce, or related quantitative disciplines."
     },
     {
-      "q": "Q4. What are my options after an MBS in Ireland?",
-      "a": "Graduates may take positions in accounting, finance, business analysis, marketing, operations, compliance, consulting or business development depending on their specialization. Certain professions require further professional qualifications or relevant experience."
+      q: "What post-study work visa rights do MBS graduates receive in Ireland?",
+      a: "Because the MBS is classified as an NFQ Level 9 Master's degree, non-EU international graduates qualify for Ireland's Third Level Graduate Scheme (Stamp 1G), granting 24 months (2 full years) of unrestricted post-study work permission to secure full-time corporate employment in Ireland."
     },
     {
-      "q": "Q5. What is the difference between an MBA and an MBS in Ireland?",
-      "a": "An MBS is usually a specialist postgraduate business degree and might be right for graduates who are developing expertise in a particular area. The MBA generally focuses on general business leadership and management and typically requires work experience. The right option for you will depend on your academic background, career goals and the programs on offer."
+      q: "What career roles and starting salaries do MBS graduates achieve in Ireland?",
+      a: "Graduates secure roles as financial analysts, corporate accountants, risk analysts, management consultants, and operations specialists across Big Four accounting firms, investment banks, and technology multinationals. Starting salaries typically range between €35,000 and €48,000 gross per year."
     },
     {
-      "q": "How can Edu Hawk Worldwide Consultancy help me to study abroad?",
-      "a": "Edu Hawk worldwide can help students find suitable universities, understand admission requirements, organize application documents and plan their study abroad journey. Students should contact the relevant official bodies to verify the academic, financial, immigration and licensing requirements."
+      q: "How does EduHawk Worldwide Consultancy help students apply for MBS in Ireland?",
+      a: "EduHawk Worldwide provides expert end-to-end guidance including university selection, NFQ Level 9 course matching, SOP drafting, transcript evaluation, scholarship guidance, Irish student visa (Stamp 2) filing, and pre-departure accommodation assistance."
     }
   ]
 };
 
 export default function MBSIreland() {
+  const images = {
+    hero: heroImg,
+    heroBg: heroBgImg,
+    side: sideImg,
+    ctaBg: ctaBgImg
+  };
+
   return (
     <AbroadCoursePage
       page={page}
@@ -450,8 +318,9 @@ export default function MBSIreland() {
       heroBgImg={heroBgImg}
       sideImg={sideImg}
       ctaBgImg={ctaBgImg}
-      showHeroStats={false}
-      seoPath="/study-abroad/ireland/mbs"
+      showHeroStats={true}
+      seoPath={page.slug}
+      images={images}
     />
   );
 }

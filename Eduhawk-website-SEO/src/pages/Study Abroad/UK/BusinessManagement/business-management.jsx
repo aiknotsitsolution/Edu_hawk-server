@@ -22,13 +22,10 @@ const page = {
   "keywords": "Study Business Management in the UK, Business Management in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Study Business Management in the United Kingdom",
   "heroParas": [
-    "International students can gain the leadership, strategic thinking, communication, and decision-making skills needed in today's global corporate climate by studying business management in the UK. Academic instruction is combined with real-world projects, case studies, presentations, and industry-focused instruction in UK universities.",
-    "The main advantages of studying business management in the UK are as follows:",
-    "Obtain a degree that is recognized by organizations and employers all over the world."
+    "International students can gain the leadership, strategic thinking, communication, and decision-making skills needed in today's global corporate climate by studying business management in the UK. Academic instruction is combined with real-world projects, case studies, presentations, and industry-focused instruction in UK universities."
   ],
   "overview": [
     "International students can gain the leadership, strategic thinking, communication, and decision-making skills needed in today's global corporate climate by studying business management in the UK. Academic instruction is combined with real-world projects, case studies, presentations, and industry-focused instruction in UK universities.",
-    "The main advantages of studying business management in the UK are as follows:",
     "Obtain a degree that is recognized by organizations and employers all over the world."
   ],
   "level": "BA & MSc Business Management",

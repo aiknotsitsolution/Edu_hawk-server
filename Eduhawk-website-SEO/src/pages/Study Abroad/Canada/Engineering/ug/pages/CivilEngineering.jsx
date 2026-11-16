@@ -20,8 +20,7 @@ const page = {
   "keywords": "Study Civil Engineering - UG in Canada, Civil Engineering - UG in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Studying Civil Engineering in Canada",
   "heroParas": [
-    "Indian students who want to study civil engineering in Canada and pursue jobs in environmental engineering, transportation, infrastructure, and construction are drawn to Canada. Undergraduate programs in civil engineering integrate theoretical knowledge with hands-on experience, lab work, design projects, and industry exposure opportunities.",
-    "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."
+    "Indian students who want to study civil engineering in Canada and pursue jobs in environmental engineering, transportation, infrastructure, and construction are drawn to Canada. Undergraduate programs in civil engineering integrate theoretical knowledge with hands-on experience, lab work, design projects, and industry exposure opportunities."
   ],
   "overview": [
     "Indian students who want to study civil engineering in Canada and pursue jobs in environmental engineering, transportation, infrastructure, and construction are drawn to Canada. Undergraduate programs in civil engineering integrate theoretical knowledge with hands-on experience, lab work, design projects, and industry exposure opportunities.",

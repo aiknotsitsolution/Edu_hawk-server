@@ -24,10 +24,11 @@ const page = {
     "Master's in Mechanical Engineering in Finland, Mechanical Engineering in Finland for Indian Students, Study Mechanical Engineering in Finland, Mechanical Engineering Courses in Finland, Mechanical Engineering Universities in Finland, Mechanical Engineering in Finland Fees",
   introTitle: "Master’s in Mechanical Engineering in Finland for Indian Students",
   heroParas: [
-    "Finland is a popular destination for Indian students interested in pursuing a Master’s in Mechanical Engineering abroad. Known for its advanced engineering education, technological innovation, research facilities, and sustainable industrial development, Finland offers opportunities for students who want to build an international engineering career.",
+    "Finland is a popular destination for Indian students interested in pursuing a Master’s in Mechanical Engineering abroad. Known for its advanced engineering education, technological innovation, research facilities, and sustainable industrial development, Finland offers opportunities for students who want to build an international engineering career."
+  ],
+  overview: [
     "A Master’s in Mechanical Engineering in Finland helps students develop advanced knowledge in mechanical systems, manufacturing, materials, robotics, product development, and industrial technologies. With specialised study options and research-oriented learning, students can prepare for careers in engineering, manufacturing, automotive technology, energy, and product innovation."
   ],
-  overview: [],
   level: "Postgraduate & Master's",
   crumb: "Engineering",
 

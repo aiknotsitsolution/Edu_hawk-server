@@ -20,8 +20,7 @@ const page = {
   "keywords": "Study Electronics & Communication - UG in Canada, Electronics & Communication - UG in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Studying Electronics and Communication Engineering in Canada",
   "heroParas": [
-    "International students interested in Electronics and Communication Engineering in Canada can find chances in the fields of electronic devices, signal processing, wireless technologies, embedded systems, communication networks, and telecommunications. Engineering principles are combined with practical projects, lab experiments, and chances to investigate cutting-edge technology in undergraduate programs.",
-    "In Canada, comparable degree titles like Electrical Engineering, Computer Engineering, Electrical and Computer Engineering, or Telecommunications Engineering may be used to offer Electronics and Communication Engineering (ECE). To make sure the curriculum aligns with their interests, students should thoroughly examine it."
+    "International students interested in Electronics and Communication Engineering in Canada can find chances in the fields of electronic devices, signal processing, wireless technologies, embedded systems, communication networks, and telecommunications. Engineering principles are combined with practical projects, lab experiments, and chances to investigate cutting-edge technology in undergraduate programs."
   ],
   "overview": [
     "International students interested in Electronics and Communication Engineering in Canada can find chances in the fields of electronic devices, signal processing, wireless technologies, embedded systems, communication networks, and telecommunications. Engineering principles are combined with practical projects, lab experiments, and chances to investigate cutting-edge technology in undergraduate programs.",

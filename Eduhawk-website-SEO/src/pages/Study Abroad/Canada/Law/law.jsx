@@ -19,8 +19,7 @@ const page = {
   "keywords": "Study Law in Canada, Law in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Study Law in Canada",
   "heroParas": [
-    "Canada provides **law education** with an emphasis on the Canadian legal system, ethics, research, advocacy, and legal reasoning. Legal studies, professional law degrees, undergraduate law-related programs, and specialized postgraduate certifications are among options available to students.",
-    "Studying law in Canada can expose Indian students to business law, international legal issues, common-law ideas, and comparative legal systems. However, fulfilling the license requirements of the applicable province or territory is necessary to become a practicing lawyer in Canada"
+    "Canada provides **law education** with an emphasis on the Canadian legal system, ethics, research, advocacy, and legal reasoning. Legal studies, professional law degrees, undergraduate law-related programs, and specialized postgraduate certifications are among options available to students."
   ],
   "overview": [
     "Canada provides **law education** with an emphasis on the Canadian legal system, ethics, research, advocacy, and legal reasoning. Legal studies, professional law degrees, undergraduate law-related programs, and specialized postgraduate certifications are among options available to students.",
@@ -382,7 +381,7 @@ const page = {
             },
             {
               "q": "How Can I Study Abroad with the Assistance of Edu Hawk Worldwide Consultancy?",
-              "a": "Students may plan their **study-abroad journey**, organize their application materials, research appropriate universities, and comprehend **admission requirements** with the assistance of Edu Hawk globally. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs. Study Law in Canada for Indian StudentsBest Universities for Law in CanadaLaw Courses in Canada for International StudentsLaw Eligibility in Canada After Class 12Law Admission Requirements in CanadaLaw Fees in Canada for Indian StudentsLaw Scholarships in Canada for International StudentsJuris Doctor (JD) Programs in Canada for International StudentsMaster of Laws (LLM) in Canada for Indian StudentsLSAT Requirements for Law Schools in CanadaInternational Law and Corporate Law Courses in CanadaLaw Admission Process in Canada"
+              "a": "Students may plan their **study-abroad journey**, organize their application materials, research appropriate universities, and comprehend **admission requirements** with the assistance of Edu Hawk globally. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
             }
           ]
         }

@@ -19,8 +19,7 @@ const page = {
   "keywords": "Study Electronics & Communication - UG in Spain, Electronics & Communication - UG in Spain for Indian Students, Best Universities in Spain, Cost of Studying in Spain",
   "introTitle": "Bachelor's in Electronics Engineering in Spain for Indian Students",
   "heroParas": [
-    "Bachelor's in Electronics Engineering in Spain for Indian Students allows Indian students to acquire technical skills in electronic circuits, semiconductor devices, communication systems, embedded systems and automation. In Spain, engineering can be studied at public and private universities. Students can choose to specialize in areas like electronics, telecommunications, industrial technology and others.",
-    "Electronics Engineering courses in Spain for Indian students need to be compared carefully for degree titles. Undergraduate courses in electronics may be offered as Electronics Engineering, Electronic Systems Engineering, Telecommunications Engineering or Industrial Electronics and Automation Engineering."
+    "Bachelor's in Electronics Engineering in Spain for Indian Students allows Indian students to acquire technical skills in electronic circuits, semiconductor devices, communication systems, embedded systems and automation. In Spain, engineering can be studied at public and private universities."
   ],
   "overview": [
     "Bachelor's in Electronics Engineering in Spain for Indian Students allows Indian students to acquire technical skills in electronic circuits, semiconductor devices, communication systems, embedded systems and automation. In Spain, engineering can be studied at public and private universities. Students can choose to specialize in areas like electronics, telecommunications, industrial technology and others.",

@@ -24,10 +24,10 @@ const page = {
     "Study Undergraduate Computer Engineering in Australia for Indian Students Best Computer Engineering Universities in Australia Computer Engineering Courses in Australia After 12th Bachelor of Computer Engineering in Australia for International Students Computer Engineering Admission Requirements in Australia Computer Engineering Fees in Australia for Indian Students Computer Engineering Scholarships in Australia for International Students Computer Engineering Course Duration in Australia",
   introTitle: "Indian Students Pursuing Undergraduate Computer Engineering in Australia",
   heroParas: [
-    "A branch of engineering called computer engineering blends computer science and electrical engineering to create, build, and maintain computer software, hardware, and networks.",
-    "Computer engineering programs are available at top universities in Australia, providing cutting-edge facilities, knowledgeable faculty, and high-quality education. Indian students will have access to career opportunities worldwide, industry-aligned coursework, and an internationally recognized degree."
+    "A branch of engineering called computer engineering blends computer science and electrical engineering to create, build, and maintain computer software, hardware, and networks."
   ],
   overview: [
+    "Computer engineering programs are available at top universities in Australia, providing cutting-edge facilities, knowledgeable faculty, and high-quality education. Indian students will have access to career opportunities worldwide, industry-aligned coursework, and an internationally recognized degree.",
     "Undergraduate computer engineering programs in Australia emphasize designing and developing hardware, software engineering, embedded computing, microprocessors, and high-performance computing systems."
   ],
   level: "UG",

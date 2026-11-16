@@ -21,8 +21,21 @@ const page = {
   description: "Study International Business in Australia. Explore top business universities (RMIT, UWA, Monash, Sydney), cross-border trade, global strategy, fees, and career pathways.",
   keywords: "Study International Business in Australia International Business in Australia for Indian Students Study Bachelor of International Business in Australia Study Master of International Business in Australia International Business Courses in Australia International Business After 12th in Australia Study International Business in Australia After Graduation International Business in Australia with Scholarships International Business at Australian Universities International Business in Australia - Fees and Admission Requirements",
   introTitle: "International Business in Australia for Indian Students",
-  heroParas: ["A business-focused academic discipline, international business examines how businesses function in global marketplaces. Global supply chains, international trade, international marketing, cross-cultural management, international financing, and corporate strategy are all covered.","Students gain knowledge about how businesses enter overseas markets, oversee worldwide operations, form multinational alliances, and adapt to cultural, legal, and economic disparities."],
-  overview: ["Numerous universities in Australia provide undergraduate and graduate courses in international business. Students can pursue a Master of International Business, a Bachelor of Business with an International Business major, a Bachelor of International Business, or similar degrees, depending on the school.","Important Highlights","Pay attention to international markets and global business operations.","Examine company strategy and international trade.","Recognize and manage cross-cultural communication","Examine worldwide finance and marketing.","Develop your ability to think critically, negotiate, and solve problems.","Study up on global supply chains and market growth.","Examine career options in international organizations and global corporations."],
+  heroParas: [
+    "A business-focused academic discipline, international business examines how businesses function in global marketplaces. Global supply chains, international trade, international marketing, cross-cultural management, international financing, and corporate strategy are all covered."
+  ],
+  overview: [
+    "Students gain knowledge about how businesses enter overseas markets, oversee worldwide operations, form multinational alliances, and adapt to cultural, legal, and economic disparities.",
+    "Numerous universities in Australia provide undergraduate and graduate courses in international business. Students can pursue a Master of International Business, a Bachelor of Business with an International Business major, a Bachelor of International Business, or similar degrees, depending on the school.",
+    "Important Highlights",
+    "Pay attention to international markets and global business operations.",
+    "Examine company strategy and international trade.",
+    "Recognize and manage cross-cultural communication",
+    "Examine worldwide finance and marketing.",
+    "Develop your ability to think critically, negotiate, and solve problems.",
+    "Study up on global supply chains and market growth.",
+    "Examine career options in international organizations and global corporations."
+  ],
   level: "Undergraduate & Postgraduate",
   crumb: "Business & Management",
 

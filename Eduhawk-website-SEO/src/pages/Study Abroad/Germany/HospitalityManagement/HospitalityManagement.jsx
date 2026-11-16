@@ -14,436 +14,341 @@ import uniImg3 from "../../../../Images/Abroad/Germany/HospitalityManagement/3_E
 import uniImg4 from "../../../../Images/Abroad/Germany/HospitalityManagement/4_Stralsund_University_of_Applied_S.webp";
 
 const page = {
-  "name": "Hospitality Management in Germany",
-  "country": "Germany",
-  "slug": "hospitality-management",
-  "title": "Hospitality Management in Germany for Indian Students | Edu-Hawk Worldwide",
-  "description": "Complete guide to Hospitality Management in Germany for international students: Top German universities, admission requirements, zero-tuition public education, living expenses, and 18-month post-study work visa.",
-  "keywords": "Study Hospitality Management in Germany for Indian Students, Best Universities for Hospitality Management in Germany, Bachelor's and Master's in Hospitality Management in Germany, Hotel Management and Tourism Courses in Germany, Hospitality Management Eligibility Requirements in Germany, Admission Requirements for Hospitality Management in Germany, Study Hospitality Management in English in Germany, IELTS and German Language Requirements for Hospitality Courses, Hospitality Management Tuition Fees in Germany, Cost of Living for Hospitality Management Students in Germany, Hospitality Management Scholarships in Germany for International Students, Accreditation and Recognition of Hospitality Management Universities in Germany, Career Opportunities After Hospitality Management in Germany, Hotel Management and Hospitality Salary in Germany, Germany Student Visa Requirements for Indian Hospitality Management Students",
-  "introTitle": "1\\. WHY STUDY HOSPITALITY MANAGEMENT IN GERMANY?",
-  "heroParas": [
-    "Germany is a very attractive destination for students who want to **study **hospitality management** , event planning, tourism and hotel operations**. Its established tourism sector and international business environment provide opportunities to develop practical **management and customer service skills**.",
-    "Some of the major benefits include:",
-    "* **Tourism and hotel management learning opportunities**.",
-    "* Contact with international hospitality standards.",
-    "* Internships refer to practical training in some establishments.",
-    "* German and English are available as course languages.",
-    "* Careers with **hotels, resorts, restaurants and event companies**.",
-    "* opportunities to build a career in international hospitality.”",
-    "**Edu Hawk Worldwide Consultancy** helps students familiar with university admission requirements, prepares them for their overseas education journey and helps them explore international study opportunities with the right planning and guidance."
+  name: "Hospitality Management in Germany",
+  country: "Germany",
+  slug: "hospitality-management",
+  title: "Hospitality Management in Germany for Indian Students | Edu-Hawk Worldwide",
+  description: "Complete guide to Hospitality Management in Germany for international students: Top German universities, admission requirements, zero-tuition public education, living expenses, and 18-month post-study work visa.",
+  keywords: "Study Hospitality Management in Germany for Indian Students, Best Universities for Hospitality Management in Germany, Bachelor's and Master's in Hospitality Management in Germany, Hotel Management and Tourism Courses in Germany, Hospitality Management Eligibility Requirements in Germany, Admission Requirements for Hospitality Management in Germany, Study Hospitality Management in English in Germany, IELTS and German Language Requirements for Hospitality Courses, Hospitality Management Tuition Fees in Germany, Cost of Living for Hospitality Management Students in Germany, Hospitality Management Scholarships in Germany for International Students, Accreditation and Recognition of Hospitality Management Universities in Germany, Career Opportunities After Hospitality Management in Germany, Hotel Management and Hospitality Salary in Germany, Germany Student Visa Requirements for Indian Hospitality Management Students",
+  introTitle: "Why Study Hospitality Management in Germany?",
+  heroParas: [
+    "Germany is Europe's central travel hub and a premier global destination for hospitality management, hotel operations, and international tourism, offering high-caliber Bachelor's, Master's, and MBA programs with integrated corporate internships, tuition-free public university options, and an 18-month post-study work visa."
   ],
-  "overview": [
-    "Germany is a very attractive destination for students who want to **study **hospitality management** , event planning, tourism and hotel operations**. Its established tourism sector and international business environment provide opportunities to develop practical **management and customer service skills**.",
-    "Some of the major benefits include:",
-    "* **Tourism and hotel management learning opportunities**.",
-    "* Contact with international hospitality standards.",
-    "* Internships refer to practical training in some establishments.",
-    "* German and English are available as course languages.",
-    "* Careers with **hotels, resorts, restaurants and event companies**.",
-    "* opportunities to build a career in international hospitality.”",
-    "**Edu Hawk Worldwide Consultancy** helps students familiar with university admission requirements, prepares them for their overseas education journey and helps them explore international study opportunities with the right planning and guidance."
+  overview: [
+    "Germany is an exceptionally attractive study destination for students seeking careers in **hospitality management, international tourism, event planning, and luxury hotel operations**. Its central location in Europe, established tourism infrastructure, and world-class trade fair ecosystem offer unparalleled opportunities to master **practical management, revenue optimization, and guest service leadership**.",
+    "Key benefits of studying hospitality management in Germany include:",
+    "* **Advanced Tourism & Hotel Operations Training:** Rigorous dual-curriculums combining strategic management theory with hands-on service operations.",
+    "* **International Hospitality Standards:** Exposure to global hotel chains, luxury resort management, and European travel compliance.",
+    "* **Embedded Corporate Internships:** Mandatory practical placements in five-star hotels, event agencies, convention bureaus, and airline catering companies.",
+    "* **English and German Course Offerings:** International degree tracks taught fully in English, with bilingual options providing a competitive edge across European markets.",
+    "* **Expansive Career Opportunities:** Strong recruitment across hotels, resorts, international restaurant groups, conference organizers, and travel technology corporations.",
+    "**Edu Hawk Worldwide Consultancy** guides students through university entry requirements, application portfolios, APS certification, and visa documentation to ensure a seamless study-abroad journey."
   ],
-  "level": "B.A. & M.A. in International Hospitality Management",
-  "crumb": "Management / Hospitality & Tourism",
-  "stats": [
+  level: "B.A., B.Sc., M.A. & MBA in Hospitality Management",
+  crumb: "Management / Hospitality & Tourism",
+  stats: [
     {
-      "label": "Degree Choices",
-      "value": "B.A. & M.A. in International Hospitality Management"
+      label: "Degree Choices",
+      value: "B.A., B.Sc., M.A. & MBA"
     },
     {
-      "label": "Course Duration",
-      "value": "3 to 6 Years"
+      label: "Course Duration",
+      value: "UG: 3-3.5 Yrs | PG: 1-2 Yrs"
     },
     {
-      "label": "Top Institutions",
-      "value": "1 . Heilbronn University of Applied Sciences, 2 . Dresden University of Applied Sciences (HTW Dresden)      The business related programs offered, may be pertinent to tourism and service management."
+      label: "Top Institutions",
+      value: "Heilbronn UAS, HTW Dresden, EBC / IU, Stralsund UAS"
     },
     {
-      "label": "Post-Study Work",
-      "value": "18-Month Jobseeker Visa (Residence Permit)"
+      label: "Post-Study Work",
+      value: "18-Month Jobseeker Visa (Residence Permit)"
     }
   ],
-  "sections": [
+  sections: [
     {
-      "slot": "courses",
-      "eyebrow": "Curriculum & Specializations",
-      "title": "2. Hospitality Management Courses in Germany",
-      "groups": [
+      slot: "courses",
+      eyebrow: "Curriculum & Specializations",
+      title: "Hospitality Management Courses & Specializations in Germany",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "German universities and specialized institutions provide programs at the bachelor’s and master’s level in hospitality and tourism.",
-            "**Options:**",
-            "Bachelor’s degrees generally take **3-3.5 years** and master’s degrees take **1-2 years**.",
-            "**common topics.**"
+          t: "p",
+          items: [
+            "German universities and specialized management institutions offer structured undergraduate and postgraduate degree programs in hotel management, tourism destination development, and event leadership.",
+            "Undergraduate bachelor's degrees span 3 to 3.5 years (180 to 210 ECTS) and typically incorporate a mandatory 6-month corporate internship or international exchange semester. Master's degrees require 1 to 2 years (60 to 120 ECTS).",
+            "Popular core subjects and specialized tracks include:"
           ]
         },
         {
-          "t": "pills",
-          "items": [
-            "Bachelor of Arts degree or Bachelor of Science in Hospitality Management.",
-            "Bachelor Degree in Hotel Management.",
-            "Bachelor’s degree in international hotel management.",
-            "Bachelor level of Tourism Management.",
+          t: "pills",
+          items: [
+            "Bachelor of Arts in Hospitality Management",
+            "Bachelor of Science in Hotel & Restaurant Operations",
+            "Bachelor in International Tourism Management",
             "Master of Science in International Hospitality Management",
-            "Master degree in Tourism and Destination Management.",
-            "MBA in hotel or tourism management.",
-            "Hotel Operations",
-            "Food and drink management",
-            "Marketing in tourism",
-            "Event management",
-            "Revenue management",
-            "Customer relationship",
-            "Finance for sustainable tourism and hospitality"
+            "Master in Sustainable Tourism & Destination Development",
+            "MBA in International Hotel & Tourism Management",
+            "Food & Beverage Management & Cost Control",
+            "Hotel Revenue Management & Pricing Analytics",
+            "Event Organization, Trade Fair & Convention Management",
+            "Customer Relationship Management (CRM) & Guest Experience",
+            "Hospitality Marketing & Digital Sales Channels",
+            "Sustainable Tourism Finance & Eco-Hotel Auditing"
           ]
         }
       ]
     },
     {
-      "slot": "universities",
-      "eyebrow": "Top German Universities",
-      "title": "3. Germany's Top Universities and Institutions for Hospitality Management",
-      "groups": [
+      slot: "unis",
+      eyebrow: "Top German Universities",
+      title: "Best German Universities & Institutions for Hospitality Management",
+      unis: [
         {
-          "t": "p",
-          "items": [
-            "The following establishments offer **hospitality, tourism, and associated management education** to students:"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "why",
-      "eyebrow": "Why Study in Germany",
-      "title": "1. Heilbronn University of Applied Sciences: renowned for its business, tourism and service management programs.",
-      "groups": []
-    },
-    {
-      "slot": "courses",
-      "eyebrow": "Curriculum & Specializations",
-      "title": "2. Dresden University of Applied Sciences (HTW Dresden) - The business-related programs offered, may be pertinent to tourism and service management.",
-      "groups": []
-    },
-    {
-      "slot": "universities",
-      "eyebrow": "Top German Universities",
-      "title": "3. EBC Hochschule - Has provided education in business and tourism; verify institutional status and current program availability.",
-      "groups": []
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Eligibility Criteria",
-      "title": "4. Stralsund University of Applied Sciences - provides study options in the fields of business and tourism.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "A degree in **Hospitality Management** is not offered by all universities. Before submitting an application, review the current course catalog, program language, internship format, and admission requirements."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Eligibility Criteria",
-      "title": "4. Qualifications for Studying Hospitality Management in Germany",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The institution and program determine eligibility.",
-            "**Regarding bachelor's programs:**",
-            "If your educational background does not grant you direct admission to a university, you may need to take an assessment test and attend **Studienkolleg**.",
-            "**Regarding master's programs:**",
-            "Additionally, **customer service experience** or prior exposure to the sector are valued in many hospitality programs."
-          ]
+          name: "Heilbronn University of Applied Sciences (Hochschule Heilbronn)",
+          city: "Heilbronn, Baden-Württemberg",
+          qsRank: "Premier German UAS for Tourism & Service Management",
+          tuition: "€1,500/semester (Baden-Württemberg non-EU fee) + ~€200 semester fee",
+          programs: "B.A. in Hotel & Restaurant Management, M.A. in International Tourism Management",
+          highlights: "One of Germany's most established tourism and hospitality faculties; close partnerships with international hotel chains and convention bureaus.",
+          link: "https://www.hs-heilbronn.de",
+          img: uniImg1
         },
         {
-          "t": "ul",
-          "items": [
-            "A recognized qualification for leaving school.",
-            "Necessary academic credentials and any requirements for particular subjects.",
-            "**German proficiency** for courses taught in German or **English proficiency** for programs taught in English.",
-            "A recognized **bachelor's degree** in business, management, tourism, hospitality, or a similar field.",
-            "Required curriculum and grades.",
-            "Depending on the curriculum, one must be proficient in either German or English.",
-            "An interview, relevant **work experience**."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "admission",
-      "eyebrow": "Admission Requirements",
-      "title": "5. Germany's Admission Requirements for Hospitality Management",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Typical requirements for entry consist of:",
-            "Certain programs incorporate **practical placements** or mandate that students do a **internship** while pursuing their education."
-          ]
+          name: "Dresden University of Applied Sciences (HTW Dresden)",
+          city: "Dresden, Saxony",
+          qsRank: "Leading Public University of Applied Sciences",
+          tuition: "€0 Tuition (Public) | ~€290/semester contribution (incl. state transit pass)",
+          programs: "B.A. in International Business (Tourism Track), M.A. in Management of Service Enterprises",
+          highlights: "Strong practical business focus, state-of-the-art simulation labs, and direct connections to European cultural and travel organizations.",
+          link: "https://www.htw-dresden.de",
+          img: uniImg2
         },
         {
-          "t": "ul",
-          "items": [
-            "Academic transcripts and certifications.",
-            "If necessary, the results of an English language test, such as the TOEFL or IELTS.",
-            "For programs taught in German, a **German language certificate** is required.",
-            "A CV or resume.",
-            "A letter of motivation or a statement of goal.",
-            "Recommendation letters, upon request.",
-            "Certificates of internship or employment experience, if applicable.",
-            "If necessary, take an entrance exam or interview."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "fees",
-      "eyebrow": "Tuition Fees & Living Costs",
-      "title": "6. The cost of studying hospitality management in Germany",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The institution, course structure and city all affect the overall cost.",
-            "Estimated costs:",
-            "Students should check directly with the institution of their choice on the most recent tuition pricing, internship expenses, and financial requirements."
-          ]
+          name: "EBC Hochschule / International University of Applied Sciences",
+          city: "Berlin / Hamburg / Bad Honnef",
+          qsRank: "Top Private Hospitality & Tourism Institution",
+          tuition: "€5,500 - €9,000/semester (Private University)",
+          programs: "B.A. in International Hospitality Management, M.A. in International Tourism & Event Management",
+          highlights: "Full English instruction; dual-study models with embedded luxury hotel internships across Europe, Asia, and North America.",
+          link: "https://www.iu.org",
+          img: uniImg3
         },
         {
-          "t": "ul",
-          "items": [
-            "The basic tuition for many programs at public universities is free, however semester contributions often cost between €150 and €400.",
-            "There are several states, universities, and specialized programs that charge tuition, including some fees for **non-EU students**.",
-            "The cost of tuition at private colleges can vary from roughly **€5,000 to €20,000 or more annually.",
-            "The approximate monthly cost of living is between €900 and €1,300.",
-            "When applicable, additional expenditures include books, clothing, transportation, health insurance and practical training."
+          name: "Stralsund University of Applied Sciences (Hochschule Stralsund)",
+          city: "Stralsund, Mecklenburg-Vorpommern",
+          qsRank: "Renowned Coastal Campus for Leisure & Tourism",
+          tuition: "€0 Tuition (Public) | ~€150/semester contribution",
+          programs: "B.A. in Leisure and Tourism Management (LTM), M.A. in Tourism Development",
+          highlights: "Located on the Baltic Sea coast; strong focus on maritime hotel operations, resort development, and international destination marketing.",
+          link: "https://www.hochschule-stralsund.de",
+          img: uniImg4
+        }
+      ]
+    },
+    {
+      slot: "requirements",
+      eyebrow: "Eligibility Criteria",
+      title: "Qualifications for Studying Hospitality Management in Germany",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Eligibility criteria depend on degree level and university format (academic research university vs. applied sciences / dual-study institution):",
+            "**Undergraduate (Bachelor's) Eligibility:**",
+            "* **Higher Secondary Qualification:** A recognized school-leaving certificate equivalent to the German Abitur (12th grade standard in commerce, humanities, or science).",
+            "* **Studienkolleg & FSP:** Indian applicants with 12-year schooling (CBSE/ICSE/State Boards) generally complete a 1-year preparatory foundation course (**Studienkolleg W-Kurs**) and pass the **Feststellungsprüfung (FSP)**, unless possessing 1 year of recognized university education in India or an IB Diploma.",
+            "* **Language Proficiency:** English-taught tracks require IELTS (6.0 - 6.5) or TOEFL iBT (80 - 90). German-taught tracks require TestDaF (4x4) or DSH-2.",
+            "* **Service Orientation:** Prior customer-facing experience or high school vocational exposure in hospitality is highly valued.",
+            "**Postgraduate (Master's & MBA) Eligibility:**",
+            "* **Bachelor's Degree:** A recognized undergraduate degree in Hospitality, Tourism, Business Administration, Economics, or related fields with minimum 180 ECTS.",
+            "* **Academic Threshold:** Minimum German grade equivalent of 2.5 or better (approx. 65-70%+).",
+            "* **Industry Work Experience:** Specialized hospitality MBA and executive master's programs require 1 to 2+ years of professional hospitality or service industry experience.",
+            "* **Interview Assessment:** Many hospitality faculties conduct an admission video interview to evaluate communication and interpersonal leadership skills."
           ]
+        }
+      ]
+    },
+    {
+      slot: "admissions",
+      eyebrow: "Application Checklist",
+      title: "Admission Requirements for Hospitality Management in Germany",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "German universities maintain rigorous document verification protocols. Indian applicants must secure the mandatory **APS Certificate** from APS India prior to university and visa submissions.",
+            "Standard application documents include:",
+            "* Valid Passport (minimum 12 months validity).",
+            "* Certified Secondary School Certificates & Marksheets (10th & 12th standards).",
+            "* Bachelor's Degree Certificate and official transcripts (for Master's applicants).",
+            "* Mandatory **APS Certificate** (for Indian applicants).",
+            "* English Language Test Scorecard (IELTS Academic or TOEFL iBT) or German certificate (TestDaF/DSH/Goethe).",
+            "* Well-articulated Statement of Purpose (SOP) highlighting passion for service excellence and global hospitality management.",
+            "* Updated Curriculum Vitae (CV) in European Europass format.",
+            "* Two Academic or Professional Letters of Recommendation (LORs).",
+            "* Certificates of relevant work experience, internships, or vocational training in hotels, restaurants, or tourism agencies.",
+            "* University entrance examination or admission interview results (if required)."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "costs",
+      eyebrow: "Financial Planning",
+      title: "Cost of Studying Hospitality Management in Germany",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Hospitality education in Germany is remarkably cost-effective compared to Switzerland, the UK, or the USA, while maintaining world-class standards:",
+            "* **Public Universities:** Consecutive Bachelor's and Master's degrees at public universities across 15 of Germany's 16 federal states charge **€0 tuition fee** for all students regardless of nationality.",
+            "* **Baden-Württemberg State Tuition:** Public universities in Baden-Württemberg (such as Heilbronn) charge **€1,500 per semester** for non-EU international students.",
+            "* **Semester Contribution (Semesterbeitrag):** Public institutions require a mandatory fee of **€150 to €400 per semester**, which includes an all-inclusive public transportation pass (Semesterticket).",
+            "* **Private Hospitality Colleges:** Private universities (such as IU or EBC) charge tuition ranging from **€5,000 to €15,000+ per year**.",
+            "* **Monthly Living Expenses:** Budget approximately **€900 to €1,300 per month** covering student accommodation (€350 - €600), statutory health insurance (~€125 - €130), meals, groceries, and personal items.",
+            "* **German Blocked Account (Sperrkonto):** International students must deposit **€11,904 per year** into an approved German blocked account as proof of financial resources for student visa approval.",
+            "* **Paid Practical Training:** Many hospitality internships in Germany are paid, providing students with stipends ranging from €600 to €1,200/month during their practical semester."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "timeline",
+      eyebrow: "Step-by-Step Pathway",
+      title: "Admission Procedure for Hospitality Management in Germany",
+      steps: [
+        {
+          num: "01",
+          title: "Select Program & Specialization",
+          desc: "Choose your degree level (Bachelor's or Master's/MBA) and specialization: Hotel Operations, Luxury Tourism, Event Management, or Revenue Strategy."
         },
         {
-          "t": "table",
-          "headers": [
-            "Category / Expense Type",
-            "Estimated Amount (EUR)",
-            "Applicability & Regulation"
-          ],
-          "rows": [
-            [
-              "The basic tuition for many programs at public universities is free, however semester contributions often cost between €150 and €400.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "There are several states, universities, and specialized programs that charge tuition, including some fees for non",
-              "EU students.",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "The cost of tuition at private colleges can vary from roughly €5,000 to €20,000 or more annually.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "The approximate monthly cost of living is between €900 and €1,300.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "When applicable, additional expenditures include books, clothing, transportation, health insurance and practical training.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "process",
-      "eyebrow": "Application Timeline & Steps",
-      "title": "7. The German Admission Process for Hospitality Management",
-      "groups": []
-    },
-    {
-      "slot": "why",
-      "eyebrow": "Why Study in Germany",
-      "title": "1. Select a program in tourism, hospitality, or hotel management.",
-      "groups": []
-    },
-    {
-      "slot": "courses",
-      "eyebrow": "Curriculum & Specializations",
-      "title": "2. Examine universities, tuition, length of courses, and language instruction.",
-      "groups": []
-    },
-    {
-      "slot": "universities",
-      "eyebrow": "Top German Universities",
-      "title": "3. Verify the language and academic eligibility standards.",
-      "groups": []
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Eligibility Criteria",
-      "title": "4. Get academic certificates and supporting documentation ready.",
-      "groups": []
-    },
-    {
-      "slot": "admission",
-      "eyebrow": "Admission Requirements",
-      "title": "5. Use the designated application service or the university portal to submit the application.",
-      "groups": []
-    },
-    {
-      "slot": "fees",
-      "eyebrow": "Tuition Fees & Living Costs",
-      "title": "6. Finish any necessary interview or entrance assessment.",
-      "groups": []
-    },
-    {
-      "slot": "process",
-      "eyebrow": "Application Timeline & Steps",
-      "title": "7. Get the admission offer and accept it.",
-      "groups": []
-    },
-    {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Quality Standards",
-      "title": "8. If necessary, arrange proof of funds, health insurance, and visa documents.",
-      "groups": []
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Career Prospects & Salary",
-      "title": "9. Plan your journey and lodging.",
-      "groups": []
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Required Documentation",
-      "title": "10. Finish the enrollment process and get ready for any necessary practical training.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Before the deadline, submit your application and give yourself enough time to verify your documents and process your visa."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Quality Standards",
-      "title": "8. Germany's Accreditation and Recognition of Hospitality Management",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Make sure the program fulfills your job goals and that the university is recognized before selecting one.",
-            "Students need to verify:",
-            "Although **international accreditations** are not always necessary, some business and hospitality schools may also have them. Instead of depending solely on promotional materials, verify accreditation claims with the appropriate accreditation authority."
-          ]
+          num: "02",
+          title: "Research Universities & Language Formats",
+          desc: "Evaluate public universities (€0 tuition) versus specialized private hospitality academies, confirming English or German instructional language."
         },
         {
-          "t": "ul",
-          "items": [
-            "Is the organization **officially recognized in Germany**?",
-            "The degree's level of quality assurance or accreditation.",
-            "Does the program offer approved **industry placements**?",
-            "Whether the degree is appropriate for work or additional education in the target nation."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Career Prospects & Salary",
-      "title": "9. Pay and Employment Prospects in Germany Following Hospitality Management",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Graduates in hospitality management can find employment in travel agencies, hotels, resorts, restaurants and tourist firms.",
-            "Among the popular career opportunities are:",
-            "Germany's approximate yearly gross salary are as follows:",
-            "The salary range for entry-level hospitality positions is between €26,000 and €35,000. Managers and supervisors with experience: roughly €35,000 to €50,000. Senior hotel and operations managers earn at least €50,000 to €75,000.",
-            "These numbers are approximations that change according to the employer, city, level of experience, kind of hotel and duties.",
-            "While other languages might be useful in international hotels, **German language proficiency** is especially beneficial for guest-facing roles."
-          ]
+          num: "03",
+          title: "Verify Academic Prerequisites & Apply for APS",
+          desc: "Check high school or undergraduate ECTS compatibility and apply early for the mandatory APS Certificate via APS India."
         },
         {
-          "t": "ul",
-          "items": [
-            "The executive in charge of hotel operations",
-            "The manager of the front office",
-            "The manager of guest relations",
-            "The manager of food and beverages",
-            "The manager of the restaurant",
-            "The coordinator of the event",
-            "The manager of tourism",
-            "Analyst for Revenue Management",
-            "A sales executive in the hospitality industry",
-            "The general manager of the hotel"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Required Documentation",
-      "title": "10. Documents Needed to Learn German Hospitality Management",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Documents that are frequently needed include:",
-            "International students may additionally require **proof of funding, health insurance, and visa documentation** after being admitted."
-          ]
+          num: "04",
+          title: "Appear for Language Proficiency Exams",
+          desc: "Complete IELTS Academic (6.0 - 6.5) or TOEFL iBT (80 - 90) well before application deadlines."
         },
         {
-          "t": "ul",
-          "items": [
-            "A valid passport is required.",
-            "For bachelor's degree candidates, there are **school-leaving certificates**.",
-            "Transcripts and a bachelor's degree certificate are required for master's candidates.",
-            "If necessary, the results of an English or German language test.",
-            "A CV or resume.",
-            "A letter of motivation or a statement of goal.",
-            "Recommendation letters, upon request.",
-            "Certificates of work experience or internship, if relevant.",
-            "The completed application form and the results of any necessary entrance exams.",
-            "If required, certified translations of papers."
+          num: "05",
+          title: "Assemble Application Portfolio",
+          desc: "Draft a personalized Statement of Purpose (SOP), format your Europass CV, obtain professional/academic LORs, and compile work experience certificates."
+        },
+        {
+          num: "06",
+          title: "Submit University Applications",
+          desc: "Submit your applications through Uni-Assist or directly to university portals before July 15 (Winter) or January 15 (Summer)."
+        },
+        {
+          num: "07",
+          title: "Complete Video Interviews or Entry Assessments",
+          desc: "Participate in virtual admission interviews or personal aptitude assessments when invited by the university faculty."
+        },
+        {
+          num: "08",
+          title: "Accept Admission Offer",
+          desc: "Receive your official Letter of Admission (Zulassungsbescheid) and pay any initial administrative or semester contribution fee."
+        },
+        {
+          num: "09",
+          title: "Open Blocked Account & Secure Visa",
+          desc: "Deposit €11,904 in a German blocked account (Sperrkonto), obtain statutory health insurance, and apply for the National Student Visa (Subtype 16b)."
+        },
+        {
+          num: "10",
+          title: "Relocate, Register & Begin Practical Studies",
+          desc: "Arrive in Germany, complete city registration (Anmeldung), finalize university matriculation (Immatrikulation), and commence your hospitality career training."
+        }
+      ]
+    },
+    {
+      slot: "accreditation",
+      eyebrow: "Quality Standards",
+      title: "Accreditation & Quality Recognition of Hospitality Management in Germany",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Before enrolling, verify institutional accreditation to ensure degree credibility and international career recognition:",
+            "* **German State Recognition (Staatlich Anerkannt):** All public and state-accredited private universities are strictly monitored by the German Council of Science and Humanities (Wissenschaftsrat) and recognized in the Anabin database.",
+            "* **FIBAA (Foundation for International Business Administration Accreditation):** Leading European accreditation agency specifically certifying business, tourism, and service management curriculums.",
+            "* **UNWTO.TedQual Certification:** United Nations World Tourism Organization quality benchmark awarded to elite tourism and hotel management education programs.",
+            "* **Integrated Industry Placement Certification:** State-monitored dual-study frameworks ensuring student internships comply with statutory German labor standards and structured training syllabi."
           ]
         }
       ]
     },
     {
-      "slot": "details",
-      "eyebrow": "Key Insights",
-      "title": "11. FAQs regarding German hospitality management",
-      "groups": [
+      slot: "careers",
+      eyebrow: "Employment Outlook",
+      title: "Career & Salary Opportunities in Hospitality Management in Germany",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Q1. Is it possible for me to study hospitality management in English in Germany?",
-            "**English-taught hospitality, tourism, or international hotel management programs** are offered by some institutions. Verify the course's instructional language.",
-            "Q2. In Germany, how long does it take to study hospitality management?",
-            "Master's programs often take **1-2 years**, whereas bachelor's programs typically take **3-3.5 years**.",
-            "Q3. Is hospitality management reasonably priced in Germany?",
-            "Tuition at many public colleges is comparatively cheap, although there are some outliers. Budgeting for living expenses, health insurance, semester contributions, and any fees associated with practical training is advised.",
-            "Q4. Can Indian students pursue a career in hospitality management in Germany after completing their 12th grade education?",
-            "Yes, if they fulfill the prerequisites for admission to the university. Some candidates may require **Studienkolleg and an assessment examination** prior to enrolling in a bachelor's program, depending on their educational background.",
-            "Q5. What careers may I pursue in Germany after completing my studies in hospitality management?",
-            "Careers in **hotel operations, guest relations, restaurant management, event planning, tourism, hotel sales, and revenue management** are available to graduates.",
-            "How can I study overseas with the assistance of ****Edu Hawk Worldwide Consultancy**?**",
-            "Students may plan their **study-abroad journey**, organize their application materials, research appropriate universities, and comprehend **admission requirements** with the assistance of Edu Hawk globally. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
+          t: "p",
+          items: [
+            "Graduates in Hospitality Management from German universities enjoy strong career mobility across international hotel chains, luxury resorts, event conglomerates, airline hospitality, cruise lines, and destination management organizations.",
+            "Popular career profiles include:",
+            "* **Hotel Operations Executive:** Managing daily accommodation, guest services, and operational logistics.",
+            "* **Front Office & Guest Relations Manager:** Directing reception operations, VIP guest hospitality, and customer satisfaction metrics.",
+            "* **Food & Beverage (F&B) Director:** Overseeing multi-outlet restaurant concepts, banqueting, and culinary supply chains.",
+            "* **Event & Convention Coordinator:** Planning international trade fairs, corporate summits, and high-profile exhibitions.",
+            "* **Revenue Management Analyst:** Forecasting room demand, dynamic pricing strategies, and yield optimization across digital distribution channels.",
+            "* **Tourism Destination Manager:** Formulating municipal tourism branding, eco-tourism development, and travel marketing initiatives.",
+            "* **General Hotel Manager:** Assuming complete executive, financial, and operational command of a hotel property.",
+            "**Estimated Gross Annual Salaries in Germany:**",
+            "* **Entry-Level Positions:** **€28,000 to €36,000** per year.",
+            "* **Experienced Supervisors & Department Heads (3-5+ years):** **€38,000 to €52,000** per year.",
+            "* **Senior Operations & General Managers:** **€55,000 to €80,000+** per year.",
+            "Salaries vary according to city (e.g., Berlin, Munich, Frankfurt, Hamburg), property rating, and language proficiency. Fluency in German alongside English is especially advantageous for guest-facing leadership roles."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "documents",
+      eyebrow: "Required Paperwork",
+      title: "Documents Required to Study Hospitality Management in Germany",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Ensure all documentation is neatly compiled, translated into English or German, and verified where applicable:",
+            "* Valid Passport (minimum 12 months validity).",
+            "* Secondary School Certificates & Marksheets (10th & 12th standards).",
+            "* Bachelor's Degree Certificate and official grade transcripts (for Master's applicants).",
+            "* **Mandatory APS Certificate** issued by the Academic Evaluation Centre (APS India).",
+            "* English Language Proficiency scorecards (IELTS Academic 6.0 - 6.5 or TOEFL iBT 80 - 90).",
+            "* German Language Certificates (if enrolled in German or bilingual modules: B1/B2/TestDaF).",
+            "* Statement of Purpose (SOP) tailored specifically to your chosen hospitality curriculum.",
+            "* Europass format CV detailing academic achievements, projects, and work experience.",
+            "* Two Academic/Professional Letters of Recommendation (LORs).",
+            "* Proof of Internships, Extracurricular Leadership, or Hospitality Service Experience.",
+            "* Blocked Account Confirmation (€11,904) and German Statutory Health Insurance.",
+            "* Official University Admission Letter (Zulassungsbescheid)."
           ]
         }
       ]
     }
   ],
-  "faqs": []
+  faqs: [
+    {
+      q: "Is it possible to study Hospitality Management in English in Germany?",
+      a: "Yes. Multiple public universities of applied sciences and specialized private business academies offer Bachelor's, Master's, and MBA programs in International Hospitality and Tourism Management taught entirely in English. While academic classes are in English, acquiring intermediate German (B1/B2) is strongly recommended for customer-facing internships and permanent hotel employment."
+    },
+    {
+      q: "How long does it take to complete a hospitality management degree in Germany?",
+      a: "Bachelor's programs (B.A., B.Sc.) generally take 3 to 3.5 years (6 to 7 semesters), including a mandatory 6-month corporate internship. Master's programs (M.A., M.Sc., MBA) typically take 1 to 2 years (2 to 4 semesters) to complete."
+    },
+    {
+      q: "Is hospitality management education affordable in Germany?",
+      a: "Yes. Public universities across 15 German federal states charge zero tuition fees, requiring only a modest semester contribution of €150 to €400 (which covers regional public transit). In Baden-Württemberg, public university tuition is just €1,500 per semester. Private colleges charge between €5,000 and €15,000 annually. Living expenses average €900 to €1,300 per month, and practical semester internships are often paid."
+    },
+    {
+      q: "Can Indian students pursue Hospitality Management in Germany after 12th grade?",
+      a: "Yes, provided they meet admission criteria. Since German universities require 13 years of schooling (Abitur equivalence), Indian students generally complete a 1-year preparatory Studienkolleg (W-Kurs for business/tourism) and clear the Feststellungsprüfung (FSP). Direct entry is possible for students with 1 year of recognized university education in India or an IB Diploma."
+    },
+    {
+      q: "What job opportunities and post-study work rights are available after graduation?",
+      a: "International graduates in Germany are eligible for an 18-month post-study work visa (Residence Permit for Jobseekers). Graduates enter high-demand careers in hotel operations, guest relations, revenue management, event leadership, luxury resort administration, and travel technology, with initial salaries between €28,000 and €36,000 per year."
+    }
+  ]
 };
 
 export default function HospitalityManagementGermanyPage() {
@@ -451,30 +356,18 @@ export default function HospitalityManagementGermanyPage() {
     hero: heroImg,
     heroBg: heroBgImg,
     side: sideImg,
-    ctaBg: ctaBgImg,
-    universities: [
-    {
-      name: "1 . Heilbronn University of Applied Sciences",
-      img: uniImg1,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "2 . Dresden University of Applied Sciences (HTW Dresden)      The business related programs offered, may be pertinent to tourism and service management.",
-      img: uniImg2,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "3 .     EBC Hochschule          Has provided education in business and tourism; verify institutional status and current program availability.",
-      img: uniImg3,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "4 . Stralsund University of Applied Sciences      provides study options in the fields of business and tourism.",
-      img: uniImg4,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    }
-    ]
+    ctaBg: ctaBgImg
   };
 
-  return <AbroadCoursePage page={page} images={images} />;
+  return (
+    <AbroadCoursePage
+      page={page}
+      images={images}
+      heroImg={heroImg}
+      heroBgImg={heroBgImg}
+      sideImg={sideImg}
+      ctaBgImg={ctaBgImg}
+      seoPath="/study-abroad/germany/hospitality-management"
+    />
+  );
 }

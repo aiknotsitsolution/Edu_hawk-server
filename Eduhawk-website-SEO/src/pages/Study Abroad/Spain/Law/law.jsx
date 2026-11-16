@@ -20,8 +20,7 @@ const page = {
   "keywords": "Study Law in Spain, Law in Spain for Indian Students, Best Universities in Spain, Cost of Studying in Spain",
   "introTitle": "Spanish Law for Indian Students",
   "heroParas": [
-    "Law in Spain for Indian Students The course offers you the opportunity to study civil law, international law, European Union law, business law, human rights and international dispute resolution. Spain's legal education system is influenced by the continental European civil-law traditions, thus making it a possible destination for students interested in legal systems, global business and cross-border legal issues. Law in Spain for Indian Students can be an option for those who want to explore European and international legal systems.",
-    "Students can look at undergraduate law degrees, postgraduate law programs and specialist Masters courses. Language of instruction, duration of program and eligibility for profession differs from university to university and qualification to qualification."
+    "Law in Spain for Indian Students The course offers you the opportunity to study civil law, international law, European Union law, business law, human rights and international dispute resolution."
   ],
   "overview": [
     "Law in Spain for Indian Students The course offers you the opportunity to study civil law, international law, European Union law, business law, human rights and international dispute resolution. Spain's legal education system is influenced by the continental European civil-law traditions, thus making it a possible destination for students interested in legal systems, global business and cross-border legal issues. Law in Spain for Indian Students can be an option for those who want to explore European and international legal systems.",

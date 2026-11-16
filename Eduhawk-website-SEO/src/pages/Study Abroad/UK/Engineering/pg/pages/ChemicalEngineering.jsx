@@ -22,13 +22,10 @@ const page = {
   "keywords": "Study MSc Chemical Engineering in the UK, MSc Chemical Engineering in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Chemical Engineering (PG) in the United Kingdom",
   "heroParas": [
-    "Students pursuing postgraduate studies in Chemical Engineering frequently choose to study in the United Kingdom. Advanced courses incorporating chemical processes, industrial chemistry, process design, energy systems, materials science, and sustainable manufacturing are available at UK universities.",
-    "The main advantages of studying chemical engineering in the UK",
-    "Obtain a postgraduate degree from a UK university that is recognized internationally."
+    "Students pursuing postgraduate studies in Chemical Engineering frequently choose to study in the United Kingdom. Advanced courses incorporating chemical processes, industrial chemistry, process design, energy systems, materials science, and sustainable manufacturing are available at UK universities."
   ],
   "overview": [
     "Students pursuing postgraduate studies in Chemical Engineering frequently choose to study in the United Kingdom. Advanced courses incorporating chemical processes, industrial chemistry, process design, energy systems, materials science, and sustainable manufacturing are available at UK universities.",
-    "The main advantages of studying chemical engineering in the UK",
     "Obtain a postgraduate degree from a UK university that is recognized internationally."
   ],
   "level": "MSc Chemical Engineering",

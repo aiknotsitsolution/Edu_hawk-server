@@ -19,8 +19,7 @@ const page = {
   "keywords": "Study Civil Engineering - PG in Canada, Civil Engineering - PG in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Indian Students Studying Postgraduate Civil Engineering in Canada",
   "heroParas": [
-    "Students who wish to deepen their understanding of Civil Engineering, infrastructure development, structural design, transportation systems, construction management, and environmental engineering are drawn to Canada. Students can acquire advanced technical skills and get ready for professions in construction, infrastructure planning, engineering consulting, and research with a postgraduate degree in Civil Engineering in Canada",
-    "Edu Hawk Worldwide Consultancy helps students prepare for their foreign education adventure, comprehend university admission requirements, and explore international study possibilities."
+    "Students who wish to deepen their understanding of Civil Engineering, infrastructure development, structural design, transportation systems, construction management, and environmental engineering are drawn to Canada. Students can acquire advanced technical skills and get ready for professions in construction, infrastructure planning, engineering consulting, and research with a postgraduate degree in Civil Engineering in Canada"
   ],
   "overview": [
     "Students who wish to deepen their understanding of Civil Engineering, infrastructure development, structural design, transportation systems, construction management, and environmental engineering are drawn to Canada. Students can acquire advanced technical skills and get ready for professions in construction, infrastructure planning, engineering consulting, and research with a postgraduate degree in Civil Engineering in Canada",

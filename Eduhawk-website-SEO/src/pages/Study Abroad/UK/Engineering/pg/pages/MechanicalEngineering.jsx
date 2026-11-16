@@ -19,9 +19,7 @@ const page = {
   "keywords": "Study MSc Mechanical Engineering in the UK, MSc Mechanical Engineering in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Mechanical Engineering in the UK",
   "heroParas": [
-    "Students interested in postgraduate courses in Mechanical Engineering frequently choose to study in the United Kingdom. Advanced programs that integrate engineering theory, practical projects, research, and industry-focused learning are available at UK universities.",
-    "Students can gain expertise in fields including advanced manufacturing, robotics, renewable energy, automotive engineering, aerospace systems, materials science, and computational engineering with a postgraduate degree in Mechanical Engineering",
-    "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey with appropriate planning and guidance."
+    "Students interested in postgraduate courses in Mechanical Engineering frequently choose to study in the United Kingdom. Advanced programs that integrate engineering theory, practical projects, research, and industry-focused learning are available at UK universities."
   ],
   "overview": [
     "Students interested in postgraduate courses in Mechanical Engineering frequently choose to study in the United Kingdom. Advanced programs that integrate engineering theory, practical projects, research, and industry-focused learning are available at UK universities.",

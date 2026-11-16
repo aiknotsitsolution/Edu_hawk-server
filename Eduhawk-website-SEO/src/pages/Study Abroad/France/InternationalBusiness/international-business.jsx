@@ -13,557 +13,331 @@ import uniImg2 from "../../../../Images/Abroad/France/InternationalBusiness/ESSE
 import uniImg3 from "../../../../Images/Abroad/France/InternationalBusiness/ESCP_Business_School.webp";
 
 const page = {
-  "name": "International Business in France",
-  "country": "France",
-  "slug": "international-business",
-  "title": "Study International Business in France for Indian Students | Edu-Hawk Worldwide",
-  "description": "Complete guide to International Business in France for Indian students: Top French universities, admission requirements, tuition fees (€255 – €3,950 / year public), scholarships, and 2-year post-study work visa.",
-  "keywords": "Study International Business in France, International Business in France for Indian Students, International Business Courses in France, Bachelor’s Degree in International Business in France, Master’s in International Business in France, Best Business Schools for International Business in France, Top Universities for International Business in France, International Business Eligibility Requirements in France, International Business Admission Requirements in France, Cost of Studying International Business in France, International Business Tuition Fees in France, International Business Scholarships in France for Indian Students, English-Taught International Business Programmes in France, International Business Specialisations in France, Career Opportunities After International Business in France",
-  "introTitle": "STUDY INTERNATIONAL BUSINESS IN FRANCE",
-  "heroParas": [
-    "**Studying International Business in France** is a good choice for Indian students who want to become skilled in international trade, international marketing, finance, supply chain management, and cross-cultural business operations. In France you can study for a wide range of undergraduate and postgraduate degrees at universities and internationally recognized business schools.",
-    "**Study International Business in France** helps students develop the knowledge and practical skills to understand global markets, manage international operations and work with multinational organizations. Students are exposed to European business practices and an international learning environment and can explore career opportunities in international trade, consulting, finance, marketing, logistics and business development.",
-    "**Edu Hawk worldwide consultancy** study abroad guidance will help students to explore these opportunities and understand what it takes to pursue education overseas.",
-    "**"
+  name: "International Business in France",
+  country: "France",
+  slug: "international-business",
+  title: "Study International Business in France for Indian Students | EduHawk",
+  description: "Complete guide to studying International Business in France: Top French business schools (IÉSEG, ESSEC, ESCP), Bachelor (BIB) and Master (MIB / MSc) programs, tuition fees, eligibility, and global career opportunities.",
+  keywords: "Study International Business in France, International Business in France for Indian Students, International Business Courses in France, Bachelor’s Degree in International Business in France, Master’s in International Business in France, Best Business Schools for International Business in France, Top Universities for International Business in France, International Business Eligibility Requirements in France, International Business Admission Requirements in France, Cost of Studying International Business in France, International Business Tuition Fees in France, International Business Scholarships in France for Indian Students, English-Taught International Business Programmes in France, International Business Specialisations in France, Career Opportunities After International Business in France",
+  introTitle: "STUDY INTERNATIONAL BUSINESS IN FRANCE",
+  heroParas: [
+    "Studying **International Business in France**—across accredited Bachelor in International Business (BIB) and Master in International Business (MIB / MSc) degrees—prepares students for senior global leadership in multinational trade, cross-border marketing, international finance, geopolitical risk management, and global supply chain operations at top-tier French universities and triple-accredited Grandes Écoles."
   ],
-  "overview": [
-    "**Studying International Business in France** is a good choice for Indian students who want to become skilled in international trade, international marketing, finance, supply chain management, and cross-cultural business operations. In France you can study for a wide range of undergraduate and postgraduate degrees at universities and internationally recognized business schools.",
-    "**Study International Business in France** helps students develop the knowledge and practical skills to understand global markets, manage international operations and work with multinational organizations. Students are exposed to European business practices and an international learning environment and can explore career opportunities in international trade, consulting, finance, marketing, logistics and business development.",
-    "**Edu Hawk worldwide consultancy** study abroad guidance will help students to explore these opportunities and understand what it takes to pursue education overseas.",
-    "**"
+  overview: [
+    "France is one of Europe's most influential commercial epicenters, home to global industry powerhouses in luxury goods, aerospace, automotive engineering, retail, banking, and digital technology. International business programs in France provide immersive cross-cultural business training taught entirely in 100% English.",
+    "Academic pathways are structured under 3-year Bachelor programs (Grade de Licence, 180 ECTS) and 1 to 2-year Master programs (Grade de Master / MSc, 90 to 120 ECTS). Students engage in mandatory corporate internships, overseas exchange semesters, and hands-on consulting projects, gaining immediate employability across multinational corporations.",
+    "**EduHawk Worldwide Study Abroad Guidance** provides comprehensive advisory services for Indian candidates—evaluating academic profiles, shortlisting top-tier French business schools, assisting with application essays and video pitches, and guiding students through Campus France visa processing."
   ],
-  "level": "Bachelor & Master in International Business (MIB / MSc)",
-  "crumb": "Business / International Business",
-  "stats": [
+  level: "Bachelor & Master in International Business (BIB / MIB / MSc / Bac+5)",
+  crumb: "Business & Management / International Business",
+  stats: [
     {
-      "label": "Degree Choices",
-      "value": "Bachelor & Master in International Business (MIB / MSc)"
+      label: "Degree Formats",
+      value: "Bachelor (BIB, 180 ECTS) & Master (MIB / MSc, 90 – 120 ECTS)"
     },
     {
-      "label": "Course Duration",
-      "value": "3 to 5 Years (Licence / Diplôme d'Ingénieur)"
+      label: "Course Duration",
+      value: "Undergraduate: 3 Years | Postgraduate: 1 to 2 Years"
     },
     {
-      "label": "Top Institutions",
-      "value": "University_1, ESSEC Business School"
+      label: "Top Institutions",
+      value: "IÉSEG School of Management, ESSEC, ESCP"
     },
     {
-      "label": "Post-Study Work",
-      "value": "2-Year APS / Autorisation Provisoire de Séjour"
+      label: "Post-Study Work",
+      value: "2-Year APS / RECE Post-Study Work Permit"
     }
   ],
-  "sections": [
+  sections: [
     {
-      "slot": "why",
-      "eyebrow": "Why Study in France",
-      "title": "1. IÉSEG School of Management**",
-      "groups": [
+      slot: "why",
+      eyebrow: "Strategic Advantages",
+      title: "Why Study International Business in France?",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "IÉSEG School of Management gives you a **Bachelor in International Business** in English in Lille and Paris. The program gives students an insight into the basics of management and international business.",
-            "Those students interested in postgraduate study can also look into its ****Master in International Business**** offering advanced learning in international management and business operations.",
-            "**"
+          t: "p",
+          items: [
+            "France offers a gateway to European and transatlantic commerce, combining world-ranked Grandes Écoles with deep connections to multinational corporate headquarters.",
+            "**Key Advantages of Studying International Business in France:**",
+            "• **Global Business Epicenter:** Learn within a dynamic European market home to industry leaders such as L'Oréal, LVMH, Airbus, TotalEnergies, BNP Paribas, and Danone.",
+            "• **100% English-Taught Programs:** Complete your entire degree in English with zero initial French language requirement for admission.",
+            "• **Cross-Cultural Cohorts:** Collaborate on projects with classmates from over 60 nationalities, building intercultural management competencies essential for multinational leadership.",
+            "• **Mandatory Paid Internships:** French regulations mandate remuneration for internships exceeding two months, providing students with real-world corporate experience across France and the EU.",
+            "• **Triple Crown Accreditations:** Study at institutions holding AACSB, EQUIS, and AMBA accreditations, confirming world-class pedagogical excellence.",
+            "• **Two-Year Post-Study Work Visa:** Master's graduates qualify for the 2-year APS / RECE permit to pursue professional corporate employment across France."
           ]
         }
       ]
     },
     {
-      "slot": "courses",
-      "eyebrow": "Degrees & Specializations",
-      "title": "2. ESSEC Business School**",
-      "groups": [
+      slot: "courses",
+      eyebrow: "Curriculum & Specializations",
+      title: "International Business Degrees & Academic Pathways",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "ESSEC Business School offers a range of management programs for students interested in **global management, international strategy, business development and international markets**.",
-            "Students are advised to consult the school’s program catalog to determine the precise qualification, specialization, language of instruction and entry requirements that correspond to their academic background.",
-            "**"
+          t: "p",
+          items: [
+            "Undergraduate and postgraduate international business degrees in France synthesize core commercial acumen with specialized cross-border modules.",
+            "**Undergraduate Programs (Bachelor in International Business - BIB):**",
+            "A 3-year bachelor's degree (180 ECTS) introducing commercial operations and international trade fundamentals:",
+            "• Global Business Fundamentals & Organizational Behavior",
+            "• International Marketing & Consumer Insights",
+            "• Managerial Accounting & Corporate Finance",
+            "• World Trade Law & Export-Import Regulations",
+            "• Cross-Cultural Negotiation Dynamics",
+            "• Global Supply Chain & Logistics Management",
+            "• Business Analytics & Applied Quantitative Statistics",
+            "**Postgraduate Programs (Master in International Business - MIB / MSc):**",
+            "A 1 to 2-year advanced master's (90 to 120 ECTS) tailored for strategic global leadership:",
+            "• International Corporate Strategy & Competitive Advantage",
+            "• Global Financial Management & International M&A",
+            "• Cross-Border Market Entry & Global Expansion Strategies",
+            "• Omnichannel Brand Strategy & International Marketing",
+            "• Geopolitical Risk Analysis & International Compliance",
+            "• Digital Transformation in Global Supply Chains",
+            "• International Business Consulting Fieldwork"
           ]
         }
       ]
     },
     {
-      "slot": "unis",
-      "eyebrow": "Top Institutions in France",
-      "title": "3. ESCP Business School**",
-      "groups": [
+      slot: "unis",
+      eyebrow: "Premier Business Schools",
+      title: "Top Business Schools for International Business in France",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "ESCP Business School offers management education with a strong international perspective and a network in multiple European cities. Its programs may be of interest to students interested in **international management, global business strategy and cross-border business operations**.",
-            "**"
+          t: "p",
+          items: [
+            "France is home to several top-tier business schools renowned globally for their international business and management programs."
+          ]
+        }
+      ],
+      unis: [
+        {
+          name: "IÉSEG School of Management",
+          city: "Lille & Paris",
+          state: "Hauts-de-France / Île-de-France",
+          desc: "Triple-accredited Grandes Écoles offering both the Bachelor in International Business (BIB) and Master in International Business (MIB) in 100% English with exceptional corporate placement rates.",
+          img: uniImg1
+        },
+        {
+          name: "ESSEC Business School",
+          city: "Cergy / Paris",
+          state: "Île-de-France",
+          desc: "World-leading business school delivering the prestigious Master in Strategy & Management of International Business (SMIB), ranked #2 globally by the Financial Times.",
+          img: uniImg2
+        },
+        {
+          name: "ESCP Business School",
+          city: "Paris",
+          state: "Île-de-France",
+          desc: "The world's oldest business school with pan-European campus mobility across Paris, London, Berlin, Madrid, and Turin, offering cutting-edge international management programs.",
+          img: uniImg3
+        }
+      ]
+    },
+    {
+      slot: "eligibility",
+      eyebrow: "Admissions Criteria",
+      title: "Eligibility & Language Requirements for Indian Students",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Admissions criteria vary depending on whether applicants are seeking undergraduate or postgraduate entry.",
+            "**Bachelor's Degree (BIB) Eligibility:**",
+            "• Completion of Class 12 from CBSE, ISC, State Boards, or IB with a minimum aggregate of 60% – 65%+.",
+            "• Open to students from Commerce, Science, or Humanities backgrounds; basic mathematics is advantageous.",
+            "• English language proficiency: IELTS 6.0 – 6.5 or TOEFL iBT 80+ (or equivalent).",
+            "**Master's Degree (MIB / MSc) Eligibility:**",
+            "• A recognized Bachelor's degree (3-year or 4-year degree) in business, engineering, economics, or humanities with strong academic standing (typically 60%+ aggregate).",
+            "• English proficiency scores: IELTS Academic 6.5+, TOEFL iBT 85+, TOEIC 850+, or Duolingo 115+.",
+            "• Updated professional CV and detailed Statement of Purpose (SOP) demonstrating career motivation in international commerce.",
+            "• Two letters of recommendation (LOR) and an interactive video or virtual admissions interview."
           ]
         }
       ]
     },
     {
-      "slot": "eligibility",
-      "eyebrow": "Academic & Language Criteria",
-      "title": "4. Requirements to Studying International Business in France**",
-      "groups": [
+      slot: "fees",
+      eyebrow: "Tuition & Costs",
+      title: "Cost of Studying International Business in France & Living Expenses",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "****Requirements to study International Business in France**** differ by level of study, type of institution, and the program you are applying for.",
-            "**Eligibility for Bachelor Degree**",
-            "For an undergraduate program Indian students applying usually need:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "- Secondary-school qualification or the equivalent (Class 12).",
-            "- School leaving certificates and academic transcripts.",
-            "- Satisfactory academic performance in related subjects.",
-            "- English proficiency (for English taught programmes).",
-            "- French language proficiency is required for programs taught in French.",
-            "- Statement of motivation, interview or entrance assessment, as required."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Some business schools require applicants to have taken math through the end of secondary school.",
-            "**M.S. Degree Requirements**",
-            "Students applying for a ****Master’s degree in International Business in France**** usually need:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "- Recognized bachelor degree or equivalent qualification.",
-            "- Academic transcripts and diplomas.",
-            "- English language proficiency for programs taught in English.",
-            "- Updated CV or résumé",
-            "- A video of your statement of purpose or motivation.",
-            "- An interview or admission assessment (where applicable)",
-            "- Relevant work experience (if required by the programme)."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Some master's programs will accept applicants with a variety of academic backgrounds, while others may require prior study in **business, economics, management or a related discipline**.",
-            "**English requirements**",
-            "For International Business programs taught in English, applicants may be required to provide proof of their proficiency by:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "- Academic IELTS",
-            "- Internet-Based TOEFL (TOEFL iBT)",
-            "- TOEIC",
-            "- English Cambridge",
-            "- Duolingo English Test, if applicable",
-            "- Other English language assessments approved by the institution"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "English Test \\| Minimum Score Required",
-            "\\| IELTS Academic \\| 6.5 \\|",
-            "TOEFL iBT \\| 85 \\|",
-            "\\| TOEIC four-skills \\| 850 \\|",
-            "Duolingo English Test \\| 115 \\|",
-            "**"
+          t: "p",
+          items: [
+            "Tuition fees reflect the distinction between state-subsidized public universities and private Grandes Écoles.",
+            "**Indicative Program Tuition Investments:**",
+            "• **Public Universities (National Reference Fees 2026–2027):**",
+            "  - Bachelor's (Licence): €178/year (EU) vs. €2,902/year (Non-EU).",
+            "  - Master's Degree: €255/year (EU) vs. €3,950/year (Non-EU).",
+            "• **Private Business Schools & Grandes Écoles:**",
+            "  - **IÉSEG Bachelor in International Business:** Approx. €12,100 per year.",
+            "  - **IÉSEG Master in International Business:** €26,800 (Fast Track) to €29,800 (Regular Track) total program tuition.",
+            "  - **ESSEC / ESCP Master's Programs:** Approx. €16,000 to €28,000 per year.",
+            "**Living Expenses & Student Aid:**",
+            "• Average monthly student expenditure ranges from €750 to €1,000 in regional cities and €1,100 to €1,400 in the Paris region.",
+            "• All international students qualify for French CAF housing assistance, reimbursing up to 40% of monthly accommodation rent.",
+            "• Annual student campus life contribution (CVEC) is approx. €103/year.",
+            "**Scholarships for International Students:**",
+            "Business schools offer merit-based scholarships and early-bird tuition reductions granting 15% to 50% fee waivers."
           ]
         }
       ]
     },
     {
-      "slot": "requirements",
-      "eyebrow": "Application Checklist",
-      "title": "5. Admission requirements for International Business in France**",
-      "groups": [
+      slot: "admission",
+      eyebrow: "Application Roadmap",
+      title: "Step-by-Step International Business Application Process",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Students applying to a ****International Business degree in France**** should check the admission policy of the specific institution.",
-            "**Admission Requirements General**"
+          t: "p",
+          items: [
+            "Applying for international business programs in France involves structured institutional application rounds and Campus France visa validation."
           ]
+        }
+      ],
+      steps: [
+        {
+          title: "Select Academic Degree Level",
+          desc: "Choose between a 3-year Bachelor in International Business (BIB) or a 1 to 2-year Master in International Business (MIB / MSc) based on your educational background."
         },
         {
-          "t": "ul",
-          "items": [
-            "- Filled in online application form",
-            "- School transcripts",
-            "- Bachelor’s degree certificate or class 12 certificate, as per the program",
-            "- Accepted identity document or valid passport",
-            "- Results of English or French language tests, if applicable",
-            "- CV or resume for post graduate applications",
-            "- Letter of intent/motivation",
-            "- Letter of recommendation, if required",
-            "- Interview or motivational video, if necessary",
-            "- Proof of application fee payment"
-          ]
+          title: "Compare Target Business Schools",
+          desc: "Evaluate institutions such as IÉSEG, ESSEC, and ESCP considering campus locations, rankings, tuition fees, and corporate internship networks."
         },
         {
-          "t": "p",
-          "items": [
-            "**What do universities look for?**",
-            "****Undergraduate applicants**** may be assessed on their academic performance, language ability, motivation and general suitability for the program.",
-            "****Postgraduate applicants**** Should describe their interest in international business, relevant academic projects or professional experience and their future career goals. Leadership potential, internships and extracurricular activities are also considered by some schools.",
-            "**"
+          title: "Verify Academic Prerequisites",
+          desc: "Ensure your Class 12 or Bachelor's degree percentage, course transcripts, and language credentials fulfill the business school's criteria."
+        },
+        {
+          title: "Assemble Application Portfolio",
+          desc: "Prepare your academic CV, personal statement of motivation (SOP), two letters of recommendation (LOR), and certified degree transcripts."
+        },
+        {
+          title: "Complete Language Testing",
+          desc: "Appear for your IELTS Academic (minimum 6.5) or TOEFL iBT (minimum 85+) exam."
+        },
+        {
+          title: "Submit Online Application",
+          desc: "Finalize and submit the application through the institution's official admissions portal before the round deadlines."
+        },
+        {
+          title: "Admissions Interview / Video Pitch",
+          desc: "Participate in an interactive virtual interview or submit a recorded video pitch articulating your cross-cultural drive and career vision."
+        },
+        {
+          title: "Accept Offer & Visa Processing",
+          desc: "Receive your admission letter, pay the seat reservation deposit, complete Campus France 'Etudes en France' verification, and secure your VLS-TS student visa."
+        }
+      ]
+    },
+    {
+      slot: "accreditation",
+      eyebrow: "Quality Standards",
+      title: "International Accreditation & Degree Recognition",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Verifying official recognition guarantees that your international business degree is respected by global employers and government bodies.",
+            "**Key Recognition Benchmarks:**",
+            "• **Grade de Licence & Grade de Master:** Official state-recognized degree titles granted by the French Ministry of Higher Education, guaranteeing European Bologna compliance and full ECTS portability.",
+            "• **RNCP Registration:** Level 6 (Bachelor) or Level 7 (Master) certification in the French National Directory of Professional Certifications.",
+            "• **The Triple Crown:** Prestigious international accreditations from AACSB (USA), EQUIS (Europe), and AMBA (UK), held by premier French business schools."
           ]
         }
       ]
     },
     {
-      "slot": "fees",
-      "eyebrow": "Tuition & Cost of Living",
-      "title": "6. Cost of Studying International Business in France**",
-      "groups": [
+      slot: "career",
+      eyebrow: "Career Horizons",
+      title: "Career Opportunities & Salary Expectations",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "The ****cost of studying International Business in France**** depends on the institution, level of the program, city, and duration. Public universities usually have a lower registration fee than private business schools, but there are differences in fees and exemptions.",
-            "Average Tuition Fees for International Business in French"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "* Public University – Bachelor's \\| €178 per year for EU/EEA/Swiss students; €2,902 for eligible non-EU students under differentiated fees",
-            "* Public University – Master's \\| €255/year for students from the EU/EEA/Switzerland; €3,950 for eligible non-EU students (subject to differentiated fees)",
-            "* Bachelor in International Business, IÉSEG \\| €12,100 (1st year 2026-2027)",
-            "* IÉSEG Master in International Business \\| €26,800 Fast Track or €29,800 Regular Track for the program"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "**Additional Living Expenses in France**",
-            "Apart from tuition fees, Indian students should budget for:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "- Accommodation and utilities",
-            "- Food and groceries",
-            "- Public transportation",
-            "- Health and insurance-related expenses",
-            "- Books, software, and study materials",
-            "- Visa and residence-related expenses, where applicable",
-            "- Personal expenses and travel"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Living expenses vary considerably between French cities. **Paris generally requires a higher student budget** than several other French university cities.",
-            "**Scholarships for International Business in France**",
-            "Indian students searching for ****International Business scholarships in France**** can explore different funding opportunities, depending on the institution and programme.",
-            "Possible options include:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "* - **Merit-Based Scholarships:** Financial awards based on academic performance and achievements.",
-            "* - **Need-Based Financial Support:** Assistance for eligible students where offered by the institution.",
-            "* - **Early Application Discounts:** Certain business schools may offer tuition reductions to eligible early applicants.",
-            "* - **Government or International Scholarships:** Funding opportunities offered by relevant governments or international organisations.",
-            "* - **Education Loans:** Financial support through eligible banks and education-finance providers.",
-            "* - **Family or Employer Sponsorship:** Funding through personal or employer support, where applicable."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Scholarship availability, eligibility, award amounts, and application deadlines vary. Some tuition reductions may be considered automatically during admission assessment, while others require a separate application.",
-            "**"
+          t: "p",
+          items: [
+            "An International Business degree from France opens global career pathways across multinational corporations, trade agencies, and consulting firms.",
+            "**Prominent Career Roles:**",
+            "• **International Business Development Manager**",
+            "• **Global Export-Import Coordinator**",
+            "• **International Sales & Key Account Executive**",
+            "• **Global Brand & Marketing Strategist**",
+            "• **International Supply Chain & Logistics Analyst**",
+            "• **Global Market Research Consultant**",
+            "• **Cross-Border Procurement & Sourcing Specialist**",
+            "• **Regional Commercial Director**",
+            "**Target Industries:**",
+            "Graduates excel across luxury goods & fashion, international trade, manufacturing, consumer retail, banking, logistics, and management consulting.",
+            "**Salary Expectations in France:**",
+            "Starting salaries for international business graduates range from **€42,000 to €62,000 per year**, with rapid upward progression for bilingual professionals with multinational internship experience."
           ]
         }
       ]
     },
     {
-      "slot": "process",
-      "eyebrow": "Step-by-Step Guide",
-      "title": "7. Admission Process for International Business in France**",
-      "groups": [
+      slot: "docs",
+      eyebrow: "Checklist",
+      title: "Documents Required for International Business Admission",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "The application process for **studying International Business in France** generally involves the following steps:",
-            "Step 1: Choose a Program",
-            "Depending on your previous education and career plans, decide if you want to pursue a bachelor’s degree, a master’s degree or a related management qualification.",
-            "Step 2: Verify Entry Criteria",
-            "Check academic requirements, language requirements, application deadlines and any other assessments for your chosen program.",
-            "Step 3: Gather Your Documents",
-            "Collect all your academic transcripts, certificates, identification documents, language test results, and any other documents needed for your application.",
-            "Step 4: Turn in the Application",
-            "Apply through the institution’s application portal or the national application platform (if any) as per the program and the applicant type.",
-            "Step 5: Finish Any Assessment",
-            "If the institution requires you to, go to an interview, submit a motivation video or complete an entrance test.",
-            "Step 6: Receive Your Admission Decision",
-            "Please check the offer of admission, the terms of the program, the tuition fee schedule, payment due dates and any scholarship award.",
-            "Step 7: Reserve Your Place",
-            "Pay the required deposit or registration fee and complete the institution’s enrollment procedures.",
-            "Step 8: Prepare for Your Studies in France",
-            "Organize accommodation, money, travel and any visa or residency procedures needed. Indian applicants should refer to the official French visa and immigration guidance applicable to their case.",
-            "**"
+          t: "p",
+          items: [
+            "Applicants should prepare the following documentation for admissions review:",
+            "1. Valid international passport.",
+            "2. Academic mark sheets and certificates (Class 10 & 12 for Bachelor; Bachelor's degree for Master's).",
+            "3. Statement of Purpose (SOP) explaining your motivation for international business and France.",
+            "4. Comprehensive professional Curriculum Vitae (CV).",
+            "5. English proficiency test scorecard (IELTS / TOEFL / TOEIC / Duolingo).",
+            "6. Two letters of recommendation from academic instructors or employers.",
+            "7. Proof of professional work experience or internships (if applicable).",
+            "8. Recorded video pitch or motivation statement (if requested by the institution).",
+            "9. Certified translations for any non-English documentation.",
+            "10. Receipt of application fee payment."
           ]
         }
       ]
     },
     {
-      "slot": "accreditation",
-      "eyebrow": "Degrees & Recognition",
-      "title": "8. Recognition and Accreditation of International Business Courses in France**",
-      "groups": [
+      slot: "eduhawk",
+      eyebrow: "Consultancy Support",
+      title: "How EduHawk Supports Your International Business Journey",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Before enrolling for the **International Business program in France**Indian students should verify that the course they choose is relevant to their future educational and professional aspirations.",
-            "**Important factors of recognition**"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "* - **Recognition of the institution**: Verify that the institution is recognized by the relevant French authorities.",
-            "* - **Qualification type:** Specify whether the program leads to a national degree or a qualification specific to the school.",
-            "* - **Grade de Licence:** Check for the French *grade de licence* in undergraduate programs where relevant.",
-            "* - **Master’s Grade:** Check if a postgraduate program has the French *grade de master*, if applicable.",
-            "* - **RNCP Registration:** If applicable, verify whether the qualification is registered in the French National Directory of Professional Certifications (RNCP).",
-            "* - **Accreditations:** Look at the key business school accreditations and what they mean."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Business school accreditations",
-            "When comparing business schools internationally, students may see the following accreditations:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "* - **AACSB**: Association to Advance Collegiate Schools of Business.",
-            "* - **EQUIS:** EFMD European Quality Improvement System.",
-            "* - **AMBA:** Association of Masters of Business Administration."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "These accreditations may provide useful information about business school quality and standards. However, they are **not equivalent to the government recognizing a particular degree or qualification**.",
-            "**"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Job Roles & Industry Growth",
-      "title": "9. Salary and Job Opportunities After International Business in France**",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "A ****degree in International Business from France**** prepares graduates for work with organizations that operate across national boundaries. Career possibilities are determined by qualification, internships, language skills, work experience, location and employer requirements.",
-            "**Best Career Options After International Business**",
-            "**Graduates may pursue roles such as:**"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "- Business Development Executive - International",
-            "- Export Import Coordinator",
-            "- International Sales Manager",
-            "- Specialist in Global Marketing",
-            "- Account Manager International",
-            "- Supply Chain Co-ordinator"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Operations and Logistics Analyst"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "- Research Analyst, Market",
-            "- Specialist in International Trade",
-            "- Consultant for business"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "-Procurement Officer",
-            "Regional Manager, Business Development",
-            "**Industries Seeking International Business Graduates**",
-            "**Potential areas of employment include**"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "* International Trade and Export-Import: -  Trade activities, cross border transactions and expansion of markets.",
-            "* Retail and Consumer Products -  Global sales, marketing and brand management.",
-            "* Luxury Goods and Fashion - Global brand strategy, merchandising and international development.",
-            "* Banking and Financial Services - Business analysis, client management and international financial operations.",
-            "* Consulting and Professional Services - Business strategy, market research and organizational development.",
-            "* Manufacturing and Industrial Companies - Global sourcing, operations & distribution.",
-            "* Logistics and Supply Chain Management - Global transportation, sourcing and supply chain management.",
-            "* Technology and Digital Services-  International business development and growth in the market.",
-            "* Tourism and Hospitality - Sales, operations and customer relations globally.",
-            "* Healthcare/Pharmaceutical Companies -  International commercial activities, business development."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "**Salary after Doing International Business in France**",
-            "There is no single salary for all International Business graduates. ** Entry level salaries are not the same as experienced professional and management salaries. ** Salaries vary by industry, city, employer, qualification and language requirements.",
-            "For students it is good to look at current job ads and credible salary surveys for the types of jobs and locations they are considering to get a feel for what realistic earnings might be. A degree does not guarantee a job.",
-            "**"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Document Requirements",
-      "title": "10. Documents Needed to Study International Business in France**",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "**Documents Needed  for **International Business admission in France**** differ as per the academic level and institution.",
-            "**Documents for Undergraduate Candidates**"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "- Passport or recognized ID"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "– Marksheets of Class 10 and Class 12"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "- High school diploma or equivalent.",
-            "- Results of an English or French language test (if required)",
-            "- Letter of motivation or personal statement",
-            "- Letter of reference (if asked for)",
-            "- CV, if needed",
-            "- Confirmation of application fee",
-            "- Passport size photograph (if applicable)"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "**Documents for Master’s applicant**",
-            "-Valid passport or recognized identity document"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "- Bachelor’s Degree Certificate",
-            "- Academic transcripts from the university",
-            "- Results of an English or French language test, if necessary",
-            "- CV or resume updated",
-            "- Letter of intent / statement of purpose",
-            "- Letters of recommendation, if required",
-            "- Evidence of work experience, if asked for",
-            "- Motivational/interview video, if applicable",
-            "- Confirmation of application fee"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Documents issued in a language other than the accepted one by the institution may need certified translations. It is advised that applicants follow the document checklist of the university or business school they are applying to, to the letter.",
-            "**"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "faqs",
-      "eyebrow": "Frequently Asked Questions",
-      "title": "11. FAQs on International Business in France**",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "1: Is France a good place to study International Business?",
-            "You will find many universities and business schools in France, international learning environments and exposure to European business markets. The right destination depends on the recognition of the program, tuition fees, language of teaching and your academic and career goals.",
-            "2: What is the duration of the International Business degree in France?",
-            "A bachelor’s degree usually takes **up to three years**. Master's programs vary from institution to institution and from qualification to qualification. Many of the programs are **one to two years or longer** , depending on internships and other academic requirements.",
-            "3: What are the conditions for eligibility for an International Business in France?",
-            "For bachelor’s programs you normally need a recognized secondary-school qualification and for master’s programs a bachelor’s degree. Admission requirements vary by institution and may include academic performance, language proficiency, interviews and other requisites.",
-            "4: Is it possible for Indian students to study International Business in France in English?",
-            "Yes, There are a number of French business schools that have **International Business programs taught completely in English**. Applicants should check the language of instruction, accepted English tests and minimum scores for each program.",
-            "5: What kind of jobs can I get after studying International Business in France?",
-            "Graduates can work in international sales, business development, export-import, global marketing, logistics, procurement, consulting and international operations. Senior jobs generally require academic qualifications and relevant professional experience.",
-            "**How Edu Hawk Worldwide Consultancy** Can Help Me Study International Business in France?",
-            "To select the best **International Business course in France**universities and business schools must be compared, academic requirements must be checked, tuition fees must be evaluated, and a complete application must be prepared.",
-            "****Edu Hawk Worldwide Consultancy**** can assist students with:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "- Research universities and business schools in France that are suitable.",
-            "- Get to know the admission requirements for bachelor’s and master’s."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Compare International Business courses and specializations."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "- Check out the English taught study options.",
-            "- Put your academic and application documents in order.",
-            "- Learn the process of applying to study abroad.",
-            "- Diagram their study abroad experience."
+          t: "p",
+          items: [
+            "Choosing the right business school in France requires strategic evaluation of curriculum focus, campus location, tuition, and post-study opportunities.",
+            "**EduHawk Worldwide Comprehensive Services:**",
+            "• **Targeted Business School Matching:** Profiling your academic strengths against premier French business schools including IÉSEG, ESSEC, and ESCP.",
+            "• **SOP & Video Pitch Mentorship:** Expert guidance on crafting compelling personal statements, activity profiles, and video responses.",
+            "• **Interview Coaching:** Comprehensive mock interviews to prepare you for faculty panel screenings.",
+            "• **Scholarship Applications:** Identifying institutional fee waivers and early-bird discounts to minimize study expenses.",
+            "• **Campus France & Visa Filing:** Complete step-by-step handling of Etudes en France procedures, financial paperwork, and visa approval."
           ]
         }
       ]
     }
   ],
-  "faqs": [
+  faqs: [
     {
-      "q": "1: Is France a good place to study International Business?",
-      "a": "You will find many universities and business schools in France, international learning environments and exposure to European business markets. The right destination depends on the recognition of the program, tuition fees, language of teaching and your academic and career goals."
+      q: "Is France a good place to study International Business?",
+      a: "Yes. France is home to some of Europe's top-ranked business schools. It offers world-class international business training, 100% English-taught curriculums, mandatory paid internships, and direct exposure to major European commercial markets."
     },
     {
-      "q": "2: What is the duration of the International Business degree in France?",
-      "a": "A bachelor’s degree usually takes **up to three years**. Master's programs vary from institution to institution and from qualification to qualification. Many of the programs are **one to two years or longer** , depending on internships and other academic requirements."
+      q: "What is the duration of an International Business degree in France?",
+      a: "An undergraduate Bachelor in International Business (BIB) typically spans 3 years (180 ECTS). Postgraduate Master in International Business (MIB / MSc) programs span 1 to 2 years (90 to 120 ECTS), including corporate internships and consulting assignments."
     },
     {
-      "q": "3: What are the conditions for eligibility for an International Business in France?",
-      "a": "For bachelor’s programs you normally need a recognized secondary-school qualification and for master’s programs a bachelor’s degree. Admission requirements vary by institution and may include academic performance, language proficiency, interviews and other requisites."
+      q: "What are the eligibility criteria for Indian students?",
+      a: "For Bachelor's programs, students need completion of Class 12 with a minimum 60%+ aggregate. For Master's programs, a recognized 3-year or 4-year Bachelor's degree with 60%+ is required, along with an English proficiency test such as IELTS (6.5+) or TOEFL (85+)."
     },
     {
-      "q": "4: Is it possible for Indian students to study International Business in France in English?",
-      "a": "Yes, There are a number of French business schools that have **International Business programs taught completely in English**. Applicants should check the language of instruction, accepted English tests and minimum scores for each program."
+      q: "Is it possible for Indian students to study International Business in France in English?",
+      a: "Yes. Premier French business schools deliver their international business degrees entirely in 100% English. Indian students do not need prior knowledge of French for admission, though French language modules are included to aid local integration."
     },
     {
-      "q": "5: What kind of jobs can I get after studying International Business in France?",
-      "a": "Graduates can work in international sales, business development, export-import, global marketing, logistics, procurement, consulting and international operations. Senior jobs generally require academic qualifications and relevant professional experience. **How Edu Hawk Worldwide Consultancy** Can Help Me Study International Business in France? To select the best **International Business course in France**universities and business schools must be compared, academic requirements must be checked, tuition fees must be evaluated, and a complete application must be prepared. ****Edu Hawk Worldwide Consultancy**** can assist students with: - Research universities and business schools in France that are suitable. - Get to know the admission requirements for bachelor’s and master’s. Compare International Business courses and specializations. - Check out the English taught study options. - Put your academic and application documents in order. - Learn the process of applying to study abroad. - Diagram their study abroad experience."
+      q: "What career opportunities open after completing International Business in France?",
+      a: "Graduates secure roles as International Business Development Managers, Export-Import Specialists, Global Supply Chain Analysts, and Trade Consultants with starting salaries ranging from €42,000 to €62,000/year, supported by a 2-year post-study work permit (APS / RECE)."
     }
   ]
 };
@@ -575,23 +349,39 @@ export default function InternationalBusinessinFrancePage() {
     side: sideImg,
     ctaBg: ctaBgImg,
     universities: [
-    {
-      name: "University_1",
-      img: uniImg1,
-      desc: "Recognized French higher education institution offering accredited curriculum, world-class research facilities, and excellent industry connections."
-    },
-    {
-      name: "ESSEC Business School",
-      img: uniImg2,
-      desc: "Recognized French higher education institution offering accredited curriculum, world-class research facilities, and excellent industry connections."
-    },
-    {
-      name: "ESCP Business School",
-      img: uniImg3,
-      desc: "Recognized French higher education institution offering accredited curriculum, world-class research facilities, and excellent industry connections."
-    }
+      {
+        name: "IÉSEG School of Management",
+        city: "Lille & Paris",
+        state: "Hauts-de-France / Île-de-France",
+        desc: "Triple-accredited Grandes Écoles offering both the Bachelor in International Business (BIB) and Master in International Business (MIB) in 100% English with exceptional corporate placement rates.",
+        img: uniImg1
+      },
+      {
+        name: "ESSEC Business School",
+        city: "Cergy / Paris",
+        state: "Île-de-France",
+        desc: "World-leading business school delivering the prestigious Master in Strategy & Management of International Business (SMIB), ranked #2 globally by the Financial Times.",
+        img: uniImg2
+      },
+      {
+        name: "ESCP Business School",
+        city: "Paris",
+        state: "Île-de-France",
+        desc: "The world's oldest business school with pan-European campus mobility across Paris, London, Berlin, Madrid, and Turin, offering cutting-edge international management programs.",
+        img: uniImg3
+      }
     ]
   };
 
-  return <AbroadCoursePage page={page} images={images} />;
+  return (
+    <AbroadCoursePage
+      page={page}
+      heroImg={heroImg}
+      heroBgImg={heroBgImg}
+      sideImg={sideImg}
+      ctaBgImg={ctaBgImg}
+      seoPath={page.slug}
+      images={images}
+    />
+  );
 }

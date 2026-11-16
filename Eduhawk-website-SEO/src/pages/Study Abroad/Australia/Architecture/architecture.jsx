@@ -21,8 +21,22 @@ const page = {
   description: "Study Architecture in Australia for Indian students. Learn about B.Arch, M.Arch pathways, top design schools (Adelaide, Melbourne, Curtin, UNSW), AACA accreditation, and licensing.",
   keywords: "Study Architecture in Australia for Indian Students Architecture Courses in Australia for Indian Students Bachelor of Architecture in Australia After 12th Master of Architecture in Australia for Indian Students Best Universities to Study Architecture in Australia Cost of Studying Architecture in Australia for Indian Students Architecture Admission Requirements in Australia Architecture Scholarships in Australia for Indian Students Study Architecture in Australia with IELTS Architecture Career Opportunities in Australia for International Students",
   introTitle: "Indian Students Studying Architecture in Australia",
-  heroParas: ["Architecture is the study of building design, space planning, construction concept development, and the creation of environments that are safe, sustainable, esthetically pleasing, and functional.","Students can explore architectural design, building technology, construction techniques, urban planning, environmental sustainability, digital modeling, and the interaction between structures and their environments when studying architecture in Australia."],
-  overview: ["The Bachelor of Architectural Studies, Bachelor of Design in Architecture, Master of Architecture, and specialized programs in landscape architecture, urban design, and sustainable building design are among the undergraduate and graduate architecture programs offered by Australian universities.","Important Points","Learn about building planning and architectural design.","Recognize building technique and construction materials.","Gain expertise in technical drawing and design presentation.","Explore CAD, digital design tools, and 3D modeling.","Examine energy-efficient structures and sustainable architecture.","Comprehend construction principles and building laws.","Examine landscape design and urban planning.","Develop your ability to think creatively, solve problems, and manage projects."],
+  heroParas: [
+    "Architecture is the study of building design, space planning, construction concept development, and the creation of environments that are safe, sustainable, esthetically pleasing, and functional."
+  ],
+  overview: [
+    "Students can explore architectural design, building technology, construction techniques, urban planning, environmental sustainability, digital modeling, and the interaction between structures and their environments when studying architecture in Australia.",
+    "The Bachelor of Architectural Studies, Bachelor of Design in Architecture, Master of Architecture, and specialized programs in landscape architecture, urban design, and sustainable building design are among the undergraduate and graduate architecture programs offered by Australian universities.",
+    "Important Points",
+    "Learn about building planning and architectural design.",
+    "Recognize building technique and construction materials.",
+    "Gain expertise in technical drawing and design presentation.",
+    "Explore CAD, digital design tools, and 3D modeling.",
+    "Examine energy-efficient structures and sustainable architecture.",
+    "Comprehend construction principles and building laws.",
+    "Examine landscape design and urban planning.",
+    "Develop your ability to think creatively, solve problems, and manage projects."
+  ],
   level: "Undergraduate & Master's",
   crumb: "Architecture & Built Environment",
 

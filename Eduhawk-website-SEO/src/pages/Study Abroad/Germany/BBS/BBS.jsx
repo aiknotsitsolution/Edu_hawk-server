@@ -13,356 +13,317 @@ import uniImg2 from "../../../../Images/Abroad/Germany/BBS/University_of_Cologne
 import uniImg3 from "../../../../Images/Abroad/Germany/BBS/The_University_of_M_nster_has_a_str.webp";
 
 const page = {
-  "name": "BBS in Germany",
-  "country": "Germany",
-  "slug": "bbs",
-  "title": "BBS in Germany for Indian Students | Edu-Hawk Worldwide",
-  "description": "Complete guide to BBS in Germany for international students: Top German universities, admission requirements, zero-tuition public education, living expenses, and 18-month post-study work visa.",
-  "keywords": "Study BBS in Germany for Indian Students, Bachelor of Business Studies Courses in Germany, Best Universities for Business Studies in Germany, BBS Eligibility Requirements in Germany, BBS Admission Requirements for International Students in Germany, Study Business Administration in Germany After Class 12, Studienkolleg Requirements for Indian Students in Germany, IELTS and German Language Requirements for Business Studies in Germany, BBS Tuition Fees in Germany for Indian Students, Career Opportunities After Bachelor of Business Studies in Germany, BBS Graduate Salary in Germany, Germany Student Visa Requirements for Indian BBS Students",
-  "introTitle": "1\\. WHY BACHELOR OF BUSINESS STUDIES (BBS) IN GERMANY?",
-  "heroParas": [
-    "**Business, management, finance and entrepreneurship** are fields that attract students to Germany. Its strong economy and global business environment provides opportunities to acquire **practical business knowledge** and get ready for future careers.",
-    "**The main benefits are:**",
-    "* Good education from good universities.",
-    "* Exposure to foreign business practices.",
-    "* Opportunities to study economics, marketing, management and finance.",
-    "* Access to established companies and start-ups.",
-    "* Many public universities offer **affordable tuition** with some exceptions. - Possibilities for **postgraduate study and international careers**.",
-    "**Edu Hawk worldwide Consultancy** helps students understand **university entrance requirements**, explore **international study options** and prepares them for the **overseas education journey** with proper preparation and direction."
+  name: "BBS in Germany",
+  country: "Germany",
+  slug: "bbs",
+  title: "BBS in Germany for Indian Students | Edu-Hawk Worldwide",
+  description: "Complete guide to studying Bachelor of Business Studies (BBS) in Germany for international students: Top public universities, Studienkolleg pathways, zero-tuition fees, living expenses, and career prospects.",
+  keywords: "Study BBS in Germany for Indian Students, Bachelor of Business Studies Courses in Germany, Best Universities for Business Studies in Germany, BBS Eligibility Requirements in Germany, BBS Admission Requirements for International Students in Germany, Study Business Administration in Germany After Class 12, Studienkolleg Requirements for Indian Students in Germany, IELTS and German Language Requirements for Business Studies in Germany, BBS Tuition Fees in Germany for Indian Students, Career Opportunities After Bachelor of Business Studies in Germany, BBS Graduate Salary in Germany, Germany Student Visa Requirements for Indian BBS Students",
+  introTitle: "Why Study Bachelor of Business Studies in Germany?",
+  heroParas: [
+    "Germany attracts ambitious international students seeking a Bachelor of Business Studies (BBS) or equivalent undergraduate management degree, combining tuition-free public education with deep practical industry integration."
   ],
-  "overview": [
-    "**Business, management, finance and entrepreneurship** are fields that attract students to Germany. Its strong economy and global business environment provides opportunities to acquire **practical business knowledge** and get ready for future careers.",
-    "**The main benefits are:**",
-    "* Good education from good universities.",
-    "* Exposure to foreign business practices.",
-    "* Opportunities to study economics, marketing, management and finance.",
-    "* Access to established companies and start-ups.",
-    "* Many public universities offer **affordable tuition** with some exceptions. - Possibilities for **postgraduate study and international careers**.",
-    "**Edu Hawk worldwide Consultancy** helps students understand **university entrance requirements**, explore **international study options** and prepares them for the **overseas education journey** with proper preparation and direction."
+  overview: [
+    "A Bachelor of Business Studies in Germany equips undergraduates with thorough knowledge of business economics, financial management, international trade, and commercial enterprise operations.",
+    "Germany's powerhouse industrial economy and thriving entrepreneurial startup ecosystem provide exceptional environments to gain practical business acumen through company internships and applied research projects.",
+    "The country offers a balanced mix of renowned public research universities and specialized universities of applied sciences (Fachhochschulen), delivering world-class business curricula.",
+    "For qualified undergraduate programs, most public universities charge **no general tuition fees** (€0/year), requiring only a modest semester contribution covering administration and regional public transit.",
+    "Graduating with a German business bachelor's prepares students for immediate international commercial employment or seamless progression into top-tier Master of Science (M.Sc.) or MBA programs across Europe.",
+    "Edu-Hawk Worldwide Consultancy guides students through every step of their German undergraduate journey—from 12th-grade evaluation and Studienkolleg (W-Kurs) admissions to university applications, blocked accounts, and student visas."
   ],
-  "level": "Bachelor of Business Studies (BBS)",
-  "crumb": "Undergraduate / Business Studies",
-  "stats": [
-    {
-      "label": "Degree Choices",
-      "value": "Bachelor of Business Studies (BBS)"
-    },
-    {
-      "label": "Course Duration",
-      "value": "3 to 6 Years"
-    },
-    {
-      "label": "Top Institutions",
-      "value": "The University of Mannheim   is especially recognized for its     economics and business administration     studies., University of Cologne          Offers     programs related to business and economics."
-    },
-    {
-      "label": "Post-Study Work",
-      "value": "18-Month Jobseeker Visa (Residence Permit)"
-    }
+  level: "Bachelor of Business Studies / Bachelor of Science (BBS / B.Sc. in Business)",
+  crumb: "Undergraduate / Business Studies",
+  stats: [
+    { label: "Degree Choices", value: "BBS, B.Sc. in Business Administration, B.A. in Management" },
+    { label: "Course Duration", value: "3 to 3.5 Years (6 to 7 Semesters / 180 - 210 ECTS)" },
+    { label: "Tuition at Public Unis", value: "€0 Tuition (Semester fee: €150 - €400)" },
+    { label: "Post-Study Work Visa", value: "18 Months Jobseeker Visa" },
+    { label: "Starting Salary Range", value: "€35,000 - €48,000 / year" }
   ],
-  "sections": [
+  sections: [
     {
-      "slot": "courses",
-      "eyebrow": "Curriculum & Specializations",
-      "title": "2. German Bachelor Programs in Business courses",
-      "groups": [
+      slot: "details",
+      eyebrow: "Program Specialisations",
+      title: "Popular Undergraduate Business Studies Programs in Germany",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Typically, undergraduate business degrees take **3–3.5 years** to complete, depending on the university and how the course is structured.",
-            "related programs:",
-            "Common subjects include accounting, economics, marketing, finance, business law, human resource management, organizational behavior, and entrepreneurship."
+          t: "p",
+          items: [
+            "Undergraduate business degrees in Germany span 3 to 3.5 years (180 to 210 ECTS credits). Programs integrate foundational economics, quantitative business analytics, organizational leadership, and an applied bachelor's thesis.",
+            "Popular bachelor's concentrations and study pathways include:"
           ]
         },
         {
-          "t": "pills",
-          "items": [
-            "The Bachelor of Business Studies (BBS) program, where available.",
-            "Bachelor of Science, or Bachelor of Science in Business Administration. .",
-            "Bachelor's degree in international business.",
-            "A bachelor's degree in business management.",
-            "An International Management degree.",
-            "The Bachelor’s degree in Finance and Accounting .",
-            "A degree in marketing at undergraduate level.",
-            "A bachelor’s degree in entrepreneurship.",
-            "A bachelor’s degree in business economics.",
-            "Bachelor's degree in Digital Business."
+          t: "ul",
+          items: [
+            "**Bachelor of Business Studies (BBS):** Broad curriculum combining corporate finance, marketing, organizational behavior, and commercial operations.",
+            "**B.Sc. in Business Administration (Betriebswirtschaftslehre - BWL):** Quantitative degree emphasizing financial accounting, microeconomics, and operations management.",
+            "**Bachelor in International Business & Management:** Cross-border trade, multinational corporate strategy, and foreign business environments.",
+            "**Bachelor in Finance & Accounting:** Capital markets, corporate financial reporting, cost accounting, and fiscal planning.",
+            "**Bachelor in Marketing & Consumer Behavior:** Market research, digital branding, consumer psychology, and product commercialization.",
+            "**Bachelor in Digital Business & Enterprise Technology:** E-commerce platforms, digital transformation, and business data analytics.",
+            "**Bachelor in Entrepreneurship & Small Business Management:** Venture creation, business model design, seed financing, and startup incubation.",
+            "**Bachelor in Business Economics:** Applied economic analysis, econometric modeling, industrial organization, and public finance."
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "**Core Undergraduate Curricular Pillars:**",
+            "* Principles of Management, Accounting & Financial Control",
+            "* Business Economics, Microeconomics, and Applied Macroeconomics",
+            "* Quantitative Methods: Statistics for Business and Decision Modeling",
+            "* Business Law, Corporate Governance, and Commercial Contracts",
+            "* Strategic Management, Human Resource Management, and Marketing",
+            "* Integrated Internship Semester (Praxissemester) and Bachelor's Thesis"
           ]
         }
       ]
     },
     {
-      "slot": "universities",
-      "eyebrow": "Top German Universities",
-      "title": "3. Germany's Top Business Schools and Institutions",
-      "groups": [
+      slot: "unis",
+      eyebrow: "Top German Universities",
+      title: "Top Universities and Business Faculties for Business Studies",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "These universities provide ****undergraduate business-related education**** to students:",
-            "**The University of Mannheim** is especially recognized for its **economics and business administration** studies.",
-            "**University of Cologne** -** Offers **programs related to business and economics.",
-            "**The University of Münster** has a strong reputation for expertise in business administration and management."
+          t: "p",
+          items: [
+            "Germany's public universities are internationally celebrated for academic rigor, distinguished business faculties, and strong links with Europe's corporate sector."
+          ]
+        }
+      ],
+      unis: [
+        {
+          name: "University of Mannheim",
+          city: "Mannheim, Baden-Württemberg",
+          qsRank: "Germany's #1 Ranked Business Administration Faculty",
+          tuition: "€1,500 / semester (Baden-Württemberg non-EU tuition)",
+          programs: "B.Sc. in Business Administration (BWL), B.Sc. in Economics",
+          highlights: "Widely recognized as Germany's foremost business faculty; outstanding reputation among top multinational recruiters and financial institutions.",
+          link: "https://www.uni-mannheim.de/",
+          img: uniImg1
+        },
+        {
+          name: "University of Cologne",
+          city: "Cologne, North Rhine-Westphalia",
+          qsRank: "Historic Business Faculty / EQUIS & AACSB Accredited",
+          tuition: "€0 Tuition (Semester fee: ~€320 / semester)",
+          programs: "B.Sc. in Business Administration, B.Sc. in Economics",
+          highlights: "One of Europe's largest management faculties; located in a thriving corporate, media, and trade fair hub.",
+          link: "https://www.uni-koeln.de/",
+          img: uniImg2
+        },
+        {
+          name: "University of Münster (WWU Münster)",
+          city: "Münster, North Rhine-Westphalia",
+          qsRank: "Premier Public Center for Management and Economics",
+          tuition: "€0 Tuition (Semester fee: ~€320 / semester)",
+          programs: "B.Sc. in Business Administration, B.Sc. in Economics & Information Systems",
+          highlights: "Distinguished research faculty in marketing, logistics, and management accounting; excellent student-to-faculty ratio.",
+          link: "https://www.uni-muenster.de/",
+          img: uniImg3
+        }
+      ]
+    },
+    {
+      slot: "details",
+      eyebrow: "Eligibility & Academic Criteria",
+      title: "Eligibility Criteria and Admissions Pathways for BBS in Germany",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Admission to German undergraduate business programs depends on whether an applicant's secondary school certificate grants direct or indirect higher education entrance (Hochschulzugangsberechtigung - HZB):"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "**Indian Secondary Education (Class 12):** Standard 12-year schooling (CBSE/ICSE/State Boards) is generally recognized as 12 years of formal education, whereas direct German university entry requires 13 years (Abitur).",
+            "**Studienkolleg Pathway (W-Kurs):** Most Indian 12th-grade passouts attend a 1-year preparatory foundation course (Studienkolleg) enrolled in the W-Kurs (Wirtschaft / Business stream). Successfully passing the assessment examination (Feststellungsprüfung - FSP) qualifies the student for bachelor's enrollment.",
+            "**Direct University Admission:** Indian students who have completed 1 year of a recognized bachelor's degree in India, or who hold recognized Cambridge A-Levels or an IB Diploma meeting specific German criteria, may enter directly into the 3-year bachelor's degree.",
+            "**Language Proficiency:** English-taught programs require IELTS Academic (minimum 6.0–6.5) or TOEFL iBT (80–90). German-taught programs require TestDaF (level 4) or DSH-2. Studienkolleg entrance requires German B1/B2.",
+            "**APS India Certificate:** Mandatory document verifying 10th and 12th educational credentials prior to university application and visa issuance."
           ]
         }
       ]
     },
     {
-      "slot": "eligibility",
-      "eyebrow": "Eligibility Criteria",
-      "title": "4. Eligibility for BBS Studies in Germany",
-      "groups": [
+      slot: "details",
+      eyebrow: "Tuition & Finances",
+      title: "Cost of Pursuing a BBS in Germany and Living Expenses",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Some common **eligibility criteria** are:",
-            "Indian students should check whether they require a **foundation program (Studienkolleg) and assessment examination** or whether their **Class 12 qualification** allows **direct admission**."
+          t: "p",
+          items: [
+            "Germany offers one of the most affordable higher education systems in the world. Tuition-free public university education enables international students to complete a world-class business degree at minimal academic expense."
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Pass in **Class 12** or equivalent from a recognized board.",
-            "Meeting the university’s minimum **academic grade requirements**.",
-            "A valid **admission qualification for a German university.",
-            "For programs taught in English, **English proficiency** is usually demonstrated via **IELTS or TOEFL** if required.",
-            "German language skills are a prerequisite for programs taught in German.",
-            "Additional **assessments or entrance tests** if required."
+          t: "table",
+          headers: ["Expense Category", "Estimated Cost (EUR)", "Key Details & Inclusions"],
+          rows: [
+            ["Public University Tuition", "€0 / year", "100% tuition-free at public universities across 15 of 16 federal states."],
+            ["Baden-Württemberg State Non-EU Fee", "€1,500 / semester", "Charged at public universities in Baden-Württemberg (e.g., Mannheim)."],
+            ["Semester Contribution (Semesterbeitrag)", "€150 - €400 / semester", "Covers campus administration, student union services, and regional public transport pass."],
+            ["Private University Tuition", "€8,000 - €18,000 / year", "Private business colleges offering English instruction and smaller class sizes."],
+            ["Monthly Living Expenses", "€900 - €1,300 / month", "Student accommodation (€350–€600), groceries (€200–€300), utilities, and personal leisure."],
+            ["Statutory Health Insurance", "€120 - €135 / month", "Mandatory public health cover (TK, AOK, Barmer) providing comprehensive medical care."],
+            ["Blocked Account (Sperrkonto)", "€11,208 / year (€934 / month)", "German student visa requirement to verify subsistence funds for 12 months."]
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "Total estimated living expenditure over a standard 3-year program ranges from **€32,400 to €46,800**. Under German student visa regulations, international undergraduates can work part-time up to 140 full days (or 280 half days) per year earning €13 to €17 per hour."
           ]
         }
       ]
     },
     {
-      "slot": "admission",
-      "eyebrow": "Admission Requirements",
-      "title": "5. Admission Requirements in Germany for BBS",
-      "groups": [
+      slot: "timeline",
+      eyebrow: "Admissions Roadmap",
+      title: "10-Step Admission Process for BBS in Germany",
+      timeline: [
         {
-          "t": "p",
-          "items": [
-            "**Candidates might have to submit:**",
-            "Before applying, candidates should check the latest **admission rules and regulations** as the requirements keep on changing in different colleges."
+          step: "01",
+          title: "Select Business Studies Major & Language",
+          desc: "Choose your focus—General Business, International Management, Finance, or Marketing—and decide whether to study in English, German, or bilingually."
+        },
+        {
+          step: "02",
+          title: "Verify Educational Qualifications (HZB)",
+          desc: "Assess your 12th-grade credentials against Anabin database regulations to confirm whether Studienkolleg (W-Kurs) or direct entry applies."
+        },
+        {
+          step: "03",
+          title: "Obtain APS India Certification",
+          desc: "Submit your 10th and 12th marksheets, certificates, and passport to APS India to obtain your mandatory verification certificate."
+        },
+        {
+          step: "04",
+          title: "Take Standardised Language Tests",
+          desc: "Complete IELTS Academic (target 6.5+) for English programs or secure Goethe/telc B1/B2 for Studienkolleg entrance exams."
+        },
+        {
+          step: "05",
+          title: "Prepare Application Dossier",
+          desc: "Assemble certified marksheets, curriculum vitae (CV), Statement of Purpose (Letter of Motivation), and passport copies."
+        },
+        {
+          step: "06",
+          title: "Submit Applications via Uni-Assist or Direct Portals",
+          desc: "Submit applications through Uni-Assist for Preliminary Documentation (VPD) or directly to universities prior to published deadlines."
+        },
+        {
+          step: "07",
+          title: "Sit Entrance Examination (If Applicable)",
+          desc: "If required for Studienkolleg, take the Aufnahmeprüfung in Germany testing German language and basic business mathematics."
+        },
+        {
+          step: "08",
+          title: "Receive Admission Offer & Confirm Place",
+          desc: "Review your official admission letter (Zulassungsbescheid) and confirm acceptance of your study place."
+        },
+        {
+          step: "09",
+          title: "Open Blocked Account & Apply for Student Visa",
+          desc: "Deposit required subsistence funds (€11,208) into an approved Blocked Account (Expatrio, Coracle, or Fintiba), secure health insurance, and apply for your National Visa."
+        },
+        {
+          step: "10",
+          title: "Arrival, Address Registration & Matriculation",
+          desc: "Arrive in Germany, register your address (Anmeldung) at the local Bürgeramt, pay the semester contribution, and complete university matriculation."
+        }
+      ]
+    },
+    {
+      slot: "details",
+      eyebrow: "Career & Employment Prospects",
+      title: "Salary Expectations and Career Opportunities After a German BBS",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "A Bachelor of Business Studies prepares graduates for entry-level positions across corporate finance, commercial operations, marketing, sales, and supply chain management in Germany and the EU.",
+            "Typical career roles and starting salary benchmarks:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "10th and 12th class certificate and mark sheets.",
-            "A passport is required.",
-            "A certificate proving a level of competence in either the German or English language.",
-            "The **application form** is filled out.",
-            "A motivation letter, if necessary. **CV** supplied upon request. If relevant, the results of the entrance examination.",
-            "If needed, certified translations of documents."
+          t: "ul",
+          items: [
+            "**Junior Business Development Assistant:** €36,000 - €46,000 / year",
+            "**Marketing & Communications Specialist:** €36,000 - €45,000 / year",
+            "**Junior Financial Analyst / Accountant:** €38,000 - €48,000 / year",
+            "**Human Resources Coordinator:** €35,000 - €44,000 / year",
+            "**Supply Chain & Logistics Trainee:** €38,000 - €47,000 / year",
+            "**Operations Project Assistant:** €37,000 - €46,000 / year",
+            "**Experienced Business Specialist (3+ Years):** €45,000 - €62,000 / year"
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "International graduates are granted an **18-month post-study work visa** (Aufenthaltserlaubnis zur Arbeitsplatzsuche) to secure qualified employment in Germany, providing a direct route toward an **EU Blue Card** and permanent residency."
           ]
         }
       ]
     },
     {
-      "slot": "fees",
-      "eyebrow": "Tuition Fees & Living Costs",
-      "title": "6. Cost of pursuing BBS in Germany",
-      "groups": [
+      slot: "documents",
+      eyebrow: "Documentation Checklist",
+      title: "Required Documents for BBS Admission and Student Visa",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "The estimated costs are:",
-            "**Living expenses** (not including tuition and one-time fees) for a three-year degree are expected to be between **€32,400 and €46,800**.",
-            "Some public universities charge tuition fees to **non-EU students**. Check the latest prices and **costs** for student visas before you apply."
+          t: "p",
+          items: [
+            "Ensure all official records are notarized, translated into English or German, and formatted as required:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Many public colleges offer free tuition for qualifying programs, with some exceptions.",
-            "The contribution is around €150 - €400 per semester.",
-            "Private institutions may charge fees that range from several thousand euros to **€20,000 or more per year**.",
-            "The cost of living is around €900-€1,300 per month.",
-            "Other costs are health insurance, books, lodging deposits, airfare, and visa fees."
-          ]
-        },
-        {
-          "t": "table",
-          "headers": [
-            "Category / Expense Type",
-            "Estimated Amount (EUR)",
-            "Applicability & Regulation"
-          ],
-          "rows": [
-            [
-              "Many public colleges offer free tuition for qualifying programs, with some exceptions.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "The contribution is around €150",
-              "€400 per semester.",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "Private institutions may charge fees that range from several thousand euros to €20,000 or more per year.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "The cost of living is around €900",
-              "€1,300 per month.",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "Other costs are health insurance, books, lodging deposits, airfare, and visa fees.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "process",
-      "eyebrow": "Application Timeline & Steps",
-      "title": "7. The German BBS Admission Process",
-      "groups": []
-    },
-    {
-      "slot": "why",
-      "eyebrow": "Why Study in Germany",
-      "title": "1. Check out colleges and business-related bachelor’s programs.",
-      "groups": []
-    },
-    {
-      "slot": "courses",
-      "eyebrow": "Curriculum & Specializations",
-      "title": "2. Check your eligibility for admission and your Class 12th certification.",
-      "groups": []
-    },
-    {
-      "slot": "universities",
-      "eyebrow": "Top German Universities",
-      "title": "3. Check the application dates and language requirements.",
-      "groups": []
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Eligibility Criteria",
-      "title": "4. Prepare language exam results and academic documents.",
-      "groups": []
-    },
-    {
-      "slot": "admission",
-      "eyebrow": "Admission Requirements",
-      "title": "5. Attend a Studienkolleg if needed.",
-      "groups": []
-    },
-    {
-      "slot": "fees",
-      "eyebrow": "Tuition Fees & Living Costs",
-      "title": "6. Apply through the designated application service or the university’s official portal.",
-      "groups": []
-    },
-    {
-      "slot": "process",
-      "eyebrow": "Application Timeline & Steps",
-      "title": "7. Attend any required interviews or entrance exams.",
-      "groups": []
-    },
-    {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Quality Standards",
-      "title": "8. Get your admission decision and review it.",
-      "groups": []
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Career Prospects & Salary",
-      "title": "9. Make arrangements for accommodation, health insurance, money and a student visa.",
-      "groups": []
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Required Documentation",
-      "title": "10. Do the university registration before classes begin at 8. BBS Accreditation and Recognition in Germany",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Before you enroll, check the **quality assurance or accreditation status** of the degree program and whether the university is **officially recognized in Germany**.",
-            "**9 . Salary and Career Opportunities in Germany after a BBS**",
-            "A ****bachelor’s degree in business studies**** can prepare graduates for **entry-level positions** in business, finance, sales, marketing and administration.",
-            "Some of the popular career opportunities include:",
-            "The following pay ranges are indicative for Germany:",
-            "Starting salaries range between €32,000 and €45,000 gross annually.",
-            "Experienced professionals make around **€40,000–€60,000 or more gross per year**.",
-            "These are general approximations, not salary guaranties. Earnings vary based on the role, industry, experience, employer, location and **German language proficiency**.",
-            "Graduates can also pursue **master’s degrees in Business Administration, International Business, Finance, Marketing or Management** subject to entry requirements."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Business Development Assistant",
-            "Sales Manager",
-            "Marketing Executive",
-            "The Finance Assistant",
-            "Human Resources Assistant",
-            "Business Analyst Trainee",
-            "Operations Coordinator",
-            "Customer Relationship Executive",
-            "Supply Chain Assistant",
-            "The Administrative Co-ordinator"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Required Documentation",
-      "title": "10. Documents Required to Learn BBS in Germany",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Documents often needed are:",
-            "For a **student visa**, you may need to provide a **admission letter**, proof of adequate financial means, health insurance documentation and visa application forms."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Passports must be valid.",
-            "Certificates and mark sheets of class 10th and 12th.",
-            "Certificate of proficiency in German or English.",
-            "The university application form is **completed**.",
-            "If needed, a motivation letter.",
-            "**CV** available upon request. Entrance exam results (if applicable)",
-            "Certified translations of documents, if required."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "details",
-      "eyebrow": "Key Insights",
-      "title": "11. FAQs",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "**Q1. Can Indian students study BBS in Germany after 12th?",
-            "Yes, Indian students can study BBS in Germany after 12th if they meet the university’s ****entrance requirements**.** Some students might have to attend a **foundation program or Studienkolleg** before they are allowed to study for their bachelor's degree.",
-            "Q2. Is BBS free in Germany ?",
-            "They may also require donations on a seasonal basis and specific tuition costs may be required. However, many **public universities** do not charge general tuition fees for eligible programs. Private universities usually charge tuition.",
-            "Q3. How long is the BBS course in Germany?",
-            "Most similar **business undergraduate degrees** take about **3–3.5 years** to complete.",
-            "Q4. Do you need IELTS for BBS in Germany?** Not all the time. **IELTS, TOEFL** or other accepted proof of proficiency may be accepted in **English-taught programs**. Students enrolled in programs taught in German must demonstrate a certain level of proficiency in the language.",
-            "Q5. What can I do in Germany after completing my BBS? Graduates may pursue a relevant **master’s in business or management** or apply for **entry-level careers in marketing, sales, finance, human resources, and operations.",
-            "How can I study abroad with the assistance of **Edu Hawk Worldwide Consultancy?**",
-            "Students may plan their **study-abroad journey**, organize **application documents**, comprehend **admission requirements**, and investigate **suitable universities** with the assistance of Edu Hawk Worldwide. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
+          t: "ul",
+          items: [
+            "**Valid International Passport:** Machine-readable with minimum 12 months validity.",
+            "**APS Certificate:** Mandatory evaluation certificate from APS India.",
+            "**Secondary School Credentials:** 10th and 12th standard marksheets and passing certificates.",
+            "**Proof of Language Competence:** IELTS Academic (6.0–6.5+) or TOEFL iBT (80+) for English-taught degrees; German B1/B2/TestDaF for German-taught or Studienkolleg.",
+            "**Updated Curriculum Vitae (CV):** Tabular resume in Europass format outlining education, extracurriculars, and skills.",
+            "**Letter of Motivation (Statement of Purpose):** 1-page essay explaining your interest in business administration and choice of university.",
+            "**Official University / Studienkolleg Admission Letter (Zulassungsbescheid):** Confirming study place.",
+            "**Proof of Sufficient Financial Subsistence:** Confirmation of funded Blocked Account (€11,208) or DAAD scholarship letter.",
+            "**Proof of German Health Insurance:** Confirmation from a statutory health fund (TK, AOK, Barmer).",
+            "**Biometric Passport Photographs:** Compliant with German consular biometric requirements."
           ]
         }
       ]
     }
   ],
-  "faqs": []
+  faqs: [
+    {
+      q: "Can Indian students study BBS in Germany after 12th?",
+      a: "Yes. Indian students who have completed Class 12 are eligible to study BBS in Germany. Because of the difference between 12-year and 13-year school curricula, most Indian students attend a 1-year foundation course (Studienkolleg W-Kurs) and pass the Feststellungsprüfung (FSP). Students with 1 year of a recognized bachelor's degree in India, or qualifying IB / Cambridge A-Level diplomas, may be eligible for direct university entry."
+    },
+    {
+      q: "Is BBS free in Germany?",
+      a: "Yes. Public universities across 15 of Germany's 16 federal states do not charge tuition fees (€0/year) for undergraduate business degrees. Students pay only a nominal semester contribution (€150–€400/semester) covering administration and regional public transport. An exception is public universities in Baden-Württemberg, which charge non-EU students €1,500/semester."
+    },
+    {
+      q: "How long is the BBS course in Germany?",
+      a: "Undergraduate business programs (BBS, B.Sc., or B.A.) in Germany typically take 3 to 3.5 years (6 to 7 semesters), comprising 180 to 210 ECTS credits. If a student attends Studienkolleg first, the overall duration is approximately 4 to 4.5 years."
+    },
+    {
+      q: "Do you need IELTS for BBS in Germany?",
+      a: "For English-taught BBS programs, IELTS Academic (typically 6.0 to 6.5) or TOEFL iBT (80 to 90 points) is required. For German-taught degrees, certified German proficiency (TestDaF level 4 or DSH-2) is required. For Studienkolleg entrance, German B1/B2 proficiency is necessary."
+    },
+    {
+      q: "What can I do in Germany after completing my BBS?",
+      a: "Graduates secure entry-level commercial positions in marketing, sales, finance, human resources, supply chain management, and operations. Germany grants an 18-month post-study work visa to find employment, or graduates can progress directly into a Master in Management (MIM) or MBA program."
+    },
+    {
+      q: "How can Edu-Hawk Worldwide Consultancy assist me in studying BBS in Germany?",
+      a: "Edu-Hawk Worldwide Consultancy provides comprehensive undergraduate guidance, including 12th-grade eligibility analysis, APS India assistance, university shortlisting, Studienkolleg application support, Statement of Purpose refinement, Uni-Assist application management, blocked account setup, and visa interview preparation."
+    }
+  ]
 };
 
 export default function BBSGermanyPage() {
@@ -372,23 +333,33 @@ export default function BBSGermanyPage() {
     side: sideImg,
     ctaBg: ctaBgImg,
     universities: [
-    {
-      name: "The University of Mannheim   is especially recognized for its     economics and business administration     studies.",
-      img: uniImg1,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "University of Cologne          Offers     programs related to business and economics.",
-      img: uniImg2,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "The University of Münster   has a strong reputation for expertise in business administration and management.",
-      img: uniImg3,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    }
+      {
+        name: "University of Mannheim",
+        img: uniImg1,
+        desc: "Germany's top-ranked business administration faculty, celebrated for academic excellence and outstanding corporate recruitment."
+      },
+      {
+        name: "University of Cologne",
+        img: uniImg2,
+        desc: "Distinguished public business faculty holding EQUIS and AACSB accreditations in a major commercial metropolis."
+      },
+      {
+        name: "University of Münster",
+        img: uniImg3,
+        desc: "Historic public university renowned for its top-tier accounting, marketing, and corporate management research."
+      }
     ]
   };
 
-  return <AbroadCoursePage page={page} images={images} />;
+  return (
+    <AbroadCoursePage
+      page={page}
+      images={images}
+      heroImg={heroImg}
+      heroBgImg={heroBgImg}
+      sideImg={sideImg}
+      ctaBgImg={ctaBgImg}
+      seoPath={page.slug}
+    />
+  );
 }

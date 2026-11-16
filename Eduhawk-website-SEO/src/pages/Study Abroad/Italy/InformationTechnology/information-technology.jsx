@@ -16,12 +16,12 @@ const page = {
   "slug": "information_technology",
   "title": "Information Technology in Italy for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Information Technology in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
-  "keywords": "Top 6 SEO Keywords",
+  "keywords": "Information Technology in Italy, Study IT in Italy, Best IT Universities in Italy, Bachelor's in IT Italy, Master's in IT Italy",
   "introTitle": "IT in Italy for Indian Students",
-  "heroParas": [
-    "Yes. Students who have completed Class 12 or equivalent are eligible to apply for Bachelor's programs in Information Engineering or related IT fields, subject to academic, language and selection requirements."
+  heroParas: [
+    "Information Technology in Italy delivers comprehensive training in cloud architecture, enterprise data systems, web development, and digital security at world-renowned European universities."
   ],
-  "overview": [
+  overview: [
     "Yes. Students who have completed Class 12 or equivalent are eligible to apply for Bachelor's programs in Information Engineering or related IT fields, subject to academic, language and selection requirements."
   ],
   "level": "Undergraduate & Postgraduate",
@@ -145,19 +145,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Tuition fees vary by university, course and fee category. Students should refer to the official fee schedule and verify their eligibility for scholarships or tuition waivers.",
-            "Top 6 SEO Keywords"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Information Technology in Italy for Indian Students",
-            "Bachelor's in Information Technology in Italy",
-            "Master's in Information Technology in Italy",
-            "Information Technology Courses in Italy",
-            "Best Universities for Information Technology in Italy",
-            "Cost to Study Information Technology in Italy"
+            "Tuition fees vary by university, course and fee category. Students should refer to the official fee schedule and verify their eligibility for scholarships or tuition waivers."
           ]
         }
       ]
@@ -214,52 +202,6 @@ const page = {
             "Graduates with an Information Technology degree in Italy can find employment in software companies, IT services, telecommunication, banking, consulting, healthcare technology and many more sectors.",
             "Career options after a Bachelor's degree"
           ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Junior Software Developer",
-            "IT Support Specialist",
-            "Web Developer",
-            "Network Support Engineer",
-            "Database Support Associate job",
-            "Junior Systems Administrator",
-            "QA & Software Testing Engineer"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Career Opportunities After Master's Degree"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Software Engineer",
-            "Cybersecurity Analyst/Engineer",
-            "Cloud Engineer",
-            "Data Engineer",
-            "Systems Analyst",
-            "Network Engineer",
-            "IT Consultant",
-            "Data Scientist (with the right preparation)",
-            "Information Systems Specialist",
-            "Engineer, Research & Development"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Salary levels in Italy indicatively",
-            "The figures below are broad illustrative gross annual estimates for career planning, and are not verified salary statistics or guarantyd job outcomes.",
-            "Career levelExample annual salaryApproximate Equivalent INR",
-            "Entry level€28,000-€35,000₹30.41-₹38.01 lakh",
-            "Professional with experience€35,000-€50,000₹38.01-₹54.30 lakh",
-            "Senior / Specialist Professional€50,000 - €70,000+₹54.30 - ₹76.02 Lakh+",
-            "INR conversions use €1 = ₹108.60. Salary is determined by location, employer, skills, experience, language skills and work authorization. Figures are gross, before taxes & deductions.",
-            "Hands-on programming experience, internships, technical certifications and projects all help to strengthen a graduate's profile. The degree itself does not guaranty salary or hiring outcomes."
-          ]
         }
       ]
     },
@@ -315,7 +257,34 @@ const page = {
         }
       ]
     }
-  ]
+  ],
+  faqs: [
+    {
+        "q": "Can Indian students study Information Technology in Italy in English?",
+        "a": "Yes. Several public and private Italian universities offer English-taught bachelor's and master's degrees in Information Technology and Information Engineering."
+    },
+    {
+        "q": "What is the course duration for IT degrees in Italy?",
+        "a": "Bachelor's degrees take 3 years (180 ECTS) and Master's degrees take 2 years (120 ECTS)."
+    },
+    {
+        "q": "What are the tuition fees for Information Technology in Italy?",
+        "a": "Public universities charge between €1,000 and €3,800 per year, with full fee reductions and living allowances accessible via DSU scholarships."
+    },
+    {
+        "q": "What are the entrance requirements for IT programmes in Italy?",
+        "a": "Bachelor's applicants take the English TOLC-I or TOLC-E test, while master's applicants are evaluated on undergraduate credit alignment and GPA."
+    },
+    {
+        "q": "What core areas are covered in the IT curriculum?",
+        "a": "Curricula cover software development, database administration, network engineering, cloud computing, cybersecurity, and data analytics."
+    },
+    {
+        "q": "What are the employment prospects for IT graduates in Italy?",
+        "a": "Graduates are recruited as cloud engineers, software developers, systems analysts, and cybersecurity specialists across Europe's digital economy."
+    }
+],
+  faqTitle: "Frequently Asked Questions About Information Technology in Italy"
 };
 
 export default function InformationTechnologyItaly() {

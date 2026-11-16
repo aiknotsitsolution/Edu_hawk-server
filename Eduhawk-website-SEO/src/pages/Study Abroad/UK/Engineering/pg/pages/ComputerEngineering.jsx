@@ -22,9 +22,7 @@ const page = {
   "keywords": "Study MSc Computer Engineering in the UK, MSc Computer Engineering in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Study Computer Engineering in the United Kingdom",
   "heroParas": [
-    "Computer hardware, software, electronics, digital systems, and computing architecture are all included in computer engineering. It focuses on the design, development, testing, and enhancement of the systems that drive embedded applications, smart devices, industrial equipment, computers, and communication technologies.",
-    "Postgraduate programs in Computer Engineering and related subjects are available in the UK. A dedicated MSc in Computer Engineering or a comparable degree in Computer Systems Engineering, Embedded Systems Engineering, or electronic and computing technologies are available to students, depending on the university.",
-    "With proper planning and assistance, Edu Hawk Worldwide Consultancy helps students understand university admission requirements, explore international study possibilities, and prepare for the overseas education journey."
+    "Computer hardware, software, electronics, digital systems, and computing architecture are all included in computer engineering. It focuses on the design, development, testing, and enhancement of the systems that drive embedded applications, smart devices, industrial equipment, computers, and communication technologies."
   ],
   "overview": [
     "Computer hardware, software, electronics, digital systems, and computing architecture are all included in computer engineering. It focuses on the design, development, testing, and enhancement of the systems that drive embedded applications, smart devices, industrial equipment, computers, and communication technologies.",

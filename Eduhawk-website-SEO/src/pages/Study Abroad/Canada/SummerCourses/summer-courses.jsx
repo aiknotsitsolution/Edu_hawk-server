@@ -19,8 +19,7 @@ const page = {
   "keywords": "Study Summer Courses in Canada, Summer Courses in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Summer Courses in Canada",
   "heroParas": [
-    "During the summer break, summer courses in Canada provide students with the chance to acquire new skills, investigate academic topics, enhance their language abilities, and obtain international learning experience. Short-term courses, summer schools, workshops, and certificate programs may be offered by universities, colleges, and providers of specialized education.",
-    "High school students, college students, recent graduates, and working people who wish to make the most of their summer can all benefit from these classes."
+    "During the summer break, summer courses in Canada provide students with the chance to acquire new skills, investigate academic topics, enhance their language abilities, and obtain international learning experience. Short-term courses, summer schools, workshops, and certificate programs may be offered by universities, colleges, and providers of specialized education."
   ],
   "overview": [
     "During the summer break, summer courses in Canada provide students with the chance to acquire new skills, investigate academic topics, enhance their language abilities, and obtain international learning experience. Short-term courses, summer schools, workshops, and certificate programs may be offered by universities, colleges, and providers of specialized education.",
@@ -47,6 +46,32 @@ const page = {
       "value": "English & French Taught"
     }
   ],
+  "faqs": [
+  {
+    "q": "In Canada, what are summer courses?",
+    "a": "In Canada, summer courses are short-term educational programs that are available over the summer. Academic disciplines, business, technology, languages, the arts, and professional skills could all be covered."
+  },
+  {
+    "q": "What is the duration of summer courses in Canada?",
+    "a": "While formal courses and summer schools may run for two to eight weeks or longer, other workshops only last a few days. The length is determined by the subject and the institution."
+  },
+  {
+    "q": "Can Indian students enroll in summer courses in Canada after completing their 12th grade education?",
+    "a": "Yes, Indian students who fulfill the age, academic, language, and other requirements of the course are eligible to apply. While some programs are tailored to high school pupils, others call for coursework at the university level."
+  },
+  {
+    "q": "What is the cost of summer courses in Canada?",
+    "a": "While specialist summer programs can cost between CAD 1,000 and CAD 6,000 or more, short courses might cost between CAD 500 and CAD 3,000 or more. Travel, lodging, and other costs can be extra."
+  },
+  {
+    "q": "Are certificates awarded for summer courses in Canada?",
+    "a": "While some programs offer academic credit or merely document participation, others grant a certificate of completion. Before registering, review the course specifics."
+  },
+  {
+    "q": "How can Edu Hawk Worldwide Consultancy help me study abroad?",
+    "a": "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities."
+  }
+],
   "sections": [
     {
       "slot": "why",
@@ -369,7 +394,7 @@ const page = {
             "Step 9: Verify Immigration Requirements",
             "Find out if you are eligible for a short-term study exemption or require a **Canadian study permit**. Before making travel arrangements, confirm the regulations for your particular program.",
             "Step 10: Get Ready to Arrive",
-            "Make travel, insurance, transportation, and any course materials arrangements.#8. Documents Needed for Canadian Summer Courses",
+            "Make travel, insurance, transportation, and any course materials arrangements.",
             "For Enrollment in Courses"
           ]
         },
@@ -381,25 +406,6 @@ const page = {
             "A statement of interest, upon request. -CV or resume for certain professional programs.",
             "If necessary, a portfolio for design, art, or creative programs.",
             "If applicable, the tuition deposit or application cost"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "11. FAQs",
-            "Q1. In Canada, what are summer courses?",
-            "In Canada, summer courses are short-term educational programs that are available over the summer. Academic disciplines, business, technology, languages, the arts, and professional skills could all be covered.",
-            "Q2. What is the duration of summer courses in Canada?",
-            "While formal courses and summer schools may run for two to eight weeks or longer, other workshops only last a few days. The length is determined by the subject and the institution.",
-            "Q3. Can Indian students enrolll in summer courses in Canada after completing their 12th grade education?",
-            "Yes, Indian students who fulfill the age, academic, language, and other requirements of the course are eligible to apply. While some programs are tailored to high school pupils, others call for coursework at the university level.",
-            "Q4. What is the cost of summer courses in Canada?",
-            "While specialist summer programs can cost between CAD 1,000 and CAD 6,000 or more, short courses might cost between CAD 500 and CAD 3,000 or more. Travel, lodging, and other costs can be extra.",
-            "Q5. Are certificates awarded for summer courses in Canada?",
-            "While some programs offer academic credit or merely document participation, others grant a **certificate of completion**. Before registering, review the course specifics.",
-            "How can Edu Hawk worldwide Consultancy help me study abroad?",
-            "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities.",
-            "Study Summer Courses in Canada for Indian StudentsBest Universities for Summer Courses in CanadaSummer Programs in Canada for International StudentsSummer Course Eligibility in Canada After Class 12Summer Course Admission Requirements in CanadaSummer Courses Fees in Canada for Indian StudentsSummer Program Scholarships in Canada for International StudentsShort-Term Academic Courses in Canada for International StudentsSummer School Programs in Canada for High School StudentsBusiness and Management Summer Courses in Canada"
           ]
         }
       ]

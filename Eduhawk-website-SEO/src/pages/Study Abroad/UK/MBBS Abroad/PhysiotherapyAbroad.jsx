@@ -22,14 +22,11 @@ const page = {
   "keywords": "Study Physiotherapy in the UK, Physiotherapy in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Study Physiotherapy in the United Kingdom",
   "heroParas": [
-    "Students who wish to pursue careers in physiotherapy , rehabilitation, sports medicine , and patient care frequently choose the United Kingdom. In order to help students understand human movement , physical function, injury healing, and the management of long-term health conditions, UK universities mix academic instruction with hands-on training.",
-    "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey..",
-    "Key Advantages of Pursuing Physiotherapy Education in the United Kingdom"
+    "Students who wish to pursue careers in physiotherapy , rehabilitation, sports medicine , and patient care frequently choose the United Kingdom. In order to help students understand human movement , physical function, injury healing, and the management of long-term health conditions, UK universities mix academic instruction with hands-on training."
   ],
   "overview": [
     "Students who wish to pursue careers in physiotherapy , rehabilitation, sports medicine , and patient care frequently choose the United Kingdom. In order to help students understand human movement , physical function, injury healing, and the management of long-term health conditions, UK universities mix academic instruction with hands-on training.",
-    "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey..",
-    "Key Advantages of Pursuing Physiotherapy Education in the United Kingdom"
+    "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."
   ],
   "level": "BSc & MSc Physiotherapy",
   "crumb": "Healthcare / Physiotherapy",

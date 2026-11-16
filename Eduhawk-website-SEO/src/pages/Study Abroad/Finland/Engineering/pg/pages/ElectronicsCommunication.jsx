@@ -24,10 +24,10 @@ const page = {
     "Master’s in Electronics Engineering in Finland, Study Electronics Engineering in Finland, Electronics Engineering Universities in Finland, Master’s in Electronics Engineering in Finland for Indian Students, Electronics Engineering Master’s Programmes in Finland",
   introTitle: "Master’s in Electronics Engineering in Finland",
   heroParas: [
-    "Finland is an attractive destination for students interested in electronics, semiconductor technology, communication systems, embedded devices and advanced electronic design. Its universities offer research-oriented education, laboratory-based learning and opportunities to explore technologies used in telecommunications, healthcare, automation and modern computing.",
-    "Pursuing a Master’s in Electronics Engineering in Finland can help students develop advanced technical knowledge in electronic circuits, microelectronics, photonics, wireless technologies and semiconductor devices. These fields contribute to innovations in consumer electronics, industrial automation, medical equipment and next-generation communication systems."
+    "Finland is an attractive destination for students interested in electronics, semiconductor technology, communication systems, embedded devices and advanced electronic design. Its universities offer research-oriented education, laboratory-based learning and opportunities to explore technologies used in telecommunications, healthcare, automation and modern computing."
   ],
   overview: [
+    "Pursuing a Master’s in Electronics Engineering in Finland can help students develop advanced technical knowledge in electronic circuits, microelectronics, photonics, wireless technologies and semiconductor devices. These fields contribute to innovations in consumer electronics, industrial automation, medical equipment and next-generation communication systems.",
     "Students who want to Study Electronics Engineering in Finland can explore programmes that combine engineering fundamentals with specialised research and practical projects. Depending on the university, related degrees may focus on electronics and nanotechnology, electrical engineering, embedded systems or electronics and communication technology.",
     "Edu-Hawk Worldwide helps students explore international universities, compare relevant master's programmes and understand admission requirements. With guidance on course selection and application preparation, students can make informed decisions about postgraduate engineering education abroad."
   ],

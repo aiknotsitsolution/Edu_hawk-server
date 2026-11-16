@@ -21,8 +21,14 @@ const page = {
   description: "Study Postgraduate Information Technology in Australia. Explore top IT schools (Sydney, ANU, RMIT, Deakin), eligibility, fees, ACS accreditation, and high-demand IT careers.",
   keywords: "Study Master's in Information Technology in Australia for Indian Students Study IT in Australia at the Best Universities Study MS in Information Technology in Australia with Fees Study Information Technology in Australia Without an IT Background Study IT in Australia with Scholarships for Indian Students Study Cybersecurity, Cloud Computing and Data Analytics in Australia Study Information Technology in Australia: Admission Requirements and IELTS Study IT in Australia for Career Opportunities After Graduation .",
   introTitle: "Australia's postgraduate information technology program",
-  heroParas: ["Students who wish to gain advanced knowledge of computing systems, software applications, IT infrastructure, information security, databases, cloud technologies, and digital transformation can enrolll in postgraduate information technology programs in Australia.","These courses concentrate on using technology to address organizational and commercial issues. Students may study software development, networking, cybersecurity, data analytics, cloud computing, artificial intelligence, IT management, and enterprise systems, depending on the course."],
-  overview: ["Postgraduate programs in information technology, information systems, cybersecurity, data analytics, cloud computing, software development, and related fields are available to Indian students.","Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."],
+  heroParas: [
+    "Students who wish to gain advanced knowledge of computing systems, software applications, IT infrastructure, information security, databases, cloud technologies, and digital transformation can enrolll in postgraduate information technology programs in Australia."
+  ],
+  overview: [
+    "These courses concentrate on using technology to address organizational and commercial issues. Students may study software development, networking, cybersecurity, data analytics, cloud computing, artificial intelligence, IT management, and enterprise systems, depending on the course.",
+    "Postgraduate programs in information technology, information systems, cybersecurity, data analytics, cloud computing, software development, and related fields are available to Indian students.",
+    "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."
+  ],
   level: "Postgraduate",
   crumb: "Technology & Computing",
 

@@ -14,431 +14,345 @@ import uniImg3 from "../../../../Images/Abroad/Germany/ComputerScience/The_Unive
 import uniImg4 from "../../../../Images/Abroad/Germany/ComputerScience/The_University_of_Passau_provides_c.webp";
 
 const page = {
-  "name": "Computer Science in Germany",
-  "country": "Germany",
-  "slug": "computer-science",
-  "title": "Computer Science in Germany for Indian Students | Edu-Hawk Worldwide",
-  "description": "Complete guide to Computer Science in Germany for international students: Top German universities, admission requirements, zero-tuition public education, living expenses, and 18-month post-study work visa.",
-  "keywords": "Study Computer Science in Germany for Indian Students, Postgraduate Computer Science in Germany, Best German Universities for Computer Science, Computer Science MSc Programs in Germany, Computer Science Specializations in German, Master’s in Computer Science in Germany: Eligibility Criteria, Requirements to Study Computer Science in Germany, Computer Science Courses in Germany – taught in English, Computer Science in Germany IELTS and TOEFL Requirements, Germany Computer Science Fee Structure, Cost of Living for Masters Students in Germany, Conditions for German Student Visa for Computer Science Students, How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?, Students may plan their study abroad experience, organize their application materials, research appropriate universities, and comprehend admission requirements with the assistance of Edu Hawk Worldwide. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs., Keywords -, Study Computer Science in Germany for Indian Students, Postgraduate Computer Science Courses in Germany, Best Universities for Computer Science in Germany, MSc Computer Science Programmes in Germany, Computer Science Specialisations in Germany, Eligibility Requirements for Master's in Computer Science in Germany, Admission Requirements for Computer Science in Germany, English-Taught Computer Science Courses in Germany, IELTS and TOEFL Requirements for Computer Science in Germany, Computer Science Tuition Fees in Germany, Cost of Living for Master's Students in Germany, German Student Visa Requirements for Computer Science Students",
-  "introTitle": "1\\. WHY STUDY COMPUTER SCIENCE GERMANY?",
-  "heroParas": [
-    "****Graduate studies in Computer Science**** attract international students to Germany. The country has opportunities for work in **software development, artificial intelligence, cybersecurity** and **data science** along with **high-quality technical education, advanced research facilities and a robust technology sector**.",
-    "**The main advantages of studying computer science in Germany are :**",
-    "* **Good education:** German universities offer complete **computer science courses** that include both theoretical knowledge and practical applications.",
-    "* **Cutting-edge research:** Students can explore cloud computing, robotics, artificial intelligence, machine learning and **high performance computing**.",
-    "* Affordable education: Many public universities do not charge general **tuition fees** for qualified master’s programs, but **semester contributions** and certain tuition-fee exclusions are in force.",
-    "* **Technology industry:** Germany offers opportunities in **software, automotive technology, industrial automation, fintech, healthcare technology** and **cybersecurity**.",
-    "* *Career opportunities:* Graduates may pursue technical careers in Germany and other foreign markets under employment and visa restrictions.",
-    "If you’re a student looking to boost your technical skills and establish your career in the **global technology industry**, **studying **Computer Science in Germany**** might be the right fit for you.",
-    "**Edu Hawk Worldwide Consultancy** helps undergraduates comprehend the university admission requirements, explore the international study possibilities and prepare for the abroad education adventure with the right preparation and direction."
+  name: "Computer Science in Germany",
+  country: "Germany",
+  slug: "computer-science",
+  title: "Computer Science in Germany for Indian Students | Edu-Hawk Worldwide",
+  description: "Complete guide to Computer Science in Germany for international students: Top German universities, admission requirements, zero-tuition public education, living expenses, and 18-month post-study work visa.",
+  keywords: "Study Computer Science in Germany for Indian Students, Postgraduate Computer Science in Germany, Best German Universities for Computer Science, Computer Science MSc Programs in Germany, Computer Science Specializations in German, Master’s in Computer Science in Germany: Eligibility Criteria, Requirements to Study Computer Science in Germany, Computer Science Courses in Germany – taught in English, Computer Science in Germany IELTS and TOEFL Requirements, Germany Computer Science Fee Structure, Cost of Living for Masters Students in Germany, Conditions for German Student Visa for Computer Science Students",
+  introTitle: "Why Study Computer Science in Germany?",
+  heroParas: [
+    "Germany is a global technological powerhouse and Europe's premier innovation hub, offering world-ranked Bachelor's and Master's degrees in Computer Science, Artificial Intelligence, and Software Engineering with tuition-free public university options, state-of-the-art research centers, and an 18-month post-study work visa."
   ],
-  "overview": [
-    "****Graduate studies in Computer Science**** attract international students to Germany. The country has opportunities for work in **software development, artificial intelligence, cybersecurity** and **data science** along with **high-quality technical education, advanced research facilities and a robust technology sector**.",
-    "**The main advantages of studying computer science in Germany are :**",
-    "* **Good education:** German universities offer complete **computer science courses** that include both theoretical knowledge and practical applications.",
-    "* **Cutting-edge research:** Students can explore cloud computing, robotics, artificial intelligence, machine learning and **high performance computing**.",
-    "* Affordable education: Many public universities do not charge general **tuition fees** for qualified master’s programs, but **semester contributions** and certain tuition-fee exclusions are in force.",
-    "* **Technology industry:** Germany offers opportunities in **software, automotive technology, industrial automation, fintech, healthcare technology** and **cybersecurity**.",
-    "* *Career opportunities:* Graduates may pursue technical careers in Germany and other foreign markets under employment and visa restrictions.",
-    "If you’re a student looking to boost your technical skills and establish your career in the **global technology industry**, **studying **Computer Science in Germany**** might be the right fit for you.",
-    "**Edu Hawk Worldwide Consultancy** helps undergraduates comprehend the university admission requirements, explore the international study possibilities and prepare for the abroad education adventure with the right preparation and direction."
+  overview: [
+    "Graduate and undergraduate studies in **Computer Science (Informatik)** attract thousands of ambitious international students to Germany each year. The country stands at the forefront of global technological innovation, providing unmatched careers in **software engineering, artificial intelligence, cybersecurity, autonomous robotics, and data science** backed by world-class technical universities and a trillion-dollar industrial tech sector.",
+    "The primary advantages of studying Computer Science in Germany include:",
+    "* **World-Class Technical Education:** German universities provide mathematically rigorous computer science curricula combining fundamental algorithms with advanced software engineering paradigms.",
+    "* **Cutting-Edge Research Centers:** Direct collaboration with world-renowned research institutes including the Max Planck Institute for Informatics, Fraunhofer Society, DFKI (German Research Center for Artificial Intelligence), and CISPA.",
+    "* **Tuition-Free Public Higher Education:** Public universities across 15 of Germany's 16 federal states charge **€0 tuition fee** for all students regardless of nationality.",
+    "* **Booming Tech Industry & Ecosystem:** Germany is home to global software leaders (SAP, Software AG), automotive giants investing billions in autonomous driving (BMW, Mercedes-Benz, Volkswagen), industrial automation leaders (Siemens, Bosch), and vibrant startup hubs in Berlin and Munich.",
+    "* **Exceptional Post-Study Career Mobility:** International graduates are entitled to an 18-month post-study work visa, high starting salaries, and rapid pathways to the EU Blue Card and German Permanent Residence.",
+    "**Edu Hawk Worldwide Consultancy** assists international students in evaluating university prerequisites, building competitive technical dossiers, obtaining mandatory APS certification, and navigating the entire German admissions journey."
   ],
-  "level": "B.Sc. & M.Sc. in Informatik / Computer Science",
-  "crumb": "Informatics / Computer Science",
-  "stats": [
+  level: "B.Sc. & M.Sc. in Computer Science / Informatics",
+  crumb: "Informatics / Computer Science",
+  stats: [
     {
-      "label": "Degree Choices",
-      "value": "B.Sc. & M.Sc. in Informatik / Computer Science"
+      label: "Degree Choices",
+      value: "B.Sc. & M.Sc. in Computer Science / AI"
     },
     {
-      "label": "Course Duration",
-      "value": "3 to 6 Years"
+      label: "Course Duration",
+      value: "UG: 3-3.5 Yrs | PG: 1.5-2 Yrs"
     },
     {
-      "label": "Top Institutions",
-      "value": "Saarland University      renowned worldwide for     computer science research     in fields such as     cybersecurity    ,     artificial intelligence, machine learning, and computer vision    ., The University of Bonn      provides chances for study in computer science and related fields, such as computational techniques, intelligent systems, and machine learning."
+      label: "Top Institutions",
+      value: "Saarland Uni, Uni Bonn, Uni Freiburg, Uni Passau"
     },
     {
-      "label": "Post-Study Work",
-      "value": "18-Month Jobseeker Visa (Residence Permit)"
+      label: "Post-Study Work",
+      value: "18-Month Jobseeker Visa (Residence Permit)"
     }
   ],
-  "sections": [
+  sections: [
     {
-      "slot": "courses",
-      "eyebrow": "Curriculum & Specializations",
-      "title": "2. Computer science courses in Germany",
-      "groups": [
+      slot: "courses",
+      eyebrow: "Curriculum & Specializations",
+      title: "Computer Science Courses & Specializations in Germany",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Depending on the university and program format, postgraduate **Computer Science programs in Germany** generally take **1.5 to 2 years**. Master's degrees usually require **90 or 120 ECTS credits**.",
-            "Students can choose between traditional **Computer Science programs** and specialized degrees that look at emerging technologies.",
-            "The popular post graduate courses are:",
-            "Common topics covered include:",
-            "Courses differ from university to university. Students wishing to specialize in **artificial intelligence, cybersecurity, software engineering** or **data science** should consider the program carefully."
+          t: "p",
+          items: [
+            "German universities offer highly specialized Master of Science (M.Sc.) and Bachelor of Science (B.Sc.) degree programs in Computer Science (Informatik). Master's programs generally span 1.5 to 2 years and require 90 or 120 ECTS credits, culminating in an extensive research Master's thesis.",
+            "Students can choose between foundational computer science programs and specialized cutting-edge technology tracks:",
+            "Core curricular modules encompass advanced data structures, computational complexity, distributed operating systems, database internals, computer networks, machine learning algorithms, cryptography, computer vision, natural language processing (NLP), and cloud computing architecture."
           ]
         },
         {
-          "t": "pills",
-          "items": [
-            "MS (Master of Science) in Computer Science",
+          t: "pills",
+          items: [
+            "M.Sc. in Computer Science (General Informatik)",
             "Master of Science in Applied Computer Science",
-            "Msc in Artificial Intelligence",
-            "Master of Science in Data Sciences",
-            "Master of Science in Machine Learning",
-            "Master of Science for Cybersecurity",
-            "Master of Science in Software Engineering Program",
-            "M.Sc. Computer Science",
-            "Master of Science in Information Systems",
-            "Master of Science in Distributed Systems",
-            "Master’s degree in Cloud Computing",
-            "The master's of human-computer interaction",
-            "Master's Degree in Robotics and Intelligent Systems",
-            "The Master’s degree in Computational Science",
-            "The Master’s degree in High-Performance Computing",
-            "Software development and programming",
-            "Data structures and algorithms",
-            "Operating systems",
-            "Database management systems",
-            "Computer Networks",
-            "Software engineering discipline",
-            "Machine learning and AI",
-            "Data mining and big data analysis",
-            "Cryptography & Cyber Security",
-            "Distributed and Cloud Computing",
-            "computer vision and natural language processing",
-            "Master’s thesis and research methods"
+            "M.Sc. in Artificial Intelligence & Machine Learning",
+            "M.Sc. in Data Science & Big Data Engineering",
+            "Master of Science in Cybersecurity & Privacy",
+            "M.Sc. in Software Engineering & Distributed Systems",
+            "Master in Autonomous Robotics & Intelligent Systems",
+            "M.Sc. in Human-Computer Interaction (HCI)",
+            "Master in High-Performance Computing (HPC)",
+            "M.Sc. in Computational Science & Engineering (CSE)",
+            "Cloud Computing & DevOps Infrastructure",
+            "Computer Vision & Deep Neural Networks",
+            "Embedded Systems & IoT Architecture"
           ]
         }
       ]
     },
     {
-      "slot": "universities",
-      "eyebrow": "Top German Universities",
-      "title": "3. Germany’s Best Computer Science Universities and Institutions",
-      "groups": [
+      slot: "unis",
+      eyebrow: "Top German Universities",
+      title: "Best German Universities & Research Institutions for Computer Science",
+      unis: [
         {
-          "t": "p",
-          "items": [
-            "Germany has many well-known ** technical universities and research institutions ** with ** Computer Science programs ** . Institutions provide various master’s degrees, specializations, and languages of instruction.",
-            "**Saarland University** - renowned worldwide for **computer science research** in fields such as **cybersecurity**, **artificial intelligence, machine learning, and computer vision**.",
-            "**The University of Bonn** - provides chances for study in computer science and related fields, such as computational techniques, intelligent systems, and machine learning.",
-            "**The University of Freiburg** - renowned for conducting research in the fields of computer science, robotics, computer vision, artificial intelligence, and embedded systems.",
-            "**The University of Passau** - provides courses and research opportunities in the fields of information systems, computer science, data science, and digital technologies."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Eligibility Criteria",
-      "title": "4. Computer Science Studies in Germany Eligibility",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "In general, the following requirements are to be met by candidates for a **master’s degree in computer science**:",
-            "Depending on the program, candidates may be required to have GRE scores, an aptitude test, a project portfolio, or relevant work experience.",
-            "Indian students with degrees in **Computer Science, Information Technology** or equivalent engineering disciplines and meeting the educational qualifications required for the program may be eligible."
-          ]
+          name: "Saarland University (Saarland Informatics Campus)",
+          city: "Saarbrücken, Saarland",
+          qsRank: "Top 100 Worldwide for Computer Science (QS/THE)",
+          tuition: "€0 Tuition (Public) | ~€310/semester contribution (incl. state transit pass)",
+          programs: "M.Sc. in Computer Science, M.Sc. in Data Science & AI, M.Sc. in Cybersecurity",
+          highlights: "One of the world's leading computer science research clusters; houses two Max Planck Institutes (MPI-INF & MPI-SWS), DFKI, and the Helmholtz Center for Information Security (CISPA).",
+          link: "https://www.uni-saarland.de",
+          img: uniImg1
         },
         {
-          "t": "ul",
-          "items": [
-            "A recognized Bachelor’s degree in computer science, information technology, software engineering, computer engineering or related discipline.",
-            "**Relevant academic background:** Universities may expect prior studies in **programming, algorithms, mathematics, theoretical computer science, databases** and **operating systems**.",
-            "Academic performance: The candidate should satisfy the grade requirements of the university. A strong academic record might be expected in competitive programs.",
-            "**Language proficiency:** Generally, programs taught in English require **TOEFL, IELTS or equivalent recognized qualification. German language proficiency is commonly required in German-taught programs, generally at the **B2 or C1 level**.",
-            "**Subject-credit requirements:** Some universities have minimum requirements for credits in **mathematics, computer-science theory, programming** and practical computing."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "admission",
-      "eyebrow": "Admission Requirements",
-      "title": "5. Computer Science Admission Requirements in Germany",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "While each college has different admission requirements, students generally need the following:",
-            "Some universities will look at the overall grade and also how many credits you have in key subjects.",
-            "A data science program may require statistics, probability and programming while a program in theoretical computer science may require algorithms and mathematics."
-          ]
+          name: "University of Bonn",
+          city: "Bonn, North Rhine-Westphalia",
+          qsRank: "German University of Excellence | Top 100 Global Research",
+          tuition: "€0 Tuition (Public) | ~€330/semester contribution (incl. state transit pass)",
+          programs: "M.Sc. in Computer Science, M.Sc. in Autonomous Systems & Intelligent Robotics",
+          highlights: "Renowned algorithms research group, Lamarr Institute for Machine Learning and AI, and world-class mathematical computing labs.",
+          link: "https://www.uni-bonn.de",
+          img: uniImg2
         },
         {
-          "t": "ul",
-          "items": [
-            "An **approved bachelor’s degree in computer science** or a related field.",
-            "The transcripts and the degree certificates.",
-            "Evidence of proficiency in English or German language.",
-            "A resume or CV.",
-            "Motivation letter or statement of purpose, if applicable.",
-            "Recommendation letters available upon request.",
-            "**GRE scores** if university requires it.",
-            "If asked, include information about research, internships or academic initiatives.",
-            "Relevant **work experience**, if applicable.",
-            "A **good passport**.",
-            "Other documents as necessary for the application."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "fees",
-      "eyebrow": "Tuition Fees & Living Costs",
-      "title": "6. Cost of Studying Computer Science in Germany",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The **cost of studying **Computer Science in Germany**** depends on the curriculum, city, school and lifestyle.",
-            "Cost estimate:",
-            "Tuition Some public universities may charge tuition for some non-EU students. Costs vary by program. Always check with the university for the latest pricing.",
-            "Tuition and one-time fees not included in this estimate."
-          ]
+          name: "University of Freiburg",
+          city: "Freiburg im Breisgau, Baden-Württemberg",
+          qsRank: "Top 100 Global University for Engineering & Technology",
+          tuition: "€1,500/semester (Baden-Württemberg non-EU fee) + ~€180 semester fee",
+          programs: "M.Sc. in Computer Science, M.Sc. in Embedded Systems Engineering",
+          highlights: "Internationally celebrated for autonomous robotics, computer vision, artificial intelligence, and cutting-edge cyber-physical systems.",
+          link: "https://www.uni-freiburg.de",
+          img: uniImg3
         },
         {
-          "t": "ul",
-          "items": [
-            "A few exceptions aside, most public colleges do not charge general tuition for eligible master’s programs.",
-            "The approximate contribution for the semester is from 150 to 400 €.",
-            "At private universities the tuition fees usually range from €5,000–20,000 a year (or more).",
-            "Living costs: You can expect to pay around €900-€1,300 per month.",
-            "The cost of health insurance depends on the insurance company, your age and eligibility.",
-            "Other costs include books, a laptop, accommodation deposits, travel costs, visa fees and initial relocation costs.",
-            "Monthly expenses are between €900 and €1,300 and the estimated living expenses for a two-year master's degree are around **€21,600 to €31,200**.",
-            "**German student visa** applicants must also prove that they have sufficient financial means, in accordance with the relevant regulations. The required amount is subject to change so applicants are advised to refer to the latest official visa guidelines."
+          name: "University of Passau",
+          city: "Passau, Bavaria",
+          qsRank: "Leading German Faculty in Informatics & Data Analytics",
+          tuition: "€0 Tuition (Public) | ~€110/semester contribution",
+          programs: "M.Sc. in Computer Science, M.Sc. in AI Engineering",
+          highlights: "Vibrant high-tech campus with state-of-the-art supercomputing facilities, specialized software engineering tracks, and strong international industrial collaborations.",
+          link: "https://www.uni-passau.de",
+          img: uniImg4
+        }
+      ]
+    },
+    {
+      slot: "requirements",
+      eyebrow: "Eligibility Criteria",
+      title: "Eligibility Requirements to Study Computer Science in Germany",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "German universities enforce strict academic compatibility (Fachbindung) standards. Candidates must meet the following eligibility benchmarks:",
+            "**Master's in Computer Science Eligibility:**",
+            "* **Recognized Bachelor's Degree:** An approved undergraduate degree (B.Tech, B.E., B.Sc., or 4-year BS) in Computer Science, Information Technology, Computer Engineering, or a closely related computational field.",
+            "* **Subject-Credit (ECTS) Requirements:** German universities conduct detailed credit mapping. Applicants typically must demonstrate:",
+            "  * Minimum 20 to 30 ECTS in Higher Mathematics (Linear Algebra, Calculus, Discrete Mathematics, Probability & Statistics).",
+            "  * Minimum 30 to 45 ECTS in Theoretical & Practical Computer Science (Algorithms, Data Structures, Programming Languages, Automata Theory).",
+            "  * Minimum 15 to 20 ECTS in Computer Systems (Operating Systems, Computer Architecture, Distributed Networks, Databases).",
+            "* **Academic Threshold:** Minimum German grade equivalent of 2.5 or better on the German 1-to-5 scale (approx. 65-70%+ or CGPA 7.0+/10).",
+            "* **Language Proficiency:** For English-taught tracks, official IELTS Academic (6.5 to 7.0) or TOEFL iBT (90 to 100+). For German-taught tracks, TestDaF (4x4) or DSH-2.",
+            "* **GRE Requirements:** Some elite technical programs (e.g., TU Munich, Saarland) strongly recommend or mandate the GRE General Test, with emphasis on Quantitative Reasoning (160+).",
+            "**Undergraduate (Bachelor's) Eligibility:**",
+            "* Indian applicants with 12th-grade schooling generally complete a 1-year preparatory foundation course (**Studienkolleg T-Kurs** for technical sciences) and pass the **Feststellungsprüfung (FSP)**, unless holding 1 year of recognized university education in India or an IB Diploma."
           ]
+        }
+      ]
+    },
+    {
+      slot: "admissions",
+      eyebrow: "Application Checklist",
+      title: "Admission Requirements for Computer Science in Germany",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Indian students must obtain the mandatory **APS Certificate** from APS India before submitting university applications.",
+            "Standard documentation required by German universities includes:",
+            "* Valid Passport (minimum 12 months validity).",
+            "* Certified Bachelor's Degree Certificate and official consolidated grade transcripts.",
+            "* Detailed Course Module Handbook / Syllabi (essential for ECTS credit evaluation).",
+            "* **Mandatory APS Certificate** (issued by APS India).",
+            "* Official English Language Proficiency scorecard (IELTS Academic or TOEFL iBT).",
+            "* German Language Certificates (if enrolled in bilingual or German-taught modules: B1/B2/TestDaF).",
+            "* Statement of Purpose (SOP) detailing technical projects, research interests, and academic background.",
+            "* Europass format CV highlighting programming languages, GitHub repositories, and tech stacks.",
+            "* Two Academic Letters of Recommendation (LORs) from university professors.",
+            "* GRE General Test scorecard (if required by the specific university).",
+            "* Certificates of technical internships, published research papers, or open-source software contributions."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "costs",
+      eyebrow: "Financial Planning",
+      title: "Cost of Studying Computer Science in Germany",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Studying computer science in Germany is among the most economical global pathways for high-tier technical education:",
+            "* **Public Universities:** Qualified Master's and Bachelor's programs across 15 of Germany's 16 federal states charge **€0 tuition fee** for all students regardless of nationality.",
+            "* **Baden-Württemberg State Tuition:** Public universities in Baden-Württemberg (e.g., Freiburg, Stuttgart) charge **€1,500 per semester** for non-EU international students.",
+            "* **Semester Contribution (Semesterbeitrag):** Public universities require an administrative fee of **€150 to €400 per semester**, which includes an all-inclusive regional public transportation pass (Semesterticket).",
+            "* **Private Universities:** Private tech colleges charge between **€5,000 and €20,000 per year**.",
+            "* **Monthly Living Expenses:** Budget approximately **€900 to €1,300 per month** covering student housing (€350 - €600), statutory health insurance (~€125 - €130), food, internet, and personal expenses.",
+            "* **Two-Year Living Expense Estimate:** For a typical 2-year Master's degree, living expenses total approximately **€21,600 to €31,200**.",
+            "* **German Blocked Account (Sperrkonto):** For student visa processing, international students must deposit **€11,904 per year** into an approved German blocked account as proof of financial resources."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "timeline",
+      eyebrow: "Step-by-Step Pathway",
+      title: "Admission Procedure for Computer Science in Germany",
+      steps: [
+        {
+          num: "01",
+          title: "Determine Specialization",
+          desc: "Select your target computational focus: Artificial Intelligence, Data Science, Cybersecurity, Software Engineering, or Robotics."
         },
         {
-          "t": "table",
-          "headers": [
-            "Category / Expense Type",
-            "Estimated Amount (EUR)",
-            "Applicability & Regulation"
-          ],
-          "rows": [
-            [
-              "A few exceptions aside, most public colleges do not charge general tuition for eligible master’s programs.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "The approximate contribution for the semester is from 150 to 400 €.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "At private universities the tuition fees usually range from €5,000",
-              "20,000 a year (or more).",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "Living costs",
-              "You can expect to pay around €900",
-              "€1,300 per month."
-            ],
-            [
-              "The cost of health insurance depends on the insurance company, your age and eligibility.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "Other costs include books, a laptop, accommodation deposits, travel costs, visa fees and initial relocation costs.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "Monthly expenses are between €900 and €1,300 and the estimated living expenses for a two",
-              "year master's degree are around €21,600 to €31,200.",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "German student visa applicants must also prove that they have sufficient financial means, in accordance with the relevant regulations. The required amount is subject to change so applicants are advised to refer to the latest official visa guidelines.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "process",
-      "eyebrow": "Application Timeline & Steps",
-      "title": "7. Computer Science Admission Procedure in Germany",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The admissions process typically consists of the following steps:",
-            "Step 1: Determine your area of expertise",
-            "You could study computer science in general or pick a course like artificial intelligence, data science, cybersecurity, software engineering, etc.",
-            "Step 2: Shortlisting of Colleges",
-            "Take a look at the course modules, research facilities, language teaching, tuition fees and career prospects.",
-            "Step 3: Confirm you’re eligible",
-            "Make sure your subject credits, academic standing and bachelor’s degree meet the requirements of the program.",
-            "Step 4: Prepare the results of the language test.",
-            "If required, take the necessary German language test or **IELTS, TOEFL**.",
-            "Step 5: Collect your documents",
-            "Prepare transcripts, degree certificates, CV, letter of motivation, language certificates and any other required documents.",
-            "Step 6: Submit the application",
-            "Use the application service specified by the university or the official application portal.",
-            "Step 7: Perform any other assessments",
-            "If required, submit your **GRE scores**, attend interviews, or complete aptitude tests.",
-            "Step 8: Get your admission decision",
-            "Check out your offer of admission, enrollment requirements, costs and due dates.",
-            "Step 9: Get your finances and student visa in order",
-            "Collect all the documents you need for your visa application, like proof of finances, health insurance and where you’ll be staying.",
-            "Step 10: Complete Enrollment",
-            "Register for your program, submit any outstanding paperwork and pay any tuition or semester fees that may be due."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Quality Standards",
-      "title": "8. Recognition and Accreditation of Computer Science Degree in Germany",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Students should check the **quality assurance or accreditation status** of a **Computer Science program** They are interested in the formal recognition of the institution in Germany.",
-            "Things to consider:",
-            "Some programs focus on practical **software development, artificial intelligence, information systems** or **cybersecurity** while others focus on **theoretical computer science**.",
-            "Students who plan to return to India or continue their studies abroad should where applicable find out how their credentials would be assessed by companies, colleges or relevant professional associations."
-          ]
+          num: "02",
+          title: "Shortlist Technical Universities",
+          desc: "Compare curriculum module handbooks, lab research capabilities, English instruction tracks, and industry tie-ups."
         },
         {
-          "t": "ul",
-          "items": [
-            "The university has been recognized.",
-            "Quality assurance status or accreditation where applicable.",
-            "The qualification is recognized for employment and for further education.",
-            "The curriculum covers ** fundamentals of computer science ** and the chosen specializations .",
-            "There are technical resources, research projects and computer labs.",
-            "Opportunities for applied research, industrial partnerships or internships."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Career Prospects & Salary",
-      "title": "9. Pay and Employment Prospects in Germany After Computer Science",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "A **postgraduate Computer Science degree can open opportunities** in **software development, artificial intelligence, data analytics, cloud computing, cybersecurity** and technological research.",
-            "Popular career options include:",
-            "Indicative pay expectations in Germany are as follows:",
-            "Entry level positions have an annual gross salary of around €45,000 to €60,000.",
-            "With experience and depending on the position and employer, you can often earn between €60,000 and €90,000 and more gross per year.",
-            "**Specialized senior jobs:** Certain senior positions in **AI, cloud infrastructure, cybersecurity, and **software architecture** can pay higher salaries.",
-            "Depending on the professional path taken, skills in **Python, Java, C++, SQL, Git, Linux, cloud platforms, machine learning frameworks, and **software development practices** could be useful."
-          ]
+          num: "03",
+          title: "Verify ECTS Compatibility & Secure APS",
+          desc: "Map your undergraduate transcript credits in math, algorithms, and systems, and apply early for the mandatory APS Certificate via APS India."
         },
         {
-          "t": "ul",
-          "items": [
-            "Software Engineer",
-            "**Software Engineer**",
-            "**Data Science**",
-            "**Machine Learning Engineer**",
-            "Artificial intelligence engineer",
-            "The Cyber Security Specialist",
-            "A computer security engineer",
-            "*Cloud Engineer*",
-            "DevOps Engineer",
-            "Backend or Full-Stack Developer",
-            "**Engineer – Database**",
-            "**Systems Engr.",
-            "**Research Engineering**",
-            "IT Consultant"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Required Documentation",
-      "title": "10. Documents required",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Applicants for university admission often require the following documents:",
-            "The exact list will depend on the university, the application process and the particular conditions of the visa. Applicants are advised to check the latest requirements with the German mission guidelines and the official university website."
-          ]
+          num: "04",
+          title: "Take Standardized Exams",
+          desc: "Appear for IELTS Academic (6.5 - 7.5) or TOEFL iBT (90 - 100+), and take the GRE General Test if recommended."
         },
         {
-          "t": "ul",
-          "items": [
-            "A current passport",
-            "Certificate of Bachelor’s Degree or a provisional certificate",
-            "Academic Transcripts and Mark Sheets",
-            "Course descriptions or curriculum available upon request.",
-            "Evidence of English or German language proficiency.",
-            "CV or resume.",
-            "A letter of motivation or statement of purpose",
-            "Letters of Recommendation (if applicable).",
-            "GRE scores, if applicable.",
-            "If asked, tell us about your study, academic project or portfolio.",
-            "Internship or work experience certificates, if applicable.",
-            "The university application has been completed.",
-            "Certified translations of documents (if applicable).",
-            "Passport size photographs if required.",
-            "Additional documents for a German student visa could be:",
-            "The letter of acceptance from the university.",
-            "Proof of sufficient financial resources",
-            "Health insurance paper work.",
-            "Visa application forms and supporting documentation",
-            "We can give information about accommodations on request."
+          num: "05",
+          title: "Assemble Comprehensive Technical Dossier",
+          desc: "Draft a technical SOP, tailor your Europass CV with code repositories, secure 2 academic LORs, and compile detailed course descriptions."
+        },
+        {
+          num: "06",
+          title: "Submit University Applications",
+          desc: "Apply via Uni-Assist or directly to university portals before July 15 (Winter Intake) or January 15 (Summer Intake)."
+        },
+        {
+          num: "07",
+          title: "Complete Technical Assessments / Interviews",
+          desc: "Take online programming aptitude tests or participate in technical admissions interviews if shortlisted."
+        },
+        {
+          num: "08",
+          title: "Accept Offer of Admission",
+          desc: "Receive your official Letter of Admission (Zulassungsbescheid) and pay any initial semester administrative contribution."
+        },
+        {
+          num: "09",
+          title: "Open Blocked Account & Apply for Visa",
+          desc: "Deposit €11,904 in a German blocked account (Sperrkonto), obtain statutory health insurance, and apply for the National Student Visa (Subtype 16b)."
+        },
+        {
+          num: "10",
+          title: "Travel to Germany & University Matriculation",
+          desc: "Arrive in Germany, complete your city registration (Anmeldung), finalize university matriculation (Immatrikulation), and receive your student ID and transit pass."
+        }
+      ]
+    },
+    {
+      slot: "accreditation",
+      eyebrow: "Quality Standards",
+      title: "Accreditation & Quality Recognition of Computer Science in Germany",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Before selecting a university, verify that the computer science degree holds recognized accreditation and quality seals:",
+            "* **ASIIN Accreditation:** Leading German and European accreditation agency specializing in Engineering, Informatics, Architecture, and Natural Sciences.",
+            "* **German State Recognition (Staatlich Anerkannt):** Public universities are state-funded and systematically evaluated by the German Council of Science and Humanities (Wissenschaftsrat) and indexed on Anabin.",
+            "* **Euro-Inf Quality Label:** Awarded by the European Quality Assurance Network for Informatics Education (EQANIE), certifying that the program meets European-wide standards for professional informatics education.",
+            "* **High Academic Credibility:** Degrees from German technical universities (TU9 and Excellence Universities) are recognized without restriction worldwide by employers and doctoral research programs."
           ]
         }
       ]
     },
     {
-      "slot": "details",
-      "eyebrow": "Key Insights",
-      "title": "11. Frequently Asked Questions: Computer Science in Germany",
-      "groups": [
+      slot: "careers",
+      eyebrow: "Employment Outlook",
+      title: "Career & Salary Prospects in Germany After Computer Science",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Q1. Do Indian students study masters in computer science in Germany?",
-            "Yes. All Indian students with a recognized bachelor’s degree in **Computer Science, Information Technology, Computer Engineering** or any relevant subject who meet the academic, subject-credit and language requirements of the university may apply, provided that they do so.",
-            "Q2.  Germany offers a free masters degree in computer science. ?",
-            "Many public universities do not charge general tuition for qualified master’s programs, however **semester contributions** are usually required. Most private institutions charge tuition . Some public universities charge tuition as well , as do specialized programs ."
+          t: "p",
+          items: [
+            "Computer Science graduates in Germany enter one of the world's most lucrative and talent-starved job markets. Germany faces an estimated shortage of over 100,000+ IT professionals across software engineering, AI, and cybersecurity.",
+            "Popular career paths include:",
+            "* **Software Engineer / Full-Stack Developer:** Designing scalable backend architectures, cloud microservices, and distributed applications.",
+            "* **Machine Learning & AI Engineer:** Developing predictive models, deep learning pipelines, and generative AI systems.",
+            "* **Data Scientist & Big Data Engineer:** Architecting large-scale data lakes, ETL pipelines, and statistical intelligence models.",
+            "* **Cybersecurity & Information Security Specialist:** Hardening enterprise networks, vulnerability research, and threat modeling.",
+            "* **Cloud Infrastructure & DevOps Engineer:** Managing Kubernetes clusters, CI/CD automation, and multi-cloud environments (AWS, Azure, GCP).",
+            "* **Autonomous Systems & Robotics Engineer:** Designing motion planning, sensor fusion, and embedded software for automotive and industrial robotics.",
+            "* **IT Management Consultant / Enterprise Architect:** Aligning enterprise tech stacks with business transformation strategies.",
+            "**Estimated Gross Annual Salaries in Germany:**",
+            "* **Entry-Level Positions:** **€48,000 to €62,000** per year.",
+            "* **Experienced Engineers (3-5+ years):** **€65,000 to €92,000** per year.",
+            "* **Senior Tech Leads, Staff Engineers & AI Specialists:** **€95,000 to €130,000+** per year.",
+            "Proficiency in languages such as Python, Java, C++, Go, Rust, SQL, and modern cloud technologies (Docker, Kubernetes) commands top-tier compensation. English is widely spoken in German tech companies, though conversational German enhances long-term leadership growth."
           ]
         }
       ]
     },
     {
-      "slot": "fees",
-      "eyebrow": "Tuition Fees & Living Costs",
-      "title": "6. Q3. How long does a computer science master’s degree take in Germany?",
-      "groups": [
+      slot: "documents",
+      eyebrow: "Required Paperwork",
+      title: "Documents Required to Study Computer Science in Germany",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Most programs take **1.5 to 2 years** depending on the number of **ECTS credits** and the format of the program.",
-            "Q4. Do you need IELTS to study computer science in Germany?",
-            "No, not all people need to take the IELTS test. Some applicants may qualify for an exemption. English language programs may accept **IELTS, TOEFL** or other accepted credentials. **German language proficiency** is required for programs taught in German.",
-            "Q5. What can you do after a Master's in Computer Science in Germany?",
-            "Graduates can be employed as research engineers, cloud engineers, cybersecurity experts, machine learning and artificial intelligence engineers, data scientists, software engineers and DevOps engineers. Career opportunities are determined by technical skills, experience, language skills and workplace needs.",
-            "How to study abroad with the help of **Edu Hawk Worldwide Consultancy?**",
-            "Edu Hawk Worldwide helps students in planning their study abroad experience, organizing their application materials, researching suitable universities and understanding admission requirements. Students should contact the appropriate official authorities for their academic, financial, immigration and licensing needs."
+          t: "p",
+          items: [
+            "Ensure all documentation is neatly compiled, translated into English or German, and verified where applicable:",
+            "* Valid Passport (minimum 12 months validity).",
+            "* Secondary School Certificates & Marksheets (10th & 12th standards).",
+            "* Bachelor's Degree Certificate and official consolidated grade transcripts.",
+            "* Detailed Course Handbook / Curriculum Syllabus (required for ECTS credit evaluation).",
+            "* **Mandatory APS Certificate** issued by the Academic Evaluation Centre (APS India).",
+            "* English Language Proficiency scorecards (IELTS Academic 6.5+ or TOEFL iBT 90+).",
+            "* German Language Certificates (if enrolled in German or bilingual modules: B1/B2/TestDaF).",
+            "* Statement of Purpose (SOP) tailored specifically to your chosen computer science curriculum.",
+            "* Europass format CV detailing academic achievements, programming projects, and code repositories.",
+            "* Two Academic/Professional Letters of Recommendation (LORs).",
+            "* Proof of Technical Internships, Hackathons, Published Papers, or GitHub Repositories.",
+            "* Blocked Account Confirmation (€11,904) and German Statutory Health Insurance.",
+            "* Official University Admission Letter (Zulassungsbescheid)."
           ]
         }
       ]
     }
   ],
-  "faqs": []
+  faqs: [
+    {
+      q: "Can Indian students study a Master's in Computer Science in Germany?",
+      a: "Yes. Indian students holding a recognized 4-year Bachelor's degree (B.Tech, B.E., or BS) or a relevant 3-year degree with sufficient ECTS credits in Computer Science, Information Technology, or Computer Engineering can apply, provided they meet the university's academic credit mapping and language requirements."
+    },
+    {
+      q: "Does Germany offer tuition-free Master's degrees in Computer Science?",
+      a: "Yes. Public universities across 15 of Germany's 16 federal states charge zero tuition fees for both EU and non-EU international students, requiring only a modest semester contribution of €150 to €400 (which includes a regional public transit pass). In Baden-Württemberg, tuition is €1,500 per semester. Private institutions charge standard tuition fees."
+    },
+    {
+      q: "How long does a Computer Science Master's degree take in Germany?",
+      a: "Most Master of Science (M.Sc.) programs in Computer Science take 1.5 to 2 years (3 to 4 semesters) to complete, requiring 90 to 120 ECTS credits, which includes an extensive 6-month Master's research thesis."
+    },
+    {
+      q: "Is IELTS required to study Computer Science in Germany?",
+      a: "Yes, for English-taught programs, most universities require an official English language test score such as IELTS Academic (minimum 6.5 to 7.0 overall) or TOEFL iBT (minimum 90 to 100). Some programs may grant waivers if your entire undergraduate degree was conducted in English, but official scores are strongly recommended. For German-taught courses, TestDaF or DSH certificates are required."
+    },
+    {
+      q: "What career opportunities and post-study work rights are available after graduation?",
+      a: "Graduates are entitled to an 18-month post-study work visa (Residence Permit for Jobseekers) in Germany. Graduates enter high-demand careers as software engineers, machine learning engineers, data scientists, cybersecurity specialists, cloud architects, and research scientists, with starting salaries ranging from €48,000 to €62,000 per year and fast-track eligibility for the EU Blue Card."
+    }
+  ]
 };
 
 export default function ComputerScienceGermanyPage() {
@@ -446,30 +360,18 @@ export default function ComputerScienceGermanyPage() {
     hero: heroImg,
     heroBg: heroBgImg,
     side: sideImg,
-    ctaBg: ctaBgImg,
-    universities: [
-    {
-      name: "Saarland University      renowned worldwide for     computer science research     in fields such as     cybersecurity    ,     artificial intelligence, machine learning, and computer vision    .",
-      img: uniImg1,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "The University of Bonn      provides chances for study in computer science and related fields, such as computational techniques, intelligent systems, and machine learning.",
-      img: uniImg2,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "The University of Freiburg      renowned for conducting research in the fields of computer science, robotics, computer vision, artificial intelligence, and embedded systems.",
-      img: uniImg3,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "The University of Passau      provides courses and research opportunities in the fields of information systems, computer science, data science, and digital technologies.",
-      img: uniImg4,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    }
-    ]
+    ctaBg: ctaBgImg
   };
 
-  return <AbroadCoursePage page={page} images={images} />;
+  return (
+    <AbroadCoursePage
+      page={page}
+      images={images}
+      heroImg={heroImg}
+      heroBgImg={heroBgImg}
+      sideImg={sideImg}
+      ctaBgImg={ctaBgImg}
+      seoPath="/study-abroad/germany/computer-science"
+    />
+  );
 }

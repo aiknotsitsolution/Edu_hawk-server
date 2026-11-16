@@ -13,329 +13,310 @@ import uniImg2 from "../../../../Images/Abroad/Germany/ExecutiveMBA/The_Frankfur
 import uniImg3 from "../../../../Images/Abroad/Germany/ExecutiveMBA/HHL_Leipzig_Graduate_School_of_Mana.webp";
 
 const page = {
-  "name": "Executive MBA in Germany",
-  "country": "Germany",
-  "slug": "executive-mba",
-  "title": "Executive MBA in Germany for Indian Students | Edu-Hawk Worldwide",
-  "description": "Complete guide to Executive MBA in Germany for international students: Top German universities, admission requirements, zero-tuition public education, living expenses, and 18-month post-study work visa.",
-  "keywords": "Study Executive MBA in Germany for Indian Students, Best Executive MBA Universities in Germany, Executive MBA Courses and Specialisations in Germany, Executive MBA Eligibility Requirements in Germany, Executive MBA Admission Requirements for International Students in Germany, Executive MBA Work Experience Requirements in Germany, Executive MBA Without GMAT in Germany, Executive MBA Tuition Fees in Germany, Executive MBA Scholarships and Employer Sponsorship in Germany, Career Opportunities After Executive MBA in Germany, Executive MBA Graduate Salary in Germany, Executive MBA for Working Professionals in Germany, Germany Visa Requirements for Indian Executive MBA Students",
-  "introTitle": "1\\. WHY STUDY FOR AN EXECUTIVE MBA IN GERMANY?",
-  "heroParas": [
-    "Professionals who choose to study a ****Executive Master of Business Administration** (Executive MBA or EMBA)** frequently choose Germany. As they advance in their professions, these courses are intended to assist seasoned professionals in refining their **business management, strategic thinking, and leadership abilities **.",
-    "Main benefits consist of:",
-    "* advanced instruction in management and leadership.",
-    "* networking chances with seasoned experts.",
-    "* Industry **is linked to the German corporate sector. exposure to corporate techniques elsewhere.",
-    "* Flexible study alternatives like part-time, modular, and combination study are offered by many universities. career options and leadership in business.",
-    "**Edu Hawk Worldwide Consultancy** assists students in understanding the **university entry requirements**, examining the **international study options**, and getting ready for the **overseas education journey** with the right preparation and direction."
+  name: "Executive MBA in Germany",
+  country: "Germany",
+  slug: "executive-mba",
+  title: "Executive MBA in Germany for Indian Students | Edu-Hawk Worldwide",
+  description: "Complete guide to Executive MBA (EMBA) in Germany for working professionals: Top triple-accredited business schools, flexible modular formats, eligibility, tuition fees, and senior executive career advancement.",
+  keywords: "Study Executive MBA in Germany for Indian Students, Best Executive MBA Universities in Germany, Executive MBA Courses and Specialisations in Germany, Executive MBA Eligibility Requirements in Germany, Executive MBA Admission Requirements for International Students in Germany, Executive MBA Work Experience Requirements in Germany, Executive MBA Without GMAT in Germany, Executive MBA Tuition Fees in Germany, Executive MBA Scholarships and Employer Sponsorship in Germany, Career Opportunities After Executive MBA in Germany, Executive MBA Graduate Salary in Germany, Executive MBA for Working Professionals in Germany, Germany Visa Requirements for Indian Executive MBA Students",
+  introTitle: "Why Study an Executive MBA in Germany?",
+  heroParas: [
+    "Germany is a premier destination for experienced managers seeking an Executive Master of Business Administration (EMBA), designed to accelerate strategic leadership, corporate innovation, and international executive influence."
   ],
-  "overview": [
-    "Professionals who choose to study a ****Executive Master of Business Administration** (Executive MBA or EMBA)** frequently choose Germany. As they advance in their professions, these courses are intended to assist seasoned professionals in refining their **business management, strategic thinking, and leadership abilities **.",
-    "Main benefits consist of:",
-    "* advanced instruction in management and leadership.",
-    "* networking chances with seasoned experts.",
-    "* Industry **is linked to the German corporate sector. exposure to corporate techniques elsewhere.",
-    "* Flexible study alternatives like part-time, modular, and combination study are offered by many universities. career options and leadership in business.",
-    "**Edu Hawk Worldwide Consultancy** assists students in understanding the **university entry requirements**, examining the **international study options**, and getting ready for the **overseas education journey** with the right preparation and direction."
+  overview: [
+    "The German Executive MBA is specifically tailored for seasoned managers and high-potential leaders seeking to refine their strategic decision-making, corporate governance, and transformational leadership capabilities.",
+    "Programs combine rigorous advanced management education with exclusive networking opportunities alongside C-suite peers, senior industry directors, and international faculty.",
+    "Executive cohorts benefit from direct operational immersion in the German powerhouse corporate sector, spanning automotive giants, advanced engineering firms, pharmaceutical leaders, and agile digital scale-ups.",
+    "Flexible study architecture—including modular weekend formats, bi-monthly blocks, and hybrid blended learning—enables senior professionals to maintain demanding career responsibilities while obtaining a world-class degree.",
+    "Edu-Hawk Worldwide Consultancy assists prospective executive candidates with university shortlisting, leadership portfolio evaluation, corporate sponsorship proposals, and student visa processing."
   ],
-  "level": "Executive Master of Business Administration (EMBA)",
-  "crumb": "Executive Education / Management",
-  "stats": [
-    {
-      "label": "Degree Choices",
-      "value": "Executive Master of Business Administration (EMBA)"
-    },
-    {
-      "label": "Course Duration",
-      "value": "3 to 6 Years"
-    },
-    {
-      "label": "Top Institutions",
-      "value": "Mannheim Business School      Offers executive management and an MBA., The Frankfurt School of Finance & Management      renowned for its programs in corporate management, leadership and finance."
-    },
-    {
-      "label": "Post-Study Work",
-      "value": "18-Month Jobseeker Visa (Residence Permit)"
-    }
+  level: "Executive Master of Business Administration (EMBA)",
+  crumb: "Postgraduate / Executive Education",
+  stats: [
+    { label: "Degree Choices", value: "Executive MBA (EMBA), Modular EMBA, Global EMBA" },
+    { label: "Course Duration", value: "12 to 24 Months (Part-Time / Modular Format)" },
+    { label: "Tuition Range", value: "€30,000 - €65,000 (Total Program)" },
+    { label: "Post-Study Work Visa", value: "18-Month Jobseeker Visa (EU Blue Card path)" },
+    { label: "Executive Salary Potential", value: "€95,000 - €150,000+ / year" }
   ],
-  "sections": [
+  sections: [
     {
-      "slot": "courses",
-      "eyebrow": "Curriculum & Specializations",
-      "title": "2. MBA Courses for Executives",
-      "groups": [
+      slot: "details",
+      eyebrow: "Executive Curriculum",
+      title: "Popular Executive MBA Formats and Specialisations in Germany",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Depending on the school and study style, executive MBA programs typically take **1-2 years** to finish.",
-            "Well-liked program choices include:",
-            "Corporate finance, strategic management, leadership, marketing, business analytics, organizational transformation, and international business are among the topics covered."
+          t: "p",
+          items: [
+            "Executive MBA programs in Germany are constructed around high-level strategic challenges faced by global enterprises. Cohorts analyze real-world boardroom case studies, execute international consulting projects, and complete strategic business capstones.",
+            "Leading executive specializations and modular study tracks include:"
           ]
         },
         {
-          "t": "pills",
-          "items": [
-            "Executive MBA in General Management",
-            "Executive MBA in International Business",
-            "Executive MBA in Leadership and Strategy",
-            "Executive MBA in Technology Management.",
-            "Finance and Executive MBA",
-            "The Entrepreneurship EMBA.",
-            "Executive Master of Innovation",
-            "Management and Executive MBA in Digitalization.",
-            "Healthcare Management:",
-            "Management of Sustainability"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "universities",
-      "eyebrow": "Top German Universities",
-      "title": "3. Germany's Top Universities and Establishments for Executive MBAs",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Professionals can receive **education for executives and managers** from the following organizations:",
-            "**Mannheim Business School** - Offers executive management and an MBA.",
-            "**The Frankfurt School of Finance & Management** - renowned for its programs in corporate management, leadership and finance.",
-            "**HHL Leipzig Graduate School of Management**:- This institution emphasizes management, entrepreneurship, and leadership."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Eligibility Criteria",
-      "title": "4. Germany's Executive MBA Eligibility",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The **standard eligibility requirements** are as follows:",
-            "The standards used by different institutions to assess work experience vary. Since many ****Executive MBA programs**** target professionals with substantial experience, candidates should review the specific **admission requirements**."
+          t: "ul",
+          items: [
+            "**Executive MBA in General Management:** Comprehensive organizational governance, corporate strategy, executive leadership, and multi-business unit management.",
+            "**Executive MBA in International Business & Global Strategy:** Cross-border mergers, geopolitical risk assessment, global supply chain resilience, and foreign market entry.",
+            "**Executive MBA in Leadership, Culture & Organizational Change:** Executive presence, high-performance team dynamics, corporate transformation, and crisis leadership.",
+            "**Executive MBA in Technology & Digital Innovation:** Industry 4.0 architectures, artificial intelligence implementation, enterprise cybersecurity, and digital business model disruption.",
+            "**Executive MBA in Corporate Finance & M&A:** Capital allocation strategy, private equity, restructuring, valuation, and shareholder value creation.",
+            "**Executive MBA in Healthcare & Life Sciences Management:** Strategic pharmaceutical management, medical technology commercialization, and healthcare regulatory systems.",
+            "**Executive MBA in Sustainability & ESG Leadership:** Decarbonization strategies, circular business economics, ESG reporting standards, and sustainable enterprise governance."
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "a recognized **Bachelor's degree** or its equivalent.",
-            "Many years of **professional work experience** with leadership or management duties.",
-            "Programs taught in English need ****English Language Proficiency**.**",
-            "strong professional background and clear career objectives. **GMAT, GRE** or additional exams as needed.",
-            "a business school assessment or interview."
+          t: "p",
+          items: [
+            "**Core Executive Study Modules:**",
+            "* Strategic Leadership, Corporate Governance, and Boardroom Ethics",
+            "* Advanced Corporate Financial Policy and Capital Structuring",
+            "* Global Marketing Strategy and Customer Value Innovation",
+            "* Digital Transformation, Operations Strategy, and Agile Organizations",
+            "* Executive Business Project (Practical Capstone solving an organizational challenge)"
           ]
         }
       ]
     },
     {
-      "slot": "admission",
-      "eyebrow": "Admission Requirements",
-      "title": "5. Requirements for German Executive MBA Admission",
-      "groups": [
+      slot: "unis",
+      eyebrow: "Top Executive Institutions",
+      title: "Prestigious Business Schools for Executive MBA in Germany",
+      groups: [
         {
-          "t": "ul",
-          "items": [
-            "Academic requirements include a bachelor's degree certificate and academic credentials.",
-            "an updated curriculum vitae or professional resume.",
-            "Work experience and employment credentials.",
-            "essays for statements of intent or applications.",
-            "referral letters, as required.",
-            "outcomes of an English language exam, if necessary. Where appropriate, **GMAT or GRE scores.",
-            "a valid ID, such as a passport.",
-            "The application has been completed.",
-            "Conduct a professional evaluation or interview if required."
+          t: "p",
+          items: [
+            "Germany's leading executive education institutions hold prestigious triple-crown accreditations (AACSB, AMBA, EQUIS) and feature world-class executive campus facilities."
           ]
+        }
+      ],
+      unis: [
+        {
+          name: "Mannheim Business School (MBS)",
+          city: "Mannheim, Baden-Württemberg",
+          qsRank: "#1 Executive MBA in Germany / Financial Times Top Global EMBA",
+          tuition: "€49,500 - €56,000 (Total Program)",
+          programs: "Mannheim Executive MBA (Weekend / Modular Track), ESSEC-Mannheim Executive MBA",
+          highlights: "Holds triple-crown accreditation; offers international study residencies in France, the US, and Asia with outstanding senior peer cohorts.",
+          link: "https://www.mannheim-business-school.com/",
+          img: uniImg1
+        },
+        {
+          name: "Frankfurt School of Finance & Management",
+          city: "Frankfurt am Main, Hesse",
+          qsRank: "Top European Financial & Business Hub / Triple Crown (AACSB, AMBA, EQUIS)",
+          tuition: "€48,000 - €54,000 (Total Program)",
+          programs: "Executive MBA, EMBA in Mobility, EMBA in Corporate Leadership",
+          highlights: "Located in Frankfurt, continental Europe's financial capital; features international modules at NYU Stern, Columbia, and prestigious corporate networking.",
+          link: "https://www.frankfurt-school.de/",
+          img: uniImg2
+        },
+        {
+          name: "HHL Leipzig Graduate School of Management",
+          city: "Leipzig, Saxony",
+          qsRank: "Germany's Historic Business Pioneer / AACSB Accredited",
+          tuition: "€45,000 (Total Program)",
+          programs: "Executive MBA, Euro*MBA (Blended European Consortium Track)",
+          highlights: "Emphasizes entrepreneurial leadership and innovation; modular schedule accommodates working professionals with international residencies.",
+          link: "https://www.hhl.de/",
+          img: uniImg3
         }
       ]
     },
     {
-      "slot": "fees",
-      "eyebrow": "Tuition Fees & Living Costs",
-      "title": "6. The price of a German executive MBA program",
-      "groups": [
+      slot: "details",
+      eyebrow: "Executive Eligibility",
+      title: "Eligibility Criteria and Admissions Standards for German EMBA",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "The majority of executive MBA programs, including several offered by public universities, have **tuition fees**.",
-            "Cost estimate:",
-            "An executive MBA program typically costs between **€25,000 and €70,000 or more** in total.",
-            "Travel and lodging: Weekend or modular classes may incur additional costs.",
-            "The cost of study materials might be covered by tuition or paid for separately.",
-            "Meals, transportation, and any required international trip are all considered \"other expenses.\"",
-            "Depending on the program's length, format, and school, fees can differ significantly."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "process",
-      "eyebrow": "Application Timeline & Steps",
-      "title": "7. The German Executive MBA Admission Process",
-      "groups": []
-    },
-    {
-      "slot": "why",
-      "eyebrow": "Why Study in Germany",
-      "title": "1.Study formats for Executive MBA programs should be compared and contrasted.",
-      "groups": []
-    },
-    {
-      "slot": "courses",
-      "eyebrow": "Curriculum & Specializations",
-      "title": "2. Verify the educational and professional requirements.",
-      "groups": []
-    },
-    {
-      "slot": "universities",
-      "eyebrow": "Top German Universities",
-      "title": "3. Get your professional resume and application essays ready.",
-      "groups": []
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Eligibility Criteria",
-      "title": "4. Compile references, employment history, and educational background.",
-      "groups": []
-    },
-    {
-      "slot": "admission",
-      "eyebrow": "Admission Requirements",
-      "title": "5. Apply on the organization's official website.",
-      "groups": []
-    },
-    {
-      "slot": "fees",
-      "eyebrow": "Tuition Fees & Living Costs",
-      "title": "6. Attend an evaluation or interview if necessary.",
-      "groups": []
-    },
-    {
-      "slot": "process",
-      "eyebrow": "Application Timeline & Steps",
-      "title": "7. Obtain and examine the admission offer and cost schedule.",
-      "groups": []
-    },
-    {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Quality Standards",
-      "title": "8. Examine your financial or corporate support possibilities.",
-      "groups": []
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Career Prospects & Salary",
-      "title": "9. Plan your journey, lodging, and any necessary visas.",
-      "groups": []
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Required Documentation",
-      "title": "10. Be completely enrolled before the program begins.",
-      "groups": []
-    },
-    {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Quality Standards",
-      "title": "8. Accreditation and Recognition of Executive MBAs in Germany",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Before enrolling, be sure the school is **recognized** and **check the program's accreditation and quality assurance status**.",
-            "The following **business-school accreditations** are worth considering:",
-            "An worldwide organization that accredits business education is the AACSB.",
-            "EQUIS: Emphasizes the excellence and global scope of business schools. **AMBA:** concentrates on specialized master's programs and **MBA, Executive MBA**."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Career Prospects & Salary",
-      "title": "9. Career Opportunities in Germany Following an Executive MBA",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Experienced professionals can prepare for **senior management, leadership, consulting, and strategic business roles** with the help of a **Executive MBA**.",
-            "Among the well-liked career choices are:",
-            "The salary ranges listed here are representative of",
-            "Professionals with management experience: **between €70,000 and €100,000 gross per year**.",
-            "Senior managers and directors: **between **€100,000 and €150,000 or more gross annually**.",
-            "Incomes and returns are simply estimates and are not guaranteed by an executive MBA. Pay is significantly influenced by prior experience, industry, employer, leadership responsibilities, and location."
+          t: "p",
+          items: [
+            "Because Executive MBA cohorts rely heavily on peer-to-peer knowledge sharing, admissions standards place heavy emphasis on professional leadership trajectory and executive potential:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Senior Manager of Business",
-            "Strategy Consultant and Director of Operations",
-            "Director of Finance and Director of Business Development",
-            "Head of Management",
-            "Product Director",
-            "Program Director",
-            "Management Consultant",
-            "Entrepreneur and proprietor"
+          t: "ul",
+          items: [
+            "**Recognized Bachelor's Degree:** Equivalent undergraduate qualification in any field (Engineering, Business, Science, Law) from a recognized university.",
+            "**Substantial Work Experience:** Minimum 5 to 8+ years of post-graduation professional work experience, including at least 3 years in a verifiable managerial, supervisory, or project leadership role.",
+            "**Executive English Proficiency:** Fluent professional command demonstrated by TOEFL iBT (100+), IELTS Academic (7.0+), or proof of working in an international English-speaking corporate environment.",
+            "**Management Aptitude (GMAT / Executive Assessment / In-House Test):** Most German EMBA programs accept the GMAC Executive Assessment (EA), standard GMAT/GRE, or an institutional admissions test. Waivers are frequently granted for candidates with 8+ years of proven senior managerial experience.",
+            "**Corporate Support or Employer Endorsement:** A letter of commitment from your employer confirming release time for modular class blocks, or proof of self-employed executive autonomy.",
+            "**APS India Certificate:** Required for Indian applicants prior to enrollment and visa issuance."
           ]
         }
       ]
     },
     {
-      "slot": "documents",
-      "eyebrow": "Required Documentation",
-      "title": "10. Documents Required for German Executive MBA Studies",
-      "groups": [
+      slot: "details",
+      eyebrow: "Tuition & Financial Structure",
+      title: "Executive MBA Tuition Fees, Modular Expenses and Sponsorship",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Typical documents that are needed include:",
-            "Depending on their country and program attendance requirements, foreign applicants may also require **travel or visa documentation**."
+          t: "p",
+          items: [
+            "Executive MBA programs are specialized premium professional degrees that charge tuition fees covering instructional delivery, proprietary case materials, international study residencies, and executive coaching."
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "a valid ID, such as a passport.",
-            "a bachelor's degree diploma and transcripts.",
-            "an updated curriculum vitae or professional resume.",
-            "Work experience and employment credentials.",
-            "essays for applications or a declaration of intent.",
-            "letters of recommendation (if necessary).",
-            "English language test results, if applicable.",
-            "GMAT or GRE scores, if relevant.",
-            "The **application form** has been completed."
+          t: "table",
+          headers: ["Financial Element", "Estimated Cost (EUR)", "Key Details & Inclusions"],
+          rows: [
+            ["Top Business School EMBA Tuition", "€35,000 - €65,000 (Total)", "Full tuition, course software, leadership coaching, international modules."],
+            ["Public University Specialized EMBA", "€22,000 - €38,000 (Total)", "Selected state university faculties offering executive management tracks."],
+            ["Travel & Modular Lodging", "€4,000 - €8,000 (Over Program)", "Accommodation and transit for monthly weekend modules and residencies."],
+            ["Monthly Living Expenses (If Relocating)", "€1,100 - €1,500 / month", "Living costs for executives residing in Germany during program duration."],
+            ["Corporate Employer Sponsorship", "Partial or Full (20% - 100%)", "Many employers co-fund tuition in exchange for employee retention agreements."],
+            ["Tax Deductibility in Germany", "Up to 100% Tax Deductible", "For professionals paying German taxes, EMBA tuition is fully deductible as professional training expenses (Werbungskosten)."]
           ]
         }
       ]
     },
     {
-      "slot": "details",
-      "eyebrow": "Key Insights",
-      "title": "11. FAQs for German Executive MBAs",
-      "groups": [
+      slot: "timeline",
+      eyebrow: "Admissions Roadmap",
+      title: "10-Step Executive MBA Admission Roadmap for Working Professionals",
+      timeline: [
         {
-          "t": "p",
-          "items": [
-            "Q1. In Germany, who should get an Executive MBA?",
-            "**Experienced professionals** who wish to improve their **business decision-making, strategic management, and leadership skills** are the target audience.",
-            "Q2. How long does an executive MBA program in Germany last?",
-            "Depending on the school and method of study, most programs last one to two years.",
-            "Q3. Is it feasible to complete a free executive MBA program in Germany?",
-            "In general, no. Even at colleges that also offer low-tuition academic programs, **Executive MBA programs** frequently have hefty **tuition fees**.",
-            "Q4. Does an Executive MBA require work experience?",
-            "A specific number of years of **professional experience** is required for the majority of programs; some also call for **management or leadership experience**. Institutions have different requirements.",
-            "Q5. Can an Executive MBA help you advance your career in Germany?",
-            "Developing your **leadership skills and professional networks** can help you advance into **senior roles**. Prior experience, performance, industry, and employer requirements all have an impact on career success.",
-            "How can **Edu Hawk Worldwide Consultancy** help me study overseas?",
-            "With Edu Hawk Worldwide's help, students may plan their **study-abroad journey** , arrange **application documents** , understand **admission requirements** , and investigate **suitable universities**. Students should inquire about their academic, financial, immigration, and licensing requirements with the relevant official authorities."
+          step: "01",
+          title: "Compare Executive Programs & Modular Formats",
+          desc: "Evaluate EMBA formats (weekend, monthly block, or blended) against your professional travel schedule and executive career objectives."
+        },
+        {
+          step: "02",
+          title: "Preliminary Profile Assessment",
+          desc: "Submit your executive CV and LinkedIn profile to target business school admissions teams for initial eligibility screening and feedback."
+        },
+        {
+          step: "03",
+          title: "Secure Employer Endorsement & Time Release",
+          desc: "Obtain formal employer support guaranteeing required absence days for intensive study blocks and international immersion modules."
+        },
+        {
+          step: "04",
+          title: "Complete Executive Assessment or GMAT",
+          desc: "Take the GMAC Executive Assessment (EA), GMAT, or prepare for the business school's proprietary admissions test if required."
+        },
+        {
+          step: "05",
+          title: "Obtain APS India Certification",
+          desc: "Submit your degree certificates and transcripts to APS India to obtain your mandatory verification certificate."
+        },
+        {
+          step: "06",
+          title: "Prepare Leadership Dossier & Strategy Essays",
+          desc: "Craft targeted executive essays articulating your leadership philosophy, strategic accomplishments, and value contribution to the cohort."
+        },
+        {
+          step: "07",
+          title: "Secure Executive Letters of Recommendation",
+          desc: "Obtain 2 professional recommendations from C-suite executives, board members, or senior corporate directors."
+        },
+        {
+          step: "08",
+          title: "Submit Application & Attend Executive Interview",
+          desc: "Submit your formal dossier and participate in an in-depth evaluative interview with the Academic Dean and admissions panel."
+        },
+        {
+          step: "09",
+          title: "Accept Offer & Plan Financing Logistics",
+          desc: "Confirm your admission seat, structure installment payments or corporate sponsorship agreements, and arrange visa documentation."
+        },
+        {
+          step: "10",
+          title: "Executive Matriculation & Leadership Retreat",
+          desc: "Join your executive peer group for an opening orientation retreat, diagnostic leadership assessment, and first module delivery."
+        }
+      ]
+    },
+    {
+      slot: "details",
+      eyebrow: "Executive Career Acceleration",
+      title: "Executive Career Opportunities, Promotions and Salary Expectations",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "An Executive MBA from a reputable German business school delivers measurable career acceleration. Alumni frequently advance to C-level management, senior vice presidency, board directorships, or launch successful entrepreneurial ventures.",
+            "Typical executive positions and compensation benchmarks in Germany and Europe:"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "**Senior Director / Business Unit Head:** €95,000 - €125,000 / year",
+            "**Vice President of Operations / Supply Chain:** €110,000 - €145,000 / year",
+            "**Chief Technology Officer (CTO) / Digital Officer:** €120,000 - €160,000 / year",
+            "**Chief Financial Officer (CFO) / Finance Director:** €125,000 - €170,000 / year",
+            "**Partner / Principal (Strategy & Management Consulting):** €130,000 - €190,000+ / year",
+            "**Chief Executive Officer (CEO) / Managing Director (Geschäftsführer):** €140,000 - €220,000+ / year",
+            "**Startup Founder / Equity Partner:** Significant equity participation plus executive drawing"
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "International professionals completing an on-campus degree in Germany are eligible for an **18-month post-study work visa** (Aufenthaltserlaubnis zur Arbeitsplatzsuche), qualifying rapidly for an **EU Blue Card** and expedited permanent residency."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "documents",
+      eyebrow: "Required Documentation",
+      title: "Document Checklist for German Executive MBA Admission and Visa",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Prepare your executive application portfolio according to business school guidelines:"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "**Valid Passport:** Machine-readable passport with minimum 12 months validity.",
+            "**APS Certificate:** Mandatory evaluation certificate from APS India.",
+            "**Bachelor's Degree Certificate & Official Transcripts:** Verified academic credentials and marksheets.",
+            "**Executive Curriculum Vitae (CV):** Chronological leadership resume detailing managerial responsibilities, direct reports, and budget ownership.",
+            "**Proof of Substantial Work Experience:** Official service certificates and employer verification letters demonstrating 5+ years of career progression.",
+            "**Executive Essays & Statement of Purpose:** Detailed essays answering institutional prompts on leadership challenges and strategic ambitions.",
+            "**Letters of Recommendation:** 2 executive letters from senior executives, board members, or corporate sponsors.",
+            "**Executive Assessment (EA) / GMAT Scorecard:** Official score report (if requested by the institution).",
+            "**English Proficiency Verification:** Official IELTS/TOEFL scores or documented proof of corporate English working fluency.",
+            "**Official Admission Letter (Zulassungsbescheid):** Confirming enrollment in the Executive MBA program.",
+            "**Proof of Financial Means / Sponsorship:** Corporate sponsorship guarantee letter or personal financial documentation.",
+            "**Proof of Health Insurance:** Statutory or certified international private health insurance."
           ]
         }
       ]
     }
   ],
-  "faqs": []
+  faqs: [
+    {
+      q: "In Germany, who should get an Executive MBA?",
+      a: "The Executive MBA is designed for experienced working professionals, senior managers, technical directors, and entrepreneurs (typically with 5 to 10+ years of professional experience) seeking to enhance strategic decision-making, elevate leadership skills, and transition into C-suite or board-level executive roles."
+    },
+    {
+      q: "How long does an executive MBA program in Germany last?",
+      a: "Most Executive MBA programs in Germany require 12 to 24 months to complete. They are structured in part-time or modular blocks (e.g., one extended weekend per month or 1-week quarterly modules), allowing professionals to continue working full-time while studying."
+    },
+    {
+      q: "Is it feasible to complete a free executive MBA program in Germany?",
+      a: "No. Unlike consecutive master's degrees that are tuition-free at public universities, Executive MBA programs are specialized premium post-experience courses that charge tuition fees ranging from €25,000 to €65,000. However, many candidates receive partial or full corporate employer sponsorship, and tuition fees are often fully tax-deductible in Germany."
+    },
+    {
+      q: "Does an Executive MBA require work experience?",
+      a: "Yes. Extensive professional work experience is a mandatory prerequisite for all German Executive MBA programs. Candidates must typically possess at least 5 years of post-graduation work experience, including a minimum of 2 to 3 years with verifiable managerial, team, or budgetary responsibilities."
+    },
+    {
+      q: "Can an Executive MBA help you advance your career in Germany?",
+      a: "Yes. An Executive MBA significantly enhances career trajectory by expanding strategic management expertise, building an influential cross-industry peer network, and granting access to elite corporate recruiters. Graduates frequently transition to executive directorships, VP positions, and C-suite roles."
+    },
+    {
+      q: "How can Edu-Hawk Worldwide Consultancy help me study an Executive MBA in Germany?",
+      a: "Edu-Hawk Worldwide Consultancy provides dedicated executive advisory services, including leadership profile evaluation, business school shortlisting, corporate sponsorship proposal assistance, Statement of Purpose refinement, interview coaching, and seamless student visa application handling."
+    }
+  ]
 };
 
 export default function ExecutiveMBAGermanyPage() {
@@ -345,23 +326,33 @@ export default function ExecutiveMBAGermanyPage() {
     side: sideImg,
     ctaBg: ctaBgImg,
     universities: [
-    {
-      name: "Mannheim Business School      Offers executive management and an MBA.",
-      img: uniImg1,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "The Frankfurt School of Finance & Management      renowned for its programs in corporate management, leadership and finance.",
-      img: uniImg2,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "HHL Leipzig Graduate School of Management",
-      img: uniImg3,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    }
+      {
+        name: "Mannheim Business School",
+        img: uniImg1,
+        desc: "Germany's top-ranked business school holding triple-crown accreditation, offering world-class modular executive MBA programs."
+      },
+      {
+        name: "The Frankfurt School of Finance & Management",
+        img: uniImg2,
+        desc: "Leading European business school in Frankfurt's financial center, renowned for corporate leadership and financial management."
+      },
+      {
+        name: "HHL Leipzig Graduate School of Management",
+        img: uniImg3,
+        desc: "Pioneer in German management education with modular executive tracks emphasizing entrepreneurial leadership."
+      }
     ]
   };
 
-  return <AbroadCoursePage page={page} images={images} />;
+  return (
+    <AbroadCoursePage
+      page={page}
+      images={images}
+      heroImg={heroImg}
+      heroBgImg={heroBgImg}
+      sideImg={sideImg}
+      ctaBgImg={ctaBgImg}
+      seoPath={page.slug}
+    />
+  );
 }

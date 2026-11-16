@@ -22,9 +22,7 @@ const page = {
   "keywords": "Study BEng Electronics & Communication Engineering in the UK, BEng Electronics & Communication Engineering in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Study Electronics and Communication Engineering in UK",
   "heroParas": [
-    "Electronic circuit design, communication systems, signal processing, digital technology, and wireless communication are all combined in Electronics and Communication Engineering (ECE). It focuses on creating the technologies that make it possible for systems and devices to effectively interact and process information.",
-    "Electronic Engineering, Electronic and Electrical Engineering, Electronic and Computer Engineering, and Electronic and Information Engineering are among the undergraduate programs in ECE-related disciplines offered in the United Kingdom.",
-    "A foundation for jobs in electronics, telecommunications, semiconductor technologies, linked devices, robotics, and digital infrastructure can be established for Indian students by studying ECE-related disciplines in the UK."
+    "Electronic circuit design, communication systems, signal processing, digital technology, and wireless communication are all combined in Electronics and Communication Engineering (ECE). It focuses on creating the technologies that make it possible for systems and devices to effectively interact and process information."
   ],
   "overview": [
     "Electronic circuit design, communication systems, signal processing, digital technology, and wireless communication are all combined in Electronics and Communication Engineering (ECE). It focuses on creating the technologies that make it possible for systems and devices to effectively interact and process information.",

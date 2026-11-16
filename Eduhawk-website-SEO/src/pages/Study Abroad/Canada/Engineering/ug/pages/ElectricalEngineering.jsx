@@ -20,8 +20,7 @@ const page = {
   "keywords": "Study Electrical Engineering - UG in Canada, Electrical Engineering - UG in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Study Electrical Engineering in Canada",
   "heroParas": [
-    "Canada attracts foreign students who want to study electrical engineering.",
-    "Electrical systems, electronics, power generation, renewable energy, automation, and telecommunications are among the engineering programs offered in the nation. Undergraduate programs integrate engineering principles and mathematical ideas with hands-on lab work, design projects, and industry experience possibilities."
+    "Canada attracts foreign students who want to study electrical engineering."
   ],
   "overview": [
     "Canada attracts foreign students who want to study electrical engineering.",

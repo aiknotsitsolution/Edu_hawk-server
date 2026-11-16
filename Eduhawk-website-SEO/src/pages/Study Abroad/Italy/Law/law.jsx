@@ -16,12 +16,12 @@ const page = {
   "slug": "law",
   "title": "Law in Italy for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Law in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
-  "keywords": "Top 6 SEO Keywords",
+  "keywords": "Law in Italy, Study Law in Italy, Master of Laws in Italy, LLM in Italy for Indian Students, Law Universities in Italy",
   "introTitle": "Students' Law in Italy India",
-  "heroParas": [
-    "Yes. There are programs such as the Comparative, European and International Legal Studies degree of the University of Trento and the Global Law and Transnational Legal Studies degree of the University of Turin."
+  heroParas: [
+    "Studying Law in Italy connects students with the historical cradle of European jurisprudence, modern transnational legal frameworks, and international human rights law across Europe's oldest law faculties."
   ],
-  "overview": [
+  overview: [
     "Yes. There are programs such as the Comparative, European and International Legal Studies degree of the University of Trento and the Global Law and Transnational Legal Studies degree of the University of Turin."
   ],
   "level": "Undergraduate & Postgraduate",
@@ -145,19 +145,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Depending on the degree and professional requirements, graduates may pursue legal research, corporate compliance, contract management, policy research, international business support or further legal education.",
-            "Top 6 SEO Keywords"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Law in Italy for Indian Students",
-            "Law Courses in Italy",
-            "Best Universities for Law in Italy",
-            "Law Eligibility in Italy",
-            "Law Admission Requirements in Italy",
-            "Cost of Studying Law in Italy"
+            "Depending on the degree and professional requirements, graduates may pursue legal research, corporate compliance, contract management, policy research, international business support or further legal education."
           ]
         }
       ]
@@ -168,19 +156,30 @@ const page = {
       "title": "Applying for law in Italy",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Your legal path is your choice: Decide whether you want a general Law degree or a specialization in international, European or comparative law.",
-            "Shortlist universities: Compare program language, length, curriculum, admission requirements, career outcomes.",
-            "Check eligibility: Verify academic qualifications, language proficiency, entrance tests, and application deadlines.",
-            "Prepare documents: Gather certificates, transcripts, passport details and motivation letter or CV if required.",
-            "Send your application in: Apply on the university's official platform and undergo any admission test or selection procedure.",
-            "Get your admission decision: Follow the instructions to accept your offer and complete your enrollment.",
-            "Complete visa formalities 1. Follow procedures for Italian student-visa and pre-enrolment, where applicable.",
-            "Get ready to enroll: Book accommodation, insurance, travel and any other university requirements.",
-            "Deadline varies by university and applicant category. International applicants should begin preparing far ahead."
-          ]
-        }
+        "t": "timeline",
+        "items": [
+                {
+                        "step": "1",
+                        "title": "Check Eligibility",
+                        "desc": "Verify academic qualifications, language proficiency, entrance tests, and application deadlines."
+                },
+                {
+                        "step": "2",
+                        "title": "Get Your Admission Decision",
+                        "desc": "Follow the instructions to accept your offer and complete your enrollment."
+                },
+                {
+                        "step": "3",
+                        "title": "Complete Visa Formalities 1",
+                        "desc": "Follow procedures for Italian student-visa and pre-enrolment, where applicable."
+                },
+                {
+                        "step": "4",
+                        "title": "Get Ready To Enroll",
+                        "desc": "Book accommodation, insurance, travel and any other university requirements."
+                }
+        ]
+}
       ]
     },
     {
@@ -253,7 +252,34 @@ const page = {
         }
       ]
     }
-  ]
+  ],
+  faqs: [
+    {
+        "q": "Are English-taught Law programmes available in Italy for international students?",
+        "a": "Yes. Universities such as the University of Trento, University of Turin, and Bocconi offer English-taught degrees in Comparative, European, and International Legal Studies."
+    },
+    {
+        "q": "What is the duration of law degrees in Italy?",
+        "a": "Undergraduate law bachelor's degrees take 3 years (180 ECTS), while single-cycle law degrees (Laurea Magistrale a Ciclo Unico in Giurisprudenza) take 5 years (300 ECTS). LLM programmes take 1 year."
+    },
+    {
+        "q": "What are the tuition costs for studying Law in Italy?",
+        "a": "Public university tuition ranges from €1,000 to €4,000 per year, and can be fully covered through regional DSU scholarships."
+    },
+    {
+        "q": "What are the admission requirements for Indian students?",
+        "a": "Applicants need recognized academic transcripts (Class 12 for bachelor's, LLB for LLM), a statement of purpose, and English language certification (IELTS 6.5+)."
+    },
+    {
+        "q": "Can graduates practice law in Italy and Europe?",
+        "a": "Graduates of the 5-year Italian law degree can qualify for the Italian Bar examination (Esame di Stato per Avvocato), while comparative law graduates work in international organizations and corporate legal departments."
+    },
+    {
+        "q": "What career opportunities are available after studying law in Italy?",
+        "a": "Graduates pursue careers in international law firms, multinational corporate compliance, European Union agencies, and international NGOs."
+    }
+],
+  faqTitle: "Frequently Asked Questions About Law in Italy"
 };
 
 export default function LawItaly() {

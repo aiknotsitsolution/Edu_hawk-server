@@ -13,325 +13,383 @@ import uniImg2 from "../../../../../../Images/Abroad/Ireland/Engineering_PG/Mech
 import uniImg3 from "../../../../../../Images/Abroad/Ireland/Engineering_PG/Mechanical/Trinity_College_Dublin_3.webp";
 
 const page = {
-  "name": "Mechanical Engineering (PG) in Ireland",
-  "country": "Ireland",
-  "slug": "pg/mechanical-engineering",
-  "title": "Study Mechanical Engineering (PG) in Ireland for Indian Students | Edu-Hawk Worldwide",
-  "description": "Complete guide to Mechanical Engineering (PG) in Ireland for Indian students: Top Irish universities, eligibility criteria, tuition fees (€13,500 – €28,640 / year), scholarships, and 2-year post-study work visa (Stamp 1G).",
-  "keywords": "Study Mechanical Engineering PG in Ireland for Indian Students, Top Universities for Mechanical Engineering Master's in Ireland, MSc Mechanical Engineering Courses in Ireland, ME and MEng Mechanical Engineering Programmes in Ireland, Postgraduate Mechanical Engineering Specialisations in Ireland, Mechanical Engineering PG Eligibility Requirements in Ireland, Admission Requirements for Mechanical Engineering Master's in Ireland, Cost of Living for Mechanical Engineering Students in Ireland, Mechanical Engineering Master's Fees in Ireland 2026/27, Mechanical Engineering Research and Dissertation Opportunities in Ireland",
-  "introTitle": "MECHANICAL ENGINEERING PG IN IRELAND",
-  "heroParas": [
-    "Mechanical Engineering PG in Ireland"
+  name: "Mechanical Engineering (PG) in Ireland",
+  country: "Ireland",
+  slug: "study-abroad/ireland/pg/mechanical-engineering",
+  title: "Study Mechanical Engineering (PG) in Ireland for Indian Students | EduHawk",
+  description: "Complete guide to Master's in Mechanical Engineering in Ireland: Top universities (Trinity, Galway, UCD), eligibility, tuition fees (€25,000 – €28,640/yr), salaries, and 2-year Stamp 1G work visa.",
+  keywords: "Study Mechanical Engineering PG in Ireland for Indian Students, Top Universities for Mechanical Engineering Master's in Ireland, MSc Mechanical Engineering Courses in Ireland, ME and MEng Mechanical Engineering Programmes in Ireland, Postgraduate Mechanical Engineering Specialisations in Ireland, Mechanical Engineering PG Eligibility Requirements in Ireland, Admission Requirements for Mechanical Engineering Master's in Ireland, Cost of Living for Mechanical Engineering Students in Ireland, Mechanical Engineering Master's Fees in Ireland 2026/27, Mechanical Engineering Research and Dissertation Opportunities in Ireland",
+  introTitle: "MECHANICAL ENGINEERING PG IN IRELAND",
+  heroParas: [
+    "Mechanical Engineering in Ireland offers world-class 1-year postgraduate programs (MSc, MEng, ME) integrating advanced thermofluids, finite element simulation, robotics, renewable energy systems, and advanced manufacturing automation. Taught at premier research faculties including Trinity College Dublin, the University of Galway, and University College Dublin, these NFQ Level 9 Master's programs offer non-EU tuition from €25,000 to €28,640 per year, Engineers Ireland Washington Accord accreditation, and a 2-year post-study graduate work visa under the Third Level Graduate Scheme (Stamp 1G)."
   ],
-  "overview": [
-    "Mechanical Engineering PG in Ireland"
+  overview: [
+    "Ireland offers an outstanding environment for advanced mechanical engineering study, propelled by its multi-billion-euro medical device manufacturing, pharmaceutical processing, renewable energy, and industrial automation sectors. An engineering Master's degree in Ireland enables graduates to advance from foundational engineering theory to high-level system optimization, computational modeling, and innovation management.",
+    "Postgraduate mechanical engineering awards in Ireland are predominantly offered as 1-year Master of Science (MSc in Mechanical Engineering) or 1- to 2-year professional Master of Engineering (ME or MEng in Mechanical Engineering), rated at NFQ Level 9 (90 ECTS). The programs combine intensive modular coursework with advanced computational modeling and a substantial individual research thesis or industrial design capstone project.",
+    "Specialization tracks encompass advanced product design, computational fluid dynamics (CFD), finite element analysis (FEA), materials science and composite metallurgy, robotics and autonomous automation, thermofluids, and zero-carbon energy technologies. Students benefit from access to world-renowned national research centers such as I-Form (Advanced Manufacturing Research Centre) and AMBER (Materials Science).",
+    "Qualifications accredited by Engineers Ireland satisfy the educational benchmark for Chartered Engineer (CEng) status under the international Washington Accord, ensuring full reciprocal recognition across India, the UK, USA, Australia, and Canada. EduHawk Worldwide provides dedicated counseling for mechanical engineering applicants—from curriculum matching and transcript assessments to SOP guidance and Irish student visa (Stamp 2) filing."
   ],
-  "level": "Master of Science (MSc) & Master of Engineering (MEng) in Mechanical Engineering",
-  "crumb": "Engineering / Mechanical Engineering (PG)",
-  "stats": [
+  level: "Master of Science (MSc) & Master of Engineering (MEng / ME) in Mechanical Engineering (NFQ Level 9)",
+  crumb: "Engineering / Mechanical Engineering (PG)",
+  stats: [
     {
-      "label": "Degree Choices",
-      "value": "Master of Science (MSc) & Master of Engineering (MEng) in Mechanical Engineering"
+      label: "Course Duration",
+      value: "1 Year Full-Time (90 ECTS)"
     },
     {
-      "label": "Course Duration",
-      "value": "1 to 2 Years (Full-Time)"
+      label: "Industrial Hub",
+      value: "Advanced Manufacturing & MedTech"
     },
     {
-      "label": "Top Institutions",
-      "value": "Trinity College Dublin, Trinity College Dublin"
+      label: "Tuition Range",
+      value: "€25,000 – €28,640 / Year"
     },
     {
-      "label": "Post-Study Work",
-      "value": "2 Years Third Level Graduate Scheme (Stamp 1G)"
+      label: "Post-Study Work",
+      value: "2 Years (Stamp 1G Graduate Visa)"
     }
   ],
-  "sections": [
+  sections: [
     {
-      "slot": "why",
-      "eyebrow": "Why Study in Ireland",
-      "title": "1. University of Galway - The MSc is designed for engineering graduates who wish to gain advanced technical knowledge and research experience. The university also runs a ME in Mechanical Engineering, a separate postgraduate program with a different credit structure",
-      "groups": [
+      slot: "why",
+      eyebrow: "Why Study in Ireland",
+      title: "Why Study Postgraduate Mechanical Engineering in Ireland?",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Detailed information on Why Study in Ireland will be provided during personalized counseling with Edu-Hawk Worldwide."
+          t: "p",
+          items: [
+            "With Ireland anchoring thousands of multinational manufacturing facilities and leading research centers in sustainable energy and advanced materials, postgraduate study offers distinctive strategic advantages:"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "Advanced Technical Specializations: Intensive tracks in robotics, advanced manufacturing, mechanical design, computational thermofluids, and low-carbon energy systems.",
+            "World-Class Industrial & Research Labs: Hands-on access to advanced rapid prototyping centers, CNC machine halls, materials characterization suites, and high-performance computing clusters.",
+            "High Industry Recruitment: Direct employment pipelines to multinational medical device creators, pharmaceutical plant operators, automotive developers, and engineering consultancies.",
+            "Direct Chartered Engineer (CEng) Alignment: Accredited Level 9 MEng programs fulfill the complete academic requirement for Chartered Engineer status under Engineers Ireland and the Washington Accord.",
+            "2-Year Graduate Visa (Stamp 1G): Level 9 Master's graduates qualify for 24 months of unrestricted full-time employment rights in Ireland, providing a direct bridge to Critical Skills Employment Permits."
           ]
         }
       ]
     },
     {
-      "slot": "courses",
-      "eyebrow": "Degrees & Programs",
-      "title": "2. Mechanical Engineering PG Course Ireland",
-      "groups": [
+      slot: "courses",
+      eyebrow: "Degrees & Programs",
+      title: "Mechanical Engineering Postgraduate Curriculum Disciplines",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Detailed information on Degrees & Programs will be provided during personalized counseling with Edu-Hawk Worldwide."
+          t: "p",
+          items: [
+            "Postgraduate mechanical engineering programs combine advanced analytical mechanics with computer-aided engineering and sustainable energy technologies:",
+            "Key Focus Modules Covered:"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "Advanced Mechanical Design & Computer-Aided Engineering (CAD / CAE)",
+            "Finite Element Analysis (FEA) & Computational Continuum Mechanics",
+            "Advanced Fluid Dynamics, Turbulence Modeling & Heat Transfer (CFD)",
+            "Materials Science, Advanced Metallurgy & Aerospace Composites",
+            "Robotics, Autonomous Systems & Industrial Automation Engineering",
+            "Advanced Manufacturing Processes, 3D Printing & Industry 4.0",
+            "Renewable Energy Systems, Turbomachinery & Low-Carbon Transport",
+            "Engineering Project Delivery, Lean Operations & Risk Management",
+            "Independent Capstone Research Thesis or Industrial Design Project"
           ]
         }
       ]
     },
     {
-      "slot": "universities",
-      "eyebrow": "Top Institutions",
-      "title": "3. Why studying a pg program in Mechanical Engineering in Ireland?",
-      "unis": [
+      slot: "universities",
+      eyebrow: "Top Institutions",
+      title: "Top Universities for Postgraduate Mechanical Engineering in Ireland",
+      groups: [
         {
-          "name": "Trinity College Dublin",
-          "desc": "2\\. Trinity College, Dublin - If you’re interested in mechanical engineering combined with the energy transition and low carbon technologies then this is the option for you.",
-          "imgKey": "uniImg_Trinity_College_Dublin_webp",
-          "imgIdentifier": "uniImg1",
-          "city": "Dublin, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg1
+          t: "p",
+          items: [
+            "The following premier Irish universities provide world-class postgraduate programs in mechanical, manufacturing, and energy systems engineering:"
+          ]
+        }
+      ],
+      unis: [
+        {
+          name: "Trinity College Dublin (TCD)",
+          city: "Dublin",
+          state: "Leinster",
+          desc: "Offers the premier MSc in Mechanical Engineering with a specialized Zero-Carbon Technology pathway. World-renowned for sustainable transport, thermal fluid mechanics, and materials research (€27,780/yr).",
+          img: uniImg1
         },
         {
-          "name": "Trinity College Dublin",
-          "desc": "2\\. Trinity College, Dublin - If you’re interested in mechanical engineering combined with the energy transition and low carbon technologies then this is the option for you.",
-          "imgKey": "uniImg_Trinity_College_Dublin_2_webp",
-          "imgIdentifier": "uniImg2",
-          "city": "Dublin, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg2
+          name: "University of Galway",
+          city: "Galway",
+          state: "Connacht",
+          desc: "Offers distinct MSc and ME programs in Mechanical Engineering. Features cutting-edge manufacturing automation and biomechanical simulation laboratories with non-EU tuition of €28,640/year.",
+          img: uniImg2
         },
         {
-          "name": "Trinity College Dublin",
-          "desc": "2\\. Trinity College, Dublin - If you’re interested in mechanical engineering combined with the energy transition and low carbon technologies then this is the option for you.",
-          "imgKey": "uniImg_Trinity_College_Dublin_3_webp",
-          "imgIdentifier": "uniImg3",
-          "city": "Dublin, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg3
+          name: "University College Dublin (UCD)",
+          city: "Dublin",
+          state: "Leinster",
+          desc: "Renowned for its MEng in Mechanical Engineering. Houses advanced rapid prototyping and additive manufacturing research suites at the I-Form advanced manufacturing center.",
+          img: uniImg3
         }
       ]
     },
     {
-      "slot": "eligibility",
-      "eyebrow": "Admissions Criteria",
-      "title": "4. Eligibility to Study Mechanical Engineering PG in Ireland",
-      "groups": [
+      slot: "eligibility",
+      eyebrow: "Admissions Criteria",
+      title: "Eligibility Criteria & Admission Requirements",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Generally, applicants will need a recognized bachelor’s degree in Mechanical Engineering or closely related engineering discipline.",
-            "Some common eligibility requirements include:"
+          t: "p",
+          items: [
+            "Postgraduate mechanical engineering admissions evaluate an applicant's undergraduate mathematical, thermodynamic, and mechanical design foundations.",
+            "Academic Entry Requirements for Indian Applicants:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "- Undergraduate degree - BE, BTech or equivalent",
-            "Engineering background relevant.",
-            "Academic performance to the required level for honors classification or equivalent of university.",
-            "Bachelor education in mathematics, mechanics, thermodynamics, materials or related engineering subjects.",
-            "English language proficiency, as needed"
+          t: "ul",
+          items: [
+            "Undergraduate Degree: Recognized 4-year Bachelor's degree (BE or BTech) in Mechanical Engineering or closely related discipline.",
+            "Academic Standing: Minimum Upper Second Class Honours equivalent (typically 60% to 65%+ aggregate, or 6.5 to 7.0+ CGPA out of 10 from a recognized university).",
+            "Foundational Pre-requisites: Solid undergraduate coursework in engineering mathematics, mechanics of solids, thermodynamics, fluid dynamics, and materials science.",
+            "Related Engineering Disciplines: Applicants from Automobile, Aerospace, Manufacturing, Production, or Mechatronics Engineering are eligible and evaluated based on relevant module coverage."
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Indian students' eligibility",
-            "“Indian applicants are generally assessed on the basis of their bachelor’s degree, CGPA or percentage, university recognition, duration of the course and subject matter.",
-            "The most direct route is a BE or BTech in Mechanical Engineering.",
-            "Applicants from Automobile, Aerospace, Manufacturing or Mechatronics Engineering may also be considered, subject to the program."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "requirements",
-      "eyebrow": "Entry Requirements",
-      "title": "5. Admission Requirements for Mechanical Engineering PG in Ireland",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Education Requirements",
-            "Typically, universities will ask for:"
+          t: "p",
+          items: [
+            "English Language Competency Standards:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Bachelor’s Degree Certificate or Provisional Certificate.",
-            "Official transcripts of your academic record.",
-            "Information on overall marks, CGPA and grading system.",
-            "Information on relevant courses/projects if asked.",
-            "Proof of relevant work experience, if applicable"
+          t: "ul",
+          items: [
+            "IELTS Academic: Overall band 6.5 (with no individual band below 6.0).",
+            "TOEFL iBT: Minimum total score of 88 to 92 (sub-scores 20+).",
+            "PTE Academic: Overall score of 63 to 65 (minimum 59 in communicative skills)."
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "English language requirements",
-            "International students may need to submit IELTS Academic, TOEFL iBT, PTE Academic or an equivalent qualification.",
-            "The standard benchmark for many postgraduate programs is an IELTS score of around 6.5 overall, with varying minimum and individual scores, depending on the institution and course. You might be exempt from certain rules.",
-            "Other Requirements",
-            "Applicants may also be required to (varies by programme):"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Purpose statement.",
-            "References of academic or professional nature.",
-            "Curriculum Vitae (CV) or résumé.",
-            "Information on research, design projects or internships.",
-            "Research proposal for a research degree.",
-            "Application fee payment."
+          t: "p",
+          items: [
+            "Required Application Documents:",
+            "• Consolidated Bachelor's degree certificate and semester mark sheets",
+            "• Valid international passport with at least 12 months validity",
+            "• Technical Statement of Purpose (SOP) articulating passion for mechanical design, thermofluids, or advanced manufacturing",
+            "• Two academic or professional letters of recommendation",
+            "• Comprehensive CV detailing software/simulation skills (SolidWorks, ANSYS, MATLAB, Abaqus, CATIA) and engineering internships"
           ]
         }
       ]
     },
     {
-      "slot": "tuition",
-      "eyebrow": "Tuition & Living Costs",
-      "title": "6. Cost of Doing Mechanical Engineering PG in Ireland",
-      "groups": [
+      slot: "costs",
+      eyebrow: "Tuition & Living Costs",
+      title: "Tuition Fees & Estimated Student Budget (2026–2027)",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Mechanical Engineering in Ireland cost depends on the university, program, accommodation and personal spending.",
-            "Separate budgets are needed for tuition and living costs for international students.",
-            "Rough annual budget",
-            "Tuition fees* \\| €25,000–€30,000+"
+          t: "p",
+          items: [
+            "Tuition fees for international non-EU postgraduate students for mechanical engineering Master's programs for the 2026/27 academic year include:"
+          ]
+        }
+      ],
+      table: {
+        caption: "Mechanical Engineering PG Tuition Fees & Living Costs in Ireland (2026–2027)",
+        headers: ["Expense Category", "Estimated Cost", "Key Details & Notes"],
+        rows: [
+          [
+            "Trinity College Dublin (TCD)",
+            "€27,780 / year",
+            "MSc Mechanical Engineering (full-time 1-year non-EU tuition)"
+          ],
+          [
+            "University of Galway (MSc / ME Mechanical)",
+            "€28,640 / year",
+            "Full-time non-EU fee (includes listed university student levy)"
+          ],
+          [
+            "University College Dublin (UCD)",
+            "€27,500 – €29,500 / year",
+            "MEng in Mechanical Engineering programs"
+          ],
+          [
+            "Student Housing (Dublin)",
+            "€800 – €1,250 / month",
+            "On-campus student accommodation or private shared rental flats"
+          ],
+          [
+            "Student Housing (Galway)",
+            "€650 – €950 / month",
+            "Significantly more affordable housing outside the capital"
+          ],
+          [
+            "Food, Transit & Study Supplies",
+            "€350 – €500 / month",
+            "Groceries, heating, electricity, WiFi, and Student Leap Card"
+          ],
+          [
+            "IRP Card & Medical Insurance",
+            "€300 (IRP) + €180 – €300 (Insurance)",
+            "Mandatory annual immigration registration and private health coverage"
+          ]
+        ]
+      }
+    },
+    {
+      slot: "process",
+      eyebrow: "Step-by-Step Guide",
+      title: "Application & Visa Roadmap for Ireland",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Follow this structured 8-step roadmap to secure admission and your student visa for postgraduate Mechanical Engineering in Ireland:"
+          ]
+        }
+      ],
+      steps: [
+        {
+          num: "1",
+          title: "Select Specialization Pathway",
+          desc: "Choose between mechanical design, thermofluids, robotics, or zero-carbon energy across Trinity, Galway, and UCD."
+        },
+        {
+          num: "2",
+          title: "Verify Academic Eligibility",
+          desc: "Confirm your Bachelor's aggregate (minimum 60–65%) and satisfy English language test requirements (IELTS 6.5 with no band under 6.0)."
+        },
+        {
+          num: "3",
+          title: "Assemble Application Files",
+          desc: "Compile official degree transcripts, degree certificates, a tailored technical SOP, academic recommendation letters, and technical CV."
+        },
+        {
+          num: "4",
+          title: "Submit Online Applications",
+          desc: "Apply directly through individual university postgraduate portals early (applications open October to May for September start)."
+        },
+        {
+          num: "5",
+          title: "Accept Offer & Pay Deposit",
+          desc: "Upon receiving your conditional or unconditional offer, accept your seat and wire the required tuition deposit to secure enrollment."
+        },
+        {
+          num: "6",
+          title: "Demonstrate Proof of Funds",
+          desc: "Demonstrate readily available funding of at least €10,000 for living costs plus evidence of full first-year tuition fee settlement."
+        },
+        {
+          num: "7",
+          title: "Apply for Irish Student Visa (Stamp 2)",
+          desc: "Complete your online AVATS visa application, schedule your biometric appointment at VFS Global, and submit authenticated financial records."
+        },
+        {
+          num: "8",
+          title: "Relocate & Register with Immigration",
+          desc: "Travel to Ireland for campus orientation, finalize student accommodation, and book an appointment with immigration for your Irish Residence Permit (IRP)."
+        }
+      ]
+    },
+    {
+      slot: "accreditation",
+      eyebrow: "Professional Standards",
+      title: "Accreditation & Engineers Ireland Recognition",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Accreditation by Engineers Ireland certifies that a postgraduate curriculum satisfies international chartered engineering benchmarks.",
+            "Accreditation Benefits & Global Mobility:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Accommodation \\| €7,000-€14,000",
-            "Food & Groceries \\| €2,500 - €4,000",
-            "Transport \\| €600–€1,200",
-            "Books, insurance and personal expenses \\| €1,000–€2,500"
+          t: "ul",
+          items: [
+            "Chartered Engineer (CEng) Educational Benchmark: Level 9 MEng/ME programs fulfill the complete educational prerequisite for Chartered Engineer status.",
+            "Washington Accord Signatory: Confers full professional recognition in India (NBA), the UK (IMechE), USA (ASME/ABET), Australia, and Canada.",
+            "Industrial Benchmark: Leading manufacturing multinationals and engineering consultancies actively mandate Washington Accord accredited qualifications."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "careers",
+      eyebrow: "Career & Salaries",
+      title: "Career Opportunities & Post-Study Work Scheme in Ireland",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "With Ireland hosting Europe's most vibrant advanced manufacturing, medtech, and pharmaceutical plants, mechanical engineering Master's graduates enjoy immense recruitment demand across diverse industrial sectors.",
+            "Key Industry Roles for Mechanical Engineering Master's Graduates:"
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Total estimated \\| €36,100–€51,700+",
-            "These are estimates of the plan and not a guaranteed cost. Housing in Dublin can be expensive and actual costs will depend on availability of accommodation and lifestyle."
+          t: "ul",
+          items: [
+            "Mechanical Design & Prototyping Engineer (CAD / CAE)",
+            "Finite Element Analysis (FEA) & Structural Stress Specialist",
+            "Computational Fluid Dynamics (CFD) & Thermal Analyst",
+            "Advanced Manufacturing & Production Automation Engineer",
+            "Industrial Robotics & Automation Systems Engineer",
+            "Medical Device & Biomedical Mechanical Engineer",
+            "Energy & Sustainable HVAC Systems Engineer",
+            "R&D Mechanical Engineer in National & Industrial Research Centers"
           ]
-        }
-      ]
-    },
-    {
-      "slot": "process",
-      "eyebrow": "Application Steps",
-      "title": "7. PG Admission Process in Mechanical Engineering in Ireland",
-      "steps": [
+        },
         {
-          "step": "01",
-          "title": "International applicants should normally be able to follow these steps",
-          "desc": ""
-        }
-      ]
-    },
-    {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Recognition",
-      "title": "8. Accept your offer: Review the terms and conditions of your offer, deposit and tuition payment deadlines.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Detailed information on Accreditation & Recognition will be provided during personalized counseling with Edu-Hawk Worldwide."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Career Outcomes",
-      "title": "9. Secure accommodation and funding: Work out your living costs and find suitable accommodation.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Detailed information on Career Outcomes will be provided during personalized counseling with Edu-Hawk Worldwide."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Document Checklist",
-      "title": "10. Get the immigration paperwork sorted: Look up the current Irish student immigration requirements that applies to you.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Detailed information on Document Checklist will be provided during personalized counseling with Edu-Hawk Worldwide."
+          t: "p",
+          items: [
+            "Indicative Annual Gross Salaries in Ireland:",
+            "• Entry-Level Master's Graduate: €32,000 – €42,000 per year",
+            "• Experienced Mechanical Engineer (3–5 years experience): €42,000 – €65,000 per year",
+            "• Senior Specialist / Engineering Design Lead: €65,000 – €85,000+ per year",
+            "2-Year Graduate Visa (Stamp 1G): Graduates of NFQ Level 9 Master's programs are entitled to 24 months of full-time, unrestricted work rights in Ireland, providing a direct bridge to Critical Skills Employment Permits."
           ]
         }
       ]
     }
   ],
-  "table": {
-    "title": "Estimated Cost of Studying Mechanical Engineering (PG) in Ireland in Ireland (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (€ / EUR)",
-      "Details / Scope"
-    ],
-    "rows": [
-      [
-        "Undergraduate Degree (Annual)",
-        "€13,500 – €27,640 / year",
-        "Varies by institution ranking, laboratory facilities, and program"
-      ],
-      [
-        "Postgraduate Degree (Annual)",
-        "€15,000 – €28,640 / year",
-        "1-year intensive master's program or 2-year research degree"
-      ],
-      [
-        "Living Expenses (Dublin)",
-        "€1,000 – €1,400 / month",
-        "Includes student accommodation, meals, utilities, and public transit"
-      ],
-      [
-        "Living Expenses (Outside Dublin)",
-        "€800 – €1,100 / month",
-        "Cost of living in Cork, Galway, Limerick, or Maynooth"
-      ],
-      [
-        "Student Visa & IRP Card Fee",
-        "€300 / year",
-        "Mandatory Irish Residence Permit (IRP) registration fee"
-      ]
-    ]
-  },
-  "faqs": [
+  faqs: [
     {
-      "q": "1\\. What are the universities for Postgraduate Mechanical Engineering in Ireland?",
-      "a": "8\\. Mechanical Engineering Recognition and Accreditation in Ireland If you want to move toward professional engineering recognition then accreditation is important. In Ireland, Engineers Ireland accredits appropriate engineering programs to professional education standards. Accreditation is dependent on the specific qualification and program, and a postgraduate master's is not automatically accredited just because it is offered by a recognized university. Before you apply * Check the accreditation status of the specific course and award. * See which graduation years are represented. * Check whether your undergraduate qualification also satisfies the academic requirements for the professional pathway you wish to pursue. Know the difference between a *MSc, a ME / MEng and an accredited professional engineering qualification. * Check for any other recognition requirements in the country you want to work. 9\\. Salary and Job Scope after Mechanical Engineering PG in Ireland Mechanical Engineering graduates may work in design, manufacturing, energy, product development, automation, transport and research. Career opportunities depend on technical skills, experience, employer needs and market demand. Potential roles in the workplace * Mechanical Design Engineer * Manufacturing Engineer * Project Engineer * Quality Engineer * Robotics and Automation Engineer * Energy Engineer * Materials Engineer * Research and Development Engineer * Maintenance or Reliability Engineer Indicative gross salary ranges per year Entry level / Graduate Engineer Positions \\| €32,000 - €42,000 Experienced Engineers \\| €42,000 - €65,000 Senior / Specialist Engineers \\| €65k-€85k+ Indicative planning estimates only, not official salary bands or guaranteed outcomes. The actual salaries depend on the sector, the employer, the location, the technical specialization and the experience. 10\\. Documents Required for PG in Mechanical Engineering in Ireland The specific checklist differs by university but common requests are for: * Passport valid. * Certificate of Bachelor’s degree or provisional certificate. * Official transcripts of all semesters/years. * Explanation of grading scale or CGPA if requested. * English-language test results, if required. * An up-to-date CV or résumé. * Purpose statement or personal statement * Academic or work references. Information about relevant *projects, internships or work experience. * Research proposal for research-based programs, where applicable. * Receipt of payment of the application fee, if applicable. * Certified translations of documents not issued in an accepted language. Proof of financial means and health insurance* for immigration purposes where required. 11\\. FAQs about PG in Mechanical Engineering in Ireland Mechanical Engineering: ME, MSc - University of Galway Trinity College Dublin - Master’s Pathway in Mechanical Engineering , Also worth checking DCU and UCD for related postgraduate engineering programs and specializations."
+      q: "Is Ireland a good destination for a Master's in Mechanical Engineering?",
+      a: "Yes. Ireland is home to thousands of multinational manufacturing, medical technology, and pharmaceutical corporations. Master's students benefit from advanced CAD/CFD research laboratories, 1-year programs, Washington Accord accreditation, and a 2-year post-study work visa (Stamp 1G)."
     },
     {
-      "q": "2\\. What is the duration of Masters in Mechanical Engineering in Ireland?",
-      "a": "Taught master's programs are often one year full-time. Check the official course page for details. Some course structures, such as research degrees and others, may take longer"
+      q: "What universities offer postgraduate Mechanical Engineering courses in Ireland?",
+      a: "Leading universities include Trinity College Dublin (TCD) offering an MSc in Mechanical Engineering with a Zero-Carbon Technology pathway, the University of Galway offering MSc and ME in Mechanical Engineering, and University College Dublin (UCD)."
     },
     {
-      "q": "3\\. Can a BTech student of Automobile or Mechatronics Engineering apply?",
-      "a": "Perhaps. Some universities accept related engineering disciplines but this depends on the subject prerequisites for the course and your academic background. Please confirm with the admissions team that you are eligible before applying."
+      q: "What is the duration of a mechanical engineering Master's program in Ireland?",
+      a: "Most full-time taught Master's programs (MSc, MEng, ME) are 1 year in duration (90 ECTS credits), divided into two semesters of modular coursework and a summer technical research thesis or industrial design project."
     },
     {
-      "q": "4\\. What is the cost of PG Mechanical Engineering in Ireland?",
-      "a": "2026/27: University of Galway charges €28,640 for its MSc and ME Mechanical Engineering programs and Trinity College Dublin charges €27,780 for its Mechanical Engineering / Zero-Carbon Technology master's. Fees subject to change, living expenses are extra."
+      q: "What are the tuition fees for Mechanical Engineering Master's programs in Ireland?",
+      a: "For the 2026/27 academic year, non-EU tuition fees range from €25,000 to €28,640 per year depending on the university (e.g., €27,780 at Trinity College Dublin and €28,640 at the University of Galway). Living expenses average €10,000 to €15,000 annually."
     },
     {
-      "q": "How can Edu Hawk Worldwide Consultancy help me in studying abroad?",
-      "a": "Edu Hawk worldwide can help students to find suitable universities, understand admission requirements, organize application documents and plan their study-abroad journey. Students are responsible for checking academic, financial, immigration and licensing requirements with the appropriate official authorities."
+      q: "Can graduates from Automobile or Aerospace Engineering apply for Mechanical Engineering Master's?",
+      a: "Yes. Graduates holding a recognized 4-year BE or BTech in Automobile, Aerospace, Manufacturing, Production, or Mechatronics Engineering are eligible to apply, provided they meet the minimum 60–65% academic threshold and have strong foundations in mechanics, thermodynamics, and mathematics."
+    },
+    {
+      q: "How does EduHawk Worldwide assist students with mechanical engineering Master's admissions?",
+      a: "EduHawk Worldwide provides expert counseling—from evaluating academic transcripts and selecting specialized design or thermofluids tracks to SOP drafting, scholarship applications, and complete Irish student visa (AVATS) filing."
     }
   ]
 };
 
 export default function MechanicalEngineeringPGIreland() {
+  const images = {
+    hero: heroImg,
+    heroBg: heroBgImg,
+    side: sideImg,
+    ctaBg: ctaBgImg
+  };
+
   return (
     <AbroadCoursePage
       page={page}
@@ -339,8 +397,8 @@ export default function MechanicalEngineeringPGIreland() {
       heroBgImg={heroBgImg}
       sideImg={sideImg}
       ctaBgImg={ctaBgImg}
-      showHeroStats={false}
-      seoPath="/study-abroad/ireland/pg/mechanical-engineering"
+      seoPath={page.slug}
+      images={images}
     />
   );
 }

@@ -22,13 +22,10 @@ const page = {
   "keywords": "Study MSc Electrical Engineering in the UK, MSc Electrical Engineering in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Study Electrical Engineering (PG) in the United Kingdom",
   "heroParas": [
-    "International students pursuing postgraduate studies in Electrical Engineering frequently choose to study in the United Kingdom. Advanced programs that integrate engineering theory, practical applications, research, and industry-focused learning are available at UK universities.",
-    "The main advantages of studying electrical engineering in the UK",
-    "Obtain a postgraduate degree from a UK university that is recognized internationally."
+    "International students pursuing postgraduate studies in Electrical Engineering frequently choose to study in the United Kingdom. Advanced programs that integrate engineering theory, practical applications, research, and industry-focused learning are available at UK universities."
   ],
   "overview": [
     "International students pursuing postgraduate studies in Electrical Engineering frequently choose to study in the United Kingdom. Advanced programs that integrate engineering theory, practical applications, research, and industry-focused learning are available at UK universities.",
-    "The main advantages of studying electrical engineering in the UK",
     "Obtain a postgraduate degree from a UK university that is recognized internationally."
   ],
   "level": "MSc Electrical Engineering",

@@ -21,8 +21,22 @@ const page = {
   description: "Study Master of Business Administration (MBA) in Australia for Indian students. Learn about top MBA universities (Curtin, South Australia, La Trobe, ANU), eligibility, fees, and career outcomes.",
   keywords: "Study MBA in Australia for Indian Students Study MBA in Australia: Best Universities and Fees Study Master of Business Administration in Australia with Scholarships Study MBA in Australia Without GMAT Study MBA in Australia: Eligibility and Admission Requirements Study MBA in Australia with Work Experience Requirements Study MBA in Australia: Jobs and Career Opportunities Study MBA in Australia: IELTS Requirements and Student Visa",
   introTitle: "Indian students pursuing a Master of Business Administration (MBA) in Australia",
-  heroParas: ["A postgraduate business degree, the Master of Business Administration (MBA) is intended to foster management decision-making, strategic thinking, leadership, and business growth abilities. Professionals and graduates who wish to grow in their jobs, transition into management, change industries, or start their own enterprises can benefit from it, depending on the program.","Full-time, part-time, executive, and flexible study options are among the MBA programs offered by Australian universities. While some programs offer avenues for candidates with less work experience, others concentrate on seasoned experts."],
-  overview: ["Common Types of MBA Programs:","Master's degree in Business Administration","MBA program full-time","MBA for executives","Flexible or Online MBA","International MBA","MBA with a focus","MBA in Technology Management","MBA in International Business","Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities."],
+  heroParas: [
+    "A postgraduate business degree, the Master of Business Administration (MBA) is intended to foster management decision-making, strategic thinking, leadership, and business growth abilities. Professionals and graduates who wish to grow in their jobs, transition into management, change industries, or start their own enterprises can benefit from it, depending on the program."
+  ],
+  overview: [
+    "Full-time, part-time, executive, and flexible study options are among the MBA programs offered by Australian universities. While some programs offer avenues for candidates with less work experience, others concentrate on seasoned experts.",
+    "Common Types of MBA Programs:",
+    "Master's degree in Business Administration",
+    "MBA program full-time",
+    "MBA for executives",
+    "Flexible or Online MBA",
+    "International MBA",
+    "MBA with a focus",
+    "MBA in Technology Management",
+    "MBA in International Business",
+    "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities."
+  ],
   level: "Postgraduate",
   crumb: "Business & Management",
 

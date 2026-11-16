@@ -16,12 +16,12 @@ const page = {
   "slug": "winter_courses",
   "title": "Winter Courses in Italy for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Winter Courses in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
-  "keywords": "Top 6 SEO Keywords",
+  "keywords": "Winter Courses in Italy, Winter School in Italy, Short Term Winter Programs Italy, Winter Study Abroad Italy",
   "introTitle": "Winter Courses in Italy For Indian Students.",
-  "heroParas": [
-    "Winter courses are short-term academic or training programs given by universities and other institutions. Topics can be business, technology, culture, language, sustainability, or specialized research."
+  heroParas: [
+    "Winter Courses in Italy offer accelerated academic modules, cultural heritage explorations, and winter masterclasses across premier Italian academic institutions."
   ],
-  "overview": [
+  overview: [
     "Winter courses are short-term academic or training programs given by universities and other institutions. Topics can be business, technology, culture, language, sustainability, or specialized research."
   ],
   "level": "Short-term & Certificate",
@@ -145,19 +145,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "A winter course can give you academic exposure and help you explore a university or subject. However, it does not automatically qualify you for admission, transfer credits, scholarship or student visa for a degree program.",
-            "Top 6 SEO Keywords"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Winter Courses in Italy for Indian Students",
-            "Winter Schools in Italy",
-            "Best Universities for Winter Courses in Italy",
-            "Winter Course Eligibility in Italy",
-            "Winter Course Admission Requirements in Italy",
-            "Cost of Winter Courses in Italy"
+            "A winter course can give you academic exposure and help you explore a university or subject. However, it does not automatically qualify you for admission, transfer credits, scholarship or student visa for a degree program."
           ]
         }
       ]
@@ -198,37 +186,6 @@ const page = {
         {
           "t": "ul",
           "items": [
-            "Developing subject specific knowledge.",
-            "Enhancing intercultural communication.",
-            "Developing professional and educational networks.",
-            "Looking at possible postgraduate specializations.",
-            "Enhancing a CV with relevant short-term training.",
-            "Find out about Italian universities and international studies.",
-            "Hands-on projects and workshops to practice skills."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "A winter course does not automatically lead to a job, a place on a degree program or a professional qualification. Your career outcomes depend on your existing education, skills, experience and the requirements of the role."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "courses",
-      "eyebrow": "Degrees & Pathways",
-      "title": "Italy Winter Course Paperwork",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The exact checklist differs by institution. Common documents required for winter courses in Italy are:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
             "Passport valid to.",
             "Form filled in application.",
             "Academic certificates and transcripts.",
@@ -250,7 +207,34 @@ const page = {
         }
       ]
     }
-  ]
+  ],
+  faqs: [
+    {
+        "q": "What subjects are offered in Italian winter schools?",
+        "a": "Popular winter tracks include business innovation, sustainable tourism, Italian gastronomy, fashion design, and language immersion."
+    },
+    {
+        "q": "What is the duration of winter courses in Italy?",
+        "a": "Programmes generally span 1 to 4 weeks during the winter break between December and February."
+    },
+    {
+        "q": "What are the tuition fees for winter courses in Italy?",
+        "a": "Tuition ranges from €700 to €2,800 depending on the institution, course depth, and included cultural excursions."
+    },
+    {
+        "q": "Are winter courses taught in English?",
+        "a": "Yes. Almost all international winter schools are conducted entirely in English for global cohorts."
+    },
+    {
+        "q": "Do winter courses offer transferable credits?",
+        "a": "Yes. Accredited winter programs award between 2 and 6 ECTS credits based on classroom hours and evaluation."
+    },
+    {
+        "q": "What visa is required for a winter course in Italy?",
+        "a": "A Schengen Short-Stay Study Visa (Type C) is applicable for programmes lasting under 90 days."
+    }
+],
+  faqTitle: "Frequently Asked Questions About Winter Courses in Italy"
 };
 
 export default function WinterCoursesItaly() {

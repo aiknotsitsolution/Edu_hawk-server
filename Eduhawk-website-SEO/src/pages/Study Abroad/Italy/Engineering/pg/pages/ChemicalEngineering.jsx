@@ -18,10 +18,10 @@ const page = {
   "description": "Study Chemical Engineering - PG in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
   "keywords": "Study Chemical Engineering - PG in Italy, Chemical Engineering - PG in Italy for Indian Students, Best Universities in Italy, Cost of Studying in Italy",
   "introTitle": "Chemical Engineering in Italy for Students from India",
-  "heroParas": [
-    "Yes. Indian students can apply to eligible Italian universities with a relevant undergraduate qualification, provided they meet the academic, language and programme-specific requirements."
+  heroParas: [
+    "Postgraduate Chemical Engineering in Italy offers advanced education in sustainable process engineering, industrial materials, environmental technologies, and renewable biochemical systems at Europe's leading technical institutions."
   ],
-  "overview": [
+  overview: [
     "Yes. Indian students can apply to eligible Italian universities with a relevant undergraduate qualification, provided they meet the academic, language and programme-specific requirements."
   ],
   "level": "Postgraduate",
@@ -131,17 +131,35 @@ const page = {
       "title": "How to Apply for Chemical Engineering in Italy",
       "groups": [
         {
-          "t": "ul",
-          "items": [
-            "Pick your college and your major. Compare chemical engineering, process engineering, sustainable processes and related programs.",
-            "Verify your eligibility. Make sure that your bachelor's degree and subjects studied meet the entry requirements.",
-            "Get your papers ready. Gather your degree certificates, transcripts, language test results and other required documents.",
-            "Submit your application. Apply on the official university portal by the respective deadline.",
-            "Finish the academic assessment. Respond politely to requests for additional documentation or academic information.",
-            "Accept your offer of admission. Pay the tuition and follow the directions of the university for enrollment.",
-            "Complete pre-enrolment and visa procedures. Follow official requirements for international students and the Italian student visa process."
-          ]
-        },
+        "t": "timeline",
+        "items": [
+                {
+                        "step": "1",
+                        "title": "Pick Your College And Your Major",
+                        "desc": "Compare chemical engineering, process engineering, sustainable processes and related programs."
+                },
+                {
+                        "step": "2",
+                        "title": "Get Your Papers Ready",
+                        "desc": "Gather your degree certificates, transcripts, language test results and other required documents."
+                },
+                {
+                        "step": "3",
+                        "title": "Finish The Academic Assessment",
+                        "desc": "Respond politely to requests for additional documentation or academic information."
+                },
+                {
+                        "step": "4",
+                        "title": "Accept Your Offer Of Admission",
+                        "desc": "Pay the tuition and follow the directions of the university for enrollment."
+                },
+                {
+                        "step": "5",
+                        "title": "Step 5",
+                        "desc": "Complete pre-enrolment and visa procedures. Follow official requirements for international students and the Italian student visa process."
+                }
+        ]
+},
         {
           "t": "p",
           "items": [
@@ -180,43 +198,6 @@ const page = {
         {
           "t": "ul",
           "items": [
-            "Process Engineer (Chemical)",
-            "Process Engr.",
-            "Production Engg.",
-            "Research & Development Engineer",
-            "Pharmaceutical Process Engineer",
-            "Environmental Engineering Materials and Polymer Engineering Quality Assurance Engineering",
-            "Energy & Sustainability Engineer",
-            "Engineer - Operations Plant"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Indicative salary scales",
-            "Level of ExperienceGross yearly salary indicativeApproximate INR equivalents",
-            "Entry-level€28,000-€35,000₹30.41-₹38.01 lakh",
-            "Experienced€35,000 - €50,000₹ 38.01 - ₹ 54.30 lakh",
-            "Specialist or senior roles€50,000-€70,000+₹54.30-₹76.02 lakh+",
-            "These are sample estimates based on general data for career planning, not verified salary statistics or guarantyd earnings. Real salaries vary by location, employer, experience, specialization, language skills and work authorization. INR equivalents use €1 = Rs108.60."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Document Checklist",
-      "title": "Documents needed to study chemical engineering in Italy",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The candidates are required to prepare the documents requested by their chosen university. Common needs"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
             "Passport valid.",
             "Bachelor's degree certificate or provisional certificate",
             "Academic transcripts & mark sheets.",
@@ -237,7 +218,34 @@ const page = {
         }
       ]
     }
-  ]
+  ],
+  faqs: [
+    {
+        "q": "Can Indian students pursue an MSc in Chemical Engineering in Italy in English?",
+        "a": "Yes. Major Italian institutions like Politecnico di Milano, University of Padua, and Politecnico di Torino offer English-taught chemical and process engineering master's degrees."
+    },
+    {
+        "q": "How long is a Master's degree in Chemical Engineering in Italy?",
+        "a": "The degree takes 2 years (120 ECTS credits), divided into specialized coursework, industrial design projects, and an individual master's thesis."
+    },
+    {
+        "q": "What are the tuition costs for Chemical Engineering in Italy?",
+        "a": "Tuition at public universities ranges from €1,000 to €3,800 per year, with comprehensive regional scholarship coverage (DSU) for eligible students."
+    },
+    {
+        "q": "What specializations are available in chemical engineering?",
+        "a": "Key specializations include Sustainable Chemical Processes, Green Chemistry, Advanced Materials & Polymers, Biochemical Engineering, and Energy Transition Systems."
+    },
+    {
+        "q": "What are the entry requirements for international applicants?",
+        "a": "A Bachelor's degree in chemical engineering, chemistry, or related materials sciences, along with academic transcripts and English language certification (IELTS/TOEFL)."
+    },
+    {
+        "q": "What career prospects exist for chemical engineers in Italy?",
+        "a": "Graduates find opportunities in energy corporations (Eni, Snam), pharmaceuticals, specialty materials, environmental consulting, and industrial manufacturing."
+    }
+],
+  faqTitle: "Frequently Asked Questions About Chemical Engineering PG in Italy"
 };
 
 export default function ChemicalEngineeringPGItaly() {

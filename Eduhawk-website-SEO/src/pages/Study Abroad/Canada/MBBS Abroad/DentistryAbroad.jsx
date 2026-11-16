@@ -20,8 +20,7 @@ const page = {
   "keywords": "Study Dentistry in Canada, Dentistry in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Study Dentistry in Canada",
   "heroParas": [
-    "Students who want to study dentistry overseas frequently choose Canada. Opportunities to study professional dentistry education and oral health sciences are available in Canada, which is well-known for its excellent educational system, cutting-edge healthcare infrastructure, state-of-the-art dental facilities, and significant emphasis on clinical training.",
-    "Students who study dentistry in Canada gain knowledge about oral health, dental therapy, diagnosis, and preventive dentistry. Doctor of Dental Surgery (DDS) and Doctor of Dental Medicine () programs are options for Indian students looking into dental universities in Canada, subject to admission restrictions particular to each institution."
+    "Students who want to study dentistry overseas frequently choose Canada. Opportunities to study professional dentistry education and oral health sciences are available in Canada, which is well-known for its excellent educational system, cutting-edge healthcare infrastructure, state-of-the-art dental facilities, and significant emphasis on clinical training."
   ],
   "overview": [
     "Students who want to study dentistry overseas frequently choose Canada. Opportunities to study professional dentistry education and oral health sciences are available in Canada, which is well-known for its excellent educational system, cutting-edge healthcare infrastructure, state-of-the-art dental facilities, and significant emphasis on clinical training.",

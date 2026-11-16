@@ -24,10 +24,10 @@ const page = {
     "Master's in Aerospace Engineering in Finland, Aerospace Engineering Master's Programmes in Finland, Study Aerospace Engineering in Finland, Aerospace Engineering Universities in Finland, Master's in Aerospace Engineering in Finland Fees",
   introTitle: "Master’s in Aerospace Engineering in Finland",
   heroParas: [
-    "Finland is an interesting destination for students who want to explore aerospace-related technologies, satellite systems, space robotics, advanced materials and engineering research. The country's technology sector has expertise in areas such as satellite development, remote sensing, autonomous systems and space technology.",
-    "A Master’s in Aerospace Engineering in Finland can be a suitable goal for students interested in aircraft systems, aerospace structures, propulsion, flight technology or space exploration."
+    "Finland is an interesting destination for students who want to explore aerospace-related technologies, satellite systems, space robotics, advanced materials and engineering research. The country's technology sector has expertise in areas such as satellite development, remote sensing, autonomous systems and space technology."
   ],
   overview: [
+    "A Master’s in Aerospace Engineering in Finland can be a suitable goal for students interested in aircraft systems, aerospace structures, propulsion, flight technology or space exploration.",
     "However, students should understand that Finland's English-taught postgraduate options may focus more on space science and technology or related engineering disciplines than on a conventional aerospace engineering degree.",
     "Students who want to Study Aerospace Engineering in Finland can explore programmes related to space technology, robotics and automation, mechanical engineering, electronics and materials science. These fields can provide useful foundations for careers involving satellites, aerospace components, space missions and advanced engineering systems.",
     "Finland may appeal to students looking for research-based education, practical projects and international academic opportunities. Edu-Hawk Worldwide helps students explore relevant programmes, compare eligibility requirements and understand the application process for studying abroad."

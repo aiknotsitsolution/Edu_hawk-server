@@ -16,10 +16,10 @@ const page = {
   "keywords": "Study Law in USA for Indian Students, Best Law Universities in USA for International Students, Law Courses in USA After 12th, Juris Doctor (JD) in USA for Indian Students, LLM in USA After LLB in India, Law Admission Requirements in USA, Law Course Fees in USA for Indian Students, Law Scholarships in USA for International Students, LSAT Requirements for Law Schools in USA, English Language Tests for Law Admission in USA, Law Specializations in USA for International Students, Duration of Law Courses in USA, Career Opportunities After Studying Law in USA, Lawyer Licensing Requirements in USA, USA Student Visa for Indian Law Students",
   "introTitle": "Law in the United States",
   "heroParas": [
-    "Studying Law in the USA gives students an opportunity to learn about the legal systems, constitutional principles, international regulations, business law, human rights and dispute resolution. American law schools focus on legal research, analytical reasoning, case analysis, writing, advocacy and practical learning.",
-    "The **United States** offers **Indian students** a range of undergraduate, postgraduate, doctoral and specialized legal education options, for those interested in pursuing a career in legal practice, corporate law, international relations, compliance, policy research or academia."
+    "Studying Law in the USA gives students an opportunity to learn about legal systems, constitutional principles, international regulations, business law, human rights, and dispute resolution through rigorous analytical reasoning and practical case analysis."
   ],
   "overview": [
+    "The **United States** offers **Indian students** a range of undergraduate, postgraduate, doctoral and specialized legal education options, for those interested in pursuing a career in legal practice, corporate law, international relations, compliance, policy research or academia.",
     "Edu Hawk Worldwide assists students in exploring international study options, comprehending university admission standards, comparing pathways like [International Business](/study-abroad/usa/international-business) and [Study Abroad](/study-abroad), and [getting expert counselling](/contact). Check our [admission FAQs](#faq) and [top universities](#universities)."
   ],
   "level": "UG & PG",

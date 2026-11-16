@@ -19,9 +19,7 @@ const page = {
   "keywords": "Study Marketing Management in the UK, Marketing Management in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Marketing Management UK for Indian Students",
   "heroParas": [
-    "The United Kingdom is a popular destination for international students who are interested in studying business, marketing, advertising and management. Universities in the UK offer industry specific courses that help students to gain an understanding of consumer behavior, brand development, digital marketing, market research and business strategies.",
-    "Students can study various aspects of marketing like digital marketing, social media marketing, international marketing, strategic marketing and brand management.",
-    "UK universities offer undergraduate and postgraduate degrees which prepare students for careers in marketing, advertising, public relations, sales and business management."
+    "The United Kingdom is a popular destination for international students who are interested in studying business, marketing, advertising and management. Universities in the UK offer industry specific courses that help students to gain an understanding of consumer behavior, brand development, digital marketing, market research and business strategies."
   ],
   "overview": [
     "The United Kingdom is a popular destination for international students who are interested in studying business, marketing, advertising and management. Universities in the UK offer industry specific courses that help students to gain an understanding of consumer behavior, brand development, digital marketing, market research and business strategies.",

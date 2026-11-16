@@ -20,8 +20,7 @@ const page = {
   "keywords": "Study Biomedical Engineering - UG in Canada, Biomedical Engineering - UG in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Study Biomedical Engineering in Canada",
   "heroParas": [
-    "Students who want to combine engineering, biology, medicine and healthcare technology find Canada to be an appealing option. The development and advancement of medical devices, diagnostic tools, prostheses, medical imaging systems, rehabilitation technologies and other advancements utilized in healthcare are the main goals of biomedical engineering in Canada.",
-    "Engineering principles are combined with biological sciences, mathematics, computing, and real-world design projects in undergraduate Biomedical Engineering courses in Canada."
+    "Students who want to combine engineering, biology, medicine and healthcare technology find Canada to be an appealing option. The development and advancement of medical devices, diagnostic tools, prostheses, medical imaging systems, rehabilitation technologies and other advancements utilized in healthcare are the main goals of biomedical engineering in Canada."
   ],
   "overview": [
     "Students who want to combine engineering, biology, medicine and healthcare technology find Canada to be an appealing option. The development and advancement of medical devices, diagnostic tools, prostheses, medical imaging systems, rehabilitation technologies and other advancements utilized in healthcare are the main goals of biomedical engineering in Canada.",

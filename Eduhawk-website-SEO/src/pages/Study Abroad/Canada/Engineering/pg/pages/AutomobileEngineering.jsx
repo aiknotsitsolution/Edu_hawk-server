@@ -20,8 +20,7 @@ const page = {
   "keywords": "Study Automobile Engineering - PG in Canada, Automobile Engineering - PG in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Automobile Engineering In Canada",
   "heroParas": [
-    "The design, development, production, testing, and enhancement of automobiles and their parts are the main topics of automobile engineering. In order to create cars that are safer, more effective, and technologically advanced, the area integrates mechanical engineering, electrical engineering, electronics, materials science, software, and control systems.",
-    "In Canada, allied subjects including Automotive Engineering, Mechanical Engineering, Mechatronics, Electrical and Computer Engineering, and Transportation Technology frequently provide postgraduate studies in Automobile Engineering. Students can investigate advanced manufacturing, automotive materials, battery systems, autonomous driving, electric vehicles, hybrid powertrains, and vehicle dynamics."
+    "The design, development, production, testing, and enhancement of automobiles and their parts are the main topics of automobile engineering. In order to create cars that are safer, more effective, and technologically advanced, the area integrates mechanical engineering, electrical engineering, electronics, materials science, software, and control systems."
   ],
   "overview": [
     "The design, development, production, testing, and enhancement of automobiles and their parts are the main topics of automobile engineering. In order to create cars that are safer, more effective, and technologically advanced, the area integrates mechanical engineering, electrical engineering, electronics, materials science, software, and control systems.",

@@ -19,13 +19,10 @@ const page = {
   "keywords": "Study BBS in the UK, BBS in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Study Bachelor of Business Studies (BBS) in the UK",
   "heroParas": [
-    "Developing understanding of business operations, management, marketing, finance, economics, and organizational strategy is the main goal of the Bachelor of Business Studies (BBS) undergraduate business degree. Undergraduate programs in the UK that offer comparable academic foundations are available to those interested in careers in business.",
-    "Principal Advantages of Studying Business in the UK",
-    "Studying business at a UK university with a recognized degree-awarding status will provide you with internationally recognized qualifications."
+    "Developing understanding of business operations, management, marketing, finance, economics, and organizational strategy is the main goal of the Bachelor of Business Studies (BBS) undergraduate business degree. Undergraduate programs in the UK that offer comparable academic foundations are available to those interested in careers in business."
   ],
   "overview": [
     "Developing understanding of business operations, management, marketing, finance, economics, and organizational strategy is the main goal of the Bachelor of Business Studies (BBS) undergraduate business degree. Undergraduate programs in the UK that offer comparable academic foundations are available to those interested in careers in business.",
-    "Principal Advantages of Studying Business in the UK",
     "Studying business at a UK university with a recognized degree-awarding status will provide you with internationally recognized qualifications."
   ],
   "level": "Bachelor of Business Studies",

@@ -18,10 +18,10 @@ const page = {
   "description": "Study Physiotherapy in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
   "keywords": "List",
   "introTitle": "Physiotherapy in Italy - Complete Guide for International Students",
-  "heroParas": [
-    "The regular undergraduate physiotherapy degree typically lasts three years and awards 180 ECTS credits. It combines academic studies with supervised practical and clinical experience."
+  heroParas: [
+    "Physiotherapy in Italy delivers evidence-based clinical rehabilitation, musculoskeletal therapy, and neurorehabilitation training within Italy's national health system."
   ],
-  "overview": [
+  overview: [
     "The regular undergraduate physiotherapy degree typically lasts three years and awards 180 ECTS credits. It combines academic studies with supervised practical and clinical experience."
   ],
   "level": "Undergraduate",
@@ -147,17 +147,6 @@ const page = {
           "items": [
             "Many physiotherapy programs have limited enrollment and require a selection exam or other entrance procedure. The specific process, exam date, and number of seats vary depending on the university and academic year."
           ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Physiotherapy in Italy",
-            "Study Physiotherapy in Italy",
-            "Physiotherapy Courses in Italy",
-            "Physiotherapy Universities in Italy",
-            "Physiotherapy Fees in Italy",
-            "Physiotherapy in Italy for Indian Students"
-          ]
         }
       ]
     },
@@ -170,96 +159,6 @@ const page = {
           "t": "p",
           "items": [
             "The application process for Physiotherapy in Italy for Indian Students generally includes the following steps:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Look at universities: Compare physiotherapy programs, language of instruction, location and clinical experience.",
-            "Verify eligibility: Review the academic qualifications, language requirements and selection criteria.",
-            "Check the admission process: Find out if you need to take an entrance test or go through a ranking process.",
-            "Get the papers ready: Gather your passport, school certificates, transcripts and language proofs.",
-            "Send the application: Follow the university's instructions and meet the relevant deadline.",
-            "Full selection criteria: Register for and take the required examination, if any and Follow pre-enrolment procedures: Follow the steps for international applicants on the university and official portals.",
-            "Organize your visa: Check with the appropriate Italian Consulate for current requirements.",
-            "Plan your arrival: Book accommodation, insurance, travel and complete your enrollment."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "If you are an overseas student and need a study visa, the Universitaly official webpage contains information about the pre-enrolment requirements. Just being accepted or pre-enrolled by a university does not guaranty a visa.",
-            "Edu-Hawk Worldwide can assist students with university shortlisting, application planning and document preparation."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "licensing",
-      "eyebrow": "Licensing & Standards",
-      "title": "Licensing and Professional Recognition",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Physiotherapy is a regulated healthcare profession. Students should check the professional requirements of the country where they intend to practise before enrolling.",
-            "Working as a Physiotherapist in Italy",
-            "If you are an international student and need a study visa, the official Universitaly website gives information about the requirements for pre-enrollment. Acceptance or pre-enrollment at a university does not guaranty the issuance of a visa.",
-            "Returning to India After Physiotherapy in Italy",
-            "Indian students who wish to return to India should assess the current recognition and registration processes for international physiotherapy qualifications. Requirements may vary based on the student's qualifications, institution, curriculum and applicable restrictions at the time of graduation.",
-            "Before registering, please confirm:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "The actual degree conferred.",
-            "Clinical training and practical hours are covered.",
-            "Determine whether the qualification fits the requirements of the planned country of practice.",
-            "The registration process, as well as any exams or additional training that may be required.",
-            "The most recent guidance from the relevant professional or regulatory authorities."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "An international degree should not be taken to imply automatic eligibility to practise in India or any other country."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Career Prospects",
-      "title": "Career Opportunities After Physiotherapy in Italy",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Graduates who have completed a recognized qualification and met the necessary professional standards may pursue a variety of rehabilitation and healthcare careers.",
-            "Potential job paths include:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Hospital physiotherapy",
-            "Rehabilitation centres",
-            "Private physiotherapy clinics",
-            "Musculoskeletal rehabilitation",
-            "Sports rehabilitation",
-            "Neurological rehabilitation",
-            "Geriatric and elderly care",
-            "Paediatric rehabilitation",
-            "Community healthcare",
-            "Research and further education"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Career options depend on professional recognition, language skills, practical experience, work authorization and company criteria. May need further training for specialized tasks.",
-            "Having a degree in physiotherapy does not guaranty you will have a job, a salary or the right to work in Italy or other countries."
           ]
         }
       ]
@@ -298,7 +197,34 @@ const page = {
         }
       ]
     }
-  ]
+  ],
+  faqs: [
+    {
+        "q": "Can Indian students study Physiotherapy in Italy?",
+        "a": "Yes. Indian students who have completed Class 12 with physics, chemistry, and biology can apply for Physiotherapy degrees in Italy."
+    },
+    {
+        "q": "What is the course duration for Physiotherapy in Italy?",
+        "a": "A Bachelor's degree in Physiotherapy (Laurea in Fisioterapia) takes 3 academic years (180 ECTS credits)."
+    },
+    {
+        "q": "What are the tuition fees for Physiotherapy in Italy?",
+        "a": "Tuition at state universities is between €1,000 and €3,500 per year, and can be fully covered through regional DSU scholarships."
+    },
+    {
+        "q": "Is Italian language proficiency needed for Physiotherapy?",
+        "a": "Yes. Because hands-on clinical rotations in hospitals require communication with patients, students need Italian proficiency (B1/B2 level)."
+    },
+    {
+        "q": "What entrance exam is required for Physiotherapy admission?",
+        "a": "Applicants take the competitive national healthcare professions admission test (Test delle Professioni Sanitarie)."
+    },
+    {
+        "q": "Is an Italian Physiotherapy degree recognized internationally?",
+        "a": "Yes. The degree is officially recognized across the European Union and allows graduates to register as professional physical therapists."
+    }
+],
+  faqTitle: "Frequently Asked Questions About Physiotherapy in Italy"
 };
 
 export default function PhysiotherapyAbroadItaly() {

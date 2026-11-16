@@ -114,6 +114,7 @@ const faqs = [
 ];
 
 const overviewParas = [
+  "Edu Hawk Worldwide guides you through branch selection, university shortlisting, applications, scholarships and the complete visa journey.",
   "Choosing to study **undergraduate engineering in the USA** is a step for many **Indian students**. It opens doors to notch tech tools, modern labs, hands-on learning and real research projects. Across the United States colleges offer engineering programs with many options. Like [computer engineering](/study-abroad/usa/ug/computer-engineering), [mechanical engineering](/study-abroad/usa/ug/mechanical-engineering), [civil engineering](/study-abroad/usa/ug/civil-engineering), [electrical engineering](/study-abroad/usa/ug/electrical-engineering), [aerospace engineering](/study-abroad/usa/ug/aerospace-engineering), [chemical engineering](/study-abroad/usa/ug/chemical-engineering) and [biomedical engineering](/study-abroad/usa/ug/biomedical-engineering).",
   "Engineering bachelor’s degrees take **four years** to finish. During those years students learn skills, how to think critically and how to solve tough problems. They also often do internships, work with companies and take part in research projects. This helps them gain real-world experience before they graduate.",
   "To get into these programs students must have passed **Class 12** done the required subjects and show they can understand and speak English well.",
@@ -154,8 +155,7 @@ const UndergraduateEngineeringUG = () => (
       accent="USA"
       tail="for Indian Students"
       paras={[
-        "Studying engineering in the USA opens doors to modern labs, hands-on learning and real research projects. US colleges offer bachelor's programs across computer, mechanical, civil, electrical, aerospace, chemical, biomedical and more branches.",
-        "Edu Hawk Worldwide guides you through branch selection, university shortlisting, applications, scholarships and the complete visa journey.",
+        "Studying engineering in the USA opens doors to modern labs, hands-on learning and real research projects, with US colleges offering world-class bachelor's programs across computer, mechanical, civil, electrical, aerospace, chemical, biomedical and automobile engineering branches.",
       ]}
       primary={{
         href: "https://api.whatsapp.com/send?phone=919630736070",

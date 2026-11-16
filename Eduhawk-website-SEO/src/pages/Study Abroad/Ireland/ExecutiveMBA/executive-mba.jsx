@@ -13,535 +13,370 @@ import uniImg2 from "../../../../Images/Abroad/Ireland/ExecutiveMBA/University_C
 import uniImg3 from "../../../../Images/Abroad/Ireland/ExecutiveMBA/University_College_Dublin_2.webp";
 
 const page = {
-  "name": "Executive MBA in Ireland",
-  "country": "Ireland",
-  "slug": "executive-mba",
-  "title": "Study Executive MBA in Ireland for Indian Students | Edu-Hawk Worldwide",
-  "description": "Complete guide to Executive MBA in Ireland for Indian students: Top Irish universities, eligibility criteria, tuition fees (€13,500 – €28,640 / year), scholarships, and 2-year post-study work visa (Stamp 1G).",
-  "keywords": "Study Executive MBA in Ireland for Indian Students, Top Universities for Executive MBA in Ireland, Executive MBA Courses in Ireland for International Students, Part-Time Executive MBA Programmes in Ireland, Executive MBA Eligibility Requirements in Ireland, Executive MBA Admission Requirements for Indian Students, Executive MBA Tuition Fees in Ireland 2026/27, Cost of Studying Executive MBA in Ireland, Trinity College Dublin Executive MBA Fees, GMAT Requirements for Executive MBA Admission in Ireland",
-  "introTitle": "EXECUTIVE MBA FROM IRELAND",
-  "heroParas": [
-    "Executive MBA from Ireland",
-    "Ireland is an attractive destination for experienced professionals seeking to develop their leadership capabilities, business strategy skills and prepare for senior management roles.",
-    "An Executive Master of Business Administration (Executive MBA) is aimed at those who wish to add an advanced business education to their existing professional experience."
+  name: "Executive MBA in Ireland",
+  country: "Ireland",
+  slug: "study-abroad/ireland/executive-mba",
+  title: "Study Executive MBA in Ireland for Experienced Professionals | Edu-Hawk Worldwide",
+  description: "Complete guide to Executive MBA (EMBA) in Ireland: Top Triple Crown business schools (Trinity, Smurfit, DCU), modular & part-time study options, eligibility, tuition fees (€12,500 – €27,100/year), C-suite leadership development, and 2-year post-study work visa (Stamp 1G).",
+  keywords: "Study Executive MBA in Ireland for Indian Students, Top Universities for Executive MBA in Ireland, Executive MBA Courses in Ireland for International Students, Part-Time Executive MBA Programmes in Ireland, Executive MBA Eligibility Requirements in Ireland, Executive MBA Admission Requirements for Indian Students, Executive MBA Tuition Fees in Ireland 2026/27, Cost of Studying Executive MBA in Ireland, Trinity College Dublin Executive MBA Fees, GMAT Requirements for Executive MBA Admission in Ireland, Executive MBA Scholarships in Ireland for International Students, Career Opportunities after Executive MBA in Ireland, Executive MBA Salary and Senior Management Jobs in Ireland",
+  introTitle: "EXECUTIVE MBA IN IRELAND",
+  heroParas: [
+    "An Executive MBA (EMBA) in Ireland empowers seasoned managers, directors, and enterprise leaders with advanced strategic management, corporate governance, and C-suite transformation capabilities in Europe's most dynamic multinational business hub. Delivered through flexible part-time and modular weekend formats by Triple Crown accredited business schools (AMBA, AACSB, EQUIS), candidates master corporate finance, strategic M&A, and board-level negotiations while networking with an elite peer cohort of senior industry executives."
   ],
-  "overview": [
-    "Executive MBA from Ireland",
-    "Ireland is an attractive destination for experienced professionals seeking to develop their leadership capabilities, business strategy skills and prepare for senior management roles.",
-    "An Executive Master of Business Administration (Executive MBA) is aimed at those who wish to add an advanced business education to their existing professional experience.",
-    "The study abroad guidance of Edu Hawk worldwide allows students to explore these opportunities and get to know the requirements for studying abroad."
+  overview: [
+    "The Executive Master of Business Administration (Executive MBA) in Ireland is a premier executive credential designed specifically for senior managers, mid-career executives, and entrepreneurs seeking to elevate their strategic perspective and organizational influence. Set within an economy hosting over 1,000 global multinationals across tech, finance, pharmaceuticals, and manufacturing, Irish EMBA programs provide deep exposure to cross-industry executive decision-making.",
+    "Certified at NFQ Level 9 (Master's level, 90 ECTS) on Ireland's National Framework of Qualifications, Executive MBA programs are structured to allow professionals to study without interrupting their ongoing careers. World-class institutions—such as Trinity Business School, UCD Michael Smurfit Graduate Business School, DCU Business School, and UCC—deliver flexible delivery models including monthly block intensives, alternate-weekend modules, and hybrid executive formats.",
+    "The EMBA curriculum emphasizes macro-strategic corporate positioning, enterprise risk management, global supply chain resilience, corporate finance, and executive leadership diagnostics. For international professionals eligible for full-time executive formats or transitioning post-graduation, Ireland's Third Level Graduate Scheme (Stamp 1G) offers 24 months (2 full years) of unrestricted employment authorization, enabling seamless progression into managing director, regional executive, and C-suite roles."
   ],
-  "level": "Executive Master of Business Administration (EMBA)",
-  "crumb": "Management / Executive MBA",
-  "stats": [
+  level: "Executive Master of Business Administration (EMBA, NFQ Level 9)",
+  crumb: "Management / Executive MBA",
+  stats: [
     {
-      "label": "Degree Choices",
-      "value": "Executive Master of Business Administration (EMBA)"
+      label: "Degree Choices",
+      value: "Executive MBA (NFQ Level 9)"
     },
     {
-      "label": "Course Duration",
-      "value": "2 Years (Part-Time / Modular)"
+      label: "Course Duration",
+      value: "2 Years (Part-Time / Modular / Hybrid)"
     },
     {
-      "label": "Top Institutions",
-      "value": "Trinity College Dublin, University College Dublin"
+      label: "Top Institutions",
+      value: "Trinity College, UCD Smurfit, DCU, UCC"
     },
     {
-      "label": "Post-Study Work",
-      "value": "2 Years Third Level Graduate Scheme (Stamp 1G)"
+      label: "Post-Study Work",
+      value: "2 Years Third Level Graduate Scheme (Stamp 1G)"
     }
   ],
-  "sections": [
+  sections: [
     {
-      "slot": "why",
-      "eyebrow": "Why Study in Ireland",
-      "title": "1. Why Study Executive MBA in Ireland?",
-      "groups": [
+      slot: "why",
+      eyebrow: "Why Study in Ireland",
+      title: "Why Study an Executive MBA in Ireland?",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "An Executive MBA in Ireland can offer a variety of advantages to experienced professionals."
+          t: "p",
+          items: [
+            "Pursuing an Executive MBA in Ireland provides corporate leaders with the analytical frameworks and executive self-awareness necessary to lead organizations through complex global market shifts. Ireland's dense multinational corporate presence offers exceptional real-world strategic relevance.",
+            "Key strategic benefits of studying an Executive MBA in Ireland include:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "- Leadership development: Develop skills in strategic decision making, leadership of organizations, communication and team management.",
-            "- Flexible study options: Many Executive MBA programmes offer part-time formats, which allow students to balance work, study and personal responsibilities.",
-            "- International business exposure: Ireland has a large multinational business presence in technology, finance, consulting, pharmaceuticals and more.",
-            "- Professional networking: Learn from seasoned professionals across industries and backgrounds.",
-            "- Strategic business knowledge: Build knowledge in business strategy, finance, operations, innovation and organisational performance.",
-            "- Career progression: Depending on previous experience and opportunities available, an Executive MBA can help in a move to senior management, business leadership or a more general strategic role.",
-            "- Entrepreneurial development: Modules on business planning, innovation and financial management can assist professionals who want to establish or grow a business."
+          t: "ul",
+          items: [
+            "Triple Crown Accreditation: Trinity Business School and UCD Smurfit hold elite Triple Accreditation (AACSB, AMBA, EQUIS), placing them among the top 1% of business schools globally.",
+            "High-Caliber Executive Peer Group: Learn alongside experienced corporate directors, senior managers, and founders averaging 8 to 14 years of professional experience across diverse sectors.",
+            "Flexible Executive Delivery: Part-time modular scheduling (alternate weekends or monthly immersive blocks) tailored to accommodate demanding corporate travel and executive workloads.",
+            "Strategic Enterprise Impact: Immediate ROI for corporate employers as students apply classroom strategy, financial modeling, and leadership frameworks directly to their current organizational challenges.",
+            "Boardroom Leadership Diagnostics: Tailored executive coaching, 360-degree leadership feedback, crisis communication simulations, and strategic change management.",
+            "Access to Europe's Multilateral Tech & Finance Hub: Direct engagement with European decision-makers at Google, Microsoft, Meta, Stripe, Pfizer, Boston Scientific, and global private equity firms."
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "EduHawk Worldwide Consultancy provides specialized advisory for senior executives—evaluating management track records, advising on employer sponsorship cases, perfecting executive application essays, and facilitating seamless admissions processing."
           ]
         }
       ]
     },
     {
-      "slot": "courses",
-      "eyebrow": "Degrees & Programs",
-      "title": "2. Executive MBA Courses Ireland",
-      "groups": [
+      slot: "courses",
+      eyebrow: "Degrees & Programs",
+      title: "Executive MBA Formats & Specialization Pathways",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "An Executive MBA is a postgraduate management qualification for professionals with work experience. Program structures differ so applicants should consider the format, curriculum and entry requirements at each university.",
-            "Executive MBA in General Management",
-            "The program gives you a broad management knowledge across leadership, finance, marketing, strategy, operations and organizational behaviour. It might be right for professionals who want to move from functional management to broader leadership.",
-            "Executive MBA - Strategic Management",
-            "Strategic management is about business growth, competitive positioning, organizational change, decision-making and long-term planning. It may be of interest to professionals preparing for senior management responsibilities.",
-            "Finance Executive MBA",
-            "MBA studies in finance might include corporate finance, investment decisions, budgeting, financial analysis and risk management. Some institutions have a dedicated finance pathway and some do not.",
-            "Executive MBA Part-Time",
-            "A part-time Executive MBA format enables professionals to continue working while completing the qualification. Classes may be held in the evenings or on weekends, or they may be scheduled on campus."
+          t: "p",
+          items: [
+            "Irish business schools deliver structured Executive MBA curricula designed to develop enterprise-wide strategic capabilities rather than narrow functional expertise."
+          ]
+        },
+        {
+          t: "h4",
+          text: "Core Curriculum & Executive Modules"
+        },
+        {
+          t: "ul",
+          items: [
+            "Strategic Corporate Leadership: Executive decision-making, corporate governance, organizational culture transformation, and ethics in leadership.",
+            "Corporate Financial Strategy: Advanced financial modeling, mergers & acquisitions (M&A), capital structuring, and private equity investments.",
+            "Global Macroeconomics & Geopolitics: Navigating trade policy, cross-border supply chains, foreign exchange volatility, and global risk management.",
+            "Operations & Digital Disruption: Enterprise technology deployment, AI business integration, process re-engineering, and sustainable operational design.",
+            "Strategic Marketing & Value Creation: Brand equity, customer lifetime value, market entry strategies, and digital commercialization."
+          ]
+        },
+        {
+          t: "h4",
+          text: "Capstone Executive Consulting Practicum"
+        },
+        {
+          t: "ul",
+          items: [
+            "Company Strategic Project: Student consulting syndicates undertake a strategic consulting assignment for an external multinational or develop a commercial venture plan.",
+            "International Business Study Tour: Immersive global study visits to key business capitals (such as New York, Silicon Valley, or European innovation hubs) meeting C-suite executives and policy architects."
           ]
         }
       ]
     },
     {
-      "slot": "universities",
-      "eyebrow": "Top Institutions",
-      "title": "3. Top Executive MBA Universities in Ireland",
-      "unis": [
+      slot: "eligibility",
+      eyebrow: "Eligibility Criteria",
+      title: "Eligibility Criteria for Executive MBA in Ireland",
+      groups: [
         {
-          "name": "Trinity College Dublin",
-          "desc": "Trinity College Dublin - Trinity Business School provides a Executive MBA and a Flexible Executive MBA. These programs are designed for professionals who want to develop their leadership, management and strategic business capabilities while also managing other commitments.",
-          "imgKey": "uniImg_Trinity_College_Dublin_webp",
-          "imgIdentifier": "uniImg1",
-          "city": "Dublin, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg1
+          t: "p",
+          items: [
+            "Executive MBA admissions emphasize substantial managerial track records, leadership achievements, and organizational impact over standardized testing alone."
+          ]
         },
         {
-          "name": "University College Dublin",
-          "desc": "Dublin City University (DCU) - DCU Business School has an Executive MBA for professionals seeking to enhance their leadership skills and their capacity to manage organizations and business challenges.",
-          "imgKey": "uniImg_University_College_Dublin_webp",
-          "imgIdentifier": "uniImg2",
-          "city": "Dublin, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg2
+          t: "h4",
+          text: "Academic & Managerial Prerequisites"
         },
         {
-          "name": "University College Dublin",
-          "desc": "Dublin City University (DCU) - DCU Business School has an Executive MBA for professionals seeking to enhance their leadership skills and their capacity to manage organizations and business challenges.",
-          "imgKey": "uniImg_University_College_Dublin_2_webp",
-          "imgIdentifier": "uniImg3",
-          "city": "Dublin, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg3
-        }
-      ]
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Admissions Criteria",
-      "title": "4. Eligibility Criteria for Executive MBA in Ireland",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Executive MBA in Ireland eligibility requirements generally include having relevant professional experience along with an appropriate academic background.",
-            "Educational background",
-            "Most applicants are required to have a recognized bachelor’s degree or an acceptable equivalent qualification. Some universities, depending on their admissions policy, may take into account other professional qualifications or applicants with substantial experience.",
-            "Work experience (professional)",
-            "Executive MBA programmes . These are for experienced professionals. Some universities expect you to have several years of relevant work experience, possibly in a managerial or leadership position. The exact requirement varies from institution to institution.",
-            "English language skills",
-            "International applicants may be required to provide IELTS, TOEFL, PTE Academic or other accepted English-language qualification. The requirements depend on the university and the previous education of the applicant.",
-            "GMAT or other admission tests",
-            "Some institutions may require a GMAT, GRE or other assessment; other institutions may place more emphasis on an applicant’s academic background, experience and interview. Check the program specific requirements."
+          t: "ul",
+          items: [
+            "A recognized undergraduate Bachelor's degree (NFQ Level 8 equivalent) with a minimum of Second Class Honours (typically 60%–65%+ or CGPA 6.5/10.0). Substantial executive experience may be evaluated as academic equivalence.",
+            "Professional Experience: A mandatory minimum of 5 to 8+ years of post-graduation professional work experience, including at least 3+ years in a verified managerial, leadership, or budget-holding capacity.",
+            "Demonstrated career progression, organizational leadership, strategic decision-making responsibility, or successful entrepreneurship.",
+            "English Language Proficiency: Minimum IELTS Academic overall score of 7.0 (with no individual band below 6.5), TOEFL iBT score of 100, or PTE Academic score of 68.",
+            "GMAT / Executive Assessment (EA): Standard GMAT requirements are widely waived for executive candidates based on proven executive track records, professional accomplishments, and personal interviews.",
+            "Admissions Panel Interview: A formal interview with the Academic Director and Admissions Board evaluating strategic mindset, leadership maturity, and cohort contribution."
           ]
         }
       ]
     },
     {
-      "slot": "requirements",
-      "eyebrow": "Entry Requirements",
-      "title": "5. Admission requirements for Executive MBA in Ireland:",
-      "groups": [
+      slot: "admission",
+      eyebrow: "Admission Requirements",
+      title: "Executive MBA Application & Dossier Checklist",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Students need to check the Executive MBA admission requirements in Ireland for their chosen program before applying.",
-            "Typical application requirements include:"
+          t: "p",
+          items: [
+            "Submitting an Executive MBA application requires assembling a comprehensive corporate and leadership dossier:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "- Bachelor’s degree or equivalent qualification.",
-            "- Academic records and degree certificates.",
-            "- Updated CV/resume showing career progression",
-            "- Evidence of relevant management or professional experience;",
-            "- Personal statements or application essays, if requested.",
-            "References to academia or the professions.",
-            "- Results of the English language test, if required.",
-            "- GMAT, GRE or other admissions-test scores, if applicable.",
-            "- Proof of professional success or leadership.",
-            "- Interview or further assessment as necessary."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "tuition",
-      "eyebrow": "Tuition & Living Costs",
-      "title": "6. Cost of Studying for Executive MBA Ireland",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The cost of studying Executive MBA in Ireland includes tuition fees, accommodation (if required), transport, study materials, health insurance (if applicable) and personal expenses.",
-            "Tuition cost",
-            "The differences between the programs are illustrated in the following examples of published fees. They use different academic years and student fees categories and therefore should not be treated as a like for like comparison."
-          ]
+          t: "h4",
+          text: "Required Application Dossier"
         },
         {
-          "t": "ul",
-          "items": [
-            "Trinity College Dublin \\| €18,650 per year; total tuition €37,300",
-            "DCU Business School \\| 2026/27 part-time fee: €14,000 per year for EU-status students; €27,100 per year for non-EU students",
-            "University College Cork \\| Part-time EU fee in 2026/27: €16,000 \\|",
-            "TU Dublin \\| Published EU fee: €12,500 per year; €25,000 in total for its two-year part-time MBA"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Living and travel expenses",
-            "If you’re moving to Ireland to study, budget for accommodation, groceries, utilities, transport, mobile service, health insurance and personal costs. Dublin can be particularly expensive for housing.",
-            "Scholarships and Financial Aid",
-            "Some universities offer MBA scholarships, bursaries or awards to eligible applicants. These may take into account academic achievement, professional experience, leadership potential, sector background or other criteria."
+          t: "ul",
+          items: [
+            "Valid international passport copy with at least 12 months validity remaining.",
+            "Official undergraduate Bachelor's degree certificate and consolidated marksheets/transcripts.",
+            "Executive Curriculum Vitae (CV) emphasizing managerial progression, direct reports, budgetary oversight, and organizational milestones.",
+            "Executive Statement of Purpose (SOP) and application essays articulating leadership evolution, strategic dilemmas solved, and executive aspirations.",
+            "Two Senior Professional Letters of Recommendation (LORs)—at least one from a current executive supervisor or corporate board member.",
+            "Letter of Corporate Support / Employer Endorsement: Confirming organizational approval of time commitment for scheduled modular blocks.",
+            "Official English language proficiency test scorecard (IELTS, TOEFL, or PTE).",
+            "Proof of financial maintenance and fee payment schedule."
           ]
         }
       ]
     },
     {
-      "slot": "process",
-      "eyebrow": "Application Steps",
-      "title": "7. The Admission Process for Executive MBA in Ireland",
-      "steps": [
+      slot: "accreditation",
+      eyebrow: "Accreditation & Standards",
+      title: "Executive MBA Accreditation & International Recognition",
+      groups: [
         {
-          "step": "01",
-          "title": "Step 01",
-          "desc": "The Executive MBA admission process in Ireland generally involves the following steps."
-        },
-        {
-          "step": "02",
-          "title": "Step 02",
-          "desc": "Identify your career objectives"
-        },
-        {
-          "step": "03",
-          "title": "Step 2",
-          "desc": "Compare Executive MBA programmes"
-        },
-        {
-          "step": "04",
-          "title": "Step 3",
-          "desc": "Verify eligibility"
-        },
-        {
-          "step": "05",
-          "title": "Step 4",
-          "desc": "Gather Your Application Documents"
-        },
-        {
-          "step": "06",
-          "title": "Step 06",
-          "desc": "Step"
-        },
-        {
-          "step": "07",
-          "title": "Step 6",
-          "desc": "Go to interview or assessment"
-        },
-        {
-          "step": "08",
-          "title": "Step 7",
-          "desc": "Receive and review the offer"
-        },
-        {
-          "step": "09",
-          "title": "Step 8",
-          "desc": "Plan for Funding and Immigration Requirements"
-        },
-        {
-          "step": "10",
-          "title": "Step 9",
-          "desc": "Get ready to register"
-        }
-      ]
-    },
-    {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Recognition",
-      "title": "8. Executive MBA Accreditation & Recognition in Ireland",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Accreditation and recognition are important when choosing an Executive MBA, as they allow applicants to assess the status of a program and whether it is suitable for their career goals.",
-            "Check this before applying -"
+          t: "p",
+          items: [
+            "Accreditation by leading international quality councils guarantees that Irish Executive MBAs adhere to the highest global executive education standards.",
+            "Key accreditation standards include:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Institutional recognition: Check the awarding institution is recognized and authorized to award the qualification.",
-            "National Framework of Qualifications: Irish qualifications are usually at Master’s Level as Level 9. However, applicants should verify the level of the specific program completed.",
-            "Business-school accreditation: Check for relevant accreditations, such as the Association of MBAs (AMBA), AACSB or EQUIS if applicable.",
-            "Programme-specific accreditation: Accreditation may be for a specific MBA program, business school or time. Verify status with the university or accrediting agency directly.",
-            "International Recognition: If you intend to work or study in another country outside of Ireland, research how employers, professional bodies or academic institutions regard the qualification."
+          t: "ul",
+          items: [
+            "Triple Crown Accreditation: Trinity Business School and UCD Smurfit hold elite Triple Accreditation (AACSB, AMBA, EQUIS)—held by fewer than 2% of business faculties globally.",
+            "Association of MBAs (AMBA): Ensures that EMBA cohort quality, curriculum design, and faculty credentials comply with global executive education criteria.",
+            "AACSB International: DCU Business School, Trinity, and UCD hold AACSB accreditation, confirming world-class leadership development and executive research.",
+            "Financial Times European Executive MBA Rankings: UCD Smurfit and Trinity are consistently ranked among the top Executive MBA faculties across Europe."
           ]
         }
       ]
     },
     {
-      "slot": "careers",
-      "eyebrow": "Career Outcomes",
-      "title": "9. Career Prospects and Earnings Following an Executive MBA in Ireland",
-      "groups": [
+      slot: "careers",
+      eyebrow: "Career Outcomes",
+      title: "Career Trajectory & Senior Executive Compensation in Ireland",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "An Executive MBA can assist experienced professionals to boost their candidacy for senior management and leadership positions. However, the outcomes of employment and salary are dependent on current experience, industry, company size, leadership responsibilities and the availability of suitable roles.",
-            "Career prospects after Executive MBA"
+          t: "p",
+          items: [
+            "Graduates of Executive MBA programs in Ireland successfully accelerate into senior management, transition into high-level strategy consulting, or assume C-suite and board positions.",
+            "Indicative annual compensation packages for executive leaders in Ireland (2026/2027 market benchmarks):"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "- Senior Manager, Business.",
-            "- Director of Operations.",
-            "- Manager / Director of Strategy.",
-            "- Director, Business Development.",
-            "- Consultant, Management.",
-            "*Portfolio or Program Manager.",
-            "Manager, Commercial/Finance.",
-            "- General Manager.",
-            "- Regional/Country Manager.",
-            "- Chief Operating Officer depending on experience.",
-            "- Entrepreneur / Business Owner."
+          t: "ul",
+          items: [
+            "Senior Business Operations Director: €75,000 – €110,000+ per year.",
+            "Director of Strategy & Corporate Development: €85,000 – €130,000+ per year.",
+            "Managing Director / Regional Country Manager: €90,000 – €140,000+ per year.",
+            "Chief Operating Officer (COO) / Chief Financial Officer (CFO): €100,000 – €160,000+ per year.",
+            "Senior Partner / Principal Management Consultant: €95,000 – €150,000+ per year.",
+            "Chief Executive Officer (CEO) / Business Founder: €120,000 – €200,000+ per year."
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "An Executive MBA can also help career progression within an existing organization by helping professionals develop strategic, financial and leadership skills.",
-            "Executive MBA salary expectations",
-            "There is no set salary for Executive MBA graduates in Ireland. Many students get jobs even before they start the program and their earnings post MBA depend on how they progress in their career and not just by having the qualification.",
-            "A seasoned manager in Ireland could expect gross annual earnings of €60,000-€100,000 and some senior director level positions could command more than €100,000. These are sample estimates for relevant positions, not confirmed average salaries for Executive MBA graduates. Depending on the industry, employer and responsibilities, some positions will pay less or much more."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Document Checklist",
-      "title": "10. Documents Required for Executive MBA in Ireland",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The documents required to study Executive MBA in Ireland are different for each university and for the applicant’s situation. Documents that are often requested include:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            ""
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "1\\. Passport in force."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            ""
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "2\\. Bachelor degree certificate or equivalent recognized degree."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            ""
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "3\\. Academic Transcripts"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            ""
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "4\\. Show CV or resume."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            ""
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "5\\. Evidence of professional experience and employment record."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            ""
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "6\\. Statement of purpose or application essays (if applicable)."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            ""
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "7\\. Academic or professional references."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            ""
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "8\\. English language test results, if applicable."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            ""
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "9\\. *Test scores (GMAT, GRE, or other) if applicable."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            ""
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "10\\. If applicable, evidence of leadership responsibilities or professional achievements."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            ""
+          t: "p",
+          items: [
+            "Premier Executive Employers in Ireland: Google, Meta, Microsoft, Stripe, Accenture, McKinsey, Deloitte, PwC, Pfizer, Boston Scientific, Kerry Group, CRH, and Bank of Ireland."
           ]
         }
       ]
     }
   ],
-  "table": {
-    "title": "Estimated Cost of Studying Executive MBA in Ireland in Ireland (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (€ / EUR)",
-      "Details / Scope"
-    ],
-    "rows": [
+  unis: [
+    {
+      name: "Trinity College Dublin (TCD) – Trinity Business School",
+      city: "Dublin",
+      state: "Leinster",
+      desc: "Trinity Business School holds Triple Crown accreditation (AACSB, AMBA, EQUIS) and delivers a world-ranked Executive MBA and Flexible Executive MBA program (€18,650/year, €37,300 total). Designed for practicing executives to develop strategic, financial, and transformative leadership while maintaining professional careers.",
+      img: uniImg1
+    },
+    {
+      name: "University College Dublin (UCD) – Smurfit Graduate Business School",
+      city: "Dublin",
+      state: "Leinster",
+      desc: "UCD Michael Smurfit Graduate Business School is consistently ranked in the Financial Times European Top 50 Executive MBA rankings. Smurfit offers part-time mid-week and weekend modular formats (€18,500/year, €37,000 total) with international study tours, leadership diagnostics, and corporate executive coaching.",
+      img: uniImg2
+    },
+    {
+      name: "Dublin City University (DCU) – DCU Business School",
+      city: "Dublin",
+      state: "Leinster",
+      desc: "DCU Business School is AACSB-accredited and offers an innovative Executive MBA program (€27,100/year non-EU 2026/27) focused on digital enterprise transformation, strategic innovation, and executive teamwork in collaboration with leading Irish and international multinational enterprises.",
+      img: uniImg3
+    }
+  ],
+  steps: [
+    {
+      step: "01",
+      title: "Executive Profile & Career Goals Audit",
+      desc: "Assess your executive experience, managerial scope, and leadership goals to choose the optimal executive MBA format (Part-Time Weekend, Modular, or Blended)."
+    },
+    {
+      step: "02",
+      title: "Business School & Curriculum Comparison",
+      desc: "Compare curriculum focus, modular schedules, tuition fees, accreditation credentials, and cohort seniority across top Irish business faculties."
+    },
+    {
+      step: "03",
+      title: "Eligibility & GMAT Waiver Verification",
+      desc: "Verify academic qualifications, minimum 5+ years managerial experience, English proficiency (IELTS/TOEFL), and confirm executive GMAT waiver criteria."
+    },
+    {
+      step: "04",
+      title: "Dossier & Employer Endorsement Preparation",
+      desc: "Prepare an executive CV, leadership statement of purpose, two senior professional recommendations, and secure an employer support letter confirming scheduling flexibility."
+    },
+    {
+      step: "05",
+      title: "Online Application Submission",
+      desc: "Submit your comprehensive application dossier through the university's executive admissions portal ahead of cohort evaluation deadlines."
+    },
+    {
+      step: "06",
+      title: "Executive Admissions Board Interview",
+      desc: "Complete a rigorous panel interview with the Academic Director and Admissions Board evaluating leadership attributes, strategic perspective, and cohort fit."
+    },
+    {
+      step: "07",
+      title: "Offer Acceptance & Tuition Fee Deposit",
+      desc: "Review admission terms, formalize your acceptance, and transfer the required tuition fee deposit to secure your executive cohort placement."
+    },
+    {
+      step: "08",
+      title: "Enrollment & Executive Journey Launch",
+      desc: "Complete university executive registration, attend orientation, and commence your journey toward enterprise leadership and lifelong alumni networking."
+    }
+  ],
+  table: {
+    caption: "Executive MBA Tuition Fee Comparison in Ireland (International 2026/27)",
+    headers: ["Institution", "Executive MBA Program / Mode", "Annual Tuition (Non-EU 2026/27)", "Duration"],
+    rows: [
       [
-        "Undergraduate Degree (Annual)",
-        "€13,500 – €27,640 / year",
-        "Varies by institution ranking, laboratory facilities, and program"
+        "Trinity College Dublin (TCD)",
+        "Executive MBA (Trinity Business School)",
+        "€18,650 / year (€37,300 total)",
+        "2 Years"
       ],
       [
-        "Postgraduate Degree (Annual)",
-        "€15,000 – €28,640 / year",
-        "1-year intensive master's program or 2-year research degree"
+        "University College Dublin (UCD)",
+        "Executive MBA (Smurfit Business School)",
+        "€18,500 / year (€37,000 total)",
+        "2 Years"
       ],
       [
-        "Living Expenses (Dublin)",
-        "€1,000 – €1,400 / month",
-        "Includes student accommodation, meals, utilities, and public transit"
+        "Dublin City University (DCU)",
+        "Executive MBA (DCU Business School)",
+        "€27,100 / year (non-EU fee)",
+        "2 Years"
       ],
       [
-        "Living Expenses (Outside Dublin)",
-        "€800 – €1,100 / month",
-        "Cost of living in Cork, Galway, Limerick, or Maynooth"
+        "University College Cork (UCC)",
+        "Executive MBA (Part-Time)",
+        "€16,000 / year (€32,000 total)",
+        "2 Years"
       ],
       [
-        "Student Visa & IRP Card Fee",
+        "Technological University Dublin (TU Dublin)",
+        "Part-Time Executive MBA (AMBA Accredited)",
+        "€12,500 / year (€25,000 total)",
+        "2 Years"
+      ],
+      [
+        "Estimated Living Maintenance",
+        "Accommodation, Meals, Transport & Utilities",
+        "€10,000 – €15,000 / year",
+        "Annual Cost"
+      ],
+      [
+        "Irish Residence Permit (IRP)",
+        "Mandatory Immigration Registration Card",
         "€300 / year",
-        "Mandatory Irish Residence Permit (IRP) registration fee"
+        "Per Year"
       ]
     ]
   },
-  "faqs": [
+  faqs: [
     {
-      "q": "Q1. Who Should Consider an Executive MBA in Ireland?",
-      "a": "* 12\\. Financial and immigration documents if necessary. 11\\. Executive MBA Ireland FAQs An Executive MBA is usually geared for experienced professionals, managers, entrepreneurs and business leaders aiming to enhance their strategic management and leadership capabilities. Admission requirements vary, and applicants should study the work-experience requirements of each university."
+      q: "Who should consider an Executive MBA in Ireland?",
+      a: "An Executive MBA is designed for seasoned professionals, senior managers, directors, and entrepreneurs who have at least 5 to 8+ years of post-qualification professional experience, including significant managerial or leadership responsibilities. It is ideal for leaders aiming to transition from functional roles to general management or C-suite positions."
     },
     {
-      "q": "Q2. What is the cost of an Executive MBA in Ireland?",
-      "a": "The fees vary based on the university, length of program and student fee category. Trinity College Dublin also lists €37,300 total tuition for its Executive MBA. DCU publishes separate annual part-time fees for EU-status and non-EU students. Applicants should check the latest full program cost before applying."
+      q: "What is the tuition fee for an Executive MBA in Ireland?",
+      a: "Executive MBA tuition fees in Ireland for 2026/27 generally range from €12,500 per year at TU Dublin (€25,000 total) and €16,000 per year at UCC to €18,650 per year at Trinity College Dublin (€37,300 total) and €27,100 per year for non-EU students at DCU Business School. Fees are typically payable in annual or semester installments."
     },
     {
-      "q": "Q3. Can I work while studying for an Executive MBA in Ireland?",
-      "a": "Many Executive MBA programmes are tailored for working professionals and use part-time or blended study formats. But students should also check any attendance requirements and whether the mode of delivery of the program is suitable for their circumstances. International students should also review applicable immigration and work conditions."
+      q: "Can I continue working while studying for an Executive MBA in Ireland?",
+      a: "Yes. Executive MBA programs in Ireland are specifically structured for working executives, utilizing part-time, alternate-weekend, or monthly modular block formats. This enables professionals to maintain full-time corporate responsibilities while applying managerial insights directly to their workplaces."
     },
     {
-      "q": "Q4 What Jobs Can I Get After an Executive MBA Ireland?",
-      "a": "You could go on to work in senior business management, operations leadership, strategy, consulting, commercial management or entrepreneurship. The roles available to an individual will depend on their previous experience, leadership record, industry and employer requirements."
+      q: "What is the difference between a Full-Time MBA and an Executive MBA?",
+      a: "A Full-Time MBA is typically a 1-year intensive program suited for professionals with 3 to 5 years of experience taking a career break to pivot roles or industries. An Executive MBA is a 2-year part-time or modular program for senior leaders with 5 to 10+ years of experience focusing on board-level governance, corporate strategy, and executive leadership without stepping away from work."
     },
     {
-      "q": "Q5. Executive MBA or MBA: Which is better?",
-      "a": "Neither qualification is inherently better for all. An Executive MBA is often aimed at experienced professionals who wish to continue working while studying, whereas a full-time MBA may be more appropriate for applicants who can take time off work for intensive study or a career change. Compare entry requirements, schedule, curriculum, cost and career goals before deciding."
-    },
-    {
-      "q": "How Edu Hawk Worldwide Consultancy helped me to study abroad?",
-      "a": "Edu Hawk worldwide helps students find the right universities, know the admission requirements, arrange their application documents and plan their study-abroad journey. Students are responsible for checking academic, financial, immigration and licensing requirements with the appropriate official authorities."
+      q: "How does EduHawk Worldwide Consultancy assist Executive MBA applicants?",
+      a: "EduHawk Worldwide Consultancy provides specialized advisory for senior executives. We evaluate career progression, assist with business school selection and modular scheduling logistics, guide executive CV and strategic essay preparation, advise on GMAT waiver protocols, and assist with corporate visa requirements."
     }
   ]
 };
 
 export default function ExecutiveMBAIreland() {
+  const images = {
+    hero: heroImg,
+    heroBg: heroBgImg,
+    side: sideImg,
+    ctaBg: ctaBgImg,
+    unis: [uniImg1, uniImg2, uniImg3]
+  };
+
   return (
     <AbroadCoursePage
       page={page}
@@ -549,8 +384,9 @@ export default function ExecutiveMBAIreland() {
       heroBgImg={heroBgImg}
       sideImg={sideImg}
       ctaBgImg={ctaBgImg}
-      showHeroStats={false}
-      seoPath="/study-abroad/ireland/executive-mba"
+      showHeroStats={true}
+      seoPath={page.slug}
+      images={images}
     />
   );
 }

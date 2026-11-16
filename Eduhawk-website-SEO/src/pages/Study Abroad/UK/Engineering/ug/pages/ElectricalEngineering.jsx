@@ -22,9 +22,7 @@ const page = {
   "keywords": "Study BEng Electrical Engineering in the UK, BEng Electrical Engineering in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Study Electrical Engineering in the United Kingdom",
   "heroParas": [
-    "The engineering field of \"Electrical Engineering\" is focused on the production, distribution, control, and utilization of electrical energy. Electrical machinery, power systems, control technologies, renewable energy and the electrical infrastructure utilized in contemporary businesses are also covered.",
-    "Common degree titles for undergraduate Electrical Engineering programs in the UK include Electrical Engineering, Electrical and Electronic Engineering, and Electronic and Electrical Engineering.",
-    "With the right preparation and direction, Edu Hawk worldwide consultancy helps students understand university admission standards explore international study possibilities, and prepare for the overseas education journey."
+    "The engineering field of \"Electrical Engineering\" is focused on the production, distribution, control, and utilization of electrical energy. Electrical machinery, power systems, control technologies, renewable energy and the electrical infrastructure utilized in contemporary businesses are also covered."
   ],
   "overview": [
     "The engineering field of \"Electrical Engineering\" is focused on the production, distribution, control, and utilization of electrical energy. Electrical machinery, power systems, control technologies, renewable energy and the electrical infrastructure utilized in contemporary businesses are also covered.",

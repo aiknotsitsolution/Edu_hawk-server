@@ -105,10 +105,10 @@ const MainLayout = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 overflow-x-hidden w-full">
+    <div className="min-h-screen bg-gray-50 w-full">
       <Navbar />
 
-      <main className="md:pt-1 overflow-x-hidden">
+      <main className="md:pt-1">
         <Suspense fallback={<RouteLoader />}>
           <Outlet />
         </Suspense>

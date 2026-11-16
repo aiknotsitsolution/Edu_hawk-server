@@ -16,10 +16,10 @@ const page = {
   "keywords": "Study Summer Courses in USA for Indian Students, Best Universities for Summer Courses in USA, Short-Term Summer Programs in USA for International Students, Summer Course Fees in USA for Indian Students, Summer School Eligibility Requirements in USA, Summer Programs for High School Students in USA, STEM Summer Programs in USA for Indian Students, Business and Management Summer Courses in USA, Summer Research Programs in USA for International Students, English Language Summer Courses in USA, Summer Courses in USA with Certificates, Summer Course Scholarships in USA for International Students, Duration of Summer Programs in USA, USA Student Visa Requirements for Summer Courses, How to Apply for Summer Courses in USA from India",
   "introTitle": "Summer Courses in US",
   "heroParas": [
-    "Summer courses in the USA provide students with the opportunity to acquire new skills, explore academic interests, experience university life, and gain international exposure in a short time period. Universities, colleges, language institutes and dedicated educational organizations deliver these courses.",
-    "Students from India can choose from summer schools, pre-college programs, university-level courses, STEM workshops, business programs, English-language courses, arts and design workshops, and cultural learning experiences."
+    "Summer courses in the USA provide students with the opportunity to acquire new skills, explore academic interests, experience university life, and gain international exposure in a short time period across leading American universities and colleges."
   ],
   "overview": [
+    "Students from India can choose from summer schools, pre-college programs, university-level courses, STEM workshops, business programs, English-language courses, arts and design workshops, and cultural learning experiences.",
     "Edu Hawk worldwide consultancy assists students in exploring international study options, understanding university admission norms and preparing for the overseas education journey."
   ],
   "level": "Short-term",

@@ -13,447 +13,305 @@ import uniImg2 from "../../../../Images/Abroad/Ireland/BBS/Trinity_College_Dubli
 import uniImg3 from "../../../../Images/Abroad/Ireland/BBS/Trinity_College_Dublin_2.webp";
 
 const page = {
-  "name": "BBS in Ireland",
-  "country": "Ireland",
-  "slug": "bbs",
-  "title": "Study BBS in Ireland for Indian Students | Edu-Hawk Worldwide",
-  "description": "Complete guide to BBS in Ireland for Indian students: Top Irish universities, eligibility criteria, tuition fees (€13,500 – €28,640 / year), scholarships, and 2-year post-study work visa (Stamp 1G).",
-  "keywords": "Study BBS in Ireland, Top Universities for BBS in Ireland, BBS Courses in Ireland After Class 12, Bachelor of Business Studies in International Business Ireland, BBS in International Hotel Management in Ireland, BBS Eligibility Requirements for Indian Students, BBS Admission Requirements in Ireland, BBS Tuition Fees in Ireland 2026/27, Cost of Studying BBS in Ireland for International Students, Dublin City University Bachelor of Business Studies Fees",
-  "introTitle": "BBS IN IRELAND",
-  "heroParas": [
-    "BBS in Ireland",
-    "Ireland is a great destination for students who want to a build a career in business, management and commerce. A Bachelor of Business Studies (BBS) gives you a solid grounding in fields like management, marketing, accounting, finance, economics and business strategy.",
-    "After Class 12, students can apply for undergraduate business degrees in Ireland that go by different names like Bachelor of Business Studies, Bachelor of Business, Bachelor of Commerce and Business Studies International. The exact qualification depends on the institution and not all universities use the BBS title."
+  name: "BBS in Ireland",
+  country: "Ireland",
+  slug: "study-abroad/ireland/bbs",
+  title: "Study Bachelor of Business Studies (BBS) in Ireland | Fees, Colleges & Visas 2026/27",
+  description: "Complete guide to studying Bachelor of Business Studies (BBS) in Ireland: top universities, DCU & Galway business schools, INTRA internships, NFQ Level 8 degrees, 2026/27 tuition fees, and 1-year Stamp 1G post-study work visa.",
+  keywords: "Study BBS in Ireland, Bachelor of Business Studies Ireland, DCU BBS, Shannon College Hotel Management Galway, Trinity BBS, BBS tuition fees Ireland 2026 2027, undergraduate business Ireland, INTRA placement Ireland, Stamp 1G visa BBS",
+  introTitle: "BACHELOR OF BUSINESS STUDIES IN IRELAND",
+  heroParas: [
+    "Ireland provides an internationally acclaimed pathway for students pursuing a Bachelor of Business Studies (BBS), merging rigorous commerce education with corporate work placements across Europe's leading commercial capital."
   ],
-  "overview": [
-    "BBS in Ireland",
-    "Ireland is a great destination for students who want to a build a career in business, management and commerce. A Bachelor of Business Studies (BBS) gives you a solid grounding in fields like management, marketing, accounting, finance, economics and business strategy.",
-    "After Class 12, students can apply for undergraduate business degrees in Ireland that go by different names like Bachelor of Business Studies, Bachelor of Business, Bachelor of Commerce and Business Studies International. The exact qualification depends on the institution and not all universities use the BBS title.",
-    "Edu Hawk worldwide study abroad guidance helps students explore these opportunities and learn about the requirements for studying abroad."
+  overview: [
+    "A Bachelor of Business Studies (BBS) in Ireland is a premier NFQ Level 8 Honours undergraduate degree designed to provide students with a comprehensive foundation across management, marketing, financial accounting, managerial economics, corporate finance, and business analytics. Across leading Irish universities and technological universities, BBS curricula combine rigorous foundational business theory with specialized final-year tracks and integrated cooperative work placements (INTRA internships).",
+    "Depending on the institution, undergraduate business programs are awarded as Bachelor of Business Studies (BBS), Bachelor of Business (Honours), Bachelor of Commerce (BComm), or specialized joint honours such as Business Studies International. Renowned faculties such as DCU Business School, Shannon College of Hotel Management at University of Galway, and Trinity Business School partner directly with Fortune 500 corporations headquartered in Dublin, Cork, and Shannon.",
+    "Graduates holding an accredited NFQ Level 8 BBS degree qualify for Ireland's Third Level Graduate Scheme (Stamp 1G), receiving 12 months of unrestricted post-study employment permission to launch high-trajectory business careers throughout the European Union."
   ],
-  "level": "Bachelor of Business Studies (BBS Hons)",
-  "crumb": "Business / BBS",
-  "stats": [
+  level: "NFQ Level 8 (Honours Bachelor Degree)",
+  crumb: "Business / BBS",
+  stats: [
     {
-      "label": "Degree Choices",
-      "value": "Bachelor of Business Studies (BBS Hons)"
+      label: "Degree Framework",
+      value: "NFQ Level 8 Honours Bachelor"
     },
     {
-      "label": "Course Duration",
-      "value": "3 to 4 Years"
+      label: "Course Duration",
+      value: "3 to 4 Years (Full-Time)"
     },
     {
-      "label": "Top Institutions",
-      "value": "University of Galway, Trinity College Dublin"
+      label: "Annual Tuition (2026/27)",
+      value: "€15,640 – €22,580 / year"
     },
     {
-      "label": "Post-Study Work",
-      "value": "2 Years Third Level Graduate Scheme (Stamp 1G)"
+      label: "Post-Study Work Visa",
+      value: "1 Year Stamp 1G Graduate Scheme"
     }
   ],
-  "sections": [
+  unis: [
     {
-      "slot": "why",
-      "eyebrow": "Why Study in Ireland",
-      "title": "1. Why Study BBS in Ireland ?",
-      "groups": [
+      name: "Dublin City University (DCU Business School)",
+      city: "Dublin",
+      state: "Leinster, Ireland",
+      desc: "Home to Ireland's flagship Bachelor of Business Studies (BBS) program, accredited by AACSB and AMBA. Features DCU's celebrated INTRA internship scheme providing up to 12 months of structured, paid enterprise experience with global corporations.",
+      img: uniImg2
+    },
+    {
+      name: "University of Galway (Shannon College of Hotel Management)",
+      city: "Shannon / Galway",
+      state: "Connacht / Munster, Ireland",
+      desc: "Delivers the internationally prestigious BBS in International Hotel Management. Boasts a 100% graduate employment record on graduation day, combining intensive hotel operations with international professional internships worldwide.",
+      img: uniImg1
+    },
+    {
+      name: "Trinity College Dublin (Trinity Business School)",
+      city: "Dublin",
+      state: "Leinster, Ireland",
+      desc: "Holds Triple Crown accreditation (AACSB, AMBA, EQUIS). Delivers the Bachelor in Business Studies (BBS) and the interdisciplinary Business, Economic and Social Studies (BESS) degree, connecting students to Dublin's Silicon Docks.",
+      img: uniImg3
+    }
+  ],
+  sections: [
+    {
+      slot: "why",
+      eyebrow: "Why Ireland",
+      title: "Why Study Bachelor of Business Studies in Ireland?",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Studying a Bachelor of Business Studies in Ireland can provide you with academic, professional and international exposure."
+          t: "p",
+          items: [
+            "Pursuing a BBS degree in Ireland equips international undergraduates with world-class academic knowledge and direct corporate connections across the European Union."
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "- Strong business environment: Ireland hosts companies in technology, financial services, consulting, pharmaceuticals, retail and other sectors.",
-            "- General business education: Students learn about management, accounting, marketing, economics, finance and organizational behaviour.",
-            "- Practical learning:Depending on the program, students may be involved in case studies, group projects, presentations, business simulations and research assignments.",
-            "- Specialisation opportunities: Some degrees allow students to specialize in international business, accounting, marketing, management or related fields.",
-            "- International experience: Studying in a multicultural environment may help develop communication, teamwork and cross-cultural skills.",
-            "- Further education: Graduates can pursue master’s degrees in management, finance, marketing, international business and related fields, depending on admission requirements.",
-            "- Career flexibility: A business degree can support applications for entry-level roles in administration, business development, sales, marketing, operations and finance."
+          t: "ul",
+          items: [
+            "Robust Business Ecosystem: Ireland hosts European headquarters for technology, finance, consulting, life sciences, and retail multinational enterprises, creating exceptional internship and graduate employment opportunities.",
+            "Comprehensive Foundational Training: Students master the entire corporate lifecycle—including financial accounting, marketing dynamics, microeconomics, corporate governance, organizational psychology, and supply chains.",
+            "Integrated Work Placements (INTRA): Programs frequently incorporate 6 to 12 months of fully accredited, paid enterprise internships, ensuring graduates enter the employment market with proven hands-on experience.",
+            "Specialization Flexibility: After establishing core business competency, students can tailor their degree in fields such as International Business, Hospitality Management, Corporate Finance, Human Resources, or Digital Marketing.",
+            "Multicultural Cross-Cultural Development: Studying alongside peers from over 100 nationalities cultivates essential cross-cultural communication, emotional intelligence, and executive team leadership.",
+            "Global Post-Study Pathways: NFQ Level 8 BBS graduates easily articulate into elite European Master of Science (MSc) programs, MBA degrees, or immediate corporate employment via Stamp 1G."
           ]
         }
       ]
     },
     {
-      "slot": "courses",
-      "eyebrow": "Degrees & Programs",
-      "title": "2. BBS Courses in Ireland",
-      "groups": [
+      slot: "courses",
+      eyebrow: "Degree Tracks",
+      title: "Popular BBS & Undergraduate Business Options in Ireland",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "A Bachelor of Business Studies is an undergraduate degree for students wanting an introduction to the way organizations operate and make business decisions. The program usually comprises a mix of core business subjects and optional modules or specializations.",
-            "Popular BBS and associated undergraduate options in Ireland are:",
-            "Bachelor of Business Studies (BBS)",
-            "This degree will generally cover management, accounting, marketing, economics, business law, finance and organizational behaviour. Students learn about the workings of business and commercial decisions-making.",
-            "BBS: In International Business",
-            "International business programs focus on global markets, international trade, cross-cultural management and business expansion. Some courses may offer a foreign language, an international placement or study abroad opportunities.",
-            "Hotel Management Bulletin Board",
-            "Business studies with a focus on hospitality combines management principles with hotel operations, tourism, customer experience and service management. This pathway may be of interest to students who want to work in hotels, resorts, tourism and event management.",
-            "Bachelor of Commerce (B Comm)",
-            "A BComm usually includes commerce, accounting, finance, economics, marketing and management. Another good choice for students wanting a broad undergraduate business education."
+          t: "p",
+          items: [
+            "Irish universities offer several specialized iterations of the Bachelor of Business Studies framework:",
+            "Bachelor of Business Studies (BBS): The core 3-to-4-year honours degree encompassing strategic management, commercial law, corporate financial management, business analytics, and marketing strategy.",
+            "BBS in International Business: Emphasizes international marketing, multinational risk assessment, international trade economics, and foreign language fluency, often featuring a semester abroad under the Erasmus+ initiative.",
+            "BBS in International Hotel Management: Offered through world-renowned faculties like Shannon College of Hotel Management (University of Galway), combining classical business administration with high-end hospitality operations and international corporate placements.",
+            "Bachelor of Commerce (BComm): The parallel university qualification providing comprehensive academic grounding in commerce, economics, audit, taxation, and general management."
           ]
         }
       ]
     },
     {
-      "slot": "universities",
-      "eyebrow": "Top Institutions",
-      "title": "3. Top Universities for BBS in Ireland",
-      "unis": [
+      slot: "eligibility",
+      eyebrow: "Entry Standards",
+      title: "Eligibility Criteria for BBS Programs in Ireland",
+      groups: [
         {
-          "name": "University of Galway",
-          "desc": "1. Dublin City University (DCU)",
-          "imgKey": "uniImg_University_of_Galway_webp",
-          "imgIdentifier": "uniImg1",
-          "city": "Galway, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg1
+          t: "p",
+          items: [
+            "Admission to Irish BBS programs is competitive, evaluated on secondary school academic performance and language readiness."
+          ]
         },
         {
-          "name": "Trinity College Dublin",
-          "desc": "3. Trinity College Of Dublin",
-          "imgKey": "uniImg_Trinity_College_Dublin_webp",
-          "imgIdentifier": "uniImg2",
-          "city": "Dublin, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg2
-        },
-        {
-          "name": "Trinity College Dublin",
-          "desc": "3. Trinity College Of Dublin",
-          "imgKey": "uniImg_Trinity_College_Dublin_2_webp",
-          "imgIdentifier": "uniImg3",
-          "city": "Dublin, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg3
-        }
-      ]
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Admissions Criteria",
-      "title": "4. Eligibility for Studying BBS in Ireland",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The BBS eligibility criteria in Ireland differs from one university to another, course to course and applicant category to applicant category. International students are normally required to fulfill the following conditions.",
-            "Educational Qualifications",
-            "You will usually need Class 12 or equivalent recognized school-leaving qualification. Each university will compare qualifications from other countries against its entry requirements.",
-            "Grades minimum",
-            "The marks or grades you need will depend on the institution, the program and your previous qualification. “The university does not have a blanket percentage and students should refer to the country-specific entry requirements.",
-            "Subject requirements:",
-            "Many general business degrees take students from a variety of academic streams. Some programs may require mathematics or specific subjects especially those that are focused on accounting, finance, economics or analytics.",
-            "English Language Proficiency",
-            "If you have prior education that does not satisfy the university’s English-language requirements, you may be required to submit scores from IELTS Academic, TOEFL iBT, PTE Academic or another accepted test. Minimum scores vary for each course.",
-            "Other requirements",
-            "Some programs may require a personal statement, academic references, an interview or evidence of further qualifications. Each university and program has different requirements.",
-            "Eligibility for Indian Students",
-            "Students appearing for Class 12 under CBSE, CISCE or a state board should check the requirements for their respective board and course. Universities may have different views on grades, subjects and the overall qualification."
+          t: "ul",
+          items: [
+            "Secondary School Completion: Successful completion of Class 12 (Higher Secondary School Certificate) from recognized boards such as CBSE, CISCE, or State Boards, or equivalent international qualifications (IB Diploma, Cambridge A-Levels).",
+            "Minimum Grade Requirements: General minimum aggregate of 70% to 85% across top subjects in Class 12, depending on the university and program competitiveness.",
+            "Mathematics Requirement: A minimum standard in Class 10 or Class 12 Mathematics (typically 60% or Grade C/B) is mandatory due to quantitative requirements in economics, accounting, and business statistics.",
+            "English Language Competency: Standard minimum scores for non-native speakers are IELTS Academic 6.5 overall (no individual band below 6.0), TOEFL iBT 88–90, or PTE Academic 61–63.",
+            "Country-Specific Benchmarks: Indian board students with high marks in Class 12 English (80%+) may be eligible for English test waivers at designated universities."
           ]
         }
       ]
     },
     {
-      "slot": "requirements",
-      "eyebrow": "Entry Requirements",
-      "title": "5. BBS in Ireland Admission Requirements",
-      "groups": [
+      slot: "admission",
+      eyebrow: "Application Guide",
+      title: "BBS Application & Documentation Process",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Before applying, students have to check the official admission requirements for BBS in Ireland for the course they want to apply for.",
-            "Some documents commonly requested are:"
+          t: "p",
+          items: [
+            "Applicants must submit verified digital documentation through institutional online portals or designated representative systems:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "- Certificates of Class 10 and Class 12 or equivalent.",
-            "*Mark sheets and academic transcripts.",
-            "*Valid passport.",
-            "- Results of English language tests, if applicable.",
-            "- Personal statement where applicable.",
-            "- Academic references or letters of recommendation, if required."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Extracurriculars if asked."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "- Certified translation of documents not in English, if required.",
-            "- Other documents as required by the university.",
-            "Applicants should also check whether the course requires specific school subjects, minimum grades or supplementary assessments."
+          t: "ul",
+          items: [
+            "Class 10 and Class 12 official mark sheets and school-leaving passing certificates.",
+            "Valid International Passport with minimum 12 months validity beyond expected intake date.",
+            "Official academic transcripts with certified English translations if originally issued in regional languages.",
+            "Standardized English proficiency test scorecard (IELTS, TOEFL, or PTE Academic).",
+            "Well-crafted Statement of Purpose (SOP) articulating passion for business studies, university selection rationale, and professional ambitions.",
+            "Two Letters of Recommendation (LORs) from secondary school academic instructors or department heads.",
+            "Detailed CV highlighting leadership roles, debate societies, school enterprise initiatives, or community work."
           ]
         }
       ]
     },
     {
-      "slot": "tuition",
-      "eyebrow": "Tuition & Living Costs",
-      "title": "6. Cost of Studying BBS in Ireland",
-      "groups": [
+      slot: "cost",
+      eyebrow: "Tuition & Budget",
+      title: "Cost of Studying BBS in Ireland (2026/27 Intake)",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "The overall cost of studying BBS in Ireland comprises of tuition fees, accommodation, food, transport, health insurance, study materials and personal expenses.",
-            "Tuition Fee",
-            "The following examples use published 2026/27 numbers for selected business undergraduate programs. These are annual fees and are not directly comparable as the course titles and structures are different."
+          t: "p",
+          items: [
+            "Budgeting for a BBS degree in Ireland encompasses annual tuition fees, student levies, housing, food, transportation, and health coverage."
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "DUBLIN CITY UNIVERSITY – Bachelor of Business Studies \\| €17,000"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "University of Galway - BBS in International Hotel Management \\| €15,640 including levy as listed* \\|",
-            "BESS - Business Studies related courses like BESS at Trinity College Dublin \\| €22,580 for the first year* \\|",
-            "University College Cork – BComm (Hons) \\| €21,700, plus €210 capitation fee* \\|",
-            "Cost of living in",
-            "The cost of living in Ireland will depend on the city, the type of accommodation and your own spending habits. Accommodation in Dublin can be particularly expensive.",
-            "Students should expect to spend on"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "*Rent and utilities.",
-            "- Food & foodstuffs.",
-            "*Public transport.",
-            "*Mobile phone or Internet.",
-            "- Medical insurance.",
-            "- Books and study material.",
-            "- Fun and personal spending."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Other costs",
-            "Extra costs may include flights, visa-related expenses, immigration registration fees and initial accommodation costs.",
-            "Scholarships and Financial Aid",
-            "Some Irish institutions provide merit-based scholarships, bursaries or other financial support to eligible international students. Availability, award amounts and deadlines vary by university and course. Please check the official scholarship pages before applying and do not assume that an award will cover the full cost of tuition."
+          t: "ul",
+          items: [
+            "Annual Tuition Fees: Non-EU tuition fees for BBS and commerce degrees range from €15,640 to €22,580 per year for 2026/27 intakes.",
+            "Student Contribution & Capitation Levies: Universities charge small annual student center and sport levies ranging from €210 to €300.",
+            "Monthly Living Costs (Dublin): Estimated at €1,000 to €1,400 per month (€10,000 to €14,000 per academic year) for shared accommodation, groceries, and travel.",
+            "Monthly Living Costs (Galway / Cork / Limerick): Approximately €800 to €1,100 per month (€8,000 to €11,000 per academic year), offering substantial savings over Dublin.",
+            "Immigration & Healthcare Fees: €300 annual fee for the Irish Residence Permit (IRP) card plus private international student health insurance (€150 to €350 per year).",
+            "Part-Time Work Permission: Non-EU students hold Stamp 2 student visas permitting up to 20 hours per week of paid employment during semester terms and 40 hours per week during vacation months at the Irish minimum wage (€13.50/hour)."
           ]
         }
       ]
     },
     {
-      "slot": "process",
-      "eyebrow": "Application Steps",
-      "title": "7. BBS Admission Procedure In Ireland",
-      "steps": [
+      slot: "accreditation",
+      eyebrow: "Degree Quality",
+      title: "BBS Accreditation & Quality Standards",
+      groups: [
         {
-          "step": "01",
-          "title": "Step 01",
-          "desc": "The BBS admission process in Ireland normally includes the following steps."
-        },
-        {
-          "step": "02",
-          "title": "Step 02",
-          "desc": "Step"
-        },
-        {
-          "step": "03",
-          "title": "Step 2",
-          "desc": "Confirm the eligibility requirements"
-        },
-        {
-          "step": "04",
-          "title": "Step 3",
-          "desc": "Get your documents ready"
-        },
-        {
-          "step": "05",
-          "title": "Step 4",
-          "desc": "Send your application"
-        },
-        {
-          "step": "06",
-          "title": "Step 5",
-          "desc": "Responding to subsequent requests"
-        },
-        {
-          "step": "07",
-          "title": "Step 6",
-          "desc": "Receive and assess the offer"
-        },
-        {
-          "step": "08",
-          "title": "Step 7",
-          "desc": "Get your finances and immigration paperwork in order"
-        },
-        {
-          "step": "09",
-          "title": "Step 8",
-          "desc": "Get ready for enrollment"
-        }
-      ]
-    },
-    {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Recognition",
-      "title": "8. Recognition and Accreditation from BBS in Ireland",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Students should verify institutional accreditation and the degree they expect to earn before enrolling.",
-            "Some important considerations are:"
+          t: "p",
+          items: [
+            "Degrees awarded by Irish universities undergo rigorous quality oversight ensuring international academic and career mobility:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "- Institutional recognition: Check that the institution is recognized and authorized to award the degree.",
-            "- National Framework of Qualifications: Most Irish honors bachelor degrees are classified at Level 8 and ordinary bachelor degrees are normally Level 7. The exact level depends on the qualification.",
-            "- Professional recognition: Students aiming for a career in accounting, finance or another regulated professional route should verify whether their course offers relevant exemptions or recognition.",
-            "- International recognition If you plan to work or study outside of Ireland, check how the qualification is recognized by the relevant employers, professional bodies or universities.",
-            "- Course-specific accreditation: Accreditation may apply to a particular program or department, rather than to every course offered by an institution."
+          t: "ul",
+          items: [
+            "National Framework of Qualifications (NFQ): The BBS is categorized as an NFQ Level 8 Honours Bachelor Degree (typically 180 to 240 ECTS credits).",
+            "International Business School Accreditations: Leading faculties possess prestigious accreditations from AACSB (USA), AMBA (UK), and EQUIS (Europe).",
+            "Professional Body Exemptions: Most BBS programs grant direct exemptions from foundational examination papers for ACCA, Chartered Accountants Ireland, CIMA, and the Marketing Institute of Ireland (MII).",
+            "Global Portability: Recognized globally by employers, credential evaluation services (such as WES in Canada/USA), and international graduate business admissions."
           ]
         }
       ]
     },
     {
-      "slot": "careers",
-      "eyebrow": "Career Outcomes",
-      "title": "9. BBS Salary and Job Opportunities in Ireland",
-      "groups": [
+      slot: "careers",
+      eyebrow: "Career Outcomes",
+      title: "BBS Graduate Jobs, Career Prospects & Salaries",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "A Bachelor of Business Studies can be the perfect foundation for entry-level jobs in business and commerce. Career options will vary according to the specialization of the degree, practical skills, work experience, employer requirements and work authorization.",
-            "After BBS Scope",
-            "Graduates may apply for positions such as:"
+          t: "p",
+          items: [
+            "A Bachelor of Business Studies prepares graduates for agile corporate and commercial roles across multinational and domestic enterprises:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "- Business Development Executive.",
-            "Marketing Assistant/Marketing Executive",
-            "- Sales Executive.",
-            "- Assistant Human Resources.",
-            "- Operations co-ordinator",
-            "- Accounts Assistants.",
-            "- Customer Service or Customer Success Associate.",
-            "- Business Support Officer",
-            "- Recruitment Coordinator.",
-            "- Executive Administration",
-            "- Project Co-ordinator.",
-            "- Graduate Management Trainee"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Hospitality or hotel management students can pursue careers in hotel operations, guest services, tourism, and event coordination.",
-            "Salary expectation after BBS",
-            "There is no single salary of BBS graduates in Ireland. Pay depends on the job, industry, location, employer, and experience.",
-            "As a rough guide, some entry-level business, administrative, sales and marketing roles might be offered gross annual salaries somewhere in the €28,000-€40,000 range. Different salaries may be available for specialist roles or roles that require technical skills or previous experience. These numbers are not verified average salaries for BBS graduates, but are indicative estimates."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Document Checklist",
-      "title": "10. Documents Needed to Study BBS in Ireland",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The exact checklist depends on the university and the situation of the student. The usual documents that are asked while applying for BBS in Ireland are:",
-            "1\\. Passport valid",
-            "2\\. Class 10 Certificate and Marksheet",
-            "3\\. Class 12 certificate and mark sheet or any equivalent qualification.",
-            "4\\. * Academic transcripts.",
-            "5\\. English-language test results as required.",
-            "6\\. Available on request: Personal statement.",
-            "7\\. Academic references, if required.",
-            "8\\. Certified translations of documents not issued in the English language, if any.",
-            "9\\. University application and offer letter confirmation, as soon as available.",
-            "10\\. Proof of payment of tuition fees, if applicable."
+          t: "ul",
+          items: [
+            "In-Demand Corporate Roles: Business Development Executive, Commercial Sales Associate, Digital Marketing Specialist, Operations Coordinator, Junior Financial Analyst, HR Associate, Customer Success Manager, and Hotel Operations Supervisor.",
+            "Salary Expectations: Starting gross salaries for BBS graduates in Ireland typically fall between €28,000 and €40,000 per year, with fast-track promotion potential after completing the first year of employment.",
+            "Third Level Graduate Scheme (Stamp 1G): Level 8 BBS graduates enjoy 12 months of full-time, unrestricted employment authorization in Ireland, providing an established route to Critical Skills or General Employment Permits.",
+            "Postgraduate Progression: Many BBS graduates proceed to specialized MSc programs in Management, FinTech, Business Analytics, or Marketing before stepping into senior management positions."
           ]
         }
       ]
     }
   ],
-  "table": {
-    "title": "Estimated Cost of Studying BBS in Ireland in Ireland (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (€ / EUR)",
-      "Details / Scope"
-    ],
-    "rows": [
-      [
-        "Undergraduate Degree (Annual)",
-        "€13,500 – €27,640 / year",
-        "Varies by institution ranking, laboratory facilities, and program"
-      ],
-      [
-        "Postgraduate Degree (Annual)",
-        "€15,000 – €28,640 / year",
-        "1-year intensive master's program or 2-year research degree"
-      ],
-      [
-        "Living Expenses (Dublin)",
-        "€1,000 – €1,400 / month",
-        "Includes student accommodation, meals, utilities, and public transit"
-      ],
-      [
-        "Living Expenses (Outside Dublin)",
-        "€800 – €1,100 / month",
-        "Cost of living in Cork, Galway, Limerick, or Maynooth"
-      ],
-      [
-        "Student Visa & IRP Card Fee",
-        "€300 / year",
-        "Mandatory Irish Residence Permit (IRP) registration fee"
-      ]
+  steps: [
+    {
+      title: "Select BBS Specialization Track",
+      desc: "Identify whether your career path aligns with General Management, International Business, Hospitality & Hotel Management, or Accounting."
+    },
+    {
+      title: "Verify Class 12 & Mathematics Eligibility",
+      desc: "Check university grade benchmarks (typically 70%–85% aggregate) and verify meeting mathematics requirements in Class 10/12."
+    },
+    {
+      title: "Achieve English Proficiency Scores",
+      desc: "Prepare and sit for IELTS Academic (minimum 6.5 with no band below 6.0), TOEFL iBT (88+), or PTE Academic (61+)."
+    },
+    {
+      title: "Draft SOP & Gather Recommendations",
+      desc: "Compose an engaging Statement of Purpose and obtain academic recommendation letters from your secondary school instructors."
+    },
+    {
+      title: "Submit Online University Applications",
+      desc: "Apply through the official university application portals prior to international application cutoffs."
+    },
+    {
+      title: "Receive Offer & Pay Deposit",
+      desc: "Review your acceptance letter conditions and remit the required tuition fee deposit to reserve your seat in the program."
+    },
+    {
+      title: "Apply for Irish Student Visa (Stamp 2)",
+      desc: "Organize AVATS online application, fee receipts, private health insurance, and documentation proving required living sustenance funds."
+    },
+    {
+      title: "Arrive in Ireland & Register IRP",
+      desc: "Fly to Ireland, secure accommodation, complete campus orientation, and schedule your appointment for Irish Residence Permit (IRP) card registration."
+    }
+  ],
+  table: {
+    caption: "Published Tuition Fees for BBS & Undergraduate Business in Ireland (2026/27 Intake)",
+    headers: ["Institution", "Degree Title", "NFQ Level", "Annual Tuition (Non-EU)"],
+    rows: [
+      ["Dublin City University (DCU)", "Bachelor of Business Studies (BBS)", "Level 8 Honours", "€17,000 / year"],
+      ["University of Galway (Shannon College)", "BBS in International Hotel Management", "Level 8 Honours", "€15,640 / year (incl. levy)"],
+      ["Trinity College Dublin (TCD)", "Bachelor in Business Studies (BBS) / BESS", "Level 8 Honours", "€22,580 / year"],
+      ["University College Cork (UCC)", "Bachelor of Commerce (BComm Hons)", "Level 8 Honours", "€21,700 / year (+ €210 levy)"],
+      ["University of Limerick (UL)", "Bachelor of Business Studies (BBS)", "Level 8 Honours", "€16,500 – €18,500 / year"],
+      ["Technological University Dublin (TU Dublin)", "Bachelor of Business (Honours)", "Level 8 Honours", "€13,500 / year"]
     ]
   },
-  "faqs": [
+  faqs: [
     {
-      "q": "Q1. Can I do BBS in Ireland after 12th?",
-      "a": "12\\. Health insurance and other papers needed for immigration or registration. 11\\. BBS in Ireland FAQs Yes. We are now accepting applications from students who have completed Class 12 or equivalent recognized qualification for suitable undergraduate business programs in Ireland subject to academic and English-language requirements. Some Irish institutions offer a Bachelor of Business Studies and others offer related qualifications such as a Bachelor of Business or Bachelor of Commerce."
+      q: "Can I study a Bachelor of Business Studies (BBS) in Ireland after Class 12?",
+      a: "Yes. International students who have completed Class 12 (Higher Secondary School Certificate from CBSE, CISCE, or state boards) or international equivalents can apply directly for undergraduate BBS programs in Ireland, provided they fulfill the university's academic cutoffs, mathematics prerequisites, and English language proficiency requirements."
     },
     {
-      "q": "Q2. What is the max file size? How much does BBS in Ireland cost?",
-      "a": "The fees vary by institution and course. 2026/27 non-EU published examples include €17,000 per year for the DCU Bachelor of Business Studies and €15,640 per year, including the stated levy, for the University of Galway’s BBS in International Hotel Management. Does not include living expenses and charges."
+      q: "What is the tuition fee for BBS in Ireland for the 2026/27 academic year?",
+      a: "Published tuition fees for international non-EU students for 2026/27 include €17,000 per year for DCU's Bachelor of Business Studies, €15,640 per year for University of Galway's BBS in International Hotel Management, and €22,580 per year for Trinity College Dublin's BBS/BESS courses. Living expenses average €8,000 to €14,000 annually depending on whether you live in Dublin or regional cities."
     },
     {
-      "q": "Q3. What are the entry requirements for BBS in Ireland?",
-      "a": "You will usually need a recognized Class 12 or equivalent qualification, with the required grades and any specified subjects. International students may also be asked to provide evidence of English language proficiency. Requirements differ from university to university and from course to course."
+      q: "What are the core admission requirements for BBS in Ireland?",
+      a: "Requirements include a completed Class 12 certificate with a 70% to 85% aggregate, certified mark sheets, a valid passport, proof of English proficiency (IELTS 6.5 or equivalent), a compelling Statement of Purpose, two academic letters of recommendation, and satisfactory grades in secondary school mathematics."
     },
     {
-      "q": "Q4. What jobs are available to me after a BBS in Ireland?",
-      "a": "Graduates may seek entry-level jobs in business development, marketing, sales, human resources, administration, operations, customer service and accounting support. Career opportunities vary according to the program, practical skills and relevant experience."
+      q: "What kind of jobs and starting salaries can BBS graduates expect in Ireland?",
+      a: "Graduates secure roles as business development executives, marketing associates, sales representatives, operations analysts, HR specialists, and hotel management executives. Starting annual gross salaries generally range between €28,000 and €40,000, with strong upward mobility in multinational firms."
     },
     {
-      "q": "How can Edu Hawk Worldwide Consultancy help me to study abroad?",
-      "a": "Edu Hawk worldwide helps students to find the right universities, understand admission requirements, organize their application documents, and plan their study-abroad journey. Students should check with the relevant authorities to ensure they meet the academic, financial, immigration and licensing requirements."
+      q: "What post-study work visa rights does an NFQ Level 8 BBS degree offer?",
+      a: "Under the Irish Third Level Graduate Scheme (Stamp 1G), graduates of an NFQ Level 8 Honours Bachelor degree are granted 12 months (1 year) of unrestricted full-time employment permission in Ireland. This permit facilitates finding a career position that qualifies for longer-term Irish employment permits."
+    },
+    {
+      q: "How does EduHawk Worldwide Consultancy support students applying for BBS in Ireland?",
+      a: "EduHawk Worldwide provides dedicated end-to-end advisory services: university and course shortlisting, application filing, SOP enhancement, scholarship guidance, Irish student visa (Stamp 2) documentation, and pre-departure accommodation and banking support."
     }
   ]
 };
 
 export default function BBSIreland() {
+  const images = {
+    hero: heroImg,
+    heroBg: heroBgImg,
+    side: sideImg,
+    ctaBg: ctaBgImg
+  };
+
   return (
     <AbroadCoursePage
       page={page}
@@ -461,8 +319,9 @@ export default function BBSIreland() {
       heroBgImg={heroBgImg}
       sideImg={sideImg}
       ctaBgImg={ctaBgImg}
-      showHeroStats={false}
-      seoPath="/study-abroad/ireland/bbs"
+      showHeroStats={true}
+      seoPath={page.slug}
+      images={images}
     />
   );
 }

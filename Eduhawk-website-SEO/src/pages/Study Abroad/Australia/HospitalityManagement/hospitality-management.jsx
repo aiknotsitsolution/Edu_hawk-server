@@ -21,8 +21,23 @@ const page = {
   description: "Study Hospitality Management in Australia. Explore top colleges (UWA, Kaplan, Torrens, AIHE), hands-on hotel training, paid industry placements, fees, and career pathways.",
   keywords: "Study Hospitality Management in Australia Hospitality Management in Australia for Indian Students Bachelor of Hospitality Management in Australia Master of Hospitality Management in Australia Hospitality Management in Australia After Graduation Hospitality Management in Australia with Scholarships",
   introTitle: "Study Hospitality Management in Australia",
-  heroParas: ["The study of managing hotels, resorts, restaurants, food and beverage services, guest experiences, events, and other enterprises related to hospitality is known as hospitality management.","In addition to practical knowledge of customer service, hotel operations, lodging management, food and beverage operations, budgeting, marketing, and human resource management, the course integrates business management principles."],
-  overview: ["Diploma programs, associate degrees, bachelor's degrees, and master's programs in hospitality, hotel management, tourism, and event management are all available in Australia.","Based on their educational background, desired specialization, career goals, and financial constraints, students can select a qualification.","Important Highlights","Study hotel and lodging administration.","Recognize food and beverage operations","Develop your guest relations and customer service abilities.","Study up on marketing and financial management in the hospitality sector.","Examine how restaurants and resorts operate.","Learn how to handle services and plan events.","Develop your team management and leadership skills.","Examine careers in international hospitality and tourism."],
+  heroParas: [
+    "The study of managing hotels, resorts, restaurants, food and beverage services, guest experiences, events, and other enterprises related to hospitality is known as hospitality management."
+  ],
+  overview: [
+    "In addition to practical knowledge of customer service, hotel operations, lodging management, food and beverage operations, budgeting, marketing, and human resource management, the course integrates business management principles.",
+    "Diploma programs, associate degrees, bachelor's degrees, and master's programs in hospitality, hotel management, tourism, and event management are all available in Australia.",
+    "Based on their educational background, desired specialization, career goals, and financial constraints, students can select a qualification.",
+    "Important Highlights",
+    "Study hotel and lodging administration.",
+    "Recognize food and beverage operations",
+    "Develop your guest relations and customer service abilities.",
+    "Study up on marketing and financial management in the hospitality sector.",
+    "Examine how restaurants and resorts operate.",
+    "Learn how to handle services and plan events.",
+    "Develop your team management and leadership skills.",
+    "Examine careers in international hospitality and tourism."
+  ],
   level: "Undergraduate & Postgraduate",
   crumb: "Hospitality & Tourism",
 

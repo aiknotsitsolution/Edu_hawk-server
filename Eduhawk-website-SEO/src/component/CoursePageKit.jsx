@@ -1345,12 +1345,24 @@ export const Paragraphs = ({ items, className, tone }) => {
             </div>
           );
         }
+        const isBullet = typeof p === "string" && /^[*\-•]\s+/.test(p);
+        const cleanP = isBullet ? p.replace(/^[*\-•]\s+/, "") : p;
+        if (isBullet) {
+          return (
+            <div key={i} className="flex items-start gap-2.5 my-1.5 pl-1">
+              <span className="w-1.5 h-1.5 rounded-full bg-blue-600 mt-2 flex-shrink-0" />
+              <div className={tone === "dark" ? "text-white/85 text-[15px] leading-relaxed [&_strong]:text-white [&_strong]:font-bold" : "text-[15px] text-slate-600 leading-relaxed"}>
+                {formatRichText(cleanP)}
+              </div>
+            </div>
+          );
+        }
         return (
           <p
             key={i}
             className={tone === "dark" ? "text-white/85 text-[15px] leading-relaxed [&_strong]:text-white [&_strong]:font-bold" : undefined}
           >
-            {formatRichText(p)}
+            {formatRichText(cleanP)}
           </p>
         );
       })}
@@ -1901,84 +1913,37 @@ export const Pills = ({ items, tone = "blue" }) => (
 
 
 
-export const PaperArtCorner = ({ variant = "waves", color = "#0284c7" }) => {
-  if (variant === "topo") {
-    return (
-      <svg
-        viewBox="0 0 64 64"
-        className="absolute top-0 right-0 w-14 h-14 pointer-events-none"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path d="M0 0h64v64C64 28.65 35.35 0 0 0z" fill={color} fillOpacity="0.08" />
-        <path d="M12 0c3 22 28 47 52 52" stroke={color} strokeWidth="1.3" strokeOpacity="0.35" />
-        <path d="M24 0c3 17 21 35 40 40" stroke={color} strokeWidth="1.3" strokeOpacity="0.5" />
-        <path d="M36 0c3 12 15 24 28 28" stroke={color} strokeWidth="1.3" strokeOpacity="0.65" />
-        <path d="M48 0c2 7 9 14 16 16" stroke={color} strokeWidth="1.3" strokeOpacity="0.8" />
-      </svg>
-    );
-  }
-  if (variant === "origami") {
-    return (
-      <svg
-        viewBox="0 0 64 64"
-        className="absolute top-0 right-0 w-14 h-14 pointer-events-none"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path d="M0 0h64v64L0 0z" fill={color} fillOpacity="0.06" />
-        <path d="M18 0L64 46M34 0L64 30M50 0L64 14" stroke={color} strokeWidth="1.5" strokeOpacity="0.5" strokeLinecap="round" />
-        <path d="M26 0L64 38M42 0L64 22M58 0L64 6" stroke={color} strokeWidth="1" strokeOpacity="0.3" strokeDasharray="2 3" />
-      </svg>
-    );
-  }
-  return (
-    <svg
-      viewBox="0 0 64 64"
-      className="absolute top-0 right-0 w-14 h-14 pointer-events-none"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path d="M0 0h64v64C64 28.65 35.35 0 0 0z" fill={color} fillOpacity="0.08" />
-      <path d="M16 0c0 4.4 3.6 8 8 8s8-3.6 8-8" stroke={color} strokeWidth="1.3" strokeOpacity="0.4" />
-      <path d="M32 0c0 4.4 3.6 8 8 8s8-3.6 8-8" stroke={color} strokeWidth="1.3" strokeOpacity="0.45" />
-      <path d="M48 0c0 4.4 3.6 8 8 8s8-3.6 8-8" stroke={color} strokeWidth="1.3" strokeOpacity="0.5" />
-      <path d="M24 8c0 4.4 3.6 8 8 8s8-3.6 8-8" stroke={color} strokeWidth="1.3" strokeOpacity="0.45" />
-      <path d="M40 8c0 4.4 3.6 8 8 8s8-3.6 8-8" stroke={color} strokeWidth="1.3" strokeOpacity="0.5" />
-      <path d="M32 16c0 4.4 3.6 8 8 8s8-3.6 8-8" stroke={color} strokeWidth="1.3" strokeOpacity="0.5" />
-      <path d="M48 16c0 4.4 3.6 8 8 8s8-3.6 8-8" stroke={color} strokeWidth="1.3" strokeOpacity="0.55" />
-      <path d="M40 24c0 4.4 3.6 8 8 8s8-3.6 8-8" stroke={color} strokeWidth="1.3" strokeOpacity="0.55" />
-      <path d="M20 0c0 24.3 19.7 44 44 44" stroke={color} strokeWidth="1.2" strokeOpacity="0.3" />
-      <path d="M36 0c0 15.4 12.6 28 28 28" stroke={color} strokeWidth="1.2" strokeOpacity="0.4" />
-      <path d="M50 0c0 7.7 6.3 14 14 14" stroke={color} strokeWidth="1.2" strokeOpacity="0.5" />
-    </svg>
-  );
-};
+export const PaperArtCorner = ({ color = "#0284c7" }) => (
+  <svg
+    viewBox="0 0 80 80"
+    className="absolute -top-1 -right-1 w-20 h-20 pointer-events-none select-none"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    {/* Subtle geometric concentric watermark (clean, non-intrusive) */}
+    <circle cx="80" cy="0" r="70" stroke={color} strokeWidth="1" strokeOpacity="0.08" />
+    <circle cx="80" cy="0" r="50" stroke={color} strokeWidth="1" strokeOpacity="0.11" />
+    <circle cx="80" cy="0" r="30" stroke={color} strokeWidth="1" strokeOpacity="0.14" />
+    <circle cx="80" cy="0" r="14" fill={color} fillOpacity="0.03" stroke={color} strokeWidth="1" strokeOpacity="0.18" />
+  </svg>
+);
 
-export const StatGrid = ({ items }) => (
+export const StatGrid = ({ items = [] }) => (
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-    {items.map((item, i) => {
-      const art = item.art !== undefined ? item.art : (i === 1 ? "waves" : null);
-      const isHighlighted = !!art;
-      return (
-        <div
-          key={i}
-          className={`ehp-card bg-white rounded-2xl p-5 relative overflow-hidden transition-all duration-300 hover:shadow-md ${
-            isHighlighted
-              ? "border border-blue-200/90 shadow-[0_4px_20px_-4px_rgba(2,132,199,0.12)]"
-              : "border border-slate-200"
-          }`}
-        >
-          {art && <PaperArtCorner variant={art} color={item.artColor || "#0284c7"} />}
-          <span className="block text-[13px] text-slate-500 font-medium mb-1.5 relative z-10">
-            {item.label}
-          </span>
-          <strong className="text-[15px] text-slate-900 font-semibold leading-snug relative z-10 block">
-            {formatRichText(item.value)}
-          </strong>
-        </div>
-      );
-    })}
+    {(items || []).map((item, i) => (
+      <div
+        key={i}
+        className="ehp-card bg-white rounded-2xl p-5 relative overflow-hidden transition-all duration-300 hover:shadow-md border border-slate-200/90 hover:border-blue-200"
+      >
+        <PaperArtCorner color={item.artColor || "#0284c7"} />
+        <span className="block text-[13px] text-slate-500 font-medium mb-1.5 relative z-10">
+          {item.label}
+        </span>
+        <strong className="text-[15px] text-slate-900 font-semibold leading-snug relative z-10 block">
+          {formatRichText(item.value)}
+        </strong>
+      </div>
+    ))}
   </div>
 );
 
@@ -2399,145 +2364,51 @@ export const UniversityGrid = ({ unis, alt, className = "" }) => {
 /*  Timeline / Steps                                                  */
 /* ------------------------------------------------------------------ */
 
-export const StepTimeline = ({ steps, center }) => (
-
-
-
+export const StepTimeline = ({ steps = [], center }) => (
   <div className={(center ? "max-w-3xl mx-auto " : "") + "max-w-4xl"}>
-
-
-
-    {steps.map((s, i) => (
-
-
-
-      <div key={i} className="flex gap-5 pb-8 relative">
-
-
-
-        {i < steps.length - 1 && (
-
-
-
-          <div className="absolute left-[22px] top-10 bottom-0 w-0.5 bg-slate-200 -translate-x-1/2" />
-
-
-
-        )}
-
-
-
-        <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-600 text-white font-bold text-base grid place-items-center relative z-10 shadow-md shadow-blue-600/30">
-
-
-
-          {i + 1}
-
-
-
-        </div>
-
-
-
-        <div className="pt-1 bg-white/0 rounded-lg">
-
-
-
-          {typeof s === "string" ? (
-
-
-
-            <p className="text-[15px] text-slate-700 leading-relaxed pt-1.5">
-
-
-
-              {formatRichText(s)}
-
-
-
-            </p>
-
-
-
-          ) : React.isValidElement(s) ? (
-
-
-
-            <p className="text-[15px] text-slate-700 leading-relaxed pt-1.5">
-
-
-
-              {s}
-
-
-
-            </p>
-
-
-
-          ) : (
-
-
-
-            <>
-
-
-
-              {s.title && (
-
-
-
-                <h3 className="text-[17px] font-semibold text-slate-900 mb-1">
-
-
-
-                  {formatRichText(s.title)}
-
-
-
-                </h3>
-
-
-
-              )}
-
-
-
-              {(s.text || s.desc) && (
-                <p className="text-[15px] text-slate-500 leading-relaxed">
-                  {formatRichText(s.text || s.desc)}
-                </p>
-
-
-
-              )}
-
-
-
-            </>
-
-
-
+    {(steps || []).map((s, i) => {
+      const rawStep = (typeof s === "object" && s?.step) ? s.step : null;
+      const numMatch = rawStep ? String(rawStep).match(/\d+/) : null;
+      const stepNum = numMatch ? parseInt(numMatch[0], 10) : (rawStep || i + 1);
+      const title = typeof s === "object" ? (s.title || s.t) : null;
+      const desc = typeof s === "object" ? (s.desc || s.text || s.d) : (typeof s === "string" ? s : null);
+
+      return (
+        <div key={i} className="flex gap-4 sm:gap-6 pb-7 relative group">
+          {i < steps.length - 1 && (
+            <div className="absolute left-[20px] top-11 bottom-0 w-0.5 bg-slate-200 -translate-x-1/2" />
           )}
-
-
-
+          <div className="flex-shrink-0 w-10 h-10 rounded-full bg-blue-600 text-white font-bold text-base grid place-items-center relative z-10 shadow-md shadow-blue-600/30 ring-4 ring-white">
+            {stepNum}
+          </div>
+          <div className="flex-1 pt-0.5">
+            {React.isValidElement(s) ? (
+              <div className="p-4 sm:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-xs">
+                {s}
+              </div>
+            ) : title ? (
+              <div className="p-5 sm:p-6 rounded-2xl bg-white border border-slate-200/80 shadow-xs hover:border-blue-200 hover:shadow-md transition-all duration-200">
+                <h3 className="text-[17px] font-bold text-slate-900 mb-2">
+                  {formatRichText(title)}
+                </h3>
+                {desc && (
+                  <p className="text-[15px] text-slate-600 leading-relaxed">
+                    {formatRichText(desc)}
+                  </p>
+                )}
+              </div>
+            ) : (
+              <div className="p-4 sm:p-5 rounded-2xl bg-white border border-slate-200/80 shadow-xs hover:border-blue-200 hover:shadow-md transition-all duration-200">
+                <p className="text-[15px] text-slate-700 leading-relaxed">
+                  {formatRichText(desc || "")}
+                </p>
+              </div>
+            )}
+          </div>
         </div>
-
-
-
-      </div>
-
-
-
-    ))}
-
-
-
+      );
+    })}
   </div>
-
-
-
 );
 
 
@@ -4602,13 +4473,148 @@ export const EngineeringBranchPage = ({
 
 
 
+/* Helper to normalize step sequences in page groups into structured timeline items */
+const STEP_REGEX = /^Step\s*(\d+)[:\s.-]*(.*)$/i;
+
+const isStepString = (s) => typeof s === "string" && STEP_REGEX.test(s.trim());
+
+const parseStepString = (s) => {
+  const m = s.trim().match(STEP_REGEX);
+  if (!m) return null;
+  return {
+    step: m[1],
+    title: m[2] ? m[2].trim() : `Step ${m[1]}`
+  };
+};
+
+const normalizeAbroadGroups = (groups) => {
+  if (!Array.isArray(groups) || groups.length === 0) return groups;
+
+  const normalized = [];
+  let i = 0;
+
+  const getSingleText = (grp) => {
+    if (!grp || !Array.isArray(grp.items) || grp.items.length !== 1) return null;
+    return typeof grp.items[0] === "string" ? grp.items[0].trim() : null;
+  };
+
+  while (i < groups.length) {
+    const g = groups[i];
+    if (!g) {
+      i++;
+      continue;
+    }
+
+    // Pattern 1: Multi-group sequence where group i is "Step 1: Title", group i+1 is desc, etc.
+    const firstText = getSingleText(g);
+    if (firstText && isStepString(firstText)) {
+      const stepItems = [];
+      let k = i;
+
+      while (k < groups.length) {
+        const curr = groups[k];
+        const currText = getSingleText(curr);
+        if (currText && isStepString(currText)) {
+          const parsed = parseStepString(currText);
+          let title = parsed.title;
+          let desc = "";
+
+          if (k + 1 < groups.length) {
+            const nextGrp = groups[k + 1];
+            const nextText = getSingleText(nextGrp);
+            if (nextText && !isStepString(nextText)) {
+              desc = nextText;
+              k += 2;
+            } else if (Array.isArray(nextGrp?.items) && nextGrp.items.length > 0 && !nextGrp.items.some(isStepString)) {
+              desc = nextGrp.items.join(" ");
+              k += 2;
+            } else {
+              k += 1;
+            }
+          } else {
+            k += 1;
+          }
+
+          stepItems.push({
+            step: parsed.step,
+            title: title || `Step ${parsed.step}`,
+            desc: desc
+          });
+          continue;
+        }
+        break;
+      }
+
+      if (stepItems.length >= 2) {
+        normalized.push({ t: "steps", items: stepItems });
+        i = k;
+        continue;
+      }
+    }
+
+    // Pattern 2: Single group where g.items contains multiple items with Step 1, Step 2, etc.
+    if (Array.isArray(g.items) && g.items.some(isStepString)) {
+      const stepItems = [];
+      let j = 0;
+      const raw = g.items;
+
+      while (j < raw.length) {
+        const item = raw[j];
+        if (isStepString(item)) {
+          const parsed = parseStepString(item);
+          let title = parsed.title;
+          let desc = "";
+
+          if (j + 1 < raw.length && typeof raw[j + 1] === "string" && !isStepString(raw[j + 1])) {
+            desc = raw[j + 1].trim();
+            j += 2;
+          } else {
+            const splitMatch = title.match(/^(.*?)\s*[-–—:]\s*(.+)$/);
+            if (splitMatch && splitMatch[1].length < 60) {
+              title = splitMatch[1].trim();
+              desc = splitMatch[2].trim();
+            }
+            j++;
+          }
+
+          stepItems.push({
+            step: parsed.step,
+            title: title || `Step ${parsed.step}`,
+            desc: desc
+          });
+        } else {
+          if (stepItems.length === 0) {
+            normalized.push({ t: "p", items: [item] });
+          } else {
+            normalized.push({ t: "steps", items: [...stepItems] });
+            stepItems.length = 0;
+            normalized.push({ t: "p", items: [item] });
+          }
+          j++;
+        }
+      }
+
+      if (stepItems.length > 0) {
+        normalized.push({ t: "steps", items: stepItems });
+      }
+      i++;
+      continue;
+    }
+
+    normalized.push(g);
+    i++;
+  }
+
+  return normalized;
+};
+
 const AbroadGroups = ({ groups, tone = "light" }) => {
 
 
 
   if (!groups || !Array.isArray(groups)) return null;
 
-
+  const processedGroups = normalizeAbroadGroups(groups);
 
   return (
 
@@ -4618,7 +4624,7 @@ const AbroadGroups = ({ groups, tone = "light" }) => {
 
 
 
-      {groups.map((g, i) => {
+      {processedGroups.map((g, i) => {
 
 
 
@@ -4742,7 +4748,15 @@ const AbroadGroups = ({ groups, tone = "light" }) => {
 
 
 
-                if (g.t === "pills")
+                        if (g.t === "faq" || g.t === "faqs") {
+          return (
+            <div key={i} className="my-6">
+              <FaqList faqs={g.items || []} />
+            </div>
+          );
+        }
+
+if (g.t === "pills")
 
           return (
 
@@ -4970,7 +4984,7 @@ if (g.t === "ul")
 
 
 
-        if (g.t === "step" || g.t === "steps") {
+        if (g.t === "step" || g.t === "steps" || g.t === "timeline") {
           if (Array.isArray(g.items)) {
             return (
               <div key={i} className="my-6">
@@ -5342,6 +5356,23 @@ export const AbroadCoursePage = ({
 
 
 
+  const isFaqSection = (s) =>
+    Boolean(
+      s &&
+      (s.slot === "faq" ||
+       s.slot === "faqs" ||
+       s.id === "faq" ||
+       s.id === "faqs" ||
+       (typeof s.eyebrow === "string" && /\bfaqs?\b/i.test(s.eyebrow)) ||
+       (typeof s.title === "string" && /\bfaqs?\b/i.test(s.title)) ||
+       s.groups?.some((g) => g && (g.t === "faq" || g.t === "faqs")))
+    );
+
+  const faqSection = page.sections?.find(isFaqSection);
+  const sectionFaqs = faqSection?.groups?.find((g) => g && (g.t === "faq" || g.t === "faqs"))?.items || [];
+  const effectiveFaqs = (page.faqs && page.faqs.length > 0) ? page.faqs : sectionFaqs;
+  const effectiveFaqTitle = page.faqTitle || faqSection?.title || "Frequently Asked Questions";
+
   const secondary = { href: "#faq", label: "Read FAQs" };
 
 
@@ -5362,54 +5393,18 @@ export const AbroadCoursePage = ({
 
 
 
-        {page.faqs?.length > 0 && (
-
-
-
+        {effectiveFaqs?.length > 0 && (
           <script type="application/ld+json">
-
-
-
             {JSON.stringify({
-
-
-
               "@context": "https://schema.org",
-
-
-
               "@type": "FAQPage",
-
-
-
-              mainEntity: page.faqs.map((f) => ({
-
-
-
+              mainEntity: effectiveFaqs.map((f) => ({
                 "@type": "Question",
-
-
-
                 name: f.q,
-
-
-
                 acceptedAnswer: { "@type": "Answer", text: f.a },
-
-
-
               })),
-
-
-
             })}
-
-
-
           </script>
-
-
-
         )}
 
 
@@ -5664,7 +5659,7 @@ export const AbroadCoursePage = ({
 
 
 
-      {page.sections?.map((s, idx) => {
+      {page.sections?.filter((s) => !isFaqSection(s))?.map((s, idx) => {
 
 
 
@@ -5676,74 +5671,28 @@ export const AbroadCoursePage = ({
 
 
 
-        if (s.unis)
+        const sectionUnis =
+          s.unis ||
+          (s.slot === "universities" &&
+            s.groups?.find((g) => g && (g.t === "cards" || (Array.isArray(g.items) && g.items.some((it) => it && (it.img || it.name)))))?.items);
 
-
-
+        if (sectionUnis && sectionUnis.length > 0)
           return (
-
-
-
-            <section key={idx} className="py-16 sm:py-20 bg-slate-50">
-
-
-
+            <section key={idx} className="py-16 sm:py-20 bg-slate-50" id={s.id || s.slot}>
               <div className="max-w-6xl mx-auto px-6">
-
-
-
                 <EhpHead
-
-
-
                   eyebrow={s.eyebrow}
-
-
-
                   title={s.title}
-
-
-
                   desc={s.lead}
-
-
-
                   descClass="text-slate-500 text-[15px] leading-relaxed max-w-2xl space-y-3"
-
-
-
                 />
-
-
-
-                <UniversityGrid unis={s.unis} alt={(u) => u.name + " campus"} />
-
-
-
+                <UniversityGrid unis={sectionUnis} alt={(u) => (u.name || "University") + " campus"} />
                 <Paragraphs
-
-
-
                   items={s.note}
-
-
-
                   className="mt-8 max-w-3xl text-slate-500 text-[15px] leading-relaxed space-y-3"
-
-
-
                 />
-
-
-
               </div>
-
-
-
             </section>
-
-
-
           );
 
 
@@ -5752,7 +5701,7 @@ export const AbroadCoursePage = ({
 
 
 
-        if (s.steps)
+        if (s.steps || s.timeline || (s.slot === "timeline" && (s.steps || s.timeline || page?.timeline)))
 
 
 
@@ -5800,7 +5749,7 @@ export const AbroadCoursePage = ({
 
 
 
-                <StepTimeline steps={s.steps} />
+                <StepTimeline steps={s.steps || s.timeline || page?.timeline || []} />
 
 
 
@@ -6076,70 +6025,22 @@ export const AbroadCoursePage = ({
 
 
 
-      {page.faqs?.length > 0 && (
-
-
-
+      {effectiveFaqs?.length > 0 && (
         <section id="faq" className="py-16 sm:py-20">
-
-
-
           <div className="max-w-6xl mx-auto px-6">
-
-
-
             <div className="text-center mb-10">
-
-
-
               <div className="text-xs font-semibold tracking-wider uppercase text-blue-600 mb-1.5">
-
-
-
                 FAQs
-
-
-
               </div>
-
-
-
               <h2 className="text-2xl sm:text-3xl font-bold text-slate-900">
-
-
-
-                {page.faqTitle}
-
-
-
+                {effectiveFaqTitle}
               </h2>
-
-
-
             </div>
-
-
-
             <div className="max-w-3xl mx-auto">
-
-
-
-              <FaqList faqs={page.faqs} />
-
-
-
+              <FaqList faqs={effectiveFaqs} />
             </div>
-
-
-
           </div>
-
-
-
         </section>
-
-
-
       )}
 
 

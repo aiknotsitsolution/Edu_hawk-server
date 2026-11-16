@@ -16,12 +16,12 @@ const page = {
   "slug": "aero_engg_ug",
   "title": "Aerospace Engineering - UG in Italy for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Aerospace Engineering - UG in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
-  "keywords": "Top 6 SEO Keywords",
+  "keywords": "Bachelor's in Aerospace Engineering in Italy, Study Aerospace Engineering Italy, UG Aerospace Engineering Italy, Aerospace Engineering Fees in Italy",
   "introTitle": "Aerospace Engineering in Italy for Indian Students",
-  "heroParas": [
-    "Yes. Indian students can apply to Italian universities offering Aerospace Engineering or related programs provided they meet the universitys academic, language and admission requirements."
+  heroParas: [
+    "A Bachelor’s in Aerospace Engineering in Italy provides students with solid fundamentals in aerodynamics, flight mechanics, structural analysis, and spacecraft systems at prestigious polytechnic institutions."
   ],
-  "overview": [
+  overview: [
     "Yes. Indian students can apply to Italian universities offering Aerospace Engineering or related programs provided they meet the universitys academic, language and admission requirements."
   ],
   "level": "Undergraduate",
@@ -145,28 +145,60 @@ const page = {
       "title": "Aerospace Engineering Admission Process in Italy",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "The admission process for Aerospace Engineering in Italy generally involves the following steps:",
-            "Step 1: Choose Your University",
-            "Research universities offering Aerospace Engineering or related programs according to your qualifications and career goals.",
-            "Step 2: Check Eligibility",
-            "Review requirements, entrance examinations, language requirements and application deadlines.",
-            "Step 3: Prepare Your Documents",
-            "Arrange certificates, transcripts, passport, language test results and other required documents.",
-            "Step 4: Apply to the University",
-            "Complete the university application process. Submit the required documents.",
-            "Step 5: Complete Admission Assessments",
-            "Appear for entrance examinations, interviews or other assessments if required.",
-            "Step 6: Receive Your Admission Decision",
-            "If selected review your admission offer and complete the universitys enrollment requirements.",
-            "Step 7: Apply for Your Student Visa",
-            "Prepare the required documents and follow the Italian student visa procedure.",
-            "Step 8: Prepare for Your Journey",
-            "Arrange accommodation, travel, insurance and other necessary preparations before departure.",
-            "Edu-Hawk Worldwide supports students in exploring university options understanding application requirements and preparing for their study abroad journey."
-          ]
-        }
+        "t": "timeline",
+        "items": [
+                {
+                        "step": "1",
+                        "title": "",
+                        "desc": "Choose Your University"
+                },
+                {
+                        "step": "2",
+                        "title": "Step 2",
+                        "desc": "Research universities offering Aerospace Engineering or related programs according to your qualifications and career goals."
+                },
+                {
+                        "step": "3",
+                        "title": "",
+                        "desc": "Check Eligibility"
+                },
+                {
+                        "step": "4",
+                        "title": "",
+                        "desc": "Prepare Your Documents"
+                },
+                {
+                        "step": "5",
+                        "title": "",
+                        "desc": "Apply to the University"
+                },
+                {
+                        "step": "6",
+                        "title": "Step 6",
+                        "desc": "Complete the university application process. Submit the required documents."
+                },
+                {
+                        "step": "7",
+                        "title": "",
+                        "desc": "Complete Admission Assessments"
+                },
+                {
+                        "step": "8",
+                        "title": "",
+                        "desc": "Receive Your Admission Decision"
+                },
+                {
+                        "step": "9",
+                        "title": "",
+                        "desc": "Apply for Your Student Visa"
+                },
+                {
+                        "step": "10",
+                        "title": "",
+                        "desc": "Prepare for Your Journey"
+                }
+        ]
+}
       ]
     },
     {
@@ -264,7 +296,34 @@ const page = {
         }
       ]
     }
-  ]
+  ],
+  faqs: [
+    {
+        "q": "Can Indian students study Aerospace Engineering in Italy after Class 12?",
+        "a": "Yes. Students who have completed Class 12 with physics and mathematics can apply for eligible undergraduate aerospace engineering degrees."
+    },
+    {
+        "q": "How long is a Bachelor's in Aerospace Engineering in Italy?",
+        "a": "The Bachelor's degree (Laurea) takes 3 academic years (180 ECTS credits) to complete."
+    },
+    {
+        "q": "What are the tuition fees for undergraduate aerospace engineering in Italy?",
+        "a": "Public university tuition ranges from €1,000 to €3,900 per year, and can be fully covered through regional DSU scholarships."
+    },
+    {
+        "q": "What entrance examinations are required for bachelor's admission?",
+        "a": "Applicants typically take the English TOLC-I examination testing mathematics, physics, logic, and verbal reasoning."
+    },
+    {
+        "q": "What are the foundation subjects covered in the bachelor's curriculum?",
+        "a": "Core subjects include mathematical analysis, thermodynamics, aerodynamics, aerospace materials, flight mechanics, and aircraft structures."
+    },
+    {
+        "q": "What are the opportunities after graduating with an aerospace bachelor's?",
+        "a": "Graduates usually progress to a 2-year Master of Science in Aerospace Engineering or enter junior engineering roles in the aerospace manufacturing sector."
+    }
+],
+  faqTitle: "Frequently Asked Questions About Aerospace Engineering UG in Italy"
 };
 
 export default function AerospaceEngineeringUGItaly() {

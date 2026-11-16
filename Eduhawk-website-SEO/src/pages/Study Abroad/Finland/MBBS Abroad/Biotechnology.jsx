@@ -18,8 +18,13 @@ const page = {
   description: "Study Biotechnology in Finland: English-taught Master's programmes at Aalto University and University of Helsinki, life sciences research, laboratory training, fees and admissions for Indian students.",
   keywords: "Study Biotechnology in Finland, Biotechnology in Finland for Indian Students, Universities in Finland, Cost of Studying in Finland",
   introTitle: "Biotechnology in Finland",
-  heroParas: [],
-  overview: [],
+  heroParas: [
+    "**[Study Biotechnology in Finland](/courses/mbbs)** to gain cutting-edge education in a research-driven Nordic ecosystem renowned for modern laboratory facilities, scientific entrepreneurship, and clean bio-innovations."
+  ],
+  overview: [
+    "For Indian students, **Biotechnology in Finland for Indian Students** is an outstanding study option spanning life sciences, pharmaceuticals, healthcare technologies, food science, and environmental sustainability. Finnish universities focus on bridging foundational scientific discoveries with scalable commercial bioprocesses.",
+    "Prominent English-taught master's programmes are offered at world-class institutions like **Aalto University** and the **University of Helsinki**. With **[Edu-Hawk Worldwide](/services)**, students can explore international biotechnology pathways, compare curricula, and plan university applications systematically."
+  ],
   level: "Master's & Post-Graduate",
   crumb: "MBBS Abroad",
 

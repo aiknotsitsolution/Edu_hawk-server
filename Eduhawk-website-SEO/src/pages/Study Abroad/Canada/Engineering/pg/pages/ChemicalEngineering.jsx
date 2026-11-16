@@ -20,8 +20,7 @@ const page = {
   "keywords": "Study Chemical Engineering - PG in Canada, Chemical Engineering - PG in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Chemical Engineering for Indian Students in Canada",
   "heroParas": [
-    "Students looking for postgraduate Chemical Engineering courses in Canada are drawn to Canada. In order to create and optimize industrial processes utilized in energy, medicines, food processing, mining, petrochemicals, biotechnology, and sustainable manufacturing, the field integrates chemistry, physics, mathematics, and engineering principles.",
-    "Postgraduate programs at Canadian institutions may include advanced coursework, research, laboratory work, and projects with an industry focus. Depending on their academic backgrounds and employment goals, students can select research-based degrees or professional master's programs."
+    "Students looking for postgraduate Chemical Engineering courses in Canada are drawn to Canada. In order to create and optimize industrial processes utilized in energy, medicines, food processing, mining, petrochemicals, biotechnology, and sustainable manufacturing, the field integrates chemistry, physics, mathematics, and engineering principles."
   ],
   "overview": [
     "Students looking for postgraduate Chemical Engineering courses in Canada are drawn to Canada. In order to create and optimize industrial processes utilized in energy, medicines, food processing, mining, petrochemicals, biotechnology, and sustainable manufacturing, the field integrates chemistry, physics, mathematics, and engineering principles.",

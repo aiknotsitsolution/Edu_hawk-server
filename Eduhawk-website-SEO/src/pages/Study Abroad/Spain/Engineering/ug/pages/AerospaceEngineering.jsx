@@ -19,8 +19,7 @@ const page = {
   "keywords": "Study Aerospace Engineering - UG in Spain, Aerospace Engineering - UG in Spain for Indian Students, Best Universities in Spain, Cost of Studying in Spain",
   "introTitle": "Aerospace Engineering bachelor's degree in Spain for Indian students",
   "heroParas": [
-    "Bachelor's in Aerospace Engineering in Spain for Indian Students provides the chance to study aircraft design, aerodynamics, propulsion systems, flight mechanics and spacecraft technologies. Spain has a developed aerospace and aviation sector and universities provide undergraduate programs in aeronautics, aircraft systems and space technology.",
-    "Students who want to Study Aerospace Engineering in Spain should make sure they compare program titles and course structures in detail. Many Spanish universities offer Aerospace Engineering or Aeronautical Engineering bachelor degrees, and space-related specializations may be available through selected modules or postgraduate study."
+    "Bachelor's in Aerospace Engineering in Spain for Indian Students provides the chance to study aircraft design, aerodynamics, propulsion systems, flight mechanics and spacecraft technologies. Spain has a developed aerospace and aviation sector and universities provide undergraduate programs in aeronautics, aircraft systems and space technology."
   ],
   "overview": [
     "Bachelor's in Aerospace Engineering in Spain for Indian Students provides the chance to study aircraft design, aerodynamics, propulsion systems, flight mechanics and spacecraft technologies. Spain has a developed aerospace and aviation sector and universities provide undergraduate programs in aeronautics, aircraft systems and space technology.",

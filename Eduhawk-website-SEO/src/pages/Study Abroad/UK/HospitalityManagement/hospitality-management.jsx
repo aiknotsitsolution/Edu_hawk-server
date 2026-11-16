@@ -19,13 +19,10 @@ const page = {
   "keywords": "Study Hospitality Management in the UK, Hospitality Management in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Study Hospitality Management in the UK",
   "heroParas": [
-    "Students who want to work in hotels, tourism, event management, restaurants, resorts, and other hospitality-related industries should consider studying Hospitality Management in the UK. The UK is famous for its broad hospitality industry, world-leading universities and opportunities for practical learning.",
-    "The main advantages of hospitality management in the UK",
-    "Internationally Recognized Qualifications: Hospitality management programs offered by UK institutions are accepted by businesses all over the world."
+    "Students who want to work in hotels, tourism, event management, restaurants, resorts, and other hospitality-related industries should consider studying Hospitality Management in the UK. The UK is famous for its broad hospitality industry, world-leading universities and opportunities for practical learning."
   ],
   "overview": [
     "Students who want to work in hotels, tourism, event management, restaurants, resorts, and other hospitality-related industries should consider studying Hospitality Management in the UK. The UK is famous for its broad hospitality industry, world-leading universities and opportunities for practical learning.",
-    "The main advantages of hospitality management in the UK",
     "Internationally Recognized Qualifications: Hospitality management programs offered by UK institutions are accepted by businesses all over the world."
   ],
   "level": "BA & MSc Hospitality Management",

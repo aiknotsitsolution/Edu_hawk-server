@@ -20,8 +20,7 @@ const page = {
   "keywords": "Study Architecture in Spain, Architecture in Spain for Indian Students, Best Universities in Spain, Cost of Studying in Spain",
   "introTitle": "Architecture in Spain for Indian Students",
   "heroParas": [
-    "Studying Architecture in Spain for Indian Students is an opportunity to explore architectural design, sustainable construction, urban planning, building technology, and heritage conservation in a country known for its diverse architectural styles. In Spain, universities blend design theory, technical knowledge, studio projects and hands-on learning so students can see how buildings and urban spaces are planned and developed.",
-    "Class 12 students after completing relevant undergraduate qualifications can opt for a Bachelor's degree in Architecture or a Master's degree. In Spain, public universities, private institutions and specialist architecture schools all offer programs, with the language of instruction varying according to the program. Students planning to Study Architecture in Spain can explore different academic pathways based on their qualifications and professional goals."
+    "Studying Architecture in Spain for Indian Students is an opportunity to explore architectural design, sustainable construction, urban planning, building technology, and heritage conservation in a country known for its diverse architectural styles."
   ],
   "overview": [
     "Studying Architecture in Spain for Indian Students is an opportunity to explore architectural design, sustainable construction, urban planning, building technology, and heritage conservation in a country known for its diverse architectural styles. In Spain, universities blend design theory, technical knowledge, studio projects and hands-on learning so students can see how buildings and urban spaces are planned and developed.",

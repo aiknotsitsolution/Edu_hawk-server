@@ -1,0 +1,81 @@
+{
+  "seo": {
+    "title": "Study Architecture in Switzerland in Switzerland for Indian Students | Edu-Hawk Worldwide",
+    "description": "Study Architecture in Switzerland: Top universities, course duration, tuition fees, eligibility criteria, admission process & visa requirements for Indian students."
+  },
+  "hero": {
+    "badge": "Study Abroad - Switzerland",
+    "title": "Study Architecture in Switzerland",
+    "subtitle": "For students wishing to study architecture, Switzerland is an excellent destination in a country respected for cutting-edge design, sustainable construction, precision engineering and top-quality urban planning. Switzerland’s architectural education blends creative thought with technical know-how, environmental awareness and hands-on design work.",
+    "ctaText": "Book Free Counselling",
+    "image": ""
+  },
+  "stats": [
+    {
+      "n": "B.Arch & M.Arch in Architecture",
+      "l": "Degree Choices"
+    },
+    {
+      "n": "3 Years (UG) / 2 Years (PG)",
+      "l": "Course Duration"
+    },
+    {
+      "n": "ETH Zurich, EPFL & USI Accademia",
+      "l": "Top Institutions"
+    },
+    {
+      "n": "CHF 1,000 – CHF 3,000 / Year",
+      "l": "Indicative Fees"
+    }
+  ],
+  "highlights": {
+    "degree": "Bachelor & Master of Architecture",
+    "duration": "3–4 Yrs (UG) / 1.5–2 Yrs (PG)",
+    "fee": "CHF 1,000 – CHF 4,000 / Year",
+    "eligibility": "Class 12 / Bachelor's degree + Language Proficiency",
+    "medium": "German / French / English"
+  },
+  "overview": "Top advantages of studying Architecture in Switzerland:\n\nWorld-class education Switzerland’s technical universities and schools of architecture are world-renowned.  \nInnovative architectural design Modern architecture, city development and up-to-date building techniques.  \nSustainable Architecture: Explore energy-efficient buildings, eco-friendly materials, and green design.  \nHands-on learning Develop abilities through design studios, research projects, model making and technical assignments.  \nExposure to the international world: Interact with students coming from different cultural and academic backgrounds.  \nAdvanced technology: Learn to use digital design, Building Information Modeling (BIM) and computer-aided design tools.  \nCareer progression: Lay the foundation for opportunities in architecture, urban planning, construction and design consultancy.",
+  "universities": [
+    {
+      "name": "ETH Zurich",
+      "location": "Zurich, Switzerland",
+      "fee": "CHF 1,460 / Year",
+      "image": ""
+    },
+    {
+      "name": "EPFL",
+      "location": "Lausanne, Switzerland",
+      "fee": "CHF 1,560 / Year",
+      "image": ""
+    },
+    {
+      "name": "University of Zurich",
+      "location": "Zurich, Switzerland",
+      "fee": "CHF 1,500 / Year",
+      "image": ""
+    }
+  ],
+  "faq": [
+    {
+      "question": "Switzerland – is this a good place to study Architecture?",
+      "answer": "Yes. Switzerland is recognized for its strong technical education, architectural research, sustainable construction and innovative design culture. Students should compare program structure, language requirements, costs and professional recognition before choosing a university."
+    },
+    {
+      "question": "How much does it cost to study Architecture in Switzerland for Indian students?",
+      "answer": "Tuition fees for many public-university routes can range from ₹1 lakh to ₹18 lakh a year; some private courses could be much more expensive. Students should budget to spend around ₹12 lakh-₹30 lakh or more annually, including living expenses, depending on the institution and city."
+    },
+    {
+      "question": "Can I study Architecture in Switzerland after 12th grade?",
+      "answer": "Yes, Indian students can look at bachelor’s programs but admission is not automatic. Some universities require certain academic subjects, extra qualifications or exams, language proficiency and portfolio materials."
+    },
+    {
+      "question": "Does Switzerland require IELTS for Architecture?",
+      "answer": "Not everyone has to do IELTS. English language programs may require IELTS, TOEFL or other evidence of proficiency. German, French or Italian language programs may require proficiency in the language concerned. Requirements differ by institution."
+    },
+    {
+      "question": "Can I practice as an architect in Switzerland after graduation?",
+      "answer": "Maybe, but just because you graduate from a university does not mean you will find a job, a work permit or the right to work freely in a profession. Applicants should check work authorization, employer requirements, language expectations and applicable professional recognition rules."
+    }
+  ]
+}

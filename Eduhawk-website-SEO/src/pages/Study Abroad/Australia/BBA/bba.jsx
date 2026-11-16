@@ -21,8 +21,29 @@ const page = {
   description: "Study Bachelor of Business Administration (BBA) in Australia. Learn about top colleges (Macquarie, Wollongong, UTS, La Trobe), eligibility after 12th, fees, and career pathways.",
   keywords: "",
   introTitle: "Indian students pursuing a Bachelor of Business Administration (BBA) in Australia",
-  heroParas: ["Yes, Indian students who fulfill the academic and English language requirements of the university may apply to approved undergraduate business programs.","Q2. Do all Australian universities offer BBA programs?"],
-  overview: ["No. While some universities offer a Bachelor of Business Administration, others offer similar degrees as a Bachelor of Management, Bachelor of Commerce, or Bachelor of Business.","Q3. How long does an Australian BBA program last?","Three years of full-time study are required for many undergraduate business degrees. Certain programs and combined degrees could take longer.","Q4. In Class 12, what grades are necessary?","Each university, course, and Indian education board has different requirements for academic performance. Students should verify their qualifications by consulting the official admittance requirements.","Q5. Does Australia's BBA program require mathematics?","Not for all business programs. Candidates should verify the topic requirements as some courses or specializations may have requirements in mathematics.","Keywords -","Study BBA in Australia for Indian Students","Study Bachelor of Business Administration in Australia: Universities and Fees","Study BBA in Australia with Scholarships for Indian Students","Study BBA in Australia: Eligibility and Admission Requirements","Study Business Management in Australia After Class 12","Study BBA in Australia: Career Opportunities After Graduation","Study BBA in Australia: IELTS Requirements and Course Duration","Study BBA in Australia: Admission Process and Student Visa","."],
+  heroParas: [
+    "Yes, Indian students who fulfill the academic and English language requirements of the university may apply to approved undergraduate business programs."
+  ],
+  overview: [
+    "Q2. Do all Australian universities offer BBA programs?",
+    "No. While some universities offer a Bachelor of Business Administration, others offer similar degrees as a Bachelor of Management, Bachelor of Commerce, or Bachelor of Business.",
+    "Q3. How long does an Australian BBA program last?",
+    "Three years of full-time study are required for many undergraduate business degrees. Certain programs and combined degrees could take longer.",
+    "Q4. In Class 12, what grades are necessary?",
+    "Each university, course, and Indian education board has different requirements for academic performance. Students should verify their qualifications by consulting the official admittance requirements.",
+    "Q5. Does Australia's BBA program require mathematics?",
+    "Not for all business programs. Candidates should verify the topic requirements as some courses or specializations may have requirements in mathematics.",
+    "Keywords -",
+    "Study BBA in Australia for Indian Students",
+    "Study Bachelor of Business Administration in Australia: Universities and Fees",
+    "Study BBA in Australia with Scholarships for Indian Students",
+    "Study BBA in Australia: Eligibility and Admission Requirements",
+    "Study Business Management in Australia After Class 12",
+    "Study BBA in Australia: Career Opportunities After Graduation",
+    "Study BBA in Australia: IELTS Requirements and Course Duration",
+    "Study BBA in Australia: Admission Process and Student Visa",
+    "."
+  ],
   level: "Undergraduate",
   crumb: "Business & Management",
 

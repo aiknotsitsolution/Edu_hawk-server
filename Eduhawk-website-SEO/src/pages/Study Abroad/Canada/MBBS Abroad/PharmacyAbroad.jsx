@@ -20,8 +20,7 @@ const page = {
   "keywords": "Study Pharmacy in Canada, Pharmacy in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Indian Students Can Study Pharmacy in Canada",
   "heroParas": [
-    "Students interested in pharmaceutical sciences, medication administration, drug research, and healthcare are drawn to Canada. High-quality academic programs that integrate theoretical knowledge, laboratory work, research, and practical learning are available to students who wish to study pharmacy in Canada",
-    "Key reason for Studying Pharmacy in Canada"
+    "Students interested in pharmaceutical sciences, medication administration, drug research, and healthcare are drawn to Canada. High-quality academic programs that integrate theoretical knowledge, laboratory work, research, and practical learning are available to students who wish to study pharmacy in Canada"
   ],
   "overview": [
     "Students interested in pharmaceutical sciences, medication administration, drug research, and healthcare are drawn to Canada. High-quality academic programs that integrate theoretical knowledge, laboratory work, research, and practical learning are available to students who wish to study pharmacy in Canada",

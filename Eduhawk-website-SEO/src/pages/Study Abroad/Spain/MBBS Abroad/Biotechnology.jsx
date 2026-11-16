@@ -7,6 +7,7 @@ import heroBgImg from "../../../../Images/Abroad/Spain/Biotechnology/hero_bg.web
 import sideImg from "../../../../Images/Abroad/Spain/Biotechnology/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Spain/Biotechnology/cta_bg.webp";
 import Universitat_de_BarcelonaImg from "../../../../Images/Abroad/Spain/Biotechnology/Universitat_de_Barcelona.webp";
+import Universitat_Autonoma_de_BarcelonaImg from "../../../../Images/Abroad/Spain/Biotechnology/Universitat_Autonoma_de_Barcelona.webp";
 import Universidad_Autonoma_de_MadridImg from "../../../../Images/Abroad/Spain/Biotechnology/Universidad_Autonoma_de_Madrid.webp";
 
 const page = {
@@ -18,8 +19,7 @@ const page = {
   "keywords": "Study Biotechnology in Spain, Biotechnology in Spain for Indian Students, Best Universities in Spain, Cost of Studying in Spain",
   "introTitle": "Biotechnology in Spain for Indian Students",
   "heroParas": [
-    "Biotechnology in Spain for Indian Students provides the Indian students with the opportunity to explore modern biological sciences, genetics, molecular biology, microbiology, pharmaceutical research and biotechnological innovation. Universities in Spain offer undergraduate and postgraduate courses in biotechnology and related disciplines, with specializations including biomedical research, industrial biotechnology and bioinformatics and molecular biology.",
-    "A Bachelor's in Biotechnology in Spain is generally ideal for students who have completed Class 12 with science subjects, while a Master's in Biotechnology in Spain is targeted toward graduates of biotechnology, biology, biochemistry, biomedical sciences and related disciplines."
+    "Biotechnology in Spain for Indian Students provides the Indian students with the opportunity to explore modern biological sciences, genetics, molecular biology, microbiology, pharmaceutical research and biotechnological innovation."
   ],
   "overview": [
     "Biotechnology in Spain for Indian Students provides the Indian students with the opportunity to explore modern biological sciences, genetics, molecular biology, microbiology, pharmaceutical research and biotechnological innovation. Universities in Spain offer undergraduate and postgraduate courses in biotechnology and related disciplines, with specializations including biomedical research, industrial biotechnology and bioinformatics and molecular biology.",
@@ -155,32 +155,28 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Best Universities in Spain for Biotechnology",
-      "groups": [
+      "lead": "Explore top-ranked Spanish universities offering internationally accredited biotechnology programs, state-of-the-art research laboratories, and English-taught pathways.",
+      "unis": [
         {
-          "t": "cards",
-          "items": [
-            {
-              "name": "Universitat de Barcelona",
-              "location": "Spain",
-              "fee": "€2,000 – €18,000 / Year",
-              "desc": "Offers a 4 year Bachelor's Degree in Biotechnology, worth 240 ECTS credits. The course includes biological sciences, molecular biotechnology, industrial applications and environmental sustainability. Teaching is mainly in Catalan and Spanish, with some in English.",
-              "img": Universitat_de_BarcelonaImg
-            },
-            {
-              "name": "Universitat Aut&ograve;noma de Barcelona",
-              "location": "Spain",
-              "fee": "€2,000 – €18,000 / Year",
-              "desc": "Offers a Bachelor's degree in biotechnology, with interdisciplinary training in living organisms, experimental methods and biotechnology production processes. The four year course is taught in Catalan, Spanish and some English.",
-              "img": null
-            },
-            {
-              "name": "Universidad Autónoma de Madrid",
-              "location": "Spain",
-              "fee": "€2,000 – €18,000 / Year",
-              "desc": "It offers a one-year Master's in Biotechnology and 60 ECTS credits. The teaching languages of the program are Spanish and English. Aims: Professional development and research preparation.",
-              "img": Universidad_Autonoma_de_MadridImg
-            }
-          ]
+          "name": "Universitat de Barcelona",
+          "location": "Barcelona, Spain",
+          "fee": "€2,000 – €18,000 / Year",
+          "desc": "Offers a 4-year Bachelor's Degree in Biotechnology (240 ECTS credits) covering biological sciences, molecular biotechnology, industrial applications, and environmental sustainability.",
+          "img": Universitat_de_BarcelonaImg
+        },
+        {
+          "name": "Universitat Autònoma de Barcelona",
+          "location": "Barcelona, Spain",
+          "fee": "€2,000 – €18,000 / Year",
+          "desc": "Offers world-class biotechnology training with interdisciplinary laboratory focus on living organisms, genomics, and advanced biotechnology production processes.",
+          "img": Universitat_Autonoma_de_BarcelonaImg
+        },
+        {
+          "name": "Universidad Autónoma de Madrid",
+          "location": "Madrid, Spain",
+          "fee": "€2,000 – €18,000 / Year",
+          "desc": "Offers a prestigious one-year Master's in Biotechnology (60 ECTS credits) in English and Spanish, focused on biomedical research and pharmaceutical development.",
+          "img": Universidad_Autonoma_de_MadridImg
         }
       ]
     },
@@ -503,7 +499,7 @@ const page = {
             },
             {
               "q": "What are the job opportunities after Biotechnology in Spain?",
-              "a": "Graduates can find employment in biotechnology research, pharmaceuticals, quality control, laboratory science, biomanufacturing, food science and environmental biotechnology. Some advanced research positions require post-graduate qualifications. Begin Your Study Abroad Journey with Edu-Hawk Worldwide Planning Biotechnology in Spain for Indian Students ? Choosing the right university, understanding eligibility requirements, preparing documents and completing admission formalities are important steps toward your international education goals. Edu-Hawk Worldwide helps students explore international education options, understand university admission requirements and plan their study abroad journey. Take your first step toward your global education dreams with Edu-Hawk Worldwide . Biotechnology in Spain for Indian Students Studying Biotechnology in Spain Biotechnology Courses in Spain Best Universities in Spain for Biotechnology Biotechnology Admission Requirements in Spain Biotechnology Fees in Spain Edu-Hawk Worldwide Counts are based on exact keyword phrases in the article body, including headings, and exclude this keyword list and the usage-count table. Capitalization differences are treated as the same phrase. SEO Keyword Number of Times Used Biotechnology in Spain for Indian Students 3 Studying Biotechnology in Spain 2 Biotechnology Courses in Spain 1 Best Universities in Spain for Biotechnology 1 Biotechnology Admission Requirements in Spain 1 Biotechnology Fees in Spain 1 Edu-Hawk Worldwide 5"
+              "a": "Graduates can find employment in biotechnology research, pharmaceuticals, quality control, laboratory science, biomanufacturing, food science and environmental biotechnology. Some advanced research positions require post-graduate qualifications. Begin Your Study Abroad Journey with Edu-Hawk Worldwide Planning Biotechnology in Spain for Indian Students ? Choosing the right university, understanding eligibility requirements, preparing documents and completing admission formalities are important steps toward your international education goals. Edu-Hawk Worldwide helps students explore international education options, understand university admission requirements and plan their study abroad journey. Take your first step toward your global education dreams with Edu-Hawk Worldwide . Biotechnology in Spain for Indian Students Studying Biotechnology in Spain Biotechnology Courses in Spain Best Universities in Spain for Biotechnology Biotechnology Admission Requirements in Spain Biotechnology Fees in Spain Edu-Hawk Worldwide"
             }
           ]
         }

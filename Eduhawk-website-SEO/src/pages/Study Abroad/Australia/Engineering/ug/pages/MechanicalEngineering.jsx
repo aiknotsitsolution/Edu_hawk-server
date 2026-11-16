@@ -23,10 +23,10 @@ const page = {
     "Study Mechanical Engineering in Australia for Indian Students Undergraduate Mechanical Engineering Courses in Australia Best Universities for Mechanical Engineering in Australia Mechanical Engineering Courses in Australia After 12th Mechanical Engineering Course Duration in Australia English Language Requirements for Engineering in Australia Mechanical Engineering Specialisations in Australia Mechanical Engineering Admission Process for Indian Students Engineers Australia Accredited Engineering Courses Career Opportunities After Mechanical Engineering in Australia",
   introTitle: "Undergraduate Mechanical Engineering in Australia",
   heroParas: [
-    "Mechanical engineering is one of the oldest and broadest engineering disciplines. It focuses on the design, analysis, testing, manufacturing, and maintenance of mechanical systems, machines, and thermal devices.",
-    "Australia is a popular destination for Indian students seeking high-quality engineering education, state-of-the-art research laboratories, industry-integrated learning, and globally recognized qualifications accredited by Engineers Australia."
+    "Mechanical engineering is one of the oldest and broadest engineering disciplines. It focuses on the design, analysis, testing, manufacturing, and maintenance of mechanical systems, machines, and thermal devices."
   ],
   overview: [
+    "Australia is a popular destination for Indian students seeking high-quality engineering education, state-of-the-art research laboratories, industry-integrated learning, and globally recognized qualifications accredited by Engineers Australia.",
     "Undergraduate mechanical engineering programs in Australia emphasize mechanics, thermodynamics, fluid dynamics, robotics, materials science, CAD modeling, and sustainable industrial manufacturing."
   ],
   level: "UG",

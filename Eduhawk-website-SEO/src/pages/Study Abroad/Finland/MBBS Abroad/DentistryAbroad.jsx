@@ -20,8 +20,13 @@ const page = {
   description: "Study Dentistry in Finland: Licentiate of Dentistry, top dental universities (Helsinki, Turku, Oulu, UEF), eligibility, fees, admission process and careers for Indian students.",
   keywords: "Study Dentistry in Finland, Dentistry in Finland for Indian Students, Universities in Finland, Cost of Studying in Finland",
   introTitle: "Dentistry in Finland",
-  heroParas: [],
-  overview: [],
+  heroParas: [
+    "**[Study Dentistry in Finland](/study-abroad/finland/dentistry)** to experience a highly developed education system that focuses on **practical training**, research, **modern dental technology**, and patient-centred healthcare."
+  ],
+  overview: [
+    "For Indian students, understanding the **eligibility criteria**, **language requirements**, **admission process**, and **cost of education** is essential before choosing this destination. **Dentistry in Finland for Indian students** offers an opportunity to explore professional dental education in a country known for its emphasis on **evidence-based dentistry** and **preventive oral healthcare**.",
+    "Finnish dental education combines **theoretical knowledge**, **simulation-based learning**, and **clinical patient training**. At the **University of Oulu**, for example, students progress from foundational studies to clinical training and practical work in dental healthcare settings."
+  ],
   level: "Undergraduate & Licentiate",
   crumb: "MBBS Abroad",
 

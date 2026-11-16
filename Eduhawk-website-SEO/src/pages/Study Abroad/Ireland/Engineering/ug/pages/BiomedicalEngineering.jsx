@@ -13,447 +13,366 @@ import uniImg2 from "../../../../../../Images/Abroad/Ireland/Engineering_UG/Biom
 import uniImg3 from "../../../../../../Images/Abroad/Ireland/Engineering_UG/Biomedical/Trinity_College_Dublin_3.webp";
 
 const page = {
-  "name": "Biomedical Engineering in Ireland",
-  "country": "Ireland",
-  "slug": "ug/biomedical-engineering",
-  "title": "Study Biomedical Engineering in Ireland for Indian Students | Edu-Hawk Worldwide",
-  "description": "Complete guide to Biomedical Engineering in Ireland for Indian students: Top Irish universities, eligibility criteria, tuition fees (€13,500 – €28,640 / year), scholarships, and 2-year post-study work visa (Stamp 1G).",
-  "keywords": "Study Biomedical Engineering in Ireland for Indian Students, Top Universities for Biomedical Engineering in Ireland, Bachelor of Biomedical Engineering Courses in Ireland, Biomedical Engineering Undergraduate Programmes in Ireland, Integrated Master's in Biomedical Engineering in Ireland, Biomedical Engineering Eligibility Requirements in Ireland, Admission Requirements for Biomedical Engineering in Ireland, IELTS Requirements for Biomedical Engineering Courses in Ireland, Biomedical Engineering Tuition Fees in Ireland for International Students, Cost of Living for Biomedical Engineering Students in Ireland",
-  "introTitle": "BIOMEDICAL ENGINEERING IN IRELAND",
-  "heroParas": [
-    "Biomedical Engineering in Ireland"
+  name: "Biomedical Engineering in Ireland",
+  country: "Ireland",
+  slug: "study-abroad/ireland/ug/biomedical-engineering",
+  title: "Study Biomedical Engineering in Ireland for Indian Students | EduHawk",
+  description: "Complete guide to undergraduate Biomedical Engineering in Ireland: Top MedTech universities (Galway, Trinity, DCU), eligibility, tuition fees (€17,900 – €30,000/yr), salaries, and Stamp 1G post-study work visa.",
+  keywords: "Study Biomedical Engineering in Ireland for Indian Students, Top Universities for Biomedical Engineering in Ireland, Bachelor of Biomedical Engineering Courses in Ireland, Biomedical Engineering Undergraduate Programmes in Ireland, Integrated Master's in Biomedical Engineering in Ireland, Biomedical Engineering Eligibility Requirements in Ireland, Admission Requirements for Biomedical Engineering in Ireland, IELTS Requirements for Biomedical Engineering Courses in Ireland, Biomedical Engineering Tuition Fees in Ireland for International Students, Cost of Living for Biomedical Engineering Students in Ireland, Engineers Ireland Accredited Biomedical Engineering Courses, Medical Device Engineering Courses in Ireland, Biomedical Engineering Jobs and Career Opportunities in Ireland, Biomedical Engineer Salary in Ireland for Graduates, Ireland Student Visa Requirements for Biomedical Engineering Students",
+  introTitle: "BIOMEDICAL ENGINEERING IN IRELAND",
+  heroParas: [
+    "Biomedical Engineering in Ireland integrates engineering fundamentals with biology and medical sciences to develop transformative healthcare technologies, implantable devices, and diagnostic systems. Home to one of the world's densest MedTech clusters, Ireland offers international students accredited BEng and integrated 5-year MEng degrees, extensive clinical and industrial internships, competitive tuition (€17,900 – €30,000/year), and up to 2 years of post-study graduate employment under Stamp 1G."
   ],
-  "overview": [
-    "Biomedical Engineering in Ireland"
+  overview: [
+    "Biomedical Engineering represents the dynamic intersection of engineering principles, biological science, and clinical medicine—aimed at innovating advanced technologies that diagnose, treat, and alleviate human disease. Ireland stands as a premier global destination for biomedical engineering education, hosting over 300 medical technology companies including 9 of the world's top 10 MedTech leaders (such as Medtronic, Boston Scientific, Abbott, Stryker, and Johnson & Johnson).",
+    "Undergraduate degree programs in Ireland span 4-year Honours Bachelor degrees (BEng or BAI, NFQ Level 8) or 5-year integrated Master's tracks (MEng, NFQ Level 9). The rigorous curriculum covers biomechanics, biomaterials, cardiovascular and orthopedic device design, medical imaging, tissue engineering, and strict European medical device regulatory frameworks (ISO 13485 and EU MDR).",
+    "Hands-on experiential learning is deeply embedded across Irish institutions through specialized bio-instrumentation laboratories, hospital clinical immersion, industry-sponsored capstone design projects, and structured paid cooperative education placements (such as DCU's 6-month INTRA program).",
+    "Graduates holding an Irish biomedical engineering degree enjoy unmatched career versatility and global mobility, securing pivotal roles in medical device R&D, manufacturing engineering, quality assurance, regulatory affairs, and clinical engineering. EduHawk Worldwide provides dedicated study-abroad guidance, supporting students through university selection, application dossiers, scholarship opportunities, and visa processing."
   ],
-  "level": "Bachelor of Engineering (BEng Hons) in Biomedical Engineering",
-  "crumb": "Engineering / Biomedical Engineering",
-  "stats": [
+  level: "Bachelor of Engineering (BEng / BAI Hons) & Integrated Master's (MEng) in Biomedical Engineering (NFQ Level 8 / 9)",
+  crumb: "Engineering / Biomedical Engineering",
+  stats: [
     {
-      "label": "Degree Choices",
-      "value": "Bachelor of Engineering (BEng Hons) in Biomedical Engineering"
+      label: "Degree Pathways",
+      value: "4-Year BEng / 5-Year MEng"
     },
     {
-      "label": "Course Duration",
-      "value": "4 Years (BEng) / 5 Years (MEng)"
+      label: "Global MedTech Hub",
+      value: "Top 10 Global Leaders Based in Ireland"
     },
     {
-      "label": "Top Institutions",
-      "value": "Trinity College Dublin, Trinity College Dublin"
+      label: "Tuition Range",
+      value: "€17,900 – €30,000 / Year"
     },
     {
-      "label": "Post-Study Work",
-      "value": "2 Years Third Level Graduate Scheme (Stamp 1G)"
+      label: "Post-Study Work",
+      value: "1 to 2 Years (Stamp 1G)"
     }
   ],
-  "sections": [
+  sections: [
     {
-      "slot": "why",
-      "eyebrow": "Why Study in Ireland",
-      "title": "1. Why choose Biomedical Engineering in Ireland?",
-      "groups": [
+      slot: "why",
+      eyebrow: "Why Study in Ireland",
+      title: "Why Choose Biomedical Engineering in Ireland?",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Biomedical Engineering: The application of engineering principles to biology and medicine to develop technologies that improve health care. Ireland is an attractive destination because it has a well-established medical technology and medical device industry and universities that offer specialized engineering programs.",
-            "Best reasons to study Biomedical Engineering in Ireland:"
+          t: "p",
+          items: [
+            "Ireland is Europe's undisputed capital for medical device innovation, exporting over €13 billion worth of MedTech products annually. Key reasons international students choose Ireland include:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "- Strong MedTech sector:",
-            "Potential in medical devices, diagnostics, pharmaceutical manufacturing and healthcare technology -",
-            "Hands-on learning: Many programs include laboratory work, design projects, research and industry-related experience.",
-            "- Specialised curriculum: Students can explore biomaterials, biomechanics, medical devices, medical imaging and tissue engineering.",
-            "- Career flexibility: Graduates would be prepared for careers in engineering, quality assurance, product development, research or regulatory affairs.",
-            "International exposure: Having a Irish degree can help you apply for relevant jobs in Ireland and abroad, depending on employer needs and professional recognition."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Students can explore these opportunities and understand the requirements involved in pursuing education overseas with Edu Hawk worldwide study abroad guidance"
+          t: "ul",
+          items: [
+            "World-Class MedTech Industry: Unprecedented career potential across cardiovascular devices, neuro-stimulation, orthopedic implants, diagnostics, and smart healthcare technologies.",
+            "Hands-on Industrial Learning: Programs incorporate extensive laboratory sessions, medical design studios, hospital clinical observations, and 6- to 8-month paid industrial placements.",
+            "Specialized Curriculum: Cutting-edge coursework covering biocompatible materials, finite element biomechanics, microfluidics, 3D bioprinting, and medical software development.",
+            "Career Versatility: Prepares graduates for high-demand roles across product development, design verification, validation engineering, quality management, clinical trials, and regulatory compliance.",
+            "Global Degree Recognition: Fully accredited by Engineers Ireland under the Washington Accord, ensuring reciprocal professional recognition across the UK, USA, Australia, Canada, and India."
           ]
         }
       ]
     },
     {
-      "slot": "courses",
-      "eyebrow": "Degrees & Programs",
-      "title": "2. Biomedical Engineering Courses in Ireland",
-      "groups": [
+      slot: "courses",
+      eyebrow: "Degrees & Programs",
+      title: "Biomedical Engineering Courses & Curriculum Structure",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "An undergraduate Biomedical Engineering degree in Ireland is typically four to five years in length, depending on the award and whether an integrated master’s year is included.",
-            "Some common topics are:"
+          t: "p",
+          items: [
+            "Irish universities offer structured academic pathways tailored for both standard engineering degrees and advanced integrated master's qualifications:",
+            "Standard Degree Pathways:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "- Engineering mathematics, physics and computing",
-            "Human Anatomy & Physiology*",
-            "- Biomechanics and biomaterials",
-            "- Medical device design and manufacture",
-            "- Medical imaging and modeling",
-            "- Regulatory and quality systems",
-            "*Biomedical Engineering Design and Research Projects"
+          t: "ul",
+          items: [
+            "Bachelor of Engineering (BEng / BAI Hons): 4-year undergraduate degree (NFQ Level 8) focused on core engineering fundamentals and specialized biomedical systems.",
+            "Integrated Master of Engineering (MEng / MAI): 5-year integrated pathway (NFQ Level 9) offering advanced clinical research, bio-computational modeling, and professional Chartered Engineer (CEng) accreditation eligibility."
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Common ways of qualifying:"
+          t: "p",
+          items: [
+            "Core Curriculum Modules & Specializations:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "BEng or BAI in Biomedical Engineering \\| 4 years \\| Students with undergraduate engineering degrees",
-            "Integrated masters in Biomedical Engineering \\| 5 years \\| Students with advanced engineering study"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "universities",
-      "eyebrow": "Top Institutions",
-      "title": "3. Best Universities for Biomedical Engineering in Ireland",
-      "unis": [
-        {
-          "name": "Trinity College Dublin",
-          "desc": "2 Trinity College Dublin",
-          "imgKey": "uniImg_Trinity_College_Dublin_webp",
-          "imgIdentifier": "uniImg1",
-          "city": "Dublin, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg1
-        },
-        {
-          "name": "Trinity College Dublin",
-          "desc": "2 Trinity College Dublin",
-          "imgKey": "uniImg_Trinity_College_Dublin_2_webp",
-          "imgIdentifier": "uniImg2",
-          "city": "Dublin, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg2
-        },
-        {
-          "name": "Trinity College Dublin",
-          "desc": "2 Trinity College Dublin",
-          "imgKey": "uniImg_Trinity_College_Dublin_3_webp",
-          "imgIdentifier": "uniImg3",
-          "city": "Dublin, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg3
-        }
-      ]
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Admissions Criteria",
-      "title": "4. Eligibility to study Biomedical Engineering in Ireland",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Eligibility to study Biomedical Engineering in Ireland depends on the university, qualification, applicant category and country of education.",
-            "The requirements for entry to undergraduate study are usually:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Finished secondary school education to the level of Irish university-entry qualifications.",
-            "A good academic record in Mathematics.",
-            "Relevant science subjects, usually Physics and Chemistry. -",
-            "University-defined Grades or Overall Academic Score.",
-            "proof of proficiency in English, if required."
+          t: "ul",
+          items: [
+            "Engineering Mathematics, Computing, Numerical Methods & Signals",
+            "Human Anatomy, Physiology, Biomechanics & Orthopedics",
+            "Biocompatible Materials, Polymers, Metals & Tissue Interaction",
+            "Medical Device Design, Prototyping & Advanced Manufacturing",
+            "Medical Imaging Modalities (MRI, Ultrasound, CT, X-Ray) & Image Processing",
+            "Bio-fluid Mechanics, Cardiovascular Dynamics & Hemodynamics",
+            "Medical Device Regulations (EU MDR, FDA 510k, ISO 13485) & Quality Systems",
+            "Cellular & Tissue Engineering, Regenerative Medicine & Bioprinting",
+            "Hospital-Based Clinical Immersion & Senior Capstone Design Research Projects"
           ]
         }
       ]
     },
     {
-      "slot": "requirements",
-      "eyebrow": "Entry Requirements",
-      "title": "5.Biomedical Engineering Admission Requirements in Ireland",
-      "groups": [
+      slot: "eligibility",
+      eyebrow: "Entry Criteria",
+      title: "Admission & Eligibility Requirements",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Universities may look at the following when assessing applications:"
+          t: "p",
+          items: [
+            "Admission criteria for undergraduate biomedical engineering are determined by each university's faculty of science and engineering. Key prerequisites include:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Academic requirements",
-            "Higher Secondary School Certificate or equivalent.",
-            "Mathematics grades and science subjects relevant to.",
-            "Overall any institution specific subject or grade requirements.",
-            "English language requirements"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "International applicants may be asked to submit IELTS Academic, TOEFL iBT, PTE Academic or an alternative acceptable qualification.",
-            "Minimum scores and any requirements at component level will differ between universities."
+          t: "ul",
+          items: [
+            "Academic Qualification: Successful completion of Class 12 (Higher Secondary School Certificate) from CBSE, CISCE, or state boards with an overall average of 75% – 85%.",
+            "Mathematics Proficiency: Excellent grades in Mathematics (typically 75%+ or Grade A) are strictly mandatory for direct admission to Irish engineering faculties.",
+            "Science Prerequisites: High achievement in Physics and Chemistry. Biology is advantageous but not universally required if strong physical science preparation is shown.",
+            "English Language Thresholds: Standardized test scores required for non-EU applicants include IELTS Academic (minimum overall 6.5, with no band below 6.0), TOEFL iBT (minimum 85 – 90), or PTE Academic (minimum 61 – 63).",
+            "Application Portfolio: Certified Class 10 and 12 marksheets, Statement of Purpose (SOP) articulating passion for healthcare technologies, academic recommendation letters (LORs), and passport copy."
           ]
         }
       ]
     },
     {
-      "slot": "tuition",
-      "eyebrow": "Tuition & Living Costs",
-      "title": "6. Cost of Biomedical Engineering Courses in Ireland",
-      "groups": [
+      slot: "recognition",
+      eyebrow: "Professional Standards",
+      title: "Accreditation & Engineers Ireland Recognition",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "The cost of studying Biomedical Engineering in Ireland is dependent on the university, fee status, program and academic year.",
-            "Students studying abroad will need to budget for tuition fees, accommodation, food, transport, insurance, books and other personal expenses.",
-            "International students’ indicative annual budget"
+          t: "p",
+          items: [
+            "Engineers Ireland is the statutory professional body that evaluates and accredits engineering education in Ireland. Accreditation confirms that the program satisfies stringent educational criteria for international engineering practice.",
+            "Key Professional Standards:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Tuition fees \\| €17,900-€30,000+",
-            "Housing \\| €7,000-€14,000",
-            "Food and groceries \\| €2,500-€4,000",
-            "Transport \\| €600-€1,200",
-            "Books, materials and personal expenses \\| €1,000-€2,000"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Estimated total \\| €29,000-€51,200+",
-            "For 2026/27 The University of Galway lists a non-EU total of €27,640 per year for Biomedical Engineering,",
-            "while DCU lists €17,900 per year for Years 1-4 of its undergraduate route and €19,400 for Year 5 of the integrated master's route."
+          t: "ul",
+          items: [
+            "Accredited BEng (Level 8): Meets the academic standard for Associate Engineer (AEng) and qualifies graduates under the international Sydney Accord.",
+            "Integrated MEng (Level 9): Fully satisfies the educational requirements for Chartered Engineer (CEng) status under the international Washington Accord.",
+            "International Portability: Accredited Irish biomedical engineering qualifications enable streamlined professional registration in the UK, USA, Australia, Canada, New Zealand, and Hong Kong."
           ]
         }
       ]
     },
     {
-      "slot": "process",
-      "eyebrow": "Application Steps",
-      "title": "7. Admission process for Biomedical Engineering in Ireland",
-      "steps": [
+      slot: "careers",
+      eyebrow: "Job Market & Salaries",
+      title: "Career Opportunities & Salary Prospects in Ireland",
+      groups: [
         {
-          "step": "01",
-          "title": "Choose Degree & University",
-          "desc": "Select your preferred Biomedical Engineering in Ireland program and shortlist target Irish institutions."
+          t: "p",
+          items: [
+            "Ireland's dense MedTech manufacturing footprint and continuous research investments generate outstanding career opportunities for biomedical engineering graduates.",
+            "High-Demand Job Roles:"
+          ]
         },
         {
-          "step": "02",
-          "title": "Verify Entry Requirements",
-          "desc": "Check academic prerequisites, mathematics/science standards, and English test scores (IELTS/TOEFL)."
+          t: "ul",
+          items: [
+            "Biomedical R&D Engineer (Medical Device Innovation)",
+            "Medical Device Design & Prototyping Specialist",
+            "Quality Assurance (QA) & Design Verification Engineer",
+            "Manufacturing & Process Development Engineer",
+            "Regulatory Affairs Associate (FDA / EU MDR Compliance)",
+            "Clinical Engineer / Hospital Bio-instrumentation Specialist",
+            "Biomaterials & Surface Modification Specialist",
+            "Validation & Cleanroom Operations Engineer"
+          ]
         },
         {
-          "step": "03",
-          "title": "Prepare Documentation",
-          "desc": "Gather academic transcripts, statement of purpose, recommendation letters, and valid passport."
+          t: "p",
+          items: [
+            "Indicative Annual Salaries in Ireland:"
+          ]
         },
         {
-          "step": "04",
-          "title": "Submit University Application",
-          "desc": "Apply directly through the university international admissions portal or via Edu-Hawk Worldwide."
+          t: "ul",
+          items: [
+            "Graduate / Entry-Level Roles: €30,000 – €40,000 per year",
+            "Mid-Level Engineers (3–5 Years Experience): €40,000 – €60,000 per year",
+            "Senior Specialists, R&D Leads & Quality Managers: €60,000 – €80,000+ per year"
+          ]
         },
         {
-          "step": "05",
-          "title": "Accept Offer & Pay Deposit",
-          "desc": "Review academic conditions, pay the tuition deposit, and receive the official acceptance letter."
-        },
-        {
-          "step": "06",
-          "title": "Apply for Irish Student Visa (Stamp 2)",
-          "desc": "Submit the visa application with proof of sufficient finances, medical insurance, and accommodation."
-        }
-      ]
-    },
-    {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Recognition",
-      "title": "8. Arrange immigration and accommodation: Check the official Irish student immigration requirements, financial evidence and insurance requirements that apply to your circumstances.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Detailed information on Accreditation & Recognition will be provided during personalized counseling with Edu-Hawk Worldwide."
+          t: "p",
+          items: [
+            "Graduates possessing hands-on CAD/SolidWorks skills, statistical data analysis, cleanroom protocol knowledge, and familiarity with medical device quality standards (ISO 13485) command top starting salaries in the Irish healthcare manufacturing sector."
           ]
         }
       ]
     },
     {
-      "slot": "careers",
-      "eyebrow": "Career Outcomes",
-      "title": "9. Get ready to enrol: Complete the registration form and bring the original or certified copies of your documents when asked.",
-      "groups": [
+      slot: "consultancy",
+      eyebrow: "EduHawk Guidance",
+      title: "How EduHawk Worldwide Guides Your MedTech Education",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "8\\. Recognition and Accreditation for Biomedical Engineering in Ireland",
-            "Accreditation is a major thing to consider when choosing an engineering degree. It may also mean that a program has been evaluated against professional engineering education standards.",
-            "In Ireland the body that accredits eligible engineering programs is called Engineers Ireland But accreditation depends on the individual program, the award and in some cases the year of graduation of the student.",
-            "Before enrolling, students must:"
+          t: "p",
+          items: [
+            "EduHawk Worldwide is a premier overseas education consultancy specializing in engineering and healthcare admissions. Our dedicated advisors assist students with:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Verify that the specific program and award are accredited.",
-            "Verify the relevant accreditation for the appropriate graduation year.",
-            "Assess whether the degree satisfies the academic requirements for the chosen professional engineering discipline.",
-            "Look for other registration or recognition requirements in the country where they want to work."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The overall reputation of a university does not mean that all of its courses are accredited. Accreditation is also different to the recognition of a qualification for employment or immigration purposes.",
-            "9\\. Salary and Job Prospects after Biomedical Engineering in Ireland",
-            "Biomedical Engineering graduates in Ireland are employed in a range of sectors, including medical technology, healthcare equipment, manufacturing, research and product development.",
-            "Actual opportunities depend on the degree, technical abilities, work experience and the needs of individual employers",
-            "Job role -"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Biomedical Engineer",
-            "Medical Device Engineer",
-            "Quality Engineer",
-            "Manufacturing Engineer",
-            "Regulatory Affairs Associate",
-            "Research and Development Engineer",
-            "Clinical Engineering or Equipment Specialist"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Salary range expected"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Graduate roles (entry level) \\| €30,000-€40,000",
-            "Engineer Several years of experience \\| €40,000-€60,000",
-            "Senior or specialist roles \\| €60,000-€80,000+"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "These are ballpark figures, not official salary ranges or guaranteed outcomes. Salaries vary according to employer, location, specialization and experience.",
-            "Research positions/clinical engineering positions may be paid differently.",
-            "Internships, hands-on engineering projects, CAD and simulation skills, data analysis, quality-management knowledge and familiarity with medical device regulations may improve the prospects of graduates."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Document Checklist",
-      "title": "10. Documents Required for Biomedical Engineering in Ireland",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The required documents vary according to the institution and your category of applicant. Typical requirements are:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Passport valid.",
-            "Class 10 and Class 12 certificates and mark sheets, or equivalent.",
-            "Scores on the mathematics and science subjects.",
-            "Results of English language proficiency tests (if applicable).",
-            "Application form completed.",
-            "Personal statement or statement of purpose, if applicable.",
-            "Academic references (if asked).",
-            "CV or résumé (where appropriate).",
-            "Official translations of documents not issued in an accepted language.",
-            "Application fee payment proof, if applicable.",
-            "Financial evidence, insurance documents and other immigration paperwork (if applicable)."
+          t: "ul",
+          items: [
+            "Targeted university selection matching career goals across Galway, Dublin, and Cork MedTech clusters.",
+            "Guidance on choosing between 4-year BEng and 5-year integrated MEng pathways.",
+            "Professional mentoring for medical device Statements of Purpose (SOP) and academic CVs.",
+            "Direct application submission through university portals and priority scholarship applications.",
+            "Complete Irish student visa (Stamp 2) guidance, financial dossier review, and medical insurance arrangement.",
+            "Pre-departure briefing covering student accommodation, part-time work rights (20 hrs/week), and post-study work visa planning."
           ]
         }
       ]
     }
   ],
-  "table": {
-    "title": "Estimated Cost of Studying Biomedical Engineering in Ireland in Ireland (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (€ / EUR)",
-      "Details / Scope"
-    ],
-    "rows": [
+  unis: [
+    {
+      name: "University of Galway",
+      city: "Galway",
+      state: "Connacht",
+      desc: "Located at the epicenter of Europe's premier MedTech cluster, offering world-renowned Biomedical Engineering programs (NFQ Level 8 BEng & 5-year integrated MEng). Features direct industry links with global medical device leaders, specialized biomaterials labs, and tuition around €27,640/year.",
+      img: uniImg2
+    },
+    {
+      name: "Trinity College Dublin (TCD)",
+      city: "Dublin",
+      state: "Leinster",
+      desc: "Ireland's leading university offering an accredited BAI / MAI in Biomedical Engineering. Delivers pioneering instruction in biomechanics, tissue engineering, neural engineering, and medical device design with advanced research facilities at the Trinity Centre for Biomedical Engineering.",
+      img: uniImg1
+    },
+    {
+      name: "Dublin City University (DCU)",
+      city: "Dublin",
+      state: "Leinster",
+      desc: "Offers an accredited BEng & MEng in Biomedical Engineering focusing on clinical engineering, diagnostics, and medical device manufacturing. Features highly competitive tuition (€17,900/year for Y1–Y4, €19,400 for Y5) and 6-month INTRA industrial placements.",
+      img: uniImg3
+    }
+  ],
+  steps: [
+    {
+      title: "University & MedTech Program Research",
+      desc: "Compare biomedical engineering specializations, 4-year BEng vs 5-year MEng structures, and industry links across Irish universities."
+    },
+    {
+      title: "Academic & Mathematics Evaluation",
+      desc: "Confirm your Class 12 scores meet target thresholds, ensuring minimum 75% in Mathematics and strong performance in Physics/Chemistry."
+    },
+    {
+      title: "English Proficiency Certification",
+      desc: "Achieve the necessary English scores via IELTS Academic (6.5 overall), TOEFL iBT (85+), or PTE Academic (61+)."
+    },
+    {
+      title: "Dossier & Technical SOP Compilation",
+      desc: "Draft a compelling Statement of Purpose highlighting interest in medical devices, compile academic marksheets, and secure academic references."
+    },
+    {
+      title: "Online Application & Fee Submission",
+      desc: "Submit applications through institutional international admissions portals well ahead of published deadlines, paying application fees."
+    },
+    {
+      title: "Offer Acceptance & Deposit Payment",
+      desc: "Evaluate offer letters, accept your preferred university seat, and remit the required tuition deposit to secure enrollment."
+    },
+    {
+      title: "Irish Student Visa (Stamp 2) Application",
+      desc: "Submit your student visa application accompanied by proof of funds, medical insurance, and accommodation confirmation."
+    },
+    {
+      title: "Pre-Departure, Housing & Enrolment",
+      desc: "Book student accommodation, finalize travel, attend international student orientation, and register for your Irish Residence Permit (IRP)."
+    }
+  ],
+  table: {
+    caption: "Estimated Annual Cost of Studying Biomedical Engineering in Ireland (2026–2027)",
+    headers: ["Expense Category", "Estimated Cost (EUR)", "Details & Notes"],
+    rows: [
       [
-        "Undergraduate Degree (Annual)",
-        "€13,500 – €27,640 / year",
-        "Varies by institution ranking, laboratory facilities, and program"
+        "Undergraduate Tuition Fees",
+        "€17,900 – €30,000+ / year",
+        "DCU: €17,900/yr (Y1–4), €19,400 (Y5 MEng); University of Galway: €27,640/yr; TCD: ~€28,000–€30,000/yr"
       ],
       [
-        "Postgraduate Degree (Annual)",
-        "€15,000 – €28,640 / year",
-        "1-year intensive master's program or 2-year research degree"
+        "Student Accommodation",
+        "€7,000 – €14,000 / year",
+        "Campus residences or shared private apartments (Galway/Dublin variations)"
       ],
       [
-        "Living Expenses (Dublin)",
-        "€1,000 – €1,400 / month",
-        "Includes student accommodation, meals, utilities, and public transit"
+        "Food & Groceries",
+        "€2,500 – €4,000 / year",
+        "Self-catered groceries, university dining, and meal prep"
       ],
       [
-        "Living Expenses (Outside Dublin)",
-        "€800 – €1,100 / month",
-        "Cost of living in Cork, Galway, Limerick, or Maynooth"
+        "Local Transportation",
+        "€600 – €1,200 / year",
+        "Student Leap Card discounted public transport in Dublin and Galway"
       ],
       [
-        "Student Visa & IRP Card Fee",
+        "Books, Lab Equipment & Personal Expenses",
+        "€1,000 – €2,000 / year",
+        "Textbooks, lab coats, software licenses, mobile plan, and daily expenses"
+      ],
+      [
+        "Private Health Insurance",
+        "€160 – €300 / year",
+        "Mandatory medical coverage required for non-EU international students"
+      ],
+      [
+        "Irish Residence Permit (IRP) Card",
         "€300 / year",
-        "Mandatory Irish Residence Permit (IRP) registration fee"
+        "Annual immigration registration fee payable upon arrival in Ireland"
+      ],
+      [
+        "Estimated Total Annual Budget",
+        "€29,000 – €51,200+ / year",
+        "Comprehensive annual educational and living cost estimate"
       ]
     ]
   },
-  "faqs": [
+  faqs: [
     {
-      "q": "1\\. Is Ireland a good country to study Biomedical Engineering in?",
-      "a": "Ireland is a country worth considering because of its established medical technology industry and universities that offer specialized Biomedical Engineering education."
+      q: "Is Ireland a good country to study Biomedical Engineering in?",
+      a: "Yes, Ireland is globally recognized as one of the world's leading medical technology hubs. With over 300 MedTech companies, 9 of the top 10 global device manufacturers operating major facilities, and heavy national R&D funding, students receive unparalleled academic training and direct employment access."
     },
     {
-      "q": "2.How many years does it take to complete Biomedical Engineering in Ireland?",
-      "a": "Many undergraduate courses are four years long and integrated masters are five years. How long it is depends on the university and the award."
+      q: "How many years does it take to complete Biomedical Engineering in Ireland?",
+      a: "Standard Honours Bachelor of Engineering (BEng or BAI) degrees take 4 years (NFQ Level 8). Many Irish universities also offer integrated 5-year Master of Engineering (MEng, NFQ Level 9) pathways that fulfill the full educational requirements for Chartered Engineer (CEng) accreditation."
     },
     {
-      "q": "3\\. What subjects are relevant for the entry?",
-      "a": "Mathematics is particularly important. Physics and Chemistry are often required as well, though the particular subject and grade requirements vary by institution."
+      q: "What subjects are required in high school for admission?",
+      a: "Mathematics is the most critical subject requirement, with universities typically requiring 75%+ or Grade A/B in Class 12. Physics and Chemistry are strongly recommended. Biology is beneficial for medical context, though physical sciences and mathematics form the primary admission criteria."
     },
     {
-      "q": "4\\. How much is the tuition fee for international students?",
-      "a": "Fees differ by university and year. The University of Galway posts a non-EU total of €27,640 per year for 2026/27. DCU has a non-EU cost of €17,900 for Years 1–4 on its undergraduate route. Always check the full fee schedule for your chosen program."
+      q: "How much are the tuition fees for international biomedical engineering students?",
+      a: "Tuition fees for non-EU international students range from approximately €17,900 to €30,000 per year. For example, Dublin City University (DCU) charges €17,900 per year for Years 1–4, while the University of Galway charges approximately €27,640 per year for 2026/2027."
     },
     {
-      "q": "5\\. Is it possible for international students to work in Ireland after graduating?",
-      "a": "Some eligible international graduates may be eligible under Ireland’s Third Level Graduate Programme subject to qualification, immigration permission and program conditions. You don’t qualify automatically and the rules can change."
+      q: "Can international students work in Ireland after completing their biomedical engineering degree?",
+      a: "Yes. Under Ireland's Third Level Graduate Scheme (Stamp 1G), graduates of NFQ Level 8 Bachelor's programs are eligible for a 12-month post-study work visa, while graduates of NFQ Level 9 Master's programs receive up to 24 months, allowing them to work full-time in Ireland's thriving MedTech sector."
     },
     {
-      "q": "How can Edu Hawk worldwide Consultancy help me to study abroad?",
-      "a": "Edu Hawk worldwide can help students find suitable universities, understand admission requirements, organize application documents, and plan their study-abroad journey. Students are responsible for checking academic, financial, immigration and licensing requirements with the appropriate official authorities."
+      q: "How does EduHawk Worldwide assist students applying to Ireland?",
+      a: "EduHawk Worldwide offers complete end-to-end consultancy: evaluating university options, reviewing academic transcripts, assisting with Statement of Purpose (SOP) drafting, managing online portal applications, identifying scholarships, and guiding students through the Irish student visa process."
     }
   ]
 };
 
 export default function BiomedicalEngineeringUGIreland() {
+  const images = {
+    hero: heroImg,
+    heroBg: heroBgImg,
+    side: sideImg,
+    ctaBg: ctaBgImg,
+    uni1: uniImg1,
+    uni2: uniImg2,
+    uni3: uniImg3
+  };
+
   return (
     <AbroadCoursePage
       page={page}
@@ -461,8 +380,8 @@ export default function BiomedicalEngineeringUGIreland() {
       heroBgImg={heroBgImg}
       sideImg={sideImg}
       ctaBgImg={ctaBgImg}
-      showHeroStats={false}
-      seoPath="/study-abroad/ireland/ug/biomedical-engineering"
+      seoPath={page.slug}
+      images={images}
     />
   );
 }

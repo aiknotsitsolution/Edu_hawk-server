@@ -16,12 +16,12 @@ const page = {
   "slug": "biomed_engg_pg",
   "title": "Biomedical Engineering - PG in Italy for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Biomedical Engineering - PG in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
-  "keywords": "Top 6 SEO Keywords",
+  "keywords": "Biomedical Engineering in Italy, Master's in Biomedical Engineering Italy, MS Biomedical Engineering Italy, Best Biomedical Universities in Italy",
   "introTitle": "Master's in Biomedical Engineering in Italy for Indian Students",
-  "heroParas": [
-    "Yes. If Indian students have a Bachelor's degree in Biomedical Engineering or related engineering or science discipline that is recognized, they can apply provided they satisfy the eligibility criteria of the university."
+  heroParas: [
+    "A Master’s in Biomedical Engineering in Italy connects engineering innovation with advanced clinical healthcare, medical device development, biomaterials, and cutting-edge neuroengineering research."
   ],
-  "overview": [
+  overview: [
     "Yes. If Indian students have a Bachelor's degree in Biomedical Engineering or related engineering or science discipline that is recognized, they can apply provided they satisfy the eligibility criteria of the university."
   ],
   "level": "Postgraduate",
@@ -158,24 +158,39 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Yes, Indian students may be eligible for DSU regional scholarships, university scholarships and other financial assistance programs, depending on the applicable conditions.",
-            "Top 6 SEO Keywords"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Master's in Biomedical Engineering in Italy",
-            "Biomedical Engineering in Italy for Indian Students",
-            "Biomedical Engineering Courses in Italy",
-            "Best Schools for Biomedical Engineering in Italy",
-            "Biomedical Engineering Admission in Italy",
-            "Tuition Fees of Biomedical Engineering in Italy"
+            "Yes, Indian students may be eligible for DSU regional scholarships, university scholarships and other financial assistance programs, depending on the applicable conditions."
           ]
         }
       ]
     }
-  ]
+  ],
+  faqs: [
+    {
+        "q": "Can Indian students study Biomedical Engineering Master's in Italy in English?",
+        "a": "Yes. Leading universities such as Politecnico di Milano, University of Pisa, and University of Bologna offer English-taught master's degrees in Biomedical Engineering."
+    },
+    {
+        "q": "What is the duration of Biomedical Engineering postgraduate studies in Italy?",
+        "a": "The master's programme is 2 years long (120 ECTS credits) and includes clinical laboratory work and an experimental research dissertation."
+    },
+    {
+        "q": "What are the tuition fees for Biomedical Engineering in Italy?",
+        "a": "Public universities charge between €1,000 and €3,900 annually, with eligibility for DSU scholarships that provide free tuition and housing support."
+    },
+    {
+        "q": "What are the core research tracks in Italian Biomedical Engineering?",
+        "a": "Tracks include Medical Device Design, Bio-MEMS, Biomechanics, Neural Engineering, Regenerative Medicine & Biomaterials, and Clinical Artificial Intelligence."
+    },
+    {
+        "q": "What is the eligibility criteria for admission?",
+        "a": "Candidates must hold an undergraduate degree in biomedical, electrical, mechanical, or computer engineering, or equivalent qualifications with strong math and biology credits."
+    },
+    {
+        "q": "What career paths are available for biomedical engineers in Italy?",
+        "a": "Graduates work as biomedical design engineers, clinical technology advisors, medical software developers, and research scientists in hospitals and healthtech firms."
+    }
+],
+  faqTitle: "Frequently Asked Questions About Biomedical Engineering PG in Italy"
 };
 
 export default function BiomedicalEngineeringPGItaly() {

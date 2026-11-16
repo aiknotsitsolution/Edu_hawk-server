@@ -19,8 +19,7 @@ const page = {
   "keywords": "Study Nursing in Spain, Nursing in Spain for Indian Students, Best Universities in Spain, Cost of Studying in Spain",
   "introTitle": "Nursing in Spain for Indian Students",
   "heroParas": [
-    "Nursing in Spain for Indian students gives you the opportunity to earn a European healthcare qualification, get practical clinical training and explore global career opportunities. The Grado en Enfermería (undergraduate nursing degree in Spain) generally takes 4 years to complete and is made up of 240 ECTS credits.",
-    "Spanish universities combine classroom learning with laboratory practice, clinical placements and patient-care training. Most of the Nursing courses in Spain are in Spanish, but there are some universities that offer courses with English or specific international paths. Indian students should check the teaching language, tuition fees for non-EU students, Nursing admission requirements in Spain and professional registration rules carefully before applying."
+    "Nursing in Spain for Indian students gives you the opportunity to earn a European healthcare qualification, get practical clinical training and explore global career opportunities. The Grado en Enfermería (undergraduate nursing degree in Spain) generally takes 4 years to complete and is made up of 240 ECTS credits."
   ],
   "overview": [
     "Nursing in Spain for Indian students gives you the opportunity to earn a European healthcare qualification, get practical clinical training and explore global career opportunities. The Grado en Enfermería (undergraduate nursing degree in Spain) generally takes 4 years to complete and is made up of 240 ECTS credits.",

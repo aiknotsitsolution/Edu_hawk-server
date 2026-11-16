@@ -22,13 +22,10 @@ const page = {
   "keywords": "Study MSc Biomedical Engineering in the UK, MSc Biomedical Engineering in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Study Biomedical Engineering (PG) in the UK",
   "heroParas": [
-    "Students pursuing postgraduate studies in Biomedical Engineering are drawn to the United Kingdom. In order to create cutting-edge solutions for healthcare, medical equipment, diagnostic systems, rehabilitation, and patient care, the discipline integrates engineering, medicine, biology, and technology.",
-    "The main advantages of studying biomedical engineering in the UK",
-    "Obtain a postgraduate degree from a UK university that is recognized internationally."
+    "Students pursuing postgraduate studies in Biomedical Engineering are drawn to the United Kingdom. In order to create cutting-edge solutions for healthcare, medical equipment, diagnostic systems, rehabilitation, and patient care, the discipline integrates engineering, medicine, biology, and technology."
   ],
   "overview": [
     "Students pursuing postgraduate studies in Biomedical Engineering are drawn to the United Kingdom. In order to create cutting-edge solutions for healthcare, medical equipment, diagnostic systems, rehabilitation, and patient care, the discipline integrates engineering, medicine, biology, and technology.",
-    "The main advantages of studying biomedical engineering in the UK",
     "Obtain a postgraduate degree from a UK university that is recognized internationally."
   ],
   "level": "MSc Biomedical Engineering",

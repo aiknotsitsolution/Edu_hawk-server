@@ -20,8 +20,7 @@ const page = {
   "keywords": "Study Mechanical Engineering - PG in Canada, Mechanical Engineering - PG in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Indian Students study Postgraduate Mechanical Engineering in Canada",
   "heroParas": [
-    "Students who wish to learn more about mechanical engineering , product design, manufacturing, robotics, energy technology, and industrial systems are drawn to Canada. Students can acquire advanced technical skills and get ready for jobs in engineering, research, product development, and production with a postgraduate degree in Mechanical Engineering in Canada.",
-    "Edu Hawk Worldwide Consultancy helps students prepare for their foreign education adventure, comprehend university admission requirements, and investigate international study possibilities."
+    "Students who wish to learn more about mechanical engineering , product design, manufacturing, robotics, energy technology, and industrial systems are drawn to Canada. Students can acquire advanced technical skills and get ready for jobs in engineering, research, product development, and production with a postgraduate degree in Mechanical Engineering in Canada."
   ],
   "overview": [
     "Students who wish to learn more about mechanical engineering , product design, manufacturing, robotics, energy technology, and industrial systems are drawn to Canada. Students can acquire advanced technical skills and get ready for jobs in engineering, research, product development, and production with a postgraduate degree in Mechanical Engineering in Canada.",

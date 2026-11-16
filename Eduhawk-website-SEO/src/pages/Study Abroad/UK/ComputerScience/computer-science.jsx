@@ -22,14 +22,11 @@ const page = {
   "keywords": "Study Computer Science in the UK, Computer Science in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Computer Science in the United Kingdom",
   "heroParas": [
-    "International students who want to Study Computer Science prefer to study in the United Kingdom. UK institutions provide a mix of academic knowledge, practical programming skills, research opportunities, and industry-focused learning to prepare students for careers in the global technology sector.",
-    "Software development, artificial intelligence, cybersecurity, data science, cloud computing, computer systems and new digital technologies are just a few of the many fields that are part of computer science.",
-    "The main advantages of studying computer science in the UK are:"
+    "International students who want to Study Computer Science prefer to study in the United Kingdom. UK institutions provide a mix of academic knowledge, practical programming skills, research opportunities, and industry-focused learning to prepare students for careers in the global technology sector."
   ],
   "overview": [
     "International students who want to Study Computer Science prefer to study in the United Kingdom. UK institutions provide a mix of academic knowledge, practical programming skills, research opportunities, and industry-focused learning to prepare students for careers in the global technology sector.",
-    "Software development, artificial intelligence, cybersecurity, data science, cloud computing, computer systems and new digital technologies are just a few of the many fields that are part of computer science.",
-    "The main advantages of studying computer science in the UK are:"
+    "Software development, artificial intelligence, cybersecurity, data science, cloud computing, computer systems and new digital technologies are just a few of the many fields that are part of computer science."
   ],
   "level": "BSc & MSc Computer Science",
   "crumb": "Computer & IT / Computer Science",

@@ -16,8 +16,7 @@ const page = {
   "keywords": "Study Business Management in Spain, Business Management in Spain for Indian Students, Best Universities in Spain, Cost of Studying in Spain",
   "introTitle": "Business Management in Spain for Indian Students",
   "heroParas": [
-    "Business Management in Spain for Indian Students is a scope to enhance skills like leadership, strategic planning, marketing, finance, entrepreneurship, human resource management and international business which are critical. Spain offers a varied European business environment in which students can learn about global markets, business innovation, organizational management and international business practices.",
-    "In Spain, a Bachelor's degree in Business Management usually lasts four years and a Master's degree between one and two years. Indian students can apply for an undergraduate program after Class 12 or for postgraduate studies after a relevant bachelor's program. Some universities will teach in English, others in Spanish, or a combination of the two."
+    "Business Management in Spain for Indian Students is a scope to enhance skills like leadership, strategic planning, marketing, finance, entrepreneurship, human resource management and international business which are critical."
   ],
   "overview": [
     "Business Management in Spain for Indian Students is a scope to enhance skills like leadership, strategic planning, marketing, finance, entrepreneurship, human resource management and international business which are critical. Spain offers a varied European business environment in which students can learn about global markets, business innovation, organizational management and international business practices.",

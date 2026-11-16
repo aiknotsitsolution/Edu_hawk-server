@@ -20,8 +20,7 @@ const page = {
   "keywords": "Study Winter Courses in Canada, Winter Courses in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Winter Courses in Canada",
   "heroParas": [
-    "For international students looking for a top-notch education, hands-on learning opportunities, and exposure to a multicultural setting, winter courses in Canada are a popular choice. These programs offer the chance to study in the winter, develop professional or academic abilities, and investigate other educational options.",
-    "Students can select between short-term certificate programs, English-language courses, professional workshops, university-credit courses, and winter-semester programs in Canada depending on the school."
+    "For international students looking for a top-notch education, hands-on learning opportunities, and exposure to a multicultural setting, winter courses in Canada are a popular choice. These programs offer the chance to study in the winter, develop professional or academic abilities, and investigate other educational options."
   ],
   "overview": [
     "For international students looking for a top-notch education, hands-on learning opportunities, and exposure to a multicultural setting, winter courses in Canada are a popular choice. These programs offer the chance to study in the winter, develop professional or academic abilities, and investigate other educational options.",
@@ -606,7 +605,7 @@ const page = {
             },
             {
               "q": "How Can I Study Abroad with the Assistance of Edu Hawk Worldwide Consultancy?",
-              "a": "Students can organize their **study-abroad experience in Canada** with the assistance of Edu Hawk Worldwide, which can also assist them in understanding admission requirements, organizing application materials, and exploring appropriate universities. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs. Study Winter Courses in Canada for Indian StudentsBest Universities for Winter Courses in CanadaWinter Programs in Canada for International StudentsWinter Course Eligibility in Canada After Class 12Winter Course Admission Requirements in CanadaWinter Courses Fees in Canada for Indian StudentsWinter Course Scholarships in Canada for International StudentsEnglish Language Winter Courses in CanadaBusiness and Management Winter Courses in CanadaInformation Technology Winter Courses in CanadaScience and Academic Winter Programs in CanadaShort-Term Winter Courses in Canada for International StudentsWinter Course Admission Process in Canada"
+              "a": "Students can organize their **study-abroad experience in Canada** with the assistance of Edu Hawk Worldwide, which can also assist them in understanding admission requirements, organizing application materials, and exploring appropriate universities. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
             }
           ]
         }

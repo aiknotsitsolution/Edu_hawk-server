@@ -20,8 +20,7 @@ const page = {
   "keywords": "Study Language Courses in Canada, Language Courses in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Study Language Courses in Canada",
   "heroParas": [
-    "Students who wish to enhance their **English or French language skills** in an international learning setting frequently choose Canada. Students who take **language classes in Canada** can improve their communication skills, get ready for further education, and gain **language proficiency** for both career and personal development.",
-    "Programs for beginning, intermediate, and advanced students are available in Canadian language schools and educational establishments. Students can select General English courses, Academic English, IELTS and TOEFL preparatory courses, Business English, or French-language training, depending on the school."
+    "Students who wish to enhance their **English or French language skills** in an international learning setting frequently choose Canada. Students who take **language classes in Canada** can improve their communication skills, get ready for further education, and gain **language proficiency** for both career and personal development."
   ],
   "overview": [
     "Students who wish to enhance their **English or French language skills** in an international learning setting frequently choose Canada. Students who take **language classes in Canada** can improve their communication skills, get ready for further education, and gain **language proficiency** for both career and personal development.",
@@ -421,8 +420,12 @@ const page = {
               "a": "Depending on the source and level of the course, general language instruction might cost anywhere from CAD 250 to CAD 800 or more per week. Additional costs include lodging and other living expenditures."
             },
             {
-              "q": "After completing an English route course, may I enrolll in a Canadian university?",
-              "a": "If you meet the academic and other prerequisites for admission, the university may accept that pathway. Admission to a university is not always guaranteed by finishing a language course.## How Can I Study Abroad with the Assistance of Edu Hawk Worldwide Consultancy? Students can organize their **study-abroad experience in Canada** with the assistance of Edu Hawk Worldwide, which can also assist them in understanding admission requirements, organizing application materials, and exploring appropriate universities. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs. Study Language Courses in Canada for Indian StudentsBest Institutions for Language Courses in CanadaEnglish Language Courses in Canada for International StudentsFrench Language Courses in Canada for International StudentsLanguage Course Eligibility in Canada for Indian StudentsLanguage Course Admission Requirements in CanadaLanguage Courses Fees in Canada for Indian StudentsIELTS and TOEFL Preparation Courses in CanadaAcademic English and University Pathway Programs in CanadaBusiness English and Professional Language Courses in CanadaFrench Language Proficiency Courses in CanadaLanguage Course Admission Process in Canada"
+              "q": "After completing an English route course, may I enroll in a Canadian university?",
+              "a": "If you meet the academic and other prerequisites for admission, the university may accept that pathway. Admission to a university is not always guaranteed by finishing a language course."
+            },
+            {
+              "q": "How Can I Study Abroad with the Assistance of Edu Hawk Worldwide Consultancy?",
+              "a": "Students can organize their **study-abroad experience in Canada** with the assistance of Edu Hawk Worldwide, which can also assist them in understanding admission requirements, organizing application materials, and exploring appropriate universities. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
             }
           ]
         }

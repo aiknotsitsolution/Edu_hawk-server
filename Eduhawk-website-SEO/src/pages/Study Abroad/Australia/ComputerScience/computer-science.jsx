@@ -21,8 +21,15 @@ const page = {
   description: "Study Postgraduate Computer Science in Australia. Compare top universities (Melbourne, Sydney, UNSW, Deakin), eligibility, fees, ACS accreditation, and tech career opportunities.",
   keywords: "Study Postgraduate Computer Science in Australia for Indian Students Best Universities to Study Computer Science in Australia Study Master's in Computer Science in Australia Computer Science Admission Requirements in Australia for Indian Students Computer Science Scholarships in Australia for Indian Students Career Opportunities After Studying Computer Science in Australia",
   introTitle: "Australia's postgraduate computer science program",
-  heroParas: ["Students who wish to gain advanced technical knowledge, programming skills, analytical ability, and expertise in contemporary computing technologies can enrolll in postgraduate computer science programs in Australia.","Software development, artificial intelligence, machine learning, cybersecurity, data science, cloud computing, computer networks, and distributed systems are some of the topics covered by these programs."],
-  overview: ["Depending on their educational background and professional aspirations, Indian students can investigate postgraduate options in computer science, information technology, software engineering, artificial intelligence, data science, cybersecurity, and related fields.","Students can improve their technical proficiency and get ready for opportunities in technology businesses, financial services, healthcare, telecommunications, research, and other areas with a postgraduate degree.","Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities."],
+  heroParas: [
+    "Students who wish to gain advanced technical knowledge, programming skills, analytical ability, and expertise in contemporary computing technologies can enrolll in postgraduate computer science programs in Australia."
+  ],
+  overview: [
+    "Software development, artificial intelligence, machine learning, cybersecurity, data science, cloud computing, computer networks, and distributed systems are some of the topics covered by these programs.",
+    "Depending on their educational background and professional aspirations, Indian students can investigate postgraduate options in computer science, information technology, software engineering, artificial intelligence, data science, cybersecurity, and related fields.",
+    "Students can improve their technical proficiency and get ready for opportunities in technology businesses, financial services, healthcare, telecommunications, research, and other areas with a postgraduate degree.",
+    "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities."
+  ],
   level: "Postgraduate",
   crumb: "Technology & Computing",
 

@@ -23,10 +23,10 @@ const page = {
     "Master's in Biomedical Engineering in Finland, Biomedical Engineering in Finland for Indian Students, Study Biomedical Engineering in Finland, Biomedical Engineering Courses in Finland, Biomedical Engineering Universities in Finland, Biomedical Engineering in Finland Fees",
   introTitle: "Master’s in Biomedical Engineering in Finland for Indian Students",
   heroParas: [
-    "Finland is an attractive destination for students who want to pursue advanced education in healthcare technology, medical innovation, and engineering. With its strong focus on research, digital healthcare, medical devices, and technological development, Finland offers opportunities for students interested in building a career at the intersection of medicine and engineering.",
-    "A Master’s in Biomedical Engineering in Finland helps students develop knowledge of medical technology, biomedical devices, healthcare systems, medical imaging, biomaterials, and engineering applications in healthcare."
+    "Finland is an attractive destination for students who want to pursue advanced education in healthcare technology, medical innovation, and engineering. With its strong focus on research, digital healthcare, medical devices, and technological development, Finland offers opportunities for students interested in building a career at the intersection of medicine and engineering."
   ],
   overview: [
+    "A Master’s in Biomedical Engineering in Finland helps students develop knowledge of medical technology, biomedical devices, healthcare systems, medical imaging, biomaterials, and engineering applications in healthcare.",
     "For Indian students planning to study abroad, Finland offers English-taught master's programmes, research facilities, practical learning opportunities, and exposure to international healthcare technology industries.",
     "Edu-Hawk Worldwide helps students understand the study abroad process, compare suitable biomedical engineering programmes, review admission criteria, and prepare their applications for studying in Finland."
   ],

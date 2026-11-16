@@ -13,369 +13,318 @@ import uniImg2 from "../../../../Images/Abroad/Germany/BusinessManagement/Frankf
 import uniImg3 from "../../../../Images/Abroad/Germany/BusinessManagement/HHL_Leipzig_Graduate_School_of_Mana.webp";
 
 const page = {
-  "name": "Business Management in Germany",
-  "country": "Germany",
-  "slug": "business-management",
-  "title": "Business Management in Germany for Indian Students | Edu-Hawk Worldwide",
-  "description": "Complete guide to Business Management in Germany for international students: Top German universities, admission requirements, zero-tuition public education, living expenses, and 18-month post-study work visa.",
-  "keywords": "Master's in Business Management in Germany for Indian Students, Postgraduate Business Management Courses in Germany, Best Universities for Business Management in Germany, MBA and MSc Business Management Programmes in Germany, Business Management Specialisations in Germany, Eligibility Requirements for Master's in Business Management in Germany, Admission Requirements for Business Management in Germany, English-Taught Business Management Courses in Germany, IELTS and TOEFL Requirements for Business Management in Germany, Business Management Tuition Fees in Germany, Cost of Living for Master's Students in Germany, German Student Visa Requirements for Business Management Students",
-  "introTitle": "1\\. WHY STUDY BUSINESS MANAGEMENT IN GERMANY ?",
-  "heroParas": [
-    "Germany is a destination for international students who want to **study **postgraduate Business Management****. With a strong economy, global business environment and industry-focused education, there are opportunities to develop **leadership and management skills**.",
-    "**Among the key advantages are:**",
-    "* Education of top quality at prestigious universities. **International Business and Management** educational opportunities.",
-    "* In Germany, you can find opportunities in the **manufacturing, banking, consulting and technology sectors**. Many public institutions provide \"affordable education.\"",
-    "* Job opportunities outside the country after graduation.",
-    "With proper planning and guidance **Edu Hawk Worldwide Consultancy** helps students to comprehend the university admission requirements, look at international study options and prepare for the **journey of overseas education**."
+  name: "Business Management in Germany",
+  country: "Germany",
+  slug: "business-management",
+  title: "Business Management in Germany for Indian Students | Edu-Hawk Worldwide",
+  description: "Complete guide to Master's in Business Management in Germany: Top business schools, English-taught M.Sc. programs, eligibility, tuition-free public universities, costs, and career opportunities.",
+  keywords: "Master's in Business Management in Germany for Indian Students, Postgraduate Business Management Courses in Germany, Best Universities for Business Management in Germany, MBA and MSc Business Management Programmes in Germany, Business Management Specialisations in Germany, Eligibility Requirements for Master's in Business Management in Germany, Admission Requirements for Business Management in Germany, English-Taught Business Management Courses in Germany, IELTS and TOEFL Requirements for Business Management in Germany, Business Management Tuition Fees in Germany, Cost of Living for Master's Students in Germany, German Student Visa Requirements for Business Management Students",
+  introTitle: "Why Study Business Management in Germany?",
+  heroParas: [
+    "Germany is a premier destination for students seeking a postgraduate degree in Business Management, combining world-class academic standards and tuition-free public education with deep exposure to Europe's largest industrial and commercial market."
   ],
-  "overview": [
-    "Germany is a destination for international students who want to **study **postgraduate Business Management****. With a strong economy, global business environment and industry-focused education, there are opportunities to develop **leadership and management skills**.",
-    "**Among the key advantages are:**",
-    "* Education of top quality at prestigious universities. **International Business and Management** educational opportunities.",
-    "* In Germany, you can find opportunities in the **manufacturing, banking, consulting and technology sectors**. Many public institutions provide \"affordable education.\"",
-    "* Job opportunities outside the country after graduation.",
-    "With proper planning and guidance **Edu Hawk Worldwide Consultancy** helps students to comprehend the university admission requirements, look at international study options and prepare for the **journey of overseas education**."
+  overview: [
+    "Postgraduate Business Management education in Germany bridges advanced theoretical principles with hands-on corporate application, equipping future business leaders with cross-cultural leadership, strategic foresight, and analytical acumen.",
+    "Students access unmatched career pathways across Germany's powerhouse manufacturing, automotive, banking, strategic consulting, and enterprise software sectors.",
+    "For qualified consecutive master's degrees, most public universities charge **no general tuition fees** (€0/year), requiring only a modest semester contribution covering administration and regional public transit.",
+    "A German business master's opens exceptional international employment pathways backed by Germany's streamlined 18-month post-study work visa and EU Blue Card regulations.",
+    "Edu-Hawk Worldwide Consultancy guides students through every stage of their business management journey—from academic credit evaluation and APS certification to university applications, blocked accounts, and student visas."
   ],
-  "level": "B.Sc. & M.Sc. in Business Management (BWL)",
-  "crumb": "Management / Business Administration",
-  "stats": [
-    {
-      "label": "Degree Choices",
-      "value": "B.Sc. & M.Sc. in Business Management (BWL)"
-    },
-    {
-      "label": "Course Duration",
-      "value": "3 to 6 Years"
-    },
-    {
-      "label": "Top Institutions",
-      "value": "The University of Mannheim   is well known for its management and business administration programs., Frankfurt School of Finance & Management"
-    },
-    {
-      "label": "Post-Study Work",
-      "value": "18-Month Jobseeker Visa (Residence Permit)"
-    }
+  level: "Master of Science / Master of Arts (M.Sc. / M.A. in Business Management)",
+  crumb: "Postgraduate / Business Management",
+  stats: [
+    { label: "Degree Choices", value: "M.Sc. in Business Management, M.Sc. in Management (MIM), MBA" },
+    { label: "Course Duration", value: "1.5 to 2 Years (3 to 4 Semesters / 90 - 120 ECTS)" },
+    { label: "Tuition at Public Unis", value: "€0 Tuition (Semester fee: €150 - €400)" },
+    { label: "Post-Study Work Visa", value: "18 Months Jobseeker Visa (EU Blue Card path)" },
+    { label: "Starting Salary Range", value: "€48,000 - €65,000 / year" }
   ],
-  "sections": [
+  sections: [
     {
-      "slot": "courses",
-      "eyebrow": "Curriculum & Specializations",
-      "title": "2. German business administration courses",
-      "groups": [
+      slot: "details",
+      eyebrow: "Program Specialisations",
+      title: "Popular Business Management Courses and Tracks in Germany",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "A **postgraduate business management program** usually takes between **1-2 years** to complete, depending on the degree and the university.",
-            "Popular classes include:",
-            "Common topics include marketing, finance, organizational behavior, strategic management, leadership, business analytics, and international business."
+          t: "p",
+          items: [
+            "Postgraduate business management programs in Germany typically require 90 to 120 ECTS credits (3 to 4 semesters). Programs emphasize quantitative analysis, corporate strategy, agile team leadership, and an applied master's thesis.",
+            "Popular master's specializations and degree tracks include:"
           ]
         },
         {
-          "t": "pills",
-          "items": [
-            "Master of Science in Business Management",
-            "Master of Science in International Management",
-            "Master of Business Administration (MBA) program",
-            "Master of Science in Business Administration degree",
-            "MSc Marketing Management",
-            "Master of Science in Finance & Management",
-            "MSc Human Resource Management",
-            "Master's degree in Supply Chain Management",
-            "Master of Science in Entrepreneurship and Innovation",
-            "Master of Science in Digital Business Management"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "universities",
-      "eyebrow": "Top German Universities",
-      "title": "3. Germany's Best Universities and Institutions for Business Management",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The following universities offer **business and management-related programs** for students to consider:",
-            "**The University of Mannheim** is well-known for its management and business administration programs.",
-            "**Frankfurt School of Finance & Management:** This institution focuses on teaching business, finance, and management.",
-            "**HHL Leipzig Graduate School of Management:** This school specializes in business administration, entrepreneurship, and management."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Eligibility Criteria",
-      "title": "4. Qualifications for Studying Business Management in Germany",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Common candidacy requirements include:",
-            "Requirements vary by university. Some programs may require you to have taken prior **business-related coursework**, while others accept students from a variety of academic backgrounds."
+          t: "ul",
+          items: [
+            "**Master of Science in Business Management:** Comprehensive enterprise management, corporate governance, strategic planning, and operational control.",
+            "**Master of Science in International Management (MIM):** Cross-cultural leadership, multinational strategy, international finance, and global supply networks.",
+            "**Master of Business Administration (MBA):** Executive-level decision-making, strategic marketing, entrepreneurship, and financial management for experienced professionals.",
+            "**M.Sc. in Finance & Financial Management:** Asset allocation, financial risk engineering, corporate restructuring, and investment banking.",
+            "**M.Sc. in Marketing Management & Brand Strategy:** Omnichannel digital marketing, consumer analytics, brand equity, and customer relationship management.",
+            "**M.Sc. in Human Resource Management & Organizational Design:** Strategic talent acquisition, leadership development, workplace transformation, and labor economics.",
+            "**M.Sc. in Supply Chain Management & Operations:** Lean production systems, procurement strategy, global logistics, and circular economy supply chains.",
+            "**M.Sc. in Entrepreneurship, Innovation & Digital Business:** Venture capital, agile business incubation, digital transformation, and technological commercialization."
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "A recognized **bachelor degree** in management, business, commerce, economics or any other recognized discipline.",
-            "Fulfilling the university’s minimum **academic grade requirements**.",
-            "For courses taught in English, **English proficiency** is usually demonstrated with **IELTS or TOEFL**.",
-            "For German taught programs, **German language proficiency** is a requirement. Some MBA programs require you to have relevant work experience. - **GMAT, GRE** or other tests if required."
+          t: "p",
+          items: [
+            "**Core Curricular Foundations:**",
+            "* Strategic Management, Corporate Ethics, and Boardroom Governance",
+            "* Managerial Economics and Applied Quantitative Decision Science",
+            "* Advanced Marketing Strategy and Consumer Analytics",
+            "* Operations Management, Process Optimization, and Enterprise Resource Planning",
+            "* Real-World Consulting Projects (Praxisprojekte) with Global Corporate Partners",
+            "* Master's Research Thesis (30 ECTS) conducted with faculty advisors or corporate sponsors"
           ]
         }
       ]
     },
     {
-      "slot": "admission",
-      "eyebrow": "Admission Requirements",
-      "title": "5. Admission Requirements for Business Management in Germany",
-      "groups": [
+      slot: "unis",
+      eyebrow: "Top German Universities",
+      title: "Prestigious Universities and Business Schools for Management",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Candidates may be asked to provide:",
-            "Always consult the **admission regulations** of the desired program before applying."
+          t: "p",
+          items: [
+            "Germany's public university business faculties and specialized management schools hold prestigious international triple-crown accreditations (AACSB, AMBA, EQUIS) and feature unmatched corporate ties."
+          ]
+        }
+      ],
+      unis: [
+        {
+          name: "University of Mannheim",
+          city: "Mannheim, Baden-Württemberg",
+          qsRank: "Germany's #1 Ranked Business Faculty / 'Harvard of Germany'",
+          tuition: "€1,500 / semester (Baden-Württemberg non-EU tuition)",
+          programs: "Mannheim Master in Management (MMM), M.Sc. in Business Administration",
+          highlights: "Consistently ranked as Germany's premier business administration faculty; exceptional recruitment record with top consulting and corporate leaders.",
+          link: "https://www.uni-mannheim.de/",
+          img: uniImg1
+        },
+        {
+          name: "Frankfurt School of Finance & Management",
+          city: "Frankfurt am Main, Hesse",
+          qsRank: "Top Continental Finance & Management School / Triple Crown",
+          tuition: "€32,000 - €36,500 (Total Program)",
+          programs: "Master in Management (M.Sc.), Master in Strategic Leadership",
+          highlights: "Located in continental Europe's banking and corporate headquarters; direct links with Frankfurt's elite financial and consulting institutions.",
+          link: "https://www.frankfurt-school.de/",
+          img: uniImg2
+        },
+        {
+          name: "HHL Leipzig Graduate School of Management",
+          city: "Leipzig, Saxony",
+          qsRank: "Pioneer in German Management Education / AACSB Accredited",
+          tuition: "€38,000 - €42,000 (Total Program)",
+          programs: "Master in Management (M.Sc.), Full-Time & Part-Time Tracks",
+          highlights: "Celebrated entrepreneurial ecosystem having incubated over 500 startup ventures; top rankings for corporate leadership training.",
+          link: "https://www.hhl.de/",
+          img: uniImg3
+        }
+      ]
+    },
+    {
+      slot: "details",
+      eyebrow: "Admissions & Criteria",
+      title: "Eligibility Criteria and Admissions Standards for Business Management",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Admissions to German business management master's programs are strictly merit-based and governed by consecutive subject-credit prerequisites:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Bachelor’s degree certificate and academic transcripts.",
-            "Results of a language test in English or German. A resume or CV.",
-            "Motivation letter or statement of purpose. Letters of recommendation, if applicable.",
-            "GMAT or GRE scores, if required.",
-            "Experience certificates for relevant MBA programs. You need a valid passport and a completed application form."
+          t: "ul",
+          items: [
+            "**Recognized Bachelor's Degree:** Equivalent undergraduate qualification (BBA, B.Com, B.Sc. in Business, Economics, or related disciplines) from an H+ recognized university on the German Anabin database.",
+            "**Subject-Credit Requirements (ECTS Equivalency):** Most public university master's programs require applicants to demonstrate sufficient undergraduate coursework in quantitative methods (business mathematics, statistics), economics, and general business administration (typically 15–20 ECTS in each domain).",
+            "**Academic Grade Benchmark:** Strong GPA (minimum 65%–70% or German GPA 2.5 or better on the Bavarian formula). Highly competitive programs may require German GPA 2.0 or higher.",
+            "**English Language Proficiency:** For English-taught degrees: IELTS Academic (minimum 6.5–7.0 overall with no band below 6.0) or TOEFL iBT (minimum 90–100 points).",
+            "**German Language Proficiency:** For German-taught or bilingual degrees: TestDaF (level 4) or DSH-2. For English programs, basic German (A1/A2) is strongly recommended for local internship placement.",
+            "**GMAT / GRE Scores (Specific Unis):** Top faculties (e.g., Mannheim MMM, Frankfurt School) require or strongly recommend GMAT (target 640+) or GRE quantitative equivalent.",
+            "**APS India Certificate:** Mandatory document verifying undergraduate credentials prior to university application and visa issuance."
           ]
         }
       ]
     },
     {
-      "slot": "fees",
-      "eyebrow": "Tuition Fees & Living Costs",
-      "title": "6. What are the costs of business management in Germany",
-      "groups": [
+      slot: "details",
+      eyebrow: "Financial Overview",
+      title: "Cost of Studying Business Management in Germany and Living Expenses",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "The estimated costs are:",
-            "Several public universities charge tuition to some students from outside the EU. Please check the latest fees and **student visa financial requirements** before submitting your application."
+          t: "p",
+          items: [
+            "Germany provides an exceptionally affordable postgraduate education. Tuition-free public universities across most federal states make world-class management education accessible to international students."
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "With some exceptions, a number of programs will offer free tuition to qualified students at many public universities.",
-            "The donation is €150 up to €400 for each semester.",
-            "Tuition fees at private business schools range from several thousand euros to €30,000 or more a year; MBA programs can be much more expensive.",
-            "Monthly cost of living is between €900 and €1,300",
-            "Living expenses for a two-year program (excluding tuition and one-time costs) may range from €21,600 to €31,200."
+          t: "table",
+          headers: ["Expense Category", "Estimated Cost (EUR)", "Key Details & Inclusions"],
+          rows: [
+            ["Public University Tuition", "€0 / year", "100% tuition-free at public universities across 15 of 16 federal states."],
+            ["Baden-Württemberg State Non-EU Fee", "€1,500 / semester", "Charged to non-EU students at public universities in Baden-Württemberg (e.g., Mannheim)."],
+            ["Semester Contribution (Semesterbeitrag)", "€150 - €400 / semester", "Covers campus administration, student union services, and regional public transit pass."],
+            ["Private Business School Tuition", "€10,000 - €22,000 / year", "Private business colleges (Frankfurt School, HHL) offering specialized tracks."],
+            ["Monthly Living Expenses", "€900 - €1,300 / month", "Student accommodation (€350–€600), groceries (€200–€300), utilities, and leisure."],
+            ["Statutory Health Insurance", "€120 - €135 / month", "Mandatory public health cover (TK, AOK, Barmer) for full medical protection."],
+            ["Blocked Account (Sperrkonto)", "€11,208 / year (€934 / month)", "German student visa requirement to verify subsistence funds for 12 months."]
           ]
         },
         {
-          "t": "table",
-          "headers": [
-            "Category / Expense Type",
-            "Estimated Amount (EUR)",
-            "Applicability & Regulation"
-          ],
-          "rows": [
-            [
-              "With some exceptions, a number of programs will offer free tuition to qualified students at many public universities.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "The donation is €150 up to €400 for each semester.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "Tuition fees at private business schools range from several thousand euros to €30,000 or more a year; MBA programs can be much more expensive.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "Monthly cost of living is between €900 and €1,300",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "Living expenses for a two",
-              "year program (excluding tuition and one",
-              "time costs) may range from €21,600 to €31,200."
-            ]
+          t: "p",
+          items: [
+            "Over a standard 2-year master's program, estimated total living expenditure ranges between **€21,600 and €31,200**. International students frequently offset costs through part-time employment (working up to 140 full days or 280 half days per year as Werkstudent) earning €13 to €18 per hour."
           ]
         }
       ]
     },
     {
-      "slot": "process",
-      "eyebrow": "Application Timeline & Steps",
-      "title": "7. Admission to Business Administration in Germany",
-      "groups": []
-    },
-    {
-      "slot": "why",
-      "eyebrow": "Why Study in Germany",
-      "title": "1. Choose a specialisation and make a shortlist of universities.",
-      "groups": []
-    },
-    {
-      "slot": "courses",
-      "eyebrow": "Curriculum & Specializations",
-      "title": "2. Check the deadlines, language and eligibility requirements.",
-      "groups": []
-    },
-    {
-      "slot": "universities",
-      "eyebrow": "Top German Universities",
-      "title": "3. Prepare your test scores and academic papers.",
-      "groups": []
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Eligibility Criteria",
-      "title": "4. Draft your CV and motivation letter.",
-      "groups": []
-    },
-    {
-      "slot": "admission",
-      "eyebrow": "Admission Requirements",
-      "title": "5. Submit the application to the application service or the official portal of the university.",
-      "groups": []
-    },
-    {
-      "slot": "fees",
-      "eyebrow": "Tuition Fees & Living Costs",
-      "title": "6. Go through a interview or additional testing if required.",
-      "groups": []
-    },
-    {
-      "slot": "process",
-      "eyebrow": "Application Timeline & Steps",
-      "title": "7. Receive the admission decision.",
-      "groups": []
-    },
-    {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Quality Standards",
-      "title": "8. Make arrangements for money, accommodation, health insurance and student visa.",
-      "groups": []
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Career Prospects & Salary",
-      "title": "9. Complete university enrollment.",
-      "groups": [
+      slot: "timeline",
+      eyebrow: "Admissions Roadmap",
+      title: "9-Step Admission Process for Business Management in Germany",
+      timeline: [
         {
-          "t": "p",
-          "items": [
-            "Apply early enough to allow for document verification and visa processing before the deadline."
-          ]
+          step: "01",
+          title: "Select Specialisation & Curricula",
+          desc: "Compare master's curricula across General Management, International Business, Strategy, or Operations matching your undergraduate credit background."
+        },
+        {
+          step: "02",
+          title: "Verify Subject-Credit Prerequisites",
+          desc: "Perform meticulous credit-matching against target university criteria (ECTS in business mathematics, statistics, economics, and accounting)."
+        },
+        {
+          step: "03",
+          title: "Obtain APS India Certification",
+          desc: "Submit your bachelor's degree credentials, marksheets, and identity documents to APS India to obtain your mandatory verification certificate."
+        },
+        {
+          step: "04",
+          title: "Take Standardised Tests (GMAT / GRE & IELTS)",
+          desc: "Complete IELTS Academic (target 7.0+) or TOEFL iBT (target 95+). Prepare and take GMAT/GRE if required by target institutions."
+        },
+        {
+          step: "05",
+          title: "Prepare Application Dossier",
+          desc: "Craft a technically oriented Statement of Purpose (Letter of Motivation), academic CV in Europass format, letters of recommendation, and module descriptions."
+        },
+        {
+          step: "06",
+          title: "Submit Applications via Uni-Assist or Direct Portals",
+          desc: "Submit dossiers through Uni-Assist for Preliminary Documentation (VPD) or university-specific portals prior to published deadlines (July 15 for Winter, January 15 for Summer)."
+        },
+        {
+          step: "07",
+          title: "Receive Admission Decision & Confirm Seat",
+          desc: "Evaluate admission letters (Zulassungsbescheid), fulfill any conditional requirements, and confirm your study place."
+        },
+        {
+          step: "08",
+          title: "Open Blocked Account & Apply for Student Visa",
+          desc: "Deposit mandatory living funds (€11,208) into a German Blocked Account (Expatrio, Coracle, or Fintiba), arrange statutory health insurance, and apply for your National Visa."
+        },
+        {
+          step: "09",
+          title: "Arrival, Address Registration & Matriculation",
+          desc: "Arrive in Germany, register your address (Anmeldung) at the local Bürgeramt, pay the semester contribution, and complete matriculation for your master's studies."
         }
       ]
     },
     {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Quality Standards",
-      "title": "8. Accreditation & Recognition",
-      "groups": [
+      slot: "details",
+      eyebrow: "Career & Employment Prospects",
+      title: "Salary Trends and Career Opportunities After Business Management",
+      groups: [
         {
-          "t": "ul",
-          "items": [
-            "**Verify the accreditation status of the program’s quality assurance** and ensure that the institution is officially recognized before enrolling.",
-            "Students also need to verify whether the business schools have accreditations like **AACSB, EQUIS, or AMBA**. These are not requirements for all valid programs, but rather additional quality indicators.",
-            "Compare **course content, faculty knowledge, industry connections, internships and graduate career support** when choosing a university."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Career Prospects & Salary",
-      "title": "9. Salary & Job Opportunities",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Graduates can find careers in **business operations, consulting, finance, marketing, human resources and project management.",
-            "Some of the popular career options are:",
-            "Indicative salary bands for Germany are as follows:",
-            "Starting jobs pay between €40,000 and €55,000 gross per year.",
-            "Experienced professionals earn between €55,000 and €85,000 annually and more.",
-            "Compensation may vary depending on experience, job, company, location and other factors. If you have German skills, you’ll have more opportunities, especially in management and customer-facing roles."
+          t: "p",
+          items: [
+            "Graduates of German business management programs secure influential management, consulting, and operational roles across automotive, industrial technology, pharmaceutical, financial services, and consumer goods sectors.",
+            "Typical career paths and salary benchmarks for management graduates in Germany:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Management Consultant",
-            "Business Analyst",
-            "Manager – Marketing",
-            "The project leader",
-            "Operations Manager",
-            "An expert in human resources",
-            "Business Development Manager",
-            "Supply Chain Analyst Position",
-            "Strategy Consultant What is a financial analyst?"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Required Documentation",
-      "title": "10. Documents Required",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Some documents that are commonly needed are:",
-            "Depending on the country, you may need a **student visa** to study abroad. You may need to submit an admission letter, financial evidence, health insurance records, and visa application papers."
+          t: "ul",
+          items: [
+            "**Management Consultant (McKinsey, BCG, Roland Berger, Big 4):** €60,000 - €82,000 / year",
+            "**Corporate Strategy & Business Development Manager:** €55,000 - €75,000 / year",
+            "**Global Supply Chain & Logistics Analyst:** €52,000 - €70,000 / year",
+            "**Financial Analyst / Controller:** €54,000 - €72,000 / year",
+            "**Product Manager / Brand Strategist:** €52,000 - €70,000 / year",
+            "**Operations Project Manager:** €52,000 - €68,000 / year",
+            "**Human Resources Strategy Lead:** €50,000 - €66,000 / year",
+            "**Senior Management & Director Roles (5+ Years):** €75,000 - €110,000+ / year"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "A valid passport is needed. Bachelor’s degree transcripts and certificate.",
-            "A certificate of proficiency in either German or English.",
-            "A resume or CV. The statement of purpose. Letters of recommendation, if required.",
-            "GMAT or GRE scores, if applicable.",
-            "Certificates of work experience where applicable.",
-            "The form for application has been completed. Certified translations can be made upon request."
+          t: "p",
+          items: [
+            "International graduates are granted an **18-month post-study work visa** (Aufenthaltserlaubnis zur Arbeitsplatzsuche) to find qualifying employment. Upon securing a professional contract, graduates transition seamlessly to an **EU Blue Card**, offering accelerated permanent residency in as little as 21 to 27 months."
           ]
         }
       ]
     },
     {
-      "slot": "details",
-      "eyebrow": "Key Insights",
-      "title": "11. FAQs regarding German business management",
-      "groups": [
+      slot: "documents",
+      eyebrow: "Documentation Checklist",
+      title: "Required Documents for Business Management Admission and Visa",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Q1. Is it possible for Indian students to study business management in Germany?",
-            "Yes, Indian students who meet the ****academic and language requirements**** of the selected program and have a recognized bachelor's degree may apply.",
-            "Q2. Does Germany offer free business management?",
-            "For qualifying programs, many public colleges do not charge general tuition fees; nevertheless, certain tuition fees and **semester contributions** may be required.",
-            "Tuition is typically charged at private schools.",
-            "Q3. How long does it take to earn a master's degree in business management?",
-            "Depending on the degree and university, most programs last between one and two years.",
-            "Q4. Does Germany require the IELTS exam for business management?",
-            "Not all the time. Programs taught in English may accept **IELTS, TOEFL** or other validated proof of proficiency.",
-            "Certain candidates can be eligible for an exception.",
-            "Q5. What positions are open in Germany following business management?",
-            "Depending on their area of expertise and experience, graduates can find employment in **business analysis, consulting, marketing, operations, project management, finance, and business development**.",
-            "How can I study abroad with the assistance of **Edu Hawk Worldwide Consultancy?**",
-            "Students may find appropriate universities, comprehend **admission requirements**, arrange **application materials**, and organize their **study-abroad journey** with the assistance of **Edu Hawk Worldwide.** Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
+          t: "p",
+          items: [
+            "Ensure all application and official documentation is certified, current, and organized according to university and consulate specifications:"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "**Valid International Passport:** Machine-readable with minimum 12 months validity.",
+            "**APS Certificate:** Mandatory evaluation certificate from APS India.",
+            "**Bachelor's Degree Certificate & Official Transcripts:** Complete semester marksheets, provisional certificate, or degree certificate.",
+            "**Comprehensive Undergraduate Module Handbook:** Detailed course descriptions specifying ECTS credits, syllabus topics, and laboratory hours.",
+            "**Proof of English Language Competence:** Official score card for IELTS Academic (6.5–7.0+) or TOEFL iBT (90–100+).",
+            "**Proof of German Language Competence (If Applicable):** TestDaF or Goethe-Zertifikat for German-taught or bilingual programs.",
+            "**Updated Curriculum Vitae (CV):** Chronological resume in Europass format outlining education, internships, and business projects.",
+            "**Statement of Purpose (Letter of Motivation):** 1 to 2 pages detailing academic focus, research ambitions, and career goals.",
+            "**Academic Letters of Recommendation:** 2 letters from undergraduate professors or academic advisors.",
+            "**Standardised Test Scorecard:** Official GMAT or GRE score report (if requested by the institution).",
+            "**Official Admission Letter (Zulassungsbescheid):** Confirming enrollment in the master's program.",
+            "**Proof of Financial Subsistence:** Confirmation of funded Blocked Account (€11,208) or DAAD scholarship letter.",
+            "**Proof of Comprehensive Health Insurance:** Statutory German health insurance confirmation (TK, AOK, Barmer).",
+            "**Biometric Passport Photographs:** Compliant with German visa consular specifications."
           ]
         }
       ]
     }
   ],
-  "faqs": []
+  faqs: [
+    {
+      q: "Is it possible for Indian students to study business management in Germany?",
+      a: "Yes. Indian students who hold a recognized bachelor's degree in business, economics, commerce, or management, with adequate subject credits in mathematics, statistics, and business administration, and who meet language prerequisites, are fully eligible to apply for business management master's programs in Germany."
+    },
+    {
+      q: "Does Germany offer free business management?",
+      a: "Yes. Public universities across 15 of Germany's 16 federal states charge zero tuition fees (€0/year) for consecutive master's degrees in business management. Students pay only a nominal semester contribution (€150–€400/semester) covering administration and regional public transport. Exceptions include public universities in Baden-Württemberg (€1,500/semester for non-EU students) and private business schools."
+    },
+    {
+      q: "How long does it take to earn a master's degree in business management?",
+      a: "Most postgraduate business management programs in Germany (M.Sc. or M.A.) require 3 to 4 semesters (1.5 to 2 years) to complete, comprising 90 to 120 ECTS credits. The curriculum includes advanced theoretical coursework, corporate consulting projects, and a dedicated 6-month master's thesis."
+    },
+    {
+      q: "Does Germany require the IELTS exam for business management?",
+      a: "For English-taught master's programs, IELTS Academic (typically overall 6.5 or 7.0) or TOEFL iBT (90–100 points) is standardly required. For German-taught or bilingual degrees, certified German proficiency (TestDaF level 4 or DSH-2) is necessary. Certain universities may waive English tests if the medium of instruction was proven to be 100% English, though IELTS is strongly advised for visa processing."
+    },
+    {
+      q: "What positions are open in Germany following business management?",
+      a: "Graduates secure high-impact roles in management consulting, corporate strategy, operations analysis, financial control, supply chain management, and business development. Germany provides an 18-month post-study work visa, enabling graduates to secure qualified employment and transition swiftly to an EU Blue Card."
+    },
+    {
+      q: "How can Edu-Hawk Worldwide Consultancy assist me in studying Business Management in Germany?",
+      a: "Edu-Hawk Worldwide Consultancy provides comprehensive, end-to-end guidance for studying in Germany. Our services include profile evaluation, ECTS credit-matching analysis, APS certificate assistance, university shortlisting, Statement of Purpose (SOP) refinement, Uni-Assist application management, blocked account setup, statutory health insurance guidance, and visa interview preparation."
+    }
+  ]
 };
 
 export default function BusinessManagementGermanyPage() {
@@ -385,23 +334,33 @@ export default function BusinessManagementGermanyPage() {
     side: sideImg,
     ctaBg: ctaBgImg,
     universities: [
-    {
-      name: "The University of Mannheim   is well known for its management and business administration programs.",
-      img: uniImg1,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "Frankfurt School of Finance & Management",
-      img: uniImg2,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "HHL Leipzig Graduate School of Management",
-      img: uniImg3,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    }
+      {
+        name: "University of Mannheim",
+        img: uniImg1,
+        desc: "Germany's top-ranked business administration faculty, celebrated for academic excellence and outstanding corporate recruitment."
+      },
+      {
+        name: "Frankfurt School of Finance & Management",
+        img: uniImg2,
+        desc: "Leading European business school holding triple-crown accreditation in continental Europe's financial capital."
+      },
+      {
+        name: "HHL Leipzig Graduate School of Management",
+        img: uniImg3,
+        desc: "Pioneer in German management education with modular executive tracks emphasizing entrepreneurial leadership."
+      }
     ]
   };
 
-  return <AbroadCoursePage page={page} images={images} />;
+  return (
+    <AbroadCoursePage
+      page={page}
+      images={images}
+      heroImg={heroImg}
+      heroBgImg={heroBgImg}
+      sideImg={sideImg}
+      ctaBgImg={ctaBgImg}
+      seoPath={page.slug}
+    />
+  );
 }

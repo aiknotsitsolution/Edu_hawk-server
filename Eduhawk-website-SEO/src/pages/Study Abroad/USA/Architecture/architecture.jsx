@@ -16,9 +16,11 @@ const page = {
   "keywords": "Study Architecture in USA for Indian Students, Best Universities for Architecture in USA, Architecture Courses in USA for International Students, Architecture Admission Requirements in USA, Architecture Fees in USA for Indian Students, Architecture Scholarships in USA for International Students, Bachelor of Architecture in USA After 12th, Master of Architecture in USA for Indian Students, Architecture Course Duration in USA, Architecture Specializations in USA, Architecture Portfolio Requirements for USA Universities, Architecture Entrance Exams for International Students, Architecture Career Opportunities in USA, Architect Licensing Process in USA, USA Student Visa for Indian Architecture Students",
   "introTitle": "Architecture in the US",
   "heroParas": [
+    "Studying Architecture in the USA immerses international students in world-renowned architectural legacy, innovative sustainable construction, urban design, and cutting-edge digital modeling across premier American design institutes."
+  ],
+  "overview": [
     "Edu Hawk Worldwide helps you shortlist universities, understand admission requirements and plan your complete study-abroad journey."
   ],
-  "overview": [],
   "level": "UG & PG",
   "crumb": "Courses",
   "sections": [

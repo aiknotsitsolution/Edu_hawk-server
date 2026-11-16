@@ -13,477 +13,303 @@ import uniImg2 from "../../../../Images/Abroad/Ireland/MarketingManagement/Trini
 import uniImg3 from "../../../../Images/Abroad/Ireland/MarketingManagement/Technological_University_Dublin.webp";
 
 const page = {
-  "name": "Marketing Management in Ireland",
-  "country": "Ireland",
-  "slug": "marketing-management",
-  "title": "Study Marketing Management in Ireland for Indian Students | Edu-Hawk Worldwide",
-  "description": "Complete guide to Marketing Management in Ireland for Indian students: Top Irish universities, eligibility criteria, tuition fees (€13,500 – €28,640 / year), scholarships, and 2-year post-study work visa (Stamp 1G).",
-  "keywords": "Study Marketing Management in Ireland for Indian Students, Top Universities for Marketing Management in Ireland, Marketing Management Courses in Ireland for International Students, Bachelor of Business in Marketing Management in Ireland, MSc Marketing Management in Ireland, MSc Marketing in Ireland for International Students, Digital Marketing Courses in Ireland, Marketing Management Eligibility Requirements in Ireland, Admission Requirements for Marketing Courses in Ireland, Marketing Management Tuition Fees in Ireland 2026/27",
-  "introTitle": "STUDY MARKETING MANAGEMENT IN IRELAND",
-  "heroParas": [
-    "Study Marketing Management in Ireland",
-    "Marketing Management is a popular course choice for students who wish to pursue careers in branding, advertising, market research, digital marketing, sales and business strategy. Ireland has a range of undergraduate and postgraduate business programmes that assist learners to comprehend consumer behaviour, develop marketing campaigns and use data to make decisions in business.",
-    "Students can explore these opportunities through Edu Hawk worldwide study abroad guidance and learn about the requirements for studying abroad."
+  name: "Marketing Management in Ireland",
+  country: "Ireland",
+  slug: "study-abroad/ireland/marketing-management",
+  title: "Study Marketing Management in Ireland | Fees, Universities & Visas 2026/27",
+  description: "Complete guide to studying Marketing Management in Ireland: top business schools, undergraduate BSc & postgraduate MSc in Digital Marketing, 2026/27 tuition fees, Stamp 1G graduate work visa, and Silicon Docks corporate careers.",
+  keywords: "Study Marketing Management in Ireland, MSc Marketing Ireland, Digital Marketing Courses Ireland, Trinity MSc Marketing, TU Dublin Marketing, University of Galway Marketing Management, Marketing tuition fees Ireland 2026 2027, Stamp 1G post study work visa",
+  introTitle: "MARKETING MANAGEMENT COURSES IN IRELAND",
+  heroParas: [
+    "Ireland is Europe's premier technology and digital commercial capital, offering world-class Marketing Management degrees deeply integrated with multinational brand headquarters across Dublin's Silicon Docks."
   ],
-  "overview": [
-    "Study Marketing Management in Ireland",
-    "Marketing Management is a popular course choice for students who wish to pursue careers in branding, advertising, market research, digital marketing, sales and business strategy. Ireland has a range of undergraduate and postgraduate business programmes that assist learners to comprehend consumer behaviour, develop marketing campaigns and use data to make decisions in business.",
-    "Students can explore these opportunities through Edu Hawk worldwide study abroad guidance and learn about the requirements for studying abroad."
+  overview: [
+    "Marketing Management in Ireland combines cutting-edge consumer psychology, brand strategy, digital campaign execution, omnichannel retail operations, and data analytics. Irish higher education institutions deliver both 3-to-4-year undergraduate degrees (such as the Bachelor of Business in Marketing Management) and 1-year intensive postgraduate degrees (such as the Master of Science in Marketing, Digital Marketing, or Management & Marketing).",
+    "Curricula bridge creative brand storytelling with quantitative marketing analytics, marketing automation, SEO/SEM performance marketing, and social media strategy. Leading business faculties hold prestigious global accreditations (AACSB, AMBA, EQUIS) and direct accreditations from the Marketing Institute of Ireland (MII) and the Digital Marketing Institute (DMI), ensuring industry-standard certifications.",
+    "Non-EU international graduates qualify for Ireland's Third Level Graduate Scheme (Stamp 1G), granting 12 months of post-study employment permission for NFQ Level 8 Honours Bachelor graduates and 24 months (2 full years) for NFQ Level 9 Master's graduates to build high-trajectory corporate careers across Europe."
   ],
-  "level": "BSc Marketing & MSc Digital Marketing & Strategy",
-  "crumb": "Business / Marketing Management",
-  "stats": [
+  level: "NFQ Level 8 (Honours Bachelor) & Level 9 (Postgraduate Master's)",
+  crumb: "Business / Marketing Management",
+  stats: [
     {
-      "label": "Degree Choices",
-      "value": "BSc Marketing & MSc Digital Marketing & Strategy"
+      label: "Qualification Levels",
+      value: "NFQ Level 8 (UG) & Level 9 (PG)"
     },
     {
-      "label": "Course Duration",
-      "value": "3 to 4 Years (UG) / 1 Year (PG)"
+      label: "Course Duration",
+      value: "3–4 Years (UG) / 1 Year (PG)"
     },
     {
-      "label": "Top Institutions",
-      "value": "Trinity College Dublin, Trinity College Dublin"
+      label: "Annual Tuition (2026/27)",
+      value: "€13,500 – €22,300 / year"
     },
     {
-      "label": "Post-Study Work",
-      "value": "2 Years Third Level Graduate Scheme (Stamp 1G)"
+      label: "Post-Study Work Visa",
+      value: "1 Year (UG) / 2 Years (PG) Stamp 1G"
     }
   ],
-  "sections": [
+  unis: [
     {
-      "slot": "why",
-      "eyebrow": "Why Study in Ireland",
-      "title": "1. Why Study Marketing Management in Ireland?",
-      "groups": [
+      name: "Trinity College Dublin (Trinity Business School)",
+      city: "Dublin",
+      state: "Leinster, Ireland",
+      desc: "Holds prestigious Triple Crown accreditation (AACSB, AMBA, EQUIS). Delivers the world-ranked MSc in Marketing, emphasizing international marketing strategy, consumer insights, digital analytics, and brand communications within Dublin's multinational tech corridor.",
+      img: uniImg1
+    },
+    {
+      name: "Technological University Dublin (TU Dublin)",
+      city: "Dublin",
+      state: "Leinster, Ireland",
+      desc: "Offers the Bachelor of Business (Honours) with a specialized Marketing Management stream, alongside a popular 1-year conversion MSc in Marketing for non-business graduates, featuring affordable 2026/27 non-EU tuition of €13,500 per year.",
+      img: uniImg3
+    },
+    {
+      name: "University of Galway (J.E. Cairnes School of Business & Economics)",
+      city: "Galway",
+      state: "Connacht, Ireland",
+      desc: "Delivers the acclaimed MSc in Marketing Management (€20,890/year) and MSc in Digital Marketing, combining rigorous marketing research with live client consulting practicums and professional accreditation through MII.",
+      img: uniImg2
+    }
+  ],
+  sections: [
+    {
+      slot: "why",
+      eyebrow: "Why Ireland",
+      title: "Why Study Marketing Management in Ireland?",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Marketing. Ireland is a great place for students interested in marketing thanks to its international business environment and English-language higher education system.",
-            "Main benefits:"
+          t: "p",
+          items: [
+            "Studying marketing management in Ireland connects students directly with global brands, digital advertising networks, and European commercial leaders."
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "- Industry-relevant learning: Courses can include marketing strategy, branding, consumer behavior, market research and digital communications.",
-            "- International business exposure: Students can learn about marketing in organizations that operate in different countries and markets.",
-            "Digital marketing skills: Some programmes include social media, analytics, online advertising and data-driven marketing.",
-            "- Flexible study options: Students can select bachelor's degrees, master's programs and related specialist qualifications.",
-            "- Career opportunities across industries: Marketing skills are applicable in technology, retail, financial services, consulting, media and consumer goods.",
-            "- Transferable business skills: Students will develop skills in communication, presentation, research, planning and problem solving."
+          t: "ul",
+          items: [
+            "Silicon Docks Tech Ecosystem: Home to European headquarters for Google, Meta, TikTok, LinkedIn, HubSpot, and Salesforce, placing Ireland at the global forefront of digital marketing and advertising technology.",
+            "Applied Data-Driven Curriculum: Programs move beyond traditional advertising into predictive consumer analytics, marketing automation, attribution modeling, CRM management, and AI in digital marketing.",
+            "Industry Certifications: Curricula incorporate built-in exemptions and certifications from recognized bodies including the Marketing Institute of Ireland (MII), Digital Marketing Institute (DMI), and Google Marketing Platform.",
+            "Conversion Pathways: Renowned 1-year MSc in Marketing programs welcome graduates from engineering, humanities, sciences, and arts who wish to transition into commercial marketing careers.",
+            "Universal Industry Demand: Marketing graduates are hired across technology, FMCG, retail, pharmaceuticals, fintech, creative agencies, and public relations.",
+            "Stamp 1G Graduate Visa Scheme: Honours Bachelor graduates gain 1 year, and Master's graduates receive 2 full years of unrestricted full-time employment authorization in Ireland."
           ]
         }
       ]
     },
     {
-      "slot": "courses",
-      "eyebrow": "Degrees & Programs",
-      "title": "2. Marketing Management Courses in Ireland",
-      "groups": [
+      slot: "courses",
+      eyebrow: "Specializations",
+      title: "Marketing Degree Levels & Core Specializations",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "In Ireland you can study Marketing Management courses on a number of different courses.",
-            "Courses for undergraduates",
-            "The undergraduate programs are intended for students who have successfully completed secondary school or its equivalent qualification.",
-            "Some common options include:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "- Bachelor of Business (Marketing Management)",
-            "- Bachelor of Business (Hons)",
-            "- B. Com with Marketing modules",
-            "- Degrees in Marketing and Business",
-            "- Marketing programs with digital business or communications courses"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "A bachelor's degree normally takes three to four years to complete, but this can depend on the institution and program.",
-            "Post Graduate Courses",
-            "Postgraduate programmes are ideal for graduates looking to specialise in marketing or business skills for a career in marketing.",
-            "Some common choices are:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "- MSc in Marketing Management",
-            "- MSc in Marketing",
-            "- MSc Management & Marketing",
-            "*Digital Marketing MSc",
-            "- Further qualifications in Marketing strategy, Branding or Marketing analytics"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The majority of full-time taught master’s degrees last for one year, although there can be variation between institutions.",
-            "Marketing Management Specializations",
-            "Students can study: depending on the course"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "*Social media & digital marketing",
-            "- Brand management",
-            "- Consumer behavior",
-            "- Research and market analysis",
-            "- Communications and advertising",
-            "- Marketing internacional",
-            "- Sales and customer relations management",
-            "Strategic marketing planning"
+          t: "p",
+          items: [
+            "Irish universities provide diverse marketing pathways tailored to undergraduate school leavers and postgraduate career advancers:",
+            "Undergraduate Marketing Degrees (NFQ Level 8): 3-to-4-year programs including Bachelor of Business (Honours) in Marketing, Bachelor of Commerce (Marketing Major), and BSc in Marketing with Digital Media, providing foundational knowledge in buyer behaviour, market research, and campaign planning.",
+            "Postgraduate Master's Degrees (NFQ Level 9): 1-year full-time degrees including MSc in Marketing Management, MSc in Digital Marketing, MSc in Strategic Brand Management, and MSc in Management & Marketing, focusing on corporate strategy, omnichannel growth, and marketing leadership.",
+            "Core Functional Specializations: Brand Equity Management, Digital Analytics & Performance Media, Search Engine Optimization (SEO & SEM), Consumer Behaviour & Neuromarketing, International Marketing Communications, and Strategic Customer Relationship Management (CRM)."
           ]
         }
       ]
     },
     {
-      "slot": "universities",
-      "eyebrow": "Top Institutions",
-      "title": "3. Top Marketing Management Colleges in Ireland",
-      "unis": [
+      slot: "eligibility",
+      eyebrow: "Admission Criteria",
+      title: "Eligibility Criteria for Marketing in Ireland",
+      groups: [
         {
-          "name": "Trinity College Dublin",
-          "desc": "Trinity College, Dublin - Trinity Business School offers a MSc in Marketing. The program covers areas such as branding, marketing strategy, communications, planning and analytics.",
-          "imgKey": "uniImg_Trinity_College_Dublin_webp",
-          "imgIdentifier": "uniImg1",
-          "city": "Dublin, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg1
-        },
-        {
-          "name": "Trinity College Dublin",
-          "desc": "Trinity College, Dublin - Trinity Business School offers a MSc in Marketing. The program covers areas such as branding, marketing strategy, communications, planning and analytics.",
-          "imgKey": "uniImg_Trinity_College_Dublin_2_webp",
-          "imgIdentifier": "uniImg2",
-          "city": "Dublin, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg2
-        },
-        {
-          "name": "Technological University Dublin",
-          "desc": "Technological University Dublin (TU Dublin) - TU Dublin also provides a Bachelor of Business (Honours) route that allows students to specialize in Marketing Management. It also offers a one-year MSc in Marketing for graduates from non-business disciplines who wish to move into the business field.",
-          "imgKey": "uniImg_Technological_University_Dublin_webp",
-          "imgIdentifier": "uniImg3",
-          "city": "Dublin, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg3
-        }
-      ]
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Admissions Criteria",
-      "title": "4. Eligibility to Study Marketing Management in Ireland",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The eligibility criteria for Marketing Management in Ireland are different for undergraduate and postgraduate programs.",
-            "Eligibility for bachelor's degrees",
-            "Most applicants will need:"
+          t: "p",
+          items: [
+            "Admissions standards evaluate academic performance, analytical capability, and English language communication:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "- A recognized secondary-school qualification, e.g. Class 12 for Indian applicants;",
-            "- Academic achievements corresponding to the requirements of the institution’s country.",
-            "- Proof of English language ability if needed.",
-            "- Any other subject prerequisites required by the university."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The minimum academic marks required differ from institution to institution and from program to program. Students should check how their qualifications are assessed for the course they have chosen.",
-            "Eligibility for master’s degrees",
-            "What applicants usually need:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "- A recognized Bachelor’s degree",
-            "- Academic grades meeting the entry requirements of the program.",
-            "- Evidence of proficiency in English , where required.",
-            "- Appropriate academic or professional experience, as required by the program."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "A handful of marketing masters programmes accept graduates from non-business disciplines. Others may require you to have prior business knowledge or relevant subjects."
+          t: "ul",
+          items: [
+            "Undergraduate (Bachelor's Entry): Completion of Higher Secondary School Certificate (Class 12) from CBSE, CISCE, or state boards with an aggregate between 65% and 85%. Basic mathematics competency in Class 10 or 12 is required.",
+            "Postgraduate (Master's Entry): A recognized 3-to-4-year Bachelor's degree with a minimum 60% aggregate (Second Class Honours 2.1 or 2.2). Several MSc programs accept graduates from non-business disciplines without prior marketing background.",
+            "English Language Test Scores: Non-native English speakers must achieve IELTS Academic 6.5 overall (no individual band below 6.0), TOEFL iBT 88–90, or PTE Academic 61–63.",
+            "Work Experience: Not mandatory for most MSc in Marketing programs, though prior internships in digital media, content creation, or sales enhance applicant competitiveness."
           ]
         }
       ]
     },
     {
-      "slot": "requirements",
-      "eyebrow": "Entry Requirements",
-      "title": "5. Admission Requirements Marketing Management in Ireland",
-      "groups": [
+      slot: "admission",
+      eyebrow: "Application Checklist",
+      title: "Application & Documentation Checklist",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Marketing Management admission requirements in Ireland are evaluated by universities based on academic qualifications and supporting documents to verify if the applicant meets the requirements.",
-            "Typical requirements are:"
+          t: "p",
+          items: [
+            "Applicants must assemble and submit certified digital dossiers through university international application portals:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Academic transcripts and certificates: They are proof that the minimum entry requirements have been met.",
-            "English language proficiency: Applicants may need an accepted qualification such as IELTS Academic, TOEFL iBT or PTE Academic. Required scores vary by institution and course.",
-            "Statement of Purpose: Some post-graduate programs ask applicants to describe their interest in marketing, their academic background and their career plans.",
-            "CV or résumé: May be required for entry to postgraduate courses or where professional experience is relevant.",
-            "Letters of recommendation Some programs require academic or professional references.",
-            "Further assessments: Some programs may require you to attend an interview, submit a portfolio or other supporting material, but this is not a universal requirement."
+          t: "ul",
+          items: [
+            "Official Class 10 and Class 12 mark sheets and school-leaving certificates (for undergraduate applicants).",
+            "Bachelor's degree passing certificate and consolidated transcripts (for postgraduate applicants).",
+            "Valid International Passport with minimum 12 months validity.",
+            "Standardized English Language proficiency scorecard (IELTS, TOEFL, or PTE Academic).",
+            "Statement of Purpose (SOP) articulating passion for brand marketing, creative strategy, and reasons for choosing the Irish institution.",
+            "Two Academic or Professional Letters of Recommendation (LORs).",
+            "Detailed Curriculum Vitae (CV) emphasizing digital campaigns, portfolio work, social media management, or extracurricular leadership."
           ]
         }
       ]
     },
     {
-      "slot": "tuition",
-      "eyebrow": "Tuition & Living Costs",
-      "title": "6. The cost of studying Marketing Management in Ireland",
-      "groups": [
+      slot: "cost",
+      eyebrow: "Tuition & Living Costs",
+      title: "Cost of Studying Marketing in Ireland (2026/27 Tuition & Living)",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "The cost for studying Marketing Management courses in Ireland differ from institution to institution, level of course, duration and category of student.",
-            "Approximate tuition fees",
-            "Bachelor’s degree \\| €10,000–€29,000",
-            "Master’s degree \\| €14,000-€40,000",
-            "These are estimated general planning figures for international students and not the actual fees for all Marketing Management courses.",
-            "Published fees show the differences between programs. Here are some examples:",
-            "University of Galway MSc Marketing Management* Published non-EU fee 2026/27 (full time): €20,890 (includes student levy)."
+          t: "p",
+          items: [
+            "Total study expenditure includes international tuition fees, student contribution levies, accommodation, and living costs:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "MSc Marketing at TU Dublin: The published non-EU fee for the one year program is €13,500.",
-            "UCC MSc Management and Marketing: The published non-EU fee for the one year program is €22,300."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Cost of living",
-            "Other than tuition students should plan for:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "- Housing and utilities",
-            "- Groceries and food",
-            "*Public transport",
-            "- Books/study materials",
-            "- Health insurance as applicable",
-            "- Individual costs",
-            "- Visa and immigration costs, where applicable"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The cost of living depends on the city and the type of accommodation.",
-            "Students need to make a budget for tuition and living expenses separately before accepting an offer."
+          t: "ul",
+          items: [
+            "Undergraduate Tuition Fees: Non-EU undergraduate marketing tuition ranges from €10,000 to €22,000 per academic year, with technological universities offering competitive rates around €13,500.",
+            "Postgraduate Tuition Fees: 1-year full-time MSc in Marketing tuition fees range from €13,500 at TU Dublin to €20,890 at University of Galway and €22,300 at UCC.",
+            "Living Costs (Dublin): Estimated at €1,000 to €1,400 per month (€10,000 to €14,000 per academic year) for shared accommodation, groceries, and travel.",
+            "Living Costs (Galway / Cork / Limerick): Approximately €800 to €1,100 per month (€8,000 to €11,000 per year), offering substantial savings over capital city rents.",
+            "Immigration & Health Insurance: €300 annual fee for the Irish Residence Permit (IRP) card plus private health insurance (€150 to €350 per year).",
+            "Student Employment Rights: International non-EU students on Stamp 2 visas are legally permitted to work up to 20 hours per week during academic semesters and 40 hours per week during holidays, earning at least €13.50 per hour."
           ]
         }
       ]
     },
     {
-      "slot": "process",
-      "eyebrow": "Application Steps",
-      "title": "7. Ireland Marketing Management Admission Procedure",
-      "steps": [
+      slot: "accreditation",
+      eyebrow: "Degree Quality",
+      title: "Accreditation & Professional Industry Recognition",
+      groups: [
         {
-          "step": "01",
-          "title": "Step 01",
-          "desc": "Students can take these steps in general when applying to a Irish university or institution."
-        }
-      ]
-    },
-    {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Recognition",
-      "title": "8. Work out funding and housing: Work out how you will pay tuition and living expenses.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Detailed information on Accreditation & Recognition will be provided during personalized counseling with Edu-Hawk Worldwide."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Career Outcomes",
-      "title": "9. Complete all immigration requirements: If you need a Irish student visa or immigration permission, please check the current official requirements before travelling.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "8\\. Accreditation and Recognition of Marketing Management in Ireland",
-            "Students should check that the institution and the qualification are properly recognized before enrolling.",
-            "Important checks are"
+          t: "p",
+          items: [
+            "Marketing degrees in Ireland are validated under the National Framework of Qualifications (NFQ) and backed by premier professional bodies:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "- Institution recognition: see if the institution is officially recognized and what qualification it awards.",
-            "- National Framework of Qualifications (NFQ): Check level and type of award where applicable.",
-            "Quality and Qualifications Ireland (QQI): See the official sites for details of the qualifications and quality assurance.",
-            "- Professional accreditation: There may be additional accreditations for some business schools/marketing courses. They are programme specific and not generic requirements of all marketing degrees.",
-            "Having a recognized qualification may help with job applications and further study but professional requirements vary from job to job and country to country ."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "9\\. Marketing Management Salary and Job Opportunities in Ireland",
-            "A Marketing Management qualification can equip graduates for positions in companies of all sizes and sectors. Your career prospects will depend on the course you take, the practical experience you gain, your communication skills, your technical abilities and the local labor market.",
-            "Jobs Opportunities -",
-            "Careers Graduates can work as"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Marketing Executive",
-            "Digital Marketing Specialist",
-            "Brand Manager",
-            "Social Media Manager",
-            "Market Research Analyst",
-            "Officer, Marketing Communications",
-            "Content Marketing Professional",
-            "Specialist SEO / Advertising Payé",
-            "Executive in Customer Relationship Management",
-            "Analyst marketing",
-            "Marketing Manager with appropriate experience"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Salary expectations",
-            "Marketing salaries depend on the role, location, industry and experience. Entry level jobs are often paid differently than specialist, managerial and leadership jobs.",
-            "As a broad planning guide, some entry-level marketing positions may pay salaries in the region of €28,000-€38,000 per year.",
-            "While experienced specialists and managers can earn more.",
-            "These figures are indicative and not guaranteed and students should check current vacancies and salary surveys before making any financial decisions.",
-            "Career prospects after graduation",
-            "Completing a degree does not automatically lead to a job or permission to stay in Ireland. The Third Level Graduate Programme permits eligible graduates of eligible Irish higher education programs to make an application, subject to current conditions and immigration rules."
+          t: "ul",
+          items: [
+            "NFQ Framework Alignment: Bachelor of Business degrees are placed at NFQ Level 8 (180–240 ECTS credits). Master of Science programs are placed at NFQ Level 9 (90 ECTS credits).",
+            "Marketing Institute of Ireland (MII): Ireland's professional association for marketing practitioners, providing professional membership, continuous professional development (CPD), and career mentorship.",
+            "Digital Marketing Institute (DMI): Select Irish university curricula align directly with DMI Certified Digital Marketing Professional (CDMP) standards.",
+            "Triple Crown Business Schools: Trinity Business School and UCD Smurfit hold elite Triple Crown accreditation (AACSB, AMBA, EQUIS), placing them in the top 1% of business schools worldwide."
           ]
         }
       ]
     },
     {
-      "slot": "documents",
-      "eyebrow": "Document Checklist",
-      "title": "10. Documents needed to study Marketing Management in Ireland",
-      "groups": [
+      slot: "careers",
+      eyebrow: "Career Outcomes",
+      title: "Marketing Career Opportunities & Salary Expectations",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "The exact documents needed to study Marketing Management in Ireland will vary depending on the institution and level of course. Typical requirements are:"
+          t: "p",
+          items: [
+            "Marketing graduates enter a robust corporate landscape with expansive hiring across multinational tech brands and advertising agencies:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "*Valid passport",
-            "- Certificates and transcripts of studies",
-            "-Applicable Class 10 and Class 12 documents for undergraduate candidates",
-            "- Certificate and transcripts of Bachelor’s degree for applicants for postgraduate programs",
-            "- Results of the English test when applicable",
-            "- Statement of purpose or personal statement, if applicable",
-            "- CV or resume (if applicable)",
-            "- Letters of recommendation from academics or professionals if required",
-            "- Application form completed",
-            "- Proof of payment of the application fee, where applicable",
-            "- Proof of funds and other documents required for the visa process, if applicable"
+          t: "ul",
+          items: [
+            "Key Career Profiles: Digital Marketing Specialist, Brand Strategy Associate, Performance Media Executive, SEO/SEM Specialist, Market Research Analyst, Content Marketing Manager, CRM Specialist, and Marketing Communications Officer.",
+            "Starting Salary Packages: Entry-level marketing roles in Ireland generally offer gross annual salaries between €28,000 and €38,000, rising to €42,000–€55,000 for digital analytics and performance marketing specialists.",
+            "Senior Executive Salaries: Experienced marketing managers and brand directors in Dublin regularly command €65,000 to €85,000+ per year.",
+            "Stamp 1G Graduate Visa: 1-year (NFQ Level 8) or 2-year (NFQ Level 9) post-study work authorization enables graduates to gain critical European commercial experience and transition onto permanent employment permits."
           ]
         }
       ]
     }
   ],
-  "table": {
-    "title": "Estimated Cost of Studying Marketing Management in Ireland in Ireland (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (€ / EUR)",
-      "Details / Scope"
-    ],
-    "rows": [
-      [
-        "Undergraduate Degree (Annual)",
-        "€13,500 – €27,640 / year",
-        "Varies by institution ranking, laboratory facilities, and program"
-      ],
-      [
-        "Postgraduate Degree (Annual)",
-        "€15,000 – €28,640 / year",
-        "1-year intensive master's program or 2-year research degree"
-      ],
-      [
-        "Living Expenses (Dublin)",
-        "€1,000 – €1,400 / month",
-        "Includes student accommodation, meals, utilities, and public transit"
-      ],
-      [
-        "Living Expenses (Outside Dublin)",
-        "€800 – €1,100 / month",
-        "Cost of living in Cork, Galway, Limerick, or Maynooth"
-      ],
-      [
-        "Student Visa & IRP Card Fee",
-        "€300 / year",
-        "Mandatory Irish Residence Permit (IRP) registration fee"
-      ]
+  steps: [
+    {
+      title: "Identify Marketing Specialization Track",
+      desc: "Choose between general marketing management, digital marketing, strategic brand management, or marketing analytics."
+    },
+    {
+      title: "Check Academic Entry Benchmarks",
+      desc: "Confirm Class 12 aggregate (65%–85%) for undergraduate or Bachelor's degree (60%–65%) for postgraduate admissions."
+    },
+    {
+      title: "Appear for English Proficiency Test",
+      desc: "Score minimum IELTS 6.5 (no sub-band below 6.0), TOEFL iBT 88+, or PTE Academic 61+."
+    },
+    {
+      title: "Prepare Compelling SOP & Dossier",
+      desc: "Craft a tailored Statement of Purpose highlighting your creative and analytical marketing ambitions, and secure two recommendation letters."
+    },
+    {
+      title: "Submit Direct Applications Online",
+      desc: "Apply through institutional international portals prior to published application deadlines."
+    },
+    {
+      title: "Review Offer Letter & Wire Deposit",
+      desc: "Accept your admission offer and pay the required tuition deposit to confirm your seat in the program."
+    },
+    {
+      title: "Apply for Irish Student Visa (Stamp 2)",
+      desc: "Submit your online AVATS visa application with tuition receipts, private medical insurance, and proof of required living funds (€10,000–€12,000)."
+    },
+    {
+      title: "Arrive in Ireland & Register for IRP",
+      desc: "Travel to Ireland, finalize student housing, attend campus orientation, and register with Immigration Service Delivery for your Irish Residence Permit."
+    }
+  ],
+  table: {
+    caption: "Indicative Marketing Management Tuition Fees in Ireland (2026/27 Intake)",
+    headers: ["Institution", "Degree Title", "NFQ Level", "Annual Tuition (Non-EU)"],
+    rows: [
+      ["Technological University Dublin (TU Dublin)", "MSc in Marketing", "Level 9 Master's", "€13,500 (1 Year)"],
+      ["Technological University Dublin (TU Dublin)", "Bachelor of Business (Hons) - Marketing", "Level 8 Honours", "€13,500 / year (4 Years)"],
+      ["University of Galway", "MSc in Marketing Management", "Level 9 Master's", "€20,890 (incl. levy)"],
+      ["University College Cork (CUBS)", "MSc in Management and Marketing", "Level 9 Master's", "€22,300 (1 Year)"],
+      ["Trinity College Dublin (Trinity Business School)", "MSc in Marketing", "Level 9 Master's", "€22,500 – €24,000 (1 Year)"],
+      ["Dublin City University (DCU Business School)", "MSc in Digital Marketing", "Level 9 Master's", "€17,000 – €18,500 (1 Year)"]
     ]
   },
-  "faqs": [
+  faqs: [
     {
-      "q": "1\\. Is Ireland a good place for Marketing Management?",
-      "a": "Ireland can be a good option for students who want an English-language business education and opportunities to develop marketing, communication and analytical skills. The right choice depends on the program content, fees, location and career aspirations."
+      q: "Is Ireland a good destination to study Marketing Management?",
+      a: "Yes, Ireland is an exceptional study destination for Marketing Management. Known as the Silicon Valley of Europe, Dublin is the European headquarters for Meta, Google, TikTok, LinkedIn, and HubSpot, providing marketing students with world-class curriculum, cutting-edge digital marketing tools, and direct networking opportunities with global multinational brands."
     },
     {
-      "q": "2\\. How much time does it take to study Marketing Management in Ireland?",
-      "a": "Bachelor’s degrees normally require three to four years. Full-time master’s in marketing programs usually take around a year, though length varies by school."
+      q: "What is the duration of Marketing Management degrees in Ireland?",
+      a: "Undergraduate Bachelor's degrees in marketing typically span 3 to 4 years of full-time study. Postgraduate Master of Science (MSc) degrees in Marketing, Digital Marketing, or Brand Management are intensive full-time programs completed in 1 year (12 months)."
     },
     {
-      "q": "3\\. Can I do Marketing Management after 12th in Ireland?",
-      "a": "Yes. Students who have completed Grade 12 or equivalent may apply for relevant undergraduate business or marketing programs provided they meet the institution’s academic and English-language requirements."
+      q: "Can I study Marketing Management in Ireland after Class 12?",
+      a: "Yes, international students who have successfully completed Class 12 (Higher Secondary Certificate from CBSE, CISCE, or state boards) with an aggregate between 65% and 85% can apply directly for undergraduate Bachelor of Business or BSc in Marketing programs in Ireland."
     },
     {
-      "q": "4\\. What is the cost of a Marketing Management course in Ireland?",
-      "a": "Tuition fees differ between universities and between levels of study. Undergraduate fees can be between €10,000 and €29,000 per year, and postgraduate fees can be between €14,000 and €40,000 per year. Check the official program page for the precise fee applicable to your cohort."
+      q: "How much does a Marketing Management course cost in Ireland in 2026/27?",
+      a: "Published non-EU tuition fees for 2026/27 include €13,500 for TU Dublin's 1-year MSc in Marketing, €20,890 for University of Galway's MSc Marketing Management, and €22,300 for UCC's MSc Management and Marketing. Undergraduate tuition generally ranges from €10,000 to €22,000 per year. Student living costs average €8,000 to €14,000 per academic year."
     },
     {
-      "q": "5\\. What are the career prospects after studying Marketing Management in Ireland?",
-      "a": "Potential careers include marketing executive, digital marketing specialist, brand coordinator, market research analyst, marketing communications executive and marketing analyst. More senior positions typically require relevant experience and demonstrated skills."
+      q: "What are the job opportunities and starting salaries for marketing graduates in Ireland?",
+      a: "Graduates secure roles as digital marketing specialists, brand managers, social media strategists, market research analysts, and performance media executives. Starting salaries generally range from €28,000 to €38,000 per year, with experienced digital and analytics specialists earning €45,000 to €60,000+."
     },
     {
-      "q": "How can Edu Hawk worldwide Consultancy help me to study abroad?",
-      "a": "Edu Hawk worldwide helps students find the right universities, know the admission requirements, arrange their application documents and plan their study-abroad journey. Students are responsible for checking academic, financial, immigration and licensing requirements with the appropriate official authorities."
+      q: "How can EduHawk Worldwide Consultancy help me study marketing in Ireland?",
+      a: "EduHawk Worldwide offers complete end-to-end guidance including university shortlisting, course matching, Statement of Purpose (SOP) drafting, application tracking, scholarship advisory, Irish student visa (Stamp 2) filing, and pre-departure accommodation assistance."
     }
   ]
 };
 
 export default function MarketingManagementIreland() {
+  const images = {
+    hero: heroImg,
+    heroBg: heroBgImg,
+    side: sideImg,
+    ctaBg: ctaBgImg
+  };
+
   return (
     <AbroadCoursePage
       page={page}
@@ -491,8 +317,9 @@ export default function MarketingManagementIreland() {
       heroBgImg={heroBgImg}
       sideImg={sideImg}
       ctaBgImg={ctaBgImg}
-      showHeroStats={false}
-      seoPath="/study-abroad/ireland/marketing-management"
+      showHeroStats={true}
+      seoPath={page.slug}
+      images={images}
     />
   );
 }

@@ -17,10 +17,10 @@ const page = {
   "description": "Study Mechanical Engineering - PG in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
   "keywords": "Study Mechanical Engineering - PG in Italy, Mechanical Engineering - PG in Italy for Indian Students, Best Universities in Italy, Cost of Studying in Italy",
   "introTitle": "Mechanical Engineering in Italy for Indian Students",
-  "heroParas": [
-    "Yes. Eligible Italian universities can be applied by Indian students, as long as they meet the admission requirements for academic, language and program."
+  heroParas: [
+    "A Master’s in Mechanical Engineering in Italy offers specialized education in advanced robotics, mechatronics, industrial automation, and sustainable energy systems within Europe's second-largest manufacturing powerhouse."
   ],
-  "overview": [
+  overview: [
     "Yes. Eligible Italian universities can be applied by Indian students, as long as they meet the admission requirements for academic, language and program."
   ],
   "level": "Postgraduate",
@@ -146,17 +146,6 @@ const page = {
           "items": [
             "Graduates can find employment in mechanical design, manufacturing, automotive engineering, robotics, industrial automation, energy systems, and research and development. Employment opportunities are based on skills, experience, language ability and work authorization."
           ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Mechanical Engineering in Italy for Indian Students",
-            "Master's in Mechanical Engineering in Italy",
-            "Mechanical Engineering Courses in Italy",
-            "Best Italian Universities for Mechanical Engineering",
-            "Mechanical Engineering Admission Requirements in Italy",
-            "Cost of Studying Mechanical Engineering in Italy"
-          ]
         }
       ]
     },
@@ -169,39 +158,6 @@ const page = {
           "t": "p",
           "items": [
             "Indian students generally follow the following process of application:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Select a university and specialization. Compare mechanical engineering programs, language of instruction, course content and entry requirements.",
-            "Verify eligibility. Ensure that your bachelor's degree and prior engineering subjects meet the program requirements.",
-            "Prepare your paperwork. Gather transcripts, diplomas, language test results, passport and other materials requested.",
-            "Submit the application. Submit the application. Apply via the official admission portal of the university before the due date.",
-            "Finish the evaluation for educational purposes. Respond to requests for additional documents, interviews or assessments, as appropriate.",
-            "Accept your offer and get funded. Follow the university's enrollment instructions and pay any applicable fees.",
-            "Do all the paperwork for the visa and pre-enrolment. Follow the official instructions for Italian student visa process and international students."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "For official information on pre-registration please refer to Universitaly. Visa requirements and procedures should be checked with the competent Italian consular authorities ."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "licensing",
-      "eyebrow": "Licensing & Standards",
-      "title": "Degree in Mechanical Engineering and Recognition in Italy",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The typical length of an Italian second-cycle master's degree in mechanical engineering is two years, corresponding to 120 ECTS credits. The institution decides the precise degree title, curriculum and language.",
-            "The qualification offers advanced knowledge in areas that include mechanical design, engineering analysis, manufacturing, energy systems and industrial technologies. Graduates can use the degree to pursue technical employment or to apply for further research programs, including a PhD, provided the relevant requirements are met.",
-            "Students who wish to work in a regulated professional role should check the relevant recognition, professional registration and examination requirements. Academic recognition and professional authorization do not always coincide."
           ]
         }
       ]
@@ -216,41 +172,6 @@ const page = {
           "items": [
             "Graduates with a master's degree in mechanical engineering can work in manufacturing, automotive, energy, industrial automation, robotics and engineering consultancy.",
             "Potential job roles are:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Mechanical Design Engineer",
-            "Engineer, Product Development",
-            "Engineer, Manufacturing",
-            "Automotive Engineer Research and Development Engineer",
-            "Heat Systems Engineer",
-            "Robotics & Automation Engineer Quality & Process Engineer"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Estimated Salary Ranges",
-            "Level of ExperienceGross yearly salary indicativeApproximate INR equivalents",
-            "Entry-level€28,000-€35,000₹30.41-₹38.01 lakh",
-            "Experienced€35,000 - €50,000₹ 38.01 - ₹ 54.30 lakh",
-            "Specialized / Senior Roles€50,000-€70,000+₹54.30-₹76.02 lakh+",
-            "They are just rough estimates to give you an idea of career progression and are not intended to be guarantyd salaries or verified salary statistics for each position. Your actual pay will depend on your experience, location, employer, specialization, language skills and market condition. €1 &asymp; ₹108.60 (INR equivalents)."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Document Checklist",
-      "title": "Documents Required for Studying Mechanical Engineering in Italy",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Indian students must prepare the documents required by the university they have selected. Typical requests for documents are:"
           ]
         },
         {
@@ -276,7 +197,34 @@ const page = {
         }
       ]
     }
-  ]
+  ],
+  faqs: [
+    {
+        "q": "Can Indian students study Mechanical Engineering in Italy in English?",
+        "a": "Yes. Premier technical universities such as Politecnico di Milano, Politecnico di Torino, and University of Padua offer English-taught Master of Science programmes."
+    },
+    {
+        "q": "What is the duration of a Master's in Mechanical Engineering in Italy?",
+        "a": "The degree is 2 years in duration (120 ECTS credits) and includes academic coursework, laboratory experimentation, and an engineering thesis."
+    },
+    {
+        "q": "What are the tuition fees for Mechanical Engineering in Italy?",
+        "a": "Public university tuition ranges between €1,000 and €3,900 per year, with eligible students receiving full fee waivers and grants through regional DSU schemes."
+    },
+    {
+        "q": "What specializations are available in Italian mechanical engineering?",
+        "a": "Specializations include Advanced Mechatronics, Industrial Robotics, Automotive & Propulsion Engineering, Energy Engineering, and Advanced Manufacturing."
+    },
+    {
+        "q": "What are the admission requirements for international students?",
+        "a": "An undergraduate Bachelor's degree in mechanical engineering or closely related engineering field, academic transcripts meeting credit requirements, and English proficiency."
+    },
+    {
+        "q": "What are the job prospects for mechanical engineers in Italy?",
+        "a": "Italy has a huge industrial manufacturing sector offering rich employment in precision machinery, automation, robotics, energy, and automotive design."
+    }
+],
+  faqTitle: "Frequently Asked Questions About Mechanical Engineering PG in Italy"
 };
 
 export default function MechanicalEngineeringPGItaly() {

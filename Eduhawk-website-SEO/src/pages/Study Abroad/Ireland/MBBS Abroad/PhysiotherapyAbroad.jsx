@@ -8,427 +8,414 @@ import sideImg from "../../../../Images/Abroad/Ireland/Physiotherapy/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Ireland/Physiotherapy/cta_bg.webp";
 
 // University images
-import uniImg1 from "../../../../Images/Abroad/Ireland/Physiotherapy/Irelands_Royal_College_of_Surgeons.webp";
+import uniImg1 from "../../../../Images/Abroad/Ireland/Physiotherapy/Trinity_College_in_Dublin.webp";
 import uniImg2 from "../../../../Images/Abroad/Ireland/Physiotherapy/Limerick_University.webp";
-import uniImg3 from "../../../../Images/Abroad/Ireland/Physiotherapy/Trinity_College_in_Dublin.webp";
+import uniImg3 from "../../../../Images/Abroad/Ireland/Physiotherapy/Irelands_Royal_College_of_Surgeons.webp";
 
 const page = {
-  "name": "Physiotherapy in Ireland",
-  "country": "Ireland",
-  "slug": "physiotherapy",
-  "title": "Study Physiotherapy in Ireland for Indian Students | Edu-Hawk Worldwide",
-  "description": "Complete guide to Physiotherapy in Ireland for Indian students: Top Irish universities, eligibility criteria, tuition fees (€16,000 – €25,000 / year), scholarships, and 2-year post-study work visa (Stamp 1G).",
-  "keywords": "Study Physiotherapy in Ireland for Indian Students, Best Universities for Physiotherapy in Ireland, Cost of Studying in Ireland, Edu-Hawk Worldwide",
-  "introTitle": "PHYSIOTHERAPY IN IRELAND",
-  "heroParas": [
-    "Physiotherapy Ireland - Learn about Physiotherapy in Ireland",
-    "Ireland is a popular study destination for students interested in rehabilitation, movement science, injury rehabilitation and patient care. Study Physiotherapy programs offer classroom teaching, supervised clinical placements and hands-on training.",
-    "The top advantages of studying physiotherapy in Ireland are:"
+  name: "Physiotherapy in Ireland",
+  country: "Ireland",
+  slug: "study-abroad/ireland/physiotherapy",
+  title: "Study Physiotherapy in Ireland for Indian Students | Edu-Hawk Worldwide",
+  description: "Complete guide to studying Physiotherapy in Ireland for Indian students: Top Irish universities (Trinity, UL, RCSI), CORU accreditation, 4-year BSc and 2-year graduate-entry MSc programs, tuition fees, and Stamp 1G work visa.",
+  keywords: "Study Physiotherapy in Ireland for Indian Students, Bachelor of Physiotherapy in Ireland, CORU Approved Physiotherapy Courses Ireland, Graduate Entry Physiotherapy Ireland, Physiotherapist Salary in Ireland, Cost of Physiotherapy Courses in Ireland, Edu-Hawk Worldwide",
+  introTitle: "STUDY PHYSIOTHERAPY (BSC & MSC) IN IRELAND FOR INTERNATIONAL STUDENTS",
+  heroParas: [
+    "Studying Physiotherapy in Ireland provides international students with elite academic instruction, over 1,000 hours of supervised hospital and sports clinical placements, and direct eligibility for registration with CORU, the statutory regulator for health and social care professionals in Ireland. Delivered entirely in English across world-leading institutions like Trinity College Dublin, the University of Limerick, and RCSI, graduates develop advanced expertise in musculoskeletal rehabilitation, neurological physiotherapy, and sports medicine with seamless career pathways across Ireland, the UK, and Europe."
   ],
-  "overview": [
-    "Physiotherapy Ireland - Learn about Physiotherapy in Ireland",
-    "Ireland is a popular study destination for students interested in rehabilitation, movement science, injury rehabilitation and patient care. Study Physiotherapy programs offer classroom teaching, supervised clinical placements and hands-on training.",
-    "The top advantages of studying physiotherapy in Ireland are:",
-    "Students who like biology, anatomy, exercise science, problem solving and direct patient interaction will find physiotherapy a good career choice .",
-    "Students can use Edu Hawk worldwide study abroad advice to look at these options and see what it takes to study abroad."
+  overview: [
+    "Ireland is renowned across Europe for clinical excellence and innovation in physiotherapy education, movement sciences, and physical rehabilitation. Irish physiotherapy degree programs blend rigorous biomechanical, physiological, and anatomical theory with over 1,000 hours of mandatory supervised clinical practice across acute university hospitals, sports injury institutes, pediatric clinics, and community healthcare settings.",
+    "Higher education in Ireland offers two primary routes into the physiotherapy profession: a four-year undergraduate Bachelor of Science Honours (BSc Hons) degree (NFQ Level 8) for school leavers, and an intensive two-year Graduate-Entry Master of Science (MSc) in Physiotherapy (NFQ Level 9) for applicants who already hold a relevant science or kinesiology degree. Both pathways are accredited by CORU and qualify graduates for professional practice.",
+    "Edu-Hawk Worldwide delivers expert counseling for Indian candidates aspiring to study physiotherapy in Ireland. From evaluating Class 12 biology, physics, and mathematics prerequisites or undergraduate anatomy credits to advising on competitive personal statements, clinical observational portfolios, health immunization compliance, and student visa processing, our advisors guide you every step of the way."
   ],
-  "level": "BSc (Hons) Physiotherapy & MSc Physiotherapy (Pre-Registration)",
-  "crumb": "Healthcare / Physiotherapy",
-  "stats": [
+  level: "BSc (Hons) Physiotherapy (NFQ Level 8) & Graduate-Entry MSc (NFQ Level 9)",
+  crumb: "Healthcare & Medicine / Physiotherapy in Ireland",
+  stats: [
     {
-      "label": "Degree Choices",
-      "value": "BSc (Hons) Physiotherapy & MSc Physiotherapy (Pre-Registration)"
+      label: "Degree Choices",
+      value: "BSc (Hons) Physiotherapy & 2-Year Graduate Entry MSc"
     },
     {
-      "label": "Course Duration",
-      "value": "4 Years (BSc) / 2 Years (MSc)"
+      label: "Course Duration",
+      value: "4 Years (BSc) / 2 Years (Graduate Entry MSc)"
     },
     {
-      "label": "Top Institutions",
-      "value": "Ireland's Royal College of Surgeons, Limerick University"
+      label: "Top Institutions",
+      value: "Trinity College Dublin, Univ. of Limerick, RCSI"
     },
     {
-      "label": "Post-Study Work",
-      "value": "2 Years Third Level Graduate Scheme (Stamp 1G)"
+      label: "Professional License",
+      value: "CORU Registration / Stamp 1G Graduate Work Visa"
     }
   ],
-  "sections": [
+  sections: [
     {
-      "slot": "why",
-      "eyebrow": "Why Study in Ireland",
-      "title": "1. Why study physiotherapy in Ireland?",
-      "groups": [
+      slot: "why",
+      eyebrow: "Why Choose Ireland",
+      title: "Key Advantages of Studying Physiotherapy in Ireland",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Physiotherapy Ireland - Learn about Physiotherapy in Ireland",
-            "Ireland is a popular study destination for students interested in rehabilitation, movement science, injury rehabilitation and patient care. Study Physiotherapy programs offer classroom teaching, supervised clinical placements and hands-on training.",
-            "The top advantages of studying physiotherapy in Ireland are:"
+          t: "p",
+          items: [
+            "Physiotherapy education in Ireland is designed to meet the highest European and international clinical benchmarks, offering unparalleled training benefits:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Professional recognition: If you meet the requirements you may be able to register with CORU, the Irish regulator of health and social care professions.",
-            "Students gain hands-on experience in hospitals, rehabilitation centers and other health care settings.",
-            "Graduates may find employment in a variety of areas including pulmonary physiotherapy, neurological rehabilitation, musculoskeletal rehabilitation, community health and sports injury management.",
-            "Research opportunities: Further research can lead to a career in advanced clinical practice, education or rehabilitation research.",
-            "Students interact with people of different backgrounds and experience a health care system that serves a diverse population."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Students who like biology, anatomy, exercise science, problem solving and direct patient interaction will find physiotherapy a good career choice .",
-            "Students can use Edu Hawk worldwide study abroad advice to look at these options and see what it takes to study abroad."
+          t: "ul",
+          items: [
+            "CORU Statutory Accreditation: Completion of an approved Irish physiotherapy qualification provides direct eligibility to register with CORU (Physiotherapists Registration Board) without foreign credential bridging.",
+            "1,000+ Hours of Clinical Placements: Undertake extensive hands-on rotations across cardiovascular and respiratory care, neurology, musculoskeletal rehabilitation, pediatrics, and elderly care.",
+            "Multiple Academic Entry Routes: Apply as a secondary school leaver for a 4-year BSc or as a university graduate with a relevant degree for a fast-track 2-year pre-registration MSc.",
+            "Modern Biomechanical & Movement Labs: Train in state-of-the-art motion analysis suites, force-plate gait laboratories, hydrotherapy pools, and human performance centers.",
+            "High Global License Mobility: Irish physiotherapy qualifications are recognized across the European Union and the UK (Health and Care Professions Council - HCPC), and provide solid foundation credentials for licensure in Canada, Australia, and the US.",
+            "Post-Study Work Authorization (Stamp 1G): BSc graduates receive a 1-year work visa, while Master's graduates receive 2 years to practice full-time in Ireland's expanding public and private healthcare systems."
           ]
         }
       ]
     },
     {
-      "slot": "courses",
-      "eyebrow": "Degrees & Programs",
-      "title": "2. Physiotherapy courses in Ireland",
-      "groups": [
+      slot: "courses",
+      eyebrow: "Academic Pathways",
+      title: "Physiotherapy Degree Programs & Specializations in Ireland",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Physiotherapy degrees are offered by Irish universities at both undergraduate and graduate level, depending on your previous qualifications.",
-            "Common choices of courses are:"
+          t: "p",
+          items: [
+            "Irish universities provide structured clinical pathways aligned with the National Framework of Qualifications (NFQ):"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "The BSc (Hons) Physiotherapy is a professional undergraduate degree that usually takes four years and contains clinical placements.",
-            "The Professional Master of Physiotherapy is a graduate entry qualification for those with the appropriate bachelor degree.",
-            "Some programs take approximately two years to complete.",
-            "The aim of the graduate-entry MSc Physiotherapy (Pre-registration) is to prepare students for their first professional registration.",
-            "MSc Sports and Exercise Physiotherapy or equivalent:",
-            "Specialized courses, which may require a physiotherapy degree and previous clinical experience.",
-            "Students who want to do research or work in other health care fields are encouraged to take graduate degrees in movement science and rehabilitation."
+          t: "ul",
+          items: [
+            "BSc (Hons) in Physiotherapy (4 Years - NFQ Level 8): Direct-entry undergraduate degree covering anatomy, biomechanics, neuroanatomy, exercise prescription, clinical pathology, and five structured clinical placement blocks.",
+            "MSc in Physiotherapy (Pre-Registration / Graduate Entry - 2 Years - NFQ Level 9): Accelerated professional master's degree designed for graduates of kinesiology, sports science, physiology, or biological sciences seeking primary professional licensure.",
+            "MSc in Sports and Exercise Physiotherapy: Specialized advanced program for licensed physiotherapists focusing on elite athletic injury prevention, return-to-play protocols, and pitch-side emergency care.",
+            "MSc in Neurological Rehabilitation: Advanced clinical program dedicated to stroke rehabilitation, spinal cord injuries, Parkinson's disease, and neurodegenerative disorders.",
+            "PhD in Physiotherapy & Rehabilitation Sciences: 3 to 4-year doctoral research program advancing evidence-based rehabilitation protocols, robotics in physiotherapy, and chronic pain management."
           ]
         }
       ]
     },
     {
-      "slot": "universities",
-      "eyebrow": "Top Institutions",
-      "title": "3. Top Colleges and Physical Therapy Clinics in Ireland",
-      "unis": [
+      slot: "unis",
+      eyebrow: "Featured Universities",
+      title: "Top Universities and Physiotherapy Schools in Ireland",
+      unis: [
         {
-          "name": "Ireland's Royal College of Surgeons",
-          "desc": "provides a BSc (Hons) in Physiotherapy degree.",
-          "imgKey": "uniImg_Irelands_Royal_College_of_Surgeons_webp",
-          "img": uniImg1,
-          "city": "Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured"
+          name: "Trinity College Dublin",
+          city: "Dublin",
+          state: "Leinster",
+          desc: "School of Medicine - Discipline of Physiotherapy, offering a prestigious 4-year BSc in Physiotherapy with clinical placements at St. James's Hospital, Tallaght Hospital, and leading rehabilitation centers.",
+          img: uniImg1
         },
         {
-          "name": "Limerick University",
-          "desc": "provides a professional master's pathway and a BSc in Physiotherapy.",
-          "imgKey": "uniImg_Limerick_University_webp",
-          "img": uniImg2,
-          "city": "Limerick, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured"
+          name: "University of Limerick",
+          city: "Limerick",
+          state: "Munster",
+          desc: "School of Allied Health, delivering both the 4-year BSc in Physiotherapy and the acclaimed 2-year Graduate Entry MSc in Physiotherapy with cutting-edge sports and movement science facilities.",
+          img: uniImg2
         },
         {
-          "name": "Trinity College in Dublin",
-          "desc": "combines academic study with clinical training to offer a four-year BSc in Physiotherapy. Certain scientific and math courses are part of its published admission criteria.",
-          "imgKey": "uniImg_Trinity_College_in_Dublin_webp",
-          "img": uniImg3,
-          "city": "Dublin, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured"
+          name: "Royal College of Surgeons in Ireland",
+          city: "Dublin",
+          state: "Leinster",
+          desc: "RCSI School of Physiotherapy delivers a patient-focused BSc (Hons) in Physiotherapy, integrating small-group anatomy dissection and clinical simulation with Ireland's premier teaching hospitals.",
+          img: uniImg3
         }
-      ]
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Admissions Criteria",
-      "title": "4. Irish Nursing Student Requirements",
-      "groups": [
+      ],
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Program, institution, and candidate group-specific eligibility requirements differ."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Completion of Class 12 or a comparable secondary education is required for undergraduates studying physiotherapy.",
-            "Strong academic performance in pertinent scientific subjects.",
-            "Depending on the university, certain scientific and math courses can be necessary. Evidence of fluency in English.",
-            "Ability to meet the standards for clinical placement and health screening.",
-            "Indian students' Class 12 credentials are evaluated by universities on an individual basis."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "You should confirm the precise subject mix and required grades before applying because different universities have different requirements for admission to biology, chemistry, physics, and mathematics.",
-            "For postgraduate students pursuing a degree in physiotherapy:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "A formal qualification in an appropriate discipline.",
-            "Depending on the situation, some courses demand a minimum of upper second-class honors equivalent.",
-            "Human physiology, anatomy, or biology.",
-            "competency in English and other documentation that the university requires.]"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "5. Irish Physiotherapy Course Admission Requirements",
-            "Your academic credentials, English language proficiency, and readiness for clinical training are typically taken into consideration by universities."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Academic Requirements for Undergraduate Candidates:",
-            "Secondary School Requirements by Subject",
-            "English Language Requirements: TOEFL, IELTS Academic, and other recognized examinations.",
-            "For professional registration, please refer to CORU's specific language requirements and the organization's most recent regulations."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Other prerequisites could be:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "personal information, diplomas, passports, and academic records.",
-            "Immunization and physical examination history",
-            "Recent studies on graduate entry programs provide evidence"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "A major component of professional education in physiotherapy is clinical placements. Both the academic tests and the placement requirements must be passed by the students."
+          t: "p",
+          items: [
+            "All three institutions deliver programs fully approved by the Physiotherapists Registration Board at CORU and accredited by the Irish Society of Chartered Physiotherapists (ISCP)."
           ]
         }
       ]
     },
     {
-      "slot": "requirements",
-      "eyebrow": "Entry Requirements",
-      "title": "Physiotherapy Admission Requirements in Ireland",
-      "groups": [
+      slot: "eligibility",
+      eyebrow: "Admissions Criteria",
+      title: "Eligibility Criteria for Physiotherapy Programs in Ireland",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Detailed information and course specifications will be provided during individual counseling."
+          t: "p",
+          items: [
+            "Entry requirements for Irish physiotherapy courses depend on your entry route (undergraduate vs. graduate-entry master's):"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "Undergraduate BSc Applicants: Completion of Class 12 (CBSE, ICSE, or State Boards) with an aggregate of 80% to 85%+, including strong individual grades in at least one laboratory science (Physics, Chemistry, or Biology) and Mathematics.",
+            "Graduate Entry MSc Applicants: A recognized Bachelor's degree (NFQ Level 8 equivalent) in kinesiology, biological sciences, physiology, physical education, or biomedical sciences with minimum 60%–65% (Upper Second Class Honours equivalent), including foundational coursework in human anatomy and physiology.",
+            "English Language Competence: IELTS Academic overall score of 7.0 (with no band score below 6.5) or equivalent TOEFL iBT (100+) / Pearson PTE Academic (68+). Flawless communication is mandatory for patient rehabilitation.",
+            "Health & Clinical Placement Clearance: Complete blood serology testing (Hepatitis B, C, TB, Varicella) and police background clearance via the National Vetting Bureau."
           ]
         }
       ]
     },
     {
-      "slot": "tuition",
-      "eyebrow": "Tuition & Living Costs",
-      "title": "6. The cost of a physiotherapy course in Ireland",
-      "groups": [
+      slot: "requirements",
+      eyebrow: "Application Materials",
+      title: "Admission Requirements & Clinical Documentation",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Your university, housing, fee status, and whether you are applying as an undergraduate or graduate student will all affect the final cost.",
-            "Physiotherapy undergraduate fees"
+          t: "p",
+          items: [
+            "Ensure the following core application documents are prepared and certified before applying:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Some are requesting between $25,000 and $35,000 annually.",
-            "Some universities charge between €25,000 and €32,000 annually for physiotherapy graduate enrollment.",
-            "Living and housing expenses: €10,000–€18,000+ per year"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Additionally, you can be charged for your placement's equipment, books,travel, Immigration and health insurance costs",
-            "7. Ireland's Admission process for Physiotherapy",
-            "When submitting your application, please adhere to the following guidelines:",
-            "1. Select a major. Choose between pursuing an undergraduate degree following Class 12 or a graduate entry program following your bachelor's degree.",
-            "2. Get a professional's approval. A qualification that is registered with CORU is required to work as a physiotherapist in Ireland.",
-            "3. Look for colleges based on course length, cost, prerequisites, placements, and deadlines for applications.",
-            "4. Verify your qualifications. Both your Indian academic credentials and your science coursework must meet the university's criteria.",
-            "5. Writing: Gather all required paperwork (certificates, transcripts, and English test results).",
-            "6. Do it correctly. How to apply: Candidates from both inside and outside the EU may have different application processes. For example, non-EU undergraduates are the target audience for Trinity's international admission procedure.",
-            "7. Accept your offer and abide by the enrollment, payment, and deposit policies of the university.",
-            "8. Immigration and lodging. Make arrangements for lodging and insurance and finish the required student visa or immigration process.",
-            "9. Visit the entire site. fulfill the requirements for clinical positions, including health screening and vetting.",
-            "In order to accommodate accommodations, visa processing, admissions decisions, and document evaluation, please send your application as soon as possible.",
-            "8. Irish physiotherapists' accreditation and registration",
-            "Physiotherapists are among the several health and social care professions in Ireland that are governed by CORU.",
-            "Professional education programs must be registered and approved by the Physiotherapy Registration Board.",
-            "Prior to enrolling, review the following:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "The CORU list of recognized qualifications includes your course.",
-            "The program satisfies the first professional registration standards.",
-            "You will frequently need to apply to CORU in order to have your foreign certification and registration confirmed if you were trained as a physiotherapist outside of Ireland.",
-            "Your professional abilities and educational background will be evaluated by CORU, and based on your situation, you may need to take additional action."
+          t: "ul",
+          items: [
+            "Certified Class 10 and Class 12 mark sheets and certificates (plus Bachelor's transcripts and degree certificates for graduate-entry applicants).",
+            "Valid International Passport with minimum 12 months validity.",
+            "Personal Statement detailing your motivation for pursuing physiotherapy, understanding of rehabilitation, and interpersonal empathy.",
+            "Documented Clinical Observational Experience: Evidence of shadowing a licensed physiotherapist in an outpatient clinic or hospital setting.",
+            "Two Letters of Recommendation (academic science professors or clinical supervisors).",
+            "Official English language proficiency test scorecard (IELTS / TOEFL / PTE).",
+            "Certified Occupational Health Screening & Immunization records.",
+            "Police Clearance Certificate for Garda vetting."
           ]
         }
       ]
     },
     {
-      "slot": "process",
-      "eyebrow": "Application Steps",
-      "title": "Admission Process for Physiotherapy in Ireland",
-      "steps": [
+      slot: "tuition",
+      eyebrow: "Cost & Budgeting",
+      title: "Tuition Fees and Cost of Living for Physiotherapy in Ireland",
+      groups: [
         {
-          "step": "01",
-          "title": "Choose Degree & University",
-          "desc": "Select your preferred Physiotherapy program and shortlist target universities in Ireland."
+          t: "p",
+          items: [
+            "Tuition fees for international non-EU students cover university tuition, specialized biomechanics laboratories, and clinical placement supervision:"
+          ]
         },
         {
-          "step": "02",
-          "title": "Check Entry Requirements",
-          "desc": "Verify academic grades (minimum 75%-85% in Class 12 or bachelor degree) and English proficiency (IELTS 6.5+)."
-        },
-        {
-          "step": "03",
-          "title": "Prepare Documentation",
-          "desc": "Compile academic transcripts, Statement of Purpose (SOP), Letters of Recommendation (LORs), and passport copy."
-        },
-        {
-          "step": "04",
-          "title": "Submit University Application",
-          "desc": "Submit application via the university international admissions portal or through Edu Hawk Worldwide."
-        },
-        {
-          "step": "05",
-          "title": "Accept Offer & Pay Deposit",
-          "desc": "Receive offer letter, pay the required tuition deposit, and obtain official acceptance for visa processing."
-        },
-        {
-          "step": "06",
-          "title": "Apply for Student Visa (Stamp 2)",
-          "desc": "Complete Irish student visa application with proof of finances, accommodation, and medical insurance."
-        }
-      ]
-    },
-    {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Recognition",
-      "title": "Accreditation and Recognition in Ireland",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Detailed information and course specifications will be provided during individual counseling."
+          t: "p",
+          items: [
+            "| Expense Category | Annual Indicative Cost Range | Key Budgeting Notes |",
+            "| :--- | :--- | :--- |",
+            "| **Undergraduate BSc Physiotherapy Tuition** | €25,000 – €35,000 / year | E.g., Trinity College Dublin approx. €26,880 / year (2026–2027) |",
+            "| **Graduate Entry MSc Tuition** | €25,000 – €32,000 / year | 2-year fast-track pre-registration program |",
+            "| **Living Expenses (Dublin)** | €12,000 – €16,000 / year | Purpose-built student accommodation, meals, and transport |",
+            "| **Living Expenses (Limerick)** | €8,500 – €12,000 / year | Affordable regional campus accommodation in Limerick |",
+            "| **Clinical Uniform & Plinth Kit** | €300 – €500 (one-off) | Clinical polo tunics, reflex hammer, goniometer, stethoscope |",
+            "| **Private Health Insurance** | €160 – €300 / year | Mandatory international student medical insurance policy |",
+            "| **Irish Residence Permit (IRP)** | €300 registration fee | Mandatory immigration registration fee upon arrival |"
           ]
         }
       ]
     },
     {
-      "slot": "careers",
-      "eyebrow": "Career Outcomes",
-      "title": "9. Employment Prospects and Pay for Physiotherapists in Ireland",
-      "groups": [
+      slot: "process",
+      eyebrow: "Application Steps",
+      title: "Step-by-Step Admission Process for Physiotherapy in Ireland",
+      steps: [
         {
-          "t": "p",
-          "items": [
-            "Physiotherapists are employed at community health centers, private practices, sports clinics, public and private hospitals, rehabilitation facilities, and nursing homes in Ireland.",
-            "For the treatment of musculoskeletal conditions, a physiotherapist could be employed."
-          ]
+          title: "Select Your Entry Route",
+          desc: "Choose between the direct-entry 4-year BSc in Physiotherapy (after Class 12) or the accelerated 2-year Graduate Entry MSc (after a science bachelor's degree)."
         },
         {
-          "t": "ul",
-          "items": [
-            "physical therapist for brain rehabilitation.",
-            "Sports Physiotherapist is a respiratory physiotherapist with additional training and experience.",
-            "Physical therapist",
-            "Researcher",
-            "Teacher, or community pediatric physical therapist with other qualifications that are pertinent."
-          ]
+          title: "Verify Academic Prerequisites",
+          desc: "Confirm that your science subject scores (Biology/Physics/Maths) satisfy the university's 80%+ threshold alongside IELTS 7.0."
         },
         {
-          "t": "p",
-          "items": [
-            "Newly Qualified Physiotherapist | Gross salary range by year: €38,000 to €45,000",
-            "Expert Physiotherapist: €45,000 to €60,000 or more",
-            "Senior/Specialist Physiotherapist | €60,000–€75,000+ Self-employed/Private Practice | Extremely erratic",
-            "10. Irish Physiotherapy Study Documents",
-            "Subjects and schools have different checklists.",
-            "The most often requested documents are:"
-          ]
+          title: "Gain Clinical Shadowing Experience",
+          desc: "Spend time shadowing chartered physiotherapists to develop a comprehensive understanding of musculoskeletal and neurological therapy."
         },
         {
-          "t": "ul",
-          "items": [
-            "Present Passport",
-            "Transcripts and certificates from the tenth and twelfth grades must be submitted by applicants for admission to the undergraduate programs.",
-            "Transcripts and a degree certificate must be submitted by candidates for graduate admission. English language test results, if needed",
-            "References and a personal statement are available upon request.",
-            "If applicable, include a resume or evidence of relevant experience.",
-            "The application is finished, and the payment of the fee has been confirmed. approved translations for documents written in languages other than English.",
-            "If applicable, please include a sponsorship letter and accompanying evidence."
-          ]
+          title: "Prepare Personal Statement & References",
+          desc: "Draft a focused Statement of Purpose showcasing your diagnostic curiosity, empathy, and athletic or clinical problem-solving skills."
         },
         {
-          "t": "p",
-          "items": [
-            "documentation related to student visas.",
-            "checking for health issues, immunization records, and clinical positions"
+          title: "Submit Direct University Applications",
+          desc: "Submit your online application through the international portals of Trinity, UL, or RCSI before the February deadlines."
+        },
+        {
+          title: "Participate in Admissions Interview",
+          desc: "Complete a structured online interview or Multiple Mini Interview (MMI) assessing clinical communication and ethical judgment."
+        },
+        {
+          title: "Accept Offer & Remit Tuition Deposit",
+          desc: "Review your conditional/unconditional offer, pay the required tuition deposit, and reserve your clinical seat."
+        },
+        {
+          title: "Complete Health Clearance & Garda Vetting",
+          desc: "Undergo mandatory serology testing, immunization updates, and submit background police clearance forms."
+        },
+        {
+          title: "Apply for Irish Student Visa (Stamp 2)",
+          desc: "File your student visa application via the AVATS portal with proof of funds (€10,000+ living funds plus tuition fee receipt)."
+        }
+      ],
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Early application (between October and January) is strongly advised due to limited clinical placement quotas for international students."
           ]
         }
       ]
     },
     {
-      "slot": "documents",
-      "eyebrow": "Document Checklist",
-      "title": "Documents Required to Study Physiotherapy in Ireland",
-      "groups": [
+      slot: "accreditation",
+      eyebrow: "Statutory Standards",
+      title: "Accreditation, CORU Registration, and International Licensure",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Detailed information and course specifications will be provided during individual counseling."
+          t: "p",
+          items: [
+            "The physiotherapy profession in Ireland is governed by statutory legislation to ensure the highest standards of clinical safety and competence:"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "CORU Statutory Oversight: The Physiotherapists Registration Board at CORU is the legal authority responsible for accrediting degree programs and maintaining the Register of Physiotherapists.",
+            "Irish Society of Chartered Physiotherapists (ISCP): The professional body representing chartered physiotherapists in Ireland, offering member benefits, legal protection, and clinical interest groups.",
+            "European Union Recognition: Under EU Directive 2005/36/EC, Irish physiotherapy qualifications are recognized across all European Union and European Economic Area (EEA) member states.",
+            "UK Practice: Under the Common Travel Area (CTA) agreement, Irish graduates can register smoothly with the Health and Care Professions Council (HCPC) to practice in the United Kingdom."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "careers",
+      eyebrow: "Career Outcomes",
+      title: "Physiotherapist Salaries and Career Opportunities in Ireland",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Registered physiotherapists in Ireland enjoy high clinical demand across public hospitals, community health networks, sports franchises, and private clinics:"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "Musculoskeletal Physiotherapist: Diagnosing and rehabilitating spinal disorders, joint injuries, arthritis, and post-orthopedic surgical cases.",
+            "Neurological Rehabilitation Specialist: Retraining motor function in patients recovering from stroke, traumatic brain injury, and spinal cord trauma.",
+            "Cardiorespiratory Physiotherapist: Providing airway clearance and intensive pulmonary rehabilitation in hospital ICUs and cardiac wards.",
+            "Sports & Exercise Physiotherapist: Managing acute sports injuries, biomechanical screening, and rehabilitation for professional athletic teams and sporting bodies.",
+            "Pediatric Physiotherapist: Supporting infants and children with developmental delays, cerebral palsy, and neuromuscular conditions.",
+            "Private Practice Principal: Establishing and running independent outpatient physiotherapy and rehabilitation clinics."
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "Indicative Annual Salaries for Physiotherapists in Ireland (HSE Consolidated Scales):",
+            "• Staff Grade Physiotherapist (Newly Qualified): €38,000 – €46,000 / year",
+            "• Experienced / Senior Physiotherapist: €48,000 – €62,000 / year",
+            "• Clinical Specialist Physiotherapist: €62,000 – €76,000 / year",
+            "• Physiotherapy Practice Owner / Private Consultant: €65,000 – €110,000+ / year"
+          ]
+        }
+      ]
+    },
+    {
+      slot: "documents",
+      eyebrow: "Document Checklist",
+      title: "Comprehensive Document Checklist for Physiotherapy Applicants",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Ensure the following documents are officially prepared and certified before submitting your application:"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "Valid International Passport with biometric photo page.",
+            "Class 10 and Class 12 mark sheets and certificates (plus Bachelor's transcripts for graduate-entry applicants).",
+            "Verification of required science credits (Biology, Physics, Chemistry, Mathematics).",
+            "English language proficiency scorecard (IELTS 7.0+ / TOEFL 100+).",
+            "Personal Statement detailing your passion for rehabilitation, empathy, and manual skills.",
+            "Clinical Shadowing verification letters from a licensed physiotherapist.",
+            "Two Academic Letters of Recommendation.",
+            "Certified Immunization & Occupational Health records (Hep B, MMR, TB).",
+            "Police Clearance Certificate for Garda Vetting.",
+            "Proof of financial sufficiency for tuition and living expenses (€10,000+ living funds)."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "consultancy",
+      eyebrow: "Edu-Hawk Guidance",
+      title: "How Edu-Hawk Worldwide Supports Your Irish Physiotherapy Studies",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Securing admission into a CORU-approved physiotherapy degree in Ireland requires strategic planning. Edu-Hawk Worldwide offers dedicated guidance for international applicants:",
+            "• Route Selection: Evaluating whether the 4-year undergraduate BSc or 2-year Graduate Entry MSc aligns best with your academic background.",
+            "• Personal Statement Mentorship: Helping you present compelling clinical observation insights and articulate your diagnostic passion.",
+            "• Interview Coaching: Conducting mock interview sessions for admissions assessments and Multiple Mini Interviews (MMI).",
+            "• Clinical Clearance Guidance: Step-by-step assistance with occupational health blood titers, vaccinations, and police clearances.",
+            "• Student Visa (Stamp 2) Support: Comprehensive guidance on AVATS filing, financial documentation verification, and visa appointment management."
           ]
         }
       ]
     }
   ],
-  "faqs": [
+  faqs: [
     {
-      "q": "Q1. What is the duration of physical therapy education in Ireland?",
-      "a": "The majority of undergraduate degrees in physiotherapy last four years. Although this varies by school and program subject, graduate-entry professional master's programs typically take two years to finish."
+      q: "What is the duration of a Physiotherapy degree in Ireland?",
+      a: "The standard undergraduate degree—BSc (Hons) in Physiotherapy—takes 4 years to complete. For students who already hold a relevant science or kinesiology bachelor's degree, Ireland also offers an accelerated 2-year Graduate Entry MSc in Physiotherapy."
     },
     {
-      "q": "Q2. After the 12th grade, are Indian students able to study physiotherapy in Ireland?",
-      "a": "In addition to any additional requirements, candidates must fulfill the academic, science, and English language admission standards of the university.Each university evaluates Indian qualifications independently."
+      q: "Can Indian students study Physiotherapy in Ireland after Class 12?",
+      a: "Yes. Indian students who have completed Class 12 (CBSE, ICSE, or State Boards) with strong marks in science subjects (Physics, Biology, Chemistry, or Mathematics, typically 80%–85%+) and achieve an IELTS score of 7.0 can apply directly for 4-year BSc (Hons) programs."
     },
     {
-      "q": "Q3. How much does physiotherapy cost in Ireland?",
-      "a": "The annual cost of certain overseas bachelor's programs ranges from €25,000 to €35,000. Trinity College Dublin, for instance, offers €26,880 for the first year in 2026–2027. The program and educational expenses are not the same."
+      q: "How much does it cost to study Physiotherapy in Ireland?",
+      a: "Tuition fees for international (non-EU) students range between €25,000 and €35,000 per year (for example, Trinity College Dublin tuition is approximately €26,880 for the first year). Living expenses average €9,000 to €15,000 per year depending on the city."
     },
     {
-      "q": "Q4. Will I be able to work as a physiotherapist in Ireland when I graduate?",
-      "a": "You must have the required approved qualification, CORU registration, and any applicable work or immigration permissions in order to work as a physiotherapist."
+      q: "Can I practice as a physiotherapist in Ireland after graduation?",
+      a: "Yes. Graduates from CORU-approved programs at Trinity, UL, and RCSI are directly eligible to register with CORU (Physiotherapists Registration Board), entitling them to practice as licensed physiotherapists and work full-time under the Stamp 1G graduate work visa."
     },
     {
-      "q": "Q5. Is being a physiotherapist in Ireland a good career choice?",
-      "a": "Rehabilitation, patient care, exercise science, and health care: Program accreditation, clinical placements, fees, living expenses, and employment criteria are all crucial factors to take into account while selecting a course for students interested in this sector. How Can Edu Hawk World Wide Consultancy Help You Study Abroad?"
+      q: "Which universities offer CORU-approved Physiotherapy degrees in Ireland?",
+      a: "The premier universities offering CORU-approved physiotherapy qualifications are Trinity College Dublin (4-year BSc), University of Limerick (4-year BSc and 2-year Graduate Entry MSc), and RCSI University of Medicine and Health Sciences (4-year BSc)."
     }
   ]
 };
 
 export default function PhysiotherapyAbroadIreland() {
+  const images = {
+    hero: heroImg,
+    heroBg: heroBgImg,
+    side: sideImg,
+    ctaBg: ctaBgImg,
+    universities: [
+      {
+        name: "Trinity College Dublin",
+        city: "Dublin",
+        state: "Leinster",
+        desc: "School of Medicine - Discipline of Physiotherapy, offering a prestigious 4-year BSc in Physiotherapy with clinical placements at St. James's Hospital, Tallaght Hospital, and leading rehabilitation centers.",
+        img: uniImg1
+      },
+      {
+        name: "University of Limerick",
+        city: "Limerick",
+        state: "Munster",
+        desc: "School of Allied Health, delivering both the 4-year BSc in Physiotherapy and the acclaimed 2-year Graduate Entry MSc in Physiotherapy with cutting-edge sports and movement science facilities.",
+        img: uniImg2
+      },
+      {
+        name: "Royal College of Surgeons in Ireland",
+        city: "Dublin",
+        state: "Leinster",
+        desc: "RCSI School of Physiotherapy delivers a patient-focused BSc (Hons) in Physiotherapy, integrating small-group anatomy dissection and clinical simulation with Ireland's premier teaching hospitals.",
+        img: uniImg3
+      }
+    ]
+  };
+
   return (
     <AbroadCoursePage
       page={page}
@@ -436,8 +423,8 @@ export default function PhysiotherapyAbroadIreland() {
       heroBgImg={heroBgImg}
       sideImg={sideImg}
       ctaBgImg={ctaBgImg}
-      showHeroStats={false}
-      seoPath="/study-abroad/ireland/physiotherapy"
+      seoPath={page.slug}
+      images={images}
     />
   );
 }

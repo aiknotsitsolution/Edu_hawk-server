@@ -21,8 +21,28 @@ const page = {
   description: "Study Business Management in Australia. Compare top business schools (South Australia, Macquarie, Griffith, La Trobe), eligibility, fees, career opportunities, and admissions.",
   keywords: "",
   introTitle: "Indian Students Guide to Business Management in Australia",
-  heroParas: ["Yes, Indian students who fulfill the academic, English language, and other entrance requirements of the university are able to apply to postgraduate business and management programs in Australia.","Q2. How long does an Australian master's degree in business management take?"],
-  overview: ["Many programs require one to two years of full-time study. The degree, prior credentials, and credit exemptions determine the precise time frame.","Q3. Is a business bachelor's degree required?","No. Graduates from various academic backgrounds are accepted into some general management programs. Relevant prior education or experience may be necessary for specialized programs.","Q4. Do business management courses require work experience?","Not all the time. While certain MBA programs need or prefer professional experience, many general master's programs welcome recent grads.","Q5. Does admission require taking the IELTS?","Generally speaking, candidates must fulfill the English language criteria of the university. IELTS is one recognized alternative, however the university's policies may allow for other exams or exemptions.","Keywords -","Study Master's in Business Management in Australia for Indian Students","Study Business Management in Australia: Best Universities and Fees","Study MBA and Management Courses in Australia for Indian Students","Study Business Management in Australia with Scholarships","Study Business Management in Australia: Eligibility and Admission Requirements","Study Business Management in Australia: Jobs and Career Opportunities","Study Business Management in Australia Without Work Experience","Study Business Management in Australia: IELTS Requirements and Student Visa"],
+  heroParas: [
+    "Yes, Indian students who fulfill the academic, English language, and other entrance requirements of the university are able to apply to postgraduate business and management programs in Australia."
+  ],
+  overview: [
+    "Q2. How long does an Australian master's degree in business management take?",
+    "Many programs require one to two years of full-time study. The degree, prior credentials, and credit exemptions determine the precise time frame.",
+    "Q3. Is a business bachelor's degree required?",
+    "No. Graduates from various academic backgrounds are accepted into some general management programs. Relevant prior education or experience may be necessary for specialized programs.",
+    "Q4. Do business management courses require work experience?",
+    "Not all the time. While certain MBA programs need or prefer professional experience, many general master's programs welcome recent grads.",
+    "Q5. Does admission require taking the IELTS?",
+    "Generally speaking, candidates must fulfill the English language criteria of the university. IELTS is one recognized alternative, however the university's policies may allow for other exams or exemptions.",
+    "Keywords -",
+    "Study Master's in Business Management in Australia for Indian Students",
+    "Study Business Management in Australia: Best Universities and Fees",
+    "Study MBA and Management Courses in Australia for Indian Students",
+    "Study Business Management in Australia with Scholarships",
+    "Study Business Management in Australia: Eligibility and Admission Requirements",
+    "Study Business Management in Australia: Jobs and Career Opportunities",
+    "Study Business Management in Australia Without Work Experience",
+    "Study Business Management in Australia: IELTS Requirements and Student Visa"
+  ],
   level: "Undergraduate & Postgraduate",
   crumb: "Business & Management",
 

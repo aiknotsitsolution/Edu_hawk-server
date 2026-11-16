@@ -1,57 +1,119 @@
 {
   "seo": {
-    "title": "Biotechnology in USA | Top Universities, Fees & Visa 2026 | Edu Hawk",
-    "description": "Complete guide to studying Biotechnology in USA for Indian students. Admissions, entry requirements, tuition fees, top US universities and scholarships."
+    "title": "Study Biotechnology in USA for Indian Students | Edu Hawk",
+    "description": "Study biotechnology in the USA for Indian students — BSc to MS and PhD programmes in genetic engineering, molecular biology and bioinformatics."
   },
   "hero": {
-    "badge": "MBBS & Medical Abroad",
+    "badge": "Study Biotechnology · Abroad",
     "title": "Biotechnology in USA",
-    "subtitle": "Experience world-class academic training and global career pathways in the United States with Edu Hawk Worldwide.",
-    "ctaText": "Book Free Counselling",
-    "image": ""
+    "subtitle": "Biotechnology education in the United States presents substantial opportunities for Indian students to pursue advanced studies in biological sciences, genetic engineering, molecular biology, bioinformatics and pharmaceutical biotechnology across prestigious universities and research laboratories.",
+    "ctaText": "Book free counselling",
+    "image": "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=900&q=80"
   },
   "stats": [
     {
-      "n": "1000+",
-      "l": "Students Placed Globally"
+      "l": "Programs",
+      "n": "BSc, MS, Bioinformatics, PhD options"
     },
     {
-      "n": "20+",
-      "l": "Countries"
+      "l": "Countries",
+      "n": "USA, UK, Canada, Australia, Ireland & more"
     },
     {
-      "n": "200+",
-      "l": "Partner Universities"
+      "l": "Support",
+      "n": "Complete guidance from profile to arrival"
     },
     {
-      "n": "100%",
-      "l": "Support (Visa & End-to-End Guidance)"
+      "l": "Approach",
+      "n": "Transparent fees, honest counselling & career focus"
     }
   ],
   "highlights": {
-    "degree": "BS in Biotechnology",
-    "duration": "4 Years",
-    "fee": "$28,000 - $52,000 / Year",
-    "eligibility": "Class 12 PCM / PCB",
+    "degree": "BSc / MS / PhD in Biotechnology",
+    "duration": "2 to 4 Years",
+    "fee": "25–50L+ (Approx. Total Budget Range)",
+    "eligibility": "Class 12 PCB/PCM or Bachelor's",
     "medium": "English"
   },
-  "overview": "Studying Biotechnology in USA provides Indian scholars with unparalleled research facilities, industry-aligned curriculum, STEM OPT work authorization, and global professional prospects.",
+  "overview": "Biotechnology education in the United States presents substantial opportunities for Indian students to pursue advanced studies in biological sciences, genetic engineering, molecular biology, bioinformatics and pharmaceutical biotechnology. The United States hosts numerous prestigious universities, research institutions and biotechnology enterprises engaged in diverse sectors including healthcare, pharmaceuticals, agriculture, food science and environmental technology.\n\nIndian students may select from undergraduate degrees, graduate programmes and doctoral programmes in biotechnology and cognate disciplines. Contingent upon the institution and curriculum, students may acquire laboratory experience, engage in research initiatives, pursue internship opportunities and cultivate technical competencies pertinent to the biotechnology sector.\n\nEdu Hawk worldwide assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.",
   "universities": [
     {
-      "name": "Top Ranked US Institution",
-      "location": "United States",
-      "fee": "$28,000 - $52,000 / Year",
-      "image": ""
+      "name": "Johns Hopkins University",
+      "location": "Biotechnology, biomedical science and allied life science curricula",
+      "fee": "$35,000 - $60,000 / Year",
+      "image": "https://images.unsplash.com/photo-1562774053-701939374585?w=900&q=85"
+    },
+    {
+      "name": "University of California, Davis",
+      "location": "Biotechnology, biological sciences and agricultural biotechnology pathways",
+      "fee": "$32,000 - $55,000 / Year",
+      "image": "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?w=900&q=85"
+    },
+    {
+      "name": "University of California, San Diego",
+      "location": "Biological sciences, bioengineering and molecular biology programmes",
+      "fee": "$34,000 - $58,000 / Year",
+      "image": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=900&q=85"
+    },
+    {
+      "name": "University of Pennsylvania",
+      "location": "Biotechnology, biomedical science and interdisciplinary initiatives",
+      "fee": "$38,000 - $62,000 / Year",
+      "image": "https://images.unsplash.com/photo-1564981797816-1043664bf78d?w=900&q=85"
+    },
+    {
+      "name": "Northwestern University",
+      "location": "Biotechnology, biomedical research and postgraduate curricula",
+      "fee": "$36,000 - $60,000 / Year",
+      "image": "https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=900&q=85"
+    },
+    {
+      "name": "Purdue University",
+      "location": "Biotechnology and life sciences programmes",
+      "fee": "$30,000 - $50,000 / Year",
+      "image": "https://images.unsplash.com/photo-1607237138185-eedd9c632b0b?w=900&q=85"
     }
   ],
   "faq": [
     {
-      "question": "What are the admission requirements for Biotechnology in USA?",
-      "answer": "Indian applicants generally require: Class 12 PCM / PCB, English proficiency (IELTS/TOEFL/PTE or Duolingo), academic transcripts, and letters of recommendation."
+      "question": "Are Indian students eligible to pursue biotechnology studies in the United States following completion of Class 12?",
+      "answer": "Yes, Indian students may submit applications for accredited undergraduate programmes in biotechnology or allied biological sciences upon completion of Class 12. Enrollment eligibility is contingent upon academic achievement, requisite coursework, English language proficiency standards and institutional admission protocols."
     },
     {
-      "question": "Can I work while studying in the USA?",
-      "answer": "International students on F-1 visa can work on-campus up to 20 hours per week during semesters and full-time during breaks. Graduates of STEM programs receive up to 3 years of post-study OPT work authorization."
+      "question": "What constitutes the typical duration of biotechnology curricula in the United States?",
+      "answer": "Baccalaureate degrees ordinarily require approximately four years of study. Graduate-level master's programmes typically span one to two years, whereas doctoral programmes necessitate additional years contingent upon research advancement and institutional specifications."
+    },
+    {
+      "question": "Which postgraduate degree is most appropriate following a BSc or BTech in biotechnology?",
+      "answer": "Contingent upon educational background and professional aspirations, students may pursue an MS in Biotechnology, Molecular Biology, Bioinformatics, Biomedical Science or cognate disciplines. Students aspiring toward autonomous scientific investigation may additionally consider doctoral degree pathways."
+    },
+    {
+      "question": "What financial investment is required for biotechnology education in the United States?",
+      "answer": "The aggregate expenditure varies according to institutional selection, programme duration, geographic location, tuition frameworks and subsistence costs. Students should examine published cost of attendance figures and investigate available scholarships, teaching or research assistantships and supplementary funding mechanisms."
+    },
+    {
+      "question": "What professional opportunities exist for biotechnology graduates from United States institutions?",
+      "answer": "Depending on qualifications and professional experience, graduates may pursue positions in laboratory operations, scientific research, quality control, quality assurance, bioprocessing, pharmaceutical development, bioinformatics and regulatory compliance. Senior research positions typically necessitate doctoral credentials or specialized professional experience."
+    },
+    {
+      "question": "How can Edu Hawk worldwide help me study Biotechnology abroad?",
+      "answer": "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration and licensing requirements with the relevant official authorities."
+    },
+    {
+      "question": "Is GRE required for Biotechnology programmes in the USA?",
+      "answer": "The GRE is not universally required for biotechnology programmes in the USA. Requirements vary by university, department and degree level. Check the latest admissions policy before booking a test."
+    },
+    {
+      "question": "What is the salary of biological technicians and biochemists in the USA?",
+      "answer": "According to the U.S. Bureau of Labor Statistics (May 2025), the median annual wage for biological technicians was $57,510 and for biochemists and biophysicists was $127,410. Actual earnings vary by role, experience, location and employer."
+    },
+    {
+      "question": "Can I work in India after completing a US biotechnology degree?",
+      "answer": "Students intending to pursue careers in India must confirm the degree's relevance to their professional objectives or postgraduate educational plans. Institutional recognition and professional eligibility criteria may differ substantially across employers, academic institutions and regulated professional disciplines."
+    },
+    {
+      "question": "When should I start my application?",
+      "answer": "Starting 8–12 months before your intended intake gives you enough time for testing, shortlisting, documents, applications and visa preparation."
     }
   ]
 }

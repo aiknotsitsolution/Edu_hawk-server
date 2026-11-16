@@ -20,8 +20,7 @@ const page = {
   "keywords": "Study Aerospace Engineering - PG in Canada, Aerospace Engineering - PG in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Indian Students studying Aerospace Engineering in Canada",
   "heroParas": [
-    "Students interested in Aerospace Engineering in Canada, which includes aircraft design, spacecraft systems, aerodynamics, propulsion, aviation technologies, and innovative materials are drawn to Canada. In order to create and enhance aircraft, spacecraft, and associated technologies, aerospace engineering integrates mechanical engineering, electronics, materials science, fluid dynamics and control systems.",
-    "Postgraduate programs in Aerospace Engineering and allied disciplines including Mechanical Engineering, Aeronautical Engineering, Space Engineering, and Aerospace Systems are available at Canadian universities. Students can pursue professional master's degrees or research-based programs with cutting-edge labs, simulation tools, and aeronautical research projects, depending on the school."
+    "Students interested in Aerospace Engineering in Canada, which includes aircraft design, spacecraft systems, aerodynamics, propulsion, aviation technologies, and innovative materials are drawn to Canada. In order to create and enhance aircraft, spacecraft, and associated technologies, aerospace engineering integrates mechanical engineering, electronics, materials science, fluid dynamics and control systems."
   ],
   "overview": [
     "Students interested in Aerospace Engineering in Canada, which includes aircraft design, spacecraft systems, aerodynamics, propulsion, aviation technologies, and innovative materials are drawn to Canada. In order to create and enhance aircraft, spacecraft, and associated technologies, aerospace engineering integrates mechanical engineering, electronics, materials science, fluid dynamics and control systems.",

@@ -16,8 +16,7 @@ const page = {
   "keywords": "Study Language Courses in USA for Indian Students, Best Universities for Language Courses in USA, English Language Courses in USA for International Students, Language Course Fees in USA for Indian Students, Language Course Admission Requirements in USA, Short-Term English Language Courses in USA, Bachelor's in Linguistics in USA for Indian Students, Master's in Applied Linguistics in USA, TESOL and TEFL Courses in USA for International Students, IELTS and TOEFL Preparation Courses in USA, Foreign Language Courses in USA for Indian Students, Language Course Scholarships in USA for International Students, Duration of Language Courses in USA, Career Opportunities After Studying Languages in USA, USA Student Visa for Language Courses",
   "introTitle": "Language Courses In The United States",
   "heroParas": [
-    "Learning Languages Opportunities in the **United States**",
-    "International students studying languages in the USA can develop their communication skills, improve their academic English, learn foreign languages and explore linguistics, translation, interpretation and intercultural communication."
+    "International students studying language courses in the USA can elevate their communication skills, master academic English, and explore linguistics, translation, and intercultural communication across top American language centers and universities."
   ],
   "overview": [
     "American universities, colleges and language institutes offer programs from short-term language courses to undergraduate degrees, postgraduate qualifications and research programs. Students can choose a course according to their academic background, language proficiency, career goals and duration they prefer.",

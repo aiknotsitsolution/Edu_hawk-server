@@ -18,10 +18,10 @@ const page = {
   "description": "Study Postgraduate Engineering in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
   "keywords": "Study Postgraduate Engineering in Italy, Postgraduate Engineering in Italy for Indian Students, Best Universities in Italy, Cost of Studying in Italy",
   "introTitle": "Master's in Italy for Indian Students",
-  "heroParas": [
-    "Yes. Indian students with a suitable bachelor's degree can apply to Italian engineering master's programmes if they meet the academic, language, and programme-specific requirements."
+  heroParas: [
+    "Postgraduate Engineering in Italy offers world-class research infrastructure, advanced laboratory training, and internationally recognized master's degrees across prestigious institutions like Politecnico di Milano and Politecnico di Torino."
   ],
-  "overview": [
+  overview: [
     "Yes. Indian students with a suitable bachelor's degree can apply to Italian engineering master's programmes if they meet the academic, language, and programme-specific requirements."
   ],
   "level": "Postgraduate",
@@ -160,99 +160,6 @@ const page = {
           "items": [
             "Follow these steps when applying for a postgraduate engineering programme."
           ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Choose your specialisation: Select a master's programme that matches your bachelor's degree and long-term career plans.",
-            "Shortlist universities: Compare curriculum, language, tuition fees, scholarship options, and admission criteria.",
-            "Check academic eligibility: Review the required subjects, credits, grades, and qualification conditions.",
-            "Prepare your documents: Collect transcripts, degree certificates, language-test results, CV, and any additional requested documents.",
-            "Submit applications: Apply through the university's official portal before the relevant deadline.",
-            "Complete any selection process: Attend an interview or submit additional information if required.",
-            "Accept your offer: Follow the university's instructions for confirming admission and paying any required deposit or fees.",
-            "Complete pre-enrolment and visa formalities: Consult the official Universitaly portal and follow the current instructions for international students and the Italian study visa.",
-            "Complete final enrolment: Submit any remaining documents and complete the university's registration process."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Application deadlines differ by university, course, and intake. International applicants should start early to allow time for document evaluation, language tests, and visa procedures."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "licensing",
-      "eyebrow": "Licensing & Standards",
-      "title": "Engineering Master's Degree Recognition in Italy",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "An officially recognised Master of Science in Engineering from an Italian university provides an advanced academic qualification in the chosen field.",
-            "Before enrolling, students should verify:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "The official degree title and qualification level",
-            "The university's recognised status",
-            "The programme's duration and credit requirements",
-            "The course curriculum and specialisation options",
-            "Whether the qualification meets requirements for further research or doctoral study",
-            "Any professional registration requirements relevant to the intended career"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "A master's degree does not automatically grant professional registration in every country or engineering discipline. Students planning to work in India should confirm any applicable employer, professional-body, or qualification-recognition requirements."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Career Prospects",
-      "title": "Salary and Job Opportunities After an Engineering Master's in Italy",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Graduates with a Master's in Engineering in Italy may apply for specialist engineering roles in manufacturing, technology, automotive, aerospace, construction, energy, medical technology, and research.",
-            "Potential career paths include:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Mechanical Design Engineer: Develops and analyses mechanical components and systems.",
-            "Computer Engineer: Works on software, computing infrastructure, embedded systems, or intelligent technologies.",
-            "Civil Engineer: Contributes to infrastructure, structural design, construction, and project engineering.",
-            "Electrical Engineer: Works on electrical systems, power electronics, and energy applications.",
-            "Electronics Engineer: Develops or tests electronic devices, embedded systems, and circuits.",
-            "Aerospace Engineer: Works on aircraft systems, aerodynamics, propulsion, or aerospace structures.",
-            "Automotive Engineer: Contributes to vehicle design, testing, electric mobility, or propulsion systems.",
-            "Biomedical Engineer: Works with medical devices, healthcare technologies, and biomedical systems.",
-            "Chemical Engineer: Supports industrial processes, process design, and sustainable production.",
-            "Research and Development Engineer: Contributes to product development, simulation, testing, and technical research."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Indicative Salary Expectations",
-            "Salary depends on the specialisation, employer, location, experience, language skills, and job responsibilities. The following are broad planning estimates for gross annual earnings in Italy, not official salary statistics or guaranteed offers.",
-            "Career stageIndicative gross annual salary",
-            "Entry-level engineering role€28,000-€35,000 (approx. ₹30.41-₹38.01 lakh)",
-            "Engineer with experience€35,000-€50,000 (approx. ₹38.01-₹54.30 lakh)",
-            "Experienced or specialised engineer€50,000-€70,000+ (approx. ₹54.30-₹76.02 lakh+)",
-            "INR equivalents use €1 &asymp; ₹108.60. Actual earnings may fall outside these ranges. Figures are before taxes and deductions.",
-            "A master's degree may help candidates qualify for specialised roles, but employment and salary are not guaranteed. International graduates should also check the applicable work-authorisation and residence-permit rules."
-          ]
         }
       ]
     },
@@ -293,7 +200,34 @@ const page = {
         }
       ]
     }
-  ]
+  ],
+  faqs: [
+    {
+        "q": "Can Indian students study Master's in Engineering in Italy in English?",
+        "a": "Yes. Almost all major Italian technical universities offer Master of Science (Laurea Magistrale) engineering degrees 100% in English."
+    },
+    {
+        "q": "What is the duration of a master's in engineering in Italy?",
+        "a": "Postgraduate engineering programmes in Italy take 2 years to complete and require 120 ECTS credits, concluding with an extensive master's thesis."
+    },
+    {
+        "q": "What are the tuition fees for Master's in Engineering in Italy?",
+        "a": "At leading public technical universities, tuition fees range between €1,000 and €3,900 per year, with eligible students receiving full DSU scholarship fee waivers."
+    },
+    {
+        "q": "What are the admission requirements for engineering master's in Italy?",
+        "a": "Applicants must hold a relevant 3 or 4-year Bachelor's degree in engineering, with strong academic marks and prerequisite undergraduate credits in mathematics and core disciplines."
+    },
+    {
+        "q": "Is Italian language proficiency required for engineering master's?",
+        "a": "No. Instruction is fully in English. However, learning basic conversational Italian is helpful for daily life and internship placements in local firms."
+    },
+    {
+        "q": "Can engineering graduates work in Italy after completing their master's?",
+        "a": "Yes. Non-EU graduates are eligible for a 12-month post-study job seeker visa (permesso per ricerca lavoro) across Italy's advanced manufacturing and tech sectors."
+    }
+],
+  faqTitle: "Frequently Asked Questions About Postgraduate Engineering in Italy"
 };
 
 export default function PostgraduateEngineeringItaly() {

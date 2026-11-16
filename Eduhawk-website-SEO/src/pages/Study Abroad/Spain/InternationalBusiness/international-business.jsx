@@ -17,8 +17,7 @@ const page = {
   "keywords": "Study International Business in Spain, International Business in Spain for Indian Students, Best Universities in Spain, Cost of Studying in Spain",
   "introTitle": "International Business in Spain for Indian Students",
   "heroParas": [
-    "Studying International Business in Spain for Indian Students is a chance to learn about global trade, international marketing, cross-cultural management, global finance, and international business strategy. Spain's position in the European market makes it an attractive destination for students interested in multinational companies, international business, consulting, logistics, and global entrepreneurship.",
-    "Spanish universities and business schools provide undergraduate and postgraduate courses in International Business, International Management, and Global Business. Programs may be taught in English, Spanish, or both, depending on the institution."
+    "Studying International Business in Spain for Indian Students is a chance to learn about global trade, international marketing, cross-cultural management, global finance, and international business strategy."
   ],
   "overview": [
     "Studying International Business in Spain for Indian Students is a chance to learn about global trade, international marketing, cross-cultural management, global finance, and international business strategy. Spain's position in the European market makes it an attractive destination for students interested in multinational companies, international business, consulting, logistics, and global entrepreneurship.",
@@ -510,10 +509,6 @@ const page = {
             {
               "q": "What can I do with a degree in International Business in Spain?",
               "a": "Graduates can pursue careers in international trade, import-export, marketing, business development, consulting, logistics, and global operations. If you meet the entry requirements, further study is also possible. Begin Your International Business Journey with Edu-Hawk Worldwide The right university and program choice is an important first step toward an international career. Edu-Hawk Worldwide helps students understand study options, compare universities, prepare applications, and navigate the admission process. If you are planning to Study International Business in Spain for Indian Students , contact Edu-Hawk Worldwide for help in program selection and admission planning. To learn more, visit: https://www.eduhawk.in/"
-            },
-            {
-              "q": "SEO Keywords Used",
-              "a": "Studying International Business in Spain for Indian Students Study International Business in Spain International Business Courses in Spain International Business Universities in Spain International Business Eligibility in Spain International Business Admission Requirements in Spain International Business Fees in Spain International Business Admission Process in Spain International Business Career Opportunities in Spain Edu-Hawk Worldwide"
             }
           ]
         }

@@ -20,8 +20,7 @@ const page = {
   "keywords": "Study BBA in Canada, BBA in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Indian students Study BBA in Canada",
   "heroParas": [
-    "An undergraduate degree called a Bachelor of Business Administration (BBA) is intended to familiarize students with business concepts, management techniques, finance, marketing, accounting, and organizational operations.",
-    "Universities and a few other institutions in Canada provide undergraduate business programs. A BBA may involve classroom instruction, business simulations, group projects, internships, case studies, and chances to learn about various business roles, depending on the school."
+    "An undergraduate degree called a Bachelor of Business Administration (BBA) is intended to familiarize students with business concepts, management techniques, finance, marketing, accounting, and organizational operations."
   ],
   "overview": [
     "An undergraduate degree called a Bachelor of Business Administration (BBA) is intended to familiarize students with business concepts, management techniques, finance, marketing, accounting, and organizational operations.",

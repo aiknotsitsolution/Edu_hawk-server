@@ -80,13 +80,18 @@ import ChemicalEngineeringPG from "./pages/Study Abroad/USA/Engineering/pg/pages
 import AerospaceEngineeringPG from "./pages/Study Abroad/USA/Engineering/pg/pages/AerospaceEngineering.jsx";
 import BiomedicalEngineeringPG from "./pages/Study Abroad/USA/Engineering/pg/pages/BiomedicalEngineering.jsx";
 import AutomobileEngineeringPG from "./pages/Study Abroad/USA/Engineering/pg/pages/AutomobileEngineering.jsx";
+import ComputerScienceUSA from "./pages/Study Abroad/USA/ComputerScience/computer-science.jsx";
+import InformationTechnologyUSA from "./pages/Study Abroad/USA/InformationTechnology/information-technology.jsx";
 
 // Finland SSR Imports
 import ArchitectureFinland from "./pages/Study Abroad/Finland/Architecture/architecture.jsx";
 import BBAFinland from "./pages/Study Abroad/Finland/BBA/bba.jsx";
 import BBSFinland from "./pages/Study Abroad/Finland/BBS/bbs.jsx";
 import BusinessManagementFinland from "./pages/Study Abroad/Finland/BusinessManagement/business-management.jsx";
+import ComputerScienceFinland from "./pages/Study Abroad/Finland/ComputerScience/computer-science.jsx";
+import InformationTechnologyStandaloneFinland from "./pages/Study Abroad/Finland/InformationTechnology/information-technology.jsx";
 import InformationTechnologyFinland from "./pages/Study Abroad/Finland/Engineering/InformationTechnology.jsx";
+import PostgraduateEngineeringFinland from "./pages/Study Abroad/Finland/Engineering/pg/postgraduate.jsx";
 import MastersinAerospaceEngineeringPGFinland from "./pages/Study Abroad/Finland/Engineering/pg/pages/AerospaceEngineering.jsx";
 import MastersinAutomobileEngineeringPGFinland from "./pages/Study Abroad/Finland/Engineering/pg/pages/AutomobileEngineering.jsx";
 import MastersinBiomedicalEngineeringPGFinland from "./pages/Study Abroad/Finland/Engineering/pg/pages/BiomedicalEngineering.jsx";
@@ -467,6 +472,92 @@ import LawGermany from "./pages/Study Abroad/Germany/Law/Law.jsx";
 import LanguageCoursesGermany from "./pages/Study Abroad/Germany/LanguageCourses/LanguageCourses.jsx";
 import SummerCoursesGermany from "./pages/Study Abroad/Germany/SummerCourses/SummerCourses.jsx";
 import WinterCoursesGermany from "./pages/Study Abroad/Germany/WinterCourses/WinterCourses.jsx";
+// Study Abroad - Switzerland
+import DentistryAbroadSwitzerland from "./pages/Study Abroad/Switzerland/MBBS Abroad/DentistryAbroad.jsx";
+import BiotechnologySwitzerland from "./pages/Study Abroad/Switzerland/MBBS Abroad/Biotechnology.jsx";
+import NursingAbroadSwitzerland from "./pages/Study Abroad/Switzerland/MBBS Abroad/NursingAbroad.jsx";
+import PharmacyAbroadSwitzerland from "./pages/Study Abroad/Switzerland/MBBS Abroad/PharmacyAbroad.jsx";
+import PhysiotherapyAbroadSwitzerland from "./pages/Study Abroad/Switzerland/MBBS Abroad/PhysiotherapyAbroad.jsx";
+import PublicHealthSwitzerland from "./pages/Study Abroad/Switzerland/MBBS Abroad/PublicHealth.jsx";
+import UndergraduateEngineeringSwitzerland from "./pages/Study Abroad/Switzerland/Engineering/ug/undergraduate.jsx";
+import AerospaceEngineeringUGSwitzerland from "./pages/Study Abroad/Switzerland/Engineering/ug/pages/AerospaceEngineering.jsx";
+import AutomobileEngineeringUGSwitzerland from "./pages/Study Abroad/Switzerland/Engineering/ug/pages/AutomobileEngineering.jsx";
+import BiomedicalEngineeringUGSwitzerland from "./pages/Study Abroad/Switzerland/Engineering/ug/pages/BiomedicalEngineering.jsx";
+import ChemicalEngineeringUGSwitzerland from "./pages/Study Abroad/Switzerland/Engineering/ug/pages/ChemicalEngineering.jsx";
+import CivilEngineeringUGSwitzerland from "./pages/Study Abroad/Switzerland/Engineering/ug/pages/CivilEngineering.jsx";
+import ComputerEngineeringUGSwitzerland from "./pages/Study Abroad/Switzerland/Engineering/ug/pages/ComputerEngineering.jsx";
+import ElectricalEngineeringUGSwitzerland from "./pages/Study Abroad/Switzerland/Engineering/ug/pages/ElectricalEngineering.jsx";
+import ElectronicsCommunicationUGSwitzerland from "./pages/Study Abroad/Switzerland/Engineering/ug/pages/ElectronicsCommunication.jsx";
+import MechanicalEngineeringUGSwitzerland from "./pages/Study Abroad/Switzerland/Engineering/ug/pages/MechanicalEngineering.jsx";
+import PostgraduateEngineeringSwitzerland from "./pages/Study Abroad/Switzerland/Engineering/pg/postgraduate.jsx";
+import AerospaceEngineeringPGSwitzerland from "./pages/Study Abroad/Switzerland/Engineering/pg/pages/AerospaceEngineering.jsx";
+import AutomobileEngineeringPGSwitzerland from "./pages/Study Abroad/Switzerland/Engineering/pg/pages/AutomobileEngineering.jsx";
+import BiomedicalEngineeringPGSwitzerland from "./pages/Study Abroad/Switzerland/Engineering/pg/pages/BiomedicalEngineering.jsx";
+import ChemicalEngineeringPGSwitzerland from "./pages/Study Abroad/Switzerland/Engineering/pg/pages/ChemicalEngineering.jsx";
+import CivilEngineeringPGSwitzerland from "./pages/Study Abroad/Switzerland/Engineering/pg/pages/CivilEngineering.jsx";
+import ComputerEngineeringPGSwitzerland from "./pages/Study Abroad/Switzerland/Engineering/pg/pages/ComputerEngineering.jsx";
+import ElectricalEngineeringPGSwitzerland from "./pages/Study Abroad/Switzerland/Engineering/pg/pages/ElectricalEngineering.jsx";
+import ElectronicsCommunicationPGSwitzerland from "./pages/Study Abroad/Switzerland/Engineering/pg/pages/ElectronicsCommunication.jsx";
+import MechanicalEngineeringPGSwitzerland from "./pages/Study Abroad/Switzerland/Engineering/pg/pages/MechanicalEngineering.jsx";
+import ComputerScienceSwitzerland from "./pages/Study Abroad/Switzerland/ComputerScience/ComputerScience.jsx";
+import InformationTechnologySwitzerland from "./pages/Study Abroad/Switzerland/InformationTechnology/InformationTechnology.jsx";
+import BusinessManagementSwitzerland from "./pages/Study Abroad/Switzerland/BusinessManagement/BusinessManagement.jsx";
+import BBASwitzerland from "./pages/Study Abroad/Switzerland/BBA/BBA.jsx";
+import BBSSwitzerland from "./pages/Study Abroad/Switzerland/BBS/BBS.jsx";
+import MBASwitzerland from "./pages/Study Abroad/Switzerland/MBA/MBA.jsx";
+import MBSSwitzerland from "./pages/Study Abroad/Switzerland/MBS/MBS.jsx";
+import ExecutiveMBASwitzerland from "./pages/Study Abroad/Switzerland/ExecutiveMBA/ExecutiveMBA.jsx";
+import InternationalBusinessSwitzerland from "./pages/Study Abroad/Switzerland/InternationalBusiness/InternationalBusiness.jsx";
+import HospitalityManagementSwitzerland from "./pages/Study Abroad/Switzerland/HospitalityManagement/HospitalityManagement.jsx";
+import ArchitectureSwitzerland from "./pages/Study Abroad/Switzerland/Architecture/Architecture.jsx";
+import LawSwitzerland from "./pages/Study Abroad/Switzerland/Law/Law.jsx";
+import LanguageCoursesSwitzerland from "./pages/Study Abroad/Switzerland/LanguageCourses/LanguageCourses.jsx";
+import SummerCoursesSwitzerland from "./pages/Study Abroad/Switzerland/SummerCourses/SummerCourses.jsx";
+import WinterCoursesSwitzerland from "./pages/Study Abroad/Switzerland/WinterCourses/WinterCourses.jsx";
+
+// Study Abroad - Mauritius
+import DentistryMauritius from "./pages/Study Abroad/Mauritius/MBBS Abroad/DentistryAbroad.jsx";
+import BiotechnologyMauritius from "./pages/Study Abroad/Mauritius/MBBS Abroad/Biotechnology.jsx";
+import NursingMauritius from "./pages/Study Abroad/Mauritius/MBBS Abroad/NursingAbroad.jsx";
+import PharmacyMauritius from "./pages/Study Abroad/Mauritius/MBBS Abroad/PharmacyAbroad.jsx";
+import PhysiotherapyMauritius from "./pages/Study Abroad/Mauritius/MBBS Abroad/PhysiotherapyAbroad.jsx";
+import PublicHealthMauritius from "./pages/Study Abroad/Mauritius/MBBS Abroad/PublicHealth.jsx";
+import UndergraduateEngineeringMauritius from "./pages/Study Abroad/Mauritius/Engineering/ug/undergraduate.jsx";
+import AerospaceEngineeringUGMauritius from "./pages/Study Abroad/Mauritius/Engineering/ug/pages/AerospaceEngineering.jsx";
+import AutomobileEngineeringUGMauritius from "./pages/Study Abroad/Mauritius/Engineering/ug/pages/AutomobileEngineering.jsx";
+import BiomedicalEngineeringUGMauritius from "./pages/Study Abroad/Mauritius/Engineering/ug/pages/BiomedicalEngineering.jsx";
+import ChemicalEngineeringUGMauritius from "./pages/Study Abroad/Mauritius/Engineering/ug/pages/ChemicalEngineering.jsx";
+import CivilEngineeringUGMauritius from "./pages/Study Abroad/Mauritius/Engineering/ug/pages/CivilEngineering.jsx";
+import ComputerEngineeringUGMauritius from "./pages/Study Abroad/Mauritius/Engineering/ug/pages/ComputerEngineering.jsx";
+import ElectricalEngineeringUGMauritius from "./pages/Study Abroad/Mauritius/Engineering/ug/pages/ElectricalEngineering.jsx";
+import ElectronicsCommunicationUGMauritius from "./pages/Study Abroad/Mauritius/Engineering/ug/pages/ElectronicsCommunication.jsx";
+import MechanicalEngineeringUGMauritius from "./pages/Study Abroad/Mauritius/Engineering/ug/pages/MechanicalEngineering.jsx";
+import PostgraduateEngineeringMauritius from "./pages/Study Abroad/Mauritius/Engineering/pg/postgraduate.jsx";
+import AerospaceEngineeringPGMauritius from "./pages/Study Abroad/Mauritius/Engineering/pg/pages/AerospaceEngineering.jsx";
+import AutomobileEngineeringPGMauritius from "./pages/Study Abroad/Mauritius/Engineering/pg/pages/AutomobileEngineering.jsx";
+import BiomedicalEngineeringPGMauritius from "./pages/Study Abroad/Mauritius/Engineering/pg/pages/BiomedicalEngineering.jsx";
+import ChemicalEngineeringPGMauritius from "./pages/Study Abroad/Mauritius/Engineering/pg/pages/ChemicalEngineering.jsx";
+import CivilEngineeringPGMauritius from "./pages/Study Abroad/Mauritius/Engineering/pg/pages/CivilEngineering.jsx";
+import ComputerEngineeringPGMauritius from "./pages/Study Abroad/Mauritius/Engineering/pg/pages/ComputerEngineering.jsx";
+import ElectricalEngineeringPGMauritius from "./pages/Study Abroad/Mauritius/Engineering/pg/pages/ElectricalEngineering.jsx";
+import ElectronicsCommunicationPGMauritius from "./pages/Study Abroad/Mauritius/Engineering/pg/pages/ElectronicsCommunication.jsx";
+import MechanicalEngineeringPGMauritius from "./pages/Study Abroad/Mauritius/Engineering/pg/pages/MechanicalEngineering.jsx";
+import ComputerScienceMauritius from "./pages/Study Abroad/Mauritius/ComputerScience/ComputerScience.jsx";
+import InformationTechnologyMauritius from "./pages/Study Abroad/Mauritius/InformationTechnology/InformationTechnology.jsx";
+import BusinessManagementMauritius from "./pages/Study Abroad/Mauritius/BusinessManagement/BusinessManagement.jsx";
+import BBAMauritius from "./pages/Study Abroad/Mauritius/BBA/BBA.jsx";
+import BBSMauritius from "./pages/Study Abroad/Mauritius/BBS/BBS.jsx";
+import MBAMauritius from "./pages/Study Abroad/Mauritius/MBA/MBA.jsx";
+import MBSMauritius from "./pages/Study Abroad/Mauritius/MBS/MBS.jsx";
+import ExecutiveMBAMauritius from "./pages/Study Abroad/Mauritius/ExecutiveMBA/ExecutiveMBA.jsx";
+import InternationalBusinessMauritius from "./pages/Study Abroad/Mauritius/InternationalBusiness/InternationalBusiness.jsx";
+import HospitalityManagementMauritius from "./pages/Study Abroad/Mauritius/HospitalityManagement/HospitalityManagement.jsx";
+import ArchitectureMauritius from "./pages/Study Abroad/Mauritius/Architecture/Architecture.jsx";
+import LawMauritius from "./pages/Study Abroad/Mauritius/Law/Law.jsx";
+import LanguageCoursesMauritius from "./pages/Study Abroad/Mauritius/LanguageCourses/LanguageCourses.jsx";
+import SummerCoursesMauritius from "./pages/Study Abroad/Mauritius/SummerCourses/SummerCourses.jsx";
+import WinterCoursesMauritius from "./pages/Study Abroad/Mauritius/WinterCourses/WinterCourses.jsx";
+import TestDetailPage from "./pages/Tests/TestDetailPage.jsx";
 
 
 
@@ -555,7 +646,13 @@ export async function render(url) {
               <Route path="study-abroad/finland/bba" element={<BBAFinland />} />
               <Route path="study-abroad/finland/bbs" element={<BBSFinland />} />
               <Route path="study-abroad/finland/business-management" element={<BusinessManagementFinland />} />
+              <Route path="study-abroad/finland/computer-science" element={<ComputerScienceFinland />} />
+              <Route path="study-abroad/finland/information-technology" element={<InformationTechnologyStandaloneFinland />} />
               <Route path="study-abroad/finland/it" element={<InformationTechnologyFinland />} />
+              <Route path="study-abroad/finland/engineering/information-technology" element={<InformationTechnologyFinland />} />
+              <Route path="study-abroad/finland/pg/engineering" element={<PostgraduateEngineeringFinland />} />
+              <Route path="study-abroad/finland/pg/computer-science-engineering" element={<MastersinComputerScienceEngineeringPGFinland />} />
+              <Route path="study-abroad/finland/ug/computer-science-engineering" element={<ComputerScienceEngineeringUGFinland />} />
               <Route path="study-abroad/finland/pg/aerospace-engineering" element={<MastersinAerospaceEngineeringPGFinland />} />
               <Route path="study-abroad/finland/pg/automobile-engineering" element={<MastersinAutomobileEngineeringPGFinland />} />
               <Route path="study-abroad/finland/pg/biomedical-engineering" element={<MastersinBiomedicalEngineeringPGFinland />} />
@@ -938,6 +1035,144 @@ export async function render(url) {
         <Route path="study-abroad/germany/language-courses" element={<LanguageCoursesGermany />} />
         <Route path="study-abroad/germany/summer-courses" element={<SummerCoursesGermany />} />
         <Route path="study-abroad/germany/winter-courses" element={<WinterCoursesGermany />} />
+
+        {/* Study Abroad - Switzerland */}
+        <Route path="study-abroad/switzerland/dentistry" element={<DentistryAbroadSwitzerland />} />
+        <Route path="study-abroad/switzerland/biotechnology" element={<BiotechnologySwitzerland />} />
+        <Route path="study-abroad/switzerland/nursing" element={<NursingAbroadSwitzerland />} />
+        <Route path="study-abroad/switzerland/pharmacy" element={<PharmacyAbroadSwitzerland />} />
+        <Route path="study-abroad/switzerland/physiotherapy" element={<PhysiotherapyAbroadSwitzerland />} />
+        <Route path="study-abroad/switzerland/public-health" element={<PublicHealthSwitzerland />} />
+        <Route path="study-abroad/switzerland/ug/engineering" element={<UndergraduateEngineeringSwitzerland />} />
+        <Route path="study-abroad/switzerland/ug/aerospace-engineering" element={<AerospaceEngineeringUGSwitzerland />} />
+        <Route path="study-abroad/switzerland/ug/automobile-engineering" element={<AutomobileEngineeringUGSwitzerland />} />
+        <Route path="study-abroad/switzerland/ug/biomedical-engineering" element={<BiomedicalEngineeringUGSwitzerland />} />
+        <Route path="study-abroad/switzerland/ug/chemical-engineering" element={<ChemicalEngineeringUGSwitzerland />} />
+        <Route path="study-abroad/switzerland/ug/civil-engineering" element={<CivilEngineeringUGSwitzerland />} />
+        <Route path="study-abroad/switzerland/ug/computer-engineering" element={<ComputerEngineeringUGSwitzerland />} />
+        <Route path="study-abroad/switzerland/ug/electrical-engineering" element={<ElectricalEngineeringUGSwitzerland />} />
+        <Route path="study-abroad/switzerland/ug/electronics-communication" element={<ElectronicsCommunicationUGSwitzerland />} />
+        <Route path="study-abroad/switzerland/ug/mechanical-engineering" element={<MechanicalEngineeringUGSwitzerland />} />
+        <Route path="study-abroad/switzerland/pg/engineering" element={<PostgraduateEngineeringSwitzerland />} />
+        <Route path="study-abroad/switzerland/pg/aerospace-engineering" element={<AerospaceEngineeringPGSwitzerland />} />
+        <Route path="study-abroad/switzerland/pg/automobile-engineering" element={<AutomobileEngineeringPGSwitzerland />} />
+        <Route path="study-abroad/switzerland/pg/biomedical-engineering" element={<BiomedicalEngineeringPGSwitzerland />} />
+        <Route path="study-abroad/switzerland/pg/chemical-engineering" element={<ChemicalEngineeringPGSwitzerland />} />
+        <Route path="study-abroad/switzerland/pg/civil-engineering" element={<CivilEngineeringPGSwitzerland />} />
+        <Route path="study-abroad/switzerland/pg/computer-engineering" element={<ComputerEngineeringPGSwitzerland />} />
+        <Route path="study-abroad/switzerland/pg/electrical-engineering" element={<ElectricalEngineeringPGSwitzerland />} />
+        <Route path="study-abroad/switzerland/pg/electronics-communication" element={<ElectronicsCommunicationPGSwitzerland />} />
+        <Route path="study-abroad/switzerland/pg/mechanical-engineering" element={<MechanicalEngineeringPGSwitzerland />} />
+        <Route path="study-abroad/switzerland/computer-science" element={<ComputerScienceSwitzerland />} />
+        <Route path="study-abroad/switzerland/information-technology" element={<InformationTechnologySwitzerland />} />
+        <Route path="study-abroad/switzerland/business-management" element={<BusinessManagementSwitzerland />} />
+        <Route path="study-abroad/switzerland/bba" element={<BBASwitzerland />} />
+        <Route path="study-abroad/switzerland/bbs" element={<BBSSwitzerland />} />
+        <Route path="study-abroad/switzerland/mba" element={<MBASwitzerland />} />
+        <Route path="study-abroad/switzerland/mbs" element={<MBSSwitzerland />} />
+        <Route path="study-abroad/switzerland/executive-mba" element={<ExecutiveMBASwitzerland />} />
+        <Route path="study-abroad/switzerland/international-business" element={<InternationalBusinessSwitzerland />} />
+        <Route path="study-abroad/switzerland/hospitality-management" element={<HospitalityManagementSwitzerland />} />
+        <Route path="study-abroad/switzerland/architecture" element={<ArchitectureSwitzerland />} />
+        <Route path="study-abroad/switzerland/law" element={<LawSwitzerland />} />
+        <Route path="study-abroad/switzerland/language-courses" element={<LanguageCoursesSwitzerland />} />
+        <Route path="study-abroad/switzerland/summer-courses" element={<SummerCoursesSwitzerland />} />
+        <Route path="study-abroad/switzerland/winter-courses" element={<WinterCoursesSwitzerland />} />
+
+        {/* Study Abroad - Mauritius */}
+        <Route path="study-abroad/mauritius/dentistry" element={<DentistryMauritius />} />
+        <Route path="study-abroad/mauritius/biotechnology" element={<BiotechnologyMauritius />} />
+        <Route path="study-abroad/mauritius/nursing" element={<NursingMauritius />} />
+        <Route path="study-abroad/mauritius/pharmacy" element={<PharmacyMauritius />} />
+        <Route path="study-abroad/mauritius/physiotherapy" element={<PhysiotherapyMauritius />} />
+        <Route path="study-abroad/mauritius/public-health" element={<PublicHealthMauritius />} />
+        <Route path="study-abroad/mauritius/ug/engineering" element={<UndergraduateEngineeringMauritius />} />
+        <Route path="study-abroad/mauritius/ug/aerospace-engineering" element={<AerospaceEngineeringUGMauritius />} />
+        <Route path="study-abroad/mauritius/ug/automobile-engineering" element={<AutomobileEngineeringUGMauritius />} />
+        <Route path="study-abroad/mauritius/ug/biomedical-engineering" element={<BiomedicalEngineeringUGMauritius />} />
+        <Route path="study-abroad/mauritius/ug/chemical-engineering" element={<ChemicalEngineeringUGMauritius />} />
+        <Route path="study-abroad/mauritius/ug/civil-engineering" element={<CivilEngineeringUGMauritius />} />
+        <Route path="study-abroad/mauritius/ug/computer-engineering" element={<ComputerEngineeringUGMauritius />} />
+        <Route path="study-abroad/mauritius/ug/electrical-engineering" element={<ElectricalEngineeringUGMauritius />} />
+        <Route path="study-abroad/mauritius/ug/electronics-communication" element={<ElectronicsCommunicationUGMauritius />} />
+        <Route path="study-abroad/mauritius/ug/mechanical-engineering" element={<MechanicalEngineeringUGMauritius />} />
+        <Route path="study-abroad/mauritius/pg/engineering" element={<PostgraduateEngineeringMauritius />} />
+        <Route path="study-abroad/mauritius/pg/aerospace-engineering" element={<AerospaceEngineeringPGMauritius />} />
+        <Route path="study-abroad/mauritius/pg/automobile-engineering" element={<AutomobileEngineeringPGMauritius />} />
+        <Route path="study-abroad/mauritius/pg/biomedical-engineering" element={<BiomedicalEngineeringPGMauritius />} />
+        <Route path="study-abroad/mauritius/pg/chemical-engineering" element={<ChemicalEngineeringPGMauritius />} />
+        <Route path="study-abroad/mauritius/pg/civil-engineering" element={<CivilEngineeringPGMauritius />} />
+        <Route path="study-abroad/mauritius/pg/computer-engineering" element={<ComputerEngineeringPGMauritius />} />
+        <Route path="study-abroad/mauritius/pg/electrical-engineering" element={<ElectricalEngineeringPGMauritius />} />
+        <Route path="study-abroad/mauritius/pg/electronics-communication" element={<ElectronicsCommunicationPGMauritius />} />
+        <Route path="study-abroad/mauritius/pg/mechanical-engineering" element={<MechanicalEngineeringPGMauritius />} />
+        <Route path="study-abroad/mauritius/computer-science" element={<ComputerScienceMauritius />} />
+        <Route path="study-abroad/mauritius/information-technology" element={<InformationTechnologyMauritius />} />
+        <Route path="study-abroad/mauritius/business-management" element={<BusinessManagementMauritius />} />
+        <Route path="study-abroad/mauritius/bba" element={<BBAMauritius />} />
+        <Route path="study-abroad/mauritius/bbs" element={<BBSMauritius />} />
+        <Route path="study-abroad/mauritius/mba" element={<MBAMauritius />} />
+        <Route path="study-abroad/mauritius/mbs" element={<MBSMauritius />} />
+        <Route path="study-abroad/mauritius/executive-mba" element={<ExecutiveMBAMauritius />} />
+        <Route path="study-abroad/mauritius/international-business" element={<InternationalBusinessMauritius />} />
+        <Route path="study-abroad/mauritius/hospitality-management" element={<HospitalityManagementMauritius />} />
+        <Route path="study-abroad/mauritius/architecture" element={<ArchitectureMauritius />} />
+        <Route path="study-abroad/mauritius/law" element={<LawMauritius />} />
+        <Route path="study-abroad/mauritius/language-courses" element={<LanguageCoursesMauritius />} />
+        <Route path="study-abroad/mauritius/summer-courses" element={<SummerCoursesMauritius />} />
+        <Route path="study-abroad/mauritius/winter-courses" element={<WinterCoursesMauritius />} />
+
+        
+        {/* USA Routes */}
+        <Route path="study-abroad/usa/computer-science" element={<ComputerScienceUSA />} />
+        <Route path="study-abroad/usa/information-technology" element={<InformationTechnologyUSA />} />
+        <Route path="study-abroad/usa/ug/engineering" element={<UndergraduateEngineering />} />
+        <Route path="study-abroad/usa/pg/engineering" element={<PostgraduateEngineering />} />
+        <Route path="study-abroad/usa/engineering" element={<Engineering />} />
+        <Route path="study-abroad/usa/dentistry" element={<DentistryAbroad />} />
+        <Route path="study-abroad/usa/nursing" element={<NursingAbroad />} />
+        <Route path="study-abroad/usa/pharmacy" element={<PharmacyAbroad />} />
+        <Route path="study-abroad/usa/physiotherapy" element={<PhysiotherapyAbroad />} />
+        <Route path="study-abroad/usa/public-health" element={<PublicHealthAbroad />} />
+        <Route path="study-abroad/usa/biotechnology" element={<BiotechnologyAbroad />} />
+        <Route path="study-abroad/usa/medical-abroad" element={<MedicalAbroad />} />
+        <Route path="study-abroad/usa/mbbs" element={<MbbsAbroad />} />
+        <Route path="study-abroad/usa/business-management" element={<BusinessManagementAbroad />} />
+        <Route path="study-abroad/usa/mba" element={<MbaAbroad />} />
+        <Route path="study-abroad/usa/executive-mba" element={<ExecutiveMbaAbroad />} />
+        <Route path="study-abroad/usa/bba" element={<BbaAbroad />} />
+        <Route path="study-abroad/usa/bbs" element={<BbsAbroad />} />
+        <Route path="study-abroad/usa/mbs" element={<MbsAbroad />} />
+        <Route path="study-abroad/usa/international-business" element={<InternationalBusinessAbroad />} />
+        <Route path="study-abroad/usa/marketing-management" element={<MarketingManagementAbroad />} />
+        <Route path="study-abroad/usa/hospitality-management" element={<HospitalityManagementAbroad />} />
+        <Route path="study-abroad/usa/architecture" element={<ArchitectureAbroad />} />
+        <Route path="study-abroad/usa/law" element={<LawAbroad />} />
+        <Route path="study-abroad/usa/language-courses" element={<LanguageCoursesAbroad />} />
+        <Route path="study-abroad/usa/summer-courses" element={<SummerCoursesAbroad />} />
+        <Route path="study-abroad/usa/winter-courses" element={<WinterCoursesAbroad />} />
+        <Route path="study-abroad/usa/ug/computer-engineering" element={<ComputerEngineeringUG />} />
+        <Route path="study-abroad/usa/ug/mechanical-engineering" element={<MechanicalEngineeringUG />} />
+        <Route path="study-abroad/usa/ug/civil-engineering" element={<CivilEngineeringUG />} />
+        <Route path="study-abroad/usa/ug/electrical-engineering" element={<ElectricalEngineeringUG />} />
+        <Route path="study-abroad/usa/ug/electronics-communication" element={<ElectronicsCommunicationUG />} />
+        <Route path="study-abroad/usa/ug/chemical-engineering" element={<ChemicalEngineeringUG />} />
+        <Route path="study-abroad/usa/ug/aerospace-engineering" element={<AerospaceEngineeringUG />} />
+        <Route path="study-abroad/usa/ug/biomedical-engineering" element={<BiomedicalEngineeringUG />} />
+        <Route path="study-abroad/usa/ug/automobile-engineering" element={<AutomobileEngineeringUG />} />
+        <Route path="study-abroad/usa/pg/computer-engineering" element={<ComputerEngineeringPG />} />
+        <Route path="study-abroad/usa/pg/mechanical-engineering" element={<MechanicalEngineeringPG />} />
+        <Route path="study-abroad/usa/pg/civil-engineering" element={<CivilEngineeringPG />} />
+        <Route path="study-abroad/usa/pg/electrical-engineering" element={<ElectricalEngineeringPG />} />
+        <Route path="study-abroad/usa/pg/electronics-communication" element={<ElectronicsCommunicationPG />} />
+        <Route path="study-abroad/usa/pg/chemical-engineering" element={<ChemicalEngineeringPG />} />
+        <Route path="study-abroad/usa/pg/aerospace-engineering" element={<AerospaceEngineeringPG />} />
+        <Route path="study-abroad/usa/pg/biomedical-engineering" element={<BiomedicalEngineeringPG />} />
+        <Route path="study-abroad/usa/pg/automobile-engineering" element={<AutomobileEngineeringPG />} />
+
+        {/* Tests & Common Online Exams (Common to All Countries) */}
+        <Route path="tests/:testId" element={<TestDetailPage />} />
+        <Route path="tests" element={<TestDetailPage />} />
 
               <Route path="terms-conditions" element={<TermsAndConditions />} />
               <Route path="privacy-policy" element={<PrivacyPolicy />} />

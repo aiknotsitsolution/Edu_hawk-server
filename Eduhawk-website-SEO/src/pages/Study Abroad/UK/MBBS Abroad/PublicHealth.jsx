@@ -22,14 +22,11 @@ const page = {
   "keywords": "Study Public Health in the UK, Public Health in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Study Public Health in the United Kingdom",
   "heroParas": [
-    "Through disease prevention, health promotion, research, policy formulation and healthcare planning, the multidisciplinary area of public health aims to safeguard and enhance population health. A variety of undergraduate and graduate programs are available in the UK to assist students comprehend public health challenges and acquire the skills necessary to handle them.",
-    "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities.",
-    "Key Advantages of Studying Public Health in the United Kingdom"
+    "Through disease prevention, health promotion, research, policy formulation and healthcare planning, the multidisciplinary area of public health aims to safeguard and enhance population health. A variety of undergraduate and graduate programs are available in the UK to assist students comprehend public health challenges and acquire the skills necessary to handle them."
   ],
   "overview": [
     "Through disease prevention, health promotion, research, policy formulation and healthcare planning, the multidisciplinary area of public health aims to safeguard and enhance population health. A variety of undergraduate and graduate programs are available in the UK to assist students comprehend public health challenges and acquire the skills necessary to handle them.",
-    "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities.",
-    "Key Advantages of Studying Public Health in the United Kingdom"
+    "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities."
   ],
   "level": "Master of Public Health (MPH)",
   "crumb": "Healthcare / Public Health",

@@ -23,10 +23,10 @@ const page = {
     "Study Automobile Engineering in Australia for Indian Students Undergraduate Automobile Engineering Courses in Australia Best Universities for Automobile Engineering in Australia Automotive Engineering Courses in Australia After 12th Automobile Engineering Course Duration in Australia English Language Requirements for Engineering in Australia Automobile Engineering Specialisations in Australia Automobile Engineering Admission Process for Indian Students Engineers Australia Accredited Engineering Courses",
   introTitle: "Australia's Automobile Engineering",
   heroParas: [
-    "Automobile engineering focuses on vehicle design, powertrain development, electric vehicle (EV) technologies, autonomous driving systems, and smart mobility solutions.",
-    "Australia offers premier engineering education combining mechanical, mechatronic, and automotive disciplines with world-class Formula SAE racing teams and accreditation by Engineers Australia."
+    "Automobile engineering focuses on vehicle design, powertrain development, electric vehicle (EV) technologies, autonomous driving systems, and smart mobility solutions."
   ],
   overview: [
+    "Australia offers premier engineering education combining mechanical, mechatronic, and automotive disciplines with world-class Formula SAE racing teams and accreditation by Engineers Australia.",
     "Undergraduate programs focus on vehicle dynamics, battery electric powertrains, autonomous vehicle control, crash safety, lightweight materials, and advanced automotive manufacturing."
   ],
   level: "UG",

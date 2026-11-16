@@ -13,456 +13,416 @@ import uniImg2 from "../../../../Images/Abroad/Ireland/Biotechnology/University_
 import uniImg3 from "../../../../Images/Abroad/Ireland/Biotechnology/University_of_Galway.webp";
 
 const page = {
-  "name": "Biotechnology in Ireland",
-  "country": "Ireland",
-  "slug": "biotechnology",
-  "title": "Study Biotechnology in Ireland for Indian Students | Edu-Hawk Worldwide",
-  "description": "Complete guide to Biotechnology in Ireland for Indian students: Top Irish universities, eligibility criteria, tuition fees (€15,000 – €26,000 / year), scholarships, and 2-year post-study work visa (Stamp 1G).",
-  "keywords": "Study Biotechnology in Ireland for Indian Students, Best Universities for Biotechnology in Ireland, Cost of Studying in Ireland, Edu-Hawk Worldwide",
-  "introTitle": "BIOTECHNOLOGY IN IRELAND",
-  "heroParas": [
-    "Biological science, pharmaceutical innovation, medical research and industrial biotechnology are all popular subjects for students in Ireland. The country boasts a significant biopharmaceutical and life-sciences sectorpresenting opportunities for graduates with relevant scientific and technical skills.",
-    "The benefits of studying biotechnology in Ireland are:",
-    "If you are a student who likes biology, chemistry, lab work, and applying scientific knowledge to real-world problems, biotechnology may be a good fit for you."
+  name: "Biotechnology in Ireland",
+  country: "Ireland",
+  slug: "study-abroad/ireland/biotechnology",
+  title: "Study Biotechnology in Ireland for Indian Students | Edu-Hawk Worldwide",
+  description: "Complete guide to studying Biotechnology in Ireland for Indian students: Top Irish universities (UCC, UCD, University of Galway), NFQ Level 8/9 degrees, tuition fees, scholarships, and 2-year Stamp 1G graduate work visa.",
+  keywords: "Study Biotechnology in Ireland for Indian Students, Best Universities for Biotechnology in Ireland, BSc Biotechnology Courses in Ireland, MSc Biotechnology in Ireland for Indian Students, Industrial Biotechnology and Biomanufacturing Ireland, Cost of Studying Biotechnology in Ireland, Ireland Stamp 1G Visa Biotechnology, Edu-Hawk Worldwide",
+  introTitle: "STUDY BIOTECHNOLOGY IN IRELAND FOR INDIAN STUDENTS",
+  heroParas: [
+    "Ireland is recognized globally as a premier European hub for biopharmaceutical innovation, biological sciences, and industrial biotechnology. With 9 of the world's top 10 pharmaceutical giants operating manufacturing and research facilities across Dublin, Cork, and Galway, international students benefit from world-class laboratory training, cutting-edge research centers, and a 2-year post-study work visa (Stamp 1G) under the Third Level Graduate Scheme."
   ],
-  "overview": [
-    "Biological science, pharmaceutical innovation, medical research and industrial biotechnology are all popular subjects for students in Ireland. The country boasts a significant biopharmaceutical and life-sciences sectorpresenting opportunities for graduates with relevant scientific and technical skills.",
-    "The benefits of studying biotechnology in Ireland are:",
-    "If you are a student who likes biology, chemistry, lab work, and applying scientific knowledge to real-world problems, biotechnology may be a good fit for you.",
-    "With Edu Hawk overseas education guidancestudents can explore these opportunities and get to know the requirements to study abroad."
+  overview: [
+    "Biological science, pharmaceutical innovation, medical research, and industrial biotechnology are high-demand academic disciplines in Ireland. The country's booming biopharmaceutical sector drives substantial investment in academic research facilities, giving students hands-on access to advanced bioprocess suites, genomics laboratories, and Good Manufacturing Practice (GMP) training.",
+    "Irish universities offer comprehensive study pathways across both undergraduate and postgraduate levels—ranging from four-year Honours Bachelor of Science (BSc) degrees (NFQ Level 8) to intensive one-year Master of Science (MSc) and Master of Engineering Science (MEngSc) programs (NFQ Level 9). Specializations span molecular biotechnology, industrial biomanufacturing, bioinformatics, and biopharmaceutical quality assurance.",
+    "Edu-Hawk Worldwide assists Indian students through every stage of their overseas education journey—from selecting top-ranked institutions like University College Cork, UCD, and the University of Galway to evaluating eligibility, structuring Statements of Purpose (SOP), navigating tuition fees and scholarships, and securing the Irish student visa."
   ],
-  "level": "BSc Biotechnology & MSc Biotechnology / Biomanufacturing",
-  "crumb": "Science / Biotechnology",
-  "stats": [
+  level: "BSc (Hons) NFQ Level 8 & MSc / MEngSc NFQ Level 9",
+  crumb: "Science & Healthcare / Biotechnology in Ireland",
+  stats: [
     {
-      "label": "Degree Choices",
-      "value": "BSc Biotechnology & MSc Biotechnology / Biomanufacturing"
+      label: "Degree Choices",
+      value: "BSc (Hons) / MSc Biotechnology & Biomanufacturing"
     },
     {
-      "label": "Course Duration",
-      "value": "3 to 4 Years (UG) / 1-2 Years (PG)"
+      label: "Course Duration",
+      value: "4 Years (UG) / 1 Year (PG)"
     },
     {
-      "label": "Top Institutions",
-      "value": "University College Cork, University College Dublin"
+      label: "Top Institutions",
+      value: "UCC Cork, UCD Dublin, University of Galway"
     },
     {
-      "label": "Post-Study Work",
-      "value": "2 Years Third Level Graduate Scheme (Stamp 1G)"
+      label: "Post-Study Work",
+      value: "Up to 2 Years Stamp 1G (Graduate Scheme)"
     }
   ],
-  "sections": [
+  sections: [
     {
-      "slot": "why",
-      "eyebrow": "Why Study in Ireland",
-      "title": "1. Why Choose Ireland to Study Biotechnology?",
-      "groups": [
+      slot: "why",
+      eyebrow: "Why Study in Ireland",
+      title: "Key Benefits of Studying Biotechnology in Ireland",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Biological science, pharmaceutical innovation, medical research and industrial biotechnology are all popular subjects for students in Ireland. The country boasts a significant biopharmaceutical and life-sciences sectorpresenting opportunities for graduates with relevant scientific and technical skills.",
-            "The benefits of studying biotechnology in Ireland are:"
+          t: "p",
+          items: [
+            "Ireland's reputation as the biopharma capital of Europe provides students with direct exposure to commercial bioprocessing, pharmaceutical development, and clinical research. If you are passionate about biology, chemistry, and applied life sciences, Ireland offers distinct advantages:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "- Workplace learning: Examine the use of biotechnology in medicine, pharmaceuticals, food production, agriculture and environmental science.",
-            "- Laboratory experience: Gain hands-on experience in microbiology, molecular biology, genetics, and biotechnology techniques.",
-            "- Career flexibility: Think biopharmaceutical manufacturing, quality assurance, research and bioprocess development.",
-            "- Postgraduate specialisation: Branch out into industrial biotechnology, biomanufacturing, bioinformatics or biotechnology research.",
-            "- International exposure: Study in a multicultural environment and collaborate on scientific projects."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "If you are a student who likes biology, chemistry, lab work, and applying scientific knowledge to real-world problems, biotechnology may be a good fit for you.",
-            "With Edu Hawk overseas education guidancestudents can explore these opportunities and get to know the requirements to study abroad."
+          t: "ul",
+          items: [
+            "Industry-Aligned Workplace Learning: Explore the practical applications of biotechnology across therapeutics, biologic medicines, food biotechnology, agriculture, and environmental cleanup.",
+            "Advanced Laboratory Training: Gain hands-on competence in microbiology, recombinant DNA technology, cell culture, fermentation, and molecular diagnostics.",
+            "Booming Biopharma Ecosystem: Home to leading biopharmaceutical corporations (including Pfizer, MSD, Novartis, Johnson & Johnson, and Regeneron), providing abundant internship and career pathways.",
+            "Postgraduate Specializations: Diversify into high-growth subfields like industrial biomanufacturing, biopharmaceutical quality systems, clinical research, or computational bioinformatics.",
+            "English-Speaking European Hub: Study and work entirely in English within an innovative, multicultural society that warmly welcomes international talent.",
+            "Post-Study Work Entitlement (Stamp 1G): Master's graduates (NFQ Level 9) receive a 24-month post-study work authorization, while Bachelor's graduates (NFQ Level 8) receive 12 months."
           ]
         }
       ]
     },
     {
-      "slot": "courses",
-      "eyebrow": "Degrees & Programs",
-      "title": "2. Biotechnology Courses Ireland",
-      "groups": [
+      slot: "courses",
+      eyebrow: "Academic Pathways",
+      title: "Biotechnology Degree Programs & Specializations in Ireland",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Biotechnology courses in Ireland",
-            "Undergraduate courses in Ireland -"
+          t: "p",
+          items: [
+            "Irish universities offer structured academic pathways aligned with the National Framework of Qualifications (NFQ). Whether entering after Grade 12 or pursuing post-graduate study, students can choose from specialized curricula:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Bioprocessing",
-            "Molecular Biology",
-            "Pharmaceutical Science courses in Ireland"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Postgraduate courses in Ireland.",
-            "Popular study paths:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "- MSc in Biotechnology: One-year postgraduate course (full-time) that trains students in advanced scientific and research skills.",
-            "MEngSc in Industrial Biotechnology and Biomanufacturing: The focus is on industrial applications, bioprocess development and biomanufacturing.",
-            "- MSc Pharmaceutical Biotechnology or Biopharmaceutical Science Related courses may focus on biologic medicines, manufacturing and quality systems.",
-            "- MSc in Bioinformatics: Integrates biological science and computational method and analysis of biological data.",
-            "- PhD in Biotechnology or related sciences: Ideal for students who want to do advanced research and pursue a career in academia."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Course content and duration varies by university.",
-            "If you are applying after Grade 12, you should look for an undergraduate degree.",
-            "A master's may be a fit if you already have a bachelor's in biotechnology, microbiology, biochemistry, biology or a related field."
+          t: "ul",
+          items: [
+            "BSc (Honours) in Biotechnology (NFQ Level 8): 4-year undergraduate program covering foundational cell biology, molecular genetics, biochemistry, microbial technology, and a dedicated final-year laboratory research project.",
+            "MSc in Biotechnology (NFQ Level 9): 1-year intensive postgraduate degree equipping students with advanced scientific methodology, recombinant therapeutics, and bioprocess engineering.",
+            "MEngSc in Industrial Biotechnology & Biomanufacturing: Focused on engineering principles, bioreactor design, scale-up operations, downstream purification, and commercial biomanufacturing.",
+            "MSc in Pharmaceutical Biotechnology & Biopharmaceutical Science: Concentrates on biologic medicinal products, regulatory compliance, quality control, and validation systems.",
+            "MSc in Bioinformatics: Integrates computational algorithms, biological database analytics, genomics, and structural biology for high-throughput discovery.",
+            "PhD in Biotechnology: 3 to 4-year advanced doctoral research track ideal for candidates aspiring to lead institutional research or university academia."
           ]
         }
       ]
     },
     {
-      "slot": "universities",
-      "eyebrow": "Top Institutions",
-      "title": "3. Best Universities and Colleges to Study Biotechnology in Ireland",
-      "unis": [
+      slot: "unis",
+      eyebrow: "Featured Universities",
+      title: "Top Universities and Colleges for Biotechnology in Ireland",
+      unis: [
         {
-          "name": "University College Cork",
-          "desc": "Provides MSc in Biotechnology and MEngSc in Industrial Biotechnology and Biomanufacturing. The industrial program focuses on the use of biotechnology in manufacturing and bioprocessing.",
-          "imgKey": "uniImg_University_College_Cork_webp",
-          "img": uniImg1,
-          "city": "Cork, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured"
+          name: "University College Cork",
+          city: "Cork",
+          state: "Munster",
+          desc: "World-class university providing the MSc in Biotechnology and MEngSc in Industrial Biotechnology and Biomanufacturing, with strong ties to Cork's massive biopharma manufacturing corridor.",
+          img: uniImg1
         },
         {
-          "name": "University College Dublin",
-          "desc": "Offers programs and research opportunities in biotechnology-related disciplines such as biological sciences, molecular biology and biomedical research. See the current postgraduate catalog for the course that matches your aspirations.",
-          "imgKey": "uniImg_University_College_Dublin_webp",
-          "img": uniImg2,
-          "city": "Dublin, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured"
+          name: "University College Dublin",
+          city: "Dublin",
+          state: "Leinster",
+          desc: "Ireland's premier research university hosting state-of-the-art facilities like the UCD Conway Institute of Biomolecular and Biomedical Research and specialized biotech master's programs.",
+          img: uniImg2
         },
         {
-          "name": "University of Galway",
-          "desc": "Provides a BSc in Biotechnology and a MSc in Biotechnology. The undergraduate degree is for those who enter university after secondary education, while the master's is for eligible graduates.",
-          "imgKey": "uniImg_University_of_Galway_webp",
-          "img": uniImg3,
-          "city": "Galway, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured"
+          name: "University of Galway",
+          city: "Galway",
+          state: "Connacht",
+          desc: "Leading university situated in Ireland's med-tech and biotech hub, offering an accredited 4-year BSc in Biotechnology and an acclaimed MSc in Biotechnology with industry placements.",
+          img: uniImg3
         }
-      ]
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Admissions Criteria",
-      "title": "4. Eligibility to Study Bio-Technology in Ireland",
-      "groups": [
+      ],
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Eligibility requirements for biotechnology in Ireland differ based on whether you are applying for an undergraduate or postgraduate program.",
-            "*Undergraduate Students of Biotechnology:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "- Completion of Class 12 or an equivalent secondary school qualification.",
-            "- Academic grades required in science subjects.",
-            "- Knowledge of biology and chemistry, mathematics or other subjects required by some institutions.",
-            "- English Language Skills.",
-            "- Further specifications required by the university."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Universities assess Class 12 qualifications of Indian students on a case-to-case basis.",
-            "For postgraduate biotechnology:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "- A recognized bachelor's degree in biotechnology, microbiology, biochemistry, biology, biomedical science, chemistry or other recognized fields.",
-            "- Minimum grade or equivalent required by the university.",
-            "- Scientific knowledge relevant to the program and, in some programs, laboratory or research experience.",
-            "- Ability to speak English."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "5. Ireland Biotechnology Admission Requirements",
-            "The biotechnology course entry requirements in Ireland are normally based on your academic performance, subject preparation and your English language proficiency."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Academic requirements: Secondary-school entry criteria apply to undergraduate applicants.",
-            "Usually, applicants for a master's need a relevant bachelor's degree and the required grade.",
-            "English language requirements: IELTS Academic, TOEFL or other approved tests may be accepted."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Other documents could be:",
-            "- Academic Transcripts and Qualifications.",
-            "- Passport valid.",
-            "- CV or r&eacute;sum&eacute; for postgraduate applications, if required.",
-            "- Personal statement outlining your interests and career objectives.",
-            "- Academic references where relevant.",
-            "- Research proposal for some research degrees.",
-            "- Certified translation of documents that are not in English.",
-            "When applying for postgraduate study, you should highlight laboratory projects, internships, research experience and relevant technical skills to demonstrate your preparedness for the course."
+          t: "p",
+          items: [
+            "Ireland's universities are globally recognized for excellence in life sciences. Programs emphasize rigorous laboratory safety, Good Laboratory Practice (GLP), and direct industry collaboration."
           ]
         }
       ]
     },
     {
-      "slot": "requirements",
-      "eyebrow": "Entry Requirements",
-      "title": "Biotechnology Admission Requirements in Ireland",
-      "groups": [
+      slot: "eligibility",
+      eyebrow: "Admissions Criteria",
+      title: "Eligibility Criteria for Biotechnology Programs in Ireland",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Detailed information and course specifications will be provided during individual counseling."
+          t: "p",
+          items: [
+            "Entry requirements differ depending on whether you are applying for an undergraduate (NFQ Level 8) or postgraduate (NFQ Level 9) degree:"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "Undergraduate Applicants (BSc): Successful completion of Higher Secondary School Certificate (Class 12 / CBSE / ICSE / State Board) with a minimum aggregate of 75% to 85%, including mandatory subjects in Biology and Chemistry or Mathematics.",
+            "Postgraduate Applicants (MSc / MEngSc): A recognized 3 or 4-year Bachelor's degree (NFQ Level 8 equivalent) in biotechnology, microbiology, biochemistry, biology, biomedical science, pharmacy, or chemical engineering with minimum 60%–65% (First Class / 2.1 Honours equivalent).",
+            "English Language Proficiency: IELTS Academic score of 6.5 overall (minimum 6.0 in each sub-band), TOEFL iBT score of 88–90+, or equivalent Pearson PTE (63+) / Duolingo English Test (120+)."
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "Postgraduate applicants with prior laboratory internship experience, research publications, or knowledge of Good Manufacturing Practice (GMP) receive strong preference during the admissions evaluation."
           ]
         }
       ]
     },
     {
-      "slot": "tuition",
-      "eyebrow": "Tuition & Living Costs",
-      "title": "6. Cost of Studying Biotechnology in Ireland",
-      "groups": [
+      slot: "requirements",
+      eyebrow: "Application Materials",
+      title: "Ireland Biotechnology Admission Requirements & Documentation",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "The tuition fees for biotechnology in Ireland differ from university to university, the level of qualification, the duration of the course, and the fee status. If you are an international student you should budget for tuition and living costs.",
-            "Estimated expense"
+          t: "p",
+          items: [
+            "When submitting your application to Irish higher education institutions, ensure the following core documentation is complete and officially certified:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Undergraduate biotechnology tuition | About €13,500–€30,000 per year",
-            "Postgraduate biotechnology tuition fees | Many 1-year programs cost around €27,000-€30,000",
-            "Accommodation and living costs | €10,000–€18,000+ per year",
-            "Laboratory supplies, books, and study materials | May be subject to additional costs",
-            "Health insurance & immigration related costs | There may be other costs"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "These are estimates, not guarantee fees. Costs vary according to the institution and location and accommodation in Dublin can be expensive.",
-            "7. Biotechnology Admission Procedure in Ireland",
-            "To apply, follow these steps:",
-            "1. Choose your qualification level. Select whether you want a BSc after Class 12 or an MSc after a bachelor's degree.",
-            "2. Choose a specialty. Think about general biotechnology, industrial biotechnology, biomanufacturing, molecular biology or bioinformatics.",
-            "3. Compare universities. Look at course modules, tuition fees, entry requirements and practical training.",
-            "4. Check academic eligibility. Ensure your qualifications and subject combination are acceptable.",
-            "5. Collect your documents. Collect transcripts, degree certificates, English language results and any other supporting materials requested.",
-            "6. Submit Submit the application through the official university application portal. International applicants may have a different process than EU applicants.",
-            "7. Respond to requests from admissions. Provide any other documents or information requested.",
-            "8. Take your offer. Follow the university's instructions about deposits, tuition and enrollment.",
-            "9. Organise immigration and accommodation. If required, prepare your student visa application, financial proof and health insurance.",
-            "10. Full registration. Fulfill any remaining registration and lab safety requirements.",
-            "Application deadlines vary by institution and course. Some postgraduate programs have applications open until places are filled so it is a good idea to apply early.",
-            "8. Ireland's Biotechnology Accreditation and Recognition",
-            "Biotechnology is a broad science field, not a single regulated healthcare profession. Whether a qualification is recognized or not, depends on the awarding institution, the level of the course, its academic standing and the requirements of the employer or further-study program.",
-            "Before you enroll, check:",
-            "- Whether the degree is awarded by a recognized Irish higher education provider.",
-            "- The number of credits and qualifications.",
-            "- laboratory, research and industrial training as a part of the course.",
-            "Does the program support progression into the type of role or further study you want?"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Having a biotechnology degree does not automatically make you a doctor, pharmacist or other regulated healthcare professional.",
-            "For some roles involving regulated clinical practice, you may need to have separate professional qualification and registration."
+          t: "ul",
+          items: [
+            "Certified academic transcripts and degree completion certificates (Class 10, Class 12, and Bachelor's degree where applicable).",
+            "Valid international passport with minimum 12 months validity.",
+            "Detailed Statement of Purpose (SOP) highlighting your academic passion, laboratory training, and long-term career goals in biotechnology.",
+            "Two Letters of Recommendation (LOR) from academic professors or workplace research mentors.",
+            "Updated Curriculum Vitae (CV) emphasizing scientific coursework, technical skills, and laboratory software proficiencies.",
+            "Official English language proficiency test scorecard (IELTS / TOEFL / PTE).",
+            "Research proposal (mandatory for PhD applicants and select thesis-track Master's programs)."
           ]
         }
       ]
     },
     {
-      "slot": "process",
-      "eyebrow": "Application Steps",
-      "title": "Admission Process for Biotechnology in Ireland",
-      "steps": [
+      slot: "tuition",
+      eyebrow: "Financial Planning",
+      title: "Tuition Fees and Cost of Living for Biotechnology in Ireland",
+      groups: [
         {
-          "step": "01",
-          "title": "Choose Degree & University",
-          "desc": "Select your preferred Biotechnology program and shortlist target universities in Ireland."
+          t: "p",
+          items: [
+            "Tuition fees in Ireland vary based on university ranking, degree level, and laboratory resource requirements. International (non-EU) students should plan their financial budget according to the following benchmarks:"
+          ]
         },
         {
-          "step": "02",
-          "title": "Check Entry Requirements",
-          "desc": "Verify academic grades (minimum 75%-85% in Class 12 or bachelor degree) and English proficiency (IELTS 6.5+)."
+          t: "p",
+          items: [
+            "| Expense Category | Annual Indicative Cost Range | Key Budgeting Notes |",
+            "| :--- | :--- | :--- |",
+            "| **Undergraduate Tuition (BSc)** | €13,500 – €26,000 / year | 4-year program, non-EU fee schedule |",
+            "| **Postgraduate Tuition (MSc)** | €16,000 – €28,500 / year | 1-year intensive program with lab access |",
+            "| **Student Living Expenses** | €10,000 – €15,000 / year | Includes housing, food, groceries, and utilities |",
+            "| **Accommodation (Dublin)** | €800 – €1,200 / month | Purpose-built student accommodation / private rentals |",
+            "| **Accommodation (Cork/Galway)** | €550 – €850 / month | Regional campuses offer significantly lower rental costs |",
+            "| **Medical Insurance** | €160 – €300 / year | Mandatory private medical insurance for Irish visa |",
+            "| **Irish Residence Permit (IRP)** | €300 registration fee | Paid upon arrival during immigration appointment |"
+          ]
         },
         {
-          "step": "03",
-          "title": "Prepare Documentation",
-          "desc": "Compile academic transcripts, Statement of Purpose (SOP), Letters of Recommendation (LORs), and passport copy."
-        },
-        {
-          "step": "04",
-          "title": "Submit University Application",
-          "desc": "Submit application via the university international admissions portal or through Edu Hawk Worldwide."
-        },
-        {
-          "step": "05",
-          "title": "Accept Offer & Pay Deposit",
-          "desc": "Receive offer letter, pay the required tuition deposit, and obtain official acceptance for visa processing."
-        },
-        {
-          "step": "06",
-          "title": "Apply for Student Visa (Stamp 2)",
-          "desc": "Complete Irish student visa application with proof of finances, accommodation, and medical insurance."
-        }
-      ]
-    },
-    {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Recognition",
-      "title": "Accreditation and Recognition in Ireland",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Detailed information and course specifications will be provided during individual counseling."
+          t: "p",
+          items: [
+            "Scholarships: Meritorious international candidates can apply for the Government of Ireland International Education Scholarship (GOI-IES), which awards a full tuition waiver plus a €10,000 living stipend, as well as institutional merit scholarships (€2,000 to €5,000) offered directly by UCC, UCD, and Galway."
           ]
         }
       ]
     },
     {
-      "slot": "careers",
-      "eyebrow": "Career Outcomes",
-      "title": "9. Salaries and Job Opportunities in Biotechnology in Ireland",
-      "groups": [
+      slot: "process",
+      eyebrow: "Application Steps",
+      title: "Step-by-Step Admission Process for Biotechnology in Ireland",
+      steps: [
         {
-          "t": "p",
-          "items": [
-            "Biotechnology graduates in Ireland could work with biopharmaceutical companies, biotechnology laboratories, research institutions, medical technology businesses, food science and manufacturing.",
-            "Possible career options include:",
-            "- Research assistant, biotechnology.",
-            "- Laboratory analyst.",
-            "- Analyst quality control.",
-            "- Associate Quality Assurance.",
-            "- Associate, Manufacturing or Bio Process",
-            "- Technician in upstream or downstream processing.",
-            "- Research scientist with appropriate qualifications and experience.",
-            "- Regulatory affairs assistant.",
-            "- Expert in clinical research support.",
-            "- A bioinformatics analyst with appropriate computational skills.",
-            "Annual Gross Indicative Salary Ranges:"
-          ]
+          title: "Select Degree Level & Specialization",
+          desc: "Choose between a 4-year undergraduate BSc in Biotechnology (NFQ Level 8) or an intensive 1-year specialized Master's program (NFQ Level 9)."
         },
         {
-          "t": "ul",
-          "items": [
-            "Laboratory/quality control analyst | €30,000–€42,000",
-            "Biopharmaceutical manufacturing associate | €32,000-€48,000",
-            "Quality Assurance or Regulatory Affairs Associate €35,000 - €55,000",
-            "Biotechnology Research Scientist | €35,000 – €60,000+",
-            "Senior professional or technical manager | €55,000-€80,000+"
-          ]
+          title: "Shortlist Target Irish Universities",
+          desc: "Compare curriculum modules, laboratory facilities, faculty research, and city living costs between Dublin, Cork, and Galway."
         },
         {
-          "t": "p",
-          "items": [
-            "Having a bachelor's or master's degree does not guarantee you a job.",
-            "Laboratory experience, knowledge of good manufacturing practice (GMP), data analysis, documentation and relevant internships can make you more competitive.",
-            "International graduates must also meet the immigration and work permission requirements which apply to them."
+          title: "Verify Academic & Language Requirements",
+          desc: "Confirm prerequisites including science subject minimums (75%+ in 10+2) or undergraduate degrees, alongside IELTS 6.5+."
+        },
+        {
+          title: "Compile Portfolio & Supporting Documents",
+          desc: "Assemble certified mark sheets, Statement of Purpose, academic recommendation letters, and a scientifically tailored resume."
+        },
+        {
+          title: "Submit Online University Applications",
+          desc: "Submit your application directly through institutional portals or with Edu-Hawk Worldwide assistance well before program deadlines."
+        },
+        {
+          title: "Accept Offer & Remit Tuition Deposit",
+          desc: "Review conditional/unconditional offer letters, accept your place, and pay the required tuition deposit to generate the visa receipt."
+        },
+        {
+          title: "Apply for Irish Student Visa (Stamp 2)",
+          desc: "Submit the online visa application via AVATS, presenting proof of financial sufficiency (€10,000+), medical insurance, and accommodation."
+        },
+        {
+          title: "Arrival, Registration & IRP Card Appointment",
+          desc: "Arrive in Ireland, register for university laboratory safety briefings, and schedule your appointment with immigration for your Irish Residence Permit."
+        }
+      ],
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Adhering to early application timelines (October to February for the September autumn intake) significantly enhances admission chances and scholarship eligibility."
           ]
         }
       ]
     },
     {
-      "slot": "documents",
-      "eyebrow": "Document Checklist",
-      "title": "10. Documents Needed to Study Biotechnology in Ireland",
-      "groups": [
+      slot: "accreditation",
+      eyebrow: "Degrees & Standards",
+      title: "Accreditation, Quality Qualifications Ireland (QQI), and Degree Recognition",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "The university may request some or all of the following documents:",
-            "- Passport valid.",
-            "- Class 10 & Class 12 certificates and transcripts for applicants for undergraduate courses.",
-            "Bachelor degree certificate and transcripts for postgraduate applicants.",
-            "- English language test results, if required.",
-            "- CV or r&eacute;sum&eacute;, as requested.",
-            "- Personal statement or statement of purpose.",
-            "- Academic references if required.",
-            "- Research proposals for some research programs.",
-            "- Certified translations of documents that are not in English.",
-            "-Application form and proof of payment of fee.",
-            "- Proof of financial means and sponsorship documents, if any.",
-            "- Student visa documents and proof of health insurance (if applicable).",
-            "Adhere to the institution's official checklist for document formats, certification, and submission deadlines.",
-            "11. Biotechnology FAQs Ireland",
-            "Q1. How long does it take to study biotechnology in Ireland?",
-            "The standard period of a BSc in Biotechnology is four years. Full-time master's programs are often one year long, though the exact duration can differ between institutions and course design.",
-            "Q2. Can Indian students do biotechnology after 12th in Ireland?",
-            "Yes. You need to meet the university's academic, science subject, English language and other entry requirements. Universities assess Indian qualifications on a case-by-case basis.",
-            "Q3. How much is tuition for biotechnology in Ireland?",
-            "For non-EU students undergraduate programs can cost around €13,500–€30,000 a year. A one-year masters can be around €27,000-€30,000, perhaps with extra lab fees.",
-            "Q4. Is biotechnology done? Can I get a job in Ireland?",
-            "Graduates can apply for suitable positions in laboratory research, biopharmaceutical manufacturing, quality control, quality assurance and related areas. The employment depends on the available vacancies, skills, qualifications and the applicable work permission for the graduate.",
-            "Q5. Is biotechnology a good choice for international students in Ireland?",
-            "It can accommodate students interested in life sciences, laboratory work, pharmaceutical manufacturing and research. Before choosing a program, compare the tuition, laboratory training, industry links, living costs and relevance to your career.",
-            "How can Edu Hawk worldwide Consultancy help me to study abroad?",
-            "Edu Hawk worldwide helps students find the right universities, know the admission requirements, arrange their application documents and plan their study-abroad journey. Students are responsible for checking academic, financial, immigration and licensing requirements with the appropriate official authorities.",
-            "Keywords -",
-            "Study Biotechnology in Ireland for Indian StudentsTop Universities for Biotechnology in IrelandBSc Biotechnology Courses in Ireland for International StudentsMSc Biotechnology in Ireland for Indian StudentsIndustrial Biotechnology and Biomanufacturing Courses in IrelandBiotechnology Eligibility Requirements in IrelandBiotechnology Admission Requirements for Indian StudentsIELTS Requirements for Biotechnology Courses in IrelandBiotechnology Tuition Fees in Ireland for International StudentsCost of Living for Biotechnology Students in IrelandBiotechnology Scholarships in Ireland for International StudentsBiotechnology Universities in Ireland for International StudentsBiotechnology Career Opportunities in IrelandBiotechnology Salary in Ireland for International GraduatesIreland Student Visa Requirements for Biotechnology Students"
+          t: "p",
+          items: [
+            "Biotechnology degrees in Ireland are governed by rigorous national quality frameworks to ensure international mobility and academic prestige:"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "National Framework of Qualifications (NFQ): Irish BSc degrees correspond to NFQ Level 8 (European Qualifications Framework Level 6), while MSc degrees correspond to NFQ Level 9 (EQF Level 7).",
+            "Quality and Qualifications Ireland (QQI): Validates that degree curricula maintain the highest standards of scientific rigor, safety, and laboratory training.",
+            "Global Recognition: Irish university qualifications are universally recognized across the European Union, the UK, the United States, and India, enabling smooth entry into doctoral programs or international industry roles.",
+            "Industrial Training & GMP: Many programs incorporate simulated cleanroom training and Good Manufacturing Practice (GMP) modules that comply with European Medicines Agency (EMA) and US FDA regulatory standards."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "careers",
+      eyebrow: "Career Outcomes",
+      title: "Career Opportunities & Salary Expectations for Biotechnology Graduates",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Ireland's status as a top global exporter of pharmaceuticals provides exceptional career prospects for graduates with solid laboratory competencies, bioprocess understanding, and regulatory knowledge:"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "Bioprocess & Manufacturing Associate: Operates upstream fermentation systems and downstream purification columns in commercial biomanufacturing plants.",
+            "Quality Control (QC) & Quality Assurance (QA) Analyst: Performs analytical assays, microbiological testing, HPLC, and ensures compliance with GMP standards.",
+            "Biotechnology Research Scientist: Conducts molecular genetics, drug target validation, and cell line engineering in industrial or institutional laboratories.",
+            "Regulatory Affairs Specialist: Manages product documentation, dossier submissions, and liaises with health regulatory authorities like the HPRA and EMA.",
+            "Bioinformatics Analyst: Analyzes genomic datasets, clinical sequencing data, and biomolecular structural models."
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "Indicative Annual Salaries in Ireland's Biopharma Sector:",
+            "• Entry-Level QC / Laboratory Analyst: €30,000 – €42,000 / year",
+            "• Biopharmaceutical Manufacturing Associate: €32,000 – €48,000 / year",
+            "• Quality Assurance / Regulatory Affairs Specialist: €38,000 – €55,000 / year",
+            "• Biotechnology Research Scientist: €40,000 – €62,000+ / year",
+            "• Senior Bioprocess Engineer / Technical Manager: €60,000 – €85,000+ / year"
+          ]
+        }
+      ]
+    },
+    {
+      slot: "documents",
+      eyebrow: "Application Checklist",
+      title: "Comprehensive Document Checklist for Irish Student Applications",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Prepare the following comprehensive document package before commencing your university application and subsequent visa processing:"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "Valid International Passport with biometric photo.",
+            "Class 10 and Class 12 mark sheets and passing certificates.",
+            "Official undergraduate semester transcripts and degree certificate (for PG applicants).",
+            "English language proficiency scorecard (IELTS Academic, TOEFL iBT, or PTE).",
+            "Academic Statement of Purpose (SOP) tailored to your chosen biotech discipline.",
+            "Two Letters of Recommendation (from professors or professional supervisors).",
+            "Scientifically structured Curriculum Vitae (CV).",
+            "Proof of financial funds (€10,000+ in accessible funds for student visa compliance).",
+            "Medical insurance policy document.",
+            "Receipt of tuition fee deposit payment."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "consultancy",
+      eyebrow: "Edu-Hawk Guidance",
+      title: "How Edu-Hawk Worldwide Supports Your Irish Study Abroad Journey",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Navigating international admissions, laboratory prerequisites, and visa regulations demands expert guidance. Edu-Hawk Worldwide offers end-to-end support for Indian students:",
+            "• Program Selection: Shortlisting institutions based on your academic profile, laboratory goals, and budget.",
+            "• SOP & Resume Mentorship: Helping you craft standout scientific statements of purpose and resumes that highlight technical proficiencies.",
+            "• Scholarship Applications: Guiding you through institutional fee discounts and the Government of Ireland (GOI-IES) scholarship.",
+            "• Stamp 2 Visa Assistance: Complete support for the Irish AVATS visa system, financial documentation verification, and visa interview preparation.",
+            "• Accommodation & Pre-Departure: Guidance on finding student housing in Dublin, Cork, or Galway, health insurance, and banking setup."
           ]
         }
       ]
     }
   ],
-  "faqs": [
+  faqs: [
     {
-      "q": "Q1. What is the duration of Biotechnology in Ireland?",
-      "a": "In Ireland, undergraduate degrees generally take 3 to 4 years, while integrated master's or clinical paths take 4 to 5 years. Postgraduate master's degrees usually take 1 to 2 years."
+      q: "How long does it take to study Biotechnology in Ireland?",
+      a: "A standard Honours Bachelor of Science (BSc) in Biotechnology takes 4 years (NFQ Level 8). Master's programs (MSc or MEngSc) in biotechnology and biomanufacturing are typically intensive 1-year full-time programs (NFQ Level 9)."
     },
     {
-      "q": "Q2. Can Indian students study Biotechnology in Ireland after Class 12?",
-      "a": "Yes. Indian students who complete Class 12 with required subjects and minimum grade thresholds (typically 75%–85%+) along with IELTS / TOEFL certification can apply directly."
+      q: "Can Indian students study Biotechnology in Ireland after Class 12?",
+      a: "Yes. Indian students who complete Class 12 (CBSE, ICSE, or State Boards) with strong scores in science subjects (Biology, Chemistry, and Mathematics, typically 75%–85%+) and meet English proficiency criteria (IELTS 6.5) can apply directly for 4-year BSc degrees."
     },
     {
-      "q": "Q3. What are the tuition fees for international students?",
-      "a": "Annual tuition fees for international students generally range between €15,000 – €26,000 / year for undergraduate programs and €16,000 – €28,000 / year for postgraduate courses."
+      q: "How much are tuition fees for Biotechnology in Ireland?",
+      a: "For international (non-EU) students, undergraduate BSc biotechnology tuition typically ranges from €13,500 to €26,000 per year. One-year postgraduate MSc degrees generally range between €16,000 and €28,500."
     },
     {
-      "q": "Q4. Can international students work in Ireland after graduation?",
-      "a": "Yes. Graduates from eligible Irish universities qualify for the Third Level Graduate Scheme (Stamp 1G visa), providing 1 to 2 years of full-time post-study work authorization."
+      q: "Can international graduates work in Ireland after completing a Biotechnology degree?",
+      a: "Yes. Under the Third Level Graduate Scheme, Master's graduates (NFQ Level 9) receive a 2-year post-study work visa (Stamp 1G), while Bachelor's graduates (NFQ Level 8) receive 1 year. This allows graduates to work full-time in Ireland's thriving biopharmaceutical and life sciences industry."
     },
     {
-      "q": "How can Edu Hawk Worldwide Consultancy assist my study abroad journey?",
-      "a": "Edu Hawk Worldwide helps students with profile evaluation, shortlisting accredited Irish universities, managing SOPs and documents, visa filing, and pre-departure briefings."
+      q: "Which are the top universities for Biotechnology in Ireland?",
+      a: "Leading universities for biotechnology in Ireland include University College Cork (UCC), University College Dublin (UCD), University of Galway, Trinity College Dublin (TCD), and Dublin City University (DCU)."
     }
   ]
 };
 
 export default function BiotechnologyAbroadIreland() {
+  const images = {
+    hero: heroImg,
+    heroBg: heroBgImg,
+    side: sideImg,
+    ctaBg: ctaBgImg,
+    universities: [
+      {
+        name: "University College Cork",
+        city: "Cork",
+        state: "Munster",
+        desc: "World-class university providing the MSc in Biotechnology and MEngSc in Industrial Biotechnology and Biomanufacturing, with strong ties to Cork's massive biopharma manufacturing corridor.",
+        img: uniImg1
+      },
+      {
+        name: "University College Dublin",
+        city: "Dublin",
+        state: "Leinster",
+        desc: "Ireland's premier research university hosting state-of-the-art facilities like the UCD Conway Institute of Biomolecular and Biomedical Research and specialized biotech master's programs.",
+        img: uniImg2
+      },
+      {
+        name: "University of Galway",
+        city: "Galway",
+        state: "Connacht",
+        desc: "Leading university situated in Ireland's med-tech and biotech hub, offering an accredited 4-year BSc in Biotechnology and an acclaimed MSc in Biotechnology with industry placements.",
+        img: uniImg3
+      }
+    ]
+  };
+
   return (
     <AbroadCoursePage
       page={page}
@@ -470,8 +430,8 @@ export default function BiotechnologyAbroadIreland() {
       heroBgImg={heroBgImg}
       sideImg={sideImg}
       ctaBgImg={ctaBgImg}
-      showHeroStats={false}
-      seoPath="/study-abroad/ireland/biotechnology"
+      seoPath={page.slug}
+      images={images}
     />
   );
 }

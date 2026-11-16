@@ -20,8 +20,7 @@ const page = {
   "keywords": "Study Computer Engineering - PG in Canada, Computer Engineering - PG in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Indian Students studying Computer Engineering in Canada",
   "heroParas": [
-    "Students interested in computer architecture, robotics, embedded systems, software-hardware interaction, computer hardware, and intelligent technologies frequently travel to Canada. In Canada, computer engineering integrates computer science and electrical engineering concepts to create, develop, test and enhance computer systems.",
-    "Depending on their prior credentials and professional aspirations, students can pursue undergraduate or graduate degrees. Engineering labs, research projects, design courses, and, at some schools, co-ops are among ways that Canadian universities provide learning opportunities."
+    "Students interested in computer architecture, robotics, embedded systems, software-hardware interaction, computer hardware, and intelligent technologies frequently travel to Canada. In Canada, computer engineering integrates computer science and electrical engineering concepts to create, develop, test and enhance computer systems."
   ],
   "overview": [
     "Students interested in computer architecture, robotics, embedded systems, software-hardware interaction, computer hardware, and intelligent technologies frequently travel to Canada. In Canada, computer engineering integrates computer science and electrical engineering concepts to create, develop, test and enhance computer systems.",

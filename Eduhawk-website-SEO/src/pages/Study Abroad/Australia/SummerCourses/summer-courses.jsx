@@ -21,8 +21,22 @@ const page = {
   description: "Study Summer Courses in Australia. Explore short summer intensives, university summer terms (UQ, Deakin, CQUniversity, Charles Darwin), academic credits, fees, and student visa guidelines.",
   keywords: "Short-Term Courses in Australia for International Students Summer Schools in Australia for Indian Students Summer Study Abroad Programs in Australia University Summer Programs in Australia for International Students Summer Courses in Australia After 12th Summer Course Fees in Australia for Indian Students Summer Course Admission Requirements in Australia Short-Term Study Programs in Australia with Student Visa Summer Study Tours in Australia for Indian Students",
   introTitle: "Australian Summer Courses for Indian Students",
-  heroParas: ["In Australia, summer courses are short-term educational programs created for students who wish to experience university life, learn new subjects, acquire practical skills, or travel abroad during their academic break.","Australian colleges, universities, English language schools, and specialized education providers might offer these courses. Students may participate in classroom sessions, workshops, field trips, cultural events, academic projects, or industry-related learning opportunities, depending on the curriculum."],
-  overview: ["Business, technology, engineering, science, English language, arts, management, and Australian cultural studies are just a few of the subjects in which summer courses are offered.","Important Highlights","Australia's short-term study options","Options in both professional and academic fields","exposure to educational settings in Australia","Possibilities to enhance communication in English","When available, project-based learning and hands-on workshops","Cultural events and experiences on college campuses","Subject to approval, possible academic credit","Possibilities to establish connections with international students"],
+  heroParas: [
+    "In Australia, summer courses are short-term educational programs created for students who wish to experience university life, learn new subjects, acquire practical skills, or travel abroad during their academic break."
+  ],
+  overview: [
+    "Australian colleges, universities, English language schools, and specialized education providers might offer these courses. Students may participate in classroom sessions, workshops, field trips, cultural events, academic projects, or industry-related learning opportunities, depending on the curriculum.",
+    "Business, technology, engineering, science, English language, arts, management, and Australian cultural studies are just a few of the subjects in which summer courses are offered.",
+    "Important Highlights",
+    "Australia's short-term study options",
+    "Options in both professional and academic fields",
+    "exposure to educational settings in Australia",
+    "Possibilities to enhance communication in English",
+    "When available, project-based learning and hands-on workshops",
+    "Cultural events and experiences on college campuses",
+    "Subject to approval, possible academic credit",
+    "Possibilities to establish connections with international students"
+  ],
   level: "Short Programs & Summer Term",
   crumb: "Seasonal & Short Courses",
 

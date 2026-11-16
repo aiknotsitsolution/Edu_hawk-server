@@ -16,12 +16,13 @@ const page = {
   "title": "Electrical Engineering - UG in Italy for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Electrical Engineering - UG in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
   "keywords": "Study Electrical Engineering - UG in Italy, Electrical Engineering - UG in Italy for Indian Students, Best Universities in Italy, Cost of Studying in Italy",
-  "introTitle": "Introduction",
-  "heroParas": [
-    "Secondary keywords"
+  "introTitle": "Electrical Engineering - UG in Italy for Indian Students",
+  heroParas: [
+    "A Bachelor’s in Electrical Engineering in Italy offers comprehensive training in electronics, power systems, automation, and telecommunications within Europe’s vibrant industrial manufacturing corridor."
   ],
-  "overview": [
-    "Secondary keywords"
+  overview: [
+    "Students pursuing Electrical Engineering - UG in Italy benefit from world-class European academic standards, affordable public university tuition, and internationally recognized degrees.",
+    "With personalized guidance from Edu-Hawk Worldwide, Indian students receive end-to-end support with university selection, admission preparation, and student visa processing."
   ],
   "level": "Undergraduate",
   "crumb": "Engineering",
@@ -49,12 +50,6 @@ const page = {
       "eyebrow": "Details",
       "title": "Electrical Engineering in Italy",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Secondary keywords"
-          ]
-        },
         {
           "t": "ul",
           "items": [
@@ -180,51 +175,6 @@ const page = {
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Pick your branch of engineering: You can opt to specialize in power systems, renewable energy, electrical machines, automation or electric mobility.",
-            "Shortlist Universities. Look at course structure, teaching language, tuition fees and location.",
-            "Check eligibility: Ensure that your Class 12 qualification and subjects are in line with the university's requirements.",
-            "Prepare for the entrance test: Find out what examination is required, review the syllabus and register before the deadline.",
-            "Collect your documents: Academic records, passport, proof of language proficiency and any qualification verification documents that are required.",
-            "Submit the application: Finish the application and selection procedures of the university.",
-            "Get the admission decision: Follow the university instructions to accept and enroll.",
-            "Complete pre-enrolment, if necessary Students requiring an Italian study visa usually complete the pre-enrolment procedure through Universitaly.",
-            "Apply for a student visa: send the documents requested by the Italian diplomatic mission competent for your country. Admission doesn't mean you'll get a visa.",
-            "Prepare for arrival Make accommodation, insurance and travel arrangements before you leave."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Application deadlines and procedures vary by institution, applicant category and intake. Follow the latest official university and visa guidance.",
-            "Edu-Hawk Worldwide can assist the students in comprehending the procedure, shortlist the suitable options and manage their applications."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "licensing",
-      "eyebrow": "Licensing & Standards",
-      "title": "Recognition, Professional Requirements and Further Education",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The Bachelor of Science degree in Electrical Engineering is appropriate as a basis for technical employment or for graduate study. Professionals have different requirements depending on the country, role and responsibilities."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Further studies: Graduates may continue with master's programs in electrical engineering, power systems, energy engineering, automation or similar subjects.",
-            "Engineering jobs Employers may test technical knowledge, practical experience, project work and relevant software skills.",
-            "Professional practice in Italy: Certain self-employed professional activities may require additional examinations or registration, depending on the profession.",
-            "Employment in India: Graduates should check the requirements of the prospective employer, the role and any relevant professional authority.",
-            "Plans for an international career: Recognition and work authorization rules differ from country to country."
-          ]
-        },
-        {
           "t": "p",
           "items": [
             "Students need to check that the program curriculum supports their intended career pathway and any professional requirements relevant to their future plans."
@@ -317,7 +267,34 @@ const page = {
         }
       ]
     }
-  ]
+  ],
+  faqs: [
+    {
+        "q": "Can Indian students enroll in Electrical Engineering in Italy after 12th?",
+        "a": "Yes. Indian students with Class 12 credentials in mathematics and physics can apply for undergraduate electrical engineering programmes in Italy."
+    },
+    {
+        "q": "How long is a Bachelor's in Electrical Engineering in Italy?",
+        "a": "The undergraduate degree takes 3 years (180 ECTS credits) to complete under the European Bologna system."
+    },
+    {
+        "q": "What are the tuition fees for Electrical Engineering in Italy?",
+        "a": "Public university fees range from €1,000 to €3,900 per year, with need-based DSU grants providing tuition waivers and living cost allowances."
+    },
+    {
+        "q": "What entrance test is needed for admission?",
+        "a": "Applicants are evaluated on the English TOLC-I exam testing mathematics, physics, and scientific reasoning."
+    },
+    {
+        "q": "What core topics are covered in the bachelor's program?",
+        "a": "Core subjects include circuit analysis, electromagnetism, power electronics, electrical machines, control systems, and renewable energy fundamentals."
+    },
+    {
+        "q": "What are the pathways after earning an electrical engineering bachelor's?",
+        "a": "Graduates can continue into specialized Master of Science degrees in smart grids, robotics, and power systems, or join electrical hardware and automation firms."
+    }
+],
+  faqTitle: "Frequently Asked Questions About Electrical Engineering UG in Italy"
 };
 
 export default function ElectricalEngineeringUGItaly() {

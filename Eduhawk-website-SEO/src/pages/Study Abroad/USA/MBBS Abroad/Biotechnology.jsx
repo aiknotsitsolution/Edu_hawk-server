@@ -1,5 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import SeoHead from "../../../../component/SeoHead.jsx";
+import biotechnologyData from "../../../../data/study_abroad/usa/biotechnology.json";
+import sideImg from "../../../../Images/Abroad/USA/Biotechnology/side.webp";
 
 const Biotechnology = () => {
   const [openFaq, setOpenFaq] = useState(null);
@@ -38,12 +40,16 @@ const Biotechnology = () => {
     return () => observer.disconnect();
   }, []);
 
-  const stats = [
+  const defaultStats = [
     { label: "Programs", value: "BSc, MS, Bioinformatics, PhD options" },
     { label: "Countries", value: "USA, UK, Canada, Australia, Ireland & more" },
     { label: "Support", value: "Complete guidance from profile to arrival" },
     { label: "Approach", value: "Transparent fees, honest counselling & career focus" },
   ];
+
+  const stats = (biotechnologyData?.stats && biotechnologyData.stats.length > 0)
+    ? biotechnologyData.stats.map((s) => ({ label: s.l, value: s.n }))
+    : defaultStats;
 
   const features = [
     {
@@ -124,7 +130,7 @@ const Biotechnology = () => {
     "Master of Science in Bioinformatics",
   ];
 
-  const topUniversities = [
+  const defaultTopUniversities = [
     {
       name: "Johns Hopkins University",
       desc: "Biotechnology, biomedical science and allied life science curricula",
@@ -156,6 +162,14 @@ const Biotechnology = () => {
       image: "https://images.unsplash.com/photo-1607237138185-eedd9c632b0b?w=900&q=85",
     },
   ];
+
+  const topUniversities = (biotechnologyData?.universities && biotechnologyData.universities.length > 0)
+    ? biotechnologyData.universities.map((u, i) => ({
+        name: u.name || defaultTopUniversities[i]?.name,
+        desc: u.desc || u.location || defaultTopUniversities[i]?.desc,
+        image: u.image || defaultTopUniversities[i]?.image,
+      }))
+    : defaultTopUniversities;
 
   const comparisonPoints = [
     "Exact degree title and curriculum",
@@ -390,7 +404,7 @@ const Biotechnology = () => {
     },
   ];
 
-  const faqs = [
+  const defaultFaqs = [
     {
       q: "Are Indian students eligible to pursue biotechnology studies in the United States following completion of Class 12?",
       a: "Yes, Indian students may submit applications for accredited undergraduate programmes in biotechnology or allied biological sciences upon completion of Class 12. Enrollment eligibility is contingent upon academic achievement, requisite coursework, English language proficiency standards and institutional admission protocols.",
@@ -433,14 +447,18 @@ const Biotechnology = () => {
     },
   ];
 
+  const faqs = (biotechnologyData?.faq && biotechnologyData.faq.length > 0)
+    ? biotechnologyData.faq.map((f) => ({ q: f.question, a: f.answer }))
+    : defaultFaqs;
+
   return (
     <div
       ref={pageRef}
       className="pharmacy-page font-sans text-slate-800 bg-white min-h-screen antialiased"
     >
       <SeoHead
-        title="Study Biotechnology in USA for Indian Students | Edu Hawk"
-        description="Study biotechnology in the USA for Indian students — BSc to MS and PhD programmes in genetic engineering, molecular biology and bioinformatics."
+        title={biotechnologyData?.seo?.title || "Study Biotechnology in USA for Indian Students | Edu Hawk"}
+        description={biotechnologyData?.seo?.description || "Study biotechnology in the USA for Indian students — BSc to MS and PhD programmes in genetic engineering, molecular biology and bioinformatics."}
         path="/study-abroad/usa/biotechnology"
         ogType="website"
       />
@@ -554,27 +572,26 @@ const Biotechnology = () => {
                 <span className="mx-1.5">›</span> Biotechnology
               </div>
               <div className="text-xs font-semibold tracking-wider uppercase text-blue-300 mb-3">
-                Study Biotechnology · Abroad
+                {biotechnologyData?.hero?.badge || "Study Biotechnology · Abroad"}
               </div>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-5">
                 Study{" "}
                 <span className="bg-gradient-to-r from-blue-400 to-amber-300 bg-clip-text text-transparent">
-                  Biotechnology in USA
+                  {biotechnologyData?.hero?.title || "Biotechnology in USA"}
                 </span>{" "}
                 for Indian Students
               </h1>
-              <p className="text-base sm:text-lg text-white/70 max-w-xl mb-5 leading-relaxed">
-                Biotechnology education in the United States presents substantial opportunities for Indian students to pursue advanced studies in biological sciences, genetic engineering, molecular biology, bioinformatics and pharmaceutical biotechnology.
-              </p>
+
               <p className="text-base sm:text-lg text-white/70 max-w-xl mb-8 leading-relaxed">
-                The United States hosts numerous prestigious universities, research institutions and biotechnology enterprises engaged in diverse sectors including healthcare, pharmaceuticals, agriculture, food science and environmental technology. Indian students may select from undergraduate, graduate and doctoral programmes.
+                {biotechnologyData?.hero?.subtitle || "Biotechnology education in the United States presents substantial opportunities for Indian students to pursue advanced studies in biological sciences, genetic engineering, molecular biology, bioinformatics and pharmaceutical biotechnology across prestigious universities and research laboratories."}
               </p>
+
               <div className="flex flex-col sm:flex-row flex-wrap gap-3.5">
                 <a
                   href="#consult"
                   className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base bg-blue-600 text-white hover:bg-blue-700 transition-all no-underline shadow-lg shadow-blue-600/25"
                 >
-                  Book free counselling
+                  {biotechnologyData?.hero?.ctaText || "Book free counselling"}
                 </a>
                 <a
                   href="#destinations"
@@ -587,12 +604,12 @@ const Biotechnology = () => {
 
             <div className="relative mt-2 lg:mt-0">
               <img
-                src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=900&q=80"
+                src={biotechnologyData?.hero?.image || "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=900&q=80"}
                 alt="Biotechnology laboratory and research in USA"
                 className="pharmacy-hero-image rounded-2xl shadow-2xl object-cover w-full h-56 sm:h-72 lg:h-[440px]"
-                  srcSet="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=900&q=80 1x, https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=900&q=80 2x"
-                  sizes="100vw"
-                />
+                srcSet={`${biotechnologyData?.hero?.image || "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=900&q=80"} 1x, ${biotechnologyData?.hero?.image || "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=900&q=80"} 2x`}
+                sizes="100vw"
+              />
               <div className="absolute bottom-5 left-5 bg-white/15 backdrop-blur-md px-4 py-2.5 rounded-xl text-sm font-medium">
                 Trusted by 1000+ Indian students
               </div>
@@ -660,13 +677,13 @@ const Biotechnology = () => {
 
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1581093588401-fbb62a02f120?w=900&q=80"
+                src={sideImg}
                 loading="lazy"
                 alt="Biotechnology research and laboratory training"
                 className="rounded-2xl shadow-xl object-cover w-full h-[390px]"
-                  srcSet="https://images.unsplash.com/photo-1581093588401-fbb62a02f120?w=900&q=80 1x, https://images.unsplash.com/photo-1581093588401-fbb62a02f120?w=900&q=80 2x"
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                />
+                srcSet={`${sideImg} 1x, ${sideImg} 2x`}
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
               <div className="absolute -bottom-5 -left-5 bg-gradient-to-br from-blue-600 to-sky-500 rounded-2xl p-6 text-white shadow-xl hidden sm:block">
                 <div className="text-3xl font-bold leading-none">25–50L+</div>
                 <div className="text-sm opacity-90 mt-1">Approx. total budget range</div>

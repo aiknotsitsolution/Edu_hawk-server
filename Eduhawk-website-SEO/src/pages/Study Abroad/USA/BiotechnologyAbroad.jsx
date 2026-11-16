@@ -1,3 +1,4 @@
+import sideImg from "../../../Images/Abroad/USA/Biotechnology/side.webp";
 import React, { useState } from "react";
 
 const BiotechnologyAbroad = () => {
@@ -234,13 +235,13 @@ const BiotechnologyAbroad = () => {
 
             <div className="relative rounded-2xl overflow-hidden shadow-xl">
               <img
-                src="https://images.unsplash.com/photo-1576086213369-97a306d36557?q=80&w=2080&auto=format&fit=crop"
+                src={sideImg}
                 loading="lazy"
-                alt="Scientist working in biotechnology lab"
-                className="w-full h-[340px] object-cover"
-                  srcSet="https://images.unsplash.com/photo-1576086213369-97a306d36557?q=80&w=2080&auto=format&fit=crop 1x, https://images.unsplash.com/photo-1576086213369-97a306d36557?q=80&w=2080&auto=format&fit=crop 2x"
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                />
+                alt="Biotechnology research and laboratory training"
+                className="rounded-2xl shadow-xl object-cover w-full h-[390px]"
+                srcSet={`${sideImg} 1x, ${sideImg} 2x`}
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-slate-900/80 to-transparent p-5">
                 <p className="text-white text-sm font-medium">
                   Advanced research facilities · Global opportunities

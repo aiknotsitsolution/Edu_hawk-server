@@ -13,276 +13,389 @@ import uniImg2 from "../../../../../../Images/Abroad/France/Engineering_PG/Biome
 import uniImg3 from "../../../../../../Images/Abroad/France/Engineering_PG/Biomedical/Paris.webp";
 
 const page = {
-  "name": "PG Biomedical Engineering in France",
-  "country": "France",
-  "slug": "pg/biomedical-engineering",
-  "title": "Study PG Biomedical Engineering in France for Indian Students | Edu-Hawk Worldwide",
-  "description": "Complete guide to PG Biomedical Engineering in France for Indian students: Top French universities, admission requirements, tuition fees (€255 – €3,950 / year public), scholarships, and 2-year post-study work visa.",
-  "keywords": "Studying Postgraduate Biomedical Engineering in France, Biomedical Engineering PG in France, Top Biomedical Engineering PG universities/Colleges in France, Master’s Degree in Biomedical Engineering in France, French Biomedical Engineering PG Eligibility Requirements, French Biomedical Engineering PG Admission Requirements, Biomedical Engineering PG Tuition Fees in France 2026–2027, Cost of Studying Biomedical Engineering in France, English-Taught Biomedical Engineering Master's Programmes in France, Biomedical Engineering at Université de Technologie de Compiègne, Biomedical Engineering PG at Grenoble INP Phelma, Biomedical Engineering Jobs and Career Opportunities in France",
-  "introTitle": "BIOMEDICAL ENGINEERING PG IN FRANCE",
-  "heroParas": [
-    "**Studying Postgraduate Biomedical Engineering in France** is a great option for students who want to combine engineering, biology, medicine and healthcare technology.",
-    "A ****Master’s in Biomedical Engineering in France**** helps students gain advanced knowledge of medical devices, diagnostic equipment, medical imaging systems, biomaterials, biomechanics, and other technologies that improve patient care.",
-    "France is an attractive destination for ****Biomedical Engineering studies**** because of its specialized engineering schools, research universities, medical technology companies and healthcare innovation ecosystem.",
-    "Students from India and other countries can pursue postgraduate studies in medical imaging, nanomedicine, bioengineering, biomechanics and medical devices.",
-    "To explore the opportunities and understand the requirements involved in pursuing education overseas, students need **Edu Hawk worldwide study abroad guidance.**",
-    "**"
+  name: "PG Biomedical Engineering in France",
+  country: "France",
+  slug: "study-abroad/france/pg/biomedical-engineering",
+  title: "Study PG Biomedical Engineering in France for Indian Students | Edu-Hawk Worldwide",
+  description: "Complete guide to PG Biomedical Engineering in France: Top universities (UTC Compiègne, UGA Grenoble, Paris-Saclay), medical devices, nanomedicine, €255 – €3,950 tuition fees, and 2-year post-study work visa.",
+  keywords: "Studying Postgraduate Biomedical Engineering in France, Biomedical Engineering PG in France, Top Biomedical Engineering PG universities/Colleges in France, Master’s Degree in Biomedical Engineering in France, French Biomedical Engineering PG Eligibility Requirements, French Biomedical Engineering PG Admission Requirements, Biomedical Engineering PG Tuition Fees in France 2026–2027, Cost of Studying Biomedical Engineering in France, English-Taught Biomedical Engineering Master's Programmes in France, Biomedical Engineering at Université de Technologie de Compiègne, Biomedical Engineering PG at Grenoble INP Phelma, Biomedical Engineering Jobs and Career Opportunities in France",
+  introTitle: "BIOMEDICAL ENGINEERING PG IN FRANCE",
+  heroParas: [
+    "Postgraduate Biomedical Engineering in France integrates cutting-edge engineering principles with biological sciences and clinical medicine to pioneer next-generation medical devices, advanced nanomedicine, surgical robotics, biomaterials, and diagnostic imaging."
   ],
-  "overview": [
-    "**Studying Postgraduate Biomedical Engineering in France** is a great option for students who want to combine engineering, biology, medicine and healthcare technology.",
-    "A ****Master’s in Biomedical Engineering in France**** helps students gain advanced knowledge of medical devices, diagnostic equipment, medical imaging systems, biomaterials, biomechanics, and other technologies that improve patient care.",
-    "France is an attractive destination for ****Biomedical Engineering studies**** because of its specialized engineering schools, research universities, medical technology companies and healthcare innovation ecosystem.",
-    "Students from India and other countries can pursue postgraduate studies in medical imaging, nanomedicine, bioengineering, biomechanics and medical devices.",
-    "To explore the opportunities and understand the requirements involved in pursuing education overseas, students need **Edu Hawk worldwide study abroad guidance.**",
-    "**"
+  overview: [
+    "France is a premier destination for biomedical engineering education and research, supported by world-renowned research institutes such as INSERM and CNRS, leading university hospital clusters (CHU), and an innovative medical technology (MedTech) industry. A Master’s in Biomedical Engineering in France equips graduates with advanced multidisciplinary skills across medical instrumentation, computational biomechanics, tissue engineering, and artificial organs.",
+    "Postgraduate pathways include 2-year national Master's degrees (120 ECTS, M1+M2) and CTI-accredited engineering diplomas. High-demand programs—such as UTC Compiègne's Bio-Mechanics & Bio-Engineering track and Université Grenoble Alpes' Nanomedicine & Structural Biology programs—offer comprehensive English-taught curricula designed for international researchers and engineers.",
+    "Through EduHawk Worldwide study abroad guidance, international applicants receive end-to-end strategic support—from university profiling and research proposal development to Campus France (Études en France) navigation, visa processing, and post-study career placement across the European healthcare sector."
   ],
-  "level": "Master of Engineering (MEng / MSc) in Biomedical Engineering",
-  "crumb": "Engineering / Biomedical (PG)",
-  "stats": [
+  level: "Master of Science (MSc) & Diplôme d'Ingénieur in Biomedical Engineering",
+  crumb: "Engineering / Biomedical (PG)",
+  stats: [
     {
-      "label": "Degree Choices",
-      "value": "Master of Engineering (MEng / MSc) in Biomedical Engineering"
+      label: "Degree Choices",
+      value: "2-Yr National Master (120 ECTS) & Diplôme d'Ingénieur"
     },
     {
-      "label": "Course Duration",
-      "value": "1 to 2 Years (Master's / M1+M2)"
+      label: "Tuition (Public)",
+      value: "€255 (EU) / €3,950/yr (Non-EU Master's)"
     },
     {
-      "label": "Top Institutions",
-      "value": "Compiègne University of Technology (UTC), Université Grenoble Alpes (UGA)"
+      label: "Top Institutions",
+      value: "UTC Compiègne, UGA Grenoble, Paris-Saclay"
     },
     {
-      "label": "Post-Study Work",
-      "value": "2-Year APS / Autorisation Provisoire de Séjour"
+      label: "Post-Study Work",
+      value: "2-Year APS / RECE Post-Study Visa"
     }
   ],
-  "sections": [
+  sections: [
     {
-      "slot": "why",
-      "eyebrow": "Why Study in France",
-      "title": "1. Can an international student study Biomedical Engineering in France?",
-      "groups": [
+      slot: "why",
+      eyebrow: "Why France",
+      title: "Why Study PG Biomedical Engineering in France",
+      lead: [
+        "France's world-leading healthcare infrastructure and dynamic MedTech ecosystem provide students with exceptional opportunities to bridge clinical medicine and technological engineering."
+      ],
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Yes. Indian students and other international applicants can apply to eligible French universities and engineering schools if they meet the programme’s academic, language and application requirements."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "courses",
-      "eyebrow": "Degrees & Specializations",
-      "title": "2. Duration of Biomedical Engineering postgraduate program in France",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "A national master’s degree generally takes two years. Engineering degree pathways can differ in length, so students should examine the specific course structure and entry level."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "unis",
-      "eyebrow": "Top Institutions in France",
-      "title": "3. Is Biomedical Engineering in English in France?",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Some relevant programs or specializations are taught in English, others in French. The language of instruction for the program and the academic year concerned must be verified by the applicant."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Academic & Language Criteria",
-      "title": "4. What are the tuition fees for Biomedical Engineering PG in France?",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Fees vary according to the institution and the qualification. The reference differentiated fee for non-EU students enrolled in covered national master’s programs is €3,950 per year and the reference fee for covered engineering degree programs is €2,902 per year for 2026–2027. There may be some exceptions and some course specific fees."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "requirements",
-      "eyebrow": "Application Checklist",
-      "title": "5. Career Options after Biomedical Engineering PG in France",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Graduates can work in the fields of medical devices development, biomedical research, medical imaging, biomechanics, healthcare technology, quality assurance and regulatory affairs. Your specialization, your experience, how good your language skills are and the requirements of the employer determine what job opportunities you will have.",
-            "How can **Edu Hawk Worldwide Consultancy** help me to study abroad?",
-            "**Edu Hawk worldwide consultancy** can assist students in finding suitable **Biomedical Engineering universities in France**, understanding the programme-specific admission requirements, arranging academic records and preparing application documents. Students should check the academic, financial, immigration and qualification-recognition requirements with the relevant official authorities."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "fees",
-      "eyebrow": "Tuition & Cost of Living",
-      "title": "6. **Receive the admission decision:** Review the offer, tuition fee, deadlines and conditions.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Details available upon request."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "process",
-      "eyebrow": "Step-by-Step Guide",
-      "title": "7. **Prepare finances and immigration formalities:** Complete the student-visa process that applies to you and, if necessary, prepare evidence of funding.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Details available upon request."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "accreditation",
-      "eyebrow": "Degrees & Recognition",
-      "title": "8. Recognition and Accreditation of Biomedical Engineering Programs in France",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Before registering in a ****Biomedical Engineering postgraduate program in France****students should verify the exact qualification granted by the institution.",
-            "In post-graduate French higher education, there are multiple types of qualifications:",
-            "****National Master’s Degree:**** A master’s degree recognized at national level within the French higher education system.",
-            "****Engineering Diploma**:** Issued by an accredited engineering school. Recognition will depend on the type of diploma and its accreditation.",
-            "****Specialised Postgraduate Qualification:**** A qualification that may not have the same status as a national master's degree.",
-            "Students who intend to work internationally should also take into account the requirements for professional recognition in their host country. Recognition of a degree does not automatically result in authorization to practice for all regulated health care or engineering professions.",
-            "**Confirm before you accept an offer:**"
+          t: "Multidisciplinary Engineering & Clinical Training",
+          items: [
+            "Curricula bridge mechanical, electrical, and materials engineering with cellular biology, human physiology, and hospital clinical workflows."
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "* - The awarding university and official degree title.",
-            "* - whether the program leads to a national master’s degree, an engineering diploma or a specialization.",
-            "* - The institution’s accreditation or recognition status.",
-            "* - The length and academic credit.",
-            "* - Requirements for recognition of work or study in the country you want to move to."
+          t: "Pioneering Research at CNRS and INSERM",
+          items: [
+            "Students participate in high-impact translational research at top institutes in tissue engineering, magnetic resonance imaging (MRI), nanocarriers for targeted drug delivery, and micro-electromechanical systems (MEMS)."
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "**"
+          t: "Mandatory Clinical and Industrial Internships",
+          items: [
+            "Programs feature compulsory 5-to-6-month hospital laboratory internships or MedTech corporate placements with global healthcare leaders."
+          ]
+        },
+        {
+          t: "English-Taught International Curricula",
+          items: [
+            "Leading French institutions offer specialized international master's tracks taught completely in English, removing language barriers while offering French language training."
+          ]
+        },
+        {
+          t: "Doctoral Pathways & European Research Mobility",
+          items: [
+            "Accredited master's degrees confer direct eligibility for doctoral fellowships (PhD) across European academic networks and industrial CIFRE PhD partnerships."
           ]
         }
       ]
     },
     {
-      "slot": "careers",
-      "eyebrow": "Job Roles & Industry Growth",
-      "title": "9. Salary and Job Scope after Biomedical Engineering PG in France**",
-      "groups": [
+      slot: "courses",
+      eyebrow: "Degrees & Specializations",
+      title: "Biomedical Engineering Courses & Specializations in France",
+      lead: [
+        "Postgraduate biomedical engineering programs in France encompass diagnostic instrumentation, therapeutic systems, biomaterials, and health informatics."
+      ],
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "****Master’s in Biomedical Engineering in France**** can improve your career prospects in the medical technology, healthcare equipment, research, and product development industries.",
-            "Real job opportunities depend on the student’s major, practical experience, language skills and the hiring market.",
-            "Possible jobs after Biomedical Engineering PG in France are:"
+          t: "Popular Biomedical Engineering Specializations",
+          items: [
+            "Medical Imaging & Signal Processing: MRI, CT, ultrasound physics, biomedical signal reconstruction, and deep learning for diagnostic radiology.",
+            "Nanomedicine & Targeted Drug Delivery: Nanoparticle synthesis, microfluidics, biomolecular drug delivery systems, and nanoscale biosensors.",
+            "Medical Devices & Diagnostic Instrumentation: Biosensors, cardiac pacemakers, dialysis machines, surgical robotics, and physiological monitoring systems.",
+            "Biomechanics & Tissue Engineering: Cellular biomechanics, orthopedic prosthetics, biocompatible scaffolds, artificial heart valves, and 3D bioprinting.",
+            "Biomaterials & Medical Implants: Bio-inert ceramics, titanium implants, biodegradable polymers, and surface bio-functionalization.",
+            "Healthcare Technology Management (Clinical Engineering): Hospital equipment procurement, risk management, CE marking, and FDA/MDR regulatory affairs."
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "* Biomedical Engineer",
-            "* Medical Device Design Engineer",
-            "* Research and Development Engineer",
-            "* Medical Imaging Engineer",
-            "* Biomedical Instrumentation Engineer",
-            "* Biomechanics or Biomaterials Engineer",
-            "* Quality Assurance or Validation Engineer",
-            "* Medical Device Regulatory Affairs Specialist",
-            "* Clinical Engineering or Hospital Equipment Specialist",
-            "* Biomedical Research Assistant or Doctoral Researcher"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Employers include medical device manufacturers, health care technology companies, hospitals, research laboratories, biotechnology companies, and organizations engaged in product testing and regulatory compliance.",
-            "**Salary Expectations Post Biomedical Engineering PG in France**",
-            "Salaries vary by job role, location, employer, experience and qualification. Graduates should not assume that one salary figure applies to all but should look at current French job advertisements and salary surveys for similar posts.",
-            "Speaking French fluently can be a good way to get local jobs, especially if you are looking for work with hospitals, clients, healthcare providers or in regulatory communication.",
-            "**"
+          t: "Program Formats & Durations",
+          items: [
+            "National Master's Degree (M1 + M2): Two-year academic cycle (120 ECTS) comprising foundational bio-engineering modules, laboratory research, and a 6-month clinical or industrial thesis.",
+            "Diplôme d'Ingénieur in Health Engineering: CTI-accredited master-equivalent qualification emphasizing applied hospital engineering and technological industrialization."
           ]
         }
       ]
     },
     {
-      "slot": "documents",
-      "eyebrow": "Document Requirements",
-      "title": "10. Documents Needed for Biomedical Engineering in France PG**",
-      "groups": [
+      slot: "unis",
+      eyebrow: "Top Institutions",
+      title: "Top Universities & Engineering Schools for Biomedical Engineering in France",
+      lead: [
+        "France's leading technology universities deliver internationally acclaimed master's degrees combining technological innovation with clinical excellence."
+      ],
+      unis: [
         {
-          "t": "p",
-          "items": [
-            "The exact document checklist differs for each university, but generally, applicants need the following **documents for Biomedical Engineering admission in France**:"
+          name: "Université de Technologie de Compiègne (UTC)",
+          city: "Compiègne",
+          state: "Hauts-de-France",
+          desc: "A pioneer in biomedical engineering education in France, offering premier master's and engineering tracks in Biomechanics, Bio-Engineering, and Healthcare Technology Management.",
+          img: uniImg1
+        },
+        {
+          name: "Université Grenoble Alpes (UGA)",
+          city: "Grenoble",
+          state: "Auvergne-Rhône-Alpes",
+          desc: "A global hub for micro-nanotechnologies, UGA delivers elite master's programs in nanomedicine, structural biology, and biomedical imaging in collaboration with Grenoble INP.",
+          img: uniImg2
+        },
+        {
+          name: "Université Paris-Saclay",
+          city: "Orsay / Gif-sur-Yvette",
+          state: "Île-de-France",
+          desc: "World-leading research university offering specialized master's tracks at the interface of biomedical imaging, biomolecular chemistry, and health data technologies.",
+          img: uniImg3
+        }
+      ]
+    },
+    {
+      slot: "eligibility",
+      eyebrow: "Admissions Criteria",
+      title: "Eligibility Requirements for Biomedical Engineering PG in France",
+      lead: [
+        "Due to the multidisciplinary nature of biomedical engineering, applicants from various engineering and scientific backgrounds are eligible for admission."
+      ],
+      groups: [
+        {
+          t: "Acceptable Academic Backgrounds",
+          items: [
+            "Biomedical Engineering or Bioengineering.",
+            "Mechanical Engineering (eligible for Biomechanics & Prosthetics).",
+            "Electrical, Electronics, or Instrumentation Engineering (eligible for Medical Devices & Imaging).",
+            "Biotechnology or Life Sciences with strong quantitative coursework.",
+            "Applied Physics, Materials Science, or Chemical Engineering."
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "- Passport or ID acceptable.",
-            "- Bachelor degree or provisional degree certificate.",
-            "- Review records and test results.",
-            "- Résumé or CV.",
-            "- Motivation letter or statement of purpose.",
-            "- Results of proficiency in English or French, if applicable.",
-            "- Letters of recommendation if requested.",
-            "- Portfolio of relevant projects/research work (if applicable).",
-            "- Certificates of internship or employment, if applicable.",
-            "- Documents not accepted in original language unless officially translated.",
-            "- Application form and, if applicable, application-fee receipt.",
-            "- Other documents as required by the institution or visa authority."
+          t: "Academic Benchmark Standards",
+          items: [
+            "A recognized 4-year BTech or BE degree with a minimum aggregate score of 60% to 70% (or GPA 6.5/10 to 7.5/10).",
+            "Solid academic background in Mathematics, Physics, Chemistry, and introductory Biological Sciences.",
+            "Prior academic research, published papers, or hospital equipment internships provide a strong competitive advantage."
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "**"
+          t: "Language Proficiency Requirements",
+          items: [
+            "English-Taught Master's: IELTS Academic minimum overall score of 6.5 (no sub-band below 6.0) or TOEFL iBT minimum score of 80 – 85.",
+            "French-Taught Master's: DELF B2 or TCF B2 certification demonstrating technical fluency for lectures, laboratory sessions, and clinical hospital environments."
           ]
         }
       ]
     },
     {
-      "slot": "faqs",
-      "eyebrow": "Frequently Asked Questions",
-      "title": "11. Frequently Asked Questions on PG in Biomedical Engineering in France**",
-      "groups": [
+      slot: "qualifications",
+      eyebrow: "Documentation Checklist",
+      title: "Required Application Documents for Biomedical PG",
+      lead: [
+        "Compile a comprehensive application dossier for university faculty evaluation and Campus France validation."
+      ],
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Details available upon request."
+          t: "Application Checklist",
+          items: [
+            "Valid international passport with at least 6 months validity beyond your planned stay.",
+            "Official Bachelor's degree certificate or provisional degree certificate.",
+            "Official semester-wise academic transcripts with certified English or French translations.",
+            "Detailed Curriculum Vitae (CV) highlighting medical imaging software (MATLAB, ImageJ), CAD tools, and biological laboratory experience.",
+            "Statement of Purpose (SOP) explaining technical motivations, specialization focus, and healthcare career goals.",
+            "Two letters of recommendation (LORs) from university professors or clinical/industrial supervisors.",
+            "Official language proficiency test scorecard (IELTS, TOEFL, or DELF).",
+            "Course descriptions of previous undergraduate engineering and science coursework.",
+            "Certificates of internship, clinical observerships, or technical healthcare publications."
           ]
         }
       ]
-    }
-  ],
-  "faqs": [
-    {
-      "q": "1. Can Indian students study PG Biomedical Engineering in France?",
-      "a": "Yes, Indian students with valid academic qualifications, required English or French language proficiency, and relevant documentation can apply."
     },
     {
-      "q": "2. How can Edu Hawk Worldwide Consultancy help me?",
-      "a": "Edu Hawk Worldwide provides end-to-end guidance including university selection, application processing, Campus France procedure, visa assistance, and pre-departure briefings."
+      slot: "fees",
+      eyebrow: "Financial Guide",
+      title: "Tuition Fees & Cost of Studying Biomedical Engineering in France",
+      lead: [
+        "Studying biomedical engineering in France offers supreme quality at public subsidized rates, significantly below costs in the US, UK, or Australia."
+      ],
+      table: {
+        caption: "Annual Tuition Reference Fees in French Public Higher Education (2026–2027)",
+        headers: ["Degree Level & Scheme", "EU / EEA Students", "Non-EU / International Students"],
+        rows: [
+          ["National Master's Degree (M1 / M2)", "€255 / year", "€3,950 / year"],
+          ["Public Engineering School Degree (CTI)", "€630 / year", "€2,902 – €3,950 / year"],
+          ["Doctorate / PhD Programs", "€398 / year", "€398 / year"],
+          ["Student Life & Campus Contribution (CVEC)", "approx. €103 / year", "approx. €103 / year"]
+        ]
+      },
+      groups: [
+        {
+          t: "Monthly Living Expenses Breakdown",
+          items: [
+            "Student Accommodation: €350 to €600/month in regional hubs (Compiègne, Grenoble) and €750 to €1,100/month in Paris.",
+            "CAF Housing Allowance: All international students are eligible for the French government CAF rent subsidy, reimbursing €100 to €250/month.",
+            "Food and Groceries: €200 to €350/month, supplemented by subsidized university CROUS cafeterias providing balanced meals for €3.30.",
+            "Local Transportation: €30 to €65/month with discounted student public transit cards.",
+            "Healthcare: Universal French National Health Insurance (Sécurité Sociale) is completely free for all enrolled international students."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "timeline",
+      eyebrow: "Step-by-Step Guide",
+      title: "Biomedical Engineering PG Admission Process in France",
+      lead: [
+        "Follow this comprehensive 8-step admission process to secure your seat at an accredited French biomedical engineering campus."
+      ],
+      steps: [
+        {
+          title: "Select Specialization & Program",
+          desc: "Decide whether your focus aligns with medical imaging, biomechanics, medical device design, or nanomedicine, and identify English-taught tracks."
+        },
+        {
+          title: "Verify Academic Prerequisites",
+          desc: "Confirm that your undergraduate degree in engineering, physics, or bioengineering meets the specific subject requirements of your chosen master's."
+        },
+        {
+          title: "Prepare Certified Application Dossier",
+          desc: "Assemble certified transcripts, degree certificates, CV, recommendation letters, language scorecards, and a tailored Statement of Purpose."
+        },
+        {
+          title: "Submit Online Applications",
+          desc: "Apply directly through the university application portal (or the centralized Études en France platform) before institutional deadlines."
+        },
+        {
+          title: "Complete Academic Assessments & Interviews",
+          desc: "Attend virtual technical and motivational interviews if required by the university admissions committee."
+        },
+        {
+          title: "Accept Offer & Settle Enrollment Deposit",
+          desc: "Confirm your acceptance of the admission offer, settle any required tuition deposit, and receive your official enrollment certificate."
+        },
+        {
+          title: "Complete Campus France & Visa Application",
+          desc: "Attend your mandatory Campus France academic interview, then apply for your VLS-TS long-stay student visa via the official France-Visas portal."
+        },
+        {
+          title: "Arrival, Housing & Campus Registration",
+          desc: "Settle student accommodation, pay the CVEC fee, finalize university registration, validate your VLS-TS visa online, and apply for the CAF housing subsidy."
+        }
+      ]
+    },
+    {
+      slot: "accreditation",
+      eyebrow: "Quality Assurance",
+      title: "Accreditation and Recognition of French Biomedical Engineering Degrees",
+      lead: [
+        "French biomedical engineering degrees conform to strict European quality frameworks, ensuring global academic and industrial recognition."
+      ],
+      groups: [
+        {
+          t: "National Master's vs. Diplôme d'Ingénieur",
+          items: [
+            "National Master's Degree (Diplôme National de Master): Conferred under the French Ministry of Higher Education, awarding 120 ECTS credits and international doctoral eligibility.",
+            "Diplôme d'Ingénieur: Conferred by CTI-accredited institutions, awarding an integrated Master's equivalent (300 cumulative ECTS) and the EUR-ACE European quality label.",
+            "International Professional Mobility: Degrees qualify graduates for medical technology engineering roles worldwide under the Bologna EHEA agreement."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "careers",
+      eyebrow: "Career Outcomes",
+      title: "Biomedical Engineering PG Career Opportunities & Salary Outlook in France",
+      lead: [
+        "Biomedical postgraduates in France command high employability across medical device manufacturers, hospital networks, clinical research organizations, and biotechnology firms."
+      ],
+      groups: [
+        {
+          t: "Key Industry Employers",
+          items: [
+            "Medical Device Corporations: Medtronic, GE Healthcare France, Siemens Healthineers, Philips Healthcare, bioMérieux, EssilorLuxottica.",
+            "Cardiovascular & Surgical Technology: Carmat (artificial heart), Edwards Lifesciences, Guerbet.",
+            "Hospital Healthcare Systems: Assistance Publique – Hôpitaux de Paris (AP-HP), Hospices Civils de Lyon (HCL), regional CHU hospitals.",
+            "Research & Testing Laboratories: INSERM, CEA Leti, CNRS, LNE (Laboratoire National de Métrologie et d'Essais)."
+          ]
+        },
+        {
+          t: "High-Demand Job Roles",
+          items: [
+            "Medical Device Design & Prototyping Engineer.",
+            "Biomedical Imaging & Computer Vision Specialist.",
+            "Biomechanics & Orthopedic Prosthetics Engineer.",
+            "Clinical Engineer & Hospital Technology Manager.",
+            "Medical Device Quality Assurance & Regulatory Affairs (MDR) Specialist.",
+            "Tissue Engineering & Biomaterials Researcher.",
+            "Medical Robotics & Minimally Invasive Surgery Systems Engineer."
+          ]
+        },
+        {
+          t: "Salary Expectations and Work Rights",
+          items: [
+            "Starting Salaries: Entry-level biomedical engineers in France typically earn between €38,000 and €45,000 per year.",
+            "Experienced Professionals (3–6 years): Average compensation rises to €50,000 – €68,000+ per year.",
+            "Post-Study Work Visa: Master's graduates are entitled to the 2-year RECE (Recherche d'Emploi ou Création d'Entreprise) / APS residence permit to seek employment across France and the EU."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "eduhawk",
+      eyebrow: "Consultancy Support",
+      title: "How EduHawk Worldwide Consultancy Guides Your Study Abroad Journey",
+      lead: [
+        "EduHawk Worldwide provides specialized counseling to help aspiring biomedical engineers gain admission into France's top medical technology master's programs."
+      ],
+      groups: [
+        {
+          t: "Specialized Bio-Engineering Profiling",
+          items: [
+            "Evaluating your engineering or life-science background to target optimal tracks at UTC Compiègne, UGA Grenoble, and Paris-Saclay."
+          ]
+        },
+        {
+          t: "SOP & Research Portfolio Excellence",
+          items: [
+            "Refining your Statement of Purpose, technical CV, and project descriptions to effectively highlight your medical device and bio-engineering competencies."
+          ]
+        },
+        {
+          t: "Campus France & Visa Navigation",
+          items: [
+            "Step-by-step assistance with the Études en France portal, conducting mock interviews for Campus France evaluations, and ensuring error-free visa documentation."
+          ]
+        },
+        {
+          t: "Pre-Departure & Settlement Mentorship",
+          items: [
+            "Assistance with securing student accommodation, CVEC registration, French bank account setup, and CAF housing allowance applications."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "faqs",
+      eyebrow: "FAQ",
+      title: "Frequently Asked Questions",
+      faqs: [
+        {
+          q: "Can an international student study Biomedical Engineering in France?",
+          a: "Yes. International students holding an accredited BTech, BE, or BSc degree in Biomedical, Mechanical, Electrical Engineering, Biotechnology, or Applied Physics are eligible to apply for biomedical master's programs in France."
+        },
+        {
+          q: "What is the duration of a Biomedical Engineering postgraduate program in France?",
+          a: "A national Master's degree typically takes two years of study (120 ECTS, M1+M2). Specialized engineering school routes may offer accelerated 1-year M2 entries for candidates with existing advanced qualifications."
+        },
+        {
+          q: "Are there Biomedical Engineering master's courses taught in English in France?",
+          a: "Yes. Leading French universities and Grandes Écoles, including UTC Compiègne and Université Grenoble Alpes, offer international master's tracks taught entirely in English in fields like biomechanics, nanomedicine, and medical imaging."
+        },
+        {
+          q: "What are the tuition fees for Biomedical Engineering PG in France?",
+          a: "For 2026–2027, the published national tuition fee for a subsidized Master's degree at a public university is €3,950 per year for non-EU students (€255/year for EU students). Engineering degree programs under national schemes charge €2,902 per year."
+        },
+        {
+          q: "What career options are available after a Biomedical Engineering PG in France?",
+          a: "Graduates work across medical device design, medical imaging, biomechanics, biomaterials, healthcare technology management, clinical engineering, and regulatory affairs with companies like Medtronic, GE Healthcare, and bioMérieux. Graduates are entitled to a 2-year post-study work visa (RECE/APS)."
+        }
+      ]
     }
   ]
 };
@@ -294,23 +407,33 @@ export default function PGBiomedicalEngineeringinFrancePage() {
     side: sideImg,
     ctaBg: ctaBgImg,
     universities: [
-    {
-      name: "Compiègne University of Technology (UTC)",
-      img: uniImg1,
-      desc: "Recognized French higher education institution offering accredited curriculum, world-class research facilities, and excellent industry connections."
-    },
-    {
-      name: "Université Grenoble Alpes (UGA)",
-      img: uniImg2,
-      desc: "Recognized French higher education institution offering accredited curriculum, world-class research facilities, and excellent industry connections."
-    },
-    {
-      name: "Paris",
-      img: uniImg3,
-      desc: "Recognized French higher education institution offering accredited curriculum, world-class research facilities, and excellent industry connections."
-    }
+      {
+        name: "Compiègne University of Technology (UTC)",
+        img: uniImg1,
+        desc: "A French pioneer in biomedical engineering, delivering renowned postgraduate tracks in Biomechanics, Bio-Engineering, and Healthcare Technology Management."
+      },
+      {
+        name: "Université Grenoble Alpes (UGA)",
+        img: uniImg2,
+        desc: "A global micro-nanotechnology leader offering elite master's programs in nanomedicine, structural biology, and medical imaging."
+      },
+      {
+        name: "Paris-Saclay University",
+        img: uniImg3,
+        desc: "World-leading research university offering specialized master's tracks combining biomolecular engineering, chemistry, and health data technologies."
+      }
     ]
   };
 
-  return <AbroadCoursePage page={page} images={images} />;
+  return (
+    <AbroadCoursePage
+      page={page}
+      heroImg={heroImg}
+      heroBgImg={heroBgImg}
+      sideImg={sideImg}
+      ctaBgImg={ctaBgImg}
+      seoPath={page.slug}
+      images={images}
+    />
+  );
 }

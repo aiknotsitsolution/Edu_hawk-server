@@ -22,9 +22,7 @@ const page = {
   "keywords": "Study BEng Automobile Engineering in the UK, BEng Automobile Engineering in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Study Automobile Engineering in the United Kingdom",
   "heroParas": [
-    "The design, development, testing, and enhancement of automobiles, electric vehicles , hybrid vehicles, commercial vehicles, vehicle components, and associated transportation technologies are the main objectives of automotive engineering.",
-    "Undergraduate Automotive Engineering programs in the UK integrate mechanical engineering, vehicle design, electronics, materials science, production, and control systems. Students can explore the design of automobiles, the operation of engines and electric powertrains, and the ways in which engineers enhance the performance, sustainability, safety, and efficiency of vehicles..",
-    "Edu Hawk Worldwide Consultancy helps students understand university admission requirements, explore international study possibilities, and prepare for the overseas education journey with the right preparation and direction."
+    "The design, development, testing, and enhancement of automobiles, electric vehicles , hybrid vehicles, commercial vehicles, vehicle components, and associated transportation technologies are the main objectives of automotive engineering."
   ],
   "overview": [
     "The design, development, testing, and enhancement of automobiles, electric vehicles , hybrid vehicles, commercial vehicles, vehicle components, and associated transportation technologies are the main objectives of automotive engineering.",

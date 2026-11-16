@@ -24,10 +24,10 @@ const page = {
     "Master's in Chemical Engineering in Finland, Chemical Engineering in Finland for Indian Students, Study Chemical Engineering in Finland, Chemical Engineering Courses in Finland, Chemical Engineering Universities in Finland, Chemical Engineering in Finland Fees",
   introTitle: "Master’s in Chemical Engineering in Finland for Indian Students",
   heroParas: [
-    "Finland is an attractive destination for students who want to pursue advanced engineering education in a technology-driven and research-oriented environment. With its focus on sustainable industrial development, innovation, process technology, and environmental responsibility, Finland offers opportunities for students interested in building a career in chemical engineering.",
-    "A Master’s in Chemical Engineering in Finland helps students develop advanced knowledge of chemical processes, industrial production, materials, energy systems, and sustainable technologies. Students can explore how engineering principles are applied to solve real-world industrial challenges."
+    "Finland is an attractive destination for students who want to pursue advanced engineering education in a technology-driven and research-oriented environment. With its focus on sustainable industrial development, innovation, process technology, and environmental responsibility, Finland offers opportunities for students interested in building a career in chemical engineering."
   ],
   overview: [
+    "A Master’s in Chemical Engineering in Finland helps students develop advanced knowledge of chemical processes, industrial production, materials, energy systems, and sustainable technologies. Students can explore how engineering principles are applied to solve real-world industrial challenges.",
     "For Indian students planning to study abroad, Finland offers English-taught master's programmes, modern research facilities, international exposure, and opportunities to explore engineering careers across different industries."
   ],
   level: "Postgraduate & Master's",

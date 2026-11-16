@@ -14,438 +14,424 @@ import uniImg3 from "../../../../Images/Abroad/Germany/SummerCourses/3_The_Unive
 import uniImg4 from "../../../../Images/Abroad/Germany/SummerCourses/University_image4.webp";
 
 const page = {
-  "name": "Summer Courses in Germany",
-  "country": "Germany",
-  "slug": "summer-courses",
-  "title": "Summer Courses in Germany for Indian Students | Edu-Hawk Worldwide",
-  "description": "Complete guide to Summer Courses in Germany for international students: Top German universities, admission requirements, zero-tuition public education, living expenses, and 18-month post-study work visa.",
-  "keywords": "Study Summer Courses in Germany for Indian Students, Best Universities for Summer Courses in Germany, Summer School Programmes in Germany for International Students, Short-Term Courses in Germany for International Students, Popular Summer Courses in Germany for 2027, Eligibility Requirements for Summer Courses in Germany, Admission Requirements for Summer Schools in Germany, English-Taught Summer Courses in Germany, Summer Course Fees in Germany for International Students, Cost of Living for Summer School Students in Germany, Scholarships and Funding for Summer Courses in Germany, Summer Courses in Germany with ECTS Credits, Summer Course Certificates and Accreditation in Germany, Career Benefits of Summer Courses in Germany, Germany Visa Requirements for Indian Summer Course Students",
-  "introTitle": "1\\. WHY STUDY SUMMER COURSES IN GERMANY?",
-  "heroParas": [
-    "Germany is a popular summer destination for international students who want to learn academic knowledge, gain practical skills and experience European culture.",
-    "Summer courses at German universities, language schools and specialized institutions offer short-term learning opportunities.",
-    "**Some of the key benefits include:**",
-    "* Gain **international academic exposure** in a short span of time.",
-    "* Try subjects outside your normal degree.",
-    "* Improve your German or other language skills.",
-    "* Participate in workshops, cultural events and research projects.",
-    "* Find out about students from other countries.",
-    "****Edu Hawk worldwide consultancy**** guides learners to comprehend the **university admission standards**, explore **international study options** and prepare for the **overseas education journey** with the right guidance and preparation."
+  name: "Summer Courses in Germany",
+  country: "Germany",
+  slug: "summer-courses",
+  title: "Summer Courses in Germany for Indian Students | Edu-Hawk Worldwide",
+  description: "Complete guide to Summer Courses in Germany for international students: Top German universities, short-term academic modules, ECTS credits, language academies, costs, and Schengen visa requirements.",
+  keywords: "Study Summer Courses in Germany for Indian Students, Best Universities for Summer Courses in Germany, Summer School Programmes in Germany for International Students, Short-Term Courses in Germany for International Students, Popular Summer Courses in Germany for 2027, Eligibility Requirements for Summer Courses in Germany, Admission Requirements for Summer Schools in Germany, English-Taught Summer Courses in Germany, Summer Course Fees in Germany for International Students, Cost of Living for Summer School Students in Germany, Scholarships and Funding for Summer Courses in Germany, Summer Courses in Germany with ECTS Credits, Summer Course Certificates and Accreditation in Germany, Career Benefits of Summer Courses in Germany, Germany Visa Requirements for Indian Summer Course Students",
+  introTitle: "Why Study Summer Courses in Germany?",
+  heroParas: [
+    "Summer courses in Germany offer international students premier short-term academic opportunities across top universities, research institutes, and language academies to earn 2 to 12 transferable ECTS credits, master new engineering and business specializations, accelerate German language fluency, and experience European culture during the summer vacation."
   ],
-  "overview": [
-    "Germany is a popular summer destination for international students who want to learn academic knowledge, gain practical skills and experience European culture.",
-    "Summer courses at German universities, language schools and specialized institutions offer short-term learning opportunities.",
-    "**Some of the key benefits include:**",
-    "* Gain **international academic exposure** in a short span of time.",
-    "* Try subjects outside your normal degree.",
-    "* Improve your German or other language skills.",
-    "* Participate in workshops, cultural events and research projects.",
-    "* Find out about students from other countries.",
-    "****Edu Hawk worldwide consultancy**** guides learners to comprehend the **university admission standards**, explore **international study options** and prepare for the **overseas education journey** with the right guidance and preparation."
+  overview: [
+    "Germany is a world-class summer academic destination for international students who seek intensive academic exposure, hands-on professional skills, and rich European cultural immersion without committing to a multi-year degree program.",
+    "Summer academies at public research universities, applied science universities (Fachhochschulen), and leading language institutes provide specialized 1 to 8-week learning modules between June and September.",
+    "**Key Benefits of German Summer Academies:**",
+    "• Gain international academic exposure and university credits in a focused, short-term format.",
+    "• Explore interdisciplinary subjects outside your regular university curriculum, such as AI, renewable energy, and European business law.",
+    "• Rapidly improve your German language fluency from foundational levels (A1–A2) to advanced professional proficiency (B2–C1).",
+    "• Participate in interactive laboratory workshops, corporate site visits, cultural excursions, and research projects.",
+    "• Build enduring professional networks with students, professors, and industry practitioners from over 80 countries.",
+    "EduHawk Worldwide Consultancy guides students to evaluate university admission standards, explore international summer schools, navigate short-stay Schengen visa requirements, and prepare for an enriching overseas learning journey."
   ],
-  "level": "Summer School Certificate & ECTS Credits",
-  "crumb": "Short Term / Summer Academies",
-  "stats": [
+  level: "Summer Academy Certificate & ECTS Credits",
+  crumb: "Short Term / Summer Academies",
+  stats: [
     {
-      "label": "Degree Choices",
-      "value": "Summer School Certificate & ECTS Credits"
+      label: "Course Duration",
+      value: "1 to 8 Weeks (June – Sept)"
     },
     {
-      "label": "Course Duration",
-      "value": "3 to 6 Years"
+      label: "Credits Awarded",
+      value: "2 to 12 ECTS Credits"
     },
     {
-      "label": "Top Institutions",
-      "value": "1 . Humboldt University of Berlin, 2 . Heidelberg University"
+      label: "Top Academies",
+      value: "Humboldt Berlin, Heidelberg, Leipzig, Göttingen"
     },
     {
-      "label": "Post-Study Work",
-      "value": "18-Month Jobseeker Visa (Residence Permit)"
+      label: "Visa Requirement",
+      value: "Schengen Visa (Category C, ≤90 Days)"
     }
   ],
-  "sections": [
+  sections: [
     {
-      "slot": "courses",
-      "eyebrow": "Curriculum & Specializations",
-      "title": "2. Summer Courses in Germany",
-      "groups": [
+      slot: "courses",
+      eyebrow: "Curriculum & Specializations",
+      title: "Summer Courses in Germany",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "German universities and educational institutions offer short-term courses in various professional and academic fields.",
-            "**Popular choices include:**",
-            "**Summer courses** tend to be **1-8 weeks** with some programs longer or shorter.",
-            "Most of them occur **between June and September**.",
-            "Courses may include lectures, practical workshops, company visits, cultural excursions and group projects. Some institutions offer **certificates or academic credit.**"
+          t: "p",
+          items: [
+            "German universities and educational institutions offer diverse short-term courses across academic, professional, and cultural disciplines. Summer programs typically span 1 to 8 weeks between June and September, featuring interactive lectures, hands-on workshops, corporate site visits, cultural excursions, and collaborative projects that confer official certificates and transferable ECTS credits.",
+            "**Popular Academic & Language Specializations:**"
           ]
         },
         {
-          "t": "pills",
-          "items": [
-            "German Language and Culture Courses.",
-            "Summer schools in business and management.",
-            "Engineering and technology classes.",
-            "Computer science and AI.",
-            "International relations and European studies.",
-            "Architecture and sustainable design.",
-            "Environmental science, sustainable energy.",
-            "Medicine and public health if available.",
-            "Art and design, creative studies. multidisciplinary courses.",
-            "Seminars. research"
+          t: "pills",
+          items: [
+            "German Language & Cultural Immersion (A1 to C2)",
+            "International Business & Strategic Management",
+            "Engineering & Advanced Technology Workshops",
+            "Computer Science, Artificial Intelligence & Data Science",
+            "European Studies, Law & International Relations",
+            "Architecture, Urbanism & Sustainable Design",
+            "Environmental Science & Renewable Energy Technologies",
+            "Biomedical Sciences, Healthcare & Public Health",
+            "Fine Arts, Creative Design & Digital Media",
+            "Interdisciplinary Academic Seminars & Summer Research"
           ]
         }
       ]
     },
     {
-      "slot": "universities",
-      "eyebrow": "Top German Universities",
-      "title": "3. Germany's Best Universities and Institutions for Summer Courses",
-      "groups": [
+      slot: "unis",
+      eyebrow: "Top German Institutions",
+      title: "Germany's Best Universities and Institutions for Summer Courses",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "For **summer schools** and **short-term academic opportunities**, students can explore the following establishments:"
+          t: "p",
+          items: [
+            "Germany's leading public universities host renowned international summer schools combining rigorous academic modules, intensive language training, cultural excursions, and global networking:"
+          ]
+        }
+      ],
+      unis: [
+        {
+          name: "Humboldt University of Berlin",
+          city: "Berlin",
+          qsRank: "#120",
+          tuition: "€300 - €1,800 per course",
+          programs: "Humboldt Winter and Summer University (HUWISU), European Studies, German Language & Culture",
+          highlights: "Located in the heart of Berlin; offers intensive 2-to-4-week academic tracks conferring 3 to 6 transferable ECTS credits.",
+          link: "https://www.hu-berlin.de",
+          img: uniImg1
+        },
+        {
+          name: "Heidelberg University",
+          city: "Heidelberg",
+          qsRank: "#87",
+          tuition: "€450 - €1,200 per session",
+          programs: "International Summer School, German Philology, Biomedical Research, European Heritage",
+          highlights: "Germany's oldest university (est. 1386); internationally acclaimed faculties hosting intensive language and academic summer courses.",
+          link: "https://www.uni-heidelberg.de",
+          img: uniImg2
+        },
+        {
+          name: "Leipzig University (University of Leipzig)",
+          city: "Leipzig",
+          qsRank: "#440",
+          tuition: "€400 - €1,400 per session",
+          programs: "InterDaF German Language Academy, Global Studies, Digital Humanities & Social Dynamics",
+          highlights: "Historic academic powerhouse offering acclaimed language pedagogy, vibrant student culture, and low living expenses.",
+          link: "https://www.uni-leipzig.de",
+          img: uniImg3
+        },
+        {
+          name: "University of Göttingen",
+          city: "Göttingen",
+          qsRank: "#232",
+          tuition: "€500 - €1,600 per session",
+          programs: "Göttingen International Summer School, Data Science, Molecular Biology, Sustainable Agriculture",
+          highlights: "Associated with over 40 Nobel laureates; provides English-taught research seminars, laboratory workshops, and ECTS credits.",
+          link: "https://www.uni-goettingen.de",
+          img: uniImg4
+        }
+      ]
+    },
+    {
+      slot: "eligibility",
+      eyebrow: "Eligibility Criteria",
+      title: "Qualifications for Summer Courses in Germany",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Eligibility criteria for German summer courses depend on the organizing university, course level, and target audience. While some programs are open to students from all academic backgrounds, others are tailored for undergraduate students, postgraduates, doctoral researchers, or working professionals.",
+            "**Key Candidate Prerequisites:**"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "Current enrollment in a recognized undergraduate or postgraduate degree program (or recent graduation certificate).",
+            "Valid academic credential or high school diploma fulfilling minimum university entry standards.",
+            "Relevant academic prerequisites or background coursework for advanced engineering, business, or scientific seminars.",
+            "Proof of English proficiency (IELTS, TOEFL, or official medium-of-instruction letter) for English-taught summer academies.",
+            "Appropriate German language certification (CEFR A1–B2 depending on track) for German-taught modules; beginner language tracks require no prior German knowledge.",
+            "Fulfillment of the minimum age requirement (typically 18+ years at the start of the summer academy).",
+            "Official academic transcripts and portfolio of work (for design, architecture, or research programs) when requested."
           ]
         }
       ]
     },
     {
-      "slot": "why",
-      "eyebrow": "Why Study in Germany",
-      "title": "1. Humboldt University of Berlin: Depending on the curriculum, it provides academic and language-related opportunities.",
-      "groups": []
-    },
-    {
-      "slot": "courses",
-      "eyebrow": "Curriculum & Specializations",
-      "title": "2. Heidelberg University: Offers a variety of summer learning programs in subjects like academic studies, language, and culture.",
-      "groups": []
-    },
-    {
-      "slot": "universities",
-      "eyebrow": "Top German Universities",
-      "title": "3. The University of Leipzig offers international students academic and language study possibilities.",
-      "groups": []
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Eligibility Criteria",
-      "title": "4. University of Göttingen - Provides a few short-term academic programs and summer schools.",
-      "groups": []
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Eligibility Criteria",
-      "title": "4. Qualifications for Summer Courses in Germany",
-      "groups": [
+      slot: "admission",
+      eyebrow: "Application Documentation",
+      title: "Admission Requirements for German Summer Courses",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "The course and the organizing institution determine the ****eligibility requirements**.**",
-            "Common requirements for candidacy include:",
-            "While some **summer schools** are intended for **undergraduate students, postgraduate students, researchers or working professionals**Others accept students from all academic backgrounds."
+          t: "p",
+          items: [
+            "Summer schools operate on selective admissions with fixed cohort capacities. Candidates must submit a well-organized application dossier to secure their seat:",
+            "**Standard Application Submission Checklist:**"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "If necessary, current enrollment at a school or university.",
-            "A valid academic credential for specialized training.",
-            "Knowledge of pertinent topics for advanced seminars.",
-            "For programs taught in English, **English proficiency** is required.",
-            "Courses taught in German require knowledge of that language.",
-            "Fulfilling the required minimum age.",
-            "When requested, a **Academic transcript**."
+          t: "ul",
+          items: [
+            "Valid international passport with at least 6 months validity beyond the intended travel duration.",
+            "Duly completed and signed institutional summer school application form (submitted online).",
+            "Certified academic transcripts and latest degree/enrollment certificates.",
+            "Updated academic CV or résumé highlighting academic achievements and extra-curricular projects.",
+            "Statement of Purpose (SOP) or motivation letter outlining your academic goals and reasons for joining the course.",
+            "English or German language proficiency certificates, where applicable.",
+            "Letter of recommendation from a university professor or department head (if required by the specific school).",
+            "Proof of current university enrollment (Immatrikulationsbescheinigung) for student discount eligibility.",
+            "Creative portfolio or academic writing sample for specialized architecture, arts, or advanced seminars.",
+            "Application fee or initial program seat deposit confirmation receipt."
           ]
         }
       ]
     },
     {
-      "slot": "admission",
-      "eyebrow": "Admission Requirements",
-      "title": "5. Admission Requirements for German Summer Courses",
-      "groups": [
+      slot: "fees",
+      eyebrow: "Program Costs & Living Expenses",
+      title: "Cost of German Summer Courses",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Candidates might have to submit:",
-            "Some schools have a limited number of slots and evaluate applicants based on their **Academic background**."
+          t: "p",
+          items: [
+            "The total cost of summer courses in Germany varies based on program duration, course discipline, included excursions, accommodation arrangements, and host city. Many comprehensive summer schools bundle tuition, student dorm accommodation, public transport passes, and weekend cultural excursions into a unified program fee.",
+            "**Comprehensive Expense Structure:**"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "A current passport.",
-            "The **application form** has been filled up properly.",
-            "Academic transcripts or certificates.",
-            "Add a CV or résumé, if desired.",
-            "Motivation letter or statement of purpose.",
-            "If applicable, a certificate in German or English.",
-            "A recommendation letter upon request.",
-            "Proof of enrollment at a university, if applicable.",
-            "For specialist courses you will need a portfolio or evidence of previous study.",
-            "The application fee or program deposit, if applicable."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "fees",
-      "eyebrow": "Tuition Fees & Living Costs",
-      "title": "6. The cost of German summer courses",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The cost of summer courses in Germany depends on the duration of the course, accommodation, activities and school.",
-            "**Estimated costs:**"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Some university summer courses are free, but others cost **between €300 and €2,500 or more**.",
-            "Private summer schools can cost anywhere from **€500 to €3,000 or more**.",
-            "Basic living expenses can range from €900 to €1300 per month depending on the city and property type.",
-            "Food and personal expenses are from €250 to €400 per month.",
-            "Local transport costs vary between €50-€100 per month depending on location and availability of tickets.",
-            "Additional charges for insurance and travel vary depending on the country you come from and your personal circumstances.",
-            "**Program fees** Some programs include accommodation, food, excursions and/or local transportation fees. Always check the coverage before you compare program costs."
-          ]
-        },
-        {
-          "t": "table",
-          "headers": [
-            "Category / Expense Type",
-            "Estimated Amount (EUR)",
-            "Applicability & Regulation"
+          t: "table",
+          headers: [
+            "Expense Category",
+            "Estimated Cost (EUR)",
+            "Coverage & Details"
           ],
-          "rows": [
+          rows: [
             [
-              "Some university summer courses are free, but others cost between €300 and €2,500 or more.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
+              "University Summer School Tuition",
+              "€300 – €2,500",
+              "Covers lectures, workshops, academic materials, and ECTS credits; select exchange agreements are tuition-free."
             ],
             [
-              "Private summer schools can cost anywhere from €500 to €3,000 or more.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
+              "Private Academy / Executive Programs",
+              "€500 – €3,000+",
+              "Specialized business schools, design academies, and advanced executive training modules."
             ],
             [
-              "Basic living expenses can range from €900 to €1300 per month depending on the city and property type.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
+              "Student Housing / Dormitory",
+              "€350 – €650 / month",
+              "University residence halls, student apartments (WG), or pre-arranged partner youth hostels."
             ],
             [
-              "Food and personal expenses are from €250 to €400 per month.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
+              "Food & Personal Expenses",
+              "€250 – €400 / month",
+              "Subsidized campus cafeterias (Mensa), local grocery supermarkets, and daily personal necessities."
             ],
             [
-              "Local transport costs vary between €50",
-              "€100 per month depending on location and availability of tickets.",
-              "Public universities waive general tuition fees; semester contribution applies."
+              "Local Transportation Transit Pass",
+              "€50 – €100 / month",
+              "Regional student semester travel pass or nationwide Deutschlandticket (€49 / €58 per month)."
             ],
             [
-              "Additional charges for insurance and travel vary depending on the country you come from and your personal circumstances.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "Program fees Some programs include accommodation, food, excursions and/or local transportation fees. Always check the coverage before you compare program costs.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
+              "International Travel & Medical Insurance",
+              "€40 – €80 / month",
+              "Comprehensive Schengen health insurance coverage (minimum €30,000 medical emergency coverage)."
             ]
           ]
         }
       ]
     },
     {
-      "slot": "process",
-      "eyebrow": "Application Timeline & Steps",
-      "title": "7. How to Apply for Summer Courses in Germany",
-      "groups": []
-    },
-    {
-      "slot": "why",
-      "eyebrow": "Why Study in Germany",
-      "title": "1. Pick the topic or skill you want to learn.",
-      "groups": []
-    },
-    {
-      "slot": "courses",
-      "eyebrow": "Curriculum & Specializations",
-      "title": "2. Check for summer courses offered by German institutions and colleges.",
-      "groups": []
-    },
-    {
-      "slot": "universities",
-      "eyebrow": "Top German Universities",
-      "title": "3. Check the course content, language, length, dates and prices.",
-      "groups": []
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Eligibility Criteria",
-      "title": "4. Review the eligibility criteria and the application deadline.",
-      "groups": []
-    },
-    {
-      "slot": "admission",
-      "eyebrow": "Admission Requirements",
-      "title": "5. Prepare language certificates and academic papers.",
-      "groups": []
-    },
-    {
-      "slot": "fees",
-      "eyebrow": "Tuition Fees & Living Costs",
-      "title": "6. Submit the online application form.",
-      "groups": []
-    },
-    {
-      "slot": "process",
-      "eyebrow": "Application Timeline & Steps",
-      "title": "7. Application fee or program deposit may be required.",
-      "groups": []
-    },
-    {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Quality Standards",
-      "title": "8. Receive your confirmation of admittance.",
-      "groups": []
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Career Prospects & Salary",
-      "title": "9. Arrange for travel insurance, transportation and lodging.",
-      "groups": []
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Required Documentation",
-      "title": "10. After completing formalities, arrange the visa requirements and travel to Germany.",
-      "groups": [
+      slot: "timeline",
+      eyebrow: "Step-by-Step Guide",
+      title: "How to Apply for Summer Courses in Germany",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "**Summer courses, 2027:** Check for program announcements; some schools announce dates and application deadlines many months in advance."
+          t: "p",
+          items: [
+            "Follow this structured 10-step roadmap to successfully select, apply, and enroll in an accredited German summer academy:"
           ]
+        }
+      ],
+      steps: [
+        {
+          step: "01",
+          title: "Select Academic Topic or Skill",
+          desc: "Identify your target field of study—such as engineering, computer science, international business, or intensive German language training."
+        },
+        {
+          step: "02",
+          title: "Research DAAD & University Portals",
+          desc: "Explore accredited summer programs through the DAAD Summer Courses Database and official university international office websites."
+        },
+        {
+          step: "03",
+          title: "Review Syllabus & ECTS Credits",
+          desc: "Examine course syllabi, module dates, language of instruction, class formats, tuition fees, and transferable ECTS credit allocations."
+        },
+        {
+          step: "04",
+          title: "Check Deadlines & Eligibility",
+          desc: "Verify academic prerequisites, language requirements, and application deadlines (typically between February and May for summer intakes)."
+        },
+        {
+          step: "05",
+          title: "Prepare Application Dossier",
+          desc: "Gather your academic transcripts, statement of purpose (SOP), curriculum vitae (CV), and language proficiency credentials."
+        },
+        {
+          step: "06",
+          title: "Submit Online Application",
+          desc: "Complete the online application form on the host university's summer school portal and upload all certified supporting documents."
+        },
+        {
+          step: "07",
+          title: "Pay Program Deposit / Fees",
+          desc: "Remit the application fee or program seat deposit to confirm your registration upon preliminary review by the admissions committee."
+        },
+        {
+          step: "08",
+          title: "Receive Letter of Acceptance",
+          desc: "Obtain your official Letter of Admission (Zulassungsbescheid) and course confirmation documentation required for visa processing."
+        },
+        {
+          step: "09",
+          title: "Arrange Lodging & Travel Insurance",
+          desc: "Confirm university dorm or hostel accommodation, purchase comprehensive Schengen travel health insurance, and reserve flights."
+        },
+        {
+          step: "10",
+          title: "Apply for Schengen Visa & Travel",
+          desc: "Book an appointment at the German embassy or VFS Global center, apply for a Category C Schengen short-stay visa, and travel to Germany."
         }
       ]
     },
     {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Quality Standards",
-      "title": "8. German Summer Course Accreditation and Recognition",
-      "groups": [
+      slot: "accreditation",
+      eyebrow: "Academic Quality & Transfer",
+      title: "German Summer Course Accreditation and Recognition",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Check before you register that the **summer course** provides a **official certificate, academic credits or a certificate of attendance only**.",
-            "Important details among them are:",
-            "Note that completing a summer course does not lead to a professional qualification or a formal German degree. Your home university and the provider of the course will have regulations that will apply to your ability to transfer credit."
+          t: "p",
+          items: [
+            "Before registering, students must verify whether their chosen summer school awards an official graded certificate with ECTS credits, an ungraded certificate of attendance, or specialized micro-credentials.",
+            "**Key Quality & Recognition Considerations:**"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Make that a **well-known institution** is organizing the program.",
-            "Are there **ECTS credits** for the course?",
-            "Check to see if you can transfer credits back to your home university.",
-            "Please check with your school, institution or employer to ensure the certificate is accepted.",
-            "Consult the course syllabus and the assessment requirements."
+          t: "ul",
+          items: [
+            "Verify that the organizing institution is a state-recognized German university or officially accredited educational academy.",
+            "Check the allocation of European Credit Transfer and Accumulation System (ECTS) credits (typically 2 to 6 ECTS per summer module).",
+            "Consult with your home university's academic dean or international office in advance to confirm credit transfer compatibility towards your home degree.",
+            "Verify whether the certificate includes a formal syllabus, contact lecture hours, and final graded examination results.",
+            "Understand that completing a summer course enhances academic and professional profiles but does not confer a formal German university degree."
           ]
         }
       ]
     },
     {
-      "slot": "careers",
-      "eyebrow": "Career Prospects & Salary",
-      "title": "9. Salary and Career Opportunities",
-      "groups": [
+      slot: "careers",
+      eyebrow: "Professional & Academic Impact",
+      title: "Salary and Career Opportunities Following Summer Courses",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Summer courses are usually designed for short term study, not for immediate job certification.",
-            "But they can be useful to the students to acquire new skills and to improve their professional or academic profile.",
-            "Some possible career fields that are aided by relevant summer course skills include:",
-            "In Germany the gross annual salary for suitable, qualified positions is approx:",
-            "For administrative and business occupations, entry-level salaries are in the area of €30,000 to €40,000.",
-            "Starting salaries in tech and technology jobs are between €40,000 and €55,000.",
-            "Experts: €50,000-€75,000 or more.",
-            "These are average salaries for similar jobs – not the cash you’ll earn for taking a summer class. Your actual achievements will depend on your qualification, experience, job responsibilities and proficiency in German language."
+          t: "p",
+          items: [
+            "While summer courses are short-term learning experiences rather than standalone job certifications, they significantly strengthen graduate school applications, demonstrate intercultural agility to global employers, and provide foundational skills for international careers in Germany and Europe.",
+            "**Career Fields Enhanced by German Summer Course Skills:**"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Software Development and Analysis of Data",
-            "the Frontiers of technology and engineering",
-            "Research Support",
-            "Travel & Hospitality",
-            "The field of international relations",
-            "Sustainability of the Environment",
-            "Language and Cultural Services; Communication and Marketing"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Required Documentation",
-      "title": "10. Documents for Enrollment in Summer German Course",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Some of the most requested documents include:",
-            "International students should consider **visa requirements** based on their nationality, length of course, and purpose of visit.",
-            "**Visa approval** is not guaranteed for summer course registration."
+          t: "ul",
+          items: [
+            "Software Engineering, Artificial Intelligence & Big Data Analytics",
+            "Automotive Engineering, Mechatronics & Sustainable Technologies",
+            "Scientific Research, Laboratory Support & Doctoral Fellowships",
+            "International Management, Consulting & European Business Operations",
+            "Environmental Sustainability, Renewable Energy & Climate Policy",
+            "International Relations, Diplomacy & Non-Governmental Organizations",
+            "Bilingual Translation, Cross-Cultural Communications & Marketing"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "You need a current passport.",
-            "The **application form** has been completed.",
-            "Transcripts/certificates, academic.",
-            "proof of enrollment in the university, if required.",
-            "a resume or curriculum vitae.",
-            "a letter of motivation or statement of objectives.",
-            "If necessary a certificate in German or English.",
-            "a letter of recommendation (if needed).",
-            "the **deposit for the program** or payment receipt.",
-            "Confirmation of accommodation if applicable. Travel insurance and visa papers if required."
+          t: "p",
+          items: [
+            "**Estimated Gross Annual Salaries for Qualified Roles in Germany:**",
+            "• Entry-Level Business & Commercial Positions: €30,000 – €40,000",
+            "• Entry-Level Engineering & Technology Roles: €40,000 – €55,000",
+            "• Experienced Professionals & Specialists: €50,000 – €75,000+",
+            "Note: These figures represent industry averages for full-time degree holders in relevant sectors; summer courses serve as stepping stones toward full-time degree studies or European career pathways."
           ]
         }
       ]
     },
     {
-      "slot": "details",
-      "eyebrow": "Key Insights",
-      "title": "11. Summer Courses in Germany: FAQs",
-      "groups": [
+      slot: "documents",
+      eyebrow: "Documentation & Visa Checklist",
+      title: "Documents for Enrollment and Travel to Germany",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Q1. How long are summer courses in Germany?",
-            "The **duration of summer courses in Germany** is **1 to 8 weeks** depending on the subject and institution.",
-            "Q2. Are Indian students allowed to take summer courses in Germany?",
-            "Yes, ** Indian students ** can apply provided they meet the eligibility requirements of the program and have the appropriate travel authorization.",
-            "Q3. Do summer courses in Germany take place in English?",
-            "There are many international summer schools which teach courses in English. Other programs in German language and culture are also available.",
-            "**Q4. Do summer courses in Germany cost nothing?",
-            "Some programs at university require ** tuition or participation fees ** , some are free . Students should also plan for travel, housing, food and insurance.",
-            "Q5. Will I receive a certificate from the German summer courses?",
-            "Many programs offer a **certificate of completion/attendance**. Others provide **academic credits** but students should inquire with the organizer prior to applying.",
-            "How can I study overseas with the assistance of ****Edu Hawk Worldwide Consultancy**?**",
-            "Students can use **Edu Hawk worldwide** to plan their **study-abroad journey**, organize **application documents**, research appropriate universities, and comprehend **admission requirements**. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
+          t: "p",
+          items: [
+            "To successfully enroll in a German summer academy and obtain travel clearance, international students must prepare the following essential documentation:",
+            "**Mandatory Document Checklist:**"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "Valid international passport with at least two blank pages and validity extending 3+ months past departure from the Schengen area.",
+            "Duly completed summer school application and official registration receipt.",
+            "Certified academic transcripts and proof of current university enrollment (if applicable).",
+            "Updated academic CV and personalized statement of motivation.",
+            "Recognized English (IELTS/TOEFL) or German (CEFR) language certificates, if required by the course.",
+            "Letter of recommendation from an academic instructor or faculty supervisor.",
+            "Official program fee receipt or tuition deposit confirmation.",
+            "Proof of secured accommodation (university dormitory confirmation, hostel booking, or rental agreement).",
+            "Comprehensive Schengen travel health insurance policy covering medical emergencies up to €30,000.",
+            "Proof of sufficient financial means for the duration of stay (bank statements or sponsorship letter)."
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "International non-EU students staying under 90 days must apply for a Category C Schengen short-stay visa at the German embassy or consulate. Enrollment in a summer course does not guarantee visa issuance; all standard consular financial and travel criteria must be fulfilled."
           ]
         }
       ]
     }
   ],
-  "faqs": []
+  faqs: [
+    {
+      q: "How long are summer courses in Germany?",
+      a: "Summer courses in Germany typically span from 1 to 8 weeks, with the majority running between 2 and 4 weeks during the summer months of June, July, August, and September."
+    },
+    {
+      q: "Can Indian students take summer courses in Germany?",
+      a: "Yes, Indian students are fully eligible to apply for German summer schools provided they fulfill the academic prerequisites of the course and obtain a Category C Schengen short-stay travel visa."
+    },
+    {
+      q: "Are summer courses in Germany taught in English?",
+      a: "Yes, hundreds of international summer schools at German universities are taught entirely in English, particularly in business, computer science, engineering, and European studies. Intensive German language and cultural immersion courses are also widely available at all CEFR levels (A1 to C2)."
+    },
+    {
+      q: "Do summer courses in Germany charge tuition fees?",
+      a: "While degree programs at public universities are largely tuition-free, summer courses generally require a program or participation fee ranging from €300 to €2,500. Some fees include campus accommodation, local transit passes, and weekend excursions. Certain bilateral university exchange agreements also provide tuition-free summer seats."
+    },
+    {
+      q: "Will I receive academic credits or a certificate from German summer courses?",
+      a: "Yes, most university summer academies award an official Certificate of Completion detailing course hours and 2 to 12 transferable ECTS credits. Students should consult their home university's academic dean beforehand to ensure smooth credit transfer."
+    }
+  ]
 };
 
 export default function SummerCoursesGermanyPage() {
@@ -455,28 +441,38 @@ export default function SummerCoursesGermanyPage() {
     side: sideImg,
     ctaBg: ctaBgImg,
     universities: [
-    {
-      name: "1 . Humboldt University of Berlin",
-      img: uniImg1,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "2 . Heidelberg University",
-      img: uniImg2,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "3 . The University of Leipzig   offers international students academic and language study possibilities.",
-      img: uniImg3,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "University_image4",
-      img: uniImg4,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    }
+      {
+        name: "Humboldt University of Berlin",
+        img: uniImg1,
+        desc: "Prestigious Berlin institution offering world-renowned summer academies in humanities, social sciences, and German language with transferable ECTS credits."
+      },
+      {
+        name: "Heidelberg University",
+        img: uniImg2,
+        desc: "Germany's oldest university hosting international summer academies in philology, biomedical sciences, and European cultural studies."
+      },
+      {
+        name: "Leipzig University",
+        img: uniImg3,
+        desc: "Historic university renowned for its premier InterDaF language institute, cultural research programs, and welcoming campus."
+      },
+      {
+        name: "University of Göttingen",
+        img: uniImg4,
+        desc: "Nobel-laureate-rich research university delivering intensive international summer programs in molecular biology, data science, and sustainable agriculture."
+      }
     ]
   };
 
-  return <AbroadCoursePage page={page} images={images} />;
+  return (
+    <AbroadCoursePage
+      page={page}
+      images={images}
+      heroImg={heroImg}
+      heroBgImg={heroBgImg}
+      sideImg={sideImg}
+      ctaBgImg={ctaBgImg}
+      seoPath="/study-abroad/germany/summer-courses"
+    />
+  );
 }

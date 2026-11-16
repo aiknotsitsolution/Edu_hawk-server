@@ -244,7 +244,7 @@ const page = {
     {
       "slot": "licensing",
       "eyebrow": "Accreditation & Standards",
-      "title": "After receiving the required approvals, make travel and lodging arrangements.#8. Professional Recognition and Accreditation",
+      "title": "After receiving the required approvals, make travel and lodging arrangements.",
       "groups": [
         {
           "t": "p",
@@ -349,7 +349,7 @@ const page = {
             },
             {
               "q": "How much does it cost to study business management in Canada?",
-              "a": "Depending on the curriculum and school, tuition might vary from about CAD 20,000 to CAD 60,000 or more per year. Living costs are extra Study Business Management in Canada for Indian StudentsBest Universities for Business Management in CanadaBusiness Management Courses in Canada for International StudentsUndergraduate Business Management Courses in Canada After 12thMaster's in Business Management in CanadaBusiness Management Eligibility in CanadaBusiness Management Admission Requirements in CanadaBusiness Management Fees in Canada for Indian StudentsBusiness Management Scholarships in Canada for International StudentsMBA in Canada for Indian StudentsBusiness Management Course Duration in CanadaBusiness Management Admission Process in Canada"
+              "a": "Depending on the curriculum and school, tuition might vary from about CAD 20,000 to CAD 60,000 or more per year. Living costs are extra."
             }
           ]
         }

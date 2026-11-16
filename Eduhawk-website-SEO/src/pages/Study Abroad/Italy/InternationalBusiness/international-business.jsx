@@ -16,12 +16,12 @@ const page = {
   "slug": "international_business",
   "title": "International Business in Italy for Indian Students | Edu-Hawk Worldwide",
   "description": "Study International Business in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
-  "keywords": "Top 6 SEO Keywords",
+  "keywords": "International Business in Italy, Study International Business Italy, Best Universities for International Business in Italy, Global Business Italy",
   "introTitle": "International Business in Italy for Indian Students",
-  "heroParas": [
-    "Yes. Some of the universities in Italy offer business and management programs taught in English. The language of instruction of the particular degree is to be checked by students before applying."
+  heroParas: [
+    "Studying International Business in Italy provides students with deep insight into global trade dynamics, multinational market strategy, and European business law in a vibrant Mediterranean economic center."
   ],
-  "overview": [
+  overview: [
     "Yes. Some of the universities in Italy offer business and management programs taught in English. The language of instruction of the particular degree is to be checked by students before applying."
   ],
   "level": "Undergraduate & Postgraduate",
@@ -134,19 +134,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Graduates can work in international marketing, business development, trade, logistics, consulting, operations and multinational companies. Getting a job depends on your skills, experience, language ability and work authorization.",
-            "Top 6 SEO Keywords"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "International Business in Italy for Indian Students",
-            "International Business Courses in Italy",
-            "Best International Business Schools in Italy",
-            "International Business Eligibility in Italy",
-            "International Business Admission Requirements in Italy",
-            "Cost of Studying International Business in Italy"
+            "Graduates can work in international marketing, business development, trade, logistics, consulting, operations and multinational companies. Getting a job depends on your skills, experience, language ability and work authorization."
           ]
         }
       ]
@@ -221,7 +209,34 @@ const page = {
         }
       ]
     }
-  ]
+  ],
+  faqs: [
+    {
+        "q": "Can Indian students study International Business in Italy in English?",
+        "a": "Yes. Leading Italian universities offer comprehensive English-taught bachelor's and master's degrees in International Business and Global Trade."
+    },
+    {
+        "q": "How long are International Business programmes in Italy?",
+        "a": "Bachelor's programmes take 3 years (180 ECTS) and Master of Science programmes take 2 years (120 ECTS)."
+    },
+    {
+        "q": "What are the tuition fees for International Business in Italy?",
+        "a": "Tuition at public universities ranges from €1,000 to €4,000 per year, with need-based DSU regional scholarships available to eligible applicants."
+    },
+    {
+        "q": "What topics are covered in the International Business curriculum?",
+        "a": "Coursework spans global market strategy, international finance, cross-border supply chain, European commercial law, and intercultural negotiations."
+    },
+    {
+        "q": "Can students participate in exchange programmes like Erasmus+?",
+        "a": "Yes. Students can take part in European Erasmus+ semesters and dual-degree partnerships across top European business schools."
+    },
+    {
+        "q": "What career paths are available for international business graduates?",
+        "a": "Graduates work as global trade analysts, export managers, international business consultants, and supply chain coordinators in multinational enterprises."
+    }
+],
+  faqTitle: "Frequently Asked Questions About International Business in Italy"
 };
 
 export default function InternationalBusinessItaly() {

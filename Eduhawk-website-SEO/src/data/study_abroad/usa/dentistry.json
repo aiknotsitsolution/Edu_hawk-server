@@ -1,57 +1,87 @@
 {
   "seo": {
-    "title": "Dentistry in USA | Top Universities, Fees & Visa 2026 | Edu Hawk",
-    "description": "Complete guide to studying Dentistry in USA for Indian students. Admissions, entry requirements, tuition fees, top US universities and scholarships."
+    "title": "Study Dentistry Abroad for Indian Students | Edu Hawk",
+    "description": "Planning to study dentistry abroad? EduHawk shortlists NMC-recognised universities for BDS, explains real costs and guides you through admission and visas."
   },
   "hero": {
-    "badge": "MBBS & Medical Abroad",
-    "title": "Dentistry in USA",
-    "subtitle": "Experience world-class academic training and global career pathways in the United States with Edu Hawk Worldwide.",
-    "ctaText": "Book Free Counselling",
-    "image": ""
+    "badge": "Study Dentistry · Abroad",
+    "title": "Dentistry Abroad",
+    "subtitle": "Limited seats and high competition for BDS in India make studying dentistry abroad a smart and practical choice for many students.\n\nEduHawk helps you choose only NMC-recognised universities, understand real costs, and complete the entire admission + visa process with complete transparency.",
+    "ctaText": "Book free counselling",
+    "image": "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=900&q=80"
   },
   "stats": [
     {
-      "n": "1000+",
-      "l": "Students Placed Globally"
+      "n": "BDS, MDS & Allied Dental Courses",
+      "l": "Programs"
     },
     {
-      "n": "20+",
+      "n": "12+ destinations with NMC-recognised options",
       "l": "Countries"
     },
     {
-      "n": "200+",
-      "l": "Partner Universities"
+      "n": "End-to-end guidance from profile to arrival",
+      "l": "Support"
     },
     {
-      "n": "100%",
-      "l": "Support (Visa & End-to-End Guidance)"
+      "n": "Transparent fees, honest counselling & outcome focus",
+      "l": "Approach"
     }
   ],
   "highlights": {
-    "degree": "BDS / DMD / DDS",
-    "duration": "4 - 5 Years",
-    "fee": "$35,000 - $65,000 / Year",
-    "eligibility": "50% PCB + NEET / DAT",
+    "degree": "BDS, MDS & Allied Dental Courses",
+    "duration": "5 to 6 Years",
+    "fee": "₹15–38 Lakhs (Total Budget Range)",
+    "eligibility": "Minimum 50% in PCB + NEET Qualification",
     "medium": "English"
   },
-  "overview": "Studying Dentistry in USA provides Indian scholars with unparalleled research facilities, industry-aligned curriculum, STEM OPT work authorization, and global professional prospects.",
+  "overview": "Every year, a large number of Indian students look for BDS seats outside India due to limited seats, intense competition, and high fees of private dental colleges.\n\nStudying dentistry abroad not only increases your chances of admission but also gives you better clinical exposure and an international learning environment.\n\nAt EduHawk, we focus on long-term outcomes. We help you choose only NMC-eligible universities, understand real costs, and complete the entire process with full transparency.",
   "universities": [
     {
-      "name": "Top Ranked US Institution",
-      "location": "United States",
-      "fee": "$35,000 - $65,000 / Year",
-      "image": ""
+      "name": "Michigan_School_of_Dentistry",
+      "location": "University of Michigan School of Dentistry",
+      "fee": "Affordable with good clinical exposure",
+      "image": "/src/Images/Abroad/USA/Dentistry_USA/Michigan_School_of_Dentistr.webp"
+    },
+    {
+      "name": "San_Francisco_School_of_Dentistry",
+      "location": "English medium & modern campuses",
+      "fee": "Affordable with good clinical exposure",
+      "image": "/src/Images/Abroad/USA/Dentistry_USA/San_Francisco_School_of_Dentistry.webp"
+    },
+    {
+      "name": "Pennsylvania_School_of_Dental_Medicine",
+      "location": "Affordable with good clinical exposure",
+      "fee": "Affordable with good clinical exposure",
+      "image": "/src/Images/Abroad/USA/Dentistry_USA/Pennsylvania_School_of_Dental_Medicine.webp"
+    },
+    {
+      "name": "University_College_of_Dentistry",
+      "location": "Affordable with good clinical exposure",
+      "fee": "Affordable with good clinical exposure",
+      "image": "/src/Images/Abroad/USA/Dentistry_USA/University_College_of_Dentistry.webp"
     }
   ],
   "faq": [
     {
-      "question": "What are the admission requirements for Dentistry in USA?",
-      "answer": "Indian applicants generally require: 50% PCB + NEET / DAT, English proficiency (IELTS/TOEFL/PTE or Duolingo), academic transcripts, and letters of recommendation."
+      "question": "Is NEET mandatory for BDS abroad?",
+      "answer": "Yes. As per current NMC guidelines, Indian students must qualify NEET to pursue BDS abroad. Without NEET, the degree will not be valid for registration or practice in India."
     },
     {
-      "question": "Can I work while studying in the USA?",
-      "answer": "International students on F-1 visa can work on-campus up to 20 hours per week during semesters and full-time during breaks. Graduates of STEM programs receive up to 3 years of post-study OPT work authorization."
+      "question": "Which countries are best for BDS abroad in 2026-27?",
+      "answer": "Russia, Georgia, Kazakhstan, Uzbekistan and Kyrgyzstan are currently the most preferred destinations for Indian students due to NMC recognition, reasonable fees and good clinical exposure. The best choice depends on your budget and NEET score."
+    },
+    {
+      "question": "What is the total cost of BDS abroad?",
+      "answer": "The total cost (tuition + hostel + living expenses) usually ranges between ₹15–38 lakhs for the complete course. We provide a transparent year-wise cost sheet before you apply."
+    },
+    {
+      "question": "Will my BDS degree be valid in India?",
+      "answer": "Yes, provided you study at an NMC-recognised university, complete the required duration and clear the licensing exam. We only recommend eligible universities."
+    },
+    {
+      "question": "When should I start the process?",
+      "answer": "Ideally 6–10 months before the intake. Most intakes start in September/October. Early application helps with better hostel options and smoother visa processing."
     }
   ]
 }

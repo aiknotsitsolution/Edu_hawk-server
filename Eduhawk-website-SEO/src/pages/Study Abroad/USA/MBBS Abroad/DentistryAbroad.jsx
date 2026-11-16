@@ -5,6 +5,7 @@ import San_Francisco_School_of_Dentistry from "../../../../Images/Abroad/USA/Den
 import Pennsylvania_School_of_Dental_Medicine from "../../../../Images/Abroad/USA/Dentistry_USA/Pennsylvania_School_of_Dental_Medicine.webp";
 
 import University_College_of_Dentistry from "../../../../Images/Abroad/USA/Dentistry_USA/University_College_of_Dentistry.webp";
+import dentistryData from "../../../../data/study_abroad/usa/dentistry.json";
 
 
 const DentistryAbroad = () =>
@@ -66,18 +67,20 @@ const DentistryAbroad = () =>
     sectionRefs.current[id] = el;
   };
 
-  const stats = [
-    { label: "Programs", value: "BDS, MDS & Allied Dental Courses" },
-    {
-      label: "Countries",
-      value: "12+ destinations with NMC-recognised options",
-    },
-    { label: "Support", value: "End-to-end guidance from profile to arrival" },
-    {
-      label: "Approach",
-      value: "Transparent fees, honest counselling & outcome focus",
-    },
-  ];
+  const stats = (dentistryData?.stats && dentistryData.stats.length > 0)
+    ? dentistryData.stats.map((s) => ({ label: s.l, value: s.n }))
+    : [
+        { label: "Programs", value: "BDS, MDS & Allied Dental Courses" },
+        {
+          label: "Countries",
+          value: "12+ destinations with NMC-recognised options",
+        },
+        { label: "Support", value: "End-to-end guidance from profile to arrival" },
+        {
+          label: "Approach",
+          value: "Transparent fees, honest counselling & outcome focus",
+        },
+      ];
 
   const features = [
     {
@@ -187,28 +190,30 @@ const DentistryAbroad = () =>
     },
   ];
 
-  const faqs = [
-    {
-      q: "Is NEET mandatory for BDS abroad?",
-      a: "Yes. As per current NMC guidelines, Indian students must qualify NEET to pursue BDS abroad. Without NEET, the degree will not be valid for registration or practice in India.",
-    },
-    {
-      q: "Which countries are best for BDS abroad in 2026-27?",
-      a: "Russia, Georgia, Kazakhstan, Uzbekistan and Kyrgyzstan are currently the most preferred destinations for Indian students due to NMC recognition, reasonable fees and good clinical exposure. The best choice depends on your budget and NEET score.",
-    },
-    {
-      q: "What is the total cost of BDS abroad?",
-      a: "The total cost (tuition + hostel + living expenses) usually ranges between ₹15–38 lakhs for the complete course. We provide a transparent year-wise cost sheet before you apply.",
-    },
-    {
-      q: "Will my BDS degree be valid in India?",
-      a: "Yes, provided you study at an NMC-recognised university, complete the required duration and clear the licensing exam. We only recommend eligible universities.",
-    },
-    {
-      q: "When should I start the process?",
-      a: "Ideally 6–10 months before the intake. Most intakes start in September/October. Early application helps with better hostel options and smoother visa processing.",
-    },
-  ];
+  const faqs = (dentistryData?.faq && dentistryData.faq.length > 0)
+    ? dentistryData.faq.map((f) => ({ q: f.question, a: f.answer }))
+    : [
+        {
+          q: "Is NEET mandatory for BDS abroad?",
+          a: "Yes. As per current NMC guidelines, Indian students must qualify NEET to pursue BDS abroad. Without NEET, the degree will not be valid for registration or practice in India.",
+        },
+        {
+          q: "Which countries are best for BDS abroad in 2026-27?",
+          a: "Russia, Georgia, Kazakhstan, Uzbekistan and Kyrgyzstan are currently the most preferred destinations for Indian students due to NMC recognition, reasonable fees and good clinical exposure. The best choice depends on your budget and NEET score.",
+        },
+        {
+          q: "What is the total cost of BDS abroad?",
+          a: "The total cost (tuition + hostel + living expenses) usually ranges between ₹15–38 lakhs for the complete course. We provide a transparent year-wise cost sheet before you apply.",
+        },
+        {
+          q: "Will my BDS degree be valid in India?",
+          a: "Yes, provided you study at an NMC-recognised university, complete the required duration and clear the licensing exam. We only recommend eligible universities.",
+        },
+        {
+          q: "When should I start the process?",
+          a: "Ideally 6–10 months before the intake. Most intakes start in September/October. Early application helps with better hostel options and smoother visa processing.",
+        },
+      ];
 
   const specializations = [
     "Orthodontics",
@@ -301,8 +306,8 @@ const DentistryAbroad = () =>
   return (
     <div className="dentistry-page font-sans text-slate-800 bg-white min-h-screen antialiased">
       <SeoHead
-        title="Study Dentistry Abroad for Indian Students | Edu Hawk"
-        description="Planning to study dentistry abroad? EduHawk shortlists NMC-recognised universities for BDS, explains real costs and guides you through admission and visas."
+        title={dentistryData?.seo?.title || "Study Dentistry Abroad for Indian Students | Edu Hawk"}
+        description={dentistryData?.seo?.description || "Planning to study dentistry abroad? EduHawk shortlists NMC-recognised universities for BDS, explains real costs and guides you through admission and visas."}
         path="/study-abroad/usa/dentistry"
         ogType="website"
       />
@@ -472,13 +477,13 @@ const DentistryAbroad = () =>
               </div>
 
               <div className="text-xs font-semibold tracking-wider uppercase text-teal-300 mb-3">
-                Study Dentistry · Abroad
+                {dentistryData?.hero?.badge || "Study Dentistry · Abroad"}
               </div>
 
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-5">
                 Study{" "}
                 <span className="bg-gradient-to-r from-teal-400 to-amber-300 bg-clip-text text-transparent">
-                  Dentistry Abroad
+                  {dentistryData?.hero?.title || "Dentistry Abroad"}
                 </span>{" "}
                 with confidence
               </h1>
@@ -500,7 +505,7 @@ const DentistryAbroad = () =>
                   href="#consult"
                   className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base bg-teal-600 text-white hover:bg-teal-700 hover:scale-105 transition-all duration-300 no-underline shadow-lg shadow-teal-600/25"
                 >
-                  Book free counselling
+                  {dentistryData?.hero?.ctaText || "Book free counselling"}
                 </a>
                 <a
                   href="#destinations"
@@ -921,28 +926,65 @@ const DentistryAbroad = () =>
 
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            {[
-              {
-                img: Michigan_School_of_Dentistry,
-                name: "Michigan_School_of_Dentistry",
-                desc: "University of Michigan School of Dentistry",
-              },
-              {
-                img: San_Francisco_School_of_Dentistry,
-                name: "San_Francisco_School_of_Dentistry",
-                desc: "English medium & modern campuses",
-              },
-              {
-                img: Pennsylvania_School_of_Dental_Medicine,
-                name: "Pennsylvania_School_of_Dental_Medicine",
-                desc: "Affordable with good clinical exposure",
-              },
-              {
-                img: University_College_of_Dentistry,
-                name: "University_College_of_Dentistry",
-                desc: "Affordable with good clinical exposure",
-              },
-            ].map((dest, i) => (
+            {((dentistryData?.universities && dentistryData.universities.length > 0)
+              ? dentistryData.universities.map((u, i) => {
+                  const fallbackList = [
+                    {
+                      img: Michigan_School_of_Dentistry,
+                      name: "Michigan_School_of_Dentistry",
+                      desc: "University of Michigan School of Dentistry",
+                    },
+                    {
+                      img: San_Francisco_School_of_Dentistry,
+                      name: "San_Francisco_School_of_Dentistry",
+                      desc: "English medium & modern campuses",
+                    },
+                    {
+                      img: Pennsylvania_School_of_Dental_Medicine,
+                      name: "Pennsylvania_School_of_Dental_Medicine",
+                      desc: "Affordable with good clinical exposure",
+                    },
+                    {
+                      img: University_College_of_Dentistry,
+                      name: "University_College_of_Dentistry",
+                      desc: "Affordable with good clinical exposure",
+                    },
+                  ];
+                  const imgMap = {
+                    "Michigan_School_of_Dentistry": Michigan_School_of_Dentistry,
+                    "San_Francisco_School_of_Dentistry": San_Francisco_School_of_Dentistry,
+                    "Pennsylvania_School_of_Dental_Medicine": Pennsylvania_School_of_Dental_Medicine,
+                    "University_College_of_Dentistry": University_College_of_Dentistry,
+                  };
+                  return {
+                    name: u.name || fallbackList[i]?.name,
+                    desc: u.location || u.fee || fallbackList[i]?.desc,
+                    img: imgMap[u.name] || u.image || fallbackList[i]?.img,
+                  };
+                })
+              : [
+                  {
+                    img: Michigan_School_of_Dentistry,
+                    name: "Michigan_School_of_Dentistry",
+                    desc: "University of Michigan School of Dentistry",
+                  },
+                  {
+                    img: San_Francisco_School_of_Dentistry,
+                    name: "San_Francisco_School_of_Dentistry",
+                    desc: "English medium & modern campuses",
+                  },
+                  {
+                    img: Pennsylvania_School_of_Dental_Medicine,
+                    name: "Pennsylvania_School_of_Dental_Medicine",
+                    desc: "Affordable with good clinical exposure",
+                  },
+                  {
+                    img: University_College_of_Dentistry,
+                    name: "University_College_of_Dentistry",
+                    desc: "Affordable with good clinical exposure",
+                  },
+                ]
+            ).map((dest, i) => (
               <div
                 key={i}
                 className="dentistry-animated-card dentistry-photo-frame dentistry-university-card relative rounded-2xl overflow-hidden h-60 group cursor-pointer shadow-md hover:shadow-xl"

@@ -16,12 +16,12 @@ const page = {
   "slug": "auto_engg_pg",
   "title": "Automobile Engineering - PG in Italy for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Automobile Engineering - PG in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
-  "keywords": "Top 6 SEO Keywords",
+  "keywords": "Automobile Engineering in Italy, Master's in Automotive Engineering Italy, Motor Valley Italy Master's, Study Automobile Engineering Italy",
   "introTitle": "Automobile Engineering in Italy for Indian Students",
-  "heroParas": [
-    "Yes. Indian students can apply for eligible Master's programs in Automobile Engineering, Advanced Automotive Engineering, Vehicle Engineering or related subjects subject to meeting the university's academic and language requirements."
+  heroParas: [
+    "Pursuing a Master’s in Automobile Engineering in Italy places students in the heart of the world-famous 'Motor Valley', home to legendary automotive pioneers including Ferrari, Lamborghini, Maserati, Dallara, and Ducati."
   ],
-  "overview": [
+  overview: [
     "Yes. Indian students can apply for eligible Master's programs in Automobile Engineering, Advanced Automotive Engineering, Vehicle Engineering or related subjects subject to meeting the university's academic and language requirements."
   ],
   "level": "Postgraduate",
@@ -145,19 +145,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Graduates can find opportunities in automotive design, electric vehicles, powertrain development, vehicle testing, manufacturing, motorsport and research and development. Job availability depends on technical skills, experience, language ability and work authorization.",
-            "Top 6 SEO Keywords"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Automobile Engineering in Italy for Indian Students",
-            "Master's in Automobile Engineering in Italy",
-            "Automotive Engineering Courses in Italy",
-            "Best Universities for Automobile Engineering in Italy",
-            "Automobile Engineering Admission in Italy",
-            "Automobile Engineering Fees in Italy"
+            "Graduates can find opportunities in automotive design, electric vehicles, powertrain development, vehicle testing, manufacturing, motorsport and research and development. Job availability depends on technical skills, experience, language ability and work authorization."
           ]
         }
       ]
@@ -168,17 +156,35 @@ const page = {
       "title": "Automobile Engineering Admission Process in Italy",
       "groups": [
         {
-          "t": "ul",
-          "items": [
-            "Select your program: Compare automotive engineering, motorsport engineering, vehicle engineering, and powertrain specialisations.",
-            "Eligibility check: Check degree requirements, academic results, language requirements and selection criteria.",
-            "Get papers ready: Gather transcripts, diplomas, CV, results of language tests and any other documents that are needed.",
-            "Apply online: Apply in the official university portal before the deadline.",
-            "Complete the assessment Attend any interview, academic evaluation or selection process that may be necessary.",
-            "Verify admission and funding: Follow the university's instructions on how to accept the offer, enroll and apply for scholarships.",
-            "Complete the visa formalities: Follow the appropriate student-visa process and see if pre-enrolment through Universitaly is necessary."
-          ]
-        },
+        "t": "timeline",
+        "items": [
+                {
+                        "step": "1",
+                        "title": "Select Your Program",
+                        "desc": "Compare automotive engineering, motorsport engineering, vehicle engineering, and powertrain specialisations."
+                },
+                {
+                        "step": "2",
+                        "title": "Get Papers Ready",
+                        "desc": "Gather transcripts, diplomas, CV, results of language tests and any other documents that are needed."
+                },
+                {
+                        "step": "3",
+                        "title": "Apply Online",
+                        "desc": "Apply in the official university portal before the deadline."
+                },
+                {
+                        "step": "4",
+                        "title": "Step 4",
+                        "desc": "Complete the assessment Attend any interview, academic evaluation or selection process that may be necessary."
+                },
+                {
+                        "step": "5",
+                        "title": "Complete The Visa Formalities",
+                        "desc": "Follow the appropriate student-visa process and see if pre-enrolment through Universitaly is necessary."
+                }
+        ]
+},
         {
           "t": "p",
           "items": [
@@ -217,47 +223,6 @@ const page = {
         {
           "t": "ul",
           "items": [
-            "Automotive Engineer Jobs",
-            "Automotive Design Engineer",
-            "Automotive Dynamics Engineer",
-            "Powertrain Engineer",
-            "Electric Vehicle Engineer",
-            "Automotive Manufacturing Engineer",
-            "Motorsport Engineer",
-            "Automotive Test & Validation Engineer",
-            "Automotive Simulation Engineer",
-            "R&D Engineer"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Indicative salary ranges",
-            "These are broad indicative gross annual salary ranges for career planning purposes, not verified salary statistics or guarantyd job offers.",
-            "Career stageExample annual salaryApproximate Equivalent INR",
-            "Entry level€28,000-€35,000₹30.41-₹38.01 lakh",
-            "Professional with experience€35,000-€50,000₹38.01-₹54.30 lakh",
-            "Senior or specialist professional€50,000 - €70,000+₹54.30 - ₹76.02 lakh+",
-            "INR equivalents use €1 = ₹108.60. Wages vary depending on where you live and work, your area of expertise, your experience and language skills. Figures are gross, before tax and other deductions.",
-            "Familiarity with electric vehicle systems, vehicle simulation, CAD/CAE tools, embedded systems, and automotive testing may be beneficial for applicable positions. Actual hiring results depend on the skills, experience, work authorization and market conditions of the applicant."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Document Checklist",
-      "title": "Documents needed to study Automobile Engineering in Italy",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Get the documents that the university you have chosen requires. Typical requirements are as follows:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
             "Valid passport",
             "Bachelor's degree certificate or provisional certificate",
             "Academic transcripts and mark sheets",
@@ -279,7 +244,34 @@ const page = {
         }
       ]
     }
-  ]
+  ],
+  faqs: [
+    {
+        "q": "Why is Italy world-renowned for Automotive Engineering studies?",
+        "a": "Italy is home to the legendary 'Motor Valley' in Emilia-Romagna, where universities partner directly with Ferrari, Lamborghini, Maserati, and Ducati through MUNER (Motorvehicle University of Emilia-Romagna)."
+    },
+    {
+        "q": "What is the duration of a Master's in Automotive Engineering in Italy?",
+        "a": "The Master's degree requires 2 years of full-time study (120 ECTS credits) including laboratory projects and an industry-sponsored thesis."
+    },
+    {
+        "q": "What are the tuition fees for Automotive Engineering in Italy?",
+        "a": "Tuition at public universities ranges from €1,000 to €3,800 per year, and eligible students can receive full fee waivers through regional scholarships."
+    },
+    {
+        "q": "What are the entrance requirements for automotive master's in Italy?",
+        "a": "Applicants need a Bachelor's degree in mechanical, automotive, electrical, or aerospace engineering with strong foundational grades and English proficiency (IELTS 6.5+)."
+    },
+    {
+        "q": "What specializations are available in Italian automotive master's?",
+        "a": "Specializations include High-Performance Car Design, Electric Powertrain & Battery Systems, Autonomous Driving Systems, and Racing Car Aerodynamics."
+    },
+    {
+        "q": "What are the post-graduation employment opportunities?",
+        "a": "Graduates secure high-level positions in motorsport engineering, vehicle testing, powertrain research, and smart mobility across Europe's leading automotive brands."
+    }
+],
+  faqTitle: "Frequently Asked Questions About Automobile Engineering PG in Italy"
 };
 
 export default function AutomobileEngineeringPGItaly() {

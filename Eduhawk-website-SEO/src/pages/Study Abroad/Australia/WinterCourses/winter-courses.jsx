@@ -21,8 +21,22 @@ const page = {
   description: "Study Winter Courses in Australia. Explore mid-year July intensives, winter school programs (UQ, Deakin, Melbourne, CQUniversity), transferable credits, and application deadlines.",
   keywords: "Winter Courses in Australia for Indian Students Short-Term Winter Courses in Australia for International Students Winter Schools in Australia for Indian Students Winter Study Abroad Programs in Australia University Winter Programs in Australia for International Students Winter Courses in Australia After 12th Winter Course Fees in Australia for Indian Students Winter Course Admission Requirements in Australia Short-Term Study Programs in Australia with Student Visa Winter Study Tours in Australia for Indian Students",
   introTitle: "Australian Winter Courses for Indian Students",
-  heroParas: ["Short-term educational programs called \"winter courses\" are available in Australia during the country's winter, which typically lasts from June to August. Without committing to a full degree, these programs give students the chance to learn new academic disciplines, gain useful skills, take part in workshops, or experience an Australian learning environment.","Winter schools, intense classes, academic workshops, study tours, and professional development programs may be offered by Australian universities, colleges, language schools, and specialized education providers."],
-  overview: ["Programs in business, management, engineering, computer science, science, architecture, English, humanities, and other fields are available to students.","Important Highlights","Short-term educational opportunities in the winter","Programs in both professional and academic fields","Possibilities to enhance analytical and practical skills","exposure to educational settings in Australia","When available, workshops, projects, seminars, and fieldwork","Possible college credit for specific courses","Possibilities to enhance communication in English","Learning about different cultures and traveling abroad"],
+  heroParas: [
+    "Short-term educational programs called \"winter courses\" are available in Australia during the country's winter, which typically lasts from June to August. Without committing to a full degree, these programs give students the chance to learn new academic disciplines, gain useful skills, take part in workshops, or experience an Australian learning environment."
+  ],
+  overview: [
+    "Winter schools, intense classes, academic workshops, study tours, and professional development programs may be offered by Australian universities, colleges, language schools, and specialized education providers.",
+    "Programs in business, management, engineering, computer science, science, architecture, English, humanities, and other fields are available to students.",
+    "Important Highlights",
+    "Short-term educational opportunities in the winter",
+    "Programs in both professional and academic fields",
+    "Possibilities to enhance analytical and practical skills",
+    "exposure to educational settings in Australia",
+    "When available, workshops, projects, seminars, and fieldwork",
+    "Possible college credit for specific courses",
+    "Possibilities to enhance communication in English",
+    "Learning about different cultures and traveling abroad"
+  ],
   level: "Short Programs & Winter Term",
   crumb: "Seasonal & Short Courses",
 

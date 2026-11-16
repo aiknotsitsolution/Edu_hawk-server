@@ -16,12 +16,12 @@ const page = {
   "slug": "bba",
   "title": "BBA in Italy for Indian Students | Edu-Hawk Worldwide",
   "description": "Study BBA in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
-  "keywords": "Top 6 SEO Keywords",
+  "keywords": "BBA in Italy, Study BBA in Italy for Indian Students, Bachelor of Business Administration in Italy, Best BBA Universities in Italy, Cost of BBA in Italy",
   "introTitle": "BBA in Italy for Indian Students",
-  "heroParas": [
-    "Yeah. Indian students can apply for eligible undergraduate business and management programs after Class 12, as long as they meet the university's academic, language and other admission criteria."
+  heroParas: [
+    "Studying a BBA in Italy provides international students with premier European business education, global commerce foundations, and direct corporate exposure across Europe's fourth-largest economy."
   ],
-  "overview": [
+  overview: [
     "Yeah. Indian students can apply for eligible undergraduate business and management programs after Class 12, as long as they meet the university's academic, language and other admission criteria."
   ],
   "level": "Undergraduate",
@@ -145,19 +145,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Yes. Graduates who satisfy the institution's admission criteria can apply to an MBA or another postgraduate business program. Some of the traditional MBA programs require professional work experience, so recent graduates may want to consider a Master's in Management.",
-            "Top 6 SEO Keywords"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "BBA in Italy for Indian Students",
-            "Bachelor of Business Administration in Italy",
-            "BBA Courses in Italy",
-            "Best BBA Universities in Italy",
-            "BBA Admission Requirements in Italy",
-            "Cost of Studying BBA in Italy"
+            "Yes. Graduates who satisfy the institution's admission criteria can apply to an MBA or another postgraduate business program. Some of the traditional MBA programs require professional work experience, so recent graduates may want to consider a Master's in Management."
           ]
         }
       ]
@@ -168,21 +156,45 @@ const page = {
       "title": "BBA Admission in Italy",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Here are the general steps that Indian students can follow to apply for a bachelor's degree in business or management in Italy.",
-            "Pick a course and university. Compare business administration, economics and management, international business and related programs.",
-            "Eligibility check . Go through the Class 12 prerequisites, academic qualifications, subject prerequisites and language prerequisites.",
-            "Exams check entrance. Find out if the university requires you to take an aptitude test, a standardized test or some other test.",
-            "Have your papers ready. Gather school certificates, mark sheets, passport details, language test scores, and any other supporting documents.",
-            "Apply today. Apply before the deadline and pay the fee if required, visit the university official site.",
-            "Selection procedures finished. You may have to take an entrance test, attend an interview or other assessment.",
-            "Get your admission decision. Read the offer, the tuition fee, payment deadlines and any conditions attached to your place.",
-            "Complete pre-enrollment and visa formalities. Follow the instructions of the university, Universitaly and the relevant Italian consular authority.",
-            "Finish college enrollment. Please submit any outstanding documents and follow the institution's guidelines before you start your course.",
-            "Different deadlines and procedures for applying to universities. Students should start early to have time for entrance tests, preparing documents, decisions on admission and processing of visas."
-          ]
-        }
+        "t": "timeline",
+        "items": [
+                {
+                        "step": "1",
+                        "title": "Pick A Course And University",
+                        "desc": "Compare business administration, economics and management, international business and related programs."
+                },
+                {
+                        "step": "2",
+                        "title": "Have Your Papers Ready",
+                        "desc": "Gather school certificates, mark sheets, passport details, language test scores, and any other supporting documents."
+                },
+                {
+                        "step": "3",
+                        "title": "Apply Today",
+                        "desc": "Apply before the deadline and pay the fee if required, visit the university official site."
+                },
+                {
+                        "step": "4",
+                        "title": "Selection Procedures Finished",
+                        "desc": "You may have to take an entrance test, attend an interview or other assessment."
+                },
+                {
+                        "step": "5",
+                        "title": "Get Your Admission Decision",
+                        "desc": "Read the offer, the tuition fee, payment deadlines and any conditions attached to your place."
+                },
+                {
+                        "step": "6",
+                        "title": "Step 6",
+                        "desc": "Complete pre-enrollment and visa formalities. Follow the instructions of the university, Universitaly and the relevant Italian consular authority."
+                },
+                {
+                        "step": "7",
+                        "title": "Finish College Enrollment",
+                        "desc": "Please submit any outstanding documents and follow the institution's guidelines before you start your course."
+                }
+        ]
+}
       ]
     },
     {
@@ -195,23 +207,6 @@ const page = {
           "items": [
             "A Bachelor's degree from a recognized Italian university can be a springboard to further study or a job in a business-related field. Students should, however, check the exact status and recognition of the qualification before enrolling.",
             "Things to check include:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Whether the institution is recognized by the Italian higher education system.",
-            "The official title of the degree and level of qualification.",
-            "If the program is a bachelor's degree, usually a Laurea or Laurea Triennale.",
-            "Length of the program and ECTS credits.",
-            "If the qualification is accepted for entry to the postgraduate courses you may wish to study.",
-            "Whether there are any recognition or equivalence requirements in India or any other country where you plan to work or study."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "After obtaining a Bachelor's degree in Italy, students can apply for a Master's in Management, an MBA (if eligible), or another relevant postgraduate qualification. Eligibility is determined by the requirements of the host institution."
           ]
         }
       ]
@@ -226,55 +221,6 @@ const page = {
           "items": [
             "A BBA or related bachelor's degree may assist graduates in securing entry-level positions in business, sales, marketing, finance, operations and administration. Career opportunities depend on the specialization of the student, internships, language skills, practical experience and the requirements of the employer.",
             "Potential job titles include:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Business Development Executive.",
-            "Marketing Manager.",
-            "Sales Executive",
-            "Assistant Human Resources.",
-            "Financial Analyst, Junior.",
-            "Operations Coordinator.",
-            "Executive - Customer Relations",
-            "Digital Marketing Executive",
-            "Assistant Administrator",
-            "Junior Business Analyst, where the candidate possesses the necessary analytical skills."
-          ]
-        },
-        {
-          "t": "table",
-          "headers": [
-            "BBA Salary In Italy",
-            "BBA Estimated Salary"
-          ],
-          "rows": []
-        },
-        {
-          "t": "p",
-          "items": [
-            "The following figures represent illustrative broad gross annual salary ranges for related entry level business roles. These salary statistics are unverified and not specific to BBA graduates. You may get offers lower or higher than these.",
-            "Stage in careerExample: gross annual income",
-            "Business and administrative support roles€22,000-€28,000 (₹23.89-₹30.41 lakh)",
-            "Junior specialist / analyst positions€25,000-€35,000 (₹27.15-₹38.01 lakh)",
-            "Experienced professionals moving into management€35,000-€50,000+ (₹38.01-₹54.30 lakh +)",
-            "INR equivalents use €1=Rs108.60.",
-            "These figures are gross salaries before applicable taxes and deductions and not take-home pay. Salary depends on the employer, city, industry, language proficiency, skills and work experience. A bachelor's degree does not guaranty a job or a specific salary.",
-            "International graduates must also satisfy immigration and work authorization rules applicable to their situation. Knowing Italian language can give you better access to the local job market (but some international companies hire English-speaking staff)."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Document Checklist",
-      "title": "Documents Required for BBA in Italy",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Documents required for Indian students applying for BBA or related undergraduate business program in Italy may be:"
           ]
         },
         {
@@ -303,7 +249,34 @@ const page = {
         }
       ]
     }
-  ]
+  ],
+  faqs: [
+    {
+        "q": "Can students from India study BBA in Italy after Class 12?",
+        "a": "Yes. Indian students who have completed Class 12 with a recognized board can apply to English-taught BBA programmes across Italian universities."
+    },
+    {
+        "q": "How long is a BBA degree in Italy?",
+        "a": "A BBA in Italy typically lasts 3 years and comprises 180 ECTS credits under the European Bologna process."
+    },
+    {
+        "q": "How much does it cost to study BBA in Italy?",
+        "a": "Public university tuition ranges from €1,000 to €4,000 per year, making Italy one of the most affordable study destinations in Europe."
+    },
+    {
+        "q": "Do I need IELTS for BBA in Italy?",
+        "a": "Most English-taught programmes require IELTS (typically 6.0+) or TOEFL, though some institutions accept alternative proof of English proficiency."
+    },
+    {
+        "q": "Can I do an MBA after completing a BBA in Italy?",
+        "a": "Yes. Graduates can progress to specialized master's programmes (MSc) or an MBA after acquiring relevant professional work experience."
+    },
+    {
+        "q": "What career opportunities are available after a BBA in Italy?",
+        "a": "Graduates can explore roles in marketing, international sales, finance, supply chain management, and business analytics across European multinational corporations."
+    }
+],
+  faqTitle: "Frequently Asked Questions About BBA in Italy"
 };
 
 export default function BBAItaly() {

@@ -16,13 +16,14 @@ const page = {
   "slug": "civil_engg_ug",
   "title": "Civil Engineering - UG in Italy for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Civil Engineering - UG in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
-  "keywords": "Highlighted",
-  "introTitle": "Introduction:",
-  "heroParas": [
-    "Secondary Keywords"
+  "keywords": "Bachelor's in Civil Engineering in Italy, Study Civil Engineering Italy, UG Civil Engineering Italy, Civil Engineering Fees in Italy",
+  "introTitle": "Civil Engineering - UG in Italy for Indian Students",
+  heroParas: [
+    "Studying a Bachelor’s in Civil Engineering in Italy combines rigorous mathematical foundation, structural mechanics, and sustainable urban design across prestigious Italian technical universities."
   ],
-  "overview": [
-    "Secondary Keywords"
+  overview: [
+    "Students pursuing Civil Engineering - UG in Italy benefit from world-class European academic standards, affordable public university tuition, and internationally recognized degrees.",
+    "With personalized guidance from Edu-Hawk Worldwide, Indian students receive end-to-end support with university selection, admission preparation, and student visa processing."
   ],
   "level": "Undergraduate",
   "crumb": "Engineering",
@@ -50,12 +51,6 @@ const page = {
       "eyebrow": "Details",
       "title": "Civil Engineering in Italy",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Secondary Keywords"
-          ]
-        },
         {
           "t": "ul",
           "items": [
@@ -169,23 +164,35 @@ const page = {
       "title": "How to Apply for Civil Engineering in Italy",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Students can apply to Italian universities in general using the following steps.",
-            "Select Your Engineering Focus: What are you most passionate about-structural engineering, transportation, construction, hydraulics, or environmental infrastructure?",
-            "Shortlist universities: Compare course structure, language of instruction, tuition, and location.",
-            "Check eligibility: Make sure your Class 12 qualification and subjects meet the university's requirements.",
-            "Prepare for entrance exams: Know which test is applicable to you, and check the syllabus and application deadlines.",
-            "Gather Documentation Collect academic transcripts, passport, proof of language and any other documents needed to verify your qualifications.",
-            "University Application Submission: Fill in the official application and selection procedures.",
-            "Find out the status of your admission: Follow the instructions given by the university to accept the offer and complete the enrollment process.",
-            "Complete pre-enrolment if required International students applying for an Italian study visa normally complete the applicable procedure through Universitaly.",
-            "Apply for the student visa Submit the documents required by the competent Italian diplomatic mission. Admission is not a guaranty that a visa will be issued to you.",
-            "Plan accommodation and travel: Arrange housing, insurance and arrival arrangements before you leave.",
-            "Application dates and procedures vary depending on institution, applicant category and intake. Students must adhere to the latest official university and visa instructions.",
-            "Edu-Hawk Worldwide can help students in university shortlisting, eligibility verification, document preparation and application planning."
-          ]
-        }
+        "t": "timeline",
+        "items": [
+                {
+                        "step": "1",
+                        "title": "Select Your Engineering Focus",
+                        "desc": "What are you most passionate about-structural engineering, transportation, construction, hydraulics, or environmental infrastructure?"
+                },
+                {
+                        "step": "2",
+                        "title": "Check Eligibility",
+                        "desc": "Make sure your Class 12 qualification and subjects meet the university's requirements."
+                },
+                {
+                        "step": "3",
+                        "title": "Step 3",
+                        "desc": "Gather Documentation Collect academic transcripts, passport, proof of language and any other documents needed to verify your qualifications."
+                },
+                {
+                        "step": "4",
+                        "title": "Step 4",
+                        "desc": "Complete pre-enrolment if required International students applying for an Italian study visa normally complete the applicable procedure through Universitaly."
+                },
+                {
+                        "step": "5",
+                        "title": "Step 5",
+                        "desc": "Apply for the student visa Submit the documents required by the competent Italian diplomatic mission. Admission is not a guaranty that a visa will be issued to you."
+                }
+        ]
+}
       ]
     },
     {
@@ -287,7 +294,34 @@ const page = {
         }
       ]
     }
-  ]
+  ],
+  faqs: [
+    {
+        "q": "Can Indian students apply for a Civil Engineering Bachelor's in Italy?",
+        "a": "Yes. Indian students who have completed Class 12 with mathematics and physics can apply for undergraduate civil engineering degrees."
+    },
+    {
+        "q": "How long does a Bachelor's degree in Civil Engineering take in Italy?",
+        "a": "The undergraduate degree (Laurea) takes 3 academic years (180 ECTS credits) to complete."
+    },
+    {
+        "q": "What are the tuition costs for Civil Engineering in Italy?",
+        "a": "Public university fees range between €1,000 and €4,000 per year, and can be fully waived through regional DSU financial aid."
+    },
+    {
+        "q": "What entrance examination is required for admission?",
+        "a": "Applicants usually take the English TOLC-I test administered by CISIA, assessing mathematics, physics, and basic technical logic."
+    },
+    {
+        "q": "What practical skills do civil engineering undergraduates learn?",
+        "a": "Students learn computer-aided drafting (CAD), structural simulation, surveying, soil mechanics, and construction materials testing."
+    },
+    {
+        "q": "What are the post-graduation pathways in Italy?",
+        "a": "Graduates can enter European Master of Science programmes in Structural, Hydraulic, or Transportation Engineering, or pursue junior engineering roles."
+    }
+],
+  faqTitle: "Frequently Asked Questions About Civil Engineering UG in Italy"
 };
 
 export default function CivilEngineeringUGItaly() {

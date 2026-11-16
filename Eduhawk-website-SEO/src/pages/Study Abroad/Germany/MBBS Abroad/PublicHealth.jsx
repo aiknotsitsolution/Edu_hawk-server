@@ -14,454 +14,316 @@ import uniImg3 from "../../../../Images/Abroad/Germany/PublicHealth/Opportunitie
 import uniImg4 from "../../../../Images/Abroad/Germany/PublicHealth/Research_opportunities_in_health_sc.webp";
 
 const page = {
-  "name": "Public Health in Germany",
-  "country": "Germany",
-  "slug": "public-health",
-  "title": "Public Health in Germany for Indian Students | Edu-Hawk Worldwide",
-  "description": "Complete guide to Public Health in Germany for international students: Top German universities, admission requirements, zero-tuition public education, living expenses, and 18-month post-study work visa.",
-  "keywords": "Study Public Health in Germany for Indian Students, Public Health Courses in Germany for International Students, Bachelor’s in Public Health in Germany, Master of Public Health (MPH) in Germany, MSc Public Health in Germany, Best Universities for Public Health in Germany, Public Health Eligibility Requirements in Germany, English-Taught Public Health Courses in Germany, German Language Requirements for Public Health in Germany, Public Health Admission Requirements in Germany, Public Health Tuition Fees in Germany, Cost of Living for Public Health Students in Germany, Documents Required to Study Public Health in Germany",
-  "introTitle": "STUDY PUBLIC HEALTH IN GERMANY",
-  "heroParas": [
-    "Comprehensive guide to Public Health in Germany for international students in Germany."
+  name: "Public Health in Germany",
+  country: "Germany",
+  slug: "public-health",
+  title: "Public Health in Germany for Indian Students | Edu-Hawk Worldwide",
+  description:
+    "Complete guide to studying Master of Public Health (MPH) and M.Sc. Public Health in Germany: English-taught programs, top universities, tuition-free education, admission eligibility, and global career opportunities.",
+  keywords:
+    "Study Public Health in Germany for Indian Students, Public Health Courses in Germany for International Students, Bachelor's in Public Health in Germany, Master of Public Health (MPH) in Germany, MSc Public Health in Germany, Best Universities for Public Health in Germany, Public Health Eligibility Requirements in Germany, English-Taught Public Health Courses in Germany, German Language Requirements for Public Health in Germany, Public Health Admission Requirements in Germany, Public Health Tuition Fees in Germany, Cost of Living for Public Health Students in Germany, Documents Required to Study Public Health in Germany",
+  introTitle: "Study Public Health in Germany",
+  heroParas: [
+    "Germany is a premier European destination for studying Public Health and Health Sciences, offering globally accredited Master of Public Health (MPH) and M.Sc. programs, extensive English-medium coursework, tuition-free public education, and direct research integration with top international health organizations like the WHO and Robert Koch Institute."
   ],
-  "overview": [
-    "Explore academic curriculum, admission standards, top universities, tuition structure, and career pathways in Germany."
+  overview: [
+    "**Key advantages of studying public health in Germany:**",
+    "* **World-Class Epidemiological Infrastructure:** Learn within Germany's robust national healthcare system alongside prestigious bodies like the Robert Koch Institute (RKI).",
+    "* **Extensive English-Taught Offerings:** Numerous postgraduate degrees (MPH, M.Sc. Global Health, M.Sc. Epidemiology) are taught 100% in English.",
+    "* **Zero Tuition Fees:** Public universities charge zero general tuition fees (nominal semester contribution of €150–€350 includes public transport).",
+    "* **Multidisciplinary Curricula:** Deep coverage of biostatistics, health economics, environmental health, disease prevention, and digital healthcare technologies.",
+    "* **Global Career Trajectories:** High demand across WHO centers, European health agencies, multinational NGOs, pharmaceutical clinical trial consultancies, and health ministries."
   ],
-  "level": "Master of Science (M.Sc.) / Master of Public Health (MPH)",
-  "crumb": "Health Sciences / Public Health",
-  "stats": [
+  level: "Master of Public Health (MPH) / M.Sc. / B.Sc. / Ph.D.",
+  crumb: "Health Sciences / Public Health",
+  stats: [
     {
-      "label": "Degree Choices",
-      "value": "Master of Science (M.Sc.) / Master of Public Health (MPH)"
+      label: "Degree System",
+      value: "MPH / M.Sc. (1–2 Yrs) | B.Sc. (3 Yrs) | Ph.D."
     },
     {
-      "label": "Course Duration",
-      "value": "3 to 6 Years"
+      label: "Public Uni Tuition",
+      value: "€0 / Free (Semester fee €150–€360)"
     },
     {
-      "label": "Top Institutions",
-      "value": "Bielefeld University   is well known for its academic programs in public health and health sciences., The University of Bremen   provides alternatives for   studying public health and health sciences."
+      label: "Teaching Medium",
+      value: "English (Master's/MPH) & German"
     },
     {
-      "label": "Post-Study Work",
-      "value": "18-Month Jobseeker Visa (Residence Permit)"
+      label: "Post-Study Work Visa",
+      value: "18-Month Jobseeker Visa"
     }
   ],
-  "sections": [
+  sections: [
     {
-      "slot": "why",
-      "eyebrow": "Why Study in Germany",
-      "title": "1. Why Study Public Health in Germany?",
-      "groups": [
+      slot: "why",
+      eyebrow: "Why Germany",
+      title: "Why Study Public Health in Germany?",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Students can learn about **healthcare systems, illness prevention, health promotion, epidemiology, and global health challenges** by **studying **Public Health in Germany**.**",
-            "German institutions provide accredited degrees, chances for research and hands-on learning possibilities.  Germany also boasts a robust infrastructure for research and healthcare.",
-            "Among the main advantages are:",
-            "**Edu Hawk Worldwide Consultancy** helps students understand university admission requirements, explore international study possibilities, and prepare for the **overseas education journey** with the proper preparation and direction."
+          t: "p",
+          items: [
+            "Germany maintains one of the world's most resilient and sophisticated universal healthcare systems, making it an extraordinary living laboratory for studying health policy, epidemiology, disease prevention, and global health economics.",
+            "International students benefit from rigorous empirical research methodologies, cross-disciplinary health analytics, and practical internships embedded in public health departments (*Gesundheitsämter*), university medical centers, and international research alliances."
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Possibilities to learn about disease prevention, health policy, and epidemiology.",
-            "Public health organizations and **research facilities** are accessible.",
-            "Postgraduate options include a ****Master of Public Health (MPH)****.",
-            "Depending on the program and state, public colleges frequently provide inexpensive education."
+          t: "points",
+          title: "Major Benefits for International Scholars",
+          items: [
+            "**Tuition-Free Public Higher Education:** Nearly all public universities charge no general tuition fees, democratizing elite European education.",
+            "**International English Degrees:** Widely available English-taught Master of Public Health (MPH), M.Sc. Global Health, and M.Sc. Epidemiology programs.",
+            "**Leading Research Institutes:** Close ties with the Robert Koch Institute (RKI), German Cancer Research Center (DKFZ), and WHO Hub for Pandemic and Epidemic Intelligence in Berlin.",
+            "**18-Month Post-Study Visa:** Outstanding post-study residence rights allowing graduates to secure health analytics, consulting, and administrative positions across Germany and the EU."
           ]
+        }
+      ]
+    },
+    {
+      slot: "cards",
+      eyebrow: "Academic Pathways",
+      title: "German Public Health Degree Programs",
+      text: "Students can choose from undergraduate foundations to specialized postgraduate degrees:",
+      cards: [
+        {
+          badge: "Postgraduate Degree",
+          title: "Master of Public Health (MPH)",
+          desc: "A 1- to 2-year professional Master's curriculum designed for medical doctors, health administrators, and social scientists focusing on population health, health systems management, and leadership. Often offered entirely in English."
         },
         {
-          "t": "dl",
-          "pairs": [
-            {
-              "t": "There are opportunities to learn about population health and healthcare management. Opportunities for employment at research facilities, medical facilities, non",
-              "d": "governmental organizations and international health organizations."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "courses",
-      "eyebrow": "Curriculum & Specializations",
-      "title": "2. German Public Health Courses",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Undergraduate, graduate and research-based programs in public health and allied subjects are available to students.",
-            "In Germany, common courses in public health include:",
-            "The duration  of a course varies depending on the curriculum and university.",
-            "Depending on the research project and institution,",
-            "Students should verify the language of instruction before applying, as programs may be offered in ****German or English****."
-          ]
+          badge: "Research Master",
+          title: "M.Sc. in Epidemiology / Global Health",
+          desc: "Specialized scientific track concentrating on infectious and non-communicable disease surveillance, quantitative statistical modeling, clinical trial methodologies, and international health disparities."
         },
         {
-          "t": "pills",
-          "items": [
-            "The BSc in Public Health The BSc in Health Sciences",
-            "The BSc in Health Management",
-            "The Master of Public Health (MPH) program",
-            "The Master of Science in Public Health",
-            "The MSc in Global Health",
-            "MSc Epidemiology",
-            "The Master of Science in Health Economics",
-            "The doctorate in public health",
-            "Bachelor's degrees often take 3–3.5 years",
-            "Master's degrees typically take 1-2 years, and doctorate programs typically take 3–5 years."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "universities",
-      "eyebrow": "Top German Universities",
-      "title": "3. Germany's Top Public Health Universities and Institutions",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The following are a few German universities that offer public health programs or courses that are closely related:",
-            "**Bielefeld University** is well-known for its academic programs in public health and health sciences.",
-            "**The University of Bremen** provides alternatives for **studying public health and health sciences.**",
-            "****",
-            "Opportunities in epidemiology, medical research, and global health are offered at **Heidelberg University.**",
-            "Research opportunities in health sciences and healthcare are provided by the **Technical University of Munich (TUM).**",
-            "Before applying, students should review each university's current course catalog, entry requirements, teaching language, and eligibility for international students."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Eligibility Criteria",
-      "title": "4. Eligibility for Public Health Studies in Germany",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The university and **qualification level** determine eligibility.",
-            "**Regarding bachelor's programs:**",
-            "**Regarding master's programs:**",
-            "**Regarding PhD programs:**"
-          ]
+          badge: "Economics & Policy",
+          title: "M.Sc. in Health Economics & Management",
+          desc: "Interdisciplinary degree covering healthcare financing, resource allocation, health technology assessment (HTA), and hospital operations in public and private medical sectors."
         },
         {
-          "t": "ul",
-          "items": [
-            "Completing secondary school at the level required to be admitted to a German university. Relevant academic standing in the topics that are necessary.",
-            "Proficiency in either German or English, as required by the program.",
-            "A preparatory course or other recognized qualifications may be necessary for some international qualifications.",
-            "A recognized **bachelor's degree** in one of the following fields: public health, healthcare, life sciences, medicine, social sciences, or another recognized field. While it's not usually required, certain programs may demand relevant professional experience.",
-            "Proof of competency in either German or English, depending on the program. Certain academic credits or a minimum grade may be required by certain universities.",
-            "Depending on the university, an appropriate **master's degree** or comparable research preparation is required.",
-            "An appropriate **research proposal** and, if necessary, approval from a doctorate supervisor"
-          ]
+          badge: "Undergraduate Degree",
+          title: "B.Sc. in Public Health & Health Sciences",
+          desc: "A 3- to 3.5-year foundational Bachelor's program (primarily taught in German) covering human biology, epidemiology, healthcare sociology, and health communication."
         }
       ]
     },
     {
-      "slot": "admission",
-      "eyebrow": "Admission Requirements",
-      "title": "5. Admission requirements",
-      "groups": [
+      slot: "unis",
+      eyebrow: "Top Institutions",
+      title: "Top Universities for Public Health in Germany",
+      text: "Explore Germany's premier universities renowned for public health and biomedical sciences:",
+      cards: [
         {
-          "t": "p",
-          "items": [
-            "International Candidates may be required to submit:",
-            "**For post-graduate applications**",
-            "Some universities accept applications directly, others use **uni-assist** to evaluate applications from abroad.",
-            "The admission requirements vary according to each school and course."
-          ]
+          name: "Bielefeld University",
+          city: "Bielefeld, North Rhine-Westphalia",
+          qsRank: "Top Health Sciences Faculty",
+          tuition: "€0 / Free (Semester fee €320/sem)",
+          programs: "B.Sc. Health Communication, M.Sc. Public Health, European MPH",
+          highlights:
+            "Home to Germany's first independent School of Public Health, recognized globally as a pioneering WHO Collaborating Center for health literacy, epidemiology, and health administration.",
+          link: "https://www.uni-bielefeld.de/",
+          img: uniImg1
         },
         {
-          "t": "ul",
-          "items": [
-            "Academic transcripts and degrees.",
-            "Any required English language test results such as TOEFL or IELTS. German language certificates for German-taught programs.",
-            "A motivation letter or personal statement.",
-            "Letters of recommendation, if required.",
-            "Resume or cv.",
-            "A research proposal for some PhD programs.",
-            "Additional academic records or tests, depending on the university."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "fees",
-      "eyebrow": "Tuition Fees & Living Costs",
-      "title": "6. Cost of public health education in Germany",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The **cost of studying public health in Germany** varies by location, course level and university.",
-            "**Tuition Fees (Approximate):**"
-          ]
+          name: "The University of Bremen",
+          city: "Bremen",
+          qsRank: "Top Research Hub in Health Sciences",
+          tuition: "€0 / Free (Semester fee €380/sem)",
+          programs: "B.Sc. Public Health, M.Sc. Public Health, M.Sc. Epidemiology",
+          highlights:
+            "Houses the Institute for Public Health and Nursing Research (IPP) and the Leibniz Institute for Prevention Research and Epidemiology (BIPS), driving national cohort studies.",
+          link: "https://www.uni-bremen.de/",
+          img: uniImg2
         },
         {
-          "t": "ul",
-          "items": [
-            "Many public colleges waive general tuition for consecutive bachelor’s and master’s programs, though you will still have to make the semester payments.",
-            "Some foreign students, including students from non-European Union countries, may have to pay tuition in some colleges and states.",
-            "Private universities may have tuition fees depending on the course and the university.",
-            "The semester contribution is usually between €150 and €400, depending on the university and the services it offers.",
-            "The estimated monthly cost of living is **€900 to €1,300** depending on the city, where you live, insurance and lifestyle.",
-            "Students should also plan for **study materials, travel, lodging deposits, health insurance, and visa fees.",
-            "Expenses can be reduced with university and scholarship funding."
-          ]
+          name: "Heidelberg University",
+          city: "Heidelberg, Baden-Württemberg",
+          qsRank: "Germany #1 / QS World #84",
+          tuition: "€1,500/sem (Non-EU) + €180 semester fee",
+          programs: "M.Sc. International Health (tropEd accredited), M.Sc. Global Health",
+          highlights:
+            "Heidelberg Institute of Global Health (HIGH) is one of the world's most prestigious centers for tropical medicine, maternal health, and epidemiological intervention research in developing nations.",
+          link: "https://www.uni-heidelberg.de/",
+          img: uniImg3
         },
         {
-          "t": "table",
-          "headers": [
-            "Category / Expense Type",
-            "Estimated Amount (EUR)",
-            "Applicability & Regulation"
-          ],
-          "rows": [
-            [
-              "Many public colleges waive general tuition for consecutive bachelor’s and master’s programs, though you will still have to make the semester payments.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "Some foreign students, including students from non",
-              "European Union countries, may have to pay tuition in some colleges and states.",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "Private universities may have tuition fees depending on the course and the university.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "The semester contribution is usually between €150 and €400, depending on the university and the services it offers.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "The estimated monthly cost of living is €900 to €1,300 depending on the city, where you live, insurance and lifestyle.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "Students should also plan for study materials, travel, lodging deposits, health insurance, and visa fees.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "Expenses can be reduced with university and scholarship funding.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ]
-          ]
+          name: "Technical University of Munich (TUM)",
+          city: "Munich, Bavaria",
+          qsRank: "Germany #1 Technical / QS World #28",
+          tuition: "€0–€3,000/sem + €150 semester fee",
+          programs: "M.Sc. Health Science, M.Sc. Sport & Exercise Science",
+          highlights:
+            "Excellence University offering elite interdisciplinary health research with strong links to biomedical informatics, public health monitoring, and artificial intelligence in medicine.",
+          link: "https://www.tum.de/",
+          img: uniImg4
         }
       ]
     },
     {
-      "slot": "process",
-      "eyebrow": "Application Timeline & Steps",
-      "title": "7. Germany’s public health admission procedure",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The standard ****German public health admission procedure**** consists of:"
-          ]
-        }
+      slot: "checklist",
+      eyebrow: "Admissions Criteria",
+      title: "Eligibility & Language Requirements",
+      text: "Admission requirements depend on the qualification level and language of instruction:",
+      items: [
+        "**Master's / MPH Programs:** Recognized Bachelor's degree (3 or 4 years) in public health, medicine, nursing, pharmacy, biology, life sciences, statistics, or social sciences from an accredited university.",
+        "**Work Experience:** Professional MPH tracks often require 1 to 2 years of relevant post-degree work experience in clinical care, public health agencies, or healthcare administration.",
+        "**English Language Proficiency:** For English-taught programs, an IELTS score of 6.5–7.0+ or TOEFL iBT of 90–100+ is mandatory.",
+        "**German Language Proficiency:** For German-taught degrees, certified B2 or C1 proficiency (TestDaF 4x4, Goethe C1, or DSH-2) is required.",
+        "**APS Verification Certificate:** Official digital verification certificate issued by the Academic Evaluation Centre (APS India) required for Indian applicants prior to visa processing.",
+        "**Statement of Purpose & CV:** Well-articulated Letter of Motivation explaining professional vision in public health, accompanied by an updated academic CV and 2 letters of recommendation."
       ]
     },
     {
-      "slot": "why",
-      "eyebrow": "Why Study in Germany",
-      "title": "1. Pick a good university and public health program.",
-      "groups": []
-    },
-    {
-      "slot": "courses",
-      "eyebrow": "Curriculum & Specializations",
-      "title": "2. Check language, subject and academic eligibility requirements.",
-      "groups": []
-    },
-    {
-      "slot": "universities",
-      "eyebrow": "Top German Universities",
-      "title": "3. Gather your certificates, language test results, transcripts and other paperwork.",
-      "groups": []
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Eligibility Criteria",
-      "title": "4. Submit your application via uni-assist or the university’s application portal, if applicable.",
-      "groups": []
-    },
-    {
-      "slot": "admission",
-      "eyebrow": "Admission Requirements",
-      "title": "5. Take part in an interview or, if necessary, take further tests.",
-      "groups": []
-    },
-    {
-      "slot": "fees",
-      "eyebrow": "Tuition Fees & Living Costs",
-      "title": "6. Get an offer of admission and accept it",
-      "groups": []
-    },
-    {
-      "slot": "process",
-      "eyebrow": "Application Timeline & Steps",
-      "title": "7. Arrange for money, accommodation and health insurance.",
-      "groups": []
-    },
-    {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Quality Standards",
-      "title": "8. Apply for a German student visa, if required.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Applicants are recommended to apply as soon as possible, in particular if they require time for document recognition, study of German and arranging finance."
-          ]
-        }
+      slot: "checklist",
+      eyebrow: "Cost of Education",
+      title: "Tuition Fees & Cost of Living",
+      text: "Germany offers unmatched affordability for world-class public health education:",
+      items: [
+        "**Zero General Tuition (€0):** The vast majority of public universities in Germany charge no general tuition fees for undergraduate and master's degrees.",
+        "**Baden-Württemberg Non-EU Tuition (€1,500/semester):** Applicable only at public institutions within the state of Baden-Württemberg (e.g., Heidelberg University).",
+        "**Semester Contribution (€150–€380/semester):** Mandatory student fee covering administrative services, student unions, and a regional public transportation ticket (*Semesterticket*).",
+        "**Monthly Living Costs (€900–€1,300/month):** Covers student accommodation (dormitories or shared apartments), food, statutory student health insurance (~€125/month), books, and leisure.",
+        "**German Blocked Account (Sperrkonto):** Requirement of €11,904 per year deposited in a recognized escrow blocked account to secure the German national student visa."
       ]
     },
     {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Quality Standards",
-      "title": "8. Recognition and Accreditation of Public Health in Germany",
-      "groups": [
+      slot: "timeline",
+      eyebrow: "Step-by-Step Roadmap",
+      title: "Admission & Visa Timeline for International Students",
+      text: "Follow this systematic 10-step guide to secure admission to a German public health program:",
+      steps: [
         {
-          "t": "p",
-          "items": [
-            "Universities offer ****public health programs**** with a variety of educational and professional arrangements.",
-            "Students should make sure that the school and degree program are accredited and that the degree will support their professional goals before enrolling in a degree program.",
-            "It may be that public health research institutions and **professional organizations** are related to some programs.",
-            "But a degree alone doesn't automatically make graduates eligible for every public health job and **not every public health degree is properly accredited**.",
-            "Students who intend to work abroad should also check the local ****requirements for recognition of qualifications**.**"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Career Prospects & Salary",
-      "title": "9. Pay and Employment options",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Graduates may find employment in research, health care administration, public health services, universities, non-governmental organizations and international development organizations.",
-            "Some of the many career opportunities include:",
-            "These ranges are not guaranteed but are merely indicative.",
-            "Good **research skills, experience in data analysis, internships and German language skills can enhance employment opportunities."
-          ]
+          num: "01",
+          title: "Select Course & Teaching Medium",
+          desc: "Choose between an English-taught MPH / M.Sc. in Global Health or a German-medium health science degree."
         },
         {
-          "t": "ul",
-          "items": [
-            "Public Health Officer",
-            "A health promotion specialist",
-            "Epidemiology Research Assistant",
-            "Public health analyst",
-            "Health Policy Officer Project Coordinator",
-            "Global Health **Post-Doctoral Research Associate**",
-            "Healthcare management specialist",
-            "Public health consultant with the appropriate background",
-            "Public health pay in Germany varies with position, area, employer, credentials and experience.",
-            "**€50,000-€70,000 or more** per year for senior professionals and experienced specialists",
-            "Entry-level jobs can pay between **€35,000 and €45,000."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Required Documentation",
-      "title": "10. Documents required for Public Health Studies in Germany",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "To **study public health in Germany**, applicants may have to submit the following **documents:",
-            "The exact list depends on the situation of the applicant and the university."
-          ]
+          num: "02",
+          title: "Language Certification",
+          desc: "Obtain standardized English test scores (IELTS/TOEFL) or German language credentials (TestDaF/Goethe) matching university entry requirements."
         },
         {
-          "t": "ul",
-          "items": [
-            "A current passport",
-            "Academic transcripts and certifications.",
-            "Results of proficiency in German or English, if applicable.",
-            "A motivational letter or a personal statement.",
-            "*Letters of recommendation (if any).",
-            "Current CV or resume for postgraduate studies.",
-            "A suggestion for a doctoral research program.",
-            "As needed, certified translations of documents.",
-            "**Required documents for a German student visa** and proof of financial means."
-          ]
+          num: "03",
+          title: "APS Verification Certificate",
+          desc: "Submit academic transcripts, degrees, and certificates to APS India to obtain the mandatory digital APS verification."
+        },
+        {
+          num: "04",
+          title: "Document Compilation",
+          desc: "Prepare certified translations, Academic CV, Statement of Purpose, and letters of recommendation from academic or clinical supervisors."
+        },
+        {
+          num: "05",
+          title: "Application Submission",
+          desc: "Submit formal applications via uni-assist or directly through university online portals before the semester deadlines (July 15 for Winter, January 15 for Summer)."
+        },
+        {
+          num: "06",
+          title: "Interview / Assessment",
+          desc: "Participate in online academic interviews or complete subject assessments if required by the university admissions committee."
+        },
+        {
+          num: "07",
+          title: "Admission Letter Acceptance",
+          desc: "Receive the official university offer letter (*Zulassungsbescheid*) and confirm your enrollment place."
+        },
+        {
+          num: "08",
+          title: "Blocked Account & Insurance",
+          desc: "Deposit €11,904 into a German blocked account (Expatrio, Fintiba, or Coracle) and obtain mandatory statutory student health insurance."
+        },
+        {
+          num: "09",
+          title: "National Student Visa Application",
+          desc: "Book a visa appointment at VFS / German Consulate, attend the biometric interview, and receive your National Student Visa (Subtype D)."
+        },
+        {
+          num: "10",
+          title: "Enrollment & Master's Thesis",
+          desc: "Complete coursework, participate in empirical public health field internships, defend your Master's thesis, and transition to the 18-month jobseeker visa."
         }
       ]
     },
     {
-      "slot": "details",
-      "eyebrow": "Key Insights",
-      "title": "11. German Public Health FAQs",
-      "groups": [
+      slot: "cards",
+      eyebrow: "Career Pathways",
+      title: "Career Opportunities & Salary in Germany",
+      text: "Public Health graduates possess highly sought-after analytical, managerial, and policy competencies:",
+      cards: [
         {
-          "t": "p",
-          "items": [
-            "Q1. Is it possible for foreign students to **study public health in Germany?**",
-            "Yes . If they fulfill the academic, linguistic, and program-specific requirements, international students are eligible to apply to German universities.",
-            "Q2. Is it possible to obtain an MPH in Germany?",
-            "Yes . A ****Master of Public Health (MPH)**** or similar master's degrees in public health, global health, epidemiology, and health sciences are offered by some German universities.",
-            "Q3. How long does it take to finish a degree in **public health in Germany**?",
-            "While many master's programs require **1-2 years**, a bachelor's degree typically takes **3-3.5 years**. Although it varies, a PhD typically takes **3–5 years**.",
-            "Q4. Is it possible to **study public health in English in Germany?**",
-            "Yes , while many programs are taught in German, some ****master's and postgraduate programs**** are offered in English. Students must verify the language requirements of the university of their choice.",
-            "Q5. After **studying public health in Germany,** what are the employment options?",
-            "Careers in **health promotion, public health analysis, epidemiology research, health policy, healthcare administration and global health projects** are available to graduates.",
-            "How can I study abroad with the assistance of **Edu Hawk Worldwide Consultancy?**",
-            "Students may plan their **study-abroad journey**, organize their application materials, research appropriate universities, and comprehend **admission requirements** with the assistance of Edu Hawk worldwide . Students should check with the appropriate official authorities on their academic, financial, immigration and licensing needs."
-          ]
+          badge: "Policy & Governance",
+          title: "Health Policy & Programme Officer",
+          desc: "Design and implement disease prevention frameworks and health promotion strategies in national health ministries and municipal health offices. Starting salary: €42,000–€55,000/year (tariff TVöD)."
+        },
+        {
+          badge: "Data & Research",
+          title: "Epidemiologist & Biostatistician",
+          desc: "Conduct clinical trial data modeling, outbreak investigations, and demographic health analytics at research centers, pharmaceutical companies, and CROs. Average salary: €52,000–€70,000/year."
+        },
+        {
+          badge: "Global Agencies",
+          title: "Global Health Project Coordinator",
+          desc: "Direct international development programs, maternal-child health campaigns, and epidemic response initiatives with the WHO, UNICEF, GIZ, and global NGOs. Annual salary: €55,000–€78,000/year."
+        },
+        {
+          badge: "Corporate & Consulting",
+          title: "Health Economics & Market Access Consultant",
+          desc: "Evaluate health technology assessments (HTA), cost-effectiveness of new pharmaceuticals, and pricing reimbursement for multinational healthcare consultancies. Senior salary: €70,000–€95,000+/year."
         }
+      ]
+    },
+    {
+      slot: "checklist",
+      eyebrow: "Checklist",
+      title: "Documents Required for Application & Visa",
+      text: "Assemble the following verified credentials for university applications and the German embassy:",
+      items: [
+        "Valid international passport with at least 12 months validity.",
+        "Official undergraduate degree certificates and complete semester mark sheets.",
+        "Official digital APS Verification Certificate from APS India.",
+        "English language test report (IELTS 6.5–7.0+ or TOEFL iBT 90+).",
+        "German language certificate (if applying for German-taught modules).",
+        "Detailed Academic Curriculum Vitae (Tabellarischer Lebenslauf).",
+        "Well-structured Statement of Purpose (Letter of Motivation).",
+        "Two letters of academic or professional recommendation.",
+        "Documented proof of relevant healthcare or research experience (if applicable).",
+        "German Blocked Account confirmation (€11,904) and statutory health insurance coverage."
       ]
     }
   ],
-  "faqs": []
+  faqs: [
+    {
+      q: "Can international students study Public Health in English in Germany?",
+      a: "Yes. Germany offers numerous English-taught postgraduate degrees in public health, including Master of Public Health (MPH), M.Sc. in Global Health, and M.Sc. in Epidemiology. However, most undergraduate Bachelor's degrees in health sciences are taught in German."
+    },
+    {
+      q: "What is the typical duration of public health degrees in Germany?",
+      a: "A Master's degree or MPH typically takes 1 to 2 years (2 to 4 semesters), while a Bachelor's degree takes 3 to 3.5 years (6 to 7 semesters). Doctoral programs (Ph.D. or Dr. P.H.) usually require 3 to 5 years of independent research."
+    },
+    {
+      q: "Are public health courses in Germany tuition-free?",
+      a: "Yes. Most public universities in Germany charge no general tuition fees for domestic and international students alike. Students pay only a nominal semester contribution (€150 to €360 per semester) which includes campus services and regional public transport. (Only the state of Baden-Württemberg charges non-EU students €1,500/semester)."
+    },
+    {
+      q: "Can Indian medical graduates (MBBS, BDS, BAMS, BHMS) apply for an MPH in Germany?",
+      a: "Yes. Indian medical and dental graduates (MBBS, BDS, BAMS, BHMS, BPT, B.Pharm) are eligible to apply for MPH and M.Sc. Public Health programs in Germany. Their clinical backgrounds are highly valued in epidemiology, global health, and clinical trial research."
+    },
+    {
+      q: "What career opportunities are available after completing an MPH in Germany?",
+      a: "Graduates can work as epidemiologists, health policy advisors, biostatisticians, health economists, and global health project coordinators in government health departments (*Gesundheitsämter*), research institutes (Robert Koch Institute, DKFZ), pharmaceutical corporations, healthcare consulting firms, and international organizations like the WHO."
+    }
+  ]
 };
 
-export default function PublicHealthGermanyPage() {
-  const images = {
-    hero: heroImg,
-    heroBg: heroBgImg,
-    side: sideImg,
-    ctaBg: ctaBgImg,
-    universities: [
-    {
-      name: "Bielefeld University   is well known for its academic programs in public health and health sciences.",
-      img: uniImg1,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "The University of Bremen   provides alternatives for   studying public health and health sciences.",
-      img: uniImg2,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "Opportunities in epidemiology, medical research, and global health are offered at   Heidelberg University.",
-      img: uniImg3,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "Research opportunities in health sciences and healthcare are provided by the   Technical University of Munich (TUM).",
-      img: uniImg4,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    }
-    ]
-  };
-
-  return <AbroadCoursePage page={page} images={images} />;
+export default function PublicHealth() {
+  return (
+    <AbroadCoursePage
+      page={page}
+      heroImg={heroImg}
+      heroBgImg={heroBgImg}
+      sideImg={sideImg}
+      ctaBgImg={ctaBgImg}
+      seoPath="/study-abroad/germany/public-health"
+    />
+  );
 }

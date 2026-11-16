@@ -20,8 +20,7 @@ const page = {
   "keywords": "Study Postgraduate Engineering in Canada, Postgraduate Engineering in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Study Postgraduate Engineering in Canada",
   "heroParas": [
-    "International students looking for advanced engineering education, research possibilities, and industry-focused learning frequently choose Canada as their destination. Students can get specialized expertise in disciplines like mechanical, civil, electrical, computer, chemical, robotic and environmental engineering through postgraduate engineering in Canada.",
-    "Depending on their educational experience and professional aspirations, students can decide between course-based master's degrees, research-based master's degrees and specific graduate diplomas or certificates."
+    "International students looking for advanced engineering education, research possibilities, and industry-focused learning frequently choose Canada as their destination. Students can get specialized expertise in disciplines like mechanical, civil, electrical, computer, chemical, robotic and environmental engineering through postgraduate engineering in Canada."
   ],
   "overview": [
     "International students looking for advanced engineering education, research possibilities, and industry-focused learning frequently choose Canada as their destination. Students can get specialized expertise in disciplines like mechanical, civil, electrical, computer, chemical, robotic and environmental engineering through postgraduate engineering in Canada.",

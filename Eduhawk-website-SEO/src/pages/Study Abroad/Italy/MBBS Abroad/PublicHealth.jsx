@@ -16,10 +16,10 @@ const page = {
   "description": "Study Public Health in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
   "keywords": "",
   "introTitle": "Public Health in Italy",
-  "heroParas": [
-    "Yes. Indian students can apply for eligible Italian university programs, if they meet the academic, language and documentation requirements. Admission depends on individual program."
+  heroParas: [
+    "Public Health in Italy equips students with advanced skills in global epidemiology, preventive medicine, environmental health policy, and European healthcare systems management."
   ],
-  "overview": [
+  overview: [
     "Yes. Indian students can apply for eligible Italian university programs, if they meet the academic, language and documentation requirements. Admission depends on individual program."
   ],
   "level": "Undergraduate & Postgraduate",
@@ -145,17 +145,6 @@ const page = {
           "items": [
             "Graduates, depending on their qualification and experience, may pursue opportunities in health research, epidemiology, healthcare management, health policy, data analysis, community health and NGO programs. Regulated clinical professions have their own individual licensing and qualification requirements."
           ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Public Health in Italy",
-            "Study Public Health in Italy",
-            "Public Health Courses in Italy",
-            "Public Health Universities in Italy",
-            "Public Health Fees in Italy",
-            "Public Health in Italy for Indian Students"
-          ]
         }
       ]
     },
@@ -168,58 +157,6 @@ const page = {
           "t": "p",
           "items": [
             "The admission process generally involves the following steps:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Select an appropriate course: Decide on your objective: public health science, epidemiology, health policy, healthcare management, or health economics.",
-            "Short list universities: Compare course content, language of teaching, tuition fees, entry requirements and application deadlines.",
-            "See if you qualify: Please ensure that your previous degree and subjects meet the entry requirements of the program.",
-            "Prepare documents: Collect transcripts, certificates, passport, language test results and other requested documents.",
-            "Send the application: You need to apply on the university's official admission portal and also appear for any test or interview if required.",
-            "Get your admission decision: Follow the university's instructions for acceptance and enrollment.",
-            "Complete International Pre-Registration: The procedure for obtaining an Italian study visa is typically followed via Universitaly by those requiring one.",
-            "Apply for Student Visa: Deposit the required documents at the competent Italian diplomatic mission. Admission or pre-enrolment does not guaranty a visa approval.",
-            "Preparing for arrival: Before you travel make arrangements for accommodation, insurance and other practicalities."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Universitaly portal publishes procedures for international students. Applicants should check the rules and deadlines that apply to their year of study.",
-            "Edu-Hawk Worldwide can help students organise these steps, shortlist suitable programmes and understand the documentation required for applications."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "licensing",
-      "eyebrow": "Licensing & Standards",
-      "title": "Certification, Licensing and Professional Requirements",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Public health careers do not all follow the same professional pathway. Requirements depend on the job, employer, degree and country where a graduate intends to work.",
-            "For example:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Public health research: Roles in research may require a relevant postgraduate degree, research experience or a PhD.",
-            "Healthcare management: Employers may be looking for relevant academic qualifications, administrative skills and practical experience.",
-            "Epidemiology and biostatistics: Quantitative skills and appropriate training often relevant.",
-            "Regulated healthcare professions: Clinical positions may require separate professional qualifications, registration or credential recognition.",
-            "Employment in India: Graduates should verify the requirements of the particular employer, institution and any relevant professional or government body."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "A public health degree does not automatically qualify a person to practice medicine, nursing or other health care regulated profession.",
-            "Before choosing Public Health in Italy, students should identify their intended career and confirm whether the selected qualification is suitable for that role."
           ]
         }
       ]
@@ -234,29 +171,6 @@ const page = {
           "items": [
             "Graduates may explore roles in public health, healthcare administration, research, policy analysis and health-related organisations, depending on their qualifications and experience.",
             "Potential career paths include:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Public health programme assistant or coordinator",
-            "Epidemiology research assistant",
-            "Health policy analyst",
-            "Healthcare management executive",
-            "Public health research associate",
-            "Health data analyst",
-            "Health promotion officer",
-            "Monitoring and evaluation officer",
-            "Research project coordinator",
-            "NGO or community health programme officer"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Potential employers include research institutes, universities, hospitals, public agencies, health care companies, non-governmental organizations and international development organizations.",
-            "Career prospects depend on the content of the program, language skills, practical experience, work authorization and local recruitment requirements. Some positions may require advanced degrees or technical expertise.",
-            "For students pursuing Study Public Health in Italy, developing skills in data analysis, research methods, programme evaluation, communication and health policy can help strengthen their professional profile."
           ]
         }
       ]
@@ -299,7 +213,34 @@ const page = {
         }
       ]
     }
-  ]
+  ],
+  faqs: [
+    {
+        "q": "Can Indian students pursue an MPH in Italy in English?",
+        "a": "Yes. Major universities including University of Milan and Sapienza University offer English-taught master's programmes in Public Health and Global Health."
+    },
+    {
+        "q": "How long is a Master of Public Health in Italy?",
+        "a": "A Master's degree in Public Health typically takes 2 years (120 ECTS credits), including field research and a final capstone thesis."
+    },
+    {
+        "q": "What are the tuition fees for Public Health in Italy?",
+        "a": "Public university fees range between €1,000 and €3,800 annually, with eligibility for DSU scholarships covering tuition and living allowances."
+    },
+    {
+        "q": "What are the admission requirements for an MPH in Italy?",
+        "a": "Applicants need a Bachelor's degree in medicine, healthcare, life sciences, or related social sciences, along with English proficiency (IELTS 6.5+)."
+    },
+    {
+        "q": "What key disciplines are studied in the curriculum?",
+        "a": "Core topics include epidemiology, biostatistics, health economics, global health policy, disease surveillance, and environmental healthcare."
+    },
+    {
+        "q": "What career paths are available for MPH graduates in Italy?",
+        "a": "Graduates work with international health agencies (WHO, European CDC), government ministries, healthcare consultancies, and health NGOs."
+    }
+],
+  faqTitle: "Frequently Asked Questions About Public Health in Italy"
 };
 
 export default function PublicHealthItaly() {

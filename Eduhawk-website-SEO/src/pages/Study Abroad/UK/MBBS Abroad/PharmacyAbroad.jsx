@@ -19,9 +19,7 @@ const page = {
   "keywords": "Study Pharmacy in the UK, Pharmacy in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Pharmacy in the UK for Indian Students",
   "heroParas": [
-    "The UK is a popular destination for international students wishing to study higher education in pharmacy, pharmaceutical sciences and healthcare. Pharmacy programs at UK universities are professionally oriented and combine scientific knowledge, practical laboratory training and clinical experience.",
-    "Pharmacy in the UK for Indian students provides knowledge about medicines, their development, safe use and effects on the human body. Students have the opportunity to explore a range of areas including clinical pharmacy, pharmaceutical technology, pharmacology, drug research and healthcare services.",
-    "Edu Hawk worldwide study abroad guidance helps students to explore these opportunities and understand the requirements involved in pursuing education overseas."
+    "The UK is a popular destination for international students wishing to study higher education in pharmacy, pharmaceutical sciences and healthcare. Pharmacy programs at UK universities are professionally oriented and combine scientific knowledge, practical laboratory training and clinical experience."
   ],
   "overview": [
     "The UK is a popular destination for international students wishing to study higher education in pharmacy, pharmaceutical sciences and healthcare. Pharmacy programs at UK universities are professionally oriented and combine scientific knowledge, practical laboratory training and clinical experience.",

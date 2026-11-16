@@ -14,432 +14,297 @@ import uniImg3 from "../../../../../../Images/Abroad/Germany/Engineering_PG/Elec
 import uniImg4 from "../../../../../../Images/Abroad/Germany/Engineering_PG/Electronics/Stuttgart_University_provides_chanc.webp";
 
 const page = {
-  "name": "Postgraduate Electronics and Communication Engineering in Germany",
-  "country": "Germany",
-  "slug": "pg/electronics-communication",
-  "title": "Postgraduate Electronics and Communication Engineering in Germany for Indian Students | Edu-Hawk Worldwide",
-  "description": "Complete guide to Postgraduate Electronics and Communication Engineering in Germany for international students: Top German universities, admission requirements, zero-tuition public education, living expenses, and 18-month post-study work visa.",
-  "keywords": "Study Master's in Electronics and Communication Engineering in Germany for Indian Students, Postgraduate ECE Courses in Germany, Best Universities for Electronics and Communication Engineering in Germany, MSc Electronics and Communication Engineering Programmes in Germany, ECE Specialisations in Germany, Eligibility Requirements for Master's in ECE in Germany, Admission Requirements for Electronics and Communication Engineering in Germany, English-Taught ECE Courses in Germany, IELTS and TOEFL Requirements for ECE in Germany, Electronics and Communication Engineering Tuition Fees in Germany, Cost of Living for Master's Students in Germany, ECE Scholarships in Germany for International Students, Electronics and Communication Engineering Accreditation and Degree Recognition in Germany",
-  "introTitle": "1\\. WHY STUDY ELECTRONICS AND COMMUNICATION ENGINEERING IN GERMANY ?",
-  "heroParas": [
-    "Germany's advanced **electronics industry** , robust **telecommunications sector** , **semiconductor research** , and proficiency in **embedded systems** and **wireless technologies** make it a desirable location for ****postgraduate Electronics and Communication Engineering (ECE)**** studies. Students can gain specialized knowledge in **intelligent electronic systems**, **microelectronics**, **communication networks**, and **signal processing**.",
-    "**The main advantages of studying ECE in Germany are:**",
-    "* High-quality education: German universities provide chances for technical education and research in information technology, communications, and electronics.",
-    "* Students can explore  advanced technologies such as **semiconductor devices**, **embedded systems**, **5G and 6G communications** and **Internet of Things (IoT)** technologies.",
-    "* For qualified master's programs, many public universities offer free general tuition; nevertheless, there are exclusions and semester contributions.",
-    "* **Industry exposure:** Industrial technology, **automotive electronics** , **telecommunications** , **semiconductor** , and **automation** have all been established in Germany.",
-    "* **Research opportunities:** Students can work on projects related to **integrated circuits** ,**wireless communications** , **signal processing** , and intelligent linked devices.",
-    "* **International career opportunities:** Careers in **embedded engineering** , **communication systems** , **research and development** , and **electronics design** can be supported by a postgraduate degree.",
-    "* Graduates who wish to work with contemporary **communication technologies**, **electronic hardware**, **semiconductor systems**, and **connected devices** might consider studying ECE in Germany.",
-    "**Edu Hawk Worldwide Consultancy** helps students prepare for their international education journey, understand university admission requirements and explore international study possibilities with the right preparation and direction."
+  name: "Postgraduate Electronics and Communication Engineering in Germany",
+  country: "Germany",
+  slug: "pg/electronics-and-communication-engineering",
+  title: "Postgraduate Electronics & Communication Engineering in Germany for Indian Students | Edu-Hawk Worldwide",
+  description: "Complete guide to Postgraduate Electronics & Communication Engineering (ECE) in Germany: Top TU9 universities, 5G/6G, microelectronics, embedded IoT, zero tuition, and career pathways.",
+  keywords: "Study Master's in Electronics and Communication Engineering in Germany for Indian Students, Postgraduate ECE Courses in Germany, Best Universities for Electronics and Communication Engineering in Germany, MSc Electronics and Communication Engineering Programmes in Germany, ECE Specialisations in Germany, Eligibility Requirements for Master's in ECE in Germany, Admission Requirements for Electronics and Communication Engineering in Germany, English-Taught ECE Courses in Germany, IELTS and TOEFL Requirements for ECE in Germany, Electronics and Communication Engineering Tuition Fees in Germany, Cost of Living for Master's Students in Germany, ECE Scholarships in Germany for International Students, Electronics and Communication Engineering Accreditation and Degree Recognition in Germany",
+  introTitle: "Why Study Postgraduate Electronics and Communication Engineering in Germany?",
+  heroParas: [
+    "Germany's advanced semiconductor research, 5G/6G telecommunications infrastructure, and embedded systems mastery make it a premier global destination for postgraduate Electronics and Communication Engineering (ECE), combining rigorous research with tuition-free public higher education and an 18-month post-study work visa."
   ],
-  "overview": [
-    "Germany's advanced **electronics industry** , robust **telecommunications sector** , **semiconductor research** , and proficiency in **embedded systems** and **wireless technologies** make it a desirable location for ****postgraduate Electronics and Communication Engineering (ECE)**** studies. Students can gain specialized knowledge in **intelligent electronic systems**, **microelectronics**, **communication networks**, and **signal processing**.",
-    "**The main advantages of studying ECE in Germany are:**",
-    "* High-quality education: German universities provide chances for technical education and research in information technology, communications, and electronics.",
-    "* Students can explore  advanced technologies such as **semiconductor devices**, **embedded systems**, **5G and 6G communications** and **Internet of Things (IoT)** technologies.",
-    "* For qualified master's programs, many public universities offer free general tuition; nevertheless, there are exclusions and semester contributions.",
-    "* **Industry exposure:** Industrial technology, **automotive electronics** , **telecommunications** , **semiconductor** , and **automation** have all been established in Germany.",
-    "* **Research opportunities:** Students can work on projects related to **integrated circuits** ,**wireless communications** , **signal processing** , and intelligent linked devices.",
-    "* **International career opportunities:** Careers in **embedded engineering** , **communication systems** , **research and development** , and **electronics design** can be supported by a postgraduate degree.",
-    "* Graduates who wish to work with contemporary **communication technologies**, **electronic hardware**, **semiconductor systems**, and **connected devices** might consider studying ECE in Germany.",
-    "**Edu Hawk Worldwide Consultancy** helps students prepare for their international education journey, understand university admission requirements and explore international study possibilities with the right preparation and direction."
+  overview: [
+    "Germany provides an exceptional academic and industrial ecosystem for engineers aspiring to develop next-generation communication architectures, RF systems, microchips, and sensor networks.",
+    "Key advantages of pursuing an M.Sc. in Electronics & Communication Engineering in Germany include:",
+    "• World-Class Engineering & Research: German universities offer elite technical education in communications, microelectronics, and advanced information technology.",
+    "• Next-Gen Technologies: Direct exposure to cutting-edge research in 5G/6G mobile networks, photonic integrated circuits, semiconductor devices, and cyber-physical IoT systems.",
+    "• Tuition-Free Public Universities: Over 90% of public master's degrees charge zero tuition fees, requiring only a nominal semester contribution (€150–€400).",
+    "• High-Tech Industrial Hubs: Germany is Europe's semiconductor powerhouse ('Silicon Saxony' in Dresden) with strong industrial R&D from Infineon, Bosch, Rohde & Schwarz, NXP, and Deutsche Telekom.",
+    "• Global Career Opportunities: High industrial demand for hardware developers, RF engineers, embedded firmware architects, and communications specialists.",
+    "• 18-Month Post-Study Visa: Unrestricted job seeker visa allowing graduates to transition seamlessly to the EU Blue Card and permanent European residency.",
+    "Edu-Hawk Worldwide assists students with academic profile evaluation, APS documentation, credit mapping, university admissions, and visa processing."
   ],
-  "level": "M.Sc. in Communications and Signal Processing",
-  "crumb": "Engineering / PG Electronics & Communication",
-  "stats": [
-    {
-      "label": "Degree Choices",
-      "value": "M.Sc. in Communications and Signal Processing"
-    },
-    {
-      "label": "Course Duration",
-      "value": "1.5 to 2 Years (Master)"
-    },
-    {
-      "label": "Top Institutions",
-      "value": "Munich Technical University (TUM)      renowned for its sophisticated technological research, electronics, communications,     information technology    , and     electrical engineering    ., Aachen University's RWTH      provides a broad engineering environment and research opportunities in information technology, electronics, electrical systems  and     communications    ."
-    },
-    {
-      "label": "Post-Study Work",
-      "value": "18-Month Jobseeker Visa (Residence Permit)"
-    }
+  level: "M.Sc. in Communications & Electronic Systems",
+  crumb: "Engineering / PG Electronics & Communication",
+  stats: [
+    { label: "Degree Choices", value: "M.Sc. in Communications Engineering / ECE" },
+    { label: "Course Duration", value: "1.5 to 2 Years (90 - 120 ECTS)" },
+    { label: "Tuition at Public Unis", value: "€0 / Free (Semester Fee €150 - €400)" },
+    { label: "Private Uni Fees", value: "€5,000 - €20,000 / Year" },
+    { label: "Average Living Costs", value: "€900 - €1,300 / Month" },
+    { label: "Post-Study Work Visa", value: "18 Months (EU Blue Card Eligible)" }
   ],
-  "sections": [
+  sections: [
     {
-      "slot": "courses",
-      "eyebrow": "Curriculum & Specializations",
-      "title": "2. Courses in Electronics and Communication Engineering in Germany",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Depending on the university and program design, ****postgraduate Electronics and Communication Engineering programs**** in Germany typically last **1.5 to 2 years**. 90 or 120 ECTS credits are typically needed for master's programs.",
-            "**Master's degrees in ECE** may be offered in Germany under a variety of program titles, such as **Electrical Engineering**, **Information Technology**, **Communications Engineering**, **Microelectronics**, and **Communication Systems**.",
-            "Popular postgraduate programs and areas of expertise include of:",
-            "Typical topics discussed include:",
-            "The chosen specialization determines the program. Before applying, students should evaluate **course modules** , **laboratory facilities** , **research opportunities** , and **industry partnerships**."
-          ]
-        },
-        {
-          "t": "pills",
-          "items": [
-            "The master's degree in electronics and communication engineering",
-            "Electrical Engineering and Information Technology Master's degree",
-            "The master's degree in communications engineering",
-            "The Master of Science in Wireless Communications",
-            "The Master of Science in Communication Systems",
-            "Microelectronics Master's Program",
-            "The Master of Science in Electronic Systems",
-            "MSc in Embedded Systems",
-            "The Master of Science in Signal Processing",
-            "The master's degree in telecommunications engineering",
-            "The Master of Science in Integrated Circuit Design",
-            "Information and communication engineering master's degree",
-            "The Master of Science in Radio Frequency Engineering",
-            "The Master of Science in Information Technology",
-            "Electronics, both digital and analog",
-            "The processing of digital signals",
-            "Mobile and wireless communications",
-            "Networks and protocols for communication",
-            "Microwave and antenna engineering",
-            "Microelectronics and semiconductor devices",
-            "Microcontrollers and embedded systems",
-            "The design of integrated circuits",
-            "Systems for optical communication",
-            "IoT and computer networks",
-            "5G and upcoming 6G technologies",
-            "Methods of research and master's thesis"
-          ]
-        }
+      title: "Popular Postgraduate ECE Courses & Specialisations",
+      content: [
+        "Postgraduate Electronics and Communication Engineering programs in Germany typically last 1.5 to 2 years (3 to 4 semesters) and require 90 to 120 ECTS credits. Curricula allow deep specialization across wireless communications, embedded systems, microelectronics, or digital signal processing.",
+        "Major postgraduate degree options and specializations include:",
+        "• M.Sc. in Communications Engineering & Wireless Networks: 5G/6G cellular architectures, MIMO antenna design, wireless channel modeling, and cooperative communications.",
+        "• M.Sc. in Microelectronics & Integrated Circuit Design: Analog, digital, and mixed-signal VLSI design, semiconductor physics, and ASIC verification using Cadence/Synopsys.",
+        "• M.Sc. in Radio Frequency (RF) & Microwave Engineering: High-frequency radar systems, RF transceivers, electromagnetic compatibility (EMC), and millimeter-wave technologies.",
+        "• M.Sc. in Embedded Systems & Internet of Things (IoT): Real-time embedded programming, sensor networks, edge AI compute nodes, and automotive communication buses (CAN, LIN, FlexRay, Automotive Ethernet).",
+        "• M.Sc. in Digital Signal & Image Processing: Advanced DSP algorithms, machine learning for audio/speech processing, computer vision, and biomedical signal analysis.",
+        "• M.Sc. in Optical Communication & Photonic Systems: Fiber-optic networks, coherent optical transceivers, laser systems, and photonic integrated circuits (PICs).",
+        "Typical core curriculum modules covered across these programs:",
+        "1. Advanced Digital Signal Processing & Filter Design",
+        "2. Wireless Communications & 5G/6G Network Architectures",
+        "3. Analog & Digital Integrated Circuit (IC) Design",
+        "4. Microwave Engineering, Antennas & Wave Propagation",
+        "5. Embedded Microcontrollers & Real-Time Operating Systems (RTOS)",
+        "6. Information Theory, Coding & Cryptographic Security",
+        "7. Automotive Electronics & Sensor Fusion Systems",
+        "8. Independent Master's Thesis & Advanced Research Project (30 ECTS)"
       ]
     },
     {
-      "slot": "universities",
-      "eyebrow": "Top German Universities",
-      "title": "3. Germany's Top Universities and Institutions for Electronics and Communication Engineering",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Postgraduate programs and research in **electronics**, **communications**, **electrical engineering**, and **information technology** are offered by a number of **technical universities** in Germany.",
-            "**Munich Technical University (TUM) -** renowned for its sophisticated technological research, electronics, communications, **information technology**, and **electrical engineering**.",
-            "**Aachen University's RWTH -** provides a broad engineering environment and research opportunities in information technology, electronics, electrical systems  and **communications**.",
-            "**The Karlsruhe Institute of Technology (KIT) -** renowned for research in electronic systems, **information technology** , **electrical engineering** , and communications.",
-            "**Stuttgart University -** provides chances for engineering and research in the fields of electrical engineering, intelligent systems, embedded technologies, and communication systems."
-          ]
-        }
+      slot: "unis",
+      title: "Top German Universities for Postgraduate Electronics & Communication",
+      subtitle: "Globally acclaimed technical universities offering cutting-edge laboratories, zero public tuition, and direct industry collaboration."
+    },
+    {
+      title: "Eligibility Criteria for M.Sc. in ECE in Germany",
+      content: [
+        "Admission to German postgraduate ECE programs is strictly merit-based. Because German master's degrees are consecutive (konsekutiv), applicants must possess an undergraduate degree directly relevant to Electronics and Communication Engineering.",
+        "Key eligibility benchmarks required by German universities:",
+        "• Recognized Bachelor's Degree: A 4-year B.Tech / B.E. / B.Sc. in Electronics & Communication Engineering (ECE), Electronics Engineering, Electrical & Electronics Engineering (EEE), or Telecommunications Engineering from a recognized university.",
+        "• Subject-Specific ECTS Credits: German universities enforce strict minimum credit thresholds in Higher Mathematics (Linear Algebra, Calculus, Probability), Signals & Systems, Analog/Digital Electronics, Electromagnetics, and Microprocessors.",
+        "• Minimum Academic GPA: Competitive public programs typically require a German equivalent grade of 2.5 or better (approx. 65%–70%+ in Indian undergraduate grading).",
+        "• English Language Proficiency: For English-taught programs, universities accept IELTS Academic (typically 6.5 with no band below 6.0) or TOEFL iBT (88–95+).",
+        "• German Language Requirements: For German-taught or bilingual programs, proof of German language proficiency at the B2 or C1 level (TestDaF or DSH) is mandatory. For English programs, basic German (A1/A2) is strongly recommended for daily life and plant internships.",
+        "• Mandatory APS Certificate: All applicants holding Indian educational credentials must secure an APS Certificate (Akademische Prüfstelle) from the German Embassy prior to application submission."
       ]
     },
     {
-      "slot": "eligibility",
-      "eyebrow": "Eligibility Criteria",
-      "title": "4. Qualifications for Studying Communication and Electronics Engineering in Germany",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "In general, candidates for a ****postgraduate ECE program**** must fulfill the following prerequisites:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "A recognized bachelor's degree in **Electronics and Communication Engineering**, **Electronics Engineering**, **Electrical and Electronics Engineering**, **Electrical Engineering**, or a closely related field is required.",
-            "It may be necessary to have prior coursework in **electronic circuits** , **digital electronics** , **communication systems** , **signal processing** , mathematics, and programming.",
-            "Academic performance: Minimum grade criteria are determined by universities. Strong academic performance may be necessary for competitive programs.",
-            "**Language proficiency:** Programs taught in English typically accept **TOEFL**, **IELTS**, or other recognized credentials. Programs taught in German may need **German proficiency**, usually at the B2 or C1 level.",
-            "Minimum credits in electronics, communications, electrical engineering, computer engineering, or mathematics are required for certain programs.",
-            "**Additional requirements:** An aptitude test, appropriate job experience, an interview, or **GRE scores** may be required by some colleges."
-          ]
-        }
+      title: "Application Dossier & Required Documentation",
+      content: [
+        "International applicants must prepare a comprehensive academic dossier for submission via Uni-Assist or direct university application portals:",
+        "1. Valid International Passport (valid for at least 12 months beyond planned stay)",
+        "2. Certified Official Bachelor's Degree Certificate and Consolidated Marksheets",
+        "3. Detailed Undergraduate Curriculum / Module Handbook (Syllabus breakdown for credit mapping)",
+        "4. Valid APS Certificate issued by the German Embassy in New Delhi",
+        "5. Official Language Test Scorecards (IELTS Academic / TOEFL iBT / TestDaF / Goethe-Zertifikat)",
+        "6. Academic Curriculum Vitae (in European Europass format)",
+        "7. Letter of Motivation / Statement of Purpose (highlighting technical interests, projects, and career goals)",
+        "8. Letters of Recommendation from university professors or industrial supervisors (2 letters)",
+        "9. Certificates of Internships, Industry Research, or MATLAB/VHDL/Cadence Certifications",
+        "10. GRE Scorecard (if mandated by the specific university regulations)"
       ]
     },
     {
-      "slot": "admission",
-      "eyebrow": "Admission Requirements",
-      "title": "5. Germany's requirements for admission to the Electronics and Communication Engineering program",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Universities and specializations have different criteria for admission but applicants often need:",
-            "Certain colleges assess candidates based on their undergraduate grades, the degree's applicability, and the number of credits earned in important technical courses.",
-            "A **microelectronics program** might demand more preparation in **semiconductor physics**, **electronic circuits**, and **integrated circuit design**, whereas a **communications engineering program** might prioritize **signal processing**, probability, and **communication theory**."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "A validated **bachelor's degree in ECE** or a similar field.",
-            "Degree certificates and academic transcripts.",
-            "Evidence of proficiency in either German or English.",
-            "A CV or resume.",
-            "A letter of motivation or a **statement of purpose** if necessary.",
-            "Recommendation letters, upon request.",
-            "**GRE scores** if the university requires them.",
-            "Certificates of internship or work experience, if relevant.",
-            "A passport that is current.",
-            "Extra academic records that the university specifies."
-          ]
-        }
+      title: "Tuition Fees & Cost of Living Breakdown",
+      content: [
+        "Public higher education in Germany remains virtually tuition-free, making it one of the most cost-effective destinations in the world for advanced engineering education.",
+        "Estimated costs for international postgraduate students:",
+        "• Public University Tuition: €0 per year across 15 of 16 German federal states (in Baden-Württemberg, non-EU students pay €1,500 per semester; TUM charges non-EU tuition of €4,000–€6,000/sem).",
+        "• Semester Contribution (Semesterbeitrag): €150 to €400 per semester. This covers student union administration, university sports, and a mandatory regional public transit semester ticket.",
+        "• Private University Tuition: €5,000 to €20,000+ per year for students choosing private specialized institutions.",
+        "• Monthly Living Expenses: €900 to €1,300 per month, covering student housing, public health insurance (€120–€130/month), groceries, internet, and personal upkeep.",
+        "• Statutory Blocked Account (Sperrkonto): Proof of financial resources of €11,904 per year (€992 per month) required for the German national student visa.",
+        "• Two-Year Total Living Estimate: Approximately €21,600 to €31,200 for the entire 2-year master's program, which can be partially offset through 140 full days (or 280 half days) of permitted student part-time employment."
       ]
     },
     {
-      "slot": "fees",
-      "eyebrow": "Tuition Fees & Living Costs",
-      "title": "6. The cost of studying communication and electronics engineering in Germany",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The university, program, city, and way of living all affect the overall cost of ****postgraduate ECE studies**.**",
-            "Projected costs:",
-            "With a few exceptions, many public colleges do not charge general tuition for master's programs that qualify.",
-            "Certain non-EU students may be required to pay tuition at some public universities, and specialized programs may have different cost structures. Candidates should check current fees with the organization of their choice.",
-            "Based on monthly expenses of €900–€1,300, the estimated living expenses for a two-year master's degree are around **€21,600–€31,200**. Tuition and other one-time expenses are not included in this estimate.",
-            "In accordance with the relevant regulations, international students must also show that they have the ****financial resources for their German student visa****. Applicants should refer to the most recent official guidelines as the needed quantity is subject to change."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "The approximate contribution for each semester is between €150 and €400.",
-            "The cost of private university tuition is often between €5,000 and €20,000 or more annually.",
-            "Living expenses range from €900 to €1,300 a month.",
-            "The cost of health insurance is contingent upon the student's provider and eligibility.",
-            "Study materials, lodging deposits, transportation, visa fees, and the initial cost of migration are examples of additional expenses."
-          ]
-        },
-        {
-          "t": "table",
-          "headers": [
-            "Category / Expense Type",
-            "Estimated Amount (EUR)",
-            "Applicability & Regulation"
-          ],
-          "rows": [
-            [
-              "The approximate contribution for each semester is between €150 and €400.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "The cost of private university tuition is often between €5,000 and €20,000 or more annually.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "Living expenses range from €900 to €1,300 a month.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "The cost of health insurance is contingent upon the student's provider and eligibility.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "Study materials, lodging deposits, transportation, visa fees, and the initial cost of migration are examples of additional expenses.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ]
-          ]
-        }
+      slot: "timeline",
+      title: "Step-by-Step Admission & Visa Timeline",
+      subtitle: "Follow this structured 10-step roadmap to successfully transition from undergraduate studies in India to postgraduate ECE in Germany."
+    },
+    {
+      title: "Accreditation, Quality Standards & Industry Recognition",
+      content: [
+        "All genuine German technical universities and universities of applied sciences are state-recognized and adhere strictly to the European Higher Education Area (Bologna Process).",
+        "Key quality assurance benchmarks:",
+        "• State Accreditation (Staatliche Anerkennung): Guarantees global validity of degree awards and unrestricted admission to doctoral (Ph.D.) research programs.",
+        "• Subject-Specific Accreditations: Programs certified by ASIIN (Akkreditierungsagentur für Studiengänge der Ingenieurwissenschaften und Informatik) undergo rigorous evaluation of laboratory facilities, faculty expertise, and industrial alignment.",
+        "• Cutting-Edge Research Facilities: Premier technical faculties maintain anechoic antenna chambers, cleanrooms for semiconductor fabrication, high-speed optical testing suites, and RF network analyzers.",
+        "• High-Tech Industrial R&D Ties: Collaborative research funded by the German Federal Government, European Union Horizon Europe, and industry leaders like Rohde & Schwarz, Infineon, and Bosch."
       ]
     },
     {
-      "slot": "process",
-      "eyebrow": "Application Timeline & Steps",
-      "title": "7. The German Admission Process for Electronics and Communication Engineering",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The following steps are often involved in the admissions process:",
-            "Step 1: Select your area of expertise",
-            "Choose between **wireless communications** , **microelectronics** , **embedded systems** , **signal processing** , **telecommunications** , or **integrated circuit design**.",
-            "Step 2: Look into universities",
-            "Compare fees, industry links, research facilities, teaching languages, and **program curricula**.",
-            "Step 3: Verify your eligibility",
-            "Verify that your prior coursework, grades, and bachelor's degree meet the program's academic criteria.",
-            "Step 4 : Prepare the results of the language exam.",
-            "If necessary, take the **German language examination** or the **TOEFL** or **IELTS**.",
-            "Step 5: Get the application materials ready.",
-            "Gather your resume, motivation letter, degree certificates, transcripts, language certificates, and any other required paperwork.",
-            "Step 6: Send in the application",
-            "Use the application service designated by the university or the official portal.",
-            "Step 7: Finish any further evaluations",
-            "Attend interviews, turn in any necessary **GRE scores** , or finish aptitude tests.",
-            "Step 8: Get the admissions decision",
-            "Examine the enrollment requirements, deadlines, admission offer, and cost details.",
-            "Step 9: Make financial and student visa arrangements",
-            "Prepare the documentation needed for a **German student visa** as well as financial evidence, health insurance plans, and housing arrangements.",
-            "Step 10: Finalize enrollment",
-            "Register for your program, send in the necessary paperwork, and pay any relevant tuition or semester payments."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Quality Standards",
-      "title": "8. Accreditation and Recognition of Electronics and Communication Engineering in Germany",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Students should check the ****quality assurance or accreditation status**** of the particular degree and confirm that the university is officially recognized in Germany before enrolling in a postgraduate ECE program.",
-            "Important things to think about are:",
-            "Master's degrees in ECE may be granted under more general titles as **Electrical Engineering**, **Information Technology** or **Communications Engineering**. When determining if a program aligns with a student's academic and professional objectives, the curriculum and learning outcomes are crucial."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "The institution's official recognition.",
-            "Relevant quality assurance or program accreditation status.",
-            "Acknowledgment of the eligibility for additional training and work.",
-            "Basic **electronics and communication subjects** are covered.",
-            "Availability of simulation software, communication testing tools, and **electronics laboratories**.",
-            "Possibilities for **research** , **internships** , and industry cooperation."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Career Prospects & Salary",
-      "title": "9. Pay and Employment Prospects in Germany Following Electronics and Communication Engineering",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Graduates can work in **telecommunications** , **semiconductor technology** , **automotive electronics** , **industrial automation** , **embedded systems** , and connected devices with a postgraduate **ECE qualification**.",
-            "Well-liked career options consist of:",
-            "**Germany's indicative pay expectations:**",
-            "The approximate gross annual salary for entry-level positions is between €45,000 and €60,000.",
-            "Depending on the position and employer, experienced professionals often earn between €60,000 and €85,000 or more gross annually.",
-            "Graduates can look into prospects with **industrial technology firms**, **semiconductor manufacturers**, **automotive electronics suppliers**, **telecommunications companies**, **electronics design companies**, and research organizations.",
-            "Depending on the selected career path, technical expertise in **MATLAB/Simulink**, **C/C++**, **embedded programming**, **FPGA design**, **PCB design**, **Verilog or VHDL**, **RF simulation**, and **signal processing** can be beneficial.",
-            "**Proficiency in the German language** can enhance job prospects, particularly in positions involving local clientele, manufacturing processes, project management and technical documentation."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "The position of Electronics Design Engineer",
-            "Engineer for Communication Systems",
-            "The position is Telecommunications Engineer",
-            "Engineer for Embedded Systems",
-            "Engineer for Digital Signal Processing",
-            "Antenna and RF Engineer",
-            "A semiconductor engineer",
-            "Engineer for Integrated Circuit Design",
-            "The position of Hardware Development Engineer",
-            "The position of Wireless Network Engineer",
-            "\"IoT Engineer\"",
-            "Engineer for Research and Development"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Required Documentation",
-      "title": "10. Documents Needed to Pursue a German Education in Electronics and Communication Engineering",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The following paperwork is typically required for **university admission**:",
-            "Additional documentation needed for the **German student visa application** could be:",
-            "The university, application process, and unique visa circumstances all influence the specific criteria. For up-to-date instructions, applicants should refer to the German mission guidelines and the official university website."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "A current passport.",
-            "A provisional certificate or a bachelor's degree certificate.",
-            "Mark sheets and academic transcripts.",
-            "If requested, the curriculum or course descriptions.",
-            "Evidence of proficiency in either German or English.",
-            "A CV or resume.",
-            "A letter of motivation or a statement of goal.",
-            "Recommendation letters, if necessary.",
-            "If necessary, the GRE scores.",
-            "Certificates of internship or work experience, if relevant.",
-            "Information on research or academic projects, upon request.",
-            "A completed application for a university.",
-            "If necessary, certified translations of documents.",
-            "Passport-sized photos, upon request.",
-            "The letter of admission to the university.",
-            "Evidence of adequate financial resources.",
-            "Documentation related to health insurance.",
-            "Forms for applying for a visa and any supporting documentation.",
-            "Details about accommodations, if asked."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "details",
-      "eyebrow": "Key Insights",
-      "title": "11. FAQs regarding German Electronics and Communication Engineering",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Q1. Is it possible for Indian students to **study Electronics and Communication Engineering for a master's degree in Germany?**",
-            "Yes, Indian students who meet the academic, subject-credit, and language requirements of the institution may apply with a recognized **bachelor's degree in ECE** or a similar field.",
-            "Q2. Does Germany provide free master's degrees in Electronics and Communication Engineering?",
-            "For qualified master's programs, many **public universities** do not charge general tuition fees; however, semester contributions are typically needed. Private institutions typically charge tuition, but some public universities and specialized programs do.",
-            "Q3. What is the duration of a German master's degree in Electronics and Communication Engineering?",
-            "Depending on the program's structure and credit requirements, most master's programs last between **1.5 and 2 years**.",
-            "Q4. Is the IELTS required for German ECE programs?",
-            "IELTS is not required everywhere. Certain applicants may be eligible for an exemption, and **English-taught programs** may accept **IELTS**, **TOEFL**, or other recognized credentials. Programs taught in German demand a certain level of proficiency in the language.",
-            "Q5. What kinds of professions are available in Germany after earning a master's degree in ECE?",
-            "Careers in **embedded systems** , **semiconductor technology** , **signal processing** , **integrated circuit design** , **research and development** , **telecommunications** , **wireless communications** , and **electronics design** are available to graduates. Technical expertise, experience, language ability, and workplace needs all affect career chances.",
-            "How may I study abroad with the assistance of **Edu Hawk Worldwide Consultancy?**",
-            "Students may find appropriate universities, comprehend **admission requirements**, arrange **application materials** and organize their **study-abroad journey** with the assistance of **Edu Hawk Worldwide**. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
-          ]
-        }
+      title: "Career Outlook, Job Profiles & Salary Benchmarks",
+      content: [
+        "Graduates with a master's degree in Electronics & Communication Engineering from Germany are in exceptionally high demand across telecommunications, automotive electronics, semiconductor fabrication, aerospace, and medical technology.",
+        "Prominent postgraduate career roles include:",
+        "• Wireless Communications & 5G/6G Systems Engineer: Designing cellular protocols, base station transceivers, and advanced antenna beamforming systems.",
+        "• IC Design & Verification Engineer (ASIC / FPGA): Designing and validating analog, digital, and mixed-signal chips using industry-standard EDA tools.",
+        "• Radio Frequency (RF) & Microwave Engineer: Developing radar modules, RF power amplifiers, and wireless transceivers for automotive and aerospace applications.",
+        "• Embedded Systems & Firmware Developer: Writing low-level drivers, RTOS kernels, and communication stacks for IoT edge devices and automotive ECUs.",
+        "• Digital Signal Processing (DSP) Engineer: Implementing audio, image, radar, and lidar processing algorithms on dedicated DSPs and FPGAs.",
+        "• Semiconductor Process & Packaging Engineer: Cleanroom manufacturing, wafer testing, and packaging across Germany's semiconductor fabrication clusters.",
+        "Indicative Gross Annual Salaries in Germany:",
+        "• Entry-Level Master's Graduate: €45,000 to €60,000 per year.",
+        "• Experienced Professional (3–5+ years): €60,000 to €85,000+ per year.",
+        "• Senior RF / Systems Architect: €90,000 to €115,000+ per year.",
+        "Major Employers in Germany: Infineon Technologies, Robert Bosch, Rohde & Schwarz, Siemens AG, Continental AG, NXP Semiconductors, Deutsche Telekom, Ericsson Germany, Nokia Bell Labs, and Fraunhofer IIS."
       ]
     }
   ],
-  "faqs": []
+  universities: [
+    {
+      name: "Technical University of Munich (TUM)",
+      location: "Munich, Bavaria",
+      desc: "Consistently ranked as Germany's #1 university, TUM's Department of Electrical and Computer Engineering is renowned for communications engineering, embedded circuits, and quantum electronics.",
+      fee: "€4,000 - €6,000 / Semester (TUM Non-EU Tuition) + €150 Semesterbeitrag",
+      duration: "2 Years (4 Semesters)",
+      exams: "IELTS 6.5+ / TOEFL 88+, GRE recommended",
+      features: [
+        "#1 Ranked Technical University in Germany & Excellence Cluster",
+        "Direct collaboration with Munich tech giants: BMW, Siemens, Rohde & Schwarz",
+        "World-leading research in 5G/6G, communications, and circuit design",
+        "Global alumni network and stellar corporate placement"
+      ],
+      img: uniImg1,
+      link: "https://www.tum.de"
+    },
+    {
+      name: "RWTH Aachen University",
+      location: "Aachen, North Rhine-Westphalia",
+      desc: "A TU9 leader providing elite research in wireless communications, integrated analog/digital circuits, signal processing, and high-frequency RF systems.",
+      fee: "€0 Tuition (€320 Semesterbeitrag / semester)",
+      duration: "2 Years (4 Semesters)",
+      exams: "IELTS 6.5+ / TOEFL 90+, GRE quantitative score recommended",
+      features: [
+        "Prestigious TU9 technical university with global acclaim",
+        "Zero tuition fees at a premier public research university",
+        "Direct partnerships with Ericsson, Vodafone, and European microelectronics centers",
+        "Extensive state-of-the-art RF and anechoic test chambers"
+      ],
+      img: uniImg2,
+      link: "https://www.rwth-aachen.de"
+    },
+    {
+      name: "Karlsruhe Institute of Technology (KIT)",
+      location: "Karlsruhe, Baden-Württemberg",
+      desc: "German Excellence University acclaimed for communications engineering, microwave technologies, photonics, and embedded automotive electronic systems.",
+      fee: "€1,500 / Semester (State Non-EU Fee) + €180 Semesterbeitrag",
+      duration: "2 Years (4 Semesters)",
+      exams: "IELTS 6.5+ / TOEFL 90+",
+      features: [
+        "German Excellence University & TU9 Member",
+        "Elite Institute of Radio Frequency Engineering and Electronics (IHE)",
+        "Advanced research in millimeter-wave radar and terahertz communications",
+        "Strong ties with automotive and telecommunication suppliers"
+      ],
+      img: uniImg3,
+      link: "https://www.kit.edu"
+    },
+    {
+      name: "University of Stuttgart",
+      location: "Stuttgart, Baden-Württemberg",
+      desc: "Renowned research university specializing in electronic system integration, digital communications, RF technologies, and intelligent sensor networks.",
+      fee: "€1,500 / Semester (State Non-EU Fee) + €200 Semesterbeitrag",
+      duration: "2 Years (4 Semesters)",
+      exams: "IELTS 6.5+ / TOEFL 90+",
+      features: [
+        "TU9 member at the heart of Germany's high-tech industrial region",
+        "Cutting-edge research in micro-optoelectronic systems and automotive radar",
+        "Close partnerships with Bosch, Mercedes-Benz, and Nokia Bell Labs",
+        "High placement rate across southwestern Germany's tech sector"
+      ],
+      img: uniImg4,
+      link: "https://www.uni-stuttgart.de"
+    }
+  ],
+  timeline: [
+    {
+      step: "Step 1",
+      title: "Choose Your Specialisation",
+      desc: "Define your technical focus across Wireless Communications, Microelectronics (IC Design), RF Engineering, Embedded Systems, or Signal Processing."
+    },
+    {
+      step: "Step 2",
+      title: "Research Universities & Module Handbooks",
+      desc: "Examine course curricula, lab facilities, teaching languages (English vs German), and faculty research projects at TU9 and applied sciences universities."
+    },
+    {
+      step: "Step 3",
+      title: "Verify Academic Eligibility & ECTS Credits",
+      desc: "Perform credit mapping between your Indian B.Tech / B.E. subjects and German university prerequisites in mathematics, signals & systems, and electronics."
+    },
+    {
+      step: "Step 4",
+      title: "Appear for Language Tests & Secure APS",
+      desc: "Take IELTS Academic (6.5+) or TOEFL iBT (90+) and apply for the mandatory APS Certificate from the German Embassy in New Delhi."
+    },
+    {
+      step: "Step 5",
+      title: "Compile Application Dossier",
+      desc: "Prepare certified academic transcripts, syllabus module descriptions, Europass CV, Statement of Purpose (SOP), and 2 academic letters of recommendation."
+    },
+    {
+      step: "Step 6",
+      title: "Submit University Applications",
+      desc: "Submit online applications via the Uni-Assist portal or university direct admission platforms before deadlines (July 15 for Winter, January 15 for Summer)."
+    },
+    {
+      step: "Step 7",
+      title: "Complete Technical Evaluations",
+      desc: "Participate in virtual technical interviews or complete university-specific entrance aptitude tests if required by the admissions committee."
+    },
+    {
+      step: "Step 8",
+      title: "Receive Admission Offer Letter",
+      desc: "Evaluate your admission letter (Zulassungsbescheid), formally accept the offer, and confirm your study place."
+    },
+    {
+      step: "Step 9",
+      title: "Open Blocked Account & Apply for Student Visa",
+      desc: "Deposit €11,904 into a recognized German Blocked Account (Expatrio, Coracle, or Fintiba), secure statutory health insurance, and book your VFS visa appointment."
+    },
+    {
+      step: "Step 10",
+      title: "Enrollment & Campus Arrival",
+      desc: "Travel to Germany, complete city registration (Anmeldung), pay the semester contribution (€150–€400), and commence your master's degree."
+    }
+  ],
+  faqs: [
+    {
+      q: "Can Indian students study Electronics and Communication Engineering for a master's degree in Germany?",
+      a: "Yes. Indian students with a recognized 4-year bachelor's degree in Electronics & Communication Engineering (ECE), Electronics Engineering, Electrical & Electronics Engineering (EEE), or Telecommunications can apply for master's programs in Germany, provided they fulfill the university's academic credit prerequisites and language requirements."
+    },
+    {
+      q: "Does Germany provide tuition-free master's degrees in Electronics and Communication Engineering?",
+      a: "Yes. Most public universities in Germany charge zero tuition fees for consecutive master's degrees for both domestic and international students. Students only pay a nominal semester contribution (Semesterbeitrag) ranging from €150 to €400 per semester. (Note: Public universities in Baden-Württemberg charge non-EU students €1,500 per semester; TUM charges non-EU tuition of €4,000–€6,000/sem)."
+    },
+    {
+      q: "What is the typical duration of an ECE master's program in Germany?",
+      a: "Most postgraduate programs take 1.5 to 2 years (3 to 4 semesters) to complete, requiring 90 or 120 ECTS credits and culminating in a 6-month research master's thesis conducted at a university institute or in an industrial research department."
+    },
+    {
+      q: "Is IELTS mandatory for pursuing M.Sc. ECE in Germany?",
+      a: "For English-taught master's programs, universities typically require an English proficiency test such as IELTS Academic (minimum overall 6.5, with no band below 6.0) or TOEFL iBT (88–95+). If you apply for a German-taught program, proof of German language proficiency at the B2 or C1 level (TestDaF or DSH) is mandatory."
+    },
+    {
+      q: "What career opportunities are available in Germany after earning a master's degree in ECE?",
+      a: "Graduates work as 5G/6G Wireless Systems Engineers, IC Design & Verification Specialists, RF Microwave Engineers, Embedded Firmware Developers, and DSP Engineers across tech giants such as Infineon, Bosch, Rohde & Schwarz, Continental, NXP, and telecom operators. Starting salaries range from €45,000 to €60,000 gross per year, rising to €65,000–€90,000+ with experience. Graduates also qualify for an 18-month job seeker visa and rapid transition to the EU Blue Card."
+    },
+    {
+      q: "How does Edu-Hawk Worldwide assist ECE students?",
+      a: "Edu-Hawk Worldwide provides end-to-end guidance including academic credit mapping against German university module handbooks, APS documentation assistance, university shortlisting, SOP & CV refinement, application portal processing, blocked account setup, and German national student visa filing."
+    }
+  ]
 };
 
-export default function ElectronicsCommunicationPGGermanyPage() {
-  const images = {
-    hero: heroImg,
-    heroBg: heroBgImg,
-    side: sideImg,
-    ctaBg: ctaBgImg,
-    universities: [
-    {
-      name: "Munich Technical University (TUM)      renowned for its sophisticated technological research, electronics, communications,     information technology    , and     electrical engineering    .",
-      img: uniImg1,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "Aachen University's RWTH      provides a broad engineering environment and research opportunities in information technology, electronics, electrical systems  and     communications    .",
-      img: uniImg2,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "The Karlsruhe Institute of Technology (KIT)      renowned for research in electronic systems,     information technology     ,     electrical engineering     , and communications.",
-      img: uniImg3,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "Stuttgart University      provides chances for engineering and research in the fields of electrical engineering, intelligent systems, embedded technologies, and communication systems.",
-      img: uniImg4,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    }
-    ]
-  };
-
-  return <AbroadCoursePage page={page} images={images} />;
+export default function PostgraduateElectronicsCommunication() {
+  return (
+    <AbroadCoursePage
+      heroImg={heroImg}
+      heroBgImg={heroBgImg}
+      sideImg={sideImg}
+      ctaBgImg={ctaBgImg}
+      seoPath={page.slug}
+      page={page}
+    />
+  );
 }

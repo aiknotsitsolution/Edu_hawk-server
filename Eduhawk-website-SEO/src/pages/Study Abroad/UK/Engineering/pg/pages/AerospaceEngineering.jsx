@@ -21,13 +21,10 @@ const page = {
   "keywords": "Study MSc Aerospace Engineering in the UK, MSc Aerospace Engineering in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Study Aerospace engineering (PG) in the UK",
   "heroParas": [
-    "For students interested in postgraduate study in Aerospace EngineeringThe UK is a top choice. Advanced courses in aircraft design, aerodynamics, propulsion systems, aerospace structures, flight mechanics, and space technology are available at UK universities.",
-    "The main advantages of studying aerospace engineering in the UK",
-    "Obtain a postgraduate degree from a UK university that is recognized internationally."
+    "For students interested in postgraduate study in Aerospace EngineeringThe UK is a top choice. Advanced courses in aircraft design, aerodynamics, propulsion systems, aerospace structures, flight mechanics, and space technology are available at UK universities."
   ],
   "overview": [
     "For students interested in postgraduate study in Aerospace EngineeringThe UK is a top choice. Advanced courses in aircraft design, aerodynamics, propulsion systems, aerospace structures, flight mechanics, and space technology are available at UK universities.",
-    "The main advantages of studying aerospace engineering in the UK",
     "Obtain a postgraduate degree from a UK university that is recognized internationally."
   ],
   "level": "MSc Aerospace Engineering",

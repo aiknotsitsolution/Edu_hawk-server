@@ -19,8 +19,7 @@ const page = {
   "keywords": "Study Physiotherapy in Spain, Physiotherapy in Spain for Indian Students, Best Universities in Spain, Cost of Studying in Spain",
   "introTitle": "Pharmacy in Spain for Indian Students",
   "heroParas": [
-    "Pharmacy in Spain for Indian Students is a chance to earn a European healthcare degree, pharmaceutical laboratory experience, and learn about career options in community pharmacy, hospitals, pharmaceutical companies, research, and drug development. Spain is an attractive destination for students who wish to pursue an international career in pharmaceutical sciences and at the same time experience European education and healthcare systems.",
-    "In Spain, the usual undergraduate degree is the so-called Grado en Farmacia . The course usually lasts five years and leads to the acquisition of 300 ECTS credits, including scientific courses, practical laboratory training and supervised placements."
+    "Pharmacy in Spain for Indian Students is a chance to earn a European healthcare degree, pharmaceutical laboratory experience, and learn about career options in community pharmacy, hospitals, pharmaceutical companies, research, and drug development."
   ],
   "overview": [
     "Pharmacy in Spain for Indian Students is a chance to earn a European healthcare degree, pharmaceutical laboratory experience, and learn about career options in community pharmacy, hospitals, pharmaceutical companies, research, and drug development. Spain is an attractive destination for students who wish to pursue an international career in pharmaceutical sciences and at the same time experience European education and healthcare systems.",

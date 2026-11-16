@@ -20,8 +20,7 @@ const page = {
   "keywords": "Study Computer Engineering - UG in Canada, Computer Engineering - UG in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Indian Students Guide to Studying Computer Engineering in Canada",
   "heroParas": [
-    "Indian students interested in computer engineering in Canada, which includes computer hardware, software systems, embedded technology, computer networks, robotics, and intelligent computing frequently travel to Canada. Electrical engineering, computer architecture, programming, mathematics and hardware-software integration are all combined in undergraduate computer engineering curricula.",
-    "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."
+    "Indian students interested in computer engineering in Canada, which includes computer hardware, software systems, embedded technology, computer networks, robotics, and intelligent computing frequently travel to Canada. Electrical engineering, computer architecture, programming, mathematics and hardware-software integration are all combined in undergraduate computer engineering curricula."
   ],
   "overview": [
     "Indian students interested in computer engineering in Canada, which includes computer hardware, software systems, embedded technology, computer networks, robotics, and intelligent computing frequently travel to Canada. Electrical engineering, computer architecture, programming, mathematics and hardware-software integration are all combined in undergraduate computer engineering curricula.",

@@ -22,9 +22,7 @@ const page = {
   "keywords": "Study Winter Courses in the UK, Winter Courses in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Winter Courses in the United Kingdom",
   "heroParas": [
-    "Winter courses in the UK are a great opportunity for international students to build their academic knowledge, develop new skills, experience British culture and travel the country in winter.",
-    "These short-term programs can be a good choice for students, recent graduates and professionals who want to make the most of their winter vacations.",
-    "Winter courses are available at universities, colleges, language schools and specialist training providers in the UK. Depending on the school, students can choose from English language programs, business classes, technological workshops, creative arts, academic preparation, and cultural learning opportunities."
+    "Winter courses in the UK are a great opportunity for international students to build their academic knowledge, develop new skills, experience British culture and travel the country in winter."
   ],
   "overview": [
     "Winter courses in the UK are a great opportunity for international students to build their academic knowledge, develop new skills, experience British culture and travel the country in winter.",

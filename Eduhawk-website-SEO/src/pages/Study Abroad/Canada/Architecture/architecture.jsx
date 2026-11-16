@@ -19,8 +19,7 @@ const page = {
   "keywords": "Study Architecture in Canada, Architecture in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Study architecture in Canada",
   "heroParas": [
-    "To create buildings and living areas, architecture blends engineering principles, creativity, design, and technology. Students can acquire design thinking, technical expertise, sustainable planning abilities, and an awareness of contemporary construction methods by studying architecture in Canada.",
-    "Professional registration entails additional education, experience, and exam requirements, and architecture programs often have rigorous studio workloads."
+    "To create buildings and living areas, architecture blends engineering principles, creativity, design, and technology. Students can acquire design thinking, technical expertise, sustainable planning abilities, and an awareness of contemporary construction methods by studying architecture in Canada."
   ],
   "overview": [
     "To create buildings and living areas, architecture blends engineering principles, creativity, design, and technology. Students can acquire design thinking, technical expertise, sustainable planning abilities, and an awareness of contemporary construction methods by studying architecture in Canada.",
@@ -181,7 +180,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Compared to admissions for many other undergraduate degrees, architecture admissions in Canada might be more specialized.## Scholarly Writings",
+            "Compared to admissions for many other undergraduate degrees, architecture admissions in Canada might be more specialized.",
             "Candidates might require:",
             "Certificates and marksheets for classes 10 and 12.",
             "Transcripts and a bachelor's degree certificate are required for postgraduate applications. Information from the grading scale and official transcripts.",
@@ -379,7 +378,7 @@ const page = {
             },
             {
               "q": "How Can I Study Abroad with the Assistance of Edu Hawk Worldwide Consultancy?",
-              "a": "Students may plan their **study-abroad journey**, organize their application materials, research appropriate universities, and comprehend **admission requirements** with the assistance of Edu Hawk globally. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs. Study Architecture in Canada for Indian StudentsBest Universities for Architecture in CanadaArchitecture Courses in Canada for International StudentsArchitecture Eligibility in Canada After Class 12Architecture Admission Requirements in CanadaArchitecture Fees in Canada for Indian StudentsArchitecture Scholarships in Canada for International StudentsBachelor of Architecture Courses in CanadaMaster of Architecture in Canada for International StudentsArchitecture Portfolio Requirements for Canadian UniversitiesSustainable Architecture and Urban Design Courses in CanadaArchitecture Admission Process in CanadaCareer Opportunities After Studying Architecture in CanadaArchitect Salary and Job Opportunities in CanadaCanadian Architecture Licensing Requirements for International Students"
+              "a": "Students may plan their **study-abroad journey**, organize their application materials, research appropriate universities, and comprehend **admission requirements** with the assistance of Edu Hawk globally. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
             }
           ]
         }

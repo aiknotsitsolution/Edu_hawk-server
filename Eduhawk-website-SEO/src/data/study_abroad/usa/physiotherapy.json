@@ -1,57 +1,117 @@
 {
   "seo": {
-    "title": "Physiotherapy in USA | Top Universities, Fees & Visa 2026 | Edu Hawk",
-    "description": "Complete guide to studying Physiotherapy in USA for Indian students. Admissions, entry requirements, tuition fees, top US universities and scholarships."
+    "title": "Study Physiotherapy in USA for Indian Students | Edu Hawk",
+    "description": "Study physiotherapy in the USA for Indian students — the DPT degree, eligibility, admission process, costs and physiotherapy career pathways explained."
   },
   "hero": {
-    "badge": "MBBS & Medical Abroad",
+    "badge": "Study Physiotherapy · Abroad",
     "title": "Physiotherapy in USA",
-    "subtitle": "Experience world-class academic training and global career pathways in the United States with Edu Hawk Worldwide.",
-    "ctaText": "Book Free Counselling",
-    "image": ""
+    "subtitle": "Studying physiotherapy in the USA gives international students access to advanced rehabilitation facilities, cutting-edge clinical education, and diverse healthcare career pathways across leading American medical institutions.",
+    "ctaText": "Book free counselling",
+    "image": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80"
   },
   "stats": [
     {
-      "n": "1000+",
-      "l": "Students Placed Globally"
+      "n": "DPT, Pre-PT pathways, MSc & research options",
+      "l": "Programs"
     },
     {
-      "n": "20+",
+      "n": "USA, UK, Canada, Australia, Ireland & more",
       "l": "Countries"
     },
     {
-      "n": "200+",
-      "l": "Partner Universities"
+      "n": "Complete guidance from profile to arrival",
+      "l": "Support"
     },
     {
-      "n": "100%",
-      "l": "Support (Visa & End-to-End Guidance)"
+      "n": "Transparent fees, honest counselling & career focus",
+      "l": "Approach"
     }
   ],
   "highlights": {
-    "degree": "DPT / BPT",
-    "duration": "4 Years",
-    "fee": "$26,000 - $50,000 / Year",
-    "eligibility": "Class 12 PCB",
+    "degree": "DPT (Doctor of Physical Therapy)",
+    "duration": "3 Years (Post-Bachelors)",
+    "fee": "25–50L+ (Approx. Budget Range)",
+    "eligibility": "Bachelor's / Pre-PT prerequisites + GRE",
     "medium": "English"
   },
-  "overview": "Studying Physiotherapy in USA provides Indian scholars with unparalleled research facilities, industry-aligned curriculum, STEM OPT work authorization, and global professional prospects.",
+  "overview": "Students interested in patient care, rehabilitation science and advanced healthcare education frequently travel to the United States. Physiotherapy, referred to as physical therapy in the USA, aims to help patients recover from illnesses, surgeries and injuries by increasing mobility, controlling pain and regaining physical function.\n\nStudying physiotherapy in the USA can give Indian students access to cutting-edge rehabilitation facilities, clinical education, research opportunities and a variety of career pathways. The Doctor of Physical Therapy (DPT) is the standard professional entry-level degree for individuals who want to work as licensed physical therapists.\n\nEdu Hawk worldwide assists students in exploring international study options, understanding university admission standards and preparing for the overseas education journey.",
   "universities": [
     {
-      "name": "Top Ranked US Institution",
-      "location": "United States",
-      "fee": "$26,000 - $50,000 / Year",
-      "image": ""
+      "name": "University of Southern California",
+      "location": "USC Division of Biokinesiology and Physical Therapy",
+      "fee": "$45,000 - $65,000 / Year",
+      "image": "https://images.unsplash.com/photo-1562774053-701939374585?w=900&q=85"
+    },
+    {
+      "name": "University of Pittsburgh",
+      "location": "School of Health and Rehabilitation Sciences",
+      "fee": "$42,000 - $60,000 / Year",
+      "image": "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?w=900&q=85"
+    },
+    {
+      "name": "Washington University in St. Louis",
+      "location": "Program in Physical Therapy",
+      "fee": "$48,000 - $64,000 / Year",
+      "image": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=900&q=85"
+    },
+    {
+      "name": "Northwestern University",
+      "location": "Feinberg School of Medicine – Physical Therapy",
+      "fee": "$46,000 - $62,000 / Year",
+      "image": "https://images.unsplash.com/photo-1564981797816-1043664bf78d?w=900&q=85"
+    },
+    {
+      "name": "Duke University",
+      "location": "Doctor of Physical Therapy Program",
+      "fee": "$45,000 - $60,000 / Year",
+      "image": "https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=900&q=85"
     }
   ],
   "faq": [
     {
-      "question": "What are the admission requirements for Physiotherapy in USA?",
-      "answer": "Indian applicants generally require: Class 12 PCB, English proficiency (IELTS/TOEFL/PTE or Duolingo), academic transcripts, and letters of recommendation."
+      "question": "After Class 12, are Indian students able to pursue physiotherapy in the United States?",
+      "answer": "Yes. After completing the necessary undergraduate degree or prerequisite coursework, Indian students can apply to a DPT programme. Most professional DPT programmes do not offer direct admission right after Class 12."
     },
     {
-      "question": "Can I work while studying in the USA?",
-      "answer": "International students on F-1 visa can work on-campus up to 20 hours per week during semesters and full-time during breaks. Graduates of STEM programs receive up to 3 years of post-study OPT work authorization."
+      "question": "What is the primary degree in physiotherapy in the United States?",
+      "answer": "In the United States, the typical professional entry-level degree for becoming a physical therapist is the Doctor of Physical Therapy (DPT). Related degrees in exercise science or rehabilitation may support other career paths but do not always lead to physical therapist licensure."
+    },
+    {
+      "question": "How long does it take to become a physical therapist in the USA?",
+      "answer": "The professional DPT programme commonly takes about three years after the required undergraduate preparation. The overall pathway is longer because students usually need to complete undergraduate education or prerequisite coursework first."
+    },
+    {
+      "question": "What is the salary of a physical therapist in the USA?",
+      "answer": "According to the U.S. Bureau of Labor Statistics, the median annual wage for physical therapists was $102,760 in May 2025. Actual earnings vary by location, experience, employer, specialty and work setting. Employment is projected to grow 12% from 2025 to 2035."
+    },
+    {
+      "question": "Can Indian BPT graduates work as physical therapists in the USA?",
+      "answer": "An Indian BPT does not automatically grant the right to practise. Graduates generally need to complete the foreign-educated physical therapist pathway, including credential evaluation, examinations (such as the NPTE) and state-specific requirements. Requirements differ by state."
+    },
+    {
+      "question": "How can Edu Hawk worldwide help me study physiotherapy abroad?",
+      "answer": "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration and licensing requirements with the relevant official authorities."
+    },
+    {
+      "question": "Which country is best for Physiotherapy abroad?",
+      "answer": "There is no single best country. The right choice depends on your budget, academic profile, preferred course (DPT / MPT / related programmes), licensing pathway and long-term career plans. USA, UK, Canada and Australia are among the most popular with Indian students."
+    },
+    {
+      "question": "How much does it cost to study Physiotherapy abroad?",
+      "answer": "Costs vary by country and university. Your total budget includes tuition, accommodation, living expenses, insurance, travel and visa costs. We share a realistic estimate before you apply."
+    },
+    {
+      "question": "Do I need IELTS or another English test?",
+      "answer": "Most universities in the USA, UK, Canada and Australia ask for IELTS, PTE or TOEFL. Some universities offer waivers based on your previous medium of instruction. Requirements are checked university by university."
+    },
+    {
+      "question": "Can I work while studying Physiotherapy abroad?",
+      "answer": "Yes. Most popular destinations allow international students to work part-time during the course (usually 20 hours per week) and full-time during holidays, subject to visa conditions."
+    },
+    {
+      "question": "When should I start my application?",
+      "answer": "Starting 8–12 months before your intended intake gives you enough time for testing, shortlisting, documents, applications and visa preparation."
     }
   ]
 }

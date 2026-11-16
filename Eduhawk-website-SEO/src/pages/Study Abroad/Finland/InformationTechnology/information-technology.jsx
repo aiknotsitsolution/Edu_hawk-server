@@ -25,8 +25,7 @@ const page = {
     "Information Technology in Finland, Bachelor's in Information Technology in Finland, Master's in Information Technology in Finland, Information Technology Universities in Finland, Study IT in Finland for Indian Students, Information Technology Courses in Finland Fees",
   introTitle: "Information Technology in Finland – Bachelor's and Master's Courses",
   heroParas: [
-    "**Finland** is a popular destination for students interested in information technology, software development, artificial intelligence, cybersecurity and digital innovation. Finnish universities combine academic learning with practical projects, research and industry-oriented education. Students can develop technical skills in programming, information systems, data engineering, cloud technologies and digital solutions.",
-    "Studying **Information Technology in Finland** can prepare students for careers in the global technology industry. International students can choose from English-taught bachelor's and master's programmes at universities and universities of applied sciences."
+    "**Finland** is a popular destination for students interested in information technology, software development, artificial intelligence, cybersecurity and digital innovation. Finnish universities combine academic learning with practical projects, research and industry-oriented education. Students can develop technical skills in programming, information systems, data engineering, cloud technologies and digital solutions."
   ],
   overview: [
     "Studying Information Technology in Finland can prepare students for careers in the global technology industry. International students can choose from English-taught bachelor’s and master’s programmes at universities and universities of applied sciences. Depending on the institution, students may also have opportunities to participate in internships, research projects and industry collaborations.",

@@ -20,8 +20,7 @@ const page = {
   "keywords": "Study Nursing in Canada, Nursing in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Indian Students Can Study Nursing in Canada",
   "heroParas": [
-    "Indian students who choose to study nursing in Canada are drawn to this country. The nation is renowned for its cutting-edge healthcare system, state-of-the-art medical facilities, excellent nursing education, and hands-on clinical training. In order to assist students in developing critical patient-care skills, Canadian nursing programs integrate academic knowledge with supervised clinical experience.",
-    "Depending on their educational background and professional aspirations, international students investigating nursing in Canada can select among undergraduate nursing degrees, practical nursing diplomas, postgraduate nursing programs, and specialized healthcare courses."
+    "Indian students who choose to study nursing in Canada are drawn to this country. The nation is renowned for its cutting-edge healthcare system, state-of-the-art medical facilities, excellent nursing education, and hands-on clinical training. In order to assist students in developing critical patient-care skills, Canadian nursing programs integrate academic knowledge with supervised clinical experience."
   ],
   "overview": [
     "Indian students who choose to study nursing in Canada are drawn to this country. The nation is renowned for its cutting-edge healthcare system, state-of-the-art medical facilities, excellent nursing education, and hands-on clinical training. In order to assist students in developing critical patient-care skills, Canadian nursing programs integrate academic knowledge with supervised clinical experience.",

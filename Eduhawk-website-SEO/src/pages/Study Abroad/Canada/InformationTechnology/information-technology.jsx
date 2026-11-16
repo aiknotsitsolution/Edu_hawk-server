@@ -20,8 +20,7 @@ const page = {
   "keywords": "Study Information Technology in Canada, Information Technology in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Study Information Technology in Canada",
   "heroParas": [
-    "The usage, administration, creation, and security of computer systems, software, networks, databases, and digital infrastructure are the main topics of information technology (IT). It equips students to assist firms with data management, cybersecurity, cloud platforms, information systems, and technology solutions.",
-    "Information Systems, Applied Computing, Network Engineering, Cybersecurity, Cloud Computing, and IT Management** are among the fields in which Canada provides **undergraduate and postgraduate Information Technology programs, Following secondary school, students have the option of pursuing a bachelor's degree or a master's degree after earning an appropriate undergraduate degree."
+    "The usage, administration, creation, and security of computer systems, software, networks, databases, and digital infrastructure are the main topics of information technology (IT). It equips students to assist firms with data management, cybersecurity, cloud platforms, information systems, and technology solutions."
   ],
   "overview": [
     "The usage, administration, creation, and security of computer systems, software, networks, databases, and digital infrastructure are the main topics of information technology (IT). It equips students to assist firms with data management, cybersecurity, cloud platforms, information systems, and technology solutions.",
@@ -636,7 +635,7 @@ const page = {
             },
             {
               "q": "How can Edu Hawk worldwide Consultancy help me study abroad?",
-              "a": "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities. Study Information Technology in Canada for Indian StudentsBest Universities for Information Technology in CanadaInformation Technology Courses in Canada for International StudentsInformation Technology Eligibility in CanadaInformation Technology Admission Requirements in CanadaInformation Technology Fees in Canada for Indian StudentsInformation Technology Scholarships in Canada for International StudentsUndergraduate Information Technology Courses in Canada After 12thMaster's in Information Technology in Canada"
+              "a": "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities."
             }
           ]
         }

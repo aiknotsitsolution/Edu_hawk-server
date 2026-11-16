@@ -17,10 +17,10 @@ const page = {
   "description": "Study Electronics & Communication - UG in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
   "keywords": "Top 6 High-Density SEO Keywords",
   "introTitle": "Electronic and Electronic Engineering in Italy",
-  "heroParas": [
-    "Yes. Indian students can apply provided they have Class 12 qualification meeting the university's entry requirements and also meet the relevant academic, language, entrance-test and document conditions."
+  heroParas: [
+    "Undergraduate Electronics and Communication Engineering in Italy equips students with strong competencies in circuits, signal processing, electromagnetics, and digital communication at leading polytechnics."
   ],
-  "overview": [
+  overview: [
     "Yes. Indian students can apply provided they have Class 12 qualification meeting the university's entry requirements and also meet the relevant academic, language, entrance-test and document conditions."
   ],
   "level": "Undergraduate",
@@ -147,17 +147,6 @@ const page = {
             "Depending on your skills and experience you could look at jobs in electronic design, hardware testing, semiconductor technology, embedded systems, telecommunications, automotive electronics and industrial automation. Some graduates go on to a master's degree to specialize more.",
             "Top 6 High-Density SEO Keywords"
           ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Electronics Engineering in Italy",
-            "Bachelors programs in Electronics Engineering in Italy",
-            "Electronics Engineering Courses in Italy",
-            "Electronics Engineering in Italy Eligibility",
-            "Electronics Engineering Fees in Italy",
-            "Study Electronics Engineering in Italy Bachelors"
-          ]
         }
       ]
     },
@@ -273,7 +262,34 @@ const page = {
         }
       ]
     }
-  ]
+  ],
+  faqs: [
+    {
+        "q": "Can Indian students apply for ECE in Italy after Class 12?",
+        "a": "Yes. Indian students with Class 12 mathematics and physics qualifications can apply for undergraduate programmes in electronics and communications."
+    },
+    {
+        "q": "What is the duration of an undergraduate ECE degree in Italy?",
+        "a": "The Bachelor's degree (Laurea Triennale) takes 3 academic years (180 ECTS credits) to complete."
+    },
+    {
+        "q": "What are the tuition costs for ECE in Italy?",
+        "a": "Tuition at public universities ranges from €1,000 to €3,800 per year, with full fee remissions accessible through DSU scholarship programs."
+    },
+    {
+        "q": "What entrance examination is required for international admission?",
+        "a": "Admission is typically based on the English TOLC-I entrance examination conducted by CISIA."
+    },
+    {
+        "q": "What key skills do students develop in this programme?",
+        "a": "Students gain practical laboratory experience in analog and digital circuit design, signal processing, telecommunication protocols, and embedded programming."
+    },
+    {
+        "q": "What career pathways open up after completing an ECE bachelor's?",
+        "a": "Graduates can proceed to Master's degrees in photonics, telecommunications, or microelectronics, or begin careers in telecom networks and semiconductor technology."
+    }
+],
+  faqTitle: "Frequently Asked Questions About Electronics & Communication UG in Italy"
 };
 
 export default function ElectronicsCommunicationUGItaly() {

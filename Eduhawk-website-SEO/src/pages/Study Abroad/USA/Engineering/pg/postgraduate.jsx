@@ -116,6 +116,7 @@ const faqs = [
 ];
 
 const overviewParas = [
+  "Edu Hawk Worldwide guides you through program selection, GRE and English test planning, applications, assistantships, scholarships and the complete visa journey.",
   "**Indian students** can develop advanced technical skills, research techniques, and professionally useful knowledge by pursuing **postgraduate engineering education in the United States**. Master's degree programs in [computer engineering](/study-abroad/usa/pg/computer-engineering), [mechanical engineering](/study-abroad/usa/pg/mechanical-engineering), [civil engineering](/study-abroad/usa/pg/civil-engineering), [electrical engineering](/study-abroad/usa/pg/electrical-engineering), [chemical engineering](/study-abroad/usa/pg/chemical-engineering), [aerospace engineering](/study-abroad/usa/pg/aerospace-engineering), and [biomedical engineering](/study-abroad/usa/pg/biomedical-engineering) are offered by academic institutions.",
   "Depending on the degree framework and institutional structure, most master's programs take **one to two years** to complete. Students get access to cutting-edge labs, research initiatives, collaborations with business partners, and chances to focus on a particular discipline.",
   "A **relevant bachelor's degree**, official academic records, and proof of **English language proficiency** are standard requirements for admission. Institutions have different requirements for the **Graduate Record Examination (GRE)**.",
@@ -154,8 +155,7 @@ const PostgraduateEngineering = () => (
       accent="USA"
       tail="for Indian Students"
       paras={[
-        "A master's degree in engineering in the USA builds advanced technical skills, research expertise and specialisations that employers value. Universities offer 1–2 year MS and MEng programs with cutting-edge labs, industry collaborations and hands-on research.",
-        "Edu Hawk Worldwide guides you through program selection, GRE and English test planning, applications, assistantships, scholarships and the complete visa journey.",
+        "A master's degree in engineering in the USA builds advanced technical skills, research expertise and high-demand specialisations, offering 1–2 year MS and MEng programs with cutting-edge laboratories, industry collaborations and hands-on research.",
       ]}
       primary={{
         href: "https://api.whatsapp.com/send?phone=919630736070",

@@ -18,11 +18,10 @@ const page = {
   "description": "Study Mechanical Engineering - UG in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
   "keywords": "",
   "introTitle": "Bachelor's in Mechanical Engineering Italy",
-  "heroParas": [
-    "Yes, Indian students can apply after Class 12, as long as their school qualification is equivalent to the university's entry requirements.",
-    "They must also satisfy the academic, language, entrance examination and document requirements of the program they have chosen."
+  heroParas: [
+    "A Bachelor’s in Mechanical Engineering in Italy provides comprehensive education in mechanics, materials science, thermodynamics, and manufacturing technologies within Europe's second-largest industrial machinery economy."
   ],
-  "overview": [
+  overview: [
     "Yes, Indian students can apply after Class 12, as long as their school qualification is equivalent to the university's entry requirements.",
     "They must also satisfy the academic, language, entrance examination and document requirements of the program they have chosen."
   ],
@@ -162,21 +161,6 @@ const page = {
             "We assist students in comparing the options available according to their academic background, engineering discipline preference and future career goals.",
             "If you wish to study mechanical engineering in Italy, start by searching for programs that match your qualifications and interests."
           ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Bachelors in Mechanical Engineering Italy",
-            "Study Mechanical Engineering Bachelors in Italy",
-            "Mechanical Engineering Courses in Italy",
-            "Mechanical Engineering Bachelors Requirement in Italy",
-            "Mechanical Engineering fees in Italy",
-            "Mechanical Engineering Universities in Italy",
-            "Study Mechanical Engineering in Italy",
-            "Mechanical Engineering",
-            "Edu-Hawk Worldwide",
-            "Study Mechanical Engineering Bachelors in Italy"
-          ]
         }
       ]
     },
@@ -298,7 +282,34 @@ const page = {
         }
       ]
     }
-  ]
+  ],
+  faqs: [
+    {
+        "q": "Can Indian students study Mechanical Engineering in Italy after Class 12?",
+        "a": "Yes. Indian students with Class 12 qualifications in mathematics and physics can apply for bachelor's degrees in mechanical engineering."
+    },
+    {
+        "q": "How long is a Bachelor's in Mechanical Engineering in Italy?",
+        "a": "An undergraduate mechanical engineering degree (Laurea) takes 3 years (180 ECTS credits) of full-time academic study."
+    },
+    {
+        "q": "What are the tuition fees for Mechanical Engineering in Italy?",
+        "a": "Public universities charge between €1,000 and €3,900 annually, with eligibility for DSU scholarships that cover tuition and living allowances."
+    },
+    {
+        "q": "What entrance examination is required for admission?",
+        "a": "Applicants are evaluated through the English TOLC-I exam testing mathematics, physics, and basic scientific reasoning."
+    },
+    {
+        "q": "What hands-on laboratory learning is included in the program?",
+        "a": "Students work on mechanical workshop projects, CAD modeling, materials testing, fluid dynamics labs, and student design teams like Formula Student."
+    },
+    {
+        "q": "What are the post-study opportunities for mechanical engineering graduates?",
+        "a": "Graduates can advance into specialized Master of Science degrees in automotive, robotics, and energy engineering, or start careers in manufacturing and industrial design."
+    }
+],
+  faqTitle: "Frequently Asked Questions About Mechanical Engineering UG in Italy"
 };
 
 export default function MechanicalEngineeringUGItaly() {

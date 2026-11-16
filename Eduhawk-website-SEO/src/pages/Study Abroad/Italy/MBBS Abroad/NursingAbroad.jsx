@@ -19,10 +19,10 @@ const page = {
   "description": "Study Nursing in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
   "keywords": "Nursing in Italy, Study Nursing in Italy, Nursing Courses in Italy, Nursing Fees in Italy, Nursing Admission in Italy, Nursing in Italy for Indian Students",
   "introTitle": "Nursing in Italy - The Complete Guide for International Students",
-  "heroParas": [
-    "The standard Nursing degree is generally three years and includes academic learning, skills practice and clinical placements. Confirm the duration of the specific program."
+  heroParas: [
+    "Nursing in Italy combines academic rigor with extensive supervised hospital clinical internships, preparing graduates for professional healthcare careers across the European Union."
   ],
-  "overview": [
+  overview: [
     "The standard Nursing degree is generally three years and includes academic learning, skills practice and clinical placements. Confirm the duration of the specific program."
   ],
   "level": "Undergraduate",
@@ -157,19 +157,50 @@ const page = {
       "title": "Admission Process for Nursing in Italy",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "The Nursing Admission in Italy process generally involves choosing a university, checking eligibility, completing the required selection procedure and applying for a student visa.",
-            "Step 1: Select your University Compare course language, location, tuition, admission criteria, clinical placements and available seats.",
-            "Step 2: Verify Eligibility Review academic qualifications, language requirements, entrance exam rules and applicant category.",
-            "Step 3: Prepare for the Entrance Exam Study the topics and selection format stated in the official admission notice.",
-            "Step 4: Submit the Application Complete the university application and upload academic, identity and language documents.",
-            "Step 5: Complete Pre-Enrolment If required, complete pre-enrolment through Universitaly and follow university instructions.",
-            "Step 6: Receive Admission Decision Follow instructions for acceptance, enrollment and fee payment.",
-            "Step 7: Apply for a Student Visa Prepare documents and apply through the appropriate Italian embassy or consulate process.",
-            "Step 8: Travel and Complete Enrollment After visa approval, travel as permitted, complete university enrollment and follow residence-permit instructions."
-          ]
-        }
+        "t": "timeline",
+        "items": [
+                {
+                        "step": "1",
+                        "title": "",
+                        "desc": "Select your University Compare course language, location, tuition, admission criteria, clinical placements and available seats."
+                },
+                {
+                        "step": "2",
+                        "title": "",
+                        "desc": "Verify Eligibility Review academic qualifications, language requirements, entrance exam rules and applicant category."
+                },
+                {
+                        "step": "3",
+                        "title": "",
+                        "desc": "Prepare for the Entrance Exam Study the topics and selection format stated in the official admission notice."
+                },
+                {
+                        "step": "4",
+                        "title": "",
+                        "desc": "Submit the Application Complete the university application and upload academic, identity and language documents."
+                },
+                {
+                        "step": "5",
+                        "title": "",
+                        "desc": "Complete Pre-Enrolment If required, complete pre-enrolment through Universitaly and follow university instructions."
+                },
+                {
+                        "step": "6",
+                        "title": "",
+                        "desc": "Receive Admission Decision Follow instructions for acceptance, enrollment and fee payment."
+                },
+                {
+                        "step": "7",
+                        "title": "",
+                        "desc": "Apply for a Student Visa Prepare documents and apply through the appropriate Italian embassy or consulate process."
+                },
+                {
+                        "step": "8",
+                        "title": "",
+                        "desc": "Travel and Complete Enrollment After visa approval, travel as permitted, complete university enrollment and follow residence-permit instructions."
+                }
+        ]
+}
       ]
     },
     {
@@ -265,7 +296,34 @@ const page = {
         }
       ]
     }
-  ]
+  ],
+  faqs: [
+    {
+        "q": "Can Indian students study Nursing in Italy?",
+        "a": "Yes. Indian students who meet the academic eligibility criteria (Class 12 science stream) and language requirements can apply for nursing degrees in Italy."
+    },
+    {
+        "q": "What is the duration of a Nursing degree in Italy?",
+        "a": "The undergraduate degree in Nursing (Laurea in Infermieristica) takes 3 academic years (180 ECTS credits)."
+    },
+    {
+        "q": "What are the tuition fees for Nursing in Italy?",
+        "a": "Public university fees range from €1,000 to €3,500 per year, and eligible students can receive full fee remissions and stipends through DSU grants."
+    },
+    {
+        "q": "Is Italian language proficiency required for Nursing studies?",
+        "a": "Yes. Because clinical internships involve direct patient care in public hospitals, proficiency in Italian (typically B2 level) is mandatory."
+    },
+    {
+        "q": "What entrance tests are required for Nursing in Italy?",
+        "a": "Applicants must take the national healthcare professions entrance exam (Test delle Professioni Sanitarie) conducted by the universities."
+    },
+    {
+        "q": "Is the Italian nursing qualification recognized across Europe?",
+        "a": "Yes. Italian nursing degrees comply with European Union directives, granting professional practice licensure throughout the EU."
+    }
+],
+  faqTitle: "Frequently Asked Questions About Nursing in Italy"
 };
 
 export default function NursingAbroadItaly() {

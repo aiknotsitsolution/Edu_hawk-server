@@ -14,640 +14,315 @@ import uniImg3 from "../../../../Images/Abroad/Germany/LanguageCourses/The_Unive
 import uniImg4 from "../../../../Images/Abroad/Germany/LanguageCourses/University_of_Bremen_Language_Centr.webp";
 
 const page = {
-  "name": "Language Courses in Germany",
-  "country": "Germany",
-  "slug": "language-courses",
-  "title": "Language Courses in Germany for Indian Students | Edu-Hawk Worldwide",
-  "description": "Complete guide to Language Courses in Germany for international students: Top German universities, admission requirements, zero-tuition public education, living expenses, and 18-month post-study work visa.",
-  "keywords": "Study Language Courses in Germany for Indian Students, German Language Courses in Germany for International Students, Best Language Schools and Universities in Germany, Foreign Language Courses in Germany for International Students, German Language Levels A1 to C2 in Germany, Eligibility for Language Courses in Germany, Admission Requirements for Language Courses in Germany, IELTS and TOEFL Preparation Courses in Germany, German Language Course Fees and Living Costs in Germany, Language Course Duration in Germany for Indian Students, German Language Acquisition Visa Requirements for Indians, Career Opportunities After Learning German in Germany, English and Foreign Language Teaching Qualifications in Germany",
-  "introTitle": "STUDY LANGUAGE COURSES IN GERMANY FOR INDIAN STUDENTS",
-  "heroParas": [
-    "Comprehensive guide to Language Courses in Germany for international students in Germany."
+  name: "Language Courses in Germany",
+  country: "Germany",
+  slug: "language-courses",
+  title: "Language Courses in Germany for Indian Students | Edu-Hawk Worldwide",
+  description:
+    "Complete guide to studying German and foreign language courses in Germany: CEFR levels A1 to C2, university language centers, TestDaF/DSH/telc prep, language course visa requirements, and academic pathway programs.",
+  keywords:
+    "Study Language Courses in Germany for Indian Students, German Language Courses in Germany for International Students, Best Language Schools and Universities in Germany, Foreign Language Courses in Germany for International Students, German Language Levels A1 to C2 in Germany, Eligibility for Language Courses in Germany, Admission Requirements for Language Courses in Germany, IELTS and TOEFL Preparation Courses in Germany, German Language Course Fees and Living Costs in Germany, Language Course Duration in Germany for Indian Students, German Language Acquisition Visa Requirements for Indians, Career Opportunities After Learning German in Germany, English and Foreign Language Teaching Qualifications in Germany",
+  introTitle: "Study Language Courses in Germany",
+  heroParas: [
+    "Germany offers immersion-based language programs across university language centers and accredited institutes, enabling international students to master German from beginner A1 to academic C1/C2 (TestDaF/DSH), unlock tuition-free university degree admissions, and build fluency for European careers."
   ],
-  "overview": [
-    "Explore academic curriculum, admission standards, top universities, tuition structure, and career pathways in Germany."
+  overview: [
+    "**Key advantages of studying language courses in Germany:**",
+    "* **Total Language Immersion:** Rapid progression through authentic daily practice, university campus culture, and specialized native instruction.",
+    "* **CEFR-Aligned Levels (A1–C2):** Structured curricula spanning beginner (A1–A2), intermediate (B1–B2), and university entrance qualifications (C1–C2).",
+    "* **Direct University Pathway (TestDaF / DSH / telc):** Guaranteed preparation to clear mandatory German language exams required for tuition-free public higher education.",
+    "* **Dedicated Language Course Visa:** Specialized German national visa (*Sprachvisum*) allowing up to 12 months of intensive language study in Germany.",
+    "* **Multilingual Options:** Opportunity to study modern languages (English, French, Spanish, Japanese, Chinese, Arabic) at leading university language centers."
   ],
-  "level": "German Language Preparatory (A1 to C1 / TestDaF / DSH)",
-  "crumb": "Language & Culture / German Courses",
-  "stats": [
+  level: "Intensive Language Training (CEFR A1–C2 / TestDaF / DSH / Pathway)",
+  crumb: "Language & Culture / Language Courses",
+  stats: [
     {
-      "label": "Degree Choices",
-      "value": "German Language Preparatory (A1 to C1 / TestDaF / DSH)"
+      label: "Course Duration",
+      value: "4 Weeks to 12 Months (A1 to C1)"
     },
     {
-      "label": "Course Duration",
-      "value": "3 to 6 Years"
+      label: "Tuition Range",
+      value: "€400–€1,200 per 4-Week Module"
     },
     {
-      "label": "Top Institutions",
-      "value": "HTW Berlin's Foreign Languages Center      German, English, French, Russian, Spanish, Arabic, Italian, and Japanese are among the languages taught.., University of Hohenheim's Language Center      English, German, French, Spanish, and other languages can be learned."
+      label: "Weekly Intensity",
+      value: "20–25 Hours/Week (Visa Compliant)"
     },
     {
-      "label": "Post-Study Work",
-      "value": "18-Month Jobseeker Visa (Residence Permit)"
+      label: "Visa Route",
+      value: "Language Acquisition / Student Applicant Visa"
     }
   ],
-  "sections": [
+  sections: [
     {
-      "slot": "why",
-      "eyebrow": "Why Study in Germany",
-      "title": "1. Overview of the Course",
-      "groups": [
+      slot: "why",
+      eyebrow: "Why Germany",
+      title: "Why Study Language Courses in Germany?",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "By selecting ****language classes in Germany****, international students can enhance their **communication skills**, become fluent in foreign languages, get ready for further education and gain confidence in academic or professional settings.",
-            "Through universities, language centers, private language schools and specialized language institutions, Germany provides options for language learning.",
-            "Depending on their learning goals and level of language skill, students can choose from beginner, intermediate, or advanced programs. They can select general language classes, academic language programs, test preparation, professional language training, or language teaching credentials based on their objectives.",
-            "**Significant Highlights**"
+          t: "p",
+          items: [
+            "Learning German directly in Germany provides an unparalleled linguistic and cultural immersion environment that accelerates language acquisition far beyond classroom study abroad.",
+            "Students develop natural communicative competence, authentic pronunciation, and academic writing skills, enabling them to transition seamlessly into German-taught undergraduate and graduate degrees or international corporate careers."
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Enhance your speaking, listening, writing, and reading abilities.",
-            "Get ready to pursue higher education in Germany.",
-            "Enhance your ability to write and deliver academically.",
-            "Get ready for tests of recognized language competency.",
-            "Explore a variety of foreign languages and cultures.",
-            "Improve your ability to communicate in professional settings.",
-            "Examine credentials connected to teaching languages and translating."
-          ]
-        },
-        {
-          "t": "dl",
-          "pairs": [
-            {
-              "t": "Gain self",
-              "d": "assurance in casual chats."
-            }
+          t: "points",
+          title: "Core Benefits for International Students",
+          items: [
+            "**Fast-Track Academic Entry:** Clear the DSH (*Deutsche Sprachprüfung für den Hochschulzugang*) or TestDaF exams required for 100% tuition-free university degrees.",
+            "**Certified Native Instruction:** Learn from certified DaF (*Deutsch als Fremdsprache*) educators utilizing modern multimedia pedagogy.",
+            "**Cultural & Social Integration:** Participate in tandem language exchanges, university excursions, and regional cultural immersions across vibrant student cities.",
+            "**Enhanced Employability:** Fluency in German is the single most valuable asset for securing high-paying engineering, IT, business, and healthcare jobs in Germany."
           ]
         }
       ]
     },
     {
-      "slot": "courses",
-      "eyebrow": "Curriculum & Specializations",
-      "title": "2. Why Study Language Classes in Germany?",
-      "groups": [
+      slot: "cards",
+      eyebrow: "Course Models",
+      title: "Popular Language Programs in Germany",
+      text: "Students can choose from intensive language tracks tailored to their personal and academic goals:",
+      cards: [
         {
-          "t": "p",
-          "items": [
-            "Through classroom instruction, cultural events, academic programs, and everyday communication, students can enhance their language skills in Germany's international learning environment.",
-            "**The main benefits**",
-            "Language lessons in Germany are beneficial for students who wish to further their education, enhance their communication skills, or acquire a foreign language for both personal and professional reasons.",
-            "When choosing a program, the student's present level of language competence, learning goals, available funds, and future academic or professional ambitions should all be taken into account.",
-            "**Edu Hawk Worldwide Consultancy** assists students in understanding university admission requirements, exploring  overseas study options, and getting ready for their international education journey."
-          ]
+          badge: "University Track",
+          title: "Intensive German for Academic Studies (A1–C1)",
+          desc: "Full-time intensive training (20–25 hours per week) covering vocabulary, complex grammar, academic reading comprehension, and argumentative presentation skills required for university degree entry."
         },
         {
-          "t": "pills",
-          "items": [
-            "In an international setting, learn German and other foreign languages.",
-            "Enhance pronunciation, vocabulary, grammar, and fluency.",
-            "Engage kids from diverse cultural backgrounds.",
-            "Get ready for postsecondary education at German universities.",
-            "Enhance your reading, writing, and presentation abilities for academic purposes.",
-            "Gain self-assurance when speaking and communicating professionally.",
-            "Explore specialized language programs for various businesses.",
-            "Take advantage of chances for language study at various skill levels."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "universities",
-      "eyebrow": "Top German Universities",
-      "title": "3. Germany's Most Popular Language Programs",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Through universities, private establishments, and specialized language schools, Germany provides a variety of language programs.",
-            "**Courses in German**",
-            "International students who wish to study, work, or speak with confidence in Germany are drawn to German language classes.",
-            "Speaking, listening, reading, writing, grammar, and vocabulary are all typically included in programs. Depending on the school and the availability of courses, students can choose from levels **A1 to C2**.",
-            "**Courses in English**",
-            "Students' academic language proficiency and general communication abilities are enhanced by English language programs.",
-            "**Courses in French**",
-            "Certain universities and language schools provide French language courses. Speaking, listening, reading, writing, grammar, and cultural awareness can all be developed by students.",
-            "**Courses in Spanish**",
-            "Programs in Spanish emphasize vocabulary, grammar, pronunciation, communication, and cultural awareness. Depending on the school, students can take courses ranging from basic to advanced.",
-            "**Courses in Chinese**",
-            "Speaking, listening, reading, writing, pronunciation, and character identification are all included in Mandarin Chinese classes.",
-            "**Additional Courses in Foreign Languages**",
-            "Depending on the school, students might also look into:",
-            "**Qualifications for Professional Languages**",
-            "Qualifications like **TESOL, TEFL, CELTA, and DELTA** are available to students who want to teach English to non-native speakers. These programs differ from normal language classes and have different entry requirements."
-          ]
+          badge: "Exam Prep",
+          title: "TestDaF, DSH & telc C1 Hochschule Preparation",
+          desc: "Targeted 4- to 8-week exam preparation courses focusing on timed essay writing, listening comprehension under pressure, and scientific text analysis matching official testing formats."
         },
         {
-          "t": "ul",
-          "items": [
-            "Typical choices consist of:",
-            "English in general",
-            "The use of academic English",
-            "English for Business",
-            "English for Work-Related Purposes",
-            "Writing in English for Academic Purposes",
-            "Preparing for the English Exam",
-            "Courses in Arabic",
-            "Courses in Russian",
-            "Korean Language Instruction",
-            "Portuguese Language Instruction",
-            "Courses in Turkish",
-            "Dutch Language Instruction",
-            "Swedish Language Instruction"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Eligibility Criteria",
-      "title": "4. Typical Language Course Types",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Students can select from a variety of language course types based on their goals.",
-            "Students should confirm the course content, language proficiency, length, learning goals, and admission requirements before choosing a program."
-          ]
+          badge: "Pathway Program",
+          title: "University Language Pathway (*Studienkolleg Prep*)",
+          desc: "Comprehensive bridge courses combining intensive German with preparatory foundation subjects (Mathematics, Physics, Chemistry) for Indian 12th standard graduates seeking bachelor's admission."
         },
         {
-          "t": "ul",
-          "items": [
-            "Enhance vocabulary, grammar, pronunciation, and everyday conversation with general language courses.",
-            "Develop the reading, writing, speaking, and listening abilities necessary for postsecondary education through academic language courses.",
-            "Get ready for tests like the IELTS, TOEFL, TestDaF, DSH, DELF, and DELE.",
-            "Enhance communication abilities for particular industries and work settings by enrolling in professional language courses.",
-            "The Language Pathway Programs assist qualified students in fulfilling the language requirements of specific academic programs.",
-            "**Intensive Language Courses:** Offer targeted language instruction via regular classes and organized study.",
-            "Short-Term Language Courses: Provide possibilities to learn a language for a short time.",
-            "Programs that combine language instruction with cultural activities and real-world experiences are known as language and culture programs.",
-            "Undergraduate and graduate courses in linguistics, translation, literature, and foreign languages are included in the Foreign Language Degree Programs."
-          ]
+          badge: "Teaching Certification",
+          title: "English & Foreign Language Teaching (TEFL / CELTA)",
+          desc: "Specialized Cambridge CELTA and Trinity CertTESOL training programs for aspiring international English teachers, combining pedagogical theory with assessed live teaching practice."
         }
       ]
     },
     {
-      "slot": "admission",
-      "eyebrow": "Admission Requirements",
-      "title": "5. Germany's Best Universities and Language Schools",
-      "groups": [
+      slot: "unis",
+      eyebrow: "Top Institutions",
+      title: "Prominent University Language Centers in Germany",
+      text: "Germany's leading public university language centers and accredited institutes:",
+      cards: [
         {
-          "t": "p",
-          "items": [
-            "The following colleges and organizations are open to Indian students who want to study languages in Germany.",
-            "**HTW Berlin's Foreign Languages Center** - German, English, French, Russian, Spanish, Arabic, Italian, and Japanese are among the languages taught..",
-            "**University of Hohenheim's Language Center -** English, German, French, Spanish, and other languages can be learned.",
-            "**The University of Hamburg** - provides options for learning other languages, including English, French, Spanish, Italian, Russian, Chinese, and Portuguese, through its language centers.",
-            "**University of Bremen Language Centre-**  offers classes in a number of languages, including Arabic, Chinese, English, French, Italian, Japanese-related options through partner programs, Portuguese, Russian, and Spanish."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "fees",
-      "eyebrow": "Tuition Fees & Living Costs",
-      "title": "6. Requirements for Indian Students",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The chosen language, institution, course level, and planned study arrangement all affect eligibility requirements.",
-            "Qualifications for Courses in General Languages",
-            "While intermediate and advanced programs might demand evidence of prior language competency, many beginner-level courses accept students without prior language skills.",
-            "**Qualifications for Courses in Academic Languages**",
-            "Students could need:",
-            "**Qualifications for Preparing for Language Exams**",
-            "Exam preparation providers have different prerequisites for admission. While some IELTS, TOEFL, TestDaF, DSH, DELF, or DELE preparation courses welcome students at varying competence levels, some suggest or mandate a minimum language level.",
-            "**Requirements for TEFL, CELTA, DELTA, or TESOL**",
-            "Qualifications for teaching English have different requirements for entrance. Students may need the following, depending on the program:"
-          ]
+          name: "HTW Berlin Language Center",
+          city: "Berlin",
+          qsRank: "Premier Applied Sciences Language Hub",
+          tuition: "€450–€900 per intensive module",
+          programs: "Intensive German A1–C1, DSH Preparation, Business German",
+          highlights:
+            "Offers state-of-the-art language labs and comprehensive preparatory courses in the heart of Germany's multilingual capital, with strong university degree integration.",
+          link: "https://www.htw-berlin.de/",
+          img: uniImg1
         },
         {
-          "t": "ul",
-          "items": [
-            "A current passport is required for travel abroad.",
-            "Finishing the application process at the institution.",
-            "A placement test in either German or English, if necessary.",
-            "The payment of any necessary registration or application costs.",
-            "Fulfilling any applicable minimum age requirements.",
-            "Poof of present language competence.",
-            "A satisfactory placement evaluation or language test score.",
-            "A university's academic offer, whether the course is part of a degree program.",
-            "When necessary, prior academic records.",
-            "Fulfilling the linguistic requirements of the planned course of study.",
-            "Strong command of the English language.",
-            "An appropriate educational background.",
-            "When necessary, relevant teaching experience.",
-            "A language evaluation or interview.",
-            "A prior qualification for advanced programs must be completed."
-          ]
+          name: "University of Hohenheim Language Center",
+          city: "Stuttgart, Baden-Württemberg",
+          qsRank: "Excellence University Language Center",
+          tuition: "€400–€850 per module",
+          programs: "German for Academic Purposes, TestDaF Training, Modern European Languages",
+          highlights:
+            "Renowned for communicative methodology and specialized scientific German courses for engineering, agricultural, and business students.",
+          link: "https://www.uni-hohenheim.de/",
+          img: uniImg2
         },
         {
-          "t": "table",
-          "headers": [
-            "Category / Expense Type",
-            "Estimated Amount (EUR)",
-            "Applicability & Regulation"
-          ],
-          "rows": [
-            [
-              "A current passport is required for travel abroad.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "Finishing the application process at the institution.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "A placement test in either German or English, if necessary.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "The payment of any necessary registration or application costs.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "Fulfilling any applicable minimum age requirements.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "Poof of present language competence.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "A satisfactory placement evaluation or language test score.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "A university's academic offer, whether the course is part of a degree program.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "When necessary, prior academic records.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "Fulfilling the linguistic requirements of the planned course of study.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "Strong command of the English language.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "An appropriate educational background.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "When necessary, relevant teaching experience.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "A language evaluation or interview.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "A prior qualification for advanced programs must be completed.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "process",
-      "eyebrow": "Application Timeline & Steps",
-      "title": "7. Tests of Language Proficiency",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "An IELTS or other international language exam result is not necessary for all language courses in Germany.",
-            "Language competency can be assessed using:"
-          ]
+          name: "University of Hamburg Language Center",
+          city: "Hamburg",
+          qsRank: "Major Northern Germany Academic Center",
+          tuition: "€450–€950 per intensive module",
+          programs: "German as a Foreign Language (DaF), Academic Writing, telc C1 Prep",
+          highlights:
+            "Provides intensive seasonal and semester-long language programs linked with international student services and cultural buddy networks.",
+          link: "https://www.uni-hamburg.de/",
+          img: uniImg3
         },
         {
-          "t": "ul",
-          "items": [
-            "An internal placement assessment.",
-            "A language evaluation or interview.",
-            "Certificates from prior language courses.",
-            "IELTS Academic or General Training scores, as applicable.",
-            "The TOEFL results.",
-            "TestDaF or DSH German results.",
-            "TLC or Goethe-Zertifikat certifications.",
-            "Other accredited language credentials."
-          ]
+          name: "University of Bremen Language Centre",
+          city: "Bremen",
+          qsRank: "Interdisciplinary Language Faculty",
+          tuition: "€400–€800 per module",
+          programs: "Intensive German, Academic German Pathway, International Languages",
+          highlights:
+            "Renowned for its multiconnected language center offering certified DSH examinations and intensive pre-university language pathway modules.",
+          link: "https://www.uni-bremen.de/",
+          img: uniImg4
         }
       ]
     },
     {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Quality Standards",
-      "title": "8. Exams for Admission",
-      "groups": [
+      slot: "checklist",
+      eyebrow: "Admissions Criteria",
+      title: "Eligibility & Enrollment Requirements",
+      text: "Enrolling in German language courses is straightforward and open to all learning stages:",
+      items: [
+        "**No Prior Knowledge Required (for A1):** Absolute beginners can enroll directly in A1 intensive modules without prior German experience.",
+        "**Placement Test (Einstufungstest):** Students with prior knowledge take an online or on-site diagnostic test to place into the exact CEFR level (A2, B1, B2, or C1).",
+        "**Valid Passport:** International passport with at least 12 months validity.",
+        "**Academic Documents:** High school transcripts or university degrees (required for university pathway applicants).",
+        "**Course Registration Confirmation:** Official booking confirmation of an intensive course (minimum 18–20 hours/week) for the German visa application.",
+        "**Minimum Age:** Most intensive university language centers require applicants to be at least 17 or 18 years old."
+      ]
+    },
+    {
+      slot: "checklist",
+      eyebrow: "Financial Overview",
+      title: "Course Fees & Cost of Living",
+      text: "Understanding the financial requirements for language training in Germany:",
+      items: [
+        "**Tuition Fees (€400–€1,200 per 4-week module):** Intensive courses typically cost €400 to €1,200 per 4-week level (approx. 80–100 teaching hours). Completing A1 to C1 generally requires 8 to 10 months.",
+        "**Course Materials & Exam Fees (€150–€250):** Textbooks, workbooks, and official exam fees (TestDaF approx. €215, telc C1 approx. €180, DSH approx. €150).",
+        "**Monthly Living Costs (€900–€1,300/month):** Covers student dormitory/shared flat (*WG*), groceries, health insurance (~€125/month), and local transport.",
+        "**German Blocked Account (Sperrkonto):** Proof of €1,027 per month (e.g., €11,904 for 12 months or €6,162 for 6 months) deposited in an escrow blocked account to secure the language visa."
+      ]
+    },
+    {
+      slot: "timeline",
+      eyebrow: "Step-by-Step Pathway",
+      title: "Language Course Admission & Visa Roadmap",
+      text: "Follow this 10-step process to study German in Germany and transition into your degree program:",
+      steps: [
         {
-          "t": "p",
-          "items": [
-            "The majority of general language courses typically do not require a standard academic admission exam.",
-            "Institutions may, however, carry out placement tests to determine the student's present level of language competency and suitable course level.",
-            "The admissions process may involve the following, depending on the program:"
-          ]
+          num: "01",
+          title: "Define Linguistic Objective",
+          desc: "Determine your goal: general conversational fluency, university degree entry (C1), or job-seeking integration."
         },
         {
-          "t": "ul",
-          "items": [
-            "A language competence test.",
-            "A written or speaking assessment.",
-            "A placement test or interview.",
-            "The outcomes of earlier language tests.",
-            "Academic admission documentation for route courses connected to universities.",
-            "Extra tests for certifications in specialized language instruction."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Career Prospects & Salary",
-      "title": "9. The course's duration",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Depending on the language, program type, institution, and learning goals, ****language courses in Germany**** have different durations."
-          ]
+          num: "02",
+          title: "Select Course & Institute",
+          desc: "Choose an accredited university language center or certified language school (*Goethe-Institut, Volkshochschule, Carl Duisberg*)."
         },
         {
-          "t": "ul",
-          "items": [
-            "The duration of short-term courses could be a few weeks.",
-            "The duration of intensive language courses can be several weeks or months.",
-            "Semester-Based Courses: These courses often adhere to the university's semester calendar.",
-            "Long-term language programs can last for several months.",
-            "Language degrees at the undergraduate and graduate levels typically take several years to complete."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Required Documentation",
-      "title": "10. Living Costs and Education",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The institution, length of the program, city, and lodging arrangement all affect the **total cost of study  language classes in Germany.**",
-            "Included in the principal costs are:",
-            "Language classes can be billed on a weekly, monthly, semester, or whole program basis. Cities like Berlin, Munich, Hamburg, Frankfurt, and smaller university towns have different living costs."
-          ]
+          num: "03",
+          title: "Placement Diagnostic Test",
+          desc: "Complete an online placement test to determine your starting CEFR level (A1, A2, B1, or B2)."
         },
         {
-          "t": "ul",
-          "items": [
-            "The cost of language course tuition.",
-            "Fees for registration or applications.",
-            "Resources for education and learning.",
-            "Utilities and lodging.",
-            "Food and groceries.",
-            "\"Public transportation\"",
-            "Health insurance.",
-            "Application fees for visas, if any.",
-            "Personal and emergency costs."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "details",
-      "eyebrow": "Key Insights",
-      "title": "11. Scholarship Assistance & Grants",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Compared to full-time university degree programs, there can be less scholarship chances for short-term language courses. Students can, however, look into potential financial assistance",
-            "Possible Choices Include:"
-          ]
+          num: "04",
+          title: "Register & Pay Course Deposit",
+          desc: "Book an intensive language course of at least 18–20 hours per week for a duration of 3 to 12 months."
         },
         {
-          "t": "ul",
-          "items": [
-            "Discounts that language course companies provide.",
-            "Special enrollment deals are available for certain intakes.",
-            "Language pathway agreements connected to universities.",
-            "Scholarships are available to qualified foreign students.",
-            "Academic language programs are funded.",
-            "Employers encourage professional language training.",
-            "Financial support via collaborations with institutions.",
-            "A few cultural and exchange initiatives."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "details",
-      "eyebrow": "Key Insights",
-      "title": "12. Career Prospects After Language Learning",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Rather than offering an automatic professional certificate, the primary goal of language education is to enhance communication skills. Stronger language skills, however, can help with career advancement and more schooling.",
-            "**Potential Advantages Include:**",
-            "Students who want to become English teachers might look at specialized degrees like **TEFL, CELTA, DELTA, and TESOL**. The qualification and planned destination determine the prerequisites for admission, recognition, and employment eligibility.",
-            "Domains in Which Language Ability Could Be Advantageous",
-            "*"
-          ]
+          num: "05",
+          title: "Receive Enrollment Letter",
+          desc: "Obtain the official certificate of enrollment (*Anmeldebestätigung*) stating full payment and weekly course hours."
         },
         {
-          "t": "ul",
-          "items": [
-            "Enhanced communication in global workplaces.",
-            "Improved presentation and writing abilities for academic purposes.",
-            "Enhanced self-assurance in group talks and interviews.",
-            "Getting ready to pursue further education in Germany or other nations.",
-            "Enhanced preparedness for official language assessments.",
-            "Improved contact with coworkers and clients abroad.",
-            "More chances in multilingual workplaces.",
-            "Business and Administration",
-            "Travel and Hospitality",
-            "Customer Service",
-            "Education Abroad",
-            "Retail and Sales",
-            "Marketing and Communication",
-            "Scholarly Investigations",
-            "Teaching Languages",
-            "Interpretation and Translation",
-            "International Commerce",
-            "Multinational Businesses"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "details",
-      "eyebrow": "Key Insights",
-      "title": "13. Procedure for Admission",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Step 1: Determine Your Goal",
-            "Choose whether you want to get better at everyday German or another language, get ready for the TOEFL or IELTS, fulfill the requirements for university admission, or seek professional language instruction.",
-            "Step 2: Select the Course Type",
-            "Exam preparation, academic language programs, intensive courses, professional language training, and general language courses should all be compared.",
-            "Explore German universities, language centers, private language schools, and specialized establishments that offer the language of your choice.",
-            "Step 4: Confirm the prerequisites for entry",
-            "Verify the prerequisites for academic credentials, age limitations, language proficiency, and placement exam conditions.",
-            "Step 5 : Verify the course and visa requirements.",
-            "Verify if the program you have chosen is appropriate for your planned residency or visa. There may be several visa pathways for independent intensive German language courses and university preparation courses.",
-            "Step 6: Get Your Documents Ready",
-            "Compile your passport, application details, academic transcripts, language test scores, and any other supporting documentation the provider requests.",
-            "Step 7: Send in Your Application",
-            "Apply via an authorized application method or the institution's official website.",
-            "Step 8: Evaluate Your Offer",
-            "Verify the length of the course, the cost of tuition, the start date, the due dates for payments, and the procedures on refunds and cancellations.",
-            "Step 9: Finish Enrolling",
-            "Obtain the necessary registration or admission confirmation and meet the requirements for entrance.",
-            "Step 10: Plan Your Travel and Visa",
-            "If necessary, apply for the proper visa and make travel, lodging, insurance, and pre-departure arrangements."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "details",
-      "eyebrow": "Key Insights",
-      "title": "14. Document Required",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Depending on the provider and kind of visa, students could need the following paperwork:"
-          ]
+          num: "06",
+          title: "Open German Blocked Account",
+          desc: "Deposit living expenses (€1,027/month for the course duration) into a recognized blocked account (Expatrio, Fintiba, Coracle)."
         },
         {
-          "t": "ul",
-          "items": [
-            "A current passport.",
-            "The application has been filled out.",
-            "Past academic records, upon request.",
-            "If available, the results of language tests in either German or English.",
-            "A letter of offer or acceptance to a university for certain pathway programs.",
-            "A letter of confirmation or enrollment for a language course.",
-            "Verification of financial resources for applications for visas.",
-            "Documentation for health insurance.",
-            "Details on accommodations, if any.",
-            "Documents for applying for a visa.",
-            "The institution or authorities may require further identity or supporting documentation."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "details",
-      "eyebrow": "Key Insights",
-      "title": "15. How Edu Hawk Worldwide Consultancy Can Help",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "For Indian students who want to study languages overseas, **Edu Hawk Worldwide Consultancy** offers individualized course shortlisting and entrance support.",
-            "Our help could consist of:",
-            "We help students explore  **language programs in Germany** based on their intended course duration, preferable location, budget, future educational goals, and level of language skill."
-          ]
+          num: "07",
+          title: "Language Course Visa Application",
+          desc: "Apply for a German Language Acquisition Visa (*Sprachvisum*) or Student Applicant Visa (*Studienbewerbervisum*) at VFS / German Embassy."
         },
         {
-          "t": "ul",
-          "items": [
-            "Recognizing the learning objectives of the student.",
-            "Making a shortlist of appropriate foreign language and German courses.",
-            "Comparing institutions, course lengths, and tuition costs.",
-            "Investigating pathways for university preparation and academic language.",
-            "Assisting pupils in comprehending the requirements for admission.",
-            "Helping with the application.",
-            "Assisting students with the requirements of admission offers.",
-            "Giving general advice on pre-departure planning and visa paperwork."
-          ]
+          num: "08",
+          title: "Intensive Language Training in Germany",
+          desc: "Attend daily immersive classes, progress through CEFR levels, and participate in practical language workshops."
+        },
+        {
+          num: "09",
+          title: "Pass Official C1 Exam (TestDaF / DSH)",
+          desc: "Successfully clear the TestDaF (minimum 4x4) or DSH-2 examination to earn university entrance qualification."
+        },
+        {
+          num: "10",
+          title: "Transition to University Degree",
+          desc: "Convert your status to a full Student Residence Permit and commence your tuition-free Bachelor's or Master's degree in Germany."
         }
       ]
     },
     {
-      "slot": "details",
-      "eyebrow": "Key Insights",
-      "title": "17. FAQs, or frequently asked questions",
-      "groups": [
+      slot: "cards",
+      eyebrow: "Career & Study Horizons",
+      title: "Opportunities Unlocked by German Fluency",
+      text: "Mastering the German language unlocks extraordinary academic and economic potential:",
+      cards: [
         {
-          "t": "p",
-          "items": [
-            "Q1. Can Indian students enrolll in language classes in Germany?",
-            "Yes Subject to the provider's admission standards and any applicable visa requirements, Indian students can investigate language programs in German, English, French, Spanish, Italian, Japanese, Chinese, and other languages.",
-            "Q2. Is it possible to learn languages other than German in Germany?",
-            "Yes . English, French, Spanish, Italian, Arabic, Japanese, Chinese, Russian, and Portuguese are among the foreign languages taught in a number of German universities and language schools. The institution determines availability.",
-            "Q3. How long do language classes last in Germany?",
-            "The length of the course can range from a few weeks to several months. Language programs at the semester and degree levels could take longer.",
-            "Q4. Does taking a language course in Germany require taking the IELTS?",
-            "Not all the time. Internal placement examinations may be used in general language courses. However, IELTS, TOEFL, or other recognized language proficiency scores may be required for some academic programs.",
-            "Q5. After finishing a language course in Germany, may I receive a certificate?",
-            "A certificate of completion or attendance is offered by several universities. Depending on the program, some also provide accredited language tests or credentials."
-          ]
+          badge: "Academic Advantage",
+          title: "Tuition-Free Degree Access",
+          desc: "German C1 proficiency opens access to over 15,000 tuition-free Bachelor's and Master's degree programs across 400+ public German universities."
+        },
+        {
+          badge: "Healthcare Careers",
+          title: "Medical & Nursing Licensure (*Approbation*)",
+          desc: "Mandatory C1 German and Medical Terminology (*Fachsprachenprüfung*) required for doctors, dentists, nurses, and pharmacists to practice in Germany."
+        },
+        {
+          badge: "Engineering & IT",
+          title: "German Corporate Employment",
+          desc: "Direct hiring by German industrial leaders (Siemens, Bosch, BMW, SAP, BASF) where business operations and team collaborations require German."
+        },
+        {
+          badge: "Teaching & Translation",
+          title: "Professional Language Careers",
+          desc: "Opportunities as corporate language trainers, certified technical translators, and intercultural liaison consultants worldwide."
         }
+      ]
+    },
+    {
+      slot: "checklist",
+      eyebrow: "Checklist",
+      title: "Documents Required for Language Visa Application",
+      text: "Prepare the following documents for submission to the German embassy or consulate:",
+      items: [
+        "Valid international passport with at least 12 months validity.",
+        "Official Confirmation of Registration (*Anmeldebestätigung*) for an intensive course (min. 18 hours/week).",
+        "Proof of full or partial course fee payment.",
+        "German Blocked Account confirmation (€1,027/month) covering the entire stay.",
+        "Comprehensive travel and health insurance covering the entire course period.",
+        "Detailed Statement of Purpose (*Motivationsschreiben*) explaining why you need to learn German in Germany.",
+        "Academic certificates and mark sheets (10th, 12th, or university degrees).",
+        "Updated Curriculum Vitae (CV) in English or German.",
+        "Conditional university admission letter (*Bedingte Zulassung*), if applying on a student applicant pathway.",
+        "Passport-size biometric photographs meeting Schengen visa criteria."
       ]
     }
   ],
-  "faqs": []
+  faqs: [
+    {
+      q: "Can Indian students enroll in language courses in Germany?",
+      a: "Yes. Indian students can enroll in language courses in Germany at all levels, from beginner A1 to advanced C1/C2. Courses are offered through public university language centers, Goethe-Institut branches, and private certified language schools across all major German cities."
+    },
+    {
+      q: "What type of visa is required for studying a language in Germany?",
+      a: "For language study, students apply for either a Language Course Visa (*Sprachvisum*) for pure language acquisition (up to 12 months, non-convertible into a student visa in Germany) or a Student Applicant Visa (*Studienbewerbervisum*), which allows you to complete your language course in Germany and convert your visa into a full university student visa upon admission."
+    },
+    {
+      q: "How long does it take to reach C1 German from zero level (A1)?",
+      a: "In an intensive language program in Germany (20 to 25 teaching hours per week), each CEFR level (A1, A2, B1, B2, C1) takes approximately 8 to 10 weeks. A dedicated international student typically reaches C1 proficiency within 8 to 10 months of full-time immersive study."
+    },
+    {
+      q: "Is an IELTS score required to enroll in a German language course?",
+      a: "No. General German language courses do not require an IELTS or TOEFL score. Beginners start directly at A1, while students with prior knowledge take an online diagnostic placement test (*Einstufungstest*) to enter at their appropriate level."
+    },
+    {
+      q: "Are language course students permitted to work part-time in Germany?",
+      a: "Under current German immigration regulations, students holding a pure Language Course Visa (*Visum zum Spracherwerb*) are generally not permitted to work, or may only work on weekends and holidays with immigration permission. However, students on a Student Applicant Visa or university preparatory pathway have part-time work rights."
+    }
+  ]
 };
 
-export default function LanguageCoursesGermanyPage() {
-  const images = {
-    hero: heroImg,
-    heroBg: heroBgImg,
-    side: sideImg,
-    ctaBg: ctaBgImg,
-    universities: [
-    {
-      name: "HTW Berlin's Foreign Languages Center      German, English, French, Russian, Spanish, Arabic, Italian, and Japanese are among the languages taught..",
-      img: uniImg1,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "University of Hohenheim's Language Center      English, German, French, Spanish, and other languages can be learned.",
-      img: uniImg2,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "The University of Hamburg      provides options for learning other languages, including English, French, Spanish, Italian, Russian, Chinese, and Portuguese, through its language centers.",
-      img: uniImg3,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "University of Bremen Language Centre     offers classes in a number of languages, including Arabic, Chinese, English, French, Italian, Japanese related options through partner programs, Portuguese, Russian, and Spanish.",
-      img: uniImg4,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    }
-    ]
-  };
-
-  return <AbroadCoursePage page={page} images={images} />;
+export default function LanguageCourses() {
+  return (
+    <AbroadCoursePage
+      page={page}
+      heroImg={heroImg}
+      heroBgImg={heroBgImg}
+      sideImg={sideImg}
+      ctaBgImg={ctaBgImg}
+      seoPath="/study-abroad/germany/language-courses"
+    />
+  );
 }

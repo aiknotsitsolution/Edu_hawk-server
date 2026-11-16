@@ -24,10 +24,10 @@ const page = {
     "Study Australian undergraduate electrical engineering programs Best Universities for Electrical Engineering in Australia Bachelor of Electrical Engineering in Australia After 12th Electrical Engineering Course Duration in Australia English Language Requirements for Electrical Engineering in Australia Electrical Engineering Specialisations in Australia Electrical Engineering Admission Process for Indian Students Engineers Australia Accredited Electrical Engineering Courses Career Opportunities After Electrical Engineering in Australia Australian Student Visa Requirements for Electrical Engineering Students",
   introTitle: "Study Australian undergraduate electrical engineering programs.",
   heroParas: [
-    "Electrical engineering focuses on power generation, renewable energy systems, electronics, telecommunications, and digital automation.",
-    "Australia is a global leader in clean energy transition, microgrid technologies, and smart infrastructure, offering world-class electrical engineering education accredited by Engineers Australia."
+    "Electrical engineering focuses on power generation, renewable energy systems, electronics, telecommunications, and digital automation."
   ],
   overview: [
+    "Australia is a global leader in clean energy transition, microgrid technologies, and smart infrastructure, offering world-class electrical engineering education accredited by Engineers Australia.",
     "Undergraduate electrical engineering programs in Australia integrate fundamental circuit analysis, power systems, renewable energy, control systems, and advanced electronics."
   ],
   level: "UG",

@@ -16,12 +16,12 @@ const page = {
   "slug": "mbs",
   "title": "MBS in Italy for Indian Students | Edu-Hawk Worldwide",
   "description": "Study MBS in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
-  "keywords": "Top 6 SEO Keywords",
+  "keywords": "MBS in Italy, Master of Business Studies Italy, Study Business Studies Italy, Business Universities in Italy",
   "introTitle": "MBS in Italy for Indian Students",
-  "heroParas": [
-    "Yes. Indian students can apply to suitable postgraduate business and management programs in Italy if they meet the academic, language and other programme-specific admission requirements."
+  heroParas: [
+    "A Master of Business Studies (MBS) in Italy offers focused postgraduate specialization in quantitative finance, organizational strategy, and international economic management."
   ],
-  "overview": [
+  overview: [
     "Yes. Indian students can apply to suitable postgraduate business and management programs in Italy if they meet the academic, language and other programme-specific admission requirements."
   ],
   "level": "Postgraduate",
@@ -145,19 +145,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Graduates may look for jobs, subject to compliance with the relevant immigration and work authorization rules. Career outcomes will depend on the qualification, professional skills, language proficiency, employer requirements and job availability.",
-            "Top 6 SEO Keywords"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "MBS in Italy for Indian Students",
-            "Master of Business Studies in Italy",
-            "MBS Courses in Italy",
-            "Best Universities for MBS in Italy",
-            "MBS Admission Requirements in Italy",
-            "Cost of Studying MBS in Italy"
+            "Graduates may look for jobs, subject to compliance with the relevant immigration and work authorization rules. Career outcomes will depend on the qualification, professional skills, language proficiency, employer requirements and job availability."
           ]
         }
       ]
@@ -168,21 +156,35 @@ const page = {
       "title": "Italy MBS Admission Process",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Indian students can generally apply for an MBS-related course in Italy by following the steps below.",
-            "Choose a program: Look for a Master's in Management, International Business, Business Administration or a professional postgraduate master's qualification.",
-            "Check the degree title: Check whether the qualification is a second-cycle academic degree or a professional master's program at university level.",
-            "Check eligibility : Check academic qualifications, language requirements, selection criteria and relevant experience requirements.",
-            "Prepare documents: Gather your transcripts, degree certificates, CV, motivation letter, language test results and any other required documents.",
-            "Apply Online Submit your application via the university's official portal and attend any required assessments or interviews.",
-            "Get the admission decision: Check the admission offer, fee schedule, deadlines and any conditions attached to admission.",
-            "Full pre-enrolment: carry out the Italian pre-enrolment procedure as provided for by the regulations, via Universitaly. The university will tell you what documents you need to submit and what steps to take.",
-            "Apply for student visa: Follow most recent requirements issued by relevant Italian consular authority, including financial evidence, accommodation details and other applicable documents.",
-            "Full enrollment: Once you have met the university & visa requirements, complete your final registration by following the instructions provided by the institution.",
-            "Application deadlines vary between universities and programs. Students should start early enough to prepare the documents, complete the selection procedures and meet the visa timelines."
-          ]
-        }
+        "t": "timeline",
+        "items": [
+                {
+                        "step": "1",
+                        "title": "Check The Degree Title",
+                        "desc": "Check whether the qualification is a second-cycle academic degree or a professional master's program at university level."
+                },
+                {
+                        "step": "2",
+                        "title": "Check Eligibility",
+                        "desc": "Check academic qualifications, language requirements, selection criteria and relevant experience requirements."
+                },
+                {
+                        "step": "3",
+                        "title": "Step 3",
+                        "desc": "Apply Online Submit your application via the university's official portal and attend any required assessments or interviews."
+                },
+                {
+                        "step": "4",
+                        "title": "Get The Admission Decision",
+                        "desc": "Check the admission offer, fee schedule, deadlines and any conditions attached to admission."
+                },
+                {
+                        "step": "5",
+                        "title": "Apply For Student Visa",
+                        "desc": "Follow most recent requirements issued by relevant Italian consular authority, including financial evidence, accommodation details and other applicable documents."
+                }
+        ]
+}
       ]
     },
     {
@@ -196,65 +198,6 @@ const page = {
             "When selecting an MBS related course in Italy it is important to know what type of qualification will be awarded.",
             "Italian institutions can offer academic second-cycle qualifications (e.g. the Laurea Magistrale) or professional postgraduate qualifications (known as Master universitario). These qualifications are different in structure and should not be automatically equated.",
             "Students should check before they enroll:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "The official title of the qualification.",
-            "The institutional and programmatic status.",
-            "The level, length & credits.",
-            "whether the program is appropriate for further academic study.",
-            "Whether the qualification is recognized by employers in the intended industry.",
-            "Whether the qualification is recognized in India or any other country for the further education or for the professional recognition."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The use of the title Master in the title of a program does not itself establish that it is equivalent to every other master's degree. Students returning to India should check the relevant recognition requirements for their chosen academic or professional pathway."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Career Prospects",
-      "title": "Salary & Job Prospects Following an MBS in Italy",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Business and management graduates can explore opportunities in private companies, multinational organizations, consulting firms, financial institutions, start-ups and international trade businesses.",
-            "Possible career options include:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Business Development Executive / Manager.",
-            "Marketing Executive/Marketing Manager.",
-            "Management Analyst.",
-            "Operations Coordinator / Operations Manager.",
-            "The Human Resources Specialist.",
-            "Financial Market Analyst",
-            "Executive International Business",
-            "Supply Chain Analyst.",
-            "Project Coordinator",
-            "Entrepreneur or Business Proprietor."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Estimate salary after MBS in Italy",
-            "These are indicative gross annual salary ranges for similar business positions and are not validated MBS specific salary figures or guarantyd graduate outcomes.",
-            "Role or career stageExample Gross Annual Salary",
-            "Entry level business jobs€24,000-€32,000 (₹26.06-₹34.75 lakhs)",
-            "Experience in business or management positions€32,000-€50,000 (₹34.75lakh-₹54.30lakh)",
-            "Senior and specialist management positions€50,000-€75,000+ (₹54.30-₹81.45 lakh+)",
-            "Actual salaries depend on employer, city, industry, job responsibilities, previous experience, language skills and market conditions. These figures are not intended to be representative of starting salaries for all graduates.",
-            "International students must follow the immigration and work authorization rules that apply to them. Knowledge of the Italian language may open up employment opportunities, and a number of multinational companies have positions where English is the principal working language."
           ]
         }
       ]
@@ -296,7 +239,34 @@ const page = {
         }
       ]
     }
-  ]
+  ],
+  faqs: [
+    {
+        "q": "Can Indian students study MBS in Italy in English?",
+        "a": "Yes. Several prominent Italian business faculties offer English-taught Master of Business Studies and specialized master's programmes."
+    },
+    {
+        "q": "What is the duration of an MBS degree in Italy?",
+        "a": "The programme takes 2 academic years (120 ECTS credits) of advanced full-time study and thesis research."
+    },
+    {
+        "q": "What are the tuition fees for MBS in Italy?",
+        "a": "Tuition at public universities ranges from €1,000 to €4,000 per year, and can be fully waived via regional DSU scholarship awards."
+    },
+    {
+        "q": "What are the entry requirements for international applicants?",
+        "a": "A Bachelor's degree in business, economics, commerce, or related quantitative disciplines, with English language certification (IELTS/TOEFL)."
+    },
+    {
+        "q": "Are internships integrated into the MBS curriculum?",
+        "a": "Yes. Students undertake curricular corporate internships with European financial institutions, consulting firms, and commercial enterprises."
+    },
+    {
+        "q": "What are the career opportunities after graduation?",
+        "a": "Graduates pursue roles in financial analysis, corporate strategy, business consulting, supply chain management, and international banking."
+    }
+],
+  faqTitle: "Frequently Asked Questions About MBS in Italy"
 };
 
 export default function MBSItaly() {

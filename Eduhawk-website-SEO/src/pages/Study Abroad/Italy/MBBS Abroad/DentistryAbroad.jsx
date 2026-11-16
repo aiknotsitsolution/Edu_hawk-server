@@ -19,10 +19,10 @@ const page = {
   "description": "Study Dentistry in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
   "keywords": "Study Dentistry in Italy, Dentistry in Italy, Dentistry in Italy for Indian Students, Dentistry Courses in Italy, Dentistry Fees in Italy, Dentistry Admission in Italy",
   "introTitle": "Dentistry in Italy - The Complete Guide for International Students",
-  "heroParas": [
-    "The study of dentistry and dental prosthodontics takes 6 years and includes theoretical education, practical training and clinical experience."
+  heroParas: [
+    "Dentistry in Italy provides comprehensive 6-year single-cycle clinical education (Laurea Magistrale in Odontoiatria) with EU-wide practicing recognition and hands-on patient hospital rotations."
   ],
-  "overview": [
+  overview: [
     "The study of dentistry and dental prosthodontics takes 6 years and includes theoretical education, practical training and clinical experience."
   ],
   "level": "Undergraduate & Graduate Entry",
@@ -175,27 +175,60 @@ const page = {
       "title": "Admission Process for Dentistry in Italy",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "The Dentistry Admission in Italy process includes selecting the university, fulfilling the eligibility criteria, following the admission process and applying for a student visa.",
-            "Step 1: Select your University",
-            "Choose a university according to the language of instruction, tuition fees, location, admission requirements, and the number of seats available for international students.",
-            "Step 2: Verify Eligibility",
-            "See the academic qualifications, subjects required, NEET requirements, language proficiency and entrance examination criteria.",
-            "Step 3: Get ready for the Entrance Exam",
-            "Prepare for the relevant entrance exam or selection process depending on the university and academic year.",
-            "Step 4: Apply",
-            "Complete the university application and submit your academic documents, ID documents and language certificates.",
-            "Step 5: Finish Pre-Enrolment",
-            "International students might need to do pre-enrolment through the official Universitaly portal and follow the university's instructions.",
-            "Step 6: Get Admission Confirmation",
-            "Upon meeting the admission requirements, the university sends students its admission decision and instructions on enrollment.",
-            "Step 7: Apply for your Student Visa",
-            "Get the right documents together and apply for an Italian student visa at the relevant Italian embassy or consulate.",
-            "Step 8: Go to Italy",
-            "Once they get the visa, students can travel to Italy, proceed with the university enrollment and follow the relevant residence permit procedures."
-          ]
-        }
+        "t": "timeline",
+        "items": [
+                {
+                        "step": "1",
+                        "title": "",
+                        "desc": "Select your University"
+                },
+                {
+                        "step": "2",
+                        "title": "",
+                        "desc": "Verify Eligibility"
+                },
+                {
+                        "step": "3",
+                        "title": "",
+                        "desc": "Get ready for the Entrance Exam"
+                },
+                {
+                        "step": "4",
+                        "title": "",
+                        "desc": "Apply"
+                },
+                {
+                        "step": "5",
+                        "title": "Step 5",
+                        "desc": "Complete the university application and submit your academic documents, ID documents and language certificates."
+                },
+                {
+                        "step": "6",
+                        "title": "",
+                        "desc": "Finish Pre-Enrolment"
+                },
+                {
+                        "step": "7",
+                        "title": "",
+                        "desc": "Get Admission Confirmation"
+                },
+                {
+                        "step": "8",
+                        "title": "",
+                        "desc": "Apply for your Student Visa"
+                },
+                {
+                        "step": "9",
+                        "title": "Step 9",
+                        "desc": "Get the right documents together and apply for an Italian student visa at the relevant Italian embassy or consulate."
+                },
+                {
+                        "step": "10",
+                        "title": "",
+                        "desc": "Go to Italy"
+                }
+        ]
+}
       ]
     },
     {
@@ -332,7 +365,34 @@ const page = {
         }
       ]
     }
-  ]
+  ],
+  faqs: [
+    {
+        "q": "Can Indian students study Dentistry in Italy in English?",
+        "a": "Yes. Italian public universities like University of Siena offer a 6-year English-taught single-cycle Master's in Dentistry and Dental Prosthodontics."
+    },
+    {
+        "q": "What is the duration of a Dentistry degree in Italy?",
+        "a": "Dentistry (Odontoiatria e Protesi Dentaria) is a 6-year single-cycle master's degree comprising 360 ECTS credits."
+    },
+    {
+        "q": "What entrance exam is required for Dentistry in Italy?",
+        "a": "Admission is governed by the national IMAT (International Medical Admissions Test) or a dedicated national entrance examination in English."
+    },
+    {
+        "q": "What are the tuition fees for Dentistry in Italy?",
+        "a": "At public universities, tuition fees range between €1,000 and €4,000 per year based on family income evaluation (ISEE), with DSU scholarship opportunities."
+    },
+    {
+        "q": "Is a dental degree from Italy recognized in the EU and globally?",
+        "a": "Yes. The Italian dental degree conforms to EU Directive 2005/36/EC, allowing graduates to register and practice dentistry across all European Union member states."
+    },
+    {
+        "q": "Do students get clinical hospital training during the course?",
+        "a": "Yes. Students undertake extensive clinical patient training and dental simulation labs in university teaching hospitals from the 3rd year onwards."
+    }
+],
+  faqTitle: "Frequently Asked Questions About Dentistry in Italy"
 };
 
 export default function DentistryAbroadItaly() {

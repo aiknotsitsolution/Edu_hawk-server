@@ -22,14 +22,11 @@ const page = {
   "keywords": "Study Information Technology in the UK, Information Technology in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Study Information Technology (IT) in the UK",
   "heroParas": [
-    "International students studying Information Technology (IT) frequently choose to study in the United Kingdom. To prepare students for professions in the global digital economyUK institutions offer programs that integrate technical knowledge, hands-on learning, and industry-relevant skills.",
-    "The use, administration, development, and security of computer systems, networks, databases, cloud platforms and digital infrastructure are the main topics of information technology.",
-    "The main advantages of studying IT in the UK"
+    "International students studying Information Technology (IT) frequently choose to study in the United Kingdom. To prepare students for professions in the global digital economyUK institutions offer programs that integrate technical knowledge, hands-on learning, and industry-relevant skills."
   ],
   "overview": [
     "International students studying Information Technology (IT) frequently choose to study in the United Kingdom. To prepare students for professions in the global digital economyUK institutions offer programs that integrate technical knowledge, hands-on learning, and industry-relevant skills.",
-    "The use, administration, development, and security of computer systems, networks, databases, cloud platforms and digital infrastructure are the main topics of information technology.",
-    "The main advantages of studying IT in the UK"
+    "The use, administration, development, and security of computer systems, networks, databases, cloud platforms and digital infrastructure are the main topics of information technology."
   ],
   "level": "BSc & MSc Information Technology",
   "crumb": "Computer & IT / Information Technology",

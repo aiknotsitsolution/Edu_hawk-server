@@ -19,13 +19,10 @@ const page = {
   "keywords": "Study BBA in the UK, BBA in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Study Bachelor of Business Administration (BBA) in the UK",
   "heroParas": [
-    "Developing understanding of business operations, management, marketing, finance, economics, leadership, and organizational strategy is the main goal of the Bachelor of Business Administration (BBA) undergraduate business degree. Undergraduate programs at UK universities that offer a solid foundation in business administration are available to those who want to pursue careers in business and management.",
-    "Principal Advantages of BBA Study in the UK",
-    "Internationally Recognized Qualifications: Attend a UK university that has the authority to offer degrees in business."
+    "Developing understanding of business operations, management, marketing, finance, economics, leadership, and organizational strategy is the main goal of the Bachelor of Business Administration (BBA) undergraduate business degree. Undergraduate programs at UK universities that offer a solid foundation in business administration are available to those who want to pursue careers in business and management."
   ],
   "overview": [
     "Developing understanding of business operations, management, marketing, finance, economics, leadership, and organizational strategy is the main goal of the Bachelor of Business Administration (BBA) undergraduate business degree. Undergraduate programs at UK universities that offer a solid foundation in business administration are available to those who want to pursue careers in business and management.",
-    "Principal Advantages of BBA Study in the UK",
     "Internationally Recognized Qualifications: Attend a UK university that has the authority to offer degrees in business."
   ],
   "level": "Bachelor of Business Administration",

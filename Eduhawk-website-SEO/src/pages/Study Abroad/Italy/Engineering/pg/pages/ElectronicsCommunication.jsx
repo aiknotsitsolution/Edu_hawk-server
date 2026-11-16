@@ -18,10 +18,10 @@ const page = {
   "description": "Study Electronics & Communication - PG in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
   "keywords": "Study Electronics & Communication - PG in Italy, Electronics & Communication - PG in Italy for Indian Students, Best Universities in Italy, Cost of Studying in Italy",
   "introTitle": "Electronics Engineering in Italy for Indian Students",
-  "heroParas": [
-    "Yes. Indian students with a relevant undergraduate qualification can apply to eligible Italian universities, provided they meet academic, language and program specific requirements."
+  heroParas: [
+    "Studying a Master’s in Electronics and Communication Engineering in Italy prepares students for leading-edge careers in telecommunications, photonics, wireless networks, and semiconductor microelectronics across Europe's premier technical universities."
   ],
-  "overview": [
+  overview: [
     "Yes. Indian students with a relevant undergraduate qualification can apply to eligible Italian universities, provided they meet academic, language and program specific requirements."
   ],
   "level": "Postgraduate",
@@ -180,44 +180,6 @@ const page = {
         {
           "t": "ul",
           "items": [
-            "Design Engineer - Electronics",
-            "Engineer - Micro-electronics",
-            "Engineer, Semiconductor",
-            "Embedded Systems Developer",
-            "IC Design Engineer",
-            "Hardware Development Engineer",
-            "Electronics Test Engineer",
-            "Signal Processing Engineer",
-            "Engineer, Research and Development"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Salary Range (indicative)",
-            "Level of ExperienceGross yearly salary indicativeApproximate INR equivalents",
-            "Entry-level€28,000-€35,000₹30.41-₹38.01 lakh",
-            "Experienced€35,000 - €50,000₹ 38.01 - ₹ 54.30 lakh",
-            "Specialist or senior roles€50,000-€70,000+₹54.30-₹76.02 lakh+",
-            "These are general illustrative estimates to assist in career planning and not verified salary statistics or guarantyd earnings. The actual salary will depend on experience, location, employer, specialization, language skills and work authorization. The INR equivalents are based on €1 = ~₹ 108.60."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Document Checklist",
-      "title": "Documents needed to study electronics engineering in Italy",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Applicants are required to prepare the documents as per their choice of university. Typical requirements are:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
             "Passport valid.",
             "Bachelor's degree certificate or provisional certificate",
             "Academic transcripts & mark sheets.",
@@ -238,7 +200,34 @@ const page = {
         }
       ]
     }
-  ]
+  ],
+  faqs: [
+    {
+        "q": "Is Electronics and Communication Engineering offered in English in Italy?",
+        "a": "Yes. Leading Italian universities offer English-taught master's degrees in Electronics Engineering and Telecommunications Engineering."
+    },
+    {
+        "q": "How long does the Master's programme take in Italy?",
+        "a": "The programme requires 2 years of full-time study comprising 120 ECTS credits, culminating in a comprehensive master's research thesis."
+    },
+    {
+        "q": "What are the tuition costs for ECE in Italy?",
+        "a": "Annual tuition at public universities ranges from €1,000 to €3,800, with extensive need-based scholarship options available through DSU."
+    },
+    {
+        "q": "What specializations are offered in Italian ECE programmes?",
+        "a": "Specializations include Microelectronics & Chip Design, 5G/6G Wireless Networks, Photonic Technologies, RF & Microwave Engineering, and Internet of Things (IoT)."
+    },
+    {
+        "q": "What are the entry criteria for Indian degree holders?",
+        "a": "A Bachelor's degree in electronics, telecommunications, or electrical engineering, strong foundational grades in circuit theory, and IELTS/TOEFL scores."
+    },
+    {
+        "q": "What career opportunities exist for graduates in Italy and Europe?",
+        "a": "Graduates work as RF engineers, semiconductor designers (STMicroelectronics), telecom systems architects, and embedded hardware developers."
+    }
+],
+  faqTitle: "Frequently Asked Questions About Electronics & Communication PG in Italy"
 };
 
 export default function ElectronicsCommunicationPGItaly() {

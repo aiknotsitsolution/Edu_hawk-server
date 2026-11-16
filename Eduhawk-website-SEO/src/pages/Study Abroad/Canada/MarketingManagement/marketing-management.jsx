@@ -20,8 +20,7 @@ const page = {
   "keywords": "Study Marketing Management in Canada, Marketing Management in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Marketing Management for Indian Students in Canada",
   "heroParas": [
-    "Understanding consumers, spotting market opportunities, creating brands, advertising goods and services, and creating plans that support businesses in achieving their goals are all key components of marketing management.",
-    "Universities, colleges, and other educational establishments in Canada provide business and management education. In fields including digital marketing, brand management, market research, advertising, and strategic marketing , students who are interested in marketing might explore undergraduate degrees, postgraduate credentials, diplomas, certificates, and specialized marketing programs"
+    "Understanding consumers, spotting market opportunities, creating brands, advertising goods and services, and creating plans that support businesses in achieving their goals are all key components of marketing management."
   ],
   "overview": [
     "Understanding consumers, spotting market opportunities, creating brands, advertising goods and services, and creating plans that support businesses in achieving their goals are all key components of marketing management.",

@@ -22,14 +22,11 @@ const page = {
   "keywords": "Study BEng Computer Engineering in the UK, BEng Computer Engineering in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Study Computer Science in the United Kingdom",
   "heroParas": [
-    "In order to build, develop, and enhance contemporary computing technology, computer engineering integrates computer hardware, software, electronics, and digital systems. Computer architecture, embedded systems, robotics, digital electronics, computer networks, and hardware-software interaction are some of the topics it addresses.",
-    "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities with the right preparation and direction.",
-    "Principal Advantages of Studying Computer Engineering in the United Kingdom"
+    "In order to build, develop, and enhance contemporary computing technology, computer engineering integrates computer hardware, software, electronics, and digital systems. Computer architecture, embedded systems, robotics, digital electronics, computer networks, and hardware-software interaction are some of the topics it addresses."
   ],
   "overview": [
     "In order to build, develop, and enhance contemporary computing technology, computer engineering integrates computer hardware, software, electronics, and digital systems. Computer architecture, embedded systems, robotics, digital electronics, computer networks, and hardware-software interaction are some of the topics it addresses.",
-    "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities with the right preparation and direction.",
-    "Principal Advantages of Studying Computer Engineering in the United Kingdom"
+    "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities with the right preparation and direction."
   ],
   "level": "BEng Computer Engineering",
   "crumb": "Engineering / UG / Computer Engineering",

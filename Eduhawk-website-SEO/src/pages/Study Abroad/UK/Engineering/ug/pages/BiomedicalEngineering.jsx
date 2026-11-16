@@ -22,9 +22,7 @@ const page = {
   "keywords": "Study BEng Biomedical Engineering in the UK, BEng Biomedical Engineering in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Study Biomedical Engineering in the United Kingdom",
   "heroParas": [
-    "In order to create tools, technologies, and systems that aid in the diagnosis, monitoring, treatment, and prevention of health issues, Biomedical Engineering integrates engineering, biology, medicine, and technology.",
-    "Undergraduate Biomedical Engineering programs in the UK integrate engineering principles with biological sciences, medical technology, laboratory work, and real-world design projects.",
-    "Studying Biomedical Engineering in the UK can lay the groundwork for jobs in medical device development, clinical engineering, healthcare technology, research, and biomedical product design for Indian students interested in healthcare innovation and technology."
+    "In order to create tools, technologies, and systems that aid in the diagnosis, monitoring, treatment, and prevention of health issues, Biomedical Engineering integrates engineering, biology, medicine, and technology."
   ],
   "overview": [
     "In order to create tools, technologies, and systems that aid in the diagnosis, monitoring, treatment, and prevention of health issues, Biomedical Engineering integrates engineering, biology, medicine, and technology.",

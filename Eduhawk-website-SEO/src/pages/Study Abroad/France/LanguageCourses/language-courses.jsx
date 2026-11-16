@@ -13,296 +13,346 @@ import uniImg2 from "../../../../Images/Abroad/France/LanguageCourses/CAVILAM.we
 import uniImg3 from "../../../../Images/Abroad/France/LanguageCourses/Institut_de_Touraine_Tours.webp";
 
 const page = {
-  "name": "Language Courses in France",
-  "country": "France",
-  "slug": "language-courses",
-  "title": "Study Language Courses in France for Indian Students | Edu-Hawk Worldwide",
-  "description": "Complete guide to Language Courses in France for Indian students: Top French universities, admission requirements, tuition fees (€255 – €3,950 / year public), scholarships, and 2-year post-study work visa.",
-  "keywords": "Language Courses in France, Study in France, French Universities, Admissions 2026, Edu Hawk Worldwide",
-  "introTitle": "LANGUAGE COURSES IN FRANCE FOR INDIAN STUDENTS",
-  "heroParas": [
-    "**"
+  name: "Language Courses in France",
+  country: "France",
+  slug: "language-courses",
+  title: "Study Language Courses in France for Indian Students | Edu-Hawk Worldwide",
+  description: "Complete guide to French language courses in France for Indian students: Top Qualité FLE centers (Alliance Française, CAVILAM, Institut de Touraine), CEFR levels (A1 to C2), DELF/DALF certifications, tuition costs, and student visa guidelines.",
+  keywords: "Study Language Courses in France for Indian Students, Language Courses in France for International Students, French Language Courses in France for Beginners, French as a Foreign Language (FLE) Courses in France, Intensive French Language Courses in France, Academic French Courses in France, Business French Courses in France, Best Language Schools and Institutions in France, Language Course Eligibility Requirements for Indian Students, Language Course Admission Requirements in France, Cost of Studying French Language Courses in France, French Language Course Fees and Accommodation Costs, DELF and DALF Examination Preparation Courses in France, TCF and TEF French Language Test Preparation in France",
+  introTitle: "LANGUAGE COURSES IN FRANCE FOR INDIAN STUDENTS",
+  heroParas: [
+    "Studying French language courses in France provides Indian students with complete cultural and linguistic immersion, accelerating mastery from beginner (A1) to advanced academic proficiency (C1/C2) across accredited Qualité FLE centers and university language institutes."
   ],
-  "overview": [
-    "**"
+  overview: [
+    "Studying French language courses in France is an unparalleled pathway for international students seeking to achieve authentic linguistic fluency, prepare for higher education degree admissions, or advance global careers in diplomacy, hospitality, luxury retail, and international commerce. Immersed directly in French society, learners practice language competencies in authentic everyday cultural contexts.",
+    "France offers diverse language training pathways under the Common European Framework of Reference for Languages (CEFR)—spanning intensive summer bootcamps, semester-long University Diplomas in French Studies (DUEF), Business French, and specialized exam preparation for lifetime state certifications (DELF and DALF) and standardized tests (TCF and TEF).",
+    "Through EduHawk Worldwide's dedicated educational advisory, Indian students receive end-to-end assistance in selecting Qualité FLE-certified centers, securing student visas (short-stay or VLS-TS for long-term programs), arranging homestay or university housing, and planning progression into French university degrees."
   ],
-  "level": "French Language Diplomas (DELF / DALF / TCF / FLE Programs)",
-  "crumb": "Languages / French Studies",
-  "stats": [
+  level: "French Language Diplomas (DELF / DALF / TCF / FLE Programs)",
+  crumb: "Languages / French Studies",
+  stats: [
     {
-      "label": "Degree Choices",
-      "value": "French Language Diplomas (DELF / DALF / TCF / FLE Programs)"
+      label: "Course Formats",
+      value: "Intensive FLE | Academic Semester | DELF/DALF Prep"
     },
     {
-      "label": "Course Duration",
-      "value": "3 to 5 Years (Licence / Diplôme d'Ingénieur)"
+      label: "Course Duration",
+      value: "2 Weeks to 1 Academic Year (Flexible)"
     },
     {
-      "label": "Top Institutions",
-      "value": "Alliance Française network, CAVILAM"
+      label: "Key Institutions",
+      value: "Alliance Française Network, CAVILAM Vichy, Institut de Touraine"
     },
     {
-      "label": "Post-Study Work",
-      "value": "2-Year APS / Autorisation Provisoire de Séjour"
+      label: "Accreditation",
+      value: "Qualité FLE Label & French Ministry of Education Diplomas"
     }
   ],
-  "sections": [
+  sections: [
     {
-      "slot": "why",
-      "eyebrow": "Why Study in France",
-      "title": "1. **Set Your Goal:** Decide whether you want to learn French for travel, work, university admission or a language examination.",
-      "groups": [
+      slot: "why",
+      eyebrow: "Immersive Advantages",
+      title: "Why Study French Language Courses in France?",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Details available upon request."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "courses",
-      "eyebrow": "Degrees & Specializations",
-      "title": "2. **Choose Your Level:** Select a beginner, intermediate or advanced course, or complete a placement assessment.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Details available upon request."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "unis",
-      "eyebrow": "Top Institutions in France",
-      "title": "3. **Research Institutions:** Compare language schools, university centres and programmes with the Qualité FLE label.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Details available upon request."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Academic & Language Criteria",
-      "title": "4. **Check Dates and Fees:** Review course duration, weekly hours, accommodation options and total costs.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Details available upon request."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "requirements",
-      "eyebrow": "Application Checklist",
-      "title": "5. **Prepare Your Documents:** Gather your passport details, application information and any required education or language records.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Details available upon request."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "fees",
-      "eyebrow": "Tuition & Cost of Living",
-      "title": "6. **Apply to the Institution:** Submit the application through the official website or admissions office.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Details available upon request."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "process",
-      "eyebrow": "Step-by-Step Guide",
-      "title": "7. **Receive Confirmation:** Review the course dates, payment terms and enrolment documents.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Details available upon request."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "accreditation",
-      "eyebrow": "Degrees & Recognition",
-      "title": "8. Accreditation and Recognition of Language Courses in France**",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "When choosing a language school, students should differentiate between the quality of a course, the certificate issued by the school and an official language qualification.",
-            "**FLE Label quality**",
-            "Qualité FLE is a French quality label for institutions offering training in French as a foreign language. It helps learners to choose centers which have had their language training and services evaluated against recognized quality standards.",
-            "**DELF and DALF**",
-            "DELF and DALF are official diplomas of the French language awarded by the French Ministry of Education. They test the relevant levels of proficiency of language skills . They are usually valid for life .",
-            "**TCF and TEF**",
-            "TCF and TEF are tests of French as a foreign language. They may be required for education, immigration or other administrative purposes depending on the procedure.",
-            "University Certificates",
-            "After completing a language course, some universities will give you their own certificate or diploma. These may show course participation or achievement but are not automatically equivalent to DELF, DALF or other official qualification.",
-            "**"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Job Roles & Industry Growth",
-      "title": "9. Salary and job prospects after French language courses**",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "**Studying language  in France** can help to develop communication skills and can help to further your studies or career. But a short course in the language alone does not often make anybody eligible for a specialized profession, nor does it guarantee employment.",
-            "Career pathways for learners with language proficiency and relevant education/experience include:"
+          t: "p",
+          items: [
+            "Learning French in France accelerates language acquisition far beyond classroom study in India. Surrounded by native speakers in daily life, students develop natural conversational rhythm, authentic pronunciation, and rich cultural fluency.",
+            "Key benefits of studying French language programs in France include:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "* Interpreting and Translation.",
-            "* Tourism, Travel Services.",
-            "* Hospitality and hotel management.",
-            "* Support to international clients.",
-            "* Business development and sales.",
-            "* International student services and education",
-            "* Teaching of languages, subject to suitable qualifications.",
-            "* Administrative support and international trade.",
-            "* Further studies in linguistics, literature and international relations."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "**Salary Expectations**",
-            "Graduates of language courses do not have a fixed salary. Your earnings will depend on your job, your employer, your location, your language combination, your professional qualifications and your experience.",
-            "It can also be helpful to apply for degree programs in France in French, even if the program itself is taught in English.",
-            "**"
+          t: "bullets",
+          items: [
+            "Total Linguistic & Cultural Immersion: Daily practice in authentic settings—from ordering at bakeries and attending theater to navigating public transit and socializing with local peers.",
+            "Accredited Qualité FLE Institutions: Quality assurance through the official 'Qualité Français Langue Étrangère' certification, guaranteeing rigorous teaching standards, modern facilities, and student welfare.",
+            "Gateway to French Higher Education: Reaching the DELF B2 level satisfies the French language prerequisite for tuition-subsidized bachelor's and master's degrees across all French public universities.",
+            "Global Career Advancement: French is an official working language of the United Nations, European Union, WTO, International Olympic Committee, and international courts; highly valued by luxury brands (LVMH, Chanel, L'Oréal), aerospace (Airbus), and hospitality leaders.",
+            "Lifetime Recognized State Diplomas: Direct preparation and testing for DELF (Diplôme d'Études en Langue Française) and DALF (Diplôme Approfondi de Langue Française), certificates that never expire.",
+            "Rich Geographic Variety: Study in world-famous Paris, the historic Loire Valley (celebrated for purest French in Tours), the sunny Mediterranean coast (Nice, Montpellier), or thermal wellness cities like Vichy."
           ]
         }
       ]
     },
     {
-      "slot": "documents",
-      "eyebrow": "Document Requirements",
-      "title": "10. Documents required for French language courses**",
-      "groups": [
+      slot: "courses",
+      eyebrow: "Program Architecture",
+      title: "Types of Language Courses & CEFR Framework in France",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "The exact document checklist varies depending on the institution and the applicant's situation. Documents often contain:"
+          t: "p",
+          items: [
+            "Language programs in France adhere to the Common European Framework of Reference for Languages (CEFR), dividing proficiency into six distinct levels from basic beginner to bilingual mastery."
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "* Valid passport or acceptable identification.",
-            "* Filled application form.",
-            "* Passport size photo (if applicable)",
-            "* Previous education certificates, where applicable.",
-            "* Language skills information or the results of placement testing.",
-            "* Proof of enrollment or tuition payment.",
-            "* Accommodation details available on request.",
-            "* Visa documentation (where applicable).",
-            "* Proof of funds or other documents in support of immigration procedures."
+          t: "h4",
+          items: ["CEFR Proficiency Levels"]
+        },
+        {
+          t: "bullets",
+          items: [
+            "A1 – Discovery / Beginner: Basic everyday expressions, personal introductions, simple inquiries, and familiar survival vocabulary.",
+            "A2 – Elementary: Routine social interactions, simple descriptive conversations, shopping, travel, and immediate environment comprehension.",
+            "B1 – Intermediate: Independent communication, expressing opinions, discussing plans, describing events, and understanding work or travel situations.",
+            "B2 – Vantage / Independent: Spontaneous conversation with native speakers, academic argumentation, technical discussions; standard admission requirement for French-taught university degrees.",
+            "C1 – Effective Operational Proficiency: Fluent, flexible expression for complex academic, professional, and literary subjects with nuanced precision.",
+            "C2 – Mastery: Bilingual-level comprehension, spontaneous and highly sophisticated articulation in any domain."
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Students should check if documents require translation/certification. Keep copies of the confirmation of enrollment, fee receipts and any documentation required for visa application.",
-            "**"
+          t: "h4",
+          items: ["Core Course Categories"]
+        },
+        {
+          t: "bullets",
+          items: [
+            "General & Intensive FLE Courses: 15 to 30 hours per week focusing on the four core skills: speaking, listening, reading, and writing, combined with cultural workshops.",
+            "Academic French & University Preparation (DUEF): Semester-long university programs preparing students for lecture comprehension, dissertation methodology, and academic presentations.",
+            "Business & Professional French: Specialized vocabulary and communication for international law, corporate business, luxury hospitality, diplomacy, and medical French.",
+            "Official Examination Preparation: Targeted training modules for DELF, DALF, TCF (Test de Connaissance du Français), and TEF (Test d'Évaluation de Français)."
+          ]
+        },
+        {
+          t: "h4",
+          items: ["Comparison of Official French Certifications"]
+        },
+        {
+          t: "table",
+          headers: ["Certification", "Issuing Authority", "Target Levels", "Validity Period"],
+          rows: [
+            ["DELF (Diplôme d'Études en Langue Française)", "French Ministry of National Education", "A1, A2, B1, B2", "Lifetime (Never Expires)"],
+            ["DALF (Diplôme Approfondi de Langue Française)", "French Ministry of National Education", "C1, C2", "Lifetime (Never Expires)"],
+            ["TCF (Test de Connaissance du Français)", "France Éducation International", "A1 to C2 (Score-based)", "2 Years from Test Date"],
+            ["TEF (Test d'Évaluation de Français)", "Paris Île-de-France Chamber of Commerce", "A1 to C2 (Score-based)", "2 Years from Test Date"]
           ]
         }
       ]
     },
     {
-      "slot": "faqs",
-      "eyebrow": "Frequently Asked Questions",
-      "title": "11. Language Courses in France FAQs**",
-      "groups": [
+      slot: "unis",
+      eyebrow: "Premier Language Centers",
+      title: "Top Language Schools & Institutions in France",
+      unis: [
         {
-          "t": "p",
-          "items": [
-            "Q1. Can beginners learn French in France?",
-            "Yes. There are lots of language centers offering beginner courses, including A1 classes. Students can take a placement test to find out what level to start at.",
-            "Q2. What are the durations of language courses in France?",
-            "Course length varies. Some programs are a few weeks long, some many months or longer. Intensive courses are generally scheduled with more teaching hours per week than part-time courses.",
-            "Q3. How much do language courses cost in France?",
-            "Fees vary depending on the institution, course intensity and duration. Students should ask for a full breakdown of costs before they enroll as accommodation, meals, examination fees and transport may be charged separately.",
-            "Q4. Which certificate of the French language to choose?",
-            "The right certificate depends on what you want. DELF and DALF are official diplomas, while TCF and TEF are assessment tests that have different purposes. Check the exact requirements of your target university, employer or administrative procedure before booking an exam.",
-            "Q5. Can I get a French student visa for a language course?",
-            "The conditions for a visa depend on your nationality, the length and nature of the course, and your personal circumstances. Before making travel arrangements check the official French visa website and Campus France guidance relevant to you. Enrollment in a language school does not ensure that a visa will be issued.",
-            "How can **Edu Hawk worldwide Consultancy** help me study abroad?",
-            "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities.",
-            "**Keywords -**",
-            "Study Language Courses in France for Indian Students",
-            "Language Courses in France for International Students",
-            "French Language Courses in France for Beginners",
-            "French as a Foreign Language (FLE) Courses in France",
-            "Intensive French Language Courses in France",
-            "Academic French Courses in France",
-            "Business French Courses in France",
-            "Best Language Schools and Institutions in France",
-            "Language Course Eligibility Requirements for Indian Students",
-            "Language Course Admission Requirements in France",
-            "Cost of Studying French Language Courses in France",
-            "French Language Course Fees and Accommodation Costs",
-            "DELF and DALF Examination Preparation Courses in France",
-            "TCF and TEF French Language Test Preparation in France"
+          name: "Alliance Française Network",
+          city: "Paris, Lyon, Bordeaux, Nice",
+          state: "Multiple Campuses",
+          desc: "The world's foremost network for French language and cultural education, Alliance Française centers in France offer cutting-edge multimedia language laboratories, intensive FLE modules, rich cultural excursions, and official in-house DELF/DALF testing centers.",
+          img: uniImg1
+        },
+        {
+          name: "CAVILAM – Alliance Française, Vichy",
+          city: "Vichy",
+          state: "Auvergne-Rhône-Alpes",
+          desc: "Founded in 1964 and affiliated with the University of Clermont Auvergne, CAVILAM is internationally celebrated for innovative pedagogical methods, teacher training, and intensive cultural immersion inside a tranquil, safe UNESCO World Heritage spa town.",
+          img: uniImg2
+        },
+        {
+          name: "Institut de Touraine",
+          city: "Tours",
+          state: "Centre-Val de Loire",
+          desc: "Located in the historic Loire Valley—globally renowned as the cradle of accent-free, classical French—the Institut de Touraine has welcomed international learners since 1897. It offers university-accredited French immersion surrounded by famous royal châteaux.",
+          img: uniImg3
+        }
+      ],
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Other renowned French language institutions include university language centers (such as CCFS Sorbonne in Paris, CIEF at University of Lyon, and DEFLE in Bordeaux) and private academies holding the Qualité FLE label."
           ]
         }
       ]
-    }
-  ],
-  "faqs": [
+    },
     {
-      "q": "How can **Edu Hawk worldwide Consultancy** help me study abroad?",
-      "a": "Q1. Can beginners learn French in France? Yes. There are lots of language centers offering beginner courses, including A1 classes. Students can take a placement test to find out what level to start at. Q2. What are the durations of language courses in France? Course length varies. Some programs are a few weeks long, some many months or longer. Intensive courses are generally scheduled with more teaching hours per week than part-time courses. Q3. How much do language courses cost in France? Fees vary depending on the institution, course intensity and duration. Students should ask for a full breakdown of costs before they enroll as accommodation, meals, examination fees and transport may be charged separately. Q4. Which certificate of the French language to choose? The right certificate depends on what you want. DELF and DALF are official diplomas, while TCF and TEF are assessment tests that have different purposes. Check the exact requirements of your target university, employer or administrative procedure before booking an exam. Q5. Can I get a French student visa for a language course? The conditions for a visa depend on your nationality, the length and nature of the course, and your personal circumstances. Before making travel arrangements check the official French visa website and Campus France guidance relevant to you. Enrollment in a language school does not ensure that a visa will be issued. Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities. **Keywords -** Study Language Courses in France for Indian Students Language Courses in France for International Students French Language Courses in France for Beginners French as a Foreign Language (FLE) Courses in France Intensive French Language Courses in France Academic French Courses in France Business French Courses in France Best Language Schools and Institutions in France Language Course Eligibility Requirements for Indian Students Language Course Admission Requirements in France Cost of Studying French Language Courses in France French Language Course Fees and Accommodation Costs DELF and DALF Examination Preparation Courses in France TCF and TEF French Language Test Preparation in France"
+      slot: "eligibility",
+      eyebrow: "Admissions & Visas",
+      title: "Eligibility & Entry Requirements for Indian Students",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Entry requirements for French language courses are accessible and open to students, professionals, and language enthusiasts from all academic backgrounds."
+          ]
+        },
+        {
+          t: "h4",
+          items: ["Admissions Prerequisites"]
+        },
+        {
+          t: "bullets",
+          items: [
+            "Minimum Age: Typically 16 or 18 years old depending on the institution and accommodation type selected (homestay vs. student residence).",
+            "Prior Knowledge: No previous knowledge of French is required for general beginner (A1) programs. For intermediate or advanced courses, an online diagnostic placement test determines the appropriate class level.",
+            "Academic Documents: Passport copy, completed registration form, and course registration deposit.",
+            "University Language Programs (DUEF): High school completion certificate (Class 12) or university degree certificate."
+          ]
+        },
+        {
+          t: "h4",
+          items: ["Visa Guidelines for Indian Students"]
+        },
+        {
+          t: "bullets",
+          items: [
+            "Short-Stay Visa (Court Séjour - Schengen Visa): For courses up to 90 days. Ideal for summer intensive courses or holiday learning.",
+            "Long-Stay Temporary Visa (VLS-T - Visa de Long Séjour Temporaire): For language courses lasting between 3 and 6 months; non-renewable, does not require OFII validation.",
+            "Long-Stay Student Visa (VLS-TS - Étudiant): For language courses lasting more than 6 months or university pathway programs. Requires the Campus France 'Études en France' procedure and allows students to work part-time (up to 20 hrs/week) and receive CAF housing subsidies."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "costs",
+      eyebrow: "Fees & Budgeting",
+      title: "Cost of Language Courses & Living Expenses in France",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Costs depend on course intensity, program length, school type (private institute vs. university center), and campus location."
+          ]
+        },
+        {
+          t: "table",
+          headers: ["Course Type / Duration", "Estimated Tuition Fee", "Key Features"],
+          rows: [
+            ["Short-Term Intensive (20 hrs/week)", "€220 – €350 / week", "Interactive classes, cultural outings, flexible start dates"],
+            ["One-Month Intensive Bootcamp", "€800 – €1,300 / month", "Accelerated learning for travel or exam prep"],
+            ["Semester Program (12–16 Weeks)", "€2,500 – €4,500 / semester", "Comprehensive level progression (e.g., A2 to B1)"],
+            ["Academic Year University FLE (DUEF)", "€1,500 – €3,200 / year", "Subsidized public university center fees"],
+            ["DELF / DALF Exam Fee", "€100 – €220 / examination", "Separate fee payable to official testing center"]
+          ]
+        },
+        {
+          t: "h4",
+          items: ["Accommodation & Living Expenses"]
+        },
+        {
+          t: "p",
+          items: [
+            "International language students typically choose from three accommodation types: French host family (homestay with half-board: €600–€900/month regional, €850–€1,200/month Paris), private student residences (€400–€700/month), or shared private apartments. Monthly food, transport, and personal expenses average €350 to €500 depending on the city."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "process",
+      eyebrow: "Admissions Roadmap",
+      title: "Step-by-Step Guide to Enrolling in Language Courses in France",
+      steps: [
+        {
+          title: "Step 1: Define Goals & Target Proficiency",
+          desc: "Identify whether your aim is general fluency, DELF/DALF exam preparation, or academic French for degree enrollment."
+        },
+        {
+          title: "Step 2: Select a Qualité FLE-Certified School",
+          desc: "Compare accredited centers, regional locations (Paris vs. regional cities), teaching intensity, and student accommodation options."
+        },
+        {
+          title: "Step 3: Submit Online Registration & Placement Test",
+          desc: "Complete the online application form and complete the preliminary language diagnostic evaluation to assess your starting level."
+        },
+        {
+          title: "Step 4: Receive Certificate of Registration (Attestation)",
+          desc: "Remit the tuition deposit or full fee to receive the official Attestation d'Inscription required for your French student visa application."
+        },
+        {
+          title: "Step 5: Arrange Housing & Student Support",
+          desc: "Confirm your homestay, private studio, or university residence booking to secure proof of accommodation for visa filing."
+        },
+        {
+          title: "Step 6: Complete Campus France & Visa Formalities",
+          desc: "For courses over 90 days, create your Études en France profile, attend the Campus France interview, and apply for your visa via VFS Global."
+        },
+        {
+          title: "Step 7: Travel to France & Take Oral Assessment",
+          desc: "Arrive in France, complete your in-person speaking evaluation on orientation day, and receive your class schedule."
+        },
+        {
+          title: "Step 8: Immersive Learning & Certification",
+          desc: "Attend daily interactive lectures, participate in cultural activities, and sit for your official DELF/DALF examination."
+        }
+      ]
+    },
+    {
+      slot: "careers",
+      eyebrow: "Career & Academic Pathways",
+      title: "Opportunities After Completing French Language Courses",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Achieving proficiency in French unlocks substantial global academic and professional opportunities for Indian students, providing a competitive edge across diverse industries."
+          ]
+        },
+        {
+          t: "h4",
+          items: ["Academic Progression & Professional Sectors"]
+        },
+        {
+          t: "bullets",
+          items: [
+            "Direct Admission to French Universities: Earning a DELF B2 diploma qualifies international students to enroll directly in tuition-subsidized degree courses across all public universities in France.",
+            "International Diplomacy & NGOs: French is an essential working language in global governance bodies, the United Nations, UNESCO, Red Cross, and international human rights organizations.",
+            "Luxury Brands & Fashion: High-value opportunities in brand management, merchandising, and corporate communications for French conglomerates (LVMH, Kering, Chanel, Hermès, L'Oréal).",
+            "Aviation, Tourism & Hospitality: High demand in international airlines (Air France), hotel chains (AccorHotels), and luxury concierge services.",
+            "Translation, Content & Corporate BPO: Lucrative career options in multilingual corporate advisory, technical translation, localization, and teaching French as a foreign language in India and abroad."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "faq",
+      eyebrow: "Frequently Asked Questions",
+      title: "Language Courses in France FAQs",
+      faqs: [
+        {
+          q: "Can beginners learn French in France?",
+          a: "Yes, absolutely. French language schools welcome complete beginners with dedicated A1-level classes. Centers conduct diagnostic assessments to ensure learners are placed in classes matching their exact baseline proficiency."
+        },
+        {
+          q: "What is the duration of language courses in France?",
+          a: "Course durations are highly flexible. Programs range from 2-week intensive holiday modules to full academic year diploma courses (9 to 12 months) covering multiple CEFR levels."
+        },
+        {
+          q: "How much do French language courses cost in France?",
+          a: "Tuition fees vary by format. Short-term intensive courses cost between €200 and €350 per week, while semester-long university language center programs (DUEF) typically cost between €1,500 and €3,200 per year."
+        },
+        {
+          q: "Which French language certificate should I choose?",
+          a: "For long-term academic and career recognition, DELF (A1–B2) and DALF (C1–C2) diplomas are recommended because they are issued by the French Ministry of Education and never expire. Standardized tests like TCF and TEF are valid for 2 years and are typically used for immediate university entry or immigration."
+        },
+        {
+          q: "Can I get a French student visa for a language course?",
+          a: "Yes. Courses lasting less than 90 days require a short-stay Schengen visa. For courses exceeding 3 months, students apply for a Long-Stay Student Visa (VLS-T or VLS-TS) backed by an official Attestation d'Inscription from an accredited French language center."
+        }
+      ]
     }
   ]
 };
 
-export default function LanguageCoursesinFrancePage() {
+export default function LanguageCoursesPage() {
   const images = {
     hero: heroImg,
     heroBg: heroBgImg,
     side: sideImg,
     ctaBg: ctaBgImg,
-    universities: [
-    {
-      name: "Alliance Française network",
-      img: uniImg1,
-      desc: "Recognized French higher education institution offering accredited curriculum, world-class research facilities, and excellent industry connections."
-    },
-    {
-      name: "CAVILAM",
-      img: uniImg2,
-      desc: "Recognized French higher education institution offering accredited curriculum, world-class research facilities, and excellent industry connections."
-    },
-    {
-      name: "Institut de Touraine, Tours",
-      img: uniImg3,
-      desc: "Recognized French higher education institution offering accredited curriculum, world-class research facilities, and excellent industry connections."
-    }
-    ]
+    uni1: uniImg1,
+    uni2: uniImg2,
+    uni3: uniImg3
   };
 
-  return <AbroadCoursePage page={page} images={images} />;
+  return (
+    <AbroadCoursePage
+      page={page}
+      heroImg={heroImg}
+      heroBgImg={heroBgImg}
+      sideImg={sideImg}
+      ctaBgImg={ctaBgImg}
+      seoPath={page.slug}
+      images={images}
+    />
+  );
 }

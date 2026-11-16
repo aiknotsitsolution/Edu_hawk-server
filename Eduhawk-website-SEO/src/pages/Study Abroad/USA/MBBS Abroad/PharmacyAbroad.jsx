@@ -4,6 +4,7 @@ import California_San_Francisco from "../../../../Images/Abroad/USA/Pharmacy_USA
 import Michigan_Ann_Arbor from "../../../../Images/Abroad/USA/Pharmacy_USA/Michigan_Ann_Arbor.webp";
 import North_Carolina_Chapel_Hill from "../../../../Images/Abroad/USA/Pharmacy_USA/North_Carolina_at_Chapel_Hil.webp";
 import Texas_Austin from "../../../../Images/Abroad/USA/Pharmacy_USA/Texas_at_Austin.webp";
+import pharmacyData from "../../../../data/study_abroad/usa/pharmacy.json";
 
 const PharmacyAbroad = () => {
   const [openFaq, setOpenFaq] = useState(null);
@@ -42,12 +43,14 @@ const PharmacyAbroad = () => {
     return () => observer.disconnect();
   }, []);
 
-  const stats = [
-    { label: "Programs", value: "B.Pharm, Pharm.D, M.Pharm & related courses" },
-    { label: "Countries", value: "UK, Canada, Australia, USA, Ireland & more" },
-    { label: "Support", value: "Complete guidance from profile to arrival" },
-    { label: "Approach", value: "Transparent fees, honest counselling & career focus" },
-  ];
+  const stats = (pharmacyData?.stats && pharmacyData.stats.length > 0)
+    ? pharmacyData.stats.map((s) => ({ label: s.l, value: s.n }))
+    : [
+        { label: "Programs", value: "B.Pharm, Pharm.D, M.Pharm & related courses" },
+        { label: "Countries", value: "UK, Canada, Australia, USA, Ireland & more" },
+        { label: "Support", value: "Complete guidance from profile to arrival" },
+        { label: "Approach", value: "Transparent fees, honest counselling & career focus" },
+      ];
 
   const features = [
     {
@@ -127,7 +130,14 @@ const PharmacyAbroad = () => {
     "Programs in clinical research and regulatory science",
   ];
 
-  const topUniversities = [
+  const uniImageMap = {
+    "University of North Carolina at Chapel Hill": North_Carolina_Chapel_Hill,
+    "University of California, San Francisco": California_San_Francisco,
+    "University of Michigan–Ann Arbor": Michigan_Ann_Arbor,
+    "University of Texas at Austin": Texas_Austin,
+  };
+
+  const defaultTopUniversities = [
     {
       img: North_Carolina_Chapel_Hill,
       name: "University of North Carolina at Chapel Hill",
@@ -149,6 +159,14 @@ const PharmacyAbroad = () => {
       desc: "UT Austin College of Pharmacy",
     },
   ];
+
+  const topUniversities = (pharmacyData?.universities && pharmacyData.universities.length > 0)
+    ? pharmacyData.universities.map((u, i) => ({
+        name: u.name || defaultTopUniversities[i]?.name,
+        desc: u.location || u.fee || defaultTopUniversities[i]?.desc,
+        img: uniImageMap[u.name] || u.image || defaultTopUniversities[i]?.img,
+      }))
+    : defaultTopUniversities;
 
   const comparisonPoints = [
     "Program type and admission pathway",
@@ -356,52 +374,54 @@ const PharmacyAbroad = () => {
     },
   ];
 
-  const faqs = [
-    {
-      q: "After Class 12, are Indian students able to pursue pharmacy studies in the United States?",
-      a: "Indeed. Pre-pharmacy routes and qualified PharmD programs are available to Indian students. While some universities offer structured entry pathways after high school, many professional programs require prerequisite undergraduate coursework prior to PharmD study.",
-    },
-    {
-      q: "What is the primary pharmacy degree in the United States?",
-      a: "In the United States, the primary professional degree for students aspiring to become pharmacists is the Doctor of Pharmacy (PharmD). Students interested in research and industry can also pursue degrees in pharmaceutical sciences.",
-    },
-    {
-      q: "After earning a BPharm in India, can I pursue a PharmD in the USA?",
-      a: "Yes, possibly. The university determines eligibility. Although prior coursework does not ensure exemptions or a shorter degree, some universities take international pharmacy graduates into consideration for admission or advanced standing.",
-    },
-    {
-      q: "How much does a pharmacist make in the United States?",
-      a: "The U.S. Bureau of Labor Statistics reports that in May 2025, the median yearly salary for pharmacists was $140,910. Location, experience, employer, and workplace all affect actual earnings.",
-    },
-    {
-      q: "Can Indian BPharm graduates work as pharmacists in the USA?",
-      a: "They may pursue U.S. pharmacist licensure, but an Indian BPharm degree does not automatically provide the right to practise. International graduates generally need to meet the FPGEC certification pathway, followed by applicable state licensing requirements.",
-    },
-    {
-      q: "How can Edu Hawk worldwide help me study Pharmacy abroad?",
-      a: "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities.",
-    },
-    {
-      q: "Which country is best for Pharmacy abroad?",
-      a: "There is no single best country. The right choice depends on your budget, academic profile, preferred course (B.Pharm / Pharm.D / M.Pharm), licensing pathway and long-term career plans. UK, Canada and Australia are currently the most popular among Indian students.",
-    },
-    {
-      q: "How much does it cost to study Pharmacy abroad?",
-      a: "Costs vary by country and university. Your total budget includes tuition, accommodation, living expenses, insurance, travel and visa costs. We share a realistic estimate before you apply.",
-    },
-    {
-      q: "Do I need IELTS or another English test?",
-      a: "Most universities in UK, Canada, Australia and USA ask for IELTS, PTE or TOEFL. Some universities offer waivers based on your previous medium of instruction. Requirements are checked university by university.",
-    },
-    {
-      q: "Can I work while studying Pharmacy abroad?",
-      a: "Yes. Most popular destinations allow international students to work part-time during the course (usually 20 hours per week) and full-time during holidays, subject to visa conditions.",
-    },
-    {
-      q: "When should I start my application?",
-      a: "Starting 8–12 months before your intended intake gives you enough time for testing, shortlisting, documents, applications and visa preparation.",
-    },
-  ];
+  const faqs = (pharmacyData?.faq && pharmacyData.faq.length > 0)
+    ? pharmacyData.faq.map((f) => ({ q: f.question, a: f.answer }))
+    : [
+        {
+          q: "After Class 12, are Indian students able to pursue pharmacy studies in the United States?",
+          a: "Indeed. Pre-pharmacy routes and qualified PharmD programs are available to Indian students. While some universities offer structured entry pathways after high school, many professional programs require prerequisite undergraduate coursework prior to PharmD study.",
+        },
+        {
+          q: "What is the primary pharmacy degree in the United States?",
+          a: "In the United States, the primary professional degree for students aspiring to become pharmacists is the Doctor of Pharmacy (PharmD). Students interested in research and industry can also pursue degrees in pharmaceutical sciences.",
+        },
+        {
+          q: "After earning a BPharm in India, can I pursue a PharmD in the USA?",
+          a: "Yes, possibly. The university determines eligibility. Although prior coursework does not ensure exemptions or a shorter degree, some universities take international pharmacy graduates into consideration for admission or advanced standing.",
+        },
+        {
+          q: "How much does a pharmacist make in the United States?",
+          a: "The U.S. Bureau of Labor Statistics reports that in May 2025, the median yearly salary for pharmacists was $140,910. Location, experience, employer, and workplace all affect actual earnings.",
+        },
+        {
+          q: "Can Indian BPharm graduates work as pharmacists in the USA?",
+          a: "They may pursue U.S. pharmacist licensure, but an Indian BPharm degree does not automatically provide the right to practise. International graduates generally need to meet the FPGEC certification pathway, followed by applicable state licensing requirements.",
+        },
+        {
+          q: "How can Edu Hawk worldwide help me study Pharmacy abroad?",
+          a: "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities.",
+        },
+        {
+          q: "Which country is best for Pharmacy abroad?",
+          a: "There is no single best country. The right choice depends on your budget, academic profile, preferred course (B.Pharm / Pharm.D / M.Pharm), licensing pathway and long-term career plans. UK, Canada and Australia are currently the most popular among Indian students.",
+        },
+        {
+          q: "How much does it cost to study Pharmacy abroad?",
+          a: "Costs vary by country and university. Your total budget includes tuition, accommodation, living expenses, insurance, travel and visa costs. We share a realistic estimate before you apply.",
+        },
+        {
+          q: "Do I need IELTS or another English test?",
+          a: "Most universities in UK, Canada, Australia and USA ask for IELTS, PTE or TOEFL. Some universities offer waivers based on your previous medium of instruction. Requirements are checked university by university.",
+        },
+        {
+          q: "Can I work while studying Pharmacy abroad?",
+          a: "Yes. Most popular destinations allow international students to work part-time during the course (usually 20 hours per week) and full-time during holidays, subject to visa conditions.",
+        },
+        {
+          q: "When should I start my application?",
+          a: "Starting 8–12 months before your intended intake gives you enough time for testing, shortlisting, documents, applications and visa preparation.",
+        },
+      ];
 
   return (
     <div
@@ -518,12 +538,11 @@ const PharmacyAbroad = () => {
                 </span>{" "}
                 for Indian Students
               </h1>
-              <p className="text-base sm:text-lg text-white/70 max-w-xl mb-5 leading-relaxed">
-                Students interested in careers in pharmacy, pharmaceutical sciences, and healthcare frequently travel to the United States. Professional pharmacy education, laboratory training, clinical education, and research opportunities are all provided by American universities.
-              </p>
+
               <p className="text-base sm:text-lg text-white/70 max-w-xl mb-8 leading-relaxed">
-                Indian students must be aware of course options, eligibility, admission requirements, tuition costs, and pharmacist licensing before deciding to study pharmacy in the United States. The Doctor of Pharmacy (PharmD), which prepares students for pharmacist practices, is the primary professional degree.
+                Studying pharmacy in the United States provides international students with world-class pharmaceutical laboratory training, advanced clinical practice, and rigorous research opportunities across prestigious American universities.
               </p>
+
               <div className="flex flex-col sm:flex-row flex-wrap gap-3.5">
                 <a
                   href="#consult"

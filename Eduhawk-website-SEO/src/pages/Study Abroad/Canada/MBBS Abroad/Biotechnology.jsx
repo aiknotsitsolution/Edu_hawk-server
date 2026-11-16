@@ -20,8 +20,7 @@ const page = {
   "keywords": "Study Biotechnology in Canada, Biotechnology in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Indian Students Can Study Biotechnology in Canada",
   "heroParas": [
-    "Students interested in molecular biology, genetics, biomedical research, pharmaceutical development, and industrial applications of biological sciences are drawn to Canada for biotechnology courses in Canada. Programs that integrate scientific theory with laboratory practice, research, and technology-based learning are available in Canadian universities.",
-    "The key advantages for studying biotechnology in Canada are:"
+    "Students interested in molecular biology, genetics, biomedical research, pharmaceutical development, and industrial applications of biological sciences are drawn to Canada for biotechnology courses in Canada. Programs that integrate scientific theory with laboratory practice, research, and technology-based learning are available in Canadian universities."
   ],
   "overview": [
     "Students interested in molecular biology, genetics, biomedical research, pharmaceutical development, and industrial applications of biological sciences are drawn to Canada for biotechnology courses in Canada. Programs that integrate scientific theory with laboratory practice, research, and technology-based learning are available in Canadian universities.",

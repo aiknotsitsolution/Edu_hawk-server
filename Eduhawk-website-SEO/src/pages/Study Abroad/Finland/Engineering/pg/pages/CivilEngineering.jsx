@@ -23,10 +23,11 @@ const page = {
     "Master's in Civil Engineering in Finland, Civil Engineering in Finland for Indian Students, Study Civil Engineering in Finland, Civil Engineering Courses in Finland, Civil Engineering Universities in Finland, Civil Engineering in Finland Fees",
   introTitle: "Master’s in Civil Engineering in Finland for Indian Students",
   heroParas: [
-    "Finland is an attractive destination for Indian students interested in pursuing a Master’s in Civil Engineering abroad. Known for its advanced engineering education, sustainable construction practices, modern infrastructure, and research-oriented learning, Finland offers opportunities for students who want to build an international career in civil engineering.",
+    "Finland is an attractive destination for Indian students interested in pursuing a Master’s in Civil Engineering abroad. Known for its advanced engineering education, sustainable construction practices, modern infrastructure, and research-oriented learning, Finland offers opportunities for students who want to build an international career in civil engineering."
+  ],
+  overview: [
     "A Master’s in Civil Engineering in Finland helps students develop advanced knowledge in structural engineering, construction technology, infrastructure development, building materials, and sustainable design. With specialised study options and practical learning, students can prepare for careers in construction, infrastructure, structural design, project management, and engineering consultancy."
   ],
-  overview: [],
   level: "Postgraduate & Master's",
   crumb: "Engineering",
 

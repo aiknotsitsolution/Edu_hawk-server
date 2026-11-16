@@ -19,13 +19,10 @@ const page = {
   "keywords": "Study Language Courses in the UK, Language Courses in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Language Courses in the UK for Indian Students",
   "heroParas": [
-    "Language courses in the UK are a great option for students who want to study a foreign language, boost their career prospects, get ready for college or improve their English communication skills. The UK has a wide range of language programmes such as: English language courses, academic English, business English and specialist language training.",
-    "Benefits of studying languages in the UK",
-    "Immersive language learning allows students to engage with people from different backgrounds and apply English in real-life situations."
+    "Language courses in the UK are a great option for students who want to study a foreign language, boost their career prospects, get ready for college or improve their English communication skills. The UK has a wide range of language programmes such as: English language courses, academic English, business English and specialist language training."
   ],
   "overview": [
     "Language courses in the UK are a great option for students who want to study a foreign language, boost their career prospects, get ready for college or improve their English communication skills. The UK has a wide range of language programmes such as: English language courses, academic English, business English and specialist language training.",
-    "Benefits of studying languages in the UK",
     "Immersive language learning allows students to engage with people from different backgrounds and apply English in real-life situations."
   ],
   "level": "English Language Programs & Pre-sessional Pathways",

@@ -16,12 +16,12 @@ const page = {
   "slug": "business_hub",
   "title": "Business Management in Italy for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Business Management in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
-  "keywords": "Top 6 SEO Keywords",
+  "keywords": "Business Management in Italy, Study Business Management in Italy, Best Business Schools in Italy, Management Degrees in Italy, Business Management Fees in Italy",
   "introTitle": "Business Management in Italy for Indian Students",
-  "heroParas": [
-    "Yes. Indian students can apply to eligible Bachelor's programs after completing Class 12 or its equivalent qualification, subject to the academic, language and selection requirements of the university."
+  heroParas: [
+    "Business Management in Italy combines rigorous European academic standards with practical case studies, corporate internships, and entrepreneurial leadership across world-renowned Italian universities."
   ],
-  "overview": [
+  overview: [
     "Yes. Indian students can apply to eligible Bachelor's programs after completing Class 12 or its equivalent qualification, subject to the academic, language and selection requirements of the university."
   ],
   "level": "Undergraduate & Postgraduate",
@@ -145,19 +145,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Tuition fees vary according to the institution and program. Students should refer to official fee schedules and research scholarships or tuition discounts they may qualify for.",
-            "Top 6 SEO Keywords"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Business Management in Italy for Indian Students",
-            "Bachelor's in Business Management in Italy",
-            "Master's in Business Management in Italy",
-            "Business Management Courses in Italy",
-            "Best Business Management Schools in Italy",
-            "Business Management Admission in Italy"
+            "Tuition fees vary according to the institution and program. Students should refer to official fee schedules and research scholarships or tuition discounts they may qualify for."
           ]
         }
       ]
@@ -168,18 +156,40 @@ const page = {
       "title": "Italy Business Management Admission Process",
       "groups": [
         {
-          "t": "ul",
-          "items": [
-            "Select your degree level: Choose Bachelor's after Class 12 or Master's after an undergraduate degree.",
-            "Compare course content, language of instruction, tuition fees, duration, specializations. Shortlist universities.",
-            "Check Eligibility: Review the academic prerequisites, entrance exams and language requirements.",
-            "Gather your documents: Collect your academic transcripts, passport, language certificates, CV and a motivation letter if required.",
-            "Submit the application through the university's official admission portal before the deadline.",
-            "Complete the selection process: Appear for an interview, an entrance exam or submit any other documents required.",
-            "Accept admission and scholarships: Follow the institution's instructions for accepting the offer, enrollment and financial aid.",
-            "Complete visa formalities: Follow the Italian student-visa procedure relevant to you. Check whether pre-enrolment through Universitaly is required for your course."
-          ]
-        },
+        "t": "timeline",
+        "items": [
+                {
+                        "step": "1",
+                        "title": "Select Your Degree Level",
+                        "desc": "Choose Bachelor's after Class 12 or Master's after an undergraduate degree."
+                },
+                {
+                        "step": "2",
+                        "title": "Check Eligibility",
+                        "desc": "Review the academic prerequisites, entrance exams and language requirements."
+                },
+                {
+                        "step": "3",
+                        "title": "Gather Your Documents",
+                        "desc": "Collect your academic transcripts, passport, language certificates, CV and a motivation letter if required."
+                },
+                {
+                        "step": "4",
+                        "title": "Complete The Selection Process",
+                        "desc": "Appear for an interview, an entrance exam or submit any other documents required."
+                },
+                {
+                        "step": "5",
+                        "title": "Accept Admission And Scholarships",
+                        "desc": "Follow the institution's instructions for accepting the offer, enrollment and financial aid."
+                },
+                {
+                        "step": "6",
+                        "title": "Complete Visa Formalities",
+                        "desc": "Follow the Italian student-visa procedure relevant to you. Check whether pre-enrolment through Universitaly is required for your course."
+                }
+        ]
+},
         {
           "t": "p",
           "items": [
@@ -199,20 +209,6 @@ const page = {
             "In the national higher education system of Italy, you can get business and management degrees. A typical Bachelor's degree covers the basics of how businesses work. A university Master's degree develops more advanced skills in management and making strategic choices.",
             "Students need to know what the difference is between these qualifications:"
           ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Bachelor of Business Management: A grounding in management, accounting, economics, marketing and organizational operations.",
-            "Master's in Business Management: Builds advanced knowledge of leadership, strategy, international markets and organizational decision-making.",
-            "MBA (Master of Business Administration): A specialized professional management degree, usually aimed at candidates with some prior work experience. Different schools have different admission requirements and different lengths of time to complete the programs."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Graduates can continue their studies or find a job in Italy and abroad. The recognition of specific functions is subject to the qualification, the employer, the country of destination and any applicable professional requirements."
-          ]
         }
       ]
     },
@@ -226,53 +222,6 @@ const page = {
           "items": [
             "Graduates in Business Management can find jobs in consulting, marketing, finance, operations, human resources, retail, logistics and international trade.",
             "Career prospects after a Bachelor degree"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Trainee manager",
-            "Business Development Executive",
-            "Executive Marketing",
-            "Executive, Sales Account",
-            "Assistant HR",
-            "Operations Manager",
-            "Customer Success Associate",
-            "Business Analyst (Junior)"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Job opportunities with a Master's degree"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Business Analyst",
-            "Management Consultant",
-            "Manager Marketing",
-            "Manager Business Development",
-            "Operations Manager",
-            "Project Manager",
-            "HR Specialist",
-            "GLOBAL BUSINESS DEVELOPMENT SPECIALIST",
-            "Strategy Specialist",
-            "Entrepreneurship & Startup Management Professional"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Salary ranges in Italy (indicative)",
-            "These are not verified salary statistics or guarantyd employment outcomes, but rather broad illustrative gross annual estimates for career planning.",
-            "Stage of careerExample annual salaryApprox. INR equivalent:",
-            "Entry level€24,000-€32,000₹26.06 - ₹34.75 lakhs",
-            "Seasoned professional€32,000-€45,000₹34.75-₹ 48.87 Lakh",
-            "Senior or specialist professional€45,000-€65,000+₹48.87 - ₹70.59 lakh+ *",
-            "Conversions: INR - €1 &asymp; ₹108.60 Real wages depend on the position, city, employer, industry, language skills, experience and work authorization. Figures are gross, before tax and before deductions.",
-            "A degree alone isn't going to guaranty you a management position or a certain salary. Internships, communication skills, analytical ability, knowledge of business software and relevant work experience can make a graduate more competitive."
           ]
         }
       ]
@@ -330,7 +279,34 @@ const page = {
         }
       ]
     }
-  ]
+  ],
+  faqs: [
+    {
+        "q": "Can Indian students study Business Management in Italy?",
+        "a": "Yes. Indian students can apply to English-taught bachelor's and master's programmes in business and management across leading Italian public and private universities."
+    },
+    {
+        "q": "What is the duration of Business Management degrees in Italy?",
+        "a": "Bachelor's programmes (Laurea Triennale) take 3 years (180 ECTS), while Master's programmes (Laurea Magistrale) take 2 years (120 ECTS)."
+    },
+    {
+        "q": "What are the tuition fees for Business Management in Italy?",
+        "a": "Public universities charge between €1,000 and €4,000 per year, while private institutions such as Bocconi charge higher tuition with generous merit scholarships."
+    },
+    {
+        "q": "Is work experience required for Business Management master's in Italy?",
+        "a": "Most MSc in Management programmes do not require prior work experience, making them ideal for recent graduates."
+    },
+    {
+        "q": "Are DSU scholarships applicable for Business Management students?",
+        "a": "Yes. Eligible international students can receive regional DSU scholarships covering full tuition remission and student dining and accommodation allowances."
+    },
+    {
+        "q": "What are the post-study work options in Italy after graduation?",
+        "a": "Non-EU students graduating with an accredited master's or bachelor's degree can apply for a 12-month post-study job seeker permit in Italy."
+    }
+],
+  faqTitle: "Frequently Asked Questions About Business Management in Italy"
 };
 
 export default function BusinessManagementItaly() {

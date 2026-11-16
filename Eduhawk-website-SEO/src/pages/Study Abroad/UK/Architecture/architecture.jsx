@@ -19,14 +19,11 @@ const page = {
   "keywords": "Study Architecture in the UK, Architecture in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Architecture in the UK for Indian Students",
   "heroParas": [
-    "If you're looking to gain technical knowledge, creative design skills and an understanding of sustainable building practices studying Architecture in the UK is a good choice.",
-    "The UK has new architectural projects, creative urban developments, historic buildings and internationally recognized architecture schools.",
-    "The major benefits of studying architecture in the UK"
+    "If you're looking to gain technical knowledge, creative design skills and an understanding of sustainable building practices studying Architecture in the UK is a good choice."
   ],
   "overview": [
     "If you're looking to gain technical knowledge, creative design skills and an understanding of sustainable building practices studying Architecture in the UK is a good choice.",
-    "The UK has new architectural projects, creative urban developments, historic buildings and internationally recognized architecture schools.",
-    "The major benefits of studying architecture in the UK"
+    "The UK has new architectural projects, creative urban developments, historic buildings and internationally recognized architecture schools."
   ],
   "level": "BA / BArch / MArch Architecture (RIBA Accredited)",
   "crumb": "Design & Construction / Architecture",

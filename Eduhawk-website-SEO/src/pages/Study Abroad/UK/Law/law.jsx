@@ -19,13 +19,10 @@ const page = {
   "keywords": "Study Law in the UK, Law in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Law in the UK for Indian Students",
   "heroParas": [
-    "Students interested in a career in legal practice, corporate law, international law, human rights or public service should consider Studying Law in the UK. The UK is internationally recognized for its long tradition of law practice, its universities and its legal education system which attracts students from all over the world.",
-    "Main advantages of studying law in the UK",
-    "UK law degrees are recognized around the world and can be a passport to opportunities in legal practice, industry, government and academia."
+    "Students interested in a career in legal practice, corporate law, international law, human rights or public service should consider Studying Law in the UK. The UK is internationally recognized for its long tradition of law practice, its universities and its legal education system which attracts students from all over the world."
   ],
   "overview": [
     "Students interested in a career in legal practice, corporate law, international law, human rights or public service should consider Studying Law in the UK. The UK is internationally recognized for its long tradition of law practice, its universities and its legal education system which attracts students from all over the world.",
-    "Main advantages of studying law in the UK",
     "UK law degrees are recognized around the world and can be a passport to opportunities in legal practice, industry, government and academia."
   ],
   "level": "LLB (Bachelor of Laws) & LLM (Master of Laws)",

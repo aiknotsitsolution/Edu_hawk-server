@@ -21,8 +21,26 @@ const page = {
   description: "Study Master of Business Studies (MBS) in Australia for Indian students. Learn about top universities (ANU, Wollongong, UTS, QUT), fees, eligibility, and post-study opportunities.",
   keywords: "Study Master of Business Studies in Australia for Indian Students Study Business Studies in Australia: Best Universities and Fees Study Master's in Business in Australia with Scholarships Study Business Studies in Australia: Eligibility and Admission Requirements Study Business Management and Commerce in Australia for Indian Students Study Business Studies in Australia: Career Opportunities After Graduation Study Business Studies in Australia: IELTS and GMAT Requirements Study Business Studies in Australia: Admission Process and Student Visa",
   introTitle: "Indian Students Pursuing a Master of Business Studies in Australia",
-  heroParas: ["Developing knowledge of business operations, management, finance, marketing, organizational strategy, and decision-making is the main goal of the Master of Business Studies (MBS), a postgraduate-level business degree.","The Master of Business, Master of Commerce, Master of Management, and specialized business master's degrees are examples of Australian postgraduate programs that offer comparable business education to students interested in this sector."],
-  overview: ["These courses may incorporate case studies, research, group projects, business initiatives, and real-world industry applications with theoretical instruction.","Options for Related Postgraduate Courses:","Master of Business Studies, if applicable","Master of Business","Master's degree in Commerce","Master of Management","Master's degree in International Business","Master's degree in Business Analytics","Master's degree in Human Resource Management","Master's degree in Marketing","Master's degree in Finance","Master's Program in Project Management","The university determines the precise qualification that is granted. Before submitting an application, students should verify the official course title.","Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities."],
+  heroParas: [
+    "Developing knowledge of business operations, management, finance, marketing, organizational strategy, and decision-making is the main goal of the Master of Business Studies (MBS), a postgraduate-level business degree."
+  ],
+  overview: [
+    "The Master of Business, Master of Commerce, Master of Management, and specialized business master's degrees are examples of Australian postgraduate programs that offer comparable business education to students interested in this sector.",
+    "These courses may incorporate case studies, research, group projects, business initiatives, and real-world industry applications with theoretical instruction.",
+    "Options for Related Postgraduate Courses:",
+    "Master of Business Studies, if applicable",
+    "Master of Business",
+    "Master's degree in Commerce",
+    "Master of Management",
+    "Master's degree in International Business",
+    "Master's degree in Business Analytics",
+    "Master's degree in Human Resource Management",
+    "Master's degree in Marketing",
+    "Master's degree in Finance",
+    "Master's Program in Project Management",
+    "The university determines the precise qualification that is granted. Before submitting an application, students should verify the official course title.",
+    "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities."
+  ],
   level: "Postgraduate",
   crumb: "Business & Management",
 

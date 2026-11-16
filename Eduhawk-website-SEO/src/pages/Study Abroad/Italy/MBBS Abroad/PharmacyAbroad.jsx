@@ -18,10 +18,10 @@ const page = {
   "description": "Study Pharmacy in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
   "keywords": "",
   "introTitle": "1. Why Study Pharmacy in Italy?",
-  "heroParas": [
-    "A standard single-cycle Pharmacy degree in Italy generally takes five years and commonly carries 300 ECTS credits. Always confirm the duration and structure on the official programme page."
+  heroParas: [
+    "Pharmacy in Italy offers an in-depth 5-year single-cycle master's curriculum covering medicinal chemistry, pharmacology, clinical toxicology, and European drug licensing regulations."
   ],
-  "overview": [
+  overview: [
     "A standard single-cycle Pharmacy degree in Italy generally takes five years and commonly carries 300 ECTS credits. Always confirm the duration and structure on the official programme page."
   ],
   "level": "Undergraduate & Postgraduate",
@@ -147,17 +147,6 @@ const page = {
           "items": [
             "Do not assume automatic eligibility. Students should check the Pharmacy Council of India's current rules and the applicable recognition and registration requirements before enrolling. The qualification, curriculum and other conditions may affect eligibility."
           ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Pharmacy in Italy",
-            "Study Pharmacy in Italy",
-            "Pharmacy Courses in Italy",
-            "Pharmacy Universities in Italy",
-            "Pharmacy Fees in Italy",
-            "Pharmacy in Italy for Indian Students"
-          ]
         }
       ]
     },
@@ -171,56 +160,6 @@ const page = {
           "items": [
             "The application process for Pharmacy in Italy for Indian Students generally includes the following steps:"
           ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Shortlist universities: Compare the available Pharmacy degrees, teaching language, curriculum and location.",
-            "Confirm eligibility: Check your school qualifications and any required science subjects.",
-            "Check the selection process: Verify whether an entrance test, ranking or other admission procedure applies.",
-            "Prepare documents: Organise your passport, academic certificates, transcripts and language evidence.",
-            "Submit the application: Follow the official university portal and meet the published deadline.",
-            "Complete selection requirements: Take the required examination or follow the university's selection instructions.",
-            "Complete pre-enrolment: Follow the applicable procedures for international students, including Universality where required.",
-            "Arrange your visa: Review the current instructions of the competent Italian consulate.",
-            "Plan your arrival: Arrange accommodation, insurance and any remaining enrolment requirements."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Edu-Hawk Worldwide can assist students with university shortlisting, document preparation and understanding the application process. Admission decisions, visa decisions and official fee assessments remain the responsibility of the relevant institutions and authorities."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "licensing",
-      "eyebrow": "Licensing & Standards",
-      "title": "Licensing and Professional Recognition",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Pharmacy is a regulated profession. Students should distinguish between earning an academic degree in pharmaceutical sciences and obtaining a qualification that permits professional practice as a pharmacist.",
-            "Working as a Pharmacist in Italy",
-            "Professional requirements are determined by qualification and the appropriate Italian regulations. Graduates should check the current professional eligibility requirements, as well as any practical training or examinations required, and register with the appropriate professional body.",
-            "The Italian Ministry of Health also offers a formal recognition mechanism for pharmacy qualifications gained outside of the EU. This approach may necessitate special documents and may not always guaranty recognition.",
-            "Official information: https://www.salute.gov.it/new/en/servizi-online/profs-rtenc-xd1f/pharmacist-recognition-professional-qualification-authorising/",
-            "Returning to India After Pharmacy in Italy",
-            "Students wishing to practice in India should check the Pharmacy Council of India's and other relevant agencies' current rules before enrolling. Recognition is based on qualification and appropriate rules. Do not assume that an international degree immediately qualifies for registration in India.",
-            "Before choosing a course, confirm:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "The specific qualification awarded.",
-            "Whether the program is intended to prepare graduates for pharmacist registration.",
-            "Professional requirements in Italy.",
-            "Recognition and registration requirements in India, if applicable.",
-            "Additional exams, training, or documents may be necessary."
-          ]
         }
       ]
     },
@@ -233,28 +172,6 @@ const page = {
           "t": "p",
           "items": [
             "Graduates with the necessary qualification may pursue a variety of career paths, subject to professional recognition, registration, and employment criteria."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Possible professional pathways include:",
-            "Community pharmacies are subject to license.",
-            "Hospital pharmacies, according to applicable standards.",
-            "Pharmaceutical production.",
-            "Drug development and pharmaceutical research.",
-            "Quality control and assurance.",
-            "Regulatory Affairs.",
-            "Clinical research.",
-            "Pharmaceutical sales and product management.",
-            "Biotechnology and Life Sciences.",
-            "Academic research and continuing education."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Career options are determined by the degree, practical experience, language skills, location, and professional needs. A pharmacy degree does not guaranty employment, pay, or authorization to practice in Italy or another nation."
           ]
         }
       ]
@@ -294,7 +211,34 @@ const page = {
         }
       ]
     }
-  ]
+  ],
+  faqs: [
+    {
+        "q": "Can Indian students study Pharmacy in Italy in English?",
+        "a": "Yes. Renowned institutions such as University of Rome Tor Vergata and University of Bologna offer English-taught 5-year single-cycle degrees in Pharmacy."
+    },
+    {
+        "q": "What is the duration of a Pharmacy degree in Italy?",
+        "a": "Pharmacy (Farmacia) is a 5-year single-cycle master's degree (Laurea Magistrale a Ciclo Unico) totaling 300 ECTS credits."
+    },
+    {
+        "q": "What are the tuition fees for Pharmacy in Italy?",
+        "a": "Public universities charge between €1,000 and €4,000 annually, with need-based DSU regional scholarships available to waive tuition fees."
+    },
+    {
+        "q": "What entrance examination is required for admission?",
+        "a": "Applicants generally take the English TOLC-F test assessing chemistry, biology, physics, mathematics, and logic."
+    },
+    {
+        "q": "Does the curriculum include practical pharmacy training?",
+        "a": "Yes. The program includes a mandatory 6-month professional internship in a community or hospital pharmacy before graduation."
+    },
+    {
+        "q": "Can graduates practice as licensed pharmacists in Europe?",
+        "a": "Yes. The Italian Pharmacy degree fulfills EU Directive 2005/36/EC, enabling graduates to qualify for European pharmacist registration."
+    }
+],
+  faqTitle: "Frequently Asked Questions About Pharmacy in Italy"
 };
 
 export default function PharmacyAbroadItaly() {

@@ -18,10 +18,10 @@ const page = {
     "Master’s in Automobile Engineering in Finland, Automobile Engineering in Finland for Indian Students, Study Automobile Engineering in Finland, Automotive Engineering Universities in Finland, Automobile Engineering Courses in Finland Fees",
   introTitle: "Master’s in Automobile Engineering in Finland for Indian Students",
   heroParas: [
-    "Finland is an attractive destination for students who want to pursue advanced engineering education in a technology-driven environment. With its focus on automotive technologies, sustainable mobility, vehicle systems, and industrial innovation, Finland offers opportunities for students interested in developing their engineering careers.",
-    "A **Master’s in Automobile Engineering in Finland** helps students explore advanced automotive technologies, vehicle engineering, automotive systems, mobility solutions, and engineering management."
+    "Finland is an attractive destination for students who want to pursue advanced engineering education in a technology-driven environment. With its focus on automotive technologies, sustainable mobility, vehicle systems, and industrial innovation, Finland offers opportunities for students interested in developing their engineering careers."
   ],
   overview: [
+    "A **Master’s in Automobile Engineering in Finland** helps students explore advanced automotive technologies, vehicle engineering, automotive systems, mobility solutions, and engineering management.",
     "For Indian students planning to study abroad, Finland offers engineering education, practical learning opportunities, and exposure to international technology industries. Students can explore automotive-related programmes that focus on vehicle technology, engineering development, industrial systems, and sustainable mobility.",
     "Edu-Hawk Worldwide helps students understand the study abroad process, compare suitable automotive engineering programmes, review admission criteria, and prepare their applications for studying in Finland."
   ],

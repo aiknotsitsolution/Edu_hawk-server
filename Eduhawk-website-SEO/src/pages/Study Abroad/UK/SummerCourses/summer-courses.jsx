@@ -19,14 +19,11 @@ const page = {
   "keywords": "Study Summer Courses in the UK, Summer Courses in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Summer Courses in the UK for Indian Students",
   "heroParas": [
-    "Students who wish to acquire new skills, improve their English Study academic interests and experience British culture in the summer can take advantage of a great opportunity to attend summer courses in the UK.",
-    "Short-term programmes are offered in a wide range of subjects from UK universities, colleges and specialist education providers.",
-    "The main benefits of taking summer courses in the UK"
+    "Students who wish to acquire new skills, improve their English Study academic interests and experience British culture in the summer can take advantage of a great opportunity to attend summer courses in the UK."
   ],
   "overview": [
     "Students who wish to acquire new skills, improve their English Study academic interests and experience British culture in the summer can take advantage of a great opportunity to attend summer courses in the UK.",
-    "Short-term programmes are offered in a wide range of subjects from UK universities, colleges and specialist education providers.",
-    "The main benefits of taking summer courses in the UK"
+    "Short-term programmes are offered in a wide range of subjects from UK universities, colleges and specialist education providers."
   ],
   "level": "Short-term Summer School & Academic Bootcamps",
   "crumb": "Short Programs / Summer Courses",

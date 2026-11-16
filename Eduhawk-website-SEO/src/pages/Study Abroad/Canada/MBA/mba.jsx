@@ -20,8 +20,7 @@ const page = {
   "keywords": "Study MBA in Canada, MBA in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Indian students can pursue an MBA in Canada.",
   "heroParas": [
-    "A postgraduate business degree called a Master of Business Administration (MBA) is intended to enhance leadership, management, strategic thinking, and decision-making abilities. Students who wish to prepare for leadership or management positions and obtain international business exposure are drawn to Canada.",
-    "Full-time, part-time, executive, accelerated, and specialized MBA programs are among the various MBA programs in Canada offered by Canadian business schools. Case studies, group projects, presentations, simulations, internships, and industry interaction may all be incorporated into the curriculum."
+    "A postgraduate business degree called a Master of Business Administration (MBA) is intended to enhance leadership, management, strategic thinking, and decision-making abilities. Students who wish to prepare for leadership or management positions and obtain international business exposure are drawn to Canada."
   ],
   "overview": [
     "A postgraduate business degree called a Master of Business Administration (MBA) is intended to enhance leadership, management, strategic thinking, and decision-making abilities. Students who wish to prepare for leadership or management positions and obtain international business exposure are drawn to Canada.",
@@ -216,9 +215,9 @@ const page = {
           "t": "ul",
           "items": [
             "A current curriculum vitae or resume Work history Specifics of one's professional duties",
-            "Proof of job experience, upon request ### Documents for Applications",
+            "Proof of job experience, upon request",
             "Essays or a statement of purpose Recommendation letters Results from the GMAT or GRE, if necessary",
-            "Test results in English, if necessary Details of the passport The application cost ### Interview"
+            "Test results in English, if necessary Details of the passport The application cost"
           ]
         },
         {
@@ -315,7 +314,7 @@ const page = {
             "Step 9: Examine Immigration Requirements",
             "To find out which study permit requirements apply to your situation, visit the official Immigration, Refugees and Citizenship Canada (IRCC) website.",
             "Step 10: Make Arrival Plans",
-            "After confirming your admittance and any necessary immigration processes, make travel, lodging, insurance, and financial preparations.#8. MBA Recognition, Accreditation, and Study Permit Issues"
+            "After confirming your admittance and any necessary immigration processes, make travel, lodging, insurance, and financial preparations."
           ]
         }
       ]
@@ -331,8 +330,8 @@ const page = {
             "Accreditation of Business Schools",
             "Certain business schools are accredited by organizations like AMBA, EQUIS, or AACSB. Although they are not always necessary, these accreditations could be helpful benchmarks. Check any purported accreditation with the appropriate accrediting body.",
             "Recognition of Degrees",
-            "Verify the precise degree title, curriculum, graduation criteria, and issuing institution. The recipient employer, university, or professional association may decide whether to grant recognition for employment or additional education.## Study Permit for Canada",
-            "International students should confirm that the program and university they have chosen comply with the relevant study permit requirements. Permit approval is not guaranteed by a letter of acceptance alone.#9. Pay and Employment Prospects in Canada Following an MBA"
+            "Verify the precise degree title, curriculum, graduation criteria, and issuing institution. The recipient employer, university, or professional association may decide whether to grant recognition for employment or additional education.",
+            "International students should confirm that the program and university they have chosen comply with the relevant study permit requirements. Permit approval is not guaranteed by a letter of acceptance alone."
           ]
         }
       ]
@@ -402,8 +401,8 @@ const page = {
           "items": [
             "A certificate of bachelor's degree Official transcripts of education",
             "If requested, a grading scale",
-            "Evaluation of credentials, if necessary## Expert Documents",
-            "A current curriculum vitae or resume Details of employment Letters of work experience, upon request When applicable, professional accomplishments or a portfolio## Documents for Applications",
+            "Evaluation of credentials, if necessary",
+            "A current curriculum vitae or resume Details of employment Letters of work experience, upon request When applicable, professional accomplishments or a portfolio",
             "Essays for applications or statements of purpose Recommendation letters Results from the GMAT or GRE, if necessary",
             "Test results in English, if necessary A passport - Receipt for the application fee Immigration Records, If Relevant",
             "A letter of acceptance Evidence of funds Examine the application materials for permits.",
@@ -442,7 +441,7 @@ const page = {
             },
             {
               "q": "How can Edu Hawk worldwide Consultancy help me study abroad?",
-              "a": "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities. Study MBA in Canada for Indian StudentsBest Universities for MBA in CanadaMBA Courses in Canada for International StudentsMBA Eligibility in CanadaMBA Admission Requirements in CanadaMBA Fees in Canada for Indian StudentsMBA Scholarships in Canada for International StudentsMBA in Canada Without GMATMBA in Canada Without Work ExperienceMBA Specialisations in CanadaMBA Course Duration in CanadaMBA Admission Process in CanadaCareer Opportunities After MBA in CanadaMBA Salary in Canada for International StudentsCanadian Study Permit Requirements for MBA Students"
+              "a": "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities."
             }
           ]
         }

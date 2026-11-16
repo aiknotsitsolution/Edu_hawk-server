@@ -19,9 +19,7 @@ const page = {
   "keywords": "Study Dentistry in the UK, Dentistry in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "DENTISTRY IN THE UK",
   "heroParas": [
-    "The prevention, diagnosis, and treatment of illnesses and disorders affecting the teeth, gums, mouth and other structures are the main goals of the medical field of dentistry. Through examinations, preventive care, restoration procedures, and treatment planning, dentists assist patients in maintaining oral health.",
-    "Students considering professional dental education frequently travel to the United Kingdom. Dental schools in the UK offer structured academic and clinical training programs that foster the development of scientific knowledge, practical skills, patient communication, and professional accountability.",
-    "Edu Hawk Worldwide Consultancy helps students understand university admissions requirements, explore  foreign study options , and prepare for their international education adventure."
+    "The prevention, diagnosis, and treatment of illnesses and disorders affecting the teeth, gums, mouth and other structures are the main goals of the medical field of dentistry. Through examinations, preventive care, restoration procedures, and treatment planning, dentists assist patients in maintaining oral health."
   ],
   "overview": [
     "The prevention, diagnosis, and treatment of illnesses and disorders affecting the teeth, gums, mouth and other structures are the main goals of the medical field of dentistry. Through examinations, preventive care, restoration procedures, and treatment planning, dentists assist patients in maintaining oral health.",

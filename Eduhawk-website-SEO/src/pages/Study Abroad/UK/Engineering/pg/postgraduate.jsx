@@ -19,9 +19,7 @@ const page = {
   "keywords": "Study Postgraduate Engineering in the UK, Postgraduate Engineering in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Study Engineering in the United Kingdom",
   "heroParas": [
-    "Graduates of postgraduate engineering programs in the UK can enhance their technical expertise, focus on a specific engineering field, and acquire sophisticated analytical, design, research, and problem-solving abilities.",
-    "Postgraduate engineering qualifications in mechanical, civil, electrical, chemical, aerospace, biomedical, automotive, electronic, software, and other engineering fields are available at UK institutions. Students may learn advanced engineering theory, computer-based modeling, industrial applications, laboratory techniques, research methodologies, and engineering project management, depending on the curriculum.",
-    "With proper planning and assistance, Edu Hawk Worldwide Consultancy helps students understand university admission requirements, investigate international study possibilities, and prepare for the overseas education journey."
+    "Graduates of postgraduate engineering programs in the UK can enhance their technical expertise, focus on a specific engineering field, and acquire sophisticated analytical, design, research, and problem-solving abilities."
   ],
   "overview": [
     "Graduates of postgraduate engineering programs in the UK can enhance their technical expertise, focus on a specific engineering field, and acquire sophisticated analytical, design, research, and problem-solving abilities.",

@@ -22,13 +22,10 @@ const page = {
   "keywords": "Study Nursing in the UK, Nursing in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Study Nursing in the UK",
   "heroParas": [
-    "The UK has a good reputation for nursing education due to its quality healthcare education, excellent clinical facilities and chances to gain practical experience. Students acquire essential patient-care skills and experience working in hospitals and community health care settings.",
-    "Main advantages are:",
-    "Respected nursing education in the world Clinical placements"
+    "The UK has a good reputation for nursing education due to its quality healthcare education, excellent clinical facilities and chances to gain practical experience. Students acquire essential patient-care skills and experience working in hospitals and community health care settings."
   ],
   "overview": [
     "The UK has a good reputation for nursing education due to its quality healthcare education, excellent clinical facilities and chances to gain practical experience. Students acquire essential patient-care skills and experience working in hospitals and community health care settings.",
-    "Main advantages are:",
     "Respected nursing education in the world Clinical placements"
   ],
   "level": "BSc & MSc Nursing",

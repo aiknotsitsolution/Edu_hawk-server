@@ -14,10 +14,10 @@ const page = {
   "keywords": "Hospitality Management in USA for Indian Students, Best Universities for Hospitality Management in USA, Hospitality Management Courses in USA, Hospitality Management Admission Requirements in USA, Hospitality Management Fees in USA for Indian Students, Hospitality Management Scholarships for International Students, Hospitality Management Eligibility After Class 12, Bachelor's in Hospitality Management in USA, Master's in Hospitality Management in USA, Hotel Management Courses in USA for Indian Students, Hospitality Management Specializations in USA, Hospitality Management Course Duration in USA, Career Opportunities After Hospitality Management Degree, Hospitality Management Without Work Experience in USA, USA Student Visa for Indian Hospitality Management Students",
   "introTitle": "Hospitality Management in USA",
   "heroParas": [
-    "Hospitality Management in the USA provides students with the opportunity to develop business, leadership, customer service and operational management skills for the global hospitality industry. The **United States** provides a variety of programs in hotel management, tourism, restaurant operations, event planning, resort management and hospitality business leadership.",
-    "Depending on your academic background and career goals, you can choose from undergraduate degrees, postgraduate programs, associate degrees, professional certificates and doctoral studies."
+    "Hospitality Management in the USA provides students with the opportunity to develop business, leadership, customer service and operational management skills for the global hospitality industry through comprehensive programs across world-class hotels, resorts, and tourism organizations."
   ],
-  "overview": [],
+  "overview": [
+    "Depending on your academic background and career goals, you can choose from undergraduate degrees, postgraduate programs, associate degrees, professional certificates and doctoral studies.",],
   "level": "UG & PG",
   "crumb": "Courses",
   "sections": [

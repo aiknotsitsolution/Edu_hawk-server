@@ -13,468 +13,353 @@ import uniImg2 from "../../../../Images/Abroad/France/SummerCourses/Sorbonne_Uni
 import uniImg3 from "../../../../Images/Abroad/France/SummerCourses/SKEMA_Business_School.webp";
 
 const page = {
-  "name": "Summer Courses in France",
-  "country": "France",
-  "slug": "summer-courses",
-  "title": "Study Summer Courses in France for Indian Students | Edu-Hawk Worldwide",
-  "description": "Complete guide to Summer Courses in France for Indian students: Top French universities, admission requirements, tuition fees (€255 – €3,950 / year public), scholarships, and 2-year post-study work visa.",
-  "keywords": "Study Summer Courses in France for Indian Students, Summer Courses in France for International Students, Short-Term Summer Study Programmes in France, Best Universities for Summer Courses in France, French Language Summer Courses in France, Business and Management Summer Schools in France, Engineering and Technology Summer Courses in France, Summer Courses in Artificial Intelligence and Computer Science in France, Summer Course Eligibility Requirements for Indian Students, Summer Course Admission Requirements in France, Cost of Studying Summer Courses in France, Summer Course Tuition Fees and Accommodation Packages in France, Summer School Scholarships in France for International Students, ECTS Credits and Certificates for Summer Courses in France, Summer Course Application Process in France",
-  "introTitle": "SUMMER COURSES IN FRANCE",
-  "heroParas": [
-    "**Summer courses in France**  provide a wonderful opportunity to get international academic exposure, enhance professional skills, learn French and experience French culture during the summer break. French universities, business schools, language centers and specialized institutions offer a wide choice of **Short-term summer programmes** in academic, professional and cultural subjects.",
-    "These programs can vary from one week to several weeks in length depending on the institution, course structure and subject area. They are suitable for undergraduate students, postgraduate students, researchers, recent graduates and, in some cases, working professionals.",
-    "Explore these opportunities and understand the requirements of studying abroad through **Edu Hawk worldwide study abroad guidance**",
-    "**"
+  name: "Summer Courses in France",
+  country: "France",
+  slug: "summer-courses",
+  title: "Study Summer Courses in France for Indian Students | Edu-Hawk Worldwide",
+  description: "Complete guide to Summer Courses in France for Indian students: Top summer schools (Paris 1 Panthéon-Sorbonne, Sorbonne Université, SKEMA), short-term study tracks (Business, AI, Law, French FLE), ECTS credits, fees, and short-stay visa guidance.",
+  keywords: "Study Summer Courses in France for Indian Students, Summer Courses in France for International Students, Short-Term Summer Study Programmes in France, Best Universities for Summer Courses in France, French Language Summer Courses in France, Business and Management Summer Schools in France, Engineering and Technology Summer Courses in France, Summer Courses in Artificial Intelligence and Computer Science in France, Summer Course Eligibility Requirements for Indian Students, Summer Course Admission Requirements in France, Cost of Studying Summer Courses in France, Summer Course Tuition Fees and Accommodation Packages in France, Summer School Scholarships in France for International Students, ECTS Credits and Certificates for Summer Courses in France, Summer Course Application Process in France",
+  introTitle: "SUMMER COURSES IN FRANCE",
+  heroParas: [
+    "Summer courses in France offer Indian students an intensive academic and cultural experience, delivering high-impact short-term certifications (with transferable ECTS credits) across world-renowned French universities, Grandes Écoles, and culinary academies."
   ],
-  "overview": [
-    "**Summer courses in France**  provide a wonderful opportunity to get international academic exposure, enhance professional skills, learn French and experience French culture during the summer break. French universities, business schools, language centers and specialized institutions offer a wide choice of **Short-term summer programmes** in academic, professional and cultural subjects.",
-    "These programs can vary from one week to several weeks in length depending on the institution, course structure and subject area. They are suitable for undergraduate students, postgraduate students, researchers, recent graduates and, in some cases, working professionals.",
-    "Explore these opportunities and understand the requirements of studying abroad through **Edu Hawk worldwide study abroad guidance**",
-    "**"
+  overview: [
+    "Summer courses in France provide an exceptional opportunity for Indian undergraduate and postgraduate students, researchers, and professionals to gain prestigious international academic exposure, explore emerging disciplines, and experience French cultural life during the summer holiday. Leading universities, business schools, engineering institutes, and culinary academies offer world-class short-term summer programs in English and French.",
+    "Programs range from intensive 1-week masterclasses to 8-week comprehensive summer schools across disciplines including International Business & Luxury Brand Management, AI & Data Science, European Law & Human Rights, French Language Immersion (FLE), Fashion & Arts, and Gastronomy & Hospitality. Many summer schools award official European Credit Transfer and Accumulation System (ECTS) credits transferable to students' home degrees.",
+    "Through EduHawk Worldwide's dedicated summer study advisory, Indian students receive strategic assistance in course selection, university application submission, Campus France guidance, short-stay Schengen visa filing, campus accommodation booking, and credit transfer verification."
   ],
-  "level": "Short-Term Certificate & Summer School Programmes",
-  "crumb": "Programs / Summer Courses",
-  "stats": [
+  level: "Short-Term Certificate & Summer School Programmes (ECTS Accredited)",
+  crumb: "Programs / Summer Courses",
+  stats: [
     {
-      "label": "Degree Choices",
-      "value": "Short-Term Certificate & Summer School Programmes"
+      label: "Program Formats",
+      value: "Intensive Summer Schools & Workshops"
     },
     {
-      "label": "Course Duration",
-      "value": "3 to 5 Years (Licence / Diplôme d'Ingénieur)"
+      label: "Course Duration",
+      value: "1 to 8 Weeks (June – August)"
     },
     {
-      "label": "Top Institutions",
-      "value": "Paris 1 Panthéon, Sorbonne Universite"
+      label: "Top Institutions",
+      value: "Paris 1 Panthéon-Sorbonne, Sorbonne Université, SKEMA"
     },
     {
-      "label": "Post-Study Work",
-      "value": "2-Year APS / Autorisation Provisoire de Séjour"
+      label: "Academic Recognition",
+      value: "Official Certificate & Transferable ECTS Credits (2–10 ECTS)"
     }
   ],
-  "sections": [
+  sections: [
     {
-      "slot": "why",
-      "eyebrow": "Why Study in France",
-      "title": "1. Paris 1 Panthéon-Sorbonne University -** Suitable for students researching short academic programmes in areas such as law, economics and related social sciences.",
-      "groups": [
+      slot: "why",
+      eyebrow: "Distinctive Advantages",
+      title: "Why Study Summer Courses in France?",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "**"
+          t: "p",
+          items: [
+            "Summer schools in France combine rigorous academic coursework with unforgettable cultural immersion. Studying in France during the summer months allows students to explore specialized subjects, build a global network, and enhance their academic CV without committing to a full multi-year degree program.",
+            "Key benefits of attending a summer program in France include:"
+          ]
+        },
+        {
+          t: "bullets",
+          items: [
+            "Short-Term High-Impact Learning: Master emerging fields (such as Luxury Management, AI Ethics, or European Competition Law) in intensive 2-to-6 week modular formats.",
+            "Global Academic Networking: Learn alongside international students, distinguished university professors, and corporate executives from over 50 countries.",
+            "Transferable University ECTS Credits: Most university summer schools award official European credits (typically 2 to 10 ECTS) eligible for transfer to Indian or foreign home universities.",
+            "Curated Cultural Immersion: Curricula incorporate guided excursions to iconic cultural landmarks, world-class museums (Louvre, Musée d'Orsay), and multinational corporate headquarters.",
+            "Testbed for Master's & PhD Aspirations: Experience French campus pedagogy, meet prospective faculty supervisors, and evaluate French student life before committing to a full degree.",
+            "Streamlined Short-Stay Visa Process: Indian students travel on a standard short-stay Schengen visa (under 90 days), with simplified document processing and no lengthy residence permit formalities."
           ]
         }
       ]
     },
     {
-      "slot": "courses",
-      "eyebrow": "Degrees & Specializations",
-      "title": "2. Sorbonne Universite -** Students can explore summer schools and thematic programmes in science, humanities, health-related subjects and other specialised areas.",
-      "groups": [
+      slot: "courses",
+      eyebrow: "Diverse Academic Fields",
+      title: "Summer Course Tracks & Subjects in France",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "**"
+          t: "p",
+          items: [
+            "French summer schools cater to a wide spectrum of academic interests, taught primarily in English with optional French language electives."
+          ]
+        },
+        {
+          t: "h4",
+          items: ["Business, Management & Luxury Strategy"]
+        },
+        {
+          t: "p",
+          items: [
+            "Offered by top-ranked French Grandes Écoles, these programs focus on global commercial strategy, innovation, and France's world-leading luxury sector."
+          ]
+        },
+        {
+          t: "bullets",
+          items: [
+            "Key Modules: Luxury Brand Management & Haute Couture Marketing, International Business Strategy, Cross-Border Entrepreneurship, Fintech & Digital Marketing, and Sustainable Finance."
+          ]
+        },
+        {
+          t: "h4",
+          items: ["Engineering, Technology & Data Science"]
+        },
+        {
+          t: "p",
+          items: [
+            "Designed for STEM students seeking exposure to advanced French technological research and engineering practices."
+          ]
+        },
+        {
+          t: "bullets",
+          items: [
+            "Key Modules: Artificial Intelligence & Machine Learning, Data Analytics, Green Engineering & Circular Economy, Marine Technology, Robotics & Automation, and Renewable Energy."
+          ]
+        },
+        {
+          t: "h4",
+          items: ["Law, Social Sciences & International Relations"]
+        },
+        {
+          t: "p",
+          items: [
+            "Explores France's central role in European and global governance, international arbitration, and human rights treaties."
+          ]
+        },
+        {
+          t: "bullets",
+          items: [
+            "Key Modules: Public International Law, European Union Institutions & Single Market Regulation, International Commercial Arbitration (ICC focus), Human Rights Jurisprudence, and Global Geopolitics."
+          ]
+        },
+        {
+          t: "h4",
+          items: ["Arts, Fashion, Gastronomy & French Language"]
+        },
+        {
+          t: "bullets",
+          items: [
+            "French as a Foreign Language (FLE): Intensive speaking, listening, and grammar bootcamps for beginner (A1) to advanced (C1) learners.",
+            "Fashion & Creative Industries: Fashion design studios, textile innovation, and museum curatorial studies in Paris.",
+            "Gastronomy & Culinary Arts: Professional workshops in classic French culinary techniques, pastry arts, and wine terroir management (FERRANDI Paris, Le Cordon Bleu)."
           ]
         }
       ]
     },
     {
-      "slot": "unis",
-      "eyebrow": "Top Institutions in France",
-      "title": "3. SKEMA Business School -** A potential option for students researching short courses related to business, management and international business. Confirm whether a particular summer programme is offered for your intended year.",
-      "groups": [
+      slot: "unis",
+      eyebrow: "Premier Summer Institutions",
+      title: "Top Universities for Summer Programs in France",
+      unis: [
         {
-          "t": "p",
-          "items": [
-            "**"
+          name: "Paris 1 Panthéon-Sorbonne University",
+          city: "Paris",
+          state: "Île-de-France",
+          desc: "Set in the historic heart of the Latin Quarter, Paris 1 Panthéon-Sorbonne offers prestigious summer programs in European Law, International Economics, Political Science, and Philosophy, blending academic rigor with Parisian cultural immersion.",
+          img: uniImg1
+        },
+        {
+          name: "Sorbonne Université",
+          city: "Paris",
+          state: "Île-de-France",
+          desc: "A global powerhouse in sciences and humanities, Sorbonne Université hosts world-renowned thematic summer schools in Artificial Intelligence, Environmental Sciences, French Literature, and Cultural Heritage taught by leading research scientists.",
+          img: uniImg2
+        },
+        {
+          name: "SKEMA Business School",
+          city: "Paris / Sophia Antipolis",
+          state: "French Riviera & Paris",
+          desc: "SKEMA's international summer school delivers top-tier courses in Global Luxury Management, Digital Marketing, AI for Business, and Entrepreneurship with campuses on the French Riviera and in metropolitan Paris.",
+          img: uniImg3
+        }
+      ],
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Other renowned French institutions offering distinguished summer schools include HEC Paris, Sciences Po Paris, École Polytechnique, ESSEC Business School, and FERRANDI Paris."
           ]
         }
       ]
     },
     {
-      "slot": "eligibility",
-      "eyebrow": "Academic & Language Criteria",
-      "title": "4. Eligibility to Study Summer Courses in France**",
-      "groups": [
+      slot: "eligibility",
+      eyebrow: "Admissions Criteria",
+      title: "Eligibility Requirements for Summer Programs in France",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "**Summer course eligibility requirements in France** depend on the programme's academic level, subject, duration and intended participants.",
-            "**Undergraduate Students**"
+          t: "p",
+          items: [
+            "Summer course eligibility is flexible and designed to welcome motivated international students and working professionals."
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "* Many summer schools accept undergraduate students currently enrolled at recognised institutions.",
-            "* Some programmes accept applicants who have completed secondary school.",
-            "* Other programmes require previous university-level study.",
-            "* Academic transcripts or proof of current enrollment may be requested."
-          ]
+          t: "h4",
+          items: ["Undergraduate & Postgraduate Students"]
         },
         {
-          "t": "p",
-          "items": [
-            "**Postgraduate Students**"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "* Master's students may apply for programmes related to their specialisation.",
-            "* Popular subject areas include business, engineering, law, economics and scientific research.",
-            "* Advanced courses may require previous coursework, relevant experience or a particular academic background."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "**Doctoral Students and Researchers**",
-            "Research-oriented summer schools may be designed for doctoral candidates, postdoctoral researchers or master's students preparing for research.",
-            "Some programmes may require a research proposal or a recommendation letter from an academic supervisor.",
-            "**Language Course Participants**"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "* French-language summer courses may accept beginners without previous French qualifications.",
-            "* Specialised academic courses taught in French or English may require proof of proficiency in the relevant language.",
-            "* Students should check the minimum language level specified by the institution."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "**General Eligibility Considerations**",
-            "Applicants may need to meet the following conditions:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "* Minimum age specified by the institution.",
-            "* Required level of education or current student status.",
-            "* Relevant academic background, where applicable.",
-            "* French or English language proficiency, if required.",
-            "* Availability for the complete programme.",
-            "* Valid passport and appropriate immigration documentation."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Meeting the general eligibility conditions does not guarantee admission, as some programmes have limited places.",
-            "**"
+          t: "bullets",
+          items: [
+            "Academic Standing: Enrolled undergraduate students (completed at least 1 or 2 semesters), graduate students, or recent degree holders from a recognized university.",
+            "Minimum Age: Minimum 18 years of age at the start of the program (select pre-college summer programs accept ages 16–17).",
+            "Academic Background: General summer schools accept students from any academic major; advanced technical or law tracks may require relevant prior coursework.",
+            "English Language Proficiency: For English-taught programs, proof of English proficiency (IELTS 6.0+, TOEFL 75+, or an official English medium of instruction certificate from your home college).",
+            "French Proficiency (if applicable): French tracks require evidence of the specified CEFR language level (e.g., DELF B1 or B2)."
           ]
         }
       ]
     },
     {
-      "slot": "requirements",
-      "eyebrow": "Application Checklist",
-      "title": "5. Admission Requirements for Summer Courses in France**",
-      "groups": [
+      slot: "costs",
+      eyebrow: "Fees & Budgeting",
+      title: "Cost of Studying Summer Courses in France (2026–2027)",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "The **admission requirements for summer courses in France** vary considerably between short courses, university summer schools and specialised professional programmes.",
-            "**Common Admission Requirements**"
+          t: "p",
+          items: [
+            "Summer course costs vary based on duration, subject area, academic tier, and whether accommodation and excursions are bundled into a comprehensive package."
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "* Completed online application form.",
-            "* Valid passport or accepted identification.",
-            "* Academic transcripts, where requested.",
-            "* Proof of current university enrolment or previous qualifications.",
-            "* CV or résumé for advanced programmes.",
-            "* Statement of Purpose or motivation letter.",
-            "* English or French language test results, if required.",
-            "* Letter of recommendation, where requested.",
-            "* Research proposal for certain research-focused programmes.",
-            "* Application fee, if applicable."
+          t: "table",
+          headers: ["Course Format / Field", "Estimated Fee Range", "Package Inclusions"],
+          rows: [
+            ["Tuition-Only University Short Course (1–2 Weeks)", "€800 – €1,600", "Lectures, study materials, ECTS transcripts"],
+            ["Comprehensive Science & Tech Summer School (3–4 Weeks)", "€1,960 – €2,800", "Tuition, lab access, student dorm housing, cultural visits"],
+            ["Grandes Écoles Business Summer School (2–3 Weeks)", "€1,800 – €3,200", "Academic seminars, company visits, ECTS credits, networking"],
+            ["Gastronomy & Culinary Summer Workshops (2–4 Weeks)", "€2,200 – €3,800", "Hands-on culinary labs, ingredients, chef masterclasses"],
+            ["Registration & Administration Fee", "€100 – €250", "Non-refundable application processing fee"]
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Some summer schools accept students from different academic backgrounds, while others are intended for participants with previous knowledge of a specific subject.",
-            "Students should carefully review the programme's admission requirements before submitting their applications.",
-            "**"
+          t: "h4",
+          items: ["Accommodation, Travel & Daily Living"]
+        },
+        {
+          t: "p",
+          items: [
+            "Many summer programs provide guaranteed university dormitory accommodation (ranging from €400 to €800 for the duration). Independent students can book private student residences or Airbnb rentals. Daily food, public transit, and personal expenses average €250 to €450 for a typical 3-week session."
           ]
         }
       ]
     },
     {
-      "slot": "fees",
-      "eyebrow": "Tuition & Cost of Living",
-      "title": "6. Cost of Studying Summer Courses in France**",
-      "groups": [
+      slot: "process",
+      eyebrow: "Admissions Roadmap",
+      title: "Step-by-Step Guide to Applying for Summer Courses in France",
+      steps: [
         {
-          "t": "p",
-          "items": [
-            "The **cost of summer courses in France** depends on the programme's length, subject, institution, location and included services.",
-            "Some summer schools charge tuition separately, while others offer packages that include accommodation, meals, excursions or local transportation.",
-            "For illustration, Campus France's published 2026 French+ programme listings included accommodation packages ranging from approximately **€1,960 for certain four-week science programmes to €3,420 for certain three-week gastronomy or hospitality programmes**. These are examples from the 2026 sessions and are not guaranteed prices for future sessions.",
-            "**Expenses to Consider**",
-            "| Expense | What to Consider |",
-            "| ----- | ----- |",
-            "| Tuition Fees | Subject, duration, teaching hours and academic level |",
-            "| Registration Fees | Whether a separate application or enrolment charge applies |",
-            "| Accommodation | University residence, host family, shared apartment or private rental |",
-            "| Meals | Whether meals are included in the course package |",
-            "| Travel | International flights and local transportation |",
-            "| Study Materials | Books, equipment, software or laboratory costs |",
-            "| Cultural Activities | Excursions, museum visits and workshops |",
-            "| Visa-Related Costs | Applicable visa and residence-related expenses |",
-            "| Personal Expenses | Groceries, mobile services and other daily needs |",
-            "**How to Manage Your Budget**"
+          title: "Step 1: Choose Course & Institution",
+          desc: "Select a specialized summer school aligning with your academic major, career interests, and budget (June, July, or August sessions)."
+        },
+        {
+          title: "Step 2: Check Prerequisites & Credit Transfer",
+          desc: "Verify academic eligibility, English/French requirements, and confirm ECTS credit transfer approval with your home university registrar."
+        },
+        {
+          title: "Step 3: Compile Application Dossier",
+          desc: "Prepare your official university marksheets/transcripts, valid passport copy, updated CV, and a brief Statement of Purpose."
+        },
+        {
+          title: "Step 4: Submit Online Application",
+          desc: "Complete the online application via the host university's summer school portal well before the published application deadline (typically March–May)."
+        },
+        {
+          title: "Step 5: Receive Offer & Confirm Enrollment",
+          desc: "Review the admission offer letter, pay the required tuition deposit or full fee, and receive the official Attestation d'Admission."
+        },
+        {
+          title: "Step 6: Secure Accommodation",
+          desc: "Book your guaranteed university dormitory room or secure verified private student housing to provide proof of accommodation."
+        },
+        {
+          title: "Step 7: Apply for Short-Stay Schengen Visa",
+          desc: "Apply for a short-stay Schengen visa (Type C) via VFS Global France using your summer school acceptance letter and travel insurance."
+        },
+        {
+          title: "Step 8: Arrival, Orientation & Commencement",
+          desc: "Arrive in France, attend the welcome orientation, receive your student ID, and begin your summer coursework and cultural excursions."
+        }
+      ]
+    },
+    {
+      slot: "careers",
+      eyebrow: "Academic & Career Value",
+      title: "Benefits & Value of French Summer Courses",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Completing an international summer program in France enhances an Indian student's academic and professional profile, demonstrating cross-cultural initiative and specialized intellectual curiosity."
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "* Compare the complete package price rather than tuition fees alone.",
-            "* Check whether accommodation and meals are included.",
-            "* Confirm whether flights and airport transfers are covered.",
-            "* Ask about deposits, refunds and cancellation deadlines.",
-            "* Investigate scholarships or funding offered by your university or programme provider.",
-            "* Compare programmes in different French cities, as accommodation costs can vary."
-          ]
+          t: "h4",
+          items: ["Key Academic & Professional Advantages"]
         },
         {
-          "t": "p",
-          "items": [
-            "Students should request a complete cost breakdown from their chosen institution before making payments.",
-            "**"
+          t: "bullets",
+          items: [
+            "Strengthened Global CV/Resume: An international credential from prestigious French institutions (Sorbonne, SKEMA, HEC) stands out to multinational recruiters.",
+            "Transferable ECTS Credits: Earn 2 to 10 ECTS credits that can fulfill degree elective requirements at Indian and global universities.",
+            "Stepping Stone to Master's Programs: Summer school alumni gain valuable firsthand familiarity with French university life, strengthening future applications for master's degrees (MiM, MSc, LL.M.).",
+            "Professional Soft Skills: Develop intercultural teamwork, presentation confidence, and international networking contacts that endure well into your career.",
+            "Language Foundation: Beginners gain foundational conversational French, accelerating subsequent language learning and career opportunities in French multinationals."
           ]
         }
       ]
     },
     {
-      "slot": "process",
-      "eyebrow": "Step-by-Step Guide",
-      "title": "7. Admission Process for Summer Courses in France**",
-      "groups": [
+      slot: "faq",
+      eyebrow: "Frequently Asked Questions",
+      title: "Summer Courses in France FAQs",
+      faqs: [
         {
-          "t": "p",
-          "items": [
-            "Applying for a **summer course in France** generally involves the following steps.",
-            "**Step 1: Identify Your Objective**",
-            "Decide whether you want academic enrichment, language learning, research experience or professional development.",
-            "**Step 2: Choose a Subject**",
-            "Select a field such as business, engineering, law, science, French language or the arts.",
-            "**Step 3: Search for Programmes**",
-            "Explore university websites and the Campus France short and summer programme catalogue.",
-            "**Step 4: Check Eligibility**",
-            "Review academic prerequisites, language requirements, age limits and programme dates.",
-            "**Step 5: Prepare Your Documents**",
-            "Collect academic transcripts, passport details, CV and any required statements or recommendation letters.",
-            "**Step 6: Submit Your Application**",
-            "Apply directly through the university or programme provider.",
-            "**Step 7: Receive the Admission Decision**",
-            "Review the offer, tuition fees, included services and enrolment conditions.",
-            "**Step 8: Arrange Accommodation and Travel**",
-            "Confirm your accommodation and travel arrangements after checking the programme schedule.",
-            "**Step 9: Check Immigration Requirements**",
-            "Verify the visa rules applicable to your nationality and the length and nature of your stay.",
-            "**Step 10: Complete Enrolment**",
-            "Pay the required fees and follow the institution's arrival and orientation instructions.",
-            "**"
-          ]
+          q: "What is the duration of summer courses in France?",
+          a: "Summer courses typically last between 1 and 8 weeks, with the most popular programs running for 2 to 4 weeks during June, July, and August."
+        },
+        {
+          q: "Can international students apply for summer courses in France?",
+          a: "Yes, French summer schools actively welcome international students from all over the world. Courses are designed with a global classroom environment, and the vast majority are taught entirely in English."
+        },
+        {
+          q: "How much do summer courses cost in France?",
+          a: "Tuition fees range from €800 to €2,500 depending on the subject and duration. Many universities offer all-inclusive packages (tuition, accommodation, and cultural excursions) ranging from €1,960 to €3,800 for a 3 to 4-week program."
+        },
+        {
+          q: "Are summer courses in France taught in English?",
+          a: "Yes, the majority of academic summer programs in business, engineering, law, and social sciences are taught 100% in English. French language immersion tracks are available for students specifically wishing to learn or improve their French."
+        },
+        {
+          q: "Do summer courses in France award academic credits?",
+          a: "Yes, most university-affiliated summer programs award official European Credit Transfer and Accumulation System (ECTS) credits (typically 2 to 10 ECTS) along with an official Certificate of Completion and academic transcript."
         }
       ]
-    },
-    {
-      "slot": "accreditation",
-      "eyebrow": "Degrees & Recognition",
-      "title": "8. Accreditation and recognition for summer courses in France**",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Students should know what **summer course in France** offers academically and professionally before enrolling."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "* University Affiliation  - Find out if the course is run directly by a university, business school, independent provider or partner institution.",
-            "* A program delivered on a university campus does not automatically lead to a qualification awarded by a university.",
-            "* Completion Certificates - Most short programs provide certificates of participation or successful completion.",
-            "* These certificates can be a useful addition to a student’s CV but the value of the certificate will depend on the institution, content of the course and how the student is assessed.",
-            "* University Credits - Some summer courses carry ECTS credits."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "**The requirements for the assessment.**"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "* Whether the program formally carries credit.",
-            "* Whether the credits will be credited by the home university.",
-            "* Students seeking to transfer credits to their home university must receive approval before enrolling.",
-            "* A summer program can offer students the opportunity to explore a field, to gain practical knowledge and to make professional contacts.",
-            "* It is, however, not normally a substitute for a full university degree or a regulated professional qualification."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "**"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Job Roles & Industry Growth",
-      "title": "9. Academic and career opportunities are available after summer courses in France**",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "**Summer courses in France** can boost a student’s academic profile and introduce them to subjects that complement their main degree.",
-            "Their value will depend on the content of the course, practical experience and the longer term goals of the student.",
-            "**Possible Benefits**"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "* Academic Progression: Explore a new discipline before committing to a major or postgraduate specialization.",
-            "* Career Exploration Explore industries such as technology, finance, hospitality, engineering and international business.",
-            "* Professional Skills: Develop communication, teamwork, research and problem solving skills.",
-            "* International Networking: Network with students, academics and professionals from other countries.",
-            "* Language Development: Develop your French or sharpen your communication skills in an international academic environment.",
-            "* Further Study Preparation: Explore French universities and their teaching environments."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "**Employment and Income Expectations**"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "* There is no salary attached to completing a summer course in France.",
-            "* Employers typically look at the applicant's primary degree, technical skills, work experience, language skills and course relevance to the job.",
-            "* For example, a short course in artificial intelligence might add to a computer science degree, while a business summer school might offer additional exposure to a management student.",
-            "* No one course guaranties a job or a specific salary. Summer programs should be supplemental learning opportunities for students."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "**"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Document Requirements",
-      "title": "10. Documentation  Required**",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The exact documents depend on the institution and the program."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "* Passport valid.",
-            "* Application form completed.",
-            "* Academic transcripts, if required.",
-            "* Certificate of current student enrollment (if applicable).",
-            "* Previous certificates of qualification (if applicable)",
-            "* Postgraduate programs CV or résumé.",
-            "* Motivation letter or Statement of Purpose.",
-            "* Proof of competence in French or English, as necessary.",
-            "* Recommendation letter (where applicable).",
-            "* Research proposal for selected academic programs.",
-            "* Proof of tuition payment or application fee.",
-            "* Accommodation and emergency contact details if necessary.",
-            "* Depending on their nationality and the length and purpose of their stay, international students may need to submit additional documents with their visa application."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Students are required to observe the most up-to-date directions from the relevant French visa authorities.",
-            "**"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "faqs",
-      "eyebrow": "Frequently Asked Questions",
-      "title": "11. Summer Courses in France FAQs**",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Q1. What is the length of summer courses in France?",
-            "Length varies per program. Some courses run for a week or two, others for three to eight weeks or more. Students are advised to check individual program schedule before applying.",
-            "Q2. Is it possible for international students to apply for summer courses in France?",
-            "Yes. Many French universities and program providers are open to international applicants. Eligibility is subject dependent and depends on level of study, language requirements and availability of places.",
-            "Q3. What are the costs of summer courses in France?",
-            "Fees vary by institution, length of stay, and services offered. Some programs charge tuition and accommodation separately, others have combined packages. Students should inquire with the provider regarding the total cost before enrolling.",
-            "Q4. Are the summer courses in France in English?",
-            "Some courses are taught entirely or partially in English, others in French. See the official course page for the language of instruction. Proof of language proficiency may be required.",
-            "Q5. Are summer courses in France credit-bearing?",
-            "Some programs award ECTS credits, others only a certificate of attendance or completion. Students who wish to transfer credits to their home university must obtain approval from that university before registering.",
-            "How can **Edu Hawk worldwide Consultancy** help me study abroad?",
-            "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities."
-          ]
-        }
-      ]
-    }
-  ],
-  "faqs": [
-    {
-      "q": "How can **Edu Hawk worldwide Consultancy** help me study abroad?",
-      "a": "Q1. What is the length of summer courses in France? Length varies per program. Some courses run for a week or two, others for three to eight weeks or more. Students are advised to check individual program schedule before applying. Q2. Is it possible for international students to apply for summer courses in France? Yes. Many French universities and program providers are open to international applicants. Eligibility is subject dependent and depends on level of study, language requirements and availability of places. Q3. What are the costs of summer courses in France? Fees vary by institution, length of stay, and services offered. Some programs charge tuition and accommodation separately, others have combined packages. Students should inquire with the provider regarding the total cost before enrolling. Q4. Are the summer courses in France in English? Some courses are taught entirely or partially in English, others in French. See the official course page for the language of instruction. Proof of language proficiency may be required. Q5. Are summer courses in France credit-bearing? Some programs award ECTS credits, others only a certificate of attendance or completion. Students who wish to transfer credits to their home university must obtain approval from that university before registering. Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities."
     }
   ]
 };
 
-export default function SummerCoursesinFrancePage() {
+export default function SummerCoursesPage() {
   const images = {
     hero: heroImg,
     heroBg: heroBgImg,
     side: sideImg,
     ctaBg: ctaBgImg,
-    universities: [
-    {
-      name: "Paris 1 Panthéon",
-      img: uniImg1,
-      desc: "Recognized French higher education institution offering accredited curriculum, world-class research facilities, and excellent industry connections."
-    },
-    {
-      name: "Sorbonne Universite",
-      img: uniImg2,
-      desc: "Recognized French higher education institution offering accredited curriculum, world-class research facilities, and excellent industry connections."
-    },
-    {
-      name: "SKEMA Business School",
-      img: uniImg3,
-      desc: "Recognized French higher education institution offering accredited curriculum, world-class research facilities, and excellent industry connections."
-    }
-    ]
+    uni1: uniImg1,
+    uni2: uniImg2,
+    uni3: uniImg3
   };
 
-  return <AbroadCoursePage page={page} images={images} />;
+  return (
+    <AbroadCoursePage
+      page={page}
+      heroImg={heroImg}
+      heroBgImg={heroBgImg}
+      sideImg={sideImg}
+      ctaBgImg={ctaBgImg}
+      seoPath={page.slug}
+      images={images}
+    />
+  );
 }

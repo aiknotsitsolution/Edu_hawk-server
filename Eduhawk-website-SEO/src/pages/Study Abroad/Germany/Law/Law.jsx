@@ -14,445 +14,316 @@ import uniImg3 from "../../../../Images/Abroad/Germany/Law/Goethe_University_Fra
 import uniImg4 from "../../../../Images/Abroad/Germany/Law/Freie_Universit_t_Berlin_Provides_s.webp";
 
 const page = {
-  "name": "Law in Germany",
-  "country": "Germany",
-  "slug": "law",
-  "title": "Law in Germany for Indian Students | Edu-Hawk Worldwide",
-  "description": "Complete guide to Law in Germany for international students: Top German universities, admission requirements, zero-tuition public education, living expenses, and 18-month post-study work visa.",
-  "keywords": "Study Law in Germany for Indian Students, Best Universities for Law in Germany, Undergraduate Law Courses in Germany for International Students, LLM in Germany for Indian Students, International Law Courses in Germany, European Law and Business Law Master's in Germany, Law Eligibility Requirements in Germany, Law Admission Requirements for Indian Students, IELTS and German Language Requirements for Law in Germany, Law Tuition Fees in Germany, Cost of Living for Law Students in Germany, Law Scholarships in Germany for International Students, Law Degree Recognition and Accreditation in Germany, Career Opportunities After Studying Law in Germany, Lawyer Qualification and Salary in Germany",
-  "introTitle": "1\\. WHY STUDY LAW IN GERMANY?",
-  "heroParas": [
-    "Germany attracts s**tudents who want to study **law,** European legal systems, international relations and business law**",
-    "The country has a **civil law legal tradition** and allows students to study **international law, European Union law and comparative legal systems**.",
-    "**The main advantages are:**",
-    "* Examine the legal systems of Europe and Germany.",
-    "* Study of international law and transnational issues.",
-    "* There are programs in areas like **business law and European law**.",
-    "* Sign up for reputable **public universities and specialized institutions** to further your education.",
-    "* Develop your critical thinking, analytical and legal research skills.",
-    "* Careers in business, international organizations, legal research and compliance.",
-    "**Edu Hawk Worldwide Consultancy** helps students comprehend the requirements for university admission, prepare for their overseas education journey and explore international study opportunities with the right planning and guidance."
+  name: "Law in Germany",
+  country: "Germany",
+  slug: "law",
+  title: "Law in Germany for Indian Students | Edu-Hawk Worldwide",
+  description:
+    "Complete guide to studying Law (LL.M., LL.B., and Staatsexamen) in Germany: Top public law faculties (Hamburg, Cologne, Frankfurt, FU Berlin), English-taught Master of Laws, admission criteria, tuition-free education, and international legal careers.",
+  keywords:
+    "Study Law in Germany for Indian Students, Best Universities for Law in Germany, Undergraduate Law Courses in Germany for International Students, LLM in Germany for Indian Students, International Law Courses in Germany, European Law and Business Law Master's in Germany, Law Eligibility Requirements in Germany, Law Admission Requirements for Indian Students, IELTS and German Language Requirements for Law in Germany, Law Tuition Fees in Germany, Cost of Living for Law Students in Germany, Law Scholarships in Germany for International Students, Law Degree Recognition and Accreditation in Germany, Career Opportunities After Studying Law in Germany, Lawyer Qualification and Salary in Germany",
+  introTitle: "Study Law in Germany",
+  heroParas: [
+    "Germany's world-renowned civil law tradition, central position within European Union governance, and tuition-free public universities make it an elite global destination for studying international law, corporate compliance, and specialized English-taught Master of Laws (LL.M.) degrees."
   ],
-  "overview": [
-    "Germany attracts s**tudents who want to study **law,** European legal systems, international relations and business law**",
-    "The country has a **civil law legal tradition** and allows students to study **international law, European Union law and comparative legal systems**.",
-    "**The main advantages are:**",
-    "* Examine the legal systems of Europe and Germany.",
-    "* Study of international law and transnational issues.",
-    "* There are programs in areas like **business law and European law**.",
-    "* Sign up for reputable **public universities and specialized institutions** to further your education.",
-    "* Develop your critical thinking, analytical and legal research skills.",
-    "* Careers in business, international organizations, legal research and compliance.",
-    "**Edu Hawk Worldwide Consultancy** helps students comprehend the requirements for university admission, prepare for their overseas education journey and explore international study opportunities with the right planning and guidance."
+  overview: [
+    "**Key advantages of studying law in Germany:**",
+    "* **Foundational Civil Law Tradition:** Deep exposure to continental European civil law (*Bürgerliches Gesetzbuch - BGB*) and comparative legal methodology.",
+    "* **Specialized English-Taught LL.M.s:** Broad selection of 1- to 2-year Master of Laws programs in International Business Law, European Union Law, Financial Law, and Intellectual Property.",
+    "* **Zero Tuition at Public Universities:** Most public law faculties charge zero general tuition fees, requiring only a nominal semester contribution (€150–€350).",
+    "* **Financial & Regulatory Capital:** Frankfurt am Main and Berlin serve as European regulatory and banking centers, housing the European Central Bank (ECB) and multinational law firms.",
+    "* **International Career Mobility:** Direct corporate legal, compliance, contract advisory, and arbitration career paths across the EU and global corporations."
   ],
-  "level": "LL.B., LL.M. & Staatsexamen in Rechtswissenschaft",
-  "crumb": "Legal Studies / Law",
-  "stats": [
+  level: "LL.B. / LL.M. / First & Second Staatsexamen / Ph.D.",
+  crumb: "Legal Studies / Law",
+  stats: [
     {
-      "label": "Degree Choices",
-      "value": "LL.B., LL.M. & Staatsexamen in Rechtswissenschaft"
+      label: "Degree Tracks",
+      value: "LL.M. (1–2 Yrs) / LL.B. (3 Yrs) / Staatsexamen"
     },
     {
-      "label": "Course Duration",
-      "value": "3 to 6 Years"
+      label: "Public Uni Tuition",
+      value: "€0 / Free (Semester fee €150–€380)"
     },
     {
-      "label": "Top Institutions",
-      "value": "The University of Hamburg     conducts research and offers legal education in a variety of legal fields., The University of Cologne     provides chances for legal study as well as legal programs."
+      label: "Language Medium",
+      value: "English (LL.M.) & German (Staatsexamen)"
     },
     {
-      "label": "Post-Study Work",
-      "value": "18-Month Jobseeker Visa (Residence Permit)"
+      label: "Post-Study Work Visa",
+      value: "18-Month Jobseeker Visa"
     }
   ],
-  "sections": [
+  sections: [
     {
-      "slot": "courses",
-      "eyebrow": "Curriculum & Specializations",
-      "title": "2. German law courses",
-      "groups": [
+      slot: "why",
+      eyebrow: "Why Germany",
+      title: "Why Study Law in Germany?",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Undergraduate, graduate and specialty law programs are available at German universities.",
-            "**Choices are:**",
-            "Those who pursue the traditional route to qualified legal employment go on to take the **Second State Examination** and practical legal training.",
-            "In traditional German legal studies, the **First State Examination** usually takes **4–5 years** to complete.",
-            "Specialized master's programs are usually **1-2 years** long.",
-            "A good level of **German** is usually required for standard legal degrees. However, a number of specialist postgraduate programs are taught in **English**."
+          t: "p",
+          items: [
+            "Germany is the legal and economic engine of the European Union, offering rigorous legal scholarship rooted in analytical precision, codified statutory frameworks, and international human rights jurisprudence.",
+            "Law students examine trans-border cross-border commerce, antitrust regulation, digital privacy (GDPR), international dispute resolution, and corporate governance in world-renowned university research institutes and moot court environments."
           ]
         },
         {
-          "t": "pills",
-          "items": [
-            "A Bachelor of Laws (LLB) degree is an advantage.",
-            "First State Examination (Staatsexamen) in law programs.",
-            "LLM in International Legal",
-            "LLM European Law.",
-            "LL.M. in Business Law",
-            "Intellectual Property Law LLM",
-            "an international human rights law master’s degree.",
-            "a master’s degree in European and international economic law."
+          t: "points",
+          title: "Core Advantages for International Legal Scholars",
+          items: [
+            "**Tuition-Free Legal Education:** Prestigious public law faculties charge zero universal tuition fees.",
+            "**Premier European LL.M. Programs:** Internationally recognized English-language Master of Laws degrees tailored for foreign law graduates and practicing advocates.",
+            "**Proximity to International Courts & Agencies:** Close academic access to the International Court of Arbitration, European Court of Justice (ECJ), and Federal Constitutional Court (*Bundesverfassungsgericht*).",
+            "**18-Month Post-Study Visa:** Ample post-graduation residence time to secure corporate legal, compliance, ESG, and contract management positions in Germany."
           ]
         }
       ]
     },
     {
-      "slot": "universities",
-      "eyebrow": "Top German Universities",
-      "title": "3. Germany's Leading Law Schools and Universities",
-      "groups": [
+      slot: "cards",
+      eyebrow: "Program Architecture",
+      title: "German Law Degree Pathways",
+      text: "International students can pursue state qualifying examinations or international Master of Laws degrees:",
+      cards: [
         {
-          "t": "p",
-          "items": [
-            "For ****law and associated legal studies**,** students can explore the following institutions:",
-            "**The University of Hamburg-**  conducts research and offers legal education in a variety of legal fields.",
-            "**The University of Cologne-**  provides chances for legal study as well as legal programs.",
-            "**Goethe University Frankfurt -** Opportunities to study business and international law are offered.",
-            "**Freie Universität Berlin** - Provides specialized postgraduate programs and legal education."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Eligibility Criteria",
-      "title": "4. German Law Students’ Requirements",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "**Eligibility criteria** are based on the degree level and type of law program.",
-            "Regarding **undergraduate law programs:**",
-            "**For Law schools:**",
-            "Candidates are advised to check their eligibility before applying as some **LLM programs** require a **LLB or similar legal degree**."
-          ]
+          badge: "Postgraduate Degree",
+          title: "Master of Laws (LL.M. in International & Business Law)",
+          desc: "A 1- to 2-year specialized postgraduate program designed for foreign law graduates (LLB holders) focusing on international commercial arbitration, European corporate law, M&A, and finance. Taught predominantly in English."
         },
         {
-          "t": "ul",
-          "items": [
-            "A **recognised school leaving certificate** that qualifies for admission to a university in Germany.",
-            "Academic standing that meets the admission requirements of the university.",
-            "Excellent **German language skills** for traditional legal programs, usually at a high level. Depending on your school-leaving qualification you may have to attend a **Studienkolleg** and take an assessment test before you can be admitted to the university.",
-            "A recognized **law bachelor’s degree** or an authorized comparable discipline, depending on the school.",
-            "Have relevant legal studies and academic qualifications.",
-            "German language skills** for courses taught in German or **English language skills** for courses taught in English.",
-            "Interview or equivalent work experience, as required."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "admission",
-      "eyebrow": "Admission Requirements",
-      "title": "5. Admission requirements for law studies in Germany",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Typical entry requirements are:"
-          ]
+          badge: "Technology & IP",
+          title: "LL.M. in Intellectual Property & Competition Law",
+          desc: "Specialized Master's curriculum covering European patent law, trademark protection, copyright in the digital age, and competition policy (MIPLC Munich)."
         },
         {
-          "t": "ul",
-          "items": [
-            "Academic transcripts and certificates.",
-            "Results of an English language exam like the TOEFL or IELTS if required",
-            "For programs in German a **certificate of German language** is required.",
-            "a letter of motivation or statement of purpose.",
-            "Postgraduate candidates are requested to submit a CV or resume.",
-            "References available upon request.",
-            "Proof of required legal education or employment, if applicable.",
-            "An interview or writing sample (if required by program)."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "fees",
-      "eyebrow": "Tuition Fees & Living Costs",
-      "title": "6. Cost of legal education in Germany",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The expense of studying law depends on the city, program and university.",
-            "Projected Costs:"
-          ]
+          badge: "Traditional Licensure",
+          title: "State Examination in Law (Staatsexamen Rechtswissenschaft)",
+          desc: "The traditional 4- to 5-year university curriculum leading to the First State Examination (*Erstes Staatsexamen*), followed by a 2-year judicial clerkship (*Referendariat*) and the Second State Exam for full qualification as a German judge or advocate (*Volljurist*). Taught exclusively in German."
         },
         {
-          "t": "ul",
-          "items": [
-            "Many programs at public institutions have free basic tuition, but semester contributions are usually between €150 and €400.",
-            "Many states, colleges and specialized programs charge tuition including some for **non-Eu students**.",
-            "Tuition fees in private colleges can be anything from around **€5,000 to €20,000 or more a year.",
-            "Cost of living is between €900 and €1,300 a month.",
-            "Additional charges apply for books, legal research materials, health insurance, transportation and administrative fees."
-          ]
+          badge: "Commercial Track",
+          title: "Bachelor of Laws (LL.B. in Business Law / Wirtschaftsrecht)",
+          desc: "A 3-year commercial law degree offered by Universities of Applied Sciences combining private corporate law, tax regulation, accounting, and business administration for corporate in-house roles."
+        }
+      ]
+    },
+    {
+      slot: "unis",
+      eyebrow: "Top Institutions",
+      title: "Leading Law Schools & Universities in Germany",
+      text: "Germany is home to some of Europe's most venerable and influential faculties of law:",
+      cards: [
+        {
+          name: "The University of Hamburg",
+          city: "Hamburg",
+          qsRank: "Top Tier Law Faculty Germany",
+          tuition: "€0 / Free (Semester fee €340/sem)",
+          programs: "European Master in Law & Economics (EMLE), LL.M. International Commercial Law",
+          highlights:
+            "Home to the renowned Institute for Law and Economics and International Tribunal for the Law of the Sea (ITLOS), offering premier international legal and maritime trade research.",
+          link: "https://www.uni-hamburg.de/",
+          img: uniImg1
         },
         {
-          "t": "table",
-          "headers": [
-            "Category / Expense Type",
-            "Estimated Amount (EUR)",
-            "Applicability & Regulation"
-          ],
-          "rows": [
-            [
-              "Many programs at public institutions have free basic tuition, but semester contributions are usually between €150 and €400.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "Many states, colleges and specialized programs charge tuition including some for non",
-              "Eu students.",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "Tuition fees in private colleges can be anything from around €5,000 to €20,000 or more a year.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "Cost of living is between €900 and €1,300 a month.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "Additional charges apply for books, legal research materials, health insurance, transportation and administrative fees.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "process",
-      "eyebrow": "Application Timeline & Steps",
-      "title": "7. Germany's Law Admission Procedure",
-      "groups": []
-    },
-    {
-      "slot": "why",
-      "eyebrow": "Why Study in Germany",
-      "title": "1. Select either a specialized legal degree or a standard law program.",
-      "groups": []
-    },
-    {
-      "slot": "courses",
-      "eyebrow": "Curriculum & Specializations",
-      "title": "2. Examine universities, course offerings, tuition costs, and language instruction.",
-      "groups": []
-    },
-    {
-      "slot": "universities",
-      "eyebrow": "Top German Universities",
-      "title": "3. Verify the language requirements and academic eligibility.",
-      "groups": []
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Eligibility Criteria",
-      "title": "4. Get the academic certificates and accompanying documentation ready.",
-      "groups": []
-    },
-    {
-      "slot": "admission",
-      "eyebrow": "Admission Requirements",
-      "title": "5. Use the designated application service or the university portal to submit your application.",
-      "groups": []
-    },
-    {
-      "slot": "fees",
-      "eyebrow": "Tuition Fees & Living Costs",
-      "title": "6. Finish any necessary interviews or extra evaluations.",
-      "groups": []
-    },
-    {
-      "slot": "process",
-      "eyebrow": "Application Timeline & Steps",
-      "title": "7. Take the admission offer and accept it.",
-      "groups": []
-    },
-    {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Quality Standards",
-      "title": "8. Make arrangements for proof of funds, health insurance, and visa documentation if necessary.",
-      "groups": []
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Career Prospects & Salary",
-      "title": "9. Plan your journey and lodging.",
-      "groups": []
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Required Documentation",
-      "title": "10. full enrollment in the university.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "International applicants should submit their applications before the deadline and leave enough time for the processing of their visas and the verification of their documents."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Quality Standards",
-      "title": "8. Germany's Law Accreditation and Recognition",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "It is especially crucial to confirm legal education and professional credentials because ****a law degree does not automatically qualify a graduate to practice law in Germany**.**",
-            "Prior to signing up, make sure:",
-            "In order to pursue the conventional German legal profession",
-            "Although it can offer specialized expertise, a **LLM in international or business law** cannot take the place of the German qualification route to become a fully qualified German lawyer. Students who plan to work in India or another nation should also research the **professional recognition requirements** of that nation."
-          ]
+          name: "The University of Cologne",
+          city: "Cologne, North Rhine-Westphalia",
+          qsRank: "One of Germany's Largest Law Faculties",
+          tuition: "€0 / Free (Semester fee €320/sem)",
+          programs: "Staatsexamen, LL.M. in International Business Law, LL.M. European Law",
+          highlights:
+            "Celebrated for international commercial law, arbitration, and civil procedural law, with a massive alumni network across Europe's leading corporate law firms and ministries.",
+          link: "https://www.uni-koeln.de/",
+          img: uniImg2
         },
         {
-          "t": "ul",
-          "items": [
-            "Is the degree and the institution **officially recognized**?",
-            "Whether the program is developed as part of the **professional qualification route** or is academic in nature.",
-            "Whether the degree satisfies the prerequisites for your desired legal profession.",
-            "Whether further **training, exams, or professional registration** are required.",
-            "Students must typically finish their legal studies at university",
-            "Pass the **First State Examination**",
-            "Complete a legal traineeship (**Referendariat**)",
-            "Pass the **Second State Examination**."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Career Prospects & Salary",
-      "title": "9. Pay and Employment Prospects in Germany Following the Law",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Opportunities in legal services, corporate organizations, financial institutions, consulting firms, and multinational corporations are available to ****law graduates**.**",
-            "Among the popular career opportunities are:",
-            "Germany's approximate yearly gross salary are as follows:",
-            "Employer, experience, specialization, location and professional qualifications all affect these broad estimations.",
-            "Compared to public service or smaller organizations, salaries in major commercial law firms might vary significantly.",
-            "While English can be useful in international corporate law, **German language proficiency** is necessary for many domestic legal professions."
-          ]
+          name: "Goethe University Frankfurt",
+          city: "Frankfurt am Main, Hesse",
+          qsRank: "Finance & Corporate Law Capital",
+          tuition: "€0 / Free (Semester fee €380/sem)",
+          programs: "LL.M. Finance (ILF), LL.M. International Banking & Securities",
+          highlights:
+            "Located alongside the Institute for Law and Finance (ILF) and the European Central Bank, offering unparalleled internships with top international magic circle and white-shoe law firms.",
+          link: "https://www.uni-frankfurt.de/",
+          img: uniImg3
         },
         {
-          "t": "ul",
-          "items": [
-            "**Legal Investigator**",
-            "The Compliance Analyst",
-            "A specialist in contract management",
-            "Corporate Legal Associate",
-            "A specialist in data protection",
-            "When allowed, **Legal Consultant**",
-            "A specialist in international business law",
-            "**Policy Researcher**",
-            "A specialist in regulatory affairs",
-            "Subject to the applicable professional qualification standards, **Lawyer or Advocate**",
-            "Entry-level legal and compliance positions pay between €35,000 to €50,000.",
-            "Professionals with legal and compliance experience: roughly €50,000 to €75,000.",
-            "In certain corporate or specialized professions, qualified attorneys might earn between €60,000 and €100,000 or more."
-          ]
+          name: "Freie Universität Berlin (FU Berlin)",
+          city: "Berlin",
+          qsRank: "Germany Top 5 / Global Excellence",
+          tuition: "€0 / Free (Semester fee €315/sem)",
+          programs: "LL.M. in International and European Business Law, Competition and Regulatory Law",
+          highlights:
+            "Preeminent law department offering deep specialization in international human rights, public international law, EU constitutional frameworks, and global dispute arbitration.",
+          link: "https://www.fu-berlin.de/",
+          img: uniImg4
         }
       ]
     },
     {
-      "slot": "documents",
-      "eyebrow": "Required Documentation",
-      "title": "10. Documents Needed to Pursue Legal Education in Germany",
-      "groups": [
+      slot: "checklist",
+      eyebrow: "Admissions Criteria",
+      title: "Eligibility & Academic Prerequisites",
+      text: "Admission standards differ between international Master of Laws and undergraduate state exam tracks:",
+      items: [
+        "**Master of Laws (LL.M.) Applicants:** Recognized first degree in law (LL.B., B.A. Law, Integrated 5-year B.A. LL.B.) with solid academic standing from an accredited university.",
+        "**Undergraduate / Staatsexamen Applicants:** High school leaving certificate equivalent to the German *Abitur* (Indian Class XII typically requires 1 year at *Studienkolleg G-Kurs* or 1 year of university studies).",
+        "**English Language Proficiency:** For English-taught LL.M. degrees, IELTS score of 6.5–7.5+ or TOEFL iBT score of 90–105+.",
+        "**German Language Proficiency:** For traditional Staatsexamen and German LL.M. programs, certified C1 German proficiency (TestDaF 4x4, Goethe C1, or DSH-2).",
+        "**APS Verification Certificate:** Official verification certificate from the Academic Evaluation Centre (APS India) required for Indian applicants prior to visa processing.",
+        "**Curriculum Vitae & Statement of Purpose:** Detailed CV and Statement of Purpose articulating legal research focus and post-qualification career objectives."
+      ]
+    },
+    {
+      slot: "checklist",
+      eyebrow: "Cost of Education",
+      title: "Tuition Structure & Living Expenses",
+      text: "German legal education combines extraordinary academic prestige with budget-friendly public tuition:",
+      items: [
+        "**Zero General Tuition (€0):** The vast majority of public universities charge zero tuition fees for standard degree programs (Staatsexamen, LL.B., and many consecutive LL.M.s).",
+        "**Specialized LL.M. Tuition Fees (€0 to €12,000/year):** While many consecutive LL.M.s at public universities are tuition-free, executive or professional LL.M. programs (such as ILF Frankfurt or MIPLC Munich) may charge tuition ranging from €5,000 to €18,000.",
+        "**Semester Contribution (€150–€380/semester):** Mandatory student registration fee covering student unions, welfare services, and a regional public transport ticket.",
+        "**Monthly Living Costs (€900–€1,300/month):** Covers student rent, food, statutory health insurance (~€125/month), textbooks, and personal expenses.",
+        "**German Blocked Account (Sperrkonto):** Requirement of €11,904 per year deposited in a verified blocked escrow account to secure the student visa."
+      ]
+    },
+    {
+      slot: "timeline",
+      eyebrow: "Step-by-Step Pathway",
+      title: "Admission & Legal Career Pathway in Germany",
+      text: "Follow this 10-step guide to study law and build a transnational legal career in Germany:",
+      steps: [
         {
-          "t": "p",
-          "items": [
-            "Candidates may require the following paperwork:",
-            "International students may additionally require **proof of funding, health insurance, and visa documents** after being admitted."
-          ]
+          num: "01",
+          title: "Select Degree Format",
+          desc: "Choose between an English-taught specialized LL.M. (Corporate, Finance, IP) or the traditional German Staatsexamen."
         },
         {
-          "t": "ul",
-          "items": [
-            "A valid passport is required.",
-            "Undergraduate applicants are eligible for **school-leaving certificates**.",
-            "Transcripts and a bachelor's degree certificate are required for postgraduate candidates.",
-            "If necessary, the results of an English or German language test.",
-            "A CV or resume.",
-            "A letter of motivation or a statement of goal.",
-            "Recommendation letters, upon request.",
-            "Evidence of **legal education or employment experience**, if relevant.",
-            "If necessary, provide a writing sample or any supporting materials.",
-            "The application form has been completed.",
-            "If required, certified translations of papers."
-          ]
+          num: "02",
+          title: "Language Testing & Credentials",
+          desc: "Acquire certified English language test results (IELTS/TOEFL) or German proficiency certificates (Goethe C1/TestDaF)."
+        },
+        {
+          num: "03",
+          title: "APS Verification Certificate",
+          desc: "Submit academic transcripts and law degree documents to APS India to secure mandatory digital APS clearance."
+        },
+        {
+          num: "04",
+          title: "Prepare Application Dossier",
+          desc: "Compile certified degree translations, legal writing samples, updated CV, and 2 academic letters of recommendation."
+        },
+        {
+          num: "05",
+          title: "University Application Submission",
+          desc: "Apply via uni-assist or direct university portals before the semester deadlines (July 15 for Winter, January 15 for Summer)."
+        },
+        {
+          num: "06",
+          title: "Admission Offer Acceptance",
+          desc: "Receive the official admission offer (*Zulassungsbescheid*) and confirm your enrollment seat."
+        },
+        {
+          num: "07",
+          title: "Blocked Account & Visa Application",
+          desc: "Deposit €11,904 in a German blocked account, acquire student statutory health insurance, and secure your National Student Visa."
+        },
+        {
+          num: "08",
+          title: "LL.M. Coursework & Thesis",
+          desc: "Complete coursework in international economic law, corporate finance, arbitration, and defend your LL.M. Master's dissertation."
+        },
+        {
+          num: "09",
+          title: "Legal Internships & Post-Study Visa",
+          desc: "Undertake internships with corporate legal departments or law firms, transitioning to the 18-month German jobseeker visa."
+        },
+        {
+          num: "10",
+          title: "Corporate Legal Career / Bar Admission",
+          desc: "Practice as a foreign legal counsel, compliance officer, or contract specialist in Germany or register under European Lawyer Directive regulations."
         }
       ]
     },
     {
-      "slot": "details",
-      "eyebrow": "Key Insights",
-      "title": "11. FAQs regarding German law",
-      "groups": [
+      slot: "cards",
+      eyebrow: "Career Pathways",
+      title: "Career Opportunities & Salary in Germany",
+      text: "Law graduates in Germany have diverse career pathways across corporate, consulting, and compliance sectors:",
+      cards: [
         {
-          "t": "p",
-          "items": [
-            "Q1. Can I study law in Germany in English?",
-            "Yes . There are numerous English-language specialized **LLM and master's programs** available, especially in **international law, European law, and corporate law**.",
-            "German is typically used for instruction in traditional German legal programs.",
-            "Q2. How much time does it take to study law in Germany?",
-            "It typically takes **4–5 years** for traditional legal education to prepare for the **First State Examination**. **LLM programs** and specialized master's degrees often take **1-2 years**.",
-            "Q3. Is it inexpensive to study law in Germany?",
-            "There are exceptions to the general tuition fee policy at several **public universities**. Additionally, living expenditures, semester contributions, and any program-specific fees must be budgeted for by students.",
-            "Q4. After Class 12, are Indian students able to pursue legal studies in Germany?",
-            "Yes, if they fulfill the **admission requirements** of the university. Certain applicants may require **Studienkolleg and an assessment examination** based on their educational background. Traditional law programs typically require **German proficiency**.",
-            "Q5. After earning an LLM, may I practice law in Germany?",
-            "Not by default. Generally speaking, a **LLM** is a specialized academic degree. The traditional German method often needs the necessary **state tests and practical legal training** in order to practice as a fully licensed lawyer.",
-            "How can I study overseas with the assistance of ****Edu Hawk Worldwide Consultancy**?**",
-            "Students may plan their **study-abroad journey**, organize their application materials, research appropriate universities, and comprehend **admission requirements** with the assistance of Edu Hawk worldwide . Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
-          ]
+          badge: "Corporate Compliance",
+          title: "Corporate Legal Associate & Compliance Officer",
+          desc: "Manage corporate risk, GDPR data protection compliance, and internal anti-corruption regulatory compliance for multinational firms. Starting salary: €48,000–€62,000/year."
+        },
+        {
+          badge: "Contract & Commercial",
+          title: "International Contract Manager",
+          desc: "Draft and negotiate cross-border commercial supply contracts, licensing agreements, and joint ventures. Average salary: €58,000–€75,000/year."
+        },
+        {
+          badge: "Financial Regulation",
+          title: "Banking & Financial Regulatory Specialist",
+          desc: "Advise investment banks, fintechs, and asset managers on BaFin and European Central Bank regulatory frameworks. Salary: €65,000–€88,000/year."
+        },
+        {
+          badge: "Dispute & M&A",
+          title: "Legal Counsel (M&A / International Arbitration)",
+          desc: "Lead cross-border corporate mergers and acquisitions, dispute settlement, and arbitration dossiers in multinational law firms. Senior salary: €80,000–€110,000+/year."
         }
+      ]
+    },
+    {
+      slot: "checklist",
+      eyebrow: "Checklist",
+      title: "Documents Required for Application & Visa",
+      text: "Prepare the following verified documentation for university applications and the visa consulate:",
+      items: [
+        "Valid international passport with at least 12 months validity.",
+        "Official undergraduate law degree certificates (LL.B.) and complete semester transcripts.",
+        "Official digital APS Verification Certificate from APS India.",
+        "English language test report (IELTS 6.5–7.5+ or TOEFL iBT 90–105+).",
+        "German language certificate (if applying for German-taught modules or Staatsexamen).",
+        "Detailed Academic Curriculum Vitae (Tabellarischer Lebenslauf).",
+        "Statement of Purpose (Letter of Motivation) detailing legal specialization interests.",
+        "Two letters of academic or professional recommendation from law professors or senior partners.",
+        "Proof of legal internships, publications, or moot court awards (if applicable).",
+        "German Blocked Account confirmation (€11,904) and statutory health insurance coverage."
       ]
     }
   ],
-  "faqs": []
+  faqs: [
+    {
+      q: "Can I study Law in English in Germany?",
+      a: "Yes. Germany offers numerous world-class, English-taught Master of Laws (LL.M.) programs in International Business Law, European Law, Finance, Intellectual Property, and Global Governance at leading universities like Hamburg, Cologne, Frankfurt (ILF), and FU Berlin. However, the traditional state qualifying program (*Staatsexamen*) is taught exclusively in German."
+    },
+    {
+      q: "Does an LL.M. degree from Germany qualify me to practice as a German lawyer?",
+      a: "An LL.M. is a specialized academic postgraduate qualification. It qualifies graduates to work as corporate in-house legal counsel, compliance managers, and international contract specialists. To practice as a fully qualified German advocate (*Rechtsanwalt*) or judge (*Volljurist*), one must pass the traditional First State Exam, complete a 2-year judicial clerkship (*Referendariat*), and pass the Second State Exam."
+    },
+    {
+      q: "What is the typical duration of law studies in Germany?",
+      a: "An LL.M. degree typically takes 1 to 2 years (2 to 4 semesters). An undergraduate LL.B. in Business Law takes 3 years (6 semesters), while traditional preparation for the First State Examination (*Staatsexamen*) takes 4 to 5 years (8 to 10 semesters)."
+    },
+    {
+      q: "Is law education in Germany tuition-free for international students?",
+      a: "Yes. Most public universities in Germany charge zero general tuition fees for undergraduate law and consecutive LL.M. programs, with students paying only a nominal semester contribution (€150 to €380/semester) covering student services and regional public transport. (Only select executive or specialized professional LL.M. programs charge specific tuition)."
+    },
+    {
+      q: "Can Indian law graduates (LL.B. or 5-year Integrated Law) apply for an LL.M. in Germany?",
+      a: "Yes. Indian law graduates with a recognized 3-year LL.B. or 5-year integrated B.A. LL.B./B.B.A. LL.B. from a Bar Council of India (BCI) recognized university are eligible to apply directly for Master of Laws (LL.M.) programs in Germany with English proficiency (IELTS/TOEFL) and an APS certificate."
+    }
+  ]
 };
 
-export default function LawGermanyPage() {
-  const images = {
-    hero: heroImg,
-    heroBg: heroBgImg,
-    side: sideImg,
-    ctaBg: ctaBgImg,
-    universities: [
-    {
-      name: "The University of Hamburg     conducts research and offers legal education in a variety of legal fields.",
-      img: uniImg1,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "The University of Cologne     provides chances for legal study as well as legal programs.",
-      img: uniImg2,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "Goethe University Frankfurt      Opportunities to study business and international law are offered.",
-      img: uniImg3,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "Freie Universität Berlin      Provides specialized postgraduate programs and legal education.",
-      img: uniImg4,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    }
-    ]
-  };
-
-  return <AbroadCoursePage page={page} images={images} />;
+export default function Law() {
+  return (
+    <AbroadCoursePage
+      page={page}
+      heroImg={heroImg}
+      heroBgImg={heroBgImg}
+      sideImg={sideImg}
+      ctaBgImg={ctaBgImg}
+      seoPath="/study-abroad/germany/law"
+    />
+  );
 }

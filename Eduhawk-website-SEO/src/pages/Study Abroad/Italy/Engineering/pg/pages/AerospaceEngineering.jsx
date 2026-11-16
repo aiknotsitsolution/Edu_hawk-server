@@ -18,10 +18,10 @@ const page = {
   "description": "Study Aerospace Engineering - PG in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
   "keywords": "Study Aerospace Engineering - PG in Italy, Aerospace Engineering - PG in Italy for Indian Students, Best Universities in Italy, Cost of Studying in Italy",
   "introTitle": "Aerospace Engineering in Italy for Indian Students",
-  "heroParas": [
-    "Yes. Indian students with a relevant undergraduate qualification can apply to eligible Italian universities provided they meet the academic, language and programme-specific requirements."
+  heroParas: [
+    "A Master’s in Aerospace Engineering in Italy delivers elite training in aeronautics, space exploration systems, satellite technology, and propulsion at leading Italian technical institutions with deep ties to the European Space Agency (ESA)."
   ],
-  "overview": [
+  overview: [
     "Yes. Indian students with a relevant undergraduate qualification can apply to eligible Italian universities provided they meet the academic, language and programme-specific requirements."
   ],
   "level": "Postgraduate",
@@ -205,42 +205,6 @@ const page = {
         {
           "t": "ul",
           "items": [
-            "Aerospace Design Engineering",
-            "aerodynamicist",
-            "Aircraft Structures Engineer Propulsion Systems Engineer",
-            "Space Systems Engineer Flight Mechanics Engineer",
-            "Satellite System Engineer",
-            "Aerospace Test and Simulation Engineer",
-            "Engineer, Research & Development"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Salary Range (indicative)",
-            "Level of ExperienceGross yearly salary indicativeApproximate INR equivalents",
-            "Entry-level€28,000-€35,000₹30.41-₹38.01 lakh",
-            "Experienced€35,000 - €50,000₹ 38.01 - ₹ 54.30 lakh",
-            "Specialist or senior roles€50,000-€70,000+₹54.30-₹76.02 lakh+",
-            "These are illustrative, general estimates for career planning only and not verified salary statistics or guarantyd earnings. Actual salaries vary depending on location, employer, experience, technical specialization, language skills and work authorization. Some aerospace and defense roles may have additional citizenship, security clearance or export control restrictions. INR equivalents $1 &asymp; €0.92; €1 &asymp; ₹108.60"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Document Checklist",
-      "title": "Documents Required for Studying Aerospace Engineering in Italy",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Applicants should prepare the documents required by their selected university. Common needs"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
             "Passport valid.",
             "Bachelor's degree certificate or provisional certificate",
             "Academic transcripts & mark sheets.",
@@ -261,7 +225,34 @@ const page = {
         }
       ]
     }
-  ]
+  ],
+  faqs: [
+    {
+        "q": "Can Indian students pursue an Aerospace Engineering Master's in Italy in English?",
+        "a": "Yes. Premier technical universities such as Politecnico di Milano, Politecnico di Torino, and Sapienza University of Rome offer English-taught master's degrees in Aerospace Engineering."
+    },
+    {
+        "q": "What is the duration of an Aerospace Engineering Master's in Italy?",
+        "a": "The programme takes 2 academic years (4 semesters) totaling 120 ECTS credits, including coursework and an experimental or computational research thesis."
+    },
+    {
+        "q": "What are the tuition fees for Aerospace Engineering in Italy?",
+        "a": "Annual tuition at public universities typically ranges from €1,000 to €3,900 per year, with need-based DSU grants providing tuition waivers and living cost support."
+    },
+    {
+        "q": "What are the core specializations in Italian Aerospace Engineering?",
+        "a": "Specializations include Spacecraft Design, Propulsion Systems, Aerodynamics & Flight Mechanics, Satellite Systems, and Autonomous Space Exploration."
+    },
+    {
+        "q": "What are the links to the aerospace industry in Italy?",
+        "a": "Italy has a prominent aerospace industry featuring Leonardo, Avio, Thales Alenia Space, and active collaboration with the Italian Space Agency (ASI) and ESA."
+    },
+    {
+        "q": "What are the career prospects for aerospace graduates in Italy?",
+        "a": "Graduates work as aerospace designers, propulsion engineers, flight dynamics specialists, and systems researchers across international aerospace consortia."
+    }
+],
+  faqTitle: "Frequently Asked Questions About Aerospace Engineering PG in Italy"
 };
 
 export default function AerospaceEngineeringPGItaly() {

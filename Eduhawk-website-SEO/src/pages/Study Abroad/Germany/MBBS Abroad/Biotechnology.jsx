@@ -14,403 +14,344 @@ import uniImg3 from "../../../../Images/Abroad/Germany/Biotechnology/Molecular_b
 import uniImg4 from "../../../../Images/Abroad/Germany/Biotechnology/Technical_biology_and_associated_in.webp";
 
 const page = {
-  "name": "Biotechnology in Germany",
-  "country": "Germany",
-  "slug": "biotechnology",
-  "title": "Biotechnology in Germany for Indian Students | Edu-Hawk Worldwide",
-  "description": "Complete guide to Biotechnology in Germany for international students: Top German universities, admission requirements, zero-tuition public education, living expenses, and 18-month post-study work visa.",
-  "keywords": "Study Biotechnology in Germany for Indian Students, Biotechnology Courses in Germany for International Students, Bachelor’s in Biotechnology in Germany, Master’s in Biotechnology in Germany, PhD in Biotechnology in Germany, Best Universities for Biotechnology in Germany, Biotechnology Eligibility Requirements in Germany, English-Taught Biotechnology Courses in Germany, German Language Requirements for Biotechnology in Germany, Biotechnology Admission Requirements in Germany, Biotechnology Tuition Fees in Germany, Cost of Living for Biotechnology Students in Germany, Documents Required to Study Biotechnology in Germany",
-  "introTitle": "STUDY BIOTECHNOLOGY IN GERMANY",
-  "heroParas": [
-    "Comprehensive guide to Biotechnology in Germany for international students in Germany."
+  name: "Biotechnology in Germany",
+  country: "Germany",
+  slug: "biotechnology",
+  title: "Biotechnology in Germany for Indian Students | Edu-Hawk Worldwide",
+  description: "Complete guide to Biotechnology in Germany for international students: Top German universities, admission requirements, zero-tuition public education, living expenses, and 18-month post-study work visa.",
+  keywords: "Study Biotechnology in Germany for Indian Students, Biotechnology Courses in Germany for International Students, Bachelor’s in Biotechnology in Germany, Master’s in Biotechnology in Germany, PhD in Biotechnology in Germany, Best Universities for Biotechnology in Germany, Biotechnology Eligibility Requirements in Germany, English-Taught Biotechnology Courses in Germany, German Language Requirements for Biotechnology in Germany, Biotechnology Admission Requirements in Germany, Biotechnology Tuition Fees in Germany, Cost of Living for Biotechnology Students in Germany, Documents Required to Study Biotechnology in Germany",
+  introTitle: "Why Study Biotechnology in Germany?",
+  heroParas: [
+    "Germany is Europe's life sciences and pharmaceutical innovation leader, offering globally accredited Bachelor's, Master's, and PhD programs in Biotechnology, Molecular Biology, and Bioengineering with tuition-free options at premier research universities and an 18-month post-study work visa."
   ],
-  "overview": [
-    "Explore academic curriculum, admission standards, top universities, tuition structure, and career pathways in Germany."
+  overview: [
+    "Germany is a premier destination for biotechnology studies due to its world-class research infrastructure, state-of-the-art laboratory facilities, and robust synergies between academic institutes and leading biotech corporations. Students gain in-depth expertise in **genetic engineering, molecular biology, pharmaceutical bioprocesses, bioinformatics, industrial biotechnology, and cellular therapeutics**.",
+    "The primary advantages of studying biotechnology in Germany include:",
+    "* **Cutting-Edge Laboratory Infrastructure:** Modern, high-throughput laboratories and close collaborations with Max Planck, Helmholtz, and Fraunhofer research institutes.",
+    "* **Hands-On Industrial & Research Placements:** Extensive opportunities for semester-long research projects, industrial internships, and clinical trial involvement.",
+    "* **Comprehensive Degree Hierarchy:** Diverse Bachelor's, Master's, and structured doctoral (PhD) programs taught in English and German.",
+    "* **Affordable Public Higher Education:** Public universities in 15 of Germany's 16 federal states charge **€0 tuition fee** for both domestic and international students.",
+    "* **Thriving Bio-Economy Job Market:** Expansive employment across pharmaceutical giants (Bayer, Boehringer Ingelheim, BioNTech, Merck), biotech startups, and clinical research organizations.",
+    "**Edu Hawk Worldwide Consultancy** assists students in understanding university admission requirements, completing mandatory APS certification, and navigating the entire overseas education journey with structured expert guidance."
   ],
-  "level": "B.Sc. & M.Sc. in Biotechnology / Bioengineering",
-  "crumb": "Life Sciences / Biotechnology",
-  "stats": [
+  level: "B.Sc., M.Sc. & PhD in Biotechnology / Bioengineering",
+  crumb: "Life Sciences / Biotechnology",
+  stats: [
     {
-      "label": "Degree Choices",
-      "value": "B.Sc. & M.Sc. in Biotechnology / Bioengineering"
+      label: "Degree Choices",
+      value: "B.Sc., M.Sc. & PhD in Biotechnology"
     },
     {
-      "label": "Course Duration",
-      "value": "3 to 6 Years"
+      label: "Course Duration",
+      value: "UG: 3-3.5 Yrs | PG: 1-2 Yrs | PhD: 3-5 Yrs"
     },
     {
-      "label": "Top Institutions",
-      "value": "The   Technical University of Munich (TUM)   conducts research and studies in the fields of biotechnology, molecular life sciences and bioengineering., Research in molecular biosciences and biotechnology is conducted at       TU Dresden    ."
+      label: "Top Institutions",
+      value: "TUM, TU Dresden, Heidelberg, Stuttgart"
     },
     {
-      "label": "Post-Study Work",
-      "value": "18-Month Jobseeker Visa (Residence Permit)"
+      label: "Post-Study Work",
+      value: "18-Month Jobseeker Visa (Residence Permit)"
     }
   ],
-  "sections": [
+  sections: [
     {
-      "slot": "why",
-      "eyebrow": "Why Study in Germany",
-      "title": "1. Why study biotechnology in Germany?",
-      "groups": [
+      slot: "courses",
+      eyebrow: "Curriculum & Specializations",
+      title: "Biotechnology Courses & Specializations in Germany",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Germany is a popular destination for biotechnology studies because of its research infrastructure, cutting-edge labs and close partnerships between universities and biotechnology companies.",
-            "Students may study a number of subjects such as genetic engineering, molecular biology, pharmaceutical drugs, bioinformatics and industrial biotechnology.",
-            "**The main advantages include:**",
-            "**Edu Hawk Worldwide Consultancy** assists students in understanding the university admission requirements, explore international study options and prepare for the **overseas education journey** with the right preparation and guidance."
+          t: "p",
+          items: [
+            "German universities offer recognized undergraduate, postgraduate, and doctoral degree programs spanning molecular biosciences, biochemical engineering, and computational life sciences.",
+            "Program durations typically span: Bachelor's degrees take 3 to 3.5 years (180 to 210 ECTS); Master's degrees take 1 to 2 years (60 to 120 ECTS); and PhD programs require 3 to 5 years of independent research.",
+            "Popular degree options and specializations include:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "There are modern and accessible **laboratories and research** facilities.",
-            "Opportunities to engage in internships and research projects.",
-            "There are a lot of **bachelor and master programs**.",
-            "Many public colleges have **relatively low tuition**.",
-            "Biotechnology, pharmaceuticals, life sciences and healthcare research jobs."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "courses",
-      "eyebrow": "Curriculum & Specializations",
-      "title": "2. Germany Courses in Biotechnology",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "German universities offer undergraduate, graduate and doctorate **biotechnology courses**",
-            "The popular biotechnology courses in Germany include:",
-            "Depending on the research project and the institution",
-            "Students are advised to check the language of instruction before applying, as courses may be taught in **German or English**."
-          ]
-        },
-        {
-          "t": "pills",
-          "items": [
-            "BSc Molecular Biotechnology",
-            "BSc Biotechnology",
-            "BSc Bioengineering",
-            "MSc in Biotechnology",
+          t: "pills",
+          items: [
+            "B.Sc. in Molecular Biotechnology",
+            "B.Sc. in Bioengineering & Technical Biology",
+            "M.Sc. in Biotechnology & Applied Biosciences",
             "Master of Science in Industrial Biotechnology",
-            "Master of Science in Molecular Biology",
-            "MSc Pharmaceutical Biotechnology",
-            "Master of Science of Bioinformatics",
-            "PhD in Biotechnology or equivalent",
-            "3-3.5 years is a typical time to earn a bachelor's degree",
-            "Master’s degrees usually take 1-2 years",
-            "Doctorate programs usually last 3–5 years"
+            "M.Sc. in Pharmaceutical Biotechnology",
+            "M.Sc. in Molecular Biology & Cellular Genetics",
+            "Master of Science in Bioinformatics & Systems Biology",
+            "Bioprocess Engineering & Fermentation Technology",
+            "Gene Therapy & Genetic Engineering",
+            "Immunology & Vaccine Development",
+            "Nanobiotechnology & Biomaterials",
+            "PhD in Biotechnology / Life Sciences"
           ]
         }
       ]
     },
     {
-      "slot": "universities",
-      "eyebrow": "Top German Universities",
-      "title": "3. Germany's TopBiotechnology Universities and Institutions",
-      "groups": [
+      slot: "unis",
+      eyebrow: "Top German Universities",
+      title: "Best German Universities & Research Institutions for Biotechnology",
+      unis: [
         {
-          "t": "p",
-          "items": [
-            "The following are a few ****German universities offering biotechnology programs**** or programs that are closely related:",
-            "The **Technical University of Munich (TUM)** conducts research and studies in the fields of biotechnology, molecular life sciences and bioengineering.",
-            "Research in molecular biosciences and biotechnology is conducted at ****TU Dresden**. **",
-            "Molecular biotechnology and biological sciences at the **University of Heidelberg**.",
-            "Technical biology and associated interdisciplinary topics are taught at the **University of Stuttgart.**",
-            "****",
-            "Students should visit each institution's official website to verify the most recent ****program availability, teaching language, entrance requirements, and application deadlines****."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Eligibility Criteria",
-      "title": "4. Eligibility Requirements for Biotechnology Studies in Germany",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Eligibility is set by the **university** and the level of degree.",
-            "In terms of bachelor degrees:",
-            "Regarding master’s degrees:",
-            "PhD Programs:"
-          ]
+          name: "Technical University of Munich (TUM)",
+          city: "Munich, Bavaria",
+          qsRank: "Top 30 Worldwide | German University of Excellence",
+          tuition: "Non-EU tuition fees vary by program + ~€85/semester contribution",
+          programs: "B.Sc. & M.Sc. in Molecular Biotechnology, M.Sc. in Industrial Biotechnology",
+          highlights: "Located at the Weihenstephan life sciences campus; world-leading research in molecular biology, synthetic biology, and industrial enzyme technology.",
+          link: "https://www.tum.de",
+          img: uniImg1
         },
         {
-          "t": "ul",
-          "items": [
-            "Secondary school education, which qualifies for admission to a German university.",
-            "Academic preparation in areas like biology, chemistry, mathematics and sometimes physics.",
-            "Proficiency in either English or German, depending on the needs of the program.",
-            "Some international qualifications may require a preparatory course or other recognized qualifications.",
-            "Recognized **bachelor’s degree** in chemical engineering, biotechnology, biology, biochemistry, molecular biology or equivalent.",
-            "Credits in related fields are required, depending on course.",
-            "Evidence of English or German proficiency.",
-            "Some programs may have minimum GPA, research experience, or laboratory experience requirements.",
-            "A relevant **master’s degree** or equivalent qualification is usually required.",
-            "A relevant **research background** and consent of a research group or PhD supervisor"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "admission",
-      "eyebrow": "Admission Requirements",
-      "title": "5. Admission requirements for German biotechnology",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Candidates may be required to provide:",
-            "Some universities accept applications directly, others use **uni-assist** for the assessment of applications from abroad. Institutions are different, needs are different."
-          ]
+          name: "TU Dresden (TUD)",
+          city: "Dresden, Saxony",
+          qsRank: "German University of Excellence | TU9 Alliance Member",
+          tuition: "€0 Tuition (Public) | ~€290/semester contribution (incl. state transit pass)",
+          programs: "M.Sc. in Molecular Bioengineering, M.Sc. in Nanobiophysics",
+          highlights: "Home to the Center for Molecular and Cellular Bioengineering (CMCB); pioneering research in regenerative therapies, biophysics, and tissue engineering.",
+          link: "https://tu-dresden.de",
+          img: uniImg2
         },
         {
-          "t": "ul",
-          "items": [
-            "Academic transcripts and certificates.",
-            "**English proficiency** documentation, if required and accepted, such as **TOEFL or IELTS**.",
-            "If the course is taught in German, the certificate will also be in German.",
-            "A resume or CV.",
-            "A letter of intent or motivation.",
-            "Letters of recommendation, if required.",
-            "A ** research proposal ** for some PhD courses."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "fees",
-      "eyebrow": "Tuition Fees & Living Costs",
-      "title": "6. Biotechnology Education Cost  in Germany",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Costs differ at the institution and federal state level, but studying in Germany can be affordable, especially at **public universities**.",
-            "**Approximate tuition costs are:**",
-            "Students should also budget for **study material, travel, health insurance and visa related costs**. **Scholarships and funding for research** might be available."
-          ]
+          name: "Heidelberg University (Universität Heidelberg)",
+          city: "Heidelberg, Baden-Württemberg",
+          qsRank: "Top 50 Worldwide | Germany's Oldest University",
+          tuition: "€1,500/semester (Baden-Württemberg non-EU fee) + ~€170 semester fee",
+          programs: "B.Sc. & M.Sc. in Molecular Biotechnology, M.Sc. in Translational Medical Research",
+          highlights: "Direct integration with the German Cancer Research Center (DKFZ) and European Molecular Biology Laboratory (EMBL); elite global reputation in biomedical research.",
+          link: "https://www.uni-heidelberg.de",
+          img: uniImg3
         },
         {
-          "t": "ul",
-          "items": [
-            "For consecutive bachelor and master programs at public universities, there is often no general tuition fee, but you have to pay semester fees.",
-            "Some **international students** (some non-EU students included) have to pay tuition fees in some universities and states .",
-            "The cost of going to a private university can range from **€5,000 to €20,000 or more per year.",
-            "The contribution for a semester is generally between **€150 and €400**, depending on the university and the services included.",
-            "Depending on city, accommodation, insurance and lifestyle, estimated monthly living costs range from **€900 to €1,300."
+          name: "University of Stuttgart",
+          city: "Stuttgart, Baden-Württemberg",
+          qsRank: "TU9 Alliance Member | Top Engineering & Tech Faculty",
+          tuition: "€1,500/semester (Baden-Württemberg non-EU fee) + ~€200 semester fee",
+          programs: "B.Sc. & M.Sc. in Technical Biology, M.Sc. in Bioprocess Engineering",
+          highlights: "Specialized focus on industrial bioprocess engineering, biochemical reaction technology, and interdisciplinary technical microbiology.",
+          link: "https://www.uni-stuttgart.de",
+          img: uniImg4
+        }
+      ]
+    },
+    {
+      slot: "requirements",
+      eyebrow: "Eligibility Criteria",
+      title: "Eligibility Requirements for Biotechnology in Germany",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Eligibility criteria depend on the degree level and university format (academic research university vs. university of applied sciences):",
+            "**Undergraduate (Bachelor's) Eligibility:**",
+            "* **Higher Secondary Qualification:** School-leaving certificate equivalent to the German Abitur with strong subject background in Biology, Chemistry, Mathematics, and Physics.",
+            "* **Studienkolleg Requirement:** Indian applicants with 12-year higher secondary education (CBSE/ICSE/State Boards) generally complete a 1-year preparatory foundation course (**Studienkolleg M-Kurs** for medical/life sciences or **T-Kurs** for bioengineering) and pass the **Feststellungsprüfung (FSP)**, unless qualifying via 1 year of university study in India or an IB Diploma.",
+            "* **Language Proficiency:** English-taught tracks require IELTS (6.0 - 6.5) or TOEFL iBT (80 - 90). German-taught tracks require TestDaF (4x4) or DSH-2.",
+            "**Postgraduate (Master's) Eligibility:**",
+            "* **Recognized Bachelor's Degree:** An approved 3-year or 4-year undergraduate degree (B.Sc., B.Tech, or B.E.) in Biotechnology, Molecular Biology, Biochemistry, Bioengineering, or related life sciences with minimum 180 ECTS.",
+            "* **Subject-Credit (ECTS) Prerequisites:** Comprehensive transcript evaluation in organic chemistry, biochemistry, genetics, cell biology, and mathematics/statistics.",
+            "* **Academic Threshold:** Minimum German grade equivalent of 2.5 or better (approx. 65-70%+ or CGPA 7.0+/10).",
+            "**Doctoral (PhD) Eligibility:**",
+            "* An approved Master's degree (M.Sc., M.Tech) in biotechnology or molecular sciences, prior research publication experience, and formal acceptance by a doctoral supervisor or graduate research school."
           ]
+        }
+      ]
+    },
+    {
+      slot: "admissions",
+      eyebrow: "Application Checklist",
+      title: "Admission Requirements for Biotechnology Programs in Germany",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Indian students must obtain the mandatory **APS Certificate** from APS India before submitting university applications.",
+            "Standard documentation required by German universities includes:",
+            "* Valid Passport (minimum 12 months validity).",
+            "* Certified Secondary School Certificates & Marksheets (10th & 12th standards).",
+            "* Bachelor's Degree Certificate and official consolidated transcripts (for Master's applicants).",
+            "* Detailed Course Syllabi / Module Descriptions (required for ECTS evaluation).",
+            "* **Mandatory APS Certificate** (issued by APS India).",
+            "* Official English Language Proficiency scorecard (IELTS Academic or TOEFL iBT).",
+            "* German Language Certificates (if enrolled in bilingual or German-taught modules: B1/B2/TestDaF).",
+            "* Statement of Purpose (SOP) / Letter of Motivation detailing laboratory experience and research goals.",
+            "* Europass format CV detailing academic achievements, lab protocols, and technical projects.",
+            "* Two Academic Letters of Recommendation (LORs) from university professors.",
+            "* Research Proposal and supervisor consent letter (for PhD applicants).",
+            "* Proof of laboratory internships, clinical training, or scientific publications (if applicable)."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "costs",
+      eyebrow: "Financial Planning",
+      title: "Cost of Studying Biotechnology in Germany",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Germany offers exceptional value for world-class biomedical and life sciences education:",
+            "* **Public Universities:** Consecutive Bachelor's and Master's programs across 15 of Germany's 16 federal states charge **€0 tuition fee** for all students regardless of nationality.",
+            "* **Baden-Württemberg State Tuition:** Public universities in Baden-Württemberg (e.g., Heidelberg, Stuttgart) charge **€1,500 per semester** for non-EU international students.",
+            "* **Semester Contribution (Semesterbeitrag):** Public institutions require an administrative fee of **€150 to €400 per semester**, which includes an all-inclusive regional public transportation ticket (Semesterticket).",
+            "* **Private Universities:** Private colleges charge between **€5,000 and €20,000+ per year**.",
+            "* **Monthly Living Expenses:** Budget approximately **€900 to €1,300 per month** covering student housing (€350 - €600), statutory health insurance (~€125 - €130), meals, groceries, and personal items.",
+            "* **German Blocked Account (Sperrkonto):** International students must deposit **€11,904 per year** into an approved German blocked account as proof of financial resources for student visa approval.",
+            "* **Funded PhD Positions:** Most doctoral candidates in Germany are employed as research assistants (Wissenschaftliche Mitarbeiter), receiving monthly salaries between €1,800 and €2,600 net under TV-L E13."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "timeline",
+      eyebrow: "Step-by-Step Pathway",
+      title: "Admission Procedure for Biotechnology in Germany",
+      steps: [
+        {
+          num: "01",
+          title: "Select Program & Research Domain",
+          desc: "Choose whether you are pursuing a Bachelor's, Master's, or PhD in Molecular Biotechnology, Industrial Bioprocesses, or Bioinformatics."
         },
         {
-          "t": "table",
-          "headers": [
-            "Category / Expense Type",
-            "Estimated Amount (EUR)",
-            "Applicability & Regulation"
-          ],
-          "rows": [
-            [
-              "For consecutive bachelor and master programs at public universities, there is often no general tuition fee, but you have to pay semester fees.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "Some international students (some non",
-              "EU students included) have to pay tuition fees in some universities and states .",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "The cost of going to a private university can range from €5,000 to €20,000 or more per year.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "The contribution for a semester is generally between €150 and €400, depending on the university and the services included.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "Depending on city, accommodation, insurance and lifestyle, estimated monthly living costs range from €900 to €1,300.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "process",
-      "eyebrow": "Application Timeline & Steps",
-      "title": "7. Admission Procedure for Biotechnology in Germany",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The general steps in **admission process of biotechnology in Germany** are:"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "why",
-      "eyebrow": "Why Study in Germany",
-      "title": "1. Find out about universities and choose a suitable biotechnology program.",
-      "groups": []
-    },
-    {
-      "slot": "courses",
-      "eyebrow": "Curriculum & Specializations",
-      "title": "2. Check language of instruction, prerequisites and eligibility.",
-      "groups": []
-    },
-    {
-      "slot": "universities",
-      "eyebrow": "Top German Universities",
-      "title": "3. Prepare the language test scores and academic transcripts.",
-      "groups": []
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Eligibility Criteria",
-      "title": "4. If applicable, apply through the university website or uni-assist.",
-      "groups": []
-    },
-    {
-      "slot": "admission",
-      "eyebrow": "Admission Requirements",
-      "title": "5. Complete any other required tests or interviews.",
-      "groups": []
-    },
-    {
-      "slot": "fees",
-      "eyebrow": "Tuition Fees & Living Costs",
-      "title": "6. Accept the offer after an admissions decision.",
-      "groups": []
-    },
-    {
-      "slot": "process",
-      "eyebrow": "Application Timeline & Steps",
-      "title": "7. Arrange financial, accommodation and health insurance.",
-      "groups": []
-    },
-    {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Quality Standards",
-      "title": "8. Apply for a German student visa if needed.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The application dates vary by university and program. Students should inform themselves beforehand about the deadlines if documents need to be translated or officially certified."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Quality Standards",
-      "title": "8. Accreditation and Recognition of Biotechnology in Germany",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Students should check that the ** university and the degree program are recognized in Germany ** before registering.",
-            "Biotechnology degrees are offered by approved private and public colleges, but curriculum designs and research opportunities vary.",
-            "Biotechnology is not generally a licensed profession like medicine and pharmacy. Some laboratory, clinical research, pharmaceutical and quality-control tasks, however, may require specialized training or knowledge of relevant legislation.",
-            "Students who wish to work abroad must ensure that their **German qualification** meets the professional or academic requirements of the country."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Career Prospects & Salary",
-      "title": "9. Employment and Pay Opportunities in Germany Post Biotechnology",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Jobs for biotechnology graduates in Germany can be found in industrial manufacturing, food technology, agricultural biotechnology, pharmaceutical companies, research labs and diagnostic labs.",
-            "**There are many career opportunities including**",
-            "Indicative **gross annual salaries** can range from **€35,000–€50,000 for many entry-level jobs** to around **€50,000–€75,000 or more for experienced specialists**, depending on the role, employer, location and qualifications.",
-            "Strong **laboratory skills, experience in data analysis, internships and German language skills** can improve employment opportunities.",
-            "Research positions may have a requirement for a **master’s degree or PhD**."
-          ]
+          num: "02",
+          title: "Shortlist Universities & Labs",
+          desc: "Compare public universities (€0 tuition) versus research clusters (Max Planck / Helmholtz partnerships), checking English instruction tracks."
         },
         {
-          "t": "ul",
-          "items": [
-            "**Associate, Biotech Research**",
-            "LABORATORY SCIENTIST",
-            "The engineer of bioprocess",
-            "A molecular biologist",
-            "Quality Control Analyst",
-            "Pharmaceutical Research Associate Bioinformatics Analyst",
-            "Clinical Research Coordinator",
-            "Biomanufacturing Specialist"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Required Documentation",
-      "title": "10. Documents Required for Studying Biotechnology in Germany",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The documents typically needed to study biotechnology in Germany are:",
-            "Always follow the specific document list given to you by the German visa authorities and the university."
-          ]
+          num: "03",
+          title: "Verify Subject ECTS & Secure APS",
+          desc: "Map your undergraduate transcript credits in biochemistry, molecular biology, and math, and apply early for the mandatory APS Certificate via APS India."
         },
         {
-          "t": "ul",
-          "items": [
-            "A valid passport.",
-            "School or university transcripts and certificates.",
-            "Master's degree applications require transcripts and bachelor's degree certificates.",
-            "Certificates of English or German language proficiency where applicable.",
-            "CV/resume.",
-            "Motivation letter / Statement of purpose.",
-            "Letters of recommendation as required.",
-            "Some PhD applications require a research proposal.",
-            "Translations of documents as needed (certified). **Documents relating to visas and proof of financial resources."
+          num: "04",
+          title: "Appear for Language Proficiency Exams",
+          desc: "Complete IELTS Academic (6.5 - 7.0) or TOEFL iBT (90 - 100), and prepare German certificates if enrolled in German-taught tracks."
+        },
+        {
+          num: "05",
+          title: "Assemble Comprehensive Technical Dossier",
+          desc: "Draft a research-oriented SOP, build your Europass CV highlighting lab methods, obtain 2 academic LORs, and compile course syllabi."
+        },
+        {
+          num: "06",
+          title: "Submit University Applications",
+          desc: "Apply via Uni-Assist or directly to university portals before July 15 (Winter Intake) or January 15 (Summer Intake)."
+        },
+        {
+          num: "07",
+          title: "Complete Video Interviews or Lab Assessments",
+          desc: "Attend virtual academic interviews or take subject-matter aptitude tests if shortlisted by competitive departments."
+        },
+        {
+          num: "08",
+          title: "Accept Offer of Admission",
+          desc: "Receive your official Letter of Admission (Zulassungsbescheid) and pay any initial semester administrative contribution."
+        },
+        {
+          num: "09",
+          title: "Open Blocked Account & Secure Visa",
+          desc: "Deposit €11,904 in a German blocked account (Sperrkonto), obtain statutory health insurance, and apply for the National Student Visa (Subtype 16b)."
+        },
+        {
+          num: "10",
+          title: "Travel to Germany & University Matriculation",
+          desc: "Arrive in Germany, complete city registration (Anmeldung), finalize university matriculation (Immatrikulation), and commence your laboratory research training."
+        }
+      ]
+    },
+    {
+      slot: "accreditation",
+      eyebrow: "Quality Standards",
+      title: "Accreditation & Quality Recognition of Biotechnology in Germany",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Before selecting an institution, verify that the biotechnology program holds recognized accreditation and quality seals:",
+            "* **ASIIN Accreditation:** European quality assurance agency specializing in Engineering, Informatics, Architecture, and Natural Sciences.",
+            "* **German State Recognition (Staatlich Anerkannt):** Public universities are state-funded and systematically evaluated by the German Council of Science and Humanities (Wissenschaftsrat) and indexed on Anabin.",
+            "* **Good Laboratory Practice (GLP) & GMP Standards:** Curriculums align with European Medicines Agency (EMA) and Federal Institute for Drugs and Medical Devices (BfArM) compliance for clinical and industrial biosafety.",
+            "* **Worldwide Recognition:** German biotechnology degrees provide unrestricted global recognition for doctoral study, clinical research, and multinational pharmaceutical industry employment."
           ]
         }
       ]
     },
     {
-      "slot": "details",
-      "eyebrow": "Key Insights",
-      "title": "11. FAQ’s",
-      "groups": [
+      slot: "careers",
+      eyebrow: "Employment Outlook",
+      title: "Career & Salary Opportunities After Biotechnology in Germany",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Q1. Are foreign students allowed to study biotechnology in Germany?",
-            "Yes, international students can pursue biotechnology studies in Germany . They have to meet the academic, language and program-specific requirements .",
-            "Q2. Is it free to study biotechnology in Germany ?",
-            "Many German public universities do not charge general tuition fees for some degree programs, but instead require semester fees. Generally private universities charge tuition . Some states and institutions do .",
-            "Q3. Can I study biotechnology in English in Germany?",
-            "Yes. German-taught options are also prevalent, but there are some **bachelor, master and doctorate programs** taught in English. Please check language requirements for each program.",
-            "Q4. What are the eligibility criteria for pursuing a Master’s in Biotechnology in Germany?",
-            "Applicants are usually expected to have a suitable **bachelor's degree** and have accumulated sufficient credits in courses like biotechnology, biology, biochemistry or similar topics. Language proficiency and minimum grade requirements vary.",
-            "Q5. What are the career options after graduation in Biotechnology in Germany?",
-            "Graduates can work in **biotechnology companies, pharmaceutical research, laboratory science, bioprocessing, quality control, bioinformatics and academic research**. Some research positions require a PhD.",
-            "How can I study abroad with the assistance of **Edu Hawk Worldwide Consultancy?**",
-            "Students may plan their **study-abroad journey**, organize their application materials, research appropriate universities, and comprehend **admission requirements** with the assistance of Edu Hawk worldwide . Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
+          t: "p",
+          items: [
+            "Graduates of biotechnology programs in Germany enter one of the world's most robust life sciences sectors, encompassing biopharmaceuticals, agricultural biotechnology, industrial fermentation, and clinical diagnostics.",
+            "Popular career profiles include:",
+            "* **Bioprocess Engineer:** Designing and scaling upstream and downstream cell fermentation, purification, and bioreactor processes.",
+            "* **Molecular Biologist / Research Scientist:** Conducting gene editing (CRISPR), cellular assay development, and recombinant protein engineering.",
+            "* **Bioinformatics Analyst:** Analyzing genomic sequencing data, protein structure modeling, and computational biological databases.",
+            "* **Quality Control & Quality Assurance (QC/QA) Analyst:** Ensuring biopharmaceutical manufacturing conforms to strict GMP, FDA, and EMA guidelines.",
+            "* **Clinical Research Associate (CRA):** Monitoring phase I-IV pharmaceutical clinical trials, regulatory compliance, and patient data accuracy.",
+            "* **Biomanufacturing Specialist:** Operating large-scale automated biological production facilities for therapeutic antibodies and vaccines.",
+            "**Estimated Gross Annual Salaries in Germany:**",
+            "* **Entry-Level Roles (B.Sc. / M.Sc.):** **€40,000 to €52,000** per year.",
+            "* **Experienced Specialists (3-5+ years):** **€55,000 to €75,000** per year.",
+            "* **Senior Scientists, Lab Directors & PhD Graduates:** **€78,000 to €110,000+** per year.",
+            "Salaries are competitive across major biotech clusters in Bavaria (Munich/Martinsried), Baden-Württemberg (Heidelberg/Mannheim), Rhine-Main (Frankfurt), and Berlin-Brandenburg."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "documents",
+      eyebrow: "Required Paperwork",
+      title: "Documents Required to Study Biotechnology in Germany",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Ensure all documentation is neatly compiled, translated into English or German, and verified where applicable:",
+            "* Valid Passport (minimum 12 months validity).",
+            "* Secondary School Certificates & Marksheets (10th & 12th standards).",
+            "* Bachelor's Degree Certificate and consolidated grade transcripts (for Master's applicants).",
+            "* Detailed Course Syllabi / Module Handbook (required for ECTS evaluation).",
+            "* **Mandatory APS Certificate** issued by the Academic Evaluation Centre (APS India).",
+            "* English Language Proficiency scorecards (IELTS Academic 6.5+ or TOEFL iBT 90+).",
+            "* German Language Certificates (if enrolled in German or bilingual modules: B1/B2/TestDaF).",
+            "* Statement of Purpose (SOP) tailored specifically to your chosen biotechnology curriculum.",
+            "* Europass format CV detailing academic achievements, laboratory skills, and instrumentation experience.",
+            "* Two Academic/Professional Letters of Recommendation (LORs).",
+            "* Research Proposal (for PhD applicants).",
+            "* Proof of Laboratory Internships, Research Projects, or Scientific Publications.",
+            "* Blocked Account Confirmation (€11,904) and German Statutory Health Insurance.",
+            "* Official University Admission Letter (Zulassungsbescheid)."
           ]
         }
       ]
     }
   ],
-  "faqs": []
+  faqs: [
+    {
+      q: "Can international students study Biotechnology in Germany?",
+      a: "Yes. International students from India and across the world are eligible to pursue Bachelor's, Master's, and PhD programs in Biotechnology across German universities, provided they fulfill the required academic prerequisites, subject-credit criteria, and language standards."
+    },
+    {
+      q: "Is it tuition-free to study Biotechnology in Germany?",
+      a: "Yes. Public universities across 15 of Germany's 16 federal states charge zero tuition fees for both EU and non-EU international students, requiring only a modest semester contribution of €150 to €400 (which includes a regional public transit pass). In Baden-Württemberg, public university tuition is €1,500 per semester. Private colleges charge standard tuition."
+    },
+    {
+      q: "Can I study Biotechnology in English in Germany?",
+      a: "Yes. Numerous Master of Science (M.Sc.) and PhD programs in Molecular Biotechnology, Bioengineering, Bioinformatics, and Industrial Microbiology are taught entirely in English. While undergraduate programs are predominantly in German, an increasing number of international Bachelor's programs are offered in English."
+    },
+    {
+      q: "What are the eligibility criteria for a Master’s in Biotechnology in Germany?",
+      a: "Applicants require a recognized Bachelor's degree (B.Sc., B.Tech, or B.E.) in Biotechnology, Biochemistry, Molecular Biology, or a related discipline with sufficient ECTS credits in chemistry, genetics, cell biology, and mathematics, a minimum German grade equivalent of 2.5 or better, and English proficiency (IELTS 6.5+ or TOEFL iBT 90+)."
+    },
+    {
+      q: "What career options and post-study work rights are available after graduation?",
+      a: "Graduates are entitled to an 18-month post-study work visa (Residence Permit for Jobseekers) in Germany. Graduates enter high-demand careers in biopharmaceutical manufacturing, molecular genetics research, bioinformatics analytics, clinical trial coordination, and quality control, earning starting salaries between €40,000 and €52,000 per year."
+    }
+  ]
 };
 
 export default function BiotechnologyGermanyPage() {
@@ -418,30 +359,18 @@ export default function BiotechnologyGermanyPage() {
     hero: heroImg,
     heroBg: heroBgImg,
     side: sideImg,
-    ctaBg: ctaBgImg,
-    universities: [
-    {
-      name: "The   Technical University of Munich (TUM)   conducts research and studies in the fields of biotechnology, molecular life sciences and bioengineering.",
-      img: uniImg1,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "Research in molecular biosciences and biotechnology is conducted at       TU Dresden    .",
-      img: uniImg2,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "Molecular biotechnology and biological sciences at the   University of Heidelberg  .",
-      img: uniImg3,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "Technical biology and associated interdisciplinary topics are taught at the   University of Stuttgart.",
-      img: uniImg4,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    }
-    ]
+    ctaBg: ctaBgImg
   };
 
-  return <AbroadCoursePage page={page} images={images} />;
+  return (
+    <AbroadCoursePage
+      page={page}
+      images={images}
+      heroImg={heroImg}
+      heroBgImg={heroBgImg}
+      sideImg={sideImg}
+      ctaBgImg={ctaBgImg}
+      seoPath="/study-abroad/germany/mbbs-abroad/biotechnology"
+    />
+  );
 }

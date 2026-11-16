@@ -13,371 +13,303 @@ import uniImg2 from "../../../../Images/Abroad/Germany/Physiotherapy/Alice_Salom
 import uniImg3 from "../../../../Images/Abroad/Germany/Physiotherapy/Osnabr_ck_University_of_Applied_Sci.webp";
 
 const page = {
-  "name": "Physiotherapy in Germany",
-  "country": "Germany",
-  "slug": "physiotherapy",
-  "title": "Physiotherapy in Germany for Indian Students | Edu-Hawk Worldwide",
-  "description": "Complete guide to Physiotherapy in Germany for international students: Top German universities, admission requirements, zero-tuition public education, living expenses, and 18-month post-study work visa.",
-  "keywords": "Study Physiotherapy in Germany for Indian Students, Physiotherapy Courses in Germany for International Students, Physiotherapy Vocational Training in Germany, Bachelor’s in Physiotherapy in Germany, Master’s in Physiotherapy in Germany, Best Universities for Physiotherapy in Germany, Physiotherapy Eligibility Requirements in Germany, German Language Requirements for Physiotherapy in Germany, Physiotherapy Admission Requirements in Germany, Physiotherapy Tuition Fees in Germany, Cost of Living for Physiotherapy Students in Germany, Physiotherapy Career Opportunities and Salary in Germany, Documents Required to Study Physiotherapy in Germany",
-  "introTitle": "STUDY GERMAN PHYSIOTHERAPY COURSES IN GERMANY",
-  "heroParas": [
-    "Comprehensive guide to Physiotherapy in Germany for international students in Germany."
+  name: "Physiotherapy in Germany",
+  country: "Germany",
+  slug: "physiotherapy",
+  title: "Physiotherapy in Germany for Indian Students | Edu-Hawk Worldwide",
+  description:
+    "Complete guide to studying Physiotherapy in Germany: B.Sc. degrees, dual vocational Ausbildung training, state licensing under MPhG, top universities, tuition fees, and career opportunities.",
+  keywords:
+    "Study Physiotherapy in Germany for Indian Students, Physiotherapy Courses in Germany for International Students, Physiotherapy Vocational Training in Germany, Bachelor's in Physiotherapy in Germany, Master's in Physiotherapy in Germany, Best Universities for Physiotherapy in Germany, Physiotherapy Eligibility Requirements in Germany, German Language Requirements for Physiotherapy in Germany, Physiotherapy Admission Requirements in Germany, Physiotherapy Tuition Fees in Germany, Cost of Living for Physiotherapy Students in Germany, Physiotherapy Career Opportunities and Salary in Germany, Documents Required to Study Physiotherapy in Germany",
+  introTitle: "Study German Physiotherapy Courses in Germany",
+  heroParas: [
+    "Germany offers world-renowned orthopedic rehabilitation facilities, evidence-based academic degrees, and dual vocational training (*Ausbildung*) in physiotherapy, providing international students with hands-on clinical experience, low or zero tuition fees, and state licensing (*Staatliche Anerkennung*) to practice across Europe."
   ],
-  "overview": [
-    "Explore academic curriculum, admission standards, top universities, tuition structure, and career pathways in Germany."
+  overview: [
+    "**Key advantages of studying physiotherapy in Germany:**",
+    "* **State-Regulated Medical Standards:** Governed by the federal *Masseur- und Physiotherapeutengesetz (MPhG)* ensuring elite EU-wide professional accreditation.",
+    "* **Practical Clinical Immersion:** Over 1,600 hours of mandatory supervised clinical internships in orthopedic centers, university hospitals, and sports clinics.",
+    "* **Dual Vocational Stipends:** Students enrolled in hospital-based vocational *Ausbildung* programs receive a monthly training stipend (€1,050 to €1,300/month).",
+    "* **Zero or Low Tuition:** Public universities of applied sciences (*Fachhochschulen*) charge no universal tuition fees, requiring only semester contributions.",
+    "* **High Employment Demand:** Rapidly aging demographics and active sports cultures ensure high demand for certified physiotherapists in clinics, private practices, and rehabilitation resorts."
   ],
-  "level": "Bachelor of Science (B.Sc.) in Physiotherapie",
-  "crumb": "Health Sciences / Physiotherapy",
-  "stats": [
+  level: "Bachelor of Science (B.Sc.) / Dual Ausbildung / M.Sc.",
+  crumb: "Health Sciences / Physiotherapy",
+  stats: [
     {
-      "label": "Degree Choices",
-      "value": "Bachelor of Science (B.Sc.) in Physiotherapie"
+      label: "Program Types",
+      value: "B.Sc. (3–4 Yrs) / Dual Ausbildung (3 Yrs)"
     },
     {
-      "label": "Course Duration",
-      "value": "3 to 6 Years"
+      label: "Tuition / Stipend",
+      value: "€0 Tuition / €1,050–€1,300/mo Stipend"
     },
     {
-      "label": "Top Institutions",
-      "value": "Hochschule Furtwangen University, Alice Salomon University of Applied Sciences"
+      label: "Language Needed",
+      value: "German B2 (Clinical & Patient Care)"
     },
     {
-      "label": "Post-Study Work",
-      "value": "18-Month Jobseeker Visa (Residence Permit)"
+      label: "Post-Study Visa",
+      value: "18-Month Jobseeker Visa"
     }
   ],
-  "sections": [
+  sections: [
     {
-      "slot": "why",
-      "eyebrow": "Why Study in Germany",
-      "title": "1. Why Go to Germany to Study Physiotherapy?",
-      "groups": [
+      slot: "why",
+      eyebrow: "Why Germany",
+      title: "Why Study Physiotherapy in Germany?",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Germany has state-of-the-art **rehabilitation facilities** , practical **clinical training** , and high-quality **physiotherapy education**.",
-            "Students gain knowledge about how to help patients regain their range of motion, control their pain and enhance their physical function.",
-            "Among the main advantages are:",
-            "Possibilities for more **specialization**.",
-            "With proper planning and assistance, **Edu Hawk Worldwide Consultancy** helps students understand university admission requirements, explore international study possibilities and prepare for the **overseas education journey**."
+          t: "p",
+          items: [
+            "Germany is a global pioneer in physical medicine, trauma rehabilitation, and orthopedic sports science. State-of-the-art rehabilitation clinics and university medical centers provide unmatched clinical training environments.",
+            "Physiotherapy students gain mastery over musculoskeletal therapy, neurological recovery (Bobath/Vojta concepts), cardiorespiratory physiotherapy, and pediatric movement rehabilitation, supported by modern biomechanical laboratories."
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "In **healthcare settings** practical training is provided.",
-            "Opportunities to study modern **rehabilitation techniques**.",
-            "Career prospects in **hospitals, clinics, and rehabilitation centres**",
-            "There are public schools that might provide **cheap education**."
+          t: "points",
+          title: "Core Benefits for International Candidates",
+          items: [
+            "**Direct Clinical Exposure:** Immediate integration into real patient care through clinical rotations in university hospitals and trauma centers.",
+            "**Tuition-Free Academic Degrees:** Public universities offer accredited Bachelor of Science (B.Sc.) degrees without tuition fees (except state of Baden-Württemberg).",
+            "**Earn While Learning:** Hospital-affiliated *Ausbildung* training programs pay an attractive gross monthly allowance, significantly reducing the cost of living.",
+            "**EU-Wide Professional Freedom:** The German state title *Staatlich anerkannte/r Physiotherapeut/in* permits professional practice throughout Germany and member states of the European Union."
           ]
         }
       ]
     },
     {
-      "slot": "courses",
-      "eyebrow": "Curriculum & Specializations",
-      "title": "2. German Physiotherapy Courses",
-      "groups": [
+      slot: "cards",
+      eyebrow: "Study Models",
+      title: "German Physiotherapy Course Pathways",
+      text: "International students can choose between dual clinical apprenticeship and university academic tracks:",
+      cards: [
         {
-          "t": "p",
-          "items": [
-            "The following are common ****physiotherapy study options in Germany**:**",
-            "Each university has different **professional outcomes** and program availability."
-          ]
+          badge: "Vocational Track",
+          title: "Vocational Training (Ausbildung - 3 Years)",
+          desc: "Three-year hospital-based professional training combining 2,900 theoretical hours with 1,600 practical clinical hours. Graduates earn the state professional title and receive monthly stipends ranging from €1,050 to €1,300."
         },
         {
-          "t": "pills",
-          "items": [
-            "Vocational training in physiotherapy typically lasts three years and combines classroom instruction with hands-on training.",
-            "Depending on the program, a bachelor's degree in physiotherapy usually takes three to four years.",
-            "A master's degree in physiotherapy typically follows a related degree by one to two years. Studies specific to rehabilitation include sports rehabilitation, neurological rehabilitation and musculoskeletal therapy."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "universities",
-      "eyebrow": "Top German Universities",
-      "title": "3. Germany's Top Universities and Physiotherapy Facilities",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Students can explore ****programs linked to physiotherapy in Germany**** at:",
-            "**Hochschule Furtwangen University**",
-            "**Alice Salomon University of Applied Sciences**",
-            "**Osnabrück University of Applied Sciences**",
-            "Examine each institution's current ****professional qualification outcomes**** , ****teaching language**** , and ****course offerings**.**"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Eligibility Criteria",
-      "title": "4. Qualifications for German Physiotherapy Studies",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Typically, applicants require:",
-            "Universities and providers of vocational training have different requirements."
-          ]
+          badge: "University Degree",
+          title: "Bachelor of Science (B.Sc. Physiotherapie - 3 to 4 Years)",
+          desc: "Academic degree offered at Universities of Applied Sciences (*Fachhochschulen*), often combining the vocational state license exam with advanced research in evidence-based clinical therapy, biomechanics, and healthcare management."
         },
         {
-          "t": "ul",
-          "items": [
-            "A valid **school-leaving certificate**.",
-            "Relevant educational credentials.",
-            "For vocational training, **German language proficiency** is often **B2 or higher**. Suitability for realistic **clinical work** and good health.",
-            "**Postgraduate programs** require additional credentials."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "admission",
-      "eyebrow": "Admission Requirements",
-      "title": "5. German Physiotherapy Admission Requirements",
-      "groups": [
-        {
-          "t": "ul",
-          "items": [
-            "Academic credentials",
-            "Transcripts",
-            "A passport",
-            "Proof of **German language proficiency**",
-            "an application form are typical **admission requirements for physiotherapy in Germany**. A CV, motivation letter, medical certificate, internship or interview may be required by certain organizations.",
-            "**International applicants** should verify that their educational background satisfies.",
-            "**German entrance requirements**."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "fees",
-      "eyebrow": "Tuition Fees & Living Costs",
-      "title": "6. The cost of Physiotherapy Education in Germany",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The following are included in the c**ost of studying physiotherapy in Germany:**"
-          ]
+          badge: "Postgraduate Degree",
+          title: "Master of Science (M.Sc. Physiotherapie - 1.5 to 2 Years)",
+          desc: "Advanced postgraduate specialization in sports physiotherapy, clinical neurorehabilitation, manual therapy, and health services research for senior clinical and university lecturing positions."
         },
         {
-          "t": "ul",
-          "items": [
-            "Although semester payments may be required, public colleges are frequently inexpensive. Private schools may have tuition costs.",
-            "The monthly cost of living is between €900 and €1,300.",
-            "Study materials, airfare, lodging deposits and health insurance are additional expenses.",
-            "Depending on the supplier and contract, certain **vocational training** agreements could give a training allowance."
-          ]
+          badge: "International Conversion",
+          title: "Foreign Qualification Recognition (Anerkennung)",
+          desc: "Structured adaptation programs (*Anpassungslehrgang*) or knowledge exams (*Kenntnisprüfung*) enabling international BPT graduates to convert their foreign degrees into German state licenses."
+        }
+      ]
+    },
+    {
+      slot: "unis",
+      eyebrow: "Top Institutions",
+      title: "Top Universities & Institutions for Physiotherapy",
+      text: "Germany's prominent universities of applied sciences offering accredited physiotherapy programs:",
+      cards: [
+        {
+          name: "Hochschule Furtwangen University (HFU)",
+          city: "Furtwangen, Baden-Württemberg",
+          qsRank: "Top Applied Sciences University",
+          tuition: "€1,500/sem (Non-EU) + €140 semester fee",
+          programs: "B.Sc. Physiotherapy, M.Sc. Interdisciplinary Health Promotion",
+          highlights:
+            "Known for cutting-edge biomechanical motion analysis laboratories and strong cooperation with regional clinical therapy networks in southern Germany.",
+          link: "https://www.hs-furtwangen.de/",
+          img: uniImg1
         },
         {
-          "t": "table",
-          "headers": [
-            "Category / Expense Type",
-            "Estimated Amount (EUR)",
-            "Applicability & Regulation"
-          ],
-          "rows": [
-            [
-              "Although semester payments may be required, public colleges are frequently inexpensive. Private schools may have tuition costs.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "The monthly cost of living is between €900 and €1,300.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "Study materials, airfare, lodging deposits and health insurance are additional expenses.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "Depending on the supplier and contract, certain vocational training agreements could give a training allowance.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "process",
-      "eyebrow": "Application Timeline & Steps",
-      "title": "7. Germany's Physiotherapy Admission Procedure",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "In Germany, the ****physiotherapy admission process**** typically entails:"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "why",
-      "eyebrow": "Why Study in Germany",
-      "title": "1. Select a approved physiotherapy program.",
-      "groups": []
-    },
-    {
-      "slot": "courses",
-      "eyebrow": "Curriculum & Specializations",
-      "title": "2. Verify the language requirements and academic requirements.",
-      "groups": []
-    },
-    {
-      "slot": "universities",
-      "eyebrow": "Top German Universities",
-      "title": "3. If necessary, prepare certified translations and certificates.",
-      "groups": []
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Eligibility Criteria",
-      "title": "4. Send the organization or training provider an application.",
-      "groups": []
-    },
-    {
-      "slot": "admission",
-      "eyebrow": "Admission Requirements",
-      "title": "5. Finish any necessary health evaluation or interview.",
-      "groups": []
-    },
-    {
-      "slot": "fees",
-      "eyebrow": "Tuition Fees & Living Costs",
-      "title": "6. Get a training contract or an offer of admission.",
-      "groups": []
-    },
-    {
-      "slot": "process",
-      "eyebrow": "Application Timeline & Steps",
-      "title": "7. Make arrangements for money, lodging, health insurance, and the necessary visa.",
-      "groups": []
-    },
-    {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Quality Standards",
-      "title": "8. Germany's Accreditation and Recognition of Physiotherapy",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "****In Germany, physiotherapy is a regulated medical field.**** Applicants must fulfill the relevant qualification and authorization requirements in order to utilize the professional title **Physiotherapeutin**.",
-            "Physiotherapists with international qualifications typically need to have their credentials evaluated by the appropriate German authority. Further instruction, tests, or **German language evidence** might be necessary."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Career Prospects & Salary",
-      "title": "9. Pay and Employment options in Germany Following Physiotherapy",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Qualified **German physiotherapists** can work in:",
-            "Communication with patients and healthcare professionals requires proficiency in the German language."
-          ]
+          name: "Alice Salomon University of Applied Sciences (ASH Berlin)",
+          city: "Berlin",
+          qsRank: "Premier Health Sciences Institution",
+          tuition: "€0 / Free (Semester fee €315/sem)",
+          programs: "B.Sc. Physiotherapie / Ergotherapie, M.Sc. Public Health",
+          highlights:
+            "One of Germany's most venerable institutions for healthcare and social professions, offering dual-degree physiotherapy tracks integrated with Berlin's major hospital networks.",
+          link: "https://www.ash-berlin.eu/",
+          img: uniImg2
         },
         {
-          "t": "ul",
-          "items": [
-            "Rehab facilities and hospitals.",
-            "Private physiotherapy clinics.",
-            "Rehabilitation for sports and fitness.",
-            "Facilities for the elderly. Community-based medical services.",
-            "Teaching and research with the necessary credentials.",
-            "Experience, location, employer and specialization all affect physiotherapy salaries in Germany."
-          ]
+          name: "Osnabrück University of Applied Sciences",
+          city: "Osnabrück, Lower Saxony",
+          qsRank: "Leading Applied Research University",
+          tuition: "€0 / Free (Semester fee €360/sem)",
+          programs: "B.Sc. Physiotherapie, M.Sc. Musculoskeletal Therapy",
+          highlights:
+            "Pioneered evidence-based academic physiotherapy in Germany, boasting world-class sports diagnostics equipment and strong clinical research partnerships.",
+          link: "https://www.hs-osnabrueck.de/",
+          img: uniImg3
         }
       ]
     },
     {
-      "slot": "documents",
-      "eyebrow": "Required Documentation",
-      "title": "10. Documents Needed in Germany to Study Physiotherapy",
-      "groups": [
+      slot: "checklist",
+      eyebrow: "Admissions Criteria",
+      title: "Eligibility & Language Requirements",
+      text: "Entry criteria vary between vocational training schools and universities of applied sciences:",
+      items: [
+        "**Academic Qualification:** High school leaving certificate (12th standard) recognized as equivalent to the German *Abitur* (for B.Sc. programs, *Studienkolleg* or 1-year university study may be required). For vocational *Ausbildung*, a secondary school certificate (*Realschulabschluss* / 10th-12th) is accepted.",
+        "**German Language Proficiency (B2 Level):** Mandatory requirement since all clinical rotations, patient communications, and state board exams are held exclusively in German (Goethe B2, telc B2, or TestDaF).",
+        "**Medical Fitness Certificate (Ärztliches Attest):** Official physician's certificate confirming physical suitability and immunization status (Hepatitis B, Measles) for direct patient contact.",
+        "**Police Clearance Certificate (Führungszeugnis):** Clean criminal record verification required by state health authorities for medical student registration.",
+        "**Prior Pre-Study Internship (Vorpraktikum):** Many institutions recommend or require a 4- to 12-week observational internship in a hospital or physiotherapy practice."
+      ]
+    },
+    {
+      slot: "checklist",
+      eyebrow: "Cost of Education",
+      title: "Tuition Fees & Financial Overview",
+      text: "Studying physiotherapy in Germany offers outstanding financial viability:",
+      items: [
+        "**Tuition-Free Public Universities (€0):** Public *Fachhochschulen* charge no general tuition fees; students pay only a nominal semester contribution (€150–€360/semester) which includes regional public transit.",
+        "**Monthly Training Stipend in Dual Programs:** Hospital-based *Ausbildung* programs pay students a gross monthly salary: Year 1 (~€1,050/mo), Year 2 (~€1,150/mo), Year 3 (~€1,250–€1,350/mo).",
+        "**Living Costs (€900–€1,300/month):** Covers student accommodation, groceries, statutory health insurance (~€125/month), study materials, and personal expenses.",
+        "**German Blocked Account (Sperrkonto):** When applying for an academic degree without a training stipend, proof of €11,904/year in a blocked account is required for the student visa. (Stipend-paying dual contracts often waive or reduce this requirement)."
+      ]
+    },
+    {
+      slot: "timeline",
+      eyebrow: "Pathway Roadmap",
+      title: "Admission & Licensing Timeline in Germany",
+      text: "Follow this structured 10-step process to secure admission and earn your German physiotherapy license:",
+      steps: [
         {
-          "t": "p",
-          "items": [
-            "In Germany, the following **documents are frequently needed to study physiotherapy:**"
-          ]
+          num: "01",
+          title: "Select Program Track",
+          desc: "Choose between an academic B.Sc. in Physiotherapy at a university of applied sciences or a salaried hospital vocational *Ausbildung*."
         },
         {
-          "t": "ul",
-          "items": [
-            "A current passport.",
-            "Academic transcripts and certifications.",
-            "A certificate in German.",
-            "A motivation letter and resume, if needed.",
-            "The application. A medical certificate, if necessary.",
-            "Evidence of job experience or an internship, if needed.",
-            "A contract for training, if any.",
-            "When necessary, financial and **visa documents** are needed."
-          ]
+          num: "02",
+          title: "German Language Preparation",
+          desc: "Intensive German language study reaching certified B2 proficiency (Goethe-Zertifikat B2 or telc Deutsch B2)."
+        },
+        {
+          num: "03",
+          title: "Document Legalization & Translations",
+          desc: "Acquire certified German translations of high school mark sheets, transcripts, medical fitness, and police clearance certificates."
+        },
+        {
+          num: "04",
+          title: "APS Verification Certificate",
+          desc: "Obtain academic verification through the Academic Evaluation Centre (APS India) for university degree applications."
+        },
+        {
+          num: "05",
+          title: "Clinical Pre-Internship (Vorpraktikum)",
+          desc: "Complete a 4- to 8-week clinical observation internship in physiotherapy to strengthen your application."
+        },
+        {
+          num: "06",
+          title: "Application & Interview",
+          desc: "Submit applications directly to hospital training schools or via uni-assist for universities, followed by an online/in-person interview."
+        },
+        {
+          num: "07",
+          title: "Training Contract & Visa",
+          desc: "Receive the training contract (*Ausbildungsvertrag*) or university offer (*Zulassungsbescheid*) and apply for the German national visa."
+        },
+        {
+          num: "08",
+          title: "Classroom & Clinical Studies (3–4 Years)",
+          desc: "Complete coursework in anatomy, physiology, biomechanics, pathology, and complete supervised clinical hospital rotations."
+        },
+        {
+          num: "09",
+          title: "State Board Examination (Staatsexamen)",
+          desc: "Pass the written, oral, and practical state board examinations before the state medical examination board (*Landesprüfungsamt*)."
+        },
+        {
+          num: "10",
+          title: "State Certification & Employment",
+          desc: "Receive your official license (*Staatliche Anerkennung als Physiotherapeut/in*) and begin working in hospitals, clinics, or private rehabilitation practices."
         }
       ]
     },
     {
-      "slot": "details",
-      "eyebrow": "Key Insights",
-      "title": "11. Physiotherapy FAQs in Germany",
-      "groups": [
+      slot: "cards",
+      eyebrow: "Career Pathways",
+      title: "Career Opportunities & Salary in Germany",
+      text: "Certified physiotherapists in Germany enjoy exceptional job security and versatile career settings:",
+      cards: [
         {
-          "t": "p",
-          "items": [
-            "Q1. What is the **duration of physiotherapy training in Germany?**",
-            "Vocational training in physiotherapy typically **lasts three years**. **Three to four years** may be needed for degree programs.",
-            "**Q2. Is it necessary to speak German?",
-            "Yes, a lot of clinical placements and **physiotherapy programs** require German, usually at **B2 level or higher**.",
-            "Q3. Does Germany offer free physiotherapy?",
-            "While living expenses and semester contributions are required, some public universities do not charge universal **tuition fees**. Tuition may be charged by private providers.",
-            "Q4.Is it possible for Indian students to **study a physiotherapy degree in Germany?**",
-            "If they fulfill the academic, linguistic, entrance, and visa requirements, **Indian students can study physiotherapy in Germany**.",
-            "Q5. Is it possible for foreign graduates to work as physiotherapists in Germany?",
-            "Yes, as long as they fulfill the relevant **qualification recognition and professional authorization requirements**.",
-            "How can I study abroad with the assistance of **Edu Hawk Worldwide Consultancy?**",
-            "Students may plan their **study-abroad journey**, organize their application materials, research appropriate universities, and comprehend **admission requirements** with the assistance of Edu Hawk worldwide . Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
-          ]
+          badge: "Clinical Practice",
+          title: "Hospital & Rehabilitation Physiotherapist",
+          desc: "Provide inpatient and outpatient therapy in orthopedic trauma clinics, stroke recovery units, and university hospitals. Starting salary: €36,000–€46,000/year (tariff TVöD-VKA)."
+        },
+        {
+          badge: "Private Practice",
+          title: "Outpatient Physiotherapy Practice",
+          desc: "Treat private and statutory health insurance patients in outpatient physiotherapy practices (*Physiotherapiepraxis*). Experienced practitioners earn €42,000–€55,000/year."
+        },
+        {
+          badge: "Sports Medicine",
+          title: "Sports & Athletic Physiotherapist",
+          desc: "Work with professional sports teams, Olympic training centers, and fitness resorts managing injury prevention and athlete recovery. Average salary: €45,000–€62,000/year."
+        },
+        {
+          badge: "Independent Practice",
+          title: "Practice Owner / Independent Therapist",
+          desc: "Found an independent licensed physiotherapy clinic or specialized neuro-rehabilitation center. Annual earnings: €60,000–€90,000+/year."
         }
+      ]
+    },
+    {
+      slot: "checklist",
+      eyebrow: "Checklist",
+      title: "Documents Required for Application & Visa",
+      text: "Prepare the following verified documents for submission to training providers and the German embassy:",
+      items: [
+        "Valid international passport with at least 12 months validity.",
+        "Secondary school leaving certificates and marks sheets (10th and 12th standard) with certified German translations.",
+        "German Language Certificate at B2 level (Goethe, telc, or TestDaF).",
+        "Official Medical Certificate of physical and psychological fitness (*Ärztliches Attest*).",
+        "Police Clearance Certificate (*Führungszeugnis*) apostilled and translated.",
+        "Detailed Tabular Curriculum Vitae (*Lebenslauf*) in German.",
+        "Statement of Purpose (Letter of Motivation) detailing dedication to the physiotherapy profession.",
+        "Proof of clinical internships or observation work (*Praktikumsnachweis*), if available.",
+        "Signed Training Contract (*Ausbildungsvertrag*) or University Admission Letter (*Zulassungsbescheid*).",
+        "Proof of health insurance and financial resources (blocked account or training stipend contract)."
       ]
     }
   ],
-  "faqs": []
+  faqs: [
+    {
+      q: "What is the duration of physiotherapy training in Germany?",
+      a: "Vocational training (*Ausbildung*) in physiotherapy lasts 3 years and combines theoretical classroom study with practical clinical hospital rotations. Academic Bachelor of Science (B.Sc.) degree programs typically take 3 to 4 years (6 to 8 semesters)."
+    },
+    {
+      q: "Is German language proficiency mandatory to study physiotherapy in Germany?",
+      a: "Yes. German language proficiency of at least B2 level (Goethe-Zertifikat B2 or telc B2) is mandatory for both academic degrees and vocational Ausbildung programs because students interact directly with German patients during clinical hospital placements from the first year."
+    },
+    {
+      q: "Does Germany offer free physiotherapy education?",
+      a: "Yes. Public universities of applied sciences charge no general tuition fees, requiring only a nominal semester contribution (€150 to €360/semester). Furthermore, hospital-based vocational Ausbildung programs are tuition-free and actually pay students a monthly training stipend of €1,050 to €1,300 per month."
+    },
+    {
+      q: "Can Indian students study physiotherapy in Germany after 12th standard?",
+      a: "Yes. Indian students who have completed 12th standard with Biology and Physics/Chemistry can apply for physiotherapy in Germany. For the vocational Ausbildung track, a 12th standard certificate and B2 German are directly accepted. For university B.Sc. programs, students may need to complete a 1-year preparatory foundation course (*Studienkolleg*) or have 1 year of recognized higher education."
+    },
+    {
+      q: "Can foreign-trained physiotherapists work in Germany?",
+      a: "Yes. Foreign physiotherapists with a Bachelor of Physiotherapy (BPT) from abroad can practice in Germany by applying for professional recognition (*Anerkennung*) under the *Masseur- und Physiotherapeutengesetz (MPhG)*, completing any required adaptation courses (*Anpassungslehrgang*), and demonstrating B2 German proficiency to receive their German state license."
+    }
+  ]
 };
 
-export default function PhysiotherapyAbroadGermanyPage() {
-  const images = {
-    hero: heroImg,
-    heroBg: heroBgImg,
-    side: sideImg,
-    ctaBg: ctaBgImg,
-    universities: [
-    {
-      name: "Hochschule Furtwangen University",
-      img: uniImg1,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "Alice Salomon University of Applied Sciences",
-      img: uniImg2,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "Osnabrück University of Applied Sciences",
-      img: uniImg3,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    }
-    ]
-  };
-
-  return <AbroadCoursePage page={page} images={images} />;
+export default function PhysiotherapyAbroad() {
+  return (
+    <AbroadCoursePage
+      page={page}
+      heroImg={heroImg}
+      heroBgImg={heroBgImg}
+      sideImg={sideImg}
+      ctaBgImg={ctaBgImg}
+      seoPath="/study-abroad/germany/physiotherapy"
+    />
+  );
 }

@@ -24,10 +24,10 @@ const page = {
     "Study Australia's Undergraduate Aerospace Engineering Program Best Universities for Aerospace Engineering in Australia Bachelor of Aerospace Engineering in Australia After 12th Aerospace Engineering Course Duration in Australia English Language Requirements for Aerospace Engineering in Australia Aerospace Engineering Specialisations in Australia Engineers Australia Accredited Aerospace Engineering Courses Career Opportunities After Aerospace Engineering in Australia",
   introTitle: "Study Australia's Undergraduate Aerospace Engineering Program",
   heroParas: [
-    "Aerospace engineering encompasses the design, development, testing, and production of aircraft, spacecraft, satellites, drones, and advanced defense systems.",
-    "Australia's rapidly growing aerospace, space technology, and defense sectors offer world-class undergraduate aerospace engineering education accredited by Engineers Australia."
+    "Aerospace engineering encompasses the design, development, testing, and production of aircraft, spacecraft, satellites, drones, and advanced defense systems."
   ],
   overview: [
+    "Australia's rapidly growing aerospace, space technology, and defense sectors offer world-class undergraduate aerospace engineering education accredited by Engineers Australia.",
     "Undergraduate programs focus on aerodynamics, propulsion systems, flight mechanics, orbital dynamics, composite materials, avionics, and autonomous aerospace systems."
   ],
   level: "UG",

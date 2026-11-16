@@ -24,10 +24,10 @@ const page = {
     "Study Biomedical Engineering in Australia for Indian Students Undergraduate Biomedical Engineering Courses in Australia Best Universities for Biomedical Engineering in Australia Bachelor of Biomedical Engineering in Australia After 12th Biomedical Engineering Eligibility in Australia for Indian Students Biomedical Engineering Admission Requirements in Australia Biomedical Engineering Fees in Australia for International Students Biomedical Engineering Scholarships in Australia for Indian Students Biomedical Engineering Course Duration in Australia English Language Requirements for Biomedical Engineering in Australia Biomedical Engineering Specialisations in Australia Biomedical Engineering Admission Process for Indian Students Engineers Australia Accredited Biomedical Engineering Courses Career Opportunities After Biomedical Engineering in Australia Australian Student Visa Requirements for Biomedical Engineering Students",
   introTitle: "Australian undergraduate biomedical engineering programs",
   heroParas: [
-    "Biomedical engineering bridges engineering principles with medical sciences to design life-saving technologies such as artificial organs, medical imaging devices, prosthetics, and biomaterials.",
-    "Australia is globally renowned for medical device innovations—including the bionic ear (Cochlear) and electronic pacemaker—offering world-leading biomedical engineering education accredited by Engineers Australia."
+    "Biomedical engineering bridges engineering principles with medical sciences to design life-saving technologies such as artificial organs, medical imaging devices, prosthetics, and biomaterials."
   ],
   overview: [
+    "Australia is globally renowned for medical device innovations—including the bionic ear (Cochlear) and electronic pacemaker—offering world-leading biomedical engineering education accredited by Engineers Australia.",
     "Undergraduate programs focus on biomechanics, biomaterials, physiological modeling, medical imaging, bioinstrumentation, and neural engineering."
   ],
   level: "UG",

@@ -148,11 +148,8 @@ const MedicalAbroad = () => {
                 </span>{" "}
                 with confidence
               </h1>
-              <p className="text-base sm:text-lg text-white/70 max-w-xl mb-6 leading-relaxed">
-                Limited seats and intense competition in India push thousands of students every year to pursue MBBS and other medical programs abroad. Choosing the right university and country is critical for your future practice and PG options.
-              </p>
               <p className="text-base sm:text-lg text-white/70 max-w-xl mb-8 leading-relaxed">
-                EduHawk helps you select only NMC-eligible universities, understand real costs, and complete the entire admission + visa process with complete transparency. We focus on long-term outcomes — not just getting you a seat.
+                Limited seats and intense competition in India make pursuing MBBS abroad a smart choice, with EduHawk guiding you to NMC-eligible universities, transparent total costs, and complete admission and visa support focused on long-term career success.
               </p>
               <div className="flex flex-wrap gap-3.5">
                 <a

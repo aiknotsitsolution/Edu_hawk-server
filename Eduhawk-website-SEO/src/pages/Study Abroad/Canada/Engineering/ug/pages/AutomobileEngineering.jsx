@@ -20,8 +20,7 @@ const page = {
   "keywords": "Study Automobile Engineering - UG in Canada, Automobile Engineering - UG in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Indian Students study Automobile Engineering in Canada",
   "heroParas": [
-    "Students interested in Automobile Engineering in Canada including vehicle design, automotive technology, electric cars, vehicle safety, production, and mobility systems are drawn to Canada. In order to design, develop, test and enhance automobiles, automobile engineering integrates concepts from mechanical, electrical, electronic and computer engineering.",
-    "Undergraduate programs in Canada that provide automotive-related courses or projects include Mechanical Engineering, Automotive Engineering, Mechatronics Engineering, and Electrical Engineering. Before applying, students should confirm the precise program title, curriculum, and available specializations because a dedicated undergraduate degree titled Automobile Engineering is less common."
+    "Students interested in Automobile Engineering in Canada including vehicle design, automotive technology, electric cars, vehicle safety, production, and mobility systems are drawn to Canada. In order to design, develop, test and enhance automobiles, automobile engineering integrates concepts from mechanical, electrical, electronic and computer engineering."
   ],
   "overview": [
     "Students interested in Automobile Engineering in Canada including vehicle design, automotive technology, electric cars, vehicle safety, production, and mobility systems are drawn to Canada. In order to design, develop, test and enhance automobiles, automobile engineering integrates concepts from mechanical, electrical, electronic and computer engineering.",

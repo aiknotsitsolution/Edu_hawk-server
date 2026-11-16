@@ -22,9 +22,7 @@ const page = {
   "keywords": "Study BEng Mechanical Engineering in the UK, BEng Mechanical Engineering in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Study Mechanical Engineering in the UK",
   "heroParas": [
-    "The design, development, testing, and improvement of machinery, mechanical systems, automobiles, industrial procedures, and energy technologies are the main goals of the engineering discipline known as \"mechanical engineering.\" In order to tackle practical issues, it integrates mathematics, physics, materials science, thermodynamics, mechanics, and engineering design.",
-    "In addition to theoretical instruction, the UK provides undergraduate Mechanical Engineering degrees that incorporate engineering projects, laboratory work, computer-based modeling, and hands-on design activities.",
-    "Edu Hawk Worldwide Consultancy assists students in understanding university entrance requirements, researching overseas study options, and preparing for their international education journey."
+    "The design, development, testing, and improvement of machinery, mechanical systems, automobiles, industrial procedures, and energy technologies are the main goals of the engineering discipline known as \"mechanical engineering.\" In order to tackle practical issues, it integrates mathematics, physics, materials science, thermodynamics, mechanics, and engineering design."
   ],
   "overview": [
     "The design, development, testing, and improvement of machinery, mechanical systems, automobiles, industrial procedures, and energy technologies are the main goals of the engineering discipline known as \"mechanical engineering.\" In order to tackle practical issues, it integrates mathematics, physics, materials science, thermodynamics, mechanics, and engineering design.",

@@ -18,10 +18,10 @@ const page = {
   "description": "Study Undergraduate Engineering in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
   "keywords": "",
   "introTitle": "Undergraduate Engineering in Italy",
-  "heroParas": [
-    "Yes. Indian students can apply if they meet the academic eligibility, schooling requirements, language conditions and entrance-test criteria of the university. Admission is not automatic and depends on the chosen program."
+  heroParas: [
+    "Undergraduate Engineering in Italy offers international students world-class foundational training, modern engineering labs, and low-cost public tuition across Europe's leading polytechnic universities."
   ],
-  "overview": [
+  overview: [
     "Yes. Indian students can apply if they meet the academic eligibility, schooling requirements, language conditions and entrance-test criteria of the university. Admission is not automatic and depends on the chosen program."
   ],
   "level": "Undergraduate",
@@ -147,17 +147,6 @@ const page = {
           "items": [
             "Graduates may explore employment opportunities, subject to their qualifications, skills, language proficiency and applicable work authorisation rules. Some students choose to continue with a master's degree before entering specialised engineering roles."
           ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Undergraduate Engineering in Italy",
-            "Study Undergraduate Engineering in Italy",
-            "Undergraduate Engineering Courses in Italy",
-            "Undergraduate Engineering Universities in Italy",
-            "Undergraduate Engineering Fees in Italy",
-            "Undergraduate Engineering in Italy for Indian Students"
-          ]
         }
       ]
     },
@@ -167,23 +156,60 @@ const page = {
       "title": "Admission Process for Undergraduate Engineering in Italy",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Students can generally follow these steps when applying to Italian universities.",
-            "Step 1: Choose your engineering specialisation. Decide whether you want to study mechanical, civil, electrical, electronics, computer, aerospace, chemical or another engineering field.",
-            "Step 2: Shortlist universities. Compare courses, teaching language, location, fees and eligibility criteria.",
-            "Step 3: Check your academic eligibility. Confirm that your Class 12 qualification and school subjects meet the requirements for the selected programme.",
-            "Step 4: Check entrance tests. Review the official test requirements, syllabus, accepted alternatives and registration deadlines.",
-            "Step 5: Prepare your documents. Organise school transcripts, certificates, passport and language-test evidence, as applicable.",
-            "Step 6: Submit your application. Apply through the university's official portal and complete the required tests or selection procedures.",
-            "Step 7: Receive the admission decision. Follow the university's instructions for acceptance, enrolment and tuition payments.",
-            "Step 8: Complete international pre-enrolment, if required. Applicants who need a study visa generally follow the applicable procedure through Universitaly.",
-            "Step 9: Apply for a student visa. Submit the required documents to the competent Italian diplomatic mission. University admission or pre-enrolment does not guarantee visa approval.",
-            "Step 10: Prepare for arrival. Arrange accommodation, insurance and other practical requirements before travelling.",
-            "The exact process and deadlines depend on the institution, programme and academic year. Always follow the latest official university and visa instructions.",
-            "Edu-Hawk Worldwide can help students understand the steps involved and prepare an organised application plan."
-          ]
-        }
+        "t": "timeline",
+        "items": [
+                {
+                        "step": "1",
+                        "title": "",
+                        "desc": "Choose your engineering specialisation. Decide whether you want to study mechanical, civil, electrical, electronics, computer, aerospace, chemical or another engineering field."
+                },
+                {
+                        "step": "2",
+                        "title": "",
+                        "desc": "Shortlist universities. Compare courses, teaching language, location, fees and eligibility criteria."
+                },
+                {
+                        "step": "3",
+                        "title": "",
+                        "desc": "Check your academic eligibility. Confirm that your Class 12 qualification and school subjects meet the requirements for the selected programme."
+                },
+                {
+                        "step": "4",
+                        "title": "",
+                        "desc": "Check entrance tests. Review the official test requirements, syllabus, accepted alternatives and registration deadlines."
+                },
+                {
+                        "step": "5",
+                        "title": "",
+                        "desc": "Prepare your documents. Organise school transcripts, certificates, passport and language-test evidence, as applicable."
+                },
+                {
+                        "step": "6",
+                        "title": "",
+                        "desc": "Submit your application. Apply through the university's official portal and complete the required tests or selection procedures."
+                },
+                {
+                        "step": "7",
+                        "title": "",
+                        "desc": "Receive the admission decision. Follow the university's instructions for acceptance, enrolment and tuition payments."
+                },
+                {
+                        "step": "8",
+                        "title": "",
+                        "desc": "Complete international pre-enrolment, if required. Applicants who need a study visa generally follow the applicable procedure through Universitaly."
+                },
+                {
+                        "step": "9",
+                        "title": "",
+                        "desc": "Apply for a student visa. Submit the required documents to the competent Italian diplomatic mission. University admission or pre-enrolment does not guarantee visa approval."
+                },
+                {
+                        "step": "10",
+                        "title": "",
+                        "desc": "Prepare for arrival. Arrange accommodation, insurance and other practical requirements before travelling."
+                }
+        ]
+}
       ]
     },
     {
@@ -195,16 +221,6 @@ const page = {
           "t": "p",
           "items": [
             "An undergraduate engineering degree can provide a foundation for employment or further study, but professional requirements depend on the intended role and country."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Further education: Graduates might want to look at postgraduate programs in their engineering discipline, subject to the entry requirements of the next program.",
-            "Industry employment: Employers may evaluate technical knowledge, project experience, software skills, and communication skills.",
-            "Regulated professional activities: Certain engineering positions or professional titles may require additional recognition, registration or professional examinations, depending on the country and type of work.",
-            "Employment in India: graduates should check the requirements of the specific employer, role and any relevant professional body.",
-            "Employment in Italy: Knowledge of Italian may be important for internships, workplace communication and many engineering roles."
           ]
         },
         {
@@ -225,50 +241,6 @@ const page = {
           "items": [
             "Engineering graduates may explore opportunities across manufacturing, construction, automotive, electronics, energy, technology, automation and other technical sectors.",
             "Possible entry-level career pathways include:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Junior Mechanical Engineer",
-            "Graduate Civil Engineer",
-            "Electrical Engineering Trainee",
-            "Electronics Engineer",
-            "Junior Software or Computer Engineering Role",
-            "Production or Manufacturing Engineer",
-            "Quality Assurance Engineer",
-            "Automation and Robotics Trainee",
-            "CAD or Design Engineer",
-            "Technical Project Assistant",
-            "Energy Systems Assistant",
-            "Research or Laboratory Assistant"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The roles available to a graduate depend on the degree specialisation, technical skills, work experience, language proficiency and local employment requirements.",
-            "Skills That Can Improve Career Prospects",
-            "Students can strengthen their professional profile by developing:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Mathematics and analytical problem-solving",
-            "Computer-aided design and simulation skills, where relevant",
-            "Programming and computational skills",
-            "Laboratory and technical project experience",
-            "Communication and teamwork",
-            "Knowledge of engineering safety and quality standards",
-            "Italian language proficiency for relevant local opportunities"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Some graduates enter employment after their bachelor's degree, while others continue to a master's degree to gain advanced technical knowledge or specialise in a particular field.",
-            "If you are considering Study Undergraduate Engineering in Italy, then you should consider the curriculum and the career routes supported by the degree and not the general salary promises or guarantyd job outcomes."
           ]
         }
       ]
@@ -310,7 +282,34 @@ const page = {
         }
       ]
     }
-  ]
+  ],
+  faqs: [
+    {
+        "q": "Can Indian students pursue Bachelor's in Engineering in Italy after Class 12?",
+        "a": "Yes. Indian students with Class 12 mathematics and physics can apply for English-taught Bachelor of Science in Engineering programmes in Italy."
+    },
+    {
+        "q": "What is the duration of a Bachelor's in Engineering in Italy?",
+        "a": "Undergraduate engineering degrees (Laurea Triennale) in Italy are 3 years in duration, comprising 180 ECTS credits."
+    },
+    {
+        "q": "What are the tuition fees for Bachelor's in Engineering in Italy?",
+        "a": "Public universities charge between €1,000 and €4,000 per year based on family income, with full fee waivers available under DSU scholarship programmes."
+    },
+    {
+        "q": "What entrance exam is required for undergraduate engineering in Italy?",
+        "a": "Most English-taught engineering bachelor's require the English TOLC-I (Test OnLine CISIA) or institutional entrance evaluations."
+    },
+    {
+        "q": "Are engineering bachelor's degrees from Italy recognized globally?",
+        "a": "Yes. Italian engineering degrees comply with the Bologna process and European EUR-ACE quality standards, recognized worldwide."
+    },
+    {
+        "q": "Can students progress to a master's degree in Italy after completing a bachelor's?",
+        "a": "Yes. Graduates seamlessly transition into 2-year Master of Science (Laurea Magistrale) engineering degrees in Italy or across the EU."
+    }
+],
+  faqTitle: "Frequently Asked Questions About Undergraduate Engineering in Italy"
 };
 
 export default function UndergraduateEngineeringItaly() {

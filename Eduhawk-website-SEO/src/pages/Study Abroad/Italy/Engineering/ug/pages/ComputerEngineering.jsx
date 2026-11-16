@@ -19,10 +19,10 @@ const page = {
   "description": "Study Computer Engineering - UG in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
   "keywords": "",
   "introTitle": "Computer Engineering Bachelor's in Italy",
-  "heroParas": [
-    "Yes. Indian students can apply if their school qualification is in accordance with the university's entry requirements and they meet the language, entrance-test and document requirements."
+  heroParas: [
+    "A Bachelor’s in Computer Engineering in Italy offers robust foundational coursework in computer hardware, software engineering, operating systems, and computer networks at world-class European polytechnic universities."
   ],
-  "overview": [
+  overview: [
     "Yes. Indian students can apply if their school qualification is in accordance with the university's entry requirements and they meet the language, entrance-test and document requirements."
   ],
   "level": "Undergraduate",
@@ -148,17 +148,6 @@ const page = {
           "items": [
             "Depending on your skills and experience, possible paths include software development, systems support, network engineering, embedded systems, quality assurance and technical analysis. Some graduates also continue to a relevant master's degree."
           ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Computer Engineering Bachelors in Italy",
-            "Study Computer Engineering Bachelors in Italy",
-            "Computer Engineering Courses in Italy",
-            "Computer Engineering Universities in Italy",
-            "Computer Engineering Fees in Italy",
-            "Computer Engineering Bachelors in Italy for Indian Students"
-          ]
         }
       ]
     },
@@ -171,52 +160,6 @@ const page = {
           "t": "p",
           "items": [
             "Students can generally follow these steps:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Choose your course: Decide whether you prefer computer engineering, computer science and engineering, information technology engineering or a related programme.",
-            "Shortlist universities: Compare course content, language, tuition and location.",
-            "Check eligibility: Confirm that your Class 12 qualification and school subjects meet the requirements.",
-            "Review entrance-test rules: Check which test is accepted, how to register and when results are required.",
-            "Prepare documents: Arrange transcripts, certificates, passport and language-test evidence, where applicable.",
-            "Submit the application: Complete the university's official application and required selection procedures.",
-            "Receive the admission decision: Follow instructions for acceptance and enrolment.",
-            "Complete international pre-enrolment, if required: Students who need a visa generally follow the applicable process through Universitaly.",
-            "Apply for a student visa: Submit the required documents to the competent Italian diplomatic mission. Admission does not guarantee visa approval.",
-            "Prepare for arrival: Arrange accommodation, insurance and other practical requirements before travelling."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Procedures and deadlines vary by university and academic year. Use the current official admission notice and visa instructions for your specific intake.",
-            "Edu-Hawk Worldwide can help students understand the application sequence and prepare a document checklist."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "licensing",
-      "eyebrow": "Licensing & Standards",
-      "title": "Recognition, Certification and Further Study",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "A bachelor's degree in computer engineering can provide a foundation for further education or technical employment. Professional requirements depend on the intended role and country."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Further study: Depending on the academic requirements of the program, graduates can apply for relevant master's programs.",
-            "Software and technology roles: Employers may test your programming ability, technical projects, problem-solving and communication.",
-            "Hardware and embedded systems: You may need to know about electronics, computer architecture and embedded programming.",
-            "Regulated professional activities: Certain professional titles or engineering activities may be subject to recognition or registration requirements in certain jurisdictions.",
-            "Employment in India: Check the requirements of the employer, role and the relevant authority.",
-            "Employment in Italy: Fluency in Italian may help with internships and workplace communication."
           ]
         },
         {
@@ -295,7 +238,34 @@ const page = {
         }
       ]
     }
-  ]
+  ],
+  faqs: [
+    {
+        "q": "Can Indian students study Computer Engineering in Italy after Class 12?",
+        "a": "Yes. Students with high school credentials in mathematics and science can apply for English-taught Bachelor's degrees in Computer Engineering."
+    },
+    {
+        "q": "What is the duration of an undergraduate Computer Engineering degree in Italy?",
+        "a": "The degree requires 3 years of full-time academic study totaling 180 ECTS credits."
+    },
+    {
+        "q": "What are the tuition fees for Computer Engineering in Italy?",
+        "a": "Public universities charge between €1,000 and €3,800 per year, with full DSU scholarship waivers available for eligible applicants."
+    },
+    {
+        "q": "What entrance examination is required for international students?",
+        "a": "Universities typically require the English TOLC-I entrance exam covering mathematics, logic, and physics."
+    },
+    {
+        "q": "What subjects are included in the computer engineering bachelor's?",
+        "a": "Curricula include programming (C++, Python), digital electronics, computer architecture, algorithms, databases, and microcontrollers."
+    },
+    {
+        "q": "What are the career opportunities after graduation?",
+        "a": "Graduates are equipped for roles as software engineers, firmware developers, systems analysts, or continuing into master's studies in AI, robotics, or cybersecurity."
+    }
+],
+  faqTitle: "Frequently Asked Questions About Computer Engineering UG in Italy"
 };
 
 export default function ComputerEngineeringUGItaly() {

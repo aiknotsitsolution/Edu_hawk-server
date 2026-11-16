@@ -20,8 +20,7 @@ const page = {
   "keywords": "Study Summer Courses in Spain, Summer Courses in Spain for Indian Students, Best Universities in Spain, Cost of Studying in Spain",
   "introTitle": "Summer Courses for Indian Students in Spain",
   "heroParas": [
-    "Summer Courses in Spain for Indian Students offer the chance to acquire new skills, experience European culture, enhance language abilities, and gain international academic exposure during the summer break. Spanish universities and other higher education institutions provide short-term courses in business, Spanish language, engineering, architecture, hospitality, arts, international relations and technology. These Summer Courses in Spain for Indian Students allow learners to explore different academic interests during their summer break.",
-    "Depending on the institution, subject and course structure, these programs can take anywhere from a few weeks to several months. Students can choose from university summer schools, cultural immersion programs, professional workshops, and specialized academic courses."
+    "Summer Courses in Spain for Indian Students offer the chance to acquire new skills, experience European culture, enhance language abilities, and gain international academic exposure during the summer break."
   ],
   "overview": [
     "Summer Courses in Spain for Indian Students offer the chance to acquire new skills, experience European culture, enhance language abilities, and gain international academic exposure during the summer break. Spanish universities and other higher education institutions provide short-term courses in business, Spanish language, engineering, architecture, hospitality, arts, international relations and technology. These Summer Courses in Spain for Indian Students allow learners to explore different academic interests during their summer break.",

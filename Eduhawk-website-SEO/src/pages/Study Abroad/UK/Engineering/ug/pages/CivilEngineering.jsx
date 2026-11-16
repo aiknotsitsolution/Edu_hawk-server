@@ -22,9 +22,7 @@ const page = {
   "keywords": "Study BEng Civil Engineering in the UK, BEng Civil Engineering in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Study Civil Engineering in the UK",
   "heroParas": [
-    "The design, construction, upkeep, and improvement of infrastructure, including buildings, bridges, roads, railroads, dams, water supply systems, and flood protection structures, is the subject of the technical specialty known as \"civil engineering.\"",
-    "Engineering theory, hands-on laboratory work, design projects, surveying, building materials, and infrastructure planning are all combined in the UK's undergraduate Civil Engineering programs.",
-    "Studying civil engineering in the UK can expose Indian students to cutting-edge building technology, sustainable infrastructure design, project management, and globally recognized engineering education."
+    "The design, construction, upkeep, and improvement of infrastructure, including buildings, bridges, roads, railroads, dams, water supply systems, and flood protection structures, is the subject of the technical specialty known as \"civil engineering.\""
   ],
   "overview": [
     "The design, construction, upkeep, and improvement of infrastructure, including buildings, bridges, roads, railroads, dams, water supply systems, and flood protection structures, is the subject of the technical specialty known as \"civil engineering.\"",

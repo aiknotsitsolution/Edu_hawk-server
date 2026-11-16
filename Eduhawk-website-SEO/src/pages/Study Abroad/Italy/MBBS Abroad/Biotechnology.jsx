@@ -18,11 +18,10 @@ const page = {
   "description": "Study Biotechnology in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
   "keywords": "",
   "introTitle": "Biotechnology in Italy",
-  "heroParas": [
-    "Yes, Indian students can apply for biotechnology courses in eligible Italian universities .",
-    "Students must meet the academic eligibility, language proficiency and documentation requirements of the university of their choice."
+  heroParas: [
+    "Studying Biotechnology in Italy offers cutting-edge education in molecular biology, genomics, biomanufacturing, and pharmaceutical research at leading public research universities."
   ],
-  "overview": [
+  overview: [
     "Yes, Indian students can apply for biotechnology courses in eligible Italian universities .",
     "Students must meet the academic eligibility, language proficiency and documentation requirements of the university of their choice.",
     "Admission is subject to the selection process of the program and previous qualifications of the student."
@@ -176,37 +175,70 @@ const page = {
       "title": "Biotechnology Admission Process in Italy",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Here are the general steps students can take to apply to Italian universities.",
-            "Step 1: Select Your Specialization",
-            "Decide if you want to study medical, pharmaceutical, molecular, industrial, agricultural or environmental biotechnology.",
-            "Step 2: Universities Listing",
-            "Compare universities by course subjects, language of instruction, lab facilities, research opportunities and fees.",
-            "Step 3: Confirm Academic Eligibility",
-            "Check your previous qualification and academic subjects against the entry requirements of the university.",
-            "Step 4: Review application deadlines",
-            "Visit the university's official website and check the deadlines for the applications for the academic year you are interested in.",
-            "Step 5: Get your documents ready",
-            "Gather your academic certificates, transcripts, passport, language test results and other documents required by the university.",
-            "Step 6: Complete the University Application",
-            "Fill the application form and submit the required documents.",
-            "Some Programs may require an entrance test, interview or additional assessment.",
-            "Step 7: Get the Admission Decision",
-            "Once the university has considered your application it will notify you of its decision to admit you.",
-            "If accepted, please follow the instructions from the university to confirm and register.",
-            "Step 8: Finish Pre-Enrollment",
-            "International students who require a study visa generally need to go through the appropriate pre-enrolment process via Universitaly.",
-            "How exactly depends on the student's university and situation.",
-            "Step 9: How to Obtain a Student Visa",
-            "Submit the necessary documents to the appropriate Italian diplomatic mission.",
-            "\"Getting accepted into a university doesn't mean you'll get a visa.",
-            "Step 10: Getting ready for arrival",
-            "Plan for accommodation, insurance, travel and other necessary arrangements before you move to Italy.",
-            "Students must follow the official portal Universitaly, the admission notices of the universities and the consular instructions applicable.",
-            "Edu-Hawk Worldwide helps learners comprehend the admission process, compare the right universities and organize their application documents."
-          ]
-        }
+        "t": "timeline",
+        "items": [
+                {
+                        "step": "1",
+                        "title": "",
+                        "desc": "Select Your Specialization"
+                },
+                {
+                        "step": "2",
+                        "title": "",
+                        "desc": "Universities Listing"
+                },
+                {
+                        "step": "3",
+                        "title": "",
+                        "desc": "Confirm Academic Eligibility"
+                },
+                {
+                        "step": "4",
+                        "title": "Step 4",
+                        "desc": "Check your previous qualification and academic subjects against the entry requirements of the university."
+                },
+                {
+                        "step": "5",
+                        "title": "",
+                        "desc": "Review application deadlines"
+                },
+                {
+                        "step": "6",
+                        "title": "",
+                        "desc": "Get your documents ready"
+                },
+                {
+                        "step": "7",
+                        "title": "Step 7",
+                        "desc": "Gather your academic certificates, transcripts, passport, language test results and other documents required by the university."
+                },
+                {
+                        "step": "8",
+                        "title": "",
+                        "desc": "Complete the University Application"
+                },
+                {
+                        "step": "9",
+                        "title": "",
+                        "desc": "Get the Admission Decision"
+                },
+                {
+                        "step": "10",
+                        "title": "",
+                        "desc": "Finish Pre-Enrollment"
+                },
+                {
+                        "step": "11",
+                        "title": "",
+                        "desc": "How to Obtain a Student Visa"
+                },
+                {
+                        "step": "12",
+                        "title": "",
+                        "desc": "Getting ready for arrival"
+                }
+        ]
+}
       ]
     },
     {
@@ -300,7 +332,34 @@ const page = {
         }
       ]
     }
-  ]
+  ],
+  faqs: [
+    {
+        "q": "Can Indian students study Biotechnology in Italy in English?",
+        "a": "Yes. Universities such as University of Milan, Sapienza University of Rome, and University of Padua offer English-taught bachelor's and master's degrees in Biotechnology."
+    },
+    {
+        "q": "What is the duration of Biotechnology degrees in Italy?",
+        "a": "Bachelor's programmes take 3 years (180 ECTS) and Master of Science degrees take 2 years (120 ECTS)."
+    },
+    {
+        "q": "What are the tuition fees for Biotechnology in Italy?",
+        "a": "Public universities charge between €1,000 and €3,900 annually, with eligibility for DSU scholarships covering tuition and living allowances."
+    },
+    {
+        "q": "What are the entrance requirements for international students?",
+        "a": "Applicants need high school credentials with biology and chemistry for bachelor's degrees, or an undergraduate science/biotech degree for master's programs, plus English certification."
+    },
+    {
+        "q": "What specializations are available in Italian biotechnology?",
+        "a": "Specializations include Medical Biotechnology, Pharmaceutical Biotechnology, Industrial Bioprocesses, and Agricultural & Plant Biotechnology."
+    },
+    {
+        "q": "What are the career opportunities for biotechnology graduates in Italy?",
+        "a": "Graduates work as research scientists, bioprocess engineers, and quality assurance analysts in European biopharma companies and research institutes."
+    }
+],
+  faqTitle: "Frequently Asked Questions About Biotechnology in Italy"
 };
 
 export default function BiotechnologyItaly() {

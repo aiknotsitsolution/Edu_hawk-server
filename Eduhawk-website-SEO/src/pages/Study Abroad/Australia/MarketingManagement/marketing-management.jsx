@@ -21,8 +21,29 @@ const page = {
   description: "Study Marketing Management in Australia for Indian students. Learn about top marketing schools (Melbourne, UTS, Adelaide, Wollongong), AMI accreditation, fees, and digital marketing careers.",
   keywords: "",
   introTitle: "Marketing Management in Australia",
-  heroParas: ["Planning and overseeing initiatives that assist companies in understanding consumers, promoting goods, developing brands, and accomplishing corporate goals are the main goals of marketing management.","Q2. Is it possible for Indian students to study marketing management in Australia?"],
-  overview: ["Yes, subject to university admission restrictions, qualified Indian students may apply for undergraduate or graduate programs in marketing.","Q3. How long does a course in marketing management last?","Master's programs often take one to two years, whereas bachelor's degrees typically take three. The institution and certification determine the actual duration.","Q4. Does marketing management require mathematics?","Not every marketing program requires mathematics as a requirement. Requirements vary depending on the university and degree selected.","Q5. Does admission involve taking the IELTS?","In most cases, students must meet the English language requirements of the university. There may be other tests or exemptions available, but IELTS is one recognized one.","Keywords -","Study Marketing Management in Australia","Marketing Management in Australia for Indian Students","Study Bachelor of Marketing in Australia","Study Master of Marketing in Australia","Study Marketing Management After 12th in Australia","Marketing in Australia After Graduation","Marketing Management in Australia with Scholarships","Marketing at Australian Universities","Marketing Management in Australia - Fees and Admission Requirements"],
+  heroParas: [
+    "Planning and overseeing initiatives that assist companies in understanding consumers, promoting goods, developing brands, and accomplishing corporate goals are the main goals of marketing management."
+  ],
+  overview: [
+    "Q2. Is it possible for Indian students to study marketing management in Australia?",
+    "Yes, subject to university admission restrictions, qualified Indian students may apply for undergraduate or graduate programs in marketing.",
+    "Q3. How long does a course in marketing management last?",
+    "Master's programs often take one to two years, whereas bachelor's degrees typically take three. The institution and certification determine the actual duration.",
+    "Q4. Does marketing management require mathematics?",
+    "Not every marketing program requires mathematics as a requirement. Requirements vary depending on the university and degree selected.",
+    "Q5. Does admission involve taking the IELTS?",
+    "In most cases, students must meet the English language requirements of the university. There may be other tests or exemptions available, but IELTS is one recognized one.",
+    "Keywords -",
+    "Study Marketing Management in Australia",
+    "Marketing Management in Australia for Indian Students",
+    "Study Bachelor of Marketing in Australia",
+    "Study Master of Marketing in Australia",
+    "Study Marketing Management After 12th in Australia",
+    "Marketing in Australia After Graduation",
+    "Marketing Management in Australia with Scholarships",
+    "Marketing at Australian Universities",
+    "Marketing Management in Australia - Fees and Admission Requirements"
+  ],
   level: "Undergraduate & Postgraduate",
   crumb: "Business & Marketing",
 

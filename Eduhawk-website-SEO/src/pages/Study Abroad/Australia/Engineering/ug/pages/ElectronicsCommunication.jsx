@@ -24,10 +24,10 @@ const page = {
     "Study Australian undergraduate communication and electronics engineering programs Best Universities for Communication and Electronics Engineering in Australia Bachelor of Electronics Engineering in Australia After 12th Course Duration in Australia English Language Requirements for Communication and Electronics Engineering in Australia Communication and Electronics Engineering Specialisations in Australia Engineers Australia Accredited Courses Career Opportunities After Communication and Electronics Engineering in Australia",
   introTitle: "Australian undergraduate communication and electronics engineering programs.",
   heroParas: [
-    "Electronics and communication engineering drives modern telecommunications, microelectronics, wireless networks, satellite communications, and Internet of Things (IoT) technologies.",
-    "Australia offers world-class education in telecommunications, photonics, and semiconductor technologies with cutting-edge cleanrooms and accreditation by Engineers Australia."
+    "Electronics and communication engineering drives modern telecommunications, microelectronics, wireless networks, satellite communications, and Internet of Things (IoT) technologies."
   ],
   overview: [
+    "Australia offers world-class education in telecommunications, photonics, and semiconductor technologies with cutting-edge cleanrooms and accreditation by Engineers Australia.",
     "Undergraduate programs focus on analog and digital circuits, microprocessors, signal processing, antenna design, optical communications, and next-generation mobile networks (5G/6G)."
   ],
   level: "UG",

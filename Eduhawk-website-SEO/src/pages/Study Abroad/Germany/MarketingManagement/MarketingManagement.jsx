@@ -14,426 +14,341 @@ import uniImg3 from "../../../../Images/Abroad/Germany/MarketingManagement/3_The
 import uniImg4 from "../../../../Images/Abroad/Germany/MarketingManagement/4_The_Frankfurt_School_of_Finance_M.webp";
 
 const page = {
-  "name": "Marketing Management in Germany",
-  "country": "Germany",
-  "slug": "marketing-management",
-  "title": "Marketing Management in Germany for Indian Students | Edu-Hawk Worldwide",
-  "description": "Complete guide to Marketing Management in Germany for international students: Top German universities, admission requirements, zero-tuition public education, living expenses, and 18-month post-study work visa.",
-  "keywords": "Study Management in Germany for Indian Students, Best Universities for Marketing Management in Germany, Bachelor's and Master's in Marketing Management in Germany, Marketing Management Eligibility Requirements in Germany, Admission Requirements for Marketing Management in Germany, Study Marketing Management in English in Germany, Studienkolleg Requirements for Indian Students in Germany, IELTS and German Language Requirements for Marketing Courses in Germany, Marketing Management Tuition Fees in Germany, Cost of Living for Marketing Management Students in Germany, Marketing Management Scholarships in Germany for International Students, Germany Student Visa Requirements for Indian Marketing Management Students",
-  "introTitle": "1\\. WHY STUDY MARKETING MANAGEMENT IN GERMANY?",
-  "heroParas": [
-    "Germany is a magnet for students who want to study **marketing, brand strategy, digital advertising and international business**. With its strong economy and diverse sectors, it provides opportunities to understand how companies market their products and engage with customers.",
-    "**Key benefits include:**",
-    "* There is a strong **European business climate** available.",
-    "* Another choice is to go for a course in **digital marketing and brand management**.",
-    "* exposure to international firms and advertising strategies.",
-    "* internships and real world project opportunities in targeted universities.",
-    "* programs taught in English and in German.",
-    "* There are openings in marketing, advertising, consulting and market research.",
-    "**Edu Hawk worldwide Consultancy** helps learners to comprehend **university entry requirements**, explore **international study options** and prepare for the **overseas education journey** with the right guidance and preparation."
+  name: "Marketing Management in Germany",
+  country: "Germany",
+  slug: "marketing-management",
+  title: "Marketing Management in Germany for Indian Students | Edu-Hawk Worldwide",
+  description: "Complete guide to Marketing Management in Germany for international students: Top German universities, admission requirements, zero-tuition public education, living expenses, and 18-month post-study work visa.",
+  keywords: "Study Management in Germany for Indian Students, Best Universities for Marketing Management in Germany, Bachelor's and Master's in Marketing Management in Germany, Marketing Management Eligibility Requirements in Germany, Admission Requirements for Marketing Management in Germany, Study Marketing Management in English in Germany, Studienkolleg Requirements for Indian Students in Germany, IELTS and German Language Requirements for Marketing Courses in Germany, Marketing Management Tuition Fees in Germany, Cost of Living for Marketing Management Students in Germany, Marketing Management Scholarships in Germany for International Students, Germany Student Visa Requirements for Indian Marketing Management Students",
+  introTitle: "Why Study Marketing Management in Germany?",
+  heroParas: [
+    "Germany is Europe's commercial powerhouse and a global leader in brand strategy, digital consumer intelligence, and market analytics, offering globally recognized Bachelor's, Master's, and MBA degrees in Marketing Management with tuition-free options at prestigious public universities and an 18-month post-study work visa."
   ],
-  "overview": [
-    "Germany is a magnet for students who want to study **marketing, brand strategy, digital advertising and international business**. With its strong economy and diverse sectors, it provides opportunities to understand how companies market their products and engage with customers.",
-    "**Key benefits include:**",
-    "* There is a strong **European business climate** available.",
-    "* Another choice is to go for a course in **digital marketing and brand management**.",
-    "* exposure to international firms and advertising strategies.",
-    "* internships and real world project opportunities in targeted universities.",
-    "* programs taught in English and in German.",
-    "* There are openings in marketing, advertising, consulting and market research.",
-    "**Edu Hawk worldwide Consultancy** helps learners to comprehend **university entry requirements**, explore **international study options** and prepare for the **overseas education journey** with the right guidance and preparation."
+  overview: [
+    "Germany is a magnet for international students who want to master **marketing, brand strategy, digital advertising, consumer insights, and global commerce**. With its powerhouse industrial economy and thriving tech-driven sectors, Germany provides unmatched opportunities to understand how multinational enterprises market products and build brand loyalty across international borders.",
+    "Key benefits of studying marketing management in Germany include:",
+    "* **Robust European Business Climate:** Unrivaled exposure to DAX 40 corporate giants, global brand agencies, and consumer tech innovators.",
+    "* **Advanced Digital & Analytics Focus:** Curriculums integrating marketing data analytics, AI in consumer behavior, digital campaign optimization, and omni-channel retail strategy.",
+    "* **Hands-On Real-World Projects:** Direct industry partnerships, live client case studies, and structured corporate internships embedded within university programs.",
+    "* **Multilingual Global Opportunities:** Hundreds of programs taught entirely in English alongside bilingual English-German tracks, opening worldwide corporate vacancies.",
+    "* **High Employment Potential:** Massive demand across advertising agencies, FMCG giants, automotive leaders, tech startups, and international management consultancies.",
+    "**Edu Hawk Worldwide Consultancy** helps students understand university entry requirements, explore suitable international study programs, complete the mandatory APS certification, and navigate the entire overseas education journey with end-to-end professional support."
   ],
-  "level": "M.Sc. / MBA in Marketing Management",
-  "crumb": "Management / Marketing",
-  "stats": [
+  level: "B.Sc., BBA, M.Sc. & MBA in Marketing",
+  crumb: "Management / Marketing",
+  stats: [
     {
-      "label": "Degree Choices",
-      "value": "M.Sc. / MBA in Marketing Management"
+      label: "Degree Choices",
+      value: "B.Sc., BBA, M.Sc. & MBA in Marketing"
     },
     {
-      "label": "Course Duration",
-      "value": "3 to 6 Years"
+      label: "Course Duration",
+      value: "UG: 3-3.5 Yrs | PG: 1-2 Yrs"
     },
     {
-      "label": "Top Institutions",
-      "value": "1 . The University of Mannheim   is known for its     business administration and marketing academic options., 2 . University of Cologne     Provides     business and management studies     with specializations in marketing."
+      label: "Top Institutions",
+      value: "Mannheim, Cologne, ESCP Berlin, Frankfurt School"
     },
     {
-      "label": "Post-Study Work",
-      "value": "18-Month Jobseeker Visa (Residence Permit)"
+      label: "Post-Study Work",
+      value: "18-Month Jobseeker Visa (Residence Permit)"
     }
   ],
-  "sections": [
+  sections: [
     {
-      "slot": "courses",
-      "eyebrow": "Curriculum & Specializations",
-      "title": "2. German Marketing Management  courses",
-      "groups": [
+      slot: "courses",
+      eyebrow: "Curriculum & Specializations",
+      title: "German Marketing Management Courses & Curriculums",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "German universities and business schools offer **bachelor and master’s level** programs associated with marketing.",
-            "The options are:",
-            "Bachelor’s programs are generally 3-3.5 years long, while master’s programs are usually 1-2 years long.",
-            "**Popular Topics:**"
+          t: "p",
+          items: [
+            "German universities and elite business schools offer comprehensive undergraduate and postgraduate programs blending empirical marketing science, consumer psychology, digital technologies, and strategic brand management.",
+            "Undergraduate bachelor's programs generally span 3 to 3.5 years (180 to 210 ECTS) and frequently feature an integrated internship or foreign exchange semester. Master's degrees require 1 to 2 years (60 to 120 ECTS).",
+            "Popular core and elective specializations include:"
           ]
         },
         {
-          "t": "pills",
-          "items": [
-            "BBA in marketing management.",
-            "Bachelor’s or master’s degree in Marketing.",
-            "Bachelor of International Marketing",
-            "Master of Science in Marketing Management.",
-            "The Digital Marketing MA.",
-            "MSc in marketing & sales.",
-            "MBA with a concentration in marketing.",
-            "Consumer behavior",
-            "Advertising on the Internet",
-            "Brand management",
-            "Market analysis",
-            "Promotional",
-            "Analytics Marketing",
-            "Sales Management",
-            "Social Media Marketing",
-            "Global marketing strategy"
+          t: "pills",
+          items: [
+            "BBA in Marketing Management",
+            "Bachelor of Science in Marketing & Sales",
+            "Bachelor of Arts in International Marketing",
+            "Master of Science in Marketing Management",
+            "M.A. in Digital Marketing Strategy",
+            "M.Sc. in Marketing Analytics & Data Science",
+            "MBA with Concentration in Global Marketing",
+            "Brand Management & Corporate Identity",
+            "Consumer Behavior & Neuromarketing",
+            "Search Engine Optimization (SEO/SEM) & Growth",
+            "Social Media Marketing & Content Strategy",
+            "Omnichannel Retail & E-Commerce Strategy",
+            "Product Marketing & Pricing Strategy"
           ]
         }
       ]
     },
     {
-      "slot": "universities",
-      "eyebrow": "Top German Universities",
-      "title": "3. Germany's Top Universities and Institutions for Marketing Management",
-      "groups": [
+      slot: "unis",
+      eyebrow: "Top German Universities",
+      title: "Best German Universities & Business Schools for Marketing Management",
+      unis: [
         {
-          "t": "p",
-          "items": [
-            "For **marketing, business, and management-related programs**",
-            "Students might  explore the following universities:"
+          name: "University of Mannheim Business School",
+          city: "Mannheim, Baden-Württemberg",
+          qsRank: "Top 50 Worldwide for Business & Management",
+          tuition: "€1,500/semester (Baden-Württemberg non-EU fee) + ~€200 semester contribution",
+          programs: "B.Sc. Business Administration, Mannheim Master in Management (MMM) - Marketing Track",
+          highlights: "Consistently ranked Germany's #1 business and marketing faculty; Triple Crown accredited (AACSB, EQUIS, AMBA) with elite industry recruitment.",
+          link: "https://www.uni-mannheim.de",
+          img: uniImg1
+        },
+        {
+          name: "University of Cologne (WiSo Faculty)",
+          city: "Cologne, North Rhine-Westphalia",
+          qsRank: "Top 100 Worldwide for Business & Economics",
+          tuition: "€0 Tuition (Public) | ~€320/semester contribution (incl. state transit pass)",
+          programs: "B.Sc. in Management & Economics, M.Sc. in Marketing",
+          highlights: "Home to the renowned Marketing Area Cologne; EQUIS accredited with exceptional corporate networks across media, FMCG, and consulting.",
+          link: "https://www.uni-koeln.de",
+          img: uniImg2
+        },
+        {
+          name: "ESCP Business School (Berlin Campus)",
+          city: "Berlin",
+          qsRank: "#3 European Business School (Financial Times)",
+          tuition: "€8,500 - €12,500/term (Private Business School)",
+          programs: "Master in Management (MIM - Marketing Specialization), M.Sc. in Sales & Marketing",
+          highlights: "World's oldest business school; multi-campus European rotation across Berlin, Paris, and London with outstanding multinational graduate placement.",
+          link: "https://escp.eu",
+          img: uniImg3
+        },
+        {
+          name: "Frankfurt School of Finance & Management",
+          city: "Frankfurt am Main, Hesse",
+          qsRank: "Top 30 European Business School (FT)",
+          tuition: "€7,500 - €10,500/semester (Private Business School)",
+          programs: "B.Sc. in International Business (Marketing Focus), Master in Applied Data Science & Marketing",
+          highlights: "Situated in Europe's commercial center; Triple Crown accredited with specialized industry labs in digital consumer intelligence and fintech marketing.",
+          link: "https://www.frankfurt-school.de",
+          img: uniImg4
+        }
+      ]
+    },
+    {
+      slot: "requirements",
+      eyebrow: "Eligibility Criteria",
+      title: "Qualifications for Studying Marketing Management in Germany",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Eligibility varies depending on whether you are applying for an undergraduate (Bachelor's) or postgraduate (Master's/MBA) degree:",
+            "**Undergraduate (Bachelor's) Eligibility:**",
+            "* **Higher Secondary Qualification:** A recognized school-leaving certificate equivalent to the German Abitur (12th grade standard with mathematics and commerce/humanities subjects).",
+            "* **Studienkolleg Requirement:** Indian applicants with standard 12-year schooling (CBSE/ICSE/State Boards) generally complete a 1-year foundation course (**Studienkolleg W-Kurs**) and clear the **Feststellungsprüfung (FSP)**, unless qualifying through 1 year of recognized university education in India or an IB Diploma.",
+            "* **Language Proficiency:** English-taught tracks require IELTS (6.0 - 6.5) or TOEFL iBT (80 - 90). German-taught modules require TestDaF (4x4) or DSH-2.",
+            "**Postgraduate (Master's & MBA) Eligibility:**",
+            "* **Undergraduate Degree:** A recognized Bachelor's degree (3-year or 4-year) in Business Administration, Marketing, Economics, Communications, or related disciplines with minimum 180 ECTS.",
+            "* **Academic Threshold:** Minimum German grade equivalent of 2.5 or higher (approx. 65-70%+).",
+            "* **Quantitative/Research ECTS:** Several public research universities require a minimum number of credits in statistics, mathematics, or quantitative research methods.",
+            "* **Work Experience & GMAT:** Specialized MBA programs mandate 1 to 3+ years of professional marketing experience; competitive schools may require or recommend GMAT/GRE scores."
           ]
         }
       ]
     },
     {
-      "slot": "why",
-      "eyebrow": "Why Study in Germany",
-      "title": "1. The University of Mannheim is known for its business administration and marketing academic options.",
-      "groups": []
-    },
-    {
-      "slot": "courses",
-      "eyebrow": "Curriculum & Specializations",
-      "title": "2. University of Cologne- Provides business and management studies with specializations in marketing.",
-      "groups": []
-    },
-    {
-      "slot": "universities",
-      "eyebrow": "Top German Universities",
-      "title": "3. The Berlin campus of the ESCP Business School provides business education together with chances for international management.",
-      "groups": []
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Eligibility Criteria",
-      "title": "4. The Frankfurt School of Finance & Management offers management courses that are relevant to business and marketing.",
-      "groups": []
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Eligibility Criteria",
-      "title": "4. Qualifications for Studying Marketing Management in Germany",
-      "groups": [
+      slot: "admissions",
+      eyebrow: "Application Checklist",
+      title: "Admission Requirements for Marketing Management in Germany",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "The **degree level and university** determine eligibility.",
-            "**Regarding bachelor's programs:**",
-            "If your educational background does not grant you direct admission to a university, you might need to complete **Studienkolleg and an evaluation examination**.",
-            "**Regarding master's programs:**"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "A recognized qualification for leaving school.",
-            "Academic grades and topic requirements are necessary.",
-            "**German proficiency** for courses taught in German or **English proficiency** for programs taught in English.",
-            "A recognized **bachelor's degree** in **business, marketing, management, economics or a similar field** is typically required.",
-            "Academic grades and pertinent coursework are necessary.",
-            "Proof of competency in either German or English, depending on the program.",
-            "The institution may demand an interview, work experience",
-            "GMAT/GRE results."
+          t: "p",
+          items: [
+            "German universities have strict evaluation timelines and document verification requirements. Indian applicants must obtain the mandatory **APS Certificate** from APS India prior to university and visa submissions.",
+            "Standard application documents include:",
+            "* Valid Passport (minimum 12 months validity).",
+            "* Certified Academic Transcripts, Marksheets, and Degree/School Leaving Certificates.",
+            "* Mandatory **APS Certificate** (for Indian applicants).",
+            "* Official English language proficiency scorecard (IELTS Academic or TOEFL iBT) or German certificate (TestDaF/DSH/Goethe).",
+            "* Targeted Statement of Purpose (SOP) or Letter of Motivation outlining marketing career ambitions.",
+            "* Updated Academic CV in European Europass format.",
+            "* Two Academic or Professional Letters of Recommendation (LORs).",
+            "* Portfolio of past marketing campaigns, internships, social media projects, or digital marketing certifications (if applicable).",
+            "* GMAT or GRE score reports (where mandated by specific business schools).",
+            "* University entrance examination or admission interview results (if required)."
           ]
         }
       ]
     },
     {
-      "slot": "admission",
-      "eyebrow": "Admission Requirements",
-      "title": "5. German Marketing Management Admission Requirements",
-      "groups": [
+      slot: "costs",
+      eyebrow: "Financial Planning",
+      title: "Cost of Studying Marketing Management in Germany",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Typical requirements for entry consist of:",
-            "Before submitting an application, candidates should check the official **program page** as requirements vary by institution."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Academic transcripts and certifications.",
-            "If necessary, the results of an English language test, such as the TOEFL or IELTS.",
-            "For courses taught in German, a **German language certificate** is required.",
-            "A letter of motivation or a statement of goal.",
-            "A revised CV or resume.",
-            "Recommendation letters, upon request.",
-            "Evidence of relevant professional experience or internships, if any.",
-            "If necessary, take an entrance exam or interview."
+          t: "p",
+          items: [
+            "Germany offers world-class marketing education at a fraction of the cost of other Western nations, paired with transparent living expenses:",
+            "* **Public Universities:** Most consecutive Bachelor's and Master's programs across 15 of Germany's 16 federal states charge **€0 tuition fee** for all students regardless of nationality.",
+            "* **Baden-Württemberg State Tuition:** Public universities in Baden-Württemberg (such as Mannheim) charge **€1,500 per semester** for non-EU international students.",
+            "* **Semester Contribution (Semesterbeitrag):** Public universities require a mandatory administrative contribution of **€150 to €400 per semester**, which includes an all-access regional public transportation ticket (Semesterticket).",
+            "* **Private Business Schools:** Private universities and business schools (e.g., ESCP, Frankfurt School) charge tuition ranging from **€5,000 to €20,000+ per year**.",
+            "* **Monthly Living Expenses:** Budget approximately **€900 to €1,300 per month** covering student housing (€350 - €600), statutory health insurance (~€125 - €130), food, internet, and personal expenses.",
+            "* **German Blocked Account (Sperrkonto):** International students must deposit **€11,904 per year** into an approved German blocked account as proof of financial resources for visa approval."
           ]
         }
       ]
     },
     {
-      "slot": "fees",
-      "eyebrow": "Tuition Fees & Living Costs",
-      "title": "6. The cost of studying marketing management in Germany",
-      "groups": [
+      slot: "timeline",
+      eyebrow: "Step-by-Step Pathway",
+      title: "Admission Procedure for Marketing Management in Germany",
+      steps: [
         {
-          "t": "p",
-          "items": [
-            "The city, program and university all affect the total cost.",
-            "Estimated costs:",
-            "Students should check with the appropriate German authorities and their selected institution about the current **tuition fees and financial requirements**."
-          ]
+          num: "01",
+          title: "Select Program & Specialization",
+          desc: "Choose your degree level (Bachelor's or Master's/MBA) and focus area: Digital Marketing, Brand Strategy, Consumer Analytics, or International Sales."
         },
         {
-          "t": "ul",
-          "items": [
-            "The general tuition for many programs at public institutions is free, however **semester contributions** often range from **€150 to **€400**.",
-            "There are several states, universities and specialized programs that charge tuition including some fees for **non-EU students**.",
-            "The cost of attending private universities and business schools can vary from roughly **€5,000 to €20,000 or more annually.",
-            "Depending on lodging and lifestyle, living expenses can range from **€900 to €1,300 per month.",
-            "Health insurance, books, transportation, and visa-related charges are examples of additional costs."
-          ]
+          num: "02",
+          title: "Research Universities & Language Tracks",
+          desc: "Examine public universities (€0 tuition) versus private business schools, checking language requirements (English vs. German)."
         },
         {
-          "t": "table",
-          "headers": [
-            "Category / Expense Type",
-            "Estimated Amount (EUR)",
-            "Applicability & Regulation"
-          ],
-          "rows": [
-            [
-              "The general tuition for many programs at public institutions is free, however semester contributions often range from €150 to €400.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "There are several states, universities and specialized programs that charge tuition including some fees for non",
-              "EU students.",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "The cost of attending private universities and business schools can vary from roughly €5,000 to €20,000 or more annually.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "Depending on lodging and lifestyle, living expenses can range from €900 to €1,300 per month.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "Health insurance, books, transportation, and visa",
-              "related charges are examples of additional costs.",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ]
+          num: "03",
+          title: "Verify Academic Prerequisites & Apply for APS",
+          desc: "Confirm prerequisite ECTS credits in business/quantitative methods and apply early for the mandatory APS Certificate via APS India."
+        },
+        {
+          num: "04",
+          title: "Appear for Language & Standardized Tests",
+          desc: "Complete IELTS Academic or TOEFL iBT, and appear for GMAT/GRE if mandated by your shortlisted institutions."
+        },
+        {
+          num: "05",
+          title: "Prepare Compelling Application Dossier",
+          desc: "Draft a tailored Statement of Purpose (SOP), build a Europass CV, gather academic LORs, and compile campaign/internship portfolios."
+        },
+        {
+          num: "06",
+          title: "Submit University Applications",
+          desc: "Submit your applications via Uni-Assist or direct university portals before the July 15 (Winter) or January 15 (Summer) deadlines."
+        },
+        {
+          num: "07",
+          title: "Complete Video Interviews or Entry Assessments",
+          desc: "Attend structured video interviews, marketing case discussions, or written assessments if shortlisted by competitive faculties."
+        },
+        {
+          num: "08",
+          title: "Receive & Accept Admission Offer",
+          desc: "Obtain your official Letter of Admission (Zulassungsbescheid) and pay any initial administrative or semester contribution fee."
+        },
+        {
+          num: "09",
+          title: "Open Blocked Account & Secure Student Visa",
+          desc: "Deposit €11,904 in a German blocked account (Sperrkonto), obtain statutory health insurance, and apply for the National Student Visa (Subtype 16b)."
+        },
+        {
+          num: "10",
+          title: "Relocate, Register & Formal Matriculation",
+          desc: "Arrive in Germany, complete city registration (Anmeldung), finalize university matriculation (Immatrikulation), and receive your student ID and transit pass."
+        }
+      ]
+    },
+    {
+      slot: "accreditation",
+      eyebrow: "Quality Standards",
+      title: "Accreditation & Recognition of Marketing Management in Germany",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Before enrolling, ensure the institution and degree hold recognized national and international accreditations:",
+            "* **AACSB (Association to Advance Collegiate Schools of Business):** Premier global gold standard for business schools, validating faculty research and educational quality.",
+            "* **EQUIS (European Quality Improvement System):** International accreditation assessing business school governance, corporate linkages, and internationalization.",
+            "* **AMBA (Association of MBAs):** Prestigious accreditation focused specifically on MBA and specialized postgraduate management programs.",
+            "* **Triple Crown Distinction:** Business schools holding all three accreditations (AACSB, EQUIS, AMBA) belong to the top 1% globally (e.g., Mannheim, Frankfurt School, ESCP).",
+            "* **German State Accreditation (Staatlich Anerkannt):** All public and state-recognized private institutions are accredited by the German Council of Science and Humanities (Wissenschaftsrat) and registered in the official Anabin database."
           ]
         }
       ]
     },
     {
-      "slot": "process",
-      "eyebrow": "Application Timeline & Steps",
-      "title": "7. The German Admission Process for Marketing Management",
-      "groups": []
-    },
-    {
-      "slot": "why",
-      "eyebrow": "Why Study in Germany",
-      "title": "1. Select a marketing-related bachelor's or master's program.",
-      "groups": []
-    },
-    {
-      "slot": "courses",
-      "eyebrow": "Curriculum & Specializations",
-      "title": "2. Examine universities, specializations, prices, and language instruction.",
-      "groups": []
-    },
-    {
-      "slot": "universities",
-      "eyebrow": "Top German Universities",
-      "title": "3. Verify the language and academic eligibility standards.",
-      "groups": []
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Eligibility Criteria",
-      "title": "4. Get the supporting documentation, certifications, and transcripts ready.",
-      "groups": []
-    },
-    {
-      "slot": "admission",
-      "eyebrow": "Admission Requirements",
-      "title": "5. Use the approved application service or the university portal to submit your application.",
-      "groups": []
-    },
-    {
-      "slot": "fees",
-      "eyebrow": "Tuition Fees & Living Costs",
-      "title": "6. Finish any necessary interview or test.",
-      "groups": []
-    },
-    {
-      "slot": "process",
-      "eyebrow": "Application Timeline & Steps",
-      "title": "7. Get the admission offer and accept it.",
-      "groups": []
-    },
-    {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Quality Standards",
-      "title": "8. If necessary, set up proof of funds, health insurance, and visa papers.",
-      "groups": []
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Career Prospects & Salary",
-      "title": "9. Plan your journey and lodging.",
-      "groups": []
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Required Documentation",
-      "title": "10. Finish enrolling at a university.",
-      "groups": []
-    },
-    {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Quality Standards",
-      "title": "8. Accreditation and Recognition of Marketing Management in Germany",
-      "groups": [
+      slot: "careers",
+      eyebrow: "Employment Outlook",
+      title: "Career & Salary Opportunities After Marketing Management in Germany",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Make sure the qualification fits your professional goals and that the institution is **recognized** before enrolling.",
-            "The following are pertinent business-school accreditations:",
-            "These accreditations are not held by all universities or marketing programs."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "The AACSB is an international organization that accredits business education.",
-            "EQUIS: Assesses worldwide engagement and the excellence of business schools.",
-            "Eligible **MBA and associated management programs** are accredited by the AMBA."
+          t: "p",
+          items: [
+            "Graduates in Marketing Management from German universities are in strong demand across consumer goods (FMCG), technology, automotive, digital agencies, retail, media, and management consulting.",
+            "Popular career profiles include:",
+            "* **Brand Manager:** Leading product positioning, brand identity, and multi-channel marketing campaigns.",
+            "* **Digital Marketing Specialist:** Managing performance marketing, paid media (PPC), marketing automation, and acquisition funnels.",
+            "* **Market Research & Consumer Insights Analyst:** Interpreting quantitative consumer behavior, trend forecasting, and competitive benchmarking.",
+            "* **Product Marketing Manager:** Bridging engineering and sales to launch new commercial products and design go-to-market strategies.",
+            "* **SEO/SEM & Growth Specialist:** Driving organic search traffic, web visibility, and conversion rate optimization (CRO).",
+            "* **Marketing Communications & PR Manager:** Driving corporate reputation, external communications, and stakeholder messaging.",
+            "* **Marketing Strategy Consultant:** Advising multinational corporations on brand revitalization, market entry, and pricing optimization.",
+            "**Estimated Gross Annual Salaries in Germany:**",
+            "* **Entry-Level Marketing Roles:** **€36,000 to €46,000** per year.",
+            "* **Experienced Marketing Professionals (3-5+ years):** **€48,000 to €68,000** per year.",
+            "* **Senior Managers & Marketing Directors:** **€70,000 to €100,000+** per year.",
+            "Salary levels are highest in major economic hubs such as Munich, Frankfurt, Berlin, Hamburg, and Düsseldorf. Developing conversational German (B1/B2) significantly boosts career mobility in customer-facing and community-oriented roles."
           ]
         }
       ]
     },
     {
-      "slot": "careers",
-      "eyebrow": "Career Prospects & Salary",
-      "title": "9. Pay and Employment Prospects in Germany Following Marketing Management",
-      "groups": [
+      slot: "documents",
+      eyebrow: "Required Paperwork",
+      title: "Documents Required to Study Marketing Management in Germany",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Graduates in marketing management can find employment in **consumer goods, technology, automotive, retail, media, consulting and e-commerce companies**.",
-            "Among the popular career opportunities are:",
-            "Germany's approximate yearly gross salary are as follows:",
-            "Experience, location, industry, employer and responsibilities all affect these estimates.",
-            "Proficiency in German might be particularly beneficial for marketing positions that deal with customers and local communities."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "The marketing executive",
-            "A specialist in digital marketing",
-            "The Brand Manager",
-            "Analyst of Market Research",
-            "The manager of social media",
-            "SEO/SEM Expert",
-            "A marketing analyst",
-            "The manager of product marketing",
-            "A marketing consultant",
-            "The manager of marketing communications",
-            "Entry-level marketing positions: **between €32,000 and €42,000**.",
-            "Professionals with experience in marketing: **between €42,000 and €60,000.",
-            "Senior managers and specialists: **between €65,000 and €90,000 or more**."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Required Documentation",
-      "title": "10. Documents Needed",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Candidates may require the following paperwork:",
-            "International students may also require **financial proof, health insurance, and visa documents** after being admitted."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "A valid passport is required.",
-            "For bachelor's degree candidates, there are **school-leaving certificates**.",
-            "Transcripts and a bachelor's degree certificate are required for master's candidates.",
-            "If necessary, the results of an English or German language test.",
-            "A CV or resume.",
-            "A letter of motivation or a statement of goal.",
-            "Recommendation letters, upon request.",
-            "Certificates of internship or employment experience, if applicable.",
-            "Completed **application form** and any necessary test findings.",
-            "If required, certified translations of papers."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "details",
-      "eyebrow": "Key Insights",
-      "title": "11. FAQs regarding German marketing management",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Q1. Is it possible for me to study English-language marketing management in Germany?",
-            "**English-taught marketing or management programs** are available at certain colleges and business schools. Verify the language used for instruction in that particular course.",
-            "Q2. In Germany, how long does it take to study marketing management?",
-            "**Master's degrees** usually take **1–2 years**, whilst **bachelor's degrees** often take **3–3.5 years**.",
-            "**Q3. Is marketing management reasonably priced in Germany?**",
-            "Tuition at many **public universities** is comparatively inexpensive, though there are some exceptions. Additionally, students should set aside money for **semester contributions, health insurance, and living expenses.",
-            "Q4. Is it possible for Indian students to pursue a marketing management degree in Germany after completing their 12th grade education?",
-            "Yes, if they fulfill the **entry requirements** of the university. Some students may require **Studienkolleg and an assessment examination** prior to bachelor's admission, depending on their educational qualifications.",
-            "Q5. What careers may I pursue in Germany after completing my studies in marketing management?",
-            "Graduates can find employment in advertising, product marketing, social media, digital marketing, brand management, market research, and marketing consultancy.",
-            "How can I study abroad with the assistance of **Edu Hawk Worldwide Consultancy?**",
-            "Students may plan their **study-abroad journey**, organize **application documents**, comprehend **admission requirements**, and explore  **suitable universities** with the assistance of Edu Hawk Worldwide. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
+          t: "p",
+          items: [
+            "Ensure all documentation is neatly compiled, translated into English or German, and verified where applicable:",
+            "* Valid Passport (minimum 12 months validity).",
+            "* Secondary School Certificates & Marksheets (10th & 12th standards).",
+            "* Bachelor's Degree Certificate and official grade transcripts (for Master's applicants).",
+            "* **Mandatory APS Certificate** issued by the Academic Evaluation Centre (APS India).",
+            "* English Language Proficiency scorecards (IELTS Academic 6.5+ or TOEFL iBT 90+).",
+            "* German Language Certificates (if enrolled in German or bilingual modules: B1/B2/TestDaF).",
+            "* Statement of Purpose (SOP) tailored specifically to your chosen marketing curriculum.",
+            "* Europass format CV detailing academic achievements, projects, and work experience.",
+            "* Two Academic/Professional Letters of Recommendation (LORs).",
+            "* Proof of Internships, Extracurricular Leadership, or Corporate Experience.",
+            "* Blocked Account Confirmation (€11,904) and German Statutory Health Insurance.",
+            "* Official University Admission Letter (Zulassungsbescheid)."
           ]
         }
       ]
     }
   ],
-  "faqs": []
+  faqs: [
+    {
+      q: "Is it possible to study Marketing Management in English in Germany?",
+      a: "Yes. Numerous public universities and private business schools across Germany offer Bachelor's, Master's (M.Sc./MIM), and MBA programs in Marketing Management taught entirely in English. While course instruction is in English, learning basic German (A2/B1) is strongly recommended for daily life and securing internships with German enterprises."
+    },
+    {
+      q: "How long does it take to complete a marketing management degree in Germany?",
+      a: "Bachelor's degrees (B.Sc., BBA, B.A.) typically take 3 to 3.5 years (6 to 7 semesters), often including an integrated exchange semester or mandatory corporate internship. Master's degrees (M.Sc., MBA) generally require 1 to 2 years (2 to 4 semesters)."
+    },
+    {
+      q: "Is marketing management affordable to study in Germany?",
+      a: "Yes. At public German universities, international students pay zero tuition fees across 15 federal states, paying only a modest semester contribution of €150 to €400 (which covers public transportation). Even in Baden-Württemberg, tuition is only €1,500 per semester. Private business schools charge between €5,000 and €20,000 annually. Living expenses average €900 to €1,300 per month."
+    },
+    {
+      q: "Can Indian students pursue Marketing Management in Germany after 12th grade?",
+      a: "Yes, provided they fulfill university entry criteria. Because German universities require 13 years of schooling (Abitur equivalence), Indian students generally complete a 1-year preparatory Studienkolleg (W-Kurs for business/economics) and pass the Feststellungsprüfung (FSP). Direct entry is possible for students with 1 year of recognized university education in India or an IB Diploma."
+    },
+    {
+      q: "What career opportunities and post-study work rights are available after graduation?",
+      a: "International graduates in Germany are eligible for an 18-month post-study work visa (Residence Permit for Jobseekers). Graduates enter high-demand careers in brand management, digital marketing, consumer insights, social media strategy, product marketing, and marketing consultancy, with entry-level salaries ranging between €36,000 and €46,000 per year."
+    }
+  ]
 };
 
 export default function MarketingManagementGermanyPage() {
@@ -441,30 +356,18 @@ export default function MarketingManagementGermanyPage() {
     hero: heroImg,
     heroBg: heroBgImg,
     side: sideImg,
-    ctaBg: ctaBgImg,
-    universities: [
-    {
-      name: "1 . The University of Mannheim   is known for its     business administration and marketing academic options.",
-      img: uniImg1,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "2 . University of Cologne     Provides     business and management studies     with specializations in marketing.",
-      img: uniImg2,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "3 . The Berlin campus of the     ESCP Business School       provides     business education     together with chances for international management.",
-      img: uniImg3,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "4 . The Frankfurt School of Finance & Management   offers management courses that are relevant to business and marketing.",
-      img: uniImg4,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    }
-    ]
+    ctaBg: ctaBgImg
   };
 
-  return <AbroadCoursePage page={page} images={images} />;
+  return (
+    <AbroadCoursePage
+      page={page}
+      images={images}
+      heroImg={heroImg}
+      heroBgImg={heroBgImg}
+      sideImg={sideImg}
+      ctaBgImg={ctaBgImg}
+      seoPath="/study-abroad/germany/marketing-management"
+    />
+  );
 }

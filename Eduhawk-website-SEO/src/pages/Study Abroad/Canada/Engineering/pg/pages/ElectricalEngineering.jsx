@@ -19,8 +19,7 @@ const page = {
   "keywords": "Study Electrical Engineering - PG in Canada, Electrical Engineering - PG in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Indian Students Studying Electrical Engineering in Canada",
   "heroParas": [
-    "Students interested in Electrical Engineering, power generation, renewable energy, electronics, automation, telecommunications, and sophisticated engineering technologies are drawn to Canada. The design, development, testing, and maintenance of electrical equipment, power systems, control systems, and electronic technologies are the fundamental objectives of electrical engineering.",
-    "In addition to theoretical instruction, Canadian universities provide undergraduate and postgraduate Electrical Engineering programs that incorporate research, technical projects, lab work, and, at some institutions, co-ops. Based on their academic background, technical interests, and professional aspirations, students can select a curriculum."
+    "Students interested in Electrical Engineering, power generation, renewable energy, electronics, automation, telecommunications, and sophisticated engineering technologies are drawn to Canada. The design, development, testing, and maintenance of electrical equipment, power systems, control systems, and electronic technologies are the fundamental objectives of electrical engineering."
   ],
   "overview": [
     "Students interested in Electrical Engineering, power generation, renewable energy, electronics, automation, telecommunications, and sophisticated engineering technologies are drawn to Canada. The design, development, testing, and maintenance of electrical equipment, power systems, control systems, and electronic technologies are the fundamental objectives of electrical engineering.",

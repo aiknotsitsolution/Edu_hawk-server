@@ -18,8 +18,7 @@ const page = {
   "keywords": "Study Dentistry in Spain, Dentistry in Spain for Indian Students, Best Universities in Spain, Cost of Studying in Spain",
   "introTitle": "Dentistry in Spain for Indian Students",
   "heroParas": [
-    "Studying Dentistry in Spain for Indian students is an opportunity to get a European dental qualification, develop clinical skills, and gain international academic exposure. Spanish universities provide undergraduate degrees in dentistry, called Grado en Odontología. These programs generally take five years to complete and are worth 300 ECTS credits.",
-    "Students can investigate public and private universities, clinical training opportunities and selected Dentistry programs in Spain taught in English . But the language of instruction is especially important: many dentistry degrees in Spain are taught mostly in Spanish or a regional language and clinical placements require good communication with patients."
+    "Studying Dentistry in Spain for Indian students is an opportunity to get a European dental qualification, develop clinical skills, and gain international academic exposure. Spanish universities provide undergraduate degrees in dentistry, called Grado en Odontología. These programs generally take five years to complete and are worth 300 ECTS credits."
   ],
   "overview": [
     "Studying Dentistry in Spain for Indian students is an opportunity to get a European dental qualification, develop clinical skills, and gain international academic exposure. Spanish universities provide undergraduate degrees in dentistry, called Grado en Odontología. These programs generally take five years to complete and are worth 300 ECTS credits.",
@@ -418,10 +417,6 @@ const page = {
             {
               "q": "Do Indian students need NEET to study Dentistry in Spain?",
               "a": "For Indian students who want to study dentistry abroad and then practice in India, the NEET and other eligibility requirements are important to consider. Please check the latest applicable Indian regulations with the relevant regulator before admission. Please check the entry requirements of the Spanish University separately."
-            },
-            {
-              "q": "Top 6 SEO Keywords",
-              "a": "Dentistry in Spain for Indian Students Dentistry Courses in Spain Best Universities for Dentistry in Spain Dentistry Eligibility in Spain Dentistry Admission Requirements in Spain Cost of Studying Dentistry in Spain"
             }
           ]
         }

@@ -22,9 +22,7 @@ const page = {
   "keywords": "Study BEng Chemical Engineering in the UK, BEng Chemical Engineering in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Study Chemical Engineering in the United Kingdom",
   "heroParas": [
-    "Chemical engineering is a branch of engineering that uses process design, chemistry, mathematics, and physics to safely and effectively convert raw materials into useful products. Pharmaceutical, food, energy, water treatment, biotechnology, sophisticated materials, and manufacturing processes are developed and enhanced by chemical engineers.",
-    "The UK offers undergraduate Chemical Engineering degrees that incorporate practical projects, laboratory experimentation, industrial design, process modeling, and theoretical learning. While taking sustainability, efficiency, safety, and environmental effect into account, students learn how to design and run large-scale manufacturing systems.",
-    "Studying Chemical Engineering in the UK can lay the groundwork for Indian students to pursue jobs in biotechnology, energy, pharmaceuticals, chemicals, process industries, and sustainable manufacturing."
+    "Chemical engineering is a branch of engineering that uses process design, chemistry, mathematics, and physics to safely and effectively convert raw materials into useful products. Pharmaceutical, food, energy, water treatment, biotechnology, sophisticated materials, and manufacturing processes are developed and enhanced by chemical engineers."
   ],
   "overview": [
     "Chemical engineering is a branch of engineering that uses process design, chemistry, mathematics, and physics to safely and effectively convert raw materials into useful products. Pharmaceutical, food, energy, water treatment, biotechnology, sophisticated materials, and manufacturing processes are developed and enhanced by chemical engineers.",

@@ -18,10 +18,10 @@ const page = {
   "description": "Study Electrical Engineering - PG in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
   "keywords": "Study Electrical Engineering - PG in Italy, Electrical Engineering - PG in Italy for Indian Students, Best Universities in Italy, Cost of Studying in Italy",
   "introTitle": "Electrical Engineering in Italy for Indian Students",
-  "heroParas": [
-    "Yes. Indian students can apply to eligible Italian universities with a relevant undergraduate qualification subject to meeting the academic, language and programme-specific requirements."
+  heroParas: [
+    "A Master’s in Electrical Engineering in Italy provides comprehensive postgraduate training in renewable power systems, smart grids, automation, electric mobility, and modern power electronics at leading technical institutions."
   ],
-  "overview": [
+  overview: [
     "Yes. Indian students can apply to eligible Italian universities with a relevant undergraduate qualification subject to meeting the academic, language and programme-specific requirements."
   ],
   "level": "Postgraduate",
@@ -147,17 +147,6 @@ const page = {
           "items": [
             "Graduates can specialize in power systems, electrical design, renewable energy, automation, power electronics, electric mobility and engineering research. Employment opportunities are dependent on your skills, experience, language ability and work authorization."
           ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Electrical Engineering in Italy for Indian Students",
-            "Master's in Electrical Engineering in Italy",
-            "Electrical Engineering Courses in Italy",
-            "Best Electrical Engineering Colleges in Italy",
-            "Electrical Engineering Admission Requirements in Italy",
-            "Cost of Studying Electrical Engineering in Italy"
-          ]
         }
       ]
     },
@@ -167,17 +156,35 @@ const page = {
       "title": "How to get admission in Electrical Engineering in Italy",
       "groups": [
         {
-          "t": "ul",
-          "items": [
-            "Select your university and specialization. Compare Electrical Engineering courses in Italy, course content, language of instruction, tuition fees and entry criteria.",
-            "Check if you qualify. Make sure that your undergraduate degree and previous courses meet the program requirements.",
-            "Collect the necessary paperwork. Please collect the academic documents, language certificates, passport and other required documents.",
-            "Official university website to apply for. Fill out the application and submit documents before the deadline.",
-            "Finish the educational evaluation Respond to requests for additional documents or assessments as appropriate.",
-            "Accept your offer of admission. Please follow the university's instructions to register and pay your fees.",
-            "Complete the pre-enrolment and visa formalities. Be up to date with the most recent requirements for international students and the Italian student visa process."
-          ]
-        },
+        "t": "timeline",
+        "items": [
+                {
+                        "step": "1",
+                        "title": "Step 1",
+                        "desc": "Select your university and specialization. Compare Electrical Engineering courses in Italy, course content, language of instruction, tuition fees and entry criteria."
+                },
+                {
+                        "step": "2",
+                        "title": "Check If You Qualify",
+                        "desc": "Make sure that your undergraduate degree and previous courses meet the program requirements."
+                },
+                {
+                        "step": "3",
+                        "title": "Step 3",
+                        "desc": "Finish the educational evaluation Respond to requests for additional documents or assessments as appropriate."
+                },
+                {
+                        "step": "4",
+                        "title": "Accept Your Offer Of Admission",
+                        "desc": "Please follow the university's instructions to register and pay your fees."
+                },
+                {
+                        "step": "5",
+                        "title": "Step 5",
+                        "desc": "Complete the pre-enrolment and visa formalities. Be up to date with the most recent requirements for international students and the Italian student visa process."
+                }
+        ]
+},
         {
           "t": "p",
           "items": [
@@ -216,43 +223,6 @@ const page = {
         {
           "t": "ul",
           "items": [
-            "Electrical Design Engineers",
-            "Engineer, Power Systems",
-            "Electrical Design Engineer",
-            "Engineer, Renewable Energy",
-            "Power Electronics Engineer",
-            "Electrical Drive Engineer",
-            "Control and Automation Engineer Consultant Energy Systems",
-            "R&D Engineer"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Salary Range (indicative)",
-            "Level of ExperienceGross yearly salary indicativeApproximate INR equivalents",
-            "Entry-level€28,000-€35,000₹30.41-₹38.01 lakh",
-            "Experienced€35,000 - €50,000₹ 38.01 - ₹ 54.30 lakh",
-            "Specialist or senior roles€50,000-€70,000+₹54.30-₹76.02 lakh+",
-            "These are general illustrative estimates for career planning, not verified salary statistics or guarantyd earnings. Actual salaries will vary depending on location, employer, experience, specialization, language skills and work authorization. INR equivalents are based on €1= ₹108.60."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Document Checklist",
-      "title": "Required Documents to Study Electrical Engineering in Italy",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Indian students are required to prepare the documents as specified by the university they have chosen. Typical requirements include:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
             "Passport valid.",
             "Bachelor's degree certificate or provisional certificate",
             "Academic transcripts & mark sheets.",
@@ -273,7 +243,34 @@ const page = {
         }
       ]
     }
-  ]
+  ],
+  faqs: [
+    {
+        "q": "Can Indian students pursue an Electrical Engineering Master's in Italy in English?",
+        "a": "Yes. Politecnico di Milano, University of Bologna, and University of Genoa offer complete English-taught master's degrees in Electrical Engineering."
+    },
+    {
+        "q": "What is the duration of the programme in Italy?",
+        "a": "The Master's degree takes 2 years (120 ECTS credits), divided into specialized coursework, lab projects, and an individual master's thesis."
+    },
+    {
+        "q": "What are the tuition fees for Electrical Engineering in Italy?",
+        "a": "Public university tuition typically ranges from €1,000 to €3,900 per year, and can be fully waived via regional DSU scholarship awards."
+    },
+    {
+        "q": "What specializations are available in Italian electrical engineering?",
+        "a": "Key tracks include Renewable Energy & Smart Grids, Electric Transportation & Automotive Power, Industrial Automation, and High-Voltage Technology."
+    },
+    {
+        "q": "What are the admission requirements for international applicants?",
+        "a": "A Bachelor's degree in electrical or electronic engineering, academic transcripts meeting prerequisite credits in circuit theory and electromagnetics, and English proficiency."
+    },
+    {
+        "q": "What are the employment opportunities for electrical engineers in Italy?",
+        "a": "Graduates are recruited by multinational energy companies (Enel, Terna), automotive manufacturers, automation leaders, and renewable energy developers across Europe."
+    }
+],
+  faqTitle: "Frequently Asked Questions About Electrical Engineering PG in Italy"
 };
 
 export default function ElectricalEngineeringPGItaly() {

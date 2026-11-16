@@ -13,511 +13,303 @@ import uniImg2 from "../../../../Images/Abroad/Ireland/HospitalityManagement/Uni
 import uniImg3 from "../../../../Images/Abroad/Ireland/HospitalityManagement/University_of_Galway_3.webp";
 
 const page = {
-  "name": "Hospitality Management in Ireland",
-  "country": "Ireland",
-  "slug": "hospitality-management",
-  "title": "Study Hospitality Management in Ireland for Indian Students | Edu-Hawk Worldwide",
-  "description": "Complete guide to Hospitality Management in Ireland for Indian students: Top Irish universities, eligibility criteria, tuition fees (€13,500 – €28,640 / year), scholarships, and 2-year post-study work visa (Stamp 1G).",
-  "keywords": "Study Hospitality Management in Ireland for Indian Students, Top Universities for Hospitality Management in Ireland, Hospitality Management Courses in Ireland for International Students, Bachelor of Hospitality Management in Ireland, International Hotel Management Courses in Ireland, MSc Hospitality Management in Ireland, Higher Diploma in Hospitality Management in Ireland, Hospitality Management Eligibility Requirements in Ireland, Admission Requirements for Hospitality Courses in Ireland, Hospitality Management Tuition Fees in Ireland 2026/27",
-  "introTitle": "HOSPITALITY MANAGEMENT STUDIES IN IRELAND",
-  "heroParas": [
-    "Hospitality Management Studies in Ireland",
-    "Study Hospitality Management is a great option for students who are interested in hotel operations, tourism, restaurants, event planning and guest services. Ireland offers hospitality degrees and postgraduate programmes that blend business management with practical knowledge of the hospitality industry.",
-    "International students can study bachelor's degrees, master's programmes, higher diplomas and specialised qualifications. These courses can help the students to develop leadership, customer service, financial management and operational skills for a career in hotels, resorts, restaurants, tourism companies and international hospitality groups."
+  name: "Hospitality Management in Ireland",
+  country: "Ireland",
+  slug: "study-abroad/ireland/hospitality-management",
+  title: "Study Hospitality & Hotel Management in Ireland | Colleges, Fees & Visas 2026/27",
+  description: "Complete guide to Hospitality Management in Ireland: Shannon College of Hotel Management, TU Dublin, undergraduate & MSc degrees, 2026/27 tuition fees, 100% employment records, and Stamp 1G post-study work visa.",
+  keywords: "Study Hospitality Management in Ireland, Hotel Management Ireland, Shannon College Hotel Management Galway, TU Dublin Hospitality Management, BComm International Hotel Management, MSc Hospitality Management Ireland, Hospitality tuition fees Ireland 2026 2027, Stamp 1G post study work visa",
+  introTitle: "HOSPITALITY MANAGEMENT STUDIES IN IRELAND",
+  heroParas: [
+    "Ireland is an internationally celebrated destination for hospitality and hotel management education, home to prestigious institutions like Shannon College of Hotel Management and a flourishing multi-billion euro global tourism and service economy."
   ],
-  "overview": [
-    "Hospitality Management Studies in Ireland",
-    "Study Hospitality Management is a great option for students who are interested in hotel operations, tourism, restaurants, event planning and guest services. Ireland offers hospitality degrees and postgraduate programmes that blend business management with practical knowledge of the hospitality industry.",
-    "International students can study bachelor's degrees, master's programmes, higher diplomas and specialised qualifications. These courses can help the students to develop leadership, customer service, financial management and operational skills for a career in hotels, resorts, restaurants, tourism companies and international hospitality groups.",
-    "Edu Hawk worldwide Study abroad guidance helps students to explore these opportunities and understand the requirements for studying abroad."
+  overview: [
+    "Hospitality Management programs in Ireland fuse rigorous business administration with hands-on luxury hotel operations, food and beverage management, revenue optimization, event coordination, and cross-cultural guest relations. International students can pursue 3-to-4-year undergraduate qualifications (such as the Bachelor of Arts in Hospitality Management, BSc Honours in International Hospitality Management, or BComm in International Hotel Management) or intensive 1-year postgraduate MSc degrees.",
+    "A distinguishing hallmark of Irish hospitality education is its mandatory, structured industry placements. Leading colleges maintain partnerships with five-star luxury hotel chains across Ireland, the UK, Europe, the United States, and the UAE, culminating in a 100% graduate employment record on graduation day for institutions like Shannon College.",
+    "Under Ireland's Third Level Graduate Scheme (Stamp 1G), graduates of NFQ Level 8 Honours Bachelor programs receive 12 months (1 year) of unrestricted post-study employment permission, while Level 9 Master's graduates receive 24 months (2 full years) to secure managerial positions across Europe."
   ],
-  "level": "BA / BSc International Hospitality & Hotel Management",
-  "crumb": "Hospitality / Hospitality Management",
-  "stats": [
+  level: "NFQ Level 7/8 (Bachelor) & Level 9 (Postgraduate Master's)",
+  crumb: "Hospitality / Hospitality Management",
+  stats: [
     {
-      "label": "Degree Choices",
-      "value": "BA / BSc International Hospitality & Hotel Management"
+      label: "Degree Framework",
+      value: "NFQ Level 7, Level 8 & Level 9"
     },
     {
-      "label": "Course Duration",
-      "value": "3 to 4 Years (UG) / 1 Year (PG)"
+      label: "Course Duration",
+      value: "3–4 Years (UG) / 1 Year (PG)"
     },
     {
-      "label": "Top Institutions",
-      "value": "University of Galway, University of Galway"
+      label: "Annual Tuition (2026/27)",
+      value: "€12,500 – €16,000 / year"
     },
     {
-      "label": "Post-Study Work",
-      "value": "2 Years Third Level Graduate Scheme (Stamp 1G)"
+      label: "Post-Study Work Visa",
+      value: "1 Year (UG) / 2 Years (PG) Stamp 1G"
     }
   ],
-  "sections": [
+  unis: [
     {
-      "slot": "why",
-      "eyebrow": "Why Study in Ireland",
-      "title": "1. Why Study Hospitality Management in Ireland?",
-      "groups": [
+      name: "University of Galway (Shannon College of Hotel Management)",
+      city: "Shannon / Galway",
+      state: "Connacht / Munster, Ireland",
+      desc: "One of the world's most prestigious hotel management colleges, founded in 1951. Offers the Bachelor of Business Studies (BBS) and Bachelor of Commerce (BComm) in International Hotel Management, maintaining a 100% employment rate on graduation day with global luxury placements.",
+      img: uniImg1
+    },
+    {
+      name: "Technological University Dublin (TU Dublin School of Hospitality)",
+      city: "Dublin",
+      state: "Leinster, Ireland",
+      desc: "Delivers comprehensive hospitality education at its state-of-the-art Grangegorman campus, offering the BA in Hospitality Management (€12,500), BSc (Honours) in International Hospitality Management (€13,500), and 1-year MSc in Hospitality Management (€13,500).",
+      img: uniImg2
+    },
+    {
+      name: "University of Galway (Postgraduate Hospitality Division)",
+      city: "Galway",
+      state: "Connacht, Ireland",
+      desc: "Provides advanced executive postgraduate programs in Hospitality Management, Hospitality Leadership, and Revenue Management, bridging strategic financial leadership with international tourism destination planning.",
+      img: uniImg3
+    }
+  ],
+  sections: [
+    {
+      slot: "why",
+      eyebrow: "Why Ireland",
+      title: "Why Study Hospitality Management in Ireland?",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Ireland is an attractive destination for Study Hospitality Management due to its established tourism and service economy that provides hospitality education.",
-            "The main benefits are:"
+          t: "p",
+          items: [
+            "Hospitality education in Ireland combines century-old traditions of warm Irish hospitality with cutting-edge international commercial management."
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "- Industry-specific learning: The courses may include hotel operations, food and beverage management, revenue management and customer experience.",
-            "- Practical training: Some selected programs offer industry placements or work-integrated learning opportunities.",
-            "- International career paths: Hospitality skills can be transferred to hotels, resorts, restaurants, cruise operations, tourism and event management.",
-            "- Business and leadership skills: Students learn about budgeting, staff management, service quality and business operations.",
-            "- Education in English: Most of the programs are taught in English, allowing students to develop professional communication skills.",
-            "- Different qualification levels: Students are able to select from undergraduate degrees, postgraduate courses and conversion programmes."
+          t: "ul",
+          items: [
+            "Famed Global Reputation: Shannon College of Hotel Management and Irish universities are recognized worldwide by top luxury hospitality employers including Marriott, Hilton, Four Seasons, Ritz-Carlton, and Hyatt.",
+            "Integrated Paid Industry Placements: Degree pathways embed 12 to 21 months of structured, paid corporate internships across premier international resorts and boutique properties.",
+            "Complete Business Foundation: Programs cover financial accounting, business law, revenue management, human resource management, facilities planning, and data analytics alongside practical culinary and guest services.",
+            "English-Speaking Tourism Hub: Studying in an English-speaking European country provides students with seamless communication skills for international hotel executive tracks.",
+            "Universal Employment Portability: Irish hospitality qualifications carry worldwide recognition through QQI and international hospitality accreditation bodies.",
+            "Third Level Graduate Scheme (Stamp 1G): Eligible graduates gain 1 to 2 years of unrestricted post-study employment authorization in Ireland."
           ]
         }
       ]
     },
     {
-      "slot": "courses",
-      "eyebrow": "Degrees & Programs",
-      "title": "2. Hospitality Management Courses in Ireland",
-      "groups": [
+      slot: "courses",
+      eyebrow: "Degree Pathways",
+      title: "Hospitality Degree Levels & Core Specializations",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "There are a number of different ways to study Hospitality Management courses in Ireland. Examples of course titles include Hospitality Management, International Hospitality Management, International Hotel Management and Global Hospitality Management.",
-            "Courses for undergraduates",
-            "These programs are generally applicable to students who have passed Class 12 or equivalent.",
-            "Popular choices include:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "- Bachelor of Arts in Hospitality Management",
-            "*BSc (Hons) International Hospitality Management",
-            "-A bachelor's degree in international hotel management",
-            "- B.Com. International Hotel Management",
-            "- Degrees in Hospitality and Tourism Management"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Undergraduate programs are generally three to four years in duration, depending on the institution and the course structure. Some provide a industry placement.",
-            "Post Graduate Programs",
-            "Our postgraduate courses are aimed at graduates wishing to specialize in hospitality or those from other disciplines wishing to transfer into the industry.",
-            "Your choices are:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "*Master of Science in Hospitality Management",
-            "- MSc Business and Hospitality",
-            "*MSc International Hospitality Management and Cross-Cultural Communication",
-            "- Diploma of Hospitality Management",
-            "- Certificate in Higher Education in Hospitality Management"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Many full-time master's programmes are one year long, though postgraduate certificates and diplomas can have shorter or different study structures.",
-            "Hospitality Management Specializations",
-            "Students may choose to study: depending on the program"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "*Hotel & Resort Management",
-            "- Food and drinks services",
-            "- Tourism and destination management",
-            "*Event coordination",
-            "Hospitality Marketing",
-            "- Money management and earnings",
-            "- Human resources management",
-            "- Guest experience and service quality",
-            "- Worldwide hotel operations"
+          t: "p",
+          items: [
+            "Students can select from diverse award levels across the National Framework of Qualifications:",
+            "Undergraduate Degrees (NFQ Level 7 & 8): 3-to-4-year programs including the Bachelor of Arts in Hospitality Management (Level 7), BSc (Honours) in International Hospitality Management (Level 8), and BComm in International Hotel Management (Level 8). These encompass hotel operations, guest relations, commercial food and beverage management, and marketing.",
+            "Postgraduate Degrees (NFQ Level 9): 1-year full-time programs including MSc in Hospitality Management, MSc in International Hospitality Management, and Higher Diplomas for candidates from non-hospitality backgrounds seeking executive conversion.",
+            "Core Functional Specializations: Luxury Hotel & Resort Operations, Revenue & Asset Management, Event & Conference Coordination, Hospitality Brand Marketing, Sustainable Tourism Development, and Food & Beverage Strategy."
           ]
         }
       ]
     },
     {
-      "slot": "universities",
-      "eyebrow": "Top Institutions",
-      "title": "3. Top Hospitality Management Schools in Ireland",
-      "unis": [
+      slot: "eligibility",
+      eyebrow: "Admission Criteria",
+      title: "Eligibility Criteria for Hospitality Programs in Ireland",
+      groups: [
         {
-          "name": "University of Galway",
-          "desc": "Technological University Dublin (TUD) - TU Dublin offers hospitality programs at different levels such as BA in Hospitality Management, BSc (Honours) in International Hospitality Management, Higher Diploma in Hospitality Management and MSc in Hospitality Management.",
-          "imgKey": "uniImg_University_of_Galway_webp",
-          "imgIdentifier": "uniImg1",
-          "city": "Galway, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg1
-        },
-        {
-          "name": "University of Galway",
-          "desc": "Technological University Dublin (TUD) - TU Dublin offers hospitality programs at different levels such as BA in Hospitality Management, BSc (Honours) in International Hospitality Management, Higher Diploma in Hospitality Management and MSc in Hospitality Management.",
-          "imgKey": "uniImg_University_of_Galway_2_webp",
-          "imgIdentifier": "uniImg2",
-          "city": "Galway, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg2
-        },
-        {
-          "name": "University of Galway",
-          "desc": "Technological University Dublin (TUD) - TU Dublin offers hospitality programs at different levels such as BA in Hospitality Management, BSc (Honours) in International Hospitality Management, Higher Diploma in Hospitality Management and MSc in Hospitality Management.",
-          "imgKey": "uniImg_University_of_Galway_3_webp",
-          "imgIdentifier": "uniImg3",
-          "city": "Galway, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg3
-        }
-      ]
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Admissions Criteria",
-      "title": "4. Eligibility of Study Hospitality Management in Ireland",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The Hospitality Management in Ireland eligibility criteria differ depending on the level of qualification, institution and program.",
-            "Eligibility for the bachelor’s degree",
-            "Applicants will usually need:"
+          t: "p",
+          items: [
+            "Admission standards evaluate secondary academic performance, personal motivation, and English communication skills:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "- Completion of secondary school or an equivalent level of education.",
-            "- Academic achievements meeting the country-specific university admission requirements.",
-            "- Proof of English language proficiency, if applicable.",
-            "- Any other subject prerequisites as determined by the institution."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Indian applicants might be required to submit Class 10 and Class 12 certificates and transcripts. Required marks vary by institution and course.",
-            "for post-graduate degrees",
-            "What applicants usually need:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "A recognised bachelor degree.",
-            "- Minimum academic grades for the program.",
-            "- Evidence of English proficiency, where required.",
-            "- Relevant professional experience if required by the course."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Some hospitality master’s programs accept students from a variety of disciplines. Others may have particular academic needs."
+          t: "ul",
+          items: [
+            "Undergraduate (Bachelor's Entry): Completion of Higher Secondary School Certificate (Class 12) from CBSE, CISCE, or state boards with an aggregate between 60% and 80%. Shannon College and select universities may also conduct a personal interview.",
+            "Postgraduate (Master's Entry): A recognized 3-to-4-year Bachelor's degree with a minimum 55% to 60% aggregate. Many MSc hospitality programs welcome graduates from business, arts, humanities, and sciences.",
+            "English Language Test Scores: Non-native English speakers must achieve IELTS Academic 6.0 to 6.5 overall (minimum 6.0 in each sub-test), TOEFL iBT 80–90, or PTE Academic 58–63.",
+            "Industry Experience: Prior front-office, culinary, or customer service experience is advantageous for postgraduate applications, but not strictly mandatory."
           ]
         }
       ]
     },
     {
-      "slot": "requirements",
-      "eyebrow": "Entry Requirements",
-      "title": "5. Hospitality Management Admission Requirements in Ireland",
-      "groups": [
+      slot: "admission",
+      eyebrow: "Application Checklist",
+      title: "Application & Documentation Checklist",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Universities look at applicants’ academic qualifications, English language skills and the criteria that are specific to the programme.",
-            "Some typical requirements are:"
+          t: "p",
+          items: [
+            "Applicants must submit certified digital documents through university admissions portals:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Academic transcripts and certificates: these verify the qualifications gained, and the grades obtained.",
-            "English language proficiency Universities may accept IELTS Academic, TOEFL iBT, PTE Academic or other approved tests. Minimum scores vary depending on the program.",
-            "Purpose: Some post-graduate courses will ask applicants to write about their interest in hospitality and their career goals.",
-            "CV or résumé: This may be requested for postgraduate programs or for applications where work experience is relevant.",
-            "References: Some courses may require academic or professional references.",
-            "Relevant experience: Relevant experience in the hospitality industry may strengthen an application, but is not a prerequisite for all courses.",
-            "Interview or further assessment: Some programs require an interview or further information."
+          t: "ul",
+          items: [
+            "Official Class 10 and Class 12 mark sheets and certificates (for undergraduate applicants).",
+            "Bachelor's degree certificate and consolidated mark sheets (for postgraduate applicants).",
+            "Valid International Passport with minimum 12 months validity.",
+            "English Language proficiency scorecard (IELTS, TOEFL iBT, or PTE Academic).",
+            "Statement of Purpose (SOP) articulating dedication to service excellence and hospitality career ambitions.",
+            "Two Academic or Employer Letters of Recommendation (LORs).",
+            "Curriculum Vitae (CV) highlighting guest service, event volunteering, culinary skills, or foreign language competency."
           ]
         }
       ]
     },
     {
-      "slot": "tuition",
-      "eyebrow": "Tuition & Living Costs",
-      "title": "6. Cost to Study Hospitality Management in Ireland",
-      "groups": [
+      slot: "cost",
+      eyebrow: "Fees & Budget",
+      title: "Cost of Studying Hospitality in Ireland (2026/27 Intake)",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "The cost to study Hospitality Management in Ireland depends on the institution, program level, duration, and student fee category.",
-            "Approximate tuition fees"
+          t: "p",
+          items: [
+            "Budget planning includes international tuition fees, student levies, accommodation, and personal living costs:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Undergraduate degree \\| €10,000–€20,000 \\|",
-            "Master's degree \\| €13,000–25,000 \\|",
-            "Postgraduate certificate or higher diploma \\| Depends on the course \\|"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Examples of published charge rates",
-            "Examples of published non-EU fees for the 2026/27 academic year are:",
-            "TU Dublin BA Hospitality Management* €12,500 per annum"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "TU Dublin BSc (Honours) International Hospitality Management :€13,500 per year"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "MSc Hospitality Management TU Dublin:* €13,500 total for advertised one-year program.",
-            "University of Galway Bachelor of Commerce in International Hotel Management:*"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "The published non-EU breakdown includes tuition of €16,000 in year one, with different charges during placement and subsequent academic years."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Cost of Living",
-            "Students should make separate budgets for:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "*Accommodation and utilities",
-            "- Groceries and food",
-            "- Transports",
-            "- Books and kits of study material",
-            "- Health insurance as applicable",
-            "- Individual costs",
-            "- Visa and immigration costs, where applicable"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Cost of living depends on the city and the accommodation arrangement. Dublin can be more expensive than some other locations, so students should work out their monthly budget before accepting an offer.",
-            "Scholarships may be available at individual institutions."
+          t: "ul",
+          items: [
+            "Undergraduate Tuition Fees: Published non-EU tuition for 2026/27 includes €12,500/year for TU Dublin's BA Hospitality Management, €13,500/year for BSc (Honours) International Hospitality, and €16,000 for Year 1 at Shannon College (University of Galway).",
+            "Postgraduate Tuition Fees: TU Dublin's 1-year MSc in Hospitality Management costs €13,500 total, representing exceptional European value.",
+            "Living Costs (Dublin): Estimated at €1,000 to €1,400 monthly (€10,000 to €14,000 per academic year) for shared accommodation, groceries, and travel.",
+            "Living Costs (Shannon / Galway / Regional): Approximately €750 to €1,050 per month (€7,500 to €10,500 per academic year), providing substantial savings.",
+            "Paid Placement Earnings: During mandatory internships (e.g., Year 2 and Year 4 at Shannon College), students earn competitive wages, offsetting educational costs.",
+            "Student Work Authorization: Non-EU students with Stamp 2 visas can work up to 20 hours per week during term time and 40 hours per week during holidays, earning at least the Irish minimum wage of €13.50 per hour."
           ]
         }
       ]
     },
     {
-      "slot": "process",
-      "eyebrow": "Application Steps",
-      "title": "7. Ireland Hospitality Management Admission Process",
-      "steps": [
+      slot: "accreditation",
+      eyebrow: "Quality Standards",
+      title: "Quality Accreditation & Global Industry Partnerships",
+      groups: [
         {
-          "step": "01",
-          "title": "Step 01",
-          "desc": "The following steps are generally required for students to apply."
-        }
-      ]
-    },
-    {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Recognition",
-      "title": "8. Get your finances and housing in order: Create a realistic budget for tuition and living costs.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Detailed information on Accreditation & Recognition will be provided during personalized counseling with Edu-Hawk Worldwide."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Career Outcomes",
-      "title": "9. Complete immigration formalities: If you need a student visa or immigration permission, comply with the current official requirements.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Some institutions are accepting applications on a rolling basis, while others have specific deadlines. Students should apply early enough to organize funding, accommodation and immigration documentation.",
-            "8\\. Recognition and Accreditation of Hospitality Management in Ireland",
-            "Students should check that the institution and qualification are properly recognized before enrolling.",
-            "Important checks are:"
+          t: "p",
+          items: [
+            "Hospitality programs in Ireland are recognized under the National Framework of Qualifications (NFQ) and monitored by Quality and Qualifications Ireland (QQI):"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "- Recognize the institution: Check the institution and the award it gives.",
-            "- National Framework of Qualifications (NFQ):",
-            "Check the type of award and level of qualification if applicable.",
-            "- Quality and Qualifications Ireland (QQI): See official information on qualifications and quality assurance",
-            "- Industry recognition: Some hospitality courses may have links with industry, or additional recognition, but each course is different.",
-            "A recognised qualification can help applications for employment and further study. Recognition, however, does not mean a job or career advancement."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "9\\. Salary and Job Opportunities in Hospitality Management in Ireland",
-            "Hospitality Management graduates may find employment in hotels, resorts, restaurants, tourism businesses, event companies and international hospitality groups.",
-            "Popular career paths",
-            "Graduates may pursue careers in:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Hotel Operations Manager",
-            "Manager of Front Office",
-            "Guest Relations Executive -",
-            "Supervisor, Food & Beverage",
-            "Manager of Restaurant",
-            "Events Coordinator",
-            "Revenue Management Associate",
-            "Hospitality Sales Executive",
-            "Operations Manager, Accommodation",
-            "General Manager – Hotel, having relevant experience",
-            "Tourism Operations Management"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Graduates entering the workforce will usually start in operational, supervisory or coordinator jobs. Management positions often require more industry experience.",
-            "Expected salary",
-            "Salary varies by job title, employer, location, experience, working hours and responsibilities. As a guide, entry-level hospitality jobs may generally earn around €25,000–€35,000 per year with more experienced supervisors and managers earning more. These are expected ranges, not guaranteed salaries.",
-            "Students should compare job vacancies and salary information for their chosen role. Other language skills, customer service experience, financial knowledge and leadership abilities can help boost career prospects.",
-            "Job options after graduation?",
-            "The completion of a hospitality course does not guarantee employment or permission to stay in Ireland. Graduates who have successfully completed eligible Irish higher education courses may be able to apply under the Third Level Graduate Programme, subject to prevailing conditions and immigration regulations."
+          t: "ul",
+          items: [
+            "NFQ Levels 7, 8 & 9: Ordinary Bachelor Degrees are Level 7 (180 ECTS), Honours Bachelor Degrees are Level 8 (240 ECTS), and Master of Science degrees are Level 9 (90 ECTS).",
+            "The Shannon Legacy: Shannon College degrees are awarded by the University of Galway, combining ancient university prestige with intense professional vocational mastery.",
+            "Irish Hospitality Institute (IHI): The professional institute for hospitality managers in Ireland, granting student and graduate memberships and professional networking access.",
+            "Global Placement Network: Direct institutional ties with over 100 international luxury hotels across Europe, the US, and Asia, ensuring seamless international career mobility."
           ]
         }
       ]
     },
     {
-      "slot": "documents",
-      "eyebrow": "Document Checklist",
-      "title": "10. Documents Required for Studying Hospitality Management in Ireland",
-      "groups": [
+      slot: "careers",
+      eyebrow: "Career Outcomes",
+      title: "Hospitality Careers, Starting Salaries & Graduate Scope",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "The documents you need to study Hospitality Management in Ireland will vary depending on the institution and the qualification level. Common documents include"
+          t: "p",
+          items: [
+            "Graduates enter an expansive global industry with rapid advancement into supervisory and general management tracks:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "- Valid passport",
-            "- Certificates and transcripts of studies",
-            "-Applicable Class 10 and Class 12 documents for undergraduate candidates",
-            "- Certificate and transcripts of Bachelor’s degree for applicants for postgraduate programs",
-            "- Results of an English test, if available",
-            "- Statement of purpose where needed",
-            "- CV or résumé, if requested",
-            "- References to academic or professional work (as applicable)",
-            "- Filled out application form",
-            "- Proof of payment of the application fee, where applicable",
-            "- Financial evidence and other documents needed for the visa process, if applicable"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Some institutions may ask for certified copies, official translations or verification of academic documents.",
-            "Rules for admission and rules regarding immigration documents are separate, so applicants should check both."
+          t: "ul",
+          items: [
+            "In-Demand Career Roles: Hotel Operations Manager, Front Office Manager, Guest Experience Executive, Food & Beverage Director, Revenue Manager, Conference & Event Coordinator, and Corporate Hospitality Sales Executive.",
+            "Starting Salaries: Entry-level operational and supervisory roles typically offer gross starting salaries between €25,000 and €35,000 per year, rising quickly to €45,000–€60,000+ for experienced department heads and hotel managers.",
+            "Stamp 1G Graduate Visa: 1 year (Level 8 Honours Bachelor) or 2 years (Level 9 Master's) of full-time, unrestricted employment authorization in Ireland.",
+            "Unrivaled 100% Placement History: Shannon College of Hotel Management maintains an unbroken record of 100% employment on graduation day for every graduating class."
           ]
         }
       ]
     }
   ],
-  "table": {
-    "title": "Estimated Cost of Studying Hospitality Management in Ireland in Ireland (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (€ / EUR)",
-      "Details / Scope"
-    ],
-    "rows": [
-      [
-        "Undergraduate Degree (Annual)",
-        "€13,500 – €27,640 / year",
-        "Varies by institution ranking, laboratory facilities, and program"
-      ],
-      [
-        "Postgraduate Degree (Annual)",
-        "€15,000 – €28,640 / year",
-        "1-year intensive master's program or 2-year research degree"
-      ],
-      [
-        "Living Expenses (Dublin)",
-        "€1,000 – €1,400 / month",
-        "Includes student accommodation, meals, utilities, and public transit"
-      ],
-      [
-        "Living Expenses (Outside Dublin)",
-        "€800 – €1,100 / month",
-        "Cost of living in Cork, Galway, Limerick, or Maynooth"
-      ],
-      [
-        "Student Visa & IRP Card Fee",
-        "€300 / year",
-        "Mandatory Irish Residence Permit (IRP) registration fee"
-      ]
+  steps: [
+    {
+      title: "Select Hospitality Degree Program",
+      desc: "Determine your study route between an undergraduate Bachelor of Business/Commerce in International Hotel Management or a 1-year postgraduate MSc."
+    },
+    {
+      title: "Check Academic Entry Standards",
+      desc: "Verify meeting minimum secondary school grades (60%–80% aggregate) or Bachelor's degree criteria."
+    },
+    {
+      title: "Complete English Proficiency Testing",
+      desc: "Score minimum IELTS 6.0 to 6.5 (with no sub-band below 6.0), TOEFL iBT 80–90, or PTE Academic 58–63."
+    },
+    {
+      title: "Draft SOP & Gather Recommendations",
+      desc: "Compose an engaging Statement of Purpose showcasing your customer orientation and passion for hotel management."
+    },
+    {
+      title: "Submit Online Applications",
+      desc: "Apply through institutional international admissions portals prior to intake deadlines."
+    },
+    {
+      title: "Attend Admissions Interview (If Applicable)",
+      desc: "Participate in Shannon College or university virtual interviews to discuss your hospitality career motivations."
+    },
+    {
+      title: "Accept Offer & Apply for Student Visa (Stamp 2)",
+      desc: "Pay the required tuition deposit and submit your online AVATS visa application with financial documentation (€10,000–€12,000)."
+    },
+    {
+      title: "Arrive in Ireland & Register for IRP",
+      desc: "Fly to Ireland, settle into campus housing, complete orientation, and register with Immigration Service Delivery for your Irish Residence Permit."
+    }
+  ],
+  table: {
+    caption: "Indicative Hospitality Management Tuition Fees in Ireland (2026/27 Intake)",
+    headers: ["Institution", "Degree Title", "NFQ Level", "Annual Tuition (Non-EU)"],
+    rows: [
+      ["Technological University Dublin (TU Dublin)", "BA in Hospitality Management", "Level 7 Ordinary", "€12,500 / year (3 Years)"],
+      ["Technological University Dublin (TU Dublin)", "BSc (Hons) International Hospitality", "Level 8 Honours", "€13,500 / year (4 Years)"],
+      ["Technological University Dublin (TU Dublin)", "MSc in Hospitality Management", "Level 9 Master's", "€13,500 (1 Year)"],
+      ["University of Galway (Shannon College)", "BComm in International Hotel Management", "Level 8 Honours", "€16,000 (Yr 1 Tuition)"],
+      ["University of Galway (Shannon College)", "BBS in International Hotel Management", "Level 8 Honours", "€15,640 / year (incl. levy)"],
+      ["University of Galway", "Postgraduate Certificate in Hospitality Leadership", "Level 9 Award", "€9,000 – €11,000"]
     ]
   },
-  "faqs": [
+  faqs: [
     {
-      "q": "1\\. Is Ireland an Ideal Destination to Study Hospitality Management?",
-      "a": "For students seeking hospitality education Along with business training and possible practical industry experience, Ireland can be a good option. The choice depends on the course structure, fees, placement opportunities and career goals."
+      q: "Is Ireland a good destination to study Hospitality and Hotel Management?",
+      a: "Yes, Ireland is renowned worldwide for hospitality education. Institutions like Shannon College of Hotel Management (part of University of Galway) and TU Dublin offer internationally acclaimed programs that blend rigorous business finance and marketing with extensive luxury hotel internships, boasting an unbroken 100% employment rate on graduation day."
     },
     {
-      "q": "2\\. How long is a Hospitality Management course in Ireland?",
-      "a": "Bachelor’s degrees usually take three to four years. Full-time master’s programmes are usually one year long, but higher diplomas and postgraduate certificates can be shorter."
+      q: "What is the course duration for Hospitality Management in Ireland?",
+      a: "Undergraduate degrees typically take 3 to 4 years to complete, incorporating 12 to 21 months of structured paid industry internships. Postgraduate Master of Science (MSc) programs are completed in 1 year of full-time intensive study."
     },
     {
-      "q": "3\\. Can I study Hospitality Management in Ireland after 12th?",
-      "a": "Yup. Students who have completed Class 12 or equivalent are eligible to apply for suitable undergraduate programs provided they meet the academic and English-language requirements."
+      q: "Can I study Hospitality Management in Ireland after Class 12?",
+      a: "Yes, international students who have completed Class 12 or equivalent with an aggregate of 60% or higher from recognized boards can apply directly for undergraduate programs such as the BA in Hospitality Management, BSc in International Hospitality Management, or BComm in International Hotel Management."
     },
     {
-      "q": "4\\. How much does it cost to study Hospitality Management in Ireland?",
-      "a": "The cost will depend on the institution and the program. The undergraduate tuition can range between €10,000 and €20,000 per year and the postgraduate tuition can range between €13,000 and €25,000 as a rough guide. There are also living expenses and the specific course fee is to be checked with the institution."
+      q: "What is the tuition fee for studying hospitality in Ireland in 2026/27?",
+      a: "Non-EU tuition fees for 2026/27 include €12,500 per year for TU Dublin's BA Hospitality Management, €13,500 per year for BSc (Honours) International Hospitality Management, and €16,000 for Year 1 at Shannon College. TU Dublin's 1-year MSc in Hospitality Management is priced at €13,500. Living expenses average €7,500 to €14,000 per year depending on the study location."
     },
     {
-      "q": "5\\. What jobs can you get with a Hospitality Management degree in Ireland?",
-      "a": "Graduates can work in hotel operations, guest relations, food and beverage management, event coordination, tourism operations and revenue management. In addition to the qualification, relevant experience is also required for senior positions."
+      q: "What career roles and starting salaries do hospitality graduates achieve in Ireland?",
+      a: "Graduates start as front-office supervisors, food and beverage managers, guest relations executives, revenue management associates, and event coordinators. Starting salaries typically range between €25,000 and €35,000 per year, rising quickly to €45,000 to €60,000+ for departmental managers and general managers."
     },
     {
-      "q": "How can Edu Hawk worldwide Consultancy help me to study abroad?",
-      "a": "Edu Hawk worldwide helps students find the right universities, know the admission requirements, arrange their application documents and plan their study-abroad journey. Students are responsible for checking academic, financial, immigration and licensing requirements with the appropriate official authorities."
+      q: "How does EduHawk Worldwide Consultancy assist students in studying hospitality in Ireland?",
+      a: "EduHawk Worldwide offers complete end-to-end guidance including university matching, interview preparation for Shannon College, SOP drafting, document verification, application submission, scholarship assistance, Irish student visa (Stamp 2) filing, and pre-departure accommodation briefings."
     }
   ]
 };
 
 export default function HospitalityManagementIreland() {
+  const images = {
+    hero: heroImg,
+    heroBg: heroBgImg,
+    side: sideImg,
+    ctaBg: ctaBgImg
+  };
+
   return (
     <AbroadCoursePage
       page={page}
@@ -525,8 +317,9 @@ export default function HospitalityManagementIreland() {
       heroBgImg={heroBgImg}
       sideImg={sideImg}
       ctaBgImg={ctaBgImg}
-      showHeroStats={false}
-      seoPath="/study-abroad/ireland/hospitality-management"
+      showHeroStats={true}
+      seoPath={page.slug}
+      images={images}
     />
   );
 }

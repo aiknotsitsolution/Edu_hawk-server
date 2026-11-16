@@ -14,446 +14,484 @@ import uniImg3 from "../../../../../../Images/Abroad/Germany/Engineering_PG/Biom
 import uniImg4 from "../../../../../../Images/Abroad/Germany/Engineering_PG/Biomedical/Magdeburg_Otto_von_Guericke_Univers.webp";
 
 const page = {
-  "name": "Postgraduate Biomedical Engineering in Germany",
-  "country": "Germany",
-  "slug": "pg/biomedical-engineering",
-  "title": "Postgraduate Biomedical Engineering in Germany for Indian Students | Edu-Hawk Worldwide",
-  "description": "Complete guide to Postgraduate Biomedical Engineering in Germany for international students: Top German universities, admission requirements, zero-tuition public education, living expenses, and 18-month post-study work visa.",
-  "keywords": "Study Master's in Biomedical Engineering in Germany for Indian Students, Postgraduate Biomedical Engineering Courses in Germany, Best Universities for Biomedical Engineering in Germany, MSc Biomedical Engineering Programmes in Germany, Biomedical Engineering Specialisations in Germany, Eligibility Requirements for Master's in Biomedical Engineering in Germany, Admission Requirements for Biomedical Engineering in Germany, English-Taught Biomedical Engineering Courses in Germany, IELTS and TOEFL Requirements for Biomedical Engineering in Germany, Biomedical Engineering Tuition Fees in Germany, Cost of Living for Master's Students in Germany, Biomedical Engineering Scholarships in Germany for International Students, German Student Visa Requirements for Biomedical Engineering Students",
-  "introTitle": "1\\. WHY STUDY BIOMEDICAL ENGINEERING IN GERMANY ?",
-  "heroParas": [
-    "Germany's advanced **medical technology sector** , **engineering education** , **healthcare research** , and innovation in **medical devices** make it a desirable location for ****postgraduate Biomedical Engineering studies****.",
-    "The nation provides chances to integrate **biology, engineering, medicine, and technology** to create solutions that enhance patient outcomes and healthcare.",
-    "**The following are the main advantages of studying biomedical engineering in Germany:**",
-    "* **Excellent education:** Engineering and research programs in **medical technology, biomedical systems, and healthcare innovation** are available at German institutions.",
-    "* **Advanced medical technology:** Students can explore  biomaterials, biomedical instrumentation, diagnostic tools, and medical imaging.",
-    "* **Affordable public education:** Although **semester contributions** and exclusions apply, many public institutions do not charge general **tuition fees** for qualified master's programs.",
-    "* **Research opportunities:** Students can work on topics related to computational modeling, biosensors, rehabilitation technology, and artificial organs.",
-    "* **Industry exposure:** Germany has created **research institutes, biotechnology companies, healthcare technology companies, and producers of medical devices.",
-    "* **International career opportunities:** Graduates can work in clinical technology, biomedical research, healthcare engineering, and medical device development.",
-    "Students that are interested in creating medical equipment, enhancing diagnostic technologies, and using engineering concepts to address healthcare issues may find it appropriate to **study **Biomedical Engineering in Germany**.**",
-    "**Edu Hawk Worldwide Consultancy** helps students prepare for their international education journey, understand university admission requirements, and explore international study possibilities with the right preparation and direction."
+  name: "Postgraduate Biomedical Engineering in Germany",
+  country: "Germany",
+  slug: "pg/biomedical-engineering",
+  title: "Postgraduate Biomedical Engineering in Germany for Indian Students | Edu-Hawk Worldwide",
+  description:
+    "Complete guide to Postgraduate Biomedical Engineering (M.Sc.) in Germany for international students: Top German universities, admission requirements, zero-tuition public education, living expenses, and 18-month post-study work visa.",
+  keywords:
+    "Study Master's in Biomedical Engineering in Germany for Indian Students, Postgraduate Biomedical Engineering Courses in Germany, Best Universities for Biomedical Engineering in Germany, University of Lübeck, University of Stuttgart, FAU Erlangen, OVGU Magdeburg, MSc Biomedical Engineering Programmes in Germany, Biomedical Engineering Specialisations in Germany, Eligibility Requirements for Master's in Biomedical Engineering in Germany, Admission Requirements for Biomedical Engineering in Germany, English-Taught Biomedical Engineering Courses in Germany, IELTS and TOEFL Requirements for Biomedical Engineering in Germany, Biomedical Engineering Tuition Fees in Germany, Cost of Living for Master's Students in Germany, Biomedical Engineering Scholarships in Germany for International Students, German Student Visa Requirements for Biomedical Engineering Students",
+  introTitle: "Why Study Biomedical Engineering in Germany?",
+  heroParas: [
+    "Germany is recognized as Europe's foremost hub for **medical technology (MedTech), biomedical engineering, and healthcare innovation**, home to global medical device leaders like Siemens Healthineers, B. Braun, Fresenius, Dräger, and Carl Zeiss Meditec."
   ],
-  "overview": [
-    "Germany's advanced **medical technology sector** , **engineering education** , **healthcare research** , and innovation in **medical devices** make it a desirable location for ****postgraduate Biomedical Engineering studies****.",
-    "The nation provides chances to integrate **biology, engineering, medicine, and technology** to create solutions that enhance patient outcomes and healthcare.",
-    "**The following are the main advantages of studying biomedical engineering in Germany:**",
-    "* **Excellent education:** Engineering and research programs in **medical technology, biomedical systems, and healthcare innovation** are available at German institutions.",
-    "* **Advanced medical technology:** Students can explore  biomaterials, biomedical instrumentation, diagnostic tools, and medical imaging.",
-    "* **Affordable public education:** Although **semester contributions** and exclusions apply, many public institutions do not charge general **tuition fees** for qualified master's programs.",
-    "* **Research opportunities:** Students can work on topics related to computational modeling, biosensors, rehabilitation technology, and artificial organs.",
-    "* **Industry exposure:** Germany has created **research institutes, biotechnology companies, healthcare technology companies, and producers of medical devices.",
-    "* **International career opportunities:** Graduates can work in clinical technology, biomedical research, healthcare engineering, and medical device development.",
-    "Students that are interested in creating medical equipment, enhancing diagnostic technologies, and using engineering concepts to address healthcare issues may find it appropriate to **study **Biomedical Engineering in Germany**.**",
-    "**Edu Hawk Worldwide Consultancy** helps students prepare for their international education journey, understand university admission requirements, and explore international study possibilities with the right preparation and direction."
+  overview: [
+    "Postgraduate students bridge the intersection of **medicine, biology, and advanced engineering**, mastering medical imaging, biosensors, robotic surgery, tissue engineering, and neuro-prosthetics at world-class public universities with zero general tuition fees and an 18-month post-study work visa.",
+    "**The primary advantages of studying biomedical engineering in Germany include:**",
+    "* **Excellence in MedTech Education:** Renowned university hospitals, medical faculties, and engineering departments offering interdisciplinary master's degrees in biomedical and medical engineering.",
+    "* **Cutting-Edge Clinical Technology:** Direct laboratory access to ultra-high-field MRI, CT, biosensing technology, biomaterials synthesis, and surgical robotic systems.",
+    "* **Tuition-Free Public Higher Education:** Consecutive master's programs at most German public universities are 100% tuition-free, requiring only a modest semester contribution.",
+    "* **Pioneering Research Opportunities:** Collaborative research clusters focusing on artificial organs, regenerative medicine, neural engineering, and AI-driven clinical diagnostics.",
+    "* **Europe's Largest MedTech Market:** High demand for clinical engineers, medical device developers, quality managers, and regulatory affairs specialists across Germany's thriving medical device sector.",
+    "**Edu Hawk Worldwide Consultancy** provides end-to-end support for international applicants—from university shortlisting and credit evaluation to APS certification and student visa processing."
   ],
-  "level": "M.Sc. in Biomedical Engineering / Medizintechnik",
-  "crumb": "Engineering / PG Biomedical Engineering",
-  "stats": [
+  level: "M.Sc. in Biomedical Engineering / Medizintechnik",
+  crumb: "Engineering / PG Biomedical Engineering",
+  stats: [
     {
-      "label": "Degree Choices",
-      "value": "M.Sc. in Biomedical Engineering / Medizintechnik"
+      label: "Degree Choices",
+      value: "M.Sc. in Biomedical Engineering / Medizintechnik"
     },
     {
-      "label": "Course Duration",
-      "value": "1.5 to 2 Years (Master)"
+      label: "Course Duration",
+      value: "1.5 to 2 Years (3 to 4 Semesters, 90–120 ECTS)"
     },
     {
-      "label": "Top Institutions",
-      "value": "University of Lübeck      renowned for multidisciplinary work bridging engineering and medicine, biomedical research, and medical technology., Stuttgart University      provides opportunities for engineering research in computational techniques, biomechanics, imaging related technologies, and medical engineering."
+      label: "Top Institutions",
+      value: "Uni Lübeck, Uni Stuttgart, FAU Erlangen, OVGU Magdeburg"
     },
     {
-      "label": "Post-Study Work",
-      "value": "18-Month Jobseeker Visa (Residence Permit)"
+      label: "Post-Study Work",
+      value: "18-Month Jobseeker Residence Permit"
     }
   ],
-  "sections": [
+  sections: [
     {
-      "slot": "courses",
-      "eyebrow": "Curriculum & Specializations",
-      "title": "2. Courses in Biomedical Engineering in Germany",
-      "groups": [
+      slot: "courses",
+      eyebrow: "Curriculum & Specializations",
+      title: "Courses in Biomedical Engineering in Germany",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Depending on the university and program design, **postgraduate **Biomedical Engineering programs in Germany**** typically take **1.5 to 2 years**. 90 or 120 ECTS credits are typically needed for master's programs.",
-            "Programs like **Biomedical Engineering, Medical Engineering, Biomedical Technology, Medical Systems Engineering, or Biomedical Physics** may be offered.",
-            "The following are popular postgraduate programs and specializations:",
-            "Typical topics discussed include:",
-            "Each university and specialty has a different curriculum.",
-            "Before choosing a program, students should assess courses, lab facilities, research projects, and industry links."
+          t: "p",
+          items: [
+            "Postgraduate Biomedical Engineering programs in Germany typically last **1.5 to 2 years** (3 to 4 semesters) and require completion of **90 or 120 ECTS credits**, including clinical internships and a master's thesis.",
+            "Degrees are offered under designations such as **Biomedical Engineering, Medical Engineering, Biomedical Technology, Medical Systems Engineering, or Biomedical Physics**.",
+            "Numerous public universities offer Master of Science programs in biomedical engineering taught entirely in **English**.",
+            "**Popular postgraduate specializations and degree tracks include:**"
           ]
         },
         {
-          "t": "pills",
-          "items": [
-            "The Master of Science in Biomedical Engineering",
-            "The Master of Science in Medical Engineering",
-            "The Master of Science in Biomedical Technology",
-            "Biomedical Systems Engineering Master's degree",
-            "The Master of Science in Medical Physics",
-            "The Master of Science in Medical Imaging",
-            "Medical Device Technology Master's degree",
-            "The Master of Science in Biomechanics",
-            "The Master of Science in Biomaterials",
-            "The Master of Science in Bioinstrumentation",
-            "The Master of Science in Rehabilitation Engineering",
-            "The master's degree in computational biomedical engineering",
-            "The Master of Science in Medical Robotics",
-            "The Master of Science in Healthcare Technology",
-            "Anatomy and physiology of humans for engineers",
-            "The use of biomedical instruments",
-            "Image processing and medical imaging",
-            "Tissue engineering and biomaterials",
-            "Biomechanics",
-            "Diagnostic systems and biosensors",
-            "Electronics used in medicine",
-            "Applications of signal processing in biomedicine",
-            "The examination of biomedical data",
-            "Assistive technology and rehabilitation",
-            "Design and testing of medical devices",
-            "Methods of research and master's thesis"
+          t: "pills",
+          items: [
+            "M.Sc. in Biomedical Engineering",
+            "M.Sc. in Medical Engineering (Medizintechnik)",
+            "M.Sc. in Biomedical Technology & Devices",
+            "M.Sc. in Medical Systems Engineering",
+            "M.Sc. in Medical Physics & Radiation Technology",
+            "M.Sc. in Medical Imaging & Image-Guided Therapy",
+            "M.Sc. in Biomechanics & Mechanobiology",
+            "M.Sc. in Biomaterials & Tissue Engineering",
+            "M.Sc. in Bioinstrumentation & Biosensors",
+            "M.Sc. in Rehabilitation Engineering & Assistive Robotics",
+            "M.Sc. in Computational Biomedical Engineering",
+            "M.Sc. in Medical Robotics & Computer-Assisted Surgery"
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "**Core curriculum modules typically covered:**"
+          ]
+        },
+        {
+          t: "pills",
+          items: [
+            "Human Anatomy & Physiology for Engineers",
+            "Biomedical Instrumentation, Electrodes & Biosensors",
+            "Medical Image Processing & Diagnostic Imaging (MRI, CT, Ultrasound)",
+            "Biomaterials, Biocompatibility & Tissue Engineering",
+            "Biomechanics, Orthopedic Mechanics & Prosthetics",
+            "Medical Electronics & Bioelectric Signal Processing",
+            "Analysis of Physiological Data & Machine Learning in Medicine",
+            "Regulatory Affairs, Medical Device Regulation (MDR) & Quality Management",
+            "Clinical Technology & Hospital Information Systems",
+            "Scientific Research Methods & Master's Thesis"
           ]
         }
       ]
     },
     {
-      "slot": "universities",
-      "eyebrow": "Top German Universities",
-      "title": "3. Germany's Best Universities and Institutions for Biomedical Engineering",
-      "groups": [
+      slot: "unis",
+      eyebrow: "Top German Universities",
+      title: "Germany's Best Universities and Institutions for Biomedical Engineering",
+      unis: [
         {
-          "t": "p",
-          "items": [
-            "Programs and research opportunities in ****biomedical engineering, medical technology, biomedical sciences**** and allied technical fields are available at a number of German universities.",
-            "**University of Lübeck** - renowned for multidisciplinary work bridging engineering and medicine, biomedical research, and medical technology.",
-            "**Stuttgart University** - provides opportunities for engineering research in computational techniques, biomechanics, imaging-related technologies, and medical engineering.",
-            "**Friedrich-Alexander-Universität Erlangen-Nürnberg -** renowned for its **medical technology** and research that links electronics, engineering, imaging, and medical applications.",
-            "**Magdeburg Otto von Guericke University -** provides chances for medical and technical research related to **biomedical systems and medical technology**."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Eligibility Criteria",
-      "title": "4. Qualifications for Studying Biomedical Engineering in Germany",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "In general, candidates for a ****postgraduate Biomedical Engineering program**** must fulfill the following requirements:",
-            "Indian candidates should compare the requirements for admission to the chosen program with their undergraduate curriculum. Certain programs may accept graduates from **Biotechnology, Electronics and Communication Engineering, Electrical Engineering, Mechanical Engineering** or similar fields; however, eligibility is contingent upon the courses and credits needed."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "A valid bachelor's degree in **Biomedical Engineering, Biomedical Technology, Electrical Engineering, Mechanical Engineering, Electronics, or another pertinent field is required.",
-            "Depending on the curriculum, prior coursework in **mathematics, physics, engineering basics, electronics, programming, biology, or physiology** may be required.",
-            "Academic performance: Minimum grade criteria are determined by universities. Strong academic performance may be necessary for competitive programs.",
-            "**Language proficiency:** Programs taught in English typically accept **IELTS, TOEFL** or other recognized credentials. Programs taught in German may require **German proficiency** , typically at **B2 or C1 level**.",
-            "**Subject-credit requirements:** Minimum credits in **engineering, mathematics, physics, biological sciences** or other pertinent topics are specified by certain programs.",
-            "**Additional requirements:** Some colleges may ask for **interviews, research experience, aptitude tests, or GRE scores."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "admission",
-      "eyebrow": "Admission Requirements",
-      "title": "5. Germany's Biomedical Engineering Admission Requirements",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Universities and specializations have different criteria for admission, but applicants often need:",
-            "Certain colleges evaluate applicants based on their undergraduate grades, degree relevance and number of credits earned in particular disciplines.",
-            "A **biomechanics program** might prioritize **mechanics, materials science, and human physiology**, whereas a **medical imaging program** might demand understanding of **mathematics, signal processing and physics**."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "A recognized bachelor's degree in biomedical engineering or a similar field.",
-            "The degree certificates and academic transcripts.",
-            "Evidence of proficiency in either German or English.",
-            "A CV or resume.",
-            "If necessary, a letter of motivation or a statement of purpose.",
-            "Recommendation letters, upon request.",
-            "**GRE scores** if the university requires them.",
-            "Details about your research, project, or internship, if any.",
-            "Certificates of work experience, upon request.",
-            "A **current passport**.",
-            "Extra documents that the application specifies."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "fees",
-      "eyebrow": "Tuition Fees & Living Costs",
-      "title": "6. The cost of studying biomedical engineering in Germany",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The university, program, city, and way of life all affect how much **postgraduate **Biomedical Engineering studies** cost.**",
-            "Estimated costs:",
-            "Certain non-EU students may be required to pay tuition at some public universities and specialized programs may have different cost structures.",
-            "Based on monthly expenses of €900–€1,300, the estimated living expenses for a two-year master's degree are around **€21,600–€31,200**.",
-            "Tuition and other one-time expenses are not included in this estimate.",
-            "In accordance with the relevant rules, international students must also show that they have enough money to obtain a ****German student visa****. Before applying, review the most recent official guidelines."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "With a few exceptions, many public colleges do not charge general tuition for master's programs that qualify.",
-            "The approximate contribution for each semester is between €150 and €400.",
-            "The cost of private university tuition is often between €5,000 and €20,000 or more annually.",
-            "The approximate monthly cost of living is between €900 and €1,300.",
-            "The cost of health insurance is determined by the provider and eligibility.",
-            "Study materials, lab resources, lodging deposits, transportation, visa fees, and initial relocation charges are examples of additional expenses."
-          ]
-        },
-        {
-          "t": "table",
-          "headers": [
-            "Category / Expense Type",
-            "Estimated Amount (EUR)",
-            "Applicability & Regulation"
+          name: "University of Lübeck",
+          location: "Lübeck, Schleswig-Holstein",
+          desc: "Renowned 'Life Science University' celebrated for seamless interdisciplinary integration of medicine, computer science, and medical technology.",
+          fee: "€0 / Semester (Public tuition-free)",
+          duration: "2 Years (4 Semesters, 120 ECTS)",
+          exams: "APS, English (IELTS 6.5) or German (B2/C1)",
+          features: [
+            "Center for Medical Technology (CMTL) and University Hospital Schleswig-Holstein (UKSH)",
+            "Pioneering research in magnetic particle imaging, medical optical imaging, and robotics",
+            "Close partnerships with leading medical technology companies like Drägerwerk"
           ],
-          "rows": [
+          img: uniImg1,
+          link: "https://www.uni-luebeck.de"
+        },
+        {
+          name: "University of Stuttgart",
+          location: "Stuttgart, Baden-Württemberg",
+          desc: "Prestigious TU9 technical university offering cutting-edge research in biomedical engineering, biomechanics, micro-actuators, and medical simulation.",
+          fee: "€1,500 / Semester (State non-EU fee)",
+          duration: "2 Years (4 Semesters, 120 ECTS)",
+          exams: "APS, German B2/C1",
+          features: [
+            "Institute of Biomedical Engineering with specialized facilities for continuum biomechanics and clinical modeling",
+            "Immediate proximity to the MedTech hub of Southern Germany and Tuttlingen medical cluster",
+            "Advanced computational modeling testbeds for cardiovascular and orthopedic implants"
+          ],
+          img: uniImg2,
+          link: "https://www.uni-stuttgart.de"
+        },
+        {
+          name: "FAU Erlangen-Nürnberg (Friedrich-Alexander-Universität)",
+          location: "Erlangen, Bavaria",
+          desc: "Germany's premier 'Medical Valley' university, home to the global headquarters of Siemens Healthineers and world-leading medical engineering labs.",
+          fee: "€0 / Semester (Public tuition-free)",
+          duration: "2 Years (4 Semesters, 120 ECTS)",
+          exams: "APS, English (IELTS 6.5) or German (B2/C1)",
+          features: [
+            "English-taught Master of Science in Medical Engineering with specialized focus tracks",
+            "Located at the core of the European Medical Valley cluster with over 500 MedTech companies",
+            "Pioneering research in medical imaging, digital health, and sensory motor systems"
+          ],
+          img: uniImg3,
+          link: "https://www.fau.eu"
+        },
+        {
+          name: "Otto von Guericke University Magdeburg (OVGU)",
+          location: "Magdeburg, Saxony-Anhalt",
+          desc: "Major technical university operating the research campus STIMULATE (Solution Centre for Image Guided Local Therapies).",
+          fee: "€0 / Semester (Public tuition-free)",
+          duration: "2 Years (4 Semesters, 120 ECTS)",
+          exams: "APS, English (IELTS 6.5) or German (B2/C1)",
+          features: [
+            "English-taught Master of Science in Medical Systems Engineering",
+            "STIMULATE research campus focusing on image-guided surgery, interventional MRI, and microtherapies",
+            "Zero tuition fees and comprehensive clinical integration with university medical centers"
+          ],
+          img: uniImg4,
+          link: "https://www.ovgu.de"
+        }
+      ]
+    },
+    {
+      slot: "eligibility",
+      eyebrow: "Eligibility Criteria",
+      title: "Qualifications for Studying Biomedical Engineering (PG) in Germany",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Candidates for a postgraduate Biomedical Engineering program in Germany must satisfy the following academic prerequisites:"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "**Academic Degree:** A recognized Bachelor's degree (B.Tech / B.E. / B.Sc.) in Biomedical Engineering, Biomedical Technology, Electrical Engineering, Mechanical Engineering, Electronics, or Biotechnology.",
+            "**Prerequisite Subject Credits:** Prior academic coursework and specified minimum ECTS credits in Mathematics, Physics, Engineering Fundamentals, Electronics, Programming, Biology, or Physiology.",
+            "**Academic Performance:** Minimum CGPA thresholds set by universities, typically requiring a German GPA equivalence of 2.5 or better (approx. 65–70%+ in Indian undergraduate degrees).",
+            "**English Language Proficiency:** For English-taught master's programs, official scores from IELTS Academic (6.5+) or TOEFL iBT (90+).",
+            "**German Language Proficiency:** For German-taught programs, proof of proficiency at B2 or C1 level (TestDaF 4x4, DSH-2, or Goethe-Zertifikat C1).",
+            "**Aptitude Testing:** Select universities require GRE scores (specifically quantitative reasoning) or conduct technical entrance interviews."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "admission",
+      eyebrow: "Admission Requirements",
+      title: "Admission Requirements for Postgraduate Biomedical Engineering",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Universities evaluate candidates based on undergraduate transcripts, course curriculum depth, and credits earned in foundational engineering and life sciences:",
+            "Applications are submitted either via **uni-assist** or directly through individual university admissions portals."
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "Validated Bachelor’s degree certificate and consolidated mark sheets / transcripts.",
+            "Mandatory APS Certificate issued by the German Embassy Academic Evaluation Centre in New Delhi.",
+            "Undergraduate syllabus / Module Handbook (Modulhandbuch) detailing course descriptions and credit hours.",
+            "Recognized English (IELTS / TOEFL) or German (TestDaF / DSH) language proficiency certificates.",
+            "Tabular Curriculum Vitae (Lebenslauf) and personalized Statement of Purpose (Letter of Motivation).",
+            "Two Academic Letters of Recommendation (LORs) from university professors.",
+            "Official GRE scorecard (if required by target universities).",
+            "Valid international passport (with at least 12 months validity).",
+            "Documentation of internships, technical publications, or MedTech industry experience (if available)."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "fees",
+      eyebrow: "Tuition Fees & Living Costs",
+      title: "Cost of Studying Biomedical Engineering in Germany",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "The overall cost of postgraduate biomedical engineering studies is remarkably affordable due to state-subsidized public universities in Germany."
+          ]
+        },
+        {
+          t: "table",
+          headers: [
+            "Expense Category",
+            "Estimated Amount (EUR)",
+            "Details & Regulations"
+          ],
+          rows: [
             [
-              "With a few exceptions, many public colleges do not charge general tuition for master's programs that qualify.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
+              "Public Universities (15 of 16 States)",
+              "€0 / Semester",
+              "Tuition-free higher education for domestic and international students in almost all federal states."
             ],
             [
-              "The approximate contribution for each semester is between €150 and €400.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
+              "Public Universities (Baden-Württemberg)",
+              "€1,500 / Semester",
+              "Statutory tuition fee for non-EU international master students studying in Baden-Württemberg (e.g., Uni Stuttgart)."
             ],
             [
-              "The cost of private university tuition is often between €5,000 and €20,000 or more annually.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
+              "Private Universities",
+              "€5,000 – €20,000 / Year",
+              "Tuition rates set independently by private institutions based on degree track and facilities."
             ],
             [
-              "The approximate monthly cost of living is between €900 and €1,300.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
+              "Semester Contribution (Semesterbeitrag)",
+              "€150 – €400 / Semester",
+              "Mandatory fee covering administrative costs, student services (Studierendenwerk), and regional public transit pass."
             ],
             [
-              "The cost of health insurance is determined by the provider and eligibility.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
+              "Monthly Living Expenses",
+              "€900 – €1,300 / Month",
+              "Estimated budget for student accommodation (€350–€650), meals, health insurance, and personal expenses."
             ],
             [
-              "Study materials, lab resources, lodging deposits, transportation, visa fees, and initial relocation charges are examples of additional expenses.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
+              "Mandatory Blocked Account (Sperrkonto)",
+              "€11,904 / Year (€992/month)",
+              "Official statutory financial requirement to prove living expense coverage for German student visa issuance."
             ]
           ]
-        }
-      ]
-    },
-    {
-      "slot": "process",
-      "eyebrow": "Application Timeline & Steps",
-      "title": "7. The German Admissions Process for Biomedical Engineering",
-      "groups": [
+        },
         {
-          "t": "p",
-          "items": [
-            "The following steps are often involved in the admissions process:",
-            "Step 1: Select your area of expertise",
-            "Choose to concentrate on **rehabilitation technology** or **medical devices, medical imaging, biomaterials, biomechanics, biomedical instrumentation**.",
-            "Step 2: Look into universities",
-            "Examine research facilities, laboratory access, industry links, teaching languages, program modules, and fees.",
-            "Step 3: Verify your eligibility",
-            "Verify that your prior coursework, grades, and bachelor's degree meet the program's academic criteria.",
-            "Step 4 : Prepare the results of the language exam.",
-            "Take the TOEFL, IELTS, or, if necessary, the mandatory German language test.",
-            "Step 5: Get the application materials ready.",
-            "Gather your resume, degree certificates, academic transcripts, motivation letter, language certificates, and any other documents that are needed.",
-            "Step 6: Send in the application",
-            "Use the application service designated by the university or the official portal.",
-            "Step 7: Finish any further evaluations",
-            "Attend interviews, turn in any necessary **GRE scores** , or finish aptitude tests.",
-            "Step 8: Get the admissions decision",
-            "Examine the enrollment requirements, deadlines, admission offer, and cost details.",
-            "Step 9: Make financial and student visa arrangements",
-            "Prepare the documentation needed for a **German student visa** as well as financial evidence, health insurance plans, and housing arrangements.",
-            "Step 10: Finalize enrollment",
-            "Register for your program, send in the necessary paperwork, and pay any relevant tuition or semester payments.",
-            "Due to the fact that application dates and procedures differ for each university, students should start preparing several months prior to their desired admission."
+          t: "p",
+          items: [
+            "Estimated living expenses for a two-year master's degree range between €21,600 and €31,200. Merit-based scholarship programs such as DAAD scholarships and corporate fellowships are accessible for qualified students."
           ]
         }
       ]
     },
     {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Quality Standards",
-      "title": "8. Accreditation and Recognition of Biomedical Engineering in Germany",
-      "groups": [
+      slot: "process",
+      eyebrow: "Application Timeline & Steps",
+      title: "German Admissions Process for Biomedical Engineering (PG)",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Students should check the ****quality assurance or accreditation status**** of the particular degree and confirm that the university is officially recognized in Germany before enrolling in a **postgraduate **Biomedical Engineering program****.",
-            "Important things to think about are:",
-            "A medical degree is not the same as biomedical engineering, which blends engineering and healthcare. Instead of practicing medicine, graduates typically work in **engineering, medical technology, research** or related technical professions.",
-            "The relevant **product safety, quality management, and regulatory requirements** should be understood by students who intend to work in regulated medical technology professions. If you intend to return to India, you should find out how employers and any appropriate professional or regulatory authorities would assess your qualifications."
+          t: "p",
+          items: [
+            "The admission roadmap for international postgraduate biomedical engineering applicants comprises ten structured stages:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "The institution has been officially recognized.",
-            "Program accreditation or quality assurance status that is pertinent.",
-            "The qualification is acknowledged for both employment and additional study.",
-            "The intended specialization and ****biomedical engineering fundamentals**** are covered.",
-            "Availability of research resources, imaging facilities, testing equipment, and medical technology labs.",
-            "Possibilities include industry ventures, clinical partnerships, and internships."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Career Prospects & Salary",
-      "title": "9. Pay and Employment Prospects in Germany Following Biomedical Engineering",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Careers in **medical devices, diagnostic equipment, healthcare technology, rehabilitation systems, medical imaging**, and **biomedical research** can be supported by a **postgraduate **Biomedical Engineering qualification**.**",
-            "Among the popular career options are:",
-            "The following are indicative pay expectations in Germany:",
-            "The gross annual salary for entry-level positions is about between €42,000 and €55,000.",
-            "Depending on the position and employer, experienced professionals often earn between €55,000 and €80,000 or more gross annually.",
-            "These numbers are not salary guaranties but rather broad estimations.",
-            "Experience, technical expertise, employer, geography, language ability and the role's regulatory obligations all affect actual pay.",
-            "Graduates may look into opportunities with **pharmaceutical or biotechnology businesses** as well as **medical device manufacturers, diagnostic technology companies, healthcare technology firms, research institutes, and hospitals with engineering departments.",
-            "Proficiency in German can enhance job prospects, especially in clinical engineering, hospital-based jobs, and occupations involving local clients or regulatory paperwork."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "A biomedical engineer",
-            "The position is Medical Device Design Engineer",
-            "The position of Medical Imaging Engineer",
-            "Clinical Engineer",
-            "Engineer for Biomedical Instrumentation",
-            "The Biomaterials Engineer",
-            "The biomechanics engineer",
-            "Engineer for Research and Development",
-            "A specialist in medical technology",
-            "Engineer for Quality Assurance",
-            "A specialist in regulatory affairs",
-            "Consultant for Healthcare Technology"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Required Documentation",
-      "title": "10. Documents Needed",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "In order to get admitted to a university, applicants often need the following documents:",
-            "**The following extra documents can be needed for the German student visa application:**",
-            "The university, application process, and specific visa conditions all affect the precise list of documents. For the most recent requirements, applicants can refer to the German mission guidelines and the official university website."
+          t: "timeline",
+          items: [
+            {
+              step: "Step 01",
+              title: "Select Specialization & Focus Area",
+              desc: "Choose between medical imaging, biomaterials, biomechanics, biomedical instrumentation, medical robotics, or rehabilitation technology."
+            },
+            {
+              step: "Step 02",
+              title: "Shortlist Target Universities",
+              desc: "Examine curricula, language of instruction, hospital affiliations, research facilities, and MedTech industry linkages."
+            },
+            {
+              step: "Step 03",
+              title: "Verify ECTS Subject Eligibility",
+              desc: "Confirm whether your undergraduate coursework meets target university ECTS credit thresholds in mathematics, physics, and electronics."
+            },
+            {
+              step: "Step 04",
+              title: "Obtain APS India Certification",
+              desc: "Submit your academic credentials to the Academic Evaluation Centre (APS) in New Delhi to obtain the mandatory APS certificate."
+            },
+            {
+              step: "Step 05",
+              title: "Complete Language Testing",
+              desc: "Attain required scores in IELTS Academic (6.5+) or TOEFL iBT (90+), and German (B2/C1) if enrolling in a German-taught track."
+            },
+            {
+              step: "Step 06",
+              title: "Prepare Application Dossier",
+              desc: "Gather your degree certificates, academic transcripts, module handbook, Statement of Purpose (SOP), and academic CV."
+            },
+            {
+              step: "Step 07",
+              title: "Submit University Applications",
+              desc: "Apply via uni-assist or directly through institutional portals before strict deadlines (typically May 31 / July 15 for Winter semester)."
+            },
+            {
+              step: "Step 08",
+              title: "Receive Admission Offer (Zulassung)",
+              desc: "Review your admission offer (Zulassungsbescheid) and confirm acceptance within the specified deadline."
+            },
+            {
+              step: "Step 09",
+              title: "Open Blocked Account & Health Insurance",
+              desc: "Deposit €11,904 into a federally approved German Blocked Account (Sperrkonto) and arrange statutory student health insurance."
+            },
+            {
+              step: "Step 10",
+              title: "Apply for German Student Visa",
+              desc: "Schedule your National Visa (Type D) appointment at the German diplomatic mission or VFS center and complete visa processing."
+            }
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "A valid passport",
-            "A certificate of bachelor's degree or a provisional certificate",
-            "Mark sheets and academic transcripts",
-            "If requested, the curriculum or course descriptions.",
-            "Evidence of proficiency in either German or English.",
-            "CV or resume.",
-            "A letter of motivation or a statement of purpose",
-            "Recommendation letters, if necessary.",
-            "If necessary, the GRE scores.",
-            "If relevant, provide information about your research, academic project, or internship.",
-            "Certificates of work experience, upon request.",
-            "The university application form has been completed.",
-            "If necessary, certified translations of documents.",
-            "Passport-sized photos, upon request.",
-            "The letter of admission to the university.",
-            "Evidence of adequate financial resources",
-            "Documentation related to health insurance.",
-            "Forms for applying for a visa and supporting documentation",
-            "Details about accommodations, if needed."
+          t: "p",
+          items: [
+            "Because application dates and credit evaluation procedures differ by university, students should start preparing 9 to 12 months ahead."
           ]
         }
       ]
     },
     {
-      "slot": "details",
-      "eyebrow": "Key Insights",
-      "title": "11. FAQs regarding Germany's Biomedical Engineering",
-      "groups": [
+      slot: "accreditation",
+      eyebrow: "Accreditation & Quality Standards",
+      title: "Accreditation and Recognition of Biomedical Engineering in Germany",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Q1. Is it possible for Indian students to **study biomedical engineering for a master's degree in Germany?**",
-            "Yes . Indian students who fulfill the academic, subject-credit, and language requirements of the institution may apply with a recognized bachelor's degree in **Biomedical Engineering** or a related field.",
-            "Q2. Does Germany provide free master's degrees in biomedical engineering?",
-            "For qualified master's programs, many public universities don't charge general tuition; nonetheless, **semester contributions** are typically needed. Private institutions typically charge tuition, but some public universities and specialized programs do.",
-            "Q3. What is the duration of a German master's program in biomedical engineering?",
-            "Depending on the program's structure and credit requirements, most master's programs last between **1.5 and 2 years**.",
-            "Q4. Is the IELTS required in Germany for Biomedical Engineering?",
-            "IELTS is not required everywhere. Certain applicants may be eligible for an exemption, and programs taught in English may accept **IELTS, TOEFL** or other recognized credentials. Programs taught in German require a certain level of **German language proficiency**.",
-            "Q5. After earning a master's degree in biomedical engineering in Germany, what employment is available?**",
-            "Careers in **medical device design, biomedical instrumentation, medical imaging, clinical engineering, biomaterials, quality assurance, regulatory affairs**, and **research and development** are available to graduates. Technical expertise, experience, language ability, and workplace needs all affect career chances.",
-            "How can I study abroad with the assistance of **Edu Hawk Worldwide Consultancy?**",
-            "Students may plan their study abroad experience, organize their application materials, research appropriate universities, and comprehend admission requirements with the assistance of Edu Hawk Worldwide. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
+          t: "p",
+          items: [
+            "Before enrolling in a postgraduate biomedical engineering program, students should confirm program accreditation and university standing:"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "German master's engineering programs are accredited by statutory quality assurance agencies such as **ASIIN** under the German Accreditation Council (Akkreditierungsrat), adhering to the European EUR-ACE quality framework.",
+            "Degrees issued by accredited German universities enjoy universal global recognition under the international Bologna Process (90 to 120 ECTS credits).",
+            "The professional title **'Ingenieur'** is legally protected under German state engineering legislation (Ingenieurgesetze), requiring an accredited university degree.",
+            "Biomedical engineering graduates operate in engineering and healthcare technology development rather than practicing medicine; degrees are globally recognized across healthcare corporations, hospitals, and research institutes."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "careers",
+      eyebrow: "Career Prospects & Salary",
+      title: "Salary and Employment Prospects in Germany Following Biomedical Engineering",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "A postgraduate qualification in biomedical engineering opens high-impact career pathways across medical devices, healthcare systems, diagnostic imaging, and clinical research.",
+            "**Key career roles for biomedical engineering graduates include:**"
+          ]
+        },
+        {
+          t: "pills",
+          items: [
+            "Biomedical Engineer",
+            "Medical Device Design Engineer",
+            "Medical Imaging Engineer",
+            "Clinical Technology Specialist",
+            "Biomedical Instrumentation Engineer",
+            "Biomaterials & Tissue Engineer",
+            "Biomechanics & Prosthetics Specialist",
+            "Medical Robotics Engineer",
+            "Quality Assurance Engineer (MedTech)",
+            "Regulatory Affairs Specialist (MDR)",
+            "Healthcare Technology Consultant",
+            "Biomedical Research Scientist"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "Indicative starting salaries for Master’s graduates range between **€42,000 and €55,000 gross per year**.",
+            "Experienced biomedical specialists, regulatory affairs managers, and senior clinical engineers regularly command salaries between **€55,000 and €80,000+ annually**.",
+            "Graduates find diverse opportunities with medical device manufacturers (Siemens Healthineers, B. Braun, Dräger, Fresenius), university hospitals, research institutes (Fraunhofer, Max Planck), and biotech firms.",
+            "German language proficiency substantially enhances employment prospects, especially in clinical engineering, hospital environments, and regulatory documentation.",
+            "International graduates are entitled to an **18-month post-study work visa (Jobseeker Residence Permit)** to secure relevant employment and transition toward an EU Blue Card."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "documents",
+      eyebrow: "Required Documentation",
+      title: "Documents Needed for Master’s in Biomedical Engineering in Germany",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "A comprehensive document dossier is necessary for university applications and visa processing:"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "Valid international passport (with at least 12 months validity).",
+            "Official Bachelor’s degree certificate and consolidated mark sheets / transcripts.",
+            "Mandatory APS Certificate issued by the German Embassy Academic Evaluation Centre in New Delhi.",
+            "Undergraduate syllabus / Module Handbook (Modulhandbuch) detailing course descriptions and credit hours.",
+            "Recognized English (IELTS / TOEFL) or German (TestDaF / DSH) language proficiency certificates.",
+            "Tabular Curriculum Vitae (Lebenslauf) and personalized Statement of Purpose (Letter of Motivation).",
+            "Two Academic Letters of Recommendation (LORs) from university professors.",
+            "Official GRE scorecard (if required by target universities).",
+            "Official University Letter of Admission (Zulassungsbescheid).",
+            "Proof of financial resources (€11,904 blocked account deposit) and statutory German student health insurance."
           ]
         }
       ]
     }
   ],
-  "faqs": []
+  faqs: [
+    {
+      q: "Is it possible for Indian students to study biomedical engineering for a master's degree in Germany?",
+      a: "Yes. Indian students holding a recognized Bachelor's degree in Biomedical Engineering, Biomedical Technology, Electrical Engineering, Mechanical Engineering, Electronics, or Biotechnology can apply. Applicants must fulfill specific ECTS course requirements in mathematics, physics, and electronics, along with required language test scores."
+    },
+    {
+      q: "Does Germany provide free master's degrees in biomedical engineering?",
+      a: "Yes. Public universities across 15 of 16 German federal states charge zero general tuition fees for consecutive master's degrees. Students only pay a semester contribution of €150 to €400 covering administrative services and a regional transit pass. Non-EU international students pay €1,500 per semester in Baden-Württemberg, and private universities set their own tuition fees."
+    },
+    {
+      q: "What is the typical duration of a German master's program in biomedical engineering?",
+      a: "Depending on the university and program structure, most master's programs last between 1.5 and 2 years (3 to 4 semesters) and require 90 or 120 ECTS credits, concluding with a research-driven master's thesis conducted in collaboration with a university hospital or MedTech company."
+    },
+    {
+      q: "Is IELTS required in Germany for biomedical engineering master's programs?",
+      a: "For English-taught master's programs, universities typically require official IELTS Academic (6.5+) or TOEFL iBT (90+) scorecards. For German-taught programs, proof of German language proficiency at B2 or C1 level (TestDaF 4x4 or DSH-2) is required."
+    },
+    {
+      q: "What career opportunities are available in Germany after earning a master's degree in biomedical engineering?",
+      a: "Graduates can pursue high-demand roles in medical device design, medical imaging, clinical engineering, biosensors, biomechanics, regulatory affairs, quality assurance, and healthcare technology R&D with global MedTech leaders such as Siemens Healthineers, B. Braun, Drägerwerk, and Fresenius."
+    },
+    {
+      q: "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
+      a: "Edu Hawk Worldwide assists students with profile evaluation, university and course shortlisting, ECTS credit matching, APS verification, application submission via uni-assist, SOP & CV tailoring, blocked account setup, and German student visa preparation. Contact our overseas education advisors to start your German biomedical engineering journey."
+    }
+  ]
 };
 
 export default function BiomedicalEngineeringPGGermanyPage() {
-  const images = {
-    hero: heroImg,
-    heroBg: heroBgImg,
-    side: sideImg,
-    ctaBg: ctaBgImg,
-    universities: [
-    {
-      name: "University of Lübeck      renowned for multidisciplinary work bridging engineering and medicine, biomedical research, and medical technology.",
-      img: uniImg1,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "Stuttgart University      provides opportunities for engineering research in computational techniques, biomechanics, imaging related technologies, and medical engineering.",
-      img: uniImg2,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "Friedrich Alexander Universität Erlangen Nürnberg      renowned for its     medical technology     and research that links electronics, engineering, imaging, and medical applications.",
-      img: uniImg3,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "Magdeburg Otto von Guericke University      provides chances for medical and technical research related to     biomedical systems and medical technology    .",
-      img: uniImg4,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    }
-    ]
-  };
-
-  return <AbroadCoursePage page={page} images={images} />;
+  return (
+    <AbroadCoursePage
+      page={page}
+      heroImg={heroImg}
+      heroBgImg={heroBgImg}
+      sideImg={sideImg}
+      ctaBgImg={ctaBgImg}
+      seoPath="/study-abroad/germany/pg/biomedical-engineering"
+    />
+  );
 }

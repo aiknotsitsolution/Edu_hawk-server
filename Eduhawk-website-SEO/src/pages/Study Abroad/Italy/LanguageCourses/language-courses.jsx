@@ -16,12 +16,12 @@ const page = {
   "slug": "language_courses",
   "title": "Language Courses in Italy for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Language Courses in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
-  "keywords": "Top 6 SEO Keywords",
+  "keywords": "Italian Language Courses in Italy, Study Italian in Italy, Learn Italian Language Italy, CILS CELI Certification Italy",
   "introTitle": "Italian Language Classes for Indian Students",
-  "heroParas": [
-    "Yes, Indian students can explore Italian language programs in Italy offered by universities and language schools, subject to meeting the provider's eligibility criteria and applicable travel regulations."
+  heroParas: [
+    "Italian Language Courses in Italy offer immersive language acquisition, cultural integration, and certified proficiency training (CILS/CELI) across historic university towns and official cultural academies."
   ],
-  "overview": [
+  overview: [
     "Yes, Indian students can explore Italian language programs in Italy offered by universities and language schools, subject to meeting the provider's eligibility criteria and applicable travel regulations."
   ],
   "level": "Certificate & Diploma",
@@ -145,19 +145,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Taking a language course may help to improve your communication skills but does not guaranty you employment or work authorization. Employment opportunities depend on your qualification, experience, proficiency and applicable immigration rules.",
-            "Top 6 SEO Keywords"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Italian Language Courses in Italy for Indian Students",
-            "Italian Language Classes in Italy",
-            "Best Universities for Italian Language Courses in Italy",
-            "Italian Language Course Eligibility in Italy",
-            "Italian Language Course Admission Requirements in Italy",
-            "Cost of Italian Language Courses in Italy"
+            "Taking a language course may help to improve your communication skills but does not guaranty you employment or work authorization. Employment opportunities depend on your qualification, experience, proficiency and applicable immigration rules."
           ]
         }
       ]
@@ -193,48 +181,6 @@ const page = {
           "items": [
             "After a language course in Italy, students can receive a certificate of attendance, a certificate of completion or a record of their language level, depending on the institution.",
             "Before you enroll, check that:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Whether a certificate is given.",
-            "Whether the certificate signifies attendance, completion, or demonstrated proficiency.",
-            "Whether there is an examination.",
-            "Whether your certificate will be accepted by your desired university or for your professional purpose."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "For formal proof of Italian language proficiency, please check the requirements of the receiving institution or authority. Depending on the purpose and organization requesting proof, some of the recognized certification options are CILS, CELI and PLIDA.",
-            "A short language course certificate is not always the same as a recognized language proficiency test."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Career Prospects",
-      "title": "Career and Education Opportunities After Learning a Language in Italy",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Italian can complement a degree, improve everyday communication and improve professional development. But a language course alone does not ensure employment or professional qualification.",
-            "Italian language skills may be useful in the following potential opportunities:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Tourism and hospitality.",
-            "Provide support to customer service and international.",
-            "The skills and qualifications are translated and adjusted as needed.",
-            "Help with international business and sales.",
-            "International education and cultural exchange.",
-            "Further studies at universities in Italy.",
-            "Roles requiring communication with Italian speaking customers."
           ]
         },
         {
@@ -284,7 +230,34 @@ const page = {
         }
       ]
     }
-  ]
+  ],
+  faqs: [
+    {
+        "q": "Can international students take Italian language courses in Italy?",
+        "a": "Yes. Renowned institutions such as the University for Foreigners of Perugia and University for Foreigners of Siena offer year-round language courses for all proficiency levels (A1 to C2)."
+    },
+    {
+        "q": "What is the duration of language programmes in Italy?",
+        "a": "Course lengths vary from intensive 4-week summer sessions to comprehensive 6 to 12-month university preparation and foundation tracks."
+    },
+    {
+        "q": "What official language certifications can students earn?",
+        "a": "Students can prepare for and earn internationally recognized language credentials including CILS, CELI, and PLIDA certificates."
+    },
+    {
+        "q": "Can students get a study visa for an Italian language course?",
+        "a": "Yes. Enrolling in an accredited language programme with a minimum of 20 hours of instruction per week allows international students to obtain a Type-D National Study Visa."
+    },
+    {
+        "q": "Are language courses necessary before pursuing an Italian-taught degree?",
+        "a": "Yes. Most Italian-taught university degrees require B2 level proficiency certification prior to matriculation."
+    },
+    {
+        "q": "What cultural activities are included with language courses?",
+        "a": "Programmes typically organize cultural excursions, art history seminars, culinary workshops, and guided architectural tours."
+    }
+],
+  faqTitle: "Frequently Asked Questions About Language Courses in Italy"
 };
 
 export default function LanguageCoursesItaly() {

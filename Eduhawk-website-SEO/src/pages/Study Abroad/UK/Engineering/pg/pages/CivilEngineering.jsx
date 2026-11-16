@@ -22,9 +22,7 @@ const page = {
   "keywords": "Study MSc Civil Engineering in the UK, MSc Civil Engineering in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "In the UK, civil engineering (PG)",
   "heroParas": [
-    "The United Kingdom is a popular destination for international students studying postgraduate courses in Civil Engineering. In the UK, advanced engineering programs incorporate technical knowledge, research, practical projects, and industry-focused learning.",
-    "The following are the primary benefits of studying civil engineering in the UK:",
-    "Get an internationally recognized postgraduate degree from a UK university."
+    "The United Kingdom is a popular destination for international students studying postgraduate courses in Civil Engineering. In the UK, advanced engineering programs incorporate technical knowledge, research, practical projects, and industry-focused learning."
   ],
   "overview": [
     "The United Kingdom is a popular destination for international students studying postgraduate courses in Civil Engineering. In the UK, advanced engineering programs incorporate technical knowledge, research, practical projects, and industry-focused learning.",

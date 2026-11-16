@@ -16,10 +16,10 @@ const page = {
   "keywords": "Study Winter Courses in USA for Indian Students, Best Universities for Winter Courses in USA, Short-Term Winter Programs in USA for International Students, Winter Course Fees in USA for Indian Students, Winter Session Eligibility Requirements in USA, Winter Courses in USA for Undergraduate Students, Winter STEM Programs in USA for International Students, Winter Business and Management Courses in USA, Winter English Language Courses in USA, Online Winter Courses in USA for International Students, Winter Course Scholarships in USA",
   "introTitle": "Winter Courses in USA for Indian Students",
   "heroParas": [
-    "Study Winter Courses in USA",
-    "USA universities have winter courses during the winter break that international students can take to learn new skills, explore academic interests, earn university credits and experience American campus life."
+    "Taking winter courses in the USA allows international students to acquire high-impact academic skills, earn transferable university credits, and experience vibrant American campus life during the winter break."
   ],
   "overview": [
+    "USA universities have winter courses during the winter break that international students can take to learn new skills, explore academic interests, earn university credits and experience American campus life.",
     "Such programs can be short academic courses, English language training, business and technology programs, professional certificates and university winter sessions. Students can choose between online, hybrid or in-person learning, depending on the school.",
     "Edu Hawk worldwide consultancy helps students to know the international study options, understand the university admission standards and prepare for the overseas education journey."
   ],

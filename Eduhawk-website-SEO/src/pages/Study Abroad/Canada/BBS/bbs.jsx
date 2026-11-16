@@ -20,8 +20,7 @@ const page = {
   "keywords": "Study BBS in Canada, BBS in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "BBS for Indian Students in Canada",
   "heroParas": [
-    "In educational institutions that provide this degree title, an undergraduate degree in business fundamentals, management, accounting, finance, marketing, economics, and organizational operations is called a Bachelor of Business Studies (BBS).",
-    "The Edu Hawk worldwide consultancy helps students understand university entrance requirements, investigate **international study options**, and prepare for the overseas education journey."
+    "In educational institutions that provide this degree title, an undergraduate degree in business fundamentals, management, accounting, finance, marketing, economics, and organizational operations is called a Bachelor of Business Studies (BBS)."
   ],
   "overview": [
     "In educational institutions that provide this degree title, an undergraduate degree in business fundamentals, management, accounting, finance, marketing, economics, and organizational operations is called a Bachelor of Business Studies (BBS).",

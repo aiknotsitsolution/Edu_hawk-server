@@ -457,7 +457,7 @@ const page = {
             },
             {
               "q": "How can Edu Hawk worldwide Consultancy help me study abroad?",
-              "a": "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities. Study Computer Science in Canada for Indian StudentsBest Universities for Computer Science in CanadaComputer Science Courses in Canada for International StudentsComputer Science Eligibility in CanadaComputer Science Admission Requirements in CanadaComputer Science Fees in Canada for Indian StudentsComputer Science Scholarships in Canada for International StudentsComputer Science Specialisations in CanadaArtificial Intelligence and Machine Learning Courses in CanadaSoftware Development Courses in CanadaCybersecurity Courses in CanadaData Science and Cloud Computing Courses in CanadaComputer Science Admission Process in CanadaCareer Opportunities After Computer Science in CanadaCanadian Study Permit Requirements for Computer Science Students"
+              "a": "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities."
             }
           ]
         }

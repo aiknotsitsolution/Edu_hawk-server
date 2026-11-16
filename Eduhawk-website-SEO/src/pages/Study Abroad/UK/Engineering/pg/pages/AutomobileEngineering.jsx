@@ -21,14 +21,11 @@ const page = {
   "keywords": "Study MSc Automobile Engineering in the UK, MSc Automobile Engineering in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Automobile Engineering (PG) in the United Kingdom",
   "heroParas": [
-    "Students seeking postgraduate studies in Automobile Engineering are drawn to the United Kingdom. The automotive industry in the UK integrates sophisticated manufacturing, electric mobility, autonomous driving, sustainable transportation technology, and vehicle design.",
-    "Students can acquire advanced technical skills for positions in vehicle development, automotive research, production, and mobility innovation through postgraduate programs in Automobile Engineering and Automotive Engineering.",
-    "The main advantages of studying automotive engineering in the UK"
+    "Students seeking postgraduate studies in Automobile Engineering are drawn to the United Kingdom. The automotive industry in the UK integrates sophisticated manufacturing, electric mobility, autonomous driving, sustainable transportation technology, and vehicle design."
   ],
   "overview": [
     "Students seeking postgraduate studies in Automobile Engineering are drawn to the United Kingdom. The automotive industry in the UK integrates sophisticated manufacturing, electric mobility, autonomous driving, sustainable transportation technology, and vehicle design.",
-    "Students can acquire advanced technical skills for positions in vehicle development, automotive research, production, and mobility innovation through postgraduate programs in Automobile Engineering and Automotive Engineering.",
-    "The main advantages of studying automotive engineering in the UK"
+    "Students can acquire advanced technical skills for positions in vehicle development, automotive research, production, and mobility innovation through postgraduate programs in Automobile Engineering and Automotive Engineering."
   ],
   "level": "MSc Automobile Engineering",
   "crumb": "Engineering / PG / Automobile Engineering",

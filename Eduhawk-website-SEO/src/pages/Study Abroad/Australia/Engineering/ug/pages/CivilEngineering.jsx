@@ -23,10 +23,10 @@ const page = {
     "Study Civil Engineering in Australia for Indian Students Undergraduate Civil Engineering Courses in Australia Best Universities for Civil Engineering in Australia Bachelor of Civil Engineering in Australia After 12th Civil Engineering Eligibility in Australia for Indian Students Civil Engineering Admission Requirements in Australia Civil Engineering Fees in Australia for International Students Civil Engineering Scholarships in Australia for Indian Students Civil Engineering Course Duration in Australia English Language Requirements for Civil Engineering in Australia Civil Engineering Specialisations in Australia Civil Engineering Admission Process for Indian Students Engineers Australia Accredited Civil Engineering Courses Career Opportunities After Civil Engineering in Australia Australian Student Visa Requirements for Civil Engineering Students",
   introTitle: "undergraduate civil engineering in Australia.",
   heroParas: [
-    "Civil engineering focuses on the design, construction, and maintenance of the built and natural environments, including roads, bridges, buildings, water supply systems, and transport networks.",
-    "Australia offers premier civil engineering programs recognized worldwide, backed by significant national infrastructure investment and accredited by Engineers Australia."
+    "Civil engineering focuses on the design, construction, and maintenance of the built and natural environments, including roads, bridges, buildings, water supply systems, and transport networks."
   ],
   overview: [
+    "Australia offers premier civil engineering programs recognized worldwide, backed by significant national infrastructure investment and accredited by Engineers Australia.",
     "Civil engineering education in Australia prepares students for leadership in structural design, geotechnical engineering, transport networks, water resources, and sustainable construction management."
   ],
   level: "UG",

@@ -21,14 +21,11 @@ const page = {
   "keywords": "Study Undergraduate Engineering in the UK, Undergraduate Engineering in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Engineering-UG-Hub-Page in the UK for Indian Students",
   "heroParas": [
-    "Students interested in engineering, technology, innovation, and scientific research are drawn to the United Kingdom. Universities in the UK provide undergraduate engineering programmes that explore industry-focused learning, practical projects, laboratory work, and theoretical knowledge.",
-    "Mechanical, civil, electrical, electronic, aerospace, chemical, automotive, and computer engineering are just a few of the many engineering disciplines that students can select from. Additionally, a lot of colleges offer chances to take part in research projects, industry projects, internships, and placement years.",
-    "Key Advantages of Studying Engineering in the UK"
+    "Students interested in engineering, technology, innovation, and scientific research are drawn to the United Kingdom. Universities in the UK provide undergraduate engineering programmes that explore industry-focused learning, practical projects, laboratory work, and theoretical knowledge."
   ],
   "overview": [
     "Students interested in engineering, technology, innovation, and scientific research are drawn to the United Kingdom. Universities in the UK provide undergraduate engineering programmes that explore industry-focused learning, practical projects, laboratory work, and theoretical knowledge.",
-    "Mechanical, civil, electrical, electronic, aerospace, chemical, automotive, and computer engineering are just a few of the many engineering disciplines that students can select from. Additionally, a lot of colleges offer chances to take part in research projects, industry projects, internships, and placement years.",
-    "Key Advantages of Studying Engineering in the UK"
+    "Mechanical, civil, electrical, electronic, aerospace, chemical, automotive, and computer engineering are just a few of the many engineering disciplines that students can select from. Additionally, a lot of colleges offer chances to take part in research projects, industry projects, internships, and placement years."
   ],
   "level": "Bachelor of Engineering (BEng) / MEng",
   "crumb": "Engineering / Undergraduate Hub",

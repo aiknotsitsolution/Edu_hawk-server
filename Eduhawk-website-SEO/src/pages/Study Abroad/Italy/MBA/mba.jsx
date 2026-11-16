@@ -15,12 +15,12 @@ const page = {
   "slug": "mba",
   "title": "MBA in Italy for Indian Students | Edu-Hawk Worldwide",
   "description": "Study MBA in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
-  "keywords": "Top 6 SEO Keywords",
+  "keywords": "MBA in Italy, Study MBA in Italy for Indian Students, Best MBA Colleges in Italy, SDA Bocconi MBA, MBA in Italy Fees",
   "introTitle": "MBA in Italy for Indian Students",
-  "heroParas": [
-    "Yes. Indian students can apply to eligible Italian business schools if they meet the academic, professional, language and other admission requirements of the program."
+  heroParas: [
+    "An MBA in Italy offers a globally accredited management credential, intensive leadership development, and strategic access to Europe's luxury, automotive, and industrial manufacturing champions."
   ],
-  "overview": [
+  overview: [
     "Yes. Indian students can apply to eligible Italian business schools if they meet the academic, professional, language and other admission requirements of the program."
   ],
   "level": "Postgraduate",
@@ -132,19 +132,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Graduates may seek employment in Italy in accordance with the applicable immigration and work permit regulations. Getting a job depends on your qualifications, work experience, language skills, what an employer wants and whether there are any jobs that fit you.",
-            "Top 6 SEO Keywords"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "MBA in Italy for Indian Students",
-            "Master of Business Administration in Italy",
-            "MBA Courses in Italy",
-            "Top MBA Universities in Italy",
-            "MBA Admission Requirements in Italy",
-            "Cost of MBA in Italy"
+            "Graduates may seek employment in Italy in accordance with the applicable immigration and work permit regulations. Getting a job depends on your qualifications, work experience, language skills, what an employer wants and whether there are any jobs that fit you."
           ]
         }
       ]
@@ -187,78 +175,6 @@ const page = {
         {
           "t": "ul",
           "items": [
-            "Whether and where applicable the awarding body is officially recognized within the Italian higher education system.",
-            "Whether the MBA is an academic degree or a professional postgraduate qualification.",
-            "Whether the program is nationally or internationally accredited and relevant.",
-            "If the qualification is valued by the employers in your industry of choice.",
-            "Whether the qualification is suitable for any further study or professional path you wish to pursue."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "An MBA is a management qualification, not a licence to work in a regulated profession. Recognition and acceptance may vary between countries and employers.",
-            "Indian students wanting to return to India should check independently any recognition requirements relevant to their future career or further education."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Career Prospects",
-      "title": "Salary and Job Opportunities After MBA in Italy",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "An MBA, combined with relevant work experience, specialist knowledge, language skills and a strong professional network, can help graduates pursue management and leadership opportunities.",
-            "Possible career opportunities include:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Manager, Business Development",
-            "Consulting Management",
-            "Manager, Marketing",
-            "Financial Analyst or Financial Manager",
-            "Manager of Operations",
-            "Product Manager -",
-            "Project Manager -",
-            "Strategic Advisor",
-            "Manager, Supply Chain",
-            "Entrepreneur / Business Owner"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Italian MBA Salary Estimate",
-            "The figures below are general illustrative gross annual salary ranges for planning purposes only. These are not verified salary statistics and do not guaranty any MBA graduate outcomes.",
-            "Level or role in careerIndicative gross salary per annum",
-            "Early career business or management role₹30,000-40,000 (₹32.58lakh-₹43.44lakh)",
-            "specialist or experienced manager₹43.44-₹70.59 lakh (€40,000-€65,000)",
-            "Senior Management or Specialist Leadership Role€65,000-€100,000+ (₹70.59 lakh-₹1.086 crore+)",
-            "The actual salary will depend on the employer, location, industry, experience, job responsibilities, language proficiency and market conditions. These are not the average starting salaries for all MBA graduates.",
-            "International students should also check work authorization rules during their studies and after they finish their studies. Some international employers operate almost exclusively in English, but speaking Italian can enhance your prospects of finding work with many local companies."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Document Checklist",
-      "title": "Documents Required for Studying MBA in Italy",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Indian students should follow the instructions of the business school they have shortlisted to prepare their application documents. Documents usually requested are:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
             "Valid passport.",
             "Provisional or final Bachelor's degree certificate.",
             "Mark sheets and academic transcripts.",
@@ -283,7 +199,34 @@ const page = {
         }
       ]
     }
-  ]
+  ],
+  faqs: [
+    {
+        "q": "Can Indian students pursue an MBA in Italy in English?",
+        "a": "Yes. Leading Italian business schools like SDA Bocconi, POLIMI Graduate School of Management, and Luiss Business School teach full-time MBA programmes 100% in English."
+    },
+    {
+        "q": "What is the duration of an MBA in Italy?",
+        "a": "Most full-time MBA programmes in Italy are 12 to 15 months in duration, offering an intensive curriculum with lower opportunity costs."
+    },
+    {
+        "q": "What are the tuition fees for an MBA in Italy?",
+        "a": "Tuition at top-ranked private business schools ranges from €25,000 to €65,000, while public university MBA programmes cost between €8,000 and €18,000."
+    },
+    {
+        "q": "Is work experience required for MBA admission in Italy?",
+        "a": "Yes. Full-time MBA programmes typically require 2 to 3 years of post-graduation professional work experience along with GMAT/GRE or school-specific aptitude tests."
+    },
+    {
+        "q": "Are scholarships available for MBA candidates in Italy?",
+        "a": "Yes. Leading business schools offer merit-based scholarships, diversity grants, and leadership fellowships covering 20% to 100% of tuition."
+    },
+    {
+        "q": "What are the post-MBA career prospects in Italy and Europe?",
+        "a": "Graduates secure high-level roles in management consulting, luxury goods (Gucci, Prada), automotive leadership (Ferrari), and European finance."
+    }
+],
+  faqTitle: "Frequently Asked Questions About MBA in Italy"
 };
 
 export default function MBAItaly() {

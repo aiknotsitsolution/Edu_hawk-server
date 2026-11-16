@@ -17,8 +17,7 @@ const page = {
   "keywords": "Study Biomedical Engineering - UG in Spain, Biomedical Engineering - UG in Spain for Indian Students, Best Universities in Spain, Cost of Studying in Spain",
   "introTitle": "Biomedical Engineering Degree in Spain for Indian Students",
   "heroParas": [
-    "Bachelor's in Biomedical Engineering in Spain for Indian Students offers a chance to merge engineering, biology, medicine and technology to create healthcare solutions. The field includes medical devices, diagnostic equipment, biomedical imaging, biomaterials, rehabilitation technology and healthcare instrumentation.",
-    "If you are a student looking to Study Biomedical Engineering in Spain , you can explore the universities that offer biomedical engineering or closely related engineering and health-technology programs. In Spain, the higher education system allows you to develop technical knowledge through science courses, laboratory work and engineering projects."
+    "Bachelor's in Biomedical Engineering in Spain for Indian Students offers a chance to merge engineering, biology, medicine and technology to create healthcare solutions. The field includes medical devices, diagnostic equipment, biomedical imaging, biomaterials, rehabilitation technology and healthcare instrumentation."
   ],
   "overview": [
     "Bachelor's in Biomedical Engineering in Spain for Indian Students offers a chance to merge engineering, biology, medicine and technology to create healthcare solutions. The field includes medical devices, diagnostic equipment, biomedical imaging, biomaterials, rehabilitation technology and healthcare instrumentation.",

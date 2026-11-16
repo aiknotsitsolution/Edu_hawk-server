@@ -16,12 +16,12 @@ const page = {
   "slug": "bbs",
   "title": "BBS in Italy for Indian Students | Edu-Hawk Worldwide",
   "description": "Study BBS in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
-  "keywords": "Top 6 SEO Keywords",
+  "keywords": "BBS in Italy, Study BBS in Italy, Bachelor of Business Studies in Italy, Business Universities in Italy, Cost of BBS in Italy",
   "introTitle": "BBS in Italy for Indian Students",
-  "heroParas": [
-    "Yes. Students from India can apply for eligible undergraduate business and management programs after Class 12 provided they meet the university's academic, language and other admission requirements."
+  heroParas: [
+    "Studying a Bachelor of Business Studies (BBS) in Italy equips students with strong fundamentals in finance, global commerce, and strategic enterprise management at affordable European public tuition rates."
   ],
-  "overview": [
+  overview: [
     "Yes. Students from India can apply for eligible undergraduate business and management programs after Class 12 provided they meet the university's academic, language and other admission requirements."
   ],
   "level": "Undergraduate",
@@ -145,19 +145,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Yes. Graduates are eligible to apply for an MBA or other relevant postgraduate business program, subject to meeting the entry requirements. Some traditional MBA programs require professional work experience so recent graduates might also consider a Master's in Management.",
-            "Top 6 SEO Keywords"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "BBS in Italy for Indian Students",
-            "Bachelor of Business Studies in Italy",
-            "BBS Courses in Italy",
-            "Top BBS Universities in Italy",
-            "BBS Eligibility and Admission in Italy",
-            "Cost of Studying BBS in Italy"
+            "Yes. Graduates are eligible to apply for an MBA or other relevant postgraduate business program, subject to meeting the entry requirements. Some traditional MBA programs require professional work experience so recent graduates might also consider a Master's in Management."
           ]
         }
       ]
@@ -168,21 +156,30 @@ const page = {
       "title": "Admission Procedure of BBS in Italy",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Here are the typical steps for Indian students to apply for a bachelor program in business or management.",
-            "Choose your program: Discover Bachelor Degrees in Business Administration, Economics and Management, International Business and related degrees.",
-            "Check eligibility: Verify eligibility for Class 12, academic standards, subject prerequisites and language requirements.",
-            "Check the entrance exams: Please confirm if the university requires an aptitude test or any other type of assessment.",
-            "Prepare documentation: Gather school certificates, mark sheets, passport details and other language test results if required.",
-            "Application process: Apply through the official portal of the university before the deadline.",
-            "Fill out assessments: Take any entrance exams, interviews or other selection process required.",
-            "Get your admissions decision: Please review the offer, tuition fees, payment due dates and enrollment instructions.",
-            "Complete all pre-enrolment and visa formalities: Follow the instructions of the university, Universitaly and the relevant Italian consular authority, where applicable.",
-            "Full final registration: Finalize your university registration and submit any outstanding required documents.",
-            "Universities have varying deadlines and procedures for applications. Students should start early enough to allow time to take tests, prepare documents, receive admission decisions and obtain visas."
-          ]
-        }
+        "t": "timeline",
+        "items": [
+                {
+                        "step": "1",
+                        "title": "Check Eligibility",
+                        "desc": "Verify eligibility for Class 12, academic standards, subject prerequisites and language requirements."
+                },
+                {
+                        "step": "2",
+                        "title": "Check The Entrance Exams",
+                        "desc": "Please confirm if the university requires an aptitude test or any other type of assessment."
+                },
+                {
+                        "step": "3",
+                        "title": "Get Your Admissions Decision",
+                        "desc": "Please review the offer, tuition fees, payment due dates and enrollment instructions."
+                },
+                {
+                        "step": "4",
+                        "title": "Complete All Pre-Enrolment And Visa Formalities",
+                        "desc": "Follow the instructions of the university, Universitaly and the relevant Italian consular authority, where applicable."
+                }
+        ]
+}
       ]
     },
     {
@@ -195,66 +192,6 @@ const page = {
           "items": [
             "A bachelor's degree in business or similar discipline from an Italian university recognized by the Italian Ministry of Education can be a basis for further education or employment. But the official name of the degree and its status are important.",
             "Before registering, students should verify:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Is the institution officially recognized in the Italian higher education system?",
-            "The formal credential awarded by the program.",
-            "What kind of degree (bachelor's qualification, usually called a Laurea or Laurea Triennale).",
-            "Length of course and ECTS credits.",
-            "Whether the degree is recognized for entry to postgraduate courses.",
-            "If there are any additional recognition or equivalence requirements in India or another intended destination."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "A degree in Economics and Management may cover many subjects similar to BBS, but it is not necessarily called Bachelor of Business Studies. Students are advised to use the official qualification name when applying for further education or employment."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Career Prospects",
-      "title": "Salary & Job Prospects After BBS in Italy",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "People who graduate with a bachelor's degree in a business-related field can look for entry-level positions in a wide variety of industries. Employment possibilities depend on skills, internships, language proficiency, specialization and employer requirements.",
-            "You might pursue a career in:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Business Development Manager.",
-            "Marketing Manager.",
-            "Sales Executive",
-            "Assistant Human Resources.",
-            "Financial Analyst, Junior.",
-            "Operations Coordinator.",
-            "Executive - Customer Relations",
-            "Digital Marketing Executive",
-            "Admin. Asst.",
-            "Junior Business Analyst with good demonstrated analytical skills."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Salary after BBS in Italy (Estimated)",
-            "The following are broad illustrative gross annual salary ranges for related business roles and are not verified salary statistics specifically for BBS graduates.",
-            "Career stageGross Annual Salary (Illustrative)",
-            "Entry-level jobs in business€22,000-€28,000 (₹23.89-₹30.41 lakh)",
-            "Early career Specialist or Analyst Roles€25,000-€35,000 (₹27.15-₹38.01 Lakh)",
-            "Experienced professionals moving into management€35,000-€50,000+ (₹38.01-₹54.30 lakh+)",
-            "€1 = ₹108.60 (Inr equivalents).",
-            "These figures are gross annual pay before taxes and deductions, not take-home salary. Actual salaries may vary based on a variety of factors including job role, employer, location, industry, skills and experience. Having a degree isn't a guaranty for a job, let alone a certain salary.",
-            "International graduates are also subject to the relevant work authorization and immigration rules that apply in their circumstances. Speaking Italian can increase opportunities for work in the area, while some multinationals have English speaking positions."
           ]
         }
       ]
@@ -296,7 +233,34 @@ const page = {
         }
       ]
     }
-  ]
+  ],
+  faqs: [
+    {
+        "q": "Can Indian students study BBS in Italy after Class 12?",
+        "a": "Yes. Indian students who meet academic eligibility and English proficiency criteria can apply for Bachelor of Business Studies programmes in Italy."
+    },
+    {
+        "q": "What is the course duration for a BBS in Italy?",
+        "a": "A standard BBS degree in Italy takes 3 years (180 ECTS credits) to complete."
+    },
+    {
+        "q": "What are the tuition fees for BBS in Italy?",
+        "a": "At public Italian universities, tuition fees range from €1,000 to €4,000 per academic year based on family income evaluation (ISEE)."
+    },
+    {
+        "q": "Are scholarships available for BBS students in Italy?",
+        "a": "Yes. Students can apply for merit-based awards and regional DSU scholarships which provide tuition waivers and annual living stipends."
+    },
+    {
+        "q": "What is the medium of instruction for BBS in Italy?",
+        "a": "Many leading Italian universities offer full BBS and economics programmes taught entirely in English for international students."
+    },
+    {
+        "q": "Can I work part-time while studying BBS in Italy?",
+        "a": "Yes. International students on an Italian student residence permit are legally permitted to work up to 20 hours per week during term time."
+    }
+],
+  faqTitle: "Frequently Asked Questions About BBS in Italy"
 };
 
 export default function BBSItaly() {

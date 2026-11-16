@@ -19,8 +19,7 @@ const page = {
   "keywords": "Study Aerospace Engineering - UG in Canada, Aerospace Engineering - UG in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Indian Students studying Aerospace Engineering in Canada",
   "heroParas": [
-    "Students interested in Aerospace Engineering in Canada including aircraft design, spacecraft systems, aerodynamics, propulsion, aviation technology, and innovative materials are drawn to Canada. To prepare students for positions in the aerospace and aviation industries, undergraduate aerospace engineering programs include physics, mathematics, engineering design and hands-on learning.",
-    "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."
+    "Students interested in Aerospace Engineering in Canada including aircraft design, spacecraft systems, aerodynamics, propulsion, aviation technology, and innovative materials are drawn to Canada. To prepare students for positions in the aerospace and aviation industries, undergraduate aerospace engineering programs include physics, mathematics, engineering design and hands-on learning."
   ],
   "overview": [
     "Students interested in Aerospace Engineering in Canada including aircraft design, spacecraft systems, aerodynamics, propulsion, aviation technology, and innovative materials are drawn to Canada. To prepare students for positions in the aerospace and aviation industries, undergraduate aerospace engineering programs include physics, mathematics, engineering design and hands-on learning.",

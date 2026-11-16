@@ -13,422 +13,383 @@ import uniImg2 from "../../../../../../Images/Abroad/Ireland/Engineering_PG/Elec
 import uniImg3 from "../../../../../../Images/Abroad/Ireland/Engineering_PG/Electronics/Technological_University_Dublin_2.webp";
 
 const page = {
-  "name": "Electronics and Communication Engineering (PG) in Ireland",
-  "country": "Ireland",
-  "slug": "pg/electronics-communication",
-  "title": "Study Electronics and Communication Engineering (PG) in Ireland for Indian Students | Edu-Hawk Worldwide",
-  "description": "Complete guide to Electronics and Communication Engineering (PG) in Ireland for Indian students: Top Irish universities, eligibility criteria, tuition fees (€13,500 – €28,640 / year), scholarships, and 2-year post-study work visa (Stamp 1G).",
-  "keywords": "Study Electronics and Communication Engineering PG in Ireland for Indian Students, Top Universities for Electronics and Communication Engineering in Ireland, MSc Electronic and Communications Engineering in Ireland, ME Electronic and Computer Engineering in Ireland, MSc Electronic Information Engineering at Trinity College Dublin, Electronics and Communication Engineering PG Eligibility in Ireland, Admission Requirements for ECE Master's in Ireland, IELTS Requirements for Electronics Engineering in Ireland, Electronics and Communication Engineering Tuition Fees in Ireland 2026/27, Cost of Studying ECE in Ireland for International Students",
-  "introTitle": "POSTGRADUATE IN ELECTRONICS AND COMMUNICATION ENGINEERING IN IRELAND",
-  "heroParas": [
-    "Postgraduate in Electronics and Communication Engineering in Ireland"
+  name: "Electronics and Communication Engineering (PG) in Ireland",
+  country: "Ireland",
+  slug: "study-abroad/ireland/pg/electronics-communication",
+  title: "Study Electronics and Communication Engineering (PG) in Ireland for Indian Students | EduHawk",
+  description: "Complete guide to Master's in Electronics and Communication Engineering in Ireland: Top universities (TU Dublin, Galway, Trinity), wireless networks, eligibility, fees (€14,500 – €28,640/yr), salaries, and 2-year Stamp 1G work visa.",
+  keywords: "Study Electronics and Communication Engineering PG in Ireland for Indian Students, Top Universities for Electronics and Communication Engineering in Ireland, MSc Electronic and Communications Engineering in Ireland, ME Electronic and Computer Engineering in Ireland, MSc Electronic Information Engineering at Trinity College Dublin, Electronics and Communication Engineering PG Eligibility in Ireland, Admission Requirements for ECE Master's in Ireland, IELTS Requirements for Electronics Engineering in Ireland, Electronics and Communication Engineering Tuition Fees in Ireland 2026/27, Cost of Studying ECE in Ireland for International Students",
+  introTitle: "POSTGRADUATE IN ELECTRONICS AND COMMUNICATION ENGINEERING IN IRELAND",
+  heroParas: [
+    "Electronics and Communication Engineering in Ireland offers premier 1-year postgraduate Master's programs (MSc, ME) focused on high-speed wireless networks, digital signal processing (DSP), RF systems, embedded microcontrollers, and semiconductor technologies. Taught at leading technological and research faculties including Technological University Dublin (TU Dublin), Trinity College Dublin (TCD), and the University of Galway, these NFQ Level 9 programs offer tuition fees from €14,500 to €28,640 per year, Engineers Ireland Washington Accord accreditation, and a 2-year post-study graduate work visa under the Third Level Graduate Scheme (Stamp 1G)."
   ],
-  "overview": [
-    "Postgraduate in Electronics and Communication Engineering in Ireland"
+  overview: [
+    "Ireland stands as a global telecommunications, microelectronics, and hardware innovation powerhouse. Hosting prominent multinational telecommunications suppliers, semiconductor fabricators, and wireless infrastructure leaders, Ireland offers international engineering students a world-class environment for advanced postgraduate education in electronics and communications.",
+    "Postgraduate programs in this domain are structured primarily as 1-year full-time Master of Science (MSc in Electronic and Communications Engineering) or Master of Engineering (ME in Electronic and Computer Engineering), both rated at NFQ Level 9 (90 ECTS). The curriculum balances rigorous mathematical theory with intensive laboratory experimentation, hardware simulation, and an individual capstone research project.",
+    "Students develop specialized mastery in analog and digital circuit design, 5G/6G wireless networks, optical communication systems, digital signal processing (DSP), embedded firmware, radio frequency (RF) engineering, and Internet of Things (IoT) hardware architectures. Training is supported by leading research centers including Tyndall National Institute and CONNECT (the SFI Research Centre for Future Networks and Communications).",
+    "Qualifications accredited by Engineers Ireland satisfy the educational requirement for Chartered Engineer (CEng) status under the international Washington Accord, conferring reciprocal professional recognition across India, the UK, USA, Australia, and Canada. EduHawk Worldwide delivers end-to-end consultancy for ECE graduates—from selecting optimal wireless or semiconductor tracks to SOP guidance and Irish study visa (Stamp 2) filing."
   ],
-  "level": "Master of Science (MSc) in Electronic & Communications Systems",
-  "crumb": "Engineering / Electronics & Communication (PG)",
-  "stats": [
+  level: "Master of Science (MSc) & Master of Engineering (ME) in Electronic & Communications Systems (NFQ Level 9)",
+  crumb: "Engineering / Electronics & Communication (PG)",
+  stats: [
     {
-      "label": "Degree Choices",
-      "value": "Master of Science (MSc) in Electronic & Communications Systems"
+      label: "Course Duration",
+      value: "1 Year Full-Time (90 ECTS)"
     },
     {
-      "label": "Course Duration",
-      "value": "1 to 2 Years (Full-Time)"
+      label: "Telecom Capital",
+      value: "Global Hub for Wireless & Microchips"
     },
     {
-      "label": "Top Institutions",
-      "value": "Technological University Dublin, University of Galway"
+      label: "Tuition Range",
+      value: "€14,500 – €28,640 / Year"
     },
     {
-      "label": "Post-Study Work",
-      "value": "2 Years Third Level Graduate Scheme (Stamp 1G)"
+      label: "Post-Study Work",
+      value: "2 Years (Stamp 1G Graduate Visa)"
     }
   ],
-  "sections": [
+  sections: [
     {
-      "slot": "why",
-      "eyebrow": "Why Study in Ireland",
-      "title": "1. Why Study Electronics and Communication Engineering in Ireland",
-      "groups": [
+      slot: "why",
+      eyebrow: "Why Study in Ireland",
+      title: "Why Study Postgraduate Electronics & Communication in Ireland?",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Ireland is a very attractive destination for postgraduate studies in Electronics and Communication Engineering because of its technology sector, research opportunities and links with multinational engineering companies.",
-            "Students will be able to acquire advanced skills in electronic systems, telecommunications, signal processing, embedded systems and digital technologies.",
-            "A postgraduate qualification can help graduates prepare for roles in electronics design, communications systems, semiconductor-related engineering, research and development and connected technologies.",
-            "Benefits include:"
+          t: "p",
+          items: [
+            "With major multinational telecommunications network providers, fabless chip design houses, and hardware R&D teams operating across Ireland, pursuing a Master's degree in ECE provides outstanding career advantages:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Master’s programs with an industrial focus and project work in engineering.",
-            "Opportunities to specialize in electronics, communication systems, embedded technology and signal processing.",
-            "Exposure to Ireland’s technology, telecommunications and medical device sectors.",
-            "Access to research facilities and possibilities for further research.",
-            "Depending on qualifications, market conditions and work-permission rules, employment opportunities for graduates may be available."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Edu Hawk worldwide consultancy study abroad guidance can help students to explore these opportunities and understand the requirements for studying abroad."
+          t: "ul",
+          items: [
+            "Industry-Focused Master's Curricula: Advanced specialized modules combining wireless communications, embedded systems, microelectronic fabrication, and machine learning for signal processing.",
+            "Semiconductor & Telecom Hub: Direct career pathways to global hardware and telecom leaders (Intel, Analog Devices, Qualcomm, Ericsson, Nokia, Cisco, Microchip Technology).",
+            "State-of-the-Art Electronics Labs: Practical training in RF anechoic chambers, spectrum analysis suites, FPGA workstations, and cleanroom microelectronic testing.",
+            "Affordable Tuition Options: Highly competitive non-EU fees starting at €14,500 per year at TU Dublin, providing high return on investment.",
+            "2-Year Graduate Visa (Stamp 1G): Level 9 Master's graduates qualify for 24 months of unrestricted full-time employment rights in Ireland, facilitating a direct path to Critical Skills Employment Permits."
           ]
         }
       ]
     },
     {
-      "slot": "courses",
-      "eyebrow": "Degrees & Programs",
-      "title": "2. Electronics and Communication Engineering Courses in Ireland",
-      "groups": [
+      slot: "courses",
+      eyebrow: "Degrees & Programs",
+      title: "Electronics & Communication Engineering Curriculum Disciplines",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Postgraduate programs in Electronics and Communication Engineering usually involve advanced theory combined with practical assignments, laboratory work, design projects or dissertation.",
-            "Depending on the program students may study:"
+          t: "p",
+          items: [
+            "Postgraduate ECE programs combine high-frequency electromagnetic theory, digital hardware synthesis, and telecommunications protocols:",
+            "Key Focus Modules Covered:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "- Digital and analog electronics",
-            "Wireless networks and communication systems",
-            "*Digital Signal Processing",
-            "- Microcontrollers and embedded systems",
-            "- Electronic circuits and semiconductor devices",
-            "- Internet of Things (IoT) technology",
-            "- Instrumentation and control systems",
-            "- Engineering design and research methods"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Typical postgraduate awards are a Master of Science (MSc), Master of Engineering (ME) and associated Level 9 master’s awards.",
-            "Many full-time programs last about one year but the duration and project requirements differ."
+          t: "ul",
+          items: [
+            "Digital & Analog Integrated Circuit (IC) Design",
+            "Wireless Networks, 5G/6G Standards & Mobile Communications",
+            "Advanced Digital Signal Processing (DSP) & Image Processing",
+            "Microcontrollers, RTOS & Embedded Systems Programming",
+            "Radio Frequency (RF), Microwave Engineering & Antenna Design",
+            "Semiconductor Physics & Microelectronic Devices",
+            "Internet of Things (IoT) Connected Architectures & Sensor Protocols",
+            "Optical Communications, Photonics & Fiber-Optic Systems",
+            "Independent Capstone Engineering Research Project & Dissertation"
           ]
         }
       ]
     },
     {
-      "slot": "universities",
-      "eyebrow": "Top Institutions",
-      "title": "3. Top Universities in Ireland for Electronics and Communication Engineering",
-      "unis": [
+      slot: "universities",
+      eyebrow: "Top Institutions",
+      title: "Top Universities for Postgraduate Electronics & Communication in Ireland",
+      groups: [
         {
-          "name": "Technological University Dublin",
-          "desc": "Technological University Dublin (TU Dublin) - MSc in Electronic and Communications Engineering, TU Dublin The program is advertised as a full-time Level 9 course, one year, starting in September 2026, with a published non-EU fee of €14,500 for 2026/27.",
-          "imgKey": "uniImg_Technological_University_Dublin_webp",
-          "imgIdentifier": "uniImg1",
-          "city": "Dublin, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg1
+          t: "p",
+          items: [
+            "The following premier Irish institutions provide world-class postgraduate programs in electronics, communication, and information engineering:"
+          ]
+        }
+      ],
+      unis: [
+        {
+          name: "Technological University Dublin (TU Dublin)",
+          city: "Dublin",
+          state: "Leinster",
+          desc: "Offers the 1-year full-time MSc in Electronic and Communications Engineering. Features advanced wireless communication laboratories, RF testing suites, and a highly accessible non-EU tuition of €14,500/year.",
+          img: uniImg1
         },
         {
-          "name": "University of Galway",
-          "desc": "Technological University Dublin (TU Dublin) - MSc in Electronic and Communications Engineering, TU Dublin The program is advertised as a full-time Level 9 course, one year, starting in September 2026, with a published non-EU fee of €14,500 for 2026/27.",
-          "imgKey": "uniImg_University_of_Galway_webp",
-          "imgIdentifier": "uniImg2",
-          "city": "Galway, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg2
+          name: "University of Galway",
+          city: "Galway",
+          state: "Connacht",
+          desc: "Provides an accredited ME in Electronic and Computer Engineering. World-renowned for embedded hardware design, signal processing, and direct partnerships with medical device and semiconductor corporations (€28,640/yr).",
+          img: uniImg2
         },
         {
-          "name": "Technological University Dublin",
-          "desc": "Technological University Dublin (TU Dublin) - MSc in Electronic and Communications Engineering, TU Dublin The program is advertised as a full-time Level 9 course, one year, starting in September 2026, with a published non-EU fee of €14,500 for 2026/27.",
-          "imgKey": "uniImg_Technological_University_Dublin_2_webp",
-          "imgIdentifier": "uniImg3",
-          "city": "Dublin, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg3
+          name: "Trinity College Dublin (TCD)",
+          city: "Dublin",
+          state: "Leinster",
+          desc: "Offers the prestigious Master's in Electronic Information Engineering. Located adjacent to Dublin's Silicon Docks, leading global research in communications networks and optical electronics (€27,780/yr).",
+          img: uniImg3
         }
       ]
     },
     {
-      "slot": "eligibility",
-      "eyebrow": "Admissions Criteria",
-      "title": "4.Eligibility to Study Electronics and Communication Engineering in Ireland",
-      "groups": [
+      slot: "eligibility",
+      eyebrow: "Admissions Criteria",
+      title: "Eligibility Criteria & Admission Requirements",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Applicants generally have a recognized-"
+          t: "p",
+          items: [
+            "Postgraduate ECE admissions evaluate an applicant's undergraduate mathematical, circuit theory, and telecommunications foundation.",
+            "Academic Entry Requirements for Indian Applicants:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Bachelor’s degree in Electronics and Communication Engineering",
-            "Electronic Engineering",
-            "Electrical Engineering",
-            "Communications Engineering"
+          t: "ul",
+          items: [
+            "Undergraduate Degree: Recognized 4-year Bachelor's degree (BE or BTech) in Electronics and Communication Engineering (ECE), Electronic Engineering, Electrical Engineering, Telecommunications, or Computer Engineering.",
+            "Academic Standing: Minimum Upper Second Class Honours equivalent (typically 60% to 65%+ aggregate, or 6.5 to 7.0+ CGPA out of 10 from a recognized university).",
+            "Prerequisite Knowledge: Demonstrated undergraduate mastery in circuit analysis, signals and systems, microprocessors, electromagnetic fields, and programming.",
+            "Related Disciplines: Graduates in Applied Physics, Instrumentation, or Computer Science may be considered if their transcripts demonstrate substantial electronic circuit preparation."
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Computer Engineering or a related field*.",
-            "Typical eligibility requirements are"
+          t: "p",
+          items: [
+            "English Language Competency Standards:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "An appropriate technical or engineering qualification.",
-            "Minimum entry standard of the university in academic performance.",
-            "Good knowledge of mathematics, electronics and engineering fundamentals.",
-            "English Proficiency if required by the university.",
-            "Other academic or professional evidence as required by the program."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "requirements",
-      "eyebrow": "Entry Requirements",
-      "title": "5. Admission Requirements for Electronics and Communication Engineering in Ireland",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Most universities assess academic qualifications, transcripts, English proficiency and the relevance of the applicant's previous studies.",
-            "Common requirements include:"
+          t: "ul",
+          items: [
+            "IELTS Academic: Overall band 6.5 (with no individual band below 6.0).",
+            "TOEFL iBT: Minimum total score of 88 to 92 (sub-scores 20+).",
+            "PTE Academic: Overall score of 63 to 65 (minimum 59 in communicative skills)."
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "A recognized bachelor's degree in an appropriate engineering discipline",
-            "Official academic transcripts and degree certificates.",
-            "Proof of English language competence, which may include IELTS, TOEFL or accepted equivalent where applicable.",
-            "A CV or resume if needed.",
-            "A statement of purpose or personal statement, if requested.",
-            "References or letters of recommendation where applicable. - A portfolio of relevant work or evidence of professional experience, where applicable."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "English language thresholds vary between universities and programs, and applicants should not assume that one IELTS score applies to every course."
+          t: "p",
+          items: [
+            "Required Application Documents:",
+            "• Consolidated Bachelor's degree certificate and semester mark sheets",
+            "• Valid international passport with at least 12 months validity",
+            "• Technical Statement of Purpose (SOP) articulating passion for telecommunications, embedded firmware, or RF systems",
+            "• Two academic or professional letters of recommendation",
+            "• Comprehensive CV detailing technical software/hardware skills (MATLAB, VHDL/Verilog, C/C++, ADS, LabVIEW) and engineering internships"
           ]
         }
       ]
     },
     {
-      "slot": "tuition",
-      "eyebrow": "Tuition & Living Costs",
-      "title": "6. Cost of Electronics and Communication Engineering Courses in Ireland",
-      "groups": [
+      slot: "costs",
+      eyebrow: "Tuition & Living Costs",
+      title: "Tuition Fees & Estimated Student Budget (2026–2027)",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "The total cost includes tuition fees, accommodation, food, transport, health insurance, study materials and other personal expenses.",
-            "Examples of tuition fees published for international students for the academic year 2026/27 are below:",
-            "TU Dublin — MSc Electronic and Communications Engineering* \\| €14,500",
-            "Trinity College Dublin — Master's in Electronic Information Engineering* \\| €27,780",
-            "University of Galway — ME Electronic and Computer Engineering* \\| €28,640",
-            "These are tuition figures, not all of the living expenses.",
-            "Other costs to include in your budget:",
-            "Rent and utilities*"
+          t: "p",
+          items: [
+            "Tuition fees for international non-EU postgraduate students for ECE Master's programs for the 2026/27 academic year include:"
+          ]
+        }
+      ],
+      table: {
+        caption: "Electronics & Communication PG Tuition Fees & Living Costs in Ireland (2026–2027)",
+        headers: ["Expense Category", "Estimated Cost", "Key Details & Notes"],
+        rows: [
+          [
+            "Technological University Dublin (TU Dublin)",
+            "€14,500 / year",
+            "MSc Electronic & Communications Engineering (full-time non-EU tuition)"
+          ],
+          [
+            "Trinity College Dublin (TCD)",
+            "€27,780 / year",
+            "Master's in Electronic Information Engineering (full-time non-EU)"
+          ],
+          [
+            "University of Galway",
+            "€28,640 / year",
+            "ME Electronic & Computer Engineering (includes student levy)"
+          ],
+          [
+            "Student Housing (Dublin)",
+            "€800 – €1,250 / month",
+            "On-campus student accommodation or private shared rental flats"
+          ],
+          [
+            "Student Housing (Galway)",
+            "€650 – €950 / month",
+            "Significantly more affordable housing outside the capital"
+          ],
+          [
+            "Food, Transit & Study Supplies",
+            "€350 – €500 / month",
+            "Groceries, heating, electricity, WiFi, and Student Leap Card"
+          ],
+          [
+            "IRP Card & Medical Insurance",
+            "€300 (IRP) + €180 – €300 (Insurance)",
+            "Mandatory annual immigration registration and private health coverage"
+          ]
+        ]
+      }
+    },
+    {
+      slot: "process",
+      eyebrow: "Step-by-Step Guide",
+      title: "Application & Visa Roadmap for Ireland",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Follow this structured 8-step roadmap to secure admission and your student visa for postgraduate Electronics & Communication Engineering in Ireland:"
+          ]
+        }
+      ],
+      steps: [
+        {
+          num: "1",
+          title: "Select Specialization Pathway",
+          desc: "Compare wireless communications, embedded systems, microelectronics, and signal processing tracks across TU Dublin, Trinity, and Galway."
+        },
+        {
+          num: "2",
+          title: "Verify Academic Eligibility",
+          desc: "Confirm your Bachelor's aggregate (minimum 60–65%) and satisfy English language test requirements (IELTS 6.5 with no band under 6.0)."
+        },
+        {
+          num: "3",
+          title: "Assemble Application Files",
+          desc: "Compile official degree transcripts, degree certificates, a tailored technical SOP, academic recommendation letters, and technical CV."
+        },
+        {
+          num: "4",
+          title: "Submit Online Applications",
+          desc: "Apply directly through individual university postgraduate portals early (applications open October to May for September start)."
+        },
+        {
+          num: "5",
+          title: "Accept Offer & Pay Deposit",
+          desc: "Upon receiving your conditional or unconditional offer, accept your seat and wire the required tuition deposit to secure enrollment."
+        },
+        {
+          num: "6",
+          title: "Demonstrate Proof of Funds",
+          desc: "Demonstrate readily available funding of at least €10,000 for living costs plus evidence of full first-year tuition fee settlement."
+        },
+        {
+          num: "7",
+          title: "Apply for Irish Student Visa (Stamp 2)",
+          desc: "Complete your online AVATS visa application, schedule your biometric appointment at VFS Global, and submit authenticated financial records."
+        },
+        {
+          num: "8",
+          title: "Relocate & Register with Immigration",
+          desc: "Travel to Ireland for campus orientation, finalize student accommodation, and book an appointment with immigration for your Irish Residence Permit (IRP)."
+        }
+      ]
+    },
+    {
+      slot: "accreditation",
+      eyebrow: "Professional Standards",
+      title: "Accreditation & Engineers Ireland Recognition",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Accreditation by Engineers Ireland validates that a postgraduate engineering curriculum satisfies international professional standards.",
+            "Accreditation Benefits & Global Mobility:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Cost of food and everyday living",
-            "- Public transportation",
-            "- Medical insurance",
-            "- Visa and immigration fees, if applicable",
-            "- Books, equipment and personal expenses"
+          t: "ul",
+          items: [
+            "Chartered Engineer (CEng) Educational Benchmark: Level 9 MEng/ME programs fulfill the complete educational prerequisite for Chartered Engineer status.",
+            "Washington Accord Signatory: Grants reciprocal professional recognition in India (NBA), the UK (IET), USA (IEEE/ABET), Australia, and Canada.",
+            "Semiconductor & Telecom Industry Standard: Leading multinational design houses and network operators actively target graduates of accredited engineering programs."
           ]
         }
       ]
     },
     {
-      "slot": "process",
-      "eyebrow": "Application Steps",
-      "title": "7. Admission Process for Electronics and Communication Engineering in Ireland",
-      "steps": [
+      slot: "careers",
+      eyebrow: "Career & Salaries",
+      title: "Career Opportunities & Post-Study Work Scheme in Ireland",
+      groups: [
         {
-          "step": "01",
-          "title": "The application process normally involves the following steps",
-          "desc": ""
-        }
-      ]
-    },
-    {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Recognition",
-      "title": "8. Do the immigration paperwork: If you are coming from another country,",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "check the latest Irish immigration rules and gather the documents you will need.",
-            "8\\. Accreditation and Recognition of Electronics and Communication Engineering in Ireland",
-            "Accreditation is important because it shows that an engineering program meets defined academic standards. However, recognition is subject to the qualification, program and professional requirements in question.",
-            "Students are advised to verify:"
+          t: "p",
+          items: [
+            "Ireland's booming telecommunications, semiconductor fabrication, and IoT sectors generate massive recruitment across multinational technology corporations, fabless chip designers, and engineering research centers.",
+            "Key Industry Roles for ECE Master's Graduates:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Whether the specific program is accredited and for which years of intake.",
-            "Relevant professional body or accreditation framework for the award.",
-            "If the program meets the educational requirements for a future professional engineering pathway.",
-            "If further qualifications or professional experience are required.",
-            "Engineers Ireland gives information on accredited engineering courses and professional recognition."
+          t: "ul",
+          items: [
+            "Electronics & PCB Hardware Design Engineer",
+            "Telecommunications & 5G/6G Wireless Network Engineer",
+            "Embedded Firmware & Microcontroller Engineer",
+            "Digital Signal Processing (DSP) & Algorithm Engineer",
+            "Radio Frequency (RF) & Antenna Systems Engineer",
+            "Semiconductor Hardware Validation & Test Engineer",
+            "IoT Systems Architect & Connected Device Engineer",
+            "R&D Engineer in National & Industrial Microelectronics Centers"
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Students should check the current listings and confirm the exact program title before assuming that all electronics-related masters degrees have the same accreditation status."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Career Outcomes",
-      "title": "9. Electronics and Communication Engineering in Ireland: Salary and Job Opportunities",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Graduates can pursue careers in electronics, telecommunications, embedded systems, automation, semiconductor related technologies, medical devices and engineering research.",
-            "The job market and salary you can command will depend on your technical expertise, experience, the employer, the location and the economy overall.",
-            "Possible areas of work:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "- Designer",
-            "Communications/Telecommunications Engineer",
-            "- Embedded Software Engineer",
-            "- Engineer in Signal Processing",
-            "- Hardware Development Engineer",
-            "- Test & Validation Engineer",
-            "- Wireless or RF Systems Engineer",
-            "- Research & Development Engineer",
-            "- Semiconductor or Electronics Systems Engineer"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Pay scales differ widely depending on the job and level of experience.",
-            "Entry-level graduates usually make less than experienced engineers and specialists."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Document Checklist",
-      "title": "10. Documents Needed for Studying Electronics and Communication Engineering in Ireland",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The checklist itself varies from university to university, but typically the applicants are required to submit:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "- Passport in order",
-            "Bachelor’s degree certificate or provisional certificate",
-            "*Academic transcripts and mark sheets.",
-            "- Results of English proficiency test, if applicable",
-            "- CV or resume when requested",
-            "- Statement of purpose/personal statement, as applicable",
-            "- Academic or work references, if requested",
-            "- Evidence of relevant work experience where relevant",
-            "- Certified translations for documents that are not accepted in original language",
-            "- Financial and immigration documentation required for the relevant visa or permit"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Some institutions may require additional documents or have specific verification procedures."
+          t: "p",
+          items: [
+            "Indicative Annual Gross Salaries in Ireland:",
+            "• Entry-Level Master's Graduate: €32,000 – €43,000 per year",
+            "• Experienced Electronics Engineer (3–5 years experience): €45,000 – €68,000 per year",
+            "• Senior Specialist / Principal RF/IC Design Lead: €68,000 – €90,000+ per year",
+            "2-Year Graduate Visa (Stamp 1G): Graduates of NFQ Level 9 Master's programs are entitled to 24 months of full-time, unrestricted work rights in Ireland, providing a direct bridge to Critical Skills Employment Permits."
           ]
         }
       ]
     }
   ],
-  "table": {
-    "title": "Estimated Cost of Studying Electronics and Communication Engineering (PG) in Ireland in Ireland (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (€ / EUR)",
-      "Details / Scope"
-    ],
-    "rows": [
-      [
-        "Undergraduate Degree (Annual)",
-        "€13,500 – €27,640 / year",
-        "Varies by institution ranking, laboratory facilities, and program"
-      ],
-      [
-        "Postgraduate Degree (Annual)",
-        "€15,000 – €28,640 / year",
-        "1-year intensive master's program or 2-year research degree"
-      ],
-      [
-        "Living Expenses (Dublin)",
-        "€1,000 – €1,400 / month",
-        "Includes student accommodation, meals, utilities, and public transit"
-      ],
-      [
-        "Living Expenses (Outside Dublin)",
-        "€800 – €1,100 / month",
-        "Cost of living in Cork, Galway, Limerick, or Maynooth"
-      ],
-      [
-        "Student Visa & IRP Card Fee",
-        "€300 / year",
-        "Mandatory Irish Residence Permit (IRP) registration fee"
-      ]
-    ]
-  },
-  "faqs": [
+  faqs: [
     {
-      "q": "Q1. Is Ireland a good place to do a postgraduate degree in Electronics and Communication Engineering?",
-      "a": "If you are looking for higher education in electronics, communications, embedded systems and related technologies then Ireland can be a good option. The best option depends on course content, cost, career goals and the recognition of the particular programme."
+      q: "Is Ireland a good destination for a Master's in Electronics and Communication Engineering?",
+      a: "Yes. Ireland is Europe's leading semiconductor and hardware tech hub, hosting major corporations like Intel, Analog Devices, and Qualcomm. Master's students benefit from advanced wireless network labs, 1-year programs, and a 2-year post-study work visa (Stamp 1G)."
     },
     {
-      "q": "Q2. What is the duration of a Post graduate course in this field?",
-      "a": "Most full-time master's programmes take approximately one year."
+      q: "What universities offer postgraduate Electronics and Communication courses in Ireland?",
+      a: "Leading universities include Technological University Dublin (TU Dublin) offering the MSc in Electronic and Communications Engineering (€14,500/yr), University of Galway offering the ME in Electronic and Computer Engineering, and Trinity College Dublin offering the Master's in Electronic Information Engineering."
     },
     {
-      "q": "Q3. What is the fee structure for foreign students?",
-      "a": "The published fees for the above-related programs for 2026/27 range from €14,500 at TU Dublin to €28,640 at University of Galway. Tuition fees differ between universities and courses, with living costs on top."
+      q: "What is the duration of an ECE Master's program in Ireland?",
+      a: "Most full-time taught Master's programs (MSc, ME) are 1 year in duration (90 ECTS credits), divided into two semesters of intensive modular coursework and a summer technical research thesis or industrial hardware design project."
     },
     {
-      "q": "Q4. What bachelor degree is suitable for admission?",
-      "a": "A Bachelor's degree in Electronics and Communication Engineering, Electronic Engineering, Electrical Engineering, Communications Engineering or a related discipline is usually relevant. Academic requirements vary at different universities."
+      q: "What are the tuition fees for ECE Master's programs in Ireland?",
+      a: "For the 2026/27 academic year, non-EU tuition fees range from €14,500 per year at TU Dublin to €27,780 at Trinity College Dublin and €28,640 at the University of Galway. Living expenses average €10,000 to €15,000 annually."
     },
     {
-      "q": "Q5. What career options do I have after graduation?",
-      "a": "Potential career paths include electronics design, telecommunications, embedded systems, hardware testing, signal processing, research and development . Your employment is subject to your skills, experience, the requirements of the employer and the applicable work-permit rules."
+      q: "What career opportunities are available after completing an ECE Master's in Ireland?",
+      a: "Graduates secure roles as electronics hardware design engineers, wireless network specialists, embedded firmware developers, RF test engineers, and semiconductor validation specialists with multinational telecom and electronics firms."
     },
     {
-      "q": "How can Edu Hawk worldwide Consultancy help me to study abroad?",
-      "a": "Edu Hawk worldwide allows students to find the right universities, get to know admission requirements, arrange application documents and plan their study-abroad journey. Students are responsible for checking academic, financial, immigration and licensing requirements with the appropriate official authority."
+      q: "How does EduHawk Worldwide assist students with ECE Master's admissions in Ireland?",
+      a: "EduHawk Worldwide provides expert counseling—from evaluating academic transcripts and selecting specialized wireless or semiconductor tracks to SOP crafting, scholarship applications, and complete Irish student visa (AVATS) filing."
     }
   ]
 };
 
 export default function ElectronicsCommunicationPGIreland() {
+  const images = {
+    hero: heroImg,
+    heroBg: heroBgImg,
+    side: sideImg,
+    ctaBg: ctaBgImg
+  };
+
   return (
     <AbroadCoursePage
       page={page}
@@ -436,8 +397,8 @@ export default function ElectronicsCommunicationPGIreland() {
       heroBgImg={heroBgImg}
       sideImg={sideImg}
       ctaBgImg={ctaBgImg}
-      showHeroStats={false}
-      seoPath="/study-abroad/ireland/pg/electronics-communication"
+      seoPath={page.slug}
+      images={images}
     />
   );
 }

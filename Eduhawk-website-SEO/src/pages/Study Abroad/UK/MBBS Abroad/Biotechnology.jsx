@@ -21,9 +21,7 @@ const page = {
   "keywords": "Study Biotechnology in the UK, Biotechnology in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "UK Study Biotechnology",
   "heroParas": [
-    "\"Biotechnology,\" a rapidly growing field, utilizes biology, chemistry, genetics, and technology to create products and processes that improve industrial production, agriculture, environmental sustainability, and human health.",
-    "The UK offers a huge range of undergraduate and postgraduate biotechnology courses for those seeking a career in biotechnology research, laboratory science, pharmaceutical development and life sciences.",
-    "Edu Hawk Worldwide Consultancy helps students to get prepared for their international education journey, to understand university admission requirements, and to look into international study options."
+    "\"Biotechnology,\" a rapidly growing field, utilizes biology, chemistry, genetics, and technology to create products and processes that improve industrial production, agriculture, environmental sustainability, and human health."
   ],
   "overview": [
     "\"Biotechnology,\" a rapidly growing field, utilizes biology, chemistry, genetics, and technology to create products and processes that improve industrial production, agriculture, environmental sustainability, and human health.",

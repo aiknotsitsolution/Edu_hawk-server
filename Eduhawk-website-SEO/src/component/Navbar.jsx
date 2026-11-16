@@ -14,6 +14,8 @@ import Eduhawk from "../assets/Eduhawk.webp"; // ← adjust path if needed
     "Finland",
     "Italy",
     "Spain",
+    "Switzerland",
+    "Mauritius",
     "Other",
   ];
 
@@ -256,6 +258,44 @@ const Navbar = () => {
       return `/study-abroad/germany/${path}`;
     }
 
+        if (selectedCountry === "Switzerland") {
+      if (prefix === "/courses/ug") {
+        if (path === "engineering") return "/study-abroad/switzerland/ug/engineering";
+        return `/study-abroad/switzerland/ug/${path}`;
+      }
+      if (prefix === "/courses/pg") {
+        if (path === "engineering") return "/study-abroad/switzerland/pg/engineering";
+        return `/study-abroad/switzerland/pg/${path}`;
+      }
+      if (path === "dentistry") return "/study-abroad/switzerland/dentistry";
+      if (path === "nursing") return "/study-abroad/switzerland/nursing";
+      if (path === "pharmacy") return "/study-abroad/switzerland/pharmacy";
+      if (path === "physiotherapy") return "/study-abroad/switzerland/physiotherapy";
+      if (path === "public-health") return "/study-abroad/switzerland/public-health";
+      if (path === "biotechnology") return "/study-abroad/switzerland/biotechnology";
+      if (path === "engineering") return "/study-abroad/switzerland/ug/engineering";
+      return `/study-abroad/switzerland/${path}`;
+    }
+
+    if (selectedCountry === "Mauritius") {
+      if (prefix === "/courses/ug") {
+        if (path === "engineering") return "/study-abroad/mauritius/ug/engineering";
+        return `/study-abroad/mauritius/ug/${path}`;
+      }
+      if (prefix === "/courses/pg") {
+        if (path === "engineering") return "/study-abroad/mauritius/pg/engineering";
+        return `/study-abroad/mauritius/pg/${path}`;
+      }
+      if (path === "dentistry") return "/study-abroad/mauritius/dentistry";
+      if (path === "nursing") return "/study-abroad/mauritius/nursing";
+      if (path === "pharmacy") return "/study-abroad/mauritius/pharmacy";
+      if (path === "physiotherapy") return "/study-abroad/mauritius/physiotherapy";
+      if (path === "public-health") return "/study-abroad/mauritius/public-health";
+      if (path === "biotechnology") return "/study-abroad/mauritius/biotechnology";
+      if (path === "engineering") return "/study-abroad/mauritius/ug/engineering";
+      return `/study-abroad/mauritius/${path}`;
+    }
+
 
 
 
@@ -301,25 +341,29 @@ const Navbar = () => {
     { name: "Executive MBA", path: "executive-mba" },
     { name: "International Business", path: "international-business" },
     { name: "Marketing Management", path: "marketing-management" },
-    { name: "Human Resource Management", path: "hr-management" },
     { name: "Finance & Accounting", path: "accounting-finance" },
   ];
 
   const getBusinessCoursesForCountry = (country) => {
+    // USA has both Marketing Management and Finance & Accounting
     if (country === "USA") {
-      return businessCourses.filter(
-        (c) => c.path !== "hr-management" && c.path !== "accounting-finance"
-      );
+      return businessCourses;
     }
-    if (country === "Finland") {
-      return businessCourses.filter(
-        (c) =>
-          c.path !== "marketing-management" &&
-          c.path !== "hr-management" &&
-          c.path !== "accounting-finance"
-      );
+    // UK, Canada, Australia, Germany, France, Ireland have Marketing Management, but NOT Finance & Accounting
+    if (
+      country === "UK" ||
+      country === "Canada" ||
+      country === "Australia" ||
+      country === "Germany" ||
+      country === "France" ||
+      country === "Ireland"
+    ) {
+      return businessCourses.filter((c) => c.path !== "accounting-finance");
     }
-    return businessCourses;
+    // Italy, Spain, Finland and others have neither Marketing Management nor Finance & Accounting
+    return businessCourses.filter(
+      (c) => c.path !== "marketing-management" && c.path !== "accounting-finance"
+    );
   };
 
   const programsList = [
@@ -339,11 +383,6 @@ const Navbar = () => {
       icon: "M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z",
     },
     {
-      name: "Working Professionals",
-      path: "/study-abroad/working-professionals",
-      icon: "M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z",
-    },
-    {
       name: "News",
       path: "/blog",
       icon: "M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z",
@@ -351,9 +390,6 @@ const Navbar = () => {
   ];
 
   const getProgramsForCountry = (country) => {
-    if (country === "USA" || country === "Finland") {
-      return programsList.filter((item) => item.name !== "Working Professionals");
-    }
     return programsList;
   };
 
@@ -1599,14 +1635,7 @@ const Navbar = () => {
                     >
                       Winter Courses
                     </a>
-                    {selectedCountry !== "USA" && selectedCountry !== "Finland" && (
-                      <a
-                        href={getCourseHref("working-professionals", "/study-abroad")}
-                        className="block py-2.5 px-8 text-[#2F327D]"
-                      >
-                        Working Professionals
-                      </a>
-                    )}
+
                     <a
                       href="/blog"
                       className="block py-2.5 px-8 text-[#2F327D]"

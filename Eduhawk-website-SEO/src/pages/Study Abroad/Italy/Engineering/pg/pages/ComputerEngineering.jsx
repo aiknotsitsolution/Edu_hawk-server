@@ -16,12 +16,12 @@ const page = {
   "slug": "comp_engg_pg",
   "title": "Computer Engineering - PG in Italy for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Computer Engineering - PG in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
-  "keywords": "Top 6 SEO Keywords",
+  "keywords": "Computer Engineering in Italy, Master's in Computer Engineering Italy, Study Computer Engineering Italy, Computer Engineering Fees in Italy",
   "introTitle": "Computer Engineering in Italy for Indian Students",
-  "heroParas": [
-    "Yes. Indian students with relevant bachelor's degrees can apply for admission to the university if they meet its academic, language and programme-specific admission requirements."
+  heroParas: [
+    "A Master’s in Computer Engineering in Italy combines computer architecture, embedded hardware design, artificial intelligence, and cybersecurity in Europe's top-tier technical universities."
   ],
-  "overview": [
+  overview: [
     "Yes. Indian students with relevant bachelor's degrees can apply for admission to the university if they meet its academic, language and programme-specific admission requirements."
   ],
   "level": "Postgraduate",
@@ -145,19 +145,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "After the completion of the course, graduates can apply for the below job roles - Software Engineer Computer Engineer AI Engineer Embedded Systems Engineer Cybersecurity Engineer Cloud Engineer Data Engineer Career opportunities may depend on technical skills, experience, language proficiency and employer requirements.",
-            "Top 6 SEO Keywords"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Computer Engineering in Italy for Indian Students",
-            "Master's in Computer Engineering in Italy",
-            "Computer Engineering Courses in Italy",
-            "Top Italian Universities for Computer Engineering",
-            "Computer Engineering Admission Requirements in Italy",
-            "Cost of Studying Computer Engineering in Italy"
+            "After the completion of the course, graduates can apply for the below job roles - Software Engineer Computer Engineer AI Engineer Embedded Systems Engineer Cybersecurity Engineer Cloud Engineer Data Engineer Career opportunities may depend on technical skills, experience, language proficiency and employer requirements."
           ]
         }
       ]
@@ -268,7 +256,34 @@ const page = {
       "title": "Common Questions Regarding Computer Engineering in Italy",
       "groups": []
     }
-  ]
+  ],
+  faqs: [
+    {
+        "q": "Is Computer Engineering taught in English in Italy?",
+        "a": "Yes. Universities like Politecnico di Milano, Politecnico di Torino, and University of Padua offer English-taught Master of Science degrees in Computer Engineering."
+    },
+    {
+        "q": "What is the duration of a Master's in Computer Engineering in Italy?",
+        "a": "The programme requires 2 years of full-time academic study totaling 120 ECTS credits."
+    },
+    {
+        "q": "What are the tuition fees for Computer Engineering in Italy?",
+        "a": "Annual tuition at public universities is between €1,000 and €3,800, with income-based fee reductions and full DSU scholarships available."
+    },
+    {
+        "q": "What is the difference between Computer Science and Computer Engineering in Italy?",
+        "a": "Computer Engineering integrates computer hardware, digital electronic design, and embedded systems alongside advanced software engineering, whereas Computer Science emphasizes algorithms and software systems."
+    },
+    {
+        "q": "What are the admission requirements for Indian students?",
+        "a": "A Bachelor's degree in Computer Engineering, Electrical Engineering, or related technical disciplines, strong academic marks, and English certification (IELTS 6.5+)."
+    },
+    {
+        "q": "What career paths are available after graduation?",
+        "a": "Graduates work as embedded systems engineers, AI hardware designers, robotics specialists, network architects, and cybersecurity analysts across Europe."
+    }
+],
+  faqTitle: "Frequently Asked Questions About Computer Engineering PG in Italy"
 };
 
 export default function ComputerEngineeringPGItaly() {

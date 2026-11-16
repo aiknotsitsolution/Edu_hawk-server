@@ -13,428 +13,374 @@ import uniImg2 from "../../../../Images/Abroad/Ireland/MBA/University_College_Du
 import uniImg3 from "../../../../Images/Abroad/Ireland/MBA/Dublin_City_University.webp";
 
 const page = {
-  "name": "MBA in Ireland",
-  "country": "Ireland",
-  "slug": "mba",
-  "title": "Study MBA in Ireland for Indian Students | Edu-Hawk Worldwide",
-  "description": "Complete guide to MBA in Ireland for Indian students: Top Irish universities, eligibility criteria, tuition fees (€13,500 – €28,640 / year), scholarships, and 2-year post-study work visa (Stamp 1G).",
-  "keywords": "Study MBA in Ireland for Indian Students, Top Universities for MBA in Ireland, Full-Time MBA Courses in Ireland for International Students, Executive MBA Programmes in Ireland, MBA Eligibility Requirements in Ireland, MBA Admission Requirements for Indian Students, MBA Tuition Fees in Ireland 2026/27, Cost of Studying MBA in Ireland for International Students, IELTS Requirements for MBA Admission in Ireland, MBA Scholarships for International Students in Ireland",
-  "introTitle": "MBA IN IRELAND",
-  "heroParas": [
-    "MBA in Ireland",
-    "Ireland is a favored destination for international students looking to develop business knowledge, leadership skills and international career opportunities. An MBA in Ireland* provides students with the opportunity to study strategic management, finance, marketing, entrepreneurship and organizational leadership in an international business environment."
+  name: "MBA in Ireland",
+  country: "Ireland",
+  slug: "study-abroad/ireland/mba",
+  title: "Study MBA in Ireland for Indian Students | Edu-Hawk Worldwide",
+  description: "Complete guide to Master of Business Administration (MBA) in Ireland for Indian students: Top Triple Crown business schools (Trinity, Smurfit, DCU), eligibility, work experience criteria, tuition fees (€18,300 – €37,300), executive salaries, and 2-year post-study work visa (Stamp 1G).",
+  keywords: "Study MBA in Ireland for Indian Students, Top Universities for MBA in Ireland, Full-Time MBA Courses in Ireland for International Students, Executive MBA Programmes in Ireland, MBA Eligibility Requirements in Ireland, MBA Admission Requirements for Indian Students, MBA Tuition Fees in Ireland 2026/27, Cost of Studying MBA in Ireland for International Students, IELTS Requirements for MBA Admission in Ireland, MBA Scholarships for International Students in Ireland, MBA Jobs and Career Opportunities in Ireland, MBA Graduate Salary and Career Opportunities in Ireland",
+  introTitle: "MBA IN IRELAND",
+  heroParas: [
+    "An MBA in Ireland offers high-potential professionals immersive strategic leadership, international business development, and innovation mastery within Europe's primary corporate gateway. Taught by world-ranked, triple-accredited business faculties (AMBA, AACSB, EQUIS) across 1-year intensive Full-Time and 2-year Executive MBA formats, candidates engage in live company consulting projects with Fortune 500 multinationals headquartered in Dublin and benefit from Ireland's 2-year Stamp 1G post-study work authorization to accelerate executive careers."
   ],
-  "overview": [
-    "MBA in Ireland",
-    "Ireland is a favored destination for international students looking to develop business knowledge, leadership skills and international career opportunities. An MBA in Ireland* provides students with the opportunity to study strategic management, finance, marketing, entrepreneurship and organizational leadership in an international business environment."
+  overview: [
+    "Pursuing an MBA in Ireland is a transformative career milestone that elevates mid-career professionals, entrepreneurs, and managers into strategic executive leadership. Ireland’s uniquely international corporate landscape—serving as the European operational headquarters for over 1,000 global multinationals across software, fintech, pharmaceuticals, medical devices, and management consulting—provides an unmatched ecosystem for experiential management learning.",
+    "Irish MBA programs are fully certified at NFQ Level 9 (Master's level, 90 ECTS) on Ireland's National Framework of Qualifications. Renowned business schools—such as Trinity Business School, UCD Michael Smurfit Graduate Business School, DCU Business School, and University of Galway—deliver intensive curricula spanning corporate financial architecture, data-driven managerial economics, digital transformation strategy, global supply chains, and executive leadership diagnostics.",
+    "Non-EU international MBA students holding an Irish Stamp 2 student visa are entitled to work part-time for up to 20 hours per week during academic semesters and up to 40 hours per week during official vacation periods. Upon successful graduation, all NFQ Level 9 MBA holders are eligible for 24 months (2 full years) of unrestricted employment authorization under the Third Level Graduate Scheme (Stamp 1G), granting direct access to Ireland's senior executive recruitment market and seamless transitions to Critical Skills Employment Permits."
   ],
-  "level": "Master of Business Administration (Full-Time / Executive MBA)",
-  "crumb": "Management / MBA",
-  "stats": [
+  level: "Master of Business Administration (MBA, NFQ Level 9)",
+  crumb: "Management / MBA",
+  stats: [
     {
-      "label": "Degree Choices",
-      "value": "Master of Business Administration (Full-Time / Executive MBA)"
+      label: "Degree Choices",
+      value: "Full-Time MBA & Executive MBA (NFQ Level 9)"
     },
     {
-      "label": "Course Duration",
-      "value": "1 Year (Full-Time) / 2 Years (Executive)"
+      label: "Course Duration",
+      value: "1 Year (Full-Time) / 2 Years (Executive)"
     },
     {
-      "label": "Top Institutions",
-      "value": "Trinity College Dublin, University College Dublin"
+      label: "Top Institutions",
+      value: "Trinity College, UCD Smurfit, DCU, Galway"
     },
     {
-      "label": "Post-Study Work",
-      "value": "2 Years Third Level Graduate Scheme (Stamp 1G)"
+      label: "Post-Study Work",
+      value: "2 Years Third Level Graduate Scheme (Stamp 1G)"
     }
   ],
-  "sections": [
+  sections: [
     {
-      "slot": "why",
-      "eyebrow": "Why Study in Ireland",
-      "title": "1. Why study MBA in Ireland?",
-      "groups": [
+      slot: "why",
+      eyebrow: "Why Study in Ireland",
+      title: "Why Study an MBA in Ireland?",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Studying an MBA in Ireland can offer a wide range of academic and career benefits."
+          t: "p",
+          items: [
+            "Ireland is an exceptional destination for executive business education, combining global economic integration with prestigious, internationally accredited academic institutions. Dublin and regional commercial centers provide direct access to senior decision-makers across global industries.",
+            "Key strategic advantages of pursuing an MBA in Ireland include:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "- International business environment: Ireland has a large number of multinational companies in technology, finance, pharmaceuticals, consulting, and other sectors.",
-            "- Leadership development: MBA programmes emphasize decision-making, strategic thinking, communication, problem-solving and people management.",
-            "- Industry exposure: Students may get to experience business projects, networking events, guest lectures, employer engagement and career development services depending on the university.",
-            "- Flexible study options: Universities provide full-time and part-time MBA programmes, including Executive MBA programs for experienced professionals.",
-            "- International networking: Students get the chance to connect with classmates and professionals from different countries and industries.",
-            "- Career development: An MBA degree can equip experienced professionals for roles in general management, consulting, operations, finance, marketing and business strategy.",
-            "- Post-study Opportunities: Under the immigration rules in force, international graduates who satisfy the eligibility criteria may be eligible to apply for Ireland’s Third Level Graduate Programme."
+          t: "ul",
+          items: [
+            "Triple Crown Accreditation: Trinity Business School and UCD Smurfit hold elite Triple Accreditation (AACSB, AMBA, EQUIS), placing them among the top 1% of business schools globally.",
+            "Multinational Corporate Proximity: Direct recruitment channels into European headquarters of Google, Meta, Microsoft, Apple, Intel, Stripe, Pfizer, Boston Scientific, and McKinsey.",
+            "Accelerated 1-Year Format: Most full-time Irish MBA programs are completed in just 12 months, minimizing opportunity costs and maximizing return on investment (ROI).",
+            "Action-Learning Projects: Embedded company consulting projects where student teams solve live strategic, commercial, and financial dilemmas for multinational partner enterprises.",
+            "Executive Leadership Coaching: Dedicated 1-on-1 executive mentoring, communication workshops, board-level negotiation simulations, and 360-degree leadership assessments.",
+            "Two-Year Post-Study Work Visa (Stamp 1G): Immediate 24-month unrestricted full-time work authorization in Ireland following graduation."
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Edu Hawk worldwide study abroad guidance helps students to explore these opportunities and understand what it takes to pursue education overseas."
+          t: "p",
+          items: [
+            "EduHawk Worldwide Consultancy assists MBA candidates with profile benchmarking, scholarship advisory, strategic essay and resume editing, admissions interview prep, and end-to-end Irish visa (Stamp 2) processing."
           ]
         }
       ]
     },
     {
-      "slot": "courses",
-      "eyebrow": "Degrees & Programs",
-      "title": "2. MBA Programs in Ireland",
-      "groups": [
+      slot: "courses",
+      eyebrow: "Degrees & Programs",
+      title: "MBA Program Structures & Specializations in Ireland",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "MBA programs in Ireland are postgraduate qualifications to develop business and management skills. Many specialized master's degrees don't have as strong a focus on leadership, business strategy and applying management concepts to real-world challenges as an MBA does.",
-            "Here are a few popular MBA options in Ireland",
-            "MBA (Full Time)",
-            "A full-time MBA is a great fit for professionals who are ready to commit to their studies and career development. Length of program varies depending on the university, but many full-time MBAs are designed to be completed in around one year.",
-            "Executive MBA",
-            "The Executive MBA in Ireland is aimed at experienced professionals, managers and business leaders who want to develop advanced leadership skills while continuing to work. These programs are generally offered on a part-time basis.",
-            "Entrepreneurial Ventures and Innovation",
-            "If you’re an MBA student looking to start or expand a business, you’ll want to look for programs that include modules on entrepreneurship, innovation, business planning and venture development."
+          t: "p",
+          items: [
+            "Irish business schools offer diverse MBA formats tailored to full-time career accelerators and practicing executives balancing professional obligations."
+          ]
+        },
+        {
+          t: "h4",
+          text: "Full-Time MBA (NFQ Level 9 – 1 Year Intensive, 90 ECTS)"
+        },
+        {
+          t: "ul",
+          items: [
+            "Designed for ambitious professionals with 3 to 7+ years of experience ready for complete immersion into leadership, strategy, and corporate transformation.",
+            "Core Modules: Strategic Management, Financial Reporting & Analysis, Corporate Finance, Strategic Marketing, Operations & Supply Chain Design, Leading People & Organizations, Business Economics, and Business Analytics.",
+            "Elective Tracks: Venture Capital & Private Equity, Digital Business Models, Sustainable Finance & ESG, Global Brand Management, and Artificial Intelligence for Business Leaders.",
+            "Company Consulting Project: A mandatory capstone project requiring student consulting teams to deliver actionable strategic recommendations to client multinational firms."
+          ]
+        },
+        {
+          t: "h4",
+          text: "Executive MBA (NFQ Level 9 – 2 Years Part-Time / Modular)"
+        },
+        {
+          t: "ul",
+          items: [
+            "Tailored for senior managers, directors, and business owners with 5 to 15+ years of managerial experience seeking to ascend to C-suite roles.",
+            "Modular Format: Delivered through bi-weekly weekend blocks or monthly intensive modules, allowing international candidates to study while maintaining professional responsibilities.",
+            "Focus on enterprise-wide corporate governance, strategic mergers & acquisitions (M&A), international market expansion, and organizational change leadership."
           ]
         }
       ]
     },
     {
-      "slot": "universities",
-      "eyebrow": "Top Institutions",
-      "title": "3. Top Universities to study MBA in Ireland",
-      "unis": [
+      slot: "eligibility",
+      eyebrow: "Eligibility Criteria",
+      title: "Eligibility Criteria for MBA Programs in Ireland",
+      groups: [
         {
-          "name": "Trinity College Dublin",
-          "desc": "1. Trinity College Dublin - Trinity Business School offers a Full-Time MBA and flexible or Executive MBA options. Its full-time program is designed for professionals with work experience who want to improve their management and leadership skills.",
-          "imgKey": "uniImg_Trinity_College_Dublin_webp",
-          "imgIdentifier": "uniImg1",
-          "city": "Dublin, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg1
+          t: "p",
+          items: [
+            "Admissions to Irish MBA programs are selective, evaluating leadership potential, professional accomplishments, and academic capability."
+          ]
         },
         {
-          "name": "University College Dublin",
-          "desc": "2. Smurfit Graduate Business School, University College Dublin - The UCD Smurfit Graduate Business School is another option for those who want to study postgraduate business in Ireland. Potential students should check the format of the MBA available, the admission criteria, work experience expectations and fees directly with the university.",
-          "imgKey": "uniImg_University_College_Dublin_webp",
-          "imgIdentifier": "uniImg2",
-          "city": "Dublin, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg2
+          t: "h4",
+          text: "Academic & Professional Prerequisites"
         },
         {
-          "name": "Dublin City University",
-          "desc": "1. Trinity College Dublin - Trinity Business School offers a Full-Time MBA and flexible or Executive MBA options. Its full-time program is designed for professionals with work experience who want to improve their management and leadership skills.",
-          "imgKey": "uniImg_Dublin_City_University_webp",
-          "imgIdentifier": "uniImg3",
-          "city": "Dublin, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg3
-        }
-      ]
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Admissions Criteria",
-      "title": "4. Eligibility for MBA in Ireland",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "MBA entry requirements in Ireland will vary depending on the university and program. MBA courses usually require that applicants have some relevant professional experience, unlike many entry-level master’s degrees.",
-            "Typical requirements are:",
-            "Academic qualifications",
-            "Applicants normally need to hold a recognised bachelor’s degree or an accepted equivalent qualification. Depending on the program, some universities may consider applicants with professional qualifications or a strong business background.",
-            "English language proficiency",
-            "International applicants may need to demonstrate their proficiency in English by taking a recognized English-language qualification such as IELTS, TOEFL, PTE Academic or an alternative accepted qualification. Required scores vary by university and program.",
-            "GMAT / GRE",
-            "Some MBA programs require a GMAT, GMAT Focus Edition, GRE or Executive Assessment score. Others do not require a test as a standard part of the initial application but may ask for one during the assessment process.",
-            "Professional Accomplishments",
-            "Universities may take into account career progression, leadership responsibilities, professional achievements, entrepreneurial experience and future career goals."
+          t: "ul",
+          items: [
+            "A recognized undergraduate Bachelor's degree (NFQ Level 8 equivalent) with a minimum score of Second Class Honours (typically 60%–65%+ or CGPA 6.5/10.0).",
+            "Professional Experience: A minimum of 3 to 5 years of verified, full-time, professional or managerial post-graduation work experience (minimum 5+ years for Executive MBA programs).",
+            "Demonstrated career progression, management responsibility, budgetary oversight, or entrepreneurial achievements.",
+            "English Language Proficiency: Minimum IELTS Academic overall score of 7.0 (with no individual band below 6.5), TOEFL iBT score of 100, or PTE Academic score of 68.",
+            "GMAT / GRE Examination: Many top business schools (such as UCD Smurfit or Trinity) may request a GMAT (typically 600–650+) or GRE equivalent; however, waivers are frequently granted based on substantial executive experience, quantitative academic background, or strong performance on in-house diagnostic evaluations.",
+            "Admissions Interview: Shortlisted candidates must successfully complete an in-depth interview with the MBA Admissions Board assessing motivation, leadership attributes, and cohort contribution."
           ]
         }
       ]
     },
     {
-      "slot": "requirements",
-      "eyebrow": "Entry Requirements",
-      "title": "5. MBA Admission Requirements in Ireland",
-      "groups": [
+      slot: "admission",
+      eyebrow: "Admission Requirements",
+      title: "MBA Application & Dossier Checklist",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Students are advised to review the admission requirements of their selected MBA programme prior to applying.",
-            "Typical requirements include:"
+          t: "p",
+          items: [
+            "Preparing an outstanding MBA application requires comprehensive documentation reflecting professional trajectory and leadership accomplishments:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "- Recognized bachelor’s degree or an accepted equivalent qualification.",
-            "- Relevant professional or managerial experience where necessary.",
-            "- Degree certificates and academic transcripts.",
-            "- A current CV or résumé outlining work history and career development.",
-            "- Statement of purpose, personal statement or application essays, if applicable.",
-            "- Academic or professional references.",
-            "- Proof of English language ability where applicable.",
-            "- GMAT, GRE or other entrance test scores if required.",
-            "- Interview or video assessment, where appropriate."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "tuition",
-      "eyebrow": "Tuition & Living Costs",
-      "title": "6. Cost of MBA Study in Ireland",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The total cost of an MBA in Ireland comprises tuition fees, accommodation, food, transport, health insurance, study materials and other personal expenses.",
-            "MBA tuition fees",
-            "Examples of fees published by selected institutions include the following. They are not a like-for-like comparison as the duration of the program, the delivery format and student fee category are different.",
-            "Trinity College Dublin \\| Full-Time MBA: Tuition €37,300",
-            "University of Galway MBA: €18,300 per year for non-EU students, 2026/27",
-            "TU Dublin \\| Part-time MBA: Total published EU fee of €25,000 for the two-year programme \\|",
-            "University College Cork \\| Executive MBA: €16,000 published EU fee for 2026/27, part-time over two years",
-            "Costs of living",
-            "Cost of living in Ireland depends on the city, type of accommodation and individual spending habits. Dublin is an expensive city, particularly if you are looking for somewhere to stay. Students should prepare a realistic monthly budget including rent, utilities, groceries, transport, mobile service and personal expenses.",
-            "Other costs to take into account are:"
-          ]
+          t: "h4",
+          text: "Required Application Dossier"
         },
         {
-          "t": "ul",
-          "items": [
-            "- Visa and immigration registration fees, where applicable.",
-            "- Medical insurance.",
-            "*Airfare and initial moving expenses",
-            "- Books, software and course material",
-            "- MBA application fees and admission tests (if applicable)."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Scholarships and financial support",
-            "Some universities offer MBA scholarships, bursaries, merit-based awards, or other financial assistance. Eligibility, availability, and amounts vary. Candidates should check scholarship options for their program of choice and apply for scholarships before respective deadlines."
+          t: "ul",
+          items: [
+            "Valid international passport copy with at least 12 months validity remaining.",
+            "Official undergraduate Bachelor's degree certificate and consolidated marksheets/transcripts.",
+            "Updated Executive Curriculum Vitae (CV) highlighting managerial responsibilities, direct reports, project milestones, and commercial achievements.",
+            "Leadership Statement of Purpose (SOP) and application essays detailing career progression, executive aspirations, and reasons for choosing an Irish MBA.",
+            "Two Professional Letters of Recommendation (LORs)—at least one from a current or former direct supervisor or senior corporate executive.",
+            "Official English language proficiency test scorecard (IELTS, TOEFL, or PTE).",
+            "Official GMAT / GRE scorecard (if required or submitting for merit scholarship evaluation).",
+            "Proof of financial maintenance and liquid funds (€10,000–€12,000 liquid funds) for the Irish student visa application."
           ]
         }
       ]
     },
     {
-      "slot": "process",
-      "eyebrow": "Application Steps",
-      "title": "7. Ireland MBA Admission Procedure",
-      "steps": [
+      slot: "accreditation",
+      eyebrow: "Accreditation & Standards",
+      title: "MBA Accreditation & Global Standing in Ireland",
+      groups: [
         {
-          "step": "01",
-          "title": "Step 01",
-          "desc": "The MBA application process in Ireland generally comprises the following steps."
-        },
-        {
-          "step": "02",
-          "title": "Step 1",
-          "desc": "Explore MBA programs"
-        },
-        {
-          "step": "03",
-          "title": "Step 2",
-          "desc": "Check if you’re eligible"
-        },
-        {
-          "step": "04",
-          "title": "Step 3",
-          "desc": "Get your paperwork together"
-        },
-        {
-          "step": "05",
-          "title": "Step 05",
-          "desc": "Step"
-        },
-        {
-          "step": "06",
-          "title": "Step 5",
-          "desc": "Conduct an interview or assessment"
-        },
-        {
-          "step": "07",
-          "title": "Step 6",
-          "desc": "Accept and review the offer"
-        },
-        {
-          "step": "08",
-          "title": "Step 7",
-          "desc": "Arrange for funding and immigration needs"
-        },
-        {
-          "step": "09",
-          "title": "Step 8",
-          "desc": "Get ready to enroll"
-        }
-      ]
-    },
-    {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Recognition",
-      "title": "8. MBA Accreditation & Recognition in Ireland",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "When choosing a MBA programme, accreditation and recognition are important as they allow applicants to judge the quality and standing of a business school.",
-            "Before you register, please make sure you:"
+          t: "p",
+          items: [
+            "Accreditation represents the definitive international benchmark of MBA academic rigor, teaching excellence, and global employer value.",
+            "Key accreditation standards include:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "- Recognition of awarding institution: Confirm that the university/institution is recognized and that the program leads to the qualification stated.",
-            "- National qualifications framework: An Irish MBA is typically a Level 9 postgraduate qualification on the National Framework of Qualifications, but applicants should verify the level of their particular program.",
-            "- Professional accreditation: Look for relevant business-school or MBA accreditations, such as Association of MBAs (AMBA), AACSB or EQUIS, as appropriate.",
-            "- Programme-specific information: Accreditation may be for a specific school, program or time frame, so check the specific scope and current status rather than the general institutional claim.",
-            "- International recognition: If you plan to work or study further outside of Ireland, check the qualification’s recognition with the relevant employers, professional bodies or educational institutions."
+          t: "ul",
+          items: [
+            "Triple Crown Accreditation: UCD Smurfit and Trinity Business School hold accreditation from all three global quality agencies: AACSB (USA), AMBA (UK), and EQUIS (EFMD, Europe).",
+            "Association of MBAs (AMBA): Accredits the MBA programs at Trinity, UCD, University of Galway, and TU Dublin, ensuring global curriculum standards and lifelong membership in the international AMBA network.",
+            "AACSB International: DCU Business School, Trinity, and UCD hold AACSB accreditation, confirming world-class business faculty, research impact, and rigorous executive training.",
+            "Financial Times & Economist Rankings: UCD Smurfit and Trinity MBA programs are consistently ranked in the Financial Times Global Top 100 MBA rankings."
           ]
         }
       ]
     },
     {
-      "slot": "careers",
-      "eyebrow": "Career Outcomes",
-      "title": "9. Job Opportunities and Salary after MBA from Ireland",
-      "groups": [
+      slot: "careers",
+      eyebrow: "Career Outcomes",
+      title: "Job Opportunities & Salary Outlook After an MBA in Ireland",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Studying a MBA in Ireland can help with career progression in a variety of business and management areas. However, the qualification does not guarantee a specific job title, salary or promotion. Outcomes depend on prior experience, industry, employer, location, specialist skills and work authorization.",
-            "Common career opportunities",
-            "Graduates with a MBA degree can seek jobs such as:"
+          t: "p",
+          items: [
+            "An MBA from an accredited Irish business school serves as a catalyst for significant career advancement, enabling graduates to pivot industries, enter management consulting, or assume executive leadership roles in multinational corporations.",
+            "Indicative annual salary scales for MBA graduates in Ireland (2026/2027 market benchmarks):"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Business Development Executive",
-            "- Consultant in Business",
-            "- Project lead",
-            "- Operations Lead",
-            "*Marketing Manager",
-            "- Strategy Lead",
-            "*Commercial and Financial Manager",
-            "- Product Manager",
-            "- Consultant, Management",
-            "- Managing Director",
-            "- Business Owner/Entrepreneur"
+          t: "ul",
+          items: [
+            "Management Consultant / Strategy Associate: €55,000 – €90,000+ per year.",
+            "Senior Business Development Manager / Commercial Lead: €50,000 – €80,000 per year.",
+            "Operations Director / Supply Chain Lead: €55,000 – €85,000 per year.",
+            "Corporate Finance / M&A Manager: €60,000 – €95,000+ per year.",
+            "Product Manager / Digital Strategy Lead: €55,000 – €85,000 per year.",
+            "Senior Vice President / Managing Director / C-Suite Executive: €85,000 – €130,000+ per year."
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Senior leadership roles. Experienced professionals may also pursue a MBA degree to prepare for senior leadership roles. However, executive positions typically require a strong record of relevant work experience.",
-            "Salary expectation after MBA",
-            "There is no average salary for MBA graduates in Ireland. Compensation varies greatly depending on the role, employer and professional seniority. These are general planning estimates for applicable business roles, not guaranteed salaries for MBA graduates.",
-            "Business analyst or entry-level business role \\| €35,000-€50,000",
-            "Business development/project manager \\| €45,000-€70,000",
-            "Operations or marketing manager \\| €50,000-€80,000",
-            "Strategy or management consultant \\| €55,000-€90,000+",
-            "Senior management or director-level position \\| €80,000–€120,000+",
-            "The ranges shown are indicative only and may not reflect current offers in all sectors. Senior jobs usually require a few years of relevant experience beyond the MBA. Does not include bonuses, benefits and variable compensation."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Document Checklist",
-      "title": "10. Documents Required for MBA in Ireland",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The specific document checklist varies by university and applicant’s situation. Most requested documents:",
-            "1\\. Passport valid",
-            "2\\. Certificate of Bachelor’s degree or equivalent qualification.",
-            "3\\. Academic transcripts & mark sheets",
-            "4\\. Updated CV or resume.",
-            "5\\. Statement of purpose/personal statement, if applicable.",
-            "6\\. Letters of academic/professional reference.",
-            "7\\. Results of English language tests, if any.",
-            "8\\. GMAT, GRE or other test scores (if applicable).",
-            "9\\. Employment certificates or proof of professional experience",
-            "10\\. Professional achievements portfolio or additional supporting documents, if requested."
+          t: "p",
+          items: [
+            "Premier MBA Recruiters in Ireland: McKinsey & Company, The Boston Consulting Group (BCG), Bain & Company, Accenture Strategy, Deloitte, PwC, EY, Google, Meta, Microsoft, Stripe, Amazon, Apple, Pfizer, Bank of Ireland, and Kerry Group."
           ]
         }
       ]
     }
   ],
-  "table": {
-    "title": "Estimated Cost of Studying MBA in Ireland in Ireland (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (€ / EUR)",
-      "Details / Scope"
-    ],
-    "rows": [
+  unis: [
+    {
+      name: "Trinity College Dublin (TCD) – Trinity Business School",
+      city: "Dublin",
+      state: "Leinster",
+      desc: "Trinity Business School holds elite Triple Crown accreditation (AACSB, AMBA, EQUIS) and is located in its state-of-the-art sustainable building in Dublin's city center. Offers 1-year Full-Time MBA (€37,300) and Executive MBA, featuring intensive live company consulting projects, executive leadership development, and world-class alumni networking.",
+      img: uniImg1
+    },
+    {
+      name: "University College Dublin (UCD) – Smurfit Graduate Business School",
+      city: "Dublin",
+      state: "Leinster",
+      desc: "UCD Michael Smurfit Graduate Business School is Ireland's highest-ranked business faculty, consistently featured in the Financial Times Global Top 100 MBA rankings. Smurfit offers full-time and executive MBA formats (€36,500 – €38,000) with renowned international study trips, leadership diagnostics, and corporate placement across Dublin's finance and tech hubs.",
+      img: uniImg2
+    },
+    {
+      name: "Dublin City University (DCU) – DCU Business School",
+      city: "Dublin",
+      state: "Leinster",
+      desc: "DCU Business School is AACSB-accredited and known for its practical, industry-driven executive education. Offers an Executive MBA program designed for practicing managers seeking strategic innovation, leadership development, and enterprise transformation in collaboration with major multinational partners.",
+      img: uniImg3
+    }
+  ],
+  steps: [
+    {
+      step: "01",
+      title: "Profile Assessment & Career Mapping",
+      desc: "Evaluate your years of professional experience, leadership milestones, and career goals to select the optimal MBA format (Full-Time 1-Year MBA vs Executive MBA)."
+    },
+    {
+      step: "02",
+      title: "Standardized Testing & GMAT Waiver",
+      desc: "Prepare and sit for IELTS/TOEFL examinations and GMAT/GRE (or request an institutional GMAT waiver based on executive leadership track record)."
+    },
+    {
+      step: "03",
+      title: "Executive CV & Strategic Essay Drafting",
+      desc: "Refine your leadership-oriented resume, draft comprehensive application essays/SOP articulating managerial vision, and secure 2 professional recommendations from senior corporate leaders."
+    },
+    {
+      step: "04",
+      title: "Online Application Submission",
+      desc: "Submit your comprehensive application dossier directly through the university's MBA admissions portal ahead of scholarship and rolling round deadlines."
+    },
+    {
+      step: "05",
+      title: "Admissions Interview & Offer Acceptance",
+      desc: "Complete the rigorous video or in-person admissions interview with the MBA faculty board, receive your offer of admission, and pay the tuition deposit."
+    },
+    {
+      step: "06",
+      title: "Financial Consolidation & Proof of Funds",
+      desc: "Consolidate required financial documentation demonstrating tuition payment and living funds (€10,000–€12,000 liquid funds) required by the Irish Immigration Service Delivery (ISD)."
+    },
+    {
+      step: "07",
+      title: "Irish Student Visa (Stamp 2) Application",
+      desc: "Complete the online AVATS visa application, schedule your biometric appointment with VFS Global, and submit your complete visa dossier for your Long-Stay 'D' Study Visa."
+    },
+    {
+      step: "08",
+      title: "Arrival, IRP Registration & Stamp 1G Career Launch",
+      desc: "Arrive in Ireland, register with immigration for your Irish Residence Permit (IRP Stamp 2), begin classes, and prepare for your 2-year Stamp 1G graduate work visa."
+    }
+  ],
+  table: {
+    caption: "MBA Tuition Fee Comparison in Ireland (International 2026/27)",
+    headers: ["Institution", "MBA Program / Delivery Format", "Annual Tuition (Non-EU 2026/27)", "Duration"],
+    rows: [
       [
-        "Undergraduate Degree (Annual)",
-        "€13,500 – €27,640 / year",
-        "Varies by institution ranking, laboratory facilities, and program"
+        "Trinity College Dublin (TCD)",
+        "Full-Time MBA (Trinity Business School)",
+        "€37,300 total",
+        "1 Year"
       ],
       [
-        "Postgraduate Degree (Annual)",
-        "€15,000 – €28,640 / year",
-        "1-year intensive master's program or 2-year research degree"
+        "University College Dublin (UCD)",
+        "Full-Time MBA (Smurfit Business School)",
+        "€36,500 – €38,000 total",
+        "1 Year"
       ],
       [
-        "Living Expenses (Dublin)",
-        "€1,000 – €1,400 / month",
-        "Includes student accommodation, meals, utilities, and public transit"
+        "University of Galway",
+        "MBA (AMBA Accredited, Non-EU Fee)",
+        "€18,300 / year",
+        "1 to 2 Years"
       ],
       [
-        "Living Expenses (Outside Dublin)",
-        "€800 – €1,100 / month",
-        "Cost of living in Cork, Galway, Limerick, or Maynooth"
+        "Dublin City University (DCU)",
+        "Executive MBA (DCU Business School)",
+        "€19,500 / year (€39,000 total)",
+        "2 Years"
       ],
       [
-        "Student Visa & IRP Card Fee",
+        "Technological University Dublin (TU Dublin)",
+        "MBA (AMBA Accredited)",
+        "€12,500 / year (€25,000 total)",
+        "2 Years"
+      ],
+      [
+        "Estimated Living Maintenance",
+        "Accommodation, Meals, Utilities & Transport",
+        "€10,000 – €15,000 / year",
+        "Annual Cost"
+      ],
+      [
+        "Irish Residence Permit (IRP)",
+        "Mandatory Immigration Registration Card",
         "€300 / year",
-        "Mandatory Irish Residence Permit (IRP) registration fee"
+        "Per Year"
       ]
     ]
   },
-  "faqs": [
+  faqs: [
     {
-      "q": "Q1. How much is an MBA in Ireland?",
-      "a": "12\\. Documents required for the student visa, where applicable, including proof of funding, health insurance and other documents. If your documents are not in English, you may have to provide certified translations of them. Always follow the document instructions from the university and the active visa checklist for your nationality and situation. 11\\. FAQs for MBA in Ireland MBA tuition fees in Ireland depend on the university, duration of the course, mode of study and fee category of the student. For instance, Trinity College Dublin charges €37,300 for its Full-Time MBA. Other universities have different fee structures for full-time or part-time courses."
+      q: "How much does an MBA cost in Ireland for international students?",
+      a: "MBA tuition fees in Ireland for 2026/27 vary by institution and study mode. For full-time programs, Trinity College Dublin charges €37,300 and UCD Smurfit charges approximately €36,500–€38,000. Other universities provide highly competitive pricing, such as the University of Galway at €18,300 per year and TU Dublin at €25,000 for the full two-year program."
     },
     {
-      "q": "Is work experience required for an MBA in Ireland?",
-      "a": "Many MBA programs require professional experience and some Executive MBA programs expect applicants to have significant managerial or leadership experience. Requirements differ by institution. Applicants should check their preferred program to see if three years, five years or other amount of relevant experience is required."
+      q: "Is work experience mandatory to apply for an MBA in Ireland?",
+      a: "Yes. Unlike generic MSc in Management degrees, MBA programs in Ireland require a minimum of 3 to 5 years of verified, post-graduation professional or managerial experience. Executive MBA programs typically expect 5 to 8+ years of significant corporate management or leadership experience."
     },
     {
-      "q": "Q3.",
-      "a": "Study MBA in Ireland for International Students Yes. International students who meet the university’s academic, professional and English-language requirements can apply for MBA in Ireland. Applicants should also check the relevant non-EU tuition fees, application deadlines, visa and financial documentation requirements."
+      q: "Can international students apply for an MBA in Ireland without GMAT?",
+      a: "Yes. While top business schools like UCD Smurfit and Trinity welcome competitive GMAT/GRE scores, they also offer formal GMAT waiver pathways for candidates demonstrating strong quantitative academic backgrounds, certified professional credentials (such as CA, CFA, or CIMA), or extensive leadership track records."
     },
     {
-      "q": "Q4. What are the jobs after MBA in Ireland?",
-      "a": "MBA graduates can pursue a career in consulting, business development, project management, marketing, operations, finance, strategy and general management. The roles that are available to an individual depend on previous experience, skills, employer requirements and work authorization."
+      q: "What career roles and salaries can I expect after an MBA in Ireland?",
+      a: "MBA graduates in Ireland frequently transition into high-paying roles such as management consultants, strategy managers, corporate finance leads, operations directors, and product managers. Starting compensation packages typically range from €55,000 to €90,000+, with senior management roles commanding €85,000 to €130,000+ per year."
     },
     {
-      "q": "Q5. Can I stay in Ireland after an MBA?",
-      "a": "International graduates with a relevant Level 9 award may be eligible to apply under Ireland’s Third Level Graduate Programme. Permission is subject to the conditions of the program and the immigration rules."
+      q: "Can I stay and work in Ireland after completing an MBA?",
+      a: "Yes. Under Ireland's Third Level Graduate Scheme (Stamp 1G), graduates of NFQ Level 9 MBA programs receive 24 months (2 full years) of unrestricted post-study employment authorization. This allows graduates to work full-time for any employer in Ireland and transition into a Critical Skills Employment Permit."
     },
     {
-      "q": "How can Edu Hawk worldwide Consultancy Help me to study overseas?",
-      "a": "Edu Hawk worldwide can help students to find the right universities, understand admission requirements, prepare application documents, and plan their study-abroad journey. Students should contact the relevant official bodies to verify the academic, financial, immigration and licensing requirements."
+      q: "How does EduHawk Worldwide Consultancy assist MBA candidates applying to Ireland?",
+      a: "EduHawk Worldwide Consultancy provides personalized executive advisory. We help candidates select the right business school, assist with scholarship applications, polish executive CVs and strategic essays, conduct mock admissions interviews, and ensure flawless visa filing under the Irish AVATS student visa system (Stamp 2)."
     }
   ]
 };
 
 export default function MBAIreland() {
+  const images = {
+    hero: heroImg,
+    heroBg: heroBgImg,
+    side: sideImg,
+    ctaBg: ctaBgImg,
+    unis: [uniImg1, uniImg2, uniImg3]
+  };
+
   return (
     <AbroadCoursePage
       page={page}
@@ -442,8 +388,9 @@ export default function MBAIreland() {
       heroBgImg={heroBgImg}
       sideImg={sideImg}
       ctaBgImg={ctaBgImg}
-      showHeroStats={false}
-      seoPath="/study-abroad/ireland/mba"
+      showHeroStats={true}
+      seoPath={page.slug}
+      images={images}
     />
   );
 }

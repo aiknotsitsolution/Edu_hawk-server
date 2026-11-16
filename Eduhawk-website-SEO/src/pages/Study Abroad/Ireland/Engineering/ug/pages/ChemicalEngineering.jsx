@@ -13,473 +13,370 @@ import uniImg2 from "../../../../../../Images/Abroad/Ireland/Engineering_UG/Chem
 import uniImg3 from "../../../../../../Images/Abroad/Ireland/Engineering_UG/Chemical/Technological_University_Dublin.webp";
 
 const page = {
-  "name": "Chemical Engineering in Ireland",
-  "country": "Ireland",
-  "slug": "ug/chemical-engineering",
-  "title": "Study Chemical Engineering in Ireland for Indian Students | Edu-Hawk Worldwide",
-  "description": "Complete guide to Chemical Engineering in Ireland for Indian students: Top Irish universities, eligibility criteria, tuition fees (€13,500 – €28,640 / year), scholarships, and 2-year post-study work visa (Stamp 1G).",
-  "keywords": "Study Chemical Engineering in Ireland for Indian Students, Top Universities for Chemical Engineering in Ireland, Chemical and Bioprocess Engineering Courses in Ireland, Bachelor of Chemical Engineering in Ireland, Chemical Engineering Master's Programmes in Ireland, Chemical Engineering Eligibility Requirements in Ireland, Admission Requirements for Chemical Engineering in Ireland, IELTS Requirements for Chemical Engineering Courses in Ireland, Chemical Engineering Tuition Fees in Ireland for International Students, Cost of Living for Chemical Engineering Students in Ireland",
-  "introTitle": "CHEMICAL ENGINEERING IN IRELAND",
-  "heroParas": [
-    "Chemical Engineering in Ireland"
+  name: "Chemical Engineering in Ireland",
+  country: "Ireland",
+  slug: "study-abroad/ireland/ug/chemical-engineering",
+  title: "Study Chemical Engineering in Ireland for Indian Students | EduHawk",
+  description: "Complete guide to undergraduate Chemical & Bioprocess Engineering in Ireland: Top universities (UCD, UCC, MTU), eligibility, fees (€11,000 – €28,000/yr), salaries, and Stamp 1G graduate work visa.",
+  keywords: "Study Chemical Engineering in Ireland for Indian Students, Top Universities for Chemical Engineering in Ireland, Chemical and Bioprocess Engineering Courses in Ireland, Bachelor of Chemical Engineering in Ireland, Chemical Engineering Master's Programmes in Ireland, Chemical Engineering Eligibility Requirements in Ireland, Admission Requirements for Chemical Engineering in Ireland, IELTS Requirements for Chemical Engineering Courses in Ireland, Chemical Engineering Tuition Fees in Ireland for International Students, Cost of Living for Chemical Engineering Students in Ireland, Pharmaceutical and Biopharmaceutical Engineering in Ireland, Chemical Engineering Jobs and Career Opportunities in Ireland, Chemical Engineer Salary in Ireland for Graduates",
+  introTitle: "CHEMICAL ENGINEERING IN IRELAND",
+  heroParas: [
+    "Chemical Engineering in Ireland combines rigorous engineering principles with bioprocess technology, advanced pharmaceutical manufacturing, and sustainable chemical plant design. Backed by Ireland's status as a top global pharmaceutical exporter and accredited by Engineers Ireland and the Institution of Chemical Engineers (IChemE), undergraduate programs offer 4-year BEng and 5-year integrated MEng pathways, generous scholarships (tuition €11,000 – €28,000/year), and up to 2 years of post-study graduate employment under Stamp 1G."
   ],
-  "overview": [
-    "Chemical Engineering in Ireland"
+  overview: [
+    "Ireland is an exceptional destination for international students pursuing chemical engineering, process technology, biopharmaceutical manufacturing, and industrial sustainability. As one of the world's leading biopharmaceutical manufacturing hubs—hosting facilities for global titans including Pfizer, Novartis, Eli Lilly, MSD, Janssen, and Regeneron—Ireland delivers unparalleled practical exposure and industrial integration for aspiring process engineers.",
+    "Undergraduate programs are typically structured as 4-year Honours Bachelor degrees (BEng or BE, NFQ Level 8) or 5-year integrated Master of Engineering tracks (MEng, NFQ Level 9). Degree specializations include Chemical and Bioprocess Engineering (UCD), Process and Chemical Engineering (UCC), and Chemical and Biopharmaceutical Engineering (MTU).",
+    "Curricula bridge fundamental thermodynamics, fluid mechanics, and transport phenomena with modern industry specializations such as bioreactor design, industrial cell culture, pharmaceutical separations, process automation, hazard and risk management, and environmental circular economy practices. Most programs include structured, paid 6- to 9-month professional co-op work placements.",
+    "Qualifications awarded by Irish universities are internationally accredited by both Engineers Ireland (under the Washington Accord) and the UK-based Institution of Chemical Engineers (IChemE), ensuring graduates can practice globally. EduHawk Worldwide provides specialized study-abroad mentoring—assisting with university selection, documentation, scholarship applications, and Irish visa processing."
   ],
-  "level": "Bachelor of Engineering (BEng Hons) in Chemical & Bioprocess Engineering",
-  "crumb": "Engineering / Chemical Engineering",
-  "stats": [
+  level: "Bachelor of Engineering (BEng / BE Hons) & Integrated Master's (MEng) in Chemical & Bioprocess Engineering (NFQ Level 8 / 9)",
+  crumb: "Engineering / Chemical Engineering",
+  stats: [
     {
-      "label": "Degree Choices",
-      "value": "Bachelor of Engineering (BEng Hons) in Chemical & Bioprocess Engineering"
+      label: "Degree Pathways",
+      value: "4-Year BEng / 5-Year MEng"
     },
     {
-      "label": "Course Duration",
-      "value": "4 Years (BEng) / 5 Years (MEng)"
+      label: "Accreditations",
+      value: "Engineers Ireland & IChemE"
     },
     {
-      "label": "Top Institutions",
-      "value": "University College Dublin, University College Cork"
+      label: "Tuition Range",
+      value: "€11,000 – €28,000 / Year"
     },
     {
-      "label": "Post-Study Work",
-      "value": "2 Years Third Level Graduate Scheme (Stamp 1G)"
+      label: "Post-Study Work",
+      value: "1 to 2 Years (Stamp 1G)"
     }
   ],
-  "sections": [
+  sections: [
     {
-      "slot": "why",
-      "eyebrow": "Why Study in Ireland",
-      "title": "1. Why Study Chemical Engineering in Ireland?",
-      "groups": [
+      slot: "why",
+      eyebrow: "Why Study in Ireland",
+      title: "Why Study Chemical Engineering in Ireland?",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Ireland is an attractive destination for students studying chemical engineering, pharmaceutical manufacturing, biotechnology, process engineering and sustainable industrial technologies. The country has a strong pharmaceutical and biopharmaceutical industry offering graduates opportunities in chemical processing, production, quality control, research and industrial operations.",
-            "Benefits of studying Chemical Engineering in Ireland:"
+          t: "p",
+          items: [
+            "Ireland is Europe's largest net exporter of pharmaceuticals and life sciences products, producing over €80 billion in chemical and medical exports every year. Key benefits for international students include:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "- Strong pharmaceutical sector: Look for opportunities in the pharmaceutical, biopharmaceutical, chemical manufacturing and life sciences sectors.",
-            "- Practical learning: Learn the technical knowledge through lab sessions, industrial projects, process design and engineering assignments.",
-            "- Modern specialisations: Study areas are bioprocess engineering, process design, reaction engineering, environmental engineering and sustainable energy.",
-            "- Industry exposure: Some programs include professional work placements and the opportunity to gain practical experience.",
-            "- Professional accreditation: A number of engineering programs are accredited by professional bodies including Engineers Ireland and the Institution of Chemical Engineers (IChemE).",
-            "- Further education: Progress to master’s programs in chemical engineering, pharmaceutical engineering, bioprocess engineering or related specializations."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Students can know about these opportunities from Edu Hawk worldwide study abroad guidance and know the requirements involved to study chemical engineering abroad."
+          t: "ul",
+          items: [
+            "Colossal Biopharma & Chemical Sector: Exceptional job opportunities across pharmaceutical manufacturing, biological therapeutics, chemical synthesis, and industrial life sciences.",
+            "Rigorous Practical Learning: Hands-on laboratory training, bioprocess pilot plant operations, computer-aided process simulation (Aspen Plus / HYSYS), and industry-sponsored design projects.",
+            "Modern Industry Specializations: Advanced electives in bioprocess engineering, continuous pharmaceutical manufacturing, reaction engineering, clean energy, and process safety.",
+            "Structured Co-Op Placements: Mandatory paid 6- to 9-month industrial work placements in multinational pharma and chemical production plants.",
+            "Dual Professional Accreditation: Programs accredited by both Engineers Ireland (Washington Accord) and the Institution of Chemical Engineers (IChemE), facilitating Chartered Chemical Engineer (FIChemE / CEng) registration worldwide.",
+            "Clear Postgraduate Pathways: Seamless progression to specialized MEng and PhD research programs in pharmaceutical engineering, industrial biotechnology, and environmental catalysis."
           ]
         }
       ]
     },
     {
-      "slot": "courses",
-      "eyebrow": "Degrees & Programs",
-      "title": "2. Courses in Chemical Engineering in Ireland",
-      "groups": [
+      slot: "courses",
+      eyebrow: "Degrees & Programs",
+      title: "Chemical Engineering Programs & Curriculum Structure",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "In Ireland universities deliver chemical engineering programs known as Chemical Engineering, Process and Chemical Engineering and Chemical and Biopharmaceutical Engineering.",
-            "Courses (Bachelor's)"
+          t: "p",
+          items: [
+            "Irish universities offer versatile undergraduate and integrated master's engineering pathways:",
+            "Key Degree Pathways:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "- Bachelor of Engineering (BEng): A typical undergraduate engineering degree, usually four years in duration.",
-            "- Bachelor of Engineering (Honours): An honors engineering degree with theoretical study, laboratory work and engineering projects.",
-            "- Integrated Master of Engineering (ME or MEng): A five-year program offered at selected universities that integrates undergraduate and advanced master’s level engineering education."
+          t: "ul",
+          items: [
+            "Bachelor of Engineering (BEng / BE Hons): 4-year undergraduate degree (NFQ Level 8) emphasizing core chemical, bioprocess, and process systems engineering.",
+            "Integrated Master of Engineering (MEng): 5-year integrated program (NFQ Level 9) offering advanced computational fluid dynamics (CFD), biomanufacturing scale-up, and full Chartered Engineer educational fulfillment."
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Frequent topics",
-            "Programs in Chemical Engineering may include:"
+          t: "p",
+          items: [
+            "Core Curriculum Modules & Topics Covered:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Mathematics for engineering",
-            "thermodynamics in chemical engineering",
-            "Mechanics of fluids",
-            "Transfer of mass and heat",
-            "Engineering of Chemical Reactions",
-            "Instrumentation and control of the process",
-            "separations",
-            "Chemical plant design",
-            "chemical industry",
-            "Bio chemical engineering",
-            "Risk management and process safety",
-            "Sustainable and environmental engineering",
-            "Processing of biopharmaceuticals and pharmaceuticals",
-            "Plant design and operation"
+          t: "ul",
+          items: [
+            "Engineering Mathematics, Calculus & Computational Methods",
+            "Chemical Engineering Thermodynamics & Phase Equilibria",
+            "Fluid Mechanics, Pipeline Hydraulics & Mixing Phenomena",
+            "Heat and Mass Transfer Principles & Heat Exchanger Design",
+            "Chemical and Biochemical Reaction Engineering & Catalysis",
+            "Process Dynamics, Feedback Control Systems & Instrumentation",
+            "Unit Operations: Distillation, Absorption, Extraction & Membrane Separations",
+            "Bioprocess Engineering: Fermentation, Cell Culture & Downstream Processing",
+            "Pharmaceutical Formulation, Cleanroom GMP & Validation Protocols",
+            "Process Safety, HAZOP (Hazard & Operability Studies) & Risk Management",
+            "Environmental Engineering, Industrial Decarbonization & Waste Treatment",
+            "Chemical Plant Capstone Design Project & Economic Feasibility Analysis"
           ]
         }
       ]
     },
     {
-      "slot": "universities",
-      "eyebrow": "Top Institutions",
-      "title": "3. Best Universities and Institutions for Chemical Engineering in Ireland",
-      "unis": [
+      slot: "eligibility",
+      eyebrow: "Entry Criteria",
+      title: "Admission & Eligibility Requirements",
+      groups: [
         {
-          "name": "University College Dublin",
-          "desc": "1\\. University College Dublin (UCD)",
-          "imgKey": "uniImg_University_College_Dublin_webp",
-          "imgIdentifier": "uniImg1",
-          "city": "Dublin, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg1
-        },
-        {
-          "name": "University College Cork",
-          "desc": "1\\. University College Dublin (UCD)",
-          "imgKey": "uniImg_University_College_Cork_webp",
-          "imgIdentifier": "uniImg2",
-          "city": "Cork, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg2
-        },
-        {
-          "name": "Technological University Dublin",
-          "desc": "Munster Technological University Bachelor of Engineering (Honours) in Chemical and Biopharmaceutical Engineering.",
-          "imgKey": "uniImg_Technological_University_Dublin_webp",
-          "imgIdentifier": "uniImg3",
-          "city": "Dublin, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg3
-        }
-      ]
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Admissions Criteria",
-      "title": "4. Requirements to Study Chemical Engineering in Ireland",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Eligibility to study Chemical Engineering in Ireland will depend on the university, the level of qualification and the applicant’s educational background.",
-            "Undergraduate eligibility",
-            "Students applying after Class 12 usually need:"
+          t: "p",
+          items: [
+            "Admission requirements for undergraduate chemical engineering programs are formulated by individual university engineering faculties. Key academic requirements include:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "A recognized certificate of leaving school.",
-            "Mathematics – good academic performance.",
-            "Chemistry and Physics or other science subjects as required by the university.",
-            "Grades that satisfy the university’s entry requirements.",
-            "Proof of proficiency in English language, if applicable."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Indian applicants should check the way their Class 12 board, grades and subject combination are assessed. Some students may have to take a foundation program or other recognized qualification before they can enter on an engineering degree."
+          t: "ul",
+          items: [
+            "Academic Qualification: Completion of Class 12 (Higher Secondary School Certificate) from CBSE, CISCE, or state boards with a competitive overall average of 70% – 85%.",
+            "Subject Prerequisites: High academic achievement in Mathematics and Chemistry is mandatory. Physics is strongly recommended or required depending on the institution.",
+            "English Language Thresholds: Standardized test scores required for non-EU students include IELTS Academic (minimum overall 6.5, with no band below 6.0), TOEFL iBT (minimum 85 – 90), or PTE Academic (minimum 61 – 63).",
+            "Application Portfolio: Certified Class 10 and 12 marksheets, a focused Statement of Purpose (SOP) articulating interest in chemical/process engineering, academic letters of recommendation (LORs), and passport copy."
           ]
         }
       ]
     },
     {
-      "slot": "requirements",
-      "eyebrow": "Entry Requirements",
-      "title": "5. Ireland Chemical Engineering Admission Requirements",
-      "groups": [
+      slot: "recognition",
+      eyebrow: "Professional Standards",
+      title: "Accreditation & Professional Recognition",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "International applicants should refer to the admission requirements for Chemical Engineering in Ireland for each program.",
-            "Academic requirements",
-            "Universities evaluate academic marks, subject requirements and qualification equivalency.",
-            "Mathematics and science subjects, particularly Chemistry and Physics, are important for entry to undergraduate courses. Postgraduate applicants normally need a relevant first degree and appropriate technical preparation.",
-            "English language criteria",
-            "Applicants may be required to take an approved English language test (IELTS Academic, TOEFL iBT, PTE Academic, etc.) Minimum marks are program and institution specific. Some universities will accept alternative evidence of your English language skills.",
-            "Extra requirements",
-            "You may need to provide (depending on the course):"
+          t: "p",
+          items: [
+            "Accreditation provides official verification of engineering education standards and international professional standing:",
+            "Accreditation Framework:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Transcript and certificates of academic",
-            "Statement or Personal Statement Purpose",
-            "Recommendation letters",
-            "A CV or resume for postgraduate entry",
-            "Evidence of relevant projects or work experience, if required",
-            "Research proposal for selected research programs",
-            "Confirmation of application fee if applicable"
+          t: "ul",
+          items: [
+            "Engineers Ireland: Evaluates and accredits programs against Chartered Engineer (CEng) and Associate Engineer (AEng) professional standards under the international Washington Accord.",
+            "Institution of Chemical Engineers (IChemE): International professional body providing specialized accreditation for chemical, bioprocess, and process engineering curricula.",
+            "Global Reciprocity: Enables graduates to gain professional engineering licensure across the UK, USA, Australia, Canada, New Zealand, and India without re-examination."
           ]
         }
       ]
     },
     {
-      "slot": "tuition",
-      "eyebrow": "Tuition & Living Costs",
-      "title": "6. Chemical Engineering in Ireland Course, Fees, Duration & Scholarships",
-      "groups": [
+      slot: "careers",
+      eyebrow: "Job Market & Salaries",
+      title: "Career Opportunities & Salary Prospects in Ireland",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "How much you will pay in tuition fees for Chemical Engineering in Ireland will depend on the institution, the specific program, the academic year and your fee status as a student.",
-            "MTU lists a €2,500 annual scholarship for eligible non-EU undergraduate students for 2026/27 that can bring the published tuition fee down to €11,000.",
-            "Cost of living",
-            "Students will need to budget separately for: •"
+          t: "p",
+          items: [
+            "Due to Ireland's dominant biopharmaceutical sector and advanced chemical processing clusters (particularly in Cork and Dublin), chemical engineers enjoy exceptional employment rates and above-average starting salaries.",
+            "Prominent Career Roles:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Housing and utility payments",
-            "Food & grocery products",
-            "Public transportation",
-            "Books, laptop and study materials",
-            "Medical insurance",
-            "Immigration and registration fees as applicable",
-            "Personal funds and emergency funds"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The cost of living will vary depending on the city and the type of accommodation you choose."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "process",
-      "eyebrow": "Application Steps",
-      "title": "7. How to Get Admission in Chemical Engineering in Ireland",
-      "steps": [
-        {
-          "step": "01",
-          "title": "Step 01",
-          "desc": "For the admission process for Chemical Engineering in Ireland, it generally goes in these steps."
-        },
-        {
-          "step": "02",
-          "title": "Step 1",
-          "desc": "Select a programme. Compare chemical engineering and similar courses on specializations, modules, duration, accreditation, fees and placement opportunities."
-        },
-        {
-          "step": "03",
-          "title": "Step 2",
-          "desc": "Check eligibility. Ensure you meet academic requirements, English-language requirements and accepted international qualifications."
-        },
-        {
-          "step": "04",
-          "title": "Step 3",
-          "desc": "Prepare documents. Collect your passport, academic transcripts and certificates, English-language results and any required statements or references."
-        },
-        {
-          "step": "05",
-          "title": "Step 4",
-          "desc": "Apply via the right channel. Most non-EU applicants submit their applications directly through the online application portal of the university. The path taken depends on both the institution and the type of applicant."
-        },
-        {
-          "step": "06",
-          "title": "Step 5",
-          "desc": "Follow up on your application. Monitor for updates and provide any further documents requested by the admissions team."
-        },
-        {
-          "step": "07",
-          "title": "Step 6",
-          "desc": "Accept your offer. Before accepting your place, check the terms and conditions, deposit, payment deadlines and fee terms."
-        },
-        {
-          "step": "08",
-          "title": "Step 7",
-          "desc": "Prepare for your trip. If you need a student visa, please check the latest Irish regulations for study permission, finances, insurance and registration."
-        }
-      ]
-    },
-    {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Recognition",
-      "title": "8. Irish Accreditation and Recognition of Chemical Eng.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Accreditation is a key factor to consider when selecting a chemical engineering degree.",
-            "Engineers Ireland assesses engineering programs against educational and professional standards.",
-            "Chemical engineering programs are also accredited against the Institution of Chemical Engineers (IChemE) standards for professional education .",
-            "Selected programs at UCD, UCC and MTU have professional accreditation or recognition by the relevant engineering bodies. But the degree of accreditation and professional requirements are different in the programs.",
-            "Check before you enroll:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "If the exact program is accredited.",
-            "Whether the accreditation is from Engineers Ireland, IChemE or both.",
-            "The level of qualification covered by the accreditation.",
-            "if the accreditation is for the year you intend to graduate.",
-            "If further education or work experience is needed to achieve Chartered Engineer status.",
-            "If the program matches your career plans for the future."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Career Outcomes",
-      "title": "9. Salary and Job Opportunities in Chemical Engineering, Ireland",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Chemical Engineering graduates in Ireland can work in technical and professional positions in pharmaceutical manufacturing, biopharmaceuticals, chemical production, energy, food processing, environmental services and engineering consultancy.",
-            "Popular Careers"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
+          t: "ul",
+          items: [
             "Chemical Process Engineer",
-            "Process Engineer",
-            "Engineer - Manufacturing",
-            "Process Engineer (Pharmaceuticals)",
-            "Engineer in Bioprocess",
-            "Engineer Quality Control",
-            "Software Engineer",
-            "R\\&D Engineer",
-            "Civil Engineer (Environment)",
-            "Engineer, Manufacturing",
-            "Operating Plants Engineer",
-            "Process Safety Engineering",
-            "Validation Engr",
-            "Engineer Project"
+            "Bioprocess & Fermentation Scale-Up Engineer",
+            "Pharmaceutical Manufacturing Engineer",
+            "Validation & Commissioning Engineer (GMP / FDA Compliance)",
+            "Process Safety & Risk Assessment Engineer (HAZOP Specialist)",
+            "Quality Assurance (QA) & Quality Control (QC) Specialist",
+            "Plant Operations & Production Shift Manager",
+            "Environmental, Health & Safety (EHS) Process Specialist",
+            "R&D Chemical Formulation & Catalysis Engineer"
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Salary expectations in Ireland?",
-            "The following figures are for illustrative planning purposes only and not official salary scales or guaranteed offers of employment.",
-            "Graduate (entry level) \\| €32,000-€42,000",
-            "Junior engineer \\| €42,000-€58,000",
-            "Experienced specialist \\| €58,000–€80,000+",
-            "Actual salary depends on employer, location, experience, technical specialization and market conditions. Pharmaceutical and biopharmaceutical jobs might have different pay scales than general process engineering jobs."
+          t: "p",
+          items: [
+            "Indicative Annual Salaries in Ireland:"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "Graduate / Entry-Level Roles: €32,000 – €42,000 per year",
+            "Junior & Mid-Level Engineers (3–5 Years): €42,000 – €58,000 per year",
+            "Experienced Specialists, Plant & Technical Leads: €58,000 – €80,000+ per year"
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "Biopharmaceutical and bulk active pharmaceutical ingredient (API) manufacturers often offer significant performance bonuses, shift allowances, and structured progression paths."
           ]
         }
       ]
     },
     {
-      "slot": "documents",
-      "eyebrow": "Document Checklist",
-      "title": "10. Documents Need To Study Chemical Engineering In Ireland",
-      "groups": [
+      slot: "consultancy",
+      eyebrow: "EduHawk Guidance",
+      title: "How EduHawk Worldwide Supports Your Ireland Admissions",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "The specific list of documents varies from university to university and from program to program but typical documents for international applicants include:"
+          t: "p",
+          items: [
+            "EduHawk Worldwide is an established global overseas education consultancy dedicated to guiding students into top engineering universities across Ireland. Our services include:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Passport must be valid",
-            "Class 10 and Class 12 certificates and mark sheets for admission to degree courses.",
-            "Bachelor’s degree certificate and transcripts for postgraduate admission",
-            "English language test results, if applicable",
-            "Personal statement or statement of purpose, if required",
-            "Recommendation letters, when required",
-            "CV/résumé for selected graduate programs",
-            "Research proposal for the chosen research programs",
-            "Proof of relevant projects or working experience if requested",
-            "Confirmation of application fee, where applicable",
-            "Financial evidence of immigrations",
-            "Health insurance and other documents needed for visa or registration"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Some documents may require certified translations or further proof. Follow the guidelines of the university and the requirements of the relevant Irish authorities."
+          t: "ul",
+          items: [
+            "Profile assessment and program matching across UCD, UCC, and MTU chemical engineering faculties.",
+            "Strategic scholarship guidance (including MTU's €2,500 annual merit reduction and university global excellence awards).",
+            "Assistance with technical Statements of Purpose (SOP) and academic resume development.",
+            "Direct application submission through international admissions portals and prompt offer management.",
+            "Complete Irish student visa (Stamp 2) guidance, financial document verification, and medical insurance support.",
+            "Pre-departure advice covering housing arrangements, student Leap travel cards, and part-time work rights."
           ]
         }
       ]
     }
   ],
-  "table": {
-    "title": "Estimated Cost of Studying Chemical Engineering in Ireland in Ireland (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (€ / EUR)",
-      "Details / Scope"
-    ],
-    "rows": [
+  unis: [
+    {
+      name: "University College Dublin (UCD)",
+      city: "Dublin",
+      state: "Leinster",
+      desc: "Offers Ireland's premier Chemical and Bioprocess Engineering program (4-year BEng Hons & 5-year integrated MEng). Fully accredited by Engineers Ireland and IChemE, featuring cutting-edge bioprocess pilot plants and deep partnerships with Dublin's biopharma corridor.",
+      img: uniImg1
+    },
+    {
+      name: "University College Cork (UCC)",
+      city: "Cork",
+      state: "Munster",
+      desc: "Delivers an acclaimed BE (Honours) in Process and Chemical Engineering with direct progression into an integrated Master of Engineering (MEng). Situated in Cork, Europe's largest biopharma manufacturing cluster, offering 6-month paid industrial work placements.",
+      img: uniImg2
+    },
+    {
+      name: "Munster Technological University (MTU)",
+      city: "Cork",
+      state: "Munster",
+      desc: "Offers a highly applied BEng (Honours) in Chemical and Biopharmaceutical Engineering with competitive non-EU fees of €13,500/year (with €2,500 annual scholarships bringing tuition to €11,000/year) and direct integration with local pharma hubs.",
+      img: uniImg3
+    }
+  ],
+  steps: [
+    {
+      title: "Program & Cluster Research",
+      desc: "Compare Chemical & Bioprocess Engineering (UCD), Process & Chemical Engineering (UCC), and Biopharmaceutical Engineering (MTU)."
+    },
+    {
+      title: "Academic & Science Eligibility Check",
+      desc: "Verify your Class 12 marks meet entry thresholds, focusing on high achievement in Mathematics and Chemistry."
+    },
+    {
+      title: "English Language Certification",
+      desc: "Achieve required English threshold scores on IELTS Academic (6.5 overall), TOEFL iBT (85+), or PTE Academic (61+)."
+    },
+    {
+      title: "Document & Technical SOP Preparation",
+      desc: "Compile academic marksheets, academic recommendation letters, and a technical Statement of Purpose highlighting passion for process engineering."
+    },
+    {
+      title: "University Application Submission",
+      desc: "Lodge applications directly through target university international admissions portals prior to stated deadlines, paying application fees."
+    },
+    {
+      title: "Offer Acceptance & Scholarship Confirmation",
+      desc: "Review admission offers, apply for institutional merit scholarships, accept your seat, and remit the tuition deposit."
+    },
+    {
+      title: "Irish Student Visa (Stamp 2) Application",
+      desc: "Submit your student visa application with proof of sufficient finances, medical insurance, and university acceptance."
+    },
+    {
+      title: "Travel, Accommodation & Enrolment",
+      desc: "Secure student housing in Dublin or Cork, arrive for international orientation, and register for your Irish Residence Permit (IRP)."
+    }
+  ],
+  table: {
+    caption: "Estimated Annual Cost of Studying Chemical Engineering in Ireland (2026–2027)",
+    headers: ["Expense Category", "Estimated Cost (EUR)", "Details & Notes"],
+    rows: [
       [
-        "Undergraduate Degree (Annual)",
-        "€13,500 – €27,640 / year",
-        "Varies by institution ranking, laboratory facilities, and program"
+        "Undergraduate Tuition Fees",
+        "€11,000 – €28,000+ / year",
+        "MTU: €13,500/yr (net €11,000 with scholarship); UCD/UCC: €24,000–€28,000/yr"
       ],
       [
-        "Postgraduate Degree (Annual)",
-        "€15,000 – €28,640 / year",
-        "1-year intensive master's program or 2-year research degree"
+        "Student Housing & Utilities",
+        "€7,000 – €14,000 / year",
+        "On-campus student accommodation or private shared student flats"
       ],
       [
-        "Living Expenses (Dublin)",
-        "€1,000 – €1,400 / month",
-        "Includes student accommodation, meals, utilities, and public transit"
+        "Food & Groceries",
+        "€2,500 – €4,000 / year",
+        "Self-catered groceries and campus meals"
       ],
       [
-        "Living Expenses (Outside Dublin)",
-        "€800 – €1,100 / month",
-        "Cost of living in Cork, Galway, Limerick, or Maynooth"
+        "Local Public Transportation",
+        "€600 – €1,200 / year",
+        "Discounted student travel using Student Leap Card"
       ],
       [
-        "Student Visa & IRP Card Fee",
+        "Books, Laptop & Study Materials",
+        "€1,000 – €2,000 / year",
+        "Textbooks, software tools, lab equipment, and general academic expenses"
+      ],
+      [
+        "Private Medical Insurance",
+        "€160 – €300 / year",
+        "Mandatory private healthcare insurance for non-EU students"
+      ],
+      [
+        "Irish Residence Permit (IRP) Registration",
         "€300 / year",
-        "Mandatory Irish Residence Permit (IRP) registration fee"
+        "Mandatory annual immigration registration fee"
+      ],
+      [
+        "Estimated Total Annual Budget",
+        "€25,000 – €48,800+ / year",
+        "Comprehensive living and educational cost estimate"
       ]
     ]
   },
-  "faqs": [
+  faqs: [
     {
-      "q": "Q1. Is Chemical Engineering in Ireland free for foreign students?",
-      "a": "Yes. If you are an international student, you can look for courses like Chemical and Bioprocess Engineering, Process and Chemical Engineering and Chemical and Biopharmaceutical Engineering at the chosen universities in Ireland."
+      q: "Can international students study Chemical Engineering in Ireland?",
+      a: "Yes. International students can enroll in prestigious accredited programs such as Chemical and Bioprocess Engineering at UCD, Process and Chemical Engineering at UCC, and Chemical and Biopharmaceutical Engineering at MTU."
     },
     {
-      "q": "Q2. How many years is a Chemical Engineering degree in Ireland?",
-      "a": "Many engineering undergraduate honors degrees are four years in duration. Some integrated Master of Engineering courses take five years, depending on the university and the course structure."
+      q: "How many years is a Chemical Engineering degree in Ireland?",
+      a: "Standard Honours Bachelor of Engineering (BEng or BE) degrees are 4 years in duration (NFQ Level 8). Many universities also offer 5-year integrated Master of Engineering (MEng, NFQ Level 9) tracks that satisfy the complete educational requirement for Chartered Engineer (CEng) status."
     },
     {
-      "q": "Q3. Q. What is the tuition fee for international students?",
-      "a": "Tuition fees depend on university and program. MTU lists a non-EU undergraduate tuition fee of €13,500 per year for 2026/ 27. Other universities should refer to their current international fee schedules for fees. There are also the costs of living."
+      q: "What is the tuition fee for international students in Chemical Engineering?",
+      a: "Tuition fees typically range from €13,500 to €28,000 per year. Munster Technological University (MTU) offers a non-EU fee of €13,500/year (with €2,500 annual merit scholarships reducing it to €11,000/year), whereas major universities such as UCD and UCC charge €24,000 to €28,000 annually."
     },
     {
-      "q": "Q4. What subjects do I need to get in?",
-      "a": "Mathematics, Chemistry and Physics are important for admission in undergraduate Chemical Engineering. Applicants for the Master’s usually need a relevant bachelor’s degree and sufficient technical preparation."
+      q: "What high school subjects are required for admission?",
+      a: "Mathematics and Chemistry are mandatory prerequisites for direct entry to chemical and bioprocess engineering. Physics is also strongly recommended, and applicants must present strong academic standing in Class 12 alongside verified English proficiency (IELTS 6.5 or equivalent)."
     },
     {
-      "q": "Q5. What are some jobs I can do with a Chemical Engineering degree in Ireland?",
-      "a": "Graduates may work in chemical process engineering, pharmaceutical manufacturing, bioprocess engineering, production, quality assurance, process design and environmental engineering. Career outcome depends on skills, experience, vacancies and employment eligibility."
+      q: "What jobs can I do with a Chemical Engineering degree in Ireland?",
+      a: "Graduates work in biopharmaceutical manufacturing, chemical process development, quality assurance, plant operations, validation engineering, process safety, environmental engineering, and technical consultancy—benefiting from Ireland's status as a premier global biopharma manufacturing hub."
     },
     {
-      "q": "How can Edu Hawk worldwide Consultancy help me to study abroad?",
-      "a": "Edu Hawk worldwide can help students in selecting the right universities, understanding the admission requirements, preparing the application documents and arranging their study abroad plans. Students should check the academic, financial, immigration and professional accreditation requirements with the relevant official bodies."
+      q: "How does EduHawk Worldwide assist students applying to Ireland?",
+      a: "EduHawk Worldwide provides expert, personalized consultancy: helping students evaluate universities, compile Statements of Purpose, submit international applications, apply for merit scholarships, and successfully obtain their Irish student visa (Stamp 2)."
     }
   ]
 };
 
 export default function ChemicalEngineeringUGIreland() {
+  const images = {
+    hero: heroImg,
+    heroBg: heroBgImg,
+    side: sideImg,
+    ctaBg: ctaBgImg,
+    uni1: uniImg1,
+    uni2: uniImg2,
+    uni3: uniImg3
+  };
+
   return (
     <AbroadCoursePage
       page={page}
@@ -487,8 +384,8 @@ export default function ChemicalEngineeringUGIreland() {
       heroBgImg={heroBgImg}
       sideImg={sideImg}
       ctaBgImg={ctaBgImg}
-      showHeroStats={false}
-      seoPath="/study-abroad/ireland/ug/chemical-engineering"
+      seoPath={page.slug}
+      images={images}
     />
   );
 }

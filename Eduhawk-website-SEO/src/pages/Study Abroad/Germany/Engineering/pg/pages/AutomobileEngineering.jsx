@@ -14,452 +14,483 @@ import uniImg3 from "../../../../../../Images/Abroad/Germany/Engineering_PG/Auto
 import uniImg4 from "../../../../../../Images/Abroad/Germany/Engineering_PG/Automobile/Technische_Hochschule_Ingolstadt_pr.webp";
 
 const page = {
-  "name": "Postgraduate Automobile Engineering in Germany",
-  "country": "Germany",
-  "slug": "pg/automobile-engineering",
-  "title": "Postgraduate Automobile Engineering in Germany for Indian Students | Edu-Hawk Worldwide",
-  "description": "Complete guide to Postgraduate Automobile Engineering in Germany for international students: Top German universities, admission requirements, zero-tuition public education, living expenses, and 18-month post-study work visa.",
-  "keywords": "Study Master's in Automobile Engineering in Germany for Indian Students, Postgraduate Automobile Engineering Courses in Germany, Best Universities for Automobile Engineering in Germany, MSc Automotive Engineering Programmes in Germany, Automotive Engineering Specialisations in Germany, Eligibility Requirements for Master's in Automobile Engineering in Germany, Admission Requirements for Automotive Engineering in Germany, English-Taught Automotive Engineering Courses in Germany, IELTS and TOEFL Requirements for Automobile Engineering in Germany, Automobile Engineering Tuition Fees in Germany, Cost of Living for Master's Students in Germany, Automobile Engineering Career Opportunities and Salary in Germany, German Student Visa Requirements for Automobile Engineering Students",
-  "introTitle": "1\\. WHY STUDY AUTOMOBILE ENGINEERING IN GERMANY?",
-  "heroParas": [
-    "Germany is one of the major **automotive engineering hubs** in the globe and hence a desirable location for **postgraduate Automobile Engineering studies**. **Automotive research, car production, powertrain development, electric mobility, autonomous driving and advanced vehicle technologies are common terms here.**",
-    "**The main advantages of studying automotive engineering in Germany are:**",
-    "* **Automotive industry of world class:** Germany has large **engineering companies, auto suppliers and car makers.",
-    "* Students can learn about advanced technologies such as electric vehicles, hybrid powertrains, autonomous driving, vehicle dynamics and intelligent transportation systems. **Good education:",
-    "*  German universities research **automotive and mechanical systems** and provide advanced **engineering education**.",
-    "* Low-cost public education:** Many public universities do not charge general **tuition fees** for qualified master’s degrees, with **semester contributions** and exclusions.",
-    "* In **battery technology, vehicle simulation, lightweight materials, emissions reduction and sustainable mobility**students can explore research opportunities.",
-    "* Graduates can work in **vehicle design, automotive testing, production, electric mobility** and **research and development**.",
-    "Students seeking a career in **vehicle development, automotive innovation** and **next-gen mobility technologies** may want to consider **studying **Automobile Engineering in Germany**.**",
-    "**Edu Hawk Worldwide Consultancy** helps students to prepare for their International Education journey, understand university admission requirements and explore possibilities for international study with right preparation and direction."
+  name: "Postgraduate Automobile Engineering in Germany",
+  country: "Germany",
+  slug: "pg/automobile-engineering",
+  title: "Postgraduate Automobile Engineering in Germany for Indian Students | Edu-Hawk Worldwide",
+  description:
+    "Complete guide to Postgraduate Automobile Engineering (M.Sc.) in Germany for international students: Top German technical universities, admission requirements, zero-tuition public education, living expenses, and 18-month post-study work visa.",
+  keywords:
+    "Study Master's in Automobile Engineering in Germany for Indian Students, Postgraduate Automobile Engineering Courses in Germany, Best Universities for Automobile Engineering in Germany, TU Braunschweig, KIT, HS Esslingen, TH Ingolstadt, MSc Automotive Engineering Programmes in Germany, Automotive Engineering Specialisations in Germany, Eligibility Requirements for Master's in Automobile Engineering in Germany, Admission Requirements for Automotive Engineering in Germany, English-Taught Automotive Engineering Courses in Germany, IELTS and TOEFL Requirements for Automobile Engineering in Germany, Automobile Engineering Tuition Fees in Germany, Cost of Living for Master's Students in Germany, Automobile Engineering Career Opportunities and Salary in Germany, German Student Visa Requirements for Automobile Engineering Students",
+  introTitle: "Why Study Automobile Engineering in Germany?",
+  heroParas: [
+    "Germany is universally celebrated as the automotive capital of the world, serving as the birthplace and global nerve center for **automotive research, vehicle manufacturing, electric mobility (EV), and autonomous driving systems**."
   ],
-  "overview": [
-    "Germany is one of the major **automotive engineering hubs** in the globe and hence a desirable location for **postgraduate Automobile Engineering studies**. **Automotive research, car production, powertrain development, electric mobility, autonomous driving and advanced vehicle technologies are common terms here.**",
-    "**The main advantages of studying automotive engineering in Germany are:**",
-    "* **Automotive industry of world class:** Germany has large **engineering companies, auto suppliers and car makers.",
-    "* Students can learn about advanced technologies such as electric vehicles, hybrid powertrains, autonomous driving, vehicle dynamics and intelligent transportation systems. **Good education:",
-    "*  German universities research **automotive and mechanical systems** and provide advanced **engineering education**.",
-    "* Low-cost public education:** Many public universities do not charge general **tuition fees** for qualified master’s degrees, with **semester contributions** and exclusions.",
-    "* In **battery technology, vehicle simulation, lightweight materials, emissions reduction and sustainable mobility**students can explore research opportunities.",
-    "* Graduates can work in **vehicle design, automotive testing, production, electric mobility** and **research and development**.",
-    "Students seeking a career in **vehicle development, automotive innovation** and **next-gen mobility technologies** may want to consider **studying **Automobile Engineering in Germany**.**",
-    "**Edu Hawk Worldwide Consultancy** helps students to prepare for their International Education journey, understand university admission requirements and explore possibilities for international study with right preparation and direction."
+  overview: [
+    "Postgraduate students gain state-of-the-art specialization in **vehicle dynamics, battery management, hybrid powertrains, automotive mechatronics, and artificial intelligence for intelligent transportation** at world-renowned technical universities with zero general tuition fees and an 18-month post-study work visa.",
+    "**The primary advantages of studying automotive engineering in Germany include:**",
+    "* **World-Class Automotive Ecosystem:** Immediate proximity to global automotive leaders including BMW, Mercedes-Benz, Porsche, Audi, Volkswagen Group, Bosch, Continental, and ZF Friedrichshafen.",
+    "* **Next-Gen Mobility Research:** Specialized academic curricula focusing on electric vehicle architecture, solid-state batteries, fuel cells, ADAS, and autonomous vehicle algorithms.",
+    "* **Excellence in Engineering Education:** Globally accredited technical universities (TU9) and top universities of applied sciences with specialized vehicle testing wind tunnels and crash-test facilities.",
+    "* **Tuition-Free Public Higher Education:** Consecutive master's programs at most German public universities are 100% tuition-free, requiring only a modest semester contribution.",
+    "* **Direct Industry Career Pathways:** Seamless transition into high-paying engineering roles in vehicle design, testing & validation, electric powertrain R&D, and production automation.",
+    "**Edu Hawk Worldwide Consultancy** provides end-to-end support for international applicants—from university shortlisting and credit evaluation to APS certification and student visa processing."
   ],
-  "level": "M.Sc. in Automotive Engineering (Fahrzeugtechnik)",
-  "crumb": "Engineering / PG Automobile Engineering",
-  "stats": [
+  level: "M.Sc. in Automotive Engineering (Fahrzeugtechnik)",
+  crumb: "Engineering / PG Automobile Engineering",
+  stats: [
     {
-      "label": "Degree Choices",
-      "value": "M.Sc. in Automotive Engineering (Fahrzeugtechnik)"
+      label: "Degree Choices",
+      value: "M.Sc. in Automotive Engineering / Automotive Systems"
     },
     {
-      "label": "Course Duration",
-      "value": "1.5 to 2 Years (Master)"
+      label: "Course Duration",
+      value: "1.5 to 2 Years (3 to 4 Semesters, 90–120 ECTS)"
     },
     {
-      "label": "Top Institutions",
-      "value": "Braunschweig University of Technology      provides chances for engineering and research in the fields of mobility, vehicle technology, automotive systems and transportation., Karlsruhe Institute of Technology (KIT)      renowned for energy systems, vehicle related technology, mobility research, and     mechanical engineering."
+      label: "Top Institutions",
+      value: "TU Braunschweig, KIT, HS Esslingen, TH Ingolstadt"
     },
     {
-      "label": "Post-Study Work",
-      "value": "18-Month Jobseeker Visa (Residence Permit)"
+      label: "Post-Study Work",
+      value: "18-Month Jobseeker Residence Permit"
     }
   ],
-  "sections": [
+  sections: [
     {
-      "slot": "courses",
-      "eyebrow": "Curriculum & Specializations",
-      "title": "2. Automobile Engineering Courses in Germany",
-      "groups": [
+      slot: "courses",
+      eyebrow: "Curriculum & Specializations",
+      title: "Automobile Engineering Courses in Germany",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "**Postgraduate **Automobile Engineering courses in Germany**** usually have a duration of **1.5 to 2 years** depending on the university and the design of the course. Master's programs usually require 90 or 120 ECTS credits.",
-            "Postgraduate automotive-related courses in Germany may be called **Automotive Engineering, Automotive Systems, Vehicle Engineering, Mobility Engineering** or **Mechanical Engineering with an automotive specialisation**.",
-            "Some well-known postgraduate programs and specializations include:",
-            "**Common topics covered include:**",
-            "The curriculum is different for each university and specialty. Students should assess course modules, hands-on labs, research projects and industry connections when selecting a program."
+          t: "p",
+          items: [
+            "Postgraduate Automobile Engineering courses in Germany typically last **1.5 to 2 years** (3 to 4 semesters) and require **90 or 120 ECTS credits**, including practical laboratory exercises and an industrial master's thesis.",
+            "Degrees are offered under designations such as **Automotive Engineering, Automotive Systems, Vehicle Engineering, Mobility Engineering, or Mechanical Engineering with an Automotive Specialization**.",
+            "A growing number of specialized master's programs in automotive engineering and e-mobility are taught completely in **English**.",
+            "**Popular postgraduate specializations and degree tracks include:**"
           ]
         },
         {
-          "t": "pills",
-          "items": [
-            "Master of Science in Automotive Engineering",
-            "Master of Science in Automotive Systems (MAS)",
-            "The Master’s degree in Automotive Engineering",
-            "Master of Science in Automotive Engineering",
-            "Master of Science in Electric Mobility",
-            "Master of Science in Automotive Mechatronics",
-            "Master of Science in Vehicle Dynamics",
-            "Master of Science in Powertrain Technologies",
-            "Master of Science in Automotive Production Engineering",
-            "Master's degree in autonomous driving",
-            "Master of Science in Intelligent Transportation Systems",
-            "Master of Science in Sustainable Mobility",
-            "The master’s degree in computational engineering for automobiles",
-            "Master of Science in Lightweight Engineering",
-            "Vehicle Handling and Dynamics",
-            "Powertrains & engines",
-            "Electric and hybrid vehicles technology",
-            "Energy management and battery system",
-            "Automotive Electronics & Mechatronics",
-            "Materials and design in automotive engineering",
-            "computer aided design and manufacturing",
-            "Computational fluid dynamic",
-            "Finite element analysis and modeling of structures",
-            "Autonomous driving and driver assistance systems",
-            "Manufacture and Quality Control of Automobiles",
-            "Research methods and the master's thesis"
+          t: "pills",
+          items: [
+            "M.Sc. in Automotive Engineering (Fahrzeugtechnik)",
+            "M.Sc. in Automotive Systems (MAS)",
+            "M.Sc. in Electric Mobility & Energy Storage",
+            "M.Sc. in Autonomous Driving & Connected Vehicles",
+            "M.Sc. in Automotive Mechatronics & Embedded Systems",
+            "M.Sc. in Vehicle Dynamics & Chassis Engineering",
+            "M.Sc. in Powertrain Technologies & Thermal Management",
+            "M.Sc. in Automotive Production & Quality Engineering",
+            "M.Sc. in Intelligent Transportation Systems (ITS)",
+            "M.Sc. in Sustainable Mobility & Lightweight Design"
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "**Core curriculum modules typically covered:**"
+          ]
+        },
+        {
+          t: "pills",
+          items: [
+            "Vehicle Dynamics, Handling & Suspension Design",
+            "Electric Traction Drives, Inverters & Power Electronics",
+            "Battery Systems, Energy Management & Charging Infrastructure",
+            "Internal Combustion Engines & Hybrid Powertrains",
+            "Automotive Electronics, Microcontrollers & CAN/Ethernet",
+            "Advanced Computer-Aided Design (CAD) & Digital Prototyping",
+            "Computational Fluid Dynamics (CFD) for Vehicle Aerodynamics",
+            "Finite Element Analysis (FEA) & Crashworthiness",
+            "Autonomous Driving, Computer Vision & ADAS",
+            "Automotive Manufacturing, Supply Chain & Quality Assurance",
+            "Scientific Research Methods & Master's Thesis"
           ]
         }
       ]
     },
     {
-      "slot": "universities",
-      "eyebrow": "Top German Universities",
-      "title": "3. Germany's Top Automobile Engineering Universities and Institutions",
-      "groups": [
+      slot: "unis",
+      eyebrow: "Top German Universities",
+      title: "Germany's Top Automobile Engineering Universities and Institutions",
+      unis: [
         {
-          "t": "p",
-          "items": [
-            "Automotive engineering education, vehicle technology research, and related engineering specializations are offered by a number of universities and technical institutions in Germany.",
-            "**Braunschweig University of Technology** - provides chances for engineering and research in the fields of mobility, vehicle technology, automotive systems and transportation.",
-            "**Karlsruhe Institute of Technology (KIT) -** renowned for energy systems, vehicle-related technology, mobility research, and **mechanical engineering.",
-            "**Esslingen University of Applied Sciences -** renowned for its industry-focused programs in **automotive and mechanical engineering-related disciplines** and applied engineering education.",
-            "**Technische Hochschule Ingolstadt -** provides possibilities for research and education in applied engineering related to **mobility systems** and **automotive technology, vehicle development**."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Eligibility Criteria",
-      "title": "4. Study Requirements for German Automotive Engineering",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "In general, candidates for a ****postgraduate course in Automobile Engineering**** need to satisfy the following requirement :",
-            "Eligible Indian candidates with a bachelor's degree in **Mechanical Engineering, Automobile Engineering, Mechatronics** or related subjects may be eligible for appropriate programs, depending on their course work and the university's admissions policies."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "A recognized bachelor’s degree in **Automobile Engineering, Automotive Engineering, Mechanical Engineering, Mechatronics** or related fields.",
-            "May require prior education in **engineering mechanics, thermodynamics, fluid mechanics, materials science, control systems and machine design.",
-            "Academic Performance: Universities set minimum grade requirements. Competitive programs may require strong academic performance.",
-            "****English proficiency:**** Most programs conducted in English will typically accept **IELTS, TOEFL** or other recognized qualifications. Courses offered in German may need **German language skills** at **level B2 or C1**.",
-            "**Subject-credit requirements:** Some programs require minimum credits in **mathematics, mechanical engineering, electronics** or other core courses.",
-            "*Other requirements:** Some colleges may require an interview, relevant work experience, an aptitude test or **GRE scores."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "admission",
-      "eyebrow": "Admission Requirements",
-      "title": "5.: Admission Requirements",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Admission requirements vary by university and program, but applicants usually need to:",
-            "Some colleges consider undergraduate grades, the relevance of the degree and the number of credits earned in core engineering courses for the applicant."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "An accredited **bachelor’s degree** in Automobile Engineering or related engineering discipline.",
-            "The diplomas and the academic transcripts.",
-            "Evidence of proficiency in English or German language.",
-            "A resume or CV.",
-            "A letter of motivation or statement of purpose.",
-            "Letters of Recommendation, if requested. **GRE scores** if required by the university.",
-            "Certificates of internship or work experience, if applicable.",
-            "Information on ** academic or research projects**, on request.",
-            "A **valid passport**",
-            "Additional documents referred to in the application."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "fees",
-      "eyebrow": "Tuition Fees & Living Costs",
-      "title": "6. Cost of studying automotive engineering in Germany",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The overall cost of ****Automobile Engineering studies**** Postgraduate studies are determined by the university, program, city and lifestyle.",
-            "**Approximate cost:**",
-            "International students also have to prove that they have enough money to get a **German student visa** according to the respective rules."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Most public colleges, with a few exceptions, don’t charge general tuition for qualifying master’s programs.",
-            "The approximate contribution for the semester is from 150 to 400 €.",
-            "Tuition fees for private universities often run from €5,000 to €20,000 per year or more.",
-            "You should budget for living costs around €900-€1,300 per month.",
-            "The cost of health insurance will vary depending on the provider and your eligibility.",
-            "Other costs include study materials, deposits for accommodation, travel, visa fees and the initial cost of migration,",
-            "Some public universities may charge tuition for certain non-EU students.",
-            "Specialized programs may have a different cost structure. Students should check immediately with the institution of their choice to make sure that the price is current.",
-            "Living costs for a two-year master’s degree are estimated at around **€21,600-€31,200** with monthly costs ranging from €900 to €1,300."
-          ]
-        },
-        {
-          "t": "table",
-          "headers": [
-            "Category / Expense Type",
-            "Estimated Amount (EUR)",
-            "Applicability & Regulation"
+          name: "Braunschweig University of Technology (TU Braunschweig)",
+          location: "Braunschweig, Lower Saxony",
+          desc: "Premier TU9 university closely integrated with Volkswagen Group headquarters, leading European research in automotive systems and mobility.",
+          fee: "€0 / Semester (Public tuition-free)",
+          duration: "2 Years (4 Semesters, 120 ECTS)",
+          exams: "APS, English (IELTS 6.5) or German (B2/C1)",
+          features: [
+            "NFF (Automotive Research Centre Niedersachsen) with state-of-the-art vehicle testing dynamometers",
+            "Specialized Master of Science in Automotive Engineering and Connected Mobility",
+            "Unrivaled internship and master thesis pipelines with Volkswagen AG and Continental"
           ],
-          "rows": [
+          img: uniImg1,
+          link: "https://www.tu-braunschweig.de"
+        },
+        {
+          name: "Karlsruhe Institute of Technology (KIT)",
+          location: "Karlsruhe, Baden-Württemberg",
+          desc: "Renowned TU9 technical university and Helmholtz research center with international excellence in vehicle technology, energy systems, and electric powertrains.",
+          fee: "€1,500 / Semester (State non-EU fee)",
+          duration: "2 Years (4 Semesters, 120 ECTS)",
+          exams: "APS, German B2/C1 or IELTS 6.5",
+          features: [
+            "FAST (Institute of Vehicle System Technology) conducting pioneering research in chassis dynamics and e-mobility",
+            "Direct cooperation with Daimler AG, Porsche, and Robert Bosch GmbH",
+            "Advanced test benches for electric traction drives, battery aging, and hybrid drive systems"
+          ],
+          img: uniImg2,
+          link: "https://www.kit.edu"
+        },
+        {
+          name: "Esslingen University of Applied Sciences (Hochschule Esslingen)",
+          location: "Esslingen am Neckar, Baden-Württemberg",
+          desc: "Internationally celebrated automotive institution offering the prestigious Master of Automotive Systems (MAS) taught in English.",
+          fee: "€1,500 / Semester (State non-EU fee)",
+          duration: "1.5 Years (3 Semesters, 90 ECTS)",
+          exams: "APS, English (IELTS 6.5 / TOEFL 90)",
+          features: [
+            "English-taught Master of Science in Automotive Systems with tracks in Vehicle Dynamics, Car Electronics, and E-Mobility",
+            "Located at the epicentre of European car manufacturing near Stuttgart",
+            "Close partnerships and master thesis placements with Mercedes-Benz, Porsche, and Festo"
+          ],
+          img: uniImg3,
+          link: "https://www.hs-esslingen.de"
+        },
+        {
+          name: "Technische Hochschule Ingolstadt (THI)",
+          location: "Ingolstadt, Bavaria",
+          desc: "High-tech university of applied sciences operating in direct strategic partnership with Audi AG headquarters in Ingolstadt.",
+          fee: "€0 / Semester (Public tuition-free)",
+          duration: "1.5 to 2 Years (3 to 4 Semesters)",
+          exams: "APS, English (IELTS 6.5) or German (B2/C1)",
+          features: [
+            "CARISSMA research institute: Germany's nationwide scientific center for vehicle safety and automated driving",
+            "English-taught master programs in Automotive Engineering and Autonomous Vehicle Technologies",
+            "Direct campus recruitment and industrial research collaboration with Audi and BMW"
+          ],
+          img: uniImg4,
+          link: "https://www.thi.de"
+        }
+      ]
+    },
+    {
+      slot: "eligibility",
+      eyebrow: "Eligibility Criteria",
+      title: "Study Requirements for German Automotive Engineering (PG)",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Candidates for a postgraduate program in Automotive Engineering in Germany must satisfy the following academic prerequisites:"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "**Academic Degree:** A recognized Bachelor's degree (B.Tech / B.E. / B.Sc.) in Automobile Engineering, Automotive Engineering, Mechanical Engineering, or Mechatronics.",
+            "**Prerequisite Subject Credits:** Prior academic coursework and minimum ECTS credits in Engineering Mechanics, Thermodynamics, Fluid Dynamics, Materials Science, Control Systems, and Machine Design.",
+            "**Academic Performance:** Minimum CGPA thresholds set by universities, typically requiring a German GPA equivalence of 2.5 or better (approx. 65–70%+ in Indian undergraduate degrees).",
+            "**English Language Proficiency:** For English-taught master's programs, official scores from IELTS Academic (6.5+) or TOEFL iBT (90+).",
+            "**German Language Proficiency:** For German-taught programs, proof of proficiency at B2 or C1 level (TestDaF 4x4, DSH-2, or Goethe-Zertifikat C1).",
+            "**Aptitude Testing:** Select universities require GRE scores (specifically quantitative reasoning) or conduct technical entrance interviews."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "admission",
+      eyebrow: "Admission Requirements",
+      title: "Admission Requirements for Postgraduate Automotive Engineering",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Admission evaluation focuses on undergraduate transcripts, course curriculum depth, and credits earned in core mechanical and automotive topics:",
+            "Applications are submitted either via **uni-assist** or directly through individual university admissions portals."
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "Validated Bachelor’s degree certificate and consolidated mark sheets / transcripts.",
+            "Mandatory APS Certificate issued by the German Embassy Academic Evaluation Centre in New Delhi.",
+            "Undergraduate syllabus / Module Handbook (Modulhandbuch) detailing course descriptions and credit hours.",
+            "Recognized English (IELTS / TOEFL) or German (TestDaF / DSH) language proficiency certificates.",
+            "Tabular Curriculum Vitae (Lebenslauf) and personalized Statement of Purpose (Letter of Motivation).",
+            "Two Academic Letters of Recommendation (LORs) from university professors.",
+            "Official GRE scorecard (if required by target universities).",
+            "Valid international passport (with at least 12 months validity).",
+            "Documentation of internships, technical projects, or automotive industry experience (if available)."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "fees",
+      eyebrow: "Tuition Fees & Living Costs",
+      title: "Cost of Studying Automotive Engineering in Germany",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "The overall cost of postgraduate automotive engineering studies is highly affordable due to state-subsidized public universities in Germany."
+          ]
+        },
+        {
+          t: "table",
+          headers: [
+            "Expense Category",
+            "Estimated Amount (EUR)",
+            "Details & Regulations"
+          ],
+          rows: [
             [
-              "Most public colleges, with a few exceptions, don’t charge general tuition for qualifying master’s programs.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
+              "Public Universities (15 of 16 States)",
+              "€0 / Semester",
+              "Tuition-free higher education for domestic and international students in almost all federal states."
             ],
             [
-              "The approximate contribution for the semester is from 150 to 400 €.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
+              "Public Universities (Baden-Württemberg)",
+              "€1,500 / Semester",
+              "Statutory tuition fee for non-EU international master students studying in Baden-Württemberg (e.g., KIT, HS Esslingen)."
             ],
             [
-              "Tuition fees for private universities often run from €5,000 to €20,000 per year or more.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
+              "Private Universities",
+              "€5,000 – €20,000 / Year",
+              "Tuition rates set independently by private institutions based on degree track and facilities."
             ],
             [
-              "You should budget for living costs around €900",
-              "€1,300 per month.",
-              "Public universities waive general tuition fees; semester contribution applies."
+              "Semester Contribution (Semesterbeitrag)",
+              "€150 – €400 / Semester",
+              "Mandatory fee covering administrative costs, student services (Studierendenwerk), and regional public transit pass."
             ],
             [
-              "The cost of health insurance will vary depending on the provider and your eligibility.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
+              "Monthly Living Expenses",
+              "€900 – €1,300 / Month",
+              "Estimated budget for student accommodation (€350–€650), meals, health insurance, and personal expenses."
             ],
             [
-              "Other costs include study materials, deposits for accommodation, travel, visa fees and the initial cost of migration,",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "Some public universities may charge tuition for certain non",
-              "EU students.",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "Specialized programs may have a different cost structure. Students should check immediately with the institution of their choice to make sure that the price is current.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "Living costs for a two",
-              "year master’s degree are estimated at around €21,600",
-              "€31,200 with monthly costs ranging from €900 to €1,300."
+              "Mandatory Blocked Account (Sperrkonto)",
+              "€11,904 / Year (€992/month)",
+              "Official statutory financial requirement to prove living expense coverage for German student visa issuance."
             ]
           ]
-        }
-      ]
-    },
-    {
-      "slot": "process",
-      "eyebrow": "Application Timeline & Steps",
-      "title": "7. The German Admission Process for Automotive Engineering",
-      "groups": [
+        },
         {
-          "t": "p",
-          "items": [
-            "The following steps are often involved in the admissions process:",
-            "Step 1: Select your area of expertise",
-            "Choose between concentrating on **automotive production** or **vehicle design, electric mobility, powertrains, vehicle dynamics, autonomous driving**.",
-            "Step 2: Look into universities",
-            "Examine curricula, language instruction, labs, research facilities, industry linkages, and costs.",
-            "Step 3: Verify your eligibility",
-            "Verify that your prior coursework, grades, and bachelor's degree meet the program's academic criteria.",
-            "Step 4 : Prepare the results of the language exam.",
-            "Take the TOEFL, IELTS, or, if necessary, the mandatory German language test.",
-            "Step 5: Get the application materials ready.",
-            "Gather your resume, degree certificates, academic transcripts, motivation letter, language certificates, and any other documents that are needed.",
-            "Step 6: Send in the application",
-            "Use the application service designated by the university or the official portal.",
-            "Step 7: Finish any further evaluations",
-            "Attend interviews, turn in any necessary **GRE scores** , or finish aptitude tests.",
-            "Step 8: Get the admissions decision",
-            "Examine the enrollment requirements, deadlines, admission offer, and cost details.",
-            "Step 9: Make financial and student visa arrangements",
-            "Prepare the documentation needed for a ****German student visa**** as well as financial evidence, health insurance plans, and housing arrangements.",
-            "Step 10: Finalize enrollment",
-            "Register for your program, send in the necessary paperwork and pay any relevant tuition or semester payments."
+          t: "p",
+          items: [
+            "Estimated living expenses for a two-year master's program range between €21,600 and €31,200. Merit-based scholarship programs such as DAAD scholarships and corporate fellowships are accessible for qualified students."
           ]
         }
       ]
     },
     {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Quality Standards",
-      "title": "8. Germany's Accreditation and Recognition of Automobile Engineering",
-      "groups": [
+      slot: "process",
+      eyebrow: "Application Timeline & Steps",
+      title: "German Admission Process for Automotive Engineering (PG)",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Students should check the ****quality assurance or accreditation status**** of the particular degree and confirm that the university is officially recognized in Germany before enrolling in a **postgraduate **Automobile Engineering program****.",
-            "Important things to think about are:",
-            "The focus of automotive programs might vary greatly. While some focus on **electric mobility, software, embedded systems** or **manufacturing** , others prioritize **vehicle design and mechanical systems**."
+          t: "p",
+          items: [
+            "The admission procedure for international postgraduate automotive engineering applicants comprises ten structured stages:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "The institution has been officially recognized.",
-            "Program accreditation or quality assurance status that is pertinent.",
-            "Acknowledgment of the qualification for additional education and work.",
-            "The intended specialization and **core automotive engineering subjects** are covered.",
-            "Research initiatives, automotive laboratories, simulation tools, and car testing facilities are all accessible.",
-            "Opportunities for **internships and engagement with automotive manufacturers and suppliers**."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Career Prospects & Salary",
-      "title": "9. Pay and Employment Prospects in Germany Following Automobile Engineering",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Careers in **vehicle manufacturing, automotive component development, electric mobility, autonomous driving, automotive software**, and industrial research can be supported by a **postgraduate **Automobile Engineering qualification**.**",
-            "Among the popular career options are:",
-            "The following are indicative pay expectations in Germany:",
-            "The approximate gross annual salary for entry-level positions is between €45,000 and €60,000.",
-            "Depending on the position, experience, and company, experienced professionals might earn between €60,000 and €90,000 or more gross annually.",
-            "Graduates can look into opportunities with **mobility technology companies, automobile manufacturers, component suppliers, engineering consultancies, electric vehicle companies, and automotive research organizations.",
-            "**Proficiency in German** can enhance job prospects, especially in manufacturing, testing, supplier cooperation, and positions involving local teams or technical documentation."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Engineer for Automotive Design",
-            "Engineer for Vehicle Development",
-            "The position of Powertrain Engineer",
-            "Engineer for Electric Vehicles",
-            "Engineer for Battery Systems",
-            "Engineer for Vehicle Dynamics",
-            "Engineer for Automotive Testing and Validation",
-            "Engineer for Automotive Simulation",
-            "Mechatronics Engineer for Automobiles",
-            "Engineer for Autonomous Driving",
-            "Engineer for Automotive Manufacturing",
-            "Engineer for Research and Development"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Required Documentation",
-      "title": "10. The documents needed to study automotive engineering in Germany",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "In order to get admitted to a university, applicants often need the following documents:",
-            "The following extra documents can be needed for the German student visa application:",
-            "The university, application process, and specific visa conditions all affect the precise list of documents. For the most recent requirements, applicants can refer to the German mission guidelines and the official university website."
+          t: "timeline",
+          items: [
+            {
+              step: "Step 01",
+              title: "Select Specialization & Focus Area",
+              desc: "Choose between electric mobility, vehicle dynamics, autonomous driving, powertrain systems, or automotive production engineering."
+            },
+            {
+              step: "Step 02",
+              title: "Shortlist Target Universities",
+              desc: "Examine curricula, language of instruction, automotive test benches, OEM partnerships, and tuition fee structures."
+            },
+            {
+              step: "Step 03",
+              title: "Verify ECTS Subject Eligibility",
+              desc: "Confirm whether your undergraduate coursework meets target university ECTS credit thresholds in mechanics and thermodynamics."
+            },
+            {
+              step: "Step 04",
+              title: "Obtain APS India Certification",
+              desc: "Submit your academic credentials to the Academic Evaluation Centre (APS) in New Delhi to obtain the mandatory APS certificate."
+            },
+            {
+              step: "Step 05",
+              title: "Complete Language Testing",
+              desc: "Attain required scores in IELTS Academic (6.5+) or TOEFL iBT (90+), and German (B2/C1) if enrolling in a German-taught track."
+            },
+            {
+              step: "Step 06",
+              title: "Prepare Application Dossier",
+              desc: "Gather your degree certificates, academic transcripts, module handbook, Statement of Purpose (SOP), and academic CV."
+            },
+            {
+              step: "Step 07",
+              title: "Submit University Applications",
+              desc: "Apply via uni-assist or directly through institutional portals before strict deadlines (typically May 31 / July 15 for Winter semester)."
+            },
+            {
+              step: "Step 08",
+              title: "Receive Admission Offer (Zulassung)",
+              desc: "Review your admission offer (Zulassungsbescheid) and confirm acceptance within the specified deadline."
+            },
+            {
+              step: "Step 09",
+              title: "Open Blocked Account & Health Insurance",
+              desc: "Deposit €11,904 into a federally approved German Blocked Account (Sperrkonto) and arrange statutory student health insurance."
+            },
+            {
+              step: "Step 10",
+              title: "Apply for German Student Visa",
+              desc: "Schedule your National Visa (Type D) appointment at the German diplomatic mission or VFS center and complete visa processing."
+            }
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "A valid passport",
-            "A certificate of bachelor's degree or a provisional certificate",
-            "Mark sheets and academic transcripts",
-            "If requested, the curriculum or course descriptions.",
-            "Evidence of proficiency in either German or English.",
-            "CV or resume.",
-            "A letter of motivation or a statement of purpose",
-            "Recommendation letters, if necessary.",
-            "If necessary, the GRE scores.",
-            "Certificates of internship or work experience, if relevant.",
-            "Information on **research or academic projects** upon request.",
-            "The university application form has been completed.",
-            "If necessary, certified translations of documents.",
-            "Passport-sized photos, upon request.",
-            "The letter of admission to the university.",
-            "Evidence of adequate financial resources",
-            "Documentation related to health insurance.",
-            "Forms for applying for a visa and supporting documentation",
-            "Details about accommodations, if needed."
+          t: "p",
+          items: [
+            "Due to strict credit equivalence checks and visa processing timelines, students should start preparing 9 to 12 months ahead."
           ]
         }
       ]
     },
     {
-      "slot": "details",
-      "eyebrow": "Key Insights",
-      "title": "11. FAQs regarding German automotive engineering",
-      "groups": [
+      slot: "accreditation",
+      eyebrow: "Accreditation & Quality Standards",
+      title: "Accreditation and Recognition of Automobile Engineering in Germany",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Q1. Is it possible for Indian students to **study automotive engineering for a master's degree in Germany?**",
-            "Yes . If they fulfill the academic, subject-credit, and language requirements of the university, Indian students having a recognized **Bachelor's degree in **Automobile Engineering, Automotive Engineering, Mechanical Engineering**** or a similar field may apply.",
-            "Q2. Does Germany provide free master's degrees in automotive engineering?",
-            "For qualified master's programs, many public universities don't charge general tuition; nonetheless, **semester contributions** are typically needed. Private institutions typically charge tuition, but some public universities and specialized programs do.",
-            "Q3. What is the duration of a German master's program in automotive engineering?",
-            "Depending on the program's structure and credit requirements, most master's programs last between **1.5 and 2 years**.",
-            "Q4. Is IELTS required in Germany for automotive engineering?",
-            "IELTS is not required everywhere. Certain applicants may be eligible for an exemption, and programs taught in English may accept **IELTS, TOEFL** or other recognized credentials. Programs taught in German require a certain level of ****German language proficiency**.**",
-            "Q5. What kinds of careers are available in Germany after earning a **master's degree in automobile engineering?**",
-            "Careers in **vehicle design, automotive testing, powertrain development, electric mobility, battery systems, autonomous driving, automotive manufacturing**, and **research and development** are available to graduates. Technical expertise, experience, language ability, and workplace needs all affect career chances.",
-            "How can I study abroad with the assistance of **Edu Hawk Worldwide Consultancy?**",
-            "Students may plan their study abroad experience, organize their application materials, research appropriate universities, and comprehend admission requirements with the assistance of Edu Hawk Worldwide. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
+          t: "p",
+          items: [
+            "Before enrolling in a postgraduate automotive engineering program, students should confirm program accreditation and university standing:"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "German master's engineering programs are accredited by statutory quality assurance agencies such as **ASIIN** under the German Accreditation Council (Akkreditierungsrat), adhering to the European EUR-ACE quality framework.",
+            "Degrees issued by accredited German universities enjoy universal global recognition under the international Bologna Process (90 to 120 ECTS credits).",
+            "The professional title **'Ingenieur'** is legally protected under German state engineering legislation (Ingenieurgesetze), requiring an accredited university degree.",
+            "International graduates planning to practice worldwide will find their German master's degrees universally accepted by global automotive employers and academic institutions."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "careers",
+      eyebrow: "Career Prospects & Salary",
+      title: "Salary and Employment Prospects in Germany Following Automobile Engineering",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "A postgraduate qualification in automotive engineering unlocks elite career opportunities across vehicle manufacturing, electric mobility, autonomous vehicle software, and automotive research.",
+            "**Key career roles for automotive engineering graduates include:**"
+          ]
+        },
+        {
+          t: "pills",
+          items: [
+            "Automotive Design Engineer",
+            "Vehicle Development Engineer",
+            "Powertrain Systems Engineer",
+            "Electric Vehicle (EV) Systems Engineer",
+            "Battery Management Systems (BMS) Engineer",
+            "Vehicle Dynamics & Chassis Specialist",
+            "Automotive Testing & Validation Engineer",
+            "Automotive CAE / Simulation Engineer",
+            "Automotive Mechatronics Engineer",
+            "Autonomous Driving & ADAS Engineer",
+            "Automotive Production Engineer",
+            "Automotive Research & Development Engineer"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "Indicative starting salaries for Master’s graduates range between **€45,000 and €60,000 gross per year**.",
+            "Experienced automotive engineers, functional safety experts, and technical team leads command salaries from **€60,000 to €90,000+ annually**.",
+            "Graduates find high-demand opportunities with OEMs (BMW, Mercedes-Benz, Porsche, Audi, VW) and Tier-1 suppliers (Bosch, Continental, ZF, Mahle, Schaeffler).",
+            "German language proficiency substantially enhances career advancement, especially in production, supplier coordination, and cross-functional project management.",
+            "International graduates are entitled to an **18-month post-study work visa (Jobseeker Residence Permit)** to secure relevant employment and transition toward an EU Blue Card."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "documents",
+      eyebrow: "Required Documentation",
+      title: "Documents Needed for Master’s in Automobile Engineering in Germany",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "A comprehensive document dossier is necessary for university applications and visa processing:"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "Valid international passport (with at least 12 months validity).",
+            "Official Bachelor’s degree certificate and consolidated mark sheets / transcripts.",
+            "Mandatory APS Certificate issued by the German Embassy Academic Evaluation Centre in New Delhi.",
+            "Undergraduate syllabus / Module Handbook (Modulhandbuch) detailing course descriptions and credit hours.",
+            "Recognized English (IELTS / TOEFL) or German (TestDaF / DSH) language proficiency certificates.",
+            "Tabular Curriculum Vitae (Lebenslauf) and customized Statement of Purpose (Letter of Motivation).",
+            "Two Academic Letters of Recommendation (LORs) from university professors.",
+            "Official GRE scorecard (if required by target universities).",
+            "Official University Letter of Admission (Zulassungsbescheid).",
+            "Proof of financial resources (€11,904 blocked account deposit) and statutory German student health insurance."
           ]
         }
       ]
     }
   ],
-  "faqs": []
+  faqs: [
+    {
+      q: "Is it possible for Indian students to study automotive engineering for a master's degree in Germany?",
+      a: "Yes. Indian students holding a recognized Bachelor's degree in Automobile Engineering, Automotive Engineering, Mechanical Engineering, or Mechatronics can apply. Applicants must fulfill specific ECTS course requirements in mechanics, thermodynamics, and machine design, along with required language test scores."
+    },
+    {
+      q: "Does Germany provide free master's degrees in automotive engineering?",
+      a: "Yes. Public universities across 15 of 16 German federal states charge zero general tuition fees for consecutive master's degrees. Students only pay a semester contribution of €150 to €400 covering administrative services and a regional transit pass. Non-EU international students pay €1,500 per semester in Baden-Württemberg, and private universities set their own tuition fees."
+    },
+    {
+      q: "What is the typical duration of a German master's program in automotive engineering?",
+      a: "Depending on the university and program structure, most master's programs last between 1.5 and 2 years (3 to 4 semesters) and require 90 or 120 ECTS credits, concluding with a research-driven master's thesis conducted with an automotive OEM or research center."
+    },
+    {
+      q: "Is IELTS required in Germany for automotive engineering master's programs?",
+      a: "For English-taught master's programs, universities typically require official IELTS Academic (6.5+) or TOEFL iBT (90+) scorecards. For German-taught programs, proof of German language proficiency at B2 or C1 level (TestDaF 4x4 or DSH-2) is required."
+    },
+    {
+      q: "What career opportunities are available in Germany after earning a master's degree in automobile engineering?",
+      a: "Graduates can pursue high-paying roles in vehicle design, powertrain development, electric mobility, battery engineering, autonomous driving, automotive mechatronics, testing & validation, and production engineering with leading OEMs like BMW, Mercedes-Benz, Audi, and Porsche, as well as suppliers like Bosch and Continental."
+    },
+    {
+      q: "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
+      a: "Edu Hawk Worldwide assists students with profile evaluation, university and course shortlisting, ECTS credit matching, APS verification, application submission via uni-assist, SOP & CV tailoring, blocked account setup, and German student visa preparation. Contact our overseas education advisors to start your German automotive journey."
+    }
+  ]
 };
 
 export default function AutomobileEngineeringPGGermanyPage() {
-  const images = {
-    hero: heroImg,
-    heroBg: heroBgImg,
-    side: sideImg,
-    ctaBg: ctaBgImg,
-    universities: [
-    {
-      name: "Braunschweig University of Technology      provides chances for engineering and research in the fields of mobility, vehicle technology, automotive systems and transportation.",
-      img: uniImg1,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "Karlsruhe Institute of Technology (KIT)      renowned for energy systems, vehicle related technology, mobility research, and     mechanical engineering.",
-      img: uniImg2,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "Esslingen University of Applied Sciences      renowned for its industry focused programs in     automotive and mechanical engineering related disciplines     and applied engineering education.",
-      img: uniImg3,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "Technische Hochschule Ingolstadt      provides possibilities for research and education in applied engineering related to     mobility systems     and     automotive technology, vehicle development    .",
-      img: uniImg4,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    }
-    ]
-  };
-
-  return <AbroadCoursePage page={page} images={images} />;
+  return (
+    <AbroadCoursePage
+      page={page}
+      heroImg={heroImg}
+      heroBgImg={heroBgImg}
+      sideImg={sideImg}
+      ctaBgImg={ctaBgImg}
+      seoPath="/study-abroad/germany/pg/automobile-engineering"
+    />
+  );
 }

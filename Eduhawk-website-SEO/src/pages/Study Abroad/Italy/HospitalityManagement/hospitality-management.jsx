@@ -16,12 +16,12 @@ const page = {
   "slug": "hospitality_management",
   "title": "Hospitality Management in Italy for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Hospitality Management in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
-  "keywords": "Top 6 SEO Keywords",
+  "keywords": "Hospitality Management in Italy, Study Tourism and Hospitality in Italy, Best Hospitality Schools in Italy, Hotel Management in Italy",
   "introTitle": "Hospitality Management Italy for Indian Students",
-  "heroParas": [
-    "Yes. We have courses taught in English. For example, Ca' Foscari University of Venice has a Bachelor's in Hospitality Innovation and e-Tourism in English."
+  heroParas: [
+    "Studying Hospitality Management in Italy immerses students in the global capital of culinary arts, luxury tourism, and high-end hotel administration with real-world industry apprenticeships."
   ],
-  "overview": [
+  overview: [
     "Yes. We have courses taught in English. For example, Ca' Foscari University of Venice has a Bachelor's in Hospitality Innovation and e-Tourism in English."
   ],
   "level": "Undergraduate & Postgraduate",
@@ -145,19 +145,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Graduates may work in hotel operations, guest relations, food and beverage, tourism, event management, revenue management and hospitality marketing. Career opportunities are dependent on qualifications, experience, language skills and work authorization.",
-            "Top 6 SEO Keywords"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Hospitality Management in Italy for Indian Students",
-            "Hospitality Management Courses in Italy",
-            "Best Universities for Hospitality Management in Italy",
-            "Hospitality Management Eligibility in Italy",
-            "Hospitality Management Admission Requirements in Italy",
-            "Cost of Studying Hospitality Management in Italy"
+            "Graduates may work in hotel operations, guest relations, food and beverage, tourism, event management, revenue management and hospitality marketing. Career opportunities are dependent on qualifications, experience, language skills and work authorization."
           ]
         }
       ]
@@ -168,19 +156,30 @@ const page = {
       "title": "Admission Process - Italy Hospitality Management",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Select your program: Decide if you want to study a bachelor or master degree and compare the curriculum, language, length of study and practical training.",
-            "Verify eligibility: Check academic requirements, language requirements, entrance exams and application deadlines.",
-            "Get your papers ready: Collect transcripts, certificates, passport information and any other materials requested.",
-            "University application: Complete the official application and include all required information.",
-            "Complete selection criteria: Do interviews or entrance tests, if necessary.",
-            "Get your admission decision: Follow the university's instructions to accept the offer and complete enrollment.",
-            "Arrange your student visa Follow current procedures for student-visa and pre-enrolment in Italy as they apply to you.",
-            "Prepare for a journey: Arrange accommodation, insurance, travel and other necessary formalities before you leave.",
-            "Different schools have different deadlines and processes. International students may have different deadlines than US students."
-          ]
-        }
+        "t": "timeline",
+        "items": [
+                {
+                        "step": "1",
+                        "title": "Select Your Program",
+                        "desc": "Decide if you want to study a bachelor or master degree and compare the curriculum, language, length of study and practical training."
+                },
+                {
+                        "step": "2",
+                        "title": "Get Your Papers Ready",
+                        "desc": "Collect transcripts, certificates, passport information and any other materials requested."
+                },
+                {
+                        "step": "3",
+                        "title": "Complete Selection Criteria",
+                        "desc": "Do interviews or entrance tests, if necessary."
+                },
+                {
+                        "step": "4",
+                        "title": "Get Your Admission Decision",
+                        "desc": "Follow the university's instructions to accept the offer and complete enrollment."
+                }
+        ]
+}
       ]
     },
     {
@@ -261,7 +260,34 @@ const page = {
       "title": "Frequent Questions and Answers about Hospitality Management in Italy",
       "groups": []
     }
-  ]
+  ],
+  faqs: [
+    {
+        "q": "Can Indian students study Hospitality Management in Italy in English?",
+        "a": "Yes. Universities such as Ca' Foscari University of Venice and specialized hospitality institutes offer English-taught bachelor's and master's programmes."
+    },
+    {
+        "q": "What is the duration of Hospitality Management degrees in Italy?",
+        "a": "Bachelor's programmes take 3 years (180 ECTS) and master's programmes take 1 to 2 years, including intensive hotel and resort internships."
+    },
+    {
+        "q": "What are the tuition costs for Hospitality Management in Italy?",
+        "a": "Tuition at public universities ranges from €1,000 to €4,000 per year, while specialized private hospitality institutes charge higher rates with scholarship options."
+    },
+    {
+        "q": "Are internships included in Italian hospitality programmes?",
+        "a": "Yes. Mandatory practical internships with premier luxury hotel chains, Michelin-starred culinary venues, and tourism agencies are integrated into the curriculum."
+    },
+    {
+        "q": "What subjects are taught in hospitality management?",
+        "a": "Subjects include luxury brand management, revenue management, tourism economics, event management, wine tourism, and sustainable hospitality."
+    },
+    {
+        "q": "What career opportunities exist after graduation?",
+        "a": "Graduates pursue international careers as luxury hotel managers, resort directors, event producers, food and beverage directors, and tourism consultants."
+    }
+],
+  faqTitle: "Frequently Asked Questions About Hospitality Management in Italy"
 };
 
 export default function HospitalityManagementItaly() {

@@ -20,8 +20,7 @@ const page = {
   "keywords": "Study Chemical Engineering - UG in Canada, Chemical Engineering - UG in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Chemical Engineering for Indian Students in Canada",
   "heroParas": [
-    "Students interested in Chemical Engineering in Canada which includes chemical processes, industrial production, energy, materials, medicines, and environmental technologies. Chemistry, physics, mathematics, and engineering principles are all used in undergraduate chemical engineering programs to teach students how to create, run, and enhance processes utilized in various sectors.",
-    "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."
+    "Students interested in Chemical Engineering in Canada which includes chemical processes, industrial production, energy, materials, medicines, and environmental technologies. Chemistry, physics, mathematics, and engineering principles are all used in undergraduate chemical engineering programs to teach students how to create, run, and enhance processes utilized in various sectors."
   ],
   "overview": [
     "Students interested in Chemical Engineering in Canada which includes chemical processes, industrial production, energy, materials, medicines, and environmental technologies. Chemistry, physics, mathematics, and engineering principles are all used in undergraduate chemical engineering programs to teach students how to create, run, and enhance processes utilized in various sectors.",

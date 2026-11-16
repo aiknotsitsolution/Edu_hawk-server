@@ -14,392 +14,316 @@ import uniImg3 from "../../../../Images/Abroad/Germany/Pharmacy/The_University_o
 import uniImg4 from "../../../../Images/Abroad/Germany/Pharmacy/The_University_of_T_bingen.webp";
 
 const page = {
-  "name": "Pharmacy in Germany",
-  "country": "Germany",
-  "slug": "pharmacy",
-  "title": "Pharmacy in Germany for Indian Students | Edu-Hawk Worldwide",
-  "description": "Complete guide to Pharmacy in Germany for international students: Top German universities, admission requirements, zero-tuition public education, living expenses, and 18-month post-study work visa.",
-  "keywords": "Study Pharmacy in Germany for Indian Students, Pharmacy Courses in Germany for International Students, Pharmacy (Pharmazie) in Germany, Pharmaceutical Sciences Courses in Germany, MSc in Pharmaceutical Sciences in Germany, Best Universities for Pharmacy in Germany, Pharmacy Eligibility Requirements in Germany, German Language Requirements for Pharmacy in Germany, Pharmacy Admission Requirements in Germany, Pharmacy Tuition Fees in Germany, Cost of Living for Pharmacy Students in Germany, Pharmacy Admission Process in Germany, Pharmacy Career Opportunities and Salary in Germany, Documents Required to Study Pharmacy in Germany",
-  "introTitle": "STUDY PHARMACY COURSES IN GERMANY",
-  "heroParas": [
-    "Comprehensive guide to Pharmacy in Germany for international students in Germany."
+  name: "Pharmacy in Germany",
+  country: "Germany",
+  slug: "pharmacy",
+  title: "Pharmacy in Germany for Indian Students | Edu-Hawk Worldwide",
+  description:
+    "Complete guide to studying Pharmacy (Pharmazie) in Germany: Staatsexamen licensing, top public universities, eligibility, German language C1 requirements, tuition fees, and career opportunities.",
+  keywords:
+    "Study Pharmacy in Germany for Indian Students, Pharmacy Courses in Germany for International Students, Pharmacy (Pharmazie) in Germany, Pharmaceutical Sciences Courses in Germany, MSc in Pharmaceutical Sciences in Germany, Best Universities for Pharmacy in Germany, Pharmacy Eligibility Requirements in Germany, German Language Requirements for Pharmacy in Germany, Pharmacy Admission Requirements in Germany, Pharmacy Tuition Fees in Germany, Cost of Living for Pharmacy Students in Germany, Pharmacy Admission Process in Germany, Pharmacy Career Opportunities and Salary in Germany, Documents Required to Study Pharmacy in Germany",
+  introTitle: "Study Pharmacy Courses in Germany",
+  heroParas: [
+    "Germany's powerhouse pharmaceutical industry, world-class research facilities, and tuition-free public universities make it an elite global destination for studying pharmacy (*Pharmazie*), pharmaceutical biotechnology, and clinical drug research with a direct path to European licensure (*Approbation*)."
   ],
-  "overview": [
-    "Explore academic curriculum, admission standards, top universities, tuition structure, and career pathways in Germany."
+  overview: [
+    "**Key advantages of studying pharmacy in Germany:**",
+    "* **World-Class Pharmaceutical Education:** Rigorous academic training governed by the federal *Approbationsordnung für Apotheker (AAppO)*.",
+    "* **Zero Tuition Fees:** Most public universities charge zero general tuition fees, requiring only a nominal semester contribution (€150–€350) including transit passes.",
+    "* **Global Industry Hub:** Germany is home to multinational pharmaceutical titans like Bayer, Boehringer Ingelheim, Merck KGaA, and BioNTech.",
+    "* **Cutting-Edge Research:** Direct student participation in innovative drug discovery, pharmacology, biotechnology, and personalized medicine.",
+    "* **Dual Career Paths:** Options to practice as a licensed state pharmacist (*Apotheker*) or work internationally in industrial R&D and pharmaceutical management."
   ],
-  "level": "State Examination in Pharmacy (Pharmazie - Staatsexamen)",
-  "crumb": "Health Sciences / Pharmacy",
-  "stats": [
+  level: "State Examination in Pharmacy (Staatsexamen) / B.Sc. & M.Sc.",
+  crumb: "Health Sciences / Pharmacy",
+  stats: [
     {
-      "label": "Degree Choices",
-      "value": "State Examination in Pharmacy (Pharmazie - Staatsexamen)"
+      label: "Degree System",
+      value: "Staatsexamen (4 yrs uni + 1 yr PJ) / M.Sc."
     },
     {
-      "label": "Course Duration",
-      "value": "3 to 6 Years"
+      label: "Tuition at Public Unis",
+      value: "€0 / Free (Semester fee €150–€350)"
     },
     {
-      "label": "Top Institutions",
-      "value": "The University of Bonn, The University of Freiburg"
+      label: "Language Requirement",
+      value: "German C1 (Staatsexamen) / English (M.Sc.)"
     },
     {
-      "label": "Post-Study Work",
-      "value": "18-Month Jobseeker Visa (Residence Permit)"
+      label: "Post-Study Work Visa",
+      value: "18-Month Jobseeker Visa"
     }
   ],
-  "sections": [
+  sections: [
     {
-      "slot": "why",
-      "eyebrow": "Why Study in Germany",
-      "title": "1. Why Study Pharmacy in Germany ?",
-      "groups": [
+      slot: "why",
+      eyebrow: "Why Germany",
+      title: "Why Study Pharmacy in Germany?",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Germany offers  ****pharmaceutical industry****, research facilities, and high-quality education make it a popular destination for ****pharmacy studies****. Students learn about pharmacology, drugs, drug development, and patient care.",
-            "**Among the main advantages are:**",
-            "**Edu Hawk Worldwide Consultancy** helps students understand university admission requirements, explore international study possibilities, and prepare for the **overseas education journey** with the proper preparation and direction."
+          t: "p",
+          items: [
+            "Germany is internationally recognized as the 'pharmacy of the world' (*Apotheke der Welt*), boasting a century-old heritage of pharmacological discovery, clinical innovation, and pharmaceutical engineering.",
+            "Students gain profound expertise across pharmaceutical chemistry, biology, pharmacology and toxicology, clinical pharmacy, and pharmaceutical technology, supported by cutting-edge university laboratories and state-regulated practical clinical rotations."
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Excellent **pharmaceutical education**.",
-            "Opportunities for **laboratory and research experience**.",
-            "Pharmaceutical businesses, hospitals and pharmacies are among the career opportunities.",
-            "Public universities frequently have no universal **tuition fees**.",
-            "Opportunities for additional research and specialization."
+          t: "points",
+          title: "Core Advantages for International Students",
+          items: [
+            "**Tuition-Free Public Higher Education:** Zero universal tuition at world-renowned public universities (except state of Baden-Württemberg at €1,500/semester for non-EU students).",
+            "**Federal Licensure (Approbation):** Completion of the Staatsexamen enables Indian and international graduates to receive their German license to practice as an independent community or hospital pharmacist across the EU.",
+            "**Robust Job Market:** High domestic demand for pharmacists in public pharmacies (*Offizin-Apotheken*), clinical hospital pharmacies, and global pharmaceutical manufacturers.",
+            "**Specialized Master's Pathways:** Opportunities to pursue English-taught M.Sc. in Pharmaceutical Sciences, Drug Discovery, and Industrial Pharmacy."
           ]
         }
       ]
     },
     {
-      "slot": "courses",
-      "eyebrow": "Curriculum & Specializations",
-      "title": "2. German Pharmacy Courses",
-      "groups": [
+      slot: "cards",
+      eyebrow: "Program Architecture",
+      title: "German Pharmacy Study Options & Degrees",
+      text: "International students can pursue state-regulated clinical qualification or research-driven university degree tracks:",
+      cards: [
         {
-          "t": "p",
-          "items": [
-            "The following are common ****pharmacy study options in Germany**:**",
-            "Program-specific differences exist in terms of course length, language, and professional outcomes."
-          ]
+          badge: "Clinical Track",
+          title: "Pharmacy (Pharmazie — Staatsexamen)",
+          desc: "The standard 4-year (8-semester) university curriculum covering Grundstudium (pre-clinical basics) and Hauptstudium (advanced clinical pharmacy), followed by 1 year of practical training (*Praktisches Jahr / PJ*) and 3 State Board Exams leading to *Approbation*."
         },
         {
-          "t": "pills",
-          "items": [
-            "Pharmacology is the study of drugs and their effects on the body.",
-            "Pharmacy (Pharmazie): a four-year university program under state regulation, which is followed by state exams and hands-on training.",
-            "Drug development, laboratory research and pharmaceutical technology are the main focuses of pharmaceutical sciences.",
-            "Depending on the curriculum, an MSc in Pharmaceutical Sciences typically takes one to two years.",
-            "Applications of biotechnology in medicine and drug production are covered in Pharmaceutical Biotechnology."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "universities",
-      "eyebrow": "Top German Universities",
-      "title": "3. Germany's TopPharmacy Universities",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The following German pharmaceutical schools are worth looking into:",
-            "**The University of Bonn**",
-            "**The University of Freiburg**",
-            "**The University of Münster**",
-            "**The University of Tübingen**",
-            "Candidates should contact each university directly to confirm the current ****course availability and admission requirements**.**"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Eligibility Criteria",
-      "title": "4. Qualifications for German Pharmacy Studies",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Typically, applicants require:"
-          ]
+          badge: "Postgraduate Degree",
+          title: "M.Sc. in Pharmaceutical Sciences",
+          desc: "A 1- to 2-year specialized Master's program focusing on molecular pharmacology, drug synthesis, nanotechnology delivery systems, and clinical trial design. Many programs are offered entirely in English."
         },
         {
-          "t": "ul",
-          "items": [
-            "A recognized **school-leaving qualification** that is comparable to the requirements for admission to a German university.",
-            "Excellent academic standing, especially in **Biology and Chemistry**.",
-            "For professional pharmacy programs, advanced ****German language proficiency**** is often around **C1**.",
-            "Requirements for admission or, if necessary, preparatory coursework.",
-            "Applicants for a master's degree in pharmacy typically need a related bachelor's degree, and there may be other subject-specific requirements."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "admission",
-      "eyebrow": "Admission Requirements",
-      "title": "5. German Pharmacy Admission Requirements",
-      "groups": [
-        {
-          "t": "ul",
-          "items": [
-            "Valid passport",
-            "Proof of **German language skills**",
-            "School certificates",
-            "Academic transcripts.",
-            "Application materials are standard"
-          ]
+          badge: "Biotech Track",
+          title: "Pharmaceutical Biotechnology",
+          desc: "Integrates recombinant DNA technology, cell culture engineering, biopharmaceuticals, and monoclonal antibody production for careers in modern biopharmaceutical and vaccine manufacturing."
         },
         {
-          "t": "p",
-          "items": [
-            "Some universities may also require additional tests or certified translations.",
-            "There may be competition for **pharmacy programs** entry. International students should verify whether they need to apply directly, or through a central application service."
-          ]
+          badge: "Industrial Track",
+          title: "Industrial & Clinical Drug Research",
+          desc: "Specialized postgraduate studies in regulatory affairs, pharmacovigilance, quality control (GMP/GLP), and healthcare economics tailored for multinational pharmaceutical corporations."
         }
       ]
     },
     {
-      "slot": "fees",
-      "eyebrow": "Tuition Fees & Living Costs",
-      "title": "6. Cost of Pharmacy Education in Germany",
-      "groups": [
+      slot: "unis",
+      eyebrow: "Top Institutions",
+      title: "Top Universities for Pharmacy in Germany",
+      text: "Germany is home to some of the world's most prestigious institutes of pharmaceutical and biomedical science:",
+      cards: [
         {
-          "t": "p",
-          "items": [
-            "The **cost of studying pharmacy in Germany** includes the following:",
-            "Fees differ between federal states and universities. Students are responsible for checking current costs before applying."
-          ]
+          name: "The University of Bonn",
+          city: "Bonn, North Rhine-Westphalia",
+          qsRank: "Top Tier Germany (QS #91)",
+          tuition: "€0 / Free (Semester fee €330/sem)",
+          programs: "Staatsexamen Pharmazie, M.Sc. Drug Research",
+          highlights:
+            "Home to the renowned PharmaCenter Bonn, offering cutting-edge laboratories in medicinal chemistry, pharmacology, and drug discovery alongside the German Federal Institute for Drugs and Medical Devices (BfArM).",
+          link: "https://www.uni-bonn.de/",
+          img: uniImg1
         },
         {
-          "t": "ul",
-          "items": [
-            "At public universities, there are often no general tuition costs, but there are **semester contributions**.",
-            "Private universities can charge a high level of tuition fees.",
-            "You should expect to pay around €900-€1,300 a month for your living expenses.",
-            "Additional costs include study materials, health insurance, lodging deposits and visa related fees."
-          ]
+          name: "The University of Freiburg",
+          city: "Freiburg im Breisgau, Baden-Württemberg",
+          qsRank: "Top Tier Germany (QS #189)",
+          tuition: "€1,500/sem (Non-EU) + €180 semester fee",
+          programs: "Staatsexamen Pharmazie, M.Sc. Pharmaceutical Sciences",
+          highlights:
+            "Excellence University with an internationally acclaimed Institute of Pharmaceutical Sciences, pioneering research in epigenetics, biopharmaceutics, and clinical pharmacy practices.",
+          link: "https://uni-freiburg.de/",
+          img: uniImg2
         },
         {
-          "t": "table",
-          "headers": [
-            "Category / Expense Type",
-            "Estimated Amount (EUR)",
-            "Applicability & Regulation"
-          ],
-          "rows": [
-            [
-              "At public universities, there are often no general tuition costs, but there are semester contributions.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "Private universities can charge a high level of tuition fees.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "You should expect to pay around €900",
-              "€1,300 a month for your living expenses.",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "Additional costs include study materials, health insurance, lodging deposits and visa related fees.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "process",
-      "eyebrow": "Application Timeline & Steps",
-      "title": "7. Admission Procedure for German Pharmacy",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "In Germany, the process of entering the pharmacy profession involves:"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "why",
-      "eyebrow": "Why Study in Germany",
-      "title": "1. Choose a program in pharmacy or pharmaceutical sciences.",
-      "groups": []
-    },
-    {
-      "slot": "courses",
-      "eyebrow": "Curriculum & Specializations",
-      "title": "2. Verify language requirements and academic qualifications.",
-      "groups": []
-    },
-    {
-      "slot": "universities",
-      "eyebrow": "Top German Universities",
-      "title": "3. Make transcripts, translations and certificates.",
-      "groups": []
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Eligibility Criteria",
-      "title": "4. Submit the application through the required university or application portal.",
-      "groups": []
-    },
-    {
-      "slot": "admission",
-      "eyebrow": "Admission Requirements",
-      "title": "5. Complete other assessments.",
-      "groups": []
-    },
-    {
-      "slot": "fees",
-      "eyebrow": "Tuition Fees & Living Costs",
-      "title": "6. Obtain a decision on admission.",
-      "groups": []
-    },
-    {
-      "slot": "process",
-      "eyebrow": "Application Timeline & Steps",
-      "title": "7. Arrange accommodation, health insurance, money and the required student visa.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Applicants should begin early, as it can take several months to recognize documents and prepare the language."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Quality Standards",
-      "title": "8. German Pharmacy Accreditation and Recognition",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Pharmacists working in regulated pharmacy positions in Germany usually need a **professional licence** and **Approbation**.",
-            "The standard ** pharmacy program ** consists of academic studies , state examinations and practical training .",
-            "Graduates from ****pharmaceutical sciences**** or related programs do not automatically become licensed pharmacists. Foreign pharmacy graduates need to undergo the relevant **qualification recognition and licensing process**"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Career Prospects & Salary",
-      "title": "9. Salary and work opportunities in Germany",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The pharmacy graduates can work in:",
-            "Pharmacy salaries in Germany depend on the location, the employer, the experience and the qualifications."
-          ]
+          name: "The University of Münster (WWU)",
+          city: "Münster, North Rhine-Westphalia",
+          qsRank: "Top 200 Worldwide",
+          tuition: "€0 / Free (Semester fee €320/sem)",
+          programs: "Staatsexamen Pharmazie, M.Sc. Drug Sciences",
+          highlights:
+            "One of the largest and most well-equipped pharmacy departments in Germany with state-of-the-art analytical facilities and close integration with regional biotech clusters.",
+          link: "https://www.uni-muenster.de/",
+          img: uniImg3
         },
         {
-          "t": "ul",
-          "items": [
-            "The professional licensing requirements apply to both hospital and community pharmacies.",
-            "Pharmaceuticals.",
-            "Research and Development of Drugs",
-            "Control and assurance of quality.",
-            "Regulatory affairs",
-            "Biotechnology and clinical research."
-          ]
+          name: "The University of Tübingen",
+          city: "Tübingen, Baden-Württemberg",
+          qsRank: "Top Tier Germany (QS #213)",
+          tuition: "€1,500/sem (Non-EU) + €180 semester fee",
+          programs: "Staatsexamen Pharmazie, M.Sc. Cellular & Molecular Pharmacy",
+          highlights:
+            "World-renowned faculty with groundbreaking research programs in synthetic medicinal chemistry, natural product drug isolation, and oncology pharmacology.",
+          link: "https://uni-tuebingen.de/",
+          img: uniImg4
         }
       ]
     },
     {
-      "slot": "documents",
-      "eyebrow": "Required Documentation",
-      "title": "10. Documents Required to Study Pharmacy in Germany",
-      "groups": [
+      slot: "checklist",
+      eyebrow: "Admissions Criteria",
+      title: "Eligibility & Academic Qualifications",
+      text: "Admission to pharmacy programs in Germany is highly competitive and regulated (often through *Numerus Clausus / NC* or uni-assist):",
+      items: [
+        "**Higher Secondary School Leaving Certificate:** 12th standard (Class XII) with excellent marks in Biology, Chemistry, Physics, and Mathematics.",
+        "**Studienkolleg (M-Kurs) or 1 Year Higher Ed:** Indian 12-year schooling requires a 1-year preparatory foundation course (*Studienkolleg* Medicine/Biology track) and passing the *Feststellungsprüfung (FSP)*, or completion of 1 year of recognized university B.Sc. studies.",
+        "**German Language Proficiency (C1 Level):** Essential for Staatsexamen Pharmazie since all patient interaction, legal regulations, and state exams are in German (TestDaF 4x4, Goethe-Zertifikat C1, or DSH-2).",
+        "**English Language Proficiency:** For English-taught M.Sc. programs, IELTS 6.5+ or TOEFL iBT 90+.",
+        "**APS Certificate:** Mandatory academic verification certificate from the German Embassy / APS India before visa and university submission.",
+        "**Academic Motivation & Laboratory Record:** Strong SOP explaining clinical or pharmaceutical research interests and documented laboratory experience."
+      ]
+    },
+    {
+      slot: "checklist",
+      eyebrow: "Cost of Education",
+      title: "Tuition Structure & Living Expenses",
+      text: "Germany offers unmatched value for high-caliber medical and pharmaceutical training:",
+      items: [
+        "**Public University Tuition (€0 / Free):** 15 of 16 German federal states charge zero general tuition fees for undergraduate and Staatsexamen programs.",
+        "**Baden-Württemberg Non-EU Tuition (€1,500/semester):** Applicable only at public universities within the state of Baden-Württemberg (e.g., Freiburg, Tübingen, Heidelberg).",
+        "**Semester Contribution (€150–€350/semester):** Mandatory fee covering student union facilities, administrative processing, and a regional public transit ticket (*Semesterticket*).",
+        "**Monthly Living Costs (€900–€1,300/month):** Covers student dormitory/apartment rent, food, mandatory statutory health insurance (~€125/month), books, and personal necessities.",
+        "**German Blocked Account (Sperrkonto):** Proof of €11,904 per year deposited in an escrow blocked account to secure your German national student visa."
+      ]
+    },
+    {
+      slot: "timeline",
+      eyebrow: "Step-by-Step Pathway",
+      title: "Admission & Licensure Timeline for International Students",
+      text: "Follow this systematic 10-step roadmap to study pharmacy and earn your license in Germany:",
+      steps: [
         {
-          "t": "p",
-          "items": [
-            "****Documents frequently required for studying pharmacy in Germany** are:**"
-          ]
+          num: "01",
+          title: "Academic & Language Assessment",
+          desc: "Evaluate 10+2 academic standing in Biology/Chemistry and begin German language training from A1 up to C1 level."
         },
         {
-          "t": "ul",
-          "items": [
-            "Passport.",
-            "Transcripts and certificates from school or university.",
-            "Certified translations, if required.",
-            "A German diploma.",
-            "a CV and a letter of motivation.",
-            "The application and all required paperwork.",
-            "Proof of financial resources and health insurance, if required.",
-            "For foreign candidates there are **Visa documents**."
-          ]
+          num: "02",
+          title: "APS Verification Certificate",
+          desc: "Apply to the Academic Evaluation Centre (APS India) to verify academic credentials and obtain the official digital APS certificate."
+        },
+        {
+          num: "03",
+          title: "Select Course & Institutions",
+          desc: "Identify prospective universities offering Staatsexamen Pharmazie or specialized English-taught M.Sc. Pharmaceutical Sciences."
+        },
+        {
+          num: "04",
+          title: "Foundation Studies (Studienkolleg M-Kurs)",
+          desc: "If required, apply for university entrance examination (*Aufnahmeprüfung*) to complete the 1-year medical foundation M-Kurs."
+        },
+        {
+          num: "05",
+          title: "Application Submission",
+          desc: "Submit official transcripts, translations, CV, and language credentials through uni-assist or directly via university portals."
+        },
+        {
+          num: "06",
+          title: "Admission Letter & Blocked Account",
+          desc: "Secure your university admission offer (*Zulassungsbescheid*) and deposit living funds into a verified German blocked account (€11,904)."
+        },
+        {
+          num: "07",
+          title: "National Student Visa (Subtype D)",
+          desc: "Book VFS appointment, complete student visa interview, and acquire German statutory health insurance."
+        },
+        {
+          num: "08",
+          title: "Academic Pharmacy Studies (4 Years)",
+          desc: "Complete 8 semesters of rigorous university study: Grundstudium (Semesters 1-4, Exam 1) and Hauptstudium (Semesters 5-8, Exam 2)."
+        },
+        {
+          num: "09",
+          title: "Practical Year (Praktisches Jahr / PJ)",
+          desc: "Complete 12 months of salaried practical internship (at least 6 months in a public community pharmacy, 6 months optional in hospital/industry)."
+        },
+        {
+          num: "10",
+          title: "Staatsexamen 3 & Approbation",
+          desc: "Pass the 3rd State Examination and receive your permanent license (*Approbation*) to practice as a certified pharmacist across Germany and the EU."
         }
       ]
     },
     {
-      "slot": "details",
-      "eyebrow": "Key Insights",
-      "title": "11. German Pharmacy FAQs",
-      "groups": [
+      slot: "cards",
+      eyebrow: "Career Pathways",
+      title: "Career Opportunities & Salary in Germany",
+      text: "German pharmacy graduates enjoy almost 100% employability across dynamic clinical, retail, and corporate sectors:",
+      cards: [
         {
-          "t": "p",
-          "items": [
-            "Q1. Is English the primary language of **pharmacy education in Germany?**",
-            "German is typically used for instruction in the regular professional **pharmacy program**. There may be certain **postgraduate and **pharmaceutical sciences**** courses offered in English.",
-            "Q2. What is the duration of **pharmacy education in Germany?**",
-            "In Germany, the conventional **pharmacy pathway** usually consists of four years of university study, followed by state exams and practical training.",
-            "Q3. Does Germany offer free pharmacy education?",
-            "While living expenses and semester contributions are required, many public colleges do not impose universal **tuition fees**. Certain foreign students must pay tuition at some universities or states.",
-            "Q4. Is it possible for Indian students to **study Pharmacy in Germany?**",
-            "Yes , if they fulfill the conditions for admission, language, academic recognition, and visas, Indian students can study pharmacy in Germany.",
-            "Q5. Is it possible for foreign graduates of pharmacy to work as pharmacists in Germany?",
-            "Yes, if they fulfill the relevant ****professional recognition and licensing requirements**** and, if necessary, get **Approbation**.",
-            "How can I study abroad with the assistance of **Edu Hawk Worldwide Consultancy?**",
-            "Students may plan their ****study-abroad journey****, organize their application materials, research appropriate universities, and comprehend **admission requirements** with the assistance of Edu Hawk globally. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
-          ]
+          badge: "Clinical / Retail",
+          title: "Community & Hospital Pharmacist",
+          desc: "Lead dispensing, medication safety, and clinical patient consults in Germany's 18,000+ public pharmacies or hospital clinic centers. Starting salary: €48,000–€62,000/year (tariff-bound by ADA/ADEXA)."
+        },
+        {
+          badge: "Industry R&D",
+          title: "Pharmaceutical Development Scientist",
+          desc: "Conduct formulation research, synthesis of new chemical entities, and pre-clinical trials at multinational pharma giants like Bayer, Merck, and Boehringer. Starting salary: €58,000–€75,000/year."
+        },
+        {
+          badge: "Compliance & Safety",
+          title: "Regulatory Affairs & Pharmacovigilance",
+          desc: "Manage marketing authorization dossiers, compliance with EMA/BfArM, and patient adverse event monitoring. Average salary: €60,000–€82,000/year."
+        },
+        {
+          badge: "Quality Management",
+          title: "Qualified Person (QP) & GMP Quality Assurance",
+          desc: "Oversee batch release, production compliance, and laboratory sterility validation according to European Good Manufacturing Practice standards. Senior salary: €75,000–€100,000+/year."
         }
+      ]
+    },
+    {
+      slot: "checklist",
+      eyebrow: "Checklist",
+      title: "Documents Required for Application & Visa",
+      text: "Ensure all documentation is translated into German or English by certified court translators:",
+      items: [
+        "Valid international passport with at least 12 months validity.",
+        "Official secondary school leaving certificates (10th and 12th mark sheets).",
+        "University transcripts and degree certificates (for Master's applicants).",
+        "Official APS Verification Certificate from APS India.",
+        "German language certificates (Goethe C1, TestDaF 4x4, or telc Deutsch C1 Hochschule).",
+        "English language test report (IELTS/TOEFL) if applying for English-medium M.Sc.",
+        "Detailed Academic Curriculum Vitae (Tabellarischer Lebenslauf).",
+        "Statement of Purpose (Letter of Motivation) detailing career ambitions in pharmacy.",
+        "German Blocked Account confirmation (€11,904) and statutory health insurance cover.",
+        "Passport-size biometric photographs compliant with Schengen standards."
       ]
     }
   ],
-  "faqs": []
+  faqs: [
+    {
+      q: "Is English the primary language of pharmacy education in Germany?",
+      a: "For the professional licensing pathway (*Pharmazie Staatsexamen*), the language of instruction and examination is exclusively German (requiring C1 proficiency). However, many research-focused Master's programs, such as M.Sc. in Pharmaceutical Sciences or Drug Discovery, are taught entirely in English."
+    },
+    {
+      q: "What is the total duration of pharmacy education in Germany?",
+      a: "The standard Staatsexamen pharmacy pathway takes approximately 5 years: 4 years (8 semesters) of university academic study, followed by a 1-year practical internship (*Praktisches Jahr / PJ*) and the 3rd State Examination before obtaining the *Approbation* license."
+    },
+    {
+      q: "Does Germany offer tuition-free pharmacy education for international students?",
+      a: "Yes. Most public universities in Germany charge no general tuition fees for international students, with students paying only a nominal semester contribution of €150 to €350 per semester. The only exception is the state of Baden-Württemberg, which charges non-EU students €1,500 per semester."
+    },
+    {
+      q: "Can Indian students study Pharmacy in Germany after 12th standard?",
+      a: "Yes. Indian students who have completed 12th standard with Physics, Chemistry, and Biology can study pharmacy in Germany. Since Indian high school is 12 years, students typically complete a 1-year preparatory foundation course (*Studienkolleg M-Kurs*) in Germany or 1 year of a recognized B.Sc. program in India before enrolling in the university degree."
+    },
+    {
+      q: "Can foreign pharmacy graduates practice as licensed pharmacists in Germany?",
+      a: "Yes. Foreign graduates can practice in Germany by applying for qualification recognition (*Anerkennung*) and passing the German medical language test (*Fachsprachenprüfung*) and knowledge exam (*Kenntnisprüfung*) to receive their German professional license (*Approbation*)."
+    }
+  ]
 };
 
-export default function PharmacyAbroadGermanyPage() {
-  const images = {
-    hero: heroImg,
-    heroBg: heroBgImg,
-    side: sideImg,
-    ctaBg: ctaBgImg,
-    universities: [
-    {
-      name: "The University of Bonn",
-      img: uniImg1,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "The University of Freiburg",
-      img: uniImg2,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "The University of Münster",
-      img: uniImg3,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "The University of Tübingen",
-      img: uniImg4,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    }
-    ]
-  };
-
-  return <AbroadCoursePage page={page} images={images} />;
+export default function PharmacyAbroad() {
+  return (
+    <AbroadCoursePage
+      page={page}
+      heroImg={heroImg}
+      heroBgImg={heroBgImg}
+      sideImg={sideImg}
+      ctaBgImg={ctaBgImg}
+      seoPath="/study-abroad/germany/pharmacy"
+    />
+  );
 }

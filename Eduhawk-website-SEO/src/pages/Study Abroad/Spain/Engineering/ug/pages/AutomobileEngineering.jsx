@@ -19,8 +19,7 @@ const page = {
   "keywords": "Study Automobile Engineering - UG in Spain, Automobile Engineering - UG in Spain for Indian Students, Best Universities in Spain, Cost of Studying in Spain",
   "introTitle": "Bachelor's in Automobile Engineering in Spain for Indian Students",
   "heroParas": [
-    "Bachelor's in Automobile Engineering in Spain for Indian Students offers an opportunity to learn about vehicle design, automotive manufacturing, engine technology, electric vehicles, vehicle dynamics and automotive electronics. Spain has a strong automotive manufacturing industry and is involved in the development of electric mobility, vehicle components and advanced manufacturing technologies.",
-    "Students seeking Automobile Engineering Courses in Spain for Indian students should also search for programs in Automotive Engineering, Mechanical Engineering with automotive specializations and Industrial Engineering. The title of the degree is important because not all universities offer a Bachelor's degree in Automobile Engineering. Students exploring a Bachelor's in Automobile Engineering in Spain for Indian Students should carefully compare the degree title, curriculum and available automotive specializations."
+    "Bachelor's in Automobile Engineering in Spain for Indian Students offers an opportunity to learn about vehicle design, automotive manufacturing, engine technology, electric vehicles, vehicle dynamics and automotive electronics."
   ],
   "overview": [
     "Bachelor's in Automobile Engineering in Spain for Indian Students offers an opportunity to learn about vehicle design, automotive manufacturing, engine technology, electric vehicles, vehicle dynamics and automotive electronics. Spain has a strong automotive manufacturing industry and is involved in the development of electric mobility, vehicle components and advanced manufacturing technologies.",

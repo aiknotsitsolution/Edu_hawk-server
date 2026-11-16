@@ -18,8 +18,13 @@ const page = {
   description: "Study Pharmacy in Finland: Bachelor of Science, Master of Science in Pharmacy, Pharmaceutical Research programmes, Helsinki and UEF, fees and admission for Indian students.",
   keywords: "Study Pharmacy in Finland, Pharmacy in Finland for Indian Students, Universities in Finland, Cost of Studying in Finland",
   introTitle: "Pharmacy in Finland",
-  heroParas: [],
-  overview: [],
+  heroParas: [
+    "**[Study Pharmacy in Finland](/courses/mbbs)** to gain comprehensive pharmaceutical knowledge in a research-oriented European education system combining drug development, medication safety, and practical healthcare applications."
+  ],
+  overview: [
+    "For Indian students interested in **Pharmacy abroad**, Finland provides valuable exposure to modern pharmaceutical research and advanced healthcare practices. The country is renowned for its stringent pharmaceutical quality standards and innovative biotechnology research ecosystems.",
+    "The **University of Helsinki's Faculty of Pharmacy** covers areas ranging from drug discovery and pharmaceutical research to patient-centred hospital pharmacy. With **[Edu-Hawk Worldwide](/services)**, students can explore international pharmaceutical education opportunities and receive guidance on university selection, eligibility, documentation, and admission planning."
+  ],
   level: "Undergraduate & Master's",
   crumb: "MBBS Abroad",
 

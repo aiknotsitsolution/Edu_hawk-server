@@ -19,8 +19,7 @@ const page = {
   "keywords": "Study Chemical Engineering - UG in Spain, Chemical Engineering - UG in Spain for Indian Students, Best Universities in Spain, Cost of Studying in Spain",
   "introTitle": "Bachelor in Chemical Engineering in Spain for Indian Students",
   "heroParas": [
-    "Bachelor's in Chemical Engineering in Spain for Indian Students offers Indian students the opportunity to study the design, development and optimization of chemical processes for industries such as pharmaceuticals, energy, food processing, biotechnology, materials and environmental engineering. Spain has engineering education in public and private universities. You can study process design, industrial chemistry, sustainable manufacturing and chemical plant operations.",
-    "Students interested in studying Chemical Engineering Courses in Spain should carefully compare the titles of the programs before applying. Some universities offer a degree in Chemical Engineering, while others offer related qualifications in Chemical Technologies or Industrial Chemical Engineering."
+    "Bachelor's in Chemical Engineering in Spain for Indian Students offers Indian students the opportunity to study the design, development and optimization of chemical processes for industries such as pharmaceuticals, energy, food processing, biotechnology, materials and environmental engineering. Spain has engineering education in public and private universities."
   ],
   "overview": [
     "Bachelor's in Chemical Engineering in Spain for Indian Students offers Indian students the opportunity to study the design, development and optimization of chemical processes for industries such as pharmaceuticals, energy, food processing, biotechnology, materials and environmental engineering. Spain has engineering education in public and private universities. You can study process design, industrial chemistry, sustainable manufacturing and chemical plant operations.",

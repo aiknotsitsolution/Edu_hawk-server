@@ -14,442 +14,458 @@ import uniImg3 from "../../../../../../Images/Abroad/Germany/Engineering_UG/Mech
 import uniImg4 from "../../../../../../Images/Abroad/Germany/Engineering_UG/Mechanical/University_of_Stuttgart_Mechanical.webp";
 
 const page = {
-  "name": "Undergraduate Mechanical Engineering in Germany",
-  "country": "Germany",
-  "slug": "ug/mechanical-engineering",
-  "title": "Undergraduate Mechanical Engineering in Germany for Indian Students | Edu-Hawk Worldwide",
-  "description": "Complete guide to Undergraduate Mechanical Engineering in Germany for international students: Top German universities, admission requirements, zero-tuition public education, living expenses, and 18-month post-study work visa.",
-  "keywords": "Study Mechanical Engineering in Germany for Indian Students, Undergraduate Mechanical Engineering Courses in Germany, Bachelor’s in Mechanical Engineering in Germany, Best Universities for Mechanical Engineering in Germany, Automotive Engineering Courses in Germany, Mechatronics and Production Engineering in Germany, Mechanical Engineering Eligibility Requirements in Germany, Mechanical Engineering Admission Requirements in Germany, German Language Requirements for Mechanical Engineering in Germany, Studienkolleg Requirements for Mechanical Engineering in Germany, Mechanical Engineering Accreditation and Recognition in Germany, Mechanical Engineering Career Opportunities and Salary in Germany",
-  "introTitle": "MECHANICAL ENGINEERING (UG) COURSE STUDY IN GERMANY",
-  "heroParas": [
-    "Comprehensive guide to Undergraduate Mechanical Engineering in Germany for international students in Germany."
+  name: "Undergraduate Mechanical Engineering in Germany",
+  country: "Germany",
+  slug: "ug/mechanical-engineering",
+  title: "Undergraduate Mechanical Engineering in Germany for Indian Students | Edu-Hawk Worldwide",
+  description:
+    "Complete guide to Undergraduate Mechanical Engineering in Germany for international students: Top German technical universities, admission requirements, zero-tuition public education, living expenses, and 18-month post-study work visa.",
+  keywords:
+    "Study Mechanical Engineering in Germany for Indian Students, Undergraduate Mechanical Engineering Courses in Germany, Bachelor’s in Mechanical Engineering in Germany, Best Universities for Mechanical Engineering in Germany, TUM, RWTH Aachen, KIT, University of Stuttgart, Automotive Engineering Courses in Germany, Mechatronics and Production Engineering in Germany, Mechanical Engineering Eligibility Requirements in Germany, Mechanical Engineering Admission Requirements in Germany, German Language Requirements for Mechanical Engineering in Germany, Studienkolleg Requirements for Mechanical Engineering in Germany, Mechanical Engineering Accreditation and Recognition in Germany, Mechanical Engineering Career Opportunities and Salary in Germany",
+  introTitle: "Why Study Mechanical Engineering in Germany?",
+  heroParas: [
+    "Germany is universally acclaimed as the global epicenter for **mechanical engineering and automotive innovation**, renowned for its world-leading manufacturing infrastructure, advanced industrial automation, and cutting-edge engineering research."
   ],
-  "overview": [
-    "Explore academic curriculum, admission standards, top universities, tuition structure, and career pathways in Germany."
+  overview: [
+    "Undergraduate students gain comprehensive mastery across **production systems, robotics, materials science, thermodynamics, computer-aided design (CAD), and sustainable machine design** at Germany's elite public universities with zero general tuition fees and an 18-month post-study work visa.",
+    "**The primary advantages of studying mechanical engineering in Germany include:**",
+    "* **World-Class Technical Education:** Top-tier engineering universities with cutting-edge manufacturing laboratories and advanced prototyping centers.",
+    "* **Direct Industry Linkages:** Strong ties to Germany's legendary industrial powerhouses, including BMW, Mercedes-Benz, Porsche, Volkswagen, Siemens, Bosch, and Trumpf.",
+    "* **Hands-On Practical Training:** Mandatory industrial internships (Grundpraktikum & Fachpraktikum), collaborative engineering projects, and research opportunities.",
+    "* **Tuition-Free Public Higher Education:** Outstanding public universities charge zero general tuition fees across 15 of 16 federal states.",
+    "* **Diverse Career Trajectories:** Exceptional graduate employability across automotive engineering, robotics, aerospace, renewable energy, and precision tooling.",
+    "**Edu Hawk Worldwide Consultancy** guides international students through every step of their German study journey—from university shortlisting and APS document verification to visa processing and accommodation."
   ],
-  "level": "B.Sc. / B.Eng. in Maschinenbau (Mechanical Engineering)",
-  "crumb": "Engineering / UG Mechanical Engineering",
-  "stats": [
+  level: "B.Sc. / B.Eng. in Maschinenbau (Mechanical Engineering)",
+  crumb: "Engineering / UG Mechanical Engineering",
+  stats: [
     {
-      "label": "Degree Choices",
-      "value": "B.Sc. / B.Eng. in Maschinenbau (Mechanical Engineering)"
+      label: "Degree Choices",
+      value: "B.Sc. / B.Eng. in Maschinenbau (Mechanical Engineering)"
     },
     {
-      "label": "Course Duration",
-      "value": "3 to 4 Years (Bachelor)"
+      label: "Course Duration",
+      value: "3 to 3.5 Years (6 to 7 Semesters)"
     },
     {
-      "label": "Top Institutions",
-      "value": "Technical University of Munich (TUM)      Mechanical engineering and associated technical fields are taught., RWTH Aachen University      Industrial systems, production technology and mechanical engineering are taught."
+      label: "Top Institutions",
+      value: "TUM, RWTH Aachen, KIT, Uni Stuttgart"
     },
     {
-      "label": "Post-Study Work",
-      "value": "18-Month Jobseeker Visa (Residence Permit)"
+      label: "Post-Study Work",
+      value: "18-Month Jobseeker Residence Permit"
     }
   ],
-  "sections": [
+  sections: [
     {
-      "slot": "why",
-      "eyebrow": "Why Study in Germany",
-      "title": "1. Why study Mechanical Engineering in Germany?",
-      "groups": [
+      slot: "courses",
+      eyebrow: "Curriculum & Specializations",
+      title: "Undergraduate Mechanical Engineering Courses in Germany",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "For **studying **mechanical engineering in Germany** is a great option with its automotive industry , advanced manufacturing ,industrial automation and *engineering research Students study ** production systems ** , ** robotics ** , ** materials science ** , ** thermodynamics ** , and ** machine design ** .",
-            "**The benefits are:**",
-            "At  **Edu Hawk Worldwide Consultancy** we help students to gear up for their international education journey, understand the admission requirements of their university and explore the possibilities of international studies with the right preparation and direction."
+          t: "p",
+          items: [
+            "Students can choose from a wide variety of specialized undergraduate mechanical engineering programs depending on their technical interests and industry ambitions.",
+            "Standard Bachelor's degree programs take **3 to 3.5 years** (6 to 7 semesters) to complete, depending on the university and whether an integrated practical internship semester is included.",
+            "While the majority of undergraduate mechanical engineering programs are taught in **German**, select universities offer specialized **English-taught** or bilingual bachelor programs.",
+            "**Popular undergraduate engineering specializations include:**"
           ]
         },
         {
-          "t": "dl",
-          "pairs": [
+          t: "pills",
+          items: [
+            "B.Sc. in Mechanical Engineering (Maschinenbau)",
+            "B.Eng. in Automotive Engineering (Fahrzeugtechnik)",
+            "B.Eng. in Production Engineering (Produktionstechnik)",
+            "B.Eng. in Industrial Engineering (Wirtschaftsingenieurwesen)",
+            "B.Eng. in Aerospace Engineering (Luft- und Raumfahrttechnik)",
+            "B.Eng. in Energy Systems & Power Engineering",
+            "B.Eng. in Manufacturing & Materials Engineering",
+            "B.Eng. in Automation & Robotics (Mechatronik)",
+            "B.Eng. in Computational Mechanics & Simulation"
+          ]
+        }
+      ]
+    },
+    {
+      slot: "unis",
+      eyebrow: "Top German Universities",
+      title: "Top Universities and Institutions for Mechanical Engineering in Germany",
+      unis: [
+        {
+          name: "Technical University of Munich (TUM)",
+          location: "Munich / Garching, Bavaria",
+          desc: "Germany's top-ranked TU9 university and University of Excellence, renowned globally for pioneering breakthroughs in mechanical engineering, automotive mobility, and aerospace technology.",
+          fee: "€2,000 – €3,000 / Semester (TUM international tuition)",
+          duration: "3 Years (6 Semesters)",
+          exams: "APS, German B2/C1 (TestDaF/DSH), Aptitude Assessment",
+          features: [
+            "World-class School of Engineering and Design with cutting-edge research centers in Garching",
+            "Direct collaboration with BMW Group, Audi, Siemens, and MTU Aero Engines",
+            "Consistently ranked among the top 20 universities worldwide for mechanical engineering"
+          ],
+          img: uniImg1,
+          link: "https://www.tum.de"
+        },
+        {
+          name: "RWTH Aachen University",
+          location: "Aachen, North Rhine-Westphalia",
+          desc: "Europe's leading powerhouse for mechanical engineering, production technology, manufacturing automation, and automotive power units.",
+          fee: "€0 / Semester (Public tuition-free)",
+          duration: "3 Years (6 Semesters)",
+          exams: "APS, German B2/C1, or IELTS 6.5",
+          features: [
+            "Germany's largest department of mechanical engineering with world-renowned machine tool laboratories (WZL)",
+            "Unrivaled corporate partnerships with European industrial and automotive leaders",
+            "Extensive practical workshop training integrated into the core curriculum"
+          ],
+          img: uniImg2,
+          link: "https://www.rwth-aachen.de"
+        },
+        {
+          name: "Karlsruhe Institute of Technology (KIT)",
+          location: "Karlsruhe, Baden-Württemberg",
+          desc: "Renowned TU9 technical university and Helmholtz national research center with specialized excellence in manufacturing science, thermal power systems, and vehicle engineering.",
+          fee: "€1,500 / Semester (State non-EU fee)",
+          duration: "3 Years (6 Semesters)",
+          exams: "APS, German B2/C1",
+          features: [
+            "Carl Benz School of Engineering offering specialized international bachelor's degree tracks",
+            "Pioneering research in autonomous vehicle systems, lightweight construction, and micro-machining",
+            "High graduate recruitment rates across premier European engineering firms"
+          ],
+          img: uniImg3,
+          link: "https://www.kit.edu"
+        },
+        {
+          name: "University of Stuttgart",
+          location: "Stuttgart, Baden-Württemberg",
+          desc: "Distinguished TU9 technical university situated in Germany's premier automotive and high-tech manufacturing valley.",
+          fee: "€1,500 / Semester (State non-EU fee)",
+          duration: "3 Years (6 Semesters)",
+          exams: "APS, German B2/C1",
+          features: [
+            "Pioneering academic focus on automotive engineering, aerospace technologies, and precision machine tools",
+            "Immediate proximity and collaborative research with Mercedes-Benz, Porsche, Bosch, and Mahle",
+            "State-of-the-art vehicle testing wind tunnels and advanced simulator facilities"
+          ],
+          img: uniImg4,
+          link: "https://www.uni-stuttgart.de"
+        }
+      ]
+    },
+    {
+      slot: "eligibility",
+      eyebrow: "Eligibility Criteria",
+      title: "Eligibility to Study Mechanical Engineering in Germany",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Eligibility criteria for undergraduate engineering studies are determined by the individual university, state regulations, and the applicant's prior educational background."
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "**Academic Credentials:** Completion of Class 12 (Higher Secondary Certificate) or equivalent with strong subject proficiency in Physics and Mathematics.",
+            "**Higher Education Entrance Qualification (HZB):** A recognized secondary school credential satisfying German university entrance criteria.",
+            "**Studienkolleg Requirement:** Indian applicants completing the standard 12-year school curriculum generally require a one-year preparatory foundation course (**Studienkolleg - T-Kurs**) and must pass the assessment test (**Feststellungsprüfung - FSP**).",
+            "**Direct Entry Exemption:** Direct entry without Studienkolleg may be granted if the applicant has completed 1 year of recognized bachelor's study in India, or holds qualifying scores in JEE Advanced.",
+            "**Pre-Study Internship (Vorpraktikum):** Many TU9 technical universities require applicants to complete 6 to 10 weeks of basic workshop training (Vorpraktikum) in metalworking, machining, or welding prior to or during early semesters.",
+            "**German Language Proficiency:** Compulsory for German-taught programs, typically requiring **B2 to C1 level** (TestDaF 4x4, DSH-2, Goethe-Zertifikat C1, or telc Deutsch C1 Hochschule).",
+            "**English Language Proficiency:** Required for English-taught bachelor programs, demonstrated through TOEFL iBT (80–90+) or IELTS Academic (6.0–6.5+)."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "admission",
+      eyebrow: "Admission Requirements",
+      title: "Undergraduate Mechanical Engineering Admission Requirements",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Universities require official documentation confirming academic preparation, language competency, and legal identity:",
+            "Depending on the university, applications can be submitted either via **uni-assist** or directly through the university's individual admissions portal.",
+            "Students are strongly advised to check the specific requirements and deadlines of each program well in advance."
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "Official Class 10 and Class 12 transcripts and passing certificates.",
+            "APS Certificate issued by the German Embassy Academic Evaluation Centre in New Delhi (compulsory for Indian applicants).",
+            "Official language proficiency certificates in German (Goethe/TestDaF/DSH) or English (IELTS/TOEFL).",
+            "Valid international passport (with at least 12 months validity).",
+            "Tabular Curriculum Vitae (Lebenslauf) and personalized Statement of Purpose / Letter of Motivation.",
+            "Proof of completed pre-study technical internship (Vorpraktikum) if required by the university.",
+            "Studienkolleg admission letter or FSP examination certificate (where applicable).",
+            "Subject-specific aptitude test results (such as TestAS for Engineering) where mandated."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "fees",
+      eyebrow: "Tuition Fees & Living Costs",
+      title: "Cost of Studying Bachelor’s in Mechanical Engineering in Germany",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Studying engineering in Germany is remarkably affordable, particularly at public universities where general tuition is fully subsidized."
+          ]
+        },
+        {
+          t: "table",
+          headers: [
+            "Expense Category",
+            "Estimated Amount (EUR)",
+            "Details & Regulations"
+          ],
+          rows: [
+            [
+              "Public Universities (14 of 16 States)",
+              "€0 / Semester",
+              "100% tuition-free education for domestic and international students in almost all federal states."
+            ],
+            [
+              "Public Universities (Baden-Württemberg)",
+              "€1,500 / Semester",
+              "Statutory tuition fee for non-EU students studying in Baden-Württemberg (e.g., KIT, Uni Stuttgart)."
+            ],
+            [
+              "Technical University of Munich (TUM)",
+              "€2,000 – €3,000 / Semester",
+              "Tuition fee introduced by TUM for non-EU international bachelor students beginning 2024."
+            ],
+            [
+              "Private Universities",
+              "€5,000 – €20,000 / Year",
+              "Tuition fees vary depending on the private university, course structure, and campus facilities."
+            ],
+            [
+              "Semester Contribution (Semesterbeitrag)",
+              "€150 – €400 / Semester",
+              "Mandatory fee covering administrative costs, student union services (Studierendenwerk), and regional transit ticket."
+            ],
+            [
+              "Monthly Living Expenses",
+              "€900 – €1,300 / Month",
+              "Estimated monthly budget for student accommodation (€350–€650), meals, health insurance, and personal expenses."
+            ],
+            [
+              "Mandatory Blocked Account (Sperrkonto)",
+              "€11,904 / Year (€992/month)",
+              "Statutory financial requirement proving living expense coverage for German student visa issuance."
+            ]
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "Students should also budget for study materials, flights, lodging deposits, health insurance, and visa costs. Scholarships such as DAAD awards and the Deutschlandstipendium are available for qualified international students."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "process",
+      eyebrow: "Application Timeline & Steps",
+      title: "Admission Procedure for German Bachelor’s Degree in Mechanical Engineering",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "The standard admission procedure for mechanical engineering in Germany consists of nine structured steps:"
+          ]
+        },
+        {
+          t: "timeline",
+          items: [
             {
-              "t": "A top",
-              "d": "notch engineering education and modern laboratory facilities."
+              step: "Step 01",
+              title: "Shortlist Universities & Specializations",
+              desc: "Research accredited German technical universities and choose your preferred mechanical engineering specializations and language track."
             },
             {
-              "t": "Internships, research opportunities and hands",
-              "d": "on projects."
+              step: "Step 02",
+              title: "Verify Academic Eligibility & HZB",
+              desc: "Determine whether your Class 12 credentials qualify for direct bachelor admission or require a one-year Studienkolleg (T-Kurs) foundation track."
+            },
+            {
+              step: "Step 03",
+              title: "Obtain APS India Certification",
+              desc: "Submit academic transcripts and certificates to the Academic Evaluation Centre (APS) in New Delhi to obtain the mandatory APS certificate."
+            },
+            {
+              step: "Step 04",
+              title: "Prepare Language Certifications",
+              desc: "Acquire required standardized test scores in German (B2/C1) or English (IELTS/TOEFL) matching target university criteria."
+            },
+            {
+              step: "Step 05",
+              title: "Complete Pre-Study Internship (Vorpraktikum)",
+              desc: "If required by target TU9 universities, complete mandatory basic technical workshop training in metal processing and fabrication."
+            },
+            {
+              step: "Step 06",
+              title: "Submit University Applications",
+              desc: "Apply via uni-assist or directly through institutional portals prior to deadlines (typically July 15 for Winter semester)."
+            },
+            {
+              step: "Step 07",
+              title: "Accept Offer & Pay Semester Fee",
+              desc: "Confirm your formal admission letter (Zulassungsbescheid) and transfer the initial semester contribution (Semesterbeitrag) to enroll."
+            },
+            {
+              step: "Step 08",
+              title: "Open Blocked Account & Insurance",
+              desc: "Deposit €11,904 into a federally recognized German Blocked Account (Sperrkonto) and arrange statutory student health insurance."
+            },
+            {
+              step: "Step 09",
+              title: "Apply for German Student Visa",
+              desc: "Book your National Visa (Type D) appointment at the German diplomatic mission or VFS center and complete visa processing."
             }
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Universities have strong links with **engineering industry**.",
-            "Many public colleges, in contrast, have **affordable tuition fees**.",
-            "Employment opportunities in the following industries: manufacturing, robotics, automotive, aerospace and renewable energy."
+          t: "p",
+          items: [
+            "Due to the time required to learn German, obtain an APS certificate, and complete preparatory courses, students should begin preparing 9 to 12 months ahead."
           ]
         }
       ]
     },
     {
-      "slot": "courses",
-      "eyebrow": "Curriculum & Specializations",
-      "title": "2. Mechanical Engineering Courses",
-      "groups": [
+      slot: "accreditation",
+      eyebrow: "Accreditation & Quality Standards",
+      title: "Accreditation and Recognition of Mechanical Engineering in Germany",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Students can choose from a variety of undergraduate engineering programs based on their interests.",
-            "**Popular classes are:**",
-            "Most Bachelors degrees take **3-3.5 years** but this is subject to the university and how the course is designed.",
-            "There may be fewer **English taught programmes**, but many undergraduate courses are taught in **German**."
+          t: "p",
+          items: [
+            "Before enrolling, international students should verify that their chosen program satisfies academic benchmarks and aligns with their career goals:"
           ]
         },
         {
-          "t": "pills",
-          "items": [
-            "BSc/BEng Mechanical Engineering",
-            "BEng Automotive Engineering",
-            "BEng Mechanical Engineering",
-            "BEng Production Engineering",
-            "BEng (Hons) Industrial Engineering",
-            "BEng (Hons) Aerospace Engineering",
-            "BEng (Hons) Energy Engineering",
-            "BEng (Hons) Manufacturing Engineering",
-            "BEng Automation and Robotics",
-            "BEng Materials Engineering"
+          t: "ul",
+          items: [
+            "German engineering programs are rigorously accredited by quality assurance agencies such as **ASIIN** under the German Accreditation Council (Akkreditierungsrat), adhering to the European EUR-ACE quality framework.",
+            "Degrees issued by accredited German universities enjoy universal global recognition under the international Bologna Process.",
+            "In Germany, mechanical engineering is not a strictly state-licensed profession; however, the professional title **'Ingenieur'** is legally protected under state engineering laws (Ingenieurgesetze), requiring a recognized university degree.",
+            "International graduates planning to practice worldwide will find their German degrees widely accepted by engineering councils and global employers."
           ]
         }
       ]
     },
     {
-      "slot": "universities",
-      "eyebrow": "Top German Universities",
-      "title": "3. Top Universities and Colleges in Germany for Mechanical Engineering",
-      "groups": [
+      slot: "careers",
+      eyebrow: "Career Prospects & Salary",
+      title: "Salary and Employment Prospects for Mechanical Engineers in Germany",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Here are some famous ** German institutions for mechanical engineering ** or related subjects:",
-            "**Technical University of Munich (TUM)** - Mechanical engineering and associated technical fields are taught.",
-            "**RWTH Aachen University** - Industrial systems, production technology and mechanical engineering are taught.",
-            "**The Karlsruhe Institute of Technology (KIT)** focuses on manufacturing, energy systems and mechanical engineering.",
-            "**University of Stuttgart -** Mechanical engineering, automotive technology and aerospace-related topics are taught."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Eligibility Criteria",
-      "title": "4. Eligibility to study Mechanical Engineering in Germany",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Eligibility is determined by the university and the applicant’s academic record.",
-            "**Academic requirement:**",
-            "**Language skills:**"
+          t: "p",
+          items: [
+            "Graduates with a mechanical engineering degree from Germany can pursue lucrative careers in manufacturing, automotive engineering, energy, industrial automation, aerospace, and advanced product development.",
+            "**Key career roles for mechanical engineering graduates include:**"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Completion of **Class 12** or equivalent secondary school certificate. Physics and mathematics are generally important pre-requirements.",
-            "A recognized degree that fulfills the requirements for admission to a **German university**.",
-            "Direct admission to the German bachelor program is not always possible for Indian students after completing class 12\\.",
-            "Depending on the board, subjects, grades and other recognized qualities of applicants, they may be asked to attend a preparation course called **Studienkolleg** and pass the **Feststellungs Mündung**.",
-            "**German-taught programs** generally require German competence at the **B2–C1 level** or as determined by the university.",
-            "You may need a **TOEFL**, **IELTS** or other accepted qualification for **English language programmes**."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "admission",
-      "eyebrow": "Admission Requirements",
-      "title": "5. Germany Undergraduate Admission Requirements for Mechanical Engineering",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Candidates may be asked to provide:",
-            "Depending on the university, applications can be submitted either via **uni-assist** or directly to the university.",
-            "Students are advised to check the specific requirements of each program before application."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "10th and 12th class certificates and mark sheets.",
-            "Certificates in German and English.",
-            "Valid Passport. If required",
-            "a motivation letter or resume.",
-            "Additional aptitude tests or subject-specific records on demand."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "fees",
-      "eyebrow": "Tuition Fees & Living Costs",
-      "title": "6. Cost of Mechanical Engineering Bachelor Degree in Germany",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "**Studying engineering in Germany** can be inexpensive, especially at **public universities**.",
-            "**Estimated cost of tuition and university fees:**",
-            "Students should also budget for study materials, travel, health insurance, visa fees and accommodation deposits."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Public universities: Contributions per semester, many bachelor’s programs without general tuition fee.",
-            "Some non-EU candidates are liable to tuition fees for some overseas students at some public universities or states.",
-            "Private University - Tuition fees can range from **€5,000 to €20,000 or more per year.",
-            "The semester contribution is usually between **€150 and €400**, depending on the institution.",
-            "The estimated monthly cost of living, depending on the city, lodging, insurance and lifestyle, is between **€900 and €1,300."
-          ]
-        },
-        {
-          "t": "table",
-          "headers": [
-            "Category / Expense Type",
-            "Estimated Amount (EUR)",
-            "Applicability & Regulation"
-          ],
-          "rows": [
-            [
-              "Public universities",
-              "Contributions per semester, many bachelor’s programs without general tuition fee.",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "Some non",
-              "EU candidates are liable to tuition fees for some overseas students at some public universities or states.",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "Private University",
-              "Tuition fees can range from €5,000 to €20,000 or more per year.",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "The semester contribution is usually between €150 and €400, depending on the institution.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ],
-            [
-              "The estimated monthly cost of living, depending on the city, lodging, insurance and lifestyle, is between €900 and €1,300.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "process",
-      "eyebrow": "Application Timeline & Steps",
-      "title": "7. Admission procedure  German Bachelor’s degree in mechanical engineering",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The usual ****admission procedure**** in Germany involves:"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "why",
-      "eyebrow": "Why Study in Germany",
-      "title": "1. List down colleges and choose a mechanical engineering specialization.",
-      "groups": []
-    },
-    {
-      "slot": "courses",
-      "eyebrow": "Curriculum & Specializations",
-      "title": "2. Check out the language requirements and academic eligibility.",
-      "groups": []
-    },
-    {
-      "slot": "universities",
-      "eyebrow": "Top German Universities",
-      "title": "3. See if you need to do Studienkolleg or if you can be admitted straight away",
-      "groups": []
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Eligibility Criteria",
-      "title": "4. Gather language test scores, certificates, and transcripts.",
-      "groups": []
-    },
-    {
-      "slot": "admission",
-      "eyebrow": "Admission Requirements",
-      "title": "5. Apply through uni-assist or the university portal if applicable.",
-      "groups": []
-    },
-    {
-      "slot": "fees",
-      "eyebrow": "Tuition Fees & Living Costs",
-      "title": "6. Complete any entrance exams that are required.",
-      "groups": []
-    },
-    {
-      "slot": "process",
-      "eyebrow": "Application Timeline & Steps",
-      "title": "7. Get an offer of admission and accept it.",
-      "groups": []
-    },
-    {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Quality Standards",
-      "title": "8. Make arrangements for money, housing and health insurance.",
-      "groups": []
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Career Prospects & Salary",
-      "title": "9. Apply for a German student visa if required.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Due to the time it takes to study German, verify credentials and complete a preparatory course, students should start preparing early."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Quality Standards",
-      "title": "8. Accreditation and recognition of mechanical engineering in Germany",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Before signing up, students should ensure the program fits their educational and career ambitions and that the university is well-regarded.",
-            "Some **engineering programs** are accredited by bodies such as **ASIIN** or other recognized quality assurance agreements.",
-            "Accreditation status varies by program and candidates should contact the university directly.",
-            "In Germany, mechanical engineering is usually not a regulated profession.",
-            "However, some overseas regulated jobs and engineering positions may require further recognition or professional registration."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Career Prospects & Salary",
-      "title": "9. Prospects for job opportunities",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Graduates with a mechanical engineering degree can seek jobs in manufacturing, automotive engineering, energy, industrial automation, aerospace and product development.",
-            "Some of the many career paths include:",
-            "Indicative **starting salaries** may range from **€40,000 to €55,000 gross per year**, depending on the position, employer, location and skills.",
-            "Specialists and engineers with more experience may make more.",
-            "The better your chances of getting a job are, the more you will be able to improve them with **internships** , **CAD software knowledge** practical engineering projects, and",
-            "****German-language proficiency****",
-            "Certain specialized roles within research and development may require a Master's degree."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Automotive Engineer",
+          t: "pills",
+          items: [
+            "Automotive Systems Engineer",
             "Mechanical Design Engineer",
-            "Manufacturing Engineer",
-            "Production Engineer job description",
-            "The Quality Engineer",
-            "Maintenance Engineer",
-            "The Automation and Robotics Engineer",
-            "CAD Engineer Thermal Systems",
-            "Engineer Research and Development Engineer"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Required Documentation",
-      "title": "10. Documents Required",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Documents Often Required Documents frequently required are:",
-            "The specific document checklist varies based on the university and your personal circumstances."
+            "Manufacturing & Production Engineer",
+            "Automation & Robotics Engineer",
+            "Thermal Systems & CFD Engineer",
+            "CAD/CAE Simulation Specialist",
+            "Quality Assurance Engineer",
+            "Maintenance & Plant Reliability Engineer",
+            "Aerospace Mechanical Engineer",
+            "Research & Development (R&D) Engineer"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "A valid passport.",
-            "Certificates and transcripts of Class 10 and 12\\.",
-            "Certificates in English or German language.",
-            "Certified translations are available upon request.",
-            "Resume or motivation letter if necessary. If relevant **Studienkolleg** application/examination material.",
-            "Admission letter to the university.",
-            "financial means and health insurance to get a visa."
+          t: "ul",
+          items: [
+            "Indicative starting salaries for entry-level mechanical engineers range from **€40,000 to €55,000 gross per year**, depending on the industry sector, location, and technical portfolio.",
+            "Experienced specialists, team leads, and project managers regularly command salaries exceeding **€70,000 to €95,000+ annually**.",
+            "Employment prospects are greatly enhanced by completed industrial internships, practical CAD/FEA software proficiency, and fluent German language skills.",
+            "International graduates are entitled to an **18-month post-study work visa (Jobseeker Residence Permit)** to secure relevant employment and transition toward an EU Blue Card or permanent residency."
           ]
         }
       ]
     },
     {
-      "slot": "details",
-      "eyebrow": "Key Insights",
-      "title": "11. FAQs for UG Mechanical Engineering in Germany",
-      "groups": [
+      slot: "documents",
+      eyebrow: "Required Documentation",
+      title: "Documents Needed for Undergraduate Mechanical Engineering Studies in Germany",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Q1. Do Indian students get to study Mechanical Engineering in Germany after 12th grade?",
-            "Yes, students are required to meet the admission requirements of German universities. Depending on their qualifications, some may have to do **Studienkolleg** and take the assessment test.",
-            "Q2. Can I study mechanical engineering in Germany for free?",
-            "You’ll have to pay semester fees, but several **public universities** offer free general tuition for qualified bachelor’s programs. Private universities usually charge tuition, as do some public universities and states.",
-            "Q3. Is it possible to study mechanical engineering in English in Germany?",
-            "Most of the undergraduate mechanical engineering degrees are taught in German, but there may be some English language programs available. Learning German can greatly increase the availability of programs.",
-            "Q4. How long does it take to obtain a Bachelor’s degree in mechanical engineering in Germany?",
-            "Most programs take three to three and a half years to complete, depending on the school and program.",
-            "Q5. How much does a Mechanical Engineering graduate earn in Germany?",
-            "**Entry-level salaries** can range from **€40,000 to €55,000 gross/year** depending on the employer, location, area of expertise and real-world experience.",
-            "How can I study abroad with the assistance of **Edu Hawk Worldwide Consultancy?**",
-            "Students may plan their **study-abroad journey**, organize **application documents**, comprehend **admission requirements**, and explore  **suitable universities** with the assistance of **Edu Hawk Worldwide.** Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
+          t: "p",
+          items: [
+            "A comprehensive document dossier is necessary for university applications and visa processing:"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "Valid international passport (with at least 12 months validity).",
+            "Official Class 10 and Class 12 mark sheets and certificates.",
+            "Proof of Higher Education Entrance Qualification (HZB) and official APS Certificate.",
+            "Recognized German language certification (Goethe, TestDaF, DSH, telc) or English test scorecard (IELTS/TOEFL).",
+            "Certified, sworn translations into German or English for all regional-language documents.",
+            "Tabular Curriculum Vitae (Lebenslauf) and personalized Statement of Purpose (Letter of Motivation).",
+            "Proof of completed pre-study technical workshop training (Vorpraktikum) if required.",
+            "Studienkolleg application proof or FSP examination certificate (if applicable).",
+            "Official University Letter of Admission (Zulassungsbescheid).",
+            "Proof of financial resources (€11,904 blocked account deposit) and statutory German student health insurance."
           ]
         }
       ]
     }
   ],
-  "faqs": []
+  faqs: [
+    {
+      q: "Do Indian students get to study Mechanical Engineering in Germany after 12th grade?",
+      a: "Yes. Indian students who fulfill German university entrance requirements (HZB) can study mechanical engineering. Students completing 12 years of regular schooling typically complete a 1-year preparatory foundation course (Studienkolleg T-Kurs) and pass the Feststellungsprüfung (FSP). Students with one year of recognized bachelor's study in India or eligible JEE Advanced scores qualify for direct university admission."
+    },
+    {
+      q: "Can I study mechanical engineering in Germany for free?",
+      a: "Yes. For qualified bachelor's programs, public universities across 14 of 16 German federal states charge zero general tuition fees. Students only pay an administrative semester contribution of €150 to €400 covering student services and a regional transit pass. Non-EU international students pay €1,500 per semester in Baden-Württemberg and €2,000 to €3,000 per semester at TUM, while private universities set their own tuition fees."
+    },
+    {
+      q: "Is it possible to study mechanical engineering in English in Germany at the undergraduate level?",
+      a: "While the vast majority of undergraduate mechanical engineering programs in Germany are taught in German, there are select English-taught bachelor programs available at universities of applied sciences and specialized schools like the Carl Benz School of Engineering (KIT). Learning German (B2 to C1) dramatically broadens university options and post-graduation employability."
+    },
+    {
+      q: "How long does it take to obtain a Bachelor’s degree in mechanical engineering in Germany?",
+      a: "Most undergraduate mechanical engineering programs in Germany take 3 to 3.5 years (6 to 7 semesters) to complete, often including mandatory industrial internships and a bachelor thesis project conducted in collaboration with industry."
+    },
+    {
+      q: "How much does a Mechanical Engineering graduate earn in Germany?",
+      a: "Depending on the technical role, industry sector, geographical location, and practical internship experience, entry-level gross salaries typically range from €40,000 to €55,000 per year, with experienced engineers earning substantially more."
+    },
+    {
+      q: "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
+      a: "Edu Hawk Worldwide assists students with profile evaluation, university and course shortlisting, Studienkolleg and HZB guidance, Vorpraktikum planning, APS verification, application submission via uni-assist, SOP & CV tailoring, blocked account setup, and German student visa preparation. Contact our overseas education advisors to begin your German engineering journey."
+    }
+  ]
 };
 
 export default function MechanicalEngineeringUGGermanyPage() {
-  const images = {
-    hero: heroImg,
-    heroBg: heroBgImg,
-    side: sideImg,
-    ctaBg: ctaBgImg,
-    universities: [
-    {
-      name: "Technical University of Munich (TUM)      Mechanical engineering and associated technical fields are taught.",
-      img: uniImg1,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "RWTH Aachen University      Industrial systems, production technology and mechanical engineering are taught.",
-      img: uniImg2,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "The Karlsruhe Institute of Technology (KIT)   focuses on manufacturing, energy systems and mechanical engineering.",
-      img: uniImg3,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "University of Stuttgart      Mechanical engineering, automotive technology and aerospace related topics are taught.",
-      img: uniImg4,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    }
-    ]
-  };
-
-  return <AbroadCoursePage page={page} images={images} />;
+  return (
+    <AbroadCoursePage
+      page={page}
+      heroImg={heroImg}
+      heroBgImg={heroBgImg}
+      sideImg={sideImg}
+      ctaBgImg={ctaBgImg}
+      seoPath="/study-abroad/germany/ug/mechanical-engineering"
+    />
+  );
 }

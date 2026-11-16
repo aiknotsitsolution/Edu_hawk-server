@@ -21,9 +21,7 @@ const page = {
   "keywords": "Study MSc Electronics & Communication Engineering in the UK, MSc Electronics & Communication Engineering in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Communication and Electronics Engineering (PG)",
   "heroParas": [
-    "The UK is a popular destination for international students seeking postgraduate education in Electronics and Communication Engineering.",
-    "Universities in the UK provide advanced programs that combine electronics, communication technologies, signal processing, wireless systems, and practical engineering applications.",
-    "The primary benefits of studying electronics and communication engineering in the UK"
+    "The UK is a popular destination for international students seeking postgraduate education in Electronics and Communication Engineering."
   ],
   "overview": [
     "The UK is a popular destination for international students seeking postgraduate education in Electronics and Communication Engineering.",

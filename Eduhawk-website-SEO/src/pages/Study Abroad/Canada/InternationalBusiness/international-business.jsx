@@ -19,8 +19,7 @@ const page = {
   "keywords": "Study International Business in Canada, International Business in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "International Business for Indian Students in Canada",
   "heroParas": [
-    "The study of how businesses function internationally is known as International business. International trade, worldwide markets, cross-cultural management, international marketing, supply chains, corporate strategy, and the difficulties of international expansion are all examined.",
-    "Because its higher education institutions provide business and management programs that study worldwide markets and business processes, Canada may be a desirable destination for students interested in global commerce and international business education. Depending on their educational background and professional goals, students might investigate undergraduate degrees, graduate programs, diplomas, certifications, and specialist management courses."
+    "The study of how businesses function internationally is known as International business. International trade, worldwide markets, cross-cultural management, international marketing, supply chains, corporate strategy, and the difficulties of international expansion are all examined."
   ],
   "overview": [
     "The study of how businesses function internationally is known as International business. International trade, worldwide markets, cross-cultural management, international marketing, supply chains, corporate strategy, and the difficulties of international expansion are all examined.",

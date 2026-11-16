@@ -14,411 +14,469 @@ import uniImg3 from "../../../../../../Images/Abroad/Germany/Engineering_UG/Chem
 import uniImg4 from "../../../../../../Images/Abroad/Germany/Engineering_UG/Chemical/Stuttgart_University_possesses_skil.webp";
 
 const page = {
-  "name": "Undergraduate Chemical Engineering in Germany",
-  "country": "Germany",
-  "slug": "ug/chemical-engineering",
-  "title": "Undergraduate Chemical Engineering in Germany for Indian Students | Edu-Hawk Worldwide",
-  "description": "Complete guide to Undergraduate Chemical Engineering in Germany for international students: Top German universities, admission requirements, zero-tuition public education, living expenses, and 18-month post-study work visa.",
-  "keywords": "Study in Germany, Undergraduate Chemical Engineering in Germany, Universities in Germany, Tuition Fees, Visa Requirements, Careers in Germany",
-  "introTitle": "1\\. WHY STUDY CHEMICAL ENGINEERING IN GERMANY?",
-  "heroParas": [
-    "Germany is one of Europe’s leading countries for studying **chemical manufacturing, industrial research, medicines, materials science and sustainable technologies**.",
-    "In Germany, students can **study **Chemical Engineering**** and obtain technical expertise in **chemical processes, industrial production, energy systems and environmental engineering.**",
-    "**The main benefits of studying chemical engineering in Germany are:**",
-    "* Quality Education: German universities are renowned for their high quality scientific research and engineering programs.",
-    "* Germany has a well-established **chemical and pharmaceutical industry** with possible internship and job opportunities.",
-    "* **Lab work, process simulations, design projects and industrial placements** give students experience.",
-    "* Many state universities offer free tuition for general studies in eligible Bachelor’s programs, with some exceptions and semester contributions.",
-    "* Students can choose to conduct research on topics like sustainable chemistry, novel materials, renewable energy and optimization of industrial processes.",
-    "* Chemical engineering graduates can work in the fields of **chemicals, pharmaceuticals, energy, food processing, environmental technologies and manufacturing**.",
-    "The course is recommended for students interested in **chemistry, mathematics, physics, industrial processes** and designing efficient and sustainable production systems.",
-    "**Edu Hawk Worldwide Consultancy** is a platform that assists students in their international education journey, familiarizing them with university admission requirements and guiding them to explore international study opportunities with the right preparation and guidance."
+  name: "Undergraduate Chemical Engineering in Germany",
+  country: "Germany",
+  slug: "ug/chemical-engineering",
+  title: "Undergraduate Chemical Engineering in Germany for Indian Students | Edu-Hawk Worldwide",
+  description:
+    "Complete guide to Undergraduate Chemical Engineering in Germany for international students: Top German technical universities, admission requirements, zero-tuition public education, living costs, and 18-month post-study work visa.",
+  keywords:
+    "Study Chemical Engineering in Germany for Indian Students, Chemical Engineering at the Bachelor Level in Germany, Bachelor of Science in Chemical Engineering Germany, Top Universities for Chemical Engineering in Germany, Karlsruhe Institute of Technology, TU Berlin, TU Dresden, University of Stuttgart, Courses in Process Engineering in Germany, Biochemical and Chemical Process Engineering in Germany, Eligibility Criteria for Chemical Engineering in Germany, German Language Requirements for Chemical Engineering, Tuition Fees for Chemical Engineering in Germany, Living Expenses for Engineering Students in Germany",
+  introTitle: "Why Study Chemical Engineering in Germany?",
+  heroParas: [
+    "Germany is one of Europe’s leading superpowers for studying **chemical manufacturing, industrial research, pharmaceuticals, materials science, and sustainable production technologies**."
   ],
-  "overview": [
-    "Germany is one of Europe’s leading countries for studying **chemical manufacturing, industrial research, medicines, materials science and sustainable technologies**.",
-    "In Germany, students can **study **Chemical Engineering**** and obtain technical expertise in **chemical processes, industrial production, energy systems and environmental engineering.**",
-    "**The main benefits of studying chemical engineering in Germany are:**",
-    "* Quality Education: German universities are renowned for their high quality scientific research and engineering programs.",
-    "* Germany has a well-established **chemical and pharmaceutical industry** with possible internship and job opportunities.",
-    "* **Lab work, process simulations, design projects and industrial placements** give students experience.",
-    "* Many state universities offer free tuition for general studies in eligible Bachelor’s programs, with some exceptions and semester contributions.",
-    "* Students can choose to conduct research on topics like sustainable chemistry, novel materials, renewable energy and optimization of industrial processes.",
-    "* Chemical engineering graduates can work in the fields of **chemicals, pharmaceuticals, energy, food processing, environmental technologies and manufacturing**.",
-    "The course is recommended for students interested in **chemistry, mathematics, physics, industrial processes** and designing efficient and sustainable production systems.",
-    "**Edu Hawk Worldwide Consultancy** is a platform that assists students in their international education journey, familiarizing them with university admission requirements and guiding them to explore international study opportunities with the right preparation and guidance."
+  overview: [
+    "Undergraduate students acquire world-class technical expertise in **chemical processes, industrial synthesis, plant design, energy systems, and environmental engineering** at renowned German technical universities with zero general tuition fees and an 18-month post-study work visa.",
+    "**The primary benefits of studying chemical engineering in Germany include:**",
+    "* **World-Class Technical Education:** German universities are internationally celebrated for their rigorous scientific research and cutting-edge engineering programs.",
+    "* **Thriving Chemical & Pharma Industry:** Germany hosts Europe's largest chemical ecosystem (including BASF, Bayer, Evonik, and Merck) offering unmatched internship and career pathways.",
+    "* **Extensive Practical Experience:** Students gain invaluable hands-on expertise through **laboratory work, process simulations, plant design projects, and industrial placements**.",
+    "* **Tuition-Free Public Education:** Most public universities charge zero general tuition for undergraduate programs, requiring only nominal semester contributions.",
+    "* **Pioneering Research Topics:** Opportunities to conduct research in sustainable green chemistry, advanced novel materials, circular economy, and industrial decarbonization.",
+    "* **High Employability Across Sectors:** Graduates excel across **chemicals, pharmaceuticals, energy, food processing, environmental engineering, and high-tech manufacturing**.",
+    "This discipline is ideal for students with strong foundations in **chemistry, mathematics, physics, and industrial problem-solving** aiming to design sustainable production systems.",
+    "**Edu Hawk Worldwide Consultancy** guides students through every phase of their German study journey—from academic eligibility evaluation to university applications, blocked accounts, and visa filing."
   ],
-  "level": "B.Sc. / B.Eng. in Chemieingenieurwesen / Verfahrenstechnik",
-  "crumb": "Engineering / UG Chemical Engineering",
-  "stats": [
+  level: "B.Sc. / B.Eng. in Chemieingenieurwesen / Verfahrenstechnik",
+  crumb: "Engineering / UG Chemical Engineering",
+  stats: [
     {
-      "label": "Degree Choices",
-      "value": "B.Sc. / B.Eng. in Chemieingenieurwesen / Verfahrenstechnik"
+      label: "Degree Choices",
+      value: "B.Sc. / B.Eng. in Chemical & Process Engineering"
     },
     {
-      "label": "Course Duration",
-      "value": "3 to 4 Years (Bachelor)"
+      label: "Course Duration",
+      value: "3 to 3.5 Years (6 to 7 Semesters)"
     },
     {
-      "label": "Top Institutions",
-      "value": "The Karlsruhe Institute of Technology (KIT)      renowned for scientific research and engineering, notably     chemical and process engineering, Berlin Technical University      renowned for teaching science and engineering."
+      label: "Top Institutions",
+      value: "KIT, TU Berlin, TU Dresden, Uni Stuttgart"
     },
     {
-      "label": "Post-Study Work",
-      "value": "18-Month Jobseeker Visa (Residence Permit)"
+      label: "Post-Study Work",
+      value: "18-Month Jobseeker Residence Permit"
     }
   ],
-  "sections": [
+  sections: [
     {
-      "slot": "courses",
-      "eyebrow": "Curriculum & Specializations",
-      "title": "2. German Study Courses in Chemical Engineering",
-      "groups": [
+      slot: "courses",
+      eyebrow: "Curriculum & Specializations",
+      title: "German Study Courses in Chemical Engineering",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "****A Bachelor’s degree in Chemical Engineering in Germany**** takes **3 to 3.5 years** to finish, depending on the type of degree and the university.",
-            "Some universities offer a degree in Chemical Engineering but others offer similar degrees such as **Process Engineering, Chemical Technology or Biochemical Engineering**.",
-            "**Some common options for undergraduate study include:**",
-            "Usually topics are discussed:",
-            "For each university, a different syllabus. When students select a program, they should think about the curriculum and the practical training opportunities."
+          t: "p",
+          items: [
+            "A **Bachelor’s degree in Chemical Engineering in Germany** typically takes **3 to 3.5 years** (6 to 7 semesters) to complete, depending on the university and course structure.",
+            "German universities offer dedicated degrees in Chemical Engineering as well as interdisciplinary branches like **Process Engineering (Verfahrenstechnik), Chemical Technology, Energy and Process Engineering, or Biochemical Engineering**.",
+            "**Common undergraduate degree pathways include:**"
           ]
         },
         {
-          "t": "pills",
-          "items": [
-            "BEng/BSc in Chemical Engineering",
-            "BEng/BSc in Chemical and Process Engineering",
-            "Biochemical Engineering",
-            "Industrial Chemistry Engineering",
-            "Energy and Process Engineering",
-            "Process and environmental engineering",
-            "Mathematics and engineering physics courses",
-            "physical chemistry",
-            "Thermodynamics",
-            "Mechanical of Fluids",
-            "Mass and heat transfer",
-            "Chemical reaction engineering .",
-            "Separation techniques",
-            "Instrumentation and process control",
-            "Process safety and plant design",
-            "Engineering (green and sustainable)"
+          t: "pills",
+          items: [
+            "B.Sc. / B.Eng. in Chemical Engineering (Chemieingenieurwesen)",
+            "B.Sc. in Chemical and Process Engineering (Verfahrenstechnik)",
+            "Biochemical Engineering & Biotechnology",
+            "Industrial Chemistry & Chemical Technology",
+            "Energy and Process Systems Engineering",
+            "Environmental and Process Engineering",
+            "Sustainable Materials & Polymer Engineering"
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "**Core curriculum topics typically covered:**"
+          ]
+        },
+        {
+          t: "pills",
+          items: [
+            "Higher Mathematics & Engineering Physics",
+            "Inorganic, Organic & Physical Chemistry",
+            "Technical Thermodynamics & Heat Transfer",
+            "Fluid Mechanics & Fluidized Beds",
+            "Mass Transfer & Separation Techniques",
+            "Chemical Reaction Engineering & Kinetics",
+            "Process Instrumentation and Control Systems",
+            "Plant Design, Safety & Risk Analysis",
+            "Green Chemistry & Environmental Engineering",
+            "Process Modeling, Simulation & Optimization"
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "Each university establishes its own specialized curriculum. When selecting a program, students should review specific laboratory course modules and industrial training partnerships."
           ]
         }
       ]
     },
     {
-      "slot": "universities",
-      "eyebrow": "Top German Universities",
-      "title": "3. Top German Universities & Schools for Chemical Engineering",
-      "groups": [
+      slot: "unis",
+      eyebrow: "Top German Universities",
+      title: "Top German Universities & Schools for Chemical Engineering",
+      lead: [
+        "Germany is home to some of the world's most distinguished institutions in chemical engineering, process technology, and industrial research:"
+      ],
+      unis: [
         {
-          "t": "p",
-          "items": [
-            "Within Germany, there are many universities with a high reputation in **chemical engineering, process engineering and other related technical subjects**.",
-            "**The Karlsruhe Institute of Technology (KIT)** - renowned for scientific research and engineering, notably **chemical and process engineering**",
-            "**Berlin Technical University -** renowned for teaching science and engineering.",
-            "**TU Dresden** - provides possibilities to study **chemical technology, process engineering, and related fields** in engineering and science programs.",
-            "**Stuttgart University** - possesses skills in industrial research and engineering."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Eligibility Criteria",
-      "title": "4. Eligibility for Chemical Engineering Study in Germany",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "In general, applicants to the undergraduate **Chemical Engineering program** must meet the following requirements :",
-            "**The academic requirements for admission to a German university –**",
-            "Indian students may require additional recognized qualifications and a preparatory Studienkolleg course, called the Feststellungsprüfung. Some programs may require aptitude tests, real world experience or other supporting documentation."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Completion of high school.",
-            "Relevant subjects:** **Physics** is often a prerequisite or recommended, **Mathematics and Chemistry** are important.",
-            "Academic performance: minimum grades and selection criteria are determined by the universities.",
-            "Language skills: This depends on the university, but normally you need to have **B2 or C1 level German** to study courses taught in Germany.",
-            "Programs taught in English may require the **TOEFL, IELTS or an approved substitute.",
-            "**Qualification Recognition:** Based on your Class 12 qualification and academic background"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "admission",
-      "eyebrow": "Admission Requirements",
-      "title": "5. Admission requirements for Chemical Engineering in Germany",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Admission requirements vary by institution, but generally require applicants to have:",
-            "In addition, applicants should check whether they need to apply through a designated application service or direct to the university."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "A valid certificate of leaving school such **Class 12 for Indian applicants** .",
-            "Academic transcripts and marksheets.",
-            "A good academic background in Physics, Chemistry and Mathematics.",
-            "Proof of proficiency in German or English, as applicable to the program.",
-            "Current passport or other required identification.",
-            "Motivation letter or CV, where applicable. Any extra paperwork or test results required by the university."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "fees",
-      "eyebrow": "Tuition Fees & Living Costs",
-      "title": "6. Cost of Studying Chemical Engineering in Germany",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "**The cost of studying **Chemical Engineering**** varies with the program, location, lifestyle and institution.",
-            "Cost estimates:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Many public institutions do not charge general tuition for eligible bachelor’s programs, but restrictions and exclusions vary by state.",
-            "The contribution per semester is approximately between €150 and €400.",
-            "Tuition at private universities often costs between 5,000 and 20,000 euros a year or more. Living expenses can range from **€900 to €1,300 per month depending on lodging and lifestyle.",
-            "Also budget separately for health insurance, study materials, transport and up-front costs of relocation."
-          ]
-        },
-        {
-          "t": "table",
-          "headers": [
-            "Category / Expense Type",
-            "Estimated Amount (EUR)",
-            "Applicability & Regulation"
+          name: "Karlsruhe Institute of Technology (KIT)",
+          location: "Karlsruhe, Baden-Württemberg, Germany",
+          desc: "Renowned European center for scientific research and engineering excellence, celebrated worldwide for cutting-edge chemical and process engineering.",
+          fee: "€0 Tuition (€1,500/sem state tuition in Baden-Württemberg for non-EU students)",
+          duration: "3 Years (6 Semesters)",
+          exams: "Class 12 / Studienkolleg, German B2/C1",
+          features: [
+            "Degree: B.Sc. in Chemical and Process Engineering (CIW)",
+            "Member of the German Excellence Initiative and TU9 alliance",
+            "State-of-the-art chemical synthesis and micro-process engineering facilities",
+            "Direct research tie-ups with BASF, Evonik, and international chemical consortia"
           ],
-          "rows": [
+          img: uniImg1,
+          link: "https://www.kit.edu"
+        },
+        {
+          name: "Technical University of Berlin (TU Berlin)",
+          location: "Berlin, Germany",
+          desc: "World-class TU9 institution internationally acclaimed for top-tier teaching, chemical technology, and sustainable industrial process innovation.",
+          fee: "€0 Tuition (Semester contribution approx. €315/sem)",
+          duration: "3 Years (6 Semesters)",
+          exams: "Class 12 / Studienkolleg, German B2/C1",
+          features: [
+            "Degree: B.Sc. in Chemical Engineering (Chemieingenieurwesen)",
+            "Comprehensive training in reaction kinetics, thermodynamics, and plant design",
+            "Extensive industry networking opportunities in Germany's capital",
+            "Modern laboratory complexes for renewable fuels and green process design"
+          ],
+          img: uniImg2,
+          link: "https://www.tu.berlin"
+        },
+        {
+          name: "TU Dresden (Dresden University of Technology)",
+          location: "Dresden, Saxony, Germany",
+          desc: "Top-ranked University of Excellence offering comprehensive programs in chemical technology, process engineering, and natural materials technology.",
+          fee: "€0 Tuition (Semester contribution approx. €290/sem)",
+          duration: "3.5 to 5 Years (Bachelor / Diplom-Ingenieur)",
+          exams: "Class 12 / Studienkolleg, German B2/C1",
+          features: [
+            "Degree: B.Sc. / Diplom in Process Engineering (Verfahrenstechnik)",
+            "Member of the German Excellence Initiative with high research output",
+            "Specialized institutes in energy process engineering and sustainable chemistry",
+            "Intensive practical training with integrated industrial internships"
+          ],
+          img: uniImg3,
+          link: "https://tu-dresden.de"
+        },
+        {
+          name: "University of Stuttgart",
+          location: "Stuttgart, Baden-Württemberg, Germany",
+          desc: "Distinguished research university renowned for engineering prowess, industrial research partnerships, and advanced process systems engineering.",
+          fee: "€0 Tuition (€1,500/sem state tuition in Baden-Württemberg for non-EU students)",
+          duration: "3 Years (6 Semesters)",
+          exams: "Class 12 / Studienkolleg, German B2/C1",
+          features: [
+            "Degree: B.Sc. in Chemical and Bio-Engineering (Verfahrenstechnik)",
+            "Close integration with southwest Germany's high-tech industrial base",
+            "Leading research institutes in biochemical engineering and thermodynamic modeling",
+            "High-performance computing resources for process simulation"
+          ],
+          img: uniImg4,
+          link: "https://www.uni-stuttgart.de"
+        }
+      ]
+    },
+    {
+      slot: "eligibility",
+      eyebrow: "Eligibility Criteria",
+      title: "Eligibility for Chemical Engineering Study in Germany",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "International applicants seeking admission to undergraduate Chemical Engineering programs in Germany must meet specific academic and linguistic criteria:",
+            "**Academic eligibility standards:**"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "**Higher Secondary Completion:** Successful completion of 12 years of formal schooling (Class 12 / Higher Secondary Certificate).",
+            "**Subject Prerequisites:** Strong academic background in **Mathematics and Chemistry**, with **Physics** as a strongly recommended or required foundation.",
+            "**Academic Performance:** Competitive minimum grades as established by the university's faculty admission council.",
+            "**German Language Proficiency:** For German-taught bachelor's programs, recognized B2 or C1 level certifications (TestDaF, DSH-2, Goethe-Zertifikat C1, or telc Deutsch C1 Hochschule).",
+            "**English Language Proficiency:** For English-taught programs, proof of English fluency via TOEFL iBT (80-90+), IELTS Academic (6.0-6.5+), or approved equivalents.",
+            "**Educational Qualification Recognition:** Based on Indian Class 12 credentials, students typically require a 1-year preparatory **Studienkolleg (T-Kurs)** followed by the **Feststellungsprüfung (FSP)**, unless qualifying through JEE Advanced or equivalent 1-year university education in India."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "admission",
+      eyebrow: "Admission Requirements",
+      title: "Admission Requirements for Chemical Engineering in Germany",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Admission requirements vary slightly across universities, but applicants are generally required to provide:",
+            "Applicants should verify whether their university requires applications through **Uni-Assist** or directly via the university's own application portal."
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "A recognized secondary school leaving certificate such as **Class 12 for Indian applicants**.",
+            "Official academic marksheets and certified German/English translations.",
+            "Documented high-school coursework in Mathematics, Chemistry, and Physics.",
+            "Official proof of language proficiency in German (TestDaF/DSH) or English (IELTS/TOEFL) corresponding to the instruction medium.",
+            "Valid international passport with at least 18 months of remaining validity.",
+            "Statement of Purpose (Letter of Motivation) and updated Academic Curriculum Vitae (CV).",
+            "APS (Akademische Prüfstelle) certificate (mandatory for Indian applicants applying to German institutions)."
+          ]
+        }
+      ]
+    },
+    {
+      slot: "fees",
+      eyebrow: "Tuition Fees & Living Costs",
+      title: "Cost of Studying Chemical Engineering in Germany",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "The cost of studying **Chemical Engineering** in Germany is among the most affordable in the world for international students, with public universities charging zero general tuition fees.",
+            "Below is a detailed breakdown of estimated academic and living expenses:"
+          ]
+        },
+        {
+          t: "table",
+          headers: [
+            "Expense Category",
+            "Estimated Amount (EUR)",
+            "Applicability & Guidelines"
+          ],
+          rows: [
             [
-              "Many public institutions do not charge general tuition for eligible bachelor’s programs, but restrictions and exclusions vary by state.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
+              "Public University Tuition",
+              "€0 / Free",
+              "Public universities in 15 of 16 German states charge no tuition. Baden-Württemberg levies €1,500/semester for non-EU students."
             ],
             [
-              "The contribution per semester is approximately between €150 and €400.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
+              "Semester Contribution (Semesterbeitrag)",
+              "€150 – €400 per semester",
+              "Mandatory fee covering administrative costs, student union support, and a semester public transit ticket (Semesterticket)."
             ],
             [
-              "Tuition at private universities often costs between 5,000 and 20,000 euros a year or more. Living expenses can range from €900 to €1,300 per month depending on lodging and lifestyle.",
-              "Free / Low Cost",
-              "Public universities waive general tuition fees; semester contribution applies."
+              "Private University Tuition",
+              "€5,000 – €20,000+ per year",
+              "Applies only if attending private institutions with specialized English curricula."
             ],
             [
-              "Also budget separately for health insurance, study materials, transport and up",
-              "front costs of relocation.",
-              "Public universities waive general tuition fees; semester contribution applies."
+              "Monthly Living Expenses",
+              "€900 – €1,300 per month",
+              "Encompasses student accommodation, groceries, local transport, utilities, and personal essentials."
+            ],
+            [
+              "Statutory Health Insurance",
+              "€120 – €140 per month",
+              "Mandatory health cover required for university enrollment and German student visa approval."
+            ],
+            [
+              "Blocked Account (Sperrkonto)",
+              "€11,904 per year (€992/mo)",
+              "Official statutory financial requirement mandated by the German Federal Foreign Office to cover one year's living expenses."
             ]
           ]
         }
       ]
     },
     {
-      "slot": "process",
-      "eyebrow": "Application Timeline & Steps",
-      "title": "7. German Admission Procedure for Chemical Engineering",
-      "groups": [
+      slot: "process",
+      eyebrow: "Application Timeline & Steps",
+      title: "German Admission Procedure for Chemical Engineering",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "The ****admission process in Germany**** usually consists of the following steps:",
-            "Step 1: Research appropriate programs",
-            "Look for colleges offering a Bachelor Degree in Chemical Engineering or Process Engineering or related fields.",
-            "Step 2: Confirm Your Eligibility",
-            "Check if you need **Studienkolleg**. Check if your education fits the requirements for admission to German universities.",
-            "Step 3: Verify the language of instruction.",
-            "Please confirm whether the program is taught in **English or German** and which language certificates are required.",
-            "Step 4: Prepare your application materials.",
-            "Collect academic credentials, transcripts, passport information, language test results, and any other required documents.",
-            "Step 5: Submit your application",
-            "Submit your application through the university’s official website or the university’s designated application service.",
-            "Step 6: Complete other assessments",
-            "Attend any interviews, aptitude tests or other selection procedures required.",
-            "Step 7: Receive the admissions decision",
-            "Check the admission criteria, deadlines, admission letter and fee information.",
-            "Step 8: Get finances and student visas sorted",
-            "All the required documentation for a **German student visa**, financial resources, health insurance and accommodation.",
-            "Step 9: Enroll in the university",
-            "Complete the registration process and get ready to start your studies.",
-            "Application dates vary by institution and intake. Start early to give yourself enough time for qualification evaluation, language training and visa processing."
+          t: "timeline",
+          items: [
+            {
+              step: "Step 1",
+              title: "Research Appropriate Programs",
+              desc: "Explore German public universities offering Bachelor degrees in Chemical Engineering (Chemieingenieurwesen), Process Engineering (Verfahrenstechnik), or related disciplines via DAAD and university portals."
+            },
+            {
+              step: "Step 2",
+              title: "Confirm Your Eligibility & Pathway",
+              desc: "Check whether your school-leaving certificate qualifies for direct university entrance or requires a 1-year Studienkolleg preparatory course (T-Kurs) followed by the Feststellungsprüfung (FSP)."
+            },
+            {
+              step: "Step 3",
+              title: "Verify the Language of Instruction",
+              desc: "Determine whether the program is taught in German or English. Complete required proficiency exams (TestDaF / DSH for German, IELTS / TOEFL for English)."
+            },
+            {
+              step: "Step 4",
+              title: "Prepare Your Application & APS Certificate",
+              desc: "Obtain your mandatory APS certificate from the German Embassy in New Delhi, gather academic transcripts, passport copies, language certificates, CV, and SOP."
+            },
+            {
+              step: "Step 5",
+              title: "Submit Your University Applications",
+              desc: "Submit applications via Uni-Assist or directly through university portals before official deadlines (typically July 15 for Winter semester, January 15 for Summer semester)."
+            },
+            {
+              step: "Step 6",
+              title: "Complete Any Required Assessments",
+              desc: "Take entrance exams, Studienkolleg Aufnahmeprüfung, or faculty aptitude tests if mandated by your chosen institution."
+            },
+            {
+              step: "Step 7",
+              title: "Receive Admission Decision (Zulassungsbescheid)",
+              desc: "Receive your official admission offer, review all enrollment conditions, and confirm acceptance within the specified deadline."
+            },
+            {
+              step: "Step 8",
+              title: "Open Blocked Account & Secure Student Visa",
+              desc: "Deposit €11,904 into a recognized German Blocked Account (Sperrkonto), arrange statutory health insurance, and apply for your National Student Visa (Type D)."
+            },
+            {
+              step: "Step 9",
+              title: "Arrive in Germany & University Enrollment",
+              desc: "Travel to Germany, register your address at the local Bürgeramt, complete university enrollment (Immatrikulation), and begin your studies."
+            }
           ]
         }
       ]
     },
     {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Quality Standards",
-      "title": "8. Accreditation/recognition of chemical engineering programs in Germany",
-      "groups": [
+      slot: "accreditation",
+      eyebrow: "Accreditation & Quality Standards",
+      title: "Accreditation and Recognition of Chemical Engineering Programs",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Students should check the official recognition of the university in Germany and the quality assurance or accreditation status of the program prior to enrollment.",
-            "Things to consider are important and include:",
-            "Chemical engineering is a broad field of professions and different professions might have different needs.",
-            "Some positions may need specialized training in **process safety, environmental compliance, quality management or industrial operations**.",
-            "Students intending to work in India or any other country should verify the evaluation of their German qualification by the respective authorities and employers."
+          t: "p",
+          items: [
+            "Before enrolling, international students should verify the institutional accreditation and official state recognition of their prospective university.",
+            "**Key quality assurance benchmarks include:**"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "The institute’s official acknowledgment.",
-            "Relevant accreditation or quality assurance status of the program.",
-            "The course is about chemical engineering principles and process design. There are laboratories, research facilities and practical projects.",
-            "**opportunities for industry collaboration/internships**",
-            "Acceptance of eligibility for further education or employment in the host country."
+          t: "ul",
+          items: [
+            "**Official Institutional Recognition:** State approval by the Science Ministry of the respective German federal state.",
+            "**Program Accreditation:** Formal accreditation by recognized agencies such as ASIIN (Specialized Accreditation Agency for Engineering & Natural Sciences) or ZEvA under the German Accreditation Council (Akkreditierungsrat).",
+            "**Bologna Process Compliance:** ECTS (European Credit Transfer and Accumulation System) alignment ensuring worldwide mutual degree recognition.",
+            "**Industry & Research Infrastructure:** Cutting-edge chemical laboratories, modern pilot plant facilities, and structured industry internship programs.",
+            "**Global Professional Acceptance:** Chemical engineering degrees from accredited German technical universities are recognized internationally, enabling seamless career paths or postgraduate study worldwide."
           ]
         }
       ]
     },
     {
-      "slot": "careers",
-      "eyebrow": "Career Prospects & Salary",
-      "title": "9. Salary and Job Opportunities for Chemical Engineers in Germany",
-      "groups": [
+      slot: "careers",
+      eyebrow: "Career Prospects & Salary",
+      title: "Salary and Job Opportunities for Chemical Engineers in Germany",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Chemical Engineering graduates can expect to find careers in chemicals, pharmaceuticals, energy, food processing, materials, environmental technology and industrial manufacturing.",
-            "**Possible job positions:**",
-            "Responsibilities of a Chemical Engineer",
-            "Below are some indicative pay expectations in Germany:",
-            "The gross starting salary for entry level positions is around €45,000 - €60,000 per year.",
-            "Depending on the position, employer and level of experience, experienced professionals may earn around €60,000 to €85,000 or more gross per year.",
-            "Graduates find work **with chemical manufacturers, pharmaceutical companies, engineering consultancies, industrial plants, energy companies, environmental technology providers and research organisations**.",
-            "**German language skills** are useful for long-term jobs, communication in the workplace and work placements in industry."
+          t: "p",
+          items: [
+            "Chemical engineering graduates enjoy exceptional career prospects across Germany's manufacturing, pharmaceutical, energy, food technology, advanced materials, and environmental engineering sectors.",
+            "**Common job roles for graduates include:**"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Production Engineer",
-            "Plant Operations Engineer",
-            "Process Design Engineer",
-            "Quality Control or Quality Assurance Engineer",
-            "Environmental Engineer Engineer",
-            "Research and Development Pharmaceutical Process Engineer",
-            "Energy and Sustainability Engineer"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Required Documentation",
-      "title": "10. Documentation Required",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Students are normally required to submit the following documents for both the visa application and university applications:",
-            "Show your passport.",
-            "The exact list of documents will depend on the university, the application process and the visa conditions."
+          t: "pills",
+          items: [
+            "Process Design & Simulation Engineer",
+            "Chemical Production Engineer",
+            "Plant Operations & Maintenance Engineer",
+            "Quality Assurance & Quality Control (QA/QC) Specialist",
+            "Environmental Compliance & Safety Engineer",
+            "R&D Pharmaceutical Process Engineer",
+            "Energy & Sustainability Engineer",
+            "Materials Development Engineer"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Certificates and mark sheets of class 10 & 12 as applicable.",
-            "Academic transcripts and certified translations, if available.",
-            "Proof of eligibility for university admission or **Studienkolleg results**, if applicable",
-            "The results of an English or German examination.",
-            "CV or resume.",
-            "Letter of motivation, if applicable.",
-            "Documentation of internship or related experience, if applicable.",
-            "Application and supporting declarations completed.",
-            "Passport size photographs if required.",
-            "Letter of Admission from the University for a Student Visa Application.",
-            "To obtain a visa you must submit documentation that proves you have financial means and health insurance."
+          t: "p",
+          items: [
+            "**Indicative salary benchmarks in Germany:**",
+            "* **Entry-Level Positions:** Starting salaries generally range from **€45,000 to €60,000 gross per year**.",
+            "* **Experienced Professionals:** With 3 to 5+ years of industry experience, professionals earn between **€60,000 and €85,000+ gross per year**.",
+            "Graduates find exciting opportunities with leading chemical and pharma giants (BASF, Bayer, Evonik, Merck, Covestro, Henkel), engineering consultancies, energy corporations, and research institutions like the Fraunhofer and Max Planck Institutes.",
+            "Proficiency in the German language significantly broadens career opportunities, workplace integration, and fast-track eligibility for the EU Blue Card and German permanent residency."
           ]
         }
       ]
     },
     {
-      "slot": "details",
-      "eyebrow": "Key Insights",
-      "title": "11. FAQs",
-      "groups": [
+      slot: "documents",
+      eyebrow: "Required Documentation",
+      title: "Documentation Required for Admission and Visa",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Q1.Can Indian students study Chemical Engineering in Germany after 12th?",
-            "Indian students who meet the **university entry requirements** are eligible to apply. Depending on their educational background and credentials, they may need to attend a **Studienkolleg** and obtain the **Feststellungs Mündung** or meet other recognized requirements for university admission.",
-            "Q2. Is Chemical Engineering Free in Germany?",
-            "Many **public universities** do not charge general tuition for qualified bachelor’s degree programs, but semester fees are usually required. Although private institutions typically charge tuition, some states or universities charge tuition for certain foreign students.",
-            "Q3. Is it necessary to speak German fluently for Chemical Engineering?",
-            "Not always. The language of instruction of the program determines this. Evidence of English fluency is normally required for English-taught courses, and evidence of recognized German proficiency for German-taught courses. Also, German skills can help students find jobs and internships.",
-            "Q4. How long does a bachelor’s degree in chemical engineering take in Germany?",
-            "Most bachelor’s programs take three to three-and-a-half years to finish. The length of study is determined by the institution, the type of degree and the need for preparatory studies.",
-            "Q5. What are the career opportunities in Germany after Chemical Engineering?",
-            "Graduates can work in process engineering, chemical manufacturing, pharmaceuticals, plant operations, process design, environmental technology, quality assurance, and research and development. Career prospects depend on technical expertise, experience, language ability and workplace requirements.",
-            "How can **Edu Hawk Worldwide Consultancy** help me to study abroad?",
-            "With Edu Hawk Worldwide, students can **plan their study-abroad journey**, **organize application documents**, **comprehend admission requirements**, and **explore suitable universities**. Students should contact the appropriate authorities regarding their academic, financial, immigration and licensing needs.",
-            "Key words -",
-            "Study Chemical Engineering in Germany for Indian Students",
-            "Chemical Engineering at the Bachelor Level in Germany",
-            "Bachelor of Science in Chemical Engineering, Germany",
-            "Top Universities for Chemical Engineering in Germany",
-            "Courses in Process Engineering in Germany",
-            "Biochemical and Chemical Process Engineering in Germany",
-            "Eligibility Criteria for Chemical Engineering in Germany",
-            "Einstufungsprüfung Chemieingenieurwesen in Deutschland",
-            "German Language Requirements for Chemical Engineering in Germany",
-            "Chemical Engineering courses in Germany taught in English",
-            "Tuition Fees for Chemical Engineering in Germany",
-            "Living Expenses for Engineering Students in Germany"
+          t: "p",
+          items: [
+            "Students are required to compile and submit comprehensive documentation for university applications and the subsequent German student visa application:"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "Valid international passport (with at least 18 months validity and blank visa pages).",
+            "Class 10 and Class 12 certificates and detailed mark sheets.",
+            "Official academic transcripts and certified German or English translations.",
+            "Mandatory APS Certificate (Akademische Prüfstelle) for Indian applicants.",
+            "Proof of university admission qualification or Studienkolleg / Feststellungsprüfung results.",
+            "Official language test scorecards (German: TestDaF / DSH / Goethe; English: IELTS / TOEFL).",
+            "Curriculum Vitae (CV) in standard Europass format.",
+            "Statement of Purpose / Letter of Motivation detailing academic and career objectives.",
+            "Official University Admission Letter (Zulassungsbescheid).",
+            "Proof of financial resources: German Blocked Account (Sperrkonto) confirming €11,904.",
+            "Proof of recognized statutory or private travel health insurance."
           ]
         }
       ]
     }
   ],
-  "faqs": []
+  faqs: [
+    {
+      q: "Can Indian students study Chemical Engineering in Germany after 12th?",
+      a: "Yes. Indian students who have completed Class 12 with Physics, Chemistry, and Mathematics are eligible. Depending on the university and board, students typically attend a 1-year preparatory Studienkolleg (T-Kurs) and pass the Feststellungsprüfung (FSP), or qualify directly if they possess recognized equivalent qualifications such as JEE Advanced rank or 1 year of completed bachelor study."
+    },
+    {
+      q: "Is Chemical Engineering tuition-free in Germany?",
+      a: "Yes. Most public universities in Germany charge €0 tuition for undergraduate bachelor's degree programs, regardless of nationality. Students only pay a nominal semester contribution (Semesterbeitrag) of €150 to €400 per semester, which includes public transportation tickets and campus administration services. (Baden-Württemberg charges €1,500/semester for non-EU students)."
+    },
+    {
+      q: "Is it necessary to speak German fluently for Chemical Engineering?",
+      a: "For German-taught bachelor's programs, proof of B2 or C1 level German proficiency (TestDaF, DSH, or Goethe) is mandatory. For the growing number of English-taught bachelor's programs, an IELTS or TOEFL certificate is required. However, learning conversational German is highly recommended for daily living, internships, and post-study career success."
+    },
+    {
+      q: "How long does a bachelor’s degree in Chemical Engineering take in Germany?",
+      a: "Most bachelor’s degree programs in Germany take 3 to 3.5 years (6 to 7 semesters) of full-time study. If a student requires a 1-year preparatory Studienkolleg, the total duration from arrival to degree completion is approximately 4 to 4.5 years."
+    },
+    {
+      q: "What are the career opportunities in Germany after Chemical Engineering?",
+      a: "Graduates are in high demand across Germany's robust chemical, pharmaceutical, automotive, energy, and environmental sectors. Typical roles include Process Engineer, Plant Operations Specialist, R&D Engineer, and Environmental Consultant, with entry salaries ranging from €45,000 to €60,000 gross per year and post-study visa rights for 18 months."
+    },
+    {
+      q: "How can Edu Hawk Worldwide Consultancy assist me in studying abroad?",
+      a: "Edu Hawk Worldwide provides end-to-end guidance including profile evaluation, university and course shortlisting, application preparation via Uni-Assist, APS assistance, blocked account setup, SOP guidance, and German student visa documentation."
+    }
+  ]
 };
 
 export default function ChemicalEngineeringUGGermanyPage() {
-  const images = {
-    hero: heroImg,
-    heroBg: heroBgImg,
-    side: sideImg,
-    ctaBg: ctaBgImg,
-    universities: [
-    {
-      name: "The Karlsruhe Institute of Technology (KIT)      renowned for scientific research and engineering, notably     chemical and process engineering",
-      img: uniImg1,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "Berlin Technical University      renowned for teaching science and engineering.",
-      img: uniImg2,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "TU Dresden      provides possibilities to study     chemical technology, process engineering, and related fields     in engineering and science programs.",
-      img: uniImg3,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    },
-    {
-      name: "Stuttgart University      possesses skills in industrial research and engineering.",
-      img: uniImg4,
-      desc: "Distinguished German university renowned for world-class technical education, high-tech research labs, and strong partnerships with leading European industries."
-    }
-    ]
-  };
-
-  return <AbroadCoursePage page={page} images={images} />;
+  return (
+    <AbroadCoursePage
+      page={page}
+      heroImg={heroImg}
+      heroBgImg={heroBgImg}
+      sideImg={sideImg}
+      ctaBgImg={ctaBgImg}
+      seoPath="study-abroad/germany/ug/chemical-engineering"
+    />
+  );
 }

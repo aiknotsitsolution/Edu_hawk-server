@@ -20,8 +20,7 @@ const page = {
   "keywords": "Study Winter Courses in Spain, Winter Courses in Spain for Indian Students, Best Universities in Spain, Cost of Studying in Spain",
   "introTitle": "Winter Courses in Spain for Indian Students",
   "heroParas": [
-    "Winter Courses in Spain for Indian Students are an excellent way to gain international learning experience, develop new skills, and explore Spanish culture during the winter break. Universities, language schools and educational institutions may offer short-term programs for subjects such as the Spanish language, business, international relations, engineering, technology, arts, architecture and other specialized fields.",
-    "These programs are ideal for students who are interested in gaining exposure to international education but are not looking to obtain a full-time degree. Winter programs can last from a couple of days to several weeks, depending on the institution and how the course is structured, and may include lectures, workshops, cultural activities, group projects and hands-on learning."
+    "Winter Courses in Spain for Indian Students are an excellent way to gain international learning experience, develop new skills, and explore Spanish culture during the winter break."
   ],
   "overview": [
     "Winter Courses in Spain for Indian Students are an excellent way to gain international learning experience, develop new skills, and explore Spanish culture during the winter break. Universities, language schools and educational institutions may offer short-term programs for subjects such as the Spanish language, business, international relations, engineering, technology, arts, architecture and other specialized fields.",

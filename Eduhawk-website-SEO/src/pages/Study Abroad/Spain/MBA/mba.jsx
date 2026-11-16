@@ -16,8 +16,7 @@ const page = {
   "keywords": "Study MBA in Spain, MBA in Spain for Indian Students, Best Universities in Spain, Cost of Studying in Spain",
   "introTitle": "MBA in Spain for Indian Students",
   "heroParas": [
-    "If you are an Indian student and you want to do an MBA in Spain , you will get the opportunity to gain the skills that are essential for leadership, strategic thinking, finance management, marketing, entrepreneurship, and international business. Spain has business schools and universities that offer MBA programs for students who want to advance their careers, move into management or start their own companies.",
-    "In Spain, MBA programs typically range from 10 to 24 months depending on the school and whether the program is full-time, part-time or executive. Some are for graduates who are just entering the work force, others require you to have several years of professional experience. Tuition fees, admission requirements and language of instruction differ from business school to business school."
+    "If you are an Indian student and you want to do an MBA in Spain , you will get the opportunity to gain the skills that are essential for leadership, strategic thinking, finance management, marketing, entrepreneurship, and international business."
   ],
   "overview": [
     "If you are an Indian student and you want to do an MBA in Spain , you will get the opportunity to gain the skills that are essential for leadership, strategic thinking, finance management, marketing, entrepreneurship, and international business. Spain has business schools and universities that offer MBA programs for students who want to advance their careers, move into management or start their own companies.",
@@ -572,10 +571,6 @@ const page = {
             {
               "q": "Edu-Hawk Worldwide: Build Your International Business Career",
               "a": "Choosing the right MBA program is a crucial step toward advancing in your professional career. Indian students need to weigh up business schools, program formats, eligibility criteria, tuition fees, scholarships and career support before deciding. Edu-Hawk Worldwide helps students discover international study options and prepare for their study abroad journey. By choosing the right program and planning its application properly, students can take informed steps toward an MBA in Spain for Indian Students . Discover MBA opportunities with Edu-Hawk Worldwide."
-            },
-            {
-              "q": "Primary SEO Keywords Used",
-              "a": "MBA in Spain for Indian Students Study MBA in Spain MBA courses in Spain MBA universities in Spain MBA admission requirements in Spain MBA Fees in Spain MBA career opportunities in Spain MBA jobs in Spain Edu-Hawk Worldwide"
             }
           ]
         }

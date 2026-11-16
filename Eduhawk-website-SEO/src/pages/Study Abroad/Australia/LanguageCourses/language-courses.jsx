@@ -21,8 +21,21 @@ const page = {
   description: "Explore English Language (ELICOS) courses in Australia for Indian students. Compare top language institutes (Deakin ELI, Sydney, UQ College, RMIT), intake dates, fees, and university pathways.",
   keywords: "Study English Language Courses in Australia for Indian Students English Language Schools in Australia for International Students ELICOS Courses in Australia for Indian Students General English Courses in Australia for International Students IELTS Preparation Courses in Australia for Indian Students PTE Preparation Courses in Australia for Indian Students English Courses in Australia After 12th English Language Course Fees in Australia for Indian Students English Language Course Admission Requirements in Australia Study English in Australia with Student Visa",
   introTitle: "Language Courses for Indian Students in Australia",
-  heroParas: ["International students can enhance their communication abilities, become more fluent in English, get ready for college, and gain confidence in academic or professional settings by taking language courses in Australia.","English language programs called English Language Intensive Courses for Overseas Students (ELICOS) are the main emphasis of language study in Australia for the majority of foreign students. Students with varying levels of language skill, from novice to expert, are served by these courses."],
-  overview: ["Depending on their goals, students can select general English, academic English, English test preparation, professional English, or English language teaching credentials.","Important Highlights","Boost your ability to read, write, listen, and speak English","Boost your self-assurance in regular conversations","Get ready for college or a career","Improve your academic writing and presenting abilities.","Get ready for tests of English competence.","Boost communication in the workplace and in professional settings","Examine credentials for teaching English."],
+  heroParas: [
+    "International students can enhance their communication abilities, become more fluent in English, get ready for college, and gain confidence in academic or professional settings by taking language courses in Australia."
+  ],
+  overview: [
+    "English language programs called English Language Intensive Courses for Overseas Students (ELICOS) are the main emphasis of language study in Australia for the majority of foreign students. Students with varying levels of language skill, from novice to expert, are served by these courses.",
+    "Depending on their goals, students can select general English, academic English, English test preparation, professional English, or English language teaching credentials.",
+    "Important Highlights",
+    "Boost your ability to read, write, listen, and speak English",
+    "Boost your self-assurance in regular conversations",
+    "Get ready for college or a career",
+    "Improve your academic writing and presenting abilities.",
+    "Get ready for tests of English competence.",
+    "Boost communication in the workplace and in professional settings",
+    "Examine credentials for teaching English."
+  ],
   level: "ELICOS & English Preparation Pathways",
   crumb: "Pathways & Language",
 

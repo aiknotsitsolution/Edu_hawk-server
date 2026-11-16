@@ -8,427 +8,398 @@ import sideImg from "../../../../Images/Abroad/Ireland/WinterCourses/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Ireland/WinterCourses/cta_bg.webp";
 
 // University images
-import uniImg1 from "../../../../Images/Abroad/Ireland/WinterCourses/Trinity_College_Dublin.webp";
-import uniImg2 from "../../../../Images/Abroad/Ireland/WinterCourses/Trinity_College_Dublin_2.webp";
-import uniImg3 from "../../../../Images/Abroad/Ireland/WinterCourses/University_of_Galway.webp";
-import uniImg4 from "../../../../Images/Abroad/Ireland/WinterCourses/University_of_Galway_2.webp";
+import uniImg1 from "../../../../Images/Abroad/Ireland/WinterCourses/Dublin_City_University.webp";
+import uniImg2 from "../../../../Images/Abroad/Ireland/WinterCourses/Trinity_College_Dublin.webp";
+import uniImg3 from "../../../../Images/Abroad/Ireland/WinterCourses/Maynooth_University.webp";
+import uniImg4 from "../../../../Images/Abroad/Ireland/WinterCourses/University_of_Galway.webp";
+
+const images = {
+  heroImg,
+  heroBgImg,
+  sideImg,
+  ctaBgImg,
+  uniImg1,
+  uniImg2,
+  uniImg3,
+  uniImg4
+};
 
 const page = {
-  "name": "Winter Courses in Ireland",
-  "country": "Ireland",
-  "slug": "winter-courses",
-  "title": "Study Winter Courses in Ireland for Indian Students | Edu-Hawk Worldwide",
-  "description": "Complete guide to Winter Courses in Ireland for Indian students: Top Irish universities, eligibility criteria, tuition fees (€13,500 – €28,640 / year), scholarships, and 2-year post-study work visa (Stamp 1G).",
-  "keywords": "Winter Courses in Ireland for International Students, Winter Schools in Ireland for Indian Students, Top Universities Offering Winter Courses in Ireland, English Language Winter Courses in Ireland, Business and Management Winter Courses in Ireland, Artificial Intelligence and Technology Courses in Ireland, DCU International Winter School 2027, Short-Term Winter Courses in Ireland, Winter Course Eligibility Requirements in Ireland, Winter Course Admission Requirements for International Students",
-  "introTitle": "WINTER COURSES IN IRELAND FOR INTERNATIONAL STUDENTS",
-  "heroParas": [
-    "Winter Courses in Ireland for International Students",
-    "Why Study Winter Courses in Ireland?",
-    "International students can study winter courses in Ireland to build academic knowledge, improve English communication, learn practical skills and experience Irish culture during the winter months."
+  name: "Winter Courses in Ireland",
+  country: "Ireland",
+  slug: "winter-courses",
+  title: "Study Winter Courses in Ireland for International Students | Edu-Hawk Worldwide",
+  description: "Complete guide to Winter Courses in Ireland for Indian students: University winter schools, January intersession, AI & technology tracks, business leadership, Short Stay 'C' visit visas, and EduHawk consultancy.",
+  keywords: "Winter Courses in Ireland for International Students, Winter Schools in Ireland for Indian Students, Top Universities Offering Winter Courses in Ireland, English Language Winter Courses in Ireland, Business and Management Winter Courses in Ireland, Artificial Intelligence and Technology Courses in Ireland, DCU International Winter School 2027, Short-Term Winter Courses in Ireland, Winter Course Eligibility Requirements in Ireland, Winter Course Admission Requirements for International Students",
+  introTitle: "WINTER COURSES IN IRELAND FOR INTERNATIONAL STUDENTS",
+  heroParas: [
+    "Winter courses in Ireland offer international students high-impact 2 to 6-week academic programmes during university intersessions, featuring intensive modules in artificial intelligence, international business, career employability, and Irish cultural immersion."
   ],
-  "overview": [
-    "Winter Courses in Ireland for International Students",
-    "Why Study Winter Courses in Ireland?",
-    "International students can study winter courses in Ireland to build academic knowledge, improve English communication, learn practical skills and experience Irish culture during the winter months.",
-    "Edu Hawk worldwide study abroad guidance allows students to explore these opportunities and understand the requirements involved in pursuing education overseas.",
-    "Studying winter courses in Ireland has benefits such as:",
-    "* - Short term learnings during university holidays.",
-    "* Opportunities to enhance English language and communication skills.",
-    "* Exposure to international educational and professional environments;",
-    "* Courses in business, technology, leadership, culture and others.",
-    "* Opportunities to attend workshops, networking sessions and cultural activities. -",
-    "Winter courses can be a good option for undergraduate students, graduate students, young professionals and other learners seeking international experience without committing to a full degree."
+  overview: [
+    "Winter courses in Ireland provide an exceptional academic opportunity for international and Indian students seeking to expand their subject knowledge, improve English communication, acquire workplace competencies, and experience authentic Irish culture during the winter holiday season.",
+    "Programmes include prestigious university winter schools such as Dublin City University’s International Winter School, intersession seminars at Trinity College Dublin and University of Galway, and specialized tracks in artificial intelligence, digital innovation, and professional leadership.",
+    "EduHawk worldwide study abroad consultancy assists students in discovering top winter school tracks, navigating admission requirements, arranging university accommodations, and completing Short Stay 'C' visa documentation."
   ],
-  "level": "Short-Term Academic & Cultural Immersion Winter Programs",
-  "crumb": "Special Courses / Winter Courses",
-  "stats": [
+  level: "Short-Term Academic & Cultural Immersion Winter Programs (2–6 Weeks)",
+  crumb: "Special Courses / Winter Courses",
+  stats: [
     {
-      "label": "Degree Choices",
-      "value": "Short-Term Academic & Cultural Immersion Winter Programs"
+      label: "Program Tracks",
+      value: "AI & Tech, Business, English & Culture"
     },
     {
-      "label": "Course Duration",
-      "value": "2 to 6 Weeks (December - February)"
+      label: "Course Duration",
+      value: "2 to 6 Weeks (December – February)"
     },
     {
-      "label": "Top Institutions",
-      "value": "Trinity College Dublin, Trinity College Dublin"
+      label: "Academic Credits",
+      value: "5 to 10 ECTS Credits (Transferable)"
     },
     {
-      "label": "Post-Study Work",
-      "value": "2 Years Third Level Graduate Scheme (Stamp 1G)"
+      label: "Visa Category",
+      value: "Short Stay 'C' Visit (Study) Visa"
     }
   ],
-  "sections": [
+  sections: [
     {
-      "slot": "why",
-      "eyebrow": "Why Study in Ireland",
-      "title": "1. Select a course: Decide if you want to learn English, business, technology, career development or something else.",
-      "groups": [
+      slot: "why",
+      eyebrow: "Why Study in Ireland",
+      title: "Why Study Winter Courses in Ireland?",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Detailed information on Why Study in Ireland will be provided during personalized counseling with Edu-Hawk Worldwide."
+          t: "p",
+          items: [
+            "Studying a winter course in Ireland allows international students to make constructive use of university holiday breaks while experiencing Ireland's vibrant tech ecosystem, literary tradition, and festive winter charm.",
+            "Key benefits for international students include:"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "Short-Term Intersession Learning: Intensive 2 to 6-week modules scheduled between December and February that fit neatly into university vacation periods.",
+            "Accelerated English & Communication Skills: Practical coursework in professional presentations, academic debate, and business correspondence.",
+            "Exposure to Global Tech & Business Hubs: Direct access to guest lecturers and case studies from Dublin’s European headquarters of Google, Meta, Microsoft, and Pfizer.",
+            "Specialized Technical & Management Tracks: Intensive training in artificial intelligence, machine learning, entrepreneurship, fintech, and digital leadership.",
+            "Rich Cultural & Social Calendar: Opportunities to attend Dublin winter festivals, visit Trinity's Book of Kells, explore historic castles, and join student networking galas.",
+            "Global Academic Exploration: Sample Irish university pedagogy and campus life before deciding on a full-time undergraduate or master's degree."
           ]
         }
       ]
     },
     {
-      "slot": "courses",
-      "eyebrow": "Degrees & Programs",
-      "title": "2. Winter Courses in Ireland",
-      "groups": [
+      slot: "courses",
+      eyebrow: "Program Specializations",
+      title: "Winter Courses in Ireland: Curriculum & Disciplines",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Students can choose from different types of winter programmes based on their academic interests, career aspirations and desired length of stay.",
-            "Winter English Language Courses*",
-            "English language courses improve students’ speaking, listening, reading, writing, grammar and presentation skills. Some courses are for academic English, business communication, or preparing for additional study.",
-            "Winter Courses in Business and Management",
-            "Business programmes might include leadership, marketing, entrepreneurship, international business, management and professional communication. They can be helpful for students who want to gain business knowledge and workplace skills.",
-            "Courses on Artificial Intelligence and Technology",
-            "Some short-term courses cover topics such as artificial intelligence, digital innovation, programming, data analytics and technology in the workplace. Availability is subject to provider and winter intake.",
-            "Career Development and Employability Courses",
-            "These programs may include CV writing, interview preparation, teamwork, professional networking and career planning. They are especially relevant for university students who are preparing themselves for the graduate job market.",
-            "Irish Language Classes and Cultural Studies",
-            "Selected short courses, workshops and cultural activities allow students to engage with Irish culture, history, literature, language and society.",
-            "Winter courses in Universities",
-            "Winter schools offer a blend of academic sessions and activities to give international students a feel for university life. Some programs include accommodation, guest lectures, excursions or the opportunity to earn credit toward your academic programme."
+          t: "p",
+          items: [
+            "Students can select from a rich variety of specialized winter programmes tailored to their academic disciplines, professional goals, and travel schedules.",
+            "Winter English Language Courses:"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "General English & Fluency Workshops: Rapid enhancement of everyday speaking, active listening, modern idiomatic expressions, and grammar accuracy.",
+            "Professional Business Communication: Executive presentation skills, cross-border corporate communication, negotiation terminology, and business writing.",
+            "Intensive IELTS Preparation: Targeted coaching to achieve target band scores for upcoming university admissions."
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "University Winter Schools & Specialized Academies:",
+            "Comprehensive university winter institutes combine rigorous lectures, hands-on workshops, and transferable European credits."
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "Artificial Intelligence & Technology: Applied AI, prompt engineering, Python for data analytics, machine learning fundamentals, and cyber ethics.",
+            "Business, Leadership & Entrepreneurship: Global venture building, startup financing, digital marketing strategies, and agile project management.",
+            "Career Development & Employability: International CV writing, corporate interview preparation, executive networking, and professional branding.",
+            "Irish Cultural Studies & Literature: Modern Irish history, literature (James Joyce, Oscar Wilde, W.B. Yeats), theatre appreciation, and Irish language basics.",
+            "University Credit Modules: Credit-bearing courses granting 5 to 10 ECTS credits recognized by universities across Europe, the US, and Asia."
           ]
         }
       ]
     },
     {
-      "slot": "universities",
-      "eyebrow": "Top Institutions",
-      "title": "3. Top Universities and Colleges Offering Winter Courses in Ireland",
-      "unis": [
+      slot: "universities",
+      eyebrow: "Top Institutions",
+      title: "Top Universities and Colleges Offering Winter Courses in Ireland",
+      unis: [
         {
-          "name": "Trinity College Dublin",
-          "desc": "Trinity College, Dublin, Ireland - Trinity is a good choice for short-term academic opportunities, visiting student options and programs linked to its academic disciplines.",
-          "imgKey": "uniImg_Trinity_College_Dublin_webp",
-          "imgIdentifier": "uniImg1",
-          "city": "Dublin, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg1
+          name: "Dublin City University",
+          desc: "DCU hosts the acclaimed International Winter School (January–February 2027) built around AI, culture, and career strategy, integrating advanced seminars with corporate guest lectures and vibrant social excursions.",
+          imgKey: "uniImg_Dublin_City_University_webp",
+          imgIdentifier: "uniImg1",
+          city: "Dublin, Ireland",
+          rank: "Ranked #1 in Ireland for Graduate Employability",
+          tag: "AI & Career Strategy",
+          img: uniImg1
         },
         {
-          "name": "Trinity College Dublin",
-          "desc": "Trinity College, Dublin, Ireland - Trinity is a good choice for short-term academic opportunities, visiting student options and programs linked to its academic disciplines.",
-          "imgKey": "uniImg_Trinity_College_Dublin_2_webp",
-          "imgIdentifier": "uniImg2",
-          "city": "Dublin, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg2
+          name: "Trinity College Dublin",
+          desc: "Trinity College Dublin provides January intersession programmes, visiting student options, and prestigious short courses in European law, biomedical sciences, literature, and Irish history.",
+          imgKey: "uniImg_Trinity_College_Dublin_webp",
+          imgIdentifier: "uniImg2",
+          city: "Dublin, Ireland",
+          rank: "Ranked #87 Worldwide (QS 2026)",
+          tag: "Global Research Leader",
+          img: uniImg2
         },
         {
-          "name": "University of Galway",
-          "desc": "Dublin City University (DCU) - DCU runs a International Winter School for international university students aged 18+. The January–February 2027 programme is built around AI, culture, and career strategy, combining language and communication enhancement with specialized lectures and social activities.",
-          "imgKey": "uniImg_University_of_Galway_webp",
-          "imgIdentifier": "uniImg3",
-          "city": "Galway, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg3
+          name: "Maynooth University",
+          desc: "Maynooth University offers dedicated winter intersession modules and short-term study tracks across the humanities, business innovation, international relations, and environmental management.",
+          imgKey: "uniImg_Maynooth_University_webp",
+          imgIdentifier: "uniImg3",
+          city: "Maynooth, Ireland",
+          rank: "Top 100 Young Universities Worldwide",
+          tag: "Intersession Credits",
+          img: uniImg3
         },
         {
-          "name": "University of Galway",
-          "desc": "Dublin City University (DCU) - DCU runs a International Winter School for international university students aged 18+. The January–February 2027 programme is built around AI, culture, and career strategy, combining language and communication enhancement with specialized lectures and social activities.",
-          "imgKey": "uniImg_University_of_Galway_2_webp",
-          "imgIdentifier": "uniImg4",
-          "city": "Galway, Ireland",
-          "rank": "Top Ranked Irish Institution",
-          "tag": "Featured",
-          "img": uniImg4
+          name: "University of Galway",
+          desc: "Located on Ireland's scenic west coast, Galway offers winter learning opportunities in creative arts, international human rights law, marine ecology, and contemporary Irish culture.",
+          imgKey: "uniImg_University_of_Galway_webp",
+          imgIdentifier: "uniImg4",
+          city: "Galway, Ireland",
+          rank: "Top 2% Globally (QS)",
+          tag: "Culture & Human Rights",
+          img: uniImg4
         }
       ]
     },
     {
-      "slot": "eligibility",
-      "eyebrow": "Admissions Criteria",
-      "title": "4. Eligibility to study Winter Courses in Ireland",
-      "groups": [
+      slot: "eligibility",
+      eyebrow: "Admissions Criteria",
+      title: "Eligibility to Study Winter Courses in Ireland",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Eligibility will depend on the programme, institution, duration of study and applicant’s background.",
-            "Typical requirements are as follows:"
+          t: "p",
+          items: [
+            "Eligibility requirements depend on whether you are applying for a general language program, a professional workshop, or a university-level credit-bearing winter school.",
+            "Common Eligibility Criteria:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Age: Some winter schools are for adults only (18+ years) and there may be separate programs for younger students.",
-            "Academic background: Applicants may need to be enrolled in a university or have completed a certain level of education to apply for university-level programs.",
-            "English proficiency: English language ability may be required for English-taught academic programs.",
-            "Different requirements may apply to language courses at the beginner level.",
-            "Subject knowledge: Advanced or specialist courses may require prior study or relevant experience.",
-            "Financial capacity: Students must budget for tuition fees, accommodation, travel, meals and insurance.",
-            "Immigration eligibility: Applicants must meet the visa and entry requirements of their nationality and length of study."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "You should always confirm the requirements directly with the institution, as the admission criteria for a course may differ from the immigration requirements to travel to Ireland."
+          t: "ul",
+          items: [
+            "Minimum Age: Adult university winter programmes require participants to be at least 18 years of age. Some customized youth camps admit high school students aged 15 to 17.",
+            "Academic Standing: Applicants to university winter schools must be currently enrolled in an undergraduate or postgraduate degree at an accredited university, or be recent graduates.",
+            "English Language Competence: English-taught academic tracks require evidence of proficiency (minimum IELTS 6.0, TOEFL iBT 80, Duolingo DET 105, or an official letter confirming English as the medium of university instruction). Beginner and conversational language courses accept all levels.",
+            "Foundational Knowledge: Advanced technology or business analytics courses may require basic familiarity with programming or business concepts.",
+            "Financial Capability: Applicants must demonstrate the funds necessary to cover tuition, on-campus accommodation, travel insurance, and daily living costs.",
+            "Immigration Compliance: Students must hold a valid passport and satisfy Irish Short Stay 'C' visit (study) visa requirements prior to travel."
           ]
         }
       ]
     },
     {
-      "slot": "requirements",
-      "eyebrow": "Entry Requirements",
-      "title": "5. Admission Requirements for Winter Courses in Ireland",
-      "groups": [
+      slot: "requirements",
+      eyebrow: "Application Checklist",
+      title: "Admission Requirements for Winter Courses in Ireland",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Most short-term courses have a simple application process, but academic programs may have other selection criteria.",
-            "Applicants may be asked to supply:"
+          t: "p",
+          items: [
+            "Admissions for winter courses in Ireland are streamlined to accommodate international university holiday timelines.",
+            "Standard Application Documents:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "A completed application form.",
-            "A (valid) passport.",
-            "Academic transcripts or proof of university enrollment.",
-            "Results of English language tests, if applicable.",
-            "A CV or personal statement for some programs.",
-            "Portfolio or evidence of relevant experience for specialist courses where necessary.",
-            "Application fee or program deposit, if applicable."
+          t: "ul",
+          items: [
+            "Completed online winter school application form.",
+            "Copy of valid international passport (biographical details page).",
+            "Official university academic transcripts or proof of current student status.",
+            "Proof of English proficiency (test certificate or institutional medium-of-instruction letter).",
+            "Short personal statement or Statement of Purpose (SOP) explaining motivation and learning goals.",
+            "Curriculum Vitae (CV) or resume for specialized technology, business, or career strategy tracks.",
+            "Payment of the program application fee or confirmation deposit."
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Following the review of the application, the institution may issue a offer letter containing course dates, tuition fee, payment instructions and other conditions."
+          t: "p",
+          items: [
+            "Application Deadlines:",
+            "Winter courses operating in January and February typically close applications between October 15 and November 30. International students requiring an entry visa should apply by October to ensure sufficient time for visa processing."
           ]
         }
       ]
     },
     {
-      "slot": "tuition",
-      "eyebrow": "Tuition & Living Costs",
-      "title": "6. Cost of studying winter courses in Ireland",
-      "groups": [
+      slot: "tuition",
+      eyebrow: "Tuition & Program Costs",
+      title: "Cost of Studying Winter Courses in Ireland",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "The total cost of winter courses in Ireland will depend on the program, length of course, location and whether accommodation and meals are included.",
-            "Estimated cost",
-            "Short English language course* \\| €200 - €400 per week",
-            "Short university or specialist programme* \\| €1,500 - €3,500 or more",
-            "Accommodation*: €150–€350 per week",
-            "Food and daily expenses*: €70–€150 per week",
-            "Local transport*: €20–€50 per week",
-            "Travel and medical insurance: Varies depending on coverage International flights*: Depends on your departure city and date",
-            "Students should budget for tuition, accommodation, meals not included in the package, local travel, flights, insurance and personal expenses for a four week winter course."
+          t: "p",
+          items: [
+            "The total cost of a winter course in Ireland depends on course duration, the institution, subject track, and whether single on-campus housing, meals, and cultural tours are bundled together.",
+            "Indicative Tuition & Package Fees (2026–2027 Winter):"
+          ]
+        },
+        {
+          t: "ul",
+          items: [
+            "Short English Language Course: €200 to €400 per week (tuition only).",
+            "Specialist University Winter School (Tuition Only): €1,500 to €3,500 for a 2 to 4-week module.",
+            "All-Inclusive Winter School Package (Tuition + Campus Housing + Excursions): €2,800 to €4,800.",
+            "Student On-Campus Housing (Single En-suite): €150 to €350 per week.",
+            "Meals & Daily Living Expenses: €70 to €150 per week.",
+            "Local Transportation (Student Leap Card): €20 to €50 per week.",
+            "Comprehensive Travel & Medical Insurance: €40 to €90 for the course duration."
+          ]
+        },
+        {
+          t: "p",
+          items: [
+            "Estimated Total Budget:",
+            "For a 3 to 4-week university winter school, students should plan an estimated budget of €2,800 to €5,200 (excluding international return flights), depending on lifestyle and optional travel."
           ]
         }
       ]
     },
     {
-      "slot": "process",
-      "eyebrow": "Application Steps",
-      "title": "7. Admission Procedure for Winter Courses in Ireland",
-      "steps": [
+      slot: "process",
+      eyebrow: "Step-by-Step Roadmap",
+      title: "Admission Procedure for Winter Courses in Ireland",
+      steps: [
         {
-          "step": "01",
-          "title": "The application process for winter courses in Ireland usually involves the following steps",
-          "desc": ""
+          title: "Select Course & Program Track",
+          desc: "Choose from artificial intelligence, technology innovation, business leadership, career development, or intensive English immersion."
+        },
+        {
+          title: "Compare Institutions & Schedules",
+          desc: "Review course dates (December to February), ECTS credits (5–10 ECTS), faculty credentials, on-campus housing options, and program inclusions."
+        },
+        {
+          title: "Check Academic Eligibility & Deadlines",
+          desc: "Confirm academic eligibility, English proficiency requirements, and ensure your application is submitted before the October/November deadline."
+        },
+        {
+          title: "Submit Online Application",
+          desc: "Complete the online application with your passport copy, university transcripts, personal statement, and payment of the registration fee."
+        },
+        {
+          title: "Receive Offer Letter & Program Conditions",
+          desc: "Carefully review your official letter of acceptance, fee structure, payment deadlines, and course conditions."
+        },
+        {
+          title: "Remit Fees & Reserve Accommodation",
+          desc: "Pay the required programme fees securely and confirm single en-suite on-campus accommodation or certified host family placement."
+        },
+        {
+          title: "Apply for Short Stay 'C' Visa",
+          desc: "Submit your Irish Short Stay 'C' visit (study) visa application with your university offer letter, accommodation proof, and bank statements."
+        },
+        {
+          title: "Pre-Departure & Winter Arrival",
+          desc: "Purchase travel medical insurance, book return flights, pack warm winter attire, attend university orientation, and commence your studies."
         }
       ]
     },
     {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Recognition",
-      "title": "8. Check visa requirements: Find out if you need a visa and what type of visa applies to your course and nationality.",
-      "groups": [
+      slot: "career",
+      eyebrow: "Career & Academic Value",
+      title: "Benefits and Career Opportunities After Winter Courses in Ireland",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Detailed information on Accreditation & Recognition will be provided during personalized counseling with Edu-Hawk Worldwide."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Career Outcomes",
-      "title": "9. Book travel: Book flights only after checking visa timelines, cancellation policies and the dates of the program.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Detailed information on Career Outcomes will be provided during personalized counseling with Edu-Hawk Worldwide."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Document Checklist",
-      "title": "10. Prepare for arrival: Have your passport, confirmation of your course, details of your accommodation, insurance information and any other relevant documents.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "8\\. Accreditation and Recognition of Winter Courses in Ireland",
-            "Whether a winter course counts or not depends on the institution, the structure of the course and the type of certificate or award you receive.",
-            "A short winter program can lead to a certificate of completion, certificate of attendance, academic credits or a qualification. These are different results so students should know exactly what they are going to get.",
-            "Check before you enroll:"
+          t: "p",
+          items: [
+            "Completing an intensive winter course in Ireland provides valuable academic credits, elevates your professional profile, and demonstrates cross-cultural problem-solving skills.",
+            "Key Career and Academic Advantages:"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "If the program is offered by a recognized university or a reputable education provider.",
-            "Whether the course offers academic credit.",
-            "If your home university will accept any credits you earn.",
-            "If the certificate mentions the course content and duration.",
-            "Whether it is a professional qualification or an accreditation",
-            "Whether the program meets any applicable immigration requirements"
+          t: "ul",
+          items: [
+            "European ECTS Credits: Earn 5 to 10 transferable ECTS credits that count toward your home university degree requirements.",
+            "Distinctive CV Booster: Stand out in competitive graduate school and multinational corporate recruitment by showcasing international winter study.",
+            "Industry-Aligned Knowledge: Acquire practical skills in cutting-edge domains like applied AI, digital innovation, and agile management.",
+            "Executive Communication Mastery: Gain confidence in presenting ideas, participating in boardroom simulations, and leading diverse teams.",
+            "International Professional Network: Forge lasting connections with university professors, corporate guest speakers, and international peers."
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "A winter school certificate can show attendance and learning, but is not an automatic equivalent of a degree or professional licence .",
-            "9\\. Benefits and Opportunities for Careers after Winter Courses in Ireland",
-            "Winter courses in Ireland can help students to improve their CVs, acquire new skills and gain experience in a international learning environment.",
-            "Possible benefits include:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "English language development: Enhanced communication, presentation and academic English skills."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Business Knowledge:* Knowledge of management, entrepreneurship, leadership and international business."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Digital Savvy: An introduction to electronic instruments, AI and emerging technology subjects."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Career preparation: Improved understanding of CV writing, interview skills* and professional expectations.",
-            "International networking:* Opportunity to meet students, lecturers and professionals from different backgrounds.",
-            "Academic exploration:* An opportunity to test out a subject or institution before committing to longer term study.",
-            "What a winter course is worth depends on what it covers and how it helps you reach your goals. Completion of a short program does not guarantee you a job, a certain salary or entry to a degree, nor does it guarantee you permission to remain in Ireland after the course.",
-            "Can students work while taking a winter course?",
-            "Work rights in Ireland are dependent on the type of immigration permission issued. You cannot do paid or unpaid work on a Short Stay ‘C’ visit (study) visa for a course of 90 days or less. Only eligible students who meet the relevant conditions can get longer-term work permissions.",
-            "10\\. Documents to Study Winter Courses in Ireland",
-            "Documents for winter courses in Ireland will vary depending on the institution, program and nationality.",
-            "Common documents people ask for are:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Passport for travel.",
-            "Application form completed.",
-            "Passport-size photograph (if applicable).",
-            "Official academic transcripts or proof of current enrollment.",
-            "Results of English language tests, if applicable.",
-            "CV or personal statement (if needed).",
-            "Letter of offer of admission or acceptance."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Proof of tuition payment, if applicable."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Accommodation verification.",
-            "Proof of adequate financial resources for the visit.",
-            "Travel insurance or medical insurance as applicable."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Visa application documents if you need a visa.",
-            "Applicants should refer to the official checklist for their respective visa category. Receiving a course acceptance letter does not automatically guarantee a visa or entry into Ireland."
+          t: "p",
+          items: [
+            "Work Rights and Visa Regulations:",
+            "Students attending a winter course on a Short Stay 'C' visit (study) visa (courses lasting up to 90 days) are not permitted to work in Ireland, either in paid or unpaid roles. International students who wish to work part-time must be registered on qualifying long-term academic programmes of at least 25 weeks under Stamp 2 student permission."
           ]
         }
       ]
     }
   ],
-  "table": {
-    "title": "Estimated Cost of Studying Winter Courses in Ireland in Ireland (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (€ / EUR)",
-      "Details / Scope"
-    ],
-    "rows": [
+  table: {
+    caption: "Ireland Winter Courses: Program Options, Duration, Fees & Credits (2026–2027)",
+    headers: ["Program Category", "Duration", "Average Tuition Fee", "Credits & Visa Category"],
+    rows: [
       [
-        "Undergraduate Degree (Annual)",
-        "€13,500 – €27,640 / year",
-        "Varies by institution ranking, laboratory facilities, and program"
+        "DCU International Winter School (AI & Strategy)",
+        "3 to 4 Weeks (Jan – Feb)",
+        "€2,500 – €3,800",
+        "5 to 10 ECTS Credits | Short Stay 'C' Visa"
       ],
       [
-        "Postgraduate Degree (Annual)",
-        "€15,000 – €28,640 / year",
-        "1-year intensive master's program or 2-year research degree"
+        "University Intersession Academic Module",
+        "2 to 4 Weeks (January)",
+        "€1,800 – €3,200 (Tuition)",
+        "5 ECTS Credits | Short Stay 'C' Visa"
       ],
       [
-        "Living Expenses (Dublin)",
-        "€1,000 – €1,400 / month",
-        "Includes student accommodation, meals, utilities, and public transit"
+        "All-Inclusive Winter Package (Housing + Tours)",
+        "3 to 4 Weeks",
+        "€3,200 – €4,800 (Package)",
+        "5 to 10 ECTS Credits | Short Stay 'C' Visa"
       ],
       [
-        "Living Expenses (Outside Dublin)",
-        "€800 – €1,100 / month",
-        "Cost of living in Cork, Galway, Limerick, or Maynooth"
+        "Intensive Business / Tech Leadership Seminar",
+        "2 to 3 Weeks",
+        "€1,500 – €2,800",
+        "Executive Certificate & Credits | 'C' Visa"
       ],
       [
-        "Student Visa & IRP Card Fee",
-        "€300 / year",
-        "Mandatory Irish Residence Permit (IRP) registration fee"
+        "Winter English Language & Culture Course",
+        "2 to 6 Weeks",
+        "€200 – €400 / week",
+        "Certificate of Attendance | Short Stay 'C' Visa"
+      ],
+      [
+        "University Single En-suite Housing",
+        "Per Week",
+        "€180 – €380 / week",
+        "On-campus student residence or certified homestay"
       ]
     ]
   },
-  "faqs": [
+  faqs: [
     {
-      "q": "1\\. What are the best winter courses in Ireland for international students?",
-      "a": "Options are English language courses, university winter schools, business and management programs, technology courses and career development workshops. Which is best for you depends on your interests, budget and how much time you want to spend."
+      q: "What are the best winter courses in Ireland for international students?",
+      a: "Top options include the DCU International Winter School (specializing in AI, culture, and career strategy), university intersession seminars at Trinity College Dublin and University of Galway, specialized business leadership workshops, and intensive English communication courses."
     },
     {
-      "q": "2\\. When do winter courses begin in Ireland?",
-      "a": "A lot of winter programs are in December, January or February. For example, DCU has its International Winter School 2027 scheduled from January to February 2027\\. Dates vary by institution, check the official program calendar ."
+      q: "When do winter courses begin in Ireland?",
+      a: "Most winter programs take place during the winter intersession between late December, January, and February. For example, DCU’s International Winter School is scheduled from January to February 2027. Program dates vary by institution, so students should consult the official university calendar."
     },
     {
-      "q": "3\\. How much do winter courses cost in Ireland?",
-      "a": "Fees range from a few hundred euros a week for some English language courses, to several thousand euros for university programs. Accommodation, meals, flights, insurance and personal expenses may be charged separately."
+      q: "How much do winter courses cost in Ireland?",
+      a: "Tuition fees range from €200 to €400 per week for English language training, and €1,500 to €3,500 for university winter school tuition. Comprehensive all-inclusive packages (covering tuition, on-campus accommodation, meal plans, and cultural excursions) typically range between €2,800 and €4,800."
     },
     {
-      "q": "4\\. Are international students required to have a visa for winter courses in Ireland?",
-      "a": "Depends on nationality, course length and immigration rules. Short Stay ‘C’ visit (study) visa is usually needed for students requiring a visa who are attending a course of 90 days or less. Students who intend to stay longer should consult with Irish Immigration Service Delivery on the relevant long-stay and student-permission requirements."
+      q: "Are international students required to have a visa for winter courses in Ireland?",
+      a: "Visa-required non-EEA nationals (including Indian students) attending a winter course of 90 days or less must apply for a Short Stay 'C' visit (study) visa before travelling. Applicants must provide their university letter of acceptance, accommodation confirmation, comprehensive medical insurance, and proof of adequate financial funds."
     },
     {
-      "q": "5\\. Can I get a job in Ireland after a winter course?",
-      "a": "A short winter course does not automatically give you work rights or a post-study work permit. Students must satisfy the criteria for the specific employment or immigration permission."
+      q: "Can I get a job in Ireland after completing a winter course?",
+      a: "No. Short winter courses do not grant post-study work permits or employment rights. Students holding a Short Stay 'C' visa cannot work in Ireland. Full-time work rights and 1 to 2-year post-study work visas (Stamp 1G) are exclusively available to graduates of qualifying NFQ Level 8 (honours bachelor's) and NFQ Level 9 (master's) full-time degree programmes."
     },
     {
-      "q": "How can Edu Hawk worldwide Consultancy help me to study abroad?",
-      "a": "Edu Hawk worldwide can help students find the right universities and understand admission requirements, arrange application documents and plan their study abroad journey. Students are responsible for checking academic, financial, immigration and licensing requirements with the appropriate official authorities."
+      q: "How can EduHawk Worldwide Consultancy help me apply for winter courses in Ireland?",
+      a: "EduHawk assists students with university and module selection, ECTS credit equivalency verification, official application processing, on-campus accommodation reservation, and complete Short Stay 'C' visa filing guidance to guarantee a seamless winter study experience in Ireland."
     }
   ]
 };
@@ -441,8 +412,9 @@ export default function WinterCoursesIreland() {
       heroBgImg={heroBgImg}
       sideImg={sideImg}
       ctaBgImg={ctaBgImg}
-      showHeroStats={false}
+      showHeroStats={true}
       seoPath="/study-abroad/ireland/winter-courses"
+      images={images}
     />
   );
 }

@@ -16,12 +16,12 @@ const page = {
   "slug": "biomed_engg_ug",
   "title": "Biomedical Engineering - UG in Italy for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Biomedical Engineering - UG in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
-  "keywords": "Top 6 SEO Keywords",
+  "keywords": "Bachelor's in Biomedical Engineering in Italy, Study Biomedical Engineering Italy, UG Biomedical Engineering Italy, Biomedical Engineering Fees in Italy",
   "introTitle": "Biomedical Engineering in Italy for Indian Students",
-  "heroParas": [
-    "Yep. Indian students can apply for eligible bachelor programs after Class 12 if they meet the university's academic, subject, language and entrance tests requirements."
+  heroParas: [
+    "A Bachelor’s in Biomedical Engineering in Italy combines physiological sciences with mechanical and electrical engineering principles to design next-generation medical technology and health informatics systems."
   ],
-  "overview": [
+  overview: [
     "Yep. Indian students can apply for eligible bachelor programs after Class 12 if they meet the university's academic, subject, language and entrance tests requirements."
   ],
   "level": "Undergraduate",
@@ -145,19 +145,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Graduates can work in biomedical engineering, medical-device design, health-care technology, clinical engineering support, quality assurance, technical applications and research. Some special jobs require further study or professional experience.",
-            "Top 6 SEO Keywords"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Biomedical Engineering in Italy for Indian Students",
-            "Biomedical Engineering Courses in Italy",
-            "Biomedical Engineering Universities in Italy",
-            "Study Biomedical Engineering in Italy",
-            "Biomedical Engineering Admission Requirements in Italy",
-            "Cost of Studying Biomedical Engineering in Italy"
+            "Graduates can work in biomedical engineering, medical-device design, health-care technology, clinical engineering support, quality assurance, technical applications and research. Some special jobs require further study or professional experience."
           ]
         }
       ]
@@ -268,7 +256,34 @@ const page = {
       "title": "Questions and Answers on Biomedical Engineering in Italy",
       "groups": []
     }
-  ]
+  ],
+  faqs: [
+    {
+        "q": "Can Indian students enroll in Biomedical Engineering in Italy after 12th?",
+        "a": "Yes. Students completing Class 12 with mathematics, physics, and chemistry/biology can apply for undergraduate biomedical engineering degrees."
+    },
+    {
+        "q": "How long is a Bachelor's in Biomedical Engineering in Italy?",
+        "a": "The programme spans 3 academic years (180 ECTS credits) under the European Bologna framework."
+    },
+    {
+        "q": "What are the tuition fees for undergraduate biomedical engineering?",
+        "a": "Tuition at public universities ranges from €1,000 to €3,900 per year, and can be completely waived under regional DSU scholarships."
+    },
+    {
+        "q": "What entrance tests are required for admission?",
+        "a": "Admission is commonly evaluated via the English TOLC-I exam covering mathematics, science fundamentals, and logical reasoning."
+    },
+    {
+        "q": "What subjects are taught in the bachelor's curriculum?",
+        "a": "Courses cover calculus, physics, bioelectricity, biomaterials, physiological modeling, medical instrumentation, and healthcare technology."
+    },
+    {
+        "q": "What are the next steps after graduating with a biomedical bachelor's?",
+        "a": "Graduates can continue into a 2-year Master of Science in Biomedical Engineering or seek entry-level roles in medical device companies and healthcare labs."
+    }
+],
+  faqTitle: "Frequently Asked Questions About Biomedical Engineering UG in Italy"
 };
 
 export default function BiomedicalEngineeringUGItaly() {

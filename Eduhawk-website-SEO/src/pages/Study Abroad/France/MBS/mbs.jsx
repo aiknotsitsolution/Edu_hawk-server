@@ -13,409 +13,330 @@ import uniImg2 from "../../../../Images/Abroad/France/MBS/HEC_Paris_Business_Sch
 import uniImg3 from "../../../../Images/Abroad/France/MBS/ESSEC_Business_School.webp";
 
 const page = {
-  "name": "MBS in France",
-  "country": "France",
-  "slug": "mbs",
-  "title": "Study MBS in France for Indian Students | Edu-Hawk Worldwide",
-  "description": "Complete guide to MBS in France for Indian students: Top French universities, admission requirements, tuition fees (€255 – €3,950 / year public), scholarships, and 2-year post-study work visa.",
-  "keywords": "MBS in France, Study in France, French Universities, Admissions 2026, Edu Hawk Worldwide",
-  "introTitle": "MBS IN FRANCE FOR INDIAN STUDENTS",
-  "heroParas": [
-    "Students can **study Master of Business Studies (MBS in France)**, which is a postgraduate course aimed at improving their knowledge in **business administration, strategic management, finance, marketing and international trade. France has public universities, private business schools and specialist management institutions offering a range of master’s-level qualifications.",
-    "The title of **Master of Business Studies (MBS)** is not a standardized name of the program used by all French institutions. Students looking to **study an MBS** should also search for courses titled **Master’s in Management, Master’s in Business Administration, International Business, Management and Organizations, or Business Management**.",
-    "Students can get to know about these opportunities and the requirements to study abroad for higher education with **Edu Hawk worldwide study** abroad guidance.",
-    "**"
+  name: "MBS in France",
+  country: "France",
+  slug: "mbs",
+  title: "Study MBS in France for Indian Students | EduHawk",
+  description: "Complete guide to Master of Business Studies (MBS), Master in Management (MiM), and MSc in Business in France for Indian students: Top business schools (Paris Dauphine, HEC Paris, ESSEC), tuition fees, admission requirements, and career opportunities.",
+  keywords: "Study MBS in France, MBS in France for Indian Students, Master of Business Studies in France, MBS Courses in France, Best Business Schools in France for MBS, Top Universities for Business Studies in France, MBS Eligibility in France, MBS Admission Requirements in France, MBS Tuition Fees in France, Cost of Studying MBS in France, MBS Scholarships in France, Master's in Management in France, Master's in International Business in France, Career Opportunities After MBS in France",
+  introTitle: "MBS IN FRANCE FOR INDIAN STUDENTS",
+  heroParas: [
+    "A **Master of Business Studies (MBS in France)**—offered as Master in Management (MiM), MSc in International Business, or Master in Business Administration—is a globally acclaimed postgraduate qualification engineered to advance expertise in strategic leadership, corporate finance, market expansion, digital disruption, and cross-border commercial trade across France's top public universities and triple-accredited Grandes Écoles."
   ],
-  "overview": [
-    "Students can **study Master of Business Studies (MBS in France)**, which is a postgraduate course aimed at improving their knowledge in **business administration, strategic management, finance, marketing and international trade. France has public universities, private business schools and specialist management institutions offering a range of master’s-level qualifications.",
-    "The title of **Master of Business Studies (MBS)** is not a standardized name of the program used by all French institutions. Students looking to **study an MBS** should also search for courses titled **Master’s in Management, Master’s in Business Administration, International Business, Management and Organizations, or Business Management**.",
-    "Students can get to know about these opportunities and the requirements to study abroad for higher education with **Edu Hawk worldwide study** abroad guidance.",
-    "**"
+  overview: [
+    "In France, postgraduate business programs are widely categorized under the **Master in Management (MiM)**, **MSc in International Business**, or specialized **Master of Science (MSc)** degrees. France is globally acknowledged as a premier hub for management education, consistently dominating the top tiers of the Financial Times European Business School rankings.",
+    "Programs are delivered across a 1-year (accelerated 60–90 ECTS) or 2-year (120 ECTS, Master 1 + Master 2) framework conferring the official French state **Grade de Master** and international Triple Crown accreditation (AACSB, EQUIS, AMBA). Taught extensively in 100% English, these degrees combine academic rigor with mandatory corporate internships, consulting projects, and opportunities for paid work-study (*alternance*).",
+    "**EduHawk Worldwide Study Abroad Guidance** provides personalized advisory services for Indian graduates—evaluating bachelor's profiles, shortlisting top Grandes Écoles, assisting with SOP and recommendation drafting, and guiding students through the Campus France visa procedure."
   ],
-  "level": "Master of Business Studies (MBS / MSc in Management)",
-  "crumb": "Business / MBS",
-  "stats": [
+  level: "Master of Business Studies (MBS / Master in Management / Grade de Master)",
+  crumb: "Business & Management / MBS",
+  stats: [
     {
-      "label": "Degree Choices",
-      "value": "Master of Business Studies (MBS / MSc in Management)"
+      label: "Degree Equivalents",
+      value: "MBS / Master in Management (MiM) / MSc Business (90 – 120 ECTS)"
     },
     {
-      "label": "Course Duration",
-      "value": "1 to 2 Years (Master's / M1+M2)"
+      label: "Course Duration",
+      value: "1 to 2 Years (Master 1 + Master 2 / Bac+5)"
     },
     {
-      "label": "Top Institutions",
-      "value": "Paris Dauphine, HEC Paris Business School"
+      label: "Top Institutions",
+      value: "Paris Dauphine-PSL, HEC Paris, ESSEC Business School"
     },
     {
-      "label": "Post-Study Work",
-      "value": "2-Year APS / Autorisation Provisoire de Séjour"
+      label: "Post-Study Work",
+      value: "2-Year APS / RECE Post-Study Work Permit"
     }
   ],
-  "sections": [
+  sections: [
     {
-      "slot": "why",
-      "eyebrow": "Why Study in France",
-      "title": "1. Paris Dauphine-PSL University**",
-      "groups": [
+      slot: "why",
+      eyebrow: "Strategic Advantages",
+      title: "Why Pursue a Master of Business Studies in France?",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Université Paris Dauphine–PSL provides postgraduate study and research pathways in management. These may be suitable to students interested in **business strategy, marketing, organizational theory, accounting and information systems**.",
-            "**"
+          t: "p",
+          items: [
+            "France represents an international powerhouse for business education, home to prestigious institutions with profound corporate ties across Europe.",
+            "**Key Advantages of Studying MBS in France:**",
+            "• **World-Leading Business Schools:** Learn from world-class faculties at Grandes Écoles ranked among the top 10 globally by the Financial Times.",
+            "• **100% English-Taught Curriculums:** Broad selection of master's programs taught entirely in English, requiring no initial French fluency for admissions.",
+            "• **Paid Corporate Internships:** French labor laws mandate financial compensation for internships exceeding two months, granting students immersive European corporate experience.",
+            "• **Multidisciplinary Specialization:** Tailor your degree in International Business, Corporate Finance, Strategic Marketing, Business Analytics, or Supply Chain Management.",
+            "• **Expansive European Business Networks:** Connect with Fortune 500 multinationals headquartered in France across luxury, aerospace, banking, energy, and tech.",
+            "• **Two-Year Post-Study Work Visa:** Graduates of French master's degrees are eligible for the 2-year Autorisation Provisoire de Séjour (APS) / RECE permit to seek career employment across France."
           ]
         }
       ]
     },
     {
-      "slot": "courses",
-      "eyebrow": "Degrees & Specializations",
-      "title": "2 : Is MBS taught in English in France?",
-      "groups": [
+      slot: "courses",
+      eyebrow: "Curriculum & Specializations",
+      title: "MBS Programs, Academic Pathways & Core Modules",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Sure. Some related **Master’s programs in Management and International Business in France** are taught in English. Other programs are taught in French or are bi-lingual. Students should verify the language of instruction of the course they have chosen.",
-            "3: How much does the MBS cost in France?",
-            "The standard registration fee for Master’s studies at public institutions for 2026–2027 is **€255 per year for EU/EEA/Swiss students** and **€3,950 for non-EU students with differentiated fees**. Some exemptions and institution-specific fees may apply. Private business schools typically have higher tuition fees.",
-            "4: What are the eligibility criteria to get admission into MBS in France?",
-            "Most postgraduate business and management courses require an accredited **bachelor’s degree**. Other requirements may be academic requirements, language test results, motivation letter, references or an interview."
+          t: "p",
+          items: [
+            "Because 'MBS' encompasses diverse master's-level business qualifications, French institutions deliver this curriculum through several specialized degree structures.",
+            "**Primary Postgraduate Business Tracks in France:**",
+            "• **Master in Management (MiM):** Comprehensive 2-year flagship program (120 ECTS) covering general leadership, organizational strategy, finance, and corporate operations.",
+            "• **MSc in International Business:** Emphasizes multinational market entry, global supply chains, international trade policy, and cross-border commercial strategy.",
+            "• **MSc in Marketing & Business Development:** Advanced training in consumer behavioral analytics, brand equity, digital omnichannel strategies, and sales growth.",
+            "• **MSc in Corporate Finance & Investment Banking:** Financial modeling, M&A valuation, risk management, and capital markets strategy.",
+            "• **Master's in Entrepreneurship & Innovation:** Venture creation, disruptive technology management, startup financing, and enterprise design.",
+            "**Core Curricular Modules:**",
+            "Strategic Management, Managerial Economics, Corporate Financial Reporting, Quantitative Business Methods, Marketing Analytics, Business Law & Ethics, and Operations & Supply Chain Strategy.",
+            "**Program Durations:**",
+            "Specialized MSc programs typically span 12 to 18 months, while standard Master in Management (MiM / Diplôme Grande École) tracks span 2 years."
           ]
         }
       ]
     },
     {
-      "slot": "unis",
-      "eyebrow": "Top Institutions in France",
-      "title": "3. ESSEC Business School**",
-      "groups": [
+      slot: "unis",
+      eyebrow: "Top Institutions",
+      title: "Top Universities & Business Schools for MBS in France",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "ESSEC Business School offers management programs to develop business knowledge and pursue different academic and career interests.",
-            "Students should consult the current program catalog to find out what **master's-level business and management course** is right for them, what language it is taught in and what qualification it leads to.",
-            "**"
+          t: "p",
+          items: [
+            "France boasts premier public universities and private Grandes Écoles delivering elite postgraduate business and management qualifications."
+          ]
+        }
+      ],
+      unis: [
+        {
+          name: "Paris Dauphine-PSL University",
+          city: "Paris",
+          state: "Île-de-France",
+          desc: "Renowned public collegiate university offering top-ranked master's degrees in management, quantitative finance, marketing, and business strategy with extensive research institutes.",
+          img: uniImg1
+        },
+        {
+          name: "HEC Paris Business School",
+          city: "Jouy-en-Josas / Paris",
+          state: "Île-de-France",
+          desc: "Consistently ranked the #1 business school in Europe by the Financial Times, delivering the world-renowned Master in Management (MiM) and specialized MSc business degrees.",
+          img: uniImg2
+        },
+        {
+          name: "ESSEC Business School",
+          city: "Cergy / Paris",
+          state: "Île-de-France",
+          desc: "Triple-accredited Grandes Écoles powerhouse offering the Master in Strategy & Management of International Business (SMIB) and flagship MiM programs.",
+          img: uniImg3
+        }
+      ]
+    },
+    {
+      slot: "eligibility",
+      eyebrow: "Admissions Criteria",
+      title: "MBS Admission & Eligibility Requirements for Indian Students",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Postgraduate business admissions evaluate academic excellence, analytical aptitude, and international career motivation.",
+            "**Standard Eligibility Criteria:**",
+            "• **Undergraduate Degree:** A recognized Bachelor's degree (3-year or 4-year degree from a recognized university) in business, engineering, economics, commerce, or humanities with strong academic performance (typically 60%+ aggregate).",
+            "• **Academic Background:** Most Master in Management programs welcome graduates from diverse disciplines, while specialized MSc tracks in finance or analytics may require quantitative coursework.",
+            "• **English Language Proficiency:** For English-medium programs: IELTS score of 6.5 – 7.0, TOEFL iBT of 90 – 100+, or official proof of English as medium of instruction (MOI).",
+            "• **Standardized Aptitude Tests:** GMAT or GRE scores are highly recommended or mandatory for elite business schools (HEC, ESSEC, INSEAD), but many Grandes Écoles offer internal assessments or waivers.",
+            "• **Professional Experience:** Work experience is beneficial but generally not mandatory for pre-experience Master in Management (MiM) programs.",
+            "• **Admissions Screening:** Comprehensive evaluation of undergraduate transcripts, Statement of Purpose (SOP), two letters of recommendation, and a personal interview."
           ]
         }
       ]
     },
     {
-      "slot": "eligibility",
-      "eyebrow": "Academic & Language Criteria",
-      "title": "4. MBS Admissions in France for Indian Students**",
-      "groups": [
+      slot: "fees",
+      eyebrow: "Tuition & Costs",
+      title: "Tuition Fees, Public University Costs & Living Expenses",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "**MBS eligibility in France**  varies by institution and program. Most postgraduate business and management courses require a recognized degree qualification.",
-            "Standard eligibility criteria",
-            "Applicants may typically require:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "* Degree: Recognized undergraduate degree or equivalent qualification.",
-            "* Academic Records-  Academic transcripts and degree certificates.",
-            "* Appropriate academic background: Adequate preparation in business, management, economics or related discipline where appropriate.",
-            "* English-Language Proficiency: Required for English-taught courses, where applicable.",
-            "* French Language Skills: If applicable, for courses taught in French.",
-            "* Application documents:  CV or resume and motivation letter.",
-            "* Other Selection Criteria: References, entrance tests or interview as necessary."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Some ****Master’s in Management programs in France**** welcome graduates from a variety of disciplines, but those specializing in finance, economics or analytics may have subject prerequisites.",
-            "**"
+          t: "p",
+          items: [
+            "Tuition fees in France depend on whether you attend a public research university or an independent private Grande École.",
+            "**Tuition Fee Benchmark (2026–2027 Academic Year):**",
+            "• **Public Universities (National Reference Fees):**",
+            "  - Master's Degree (M1 + M2): €255/year (EU/EEA students) vs. €3,950/year (Non-EU students) under the national differential fee system.",
+            "• **Private Business Schools & Grandes Écoles:**",
+            "  - Range from **€14,000 to €28,000 per year**, depending on institution prestige, specialization track, and multi-campus mobility options.",
+            "**Living Expenses & Subsidies:**",
+            "• Monthly living costs average €750 to €1,000 in regional cities (Grenoble, Lille, Toulouse) and €1,100 to €1,500 in Paris.",
+            "• All international students in France are entitled to French state CAF housing subsidies (reimbursing up to 40% of monthly accommodation rent).",
+            "• Annual CVEC campus student contribution is approximately €103/year.",
+            "**Scholarships for Indian Students:**",
+            "• **French Government Scholarships:** The Eiffel Excellence Scholarship covers full tuition and a monthly living allowance.",
+            "• **Business School Merit Scholarships:** Institutional waivers covering 15% to 50% of tuition based on academic credentials and early application."
           ]
         }
       ]
     },
     {
-      "slot": "requirements",
-      "eyebrow": "Application Checklist",
-      "title": "5. What are the career prospects after a course related to MBS in France?",
-      "groups": [
+      slot: "admission",
+      eyebrow: "Application Roadmap",
+      title: "Step-by-Step MBS Application & Enrollment Process",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Possible positions include **Business Analyst, Marketing Executive, Project Manager, Management Consultant, Operations Coordinator and Business Development Executive** Career opportunities depend on the course, prior experience, language skills and work authorization.",
-            "How **Edu Hawk Worldwide Consultancy** Can Help Me Study in France?",
-            "When choosing the right  **MBS-related Master's program in France**, great care must be taken to consider the qualification awarded, recognition of the university, admission requirements, tuition fees and career objectives.",
-            "**Edu Hawk worldwide** study abroad guidance helps students to explore suitable **universities and business schools in France**, to know admission requirements, to organize application documents and to plan their study-abroad journey.",
-            "Students are advised to check the academic, financial, immigration and qualification recognition requirements with the relevant official authorities prior to application.",
-            "SEO Keywords",
-            "Study MBS in France",
-            "MBS in France for Indian Students",
-            "Master of Business Studies in France",
-            "MBS Courses in France",
-            "MBS Eligibility in France",
-            "MBS Admission Requirements in France",
-            "MBS Tuition Fees in France",
-            "Cost of Studying MBS in France",
-            "MBS Scholarships in France",
-            "Best Universities for Business Studies in France",
-            "Master’s in Management in France",
-            "Master’s in International Business in France",
-            "Master’s in Business Administration in France",
-            "MBS Admission Process in France",
-            "Career Opportunities After MBS in France"
+          t: "p",
+          items: [
+            "Applying to postgraduate business programs in France follows a structured admissions calendar through institutional portals and Campus France."
+          ]
+        }
+      ],
+      steps: [
+        {
+          title: "Select Preferred Specialization",
+          desc: "Determine whether your career goals align with a general Master in Management (MiM), an MSc in International Business, or a specialized functional MSc."
+        },
+        {
+          title: "Shortlist Target Institutions",
+          desc: "Compare French universities and Grandes Écoles (such as Paris Dauphine, HEC Paris, ESSEC, EDHEC, and Emlyon) based on accreditation, rankings, and tuition."
+        },
+        {
+          title: "Verify Academic Prerequisites",
+          desc: "Review degree requirements, minimum undergraduate percentages, and language/standardized test prerequisites with EduHawk advisors."
+        },
+        {
+          title: "Prepare Application Dossier",
+          desc: "Draft a tailored Statement of Purpose (SOP), update your professional CV, and secure two academic or employer letters of recommendation (LOR)."
+        },
+        {
+          title: "Language & Aptitude Testing",
+          desc: "Complete your IELTS/TOEFL exam and appear for the GMAT/GRE if required by your chosen business school."
+        },
+        {
+          title: "Submit Online Application",
+          desc: "Upload certified transcripts, degree certificates, and motivation essays through the institution's portal or the Études en France platform."
+        },
+        {
+          title: "Admissions Interview",
+          desc: "Participate in an evaluative virtual interview with admissions directors and faculty panels to articulate your career aspirations and leadership potential."
+        },
+        {
+          title: "Receive Admission Offer & Deposit",
+          desc: "Upon receiving your acceptance letter, confirm your enrollment seat by paying the requisite institutional deposit and finalize scholarship allocations."
+        },
+        {
+          title: "Campus France 'Etudes en France'",
+          desc: "Submit your admission dossier on the Campus France portal and complete the mandatory in-person or virtual academic verification interview."
+        },
+        {
+          title: "VLS-TS Visa & Arrival",
+          desc: "Submit your long-stay student visa application at VFS, arrange student housing, and attend EduHawk pre-departure orientation sessions."
+        }
+      ]
+    },
+    {
+      slot: "accreditation",
+      eyebrow: "Quality Standards",
+      title: "Accreditation & Degree Recognition of French Master's Programs",
+      groups: [
+        {
+          t: "p",
+          items: [
+            "Verifying official recognition guarantees that your postgraduate qualification is recognized by employers and doctoral institutions worldwide.",
+            "**Key Recognition Credentials:**",
+            "• **Grade de Master:** The premier national state-recognized degree title authorized by the French Ministry of Higher Education, guaranteeing 120 ECTS credits.",
+            "• **RNCP Level 7:** Certification in the Répertoire National des Certifications Professionnelles, verifying accredited master-level managerial competencies.",
+            "• **Conférence des Grandes Écoles (CGE):** Confirms membership within the prestigious assembly of elite French engineering and management schools.",
+            "• **International Triple Crown (AACSB, EQUIS, AMBA):** The benchmark of global business school excellence, held by France's premier institutions."
           ]
         }
       ]
     },
     {
-      "slot": "fees",
-      "eyebrow": "Tuition & Cost of Living",
-      "title": "6. Cost of Studying MBA in France**",
-      "groups": [
+      slot: "career",
+      eyebrow: "Career Horizons",
+      title: "Career Opportunities & Salary Expectations After MBS",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "The **cost of studying MBS in France**  varies in terms of the institution, qualification, nationality and location. Tuition fees can differ a lot between public universities and private business schools.",
-            "Tuition Fees",
-            "For public higher-education institutions participating in the national tuition-fee system in France, the following annual registration fees are applicable to the indicated student categories:",
-            "Bachelor's Degree \\| €178 \\| €2,902",
-            "Master’s Degree \\| €255 \\| €3,950",
-            "PhD \\| €398 \\| €398",
-            "These are **national registration fees for eligible public institutions** not universal prices for all management programs. Some institutions and programs may charge different fees and some exemptions may apply. Private business schools can be significantly more expensive.",
-            "Indian students are advised to check the **MBS tuition fees in France** with the university they are applying to.",
-            "**Additional Costs for Students in France**",
-            "Students should also allow for:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "- Housing and utilities.",
-            "- Food and daily living costs.",
-            "- Transport of mass.",
-            "- Books and study materials and equipment.",
-            "- Insurance and health-related costs, if applicable.",
-            "- Visa related expenses and the applicable Student and Campus Life Contribution (CVEC)."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "**Cost of living in France** varies depending on the city, type of accommodation and personal habits. Paris is usually pricier than most small university towns.",
-            "Scholarships and Funding There are many scholarship and funding opportunities available to students who wish to pursue an MBA in France. Here are some of the most popular options:",
-            "The **MBS Scholarships** -  The program provides financial assistance to high-achieving students who demonstrate a commitment to their studies and a passion for their chosen field. These scholarships are awarded based on merit and can cover a range of expenses, including tuition, living costs, and travel.",
-            "The **MBS Funding** program offers a variety of funding options, including grants, loans, and work-study programs. These programs are designed to help students finance their education and can be a valuable resource for those who may not qualify for traditional scholarships. In addition to these programs, there are also a number of **private scholarships** available through organizations and foundations.",
-            "These scholarships can be a great way to supplement your income and reduce the financial burden of pursuing an MBA",
-            "Indian students can look at different **scholarships for postgraduate business studies in France** such as:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "- Government of France Scholarships",
-            "- Scholarships from universities or business schools.",
-            "- Awards based on merit.",
-            "- Financing the exchange program.",
-            "- Qualified educational loans and external grants."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "French scholarships for Indian students have different application deadlines and eligibility criteria. Applicants are advised to check the official university and scholarship funding pages before applying.",
-            "**"
+          t: "p",
+          items: [
+            "Graduates of French master's programs in business and management enjoy exceptional global employability across major corporate industries.",
+            "**High-Demand Career Roles:**",
+            "• **Management Consultant & Strategy Analyst**",
+            "• **International Business Development Manager**",
+            "• **Corporate Financial Analyst / Investment Banking Associate**",
+            "• **Brand Manager & Digital Marketing Strategist**",
+            "• **Global Supply Chain & Logistics Operations Manager**",
+            "• **Enterprise Project Manager & Scrum Master**",
+            "• **Human Resources & Global Talent Specialist**",
+            "• **Corporate Entrepreneur & Startup Founder**",
+            "**Salary Expectations in France:**",
+            "Postgraduate business graduates in France command starting salaries averaging **€45,000 to €65,000 per year**, with elite Grandes Écoles reporting median packages exceeding **€70,000 to €85,000+ per year** within three years of graduation.",
+            "**Post-Study Work Authorization:**",
+            "Graduates are eligible for the 2-year post-study work authorization (APS / RECE permit), providing seamless transition into European corporate employment."
           ]
         }
       ]
     },
     {
-      "slot": "process",
-      "eyebrow": "Step-by-Step Guide",
-      "title": "7. Participate in Selection Stages",
-      "groups": [
+      slot: "docs",
+      eyebrow: "Checklist",
+      title: "Documents Required for MBS Admission in France",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "Conduct interviews, or request assessment or other documents.",
-            "Step 8: Review Your Offer of Admission",
-            "Check out tuition fees, deadlines, scholarship requirements, and registration requirements.",
-            "Step 9: Arrange for Funds and Accommodation",
-            "Make a realistic budget before traveling that covers tuition, accommodation and living expenses.",
-            "Step 10: Finish Visa and Enrollment Process",
-            "Those who need a student visa should use the present official French government application process.",
-            "Application calendars differ by institution. Students are advised to check the deadlines for the relevant academic year and start preparations well in advance.",
-            "**"
+          t: "p",
+          items: [
+            "Applicants should prepare the following comprehensive documentation:",
+            "1. Valid international passport.",
+            "2. Bachelor's degree certificate or provisional graduation certificate.",
+            "3. Official consolidated academic mark sheets and transcripts.",
+            "4. Comprehensive professional Curriculum Vitae (CV).",
+            "5. Tailored Statement of Purpose (SOP) / Letter of Motivation.",
+            "6. English proficiency test results (IELTS / TOEFL) or MOI certificate.",
+            "7. GMAT or GRE score report (if applicable).",
+            "8. Two Letters of Recommendation (academic and/or professional).",
+            "9. Proof of relevant work experience or internships (if applicable).",
+            "10. Certified English or French translations of any non-English documentation.",
+            "11. Recent passport-sized digital photographs.",
+            "12. Payment confirmation for the institutional application fee."
           ]
         }
       ]
     },
     {
-      "slot": "accreditation",
-      "eyebrow": "Degrees & Recognition",
-      "title": "8. Accreditation and Recognition of MBS in France**",
-      "groups": [
+      slot: "eduhawk",
+      eyebrow: "Consultancy Support",
+      title: "How EduHawk Supports Your MBS Journey in France",
+      groups: [
         {
-          "t": "p",
-          "items": [
-            "In the case of choosing a course which is known as Master of Business Studies, the recognition of the MBS qualification in France is of particular importance. The title alone does not guarantee that a program is a nationally recognized French Master’s degree.",
-            "Students should verify before registering:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "- The full title of the qualification.",
-            "- If the program is awarding a national Master’s degree or a qualification conferring the grade de master."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The institution and program are formally recognized and relevant."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "- Qualification level and ECTS credits."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "– if the qualification is appropriate for the next stage of study or for work in the country of destination.",
-            "France’s Ministry of Higher Education publishes official information on the institutions and qualifications authorized to award degrees conferring the **grade de master**.",
-            "Applicants should check the official information and the institution's program page before accepting an offer of admission.",
-            "**"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Job Roles & Industry Growth",
-      "title": "9. Salary and job prospects after studying an MBS in France**",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "A postgraduate business or management qualification can help enhance career opportunities across a range of industries. The job prospects for those who have studied MBS-related subjects in France  will depend on the student’s specialization, his/her previous experience, language ability, practical skills and the qualification awarded.",
-            "Job Opportunities After MBS in France",
-            "Possible job roles include:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "* Executive Business Development",
-            "* Management Consultant",
-            "* Business Analysis",
-            "* SALES EXECUTIVE",
-            "* Specialist, Human Resources",
-            "* Operations Coordinator",
-            "* Project Manager",
-            "* International Business Executive",
-            "* Accounts Manager",
-            "* Founder of a startup/entrepreneur"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Students who major in finance can be employed as financial analysts or managers, while marketing students can find jobs in brand management, market research or digital marketing.",
-            "Average Salary After MBA in France",
-            "There is no one salary after MBS in France. Not least because MBS can mean different qualifications and program structures.",
-            "Salary depends on the job title, industry, employer, location and professional experience.",
-            "To estimate potential earnings students should:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "- Look at recent job adverts in their target location.",
-            "- Consult reputable salary surveys for their desired industry.",
-            "- Ask if published figures are gross annual pay or take-home pay.",
-            "- Think about the cost of living and cost of working in the city you pick.",
-            "- Review career and employment information released by the selected institution."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "**Career Opportunities after MBS Studies**",
-            "Students may improve their professional opportunities through:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "- Internships or work-study options, if available, to gain practical experience.",
-            "- Communication, presentation and analytical skills development.",
-            "- Improving **French language skills** for roles requiring interaction with French-speaking clients or colleagues.",
-            "- Learning business software, data analysis tools.",
-            "- Establishing a professional network through university events and alumni activities.",
-            "- Check work authorization and post-study residence options from official government of France sources."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Document Requirements",
-      "title": "10. Documents Required for Admission to MBS in France",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The exact document checklist varies according to the institution and program. **Documents often required for MBS admission in France** are:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "- Valid ID or passport accepted.",
-            "- Bachelor degree certificate or provisional certificate.",
-            "- Academic Records.",
-            "- CV/resume updated.",
-            "- Letter of Purpose/Motivation Letter.",
-            "- Results of an English or French language test, if necessary.",
-            "- Letters of recommendation, if applicable.",
-            "- Entrance test results, if any.",
-            "- Proof of relevant work experience (if applicable).",
-            "- Notarized translations of documents not accepted in original language.",
-            "- Application form filled.",
-            "- Payment of application fee, if any.",
-            "- any other documents required by the institution or the visa authorities."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Applicants who are still completing their undergraduate degree may be required to submit current transcripts and proof of expected graduation.",
-            "Students are required to follow the university’s guidelines on document format, translation and submission.",
-            "**"
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "faqs",
-      "eyebrow": "Frequently Asked Questions",
-      "title": "11. The French MBS for Indian Students: FAQs**",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "1: What is an MBS?",
-            "MBS is the abbreviation for **Master of Business Studies**. However, the title is not used consistently across French institutions and applicants should check the exact program name and qualification awarded."
+          t: "p",
+          items: [
+            "Selecting the optimal business school in France requires strategic evaluation of curriculum structure, global rankings, and long-term career aspirations.",
+            "**EduHawk Worldwide Comprehensive Advisory Services:**",
+            "• **Strategic School Matching:** Profiling your academic background against top French Grandes Écoles and universities to maximize acceptance odds.",
+            "• **Application & SOP Mentorship:** Crafting compelling, high-impact personal statements and strategic career essays.",
+            "• **Interview Preparation:** Conducting simulated mock interview sessions to prepare candidates for faculty panel screenings.",
+            "• **Scholarship Acquisition:** Identifying institutional merit grants and French government financial aid to offset tuition costs.",
+            "• **Campus France & Visa Filing:** Complete step-by-step guidance on Etudes en France procedures, financial documentation, and VFS visa filing."
           ]
         }
       ]
     }
   ],
-  "faqs": [
+  faqs: [
     {
-      "q": "1: What is an MBS?",
-      "a": "MBS is the abbreviation for **Master of Business Studies**. However, the title is not used consistently across French institutions and applicants should check the exact program name and qualification awarded."
+      q: "What is an MBS and how is it recognized in France?",
+      a: "MBS stands for Master of Business Studies. In France, it is offered under titles such as Master in Management (MiM), MSc in International Business, or MSc in Management, conferring the official French state Grade de Master (Bac+5, 120 ECTS) and international Triple Crown accreditation."
+    },
+    {
+      q: "Is it possible to study an MBS in France in English?",
+      a: "Yes. Top French business schools offer 100% English-taught master's programs in management and international business. Indian students do not need prior knowledge of French for admission, though French language classes are integrated to support European career networking."
+    },
+    {
+      q: "What is the tuition cost for an MBS in France?",
+      a: "Standard national registration fees at public universities for non-EU students are €3,950/year. Leading private Grandes Écoles charge between €14,000 and €28,000/year. French government Eiffel scholarships and business school merit grants frequently offset candidate costs."
+    },
+    {
+      q: "What are the eligibility criteria for Indian students?",
+      a: "Candidates require a recognized undergraduate degree (3-year or 4-year Bachelor's) with good academic standing (typically 60%+), proof of English language proficiency (IELTS 6.5–7.0 or TOEFL 90+), motivation essays, recommendation letters, and satisfactory interview performance."
+    },
+    {
+      q: "What career opportunities open after completing an MBS in France?",
+      a: "Graduates advance into roles such as Management Consultants, International Business Managers, Financial Analysts, Project Managers, and Marketing Strategists with starting salaries ranging from €45,000 to €65,000/year, supported by a 2-year post-study work authorization (APS / RECE permit)."
     }
   ]
 };
@@ -427,23 +348,39 @@ export default function MBSinFrancePage() {
     side: sideImg,
     ctaBg: ctaBgImg,
     universities: [
-    {
-      name: "Paris Dauphine",
-      img: uniImg1,
-      desc: "Recognized French higher education institution offering accredited curriculum, world-class research facilities, and excellent industry connections."
-    },
-    {
-      name: "HEC Paris Business School",
-      img: uniImg2,
-      desc: "Recognized French higher education institution offering accredited curriculum, world-class research facilities, and excellent industry connections."
-    },
-    {
-      name: "ESSEC Business School",
-      img: uniImg3,
-      desc: "Recognized French higher education institution offering accredited curriculum, world-class research facilities, and excellent industry connections."
-    }
+      {
+        name: "Paris Dauphine-PSL University",
+        city: "Paris",
+        state: "Île-de-France",
+        desc: "Renowned public collegiate university offering top-ranked master's degrees in management, quantitative finance, marketing, and business strategy with extensive research institutes.",
+        img: uniImg1
+      },
+      {
+        name: "HEC Paris Business School",
+        city: "Jouy-en-Josas / Paris",
+        state: "Île-de-France",
+        desc: "Consistently ranked the #1 business school in Europe by the Financial Times, delivering the world-renowned Master in Management (MiM) and specialized MSc business degrees.",
+        img: uniImg2
+      },
+      {
+        name: "ESSEC Business School",
+        city: "Cergy / Paris",
+        state: "Île-de-France",
+        desc: "Triple-accredited Grandes Écoles powerhouse offering the Master in Strategy & Management of International Business (SMIB) and flagship MiM programs.",
+        img: uniImg3
+      }
     ]
   };
 
-  return <AbroadCoursePage page={page} images={images} />;
+  return (
+    <AbroadCoursePage
+      page={page}
+      heroImg={heroImg}
+      heroBgImg={heroBgImg}
+      sideImg={sideImg}
+      ctaBgImg={ctaBgImg}
+      seoPath={page.slug}
+      images={images}
+    />
+  );
 }

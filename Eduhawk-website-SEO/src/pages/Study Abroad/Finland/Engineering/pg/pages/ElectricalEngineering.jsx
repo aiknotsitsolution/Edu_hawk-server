@@ -23,10 +23,10 @@ const page = {
     "Master's in Electrical Engineering in Finland, Electrical Engineering in Finland for Indian Students, Study Electrical Engineering in Finland, Electrical Engineering Courses in Finland, Electrical Engineering Universities in Finland, Electrical Engineering in Finland Fees",
   introTitle: "Master’s in Electrical Engineering in Finland for Indian Students",
   heroParas: [
-    "Finland is becoming a popular destination for Indian students who want to pursue advanced engineering education in a technology-driven environment. With its strong focus on innovation, research, sustainable energy, automation, and digital technologies, Finland offers opportunities for students interested in developing expertise in electrical engineering.",
-    "A Master’s in Electrical Engineering in Finland can help students build advanced technical knowledge, gain international exposure, and explore career opportunities in industries such as energy, electronics, telecommunications, automation, and smart systems."
+    "Finland is becoming a popular destination for Indian students who want to pursue advanced engineering education in a technology-driven environment. With its strong focus on innovation, research, sustainable energy, automation, and digital technologies, Finland offers opportunities for students interested in developing expertise in electrical engineering."
   ],
   overview: [
+    "A Master’s in Electrical Engineering in Finland can help students build advanced technical knowledge, gain international exposure, and explore career opportunities in industries such as energy, electronics, telecommunications, automation, and smart systems.",
     "For Indian students planning to study abroad, Finland offers English-taught master's programmes, modern laboratories, research opportunities, and an international learning environment."
   ],
   level: "Postgraduate & Master's",

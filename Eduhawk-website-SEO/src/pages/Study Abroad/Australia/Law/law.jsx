@@ -21,8 +21,23 @@ const page = {
   description: "Study Law in Australia for Indian students. Learn about LLB, Juris Doctor (JD), LLM, top law schools (Adelaide, La Trobe, Griffith, Wollongong), Priestley 11 criteria, and legal practice.",
   keywords: "Study Law in Australia for Indian Students Law Courses in Australia for Indian Students Best Universities to Study Law in Australia Bachelor of Laws (LLB) in Australia for Indian Students Master of Laws (LLM) in Australia for Indian Students Study Law in Australia After 12th Study Law in Australia After LLB in India Cost of Studying Law in Australia for Indian Students Law Scholarships in Australia for International Students Admission Requirements for Law Courses in Australia",
   introTitle: "Australian Law for Indian Students",
-  heroParas: ["The study of legal systems, laws, rules, rights, obligations, conflict resolution, and the values that guide people, organizations and governments is known as law.","Students can explore Australian law, legal research, advocacy, constitutional principles, commercial rules, criminal justice, and international legal frameworks when studying law in Australia."],
-  overview: ["The Bachelor of Laws, Juris Doctor, Master of Laws, and specialized programs in commercial law, international law, and legal studies are just a few of the courses available in Australian universities.","Your academic background and job objectives will determine which course is best for you. Students who wish to practice law in Australia must fulfill the necessary professional entry requirements and select a suitable qualifying law track.","Important Highlights","Learn about judicial decision-making and legal ideas.","Recognize laws, rules, and legal organizations","Develop your analytical and legal research abilities.","Learn about criminal law, contracts, and constitutional law.","Develop your ability to argue and communicate in writing.","Examine corporate, business, and international law.","Develop your ability to negotiate and resolve conflicts.","Examine professions in business, policy, compliance, and law."],
+  heroParas: [
+    "The study of legal systems, laws, rules, rights, obligations, conflict resolution, and the values that guide people, organizations and governments is known as law."
+  ],
+  overview: [
+    "Students can explore Australian law, legal research, advocacy, constitutional principles, commercial rules, criminal justice, and international legal frameworks when studying law in Australia.",
+    "The Bachelor of Laws, Juris Doctor, Master of Laws, and specialized programs in commercial law, international law, and legal studies are just a few of the courses available in Australian universities.",
+    "Your academic background and job objectives will determine which course is best for you. Students who wish to practice law in Australia must fulfill the necessary professional entry requirements and select a suitable qualifying law track.",
+    "Important Highlights",
+    "Learn about judicial decision-making and legal ideas.",
+    "Recognize laws, rules, and legal organizations",
+    "Develop your analytical and legal research abilities.",
+    "Learn about criminal law, contracts, and constitutional law.",
+    "Develop your ability to argue and communicate in writing.",
+    "Examine corporate, business, and international law.",
+    "Develop your ability to negotiate and resolve conflicts.",
+    "Examine professions in business, policy, compliance, and law."
+  ],
   level: "Undergraduate & Juris Doctor / LLM",
   crumb: "Law & Legal Studies",
 

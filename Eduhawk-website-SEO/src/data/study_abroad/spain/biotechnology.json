@@ -39,21 +39,21 @@
   "universities": [
     {
       "name": "Universitat de Barcelona",
-      "location": "Spain",
+      "location": "Barcelona, Spain",
       "fee": "€2,000 – €18,000 / Year",
-      "image": ""
+      "image": "/src/Images/Abroad/Spain/Biotechnology/Universitat_de_Barcelona.webp"
     },
     {
-      "name": "Universitat Aut&ograve;noma de Barcelona",
-      "location": "Spain",
+      "name": "Universitat Autònoma de Barcelona",
+      "location": "Barcelona, Spain",
       "fee": "€2,000 – €18,000 / Year",
-      "image": ""
+      "image": "/src/Images/Abroad/Spain/Biotechnology/Universitat_Autonoma_de_Barcelona.webp"
     },
     {
       "name": "Universidad Autónoma de Madrid",
-      "location": "Spain",
+      "location": "Madrid, Spain",
       "fee": "€2,000 – €18,000 / Year",
-      "image": ""
+      "image": "/src/Images/Abroad/Spain/Biotechnology/Universidad_Autonoma_de_Madrid.webp"
     }
   ],
   "faq": [

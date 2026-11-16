@@ -22,10 +22,10 @@ const page = {
     "Study Chemical Engineering in Australia for Indian Students Undergraduate Chemical Engineering Courses in Australia Best Universities for Chemical Engineering in Australia Bachelor of Chemical Engineering in Australia After 12th Chemical Engineering Eligibility in Australia for Indian Students Chemical Engineering Course Duration in Australia English Language Requirements for Chemical Engineering in Australia Chemical Engineering Specialisations in Australia Engineers Australia Accredited Chemical Engineering Courses Career Opportunities After Chemical Engineering in Australia",
   introTitle: "Study Australian undergraduate chemical engineering programs.",
   heroParas: [
-    "Chemical engineering transforms raw materials into valuable products such as clean fuels, pharmaceuticals, advanced materials, food products, and green chemicals.",
-    "Australia offers world-class chemical engineering education backed by thriving energy, biotechnology, minerals, and sustainability sectors, accredited by Engineers Australia."
+    "Chemical engineering transforms raw materials into valuable products such as clean fuels, pharmaceuticals, advanced materials, food products, and green chemicals."
   ],
   overview: [
+    "Australia offers world-class chemical engineering education backed by thriving energy, biotechnology, minerals, and sustainability sectors, accredited by Engineers Australia.",
     "Undergraduate programs focus on chemical reaction engineering, thermodynamics, mass and heat transfer, process design, biochemical engineering, and environmental sustainability."
   ],
   level: "UG",

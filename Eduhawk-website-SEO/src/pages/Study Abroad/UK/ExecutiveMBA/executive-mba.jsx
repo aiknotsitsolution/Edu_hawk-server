@@ -19,9 +19,7 @@ const page = {
   "keywords": "Study Executive MBA in the UK, Executive MBA in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Study Executive MBA in UK",
   "heroParas": [
-    "Executive Master of Business Administration (Executive MBA or EMBA) is a postgraduate management program aimed primarily at experienced professionals, managers, entrepreneurs, and business executives who wish to advance their careers while still working. Studying a Executive MBA in the UK will give you leadership skills, strategic thinking and global business knowledge.",
-    "The key reasons to pursue an Executive MBA in the UK are:",
-    "International Recognition: UK business schools provide management courses that are recognized worldwide and can accelerate a career."
+    "Executive Master of Business Administration (Executive MBA or EMBA) is a postgraduate management program aimed primarily at experienced professionals, managers, entrepreneurs, and business executives who wish to advance their careers while still working. Studying a Executive MBA in the UK will give you leadership skills, strategic thinking and global business knowledge."
   ],
   "overview": [
     "Executive Master of Business Administration (Executive MBA or EMBA) is a postgraduate management program aimed primarily at experienced professionals, managers, entrepreneurs, and business executives who wish to advance their careers while still working. Studying a Executive MBA in the UK will give you leadership skills, strategic thinking and global business knowledge.",

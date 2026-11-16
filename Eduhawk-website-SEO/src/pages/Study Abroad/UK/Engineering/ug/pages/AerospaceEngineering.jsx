@@ -19,9 +19,7 @@ const page = {
   "keywords": "Study BEng Aerospace Engineering in the UK, BEng Aerospace Engineering in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Study Aerospace Engineering in the UK",
   "heroParas": [
-    "The design, development, testing, and maintenance of airplanes, spacecraft, satellites, propulsion systems, and other technologies are the core topics of aerospace engineering. Aerodynamics, structures, materials, flight mechanics, propulsion, and control systems are all integrated with engineering principles.",
-    "The UK has undergraduate Aerospace Engineering programs that include actual engineering projects, computer modeling, laboratory experiments, and theoretical learning. Students can investigate technology utilized in advanced transportation, unmanned aerial vehicles, commercial aviation, defense, and space exploration.",
-    "A UK aerospace degree can offer a solid basis for future technological advancement and career prospects for Indian students interested in aircraft, flight technologies, space systems, and engineering innovation."
+    "The design, development, testing, and maintenance of airplanes, spacecraft, satellites, propulsion systems, and other technologies are the core topics of aerospace engineering. Aerodynamics, structures, materials, flight mechanics, propulsion, and control systems are all integrated with engineering principles."
   ],
   "overview": [
     "The design, development, testing, and maintenance of airplanes, spacecraft, satellites, propulsion systems, and other technologies are the core topics of aerospace engineering. Aerodynamics, structures, materials, flight mechanics, propulsion, and control systems are all integrated with engineering principles.",

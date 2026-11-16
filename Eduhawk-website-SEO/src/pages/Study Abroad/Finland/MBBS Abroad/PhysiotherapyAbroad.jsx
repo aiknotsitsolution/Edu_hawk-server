@@ -18,8 +18,13 @@ const page = {
   description: "Study Physiotherapy in Finland: English-taught Bachelor of Physiotherapy, Metropolia and JAMK, clinical practice, eligibility, fees and licensing for Indian students.",
   keywords: "Study Physiotherapy in Finland, Physiotherapy in Finland for Indian Students, Universities in Finland, Cost of Studying in Finland",
   introTitle: "Physiotherapy in Finland",
-  heroParas: [],
-  overview: [],
+  heroParas: [
+    "**[Study Physiotherapy in Finland](/courses/mbbs)** to access a modern, practical, and internationally oriented healthcare education in an advanced public healthcare system with evidence-based clinical rehabilitation training."
+  ],
+  overview: [
+    "For Indian students, **Physiotherapy in Finland for Indian Students** is an excellent study option combining academic learning with supervised hospital clinical experience. Students develop professional competencies across human anatomy, biomechanics, functional assessment, therapeutic exercise, and specialized rehabilitation.",
+    "English-taught Physiotherapy programmes are available at top universities of applied sciences. For example, **Metropolia University of Applied Sciences** offers an international Bachelor of Health Care in Physiotherapy (210 ECTS, 3.5 years) designed for international cohorts. With **[Edu-Hawk Worldwide](/services)**, students can explore physiotherapy opportunities abroad and plan university applications systematically."
+  ],
   level: "Undergraduate",
   crumb: "MBBS Abroad",
 

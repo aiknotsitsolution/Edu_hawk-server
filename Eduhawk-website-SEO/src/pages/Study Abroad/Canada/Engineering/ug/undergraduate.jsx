@@ -20,8 +20,7 @@ const page = {
   "keywords": "Study Undergraduate Engineering in Canada, Undergraduate Engineering in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Study Undergraduate Engineering Studies in Canada",
   "heroParas": [
-    "Students interested in engineering, technology, innovation, and applied sciences are drawn to Canada. Undergraduate engineering programs in Canada are offered by Canadian institutions and integrate theoretical education, lab work, design projects, and real-world experience.",
-    "After Class 12, studying engineering in Canada can lay the groundwork for jobs in a variety of fields, including technology, infrastructure, manufacturing, construction and energy. The chosen specialization, abilities, job experience, and company criteria all influence career options."
+    "Students interested in engineering, technology, innovation, and applied sciences are drawn to Canada. Undergraduate engineering programs in Canada are offered by Canadian institutions and integrate theoretical education, lab work, design projects, and real-world experience."
   ],
   "overview": [
     "Students interested in engineering, technology, innovation, and applied sciences are drawn to Canada. Undergraduate engineering programs in Canada are offered by Canadian institutions and integrate theoretical education, lab work, design projects, and real-world experience.",
