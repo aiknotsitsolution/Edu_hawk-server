@@ -17,6 +17,7 @@ import Eduhawk from "../assets/Eduhawk.webp"; // ← adjust path if needed
     "Switzerland",
     "Mauritius",
     "Denmark",
+    "Sweden",
     "Other",
   ];
 
@@ -315,6 +316,26 @@ const Navbar = () => {
       if (path === "engineering") return "/study-abroad/denmark/ug/engineering";
       return `/study-abroad/denmark/${path}`;
     }
+
+    if (selectedCountry === "Sweden") {
+      if (prefix === "/courses/ug") {
+        if (path === "engineering") return "/study-abroad/sweden/ug/engineering";
+        return `/study-abroad/sweden/ug/${path}`;
+      }
+      if (prefix === "/courses/pg") {
+        if (path === "engineering") return "/study-abroad/sweden/pg/engineering";
+        return `/study-abroad/sweden/pg/${path}`;
+      }
+      if (path === "dentistry") return "/study-abroad/sweden/dentistry";
+      if (path === "nursing") return "/study-abroad/sweden/nursing";
+      if (path === "pharmacy") return "/study-abroad/sweden/pharmacy";
+      if (path === "physiotherapy") return "/study-abroad/sweden/physiotherapy";
+      if (path === "public-health") return "/study-abroad/sweden/public-health";
+      if (path === "biotechnology") return "/study-abroad/sweden/biotechnology";
+      if (path === "engineering") return "/study-abroad/sweden/ug/engineering";
+      return `/study-abroad/sweden/${path}`;
+    }
+
 
 
 

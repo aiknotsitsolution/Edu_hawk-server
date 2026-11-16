@@ -624,6 +624,49 @@ const LawDenmark = lazy(() => import("../pages/Study Abroad/Denmark/Law/Law.jsx"
 const LanguageCoursesDenmark = lazy(() => import("../pages/Study Abroad/Denmark/LanguageCourses/LanguageCourses.jsx"));
 const SummerCoursesDenmark = lazy(() => import("../pages/Study Abroad/Denmark/SummerCourses/SummerCourses.jsx"));
 const WinterCoursesDenmark = lazy(() => import("../pages/Study Abroad/Denmark/WinterCourses/WinterCourses.jsx"));
+
+// Study Abroad - Sweden
+const DentistrySweden = lazy(() => import("../pages/Study Abroad/Sweden/MBBS Abroad/DentistryAbroad.jsx"));
+const BiotechnologySweden = lazy(() => import("../pages/Study Abroad/Sweden/MBBS Abroad/Biotechnology.jsx"));
+const NursingSweden = lazy(() => import("../pages/Study Abroad/Sweden/MBBS Abroad/NursingAbroad.jsx"));
+const PharmacySweden = lazy(() => import("../pages/Study Abroad/Sweden/MBBS Abroad/PharmacyAbroad.jsx"));
+const PhysiotherapySweden = lazy(() => import("../pages/Study Abroad/Sweden/MBBS Abroad/PhysiotherapyAbroad.jsx"));
+const PublicHealthSweden = lazy(() => import("../pages/Study Abroad/Sweden/MBBS Abroad/PublicHealth.jsx"));
+const UndergraduateEngineeringSweden = lazy(() => import("../pages/Study Abroad/Sweden/Engineering/ug/undergraduate.jsx"));
+const AerospaceEngineeringUGSweden = lazy(() => import("../pages/Study Abroad/Sweden/Engineering/ug/pages/AerospaceEngineering.jsx"));
+const AutomobileEngineeringUGSweden = lazy(() => import("../pages/Study Abroad/Sweden/Engineering/ug/pages/AutomobileEngineering.jsx"));
+const BiomedicalEngineeringUGSweden = lazy(() => import("../pages/Study Abroad/Sweden/Engineering/ug/pages/BiomedicalEngineering.jsx"));
+const ChemicalEngineeringUGSweden = lazy(() => import("../pages/Study Abroad/Sweden/Engineering/ug/pages/ChemicalEngineering.jsx"));
+const CivilEngineeringUGSweden = lazy(() => import("../pages/Study Abroad/Sweden/Engineering/ug/pages/CivilEngineering.jsx"));
+const ComputerEngineeringUGSweden = lazy(() => import("../pages/Study Abroad/Sweden/Engineering/ug/pages/ComputerEngineering.jsx"));
+const ElectricalEngineeringUGSweden = lazy(() => import("../pages/Study Abroad/Sweden/Engineering/ug/pages/ElectricalEngineering.jsx"));
+const ElectronicsCommunicationUGSweden = lazy(() => import("../pages/Study Abroad/Sweden/Engineering/ug/pages/ElectronicsCommunication.jsx"));
+const MechanicalEngineeringUGSweden = lazy(() => import("../pages/Study Abroad/Sweden/Engineering/ug/pages/MechanicalEngineering.jsx"));
+const PostgraduateEngineeringSweden = lazy(() => import("../pages/Study Abroad/Sweden/Engineering/pg/postgraduate.jsx"));
+const AerospaceEngineeringPGSweden = lazy(() => import("../pages/Study Abroad/Sweden/Engineering/pg/pages/AerospaceEngineering.jsx"));
+const AutomobileEngineeringPGSweden = lazy(() => import("../pages/Study Abroad/Sweden/Engineering/pg/pages/AutomobileEngineering.jsx"));
+const BiomedicalEngineeringPGSweden = lazy(() => import("../pages/Study Abroad/Sweden/Engineering/pg/pages/BiomedicalEngineering.jsx"));
+const ChemicalEngineeringPGSweden = lazy(() => import("../pages/Study Abroad/Sweden/Engineering/pg/pages/ChemicalEngineering.jsx"));
+const CivilEngineeringPGSweden = lazy(() => import("../pages/Study Abroad/Sweden/Engineering/pg/pages/CivilEngineering.jsx"));
+const ComputerEngineeringPGSweden = lazy(() => import("../pages/Study Abroad/Sweden/Engineering/pg/pages/ComputerEngineering.jsx"));
+const ElectricalEngineeringPGSweden = lazy(() => import("../pages/Study Abroad/Sweden/Engineering/pg/pages/ElectricalEngineering.jsx"));
+const ElectronicsCommunicationPGSweden = lazy(() => import("../pages/Study Abroad/Sweden/Engineering/pg/pages/ElectronicsCommunication.jsx"));
+const MechanicalEngineeringPGSweden = lazy(() => import("../pages/Study Abroad/Sweden/Engineering/pg/pages/MechanicalEngineering.jsx"));
+const ComputerScienceSweden = lazy(() => import("../pages/Study Abroad/Sweden/ComputerScience/ComputerScience.jsx"));
+const InformationTechnologySweden = lazy(() => import("../pages/Study Abroad/Sweden/InformationTechnology/InformationTechnology.jsx"));
+const BusinessManagementSweden = lazy(() => import("../pages/Study Abroad/Sweden/BusinessManagement/BusinessManagement.jsx"));
+const BBASweden = lazy(() => import("../pages/Study Abroad/Sweden/BBA/BBA.jsx"));
+const BBSSweden = lazy(() => import("../pages/Study Abroad/Sweden/BBS/BBS.jsx"));
+const MBASweden = lazy(() => import("../pages/Study Abroad/Sweden/MBA/MBA.jsx"));
+const MBSSweden = lazy(() => import("../pages/Study Abroad/Sweden/MBS/MBS.jsx"));
+const ExecutiveMBASweden = lazy(() => import("../pages/Study Abroad/Sweden/ExecutiveMBA/ExecutiveMBA.jsx"));
+const InternationalBusinessSweden = lazy(() => import("../pages/Study Abroad/Sweden/InternationalBusiness/InternationalBusiness.jsx"));
+const HospitalityManagementSweden = lazy(() => import("../pages/Study Abroad/Sweden/HospitalityManagement/HospitalityManagement.jsx"));
+const ArchitectureSweden = lazy(() => import("../pages/Study Abroad/Sweden/Architecture/Architecture.jsx"));
+const LawSweden = lazy(() => import("../pages/Study Abroad/Sweden/Law/Law.jsx"));
+const LanguageCoursesSweden = lazy(() => import("../pages/Study Abroad/Sweden/LanguageCourses/LanguageCourses.jsx"));
+const SummerCoursesSweden = lazy(() => import("../pages/Study Abroad/Sweden/SummerCourses/SummerCourses.jsx"));
+const WinterCoursesSweden = lazy(() => import("../pages/Study Abroad/Sweden/WinterCourses/WinterCourses.jsx"));
 const TestDetailPage = safeLazy(() => import("../pages/Tests/TestDetailPage.jsx"));
 
 
@@ -3202,6 +3245,172 @@ export const router = createBrowserRouter([
       {
         path: "study-abroad/denmark/winter-courses",
         element: <WinterCoursesDenmark />,
+      },
+
+      // Study Abroad - Sweden
+      {
+        path: "study-abroad/sweden/dentistry",
+        element: <DentistrySweden />,
+      },
+      {
+        path: "study-abroad/sweden/biotechnology",
+        element: <BiotechnologySweden />,
+      },
+      {
+        path: "study-abroad/sweden/nursing",
+        element: <NursingSweden />,
+      },
+      {
+        path: "study-abroad/sweden/pharmacy",
+        element: <PharmacySweden />,
+      },
+      {
+        path: "study-abroad/sweden/physiotherapy",
+        element: <PhysiotherapySweden />,
+      },
+      {
+        path: "study-abroad/sweden/public-health",
+        element: <PublicHealthSweden />,
+      },
+      {
+        path: "study-abroad/sweden/ug/engineering",
+        element: <UndergraduateEngineeringSweden />,
+      },
+      {
+        path: "study-abroad/sweden/ug/aerospace-engineering",
+        element: <AerospaceEngineeringUGSweden />,
+      },
+      {
+        path: "study-abroad/sweden/ug/automobile-engineering",
+        element: <AutomobileEngineeringUGSweden />,
+      },
+      {
+        path: "study-abroad/sweden/ug/biomedical-engineering",
+        element: <BiomedicalEngineeringUGSweden />,
+      },
+      {
+        path: "study-abroad/sweden/ug/chemical-engineering",
+        element: <ChemicalEngineeringUGSweden />,
+      },
+      {
+        path: "study-abroad/sweden/ug/civil-engineering",
+        element: <CivilEngineeringUGSweden />,
+      },
+      {
+        path: "study-abroad/sweden/ug/computer-engineering",
+        element: <ComputerEngineeringUGSweden />,
+      },
+      {
+        path: "study-abroad/sweden/ug/electrical-engineering",
+        element: <ElectricalEngineeringUGSweden />,
+      },
+      {
+        path: "study-abroad/sweden/ug/electronics-communication",
+        element: <ElectronicsCommunicationUGSweden />,
+      },
+      {
+        path: "study-abroad/sweden/ug/mechanical-engineering",
+        element: <MechanicalEngineeringUGSweden />,
+      },
+      {
+        path: "study-abroad/sweden/pg/engineering",
+        element: <PostgraduateEngineeringSweden />,
+      },
+      {
+        path: "study-abroad/sweden/pg/aerospace-engineering",
+        element: <AerospaceEngineeringPGSweden />,
+      },
+      {
+        path: "study-abroad/sweden/pg/automobile-engineering",
+        element: <AutomobileEngineeringPGSweden />,
+      },
+      {
+        path: "study-abroad/sweden/pg/biomedical-engineering",
+        element: <BiomedicalEngineeringPGSweden />,
+      },
+      {
+        path: "study-abroad/sweden/pg/chemical-engineering",
+        element: <ChemicalEngineeringPGSweden />,
+      },
+      {
+        path: "study-abroad/sweden/pg/civil-engineering",
+        element: <CivilEngineeringPGSweden />,
+      },
+      {
+        path: "study-abroad/sweden/pg/computer-engineering",
+        element: <ComputerEngineeringPGSweden />,
+      },
+      {
+        path: "study-abroad/sweden/pg/electrical-engineering",
+        element: <ElectricalEngineeringPGSweden />,
+      },
+      {
+        path: "study-abroad/sweden/pg/electronics-communication",
+        element: <ElectronicsCommunicationPGSweden />,
+      },
+      {
+        path: "study-abroad/sweden/pg/mechanical-engineering",
+        element: <MechanicalEngineeringPGSweden />,
+      },
+      {
+        path: "study-abroad/sweden/computer-science",
+        element: <ComputerScienceSweden />,
+      },
+      {
+        path: "study-abroad/sweden/information-technology",
+        element: <InformationTechnologySweden />,
+      },
+      {
+        path: "study-abroad/sweden/business-management",
+        element: <BusinessManagementSweden />,
+      },
+      {
+        path: "study-abroad/sweden/bba",
+        element: <BBASweden />,
+      },
+      {
+        path: "study-abroad/sweden/bbs",
+        element: <BBSSweden />,
+      },
+      {
+        path: "study-abroad/sweden/mba",
+        element: <MBASweden />,
+      },
+      {
+        path: "study-abroad/sweden/mbs",
+        element: <MBSSweden />,
+      },
+      {
+        path: "study-abroad/sweden/executive-mba",
+        element: <ExecutiveMBASweden />,
+      },
+      {
+        path: "study-abroad/sweden/international-business",
+        element: <InternationalBusinessSweden />,
+      },
+      {
+        path: "study-abroad/sweden/hospitality-management",
+        element: <HospitalityManagementSweden />,
+      },
+      {
+        path: "study-abroad/sweden/architecture",
+        element: <ArchitectureSweden />,
+      },
+      {
+        path: "study-abroad/sweden/law",
+        element: <LawSweden />,
+      },
+      {
+        path: "study-abroad/sweden/language-courses",
+        element: <LanguageCoursesSweden />,
+      },
+      {
+        path: "study-abroad/sweden/summer-courses",
+        element: <SummerCoursesSweden />,
+      },
+      {
+        path: "study-abroad/sweden/winter-courses",
+        element: <WinterCoursesSweden />,
       },
 
       // =====================================================================

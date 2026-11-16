@@ -29695,3 +29695,2181 @@ collections:
             fields:
               - {"label": "Question", "name": "question", "widget": "string"}
               - {"label": "Answer", "name": "answer", "widget": "text"}
+
+  - name: "study_abroad_sweden"
+    label: "Study Abroad - Sweden"
+    delete: false
+    files:
+      - label: "Dentistry (MBBS Abroad)"
+        name: "sweden_dentistry"
+        file: "src/data/study_abroad/sweden/dentistry.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Biotechnology (MBBS Abroad)"
+        name: "sweden_biotechnology"
+        file: "src/data/study_abroad/sweden/biotechnology.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Nursing (MBBS Abroad)"
+        name: "sweden_nursing"
+        file: "src/data/study_abroad/sweden/nursing.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Pharmacy (MBBS Abroad)"
+        name: "sweden_pharmacy"
+        file: "src/data/study_abroad/sweden/pharmacy.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Physiotherapy (MBBS Abroad)"
+        name: "sweden_physiotherapy"
+        file: "src/data/study_abroad/sweden/physiotherapy.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Public Health (MBBS Abroad)"
+        name: "sweden_public_health"
+        file: "src/data/study_abroad/sweden/public-health.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Undergraduate Engineering"
+        name: "sweden_ug_engineering"
+        file: "src/data/study_abroad/sweden/ug_engineering.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Aerospace Engineering (UG)"
+        name: "sweden_aero_engg_ug"
+        file: "src/data/study_abroad/sweden/ug_aerospace-engineering.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Automobile Engineering (UG)"
+        name: "sweden_auto_engg_ug"
+        file: "src/data/study_abroad/sweden/ug_automobile-engineering.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Biomedical Engineering (UG)"
+        name: "sweden_biomed_engg_ug"
+        file: "src/data/study_abroad/sweden/ug_biomedical-engineering.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Chemical Engineering (UG)"
+        name: "sweden_chem_engg_ug"
+        file: "src/data/study_abroad/sweden/ug_chemical-engineering.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Civil Engineering (UG)"
+        name: "sweden_civil_engg_ug"
+        file: "src/data/study_abroad/sweden/ug_civil-engineering.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Computer Engineering (UG)"
+        name: "sweden_comp_engg_ug"
+        file: "src/data/study_abroad/sweden/ug_computer-engineering.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Electrical Engineering (UG)"
+        name: "sweden_elec_engg_ug"
+        file: "src/data/study_abroad/sweden/ug_electrical-engineering.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Electronics & Communication (UG)"
+        name: "sweden_ece_engg_ug"
+        file: "src/data/study_abroad/sweden/ug_electronics-communication.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Mechanical Engineering (UG)"
+        name: "sweden_mech_engg_ug"
+        file: "src/data/study_abroad/sweden/ug_mechanical-engineering.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Postgraduate Engineering"
+        name: "sweden_pg_engineering"
+        file: "src/data/study_abroad/sweden/pg_engineering.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Aerospace Engineering (PG)"
+        name: "sweden_aero_engg_pg"
+        file: "src/data/study_abroad/sweden/pg_aerospace-engineering.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Automobile Engineering (PG)"
+        name: "sweden_auto_engg_pg"
+        file: "src/data/study_abroad/sweden/pg_automobile-engineering.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Biomedical Engineering (PG)"
+        name: "sweden_biomed_engg_pg"
+        file: "src/data/study_abroad/sweden/pg_biomedical-engineering.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Chemical Engineering (PG)"
+        name: "sweden_chem_engg_pg"
+        file: "src/data/study_abroad/sweden/pg_chemical-engineering.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Civil Engineering (PG)"
+        name: "sweden_civil_engg_pg"
+        file: "src/data/study_abroad/sweden/pg_civil-engineering.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Computer Engineering (PG)"
+        name: "sweden_comp_engg_pg"
+        file: "src/data/study_abroad/sweden/pg_computer-engineering.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Electrical Engineering (PG)"
+        name: "sweden_elec_engg_pg"
+        file: "src/data/study_abroad/sweden/pg_electrical-engineering.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Electronics & Communication (PG)"
+        name: "sweden_ece_engg_pg"
+        file: "src/data/study_abroad/sweden/pg_electronics-communication.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Mechanical Engineering (PG)"
+        name: "sweden_mech_engg_pg"
+        file: "src/data/study_abroad/sweden/pg_mechanical-engineering.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Computer Science"
+        name: "sweden_computer_science"
+        file: "src/data/study_abroad/sweden/computer-science.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Information Technology"
+        name: "sweden_information_technology"
+        file: "src/data/study_abroad/sweden/information-technology.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Business Management"
+        name: "sweden_business_management"
+        file: "src/data/study_abroad/sweden/business-management.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "BBA"
+        name: "sweden_bba"
+        file: "src/data/study_abroad/sweden/bba.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "BBS"
+        name: "sweden_bbs"
+        file: "src/data/study_abroad/sweden/bbs.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "MBA"
+        name: "sweden_mba"
+        file: "src/data/study_abroad/sweden/mba.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "MBS"
+        name: "sweden_mbs"
+        file: "src/data/study_abroad/sweden/mbs.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Executive MBA"
+        name: "sweden_executive_mba"
+        file: "src/data/study_abroad/sweden/executive-mba.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "International Business"
+        name: "sweden_international_business"
+        file: "src/data/study_abroad/sweden/international-business.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Hospitality Management"
+        name: "sweden_hospitality_management"
+        file: "src/data/study_abroad/sweden/hospitality-management.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Architecture"
+        name: "sweden_architecture"
+        file: "src/data/study_abroad/sweden/architecture.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Law"
+        name: "sweden_law"
+        file: "src/data/study_abroad/sweden/law.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Language Courses"
+        name: "sweden_language_courses"
+        file: "src/data/study_abroad/sweden/language-courses.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Summer Courses"
+        name: "sweden_summer_courses"
+        file: "src/data/study_abroad/sweden/summer-courses.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}
+      - label: "Winter Courses"
+        name: "sweden_winter_courses"
+        file: "src/data/study_abroad/sweden/winter-courses.json"
+        media_folder: "public/uploads/study_abroad/sweden"
+        public_folder: "/uploads/study_abroad/sweden"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {"label": "Page Title", "name": "title", "widget": "string"}
+              - {"label": "Meta Description", "name": "description", "widget": "text"}
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {"label": "Badge Tag", "name": "badge", "widget": "string"}
+              - {"label": "Page Heading", "name": "title", "widget": "string"}
+              - {"label": "Subtitle", "name": "subtitle", "widget": "text"}
+              - {"label": "Hero Image", "name": "image", "widget": "image", "required": false}
+              - {"label": "Button CTA Text", "name": "ctaText", "widget": "string"}
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {"label": "Value (e.g. 1000+)", "name": "n", "widget": "string"}
+              - {"label": "Label", "name": "l", "widget": "string"}
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - {"label": "Degree Awarded", "name": "degree", "widget": "string"}
+              - {"label": "Duration", "name": "duration", "widget": "string"}
+              - {"label": "Tuition / Fee Structure", "name": "fee", "widget": "string"}
+              - {"label": "Eligibility Criteria", "name": "eligibility", "widget": "string"}
+              - {"label": "Medium of Instruction", "name": "medium", "widget": "string"}
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top Swedish Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - {"label": "University Name", "name": "name", "widget": "string"}
+              - {"label": "Location", "name": "location", "widget": "string"}
+              - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
+              - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - {"label": "Question", "name": "question", "widget": "string"}
+              - {"label": "Answer", "name": "answer", "widget": "text"}

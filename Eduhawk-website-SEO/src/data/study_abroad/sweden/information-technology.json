@@ -1,0 +1,100 @@
+{
+  "seo": {
+    "title": "Information Technology in Sweden for Indian Students | Edu-Hawk Worldwide",
+    "description": "Study Information Technology in Sweden: Top universities, course duration, tuition fees in SEK & INR, eligibility criteria, admission process & visa requirements for Indian students."
+  },
+  "hero": {
+    "badge": "Study Abroad - Sweden",
+    "title": "Information Technology in Sweden for Indian Students",
+    "paras": [
+      "Comprehensive guide to studying Information Technology in Sweden for Indian students."
+    ]
+  },
+  "stats": [
+    {
+      "val": "SEK 80K-150K",
+      "label": "Tuition / Year"
+    },
+    {
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    },
+    {
+      "val": "3-4 Years",
+      "label": "Course Duration"
+    },
+    {
+      "val": "English",
+      "label": "Medium of Study"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "World-Class Nordic Innovation",
+      "desc": "Study in Sweden's globally ranked universities renowned for pioneering scientific breakthroughs, design thinking, and sustainable research."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "English-Taught Degrees",
+      "desc": "Over 1,000 bachelor's and master's degree programs delivered entirely in English with international accreditation."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Generous Post-Study Work",
+      "desc": "Sweden offers residence permits after graduation for students to seek employment or start innovative businesses."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "High Quality of Life",
+      "desc": "Ranked among the top nations globally for safety, equality, environmental sustainability, and student well-being."
+    }
+  ],
+  "overview": [
+    "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Sweden for Information Technology in Sweden."
+  ],
+  "universities": [
+    {
+      "name": "\\. KTH Royal Institute of Technology",
+      "location": "\\. KTH Royal Institute of Technology, Sweden",
+      "fee": "SEK 90,000 – 160,000 / Year",
+      "desc": "**Bachelor's:** KTH offers a BSc in Information and Communication Technology. The three-year programme is taught in English and includes programming, electronics, computer science, mathematics and communication technology. It is a relevant option for students interested in technical IT, digital systems, artificial intelligence and communication technologies. **Location:** Stockholm, Sweden **![][image1]**",
+      "img_var": "null"
+    },
+    {
+      "name": "\\. University of Gothenburg",
+      "location": "\\. University of Gothenburg, Sweden",
+      "fee": "SEK 90,000 – 160,000 / Year",
+      "desc": "**Master's:** The university offers an International Master's Programme in Information Technology and Learning. This two-year, English-taught programme focuses on digital technologies, learning environments, data analysis and the role of IT in organisations. It may suit students interested in digital learning, IT implementation, research and technology-enabled organisational development. **Location:** Gothenburg, Sweden **![][image2]**",
+      "img_var": "null"
+    },
+    {
+      "name": "\\. University of Borås",
+      "location": "\\. University of Borås, Sweden",
+      "fee": "SEK 90,000 – 160,000 / Year",
+      "desc": "**Master's:** The University of Borås offers relevant master's programmes in Information Systems, including: * **AI Management:** Relevant for students interested in artificial intelligence, management and the use of AI in organisations. * **Data-Driven IT Management:** Suitable for students interested in IT strategy, data-driven decision-making, digital transformation and technology management. The university offers different programme durations depending on the selected course, including one-year and two-year options. **Location:** Borås, Sweden **![][image3]** **Choosing the right university** KTH is a relevant choice for students seeking a technical bachelor's degree in Information and Communication Technology. The University of Gothenburg and University of Borås offer postgraduate options with different academic focuses. Students interested in digital learning, information systems, data-driven management or AI-related management should compare these master's programmes carefully. These are specialised information systems and technology management degrees rather than conventional computer engineering programmes.",
+      "img_var": "null"
+    }
+  ],
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "Can Indian students apply for Information Technology in Sweden?",
+        "a": "Yes, Indian students with qualifying credentials meeting English language proficiency (IELTS/TOEFL) and academic prerequisites can apply to recognized universities in Sweden."
+      },
+      {
+        "q": "What is the medium of instruction for Information Technology in Sweden?",
+        "a": "Most master's and international bachelor's degree programmes are taught entirely in English for international students across Swedish universities."
+      },
+      {
+        "q": "What are the typical tuition fees for Information Technology in Sweden?",
+        "a": "Tuition fees for international students generally range between SEK 80,000 and SEK 150,000 per year, depending on the institution and level of study."
+      },
+      {
+        "q": "Can international students work while studying in Sweden?",
+        "a": "Yes, non-EU international students holding a valid Swedish residence permit for higher education are permitted to work alongside their studies without a fixed hours limitation during term time."
+      }
+    ]
+  }
+}

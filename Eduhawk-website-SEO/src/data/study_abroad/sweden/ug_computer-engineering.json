@@ -1,0 +1,100 @@
+{
+  "seo": {
+    "title": "Computer Engineering (UG) in Sweden for Indian Students | Edu-Hawk Worldwide",
+    "description": "Study Computer Engineering (UG) in Sweden: Top universities, course duration, tuition fees in SEK & INR, eligibility criteria, admission process & visa requirements for Indian students."
+  },
+  "hero": {
+    "badge": "Study Abroad - Sweden",
+    "title": "Computer Engineering (UG) in Sweden for Indian Students",
+    "paras": [
+      "Comprehensive guide to studying Computer Engineering (UG) in Sweden for Indian students."
+    ]
+  },
+  "stats": [
+    {
+      "val": "SEK 80K-150K",
+      "label": "Tuition / Year"
+    },
+    {
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    },
+    {
+      "val": "3-4 Years",
+      "label": "Course Duration"
+    },
+    {
+      "val": "English",
+      "label": "Medium of Study"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "World-Class Nordic Innovation",
+      "desc": "Study in Sweden's globally ranked universities renowned for pioneering scientific breakthroughs, design thinking, and sustainable research."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "English-Taught Degrees",
+      "desc": "Over 1,000 bachelor's and master's degree programs delivered entirely in English with international accreditation."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Generous Post-Study Work",
+      "desc": "Sweden offers residence permits after graduation for students to seek employment or start innovative businesses."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "High Quality of Life",
+      "desc": "Ranked among the top nations globally for safety, equality, environmental sustainability, and student well-being."
+    }
+  ],
+  "overview": [
+    "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Sweden for Computer Engineering (UG) in Sweden."
+  ],
+  "universities": [
+    {
+      "name": "\\. KTH Royal Institute of Technology",
+      "location": "\\. KTH Royal Institute of Technology, Sweden",
+      "fee": "SEK 90,000 – 160,000 / Year",
+      "desc": "The KTH Information and Communication Technology (ICT) program is a three-year bachelor’s program, taught in English, and worth 180 ECTS credits. Subjects include programming, electronics, computer science, mathematics, digital systems and communication technology. ![][image1]",
+      "img_var": "null"
+    },
+    {
+      "name": "\\. Chalmers University of Technology",
+      "location": "\\. Chalmers University of Technology, Sweden",
+      "fee": "SEK 90,000 – 160,000 / Year",
+      "desc": "Chalmers is a well established technical university with education in electrical engineering, computer science and related areas. Most bachelor’s programs are taught in Swedish so international students should read the language requirements carefully. ![][image2]",
+      "img_var": "null"
+    },
+    {
+      "name": "\\. Luleå Tekniska Universitet",
+      "location": "\\. Luleå Tekniska Universitet, Sweden",
+      "fee": "SEK 90,000 – 160,000 / Year",
+      "desc": "Students can see what it has to offer in terms of engineering and computing.” Find bachelor programs that match with computer engineering interests in the current course catalog and verify whether the program is taught in English or Swedish. ![][image3] Important: The KTH's English-taught ICT bachelor's program is a particularly interesting option for international students. The other universities listed are worth looking at for related studies, but you need to check their current program catalogs before assuming they offer an English-taught bachelor’s in computer engineering. Find available programs through University Admissions in Sweden.",
+      "img_var": "null"
+    }
+  ],
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "Can Indian students apply for Computer Engineering (UG) in Sweden?",
+        "a": "Yes, Indian students with qualifying credentials meeting English language proficiency (IELTS/TOEFL) and academic prerequisites can apply to recognized universities in Sweden."
+      },
+      {
+        "q": "What is the medium of instruction for Computer Engineering (UG) in Sweden?",
+        "a": "Most master's and international bachelor's degree programmes are taught entirely in English for international students across Swedish universities."
+      },
+      {
+        "q": "What are the typical tuition fees for Computer Engineering (UG) in Sweden?",
+        "a": "Tuition fees for international students generally range between SEK 80,000 and SEK 150,000 per year, depending on the institution and level of study."
+      },
+      {
+        "q": "Can international students work while studying in Sweden?",
+        "a": "Yes, non-EU international students holding a valid Swedish residence permit for higher education are permitted to work alongside their studies without a fixed hours limitation during term time."
+      }
+    ]
+  }
+}

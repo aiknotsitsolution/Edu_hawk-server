@@ -1,0 +1,101 @@
+{
+  "seo": {
+    "title": "Summer Courses in Sweden for Indian Students | Edu-Hawk Worldwide",
+    "description": "Study Summer Courses in Sweden: Top universities, course duration, tuition fees in SEK & INR, eligibility criteria, admission process & visa requirements for Indian students."
+  },
+  "hero": {
+    "badge": "Study Abroad - Sweden",
+    "title": "Summer Courses in Sweden for Indian Students",
+    "paras": [
+      "**Summer Courses in Sweden** are an excellent option for students who want to gain international learning experience, explore Swedish culture, improve their language skills or study a specialised subject during the summer break. Swedish universities and educational institutions offer short-term programmes in areas such as sustainability, language, culture, society, business, technology and the environment."
+    ]
+  },
+  "stats": [
+    {
+      "val": "SEK 80K-150K",
+      "label": "Tuition / Year"
+    },
+    {
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    },
+    {
+      "val": "3-4 Years",
+      "label": "Course Duration"
+    },
+    {
+      "val": "English",
+      "label": "Medium of Study"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "World-Class Nordic Innovation",
+      "desc": "Study in Sweden's globally ranked universities renowned for pioneering scientific breakthroughs, design thinking, and sustainable research."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "English-Taught Degrees",
+      "desc": "Over 1,000 bachelor's and master's degree programs delivered entirely in English with international accreditation."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Generous Post-Study Work",
+      "desc": "Sweden offers residence permits after graduation for students to seek employment or start innovative businesses."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "High Quality of Life",
+      "desc": "Ranked among the top nations globally for safety, equality, environmental sustainability, and student well-being."
+    }
+  ],
+  "overview": [
+    "Summer study allows international students to experience the Swedish education system without committing to a full bachelor's or master's degree. However, some programmes are exclusively available to exchange students from partner universities, while others have separate eligibility and admission requirements.",
+    "Through **Edu Hawk worldwide** study abroad guidance, students can explore language-learning options and understand the eligibility, fees and application requirements."
+  ],
+  "universities": [
+    {
+      "name": "\\. University of Jönköping",
+      "location": "\\. University of Jönköping, Sweden",
+      "fee": "SEK 90,000 – 160,000 / Year",
+      "desc": "The **Youth Summer School** is scheduled from **5 July to 30 July 2027** and introduces students aged 16–18 to sustainable development in Sweden while helping them develop their English-language skills. The programme includes cultural activities, study visits and field trips. ![][image1] Students should check the university's official summer school webpage for updated application details, programme fees and admission requirements.",
+      "img_var": "null"
+    },
+    {
+      "name": "\\. Linköping University",
+      "location": "\\. Linköping University, Sweden",
+      "fee": "SEK 90,000 – 160,000 / Year",
+      "desc": "The **LiU Summer Academy** offers short summer courses, including *Sweden: Language, Culture and Society*. The summer programme takes place in July and is open only to students nominated by eligible partner universities who meet the academic requirements. ![][image2] Applicants should check the official Summer Academy webpage for current programme dates, eligibility conditions and application deadlines.",
+      "img_var": "null"
+    },
+    {
+      "name": "\\. Malmö University",
+      "location": "\\. Malmö University, Sweden",
+      "fee": "SEK 90,000 – 160,000 / Year",
+      "desc": "Malmö University offers courses in **Swedish Language, Culture and Society** for students interested in learning basic Swedish communication skills and understanding everyday life in Sweden. The introductory course has a summer study period scheduled from **28 June to 15 August 2027**. The published full tuition fee is **SEK 18,000 (approximately ₹1.71 lakh)**. Students should verify the latest course availability, fee and application information on the university's official course webpage. ![][image3]",
+      "img_var": "null"
+    }
+  ],
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "Can Indian students apply for Summer Courses in Sweden?",
+        "a": "Yes, Indian students with qualifying credentials meeting English language proficiency (IELTS/TOEFL) and academic prerequisites can apply to recognized universities in Sweden."
+      },
+      {
+        "q": "What is the medium of instruction for Summer Courses in Sweden?",
+        "a": "Most master's and international bachelor's degree programmes are taught entirely in English for international students across Swedish universities."
+      },
+      {
+        "q": "What are the typical tuition fees for Summer Courses in Sweden?",
+        "a": "Tuition fees for international students generally range between SEK 80,000 and SEK 150,000 per year, depending on the institution and level of study."
+      },
+      {
+        "q": "Can international students work while studying in Sweden?",
+        "a": "Yes, non-EU international students holding a valid Swedish residence permit for higher education are permitted to work alongside their studies without a fixed hours limitation during term time."
+      }
+    ]
+  }
+}

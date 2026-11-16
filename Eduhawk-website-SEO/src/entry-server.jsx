@@ -600,6 +600,49 @@ import LawDenmark from "./pages/Study Abroad/Denmark/Law/Law.jsx";
 import LanguageCoursesDenmark from "./pages/Study Abroad/Denmark/LanguageCourses/LanguageCourses.jsx";
 import SummerCoursesDenmark from "./pages/Study Abroad/Denmark/SummerCourses/SummerCourses.jsx";
 import WinterCoursesDenmark from "./pages/Study Abroad/Denmark/WinterCourses/WinterCourses.jsx";
+
+// Study Abroad - Sweden
+import DentistrySweden from "./pages/Study Abroad/Sweden/MBBS Abroad/DentistryAbroad.jsx";
+import BiotechnologySweden from "./pages/Study Abroad/Sweden/MBBS Abroad/Biotechnology.jsx";
+import NursingSweden from "./pages/Study Abroad/Sweden/MBBS Abroad/NursingAbroad.jsx";
+import PharmacySweden from "./pages/Study Abroad/Sweden/MBBS Abroad/PharmacyAbroad.jsx";
+import PhysiotherapySweden from "./pages/Study Abroad/Sweden/MBBS Abroad/PhysiotherapyAbroad.jsx";
+import PublicHealthSweden from "./pages/Study Abroad/Sweden/MBBS Abroad/PublicHealth.jsx";
+import UndergraduateEngineeringSweden from "./pages/Study Abroad/Sweden/Engineering/ug/undergraduate.jsx";
+import AerospaceEngineeringUGSweden from "./pages/Study Abroad/Sweden/Engineering/ug/pages/AerospaceEngineering.jsx";
+import AutomobileEngineeringUGSweden from "./pages/Study Abroad/Sweden/Engineering/ug/pages/AutomobileEngineering.jsx";
+import BiomedicalEngineeringUGSweden from "./pages/Study Abroad/Sweden/Engineering/ug/pages/BiomedicalEngineering.jsx";
+import ChemicalEngineeringUGSweden from "./pages/Study Abroad/Sweden/Engineering/ug/pages/ChemicalEngineering.jsx";
+import CivilEngineeringUGSweden from "./pages/Study Abroad/Sweden/Engineering/ug/pages/CivilEngineering.jsx";
+import ComputerEngineeringUGSweden from "./pages/Study Abroad/Sweden/Engineering/ug/pages/ComputerEngineering.jsx";
+import ElectricalEngineeringUGSweden from "./pages/Study Abroad/Sweden/Engineering/ug/pages/ElectricalEngineering.jsx";
+import ElectronicsCommunicationUGSweden from "./pages/Study Abroad/Sweden/Engineering/ug/pages/ElectronicsCommunication.jsx";
+import MechanicalEngineeringUGSweden from "./pages/Study Abroad/Sweden/Engineering/ug/pages/MechanicalEngineering.jsx";
+import PostgraduateEngineeringSweden from "./pages/Study Abroad/Sweden/Engineering/pg/postgraduate.jsx";
+import AerospaceEngineeringPGSweden from "./pages/Study Abroad/Sweden/Engineering/pg/pages/AerospaceEngineering.jsx";
+import AutomobileEngineeringPGSweden from "./pages/Study Abroad/Sweden/Engineering/pg/pages/AutomobileEngineering.jsx";
+import BiomedicalEngineeringPGSweden from "./pages/Study Abroad/Sweden/Engineering/pg/pages/BiomedicalEngineering.jsx";
+import ChemicalEngineeringPGSweden from "./pages/Study Abroad/Sweden/Engineering/pg/pages/ChemicalEngineering.jsx";
+import CivilEngineeringPGSweden from "./pages/Study Abroad/Sweden/Engineering/pg/pages/CivilEngineering.jsx";
+import ComputerEngineeringPGSweden from "./pages/Study Abroad/Sweden/Engineering/pg/pages/ComputerEngineering.jsx";
+import ElectricalEngineeringPGSweden from "./pages/Study Abroad/Sweden/Engineering/pg/pages/ElectricalEngineering.jsx";
+import ElectronicsCommunicationPGSweden from "./pages/Study Abroad/Sweden/Engineering/pg/pages/ElectronicsCommunication.jsx";
+import MechanicalEngineeringPGSweden from "./pages/Study Abroad/Sweden/Engineering/pg/pages/MechanicalEngineering.jsx";
+import ComputerScienceSweden from "./pages/Study Abroad/Sweden/ComputerScience/ComputerScience.jsx";
+import InformationTechnologySweden from "./pages/Study Abroad/Sweden/InformationTechnology/InformationTechnology.jsx";
+import BusinessManagementSweden from "./pages/Study Abroad/Sweden/BusinessManagement/BusinessManagement.jsx";
+import BBASweden from "./pages/Study Abroad/Sweden/BBA/BBA.jsx";
+import BBSSweden from "./pages/Study Abroad/Sweden/BBS/BBS.jsx";
+import MBASweden from "./pages/Study Abroad/Sweden/MBA/MBA.jsx";
+import MBSSweden from "./pages/Study Abroad/Sweden/MBS/MBS.jsx";
+import ExecutiveMBASweden from "./pages/Study Abroad/Sweden/ExecutiveMBA/ExecutiveMBA.jsx";
+import InternationalBusinessSweden from "./pages/Study Abroad/Sweden/InternationalBusiness/InternationalBusiness.jsx";
+import HospitalityManagementSweden from "./pages/Study Abroad/Sweden/HospitalityManagement/HospitalityManagement.jsx";
+import ArchitectureSweden from "./pages/Study Abroad/Sweden/Architecture/Architecture.jsx";
+import LawSweden from "./pages/Study Abroad/Sweden/Law/Law.jsx";
+import LanguageCoursesSweden from "./pages/Study Abroad/Sweden/LanguageCourses/LanguageCourses.jsx";
+import SummerCoursesSweden from "./pages/Study Abroad/Sweden/SummerCourses/SummerCourses.jsx";
+import WinterCoursesSweden from "./pages/Study Abroad/Sweden/WinterCourses/WinterCourses.jsx";
 import TestDetailPage from "./pages/Tests/TestDetailPage.jsx";
 
 
@@ -1207,6 +1250,49 @@ export async function render(url) {
         <Route path="study-abroad/denmark/language-courses" element={<LanguageCoursesDenmark />} />
         <Route path="study-abroad/denmark/summer-courses" element={<SummerCoursesDenmark />} />
         <Route path="study-abroad/denmark/winter-courses" element={<WinterCoursesDenmark />} />
+
+        {/* Study Abroad - Sweden */}
+        <Route path="study-abroad/sweden/dentistry" element={<DentistrySweden />} />
+        <Route path="study-abroad/sweden/biotechnology" element={<BiotechnologySweden />} />
+        <Route path="study-abroad/sweden/nursing" element={<NursingSweden />} />
+        <Route path="study-abroad/sweden/pharmacy" element={<PharmacySweden />} />
+        <Route path="study-abroad/sweden/physiotherapy" element={<PhysiotherapySweden />} />
+        <Route path="study-abroad/sweden/public-health" element={<PublicHealthSweden />} />
+        <Route path="study-abroad/sweden/ug/engineering" element={<UndergraduateEngineeringSweden />} />
+        <Route path="study-abroad/sweden/ug/aerospace-engineering" element={<AerospaceEngineeringUGSweden />} />
+        <Route path="study-abroad/sweden/ug/automobile-engineering" element={<AutomobileEngineeringUGSweden />} />
+        <Route path="study-abroad/sweden/ug/biomedical-engineering" element={<BiomedicalEngineeringUGSweden />} />
+        <Route path="study-abroad/sweden/ug/chemical-engineering" element={<ChemicalEngineeringUGSweden />} />
+        <Route path="study-abroad/sweden/ug/civil-engineering" element={<CivilEngineeringUGSweden />} />
+        <Route path="study-abroad/sweden/ug/computer-engineering" element={<ComputerEngineeringUGSweden />} />
+        <Route path="study-abroad/sweden/ug/electrical-engineering" element={<ElectricalEngineeringUGSweden />} />
+        <Route path="study-abroad/sweden/ug/electronics-communication" element={<ElectronicsCommunicationUGSweden />} />
+        <Route path="study-abroad/sweden/ug/mechanical-engineering" element={<MechanicalEngineeringUGSweden />} />
+        <Route path="study-abroad/sweden/pg/engineering" element={<PostgraduateEngineeringSweden />} />
+        <Route path="study-abroad/sweden/pg/aerospace-engineering" element={<AerospaceEngineeringPGSweden />} />
+        <Route path="study-abroad/sweden/pg/automobile-engineering" element={<AutomobileEngineeringPGSweden />} />
+        <Route path="study-abroad/sweden/pg/biomedical-engineering" element={<BiomedicalEngineeringPGSweden />} />
+        <Route path="study-abroad/sweden/pg/chemical-engineering" element={<ChemicalEngineeringPGSweden />} />
+        <Route path="study-abroad/sweden/pg/civil-engineering" element={<CivilEngineeringPGSweden />} />
+        <Route path="study-abroad/sweden/pg/computer-engineering" element={<ComputerEngineeringPGSweden />} />
+        <Route path="study-abroad/sweden/pg/electrical-engineering" element={<ElectricalEngineeringPGSweden />} />
+        <Route path="study-abroad/sweden/pg/electronics-communication" element={<ElectronicsCommunicationPGSweden />} />
+        <Route path="study-abroad/sweden/pg/mechanical-engineering" element={<MechanicalEngineeringPGSweden />} />
+        <Route path="study-abroad/sweden/computer-science" element={<ComputerScienceSweden />} />
+        <Route path="study-abroad/sweden/information-technology" element={<InformationTechnologySweden />} />
+        <Route path="study-abroad/sweden/business-management" element={<BusinessManagementSweden />} />
+        <Route path="study-abroad/sweden/bba" element={<BBASweden />} />
+        <Route path="study-abroad/sweden/bbs" element={<BBSSweden />} />
+        <Route path="study-abroad/sweden/mba" element={<MBASweden />} />
+        <Route path="study-abroad/sweden/mbs" element={<MBSSweden />} />
+        <Route path="study-abroad/sweden/executive-mba" element={<ExecutiveMBASweden />} />
+        <Route path="study-abroad/sweden/international-business" element={<InternationalBusinessSweden />} />
+        <Route path="study-abroad/sweden/hospitality-management" element={<HospitalityManagementSweden />} />
+        <Route path="study-abroad/sweden/architecture" element={<ArchitectureSweden />} />
+        <Route path="study-abroad/sweden/law" element={<LawSweden />} />
+        <Route path="study-abroad/sweden/language-courses" element={<LanguageCoursesSweden />} />
+        <Route path="study-abroad/sweden/summer-courses" element={<SummerCoursesSweden />} />
+        <Route path="study-abroad/sweden/winter-courses" element={<WinterCoursesSweden />} />
 
         
         {/* USA Routes */}

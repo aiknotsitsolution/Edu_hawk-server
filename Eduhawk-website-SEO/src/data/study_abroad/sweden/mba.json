@@ -1,0 +1,101 @@
+{
+  "seo": {
+    "title": "MBA in Sweden for Indian Students | Edu-Hawk Worldwide",
+    "description": "Study MBA in Sweden: Top universities, course duration, tuition fees in SEK & INR, eligibility criteria, admission process & visa requirements for Indian students."
+  },
+  "hero": {
+    "badge": "Study Abroad - Sweden",
+    "title": "MBA in Sweden for Indian Students",
+    "paras": [
+      "**MBA in Sweden** is an attractive option for students and working professionals who want to develop business knowledge, leadership abilities and management skills. Sweden offers business education at different stages of an academic and professional journey. Students who have completed Class 12 can begin with a bachelor's degree in business or economics, graduates can pursue specialised master's programmes, and experienced professionals can consider an MBA or Executive MBA."
+    ]
+  },
+  "stats": [
+    {
+      "val": "SEK 80K-150K",
+      "label": "Tuition / Year"
+    },
+    {
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    },
+    {
+      "val": "3-4 Years",
+      "label": "Course Duration"
+    },
+    {
+      "val": "English",
+      "label": "Medium of Study"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "World-Class Nordic Innovation",
+      "desc": "Study in Sweden's globally ranked universities renowned for pioneering scientific breakthroughs, design thinking, and sustainable research."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "English-Taught Degrees",
+      "desc": "Over 1,000 bachelor's and master's degree programs delivered entirely in English with international accreditation."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Generous Post-Study Work",
+      "desc": "Sweden offers residence permits after graduation for students to seek employment or start innovative businesses."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "High Quality of Life",
+      "desc": "Ranked among the top nations globally for safety, equality, environmental sustainability, and student well-being."
+    }
+  ],
+  "overview": [
+    "It is important to understand the difference between these qualifications. An **MBA is generally a postgraduate professional degree** designed for graduates, often with previous work experience. The traditional academic route is to complete a bachelor's degree followed by a specialised master's degree. Not every master's programme in management is an MBA.",
+    "Through **Edu Hawk worldwide study abroad guidance**, Indian students can explore suitable business programmes in Sweden and understand the academic, professional and admission requirements."
+  ],
+  "universities": [
+    {
+      "name": "\\. Stockholm School of Economics (SSE)",
+      "location": "\\. Stockholm School of Economics (SSE), Sweden",
+      "fee": "SEK 90,000 – 160,000 / Year",
+      "desc": "Stockholm School of Economics is known for its Executive MBA pathway for experienced professionals. The programme is part-time, taught in English and runs for 18 months. * **Programme:** Executive MBA * **Duration:** 18 months * **Tuition fee for December 2026 intake:** SEK 645,000 if paid in full before the programme starts. * **Installment payment option:** SEK 660,000. * **Official website:** Stockholm School of Economics – SSE MBA. ![][image1] The published fee is exclusive of VAT. Applicants should confirm the applicable VAT treatment and any additional programme expenses with the school.",
+      "img_var": "null"
+    },
+    {
+      "name": "\\. Jönköping University",
+      "location": "\\. Jönköping University, Sweden",
+      "fee": "SEK 90,000 – 160,000 / Year",
+      "desc": "Jönköping University offers a bachelor's programme in International Management and master's programmes in areas such as Entrepreneurship and Innovation, Strategic Marketing, and Leading Change, Organisations and People. Selected programme fees include: * **Bachelor's in International Management:** SEK 360,000 total tuition. * **Master's in Entrepreneurship and Innovation:** SEK 146,000 total tuition. * **Master's in Leading Change, Organisations and People:** SEK 288,000 total tuition. These programmes provide business and management education but should not be confused with an MBA. * **![][image2]**",
+      "img_var": "null"
+    },
+    {
+      "name": "\\. University of Gothenburg",
+      "location": "\\. University of Gothenburg, Sweden",
+      "fee": "SEK 90,000 – 160,000 / Year",
+      "desc": "The University of Gothenburg is an option for students considering undergraduate business and economics or postgraduate management studies. Its School of Business, Economics and Law offers a **Bachelor's Programme in Business and Economics** and an **Executive MBA** for professionals. **![][image3]** Students comparing the **Top Universities for MBA in Sweden** should check whether the programme is an MBA, Executive MBA or academic master's degree. They should also compare professional experience requirements, teaching format, tuition fees and programme structure.",
+      "img_var": "null"
+    }
+  ],
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "Can Indian students apply for MBA in Sweden?",
+        "a": "Yes, Indian students with qualifying credentials meeting English language proficiency (IELTS/TOEFL) and academic prerequisites can apply to recognized universities in Sweden."
+      },
+      {
+        "q": "What is the medium of instruction for MBA in Sweden?",
+        "a": "Most master's and international bachelor's degree programmes are taught entirely in English for international students across Swedish universities."
+      },
+      {
+        "q": "What are the typical tuition fees for MBA in Sweden?",
+        "a": "Tuition fees for international students generally range between SEK 80,000 and SEK 150,000 per year, depending on the institution and level of study."
+      },
+      {
+        "q": "Can international students work while studying in Sweden?",
+        "a": "Yes, non-EU international students holding a valid Swedish residence permit for higher education are permitted to work alongside their studies without a fixed hours limitation during term time."
+      }
+    ]
+  }
+}

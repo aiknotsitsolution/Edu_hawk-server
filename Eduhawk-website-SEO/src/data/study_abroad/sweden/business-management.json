@@ -1,0 +1,101 @@
+{
+  "seo": {
+    "title": "Business Management in Sweden for Indian Students | Edu-Hawk Worldwide",
+    "description": "Study Business Management in Sweden: Top universities, course duration, tuition fees in SEK & INR, eligibility criteria, admission process & visa requirements for Indian students."
+  },
+  "hero": {
+    "badge": "Study Abroad - Sweden",
+    "title": "Business Management in Sweden for Indian Students",
+    "paras": [
+      "**Business Management in Sweden** is an attractive study option for students who want to develop skills in leadership, marketing, finance, entrepreneurship, international business and organisational strategy. Swedish universities combine academic learning with practical assignments, teamwork, case studies and business-oriented projects."
+    ]
+  },
+  "stats": [
+    {
+      "val": "SEK 80K-150K",
+      "label": "Tuition / Year"
+    },
+    {
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    },
+    {
+      "val": "3-4 Years",
+      "label": "Course Duration"
+    },
+    {
+      "val": "English",
+      "label": "Medium of Study"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "World-Class Nordic Innovation",
+      "desc": "Study in Sweden's globally ranked universities renowned for pioneering scientific breakthroughs, design thinking, and sustainable research."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "English-Taught Degrees",
+      "desc": "Over 1,000 bachelor's and master's degree programs delivered entirely in English with international accreditation."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Generous Post-Study Work",
+      "desc": "Sweden offers residence permits after graduation for students to seek employment or start innovative businesses."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "High Quality of Life",
+      "desc": "Ranked among the top nations globally for safety, equality, environmental sustainability, and student well-being."
+    }
+  ],
+  "overview": [
+    "Students can choose a bachelor's degree after completing their secondary education or pursue a master's degree after obtaining a recognised undergraduate qualification. Programme titles may vary between institutions and can include Business and Economics, International Business Management, Business and Management, or Management.",
+    "Through **Edu Hawk worldwide study abroad guidance**, students can explore suitable programmes and understand the requirements involved in pursuing higher education in Sweden."
+  ],
+  "universities": [
+    {
+      "name": "\\. University of Gothenburg",
+      "location": "\\. University of Gothenburg, Sweden",
+      "fee": "SEK 90,000 – 160,000 / Year",
+      "desc": "The University of Gothenburg offers a **Bachelor of Science in Business and Economics** and a **Master of Science in Management**. The master's programme is taught in English and is listed for Autumn 2027\\. **Master's tuition fee:** SEK 194,000 for the complete programme for fee-paying students. **![][image1]**",
+      "img_var": "null"
+    },
+    {
+      "name": "\\. Stockholm School of Economics",
+      "location": "\\. Stockholm School of Economics, Sweden",
+      "fee": "SEK 90,000 – 160,000 / Year",
+      "desc": "The Stockholm School of Economics offers a three-year **Bachelor's Programme in Business and Economics**, taught entirely in English. It provides a foundation in business, economics, finance, innovation and entrepreneurship. * **![][image2]**",
+      "img_var": "null"
+    },
+    {
+      "name": "\\. Mälardalen University",
+      "location": "\\. Mälardalen University, Sweden",
+      "fee": "SEK 90,000 – 160,000 / Year",
+      "desc": "Mälardalen University offers an English-taught **Bachelor's Programme in International Business Management**, focusing on business administration in an international context. **![][image3]** Students comparing the **Best Universities for Business Management in Sweden** should check the exact degree title, programme language, specialisations, tuition fees and admission requirements for their intended intake.",
+      "img_var": "null"
+    }
+  ],
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "Can Indian students apply for Business Management in Sweden?",
+        "a": "Yes, Indian students with qualifying credentials meeting English language proficiency (IELTS/TOEFL) and academic prerequisites can apply to recognized universities in Sweden."
+      },
+      {
+        "q": "What is the medium of instruction for Business Management in Sweden?",
+        "a": "Most master's and international bachelor's degree programmes are taught entirely in English for international students across Swedish universities."
+      },
+      {
+        "q": "What are the typical tuition fees for Business Management in Sweden?",
+        "a": "Tuition fees for international students generally range between SEK 80,000 and SEK 150,000 per year, depending on the institution and level of study."
+      },
+      {
+        "q": "Can international students work while studying in Sweden?",
+        "a": "Yes, non-EU international students holding a valid Swedish residence permit for higher education are permitted to work alongside their studies without a fixed hours limitation during term time."
+      }
+    ]
+  }
+}

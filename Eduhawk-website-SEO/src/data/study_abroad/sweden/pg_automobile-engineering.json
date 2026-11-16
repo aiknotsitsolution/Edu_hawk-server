@@ -1,0 +1,93 @@
+{
+  "seo": {
+    "title": "Automobile Engineering (PG) in Sweden for Indian Students | Edu-Hawk Worldwide",
+    "description": "Study Automobile Engineering (PG) in Sweden: Top universities, course duration, tuition fees in SEK & INR, eligibility criteria, admission process & visa requirements for Indian students."
+  },
+  "hero": {
+    "badge": "Study Abroad - Sweden",
+    "title": "Automobile Engineering (PG) in Sweden for Indian Students",
+    "paras": [
+      "Comprehensive guide to studying Automobile Engineering (PG) in Sweden for Indian students."
+    ]
+  },
+  "stats": [
+    {
+      "val": "SEK 80K-150K",
+      "label": "Tuition / Year"
+    },
+    {
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    },
+    {
+      "val": "3-4 Years",
+      "label": "Course Duration"
+    },
+    {
+      "val": "English",
+      "label": "Medium of Study"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "World-Class Nordic Innovation",
+      "desc": "Study in Sweden's globally ranked universities renowned for pioneering scientific breakthroughs, design thinking, and sustainable research."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "English-Taught Degrees",
+      "desc": "Over 1,000 bachelor's and master's degree programs delivered entirely in English with international accreditation."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Generous Post-Study Work",
+      "desc": "Sweden offers residence permits after graduation for students to seek employment or start innovative businesses."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "High Quality of Life",
+      "desc": "Ranked among the top nations globally for safety, equality, environmental sustainability, and student well-being."
+    }
+  ],
+  "overview": [
+    "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Sweden for Automobile Engineering (PG) in Sweden."
+  ],
+  "universities": [
+    {
+      "name": "\\. KTH Royal Institute of Technology",
+      "location": "\\. KTH Royal Institute of Technology, Sweden",
+      "fee": "SEK 90,000 – 160,000 / Year",
+      "desc": "KTH offers a two-year MSc in Vehicle Engineering, taught in English. Students can specialise in road or rail vehicles. The road-vehicle pathway is particularly relevant to students interested in cars, trucks, buses, vehicle dynamics, design, electrification and safety systems. **Location:** Stockholm, Sweden **![][image1]**",
+      "img_var": "null"
+    },
+    {
+      "name": "\\. Chalmers University of Technology",
+      "location": "\\. Chalmers University of Technology, Sweden",
+      "fee": "SEK 90,000 – 160,000 / Year",
+      "desc": "Chalmers offers an MSc in Mobility Engineering with a specialisation in Automotive Engineering. Students can explore vehicle dynamics and control, powertrains, traffic safety, aerodynamics, electric and hybrid vehicles, and propulsion technologies. The optional Formula Student project can provide practical experience in vehicle development and engineering. **Location:** Gothenburg, Sweden **![][image2]** **Which university should you choose?** KTH offers a broader vehicle engineering education, with opportunities to focus on road or rail vehicles. Chalmers is a relevant choice for students who want to specialise in automotive engineering through its Mobility Engineering programme. Compare the curriculum, eligibility criteria and project options before making a decision.",
+      "img_var": "null"
+    }
+  ],
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "Can Indian students apply for Automobile Engineering (PG) in Sweden?",
+        "a": "Yes, Indian students with qualifying credentials meeting English language proficiency (IELTS/TOEFL) and academic prerequisites can apply to recognized universities in Sweden."
+      },
+      {
+        "q": "What is the medium of instruction for Automobile Engineering (PG) in Sweden?",
+        "a": "Most master's and international bachelor's degree programmes are taught entirely in English for international students across Swedish universities."
+      },
+      {
+        "q": "What are the typical tuition fees for Automobile Engineering (PG) in Sweden?",
+        "a": "Tuition fees for international students generally range between SEK 80,000 and SEK 150,000 per year, depending on the institution and level of study."
+      },
+      {
+        "q": "Can international students work while studying in Sweden?",
+        "a": "Yes, non-EU international students holding a valid Swedish residence permit for higher education are permitted to work alongside their studies without a fixed hours limitation during term time."
+      }
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "seo": {
+    "title": "BBS in Sweden for Indian Students | Edu-Hawk Worldwide",
+    "description": "Study BBS in Sweden: Top universities, course duration, tuition fees in SEK & INR, eligibility criteria, admission process & visa requirements for Indian students."
+  },
+  "hero": {
+    "badge": "Study Abroad - Sweden",
+    "title": "BBS in Sweden for Indian Students",
+    "paras": [
+      "A **Bachelor of Business Studies (BBS)** is an undergraduate degree for students interested in **business administration, marketing, finance, economics, entrepreneurship, and management**. Sweden offers several related bachelor's programmes for international students, including Indian students who want to develop business knowledge in an international academic environment."
+    ]
+  },
+  "stats": [
+    {
+      "val": "SEK 80K-150K",
+      "label": "Tuition / Year"
+    },
+    {
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    },
+    {
+      "val": "3-4 Years",
+      "label": "Course Duration"
+    },
+    {
+      "val": "English",
+      "label": "Medium of Study"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "World-Class Nordic Innovation",
+      "desc": "Study in Sweden's globally ranked universities renowned for pioneering scientific breakthroughs, design thinking, and sustainable research."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "English-Taught Degrees",
+      "desc": "Over 1,000 bachelor's and master's degree programs delivered entirely in English with international accreditation."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Generous Post-Study Work",
+      "desc": "Sweden offers residence permits after graduation for students to seek employment or start innovative businesses."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "High Quality of Life",
+      "desc": "Ranked among the top nations globally for safety, equality, environmental sustainability, and student well-being."
+    }
+  ],
+  "overview": [
+    "However, the exact degree title **BBS** may not be available at every Swedish university. Similar undergraduate programmes are commonly offered under titles such as **Business and Economics, International Business, and International Management**.",
+    "Most comparable bachelor's programmes in Sweden take **three years (180 ECTS credits)** to complete. They can provide a foundation for postgraduate studies or careers in different business sectors.",
+    "Through **Edu Hawk worldwide** study abroad guidance, students can explore language-learning options and understand the eligibility, fees and application requirements."
+  ],
+  "universities": [
+    {
+      "name": "\\. University of Gothenburg (Göteborgs universitet)",
+      "location": "\\. University of Gothenburg (Göteborgs universitet), Sweden",
+      "fee": "SEK 90,000 – 160,000 / Year",
+      "desc": "* **Programme:** Bachelor's Programme in Business and Economics * **Duration:** 3 years * **Language of Instruction:** English * **Total Tuition Fee:** SEK 291,000 * **Approximate Tuition Fee:** ₹27.65 lakh ![][image1] The programme covers areas such as business, economics, commercial law, and sustainability.",
+      "img_var": "null"
+    },
+    {
+      "name": "\\. Umeå University",
+      "location": "\\. Umeå University, Sweden",
+      "fee": "SEK 90,000 – 160,000 / Year",
+      "desc": "* **Programme:** International Business and Economics Programme * **Duration:** 3 years * **Language of Instruction:** English * **Total Tuition Fee:** SEK 289,800 * **Approximate Tuition Fee:** ₹27.53 lakh ![][image2] Students explore international business, economics, market analysis, and data visualisation.",
+      "img_var": "null"
+    },
+    {
+      "name": "\\. Jönköping University",
+      "location": "\\. Jönköping University, Sweden",
+      "fee": "SEK 90,000 – 160,000 / Year",
+      "desc": "* **Programme:** Bachelor's Programme in International Management * **Duration:** 3 years * **Language of Instruction:** English * **Total Tuition Fee:** SEK 360,000 * **Approximate Tuition Fee:** ₹34.20 lakh ![][image3] The programme focuses on areas such as business administration, management, leadership, and international business.",
+      "img_var": "null"
+    }
+  ],
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "Can Indian students apply for BBS in Sweden?",
+        "a": "Yes, Indian students with qualifying credentials meeting English language proficiency (IELTS/TOEFL) and academic prerequisites can apply to recognized universities in Sweden."
+      },
+      {
+        "q": "What is the medium of instruction for BBS in Sweden?",
+        "a": "Most master's and international bachelor's degree programmes are taught entirely in English for international students across Swedish universities."
+      },
+      {
+        "q": "What are the typical tuition fees for BBS in Sweden?",
+        "a": "Tuition fees for international students generally range between SEK 80,000 and SEK 150,000 per year, depending on the institution and level of study."
+      },
+      {
+        "q": "Can international students work while studying in Sweden?",
+        "a": "Yes, non-EU international students holding a valid Swedish residence permit for higher education are permitted to work alongside their studies without a fixed hours limitation during term time."
+      }
+    ]
+  }
+}

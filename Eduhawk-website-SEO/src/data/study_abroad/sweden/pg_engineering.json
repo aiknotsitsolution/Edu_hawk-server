@@ -1,0 +1,114 @@
+{
+  "seo": {
+    "title": "Postgraduate Engineering in Sweden for Indian Students | Edu-Hawk Worldwide",
+    "description": "Study Postgraduate Engineering in Sweden: Top universities, course duration, tuition fees in SEK & INR, eligibility criteria, admission process & visa requirements for Indian students."
+  },
+  "hero": {
+    "badge": "Study Abroad - Sweden",
+    "title": "Postgraduate Engineering in Sweden for Indian Students",
+    "paras": [
+      "Comprehensive guide to studying Postgraduate Engineering in Sweden for Indian students."
+    ]
+  },
+  "stats": [
+    {
+      "val": "SEK 80K-150K",
+      "label": "Tuition / Year"
+    },
+    {
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    },
+    {
+      "val": "3-4 Years",
+      "label": "Course Duration"
+    },
+    {
+      "val": "English",
+      "label": "Medium of Study"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "World-Class Nordic Innovation",
+      "desc": "Study in Sweden's globally ranked universities renowned for pioneering scientific breakthroughs, design thinking, and sustainable research."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "English-Taught Degrees",
+      "desc": "Over 1,000 bachelor's and master's degree programs delivered entirely in English with international accreditation."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Generous Post-Study Work",
+      "desc": "Sweden offers residence permits after graduation for students to seek employment or start innovative businesses."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "High Quality of Life",
+      "desc": "Ranked among the top nations globally for safety, equality, environmental sustainability, and student well-being."
+    }
+  ],
+  "overview": [
+    "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Sweden for Postgraduate Engineering in Sweden."
+  ],
+  "universities": [
+    {
+      "name": "Karolinska Institutet",
+      "location": "Stockholm, Sweden",
+      "fee": "SEK 140,000 – 200,000 / Year",
+      "desc": "One of the world's foremost medical universities and research centers, renowned for awarding the Nobel Prize in Physiology or Medicine.",
+      "img_var": "null"
+    },
+    {
+      "name": "KTH Royal Institute of Technology",
+      "location": "Stockholm, Sweden",
+      "fee": "SEK 120,000 – 160,000 / Year",
+      "desc": "Sweden's leading technical university, ranked among Europe's top polytechnics for engineering, computer science, and innovation.",
+      "img_var": "null"
+    },
+    {
+      "name": "Lund University",
+      "location": "Lund, Sweden",
+      "fee": "SEK 90,000 – 150,000 / Year",
+      "desc": "Top-100 world university offering comprehensive programs in engineering, sciences, medicine, law, and economics.",
+      "img_var": "null"
+    },
+    {
+      "name": "Uppsala University",
+      "location": "Uppsala, Sweden",
+      "fee": "SEK 90,000 – 145,000 / Year",
+      "desc": "The oldest university in Sweden and the Nordic region, internationally acclaimed for scientific research, pharmacy, and humanities.",
+      "img_var": "null"
+    },
+    {
+      "name": "Chalmers University of Technology",
+      "location": "Gothenburg, Sweden",
+      "fee": "SEK 130,000 – 170,000 / Year",
+      "desc": "Globally recognized for cutting-edge engineering, sustainable technology, automotive systems, and industry partnerships.",
+      "img_var": "null"
+    }
+  ],
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "Can Indian students apply for Postgraduate Engineering in Sweden?",
+        "a": "Yes, Indian students with qualifying credentials meeting English language proficiency (IELTS/TOEFL) and academic prerequisites can apply to recognized universities in Sweden."
+      },
+      {
+        "q": "What is the medium of instruction for Postgraduate Engineering in Sweden?",
+        "a": "Most master's and international bachelor's degree programmes are taught entirely in English for international students across Swedish universities."
+      },
+      {
+        "q": "What are the typical tuition fees for Postgraduate Engineering in Sweden?",
+        "a": "Tuition fees for international students generally range between SEK 80,000 and SEK 150,000 per year, depending on the institution and level of study."
+      },
+      {
+        "q": "Can international students work while studying in Sweden?",
+        "a": "Yes, non-EU international students holding a valid Swedish residence permit for higher education are permitted to work alongside their studies without a fixed hours limitation during term time."
+      }
+    ]
+  }
+}
