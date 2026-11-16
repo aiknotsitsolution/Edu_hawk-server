@@ -7,13 +7,17 @@ import heroBgImg from "../../../../Images/Abroad/Mauritius/HospitalityManagement
 import sideImg from "../../../../Images/Abroad/Mauritius/HospitalityManagement/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Mauritius/HospitalityManagement/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../Images/Abroad/Mauritius/HospitalityManagement/image1.png";
+import uniImg2 from "../../../../Images/Abroad/Mauritius/HospitalityManagement/image2.png";
+
 const page = {
-  "name": "Hospitality Management in Mauritius",
+  "name": "Hospitality Management",
   "country": "Mauritius",
   "slug": "hospitality-management",
-  "title": "Bachelor and Master in Hospitality Management in Mauritius for Indian Students | Edu-Hawk Worldwide",
+  "title": "Hospitality Management in Mauritius for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Hospitality Management in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study Hospitality Management in Mauritius, Hospitality Management in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Hospitality Management in Mauritius Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
+  "keywords": "Study Hospitality Management in Mauritius, Hospitality Management in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Hospitality Management Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
   "introTitle": "Hospitality Management in Mauritius for Indian Students",
   "heroParas": [
     "For students interested in hotel operations, tourism, resort management, food and beverage services and event planning, Mauritius is a destination to consider. Its hospitality-related programs are able to teach students practical service skills and knowledge of business management. Studying **Hospitality Management in Mauritius** can help students explore undergraduate and postgraduate opportunities in the hospitality and tourism sector."
@@ -21,24 +25,46 @@ const page = {
   "overview": [
     "The University of Mauritius will be offering the BSc (Hons) Tourism, Hospitality and Events Management, which is listed as a 3.5 year full time degree and the MSc Tourism and Hospitality Management, which is listed as a two year part time program for the academic year 2026-2027."
   ],
-  "level": "Bachelor & Master in Hospitality",
+  "level": "Bachelor & Master of Hospitality Management",
   "crumb": "Hospitality Management",
   "stats": [
     {
-      "label": "Degree Choices",
-      "value": "Bachelor & Master in Hospitality"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "label": "Language of Study",
-      "value": "English & Bilingual"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "label": "Top Institutions",
-      "value": "UoM, UTM, UdM & Middlesex"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "label": "Indicative Fees",
-      "value": "MUR 150,000 \u2013 MUR 350,000 / Year"
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
     }
   ],
   "sections": [
@@ -108,25 +134,27 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Top Universities in Mauritius for Hotel Management",
-      "lead": "Explore leading universities and institutions in Mauritius offering accredited Hospitality Management in Mauritius programmes, modern campuses, and international student support.",
+      "lead": "Explore leading universities and institutions in Mauritius offering accredited Hospitality Management programmes, modern campuses, and international student support.",
+      "unis": [
+        {
+          "name": "\\. Mauritius University",
+          "location": "\\. Mauritius University",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "We offer a BSc (Hons) Tourism, Hospitality and Events Management and MSc Tourism and Hospitality Management. These programs provide entry into tourism, hospitality operations, management and event related careers. **2\\. University of Mauritius Open** Offers BSc (Hons) in Hotel Management and Catering Technologies. The curriculum includes hotel administration, catering, marketing, finance and hospitality operations.",
+          "img": uniImg1
+        }
+      ],
       "unis_data": [
         {
-          "name": "Mauritius University",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "We offer a BSc (Hons) Tourism, Hospitality and Events Management and MSc Tourism and Hospitality Management. These programs provide entry into tourism, hospitality operations, management and event related careers. * Official university site",
-          "img_var": "null"
-        },
-        {
-          "name": "University of Mauritius Open",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "Offers BSc (Hons) in Hotel Management and Catering Technologies. The curriculum includes hotel administration, catering, marketing, finance and hospitality operations. University's official site",
-          "img_var": "null"
+          "name": "\\. Mauritius University",
+          "location": "\\. Mauritius University",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "We offer a BSc (Hons) Tourism, Hospitality and Events Management and MSc Tourism and Hospitality Management. These programs provide entry into tourism, hospitality operations, management and event related careers. **2\\. University of Mauritius Open** Offers BSc (Hons) in Hotel Management and Catering Technologies. The curriculum includes hotel administration, catering, marketing, finance and hospitality operations.",
+          "img": uniImg1
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and student visa requirements before submitting their applications."
+        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
       ]
     },
     {
@@ -138,12 +166,10 @@ const page = {
           "t": "p",
           "items": [
             "**Hospitality Management eligibility in Mauritius** varies by institution, qualification and applicant group.",
-            "**For a Bachelor's degree**",
             "Secondary education completed to the level of the university\u2019s entry requirements.",
             "Academic results that meet the programme\u2019s minimum requirements.",
             "If required, proof of proficiency in English.",
             "Any other prerequisites required by the university.",
-            "**For a master\u2019s degree**",
             "A recognized Bachelor\u2019s degree in hospitality, tourism, business management or a relevant field as per the requirements of the program.",
             "Graduation proof and academic transcripts.",
             "English fluency if applicable.",
@@ -309,26 +335,31 @@ const page = {
       ]
     }
   ],
+  "universities": [
+    {
+      "name": "\\. Mauritius University",
+      "location": "\\. Mauritius University",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "We offer a BSc (Hons) Tourism, Hospitality and Events Management and MSc Tourism and Hospitality Management. These programs provide entry into tourism, hospitality operations, management and event related careers. **2\\. University of Mauritius Open** Offers BSc (Hons) in Hotel Management and Catering Technologies. The curriculum includes hotel administration, catering, marketing, finance and hospitality operations.",
+      "img": uniImg1
+    }
+  ],
   "faqs": [
     {
-      "q": "Can I pursue Hospitality Management in Mauritius after Class 12?",
-      "a": "Yes . If you have completed secondary education and meet the entry requirements of the institution, you can apply for an undergraduate program in hospitality. University of Mauritius BSc (Hons) Tourism, Hospitality and Events Management. Students can consider a Bachelor's in Hospitality Management in Mauritius after Class 12 if they meet the required criteria."
+      "q": "Can Indian students apply for Hospitality Management in Mauritius?",
+      "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
     },
     {
-      "q": "How long is a Bachelor\u2019s Degree in Hospitality Management in Mauritius?",
-      "a": "The University of Mauritius offers a full-time 3.5 year BSc (Hons) Tourism, Hospitality and Events Management program. The Open University of Mauritius lists its BSc (Hons) Hotel Management and Catering Technologies as a four-to-six year program."
+      "q": "What is the medium of instruction for Hospitality Management in Mauritius?",
+      "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
     },
     {
-      "q": "Is there a Masters in Hospitality Management in Mauritius?",
-      "a": "Yup. The University of Mauritius is offering an MSc Tourism and Hospitality Management program of two years part-time duration for the academic year 2026-2027. This is an option for students interested in a Master's in Hospitality Management in Mauritius."
+      "q": "What are the typical tuition fees for Hospitality Management in Mauritius?",
+      "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
     },
     {
-      "q": "What is the tuition fee of Hospitality Management in Mauritius?",
-      "a": "Fees vary by institution and by type of student. The tuition fee for international non-SADC students for the BSc (Hons) Hotel Management and Catering Technologies at The Open University of Mauritius is US\\$5,750. Candidates are advised to check the latest fee before applying."
-    },
-    {
-      "q": "What jobs can I get after studying Hospitality Management in Mauritius ?",
-      "a": "Graduates may find work in hotel operations, front office services, food and beverage management, resort administration, event planning, tourism operations, hospitality marketing, and other areas. Career advancement is based on your qualifications, experience, skills, and your eligibility to work. Choosing Hospitality Management in Mauritius can help students build academic knowledge and practical skills for the hospitality and tourism industry. Before applying, compare the available Hospitality Management courses in Mauritius, check university requirements and confirm the latest tuition fees."
+      "q": "Is a student visa required for Indian students?",
+      "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

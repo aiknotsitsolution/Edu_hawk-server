@@ -7,13 +7,18 @@ import heroBgImg from "../../../../Images/Abroad/Mauritius/Dentistry/hero_bg.web
 import sideImg from "../../../../Images/Abroad/Mauritius/Dentistry/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Mauritius/Dentistry/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../Images/Abroad/Mauritius/Dentistry/image1.png";
+import uniImg2 from "../../../../Images/Abroad/Mauritius/Dentistry/image2.png";
+import uniImg3 from "../../../../Images/Abroad/Mauritius/Dentistry/image3.png";
+
 const page = {
-  "name": "Dentistry in Mauritius",
+  "name": "Dentistry",
   "country": "Mauritius",
   "slug": "dentistry",
   "title": "Dentistry in Mauritius for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Dentistry in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study Dentistry in Mauritius, Dentistry in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Dentistry in Mauritius Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
+  "keywords": "Study Dentistry in Mauritius, Dentistry in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Dentistry Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
   "introTitle": "Dentistry in Mauritius for Indian Students",
   "heroParas": [
     "**Dentistry in Mauritius for Indian Students** is an option that English-speaking students interested in a multicultural island country for their clinical training might want to consider. First though you need to ensure that the qualification will be recognized in the country you intend to practise in and that the institution you want to study at is currently offering an approved dental degree."
@@ -25,20 +30,42 @@ const page = {
   "crumb": "MBBS Abroad",
   "stats": [
     {
-      "label": "Degree Choices",
-      "value": "BDS / Dental Surgery"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "label": "Language of Study",
-      "value": "English & Bilingual"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "label": "Top Institutions",
-      "value": "UoM, UTM, UdM & Middlesex"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "label": "Indicative Fees",
-      "value": "MUR 150,000 \u2013 MUR 350,000 / Year"
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
     }
   ],
   "sections": [
@@ -88,46 +115,83 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Best Universities and Dental Colleges in Mauritius",
-      "lead": "Explore leading universities and institutions in Mauritius offering accredited Dentistry in Mauritius programmes, modern campuses, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Mauritius offering accredited Dentistry programmes, modern campuses, and international student support.",
+      "unis": [
         {
           "name": "University of Mauritius (UoM)",
           "location": "Reduit, Mauritius",
           "fee": "MUR 150,000 \u2013 350,000 / Year",
-          "desc": "The premier and oldest public research university in Mauritius offering accredited degrees with modern research facilities.",
-          "img_var": "null"
+          "desc": "The flagship national university of Mauritius offering premier degree programs in health sciences, engineering, agriculture, and business.",
+          "img": uniImg1
         },
         {
           "name": "Universit\u00e9 des Mascareignes (UdM)",
           "location": "Rose Hill, Mauritius",
           "fee": "MUR 180,000 \u2013 320,000 / Year",
-          "desc": "Public university established with French academic partnerships, offering dual-degree European programmes in technology and management.",
-          "img_var": "null"
+          "desc": "Bilingual public university partnering with French universities to offer internationally accredited dual qualifications.",
+          "img": uniImg2
         },
         {
           "name": "University of Technology, Mauritius (UTM)",
           "location": "La Tour Koenig, Mauritius",
           "fee": "MUR 160,000 \u2013 280,000 / Year",
-          "desc": "Leading technological university focused on computing, applied engineering, public health, and business innovation.",
-          "img_var": "null"
+          "desc": "Dynamic public institution recognized for cutting-edge programs in technology, applied management, healthcare, and sustainable development.",
+          "img": uniImg3
         },
         {
           "name": "Middlesex University Mauritius",
           "location": "Flic en Flac, Mauritius",
           "fee": "MUR 250,000 \u2013 450,000 / Year",
-          "desc": "Prestigious UK branch campus offering British-accredited undergraduate and postgraduate degrees with state-of-the-art coastal facilities.",
-          "img_var": "null"
+          "desc": "Accredited British branch campus delivering internationally recognized undergraduate and postgraduate degrees in coastal Mauritius.",
+          "img": uniImg1
         },
         {
           "name": "Curtin Mauritius",
           "location": "Moka, Mauritius",
           "fee": "MUR 280,000 \u2013 420,000 / Year",
-          "desc": "Australian branch campus known for industry-aligned curricula, world-class teaching faculty, and global degree recognition.",
-          "img_var": "null"
+          "desc": "Premier Australian branch university known for high academic standards in commerce, design, health, and humanities.",
+          "img": uniImg2
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "University of Mauritius (UoM)",
+          "location": "Reduit, Mauritius",
+          "fee": "MUR 150,000 \u2013 350,000 / Year",
+          "desc": "The flagship national university of Mauritius offering premier degree programs in health sciences, engineering, agriculture, and business.",
+          "img": uniImg1
+        },
+        {
+          "name": "Universit\u00e9 des Mascareignes (UdM)",
+          "location": "Rose Hill, Mauritius",
+          "fee": "MUR 180,000 \u2013 320,000 / Year",
+          "desc": "Bilingual public university partnering with French universities to offer internationally accredited dual qualifications.",
+          "img": uniImg2
+        },
+        {
+          "name": "University of Technology, Mauritius (UTM)",
+          "location": "La Tour Koenig, Mauritius",
+          "fee": "MUR 160,000 \u2013 280,000 / Year",
+          "desc": "Dynamic public institution recognized for cutting-edge programs in technology, applied management, healthcare, and sustainable development.",
+          "img": uniImg3
+        },
+        {
+          "name": "Middlesex University Mauritius",
+          "location": "Flic en Flac, Mauritius",
+          "fee": "MUR 250,000 \u2013 450,000 / Year",
+          "desc": "Accredited British branch campus delivering internationally recognized undergraduate and postgraduate degrees in coastal Mauritius.",
+          "img": uniImg1
+        },
+        {
+          "name": "Curtin Mauritius",
+          "location": "Moka, Mauritius",
+          "fee": "MUR 280,000 \u2013 420,000 / Year",
+          "desc": "Premier Australian branch university known for high academic standards in commerce, design, health, and humanities.",
+          "img": uniImg2
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and student visa requirements before submitting their applications."
+        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
       ]
     },
     {
@@ -307,26 +371,59 @@ const page = {
       ]
     }
   ],
+  "universities": [
+    {
+      "name": "University of Mauritius (UoM)",
+      "location": "Reduit, Mauritius",
+      "fee": "MUR 150,000 \u2013 350,000 / Year",
+      "desc": "The flagship national university of Mauritius offering premier degree programs in health sciences, engineering, agriculture, and business.",
+      "img": uniImg1
+    },
+    {
+      "name": "Universit\u00e9 des Mascareignes (UdM)",
+      "location": "Rose Hill, Mauritius",
+      "fee": "MUR 180,000 \u2013 320,000 / Year",
+      "desc": "Bilingual public university partnering with French universities to offer internationally accredited dual qualifications.",
+      "img": uniImg2
+    },
+    {
+      "name": "University of Technology, Mauritius (UTM)",
+      "location": "La Tour Koenig, Mauritius",
+      "fee": "MUR 160,000 \u2013 280,000 / Year",
+      "desc": "Dynamic public institution recognized for cutting-edge programs in technology, applied management, healthcare, and sustainable development.",
+      "img": uniImg3
+    },
+    {
+      "name": "Middlesex University Mauritius",
+      "location": "Flic en Flac, Mauritius",
+      "fee": "MUR 250,000 \u2013 450,000 / Year",
+      "desc": "Accredited British branch campus delivering internationally recognized undergraduate and postgraduate degrees in coastal Mauritius.",
+      "img": uniImg1
+    },
+    {
+      "name": "Curtin Mauritius",
+      "location": "Moka, Mauritius",
+      "fee": "MUR 280,000 \u2013 420,000 / Year",
+      "desc": "Premier Australian branch university known for high academic standards in commerce, design, health, and humanities.",
+      "img": uniImg2
+    }
+  ],
   "faqs": [
     {
-      "q": "What is the duration of the dentistry course in Mauritius?",
-      "a": "A professional dental qualification can take around five years, including clinical training, but check the length of the particular program on offer at the time."
+      "q": "Can Indian students apply for Dentistry in Mauritius?",
+      "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
     },
     {
-      "q": "Is dentistry in Mauritius an option for foreign students?",
-      "a": "International eligibility depends on the current admissions policy of the institution. Please confirm if applications are accepted from international students for the intended intake."
+      "q": "What is the medium of instruction for Dentistry in Mauritius?",
+      "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
     },
     {
-      "q": "What is the cost of dentistry in Mauritius?",
-      "a": "Could not establish a verified current fee for an active admitting program. \u2022 Ask for a copy of the institution\u2019s official annual and total-course fee schedule. Students researching Dentistry Fees in Mauritius should obtain written confirmation of all charges."
+      "q": "What are the typical tuition fees for Dentistry in Mauritius?",
+      "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
     },
     {
-      "q": "Can Indian students do dentistry in Mauritius?",
-      "a": "Indian students should verify their eligibility for admission and the current National Dental Commission rules on foreign dental qualifications and eligibility to practice in India before they enroll. The erstwhile Dental Council of India issued a notice that NEET qualification was mandatory for Indian citizens, OCI and PIO cardholders wishing to apply for eligibility for foreign undergraduate or postgraduate dental study. Students should check with the relevant Indian authority for current rules. Before deciding to Study Dentistry in Mauritius, Indian applicants should confirm the current requirements with the relevant authorities."
-    },
-    {
-      "q": "Is Mauritius Dental degree automatically recognized in India?",
-      "a": "No. Recognition and permission to practice should not be assumed. Confirm the latest Indian regulations and get confirmation about the specific institution and qualification before accepting an offer. The recognition of qualifications to practise dentistry in Mauritius is also regulated by the Dental Council of Mauritius."
+      "q": "Is a student visa required for Indian students?",
+      "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

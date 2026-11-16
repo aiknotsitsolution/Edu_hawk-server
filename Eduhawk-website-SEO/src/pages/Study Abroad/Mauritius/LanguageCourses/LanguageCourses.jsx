@@ -7,13 +7,17 @@ import heroBgImg from "../../../../Images/Abroad/Mauritius/LanguageCourses/hero_
 import sideImg from "../../../../Images/Abroad/Mauritius/LanguageCourses/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Mauritius/LanguageCourses/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../Images/Abroad/Mauritius/LanguageCourses/image1.png";
+import uniImg2 from "../../../../Images/Abroad/Mauritius/LanguageCourses/image2.png";
+
 const page = {
-  "name": "Language Courses in Mauritius",
+  "name": "Language Courses",
   "country": "Mauritius",
   "slug": "language-courses",
   "title": "Language Courses in Mauritius for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Language Courses in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study Language Courses in Mauritius, Language Courses in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Language Courses in Mauritius Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
+  "keywords": "Study Language Courses in Mauritius, Language Courses in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Language Courses Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
   "introTitle": "Language Courses in Mauritius for Indian Students",
   "heroParas": [
     "**Language courses in Mauritius** are a good option for students, working professionals and international learners, who want to improve their communication skills for education, employment, travel or everyday life. Universities, cultural institutions and training providers are providing learners with the chance to learn English, French, Chinese and other languages. **Language courses in Mauritius** provide opportunities to learners with varying levels of proficiency and learning goals. These options also make **language learning in Mauritius** accessible to people with different academic and professional interests."
@@ -25,20 +29,42 @@ const page = {
   "crumb": "Language Courses",
   "stats": [
     {
-      "label": "Degree Choices",
-      "value": "Language Proficiency & Foundation"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "label": "Language of Study",
-      "value": "English & Bilingual"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "label": "Top Institutions",
-      "value": "UoM, UTM, UdM & Middlesex"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "label": "Indicative Fees",
-      "value": "MUR 150,000 \u2013 MUR 350,000 / Year"
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
     }
   ],
   "sections": [
@@ -124,46 +150,83 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Best Institutions for Language Courses in Mauritius",
-      "lead": "Explore leading universities and institutions in Mauritius offering accredited Language Courses in Mauritius programmes, modern campuses, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Mauritius offering accredited Language Courses programmes, modern campuses, and international student support.",
+      "unis": [
         {
           "name": "University of Mauritius (UoM)",
           "location": "Reduit, Mauritius",
           "fee": "MUR 150,000 \u2013 350,000 / Year",
-          "desc": "The premier and oldest public research university in Mauritius offering accredited degrees with modern research facilities.",
-          "img_var": "null"
+          "desc": "The flagship national university of Mauritius offering premier degree programs in health sciences, engineering, agriculture, and business.",
+          "img": uniImg1
         },
         {
           "name": "Universit\u00e9 des Mascareignes (UdM)",
           "location": "Rose Hill, Mauritius",
           "fee": "MUR 180,000 \u2013 320,000 / Year",
-          "desc": "Public university established with French academic partnerships, offering dual-degree European programmes in technology and management.",
-          "img_var": "null"
+          "desc": "Bilingual public university partnering with French universities to offer internationally accredited dual qualifications.",
+          "img": uniImg2
         },
         {
           "name": "University of Technology, Mauritius (UTM)",
           "location": "La Tour Koenig, Mauritius",
           "fee": "MUR 160,000 \u2013 280,000 / Year",
-          "desc": "Leading technological university focused on computing, applied engineering, public health, and business innovation.",
-          "img_var": "null"
+          "desc": "Dynamic public institution recognized for cutting-edge programs in technology, applied management, healthcare, and sustainable development.",
+          "img": uniImg1
         },
         {
           "name": "Middlesex University Mauritius",
           "location": "Flic en Flac, Mauritius",
           "fee": "MUR 250,000 \u2013 450,000 / Year",
-          "desc": "Prestigious UK branch campus offering British-accredited undergraduate and postgraduate degrees with state-of-the-art coastal facilities.",
-          "img_var": "null"
+          "desc": "Accredited British branch campus delivering internationally recognized undergraduate and postgraduate degrees in coastal Mauritius.",
+          "img": uniImg2
         },
         {
           "name": "Curtin Mauritius",
           "location": "Moka, Mauritius",
           "fee": "MUR 280,000 \u2013 420,000 / Year",
-          "desc": "Australian branch campus known for industry-aligned curricula, world-class teaching faculty, and global degree recognition.",
-          "img_var": "null"
+          "desc": "Premier Australian branch university known for high academic standards in commerce, design, health, and humanities.",
+          "img": uniImg1
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "University of Mauritius (UoM)",
+          "location": "Reduit, Mauritius",
+          "fee": "MUR 150,000 \u2013 350,000 / Year",
+          "desc": "The flagship national university of Mauritius offering premier degree programs in health sciences, engineering, agriculture, and business.",
+          "img": uniImg1
+        },
+        {
+          "name": "Universit\u00e9 des Mascareignes (UdM)",
+          "location": "Rose Hill, Mauritius",
+          "fee": "MUR 180,000 \u2013 320,000 / Year",
+          "desc": "Bilingual public university partnering with French universities to offer internationally accredited dual qualifications.",
+          "img": uniImg2
+        },
+        {
+          "name": "University of Technology, Mauritius (UTM)",
+          "location": "La Tour Koenig, Mauritius",
+          "fee": "MUR 160,000 \u2013 280,000 / Year",
+          "desc": "Dynamic public institution recognized for cutting-edge programs in technology, applied management, healthcare, and sustainable development.",
+          "img": uniImg1
+        },
+        {
+          "name": "Middlesex University Mauritius",
+          "location": "Flic en Flac, Mauritius",
+          "fee": "MUR 250,000 \u2013 450,000 / Year",
+          "desc": "Accredited British branch campus delivering internationally recognized undergraduate and postgraduate degrees in coastal Mauritius.",
+          "img": uniImg2
+        },
+        {
+          "name": "Curtin Mauritius",
+          "location": "Moka, Mauritius",
+          "fee": "MUR 280,000 \u2013 420,000 / Year",
+          "desc": "Premier Australian branch university known for high academic standards in commerce, design, health, and humanities.",
+          "img": uniImg1
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and student visa requirements before submitting their applications."
+        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
       ]
     },
     {
@@ -351,26 +414,59 @@ const page = {
       ]
     }
   ],
+  "universities": [
+    {
+      "name": "University of Mauritius (UoM)",
+      "location": "Reduit, Mauritius",
+      "fee": "MUR 150,000 \u2013 350,000 / Year",
+      "desc": "The flagship national university of Mauritius offering premier degree programs in health sciences, engineering, agriculture, and business.",
+      "img": uniImg1
+    },
+    {
+      "name": "Universit\u00e9 des Mascareignes (UdM)",
+      "location": "Rose Hill, Mauritius",
+      "fee": "MUR 180,000 \u2013 320,000 / Year",
+      "desc": "Bilingual public university partnering with French universities to offer internationally accredited dual qualifications.",
+      "img": uniImg2
+    },
+    {
+      "name": "University of Technology, Mauritius (UTM)",
+      "location": "La Tour Koenig, Mauritius",
+      "fee": "MUR 160,000 \u2013 280,000 / Year",
+      "desc": "Dynamic public institution recognized for cutting-edge programs in technology, applied management, healthcare, and sustainable development.",
+      "img": uniImg1
+    },
+    {
+      "name": "Middlesex University Mauritius",
+      "location": "Flic en Flac, Mauritius",
+      "fee": "MUR 250,000 \u2013 450,000 / Year",
+      "desc": "Accredited British branch campus delivering internationally recognized undergraduate and postgraduate degrees in coastal Mauritius.",
+      "img": uniImg2
+    },
+    {
+      "name": "Curtin Mauritius",
+      "location": "Moka, Mauritius",
+      "fee": "MUR 280,000 \u2013 420,000 / Year",
+      "desc": "Premier Australian branch university known for high academic standards in commerce, design, health, and humanities.",
+      "img": uniImg1
+    }
+  ],
   "faqs": [
     {
-      "q": "What languages can I learn in Mauritius?",
-      "a": "Dependent options for provider and intake. Confirmed examples include foundation courses in English and French at the Open University of Mauritius, French at the Institut fran\u00e7ais de Maurice and introductory Modern Chinese at the Mahatma Gandhi Institute. Here are a few options available to students exploring Language Courses in Mauritius."
+      "q": "Can Indian students apply for Language Courses in Mauritius?",
+      "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
     },
     {
-      "q": "What is the average price of language courses in Mauritius?",
-      "a": "Fees vary depending on the institution and course. For example, the Open University of Mauritius has listed a total of US\\$176 for its foundation English and French courses for international non-SADC learners, while the Mahatma Gandhi Institute has listed MUR 4,000 for Modern Chinese \u2013 Level I, plus a registration fee."
+      "q": "What is the medium of instruction for Language Courses in Mauritius?",
+      "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
     },
     {
-      "q": "Are there any courses in Mauritius for beginners?",
-      "a": "Yes. Some courses are for beginners. The Modern Chinese \u2013 Level I course at the Mahatma Gandhi Institute, for example, is an introductory course for people who have never learned the language before."
+      "q": "What are the typical tuition fees for Language Courses in Mauritius?",
+      "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
     },
     {
-      "q": "Is it possible to prepare for an official French language exam in Mauritius?",
-      "a": "Yes. The Institut fran\u00e7ais of Mauritius offers training courses for the TCF and DELF/DALF exams. Please check with the institute for the examination dates, level and fees."
-    },
-    {
-      "q": "How much time does a language course in Mauritius take?",
-      "a": "Duration varies according to course and level. The Open University of Mauritius offers its English and French foundation courses with a minimum period of one year and maximum of two years. Some of the other providers may run language courses of shorter duration. Learners in Mauritius can opt for Language Courses in Mauritius to enhance their communication skills for academic, professional and personal development. Before you sign up, it\u2019s wise to compare institutions, course length, eligibility, fees and certification options to find a language learning in Mauritius program that\u2019s right for you. Whether you are exploring English and French language courses in Mauritius or other language options, check the course details and admission requirements before enrolling."
+      "q": "Is a student visa required for Indian students?",
+      "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

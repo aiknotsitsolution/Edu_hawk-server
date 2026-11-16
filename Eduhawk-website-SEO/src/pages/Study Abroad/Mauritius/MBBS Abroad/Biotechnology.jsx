@@ -7,13 +7,17 @@ import heroBgImg from "../../../../Images/Abroad/Mauritius/Biotechnology/hero_bg
 import sideImg from "../../../../Images/Abroad/Mauritius/Biotechnology/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Mauritius/Biotechnology/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../Images/Abroad/Mauritius/Biotechnology/image1.png";
+import uniImg2 from "../../../../Images/Abroad/Mauritius/Biotechnology/image2.png";
+
 const page = {
-  "name": "Biotechnology in Mauritius",
+  "name": "Biotechnology",
   "country": "Mauritius",
   "slug": "biotechnology",
   "title": "Biotechnology in Mauritius for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Biotechnology in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study Biotechnology in Mauritius, Biotechnology in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Biotechnology in Mauritius Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
+  "keywords": "Study Biotechnology in Mauritius, Biotechnology in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Biotechnology Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
   "introTitle": "Biotechnology in Mauritius for Indian Students",
   "heroParas": [
     "**Biotechnology in Mauritius for Indian Students** is a study pathway for students who are interested in genetics, microbiology, molecular biology, pharmaceutical research, food technology and industrial innovation. It merges biology with laboratory techniques and technology, creating applications in healthcare, agriculture, food production and environmental protection. Students who want to **Study Biotechnology in Mauritius** can explore different undergraduate and diploma-level options."
@@ -25,20 +29,42 @@ const page = {
   "crumb": "MBBS Abroad",
   "stats": [
     {
-      "label": "Degree Choices",
-      "value": "Bachelor & Master of Biotechnology"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "label": "Language of Study",
-      "value": "English & Bilingual"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "label": "Top Institutions",
-      "value": "UoM, UTM, UdM & Middlesex"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "label": "Indicative Fees",
-      "value": "MUR 150,000 \u2013 MUR 350,000 / Year"
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
     }
   ],
   "sections": [
@@ -119,46 +145,83 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Top Universities and Institutions for Biotechnology in Mauritius",
-      "lead": "Explore leading universities and institutions in Mauritius offering accredited Biotechnology in Mauritius programmes, modern campuses, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Mauritius offering accredited Biotechnology programmes, modern campuses, and international student support.",
+      "unis": [
         {
           "name": "University of Mauritius (UoM)",
           "location": "Reduit, Mauritius",
           "fee": "MUR 150,000 \u2013 350,000 / Year",
-          "desc": "The premier and oldest public research university in Mauritius offering accredited degrees with modern research facilities.",
-          "img_var": "null"
+          "desc": "The flagship national university of Mauritius offering premier degree programs in health sciences, engineering, agriculture, and business.",
+          "img": uniImg1
         },
         {
           "name": "Universit\u00e9 des Mascareignes (UdM)",
           "location": "Rose Hill, Mauritius",
           "fee": "MUR 180,000 \u2013 320,000 / Year",
-          "desc": "Public university established with French academic partnerships, offering dual-degree European programmes in technology and management.",
-          "img_var": "null"
+          "desc": "Bilingual public university partnering with French universities to offer internationally accredited dual qualifications.",
+          "img": uniImg2
         },
         {
           "name": "University of Technology, Mauritius (UTM)",
           "location": "La Tour Koenig, Mauritius",
           "fee": "MUR 160,000 \u2013 280,000 / Year",
-          "desc": "Leading technological university focused on computing, applied engineering, public health, and business innovation.",
-          "img_var": "null"
+          "desc": "Dynamic public institution recognized for cutting-edge programs in technology, applied management, healthcare, and sustainable development.",
+          "img": uniImg1
         },
         {
           "name": "Middlesex University Mauritius",
           "location": "Flic en Flac, Mauritius",
           "fee": "MUR 250,000 \u2013 450,000 / Year",
-          "desc": "Prestigious UK branch campus offering British-accredited undergraduate and postgraduate degrees with state-of-the-art coastal facilities.",
-          "img_var": "null"
+          "desc": "Accredited British branch campus delivering internationally recognized undergraduate and postgraduate degrees in coastal Mauritius.",
+          "img": uniImg2
         },
         {
           "name": "Curtin Mauritius",
           "location": "Moka, Mauritius",
           "fee": "MUR 280,000 \u2013 420,000 / Year",
-          "desc": "Australian branch campus known for industry-aligned curricula, world-class teaching faculty, and global degree recognition.",
-          "img_var": "null"
+          "desc": "Premier Australian branch university known for high academic standards in commerce, design, health, and humanities.",
+          "img": uniImg1
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "University of Mauritius (UoM)",
+          "location": "Reduit, Mauritius",
+          "fee": "MUR 150,000 \u2013 350,000 / Year",
+          "desc": "The flagship national university of Mauritius offering premier degree programs in health sciences, engineering, agriculture, and business.",
+          "img": uniImg1
+        },
+        {
+          "name": "Universit\u00e9 des Mascareignes (UdM)",
+          "location": "Rose Hill, Mauritius",
+          "fee": "MUR 180,000 \u2013 320,000 / Year",
+          "desc": "Bilingual public university partnering with French universities to offer internationally accredited dual qualifications.",
+          "img": uniImg2
+        },
+        {
+          "name": "University of Technology, Mauritius (UTM)",
+          "location": "La Tour Koenig, Mauritius",
+          "fee": "MUR 160,000 \u2013 280,000 / Year",
+          "desc": "Dynamic public institution recognized for cutting-edge programs in technology, applied management, healthcare, and sustainable development.",
+          "img": uniImg1
+        },
+        {
+          "name": "Middlesex University Mauritius",
+          "location": "Flic en Flac, Mauritius",
+          "fee": "MUR 250,000 \u2013 450,000 / Year",
+          "desc": "Accredited British branch campus delivering internationally recognized undergraduate and postgraduate degrees in coastal Mauritius.",
+          "img": uniImg2
+        },
+        {
+          "name": "Curtin Mauritius",
+          "location": "Moka, Mauritius",
+          "fee": "MUR 280,000 \u2013 420,000 / Year",
+          "desc": "Premier Australian branch university known for high academic standards in commerce, design, health, and humanities.",
+          "img": uniImg1
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and student visa requirements before submitting their applications."
+        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
       ]
     },
     {
@@ -389,26 +452,59 @@ const page = {
       ]
     }
   ],
+  "universities": [
+    {
+      "name": "University of Mauritius (UoM)",
+      "location": "Reduit, Mauritius",
+      "fee": "MUR 150,000 \u2013 350,000 / Year",
+      "desc": "The flagship national university of Mauritius offering premier degree programs in health sciences, engineering, agriculture, and business.",
+      "img": uniImg1
+    },
+    {
+      "name": "Universit\u00e9 des Mascareignes (UdM)",
+      "location": "Rose Hill, Mauritius",
+      "fee": "MUR 180,000 \u2013 320,000 / Year",
+      "desc": "Bilingual public university partnering with French universities to offer internationally accredited dual qualifications.",
+      "img": uniImg2
+    },
+    {
+      "name": "University of Technology, Mauritius (UTM)",
+      "location": "La Tour Koenig, Mauritius",
+      "fee": "MUR 160,000 \u2013 280,000 / Year",
+      "desc": "Dynamic public institution recognized for cutting-edge programs in technology, applied management, healthcare, and sustainable development.",
+      "img": uniImg1
+    },
+    {
+      "name": "Middlesex University Mauritius",
+      "location": "Flic en Flac, Mauritius",
+      "fee": "MUR 250,000 \u2013 450,000 / Year",
+      "desc": "Accredited British branch campus delivering internationally recognized undergraduate and postgraduate degrees in coastal Mauritius.",
+      "img": uniImg2
+    },
+    {
+      "name": "Curtin Mauritius",
+      "location": "Moka, Mauritius",
+      "fee": "MUR 280,000 \u2013 420,000 / Year",
+      "desc": "Premier Australian branch university known for high academic standards in commerce, design, health, and humanities.",
+      "img": uniImg1
+    }
+  ],
   "faqs": [
     {
-      "q": "Can Indian students study biotechnology in Mauritius?",
-      "a": "Indian students can explore biotechnology-related programmes, subject to the institution's international admission requirements, academic eligibility and intake availability. Edu-Hawk Worldwide can help students understand the admission considerations for Biotechnology in Mauritius for Indian Students."
+      "q": "Can Indian students apply for Biotechnology in Mauritius?",
+      "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
     },
     {
-      "q": "How long does it take to study biotechnology in Mauritius?",
-      "a": "The University of Mauritius lists its BSc (Hons) Pharmaceutical Biotechnology as a 3.5-year full-time programme. The University of Technology, Mauritius, lists its Diploma in Industrial Biotechnology as two years full-time or three years part-time."
+      "q": "What is the medium of instruction for Biotechnology in Mauritius?",
+      "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
     },
     {
-      "q": "What is the cost of studying biotechnology in Mauritius?",
-      "a": "Fees vary by programme and student category. Obtain a current international-student fee schedule from the institution, including tuition, registration, laboratory expenses and other compulsory costs."
+      "q": "What are the typical tuition fees for Biotechnology in Mauritius?",
+      "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
     },
     {
-      "q": "What are the career options after biotechnology?",
-      "a": "Graduates may explore pharmaceutical production, laboratory testing, food technology, agricultural biotechnology, environmental testing and research support. Advanced research and specialised positions may require postgraduate qualifications."
-    },
-    {
-      "q": "Is a biotechnology degree from Mauritius recognised in India?",
-      "a": "Recognition depends on the institution, awarding body, programme and the requirements applicable to the intended job or further study. Before enrolling, verify the qualification with the relevant Indian university, employer or regulatory authority, particularly if the course is a specialised professional programme."
+      "q": "Is a student visa required for Indian students?",
+      "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

@@ -7,13 +7,18 @@ import heroBgImg from "../../../../Images/Abroad/Mauritius/MBA/hero_bg.webp";
 import sideImg from "../../../../Images/Abroad/Mauritius/MBA/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Mauritius/MBA/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../Images/Abroad/Mauritius/MBA/image1.png";
+import uniImg2 from "../../../../Images/Abroad/Mauritius/MBA/image2.png";
+import uniImg3 from "../../../../Images/Abroad/Mauritius/MBA/image3.png";
+
 const page = {
-  "name": "MBA in Mauritius",
+  "name": "MBA",
   "country": "Mauritius",
   "slug": "mba",
-  "title": "M.B.A. in Mauritius for Indian Students | Edu-Hawk Worldwide",
+  "title": "MBA in Mauritius for Indian Students | Edu-Hawk Worldwide",
   "description": "Study MBA in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study MBA in Mauritius, MBA in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius MBA in Mauritius Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
+  "keywords": "Study MBA in Mauritius, MBA in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius MBA Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
   "introTitle": "MBA in Mauritius for Indian Students",
   "heroParas": [
     "An **MBA in Mauritius for Indian Students** is a postgraduate business qualification for graduates and professionals who wish to improve their leadership, strategic thinking, financial management and decision making skills. Students can opt for general MBA programs or specializations in marketing, finance, human resources, international business and business analytics. Choosing to **Study MBA in Mauritius** gives students an opportunity to explore business education in an international environment while developing management and leadership skills."
@@ -25,20 +30,42 @@ const page = {
   "crumb": "MBA",
   "stats": [
     {
-      "label": "Degree Choices",
-      "value": "Master of Business Administration"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "label": "Language of Study",
-      "value": "English & Bilingual"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "label": "Top Institutions",
-      "value": "UoM, UTM, UdM & Middlesex"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "label": "Indicative Fees",
-      "value": "MUR 150,000 \u2013 MUR 350,000 / Year"
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
     }
   ],
   "sections": [
@@ -122,39 +149,83 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Best Universities for MBA in Mauritius",
-      "lead": "Explore leading universities and institutions in Mauritius offering accredited MBA in Mauritius programmes, modern campuses, and international student support.",
+      "lead": "Explore leading universities and institutions in Mauritius offering accredited MBA programmes, modern campuses, and international student support.",
+      "unis": [
+        {
+          "name": "University of Mauritius (UoM)",
+          "location": "Reduit, Mauritius",
+          "fee": "MUR 150,000 \u2013 350,000 / Year",
+          "desc": "The flagship national university of Mauritius offering premier degree programs in health sciences, engineering, agriculture, and business.",
+          "img": uniImg1
+        },
+        {
+          "name": "Universit\u00e9 des Mascareignes (UdM)",
+          "location": "Rose Hill, Mauritius",
+          "fee": "MUR 180,000 \u2013 320,000 / Year",
+          "desc": "Bilingual public university partnering with French universities to offer internationally accredited dual qualifications.",
+          "img": uniImg2
+        },
+        {
+          "name": "University of Technology, Mauritius (UTM)",
+          "location": "La Tour Koenig, Mauritius",
+          "fee": "MUR 160,000 \u2013 280,000 / Year",
+          "desc": "Dynamic public institution recognized for cutting-edge programs in technology, applied management, healthcare, and sustainable development.",
+          "img": uniImg3
+        },
+        {
+          "name": "Middlesex University Mauritius",
+          "location": "Flic en Flac, Mauritius",
+          "fee": "MUR 250,000 \u2013 450,000 / Year",
+          "desc": "Accredited British branch campus delivering internationally recognized undergraduate and postgraduate degrees in coastal Mauritius.",
+          "img": uniImg1
+        },
+        {
+          "name": "Curtin Mauritius",
+          "location": "Moka, Mauritius",
+          "fee": "MUR 280,000 \u2013 420,000 / Year",
+          "desc": "Premier Australian branch university known for high academic standards in commerce, design, health, and humanities.",
+          "img": uniImg2
+        }
+      ],
       "unis_data": [
         {
-          "name": "Middlesex University, Mauritius",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "Offers a general MBA and specialized tracks in Finance, Marketing and Artificial Intelligence & Business Analytics. The 2026-27 program is listed as one year full-time or two years part-time, with international tuition of \u00a310,300.",
-          "img_var": "null"
+          "name": "University of Mauritius (UoM)",
+          "location": "Reduit, Mauritius",
+          "fee": "MUR 150,000 \u2013 350,000 / Year",
+          "desc": "The flagship national university of Mauritius offering premier degree programs in health sciences, engineering, agriculture, and business.",
+          "img": uniImg1
         },
         {
-          "name": "University of Mauritius",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "Provides a two-year part-time MBA with specializations in Human Capital Management, Financial Services and Marketing 2026\u201327. Please contact the university for applicable entry requirements and tuition fees.",
-          "img_var": "null"
+          "name": "Universit\u00e9 des Mascareignes (UdM)",
+          "location": "Rose Hill, Mauritius",
+          "fee": "MUR 180,000 \u2013 320,000 / Year",
+          "desc": "Bilingual public university partnering with French universities to offer internationally accredited dual qualifications.",
+          "img": uniImg2
         },
         {
-          "name": "Mauritius Open University",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "Flexible MBA General through open and distance learning. Minimum duration: 2 years. Maximum duration: 4 years. The published fee for international non-SADC students is US\\$ 6,845 for the full program.",
-          "img_var": "null"
+          "name": "University of Technology, Mauritius (UTM)",
+          "location": "La Tour Koenig, Mauritius",
+          "fee": "MUR 160,000 \u2013 280,000 / Year",
+          "desc": "Dynamic public institution recognized for cutting-edge programs in technology, applied management, healthcare, and sustainable development.",
+          "img": uniImg3
         },
         {
-          "name": "Amity Institute of Higher Education (AIM)",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "Offers 16-month full-time MBA and Executive MBA conferred by the institute. International full-programme fee is US\\$3,000. Amity also has online MBA routes in areas like international business, marketing and human resources. Ensure recognition and specific program delivery mode before enrollment. When comparing MBA Universities in Mauritius, students should consider programme recognition, teaching format, specializations, duration and overall expenses. The right institution for an MBA in Mauritius for Indian Students will depend on the student's academic profile, budget and future career plans.",
-          "img_var": "null"
+          "name": "Middlesex University Mauritius",
+          "location": "Flic en Flac, Mauritius",
+          "fee": "MUR 250,000 \u2013 450,000 / Year",
+          "desc": "Accredited British branch campus delivering internationally recognized undergraduate and postgraduate degrees in coastal Mauritius.",
+          "img": uniImg1
+        },
+        {
+          "name": "Curtin Mauritius",
+          "location": "Moka, Mauritius",
+          "fee": "MUR 280,000 \u2013 420,000 / Year",
+          "desc": "Premier Australian branch university known for high academic standards in commerce, design, health, and humanities.",
+          "img": uniImg2
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and student visa requirements before submitting their applications."
+        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
       ]
     },
     {
@@ -229,8 +300,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "The overall cost will depend on the institution, length of the course, mode of study, accommodation and lifestyle. Students planning to **Study MBA in Mauritius** should compare the total programme fees as well as their expected monthly living expenses.",
-            "**MBA tuition costs**"
+            "The overall cost will depend on the institution, length of the course, mode of study, accommodation and lifestyle. Students planning to **Study MBA in Mauritius** should compare the total programme fees as well as their expected monthly living expenses."
           ]
         },
         {
@@ -267,7 +337,6 @@ const page = {
           "t": "p",
           "items": [
             "INR conversions are approximate, using \u00a31 \u2248 Rs 116 and US\\$1 \u2248 Rs 87\\. Fees are based on published program information at time of writing and are subject to change. If there are any other administrative, registration, examination or other fees, please confirm.",
-            "**Monthly living costs**",
             "Students should budget for separate costs for accommodation, food, transport, utilities, internet, study materials and personal expenses. Preliminary planning estimate is MUR 15,000\u201330,000 per month, around \u20b930,000\u2013\u20b960,000. Actual costs vary depending on lifestyle and accommodation. Before you travel, check what accommodation is available and what the financial requirements are.",
             "The **Cost of MBA in Mauritius** should be evaluated by considering both tuition fees and living expenses. Students comparing the **Cost of MBA in Mauritius** across universities should also check payment schedules, additional charges and the total duration of their selected programme."
           ]
@@ -397,26 +466,59 @@ const page = {
       ]
     }
   ],
+  "universities": [
+    {
+      "name": "University of Mauritius (UoM)",
+      "location": "Reduit, Mauritius",
+      "fee": "MUR 150,000 \u2013 350,000 / Year",
+      "desc": "The flagship national university of Mauritius offering premier degree programs in health sciences, engineering, agriculture, and business.",
+      "img": uniImg1
+    },
+    {
+      "name": "Universit\u00e9 des Mascareignes (UdM)",
+      "location": "Rose Hill, Mauritius",
+      "fee": "MUR 180,000 \u2013 320,000 / Year",
+      "desc": "Bilingual public university partnering with French universities to offer internationally accredited dual qualifications.",
+      "img": uniImg2
+    },
+    {
+      "name": "University of Technology, Mauritius (UTM)",
+      "location": "La Tour Koenig, Mauritius",
+      "fee": "MUR 160,000 \u2013 280,000 / Year",
+      "desc": "Dynamic public institution recognized for cutting-edge programs in technology, applied management, healthcare, and sustainable development.",
+      "img": uniImg3
+    },
+    {
+      "name": "Middlesex University Mauritius",
+      "location": "Flic en Flac, Mauritius",
+      "fee": "MUR 250,000 \u2013 450,000 / Year",
+      "desc": "Accredited British branch campus delivering internationally recognized undergraduate and postgraduate degrees in coastal Mauritius.",
+      "img": uniImg1
+    },
+    {
+      "name": "Curtin Mauritius",
+      "location": "Moka, Mauritius",
+      "fee": "MUR 280,000 \u2013 420,000 / Year",
+      "desc": "Premier Australian branch university known for high academic standards in commerce, design, health, and humanities.",
+      "img": uniImg2
+    }
+  ],
   "faqs": [
     {
-      "q": "Duration of MBA in Mauritius?",
-      "a": "Length: Varies by university and mode of study. Middlesex University Mauritius delivers the course in one year full time or two years part time. The University of Mauritius describes its MBA as a two-year part-time program, and the Open University of Mauritius offers a flexible two-to-four year route."
+      "q": "Can Indian students apply for MBA in Mauritius?",
+      "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
     },
     {
-      "q": "How much does an MBA cost in Mauritius?",
-      "a": "Published examples start at US$3,000forAmity\u2019sMBAandgoupto\u00a310,300forMiddlesexUniversityMauritius\u2019sinternationalMBA.TheOpenUniversityofMauritiusMBAGeneralispricedatUS$6,845 for international students from outside the SADC. These fees have different program structures and need to be compared carefully. Students should also consider living expenses when calculating the overall Cost of MBA in Mauritius."
+      "q": "What is the medium of instruction for MBA in Mauritius?",
+      "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
     },
     {
-      "q": "Can the Indian students apply for MBA in Mauritius?",
-      "a": "Indian students can apply if they meet the academic, English language and other entry requirements of the chosen university. They should also verify the applicable international fee category and student-permit process before accepting an offer. An MBA in Mauritius for Indian Students can be considered by graduates who meet the programme-specific admission criteria."
+      "q": "What are the typical tuition fees for MBA in Mauritius?",
+      "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
     },
     {
-      "q": "Is work experience a mandatory requirement for an MBA in Mauritius?",
-      "a": "Not always. Requirements differ from university to university and program to program. Some MBA programs will look at graduates with little work experience, others will expect relevant professional or management experience. Please check the exact entry requirements when applying."
-    },
-    {
-      "q": "Which is the best university for MBA in Mauritius?",
-      "a": "The best choice will depend on your budget, preferred mode of study, specialization, entry qualifications and career aspirations. Middlesex University Mauritius has specialist MBA pathways while the University of Mauritius offers a number of part-time options, the Open University of Mauritius has a flexible distance-learning route and Amity lists full-time and online options. Before you decide, check out program recognition, curriculum, total cost and admission requirements. Students should compare the available MBA Programs in Mauritius and review the course structure, tuition fees and recognition before making a final decision. Exploring different MBA Universities in Mauritius can help applicants find a programme that supports their professional goals. Plan Your MBA Journey with Edu-Hawk Worldwide Choosing the right MBA requires careful consideration of university recognition, programme structure, specializations, tuition fees and admission requirements. Edu-Hawk Worldwide helps Indian students explore suitable international education options and understand the application process for an MBA in Mauritius for Indian Students."
+      "q": "Is a student visa required for Indian students?",
+      "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

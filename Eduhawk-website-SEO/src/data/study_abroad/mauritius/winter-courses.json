@@ -5,71 +5,105 @@
   },
   "hero": {
     "badge": "Study Abroad - Mauritius",
-    "title": "Winter Courses in Mauritius",
-    "subtitle": "**Winter Courses in Mauritius** can be a useful way for students and working professionals to develop practical skills, explore new subjects, and make productive use of a study break. Short courses may cover technology, business, engineering software, sustainability, communication, and other professional topics. These **winter short courses in Mauritius** provide opportunities to learn new skills without committing to a full degree programme.",
-    "ctaText": "Book Free Counselling",
-    "image": ""
+    "title": "Winter Courses in Mauritius for Indian Students",
+    "paras": [
+      "**Winter Courses in Mauritius** can be a useful way for students and working professionals to develop practical skills, explore new subjects, and make productive use of a study break. Short courses may cover technology, business, engineering software, sustainability, communication, and other professional topics. These **winter short courses in Mauritius** provide opportunities to learn new skills without committing to a full degree programme."
+    ]
   },
   "stats": [
     {
-      "n": "1000+",
-      "l": "Students Placed Globally"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "n": "20+",
-      "l": "Countries"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "n": "200+",
-      "l": "Partner Universities"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "n": "100%",
-      "l": "Support (Visa & Post-Study Work Guidance)"
+      "val": "Permitted",
+      "label": "Part-Time Work"
     }
   ],
-  "highlights": {
-    "degree": "Short-term / Winter Programmes",
-    "duration": "3\u20134 Yrs (UG) / 1.5\u20132 Yrs (PG)",
-    "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-    "eligibility": "Class 12 / Bachelor's degree + English proficiency",
-    "medium": "English / Bilingual"
-  },
-  "overview": "In Mauritius, winter learning opportunities are generally advertised as short courses, professional development programmes, or technical training, rather than as one standardised winter-school programme. The University of Mauritius publishes short-course opportunities throughout the year, including programmes scheduled for November and December 2026\\. Students exploring **winter courses in Mauritius for international students** can review the available programmes and confirm their eligibility with the relevant institution.",
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
+    }
+  ],
+  "overview": [
+    "In Mauritius, winter learning opportunities are generally advertised as short courses, professional development programmes, or technical training, rather than as one standardised winter-school programme. The University of Mauritius publishes short-course opportunities throughout the year, including programmes scheduled for November and December 2026\\. Students exploring **winter courses in Mauritius for international students** can review the available programmes and confirm their eligibility with the relevant institution."
+  ],
   "universities": [
     {
-      "name": "University of Mauritius",
-      "location": "Mauritius",
-      "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-      "image": ""
+      "name": "University of Mauritius (UoM)",
+      "location": "Reduit, Mauritius",
+      "fee": "MUR 150,000 – 350,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/WinterCourses/image1.png"
     },
     {
-      "name": "Institute of Technical Education and Technology (ITET)",
-      "location": "Mauritius",
-      "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-      "image": ""
+      "name": "Université des Mascareignes (UdM)",
+      "location": "Rose Hill, Mauritius",
+      "fee": "MUR 180,000 – 320,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/WinterCourses/image2.png"
+    },
+    {
+      "name": "University of Technology, Mauritius (UTM)",
+      "location": "La Tour Koenig, Mauritius",
+      "fee": "MUR 160,000 – 280,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/WinterCourses/image1.png"
+    },
+    {
+      "name": "Middlesex University Mauritius",
+      "location": "Flic en Flac, Mauritius",
+      "fee": "MUR 250,000 – 450,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/WinterCourses/image2.png"
+    },
+    {
+      "name": "Curtin Mauritius",
+      "location": "Moka, Mauritius",
+      "fee": "MUR 280,000 – 420,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/WinterCourses/image1.png"
     }
   ],
-  "faq": [
-    {
-      "question": "When are winter courses held in Mauritius?",
-      "answer": "Winter-related short courses may be scheduled during November and December, although there is no single calendar covering every provider. The University of Mauritius has published courses scheduled for November and December 2026\\."
-    },
-    {
-      "question": "Which subjects can I study during winter courses in Mauritius?",
-      "answer": "Options may include AI, cybersecurity, engineering software, sustainability, renewable energy, business management, and technical skills. The exact selection depends on the institution and intake."
-    },
-    {
-      "question": "Are winter courses in Mauritius free?",
-      "answer": "Some holiday training programmes may be free, while university and professional short courses may charge tuition or registration fees. Check the individual course announcement for the applicable fee."
-    },
-    {
-      "question": "Can international students apply for winter courses in Mauritius?",
-      "answer": "Potentially, but eligibility depends on the provider and course. International applicants should confirm that overseas enrolment is permitted and check any relevant immigration requirements before travelling. Students researching winter courses in Mauritius for international students should contact the institution for confirmation."
-    },
-    {
-      "question": "Do winter courses in Mauritius provide certificates?",
-      "answer": "Certificate arrangements depend on the course and institution. Before enrolling, ask whether a certificate is issued, whether attendance requirements apply, and whether the qualification has any formal accreditation. Winter Courses in Mauritius can help students and working professionals develop practical knowledge, explore new subjects and strengthen their professional profiles. Before enrolling, compare course content, eligibility, duration, fees and certificate arrangements. Learners interested in winter short courses in Mauritius should always refer to the official course information and confirm the latest admission details with their chosen institution."
-    }
-  ]
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "Can Indian students apply for Winter Courses in Mauritius?",
+        "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
+      },
+      {
+        "q": "What is the medium of instruction for Winter Courses in Mauritius?",
+        "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
+      },
+      {
+        "q": "What are the typical tuition fees for Winter Courses in Mauritius?",
+        "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
+      },
+      {
+        "q": "Is a student visa required for Indian students?",
+        "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
+      }
+    ]
+  }
 }

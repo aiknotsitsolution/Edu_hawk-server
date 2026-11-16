@@ -5,89 +5,105 @@
   },
   "hero": {
     "badge": "Study Abroad - Mauritius",
-    "title": "Physiotherapy in Mauritius",
-    "subtitle": "**Physiotherapy in Mauritius for Indian Students** is a healthcare study pathway for students interested in rehabilitation, movement science, injury recovery and improving patients\u2019 mobility and quality of life. The country has a university-based physiotherapy programme historically documented by the University of Mauritius, alongside training in physiotherapy assistance. Students planning to **Study Physiotherapy in Mauritius** should understand the available qualifications and their professional outcomes.",
-    "ctaText": "Book Free Counselling",
-    "image": ""
+    "title": "Physiotherapy in Mauritius for Indian Students",
+    "paras": [
+      "**Physiotherapy in Mauritius for Indian Students** is a healthcare study pathway for students interested in rehabilitation, movement science, injury recovery and improving patients’ mobility and quality of life. The country has a university-based physiotherapy programme historically documented by the University of Mauritius, alongside training in physiotherapy assistance. Students planning to **Study Physiotherapy in Mauritius** should understand the available qualifications and their professional outcomes."
+    ]
   },
   "stats": [
     {
-      "n": "1000+",
-      "l": "Students Placed Globally"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "n": "20+",
-      "l": "Countries"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "n": "200+",
-      "l": "Partner Universities"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "n": "100%",
-      "l": "Support (Visa & Post-Study Work Guidance)"
+      "val": "Permitted",
+      "label": "Part-Time Work"
     }
   ],
-  "highlights": {
-    "degree": "BPT / Physiotherapy",
-    "duration": "3\u20134 Yrs (UG) / 1.5\u20132 Yrs (PG)",
-    "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-    "eligibility": "Class 12 / Bachelor's degree + English proficiency",
-    "medium": "English / Bilingual"
-  },
-  "overview": "The Allied Health Professionals Council (AHPC) of Mauritius regulates physiotherapists and publishes professional registration requirements. Before applying, students should confirm the current course intake, fees, clinical placement arrangements and recognition of the qualification. **Edu-Hawk Worldwide** encourages students to verify these details before selecting a programme.",
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
+    }
+  ],
+  "overview": [
+    "The Allied Health Professionals Council (AHPC) of Mauritius regulates physiotherapists and publishes professional registration requirements. Before applying, students should confirm the current course intake, fees, clinical placement arrangements and recognition of the qualification. **Edu-Hawk Worldwide** encourages students to verify these details before selecting a programme."
+  ],
   "universities": [
     {
       "name": "University of Mauritius (UoM)",
       "location": "Reduit, Mauritius",
-      "fee": "MUR 150,000 \u2013 350,000 / Year",
-      "image": ""
+      "fee": "MUR 150,000 – 350,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/Physiotherapy/image1.png"
     },
     {
-      "name": "Universit\u00e9 des Mascareignes (UdM)",
+      "name": "Université des Mascareignes (UdM)",
       "location": "Rose Hill, Mauritius",
-      "fee": "MUR 180,000 \u2013 320,000 / Year",
-      "image": ""
+      "fee": "MUR 180,000 – 320,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/Physiotherapy/image2.png"
     },
     {
       "name": "University of Technology, Mauritius (UTM)",
       "location": "La Tour Koenig, Mauritius",
-      "fee": "MUR 160,000 \u2013 280,000 / Year",
-      "image": ""
+      "fee": "MUR 160,000 – 280,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/Physiotherapy/image3.png"
     },
     {
       "name": "Middlesex University Mauritius",
       "location": "Flic en Flac, Mauritius",
-      "fee": "MUR 250,000 \u2013 450,000 / Year",
-      "image": ""
+      "fee": "MUR 250,000 – 450,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/Physiotherapy/image1.png"
     },
     {
       "name": "Curtin Mauritius",
       "location": "Moka, Mauritius",
-      "fee": "MUR 280,000 \u2013 420,000 / Year",
-      "image": ""
+      "fee": "MUR 280,000 – 420,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/Physiotherapy/image2.png"
     }
   ],
-  "faq": [
-    {
-      "question": "Can Indian students study physiotherapy in Mauritius?",
-      "answer": "Indian students can explore eligible programmes, but must confirm international admission eligibility, current intake availability and recognition of the exact qualification. Edu-Hawk Worldwide can help students understand the admission considerations for Physiotherapy in Mauritius for Indian Students."
-    },
-    {
-      "question": "How many years does it take to study physiotherapy in Mauritius?",
-      "answer": "The University of Mauritius has published a four-year, full-time BSc (Hons) Physiotherapy programme structure. Confirm whether the programme is currently admitting students and whether its duration or structure has changed."
-    },
-    {
-      "question": "What is the cost of studying physiotherapy in Mauritius?",
-      "answer": "The total cost depends on the institution, programme and student status. Request official tuition fees, accommodation costs and clinical-training charges before making a financial decision."
-    },
-    {
-      "question": "Can I work as a physiotherapist in Mauritius after graduation?",
-      "answer": "You must satisfy the applicable professional registration requirements. The Allied Health Professionals Council regulates physiotherapists and publishes the relevant professional regulations."
-    },
-    {
-      "question": "Is a physiotherapy degree from Mauritius recognised in India?",
-      "answer": "Recognition is not automatic. Before enrolling, check the current requirements with the relevant Indian authorities and professional bodies for foreign physiotherapy qualifications and registration. Confirm the status of the exact institution and programme rather than relying on general claims about international recognition."
-    }
-  ]
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "Can Indian students apply for Physiotherapy in Mauritius?",
+        "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
+      },
+      {
+        "q": "What is the medium of instruction for Physiotherapy in Mauritius?",
+        "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
+      },
+      {
+        "q": "What are the typical tuition fees for Physiotherapy in Mauritius?",
+        "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
+      },
+      {
+        "q": "Is a student visa required for Indian students?",
+        "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
+      }
+    ]
+  }
 }

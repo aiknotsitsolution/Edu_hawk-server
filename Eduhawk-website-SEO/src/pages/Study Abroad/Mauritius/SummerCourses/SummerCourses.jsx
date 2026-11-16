@@ -7,13 +7,18 @@ import heroBgImg from "../../../../Images/Abroad/Mauritius/SummerCourses/hero_bg
 import sideImg from "../../../../Images/Abroad/Mauritius/SummerCourses/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Mauritius/SummerCourses/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../Images/Abroad/Mauritius/SummerCourses/image1.png";
+import uniImg2 from "../../../../Images/Abroad/Mauritius/SummerCourses/image2.png";
+import uniImg3 from "../../../../Images/Abroad/Mauritius/SummerCourses/image3.png";
+
 const page = {
-  "name": "Summer Courses in Mauritius",
+  "name": "Summer Courses",
   "country": "Mauritius",
   "slug": "summer-courses",
   "title": "Summer Courses in Mauritius for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Summer Courses in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study Summer Courses in Mauritius, Summer Courses in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Summer Courses in Mauritius Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
+  "keywords": "Study Summer Courses in Mauritius, Summer Courses in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Summer Courses Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
   "introTitle": "Summer Courses in Mauritius for Indian Students",
   "heroParas": [
     "**Summer Courses in Mauritius** offer students, young adults and working professionals the opportunity to acquire new skills, explore academic interests and gain practical experience during a short break from regular studies or work. These courses can span from technology and business to communication, languages, design, tourism and professional development, depending on the institution and the program. **Summer Courses in Mauritius** are suitable for learners who want to develop practical knowledge without enrolling in a full-time degree. The available **summer short courses in Mauritius** can help learners explore different subjects and build skills for their academic or professional goals."
@@ -25,20 +30,42 @@ const page = {
   "crumb": "Summer Courses",
   "stats": [
     {
-      "label": "Degree Choices",
-      "value": "Short-term / Summer Programmes"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "label": "Language of Study",
-      "value": "English & Bilingual"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "label": "Top Institutions",
-      "value": "UoM, UTM, UdM & Middlesex"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "label": "Indicative Fees",
-      "value": "MUR 150,000 \u2013 MUR 350,000 / Year"
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
     }
   ],
   "sections": [
@@ -114,32 +141,83 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Top Universities Offering Summer and Short Courses in Mauritius",
-      "lead": "Explore leading universities and institutions in Mauritius offering accredited Summer Courses in Mauritius programmes, modern campuses, and international student support.",
+      "lead": "Explore leading universities and institutions in Mauritius offering accredited Summer Courses programmes, modern campuses, and international student support.",
+      "unis": [
+        {
+          "name": "University of Mauritius (UoM)",
+          "location": "Reduit, Mauritius",
+          "fee": "MUR 150,000 \u2013 350,000 / Year",
+          "desc": "The flagship national university of Mauritius offering premier degree programs in health sciences, engineering, agriculture, and business.",
+          "img": uniImg1
+        },
+        {
+          "name": "Universit\u00e9 des Mascareignes (UdM)",
+          "location": "Rose Hill, Mauritius",
+          "fee": "MUR 180,000 \u2013 320,000 / Year",
+          "desc": "Bilingual public university partnering with French universities to offer internationally accredited dual qualifications.",
+          "img": uniImg2
+        },
+        {
+          "name": "University of Technology, Mauritius (UTM)",
+          "location": "La Tour Koenig, Mauritius",
+          "fee": "MUR 160,000 \u2013 280,000 / Year",
+          "desc": "Dynamic public institution recognized for cutting-edge programs in technology, applied management, healthcare, and sustainable development.",
+          "img": uniImg3
+        },
+        {
+          "name": "Middlesex University Mauritius",
+          "location": "Flic en Flac, Mauritius",
+          "fee": "MUR 250,000 \u2013 450,000 / Year",
+          "desc": "Accredited British branch campus delivering internationally recognized undergraduate and postgraduate degrees in coastal Mauritius.",
+          "img": uniImg1
+        },
+        {
+          "name": "Curtin Mauritius",
+          "location": "Moka, Mauritius",
+          "fee": "MUR 280,000 \u2013 420,000 / Year",
+          "desc": "Premier Australian branch university known for high academic standards in commerce, design, health, and humanities.",
+          "img": uniImg2
+        }
+      ],
       "unis_data": [
         {
-          "name": "Institute of Technical Education and Technology (ITET)",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "ITET has declared free Summer Short Courses for 2026 from 10 November to 18 December. The topics cover communication, cybersecurity, graphic design, computer assembly, emerging technologies, and smart agriculture. Courses are one day long, from 8:30 a.m. to 4 p.m., and include a certificate, the announcement says.",
-          "img_var": "null"
+          "name": "University of Mauritius (UoM)",
+          "location": "Reduit, Mauritius",
+          "fee": "MUR 150,000 \u2013 350,000 / Year",
+          "desc": "The flagship national university of Mauritius offering premier degree programs in health sciences, engineering, agriculture, and business.",
+          "img": uniImg1
         },
         {
-          "name": "University of Mauritius",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "It has short courses and professional development programs in AI automation, AutoCAD, project management, sustainability, and photovoltaic energy systems. These are offered at different times of the year, rather than as a single summer school.",
-          "img_var": "null"
+          "name": "Universit\u00e9 des Mascareignes (UdM)",
+          "location": "Rose Hill, Mauritius",
+          "fee": "MUR 180,000 \u2013 320,000 / Year",
+          "desc": "Bilingual public university partnering with French universities to offer internationally accredited dual qualifications.",
+          "img": uniImg2
         },
         {
-          "name": "Middlesex University, Mauritius",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "Offers short learning courses that develop practical, workplace-ready skills and help with professional development. Check its current catalog for programs that match your interests and preferred timetable.",
-          "img_var": "null"
+          "name": "University of Technology, Mauritius (UTM)",
+          "location": "La Tour Koenig, Mauritius",
+          "fee": "MUR 160,000 \u2013 280,000 / Year",
+          "desc": "Dynamic public institution recognized for cutting-edge programs in technology, applied management, healthcare, and sustainable development.",
+          "img": uniImg3
+        },
+        {
+          "name": "Middlesex University Mauritius",
+          "location": "Flic en Flac, Mauritius",
+          "fee": "MUR 250,000 \u2013 450,000 / Year",
+          "desc": "Accredited British branch campus delivering internationally recognized undergraduate and postgraduate degrees in coastal Mauritius.",
+          "img": uniImg1
+        },
+        {
+          "name": "Curtin Mauritius",
+          "location": "Moka, Mauritius",
+          "fee": "MUR 280,000 \u2013 420,000 / Year",
+          "desc": "Premier Australian branch university known for high academic standards in commerce, design, health, and humanities.",
+          "img": uniImg2
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and student visa requirements before submitting their applications."
+        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
       ]
     },
     {
@@ -320,26 +398,59 @@ const page = {
       ]
     }
   ],
+  "universities": [
+    {
+      "name": "University of Mauritius (UoM)",
+      "location": "Reduit, Mauritius",
+      "fee": "MUR 150,000 \u2013 350,000 / Year",
+      "desc": "The flagship national university of Mauritius offering premier degree programs in health sciences, engineering, agriculture, and business.",
+      "img": uniImg1
+    },
+    {
+      "name": "Universit\u00e9 des Mascareignes (UdM)",
+      "location": "Rose Hill, Mauritius",
+      "fee": "MUR 180,000 \u2013 320,000 / Year",
+      "desc": "Bilingual public university partnering with French universities to offer internationally accredited dual qualifications.",
+      "img": uniImg2
+    },
+    {
+      "name": "University of Technology, Mauritius (UTM)",
+      "location": "La Tour Koenig, Mauritius",
+      "fee": "MUR 160,000 \u2013 280,000 / Year",
+      "desc": "Dynamic public institution recognized for cutting-edge programs in technology, applied management, healthcare, and sustainable development.",
+      "img": uniImg3
+    },
+    {
+      "name": "Middlesex University Mauritius",
+      "location": "Flic en Flac, Mauritius",
+      "fee": "MUR 250,000 \u2013 450,000 / Year",
+      "desc": "Accredited British branch campus delivering internationally recognized undergraduate and postgraduate degrees in coastal Mauritius.",
+      "img": uniImg1
+    },
+    {
+      "name": "Curtin Mauritius",
+      "location": "Moka, Mauritius",
+      "fee": "MUR 280,000 \u2013 420,000 / Year",
+      "desc": "Premier Australian branch university known for high academic standards in commerce, design, health, and humanities.",
+      "img": uniImg2
+    }
+  ],
   "faqs": [
     {
-      "q": "What is the 2026 summer course in Mauritius?",
-      "a": "ITET has announced Summer Short Courses from 10th November to 18th December 2026\\. Other providers may offer short courses at other times of the year. Students interested in summer short courses in Mauritius should check the official announcements for current schedules."
+      "q": "Can Indian students apply for Summer Courses in Mauritius?",
+      "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
     },
     {
-      "q": "Is summer course in Mauritius free of cost?",
-      "a": "Some are. The ITET Summer Short Courses announced for 2026 are reported as free. University and private-provider courses may charge tuition or registration fees. The summer course fees in Mauritius depend on the provider and selected program."
+      "q": "What is the medium of instruction for Summer Courses in Mauritius?",
+      "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
     },
     {
-      "q": "Who may apply for summer courses in Mauritius?",
-      "a": "Eligibility is program specific. The announced ITET courses are targeted at the 16+ age group which includes students, job seekers, young adults and working professionals. Applicants should review summer course eligibility in Mauritius before registering."
+      "q": "What are the typical tuition fees for Summer Courses in Mauritius?",
+      "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
     },
     {
-      "q": "What are the subjects I can study at summer courses in Mauritius?",
-      "a": "You can choose between communication, cybersecurity, graphic design, computer assembly, emerging technologies, smart agriculture, AI, project management and technical design software. Availability depends on provider and schedule."
-    },
-    {
-      "q": "Do I get a certificate after finishing a summer course?",
-      "a": "ITET announcement reads, \u201cParticipants of the above summer short courses will be issued a certificate. Other program certificate arrangements are at the discretion of the individual provider.\u201d Summer Courses in Mauritius provide an opportunity for students, young adults and working professionals to explore new subjects and develop practical skills. Before applying, compare the course content, duration, eligibility, fees and certificate arrangements. Learners considering summer course admission in Mauritius should always check the latest information with the institution. With suitable planning, summer courses in Mauritius for international students can also offer an opportunity to explore short-term learning options while developing academic and professional interests."
+      "q": "Is a student visa required for Indian students?",
+      "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

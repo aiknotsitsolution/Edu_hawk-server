@@ -7,13 +7,16 @@ import heroBgImg from "../../../../../../Images/Abroad/Mauritius/Engineering_PG/
 import sideImg from "../../../../../../Images/Abroad/Mauritius/Engineering_PG/Chemical/side.webp";
 import ctaBgImg from "../../../../../../Images/Abroad/Mauritius/Engineering_PG/Chemical/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../../../Images/Abroad/Mauritius/Engineering_PG/Chemical/image1.png";
+
 const page = {
-  "name": "Chemical Engineering (PG) in Mauritius",
+  "name": "Chemical Engineering (PG)",
   "country": "Mauritius",
   "slug": "pg/chemical-engineering",
-  "title": "Master\u2019s in Chemical Engineering in Mauritius for Indian Students | Edu-Hawk Worldwide",
+  "title": "Chemical Engineering (PG) in Mauritius for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Chemical Engineering (PG) in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study Chemical Engineering (PG) in Mauritius, Chemical Engineering (PG) in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Chemical Engineering (PG) in Mauritius Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
+  "keywords": "Study Chemical Engineering (PG) in Mauritius, Chemical Engineering (PG) in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Chemical Engineering (PG) Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
   "introTitle": "Chemical Engineering (PG) in Mauritius for Indian Students",
   "heroParas": [
     "Developing advanced knowledge in sustainable engineering and industrial processes."
@@ -25,20 +28,42 @@ const page = {
   "crumb": "Engineering / PG Engineering",
   "stats": [
     {
-      "label": "Degree Choices",
-      "value": "M.Eng / M.Sc. Chemical Engineering"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "label": "Language of Study",
-      "value": "English & Bilingual"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "label": "Top Institutions",
-      "value": "UoM, UTM, UdM & Middlesex"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "label": "Indicative Fees",
-      "value": "MUR 150,000 \u2013 MUR 350,000 / Year"
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
     }
   ],
   "sections": [
@@ -116,18 +141,27 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Top Universities for Master\u2019s in Chemical Engineering in Mauritius",
-      "lead": "Explore leading universities and institutions in Mauritius offering accredited Chemical Engineering (PG) in Mauritius programmes, modern campuses, and international student support.",
+      "lead": "Explore leading universities and institutions in Mauritius offering accredited Chemical Engineering (PG) programmes, modern campuses, and international student support.",
+      "unis": [
+        {
+          "name": "University of Mauritius (UoM)",
+          "location": "University of Mauritius (UoM)",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "The University of Mauritius is an important starting point for engineering applicants. Its Department of Chemical and Environmental Engineering lists the BEng (Hons) Chemical Engineering for the 2026\u20132027 academic year. The department\u2019s postgraduate listing includes MSc Sustainable Energy Engineering with Environmental Management, but not a dedicated MSc Chemical Engineering in the published catalogue reviewed. Students researching **Chemical Engineering Universities in Mauritius** can consider the University of Mauritius for its engineering-related academic options. Before applying, review the programme structure and ask the university whether the modules match your goals in chemical processes, process design, industrial chemistry, materials or environmental engineering. For **Master\u2019s in Chemical Engineering in Mauritius for Indian Students**, checking the university's current postgraduate offerings and eligibility criteria is an important step.",
+          "img": uniImg1
+        }
+      ],
       "unis_data": [
         {
           "name": "University of Mauritius (UoM)",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "mauritius-life.com The University of Mauritius is an important starting point for engineering applicants. Its Department of Chemical and Environmental Engineering lists the BEng (Hons) Chemical Engineering for the 2026\u20132027 academic year. The department\u2019s postgraduate listing includes MSc Sustainable Energy Engineering with Environmental Management, but not a dedicated MSc Chemical Engineering in the published catalogue reviewed. Students researching Chemical Engineering Universities in Mauritius can consider the University of Mauritius for its engineering-related academic options. Before applying, review the programme structure and ask the university whether the modules match your goals in chemical processes, process design, industrial chemistry, materials or environmental engineering. For Master\u2019s in Chemical Engineering in Mauritius for Indian Students, checking the university's current postgraduate offerings and eligibility criteria is an important step.",
-          "img_var": "null"
+          "location": "University of Mauritius (UoM)",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "The University of Mauritius is an important starting point for engineering applicants. Its Department of Chemical and Environmental Engineering lists the BEng (Hons) Chemical Engineering for the 2026\u20132027 academic year. The department\u2019s postgraduate listing includes MSc Sustainable Energy Engineering with Environmental Management, but not a dedicated MSc Chemical Engineering in the published catalogue reviewed. Students researching **Chemical Engineering Universities in Mauritius** can consider the University of Mauritius for its engineering-related academic options. Before applying, review the programme structure and ask the university whether the modules match your goals in chemical processes, process design, industrial chemistry, materials or environmental engineering. For **Master\u2019s in Chemical Engineering in Mauritius for Indian Students**, checking the university's current postgraduate offerings and eligibility criteria is an important step.",
+          "img": uniImg1
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and student visa requirements before submitting their applications."
+        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
       ]
     },
     {
@@ -180,7 +214,6 @@ const page = {
           "t": "p",
           "items": [
             "Your overall budget will depend on tuition, housing, food, transportation and other costs. Because the exact Master\u2019s in Chemical Engineering programme is not listed in the reviewed catalogue, a verified tuition fee for that specific degree cannot be quoted. Students researching **Chemical Engineering Fees in Mauritius** should request the current fee structure directly from the university.",
-            "**Estimated living expenses**",
             "The University of Mauritius\u2019s published international-student regulations give an approximate figure of MUR 15,000 per month for accommodation and living expenses. Actual spending can vary, so the higher end of the following range is included for budgeting."
           ]
         },
@@ -343,26 +376,31 @@ const page = {
       ]
     }
   ],
+  "universities": [
+    {
+      "name": "University of Mauritius (UoM)",
+      "location": "University of Mauritius (UoM)",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "The University of Mauritius is an important starting point for engineering applicants. Its Department of Chemical and Environmental Engineering lists the BEng (Hons) Chemical Engineering for the 2026\u20132027 academic year. The department\u2019s postgraduate listing includes MSc Sustainable Energy Engineering with Environmental Management, but not a dedicated MSc Chemical Engineering in the published catalogue reviewed. Students researching **Chemical Engineering Universities in Mauritius** can consider the University of Mauritius for its engineering-related academic options. Before applying, review the programme structure and ask the university whether the modules match your goals in chemical processes, process design, industrial chemistry, materials or environmental engineering. For **Master\u2019s in Chemical Engineering in Mauritius for Indian Students**, checking the university's current postgraduate offerings and eligibility criteria is an important step.",
+      "img": uniImg1
+    }
+  ],
   "faqs": [
     {
-      "q": "Is a Master\u2019s in Chemical Engineering available in Mauritius?",
-      "a": "The University of Mauritius lists a BEng (Hons) Chemical Engineering at undergraduate level, but a dedicated Master\u2019s in Chemical Engineering does not appear in its published 2026\u20132027 postgraduate programme list. Students searching for Master\u2019s in Chemical Engineering in Mauritius for Indian Students should check related postgraduate options and confirm future programme availability directly with the university."
+      "q": "Can Indian students apply for Chemical Engineering (PG) in Mauritius?",
+      "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
     },
     {
-      "q": "Which related master\u2019s programme can I consider?",
-      "a": "The MSc Sustainable Energy Engineering with Environmental Management at the University of Mauritius may be worth exploring if your interests include energy systems and environmental sustainability. It is not the same qualification as a Master\u2019s in Chemical Engineering."
+      "q": "What is the medium of instruction for Chemical Engineering (PG) in Mauritius?",
+      "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
     },
     {
-      "q": "How much does it cost to live in Mauritius as a student?",
-      "a": "For initial planning, estimate around MUR 15,000\u201325,000 per month, or approximately \u20b930,000\u2013\u20b950,000 using the illustrative exchange rate in this article. Personal expenses may differ."
+      "q": "What are the typical tuition fees for Chemical Engineering (PG) in Mauritius?",
+      "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
     },
     {
-      "q": "Can Indian students apply for engineering-related postgraduate courses in Mauritius?",
-      "a": "Indian applicants can enquire about international admission, but eligibility, accepted qualifications, fees and any study-permit requirements depend on the institution and chosen course. Confirm these details before applying."
-    },
-    {
-      "q": "What jobs can I pursue after a related postgraduate qualification?",
-      "a": "Depending on your course and experience, you may explore process engineering, production, quality assurance, environmental management, energy sustainability or research roles. Check that the curriculum provides the technical preparation required for your chosen career. Edu-Hawk Worldwide can support students exploring international education opportunities and help them understand programme selection, eligibility and application requirements."
+      "q": "Is a student visa required for Indian students?",
+      "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

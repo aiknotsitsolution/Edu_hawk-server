@@ -7,13 +7,17 @@ import heroBgImg from "../../../../Images/Abroad/Mauritius/PublicHealth/hero_bg.
 import sideImg from "../../../../Images/Abroad/Mauritius/PublicHealth/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Mauritius/PublicHealth/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../Images/Abroad/Mauritius/PublicHealth/image1.png";
+import uniImg2 from "../../../../Images/Abroad/Mauritius/PublicHealth/image2.png";
+
 const page = {
-  "name": "Public Health in Mauritius",
+  "name": "Public Health",
   "country": "Mauritius",
   "slug": "public-health",
   "title": "Public Health in Mauritius for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Public Health in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study Public Health in Mauritius, Public Health in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Public Health in Mauritius Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
+  "keywords": "Study Public Health in Mauritius, Public Health in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Public Health Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
   "introTitle": "Public Health in Mauritius for Indian Students",
   "heroParas": [
     "**Public Health in Mauritius for Indian Students** is a study pathway for students interested in disease prevention, health promotion, epidemiology, healthcare policy and improving health at the community and population levels. Unlike clinical degrees focused primarily on treating individual patients, public health programmes examine how health systems, environments, behaviours and social conditions affect entire communities. Students who want to **Study Public Health in Mauritius** can explore postgraduate opportunities and related academic pathways."
@@ -21,24 +25,46 @@ const page = {
   "overview": [
     "The Master of Public Health (MPH) is a relevant postgraduate option for graduates in medicine, nursing, pharmacy, biology, environmental sciences and other eligible disciplines. The University of Mauritius has published an MPH programme, while the Open University of Mauritius has documented an MPH offered in collaboration with Imperial College London. Applicants must verify the current intake, programme arrangements and fees before applying. **Edu-Hawk Worldwide** encourages students to check the latest admission and programme details before making a decision."
   ],
-  "level": "Master of Public Health (MPH)",
+  "level": "MPH / Master of Public Health",
   "crumb": "MBBS Abroad",
   "stats": [
     {
-      "label": "Degree Choices",
-      "value": "Master of Public Health (MPH)"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "label": "Language of Study",
-      "value": "English & Bilingual"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "label": "Top Institutions",
-      "value": "UoM, UTM, UdM & Middlesex"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "label": "Indicative Fees",
-      "value": "MUR 150,000 \u2013 MUR 350,000 / Year"
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
     }
   ],
   "sections": [
@@ -117,46 +143,83 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Top Universities for Public Health in Mauritius",
-      "lead": "Explore leading universities and institutions in Mauritius offering accredited Public Health in Mauritius programmes, modern campuses, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Mauritius offering accredited Public Health programmes, modern campuses, and international student support.",
+      "unis": [
         {
           "name": "University of Mauritius (UoM)",
           "location": "Reduit, Mauritius",
           "fee": "MUR 150,000 \u2013 350,000 / Year",
-          "desc": "The premier and oldest public research university in Mauritius offering accredited degrees with modern research facilities.",
-          "img_var": "null"
+          "desc": "The flagship national university of Mauritius offering premier degree programs in health sciences, engineering, agriculture, and business.",
+          "img": uniImg1
         },
         {
           "name": "Universit\u00e9 des Mascareignes (UdM)",
           "location": "Rose Hill, Mauritius",
           "fee": "MUR 180,000 \u2013 320,000 / Year",
-          "desc": "Public university established with French academic partnerships, offering dual-degree European programmes in technology and management.",
-          "img_var": "null"
+          "desc": "Bilingual public university partnering with French universities to offer internationally accredited dual qualifications.",
+          "img": uniImg2
         },
         {
           "name": "University of Technology, Mauritius (UTM)",
           "location": "La Tour Koenig, Mauritius",
           "fee": "MUR 160,000 \u2013 280,000 / Year",
-          "desc": "Leading technological university focused on computing, applied engineering, public health, and business innovation.",
-          "img_var": "null"
+          "desc": "Dynamic public institution recognized for cutting-edge programs in technology, applied management, healthcare, and sustainable development.",
+          "img": uniImg1
         },
         {
           "name": "Middlesex University Mauritius",
           "location": "Flic en Flac, Mauritius",
           "fee": "MUR 250,000 \u2013 450,000 / Year",
-          "desc": "Prestigious UK branch campus offering British-accredited undergraduate and postgraduate degrees with state-of-the-art coastal facilities.",
-          "img_var": "null"
+          "desc": "Accredited British branch campus delivering internationally recognized undergraduate and postgraduate degrees in coastal Mauritius.",
+          "img": uniImg2
         },
         {
           "name": "Curtin Mauritius",
           "location": "Moka, Mauritius",
           "fee": "MUR 280,000 \u2013 420,000 / Year",
-          "desc": "Australian branch campus known for industry-aligned curricula, world-class teaching faculty, and global degree recognition.",
-          "img_var": "null"
+          "desc": "Premier Australian branch university known for high academic standards in commerce, design, health, and humanities.",
+          "img": uniImg1
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "University of Mauritius (UoM)",
+          "location": "Reduit, Mauritius",
+          "fee": "MUR 150,000 \u2013 350,000 / Year",
+          "desc": "The flagship national university of Mauritius offering premier degree programs in health sciences, engineering, agriculture, and business.",
+          "img": uniImg1
+        },
+        {
+          "name": "Universit\u00e9 des Mascareignes (UdM)",
+          "location": "Rose Hill, Mauritius",
+          "fee": "MUR 180,000 \u2013 320,000 / Year",
+          "desc": "Bilingual public university partnering with French universities to offer internationally accredited dual qualifications.",
+          "img": uniImg2
+        },
+        {
+          "name": "University of Technology, Mauritius (UTM)",
+          "location": "La Tour Koenig, Mauritius",
+          "fee": "MUR 160,000 \u2013 280,000 / Year",
+          "desc": "Dynamic public institution recognized for cutting-edge programs in technology, applied management, healthcare, and sustainable development.",
+          "img": uniImg1
+        },
+        {
+          "name": "Middlesex University Mauritius",
+          "location": "Flic en Flac, Mauritius",
+          "fee": "MUR 250,000 \u2013 450,000 / Year",
+          "desc": "Accredited British branch campus delivering internationally recognized undergraduate and postgraduate degrees in coastal Mauritius.",
+          "img": uniImg2
+        },
+        {
+          "name": "Curtin Mauritius",
+          "location": "Moka, Mauritius",
+          "fee": "MUR 280,000 \u2013 420,000 / Year",
+          "desc": "Premier Australian branch university known for high academic standards in commerce, design, health, and humanities.",
+          "img": uniImg1
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and student visa requirements before submitting their applications."
+        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
       ]
     },
     {
@@ -402,26 +465,59 @@ const page = {
       ]
     }
   ],
+  "universities": [
+    {
+      "name": "University of Mauritius (UoM)",
+      "location": "Reduit, Mauritius",
+      "fee": "MUR 150,000 \u2013 350,000 / Year",
+      "desc": "The flagship national university of Mauritius offering premier degree programs in health sciences, engineering, agriculture, and business.",
+      "img": uniImg1
+    },
+    {
+      "name": "Universit\u00e9 des Mascareignes (UdM)",
+      "location": "Rose Hill, Mauritius",
+      "fee": "MUR 180,000 \u2013 320,000 / Year",
+      "desc": "Bilingual public university partnering with French universities to offer internationally accredited dual qualifications.",
+      "img": uniImg2
+    },
+    {
+      "name": "University of Technology, Mauritius (UTM)",
+      "location": "La Tour Koenig, Mauritius",
+      "fee": "MUR 160,000 \u2013 280,000 / Year",
+      "desc": "Dynamic public institution recognized for cutting-edge programs in technology, applied management, healthcare, and sustainable development.",
+      "img": uniImg1
+    },
+    {
+      "name": "Middlesex University Mauritius",
+      "location": "Flic en Flac, Mauritius",
+      "fee": "MUR 250,000 \u2013 450,000 / Year",
+      "desc": "Accredited British branch campus delivering internationally recognized undergraduate and postgraduate degrees in coastal Mauritius.",
+      "img": uniImg2
+    },
+    {
+      "name": "Curtin Mauritius",
+      "location": "Moka, Mauritius",
+      "fee": "MUR 280,000 \u2013 420,000 / Year",
+      "desc": "Premier Australian branch university known for high academic standards in commerce, design, health, and humanities.",
+      "img": uniImg1
+    }
+  ],
   "faqs": [
     {
-      "q": "Can Indian students study an MPH in Mauritius?",
-      "a": "Indian students can apply if they meet the institution\u2019s academic and international admission requirements. They should confirm the next intake, international tuition fees and student-entry arrangements directly with the university. Edu-Hawk Worldwide can help students understand the admission considerations for Public Health in Mauritius for Indian Students."
+      "q": "Can Indian students apply for Public Health in Mauritius?",
+      "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
     },
     {
-      "q": "How long does an MPH take in Mauritius?",
-      "a": "The Open University of Mauritius lists a duration of 21 to 39 months for its published MPH programme. The actual duration depends on the programme structure and the student\u2019s study plan."
+      "q": "What is the medium of instruction for Public Health in Mauritius?",
+      "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
     },
     {
-      "q": "What is the cost of studying public health in Mauritius?",
-      "a": "The fee depends on the institution and student category. The published MUR 300,000 fee at the Open University of Mauritius is for Mauritian students; an international non-SADC fee is not specified on that page. Request a current international quotation."
+      "q": "What are the typical tuition fees for Public Health in Mauritius?",
+      "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
     },
     {
-      "q": "Can I study public health after MBBS, nursing or pharmacy?",
-      "a": "Yes, these backgrounds may be relevant for MPH admission, subject to the university\u2019s entry requirements. The published Open University programme lists medicine, nursing, pharmacy and other health-related backgrounds among its accepted subject areas."
-    },
-    {
-      "q": "What jobs can I get after an MPH in Mauritius?",
-      "a": "Possible pathways include public health research, epidemiology, health programme management, health promotion, policy analysis and monitoring and evaluation. Specific roles may require relevant work experience, additional qualifications or professional registration."
+      "q": "Is a student visa required for Indian students?",
+      "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

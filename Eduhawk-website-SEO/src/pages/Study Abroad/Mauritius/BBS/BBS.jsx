@@ -7,13 +7,17 @@ import heroBgImg from "../../../../Images/Abroad/Mauritius/BBS/hero_bg.webp";
 import sideImg from "../../../../Images/Abroad/Mauritius/BBS/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Mauritius/BBS/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../Images/Abroad/Mauritius/BBS/image1.png";
+import uniImg2 from "../../../../Images/Abroad/Mauritius/BBS/image2.png";
+
 const page = {
-  "name": "BBS in Mauritius",
+  "name": "BBS",
   "country": "Mauritius",
   "slug": "bbs",
-  "title": "BBS Mauritius in Mauritius for Indian Students | Edu-Hawk Worldwide",
+  "title": "BBS in Mauritius for Indian Students | Edu-Hawk Worldwide",
   "description": "Study BBS in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study BBS in Mauritius, BBS in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius BBS in Mauritius Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
+  "keywords": "Study BBS in Mauritius, BBS in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius BBS Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
   "introTitle": "BBS in Mauritius for Indian Students",
   "heroParas": [
     "A Bachelor of Business Studies (BBS) is an undergraduate degree that covers business principles, management, accounting, finance, marketing, economics and organizational operations. It can be suitable for students wishing to prepare themselves for careers in business, administration, financial services, entrepreneurship or for further education in management. **BBS in Mauritius** is a study option for students interested in undergraduate business education and developing a foundation in business-related subjects."
@@ -25,20 +29,42 @@ const page = {
   "crumb": "BBS",
   "stats": [
     {
-      "label": "Degree Choices",
-      "value": "Bachelor of Business Studies"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "label": "Language of Study",
-      "value": "English & Bilingual"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "label": "Top Institutions",
-      "value": "UoM, UTM, UdM & Middlesex"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "label": "Indicative Fees",
-      "value": "MUR 150,000 \u2013 MUR 350,000 / Year"
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
     }
   ],
   "sections": [
@@ -122,39 +148,41 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Best Universities for BBS and Related Business Degrees in Mauritius",
-      "lead": "Explore leading universities and institutions in Mauritius offering accredited BBS in Mauritius programmes, modern campuses, and international student support.",
+      "lead": "Explore leading universities and institutions in Mauritius offering accredited BBS programmes, modern campuses, and international student support.",
+      "unis": [
+        {
+          "name": "\\. Universit\u00e9 de Maurice",
+          "location": "\\. Universit\u00e9 de Maurice, Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "BSc (Hons) Business Management, BSc (Hons) International Business Management and other relevant business degrees. Full-time undergraduate programs are usually three years in duration.",
+          "img": uniImg1
+        },
+        {
+          "name": "\\. University of Mauritius Open",
+          "location": "\\. University of Mauritius Open",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "Offers a BSc (Hons) Business Management with a flexible duration of 3 to 6 years. The program covers accounting, economics, finance, marketing, human resources, business strategy and operations.",
+          "img": uniImg2
+        }
+      ],
       "unis_data": [
         {
-          "name": "Universit\u00e9 de Maurice",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "BSc (Hons) Business Management, BSc (Hons) International Business Management and other relevant business degrees. Full-time undergraduate programs are usually three years in duration. Official management programs",
-          "img_var": "null"
+          "name": "\\. Universit\u00e9 de Maurice",
+          "location": "\\. Universit\u00e9 de Maurice, Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "BSc (Hons) Business Management, BSc (Hons) International Business Management and other relevant business degrees. Full-time undergraduate programs are usually three years in duration.",
+          "img": uniImg1
         },
         {
-          "name": "University of Mauritius Open",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "Offers a BSc (Hons) Business Management with a flexible duration of 3 to 6 years. The program covers accounting, economics, finance, marketing, human resources, business strategy and operations. Official course web site",
-          "img_var": "null"
-        },
-        {
-          "name": "Trust of the University of Mauritius",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "Full-Time and Part-Time Bachelor of Business Management (BBM Hons) This is a related management degree and not a qualification named BBS. Undergraduate degree programs",
-          "img_var": "null"
-        },
-        {
-          "name": "Education Network Honoris",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "Advertizes Bachelor of Business Administration degree awarded by MANCOSA. The program is offered in a supported distance learning mode for three years. Students are advised to check with the awarding body about recognition, delivery arrangements and any applicable fees before enrolling. BBA course official page Students considering BBS in Mauritius should check the current programme availability and confirm the exact degree awarded by each institution.",
-          "img_var": "null"
+          "name": "\\. University of Mauritius Open",
+          "location": "\\. University of Mauritius Open",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "Offers a BSc (Hons) Business Management with a flexible duration of 3 to 6 years. The program covers accounting, economics, finance, marketing, human resources, business strategy and operations.",
+          "img": uniImg2
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and student visa requirements before submitting their applications."
+        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
       ]
     },
     {
@@ -406,26 +434,38 @@ const page = {
       ]
     }
   ],
+  "universities": [
+    {
+      "name": "\\. Universit\u00e9 de Maurice",
+      "location": "\\. Universit\u00e9 de Maurice, Mauritius",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "BSc (Hons) Business Management, BSc (Hons) International Business Management and other relevant business degrees. Full-time undergraduate programs are usually three years in duration.",
+      "img": uniImg1
+    },
+    {
+      "name": "\\. University of Mauritius Open",
+      "location": "\\. University of Mauritius Open",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "Offers a BSc (Hons) Business Management with a flexible duration of 3 to 6 years. The program covers accounting, economics, finance, marketing, human resources, business strategy and operations.",
+      "img": uniImg2
+    }
+  ],
   "faqs": [
     {
-      "q": "Do they have a BBS (Bachelor of Business Studies) in Mauritius?",
-      "a": "The institutions mentioned here offer related programs such as BSc (Hons) Business Management, BBM (Hons) and BBA. Before you apply, check with the institution about any specific BBS award. Students searching for a Bachelor of Business Studies in Mauritius should verify whether the exact qualification is available."
+      "q": "Can Indian students apply for BBS in Mauritius?",
+      "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
     },
     {
-      "q": "How long does it take to study a business degree in Mauritius?",
-      "a": "Full-time, many undergraduate business degrees take around three years. The BSc (Hons) Business Management at the Open University of Mauritius has a flexible duration of three to six years."
+      "q": "What is the medium of instruction for BBS in Mauritius?",
+      "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
     },
     {
-      "q": "What is the tuition fee of BBS in Mauritius?",
-      "a": "No confirmed fee for any particular BBS program was found in the sources consulted. Conversely, the Open University of Mauritius charges \\$6,840 for its full BSc (Hons) Business Management for international non-SADC students."
+      "q": "What are the typical tuition fees for BBS in Mauritius?",
+      "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
     },
     {
-      "q": "Is it possible for Indian students to do a business degree in Mauritius after Class 12?",
-      "a": "Yes, Indian students can apply for it if they meet the academic and other entry requirements of the chosen institution. They need to explore how their Class 12 qualification is evaluated, the applicable international tuition fees and the study-permit procedures that are currently in place."
-    },
-    {
-      "q": "What to do after BBS?",
-      "a": "Graduates may wish to pursue an MBA, MSc Management, MSc International Business Management or specialist master\u2019s in finance, marketing or human resources. Admission will be subject to qualification obtained and entry requirements of the postgraduate program."
+      "q": "Is a student visa required for Indian students?",
+      "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

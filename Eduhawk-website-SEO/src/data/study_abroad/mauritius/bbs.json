@@ -1,87 +1,91 @@
 {
   "seo": {
-    "title": "BBS Mauritius in Mauritius for Indian Students | Edu-Hawk Worldwide",
+    "title": "BBS in Mauritius for Indian Students | Edu-Hawk Worldwide",
     "description": "Study BBS in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students."
   },
   "hero": {
     "badge": "Study Abroad - Mauritius",
-    "title": "BBS in Mauritius",
-    "subtitle": "A Bachelor of Business Studies (BBS) is an undergraduate degree that covers business principles, management, accounting, finance, marketing, economics and organizational operations. It can be suitable for students wishing to prepare themselves for careers in business, administration, financial services, entrepreneurship or for further education in management. **BBS in Mauritius** is a study option for students interested in undergraduate business education and developing a foundation in business-related subjects.",
-    "ctaText": "Book Free Counselling",
-    "image": ""
+    "title": "BBS in Mauritius for Indian Students",
+    "paras": [
+      "A Bachelor of Business Studies (BBS) is an undergraduate degree that covers business principles, management, accounting, finance, marketing, economics and organizational operations. It can be suitable for students wishing to prepare themselves for careers in business, administration, financial services, entrepreneurship or for further education in management. **BBS in Mauritius** is a study option for students interested in undergraduate business education and developing a foundation in business-related subjects."
+    ]
   },
   "stats": [
     {
-      "n": "1000+",
-      "l": "Students Placed Globally"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "n": "20+",
-      "l": "Countries"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "n": "200+",
-      "l": "Partner Universities"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "n": "100%",
-      "l": "Support (Visa & Post-Study Work Guidance)"
+      "val": "Permitted",
+      "label": "Part-Time Work"
     }
   ],
-  "highlights": {
-    "degree": "Bachelor of Business Studies",
-    "duration": "3\u20134 Yrs (UG) / 1.5\u20132 Yrs (PG)",
-    "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-    "eligibility": "Class 12 / Bachelor's degree + English proficiency",
-    "medium": "English / Bilingual"
-  },
-  "overview": "Students in Mauritius need to know the difference between a degree called Bachelor of Business Studies (BBS) and other degrees such as Bachelor of Business Administration (BBA), Bachelor of Business Management or BSc (Hons) Business Management. The University of Mauritius lists business management degrees for 2026-2027, and Honoris Educational Network advertizes a BBA delivered through supported distance learning. Students searching for a **Bachelor of Business Studies in Mauritius** should confirm the exact qualification title and awarding institution before applying.",
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
+    }
+  ],
+  "overview": [
+    "Students in Mauritius need to know the difference between a degree called Bachelor of Business Studies (BBS) and other degrees such as Bachelor of Business Administration (BBA), Bachelor of Business Management or BSc (Hons) Business Management. The University of Mauritius lists business management degrees for 2026-2027, and Honoris Educational Network advertizes a BBA delivered through supported distance learning. Students searching for a **Bachelor of Business Studies in Mauritius** should confirm the exact qualification title and awarding institution before applying."
+  ],
   "universities": [
     {
-      "name": "Universit\u00e9 de Maurice",
-      "location": "Mauritius",
-      "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-      "image": ""
+      "name": "\\. Université de Maurice",
+      "location": "\\. Université de Maurice, Mauritius",
+      "fee": "MUR 160,000 – 350,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/BBS/image1.png"
     },
     {
-      "name": "University of Mauritius Open",
-      "location": "Mauritius",
-      "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-      "image": ""
-    },
-    {
-      "name": "Trust of the University of Mauritius",
-      "location": "Mauritius",
-      "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-      "image": ""
-    },
-    {
-      "name": "Education Network Honoris",
-      "location": "Mauritius",
-      "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-      "image": ""
+      "name": "\\. University of Mauritius Open",
+      "location": "\\. University of Mauritius Open",
+      "fee": "MUR 160,000 – 350,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/BBS/image2.png"
     }
   ],
-  "faq": [
-    {
-      "question": "Do they have a BBS (Bachelor of Business Studies) in Mauritius?",
-      "answer": "The institutions mentioned here offer related programs such as BSc (Hons) Business Management, BBM (Hons) and BBA. Before you apply, check with the institution about any specific BBS award. Students searching for a Bachelor of Business Studies in Mauritius should verify whether the exact qualification is available."
-    },
-    {
-      "question": "How long does it take to study a business degree in Mauritius?",
-      "answer": "Full-time, many undergraduate business degrees take around three years. The BSc (Hons) Business Management at the Open University of Mauritius has a flexible duration of three to six years."
-    },
-    {
-      "question": "What is the tuition fee of BBS in Mauritius?",
-      "answer": "No confirmed fee for any particular BBS program was found in the sources consulted. Conversely, the Open University of Mauritius charges \\$6,840 for its full BSc (Hons) Business Management for international non-SADC students."
-    },
-    {
-      "question": "Is it possible for Indian students to do a business degree in Mauritius after Class 12?",
-      "answer": "Yes, Indian students can apply for it if they meet the academic and other entry requirements of the chosen institution. They need to explore how their Class 12 qualification is evaluated, the applicable international tuition fees and the study-permit procedures that are currently in place."
-    },
-    {
-      "question": "What to do after BBS?",
-      "answer": "Graduates may wish to pursue an MBA, MSc Management, MSc International Business Management or specialist master\u2019s in finance, marketing or human resources. Admission will be subject to qualification obtained and entry requirements of the postgraduate program."
-    }
-  ]
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "Can Indian students apply for BBS in Mauritius?",
+        "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
+      },
+      {
+        "q": "What is the medium of instruction for BBS in Mauritius?",
+        "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
+      },
+      {
+        "q": "What are the typical tuition fees for BBS in Mauritius?",
+        "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
+      },
+      {
+        "q": "Is a student visa required for Indian students?",
+        "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
+      }
+    ]
+  }
 }

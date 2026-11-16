@@ -7,13 +7,17 @@ import heroBgImg from "../../../../../../Images/Abroad/Mauritius/Engineering_PG/
 import sideImg from "../../../../../../Images/Abroad/Mauritius/Engineering_PG/Aerospace/side.webp";
 import ctaBgImg from "../../../../../../Images/Abroad/Mauritius/Engineering_PG/Aerospace/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../../../Images/Abroad/Mauritius/Engineering_PG/Aerospace/image1.png";
+import uniImg2 from "../../../../../../Images/Abroad/Mauritius/Engineering_PG/Aerospace/image2.png";
+
 const page = {
-  "name": "Aerospace Engineering (PG) in Mauritius",
+  "name": "Aerospace Engineering (PG)",
   "country": "Mauritius",
   "slug": "pg/aerospace-engineering",
-  "title": "Master\u2019s in Aerospace Engineering in Mauritius for Indian Students in Mauritius for Indian Students | Edu-Hawk Worldwide",
+  "title": "Aerospace Engineering (PG) in Mauritius for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Aerospace Engineering (PG) in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study Aerospace Engineering (PG) in Mauritius, Aerospace Engineering (PG) in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Aerospace Engineering (PG) in Mauritius Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
+  "keywords": "Study Aerospace Engineering (PG) in Mauritius, Aerospace Engineering (PG) in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Aerospace Engineering (PG) Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
   "introTitle": "Aerospace Engineering (PG) in Mauritius for Indian Students",
   "heroParas": [
     "Comprehensive guide to studying Aerospace Engineering (PG) in Mauritius for Indian students."
@@ -25,20 +29,42 @@ const page = {
   "crumb": "Engineering / PG Engineering",
   "stats": [
     {
-      "label": "Degree Choices",
-      "value": "M.Eng / M.Sc. Aerospace Engineering"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "label": "Language of Study",
-      "value": "English & Bilingual"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "label": "Top Institutions",
-      "value": "UoM, UTM, UdM & Middlesex"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "label": "Indicative Fees",
-      "value": "MUR 150,000 \u2013 MUR 350,000 / Year"
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
     }
   ],
   "sections": [
@@ -111,25 +137,41 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Top Aerospace Engineering Universities in Mauritius and Institutions to Consider",
-      "lead": "Explore leading universities and institutions in Mauritius offering accredited Aerospace Engineering (PG) in Mauritius programmes, modern campuses, and international student support.",
+      "lead": "Explore leading universities and institutions in Mauritius offering accredited Aerospace Engineering (PG) programmes, modern campuses, and international student support.",
+      "unis": [
+        {
+          "name": "TECH Global University \u2014 Online Aeronautical Engineering",
+          "location": "TECH Global University \u2014 Online Aeronautical Engineering, Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "TECH Global University advertises a 12-month online Master\u2019s Degree in Aeronautical Engineering. Its published course information mentions aerodynamics, aerospace materials and structures, propulsion systems, flight control and aviation safety. The provider describes the qualification as a 60-ECTS continuing-education programme. Before enrolling, request written confirmation of the qualification\u2019s academic status and recognition in the country where you intend to work or pursue further study. When comparing **Aerospace Engineering Universities in Mauritius**, applicants should distinguish between institutions offering campus-based degrees and international providers advertising online programmes.",
+          "img": uniImg1
+        },
+        {
+          "name": "Universiti Sains Malaysia (USM) \u2014 Research",
+          "location": "Universiti Sains Malaysia (USM) \u2014 Research, Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "USM offers an MSc in Aerospace Engineering through postgraduate research, with areas including computational fluid dynamics, aerodynamics, aerospace structures, composite technology, propulsion, aerospace control and astronautics. It is an option for students willing to study in Malaysia rather than Mauritius.",
+          "img": uniImg2
+        }
+      ],
       "unis_data": [
         {
           "name": "TECH Global University \u2014 Online Aeronautical Engineering",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "engineeringnews.co.za TECH Global University advertises a 12-month online Master\u2019s Degree in Aeronautical Engineering. Its published course information mentions aerodynamics, aerospace materials and structures, propulsion systems, flight control and aviation safety. The provider describes the qualification as a 60-ECTS continuing-education programme. Before enrolling, request written confirmation of the qualification\u2019s academic status and recognition in the country where you intend to work or pursue further study. When comparing Aerospace Engineering Universities in Mauritius, applicants should distinguish between institutions offering campus-based degrees and international providers advertising online programmes.",
-          "img_var": "null"
+          "location": "TECH Global University \u2014 Online Aeronautical Engineering, Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "TECH Global University advertises a 12-month online Master\u2019s Degree in Aeronautical Engineering. Its published course information mentions aerodynamics, aerospace materials and structures, propulsion systems, flight control and aviation safety. The provider describes the qualification as a 60-ECTS continuing-education programme. Before enrolling, request written confirmation of the qualification\u2019s academic status and recognition in the country where you intend to work or pursue further study. When comparing **Aerospace Engineering Universities in Mauritius**, applicants should distinguish between institutions offering campus-based degrees and international providers advertising online programmes.",
+          "img": uniImg1
         },
         {
-          "name": "Universiti Sains Malaysia (USM) \u2014 Research-Based MSc",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "aerospace.eng.usm.my USM offers an MSc in Aerospace Engineering through postgraduate research, with areas including computational fluid dynamics, aerodynamics, aerospace structures, composite technology, propulsion, aerospace control and astronautics. It is an option for students willing to study in Malaysia rather than Mauritius.",
-          "img_var": "null"
+          "name": "Universiti Sains Malaysia (USM) \u2014 Research",
+          "location": "Universiti Sains Malaysia (USM) \u2014 Research, Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "USM offers an MSc in Aerospace Engineering through postgraduate research, with areas including computational fluid dynamics, aerodynamics, aerospace structures, composite technology, propulsion, aerospace control and astronautics. It is an option for students willing to study in Malaysia rather than Mauritius.",
+          "img": uniImg2
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and student visa requirements before submitting their applications."
+        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
       ]
     },
     {
@@ -187,7 +229,6 @@ const page = {
           "t": "p",
           "items": [
             "There is no verified tuition figure for a dedicated Master\u2019s in Aerospace Engineering delivered by a Mauritian university in the reviewed 2026\u20132027 catalogue. **Aerospace Engineering Fees in Mauritius** for an online international programme or an overseas university must be obtained from the respective provider. Students should request the complete fee structure before deciding where to **study Aerospace Engineering in Mauritius**.",
-            "**Estimated living expenses in Mauritius**",
             "For students who actually relocate to Mauritius, the following is an indicative budget for accommodation and day-to-day expenses."
           ]
         },
@@ -385,26 +426,38 @@ const page = {
       ]
     }
   ],
+  "universities": [
+    {
+      "name": "TECH Global University \u2014 Online Aeronautical Engineering",
+      "location": "TECH Global University \u2014 Online Aeronautical Engineering, Mauritius",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "TECH Global University advertises a 12-month online Master\u2019s Degree in Aeronautical Engineering. Its published course information mentions aerodynamics, aerospace materials and structures, propulsion systems, flight control and aviation safety. The provider describes the qualification as a 60-ECTS continuing-education programme. Before enrolling, request written confirmation of the qualification\u2019s academic status and recognition in the country where you intend to work or pursue further study. When comparing **Aerospace Engineering Universities in Mauritius**, applicants should distinguish between institutions offering campus-based degrees and international providers advertising online programmes.",
+      "img": uniImg1
+    },
+    {
+      "name": "Universiti Sains Malaysia (USM) \u2014 Research",
+      "location": "Universiti Sains Malaysia (USM) \u2014 Research, Mauritius",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "USM offers an MSc in Aerospace Engineering through postgraduate research, with areas including computational fluid dynamics, aerodynamics, aerospace structures, composite technology, propulsion, aerospace control and astronautics. It is an option for students willing to study in Malaysia rather than Mauritius.",
+      "img": uniImg2
+    }
+  ],
   "faqs": [
     {
-      "q": "Is a Master\u2019s in Aerospace Engineering available in Mauritius?",
-      "a": "A dedicated Master\u2019s in Aerospace Engineering is not listed in the University of Mauritius\u2019s published 2026\u20132027 taught postgraduate catalogue. An online Aeronautical Engineering programme is advertised for the Mauritius market by TECH Global University, but it is important to verify the qualification\u2019s recognition and status."
+      "q": "Can Indian students apply for Aerospace Engineering (PG) in Mauritius?",
+      "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
     },
     {
-      "q": "Can I study Aerospace Engineering online?",
-      "a": "Yes, TECH Global University advertises an online Master\u2019s Degree in Aeronautical Engineering with a stated duration of 12 months. Check the full fee, award details and recognition before enrolling."
+      "q": "What is the medium of instruction for Aerospace Engineering (PG) in Mauritius?",
+      "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
     },
     {
-      "q": "What is the estimated cost of living in Mauritius?",
-      "a": "A preliminary budget is around MUR 15,000\u201325,000 per month, approximately \u20b930,000\u2013\u20b950,000 at the illustrative exchange rate used here. Actual expenses depend on accommodation and lifestyle."
+      "q": "What are the typical tuition fees for Aerospace Engineering (PG) in Mauritius?",
+      "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
     },
     {
-      "q": "Can Indian students apply for postgraduate Aerospace Engineering programmes abroad?",
-      "a": "Indian students can apply if they meet the specific institution\u2019s entry requirements. They should also verify the qualification\u2019s recognition in India, especially if they plan to pursue further education or regulated aviation work."
-    },
-    {
-      "q": "What career options are available after this qualification?",
-      "a": "Depending on your training and experience, possible areas include aerospace design, aerodynamics, aircraft structures, propulsion, flight control and computational fluid dynamics. Check whether the programme offers the technical depth and recognised qualification required for your intended role."
+      "q": "Is a student visa required for Indian students?",
+      "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

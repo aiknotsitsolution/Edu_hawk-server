@@ -1,75 +1,91 @@
 {
   "seo": {
-    "title": "Bachelor\u2019s and Master\u2019s in Law in Mauritius for Indian Students | Edu-Hawk Worldwide",
+    "title": "Law in Mauritius for Indian Students | Edu-Hawk Worldwide",
     "description": "Study Law in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students."
   },
   "hero": {
     "badge": "Study Abroad - Mauritius",
-    "title": "Law in Mauritius",
-    "subtitle": "Studying **Law in Mauritius** can help students build a foundation in legal principles, legislation, legal research, advocacy, and dispute resolution. Students can choose an undergraduate Bachelor of Laws (LLB) or continue with a postgraduate Master of Laws (LLM) in a specialised area. **Law in Mauritius** offers undergraduate and postgraduate study pathways for students interested in legal education and related careers.",
-    "ctaText": "Book Free Counselling",
-    "image": ""
+    "title": "Law in Mauritius for Indian Students",
+    "paras": [
+      "Studying **Law in Mauritius** can help students build a foundation in legal principles, legislation, legal research, advocacy, and dispute resolution. Students can choose an undergraduate Bachelor of Laws (LLB) or continue with a postgraduate Master of Laws (LLM) in a specialised area. **Law in Mauritius** offers undergraduate and postgraduate study pathways for students interested in legal education and related careers."
+    ]
   },
   "stats": [
     {
-      "n": "1000+",
-      "l": "Students Placed Globally"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "n": "20+",
-      "l": "Countries"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "n": "200+",
-      "l": "Partner Universities"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "n": "100%",
-      "l": "Support (Visa & Post-Study Work Guidance)"
+      "val": "Permitted",
+      "label": "Part-Time Work"
     }
   ],
-  "highlights": {
-    "degree": "LLB & LLM in Law",
-    "duration": "3\u20134 Yrs (UG) / 1.5\u20132 Yrs (PG)",
-    "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-    "eligibility": "Class 12 / Bachelor's degree + English proficiency",
-    "medium": "English / Bilingual"
-  },
-  "overview": "For the 2026\u20132027 academic year, the University of Mauritius lists a three-year full-time LLB (Hons), a four-year part-time LLB (Hons), and postgraduate programmes in Corporate Law, Human Rights, and Business and Tax Law.",
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
+    }
+  ],
+  "overview": [
+    "For the 2026–2027 academic year, the University of Mauritius lists a three-year full-time LLB (Hons), a four-year part-time LLB (Hons), and postgraduate programmes in Corporate Law, Human Rights, and Business and Tax Law."
+  ],
   "universities": [
     {
-      "name": "University of Mauritius",
-      "location": "Mauritius",
-      "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-      "image": ""
+      "name": "\\. University of Mauritius",
+      "location": "\\. University of Mauritius",
+      "fee": "MUR 160,000 – 350,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/Law/image1.png"
     },
     {
-      "name": "Middlesex University Mauritius",
-      "location": "Mauritius",
-      "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-      "image": ""
+      "name": "\\. Middlesex University Mauritius",
+      "location": "\\. Middlesex University Mauritius",
+      "fee": "MUR 160,000 – 350,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/Law/image2.png"
     }
   ],
-  "faq": [
-    {
-      "question": "Can I study Law in Mauritius after Class 12?",
-      "answer": "Yes. Students who meet the academic and language requirements can apply for an undergraduate LLB. The University of Mauritius lists a three-year full-time LLB (Hons), while Middlesex University Mauritius also offers a three-year full-time LLB (Hons). This makes a Bachelor's in Law in Mauritius an option for eligible students after Class 12\\."
-    },
-    {
-      "question": "How long does it take to complete an LLB in Mauritius?",
-      "answer": "The listed full-time LLB programmes at the University of Mauritius and Middlesex University Mauritius take three years. The University of Mauritius also lists a four-year part-time option."
-    },
-    {
-      "question": "Which LLM specialisations are available in Mauritius?",
-      "answer": "The University of Mauritius lists postgraduate programmes in Corporate Law, Human Rights, and Business and Tax Law. Middlesex University Mauritius offers an LLM (General). Students should check the latest course information before applying. These options provide postgraduate pathways for students interested in a Master's in Law in Mauritius."
-    },
-    {
-      "question": "What is the cost of studying Law in Mauritius?",
-      "answer": "For 2026\u20132027, Middlesex University Mauritius lists international tuition fees of \u00a36,400 for its LLB (Hons) and \u00a37,420 for its LLM (General). Accommodation, food, travel, and other expenses are additional."
-    },
-    {
-      "question": "Can I practise as a lawyer after completing a Law degree in Mauritius?",
-      "answer": "Not automatically. Graduates must meet the professional training, eligibility, and registration requirements of the jurisdiction where they want to practise. Confirm the applicable pathway with the relevant legal professional body before choosing a programme. Choosing Law in Mauritius can provide students with undergraduate and postgraduate legal education options. Applicants should compare the available Law courses in Mauritius, verify university admission requirements and understand professional registration conditions before making their final decision."
-    }
-  ]
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "Can Indian students apply for Law in Mauritius?",
+        "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
+      },
+      {
+        "q": "What is the medium of instruction for Law in Mauritius?",
+        "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
+      },
+      {
+        "q": "What are the typical tuition fees for Law in Mauritius?",
+        "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
+      },
+      {
+        "q": "Is a student visa required for Indian students?",
+        "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
+      }
+    ]
+  }
 }

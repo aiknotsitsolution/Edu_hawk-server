@@ -7,13 +7,16 @@ import heroBgImg from "../../../../../../Images/Abroad/Mauritius/Engineering_UG/
 import sideImg from "../../../../../../Images/Abroad/Mauritius/Engineering_UG/Aerospace/side.webp";
 import ctaBgImg from "../../../../../../Images/Abroad/Mauritius/Engineering_UG/Aerospace/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../../../Images/Abroad/Mauritius/Engineering_UG/Aerospace/image1.png";
+
 const page = {
-  "name": "Aerospace Engineering (UG) in Mauritius",
+  "name": "Aerospace Engineering (UG)",
   "country": "Mauritius",
   "slug": "ug/aerospace-engineering",
-  "title": "Bachelor in Aerospace Engineering in Mauritius for Indian Students | Edu-Hawk Worldwide",
+  "title": "Aerospace Engineering (UG) in Mauritius for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Aerospace Engineering (UG) in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study Aerospace Engineering (UG) in Mauritius, Aerospace Engineering (UG) in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Aerospace Engineering (UG) in Mauritius Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
+  "keywords": "Study Aerospace Engineering (UG) in Mauritius, Aerospace Engineering (UG) in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Aerospace Engineering (UG) Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
   "introTitle": "Aerospace Engineering (UG) in Mauritius for Indian Students",
   "heroParas": [
     "A Bachelor's in Aerospace Engineering is designed to cover the design, development, testing and maintenance of aircraft, spacecraft, propulsion systems and related technologies. Students interested in aerodynamics, aircraft structures, flight control, and space systems can be drawn to the field. **Aerospace Engineering in Mauritius for Indian Students** requires careful research into available degree options and related engineering pathways. Students searching for **Aerospace Engineering in Mauritius for Indian Students** should first understand which related qualifications are actually available."
@@ -25,20 +28,42 @@ const page = {
   "crumb": "Engineering / UG Engineering",
   "stats": [
     {
-      "label": "Degree Choices",
-      "value": "B.Eng / B.Sc. Aerospace Engineering"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "label": "Language of Study",
-      "value": "English & Bilingual"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "label": "Top Institutions",
-      "value": "UoM, UTM, UdM & Middlesex"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "label": "Indicative Fees",
-      "value": "MUR 150,000 \u2013 MUR 350,000 / Year"
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
     }
   ],
   "sections": [
@@ -101,18 +126,27 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Best Universities for Aerospace Engineering in Mauritius",
-      "lead": "Explore leading universities and institutions in Mauritius offering accredited Aerospace Engineering (UG) in Mauritius programmes, modern campuses, and international student support.",
+      "lead": "Explore leading universities and institutions in Mauritius offering accredited Aerospace Engineering (UG) programmes, modern campuses, and international student support.",
+      "unis": [
+        {
+          "name": "\\. University of Mauritius (UM)",
+          "location": "\\. University of Mauritius (UM)",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "For 2026-2027, the university has a number of related four-year engineering courses, including Mechanical Engineering, Mechatronics Engineering and Electrical and Electronic Engineering. These may be relevant underpinnings for students intending to pursue aerospace specialization later, but none are listed as a dedicated Aerospace Engineering degree.",
+          "img": uniImg1
+        }
+      ],
       "unis_data": [
         {
-          "name": "University of Mauritius (UM)",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "For 2026-2027, the university has a number of related four-year engineering courses, including Mechanical Engineering, Mechatronics Engineering and Electrical and Electronic Engineering. These may be relevant underpinnings for students intending to pursue aerospace specialization later, but none are listed as a dedicated Aerospace Engineering degree. Official website: uom.ac.mu Students exploring Aerospace Engineering Universities in Mauritius can consider the University of Mauritius for its related engineering programs. When comparing Aerospace Engineering Universities in Mauritius, students should verify whether the qualification is suitable for their intended postgraduate pathway. Which course should I take? * Mechanical Engineering: Relating to mechanics, materials, thermodynamics and machine design. * Mechatronics Engineering: Related to control systems, automation, sensors and integrated mechanical-electronic systems. * Electrical and Electronic Engineering: For electronics, instrumentation, electrical systems and control technology. These are related paths, not substitutes, for an accredited aerospace degree. Students should ensure that their choice of course will allow them to progress to an appropriate aerospace master\u2019s program.",
-          "img_var": "null"
+          "name": "\\. University of Mauritius (UM)",
+          "location": "\\. University of Mauritius (UM)",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "For 2026-2027, the university has a number of related four-year engineering courses, including Mechanical Engineering, Mechatronics Engineering and Electrical and Electronic Engineering. These may be relevant underpinnings for students intending to pursue aerospace specialization later, but none are listed as a dedicated Aerospace Engineering degree.",
+          "img": uniImg1
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and student visa requirements before submitting their applications."
+        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
       ]
     },
     {
@@ -384,26 +418,31 @@ const page = {
       ]
     }
   ],
+  "universities": [
+    {
+      "name": "\\. University of Mauritius (UM)",
+      "location": "\\. University of Mauritius (UM)",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "For 2026-2027, the university has a number of related four-year engineering courses, including Mechanical Engineering, Mechatronics Engineering and Electrical and Electronic Engineering. These may be relevant underpinnings for students intending to pursue aerospace specialization later, but none are listed as a dedicated Aerospace Engineering degree.",
+      "img": uniImg1
+    }
+  ],
   "faqs": [
     {
-      "q": "Can I do a Bachelor\u2019s in Aerospace Engineering in Mauritius?",
-      "a": "The University of Mauritius\u2019s published undergraduate list for 2026-2027 does not include a dedicated Aerospace Engineering degree. It also gives related options like Mechanical Engineering, Mechatronics Engineering, Electrical and Electronic Engineering."
+      "q": "Can Indian students apply for Aerospace Engineering (UG) in Mauritius?",
+      "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
     },
     {
-      "q": "Which university should I consider for aerospace studies in Mauritius?",
-      "a": "You can check the University of Mauritius for relevant engineering degrees. Students should consult the course structure and see if it supports their intentions for an aerospace specialization later on."
+      "q": "What is the medium of instruction for Aerospace Engineering (UG) in Mauritius?",
+      "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
     },
     {
-      "q": "Indian students can apply: Who can apply?",
-      "a": "Generally students need to have Class 12 or equivalent recognized qualification along with mathematics and relevant science subjects. Entry requirements vary depending on the program and university you choose."
+      "q": "What are the typical tuition fees for Aerospace Engineering (UG) in Mauritius?",
+      "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
     },
     {
-      "q": "What is the cost of studying Aerospace Engineering in Mauritius in Indian Rupees?",
-      "a": "No aerospace-specific tuition fee is confirmed from the program listings examined. As a rough estimate, excluding tuition and one-time expenses, living expenses can be in the range of \u20b94.67-\u20b98.89 lakh annually. Before you finalize your budget, check the official fees for the specific degree."
-    },
-    {
-      "q": "What kind of jobs can I get with a degree in aerospace-related engineering?",
-      "a": "Depending on your degree and any additional training you have, you might think about roles in aerospace design, aerodynamics, aircraft structures, avionics, propulsion, CAD, systems engineering or research. Some aviation related jobs require separate professional licences or special qualifications. For guidance on course selection, eligibility, admission procedures and study options, Edu-Hawk Worldwide can help Indian students explore suitable international education pathways. Edu-Hawk Worldwide can also guide students in understanding related engineering options before they make an admission decision."
+      "q": "Is a student visa required for Indian students?",
+      "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

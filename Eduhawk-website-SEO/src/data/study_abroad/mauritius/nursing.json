@@ -5,89 +5,105 @@
   },
   "hero": {
     "badge": "Study Abroad - Mauritius",
-    "title": "Nursing in Mauritius",
-    "subtitle": "**Nursing in Mauritius for Indian Students** can offer exposure to healthcare education in a multicultural environment, with training pathways ranging from assistant-nurse qualifications to professional nursing programmes. For international students, the key considerations are the institution\u2019s recognition, admission eligibility, clinical placements, total costs and professional registration after graduation. Students exploring **Nursing in Mauritius for Indian Students** should carefully compare available programmes and their professional recognition before making a decision.",
-    "ctaText": "Book Free Counselling",
-    "image": ""
+    "title": "Nursing in Mauritius for Indian Students",
+    "paras": [
+      "**Nursing in Mauritius for Indian Students** can offer exposure to healthcare education in a multicultural environment, with training pathways ranging from assistant-nurse qualifications to professional nursing programmes. For international students, the key considerations are the institution’s recognition, admission eligibility, clinical placements, total costs and professional registration after graduation. Students exploring **Nursing in Mauritius for Indian Students** should carefully compare available programmes and their professional recognition before making a decision."
+    ]
   },
   "stats": [
     {
-      "n": "1000+",
-      "l": "Students Placed Globally"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "n": "20+",
-      "l": "Countries"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "n": "200+",
-      "l": "Partner Universities"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "n": "100%",
-      "l": "Support (Visa & Post-Study Work Guidance)"
+      "val": "Permitted",
+      "label": "Part-Time Work"
     }
   ],
-  "highlights": {
-    "degree": "B.Sc. & M.Sc. in Nursing",
-    "duration": "3\u20134 Yrs (UG) / 1.5\u20132 Yrs (PG)",
-    "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-    "eligibility": "Class 12 / Bachelor's degree + English proficiency",
-    "medium": "English / Bilingual"
-  },
-  "overview": "The Nursing Council of Mauritius regulates the nursing and midwifery professions and publishes guidance on nursing schools, training and registration. Students should verify a programme through official sources before enrolling.",
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
+    }
+  ],
+  "overview": [
+    "The Nursing Council of Mauritius regulates the nursing and midwifery professions and publishes guidance on nursing schools, training and registration. Students should verify a programme through official sources before enrolling."
+  ],
   "universities": [
     {
+      "name": "University of Mauritius (UoM)",
+      "location": "Reduit, Mauritius",
+      "fee": "MUR 150,000 – 350,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/Nursing/image1.png"
+    },
+    {
+      "name": "Université des Mascareignes (UdM)",
+      "location": "Rose Hill, Mauritius",
+      "fee": "MUR 180,000 – 320,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/Nursing/image2.png"
+    },
+    {
+      "name": "University of Technology, Mauritius (UTM)",
+      "location": "La Tour Koenig, Mauritius",
+      "fee": "MUR 160,000 – 280,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/Nursing/image3.png"
+    },
+    {
       "name": "Middlesex University Mauritius",
-      "location": "Mauritius",
-      "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-      "image": ""
+      "location": "Flic en Flac, Mauritius",
+      "fee": "MUR 250,000 – 450,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/Nursing/image4.png"
     },
     {
-      "name": "University of Technology Mauritius",
-      "location": "Mauritius",
-      "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-      "image": ""
-    },
-    {
-      "name": "Charles Telfair Institute",
-      "location": "Mauritius",
-      "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-      "image": ""
-    },
-    {
-      "name": "Open University of Mauritius",
-      "location": "Mauritius",
-      "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-      "image": ""
-    },
-    {
-      "name": "Polytechnics Mauritius Ltd",
-      "location": "Mauritius",
-      "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-      "image": ""
+      "name": "Curtin Mauritius",
+      "location": "Moka, Mauritius",
+      "fee": "MUR 280,000 – 420,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/Nursing/image5.png"
     }
   ],
-  "faq": [
-    {
-      "question": "Can Indian students study nursing in Mauritius?",
-      "answer": "Indian students can investigate programmes listed by the Nursing Council, but must confirm international eligibility, fees and admission requirements directly with the institution. Nursing in Mauritius for Indian Students depends on the current admission policy and eligibility criteria of the selected programme."
-    },
-    {
-      "question": "How long does a nursing course take in Mauritius?",
-      "answer": "The duration depends on the qualification. The Nursing Council lists a three-year National Diploma in Nursing at Polytechnics Mauritius Ltd, while top-up and postgraduate courses follow different durations."
-    },
-    {
-      "question": "What is the cost of studying nursing in Mauritius?",
-      "answer": "There is no single fee for all nursing programmes. Request the latest international-student fee schedule, accommodation estimates and clinical-training charges from the institution. For accurate information about Nursing Fees in Mauritius, always refer to the official fee schedule."
-    },
-    {
-      "question": "Can I work as a nurse in Mauritius after graduation?",
-      "answer": "You must meet the applicable registration and licensing requirements. The Nursing Council of Mauritius regulates professional nursing practice and assesses applications for registration."
-    },
-    {
-      "question": "Is a nursing degree from Mauritius recognised in India?",
-      "answer": "Recognition is not automatic. Before enrolling, verify the programme and qualification against the current requirements of the relevant Indian nursing authorities, including the Indian Nursing Council and the appropriate State Nursing Council. Confirm whether the qualification meets the applicable registration requirements for foreign-trained graduates."
-    }
-  ]
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "Can Indian students apply for Nursing in Mauritius?",
+        "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
+      },
+      {
+        "q": "What is the medium of instruction for Nursing in Mauritius?",
+        "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
+      },
+      {
+        "q": "What are the typical tuition fees for Nursing in Mauritius?",
+        "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
+      },
+      {
+        "q": "Is a student visa required for Indian students?",
+        "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
+      }
+    ]
+  }
 }

@@ -7,13 +7,16 @@ import heroBgImg from "../../../../../../Images/Abroad/Mauritius/Engineering_PG/
 import sideImg from "../../../../../../Images/Abroad/Mauritius/Engineering_PG/Electrical/side.webp";
 import ctaBgImg from "../../../../../../Images/Abroad/Mauritius/Engineering_PG/Electrical/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../../../Images/Abroad/Mauritius/Engineering_PG/Electrical/image1.png";
+
 const page = {
-  "name": "Electrical Engineering (PG) in Mauritius",
+  "name": "Electrical Engineering (PG)",
   "country": "Mauritius",
   "slug": "pg/electrical-engineering",
-  "title": "Master\u2019s in Electrical Engineering in Mauritius for Indian Students | Edu-Hawk Worldwide",
+  "title": "Electrical Engineering (PG) in Mauritius for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Electrical Engineering (PG) in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study Electrical Engineering (PG) in Mauritius, Electrical Engineering (PG) in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Electrical Engineering (PG) in Mauritius Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
+  "keywords": "Study Electrical Engineering (PG) in Mauritius, Electrical Engineering (PG) in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Electrical Engineering (PG) Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
   "introTitle": "Electrical Engineering (PG) in Mauritius for Indian Students",
   "heroParas": [
     "A Master\u2019s in Electrical Engineering is a postgraduate qualification for students interested in electrical power systems, electronics, renewable energy, smart grids, automation and electrical infrastructure. It can help engineering graduates develop specialised technical knowledge for careers in energy, utilities, manufacturing and technology. **Master\u2019s in Electrical Engineering in Mauritius for Indian Students** may be an option for graduates exploring related postgraduate specialisations in energy and smart electrical systems."
@@ -25,20 +28,42 @@ const page = {
   "crumb": "Engineering / PG Engineering",
   "stats": [
     {
-      "label": "Degree Choices",
-      "value": "M.Eng / M.Sc. Electrical Engineering"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "label": "Language of Study",
-      "value": "English & Bilingual"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "label": "Top Institutions",
-      "value": "UoM, UTM, UdM & Middlesex"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "label": "Indicative Fees",
-      "value": "MUR 150,000 \u2013 MUR 350,000 / Year"
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
     }
   ],
   "sections": [
@@ -115,18 +140,27 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Top Universities for Electrical Engineering in Mauritius",
-      "lead": "Explore leading universities and institutions in Mauritius offering accredited Electrical Engineering (PG) in Mauritius programmes, modern campuses, and international student support.",
+      "lead": "Explore leading universities and institutions in Mauritius offering accredited Electrical Engineering (PG) programmes, modern campuses, and international student support.",
+      "unis": [
+        {
+          "name": "University of Mauritius (UoM)",
+          "location": "University of Mauritius (UoM)",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "Official website: [https\\://www\\.uom.ac.mu](https://www.uom.ac.mu) The University of Mauritius is a public university offering undergraduate and postgraduate programmes in engineering. Its Department of Electrical and Electronic Engineering lists the MSc in Renewable Energy and Smart Electrical Systems for the 2026\u20132027 academic year. The programme is fully online and takes two years on a part-time basis. For students exploring **Electrical Engineering Universities in Mauritius**, the University of Mauritius is an institution to consider for its related postgraduate programme. This programme may suit students interested in smart electrical technologies, renewable energy and sustainable power systems. Applicants should review the curriculum to ensure it matches their intended career specialisation. Students can also consult the Higher Education Commission of Mauritius to check institutional recognition and programme information.",
+          "img": uniImg1
+        }
+      ],
       "unis_data": [
         {
           "name": "University of Mauritius (UoM)",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "Official website: [https\\://www\\.uom.ac.mu](https://www.uom.ac.mu) The University of Mauritius is a public university offering undergraduate and postgraduate programmes in engineering. Its Department of Electrical and Electronic Engineering lists the MSc in Renewable Energy and Smart Electrical Systems for the 2026\u20132027 academic year. The programme is fully online and takes two years on a part-time basis. For students exploring Electrical Engineering Universities in Mauritius, the University of Mauritius is an institution to consider for its related postgraduate programme. This programme may suit students interested in smart electrical technologies, renewable energy and sustainable power systems. Applicants should review the curriculum to ensure it matches their intended career specialisation. Students can also consult the Higher Education Commission of Mauritius to check institutional recognition and programme information.",
-          "img_var": "null"
+          "location": "University of Mauritius (UoM)",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "Official website: [https\\://www\\.uom.ac.mu](https://www.uom.ac.mu) The University of Mauritius is a public university offering undergraduate and postgraduate programmes in engineering. Its Department of Electrical and Electronic Engineering lists the MSc in Renewable Energy and Smart Electrical Systems for the 2026\u20132027 academic year. The programme is fully online and takes two years on a part-time basis. For students exploring **Electrical Engineering Universities in Mauritius**, the University of Mauritius is an institution to consider for its related postgraduate programme. This programme may suit students interested in smart electrical technologies, renewable energy and sustainable power systems. Applicants should review the curriculum to ensure it matches their intended career specialisation. Students can also consult the Higher Education Commission of Mauritius to check institutional recognition and programme information.",
+          "img": uniImg1
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and student visa requirements before submitting their applications."
+        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
       ]
     },
     {
@@ -222,8 +256,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "These are indicative estimates for budgeting, not an official university cost breakdown. Actual expenses vary with accommodation and lifestyle.",
-            "**Estimated living expenses by duration**"
+            "These are indicative estimates for budgeting, not an official university cost breakdown. Actual expenses vary with accommodation and lifestyle."
           ]
         },
         {
@@ -349,26 +382,31 @@ const page = {
       ]
     }
   ],
+  "universities": [
+    {
+      "name": "University of Mauritius (UoM)",
+      "location": "University of Mauritius (UoM)",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "Official website: [https\\://www\\.uom.ac.mu](https://www.uom.ac.mu) The University of Mauritius is a public university offering undergraduate and postgraduate programmes in engineering. Its Department of Electrical and Electronic Engineering lists the MSc in Renewable Energy and Smart Electrical Systems for the 2026\u20132027 academic year. The programme is fully online and takes two years on a part-time basis. For students exploring **Electrical Engineering Universities in Mauritius**, the University of Mauritius is an institution to consider for its related postgraduate programme. This programme may suit students interested in smart electrical technologies, renewable energy and sustainable power systems. Applicants should review the curriculum to ensure it matches their intended career specialisation. Students can also consult the Higher Education Commission of Mauritius to check institutional recognition and programme information.",
+      "img": uniImg1
+    }
+  ],
   "faqs": [
     {
-      "q": "Is a Master\u2019s in Electrical Engineering available in Mauritius?",
-      "a": "A dedicated Master\u2019s in Electrical Engineering was not found in the University of Mauritius\u2019s published postgraduate list for 2026\u20132027. However, the university offers an MSc in Renewable Energy and Smart Electrical Systems, which is related to electrical engineering. This distinction is important for Master\u2019s in Electrical Engineering in Mauritius for Indian Students comparing postgraduate options."
+      "q": "Can Indian students apply for Electrical Engineering (PG) in Mauritius?",
+      "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
     },
     {
-      "q": "Which university offers a related postgraduate course?",
-      "a": "The University of Mauritius offers the MSc in Renewable Energy and Smart Electrical Systems. It is a two-year, part-time programme delivered fully online."
+      "q": "What is the medium of instruction for Electrical Engineering (PG) in Mauritius?",
+      "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
     },
     {
-      "q": "What are the eligibility requirements?",
-      "a": "The published programme requirements include a recognised engineering or science degree, at least a second-class honours classification or an accepted equivalent, and IELTS 6.5 overall with no component below 5.5 or an accepted equivalent English qualification. Confirm the latest criteria directly with the university."
+      "q": "What are the typical tuition fees for Electrical Engineering (PG) in Mauritius?",
+      "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
     },
     {
-      "q": "What is the cost of studying Electrical Engineering in Mauritius?",
-      "a": "The tuition fee should be confirmed with the university for the current intake. Indicative living expenses for a student living in Mauritius are estimated at MUR 15,000\u201325,000 per month, approximately \u20b928,500\u2013\u20b947,500 using the illustrative exchange rate in this article. Students taking the fully online programme from India may not need to pay for accommodation in Mauritius."
-    },
-    {
-      "q": "What careers can I pursue after a postgraduate electrical engineering course?",
-      "a": "Depending on the programme and your experience, potential roles include electrical engineer, power systems engineer, renewable energy engineer, electrical design engineer, automation engineer and energy systems analyst. Specialised positions may require additional technical experience or professional registration. Edu-Hawk Worldwide supports students exploring international education opportunities by helping them understand programme options, eligibility and the application process."
+      "q": "Is a student visa required for Indian students?",
+      "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

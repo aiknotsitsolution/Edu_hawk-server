@@ -7,13 +7,18 @@ import heroBgImg from "../../../../Images/Abroad/Mauritius/InformationTechnology
 import sideImg from "../../../../Images/Abroad/Mauritius/InformationTechnology/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Mauritius/InformationTechnology/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../Images/Abroad/Mauritius/InformationTechnology/image1.png";
+import uniImg2 from "../../../../Images/Abroad/Mauritius/InformationTechnology/image2.png";
+import uniImg3 from "../../../../Images/Abroad/Mauritius/InformationTechnology/image3.png";
+
 const page = {
-  "name": "Information Technology in Mauritius",
+  "name": "Information Technology",
   "country": "Mauritius",
   "slug": "information-technology",
-  "title": "Bachelor\u2019s and Master\u2019s in Information Technology in Mauritius for Indian Students in Mauritius for Indian Students | Edu-Hawk Worldwide",
+  "title": "Information Technology in Mauritius for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Information Technology in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study Information Technology in Mauritius, Information Technology in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Information Technology in Mauritius Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
+  "keywords": "Study Information Technology in Mauritius, Information Technology in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Information Technology Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
   "introTitle": "Information Technology in Mauritius for Indian Students",
   "heroParas": [
     "Comprehensive guide to studying Information Technology in Mauritius for Indian students."
@@ -25,20 +30,42 @@ const page = {
   "crumb": "Information Technology",
   "stats": [
     {
-      "label": "Degree Choices",
-      "value": "B.Sc. & M.Sc. in IT"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "label": "Language of Study",
-      "value": "English & Bilingual"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "label": "Top Institutions",
-      "value": "UoM, UTM, UdM & Middlesex"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "label": "Indicative Fees",
-      "value": "MUR 150,000 \u2013 MUR 350,000 / Year"
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
     }
   ],
   "sections": [
@@ -138,32 +165,55 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Top Universities for Information Technology in Mauritius",
-      "lead": "Explore leading universities and institutions in Mauritius offering accredited Information Technology in Mauritius programmes, modern campuses, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Mauritius offering accredited Information Technology programmes, modern campuses, and international student support.",
+      "unis": [
         {
           "name": "Middlesex University Mauritius",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "The university offers a BSc (Hons) Information Technology designed for students interested in computing and IT-related careers. Its published course information lists a three-year, full-time programme for the September 2026 intake. Official course page",
-          "img_var": "null"
+          "location": "Middlesex University Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "The university offers a BSc (Hons) Information Technology designed for students interested in computing and IT-related careers. Its published course information lists a three-year, full-time programme for the September 2026 intake.",
+          "img": uniImg1
         },
         {
           "name": "Open University of Mauritius",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "The university offers a BSc (Hons) Computer Science and postgraduate options including MSc Information Technology (Conversion) and MSc Applied Computing and Digital Technologies. These programmes can suit students seeking flexible study options in computing. Official website",
-          "img_var": "null"
+          "location": "Open University of Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "The university offers a BSc (Hons) Computer Science and postgraduate options including MSc Information Technology (Conversion) and MSc Applied Computing and Digital Technologies. These programmes can suit students seeking flexible study options in computing.",
+          "img": uniImg2
         },
         {
           "name": "University of Mauritius (UoM)",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "UoM offers postgraduate programmes related to computing, including MSc Artificial Intelligence and MSc Software Project Management. These are useful options for students who want to specialise in AI or technology project management rather than pursue a general IT master\u2019s. Official website When comparing Information Technology Universities in Mauritius, students should consider the course structure, available specialisations, academic requirements and tuition fees. Edu-Hawk Worldwide can help students understand the available study pathways and university options.",
-          "img_var": "null"
+          "location": "University of Mauritius (UoM)",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "UoM offers postgraduate programmes related to computing, including MSc Artificial Intelligence and MSc Software Project Management. These are useful options for students who want to specialise in AI or technology project management rather than pursue a general IT master\u2019s. When comparing **Information Technology Universities in Mauritius**, students should consider the course structure, available specialisations, academic requirements and tuition fees. **Edu-Hawk Worldwide** can help students understand the available study pathways and university options.",
+          "img": uniImg3
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "Middlesex University Mauritius",
+          "location": "Middlesex University Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "The university offers a BSc (Hons) Information Technology designed for students interested in computing and IT-related careers. Its published course information lists a three-year, full-time programme for the September 2026 intake.",
+          "img": uniImg1
+        },
+        {
+          "name": "Open University of Mauritius",
+          "location": "Open University of Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "The university offers a BSc (Hons) Computer Science and postgraduate options including MSc Information Technology (Conversion) and MSc Applied Computing and Digital Technologies. These programmes can suit students seeking flexible study options in computing.",
+          "img": uniImg2
+        },
+        {
+          "name": "University of Mauritius (UoM)",
+          "location": "University of Mauritius (UoM)",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "UoM offers postgraduate programmes related to computing, including MSc Artificial Intelligence and MSc Software Project Management. These are useful options for students who want to specialise in AI or technology project management rather than pursue a general IT master\u2019s. When comparing **Information Technology Universities in Mauritius**, students should consider the course structure, available specialisations, academic requirements and tuition fees. **Edu-Hawk Worldwide** can help students understand the available study pathways and university options.",
+          "img": uniImg3
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and student visa requirements before submitting their applications."
+        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
       ]
     },
     {
@@ -249,8 +299,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "The total cost depends on the selected institution, programme duration, tuition fees, accommodation and personal spending. **Information Technology Fees in Mauritius** vary according to the programme and university. Students planning **Bachelor\u2019s and Master\u2019s in Information Technology in Mauritius for Indian Students** should check the latest international fee information before making financial arrangements.",
-            "**Tuition fees**"
+            "The total cost depends on the selected institution, programme duration, tuition fees, accommodation and personal spending. **Information Technology Fees in Mauritius** vary according to the programme and university. Students planning **Bachelor\u2019s and Master\u2019s in Information Technology in Mauritius for Indian Students** should check the latest international fee information before making financial arrangements."
           ]
         },
         {
@@ -288,7 +337,6 @@ const page = {
           "items": [
             "The Middlesex fee is published for the 2026\u20132027 intake and includes the administrative fee. The Open University fees are published for international non-SADC applicants. Confirm the latest fee and payment conditions directly with each institution.",
             "INR equivalents vary with exchange rates, bank charges and payment dates. The fees above should not be treated as guaranteed future totals.",
-            "**Estimated living expenses**",
             "Students relocating to Mauritius should budget separately for accommodation, food, transport and other daily expenses."
           ]
         },
@@ -517,26 +565,45 @@ const page = {
       ]
     }
   ],
+  "universities": [
+    {
+      "name": "Middlesex University Mauritius",
+      "location": "Middlesex University Mauritius",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "The university offers a BSc (Hons) Information Technology designed for students interested in computing and IT-related careers. Its published course information lists a three-year, full-time programme for the September 2026 intake.",
+      "img": uniImg1
+    },
+    {
+      "name": "Open University of Mauritius",
+      "location": "Open University of Mauritius",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "The university offers a BSc (Hons) Computer Science and postgraduate options including MSc Information Technology (Conversion) and MSc Applied Computing and Digital Technologies. These programmes can suit students seeking flexible study options in computing.",
+      "img": uniImg2
+    },
+    {
+      "name": "University of Mauritius (UoM)",
+      "location": "University of Mauritius (UoM)",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "UoM offers postgraduate programmes related to computing, including MSc Artificial Intelligence and MSc Software Project Management. These are useful options for students who want to specialise in AI or technology project management rather than pursue a general IT master\u2019s. When comparing **Information Technology Universities in Mauritius**, students should consider the course structure, available specialisations, academic requirements and tuition fees. **Edu-Hawk Worldwide** can help students understand the available study pathways and university options.",
+      "img": uniImg3
+    }
+  ],
   "faqs": [
     {
-      "q": "Is a Bachelor\u2019s in Information Technology available in Mauritius?",
-      "a": "Yes. Middlesex University Mauritius lists a BSc (Hons) Information Technology with a three-year, full-time duration for the September 2026 intake."
+      "q": "Can Indian students apply for Information Technology in Mauritius?",
+      "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
     },
     {
-      "q": "Which master\u2019s degrees related to IT are available in Mauritius?",
-      "a": "Related options include the MSc Information Technology (Conversion) and MSc Applied Computing and Digital Technologies at the Open University of Mauritius. The University of Mauritius also lists MSc Artificial Intelligence and MSc Software Project Management."
+      "q": "What is the medium of instruction for Information Technology in Mauritius?",
+      "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
     },
     {
-      "q": "What are the tuition fees for international students?",
-      "a": "Published examples include \u00a36,400 for Middlesex University Mauritius\u2019s BSc Information Technology and US\\$5,620 for the Open University of Mauritius\u2019s MSc Applied Computing and Digital Technologies. Information Technology Fees in Mauritius can change, so confirm the current amount before applying."
+      "q": "What are the typical tuition fees for Information Technology in Mauritius?",
+      "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
     },
     {
-      "q": "What is the estimated cost of living in Mauritius?",
-      "a": "A preliminary budget is MUR 15,000\u201325,000 per month, approximately \u20b930,000\u2013\u20b950,000 using the illustrative exchange rate in this article. Actual costs depend on accommodation, transport and lifestyle."
-    },
-    {
-      "q": "What jobs can I pursue after studying Information Technology?",
-      "a": "Depending on your specialisation and experience, you may explore software development, IT support, network administration, cybersecurity, cloud computing, data analysis or IT consulting. Practical projects and internships can strengthen your career prospects."
+      "q": "Is a student visa required for Indian students?",
+      "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

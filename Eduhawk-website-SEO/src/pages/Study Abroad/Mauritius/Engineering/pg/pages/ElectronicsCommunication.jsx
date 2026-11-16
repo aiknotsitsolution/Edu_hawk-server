@@ -7,13 +7,17 @@ import heroBgImg from "../../../../../../Images/Abroad/Mauritius/Engineering_PG/
 import sideImg from "../../../../../../Images/Abroad/Mauritius/Engineering_PG/Electronics/side.webp";
 import ctaBgImg from "../../../../../../Images/Abroad/Mauritius/Engineering_PG/Electronics/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../../../Images/Abroad/Mauritius/Engineering_PG/Electronics/image1.png";
+import uniImg2 from "../../../../../../Images/Abroad/Mauritius/Engineering_PG/Electronics/image2.png";
+
 const page = {
-  "name": "Electronics & Communication (PG) in Mauritius",
+  "name": "Electronics & Communication (PG)",
   "country": "Mauritius",
   "slug": "pg/electronics-communication",
-  "title": "Master\u2019s in Electronics Engineering in Mauritius for Indian Students | Edu-Hawk Worldwide",
+  "title": "Electronics & Communication (PG) in Mauritius for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Electronics & Communication (PG) in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study Electronics & Communication (PG) in Mauritius, Electronics & Communication (PG) in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Electronics & Communication (PG) in Mauritius Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
+  "keywords": "Study Electronics & Communication (PG) in Mauritius, Electronics & Communication (PG) in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Electronics & Communication (PG) Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
   "introTitle": "Electronics & Communication (PG) in Mauritius for Indian Students",
   "heroParas": [
     "Comprehensive guide to studying Electronics & Communication (PG) in Mauritius for Indian students."
@@ -25,20 +29,42 @@ const page = {
   "crumb": "Engineering / PG Engineering",
   "stats": [
     {
-      "label": "Degree Choices",
-      "value": "M.Eng / M.Sc. Electronics Engineering"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "label": "Language of Study",
-      "value": "English & Bilingual"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "label": "Top Institutions",
-      "value": "UoM, UTM, UdM & Middlesex"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "label": "Indicative Fees",
-      "value": "MUR 150,000 \u2013 MUR 350,000 / Year"
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
     }
   ],
   "sections": [
@@ -104,25 +130,41 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Top Universities for Master\u2019s in Electronics Engineering in Mauritius",
-      "lead": "Explore leading universities and institutions in Mauritius offering accredited Electronics & Communication (PG) in Mauritius programmes, modern campuses, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Mauritius offering accredited Electronics & Communication (PG) programmes, modern campuses, and international student support.",
+      "unis": [
         {
           "name": "University of Mauritius (UoM)",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "mauritius-life.com The University of Mauritius lists undergraduate programmes in Electrical and Electronic Engineering and Telecommunications Engineering with Networking. Its relevant postgraduate option for 2026\u20132027 is the MSc Renewable Energy and Smart Electrical Systems, which is fully online and part-time. It may suit students interested in smart electrical systems and energy technologies, rather than a broad electronics-engineering specialisation. Students exploring Electronics Engineering Universities in Mauritius can consider this institution and compare its course structure with their academic goals.",
-          "img_var": "null"
+          "location": "University of Mauritius (UoM)",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "The University of Mauritius lists undergraduate programmes in Electrical and Electronic Engineering and Telecommunications Engineering with Networking. Its relevant postgraduate option for 2026\u20132027 is the MSc Renewable Energy and Smart Electrical Systems, which is fully online and part-time. It may suit students interested in smart electrical systems and energy technologies, rather than a broad electronics-engineering specialisation. Students exploring **Electronics Engineering Universities in Mauritius** can consider this institution and compare its course structure with their academic goals.",
+          "img": uniImg1
         },
         {
           "name": "Universit\u00e9 des Mascareignes (UdM)",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "udm.ac.mu UdM\u2019s Faculty of Sustainable Development and Engineering lists programmes such as MSc Industrial Internet of Things, while its postgraduate options also include a Master in Artificial Intelligence and Robotics. These may be relevant for students interested in connected devices, automation and intelligent systems. Students looking for Master\u2019s in Electronics Engineering Universities in Mauritius should confirm the current international-student intake, entry requirements and module list directly with the university.",
-          "img_var": "null"
+          "location": "Universit\u00e9 des Mascareignes (UdM), Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "UdM\u2019s Faculty of Sustainable Development and Engineering lists programmes such as MSc Industrial Internet of Things, while its postgraduate options also include a Master in Artificial Intelligence and Robotics. These may be relevant for students interested in connected devices, automation and intelligent systems. Students looking for **Master\u2019s in Electronics Engineering Universities in Mauritius** should confirm the current international-student intake, entry requirements and module list directly with the university.",
+          "img": uniImg2
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "University of Mauritius (UoM)",
+          "location": "University of Mauritius (UoM)",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "The University of Mauritius lists undergraduate programmes in Electrical and Electronic Engineering and Telecommunications Engineering with Networking. Its relevant postgraduate option for 2026\u20132027 is the MSc Renewable Energy and Smart Electrical Systems, which is fully online and part-time. It may suit students interested in smart electrical systems and energy technologies, rather than a broad electronics-engineering specialisation. Students exploring **Electronics Engineering Universities in Mauritius** can consider this institution and compare its course structure with their academic goals.",
+          "img": uniImg1
+        },
+        {
+          "name": "Universit\u00e9 des Mascareignes (UdM)",
+          "location": "Universit\u00e9 des Mascareignes (UdM), Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "UdM\u2019s Faculty of Sustainable Development and Engineering lists programmes such as MSc Industrial Internet of Things, while its postgraduate options also include a Master in Artificial Intelligence and Robotics. These may be relevant for students interested in connected devices, automation and intelligent systems. Students looking for **Master\u2019s in Electronics Engineering Universities in Mauritius** should confirm the current international-student intake, entry requirements and module list directly with the university.",
+          "img": uniImg2
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and student visa requirements before submitting their applications."
+        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
       ]
     },
     {
@@ -169,7 +211,6 @@ const page = {
           "t": "p",
           "items": [
             "The overall cost depends on the university, course format, accommodation and personal spending. Since a dedicated Master\u2019s in Electronics Engineering is not listed in the reviewed catalogues, a confirmed tuition fee for that exact qualification cannot be provided. Students researching **Electronics Engineering Fees in Mauritius** and **Master\u2019s in Electronics Engineering Fees in Mauritius** should request the latest fee details for their chosen programme.",
-            "**Estimated living expenses**",
             "The following is an indicative planning budget for a student living in Mauritius. Actual costs can vary by accommodation and lifestyle. These estimates can help Indian applicants planning to **Study Electronics Engineering in Mauritius** understand general living costs."
           ]
         },
@@ -332,26 +373,38 @@ const page = {
       ]
     }
   ],
+  "universities": [
+    {
+      "name": "University of Mauritius (UoM)",
+      "location": "University of Mauritius (UoM)",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "The University of Mauritius lists undergraduate programmes in Electrical and Electronic Engineering and Telecommunications Engineering with Networking. Its relevant postgraduate option for 2026\u20132027 is the MSc Renewable Energy and Smart Electrical Systems, which is fully online and part-time. It may suit students interested in smart electrical systems and energy technologies, rather than a broad electronics-engineering specialisation. Students exploring **Electronics Engineering Universities in Mauritius** can consider this institution and compare its course structure with their academic goals.",
+      "img": uniImg1
+    },
+    {
+      "name": "Universit\u00e9 des Mascareignes (UdM)",
+      "location": "Universit\u00e9 des Mascareignes (UdM), Mauritius",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "UdM\u2019s Faculty of Sustainable Development and Engineering lists programmes such as MSc Industrial Internet of Things, while its postgraduate options also include a Master in Artificial Intelligence and Robotics. These may be relevant for students interested in connected devices, automation and intelligent systems. Students looking for **Master\u2019s in Electronics Engineering Universities in Mauritius** should confirm the current international-student intake, entry requirements and module list directly with the university.",
+      "img": uniImg2
+    }
+  ],
   "faqs": [
     {
-      "q": "Is a Master\u2019s in Electronics Engineering available in Mauritius?",
-      "a": "A dedicated Master\u2019s in Electronics Engineering is not listed in the University of Mauritius\u2019s published 2026\u20132027 programme list reviewed for this article. Related options include MSc Renewable Energy and Smart Electrical Systems and programmes in Industrial Internet of Things. Students searching for Master\u2019s in Electronics Engineering in Mauritius for Indian Students should compare these related courses carefully."
+      "q": "Can Indian students apply for Electronics & Communication (PG) in Mauritius?",
+      "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
     },
     {
-      "q": "Which university should I consider for a related course?",
-      "a": "Start by comparing the University of Mauritius and Universit\u00e9 des Mascareignes. These are among the Electronics Engineering Universities in Mauritius to explore for related postgraduate options. Review the official course structure, entry criteria, tuition fees and current intake before selecting a programme."
+      "q": "What is the medium of instruction for Electronics & Communication (PG) in Mauritius?",
+      "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
     },
     {
-      "q": "What is the cost of living for students in Mauritius?",
-      "a": "As a planning estimate, allow around MUR 15,000\u201325,000 per month, approximately \u20b930,000\u2013\u20b950,000 at the illustrative exchange rate used here. Your actual expenses may be higher or lower depending on housing and lifestyle."
+      "q": "What are the typical tuition fees for Electronics & Communication (PG) in Mauritius?",
+      "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
     },
     {
-      "q": "Can Indian students apply for postgraduate engineering programmes in Mauritius?",
-      "a": "International applicants should check the chosen university\u2019s international admissions requirements, qualification recognition, fees and any applicable study-permit conditions. Eligibility is determined by the institution and the specific programme."
-    },
-    {
-      "q": "What jobs can I pursue after a related master\u2019s degree?",
-      "a": "Depending on your specialisation and experience, you may explore roles in electronics design, embedded systems, telecommunications, IoT, automation or research and development. Check that the programme provides the technical subjects and practical experience required for your target role. Edu-Hawk Worldwide can help students explore international education options and understand programme selection, eligibility and application requirements."
+      "q": "Is a student visa required for Indian students?",
+      "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

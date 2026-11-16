@@ -7,13 +7,17 @@ import heroBgImg from "../../../../../../Images/Abroad/Mauritius/Engineering_UG/
 import sideImg from "../../../../../../Images/Abroad/Mauritius/Engineering_UG/Electrical/side.webp";
 import ctaBgImg from "../../../../../../Images/Abroad/Mauritius/Engineering_UG/Electrical/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../../../Images/Abroad/Mauritius/Engineering_UG/Electrical/image1.png";
+import uniImg2 from "../../../../../../Images/Abroad/Mauritius/Engineering_UG/Electrical/image2.png";
+
 const page = {
-  "name": "Electrical Engineering (UG) in Mauritius",
+  "name": "Electrical Engineering (UG)",
   "country": "Mauritius",
   "slug": "ug/electrical-engineering",
-  "title": "Bachelor\u2019s Electrical Engineering in Mauritius for Indian Students | Edu-Hawk Worldwide",
+  "title": "Electrical Engineering (UG) in Mauritius for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Electrical Engineering (UG) in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study Electrical Engineering (UG) in Mauritius, Electrical Engineering (UG) in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Electrical Engineering (UG) in Mauritius Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
+  "keywords": "Study Electrical Engineering (UG) in Mauritius, Electrical Engineering (UG) in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Electrical Engineering (UG) Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
   "introTitle": "Electrical Engineering (UG) in Mauritius for Indian Students",
   "heroParas": [
     "A degree in Electrical Engineering in Mauritius is an undergraduate course for students who want to study electrical power systems, electronics, industrial automation, renewable energy and electrical equipment. Related undergraduate degrees can be found in Mauritius, including BEng (Hons) Electrical and Electronic Engineering at the University of Mauritius and BEng (Hons) Electrical and Electronic Engineering Technology at Universit\u00e9 des Mascareignes. These options make **Electrical Engineering in Mauritius for Indian Students** a course worth exploring."
@@ -25,20 +29,42 @@ const page = {
   "crumb": "Engineering / UG Engineering",
   "stats": [
     {
-      "label": "Degree Choices",
-      "value": "B.Eng / B.Sc. Electrical Engineering"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "label": "Language of Study",
-      "value": "English & Bilingual"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "label": "Top Institutions",
-      "value": "UoM, UTM, UdM & Middlesex"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "label": "Indicative Fees",
-      "value": "MUR 150,000 \u2013 MUR 350,000 / Year"
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
     }
   ],
   "sections": [
@@ -51,7 +77,6 @@ const page = {
           "t": "p",
           "items": [
             "Electrical engineers deal with the generation, distribution, control and utilization of electrical energy. It also has overlaps with electronics, communication systems, automation and modern energy technologies. Students exploring **Electrical Engineering Courses in Mauritius** can consider these areas when choosing a suitable undergraduate program.",
-            "**Why study electrical engineering in Mauritius?**",
             "**Existing undergraduate options:** The University of Mauritius will be offering a four-year BEng (Hons) in Electrical and Electronic Engineering for the year 2026/2027.",
             "**Industry-oriented learning:** Universit\u00e9 des Mascareignes gives importance to practical and experimental learning through laboratory exercises, project work, design studies and technical assignments.",
             "**Power systems knowledge:** Students can acquire knowledge of electrical machines, transformers, generators, electrical distribution and power networks.",
@@ -70,8 +95,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Students can take undergraduate courses with different specializations depending on their interests, such as electrical power, electronics, industrial systems or automation. These specializations are important considerations for students planning to **Study Electrical Engineering in Mauritius**.",
-            "**Common fields of study**"
+            "Students can take undergraduate courses with different specializations depending on their interests, such as electrical power, electronics, industrial systems or automation. These specializations are important considerations for students planning to **Study Electrical Engineering in Mauritius**."
           ]
         },
         {
@@ -104,32 +128,41 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Best Universities for Electrical Engineering in Mauritius",
-      "lead": "Explore leading universities and institutions in Mauritius offering accredited Electrical Engineering (UG) in Mauritius programmes, modern campuses, and international student support.",
+      "lead": "Explore leading universities and institutions in Mauritius offering accredited Electrical Engineering (UG) programmes, modern campuses, and international student support.",
+      "unis": [
+        {
+          "name": "\\. University of Mauritius",
+          "location": "\\. University of Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "The university is offering a four-year, full-time BEng (Hons) Electrical and Electronic Engineering program (programme code E430) for the academic year 2026-2027. It is a choice for students with an interest in electrical systems, electronics, power engineering and related technical fields.",
+          "img": uniImg1
+        },
+        {
+          "name": "\\. University of the Mascarenes",
+          "location": "\\. University of the Mascarenes, Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "The university offers a BEng (Hons) in Electrical and Electronic Engineering Technology. The course information published emphasizes practical work, laboratory exercises, design projects and industrial training. **Picking the right degree:** Make a side-by-side comparison of the qualification title, length of course, modules, internship structure, tuition and eligibility for any professional registration you may need. These programs are related but not the same qualification. Indian applicants planning **Electrical Engineering in Mauritius for Indian Students** should compare the available universities and qualifications carefully.",
+          "img": uniImg2
+        }
+      ],
       "unis_data": [
         {
-          "name": "University of Mauritius",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "The university is offering a four-year, full-time BEng (Hons) Electrical and Electronic Engineering program (programme code E430) for the academic year 2026-2027. It is a choice for students with an interest in electrical systems, electronics, power engineering and related technical fields. Official website: uom.ac.mu",
-          "img_var": "null"
+          "name": "\\. University of Mauritius",
+          "location": "\\. University of Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "The university is offering a four-year, full-time BEng (Hons) Electrical and Electronic Engineering program (programme code E430) for the academic year 2026-2027. It is a choice for students with an interest in electrical systems, electronics, power engineering and related technical fields.",
+          "img": uniImg1
         },
         {
-          "name": "University of the Mascarenes",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "The university offers a BEng (Hons) in Electrical and Electronic Engineering Technology. The course information published emphasizes practical work, laboratory exercises, design projects and industrial training. Official program page: Electrical and Electronic Engineering Technology",
-          "img_var": "null"
-        },
-        {
-          "name": "Universit\u00e9 des Mascareignes, Electrical Engineering and Automation",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "Students interested in industrial control, electrical machines, instrumentation and automation can also consider the university\u2019s BSc (Hons) Electrical Engineering and Automation. This is a separate program to the institution\u2019s BEng route, so listed as such. Official program page: Electrical Engineering and Automation Picking the right degree: Make a side-by-side comparison of the qualification title, length of course, modules, internship structure, tuition and eligibility for any professional registration you may need. These programs are related but not the same qualification. Indian applicants planning Electrical Engineering in Mauritius for Indian Students should compare the available universities and qualifications carefully.",
-          "img_var": "null"
+          "name": "\\. University of the Mascarenes",
+          "location": "\\. University of the Mascarenes, Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "The university offers a BEng (Hons) in Electrical and Electronic Engineering Technology. The course information published emphasizes practical work, laboratory exercises, design projects and industrial training. **Picking the right degree:** Make a side-by-side comparison of the qualification title, length of course, modules, internship structure, tuition and eligibility for any professional registration you may need. These programs are related but not the same qualification. Indian applicants planning **Electrical Engineering in Mauritius for Indian Students** should compare the available universities and qualifications carefully.",
+          "img": uniImg2
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and student visa requirements before submitting their applications."
+        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
       ]
     },
     {
@@ -289,8 +322,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Students may do postgraduate study to specialize in a technical field after finishing an undergraduate degree in electrical engineering.",
-            "**Possible options**"
+            "Students may do postgraduate study to specialize in a technical field after finishing an undergraduate degree in electrical engineering."
           ]
         },
         {
@@ -386,26 +418,38 @@ const page = {
       ]
     }
   ],
+  "universities": [
+    {
+      "name": "\\. University of Mauritius",
+      "location": "\\. University of Mauritius",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "The university is offering a four-year, full-time BEng (Hons) Electrical and Electronic Engineering program (programme code E430) for the academic year 2026-2027. It is a choice for students with an interest in electrical systems, electronics, power engineering and related technical fields.",
+      "img": uniImg1
+    },
+    {
+      "name": "\\. University of the Mascarenes",
+      "location": "\\. University of the Mascarenes, Mauritius",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "The university offers a BEng (Hons) in Electrical and Electronic Engineering Technology. The course information published emphasizes practical work, laboratory exercises, design projects and industrial training. **Picking the right degree:** Make a side-by-side comparison of the qualification title, length of course, modules, internship structure, tuition and eligibility for any professional registration you may need. These programs are related but not the same qualification. Indian applicants planning **Electrical Engineering in Mauritius for Indian Students** should compare the available universities and qualifications carefully.",
+      "img": uniImg2
+    }
+  ],
   "faqs": [
     {
-      "q": "How long does it take to get a Bachelor\u2019s in Electrical Engineering in Mauritius?",
-      "a": "The University of Mauritius runs a 4 year full-time BEng (Hons) in Electrical and Electronic Engineering. Universit\u00e9 des Mascareignes also offers a 4 year BEng program in Electrical and Electronic Engineering Technology."
+      "q": "Can Indian students apply for Electrical Engineering (UG) in Mauritius?",
+      "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
     },
     {
-      "q": "What universities in Mauritius offer electrical engineering?",
-      "a": "The University of Mauritius and Universit\u00e9 des Mascareignes provide relevant undergraduate courses. The latter also runs a separate program in Electrical Engineering and Automation. These are among the Electrical Engineering Universities in Mauritius that students can explore."
+      "q": "What is the medium of instruction for Electrical Engineering (UG) in Mauritius?",
+      "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
     },
     {
-      "q": "What are eligibility criteria for Indian students?",
-      "a": "Applicants usually need to have a Class 12 or equivalent qualification with appropriate mathematics and science subjects. The precise combinations of subjects and the grade requirements depend on the program and university selected. Students should verify the Electrical Engineering Eligibility in Mauritius with their chosen institution."
+      "q": "What are the typical tuition fees for Electrical Engineering (UG) in Mauritius?",
+      "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
     },
     {
-      "q": "How much is the cost of studying Electrical Engineering in Mauritius in INR?",
-      "a": "Universit\u00e9 des Mascareignes has a non-SADC international fee category of MUR 84,000 per year, which is roughly around \u20b91.60 lakh at the illustrative conversion used here. The estimated living costs may total an estimated \u20b94.67\u2013\u20b98.89 lakh per year. Please check the tuition for your particular course before applying. The Electrical Engineering Fees in Mauritius may vary depending on the university and program."
-    },
-    {
-      "q": "What jobs can I get after studying Electrical Engineering?",
-      "a": "Graduates may be interested in positions in electrical design, power systems, automation, control systems, maintenance, electronics, renewable energy and instrumentation. Your career options will be influenced by the degree, practical skills, experience and local employment requirements. Edu-Hawk Worldwide can guide students in exploring study options, understanding admission procedures and preparing for their international education journey."
+      "q": "Is a student visa required for Indian students?",
+      "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

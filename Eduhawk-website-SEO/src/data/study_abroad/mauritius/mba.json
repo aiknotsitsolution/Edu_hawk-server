@@ -1,87 +1,109 @@
 {
   "seo": {
-    "title": "M.B.A. in Mauritius for Indian Students | Edu-Hawk Worldwide",
+    "title": "MBA in Mauritius for Indian Students | Edu-Hawk Worldwide",
     "description": "Study MBA in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students."
   },
   "hero": {
     "badge": "Study Abroad - Mauritius",
-    "title": "MBA in Mauritius",
-    "subtitle": "An **MBA in Mauritius for Indian Students** is a postgraduate business qualification for graduates and professionals who wish to improve their leadership, strategic thinking, financial management and decision making skills. Students can opt for general MBA programs or specializations in marketing, finance, human resources, international business and business analytics. Choosing to **Study MBA in Mauritius** gives students an opportunity to explore business education in an international environment while developing management and leadership skills.",
-    "ctaText": "Book Free Counselling",
-    "image": ""
+    "title": "MBA in Mauritius for Indian Students",
+    "paras": [
+      "An **MBA in Mauritius for Indian Students** is a postgraduate business qualification for graduates and professionals who wish to improve their leadership, strategic thinking, financial management and decision making skills. Students can opt for general MBA programs or specializations in marketing, finance, human resources, international business and business analytics. Choosing to **Study MBA in Mauritius** gives students an opportunity to explore business education in an international environment while developing management and leadership skills."
+    ]
   },
   "stats": [
     {
-      "n": "1000+",
-      "l": "Students Placed Globally"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "n": "20+",
-      "l": "Countries"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "n": "200+",
-      "l": "Partner Universities"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "n": "100%",
-      "l": "Support (Visa & Post-Study Work Guidance)"
+      "val": "Permitted",
+      "label": "Part-Time Work"
     }
   ],
-  "highlights": {
-    "degree": "Master of Business Administration",
-    "duration": "3\u20134 Yrs (UG) / 1.5\u20132 Yrs (PG)",
-    "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-    "eligibility": "Class 12 / Bachelor's degree + English proficiency",
-    "medium": "English / Bilingual"
-  },
-  "overview": "Some of the institutions offering MBA in Mauritius are Middlesex University Mauritius, The Open University of Mauritius, University of Mauritius, and Amity Institute of Higher Education. The length of the program, tuition fees, the way the courses are delivered and entry requirements vary, so students should compare each before applying. Students exploring an **MBA in Mauritius for Indian Students** should also compare the course structure, recognition, specialization options and international student fees before selecting a university.",
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
+    }
+  ],
+  "overview": [
+    "Some of the institutions offering MBA in Mauritius are Middlesex University Mauritius, The Open University of Mauritius, University of Mauritius, and Amity Institute of Higher Education. The length of the program, tuition fees, the way the courses are delivered and entry requirements vary, so students should compare each before applying. Students exploring an **MBA in Mauritius for Indian Students** should also compare the course structure, recognition, specialization options and international student fees before selecting a university."
+  ],
   "universities": [
     {
-      "name": "Middlesex University, Mauritius",
-      "location": "Mauritius",
-      "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-      "image": ""
+      "name": "University of Mauritius (UoM)",
+      "location": "Reduit, Mauritius",
+      "fee": "MUR 150,000 – 350,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/MBA/image1.png"
     },
     {
-      "name": "University of Mauritius",
-      "location": "Mauritius",
-      "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-      "image": ""
+      "name": "Université des Mascareignes (UdM)",
+      "location": "Rose Hill, Mauritius",
+      "fee": "MUR 180,000 – 320,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/MBA/image2.png"
     },
     {
-      "name": "Mauritius Open University",
-      "location": "Mauritius",
-      "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-      "image": ""
+      "name": "University of Technology, Mauritius (UTM)",
+      "location": "La Tour Koenig, Mauritius",
+      "fee": "MUR 160,000 – 280,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/MBA/image3.png"
     },
     {
-      "name": "Amity Institute of Higher Education (AIM)",
-      "location": "Mauritius",
-      "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-      "image": ""
+      "name": "Middlesex University Mauritius",
+      "location": "Flic en Flac, Mauritius",
+      "fee": "MUR 250,000 – 450,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/MBA/image1.png"
+    },
+    {
+      "name": "Curtin Mauritius",
+      "location": "Moka, Mauritius",
+      "fee": "MUR 280,000 – 420,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/MBA/image2.png"
     }
   ],
-  "faq": [
-    {
-      "question": "Duration of MBA in Mauritius?",
-      "answer": "Length: Varies by university and mode of study. Middlesex University Mauritius delivers the course in one year full time or two years part time. The University of Mauritius describes its MBA as a two-year part-time program, and the Open University of Mauritius offers a flexible two-to-four year route."
-    },
-    {
-      "question": "How much does an MBA cost in Mauritius?",
-      "answer": "Published examples start at US$3,000forAmity\u2019sMBAandgoupto\u00a310,300forMiddlesexUniversityMauritius\u2019sinternationalMBA.TheOpenUniversityofMauritiusMBAGeneralispricedatUS$6,845 for international students from outside the SADC. These fees have different program structures and need to be compared carefully. Students should also consider living expenses when calculating the overall Cost of MBA in Mauritius."
-    },
-    {
-      "question": "Can the Indian students apply for MBA in Mauritius?",
-      "answer": "Indian students can apply if they meet the academic, English language and other entry requirements of the chosen university. They should also verify the applicable international fee category and student-permit process before accepting an offer. An MBA in Mauritius for Indian Students can be considered by graduates who meet the programme-specific admission criteria."
-    },
-    {
-      "question": "Is work experience a mandatory requirement for an MBA in Mauritius?",
-      "answer": "Not always. Requirements differ from university to university and program to program. Some MBA programs will look at graduates with little work experience, others will expect relevant professional or management experience. Please check the exact entry requirements when applying."
-    },
-    {
-      "question": "Which is the best university for MBA in Mauritius?",
-      "answer": "The best choice will depend on your budget, preferred mode of study, specialization, entry qualifications and career aspirations. Middlesex University Mauritius has specialist MBA pathways while the University of Mauritius offers a number of part-time options, the Open University of Mauritius has a flexible distance-learning route and Amity lists full-time and online options. Before you decide, check out program recognition, curriculum, total cost and admission requirements. Students should compare the available MBA Programs in Mauritius and review the course structure, tuition fees and recognition before making a final decision. Exploring different MBA Universities in Mauritius can help applicants find a programme that supports their professional goals. Plan Your MBA Journey with Edu-Hawk Worldwide Choosing the right MBA requires careful consideration of university recognition, programme structure, specializations, tuition fees and admission requirements. Edu-Hawk Worldwide helps Indian students explore suitable international education options and understand the application process for an MBA in Mauritius for Indian Students."
-    }
-  ]
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "Can Indian students apply for MBA in Mauritius?",
+        "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
+      },
+      {
+        "q": "What is the medium of instruction for MBA in Mauritius?",
+        "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
+      },
+      {
+        "q": "What are the typical tuition fees for MBA in Mauritius?",
+        "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
+      },
+      {
+        "q": "Is a student visa required for Indian students?",
+        "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
+      }
+    ]
+  }
 }

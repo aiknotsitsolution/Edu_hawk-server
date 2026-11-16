@@ -7,13 +7,17 @@ import heroBgImg from "../../../../../../Images/Abroad/Mauritius/Engineering_UG/
 import sideImg from "../../../../../../Images/Abroad/Mauritius/Engineering_UG/Civil/side.webp";
 import ctaBgImg from "../../../../../../Images/Abroad/Mauritius/Engineering_UG/Civil/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../../../Images/Abroad/Mauritius/Engineering_UG/Civil/image1.png";
+import uniImg2 from "../../../../../../Images/Abroad/Mauritius/Engineering_UG/Civil/image2.png";
+
 const page = {
-  "name": "Civil Engineering (UG) in Mauritius",
+  "name": "Civil Engineering (UG)",
   "country": "Mauritius",
   "slug": "ug/civil-engineering",
-  "title": "Bachelor of Civil Engineering Mauritius in Mauritius for Indian Students | Edu-Hawk Worldwide",
+  "title": "Civil Engineering (UG) in Mauritius for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Civil Engineering (UG) in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study Civil Engineering (UG) in Mauritius, Civil Engineering (UG) in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Civil Engineering (UG) in Mauritius Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
+  "keywords": "Study Civil Engineering (UG) in Mauritius, Civil Engineering (UG) in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Civil Engineering (UG) Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
   "introTitle": "Civil Engineering (UG) in Mauritius for Indian Students",
   "heroParas": [
     "A **Bachelor\u2019s in Civil Engineering in Mauritius for Indian Students** is an undergraduate program for students who wish to pursue a career in construction, infrastructure development, structural design, transportation or water resource management. The University of Mauritius has an opening for Bachelor of Engineering (Honours) in Civil Engineering for the academic year 2026-2027. It is a 4-year full-time course. Universit\u00e9 des Mascareignes also has a four-year BEng program in Civil Engineering. Students planning to **Study Civil Engineering in Mauritius** can explore these undergraduate opportunities and compare the available **Civil Engineering Courses in Mauritius**."
@@ -25,27 +29,49 @@ const page = {
   "crumb": "Engineering / UG Engineering",
   "stats": [
     {
-      "label": "Degree Choices",
-      "value": "B.Eng / B.Sc. Civil Engineering"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "label": "Language of Study",
-      "value": "English & Bilingual"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "label": "Top Institutions",
-      "value": "UoM, UTM, UdM & Middlesex"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "label": "Indicative Fees",
-      "value": "MUR 150,000 \u2013 MUR 350,000 / Year"
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
     }
   ],
   "sections": [
     {
       "slot": "why",
       "eyebrow": "Why Mauritius",
-      "title": "Why to choose Civil Engineering in Mauritius?",
+      "title": "Why choose Civil Engineering in Mauritius?",
       "groups": [
         {
           "t": "p",
@@ -104,25 +130,41 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Top Civil Engineering Universities in Mauritius",
-      "lead": "Explore leading universities and institutions in Mauritius offering accredited Civil Engineering (UG) in Mauritius programmes, modern campuses, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Mauritius offering accredited Civil Engineering (UG) programmes, modern campuses, and international student support.",
+      "unis": [
         {
-          "name": "Mauritius University",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
+          "name": "\\. Mauritius University",
+          "location": "\\. Mauritius University",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
           "desc": "Civil Engineering BEng (Hons) (Programme Code: E410) The BEng (Hons) Civil Engineering degree is offered as a full-time four-year course for the 2026-2027 academic year. It is a key option for students who are looking for an undergraduate civil engineering qualification in Mauritius.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
-          "name": "University of the Mascarene Islands",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "The University offers a BEng (Hons) Civil Engineering, a full-time four-year program. Among the published information about courses are structural mechanics, geotechnics, construction materials, road construction, design projects and internships. BEng (Hons) Civil Engineering \\- Official course page Which one to choose? Compare admission requirements, curriculum, total tuition, location, practical training and the recognition of the degree for your intended career. Kindly confirm that the intake you are applying for is open for international students for the program. These Civil Engineering Universities in Mauritius provide undergraduate options to compare. Students looking for Civil Engineering Universities in Mauritius should verify the exact institution name, course details and current international intake directly with the university.",
-          "img_var": "null"
+          "name": "\\. University of the Mascarene Islands",
+          "location": "\\. University of the Mascarene Islands, Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "The University offers a BEng (Hons) Civil Engineering, a full-time four-year program. Among the published information about courses are structural mechanics, geotechnics, construction materials, road construction, design projects and internships. Which one to choose? Compare admission requirements, curriculum, total tuition, location, practical training and the recognition of the degree for your intended career. Kindly confirm that the intake you are applying for is open for international students for the program. These **Civil Engineering Universities in Mauritius** provide undergraduate options to compare. Students looking for **Civil Engineering Universities in Mauritius** should verify the exact institution name, course details and current international intake directly with the university.",
+          "img": uniImg2
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "\\. Mauritius University",
+          "location": "\\. Mauritius University",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "Civil Engineering BEng (Hons) (Programme Code: E410) The BEng (Hons) Civil Engineering degree is offered as a full-time four-year course for the 2026-2027 academic year. It is a key option for students who are looking for an undergraduate civil engineering qualification in Mauritius.",
+          "img": uniImg1
+        },
+        {
+          "name": "\\. University of the Mascarene Islands",
+          "location": "\\. University of the Mascarene Islands, Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "The University offers a BEng (Hons) Civil Engineering, a full-time four-year program. Among the published information about courses are structural mechanics, geotechnics, construction materials, road construction, design projects and internships. Which one to choose? Compare admission requirements, curriculum, total tuition, location, practical training and the recognition of the degree for your intended career. Kindly confirm that the intake you are applying for is open for international students for the program. These **Civil Engineering Universities in Mauritius** provide undergraduate options to compare. Students looking for **Civil Engineering Universities in Mauritius** should verify the exact institution name, course details and current international intake directly with the university.",
+          "img": uniImg2
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and student visa requirements before submitting their applications."
+        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
       ]
     },
     {
@@ -397,26 +439,38 @@ const page = {
       ]
     }
   ],
+  "universities": [
+    {
+      "name": "\\. Mauritius University",
+      "location": "\\. Mauritius University",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "Civil Engineering BEng (Hons) (Programme Code: E410) The BEng (Hons) Civil Engineering degree is offered as a full-time four-year course for the 2026-2027 academic year. It is a key option for students who are looking for an undergraduate civil engineering qualification in Mauritius.",
+      "img": uniImg1
+    },
+    {
+      "name": "\\. University of the Mascarene Islands",
+      "location": "\\. University of the Mascarene Islands, Mauritius",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "The University offers a BEng (Hons) Civil Engineering, a full-time four-year program. Among the published information about courses are structural mechanics, geotechnics, construction materials, road construction, design projects and internships. Which one to choose? Compare admission requirements, curriculum, total tuition, location, practical training and the recognition of the degree for your intended career. Kindly confirm that the intake you are applying for is open for international students for the program. These **Civil Engineering Universities in Mauritius** provide undergraduate options to compare. Students looking for **Civil Engineering Universities in Mauritius** should verify the exact institution name, course details and current international intake directly with the university.",
+      "img": uniImg2
+    }
+  ],
   "faqs": [
     {
-      "q": "How long does it take to study a Bachelor\u2019s in Civil Engineering in Mauritius?",
-      "a": "University of Mauritius and Universit\u00e9 des Mascareignes offer four year full-time BEng programs in Civil Engineering. Check the length of your chosen program and intake."
+      "q": "Can Indian students apply for Civil Engineering (UG) in Mauritius?",
+      "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
     },
     {
-      "q": "Where to study Civil Engineering in Mauritius?",
-      "a": "Civil Engineering Undergraduate Courses are available according to the official course information on University of Mauritius and Universit\u00e9 des Mascareignes websites. These are the key Civil Engineering Universities in Mauritius to compare based on your preferred program and admission requirements."
+      "q": "What is the medium of instruction for Civil Engineering (UG) in Mauritius?",
+      "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
     },
     {
-      "q": "What are the eligibility criteria for Indian students?",
-      "a": "Generally, students are required to have passed Class 12 or equivalent recognized qualification, with appropriate mathematics and science subjects. The minimum marks and subject requirements vary from university to university, students should check the same as per their academic board and results."
+      "q": "What are the typical tuition fees for Civil Engineering (UG) in Mauritius?",
+      "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
     },
     {
-      "q": "How much does Civil Engineering cost in Mauritius in Indian Rupees?",
-      "a": "The Universit\u00e9 des Mascareignes has a non-SADC international fee category of MUR 84,000 per year, which is roughly \u20b91.60 lakh at the illustrative conversion rate used here. The cost of living can be in the range of \u20b94.67-\u20b98.89 lakh a year. Check the tuition and budget that apply before applying."
-    },
-    {
-      "q": "What kind of jobs can I get after Civil Engineering?",
-      "a": "They can explore civil engineering, site engineering, structural design, construction project coordination, transportation, geotechnical engineering, water resources, and CAD/BIM-related careers. Career options depend on practical skills, experience, what is required locally and any professional registration. Students exploring a Bachelor\u2019s in Civil Engineering in Mauritius for Indian Students can contact Edu-Hawk Worldwide for guidance on Civil Engineering Courses in Mauritius, university comparisons, eligibility checks, admission procedures and study-abroad planning."
+      "q": "Is a student visa required for Indian students?",
+      "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

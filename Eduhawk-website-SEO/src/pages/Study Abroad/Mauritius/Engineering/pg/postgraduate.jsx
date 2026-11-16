@@ -7,13 +7,17 @@ import heroBgImg from "../../../../../Images/Abroad/Mauritius/Engineering_PG/her
 import sideImg from "../../../../../Images/Abroad/Mauritius/Engineering_PG/side.webp";
 import ctaBgImg from "../../../../../Images/Abroad/Mauritius/Engineering_PG/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../../Images/Abroad/Mauritius/Engineering_PG/image1.png";
+import uniImg2 from "../../../../../Images/Abroad/Mauritius/Engineering_PG/image2.png";
+
 const page = {
-  "name": "Postgraduate Engineering in Mauritius",
+  "name": "Postgraduate Engineering",
   "country": "Mauritius",
   "slug": "pg/engineering",
-  "title": "Master\u2019s in Engineering in Mauritius for Indian Students | Edu-Hawk Worldwide",
+  "title": "Postgraduate Engineering in Mauritius for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Postgraduate Engineering in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study Postgraduate Engineering in Mauritius, Postgraduate Engineering in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Postgraduate Engineering in Mauritius Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
+  "keywords": "Study Postgraduate Engineering in Mauritius, Postgraduate Engineering in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Postgraduate Engineering Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
   "introTitle": "Postgraduate Engineering in Mauritius for Indian Students",
   "heroParas": [
     "A Master\u2019s in Engineering is a postgraduate qualification for graduates who want to deepen their technical knowledge, specialise in an engineering discipline, or move towards research, project leadership and advanced technical roles. **Master\u2019s in Engineering in Mauritius for Indian Students** can be an option for graduates looking to pursue postgraduate specialisation in different engineering fields."
@@ -21,24 +25,46 @@ const page = {
   "overview": [
     "Mauritius offers postgraduate engineering options in areas such as civil engineering, building services, sustainable energy and renewable energy systems. Two institutions worth exploring are the University of Mauritius (UoM) and Universit\u00e9 des Mascareignes (UdM). The right choice depends on your undergraduate specialisation, career goals and preferred study mode. Students planning to **Study Master\u2019s in Engineering in Mauritius** should compare the available programmes and their entry requirements before applying."
   ],
-  "level": "M.Eng / M.Sc. in Engineering",
-  "crumb": "Engineering / PG Engineering",
+  "level": "M.Sc. & M.Eng Engineering",
+  "crumb": "Engineering",
   "stats": [
     {
-      "label": "Degree Choices",
-      "value": "M.Eng / M.Sc. in Engineering"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "label": "Language of Study",
-      "value": "English & Bilingual"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "label": "Top Institutions",
-      "value": "UoM, UTM, UdM & Middlesex"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "label": "Indicative Fees",
-      "value": "MUR 150,000 \u2013 MUR 350,000 / Year"
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
     }
   ],
   "sections": [
@@ -137,32 +163,55 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Top Universities for a Master\u2019s in Engineering in Mauritius",
-      "lead": "Explore leading universities and institutions in Mauritius offering accredited Postgraduate Engineering in Mauritius programmes, modern campuses, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Mauritius offering accredited Postgraduate Engineering programmes, modern campuses, and international student support.",
+      "unis": [
         {
-          "name": "University of Mauritius (UoM)",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "The University of Mauritius offers postgraduate programmes in engineering and related disciplines. Its published 2026\u20132027 programme information includes Building Services Engineering, Sustainable Energy Engineering, Renewable Energy and Smart Electrical Systems, and Total Quality Management and Performance Excellence. It may suit students interested in energy systems, engineering services, quality management or applied engineering.",
-          "img_var": "null"
+          "name": "\\. University of Mauritius (UoM)",
+          "location": "\\. University of Mauritius (UoM)",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "**Website:** [https\\://www\\.uom.ac.mu](https://www.uom.ac.mu) The University of Mauritius offers postgraduate programmes in engineering and related disciplines. Its published 2026\u20132027 programme information includes Building Services Engineering, Sustainable Energy Engineering, Renewable Energy and Smart Electrical Systems, and Total Quality Management and Performance Excellence. It may suit students interested in energy systems, engineering services, quality management or applied engineering.",
+          "img": uniImg1
         },
         {
-          "name": "Universit\u00e9 des Mascareignes (UdM)",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "Universit\u00e9 des Mascareignes lists a Master in Civil Engineering with specialisation in Structures and Public Works, as well as a Master in Energy Efficiency and Sustainable Development. Its civil engineering master's programme includes options involving industry experience or research. The civil engineering master's is open to local and international students in part-time mode. The university lists a three-year route for applicants entering at the first semester with a relevant bachelor\u2019s degree, and a 1.5-year route for eligible applicants with a higher-level civil engineering qualification. Tuition fees were marked as still to be finalised on the published course page, so applicants should request a current quotation. Students comparing Master\u2019s in Engineering Universities in Mauritius should review the programme details, study mode and entry routes at both institutions before making a decision.",
-          "img_var": "null"
+          "name": "\\. Universit\u00e9 des Mascareignes (UdM)",
+          "location": "\\. Universit\u00e9 des Mascareignes (UdM), Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "**Website:** [https\\://udm.ac.mu](https://udm.ac.mu) Universit\u00e9 des Mascareignes lists a Master in Civil Engineering with specialisation in Structures and Public Works, as well as a Master in Energy Efficiency and Sustainable Development. Its civil engineering master's programme includes options involving industry experience or research. The civil engineering master's is open to local and international students in part-time mode. The university lists a three-year route for applicants entering at the first semester with a relevant bachelor\u2019s degree, and a 1.5-year route for eligible applicants with a higher-level civil engineering qualification. Tuition fees were marked as still to be finalised on the published course page, so applicants should request a current quotation. Students comparing **Master\u2019s in Engineering Universities in Mauritius** should review the programme details, study mode and entry routes at both institutions before making a decision.",
+          "img": uniImg2
         },
         {
           "name": "How to check university recognition",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
+          "location": "How to check university recognition, Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
           "desc": "Before paying an application or tuition fee, check the institution and qualification through the Higher Education Commission of Mauritius. The Commission provides information on higher education regulation, institutional registration and programme recognition.",
-          "img_var": "null"
+          "img": uniImg1
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "\\. University of Mauritius (UoM)",
+          "location": "\\. University of Mauritius (UoM)",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "**Website:** [https\\://www\\.uom.ac.mu](https://www.uom.ac.mu) The University of Mauritius offers postgraduate programmes in engineering and related disciplines. Its published 2026\u20132027 programme information includes Building Services Engineering, Sustainable Energy Engineering, Renewable Energy and Smart Electrical Systems, and Total Quality Management and Performance Excellence. It may suit students interested in energy systems, engineering services, quality management or applied engineering.",
+          "img": uniImg1
+        },
+        {
+          "name": "\\. Universit\u00e9 des Mascareignes (UdM)",
+          "location": "\\. Universit\u00e9 des Mascareignes (UdM), Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "**Website:** [https\\://udm.ac.mu](https://udm.ac.mu) Universit\u00e9 des Mascareignes lists a Master in Civil Engineering with specialisation in Structures and Public Works, as well as a Master in Energy Efficiency and Sustainable Development. Its civil engineering master's programme includes options involving industry experience or research. The civil engineering master's is open to local and international students in part-time mode. The university lists a three-year route for applicants entering at the first semester with a relevant bachelor\u2019s degree, and a 1.5-year route for eligible applicants with a higher-level civil engineering qualification. Tuition fees were marked as still to be finalised on the published course page, so applicants should request a current quotation. Students comparing **Master\u2019s in Engineering Universities in Mauritius** should review the programme details, study mode and entry routes at both institutions before making a decision.",
+          "img": uniImg2
+        },
+        {
+          "name": "How to check university recognition",
+          "location": "How to check university recognition, Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "Before paying an application or tuition fee, check the institution and qualification through the Higher Education Commission of Mauritius. The Commission provides information on higher education regulation, institutional registration and programme recognition.",
+          "img": uniImg1
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and student visa requirements before submitting their applications."
+        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
       ]
     },
     {
@@ -281,8 +330,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "These are indicative planning estimates. Actual expenses depend on accommodation, lifestyle and the exchange rate.",
-            "**Estimated living expenses by duration**"
+            "These are indicative planning estimates. Actual expenses depend on accommodation, lifestyle and the exchange rate."
           ]
         },
         {
@@ -451,26 +499,45 @@ const page = {
       ]
     }
   ],
+  "universities": [
+    {
+      "name": "\\. University of Mauritius (UoM)",
+      "location": "\\. University of Mauritius (UoM)",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "**Website:** [https\\://www\\.uom.ac.mu](https://www.uom.ac.mu) The University of Mauritius offers postgraduate programmes in engineering and related disciplines. Its published 2026\u20132027 programme information includes Building Services Engineering, Sustainable Energy Engineering, Renewable Energy and Smart Electrical Systems, and Total Quality Management and Performance Excellence. It may suit students interested in energy systems, engineering services, quality management or applied engineering.",
+      "img": uniImg1
+    },
+    {
+      "name": "\\. Universit\u00e9 des Mascareignes (UdM)",
+      "location": "\\. Universit\u00e9 des Mascareignes (UdM), Mauritius",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "**Website:** [https\\://udm.ac.mu](https://udm.ac.mu) Universit\u00e9 des Mascareignes lists a Master in Civil Engineering with specialisation in Structures and Public Works, as well as a Master in Energy Efficiency and Sustainable Development. Its civil engineering master's programme includes options involving industry experience or research. The civil engineering master's is open to local and international students in part-time mode. The university lists a three-year route for applicants entering at the first semester with a relevant bachelor\u2019s degree, and a 1.5-year route for eligible applicants with a higher-level civil engineering qualification. Tuition fees were marked as still to be finalised on the published course page, so applicants should request a current quotation. Students comparing **Master\u2019s in Engineering Universities in Mauritius** should review the programme details, study mode and entry routes at both institutions before making a decision.",
+      "img": uniImg2
+    },
+    {
+      "name": "How to check university recognition",
+      "location": "How to check university recognition, Mauritius",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "Before paying an application or tuition fee, check the institution and qualification through the Higher Education Commission of Mauritius. The Commission provides information on higher education regulation, institutional registration and programme recognition.",
+      "img": uniImg1
+    }
+  ],
   "faqs": [
     {
-      "q": "Can I study for a Master's in Engineering in Mauritius?",
-      "a": "Yes. Mauritius has postgraduate engineering options in areas including civil engineering, building services, sustainable energy and renewable energy systems. The exact programme depends on the university and the student\u2019s academic background. Master\u2019s in Engineering in Mauritius for Indian Students offers different specialisation options to explore based on undergraduate qualifications and career goals."
+      "q": "Can Indian students apply for Postgraduate Engineering in Mauritius?",
+      "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
     },
     {
-      "q": "Which universities offer engineering master\u2019s programmes in Mauritius?",
-      "a": "The University of Mauritius lists programmes such as MSc Building Services Engineering and MSc Sustainable Energy Engineering with Environmental Management. Universit\u00e9 des Mascareignes lists a Master in Civil Engineering with specialisation in Structures and Public Works and a Master in Energy Efficiency and Sustainable Development. These are important options for students comparing Master\u2019s in Engineering Universities in Mauritius."
+      "q": "What is the medium of instruction for Postgraduate Engineering in Mauritius?",
+      "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
     },
     {
-      "q": "What is the duration of a Master\u2019s in Engineering in Mauritius?",
-      "a": "Duration varies by programme and entry route. Several UoM engineering master\u2019s programmes are listed as two years part-time. UdM\u2019s civil engineering master\u2019s lists a three-year route for eligible applicants entering at the first semester and a 1.5-year route for eligible applicants entering at semester three."
+      "q": "What are the typical tuition fees for Postgraduate Engineering in Mauritius?",
+      "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
     },
     {
-      "q": "How much does a Master\u2019s in Engineering cost in Mauritius?",
-      "a": "Tuition fees vary by university and specialisation. UdM\u2019s published civil engineering master\u2019s page states that tuition and registration fees were yet to be finalised. As an initial budget, estimated living expenses are MUR 20,500\u201339,000 per month, approximately \u20b938,950\u2013\u20b974,100 using the illustrative exchange rate in this article. For updated Master\u2019s in Engineering Fees in Mauritius, students should contact the university directly."
-    },
-    {
-      "q": "What qualifications do I need to apply?",
-      "a": "Most applicants should expect to need a recognised bachelor\u2019s degree in engineering or a related subject, but the precise requirements depend on the course. Some specialised programmes require a degree in the same discipline, and language proficiency may also be required. Check the official programme requirements before applying. For assistance with university selection, course comparisons, eligibility and admission procedures, Edu-Hawk Worldwide can help Indian students explore suitable postgraduate engineering opportunities in Mauritius."
+      "q": "Is a student visa required for Indian students?",
+      "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

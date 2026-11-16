@@ -1,69 +1,85 @@
 {
   "seo": {
-    "title": "Bachelor\u2019s in Automotive Engineering in Mauritius for Indian Students | Edu-Hawk Worldwide",
+    "title": "Automobile Engineering (UG) in Mauritius for Indian Students | Edu-Hawk Worldwide",
     "description": "Study Automobile Engineering (UG) in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students."
   },
   "hero": {
     "badge": "Study Abroad - Mauritius",
-    "title": "Automobile Engineering (UG) in Mauritius",
-    "subtitle": "Bachelor\u2019s in Automobile Engineering is designed for students with an interest in vehicle design, automotive systems, engines, manufacturing, electric vehicles and transport technology. The subject is a combination of mechanical engineering and automotive applications. **Automobile Engineering in Mauritius for Indian Students** is an option worth exploring for students interested in vehicle technology and engineering education.",
-    "ctaText": "Book Free Counselling",
-    "image": ""
+    "title": "Automobile Engineering (UG) in Mauritius for Indian Students",
+    "paras": [
+      "Bachelor’s in Automobile Engineering is designed for students with an interest in vehicle design, automotive systems, engines, manufacturing, electric vehicles and transport technology. The subject is a combination of mechanical engineering and automotive applications. **Automobile Engineering in Mauritius for Indian Students** is an option worth exploring for students interested in vehicle technology and engineering education."
+    ]
   },
   "stats": [
     {
-      "n": "1000+",
-      "l": "Students Placed Globally"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "n": "20+",
-      "l": "Countries"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "n": "200+",
-      "l": "Partner Universities"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "n": "100%",
-      "l": "Support (Visa & Post-Study Work Guidance)"
+      "val": "Permitted",
+      "label": "Part-Time Work"
     }
   ],
-  "highlights": {
-    "degree": "B.Eng / B.Sc. Automobile Engineering",
-    "duration": "3\u20134 Yrs (UG) / 1.5\u20132 Yrs (PG)",
-    "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-    "eligibility": "Class 12 / Bachelor's degree + English proficiency",
-    "medium": "English / Bilingual"
-  },
-  "overview": "Important Note on Course Availability: The list of undergraduate programs published by the University of Mauritius for 2026-2027 does not include a dedicated Bachelor\u2019s in Automobile Engineering. It does have a 4 year BEng (Hons) Mechanical Engineering and a 4 year BEng (Hons) Mechatronics Engineering which may provide related engineering foundations. These qualifications are alternatives and not similar to Automobile Engineering. Students planning to **Study Automobile Engineering in Mauritius** should understand the difference between a dedicated automobile engineering degree and related engineering courses.",
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
+    }
+  ],
+  "overview": [
+    "Important Note on Course Availability: The list of undergraduate programs published by the University of Mauritius for 2026-2027 does not include a dedicated Bachelor’s in Automobile Engineering. It does have a 4 year BEng (Hons) Mechanical Engineering and a 4 year BEng (Hons) Mechatronics Engineering which may provide related engineering foundations. These qualifications are alternatives and not similar to Automobile Engineering. Students planning to **Study Automobile Engineering in Mauritius** should understand the difference between a dedicated automobile engineering degree and related engineering courses."
+  ],
   "universities": [
     {
       "name": "University of Mauritius (UoM)",
-      "location": "Mauritius",
-      "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-      "image": ""
+      "location": "University of Mauritius (UoM)",
+      "fee": "MUR 160,000 – 350,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/Engineering_UG/Automobile/image1.png"
     }
   ],
-  "faq": [
-    {
-      "question": "Are there Bachelors in Automobile Engineering Mauritius?",
-      "answer": "The University of Mauritius\u2019s published list of undergraduate programs for 2026\u20132027 did not feature a dedicated bachelor\u2019s degree in Automobile Engineering. Related choices are Mechanical Engineering and Mechatronics Engineering. Students looking for Automobile Engineering in Mauritius for Indian Students should verify the current course list before applying."
-    },
-    {
-      "question": "Are there any universities in Mauritius offering related engineering courses?",
-      "answer": "The University of Mauritius offers four year BEng (Hons) degrees in Mechanical Engineering and Mechatronics Engineering. Please contact the university to verify the present curriculum and availability of automotive-related electives or projects. Students exploring Automobile Engineering Universities in Mauritius should confirm the latest programme details directly with the institution."
-    },
-    {
-      "question": "What is the cost to study Automobile Engineering in Mauritius?",
-      "answer": "No confirmed tuition fee for a dedicated Automobile Engineering degree is available as the program has not been confirmed. Estimated living costs for initial planning are MUR 20,500\u201339,000 per month, or about \u20b938,950\u2013\u20b974,100 based on the illustrative exchange rate above. Plus other expenses such as tuition. For accurate Automobile Engineering Fees in Mauritius, contact the university for the applicable international tuition fee."
-    },
-    {
-      "question": "What are the important subjects in engineering courses?",
-      "answer": "Mathematics is particularly important and Physics or other science subjects may be needed depending on the program. Students should check the university and qualification they have chosen for the exact eligibility requirements."
-    },
-    {
-      "question": "Can I work in the automobile industry after studying Mechanical Engineering in Mauritius?",
-      "answer": "A degree in Mechanical Engineering can provide a foundation for work in the automotive field. However, employment will depend on the position, curriculum, practical skills and the requirements of the employer. Internships, relevant projects and further automotive training can all help strengthen your profile. For guidance on related engineering courses, university selection, eligibility and admission procedures, Edu-Hawk Worldwide can help students explore suitable international study options."
-    }
-  ]
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "Can Indian students apply for Automobile Engineering (UG) in Mauritius?",
+        "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
+      },
+      {
+        "q": "What is the medium of instruction for Automobile Engineering (UG) in Mauritius?",
+        "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
+      },
+      {
+        "q": "What are the typical tuition fees for Automobile Engineering (UG) in Mauritius?",
+        "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
+      },
+      {
+        "q": "Is a student visa required for Indian students?",
+        "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
+      }
+    ]
+  }
 }

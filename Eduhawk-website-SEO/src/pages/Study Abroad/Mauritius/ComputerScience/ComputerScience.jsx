@@ -7,13 +7,17 @@ import heroBgImg from "../../../../Images/Abroad/Mauritius/ComputerScience/hero_
 import sideImg from "../../../../Images/Abroad/Mauritius/ComputerScience/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Mauritius/ComputerScience/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../Images/Abroad/Mauritius/ComputerScience/image1.png";
+import uniImg2 from "../../../../Images/Abroad/Mauritius/ComputerScience/image2.png";
+
 const page = {
-  "name": "Computer Science in Mauritius",
+  "name": "Computer Science",
   "country": "Mauritius",
   "slug": "computer-science",
-  "title": "Computer Science Engineering in Mauritius for Indian Students in Mauritius for Indian Students | Edu-Hawk Worldwide",
+  "title": "Computer Science in Mauritius for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Computer Science in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study Computer Science in Mauritius, Computer Science in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Computer Science in Mauritius Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
+  "keywords": "Study Computer Science in Mauritius, Computer Science in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Computer Science Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
   "introTitle": "Computer Science in Mauritius for Indian Students",
   "heroParas": [
     "Comprehensive guide to studying Computer Science in Mauritius for Indian students."
@@ -25,20 +29,42 @@ const page = {
   "crumb": "Computer Science",
   "stats": [
     {
-      "label": "Degree Choices",
-      "value": "B.Sc. & M.Sc. in Computer Science"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "label": "Language of Study",
-      "value": "English & Bilingual"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "label": "Top Institutions",
-      "value": "UoM, UTM, UdM & Middlesex"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "label": "Indicative Fees",
-      "value": "MUR 150,000 \u2013 MUR 350,000 / Year"
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
     }
   ],
   "sections": [
@@ -151,32 +177,41 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Universities for Computer Science Engineering in Mauritius",
-      "lead": "Explore leading universities and institutions in Mauritius offering accredited Computer Science in Mauritius programmes, modern campuses, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Mauritius offering accredited Computer Science programmes, modern campuses, and international student support.",
+      "unis": [
         {
           "name": "University of Mauritius (UoM)",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "UoM offers undergraduate degrees in Computer Science, Software Engineering and Applied Computing. At postgraduate level, it lists an MSc Artificial Intelligence and an MSc Software Project Management. These programmes can suit students interested in software development, AI and technology project leadership. Undergraduate programmes \u00b7 Computing programmes",
-          "img_var": "null"
-        },
-        {
-          "name": "Open University of Mauritius",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "The university offers a BSc (Hons) Computer Science with subjects including programming, computer architecture, algorithms, software engineering, databases, cybersecurity and introductory AI. It also lists an MSc Applied Computing and Digital Technologies for postgraduate applicants. BSc Computer Science details \u00b7 Official website",
-          "img_var": "null"
+          "location": "University of Mauritius (UoM)",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "UoM offers undergraduate degrees in Computer Science, Software Engineering and Applied Computing. At postgraduate level, it lists an MSc Artificial Intelligence and an MSc Software Project Management. These programmes can suit students interested in software development, AI and technology project leadership.",
+          "img": uniImg1
         },
         {
           "name": "Middlesex University Mauritius",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "Its BSc (Hons) Computer Science (Systems Engineering) is listed as a three-year, full-time programme for September 2026\\. The published 2026\u20132027 fee is MUR 302,800 for Mauritian students and \u00a36,400 for international students, including the administrative fee. Confirm the current international fee before applying. Course details When comparing Computer Science Engineering Universities in Mauritius, students should consider the course structure, academic requirements, tuition fees and study duration. Edu-Hawk Worldwide can assist students in understanding the available study pathways.",
-          "img_var": "null"
+          "location": "Middlesex University Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "Its BSc (Hons) Computer Science (Systems Engineering) is listed as a three-year, full-time programme for September 2026\\. The published 2026\u20132027 fee is MUR 302,800 for Mauritian students and \u00a36,400 for international students, including the administrative fee. Confirm the current international fee before applying. When comparing **Computer Science Engineering Universities in Mauritius**, students should consider the course structure, academic requirements, tuition fees and study duration. **Edu-Hawk Worldwide** can assist students in understanding the available study pathways.",
+          "img": uniImg2
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "University of Mauritius (UoM)",
+          "location": "University of Mauritius (UoM)",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "UoM offers undergraduate degrees in Computer Science, Software Engineering and Applied Computing. At postgraduate level, it lists an MSc Artificial Intelligence and an MSc Software Project Management. These programmes can suit students interested in software development, AI and technology project leadership.",
+          "img": uniImg1
+        },
+        {
+          "name": "Middlesex University Mauritius",
+          "location": "Middlesex University Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "Its BSc (Hons) Computer Science (Systems Engineering) is listed as a three-year, full-time programme for September 2026\\. The published 2026\u20132027 fee is MUR 302,800 for Mauritian students and \u00a36,400 for international students, including the administrative fee. Confirm the current international fee before applying. When comparing **Computer Science Engineering Universities in Mauritius**, students should consider the course structure, academic requirements, tuition fees and study duration. **Edu-Hawk Worldwide** can assist students in understanding the available study pathways.",
+          "img": uniImg2
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and student visa requirements before submitting their applications."
+        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
       ]
     },
     {
@@ -266,8 +301,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "The total budget depends on the university, programme, study duration, accommodation and lifestyle. The figures below provide a starting point for planning. **Computer Science Engineering Fees in Mauritius** vary according to the institution, course and applicant category. Students exploring **Computer Science Engineering in Mauritius for Indian Students** should confirm the latest international tuition fees before making financial arrangements.",
-            "**Tuition fees**"
+            "The total budget depends on the university, programme, study duration, accommodation and lifestyle. The figures below provide a starting point for planning. **Computer Science Engineering Fees in Mauritius** vary according to the institution, course and applicant category. Students exploring **Computer Science Engineering in Mauritius for Indian Students** should confirm the latest international tuition fees before making financial arrangements."
           ]
         },
         {
@@ -300,7 +334,6 @@ const page = {
           "items": [
             "Sources: official programme and fee information.",
             "INR equivalents are not fixed and depend on exchange rates and bank charges. Confirm the amount payable directly with the institution before making a payment. Fees may change by intake.",
-            "**Estimated living expenses**",
             "For students relocating to Mauritius, a preliminary monthly budget could look like this:"
           ]
         },
@@ -513,26 +546,38 @@ const page = {
       ]
     }
   ],
+  "universities": [
+    {
+      "name": "University of Mauritius (UoM)",
+      "location": "University of Mauritius (UoM)",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "UoM offers undergraduate degrees in Computer Science, Software Engineering and Applied Computing. At postgraduate level, it lists an MSc Artificial Intelligence and an MSc Software Project Management. These programmes can suit students interested in software development, AI and technology project leadership.",
+      "img": uniImg1
+    },
+    {
+      "name": "Middlesex University Mauritius",
+      "location": "Middlesex University Mauritius",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "Its BSc (Hons) Computer Science (Systems Engineering) is listed as a three-year, full-time programme for September 2026\\. The published 2026\u20132027 fee is MUR 302,800 for Mauritian students and \u00a36,400 for international students, including the administrative fee. Confirm the current international fee before applying. When comparing **Computer Science Engineering Universities in Mauritius**, students should consider the course structure, academic requirements, tuition fees and study duration. **Edu-Hawk Worldwide** can assist students in understanding the available study pathways.",
+      "img": uniImg2
+    }
+  ],
   "faqs": [
     {
-      "q": "Is Computer Science Engineering available in Mauritius?",
-      "a": "Mauritius offers related degrees, including BSc Computer Science, Software Engineering and Applied Computing. The exact programme title may differ from \u201cComputer Science Engineering,\u201d so review the curriculum and qualification awarded. Students exploring Computer Science Engineering in Mauritius for Indian Students should compare the available related degrees carefully."
+      "q": "Can Indian students apply for Computer Science in Mauritius?",
+      "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
     },
     {
-      "q": "How long does a bachelor\u2019s degree in Computer Science take?",
-      "a": "The University of Mauritius lists its BSc (Hons) Computer Science as a three-year, full-time programme. The Open University of Mauritius lists a flexible duration of three to six years for its BSc (Hons) Computer Science."
+      "q": "What is the medium of instruction for Computer Science in Mauritius?",
+      "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
     },
     {
-      "q": "Which master\u2019s programmes are related to Computer Science in Mauritius?",
-      "a": "Relevant options include MSc Artificial Intelligence and MSc Software Project Management at the University of Mauritius, as well as MSc Applied Computing and Digital Technologies at the Open University of Mauritius."
+      "q": "What are the typical tuition fees for Computer Science in Mauritius?",
+      "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
     },
     {
-      "q": "What is the approximate living cost for an international student?",
-      "a": "A preliminary budget is MUR 15,000\u201325,000 per month, or approximately \u20b930,000\u2013\u20b950,000 using the illustrative exchange rate in this article. Actual expenses depend on accommodation and lifestyle."
-    },
-    {
-      "q": "What jobs can I pursue after graduation?",
-      "a": "Depending on your specialisation and experience, you could explore software development, data analysis, cybersecurity, cloud computing, AI, IT consulting or software project coordination. Practical projects and internships can strengthen your job applications."
+      "q": "Is a student visa required for Indian students?",
+      "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

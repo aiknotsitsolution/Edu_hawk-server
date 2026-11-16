@@ -7,13 +7,17 @@ import heroBgImg from "../../../../Images/Abroad/Mauritius/InternationalBusiness
 import sideImg from "../../../../Images/Abroad/Mauritius/InternationalBusiness/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Mauritius/InternationalBusiness/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../Images/Abroad/Mauritius/InternationalBusiness/image1.png";
+import uniImg2 from "../../../../Images/Abroad/Mauritius/InternationalBusiness/image2.png";
+
 const page = {
-  "name": "International Business in Mauritius",
+  "name": "International Business",
   "country": "Mauritius",
   "slug": "international-business",
-  "title": "Mauritius: Bachelor and Master in International Business in Mauritius for Indian Students | Edu-Hawk Worldwide",
+  "title": "International Business in Mauritius for Indian Students | Edu-Hawk Worldwide",
   "description": "Study International Business in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study International Business in Mauritius, International Business in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius International Business in Mauritius Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
+  "keywords": "Study International Business in Mauritius, International Business in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius International Business Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
   "introTitle": "International Business in Mauritius for Indian Students",
   "heroParas": [
     "Studying **International Business in Mauritius** can help students gain knowledge of global trade, international marketing, business strategy, finance and cross-cultural management. The University of Mauritius offers undergraduate and postgraduate business programs including BSc (Hons) International Business Management and MSc International Business Management. **International Business in Mauritius** offers students the opportunity to explore business education at both bachelor's and master's levels."
@@ -21,24 +25,46 @@ const page = {
   "overview": [
     "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Mauritius for International Business in Mauritius."
   ],
-  "level": "Bachelor & Master in International Business",
+  "level": "Bachelor & Master of International Business",
   "crumb": "International Business",
   "stats": [
     {
-      "label": "Degree Choices",
-      "value": "Bachelor & Master in International Business"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "label": "Language of Study",
-      "value": "English & Bilingual"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "label": "Top Institutions",
-      "value": "UoM, UTM, UdM & Middlesex"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "label": "Indicative Fees",
-      "value": "MUR 150,000 \u2013 MUR 350,000 / Year"
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
     }
   ],
   "sections": [
@@ -104,25 +130,41 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Best International Business Universities in Mauritius",
-      "lead": "Explore leading universities and institutions in Mauritius offering accredited International Business in Mauritius programmes, modern campuses, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Mauritius offering accredited International Business programmes, modern campuses, and international student support.",
+      "unis": [
         {
-          "name": "Mauritius University",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "Offers BSc (Hons) International Business Management and MSc International Business Management. The undergraduate program is described as three years full time and the master\u2019s program is described as two years part time. University official website",
-          "img_var": "null"
+          "name": "\\. Mauritius University",
+          "location": "\\. Mauritius University",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "Offers BSc (Hons) International Business Management and MSc International Business Management. The undergraduate program is described as three years full time and the master\u2019s program is described as two years part time.",
+          "img": uniImg1
         },
         {
-          "name": "Open University of Mauritius (OUM)",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "It offers business-related undergraduate degrees such as BSc (Hons) in Business Management. For those interested in global business, it has a related course in International Business Management, International Marketing and International Finance. University official site Note: The Open University program above is a related business degree not the same qualification as a BSc in International Business Management. Confirm current admission and international student status directly with the school. When comparing International Business universities in Mauritius, applicants should confirm whether the selected qualification is specifically in International Business Management or a related business subject.",
-          "img_var": "null"
+          "name": "\\. Open University of Mauritius (OUM)",
+          "location": "\\. Open University of Mauritius (OUM)",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "It offers business-related undergraduate degrees such as BSc (Hons) in Business Management. For those interested in global business, it has a related course in International Business Management, International Marketing and International Finance. Note: The Open University program above is a related business degree not the same qualification as a BSc in International Business Management. Confirm current admission and international student status directly with the school. When comparing **International Business universities in Mauritius**, applicants should confirm whether the selected qualification is specifically in International Business Management or a related business subject.",
+          "img": uniImg2
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "\\. Mauritius University",
+          "location": "\\. Mauritius University",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "Offers BSc (Hons) International Business Management and MSc International Business Management. The undergraduate program is described as three years full time and the master\u2019s program is described as two years part time.",
+          "img": uniImg1
+        },
+        {
+          "name": "\\. Open University of Mauritius (OUM)",
+          "location": "\\. Open University of Mauritius (OUM)",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "It offers business-related undergraduate degrees such as BSc (Hons) in Business Management. For those interested in global business, it has a related course in International Business Management, International Marketing and International Finance. Note: The Open University program above is a related business degree not the same qualification as a BSc in International Business Management. Confirm current admission and international student status directly with the school. When comparing **International Business universities in Mauritius**, applicants should confirm whether the selected qualification is specifically in International Business Management or a related business subject.",
+          "img": uniImg2
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and student visa requirements before submitting their applications."
+        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
       ]
     },
     {
@@ -134,11 +176,9 @@ const page = {
           "t": "p",
           "items": [
             "**International Business eligibility in Mauritius** varies with the university and the program. Typical expectations are:",
-            "**for the bachelor\u2019s degree**",
             "Completion of secondary education at a level equivalent to the entry qualification required by the university.",
             "Academic results that meet the minimum program requirements.",
             "English language skills, if required by the institution.",
-            "**For a master's degree:**",
             "A recognized bachelor\u2019s degree, typically in business, management, commerce, economics or a related discipline.",
             "Suitable academic performance and any program specific entry requirements.",
             "English language proficiency, where applicable.",
@@ -303,26 +343,38 @@ const page = {
       ]
     }
   ],
+  "universities": [
+    {
+      "name": "\\. Mauritius University",
+      "location": "\\. Mauritius University",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "Offers BSc (Hons) International Business Management and MSc International Business Management. The undergraduate program is described as three years full time and the master\u2019s program is described as two years part time.",
+      "img": uniImg1
+    },
+    {
+      "name": "\\. Open University of Mauritius (OUM)",
+      "location": "\\. Open University of Mauritius (OUM)",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "It offers business-related undergraduate degrees such as BSc (Hons) in Business Management. For those interested in global business, it has a related course in International Business Management, International Marketing and International Finance. Note: The Open University program above is a related business degree not the same qualification as a BSc in International Business Management. Confirm current admission and international student status directly with the school. When comparing **International Business universities in Mauritius**, applicants should confirm whether the selected qualification is specifically in International Business Management or a related business subject.",
+      "img": uniImg2
+    }
+  ],
   "faqs": [
     {
-      "q": "Is it possible to study International Business in Mauritius after Class 12?",
-      "a": "Yes. On completion of secondary education, students may go on to undergraduate business programs if they meet the university\u2019s academic and language requirements. The University of Mauritius has a three years full-time BSc (Hons) in International Business Management. This makes a Bachelor's in International Business in Mauritius an option for eligible students after Class 12\\."
+      "q": "Can Indian students apply for International Business in Mauritius?",
+      "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
     },
     {
-      "q": "What is the duration of the International Business bachelor\u2019s degree?",
-      "a": "The University of Mauritius is offering a 3 year full time BSc (Hons) International Business Management for the academic year 2026-2027."
+      "q": "What is the medium of instruction for International Business in Mauritius?",
+      "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
     },
     {
-      "q": "How long does it take to finish a Master\u2019s in International Business in Mauritius?",
-      "a": "The MSc International Business Management is a two-year part-time program offered by the University of Mauritius. Applicants should consult the current timetable and admission requirements. Students interested in a Master's in International Business in Mauritius should confirm the current course schedule directly with the university."
+      "q": "What are the typical tuition fees for International Business in Mauritius?",
+      "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
     },
     {
-      "q": "What are the fees for International Business in Mauritius?",
-      "a": "The total cost varies by institution and by the applicant\u2019s fee category. Tuition, accommodation, food, transport, insurance and visa-related expenses, should be looked at separately. Ask the university what the current international-student tuition fee is for the specific program."
-    },
-    {
-      "q": "What can I do after studying International Business in Mauritius?",
-      "a": "Graduates may find opportunities in international marketing, business development, export and import, logistics, market research, consulting and business operations. The availability of relevant experience and the right to work in the destination country may influence employment opportunities. Choosing International Business in Mauritius can be a pathway to undergraduate or postgraduate business education. Students should compare the available International Business courses in Mauritius, check admission conditions and confirm the latest fees before making their final decision."
+      "q": "Is a student visa required for Indian students?",
+      "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

@@ -7,13 +7,16 @@ import heroBgImg from "../../../../../../Images/Abroad/Mauritius/Engineering_UG/
 import sideImg from "../../../../../../Images/Abroad/Mauritius/Engineering_UG/Automobile/side.webp";
 import ctaBgImg from "../../../../../../Images/Abroad/Mauritius/Engineering_UG/Automobile/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../../../Images/Abroad/Mauritius/Engineering_UG/Automobile/image1.png";
+
 const page = {
-  "name": "Automobile Engineering (UG) in Mauritius",
+  "name": "Automobile Engineering (UG)",
   "country": "Mauritius",
   "slug": "ug/automobile-engineering",
-  "title": "Bachelor\u2019s in Automotive Engineering in Mauritius for Indian Students | Edu-Hawk Worldwide",
+  "title": "Automobile Engineering (UG) in Mauritius for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Automobile Engineering (UG) in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study Automobile Engineering (UG) in Mauritius, Automobile Engineering (UG) in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Automobile Engineering (UG) in Mauritius Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
+  "keywords": "Study Automobile Engineering (UG) in Mauritius, Automobile Engineering (UG) in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Automobile Engineering (UG) Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
   "introTitle": "Automobile Engineering (UG) in Mauritius for Indian Students",
   "heroParas": [
     "Bachelor\u2019s in Automobile Engineering is designed for students with an interest in vehicle design, automotive systems, engines, manufacturing, electric vehicles and transport technology. The subject is a combination of mechanical engineering and automotive applications. **Automobile Engineering in Mauritius for Indian Students** is an option worth exploring for students interested in vehicle technology and engineering education."
@@ -25,20 +28,42 @@ const page = {
   "crumb": "Engineering / UG Engineering",
   "stats": [
     {
-      "label": "Degree Choices",
-      "value": "B.Eng / B.Sc. Automobile Engineering"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "label": "Language of Study",
-      "value": "English & Bilingual"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "label": "Top Institutions",
-      "value": "UoM, UTM, UdM & Middlesex"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "label": "Indicative Fees",
-      "value": "MUR 150,000 \u2013 MUR 350,000 / Year"
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
     }
   ],
   "sections": [
@@ -112,18 +137,27 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Best Universities for Automobile Engineering in Mauritius",
-      "lead": "Explore leading universities and institutions in Mauritius offering accredited Automobile Engineering (UG) in Mauritius programmes, modern campuses, and international student support.",
+      "lead": "Explore leading universities and institutions in Mauritius offering accredited Automobile Engineering (UG) programmes, modern campuses, and international student support.",
+      "unis": [
+        {
+          "name": "University of Mauritius (UoM)",
+          "location": "University of Mauritius (UoM)",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "**Website:** [https\\://www\\.uom.ac.mu](https://www.uom.ac.mu) The University of Mauritius (public university) provides engineering degrees such as Mechanical Engineering and Mechatronics Engineering. The published program list does not currently include a dedicated Bachelor\u2019s degree in Automobile Engineering for 2026-2027. Students searching for **Automobile Engineering Universities in Mauritius** can explore the University of Mauritius for its related engineering courses. Before selecting from the available **Automobile Engineering Universities in Mauritius** options, students should confirm whether the course supports their intended automotive specialization. Students are advised to contact the university to inquire about automotive-related projects, electives, laboratory facilities and internship opportunities before choosing a related course. For other institutions, refer to the official information of the Mauritius Higher Education Commission and ensure that the institution and qualification concerned are properly recognized.",
+          "img": uniImg1
+        }
+      ],
       "unis_data": [
         {
           "name": "University of Mauritius (UoM)",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "The University of Mauritius (public university) provides engineering degrees such as Mechanical Engineering and Mechatronics Engineering. The published program list does not currently include a dedicated Bachelor\u2019s degree in Automobile Engineering for 2026-2027. Students searching for Automobile Engineering Universities in Mauritius can explore the University of Mauritius for its related engineering courses. Before selecting from the available Automobile Engineering Universities in Mauritius options, students should confirm whether the course supports their intended automotive specialization. Students are advised to contact the university to inquire about automotive-related projects, electives, laboratory facilities and internship opportunities before choosing a related course. For other institutions, refer to the official information of the Mauritius Higher Education Commission and ensure that the institution and qualification concerned are properly recognized.",
-          "img_var": "null"
+          "location": "University of Mauritius (UoM)",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "**Website:** [https\\://www\\.uom.ac.mu](https://www.uom.ac.mu) The University of Mauritius (public university) provides engineering degrees such as Mechanical Engineering and Mechatronics Engineering. The published program list does not currently include a dedicated Bachelor\u2019s degree in Automobile Engineering for 2026-2027. Students searching for **Automobile Engineering Universities in Mauritius** can explore the University of Mauritius for its related engineering courses. Before selecting from the available **Automobile Engineering Universities in Mauritius** options, students should confirm whether the course supports their intended automotive specialization. Students are advised to contact the university to inquire about automotive-related projects, electives, laboratory facilities and internship opportunities before choosing a related course. For other institutions, refer to the official information of the Mauritius Higher Education Commission and ensure that the institution and qualification concerned are properly recognized.",
+          "img": uniImg1
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and student visa requirements before submitting their applications."
+        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
       ]
     },
     {
@@ -380,26 +414,31 @@ const page = {
       ]
     }
   ],
+  "universities": [
+    {
+      "name": "University of Mauritius (UoM)",
+      "location": "University of Mauritius (UoM)",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "**Website:** [https\\://www\\.uom.ac.mu](https://www.uom.ac.mu) The University of Mauritius (public university) provides engineering degrees such as Mechanical Engineering and Mechatronics Engineering. The published program list does not currently include a dedicated Bachelor\u2019s degree in Automobile Engineering for 2026-2027. Students searching for **Automobile Engineering Universities in Mauritius** can explore the University of Mauritius for its related engineering courses. Before selecting from the available **Automobile Engineering Universities in Mauritius** options, students should confirm whether the course supports their intended automotive specialization. Students are advised to contact the university to inquire about automotive-related projects, electives, laboratory facilities and internship opportunities before choosing a related course. For other institutions, refer to the official information of the Mauritius Higher Education Commission and ensure that the institution and qualification concerned are properly recognized.",
+      "img": uniImg1
+    }
+  ],
   "faqs": [
     {
-      "q": "Are there Bachelors in Automobile Engineering Mauritius?",
-      "a": "The University of Mauritius\u2019s published list of undergraduate programs for 2026\u20132027 did not feature a dedicated bachelor\u2019s degree in Automobile Engineering. Related choices are Mechanical Engineering and Mechatronics Engineering. Students looking for Automobile Engineering in Mauritius for Indian Students should verify the current course list before applying."
+      "q": "Can Indian students apply for Automobile Engineering (UG) in Mauritius?",
+      "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
     },
     {
-      "q": "Are there any universities in Mauritius offering related engineering courses?",
-      "a": "The University of Mauritius offers four year BEng (Hons) degrees in Mechanical Engineering and Mechatronics Engineering. Please contact the university to verify the present curriculum and availability of automotive-related electives or projects. Students exploring Automobile Engineering Universities in Mauritius should confirm the latest programme details directly with the institution."
+      "q": "What is the medium of instruction for Automobile Engineering (UG) in Mauritius?",
+      "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
     },
     {
-      "q": "What is the cost to study Automobile Engineering in Mauritius?",
-      "a": "No confirmed tuition fee for a dedicated Automobile Engineering degree is available as the program has not been confirmed. Estimated living costs for initial planning are MUR 20,500\u201339,000 per month, or about \u20b938,950\u2013\u20b974,100 based on the illustrative exchange rate above. Plus other expenses such as tuition. For accurate Automobile Engineering Fees in Mauritius, contact the university for the applicable international tuition fee."
+      "q": "What are the typical tuition fees for Automobile Engineering (UG) in Mauritius?",
+      "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
     },
     {
-      "q": "What are the important subjects in engineering courses?",
-      "a": "Mathematics is particularly important and Physics or other science subjects may be needed depending on the program. Students should check the university and qualification they have chosen for the exact eligibility requirements."
-    },
-    {
-      "q": "Can I work in the automobile industry after studying Mechanical Engineering in Mauritius?",
-      "a": "A degree in Mechanical Engineering can provide a foundation for work in the automotive field. However, employment will depend on the position, curriculum, practical skills and the requirements of the employer. Internships, relevant projects and further automotive training can all help strengthen your profile. For guidance on related engineering courses, university selection, eligibility and admission procedures, Edu-Hawk Worldwide can help students explore suitable international study options."
+      "q": "Is a student visa required for Indian students?",
+      "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

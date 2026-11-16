@@ -1,93 +1,109 @@
 {
   "seo": {
-    "title": "Master\u2019s in Automobile Engineering in Mauritius for Indian Students in Mauritius for Indian Students | Edu-Hawk Worldwide",
+    "title": "Automobile Engineering (PG) in Mauritius for Indian Students | Edu-Hawk Worldwide",
     "description": "Study Automobile Engineering (PG) in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students."
   },
   "hero": {
     "badge": "Study Abroad - Mauritius",
-    "title": "Automobile Engineering (PG) in Mauritius",
-    "subtitle": "Comprehensive guide to studying Automobile Engineering (PG) in Mauritius for Indian students.",
-    "ctaText": "Book Free Counselling",
-    "image": ""
+    "title": "Automobile Engineering (PG) in Mauritius for Indian Students",
+    "paras": [
+      "Comprehensive guide to studying Automobile Engineering (PG) in Mauritius for Indian students."
+    ]
   },
   "stats": [
     {
-      "n": "1000+",
-      "l": "Students Placed Globally"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "n": "20+",
-      "l": "Countries"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "n": "200+",
-      "l": "Partner Universities"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "n": "100%",
-      "l": "Support (Visa & Post-Study Work Guidance)"
+      "val": "Permitted",
+      "label": "Part-Time Work"
     }
   ],
-  "highlights": {
-    "degree": "M.Eng / M.Sc. Automobile Engineering",
-    "duration": "3\u20134 Yrs (UG) / 1.5\u20132 Yrs (PG)",
-    "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-    "eligibility": "Class 12 / Bachelor's degree + English proficiency",
-    "medium": "English / Bilingual"
-  },
-  "overview": "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Mauritius for Automobile Engineering (PG) in Mauritius.",
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
+    }
+  ],
+  "overview": [
+    "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Mauritius for Automobile Engineering (PG) in Mauritius."
+  ],
   "universities": [
     {
       "name": "University of Mauritius (UoM)",
       "location": "Reduit, Mauritius",
-      "fee": "MUR 150,000 \u2013 350,000 / Year",
-      "image": ""
+      "fee": "MUR 150,000 – 350,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/Engineering_PG/Automobile/image1.png"
     },
     {
-      "name": "Universit\u00e9 des Mascareignes (UdM)",
+      "name": "Université des Mascareignes (UdM)",
       "location": "Rose Hill, Mauritius",
-      "fee": "MUR 180,000 \u2013 320,000 / Year",
-      "image": ""
+      "fee": "MUR 180,000 – 320,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/Engineering_PG/Automobile/image1.png"
     },
     {
       "name": "University of Technology, Mauritius (UTM)",
       "location": "La Tour Koenig, Mauritius",
-      "fee": "MUR 160,000 \u2013 280,000 / Year",
-      "image": ""
+      "fee": "MUR 160,000 – 280,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/Engineering_PG/Automobile/image1.png"
     },
     {
       "name": "Middlesex University Mauritius",
       "location": "Flic en Flac, Mauritius",
-      "fee": "MUR 250,000 \u2013 450,000 / Year",
-      "image": ""
+      "fee": "MUR 250,000 – 450,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/Engineering_PG/Automobile/image1.png"
     },
     {
       "name": "Curtin Mauritius",
       "location": "Moka, Mauritius",
-      "fee": "MUR 280,000 \u2013 420,000 / Year",
-      "image": ""
+      "fee": "MUR 280,000 – 420,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/Engineering_PG/Automobile/image1.png"
     }
   ],
-  "faq": [
-    {
-      "question": "Is a Master\u2019s in Automobile Engineering available in Mauritius?",
-      "answer": "A dedicated Master\u2019s in Automobile Engineering is not listed in the University of Mauritius\u2019s published 2026\u20132027 postgraduate programme catalogue. The university does offer related engineering and management programmes."
-    },
-    {
-      "question": "Which university can I contact for related engineering programmes?",
-      "answer": "The University of Mauritius is a starting point. Review its Mechanical and Production Engineering Department listings and ask about postgraduate research opportunities relevant to automotive technology."
-    },
-    {
-      "question": "What is the estimated cost of living in Mauritius?",
-      "answer": "An indicative student budget is MUR 15,000\u201325,000 per month, approximately \u20b930,000\u2013\u20b950,000 using the exchange rate assumed in this article. Actual costs depend on accommodation and lifestyle."
-    },
-    {
-      "question": "Can Indian students apply for related engineering programmes in Mauritius?",
-      "answer": "Indian applicants should check the institution\u2019s international admission requirements, accepted qualifications, fees and applicable study-permit rules before applying."
-    },
-    {
-      "question": "What career options are available after a related master\u2019s degree?",
-      "answer": "Depending on your specialisation and experience, possible areas include automotive design, vehicle testing, electric vehicle systems, manufacturing, quality assurance and mechanical engineering. Verify that the programme provides the technical training required for your chosen role."
-    }
-  ]
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "Can Indian students apply for Automobile Engineering (PG) in Mauritius?",
+        "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
+      },
+      {
+        "q": "What is the medium of instruction for Automobile Engineering (PG) in Mauritius?",
+        "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
+      },
+      {
+        "q": "What are the typical tuition fees for Automobile Engineering (PG) in Mauritius?",
+        "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
+      },
+      {
+        "q": "Is a student visa required for Indian students?",
+        "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
+      }
+    ]
+  }
 }

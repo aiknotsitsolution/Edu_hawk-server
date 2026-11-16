@@ -7,13 +7,17 @@ import heroBgImg from "../../../../Images/Abroad/Mauritius/WinterCourses/hero_bg
 import sideImg from "../../../../Images/Abroad/Mauritius/WinterCourses/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Mauritius/WinterCourses/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../Images/Abroad/Mauritius/WinterCourses/image1.png";
+import uniImg2 from "../../../../Images/Abroad/Mauritius/WinterCourses/image2.png";
+
 const page = {
-  "name": "Winter Courses in Mauritius",
+  "name": "Winter Courses",
   "country": "Mauritius",
   "slug": "winter-courses",
   "title": "Winter Courses in Mauritius for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Winter Courses in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study Winter Courses in Mauritius, Winter Courses in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Winter Courses in Mauritius Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
+  "keywords": "Study Winter Courses in Mauritius, Winter Courses in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Winter Courses Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
   "introTitle": "Winter Courses in Mauritius for Indian Students",
   "heroParas": [
     "**Winter Courses in Mauritius** can be a useful way for students and working professionals to develop practical skills, explore new subjects, and make productive use of a study break. Short courses may cover technology, business, engineering software, sustainability, communication, and other professional topics. These **winter short courses in Mauritius** provide opportunities to learn new skills without committing to a full degree programme."
@@ -25,20 +29,42 @@ const page = {
   "crumb": "Winter Courses",
   "stats": [
     {
-      "label": "Degree Choices",
-      "value": "Short-term / Winter Programmes"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "label": "Language of Study",
-      "value": "English & Bilingual"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "label": "Top Institutions",
-      "value": "UoM, UTM, UdM & Middlesex"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "label": "Indicative Fees",
-      "value": "MUR 150,000 \u2013 MUR 350,000 / Year"
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
     }
   ],
   "sections": [
@@ -117,25 +143,83 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Top Institutions Offering Winter and Short Courses in Mauritius",
-      "lead": "Explore leading universities and institutions in Mauritius offering accredited Winter Courses in Mauritius programmes, modern campuses, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Mauritius offering accredited Winter Courses programmes, modern campuses, and international student support.",
+      "unis": [
         {
-          "name": "University of Mauritius",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "Offers professional and technical short courses. Its published 2026 listings include a Sustainability and ESG Reporting course scheduled for 21 and 28 November and 5 and 12 December 2026, as well as a Photovoltaic Energy Systems course with application and registration deadlines in November and December.",
-          "img_var": "null"
+          "name": "University of Mauritius (UoM)",
+          "location": "Reduit, Mauritius",
+          "fee": "MUR 150,000 \u2013 350,000 / Year",
+          "desc": "The flagship national university of Mauritius offering premier degree programs in health sciences, engineering, agriculture, and business.",
+          "img": uniImg1
         },
         {
-          "name": "Institute of Technical Education and Technology (ITET)",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "Organises practical technical training and short courses in areas such as emerging technologies, cybersecurity, graphic design, communication, computer hardware, and smart agriculture. Its announced 2026 holiday courses run during November and December. These institutions offer different types of short-term learning opportunities. Students should compare the course details and availability before selecting winter short courses in Mauritius.",
-          "img_var": "null"
+          "name": "Universit\u00e9 des Mascareignes (UdM)",
+          "location": "Rose Hill, Mauritius",
+          "fee": "MUR 180,000 \u2013 320,000 / Year",
+          "desc": "Bilingual public university partnering with French universities to offer internationally accredited dual qualifications.",
+          "img": uniImg2
+        },
+        {
+          "name": "University of Technology, Mauritius (UTM)",
+          "location": "La Tour Koenig, Mauritius",
+          "fee": "MUR 160,000 \u2013 280,000 / Year",
+          "desc": "Dynamic public institution recognized for cutting-edge programs in technology, applied management, healthcare, and sustainable development.",
+          "img": uniImg1
+        },
+        {
+          "name": "Middlesex University Mauritius",
+          "location": "Flic en Flac, Mauritius",
+          "fee": "MUR 250,000 \u2013 450,000 / Year",
+          "desc": "Accredited British branch campus delivering internationally recognized undergraduate and postgraduate degrees in coastal Mauritius.",
+          "img": uniImg2
+        },
+        {
+          "name": "Curtin Mauritius",
+          "location": "Moka, Mauritius",
+          "fee": "MUR 280,000 \u2013 420,000 / Year",
+          "desc": "Premier Australian branch university known for high academic standards in commerce, design, health, and humanities.",
+          "img": uniImg1
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "University of Mauritius (UoM)",
+          "location": "Reduit, Mauritius",
+          "fee": "MUR 150,000 \u2013 350,000 / Year",
+          "desc": "The flagship national university of Mauritius offering premier degree programs in health sciences, engineering, agriculture, and business.",
+          "img": uniImg1
+        },
+        {
+          "name": "Universit\u00e9 des Mascareignes (UdM)",
+          "location": "Rose Hill, Mauritius",
+          "fee": "MUR 180,000 \u2013 320,000 / Year",
+          "desc": "Bilingual public university partnering with French universities to offer internationally accredited dual qualifications.",
+          "img": uniImg2
+        },
+        {
+          "name": "University of Technology, Mauritius (UTM)",
+          "location": "La Tour Koenig, Mauritius",
+          "fee": "MUR 160,000 \u2013 280,000 / Year",
+          "desc": "Dynamic public institution recognized for cutting-edge programs in technology, applied management, healthcare, and sustainable development.",
+          "img": uniImg1
+        },
+        {
+          "name": "Middlesex University Mauritius",
+          "location": "Flic en Flac, Mauritius",
+          "fee": "MUR 250,000 \u2013 450,000 / Year",
+          "desc": "Accredited British branch campus delivering internationally recognized undergraduate and postgraduate degrees in coastal Mauritius.",
+          "img": uniImg2
+        },
+        {
+          "name": "Curtin Mauritius",
+          "location": "Moka, Mauritius",
+          "fee": "MUR 280,000 \u2013 420,000 / Year",
+          "desc": "Premier Australian branch university known for high academic standards in commerce, design, health, and humanities.",
+          "img": uniImg1
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and student visa requirements before submitting their applications."
+        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
       ]
     },
     {
@@ -323,26 +407,59 @@ const page = {
       ]
     }
   ],
+  "universities": [
+    {
+      "name": "University of Mauritius (UoM)",
+      "location": "Reduit, Mauritius",
+      "fee": "MUR 150,000 \u2013 350,000 / Year",
+      "desc": "The flagship national university of Mauritius offering premier degree programs in health sciences, engineering, agriculture, and business.",
+      "img": uniImg1
+    },
+    {
+      "name": "Universit\u00e9 des Mascareignes (UdM)",
+      "location": "Rose Hill, Mauritius",
+      "fee": "MUR 180,000 \u2013 320,000 / Year",
+      "desc": "Bilingual public university partnering with French universities to offer internationally accredited dual qualifications.",
+      "img": uniImg2
+    },
+    {
+      "name": "University of Technology, Mauritius (UTM)",
+      "location": "La Tour Koenig, Mauritius",
+      "fee": "MUR 160,000 \u2013 280,000 / Year",
+      "desc": "Dynamic public institution recognized for cutting-edge programs in technology, applied management, healthcare, and sustainable development.",
+      "img": uniImg1
+    },
+    {
+      "name": "Middlesex University Mauritius",
+      "location": "Flic en Flac, Mauritius",
+      "fee": "MUR 250,000 \u2013 450,000 / Year",
+      "desc": "Accredited British branch campus delivering internationally recognized undergraduate and postgraduate degrees in coastal Mauritius.",
+      "img": uniImg2
+    },
+    {
+      "name": "Curtin Mauritius",
+      "location": "Moka, Mauritius",
+      "fee": "MUR 280,000 \u2013 420,000 / Year",
+      "desc": "Premier Australian branch university known for high academic standards in commerce, design, health, and humanities.",
+      "img": uniImg1
+    }
+  ],
   "faqs": [
     {
-      "q": "When are winter courses held in Mauritius?",
-      "a": "Winter-related short courses may be scheduled during November and December, although there is no single calendar covering every provider. The University of Mauritius has published courses scheduled for November and December 2026\\."
+      "q": "Can Indian students apply for Winter Courses in Mauritius?",
+      "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
     },
     {
-      "q": "Which subjects can I study during winter courses in Mauritius?",
-      "a": "Options may include AI, cybersecurity, engineering software, sustainability, renewable energy, business management, and technical skills. The exact selection depends on the institution and intake."
+      "q": "What is the medium of instruction for Winter Courses in Mauritius?",
+      "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
     },
     {
-      "q": "Are winter courses in Mauritius free?",
-      "a": "Some holiday training programmes may be free, while university and professional short courses may charge tuition or registration fees. Check the individual course announcement for the applicable fee."
+      "q": "What are the typical tuition fees for Winter Courses in Mauritius?",
+      "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
     },
     {
-      "q": "Can international students apply for winter courses in Mauritius?",
-      "a": "Potentially, but eligibility depends on the provider and course. International applicants should confirm that overseas enrolment is permitted and check any relevant immigration requirements before travelling. Students researching winter courses in Mauritius for international students should contact the institution for confirmation."
-    },
-    {
-      "q": "Do winter courses in Mauritius provide certificates?",
-      "a": "Certificate arrangements depend on the course and institution. Before enrolling, ask whether a certificate is issued, whether attendance requirements apply, and whether the qualification has any formal accreditation. Winter Courses in Mauritius can help students and working professionals develop practical knowledge, explore new subjects and strengthen their professional profiles. Before enrolling, compare course content, eligibility, duration, fees and certificate arrangements. Learners interested in winter short courses in Mauritius should always refer to the official course information and confirm the latest admission details with their chosen institution."
+      "q": "Is a student visa required for Indian students?",
+      "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

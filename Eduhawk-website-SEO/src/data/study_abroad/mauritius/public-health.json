@@ -5,89 +5,105 @@
   },
   "hero": {
     "badge": "Study Abroad - Mauritius",
-    "title": "Public Health in Mauritius",
-    "subtitle": "**Public Health in Mauritius for Indian Students** is a study pathway for students interested in disease prevention, health promotion, epidemiology, healthcare policy and improving health at the community and population levels. Unlike clinical degrees focused primarily on treating individual patients, public health programmes examine how health systems, environments, behaviours and social conditions affect entire communities. Students who want to **Study Public Health in Mauritius** can explore postgraduate opportunities and related academic pathways.",
-    "ctaText": "Book Free Counselling",
-    "image": ""
+    "title": "Public Health in Mauritius for Indian Students",
+    "paras": [
+      "**Public Health in Mauritius for Indian Students** is a study pathway for students interested in disease prevention, health promotion, epidemiology, healthcare policy and improving health at the community and population levels. Unlike clinical degrees focused primarily on treating individual patients, public health programmes examine how health systems, environments, behaviours and social conditions affect entire communities. Students who want to **Study Public Health in Mauritius** can explore postgraduate opportunities and related academic pathways."
+    ]
   },
   "stats": [
     {
-      "n": "1000+",
-      "l": "Students Placed Globally"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "n": "20+",
-      "l": "Countries"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "n": "200+",
-      "l": "Partner Universities"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "n": "100%",
-      "l": "Support (Visa & Post-Study Work Guidance)"
+      "val": "Permitted",
+      "label": "Part-Time Work"
     }
   ],
-  "highlights": {
-    "degree": "Master of Public Health (MPH)",
-    "duration": "3\u20134 Yrs (UG) / 1.5\u20132 Yrs (PG)",
-    "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-    "eligibility": "Class 12 / Bachelor's degree + English proficiency",
-    "medium": "English / Bilingual"
-  },
-  "overview": "The Master of Public Health (MPH) is a relevant postgraduate option for graduates in medicine, nursing, pharmacy, biology, environmental sciences and other eligible disciplines. The University of Mauritius has published an MPH programme, while the Open University of Mauritius has documented an MPH offered in collaboration with Imperial College London. Applicants must verify the current intake, programme arrangements and fees before applying. **Edu-Hawk Worldwide** encourages students to check the latest admission and programme details before making a decision.",
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
+    }
+  ],
+  "overview": [
+    "The Master of Public Health (MPH) is a relevant postgraduate option for graduates in medicine, nursing, pharmacy, biology, environmental sciences and other eligible disciplines. The University of Mauritius has published an MPH programme, while the Open University of Mauritius has documented an MPH offered in collaboration with Imperial College London. Applicants must verify the current intake, programme arrangements and fees before applying. **Edu-Hawk Worldwide** encourages students to check the latest admission and programme details before making a decision."
+  ],
   "universities": [
     {
       "name": "University of Mauritius (UoM)",
       "location": "Reduit, Mauritius",
-      "fee": "MUR 150,000 \u2013 350,000 / Year",
-      "image": ""
+      "fee": "MUR 150,000 – 350,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/PublicHealth/image1.png"
     },
     {
-      "name": "Universit\u00e9 des Mascareignes (UdM)",
+      "name": "Université des Mascareignes (UdM)",
       "location": "Rose Hill, Mauritius",
-      "fee": "MUR 180,000 \u2013 320,000 / Year",
-      "image": ""
+      "fee": "MUR 180,000 – 320,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/PublicHealth/image2.png"
     },
     {
       "name": "University of Technology, Mauritius (UTM)",
       "location": "La Tour Koenig, Mauritius",
-      "fee": "MUR 160,000 \u2013 280,000 / Year",
-      "image": ""
+      "fee": "MUR 160,000 – 280,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/PublicHealth/image1.png"
     },
     {
       "name": "Middlesex University Mauritius",
       "location": "Flic en Flac, Mauritius",
-      "fee": "MUR 250,000 \u2013 450,000 / Year",
-      "image": ""
+      "fee": "MUR 250,000 – 450,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/PublicHealth/image2.png"
     },
     {
       "name": "Curtin Mauritius",
       "location": "Moka, Mauritius",
-      "fee": "MUR 280,000 \u2013 420,000 / Year",
-      "image": ""
+      "fee": "MUR 280,000 – 420,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/PublicHealth/image1.png"
     }
   ],
-  "faq": [
-    {
-      "question": "Can Indian students study an MPH in Mauritius?",
-      "answer": "Indian students can apply if they meet the institution\u2019s academic and international admission requirements. They should confirm the next intake, international tuition fees and student-entry arrangements directly with the university. Edu-Hawk Worldwide can help students understand the admission considerations for Public Health in Mauritius for Indian Students."
-    },
-    {
-      "question": "How long does an MPH take in Mauritius?",
-      "answer": "The Open University of Mauritius lists a duration of 21 to 39 months for its published MPH programme. The actual duration depends on the programme structure and the student\u2019s study plan."
-    },
-    {
-      "question": "What is the cost of studying public health in Mauritius?",
-      "answer": "The fee depends on the institution and student category. The published MUR 300,000 fee at the Open University of Mauritius is for Mauritian students; an international non-SADC fee is not specified on that page. Request a current international quotation."
-    },
-    {
-      "question": "Can I study public health after MBBS, nursing or pharmacy?",
-      "answer": "Yes, these backgrounds may be relevant for MPH admission, subject to the university\u2019s entry requirements. The published Open University programme lists medicine, nursing, pharmacy and other health-related backgrounds among its accepted subject areas."
-    },
-    {
-      "question": "What jobs can I get after an MPH in Mauritius?",
-      "answer": "Possible pathways include public health research, epidemiology, health programme management, health promotion, policy analysis and monitoring and evaluation. Specific roles may require relevant work experience, additional qualifications or professional registration."
-    }
-  ]
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "Can Indian students apply for Public Health in Mauritius?",
+        "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
+      },
+      {
+        "q": "What is the medium of instruction for Public Health in Mauritius?",
+        "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
+      },
+      {
+        "q": "What are the typical tuition fees for Public Health in Mauritius?",
+        "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
+      },
+      {
+        "q": "Is a student visa required for Indian students?",
+        "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
+      }
+    ]
+  }
 }

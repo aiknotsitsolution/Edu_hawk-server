@@ -7,13 +7,17 @@ import heroBgImg from "../../../../../../Images/Abroad/Mauritius/Engineering_UG/
 import sideImg from "../../../../../../Images/Abroad/Mauritius/Engineering_UG/Mechanical/side.webp";
 import ctaBgImg from "../../../../../../Images/Abroad/Mauritius/Engineering_UG/Mechanical/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../../../Images/Abroad/Mauritius/Engineering_UG/Mechanical/image1.png";
+import uniImg2 from "../../../../../../Images/Abroad/Mauritius/Engineering_UG/Mechanical/image2.png";
+
 const page = {
-  "name": "Mechanical Engineering (UG) in Mauritius",
+  "name": "Mechanical Engineering (UG)",
   "country": "Mauritius",
   "slug": "ug/mechanical-engineering",
-  "title": "Bachelor's Degree in Mechanical Engineering Mauritius in Mauritius for Indian Students | Edu-Hawk Worldwide",
+  "title": "Mechanical Engineering (UG) in Mauritius for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Mechanical Engineering (UG) in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study Mechanical Engineering (UG) in Mauritius, Mechanical Engineering (UG) in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Mechanical Engineering (UG) in Mauritius Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
+  "keywords": "Study Mechanical Engineering (UG) in Mauritius, Mechanical Engineering (UG) in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Mechanical Engineering (UG) Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
   "introTitle": "Mechanical Engineering (UG) in Mauritius for Indian Students",
   "heroParas": [
     "A **Bachelor\u2019s in Mechanical Engineering in Mauritius for Indian Students** is suitable for students who are interested in designing machines, developing industrial systems, working with vehicles and understanding the working of mechanical equipment. For the 2026\u20132027 academic year, the University of Mauritius offers a four-year full-time undergraduate program, Bachelor of Engineering (Honours) in Mechanical Engineering. Students planning to **Study Mechanical Engineering in Mauritius** can explore this undergraduate pathway and its related study options."
@@ -25,20 +29,42 @@ const page = {
   "crumb": "Engineering / UG Engineering",
   "stats": [
     {
-      "label": "Degree Choices",
-      "value": "B.Eng / B.Sc. Mechanical Engineering"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "label": "Language of Study",
-      "value": "English & Bilingual"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "label": "Top Institutions",
-      "value": "UoM, UTM, UdM & Middlesex"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "label": "Indicative Fees",
-      "value": "MUR 150,000 \u2013 MUR 350,000 / Year"
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
     }
   ],
   "sections": [
@@ -102,25 +128,41 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Best Universities for Mechanical Engineering in Mauritius",
-      "lead": "Explore leading universities and institutions in Mauritius offering accredited Mechanical Engineering (UG) in Mauritius programmes, modern campuses, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Mauritius offering accredited Mechanical Engineering (UG) programmes, modern campuses, and international student support.",
+      "unis": [
         {
-          "name": "University of Mauritius",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "The main option you need to look at for this degree is the University of Mauritius. The BEng (Hons) Mechanical Engineering, program code E440 is a four year full-time program for 2026-2027 at its Mechanical and Production Engineering Department. Official website uom.ac.mu \\[1\\]",
-          "img_var": "null"
+          "name": "\\. University of Mauritius",
+          "location": "\\. University of Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "The main option you need to look at for this degree is the University of Mauritius. The BEng (Hons) Mechanical Engineering, program code E440 is a four year full-time program for 2026-2027 at its Mechanical and Production Engineering Department.",
+          "img": uniImg1
         },
         {
-          "name": "Mechatronics Engineering, University of Mauritius",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "The university also has a separate BEng (Hons) Mechatronics Engineering program for students who are interested in robotics, automation, sensors and smart machinery. It is related to mechanical engineering but not the same qualification. Program Details: Mechanical and Production Engineering Programs The University of Mauritius is the only checked verified choice in the official program listings for 2026-2027 for this piece. Contact the university to check if you are eligible as an international student and if there are places available before you apply.",
-          "img_var": "null"
+          "name": "\\. Mechatronics Engineering, University of Mauritius",
+          "location": "\\. Mechatronics Engineering, University of Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "The university also has a separate BEng (Hons) Mechatronics Engineering program for students who are interested in robotics, automation, sensors and smart machinery. It is related to mechanical engineering but not the same qualification. The University of Mauritius is the only checked verified choice in the official program listings for 2026-2027 for this piece. Contact the university to check if you are eligible as an international student and if there are places available before you apply.",
+          "img": uniImg2
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "\\. University of Mauritius",
+          "location": "\\. University of Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "The main option you need to look at for this degree is the University of Mauritius. The BEng (Hons) Mechanical Engineering, program code E440 is a four year full-time program for 2026-2027 at its Mechanical and Production Engineering Department.",
+          "img": uniImg1
+        },
+        {
+          "name": "\\. Mechatronics Engineering, University of Mauritius",
+          "location": "\\. Mechatronics Engineering, University of Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "The university also has a separate BEng (Hons) Mechatronics Engineering program for students who are interested in robotics, automation, sensors and smart machinery. It is related to mechanical engineering but not the same qualification. The University of Mauritius is the only checked verified choice in the official program listings for 2026-2027 for this piece. Contact the university to check if you are eligible as an international student and if there are places available before you apply.",
+          "img": uniImg2
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and student visa requirements before submitting their applications."
+        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
       ]
     },
     {
@@ -391,26 +433,38 @@ const page = {
       ]
     }
   ],
+  "universities": [
+    {
+      "name": "\\. University of Mauritius",
+      "location": "\\. University of Mauritius",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "The main option you need to look at for this degree is the University of Mauritius. The BEng (Hons) Mechanical Engineering, program code E440 is a four year full-time program for 2026-2027 at its Mechanical and Production Engineering Department.",
+      "img": uniImg1
+    },
+    {
+      "name": "\\. Mechatronics Engineering, University of Mauritius",
+      "location": "\\. Mechatronics Engineering, University of Mauritius",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "The university also has a separate BEng (Hons) Mechatronics Engineering program for students who are interested in robotics, automation, sensors and smart machinery. It is related to mechanical engineering but not the same qualification. The University of Mauritius is the only checked verified choice in the official program listings for 2026-2027 for this piece. Contact the university to check if you are eligible as an international student and if there are places available before you apply.",
+      "img": uniImg2
+    }
+  ],
   "faqs": [
     {
-      "q": "What is the duration of Bachelor\u2019s in Mechanical Engineering course in Mauritius?",
-      "a": "The University of Mauritius will be launching its BEng (Hons) Mechanical Engineering as a four-year full-time program in the academic year 2026-2027."
+      "q": "Can Indian students apply for Mechanical Engineering (UG) in Mauritius?",
+      "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
     },
     {
-      "q": "Which is the Mechanical Engineering university in Mauritius?",
-      "a": "The University Mauritius is a confirmed choice in the official 2026\u20132027 undergraduate program listings. Students should contact the university directly for current international admission requirements and availability of places."
+      "q": "What is the medium of instruction for Mechanical Engineering (UG) in Mauritius?",
+      "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
     },
     {
-      "q": "What is the eligibility criteria for the Indian students?",
-      "a": "Indian applicants typically need a Class 12 or equivalent qualification with appropriate science and maths subjects. Confirm subject requirements, minimum marks and qualification-equivalence rules with the university."
+      "q": "What are the typical tuition fees for Mechanical Engineering (UG) in Mauritius?",
+      "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
     },
     {
-      "q": "What is the cost of studying Mechanical Engineering in Mauritius?",
-      "a": "Tuition fees need to be confirmed with the university. A rough budget would estimate the cost of living to be between MUR 20,500-39,000 per month (approximately \u20b938,950-\u20b974,100) excluding tuition fees and other initial or one-off expenses. These are estimates for planning purposes, not official university rates."
-    },
-    {
-      "q": "What jobs are available after doing Mechanical Engineering?",
-      "a": "Graduates can work as mechanical design engineer, manufacturing engineer, maintenance engineer, quality engineer, CAD engineer, project engineer. Career Scope depends on Practical Skills, Experience, Industry Requirements, and Professional Recognition if required. Students exploring a Bachelor\u2019s in Mechanical Engineering in Mauritius for Indian Students can contact Edu-Hawk Worldwide for guidance on university applications, eligibility and study-abroad planning."
+      "q": "Is a student visa required for Indian students?",
+      "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

@@ -7,13 +7,18 @@ import heroBgImg from "../../../../../Images/Abroad/Mauritius/Engineering_UG/her
 import sideImg from "../../../../../Images/Abroad/Mauritius/Engineering_UG/side.webp";
 import ctaBgImg from "../../../../../Images/Abroad/Mauritius/Engineering_UG/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../../Images/Abroad/Mauritius/Engineering_UG/image1.png";
+import uniImg2 from "../../../../../Images/Abroad/Mauritius/Engineering_UG/image2.png";
+import uniImg3 from "../../../../../Images/Abroad/Mauritius/Engineering_UG/image3.png";
+
 const page = {
-  "name": "Undergraduate Engineering in Mauritius",
+  "name": "Undergraduate Engineering",
   "country": "Mauritius",
   "slug": "ug/engineering",
-  "title": "Bachelor\u2019s in Engineering in Mauritius for Indian Students | Edu-Hawk Worldwide",
+  "title": "Undergraduate Engineering in Mauritius for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Undergraduate Engineering in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study Undergraduate Engineering in Mauritius, Undergraduate Engineering in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Undergraduate Engineering in Mauritius Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
+  "keywords": "Study Undergraduate Engineering in Mauritius, Undergraduate Engineering in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Undergraduate Engineering Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
   "introTitle": "Undergraduate Engineering in Mauritius for Indian Students",
   "heroParas": [
     "A **Bachelor\u2019s in Engineering in Mauritius for Indian Students** can be a pathway for students interested in designing, building and improving systems, machines, infrastructure and technology. Engineering programmes in Mauritius include chemical, civil, mechanical, electrical and electronic, mechatronics, telecommunications and industrial engineering. Students planning to **study Engineering in Mauritius** can explore different specialisations based on their academic interests and career goals."
@@ -21,24 +26,46 @@ const page = {
   "overview": [
     "The University of Mauritius lists several four-year Bachelor of Engineering (Honours) programmes for the 2026\u20132027 academic year. The Universit\u00e9 des Mascareignes also offers engineering programmes, including a four-year BEng pathway. These **Engineering Universities in Mauritius** provide options for students considering undergraduate engineering education abroad."
   ],
-  "level": "B.Eng / B.Sc. in Engineering",
-  "crumb": "Engineering / UG Engineering",
+  "level": "B.Sc. & B.Eng Engineering",
+  "crumb": "Engineering",
   "stats": [
     {
-      "label": "Degree Choices",
-      "value": "B.Eng / B.Sc. in Engineering"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "label": "Language of Study",
-      "value": "English & Bilingual"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "label": "Top Institutions",
-      "value": "UoM, UTM, UdM & Middlesex"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "label": "Indicative Fees",
-      "value": "MUR 150,000 \u2013 MUR 350,000 / Year"
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
     }
   ],
   "sections": [
@@ -129,32 +156,55 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Top Universities for Engineering in Mauritius",
-      "lead": "Explore leading universities and institutions in Mauritius offering accredited Undergraduate Engineering in Mauritius programmes, modern campuses, and international student support.",
+      "lead": "Explore leading universities and institutions in Mauritius offering accredited Undergraduate Engineering programmes, modern campuses, and international student support.",
+      "unis": [
+        {
+          "name": "\\. University of Mauritius",
+          "location": "\\. University of Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "Offers several four-year BEng (Hons) programmes, including Civil, Mechanical, Chemical, Mechatronics, Electrical and Electronic, and Telecommunications Engineering.",
+          "img": uniImg1
+        },
+        {
+          "name": "\\. Universit\u00e9 des Mascareignes",
+          "location": "\\. Universit\u00e9 des Mascareignes, Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "Offers engineering pathways including BEng (Hons) Electromechanical Engineering and civil-engineering-related programmes. Its published course pages provide programme structures and international fee information.",
+          "img": uniImg2
+        },
+        {
+          "name": "\\. University of Technology, Mauritius",
+          "location": "\\. University of Technology, Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "Students can investigate its engineering-related and technology programmes, particularly in areas such as renewable energy. Confirm the exact undergraduate degree and current intake before applying. The University of Mauritius and Universit\u00e9 des Mascareignes are the clearest starting points for comparing undergraduate engineering degrees in the official information reviewed. Students researching **Engineering Universities in Mauritius** should check the current course availability and international admission details directly with each institution.",
+          "img": uniImg3
+        }
+      ],
       "unis_data": [
         {
-          "name": "University of Mauritius",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
+          "name": "\\. University of Mauritius",
+          "location": "\\. University of Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
           "desc": "Offers several four-year BEng (Hons) programmes, including Civil, Mechanical, Chemical, Mechatronics, Electrical and Electronic, and Telecommunications Engineering.",
-          "img_var": "null"
+          "img": uniImg1
         },
         {
-          "name": "Universit\u00e9 des Mascareignes",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
+          "name": "\\. Universit\u00e9 des Mascareignes",
+          "location": "\\. Universit\u00e9 des Mascareignes, Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
           "desc": "Offers engineering pathways including BEng (Hons) Electromechanical Engineering and civil-engineering-related programmes. Its published course pages provide programme structures and international fee information.",
-          "img_var": "null"
+          "img": uniImg2
         },
         {
-          "name": "University of Technology, Mauritius",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "Students can investigate its engineering-related and technology programmes, particularly in areas such as renewable energy. Confirm the exact undergraduate degree and current intake before applying. The University of Mauritius and Universit\u00e9 des Mascareignes are the clearest starting points for comparing undergraduate engineering degrees in the official information reviewed. Students researching Engineering Universities in Mauritius should check the current course availability and international admission details directly with each institution.",
-          "img_var": "null"
+          "name": "\\. University of Technology, Mauritius",
+          "location": "\\. University of Technology, Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "Students can investigate its engineering-related and technology programmes, particularly in areas such as renewable energy. Confirm the exact undergraduate degree and current intake before applying. The University of Mauritius and Universit\u00e9 des Mascareignes are the clearest starting points for comparing undergraduate engineering degrees in the official information reviewed. Students researching **Engineering Universities in Mauritius** should check the current course availability and international admission details directly with each institution.",
+          "img": uniImg3
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and student visa requirements before submitting their applications."
+        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
       ]
     },
     {
@@ -429,26 +479,45 @@ const page = {
       ]
     }
   ],
+  "universities": [
+    {
+      "name": "\\. University of Mauritius",
+      "location": "\\. University of Mauritius",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "Offers several four-year BEng (Hons) programmes, including Civil, Mechanical, Chemical, Mechatronics, Electrical and Electronic, and Telecommunications Engineering.",
+      "img": uniImg1
+    },
+    {
+      "name": "\\. Universit\u00e9 des Mascareignes",
+      "location": "\\. Universit\u00e9 des Mascareignes, Mauritius",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "Offers engineering pathways including BEng (Hons) Electromechanical Engineering and civil-engineering-related programmes. Its published course pages provide programme structures and international fee information.",
+      "img": uniImg2
+    },
+    {
+      "name": "\\. University of Technology, Mauritius",
+      "location": "\\. University of Technology, Mauritius",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "Students can investigate its engineering-related and technology programmes, particularly in areas such as renewable energy. Confirm the exact undergraduate degree and current intake before applying. The University of Mauritius and Universit\u00e9 des Mascareignes are the clearest starting points for comparing undergraduate engineering degrees in the official information reviewed. Students researching **Engineering Universities in Mauritius** should check the current course availability and international admission details directly with each institution.",
+      "img": uniImg3
+    }
+  ],
   "faqs": [
     {
-      "q": "Can Indian students study a Bachelor\u2019s in Engineering in Mauritius?",
-      "a": "Yes, Indian students can explore eligible programmes, subject to academic requirements, international admission rules and intake availability. Confirm that your Class 12 subjects meet the requirements for your chosen engineering specialisation. Bachelor\u2019s in Engineering in Mauritius for Indian Students offers an overseas education option for eligible applicants."
+      "q": "Can Indian students apply for Undergraduate Engineering in Mauritius?",
+      "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
     },
     {
-      "q": "How many years does a Bachelor\u2019s in Engineering take in Mauritius?",
-      "a": "The BEng (Hons) programmes listed by the University of Mauritius generally have a four-year full-time duration. Universit\u00e9 des Mascareignes also lists four-year BEng pathways."
+      "q": "What is the medium of instruction for Undergraduate Engineering in Mauritius?",
+      "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
     },
     {
-      "q": "What is the cost of studying engineering in Mauritius in MUR and INR?",
-      "a": "For one published example, Universit\u00e9 des Mascareignes lists MUR 84,000 per year for non-SADC international students on its BEng course page. This is approximately \u20b91.69 lakh per year or \u20b96.75 lakh over four years at the illustrative exchange rate used here. Confirm the applicable intake fee and any additional charges."
+      "q": "What are the typical tuition fees for Undergraduate Engineering in Mauritius?",
+      "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
     },
     {
-      "q": "Which engineering specialisations can I study in Mauritius?",
-      "a": "Options listed by the University of Mauritius include Civil, Mechanical, Chemical, Mechatronics, Electrical and Electronic, and Telecommunications Engineering. Other institutions offer additional engineering-related pathways."
-    },
-    {
-      "q": "Is an engineering degree from Mauritius recognised in India?",
-      "a": "Recognition depends on the institution, awarding body, programme and requirements applicable to the intended employment or further study. Before enrolling, verify the exact qualification with the relevant Indian authorities, employer or university. Do not assume that a degree automatically provides professional recognition in every country. Students exploring Bachelor\u2019s in Engineering in Mauritius for Indian Students can also contact Edu-Hawk Worldwide for guidance on university comparisons, eligibility checks, admission procedures and study-abroad planning."
+      "q": "Is a student visa required for Indian students?",
+      "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

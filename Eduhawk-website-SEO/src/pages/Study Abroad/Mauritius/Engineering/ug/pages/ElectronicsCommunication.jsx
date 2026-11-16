@@ -7,13 +7,17 @@ import heroBgImg from "../../../../../../Images/Abroad/Mauritius/Engineering_UG/
 import sideImg from "../../../../../../Images/Abroad/Mauritius/Engineering_UG/Electronics/side.webp";
 import ctaBgImg from "../../../../../../Images/Abroad/Mauritius/Engineering_UG/Electronics/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../../../Images/Abroad/Mauritius/Engineering_UG/Electronics/image1.png";
+import uniImg2 from "../../../../../../Images/Abroad/Mauritius/Engineering_UG/Electronics/image2.png";
+
 const page = {
-  "name": "Electronics & Communication (UG) in Mauritius",
+  "name": "Electronics & Communication (UG)",
   "country": "Mauritius",
   "slug": "ug/electronics-communication",
-  "title": "Electronics Engineering Bachelors in Mauritius for Indian Students | Edu-Hawk Worldwide",
+  "title": "Electronics & Communication (UG) in Mauritius for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Electronics & Communication (UG) in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study Electronics & Communication (UG) in Mauritius, Electronics & Communication (UG) in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Electronics & Communication (UG) in Mauritius Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
+  "keywords": "Study Electronics & Communication (UG) in Mauritius, Electronics & Communication (UG) in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Electronics & Communication (UG) Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
   "introTitle": "Electronics & Communication (UG) in Mauritius for Indian Students",
   "heroParas": [
     "A Bachelor\u2019s in Electronics Engineering in Mauritius is a good undergraduate choice for students interested in electronic circuits, embedded systems, microprocessors, telecommunications, sensors and intelligent devices. **A Bachelor\u2019s in Electronics Engineering in Mauritius for Indian Students** can be a suitable option for those who want to build a career in electronics and modern technology."
@@ -25,20 +29,42 @@ const page = {
   "crumb": "Engineering / UG Engineering",
   "stats": [
     {
-      "label": "Degree Choices",
-      "value": "B.Eng / B.Sc. Electronics Engineering"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "label": "Language of Study",
-      "value": "English & Bilingual"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "label": "Top Institutions",
-      "value": "UoM, UTM, UdM & Middlesex"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "label": "Indicative Fees",
-      "value": "MUR 150,000 \u2013 MUR 350,000 / Year"
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
     }
   ],
   "sections": [
@@ -106,25 +132,41 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Top universities for electronic engineering in Mauritius",
-      "lead": "Explore leading universities and institutions in Mauritius offering accredited Electronics & Communication (UG) in Mauritius programmes, modern campuses, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Mauritius offering accredited Electronics & Communication (UG) programmes, modern campuses, and international student support.",
+      "unis": [
         {
-          "name": "University of Technology, Mauritius",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "UTM offers the BEng (Hons) Electronic Engineering on a four-year, full-time basis. The published curriculum includes analog and digital electronics, microprocessors, embedded systems, RF systems and professional placement. Course title: BEng (Hons) Electronic Engineering",
-          "img_var": "null"
+          "name": "\\. University of Technology, Mauritius",
+          "location": "\\. University of Technology, Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "UTM offers the BEng (Hons) Electronic Engineering on a four-year, full-time basis. The published curriculum includes analog and digital electronics, microprocessors, embedded systems, RF systems and professional placement.",
+          "img": uniImg1
         },
         {
-          "name": "University of Mauritius",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "For 2026-2027 the university lists a four year full time degree, program code E430, BEng (Hons) Electrical and Electronic Engineering. This is a more general degree combining electrical engineering and electronics. Official program details: Courses in Electrical and Electronic Engineering Which is the best university for electronics? If your main interest is circuit design, embedded systems, microprocessors and electronic devices, compare UTM\u2019s dedicated Electronic Engineering program with the University of Mauritius\u2019s broader Electrical and Electronic Engineering degree. Before you decide, check the current intake, course structure, laboratory facilities and recognition. Students interested in Electronics Engineering in Mauritius for Indian Students should make sure that the selected qualification suits their future academic and career plans.",
-          "img_var": "null"
+          "name": "\\. University of Mauritius",
+          "location": "\\. University of Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "For 2026-2027 the university lists a four year full time degree, program code E430, BEng (Hons) Electrical and Electronic Engineering. This is a more general degree combining electrical engineering and electronics. **Which is the best university for electronics?** If your main interest is circuit design, embedded systems, microprocessors and electronic devices, compare UTM\u2019s dedicated Electronic Engineering program with the University of Mauritius\u2019s broader Electrical and Electronic Engineering degree. Before you decide, check the current intake, course structure, laboratory facilities and recognition. Students interested in **Electronics Engineering in Mauritius for Indian Students** should make sure that the selected qualification suits their future academic and career plans.",
+          "img": uniImg2
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "\\. University of Technology, Mauritius",
+          "location": "\\. University of Technology, Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "UTM offers the BEng (Hons) Electronic Engineering on a four-year, full-time basis. The published curriculum includes analog and digital electronics, microprocessors, embedded systems, RF systems and professional placement.",
+          "img": uniImg1
+        },
+        {
+          "name": "\\. University of Mauritius",
+          "location": "\\. University of Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "For 2026-2027 the university lists a four year full time degree, program code E430, BEng (Hons) Electrical and Electronic Engineering. This is a more general degree combining electrical engineering and electronics. **Which is the best university for electronics?** If your main interest is circuit design, embedded systems, microprocessors and electronic devices, compare UTM\u2019s dedicated Electronic Engineering program with the University of Mauritius\u2019s broader Electrical and Electronic Engineering degree. Before you decide, check the current intake, course structure, laboratory facilities and recognition. Students interested in **Electronics Engineering in Mauritius for Indian Students** should make sure that the selected qualification suits their future academic and career plans.",
+          "img": uniImg2
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and student visa requirements before submitting their applications."
+        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
       ]
     },
     {
@@ -397,26 +439,38 @@ const page = {
       ]
     }
   ],
+  "universities": [
+    {
+      "name": "\\. University of Technology, Mauritius",
+      "location": "\\. University of Technology, Mauritius",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "UTM offers the BEng (Hons) Electronic Engineering on a four-year, full-time basis. The published curriculum includes analog and digital electronics, microprocessors, embedded systems, RF systems and professional placement.",
+      "img": uniImg1
+    },
+    {
+      "name": "\\. University of Mauritius",
+      "location": "\\. University of Mauritius",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "For 2026-2027 the university lists a four year full time degree, program code E430, BEng (Hons) Electrical and Electronic Engineering. This is a more general degree combining electrical engineering and electronics. **Which is the best university for electronics?** If your main interest is circuit design, embedded systems, microprocessors and electronic devices, compare UTM\u2019s dedicated Electronic Engineering program with the University of Mauritius\u2019s broader Electrical and Electronic Engineering degree. Before you decide, check the current intake, course structure, laboratory facilities and recognition. Students interested in **Electronics Engineering in Mauritius for Indian Students** should make sure that the selected qualification suits their future academic and career plans.",
+      "img": uniImg2
+    }
+  ],
   "faqs": [
     {
-      "q": "How many years is a Bachelor\u2019s degree in Electronics Engineering in Mauritius?",
-      "a": "UTM says its BEng (Hons) Electronic Engineering is a four year full time program. The University of Mauritius also offers a 4-year degree course in Electrical and Electronic Engineering."
+      "q": "Can Indian students apply for Electronics & Communication (UG) in Mauritius?",
+      "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
     },
     {
-      "q": "Which university in Mauritius offers Electronics Engineering?",
-      "a": "The BEng (Hons) Electronic Engineering program is offered by the University of Technology, Mauritius. The relevant BEng (Hons) in Electrical and Electronic Engineering is offered by the University of Mauritius. These are the Electronics Engineering Universities in Mauritius that students can compare."
+      "q": "What is the medium of instruction for Electronics & Communication (UG) in Mauritius?",
+      "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
     },
     {
-      "q": "What are the eligibility criteria for Indian students?",
-      "a": "Normally applicants should have passed Class 12 or equivalent with Mathematics and Physics. For its Electronic Engineering program, UTM requires passes at principal-level in Mathematics and Physics at HSC/GCE A-level or equivalent qualification. Students should verify the Electronics Engineering Eligibility in Mauritius with the university."
+      "q": "What are the typical tuition fees for Electronics & Communication (UG) in Mauritius?",
+      "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
     },
     {
-      "q": "What is the cost of studying Electronic Engineering in Mauritius in Indian Rupees?",
-      "a": "UTM\u2019s published international fee schedule estimates tuition and general and student union fees at about US\\$3,270 (\u20b92.84 lakh) per year, based on two semesters. Estimated living expenses could be around \u20b94.67\u2013\u20b98.89 lakh per annum. Check what fees and exchange rate are applicable before planning."
-    },
-    {
-      "q": "What can I do after Electronics Engineering?",
-      "a": "The graduates can be employed in electronics design, embedded systems, hardware testing, telecommunications, instrumentation, PCB design and industrial automation. Technical skills, practical experience and employer requirements determine career choices. Edu-Hawk Worldwide can help students explore international education opportunities, understand admission requirements and plan their study abroad journey."
+      "q": "Is a student visa required for Indian students?",
+      "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

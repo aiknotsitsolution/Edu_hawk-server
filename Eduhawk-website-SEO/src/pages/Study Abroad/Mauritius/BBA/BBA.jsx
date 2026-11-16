@@ -7,13 +7,18 @@ import heroBgImg from "../../../../Images/Abroad/Mauritius/BBA/hero_bg.webp";
 import sideImg from "../../../../Images/Abroad/Mauritius/BBA/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Mauritius/BBA/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../Images/Abroad/Mauritius/BBA/image1.png";
+import uniImg2 from "../../../../Images/Abroad/Mauritius/BBA/image2.png";
+import uniImg3 from "../../../../Images/Abroad/Mauritius/BBA/image3.png";
+
 const page = {
-  "name": "BBA in Mauritius",
+  "name": "BBA",
   "country": "Mauritius",
   "slug": "bba",
-  "title": "BBA Mauritius in Mauritius for Indian Students | Edu-Hawk Worldwide",
+  "title": "BBA in Mauritius for Indian Students | Edu-Hawk Worldwide",
   "description": "Study BBA in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study BBA in Mauritius, BBA in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius BBA in Mauritius Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
+  "keywords": "Study BBA in Mauritius, BBA in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius BBA Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
   "introTitle": "BBA in Mauritius for Indian Students",
   "heroParas": [
     "A Bachelor of Business Administration (BBA) is an undergraduate business degree that prepares students to develop skills in management, marketing, finance, entrepreneurship, human resources and business operations. **BBA in Mauritius** is an option for students interested in pursuing undergraduate business education in an international learning environment. Mauritius offers undergraduate business and management programs through institutions that prepare students for careers in companies, financial services, consulting and entrepreneurship."
@@ -25,20 +30,42 @@ const page = {
   "crumb": "BBA",
   "stats": [
     {
-      "label": "Degree Choices",
-      "value": "Bachelor of Business Administration"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "label": "Language of Study",
-      "value": "English & Bilingual"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "label": "Top Institutions",
-      "value": "UoM, UTM, UdM & Middlesex"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "label": "Indicative Fees",
-      "value": "MUR 150,000 \u2013 MUR 350,000 / Year"
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
     }
   ],
   "sections": [
@@ -50,7 +77,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "For those students who are looking for international learning environment for undergraduate business education, Mauritius can be an option. Students considering **BBA in Mauritius** can explore business management courses that provide an understanding of different areas of business and organisational operations.",
+            "For those students who are looking for an international learning environment for undergraduate business education, Mauritius can be an option. Students considering **BBA in Mauritius** can explore business management courses that provide an understanding of different areas of business and organisational operations.",
             "**Business education:** Learn management concepts, accounting, marketing, finance and organizational behavior.",
             "**Specialization options:** Explore areas such as finance, marketing and innovation and entrepreneurship, depending on institution.",
             "**International exposure:** Learn about regional and international business and experience a multicultural environment.",
@@ -127,32 +154,55 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Best Universities for BBA in Mauritius",
-      "lead": "Explore leading universities and institutions in Mauritius offering accredited BBA in Mauritius programmes, modern campuses, and international student support.",
+      "lead": "Explore leading universities and institutions in Mauritius offering accredited BBA programmes, modern campuses, and international student support.",
+      "unis": [
+        {
+          "name": "\\. Middlesex University, Mauritius",
+          "location": "\\. Middlesex University, Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "BA (Hons) Business Management with specializations in Finance, Marketing, and Innovation and Entrepreneurship. Standard duration is three years full time. The international fee for 2026\u20132027 is published as \u00a35,800 (including the administrative fee).",
+          "img": uniImg1
+        },
+        {
+          "name": "\\. University of Mauritius Open",
+          "location": "\\. University of Mauritius Open",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "Offers a BSc (Hons) Business Management with a minimum of three and a maximum of six years. The published international non-SADC fee is US\\$6,840 for the full program. Has intakes in February and August.",
+          "img": uniImg2
+        },
+        {
+          "name": "\\. Mauritius University",
+          "location": "\\. Mauritius University",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "A public university worth checking out when comparing undergrad business programs. Before applying, check the current course catalog for the relevant business degree, entry requirements and fee structure. Students interested in **BBA in Mauritius** should confirm the current programme availability, admission conditions, and exact qualification title with their chosen university.",
+          "img": uniImg3
+        }
+      ],
       "unis_data": [
         {
-          "name": "Middlesex University, Mauritius",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "BA (Hons) Business Management with specializations in Finance, Marketing, and Innovation and Entrepreneurship. Standard duration is three years full time. The international fee for 2026\u20132027 is published as \u00a35,800 (including the administrative fee). Official course website",
-          "img_var": "null"
+          "name": "\\. Middlesex University, Mauritius",
+          "location": "\\. Middlesex University, Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "BA (Hons) Business Management with specializations in Finance, Marketing, and Innovation and Entrepreneurship. Standard duration is three years full time. The international fee for 2026\u20132027 is published as \u00a35,800 (including the administrative fee).",
+          "img": uniImg1
         },
         {
-          "name": "University of Mauritius Open",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "Offers a BSc (Hons) Business Management with a minimum of three and a maximum of six years. The published international non-SADC fee is US\\$6,840 for the full program. Has intakes in February and August. Official course website",
-          "img_var": "null"
+          "name": "\\. University of Mauritius Open",
+          "location": "\\. University of Mauritius Open",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "Offers a BSc (Hons) Business Management with a minimum of three and a maximum of six years. The published international non-SADC fee is US\\$6,840 for the full program. Has intakes in February and August.",
+          "img": uniImg2
         },
         {
-          "name": "Mauritius University",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "A public university worth checking out when comparing undergrad business programs. Before applying, check the current course catalog for the relevant business degree, entry requirements and fee structure. The university's official website Students interested in BBA in Mauritius should confirm the current programme availability, admission conditions, and exact qualification title with their chosen university.",
-          "img_var": "null"
+          "name": "\\. Mauritius University",
+          "location": "\\. Mauritius University",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "A public university worth checking out when comparing undergrad business programs. Before applying, check the current course catalog for the relevant business degree, entry requirements and fee structure. Students interested in **BBA in Mauritius** should confirm the current programme availability, admission conditions, and exact qualification title with their chosen university.",
+          "img": uniImg3
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and student visa requirements before submitting their applications."
+        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
       ]
     },
     {
@@ -399,26 +449,45 @@ const page = {
       ]
     }
   ],
+  "universities": [
+    {
+      "name": "\\. Middlesex University, Mauritius",
+      "location": "\\. Middlesex University, Mauritius",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "BA (Hons) Business Management with specializations in Finance, Marketing, and Innovation and Entrepreneurship. Standard duration is three years full time. The international fee for 2026\u20132027 is published as \u00a35,800 (including the administrative fee).",
+      "img": uniImg1
+    },
+    {
+      "name": "\\. University of Mauritius Open",
+      "location": "\\. University of Mauritius Open",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "Offers a BSc (Hons) Business Management with a minimum of three and a maximum of six years. The published international non-SADC fee is US\\$6,840 for the full program. Has intakes in February and August.",
+      "img": uniImg2
+    },
+    {
+      "name": "\\. Mauritius University",
+      "location": "\\. Mauritius University",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "A public university worth checking out when comparing undergrad business programs. Before applying, check the current course catalog for the relevant business degree, entry requirements and fee structure. Students interested in **BBA in Mauritius** should confirm the current programme availability, admission conditions, and exact qualification title with their chosen university.",
+      "img": uniImg3
+    }
+  ],
   "faqs": [
     {
-      "q": "Is BBA degree accessible in Mauritius?",
-      "a": "Some institutions in Mauritius do offer undergraduate business and management programs but some institutions offer the BA (Hons) Business Management or BSc (Hons) Business Management instead of BBA. Students should check with the institution for the exact title of the award. Those researching BBA in Mauritius should not assume that a related business management degree has the same qualification title."
+      "q": "Can Indian students apply for BBA in Mauritius?",
+      "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
     },
     {
-      "q": "How long is BBA in Mauritius?",
-      "a": "Many full-time undergraduate business degrees are 3 years long. Middlesex University Mauritius lists three years for its BA (Hons) Business Management while Open University of Mauritius lists three to six years for its Bsc (Hons) Business Management."
+      "q": "What is the medium of instruction for BBA in Mauritius?",
+      "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
     },
     {
-      "q": "What is the cost of BBA in Mauritius?",
-      "a": "Middlesex University Mauritius charges international students \u00a35,800 for related business degrees, while the Open University of Mauritius charges international non-SADC students US\\$6,840 for the full BSc (Hons) Business Management."
+      "q": "What are the typical tuition fees for BBA in Mauritius?",
+      "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
     },
     {
-      "q": "Can Indian students do BBA in Mauritius after 12th?",
-      "a": "Yes, Indian students can apply to study abroad if they meet the entry requirements of their chosen institution. They should look at how their Class 12 qualification is assessed, whether English-language evidence is needed and what international tuition and study-permit conditions apply."
-    },
-    {
-      "q": "What can I do after BBA?",
-      "a": "Graduates might consider an MBA, MSc Management, MSc International Business Management or a specialist master\u2019s in finance, marketing or human resources. Entry requirements vary by course and institution."
+      "q": "Is a student visa required for Indian students?",
+      "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

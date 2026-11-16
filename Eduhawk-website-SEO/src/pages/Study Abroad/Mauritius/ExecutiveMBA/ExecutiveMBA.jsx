@@ -7,13 +7,18 @@ import heroBgImg from "../../../../Images/Abroad/Mauritius/ExecutiveMBA/hero_bg.
 import sideImg from "../../../../Images/Abroad/Mauritius/ExecutiveMBA/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Mauritius/ExecutiveMBA/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../Images/Abroad/Mauritius/ExecutiveMBA/image1.png";
+import uniImg2 from "../../../../Images/Abroad/Mauritius/ExecutiveMBA/image2.png";
+import uniImg3 from "../../../../Images/Abroad/Mauritius/ExecutiveMBA/image3.png";
+
 const page = {
-  "name": "Executive MBA in Mauritius",
+  "name": "Executive MBA",
   "country": "Mauritius",
   "slug": "executive-mba",
-  "title": "Executive MBA Mauritius in Mauritius for Indian Students | Edu-Hawk Worldwide",
+  "title": "Executive MBA in Mauritius for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Executive MBA in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study Executive MBA in Mauritius, Executive MBA in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Executive MBA in Mauritius Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
+  "keywords": "Study Executive MBA in Mauritius, Executive MBA in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Executive MBA Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
   "introTitle": "Executive MBA in Mauritius for Indian Students",
   "heroParas": [
     "An Executive Master of Business Administration (Executive MBA or EMBA) is a postgraduate business qualification targeted principally at professionals, managers, entrepreneurs and business leaders who desire to enhance their leadership, strategic planning and decision making skills. **Executive MBA in Mauritius** is an option for working professionals who want to strengthen their business knowledge and develop leadership capabilities while progressing in their careers."
@@ -25,20 +30,42 @@ const page = {
   "crumb": "Executive MBA",
   "stats": [
     {
-      "label": "Degree Choices",
-      "value": "Executive MBA"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "label": "Language of Study",
-      "value": "English & Bilingual"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "label": "Top Institutions",
-      "value": "UoM, UTM, UdM & Middlesex"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "label": "Indicative Fees",
-      "value": "MUR 150,000 \u2013 MUR 350,000 / Year"
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
     }
   ],
   "sections": [
@@ -126,32 +153,55 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Best Universities for Executive MBA in Mauritius",
-      "lead": "Explore leading universities and institutions in Mauritius offering accredited Executive MBA in Mauritius programmes, modern campuses, and international student support.",
+      "lead": "Explore leading universities and institutions in Mauritius offering accredited Executive MBA programmes, modern campuses, and international student support.",
+      "unis": [
+        {
+          "name": "\\. Amity Institute of Higher Education",
+          "location": "\\. Amity Institute of Higher Education, Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "Provides a full-time Executive MBA with a published duration of 16 months. The fee is MUR 130,000 for local and SADC students and US\\$3,000 for international students. The curriculum encompasses strategic management, business analytics, marketing, accounting, supply chain management, and a business research project.",
+          "img": uniImg1
+        },
+        {
+          "name": "\\. University of Mauritius (UoM)",
+          "location": "\\. University of Mauritius (UoM)",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "Offers a part-time MBA of two years with specializations in Human Capital Management, Financial Services and Marketing for the academic year 2026-2027. These are MBA options and not an Executive MBA by a specific name.",
+          "img": uniImg2
+        },
+        {
+          "name": "\\. Middlesex University Mauritius",
+          "location": "\\. Middlesex University Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "It offers a general MBA and specialized streams in Finance, Marketing and Artificial Intelligence & Business Analytics. The published duration is one year full-time or two years part-time, 2026\u20132027. It\u2019s an MBA alternative related, not an Executive MBA. Students comparing **Executive MBA universities in Mauritius** should review the programme structure, professional experience requirements, fees and recognition before selecting an institution.",
+          "img": uniImg3
+        }
+      ],
       "unis_data": [
         {
-          "name": "Amity Institute of Higher Education",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "Provides a full-time Executive MBA with a published duration of 16 months. The fee is MUR 130,000 for local and SADC students and US\\$3,000 for international students. The curriculum encompasses strategic management, business analytics, marketing, accounting, supply chain management, and a business research project. Details of the official program",
-          "img_var": "null"
+          "name": "\\. Amity Institute of Higher Education",
+          "location": "\\. Amity Institute of Higher Education, Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "Provides a full-time Executive MBA with a published duration of 16 months. The fee is MUR 130,000 for local and SADC students and US\\$3,000 for international students. The curriculum encompasses strategic management, business analytics, marketing, accounting, supply chain management, and a business research project.",
+          "img": uniImg1
         },
         {
-          "name": "University of Mauritius (UoM)",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "Offers a part-time MBA of two years with specializations in Human Capital Management, Financial Services and Marketing for the academic year 2026-2027. These are MBA options and not an Executive MBA by a specific name. Postgraduate programs (formal)",
-          "img_var": "null"
+          "name": "\\. University of Mauritius (UoM)",
+          "location": "\\. University of Mauritius (UoM)",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "Offers a part-time MBA of two years with specializations in Human Capital Management, Financial Services and Marketing for the academic year 2026-2027. These are MBA options and not an Executive MBA by a specific name.",
+          "img": uniImg2
         },
         {
-          "name": "Middlesex University Mauritius",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "It offers a general MBA and specialized streams in Finance, Marketing and Artificial Intelligence & Business Analytics. The published duration is one year full-time or two years part-time, 2026\u20132027. It\u2019s an MBA alternative related, not an Executive MBA. MBA Official Course Page Students comparing Executive MBA universities in Mauritius should review the programme structure, professional experience requirements, fees and recognition before selecting an institution.",
-          "img_var": "null"
+          "name": "\\. Middlesex University Mauritius",
+          "location": "\\. Middlesex University Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "It offers a general MBA and specialized streams in Finance, Marketing and Artificial Intelligence & Business Analytics. The published duration is one year full-time or two years part-time, 2026\u20132027. It\u2019s an MBA alternative related, not an Executive MBA. Students comparing **Executive MBA universities in Mauritius** should review the programme structure, professional experience requirements, fees and recognition before selecting an institution.",
+          "img": uniImg3
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and student visa requirements before submitting their applications."
+        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
       ]
     },
     {
@@ -404,26 +454,45 @@ const page = {
       ]
     }
   ],
+  "universities": [
+    {
+      "name": "\\. Amity Institute of Higher Education",
+      "location": "\\. Amity Institute of Higher Education, Mauritius",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "Provides a full-time Executive MBA with a published duration of 16 months. The fee is MUR 130,000 for local and SADC students and US\\$3,000 for international students. The curriculum encompasses strategic management, business analytics, marketing, accounting, supply chain management, and a business research project.",
+      "img": uniImg1
+    },
+    {
+      "name": "\\. University of Mauritius (UoM)",
+      "location": "\\. University of Mauritius (UoM)",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "Offers a part-time MBA of two years with specializations in Human Capital Management, Financial Services and Marketing for the academic year 2026-2027. These are MBA options and not an Executive MBA by a specific name.",
+      "img": uniImg2
+    },
+    {
+      "name": "\\. Middlesex University Mauritius",
+      "location": "\\. Middlesex University Mauritius",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "It offers a general MBA and specialized streams in Finance, Marketing and Artificial Intelligence & Business Analytics. The published duration is one year full-time or two years part-time, 2026\u20132027. It\u2019s an MBA alternative related, not an Executive MBA. Students comparing **Executive MBA universities in Mauritius** should review the programme structure, professional experience requirements, fees and recognition before selecting an institution.",
+      "img": uniImg3
+    }
+  ],
   "faqs": [
     {
-      "q": "What is the duration of Executive MBA in Mauritius?",
-      "a": "Amity Institute of Higher Education offers a 16 month full-time Executive MBA. The University of Mauritius offers a two-year part-time MBA and Middlesex University Mauritius offers a one-year full-time or two-year part-time MBA. The last two are MBA alternatives and not specifically named Executive MBA programs."
+      "q": "Can Indian students apply for Executive MBA in Mauritius?",
+      "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
     },
     {
-      "q": "How much does an Executive MBA cost in Mauritius?",
-      "a": "Amity charges MUR 130,000 for domestic and SADC students and US\\$ 3,000 for international students. Fees at other institutions vary according to the program and student category, so please check the latest fee schedule before applying."
+      "q": "What is the medium of instruction for Executive MBA in Mauritius?",
+      "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
     },
     {
-      "q": "Do you need work experience to do an Executive MBA?",
-      "a": "Requirements differ. To be eligible for Amity\u2019s published Executive MBA program, candidates must have a bachelor\u2019s degree and a minimum of two years of professional work experience, or equivalent under its mature-admissions policy. Please check current requirements before applying."
+      "q": "What are the typical tuition fees for Executive MBA in Mauritius?",
+      "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
     },
     {
-      "q": "Is it possible for Indian students to do an Executive MBA in Mauritius?",
-      "a": "Indian students can apply if they fulfilll the programme\u2019s educational and professional requirements. They should check the international tuition fee, the recognition of the qualification, the application deadlines and the study permit requirements that apply."
-    },
-    {
-      "q": "What is the difference between an MBA and Executive MBA?",
-      "a": "An MBA is a general post-graduate business/management degree. Executive MBA is typically designed for working professionals, who have some work experience and want to develop leadership and strategic skills, building on their existing career experience. However, program structures and entry requirements vary so you should compare the actual course details and not just the title."
+      "q": "Is a student visa required for Indian students?",
+      "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

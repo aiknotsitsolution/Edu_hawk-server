@@ -5,71 +5,87 @@
   },
   "hero": {
     "badge": "Study Abroad - Mauritius",
-    "title": "Mechanical Engineering (PG) in Mauritius",
-    "subtitle": "A Master\u2019s in Mechanical Engineering is a postgraduate qualification for students interested in advanced mechanical systems, machine design, manufacturing, thermal engineering, energy systems and industrial technology. It can help graduates deepen their engineering knowledge and prepare for specialist technical or research-oriented careers. For Indian applicants exploring a **Master\u2019s in Mechanical Engineering in Mauritius for Indian Students**, comparing available postgraduate programmes and their specialisations is an important first step.",
-    "ctaText": "Book Free Counselling",
-    "image": ""
+    "title": "Mechanical Engineering (PG) in Mauritius for Indian Students",
+    "paras": [
+      "A Master’s in Mechanical Engineering is a postgraduate qualification for students interested in advanced mechanical systems, machine design, manufacturing, thermal engineering, energy systems and industrial technology. It can help graduates deepen their engineering knowledge and prepare for specialist technical or research-oriented careers. For Indian applicants exploring a **Master’s in Mechanical Engineering in Mauritius for Indian Students**, comparing available postgraduate programmes and their specialisations is an important first step."
+    ]
   },
   "stats": [
     {
-      "n": "1000+",
-      "l": "Students Placed Globally"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "n": "20+",
-      "l": "Countries"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "n": "200+",
-      "l": "Partner Universities"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "n": "100%",
-      "l": "Support (Visa & Post-Study Work Guidance)"
+      "val": "Permitted",
+      "label": "Part-Time Work"
     }
   ],
-  "highlights": {
-    "degree": "M.Eng / M.Sc. Mechanical Engineering",
-    "duration": "3\u20134 Yrs (UG) / 1.5\u20132 Yrs (PG)",
-    "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-    "eligibility": "Class 12 / Bachelor's degree + English proficiency",
-    "medium": "English / Bilingual"
-  },
-  "overview": "Important course availability note: The University of Mauritius\u2019s published postgraduate programme list for 2026\u20132027 does not list a dedicated MSc or Master\u2019s in Mechanical Engineering. It offers related programmes, including MSc Building Services Engineering, MSc Sustainable Energy Engineering with Environmental Management, and MSc Total Quality Management and Performance Excellence. These are related options, not equivalent qualifications in Mechanical Engineering.",
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
+    }
+  ],
+  "overview": [
+    "Important course availability note: The University of Mauritius’s published postgraduate programme list for 2026–2027 does not list a dedicated MSc or Master’s in Mechanical Engineering. It offers related programmes, including MSc Building Services Engineering, MSc Sustainable Energy Engineering with Environmental Management, and MSc Total Quality Management and Performance Excellence. These are related options, not equivalent qualifications in Mechanical Engineering."
+  ],
   "universities": [
     {
       "name": "University of Mauritius (UoM)",
-      "location": "Mauritius",
-      "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-      "image": ""
+      "location": "University of Mauritius (UoM)",
+      "fee": "MUR 160,000 – 350,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/Engineering_PG/Mechanical/image1.png"
     },
     {
       "name": "Other institutions",
-      "location": "Mauritius",
-      "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-      "image": ""
+      "location": "Other institutions, Mauritius",
+      "fee": "MUR 160,000 – 350,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/Engineering_PG/Mechanical/image1.png"
     }
   ],
-  "faq": [
-    {
-      "question": "Is a Master\u2019s in Mechanical Engineering available in Mauritius?",
-      "answer": "A dedicated Master\u2019s in Mechanical Engineering was not found in the University of Mauritius\u2019s published postgraduate programme list for 2026\u20132027. Related options include Building Services Engineering and Sustainable Energy Engineering with Environmental Management."
-    },
-    {
-      "question": "Which university offers related postgraduate engineering courses?",
-      "answer": "The University of Mauritius lists postgraduate programmes in Building Services Engineering, Sustainable Energy Engineering with Environmental Management, Renewable Energy and Smart Electrical Systems, and other engineering-related areas. Contact the university to confirm which options fit your academic background."
-    },
-    {
-      "question": "What is the cost of studying Mechanical Engineering in Mauritius?",
-      "answer": "A verified tuition fee for a dedicated Mechanical Engineering master\u2019s is not available because the programme has not been confirmed. Indicative living expenses are estimated at MUR 15,000\u201325,000 per month, or approximately \u20b928,500\u2013\u20b947,500 using the illustrative exchange rate in this article. Tuition and other expenses are additional."
-    },
-    {
-      "question": "What qualifications are required for postgraduate engineering study?",
-      "answer": "Applicants generally need a recognised bachelor\u2019s degree in an appropriate discipline and must meet the programme\u2019s academic requirements. The specific subject background and grades required depend on the chosen course."
-    },
-    {
-      "question": "What careers can I pursue after a Mechanical Engineering master\u2019s?",
-      "answer": "Depending on your qualification and experience, potential careers include mechanical design engineer, manufacturing engineer, energy engineer, building services engineer, quality engineer and research and development engineer. Edu-Hawk Worldwide helps students explore international education options and understand course availability, eligibility and admission planning. Students interested in postgraduate engineering programmes can seek guidance before choosing a university and submitting an application."
-    }
-  ]
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "Can Indian students apply for Mechanical Engineering (PG) in Mauritius?",
+        "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
+      },
+      {
+        "q": "What is the medium of instruction for Mechanical Engineering (PG) in Mauritius?",
+        "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
+      },
+      {
+        "q": "What are the typical tuition fees for Mechanical Engineering (PG) in Mauritius?",
+        "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
+      },
+      {
+        "q": "Is a student visa required for Indian students?",
+        "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
+      }
+    ]
+  }
 }

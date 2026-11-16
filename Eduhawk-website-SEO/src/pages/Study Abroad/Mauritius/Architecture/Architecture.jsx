@@ -7,13 +7,16 @@ import heroBgImg from "../../../../Images/Abroad/Mauritius/Architecture/hero_bg.
 import sideImg from "../../../../Images/Abroad/Mauritius/Architecture/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Mauritius/Architecture/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../Images/Abroad/Mauritius/Architecture/image1.png";
+
 const page = {
-  "name": "Architecture in Mauritius",
+  "name": "Architecture",
   "country": "Mauritius",
   "slug": "architecture",
-  "title": "Bachelor\u2019s and Master\u2019s in Architecture in Mauritius for Indian Students | Edu-Hawk Worldwide",
+  "title": "Architecture in Mauritius for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Architecture in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study Architecture in Mauritius, Architecture in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Architecture in Mauritius Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
+  "keywords": "Study Architecture in Mauritius, Architecture in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Architecture Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
   "introTitle": "Architecture in Mauritius for Indian Students",
   "heroParas": [
     "Architecture is a suitable field for students interested in building design, urban spaces, sustainable construction, and the relationship between functionality and aesthetics. Studying **Architecture in Mauritius** can provide a pathway into architectural design, construction, planning, and related built-environment professions. **Architecture in Mauritius** is worth exploring for students interested in undergraduate and postgraduate education in the built environment."
@@ -25,20 +28,42 @@ const page = {
   "crumb": "Architecture",
   "stats": [
     {
-      "label": "Degree Choices",
-      "value": "Bachelor & Master of Architecture"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "label": "Language of Study",
-      "value": "English & Bilingual"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "label": "Top Institutions",
-      "value": "UoM, UTM, UdM & Middlesex"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "label": "Indicative Fees",
-      "value": "MUR 150,000 \u2013 MUR 350,000 / Year"
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
     }
   ],
   "sections": [
@@ -109,25 +134,41 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Top Universities for Architecture in Mauritius",
-      "lead": "Explore leading universities and institutions in Mauritius offering accredited Architecture in Mauritius programmes, modern campuses, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Mauritius offering accredited Architecture programmes, modern campuses, and international student support.",
+      "unis": [
         {
-          "name": "University of Mauritius",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "The university publishes undergraduate and postgraduate programme catalogues, but the available 2026\u20132027 listings reviewed here do not establish a current Bachelor of Architecture or Master of Architecture offering. Students should check directly with the university about any relevant programme or future intake. Official university website",
-          "img_var": "null"
+          "name": "\\. University of Mauritius",
+          "location": "\\. University of Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "The university publishes undergraduate and postgraduate programme catalogues, but the available 2026\u20132027 listings reviewed here do not establish a current Bachelor of Architecture or Master of Architecture offering. Students should check directly with the university about any relevant programme or future intake.",
+          "img": uniImg1
         },
         {
-          "name": "Other recognised institutions",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
+          "name": "\\. Other recognised institutions",
+          "location": "\\. Other recognised institutions, Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
           "desc": "Before choosing another institution in Mauritius, confirm whether it offers a current Architecture degree and whether the programme meets the requirements of the Professional Architects\u2019 Council. The Council recommends studying at a university recognised by the International Union of Architects (UIA). Professional Architects\u2019 Council Professional Architects\u2019 Council \u2014 education guidance",
-          "img_var": "null"
+          "img": uniImg1
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "\\. University of Mauritius",
+          "location": "\\. University of Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "The university publishes undergraduate and postgraduate programme catalogues, but the available 2026\u20132027 listings reviewed here do not establish a current Bachelor of Architecture or Master of Architecture offering. Students should check directly with the university about any relevant programme or future intake.",
+          "img": uniImg1
+        },
+        {
+          "name": "\\. Other recognised institutions",
+          "location": "\\. Other recognised institutions, Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "Before choosing another institution in Mauritius, confirm whether it offers a current Architecture degree and whether the programme meets the requirements of the Professional Architects\u2019 Council. The Council recommends studying at a university recognised by the International Union of Architects (UIA). Professional Architects\u2019 Council Professional Architects\u2019 Council \u2014 education guidance",
+          "img": uniImg1
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and student visa requirements before submitting their applications."
+        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
       ]
     },
     {
@@ -139,12 +180,10 @@ const page = {
           "t": "p",
           "items": [
             "Admission requirements depend on the institution and the specific architecture qualification. **Architecture eligibility in Mauritius** can vary according to the degree level and university requirements.",
-            "**For a bachelor\u2019s degree**",
             "Completion of secondary education equivalent to the university\u2019s entry requirements.",
             "Mathematics and/or science subjects where required by the programme.",
             "Evidence of English-language proficiency, if applicable.",
             "A portfolio of creative work or an aptitude assessment, if requested.",
-            "**For a master\u2019s degree**",
             "A recognised bachelor\u2019s degree in Architecture or a related discipline accepted by the institution.",
             "Academic transcripts and proof of graduation.",
             "A design portfolio, statement of purpose, or interview, if required.",
@@ -314,26 +353,38 @@ const page = {
       ]
     }
   ],
+  "universities": [
+    {
+      "name": "\\. University of Mauritius",
+      "location": "\\. University of Mauritius",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "The university publishes undergraduate and postgraduate programme catalogues, but the available 2026\u20132027 listings reviewed here do not establish a current Bachelor of Architecture or Master of Architecture offering. Students should check directly with the university about any relevant programme or future intake.",
+      "img": uniImg1
+    },
+    {
+      "name": "\\. Other recognised institutions",
+      "location": "\\. Other recognised institutions, Mauritius",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "Before choosing another institution in Mauritius, confirm whether it offers a current Architecture degree and whether the programme meets the requirements of the Professional Architects\u2019 Council. The Council recommends studying at a university recognised by the International Union of Architects (UIA). Professional Architects\u2019 Council Professional Architects\u2019 Council \u2014 education guidance",
+      "img": uniImg1
+    }
+  ],
   "faqs": [
     {
-      "q": "Can I study Architecture in Mauritius after Class 12?",
-      "a": "You can explore undergraduate Architecture programmes, but first confirm that a recognised institution in Mauritius is offering the exact degree for your intended intake. The Professional Architects\u2019 Council describes a three-year undergraduate Architecture degree as one route within its professional pathway. Students interested in a Bachelor's in Architecture in Mauritius should verify programme availability and entry requirements before applying."
+      "q": "Can Indian students apply for Architecture in Mauritius?",
+      "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
     },
     {
-      "q": "How long does it take to study Architecture?",
-      "a": "The Professional Architects\u2019 Council describes a five-year Bachelor of Architecture route, or a three-year undergraduate Architecture degree followed by a two-year Master of Architecture. Approved practical experience is also part of the professional pathway."
+      "q": "What is the medium of instruction for Architecture in Mauritius?",
+      "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
     },
     {
-      "q": "Is a Master of Architecture available in Mauritius?",
-      "a": "The Council describes the M.Arch as a two-year postgraduate qualification within the professional pathway. However, students should confirm current local programme availability and recognition directly with universities and the Council before applying. Students interested in a Master's in Architecture in Mauritius should check the current university programme catalogue."
+      "q": "What are the typical tuition fees for Architecture in Mauritius?",
+      "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
     },
     {
-      "q": "What is the cost of studying Architecture in Mauritius?",
-      "a": "The exact tuition fee depends on the institution and programme. A reliable course-specific international fee was not verified for the degrees discussed here, so students should request a current fee quotation before budgeting. Living expenses must be calculated separately."
-    },
-    {
-      "q": "Can international graduates practise as architects in Mauritius?",
-      "a": "Graduates must meet the applicable professional registration requirements. The Professional Architects\u2019 Council outlines qualification, practical-experience, and registration procedures, so international students should confirm their individual eligibility with the Council. Choosing Architecture in Mauritius requires careful consideration of course availability, professional recognition, academic requirements and study costs. Students should compare Architecture universities in Mauritius and verify the current qualifications before making an admission decision."
+      "q": "Is a student visa required for Indian students?",
+      "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

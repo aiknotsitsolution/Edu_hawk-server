@@ -7,13 +7,16 @@ import heroBgImg from "../../../../../../Images/Abroad/Mauritius/Engineering_UG/
 import sideImg from "../../../../../../Images/Abroad/Mauritius/Engineering_UG/Chemical/side.webp";
 import ctaBgImg from "../../../../../../Images/Abroad/Mauritius/Engineering_UG/Chemical/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../../../Images/Abroad/Mauritius/Engineering_UG/Chemical/image1.png";
+
 const page = {
-  "name": "Chemical Engineering (UG) in Mauritius",
+  "name": "Chemical Engineering (UG)",
   "country": "Mauritius",
   "slug": "ug/chemical-engineering",
-  "title": "Bachelor's in Chemical Engineering in Mauritius for Indian Students | Edu-Hawk Worldwide",
+  "title": "Chemical Engineering (UG) in Mauritius for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Chemical Engineering (UG) in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study Chemical Engineering (UG) in Mauritius, Chemical Engineering (UG) in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Chemical Engineering (UG) in Mauritius Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
+  "keywords": "Study Chemical Engineering (UG) in Mauritius, Chemical Engineering (UG) in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Chemical Engineering (UG) Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
   "introTitle": "Chemical Engineering (UG) in Mauritius for Indian Students",
   "heroParas": [
     "In Mauritius, a Bachelor\u2019s in Chemical Engineering is an undergraduate degree program for students who want to pursue a career in industrial production, chemical processes, materials, energy, pharmaceuticals, food processing and environmental technologies. **A Bachelor\u2019s in Chemical Engineering in Mauritius for Indian Students** is an option for students interested in applying scientific and engineering principles to industrial processes."
@@ -25,20 +28,42 @@ const page = {
   "crumb": "Engineering / UG Engineering",
   "stats": [
     {
-      "label": "Degree Choices",
-      "value": "B.Eng / B.Sc. Chemical Engineering"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "label": "Language of Study",
-      "value": "English & Bilingual"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "label": "Top Institutions",
-      "value": "UoM, UTM, UdM & Middlesex"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "label": "Indicative Fees",
-      "value": "MUR 150,000 \u2013 MUR 350,000 / Year"
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
     }
   ],
   "sections": [
@@ -51,7 +76,6 @@ const page = {
           "t": "p",
           "items": [
             "Chemical engineering applies scientific principles and engineering techniques to the design, operation and improvement of processes for manufacturing and industry.",
-            "**Why Mauritius for chemical engineering?**",
             "**BEng (Hons) in Chemical Engineering:** University of Mauritius provides a four-year dedicated engineering degree.",
             "**Industrial applications:** The subject relates chemistry and engineering in the manufacture of fuels, chemicals, food, pharmaceuticals and materials.",
             "**Process design and optimization:** Students learn to analyze and improve production processes, manage resources and work with industrial devices.",
@@ -104,18 +128,27 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Best Chemical Engineering Colleges in Mauritius",
-      "lead": "Explore leading universities and institutions in Mauritius offering accredited Chemical Engineering (UG) in Mauritius programmes, modern campuses, and international student support.",
+      "lead": "Explore leading universities and institutions in Mauritius offering accredited Chemical Engineering (UG) programmes, modern campuses, and international student support.",
+      "unis": [
+        {
+          "name": "\\. University of Mauritius",
+          "location": "\\. University of Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "The University of Mauritius is the only confirmed option for this degree in the official 2026-2027 program listings. It provides the BEng (Hons) Chemical Engineering, program code E404 which is a full-time course and lasts for four years. **University selection tip:** Make sure that the program accepts international applicants for the intake you want, and look at the curriculum, laboratory facilities, internship opportunities, tuition fees and professional recognition. The online application portal of the University of Mauritius currently shows that undergraduate applications for the academic year 2026-2027 are closed. Students need to check for the next available intake. Students exploring **Chemical Engineering Colleges in Mauritius** should verify the latest admission availability and international applicant requirements directly with the university.",
+          "img": uniImg1
+        }
+      ],
       "unis_data": [
         {
-          "name": "University of Mauritius",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "The University of Mauritius is the only confirmed option for this degree in the official 2026-2027 program listings. It provides the BEng (Hons) Chemical Engineering, program code E404 which is a full-time course and lasts for four years. University selection tip: Make sure that the program accepts international applicants for the intake you want, and look at the curriculum, laboratory facilities, internship opportunities, tuition fees and professional recognition. The online application portal of the University of Mauritius currently shows that undergraduate applications for the academic year 2026-2027 are closed. Students need to check for the next available intake. Students exploring Chemical Engineering Colleges in Mauritius should verify the latest admission availability and international applicant requirements directly with the university.",
-          "img_var": "null"
+          "name": "\\. University of Mauritius",
+          "location": "\\. University of Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "The University of Mauritius is the only confirmed option for this degree in the official 2026-2027 program listings. It provides the BEng (Hons) Chemical Engineering, program code E404 which is a full-time course and lasts for four years. **University selection tip:** Make sure that the program accepts international applicants for the intake you want, and look at the curriculum, laboratory facilities, internship opportunities, tuition fees and professional recognition. The online application portal of the University of Mauritius currently shows that undergraduate applications for the academic year 2026-2027 are closed. Students need to check for the next available intake. Students exploring **Chemical Engineering Colleges in Mauritius** should verify the latest admission availability and international applicant requirements directly with the university.",
+          "img": uniImg1
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and student visa requirements before submitting their applications."
+        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
       ]
     },
     {
@@ -371,26 +404,31 @@ const page = {
       ]
     }
   ],
+  "universities": [
+    {
+      "name": "\\. University of Mauritius",
+      "location": "\\. University of Mauritius",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "The University of Mauritius is the only confirmed option for this degree in the official 2026-2027 program listings. It provides the BEng (Hons) Chemical Engineering, program code E404 which is a full-time course and lasts for four years. **University selection tip:** Make sure that the program accepts international applicants for the intake you want, and look at the curriculum, laboratory facilities, internship opportunities, tuition fees and professional recognition. The online application portal of the University of Mauritius currently shows that undergraduate applications for the academic year 2026-2027 are closed. Students need to check for the next available intake. Students exploring **Chemical Engineering Colleges in Mauritius** should verify the latest admission availability and international applicant requirements directly with the university.",
+      "img": uniImg1
+    }
+  ],
   "faqs": [
     {
-      "q": "How long does a Bachelor\u2019s in Chemical Engineering take to complete in Mauritius?",
-      "a": "BEng (Hons) Chemical Engineering University of Mauritius BEng (Hons) Chemical Engineering is a 4-year full-time program for the academic year 2026-2027. University of Mauritius"
+      "q": "Can Indian students apply for Chemical Engineering (UG) in Mauritius?",
+      "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
     },
     {
-      "q": "Which university in Mauritius provides Chemical Engineering?",
-      "a": "* The University of Mauritius is listed as a verified choice in the official undergraduate program listings for 2026-2027. For international admissions students need to inquire with the institution for the next intake and availability."
+      "q": "What is the medium of instruction for Chemical Engineering (UG) in Mauritius?",
+      "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
     },
     {
-      "q": "What are the eligibility criteria for Indian students?",
-      "a": "Most applicants need to have Class 12 or an equivalent recognized qualification with relevant mathematics and science subjects. The exact combination of subjects and minimum grades will depend on the applicant\u2019s educational board and should be confirmed with the university. Students should verify Chemical Engineering Eligibility in Mauritius before applying."
+      "q": "What are the typical tuition fees for Chemical Engineering (UG) in Mauritius?",
+      "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
     },
     {
-      "q": "How much does it cost to study Chemical Engineering in Mauritius in INR?",
-      "a": "For the relevant intake, please contact the University of Mauritius directly to confirm tuition fees. The indicative living expenses vary from \u20b94.67 lakh to \u20b98.89 lakh per annum excluding tuition and one time expenses. The final budget will be decided by the university fee schedule and the lifestyle of the student."
-    },
-    {
-      "q": "What are the job opportunities after Chemical Engineering?",
-      "a": "Graduates can pursue careers in process engineering, chemical production, manufacturing, quality control, environmental engineering, water treatment, food processing and research and development. What the employer wants, combined with your technical skills and the practical experience you can show, will be what your job prospects are like. Edu-Hawk Worldwide can help students explore study options, understand admission procedures and prepare for their international education journey."
+      "q": "Is a student visa required for Indian students?",
+      "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

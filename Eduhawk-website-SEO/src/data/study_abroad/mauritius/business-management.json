@@ -1,93 +1,97 @@
 {
   "seo": {
-    "title": "Bachelor\u2019s and Master\u2019s in Business Management in Mauritius for Indian Students in Mauritius for Indian Students | Edu-Hawk Worldwide",
+    "title": "Business Management in Mauritius for Indian Students | Edu-Hawk Worldwide",
     "description": "Study Business Management in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students."
   },
   "hero": {
     "badge": "Study Abroad - Mauritius",
-    "title": "Business Management in Mauritius",
-    "subtitle": "Studying for a **Bachelor\u2019s and Master\u2019s in Business Management in Mauritius for Indian Students** can help students develop the knowledge and practical skills needed to work in corporate organisations, manage teams, start a business, or pursue international career opportunities. Mauritius offers business-related programmes through institutions such as Middlesex University Mauritius, the Open University of Mauritius, Rushmore Business School, and the University of Mauritius.",
-    "ctaText": "Book Free Counselling",
-    "image": ""
+    "title": "Business Management in Mauritius for Indian Students",
+    "paras": [
+      "Studying for a **Bachelor’s and Master’s in Business Management in Mauritius for Indian Students** can help students develop the knowledge and practical skills needed to work in corporate organisations, manage teams, start a business, or pursue international career opportunities. Mauritius offers business-related programmes through institutions such as Middlesex University Mauritius, the Open University of Mauritius, Rushmore Business School, and the University of Mauritius."
+    ]
   },
   "stats": [
     {
-      "n": "1000+",
-      "l": "Students Placed Globally"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "n": "20+",
-      "l": "Countries"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "n": "200+",
-      "l": "Partner Universities"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "n": "100%",
-      "l": "Support (Visa & Post-Study Work Guidance)"
+      "val": "Permitted",
+      "label": "Part-Time Work"
     }
   ],
-  "highlights": {
-    "degree": "BBA / MBA in Business Management",
-    "duration": "3\u20134 Yrs (UG) / 1.5\u20132 Yrs (PG)",
-    "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-    "eligibility": "Class 12 / Bachelor's degree + English proficiency",
-    "medium": "English / Bilingual"
-  },
-  "overview": "Students can choose an undergraduate degree in Business Management and then progress to a postgraduate qualification such as an MSc in Management, Master of Business Administration (MBA), or Executive MBA. The best option depends on academic background, career goals, budget, and preferred study format. Students planning to **study Business Management in Mauritius** can compare the available programmes and choose a qualification that matches their future career plans. **Edu-Hawk Worldwide** helps students explore international education opportunities and understand the admission process.",
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
+    }
+  ],
+  "overview": [
+    "Students can choose an undergraduate degree in Business Management and then progress to a postgraduate qualification such as an MSc in Management, Master of Business Administration (MBA), or Executive MBA. The best option depends on academic background, career goals, budget, and preferred study format. Students planning to **study Business Management in Mauritius** can compare the available programmes and choose a qualification that matches their future career plans. **Edu-Hawk Worldwide** helps students explore international education opportunities and understand the admission process."
+  ],
   "universities": [
     {
-      "name": "University of Mauritius",
-      "location": "Mauritius",
-      "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-      "image": ""
+      "name": "\\. University of Mauritius",
+      "location": "\\. University of Mauritius",
+      "fee": "MUR 160,000 – 350,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/BusinessManagement/image1.png"
     },
     {
-      "name": "Middlesex University Mauritius",
-      "location": "Mauritius",
-      "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-      "image": ""
+      "name": "\\. Middlesex University Mauritius",
+      "location": "\\. Middlesex University Mauritius",
+      "fee": "MUR 160,000 – 350,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/BusinessManagement/image2.png"
     },
     {
-      "name": "Open University of Mauritius",
-      "location": "Mauritius",
-      "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-      "image": ""
-    },
-    {
-      "name": "Rushmore Business School",
-      "location": "Mauritius",
-      "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-      "image": ""
-    },
-    {
-      "name": "Amity Institute of Higher Education",
-      "location": "Mauritius",
-      "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-      "image": ""
+      "name": "\\. Open University of Mauritius",
+      "location": "\\. Open University of Mauritius",
+      "fee": "MUR 160,000 – 350,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/BusinessManagement/image3.png"
     }
   ],
-  "faq": [
-    {
-      "question": "How long does a Bachelor\u2019s in Business Management take in Mauritius?",
-      "answer": "Many full-time bachelor\u2019s programmes take around three years. Some specialisations or flexible study routes may take longer. For example, the Open University of Mauritius lists a duration of three to six years for its BSc (Hons) Business Management."
-    },
-    {
-      "question": "How long does a Master\u2019s in Business Management take in Mauritius?",
-      "answer": "It depends on the qualification and institution. Middlesex University Mauritius lists its MSc Management as one year full-time or two years part-time. The University of Mauritius lists its MBA as a two-year part-time programme."
-    },
-    {
-      "question": "What is the tuition fee for Business Management in Mauritius?",
-      "answer": "Business Management Fees in Mauritius vary considerably. Examples include \u00a35,800 for the Middlesex BA (Hons) Business Management, US$7,500peryearfortheRushmoreBA(Hons)BusinessManagement,andUS$6,840 total for the Open University\u2019s international non-SADC BSc (Hons) Business Management. Always confirm the fee applicable to your nationality and intake."
-    },
-    {
-      "question": "Can international students apply for Business Management courses in Mauritius?",
-      "answer": "Yes. Institutions such as Middlesex University Mauritius and Rushmore Business School publish international student fee information. Applicants should confirm academic eligibility, English-language requirements, application deadlines, and study-permit procedures directly with the institution."
-    },
-    {
-      "question": "Is an MBA better than an MSc in Management?",
-      "answer": "Neither is automatically better. An MBA may suit applicants seeking broader business leadership and management development, while an MSc Management may suit graduates who want to deepen their management knowledge. Compare entry requirements, curriculum, cost, duration, professional experience expectations, and recognition before deciding. For guidance on Bachelor\u2019s and Master\u2019s in Business Management in Mauritius for Indian Students, students can explore the available programmes and admission options with Edu-Hawk Worldwide."
-    }
-  ]
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "Can Indian students apply for Business Management in Mauritius?",
+        "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
+      },
+      {
+        "q": "What is the medium of instruction for Business Management in Mauritius?",
+        "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
+      },
+      {
+        "q": "What are the typical tuition fees for Business Management in Mauritius?",
+        "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
+      },
+      {
+        "q": "Is a student visa required for Indian students?",
+        "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
+      }
+    ]
+  }
 }

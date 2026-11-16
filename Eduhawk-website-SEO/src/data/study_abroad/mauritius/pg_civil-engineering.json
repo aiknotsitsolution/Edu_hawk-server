@@ -1,75 +1,91 @@
 {
   "seo": {
-    "title": "Master\u2019s in Civil Engineering in Mauritius for Indian Students | Edu-Hawk Worldwide",
+    "title": "Civil Engineering (PG) in Mauritius for Indian Students | Edu-Hawk Worldwide",
     "description": "Study Civil Engineering (PG) in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students."
   },
   "hero": {
     "badge": "Study Abroad - Mauritius",
-    "title": "Civil Engineering (PG) in Mauritius",
-    "subtitle": "A Master\u2019s in Civil Engineering is a postgraduate qualification for students interested in structural design, construction, geotechnical engineering, transportation systems, water resources and infrastructure development. It helps graduates deepen their technical knowledge and prepare for specialised engineering, project management and research roles. For Indian students exploring a **Master\u2019s in Civil Engineering in Mauritius for Indian Students**, this programme offers a dedicated postgraduate option to consider.",
-    "ctaText": "Book Free Counselling",
-    "image": ""
+    "title": "Civil Engineering (PG) in Mauritius for Indian Students",
+    "paras": [
+      "A Master’s in Civil Engineering is a postgraduate qualification for students interested in structural design, construction, geotechnical engineering, transportation systems, water resources and infrastructure development. It helps graduates deepen their technical knowledge and prepare for specialised engineering, project management and research roles. For Indian students exploring a **Master’s in Civil Engineering in Mauritius for Indian Students**, this programme offers a dedicated postgraduate option to consider."
+    ]
   },
   "stats": [
     {
-      "n": "1000+",
-      "l": "Students Placed Globally"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "n": "20+",
-      "l": "Countries"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "n": "200+",
-      "l": "Partner Universities"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "n": "100%",
-      "l": "Support (Visa & Post-Study Work Guidance)"
+      "val": "Permitted",
+      "label": "Part-Time Work"
     }
   ],
-  "highlights": {
-    "degree": "M.Eng / M.Sc. Civil Engineering",
-    "duration": "3\u20134 Yrs (UG) / 1.5\u20132 Yrs (PG)",
-    "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-    "eligibility": "Class 12 / Bachelor's degree + English proficiency",
-    "medium": "English / Bilingual"
-  },
-  "overview": "Good news for prospective students: Unlike some other engineering specialisations, Mauritius has a verified dedicated programme: the Master in Civil Engineering with specialisation in Structures and Public Works at the Universit\u00e9 des Mascareignes. It is available to local and international students on a part-time basis.",
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
+    }
+  ],
+  "overview": [
+    "Good news for prospective students: Unlike some other engineering specialisations, Mauritius has a verified dedicated programme: the Master in Civil Engineering with specialisation in Structures and Public Works at the Université des Mascareignes. It is available to local and international students on a part-time basis."
+  ],
   "universities": [
     {
-      "name": "Universit\u00e9 des Mascareignes (UdM)",
-      "location": "Mauritius",
-      "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-      "image": ""
+      "name": "Université des Mascareignes (UdM)",
+      "location": "Université des Mascareignes (UdM), Mauritius",
+      "fee": "MUR 160,000 – 350,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/Engineering_PG/Civil/image1.png"
     },
     {
       "name": "University of Mauritius (UoM)",
-      "location": "Mauritius",
-      "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-      "image": ""
+      "location": "University of Mauritius (UoM)",
+      "fee": "MUR 160,000 – 350,000 / Year",
+      "image": "/uploads/study_abroad/mauritius/Engineering_PG/Civil/image2.png"
     }
   ],
-  "faq": [
-    {
-      "question": "Is a Master\u2019s in Civil Engineering available in Mauritius?",
-      "answer": "Yes. The Universit\u00e9 des Mascareignes offers a Master in Civil Engineering with specialisation in Structures and Public Works. It is available part-time to local and international students."
-    },
-    {
-      "question": "How long does the Master in Civil Engineering take?",
-      "answer": "UdM lists a three-year route for eligible BAC+3 Civil Engineering graduates and a 1.5-year route for eligible BAC+4 graduates entering at Semester 3\\. The university must confirm your individual eligibility."
-    },
-    {
-      "question": "What is the tuition fee for Civil Engineering in Mauritius?",
-      "answer": "UdM currently lists its tuition and registration fees for this programme as to be finalised. The one-off application fee is listed as MUR 700 or US\\$25. Contact the university for the current tuition schedule and details about Civil Engineering Fees in Mauritius."
-    },
-    {
-      "question": "Are English and French required for admission?",
-      "answer": "The published course information states that some modules are taught in English and others in French. Applicants must have passed both languages at high-school or university level, or hold an acceptable language-proficiency certificate. Confirm the documents accepted by UdM before applying."
-    },
-    {
-      "question": "What careers can I pursue after a Master\u2019s in Civil Engineering?",
-      "answer": "Depending on your specialisation and experience, potential roles include structural engineer, civil project engineer, construction engineer, geotechnical engineer, infrastructure consultant and construction project manager. Professional registration may be necessary for certain positions. Edu-Hawk Worldwide can help students understand international study options, compare university programmes and prepare for admission requirements when planning postgraduate engineering studies abroad."
-    }
-  ]
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "Can Indian students apply for Civil Engineering (PG) in Mauritius?",
+        "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
+      },
+      {
+        "q": "What is the medium of instruction for Civil Engineering (PG) in Mauritius?",
+        "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
+      },
+      {
+        "q": "What are the typical tuition fees for Civil Engineering (PG) in Mauritius?",
+        "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
+      },
+      {
+        "q": "Is a student visa required for Indian students?",
+        "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
+      }
+    ]
+  }
 }

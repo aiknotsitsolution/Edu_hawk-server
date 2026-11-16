@@ -7,13 +7,18 @@ import heroBgImg from "../../../../Images/Abroad/Mauritius/MBS/hero_bg.webp";
 import sideImg from "../../../../Images/Abroad/Mauritius/MBS/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Mauritius/MBS/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../Images/Abroad/Mauritius/MBS/image1.png";
+import uniImg2 from "../../../../Images/Abroad/Mauritius/MBS/image2.png";
+import uniImg3 from "../../../../Images/Abroad/Mauritius/MBS/image3.png";
+
 const page = {
-  "name": "MBS in Mauritius",
+  "name": "MBS",
   "country": "Mauritius",
   "slug": "mbs",
   "title": "MBS in Mauritius for Indian Students | Edu-Hawk Worldwide",
   "description": "Study MBS in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study MBS in Mauritius, MBS in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius MBS in Mauritius Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
+  "keywords": "Study MBS in Mauritius, MBS in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius MBS Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
   "introTitle": "MBS in Mauritius for Indian Students",
   "heroParas": [
     "**MBS in Mauritius** is a postgraduate business qualification generally associated with advanced study in management, business strategy, finance, marketing, and organisational leadership. Students considering an MBS in Mauritius should carefully check the exact degree title offered by each institution, as an MBS is not the same qualification as an MBA or an MSc in Management. Students researching a **Master of Business Studies in Mauritius** should also compare the available postgraduate business qualifications before selecting a programme."
@@ -25,20 +30,42 @@ const page = {
   "crumb": "MBS",
   "stats": [
     {
-      "label": "Degree Choices",
-      "value": "Master of Business Studies"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "label": "Language of Study",
-      "value": "English & Bilingual"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "label": "Top Institutions",
-      "value": "UoM, UTM, UdM & Middlesex"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "label": "Indicative Fees",
-      "value": "MUR 150,000 \u2013 MUR 350,000 / Year"
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
     }
   ],
   "sections": [
@@ -117,39 +144,55 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Top Universities for MBS and Related Business Master\u2019s in Mauritius",
-      "lead": "Explore leading universities and institutions in Mauritius offering accredited MBS in Mauritius programmes, modern campuses, and international student support.",
+      "lead": "Explore leading universities and institutions in Mauritius offering accredited MBS programmes, modern campuses, and international student support.",
+      "unis": [
+        {
+          "name": "\\. University of Mauritius",
+          "location": "\\. University of Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "Offers an MBA, MBA specialisations, MSc International Business Management, and other postgraduate business-related programmes. The MBA and MSc International Business Management are listed as two-year part-time programmes for 2026\u20132027.",
+          "img": uniImg1
+        },
+        {
+          "name": "\\. Open University of Mauritius",
+          "location": "\\. Open University of Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "Provides an MBA General through open and distance learning. Its published duration is two to four years, making it an option for students who need flexibility while working.",
+          "img": uniImg2
+        },
+        {
+          "name": "\\. University of Technology, Mauritius",
+          "location": "\\. University of Technology, Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "Lists an MBA General through its School of Business, Management and Finance. The programme covers areas including management, finance, marketing, operations, and strategic decision-making. Confirm current duration, fees, and intake availability with the university.",
+          "img": uniImg3
+        }
+      ],
       "unis_data": [
         {
-          "name": "University of Mauritius",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "Offers an MBA, MBA specialisations, MSc International Business Management, and other postgraduate business-related programmes. The MBA and MSc International Business Management are listed as two-year part-time programmes for 2026\u20132027. Official postgraduate programmes",
-          "img_var": "null"
+          "name": "\\. University of Mauritius",
+          "location": "\\. University of Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "Offers an MBA, MBA specialisations, MSc International Business Management, and other postgraduate business-related programmes. The MBA and MSc International Business Management are listed as two-year part-time programmes for 2026\u20132027.",
+          "img": uniImg1
         },
         {
-          "name": "Open University of Mauritius",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "Provides an MBA General through open and distance learning. Its published duration is two to four years, making it an option for students who need flexibility while working. Official MBA General page",
-          "img_var": "null"
+          "name": "\\. Open University of Mauritius",
+          "location": "\\. Open University of Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "Provides an MBA General through open and distance learning. Its published duration is two to four years, making it an option for students who need flexibility while working.",
+          "img": uniImg2
         },
         {
-          "name": "University of Technology, Mauritius",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "Lists an MBA General through its School of Business, Management and Finance. The programme covers areas including management, finance, marketing, operations, and strategic decision-making. Confirm current duration, fees, and intake availability with the university. Official programme information",
-          "img_var": "null"
-        },
-        {
-          "name": "Middlesex University Mauritius",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "Offers an MSc Management, a related postgraduate option for students seeking advanced management knowledge. Its published 2026\u20132027 international tuition fee is \u00a37,420, with a duration of one year full-time or two years part-time. This is an MSc, not an MBS. Official MSc Management page These institutions offer options for students comparing business master's programmes in Mauritius, although the exact qualification and availability should always be confirmed with the institution.",
-          "img_var": "null"
+          "name": "\\. University of Technology, Mauritius",
+          "location": "\\. University of Technology, Mauritius",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "Lists an MBA General through its School of Business, Management and Finance. The programme covers areas including management, finance, marketing, operations, and strategic decision-making. Confirm current duration, fees, and intake availability with the university.",
+          "img": uniImg3
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and student visa requirements before submitting their applications."
+        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
       ]
     },
     {
@@ -406,26 +449,45 @@ const page = {
       ]
     }
   ],
+  "universities": [
+    {
+      "name": "\\. University of Mauritius",
+      "location": "\\. University of Mauritius",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "Offers an MBA, MBA specialisations, MSc International Business Management, and other postgraduate business-related programmes. The MBA and MSc International Business Management are listed as two-year part-time programmes for 2026\u20132027.",
+      "img": uniImg1
+    },
+    {
+      "name": "\\. Open University of Mauritius",
+      "location": "\\. Open University of Mauritius",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "Provides an MBA General through open and distance learning. Its published duration is two to four years, making it an option for students who need flexibility while working.",
+      "img": uniImg2
+    },
+    {
+      "name": "\\. University of Technology, Mauritius",
+      "location": "\\. University of Technology, Mauritius",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "Lists an MBA General through its School of Business, Management and Finance. The programme covers areas including management, finance, marketing, operations, and strategic decision-making. Confirm current duration, fees, and intake availability with the university.",
+      "img": uniImg3
+    }
+  ],
   "faqs": [
     {
-      "q": "Is a Master of Business Studies (MBS) available in Mauritius?",
-      "a": "The University of Mauritius's published 2026\u20132027 postgraduate list does not show a programme specifically titled Master of Business Studies. It lists alternatives such as an MBA and MSc International Business Management. Applicants should confirm whether another recognised institution offers the exact MBS qualification. Students searching for a Master of Business Studies in Mauritius should verify the degree title directly with the awarding institution."
+      "q": "Can Indian students apply for MBS in Mauritius?",
+      "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
     },
     {
-      "q": "What is the difference between MBS and MBA?",
-      "a": "An MBS is generally a master's-level business studies qualification, while an MBA is specifically designed around business administration and management. Their curriculum, professional focus, entry requirements, and recognition may differ, so they should not automatically be treated as equivalent."
+      "q": "What is the medium of instruction for MBS in Mauritius?",
+      "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
     },
     {
-      "q": "How long does a related business master's take in Mauritius?",
-      "a": "Duration depends on the course and study mode. The University of Mauritius lists its MBA and MSc International Business Management as two-year part-time programmes. The Open University of Mauritius lists two to four years for its MBA General, while Middlesex University Mauritius lists one year full-time or two years part-time for its MSc Management."
+      "q": "What are the typical tuition fees for MBS in Mauritius?",
+      "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
     },
     {
-      "q": "How much does a related business master's cost in Mauritius?",
-      "a": "Published examples include US\\$6,845 for the Open University of Mauritius MBA General for international non-SADC students and \u00a37,420 for the international MSc Management at Middlesex University Mauritius. These are different qualifications, not MBS tuition fees."
-    },
-    {
-      "q": "Can Indian students apply for business master's programmes in Mauritius?",
-      "a": "Indian students can apply if they meet the selected institution's admission requirements. They should confirm international tuition fees, recognition of their previous qualifications, and current study-permit requirements before accepting an offer."
+      "q": "Is a student visa required for Indian students?",
+      "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

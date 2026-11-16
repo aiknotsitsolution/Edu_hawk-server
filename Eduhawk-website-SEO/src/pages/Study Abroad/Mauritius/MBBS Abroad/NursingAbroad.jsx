@@ -7,13 +7,20 @@ import heroBgImg from "../../../../Images/Abroad/Mauritius/Nursing/hero_bg.webp"
 import sideImg from "../../../../Images/Abroad/Mauritius/Nursing/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Mauritius/Nursing/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../Images/Abroad/Mauritius/Nursing/image1.png";
+import uniImg2 from "../../../../Images/Abroad/Mauritius/Nursing/image2.png";
+import uniImg3 from "../../../../Images/Abroad/Mauritius/Nursing/image3.png";
+import uniImg4 from "../../../../Images/Abroad/Mauritius/Nursing/image4.png";
+import uniImg5 from "../../../../Images/Abroad/Mauritius/Nursing/image5.png";
+
 const page = {
-  "name": "Nursing in Mauritius",
+  "name": "Nursing",
   "country": "Mauritius",
   "slug": "nursing",
   "title": "Nursing in Mauritius for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Nursing in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study Nursing in Mauritius, Nursing in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Nursing in Mauritius Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
+  "keywords": "Study Nursing in Mauritius, Nursing in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Nursing Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
   "introTitle": "Nursing in Mauritius for Indian Students",
   "heroParas": [
     "**Nursing in Mauritius for Indian Students** can offer exposure to healthcare education in a multicultural environment, with training pathways ranging from assistant-nurse qualifications to professional nursing programmes. For international students, the key considerations are the institution\u2019s recognition, admission eligibility, clinical placements, total costs and professional registration after graduation. Students exploring **Nursing in Mauritius for Indian Students** should carefully compare available programmes and their professional recognition before making a decision."
@@ -25,20 +32,42 @@ const page = {
   "crumb": "MBBS Abroad",
   "stats": [
     {
-      "label": "Degree Choices",
-      "value": "B.Sc. & M.Sc. in Nursing"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "label": "Language of Study",
-      "value": "English & Bilingual"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "label": "Top Institutions",
-      "value": "UoM, UTM, UdM & Middlesex"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "label": "Indicative Fees",
-      "value": "MUR 150,000 \u2013 MUR 350,000 / Year"
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
     }
   ],
   "sections": [
@@ -116,46 +145,83 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Top Universities and Nursing Colleges in Mauritius",
-      "lead": "Explore leading universities and institutions in Mauritius offering accredited Nursing in Mauritius programmes, modern campuses, and international student support.",
-      "unis_data": [
+      "lead": "Explore leading universities and institutions in Mauritius offering accredited Nursing programmes, modern campuses, and international student support.",
+      "unis": [
+        {
+          "name": "University of Mauritius (UoM)",
+          "location": "Reduit, Mauritius",
+          "fee": "MUR 150,000 \u2013 350,000 / Year",
+          "desc": "The flagship national university of Mauritius offering premier degree programs in health sciences, engineering, agriculture, and business.",
+          "img": uniImg1
+        },
+        {
+          "name": "Universit\u00e9 des Mascareignes (UdM)",
+          "location": "Rose Hill, Mauritius",
+          "fee": "MUR 180,000 \u2013 320,000 / Year",
+          "desc": "Bilingual public university partnering with French universities to offer internationally accredited dual qualifications.",
+          "img": uniImg2
+        },
+        {
+          "name": "University of Technology, Mauritius (UTM)",
+          "location": "La Tour Koenig, Mauritius",
+          "fee": "MUR 160,000 \u2013 280,000 / Year",
+          "desc": "Dynamic public institution recognized for cutting-edge programs in technology, applied management, healthcare, and sustainable development.",
+          "img": uniImg3
+        },
         {
           "name": "Middlesex University Mauritius",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "Listed nursing options include BSc Nursing, MSc Nursing and a BSc Nursing top-up programme. Check entry requirements and current international-student availability.",
-          "img_var": "null"
+          "location": "Flic en Flac, Mauritius",
+          "fee": "MUR 250,000 \u2013 450,000 / Year",
+          "desc": "Accredited British branch campus delivering internationally recognized undergraduate and postgraduate degrees in coastal Mauritius.",
+          "img": uniImg4
         },
         {
-          "name": "University of Technology Mauritius",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "The Nursing Council lists BSc Nursing and MSc Nursing Science among its programmes.",
-          "img_var": "null"
+          "name": "Curtin Mauritius",
+          "location": "Moka, Mauritius",
+          "fee": "MUR 280,000 \u2013 420,000 / Year",
+          "desc": "Premier Australian branch university known for high academic standards in commerce, design, health, and humanities.",
+          "img": uniImg5
+        }
+      ],
+      "unis_data": [
+        {
+          "name": "University of Mauritius (UoM)",
+          "location": "Reduit, Mauritius",
+          "fee": "MUR 150,000 \u2013 350,000 / Year",
+          "desc": "The flagship national university of Mauritius offering premier degree programs in health sciences, engineering, agriculture, and business.",
+          "img": uniImg1
         },
         {
-          "name": "Charles Telfair Institute",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "Listed options include BSc Nursing and top-up nursing studies. Confirm the awarding institution and whether the course is appropriate for new entrants or qualified nurses.",
-          "img_var": "null"
+          "name": "Universit\u00e9 des Mascareignes (UdM)",
+          "location": "Rose Hill, Mauritius",
+          "fee": "MUR 180,000 \u2013 320,000 / Year",
+          "desc": "Bilingual public university partnering with French universities to offer internationally accredited dual qualifications.",
+          "img": uniImg2
         },
         {
-          "name": "Open University of Mauritius",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "Listed options include BSc Nursing (Top Up), BSc Midwifery Top-Up and postgraduate nursing programmes.",
-          "img_var": "null"
+          "name": "University of Technology, Mauritius (UTM)",
+          "location": "La Tour Koenig, Mauritius",
+          "fee": "MUR 160,000 \u2013 280,000 / Year",
+          "desc": "Dynamic public institution recognized for cutting-edge programs in technology, applied management, healthcare, and sustainable development.",
+          "img": uniImg3
         },
         {
-          "name": "Polytechnics Mauritius Ltd",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "The Nursing Council lists a three-year National Diploma in Nursing, along with several top-up and specialist nursing courses. These institutions are listed by the regulator, but programme listings do not guarantee that every course is open for admission in 2026\\. Review the Nursing Council\u2019s official list of nursing schools before applying. Students researching Nursing Colleges in Mauritius should confirm current admission availability and qualification details directly with the institutions.",
-          "img_var": "null"
+          "name": "Middlesex University Mauritius",
+          "location": "Flic en Flac, Mauritius",
+          "fee": "MUR 250,000 \u2013 450,000 / Year",
+          "desc": "Accredited British branch campus delivering internationally recognized undergraduate and postgraduate degrees in coastal Mauritius.",
+          "img": uniImg4
+        },
+        {
+          "name": "Curtin Mauritius",
+          "location": "Moka, Mauritius",
+          "fee": "MUR 280,000 \u2013 420,000 / Year",
+          "desc": "Premier Australian branch university known for high academic standards in commerce, design, health, and humanities.",
+          "img": uniImg5
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and student visa requirements before submitting their applications."
+        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
       ]
     },
     {
@@ -398,41 +464,61 @@ const page = {
           ]
         }
       ]
+    }
+  ],
+  "universities": [
+    {
+      "name": "University of Mauritius (UoM)",
+      "location": "Reduit, Mauritius",
+      "fee": "MUR 150,000 \u2013 350,000 / Year",
+      "desc": "The flagship national university of Mauritius offering premier degree programs in health sciences, engineering, agriculture, and business.",
+      "img": uniImg1
     },
     {
-      "slot": "section-12",
-      "eyebrow": "Edu-Hawk Worldwide \u2013 Your Study Abroad Guidance Partner",
-      "title": "Edu-Hawk Worldwide \u2013 Your Study Abroad Guidance Partner",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Choosing the right nursing programme involves checking the institution, eligibility, fees, clinical training and professional recognition. **Edu-Hawk Worldwide** helps students explore international education opportunities and understand important steps in the study abroad process.",
-            "For students considering **Nursing in Mauritius for Indian Students**, Edu-Hawk Worldwide can provide guidance on exploring course options, understanding admission requirements, preparing application documents and planning the next steps towards international education.",
-            "Connect with **Edu-Hawk Worldwide** to explore study abroad opportunities and make informed decisions about your academic journey."]
-        }]
+      "name": "Universit\u00e9 des Mascareignes (UdM)",
+      "location": "Rose Hill, Mauritius",
+      "fee": "MUR 180,000 \u2013 320,000 / Year",
+      "desc": "Bilingual public university partnering with French universities to offer internationally accredited dual qualifications.",
+      "img": uniImg2
+    },
+    {
+      "name": "University of Technology, Mauritius (UTM)",
+      "location": "La Tour Koenig, Mauritius",
+      "fee": "MUR 160,000 \u2013 280,000 / Year",
+      "desc": "Dynamic public institution recognized for cutting-edge programs in technology, applied management, healthcare, and sustainable development.",
+      "img": uniImg3
+    },
+    {
+      "name": "Middlesex University Mauritius",
+      "location": "Flic en Flac, Mauritius",
+      "fee": "MUR 250,000 \u2013 450,000 / Year",
+      "desc": "Accredited British branch campus delivering internationally recognized undergraduate and postgraduate degrees in coastal Mauritius.",
+      "img": uniImg4
+    },
+    {
+      "name": "Curtin Mauritius",
+      "location": "Moka, Mauritius",
+      "fee": "MUR 280,000 \u2013 420,000 / Year",
+      "desc": "Premier Australian branch university known for high academic standards in commerce, design, health, and humanities.",
+      "img": uniImg5
     }
   ],
   "faqs": [
     {
-      "q": "Can Indian students study nursing in Mauritius?",
-      "a": "Indian students can investigate programmes listed by the Nursing Council, but must confirm international eligibility, fees and admission requirements directly with the institution. Nursing in Mauritius for Indian Students depends on the current admission policy and eligibility criteria of the selected programme."
+      "q": "Can Indian students apply for Nursing in Mauritius?",
+      "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
     },
     {
-      "q": "How long does a nursing course take in Mauritius?",
-      "a": "The duration depends on the qualification. The Nursing Council lists a three-year National Diploma in Nursing at Polytechnics Mauritius Ltd, while top-up and postgraduate courses follow different durations."
+      "q": "What is the medium of instruction for Nursing in Mauritius?",
+      "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
     },
     {
-      "q": "What is the cost of studying nursing in Mauritius?",
-      "a": "There is no single fee for all nursing programmes. Request the latest international-student fee schedule, accommodation estimates and clinical-training charges from the institution. For accurate information about Nursing Fees in Mauritius, always refer to the official fee schedule."
+      "q": "What are the typical tuition fees for Nursing in Mauritius?",
+      "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
     },
     {
-      "q": "Can I work as a nurse in Mauritius after graduation?",
-      "a": "You must meet the applicable registration and licensing requirements. The Nursing Council of Mauritius regulates professional nursing practice and assesses applications for registration."
-    },
-    {
-      "q": "Is a nursing degree from Mauritius recognised in India?",
-      "a": "Recognition is not automatic. Before enrolling, verify the programme and qualification against the current requirements of the relevant Indian nursing authorities, including the Indian Nursing Council and the appropriate State Nursing Council. Confirm whether the qualification meets the applicable registration requirements for foreign-trained graduates."
+      "q": "Is a student visa required for Indian students?",
+      "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
     }
   ],
   "faqTitle": "Frequently Asked Questions"

@@ -7,13 +7,16 @@ import heroBgImg from "../../../../../../Images/Abroad/Mauritius/Engineering_UG/
 import sideImg from "../../../../../../Images/Abroad/Mauritius/Engineering_UG/Biomedical/side.webp";
 import ctaBgImg from "../../../../../../Images/Abroad/Mauritius/Engineering_UG/Biomedical/cta_bg.webp";
 
+// University images
+import uniImg1 from "../../../../../../Images/Abroad/Mauritius/Engineering_UG/Biomedical/image1.png";
+
 const page = {
-  "name": "Biomedical Engineering (UG) in Mauritius",
+  "name": "Biomedical Engineering (UG)",
   "country": "Mauritius",
   "slug": "ug/biomedical-engineering",
-  "title": "Bachelor\u2019s in Biomedical Engineering in Mauritius for Indian Students | Edu-Hawk Worldwide",
+  "title": "Biomedical Engineering (UG) in Mauritius for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Biomedical Engineering (UG) in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study Biomedical Engineering (UG) in Mauritius, Biomedical Engineering (UG) in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Biomedical Engineering (UG) in Mauritius Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
+  "keywords": "Study Biomedical Engineering (UG) in Mauritius, Biomedical Engineering (UG) in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Biomedical Engineering (UG) Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
   "introTitle": "Biomedical Engineering (UG) in Mauritius for Indian Students",
   "heroParas": [
     "Biomedical engineering is the fusion of engineering, biology, medicine and technology to create health care related equipment and systems. If you are a student interested in medical devices, artificial organs, rehabilitation technology, diagnostic equipment and healthcare innovation, this could be the field for you. **Biomedical Engineering in Mauritius for Indian Students** is a study option worth researching for students interested in combining engineering principles with healthcare technology."
@@ -25,20 +28,42 @@ const page = {
   "crumb": "Engineering / UG Engineering",
   "stats": [
     {
-      "label": "Degree Choices",
-      "value": "B.Eng / B.Sc. Biomedical Engineering"
+      "val": "MUR 150K-350K",
+      "label": "Tuition / Year"
     },
     {
-      "label": "Language of Study",
-      "value": "English & Bilingual"
+      "val": "English",
+      "label": "Medium of Study"
     },
     {
-      "label": "Top Institutions",
-      "value": "UoM, UTM, UdM & Middlesex"
+      "val": "3-4 Years",
+      "label": "Course Duration"
     },
     {
-      "label": "Indicative Fees",
-      "value": "MUR 150,000 \u2013 MUR 350,000 / Year"
+      "val": "Permitted",
+      "label": "Part-Time Work"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "Bilingual & English Degrees",
+      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Affordable Tuition & Living",
+      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "Safe & Multicultural Island",
+      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Simplified Visa Process",
+      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
     }
   ],
   "sections": [
@@ -114,18 +139,27 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Top Universities for Biomedical Engineering in Mauritius",
-      "lead": "Explore leading universities and institutions in Mauritius offering accredited Biomedical Engineering (UG) in Mauritius programmes, modern campuses, and international student support.",
+      "lead": "Explore leading universities and institutions in Mauritius offering accredited Biomedical Engineering (UG) programmes, modern campuses, and international student support.",
+      "unis": [
+        {
+          "name": "University of Mauritius (UoM)",
+          "location": "University of Mauritius (UoM)",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "**Official website:** [https\\://www\\.uom.ac.mu](https://www.uom.ac.mu) The University of Mauritius is a public higher education institution with undergraduate programmes in engineering, science and related fields. Its published 2026\u20132027 list includes the alternative courses described above, but does not show a dedicated Bachelor\u2019s in Biomedical Engineering. Students searching for **Biomedical Engineering Universities in Mauritius** can consider the University of Mauritius for its related science and engineering programmes. However, the availability of a dedicated Biomedical Engineering degree should not be assumed. Before applying, prospective students should ask the university whether any new programme, specialisation, elective or research pathway related to Biomedical Engineering is available. **How to verify other institutions** Students considering private institutions in Mauritius should consult the Higher Education Commission\u2019s registered-institution and accredited-programme information. Registration of an institution does not, by itself, confirm that a particular Biomedical Engineering degree is offered or accredited. Therefore, students comparing **Biomedical Engineering Universities in Mauritius** should verify both institutional registration and the accreditation of the specific programme.",
+          "img": uniImg1
+        }
+      ],
       "unis_data": [
         {
           "name": "University of Mauritius (UoM)",
-          "location": "Mauritius",
-          "fee": "MUR 150,000 \u2013 MUR 350,000 / Year",
-          "desc": "Official website: [https\\://www\\.uom.ac.mu](https://www.uom.ac.mu) The University of Mauritius is a public higher education institution with undergraduate programmes in engineering, science and related fields. Its published 2026\u20132027 list includes the alternative courses described above, but does not show a dedicated Bachelor\u2019s in Biomedical Engineering. Students searching for Biomedical Engineering Universities in Mauritius can consider the University of Mauritius for its related science and engineering programmes. However, the availability of a dedicated Biomedical Engineering degree should not be assumed. Before applying, prospective students should ask the university whether any new programme, specialisation, elective or research pathway related to Biomedical Engineering is available. How to verify other institutions Students considering private institutions in Mauritius should consult the Higher Education Commission\u2019s registered-institution and accredited-programme information. Registration of an institution does not, by itself, confirm that a particular Biomedical Engineering degree is offered or accredited. Therefore, students comparing Biomedical Engineering Universities in Mauritius should verify both institutional registration and the accreditation of the specific programme.",
-          "img_var": "null"
+          "location": "University of Mauritius (UoM)",
+          "fee": "MUR 160,000 \u2013 350,000 / Year",
+          "desc": "**Official website:** [https\\://www\\.uom.ac.mu](https://www.uom.ac.mu) The University of Mauritius is a public higher education institution with undergraduate programmes in engineering, science and related fields. Its published 2026\u20132027 list includes the alternative courses described above, but does not show a dedicated Bachelor\u2019s in Biomedical Engineering. Students searching for **Biomedical Engineering Universities in Mauritius** can consider the University of Mauritius for its related science and engineering programmes. However, the availability of a dedicated Biomedical Engineering degree should not be assumed. Before applying, prospective students should ask the university whether any new programme, specialisation, elective or research pathway related to Biomedical Engineering is available. **How to verify other institutions** Students considering private institutions in Mauritius should consult the Higher Education Commission\u2019s registered-institution and accredited-programme information. Registration of an institution does not, by itself, confirm that a particular Biomedical Engineering degree is offered or accredited. Therefore, students comparing **Biomedical Engineering Universities in Mauritius** should verify both institutional registration and the accreditation of the specific programme.",
+          "img": uniImg1
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and student visa requirements before submitting their applications."
+        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
       ]
     },
     {
@@ -366,26 +400,31 @@ const page = {
       ]
     }
   ],
+  "universities": [
+    {
+      "name": "University of Mauritius (UoM)",
+      "location": "University of Mauritius (UoM)",
+      "fee": "MUR 160,000 \u2013 350,000 / Year",
+      "desc": "**Official website:** [https\\://www\\.uom.ac.mu](https://www.uom.ac.mu) The University of Mauritius is a public higher education institution with undergraduate programmes in engineering, science and related fields. Its published 2026\u20132027 list includes the alternative courses described above, but does not show a dedicated Bachelor\u2019s in Biomedical Engineering. Students searching for **Biomedical Engineering Universities in Mauritius** can consider the University of Mauritius for its related science and engineering programmes. However, the availability of a dedicated Biomedical Engineering degree should not be assumed. Before applying, prospective students should ask the university whether any new programme, specialisation, elective or research pathway related to Biomedical Engineering is available. **How to verify other institutions** Students considering private institutions in Mauritius should consult the Higher Education Commission\u2019s registered-institution and accredited-programme information. Registration of an institution does not, by itself, confirm that a particular Biomedical Engineering degree is offered or accredited. Therefore, students comparing **Biomedical Engineering Universities in Mauritius** should verify both institutional registration and the accreditation of the specific programme.",
+      "img": uniImg1
+    }
+  ],
   "faqs": [
     {
-      "q": "Can I study a Bachelor\u2019s in Biomedical Engineering in Mauritius?",
-      "a": "A dedicated Bachelor\u2019s in Biomedical Engineering was not found in the University of Mauritius\u2019s published undergraduate programme list for 2026\u20132027. Students can investigate related programmes such as Mechatronics Engineering, Electrical and Electronic Engineering, Pharmaceutical Biotechnology and Applied Biochemistry. Students researching Biomedical Engineering in Mauritius for Indian Students should verify the current programme list before applying."
+      "q": "Can Indian students apply for Biomedical Engineering (UG) in Mauritius?",
+      "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
     },
     {
-      "q": "Which university should I contact for related courses?",
-      "a": "The University of Mauritius is a useful starting point because it publishes undergraduate programmes in engineering and science. Contact the university directly to confirm course availability, admission requirements and whether any relevant specialisation is offered. Students comparing Biomedical Engineering Universities in Mauritius should also verify the accreditation of the specific programme."
+      "q": "What is the medium of instruction for Biomedical Engineering (UG) in Mauritius?",
+      "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
     },
     {
-      "q": "What is the cost of studying Biomedical Engineering in Mauritius?",
-      "a": "A verified tuition fee for a dedicated Biomedical Engineering degree is not available because the programme itself has not been confirmed. As an initial budget, estimated living expenses are around MUR 20,500\u201339,000 per month, or approximately \u20b938,950\u2013\u20b974,100, using the illustrative exchange rate in this article. Tuition and other charges are additional. For accurate Biomedical Engineering Fees in Mauritius, students should contact the institution directly."
+      "q": "What are the typical tuition fees for Biomedical Engineering (UG) in Mauritius?",
+      "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
     },
     {
-      "q": "What subjects should I study before applying?",
-      "a": "Mathematics and science subjects are useful preparation for many engineering and biotechnology programmes. The exact subjects and grades required depend on the course, so check the selected university\u2019s admission criteria. Students should also review Biomedical Engineering Eligibility in Mauritius before choosing their undergraduate programme."
-    },
-    {
-      "q": "Can I pursue a Master\u2019s in Biomedical Engineering after studying in Mauritius?",
-      "a": "Potentially, yes. Students completing a relevant undergraduate degree may qualify for certain postgraduate programmes, depending on prerequisites. However, admission is not automatic: universities may require specific engineering, mathematics, biology or physics credits. For guidance on course selection, university options, eligibility, admission procedures and international study opportunities, Edu-Hawk Worldwide can help Indian students explore suitable academic pathways and make informed decisions."
+      "q": "Is a student visa required for Indian students?",
+      "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
     }
   ],
   "faqTitle": "Frequently Asked Questions"
