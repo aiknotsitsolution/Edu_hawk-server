@@ -486,61 +486,84 @@ const Tajikistan = () => {
                 (2026–2027)
               </h2>
 
-              <div className="overflow-x-auto">
+              <div className="overflow-x-auto shadow-md rounded-lg">
                 <table className="min-w-full border-collapse border border-gray-300 text-left">
                   <thead>
                     <tr className="bg-blue-900 text-white">
-                      <th className="p-4 border border-gray-300 text-center font-semibold">
-                        Criteria
+                      <th className="p-4 border border-gray-300 text-center font-semibold w-1/4">
+                        Feature
                       </th>
-                      <th className="p-4 border border-gray-300 text-center font-semibold">
+                      <th className="p-4 border border-gray-300 text-center font-semibold w-3/8">
                         MBBS in Tajikistan
                       </th>
-                      <th className="p-4 border border-gray-300 text-center font-semibold">
+                      <th className="p-4 border border-gray-300 text-center font-semibold w-3/8">
                         MBBS in India
                       </th>
                     </tr>
                   </thead>
-                  <tbody className="text-gray-700">
-                    <tr className="bg-gray-50">
-                      <td className="p-4 border font-medium">Entrance Exams</td>
-                      <td className="p-4 border">
-                        Admission based on NEET qualification
-                      </td>
-                      <td className="p-4 border">NEET + high competition</td>
-                    </tr>
-                    <tr>
-                      <td className="p-4 border font-medium">
-                        Course Duration
-                      </td>
-                      <td className="p-4 border">
-                        6 years (including internship)
-                      </td>
-                      <td className="p-4 border">
-                        5.5 years + 1 year internship
-                      </td>
-                    </tr>
-                    <tr className="bg-gray-50">
-                      <td className="p-4 border font-medium">Total Cost</td>
-                      <td className="p-4 border">₹15–25 lakhs</td>
-                      <td className="p-4 border">Private: ₹20–80+ lakhs</td>
-                    </tr>
-                    <tr>
-                      <td className="p-4 border font-medium">
-                        Seats Availability
-                      </td>
-                      <td className="p-4 border">
-                        More seats for international students
-                      </td>
-                      <td className="p-4 border">
-                        Limited in government colleges
-                      </td>
-                    </tr>
-                    <tr className="bg-gray-50">
-                      <td className="p-4 border font-medium">Infrastructure</td>
-                      <td className="p-4 border">Modern labs & facilities</td>
-                      <td className="p-4 border">Varies between colleges</td>
-                    </tr>
+                  <tbody className="text-gray-700 divide-y divide-gray-200">
+                    {(cmsData?.comparisonTable || [
+                      {
+                        feature: "Tuition Fees (Per Year)",
+                        tajikistan: "₹3 lakh to ₹5 lakh ($3,000–$5,000) per year",
+                        india: "Government: Very low (₹10,000–₹50,000/year)\nPrivate: ₹10 lakh to ₹25+ lakh/year (₹50L–₹1.5+ Cr total)"
+                      },
+                      {
+                        feature: "Course Duration",
+                        tajikistan: "6 years (typically 6 years including clinical/internship components)",
+                        india: "5.5 years (4.5 years academic + 1 year compulsory rotating internship)"
+                      },
+                      {
+                        feature: "Class Strength",
+                        tajikistan: "Moderate / controlled batches for international students",
+                        india: "Large lecture halls (100–250+ students per batch)"
+                      },
+                      {
+                        feature: "Global Recognition",
+                        tajikistan: "Recognized by NMC (India), WHO, and regional bodies; subject to university compliance",
+                        india: "Recognized globally by NMC, WHO, and premier international health bodies"
+                      },
+                      {
+                        feature: "Medium of Instruction",
+                        tajikistan: "English (though clinical/patient interaction may use Tajik or Russian)",
+                        india: "English"
+                      },
+                      {
+                        feature: "Hostel & Food",
+                        tajikistan: "₹40,000 to ₹80,000 ($500–$1,000) per year for hostel; food/living approx. $1,200/year",
+                        india: "Varies widely; government hostels are cheap/subsidized, private/metro housing can be expensive"
+                      },
+                      {
+                        feature: "Health Insurance",
+                        tajikistan: "Approx. ₹15,000 to ₹30,000 ($150–$300) per year",
+                        india: "Nominal (varies by state or college clinic)"
+                      },
+                      {
+                        feature: "Visa & Extension Costs",
+                        tajikistan: "One-time/annual visa and residence permit costs approx. $500–$1,000 total",
+                        india: "Not applicable for domestic students"
+                      },
+                      {
+                        feature: "Other Costs (Travel, Misc)",
+                        tajikistan: "One-way/return flights (₹25k–₹50k/yr), personal expenses (₹3k–₹8k/mo), FMGE coaching (₹50k–₹2.0L)",
+                        india: "Local travel, books, exam fees, and living costs depending on the city"
+                      }
+                    ]).map((row, index) => (
+                      <tr
+                        key={index}
+                        className={index % 2 === 0 ? "bg-gray-50" : "bg-white"}
+                      >
+                        <td className="p-4 border border-gray-300 font-medium text-gray-900">
+                          {row.feature || row.parameter}
+                        </td>
+                        <td className="p-4 border border-gray-300 whitespace-pre-line text-sm leading-relaxed">
+                          {row.tajikistan}
+                        </td>
+                        <td className="p-4 border border-gray-300 whitespace-pre-line text-sm leading-relaxed">
+                          {row.india}
+                        </td>
+                      </tr>
+                    ))}
                   </tbody>
                 </table>
               </div>

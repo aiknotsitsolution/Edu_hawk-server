@@ -74,5 +74,52 @@
       "question": "What is the medium of instruction in Tajikistan?",
       "answer": "All courses for international students are conducted in 100% English medium."
     }
+  ],
+  "comparisonTable": [
+    {
+      "feature": "Tuition Fees (Per Year)",
+      "tajikistan": "₹3 lakh to ₹5 lakh ($3,000–$5,000) per year",
+      "india": "Government: Very low (₹10,000–₹50,000/year)\nPrivate: ₹10 lakh to ₹25+ lakh/year (₹50L–₹1.5+ Cr total)"
+    },
+    {
+      "feature": "Course Duration",
+      "tajikistan": "6 years (typically 6 years including clinical/internship components)",
+      "india": "5.5 years (4.5 years academic + 1 year compulsory rotating internship)"
+    },
+    {
+      "feature": "Class Strength",
+      "tajikistan": "Moderate / controlled batches for international students",
+      "india": "Large lecture halls (100–250+ students per batch)"
+    },
+    {
+      "feature": "Global Recognition",
+      "tajikistan": "Recognized by NMC (India), WHO, and regional bodies; subject to university compliance",
+      "india": "Recognized globally by NMC, WHO, and premier international health bodies"
+    },
+    {
+      "feature": "Medium of Instruction",
+      "tajikistan": "English (though clinical/patient interaction may use Tajik or Russian)",
+      "india": "English"
+    },
+    {
+      "feature": "Hostel & Food",
+      "tajikistan": "₹40,000 to ₹80,000 ($500–$1,000) per year for hostel; food/living approx. $1,200/year",
+      "india": "Varies widely; government hostels are cheap/subsidized, private/metro housing can be expensive"
+    },
+    {
+      "feature": "Health Insurance",
+      "tajikistan": "Approx. ₹15,000 to ₹30,000 ($150–$300) per year",
+      "india": "Nominal (varies by state or college clinic)"
+    },
+    {
+      "feature": "Visa & Extension Costs",
+      "tajikistan": "One-time/annual visa and residence permit costs approx. $500–$1,000 total",
+      "india": "Not applicable for domestic students"
+    },
+    {
+      "feature": "Other Costs (Travel, Misc)",
+      "tajikistan": "One-way/return flights (₹25k–₹50k/yr), personal expenses (₹3k–₹8k/mo), FMGE coaching (₹50k–₹2.0L)",
+      "india": "Local travel, books, exam fees, and living costs depending on the city"
+    }
   ]
 }
