@@ -1,3 +1,4 @@
+import executiveMBAData from "../../../../data/study_abroad/usa/executive_mba.json";
 import { useLocation } from "react-router-dom";
 import { formatRichText, EligibilityCtaCard, AbroadCoursePage } from "../../../../component/CoursePageKit";
 import React, { useEffect, useRef, useState } from "react";
@@ -384,14 +385,29 @@ const page = {
 const imgDims = { w: 900, h: 760 };
 
 // UI is rendered by the shared polished course template (CoursePageKit).
-const ExecutiveMbaAbroad = () => (
-  <AbroadCoursePage
-    page={page}
-    heroImg={heroImg}
-    sideImg={sideImg}
-    imgDims={imgDims}
-    seoPath="/study-abroad/usa/executive-mba"
-  />
-);
+const ExecutiveMbaAbroad = () => {
+  const dynamicPage = {
+    ...page,
+    title: executiveMBAData?.seo?.title || page.title,
+    description: executiveMBAData?.seo?.description || page.description,
+    heroParas: executiveMBAData?.hero?.subtitle ? [executiveMBAData.hero.subtitle] : page.heroParas,
+    overview: executiveMBAData?.overview ? (Array.isArray(executiveMBAData.overview) ? executiveMBAData.overview : executiveMBAData.overview.split('\n\n')) : page.overview,
+    faqs: (executiveMBAData?.faq && executiveMBAData.faq.length > 0)
+      ? executiveMBAData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
+      : page.faqs,
+  };
+
+  return (
+    <AbroadCoursePage
+      page={dynamicPage}
+      heroImg={heroImg}
+      heroBgImg={typeof heroBgImg !== 'undefined' ? heroBgImg : undefined}
+      sideImg={sideImg}
+      ctaBgImg={typeof ctaBgImg !== 'undefined' ? ctaBgImg : undefined}
+      imgDims={typeof imgDims !== 'undefined' ? imgDims : undefined}
+      seoPath="/study-abroad/usa/executive-mba"
+    />
+  );
+};
 
 export default ExecutiveMbaAbroad;

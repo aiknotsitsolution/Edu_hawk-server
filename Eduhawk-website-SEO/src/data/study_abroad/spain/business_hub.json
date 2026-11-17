@@ -1,81 +1,720 @@
 {
-  "seo": {
-    "title": "Business Management in Spain for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study Business Management in Spain: Top universities, English-taught programs, tuition fees (€2,000–€18,000/yr), scholarships, eligibility criteria, and post-study work permit opportunities."
-  },
   "hero": {
-    "badge": "Study Abroad - Spain",
     "title": "Business Management in Spain for Indian Students",
-    "subtitle": "Business Management in Spain for Indian Students is a scope to enhance skills like leadership, strategic planning, marketing, finance, entrepreneurship, human resource management and international business which are critical. Spain offers a varied European business environment in which students can learn about global markets, business innovation, organizational management and international business practices.",
-    "ctaText": "Book Free Counselling",
-    "image": ""
+    "subtitle": "Business Management in Spain for Indian Students is a scope to enhance skills like leadership, strategic planning, marketing, finance, entrepreneurship, human resource management and international business which are critical. Spain offers a varied European business environment in which students can learn about global markets, business innovation, organizational management and international business practices."
   },
-  "stats": [
-    {
-      "n": "1000+",
-      "l": "Students Placed Globally"
-    },
-    {
-      "n": "20+",
-      "l": "Countries"
-    },
-    {
-      "n": "200+",
-      "l": "Partner Universities"
-    },
-    {
-      "n": "100%",
-      "l": "Support (Visa & Post-Study Work Guidance)"
-    }
+  "overview": [
+    "Spain is a mix of academic education and exposure to the business environment in Europe. Reasons why Indian students choose this destination include:",
+    "Students with a degree in business management can develop analytical, communication, decision-making, and leadership skills applicable to several industries. Studying Business Management in Spain can help students understand international business practices and develop knowledge relevant to different professional sectors."
   ],
-  "highlights": {
-    "degree": "Undergraduate & Postgraduate",
-    "duration": "1 to 2 Years (PG)",
-    "fee": "€2,000 – €18,000 / Year",
-    "eligibility": "Recognised academic qualification + IELTS / TOEFL / Spanish proficiency",
-    "medium": "English & Spanish Taught"
-  },
-  "overview": "Business Management in Spain for Indian Students is a scope to enhance skills like leadership, strategic planning, marketing, finance, entrepreneurship, human resource management and international business which are critical. Spain offers a varied European business environment in which students can learn about global markets, business innovation, organizational management and international business practices.\n\nIn Spain, a Bachelor's degree in Business Management usually lasts four years and a Master's degree between one and two years. Indian students can apply for an undergraduate program after Class 12 or for postgraduate studies after a relevant bachelor's program. Some universities will teach in English, others in Spanish, or a combination of the two.\n\nFor students interested in Studying Business Management in Spain , there are a variety of academic routes available, including general management degrees or specialized programs with topics like finance, marketing, entrepreneurship, and international business. Edu-Hawk Worldwide helps students understand program options and prepare for the application process.",
   "universities": [
     {
-      "name": "IE University",
-      "location": "Spain",
-      "fee": "€2,000 – €18,000 / Year",
-      "image": ""
+      "name": "Universitat de Barcelona",
+      "location": "Barcelona, Catalonia, Spain",
+      "fee": "€1,500 – €4,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+      "image": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+      "desc": "The University of Barcelona is one of the top-ranked public universities in Spain, known for its extensive research output and clinical training."
     },
     {
-      "name": "ESADE Business School",
-      "location": "Spain",
-      "fee": "€2,000 – €18,000 / Year",
-      "image": ""
+      "name": "Universidad Autónoma de Madrid",
+      "location": "Madrid, Spain",
+      "fee": "€2,000 – €5,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+      "image": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+      "desc": "UAM is celebrated for its modern Cantoblanco campus, distinguished faculty, and internationally accredited degree programs."
     },
     {
-      "name": "IESE School of Business",
-      "location": "Spain",
-      "fee": "€2,000 – €18,000 / Year",
-      "image": ""
+      "name": "Universitat Politècnica de Catalunya",
+      "location": "Barcelona, Catalonia, Spain",
+      "fee": "€2,500 – €6,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+      "image": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+      "desc": "UPC BarcelonaTech is a premier European polytechnic institution specializing in architecture, engineering, and digital technologies."
+    },
+    {
+      "name": "Universidad Complutense de Madrid",
+      "location": "Madrid, Spain",
+      "fee": "€2,000 – €5,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+      "image": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+      "desc": "One of the oldest and most prestigious universities in the world, offering comprehensive health sciences, humanities, and business programs."
     }
   ],
-  "faq": [
+  "sections": [
     {
-      "question": "Can students from India study Business Management in Spain?",
-      "answer": "Yes. If Indian students meet the academic, language and documentation requirements of the institution, they can apply for bachelor's and master's programs in Spain. Business Management in Spain for Indian Students offers undergraduate and postgraduate study routes depending on their previous qualifications."
+      "slot": "why-study",
+      "eyebrow": "Why Spain",
+      "title": "Why Study Business Management in Spain?",
+      "lead": "Spain is a mix of academic education and exposure to the business environment in Europe. Reasons why Indian students choose this destination include:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "International business exposure: Gain knowledge of European and international business practices, international markets, and cross-cultural management.",
+            "Bachelor's and Master's options: Select an academic route that suits your education and career aspirations.",
+            "Business education in practice: Gain professional abilities via case studies, presentations, group projects and business simulations, depending on the program.",
+            "Opportunities to specialise: Choose from marketing, finance, entrepreneurship, human resources, operations and international management.",
+            "Industry links: Some universities and business schools host networking events, internships and employer engagement activities.",
+            "Entrepreneurial development: Learn to evaluate business opportunities, business strategies and business models for sustainability.",
+            "European career exposure: Gain an understanding of business issues that are relevant to organizations operating across international markets."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students with a degree in business management can develop analytical, communication, decision-making, and leadership skills applicable to several industries. Studying Business Management in Spain can help students understand international business practices and develop knowledge relevant to different professional sectors."
+          ]
+        }
+      ]
     },
     {
-      "question": "What is the duration of Business Management in Spain?",
-      "answer": "It usually takes four years to complete a bachelor's degree and one to two years to complete a master's degree. MBA duration depends on the format of the program."
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Business Administration Studies in Spain",
+      "lead": "Spanish universities and business schools have undergraduate and post-graduate programs in business, administration and related management topics. Institutions will offer different specializations and different course structures. Students exploring Business Management Courses in Spain can select programs based on their academic qualifications and career goals.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Bachelor of Science in Business Management"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students who have completed Class 12 and are looking to build a foundation in business principles, management practices and organizational operations will find a bachelor's degree ideal."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Course or specializationKey subjects"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Business ManagementBusiness strategy, management principles, organizational behavior"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Business AdministrationBusiness, Accounting, Economics"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Global BusinessInternational trade, world markets, cross-cultural management"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Marketing ManagementConsumer behavior, branding, market research"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Finance and ManagementFinancial analysis, budgeting, corporate finance"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Human Resource ManagementRecruitment, employee relations, performance management"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "EntrepreneurshipBusiness planning, Innovation, Start-up management"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Operations ManagementSupply chains, process enhancement, logistics"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Digital BusinessE-commerce, digital strategy, technology-driven business"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Hospitality ManagementService Operations, Tourism Business, Client Experience"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These subjects can be studied as a degree in their own right, or as a specialization within a broader undergraduate business degree."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Master of Business Administration"
+        },
+        {
+          "t": "p",
+          "items": [
+            "A master's degree is ideal for graduates who want to develop advanced management knowledge, strengthen leadership skills or launch a specialized business career."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Course or specializationMain subjects"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Business ManagementStrategy, leadership, organizational effectiveness"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master of Business Administration (MBA)Business strategy, finance, marketing, leadership"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "International Business ManagementGlobal strategy, international trade, market entry"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Marketing ManagementBrand strategy, consumer insights, digital marketing"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Managing FinanceBusiness finance, investing, financial planning"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Human Resources ManagementTalent management, organizational development"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Project ManagementPlanning, budgeting, risk management"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Supply Chain ManagementLogistics, purchasing, operations strategy"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Entrepreneurship and InnovationBusiness Models, Innovation, Venture Development"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Digital Business ManagementDigital business transformation, e-commerce, business analytics"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Important: An MBA is a different type of postgraduate management qualification and may have different professional experience requirements than a general master's degree. Applicants should verify the admission criteria for the program they are applying to."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Business Management Courses in Spain for international students are varied and depend on the institution, degree level, language of instruction and the catalog of programs offered each year. Students can compare undergraduate and postgraduate Business Management Courses in Spain to identify a suitable academic pathway."
+          ]
+        }
+      ]
     },
     {
-      "question": "Do I need IELTS to study Business Management in Spain?",
-      "answer": "Not all the time. IELTS, TOEFL or other certified evidence of English proficiency may be accepted for English-taught programs. Spanish proficiency may be required for Spanish-taught programs. The precise requirement will vary by institution."
+      "slot": "universities",
+      "eyebrow": "Top Spanish Universities",
+      "title": "Top Business Management Universities and Business Schools in Spain",
+      "lead": "The following institutions provide helpful starting points for research into undergraduate and postgraduate programs in business, management and related subjects. Students looking for Business Management Universities in Spain can explore these institutions and their official program catalogs.",
+      "groups": [],
+      "unis": [
+        {
+          "name": "Universitat de Barcelona",
+          "location": "Barcelona, Catalonia, Spain",
+          "fee": "€1,500 – €4,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+          "image": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+          "desc": "The University of Barcelona is one of the top-ranked public universities in Spain, known for its extensive research output and clinical training."
+        },
+        {
+          "name": "Universidad Autónoma de Madrid",
+          "location": "Madrid, Spain",
+          "fee": "€2,000 – €5,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+          "image": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+          "desc": "UAM is celebrated for its modern Cantoblanco campus, distinguished faculty, and internationally accredited degree programs."
+        },
+        {
+          "name": "Universitat Politècnica de Catalunya",
+          "location": "Barcelona, Catalonia, Spain",
+          "fee": "€2,500 – €6,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+          "image": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+          "desc": "UPC BarcelonaTech is a premier European polytechnic institution specializing in architecture, engineering, and digital technologies."
+        },
+        {
+          "name": "Universidad Complutense de Madrid",
+          "location": "Madrid, Spain",
+          "fee": "€2,000 – €5,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+          "image": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+          "desc": "One of the oldest and most prestigious universities in the world, offering comprehensive health sciences, humanities, and business programs."
+        }
+      ]
     },
     {
-      "question": "How much does it cost to study Business Management in Spain?",
-      "answer": "To give you a rough idea, public universities can range from €1,000 to €8,000 per year whereas private universities can range from €6,000 to €25,000 or more. Some MBA programs cost significantly more. Students should check the latest Business Management Fees in Spain for their selected institution and program."
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Requirements to Study Business Management in Spain",
+      "lead": "Different universities, courses and qualifications have different entry requirements. Indian students are advised to verify the academic and language requirements before applying for Business Management in Spain for Indian Students.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Bachelor's Degree Eligibility"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students are usually required to:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Must have passed Class 12 from a recognized educational board.",
+            "Satisfy the academic and admission requirements of the university.",
+            "Present required school certificates and transcripts.",
+            "Complete any university access or credential recognition process as applicable.",
+            "Demonstrate English or Spanish language proficiency, where applicable.",
+            "Meet any subject-specific entry requirements. Some business, economics, finance or analytics programs may require or recommend mathematics."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Eligibility for Master's Degree"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Typically applicants will need to:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Have a recognized Bachelor's degree in business, commerce, economics, management or other approved discipline.",
+            "Meet the academic entry requirements of the chosen program.",
+            "Submit degree certificates, university transcripts.",
+            "Demonstrate English or Spanish language proficiency (if required).",
+            "Submit CV, motivation letter or recommendation letters if asked."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Many general management master's programs will accept recent graduates, but MBA programs may require some professional work experience. Some specialized programs may also require prior business or quantitative coursework."
+          ]
+        }
+      ]
     },
     {
-      "question": "What jobs can I get after studying Business Management in Spain?",
-      "answer": "Careers for graduates can be found in business analysis, marketing, business development, human resources, operations, project coordination, finance, international trade, consulting, and entrepreneurship. Begin Your Entrepreneurial Journey in Spain Choosing the right university and program is a major step toward building an international business career. Before taking a decision Indian students should check the course structure, eligibility, language of instruction, fees and job prospects. Edu-Hawk Worldwide helps students explore the options of studying internationally and plan their educational journey abroad. Students can take informed steps toward Studying Business Management in Spain from program shortlisting to application guidance."
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Entry Requirements for Business Management in Spain",
+      "lead": "Different universities and business schools have different admission requirements and documents. The table below provides a general overview of the requirements.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "RequirementBachelor's programMaster's program"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Previous educationClass 12 or equivalentRecognized bachelor's degree"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic recordsClass 10 and 12 records (as required)Degree certificate and transcripts"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Language proficiencyAs specified by the programAs specified by the program"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "CV or résuméProgramme-dependentOften required by some programs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Statement of purposeIf neededIf needed"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Recommendation lettersUpon requestUpon request"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Entrance test or interviewInstitution wiseInstitution wise"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Work experienceNot usually essentialMay be a prerequisite for some MBA programs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Applicants should check whether the institution they have chosen requires an entrance assessment, interview, standardized test or other supporting documentation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Knowing the requirements for Business Management Admission in Spain in advance helps students to prepare their application and not miss any important documents or deadlines. Students should also check the specific Business Management Admission in Spain criteria for their chosen degree level and institution."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Business Management in Spain – Cost",
+      "lead": "Tuition costs vary by institution, degree level, program format, and whether the student is at a public university or a private business school.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The following are rough planning estimates:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Institution TypeEstimated Tuition Fee Per YearApproximate INR Equivalent"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Public universities€1,000–€8,000₹1.09–₹8.69 lakh"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Private universities and business schools€6,000–€25,000+₹6.52–₹27.15 lakh+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are estimated fees, not confirmed for any particular program. Some premium business-school and MBA programs can be significantly higher. Non-EU students may also have different tuition fees."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students need to have separate budgets for accommodation, food, transport, health insurance, books, visa fees and other living expenses."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "When comparing Business Management Fees in Spain, students should check the official fee schedule of their selected intake and check if any additional charges are applicable. Comparing Business Management Fees in Spain across different institutions can help students plan their education budget more effectively."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "How to Go Into Business Management in Spain",
+      "lead": "The process for applying usually involves the following steps:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Choose your study level: After Class 12, select a bachelor's degree or after graduation, choose a master's degree.",
+            "Choose a specialisation: Look at international business, marketing, finance, human resources, entrepreneurship or operations.",
+            "Shortlist institutions: Compare the curriculum, language of instruction, fees, location and career services.",
+            "Check eligibility: Review the academic and any professional experience requirements.",
+            "Prepare your documents: Collect academic records, passport, CV, motivation letter and language proof where applicable.",
+            "Apply online: Fill your application on the university's or business school's official admission portal.",
+            "Fulfil selection requirements: If required, attend interviews or entrance assessments.",
+            "Confirm your offer of admission: Review tuition fees, deposit, deadlines and conditions of enrollment.",
+            "Apply for a student visa: Follow the Spanish student visa procedure that is in force and prepare the supporting documentation that is required.",
+            "Complete enrolment: Pay your fees and enroll before the start of the program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Application deadlines vary by institution and program. MBA and other selective post graduate courses may have more than one round of application."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu-Hawk Worldwide can assist learners in comprehending the stages of the application, organize their academic documents and figure out the next steps based on their choice of program. Students planning Business Management Admission in Spain can seek guidance while shortlisting programs and preparing their applications."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Career Scope & Degree Recognition",
+      "lead": "Students should check before enrolling whether the program they have chosen is an official university degree or a university-specific qualification. It's also important to look at the programme's accreditation and recognition details.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Business management studies equip you with the necessary abilities for opportunities across a broad spectrum of industries, from technology and consulting to banking, retail, manufacturing, hospitality, logistics and international trade."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Potential career opportunities:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Business Analyst",
+            "Management Trainee",
+            "Marketing Executive/Manager",
+            "Business Development Executive",
+            "HR Specialist",
+            "Operations Manager/Coordinator",
+            "Project Coordinator",
+            "Financial Analyst (with relevant qualifications)",
+            "International Business Leader",
+            "Startup Founder or Entrepreneur",
+            "Management Consultant, depending on experience and employer requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "But a degree alone is not going to make you a manager. Career progression is usually based on work experience, communication skills, analytical skills, language skills and industry knowledge."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Business Management Career Opportunities in Spain can vary according to the student's specialization, experience, language skills and employer requirements."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Jobs and Salary in Spain for Business Management",
+      "lead": "Graduates can pursue careers in business operations, marketing, finance, consulting, human resources, project management and international business.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Note: The following figures are indicative gross annual salary estimates for career planning purposes. They are not verified current job offers or guaranteed results. Salaries vary depending on location, experience, employer, industry and language skills."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Job titleSample gross annual salary"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Management Trainee€22,000-€32,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Business Analyst€42,000–€27,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Business Development Executive€24K - €40K"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Marketing Specialist€24,000-€40,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Human Resources Officer€24,000-€38,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Operations Manager€32,000 - €50,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Project Manager€32,000-€52,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Financial Analyst€28,000 – €45,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "International Business Manager32.000 € - 55.000 €"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Management Consultant€35,000–€60,000+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "New graduates usually start out in entry-level jobs. In most cases, higher-paying management and consulting positions demand relevant work experience, specialized expertise, and excellent communication and analytical abilities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students exploring Business Management Career Opportunities in Spain should also consider the significance of Spanish language skills, practical experience and applicable work authorization while planning their careers."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "What Documents Are Required to Study Business Management in Spain?",
+      "lead": "Document checklist varies according to the university, program and the academic background of the applicant.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "For Bachelor's Degree"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Valid passport.",
+            "Marksheets and certificates of Class 10 and Class 12.",
+            "Documents required for admission to university or recognition of credentials.",
+            "Evidence of proficiency in English or Spanish, as appropriate.",
+            "Passport size photos if requested.",
+            "Receipt of application or payment.",
+            "Certified translations / legalization documents where applicable."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "For a Master's Degree"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Valid passport.",
+            "Bachelor's Degree certificate / Provisional certificate.",
+            "University mark sheets and transcripts.",
+            "CV or resume if applicable.",
+            "Statement of purpose or letter of motivation, if required.",
+            "Letters of recommendation, if applicable.",
+            "Proof of English or Spanish language skills, if required.",
+            "Work experience papers for the programs that require them.",
+            "Certified translations or legalization where necessary."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Before applying students should check the final checklist with the institution of their choice."
+          ]
+        }
+      ]
     }
-  ]
+  ],
+  "faqs": [
+    {
+      "q": "1. Can students from India study Business Management in Spain?",
+      "a": "Yes. If Indian students meet the academic, language and documentation requirements of the institution, they can apply for bachelor's and master's programs in Spain. Business Management in Spain for Indian Students offers undergraduate and postgraduate study routes depending on their previous qualifications."
+    },
+    {
+      "q": "2. What is the duration of Business Management in Spain?",
+      "a": "It usually takes four years to complete a bachelor's degree and one to two years to complete a master's degree. MBA duration depends on the format of the program."
+    },
+    {
+      "q": "3. Do I need IELTS to study Business Management in Spain?",
+      "a": "Not all the time. IELTS, TOEFL or other certified evidence of English proficiency may be accepted for English-taught programs. Spanish proficiency may be required for Spanish-taught programs. The precise requirement will vary by institution."
+    },
+    {
+      "q": "4. How much does it cost to study Business Management in Spain?",
+      "a": "To give you a rough idea, public universities can range from €1,000 to €8,000 per year whereas private universities can range from €6,000 to €25,000 or more. Some MBA programs cost significantly more. Students should check the latest Business Management Fees in Spain for their selected institution and program."
+    },
+    {
+      "q": "5. What jobs can I get after studying Business Management in Spain?",
+      "a": "Careers for graduates can be found in business analysis, marketing, business development, human resources, operations, project coordination, finance, international trade, consulting, and entrepreneurship."
+    }
+  ],
+  "seo": {
+    "title": "Business Management in Spain for Indian Students | Edu-Hawk Worldwide",
+    "description": "Spain is a mix of academic education and exposure to the business environment in Europe. Reasons why Indian students choose this destination include:",
+    "keywords": "Study in Spain, Best Universities in Spain, Edu Hawk Worldwide"
+  }
 }

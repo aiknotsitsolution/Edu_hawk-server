@@ -1,212 +1,480 @@
 {
-  "seo": {
-    "title": "Study Nursing in France for Indian Students | Edu-Hawk Worldwide",
-    "description": "Complete guide to Nursing in France for Indian students: Top French universities, admission requirements, tuition fees (€255 – €3,950 / year public), scholarships, and 2-year post-study work visa."
-  },
   "hero": {
-    "badge": "Study Abroad - France",
-    "title": "STUDY NURSING IN FRANCE",
-    "subtitle": "**"
+    "title": "Study Nursing in France",
+    "subtitle": "International students studying nursing in France can expect to gain hands-on healthcare experience, education within a long-standing healthcare system and the opportunity to gain professional expertise via clinical rotations."
   },
   "overview": [
-    "**"
+    "International students studying nursing in France can expect to gain hands-on healthcare experience, education within a long-standing healthcare system and the opportunity to gain professional expertise via clinical rotations.",
+    "Nursing education includes classroom teaching, simulation activities and supervised practice in healthcare facilities.",
+    "Recognised qualification:The French State Diploma in Nursing, known as the Diplôme d'État d'infirmier, is a state recognized professional qualification."
+  ],
+  "universities": [
+    {
+      "name": "Sorbonne University",
+      "location": "Paris, France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+      "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+      "desc": "Sorbonne University is a world-class multidisciplinary research university located in the heart of Paris, renowned for scientific heritage and academic excellence."
+    }
   ],
   "sections": [
     {
-      "title": "1. How long does nursing training last in France?",
-      "eyebrow": "Why Study in France",
+      "slot": "why-study",
+      "eyebrow": "Why France",
+      "title": "Why to Study Nursing in France ?",
+      "lead": "International students studying nursing in France can expect to gain hands-on healthcare experience, education within a long-standing healthcare system and the opportunity to gain professional expertise via clinical rotations.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "The **standard initial nursing programme** usually lasts **three years** and results in the **French State Diploma in Nursing**"
+            "Nursing education includes classroom teaching, simulation activities and supervised practice in healthcare facilities."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Some of the benefits are:"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Recognised qualification:The French State Diploma in Nursing, known as the Diplôme d'État d'infirmier, is a state recognized professional qualification."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Clinical practice: Students acquire patient-care skills in supervised placements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Studying in France provides you with international exposure in a multicultural setting."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Further study opportunities: Graduates can go on to study specialist nursing education and relevant postgraduate courses."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Career opportunities: Qualified nurses can work in hospitals, clinics, community healthcare, elderly care and other health services, subject to applicable professional requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students can explore these and understand the requirements involved in pursuing education overseas through Edu Hawk worldwide study abroad guidance."
           ]
         }
       ]
     },
     {
-      "title": "2. Can international students study nursing in France?",
-      "eyebrow": "Degrees & Specializations",
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Nursing courses in France",
+      "lead": "Nursing education is essentially provided in Instituts de Formation en Soins Infirmiers (\\\\IFSI\\\\) or nursing training institutes, affiliated to universities and health care institutions.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Yes, international students can be eligible but the route to admission will depend on their qualifications and the category of applicant they are. They should check their eligibility directly with the institute."
+            "Popular subjects to study include:"
           ]
-        }
-      ]
-    },
-    {
-      "title": "3. Is it necessary to be fluent in French to become a nurse in France?",
-      "eyebrow": "Top Institutions in France",
-      "groups": [
+        },
         {
           "t": "p",
           "items": [
-            "**Fluency in French** is required. Classes, clinical placements, patient communication and much of the professional environment are in French. Every institute has its own accepted evidence and language expectations."
+            "Nursing Diploma: Standard professional nursing program leading to the \\\\French State Diploma of Nursing\\."
           ]
-        }
-      ]
-    },
-    {
-      "title": "4. The cost of nursing education in France",
-      "eyebrow": "Academic & Language Criteria",
-      "groups": [
+        },
         {
           "t": "p",
           "items": [
-            "Costs depend on the institute and student status. Some students may qualify for **funding or regional support**, others may have to pay training fees."
+            "Bachelor level nursing education - The normal duration of studies is \\\\three years\\\\ and leads to the award of \\\\180 ECTS credits\\\\, which correspond to the level of the French licence degree."
           ]
-        }
-      ]
-    },
-    {
-      "title": "5. Can I work in France after I finish my nursing studies?",
-      "eyebrow": "Application Checklist",
-      "groups": [
+        },
         {
           "t": "p",
           "items": [
-            "Graduates may apply for **employment as a nurse in France** if they meet **professional, immigration and work-authorisation requirements**. Simply completing the program does not automatically confer a right to stay or work in France.",
-            "How can **Edu Hawk Worldwide Consultancy** help me to study abroad?",
-            "**Edu Hawk worldwide** can help students find the right universities and understand **admission requirements**, arrange **application documents** and plan their **study abroad journey**. Students are responsible for checking academic, financial, immigration and licensing requirements with the appropriate official authorities.",
-            "**Keywords -**",
-            "Study Nursing in France",
-            "Nursing Courses in France",
-            "Top Nursing Colleges in France",
-            "Eligibility to study nursing in France",
-            "Nursing Tuition Fees in France",
-            "Cost to Study Nursing France",
-            "Nursing Admission Process in France",
-            "Nursing Jobs and Career Opportunities in France"
+            "Specialised nursing pathways: Depending on your eligibility and experience, you may be offered further professional education in areas like anaesthesia, operating-room nursing and advanced practice.\\\\"
           ]
-        }
-      ]
-    },
-    {
-      "title": "6. **Accept an offer and register:** Follow the institute’s instructions for administrative registration and **clinical placement requirements**.",
-      "eyebrow": "Tuition & Cost of Living",
-      "groups": [
+        },
         {
           "t": "p",
           "items": [
-            "Details available upon request."
+            "Continuing professional development: Qualified nurses may have the opportunity to take further courses to develop \\\\specialist skills\\."
           ]
-        }
-      ]
-    },
-    {
-      "title": "7. **Arrange immigration procedures**: If you need a **student visa**, do the procedure according to your nationality and place of residence.",
-      "eyebrow": "Step-by-Step Guide",
-      "groups": [
+        },
         {
           "t": "p",
           "items": [
-            "**"
+            "The usual basic \\\\nursing course\\\\ takes \\\\3 years\\\\ to complete."
           ]
-        }
-      ]
-    },
-    {
-      "title": "8. Accreditation and recognition of nursing in France**",
-      "eyebrow": "Degrees & Recognition",
-      "groups": [
+        },
         {
           "t": "p",
           "items": [
-            "The **French State Diploma in Nursing** (*Diplôme d’État d’infirmier*) is the normal **state-recognised qualification** for entry to the nursing profession in France, subject to professional and registration requirements.",
-            "The program is organized within the **French higher education system** and awards **180 ECTS credits at licence level**.",
-            "It is also important that applicants check that the institute they choose is accredited to offer the relevant program and that the qualification meets their career aspirations.",
-            "****For Indian students:**** If you plan to return to India and practise nursing, please check with the relevant Indian nursing authorities for the current **recognition and registration requirements** before enrolling.",
-            "**"
+            "3.Top Nursing Colleges in France"
           ]
-        }
-      ]
-    },
-    {
-      "title": "9. Salary and Job Opportunities in Nursing in France**",
-      "eyebrow": "Job Roles & Industry Growth",
-      "groups": [
+        },
         {
           "t": "p",
           "items": [
-            "Once nurses have completed the necessary qualification and professional formalities, they can look for opportunities in:"
+            "France has \\\\healthcare networks of universities and nursing institutes associated with large public hospitals\\\\ The examples below are to be explored, rather than an official ranking."
           ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "1. \\\\AP-HP Institutes of Nursing Training, Paris\\\\ - The \\\\Assistance Publique–Hôpitaux de Paris (AP-HP)\\\\ has several \\\\IFSI institutes\\\\ attached to the big hospitals of the Paris area. Nursing education in a large hospital network."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "2. IFSI, Lille University Hospital (CHU de Lille) - The nursing institute of the \\\\Lille University Hospital\\\\ offers professional nursing education in a large hospital and healthcare training environment."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "### 3. IFSI Pellegrin, Bordeaux University Hospital - \\\\Bordeaux University Hospital\\\\ has schools of nursing, such as the Pellegrin site."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Eligibility to study nursing in France"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Eligibility is based on the applicant's \\\\educational background, nationality and institute\\."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Frequent requirements are:"
         },
         {
           "t": "ul",
           "items": [
-            "* -Public and private hospitals .",
-            "*  -Clinics and specialist care**.",
-            "* - Home and community health services**.",
-            "* - Facilities for elderly-care and long-term-care**.",
-            "* - Rehabilitation and post-surgery care**.",
-            "* - Extra specialist training and eligible advanced-practice pathways**."
+            "\\\\Secondary education\\\\ equivalent to the French baccalauréat completed."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Meet the institute's \\\\academic and selection requirements."
+        },
+        {
+          "t": "p",
+          "items": [
+            "Appropriate \\\\French language skills\\\\ for lesson comprehension and safe communication during \\\\clinical placements\\\\"
           ]
         },
         {
           "t": "p",
           "items": [
-            "**Salary Expectations**"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "* **Nursing salaries in France** depend on the employer (public or private sector), location, seniority, specialist responsibilities, shift patterns and collective agreements. Public sector pay scales and private sector employment terms may differ.",
-            "* Rather than relying on a single national average, check out current job postings and official public-sector salary information for a more realistic idea of what you might earn. For international graduates, **right to work** and ****French proficiency**** are important factors."
+            "Health and administrative documentation required for training placements."
           ]
         },
         {
           "t": "p",
           "items": [
-            "**"
+            "A \\\\valid passport\\\\ and the right \\\\immigration status\\\\ for international study."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The institute needs to clarify how a \\\\Indian Class 12 qualification\\\\ is assessed and which route is relevant for applicants with this qualification."
           ]
         }
       ]
     },
     {
-      "title": "10. Documents Required to Study Nursing in France**",
-      "eyebrow": "Document Requirements",
+      "slot": "universities",
+      "eyebrow": "Top French Universities",
+      "title": "Top Universities to Consider in France",
+      "lead": "Explore the leading universities and Grandes Écoles in France offering accredited European degrees, modern campuses, and comprehensive student support.",
+      "unis": [
+        {
+          "name": "Sorbonne University",
+          "location": "Paris, France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+          "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+          "desc": "Sorbonne University is a world-class multidisciplinary research university located in the heart of Paris, renowned for scientific heritage and academic excellence."
+        }
+      ],
+      "groups": []
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "France Nursing Admission Requirements",
+      "lead": "",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "The **document checklist** varies by institute and application route, but applicants may need:"
-          ]
+          "t": "h4",
+          "text": "\\\\Admission Requirements in France\\\\ may include:"
         },
         {
-          "t": "ul",
+          "t": "p",
           "items": [
-            "* Valid **passport** or accepted identification documents.",
-            "*  **Academic Transcripts and Secondary School Certificate**.",
-            "* **Certified translations in French** upon request.",
-            "* **Certificate in French**, when required.",
-            "*  **CV or resume** if requested.",
-            "*  **Cover letter or application question responses.**",
-            "*  **College, nursing or health care qualifications**, as appropriate, prior to. - **Passport size photographs** if required.",
-            "*  **Clinical placement health and immunization requirements**.",
-            "* **Proof of admission and of financial means** for immigration purposes.",
-            "* **Student visa and supporting documents** where applicable."
+            "\\\\Transcripts and certificates from secondary school\\."
           ]
         },
         {
           "t": "p",
           "items": [
-            "Always use the latest checklist from your chosen institute and the ****official French visa authorities**.**",
-            "**"
+            "Certificate of \\\\French language proficiency\\\\, if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Application questionnaire or statement of motivation"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "An \\\\interview or other selection assessment\\\\ if required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Previous \\\\healthcare education or experience\\\\ documents, if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Health & vaccination documentation\\\\ required prior to clinical placements."
           ]
         }
       ]
     },
     {
-      "title": "11. FAQs**",
-      "eyebrow": "Frequently Asked Questions",
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Cost to Study Nursing France",
+      "lead": "The cost of nursing school in France. The school, the student's category, the availability of funding, and the accommodations all affect the price.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Details available upon request."
+            "\\Tuition and Training Cost\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The fee is not same for all \\\\IFSI\\. Some training costs may be covered by regional authorities or other funding arrangements for eligible students, with other students charged training fees."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For \\\\2026-2027\\\\, the published annual registration fee for many public higher-education licence programs is \\\\€178\\\\ for eligible French and EU-category students."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Cost of Living\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students need to budget for the cost of accommodation, food, transport, health, study materials and personal expenses. Cost of living is very city specific, but Paris is generally more expensive than many other French cities."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Nursing Admission Process in France",
+      "lead": "In France, the \\\\nursing application process\\\\ varies depending on your qualifications and applicant category.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "1. \\\\Select an IFSI:\\\\ Compare program details, location, language requirements, and eligibility for application."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "2. \\\\Check the path of your application:\\\\ Many applicants who have a French or equivalent school-leaving pathway use \\\\Parcoursup\\. For candidates with foreign qualifications, please consult the official guidance for international candidates and contact institutes directly if needed."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "3. \\\\Collect your documents:\\\\ Gather your \\\\academic transcripts, identification documents, proof of French language proficiency\\\\ ."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "4. \\\\Send the application:\\\\ Make sure to follow the deadlines of the concerned portal and the institute."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "5. \\\\Finalize selection steps:\\\\ attend an interview or give more information when asked."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "6. \\\\Accept an offer and register:\\\\ Follow the institute's instructions for administrative registration and \\\\clinical placement requirements\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "7. \\\\Arrange immigration procedures\\\\: If you need a \\\\student visa\\\\, do the procedure according to your nationality and place of residence."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
+      "title": "Accreditation and recognition of nursing in France",
+      "lead": "The \\\\French State Diploma in Nursing\\\\ (\\Diplôme d'État d'infirmier\\) is the normal \\\\state-recognised qualification\\\\ for entry to the nursing profession in France, subject to professional and registration requirements.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The program is organized within the \\\\French higher education system\\\\ and awards \\\\180 ECTS credits at licence level\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "It is also important that applicants check that the institute they choose is accredited to offer the relevant program and that the qualification meets their career aspirations."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\For Indian students:\\\\ If you plan to return to India and practise nursing, please check with the relevant Indian nursing authorities for the current \\\\recognition and registration requirements\\\\ before enrolling."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career & Salary",
+      "title": "Salary and Job Opportunities in Nursing in France",
+      "lead": "Once nurses have completed the necessary qualification and professional formalities, they can look for opportunities in:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Public and private hospitals .",
+            "Clinics and specialist care.",
+            "Home and community health services.",
+            "Facilities for elderly-care and long-term-care.",
+            "Rehabilitation and post-surgery care.",
+            "Extra specialist training and eligible advanced-practice pathways."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Salary Expectations"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Nursing salaries in France\\\\ depend on the employer (public or private sector), location, seniority, specialist responsibilities, shift patterns and collective agreements. Public sector pay scales and private sector employment terms may differ."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Rather than relying on a single national average, check out current job postings and official public-sector salary information for a more realistic idea of what you might earn. For international graduates, \\\\right to work\\\\ and \\\\French proficiency\\\\ are important factors."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Required to Study Nursing in France",
+      "lead": "The \\\\document checklist\\\\ varies by institute and application route, but applicants may need:",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Valid \\\\passport\\\\ or accepted identification documents."
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Academic Transcripts and Secondary School Certificate\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Certified translations in French\\\\ upon request."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Certificate in French\\\\, when required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\CV or resume\\\\ if requested."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Cover letter or application question responses.\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\College, nursing or health care qualifications\\\\, as appropriate, prior to. - \\\\Passport size photographs\\\\ if required."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "\\\\Clinical placement health and immunization requirements."
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Proof of admission and of financial means\\\\ for immigration purposes."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "\\\\Student visa and supporting documents\\\\ where applicable."
+        },
+        {
+          "t": "p",
+          "items": [
+            "Always use the latest checklist from your chosen institute and the \\\\official French visa authorities\\."
           ]
         }
       ]
@@ -214,12 +482,29 @@
   ],
   "faqs": [
     {
-      "question": "1. Can Indian students study Nursing in France?",
-      "answer": "Yes, Indian students with valid academic qualifications, required English or French language proficiency, and relevant documentation can apply."
+      "q": "How long does nursing training last in France?",
+      "a": "The \\\\standard initial nursing programme\\\\ usually lasts \\\\three years\\\\ and results in the \\\\French State Diploma in Nursing\\\\"
     },
     {
-      "question": "2. How can Edu Hawk Worldwide Consultancy help me?",
-      "answer": "Edu Hawk Worldwide provides end-to-end guidance including university selection, application processing, Campus France procedure, visa assistance, and pre-departure briefings."
+      "q": "Can international students study nursing in France?",
+      "a": "Yes, international students can be eligible but the route to admission will depend on their qualifications and the category of applicant they are. They should check their eligibility directly with the institute."
+    },
+    {
+      "q": "Is it necessary to be fluent in French to become a nurse in France?",
+      "a": "\\\\Fluency in French\\\\ is required. Classes, clinical placements, patient communication and much of the professional environment are in French. Every institute has its own accepted evidence and language expectations."
+    },
+    {
+      "q": "Can I work in France after I finish my nursing studies?",
+      "a": "Graduates may apply for \\\\employment as a nurse in France\\\\ if they meet \\\\professional, immigration and work-authorisation requirements. Simply completing the program does not automatically confer a right to stay or work in France."
+    },
+    {
+      "q": "How can Edu Hawk Worldwide Consultancy help me to study abroad?",
+      "a": "\\\\Edu Hawk worldwide\\\\ can help students find the right universities and understand \\\\admission requirements\\\\, arrange \\\\application documents\\\\ and plan their \\\\study abroad journey. Students are responsible for checking academic, financial, immigration and licensing requirements with the appropriate official authorities."
     }
-  ]
+  ],
+  "seo": {
+    "title": "Study Nursing in France | Edu-Hawk Worldwide",
+    "description": "International students studying nursing in France can expect to gain hands-on healthcare experience, education within a long-standing healthcare system and the ",
+    "keywords": "Study Nursing in France, Nursing Courses in France, Top Nursing Colleges in France, Eligibility to study nursing in France, Nursing Tuition Fees in France, Cost to Study Nursing France, Nursing Admission Process in France, Nursing Jobs and Career Opportunities in France, <"
+  }
 }

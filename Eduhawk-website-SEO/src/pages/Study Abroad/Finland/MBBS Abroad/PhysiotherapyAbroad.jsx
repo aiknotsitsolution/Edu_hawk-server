@@ -1,5 +1,6 @@
+import cmsData from "../../../../data/study_abroad/finland/physiotherapy.json";
 import React from "react";
-import { AbroadCoursePage } from "../../../../component/CoursePageKit.jsx";
+import { AbroadCoursePage, withCmsData } from "../../../../component/CoursePageKit.jsx";
 import heroImg from "../../../../Images/Abroad/Finland/Physiotherapy/physiotherapy_finland_hero.webp";
 import heroBgImg from "../../../../Images/Abroad/Finland/Physiotherapy/physiotherapy_finland_hero_bg.webp";
 import rehabImg from "../../../../Images/Abroad/Finland/Physiotherapy/physiotherapy_finland_rehab.webp";
@@ -459,7 +460,7 @@ const page = {
 const PhysiotherapyFinland = () => {
   return (
     <AbroadCoursePage
-      page={page}
+      page={withCmsData(page, cmsData)}
       heroImg={heroImg}
       sideImg={sideImg}
       heroBgImg={heroBgImg}

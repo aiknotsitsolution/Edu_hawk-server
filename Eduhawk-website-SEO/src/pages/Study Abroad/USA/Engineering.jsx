@@ -1,3 +1,4 @@
+import engineeringHubData from "../../../data/study_abroad/usa/engineering_hub.json";
 import React, { useState } from "react";
 import SeoHead from "../../../component/SeoHead.jsx";
 
@@ -96,7 +97,7 @@ const Engineering = () => {
     },
   ];
 
-  const faqs = [
+  const defaultFaqs = [
     {
       q: "Which country is best for Engineering abroad?",
       a: "Germany is excellent for low/no tuition + strong industry links. Canada and Australia offer good post-study work rights. USA and UK are strong for research and top rankings. The best choice depends on your budget, branch and career plans.",
@@ -118,6 +119,10 @@ const Engineering = () => {
       a: "Ideally 8–12 months before your intended intake. This gives enough time for tests, shortlisting, applications and visa processing.",
     },
   ];
+
+  const faqs = (engineeringHubData?.faq && engineeringHubData.faq.length > 0)
+    ? engineeringHubData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
+    : defaultFaqs;
 
   return (
     <div className="font-sans text-slate-800 bg-white min-h-screen antialiased">

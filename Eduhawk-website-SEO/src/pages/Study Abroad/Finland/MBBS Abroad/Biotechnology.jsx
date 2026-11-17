@@ -1,5 +1,6 @@
+import cmsData from "../../../../data/study_abroad/finland/biotechnology.json";
 import React from "react";
-import { AbroadCoursePage } from "../../../../component/CoursePageKit.jsx";
+import { AbroadCoursePage, withCmsData } from "../../../../component/CoursePageKit.jsx";
 import heroImg from "../../../../Images/Abroad/Finland/Biotechnology/biotechnology_finland_hero.webp";
 import heroBgImg from "../../../../Images/Abroad/Finland/Biotechnology/biotechnology_finland_hero_bg.webp";
 import labImg from "../../../../Images/Abroad/Finland/Biotechnology/biotechnology_finland_lab.webp";
@@ -472,7 +473,7 @@ const page = {
 const BiotechnologyFinland = () => {
   return (
     <AbroadCoursePage
-      page={page}
+      page={withCmsData(page, cmsData)}
       heroImg={heroImg}
       sideImg={sideImg}
       heroBgImg={heroBgImg}

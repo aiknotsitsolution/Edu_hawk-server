@@ -1,3 +1,4 @@
+import cmsData from "../../data/medical_colleges/kyrgyzstan.json";
 // import React, { useState } from "react";
 // import RussiaFlag from "../../Images/Russia/russia header threejpg.webp";
 // import kernal from "../../Images/kazakhstan student.webp";
@@ -624,9 +625,9 @@ const Kyrgyzstan = () => {
     <>
     
       <SeoHead
-        title="MBBS in Kyrgyzstan for Indian Students | Fees & Admission 2026-27"
-        description="Study MBBS in Kyrgyzstan at low cost with top NMC recognized universities. Get details on fees, eligibility, admission process and medical colleges."
-        keywords="mbbs in kyrgyzstan, kyrgyzstan mbbs fees, study mbbs kyrgyzstan, kyrgyzstan medical colleges, mbbs kyrgyzstan admission"
+        title={cmsData?.seo?.title || "MBBS in Kyrgyzstan for Indian Students | Fees & Admission 2026-27"}
+        description={cmsData?.seo?.description || "Study MBBS in Kyrgyzstan at low cost with top NMC recognized universities. Get details on fees, eligibility, admission process and medical colleges."}
+        keywords={cmsData?.seo?.keywords || "mbbs in kyrgyzstan, kyrgyzstan mbbs fees, study mbbs kyrgyzstan, kyrgyzstan medical colleges"}
         path="/mbbs-abroad/kyrgyzstan"
         ogType="website"
       />
@@ -636,7 +637,7 @@ const Kyrgyzstan = () => {
       <div className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/b/b9/International_higher_school_of_medicine_central_campus.jpg"
+            src={cmsData?.hero?.image || "https://upload.wikimedia.org/wikipedia/commons/b/b9/International_higher_school_of_medicine_central_campus.jpg"}
             alt="Kyrgyzstan Medical University Campus"
             className="w-full h-full object-cover brightness-75"
                   srcSet="https://upload.wikimedia.org/wikipedia/commons/b/b9/International_higher_school_of_medicine_central_campus.jpg 1x, https://upload.wikimedia.org/wikipedia/commons/b/b9/International_higher_school_of_medicine_central_campus.jpg 2x"
@@ -644,7 +645,7 @@ const Kyrgyzstan = () => {
                 />
           <div className="absolute inset-0 flex items-center justify-center">
             <h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-2xl">
-              STUDY MBBS IN KYRGYZSTAN
+              {cmsData?.hero?.title || "STUDY MBBS IN KYRGYZSTAN"}
             </h1>
           </div>
         </div>
@@ -668,7 +669,7 @@ const Kyrgyzstan = () => {
           </div>
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-blue-900">
-              Explore MBBS Opportunities in Kyrgyzstan 2026–2027
+              {cmsData?.hero?.subtitle || "Explore MBBS Opportunities in Kyrgyzstan 2026–2027"}
             </h2>
           </div>
         </div>
@@ -830,7 +831,7 @@ const Kyrgyzstan = () => {
         {/* ==================== UNIVERSITIES GRID ==================== */}
         <div id="universities" className="mb-20">
           <h2 className="text-4xl font-bold text-center text-blue-900 mb-12">
-            Top Medical Universities in Kyrgyzstan
+            {cmsData?.universitiesHeading || "Top Medical Universities in Kyrgyzstan"}
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">

@@ -1,29 +1,45 @@
 {
-  "seo": {
-    "title": "Study Executive MBA in the UK for Indian Students | Edu-Hawk Worldwide",
-    "description": "Complete guide to Executive MBA in the UK for Indian students: Top UK universities, eligibility criteria, tuition fees (£14,000–£35,000/yr), scholarships, and 2-year post-study work visa (Graduate Route)."
-  },
   "hero": {
-    "badge": "Study Abroad - United Kingdom",
     "title": "Study Executive MBA in UK",
     "subtitle": "Executive Master of Business Administration (Executive MBA or EMBA) is a postgraduate management program aimed primarily at experienced professionals, managers, entrepreneurs, and business executives who wish to advance their careers while still working. Studying a Executive MBA in the UK will give you leadership skills, strategic thinking and global business knowledge."
   },
   "overview": [
     "Executive Master of Business Administration (Executive MBA or EMBA) is a postgraduate management program aimed primarily at experienced professionals, managers, entrepreneurs, and business executives who wish to advance their careers while still working. Studying a Executive MBA in the UK will give you leadership skills, strategic thinking and global business knowledge.",
-    "The key reasons to pursue an Executive MBA in the UK are:",
-    "International Recognition: UK business schools provide management courses that are recognized worldwide and can accelerate a career."
+    "Edu Hawk Worldwide Consultancy gets students ready for their journey of international education, informs them about university admission requirements and helps them explore international study options with the proper preparation and guidance."
+  ],
+  "universities": [
+    {
+      "name": "The Alliance Manchester Business School",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_executive_mba_The_Alliance_Manchester_Business_School-image1.png",
+      "image": "/uploads/study_abroad/uk/uk_executive_mba_The_Alliance_Manchester_Business_School-image1.png",
+      "desc": "The Alliance Manchester Business School is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "University of Cambridge",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_executive_mba_University_of_Cambridge-image3.png",
+      "image": "/uploads/study_abroad/uk/uk_executive_mba_University_of_Cambridge-image3.png",
+      "desc": "University of Cambridge is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "University of Reading Henley Business School",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_executive_mba_University_of_Reading_Henley_Business_School-image2.png",
+      "image": "/uploads/study_abroad/uk/uk_executive_mba_University_of_Reading_Henley_Business_School-image2.png",
+      "desc": "University of Reading Henley Business School is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    }
   ],
   "sections": [
     {
-      "title": "Why Study in the UK for a **Executive MBA**?",
-      "eyebrow": "Why Study in the UK",
+      "slot": "why-study",
+      "eyebrow": "Why UK",
+      "title": "Why Study in the UK for a Executive MBA?",
+      "lead": "Executive Master of Business Administration (Executive MBA or EMBA) is a postgraduate management program aimed primarily at experienced professionals, managers, entrepreneurs, and business executives who wish to advance their careers while still working. Studying a Executive MBA in the UK will give you leadership skills, strategic thinking and global business knowledge.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Executive Master of Business Administration (Executive MBA or EMBA) is a postgraduate management program aimed primarily at experienced professionals, managers, entrepreneurs, and business executives who wish to advance their careers while still working. Studying a Executive MBA in the UK will give you leadership skills, strategic thinking and global business knowledge."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -52,15 +68,11 @@
       ]
     },
     {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
       "title": "UK Executive MBA Courses",
-      "eyebrow": "Course Guide",
+      "lead": "The Executive MBA is an advanced management degree that integrates business theory with practical leadership and strategic decision-making. The curriculum usually includes core business functions and the challenges senior professionals face.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The Executive MBA is an advanced management degree that integrates business theory with practical leadership and strategic decision-making. The curriculum usually includes core business functions and the challenges senior professionals face."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -83,337 +95,44 @@
       ]
     },
     {
+      "slot": "universities",
+      "eyebrow": "Top UK Universities",
       "title": "Top Executive MBA Universities in UK",
-      "eyebrow": "Top Institutions",
-      "groups": [
+      "lead": "",
+      "groups": [],
+      "unis": [
         {
-          "t": "universities",
-          "items": [
-            {
-              "name": "Here are some colleges and business schools you might want to check out:",
-              "desc": "The Judge Business School at the University of Cambridge - provides an Executive MBA with an emphasis on global management, leadership, business strategy and innovation. The Alliance Manchester Business School offers an Executive MBA program, aimed at enhancing management proficiency and critical decision-making skills. University of Reading Henley Business School - Executive MBA courses focusing on professional development, management and leadership.",
-              "imgKey": null
-            }
-          ]
+          "name": "The Alliance Manchester Business School",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_executive_mba_The_Alliance_Manchester_Business_School-image1.png",
+          "image": "/uploads/study_abroad/uk/uk_executive_mba_The_Alliance_Manchester_Business_School-image1.png",
+          "desc": "The Alliance Manchester Business School is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "University of Cambridge",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_executive_mba_University_of_Cambridge-image3.png",
+          "image": "/uploads/study_abroad/uk/uk_executive_mba_University_of_Cambridge-image3.png",
+          "desc": "University of Cambridge is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "University of Reading Henley Business School",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_executive_mba_University_of_Reading_Henley_Business_School-image2.png",
+          "image": "/uploads/study_abroad/uk/uk_executive_mba_University_of_Reading_Henley_Business_School-image2.png",
+          "desc": "University of Reading Henley Business School is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
         }
       ]
     },
     {
-      "title": "Executive MBA UK Entry Requirements Executive MBA UK Entry Requirements",
-      "eyebrow": "Eligibility & Process",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Executive MBA programs are generally designed for applicants who have extensive work experience and show promise as managers or leaders."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Common eligibility conditions include:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Bachelor's Degree: Generally requires a valid undergraduate degree or equivalent.",
-            "Work Experience: Though the requirements vary, many Executive MBA programs require about 5-10 years of work experience.",
-            "Management experience, leadership capability, or expertise in supervising teams, projects, or company operations are common requirements for candidates.",
-            "English Language Proficiency: If not exempt, overseas applicants may need to provide IELTS, TOEFL or equivalent English language qualification.",
-            "Universities can take into account leadership experience, professional accomplishments, career advancement and responsibilities.",
-            "It may be necessary to include professional or academic references.",
-            "Some business schools have interviews to assess a candidate's motivation, experience and suitability.",
-            "GMAT or GRE: Some institutions may waive the requirement for a GMAT or GRE score, depending on professional experience and academic background."
-          ]
-        }
-      ]
-    },
-    {
-      "title": "UK Executive MBA Entry Requirements",
-      "eyebrow": "Eligibility & Process",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Applicants must show that they have the leadership potential, practical experience and academic background necessary for advanced management studies."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Typical entry requirements are:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "A relevant bachelor degree or if necessary an equivalent qualification.",
-            "Degree certificates and transcripts",
-            "A detailed CV or resume emphasizing career progression and professional experience.",
-            "Demonstrated relevant managerial or professional experience.",
-            "Statement of purpose or application essay describing the selection and career objectives of the program.",
-            "Professional references or letters of recommendation.",
-            "Results of English language proficiency, if applicable.",
-            "GMAT or GRE scores (if required by the school).",
-            "An in-person or virtual interview, where appropriate.",
-            "Applicants from abroad must have a valid passport.",
-            "Proof of funds for living expenses and education as required for immigration purposes."
-          ]
-        }
-      ]
-    },
-    {
-      "title": "The cost of an executive MBA course in the UK",
-      "eyebrow": "Tuition & Living",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The cost of an Executive MBA in the UK is affected by such factors as the business school, the length of the program, the mode of delivery and the inclusion of residential or international study modules."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Estimated tuition cost is:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Executive MBA courses are on average £25,000-£45,000.",
-            "Premium business school programs cost £45,000 to £100,000 and upwards."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Travel, accommodation, course materials, residential modules and study abroad opportunities may add to the total cost."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Estimated additional costs:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Accommodation: Prices range from £600 to £1,500 per month, depending on location and type of accommodation.",
-            "Food and groceries: £200 to £350 a month",
-            "The cost of transport each month will vary between £70 and £180.",
-            "The cost of books and study materials will vary depending on the program, but can range from £300 to £1,000 per year .",
-            "Where the school is and how often you attend classes will determine travel to classes.",
-            "Monthly personal expenses: £150-£300."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Students on modular or part-time programs in the UK should also think about accommodation during residential sessions and travel between the UK and their home country."
-          ]
-        }
-      ]
-    },
-    {
-      "title": "UK Executive MBA Admissions Process",
-      "eyebrow": "Eligibility & Process",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The admissions process usually includes the following steps:"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 1: Browse Programs and Universities"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Evaluate Executive MBA programs by reputation, cost of tuition, class schedule, curriculum, accreditation, networking opportunities and delivery method."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 2: Check Your Eligibility"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Review your educational background, work experience, management duties and English language proficiency."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 3: Get your application materials ready."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Collect required test results, academic credentials, transcripts, professional CV, references, and personal statements."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 4:  Apply through the official admissions portal of the business school. Some schools have multiple rounds or deadlines."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 5 : Go for an interview."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "If required, take part in an interview to discuss your professional accomplishments, leadership experience, career aspirations, and reasons for selecting the program."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 6: Get the Admission Decision"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The business school may make an offer after reviewing the entire application. Some offers may require candidates to meet certain requirements."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 7: Accept Offer"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Acknowledge receipt and make any deposits required by the university."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 8: Establish Funding"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Check personal funding, education loans, company sponsorship, scholarships and/or payment arrangements, if available."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 9: Apply for a visa if needed."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "International students should verify that they are eligible for a visa based on their course and attendance plans. If you are eligible, follow the correct UK immigration process."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 10: Prepare for the Program"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Review pre-course materials, arrange travel and lodging as necessary, and prepare for the educational and professional obligations of the program."
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Executive MBA Accreditation & Recognition in the UK",
-      "eyebrow": "Course Guide",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "One important thing to consider when selecting an Executive MBA is accreditation and recognition. Candidates need to distinguish between professional, business school and university recognition."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Among the most important aspects are:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "University Recognition Ensure the qualification is formally awarded by the institution named in the offer and that the awarding institution is appropriately recognized.",
-            "AACSB accredits business schools that meet its requirements for business education.",
-            "Association of MBAs (AMBA) The Association of MBAs (AMBA) accredits eligible MBA, Executive MBA and other postgraduate business programs.",
-            "EQUIS accredits business schools according to several criteria, such as academic excellence, participation of companies and internationalization.",
-            "Program-specific accreditation: Accreditation can be for the business school as a whole, or for a particular program. Confirm the precise scope and status.",
-            "International Recognition: Ensure that the qualification meets the requirements of your target industry, employers, or future school."
-          ]
-        }
-      ]
-    },
-    {
-      "title": "UK Salary & Career Opportunities After Executive MBA",
-      "eyebrow": "Career & Prospects",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "An  Executive MBA  can assist seasoned professionals in developing  leadership capabilities  and preparing for more senior roles . Career outcomes vary by experience, industry, employer, geography, network of professional contacts and individual accomplishments."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "career options include:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Business Development Director",
-            "Operations Director",
-            "The marketing director",
-            "The finance director.",
-            "Strategy Consultant",
-            "Managing Director",
-            "COO (Chief Operating Officer)",
-            "Entrepreneur or business owner",
-            "Project or program director:"
-          ]
-        }
-      ]
-    },
-    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
       "title": "Documents Required",
-      "eyebrow": "Course Guide",
+      "lead": "The applicants usually need to provide the following paperwork:",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The applicants usually need to provide the following paperwork:"
-          ]
-        },
         {
           "t": "ul",
           "items": [
@@ -436,112 +155,37 @@
           ]
         }
       ]
-    },
-    {
-      "title": "FAQs",
-      "eyebrow": "Got Questions?",
-      "groups": [
-        {
-          "t": "faqs",
-          "items": [
-            {
-              "q": "Q1. How long does an Executive MBA last in the UK?",
-              "a": "Most of Executive MBA programs are about 18 – 24 months long, depending on the school and the way you study, some may be done sooner or later."
-            },
-            {
-              "q": "Q2. How many years of work experience do you need for an Executive MBA in the UK?",
-              "a": "Most programs require 5-10 years of professional experience and often seek those with leadership or managerial experience. The business school specifies the exact prerequisite."
-            },
-            {
-              "q": "Q3. **How much does an Executive MBA in the UK cost?",
-              "a": "Tuition fees generally range from £25,000 to £100,000 or more. Students should save money for travel, lodging and other expenses as the tuition might be higher at top business schools."
-            },
-            {
-              "q": "Q4. Can I study for an Executive MBA in the UK and work full time?",
-              "a": "Yes. Many Executive MBA programs are targeted at working professionals and offer part-time, weekend, modular or blended learning options. But students should check the workload and attendance requirements before enrolling."
-            },
-            {
-              "q": "Q5. Is it worth studying an executive MBA to advance your career?",
-              "a": "An Executive MBA can help professionals develop their leadership skills, expand their business knowledge, enhance their professional network and prepare for senior positions. The value of an Executive MBA depends on career goals, program quality, cost, prior experience and the professional use of the qualification."
-            },
-            {
-              "q": "How can I study abroad through Edu Hawk Worldwide Consultancy?",
-              "a": "Edu Hawk Worldwide assists students in planning their study abroad experience, organizing their application materials, researching suitable universities and understanding admission requirements. Students should check with the appropriate official authorities for their academic, financial, immigration and licensing needs."
-            }
-          ]
-        }
-      ]
     }
   ],
-  "universities": [
-    {
-      "name": "Here are some colleges and business schools you might want to check out:",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "The Judge Business School at the University of Cambridge - provides an Executive MBA with an emphasis on global management, leadership, business strategy and innovation. The Alliance Manchester Business School offers an Executive MBA program, aimed at enhancing management proficiency and critical decision-making skills. University of Reading Henley Business School - Executive MBA courses focusing on professional development, management and leadership.",
-      "imgFile": null
-    }
-  ],
-  "table": {
-    "title": "Estimated Cost of Studying Executive MBA in the UK (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (£ / GBP)",
-      "Details / Scope"
-    ],
-    "rows": [
-      [
-        "Undergraduate Degree (Annual)",
-        "£14,000 – £28,000 / year",
-        "Varies by university ranking, laboratory access, and course type"
-      ],
-      [
-        "Postgraduate Degree (Annual)",
-        "£16,000 – £35,000 / year",
-        "1-year intensive master's program or research dissertation"
-      ],
-      [
-        "Monthly Living Costs (Outside London)",
-        "£900 – £1,100 / month",
-        "Includes private/student accommodation, groceries, and utilities"
-      ],
-      [
-        "Monthly Living Costs (London)",
-        "£1,250 – £1,450 / month",
-        "Mandated UKVI maintenance requirement for London study"
-      ],
-      [
-        "Health Surcharge (IHS)",
-        "£776 / year",
-        "Access to UK National Health Service (NHS) for student visa holders"
-      ]
-    ]
-  },
   "faqs": [
     {
-      "q": "Q1. How long does an Executive MBA last in the UK?",
+      "q": "How long does an Executive MBA last in the UK?",
       "a": "Most of Executive MBA programs are about 18 – 24 months long, depending on the school and the way you study, some may be done sooner or later."
     },
     {
-      "q": "Q2. How many years of work experience do you need for an Executive MBA in the UK?",
+      "q": "How many years of work experience do you need for an Executive MBA in the UK?",
       "a": "Most programs require 5-10 years of professional experience and often seek those with leadership or managerial experience. The business school specifies the exact prerequisite."
     },
     {
-      "q": "Q3. **How much does an Executive MBA in the UK cost?",
+      "q": "How much does an Executive MBA in the UK cost?",
       "a": "Tuition fees generally range from £25,000 to £100,000 or more. Students should save money for travel, lodging and other expenses as the tuition might be higher at top business schools."
     },
     {
-      "q": "Q4. Can I study for an Executive MBA in the UK and work full time?",
+      "q": "Can I study for an Executive MBA in the UK and work full time?",
       "a": "Yes. Many Executive MBA programs are targeted at working professionals and offer part-time, weekend, modular or blended learning options. But students should check the workload and attendance requirements before enrolling."
     },
     {
-      "q": "Q5. Is it worth studying an executive MBA to advance your career?",
+      "q": "Is it worth studying an executive MBA to advance your career?",
       "a": "An Executive MBA can help professionals develop their leadership skills, expand their business knowledge, enhance their professional network and prepare for senior positions. The value of an Executive MBA depends on career goals, program quality, cost, prior experience and the professional use of the qualification."
     },
     {
       "q": "How can I study abroad through Edu Hawk Worldwide Consultancy?",
       "a": "Edu Hawk Worldwide assists students in planning their study abroad experience, organizing their application materials, researching suitable universities and understanding admission requirements. Students should check with the appropriate official authorities for their academic, financial, immigration and licensing needs."
     }
-  ]
+  ],
+  "seo": {
+    "title": "Study Executive MBA in UK | Edu-Hawk Worldwide",
+    "description": "Executive Master of Business Administration (Executive MBA or EMBA) is a postgraduate management program aimed primarily at experienced professionals, managers,",
+    "keywords": "Study in the UK, Best UK Universities, Edu Hawk Worldwide"
+  }
 }

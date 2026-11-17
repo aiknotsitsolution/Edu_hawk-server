@@ -108,3 +108,27 @@ body {
   scrollbar-width: none;
 }
 
+/* Slim scrollbar for mega menu countries sidebar */
+.country-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #475569 #1e293b;
+}
+
+.country-scroll::-webkit-scrollbar {
+  width: 5px;
+}
+
+.country-scroll::-webkit-scrollbar-track {
+  background: #1e293b;
+}
+
+.country-scroll::-webkit-scrollbar-thumb {
+  background: #475569;
+  border-radius: 9999px;
+}
+
+.country-scroll::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}
+
+

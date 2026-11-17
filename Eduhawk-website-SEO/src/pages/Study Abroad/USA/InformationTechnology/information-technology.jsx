@@ -1,3 +1,4 @@
+import itData from "../../../../data/study_abroad/usa/information_technology.json";
 import React from "react";
 import { AbroadCoursePage } from "../../../../component/CoursePageKit.jsx";
 import heroImg from "../../../../Images/Abroad/USA/InformationTechnology/it_hero.webp";
@@ -613,9 +614,23 @@ const page = {
 };
 
 const InformationTechnologyUSA = () => {
+  const dynamicPage = {
+    ...page,
+    title: itData?.seo?.title || page.title,
+    description: itData?.seo?.description || page.description,
+    heroParas: itData?.hero?.subtitle ? [itData.hero.subtitle] : page.heroParas,
+    stats: (itData?.stats && itData.stats.length > 0)
+      ? itData.stats.map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      : page.stats,
+    overview: itData?.overview ? itData.overview.split('\n\n') : page.overview,
+    faqs: (itData?.faq && itData.faq.length > 0)
+      ? itData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
+      : page.faqs,
+  };
+
   return (
     <AbroadCoursePage
-      page={page}
+      page={dynamicPage}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

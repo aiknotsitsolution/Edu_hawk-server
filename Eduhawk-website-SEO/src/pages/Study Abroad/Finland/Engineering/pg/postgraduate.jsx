@@ -1,5 +1,6 @@
+import cmsData from "../../../../../data/study_abroad/finland/pg_hub.json";
 import React from "react";
-import { AbroadCoursePage } from "../../../../../component/CoursePageKit.jsx";
+import { AbroadCoursePage, withCmsData } from "../../../../../component/CoursePageKit.jsx";
 import heroImg from "../../../../../Images/Abroad/Finland/Engineering_PG/General/eng_pg_hero.webp";
 import heroBgImg from "../../../../../Images/Abroad/Finland/Engineering_PG/General/eng_pg_hero_bg.webp";
 import sideImg from "../../../../../Images/Abroad/Finland/Engineering_PG/General/eng_pg_study.webp";
@@ -349,7 +350,7 @@ const page = {
 const PostgraduateEngineeringFinland = () => {
   return (
     <AbroadCoursePage
-      page={page}
+      page={withCmsData(page, cmsData)}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

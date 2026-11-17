@@ -12,6 +12,7 @@ import uniImg1 from "../../../../Images/Abroad/Germany/MBA/The_Otto_Beisheim_Sch
 import uniImg2 from "../../../../Images/Abroad/Germany/MBA/Mannheim_Business_School.webp";
 import uniImg3 from "../../../../Images/Abroad/Germany/MBA/HHL_Leipzig_Graduate_School_of_Mana.webp";
 import uniImg4 from "../../../../Images/Abroad/Germany/MBA/University_of_Cologne_Provides_post.webp";
+import cmsData from "../../../../data/study_abroad/germany/mba.json";
 
 const page = {
   name: "MBA in Germany",
@@ -336,6 +337,23 @@ const page = {
 };
 
 export default function MBAGermanyPage() {
+  const dynamicPage = {
+    ...page,
+    name: cmsData.hero?.title || page.name,
+    heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
+    overview: cmsData.overview
+      ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
+      : page.overview,
+    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      .filter(s => s.label && s.value).length > 0
+      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      : page.stats,
+    seo: {
+      title: cmsData.seo?.title || page.title,
+      description: cmsData.seo?.description || page.description,
+    },
+  };
+
   const images = {
     hero: heroImg,
     heroBg: heroBgImg,
@@ -367,7 +385,7 @@ export default function MBAGermanyPage() {
 
   return (
     <AbroadCoursePage
-      page={page}
+      page={dynamicPage}
       images={images}
       heroImg={heroImg}
       heroBgImg={heroBgImg}

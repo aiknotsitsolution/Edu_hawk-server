@@ -1,29 +1,46 @@
 {
-  "seo": {
-    "title": "Study MSc Automobile Engineering in the UK for Indian Students | Edu-Hawk Worldwide",
-    "description": "Complete guide to MSc Automobile Engineering in the UK for Indian students: Top UK universities, eligibility criteria, tuition fees (£14,000–£35,000/yr), scholarships, and 2-year post-study work visa (Graduate Route)."
-  },
   "hero": {
-    "badge": "Study Abroad - United Kingdom",
     "title": "Automobile Engineering (PG) in the United Kingdom",
     "subtitle": "Students seeking postgraduate studies in Automobile Engineering are drawn to the United Kingdom. The automotive industry in the UK integrates sophisticated manufacturing, electric mobility, autonomous driving, sustainable transportation technology, and vehicle design."
   },
   "overview": [
     "Students seeking postgraduate studies in Automobile Engineering are drawn to the United Kingdom. The automotive industry in the UK integrates sophisticated manufacturing, electric mobility, autonomous driving, sustainable transportation technology, and vehicle design.",
     "Students can acquire advanced technical skills for positions in vehicle development, automotive research, production, and mobility innovation through postgraduate programs in Automobile Engineering and Automotive Engineering.",
-    "The main advantages of studying automotive engineering in the UK"
+    "Obtain a postgraduate degree from a UK university that is recognized internationally."
+  ],
+  "universities": [
+    {
+      "name": "Cranfield University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_auto_engg_pg_Cranfield_University-image1.png",
+      "image": "/uploads/study_abroad/uk/uk_auto_engg_pg_Cranfield_University-image1.png",
+      "desc": "Cranfield University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Loughborough University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_auto_engg_pg_Loughborough_University-image3.png",
+      "image": "/uploads/study_abroad/uk/uk_auto_engg_pg_Loughborough_University-image3.png",
+      "desc": "Loughborough University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Warwick University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_auto_engg_pg_Warwick_University-image2.png",
+      "image": "/uploads/study_abroad/uk/uk_auto_engg_pg_Warwick_University-image2.png",
+      "desc": "Warwick University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    }
   ],
   "sections": [
     {
+      "slot": "why-study",
+      "eyebrow": "Why UK",
       "title": "Why Study Automotive Engineering in the UK?",
-      "eyebrow": "Why Study in the UK",
+      "lead": "Students seeking postgraduate studies in Automobile Engineering are drawn to the United Kingdom. The automotive industry in the UK integrates sophisticated manufacturing, electric mobility, autonomous driving, sustainable transportation technology, and vehicle design.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Students seeking postgraduate studies in Automobile Engineering are drawn to the United Kingdom. The automotive industry in the UK integrates sophisticated manufacturing, electric mobility, autonomous driving, sustainable transportation technology, and vehicle design."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -31,10 +48,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "The main advantages of studying automotive engineering in the UK"
-          ]
+          "t": "h4",
+          "text": "The main advantages of studying automotive engineering in the UK"
         },
         {
           "t": "p",
@@ -63,15 +78,11 @@
       ]
     },
     {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
       "title": "UK Automotive Engineering Courses",
-      "eyebrow": "Course Guide",
+      "lead": "Automotive engineering, advanced automotive engineering, vehicle engineering, motorsport engineering, and electric vehicle technology are just a few of the postgraduate programmes offered by UK universities.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Automotive engineering, advanced automotive engineering, vehicle engineering, motorsport engineering, and electric vehicle technology are just a few of the postgraduate programmes offered by UK universities."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -131,41 +142,44 @@
       ]
     },
     {
+      "slot": "universities",
+      "eyebrow": "Top UK Universities",
       "title": "Top UK Universities for Automotive Engineering",
-      "eyebrow": "Top Institutions",
-      "groups": [
+      "lead": "Universities in the UK provide postgraduate study and research in advanced manufacturing, electric mobility, automotive engineering, vehicle engineering, and motorsport engineering.",
+      "groups": [],
+      "unis": [
         {
-          "t": "universities",
-          "items": [
-            {
-              "name": "Cranfield University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Cranfield_University_webp"
-            },
-            {
-              "name": "Loughborough University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Loughborough_University_webp"
-            },
-            {
-              "name": "Warwick University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Warwick_University_webp"
-            }
-          ]
+          "name": "Cranfield University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_auto_engg_pg_Cranfield_University-image1.png",
+          "image": "/uploads/study_abroad/uk/uk_auto_engg_pg_Cranfield_University-image1.png",
+          "desc": "Cranfield University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Loughborough University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_auto_engg_pg_Loughborough_University-image3.png",
+          "image": "/uploads/study_abroad/uk/uk_auto_engg_pg_Loughborough_University-image3.png",
+          "desc": "Loughborough University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Warwick University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_auto_engg_pg_Warwick_University-image2.png",
+          "image": "/uploads/study_abroad/uk/uk_auto_engg_pg_Warwick_University-image2.png",
+          "desc": "Warwick University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
         }
       ]
     },
     {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
       "title": "Requirements for Studying Automotive Engineering in the UK",
-      "eyebrow": "Eligibility & Process",
+      "lead": "To apply for postgraduate Automobile Engineering programmes Indian candidates typically need to have a relevant undergraduate degree and be proficient in the English language.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "To apply for postgraduate Automobile Engineering programmes Indian candidates typically need to have a relevant undergraduate degree and be proficient in the English language."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -204,42 +218,54 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "The UK's Admission Requirements for Automobile Engineering",
-      "eyebrow": "Eligibility & Process",
+      "lead": "Universities, program specializations, and whether a course is taught or research-based all have different prerequisites for admission.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Universities, program specializations, and whether a course is taught or research-based all have different prerequisites for admission."
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Educational background",
+              "d": "Accredited bachelor's degree in mechanical, automotive, automotive, or a similar engineering field"
+            },
+            {
+              "t": "Minimum grades",
+              "d": "Depending on the university, often between 55% and 65% or similar"
+            },
+            {
+              "t": "Academic transcripts",
+              "d": "Official transcripts and undergraduate grades"
+            },
+            {
+              "t": "Proficiency in English",
+              "d": "IELTS, TOEFL, PTE, or a recognized substitute, if needed"
+            },
+            {
+              "t": "Purpose statement",
+              "d": "Describes educational background, course selection, and professional objectives"
+            }
           ]
         },
         {
           "t": "ul",
           "items": [
-            "Educational background | Accredited bachelor's degree in mechanical, automotive, automotive, or a similar engineering field",
-            "Minimum grades | Depending on the university, often between 55% and 65% or similar",
-            "Academic transcripts | Official transcripts and undergraduate grades",
-            "Proficiency in English | IELTS, TOEFL, PTE, or a recognized substitute, if needed",
-            "Purpose statement | Describes educational background, course selection, and professional objectives",
             "Recommendation letters | Professional or academic references, if needed |",
             "Curriculum vitae | Frequently needed for research applications and pertinent programs |",
             "Work experience may be optional, but it is required for some programs.",
             "Research proposals may be necessary for degrees in research.",
             "Interview | May be necessary for some classes or research jobs |"
           ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Requirements for English Language Proficiency"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The English language proficiency requirements of UK universities vary. Applicants should evaluate the required total score, accepted examinations, minimum component scores, and any exemptions on the official course page."
-          ]
-        },
+        }
+      ]
+    },
+    {
+      "slot": "language",
+      "eyebrow": "Language Proficiency",
+      "title": "Requirements for English Language Proficiency",
+      "lead": "The English language proficiency requirements of UK universities vary. Applicants should evaluate the required total score, accepted examinations, minimum component scores, and any exemptions on the official course page.",
+      "groups": [
         {
           "t": "p",
           "items": [
@@ -249,27 +275,18 @@
       ]
     },
     {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
       "title": "The cost of studying automotive engineering in the United Kingdom",
-      "eyebrow": "Tuition & Living",
+      "lead": "The university, program, city, and lifestyle of the student all affect the overall cost of postgraduate Automobile Engineering in the UK. Tuition, housing, food, transportation, study materials, and personal expenses are all things that students should budget for.",
+      "groups": []
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "cost of tuition",
+      "lead": "For a one-year postgraduate engineering program, overseas students should budget between £20,000–£40,000 or more as a general planning estimate.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The university, program, city, and lifestyle of the student all affect the overall cost of postgraduate Automobile Engineering in the UK. Tuition, housing, food, transportation, study materials, and personal expenses are all things that students should budget for."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "cost of tuition"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "For a one-year postgraduate engineering program, overseas students should budget between £20,000–£40,000 or more as a general planning estimate."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -301,9 +318,12 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Books and study guides | £300–£800"
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Books and study guides",
+              "d": "£300–£800"
+            }
           ]
         },
         {
@@ -319,10 +339,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Automotive Engineering Scholarships"
-          ]
+          "t": "h4",
+          "text": "Automotive Engineering Scholarships"
         },
         {
           "t": "p",
@@ -350,123 +368,64 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "The UK's Admissions Process for Automobile Engineering",
-      "eyebrow": "Eligibility & Process",
+      "lead": "Indian students can apply for a postgraduate Automobile Engineering program in the UK by following these steps.",
       "groups": [
         {
-          "t": "p",
+          "t": "steps",
           "items": [
-            "Indian students can apply for a postgraduate Automobile Engineering program in the UK by following these steps."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 1: Look Up Courses and Universities"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Universities with specializations in automotive engineering, vehicle engineering, motorsport engineering, electric vehicle technology, and related fields should be shortlisted. Examine modules, length, costs, facilities, and employment prospects."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 2: Verify Your Academic Eligibility"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Verify that your academic record, prior coursework, and bachelor's degree satisfy the university's standards for admission."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 3 : Prepare the necessary documents."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Gather academic records, degree certificates, passports, resumes, statements of purpose, references, and, if necessary, the results of English language tests."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 4: Send in Your Application"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Use the application process that the university specifies or the official application portal. Applications are accepted directly through university websites for the majority of postgraduate taught programs."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 5: Get a Decision on Admission"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "After reviewing your application, the institution may make an unconditional or conditional offer. Fulfill any unfulfilled academic or paperwork requirements."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 6: Make Accommodation and Funding Arrangements"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Make plans for living expenditures, housing, tuition, and the financial documentation needed for your student visa application."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 7 : Applying for a UK student visa."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Apply for a UK Student visa if necessary after fulfilling the requirements for admission and obtaining your Confirmation of Acceptance for Studies (CAS)."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 8: Go to the UK and Start Your Program"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Finish registering at the university, go to orientation, and start your postgraduate studies."
+            {
+              "step": 1,
+              "title": "Look Up Courses and Universities",
+              "desc": "Universities with specializations in automotive engineering, vehicle engineering, motorsport engineering, electric vehicle technology, and related fields should be shortlisted. Examine modules, length, costs, facilities, and employment prospects."
+            },
+            {
+              "step": 2,
+              "title": "Verify Your Academic Eligibility",
+              "desc": "Verify that your academic record, prior coursework, and bachelor's degree satisfy the university's standards for admission."
+            },
+            {
+              "step": 3,
+              "title": "Prepare the necessary documents.",
+              "desc": "Gather academic records, degree certificates, passports, resumes, statements of purpose, references, and, if necessary, the results of English language tests."
+            },
+            {
+              "step": 4,
+              "title": "Send in Your Application",
+              "desc": "Use the application process that the university specifies or the official application portal. Applications are accepted directly through university websites for the majority of postgraduate taught programs."
+            },
+            {
+              "step": 5,
+              "title": "Get a Decision on Admission",
+              "desc": "After reviewing your application, the institution may make an unconditional or conditional offer. Fulfill any unfulfilled academic or paperwork requirements."
+            },
+            {
+              "step": 6,
+              "title": "Make Accommodation and Funding Arrangements",
+              "desc": "Make plans for living expenditures, housing, tuition, and the financial documentation needed for your student visa application."
+            },
+            {
+              "step": 7,
+              "title": "Applying for a UK student visa.",
+              "desc": "Apply for a UK Student visa if necessary after fulfilling the requirements for admission and obtaining your Confirmation of Acceptance for Studies (CAS)."
+            },
+            {
+              "step": 8,
+              "title": "Go to the UK and Start Your Program",
+              "desc": "Finish registering at the university, go to orientation, and start your postgraduate studies."
+            }
           ]
         }
       ]
     },
     {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
       "title": "Accreditation and Professional Recognition for Automobile Engineering in the United Kingdom",
-      "eyebrow": "Course Guide",
+      "lead": "For Automobile Engineering graduates who want to pursue jobs in vehicle design, manufacture, automotive systems, research, or engineering management, professional recognition can be beneficial.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "For Automobile Engineering graduates who want to pursue jobs in vehicle design, manufacture, automotive systems, research, or engineering management, professional recognition can be beneficial."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -521,15 +480,11 @@
       ]
     },
     {
+      "slot": "careers",
+      "eyebrow": "Career & Salary",
       "title": "Pay and Employment Prospects for UK Automobile Engineers",
-      "eyebrow": "Career & Prospects",
+      "lead": "Graduates of postgraduate programs in automobile engineering can pursue employment in advanced engineering, automotive production, electric mobility, vehicle design, automotive electronics, and component development.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Graduates of postgraduate programs in automobile engineering can pursue employment in advanced engineering, automotive production, electric mobility, vehicle design, automotive electronics, and component development."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -562,8 +517,21 @@
           "items": [
             "For career planning purposes, the following are general indicative yearly pay ranges. Employer, location, experience, specialization, and professional qualifications all affect actual salaries.",
             "Engineer, graduate or entry-level | £27,000–£35,000 |",
-            "Engineer with two to five years of experience | £35,000 to £50,000 |",
-            "Skilled Automotive Engineer | £45,000–£65,000",
+            "Engineer with two to five years of experience | £35,000 to £50,000 |"
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Skilled Automotive Engineer",
+              "d": "£45,000–£65,000"
+            }
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
             "Engineering Manager or Senior Engineer | £60,000–£85,000+ |"
           ]
         },
@@ -597,15 +565,11 @@
       ]
     },
     {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
       "title": "Documents Needed to Study Automotive Engineering in the United Kingdom",
-      "eyebrow": "Course Guide",
+      "lead": "For university admission and the ensuing visa procedure, Indian students need to have the following paperwork ready.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "For university admission and the ensuing visa procedure, Indian students need to have the following paperwork ready."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -623,10 +587,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Documents for Applications"
-          ]
+          "t": "h4",
+          "text": "Documents for Applications"
         },
         {
           "t": "ul",
@@ -642,10 +604,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Documents related to finances and visas"
-          ]
+          "t": "h4",
+          "text": "Documents related to finances and visas"
         },
         {
           "t": "ul",
@@ -659,136 +619,8 @@
           ]
         }
       ]
-    },
-    {
-      "title": "FAQs",
-      "eyebrow": "Got Questions?",
-      "groups": [
-        {
-          "t": "faqs",
-          "items": [
-            {
-              "q": "In the UK, how long does it take to finish a masters degree in automobile engineering?",
-              "a": "The majority of master's programs that are taught full-time last a year. Depending on the university and program structure, research degrees and part-time master's programs may take longer."
-            },
-            {
-              "q": "After earning a bachelor's degree in India, are Indian students able to pursue postgraduate studies in automobile engineering in the UK?",
-              "a": "yes. As long as they fulfill the academic and English-language requirements, Indian students may apply with a recognized bachelor's degree in automotive engineering, mechanical engineering, automobile engineering, or another comparable field that the university accepts."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "How much does a postgraduate degree in automotive engineering cost in the UK?",
-      "eyebrow": "Tuition & Living",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "For a one-year master's program, international tuition costs might vary from between £20,000 to £40,000 or more. The total budget is determined by the city, lifestyle, and university. Living expenditures are extra."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "4. Is IELTS required in the UK for postgraduate studies in automotive engineering?"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Not all the time. While some universities may accept other forms of proof or give exemptions, many demand IELTS Academic or another recognized English-language qualification. Candidates should verify the prerequisites of the curriculum they have selected."
-          ]
-        }
-      ]
-    },
-    {
-      "title": "After finishing a masters degree in Automobile Engineering in the UK, what employment options are available?",
-      "eyebrow": "Course Guide",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Automotive engineers, vehicle design engineers, electric vehicle engineers, powertrain engineers, vehicle dynamics engineers, automotive manufacturing engineers, and research and development engineers are among the professions that graduates can pursue. Technical proficiency, experience, corporate demands, and professional recognition all influence opportunities."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Students may plan their study abroad experience, organize their application materials, research appropriate universities, and comprehend admission requirements with the assistance of Edu Hawk Worldwide. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
-          ]
-        }
-      ]
     }
   ],
-  "universities": [
-    {
-      "name": "Cranfield University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Cranfield_University.webp"
-    },
-    {
-      "name": "Loughborough University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Loughborough_University.webp"
-    },
-    {
-      "name": "Warwick University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Warwick_University.webp"
-    }
-  ],
-  "table": {
-    "title": "Estimated Cost of Studying MSc Automobile Engineering in the UK (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (£ / GBP)",
-      "Details / Scope"
-    ],
-    "rows": [
-      [
-        "Undergraduate Degree (Annual)",
-        "£14,000 – £28,000 / year",
-        "Varies by university ranking, laboratory access, and course type"
-      ],
-      [
-        "Postgraduate Degree (Annual)",
-        "£16,000 – £35,000 / year",
-        "1-year intensive master's program or research dissertation"
-      ],
-      [
-        "Monthly Living Costs (Outside London)",
-        "£900 – £1,100 / month",
-        "Includes private/student accommodation, groceries, and utilities"
-      ],
-      [
-        "Monthly Living Costs (London)",
-        "£1,250 – £1,450 / month",
-        "Mandated UKVI maintenance requirement for London study"
-      ],
-      [
-        "Health Surcharge (IHS)",
-        "£776 / year",
-        "Access to UK National Health Service (NHS) for student visa holders"
-      ]
-    ]
-  },
   "faqs": [
     {
       "q": "In the UK, how long does it take to finish a masters degree in automobile engineering?",
@@ -797,6 +629,27 @@
     {
       "q": "After earning a bachelor's degree in India, are Indian students able to pursue postgraduate studies in automobile engineering in the UK?",
       "a": "yes. As long as they fulfill the academic and English-language requirements, Indian students may apply with a recognized bachelor's degree in automotive engineering, mechanical engineering, automobile engineering, or another comparable field that the university accepts."
+    },
+    {
+      "q": "How much does a postgraduate degree in automotive engineering cost in the UK?",
+      "a": "For a one-year master's program, international tuition costs might vary from between £20,000 to £40,000 or more. The total budget is determined by the city, lifestyle, and university. Living expenditures are extra."
+    },
+    {
+      "q": "Is IELTS required in the UK for postgraduate studies in automotive engineering?",
+      "a": "Not all the time. While some universities may accept other forms of proof or give exemptions, many demand IELTS Academic or another recognized English-language qualification. Candidates should verify the prerequisites of the curriculum they have selected."
+    },
+    {
+      "q": "After finishing a masters degree in Automobile Engineering in the UK, what employment options are available?",
+      "a": "Automotive engineers, vehicle design engineers, electric vehicle engineers, powertrain engineers, vehicle dynamics engineers, automotive manufacturing engineers, and research and development engineers are among the professions that graduates can pursue. Technical proficiency, experience, corporate demands, and professional recognition all influence opportunities."
+    },
+    {
+      "q": "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
+      "a": "Students may plan their study abroad experience, organize their application materials, research appropriate universities, and comprehend admission requirements with the assistance of Edu Hawk Worldwide. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
     }
-  ]
+  ],
+  "seo": {
+    "title": "Automobile Engineering (PG) in the United Kingdom | Edu-Hawk Worldwide",
+    "description": "Students seeking postgraduate studies in Automobile Engineering are drawn to the United Kingdom. The automotive industry in the UK integrates sophisticated manu",
+    "keywords": "Study in the UK, Best UK Universities, Edu Hawk Worldwide"
+  }
 }

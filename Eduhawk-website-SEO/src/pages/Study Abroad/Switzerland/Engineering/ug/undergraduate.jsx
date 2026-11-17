@@ -6,6 +6,7 @@ import heroImg from "../../../../../Images/Abroad/Switzerland/Engineering_UG/her
 import heroBgImg from "../../../../../Images/Abroad/Switzerland/Engineering_UG/hero_bg.webp";
 import sideImg from "../../../../../Images/Abroad/Switzerland/Engineering_UG/side.webp";
 import ctaBgImg from "../../../../../Images/Abroad/Switzerland/Engineering_UG/cta_bg.webp";
+import cmsData from "../../../../../data/study_abroad/switzerland/ug_engineering.json";
 
 // University images
 
@@ -591,9 +592,26 @@ const page = {
 };
 
 export default function UndergraduateEngineeringSwitzerland() {
+  const dynamicPage = {
+    ...page,
+    name: cmsData.hero?.title || page.name,
+    heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
+    overview: cmsData.overview
+      ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
+      : page.overview,
+    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      .filter(s => s.label && s.value).length > 0
+      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      : page.stats,
+    seo: {
+      title: cmsData.seo?.title || page.title,
+      description: cmsData.seo?.description || page.description,
+    },
+  };
+
   return (
     <AbroadCoursePage
-      page={page}
+      page={dynamicPage}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

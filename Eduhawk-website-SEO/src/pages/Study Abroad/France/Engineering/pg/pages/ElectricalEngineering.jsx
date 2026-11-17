@@ -11,6 +11,7 @@ import ctaBgImg from "../../../../../../Images/Abroad/France/Engineering_PG/Elec
 import uniImg1 from "../../../../../../Images/Abroad/France/Engineering_PG/Electrical/Grenoble_INP.webp";
 import uniImg2 from "../../../../../../Images/Abroad/France/Engineering_PG/Electrical/University_1.webp";
 import uniImg3 from "../../../../../../Images/Abroad/France/Engineering_PG/Electrical/Universit_Grenoble_Alpes.webp";
+import cmsData from "../../../../../../data/study_abroad/france/elec_engg_pg.json";
 
 const page = {
   name: "PG Electrical Engineering in France",
@@ -336,6 +337,23 @@ const page = {
 };
 
 export default function ElectricalEngineering() {
+  const dynamicPage = {
+    ...page,
+    name: cmsData.hero?.title || page.name,
+    heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
+    overview: cmsData.overview
+      ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
+      : page.overview,
+    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      .filter(s => s.label && s.value).length > 0
+      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      : page.stats,
+    seo: {
+      title: cmsData.seo?.title || page.title,
+      description: cmsData.seo?.description || page.description,
+    },
+  };
+
   const images = {
     hero: heroImg,
     heroBg: heroBgImg,
@@ -346,7 +364,7 @@ export default function ElectricalEngineering() {
 
   return (
     <AbroadCoursePage
-      page={page}
+      page={dynamicPage}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

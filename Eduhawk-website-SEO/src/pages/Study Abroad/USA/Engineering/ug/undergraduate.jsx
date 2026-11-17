@@ -1,3 +1,4 @@
+import ugHubData from "../../../../../data/study_abroad/usa/ug_hub.json";
 import React from "react";
 import { Link } from "react-router-dom";
 import {
@@ -123,7 +124,15 @@ const overviewParas = [
   "After graduation students can work in engineering fields, or go on to higher studies such as [Postgraduate Engineering in the USA](/study-abroad/usa/pg/engineering). Job opportunities depend on company needs and visa rules in the US.",
 ];
 
-const UndergraduateEngineeringUG = () => (
+const UndergraduateEngineeringUG = () => {
+  const dynamicFaqs = (ugHubData?.faq && ugHubData.faq.length > 0)
+    ? ugHubData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
+    : faqs;
+  const dynamicHighlights = (ugHubData?.stats && ugHubData.stats.length > 0)
+    ? ugHubData.stats.map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+    : highlights;
+
+  return (
   <EhpShell>
     <SeoHead
       title="Undergraduate Engineering in USA for Indian Students | B.E. 2026 | Edu Hawk"
@@ -134,7 +143,7 @@ const UndergraduateEngineeringUG = () => (
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "FAQPage",
-          mainEntity: faqs.map((f) => ({
+          mainEntity: dynamicFaqs.map((f) => ({
             "@type": "Question",
             name: f.q,
             acceptedAnswer: { "@type": "Answer", text: f.a },
@@ -173,7 +182,7 @@ const UndergraduateEngineeringUG = () => (
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           <div className="lg:col-span-7">
-            <StatGrid items={highlights} />
+            <StatGrid items={dynamicHighlights} />
           </div>
           <div className="lg:col-span-5">
             <EligibilityCtaCard level="UG" />
@@ -272,5 +281,7 @@ const UndergraduateEngineeringUG = () => (
     />
   </EhpShell>
 );
+
+};
 
 export default UndergraduateEngineeringUG;

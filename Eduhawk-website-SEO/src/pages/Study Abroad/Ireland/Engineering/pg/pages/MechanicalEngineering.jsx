@@ -1,5 +1,6 @@
 import React from "react";
-import { AbroadCoursePage } from "../../../../../../component/CoursePageKit.jsx";
+import { AbroadCoursePage, withCmsData } from "../../../../../../component/CoursePageKit.jsx";
+import cmsData from "../../../../../../data/study_abroad/ireland/mech_engg_pg.json";
 
 // Page layout images
 import heroImg from "../../../../../../Images/Abroad/Ireland/Engineering_PG/Mechanical/hero.webp";
@@ -382,6 +383,19 @@ const page = {
   ]
 };
 
+const uniImages = {
+  "hero.webp": heroImg,
+  "hero_bg.webp": heroBgImg,
+  "side.webp": sideImg,
+  "cta_bg.webp": ctaBgImg,
+  "Trinity_College_Dublin.webp": uniImg1,
+  "Trinity_College_Dublin_2.webp": uniImg2,
+  "Trinity_College_Dublin_3.webp": uniImg3,
+};
+
+const cmsPage = withCmsData(page, cmsData, uniImages);
+
+
 export default function MechanicalEngineeringPGIreland() {
   const images = {
     hero: heroImg,
@@ -392,7 +406,7 @@ export default function MechanicalEngineeringPGIreland() {
 
   return (
     <AbroadCoursePage
-      page={page}
+      page={cmsPage}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

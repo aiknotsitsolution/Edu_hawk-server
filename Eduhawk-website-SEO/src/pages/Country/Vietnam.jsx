@@ -1,3 +1,4 @@
+import cmsData from "../../data/medical_colleges/vietnam.json";
 import React, { useState } from "react";
 import { Plus as FiPlus, Minus as FiMinus } from "lucide-react";
 import SeoHead from "../../component/SeoHead.jsx";
@@ -55,9 +56,9 @@ const Vietnam = () => {
   return (
     <>
       <SeoHead
-        title="MBBS in Vietnam for Indian Students | Fees & Colleges"
-        description="Study MBBS in Vietnam with English medium and affordable fees. Check eligibility, admission process and top universities."
-        keywords="mbbs in vietnam, vietnam mbbs fees, study mbbs vietnam, mbbs in vietnam for indian students, top medical universities in vietnam, mbbs in vietnam eligibility, mbbs in vietnam admission"
+        title={cmsData?.seo?.title || "MBBS in Vietnam for Indian Students | Fees & Colleges"}
+        description={cmsData?.seo?.description || "Study MBBS in Vietnam with English medium and affordable fees. Check eligibility, admission process and top universities."}
+        keywords={cmsData?.seo?.keywords || "mbbs in vietnam, vietnam mbbs fees, study mbbs vietnam, mbbs in vietnam for indian students, top medical universities in vietnam"}
         path="/mbbs-abroad/vietnam"
         ogType="website"
       />
@@ -66,7 +67,7 @@ const Vietnam = () => {
         <div className="relative h-screen overflow-hidden">
           <div className="absolute inset-0">
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/2/23/%C3%93pera%2C_Ciudad_Ho_Chi_Minh%2C_Vietnam%2C_2013-08-14%2C_DD_02.JPG"
+              src={cmsData?.hero?.image || "https://upload.wikimedia.org/wikipedia/commons/2/23/%C3%93pera%2C_Ciudad_Ho_Chi_Minh%2C_Vietnam%2C_2013-08-14%2C_DD_02.JPG"}
               alt="Ho Chi Minh City Opera House"
               className="w-full h-full object-cover brightness-75"
                   srcSet="https://upload.wikimedia.org/wikipedia/commons/2/23/%C3%93pera%2C_Ciudad_Ho_Chi_Minh%2C_Vietnam%2C_2013-08-14%2C_DD_02.JPG 1x, https://upload.wikimedia.org/wikipedia/commons/2/23/%C3%93pera%2C_Ciudad_Ho_Chi_Minh%2C_Vietnam%2C_2013-08-14%2C_DD_02.JPG 2x"
@@ -74,8 +75,8 @@ const Vietnam = () => {
                 />
             <div className="absolute inset-0 flex items-center justify-center">
               <h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-2xl">
-                STUDY MBBS IN VIETNAM
-              </h1>
+              {cmsData?.hero?.title || "STUDY MBBS IN VIETNAM"}
+            </h1>
             </div>
           </div>
         </div>
@@ -96,7 +97,7 @@ const Vietnam = () => {
             </div>
             <div>
               <h2 className="text-4xl md:text-5xl font-bold text-blue-900">
-                Explore MBBS Opportunities in Vietnam 2026–2027
+                {cmsData?.hero?.subtitle || "Explore MBBS Opportunities in Vietnam 2026–2027"}
               </h2>
             </div>
           </div>
@@ -337,7 +338,7 @@ const Vietnam = () => {
           {/* Top Universities Grid */}
           <div id="universities" className="mb-20">
             <h2 className="text-4xl font-bold text-center text-blue-900 mb-12">
-              Top Medical Universities in Vietnam
+              {cmsData?.universitiesHeading || "Top Medical Universities in Vietnam"}
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               {[
@@ -485,7 +486,7 @@ const Vietnam = () => {
               Most Searched FAQs
             </h2>
             <div className="space-y-5 container mx-auto px-4 max-w-4xl">
-              {faqData.map((item, index) => {
+              {((cmsData?.faq && cmsData.faq.length > 0) ? cmsData.faq : faqData).map((item, index) => {
                 const isOpen = openIndex === index;
 
                 return (

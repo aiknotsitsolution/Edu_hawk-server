@@ -1,3 +1,4 @@
+import cmsData from "../../data/medical_colleges/belarus.json";
 import React, { useState } from "react";
 import SeoHead from "../../component/SeoHead.jsx";
 import RussiaFlag from "../../Images/Russia/russia header threejpg.webp";
@@ -15,9 +16,9 @@ const Belarus = () => {
   return (
     <div className="min-h-screen bg-gray-50 font-sans">
       <SeoHead
-        title="MBBS in Belarus 2026-27 | Admissions, Fees & Universities | Edu Hawk"
-        description="Explore MBBS in Belarus for Indian students: eligibility, admission process, top medical universities, documents and food & accommodation costs. Study MBBS in Belarus for a safe, affordable, and globally recognized medical education."
-        keywords="mbbs in belarus, belarus mbbs fees, study mbbs belarus, belarus medical universities, mbbs abroad belarus"
+        title={cmsData?.seo?.title || "MBBS in Belarus 2026-27 | Admissions, Fees & Universities | Edu Hawk"}
+        description={cmsData?.seo?.description || "Explore MBBS in Belarus for Indian students: eligibility, admission process, top medical universities, documents and food & accommodation costs."}
+        keywords={cmsData?.seo?.keywords || "mbbs in belarus, belarus mbbs fees, study mbbs belarus, belarus medical universities"}
         path="/mbbs-abroad/belarus"
         ogType="website"
       />
@@ -25,7 +26,7 @@ const Belarus = () => {
       <div className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Miensk_-_Plac_Niezale%C5%BEna%C5%9Bci.jpg"
+            src={cmsData?.hero?.image || "https://upload.wikimedia.org/wikipedia/commons/8/8c/Miensk_-_Plac_Niezale%C5%BEna%C5%9Bci.jpg"}
             alt="Kremlin Bridge City"
             className="w-full h-full object-cover brightness-75"
                   srcSet="https://upload.wikimedia.org/wikipedia/commons/8/8c/Miensk_-_Plac_Niezale%C5%BEna%C5%9Bci.jpg 1x, https://upload.wikimedia.org/wikipedia/commons/8/8c/Miensk_-_Plac_Niezale%C5%BEna%C5%9Bci.jpg 2x"
@@ -33,7 +34,7 @@ const Belarus = () => {
                 />
           <div className="absolute inset-0 flex items-center justify-center">
             <h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-2xl">
-              STUDY MBBS IN BELARUS
+              {cmsData?.hero?.title || "STUDY MBBS IN BELARUS"}
             </h1>
           </div>
         </div>
@@ -59,7 +60,7 @@ const Belarus = () => {
           </div>
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-blue-900">
-              Explore MBBS Opportunities in BELARUS 2026–2027
+              {cmsData?.hero?.subtitle || "Explore MBBS Opportunities in BELARUS 2026–2027"}
             </h2>
           </div>
         </div>
@@ -191,7 +192,7 @@ const Belarus = () => {
         {/* ==================== UNIVERSITIES GRID ==================== */}
         <div className="mb-20">
           <h2 className="text-4xl font-bold text-center text-blue-900 mb-12">
-            Top Medical Universities in Russia
+            {cmsData?.universitiesHeading || "Top Medical Universities in Russia"}
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">

@@ -1,5 +1,6 @@
+import cmsData from "../../../../data/study_abroad/finland/information_technology.json";
 import React from "react";
-import { AbroadCoursePage } from "../../../../component/CoursePageKit.jsx";
+import { AbroadCoursePage, withCmsData } from "../../../../component/CoursePageKit.jsx";
 
 // Page layout images
 import heroImg from "../../../../Images/Abroad/Finland/InformationTechnology/it_hero.webp";
@@ -591,7 +592,7 @@ const page = {
 export default function InformationTechnologyFinland() {
   return (
     <AbroadCoursePage
-      page={page}
+      page={withCmsData(page, cmsData)}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

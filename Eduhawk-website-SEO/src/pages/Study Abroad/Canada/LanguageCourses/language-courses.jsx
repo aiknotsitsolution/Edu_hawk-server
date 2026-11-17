@@ -10,6 +10,7 @@ import UniversityOfCalgaryImg from "../../../../Images/Abroad/Canada/LanguageCou
 import SimonFraserUniversityImg from "../../../../Images/Abroad/Canada/LanguageCourses/Simon_Fraser_University.webp";
 import GeorgeBrownPolytechnicImg from "../../../../Images/Abroad/Canada/LanguageCourses/George_Brown_Polytechnic.webp";
 import HumberPolytechnicImg from "../../../../Images/Abroad/Canada/LanguageCourses/Humber_Polytechnic.webp";
+import cmsData from "../../../../data/study_abroad/canada/language_courses.json";
 
 const page = {
   "name": "Language Courses in Canada",
@@ -435,9 +436,36 @@ const page = {
 };
 
 export default function LanguageCoursesCanada() {
+  const dynamicPage = {
+    ...page,
+    title: cmsData?.seo?.title || page.title,
+    description: cmsData?.seo?.description || page.description,
+    introTitle: cmsData?.hero?.title || page.introTitle || page.name,
+    heroParas: cmsData?.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
+    overview: (cmsData?.overview && cmsData.overview.length > 0 && cmsData.overview[0] !== "")
+      ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
+      : page.overview,
+    sections: (cmsData?.sections && cmsData.sections.length > 0)
+      ? cmsData.sections
+      : page.sections,
+    universities: (cmsData?.universities && cmsData.universities.length > 0)
+      ? cmsData.universities
+      : page.universities,
+    faqs: (cmsData?.faqs && cmsData.faqs.length > 0)
+      ? cmsData.faqs.map(f => ({ q: f.q || f.question, a: f.a || f.answer, question: f.q || f.question, answer: f.a || f.answer }))
+      : (cmsData?.faq && cmsData.faq.length > 0)
+        ? cmsData.faq.map(f => ({ q: f.q || f.question, a: f.a || f.answer, question: f.q || f.question, answer: f.a || f.answer }))
+        : page.faqs,
+    seo: {
+      title: cmsData?.seo?.title || page.title,
+      description: cmsData?.seo?.description || page.description,
+      keywords: cmsData?.seo?.keywords || page.keywords,
+    },
+  };
+
   return (
     <AbroadCoursePage
-      page={page}
+      page={dynamicPage}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

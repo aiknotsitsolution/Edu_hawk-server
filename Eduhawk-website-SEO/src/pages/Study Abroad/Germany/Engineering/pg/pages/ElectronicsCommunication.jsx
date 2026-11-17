@@ -12,6 +12,7 @@ import uniImg1 from "../../../../../../Images/Abroad/Germany/Engineering_PG/Elec
 import uniImg2 from "../../../../../../Images/Abroad/Germany/Engineering_PG/Electronics/Aachen_University_s_RWTH_provides_a.webp";
 import uniImg3 from "../../../../../../Images/Abroad/Germany/Engineering_PG/Electronics/The_Karlsruhe_Institute_of_Technolo.webp";
 import uniImg4 from "../../../../../../Images/Abroad/Germany/Engineering_PG/Electronics/Stuttgart_University_provides_chanc.webp";
+import cmsData from "../../../../../../data/study_abroad/germany/ece_engg_pg.json";
 
 const page = {
   name: "Postgraduate Electronics and Communication Engineering in Germany",
@@ -297,6 +298,23 @@ const page = {
 };
 
 export default function PostgraduateElectronicsCommunication() {
+  const dynamicPage = {
+    ...page,
+    name: cmsData.hero?.title || page.name,
+    heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
+    overview: cmsData.overview
+      ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
+      : page.overview,
+    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      .filter(s => s.label && s.value).length > 0
+      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      : page.stats,
+    seo: {
+      title: cmsData.seo?.title || page.title,
+      description: cmsData.seo?.description || page.description,
+    },
+  };
+
   return (
     <AbroadCoursePage
       heroImg={heroImg}
@@ -304,7 +322,7 @@ export default function PostgraduateElectronicsCommunication() {
       sideImg={sideImg}
       ctaBgImg={ctaBgImg}
       seoPath={page.slug}
-      page={page}
+      page={dynamicPage}
     />
   );
 }

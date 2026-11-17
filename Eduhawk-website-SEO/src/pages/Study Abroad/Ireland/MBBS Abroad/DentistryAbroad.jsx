@@ -1,5 +1,6 @@
 import React from "react";
-import { AbroadCoursePage } from "../../../../component/CoursePageKit.jsx";
+import { AbroadCoursePage, withCmsData } from "../../../../component/CoursePageKit.jsx";
+import cmsData from "../../../../data/study_abroad/ireland/dentistry.json";
 
 // Page layout images
 import heroImg from "../../../../Images/Abroad/Ireland/Dentistry/hero.webp";
@@ -401,6 +402,20 @@ const page = {
   ]
 };
 
+const uniImages = {
+  "hero.webp": heroImg,
+  "hero_bg.webp": heroBgImg,
+  "side.webp": sideImg,
+  "cta_bg.webp": ctaBgImg,
+  "Trinity_College_Dublin.webp": uniImg1,
+  "University_College_Cork.webp": uniImg2,
+  "RCSI_University_of_Medicine_and_Health_Sciences.webp": uniImg3,
+  "The_University_of_Galway.webp": uniImg4,
+};
+
+const cmsPage = withCmsData(page, cmsData, uniImages);
+
+
 export default function DentistryAbroadIreland() {
   const images = {
     hero: heroImg,
@@ -441,7 +456,7 @@ export default function DentistryAbroadIreland() {
 
   return (
     <AbroadCoursePage
-      page={page}
+      page={cmsPage}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

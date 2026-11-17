@@ -5,10 +5,10 @@
   },
   "hero": {
     "badge": "Study Abroad - Australia",
-    "title": "Postgraduate Civil Engineering in Australia | Edu-Hawk Worldwide",
-    "subtitle": "Study Master's in Civil Engineering in Australia for Indian students. Learn about top universities (Melbourne, UNSW, Queensland, Curtin, QUT), eligibility, fees, structural specializations, and career pathways.",
+    "title": "Australia's postgraduate civil engineering program",
+    "subtitle": "The planning, design, construction, and upkeep of infrastructure, such as buildings, roads, bridges, dams, and water systems, are the core topics of postgraduate civil engineering studies in Australia . For jobs in infrastructure, engineering consulting, and construction, these programs assist students in acquiring advanced technical and project management abilities.",
     "ctaText": "Book Free Counselling",
-    "image": ""
+    "image": "/uploads/study_abroad/australia/civil_engg_pg_Curtin_University-image1.png"
   },
   "stats": [
     {
@@ -29,43 +29,619 @@
     }
   ],
   "highlights": {
-    "degree": "Master of Engineering (M.Eng / M.Sc)",
+    "degree": "Master of Engineering (Civil)",
     "duration": "1 to 2 Years Full-Time",
     "fee": "AUD 30,000 – AUD 52,000 / Year",
     "eligibility": "Recognised academic qualification + English proficiency",
-    "medium": "100% English Taught"
+    "medium": "English"
   },
-  "overview": "Australian universities deliver globally recognized postgraduate civil engineering education accredited by Engineers Australia under the Washington Accord. Students gain advanced design skills, research expertise, and international employment opportunities.",
-  "universities": [
+  "overview": [
+    "The planning, design, construction, and upkeep of infrastructure, such as buildings, roads, bridges, dams, and water systems, are the core topics of postgraduate civil engineering studies in Australia . For jobs in infrastructure, engineering consulting, and construction, these programs assist students in acquiring advanced technical and project management abilities.",
+    "Studying in Australia provides Indian students with access to globally recognized qualifications, world-class teaching faculties, and strong post-study work rights under the Subclass 500 visa program.",
+    "Edu-Hawk Worldwide Consultancy guides students through CRICOS-registered program selection, university applications, GTE / Genuine Student requirements, and visa processing."
+  ],
+  "sections": [
     {
-      "name": "The University of Melbourne",
-      "location": "Melbourne, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "slot": "overview",
+      "eyebrow": "Course Scope",
+      "title": "OVERVIEW OF THE COURSE",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The planning, design, construction, and upkeep of infrastructure, such as buildings, roads, bridges, dams, and water systems, are the core topics of postgraduate civil engineering studies in Australia . For jobs in infrastructure, engineering consulting, and construction, these programs assist students in acquiring advanced technical and project management abilities."
+          ]
+        }
+      ]
     },
     {
-      "name": "The University of Sydney",
-      "location": "Sydney, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "slot": "why-study",
+      "eyebrow": "Key Benefits",
+      "title": "WHY STUDY CIVIL ENGINEERING IN AUSTRALIA?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "STUDY CIVIL ENGINEERING IN AUSTRALIA FOR -"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Internationally acknowledged credentials"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Engineering projects and hands-on learning"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "exposure to contemporary building and infrastructure technology"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Possibilities for improving project management abilities"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Research and industry-related learning accessibility"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Career paths in the transportation, infrastructure, and construction industries"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "3. COMMON COURSE CHOICES"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Master of Professional Engineering Master of Civil Engineering",
+            "Structural Engineering Master's degree",
+            "Construction Management Master's Program",
+            "Geotechnical Engineering Master's degree",
+            "Environmental Engineering Master's degree",
+            "Water Engineering Master's degree",
+            "Infrastructure Engineering Master's degree",
+            "Each university has different course titles and availability."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Australian Universities",
+      "title": "Top Universities in Australia",
+      "lead": "Explore leading Group of Eight and prestigious Australian universities renowned for academic excellence, state-of-the-art research laboratories, and strong industry partnerships.",
+      "unis": [
+        {
+          "name": "Curtin University",
+          "location": "Perth, Western Australia",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/civil_engg_pg_Curtin_University-image1.png",
+          "desc": "Examine postgraduate programs in infrastructure and civil engineering."
+        },
+        {
+          "name": "The University of Melbourne",
+          "location": "Melbourne, Victoria",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/civil_engg_pg_Melbourne_University-image6.png",
+          "desc": "Examine your possibilities for studying infrastructure, structural engineering, and civil engineering."
+        },
+        {
+          "name": "UNSW Sydney (The University of New South Wales)",
+          "location": "Sydney, New South Wales",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/civil_engg_pg_New_South_Wales_University-image2.png",
+          "desc": "Examine postgraduate engineering programs in environmental, structural, and civil engineering."
+        },
+        {
+          "name": "The University of Queensland",
+          "location": "Brisbane, Queensland",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/civil_engg_pg_Queensland_University_of_Technology-image5.png",
+          "desc": "Examine engineering postgraduate programs in project development and civil infrastructure."
+        },
+        {
+          "name": "The University of Queensland",
+          "location": "Brisbane, Queensland",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/civil_engg_pg_Queensland_University_of_Technology-image5.png",
+          "desc": "Examine your possibilities for postgraduate studies in engineering and construction."
+        }
+      ],
+      "groups": []
+    },
+    {
+      "slot": "specializations",
+      "eyebrow": "Specializations",
+      "title": "CIVIL ENGINEERING SPECIALIZATIONS",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Structural engineering is the study and design of structures such as bridges and buildings."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Ground engineering, foundations, and soil mechanics are all included in geotechnical engineering ."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Roads, highways, railroads, and transportation infrastructure are all included in transportation engineering."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Water resources engineering includes hydraulic systems, flood control, drainage, and water delivery."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Environmental engineering includes pollution prevention, environmental preservation, and sustainable infrastructure."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Construction engineering and management includes site management, cost control, construction techniques, and project planning."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Infrastructure engineering is the planning, construction, and upkeep of vital public infrastructure."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Earthquake and Resilient Design : When available, infrastructure resilience and structural performance."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "INDIAN STUDENT ELIGIBILITY",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Typically, applicants require:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "a valid bachelor's degree in civil engineering or a related field.",
+            "academic standing that satisfies the basic standards set by the university.",
+            "prerequisite courses that are pertinent, if any.",
+            "proof of English language competency, unless there is an exception.",
+            "For many programs, additional credentials or work experience are required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Depending on the standards of the university, candidates with similar engineering backgrounds may be eligible for certain programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "7. LANGUAGE AND ENGLISH REQUIREMENTS"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "IELTS Academic",
+            "TOEFL iBT",
+            "PTE Academic",
+            "and other authorized English language assessments may be accepted by universities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Although minimal overall and component scores differ by university and course, an IELTS Academic score of approximately 6.5 is a popular general benchmark."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "8. EXAMS FOR ENTRANCE"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "English language proficiency , necessary courses, and prior academic credentials are typically used to evaluate postgraduate civil engineering applications."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Not all universities require a separate entrance exam. Additional tests, pertinent work experience, or supporting paperwork may be required by certain programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The particular prerequisites of the course they have chosen should be reviewed by applicants."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Popular Courses",
+      "title": "CURRICULUM AND COURSE DURATION",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Depending on the degree, course design, and prior academic experience, postgraduate civil engineering programs often last one to two years."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Fundamental Topics"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Advanced Analysis of Structures",
+            "Building Supplies",
+            "Engineering Geotechnical",
+            "Engineering for Transportation",
+            "Engineering of Water Resources",
+            "Engineering for the Environment",
+            "Planning for Infrastructure",
+            "Management of Construction Projects",
+            "Methods of Engineering Research",
+            "Research Project or Capstone"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Depending on the curriculum, students may also complete laboratory work, engineering design projects, industry-related tasks, and simulations."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Costs",
+      "title": "Living expenses and tuition fees",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The university, length of the program, city, and way of life all affect study expenses."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Tuition Fees : Verify the most recent international student pricing schedule for the chosen course.",
+            "Living Expenses : Set aside money for lodging, food, utilities, transportation, study supplies, and personal costs.",
+            "Overseas Student Health Cover (OSHC), visa-related fees, airfare, and initial settlement costs are examples of additional costs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Create a budget for the entire course and factor in potential yearly tuition increases."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scholarships",
+      "eyebrow": "Scholarships & Funding",
+      "title": "Indian Students Scholarships",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Students who qualify may explore -"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Merit grants for international students",
+            "Scholarships for academic achievement",
+            "Scholarships for engineering faculty",
+            "Tuition fee reductions at universities",
+            "Opportunities for qualified outside funding"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Scholarship providers and institutions differ in terms of scholarship amounts, eligibility, deadlines, and renewal requirements."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Prospects",
+      "title": "OPPORTUNITIES FOR CAREERS",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Graduates can look for careers in engineering consulting, water management, transportation, infrastructure, and construction."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Possible Job Positions"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Engineer in Civil Engineering",
+            "Engineer of Structure",
+            "Engineer in Geotechnical",
+            "Engineer for Transportation",
+            "Engineer for Water Resources",
+            "Infrastructure Engineer, Site Engineer, Environmental Engineer, and Construction Project Engineer",
+            "Engineer for Design",
+            "Engineering Consultant and Project Coordinator"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Specialization, experience, employer needs, professional reputation, and local employment conditions all influence career success."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scope",
+      "eyebrow": "Details",
+      "title": "ACCREDITATION AS A PROFESSION",
+      "groups": [
+        {
+          "t": "step",
+          "step": 1,
+          "title": "Select a specialty in civil engineering.",
+          "desc": "Select a specialty in civil engineering."
+        },
+        {
+          "t": "step",
+          "step": 2,
+          "title": "Verify prerequisite courses and academic eligibility.",
+          "desc": "Verify prerequisite courses and academic eligibility."
+        },
+        {
+          "t": "step",
+          "step": 3,
+          "title": "Make a short list of colleges and evaluate their programs, costs, and financial aid.",
+          "desc": "Make a short list of colleges and evaluate their programs, costs, and financial aid."
+        },
+        {
+          "t": "step",
+          "step": 4,
+          "title": "Prepare results in English, passport information, certifications, and academic transcripts.",
+          "desc": "Prepare results in English, passport information, certifications, and academic transcripts."
+        },
+        {
+          "t": "step",
+          "step": 5,
+          "title": "Use an authorized education agent or the university's official portal to submit the application.",
+          "desc": "Use an authorized education agent or the university's official portal to submit the application."
+        },
+        {
+          "t": "step",
+          "step": 6,
+          "title": "Examine the terms, tuition costs, and offer letter.",
+          "desc": "Examine the terms, tuition costs, and offer letter."
+        },
+        {
+          "t": "step",
+          "step": 7,
+          "title": "Finish the enrollment criteria and, if necessary, acquire the Confirmation of Enrollment (CoE).",
+          "desc": "Finish the enrollment criteria and, if necessary, acquire the Confirmation of Enrollment (CoE)."
+        },
+        {
+          "t": "step",
+          "step": 8,
+          "title": "Get the Australian student visa application ready and submit it.",
+          "desc": "Get the Australian student visa application ready and submit it."
+        },
+        {
+          "t": "step",
+          "step": 9,
+          "title": "Make travel, lodging, health insurance, and pre-departure arrangements.",
+          "desc": "Make travel, lodging, health insurance, and pre-departure arrangements."
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Required Documents",
+      "title": "NEEDED DOCUMENTS",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "A valid passport",
+            "Certificates for Classes 10 and 12, upon request",
+            "Certificate of bachelor's degree or temporary certificate",
+            "Marksheets and academic transcripts English language test scores, if necessary",
+            "updated curriculum vitae or resume",
+            "If requested, a statement of purpose",
+            "Letters of recommendation, if necessary",
+            "Certificates of employment or internship, if applicable Scholarship documentation",
+            "The institution has sought additional documents."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "visa",
+      "eyebrow": "Student Visa",
+      "title": "Australian student visa",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "In order to enrolll in an appropriate full-time course, Indian students often require an Australian student visa (subclass 500)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The current standards for Confirmation of Enrollment, the Genuine Student requirement, financial capability, English-language proof, health and character requirements, and Overseas Student Health Cover should be reviewed by applicants."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "HOW EDU HAWK CAN ASSIST"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu Hawk helps students from India with:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Shortlisting for courses and universities",
+            "Evaluation of academic eligibility",
+            "Curriculum comparison and specialization",
+            "Advice on tuition and scholarships",
+            "Preparing applications and documents",
+            "Guidance on offer letters",
+            "Advice on applying for a student visa",
+            "Planning prior to departure",
+            "Universities decide who gets admitted, and the Australian government decides who gets a visa."
+          ]
+        }
+      ]
+    }
+  ],
+  "universities": [
+    {
+      "name": "Curtin University",
+      "location": "Perth, Western Australia",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/civil_engg_pg_Curtin_University-image1.png",
+      "desc": "Examine postgraduate programs in infrastructure and civil engineering."
+    },
+    {
+      "name": "The University of Melbourne",
+      "location": "Melbourne, Victoria",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/civil_engg_pg_Melbourne_University-image6.png",
+      "desc": "Examine your possibilities for studying infrastructure, structural engineering, and civil engineering."
+    },
+    {
+      "name": "UNSW Sydney (The University of New South Wales)",
+      "location": "Sydney, New South Wales",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/civil_engg_pg_New_South_Wales_University-image2.png",
+      "desc": "Examine postgraduate engineering programs in environmental, structural, and civil engineering."
     },
     {
       "name": "The University of Queensland",
-      "location": "Brisbane, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "location": "Brisbane, Queensland",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/civil_engg_pg_Queensland_University_of_Technology-image5.png",
+      "desc": "Examine engineering postgraduate programs in project development and civil infrastructure."
     },
     {
-      "name": "Monash University",
-      "location": "Melbourne, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "name": "The University of Queensland",
+      "location": "Brisbane, Queensland",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/civil_engg_pg_Queensland_University_of_Technology-image5.png",
+      "desc": "Examine your possibilities for postgraduate studies in engineering and construction."
     }
   ],
   "faq": [
     {
       "question": "Is it possible for Indian students to pursue postgraduate studies in civil engineering in Australia?",
-      "answer": ""
+      "answer": "Yes, after fulfilling the university's admission standards, qualified Indian students can apply to appropriate postgraduate programs."
+    },
+    {
+      "question": "How long does a master's degree in civil engineering take?",
+      "answer": "Depending on the course design and prerequisites, many programs last between one and two years."
+    },
+    {
+      "question": "What kind of bachelor's degree is necessary?",
+      "answer": "Typically, one needs a degree in civil engineering or related recognized fields."
+    },
+    {
+      "question": "Is taking the IELTS required?",
+      "answer": "Evidence of English language proficiency is required by several universities. Exemption requirements and accepted tests differ."
+    },
+    {
+      "question": "Is employment or permanent residency guaranteed by this degree?",
+      "answer": "No. Individual circumstances, credentials, experience, company requirements, and current rules all influence employment and migration outcomes. KEYWORDS - Study Civil Engineering in Australia for Indian Students Best Universities to Study Civil Engineering in Australia Study Master's in Civil Engineering in Australia Civil Engineering Eligibility and Admission Requirements in Australia Civil Engineering Scholarships in Australia for Indian Students Career Opportunities After Studying Civil Engineering in Australia"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is it possible for Indian students to pursue postgraduate studies in civil engineering in Australia?",
+      "a": "Yes, after fulfilling the university's admission standards, qualified Indian students can apply to appropriate postgraduate programs."
+    },
+    {
+      "q": "How long does a master's degree in civil engineering take?",
+      "a": "Depending on the course design and prerequisites, many programs last between one and two years."
+    },
+    {
+      "q": "What kind of bachelor's degree is necessary?",
+      "a": "Typically, one needs a degree in civil engineering or related recognized fields."
+    },
+    {
+      "q": "Is taking the IELTS required?",
+      "a": "Evidence of English language proficiency is required by several universities. Exemption requirements and accepted tests differ."
+    },
+    {
+      "q": "Is employment or permanent residency guaranteed by this degree?",
+      "a": "No. Individual circumstances, credentials, experience, company requirements, and current rules all influence employment and migration outcomes. KEYWORDS - Study Civil Engineering in Australia for Indian Students Best Universities to Study Civil Engineering in Australia Study Master's in Civil Engineering in Australia Civil Engineering Eligibility and Admission Requirements in Australia Civil Engineering Scholarships in Australia for Indian Students Career Opportunities After Studying Civil Engineering in Australia"
     }
   ]
 }

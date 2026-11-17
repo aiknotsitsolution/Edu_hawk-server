@@ -11,6 +11,7 @@ import ctaBgImg from "../../../../../../Images/Abroad/France/Engineering_PG/Comp
 import uniImg1 from "../../../../../../Images/Abroad/France/Engineering_PG/Computer/Grenoble_INP.webp";
 import uniImg2 from "../../../../../../Images/Abroad/France/Engineering_PG/Computer/Paris.webp";
 import uniImg3 from "../../../../../../Images/Abroad/France/Engineering_PG/Computer/INSA_Lyon.webp";
+import cmsData from "../../../../../../data/study_abroad/france/comp_engg_pg.json";
 
 const page = {
   name: "PG Computer Engineering in France",
@@ -333,6 +334,23 @@ const page = {
 };
 
 export default function ComputerEngineering() {
+  const dynamicPage = {
+    ...page,
+    name: cmsData.hero?.title || page.name,
+    heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
+    overview: cmsData.overview
+      ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
+      : page.overview,
+    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      .filter(s => s.label && s.value).length > 0
+      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      : page.stats,
+    seo: {
+      title: cmsData.seo?.title || page.title,
+      description: cmsData.seo?.description || page.description,
+    },
+  };
+
   const images = {
     hero: heroImg,
     heroBg: heroBgImg,
@@ -343,7 +361,7 @@ export default function ComputerEngineering() {
 
   return (
     <AbroadCoursePage
-      page={page}
+      page={dynamicPage}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

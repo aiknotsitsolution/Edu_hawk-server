@@ -1,14 +1,30 @@
 {
   "seo": {
     "title": "Physiotherapy in Canada for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study Physiotherapy in Canada: Top universities, English-taught programs, tuition fees (CAD $18,000–$45,000/yr), scholarships, eligibility criteria, and post-graduation work permit (PGWP) opportunities."
+    "description": "Study Physiotherapy in Canada: Top universities, English-taught programs, tuition fees (CAD $18,000–$45,000/yr), scholarships, eligibility criteria, and post-graduation work permit (PGWP) opportunities.",
+    "keywords": [
+      "Study physiotherapy in Canada for Indian students",
+      "Physiotherapy courses in Canada for international students",
+      "Best physiotherapy universities in Canada",
+      "Physiotherapy admission requirements in Canada",
+      "Physiotherapy eligibility after 12th",
+      "Master of Physical Therapy in Canada",
+      "Physiotherapy tuition fees in Canada",
+      "Cost of studying physiotherapy in Canada for Indian students",
+      "Physiotherapy licensing in Canada",
+      "Physiotherapy jobs in Canada",
+      "Physiotherapist salary in Canada",
+      "BPT graduates in Canada",
+      "Canadian physiotherapy colleges",
+      "Study physical therapy in Canada"
+    ]
   },
   "hero": {
-    "badge": "Study Abroad - Canada",
+    "badge": "Study Abroad · Canada",
     "title": "Indian Students Can Study Physiotherapy in Canada",
-    "subtitle": "Students interested in studying international healthcare frequently choose Canada as their location. Universities with cutting-edge rehabilitation facilities, hands-on clinical training, and a focus on evidence-based treatment can offer programs for students who wish to study physiotherapy in Canada.",
+    "subtitle": "Indian Students Can Study Physiotherapy in Canada",
     "ctaText": "Book Free Counselling",
-    "image": ""
+    "image": "/uploads/study_abroad/canada/canada_physiotherapy_Alberta_University-image4.png"
   },
   "stats": [
     {
@@ -35,49 +51,564 @@
     "eligibility": "Recognised academic qualification + IELTS / TOEFL / PTE proficiency",
     "medium": "English & French Taught"
   },
-  "overview": "Students interested in studying international healthcare frequently choose Canada as their location. Universities with cutting-edge rehabilitation facilities, hands-on clinical training, and a focus on evidence-based treatment can offer programs for students who wish to study physiotherapy in Canada.\n\nThe information and practical abilities needed to evaluate movement issues, enhance physical function, control pain and aid in patient recovery are developed by students enrolled in physiotherapy courses in Canada.\n\nThe fact that physiotherapy is a regulated profession in many Canadian jurisdictions is significant for Indian students. Obtaining a degree in physiotherapy does not immediately entitle one to practice. Before applying, students should verify the program's accreditation, their eligibility for foreign enrollment, the physiotherapy licensing criteria in Canada and the overall cost.\n\nEdu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey..",
+  "overview": [
+    "Students interested in studying international healthcare frequently choose Canada as their location. Universities with cutting-edge rehabilitation facilities, hands-on clinical training, and a focus on evidence-based treatment can offer programs for students who wish to study physiotherapy in Canada.",
+    "The information and practical abilities needed to evaluate movement issues, enhance physical function, control pain and aid in patient recovery are developed by students enrolled in physiotherapy courses in Canada.",
+    "Quality Education: Gain information through organized , physiotherapy programs in Canada that integrate scientific research, theoretical understanding, and hands-on training."
+  ],
   "universities": [
     {
-      "name": "Manitoba University",
-      "location": "Winnipeg, Manitoba",
+      "name": "Alberta University",
+      "location": "Canada",
       "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
+      "img": "/uploads/study_abroad/canada/canada_physiotherapy_Alberta_University-image4.png",
+      "image": "/uploads/study_abroad/canada/canada_physiotherapy_Alberta_University-image4.png",
+      "desc": "The Master of Science in Physical Therapy program lasts for around two years. Alberta University is one of Canada's top recognized institutions offering advanced academic and research programs."
     },
     {
-      "name": "University of the West London",
-      "location": "Winnipeg, Manitoba",
+      "name": "Manitoba University",
+      "location": "Canada",
       "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
+      "img": "/uploads/study_abroad/canada/canada_physiotherapy_Manitoba_University-image1.png",
+      "image": "/uploads/study_abroad/canada/canada_physiotherapy_Manitoba_University-image1.png",
+      "desc": "The Master of Physical Therapy program, The duration is roughly two years. Manitoba University is one of Canada's top recognized institutions offering advanced academic and research programs."
     },
     {
       "name": "University of Dalhousie in Halifax",
-      "location": "Winnipeg, Manitoba",
+      "location": "Canada",
       "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
+      "img": "/uploads/study_abroad/canada/canada_physiotherapy_University_of_Dalhousie_in_Halifax-image3.png",
+      "image": "/uploads/study_abroad/canada/canada_physiotherapy_University_of_Dalhousie_in_Halifax-image3.png",
+      "desc": "The Master of Science in Physiotherapy program lasts for about two years. University of Dalhousie in Halifax is one of Canada's top recognized institutions offering advanced academic and research programs."
     },
     {
-      "name": "Alberta University",
-      "location": "Edmonton, Alberta",
+      "name": "University of the West London",
+      "location": "Canada",
       "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
+      "img": "/uploads/study_abroad/canada/canada_physiotherapy_University_of_the_West_London-image2.png",
+      "image": "/uploads/study_abroad/canada/canada_physiotherapy_University_of_the_West_London-image2.png",
+      "desc": "The Master of Physical Therapy program, The duration is roughly two years. University of the West London is one of Canada's top recognized institutions offering advanced academic and research programs."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why Canada",
+      "title": "Why Study Physiotherapy in Canada?",
+      "lead": "Students interested in studying international healthcare frequently choose Canada as their location. Universities with cutting-edge rehabilitation facilities, hands-on clinical training, and a focus on evidence-based treatment can offer programs for students who wish to study physiotherapy in Canada.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The information and practical abilities needed to evaluate movement issues, enhance physical function, control pain and aid in patient recovery are developed by students enrolled in physiotherapy courses in Canada."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Key Advantages of Pursuing Physiotherapy Education in Canada"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Quality Education: Gain information through organized , physiotherapy programs in Canada that integrate scientific research, theoretical understanding, and hands-on training.",
+            "Acquire supervised experience in community healthcare institutions, hospitals, rehabilitation clinics, and other clinical settings.",
+            "Learn about contemporary physiotherapy equipment, therapeutic exercises, movement evaluation, and rehabilitation treatments at advanced rehabilitation facilities.",
+            "Career Opportunities: Subject to professional registration explore physiotherapy employment in Canada at hospitals, private clinics, sports rehabilitation centers, long-term care facilities and community healthcare settings.",
+            "Opportunities for Specialization: Gain further experience in sports physical therapy, neurological rehabilitation, musculoskeletal care, pediatric physical therapy, and geriatric rehabilitation.",
+            "Examine evidence-based treatment approaches, research on rehabilitation, and new developments in medical technology.",
+            "International Exposure: Learn in a multicultural setting and hone your communication and patient-care abilities.",
+            "Pursue postgraduate courses, clinical specialization, teaching, research, or healthcare management as your next course of study."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The fact that physiotherapy is a regulated profession in many Canadian jurisdictions is significant for Indian students. Obtaining a degree in physiotherapy does not immediately entitle one to practice. Before applying, students should verify the program's accreditation, their eligibility for foreign enrollment, the physiotherapy licensing criteria in Canada and the overall cost."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Courses in Physiotherapy in Canada",
+      "lead": "Professional physiotherapy degrees, undergraduate training programs, graduate degrees, and research-based courses are all available in Canadian universities. The distinctions between professional physiotherapy education and undergraduate preparation should be understood by students looking for physiotherapy courses in Canada for international students.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Knowledge of human movement, exercise science, and physical activity is provided via a three to four-year Bachelor of Science in Kinesiology ."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A foundation in health sciences and associated courses is provided by the three to four-year Bachelor of Health Sciences program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A professional graduate-entry program that prepares students for physiotherapy practice, the Master of Physical Therapy (MPT) program lasts about two years."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Depending on the university and program structure, the Master of Science in Physical Therapy program takes about two years to complete."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master of Science in Rehabilitation Sciences - 1-2 years or longer - Concentrates on healthcare topics and rehabilitation research."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "PhD in Rehabilitation Sciences: 3–6 years; research-based qualifications for academic and research careers."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Graduate-entry programs make up the majority of professional physiotherapy programs in Canada. Before applying, candidates often need to finish a bachelor's degree and certain required courses."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Canadian Universities",
+      "title": "Canada's Top Universities for Physiotherapy",
+      "lead": "Students looking for the best physiotherapy universities in Canada might look into schools that offer programs in rehabilitation sciences or professional physical therapy education.",
+      "groups": [],
+      "unis": [
+        {
+          "name": "Alberta University",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_physiotherapy_Alberta_University-image4.png",
+          "image": "/uploads/study_abroad/canada/canada_physiotherapy_Alberta_University-image4.png",
+          "desc": "The Master of Science in Physical Therapy program lasts for around two years. Alberta University is one of Canada's top recognized institutions offering advanced academic and research programs."
+        },
+        {
+          "name": "Manitoba University",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_physiotherapy_Manitoba_University-image1.png",
+          "image": "/uploads/study_abroad/canada/canada_physiotherapy_Manitoba_University-image1.png",
+          "desc": "The Master of Physical Therapy program, The duration is roughly two years. Manitoba University is one of Canada's top recognized institutions offering advanced academic and research programs."
+        },
+        {
+          "name": "University of Dalhousie in Halifax",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_physiotherapy_University_of_Dalhousie_in_Halifax-image3.png",
+          "image": "/uploads/study_abroad/canada/canada_physiotherapy_University_of_Dalhousie_in_Halifax-image3.png",
+          "desc": "The Master of Science in Physiotherapy program lasts for about two years. University of Dalhousie in Halifax is one of Canada's top recognized institutions offering advanced academic and research programs."
+        },
+        {
+          "name": "University of the West London",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_physiotherapy_University_of_the_West_London-image2.png",
+          "image": "/uploads/study_abroad/canada/canada_physiotherapy_University_of_the_West_London-image2.png",
+          "desc": "The Master of Physical Therapy program, The duration is roughly two years. University of the West London is one of Canada's top recognized institutions offering advanced academic and research programs."
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Qualifications for Physiotherapy Study in Canada",
+      "lead": "The university, program, applicant category, and academic background all affect the eligibility requirements for physiotherapy in Canada.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Qualifications for Programs in Professional Physiotherapy"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "The completion of a recognized bachelor's degree or the required undergraduate credits from the university is the academic qualification.",
+            "Anatomy, physiology, psychology, statistics, biology, and other disciplines designated by the institution may be included in the courses.",
+            "Academic Performance: Due to the competitive nature of admittance, a high university GPA is crucial.",
+            "It may be necessary to take the TOEFL iBT, IELTS Academic, or another recognized test to demonstrate English language proficiency.",
+            "Relevant Experience: Healthcare, rehabilitation, volunteering, and patient-facing experience are all taken into consideration by certain colleges.",
+            "Interviews, further applications, personal statements, or references may be needed for additional assessments.",
+            "Certain universities limit admission to professional physiotherapy programs to citizens or permanent residents of Canada."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "In order to participate in clinical rotations, students must fulfill health, immunization, background screening, and other standards."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Can Indian Students After Class 12 Pursue Physiotherapy in Canada?"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "After completing science courses in Class 12, Indian students could first think about pursuing related college degrees in biological sciences, health sciences, or kinesiology."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "However, before enrolling to a professional graduate-entry physiotherapy school, studying physiotherapy in Canada after Class 12 typically entails finishing undergraduate preparation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students who meet the admission and citizenship requirements of an approved professional program may apply after completing the necessary undergraduate coursework and prerequisite courses."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Indian BPT Graduates' Eligibility"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Instead of assuming that a Canadian master's degree is the only option, Indian students who have earned a Bachelor of Physiotherapy (BPT) should look at the Canadian physiotherapy licensing pathway for globally educated physiotherapists."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Physiotherapy Admission Requirements in Canada",
+      "lead": "Before submitting their applications, applicants should be aware of the physiotherapy entrance requirements in Canada for international students.",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Bachelor's Degree | A recognized undergraduate degree or the required credits indicated by the university. |",
+            "Academic Transcripts | Records from Class 12 and all completed university studies, where applicable. |",
+            "Anatomy, physiology, statistics, psychology, and other specific subjects are examples of prerequisite courses.",
+            "GPA | Academic performance at the competitive university level. |",
+            "English Language Proficiency | IELTS Academic, TOEFL iBT, or an acceptable alternative, if required. |",
+            "References | If necessary, academic or professional references. |",
+            "Relevant Experience | When applicable, experience in healthcare, rehabilitation, volunteering, or observation. |",
+            "Interview | May evaluate interpersonal skills, motivation, communication, and judgment. |",
+            "Supplementary Application | Extra forms, activity logs, or evaluations, as needed. |",
+            "Clinical Clearance | Background checks, immunization records, and health paperwork needed for placements. |"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Each university has different criteria for studying physiotherapy in Canada. The university should be contacted directly by applicants to confirm minimum grades, prerequisite courses, deadlines, and eligibility for foreign admission."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "The cost of Physiotherapy Education in Canada",
+      "lead": "The university, program level, province, tuition category, and city all affect how much it costs for Indian students to study physiotherapy in Canada. International and domestic students may pay varying fees for professional physiotherapy programs.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Projected Annual Costs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Tuition Costs - CAD 20,000–65,000+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Lodging - CAD 10,000–24,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Food and groceries- CAD 3,600–7,200"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Transportation - 1,000–2,400 CAD"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Books and Study Guides - CAD 500–1,500"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Personal Expenses and Health Insurance - CAD 2,000–5,000."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission Procedure for Physiotherapy in Canada",
+      "lead": "Careful preparation is necessary for the admission procedure for physiotherapy in Canada , particularly for foreign candidates who must fulfill undergraduate requirements.",
+      "groups": [
+        {
+          "t": "steps",
+          "items": [
+            {
+              "step": 1,
+              "title": "Select the Appropriate Study Route",
+              "desc": "Determine if you require a postgraduate research qualification, a professional physiotherapy program, or an undergraduate degree."
+            },
+            {
+              "step": 2,
+              "title": "Verify Your Eligibility for University",
+              "desc": "Examine the requirements for admission, necessary courses, minimum GPA, English language proficiency, and foreign application eligibility."
+            },
+            {
+              "step": 3,
+              "title": "Finish the prerequisites for undergraduate studies",
+              "desc": "Finish the prerequisite university courses and get the necessary bachelor's degree before enrolling to a professional graduate-entry program."
+            },
+            {
+              "step": 4,
+              "title": "Get Your Application Ready",
+              "desc": "Gather references, personal statements, English language test scores, degree certificates, academic records, and further application materials."
+            },
+            {
+              "step": 5,
+              "title": "Send in Your Application",
+              "desc": "Meet all deadlines and submit your application using the university's official application portal. Separate supplemental applications may be required by certain universities."
+            },
+            {
+              "step": 6,
+              "title": "Finish Any Further Evaluations",
+              "desc": "If the institution requests it, participate in interviews or finish other tests."
+            },
+            {
+              "step": 7,
+              "title": "Accept the Offer of Admission",
+              "desc": "Examine the requirements for enrollment, tuition, deposits, and admission."
+            },
+            {
+              "step": 8,
+              "title": "Get Ready for Clinical and Study Placements",
+              "desc": "Make arrangements for lodging, money, medical records, vaccination records, and any necessary screenings."
+            },
+            {
+              "step": 9,
+              "title": "Submit an application for a study permit in Canada",
+              "desc": "Follow the current immigration regulations and finish the Canadian study permit application process if you qualify."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Registration and Licensing for Physiotherapy in Canada",
+      "lead": "For graduates who wish to work professionally, obtaining a physiotherapy license in Canada is a crucial first step. A student does not always have the right to work as a licensed physiotherapist after completing a qualifying academic program.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Canadian Professional Program Graduates' Licensing Pathway"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Finish a professional physiotherapy education program that qualifies you.",
+            "In the province or territory where you plan to practice, submit an application to the physiotherapy regulatory body.",
+            "fulfill the educational, linguistic, moral, and other registration standards set forth by the regulator.",
+            "Finish the necessary tests or competency evaluations.",
+            "Prior to working as a physiotherapist, obtain registration or a license."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Indian BPT Graduates' Licensing"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Indian-qualified physiotherapists may be required to pass tests or fulfill other competency requirements, provide academic and professional paperwork, exhibit language ability, and undergo credential assessment."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For physiotherapists with foreign training, the Canadian Alliance of Physiotherapy Regulators (CAPR) offers certification and evaluation services. It is advisable to compare the current national and provincial regulations with the precise physiotherapy registration requirements in Canada."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Canada's Physiotherapy Pay and career opportunities",
+      "lead": "Graduates may look into physiotherapy employment in Canada in various healthcare and rehabilitation settings after fulfilling the prerequisites for professional registration. Qualifications, experience, geography, professional registration, and employer criteria all affect career options.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Employment Prospects Following Physiotherapy Education in Canada"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Clinical physiotherapists evaluate patients' physical function and create treatment regimens.",
+            "Supports injury prevention, recovery, and return-to-sport initiatives as a sports physiotherapist.",
+            "Neurological Physiotherapist - Assists patients in managing mobility issues related to neurological disorder",
+            "Musculoskeletal Physiotherapist - Handles joint issues, musculoskeletal injuries, and conditions associated with movement.",
+            "Children's mobility, growth, and physical therapy are supported by pediatric physiotherapists.",
+            "Geriatric physiotherapists assist senior citizens in enhancing their independence, strength, mobility, and balance.",
+            "Rehabilitation Specialist - Assists in recuperation after illness, surgery, or injury within the appropriate professional scope.",
+            "Community Physiotherapist - Offers rehabilitation treatments in home-based or community healthcare environments.",
+            "Academic or Researcher - Teaches students or carries out rehabilitative research, frequently with additional credentials."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Canadian Physiotherapist Salary"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The pay for physiotherapists in Canada varies by province, employer, experience, practice area, and whether the practitioner is hired or self-employed."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Needed",
+      "lead": "Depending on their academic background and program of choice, students getting ready for physiotherapy admission in Canada should typically gather the following documents:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "valid identity documents and a passport.",
+            "Certificate and mark sheet for Class 10.",
+            "Mark sheet and certificate for class 12.",
+            "certificate of bachelor's degree, if relevant.",
+            "course descriptions and university transcripts for required courses.",
+            "Proof of the necessary educational background.",
+            "Results from the TOEFL iBT, IELTS Academic, or recognized English language tests, if necessary.",
+            "filled out the application for a university.",
+            "If necessary, provide a statement of intent or a personal statement.",
+            "referral letters, upon request.",
+            "Eleven. If necessary, a curriculum vitae or documentation of pertinent medical experience.",
+            "Additional interview or application materials, as needed.",
+            "Evidence of scholarship .",
+            "acceptance letter from a Canadian university that qualifies.",
+            "Examine the application materials for permits.",
+            "Records of health and vaccinations, if necessary for clinical assignments.",
+            "documentation from police or background checks, as necessary."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Programs and universities have different criteria for documents. In addition to making sure that their transcripts and prerequisite courses satisfy the university's standards, applicants should adhere to the official instructions for their targeted intake."
+          ]
+        }
+      ]
     }
   ],
   "faq": [
     {
+      "q": "After Class 12, are Indian students able to study physiotherapy studies in Canada?",
+      "a": "Yes, After Class 12, Indian kids can pursue appropriate undergraduate degrees. However, a bachelor's degree and preparatory coursework are required for professional physiotherapy programs at many Canadian universities, which are graduate-entry programs. Additionally, students should confirm if overseas applicants are accepted into the professional program.",
       "question": "After Class 12, are Indian students able to study physiotherapy studies in Canada?",
       "answer": "Yes, After Class 12, Indian kids can pursue appropriate undergraduate degrees. However, a bachelor's degree and preparatory coursework are required for professional physiotherapy programs at many Canadian universities, which are graduate-entry programs. Additionally, students should confirm if overseas applicants are accepted into the professional program."
     },
     {
+      "q": "Does studying physiotherapy in Canada need NEET?",
+      "a": "For Canadian physiotherapy programs, NEET is typically not a prerequisite for entrance. Universities set their own standards for English language proficiency, admission processes, and academic prerequisites.",
       "question": "Does studying physiotherapy in Canada need NEET?",
-      "answer": "For Canadian physiotherapy programs, NEET is typically not a prerequisite for entrance. Universities set their own standards for English language proficiency, admission processes, and academic prerequisites. 3. In Canada, how long does it take to become a physiotherapist? After completing the necessary undergraduate coursework, a professional Master of Physical Therapy or comparable program typically takes two years. If a student must first finish additional required courses or a bachelor's degree, the overall duration may be longer."
+      "answer": "For Canadian physiotherapy programs, NEET is typically not a prerequisite for entrance. Universities set their own standards for English language proficiency, admission processes, and academic prerequisites."
     },
     {
+      "q": "In Canada, how long does it take to become a physiotherapist?",
+      "a": "After completing the necessary undergraduate coursework, a professional Master of Physical Therapy or comparable program typically takes two years. If a student must first finish additional required courses or a bachelor's degree, the overall duration may be longer.",
+      "question": "In Canada, how long does it take to become a physiotherapist?",
+      "answer": "After completing the necessary undergraduate coursework, a professional Master of Physical Therapy or comparable program typically takes two years. If a student must first finish additional required courses or a bachelor's degree, the overall duration may be longer."
+    },
+    {
+      "q": "How much does it cost to study physiotherapy in Canada?",
+      "a": "The university, tuition category, housing, living expenses, insurance, and length of the program all affect the cost of physiotherapy studies in Canada. Students should make a budget that covers the whole course of study, including any required degrees, and consult official tuition schedules.",
       "question": "How much does it cost to study physiotherapy in Canada?",
       "answer": "The university, tuition category, housing, living expenses, insurance, and length of the program all affect the cost of physiotherapy studies in Canada. Students should make a budget that covers the whole course of study, including any required degrees, and consult official tuition schedules."
     },
     {
+      "q": "Can Indian BPT graduates work as physiotherapists in Canada?",
+      "a": "Yes, possibly. The relevant credential assessment and registration standards must be fulfilled by Indian BPT graduates. Before they can practice, they might need to take further tests, evaluations, or other requirements, depending on the province or territory and their qualifications.",
       "question": "Can Indian BPT graduates work as physiotherapists in Canada?",
-      "answer": "Yes, possibly. The relevant credential assessment and registration standards must be fulfilled by Indian BPT graduates. Before they can practice, they might need to take further tests, evaluations, or other requirements, depending on the province or territory and their qualifications. Use Edu Hawk to Arrange Your Physiotherapy Education in Canada Edu Hawk Worldwide Consultancy assists Indian students in understanding university admission requirements, comparing study pathways, investigating physiotherapy courses in Canada , and getting ready for their overseas education journey. For advice on studying physiotherapy in Canada for Indian students, university selection, eligibility, tuition planning, application procedures, and potential career pathways, get in touch with Edu Hawk Worldwide Consultancy. Study physiotherapy in Canada for Indian students Physiotherapy courses in Canada for international students Best physiotherapy universities in Canada Physiotherapy admission requirements in Canada Physiotherapy eligibility after 12th Master of Physical Therapy in Canada Physiotherapy tuition fees in Canada Cost of studying physiotherapy in Canada for Indian students Physiotherapy licensing in Canada Physiotherapy jobs in Canada Physiotherapist salary in Canada BPT graduates in Canada Canadian physiotherapy colleges Study physical therapy in Canada"
+      "answer": "Yes, possibly. The relevant credential assessment and registration standards must be fulfilled by Indian BPT graduates. Before they can practice, they might need to take further tests, evaluations, or other requirements, depending on the province or territory and their qualifications."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "After Class 12, are Indian students able to study physiotherapy studies in Canada?",
+      "a": "Yes, After Class 12, Indian kids can pursue appropriate undergraduate degrees. However, a bachelor's degree and preparatory coursework are required for professional physiotherapy programs at many Canadian universities, which are graduate-entry programs. Additionally, students should confirm if overseas applicants are accepted into the professional program.",
+      "question": "After Class 12, are Indian students able to study physiotherapy studies in Canada?",
+      "answer": "Yes, After Class 12, Indian kids can pursue appropriate undergraduate degrees. However, a bachelor's degree and preparatory coursework are required for professional physiotherapy programs at many Canadian universities, which are graduate-entry programs. Additionally, students should confirm if overseas applicants are accepted into the professional program."
+    },
+    {
+      "q": "Does studying physiotherapy in Canada need NEET?",
+      "a": "For Canadian physiotherapy programs, NEET is typically not a prerequisite for entrance. Universities set their own standards for English language proficiency, admission processes, and academic prerequisites.",
+      "question": "Does studying physiotherapy in Canada need NEET?",
+      "answer": "For Canadian physiotherapy programs, NEET is typically not a prerequisite for entrance. Universities set their own standards for English language proficiency, admission processes, and academic prerequisites."
+    },
+    {
+      "q": "In Canada, how long does it take to become a physiotherapist?",
+      "a": "After completing the necessary undergraduate coursework, a professional Master of Physical Therapy or comparable program typically takes two years. If a student must first finish additional required courses or a bachelor's degree, the overall duration may be longer.",
+      "question": "In Canada, how long does it take to become a physiotherapist?",
+      "answer": "After completing the necessary undergraduate coursework, a professional Master of Physical Therapy or comparable program typically takes two years. If a student must first finish additional required courses or a bachelor's degree, the overall duration may be longer."
+    },
+    {
+      "q": "How much does it cost to study physiotherapy in Canada?",
+      "a": "The university, tuition category, housing, living expenses, insurance, and length of the program all affect the cost of physiotherapy studies in Canada. Students should make a budget that covers the whole course of study, including any required degrees, and consult official tuition schedules.",
+      "question": "How much does it cost to study physiotherapy in Canada?",
+      "answer": "The university, tuition category, housing, living expenses, insurance, and length of the program all affect the cost of physiotherapy studies in Canada. Students should make a budget that covers the whole course of study, including any required degrees, and consult official tuition schedules."
+    },
+    {
+      "q": "Can Indian BPT graduates work as physiotherapists in Canada?",
+      "a": "Yes, possibly. The relevant credential assessment and registration standards must be fulfilled by Indian BPT graduates. Before they can practice, they might need to take further tests, evaluations, or other requirements, depending on the province or territory and their qualifications.",
+      "question": "Can Indian BPT graduates work as physiotherapists in Canada?",
+      "answer": "Yes, possibly. The relevant credential assessment and registration standards must be fulfilled by Indian BPT graduates. Before they can practice, they might need to take further tests, evaluations, or other requirements, depending on the province or territory and their qualifications."
     }
   ]
 }

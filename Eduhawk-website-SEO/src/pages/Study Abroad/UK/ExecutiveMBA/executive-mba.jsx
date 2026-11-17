@@ -1,3 +1,4 @@
+import cmsData from "../../../../data/study_abroad/uk/executive_mba.json";
 import React from "react";
 import { AbroadCoursePage } from "../../../../component/CoursePageKit.jsx";
 
@@ -22,7 +23,6 @@ const page = {
     "Executive Master of Business Administration (Executive MBA or EMBA) is a postgraduate management program aimed primarily at experienced professionals, managers, entrepreneurs, and business executives who wish to advance their careers while still working. Studying a Executive MBA in the UK will give you leadership skills, strategic thinking and global business knowledge."
   ],
   "overview": [
-    "Executive Master of Business Administration (Executive MBA or EMBA) is a postgraduate management program aimed primarily at experienced professionals, managers, entrepreneurs, and business executives who wish to advance their careers while still working. Studying a Executive MBA in the UK will give you leadership skills, strategic thinking and global business knowledge.",
     "The key reasons to pursue an Executive MBA in the UK are:",
     "International Recognition: UK business schools provide management courses that are recognized worldwide and can accelerate a career."
   ],
@@ -591,9 +591,40 @@ const page = {
 };
 
 export default function executivembaUK() {
+  const dynamicPage = {
+    ...page,
+    title: cmsData?.seo?.title || page.title,
+    description: cmsData?.seo?.description || page.description,
+    introTitle: cmsData?.hero?.title || page.introTitle || page.name,
+    heroParas: cmsData?.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
+    overview: (cmsData?.overview && cmsData.overview.length > 0 && cmsData.overview[0] !== "")
+      ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
+      : page.overview,
+    sections: (cmsData?.sections && cmsData.sections.length > 0)
+      ? cmsData.sections
+      : page.sections,
+    universities: (cmsData?.universities && cmsData.universities.length > 0)
+      ? cmsData.universities.map((u, idx) => ({
+          ...u,
+          img: u.img || u.image || page.universities?.[idx]?.img,
+          image: u.img || u.image || page.universities?.[idx]?.image || page.universities?.[idx]?.img
+        }))
+      : page.universities,
+    faqs: (cmsData?.faqs && cmsData.faqs.length > 0)
+      ? cmsData.faqs.map(f => ({ q: f.q || f.question, a: f.a || f.answer, question: f.q || f.question, answer: f.a || f.answer }))
+      : (cmsData?.faq && cmsData.faq.length > 0)
+        ? cmsData.faq.map(f => ({ q: f.q || f.question, a: f.a || f.answer, question: f.q || f.question, answer: f.a || f.answer }))
+        : page.faqs,
+    seo: {
+      title: cmsData?.seo?.title || page.title,
+      description: cmsData?.seo?.description || page.description,
+      keywords: cmsData?.seo?.keywords || page.keywords,
+    },
+  };
+
   return (
     <AbroadCoursePage
-      page={page}
+      page={dynamicPage}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

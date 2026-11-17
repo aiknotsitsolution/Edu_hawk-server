@@ -1,41 +1,63 @@
 {
-  "seo": {
-    "title": "Study Nursing in the UK for Indian Students | Edu-Hawk Worldwide",
-    "description": "Complete guide to Nursing in the UK for Indian students: Top UK universities, eligibility criteria, tuition fees (£14,000–£35,000/yr), scholarships, and 2-year post-study work visa (Graduate Route)."
-  },
   "hero": {
-    "badge": "Study Abroad - United Kingdom",
     "title": "Study Nursing in the UK",
     "subtitle": "The UK has a good reputation for nursing education due to its quality healthcare education, excellent clinical facilities and chances to gain practical experience. Students acquire essential patient-care skills and experience working in hospitals and community health care settings."
   },
   "overview": [
     "The UK has a good reputation for nursing education due to its quality healthcare education, excellent clinical facilities and chances to gain practical experience. Students acquire essential patient-care skills and experience working in hospitals and community health care settings.",
-    "Main advantages are:",
-    "Respected nursing education in the world Clinical placements"
+    "Edu Hawk Worldwide Consultancy assists students in understanding the university admission requirements, exploring the international study opportunities and preparing for the overseas education journey."
+  ],
+  "universities": [
+    {
+      "name": "Birmingham University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_nursing_Birmingham_University-image1.png",
+      "image": "/uploads/study_abroad/uk/uk_nursing_Birmingham_University-image1.png",
+      "desc": "Birmingham University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Glasgow University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_nursing_Glasgow_University-image3.png",
+      "image": "/uploads/study_abroad/uk/uk_nursing_Glasgow_University-image3.png",
+      "desc": "Students should evaluate the clinical placement arrangements, international entry requirements, and nursing courses offered by each university."
+    },
+    {
+      "name": "Nottingham University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_nursing_Nottingham_University-image4.png",
+      "image": "/uploads/study_abroad/uk/uk_nursing_Nottingham_University-image4.png",
+      "desc": "Nottingham University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Southampton University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_nursing_Southampton_University-image2.png",
+      "image": "/uploads/study_abroad/uk/uk_nursing_Southampton_University-image2.png",
+      "desc": "Students should evaluate the clinical placement arrangements, international entry requirements, and nursing courses offered by each university."
+    }
   ],
   "sections": [
     {
+      "slot": "why-study",
+      "eyebrow": "Why UK",
       "title": "Why choose to study nursing in the UK?",
-      "eyebrow": "Why Study in the UK",
+      "lead": "The UK has a good reputation for nursing education due to its quality healthcare education, excellent clinical facilities and chances to gain practical experience. Students acquire essential patient-care skills and experience working in hospitals and community health care settings.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "The UK has a good reputation for nursing education due to its quality healthcare education, excellent clinical facilities and chances to gain practical experience. Students acquire essential patient-care skills and experience working in hospitals and community health care settings."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Main advantages are:"
-          ]
+          "t": "h4",
+          "text": "Main advantages are:"
         },
         {
           "t": "ul",
           "items": [
             "Respected nursing education in the world Clinical placements",
             "Opportunities to specialize in different nursing areas.",
-            "There are openings in community care, clinics and hospitals. There are  research and postgraduate study routes ."
+            "There are openings in community care, clinics and hospitals. There are research and postgraduate study routes ."
           ]
         },
         {
@@ -47,15 +69,11 @@
       ]
     },
     {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
       "title": "Nursing courses in the UK",
-      "eyebrow": "Course Guide",
+      "lead": "BSc Nursing: Normally for a period of three years, subject to the course.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "BSc Nursing: Normally for a period of three years, subject to the course."
-          ]
-        },
         {
           "t": "ul",
           "items": [
@@ -75,39 +93,58 @@
       ]
     },
     {
+      "slot": "universities",
+      "eyebrow": "Top UK Universities",
       "title": "The UK's Best Universities for Nursing",
-      "eyebrow": "Top Institutions",
+      "lead": "",
       "groups": [
         {
-          "t": "universities",
+          "t": "p",
           "items": [
-            {
-              "name": "Southampton University",
-              "desc": "Prominent UK institution known for academic excellence, state-of-the-art facilities, and strong industry linkages.",
-              "imgKey": "uniImg_Southampton_University_webp"
-            },
-            {
-              "name": "Birmingham University",
-              "desc": "Prominent UK institution known for academic excellence, state-of-the-art facilities, and strong industry linkages.",
-              "imgKey": "uniImg_Birmingham_University_webp"
-            },
-            {
-              "name": "Nottingham University",
-              "desc": "Prominent UK institution known for academic excellence, state-of-the-art facilities, and strong industry linkages.",
-              "imgKey": "uniImg_Nottingham_University_webp"
-            },
-            {
-              "name": "Glasgow University",
-              "desc": "Students should evaluate the clinical placement arrangements, international entry requirements, and nursing courses offered by each university.",
-              "imgKey": "uniImg_Glasgow_University_webp"
-            }
+            "Among the universities to look at are:"
           ]
+        }
+      ],
+      "unis": [
+        {
+          "name": "Birmingham University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_nursing_Birmingham_University-image1.png",
+          "image": "/uploads/study_abroad/uk/uk_nursing_Birmingham_University-image1.png",
+          "desc": "Birmingham University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Glasgow University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_nursing_Glasgow_University-image3.png",
+          "image": "/uploads/study_abroad/uk/uk_nursing_Glasgow_University-image3.png",
+          "desc": "Students should evaluate the clinical placement arrangements, international entry requirements, and nursing courses offered by each university."
+        },
+        {
+          "name": "Nottingham University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_nursing_Nottingham_University-image4.png",
+          "image": "/uploads/study_abroad/uk/uk_nursing_Nottingham_University-image4.png",
+          "desc": "Nottingham University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Southampton University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_nursing_Southampton_University-image2.png",
+          "image": "/uploads/study_abroad/uk/uk_nursing_Southampton_University-image2.png",
+          "desc": "Students should evaluate the clinical placement arrangements, international entry requirements, and nursing courses offered by each university."
         }
       ]
     },
     {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
       "title": "Requirements of British Nursing Students",
-      "eyebrow": "Eligibility & Process",
+      "lead": "",
       "groups": [
         {
           "t": "p",
@@ -138,8 +175,10 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "UK Nursing Admission Requirements",
-      "eyebrow": "Eligibility & Process",
+      "lead": "",
       "groups": [
         {
           "t": "p",
@@ -174,15 +213,11 @@
       ]
     },
     {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
       "title": "What is the Cost of Nursing Education in the UK?",
-      "eyebrow": "Tuition & Living",
+      "lead": "The following is an estimate of expenses for international students:",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The following is an estimate of expenses for international students:"
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -204,127 +239,18 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "The Nursing Admission Procedure of the UK",
-      "eyebrow": "Eligibility & Process",
+      "lead": "",
       "groups": []
     },
     {
-      "title": "Select a university and **nursing specialty**.",
-      "eyebrow": "Top Institutions",
+      "slot": "careers",
+      "eyebrow": "Career & Salary",
+      "title": "Pay and Employment Prospects in the UK Following Nursing",
+      "lead": "After fulfilling registration requirements, nursing graduates can find employment in NHS hospitals , private hospitals, community healthcare, care services, and specialized clinical departments.",
       "groups": [
-        {
-          "t": "universities",
-          "items": [
-            {
-              "name": "Southampton University",
-              "desc": "Prominent UK institution known for academic excellence, state-of-the-art facilities, and strong industry linkages.",
-              "imgKey": "uniImg_Southampton_University_webp"
-            },
-            {
-              "name": "Birmingham University",
-              "desc": "Prominent UK institution known for academic excellence, state-of-the-art facilities, and strong industry linkages.",
-              "imgKey": "uniImg_Birmingham_University_webp"
-            },
-            {
-              "name": "Nottingham University",
-              "desc": "Prominent UK institution known for academic excellence, state-of-the-art facilities, and strong industry linkages.",
-              "imgKey": "uniImg_Nottingham_University_webp"
-            },
-            {
-              "name": "Glasgow University",
-              "desc": "Students should evaluate the clinical placement arrangements, international entry requirements, and nursing courses offered by each university.",
-              "imgKey": "uniImg_Glasgow_University_webp"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Confirm the academic and English language requirements.",
-      "eyebrow": "Eligibility & Process",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "3. Draft a personal statement, references and transcripts."
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Apply via the university portal or **UCAS**.",
-      "eyebrow": "Top Institutions",
-      "groups": [
-        {
-          "t": "universities",
-          "items": [
-            {
-              "name": "Southampton University",
-              "desc": "Prominent UK institution known for academic excellence, state-of-the-art facilities, and strong industry linkages.",
-              "imgKey": "uniImg_Southampton_University_webp"
-            },
-            {
-              "name": "Birmingham University",
-              "desc": "Prominent UK institution known for academic excellence, state-of-the-art facilities, and strong industry linkages.",
-              "imgKey": "uniImg_Birmingham_University_webp"
-            },
-            {
-              "name": "Nottingham University",
-              "desc": "Prominent UK institution known for academic excellence, state-of-the-art facilities, and strong industry linkages.",
-              "imgKey": "uniImg_Nottingham_University_webp"
-            },
-            {
-              "name": "Glasgow University",
-              "desc": "Students should evaluate the clinical placement arrangements, international entry requirements, and nursing courses offered by each university.",
-              "imgKey": "uniImg_Glasgow_University_webp"
-            },
-            {
-              "name": "Attend an evaluation or interview, if necessary.",
-              "desc": "Prominent UK institution known for academic excellence, state-of-the-art facilities, and strong industry linkages.",
-              "imgKey": null
-            },
-            {
-              "name": "Perform comprehensive background and health checks.",
-              "desc": "Prominent UK institution known for academic excellence, state-of-the-art facilities, and strong industry linkages.",
-              "imgKey": null
-            },
-            {
-              "name": "Accept the offer and arrange accommodation, money and **immigration clearance**.",
-              "desc": "Prominent UK institution known for academic excellence, state-of-the-art facilities, and strong industry linkages.",
-              "imgKey": null
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "The UK's Nursing Accreditation and Recognition",
-      "eyebrow": "Course Guide",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "In the UK, nurses and midwives are governed by the Nursing and Midwifery Council (NMC). A approved nursing program that leads to the proper registration pathway should be selected by students who want to work as registered nurses."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The NMC's applicable registration criteria must be met by internationally qualified nurses. These requirements may include supplementary examinations and English language proof."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "9. Pay and Employment Prospects in the UK Following Nursing"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "After fulfilling registration requirements, nursing graduates can find employment in NHS hospitals , private hospitals, community healthcare, care services, and specialized clinical departments."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -336,18 +262,18 @@
           "items": [
             "Additionally, international graduates must fulfill the relevant immigration and work-permission requirements"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Required in the UK to Pursue Nursing Education",
+      "lead": "",
+      "groups": [
         {
-          "t": "p",
-          "items": [
-            "10. Documents Required in the UK to Pursue Nursing Education"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Documents that are frequently needed include:"
-          ]
+          "t": "h4",
+          "text": "Documents that are frequently needed include:"
         },
         {
           "t": "ul",
@@ -363,180 +289,39 @@
           "items": [
             "Before applying, review the official checklist provided by the university."
           ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "11. FAQs"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Q1. How long does nursing school last in the United Kingdom?"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Although course formats might vary, the majority of pre-registration nursing degrees take approximately three years."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Q2. Is it possible for Indian students to pursue nursing studies in the United Kingdom?"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Yes, as long as they fulfill immigration, academic, English language, and university admission conditions."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Q3. Is IELTS a prerequisite for nursing in the United Kingdom?"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "IELTS or similar recognized English language proficiency is required by several universities. Each university has a different minimum score."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Q4. How much does it cost to become a nurse in the UK?"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Excluding living expenses, international tuition is typically between £15,000 and £30,000 annually. The actual cost varies depending on the course and university."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Q5. Is it possible for foreign nursing graduates to find employment in the United Kingdom?"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "In addition to having the necessary immigration authorization to work, they must fulfill the pertinent NMC registration requirements."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "How can Edu Hawk worldwide Consultancy help me study abroad?"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities."
-          ]
         }
       ]
     }
   ],
-  "universities": [
+  "faqs": [
     {
-      "name": "Southampton University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "",
-      "imgFile": "Southampton_University.webp"
+      "q": "How long does nursing school last in the United Kingdom?",
+      "a": "Although course formats might vary, the majority of pre-registration nursing degrees take approximately three years."
     },
     {
-      "name": "Birmingham University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "",
-      "imgFile": "Birmingham_University.webp"
+      "q": "Is it possible for Indian students to pursue nursing studies in the United Kingdom?",
+      "a": "Yes, as long as they fulfill immigration, academic, English language, and university admission conditions."
     },
     {
-      "name": "Nottingham University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "",
-      "imgFile": "Nottingham_University.webp"
+      "q": "Is IELTS a prerequisite for nursing in the United Kingdom?",
+      "a": "IELTS or similar recognized English language proficiency is required by several universities. Each university has a different minimum score."
     },
     {
-      "name": "Glasgow University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Students should evaluate the clinical placement arrangements, international entry requirements, and nursing courses offered by each university.",
-      "imgFile": "Glasgow_University.webp"
+      "q": "How much does it cost to become a nurse in the UK?",
+      "a": "Excluding living expenses, international tuition is typically between £15,000 and £30,000 annually. The actual cost varies depending on the course and university."
     },
     {
-      "name": "Attend an evaluation or interview, if necessary.",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "",
-      "imgFile": null
+      "q": "Is it possible for foreign nursing graduates to find employment in the United Kingdom?",
+      "a": "In addition to having the necessary immigration authorization to work, they must fulfill the pertinent NMC registration requirements."
     },
     {
-      "name": "Perform comprehensive background and health checks.",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "",
-      "imgFile": null
-    },
-    {
-      "name": "Accept the offer and arrange accommodation, money and **immigration clearance**.",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "",
-      "imgFile": null
+      "q": "How can Edu Hawk worldwide Consultancy help me study abroad?",
+      "a": "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities."
     }
   ],
-  "table": {
-    "title": "Estimated Cost of Studying Nursing in the UK (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (£ / GBP)",
-      "Details / Scope"
-    ],
-    "rows": [
-      [
-        "Undergraduate Degree (Annual)",
-        "£14,000 – £28,000 / year",
-        "Varies by university ranking, laboratory access, and course type"
-      ],
-      [
-        "Postgraduate Degree (Annual)",
-        "£16,000 – £35,000 / year",
-        "1-year intensive master's program or research dissertation"
-      ],
-      [
-        "Monthly Living Costs (Outside London)",
-        "£900 – £1,100 / month",
-        "Includes private/student accommodation, groceries, and utilities"
-      ],
-      [
-        "Monthly Living Costs (London)",
-        "£1,250 – £1,450 / month",
-        "Mandated UKVI maintenance requirement for London study"
-      ],
-      [
-        "Health Surcharge (IHS)",
-        "£776 / year",
-        "Access to UK National Health Service (NHS) for student visa holders"
-      ]
-    ]
-  },
-  "faqs": []
+  "seo": {
+    "title": "Study Nursing in the UK | Edu-Hawk Worldwide",
+    "description": "The UK has a good reputation for nursing education due to its quality healthcare education, excellent clinical facilities and chances to gain practical experien",
+    "keywords": "Study in the UK, Best UK Universities, Edu Hawk Worldwide"
+  }
 }

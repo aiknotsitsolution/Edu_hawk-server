@@ -1,14 +1,15 @@
 {
   "seo": {
     "title": "Summer Courses in Italy for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study Summer Courses in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities."
+    "description": "Study Summer Courses in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
+    "keywords": "Summer Courses in Italy for Indian Students, Summer Schools in Italy, Best Universities for Summer Courses in Italy, Summer Course Eligibility in Italy, Summer Course Admission Requirements in Italy, Cost of Summer Courses in Italy"
   },
   "hero": {
     "badge": "Study Abroad - Italy",
     "title": "Summer Courses in Italy for Indian Students",
-    "subtitle": "12",
+    "subtitle": "Italy is a preferred destination for international students who want to get global exposure through short-term academic programs, summer schools, language courses, cultural workshops and professional trainings. Indian students can choose to enrolll for summer courses in Italy to experience the Italian culture, learn new skills, earn academic credits where available and get a feel of the European university life without having to commit to a full degree program.",
     "ctaText": "Book Free Counselling",
-    "image": ""
+    "image": "/uploads/study_abroad/italy/summer_courses_Bologna_University-image2.png"
   },
   "stats": [
     {
@@ -29,25 +30,589 @@
     }
   ],
   "highlights": {
-    "degree": "Short-term & Certificate",
+    "degree": "Summer Academic & Cultural Programs",
     "duration": "1 to 2 Years (PG) / 3 Years (UG)",
     "fee": "€1,000 – €4,000 / Year (Public) | €6,000 – €20,000 / Year (Private)",
     "eligibility": "Recognised academic qualification + English / Italian proficiency",
-    "medium": "English & Italian Taught"
+    "medium": "English / Italian"
   },
-  "overview": "12\n\nA summer course in Italy can help an Indian student learn an academic subject, add to their CV and gain international exposure within a short period of time.\n\nInternational exposure: Experience the atmosphere of an international learning environment and meet students from other countries.\n\nShort-term learning: Select programs that last only a few days or several weeks, depending on the university.\n\nAcademic enrichment Research classes that will enhance your current degree or future career.\n\nCultural experience: Discover Italian history, art, architecture, food and traditions.\n\nSkill development: Develop communication, research, presentation and subject specific skills.\n\nAcademic credits Some programs may be credited or certificated. Please check the details before applying.\n\nExplore the University: Get a feel for the teaching environment at an Italian institution before committing to a longer course.",
+  "overview": [
+    "Italy is a preferred destination for international students who want to get global exposure through short-term academic programs, summer schools, language courses, cultural workshops and professional trainings. Indian students can choose to enrolll for summer courses in Italy to experience the Italian culture, learn new skills, earn academic credits where available and get a feel of the European university life without having to commit to a full degree program.",
+    "Italian universities organize summer schools in Italy in fields like business, engineering, fashion, design, architecture, medicine, humanities, sustainability and the Italian language and culture. The length of study, language of instruction, tuition fees, admission requirements and the types of certificates issued differ depending on the institution and the program."
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Key Benefits",
+      "title": "Summer courses in Italy: Why study them?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "12"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A summer course in Italy can help an Indian student learn an academic subject, add to their CV and gain international exposure within a short period of time."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "International exposure: Experience the atmosphere of an international learning environment and meet students from other countries."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Short-term learning: Select programs that last only a few days or several weeks, depending on the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic enrichment Research classes that will enhance your current degree or future career."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Cultural experience: Discover Italian history, art, architecture, food and traditions."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Skill development: Develop communication, research, presentation and subject specific skills."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic credits Some programs may be credited or certificated. Please check the details before applying."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Explore the University: Get a feel for the teaching environment at an Italian institution before committing to a longer course."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "2. Summer Course in Italy"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Summer courses in Italy in a variety of educational and professional fields. The below options are examples of typical program categories and are not a guaranty that each university will offer each course each year."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Mode of Instruction"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Possible topics"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Business & Management"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Entrepreneurship, marketing, finance and international business"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Engineering & Technology"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "AI, robotics, computer science, sustainability."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Design + Fashion"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Fashion management, product design, visual communication"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Architecture ."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Architecture History of architecture Sustainable buildings Urban design"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Medicine & Health"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Biomedical sciences, public health, specific research subjects"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Italian language ("
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Italian language and culture, from beginner to expert"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Arts & Humanities"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Art history, literature, history, cultural heritage"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Hospitality & Tourism"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "food culture, hospitality, tourism management"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Environment & Sustainability"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Climate change, renewable, sustainable development."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Duration: Summer schools can last for a few days or several weeks. Some programs combine classroom learning with workshops, field visits, projects or cultural activities."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Popular Courses",
+      "title": "Who can take Summer Courses in Italy?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Eligibility for summer courses in Italy varies by course level, academic subject and university. Many summer schools take international applicants (including students from India)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Typical eligibility considerations are:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Educational Qualification: Currently pursuing high school, undergraduate or postgraduate program as per the course requirement."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic background: Some specialist courses require you to have studied or had experience in a comparable field before."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Language proficiency: English-taught programs may require proof of English proficiency; Italian-taught courses may require Italian language skills."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Age requirements: Some programs have minimum or maximum age requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Technical, medical or research courses may have prerequisite requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Before applying, always verify the eligibility requirements of the particular course."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Italian Universities",
+      "title": "Top Universities in Italy",
+      "lead": "Explore top public research universities and polytechnics in Italy offering English-taught degrees, historic campuses, and generous regional scholarships.",
+      "unis": [
+        {
+          "name": "Bologna University",
+          "location": "Italy",
+          "fee": "€1,000 – €4,000 / Year",
+          "image": "/uploads/study_abroad/italy/summer_courses_Bologna_University-image2.png",
+          "desc": "The university organizes summer and winter schools in a variety of academic fields. Some programs may be taught in English and may earn credits. Official website: Summer and Winter Schools"
+        },
+        {
+          "name": "University of Rome \"La Sapienza\"",
+          "location": "Italy",
+          "fee": "€1,000 – €4,000 / Year",
+          "image": "/uploads/study_abroad/italy/summer_courses_University_of_Rome_La_Sapienza-image3.png",
+          "desc": "Sapienza holds intensive summer and winter schools on a range of subjects. Course Duration, Language, Eligibility & Fees vary from course to course. Summer and Winter Schools Official website"
+        },
+        {
+          "name": "Università degli Studi di Milano",
+          "location": "Bicocca, Italy",
+          "fee": "€1,000 – €4,000 / Year",
+          "image": "/uploads/study_abroad/italy/summer_courses_Bologna_University-image2.png",
+          "desc": "The university has information about summer and winter schools. Students can check the available academic topics and the specific requirements of the programs. Official website: Summer and Winter School Opportunities These are starting points for researching summer courses in Italy and not a ranking of universities or a confirmation that applications are open."
+        }
+      ],
+      "groups": []
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Popular Courses",
+      "title": "Requirements to Enrolll in Summer Courses in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Most summer schools have a shorter application process than full-degree programs, but requirements vary."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Applicants may be asked to provide:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "An application form online.",
+            "Academic transcripts or current enrollment verification.",
+            "CV or resume for selected programs.",
+            "A statement of purpose.",
+            "Proof of knowledge of English or Italian, if required.",
+            "Academic or professional references, as appropriate.",
+            "A copy of passport.",
+            "Payment of the application fee or tuition fee, if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some programs may ask for an interview, portfolio, writing sample or proof of relevant experience."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "6. Italy Summer Course Fees"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The cost of summer courses in Italy depends on the university, subject, duration and services offered. The following are indicative planning estimates and not confirmed fees for specific university programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Type of program"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Estimated course fee (EUR)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Approx INR"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Short introductory course"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "200-600 €"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹21,720-₹65,160"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Summer school (1-4 weeks)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€500-€1,500"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹54,300-₹1,62,900"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Specialized or premium program"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€1,000-3,000+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹1,08,600-3,25,800+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The conversions into INR use an indicative exchange rate of €1 = INR 108.60. University fees may vary, and exchange rates are current."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Before you pay, find out if the published fee covers teaching, study materials, meals, accommodation, excursions, insurance or other services. Inclusions differ by program. Scholarships, discounts or fee waivers may also be available for eligible participants at some universities."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Popular Courses",
+      "title": "How to get admission in Summer Courses in Italy",
+      "groups": [
+        {
+          "t": "step",
+          "step": 1,
+          "title": "Select your course",
+          "desc": "Choose a summer school according to your subject, academic background, language requirements and career goals."
+        },
+        {
+          "t": "step",
+          "step": 2,
+          "title": "Check dates & eligibility",
+          "desc": "Please see course calendar, application deadline, entry requirements, fee and certificate/credit information."
+        },
+        {
+          "t": "step",
+          "step": 3,
+          "title": "Get your documents ready",
+          "desc": "Collect academic records, passport, CV, language evidence and other documents required by the university;"
+        },
+        {
+          "t": "step",
+          "step": 4,
+          "title": "Application",
+          "desc": "Apply via the official university portal and complete any selection or assessment process required."
+        },
+        {
+          "t": "step",
+          "step": 5,
+          "title": "Make travel arrangements and visa formalities",
+          "desc": "Once you have your acceptance, check with the Italian consulate for your nationality and length of course. Don't assume all short courses have the same visa requirements. 8. Certificates of attendance of summer courses and academic credits in Italy Students may receive a certificate of attendance, a certificate of completion or academic credits, depending on the program, upon successful completion of a summer course in Italy . Check out before you register: Whether a certificate is given Whether the course is ECTS or other academic credit. Attendance and assessment requirements. If the credits are transferable to your home university. If the certificate is recognized for any academic or professional purpose you need. A summer school certificate does not automatically replace a full university degree or professional qualification. Transfer Credit is determined by the receiving institution."
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Popular Courses",
+      "title": "Career Benefits And Opportunities After Summer Courses in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Summer courses in Italy can help to build up a student's academic profile and explore options for future study or careers. The value of these will depend on the course content, practical experience and how the student applies the learning."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The potential benefits include:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Stronger academic profile: Show interest in a subject beyond normal coursework."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "International Networking: Meet students, lecturers and researchers from all over the world."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Practical skills: Workshops, projects and short-term training Learn through doing."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Explore careers: Learn about an industry or subject area before committing to a longer program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Further education planning: Research universities and specializations for future applications."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Cultural awareness: Experience of working and learning in an international context."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A short summer course does not guaranty a job, a degree program or a better salary. Its value is best assessed according to your primary qualification and career aspirations."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Popular Courses",
+      "title": "Required Documents for Studying Summer Courses in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Indian students should prepare the documents required for summer courses in Italy by the summer-school provider they have chosen. Typical documents are:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Valid passport",
+            "University application form (filled out).",
+            "Proof of enrollment or academic transcripts.",
+            "CV or resume if necessary.",
+            "Statement of motivation (if applicable).",
+            "prova in lingua inglese o italiana, se disponibile.",
+            "Passport size photograph.",
+            "Acceptance letter in course after admission.",
+            "Proof of payment if required.",
+            "Documents related to visa if applicable in the student's case."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The precise visa paperwork will depend on the length of the course, the purpose of your visit and the Italian immigration laws that apply to you. Before you book your travel, check with the local Italian consulate or visa service for the latest requirements."
+          ]
+        }
+      ]
+    }
+  ],
   "universities": [
+    {
+      "name": "Bologna University",
+      "location": "Italy",
+      "fee": "€1,000 – €4,000 / Year",
+      "image": "/uploads/study_abroad/italy/summer_courses_Bologna_University-image2.png",
+      "desc": "The university organizes summer and winter schools in a variety of academic fields. Some programs may be taught in English and may earn credits. Official website: Summer and Winter Schools"
+    },
     {
       "name": "University of Rome \"La Sapienza\"",
       "location": "Italy",
-      "fee": "€900 – €4,000 / Year (Public) | €6,000 – €20,000 / Year (Private)",
-      "image": ""
+      "fee": "€1,000 – €4,000 / Year",
+      "image": "/uploads/study_abroad/italy/summer_courses_University_of_Rome_La_Sapienza-image3.png",
+      "desc": "Sapienza holds intensive summer and winter schools on a range of subjects. Course Duration, Language, Eligibility & Fees vary from course to course. Summer and Winter Schools Official website"
     },
     {
-      "name": "Sapienza holds intensive summer and winter schools on a range of subjects. Course Duration, Language, Eligibility & Fees vary from course to course.",
-      "location": "Italy",
-      "fee": "Before you pay, find out if the published fee covers teaching, study materials, meals, accommodation, excursions, insurance or other services. Inclusions differ by program. Scholarships, discounts or fee waivers may also be available for eligible participants at some universities.",
-      "image": ""
+      "name": "Università degli Studi di Milano",
+      "location": "Bicocca, Italy",
+      "fee": "€1,000 – €4,000 / Year",
+      "image": "/uploads/study_abroad/italy/summer_courses_Bologna_University-image2.png",
+      "desc": "The university has information about summer and winter schools. Students can check the available academic topics and the specific requirements of the programs. Official website: Summer and Winter School Opportunities These are starting points for researching summer courses in Italy and not a ranking of universities or a confirmation that applications are open."
     }
   ],
   "faq": [
@@ -61,7 +626,37 @@
     },
     {
       "question": "What is the cost of attending summer courses in Italy?",
-      "answer": "Fees vary by programme. Short courses can cost around €200-€600 as a first planning estimate, while longer or specialized programs may cost €500-€3,000 or more. Confirmed fees can be found on the course's official page. Q4. Do summer courses in Italy award certificates? Many programs provide a certificate of attendance or completion. Academic credit may also be awarded. Students are strongly advised to check arrangements for certificates and credits before enrolling. Q5. Will Indian students need a visa to do summer courses in Italy? Visa requirements vary based on the length and reason for your stay and your individual circumstances. Students should check with the Italian consulate for the proper visa category and current documentation requirements. Top 6 SEO Keywords Summer Courses in Italy for Indian Students Summer Schools in Italy Best Universities for Summer Courses in Italy Summer Course Eligibility in Italy Summer Course Admission Requirements in Italy Cost of Summer Courses in Italy"
+      "answer": "Fees vary by programme. Short courses can cost around €200-€600 as a first planning estimate, while longer or specialized programs may cost €500-€3,000 or more. Confirmed fees can be found on the course's official page."
+    },
+    {
+      "question": "Do summer courses in Italy award certificates?",
+      "answer": "Many programs provide a certificate of attendance or completion. Academic credit may also be awarded. Students are strongly advised to check arrangements for certificates and credits before enrolling."
+    },
+    {
+      "question": "Will Indian students need a visa to do summer courses in Italy?",
+      "answer": "Visa requirements vary based on the length and reason for your stay and your individual circumstances. Students should check with the Italian consulate for the proper visa category and current documentation requirements."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is Italy Summer Courses for Indian Students?",
+      "a": "Yes. Indian students can apply to summer schools in Italy that accept international students as long as they meet the programme's academic, language, age and other eligibility requirements."
+    },
+    {
+      "q": "How long are summer courses in Italy?",
+      "a": "Many summer schools last from a few days to a number of weeks. It will depend on the university and the course how long it takes to complete."
+    },
+    {
+      "q": "What is the cost of attending summer courses in Italy?",
+      "a": "Fees vary by programme. Short courses can cost around €200-€600 as a first planning estimate, while longer or specialized programs may cost €500-€3,000 or more. Confirmed fees can be found on the course's official page."
+    },
+    {
+      "q": "Do summer courses in Italy award certificates?",
+      "a": "Many programs provide a certificate of attendance or completion. Academic credit may also be awarded. Students are strongly advised to check arrangements for certificates and credits before enrolling."
+    },
+    {
+      "q": "Will Indian students need a visa to do summer courses in Italy?",
+      "a": "Visa requirements vary based on the length and reason for your stay and your individual circumstances. Students should check with the Italian consulate for the proper visa category and current documentation requirements."
     }
   ]
 }

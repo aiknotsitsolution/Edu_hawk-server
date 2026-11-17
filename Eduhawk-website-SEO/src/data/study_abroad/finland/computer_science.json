@@ -1,93 +1,94 @@
 {
-  "seo": {
-    "title": "Study Computer Science in Finland for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study Computer Science in Finland: Top universities like Oulu, Aalto, UEF, Helsinki, and LUT. Explore Bachelor's and Master's in Computer Science Engineering, tuition fees, scholarships, eligibility, and post-study work visa."
-  },
   "hero": {
-    "badge": "Study Abroad - Finland",
-    "title": "Computer Science Engineering in Finland",
-    "subtitle": "Experience world-class academic training and global career pathways in Finland with Edu-Hawk Worldwide.",
-    "ctaText": "Book Free Counselling",
-    "image": ""
+    "title": "1\\. Bachelor’s in Computer Science Engineering in Finland",
+    "subtitle": "Explore world-class Finnish research universities and universities of applied sciences (UAS) offering English-taught degrees, high innovation ranking, and generous scholarships."
   },
-  "stats": [
-    {
-      "n": "1000+",
-      "l": "Students Placed Globally"
-    },
-    {
-      "n": "20+",
-      "l": "Countries"
-    },
-    {
-      "n": "200+",
-      "l": "Partner Universities"
-    },
-    {
-      "n": "100%",
-      "l": "Support (Visa & End-to-End Guidance)"
-    }
+  "overview": [
+    "Explore world-class Finnish research universities and universities of applied sciences (UAS) offering English-taught degrees, high innovation ranking, and generous scholarships.",
+    "Studying in Finland provides Indian students with access to the world's highest-ranking education system, safe and modern Nordic campuses, extensive English-taught degree options, and high happiness indices.",
+    "Edu Hawk Worldwide Consultancy guides Indian students through Studyinfo.fi centralized joint applications, Finnish residence permits for studies, tuition fee scholarship grants, and 2-year post-study work search permits."
   ],
-  "highlights": {
-    "degree": "B.Sc. (Tech) / M.Sc. (Tech)",
-    "duration": "3 Yrs (UG) / 2 Yrs (MS) / 5 Yrs (3+2)",
-    "fee": "€10,000 – €17,000 / Year (~₹10.86L – ₹18.46L)",
-    "eligibility": "Recognised academic qualification + English proficiency",
-    "medium": "English"
-  },
-  "overview": "A **Bachelor’s or Master’s in Computer Science Engineering in Finland** provides a solid foundation for careers in software development, IT engineering, artificial intelligence, cybersecurity, and data science. Many programmes are offered 100% in English, making Finland an ideal destination for Indian students. **Edu-Hawk Worldwide** helps students explore suitable universities, understand admission requirements, compare tuition fees and scholarships, and prepare successful applications for studying in Finland.",
   "universities": [
     {
-      "name": "University of Oulu",
-      "location": "Finland",
-      "fee": "€10,000 / Year (~₹10.86 Lakh)",
-      "image": ""
-    },
-    {
       "name": "Aalto University",
-      "location": "Finland",
-      "fee": "€12,000 / Year (UG) | €17,000 / Year (PG)",
-      "image": ""
-    },
-    {
-      "name": "University of Eastern Finland (UEF)",
-      "location": "Finland",
-      "fee": "€10,000 / Year (~₹10.86 Lakh)",
-      "image": ""
+      "location": "Espoo, Greater Helsinki, Finland",
+      "fee": "€12,000 – €15,000 / Year",
+      "img": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
+      "image": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
+      "desc": "Aalto University is a leading multidisciplinary research university celebrated worldwide for engineering, design innovation, business entrepreneurship, and startup ecosystems."
     },
     {
       "name": "University of Helsinki",
-      "location": "Finland",
-      "fee": "€15,000 / Year (~₹16.29 Lakh)",
-      "image": ""
+      "location": "Helsinki, Finland",
+      "fee": "€13,000 – €18,000 / Year",
+      "img": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
+      "image": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
+      "desc": "Finland's oldest and highest-ranked institution (founded 1640), globally recognized among the top 1% of research universities for sciences, medicine, and education."
     },
     {
-      "name": "LUT University",
-      "location": "Finland",
-      "fee": "€15,000 / Year (~₹16.29 Lakh)",
-      "image": ""
+      "name": "University of Oulu",
+      "location": "Oulu, Finland",
+      "fee": "€10,000 – €13,000 / Year",
+      "img": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
+      "image": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
+      "desc": "An international science university pioneering 6G wireless technology, arctic innovation, sustainable energy, and multidisciplinary research."
+    },
+    {
+      "name": "Tampere University",
+      "location": "Tampere, Finland",
+      "fee": "€10,000 – €12,000 / Year",
+      "img": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
+      "image": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
+      "desc": "One of Finland's most multidisciplinary universities, known for cutting-edge technology, social sciences, photonics, and signal processing."
     }
   ],
-  "faq": [
+  "sections": [
     {
-      "question": "Can Indian students study Computer Science Engineering in Finland?",
-      "answer": "Yes. Indian students can apply to English-taught bachelor’s and master's programmes if they meet the university’s academic, language and documentation admission requirements."
-    },
-    {
-      "question": "What is the duration of a bachelor’s degree in computer science in Finland?",
-      "answer": "A typical bachelor’s degree takes three years and covers approximately 180 ECTS credits. Some universities offer a combined bachelor’s and master’s pathway lasting five years (300 ECTS), while standalone master's degrees take two years (120 ECTS)."
-    },
-    {
-      "question": "What is the tuition fee for Computer Science Engineering in Finland?",
-      "answer": "Annual tuition fees range from approximately €10,000 to €17,000 per year (around ₹10.86 lakh to ₹18.46 lakh). Selected universities offer early-bird discounts and merit scholarships."
-    },
-    {
-      "question": "Is IELTS mandatory for admission?",
-      "answer": "Not necessarily. English-language requirements differ by university, and some institutions accept alternative qualifications or tests (such as TOEFL, PTE Academic, or Cambridge English). Students should confirm the accepted options for their selected programme."
-    },
-    {
-      "question": "Which university is best for computer science in Finland?",
-      "answer": "The best option depends on your preferred specialisation, academic background, budget and career goals. Aalto University, the University of Oulu, the University of Helsinki, and LUT University offer distinct specialisations in AI, computing theory, software engineering, and applied computer systems."
+      "slot": "universities",
+      "eyebrow": "Top Finnish Universities",
+      "title": "Top Universities to Consider in Finland",
+      "lead": "Explore world-class Finnish research universities and universities of applied sciences (UAS) offering English-taught degrees, high innovation ranking, and generous scholarships.",
+      "unis": [
+        {
+          "name": "Aalto University",
+          "location": "Espoo, Greater Helsinki, Finland",
+          "fee": "€12,000 – €15,000 / Year",
+          "img": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
+          "image": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
+          "desc": "Aalto University is a leading multidisciplinary research university celebrated worldwide for engineering, design innovation, business entrepreneurship, and startup ecosystems."
+        },
+        {
+          "name": "University of Helsinki",
+          "location": "Helsinki, Finland",
+          "fee": "€13,000 – €18,000 / Year",
+          "img": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
+          "image": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
+          "desc": "Finland's oldest and highest-ranked institution (founded 1640), globally recognized among the top 1% of research universities for sciences, medicine, and education."
+        },
+        {
+          "name": "University of Oulu",
+          "location": "Oulu, Finland",
+          "fee": "€10,000 – €13,000 / Year",
+          "img": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
+          "image": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
+          "desc": "An international science university pioneering 6G wireless technology, arctic innovation, sustainable energy, and multidisciplinary research."
+        },
+        {
+          "name": "Tampere University",
+          "location": "Tampere, Finland",
+          "fee": "€10,000 – €12,000 / Year",
+          "img": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
+          "image": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
+          "desc": "One of Finland's most multidisciplinary universities, known for cutting-edge technology, social sciences, photonics, and signal processing."
+        }
+      ],
+      "groups": []
     }
-  ]
+  ],
+  "faqs": [],
+  "seo": {
+    "title": "1\\. Bachelor’s in Computer Science Engineering in Finland | Edu-Hawk Worldwide",
+    "description": "Explore world-class Finnish research universities and universities of applied sciences (UAS) offering English-taught degrees, high innovation ranking, and gener",
+    "keywords": "Study in Finland, Top Universities in Finland, Edu Hawk Worldwide"
+  }
 }

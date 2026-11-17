@@ -11,6 +11,7 @@ import ctaBgImg from "../../../../../../Images/Abroad/France/Engineering_UG/Biom
 import uniImg1 from "../../../../../../Images/Abroad/France/Engineering_UG/Biomedical/University_Paris_Cite.webp";
 import uniImg2 from "../../../../../../Images/Abroad/France/Engineering_UG/Biomedical/Universit_Paris.webp";
 import uniImg3 from "../../../../../../Images/Abroad/France/Engineering_UG/Biomedical/Aix.webp";
+import cmsData from "../../../../../../data/study_abroad/france/biomed_engg_ug.json";
 
 const page = {
   name: "UG Biomedical Engineering in France",
@@ -310,6 +311,23 @@ const page = {
 };
 
 export default function BiomedicalEngineeringinFrancePage() {
+  const dynamicPage = {
+    ...page,
+    name: cmsData.hero?.title || page.name,
+    heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
+    overview: cmsData.overview
+      ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
+      : page.overview,
+    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      .filter(s => s.label && s.value).length > 0
+      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      : page.stats,
+    seo: {
+      title: cmsData.seo?.title || page.title,
+      description: cmsData.seo?.description || page.description,
+    },
+  };
+
   const images = {
     hero: heroImg,
     heroBg: heroBgImg,
@@ -336,7 +354,7 @@ export default function BiomedicalEngineeringinFrancePage() {
 
   return (
     <AbroadCoursePage
-      page={page}
+      page={dynamicPage}
       images={images}
       heroImg={heroImg}
       heroBgImg={heroBgImg}

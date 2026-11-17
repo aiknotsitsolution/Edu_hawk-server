@@ -616,6 +616,47 @@ export const EhpShell = ({ children }) => {
 
 
 
+export const decodeHtmlEntities = (s) => {
+  if (!s || typeof s !== "string") return s;
+  return s
+    .replace(/&#8377;/g, "₹")
+    .replace(/&euro;/gi, "€")
+    .replace(/&pound;/gi, "£")
+    .replace(/&asymp;/gi, "≈")
+    .replace(/&ndash;|&mdash;/gi, "–")
+    .replace(/&hellip;/gi, "…")
+    .replace(/&#39;|&apos;|&rsquo;|&lsquo;/gi, "'")
+    .replace(/&quot;|&ldquo;|&rdquo;/gi, '"')
+    .replace(/&nbsp;/gi, " ")
+    .replace(/&amp;/gi, "&")
+    .replace(/&gt;/gi, ">")
+    .replace(/&lt;/gi, "<")
+    .replace(/&iacute;/gi, "í").replace(/&igrave;/gi, "ì").replace(/&oacute;/gi, "ó").replace(/&uacute;/gi, "ú").replace(/&aacute;/gi, "á")
+    .replace(/&agrave;/gi, "à")
+    .replace(/&eacute;/gi, "é")
+    .replace(/&egrave;/gi, "è")
+    .replace(/&ograve;/gi, "ò")
+    .replace(/&ugrave;/gi, "ù")
+    .replace(/&atilde;/gi, "ã")
+    .replace(/&ccedil;/gi, "ç")
+    .replace(/&ntilde;/gi, "ñ")
+    .replace(/&shy;/gi, "")
+    .replace(/&#x([0-9a-f]+);/gi, (m, hex) => String.fromCharCode(parseInt(hex, 16)))
+    .replace(/&#(\d+);/g, (m, dec) => String.fromCharCode(dec));
+};
+
+export const stripHeadingNumbering = (text) => {
+  if (!text || typeof text !== "string") return text;
+  let s = decodeHtmlEntities(text.trim());
+  s = s.replace(/^[#\s*]+/, "").replace(/[*#\s]+$/, "");
+  s = s.replace(/\\([.!()#*_\-])/g, "$1");
+  s = s.replace(/^(?:Step\s*\d+\s*[:.\-–]?\s*)+/i, "");
+  s = s.replace(/^(?:\d+(?:\.\d+)*[\.\)\:\-–]\s*)+/, "");
+  s = s.replace(/^(?:Step\s*\d+\s*[:.\-–]?\s*)+/i, "");
+  s = s.replace(/^[*•\-–\s]+/, "").replace(/[*•\-–\s]+$/, "");
+  return s.trim();
+};
+
 export const formatRichText = (content) => {
   if (!content) return content;
   if (typeof content === "object") {
@@ -642,7 +683,12 @@ export const formatRichText = (content) => {
 
 
 
-  if (parts.length === 1) return content;
+  const cleanPartText = (txt) => {
+    if (!txt || typeof txt !== "string") return txt;
+    return decodeHtmlEntities(txt.replace(/\\([.!()#*_\-])/g, "$1").replace(/\*{1,3}/g, ""));
+  };
+
+  if (parts.length === 1) return cleanPartText(content);
 
 
 
@@ -842,7 +888,7 @@ export const formatRichText = (content) => {
 
 
 
-    return part;
+    return cleanPartText(part);
 
 
 
@@ -1238,71 +1284,29 @@ export const EhpHero = ({
 
 
 
-export const EhpHead = ({ eyebrow, title, desc, descClass, center, as }) => (
-
-
-
-  <div className={(center ? "text-center " : "") + "mb-9"}>
-
-
-
-    <div className="text-xs font-semibold tracking-wider uppercase text-blue-600 mb-1.5">
-
-
-
-      {eyebrow}
-
-
-
+export const EhpHead = ({ eyebrow, title, desc, descClass, center, as }) => {
+  const cleanTitle = stripHeadingNumbering(title);
+  const cleanEyebrow = stripHeadingNumbering(eyebrow);
+  return (
+    <div className={(center ? "text-center " : "") + "mb-9"}>
+      {cleanEyebrow && (
+        <div className="text-xs font-semibold tracking-wider uppercase text-blue-600 mb-1.5">
+          {cleanEyebrow}
+        </div>
+      )}
+      <h2
+        className={
+          (as === "h3" ? "text-lg" : "text-2xl sm:text-3xl") +
+          " font-bold text-slate-900" +
+          (desc ? " mb-4" : "")
+        }
+      >
+        {formatRichText(cleanTitle)}
+      </h2>
+      {desc && <Paragraphs items={desc} className={descClass ?? "text-slate-500 text-[15px] leading-relaxed max-w-3xl"} />}
     </div>
-
-
-
-    <h2
-
-
-
-      className={
-
-
-
-        (as === "h3" ? "text-lg" : "text-2xl sm:text-3xl") +
-
-
-
-        " font-bold text-slate-900" +
-
-
-
-        (desc ? " mb-4" : "")
-
-
-
-      }
-
-
-
-    >
-
-
-
-      {formatRichText(title)}
-
-
-
-    </h2>
-
-
-
-    {desc && <Paragraphs items={desc} className={descClass ?? "text-slate-500 text-[15px] leading-relaxed max-w-3xl"} />}
-
-
-
-  </div>
-
-
-
-);
+  );
+};
 
 
 
@@ -2297,18 +2301,19 @@ export const UniversityGrid = ({ unis, alt, className = "" }) => {
     <div className={gridLayout + className}>
       {Array.isArray(unis) &&
         unis.map((u, i) => {
-          if (u.img) {
+          const imgSrc = u.image || u.img || u.src;
+          if (imgSrc) {
             return (
               <div
                 key={u.name ?? i}
                 className="relative rounded-2xl overflow-hidden h-64 group shadow-sm hover:shadow-xl transition-all duration-300"
               >
                 <img
-                  src={u.img}
+                  src={imgSrc}
                   alt={(typeof alt === "function" ? alt(u) : alt) ?? u.name}
                   loading="lazy"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                  srcSet={`${u.img} 1x, ${u.img} 2x`}
+                  srcSet={`${imgSrc} 1x, ${imgSrc} 2x`}
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />
                 {(u.link || u.url || u.website) && (
@@ -4601,6 +4606,57 @@ const normalizeAbroadGroups = (groups) => {
       continue;
     }
 
+    const isPipeRow = (txt) => typeof txt === "string" && txt.includes("|") && txt.split("|").length >= 2;
+    const isShortHeaderTitle = (txt) => typeof txt === "string" && txt.length > 0 && txt.length < 60 && !txt.includes("|") && !txt.endsWith(".");
+
+    // Pattern 3: Short title preceding a sequence of pipe rows
+    if (firstText && isShortHeaderTitle(firstText) && i + 1 < groups.length) {
+      const nextText = getSingleText(groups[i + 1]);
+      if (nextText && isPipeRow(nextText)) {
+        normalized.push({ t: "h4", text: decodeHtmlEntities(firstText) });
+        i++;
+        continue;
+      }
+    }
+
+    // Pattern 4: Consecutive sequence of pipe rows across groups -> structured table
+    if (firstText && isPipeRow(firstText)) {
+      const tableRows = [];
+      let k = i;
+      while (k < groups.length) {
+        const rowText = getSingleText(groups[k]);
+        if (rowText && isPipeRow(rowText)) {
+          const cells = rowText.split("|").map(c => decodeHtmlEntities(c.trim()));
+          tableRows.push(cells);
+          k++;
+        } else {
+          break;
+        }
+      }
+
+      if (tableRows.length >= 2) {
+        normalized.push({
+          t: "table",
+          headers: tableRows[0],
+          rows: tableRows.slice(1)
+        });
+        i = k;
+        continue;
+      }
+    }
+
+    // Pattern 5: Single group with multiple pipe rows inside g.items -> structured table
+    if (Array.isArray(g.items) && g.items.length >= 2 && g.items.every(isPipeRow)) {
+      const tableRows = g.items.map(r => r.split("|").map(c => decodeHtmlEntities(c.trim())));
+      normalized.push({
+        t: "table",
+        headers: tableRows[0],
+        rows: tableRows.slice(1)
+      });
+      i++;
+      continue;
+    }
+
     normalized.push(g);
     i++;
   }
@@ -5373,6 +5429,11 @@ export const AbroadCoursePage = ({
   const effectiveFaqs = (page.faqs && page.faqs.length > 0) ? page.faqs : sectionFaqs;
   const effectiveFaqTitle = page.faqTitle || faqSection?.title || "Frequently Asked Questions";
 
+  const effectiveHeroImg = page?.heroImg || heroImg;
+  const effectiveHeroBgImg = page?.heroBgImg || heroBgImg;
+  const effectiveSideImg = page?.sideImg || sideImg;
+  const effectiveCtaBgImg = page?.ctaBgImg || ctaBgImg;
+
   const secondary = { href: "#faq", label: "Read FAQs" };
 
 
@@ -5473,7 +5534,7 @@ export const AbroadCoursePage = ({
 
 
 
-        img={heroImg}
+        img={effectiveHeroImg}
 
 
 
@@ -5485,7 +5546,7 @@ export const AbroadCoursePage = ({
 
 
 
-        bgImg={heroBgImg ?? page?.heroBgImg}
+        bgImg={effectiveHeroBgImg}
 
 
 
@@ -5579,7 +5640,7 @@ export const AbroadCoursePage = ({
 
 
 
-                  src={sideImg}
+                  src={effectiveSideImg}
 
 
 
@@ -5603,7 +5664,7 @@ export const AbroadCoursePage = ({
 
 
 
-                  srcSet={`${sideImg} 1x, ${sideImg} 2x`}
+                  srcSet={`${effectiveSideImg} 1x, ${effectiveSideImg} 2x`}
 
 
 
@@ -5659,7 +5720,9 @@ export const AbroadCoursePage = ({
 
 
 
-      {page.sections?.filter((s) => !isFaqSection(s))?.map((s, idx) => {
+      {(() => {
+        let renderedUnis = false;
+        return page.sections?.filter((s) => !isFaqSection(s))?.map((s, idx) => {
 
 
 
@@ -5671,17 +5734,28 @@ export const AbroadCoursePage = ({
 
 
 
-        const sectionUnis =
-          s.unis ||
-          (s.slot === "universities" &&
-            s.groups?.find((g) => g && (g.t === "cards" || (Array.isArray(g.items) && g.items.some((it) => it && (it.img || it.name)))))?.items);
+        const hasExplicitUnis = Array.isArray(s.unis) && s.unis.length > 0;
+        const isUniSlot = s.slot === "universities";
+        const canRenderUnis =
+          !renderedUnis &&
+          (hasExplicitUnis ||
+            (isUniSlot &&
+              (hasExplicitUnis ||
+                (Array.isArray(page.universities) && page.universities.length > 0) ||
+                s.groups?.find((g) => g && (g.t === "cards" || (Array.isArray(g.items) && g.items.some((it) => it && (it.img || it.image || it.name)))))?.items)));
 
-        if (sectionUnis && sectionUnis.length > 0)
+        if (canRenderUnis) {
+          renderedUnis = true;
+          const sectionUnis =
+            (hasExplicitUnis ? s.unis : null) ||
+            page.universities ||
+            s.groups?.find((g) => g && (g.t === "cards" || (Array.isArray(g.items) && g.items.some((it) => it && (it.img || it.image || it.name)))))?.items;
+
           return (
-            <section key={idx} className="py-16 sm:py-20 bg-slate-50" id={s.id || s.slot}>
+            <section key={idx} className="py-16 sm:py-20 bg-slate-50" id={s.id || s.slot || "universities"}>
               <div className="max-w-6xl mx-auto px-6">
                 <EhpHead
-                  eyebrow={s.eyebrow}
+                  eyebrow={s.eyebrow || "Top Universities"}
                   title={s.title}
                   desc={s.lead}
                   descClass="text-slate-500 text-[15px] leading-relaxed max-w-2xl space-y-3"
@@ -5691,9 +5765,15 @@ export const AbroadCoursePage = ({
                   items={s.note}
                   className="mt-8 max-w-3xl text-slate-500 text-[15px] leading-relaxed space-y-3"
                 />
+                {s.groups && s.groups.length > 0 && (
+                  <div className="mt-10">
+                    <AbroadGroups groups={s.groups} />
+                  </div>
+                )}
               </div>
             </section>
           );
+        }
 
 
 
@@ -6013,7 +6093,8 @@ export const AbroadCoursePage = ({
 
 
 
-      })}
+      });
+      })()}
 
 
 
@@ -6065,7 +6146,7 @@ export const AbroadCoursePage = ({
 
 
 
-        bgImg={ctaBgImg ?? page?.ctaBgImg}
+        bgImg={effectiveCtaBgImg}
 
 
 
@@ -6101,3 +6182,44 @@ const heroImgDims = { w: 1600, h: 1065 };
 
 
 
+
+export const withCmsData = (page, cmsData, uniImages) => {
+  if (!cmsData) return page;
+  return {
+    ...page,
+    title: cmsData?.seo?.title || page?.title,
+    description: cmsData?.seo?.description || page?.description,
+    introTitle: cmsData?.hero?.title || page?.introTitle || page?.name,
+    heroParas: cmsData?.hero?.subtitle ? [cmsData.hero.subtitle] : page?.heroParas,
+    heroImg: cmsData?.hero?.image || cmsData?.heroImg || page?.heroImg,
+    heroBgImg: cmsData?.hero?.bgImage || cmsData?.heroBgImg || page?.heroBgImg,
+    sideImg: cmsData?.sideImg || page?.sideImg,
+    ctaBgImg: cmsData?.ctaBgImg || page?.ctaBgImg,
+    overview: (cmsData?.overview && cmsData.overview.length > 0 && cmsData.overview[0] !== "")
+      ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
+      : page?.overview,
+    sections: (cmsData?.sections && cmsData.sections.length > 0)
+      ? cmsData.sections
+      : page?.sections,
+    universities: (cmsData?.universities && cmsData.universities.length > 0)
+      ? cmsData.universities.map((u, idx) => {
+          const resolvedImg = u.image || u.img || (uniImages && (uniImages[u.name] || uniImages[u.image] || uniImages[u.img])) || page?.universities?.[idx]?.image || page?.universities?.[idx]?.img;
+          return {
+            ...u,
+            image: resolvedImg,
+            img: resolvedImg,
+          };
+        })
+      : page?.universities,
+    faqs: (cmsData?.faqs && cmsData.faqs.length > 0)
+      ? cmsData.faqs.map(f => ({ q: f.q || f.question, a: f.a || f.answer, question: f.q || f.question, answer: f.a || f.answer }))
+      : (cmsData?.faq && cmsData.faq.length > 0)
+        ? cmsData.faq.map(f => ({ q: f.q || f.question, a: f.a || f.answer, question: f.q || f.question, answer: f.a || f.answer }))
+        : page?.faqs,
+    seo: {
+      title: cmsData?.seo?.title || page?.title,
+      description: cmsData?.seo?.description || page?.description,
+      keywords: cmsData?.seo?.keywords || page?.keywords,
+    },
+  };
+};

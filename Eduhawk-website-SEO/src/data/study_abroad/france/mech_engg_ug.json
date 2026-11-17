@@ -1,226 +1,521 @@
 {
-  "seo": {
-    "title": "Study UG Mechanical Engineering in France for Indian Students | Edu-Hawk Worldwide",
-    "description": "Complete guide to UG Mechanical Engineering in France for Indian students: Top French universities, admission requirements, tuition fees (€255 – €3,950 / year public), scholarships, and 2-year post-study work visa."
-  },
   "hero": {
-    "badge": "Study Abroad - France",
-    "title": "MECHANICAL ENGINEERING IN FRANCE",
-    "subtitle": "****Undergraduate Mechanical Engineering**** in France is a popular choice among international students who want to gain technical knowledge and pursue a career in manufacturing, automotive engineering, aerospace, robotics, energy systems and industrial design."
+    "title": "Mechanical Engineering in France",
+    "subtitle": "\\\\Undergraduate Mechanical Engineering\\\\ in France is a popular choice among international students who want to gain technical knowledge and pursue a career in manufacturing, automotive engineering, aerospace, robotics, energy systems and industrial design."
   },
   "overview": [
-    "****Undergraduate Mechanical Engineering**** in France is a popular choice among international students who want to gain technical knowledge and pursue a career in manufacturing, automotive engineering, aerospace, robotics, energy systems and industrial design.",
-    "France has a long-established system of engineering education, with universities and engineering schools providing programs combining scientific fundamentals, practical training, laboratory work and industry exposure.",
-    "****Edu Hawk worldwide study abroad guidance**** helps students explore these opportunities and understand the requirements for studying abroad.",
-    "**"
+    "France has a strong base of engineering and manufacturing, in particular in the fields of aerospace, automobile production, transportation, energy and advanced industrial technology. Mechanical engineering in France provides students with a strong foundation in engineering principles along with exposure to modern technologies and industrial applications.",
+    "\\\\Industry-focused education:\\\\ Most programs include laboratory sessions, technical projects, internships and practical engineering assignments.",
+    "\\\\Specialisation opportunities:\\\\ Students can specialize in automotive engineering, aerospace systems, robotics, manufacturing, materials science and energy engineering."
+  ],
+  "universities": [
+    {
+      "name": "INSA Lyon",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_INSA_Lyon.webp",
+      "image": "/uploads/study_abroad/france/france_INSA_Lyon.webp",
+      "desc": "\\\\INSA Lyon\\\\ is a famous engineering school offering courses in mechanical engineering and other related technical fields. Students can study areas such as mechanical design, materials, manufacturing, and industrial engineering."
+    },
+    {
+      "name": "INSA Toulouse",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_INSA_Toulouse.webp",
+      "image": "/uploads/study_abroad/france/france_INSA_Toulouse.webp",
+      "desc": "\\\\INSA Toulouse\\\\ offers engineering education in several technical fields including mechanical and industrial engineering related disciplines."
+    },
+    {
+      "name": "University of Technology of Compiegne (UTC)",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+      "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+      "desc": "\\\\UTC\\\\ or University of Technology of Compiègne offers engineering education with interdisciplinary study pathways. The engineering curriculum encompasses topics relevant to mechanical systems, industrial processes, materials and technology. International students should consult the program structure and admission route."
+    },
+    {
+      "name": "University of Technology of Belfort",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_University_of_Technology_of_Belfort.webp",
+      "image": "/uploads/study_abroad/france/france_University_of_Technology_of_Belfort.webp",
+      "desc": "Montbeliard (UTBM) : \\\\UTBM\\\\ provides engineering programs in mechanical engineering, industrial systems, energy, and related technical fields. Students can explore its engineering pathways and international admission options, including language preparation requirements, where applicable."
+    }
   ],
   "sections": [
     {
-      "title": "1. **Pick a specialisation:** Decide whether you want to study mechanical engineering, automotive engineering, aerospace engineering, manufacturing or robotics.",
-      "eyebrow": "Why Study in France",
+      "slot": "why-study",
+      "eyebrow": "Why France",
+      "title": "Why Study Mechanical Engineering in France?",
+      "lead": "France has a strong base of engineering and manufacturing, in particular in the fields of aerospace, automobile production, transportation, energy and advanced industrial technology. Mechanical engineering in France provides students with a strong foundation in engineering principles along with exposure to modern technologies and industrial applications.",
       "groups": [
+        {
+          "t": "h4",
+          "text": "Key benefits are:"
+        },
         {
           "t": "p",
           "items": [
-            "Details available upon request."
+            "\\\\Industry-focused education:\\\\ Most programs include laboratory sessions, technical projects, internships and practical engineering assignments."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Specialisation opportunities:\\\\ Students can specialize in automotive engineering, aerospace systems, robotics, manufacturing, materials science and energy engineering."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Advanced engineering facilities:\\\\ Students may have access to computer-aided design, simulation tools, manufacturing technologies and testing equipment."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Study abroad:\\\\ Some institutions offer English-taught programs or international learning pathways."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Further education opportunities:\\\\ Graduates can apply to appropriate master's programs, subject to academic and admission requirements."
           ]
         }
       ]
     },
     {
-      "title": "2. **Shortlist universities:** Compare engineering schools, course modules, accreditation, language of instruction and tuition fees.",
-      "eyebrow": "Degrees & Specializations",
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Mechanical engineering degrees and courses offered in France",
+      "lead": "Undergraduate courses in Mechanical Engineering in France focus on the design, development, manufacture, testing and maintenance of machines and mechanical systems. Students usually study mathematics, physics, materials, thermodynamics, mechanics and engineering design.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Details available upon request."
+            "Popular undergraduate specializations are:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Mechanical Engineering:\\\\ machine design, engineering mechanics, manufacturing processes and mechanical systems.",
+            "\\\\Automotive Engineering:\\\\ Automotive design, automotive systems, engines, electric vehicles, vehicle technology.",
+            "\\\\Aerospace Engineering:\\\\ Aerodynamics, airplane structures, propulsion and aerospace materials.",
+            "\\\\Manufacturing Engineering:\\\\ Industrial processes, production systems, automation and quality control.",
+            "\\\\Robotics and Automation\\\\: Robotics, sensors, control systems and automated manufacturing.",
+            "\\\\Materials Engineering:\\\\ Materials properties, testing, industrial applications, advanced materials.",
+            "\\\\Energy Engineering:\\\\ Thermal systems, renewable energy sources, power generation, and energy efficiency."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Industrial Engineering:\\\\ Production planning, industrial management, process optimization, operations."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Typical program Duration -"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Licence\\ or Bachelor's degree: typically 3 years."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Bachelor of Science in Mechanical Engineering: typically 3 years, varies by institution."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "French engineering school program: generally 5 years beyond secondary school, including preparatory or foundational study."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some engineering schools have different admission routes depending on the previous academic qualification of the applicant."
           ]
         }
       ]
     },
     {
-      "title": "3. **Check your eligibility**: Look for academic qualifications, subject requirements, language proficiency and minimum grades.",
-      "eyebrow": "Top Institutions in France",
+      "slot": "universities",
+      "eyebrow": "Top French Universities",
+      "title": "Top Mechanical Engineering UG Universities in France",
+      "lead": "",
+      "groups": [],
+      "unis": [
+        {
+          "name": "INSA Lyon",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_INSA_Lyon.webp",
+          "image": "/uploads/study_abroad/france/france_INSA_Lyon.webp",
+          "desc": "\\\\INSA Lyon\\\\ is a famous engineering school offering courses in mechanical engineering and other related technical fields. Students can study areas such as mechanical design, materials, manufacturing, and industrial engineering."
+        },
+        {
+          "name": "INSA Toulouse",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_INSA_Toulouse.webp",
+          "image": "/uploads/study_abroad/france/france_INSA_Toulouse.webp",
+          "desc": "\\\\INSA Toulouse\\\\ offers engineering education in several technical fields including mechanical and industrial engineering related disciplines."
+        },
+        {
+          "name": "University of Technology of Compiegne (UTC)",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+          "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+          "desc": "\\\\UTC\\\\ or University of Technology of Compiègne offers engineering education with interdisciplinary study pathways. The engineering curriculum encompasses topics relevant to mechanical systems, industrial processes, materials and technology. International students should consult the program structure and admission route."
+        },
+        {
+          "name": "University of Technology of Belfort",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_University_of_Technology_of_Belfort.webp",
+          "image": "/uploads/study_abroad/france/france_University_of_Technology_of_Belfort.webp",
+          "desc": "Montbeliard (UTBM) : \\\\UTBM\\\\ provides engineering programs in mechanical engineering, industrial systems, energy, and related technical fields. Students can explore its engineering pathways and international admission options, including language preparation requirements, where applicable."
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Eligibility to study Mechanical Engineering UG in France",
+      "lead": "\\\\Eligibility Requirements for Mechanical Engineering in France for International Students\\\\: International students who apply for \\\\undergraduate Mechanical Engineering in France\\\\ generally need to meet the following eligibility conditions:",
       "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "completed secondary education equivalent to the French Baccalaureate.",
+            "Good academic background, especially in mathematics and physics.",
+            "Chemistry or other science subjects as required by the chosen program.",
+            "English language proficiency for English-taught programs or French language proficiency for French-taught courses.",
+            "Any program specific entrance examination/interview/other assessment."
+          ]
+        },
         {
           "t": "p",
           "items": [
-            "Details available upon request."
+            "For Indian students, a recognized \\\\Class 12 qualification with mathematics and physics\\\\ is often relevant for admission to mechanical engineering. Some institutions may also require chemistry or some minimum marks."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Language requirements:\\\\ French-taught programs may require an acceptable qualification in French. English-taught programs may require IELTS, TOEFL or another accepted English proficiency test. Requirements vary between institutions, so applicants should check official program information."
           ]
         }
       ]
     },
     {
-      "title": "4. **Find out how applications are made:** Check if applications are made directly to the school, via a national admissions platform or through the Études en France procedure.",
-      "eyebrow": "Academic & Language Criteria",
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Qualifications for French Undergraduate Mechanical Engineering Admission",
+      "lead": "\\\\The admission requirements for Mechanical Engineering in France\\\\ vary according to the university, the engineering school and the program.",
       "groups": [
+        {
+          "t": "h4",
+          "text": "Typical documents that people ask for are:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Marksheets or academic transcripts of Class 10 and Class 12 .",
+            "Secondary school leaving certificate.",
+            "Accepted ID or passport.",
+            "Language proficiency results in English or French where required.",
+            "Motivational letter or Statement of purpose.",
+            "Academic references if asked for.",
+            "CV where appropriate.",
+            "Results of entrance test/interview, if any.",
+            "Completed application form and proof of payment of application fee."
+          ]
+        },
         {
           "t": "p",
           "items": [
-            "Details available upon request."
+            "Selective engineering schools may consider academic performance, knowledge of mathematics and physics, problem-solving skills, motivation, and suitability for the intended engineering program."
           ]
         }
       ]
     },
     {
-      "title": "5. **Prepare documents:** Collect academic transcripts, passport information, language scores, and motivation letters.",
-      "eyebrow": "Application Checklist",
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Cost of UG Mechanical Engineering",
+      "lead": "The \\\\cost of studying Mechanical Engineering in France\\\\ varies depending on the university, type of degree, student category and city. Students should consider tuition fees, as well as accommodation, food, transport, insurance and personal expenses.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Details available upon request."
+            "Tuition fees for public institutions"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The published differentiated registration fees for non-EU students, pursuant to the relevant national public-institution rules, for the \\\\academic year 2026-2027\\\\ are:"
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Bachelor's degree \\",
+              "d": "€2,902"
+            },
+            {
+              "t": "Master's degree \\",
+              "d": "€3,950"
+            },
+            {
+              "t": "PhD \\",
+              "d": "€398"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The standard published annual registration fee for eligible French/EU-category bachelor's students is €178."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The standard charge for qualifying students who are studying on eligible engineering-degree courses is €630."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Tuition fees in private institutions"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Private engineering schools can cost more than public universities. Fees depend on the program, qualification and institution"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Other living costs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should allow separately for:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Lodging and utilities.",
+            "Grocery and food.",
+            "Local transportation.",
+            "Health and insurance expenses.",
+            "Books, engineering supplies and personal expenses.",
+            "Costs of visa and residency, if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Cost of Living in France The cost of living in France depends on your city and type of accommodation. Paris and other big cities can be more expensive than smaller student locations. Before accepting the admission offer, it is important to prepare a city-wise budget."
           ]
         }
       ]
     },
     {
-      "title": "6. **Submit the application:** Complete the application form and submit all required documents by the deadline.",
-      "eyebrow": "Tuition & Cost of Living",
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "UG Admission Process in France for Mechanical Engineering",
+      "lead": "The \\\\undergraduate Mechanical Engineering admission process in France\\\\ usually involves these steps:",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Details available upon request."
+            "1. \\\\Pick a specialisation:\\\\ Decide whether you want to study mechanical engineering, automotive engineering, aerospace engineering, manufacturing or robotics."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "2. \\\\Shortlist universities:\\\\ Compare engineering schools, course modules, accreditation, language of instruction and tuition fees."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "3. \\\\Check your eligibility\\\\: Look for academic qualifications, subject requirements, language proficiency and minimum grades."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "4. \\\\Find out how applications are made:\\\\ Check if applications are made directly to the school, via a national admissions platform or through the Études en France procedure."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "5. \\\\Prepare documents:\\\\ Collect academic transcripts, passport information, language scores, and motivation letters."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "6. \\\\Submit the application:\\\\ Complete the application form and submit all required documents by the deadline."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "7. \\\\Full selection process:\\\\ Attend an interview or sit an entrance exam if necessary."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "8. \\\\Accept the offer of admission:\\\\ Review the institution's directions for confirmation and enrollment."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "9. \\\\Apply for a student visa\\\\: Once you have received the required admission documents, follow the appropriate French student visa process."
           ]
         }
       ]
     },
     {
-      "title": "7. **Full selection process:** Attend an interview or sit an entrance exam if necessary.",
-      "eyebrow": "Step-by-Step Guide",
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
+      "title": "Accreditation and Recognition of Mechanical Engineering in France",
+      "lead": "When choosing an undergraduate program, engineering accreditation in France is something to consider.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Details available upon request."
+            "The \\\\Commission des titres d'ingénieur (CTI)\\\\ assesses eligible engineering programs and authorizes institutions to award the French \\diplôme d'ingénieur. This is usually associated with five years of tertiary study and a master's level qualification."
           ]
-        }
-      ]
-    },
-    {
-      "title": "8. Accreditation and Recognition of Mechanical Engineering in France**",
-      "eyebrow": "Degrees & Recognition",
-      "groups": [
+        },
         {
           "t": "p",
           "items": [
-            "When choosing an undergraduate program, engineering accreditation in France is something to consider.",
-            "The **Commission des titres d’ingénieur (CTI)** assesses eligible engineering programs and authorizes institutions to award the French *diplôme d’ingénieur*. This is usually associated with five years of tertiary study and a master's level qualification.",
-            "Not all mechanical engineering or science undergraduate programs lead to a CTI-accredited engineering diploma however. A bachelor's degree may be a separate three year qualification.",
+            "Not all mechanical engineering or science undergraduate programs lead to a CTI-accredited engineering diploma however. A bachelor's degree may be a separate three year qualification."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
             "Before enrollment, Students are recommended to:"
           ]
         },
         {
           "t": "ul",
           "items": [
-            "- Check the exact qualification issued by the institution.",
-            "- Check the CTI accreditation in case they want to get a French engineering diploma.",
-            "- Check whether the bachelor qualification qualifies for admission to a relevant master program.",
-            "- Verify the international degree recognition requirements of the country where you will work.",
-            "- Look into any professional registration or licensing requirements for their selected career."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "**"
+            "Check the exact qualification issued by the institution.",
+            "Check the CTI accreditation in case they want to get a French engineering diploma.",
+            "Check whether the bachelor qualification qualifies for admission to a relevant master program.",
+            "Verify the international degree recognition requirements of the country where you will work.",
+            "Look into any professional registration or licensing requirements for their selected career."
           ]
         }
       ]
     },
     {
-      "title": "9. Mechanical Engineering UG in France: Salary & Job Opportunities**",
-      "eyebrow": "Job Roles & Industry Growth",
+      "slot": "careers",
+      "eyebrow": "Career & Salary",
+      "title": "Mechanical Engineering UG in France: Salary & Job Opportunities",
+      "lead": "\\\\Graduates of the Mechanical Engineering program in France\\\\ are able to find work in the manufacturing sector, the automotive industries, aerospace, energy, robotics, industrial automation and product development.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**Graduates of the Mechanical Engineering program in France** are able to find work in the manufacturing sector, the automotive industries, aerospace, energy, robotics, industrial automation and product development.",
             "Possible professions are:"
           ]
         },
         {
           "t": "ul",
           "items": [
-            "* - Engineer in mechanical design.",
-            "* - Junior Mechanical Engineer",
-            "* - Auto-mechanic technician.",
-            "* - Engineer of production or manufacturing.",
-            "* Design engineer CAD.",
-            "* - Quality Control Engineer",
-            "* - Maintenance engineer.",
-            "* - Automation and robotics specialist.",
-            "* - Materials and Testing Technician",
-            "* - Analyst of energy systems."
+            "Engineer in mechanical design.",
+            "Junior Mechanical Engineer",
+            "Auto-mechanic technician.",
+            "Engineer of production or manufacturing."
           ]
         },
         {
           "t": "p",
           "items": [
-            "****Salary expectations:**** The salary depends on the qualification, specialization, location, employer, technical skills, and work experience.",
-            "Students should look at current job advertisements and salary surveys to determine realistic salary expectations for their chosen career.",
-            "**"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "10. Documents Required to Study Mechanical Engineering UG in France**",
-      "eyebrow": "Document Requirements",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Students applying for ****undergraduate Mechanical Engineering in France**** should prepare the following documents based on the requirements of the institution they have selected:"
+            "Design engineer CAD."
           ]
         },
         {
           "t": "ul",
           "items": [
-            "* - Valid passport.",
-            "* - Marksheet and certificate of class 10th.",
-            "* - Mark sheet and pass certificate of class 12th.",
-            "* - Academic transcripts and grading information, as applicable.",
-            "* - Results of English or French language proficiency test.",
-            "* - Statement of purpose or motivation letter.",
-            "* - CV, if required.",
-            "* - Letters of recommendation, if needed.",
-            "* -Filled out college application form.",
-            "* - Application fee payment confirmation (if applicable).",
-            "* - Certified academic documents translation if necessary.",
-            "* - Any other documents required by the university or admissions platform."
+            "Quality Control Engineer",
+            "Maintenance engineer.",
+            "Automation and robotics specialist.",
+            "Materials and Testing Technician",
+            "Analyst of energy systems."
           ]
         },
         {
           "t": "p",
           "items": [
-            "After being offered a place, students may also need to provide further documents for **French student visa processing**, financial proof, accommodation and final enrollment.",
-            "**"
+            "\\\\Salary expectations:\\\\ The salary depends on the qualification, specialization, location, employer, technical skills, and work experience."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should look at current job advertisements and salary surveys to determine realistic salary expectations for their chosen career."
           ]
         }
       ]
     },
     {
-      "title": "11. Mechanical engineering in France – Frequently asked questions**",
-      "eyebrow": "Frequently Asked Questions",
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Required to Study Mechanical Engineering UG in France",
+      "lead": "Students applying for \\\\undergraduate Mechanical Engineering in France\\\\ should prepare the following documents based on the requirements of the institution they have selected:",
       "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Valid passport.",
+            "Marksheet and certificate of class 10th.",
+            "Mark sheet and pass certificate of class 12th.",
+            "Academic transcripts and grading information, as applicable.",
+            "Results of English or French language proficiency test.",
+            "Statement of purpose or motivation letter.",
+            "CV, if required.",
+            "Letters of recommendation, if needed.",
+            "Filled out college application form.",
+            "Application fee payment confirmation (if applicable).",
+            "Certified academic documents translation if necessary.",
+            "Any other documents required by the university or admissions platform."
+          ]
+        },
         {
           "t": "p",
           "items": [
-            "**Q1. Can Indian students pursue **undergraduate Mechanical Engineering in France?****",
-            "Yes. Indian students meeting the academic, language and admission criteria can apply for eligible bachelor’s and engineering-school programs in France.",
-            "Q2. How many years to complete undergraduate Mechanical Engineering in France?**",
-            "Typically, a bachelor’s degree takes three years to complete. A typical French engineering-school path usually takes five years after high school, depending on the admission route.",
-            "**Q3. Are there Mechanical Engineering courses in France in English?**",
-            "Some institutions provide English-taught engineering programs or international study pathways. But a lot of the traditional engineering programs are taught in French. Students are advised to confirm with the school the language of instruction for the courses before applying.",
-            "Q4. ** Undergraduate Mechanical Engineering in France: What is the cost?**",
-            "Tuition fees vary depending on the institution and the qualification. The published differentiated fee for non-EU students subject to the relevant public-institution rules is €2,902 per year at bachelor’s level for 2026–2027. Tuition may be higher at private engineering schools.",
-            "**Q5. What are the required subjects to study Mechanical Engineering in France?**",
-            "Admission to undergraduate mechanical engineering often requires important subjects such as mathematics and physics. Some institutions may also require chemistry or other science subjects depending on the program.",
-            "How can **Edu Hawk Worldwide Consultancy** help me to study abroad?",
-            "****Edu Hawk worldwide Consultancy**** can help students find the right universities, know about **Mechanical Engineering admission requirements**, prepare application documents and outline their study abroad journey. Students should contact the relevant official bodies for academic, financial, immigration and professional recognition requirements."
+            "After being offered a place, students may also need to provide further documents for \\\\French student visa processing\\\\, financial proof, accommodation and final enrollment."
           ]
         }
       ]
@@ -228,8 +523,33 @@
   ],
   "faqs": [
     {
-      "question": "How can **Edu Hawk Worldwide Consultancy** help me to study abroad?",
-      "answer": "**Q1. Can Indian students pursue **undergraduate Mechanical Engineering in France?**** Yes. Indian students meeting the academic, language and admission criteria can apply for eligible bachelor’s and engineering-school programs in France. Q2. How many years to complete undergraduate Mechanical Engineering in France?** Typically, a bachelor’s degree takes three years to complete. A typical French engineering-school path usually takes five years after high school, depending on the admission route. **Q3. Are there Mechanical Engineering courses in France in English?** Some institutions provide English-taught engineering programs or international study pathways. But a lot of the traditional engineering programs are taught in French. Students are advised to confirm with the school the language of instruction for the courses before applying. Q4. ** Undergraduate Mechanical Engineering in France: What is the cost?** Tuition fees vary depending on the institution and the qualification. The published differentiated fee for non-EU students subject to the relevant public-institution rules is €2,902 per year at bachelor’s level for 2026–2027. Tuition may be higher at private engineering schools. **Q5. What are the required subjects to study Mechanical Engineering in France?** Admission to undergraduate mechanical engineering often requires important subjects such as mathematics and physics. Some institutions may also require chemistry or other science subjects depending on the program. ****Edu Hawk worldwide Consultancy**** can help students find the right universities, know about **Mechanical Engineering admission requirements**, prepare application documents and outline their study abroad journey. Students should contact the relevant official bodies for academic, financial, immigration and professional recognition requirements."
+      "q": "\\\\Q1. Can Indian students pursue undergraduate Mechanical Engineering in France?\\\\",
+      "a": "Yes. Indian students meeting the academic, language and admission criteria can apply for eligible bachelor's and engineering-school programs in France."
+    },
+    {
+      "q": "How many years to complete undergraduate Mechanical Engineering in France?\\\\",
+      "a": "Typically, a bachelor's degree takes three years to complete. A typical French engineering-school path usually takes five years after high school, depending on the admission route."
+    },
+    {
+      "q": "\\\\Q3. Are there Mechanical Engineering courses in France in English?\\\\",
+      "a": "Some institutions provide English-taught engineering programs or international study pathways. But a lot of the traditional engineering programs are taught in French. Students are advised to confirm with the school the language of instruction for the courses before applying."
+    },
+    {
+      "q": "\\\\ Undergraduate Mechanical Engineering in France: What is the cost?\\\\",
+      "a": "Tuition fees vary depending on the institution and the qualification. The published differentiated fee for non-EU students subject to the relevant public-institution rules is €2,902 per year at bachelor's level for 2026–2027. Tuition may be higher at private engineering schools."
+    },
+    {
+      "q": "\\\\Q5. What are the required subjects to study Mechanical Engineering in France?\\\\",
+      "a": "Admission to undergraduate mechanical engineering often requires important subjects such as mathematics and physics. Some institutions may also require chemistry or other science subjects depending on the program."
+    },
+    {
+      "q": "How can Edu Hawk Worldwide Consultancy help me to study abroad?",
+      "a": "\\\\Edu Hawk worldwide Consultancy\\\\ can help students find the right universities, know about \\\\Mechanical Engineering admission requirements\\\\, prepare application documents and outline their study abroad journey. Students should contact the relevant official bodies for academic, financial, immigration and professional recognition requirements."
     }
-  ]
+  ],
+  "seo": {
+    "title": "Mechanical Engineering in France | Edu-Hawk Worldwide",
+    "description": "France has a strong base of engineering and manufacturing, in particular in the fields of aerospace, automobile production, transportation, energy and advanced ",
+    "keywords": "Study Mechanical Engineering in France for Indian Students, Mechanical Engineering Courses in France for International Students, Best Universities for Mechanical Engineering in France, Undergraduate Mechanical Engineering in France, Bachelor's Degree in Mechanical Engineering in France, Mechanical Engineering Eligibility Requirements in France, Mechanical Engineering Admission Requirements for Indian Students, Mechanical Engineering Tuition Fees in France 2026–2027, Cost of Studying Mechanical Engineering in France, English-Taught Mechanical Engineering Programmes in France, Automotive Engineering Courses in France, Aerospace and Manufacturing Engineering in France, Robotics and Automation Engineering Courses in France, CTI Accredited Engineering Schools in France, Mechanical Engineering Jobs and Career Opportunities in France, <"
+  }
 }

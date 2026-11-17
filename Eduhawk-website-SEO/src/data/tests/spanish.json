@@ -1,0 +1,81 @@
+{
+  "id": "spanish",
+  "name": "Foreign Examinations for Spain (DELE, SIELE, PCE, UNEDasiss)",
+  "shortName": "Spain Online Exams",
+  "category": "Foreign Online Exam",
+  "badge": "Official Spanish Language & University Tests",
+  "seo": {
+    "title": "Spain Foreign Examinations: DELE, SIELE, PCE & UNEDasiss Guide | EduHawk Worldwide",
+    "description": "Complete guide to university admission exams for Spain: DELE perpetual diplomas, SIELE online tests, PCE subject examinations, and UNEDasiss accreditation credentials for international students.",
+    "keywords": "Spain foreign examinations, DELE exam Spain, SIELE online test, PCE subject exams Spain, UNEDasiss accreditation, study in Spain from India, Spanish university entrance exams, Spanish student visa"
+  },
+  "hero": {
+    "badge": "Official Spanish Language & University Tests",
+    "heroPara": "Spain provides high-quality university education and rich cultural immersion, requiring students to qualify for official Spanish language certifications (DELE, SIELE), university access credentials (UNEDasiss, PCE), or English tests for English-medium tracks."
+  },
+  "stats": [
+    {
+      "label": "Target Programs",
+      "value": "Grado (Bachelor's), Máster, Doctorado"
+    },
+    {
+      "label": "Spanish Diplomas",
+      "value": "DELE (A1–C2 Lifetime), SIELE (5 Years)"
+    },
+    {
+      "label": "Undergrad Access",
+      "value": "UNEDasiss Accreditation & PCE Exams"
+    },
+    {
+      "label": "English Options",
+      "value": "IELTS, TOEFL iBT (for English tracks)"
+    },
+    {
+      "label": "Visa Requirement",
+      "value": "Spanish National Study Visa (Type D)"
+    },
+    {
+      "label": "Approx. Living",
+      "value": "€800 – €1,200 / month"
+    }
+  ],
+  "countries": [
+    "Spain"
+  ],
+  "overview": [
+    "Spain is an increasingly attractive European study destination for Indian students seeking accredited degrees, affordable tuition fees, vibrant lifestyle, and global career opportunities.",
+    "International applicants have a wide array of bachelor's, master's, business, and doctoral degrees to choose from across renowned public and private institutions.",
+    "The examinations you need depend on your program: DELE and SIELE evaluate Spanish proficiency; IELTS and TOEFL serve English tracks; while PCE and UNEDasiss are essential for undergraduate university access."
+  ],
+  "registrationSteps": [
+    "Step 1: Pick your university and degree subject. Verify whether your chosen program is taught in English or Spanish.",
+    "Step 2: Review specific university admission requirements, admission cycles (convocatorias), and minimum score benchmarks.",
+    "Step 3: Determine which tests you need: DELE or SIELE for Spanish; IELTS/TOEFL for English; PCE/UNEDasiss for undergraduate entry.",
+    "Step 4: Visit the official exam provider website (Instituto Cervantes for DELE/SIELE; UNEDasiss portal for PCE).",
+    "Step 5: Register, select an authorized testing center in India, and pay the applicable fee with valid passport details.",
+    "Step 6: Prepare using official sample questions, past exam papers, and timed practice tests.",
+    "Step 7: Submit language certificates, credential equivalencies, and academic dossiers directly to Spanish institutions."
+  ],
+  "faqs": [
+    {
+      "q": "What is the test needed to study in Spain?",
+      "a": "It depends on the course. For English-taught programs, IELTS or TOEFL is standard. For Spanish-taught programs, DELE B2 or SIELE is required. Undergraduate students entering public universities often need PCE subject tests through UNEDasiss."
+    },
+    {
+      "q": "Do you need to do the IELTS in Spain?",
+      "a": "No, IELTS is not mandatory for all programs. If you study in Spanish, you only need Spanish proficiency. For English-medium programs, universities also accept TOEFL iBT or Cambridge qualifications."
+    },
+    {
+      "q": "What is the difference between DELE and SIELE?",
+      "a": "DELE is an official physical diploma testing a specific CEFR level with permanent (lifetime) validity. SIELE is a flexible, single computer-based multi-level exam scored 0–1000, valid for five years, with faster digital results."
+    },
+    {
+      "q": "Is it possible to take an online Spanish language test from India?",
+      "a": "SIELE is computer-based and can be booked at authorized SIELE exam centers across India. DELE is administered on designated international dates at accredited Instituto Cervantes centers."
+    },
+    {
+      "q": "Are PCE exams a must for Indian students?",
+      "a": "Not for all applicants. PCE exams are primarily required for undergraduate admission into competitive Spanish public universities to raise admission points (nota de corte). Master's and private university programs typically do not require PCE."
+    }
+  ]
+}

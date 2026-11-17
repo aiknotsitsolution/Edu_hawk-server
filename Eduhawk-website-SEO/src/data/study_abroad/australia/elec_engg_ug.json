@@ -6,9 +6,9 @@
   "hero": {
     "badge": "Study Abroad - Australia",
     "title": "Study Australian undergraduate electrical engineering programs.",
-    "subtitle": "Electrical engineering focuses on power generation, renewable energy systems, electronics, telecommunications, and digital automation.",
+    "subtitle": "For students who are interested in electricity, electronic systems, power generation, automation, and contemporary technologies, electrical engineering is a great choice. Power networks, renewable energy systems, industrial machinery, electric cars, and smart technologies are all developed with the help of electrical engineers.",
     "ctaText": "Book Free Counselling",
-    "image": ""
+    "image": "/uploads/study_abroad/australia/elec_engg_ug_Monash_University-image1.png"
   },
   "stats": [
     {
@@ -29,59 +29,625 @@
     }
   ],
   "highlights": {
-    "degree": "Bachelor of Engineering (Honours)",
+    "degree": "Bachelor of Engineering (Electrical)",
     "duration": "4 Years Full-Time",
     "fee": "AUD 30,000 – AUD 52,000 / Year",
     "eligibility": "Recognised academic qualification + English proficiency",
-    "medium": "100% English Taught"
+    "medium": "English"
   },
-  "overview": "Undergraduate electrical engineering programs in Australia integrate fundamental circuit analysis, power systems, renewable energy, control systems, and advanced electronics.",
-  "universities": [
+  "overview": [
+    "For students who are interested in electricity, electronic systems, power generation, automation, and contemporary technologies, electrical engineering is a great choice. Power networks, renewable energy systems, industrial machinery, electric cars, and smart technologies are all developed with the help of electrical engineers.",
+    "Study Undergraduate engineering programs in Australia integrate theoretical knowledge with technical projects, engineering design, laboratory experiments, and real-world applications.",
+    "Degrees in electrical engineering that span topics including power systems, control engineering, electronics, renewable energy, electrical machines, and industrial automation are available to Indian students.",
+    "Depending on the university and curriculum chosen, an undergraduate degree in electrical engineering typically requires fo ur years of full-time study.",
+    "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities."
+  ],
+  "sections": [
     {
-      "name": "The University of Melbourne",
-      "location": "Melbourne, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "slot": "overview",
+      "eyebrow": "Course Scope",
+      "title": "Overview of the Course",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "For students who are interested in electricity, electronic systems, power generation, automation, and contemporary technologies, electrical engineering is a great choice. Power networks, renewable energy systems, industrial machinery, electric cars, and smart technologies are all developed with the help of electrical engineers."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Study Undergraduate engineering programs in Australia integrate theoretical knowledge with technical projects, engineering design, laboratory experiments, and real-world applications."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Degrees in electrical engineering that span topics including power systems, control engineering, electronics, renewable energy, electrical machines, and industrial automation are available to Indian students."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Depending on the university and curriculum chosen, an undergraduate degree in electrical engineering typically requires fo ur years of full-time study."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities."
+          ]
+        }
+      ]
     },
     {
-      "name": "The University of Sydney",
-      "location": "Sydney, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "slot": "why-study",
+      "eyebrow": "Key Benefits",
+      "title": "Why Come to Australia to Study Electrical Engineering?",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Industry-Relevant Curriculum: Through technical courses, lab work, and engineering design projects, students can learn the fundamentals of electrical engineering.",
+            "Practical Learning: Gain knowledge through laboratory experiments, electrical measurements, circuit design, simulation tools, and project-based evaluations.",
+            "Emerging Technologies: Examine topics including energy-efficient systems, automation, smart grids, electric vehicles, and renewable energy.",
+            "International Learning Environment: Gain technical communication, teamwork, and problem-solving skills while studying in a multicultural setting.",
+            "Various Career Opportunities: Depending on their credentials and expertise, graduates may seek positions in manufacturing, automation, renewable energy, power generation, electrical design, infrastructure, and engineering consulting."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Australian Universities",
+      "title": "Top Universities in Australia",
+      "lead": "Explore leading Group of Eight and prestigious Australian universities renowned for academic excellence, state-of-the-art research laboratories, and strong industry partnerships.",
+      "unis": [
+        {
+          "name": "Monash University",
+          "location": "Melbourne, Victoria",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/elec_engg_ug_Monash_University-image1.png",
+          "desc": ""
+        },
+        {
+          "name": "UNSW Sydney (The University of New South Wales)",
+          "location": "Sydney, New South Wales",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/elec_engg_ug_New_South_Wales_University-image2.png",
+          "desc": ""
+        },
+        {
+          "name": "The University of Queensland",
+          "location": "Brisbane, Queensland",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/elec_engg_ug_Queensland_University-image4.png",
+          "desc": ""
+        },
+        {
+          "name": "The University of Queensland",
+          "location": "Brisbane, Queensland",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/elec_engg_ug_Queensland_University-image4.png",
+          "desc": ""
+        }
+      ],
+      "groups": []
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Popular Courses",
+      "title": "Electrical Engineering Courses for Undergraduates",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The following degree options are available to Indian students:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Electrical engineering bachelor's degree with honors",
+            "Electrical and Electronic Engineering Bachelor of Engineering (Honors)",
+            "Electrical engineering is the major for the Bachelor of Engineering (Honors).",
+            "Electrical engineering bachelor's degree",
+            "Electrical and power engineering specialization for a Bachelor of Engineering (Honors) degree"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Important: Each institution has different standards for entrance, professional accreditation, degree titles, and specializations. Before applying, always confirm the specific program."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "specializations",
+      "eyebrow": "Specializations",
+      "title": "Specializations in Electrical Engineering",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Electrical machinery",
+            "Power systems engineering",
+            "Renewable energy engineering",
+            "Control systems engineering",
+            "Electronics engineering",
+            "Instrumentation and measurement",
+            "Power electronics."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Indian Students Eligibility",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "If they meet the university's admission standards, Indian students who have finished Class 12 or an equivalent degree may apply for qualified undergraduate electrical engineering programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Common prerequisites consist of:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Obtaining a Class 12 diploma or a comparable credential.",
+            "One essential prerequisite is mathematics.",
+            "Depending on the university, physics or other science courses may be offered.",
+            "academic standing that satisfies the requirements for admission to the institution.",
+            "proficiency in English, where necessary.",
+            "a current passport and the necessary paperwork for the application."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "language",
+      "eyebrow": "Language Requirements",
+      "title": "Language Requirements in English",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "International students might have to take an approved test to prove they are proficient in English."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Tests that are frequently accepted include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Academic TOEFL iBT IELTS",
+            "English Academic Pearson Test (PTE Academic)",
+            "An IELTS Academic score of between 6.0 and 6.5 overall, with minimum component scores, may be required for several undergraduate engineering programs. The precise prerequisite differs depending on the program and university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Before scheduling an exam, candidates should review the most recent English requirements related to the course. According to their policies, several universities might accept different types of evidence or grant exemptions."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tests",
+      "eyebrow": "Entrance Exams",
+      "title": "Admission Tests",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Academic credentials and the university's entrance requirements are typically the determining factors in Australian undergraduate electrical engineering admissions.",
+            "SAT or ACT: Depending on the particular university and application process, these are not always necessary.",
+            "Prerequisites in mathematics are frequently crucial for direct admission.",
+            "Assessments for the foundation program may be applicable to candidates who choose a different admission path.",
+            "Students should find out if the course they have selected requires any additional tests or academic prerequisites."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Popular Courses",
+      "title": "Duration of Course",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "In Australia, many undergraduate honors degrees in Electrical Engineering require four years of full-time study."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Costs",
+      "title": "Living expenses and tuition",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Estimated Cost of Tuition"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The university, degree, study load, and year of admission all affect the cost of international tuition."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For many undergraduate engineering programs, students can utilize an indicative range of roughly AUD 40,000-60,000 or more annually for initial planning. This is not a definite cost for each course; rather, it is a general estimate."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Extra Costs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Additionally, students should set aside money for:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Lodging and utilities",
+            "Food and groceries",
+            "Public transportation",
+            "Study guides, software, and books",
+            "Health Coverage for International Students (OSHC)",
+            "Costs associated with applying for a visa",
+            "Emergency and personal costs"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scholarships",
+      "eyebrow": "Scholarships & Funding",
+      "title": "Indian Students Scholarships",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Australian institutions may give scholarships or tuition cost reductions to international students."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Opportunities that could arise include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Scholarships for international merit",
+            "Awards for academic excellence",
+            "Scholarships for international students tailored to a university",
+            "Awards pertaining to engineering or faculty, when applicable",
+            "Opportunities for qualified outside funding",
+            "Academic achievement, nationality, course choice, admission, and application deadlines are some examples of scholarship requirements.",
+            "While some prizes are evaluated automatically, others demand for a special application. Rather than paying for all living and educational costs, several scholarships offer partial tuition price reductions.",
+            "Students should use the university's official website to confirm scholarship availability, award value, eligibility, renewal requirements, and deadlines."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "12. Job Opportunities in Electrical Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Graduates with an undergraduate degree in electrical engineering may be better equipped to pursue technical and engineering-related positions in a variety of industries."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Possible job paths consist of:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Electrical Engineer Graduate",
+            "Engineer for Electrical Design",
+            "Engineer for Power Systems",
+            "Engineer for Electrical Projects",
+            "Engineer for Renewable Energy and Control Systems",
+            "Engineer for Automation",
+            "Engineer for Electrical Maintenance",
+            "Graduate in Electronics Engineering, Instrumentation Engineer",
+            "Electricity utilities, renewable energy firms, manufacturing, building, infrastructure, engineering consulting, industrial automation, and transportation systems are all potential employment areas."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scope",
+      "eyebrow": "Details",
+      "title": "Accreditation for Professionals",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "For students who want to pursue a career in engineering , professional accreditation is crucial."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Under its framework for professional accreditation, Engineers Australia grants accreditation to qualified engineering programs. However, the particular course, institution, style of delivery, and relevant certification period all affect accreditation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Prior to accepting an offer, students must to:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Verify the precise title of the degree."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Consult Engineers Australia to find out the current certification status.",
+            "Check if the desired campus and intake are covered by the accreditation.",
+            "Recognize any further prerequisites for registration or professional recognition in the nation where they intend to work."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "How to Apply",
+      "title": "Indian Students' Admission Procedure",
+      "groups": [
+        {
+          "t": "step",
+          "step": 1,
+          "title": "Evaluation of Academic Profile",
+          "desc": "Examine your class 12 grades, background in math and physics, English language skills, ideal location, and budget."
+        },
+        {
+          "t": "step",
+          "step": 2,
+          "title": "Shortlisting Universities",
+          "desc": "Examine the available intakes, accreditation, tuition costs, entry standards, and course format."
+        },
+        {
+          "t": "step",
+          "step": 3,
+          "title": "Prepare the Document",
+          "desc": "Prepare academic credentials, passport information, the results of any necessary English tests, and any supporting documentation."
+        },
+        {
+          "t": "step",
+          "step": 4,
+          "title": "Submission of the Application",
+          "desc": "Apply using the university's official application portal or through a designated representative, adhering to the guidelines set forth by the organization."
+        },
+        {
+          "t": "step",
+          "step": 5,
+          "title": "Letter of Offer",
+          "desc": "The university may make an unconditional or conditional offer to those who qualify. Examine each condition in detail."
+        },
+        {
+          "t": "step",
+          "step": 6,
+          "title": "Make an Acceptance Offer",
+          "desc": "Finish the necessary acceptance procedures and pay the tuition deposit or any other fees the school specifies."
+        },
+        {
+          "t": "step",
+          "step": 7,
+          "title": "Enrollment Confirmation",
+          "desc": "Obtain the Confirmation of Enrollment (CoE) by fulfilling the provider's requirements."
+        },
+        {
+          "t": "step",
+          "step": 8,
+          "title": "Applying for a Student Visa",
+          "desc": "Submit the necessary supporting documentation along with your application for the relevant Australian student visa."
+        },
+        {
+          "t": "step",
+          "step": 9,
+          "title": "Getting Ready Before Departure",
+          "desc": "Before leaving, make travel, lodging, health insurance, and other practical arrangements. The university's evaluation and the relevant Australian Government regulations determine admissions and visa decisions."
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Required Documents",
+      "title": "Documents Needed",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The following paperwork may be required for entrance and visa processing:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Marksheet and certificate for Class 10",
+            "Marksheet and certificate for class 12",
+            "A valid passport",
+            "Test results in English, if needed",
+            "Academic records and transcripts",
+            "If asked, a personal statement or additional documentation",
+            "When necessary, financial documentation and a letter of offer from the university",
+            "Verification of Enrollment",
+            "Health of International Students Cover the evidence",
+            "Application materials for a student visa",
+            "Any further documentation that the university or other appropriate authorities seek",
+            "The student's circumstances and the university they have chosen will determine the final checklist."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "visa",
+      "eyebrow": "Student Visa",
+      "title": "Student Visa for Australia",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "In order to enrolll in an authorized full-time program, Indian students typically need the proper Australian student visa."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The application might need:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A legitimate Enrollment Confirmation",
+            "Proof that satisfies the Genuine Student criterion",
+            "Proof of adequate cash, when necessary",
+            "Health Coverage for International Students",
+            "Character and health checks, if relevant",
+            "Documents proving identity and further evidence",
+            "Procedures, costs, and requirements for visas are subject to change. Before filing an application, candidates should check the Department of Home Affairs' official website."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "assistance",
+      "eyebrow": "Edu Hawk Support",
+      "title": "How Edu Hawk Can Assist",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Students looking into undergraduate engineering possibilities overseas might get advice from Edu Hawk."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Our assistance could consist of:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Initial evaluation of academic profile",
+            "Shortlisting for electrical engineering courses at universities",
+            "Guidelines for Indian Class 12 qualifying eligibility",
+            "Budgeting and tuition fees",
+            "Guidelines for application documents",
+            "assistance in the admission process for universities",
+            "Offer letter with enrollment instructions",
+            "Guidance on student visa documentation",
+            "Planning prior to departure",
+            "Before making a final choice, students should independently evaluate all admission, fee, accreditation, and visa requirements as well as official institution information."
+          ]
+        }
+      ]
+    }
+  ],
+  "universities": [
+    {
+      "name": "Monash University",
+      "location": "Melbourne, Victoria",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/elec_engg_ug_Monash_University-image1.png",
+      "desc": ""
+    },
+    {
+      "name": "UNSW Sydney (The University of New South Wales)",
+      "location": "Sydney, New South Wales",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/elec_engg_ug_New_South_Wales_University-image2.png",
+      "desc": ""
     },
     {
       "name": "The University of Queensland",
-      "location": "Brisbane, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "location": "Brisbane, Queensland",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/elec_engg_ug_Queensland_University-image4.png",
+      "desc": ""
     },
     {
-      "name": "Monash University",
-      "location": "Melbourne, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "name": "The University of Queensland",
+      "location": "Brisbane, Queensland",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/elec_engg_ug_Queensland_University-image4.png",
+      "desc": ""
     }
   ],
   "faq": [
     {
       "question": "Is it possible for Indian students to study electrical engineering in Australia?",
-      "answer": "Yes, qualified students with Class 12 mathematics and physics can apply for accredited Bachelor of Engineering (Honours) programs."
+      "answer": "Yes, Indian students who fulfill the academic, subject, and English language requirements of the university are able to apply to undergraduate electrical engineering programs."
     },
     {
-      "question": "What is the duration of an Australian degree in electrical engineering?",
-      "answer": "A standard Bachelor of Engineering (Honours) takes 4 years of full-time study."
+      "question": "How long does it take to earn a degree in Electrical Engineering in Australia?",
+      "answer": "Four years of full-time study are required for many undergraduate engineering honors degrees . The chosen program determines the precise duration."
     },
     {
-      "question": "Does electrical engineering require mathematics?",
-      "answer": "Yes, senior secondary mathematics is an essential prerequisite for admission."
+      "question": "Does Electrical Engineering require mathematics?",
+      "answer": "A major requirement for many degrees in electrical engineering is mathematics. It might also be necessary to take physics or other science courses."
     },
     {
-      "question": "Do Australian universities require NEET for electrical engineering?",
-      "answer": "No, NEET is exclusively for medical degrees and is not required for engineering programs."
+      "question": "Is employment or permanent residency guaranteed by a degree in electrical engineering?",
+      "answer": "No. Individual qualifications, experience, employer requirements, market conditions, and the regulations in effect at the time all affect employment, professional recognition, and migration outcomes. Keywords - Study Electrical Engineering in Australia for Indian Students Undergraduate Electrical Engineering Courses in Australia Best Universities for Electrical Engineering in Australia Bachelor of Electrical Engineering in Australia After 12th Electrical Engineering Eligibility in Australia for Indian Students Electrical Engineering Admission Requirements in Australia"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is it possible for Indian students to study electrical engineering in Australia?",
+      "a": "Yes, Indian students who fulfill the academic, subject, and English language requirements of the university are able to apply to undergraduate electrical engineering programs."
     },
     {
-      "question": "How much does electrical engineering cost in Australia?",
-      "answer": "Annual international tuition typically ranges from AUD 40,000 to AUD 55,000, depending on the university."
+      "q": "How long does it take to earn a degree in Electrical Engineering in Australia?",
+      "a": "Four years of full-time study are required for many undergraduate engineering honors degrees . The chosen program determines the precise duration."
+    },
+    {
+      "q": "Does Electrical Engineering require mathematics?",
+      "a": "A major requirement for many degrees in electrical engineering is mathematics. It might also be necessary to take physics or other science courses."
+    },
+    {
+      "q": "Is employment or permanent residency guaranteed by a degree in electrical engineering?",
+      "a": "No. Individual qualifications, experience, employer requirements, market conditions, and the regulations in effect at the time all affect employment, professional recognition, and migration outcomes. Keywords - Study Electrical Engineering in Australia for Indian Students Undergraduate Electrical Engineering Courses in Australia Best Universities for Electrical Engineering in Australia Bachelor of Electrical Engineering in Australia After 12th Electrical Engineering Eligibility in Australia for Indian Students Electrical Engineering Admission Requirements in Australia"
     }
   ]
 }

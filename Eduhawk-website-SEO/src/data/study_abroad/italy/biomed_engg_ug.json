@@ -1,14 +1,15 @@
 {
   "seo": {
     "title": "Biomedical Engineering - UG in Italy for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study Biomedical Engineering - UG in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities."
+    "description": "Study Biomedical Engineering - UG in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
+    "keywords": "Biomedical Engineering in Italy for Indian Students, Biomedical Engineering Courses in Italy, Biomedical Engineering Universities in Italy, Study Biomedical Engineering in Italy, Biomedical Engineering Admission Requirements in Italy, Cost of Studying Biomedical Engineering in Italy"
   },
   "hero": {
     "badge": "Study Abroad - Italy",
     "title": "Biomedical Engineering in Italy for Indian Students",
-    "subtitle": "Yep. Indian students can apply for eligible bachelor programs after Class 12 if they meet the university's academic, subject, language and entrance tests requirements.",
+    "subtitle": "Biomedical Engineering in Italy is a promising option for Indian students who want to study a mix of engineering, medicine, biology and healthcare technology. This field is devoted to the development of medical devices, diagnostic tools, artificial organs, rehabilitation technologies and systems that aid modern medicine. Students who have completed Class 12 and want to pursue a Bachelor's in Biomedical Engineering in Italy can refer to this article for details on undergraduate engineering courses, universities, eligibility criteria, tuition fees, scholarships and job opportunities.",
     "ctaText": "Book Free Counselling",
-    "image": ""
+    "image": "/uploads/study_abroad/italy/biomed_engg_ug_Polytechnic_of_Milan-image3.png"
   },
   "stats": [
     {
@@ -29,38 +30,1053 @@
     }
   ],
   "highlights": {
-    "degree": "Undergraduate",
+    "degree": "Bachelor in Biomedical Engineering",
     "duration": "3 to 4 Years (UG) / 2 Years (PG)",
     "fee": "€1,000 – €4,000 / Year (Public) | €6,000 – €20,000 / Year (Private)",
     "eligibility": "Recognised academic qualification + English / Italian proficiency",
-    "medium": "English & Italian Taught"
+    "medium": "English / Italian"
   },
-  "overview": "Yep. Indian students can apply for eligible bachelor programs after Class 12 if they meet the university's academic, subject, language and entrance tests requirements.",
-  "universities": [
+  "overview": [
+    "Biomedical Engineering in Italy is a promising option for Indian students who want to study a mix of engineering, medicine, biology and healthcare technology. This field is devoted to the development of medical devices, diagnostic tools, artificial organs, rehabilitation technologies and systems that aid modern medicine. Students who have completed Class 12 and want to pursue a Bachelor's in Biomedical Engineering in Italy can refer to this article for details on undergraduate engineering courses, universities, eligibility criteria, tuition fees, scholarships and job opportunities.",
+    "You will study engineering in a European academic environment and have the opportunity to explore medical technology, biomechanics, biomaterials, medical imaging and healthcare innovation in Italy. Before applying, Indian students must check the exact degree title, teaching language, admission test and availability of undergraduate program at respective university."
+  ],
+  "sections": [
     {
-      "name": "Politecnico di Milano",
-      "location": "Milan, Italy",
-      "fee": "€1,000 – €3,900 / Year",
-      "image": ""
+      "slot": "why-study",
+      "eyebrow": "Key Benefits",
+      "title": "Why Study Biomedical Engineering in Italy?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Biomedical engineering in Italy can assist students in acquiring technical knowledge relevant to healthcare, medical research and engineering innovation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Engineering principles with applications to biology, medicine, and healthcare: Interdisciplinary education"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Exposure to medical technology. You can explore medical devices, diagnostic equipment, prosthetics, and rehabilitation systems."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "European education: Study in an international environment and collaborate with students from different backgrounds."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Research opportunities: Depending on the university, study biomaterials, biomechanics, biomedical instrumentation and medical imaging."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Scholarships: Eligible international students may apply for university scholarships and regional financial aid."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Career flexibility: Biomedical engineering skills are also transferable to medical-device manufacturing, quality assurance, technical support, research and healthcare technology."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students looking to study biomedical engineering abroad should select a program that matches their interests, whether it's medical devices, biological systems, healthcare equipment or computational engineering."
+          ]
+        }
+      ]
     },
     {
-      "name": "Sapienza University of Rome",
-      "location": "Rome, Italy",
-      "fee": "€1,000 – €3,000 / Year",
-      "image": ""
+      "slot": "programs",
+      "eyebrow": "Popular Courses",
+      "title": "Biomedical Engineering Courses in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Students looking for biomedical engineering courses in Italy after 12th must compare the curriculum, facilities in the laboratory, duration of degree, and medium of instruction."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Typical undergraduate study areas include:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Human Anatomy and Physiology: A study of the structure and function of the human body."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Engineering Mathematics Mathematical techniques for the analysis of engineering and biological systems."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Physics and Electronics: Concepts behind sensors, measurement systems and medical devices."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Biomaterials Materials for implants, prosthetics and medical applications."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Biomechanics: Mechanics as applied to the human body and movement."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Biomedical Instrumentation: Study of devices used for measuring and monitoring physiological signals."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Medical Imaging: A guide to the imaging technologies used in healthcare."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Programming and Data Analysis Computer methods for processing biomedical data."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Medical Device Design: Engineering Approaches to Design and Evaluation of Health Technologies."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The normal length of an Italian Laurea (bachelor's degree) is 3 years. The exact curriculum and length of study will vary depending on the qualification and university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "3. Best Biomedical Engineering Universities in Italy"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students searching for best universities to study biomedical engineering in Italy can consider these universities. The following options offer relevant undergraduate programs. Check the details of current intake, language of teaching and admission requirements before applying."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "1. Polytechnic of Milan"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Milan, Italy"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Offers a three-year Bachelor of Science in Biomedical Engineering program that combines engineering principles with medical and biological knowledge. Topics include biomechanics, biomaterials, biomedical instrumentation and biomedical technologies. The bachelor's degree course is taught in Italian."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Program details Official"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "2. University of Boloña"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Cesena, Italy."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Offers a 3-year Bachelor's degree in Biomedical Engineering . The program includes engineering, mathematics, physics and biomedical knowledge. Admission is restricted and requires the TOLC-I test. Classes are in Italian."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "from the official program"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "3. Università di Padova"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Padua, Italy."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students interested in biomedical technology can consider the university's engineering and life-sciences study options. Check the current undergraduate catalog for whether a specific Biomedical Engineering bachelor's degree is offered for your intake and in which language."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Official website of university"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Important for Indian applicants: the above-mentioned two dedicated bachelor's programs are taught in Italian language. If you want to study a bachelor degree in English, check the language of instruction before adding a university to your shortlist."
+          ]
+        }
+      ]
     },
     {
-      "name": "University of Bologna",
-      "location": "Bologna, Italy",
-      "fee": "€1,000 – €3,500 / Year",
-      "image": ""
+      "slot": "universities",
+      "eyebrow": "Top Italian Universities",
+      "title": "Top Universities in Italy",
+      "lead": "Explore top public research universities and polytechnics in Italy offering English-taught degrees, historic campuses, and generous regional scholarships.",
+      "unis": [
+        {
+          "name": "Polytechnic of Milan",
+          "location": "Italy",
+          "fee": "€1,000 – €4,000 / Year",
+          "image": "/uploads/study_abroad/italy/biomed_engg_ug_Polytechnic_of_Milan-image3.png"
+        },
+        {
+          "name": "University of Boloña",
+          "location": "Italy",
+          "fee": "€1,000 – €4,000 / Year",
+          "image": "/uploads/study_abroad/italy/biomed_engg_ug_University_of_Bolo_a-image1.png"
+        },
+        {
+          "name": "Università di Padova",
+          "location": "Italy",
+          "fee": "€1,000 – €4,000 / Year",
+          "image": "/uploads/study_abroad/italy/biomed_engg_ug_Universita_di_Padova-image2.png"
+        }
+      ],
+      "groups": []
     },
     {
-      "name": "University of Padua",
-      "location": "Padua, Italy",
-      "fee": "€1,000 – €2,800 / Year",
-      "image": ""
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Who can Study Biomedical Engineering in Italy?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Indian students who have completed their Class 12 education and wish to pursue a Bachelor's degree in Biomedical Engineering in Italy usually need to fulfilll the following requirements:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Educational Qualification: Passed Class 12th from a recognized Board or equivalent qualification as recognized by the University."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Compulsory Subjects: Mathematics and Physics are important for admission in engineering. Depending on the course, Chemistry and Biology may be relevant."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic performance: Meet the minimum academic and subject specific requirements for the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Language requirements: meet the Italian language requirement for courses taught in Italian or the English language requirement for programs taught in English."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Entrance examination Take any admission tests required, such as TOLC-I or other university-specific tests."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "International qualification assessment Please provide documents that enable the university to assess your Indian school-leaving qualification."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Each institution has different requirements, so students should visit the official page of the admissions before applying."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Biomedical Engineering Admission Requirements in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Biomedical engineering in Italy might require:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Marksheets and certificate of class 12: Proof of completion of secondary education."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Prerequisites: Demonstrated proficiency in the required mathematics and science background."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Entrance test results: In case the university conducts an admission or aptitude test."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Language certificate: proof of Italian or English proficiency, as appropriate."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic qualification evaluation: May require further documentation to verify Indian qualification."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Application submission: Complete the university's online application and submit the necessary documents."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Pre-enrolment and visa procedures: Follow the procedures for non-EU applicants."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For example, Politecnico di Milano has entrance tests for its bachelor's engineering programs, and the University of Bologna indicates TOLC-I for its bachelor program in Biomedical Engineering ."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Costs",
+      "title": "What is the Cost of Studying Biomedical Engineering in Italy?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The cost of studying biomedical engineering in Italy will depend on the university, the tuition fee assessment, scholarships and financial aid eligibility."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The figures below are sample annual fees for tuition to assist with budgeting and are not confirmed fees for any one university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Estimated annual tuition"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Approximate amount"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "INR"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€1,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹1,08,600"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€2,500"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹2,71,500"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€5,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹5,43,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Conversion used : € 1 = ₹ 108.60. Actual INR amounts are dependent on the exchange rates."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Other expenses related to education may be:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "University application and administration fees"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Admission Test Fee"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Italian or English language examination"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Books, lab materials and study materials"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Visa and residence permit charges"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Health insurance and other mandatory administrative costs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These expenses do not include tuition. Living expenses should be budgeted separately for accommodation, food, transport and personal expenses."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Biomedical Engineering Scholarships in Italy"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Indian students who want to study biomedical engineering in Italy with scholarships can have a look at:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "University Scholarships based on merit"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Regional scholarships and aid"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "tuition-fee discounts for qualifying students"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Scholarships available under specific international education programs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Scholarships may be awarded based on academic merit, financial need, documentation, and application deadlines. Students should check the awards available and eligibility conditions for the year of study they intend to follow."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "7. Admission to Biomedical Engineering in Italy"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Here is how to apply for a Biomedical Engineering bachelor degree in Italy ."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Choose your university: see degree structure, language of teaching, fees and course content."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Check eligibility: Ensure your Class 12 qualification and subjects satisfy the entry requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Prepare for the entrance test Register for the test you need - the TOLC-I or the university's own test."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Language requirements: Obtain the required certificate of Italian or English language proficiency."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "How to Apply Fill out the university application form and submit all documents required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Complete the pre-enrolment: follow the instructions of the University and consult the official Universitaly portal for the procedures for international students."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Apply for an Italian Study Visa: Call the Italian embassy or consulate in your region for the latest documentation and financial requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Final enrollment: Done. Follow university's instructions for document verification, fee payment and registration."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Admission deadlines and procedures can vary between universities and between academic years. If there is an entrance test or Italian language certificate required, start preparing early."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "recognition",
+      "eyebrow": "Degree Recognition & Accreditation",
+      "title": "Certification and Recognition of Biomedical Engineering in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "A recognized Bachelor's degree in Biomedical Engineering from Italy can provide an academic basis for careers in medical technology and engineering, subject to the requirements of the particular position and employer."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Before enrolling students need to check:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Official name and level of the degree"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "the university's accreditation"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Duration and credit requirements"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Whether the degree permits progression onto relevant master's programs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Any professional registration requirements for their chosen career"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Biomedical engineering is an engineering discipline . It is not a medical degree . Graduates are not automatically eligible to practice as doctors or other licensed health professionals."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Indian students intending to return to India should verify qualification-recognition or professional requirements that may be relevant to future employment."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Prospects",
+      "title": "Biomedical Engineering in Italy - Salary and Job Prospects",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Biomedical Engineering graduates in Italy can find jobs in medical-device companies, healthcare technology, biomedical equipment, research and engineering services."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Possible occupations include:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Biomedical Engineer - Works on the design, testing and maintenance of biomedical devices."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Medical Device Design Engineer: Assist in the design and development of medical devices."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Clinical Engineering Support Specialist: Provides support for safe operation and management of medical technology in health care facilities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Biomedical Equipment Engineer Works on diagnostic and monitoring equipment."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Quality Assurance Engineer: Provides quality management and testing support of medical device manufacturing."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Biomaterials Engineer: Deals with materials used in biomedical applications, subject to qualifications and role requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Research Assistant: Assists in research projects in biomedical engineering and related fields."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Technical Application Specialist Provides technical direction & product support for healthcare technologies."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Salary Expectations (indicative)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Broad planning estimates of gross annual salary in Italy are as follows. There are no guarantyd salaries or formal salary statistics."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Career level"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Gross annual salary indicative"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Entry level role"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€24,000-€32,000 (approx. ₹26.06 lakh to ₹34.75 lakh)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Senior Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€32,000-€45,000 (approx. Rs 34.75 lakh-Rs 48.87 lakh)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Professional, expert or specialist"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€45,000-€60,000+ (approx. ₹48.87-₹65.16 lakh+)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "INR equivalents assume €1 = Rs 108.60. Real wages vary greatly depending on experience, location, employer, job responsibilities, language proficiency and extra qualifications. Figures are before tax and deductions."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Graduates with a bachelor's degree may qualify for entry-level technical positions, but a master's degree or additional experience may be necessary for specialized research and development positions. Students wishing to stay in Italy after graduation should also check requirements for work authorization."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Required Documents",
+      "title": "Required Documents to Study Biomedical Engineering in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Documents that can be asked for from Indian students:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Valid passport"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Class 10 certificate and mark sheet"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Class-XII certificate and marksheet"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "School transcripts"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Proof of required courses"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Certificate in Italian or English, as necessary"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Results of any entrance examinations"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Application form for university"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Passport size photo(s) (s)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Documents required for qualification verification"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Proof of funds and financial documents for the visa"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Health insurance or other visa paperwork."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Official translations, legalization or other qualification documents, upon request by the university or relevant authorities"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The final checklist will depend on the university, the applicant's circumstances and the relevant visa process. Always follow the latest official guidance."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "11. Questions and Answers on Biomedical Engineering in Italy"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "1. Can Indian students do Biomedical Engineering in Italy after 12th?"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Yep. Indian students can apply for eligible bachelor programs after Class 12 if they meet the university's academic, subject, language and entrance tests requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "2. How long is a Bachelor's in Biomedical Engineering in Italy?"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A standard Italian bachelor's degree is usually 3 years. Duration to be confirmed on the official program page."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "3. Is Biomedical Engineering taught in English in Italy?"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some related programs may be available in English, but the dedicated bachelor's programs listed above at Politecnico di Milano and the University of Bologna are taught in Italian. Make sure you check the language requirements of your chosen university before applying."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "4. How much does it cost to study Biomedical Engineering in Italy?"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The tuition amount depends on the university and the student's situation. To give an idea of the scale of initial planning, illustrative annual estimates are €1,000 (Rupees 1,08,600), €2,500 (Rupees 2,71,500) and €5,000 (Rupees 5,43,000). These are not official university fee quotations."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "5. What are the job opportunities after Biomedical Engineering in Italy?"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Graduates can work in biomedical engineering, medical-device design, health-care technology, clinical engineering support, quality assurance, technical applications and research. Some special jobs require further study or professional experience."
+          ]
+        }
+      ]
     }
   ],
-  "faq": []
+  "universities": [
+    {
+      "name": "Polytechnic of Milan",
+      "location": "Italy",
+      "fee": "€1,000 – €4,000 / Year",
+      "image": "/uploads/study_abroad/italy/biomed_engg_ug_Polytechnic_of_Milan-image3.png"
+    },
+    {
+      "name": "University of Boloña",
+      "location": "Italy",
+      "fee": "€1,000 – €4,000 / Year",
+      "image": "/uploads/study_abroad/italy/biomed_engg_ug_University_of_Bolo_a-image1.png"
+    },
+    {
+      "name": "Università di Padova",
+      "location": "Italy",
+      "fee": "€1,000 – €4,000 / Year",
+      "image": "/uploads/study_abroad/italy/biomed_engg_ug_Universita_di_Padova-image2.png"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can Indian students enroll in Biomedical Engineering in Italy after 12th?",
+      "answer": "Yes. Students completing Class 12 with mathematics, physics, and chemistry/biology can apply for undergraduate biomedical engineering degrees."
+    },
+    {
+      "question": "How long is a Bachelor's in Biomedical Engineering in Italy?",
+      "answer": "The programme spans 3 academic years (180 ECTS credits) under the European Bologna framework."
+    },
+    {
+      "question": "What are the tuition fees for undergraduate biomedical engineering?",
+      "answer": "Tuition at public universities ranges from €1,000 to €3,900 per year, and can be completely waived under regional DSU scholarships."
+    },
+    {
+      "question": "What entrance tests are required for admission?",
+      "answer": "Admission is commonly evaluated via the English TOLC-I exam covering mathematics, science fundamentals, and logical reasoning."
+    },
+    {
+      "question": "What subjects are taught in the bachelor's curriculum?",
+      "answer": "Courses cover calculus, physics, bioelectricity, biomaterials, physiological modeling, medical instrumentation, and healthcare technology."
+    },
+    {
+      "question": "What are the next steps after graduating with a biomedical bachelor's?",
+      "answer": "Graduates can continue into a 2-year Master of Science in Biomedical Engineering or seek entry-level roles in medical device companies and healthcare labs."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can Indian students enroll in Biomedical Engineering in Italy after 12th?",
+      "a": "Yes. Students completing Class 12 with mathematics, physics, and chemistry/biology can apply for undergraduate biomedical engineering degrees."
+    },
+    {
+      "q": "How long is a Bachelor's in Biomedical Engineering in Italy?",
+      "a": "The programme spans 3 academic years (180 ECTS credits) under the European Bologna framework."
+    },
+    {
+      "q": "What are the tuition fees for undergraduate biomedical engineering?",
+      "a": "Tuition at public universities ranges from €1,000 to €3,900 per year, and can be completely waived under regional DSU scholarships."
+    },
+    {
+      "q": "What entrance tests are required for admission?",
+      "a": "Admission is commonly evaluated via the English TOLC-I exam covering mathematics, science fundamentals, and logical reasoning."
+    },
+    {
+      "q": "What subjects are taught in the bachelor's curriculum?",
+      "a": "Courses cover calculus, physics, bioelectricity, biomaterials, physiological modeling, medical instrumentation, and healthcare technology."
+    },
+    {
+      "q": "What are the next steps after graduating with a biomedical bachelor's?",
+      "a": "Graduates can continue into a 2-year Master of Science in Biomedical Engineering or seek entry-level roles in medical device companies and healthcare labs."
+    }
+  ]
 }

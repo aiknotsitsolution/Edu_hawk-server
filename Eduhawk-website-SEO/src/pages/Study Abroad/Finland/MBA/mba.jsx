@@ -1,5 +1,6 @@
+import cmsData from "../../../../data/study_abroad/finland/executive_mba.json";
 import React from "react";
-import { AbroadCoursePage } from "../../../../component/CoursePageKit.jsx";
+import { AbroadCoursePage, withCmsData } from "../../../../component/CoursePageKit.jsx";
 import heroImg from "../../../../Images/Abroad/Finland/MBA/mba_finland_hero.webp";
 import heroBgImg from "../../../../Images/Abroad/Finland/MBA/mba_finland_hero_bg.webp";
 import sideImg from "../../../../Images/Abroad/Finland/MBA/mba_finland_study.webp";
@@ -518,7 +519,7 @@ const page = {
 export default function MBAInFinland() {
   return (
     <AbroadCoursePage
-      page={page}
+      page={withCmsData(page, cmsData)}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

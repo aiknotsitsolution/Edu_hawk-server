@@ -1,14 +1,28 @@
 {
   "seo": {
     "title": "Chemical Engineering - UG in Canada for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study Chemical Engineering - UG in Canada: Top universities, English-taught programs, tuition fees (CAD $18,000–$45,000/yr), scholarships, eligibility criteria, and post-graduation work permit (PGWP) opportunities."
+    "description": "Study Chemical Engineering - UG in Canada: Top universities, English-taught programs, tuition fees (CAD $18,000–$45,000/yr), scholarships, eligibility criteria, and post-graduation work permit (PGWP) opportunities.",
+    "keywords": [
+      "Study Chemical Engineering in Canada",
+      "Chemical Engineering in Canada for Indian Students",
+      "Bachelor of Chemical Engineering in Canada",
+      "Undergraduate Chemical Engineering Courses in Canada",
+      "Best Universities for Chemical Engineering in Canada",
+      "Chemical Engineering Admission Requirements in Canada",
+      "Eligibility for Chemical Engineering in Canada",
+      "Cost of Studying Chemical Engineering in Canada",
+      "Chemical Engineering Tuition Fees in Canada",
+      "Canadian Engineering Universities for International Students",
+      "Chemical Engineering Scholarships in Canada",
+      "Chemical Engineering Jobs in Canada"
+    ]
   },
   "hero": {
-    "badge": "Study Abroad - Canada",
+    "badge": "Study Abroad · Canada",
     "title": "Chemical Engineering for Indian Students in Canada",
-    "subtitle": "Students interested in Chemical Engineering in Canada which includes chemical processes, industrial production, energy, materials, medicines, and environmental technologies. Chemistry, physics, mathematics, and engineering principles are all used in undergraduate chemical engineering programs to teach students how to create, run, and enhance processes utilized in various sectors.",
+    "subtitle": "Chemical Engineering for Indian Students in Canada",
     "ctaText": "Book Free Counselling",
-    "image": ""
+    "image": "/uploads/study_abroad/canada/canada_chem_engg_ug_Queen_s_University-image3.png"
   },
   "stats": [
     {
@@ -35,53 +49,689 @@
     "eligibility": "Recognised academic qualification + IELTS / TOEFL / PTE proficiency",
     "medium": "English & French Taught"
   },
-  "overview": "Students interested in Chemical Engineering in Canada which includes chemical processes, industrial production, energy, materials, medicines, and environmental technologies. Chemistry, physics, mathematics, and engineering principles are all used in undergraduate chemical engineering programs to teach students how to create, run, and enhance processes utilized in various sectors.\n\nEdu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey..\n\nThe key advantages of studying chemical engineering in Canada\n\nDepending on the program, school, and immigration laws in effect at the time of application, eligible graduates may be eligible for a Canadian Post-Graduation Work Permit (PGWP).",
+  "overview": [
+    "Students interested in Chemical Engineering in Canada which includes chemical processes, industrial production, energy, materials, medicines, and environmental technologies. Chemistry, physics, mathematics, and engineering principles are all used in undergraduate chemical engineering programs to teach students how to create, run, and enhance processes utilized in various sectors.",
+    "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey..",
+    "Learn about heat transport, fluid mechanics, thermodynamics, chemical process design and reaction engineering."
+  ],
   "universities": [
+    {
+      "name": "Queen's University",
+      "location": "Canada",
+      "fee": "CAD $18,000 – $45,000 / Year",
+      "img": "/uploads/study_abroad/canada/canada_chem_engg_ug_Queen_s_University-image3.png",
+      "image": "/uploads/study_abroad/canada/canada_chem_engg_ug_Queen_s_University-image3.png",
+      "desc": "Queen's University is one of Canada's top recognized institutions offering advanced academic and research programs."
+    },
     {
       "name": "Toronto Metropolitan University",
       "location": "Canada",
       "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
+      "img": "/uploads/study_abroad/canada/canada_chem_engg_ug_Toronto_Metropolitan_University-image1.png",
+      "image": "/uploads/study_abroad/canada/canada_chem_engg_ug_Toronto_Metropolitan_University-image1.png",
+      "desc": "Toronto Metropolitan University is one of Canada's top recognized institutions offering advanced academic and research programs."
     },
     {
       "name": "University of Manitoba",
       "location": "Canada",
       "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
-    },
-    {
-      "name": "Queen's University",
-      "location": "Canada",
-      "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
+      "img": "/uploads/study_abroad/canada/canada_chem_engg_ug_University_of_Manitoba-image2.png",
+      "image": "/uploads/study_abroad/canada/canada_chem_engg_ug_University_of_Manitoba-image2.png",
+      "desc": "University of Manitoba is one of Canada's top recognized institutions offering advanced academic and research programs."
     },
     {
       "name": "University of Toronto",
       "location": "Canada",
       "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
+      "img": "/uploads/study_abroad/canada/canada_chem_engg_ug_University_of_Toronto-image4.png",
+      "image": "/uploads/study_abroad/canada/canada_chem_engg_ug_University_of_Toronto-image4.png",
+      "desc": "University of Toronto is one of Canada's top recognized institutions offering advanced academic and research programs."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why Canada",
+      "title": "Why Study Chemical Engineering in Canada ?",
+      "lead": "Students interested in Chemical Engineering in Canada which includes chemical processes, industrial production, energy, materials, medicines, and environmental technologies. Chemistry, physics, mathematics, and engineering principles are all used in undergraduate chemical engineering programs to teach students how to create, run, and enhance processes utilized in various sectors.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "The key advantages of studying chemical engineering in Canada"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Learn about heat transport, fluid mechanics, thermodynamics, chemical process design and reaction engineering.",
+            "Develop technical skills through engineering design projects, process simulations and laboratory experimentation.",
+            "Examine prospects in the fields of energy, petrochemicals, food processing, mining, medicines and manufacturing.",
+            "Examine sustainable technologies, such as waste minimization, energy-efficient procedures, renewable resources and pollution management.",
+            "Opportunities for Co-ops: A few Canadian colleges provide work rotations that enable students to obtain real-world industrial experience.",
+            "Students may investigate advanced materials, biotechnology, sustainable energy, and process optimization, depending on the university.",
+            "Opportunities for International Careers: Establish a foundation for jobs in manufacturing, energy, process engineering, and the environment."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Depending on the program, school, and immigration laws in effect at the time of application, eligible graduates may be eligible for a Canadian Post-Graduation Work Permit (PGWP)."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Courses in Chemical Engineering in Canada",
+      "lead": "In Canada, the majority of undergraduate Chemical Engineering courses take about four years to finish.",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Chemical processes, thermodynamics and process design are covered in the 4 year Bachelor of Engineering in Chemical Engineering program.",
+            "Process engineering, reaction systems, and industrial applications are covered in the 4 year Bachelor of Applied Science in Chemical Engineering program.",
+            "Chemical engineering with organized work placements | 4–5 years | Bachelor of Engineering in Chemical Engineering",
+            "Typically lasting four to five years, the Bachelor of Applied Science in Chemical Engineering combines engineering theory, laboratory practice, and industrial experience.",
+            "Materials processing, characteristics, and manufacture | Bachelor of Engineering in Materials Engineering | Typically 4 years",
+            "Bachelor's degree in Environmental engineering | typically four years | environmental systems, waste management, and pollution control",
+            "Bachelor's degree in Biochemical engineering | varies by university | industrial biotechnology, biological processes and bioprocessing",
+            "Industrial process design, optimization, and operations | Bachelor of Engineering in Process Engineering | Depending on the university |"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Each university has its own specific degree titles and specializations. Although they are related professions, materials, environmental, biochemical, and process engineering do not always replace a degree in Chemical Engineering."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Canadian Universities",
+      "title": "Top Chemical Engineering Universities",
+      "lead": "The following universities are options for Indian students who want to study Chemical Engineering in Canada.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "University of Toronto in Ontario"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Queen's University in Ontario"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "University of Manitoba in Manitoba"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Toronto Metropolitan University in Ontario"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "How to choose a University"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Examine the curriculum, research areas, co-ops, lab facilities, tuition costs, scholarships, and location. While students interested in biotechnology or pharmaceuticals might seek out pertinent electives and research opportunities, those interested in energy and petrochemicals might prioritize process engineering."
+          ]
+        }
+      ],
+      "unis": [
+        {
+          "name": "Queen's University",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_chem_engg_ug_Queen_s_University-image3.png",
+          "image": "/uploads/study_abroad/canada/canada_chem_engg_ug_Queen_s_University-image3.png",
+          "desc": "Queen's University is one of Canada's top recognized institutions offering advanced academic and research programs."
+        },
+        {
+          "name": "Toronto Metropolitan University",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_chem_engg_ug_Toronto_Metropolitan_University-image1.png",
+          "image": "/uploads/study_abroad/canada/canada_chem_engg_ug_Toronto_Metropolitan_University-image1.png",
+          "desc": "Toronto Metropolitan University is one of Canada's top recognized institutions offering advanced academic and research programs."
+        },
+        {
+          "name": "University of Manitoba",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_chem_engg_ug_University_of_Manitoba-image2.png",
+          "image": "/uploads/study_abroad/canada/canada_chem_engg_ug_University_of_Manitoba-image2.png",
+          "desc": "University of Manitoba is one of Canada's top recognized institutions offering advanced academic and research programs."
+        },
+        {
+          "name": "University of Toronto",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_chem_engg_ug_University_of_Toronto-image4.png",
+          "image": "/uploads/study_abroad/canada/canada_chem_engg_ug_University_of_Toronto-image4.png",
+          "desc": "University of Toronto is one of Canada's top recognized institutions offering advanced academic and research programs."
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Qualifications for Studying Chemical Engineering in Canada",
+      "lead": "For Indian students to apply for an undergraduate Chemical Engineering degree in Canada, They typically need to finish Class 12 with a solid background in science and math.",
+      "groups": [
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Academic Requirement",
+              "d": "Completion of Class 12 or a comparable secondary education"
+            },
+            {
+              "t": "Required Subjects",
+              "d": "Chemistry, Physics, and Mathematics"
+            },
+            {
+              "t": "Academic Achievement",
+              "d": "Competitive grades in pertinent courses, especially Chemistry, Physics, and Mathematics"
+            },
+            {
+              "t": "English Proficiency",
+              "d": "TOEFL iBT, PTE Academic, IELTS Academic or another recognized exam"
+            },
+            {
+              "t": "IELTS Score",
+              "d": "While specific standards vary, many universities demand an overall score of about 6.5, frequently with minimal band requirements."
+            },
+            {
+              "t": "Age Requirement",
+              "d": "University policies apply; there is no universal age limit"
+            },
+            {
+              "t": "Entrance Examinations",
+              "d": "Depending on the institution and applicant curriculum, the SAT or other tests may be mandatory or optional."
+            },
+            {
+              "t": "Study Gap",
+              "d": "May be taken into consideration if sufficiently justified and backed up by documentation"
+            }
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "JEE Requirement | Not always necessary for admission to Canadian undergraduate engineering programs |"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Many colleges have competitive admissions. Acceptance is not assured by fulfilling the minimal eligibility requirements."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Chemical Engineering Admission Requirements in Canada",
+      "lead": "Each Canadian university has different admission requirements for Chemical Engineering. Both the overall requirements for international admission and the particular requirements for the program of their choice should be reviewed by applicants.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Academic prerequisites"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Transcripts or marksheets for classes 10 and 12.",
+            "Evidence of secondary school completion.",
+            "Chemistry, physics, and mathematics at the necessary academic level.",
+            "English or other topics as the university specifies.",
+            "If you apply before the final Class 12 results are released, you will receive predicted grades or interim results."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Requirements for English Language Proficiency"
+        },
+        {
+          "t": "p",
+          "items": [
+            "IELTS Academic, TOEFL iBT, PTE Academic, and other authorized English language assessments may be accepted by universities. Institution-specific minimum scores and exemption procedures differ."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Extra requirements"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A valid passport number.",
+            "A purpose statement or additional application, upon request.",
+            "Letters of recommendation, if necessary.",
+            "The results of any applicable academic assessments, such as the SAT.",
+            "The application form and application fee have been completed.",
+            "Applications for scholarships, if any."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "While some colleges accept applications via their own portals, others use provincial application systems. Verify your planned intake and the deadlines for foreign applicants."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "How much Chemical Engineering Education Costs in Canada",
+      "lead": "The university, province, kind of housing and way of life all affect how much it costs for Indian students to study Chemical Engineering in Canada. The following numbers are not official university fee quotes; rather, they are general planning estimates for overseas undergraduate engineering students.",
+      "groups": [
+        {
+          "t": "table",
+          "headers": [
+            "Annual Tuition Costs",
+            "CAD 35,000–75,000+"
+          ],
+          "rows": [
+            [
+              "Lodging",
+              "CAD 8,000–18,000 annually"
+            ],
+            [
+              "Food and groceries",
+              "CAD 3,000–6,000 annually"
+            ],
+            [
+              "Transportation",
+              "CAD 800–2,000 annually"
+            ]
+          ]
+        },
+        {
+          "t": "table",
+          "headers": [
+            "Academic costs, books, and supplies",
+            "CAD 800–2,000 annually"
+          ],
+          "rows": [
+            [
+              "Personal Expenses and Health Insurance",
+              "CAD 1,500–4,000 annually"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "CAD 49,100–107,000+ is the estimated total annual budget."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Certain colleges and large cities may have greater actual costs. Laboratory supplies, health insurance, student services, and other educational costs may incur additional costs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Other Expenses"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "The cost of applying to universities.",
+            "Test costs in English.",
+            "Any relevant fees for biometrics and a Canadian study permit.",
+            "Initial settlement costs and airfare.",
+            "Deposits for lodging and necessary items.",
+            "When necessary, course materials, safety gear, and laboratory supplies."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Financial aid and scholarships"
+        },
+        {
+          "t": "p",
+          "items": [
+            "International students may qualify for financial aid unique to their university, faculty awards, or merit-based admission scholarships. While some prizes are given out automatically, others need supplementary applications."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For information on eligibility, award values, deadlines, and renewal requirements, visit the official scholarship page of each university. Unless the formal award terms specify otherwise, do not presume that a scholarship will pay the entire cost of tuition."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission Procedure for Chemical Engineering in Canada",
+      "lead": "To apply to an undergraduate Chemical Engineering program in Canada, follow these procedures.",
+      "groups": [
+        {
+          "t": "steps",
+          "items": [
+            {
+              "step": 1,
+              "title": "Make a shortlist of universities",
+              "desc": "Find colleges that offer degrees in Chemical Engineering. Examine the course material, location, co-ops, lab facilities, accreditation, costs, and opportunities."
+            },
+            {
+              "step": 2,
+              "title": "Verify Your Eligibility",
+              "desc": "Verify the English language requirements, academic score expectations, class 12 subject requirements, and any extra tests."
+            },
+            {
+              "step": 3,
+              "title": "Get Your Documents Ready",
+              "desc": "Gather passport information, English language test results, academic transcripts, and any other paperwork the university requests."
+            },
+            {
+              "step": 4,
+              "title": "Send in Your Applications",
+              "desc": "Use the appropriate provincial application system or the official university portal to submit an application. Track the status of your application after paying the application fee."
+            },
+            {
+              "step": 5,
+              "title": "Get a Decision on Admission",
+              "desc": "Examine the deal thoroughly and fulfilll all requirements by the deadline. Verify scholarship decisions and tuition deposits."
+            },
+            {
+              "step": 6,
+              "title": "Make a financial plan",
+              "desc": "Compute the cost of tuition, housing, food, transportation, insurance, and other expenditures. Get the financial supporting documentation ready for your application for a study permit."
+            },
+            {
+              "step": 7,
+              "title": "Submit an application for a study permit in Canada",
+              "desc": "Observe Immigration, Refugees and Citizenship Canada's (IRCC) current regulations. Unless there is an exemption, a provincial or territorial attestation letter might be necessary. Admission to a university does not ensure that a study permit will be granted."
+            },
+            {
+              "step": 8,
+              "title": "Get Ready to Leave",
+              "desc": "Make travel, lodging, health insurance, and university enrollment arrangements. For travel and enrollment, keep your immigration and admittance documents on hand."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
+      "title": "Professional Recognition and Accreditation",
+      "lead": "For students who want to work as engineers in Canada, accreditation is a crucial factor.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Key Points"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Verify if the particular Chemical Engineering degree is approved by Engineers Canada's Canadian Engineering Accreditation Board (CEAB).",
+            "Program Specific Verification",
+            "A Professional Engineer (P.Eng.) license is not automatically granted upon completion of an authorized engineering degree.",
+            "The license standards are set by engineering regulators in each province or territory. These could include professional practice exams, relevant work experience, academic credentials, and other prerequisites.",
+            "Verify the appropriate employer, qualifications, and professional registration requirements if you intend to work in India or another country after graduation."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Pay and job opportunities for Graduates in Chemical Engineering",
+      "lead": "Careers in energy, petrochemicals, food processing, pharmaceuticals, mining, manufacturing, environmental management and industrial process development are available to graduates of Chemical Engineering in Canada.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Prospects for Employment Following Chemical Engineering"
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Graduate in Chemical Engineering",
+              "d": "Supporting technical reports, testing, process documentation, and calculations"
+            },
+            {
+              "t": "Junior Chemical Engineer",
+              "d": "Supporting engineering analysis, process design, and production enhancement"
+            },
+            {
+              "t": "Process Engineer",
+              "d": "Assisting with industrial process design, monitoring, and optimization"
+            },
+            {
+              "t": "Environmental Engineer",
+              "d": "Managing waste, preventing pollution, and ensuring environmental compliance"
+            },
+            {
+              "t": "Quality Control Engineer",
+              "d": "Keeping an eye on process standards, testing methods, and product quality"
+            },
+            {
+              "t": "Supporting industrial safety systems, risk mitigation, and hazard analysis",
+              "d": "Process Safety Engineer"
+            },
+            {
+              "t": "Energy Engineer",
+              "d": "Working on process optimization, industrial energy systems, and energy efficiency"
+            },
+            {
+              "t": "Materials Engineer",
+              "d": "Assisting with industrial material selection, testing, and processing"
+            }
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Supporting manufacturing operations, quality, efficiency, and troubleshooting as a Production Engineer",
+            "Assisting with trials, product development, and process enhancement as a research and development assistant"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Certain positions could call for further training, professional registration, or specialized expertise. Different employers have different job titles and responsibilities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Canadian Chemical Engineers' Salary Expectations"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Chemical engineering graduates are not all paid the same. Province, employer, industry, experience, technical specialization, and professional credentials all affect compensation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Use the Government of Canada's Job Bank to compare related jobs and localities for up-to-date wage information: https://www.jobbank.gc.ca/"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Make a distinction between entry-level engineering employment, laboratory or technician roles, and experienced professional engineering positions when looking for compensation ranges."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Needed",
+      "lead": "The university, the applicant's situation, and the most recent Canadian immigration regulations all influence the precise checklist.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Academic Writings"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "The certificate and marksheet for Class 10.",
+            "The available interim results or the class 12 marksheet and certificate.",
+            "Grading information and school transcripts.",
+            "If necessary, projected grades.",
+            "Evidence of secondary school completion.",
+            "When necessary, certified translations are provided."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Documents for Admission to Universities"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A current passport.",
+            "Test results in English, if necessary.",
+            "A purpose statement or further answers, if needed.",
+            "Letters of recommendation, if necessary.",
+            "SAT or other test results, if relevant.",
+            "A completed application and a confirmation of payment.",
+            "Applications for scholarships, if any."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Financial documents and the study permit"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "An acceptance letter from a recognized educational institution in Canada.",
+            "If necessary and not exempt, a provincial or territorial attestation letter.",
+            "As required by current IRCC regulations, proof of funds for travel, housing expenses, and tuition.",
+            "Documents proving identity and civil status, upon request.",
+            "Forms and supporting documentation for immigration applications.",
+            "A police certificate or medical examination, if necessary given the applicant's circumstances.",
+            "When appropriate, biometrics."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For your circumstances, adhere to the approved IRCC document checklist. Before applying, check the most recent instructions because requirements are subject to change."
+          ]
+        }
+      ]
     }
   ],
   "faq": [
     {
+      "q": "After Class 12, are Indian students able to pursue Chemical Engineering studies in Canada?",
+      "a": "Yes . After Class 12, Indian students who fulfill the academic requirements of the university which often include Chemistry, Physics, and Mathematics as well as the English language requirements are eligible to apply.",
       "question": "After Class 12, are Indian students able to pursue Chemical Engineering studies in Canada?",
       "answer": "Yes . After Class 12, Indian students who fulfill the academic requirements of the university which often include Chemistry, Physics, and Mathematics as well as the English language requirements are eligible to apply."
     },
     {
-      "question": "What is the duration of a Chemical Engineering undergraduate degree in Canada?",
+      "q": "What is the duration of a Chemical Engineering undergraduate degree in Canada ?",
+      "a": "Chemical engineering undergraduate programs typically last four years. Programs including extended work terms or co-ops may take longer.",
+      "question": "What is the duration of a Chemical Engineering undergraduate degree in Canada ?",
       "answer": "Chemical engineering undergraduate programs typically last four years. Programs including extended work terms or co-ops may take longer."
     },
     {
+      "q": "Does Chemical Engineering in Canada require taking the IELTS?",
+      "a": "Not always. varied universities have varied English language requirements, and qualified applicants may be granted exemptions or alternative examinations. Examine each university's official policy.",
       "question": "Does Chemical Engineering in Canada require taking the IELTS?",
-      "answer": "Not always. varied universities have varied English language requirements, and qualified applicants may be granted exemptions or alternative examinations. Examine each university's official policy. *Q4. How much does it cost Indian students to study Chemical Engineering in Canada? International undergraduate engineering tuition can cost anywhere from CAD 35,000 to CAD 75,000 or more annually, without including living expenses, according to a general planning estimate. The institution and location determine the actual fees."
+      "answer": "Not always. varied universities have varied English language requirements, and qualified applicants may be granted exemptions or alternative examinations. Examine each university's official policy."
     },
     {
+      "q": "How much does it cost Indian students to study Chemical Engineering in Canada?",
+      "a": "International undergraduate engineering tuition can cost anywhere from CAD 35,000 to CAD 75,000 or more annually, without including living expenses, according to a general planning estimate. The institution and location determine the actual fees.",
+      "question": "How much does it cost Indian students to study Chemical Engineering in Canada?",
+      "answer": "International undergraduate engineering tuition can cost anywhere from CAD 35,000 to CAD 75,000 or more annually, without including living expenses, according to a general planning estimate. The institution and location determine the actual fees."
+    },
+    {
+      "q": "What kinds of jobs are available in Canada after completing a Chemical Engineering degree?",
+      "a": "Process engineering, manufacturing, energy, petrochemicals, environmental management, quality control, process safety, and research and development are among the fields in which graduates can find employment. The employer, experience, and relevant professional criteria determine career eligibility.",
       "question": "What kinds of jobs are available in Canada after completing a Chemical Engineering degree?",
       "answer": "Process engineering, manufacturing, energy, petrochemicals, environmental management, quality control, process safety, and research and development are among the fields in which graduates can find employment. The employer, experience, and relevant professional criteria determine career eligibility."
     },
     {
+      "q": "How can Edu Hawk worldwide Consultancy help me study abroad?",
+      "a": "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities.",
       "question": "How can Edu Hawk worldwide Consultancy help me study abroad?",
-      "answer": "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities. Study Chemical Engineering in Canada Chemical Engineering in Canada for Indian Students Bachelor of Chemical Engineering in Canada Undergraduate Chemical Engineering Courses in Canada Best Universities for Chemical Engineering in Canada Chemical Engineering Admission Requirements in Canada Eligibility for Chemical Engineering in Canada Cost of Studying Chemical Engineering in Canada Chemical Engineering Tuition Fees in Canada Canadian Engineering Universities for International Students Chemical Engineering Scholarships in Canada Chemical Engineering Jobs in Canada"
+      "answer": "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "After Class 12, are Indian students able to pursue Chemical Engineering studies in Canada?",
+      "a": "Yes . After Class 12, Indian students who fulfill the academic requirements of the university which often include Chemistry, Physics, and Mathematics as well as the English language requirements are eligible to apply.",
+      "question": "After Class 12, are Indian students able to pursue Chemical Engineering studies in Canada?",
+      "answer": "Yes . After Class 12, Indian students who fulfill the academic requirements of the university which often include Chemistry, Physics, and Mathematics as well as the English language requirements are eligible to apply."
+    },
+    {
+      "q": "What is the duration of a Chemical Engineering undergraduate degree in Canada ?",
+      "a": "Chemical engineering undergraduate programs typically last four years. Programs including extended work terms or co-ops may take longer.",
+      "question": "What is the duration of a Chemical Engineering undergraduate degree in Canada ?",
+      "answer": "Chemical engineering undergraduate programs typically last four years. Programs including extended work terms or co-ops may take longer."
+    },
+    {
+      "q": "Does Chemical Engineering in Canada require taking the IELTS?",
+      "a": "Not always. varied universities have varied English language requirements, and qualified applicants may be granted exemptions or alternative examinations. Examine each university's official policy.",
+      "question": "Does Chemical Engineering in Canada require taking the IELTS?",
+      "answer": "Not always. varied universities have varied English language requirements, and qualified applicants may be granted exemptions or alternative examinations. Examine each university's official policy."
+    },
+    {
+      "q": "How much does it cost Indian students to study Chemical Engineering in Canada?",
+      "a": "International undergraduate engineering tuition can cost anywhere from CAD 35,000 to CAD 75,000 or more annually, without including living expenses, according to a general planning estimate. The institution and location determine the actual fees.",
+      "question": "How much does it cost Indian students to study Chemical Engineering in Canada?",
+      "answer": "International undergraduate engineering tuition can cost anywhere from CAD 35,000 to CAD 75,000 or more annually, without including living expenses, according to a general planning estimate. The institution and location determine the actual fees."
+    },
+    {
+      "q": "What kinds of jobs are available in Canada after completing a Chemical Engineering degree?",
+      "a": "Process engineering, manufacturing, energy, petrochemicals, environmental management, quality control, process safety, and research and development are among the fields in which graduates can find employment. The employer, experience, and relevant professional criteria determine career eligibility.",
+      "question": "What kinds of jobs are available in Canada after completing a Chemical Engineering degree?",
+      "answer": "Process engineering, manufacturing, energy, petrochemicals, environmental management, quality control, process safety, and research and development are among the fields in which graduates can find employment. The employer, experience, and relevant professional criteria determine career eligibility."
+    },
+    {
+      "q": "How can Edu Hawk worldwide Consultancy help me study abroad?",
+      "a": "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities.",
+      "question": "How can Edu Hawk worldwide Consultancy help me study abroad?",
+      "answer": "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities."
     }
   ]
 }

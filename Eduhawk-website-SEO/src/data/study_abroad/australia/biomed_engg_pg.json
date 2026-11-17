@@ -6,9 +6,9 @@
   "hero": {
     "badge": "Study Abroad - Australia",
     "title": "The Postgraduate Biomedical Engineering Program in Australia",
-    "subtitle": "The Postgraduate Biomedical Engineering Program in Australia",
+    "subtitle": "Applying engineering principles, medical sciences, and technology to enhance healthcare, medical diagnosis, treatment, and patient care is the main goal of postgraduate biomedical engineering programs in Australia.",
     "ctaText": "Book Free Counselling",
-    "image": ""
+    "image": "/uploads/study_abroad/australia/biomed_engg_pg_Melbourne_University-image2.png"
   },
   "stats": [
     {
@@ -29,38 +29,771 @@
     }
   ],
   "highlights": {
-    "degree": "Master of Engineering (M.Eng / M.Sc)",
+    "degree": "Master of Engineering (Biomedical)",
     "duration": "1 to 2 Years Full-Time",
     "fee": "AUD 30,000 – AUD 52,000 / Year",
     "eligibility": "Recognised academic qualification + English proficiency",
-    "medium": "100% English Taught"
+    "medium": "English"
   },
-  "overview": "Australian universities deliver globally recognized postgraduate biomedical engineering education accredited by Engineers Australia under the Washington Accord. Students gain advanced design skills, research expertise, and international employment opportunities.",
+  "overview": [
+    "Applying engineering principles, medical sciences, and technology to enhance healthcare, medical diagnosis, treatment, and patient care is the main goal of postgraduate biomedical engineering programs in Australia.",
+    "Medical imaging, biomedical instruments, biomaterials, biomechanics, tissue engineering, rehabilitation technology, medical devices, and healthcare robotics could all be covered in these courses.",
+    "Indian engineering graduates can explore postgraduate studies in Biomedical Engineering, Medical Engineering, Bioengineering, Medical Device Technology, Biotechnology, and related subjects, depending on their educational background and the programs offered by Australian universities.",
+    "Edu Hawk Worldwide Consultancy assists students in understanding university admission requirements, researching overseas study options, and getting ready for their international education journey."
+  ],
+  "sections": [
+    {
+      "slot": "overview",
+      "eyebrow": "Course Scope",
+      "title": "OVERVIEW OF THE COURSE",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Applying engineering principles, medical sciences, and technology to enhance healthcare, medical diagnosis, treatment, and patient care is the main goal of postgraduate biomedical engineering programs in Australia."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Medical imaging, biomedical instruments, biomaterials, biomechanics, tissue engineering, rehabilitation technology, medical devices, and healthcare robotics could all be covered in these courses."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Indian engineering graduates can explore postgraduate studies in Biomedical Engineering, Medical Engineering, Bioengineering, Medical Device Technology, Biotechnology, and related subjects, depending on their educational background and the programs offered by Australian universities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu Hawk Worldwide Consultancy assists students in understanding university admission requirements, researching overseas study options, and getting ready for their international education journey."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "why-study",
+      "eyebrow": "Key Benefits",
+      "title": "WHY STUDY BIOMEDICAL ENGINEERING IN AUSTRALIA?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "With research facilities and interdisciplinary learning possibilities provided by universities, Australia provides opportunities to explore biomedical research, medical technology, healthcare innovation, and engineering solutions."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The main benefits"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Postgraduate credentials with international recognition",
+            "Possibilities for learning about healthcare technologies and medical gadgets",
+            "Exposure to research centers and biomedical laboratories",
+            "Possibilities to investigate diagnostic and medical imaging technologies",
+            "Biomaterials, biomechanics, and tissue engineering research",
+            "Interdisciplinary education and real-world engineering projects",
+            "Career paths in biotechnology, medical technology, healthcare research, and related fields"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "3. POSTGRADUATE COURSE OPTIONS"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students can look into the following postgraduate degrees and associated study pathways:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A master's degree in biomedical engineering",
+            "A master's degree in bioengineering",
+            "A master's degree in medical engineering",
+            "Biomedical Science Master's Degree",
+            "A master's degree in biotechnology",
+            "Mechanical Engineering with Biomedical Applications Master's Degree",
+            "Electrical engineering master's degree with a focus on medical technology applications",
+            "A master's degree in materials engineering",
+            "Mechatronics Engineering Master's Degree",
+            "A master's degree in medical device technology or a similar discipline"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students can explore these choices and comprehend the prerequisites for studying abroad with the assistance of Edu Hawk Worldwide Consultancy ."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Australian Universities",
+      "title": "Top Universities in Australia",
+      "lead": "Explore leading Group of Eight and prestigious Australian universities renowned for academic excellence, state-of-the-art research laboratories, and strong industry partnerships.",
+      "unis": [
+        {
+          "name": "The University of Melbourne",
+          "location": "Melbourne, Victoria",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/biomed_engg_pg_Melbourne_University-image2.png",
+          "desc": ""
+        },
+        {
+          "name": "Monash University",
+          "location": "Melbourne, Victoria",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/biomed_engg_pg_Monash_University-image1.png",
+          "desc": ""
+        },
+        {
+          "name": "UNSW Sydney (The University of New South Wales)",
+          "location": "Sydney, New South Wales",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/biomed_engg_pg_New_South_Wales_University_image4.png",
+          "desc": ""
+        },
+        {
+          "name": "RMIT University",
+          "location": "Melbourne, Victoria",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/biomed_engg_pg_RMIT_University-image3.png",
+          "desc": ""
+        }
+      ],
+      "groups": []
+    },
+    {
+      "slot": "specializations",
+      "eyebrow": "Specializations",
+      "title": "Specializations in Biomedical Engineering",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Examine the technologies utilized in image processing, medical imaging, diagnostic systems, and healthcare applications."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Biomedical Instrumentation : Acquire knowledge about healthcare measurement systems, medical sensors, monitoring devices, and diagnostic tools.",
+            "Biomaterials : Examine materials used in tissue repair, prostheses, medical implants, and other healthcare uses.",
+            "Know how biological systems, human movement, prosthetic design, and rehabilitation technology behave mechanically. This is known as biomechanics.",
+            "Examine biomaterials, cell-based technologies, and methods utilized in regenerative medicine and tissue healing.",
+            "Discover how medical devices and healthcare equipment are designed, developed, tested, and evaluated.",
+            "Examine assistive technologies, orthotics, prosthetics, and other devices that promote mobility and rehabilitation in the field of rehabilitation engineering.",
+            "Examine robotics, automation, and control systems in applications related to medicine and rehabilitation.",
+            "Studying modeling, simulation, data analysis, and computational methods for resolving biological issues is known as computational biomedical engineering.",
+            "Examine medical monitoring systems, digital health technologies, and technical solutions for contemporary healthcare."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The university, course design, and research opportunities all affect the availability of specializations."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "The eligibility of Indian students",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The university and the chosen postgraduate program determine the requirements for admission."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Typical prerequisites could be:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "An accredited bachelor's degree in biotechnology, biomedical engineering, electrical engineering, mechanical engineering, electronics engineering, or a similar discipline",
+            "Adequate academic achievement",
+            "Proficiency in mathematics, engineering, biology, or other relevant fields",
+            "Proficiency in English",
+            "Academic transcripts and degree certificates"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The institution has sought additional documents."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "While some programs might accept applicants with more general engineering or science credentials, others would need a closely related engineering degree."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students holding a three-year bachelor's degree or a degree in another subject should check their eligibility with the university directly before applying."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "language",
+      "eyebrow": "Language Requirements",
+      "title": "LANGUAGE REQUIREMENTS FOR ENGLISH",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Unless they are eligible for a recognized exemption, international students are typically expected to demonstrate their English language competency."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Tests that are frequently accepted could be:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "IELTS Academic",
+            "The TOEFL iBT",
+            "PTE Academic"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Although specific band requirements and acceptable scores differ by school and course, many postgraduate programs use an overall IELTS Academic score of roughly 6.5 as a standard."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should review the official English language requirements for the program and intake they have chosen."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tests",
+      "eyebrow": "Entrance Exams",
+      "title": "ADMISSION ENTRANCE EXAMS",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Numerous postgraduate engineering schools in Australia evaluate candidates based on their academic credentials, prior projects, pertinent subject expertise, and English language competency."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Many programs may not require a separate entrance exam. Interviews, preparatory courses, technical documentation, or supplementary tests, however, could be required by some universities or research-based courses."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Unless the chosen university expressly mandates it, students shouldn't presume that taking the GRE or any other standardized test is required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "9. Curriculum and Length of Course"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Postgraduate biomedical engineering programs typically last one to two years, while some pathways may take longer, depending on the degree structure, prior credentials, and approved credit."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Typical topics could be:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Principles of Biomedical Engineering",
+            "Image processing and medical imaging",
+            "Biomedical Equipment",
+            "Biomechanics",
+            "Medical Implants and Biomaterials",
+            "Design of Medical Devices",
+            "Engineering and Biological Systems",
+            "Engineering for Rehabilitation",
+            "Signal Processing in Biomedicine",
+            "Engineering Research Projects and Methods"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Laboratory work, medical technology projects, research dissertations, industry based tasks and interdisciplinary collaboration are also included in some curricula."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The university and program of choice determine the precise course length and curriculum."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Costs",
+      "title": "Living expenses and tuition fees",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The university, length of the course, city, and personal lifestyle all affect the overall cost of studying biomedical engineering in Australia."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Principal Expenses"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "The cost of attending university",
+            "The cost of applying for a student visa",
+            "Overseas Student Health Coverage (OSHC)",
+            "Accommodations and utilities",
+            "Food and groceries",
+            "Public transit",
+            "Study supplies and personal costs",
+            "Travel and upfront settlement expenses"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The cost of tuition varies significantly between programs and schools. For the course and intake they have chosen, students should review the most recent international tuition pricing schedule."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Living costs also vary depending on the city and kind of lodging. When creating their budget, students should refer to the most recent Australian Government financial-capacity criteria as well as university cost-of-living estimations."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scholarships",
+      "eyebrow": "Scholarships & Funding",
+      "title": "Indian Students Scholarships",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Scholarships from Australian universities and other funding agencies may be available to qualified international students."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Potential choices include of:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Scholarships for academic merit",
+            "Scholarships for international students",
+            "Engineering scholarships tailored to a certain faculty",
+            "Scholarships for research that qualify",
+            "Opportunities for government-funded or nation-specific scholarships, if applicable"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Scholarships may offer set financial prizes, partial tuition fee reductions, or other advantages. Complete funding is competitive and shouldn't be taken for granted."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For information on qualifying requirements, award amounts, application dates, necessary documentation, and renewal conditions, students should visit the official scholarship websites."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Prospects",
+      "title": "Opportunities for Careers After Graduation",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Career options in medical technology, healthcare innovation, biomedical research, medical device development, and related industries may be supported by a postgraduate degree in biomedical engineering."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Possible Job Positions"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Engineer in Biomedicine",
+            "Design Engineer for Medical Devices",
+            "A professional in clinical engineering",
+            "Engineer for Biomedical Research",
+            "Engineer for Medical Imaging",
+            "Engineer for Biomaterials",
+            "Engineer in Biomechanics",
+            "Engineer for Rehabilitation",
+            "Engineer for Biomedical Instrumentation",
+            "Medical Technology Quality Assurance Engineer",
+            "Associate in Regulatory Affairs for Medical Devices",
+            "Engineer for Research and Development"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The course, technical skills, work experience, employer criteria, and industry demand all influence career options. Certain positions can call for extra training, work experience, or knowledge of medical device laws."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Before selecting a career path, students should look into local job prospects and pertinent professional criteria."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Employment, professional registration, or permanent residency are not assured by graduation."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scope",
+      "eyebrow": "Details",
+      "title": "ACCREDITATION FOR PROFESSIONS",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "For students who intend to pursue a long term career in engineering, professional accreditation may be a crucial factor."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "An important professional association for engineering accreditation and recognition in Australia is Engineers Australia."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Prior to applying, students had to confirm:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Is the particular program accredited?",
+            "The degree of accreditation relevant to their year of graduation",
+            "Whether their desired career path is supported by the qualification",
+            "If further testing, credentials, or job experience are needed"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Not all postgraduate programs in biomedical engineering or related fields are accredited in the same manner. Students should verify the status of the course they have selected and whether the accreditation is pertinent to their professional objectives."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "How to Apply",
+      "title": "THE ADMISSION PROCEDURE",
+      "groups": [
+        {
+          "t": "step",
+          "step": 1,
+          "title": "Assessment of Profile",
+          "desc": "Examine the student's educational background, bachelor's degree, financial situation, desired professional path, and prior engineering or research experience."
+        },
+        {
+          "t": "step",
+          "step": 2,
+          "title": "Make a short list of courses",
+          "desc": "Find appropriate postgraduate courses in medical engineering, bioengineering, biomedical engineering, or similar fields."
+        },
+        {
+          "t": "step",
+          "step": 3,
+          "title": "Confirm Your Eligibility",
+          "desc": "Verify the course length, available specialties, academic prerequisites, and English language proficiency criteria."
+        },
+        {
+          "t": "step",
+          "step": 4,
+          "title": "Get Your Documents Ready",
+          "desc": "Arrange degree certificates, passport information, academic transcripts, English test scores, and other supporting documentation."
+        },
+        {
+          "t": "step",
+          "step": 5,
+          "title": "Send in the application",
+          "desc": "Apply using the university's official application procedure and supply the necessary data."
+        },
+        {
+          "t": "step",
+          "step": 6,
+          "title": "Examine the Offer",
+          "desc": "Examine the terms, deadlines, deposit requirements, tuition costs, and admission offer carefully."
+        },
+        {
+          "t": "step",
+          "step": 7,
+          "title": "Verify Enrollment",
+          "desc": "When necessary, receive the Confirmation of Enrollment (CoE) after completing the university's acceptance and payment procedures."
+        },
+        {
+          "t": "step",
+          "step": 8,
+          "title": "Submit a Student Visa Application",
+          "desc": "As required by the government, prepare the Australian student visa application and supporting documentation."
+        },
+        {
+          "t": "step",
+          "step": 9,
+          "title": "Get Ready to Leave",
+          "desc": "Prior to visiting Australia, make arrangements for lodging, insurance, travel, money, and arrival."
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Required Documents",
+      "title": "NEEDED DOCUMENTS",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Some or all of the following documents may be requested by universities:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A valid passport",
+            "A provisional or bachelor's degree certificate",
+            "Marksheets and academic transcripts",
+            "A current curriculum vitae or resume",
+            "If necessary, a statement of purpose",
+            "Results of an English language test",
+            "Recommendation letters, if necessary",
+            "Proof of work, internship, or, if relevant, research experience",
+            "Information on pertinent research or engineering initiatives, if asked",
+            "Prerequisite papers specific to the course",
+            "Financial and identity documentation are needed to apply for a visa.",
+            "Extra declarations or forms from the university"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The university and chosen program have different needs for documents."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "visa",
+      "eyebrow": "Student Visa",
+      "title": "Visa for Australian Students",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "International students typically apply for an Australian student visa (subclass 500) after fulfilling the necessary admission and enrollment requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Candidates should research the most recent specifications for:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Verification of Enrollment (CoE)",
+            "Overseas Student Health Coverage (OSHC)",
+            "The ability to pay",
+            "When necessary, proof in the English language",
+            "A true student's prerequisite",
+            "Requirements for character and health",
+            "Identity documents and application fees"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Conditions, processing timeframes, and fees for visas are subject to change. For the most recent information, students should visit the official website of the Australian Department of Home Affairs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Admission to a university does not ensure that a student visa will be issued."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "assistance",
+      "eyebrow": "Edu Hawk Support",
+      "title": "HOW EDU HAWK CAN HELP",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Indian students can investigate postgraduate study options abroad with the assistance of Edu Hawk Worldwide Consultancy."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Our advice could consist of:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Evaluation of eligibility and academic profile",
+            "Making a short list of courses linked to biomedical engineering",
+            "Comparing specializations and universities",
+            "Advice regarding application materials",
+            "Help with the admission procedure for universities",
+            "Details on scholarship opportunities and tuition costs",
+            "Advice on comprehending admission offers",
+            "Assistance with student visa paperwork",
+            "Help with pre-departure planning"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The appropriate colleges and government agencies have the last say over admissions, course eligibility, scholarships, and visas."
+          ]
+        }
+      ]
+    }
+  ],
   "universities": [
     {
       "name": "The University of Melbourne",
-      "location": "Melbourne, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
-    },
-    {
-      "name": "The University of Sydney",
-      "location": "Sydney, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
-    },
-    {
-      "name": "The University of Queensland",
-      "location": "Brisbane, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "location": "Melbourne, Victoria",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/biomed_engg_pg_Melbourne_University-image2.png",
+      "desc": ""
     },
     {
       "name": "Monash University",
-      "location": "Melbourne, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "location": "Melbourne, Victoria",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/biomed_engg_pg_Monash_University-image1.png",
+      "desc": ""
+    },
+    {
+      "name": "UNSW Sydney (The University of New South Wales)",
+      "location": "Sydney, New South Wales",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/biomed_engg_pg_New_South_Wales_University_image4.png",
+      "desc": ""
+    },
+    {
+      "name": "RMIT University",
+      "location": "Melbourne, Victoria",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/biomed_engg_pg_RMIT_University-image3.png",
+      "desc": ""
     }
   ],
-  "faq": []
+  "faq": [
+    {
+      "question": "Is it possible for Indian students to pursue postgraduate studies in biomedical engineering in Australia?",
+      "answer": "Indeed. If they fulfill the academic, English language, and other entrance requirements of their selected university, Indian students may apply to appropriate postgraduate programs in biomedical engineering or related fields."
+    },
+    {
+      "question": "Which undergraduate degree is appropriate for a biomedical engineering master's degree?",
+      "answer": "Depending on the entrance requirements of the university, a bachelor's degree in biomedical engineering, biotechnology, mechanical engineering, electrical engineering, electronics engineering, or another pertinent field might be appropriate."
+    },
+    {
+      "question": "What is the duration of an Australian postgraduate course in biomedical engineering?",
+      "answer": "Although the length of time varies depending on the degree format, prior credentials, and approved credit, many postgraduate programs last between one and two years."
+    },
+    {
+      "question": "Are Indian students eligible for scholarships?",
+      "answer": "Indeed. International students who meet the requirements can apply for engineering scholarships, university merit awards, and research funding opportunities. Eligibility and availability differ."
+    },
+    {
+      "question": "What kinds of jobs are accessible to those who study biomedical engineering?",
+      "answer": "Biomedical engineering, research and development, biomaterials, biomechanics, medical imaging, medical device development, and clinical engineering are all possible career pathways. Opportunities vary depending on industry demand, company requirements, experience, and qualifications. KEYWORDS - Study Postgraduate Biomedical Engineering in Australia for Indian Students Best Universities to Study Biomedical Engineering in Australia Study Master's in Biomedical Engineering in Australia Biomedical Engineering Admission Requirements in Australia for Indian Students Biomedical Engineering Scholarships in Australia for Indian Students Career Opportunities After Studying Biomedical Engineering in Australia"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is it possible for Indian students to pursue postgraduate studies in biomedical engineering in Australia?",
+      "a": "Indeed. If they fulfill the academic, English language, and other entrance requirements of their selected university, Indian students may apply to appropriate postgraduate programs in biomedical engineering or related fields."
+    },
+    {
+      "q": "Which undergraduate degree is appropriate for a biomedical engineering master's degree?",
+      "a": "Depending on the entrance requirements of the university, a bachelor's degree in biomedical engineering, biotechnology, mechanical engineering, electrical engineering, electronics engineering, or another pertinent field might be appropriate."
+    },
+    {
+      "q": "What is the duration of an Australian postgraduate course in biomedical engineering?",
+      "a": "Although the length of time varies depending on the degree format, prior credentials, and approved credit, many postgraduate programs last between one and two years."
+    },
+    {
+      "q": "Are Indian students eligible for scholarships?",
+      "a": "Indeed. International students who meet the requirements can apply for engineering scholarships, university merit awards, and research funding opportunities. Eligibility and availability differ."
+    },
+    {
+      "q": "What kinds of jobs are accessible to those who study biomedical engineering?",
+      "a": "Biomedical engineering, research and development, biomaterials, biomechanics, medical imaging, medical device development, and clinical engineering are all possible career pathways. Opportunities vary depending on industry demand, company requirements, experience, and qualifications. KEYWORDS - Study Postgraduate Biomedical Engineering in Australia for Indian Students Best Universities to Study Biomedical Engineering in Australia Study Master's in Biomedical Engineering in Australia Biomedical Engineering Admission Requirements in Australia for Indian Students Biomedical Engineering Scholarships in Australia for Indian Students Career Opportunities After Studying Biomedical Engineering in Australia"
+    }
+  ]
 }

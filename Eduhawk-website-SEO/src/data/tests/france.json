@@ -1,0 +1,68 @@
+{
+  "id": "france",
+  "name": "Foreign Online Exams for France (DELF, DALF, TCF, TEF)",
+  "shortName": "France Online Exams",
+  "category": "Foreign Online Exam",
+  "badge": "Official French Language & Admissions Tests",
+  "seo": {
+    "title": "Exams Abroad for France: DELF, DALF, TCF, TEF & University Requirements | EduHawk Worldwide",
+    "description": "Complete guide to studying in France: French language proficiency certifications (DELF, DALF, TCF, TEF), English exam alternatives (IELTS/TOEFL), Campus France registration roadmap, and visa guidelines.",
+    "keywords": "Exams abroad for France, French foreign exams, DELF exam France, DALF certification, TCF test, TEF French test, study in France from India, Campus France language requirements, French study visa exam"
+  },
+  "hero": {
+    "badge": "Official French Language & Admissions Tests",
+    "heroPara": "International students planning to study in France can choose between French-taught and English-taught programs, requiring specific French language diplomas (DELF, DALF, TCF, TEF) or accepted English tests (IELTS, TOEFL) for Campus France and university admission."
+  },
+  "stats": [
+    {
+      "label": "Target Programs",
+      "value": "Bachelor's, Master's, MBA, PhD"
+    },
+    {
+      "label": "French Diplomas",
+      "value": "DELF (A1–B2), DALF (C1–C2)"
+    },
+    {
+      "label": "Test Validity",
+      "value": "DELF/DALF: Indefinite / TCF: 2 Years"
+    },
+    {
+      "label": "English Options",
+      "value": "IELTS, TOEFL iBT (for English tracks)"
+    },
+    {
+      "label": "Admission Route",
+      "value": "Campus France / Études en France"
+    },
+    {
+      "label": "Visa Requirement",
+      "value": "VLS-TS Student Long-Stay Visa"
+    }
+  ],
+  "countries": [
+    "France"
+  ],
+  "overview": [
+    "France is a premier European destination for Indian students seeking top-notch education, globally recognized credentials, and worldwide employment opportunities across management, engineering, fashion, and sciences.",
+    "Your chosen university, program language of instruction, academic background, and professional goals determine the specific examinations you must take.",
+    "While programs taught in French require certified French language proficiency (DELF, DALF, TCF, or TEF), thousands of programs taught entirely in English accept IELTS or TOEFL."
+  ],
+  "faqs": [
+    {
+      "q": "What test is needed to study in France?",
+      "a": "It depends on the language of instruction. French-taught degrees generally require DELF B2 or DALF C1, or an equivalent TCF/TEF score. Programs taught in English require IELTS (6.0–7.0) or TOEFL iBT (80–100)."
+    },
+    {
+      "q": "Is taking the IELTS required in France?",
+      "a": "No, IELTS is not mandatory for all programs. If you enroll in a French-taught course, French diplomas (DELF/DALF) are required. For English-taught programs, universities accept TOEFL or PTE as alternatives."
+    },
+    {
+      "q": "Is it possible for me to take an online French language test from India?",
+      "a": "Certain TCF sessions and partnerships may offer digital/computer-based options at authorized centers. However, official DELF and DALF diplomas must be taken in-person during official examination sessions at authorized Alliance Française centers."
+    },
+    {
+      "q": "What is the validity period for French language exam results?",
+      "a": "DELF and DALF diplomas have perpetual (lifetime) validity. TCF test score reports are valid for two years. TEF validity is also generally two years depending on the specific test variant."
+    }
+  ]
+}

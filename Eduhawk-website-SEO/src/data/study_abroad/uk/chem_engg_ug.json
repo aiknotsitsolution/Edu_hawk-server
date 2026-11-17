@@ -1,10 +1,5 @@
 {
-  "seo": {
-    "title": "Study BEng Chemical Engineering in the UK for Indian Students | Edu-Hawk Worldwide",
-    "description": "Complete guide to BEng Chemical Engineering in the UK for Indian students: Top UK universities, eligibility criteria, tuition fees (£14,000–£35,000/yr), scholarships, and 2-year post-study work visa (Graduate Route)."
-  },
   "hero": {
-    "badge": "Study Abroad - United Kingdom",
     "title": "Study Chemical Engineering in the United Kingdom",
     "subtitle": "Chemical engineering is a branch of engineering that uses process design, chemistry, mathematics, and physics to safely and effectively convert raw materials into useful products. Pharmaceutical, food, energy, water treatment, biotechnology, sophisticated materials, and manufacturing processes are developed and enhanced by chemical engineers."
   },
@@ -13,17 +8,47 @@
     "The UK offers undergraduate Chemical Engineering degrees that incorporate practical projects, laboratory experimentation, industrial design, process modeling, and theoretical learning. While taking sustainability, efficiency, safety, and environmental effect into account, students learn how to design and run large-scale manufacturing systems.",
     "Studying Chemical Engineering in the UK can lay the groundwork for Indian students to pursue jobs in biotechnology, energy, pharmaceuticals, chemicals, process industries, and sustainable manufacturing."
   ],
+  "universities": [
+    {
+      "name": "Bath University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_chem_engg_ug_Bath_University-image4.png",
+      "image": "/uploads/study_abroad/uk/uk_chem_engg_ug_Bath_University-image4.png",
+      "desc": "Bath University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "London's Imperial College",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_chem_engg_ug_London_s_Imperial_College-image2.png",
+      "image": "/uploads/study_abroad/uk/uk_chem_engg_ug_London_s_Imperial_College-image2.png",
+      "desc": "London's Imperial College is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Manchester University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_chem_engg_ug_Manchester_University-image3.png",
+      "image": "/uploads/study_abroad/uk/uk_chem_engg_ug_Manchester_University-image3.png",
+      "desc": "Manchester University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Newcastle University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_chem_engg_ug_Newcastle_University-image1.png",
+      "image": "/uploads/study_abroad/uk/uk_chem_engg_ug_Newcastle_University-image1.png",
+      "desc": "."
+    }
+  ],
   "sections": [
     {
+      "slot": "why-study",
+      "eyebrow": "Why UK",
       "title": "Why Study Chemical Engineering in the UK?",
-      "eyebrow": "Why Study in the UK",
+      "lead": "Chemical engineering is a branch of engineering that uses process design, chemistry, mathematics, and physics to safely and effectively convert raw materials into useful products. Pharmaceutical, food, energy, water treatment, biotechnology, sophisticated materials, and manufacturing processes are developed and enhanced by chemical engineers.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Chemical engineering is a branch of engineering that uses process design, chemistry, mathematics, and physics to safely and effectively convert raw materials into useful products. Pharmaceutical, food, energy, water treatment, biotechnology, sophisticated materials, and manufacturing processes are developed and enhanced by chemical engineers."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -39,7 +64,7 @@
         {
           "t": "p",
           "items": [
-            "Edu Hawk worldwide consultancy helps students understand university admission standards explore  foreign study possibilities, and prepare for the overseas education journey with the right preparation and direction."
+            "Edu Hawk worldwide consultancy helps students understand university admission standards explore foreign study possibilities, and prepare for the overseas education journey with the right preparation and direction."
           ]
         },
         {
@@ -63,15 +88,11 @@
       ]
     },
     {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
       "title": "UK Chemical Engineering Courses",
-      "eyebrow": "Course Guide",
+      "lead": "After Class 12, Indian students might consider a number of undergraduate-entry pathways. The ideal option is determined by budget, professional goals, selected specialization, and educational background.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "After Class 12, Indian students might consider a number of undergraduate-entry pathways. The ideal option is determined by budget, professional goals, selected specialization, and educational background."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -159,46 +180,52 @@
       ]
     },
     {
+      "slot": "universities",
+      "eyebrow": "Top UK Universities",
       "title": "UK's Leading Chemical Engineering Universities",
-      "eyebrow": "Top Institutions",
-      "groups": [
+      "lead": "It is worthwhile to explore the undergraduate Chemical Engineering programs offered by the following universities. This is not a formal total university ranking, but rather a shortlist of courses.",
+      "groups": [],
+      "unis": [
         {
-          "t": "universities",
-          "items": [
-            {
-              "name": "Bath University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Bath_University_webp"
-            },
-            {
-              "name": "Londons Imperial College",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Londons_Imperial_College_webp"
-            },
-            {
-              "name": "Manchester University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Manchester_University_webp"
-            },
-            {
-              "name": "Newcastle University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Newcastle_University_webp"
-            }
-          ]
+          "name": "Bath University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_chem_engg_ug_Bath_University-image4.png",
+          "image": "/uploads/study_abroad/uk/uk_chem_engg_ug_Bath_University-image4.png",
+          "desc": "Bath University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "London's Imperial College",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_chem_engg_ug_London_s_Imperial_College-image2.png",
+          "image": "/uploads/study_abroad/uk/uk_chem_engg_ug_London_s_Imperial_College-image2.png",
+          "desc": "London's Imperial College is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Manchester University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_chem_engg_ug_Manchester_University-image3.png",
+          "image": "/uploads/study_abroad/uk/uk_chem_engg_ug_Manchester_University-image3.png",
+          "desc": "Manchester University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Newcastle University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_chem_engg_ug_Newcastle_University-image1.png",
+          "image": "/uploads/study_abroad/uk/uk_chem_engg_ug_Newcastle_University-image1.png",
+          "desc": "."
         }
       ]
     },
     {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
       "title": "Qualifications for Chemical Engineering Studying in the UK",
-      "eyebrow": "Course Guide",
+      "lead": "The requirements for admission differ depending on the university, degree, academic standing and chosen course of study.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The requirements for admission differ depending on the university, degree, academic standing and chosen course of study."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -222,10 +249,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Subject requirements"
-          ]
+          "t": "h4",
+          "text": "Subject requirements"
         },
         {
           "t": "p",
@@ -240,10 +265,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Language Requirements in English"
-          ]
+          "t": "h4",
+          "text": "Language Requirements in English"
         },
         {
           "t": "p",
@@ -275,20 +298,14 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "UK Chemical Engineering Admission Requirements",
-      "eyebrow": "Eligibility & Process",
+      "lead": "Students should read the university's application standards and academic eligibility before submitting an application.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Students should read the university's application standards and academic eligibility before submitting an application."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Academic requirements"
-          ]
+          "t": "h4",
+          "text": "Academic requirements"
         },
         {
           "t": "p",
@@ -313,10 +330,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Language Requirements in English"
-          ]
+          "t": "h4",
+          "text": "Language Requirements in English"
         },
         {
           "t": "p",
@@ -375,27 +390,18 @@
       ]
     },
     {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
       "title": "The cost of studying chemical engineering in the UK",
-      "eyebrow": "Tuition & Living",
+      "lead": "The university, length of the course, location, lodging, and way of life all affect the total cost of studying Chemical Engineering in the UK.",
+      "groups": []
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "The cost of tuition",
+      "lead": "For the designated entering years, the published foreign tuition examples in Section 3 vary from about £18,900 to £47,800 per year.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The university, length of the course, location, lodging, and way of life all affect the total cost of studying Chemical Engineering in the UK."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The cost of tuition"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "For the designated entering years, the published foreign tuition examples in Section 3 vary from about £18,900 to £47,800 per year."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -442,21 +448,47 @@
         {
           "t": "ul",
           "items": [
-            "Application fees for universities or UCAS, if relevant",
-            "The cost of applying for a student visa",
-            "When appropriate, the Immigration Health Surcharge",
-            "The cost of international travel",
+            "Application fees for universities or UCAS, if relevant"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "The cost of applying for a student visa",
+      "lead": "",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "When appropriate, the Immigration Health Surcharge"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "The cost of international travel",
+      "lead": "",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
             "The first deposits for lodging",
             "When necessary, safety gear and laboratory supplies",
             "Extra expenses incurred during an industrial placement"
           ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Financial aid and scholarships"
-          ]
-        },
+        }
+      ]
+    },
+    {
+      "slot": "scholarships",
+      "eyebrow": "Scholarships & Aid",
+      "title": "Financial aid and scholarships",
+      "lead": "",
+      "groups": [
         {
           "t": "p",
           "items": [
@@ -476,165 +508,86 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "The UK's Admissions Process for Chemical Engineering",
-      "eyebrow": "Eligibility & Process",
+      "lead": "",
       "groups": [
         {
-          "t": "p",
+          "t": "steps",
           "items": [
-            "Step 1: Select Your Degree Route"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Choose between an undergraduate program with an industrial placement, an integrated MEng, a foundation-year route, or a BEng."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 2: Make a shortlist of universities"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Examine course modules, duration, placement prospects, accreditation, practical facilities, tuition costs, and university location."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 3: Verify Your Qualifications"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Examine the prerequisites for Chemistry, Mathematics, Physics, and English language proficiency, as well as the requirements for Class 12."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 4: Get Your Application Ready"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The majority of undergraduate applicants use UCAS or another method the university specifies."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 5 : Submit the supporting documentation"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Academic credentials, transcripts, results of any necessary English tests, answers to personal statements, reference data, and other specified papers should be provided."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 6: Finish Any Necessary Evaluations"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Verify if the university has any requirements for interviews, admissions tests, or other selection processes. For instance, Imperial's 2027 Chemical Engineering MEng selection procedure involves the ESAT."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 7: Accept and Examine Your Offer"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Verify if the offer is unconditional or conditional. Examine the requirements for enrollment, tuition, deposits, deadlines, and academic conditions."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 8: Accept the Offer"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Finish the admissions procedure at the university and make all necessary preparations for tuition deposits."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 9: Get Your Study Acceptance Confirmation"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The institution can issue a Confirmation of Acceptance for Studies (CAS) for the student visa application procedure once you have fulfilled the necessary requirements and are prepared to sponsor you."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 10: Submit an application for a UK student visa."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "In accordance with the most recent UK immigration regulations, prepare the necessary supporting documentation and submit your visa application."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 11: Make Travel and Accommodation Plans"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Make plans for lodging, money, travel, enrolling in school, and other pre-departure activities."
+            {
+              "step": 1,
+              "title": "Select Your Degree Route",
+              "desc": "Choose between an undergraduate program with an industrial placement, an integrated MEng, a foundation-year route, or a BEng."
+            },
+            {
+              "step": 2,
+              "title": "Make a shortlist of universities",
+              "desc": "Examine course modules, duration, placement prospects, accreditation, practical facilities, tuition costs, and university location."
+            },
+            {
+              "step": 3,
+              "title": "Verify Your Qualifications",
+              "desc": "Examine the prerequisites for Chemistry, Mathematics, Physics, and English language proficiency, as well as the requirements for Class 12."
+            },
+            {
+              "step": 4,
+              "title": "Get Your Application Ready",
+              "desc": "The majority of undergraduate applicants use UCAS or another method the university specifies."
+            },
+            {
+              "step": 5,
+              "title": "Submit the supporting documentation",
+              "desc": "Academic credentials, transcripts, results of any necessary English tests, answers to personal statements, reference data, and other specified papers should be provided."
+            },
+            {
+              "step": 6,
+              "title": "Finish Any Necessary Evaluations",
+              "desc": "Verify if the university has any requirements for interviews, admissions tests, or other selection processes. For instance, Imperial's 2027 Chemical Engineering MEng selection procedure involves the ESAT."
+            },
+            {
+              "step": 7,
+              "title": "Accept and Examine Your Offer",
+              "desc": "Verify if the offer is unconditional or conditional. Examine the requirements for enrollment, tuition, deposits, deadlines, and academic conditions."
+            },
+            {
+              "step": 8,
+              "title": "Accept the Offer",
+              "desc": "Finish the admissions procedure at the university and make all necessary preparations for tuition deposits."
+            },
+            {
+              "step": 9,
+              "title": "Get Your Study Acceptance Confirmation",
+              "desc": "The institution can issue a Confirmation of Acceptance for Studies (CAS) for the student visa application procedure once you have fulfilled the necessary requirements and are prepared to sponsor you."
+            },
+            {
+              "step": 10,
+              "title": "Submit an application for a UK student visa.",
+              "desc": "In accordance with the most recent UK immigration regulations, prepare the necessary supporting documentation and submit your visa application."
+            },
+            {
+              "step": 11,
+              "title": "Make Travel and Accommodation Plans",
+              "desc": "Make plans for lodging, money, travel, enrolling in school, and other pre-departure activities."
+            }
           ]
         }
       ]
     },
     {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
       "title": "UK Chemical Engineering Accreditation and Professional Recognition",
-      "eyebrow": "Course Guide",
+      "lead": "For students who intend to pursue a long-term career in chemical engineering, professional accreditation is crucial.",
+      "groups": []
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Accreditation of Chemical Engineering Degrees",
+      "lead": "Individual degree programs in chemical, biochemical, and process engineering are accredited by the Institution of Chemical Engineers (IChemE). Instead of being applicable to all degrees provided by a university, accreditation is course-specific.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "For students who intend to pursue a long-term career in chemical engineering, professional accreditation is crucial."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Accreditation of Chemical Engineering Degrees"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Individual degree programs in chemical, biochemical, and process engineering are accredited by the Institution of Chemical Engineers (IChemE). Instead of being applicable to all degrees provided by a university, accreditation is course-specific."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -666,15 +619,11 @@
       ]
     },
     {
+      "slot": "careers",
+      "eyebrow": "Career & Salary",
       "title": "Pay and Employment Prospects for Chemical Engineers in the UK",
-      "eyebrow": "Career & Prospects",
+      "lead": "Graduates in chemical engineering can pursue careers in biotechnology, materials, manufacturing, energy, pharmaceuticals, food production, process design, and environmental technologies.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Graduates in chemical engineering can pursue careers in biotechnology, materials, manufacturing, energy, pharmaceuticals, food production, process design, and environmental technologies."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -753,15 +702,11 @@
       ]
     },
     {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
       "title": "Documents Needed in the UK to Study Chemical Engineering",
-      "eyebrow": "Course Guide",
+      "lead": "The university, course, and visa arrangements determine the precise document checklist.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The university, course, and visa arrangements determine the precise document checklist."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -795,10 +740,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Documents for Student Visas"
-          ]
+          "t": "h4",
+          "text": "Documents for Student Visas"
         },
         {
           "t": "p",
@@ -819,136 +762,37 @@
           ]
         }
       ]
-    },
-    {
-      "title": "FAQs",
-      "eyebrow": "Got Questions?",
-      "groups": [
-        {
-          "t": "faqs",
-          "items": [
-            {
-              "q": "Q1. After Class 12, are Indian kids able to pursue Chemical Engineering studies in the UK?",
-              "a": "Yes After Class 12, qualified Indian students can apply to undergraduate BEng or integrated MEng programs. Chemistry and mathematics are prerequisites for the majority of traditional Chemical Engineering programs; some also call for physics or another pertinent science course."
-            },
-            {
-              "q": "Q2. How long do undergraduate Chemical Engineering courses in the UK last?",
-              "a": "An integrated MEng typically takes four years, whereas a BEng typically takes three. The entire study period may be extended by foundation years and industry placements."
-            },
-            {
-              "q": "Q3. What is the cost of a Chemical Engineering undergraduate degree in the United Kingdom?",
-              "a": "For the designated entering years, the published tuition examples in this book range from roughly £18,900 to £47,800 per year. Budgeting must be done separately for living expenses, visa fees, medical costs, and possible annual tuition hikes."
-            },
-            {
-              "q": "Q4. What careers in the UK may I pursue after graduating from Chemical Engineering?",
-              "a": "Graduates can consider careers as Chemical Engineer , Production Engineer, Process Design Engineer, Environmental Engineer, Energy Engineer, or Pharmaceutical Process Engineer. Technical expertise, experience, employer demands, and labor market conditions all affect career results."
-            },
-            {
-              "q": "Q5. After earning an undergraduate degree in Chemical Engineering, may I remain in the UK?",
-              "a": "Graduates who meet the requirements may apply for a Graduate visa. An 18-month graduate visa is granted to qualified bachelor's degree holders who apply on or after January 1, 2027, according to regulations released in October 2026. Before applying, students should confirm the current regulations."
-            },
-            {
-              "q": "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
-              "a": "Students may plan their study-abroad journey, organize application materials, comprehend admission requirements, and research suitable universities with the assistance of Edu Hawk worldwide . Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
-            }
-          ]
-        }
-      ]
     }
   ],
-  "universities": [
-    {
-      "name": "Bath University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Bath_University.webp"
-    },
-    {
-      "name": "Londons Imperial College",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Londons_Imperial_College.webp"
-    },
-    {
-      "name": "Manchester University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Manchester_University.webp"
-    },
-    {
-      "name": "Newcastle University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Newcastle_University.webp"
-    }
-  ],
-  "table": {
-    "title": "Estimated Cost of Studying BEng Chemical Engineering in the UK (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (£ / GBP)",
-      "Details / Scope"
-    ],
-    "rows": [
-      [
-        "Undergraduate Degree (Annual)",
-        "£14,000 – £28,000 / year",
-        "Varies by university ranking, laboratory access, and course type"
-      ],
-      [
-        "Postgraduate Degree (Annual)",
-        "£16,000 – £35,000 / year",
-        "1-year intensive master's program or research dissertation"
-      ],
-      [
-        "Monthly Living Costs (Outside London)",
-        "£900 – £1,100 / month",
-        "Includes private/student accommodation, groceries, and utilities"
-      ],
-      [
-        "Monthly Living Costs (London)",
-        "£1,250 – £1,450 / month",
-        "Mandated UKVI maintenance requirement for London study"
-      ],
-      [
-        "Health Surcharge (IHS)",
-        "£776 / year",
-        "Access to UK National Health Service (NHS) for student visa holders"
-      ]
-    ]
-  },
   "faqs": [
     {
-      "q": "Q1. After Class 12, are Indian kids able to pursue Chemical Engineering studies in the UK?",
+      "q": "After Class 12, are Indian kids able to pursue Chemical Engineering studies in the UK?",
       "a": "Yes After Class 12, qualified Indian students can apply to undergraduate BEng or integrated MEng programs. Chemistry and mathematics are prerequisites for the majority of traditional Chemical Engineering programs; some also call for physics or another pertinent science course."
     },
     {
-      "q": "Q2. How long do undergraduate Chemical Engineering courses in the UK last?",
+      "q": "How long do undergraduate Chemical Engineering courses in the UK last?",
       "a": "An integrated MEng typically takes four years, whereas a BEng typically takes three. The entire study period may be extended by foundation years and industry placements."
     },
     {
-      "q": "Q3. What is the cost of a Chemical Engineering undergraduate degree in the United Kingdom?",
+      "q": "What is the cost of a Chemical Engineering undergraduate degree in the United Kingdom?",
       "a": "For the designated entering years, the published tuition examples in this book range from roughly £18,900 to £47,800 per year. Budgeting must be done separately for living expenses, visa fees, medical costs, and possible annual tuition hikes."
     },
     {
-      "q": "Q4. What careers in the UK may I pursue after graduating from Chemical Engineering?",
+      "q": "What careers in the UK may I pursue after graduating from Chemical Engineering?",
       "a": "Graduates can consider careers as Chemical Engineer , Production Engineer, Process Design Engineer, Environmental Engineer, Energy Engineer, or Pharmaceutical Process Engineer. Technical expertise, experience, employer demands, and labor market conditions all affect career results."
     },
     {
-      "q": "Q5. After earning an undergraduate degree in Chemical Engineering, may I remain in the UK?",
+      "q": "After earning an undergraduate degree in Chemical Engineering, may I remain in the UK?",
       "a": "Graduates who meet the requirements may apply for a Graduate visa. An 18-month graduate visa is granted to qualified bachelor's degree holders who apply on or after January 1, 2027, according to regulations released in October 2026. Before applying, students should confirm the current regulations."
     },
     {
       "q": "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
       "a": "Students may plan their study-abroad journey, organize application materials, comprehend admission requirements, and research suitable universities with the assistance of Edu Hawk worldwide . Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
     }
-  ]
+  ],
+  "seo": {
+    "title": "Study Chemical Engineering in the United Kingdom | Edu-Hawk Worldwide",
+    "description": "Chemical engineering is a branch of engineering that uses process design, chemistry, mathematics, and physics to safely and effectively convert raw materials in",
+    "keywords": "Study in the UK, Best UK Universities, Edu Hawk Worldwide"
+  }
 }

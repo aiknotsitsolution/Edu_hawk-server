@@ -1,14 +1,15 @@
 {
   "seo": {
     "title": "BBS in Italy for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study BBS in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities."
+    "description": "Study BBS in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
+    "keywords": "BBS in Italy for Indian Students, Bachelor of Business Studies in Italy, BBS Courses in Italy, Top BBS Universities in Italy, BBS Eligibility and Admission in Italy, Cost of Studying BBS in Italy"
   },
   "hero": {
     "badge": "Study Abroad - Italy",
     "title": "BBS in Italy for Indian Students",
-    "subtitle": "Yes. Students from India can apply for eligible undergraduate business and management programs after Class 12 provided they meet the university's academic, language and other admission requirements.",
+    "subtitle": "BBS in Italy for Indian students can be an option for Indian students who wish to build a base in business, management, economics, finance, and entrepreneurship after completing Class 12. Italy's public universities, private universities and business schools all offer undergraduate business and economics degrees.",
     "ctaText": "Book Free Counselling",
-    "image": ""
+    "image": "/uploads/study_abroad/italy/bbs_Bologna_University-image2.png"
   },
   "stats": [
     {
@@ -29,38 +30,856 @@
     }
   ],
   "highlights": {
-    "degree": "Undergraduate",
+    "degree": "Bachelor of Business Studies",
     "duration": "1 to 2 Years (PG) / 3 Years (UG)",
     "fee": "€1,000 – €4,000 / Year (Public) | €6,000 – €20,000 / Year (Private)",
     "eligibility": "Recognised academic qualification + English / Italian proficiency",
-    "medium": "English & Italian Taught"
+    "medium": "English / Italian"
   },
-  "overview": "Yes. Students from India can apply for eligible undergraduate business and management programs after Class 12 provided they meet the university's academic, language and other admission requirements.",
-  "universities": [
+  "overview": [
+    "BBS in Italy for Indian students can be an option for Indian students who wish to build a base in business, management, economics, finance, and entrepreneurship after completing Class 12. Italy's public universities, private universities and business schools all offer undergraduate business and economics degrees.",
+    "The term Bachelor of Business Studies (BBS) is not consistently used across Italian universities. Similar programs may be known as Business Administration, Economics and Management, International Business or Business and Economics. Before applying, students must check the official title of the degree, course duration, language of instruction and admission requirements.",
+    "Students can use the international business environment in Italy, the range of industries and university programs to build knowledge that is relevant to careers in marketing, finance, sales, business development and management."
+  ],
+  "sections": [
     {
-      "name": "Politecnico di Milano",
-      "location": "Milan, Italy",
-      "fee": "€1,000 – €3,900 / Year",
-      "image": ""
+      "slot": "why-study",
+      "eyebrow": "Key Benefits",
+      "title": "Why Study BBS in Italy?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Benefits of Opting for a BBS-Related Course in Italy after Class 12 There are numerous professional and academic benefits of opting for a BBS-related course in Italy after class 12."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "International business exposure: Get to know European markets, international trade and global business practices."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Business fundamentals: Learn about management, accounting, economics, marketing and finance."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "English-taught options Some Italian universities offer undergraduate business programs taught in English."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Hands-on learning: Depending on the course, students may be expected to complete group projects, case studies, presentations and business assignments."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Specialization options international business finance marketing entrepreneurship and management."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Industry exposure: Many universities provide career services, company projects, networking events and internship opportunities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Multicultural environment: study with students from different countries and experience Italian culture."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Postgraduate opportunities: Graduates may apply for a Master in Management, International Business, Finance or other relevant field, depending on eligibility."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should carefully compare course structures, as a business-related bachelor's degree might not be called exactly the BBS."
+          ]
+        }
+      ]
     },
     {
-      "name": "Sapienza University of Rome",
-      "location": "Rome, Italy",
-      "fee": "€1,000 – €3,000 / Year",
-      "image": ""
+      "slot": "programs",
+      "eyebrow": "Popular Courses",
+      "title": "BBS Courses in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Students interested in BBS courses in Italy can study bachelor's degrees in business, management, economics and related fields."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Course/Specialization:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Key topics"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Course/Specialization"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Key topics"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Business Studies"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Business fundamentals, management, accounting and economics."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Administração de Empresas"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Business operations, strategy and management of organizations"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Business - International"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "International Trade and Cross-Cultural Management Global Markets"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Management & Economics"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Economics, Finance, Statistics, Business Strategy"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Marketing Management ."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Branding, consumer behavior, market research, digital marketing"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Finance and Accounting"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Financial reporting, investment, accounting, corporate finance"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Entrepreneurship"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Start-up management and business planning Innovation"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Human Resource Management (HRM)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "HRM, recruitment and staff development, organizational behavior"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are related fields of study, not a list of courses offered by any Italian university under the title of BBS. In Italy, many bachelor's degrees last three years and are usually worth 180 ECTS credits."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "3. Top BBS Universities in Italy"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Italian universities provide undergraduate courses in business, economics and management for Indian students to consider."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "1. Università Bocconi"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Bocconi provides bachelor degrees in subjects such as International Economics and Management. These programs are business, economics, management and international markets."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Official site: unibocconi.it"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "2. Bologna University"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The university offers undergraduate degrees in economics and business. Students should consult the current course catalog to find a program that suits their interests and preferred language of instruction."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Site officiel : unibo.it"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "3. Venice, Università Ca' Foscari di"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Ca' Foscari offers study programs in economics, business and related disciplines. Applicants can compare its undergraduate programs in subject content, language, admission criteria and tuition fees."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Official site: unive.it"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Note: The universities listed offer related business or economics programs, this does not mean they offer a degree with the specific title BBS. Verify the exact qualification and up-to-date program availability on each university's official website."
+          ]
+        }
+      ]
     },
     {
-      "name": "University of Bologna",
-      "location": "Bologna, Italy",
-      "fee": "€1,000 – €3,500 / Year",
-      "image": ""
+      "slot": "universities",
+      "eyebrow": "Top Italian Universities",
+      "title": "Top Universities in Italy",
+      "lead": "Explore top public research universities and polytechnics in Italy offering English-taught degrees, historic campuses, and generous regional scholarships.",
+      "unis": [
+        {
+          "name": "Bologna University",
+          "location": "Italy",
+          "fee": "€1,000 – €4,000 / Year",
+          "image": "/uploads/study_abroad/italy/bbs_Bologna_University-image2.png"
+        },
+        {
+          "name": "Università Bocconi",
+          "location": "Italy",
+          "fee": "€1,000 – €4,000 / Year",
+          "image": "/uploads/study_abroad/italy/bbs_Universita_Bocconi-image1.png"
+        },
+        {
+          "name": "Venice, Università Ca' Foscari di",
+          "location": "Italy",
+          "fee": "€1,000 – €4,000 / Year",
+          "image": "/uploads/study_abroad/italy/bbs_Venice_Universita_Ca_Foscari_di-image3.png"
+        }
+      ],
+      "groups": []
     },
     {
-      "name": "University of Padua",
-      "location": "Padua, Italy",
-      "fee": "€1,000 – €2,800 / Year",
-      "image": ""
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Who can study BBS in Italy?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The eligibility criteria for BBS related undergraduate program varies from university to university and course to course."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Common requirements are:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Class 12 qualification: Higher secondary education or equivalent recognized qualification."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic Performance: Satisfying the university's minimum academic requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Subject requirements Some economics and business programs will require maths or a suitable quantitative background."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "English Language: English taught programs may require IELTS, TOEFL or other accepted qualification subject to university policy."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some programs require an aptitude test or another kind of admission test (entrance test)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Assessment of qualifications: The university checks whether the applicant meets its entry requirements with their Indian school-leaving qualification."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "There is not a minimum percentage of class 12 or English test score that is standard for all the Italian universities. Applicants should check the entry requirements for the course they wish to study."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "5. Admission Criteria for BBS in Italy"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Undergraduate applicants to study business in Italy may be required to submit:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Mark sheet & certificate of class 10.",
+            "Passing certificate and mark sheet of class 12",
+            "Valid passport",
+            "Proof of English proficiency test (if needed).",
+            "Entrance test scores, if any.",
+            "Application form online.",
+            "Confirmation of application fee payment (if applicable).",
+            "Cover letter / personal statement (if required).",
+            "Other academic documents required by the university.",
+            "Official translations or documents of authenticity where applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Universities may select applicants based on entrance exams and academic records. Other may have additional procedures for evaluation. Requirements differ between public universities, private universities and business schools."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Costs",
+      "title": "Cost of BBS study in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The cost for Indian students to pursue BBS in Italy varies on the basis of the university, the program and the fee structure."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The following figures are illustrative annual tuition estimates for planning purposes and are not confirmed fees for specific BBS degrees."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Type of institution"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Tuition (estimated per year)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Approximate value in INR"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Public universities of choice"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€ 1,000-€ 4,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹1.09 to ₹4.34 lakhs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Other public or specialized programs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€3,000-€8,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹3.26-₹8.69 lakhs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Private universities and business schools"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€8,000-€20,000+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹8.69-₹21.72 lakh+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "INR equivalents at the illustrative exchange rate of €1 = ₹108.60. All amounts in U.S. dollars. Exchange rates and tuition are subject to change."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Other costs may include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Application and entrance examination fee.",
+            "Costs of visas and residence permits.",
+            "Administrative and medical insurance costs.",
+            "Books & Study Materials.",
+            "Lodging, food, travel and personal expenses."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Eligible students may be awarded scholarships, regional financial aid, or tuition reductions. Academic record, financial need, institutional policies and deadlines determine eligibility and funding."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "7. Admission Procedure of BBS in Italy"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Here are the typical steps for Indian students to apply for a bachelor program in business or management ."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Choose your program: Discover Bachelor Degrees in Business Administration, Economics and Management, International Business and related degrees."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Check eligibility: Verify eligibility for Class 12, academic standards, subject prerequisites and language requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Check the entrance exams: Please confirm if the university requires an aptitude test or any other type of assessment."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Prepare documentation: Gather school certificates, mark sheets, passport details and other language test results if required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Application process: Apply through the official portal of the university before the deadline."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Fill out assessments: Take any entrance exams, interviews or other selection process required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Get your admissions decision: Please review the offer, tuition fees, payment due dates and enrollment instructions."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Complete all pre-enrolment and visa formalities: Follow the instructions of the university, Universitaly and the relevant Italian consular authority, where applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Full final registration: Finalize your university registration and submit any outstanding required documents."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Universities have varying deadlines and procedures for applications. Students should start early enough to allow time to take tests, prepare documents, receive admission decisions and obtain visas."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "recognition",
+      "eyebrow": "Degree Recognition & Accreditation",
+      "title": "Recognition of the BBS degree in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "A bachelor's degree in business or similar discipline from an Italian university recognized by the Italian Ministry of Education can be a basis for further education or employment. But the official name of the degree and its status are important."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Before registering, students should verify:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Is the institution officially recognized in the Italian higher education system?",
+            "The formal credential awarded by the program.",
+            "What kind of degree (bachelor's qualification, usually called a Laurea or Laurea Triennale).",
+            "Length of course and ECTS credits.",
+            "Whether the degree is recognized for entry to postgraduate courses.",
+            "If there are any additional recognition or equivalence requirements in India or another intended destination."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A degree in Economics and Management may cover many subjects similar to BBS, but it is not necessarily called Bachelor of Business Studies. Students are advised to use the official qualification name when applying for further education or employment."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Prospects",
+      "title": "Salary & Job Prospects After BBS in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "People who graduate with a bachelor's degree in a business-related field can look for entry-level positions in a wide variety of industries. Employment possibilities depend on skills, internships, language proficiency, specialization and employer requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "You might pursue a career in:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Business Development Manager.",
+            "Marketing Manager.",
+            "Sales Executive",
+            "Assistant Human Resources.",
+            "Financial Analyst, Junior.",
+            "Operations Coordinator.",
+            "Executive - Customer Relations",
+            "Digital Marketing Executive",
+            "Admin. Asst.",
+            "Junior Business Analyst with good demonstrated analytical skills."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Salary after BBS in Italy (Estimated)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The following are broad illustrative gross annual salary ranges for related business roles and are not verified salary statistics specifically for BBS graduates."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Career stage"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Gross Annual Salary (Illustrative)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Entry-level jobs in business"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€22,000-€28,000 (₹23.89-₹30.41 lakh)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Early career Specialist or Analyst Roles"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€25,000-€35,000 (₹27.15-₹38.01 Lakh)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Experienced professionals moving into management"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€35,000-€50,000+ (₹38.01-₹54.30 lakh+)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€1 = ₹108.60 (Inr equivalents)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These figures are gross annual pay before taxes and deductions, not take-home salary. Actual salaries may vary based on a variety of factors including job role, employer, location, industry, skills and experience. Having a degree isn't a guaranty for a job, let alone a certain salary."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "International graduates are also subject to the relevant work authorization and immigration rules that apply in their circumstances. Speaking Italian can increase opportunities for work in the area, while some multinationals have English speaking positions."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Required Documents",
+      "title": "Required Documents for Studying BBS in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Commonly required documents for Indian applicants include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Passport: Valid.",
+            "Mark sheet and certificate of Class 10.",
+            "Mark sheet and passing certificate of class 12",
+            "Certificate of proficiency in English language, if applicable.",
+            "Entrance-test scores, if applicable.",
+            "University application paper",
+            "Photographs (passport size) if needed.",
+            "Motivation letter (if required)",
+            "Proof of payment of application fee, if applicable.",
+            "Certified translation or authenticated academic documents, if applicable.",
+            "Letter of acceptance to university.",
+            "Student Visa Financial Documents.",
+            "Pre-enrolment and other visa documents, as applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The exact checklist will depend on the university and the visa situation. Students must comply with the official admission instructions and the instructions of the relevant Italian consular authority."
+          ]
+        }
+      ]
     }
   ],
-  "faq": []
+  "universities": [
+    {
+      "name": "Bologna University",
+      "location": "Italy",
+      "fee": "€1,000 – €4,000 / Year",
+      "image": "/uploads/study_abroad/italy/bbs_Bologna_University-image2.png"
+    },
+    {
+      "name": "Università Bocconi",
+      "location": "Italy",
+      "fee": "€1,000 – €4,000 / Year",
+      "image": "/uploads/study_abroad/italy/bbs_Universita_Bocconi-image1.png"
+    },
+    {
+      "name": "Venice, Università Ca' Foscari di",
+      "location": "Italy",
+      "fee": "€1,000 – €4,000 / Year",
+      "image": "/uploads/study_abroad/italy/bbs_Venice_Universita_Ca_Foscari_di-image3.png"
+    }
+  ],
+  "faq": [
+    {
+      "question": "After completing Class 12 in India, can I pursue BBS in Italy?",
+      "answer": "Yes. Students from India can apply for eligible undergraduate business and management programs after Class 12 provided they meet the university's academic, language and other admission requirements."
+    },
+    {
+      "question": "What is the length of BBS in Italy?",
+      "answer": "In Italy, a bachelor's degree typically lasts three years and normally equals 180 ECTS credits. Depending on the program chosen, the exact duration varies."
+    },
+    {
+      "question": "How much does it cost to study BBS in Italy?",
+      "answer": "Tuition depends on the institution. As a rough guide, the cost of some public university programs can be around €1,000-€4,000 per year but private institutions can charge considerably more. Check with the university for the current fee."
+    },
+    {
+      "question": "Is IELTS necessary for BBS in Italy?",
+      "answer": "Not necessarily. English taught programs may require IELTS, TOEFL or other acceptable proof of proficiency in the English language. Exemptions are based on the university policy."
+    },
+    {
+      "question": "Is it possible to do MBA after BBS in Italy?",
+      "answer": "Yes. Graduates are eligible to apply for an MBA or other relevant postgraduate business program, subject to meeting the entry requirements. Some traditional MBA programs require professional work experience so recent graduates might also consider a Master's in Management."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "After completing Class 12 in India, can I pursue BBS in Italy?",
+      "a": "Yes. Students from India can apply for eligible undergraduate business and management programs after Class 12 provided they meet the university's academic, language and other admission requirements."
+    },
+    {
+      "q": "What is the length of BBS in Italy?",
+      "a": "In Italy, a bachelor's degree typically lasts three years and normally equals 180 ECTS credits. Depending on the program chosen, the exact duration varies."
+    },
+    {
+      "q": "How much does it cost to study BBS in Italy?",
+      "a": "Tuition depends on the institution. As a rough guide, the cost of some public university programs can be around €1,000-€4,000 per year but private institutions can charge considerably more. Check with the university for the current fee."
+    },
+    {
+      "q": "Is IELTS necessary for BBS in Italy?",
+      "a": "Not necessarily. English taught programs may require IELTS, TOEFL or other acceptable proof of proficiency in the English language. Exemptions are based on the university policy."
+    },
+    {
+      "q": "Is it possible to do MBA after BBS in Italy?",
+      "a": "Yes. Graduates are eligible to apply for an MBA or other relevant postgraduate business program, subject to meeting the entry requirements. Some traditional MBA programs require professional work experience so recent graduates might also consider a Master's in Management."
+    }
+  ]
 }

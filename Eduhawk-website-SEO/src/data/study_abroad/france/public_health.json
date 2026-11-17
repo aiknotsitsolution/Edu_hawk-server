@@ -1,217 +1,598 @@
 {
-  "seo": {
-    "title": "Study Public Health in France for Indian Students | Edu-Hawk Worldwide",
-    "description": "Complete guide to Public Health in France for Indian students: Top French universities, admission requirements, tuition fees (€255 – €3,950 / year public), scholarships, and 2-year post-study work visa."
-  },
   "hero": {
-    "badge": "Study Abroad - France",
-    "title": "PUBLIC HEALTH IN FRANCE FOR INTERNATIONAL STUDENTS",
-    "subtitle": "**"
+    "title": "Public Health in France for International Students",
+    "subtitle": "France is a popular destination for students interested in disease prevention, epidemiology, health policy, global health, and healthcare management."
   },
   "overview": [
-    "**"
+    "France is a popular destination for students interested in disease prevention, epidemiology, health policy, global health, and healthcare management.",
+    "Public health is concerned with improving the health of populations through research, prevention programmes, health education and effective health services.",
+    "\\\\Studying public health in France\\\\ will prepare students to acquire skills to address health issues at the local, national, and international levels."
+  ],
+  "universities": [
+    {
+      "name": "France has universities and specialist institutions that provide education in \\\\public health. This is not an official ranking, just a few examples to check out",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+      "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+      "desc": "France has universities and specialist institutions that provide education in \\\\public health. This is not an official ranking, just a few examples to check out is one of France's top recognized universities offering accredited European degrees, advanced research laboratories, and strong international student support."
+    },
+    {
+      "name": "EHESP Rennes School of Public Health",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_EHESP_Rennes_School_of_Public_Health.webp",
+      "image": "/uploads/study_abroad/france/france_EHESP_Rennes_School_of_Public_Health.webp",
+      "desc": "\\\\EHESP School of Public Health\\\\ is the French School of Public Health, a specialized school in public health education, health services, policy, management and research. It offers a variety of programmes to students and professionals in the health related fields."
+    },
+    {
+      "name": "Paris Cité University, Paris",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_Paris.webp",
+      "image": "/uploads/study_abroad/france/france_Paris.webp",
+      "desc": "\\\\Public health programmes\\\\ are available at Université Paris Cité, covering subjects like population health, health policy, research, and related medical and social sciences. Some routes focus on the analysis and evaluation of public health policies."
+    },
+    {
+      "name": "University of Strasbourg",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_University_of_Strasbourg.webp",
+      "image": "/uploads/study_abroad/france/france_University_of_Strasbourg.webp",
+      "desc": "Strasbourg : The University of Strasbourg provides education and research in health through its medical and scientific faculties."
+    }
   ],
   "sections": [
     {
-      "title": "1. International students can study public health in France.",
-      "eyebrow": "Why Study in France",
+      "slot": "why-study",
+      "eyebrow": "Why France",
+      "title": "Why Study Public Health in France?",
+      "lead": "France is a popular destination for students interested in disease prevention, epidemiology, health policy, global health, and healthcare management.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Yeah. **International students** can apply to eligible public health programmes if they meet the academic, language and application requirements of the university."
+            "Public health is concerned with improving the health of populations through research, prevention programmes, health education and effective health services."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Studying public health in France\\\\ will prepare students to acquire skills to address health issues at the local, national, and international levels."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Here are the main advantages of studying public health in France:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\International learning opportunities:\\\\ Examine population health challenges and healthcare systems in a European context.",
+            "\\\\Education for research:\\\\ Acquire skills in \\\\epidemiology\\\\, \\\\biostatistics\\\\, \\\\health data analysis\\\\ and research methods.",
+            "\\\\Choice of specialisations\\\\: You can select areas such as \\\\global health\\\\, \\\\health economics\\\\, \\\\environmental health\\\\, \\\\health promotion\\\\ and \\\\health policy.",
+            "\\\\Career flexibility:\\\\ Prepare for a career in research institutions, public health organisations, hospitals, government agencies, NGOs and international health programmes.",
+            "\\\\Postgraduate options:\\\\ Based on academic achievement and program requirements, students may pursue doctoral studies or specialized research.",
+            "\\\\Interdisciplinary learning:\\\\ Integrate knowledge from medicine, biology, statistics, social sciences, economics, and public administration."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Edu Hawk worldwide study abroad guidance\\\\ can help students to get information on these opportunities and the requirements to study abroad."
           ]
         }
       ]
     },
     {
-      "title": "2. How long is a public health degree in France?",
-      "eyebrow": "Degrees & Specializations",
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Public Health Courses in France",
+      "lead": "In France public health programmes are offered at different academic levels. The right path depends on your prior education and career ambitions.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "A typical **master’s degree** takes **two years** to complete after a bachelor’s degree. Bachelor's programmes are generally three years, and a PhD generally takes another three or so."
+            "Relevant undergraduate studies and Bachelor's degree"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students who have completed secondary education may enter directly into a relevant undergraduate program in \\\\life sciences\\\\, \\\\health sciences\\\\, biology, social sciences or another eligible discipline. There may be fewer specific Public Health bachelor's programmes than other related degrees."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "An undergraduate education can lay the foundation for specialization in public health in later years."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master of Public Health (MPH)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A \\\\Master's in Public Health\\\\ is a popular choice for international students who have already obtained a bachelor's degree in a similar subject. The standard French national master's degree is a \\\\two-year program worth 120 ECTS credits\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Subjects can be:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Epidemiology and disease surveillance."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Biostatistics and health data analysis.",
+            "international development and global health.",
+            "Health economics and management of health care.",
+            "\\\\Promote health and prevent diseases.",
+            "\\\\Occupational and environmental health.",
+            "\\\\Public health administration and policy.\\\\",
+            "\\\\Programme Evaluation and Research Methods"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Specialized Masters degrees"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students may also check out specialised programmes in areas like:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\International public health and global health."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Epidemiological and clinical studies.",
+            "\\\\Biostatistics and Health Informatics\\\\",
+            "\\\\Policy and health economics.",
+            "\\\\Health of the environment.",
+            "\\\\Health promotion and prevention.",
+            "\\\\Management of health care organizations."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Doctorate in Public Health"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students interested in academic research can go on to pursue a \\\\PhD in Public Health\\\\ after meeting the corresponding admission requirements. Areas of research may include infectious diseases, chronic disease prevention, health inequalities, population studies and health systems."
           ]
         }
       ]
     },
     {
-      "title": "3. Do I need IELTS to study Public Health in France?",
-      "eyebrow": "Top Institutions in France",
+      "slot": "universities",
+      "eyebrow": "Top French Universities",
+      "title": "Top Universities and Schools for Public Health in France",
+      "lead": "",
+      "groups": [],
+      "unis": [
+        {
+          "name": "France has universities and specialist institutions that provide education in \\\\public health. This is not an official ranking, just a few examples to check out",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+          "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+          "desc": "France has universities and specialist institutions that provide education in \\\\public health. This is not an official ranking, just a few examples to check out is one of France's top recognized universities offering accredited European degrees, advanced research laboratories, and strong international student support."
+        },
+        {
+          "name": "EHESP Rennes School of Public Health",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_EHESP_Rennes_School_of_Public_Health.webp",
+          "image": "/uploads/study_abroad/france/france_EHESP_Rennes_School_of_Public_Health.webp",
+          "desc": "\\\\EHESP School of Public Health\\\\ is the French School of Public Health, a specialized school in public health education, health services, policy, management and research. It offers a variety of programmes to students and professionals in the health related fields."
+        },
+        {
+          "name": "Paris Cité University, Paris",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_Paris.webp",
+          "image": "/uploads/study_abroad/france/france_Paris.webp",
+          "desc": "\\\\Public health programmes\\\\ are available at Université Paris Cité, covering subjects like population health, health policy, research, and related medical and social sciences. Some routes focus on the analysis and evaluation of public health policies."
+        },
+        {
+          "name": "University of Strasbourg",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_University_of_Strasbourg.webp",
+          "image": "/uploads/study_abroad/france/france_University_of_Strasbourg.webp",
+          "desc": "Strasbourg : The University of Strasbourg provides education and research in health through its medical and scientific faculties."
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Eligibility to study Public Health in France",
+      "lead": "The \\\\eligibility to study Public Health in France\\\\ depends on the level of the programme and the university's admission requirements.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**Not everyone needs to take the IELTS.** English language programmes may require IELTS, TOEFL, another accepted test or alternative evidence of proficiency in English. Instead, French-language evidence may be required for French-taught programmes."
+            "For undergraduate research"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The applicants often need:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A \\\\secondary school qualification\\\\ equivalent to the French Baccalauréat.",
+            "Academic preparation suitable to the degree chosen.",
+            "\\\\Language proficiency\\\\ required.",
+            "Any other documents required by the institution."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students may enter a related undergraduate program and then specialize in public health at the master's level."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For a Masters Degree"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "In general, applicants must have:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "An accredited \\\\bachelor's degree\\\\ or equivalent.",
+            "A relevant background to the programme, e.g. \\\\public health\\\\, medicine, nursing, pharmacy, biology, life sciences, statistics, economics, social sciences or another accepted field.",
+            "\\\\Academic transcripts\\\\ showing sufficient preparation.",
+            "\\\\French or English proficiency\\\\ depending on the program's language of instruction.",
+            "any additional entrance requirements of the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some courses require a background in \\\\statistics\\\\, \\\\research methods\\\\, \\\\epidemiology\\\\ or health care systems."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For a PhD"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Applicants normally require a relevant \\\\master's degree\\\\ (or equivalent), an appropriate research background and an acceptable research proposal or supervisor arrangement, depending on the doctoral school."
           ]
         }
       ]
     },
     {
-      "title": "4. How much do public health studies cost in France?",
-      "eyebrow": "Academic & Language Criteria",
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission requirements",
+      "lead": "\\\\Admission requirements for public health in France\\\\ vary by institution and programme. A typical application may need:",
       "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Academic certificates and transcripts",
+            "A \\\\bachelor's degree certificate\\\\ for graduate school applications.",
+            "A \\\\resume/CV\\\\",
+            "A \\\\motivation letter or statement of purpose.",
+            "Evidence of \\\\French or English language ability.",
+            "Academic or professional references, on request.",
+            "a \\\\research programme proposal\\\\ for specified research programmes.",
+            "Evidence of relevant work or research experience, if applicable.",
+            "Certified translations of documents if necessary."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Language requirements (French or English)"
+        },
         {
           "t": "p",
           "items": [
-            "For **2026–2027**, the national reference registration fee for a master’s programme in a public institution is **€255** for eligible French/EU category students and **€3,950** for applicable non-EU students. There may be exemptions and programme-specific arrangements and living expenses are extra."
+            "\\\\Some public health programmes in France\\\\ are taught in French, but some offer courses or even full degrees in English."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Applicants should check the language of instruction of the programme they are applying to, as this may vary from one course to another at a university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For \\\\courses taught in French\\\\the university may ask you to demonstrate your ability to use French. \\\\English-taught programmes\\\\ may require an accepted English language test or other proof of proficiency."
           ]
         }
       ]
     },
     {
-      "title": "5. “What jobs can I get with a public health degree in France?",
-      "eyebrow": "Application Checklist",
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Cost of Studying Public Health in France",
+      "lead": "\\\\The cost of studying public health in France\\\\ will vary depending on the university, programme, fee category and location.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Graduates can find employment in epidemiology, health policy, public health research, health promotion, global health, health data analysis, programme coordination and healthcare management. Different jobs have different requirements – for some research or specialist posts you’ll require extra qualifications.",
-            "How can ****Edu Hawk worldwide Consultancy**** Help me to study abroad?",
-            "**Edu Hawk worldwide** can help students to find suitable universities, understand **admission requirements**, arrange **application documents**, and plan their **study abroad trip**. Students should check with the relevant authorities to ensure they meet the academic, financial, immigration and licensing requirements."
+            "Tuition fees 2026–2027"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Registration fees for public higher education institutions in France subject to the differentiated-fee system for \\\\2026-2027\\\\ are (national published rates):"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Bachelor / Licence \\| €178 / year \\| €2,902 / year \\|"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master \\| €255 per year \\| €3,950 per year \\|"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "PhD \\| 398 € per annum \\| 398 € per annum \\|"
           ]
         }
       ]
     },
     {
-      "title": "6. Apply: Follow the deadline and documentation requirements of the institution.",
-      "eyebrow": "Tuition & Cost of Living",
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Cost of Living",
+      "lead": "",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Details available upon request."
+            "Students need to set aside money for:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Accommodation and utilities\\\\",
+            "Food, groceries."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Public transport.\\\\"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "personal expenses and health insurance.",
+            "Books, software, study materials.",
+            "\\\\Visa and administrative charges\\\\, if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Living costs depend on the city and the type of accommodation. Paris can be more expensive than many other university cities so compare the cost of housing and transport before choosing a programme."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Funding and Scholarships"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students can explore \\\\university scholarships\\\\, government funding, research grants, and other available financial aid. Eligibility is determined by nationality, academic background, the programme and application deadlines."
           ]
         }
       ]
     },
     {
-      "title": "7. **Complete any selection steps** Some programmes may require an interview, further information or a research proposal.",
-      "eyebrow": "Step-by-Step Guide",
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission procedure to study public health in France",
+      "lead": "The \\\\application process for public health in France\\\\ will depend on the level of the programme and the country in which you are based.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Details available upon request."
+            "1. \\\\Choose your specialisation:\\\\ Become an expert in \\\\epidemiology\\\\, \\\\global health\\\\, \\\\health policy\\\\, \\\\biostatistics\\\\, \\\\health promotion\\\\ or \\\\healthcare management\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "2. \\\\Shortlist Universities:\\\\ Compare the curriculum, language of teaching, tuition fees, research opportunities, and eligibility."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "3. \\\\Check academic requirements\\\\ Make sure your previous qualification and subject background meet the entry requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "4. \\\\Choose the right application channel:\\\\ Applications can be submitted through, university portal or other specified channel, depending on the programme and applicant category."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "5. \\\\Prepare documents:\\\\ Gather transcripts, degree certificates, language proof, CV and letter of motivation."
           ]
         }
       ]
     },
     {
-      "title": "8. Accreditation and Recognition of Public Health Degrees in France**",
-      "eyebrow": "Degrees & Recognition",
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Accreditation and Recognition of Public Health Degrees in France",
+      "lead": "If you are selecting a \\\\public health programme in France\\\\ make sure that the qualification is officially recognised and that the institution is authorised to grant the degree in question.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "If you are selecting a ****public health programme in France**** make sure that the qualification is officially recognised and that the institution is authorised to grant the degree in question.",
-            "In France, a national master’s degree is normally **120 ECTS credits over two years** and is awarded within the French higher-education system.",
+            "In France, a national master's degree is normally \\\\120 ECTS credits over two years\\\\ and is awarded within the French higher-education system."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
             "Before you sign up, check:"
           ]
         },
         {
           "t": "ul",
           "items": [
-            "- Full Description of the qualification.",
-            "- If it is a **diploma national** or a university-specific qualification.",
-            "- The amount of **ECTS credits** awarded.",
-            "- If the programme includes a research project or internship.",
-            "- If the qualification is appropriate for your future study or career plans."
+            "Full Description of the qualification.",
+            "If it is a \\\\diploma national\\\\ or a university-specific qualification.",
+            "The amount of \\\\ECTS credits\\\\ awarded.",
+            "If the programme includes a research project or internship.",
+            "If the qualification is appropriate for your future study or career plans."
           ]
         },
         {
           "t": "p",
           "items": [
-            "For students returning to India, recognition for a **public health career** may be tied to employer, role and professional requirements. Different public health jobs require different licenses or registrations.",
-            "**"
+            "For students returning to India, recognition for a \\\\public health career\\\\ may be tied to employer, role and professional requirements. Different public health jobs require different licenses or registrations."
           ]
         }
       ]
     },
     {
-      "title": "9. Public Health France – Salary and Career Opportunities**",
-      "eyebrow": "Job Roles & Industry Growth",
+      "slot": "careers",
+      "eyebrow": "Career & Salary",
+      "title": "Public Health France – Salary and Career Opportunities",
+      "lead": "A \\\\public health qualification\\\\ could lead to work in research, health program coordination, policy, health data, prevention and healthcare management. The job you are eligible for depends on your degree, practical skills, language ability and experience.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "A ****public health qualification**** could lead to work in research, health program coordination, policy, health data, prevention and healthcare management. The job you are eligible for depends on your degree, practical skills, language ability and experience.",
-            "**Job opportunities**",
+            "Job opportunities"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
             "Graduates might look at roles such as:"
           ]
         },
         {
           "t": "ul",
           "items": [
-            "* - **Public health project officer",
-            "* - Research assistant or analyst in epidemiology.",
-            "* - **Medical policy analyst**.",
-            "* - **Coordinator for prevention and health promotion**",
-            "* - **Biostatistician or health data analyst** with appropriate quantitative skills.",
-            "* - Clinical research coordinator.",
-            "* - **Programme officer, global health**.",
-            "* - **Monitoring and evaluation specialist.",
-            "* - **Project management in health care.",
-            "* - **Research assistant or doctoral student**."
+            "\\\\Public health project officer",
+            "Research assistant or analyst in epidemiology.",
+            "\\\\Medical policy analyst.",
+            "\\\\Coordinator for prevention and health promotion\\\\",
+            "\\\\Biostatistician or health data analyst\\\\ with appropriate quantitative skills.",
+            "Clinical research coordinator.",
+            "\\\\Programme officer, global health.",
+            "\\\\Monitoring and evaluation specialist.",
+            "\\\\Project management in health care.",
+            "\\\\Research assistant or doctoral student."
           ]
         },
         {
           "t": "p",
           "items": [
-            "Potential employers include universities, research centres, hospitals, public health agencies, non-governmental organisations, consulting organisations and international health programmes.",
-            "**Salary Expectations:**",
-            "Salaries vary by role, employer, experience, qualification, location and whether the position is in research, public administration, consulting or the non-profit sector. Some entry level research and project roles may be advertised on fixed term contracts and specialist data and management roles may have different pay scales.",
-            "**"
+            "Potential employers include universities, research centres, hospitals, public health agencies, non-governmental organisations, consulting organisations and international health programmes."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Salary Expectations:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Salaries vary by role, employer, experience, qualification, location and whether the position is in research, public administration, consulting or the non-profit sector. Some entry level research and project roles may be advertised on fixed term contracts and specialist data and management roles may have different pay scales."
           ]
         }
       ]
     },
     {
-      "title": "10. Documents Needed to Study Public Health in France**",
-      "eyebrow": "Document Requirements",
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Needed to Study Public Health in France",
+      "lead": "Treat the university's official checklist as gospel. Applicants generally need:",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Treat the university’s official checklist as gospel. Applicants generally need:"
-          ]
-        },
         {
           "t": "ul",
           "items": [
-            "* - Valid passport or other acceptable identification document.",
-            "* - **Secondary-school certificate and transcripts**, as applicable.",
-            "* - **Certificate and academic transcripts** for Master’s applications",
-            "* - Master's degree and transcript (if applicable) for PhD applications",
-            "* - Certified translations of academic documents (if needed).",
-            "* - **CV or resume.**",
-            "* - **Letter of motivation or statement of purpose**.",
-            "* - **Test results in French or English language** if applicable.",
-            "* - **References** (academic, if required).",
-            "* - **Research proposal** for selected doctoral programmes or research programmes.",
-            "* - **Evidence of admission or enrolment**.",
-            "* - **Financial and accommodation documents** for visa purposes if applicable.",
-            "* - Student visa and other immigration documents to support it if needed."
+            "Valid passport or other acceptable identification document.",
+            "\\\\Secondary-school certificate and transcripts\\\\, as applicable.",
+            "\\\\Certificate and academic transcripts\\\\ for Master's applications",
+            "Master's degree and transcript (if applicable) for PhD applications",
+            "Certified translations of academic documents (if needed).",
+            "\\\\CV or resume.\\\\",
+            "\\\\Letter of motivation or statement of purpose.",
+            "\\\\Test results in French or English language\\\\ if applicable.",
+            "\\\\References\\\\ (academic, if required).",
+            "\\\\Research proposal\\\\ for selected doctoral programmes or research programmes.",
+            "\\\\Evidence of admission or enrolment.",
+            "\\\\Financial and accommodation documents\\\\ for visa purposes if applicable.",
+            "Student visa and other immigration documents to support it if needed."
           ]
         },
         {
           "t": "p",
           "items": [
-            "Applicants who obtained their qualifications outside of France should verify whether the institution has any requirements for specific translations, certified copies or other proof of equivalence of degree.",
-            "**"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "11. Frequently asked questions on public health in France**",
-      "eyebrow": "Frequently Asked Questions",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Details available upon request."
+            "Applicants who obtained their qualifications outside of France should verify whether the institution has any requirements for specific translations, certified copies or other proof of equivalence of degree."
           ]
         }
       ]
@@ -219,12 +600,29 @@
   ],
   "faqs": [
     {
-      "question": "1. Can Indian students study Public Health in France?",
-      "answer": "Yes, Indian students with valid academic qualifications, required English or French language proficiency, and relevant documentation can apply."
+      "q": "How long is a public health degree in France?",
+      "a": "A typical \\\\master's degree\\\\ takes \\\\two years\\\\ to complete after a bachelor's degree. Bachelor's programmes are generally three years, and a PhD generally takes another three or so."
     },
     {
-      "question": "2. How can Edu Hawk Worldwide Consultancy help me?",
-      "answer": "Edu Hawk Worldwide provides end-to-end guidance including university selection, application processing, Campus France procedure, visa assistance, and pre-departure briefings."
+      "q": "Do I need IELTS to study Public Health in France?",
+      "a": "\\\\Not everyone needs to take the IELTS.\\\\ English language programmes may require IELTS, TOEFL, another accepted test or alternative evidence of proficiency in English. Instead, French-language evidence may be required for French-taught programmes."
+    },
+    {
+      "q": "How much do public health studies cost in France?",
+      "a": "For \\\\2026–2027\\\\, the national reference registration fee for a master's programme in a public institution is \\\\€255\\\\ for eligible French/EU category students and \\\\€3,950\\\\ for applicable non-EU students. There may be exemptions and programme-specific arrangements and living expenses are extra."
+    },
+    {
+      "q": "\"What jobs can I get with a public health degree in France?",
+      "a": "Graduates can find employment in epidemiology, health policy, public health research, health promotion, global health, health data analysis, programme coordination and healthcare management. Different jobs have different requirements – for some research or specialist posts you'll require extra qualifications."
+    },
+    {
+      "q": "How can \\\\Edu Hawk worldwide Consultancy\\\\ Help me to study abroad?",
+      "a": "\\\\Edu Hawk worldwide\\\\ can help students to find suitable universities, understand \\\\admission requirements\\\\, arrange \\\\application documents\\\\, and plan their \\\\study abroad trip. Students should check with the relevant authorities to ensure they meet the academic, financial, immigration and licensing requirements."
     }
-  ]
+  ],
+  "seo": {
+    "title": "Public Health in France for International Students | Edu-Hawk Worldwide",
+    "description": "France is a popular destination for students interested in disease prevention, epidemiology, health policy, global health, and healthcare management.",
+    "keywords": "Study Public Health in France for Indian Students, Public Health Courses in France for International Students, Top Universities for Public Health in France, Master's in Public Health in France, Public Health Eligibility Requirements in France, Public Health Admission Requirements for Indian Students, Public Health Tuition Fees in France 2026–2027, Cost of Studying Public Health in France for International Students, English-Taught Public Health Programmes in France, French Language Requirements for Public Health Courses, Global Health and Health Policy Programmes in France, Public Health Student Visa Requirements for France, Public Health Jobs and Career Opportunities in France, <"
+  }
 }

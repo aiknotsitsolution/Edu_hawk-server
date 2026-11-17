@@ -1,341 +1,585 @@
 {
-  "seo": {
-    "title": "Study Information Technology in Ireland for Indian Students | Edu-Hawk Worldwide",
-    "description": "Complete guide to Information Technology in Ireland for Indian students: Top Irish universities, eligibility criteria, tuition fees (€13,500 – €28,640 / year), scholarships, and 2-year post-study work visa (Stamp 1G)."
-  },
   "hero": {
-    "badge": "Study Abroad - Ireland",
-    "title": "INFORMATION TECHNOLOGY IN IRELAND",
-    "subtitle": "Information Technology in Ireland"
+    "title": "Information Technology in Ireland",
+    "subtitle": "\\\\Information Technology (IT)\\\\ in Ireland is a popular choice for students who want to study \\\\computer networks, software systems, cloud computing, cybersecurity, databases, IT infrastructure and digital transformation\\. Irish universities and institutes of technology offer a wide range of \\\\undergraduate degrees, postgraduate qualifications, diplomas and specialist programmes\\."
   },
   "overview": [
-    "Information Technology in Ireland",
-    "Information Technology (IT) in Ireland is a popular choice for students who want to study computer networks, software systems, cloud computing, cybersecurity, databases, IT infrastructure and digital transformation. Irish universities and institutes of technology offer a wide range of undergraduate degrees, postgraduate qualifications, diplomas and specialist programmes.",
-    "Students can choose a course depending on their previous education, career goals, budget and required IT specialization. Students can plan their education in Ireland knowing the admission requirements, tuition fees, living expenses and career pathways.",
-    "Edu Hawk worldwide study abroad guidance allows students to discover these opportunities and know what is needed to study abroad."
+    "\\\\Information Technology (IT)\\\\ in Ireland is a popular choice for students who want to study \\\\computer networks, software systems, cloud computing, cybersecurity, databases, IT infrastructure and digital transformation\\. Irish universities and institutes of technology offer a wide range of \\\\undergraduate degrees, postgraduate qualifications, diplomas and specialist programmes\\.",
+    "Ireland has a \\\\world class education system\\\\ and a \\\\technology driven commercial ecosystem\\. .IT skills are used across all industries, including banking, healthcare, telecommunications, retail, manufacturing and professional services."
+  ],
+  "universities": [
+    {
+      "name": "Trinity College Dublin",
+      "location": "Dublin, Ireland",
+      "fee": "€18,000 – €35,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
+      "image": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
+      "desc": "Trinity College Dublin is Ireland's leading university and ranked among the top in Europe, offering globally recognized degrees and world-class research facilities."
+    },
+    {
+      "name": "University College Dublin (UCD)",
+      "location": "Dublin, Ireland",
+      "fee": "€16,000 – €32,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Dublin-image2.png",
+      "image": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Dublin-image2.png",
+      "desc": "UCD is Ireland's largest university with a dynamic international community, renowned for innovative graduate programs and extensive industry links."
+    }
   ],
   "sections": [
     {
-      "title": "1. Why Study Information Technology in Ireland?",
-      "eyebrow": "Why Study in Ireland",
+      "slot": "why-study",
+      "eyebrow": "Why Ireland",
+      "title": "Why Study Information Technology in Ireland?",
+      "lead": "Ireland has a \\\\world class education system\\\\ and a \\\\technology driven commercial ecosystem\\. .IT skills are used across all industries, including banking, healthcare, telecommunications, retail, manufacturing and professional services.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Ireland has a world class education system and a technology driven commercial ecosystem. .IT skills are used across all industries, including banking, healthcare, telecommunications, retail, manufacturing and professional services.",
-            "The key advantages of studying IT in Ireland are:"
-          ]
+          "t": "h4",
+          "text": "\\\\The key advantages of studying IT in Ireland are:\\\\"
         },
         {
           "t": "ul",
           "items": [
-            "- Access to undergraduate and postgraduate qualifications.",
-            "- Options to specialize in cyber security, cloud computing, networking, data management and software systems.",
-            "- Experiential learning through technical assignments, projects and research.",
-            "- Access to technology companies and professional networks.",
-            "- Career paths in IT support, sysadmin, cloud engineering, data management, and cybersecurity.",
-            "- A multicultural environment for foreign students",
-            "- Graduate immigration routes for qualifying students who meet the relevant conditions."
+            "Access to \\\\undergraduate and postgraduate qualifications.",
+            "Options to specialize in \\\\cyber security, cloud computing, networking, data management and software systems.",
+            "\\\\Experiential learning\\\\ through technical assignments, projects and research.",
+            "\\\\Access to technology companies and professional networks. \\\\",
+            "\\\\Career paths\\\\ in IT support, sysadmin, cloud engineering, data management, and cybersecurity.",
+            "A multicultural environment for \\\\foreign students\\\\",
+            "\\\\Graduate immigration routes\\\\ for qualifying students who meet the relevant conditions."
           ]
         }
       ]
     },
     {
-      "title": "2. Ireland Information Technology courses",
-      "eyebrow": "Degrees & Programs",
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Ireland Information Technology courses",
+      "lead": "\\\\IT programmes\\\\ cover a wide range of technical and business related topics. The appropriate choice depends on the student's prior education and intended career.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "IT programmes cover a wide range of technical and business related topics. The appropriate choice depends on the student’s prior education and intended career.",
             "Degree programs"
           ]
         },
         {
           "t": "ul",
           "items": [
-            "- BSc in Information Technology: Computer systems, networking, databases, programming and how it works.",
-            "- BSc Computing - Software, Computer Architecture, Algorithms, System Administration.",
-            "- BSc in Business Information Systems: Business processes, information systems, database and technology management",
-            "- BSc Computer Science and Information Technology: Principles of computing, programming and IT applications.",
-            "- BSc in Software Development Design, test, develop and support software.",
-            "Undergraduate degrees are usually three or four years long, depending on the course and the institution."
+            "\\\\BSc in Information Technology\\\\: Computer systems, networking, databases, programming and how it works.",
+            "\\\\BSc Computing\\\\ - Software, Computer Architecture, Algorithms, System Administration.",
+            "\\\\BSc in Business Information Systems:\\\\ Business processes, information systems, database and technology management",
+            "\\\\BSc Computer Science and Information Technology:\\\\ Principles of computing, programming and IT applications.",
+            "\\\\BSc in Software Development\\\\ Design, test, develop and support software."
           ]
         },
         {
           "t": "p",
           "items": [
-            "Postgraduate study"
+            "\\\\Undergraduate degrees\\\\ are usually three or four years long, depending on the course and the institution."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Postgraduate study"
           ]
         },
         {
           "t": "ul",
           "items": [
-            "- MSc Information Technology or Computing: Advanced IT systems, applications of computing and technology",
-            "- MSc Cybersecurity: Information Security, Digital Forensics, Risk Management, Network Security.",
-            "MSc Cloud Computing: Cloud architecture, infrastructure, deployment and automation.",
-            "- MSc Data Analytics: Data analysis, Data visualization, Statistics and analytical methods.",
-            "- MSc in Software Engineering: Software architecture, testing and development methods.",
-            "- MSc Information Systems: Digital business processes, enterprise systems and technology strategy.",
-            "The length varies but a lot of taught Master's courses are about one year full-time."
+            "\\\\MSc Information Technology or Computing:\\\\ Advanced IT systems, applications of computing and technology",
+            "MSc Cybersecurity: Information Security, Digital Forensics, Risk Management, Network Security."
           ]
-        }
-      ]
-    },
-    {
-      "title": "3. Top Irish Universities for Information Technology Degree Courses",
-      "eyebrow": "Top Institutions",
-      "groups": [
+        },
         {
-          "t": "universities",
+          "t": "p",
           "items": [
-            "Dublin City University",
-            "Trinity College Dublin",
-            "Trinity College Dublin",
-            "Technological University Dublin"
+            "\\\\MSc Cloud Computing:\\\\ Cloud architecture, infrastructure, deployment and automation."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\MSc Data Analytics:\\\\ Data analysis, Data visualization, Statistics and analytical methods.",
+            "MSc in Software Engineering: Software architecture, testing and development methods.",
+            "MSc Information Systems: Digital business processes, enterprise systems and technology strategy."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The length varies but a lot of taught \\\\Master's courses\\\\ are about one year full-time."
           ]
         }
       ]
     },
     {
-      "title": "4. Eligibility to Study Information Technology in Ireland",
-      "eyebrow": "Admissions Criteria",
+      "slot": "universities",
+      "eyebrow": "Top Irish Universities",
+      "title": "Top Universities to Consider in Ireland",
+      "lead": "Explore the leading universities and colleges in Ireland offering accredited European qualifications, vibrant campuses, and comprehensive student support.",
+      "unis": [
+        {
+          "name": "Trinity College Dublin",
+          "location": "Dublin, Ireland",
+          "fee": "€18,000 – €35,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
+          "image": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
+          "desc": "Trinity College Dublin is Ireland's leading university and ranked among the top in Europe, offering globally recognized degrees and world-class research facilities."
+        },
+        {
+          "name": "University College Dublin (UCD)",
+          "location": "Dublin, Ireland",
+          "fee": "€16,000 – €32,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Dublin-image2.png",
+          "image": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Dublin-image2.png",
+          "desc": "UCD is Ireland's largest university with a dynamic international community, renowned for innovative graduate programs and extensive industry links."
+        }
+      ],
+      "groups": []
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Top Irish Universities for Information Technology Degree Courses",
+      "lead": "\\\\IT-related programmes\\\\ like \\\\Information Technology, Computing, Computer Science, Business Information Systems and Software Development are offered by several Irish universities.\\\\",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Eligibility varies based on course, university, level of qualification and the applicant's academic background.",
-            "For undergraduate studies",
+            "\\\\National University of Ireland Galway (NUI Galway)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The university offers a \\\\BSc in Computer Science & Information Technology\\. Its published total \\\\non-EU fee for 2026/27\\\\ is \\\\€27,640 per year\\\\ and includes the student levy."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\DCU - Dublin City University\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "DCU offers courses in \\\\computing and related fields\\. Students interested in IT should browse through its current undergraduate and postgraduate course listings to find programs to suit their preferred specialization."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Trinity College, Dublin\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Trinity has study options related to \\\\computing and information systems\\\\ We suggest that applicants compare the curriculum of each course as \\\\Computer Science, Information Systems and IT Management\\\\ may have different academic focuses."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Technological University of Dublin (TU Dublin)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "TU Dublin offers programs in \\\\computing and related technical fields\\\\, with options available for students seeking practical, applied learning."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Eligibility to Study Information Technology in Ireland",
+      "lead": "Eligibility varies based on course, university, level of qualification and the applicant's academic background.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "For undergraduate studies"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
             "As a rule, applicants must have:"
           ]
         },
         {
           "t": "ul",
           "items": [
-            "- A second level education equivalent to the Irish Leaving Certificate;",
-            "- Academic qualifications that meet the entry requirements of the program.",
-            "- Mathematics or other prerequisite subjects (as applicable)",
-            "- English language proficiency, where applicable.",
-            "- Any additional documentation required by the institution."
+            "A \\\\second level education equivalent to the Irish Leaving Certificate\\\\;",
+            "Academic qualifications that meet the entry requirements of the program.",
+            "\\\\Mathematics or other prerequisite subjects (as applicable)\\\\",
+            "English language proficiency, where applicable.",
+            "Any additional documentation required by the institution."
           ]
         },
         {
           "t": "p",
           "items": [
-            "Indian students must check how each university evaluates Class 12 results, examination board and subject combination.",
-            "Some students may require a foundation or pathway programme",
-            "For post graduate study",
+            "Indian students must check how each university evaluates \\\\Class 12 results, examination board and subject combination\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some students may require a \\\\foundation or pathway programme\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\For post graduate study"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
             "Applicants generally must:"
           ]
         },
         {
           "t": "ul",
           "items": [
-            "- Bachelor degree in IT, Computer Science, Computing, Software Engineering or related fields, accredited.",
-            "Academic performance at or above the minimum standard for the course.",
-            "- Relevant knowledge of programming, networking, databases, mathematics or information systems",
-            "- English language proficiency proof (if applicable)."
+            "\\\\Bachelor degree in IT, Computer Science, Computing, Software Engineering\\\\ or related fields, accredited."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic performance at or above the minimum standard for the course."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Relevant knowledge of \\\\programming, networking, databases, mathematics or information systems\\\\",
+            "\\\\English language proficiency proof\\\\ (if applicable)."
           ]
         }
       ]
     },
     {
-      "title": "5. Information Technology Ireland Admission Requirements",
-      "eyebrow": "Entry Requirements",
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Information Technology Ireland Admission Requirements",
+      "lead": "Universities will consider \\\\academic qualifications, English language ability, subject knowledge\\\\ and programme-specific criteria.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Universities will consider academic qualifications, English language ability, subject knowledge and programme-specific criteria.",
-            "Typical documents for undergraduate applicants include:"
-          ]
+          "t": "h4",
+          "text": "Typical documents for undergraduate applicants include:"
         },
         {
           "t": "ul",
           "items": [
-            "- Class 10 and Class 12 Certificates or equivalent academic qualifications.",
-            "- Copies of academic transcripts and examination results.",
-            "- Results of English language tests (if required).",
-            "- Passport information (valid).",
-            "- Other documents required by the university ."
+            "\\\\Class 10 and Class 12 Certificates\\\\ or equivalent academic qualifications.",
+            "Copies of academic transcripts and examination results.",
+            "\\\\Results of English language tests\\\\ (if required).",
+            "Passport information (valid).",
+            "Other documents required by the university ."
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "The usual documents required by postgraduates are as follows:"
-          ]
+          "t": "h4",
+          "text": "The usual documents required by postgraduates are as follows:"
         },
         {
           "t": "ul",
           "items": [
-            "- Bachelor degree diploma.",
-            "- University’s academic transcripts and mark sheets.",
-            "- Results of tests in English language, if applicable.",
-            "- Curriculum vita or resume if requested.",
-            "- Statement of purpose (if applicable)",
-            "- Academic or employment references, where applicable.",
-            "- Work experience/relevant project (if applicable)."
+            "\\\\Bachelor degree diploma.",
+            "University's academic transcripts and mark sheets.",
+            "Results of tests in English language, if applicable.",
+            "Curriculum vita or resume if requested.",
+            "Statement of purpose (if applicable)",
+            "Academic or employment references, where applicable.",
+            "Work experience/relevant project (if applicable)."
           ]
         },
         {
           "t": "p",
           "items": [
-            "There might be specialized courses in cybersecurity, cloud computing and data analytics offered by universities that require prior technical knowledge or experience."
+            "There might be specialized courses in \\\\cybersecurity, cloud computing and data analytics\\\\ offered by universities that require prior technical knowledge or experience."
           ]
         }
       ]
     },
     {
-      "title": "6. Cost of Study Information Technology in Ireland",
+      "slot": "tuition",
       "eyebrow": "Tuition & Living Costs",
+      "title": "Cost of Study Information Technology in Ireland",
+      "lead": "\\\\IT education\\\\ costs differ depending on the University, course, level of qualification, fee status and length of the program.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "IT education costs differ depending on the University, course, level of qualification, fee status and length of the program.",
-            "Published international undergraduate fees for 2026/27 - examples",
-            "Business Information Systems \\| University College Cork \\| €21,700 \\|",
-            "University of Galway, Computer Science and Information Technology \\| €27,500 \\+ €140 levy",
-            "University of Galway - published fee including levy \\| €27,640",
-            "Postgraduate fees vary and depend on the specific MSc, postgraduate diploma or research program. Students should check the actual fee for the intake they wish to join.",
-            "Other expenses are:"
+            "Published international undergraduate fees for 2026/27 - examples"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Business Information Systems \\| University College Cork \\| €21,700 \\|"
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "\\\\University of Galway, Computer Science and Information Technology\\\\ \\",
+              "d": "\\\\€27,500 \\+ €140 levy\\\\"
+            },
+            {
+              "t": "University of Galway - published fee including levy\\\\ \\",
+              "d": "\\\\€27,640"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Postgraduate fees vary and depend on the specific MSc, postgraduate diploma or research program. Students should check the actual fee for the intake they wish to join."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Other expenses are:\\\\"
           ]
         },
         {
           "t": "ul",
           "items": [
-            "- Rent / utilities.",
-            "- Daily cost of living and food",
-            "- Health insurance and immigration related costs if applicable.",
-            "- Books, study materials and transportation",
-            "- Flights and initial settlement costs."
+            "\\\\Rent / utilities.\\\\",
+            "Daily cost of living and food",
+            "Health insurance and immigration related costs if applicable.",
+            "Books, study materials and transportation",
+            "Flights and initial settlement costs."
           ]
         },
         {
           "t": "p",
           "items": [
-            "The cost of living depends on where you live and what kind of accommodation you have. Students should look for scholarships or funding opportunities at their school of choice and estimate the cost of the entire course, not just tuition fees."
+            "The cost of living depends on where you live and what kind of accommodation you have. Students should look for \\\\scholarships or funding opportunities\\\\ at their school of choice and estimate the cost of the entire course, not just tuition fees."
           ]
         }
       ]
     },
     {
-      "title": "7. Ireland Information Technology Admission Procedure",
-      "eyebrow": "Application Steps",
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Ireland Information Technology Admission Procedure",
+      "lead": "The \\\\process of applying\\\\ will differ depending on the university and level of study.",
+      "groups": []
+    },
+    {
+      "slot": "why-study",
+      "eyebrow": "Why Ireland",
+      "title": "Choose your level of study: Choose your undergraduate degree, postgraduate course, diploma or foundation course.",
+      "lead": "2. \\\\Select a specialisation:\\\\ Consider \\\\IT systems, cybersecurity, cloud computing, networking, data analytics, or information systems.",
       "groups": [
         {
-          "t": "steps",
+          "t": "p",
           "items": [
-            "01. Choose Degree & University: Select your preferred Information Technology in Ireland program and shortlist target Irish institutions.",
-            "02. Verify Entry Requirements: Check academic prerequisites, mathematics/science standards, and English test scores (IELTS/TOEFL).",
-            "03. Prepare Documentation: Gather academic transcripts, statement of purpose, recommendation letters, and valid passport.",
-            "04. Submit University Application: Apply directly through the university international admissions portal or via Edu-Hawk Worldwide.",
-            "05. Accept Offer & Pay Deposit: Review academic conditions, pay the tuition deposit, and receive the official acceptance letter.",
-            "06. Apply for Irish Student Visa (Stamp 2): Submit the visa application with proof of sufficient finances, medical insurance, and accommodation."
+            "3. \\\\Research universities:\\\\ Compare course modules, fees, duration, entry requirements and closing dates"
           ]
         }
       ]
     },
     {
-      "title": "8. Learn the immigration rules: Find out what the Irish student visa and immigration rules are now, including any rules on funds and insurance.",
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Verify requirements: Make sure you have the necessary qualifications and academic performance to be admitted.",
+      "lead": "",
+      "groups": []
+    },
+    {
+      "slot": "language",
+      "eyebrow": "Language Proficiency",
+      "title": "Documents: Gather your academic certificates, transcripts, passport details and English language proof, if required.",
+      "lead": "6. \\\\How to apply:\\\\ Through the official application of the university. \\\\International students from outside the EU\\\\ generally apply directly to the institution.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "7. \\\\Review the offer:\\\\ Look for any academic conditions, deposit requirements and payment deadlines."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "8. \\\\Learn the immigration rules\\\\: Find out what the \\\\Irish student visa and immigration rules\\\\ are now, including any rules on funds and insurance."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "9. \\\\Book accommodation and travel:\\\\ Book your accommodation and travel and register at university before you leave."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scope",
       "eyebrow": "Accreditation & Recognition",
+      "title": "Ireland: Recognition and Accreditation of Information Technology",
+      "lead": "Before enrolling, students should check that the institution and the qualification are recognized and that the program will lead to the required academic or professional outcomes.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Detailed information on Accreditation & Recognition will be provided during personalized counseling with Edu-Hawk Worldwide."
+            "Some of the important checks are:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Recognizing qualification and institution.\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Relevant professional/industry certification.\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The level of the course and progression opportunities available."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Relevance of curriculum to career goals."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Recognition by the employer or the competent bodies in the country of intended employment."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Not all IT qualifications are in the same professional accreditation framework."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Don't assume that a degree from a recognized university automatically has separate professional accreditation."
           ]
         }
       ]
     },
     {
-      "title": "9. Book accommodation and travel: Book your accommodation and travel and register at university before you leave.",
-      "eyebrow": "Career Outcomes",
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Information Technology Salary and Job Opportunities in Ireland",
+      "lead": "IT degree graduates can land jobs in technical support, systems administration, cybersecurity, cloud infrastructure, databases, software development and technology consulting.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "8\\. Ireland: Recognition and Accreditation of Information Technology",
-            "Before enrolling, students should check that the institution and the qualification are recognized and that the program will lead to the required academic or professional outcomes.",
-            "Some of the important checks are:",
-            "Recognizing qualification and institution.*",
-            "Relevant professional/industry certification.*"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "The level of the course and progression opportunities available.",
-            "Relevance of curriculum to career goals.",
-            "Recognition by the employer or the competent bodies in the country of intended employment.",
-            "Not all IT qualifications are in the same professional accreditation framework.",
-            "Don’t assume that a degree from a recognized university automatically has separate professional accreditation."
+            "\\\\Potential job titles:\\\\"
           ]
         },
         {
           "t": "p",
           "items": [
-            "9\\. Information Technology Salary and Job Opportunities in Ireland",
-            "IT degree graduates can land jobs in technical support, systems administration, cybersecurity, cloud infrastructure, databases, software development and technology consulting.",
-            "Potential job titles:"
+            "\\\\IT Support Technician.\\\\"
           ]
         },
         {
           "t": "ul",
           "items": [
-            "IT Support Technician.",
-            "- System Admin.",
-            "- Network Engineer",
-            "IT Infrastructure Engineer",
-            "Cloud Engineer..",
-            "- Data analyst.",
-            "Business Analyst - IT.",
-            "- Software engineer.",
-            "*Consultant/Coordinator for IT Projects."
+            "\\\\System Admin.\\\\",
+            "Network Engineer"
           ]
         },
         {
           "t": "p",
           "items": [
-            "Salary range examples in Ireland:"
+            "\\\\IT Infrastructure Engineer\\\\"
           ]
         },
         {
           "t": "ul",
           "items": [
-            "- Junior IT support positions: about €28,000-€38,000.",
-            "- Junior system/net jobs. ~ €32-45k.",
-            "- Entry-level cloud or cybersecurity jobs: around €40,000-€60,000.",
-            "- Senior IT specialists and professionals: €55,000-€80,000 or more for some roles."
+            "\\\\Cloud Engineer..",
+            "\\\\Data analyst.\\\\"
           ]
         },
         {
           "t": "p",
           "items": [
-            "These are rough estimates for planning purposes and not guaranteed salaries or a confirmed salary scale for all IT jobs.",
-            "Pay varies depending on employer, location, experience, technical specialization and level of responsibility.",
-            "Students may improve their career prospects with hands-on skills in networking, Linux, cloud platforms, scripting, security tools, databases and troubleshooting. Relevant projects, internships and industry certifications can also help demonstrate you are ready for work."
+            "Business Analyst - IT."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Software engineer.",
+            "\\\\Consultant/Coordinator for IT Projects."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Salary range examples in Ireland:\\\\"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Junior IT support positions:\\\\ about €28,000-€38,000.",
+            "\\\\Junior system/net jobs.\\\\ \\~ €32-45k.",
+            "Entry-level cloud or cybersecurity jobs: around €40,000-€60,000.",
+            "\\\\Senior IT specialists and professionals:\\\\ €55,000-€80,000 or more for some roles."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are rough estimates for planning purposes and not guaranteed salaries or a confirmed salary scale for all IT jobs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Pay varies depending on employer, location, experience, technical specialization and level of responsibility."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students may improve their career prospects with hands-on skills in \\\\networking, Linux, cloud platforms, scripting, security tools, databases and troubleshooting\\. Relevant projects, internships and \\\\industry certifications\\\\ can also help demonstrate you are ready for work."
           ]
         }
       ]
     },
     {
-      "title": "10. Documents Required to Study Information Technology in Ireland",
-      "eyebrow": "Document Checklist",
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Required to Study Information Technology in Ireland",
+      "lead": "The exact documents required will vary depending on the institution and level of study. Typical documents that are requested are:",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The exact documents required will vary depending on the institution and level of study. Typical documents that are requested are:"
-          ]
-        },
         {
           "t": "ul",
           "items": [
-            "- Valid passport",
-            "*Certificates and academic transcripts.",
-            "- Class 10 and Class 12 Results."
+            "\\\\Valid passport\\\\",
+            "\\\\Certificates and academic transcripts.",
+            "\\\\Class 10 and Class 12 Results.\\\\"
           ]
         },
         {
@@ -347,114 +591,55 @@
         {
           "t": "ul",
           "items": [
-            "- University degree certificate and transcripts (for postgraduates).",
-            "- English language test results (if applicable)",
-            "- Curriculum vitae or resume (upon request).",
-            "- Purpose statement (if needed).",
-            "- Letters of recommendation, if any.",
-            "- Work experience certificate or any details of related projects, if required.",
-            "- Proof of financial means and immigration documents needed for the relevant visa process."
+            "\\\\University degree certificate and transcripts\\\\ (for postgraduates).",
+            "English language test results (if applicable)",
+            "Curriculum vitae or resume (upon request).",
+            "\\\\Purpose statement\\\\ (if needed).",
+            "\\\\Letters of recommendation\\\\, if any.",
+            "Work experience certificate or any details of related projects, if required.",
+            "\\\\Proof of financial means and immigration documents\\\\ needed for the relevant visa process."
           ]
         },
         {
           "t": "p",
           "items": [
-            "Documents that are not in English must be translated into English. Universities might ask for certified copies or more information.",
-            "The criteria for university admissions and immigration are not the same. Prospective students should consult official university guidance and current Irish immigration guidance for their own personal circumstances."
+            "Documents that are not in English must be translated into English. Universities might ask for certified copies or more information."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The criteria for university admissions and immigration are not the same. Prospective students should consult official university guidance and current \\\\Irish immigration guidance\\\\ for their own personal circumstances."
           ]
         }
       ]
     }
   ],
-  "universities": [
-    {
-      "name": "Dublin City University",
-      "city": "Dublin, Ireland",
-      "rank": "Top Ranked Irish Institution",
-      "fee": "€13,500 – €28,640 / year",
-      "desc": "DCU - Dublin City University",
-      "imgFile": "Dublin_City_University.webp"
-    },
-    {
-      "name": "Trinity College Dublin",
-      "city": "Dublin, Ireland",
-      "rank": "Top Ranked Irish Institution",
-      "fee": "€13,500 – €28,640 / year",
-      "desc": "Trinity College, Dublin",
-      "imgFile": "Trinity_College_Dublin.webp"
-    },
-    {
-      "name": "Trinity College Dublin",
-      "city": "Dublin, Ireland",
-      "rank": "Top Ranked Irish Institution",
-      "fee": "€13,500 – €28,640 / year",
-      "desc": "Trinity College, Dublin",
-      "imgFile": "Trinity_College_Dublin_2.webp"
-    },
-    {
-      "name": "Technological University Dublin",
-      "city": "Dublin, Ireland",
-      "rank": "Top Ranked Irish Institution",
-      "fee": "€13,500 – €28,640 / year",
-      "desc": "Technological University of Dublin (TU Dublin)",
-      "imgFile": "Technological_University_Dublin.webp"
-    }
-  ],
-  "table": {
-    "title": "Estimated Cost of Studying Information Technology in Ireland in Ireland (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (€ / EUR)",
-      "Details / Scope"
-    ],
-    "rows": [
-      [
-        "Undergraduate Degree (Annual)",
-        "€13,500 – €27,640 / year",
-        "Varies by institution ranking, laboratory facilities, and program"
-      ],
-      [
-        "Postgraduate Degree (Annual)",
-        "€15,000 – €28,640 / year",
-        "1-year intensive master's program or 2-year research degree"
-      ],
-      [
-        "Living Expenses (Dublin)",
-        "€1,000 – €1,400 / month",
-        "Includes student accommodation, meals, utilities, and public transit"
-      ],
-      [
-        "Living Expenses (Outside Dublin)",
-        "€800 – €1,100 / month",
-        "Cost of living in Cork, Galway, Limerick, or Maynooth"
-      ],
-      [
-        "Student Visa & IRP Card Fee",
-        "€300 / year",
-        "Mandatory Irish Residence Permit (IRP) registration fee"
-      ]
-    ]
-  },
   "faqs": [
     {
-      "q": "Q1. Can I study Information Technology in Ireland after Class 12?",
-      "a": "Eligible to apply for suitable undergraduate degrees are students who have successfully completed Class 12 or equivalent qualification and fulfill the academic, subject and English language requirements."
+      "q": "Can I study Information Technology in Ireland after Class 12?\\\\",
+      "a": "Eligible to apply for suitable \\\\undergraduate degrees\\\\ are students who have successfully completed \\\\Class 12\\\\ or equivalent qualification and fulfill the academic, subject and English language requirements."
     },
     {
-      "q": "Q2. What are the colleges in Ireland that offer Information Technology courses?",
-      "a": "Possible options are University of Galway, Dublin City University, Trinity College Dublin, University College Cork and Technological University Dublin. Course titles could be Computing, Computer Science and IT, Business Information Systems or similar."
+      "q": "\\\\Q2. \\\\ What are the colleges in Ireland that offer Information Technology courses?\\\\",
+      "a": "Possible options are \\\\University of Galway, Dublin City University, Trinity College Dublin, University College Cork and Technological University Dublin.\\\\ Course titles could be Computing, Computer Science and IT, Business Information Systems or similar."
     },
     {
-      "q": "Q3. How much is the tuition fee for Information Technology in Ireland?",
-      "a": "Examples of 2026/27 undergraduate courses include UCC’s Business Information Systems course at €21,700 per year and the University of Galway’s Computer Science and Information Technology course at €27,640 per year. The cost will vary between institutions and levels of qualification."
+      "q": "How much is the tuition fee for Information Technology in Ireland?\\\\",
+      "a": "\\\\Examples of 2026/27 undergraduate courses include \\\\UCC's Business Information Systems course at €21,700 per year \\\\and the University of Galway's Computer Science and Information Technology course at €27,640 per year. The cost will vary between institutions and levels of qualification."
     },
     {
-      "q": "Q4. Is IT a good course in Ireland?",
-      "a": "It is a good choice for students interested in technology systems, digital infrastructure, security and business computing. In deciding on a program, you need to take into account the curriculum, the total cost of studying, practical training options, career requirements and current immigration rules."
+      "q": "Is IT a good course in Ireland?\\\\",
+      "a": "It is a good choice for students interested in \\\\technology systems, digital infrastructure, security and business computing. In deciding on a program, you need to take into account the curriculum, the total cost of studying, practical training options, career requirements and current immigration rules."
     },
     {
-      "q": "How can Edu Hawk worldwide Consultancy help me to study abroad?",
-      "a": "Edu Hawk worldwide can help students find suitable universities, understand admission requirements, organize application documents and plan their study-abroad journey. Students should consult the relevant official authorities regarding academic, financial, immigration and licensing requirements."
+      "q": "How can Edu Hawk worldwide Consultancy help me to study abroad?\\\\",
+      "a": "\\\\Edu Hawk worldwide\\\\ can help students find suitable universities, understand admission requirements, organize application documents and plan their \\\\study-abroad journey. Students should consult the relevant official authorities regarding academic, financial, immigration and licensing requirements."
     }
-  ]
+  ],
+  "seo": {
+    "title": "Information Technology in Ireland | Edu-Hawk Worldwide",
+    "description": "\\\\Information Technology (IT)\\\\ in Ireland is a popular choice for students who want to study \\\\computer networks, software systems, cloud computing, cybersecur",
+    "keywords": "Study Information Technology in Ireland for Indian Students, Top Universities for Information Technology in Ireland, Undergraduate IT Courses in Ireland After Class 12, Postgraduate Information Technology Courses in Ireland, Information Technology Eligibility Requirements in Ireland, IT Admission Requirements for International Students in Ireland, Information Technology Tuition Fees in Ireland 2026/27, Affordable Universities for IT Courses in Ireland, IELTS Requirements for Information Technology Courses in Ireland, Cybersecurity and Cloud Computing Courses in Ireland, Data Analytics and Networking Master's in Ireland, Business Information Systems Courses in Ireland, IT Jobs and Career Opportunities in Ireland, Information Technology Salary in Ireland for Graduates, Study IT in Ireland for International Students, <"
+  }
 }

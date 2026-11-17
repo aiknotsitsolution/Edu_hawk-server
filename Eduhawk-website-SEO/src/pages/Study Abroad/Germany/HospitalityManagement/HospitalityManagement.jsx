@@ -12,6 +12,7 @@ import uniImg1 from "../../../../Images/Abroad/Germany/HospitalityManagement/1_H
 import uniImg2 from "../../../../Images/Abroad/Germany/HospitalityManagement/2_Dresden_University_of_Applied_Sci.webp";
 import uniImg3 from "../../../../Images/Abroad/Germany/HospitalityManagement/3_EBC_Hochschule_Has_provided_educa.webp";
 import uniImg4 from "../../../../Images/Abroad/Germany/HospitalityManagement/4_Stralsund_University_of_Applied_S.webp";
+import cmsData from "../../../../data/study_abroad/germany/hospitality_management.json";
 
 const page = {
   name: "Hospitality Management in Germany",
@@ -352,6 +353,23 @@ const page = {
 };
 
 export default function HospitalityManagementGermanyPage() {
+  const dynamicPage = {
+    ...page,
+    name: cmsData.hero?.title || page.name,
+    heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
+    overview: cmsData.overview
+      ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
+      : page.overview,
+    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      .filter(s => s.label && s.value).length > 0
+      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      : page.stats,
+    seo: {
+      title: cmsData.seo?.title || page.title,
+      description: cmsData.seo?.description || page.description,
+    },
+  };
+
   const images = {
     hero: heroImg,
     heroBg: heroBgImg,
@@ -361,7 +379,7 @@ export default function HospitalityManagementGermanyPage() {
 
   return (
     <AbroadCoursePage
-      page={page}
+      page={dynamicPage}
       images={images}
       heroImg={heroImg}
       heroBgImg={heroBgImg}

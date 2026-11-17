@@ -1,97 +1,93 @@
 {
-  "seo": {
-    "title": "Business Management in Mauritius for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study Business Management in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students."
-  },
   "hero": {
-    "badge": "Study Abroad - Mauritius",
-    "title": "Business Management in Mauritius for Indian Students",
-    "paras": [
-      "Studying for a **Bachelor’s and Master’s in Business Management in Mauritius for Indian Students** can help students develop the knowledge and practical skills needed to work in corporate organisations, manage teams, start a business, or pursue international career opportunities. Mauritius offers business-related programmes through institutions such as Middlesex University Mauritius, the Open University of Mauritius, Rushmore Business School, and the University of Mauritius."
-    ]
+    "title": "Bachelor’s and Master’s in Business Management in Mauritius for Indian Students",
+    "subtitle": "Studying for a Bachelor’s and Master’s in Business Management in Mauritius for Indian Students can help students develop the knowledge and practical skills needed to work in corporate organisations, manage teams, start a business, or pursue international career opportunities. Mauritius offers business-related programmes through institutions such as Middlesex University Mauritius, the Open University of Mauritius, Rushmore Business School, and the University of Mauritius."
   },
-  "stats": [
-    {
-      "val": "MUR 150K-350K",
-      "label": "Tuition / Year"
-    },
-    {
-      "val": "English",
-      "label": "Medium of Study"
-    },
-    {
-      "val": "3-4 Years",
-      "label": "Course Duration"
-    },
-    {
-      "val": "Permitted",
-      "label": "Part-Time Work"
-    }
-  ],
-  "highlights": [
-    {
-      "icon": "FaAward",
-      "title": "Bilingual & English Degrees",
-      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
-    },
-    {
-      "icon": "FaGraduationCap",
-      "title": "Affordable Tuition & Living",
-      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
-    },
-    {
-      "icon": "FaFileAlt",
-      "title": "Safe & Multicultural Island",
-      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
-    },
-    {
-      "icon": "FaCheckCircle",
-      "title": "Simplified Visa Process",
-      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
-    }
-  ],
   "overview": [
-    "Students can choose an undergraduate degree in Business Management and then progress to a postgraduate qualification such as an MSc in Management, Master of Business Administration (MBA), or Executive MBA. The best option depends on academic background, career goals, budget, and preferred study format. Students planning to **study Business Management in Mauritius** can compare the available programmes and choose a qualification that matches their future career plans. **Edu-Hawk Worldwide** helps students explore international education opportunities and understand the admission process."
+    "Studying for a Bachelor’s and Master’s in Business Management in Mauritius for Indian Students can help students develop the knowledge and practical skills needed to work in corporate organisations, manage teams, start a business, or pursue international career opportunities. Mauritius offers business-related programmes through institutions such as Middlesex University Mauritius, the Open University of Mauritius, Rushmore Business School, and the University of Mauritius.",
+    "Explore top internationally affiliated universities and leading higher education campuses in Mauritius offering British, French, and Australian degree qualifications."
   ],
   "universities": [
     {
-      "name": "\\. University of Mauritius",
-      "location": "\\. University of Mauritius",
-      "fee": "MUR 160,000 – 350,000 / Year",
-      "image": "/uploads/study_abroad/mauritius/BusinessManagement/image1.png"
+      "name": "University of Mauritius (UoM)",
+      "location": "Réduit, Mauritius",
+      "fee": "$2,500 – $4,500 / Year",
+      "img": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
+      "image": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
+      "desc": "UoM is the premier public research university of Mauritius, offering internationally recognized undergraduate and postgraduate degrees in science, engineering, and agriculture."
     },
     {
-      "name": "\\. Middlesex University Mauritius",
-      "location": "\\. Middlesex University Mauritius",
-      "fee": "MUR 160,000 – 350,000 / Year",
-      "image": "/uploads/study_abroad/mauritius/BusinessManagement/image2.png"
+      "name": "Université des Mascareignes (UdM)",
+      "location": "Beau-Bassin, Mauritius",
+      "fee": "$2,000 – $4,000 / Year",
+      "img": "/uploads/study_abroad/mauritius/maur_BBA_image1.png",
+      "image": "/uploads/study_abroad/mauritius/maur_BBA_image1.png",
+      "desc": "Partnered with Université de Limoges (France), UdM delivers dual European-Mauritian accredited diplomas with bilingual instruction and industry internships."
     },
     {
-      "name": "\\. Open University of Mauritius",
-      "location": "\\. Open University of Mauritius",
-      "fee": "MUR 160,000 – 350,000 / Year",
-      "image": "/uploads/study_abroad/mauritius/BusinessManagement/image3.png"
+      "name": "Middlesex University Mauritius",
+      "location": "Flic-en-Flac, Mauritius",
+      "fee": "$5,500 – $8,500 / Year",
+      "img": "/uploads/study_abroad/mauritius/maur_BBA_image2.png",
+      "image": "/uploads/study_abroad/mauritius/maur_BBA_image2.png",
+      "desc": "A branch campus of Middlesex University London, delivering British honors degrees with global validation, modern coastal campus, and international faculty."
+    },
+    {
+      "name": "Curtin Mauritius",
+      "location": "Moka, Mauritius",
+      "fee": "$5,000 – $8,000 / Year",
+      "img": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
+      "image": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
+      "desc": "An international campus of Curtin University Australia, providing accredited Australian business, IT, and humanities degrees in state-of-the-art facilities."
     }
   ],
-  "faq": {
-    "title": "Frequently Asked Questions",
-    "items": [
-      {
-        "q": "Can Indian students apply for Business Management in Mauritius?",
-        "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
-      },
-      {
-        "q": "What is the medium of instruction for Business Management in Mauritius?",
-        "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
-      },
-      {
-        "q": "What are the typical tuition fees for Business Management in Mauritius?",
-        "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
-      },
-      {
-        "q": "Is a student visa required for Indian students?",
-        "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
-      }
-    ]
+  "sections": [
+    {
+      "slot": "universities",
+      "eyebrow": "Top Mauritian Universities",
+      "title": "Top Universities to Consider in Mauritius",
+      "lead": "Explore top internationally affiliated universities and leading higher education campuses in Mauritius offering British, French, and Australian degree qualifications.",
+      "unis": [
+        {
+          "name": "University of Mauritius (UoM)",
+          "location": "Réduit, Mauritius",
+          "fee": "$2,500 – $4,500 / Year",
+          "img": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
+          "image": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
+          "desc": "UoM is the premier public research university of Mauritius, offering internationally recognized undergraduate and postgraduate degrees in science, engineering, and agriculture."
+        },
+        {
+          "name": "Université des Mascareignes (UdM)",
+          "location": "Beau-Bassin, Mauritius",
+          "fee": "$2,000 – $4,000 / Year",
+          "img": "/uploads/study_abroad/mauritius/maur_BBA_image1.png",
+          "image": "/uploads/study_abroad/mauritius/maur_BBA_image1.png",
+          "desc": "Partnered with Université de Limoges (France), UdM delivers dual European-Mauritian accredited diplomas with bilingual instruction and industry internships."
+        },
+        {
+          "name": "Middlesex University Mauritius",
+          "location": "Flic-en-Flac, Mauritius",
+          "fee": "$5,500 – $8,500 / Year",
+          "img": "/uploads/study_abroad/mauritius/maur_BBA_image2.png",
+          "image": "/uploads/study_abroad/mauritius/maur_BBA_image2.png",
+          "desc": "A branch campus of Middlesex University London, delivering British honors degrees with global validation, modern coastal campus, and international faculty."
+        },
+        {
+          "name": "Curtin Mauritius",
+          "location": "Moka, Mauritius",
+          "fee": "$5,000 – $8,000 / Year",
+          "img": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
+          "image": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
+          "desc": "An international campus of Curtin University Australia, providing accredited Australian business, IT, and humanities degrees in state-of-the-art facilities."
+        }
+      ],
+      "groups": []
+    }
+  ],
+  "faqs": [],
+  "seo": {
+    "title": "Bachelor’s and Master’s in Business Management in Mauritius for Indian Students | Edu-Hawk Worldwide",
+    "description": "Studying for a Bachelor’s and Master’s in Business Management in Mauritius for Indian Students can help students develop the knowledge and practical skills need",
+    "keywords": "Study in Mauritius, Top Universities in Mauritius, Edu Hawk Worldwide"
   }
 }

@@ -1,3 +1,4 @@
+import cmsData from "../../../../../../data/study_abroad/finland/aero_engg_ug.json";
 import React from "react";
 import { AbroadCoursePage, formatRichText } from "../../../../../../component/CoursePageKit.jsx";
 import heroImg from "../../../../../../Images/Abroad/Finland/Engineering_UG/Aerospace/aero_ug_hero.webp";
@@ -399,7 +400,7 @@ const page = {
 const AerospaceRelatedEngineeringUG = () => {
   return (
     <AbroadCoursePage
-      page={page}
+      page={withCmsData(page, cmsData)}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

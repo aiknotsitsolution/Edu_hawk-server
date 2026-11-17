@@ -1,3 +1,4 @@
+import cmsData from "../../../../data/study_abroad/uk/mba.json";
 import React from "react";
 import { AbroadCoursePage } from "../../../../component/CoursePageKit.jsx";
 
@@ -25,7 +26,6 @@ const page = {
     "Professionals and students can enhance their leadership, strategic thinking, financial decision-making, and business management skills by pursuing a Master of Business Administration (MBA) in the UK. Professionals looking for career growth, a shift in industry, or entrepreneurial opportunities can enrolll in MBA programs offered by UK business institutions."
   ],
   "overview": [
-    "Professionals and students can enhance their leadership, strategic thinking, financial decision-making, and business management skills by pursuing a Master of Business Administration (MBA) in the UK. Professionals looking for career growth, a shift in industry, or entrepreneurial opportunities can enrolll in MBA programs offered by UK business institutions.",
     "Obtain a business degree that is valued by companies in a variety of sectors and nations."
   ],
   "level": "Master of Business Administration",
@@ -979,9 +979,40 @@ const page = {
 };
 
 export default function mbaUK() {
+  const dynamicPage = {
+    ...page,
+    title: cmsData?.seo?.title || page.title,
+    description: cmsData?.seo?.description || page.description,
+    introTitle: cmsData?.hero?.title || page.introTitle || page.name,
+    heroParas: cmsData?.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
+    overview: (cmsData?.overview && cmsData.overview.length > 0 && cmsData.overview[0] !== "")
+      ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
+      : page.overview,
+    sections: (cmsData?.sections && cmsData.sections.length > 0)
+      ? cmsData.sections
+      : page.sections,
+    universities: (cmsData?.universities && cmsData.universities.length > 0)
+      ? cmsData.universities.map((u, idx) => ({
+          ...u,
+          img: u.img || u.image || page.universities?.[idx]?.img,
+          image: u.img || u.image || page.universities?.[idx]?.image || page.universities?.[idx]?.img
+        }))
+      : page.universities,
+    faqs: (cmsData?.faqs && cmsData.faqs.length > 0)
+      ? cmsData.faqs.map(f => ({ q: f.q || f.question, a: f.a || f.answer, question: f.q || f.question, answer: f.a || f.answer }))
+      : (cmsData?.faq && cmsData.faq.length > 0)
+        ? cmsData.faq.map(f => ({ q: f.q || f.question, a: f.a || f.answer, question: f.q || f.question, answer: f.a || f.answer }))
+        : page.faqs,
+    seo: {
+      title: cmsData?.seo?.title || page.title,
+      description: cmsData?.seo?.description || page.description,
+      keywords: cmsData?.seo?.keywords || page.keywords,
+    },
+  };
+
   return (
     <AbroadCoursePage
-      page={page}
+      page={dynamicPage}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

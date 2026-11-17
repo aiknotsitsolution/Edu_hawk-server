@@ -1,91 +1,93 @@
 {
-  "seo": {
-    "title": "Electrical Engineering (UG) in Mauritius for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study Electrical Engineering (UG) in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students."
-  },
   "hero": {
-    "badge": "Study Abroad - Mauritius",
-    "title": "Electrical Engineering (UG) in Mauritius for Indian Students",
-    "paras": [
-      "A degree in Electrical Engineering in Mauritius is an undergraduate course for students who want to study electrical power systems, electronics, industrial automation, renewable energy and electrical equipment. Related undergraduate degrees can be found in Mauritius, including BEng (Hons) Electrical and Electronic Engineering at the University of Mauritius and BEng (Hons) Electrical and Electronic Engineering Technology at Université des Mascareignes. These options make **Electrical Engineering in Mauritius for Indian Students** a course worth exploring."
-    ]
+    "title": "Bachelor’s Electrical Engineering in Mauritius",
+    "subtitle": "A degree in Electrical Engineering in Mauritius is an undergraduate course for students who want to study electrical power systems, electronics, industrial automation, renewable energy and electrical equipment. Related undergraduate degrees can be found in Mauritius, including BEng (Hons) Electrical and Electronic Engineering at the University of Mauritius and BEng (Hons) Electrical and Electronic Engineering Technology at Université des Mascareignes. These options make Electrical Engineering in Mauritius for Indian Students a course worth exploring."
   },
-  "stats": [
-    {
-      "val": "MUR 150K-350K",
-      "label": "Tuition / Year"
-    },
-    {
-      "val": "English",
-      "label": "Medium of Study"
-    },
-    {
-      "val": "3-4 Years",
-      "label": "Course Duration"
-    },
-    {
-      "val": "Permitted",
-      "label": "Part-Time Work"
-    }
-  ],
-  "highlights": [
-    {
-      "icon": "FaAward",
-      "title": "Bilingual & English Degrees",
-      "desc": "Study in English with recognized qualifications from national institutions and global UK/Australian branch campuses."
-    },
-    {
-      "icon": "FaGraduationCap",
-      "title": "Affordable Tuition & Living",
-      "desc": "High quality tertiary education with tuition fees and living costs substantially lower than Western Europe."
-    },
-    {
-      "icon": "FaFileAlt",
-      "title": "Safe & Multicultural Island",
-      "desc": "Consistently ranked as the safest and most politically stable nation in Africa with close cultural ties to India."
-    },
-    {
-      "icon": "FaCheckCircle",
-      "title": "Simplified Visa Process",
-      "desc": "Streamlined student visa procedures arranged directly through recognized higher education institutions."
-    }
-  ],
   "overview": [
-    "Students who want to acquire technical knowledge and build a career in electrical and industrial engineering have good options in these programs. With guidance from **Edu-Hawk Worldwide**, students can compare programs and understand the process to **Study Electrical Engineering in Mauritius**."
+    "A degree in Electrical Engineering in Mauritius is an undergraduate course for students who want to study electrical power systems, electronics, industrial automation, renewable energy and electrical equipment. Related undergraduate degrees can be found in Mauritius, including BEng (Hons) Electrical and Electronic Engineering at the University of Mauritius and BEng (Hons) Electrical and Electronic Engineering Technology at Université des Mascareignes. These options make Electrical Engineering in Mauritius for Indian Students a course worth exploring.",
+    "Explore top internationally affiliated universities and leading higher education campuses in Mauritius offering British, French, and Australian degree qualifications."
   ],
   "universities": [
     {
-      "name": "\\. University of Mauritius",
-      "location": "\\. University of Mauritius",
-      "fee": "MUR 160,000 – 350,000 / Year",
-      "image": "/uploads/study_abroad/mauritius/Engineering_UG/Electrical/image1.png"
+      "name": "University of Mauritius (UoM)",
+      "location": "Réduit, Mauritius",
+      "fee": "$2,500 – $4,500 / Year",
+      "img": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
+      "image": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
+      "desc": "UoM is the premier public research university of Mauritius, offering internationally recognized undergraduate and postgraduate degrees in science, engineering, and agriculture."
     },
     {
-      "name": "\\. University of the Mascarenes",
-      "location": "\\. University of the Mascarenes, Mauritius",
-      "fee": "MUR 160,000 – 350,000 / Year",
-      "image": "/uploads/study_abroad/mauritius/Engineering_UG/Electrical/image2.png"
+      "name": "Université des Mascareignes (UdM)",
+      "location": "Beau-Bassin, Mauritius",
+      "fee": "$2,000 – $4,000 / Year",
+      "img": "/uploads/study_abroad/mauritius/maur_BBA_image1.png",
+      "image": "/uploads/study_abroad/mauritius/maur_BBA_image1.png",
+      "desc": "Partnered with Université de Limoges (France), UdM delivers dual European-Mauritian accredited diplomas with bilingual instruction and industry internships."
+    },
+    {
+      "name": "Middlesex University Mauritius",
+      "location": "Flic-en-Flac, Mauritius",
+      "fee": "$5,500 – $8,500 / Year",
+      "img": "/uploads/study_abroad/mauritius/maur_BBA_image2.png",
+      "image": "/uploads/study_abroad/mauritius/maur_BBA_image2.png",
+      "desc": "A branch campus of Middlesex University London, delivering British honors degrees with global validation, modern coastal campus, and international faculty."
+    },
+    {
+      "name": "Curtin Mauritius",
+      "location": "Moka, Mauritius",
+      "fee": "$5,000 – $8,000 / Year",
+      "img": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
+      "image": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
+      "desc": "An international campus of Curtin University Australia, providing accredited Australian business, IT, and humanities degrees in state-of-the-art facilities."
     }
   ],
-  "faq": {
-    "title": "Frequently Asked Questions",
-    "items": [
-      {
-        "q": "Can Indian students apply for Electrical Engineering (UG) in Mauritius?",
-        "a": "Yes, Indian students meeting the academic criteria and English proficiency requirements can apply to recognized Mauritian institutions."
-      },
-      {
-        "q": "What is the medium of instruction for Electrical Engineering (UG) in Mauritius?",
-        "a": "Programmes at major Mauritian universities are delivered in English, with bilingual options available at select institutions."
-      },
-      {
-        "q": "What are the typical tuition fees for Electrical Engineering (UG) in Mauritius?",
-        "a": "Tuition fees generally range between MUR 150,000 and MUR 350,000 per year, offering cost-effective international degree options."
-      },
-      {
-        "q": "Is a student visa required for Indian students?",
-        "a": "Yes, international students require an entry permit and student visa issued by the Passport and Immigration Office of Mauritius upon receiving admission."
-      }
-    ]
+  "sections": [
+    {
+      "slot": "universities",
+      "eyebrow": "Top Mauritian Universities",
+      "title": "Top Universities to Consider in Mauritius",
+      "lead": "Explore top internationally affiliated universities and leading higher education campuses in Mauritius offering British, French, and Australian degree qualifications.",
+      "unis": [
+        {
+          "name": "University of Mauritius (UoM)",
+          "location": "Réduit, Mauritius",
+          "fee": "$2,500 – $4,500 / Year",
+          "img": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
+          "image": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
+          "desc": "UoM is the premier public research university of Mauritius, offering internationally recognized undergraduate and postgraduate degrees in science, engineering, and agriculture."
+        },
+        {
+          "name": "Université des Mascareignes (UdM)",
+          "location": "Beau-Bassin, Mauritius",
+          "fee": "$2,000 – $4,000 / Year",
+          "img": "/uploads/study_abroad/mauritius/maur_BBA_image1.png",
+          "image": "/uploads/study_abroad/mauritius/maur_BBA_image1.png",
+          "desc": "Partnered with Université de Limoges (France), UdM delivers dual European-Mauritian accredited diplomas with bilingual instruction and industry internships."
+        },
+        {
+          "name": "Middlesex University Mauritius",
+          "location": "Flic-en-Flac, Mauritius",
+          "fee": "$5,500 – $8,500 / Year",
+          "img": "/uploads/study_abroad/mauritius/maur_BBA_image2.png",
+          "image": "/uploads/study_abroad/mauritius/maur_BBA_image2.png",
+          "desc": "A branch campus of Middlesex University London, delivering British honors degrees with global validation, modern coastal campus, and international faculty."
+        },
+        {
+          "name": "Curtin Mauritius",
+          "location": "Moka, Mauritius",
+          "fee": "$5,000 – $8,000 / Year",
+          "img": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
+          "image": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
+          "desc": "An international campus of Curtin University Australia, providing accredited Australian business, IT, and humanities degrees in state-of-the-art facilities."
+        }
+      ],
+      "groups": []
+    }
+  ],
+  "faqs": [],
+  "seo": {
+    "title": "Bachelor’s Electrical Engineering in Mauritius | Edu-Hawk Worldwide",
+    "description": "A degree in Electrical Engineering in Mauritius is an undergraduate course for students who want to study electrical power systems, electronics, industrial auto",
+    "keywords": "Study in Mauritius, Top Universities in Mauritius, Edu Hawk Worldwide"
   }
 }

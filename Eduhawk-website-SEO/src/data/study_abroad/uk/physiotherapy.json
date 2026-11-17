@@ -1,10 +1,5 @@
 {
-  "seo": {
-    "title": "Study Physiotherapy in the UK for Indian Students | Edu-Hawk Worldwide",
-    "description": "Complete guide to Physiotherapy in the UK for Indian students: Top UK universities, eligibility criteria, tuition fees (£14,000–£35,000/yr), scholarships, and 2-year post-study work visa (Graduate Route)."
-  },
   "hero": {
-    "badge": "Study Abroad - United Kingdom",
     "title": "Study Physiotherapy in the United Kingdom",
     "subtitle": "Students who wish to pursue careers in physiotherapy , rehabilitation, sports medicine , and patient care frequently choose the United Kingdom. In order to help students understand human movement , physical function, injury healing, and the management of long-term health conditions, UK universities mix academic instruction with hands-on training."
   },
@@ -13,17 +8,47 @@
     "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey..",
     "Key Advantages of Pursuing Physiotherapy Education in the United Kingdom"
   ],
+  "universities": [
+    {
+      "name": "Birmingham University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_physiotherapy_Birmingham_University-image1.png",
+      "image": "/uploads/study_abroad/uk/uk_physiotherapy_Birmingham_University-image1.png",
+      "desc": "Birmingham University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Cardiff University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_physiotherapy_Cardiff_University-image2.png",
+      "image": "/uploads/study_abroad/uk/uk_physiotherapy_Cardiff_University-image2.png",
+      "desc": "Cardiff University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "East Anglia University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_physiotherapy_East_Anglia_University-image4.png",
+      "image": "/uploads/study_abroad/uk/uk_physiotherapy_East_Anglia_University-image4.png",
+      "desc": "East Anglia University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Glasgow Caledonian University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_physiotherapy_Glasgow_Caledonian_University-image3.png",
+      "image": "/uploads/study_abroad/uk/uk_physiotherapy_Glasgow_Caledonian_University-image3.png",
+      "desc": "Glasgow Caledonian University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    }
+  ],
   "sections": [
     {
+      "slot": "why-study",
+      "eyebrow": "Why UK",
       "title": "Why Study Physiotherapy in the UK ?",
-      "eyebrow": "Why Study in the UK",
+      "lead": "Students who wish to pursue careers in physiotherapy , rehabilitation, sports medicine , and patient care frequently choose the United Kingdom. In order to help students understand human movement , physical function, injury healing, and the management of long-term health conditions, UK universities mix academic instruction with hands-on training.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Students who wish to pursue careers in physiotherapy , rehabilitation, sports medicine , and patient care frequently choose the United Kingdom. In order to help students understand human movement , physical function, injury healing, and the management of long-term health conditions, UK universities mix academic instruction with hands-on training."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -56,15 +81,11 @@
       ]
     },
     {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
       "title": "Courses in Physiotherapy in the UK",
-      "eyebrow": "Course Guide",
+      "lead": "Physiotherapy and rehabilitation-related undergraduate, postgraduate, and research programmes are available in UK universities.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Physiotherapy and rehabilitation-related undergraduate, postgraduate, and research programmes are available in UK universities."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -158,46 +179,52 @@
       ]
     },
     {
+      "slot": "universities",
+      "eyebrow": "Top UK Universities",
       "title": "The Best Universities in the UK to Consider for Physiotherapy",
-      "eyebrow": "Top Institutions",
-      "groups": [
+      "lead": "For physiotherapy education , rehabilitation , sports science , or related healthcare programs, the following universities are worth looking into. Check the official websites of each university for information on professional accreditation, international admission requirements, and course availability.",
+      "groups": [],
+      "unis": [
         {
-          "t": "universities",
-          "items": [
-            {
-              "name": "Birmingham University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Birmingham_University_webp"
-            },
-            {
-              "name": "Cardiff University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Cardiff_University_webp"
-            },
-            {
-              "name": "East Anglia University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_East_Anglia_University_webp"
-            },
-            {
-              "name": "Glasgow Caledonian University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Glasgow_Caledonian_University_webp"
-            }
-          ]
+          "name": "Birmingham University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_physiotherapy_Birmingham_University-image1.png",
+          "image": "/uploads/study_abroad/uk/uk_physiotherapy_Birmingham_University-image1.png",
+          "desc": "Birmingham University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Cardiff University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_physiotherapy_Cardiff_University-image2.png",
+          "image": "/uploads/study_abroad/uk/uk_physiotherapy_Cardiff_University-image2.png",
+          "desc": "Cardiff University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "East Anglia University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_physiotherapy_East_Anglia_University-image4.png",
+          "image": "/uploads/study_abroad/uk/uk_physiotherapy_East_Anglia_University-image4.png",
+          "desc": "East Anglia University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Glasgow Caledonian University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_physiotherapy_Glasgow_Caledonian_University-image3.png",
+          "image": "/uploads/study_abroad/uk/uk_physiotherapy_Glasgow_Caledonian_University-image3.png",
+          "desc": "Glasgow Caledonian University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
         }
       ]
     },
     {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
       "title": "Qualifications for Studying Physiotherapy in the United Kingdom",
-      "eyebrow": "Course Guide",
+      "lead": "Each university, course level, and career route has different prerequisites for admission.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Each university, course level, and career route has different prerequisites for admission."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -243,10 +270,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "C. Language Requirements in English"
-          ]
+          "t": "h4",
+          "text": "C. Language Requirements in English"
         },
         {
           "t": "p",
@@ -263,15 +288,11 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "Physiotherapy Admission Requirements in the United Kingdom",
-      "eyebrow": "Eligibility & Process",
+      "lead": "The following evaluations and documents might be included in a typical application.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The following evaluations and documents might be included in a typical application."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -288,10 +309,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Documents in English"
-          ]
+          "t": "h4",
+          "text": "Documents in English"
         },
         {
           "t": "p",
@@ -322,8 +341,20 @@
           "items": [
             "A suitability evaluation or interview.",
             "A screening for occupational health.",
-            "Background checks or criminal records.",
-            "Requirements for health clearance or immunization before placement.",
+            "Background checks or criminal records."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Requirements for health clearance or immunization before placement.",
+      "lead": "",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
             "Declarations about fitness to practise.",
             "Training or preparation for a clinical placement."
           ]
@@ -337,15 +368,11 @@
       ]
     },
     {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
       "title": "The cost of studying physiotherapy in the United Kingdom",
-      "eyebrow": "Tuition & Living",
+      "lead": "The university, course length, location, and way of life all affect how much studying physiotherapy will cost.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The university, course length, location, and way of life all affect how much studying physiotherapy will cost."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -369,11 +396,30 @@
         {
           "t": "ul",
           "items": [
-            "Lodging | £600–£1,200 |",
-            "Groceries and food | £180–£300",
-            "Local transportation costs between £60 and £160.",
-            "Internet and mobile | £20–£50",
-            "Study materials and personal expenditures | £100–£250"
+            "Lodging | £600–£1,200 |"
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Groceries and food",
+              "d": "£180–£300"
+            },
+            {
+              "t": "Internet and mobile",
+              "d": "£20–£50"
+            },
+            {
+              "t": "Study materials and personal expenditures",
+              "d": "£100–£250"
+            }
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Local transportation costs between £60 and £160."
           ]
         },
         {
@@ -403,141 +449,74 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "The UK's Physiotherapy Admission Procedure",
-      "eyebrow": "Eligibility & Process",
+      "lead": "",
       "groups": [
         {
-          "t": "p",
+          "t": "steps",
           "items": [
-            "Step 1: Select Your Career Path"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Choose between studying a related field like rehabilitation science, sports science, or exercise science or becoming a certified physiotherapist."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 2: Make a shortlist of colleges"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Examine the course material, prerequisites, location, clinical placements, tuition costs, professional approval, and student support."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 3: Verify Your Qualifications"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Verify if the university's admission standards are met by your Indian academic credentials. If you are not eligible for direct entry, find out if there is a foundation year or alternate pathway available."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 4: Get Your Documents Ready"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Gather academic records, test scores in English, references, a personal statement, a passport, and any other paperwork that may be needed."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 5: Send in Your Application"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "While some postgraduate applications are sent straight to universities, many undergraduate applications are made via UCAS."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 6: Go to an Evaluation or Interview"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Interviews are used by some institutions to evaluate candidates' enthusiasm, communication skills, comprehension of the physiotherapy profession and fitness for employment involving patients."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 7: Get Your Offer and Accept It"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Carefully read all of the terms of the offer. Final grades, English language proficiency standards, document verification, and the fulfillment of background and health checks are a few examples."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 8: Set Up Funding and Accommodations"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Create a reasonable budget and make sure you have the money for living expenses, tuition, and other obligations."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 9: Submit an application for a UK student visa."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Examine the most recent visa regulations and get your application ready after fulfilling the requirements of the university and obtaining the necessary Confirmation of Acceptance for Studies (CAS)."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 10: Register and Start the Course"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Finish your university enrollment, go to the induction, and get ready for your coursework and any necessary clinical rotations."
+            {
+              "step": 1,
+              "title": "Select Your Career Path",
+              "desc": "Choose between studying a related field like rehabilitation science, sports science, or exercise science or becoming a certified physiotherapist."
+            },
+            {
+              "step": 2,
+              "title": "Make a shortlist of colleges",
+              "desc": "Examine the course material, prerequisites, location, clinical placements, tuition costs, professional approval, and student support."
+            },
+            {
+              "step": 3,
+              "title": "Verify Your Qualifications",
+              "desc": "Verify if the university's admission standards are met by your Indian academic credentials. If you are not eligible for direct entry, find out if there is a foundation year or alternate pathway available."
+            },
+            {
+              "step": 4,
+              "title": "Get Your Documents Ready",
+              "desc": "Gather academic records, test scores in English, references, a personal statement, a passport, and any other paperwork that may be needed."
+            },
+            {
+              "step": 5,
+              "title": "Send in Your Application",
+              "desc": "While some postgraduate applications are sent straight to universities, many undergraduate applications are made via UCAS."
+            },
+            {
+              "step": 6,
+              "title": "Go to an Evaluation or Interview",
+              "desc": "Interviews are used by some institutions to evaluate candidates' enthusiasm, communication skills, comprehension of the physiotherapy profession and fitness for employment involving patients."
+            },
+            {
+              "step": 7,
+              "title": "Get Your Offer and Accept It",
+              "desc": "Carefully read all of the terms of the offer. Final grades, English language proficiency standards, document verification, and the fulfillment of background and health checks are a few examples."
+            },
+            {
+              "step": 8,
+              "title": "Set Up Funding and Accommodations",
+              "desc": "Create a reasonable budget and make sure you have the money for living expenses, tuition, and other obligations."
+            },
+            {
+              "step": 9,
+              "title": "Submit an application for a UK student visa.",
+              "desc": "Examine the most recent visa regulations and get your application ready after fulfilling the requirements of the university and obtaining the necessary Confirmation of Acceptance for Studies (CAS)."
+            },
+            {
+              "step": 10,
+              "title": "Register and Start the Course",
+              "desc": "Finish your university enrollment, go to the induction, and get ready for your coursework and any necessary clinical rotations."
+            }
           ]
         }
       ]
     },
     {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
       "title": "Professional Registration, Accreditation, and Recognition",
-      "eyebrow": "Course Guide",
+      "lead": "If you want to work as a physiotherapist, professional recognition is crucial.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "If you want to work as a physiotherapist, professional recognition is crucial."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -565,20 +544,14 @@
       ]
     },
     {
+      "slot": "careers",
+      "eyebrow": "Career & Salary",
       "title": "Opportunities for Employment in the UK",
-      "eyebrow": "Course Guide",
+      "lead": "Graduates in physiotherapy can work in clinical, rehabilitation, sports, research or healthcare. The course, professional registration, real-world experience and employer criteria all affect the options that are available.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Graduates in physiotherapy can work in clinical, rehabilitation, sports, research or healthcare. The course, professional registration, real-world experience and employer criteria all affect the options that are available."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Possible Career Paths"
-          ]
+          "t": "h4",
+          "text": "Possible Career Paths"
         },
         {
           "t": "ul",
@@ -622,15 +595,11 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "Documents Needed to Apply",
-      "eyebrow": "Course Guide",
+      "lead": "Get the paperwork ready for the course and university of your choice:",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Get the paperwork ready for the course and university of your choice:"
-          ]
-        },
         {
           "t": "ul",
           "items": [
@@ -654,154 +623,37 @@
           ]
         }
       ]
-    },
-    {
-      "title": "Frequently Asked Questions",
-      "eyebrow": "Course Guide",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "1. In the UK, how long does it take to study physiotherapy?"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "It usually takes three to four years to complete an undergraduate physiotherapy degree. Certain programs are structured differently or involve a foundation year. Always verify the time frame specified by the university."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "2. After Class 12, is it possible for Indian students to pursue physiotherapy in the UK?"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Yes . Indian students who fulfill the academic and English language requirements of the university are eligible to apply. It is usually necessary to take biology and other science courses. Not all universities provide direct admission, and some students might require a foundation year."
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Is taking the IELTS required for UK physiotherapy courses?",
-      "eyebrow": "Course Guide",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Not always. TOEFL iBT, PTE Academic, IELTS Academic, and other validated types of evidence may be accepted by universities. Courses have different requirements, and professional or clinical registration may have extra requirements."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "4. Is a UK degree in physiotherapy recognized abroad?"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The nation, the particular qualification, and the relevant professional regulation all affect recognition. Before enrolling, students should review the requirements in the nation where they plan to practice."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "5. Can I study in the UK and then become a registered physiotherapist?"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Yes, possibly. You must fulfill the regulator's requirements and finish a qualifying program authorized for the applicable registration route. Before accepting an offer, review the most recent HCPC course approval and registration guidelines."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Students may plan their study-abroad journey, organize their application materials, research appropriate universities, and comprehend admission requirements with the assistance of Edu Hawk globally. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
-          ]
-        }
-      ]
     }
   ],
-  "universities": [
+  "faqs": [
     {
-      "name": "Birmingham University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Birmingham_University.webp"
+      "q": "In the UK, how long does it take to study physiotherapy?",
+      "a": "It usually takes three to four years to complete an undergraduate physiotherapy degree. Certain programs are structured differently or involve a foundation year. Always verify the time frame specified by the university."
     },
     {
-      "name": "Cardiff University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Cardiff_University.webp"
+      "q": "After Class 12, is it possible for Indian students to pursue physiotherapy in the UK?",
+      "a": "Yes . Indian students who fulfill the academic and English language requirements of the university are eligible to apply. It is usually necessary to take biology and other science courses. Not all universities provide direct admission, and some students might require a foundation year."
     },
     {
-      "name": "East Anglia University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "East_Anglia_University.webp"
+      "q": "Is taking the IELTS required for UK physiotherapy courses?",
+      "a": "Not always. TOEFL iBT, PTE Academic, IELTS Academic, and other validated types of evidence may be accepted by universities. Courses have different requirements, and professional or clinical registration may have extra requirements."
     },
     {
-      "name": "Glasgow Caledonian University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Glasgow_Caledonian_University.webp"
+      "q": "Is a UK degree in physiotherapy recognized abroad?",
+      "a": "The nation, the particular qualification, and the relevant professional regulation all affect recognition. Before enrolling, students should review the requirements in the nation where they plan to practice."
+    },
+    {
+      "q": "Can I study in the UK and then become a registered physiotherapist?",
+      "a": "Yes, possibly. You must fulfill the regulator's requirements and finish a qualifying program authorized for the applicable registration route. Before accepting an offer, review the most recent HCPC course approval and registration guidelines."
+    },
+    {
+      "q": "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
+      "a": "Students may plan their study-abroad journey, organize their application materials, research appropriate universities, and comprehend admission requirements with the assistance of Edu Hawk globally. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
     }
   ],
-  "table": {
-    "title": "Estimated Cost of Studying Physiotherapy in the UK (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (£ / GBP)",
-      "Details / Scope"
-    ],
-    "rows": [
-      [
-        "Undergraduate Degree (Annual)",
-        "£14,000 – £28,000 / year",
-        "Varies by university ranking, laboratory access, and course type"
-      ],
-      [
-        "Postgraduate Degree (Annual)",
-        "£16,000 – £35,000 / year",
-        "1-year intensive master's program or research dissertation"
-      ],
-      [
-        "Monthly Living Costs (Outside London)",
-        "£900 – £1,100 / month",
-        "Includes private/student accommodation, groceries, and utilities"
-      ],
-      [
-        "Monthly Living Costs (London)",
-        "£1,250 – £1,450 / month",
-        "Mandated UKVI maintenance requirement for London study"
-      ],
-      [
-        "Health Surcharge (IHS)",
-        "£776 / year",
-        "Access to UK National Health Service (NHS) for student visa holders"
-      ]
-    ]
-  },
-  "faqs": []
+  "seo": {
+    "title": "Study Physiotherapy in the United Kingdom | Edu-Hawk Worldwide",
+    "description": "Students who wish to pursue careers in physiotherapy , rehabilitation, sports medicine , and patient care frequently choose the United Kingdom. In order to help",
+    "keywords": "Study in the UK, Best UK Universities, Edu Hawk Worldwide"
+  }
 }

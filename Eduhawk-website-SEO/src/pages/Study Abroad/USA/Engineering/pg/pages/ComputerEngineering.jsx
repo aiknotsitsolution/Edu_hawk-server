@@ -1,3 +1,4 @@
+import computerEngineeringPGData from "../../../../../../data/study_abroad/usa/comp_engg_pg.json";
 import React from "react";
 import { Link } from "react-router-dom";
 import { EngineeringBranchPage } from "../../../../../../component/CoursePageKit";
@@ -233,21 +234,33 @@ const faqTitle = `Frequently Asked Questions — Postgraduate ${branch.name} in 
 
 // UI is rendered by the shared polished course template (CoursePageKit).
 // All content strings above are unchanged.
-const PostgraduateComputerEngineering = () => (
-  <EngineeringBranchPage
-    branch={branch}
-    level="PG"
-    heroImg={heroImg}
-    imgDims={imgDims}
-    seoPath="/study-abroad/usa/pg/computer-engineering"
-    heroAlt={heroAlt}
-    coursesTitle={coursesTitle}
-    unisTitle={unisTitle}
-    testsEyebrow="Standardised tests"
-    testsTitle="GRE & Other Admission Requirements"
-    careersTitle={careersTitle}
-    faqTitle={faqTitle}
-  />
-);
+const PostgraduateComputerEngineering = () => {
+  const dynamicBranch = {
+    ...branch,
+    title: computerEngineeringPGData?.seo?.title || branch.title,
+    description: computerEngineeringPGData?.seo?.description || branch.description,
+    heroSub: computerEngineeringPGData?.hero?.subtitle || branch.heroSub,
+    faqs: (computerEngineeringPGData?.faq && computerEngineeringPGData.faq.length > 0)
+      ? computerEngineeringPGData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
+      : branch.faqs,
+  };
+
+  return (
+    <EngineeringBranchPage
+      branch={dynamicBranch}
+      level="PG"
+      heroImg={heroImg}
+      imgDims={imgDims}
+      seoPath="/study-abroad/usa/pg/computer-engineering"
+      heroAlt={heroAlt}
+      coursesTitle={coursesTitle}
+      unisTitle={unisTitle}
+      testsEyebrow="Standardised tests"
+      testsTitle="GRE & Other Admission Requirements"
+      careersTitle={careersTitle}
+      faqTitle={faqTitle}
+    />
+  );
+};
 
 export default PostgraduateComputerEngineering;

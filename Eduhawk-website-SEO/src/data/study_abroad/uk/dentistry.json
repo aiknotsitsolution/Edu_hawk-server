@@ -1,29 +1,54 @@
 {
-  "seo": {
-    "title": "Study Dentistry in the UK for Indian Students | Edu-Hawk Worldwide",
-    "description": "Complete guide to Dentistry in the UK for Indian students: Top UK universities, eligibility criteria, tuition fees (£14,000–£35,000/yr), scholarships, and 2-year post-study work visa (Graduate Route)."
-  },
   "hero": {
-    "badge": "Study Abroad - United Kingdom",
     "title": "DENTISTRY IN THE UK",
     "subtitle": "The prevention, diagnosis, and treatment of illnesses and disorders affecting the teeth, gums, mouth and other structures are the main goals of the medical field of dentistry. Through examinations, preventive care, restoration procedures, and treatment planning, dentists assist patients in maintaining oral health."
   },
   "overview": [
     "The prevention, diagnosis, and treatment of illnesses and disorders affecting the teeth, gums, mouth and other structures are the main goals of the medical field of dentistry. Through examinations, preventive care, restoration procedures, and treatment planning, dentists assist patients in maintaining oral health.",
     "Students considering professional dental education frequently travel to the United Kingdom. Dental schools in the UK offer structured academic and clinical training programs that foster the development of scientific knowledge, practical skills, patient communication, and professional accountability.",
-    "Edu Hawk Worldwide Consultancy helps students understand university admissions requirements, explore  foreign study options , and prepare for their international education adventure."
+    "Edu Hawk Worldwide Consultancy helps students understand university admissions requirements, explore foreign study options , and prepare for their international education adventure."
+  ],
+  "universities": [
+    {
+      "name": "Birmingham University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_dentistry_Birmingham_University-image4.png",
+      "image": "/uploads/study_abroad/uk/uk_dentistry_Birmingham_University-image4.png",
+      "desc": "Examine its undergraduate dental surgery program for information on clinical education, admissions requirements, academic requirements, and foreign application policies."
+    },
+    {
+      "name": "Liverpool University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_dentistry_Liverpool_University-image2.png",
+      "image": "/uploads/study_abroad/uk/uk_dentistry_Liverpool_University-image2.png",
+      "desc": "Examine current admissions data, academic prerequisites, and clinical training schedules for undergraduate dentistry."
+    },
+    {
+      "name": "London's King's College",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_dentistry_London_s_King_s_College-image1.png",
+      "image": "/uploads/study_abroad/uk/uk_dentistry_London_s_King_s_College-image1.png",
+      "desc": "Discover undergraduate dentistry at the Oral & Craniofacial Sciences Faculty of Dentistry. Examine its current BDS course specifics, entrance requirements, and international eligibility."
+    },
+    {
+      "name": "Manchester University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_dentistry_Manchester_University-image3.png",
+      "image": "/uploads/study_abroad/uk/uk_dentistry_Manchester_University-image3.png",
+      "desc": "Check the current undergraduate course title, admission requirements, and international cost structure to learn more about dentistry education through the university's dental school."
+    }
   ],
   "sections": [
     {
+      "slot": "why-study",
+      "eyebrow": "Why UK",
       "title": "Why Study Dentistry in the UK?",
-      "eyebrow": "Why Study in the UK",
+      "lead": "The prevention, diagnosis, and treatment of illnesses and disorders affecting the teeth, gums, mouth and other structures are the main goals of the medical field of dentistry. Through examinations, preventive care, restoration procedures, and treatment planning, dentists assist patients in maintaining oral health.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The prevention, diagnosis, and treatment of illnesses and disorders affecting the teeth, gums, mouth and other structures are the main goals of the medical field of dentistry. Through examinations, preventive care, restoration procedures, and treatment planning, dentists assist patients in maintaining oral health."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -33,14 +58,12 @@
         {
           "t": "p",
           "items": [
-            "Edu Hawk Worldwide Consultancy helps students understand university admissions requirements, explore  foreign study options , and prepare for their international education adventure."
+            "Edu Hawk Worldwide Consultancy helps students understand university admissions requirements, explore foreign study options , and prepare for their international education adventure."
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Key Advantages of Studying Dentistry in the United Kingdom"
-          ]
+          "t": "h4",
+          "text": "Key Advantages of Studying Dentistry in the United Kingdom"
         },
         {
           "t": "ul",
@@ -59,15 +82,11 @@
       ]
     },
     {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
       "title": "UK Dentistry Courses",
-      "eyebrow": "Course Guide",
+      "lead": "Undergraduate professional dental degrees and postgraduate dentistry programs and specialized training are options for studying dentistry in the UK.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Undergraduate professional dental degrees and postgraduate dentistry programs and specialized training are options for studying dentistry in the UK."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -187,84 +206,55 @@
       ]
     },
     {
+      "slot": "universities",
+      "eyebrow": "Top UK Universities",
       "title": "The Best UK Universities to Consider for Dentistry",
-      "eyebrow": "Top Institutions",
-      "groups": [
+      "lead": "",
+      "groups": [],
+      "unis": [
         {
-          "t": "universities",
-          "items": [
-            {
-              "name": "London's King's College",
-              "desc": "Discover undergraduate dentistry at the Oral & Craniofacial Sciences Faculty of Dentistry. Examine its current BDS course specifics, entrance requirements, and international eligibility.",
-              "imgKey": "uniImg_Londons_Kings_College_webp"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Birmingham University",
-      "eyebrow": "Top Institutions",
-      "groups": [
-        {
-          "t": "universities",
-          "items": [
-            {
-              "name": "London's King's College",
-              "desc": "Discover undergraduate dentistry at the Oral & Craniofacial Sciences Faculty of Dentistry. Examine its current BDS course specifics, entrance requirements, and international eligibility.",
-              "imgKey": "uniImg_Londons_Kings_College_webp"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Manchester University",
-      "eyebrow": "Top Institutions",
-      "groups": [
-        {
-          "t": "universities",
-          "items": [
-            {
-              "name": "London's King's College",
-              "desc": "Discover undergraduate dentistry at the Oral & Craniofacial Sciences Faculty of Dentistry. Examine its current BDS course specifics, entrance requirements, and international eligibility.",
-              "imgKey": "uniImg_Londons_Kings_College_webp"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Liverpool University",
-      "eyebrow": "Top Institutions",
-      "groups": [
-        {
-          "t": "universities",
-          "items": [
-            {
-              "name": "London's King's College",
-              "desc": "Discover undergraduate dentistry at the Oral & Craniofacial Sciences Faculty of Dentistry. Examine its current BDS course specifics, entrance requirements, and international eligibility.",
-              "imgKey": "uniImg_Londons_Kings_College_webp"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Qualifications for Studying Dentistry in the United Kingdom",
-      "eyebrow": "Course Guide",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Dentistry is a very competitive and academically difficult field. The requirements for studying dentistry in the UK differ depending on the university, applicant category, degree, and method of admission."
-          ]
+          "name": "Birmingham University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_dentistry_Birmingham_University-image4.png",
+          "image": "/uploads/study_abroad/uk/uk_dentistry_Birmingham_University-image4.png",
+          "desc": "Examine its undergraduate dental surgery program for information on clinical education, admissions requirements, academic requirements, and foreign application policies."
         },
         {
-          "t": "p",
-          "items": [
-            "Indian Students' Academic Eligibility"
-          ]
+          "name": "Liverpool University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_dentistry_Liverpool_University-image2.png",
+          "image": "/uploads/study_abroad/uk/uk_dentistry_Liverpool_University-image2.png",
+          "desc": "Examine current admissions data, academic prerequisites, and clinical training schedules for undergraduate dentistry."
+        },
+        {
+          "name": "London's King's College",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_dentistry_London_s_King_s_College-image1.png",
+          "image": "/uploads/study_abroad/uk/uk_dentistry_London_s_King_s_College-image1.png",
+          "desc": "Discover undergraduate dentistry at the Oral & Craniofacial Sciences Faculty of Dentistry. Examine its current BDS course specifics, entrance requirements, and international eligibility."
+        },
+        {
+          "name": "Manchester University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_dentistry_Manchester_University-image3.png",
+          "image": "/uploads/study_abroad/uk/uk_dentistry_Manchester_University-image3.png",
+          "desc": "Check the current undergraduate course title, admission requirements, and international cost structure to learn more about dentistry education through the university's dental school."
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Qualifications for Studying Dentistry in the United Kingdom",
+      "lead": "Dentistry is a very competitive and academically difficult field. The requirements for studying dentistry in the UK differ depending on the university, applicant category, degree, and method of admission.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Indian Students' Academic Eligibility"
         },
         {
           "t": "p",
@@ -273,10 +263,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Typical requirements could be:"
-          ]
+          "t": "h4",
+          "text": "Typical requirements could be:"
         },
         {
           "t": "ul",
@@ -310,10 +298,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Language Requirements in English"
-          ]
+          "t": "h4",
+          "text": "Language Requirements in English"
         },
         {
           "t": "p",
@@ -328,10 +314,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Eligibility for Graduate Entry"
-          ]
+          "t": "h4",
+          "text": "Eligibility for Graduate Entry"
         },
         {
           "t": "p",
@@ -359,8 +343,10 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "Dental Admission Requirements in the United Kingdom",
-      "eyebrow": "Eligibility & Process",
+      "lead": "",
       "groups": [
         {
           "t": "p",
@@ -398,10 +384,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Documents in English"
-          ]
+          "t": "h4",
+          "text": "Documents in English"
         },
         {
           "t": "p",
@@ -416,10 +400,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Documents for Applications"
-          ]
+          "t": "h4",
+          "text": "Documents for Applications"
         },
         {
           "t": "ul",
@@ -435,15 +417,11 @@
       ]
     },
     {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
       "title": "The cost of studying dentistry in the United Kingdom",
-      "eyebrow": "Tuition & Living",
+      "lead": "Due to its length, specialized facilities, clinical training, and professional education requirements, dentistry in the UK can be an expensive degree for international students.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Due to its length, specialized facilities, clinical training, and professional education requirements, dentistry in the UK can be an expensive degree for international students."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -451,12 +429,23 @@
           ]
         },
         {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "International dentistry tuition",
+              "d": "Between GBP 35,000 and GBP 60,000+ year"
+            },
+            {
+              "t": "Local transportation",
+              "d": "About GBP 50–150+ a month"
+            }
+          ]
+        },
+        {
           "t": "ul",
           "items": [
-            "International dentistry tuition | Between GBP 35,000 and GBP 60,000+ year",
             "Lodging | About GBP 700–1,500+ a month |",
             "Approximately GBP 250–500+ per month for food and personal expenditures",
-            "Local transportation | About GBP 50–150+ a month",
             "Books, tools, and personal study resources vary by year and university."
           ]
         },
@@ -471,8 +460,20 @@
           "items": [
             "Costs associated with UCAS applications, if applicable",
             "Registration and preparation for the UCAT",
-            "Testing in the English language",
-            "The cost of applying for a visa",
+            "Testing in the English language"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "The cost of applying for a visa",
+      "lead": "",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
             "When appropriate, the Immigration Health Surcharge",
             "Deposits for lodging and travel",
             "Clinical supplies or dental equipment were billed individually.",
@@ -482,10 +483,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Financial Support and Scholarships"
-          ]
+          "t": "h4",
+          "text": "Financial Support and Scholarships"
         },
         {
           "t": "p",
@@ -507,139 +506,69 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "Admission Procedure",
-      "eyebrow": "Eligibility & Process",
+      "lead": "",
       "groups": [
         {
-          "t": "p",
+          "t": "steps",
           "items": [
-            "Step 1: Look at Dental Schools"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Make a shortlist of universities that, for the year you plan to enter, accept overseas candidates and offer qualifying dental degrees in the UK."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 2: Verify Your Academic Eligibility"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Examine the precise subject and grade requirements as well as the university's Indian Class 12 qualifying policy."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 3 : Verify the Admissions Exam"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Verify if UCAT or another test is required by the university. Within the appropriate testing cycle, register and finish the test."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 4: Get Ready for the English Language Requirements"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Verify whether IELTS Academic or another recognized test is required, and make sure your scores satisfy the standards of the university."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 5: Get Your Application Ready"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Gather academic records, references, answers to applications or personal statements, and any material that is needed."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 6: Use UCAS to Apply"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The Universities and Colleges Admissions Service (UCAS) receives the majority of undergraduate dentistry applications in the UK. Verify the deadlines for applications and the latest course offering."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 7: Finish Interviews and Additional Evaluations"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Get ready for the university interview and any further selection procedures if you are shortlisted."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 8: Examine the Offer"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Verify the necessary final grades, admittance requirements, fee status, deadlines, and whether the offer is unconditional or conditional."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 9: Fulfill Any Requirements"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Send in your final exam results, proof in English, and any further paperwork needed to secure your spot."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 10: Apply for the Right Visa"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Examine the most recent UK Student visa requirements and get the necessary immigration and financial paperwork ready."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 11: Get Ready for Enrollment"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "After fulfilling the necessary entrance and immigration requirements, make travel, lodging, financial preparation, and university registration arrangements."
+            {
+              "step": 1,
+              "title": "Look at Dental Schools",
+              "desc": "Make a shortlist of universities that, for the year you plan to enter, accept overseas candidates and offer qualifying dental degrees in the UK."
+            },
+            {
+              "step": 2,
+              "title": "Verify Your Academic Eligibility",
+              "desc": "Examine the precise subject and grade requirements as well as the university's Indian Class 12 qualifying policy."
+            },
+            {
+              "step": 3,
+              "title": "Verify the Admissions Exam",
+              "desc": "Verify if UCAT or another test is required by the university. Within the appropriate testing cycle, register and finish the test."
+            },
+            {
+              "step": 4,
+              "title": "Get Ready for the English Language Requirements",
+              "desc": "Verify whether IELTS Academic or another recognized test is required, and make sure your scores satisfy the standards of the university."
+            },
+            {
+              "step": 5,
+              "title": "Get Your Application Ready",
+              "desc": "Gather academic records, references, answers to applications or personal statements, and any material that is needed."
+            },
+            {
+              "step": 6,
+              "title": "Use UCAS to Apply",
+              "desc": "The Universities and Colleges Admissions Service (UCAS) receives the majority of undergraduate dentistry applications in the UK. Verify the deadlines for applications and the latest course offering."
+            },
+            {
+              "step": 7,
+              "title": "Finish Interviews and Additional Evaluations",
+              "desc": "Get ready for the university interview and any further selection procedures if you are shortlisted."
+            },
+            {
+              "step": 8,
+              "title": "Examine the Offer",
+              "desc": "Verify the necessary final grades, admittance requirements, fee status, deadlines, and whether the offer is unconditional or conditional."
+            },
+            {
+              "step": 9,
+              "title": "Fulfill Any Requirements",
+              "desc": "Send in your final exam results, proof in English, and any further paperwork needed to secure your spot."
+            },
+            {
+              "step": 10,
+              "title": "Apply for the Right Visa",
+              "desc": "Examine the most recent UK Student visa requirements and get the necessary immigration and financial paperwork ready."
+            },
+            {
+              "step": 11,
+              "title": "Get Ready for Enrollment",
+              "desc": "After fulfilling the necessary entrance and immigration requirements, make travel, lodging, financial preparation, and university registration arrangements."
+            }
           ]
         },
         {
@@ -657,8 +586,10 @@
       ]
     },
     {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
       "title": "Immigration, Accreditation, and Recognition Issues",
-      "eyebrow": "Course Guide",
+      "lead": "",
       "groups": [
         {
           "t": "p",
@@ -711,20 +642,14 @@
       ]
     },
     {
+      "slot": "careers",
+      "eyebrow": "Career & Salary",
       "title": "Pay and Employment Prospects in the UK After Dentistry",
-      "eyebrow": "Career & Prospects",
+      "lead": "Graduates may pursue dental practice and other career pathways after earning a qualifying dental degree in the UK and fulfilling the necessary registration criteria.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Graduates may pursue dental practice and other career pathways after earning a qualifying dental degree in the UK and fulfilling the necessary registration criteria."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Possible Career Paths"
-          ]
+          "t": "h4",
+          "text": "Possible Career Paths"
         },
         {
           "t": "ul",
@@ -759,8 +684,10 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "Documents Needed in the UK for Admission to Dentistry",
-      "eyebrow": "Eligibility & Process",
+      "lead": "",
       "groups": [
         {
           "t": "p",
@@ -781,10 +708,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Documents for Applications"
-          ]
+          "t": "h4",
+          "text": "Documents for Applications"
         },
         {
           "t": "ul",
@@ -799,10 +724,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Enrollment and Visa Documents, If Relevant"
-          ]
+          "t": "h4",
+          "text": "Enrollment and Visa Documents, If Relevant"
         },
         {
           "t": "ul",
@@ -821,112 +744,37 @@
           ]
         }
       ]
-    },
-    {
-      "title": "FAQs",
-      "eyebrow": "Got Questions?",
-      "groups": [
-        {
-          "t": "faqs",
-          "items": [
-            {
-              "q": "Q1. How long does it take to study dentistry in the United Kingdom?",
-              "a": "In the UK, many undergraduate dental degrees require roughly five years. Students should confirm the structure of their selected program because certain graduate-entry or alternative pathways have varying lengths."
-            },
-            {
-              "q": "Q2. After Class 12, are Indian students able to pursue dental studies in the UK?",
-              "a": "Indeed. Indian students who fulfill the academic, subject, English language, admissions test, and selection requirements of the institution are eligible to apply. The acceptance of Indian credentials varies by university, and admission is tough."
-            },
-            {
-              "q": "Q3. Does studying dentistry in the UK require taking NEET?",
-              "a": "NEET is not a required exam for admission to dentistry schools in the United Kingdom. Academic credentials and an entrance test like the UCAT may be required by UK universities. The present Indian requirements that are pertinent to their expected future profession should be independently verified by Indian pupils."
-            },
-            {
-              "q": "Q4. How much does it cost to study dentistry in the UK?",
-              "a": "Depending on the university, the annual cost of international tuition might range from GBP 35,000 to GBP 60,000 or more. Official fee schedules should constantly be reviewed, and living expenditures and other costs need to be budgeted separately."
-            },
-            {
-              "q": "Q5. After earning a dental degree, can I work as a dentist in the UK?",
-              "a": "If they fulfill the necessary conditions, graduates of an authorized qualifying dental program may be qualified to apply for registration with the General Dental Council. Professional practice is not automatically authorized by earning a degree."
-            },
-            {
-              "q": "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
-              "a": "Students can use Edu Hawk Worldwide to plan their study-abroad journey, organize their application materials, research appropriate universities, and comprehend admission standards. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
-            }
-          ]
-        }
-      ]
     }
   ],
-  "universities": [
-    {
-      "name": "London's King's College",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Discover undergraduate dentistry at the Oral & Craniofacial Sciences Faculty of Dentistry. Examine its current BDS course specifics, entrance requirements, and international eligibility.",
-      "imgFile": "Londons_Kings_College.webp"
-    }
-  ],
-  "table": {
-    "title": "Estimated Cost of Studying Dentistry in the UK (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (£ / GBP)",
-      "Details / Scope"
-    ],
-    "rows": [
-      [
-        "Undergraduate Degree (Annual)",
-        "£14,000 – £28,000 / year",
-        "Varies by university ranking, laboratory access, and course type"
-      ],
-      [
-        "Postgraduate Degree (Annual)",
-        "£16,000 – £35,000 / year",
-        "1-year intensive master's program or research dissertation"
-      ],
-      [
-        "Monthly Living Costs (Outside London)",
-        "£900 – £1,100 / month",
-        "Includes private/student accommodation, groceries, and utilities"
-      ],
-      [
-        "Monthly Living Costs (London)",
-        "£1,250 – £1,450 / month",
-        "Mandated UKVI maintenance requirement for London study"
-      ],
-      [
-        "Health Surcharge (IHS)",
-        "£776 / year",
-        "Access to UK National Health Service (NHS) for student visa holders"
-      ]
-    ]
-  },
   "faqs": [
     {
-      "q": "Q1. How long does it take to study dentistry in the United Kingdom?",
+      "q": "How long does it take to study dentistry in the United Kingdom?",
       "a": "In the UK, many undergraduate dental degrees require roughly five years. Students should confirm the structure of their selected program because certain graduate-entry or alternative pathways have varying lengths."
     },
     {
-      "q": "Q2. After Class 12, are Indian students able to pursue dental studies in the UK?",
+      "q": "After Class 12, are Indian students able to pursue dental studies in the UK?",
       "a": "Indeed. Indian students who fulfill the academic, subject, English language, admissions test, and selection requirements of the institution are eligible to apply. The acceptance of Indian credentials varies by university, and admission is tough."
     },
     {
-      "q": "Q3. Does studying dentistry in the UK require taking NEET?",
+      "q": "Does studying dentistry in the UK require taking NEET?",
       "a": "NEET is not a required exam for admission to dentistry schools in the United Kingdom. Academic credentials and an entrance test like the UCAT may be required by UK universities. The present Indian requirements that are pertinent to their expected future profession should be independently verified by Indian pupils."
     },
     {
-      "q": "Q4. How much does it cost to study dentistry in the UK?",
+      "q": "How much does it cost to study dentistry in the UK?",
       "a": "Depending on the university, the annual cost of international tuition might range from GBP 35,000 to GBP 60,000 or more. Official fee schedules should constantly be reviewed, and living expenditures and other costs need to be budgeted separately."
     },
     {
-      "q": "Q5. After earning a dental degree, can I work as a dentist in the UK?",
+      "q": "After earning a dental degree, can I work as a dentist in the UK?",
       "a": "If they fulfill the necessary conditions, graduates of an authorized qualifying dental program may be qualified to apply for registration with the General Dental Council. Professional practice is not automatically authorized by earning a degree."
     },
     {
       "q": "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
       "a": "Students can use Edu Hawk Worldwide to plan their study-abroad journey, organize their application materials, research appropriate universities, and comprehend admission standards. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
     }
-  ]
+  ],
+  "seo": {
+    "title": "DENTISTRY IN THE UK | Edu-Hawk Worldwide",
+    "description": "The prevention, diagnosis, and treatment of illnesses and disorders affecting the teeth, gums, mouth and other structures are the main goals of the medical fiel",
+    "keywords": "Study in the UK, Best UK Universities, Edu Hawk Worldwide"
+  }
 }

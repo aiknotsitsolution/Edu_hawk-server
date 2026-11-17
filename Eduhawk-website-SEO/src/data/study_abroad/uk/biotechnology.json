@@ -1,10 +1,5 @@
 {
-  "seo": {
-    "title": "Study Biotechnology in the UK for Indian Students | Edu-Hawk Worldwide",
-    "description": "Complete guide to Biotechnology in the UK for Indian students: Top UK universities, eligibility criteria, tuition fees (£14,000–£35,000/yr), scholarships, and 2-year post-study work visa (Graduate Route)."
-  },
   "hero": {
-    "badge": "Study Abroad - United Kingdom",
     "title": "UK Study Biotechnology",
     "subtitle": "\"Biotechnology,\" a rapidly growing field, utilizes biology, chemistry, genetics, and technology to create products and processes that improve industrial production, agriculture, environmental sustainability, and human health."
   },
@@ -13,17 +8,39 @@
     "The UK offers a huge range of undergraduate and postgraduate biotechnology courses for those seeking a career in biotechnology research, laboratory science, pharmaceutical development and life sciences.",
     "Edu Hawk Worldwide Consultancy helps students to get prepared for their international education journey, to understand university admission requirements, and to look into international study options."
   ],
+  "universities": [
+    {
+      "name": "Edinburgh University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_biotechnology_Edinburgh_University-image2.png",
+      "image": "/uploads/study_abroad/uk/uk_biotechnology_Edinburgh_University-image2.png",
+      "desc": "Edinburgh University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "London's Imperial College",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_biotechnology_London_s_Imperial_College-image3.png",
+      "image": "/uploads/study_abroad/uk/uk_biotechnology_London_s_Imperial_College-image3.png",
+      "desc": "London's Imperial College is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Oxford University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_biotechnology_Oxford_University-image1.png",
+      "image": "/uploads/study_abroad/uk/uk_biotechnology_Oxford_University-image1.png",
+      "desc": "Oxford University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    }
+  ],
   "sections": [
     {
+      "slot": "why-study",
+      "eyebrow": "Why UK",
       "title": "Why to Study Biotechnology in the UK ?",
-      "eyebrow": "Why Study in the UK",
+      "lead": "\"Biotechnology,\" a rapidly growing field, utilizes biology, chemistry, genetics, and technology to create products and processes that improve industrial production, agriculture, environmental sustainability, and human health.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "\"Biotechnology,\" a rapidly growing field, utilizes biology, chemistry, genetics, and technology to create products and processes that improve industrial production, agriculture, environmental sustainability, and human health."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -37,10 +54,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "The main advantages of studying biotechnology in the UK"
-          ]
+          "t": "h4",
+          "text": "The main advantages of studying biotechnology in the UK"
         },
         {
           "t": "ul",
@@ -56,15 +71,11 @@
       ]
     },
     {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
       "title": "Biotechnology Courses in the UK",
-      "eyebrow": "Course Guide",
+      "lead": "UK universities offer biotechnology undergraduate, graduate and research degrees.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "UK universities offer biotechnology undergraduate, graduate and research degrees."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -155,10 +166,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Popular options are:"
-          ]
+          "t": "h4",
+          "text": "Popular options are:"
         },
         {
           "t": "ul",
@@ -206,57 +215,54 @@
             "PhD in Synthetic Biology",
             "Doctor of Philosophy in Microbiology",
             "Doctor of Philosophy in Biomedical Sciences",
-            "Doctor of Philosophy in Bioengineering"
+            "Doctor of Philosophy in Bioengineering",
+            "Doctor of Philosophy in Pharmaceutical Sciences"
           ]
         }
       ]
     },
     {
-      "title": "Doctor of Philosophy in Pharmaceutical Sciences",
-      "eyebrow": "Course Guide",
-      "groups": []
-    },
-    {
+      "slot": "universities",
+      "eyebrow": "Top UK Universities",
       "title": "Top UK Universities to explore for Biotechnology",
-      "eyebrow": "Top Institutions",
-      "groups": [
+      "lead": "For biotechnology, molecular biology, biomedical sciences, genetics, and related researchThe following universities are worth investigating. Before applying, confirm the current program and foreign entry criteria because not all universities offer every course title.",
+      "groups": [],
+      "unis": [
         {
-          "t": "universities",
-          "items": [
-            {
-              "name": "Edinburgh University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Edinburgh_University_webp"
-            },
-            {
-              "name": "Londons Imperial College",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Londons_Imperial_College_webp"
-            },
-            {
-              "name": "Oxford University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Oxford_University_webp"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Qualifications for Studying Biotechnology in the UK",
-      "eyebrow": "Course Guide",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "In the UK, eligibility for biotechnology varies by study level, program, and university."
-          ]
+          "name": "Edinburgh University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_biotechnology_Edinburgh_University-image2.png",
+          "image": "/uploads/study_abroad/uk/uk_biotechnology_Edinburgh_University-image2.png",
+          "desc": "Edinburgh University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
         },
         {
-          "t": "p",
-          "items": [
-            "A. Eligibility for Undergraduates"
-          ]
+          "name": "London's Imperial College",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_biotechnology_London_s_Imperial_College-image3.png",
+          "image": "/uploads/study_abroad/uk/uk_biotechnology_London_s_Imperial_College-image3.png",
+          "desc": "London's Imperial College is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Oxford University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_biotechnology_Oxford_University-image1.png",
+          "image": "/uploads/study_abroad/uk/uk_biotechnology_Oxford_University-image1.png",
+          "desc": "Oxford University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Qualifications for Studying Biotechnology in the UK",
+      "lead": "In the UK, eligibility for biotechnology varies by study level, program, and university.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "A. Eligibility for Undergraduates"
         },
         {
           "t": "p",
@@ -330,10 +336,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "D. Language Requirements in English"
-          ]
+          "t": "h4",
+          "text": "D. Language Requirements in English"
         },
         {
           "t": "p",
@@ -350,15 +354,11 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "UK Biotechnology Admission Requirements",
-      "eyebrow": "Eligibility & Process",
+      "lead": "Academic and supporting documentation are often required for a biotechnology university application in the UK.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Academic and supporting documentation are often required for a biotechnology university application in the UK."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -375,10 +375,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Documents in English"
-          ]
+          "t": "h4",
+          "text": "Documents in English"
         },
         {
           "t": "p",
@@ -411,15 +409,11 @@
       ]
     },
     {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
       "title": "The cost of studying biotechnology in the United Kingdom",
-      "eyebrow": "Tuition & Living",
+      "lead": "The university, length of the course, location, laboratory needs, and lifestyle all affect the cost of studying biotechnology in the UK.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The university, length of the course, location, laboratory needs, and lifestyle all affect the cost of studying biotechnology in the UK."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -427,11 +421,32 @@
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Undergraduate degree in biotechnology or a similar field | £18,000–£35,000",
-            "Master's degree in biotechnology or a similar discipline | £20,000–£40,000",
-            "Biotechnology or life sciences research degree | £20,000–£40,000 or more"
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Undergraduate degree in biotechnology or a similar field",
+              "d": "£18,000–£35,000"
+            },
+            {
+              "t": "Master's degree in biotechnology or a similar discipline",
+              "d": "£20,000–£40,000"
+            },
+            {
+              "t": "Biotechnology or life sciences research degree",
+              "d": "£20,000–£40,000 or more"
+            },
+            {
+              "t": "Groceries and food",
+              "d": "£180–£300"
+            },
+            {
+              "t": "Internet and mobile",
+              "d": "£20–£50"
+            },
+            {
+              "t": "Study materials and personal expenditures",
+              "d": "£100–£250"
+            }
           ]
         },
         {
@@ -444,10 +459,7 @@
           "t": "ul",
           "items": [
             "Lodging | £600–£1,200 |",
-            "Groceries and food | £180–£300",
-            "Local transportation costs between £60 and £160.",
-            "Internet and mobile | £20–£50",
-            "Study materials and personal expenditures | £100–£250"
+            "Local transportation costs between £60 and £160."
           ]
         },
         {
@@ -477,129 +489,69 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "The UK's Biotechnology Admissions Process",
-      "eyebrow": "Eligibility & Process",
+      "lead": "",
       "groups": [
         {
-          "t": "p",
+          "t": "steps",
           "items": [
-            "Step 1: Select Your Area of Expertise"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Select a field of interest, such as medical biotechnology, molecular biology, industrial biotechnology, genetics, bioinformatics, pharmaceutical development, or another."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 2: Make a shortlist of colleges"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Examine curricula, lab spaces, research projects, optional placements, prerequisites for admission, and tuition costs."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 3: Verify Your Academic Qualifications"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Verify that the course criteria are met by your Indian credentials and subject combination. If straight entry is not an option, see if there is a foundation program."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 4: Get Your Documents Ready"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Gather academic records, English-language test results, references, a personal statement, a passport, and research materials as needed."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 5: Send in Your Application"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "While postgraduate applications are typically submitted through particular institution websites, undergraduate applications are frequently submitted through UCAS. Different application routes are used for certain courses."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 6: Get an Offer and Accept It"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Examine any terms that are included in the offer. Academic grades, English language proficiency, document verification, and other requirements are a few examples of these."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 7: Set Up Finances and Lodging"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Create a budget, evaluate your housing possibilities, and submit an application for any available funds or scholarships."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 8: Request a Student Visa for the UK"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Examine the most recent student visa regulations and get your application ready after fulfilling the requirements for admission and obtaining the necessary Confirmation of Acceptance for Studies (CAS)."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 9: Finish Enrollment"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Complete your university registration, go to the induction, and get ready for any course-related labs, research projects, or placements."
+            {
+              "step": 1,
+              "title": "Select Your Area of Expertise",
+              "desc": "Select a field of interest, such as medical biotechnology, molecular biology, industrial biotechnology, genetics, bioinformatics, pharmaceutical development, or another."
+            },
+            {
+              "step": 2,
+              "title": "Make a shortlist of colleges",
+              "desc": "Examine curricula, lab spaces, research projects, optional placements, prerequisites for admission, and tuition costs."
+            },
+            {
+              "step": 3,
+              "title": "Verify Your Academic Qualifications",
+              "desc": "Verify that the course criteria are met by your Indian credentials and subject combination. If straight entry is not an option, see if there is a foundation program."
+            },
+            {
+              "step": 4,
+              "title": "Get Your Documents Ready",
+              "desc": "Gather academic records, English-language test results, references, a personal statement, a passport, and research materials as needed."
+            },
+            {
+              "step": 5,
+              "title": "Send in Your Application",
+              "desc": "While postgraduate applications are typically submitted through particular institution websites, undergraduate applications are frequently submitted through UCAS. Different application routes are used for certain courses."
+            },
+            {
+              "step": 6,
+              "title": "Get an Offer and Accept It",
+              "desc": "Examine any terms that are included in the offer. Academic grades, English language proficiency, document verification, and other requirements are a few examples of these."
+            },
+            {
+              "step": 7,
+              "title": "Set Up Finances and Lodging",
+              "desc": "Create a budget, evaluate your housing possibilities, and submit an application for any available funds or scholarships."
+            },
+            {
+              "step": 8,
+              "title": "Request a Student Visa for the UK",
+              "desc": "Examine the most recent student visa regulations and get your application ready after fulfilling the requirements for admission and obtaining the necessary Confirmation of Acceptance for Studies (CAS)."
+            },
+            {
+              "step": 9,
+              "title": "Finish Enrollment",
+              "desc": "Complete your university registration, go to the induction, and get ready for any course-related labs, research projects, or placements."
+            }
           ]
         }
       ]
     },
     {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
       "title": "Professional Considerations, Accreditation, and Recognition",
-      "eyebrow": "Course Guide",
+      "lead": "The scientific field of biotechnology is vast. A generic biotechnology degree typically does not result in a single professional license that is necessary for all biotechnology occupations, in contrast to other regulated healthcare professions.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The scientific field of biotechnology is vast. A generic biotechnology degree typically does not result in a single professional license that is necessary for all biotechnology occupations, in contrast to other regulated healthcare professions."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -643,20 +595,14 @@
       ]
     },
     {
+      "slot": "careers",
+      "eyebrow": "Career & Salary",
       "title": "Career Prospects in the UK Following Biotechnology Study",
-      "eyebrow": "Career & Prospects",
+      "lead": "Opportunities in research, pharmaceutical development, diagnostics, manufacturing, agriculture, environmental science, and scientific data analysis are available to UK biotechnology graduates.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Opportunities in research, pharmaceutical development, diagnostics, manufacturing, agriculture, environmental science, and scientific data analysis are available to UK biotechnology graduates."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Possible Career Paths"
-          ]
+          "t": "h4",
+          "text": "Possible Career Paths"
         },
         {
           "t": "ul",
@@ -699,19 +645,15 @@
           "items": [
             "The visa process and regulations in effect at the time of graduation determine an international graduate's ability to stay and work in the UK. Permanent residency or employment authorization are not automatically granted by a degree."
           ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "10. Documents Needed to Apply"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Get the necessary paperwork ready for the program you have chosen:"
-          ]
-        },
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Documents Needed to Apply",
+      "lead": "Get the necessary paperwork ready for the program you have chosen:",
+      "groups": [
         {
           "t": "ul",
           "items": [
@@ -741,136 +683,8 @@
           ]
         }
       ]
-    },
-    {
-      "title": "FAQs",
-      "eyebrow": "Got Questions?",
-      "groups": [
-        {
-          "t": "faqs",
-          "items": [
-            {
-              "q": "In the UK, how long does it take to study biotechnology?",
-              "a": "In England, Wales, and Northern Ireland, an undergraduate degree typically takes three years, however some degrees in Scotland take four. Although it varies by program and university, a full-time master's degree typically takes one year."
-            },
-            {
-              "q": "After Class 12, are Indian students able to pursue biotechnology studies in the UK?",
-              "a": "Indeed. Indian students who fulfill the academic and English language requirements are eligible to apply. Although biology and chemistry are frequently pertinent courses, each university has its own requirements for minimum grades and subject combinations."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Is the IELTS required for UK biotechnology courses?",
-      "eyebrow": "Course Guide",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Not always. IELTS Academic, TOEFL iBT, PTE Academic, and other authorized evidence may be accepted by universities. Candidates should confirm any applicable visa requirements as well as the course-specific requirements."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "4. After earning a BSc in biotechnology, is biotechnology a suitable choice in India?"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Students can specialize in fields including molecular biotechnology, genomics, pharmaceutical biotechnology, bioinformatics, or industrial biotechnology with an appropriate master's degree in the UK. The course material, research opportunities, expenses, and abilities needed for their desired vocations should all be compared by students."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "5. What kinds of careers are available in the UK after studying biotechnology?"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Potential positions include research assistant, laboratory technician, quality control analyst, bioprocessing associate, clinical research assistant, bioinformatics analyst, and regulatory affairs associate, depending on your training and experience. A master's degree, doctorate, or significant research experience are prerequisites for several advanced scientific positions."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "How may I study abroad with the assistance of Edu Hawk Worldwide Consultancy?"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Students may plan their study abroad experience, organize their application materials, research appropriate universities, and comprehend admission requirements with the assistance of Edu Hawk Worldwide. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
-          ]
-        }
-      ]
     }
   ],
-  "universities": [
-    {
-      "name": "Edinburgh University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Edinburgh_University.webp"
-    },
-    {
-      "name": "Londons Imperial College",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Londons_Imperial_College.webp"
-    },
-    {
-      "name": "Oxford University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Oxford_University.webp"
-    }
-  ],
-  "table": {
-    "title": "Estimated Cost of Studying Biotechnology in the UK (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (£ / GBP)",
-      "Details / Scope"
-    ],
-    "rows": [
-      [
-        "Undergraduate Degree (Annual)",
-        "£14,000 – £28,000 / year",
-        "Varies by university ranking, laboratory access, and course type"
-      ],
-      [
-        "Postgraduate Degree (Annual)",
-        "£16,000 – £35,000 / year",
-        "1-year intensive master's program or research dissertation"
-      ],
-      [
-        "Monthly Living Costs (Outside London)",
-        "£900 – £1,100 / month",
-        "Includes private/student accommodation, groceries, and utilities"
-      ],
-      [
-        "Monthly Living Costs (London)",
-        "£1,250 – £1,450 / month",
-        "Mandated UKVI maintenance requirement for London study"
-      ],
-      [
-        "Health Surcharge (IHS)",
-        "£776 / year",
-        "Access to UK National Health Service (NHS) for student visa holders"
-      ]
-    ]
-  },
   "faqs": [
     {
       "q": "In the UK, how long does it take to study biotechnology?",
@@ -879,6 +693,27 @@
     {
       "q": "After Class 12, are Indian students able to pursue biotechnology studies in the UK?",
       "a": "Indeed. Indian students who fulfill the academic and English language requirements are eligible to apply. Although biology and chemistry are frequently pertinent courses, each university has its own requirements for minimum grades and subject combinations."
+    },
+    {
+      "q": "Is the IELTS required for UK biotechnology courses?",
+      "a": "Not always. IELTS Academic, TOEFL iBT, PTE Academic, and other authorized evidence may be accepted by universities. Candidates should confirm any applicable visa requirements as well as the course-specific requirements."
+    },
+    {
+      "q": "After earning a BSc in biotechnology, is biotechnology a suitable choice in India?",
+      "a": "Students can specialize in fields including molecular biotechnology, genomics, pharmaceutical biotechnology, bioinformatics, or industrial biotechnology with an appropriate master's degree in the UK. The course material, research opportunities, expenses, and abilities needed for their desired vocations should all be compared by students."
+    },
+    {
+      "q": "What kinds of careers are available in the UK after studying biotechnology?",
+      "a": "Potential positions include research assistant, laboratory technician, quality control analyst, bioprocessing associate, clinical research assistant, bioinformatics analyst, and regulatory affairs associate, depending on your training and experience. A master's degree, doctorate, or significant research experience are prerequisites for several advanced scientific positions."
+    },
+    {
+      "q": "How may I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
+      "a": "Students may plan their study abroad experience, organize their application materials, research appropriate universities, and comprehend admission requirements with the assistance of Edu Hawk Worldwide. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
     }
-  ]
+  ],
+  "seo": {
+    "title": "UK Study Biotechnology | Edu-Hawk Worldwide",
+    "description": "\"Biotechnology,\" a rapidly growing field, utilizes biology, chemistry, genetics, and technology to create products and processes that improve industrial product",
+    "keywords": "Study in the UK, Best UK Universities, Edu Hawk Worldwide"
+  }
 }

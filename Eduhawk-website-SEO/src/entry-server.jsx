@@ -31,6 +31,7 @@ import Italy from "./pages/Country/Italy.jsx";
 import BlogSection from "./pages/Blog/BlogSection.jsx";
 import Blog from "./pages/Component/Blog.jsx";
 import BlogDetail from "./pages/Component/BlogDetail.jsx";
+import NewsPage from "./pages/News/NewsPage.jsx";
 import AllIndia from "./pages/Country/India/AllIndia.jsx";
 import Landingpage from "./pages/Landingpage/Landingpage.jsx";
 import TermsAndConditions from "./pages/TermsAndConditions/TermsAndConditions.jsx";
@@ -678,6 +679,8 @@ export async function render(url) {
               <Route path="mbbs-abroad/italy" element={<Italy />} />
               <Route path="blog/education-blog" element={<Navigate to="/blog" replace />} />
               <Route path="blog" element={<Blog />} />
+              <Route path="news" element={<NewsPage />} />
+              <Route path="study-abroad/news" element={<NewsPage />} />
               <Route path="blog/:slugOrId" element={<BlogDetail />} />
               <Route path="services" element={<Services />} />
               <Route path="contact" element={<Contact />} />

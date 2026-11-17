@@ -1,204 +1,391 @@
 {
-  "seo": {
-    "title": "Study Electrical Engineering (PG) in Ireland for Indian Students | Edu-Hawk Worldwide",
-    "description": "Complete guide to Electrical Engineering (PG) in Ireland for Indian students: Top Irish universities, eligibility criteria, tuition fees (€13,500 – €28,640 / year), scholarships, and 2-year post-study work visa (Stamp 1G)."
-  },
   "hero": {
-    "badge": "Study Abroad - Ireland",
-    "title": "PG IN ELECTRICAL ENGINEERING IN IRELAND",
-    "subtitle": "PG in Electrical Engineering in Ireland"
+    "title": "PG in Electrical Engineering in Ireland",
+    "subtitle": "\\\\Postgraduate Electrical Engineering\\\\ is designed for graduates seeking to gain \\\\advanced skills in electrical power, energy systems, electrical machines, control systems and power electronics\\. \\\\Engineering master's programmes\\\\ Ireland offers a combination of specialist study, technical projects and research."
   },
   "overview": [
-    "PG in Electrical Engineering in Ireland"
+    "\\\\Postgraduate Electrical Engineering\\\\ is designed for graduates seeking to gain \\\\advanced skills in electrical power, energy systems, electrical machines, control systems and power electronics\\. \\\\Engineering master's programmes\\\\ Ireland offers a combination of specialist study, technical projects and research.",
+    "\\\\Specialised technical education:\\\\ Discover \\\\electrical power systems, renewable energy, smart grids, control systems and electrical machines\\.",
+    "\\\\Energy transition opportunities:\\\\ Grow knowledge in \\\\renewable energy, energy storage, power networks and electrification\\."
+  ],
+  "universities": [
+    {
+      "name": "University College Cork (UCC)",
+      "location": "Cork, Ireland",
+      "fee": "€16,000 – €30,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Cork-image1.png",
+      "image": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Cork-image1.png",
+      "desc": "\\\\University College Cork (UCC)\\\\ has a relevant program for graduates seeking to further their studies in \\\\electrical and electronic engineering\\."
+    },
+    {
+      "name": "University of Galway",
+      "location": "Galway, Ireland",
+      "fee": "€16,000 – €30,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_biotechnology_University_of_Galway-image3.png",
+      "image": "/uploads/study_abroad/ireland/ireland_biotechnology_University_of_Galway-image3.png",
+      "desc": "ME route in Electrical and Electronic Engineering\\\\ (postgraduate)"
+    },
+    {
+      "name": "Trinity College Dublin",
+      "location": "Dublin, Ireland",
+      "fee": "€16,000 – €30,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
+      "image": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
+      "desc": "\\\\Trinity College Dublin\\\\ is worth looking at for \\\\postgraduate engineering study in electronics, information engineering and related technical fields\\.4. Eligibility for Study PG in Electrical Engineering in Ireland Most \\\\postgraduate Electrical Engineering programmes\\\\ require a \\\\bachelor's degree in Electrical Engineering, Electrical and Electronic Engineering or a closely related discipline\\\\ that is recognized. Typical requirements include: - An undergraduate degree such as a \\\\BE, BTech or equivalent. Academic results meeting the minimum standards of the university satisfactorily. Previous related study in \\\\electrical circuits, electrical machines, electronics, control systems or power systems\\. \\\\English language skills\\\\ where required. Other requirements as required by the program. Who can apply? (Indian students) \\\\Indian applicants\\\\ are generally evaluated based on their \\\\bachelor's degree, recognition of the university, academic marks or CGPA, subject content and overall academic background\\. The most straightforward path is a \\\\BE or BTech in Electrical Engineering or Electrical and Electronics Engineering\\. Applicants in \\\\Electronics and Communication Engineering, Instrumentation, Mechatronics or related disciplines\\\\ may be considered if their previous study meets the program requirements."
+    }
   ],
   "sections": [
     {
-      "title": "1. Why study Electrical Engineering PG in Ireland?",
-      "eyebrow": "Why Study in Ireland",
+      "slot": "why-study",
+      "eyebrow": "Why Ireland",
+      "title": "Why study Electrical Engineering PG in Ireland?",
+      "lead": "\\\\Postgraduate Electrical Engineering\\\\ is designed for graduates seeking to gain \\\\advanced skills in electrical power, energy systems, electrical machines, control systems and power electronics\\. \\\\Engineering master's programmes\\\\ Ireland offers a combination of specialist study, technical projects and research.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Postgraduate Electrical Engineering is designed for graduates seeking to gain advanced skills in electrical power, energy systems, electrical machines, control systems and power electronics. Engineering master's programmes Ireland offers a combination of specialist study, technical projects and research.",
-            "Benefits of education in Ireland are:"
-          ]
+          "t": "h4",
+          "text": "\\\\ Benefits of education in Ireland are:\\\\"
         },
         {
-          "t": "ul",
+          "t": "p",
           "items": [
-            "Specialised technical education: Discover electrical power systems, renewable energy, smart grids, control systems and electrical machines.",
-            "Energy transition opportunities: Grow knowledge in renewable energy, energy storage, power networks and electrification.",
-            "Practical learning: Many programs include laboratory work, technical assignments, research and a major project.",
-            "Industry applications: Electrical engineering skills apply to energy, utilities, manufacturing, electronics, automation and infrastructure",
-            "More research: A Master’s degree can form the basis of a PhD or specialist engineering research.",
-            "International exposure: Study in a English speaking European country and get the taste of international engineering practices."
+            "\\\\Specialised technical education:\\\\ Discover \\\\electrical power systems, renewable energy, smart grids, control systems and electrical machines\\."
           ]
         },
         {
           "t": "p",
           "items": [
-            "Students can look into these opportunities and learn about the requirements for studying abroad through Edu Hawk’s worldwide study abroad guidance."
+            "\\\\Energy transition opportunities:\\\\ Grow knowledge in \\\\renewable energy, energy storage, power networks and electrification\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Practical learning:\\\\ Many programs include \\\\laboratory work, technical assignments, research and a major project\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Industry applications:\\\\ Electrical engineering skills apply to \\\\energy, utilities, manufacturing, electronics, automation and infrastructure\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\More research:\\\\ A \\\\Master's degree\\\\ can form the basis of a \\\\PhD or specialist engineering research\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\International exposure:\\\\ Study in a \\\\English speaking European country\\\\ and get the taste of international engineering practices."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students can look into these opportunities and learn about the requirements for studying abroad through Edu Hawk's worldwide study abroad guidance."
           ]
         }
       ]
     },
     {
-      "title": "2. Masters in Electrical Engineering in Ireland",
-      "eyebrow": "Degrees & Programs",
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Masters in Electrical Engineering in Ireland",
+      "lead": "Postgraduate Electrical Engineering courses in Ireland include taught masters degrees, research masters programs and doctoral study. Many full-time taught master's programs last for one year, but this varies.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Postgraduate Electrical Engineering courses in Ireland include taught masters degrees, research masters programs and doctoral study. Many full-time taught master’s programs last for one year, but this varies.",
-            "MEngSc in Electrical and Electronic Engineering*"
+            "MEngSc in Electrical and Electronic Engineering\\\\"
           ]
         },
         {
-          "t": "ul",
+          "t": "p",
           "items": [
-            "Advanced electrical and electronic engineering, with project",
-            "ME in Electrical and Electronic Engineering",
-            "Advanced engineering study and technical specialization",
-            "MSc in Electrical Engineering or Energy Systems",
-            "Power, energy, control or related technical areas",
+            "Advanced electrical and electronic engineering, with project"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\ME in Electrical and Electronic Engineering\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Advanced engineering study and technical specialization"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\MSc in Electrical Engineering or Energy Systems\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Power, energy, control or related technical areas"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
             "Research on a specific electrical engineering subject"
           ]
         },
         {
           "t": "p",
           "items": [
-            "PhD in Electrical Engineering",
+            "PhD in Electrical Engineering\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
             "Popular specializations"
           ]
         },
         {
           "t": "ul",
           "items": [
-            "*Electrical Power Engineering",
-            "Renewable energy technologies",
-            "- Smart Grids and energy storage",
-            "Power electronics and electric drives",
-            "- Control and automation engineering",
-            "Electrical Machines",
-            "- High Voltage Engineering",
-            "- Electronic Systems and Circuits",
-            "- Signal Processing and Communication",
-            "- Energy Systems & Sustainable Engineering"
+            "\\\\Electrical Power Engineering"
           ]
-        }
-      ]
-    },
-    {
-      "title": "3. Best Electrical Engineering PG Universities in Ireland",
-      "eyebrow": "Top Institutions",
-      "groups": [
-        {
-          "t": "universities",
-          "items": [
-            "University College Cork",
-            "Trinity College Dublin",
-            "Trinity College Dublin"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "4. Eligibility for Study PG in Electrical Engineering in Ireland",
-      "eyebrow": "Admissions Criteria",
-      "groups": [
+        },
         {
           "t": "p",
           "items": [
-            "Most postgraduate Electrical Engineering programmes require a bachelor’s degree in Electrical Engineering, Electrical and Electronic Engineering or a closely related discipline that is recognized.",
-            "Typical requirements include:"
+            "\\\\Renewable energy technologies\\\\"
           ]
         },
         {
           "t": "ul",
           "items": [
-            "An undergraduate degree such as a *BE, BTech or equivalent.",
-            "Academic results meeting the minimum standards of the university satisfactorily.",
-            "Previous related study in electrical circuits, electrical machines, electronics, control systems or power systems.",
-            "English language skills where required.",
-            "Other requirements as required by the program."
+            "Smart Grids and energy storage"
           ]
         },
         {
           "t": "p",
           "items": [
-            "Who can apply? (Indian students)",
-            "Indian applicants are generally evaluated based on their bachelor’s degree, recognition of the university, academic marks or CGPA, subject content and overall academic background.",
-            "The most straightforward path is a BE or BTech in Electrical Engineering or Electrical and Electronics Engineering.",
-            "Applicants in Electronics and Communication Engineering, Instrumentation, Mechatronics or related disciplines may be considered if their previous study meets the program requirements."
-          ]
-        }
-      ]
-    },
-    {
-      "title": "5. Eligibility Criteria for PG in Electrical Engineering in Ireland",
-      "eyebrow": "Entry Requirements",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Academic requirements"
+            "\\\\Power electronics and electric drives\\\\"
           ]
         },
         {
           "t": "ul",
           "items": [
-            "Universities typically request:",
-            "Provisional Certificate / Bachelor Degree Certificate",
-            "Official transcripts for all semesters or years.",
-            "Academic marks or CGPA and details on the grading scale, as required.",
-            "Information about relevant engineering modules",
+            "\\\\Control and automation engineering\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Electrical Machines\\\\"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\High Voltage Engineering\\\\",
+            "Electronic Systems and Circuits",
+            "\\\\Signal Processing and Communication\\\\",
+            "\\\\Energy Systems & Sustainable Engineering\\\\"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Irish Universities",
+      "title": "Best Electrical Engineering PG Universities in Ireland",
+      "lead": "",
+      "groups": [],
+      "unis": [
+        {
+          "name": "University College Cork (UCC)",
+          "location": "Cork, Ireland",
+          "fee": "€16,000 – €30,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Cork-image1.png",
+          "image": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Cork-image1.png",
+          "desc": "\\\\University College Cork (UCC)\\\\ has a relevant program for graduates seeking to further their studies in \\\\electrical and electronic engineering\\."
+        },
+        {
+          "name": "University of Galway",
+          "location": "Galway, Ireland",
+          "fee": "€16,000 – €30,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_biotechnology_University_of_Galway-image3.png",
+          "image": "/uploads/study_abroad/ireland/ireland_biotechnology_University_of_Galway-image3.png",
+          "desc": "ME route in Electrical and Electronic Engineering\\\\ (postgraduate)"
+        },
+        {
+          "name": "Trinity College Dublin",
+          "location": "Dublin, Ireland",
+          "fee": "€16,000 – €30,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
+          "image": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
+          "desc": "\\\\Trinity College Dublin\\\\ is worth looking at for \\\\postgraduate engineering study in electronics, information engineering and related technical fields\\.4. Eligibility for Study PG in Electrical Engineering in Ireland Most \\\\postgraduate Electrical Engineering programmes\\\\ require a \\\\bachelor's degree in Electrical Engineering, Electrical and Electronic Engineering or a closely related discipline\\\\ that is recognized. Typical requirements include: - An undergraduate degree such as a \\\\BE, BTech or equivalent. Academic results meeting the minimum standards of the university satisfactorily. Previous related study in \\\\electrical circuits, electrical machines, electronics, control systems or power systems\\. \\\\English language skills\\\\ where required. Other requirements as required by the program. Who can apply? (Indian students) \\\\Indian applicants\\\\ are generally evaluated based on their \\\\bachelor's degree, recognition of the university, academic marks or CGPA, subject content and overall academic background\\. The most straightforward path is a \\\\BE or BTech in Electrical Engineering or Electrical and Electronics Engineering\\. Applicants in \\\\Electronics and Communication Engineering, Instrumentation, Mechatronics or related disciplines\\\\ may be considered if their previous study meets the program requirements."
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Eligibility Criteria for PG in Electrical Engineering in Ireland",
+      "lead": "",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Academic requirements"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Universities typically request:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Provisional Certificate / Bachelor Degree Certificate"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Official transcripts\\\\ for all semesters or years."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Academic marks or CGPA\\\\ and details on the grading scale, as required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Information about relevant engineering modules"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
             "Proof of relevant work experience, where applicable."
           ]
         },
         {
           "t": "p",
           "items": [
-            "Some programs require a honours degree at a certain classification, or its international equivalent. Some may evaluate candidates individually in terms of their previous education and technical background.",
-            "English language requirements",
-            "International students may be required to take IELTS Academic, TOEFL iBT, PTE Academic or another approved English-language assessment.",
-            "Most postgraduate courses typically ask for a overall IELTS score of around 6.5, but this overall score and the minimum scores for each part of the test vary between universities and courses. Some schools might have exemptions under certain circumstances.",
-            "Additional requirements"
+            "Some programs require a \\\\honours degree\\\\ at a certain classification, or its international equivalent. Some may evaluate candidates individually in terms of their previous education and technical background."
           ]
         },
         {
-          "t": "ul",
+          "t": "h4",
+          "text": "English language requirements"
+        },
+        {
+          "t": "p",
           "items": [
-            "You may also need (depending on the programme):",
-            "Personal Statement or Statement of Purpose.",
-            "Academic or professional reference.",
-            "CV or resume",
-            "Details of projects, internships or relevant work experience",
-            "Research proposal for a research degree.",
-            "Application fee payment"
+            "International students may be required to take \\\\IELTS Academic, TOEFL iBT, PTE Academic\\\\ or another approved \\\\English-language assessment\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Most postgraduate courses typically ask for a \\\\overall IELTS score of around 6.5\\\\, but this overall score and the minimum scores for each part of the test vary between universities and courses. Some schools might have exemptions under certain circumstances."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Additional requirements"
+        },
+        {
+          "t": "p",
+          "items": [
+            "You may also need (depending on the programme):"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Personal Statement or Statement of Purpose\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Academic or professional reference."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\CV or resume\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Details of projects, internships or relevant work experience"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Research proposal\\\\ for a research degree."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Application fee payment\\\\"
           ]
         }
       ]
     },
     {
-      "title": "6. Cost of studying Electrical Engineering PG in Ireland",
+      "slot": "tuition",
       "eyebrow": "Tuition & Living Costs",
+      "title": "Cost of studying Electrical Engineering PG in Ireland",
+      "lead": "The total cost includes \\\\tuition fees, accommodation, food, transport, insurance and personal expenses\\.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "The total cost includes tuition fees, accommodation, food, transport, insurance and personal expenses.",
-            "Estimated yearly costs for international students",
-            "Tuition fees* \\| €25,000–€30,000+"
+            "Estimated yearly costs for international students"
           ]
         },
         {
-          "t": "ul",
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Tuition fees\\\\ \\",
+              "d": "€25,000–€30,000+"
+            },
+            {
+              "t": "\\\\Accommodation\\\\ \\",
+              "d": "€7,000–€14,000"
+            },
+            {
+              "t": "\\\\Food and groceries\\\\ \\",
+              "d": "€2,500–€4,000"
+            },
+            {
+              "t": "\\\\Transport\\\\ \\",
+              "d": "€600-€1,200"
+            },
+            {
+              "t": "\\\\Books, insurance and personal expenses\\\\ \\",
+              "d": "€1,000-€2,500"
+            }
+          ]
+        },
+        {
+          "t": "p",
           "items": [
-            "Accommodation \\| €7,000–€14,000",
-            "Food and groceries \\| €2,500–€4,000",
-            "Transport \\| €600-€1,200",
-            "Books, insurance and personal expenses \\| €1,000-€2,500",
-            "Estimated total \\| €36,100-€51,700+ \\|"
+            "\\\\Estimated total\\\\ \\| \\\\€36,100-€51,700+\\\\ \\|"
           ]
         },
         {
@@ -210,131 +397,364 @@
       ]
     },
     {
-      "title": "7. Electrical Engineering PG Admission Process in Ireland",
-      "eyebrow": "Application Steps",
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Electrical Engineering PG Admission Process in Ireland",
+      "lead": "",
       "groups": [
         {
-          "t": "steps",
+          "t": "p",
           "items": [
-            "01. International applicants often follow these steps: "
+            "International applicants often follow these steps:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "1. \\\\Choose an area of specialisation:\\\\ Decide if you want to specialize in \\\\power systems, renewable energy, electronics, control systems\\\\ or anything else."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "2. \\\\Shortlist Universities\\\\ Compare \\\\Modules, Course Duration, Fees, Location and Project Opportunities\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "3. \\\\Eligibility check:\\\\ Ensure that your \\\\bachelor's degree and academic performance\\\\ fulfill the course requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "4. \\\\Preparation of documents\\\\: Collect \\\\transcripts, degree certificates, passport details, CV and results of English-language tests\\\\ if required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "5. \\\\Submit online:\\\\ Complete the application on the \\\\university's official postgraduate admissions portal\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "6. \\\\Submit application fee:\\\\ Follow the institution's instructions for payment."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "7. \\\\Follow up on your application:\\\\ Answer any requests for additional documents or qualification clarification."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "8. \\\\Accept your offer:\\\\ Review the conditions, deposit and tuition payment due dates."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "9. \\\\Organise accommodation and funding:\\\\ Set your budget and find suitable accommodation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "10. \\\\Sort out your immigration paperwork\\\\: Look up the \\\\current Irish student immigration rules\\\\ relevant to your situation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "11. \\\\Course registration:\\\\ University enrollment to be done before course commencement."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Apply early, especially if you need a \\\\English language test, scholarship decision, visa or accommodation\\."
           ]
         }
       ]
     },
     {
-      "title": "8. Accept your offer: Review the conditions, deposit and tuition payment due dates.",
+      "slot": "scope",
       "eyebrow": "Accreditation & Recognition",
+      "title": "Irish Accreditation and Recognition of Electrical Engineering",
+      "lead": "\\\\Accreditation\\\\ is important if you want to pursue a \\\\professional engineering career\\.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Detailed information on Accreditation & Recognition will be provided during personalized counseling with Edu-Hawk Worldwide."
+            "\\\\Engineers Ireland\\\\ accredits eligible engineering programs against the professional education standards in Ireland."
           ]
         }
       ]
     },
     {
-      "title": "9. Organise accommodation and funding: Set your budget and find suitable accommodation.",
-      "eyebrow": "Career Outcomes",
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Accreditation however is course and award specific and not all postgraduate degrees are accredited in their own right.",
+      "lead": "",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Detailed information on Career Outcomes will be provided during personalized counseling with Edu-Hawk Worldwide."
+            "Before you apply:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Verify that the \\\\programme\\\\ and the award are \\\\accredited\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Check the graduation years included."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Check whether your undergraduate qualification meets the academic requirements for your chosen \\\\engineering profession pathway\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Understand the difference between a \\\\MSc, MEngSc or ME\\\\ and a professionally accredited engineering qualification."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Check for any other requirements for recognition in the country where you want to work."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A master's degree can enhance your \\\\technical expertise\\\\ but it will not automatically lead to \\\\professional registration or recognition\\\\ in all countries."
           ]
         }
       ]
     },
     {
-      "title": "10. Sort out your immigration paperwork: Look up the current Irish student immigration rules relevant to your situation.",
-      "eyebrow": "Document Checklist",
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Salary and Job Prospects After Electrical Engineering PG in Ireland",
+      "lead": "Graduates with a degree in \\\\Electrical Engineering\\\\ can seek employment in \\\\power generation, utilities, renewable energy, electrical design, automation, manufacturing and engineering consultancy\\.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Detailed information on Document Checklist will be provided during personalized counseling with Edu-Hawk Worldwide."
+            "Career opportunities depend on technical skills, experience, employer needs, and market demand."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Possible career paths"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electrical Design Engineer\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Power Systems Engineer\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Renewable Energy Engineer\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Control Systems Engineer\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Power Electronics Engineer\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electrical Project Engineer\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Maintenance or Reliability Engineer\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Energy Systems Engineer\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Research and Development Engineer\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Annual Gross Salary Ranges (Indicative)"
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Entry-level or graduate positions\\\\ \\",
+              "d": "€32,000-€42,000"
+            },
+            {
+              "t": "Experienced engineers\\\\ \\",
+              "d": "42,000 € – 65,000 €"
+            },
+            {
+              "t": "Senior or specialist engineers\\\\ \\",
+              "d": "65,000 € – 85,000 €+"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are rough planning figures and not official salary bands or guaranteed results. Salaries depend on sector, employer, location, experience and responsibilities."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Needed to Study Electrical Engineering PG in Ireland",
+      "lead": "The specific list depends on the course and the university. Typical documents that are requested are:",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "\\\\Valid passport\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Bachelor degree certificate or provisional certificate."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Official transcripts for all semesters/years."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Explanation of CGPA or grading scale\\\\, if asked."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "English language test results (if applicable)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Current CV or resume\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Personal statement/statement of purpose."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\References\\\\ (academic or professional)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Details of any relevant projects, internships or jobs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Research proposal\\\\ if the program is research-based."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "proof of payment of application fee\\\\, if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Certified translations of any documents not in an official language."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Proof of financial and health insurance\\\\ for immigration purposes if required."
           ]
         }
       ]
     }
   ],
-  "universities": [
-    {
-      "name": "University College Cork",
-      "city": "Cork, Ireland",
-      "rank": "Top Ranked Irish Institution",
-      "fee": "€13,500 – €28,640 / year",
-      "desc": "1\\. University College Cork (UCC)",
-      "imgFile": "University_College_Cork.webp"
-    },
-    {
-      "name": "Trinity College Dublin",
-      "city": "Dublin, Ireland",
-      "rank": "Top Ranked Irish Institution",
-      "fee": "€13,500 – €28,640 / year",
-      "desc": "3\\. Trinity College, Dublin",
-      "imgFile": "Trinity_College_Dublin.webp"
-    },
-    {
-      "name": "Trinity College Dublin",
-      "city": "Dublin, Ireland",
-      "rank": "Top Ranked Irish Institution",
-      "fee": "€13,500 – €28,640 / year",
-      "desc": "3\\. Trinity College, Dublin",
-      "imgFile": "Trinity_College_Dublin_2.webp"
-    }
-  ],
-  "table": {
-    "title": "Estimated Cost of Studying Electrical Engineering (PG) in Ireland in Ireland (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (€ / EUR)",
-      "Details / Scope"
-    ],
-    "rows": [
-      [
-        "Undergraduate Degree (Annual)",
-        "€13,500 – €27,640 / year",
-        "Varies by institution ranking, laboratory facilities, and program"
-      ],
-      [
-        "Postgraduate Degree (Annual)",
-        "€15,000 – €28,640 / year",
-        "1-year intensive master's program or 2-year research degree"
-      ],
-      [
-        "Living Expenses (Dublin)",
-        "€1,000 – €1,400 / month",
-        "Includes student accommodation, meals, utilities, and public transit"
-      ],
-      [
-        "Living Expenses (Outside Dublin)",
-        "€800 – €1,100 / month",
-        "Cost of living in Cork, Galway, Limerick, or Maynooth"
-      ],
-      [
-        "Student Visa & IRP Card Fee",
-        "€300 / year",
-        "Mandatory Irish Residence Permit (IRP) registration fee"
-      ]
-    ]
-  },
   "faqs": [
     {
-      "q": "1\\. Which Irish universities provide postgraduate Electrical Engineering?",
-      "a": "Apply early, especially if you need a English language test, scholarship decision, visa or accommodation. 8\\. Irish Accreditation and Recognition of Electrical Engineering Accreditation is important if you want to pursue a professional engineering career. Engineers Ireland accredits eligible engineering programs against the professional education standards in Ireland. Accreditation however is course and award specific and not all postgraduate degrees are accredited in their own right. Before you apply: * Verify that the programme and the award are accredited. * Check the graduation years included. * Check whether your undergraduate qualification meets the academic requirements for your chosen engineering profession pathway. * Understand the difference between a MSc, MEngSc or ME and a professionally accredited engineering qualification. * Check for any other requirements for recognition in the country where you want to work. A master’s degree can enhance your technical expertise but it will not automatically lead to professional registration or recognition in all countries. 9\\. Salary and Job Prospects After Electrical Engineering PG in Ireland Graduates with a degree in Electrical Engineering can seek employment in power generation, utilities, renewable energy, electrical design, automation, manufacturing and engineering consultancy. Career opportunities depend on technical skills, experience, employer needs, and market demand. Possible career paths Electrical Design Engineer* Power Systems Engineer* Renewable Energy Engineer* Control Systems Engineer* Power Electronics Engineer* Electrical Project Engineer* Maintenance or Reliability Engineer* Energy Systems Engineer* Research and Development Engineer* Annual Gross Salary Ranges (Indicative) Entry-level or graduate positions* \\| €32,000-€42,000 Experienced engineers* \\| 42,000 € – 65,000 € Senior or specialist engineers* \\| 65,000 € – 85,000 €+ These are rough planning figures and not official salary bands or guaranteed results. Salaries depend on sector, employer, location, experience and responsibilities. 10\\. Documents Needed to Study Electrical Engineering PG in Ireland The specific list depends on the course and the university. Typical documents that are requested are: * Valid passport. * Bachelor degree certificate or provisional certificate. * Official transcripts for all semesters/years. * Explanation of CGPA or grading scale, if asked. * English language test results (if applicable). * Current CV or resume. *Personal statement/statement of purpose. * References (academic or professional) * Details of any relevant projects, internships or jobs. * Research proposal if the program is research-based. proof of payment of application fee*, if applicable. * Certified translations of any documents not in an official language. * Proof of financial and health insurance for immigration purposes if required. 11\\. FAQs UCC offers a MEngSc in Electrical and Electronic Engineering and the University of Galway offers a ME in Electrical and Electronic Engineering. You can also check out related electronic engineering and energy systems courses at other Irish universities 2\\. How long does it take to get a masters in Electrical Engineering in Ireland Most full-time taught master’s programs take one year. Other program structures and research degrees may take longer. Please confirm the exact length of the course."
+      "q": "Which Irish universities provide postgraduate Electrical Engineering?",
+      "a": "UCC offers a \\\\MEngSc in Electrical and Electronic Engineering\\\\ and the \\\\University of Galway\\\\ offers a \\\\ME in Electrical and Electronic Engineering. You can also check out related \\\\electronic engineering and energy systems courses\\\\ at other Irish universities"
     },
     {
-      "q": "3\\. BTech Electrical and Electronics Engineering from India eligible for admission?",
-      "a": "Yes, it is a relevant background for a lot of programs. Admission is contingent upon meeting the university’s academic entry requirements, grades, subject content and English language requirements."
+      "q": "BTech Electrical and Electronics Engineering from India eligible for admission?",
+      "a": "Yes, it is a relevant background for a lot of programs. Admission is contingent upon meeting the university's \\\\academic entry requirements, grades, subject content and English language requirements."
     },
     {
-      "q": "4\\. Tuition fees for PG in Electrical Engineering in Ireland?",
-      "a": "For 2026/27, UCC lists €28,000 for its MEngSc in Electrical and Electronic Engineering, while the University of Galway lists €28,640, inclusive of the stated levy, for its ME program. Living expenses are separate."
+      "q": "Tuition fees for PG in Electrical Engineering in Ireland?",
+      "a": "For \\\\2026/27\\\\, UCC lists \\\\€28,000\\\\ for its MEngSc in Electrical and Electronic Engineering, while the University of Galway lists \\\\€28,640\\\\, inclusive of the stated levy, for its ME program. Living expenses are separate."
     },
     {
-      "q": "How to study abroad with Edu Hawk worldwide Consultancy?",
-      "a": "Edu Hawk worldwide allows students to find the right universities, get to know admission requirements, arrange application documents and plan their study-abroad journey. Students are responsible for checking academic, financial, immigration and licensing requirements with the appropriate official authority."
+      "q": "\\\\How to study abroad with Edu Hawk worldwide Consultancy?\\\\",
+      "a": "Edu Hawk \\\\worldwide\\\\ allows students to find the right universities, get to know \\\\admission requirements\\\\, arrange \\\\application documents\\\\ and plan their \\\\study-abroad journey. Students are responsible for checking academic, financial, immigration and licensing requirements with the appropriate official authority."
     }
-  ]
+  ],
+  "seo": {
+    "title": "PG in Electrical Engineering in Ireland | Edu-Hawk Worldwide",
+    "description": "\\\\Postgraduate Electrical Engineering\\\\ is designed for graduates seeking to gain \\\\advanced skills in electrical power, energy systems, electrical machines, co",
+    "keywords": "Study Electrical Engineering PG in Ireland for Indian Students, Top Universities for Electrical Engineering Master's in Ireland, MEngSc Electrical and Electronic Engineering in Ireland, ME Electrical and Electronic Engineering in Ireland, Postgraduate Electrical Engineering Courses in Ireland, Electrical Engineering PG Eligibility Requirements in Ireland, Admission Requirements for Electrical Engineering Master's in Ireland, IELTS Requirements for Electrical Engineering PG in Ireland, Electrical Engineering PG Tuition Fees in Ireland for International Students, Cost of Living for Electrical Engineering Students in Ireland, Electrical Engineering Master's Fees in Ireland 2026/27, Renewable Energy and Power Systems Engineering Courses in Ireland, Smart Grid and Power Electronics Specialisations in Ireland, Engineers Ireland Accredited Electrical Engineering Programmes, Electrical Engineering Jobs and Salary After Master's in Ireland, <"
+  }
 }

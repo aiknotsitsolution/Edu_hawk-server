@@ -1,81 +1,473 @@
 {
-  "seo": {
-    "title": "Electrical Engineering - PG in Spain for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study Electrical Engineering - PG in Spain: Top universities, English-taught programs, tuition fees (€2,000–€18,000/yr), scholarships, eligibility criteria, and post-study work permit opportunities."
-  },
   "hero": {
-    "badge": "Study Abroad - Spain",
     "title": "Master's in Electrical Engineering in Spain for Indian Students",
-    "subtitle": "The Master's in Electrical Engineering in Spain for Indian Students provides the opportunity to gain advanced skills in electrical power systems, renewable energy, power electronics, control systems, smart grids, and electrical machines. In Spain, universities offer postgraduate courses that mix theory in engineering with laboratory experiments, simulation tools, technical projects and research.",
-    "ctaText": "Book Free Counselling",
-    "image": ""
+    "subtitle": "The Master's in Electrical Engineering in Spain for Indian Students provides the opportunity to gain advanced skills in electrical power systems, renewable energy, power electronics, control systems, smart grids, and electrical machines. In Spain, universities offer postgraduate courses that mix theory in engineering with laboratory experiments, simulation tools, technical projects and research."
   },
-  "stats": [
-    {
-      "n": "1000+",
-      "l": "Students Placed Globally"
-    },
-    {
-      "n": "20+",
-      "l": "Countries"
-    },
-    {
-      "n": "200+",
-      "l": "Partner Universities"
-    },
-    {
-      "n": "100%",
-      "l": "Support (Visa & Post-Study Work Guidance)"
-    }
+  "overview": [
+    "Spain is an attractive destination for students interested in electrical power, sustainable energy, automation and modern electrical technologies. Those students who want to Study Electrical Engineering in Spain can benefit from a number of professional and educational advantages.",
+    "A Master's in Electrical Engineering in Spain for Indian Students allows students to explore advanced engineering technologies and develop professional knowledge for international career opportunities."
   ],
-  "highlights": {
-    "degree": "Master of Science (M.Sc / M.Eng)",
-    "duration": "1 to 2 Years (PG)",
-    "fee": "€2,000 – €18,000 / Year",
-    "eligibility": "Recognised academic qualification + IELTS / TOEFL / Spanish proficiency",
-    "medium": "English & Spanish Taught"
-  },
-  "overview": "The Master's in Electrical Engineering in Spain for Indian Students provides the opportunity to gain advanced skills in electrical power systems, renewable energy, power electronics, control systems, smart grids, and electrical machines. In Spain, universities offer postgraduate courses that mix theory in engineering with laboratory experiments, simulation tools, technical projects and research.\n\nA Master's in Electrical Engineering in Spain for Indian Students generally ranges from 1 to 2 years. The exact duration depends on the program structure and its credit requirements. Most of the official university master's degrees are based on the European Credit Transfer and Accumulation System (ECTS). The programs typically have between 60 and 120 ECTS credits. Students may choose to study English or Spanish-taught programs depending on their academic background and career aspirations. Edu-Hawk Worldwide can help students to explore their study options and prepare themselves for their journey to study abroad. Students planning to Study Electrical Engineering in Spain can explore postgraduate courses according to their academic qualifications and career goals.",
   "universities": [
     {
-      "name": "Universitat Politècnica de Catalunya (UPC)",
-      "location": "Spain",
-      "fee": "€2,000 – €18,000 / Year",
-      "image": ""
+      "name": "Universitat de Barcelona",
+      "location": "Barcelona, Catalonia, Spain",
+      "fee": "€1,500 – €4,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+      "image": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+      "desc": "The University of Barcelona is one of the top-ranked public universities in Spain, known for its extensive research output and clinical training."
     },
     {
-      "name": "Universitat Politècnica de València (UPV)",
-      "location": "Spain",
-      "fee": "€2,000 – €18,000 / Year",
-      "image": ""
+      "name": "Universidad Autónoma de Madrid",
+      "location": "Madrid, Spain",
+      "fee": "€2,000 – €5,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+      "image": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+      "desc": "UAM is celebrated for its modern Cantoblanco campus, distinguished faculty, and internationally accredited degree programs."
     },
     {
-      "name": "Universidad Politécnica de Madrid (UPM)",
-      "location": "Spain",
-      "fee": "€2,000 – €18,000 / Year",
-      "image": ""
+      "name": "Universitat Politècnica de Catalunya",
+      "location": "Barcelona, Catalonia, Spain",
+      "fee": "€2,500 – €6,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+      "image": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+      "desc": "UPC BarcelonaTech is a premier European polytechnic institution specializing in architecture, engineering, and digital technologies."
+    },
+    {
+      "name": "Universidad Complutense de Madrid",
+      "location": "Madrid, Spain",
+      "fee": "€2,000 – €5,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+      "image": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+      "desc": "One of the oldest and most prestigious universities in the world, offering comprehensive health sciences, humanities, and business programs."
     }
   ],
-  "faq": [
+  "sections": [
     {
-      "question": "Is it possible for an Indian student to do a Master's in Electrical Engineering in Spain?",
-      "answer": "Yes. Indian students who hold a recognized bachelor's degree and meet the academic, language and documentation criteria of the chosen university are eligible to apply for a Master's in Electrical Engineering in Spain for Indian Students ."
+      "slot": "why-study",
+      "eyebrow": "Why Spain",
+      "title": "Why Study a Master's Degree in Electrical Engineering in Spain?",
+      "lead": "Spain is an attractive destination for students interested in electrical power, sustainable energy, automation and modern electrical technologies. Those students who want to Study Electrical Engineering in Spain can benefit from a number of professional and educational advantages.",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Higher technical education: Studying electrical machines, power systems, electronics and control engineering.",
+            "Renewable energy opportunities: Explore solar power, wind energy, energy conversion and smart-grid technologies.",
+            "Learning in practice: Students might be involved in laboratories, simulation projects, research and industry collaborations, depending on the program.",
+            "Specialisation options: Develop expertise in power electronics, automation, energy systems or electrical infrastructure.",
+            "European academic environment: Many programs are built on the ECTS framework, which helps academic mobility within the European Higher Education Area.",
+            "Career development: Prepare for engineering roles in energy companies, manufacturing, automation, utilities and technical consultancy."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A Master's in Electrical Engineering in Spain for Indian Students allows students to explore advanced engineering technologies and develop professional knowledge for international career opportunities."
+          ]
+        }
+      ]
     },
     {
-      "question": "How long is a Master's in Electrical Engineering in Spain?",
-      "answer": "Most programs last about 1–2 years depending on the number of credits and curriculum."
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Master's Degree Programs in Electrical Engineering in Spain",
+      "lead": "Depending on their undergraduate qualifications, technical interests and preferred career specialization, students can explore various Electrical Engineering Courses in Spain. Students interested in Study Electrical Engineering in Spain can consider the following specializations:",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "SpecializationKey areas of study"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electrical EngineeringElectrical machines, circuits, system design"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Power Systems EngineeringPower generation, transmission, distribution"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Renewable Energy EngineeringSolar, wind, energy conversion"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Power ElectronicsConverters, inverters, electrical drives"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Control Systems EngineeringAutomation, feedback systems, control theory"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Smart GridsIntelligent power networks, grid monitoring"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "High Voltage EngineeringInsulation, electrical protection, testing"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Energy Systems EngineeringEnergy efficiency, storage, integration"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Industrial AutomationSensors, control systems, industrial processes"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electric MobilityElectric drives, charging systems, power electronics"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These Electrical Engineering Courses in Spain may be stand-alone master's degrees, while other subjects may be specializations within broader electrical, industrial, energy or automation engineering programs. Students should refer to the official website of the university for the exact name of the program, curriculum and language of instruction. Comparing different Electrical Engineering Courses in Spain can help students identify a suitable postgraduate specialization."
+          ]
+        }
+      ]
     },
     {
-      "question": "Do I Need IELTS for a Master's in Electrical Engineering in Spain?",
-      "answer": "Not always. For programs taught in English, IELTS, TOEFL or other acceptable evidence of English proficiency may be required. Spanish-taught programs may require Spanish language proficiency."
+      "slot": "universities",
+      "eyebrow": "Top Spanish Universities",
+      "title": "Universities to Pursue a Master's in Electrical Engineering in Spain",
+      "lead": "Indian students can look for some of the Electrical Engineering Universities in Spain to pursue postgraduate programs in electrical engineering, power systems, energy and related technology disciplines. The following institutions are worth investigating for students looking for Electrical Engineering Universities in Spain.",
+      "groups": [],
+      "unis": [
+        {
+          "name": "Universitat de Barcelona",
+          "location": "Barcelona, Catalonia, Spain",
+          "fee": "€1,500 – €4,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+          "image": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+          "desc": "The University of Barcelona is one of the top-ranked public universities in Spain, known for its extensive research output and clinical training."
+        },
+        {
+          "name": "Universidad Autónoma de Madrid",
+          "location": "Madrid, Spain",
+          "fee": "€2,000 – €5,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+          "image": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+          "desc": "UAM is celebrated for its modern Cantoblanco campus, distinguished faculty, and internationally accredited degree programs."
+        },
+        {
+          "name": "Universitat Politècnica de Catalunya",
+          "location": "Barcelona, Catalonia, Spain",
+          "fee": "€2,500 – €6,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+          "image": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+          "desc": "UPC BarcelonaTech is a premier European polytechnic institution specializing in architecture, engineering, and digital technologies."
+        },
+        {
+          "name": "Universidad Complutense de Madrid",
+          "location": "Madrid, Spain",
+          "fee": "€2,000 – €5,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+          "image": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+          "desc": "One of the oldest and most prestigious universities in the world, offering comprehensive health sciences, humanities, and business programs."
+        }
+      ]
     },
     {
-      "question": "How Much Does a Master's in Electrical Engineering Cost in Spain?",
-      "answer": "Tuition fees at some public universities can be anywhere from €1,000 to €8,000 per year, while at private universities it can be from €6,000 to €25,000 or more. Fees vary by university and program. Students should check the Electrical Engineering Fees in Spain for their selected course."
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Requirements for a Master's Degree in Electrical Engineering in Spain",
+      "lead": "Students who are looking forward to doing a Master's in Electrical Engineering in Spain for Indian Students are usually required to have the following criteria:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "A recognized Bachelor's degree in Electrical Engineering or a related engineering discipline.",
+            "Relevant academic knowledge in the fields of electrical circuits, mathematics, electrical machines, power systems or control engineering depending on the program.",
+            "Academic transcripts meeting the university admission standards.",
+            "If required for English-taught programs, English language proficiency.",
+            "Spanish language proficiency where required for programs taught in Spanish.",
+            "The university may require additional prerequisite subjects or coursework."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Applicants holding a degree in Electronics Engineering, Electrical and Electronics Engineering, Energy Engineering or Industrial Engineering may be eligible for selected programs, subject to the academic requirements of the program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students planning to Study Electrical Engineering in Spain should carefully review the eligibility conditions of their chosen university before submitting an application."
+          ]
+        }
+      ]
     },
     {
-      "question": "What Jobs Can I Get After Doing a Master's in Electrical Engineering?",
-      "answer": "Graduates may apply for positions such as Electrical Engineer, Power Systems Engineer, Renewable Energy Engineer, Electrical Design Engineer, Automation Engineer or Control Systems Engineer subject to their specialization and experience. These are some of the Electrical Engineering Jobs in Spain that graduates may explore. Interested in studying a postgraduate degree in engineering in Europe? Edu-Hawk Worldwide can help you explore the best universities, understand eligibility criteria, prepare your application and plan your study abroad journey. Get guidance for a Master's in Electrical Engineering in Spain for Indian Students and take the next step towards your international education goals. SEO Keyword Number of Times Used Master's in Electrical Engineering in Spain for Indian Students 7 Study Electrical Engineering in Spain 3 Electrical Engineering Courses in Spain 3 Electrical Engineering Universities in Spain 3 Electrical Engineering Admission in Spain 4 Electrical Engineering Fees in Spain 3 Electrical Engineering Jobs in Spain 3 Electrical Engineering Master's in Spain for Indian Students 1 Edu-Hawk Worldwide 4"
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Requirements for Admission to a Master's in Electrical Engineering in Spain",
+      "lead": "You may be asked to demonstrate your academic qualifications, experience of studying engineering and language ability when applying for Electrical Engineering Admission in Spain. Universities may consider applications on the basis of:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Bachelor degree certificate.",
+            "Academic records and mark sheets.",
+            "Previous engineering coursework.",
+            "Evidence of proficiency in English or Spanish, if applicable.",
+            "Curriculum vitae or résumé.",
+            "Motivation letter or statement of purpose.",
+            "Letters of recommendation, if required.",
+            "Related technical projects, research or professional experience, if any."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some programs require additional documentation or prerequisite subjects. Applicants should consult their chosen university for the requirements before applying. Edu-Hawk Worldwide can assist students in comprehending the admission requirements and organize their application documents for Electrical Engineering Admission in Spain."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Cost of Studying Master's in Electrical Engineering in Spain",
+      "lead": "The Electrical Engineering Fees in Spain vary depending on the university, the program, credit requirements and fee category for international students.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "University typeEstimated tuition fee per yearApproximate INR equivalent"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Public universities€1,000–€8,000₹1.09–₹8.69 lakh"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Private universities€6,000–€25,000+₹6.52–₹27.15 lakh+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are general planning estimates, not guaranteed fees for a specific course. Non-EU students may pay different fees, with specialist courses potentially costing more. Students should consult the official fee schedule for the relevant academic year."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Other costs can include accommodation, food, transport, health insurance, study materials, visa-related costs and university registration fees. These costs should be budgeted for separately from tuition by students."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Understanding Electrical Engineering Fees in Spain can help Indian students compare university options and plan their postgraduate education expenses."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission Process to Master's in Electrical Engineering in Spain",
+      "lead": "The Electrical Engineering Admission in Spain process usually includes the following steps:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Select a specialisation: Select from power systems, renewable energy, electrical machines, automation or power electronics.",
+            "Shortlist universities: Compare program content, tuition fees, location, language of instruction and eligibility.",
+            "Check academic eligibility: Ensure that your bachelor's degree and previous studies meet the requirements of the program.",
+            "Prepare your documents: Gather your degree certificate, transcripts, passport, CV, motivation letter and language evidence (if applicable).",
+            "Submit your online application: Apply on the official university admissions portal.",
+            "Fulfil other requirements: Submit additional information or attend an interview if requested.",
+            "Receive the admission decision: Review the offer, fees, payment deadlines and enrollment conditions.",
+            "Apply for a student visa in Spain: Complete the correct visa process and submit required documentation.",
+            "Finish enrolment: Complete university registration and payment requirements before starting your studies."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Intake dates vary between institutions and programs and students should check relevant intake dates well in advance. Edu-Hawk Worldwide can help applicants in narrowing down universities, preparing applications and assist them with admission-related steps for Electrical Engineering Admission in Spain."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Degree Recognition and Career Scope",
+      "lead": "Indian students should verify the university's recognition and whether the program is a formal university master's degree or other postgraduate qualification before enrolling.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "An Electrical Engineering Master's in Spain for Indian Students can enhance career prospects in power generation, electricity distribution, renewable energy, industrial automation, electrical equipment manufacturing, and engineering consultancy."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students who wish to return to India should discuss any qualification recognition requirements with their prospective employer, professional pathway or further study destination. Some engineering positions regulated by law may have other requirements."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Salary and Job Opportunities After Master's in Electrical Engineering in Spain",
+      "lead": "Electrical Engineering Jobs in Spain for graduates are available in the energy sector, electrical equipment manufacturing, renewable energy, automation, industrial companies and engineering consultancy firms.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Job roleIllustrative gross annual salary"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electrical Engineer€25,000–€40,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Power Systems Engineer€28,000–€45,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Renewable Energy Engineer€28,000–€45,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electrical Design Engineer€27,000–€42,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Control Systems Engineer€30,000–€48,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Power Electronics Engineer€30,000–€48,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Automation Engineer€28,000–€45,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Energy Systems Engineer€28,000–€45,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are representative career-planning estimates, not verified or confirmed current salary offers. The actual salary will depend on your experience, location, employer, technical and language skills. Many local engineering positions may require Spanish language skills and appropriate work authorization."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The Electrical Engineering Jobs in Spain available to graduates may depend on their technical specialization, industry experience and language proficiency. Students completing a Master's in Electrical Engineering in Spain for Indian Students can explore career opportunities in energy, automation, power systems and electrical manufacturing."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Required for Master's in Electrical Engineering in Spain",
+      "lead": "Often, students applying for postgraduate electrical engineering programs may need the following documents:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Valid passport.",
+            "Provisional certificate / Bachelor degree certificate.",
+            "Academic certificates and mark sheets.",
+            "CV / resume.",
+            "Purpose statement / letter of motivation.",
+            "Evidence of proficiency in English or Spanish if required.",
+            "Where applicable, letters of recommendation.",
+            "Course descriptions/syllabi available upon request.",
+            "Passport size photographs (if required).",
+            "Proof of payment of application fee, if applicable.",
+            "Certified translations or legalization documents, if needed."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The precise list will depend on the university and on the qualifications of the applicant. Students are suggested to refer to the official university application checklist before uploading their documents for Electrical Engineering Admission in Spain."
+          ]
+        }
+      ]
     }
-  ]
+  ],
+  "faqs": [
+    {
+      "q": "1. Is it possible for an Indian student to do a Master's in Electrical Engineering in Spain?",
+      "a": "Yes. Indian students who hold a recognized bachelor's degree and meet the academic, language and documentation criteria of the chosen university are eligible to apply for a Master's in Electrical Engineering in Spain for Indian Students."
+    },
+    {
+      "q": "2. How long is a Master's in Electrical Engineering in Spain?",
+      "a": "Most programs last about 1–2 years depending on the number of credits and curriculum."
+    },
+    {
+      "q": "3. Do I Need IELTS for a Master's in Electrical Engineering in Spain?",
+      "a": "Not always. For programs taught in English, IELTS, TOEFL or other acceptable evidence of English proficiency may be required. Spanish-taught programs may require Spanish language proficiency."
+    },
+    {
+      "q": "4. How Much Does a Master's in Electrical Engineering Cost in Spain?",
+      "a": "Tuition fees at some public universities can be anywhere from €1,000 to €8,000 per year, while at private universities it can be from €6,000 to €25,000 or more. Fees vary by university and program. Students should check the Electrical Engineering Fees in Spain for their selected course."
+    },
+    {
+      "q": "5. What Jobs Can I Get After Doing a Master's in Electrical Engineering?",
+      "a": "Graduates may apply for positions such as Electrical Engineer, Power Systems Engineer, Renewable Energy Engineer, Electrical Design Engineer, Automation Engineer or Control Systems Engineer subject to their specialization and experience. These are some of the Electrical Engineering Jobs in Spain that graduates may explore."
+    }
+  ],
+  "seo": {
+    "title": "Master's in Electrical Engineering in Spain for Indian Students | Edu-Hawk Worldwide",
+    "description": "Spain is an attractive destination for students interested in electrical power, sustainable energy, automation and modern electrical technologies. Those student",
+    "keywords": "Study in Spain, Best Universities in Spain, Edu Hawk Worldwide"
+  }
 }

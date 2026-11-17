@@ -1,14 +1,27 @@
 {
   "seo": {
     "title": "Public Health in Canada for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study Public Health in Canada: Top universities, English-taught programs, tuition fees (CAD $18,000–$45,000/yr), scholarships, eligibility criteria, and post-graduation work permit (PGWP) opportunities."
+    "description": "Study Public Health in Canada: Top universities, English-taught programs, tuition fees (CAD $18,000–$45,000/yr), scholarships, eligibility criteria, and post-graduation work permit (PGWP) opportunities.",
+    "keywords": [
+      "Study Public Health in Canada",
+      "Study Public Health in Canada for Indian Students",
+      "Public Health Courses in Canada",
+      "Public Health Universities in Canada",
+      "MPH in Canada for Indian Students",
+      "Master of Public Health in Canada",
+      "Public Health Admission Requirements in Canada",
+      "Public Health Eligibility in Canada",
+      "Cost of Studying Public Health in Canada",
+      "Public Health Tuition Fees in Canada",
+      "Public Health Jobs in Canada"
+    ]
   },
   "hero": {
-    "badge": "Study Abroad - Canada",
+    "badge": "Study Abroad · Canada",
     "title": "Indian Students Can Study Public Health in Canada",
-    "subtitle": "Disease prevention, health promotion, epidemiology, healthcare systems, environmental health, and population well-being are among the many public health programs in Canada available in Canada. These courses equip students to comprehend public health issues and create evidence-based solutions.",
+    "subtitle": "Indian Students Can Study Public Health in Canada",
     "ctaText": "Book Free Counselling",
-    "image": ""
+    "image": "/uploads/study_abroad/canada/canada_public_health_McGill_University-image1.png"
   },
   "stats": [
     {
@@ -35,53 +48,649 @@
     "eligibility": "Recognised academic qualification + IELTS / TOEFL / PTE proficiency",
     "medium": "English & French Taught"
   },
-  "overview": "Disease prevention, health promotion, epidemiology, healthcare systems, environmental health, and population well-being are among the many public health programs in Canada available in Canada. These courses equip students to comprehend public health issues and create evidence-based solutions.\n\nThe key advantages for studying public health in Canada are:\n\nClinical medicine and public health are not the same. Instead of actively diagnosing and treating individual patients, many positions concentrate on population health, research, policy, education, and prevention.\n\nEdu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey..",
+  "overview": [
+    "Disease prevention, health promotion, epidemiology, healthcare systems, environmental health, and population well-being are among the many public health programs in Canada available in Canada. These courses equip students to comprehend public health issues and create evidence-based solutions.",
+    "Learn from universities that provide interdisciplinary training, research, and education in public health.",
+    "Practical Learning: Certain public health courses in Canada offer opportunities for practical research, fieldwork, internships, and community initiatives."
+  ],
   "universities": [
     {
       "name": "McGill University",
       "location": "Canada",
       "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
-    },
-    {
-      "name": "Waterloo University",
-      "location": "Canada",
-      "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
+      "img": "/uploads/study_abroad/canada/canada_public_health_McGill_University-image1.png",
+      "image": "/uploads/study_abroad/canada/canada_public_health_McGill_University-image1.png",
+      "desc": "McGill University is one of Canada's top recognized institutions offering advanced academic and research programs."
     },
     {
       "name": "Saskatchewan University",
       "location": "Canada",
       "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
+      "img": "/uploads/study_abroad/canada/canada_public_health_Saskatchewan_University-image3.png",
+      "image": "/uploads/study_abroad/canada/canada_public_health_Saskatchewan_University-image3.png",
+      "desc": "Saskatchewan University is one of Canada's top recognized institutions offering advanced academic and research programs."
     },
     {
-      "name": "University of Alberta",
+      "name": "The University of Alberta",
       "location": "Canada",
       "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
+      "img": "/uploads/study_abroad/canada/canada_public_health_The_University_of_Alberta-image4.png",
+      "image": "/uploads/study_abroad/canada/canada_public_health_The_University_of_Alberta-image4.png",
+      "desc": "The University of Alberta is one of Canada's top recognized institutions offering advanced academic and research programs."
+    },
+    {
+      "name": "Waterloo University",
+      "location": "Canada",
+      "fee": "CAD $18,000 – $45,000 / Year",
+      "img": "/uploads/study_abroad/canada/canada_public_health_Waterloo_University-image2.png",
+      "image": "/uploads/study_abroad/canada/canada_public_health_Waterloo_University-image2.png",
+      "desc": "Waterloo University is one of Canada's top recognized institutions offering advanced academic and research programs."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why Canada",
+      "title": "Why Study Public Health in Canada ?",
+      "lead": "Disease prevention, health promotion, epidemiology, healthcare systems, environmental health, and population well-being are among the many public health programs in Canada available in Canada. These courses equip students to comprehend public health issues and create evidence-based solutions.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "The key advantages for studying public health in Canada are:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Learn from universities that provide interdisciplinary training, research, and education in public health.",
+            "Practical Learning: Certain public health courses in Canada offer opportunities for practical research, fieldwork, internships, and community initiatives.",
+            "Explore epidemiology, global health, health policy, biostatistics, environmental health and health promotion.",
+            "Research opportunities include studying chronic illnesses, infectious diseases, health disparities and health issues at the community level.",
+            "Career Opportunities: Graduates can work in epidemiology, policy analysis, public health research, health program coordination and healthcare administration.",
+            "Examine public health concerns that impact various communities and healthcare systems worldwide.",
+            "Graduates who meet the requirements can pursue specialized research programs or doctoral studies."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Clinical medicine and public health are not the same. Instead of actively diagnosing and treating individual patients, many positions concentrate on population health, research, policy, education, and prevention."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Courses in Public Health in Canada",
+      "lead": "Public health-related undergraduate, graduate, diploma, certificate, and PhD programs are offered by Canadian universities. Depending on their educational background and professional aspirations, Indian students can explore public health courses in Canada for international students.",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Public health principles, disease prevention, and community health are introduced throughout the three to four-year Bachelor of Public Health program.",
+            "Health systems, human health, and associated scientific topics are covered in the three to four-year Bachelor of Health Sciences program .",
+            "Health, society, health promotion, and population well-being are the main topics of the three to four-year Bachelor of Science in Health Studies program.",
+            "Master of Public Health (MPH) - 1-2 years - Expands understanding of public health practice, disease prevention, epidemiology, and health policy.",
+            "Master of Science in Public Health - 1-2 years - May concentrate on specialized public health issues, data analysis, and research.",
+            "Healthcare leadership, administration, and service delivery are the main topics of this 1-2 year Master of Health Administration program.",
+            "Master of Health Sciences - 1-2 years - Provides advanced training in fields linked to health.",
+            "Graduate Certificate in Public Health - Several months to a year - Offers targeted instruction in particular public health subjects."
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Focused on advanced research and academic advancement, the Doctor of Philosophy in Public Health or a Related Field takes from four to six years to complete.",
+              "d": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Canadian Universities",
+      "title": "Canada's best Public Health Universities",
+      "lead": "Students who are looking for the best universities for public health in Canada might look into establishments that provide public health programs or possibilities for closely connected study and research.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "McGill University"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The University of Alberta"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Waterloo University"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Saskatchewan University"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For information on available public health programs , eligibility for international students, tuition costs, course structure, and application dates, visit the official websites of each university before submitting an application. Admission requirements and program availability may differ depending on intake and qualifications."
+          ]
+        }
+      ],
+      "unis": [
+        {
+          "name": "McGill University",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_public_health_McGill_University-image1.png",
+          "image": "/uploads/study_abroad/canada/canada_public_health_McGill_University-image1.png",
+          "desc": "McGill University is one of Canada's top recognized institutions offering advanced academic and research programs."
+        },
+        {
+          "name": "Saskatchewan University",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_public_health_Saskatchewan_University-image3.png",
+          "image": "/uploads/study_abroad/canada/canada_public_health_Saskatchewan_University-image3.png",
+          "desc": "Saskatchewan University is one of Canada's top recognized institutions offering advanced academic and research programs."
+        },
+        {
+          "name": "The University of Alberta",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_public_health_The_University_of_Alberta-image4.png",
+          "image": "/uploads/study_abroad/canada/canada_public_health_The_University_of_Alberta-image4.png",
+          "desc": "The University of Alberta is one of Canada's top recognized institutions offering advanced academic and research programs."
+        },
+        {
+          "name": "Waterloo University",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_public_health_Waterloo_University-image2.png",
+          "image": "/uploads/study_abroad/canada/canada_public_health_Waterloo_University-image2.png",
+          "desc": "Waterloo University is one of Canada's top recognized institutions offering advanced academic and research programs."
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Qualifications for Public Health Studies in Canada",
+      "lead": "The university, program, and course level all affect the eligibility requirements for public health in Canada.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Regarding Undergraduate Courses"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Certain undergraduate programs in public health, health sciences, or health studies may accept applications from Indian students after Class 12."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Common prerequisites consist of:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Completing Class 12 at an accredited board.",
+            "The university's required academic grades.",
+            "Depending on the curriculum, pertinent courses like biology, chemistry, mathematics, or English.",
+            "Proficiency in English, if necessary.",
+            "Any further prerequisites unique to the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For a Master of Public Health (MPH) degree"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Typically, applicants require:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A bachelor's degree from an approved university is recognized.",
+            "The minimal GPA or percentage that the university demands.",
+            "Proficiency in English, if applicable.",
+            "If the program calls for it, relevant work experience or educational background.",
+            "A purpose statement or additional application documents."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Public health, medical, nursing, pharmacy, biology, health sciences, social sciences, statistics, environmental science, and other related fields are among the undergraduate backgrounds that qualify. But every university has its own prerequisites for admission."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Before applying, students should confirm the MPH entrance criteria in Canada because some programs can have particular requirements for work experience or academic background."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Canada's Public Health Admission Requirements",
+      "lead": "Academic credentials, English language ability, experience, and program-specific standards are all taken into consideration by universities when evaluating applications. The following could be among the admission requirements for public health in Canada for overseas students:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Academic Requirement | Class 12 for bachelor's programs that qualify; a recognized bachelor's degree for the majority of master's programs. |",
+            "Academic Performance | The institution's minimum GPA or percentage. |",
+            "English Language Proficiency | If necessary, take the TOEFL iBT, IELTS Academic, or similar recognized exam. |",
+            "Work Experience | Not always necessary, but preferred for some professional MPH programs. |",
+            "Statement of Purpose | Describes academic pursuits, professional aspirations, and motivations for selecting public health. |",
+            "Recommendation letters and professional or academic references can be needed.",
+            "A CV or resume may be necessary, especially for postgraduate applications.",
+            "Research proposals are frequently needed for master's and doctorate programs that focus on research.",
+            "Depending on the selection procedure, interviews may be necessary for some programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Because admission requirements might vary significantly, applicants should confirm whether the program they have chosen is course-based, research-based, or practice-oriented."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "The cost of Public Health Education in Canada",
+      "lead": "The university, city, length of the course, and whether the program is undergraduate, professional, or research-based all affect how much it costs for Indian students to study public health in Canada.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Projected Annual Costs for Foreign Students"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Tuition Costs - CAD 18,000–50,000+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Lodging - CAD 10,000–24,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Food and groceries - CAD 3,600–7,200"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Local Transportation - CAD 1,000–2,400"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Books and Study Guides - CAD 500–1,500"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Personal Expenses and Health Insurance - CAD 2,000–5,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Estimated Annual Total - CAD 35,100–90,100+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are not official university fee quotations, but rather general planning estimations. The actual cost of tuition for public health in Canada varies depending on the program and institution. While research-based programs may provide funding to qualified students, some professional master's programs may charge significantly more."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Extra Costs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Additionally, students should set aside money for:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "The cost of applying to universities.",
+            "Tests of English language competency.",
+            "Biometrics fees and study permits.",
+            "The cost of traveling to Canada.",
+            "The first deposit for lodging.",
+            "Health insurance and other fees unique to the university.",
+            "Expenses for fieldwork, research, or placement, as appropriate."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Canada's Public Health Admission Procedure",
+      "lead": "To comprehend the admission procedure for public health courses in Canada , follow these steps.",
+      "groups": [
+        {
+          "t": "steps",
+          "items": [
+            {
+              "step": 1,
+              "title": "Select Your Level of Study",
+              "desc": "Choose if you wish to pursue a PhD, graduate certificate, research-based master's, bachelor's degree, or MPH."
+            },
+            {
+              "step": 2,
+              "title": "Choose Your Area of Expertise",
+              "desc": "Select a field such as biostatistics, environmental health, global health, epidemiology, health promotion, health policy, or healthcare administration."
+            },
+            {
+              "step": 3,
+              "title": "Make a shortlist of universities",
+              "desc": "Examine the program's structure, costs, location, qualifications for entrance, length of the course, and eligibility for overseas students."
+            },
+            {
+              "step": 4,
+              "title": "Verify your academic eligibility.",
+              "desc": "Examine the prerequisite courses, minimum grades, degree requirements, and any applicable work experience requirements."
+            },
+            {
+              "step": 5,
+              "title": "Prepare the English Language Scores",
+              "desc": "If the institution requires it, take an approved English proficiency test."
+            },
+            {
+              "step": 6,
+              "title": "Prepare the application documents",
+              "desc": "Gather academic records, certifications, passport information, a statement of purpose, references, a resume, and, if necessary, a research proposal."
+            },
+            {
+              "step": 7,
+              "title": "Send in the application",
+              "desc": "Before the applicable deadline, submit an application using the university's official admissions portal."
+            },
+            {
+              "step": 8,
+              "title": "Fulfill Extra Requirements",
+              "desc": "If the program calls for it, participate in an interview, send in more paperwork, or get in touch with a possible supervisor."
+            },
+            {
+              "step": 9,
+              "title": "Accept the Offer",
+              "desc": "Examine the terms of the offer, the tuition deposit, the due dates for payments, and the available financing."
+            },
+            {
+              "step": 10,
+              "title": "apply for a study permit in Canada.",
+              "desc": "Assemble the necessary immigration paperwork and proof of financial assistance. Observe Immigration, Refugees and Citizenship Canada's most recent guidelines."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Registration and Licensing",
+      "lead": "The majority of general public health positions in Canada do not require a single universal professional license because public health is such a large field. Registration requirements, however, vary by province and vocation.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "For Graduates in Public Health"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Depending on their credentials and expertise, graduates may find employment in research, health promotion, policy, program coordination, data analysis, community health, or health administration."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Specialized training, real-world experience, professional qualification, or local regulations may be necessary for some jobs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For Positions in Clinical Healthcare"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A medical, nursing, pharmacy, or other regulated clinical license is not granted by an MPH."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For instance, Indian MBBS graduates must follow a different medical licensure procedure if they wish to practice medicine in Canada. In a similar vein, all regulated professionals, including nurses and pharmacists, must adhere to the regulations set forth by their respective authorities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Pay and career opportunities in Canada After Public Health",
+      "lead": "Graduates of public health programs in Canada might look for work in government agencies, hospitals, universities, research facilities, nonprofits, consulting businesses, and healthcare organizations.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The following are possible public health positions in Canada"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Coordinator of Public Health Programs | Assists with organizing, carrying out and assessing community or population health initiatives. |"
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Supports disease monitoring, research investigations, and health data analysis as an epidemiology research assistant.",
+              "d": ""
+            },
+            {
+              "t": "Examines health trends, assesses programs, and creates reports to help with decision-making as a public health analyst.",
+              "d": ""
+            },
+            {
+              "t": "Research and public health planning are supported by the analysis of health data by biostatistics or data analysts. Quantitative training may be necessary for advanced roles.",
+              "d": ""
+            },
+            {
+              "t": "Environmental health specialists, according to local regulations and role-specific credentials, work on environmental variables that impact health.",
+              "d": ""
+            },
+            {
+              "t": "Supports public health initiatives and international health programs as a global health project officer.",
+              "d": ""
+            },
+            {
+              "t": "Planning, operations, service delivery, and management in healthcare organizations are all supported by healthcare administrators.",
+              "d": ""
+            }
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Health Promotion Specialist | Creates programs to raise health consciousness and promote better habits. |",
+            "Health Policy Analyst | Investigates population health challenges, healthcare systems, and health policy. |",
+            "Research Coordinator | Oversees project activities, research documentation, and public health studies. |",
+            "Academic or University Researcher | Teaches public health or does research, frequently requiring postgraduate credentials. |"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Expectations for Salary"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Canada's public health pay differs according to experience, education, employer, province, and job title. The pay ranges for entry-level research and program support positions may differ from those of seasoned analysts, epidemiologists, or managers."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Needed to Learn Public Health in Canada",
+      "lead": "The specific paperwork varies depending on the program and university. In Canada, the following documents are frequently needed for public health admission:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "A current passport.",
+            "Certificates and mark sheets for Classes 10 and 12, if appropriate.",
+            "Academic transcripts and a bachelor's degree certificate are required for postgraduate entrance.",
+            "Transcripts from master's degrees are required for some doctoral applicants.",
+            "Results of any necessary English language proficiency tests.",
+            "A personal statement or statement of purpose.",
+            "Letters of endorsement.",
+            "A current curriculum vitae or resume.",
+            "A research proposal for pertinent initiatives that rely on research.",
+            "If necessary, proof of job experience.",
+            "Writing a portfolio or sample, upon request.",
+            "Payment confirmation and application forms.",
+            "Documentation proving financing or scholarship, if relevant.",
+            "A letter of offer from the university and proof of the tuition deposit, if applicable.",
+            "Examine the permit paperwork.",
+            "Any further paperwork that the university or Canadian immigration authorities request."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Candidates must adhere to the translation and document format guidelines set forth by the university. Certified translations may be required for academic publications published in languages other than those recognized by the organization."
+          ]
+        }
+      ]
     }
   ],
   "faq": [
     {
+      "q": "After Class 12, are Indian students able to pursue a career in public health in Canada?",
+      "a": "Yes, . Applications for bachelor's degrees in public health, health sciences, or health studies are accepted from Indian students. The majority of MPH programs demand a bachelor's degree.",
       "question": "After Class 12, are Indian students able to pursue a career in public health in Canada?",
-      "answer": "Yes,. Applications for bachelor's degrees in public health, health sciences, or health studies are accepted from Indian students. The majority of MPH programs demand a bachelor's degree."
+      "answer": "Yes, . Applications for bachelor's degrees in public health, health sciences, or health studies are accepted from Indian students. The majority of MPH programs demand a bachelor's degree."
     },
     {
+      "q": "Does studying public health in Canada require NEET?",
+      "a": "For public health programs, NEET is typically not a prerequisite for entrance. Academic credentials and course-specific admission requirements are used by universities to evaluate applicants.",
       "question": "Does studying public health in Canada require NEET?",
       "answer": "For public health programs, NEET is typically not a prerequisite for entrance. Academic credentials and course-specific admission requirements are used by universities to evaluate applicants."
     },
     {
+      "q": "How long does an MPH take in Canada?",
+      "a": "Depending on the university, course structure, internship or practicum requirements, and study method, many MPH programs take one to two years.",
       "question": "How long does an MPH take in Canada?",
       "answer": "Depending on the university, course structure, internship or practicum requirements, and study method, many MPH programs take one to two years."
     },
     {
+      "q": "How much does it cost to study public health in Canada?",
+      "a": "In general, living expenditures and tuition could come to at least CAD 35,100–90,100 annually. Applicants should refer to official fee schedules as actual costs differ by city and university.",
       "question": "How much does it cost to study public health in Canada?",
-      "answer": "In general, living expenditures and tuition could come to at least CAD 35,100-90,100 annually. Applicants should refer to official fee schedules as actual costs differ by city and university."
+      "answer": "In general, living expenditures and tuition could come to at least CAD 35,100–90,100 annually. Applicants should refer to official fee schedules as actual costs differ by city and university."
     },
     {
+      "q": "After earning an MPH, can I get employment in Canada?",
+      "a": "Graduates may seek for pertinent positions in healthcare administration, epidemiology support, research, public health initiatives, and health policy. Qualifications, experience, work authorization, company criteria, and the job market all influence employment. A job or permanent residence are not guaranteed by an MPH alone.",
       "question": "After earning an MPH, can I get employment in Canada?",
-      "answer": "Graduates may seek for pertinent positions in healthcare administration, epidemiology support, research, public health initiatives, and health policy. Qualifications, experience, work authorization, company criteria, and the job market all influence employment. A job or permanent residence are not guaranteed by an MPH alone. Use Edu Hawk worldwide consultancy to Plan Your Public Health Education in Canada Careful consideration of university options, eligibility, tuition costs, and professional objectives is necessary while selecting a course. Students can research alternatives and be ready for the application procedure with the aid of Edu Hawk. If you want to study public health in Canada as an Indian student, do your homework ahead of time and ask the university directly about the most recent prerequisites for admission. Study Public Health in Canada Study Public Health in Canada for Indian Students Public Health Courses in Canada Public Health Universities in Canada MPH in Canada for Indian Students Master of Public Health in Canada Public Health Admission Requirements in Canada Public Health Eligibility in Canada Cost of Studying Public Health in Canada Public Health Tuition Fees in Canada Public Health Jobs in Canada"
+      "answer": "Graduates may seek for pertinent positions in healthcare administration, epidemiology support, research, public health initiatives, and health policy. Qualifications, experience, work authorization, company criteria, and the job market all influence employment. A job or permanent residence are not guaranteed by an MPH alone."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "After Class 12, are Indian students able to pursue a career in public health in Canada?",
+      "a": "Yes, . Applications for bachelor's degrees in public health, health sciences, or health studies are accepted from Indian students. The majority of MPH programs demand a bachelor's degree.",
+      "question": "After Class 12, are Indian students able to pursue a career in public health in Canada?",
+      "answer": "Yes, . Applications for bachelor's degrees in public health, health sciences, or health studies are accepted from Indian students. The majority of MPH programs demand a bachelor's degree."
+    },
+    {
+      "q": "Does studying public health in Canada require NEET?",
+      "a": "For public health programs, NEET is typically not a prerequisite for entrance. Academic credentials and course-specific admission requirements are used by universities to evaluate applicants.",
+      "question": "Does studying public health in Canada require NEET?",
+      "answer": "For public health programs, NEET is typically not a prerequisite for entrance. Academic credentials and course-specific admission requirements are used by universities to evaluate applicants."
+    },
+    {
+      "q": "How long does an MPH take in Canada?",
+      "a": "Depending on the university, course structure, internship or practicum requirements, and study method, many MPH programs take one to two years.",
+      "question": "How long does an MPH take in Canada?",
+      "answer": "Depending on the university, course structure, internship or practicum requirements, and study method, many MPH programs take one to two years."
+    },
+    {
+      "q": "How much does it cost to study public health in Canada?",
+      "a": "In general, living expenditures and tuition could come to at least CAD 35,100–90,100 annually. Applicants should refer to official fee schedules as actual costs differ by city and university.",
+      "question": "How much does it cost to study public health in Canada?",
+      "answer": "In general, living expenditures and tuition could come to at least CAD 35,100–90,100 annually. Applicants should refer to official fee schedules as actual costs differ by city and university."
+    },
+    {
+      "q": "After earning an MPH, can I get employment in Canada?",
+      "a": "Graduates may seek for pertinent positions in healthcare administration, epidemiology support, research, public health initiatives, and health policy. Qualifications, experience, work authorization, company criteria, and the job market all influence employment. A job or permanent residence are not guaranteed by an MPH alone.",
+      "question": "After earning an MPH, can I get employment in Canada?",
+      "answer": "Graduates may seek for pertinent positions in healthcare administration, epidemiology support, research, public health initiatives, and health policy. Qualifications, experience, work authorization, company criteria, and the job market all influence employment. A job or permanent residence are not guaranteed by an MPH alone."
     }
   ]
 }

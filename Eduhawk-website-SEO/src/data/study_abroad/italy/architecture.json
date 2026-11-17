@@ -1,14 +1,15 @@
 {
   "seo": {
     "title": "Architecture in Italy for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study Architecture in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities."
+    "description": "Study Architecture in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
+    "keywords": "Architecture in Italy for Indian Students, Architecture Courses in Italy, Best Universities for Architecture in Italy, Architecture Eligibility in Italy, Architecture Admission Requirements in Italy, Cost of Studying Architecture in Italy"
   },
   "hero": {
     "badge": "Study Abroad - Italy",
     "title": "Indian Students Will Study Architecture In Italy",
-    "subtitle": "Yeah. There are a couple of architecture programs with courses taught in English. For example, Politecnico di Milano has a bachelor's program in Architectural Design with Italian and English study options, depending on the track.",
+    "subtitle": "Studying Architecture in Italy allows Indian students to study architectural design, urban planning, sustainable construction, building technology and conservation of heritage in a country known for its historic buildings and contemporary design. Italy is a mixture of centuries-old architectural heritage and contemporary approaches to urban development, landscape design and sustainable architecture.",
     "ctaText": "Book Free Counselling",
-    "image": ""
+    "image": "/uploads/study_abroad/italy/architecture_Politecnico_di_Milano_-_Milan-image2.png"
   },
   "stats": [
     {
@@ -29,38 +30,785 @@
     }
   ],
   "highlights": {
-    "degree": "Undergraduate & Postgraduate",
+    "degree": "Laurea & Laurea Magistrale in Architettura",
     "duration": "1 to 2 Years (PG) / 3 Years (UG)",
     "fee": "€1,000 – €4,000 / Year (Public) | €6,000 – €20,000 / Year (Private)",
     "eligibility": "Recognised academic qualification + English / Italian proficiency",
-    "medium": "English & Italian Taught"
+    "medium": "English / Italian"
   },
-  "overview": "Yeah. There are a couple of architecture programs with courses taught in English. For example, Politecnico di Milano has a bachelor's program in Architectural Design with Italian and English study options, depending on the track.\n\n2. How long does it take to get an Architecture degree in Italy?\n\nA bachelor's degree is usually three years, followed by a two-year master's degree. Some architecture qualifications are structured as a single-cycle five-year program.\n\nIs there an entrance exam for Architecture in Italy? 3.\n\nSome universities ask you to take an entrance exam or undergo a selection process. Entry requirements vary from program to program and students should check the latest entry regulations.\n\n4. What is the cost of studying Architecture in Italy?\n\nTuition depends on the university and program. Tuition for a public university can be relatively cheap , tuition for a private university can be more expensive . There are other studio and project costs.\n\n5. Can I become an architect in India after studying in Italy?\n\nPossibly, subject to the qualification and professional requirements. Students should check the degree recognition and registration requirements with the Council of Architecture in India before choosing a program.\n\nTop 6 SEO Keywords",
+  "overview": [
+    "Studying Architecture in Italy allows Indian students to study architectural design, urban planning, sustainable construction, building technology and conservation of heritage in a country known for its historic buildings and contemporary design. Italy is a mixture of centuries-old architectural heritage and contemporary approaches to urban development, landscape design and sustainable architecture.",
+    "Students can explore Bachelor's and Master's degrees in Architecture in Italy , with programs in Architectural Design, Building Engineering and Architecture, Urban Planning and Landscape Architecture. The exact title of the course, duration, language of tuition, entry requirements and rules for professional recognition vary with the university and program."
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Key Benefits",
+      "title": "Why Study Architecture in Italy?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Rich architectural heritage: Take inspiration from Italy's historic buildings, public spaces and architectural traditions."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Design-oriented education Learn architectural drawing, model-making, spatial planning, and design studios."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Modern construction knowledge: Building technology, building materials, environmental design and sustainable architecture."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "International Exposure: Learn with students from different countries and design backgrounds."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Specialization opportunities: Think urban planning, landscape architecture, restoration and sustainable building design."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Career flexibility: Prepare for careers in architectural design, construction, urban development and related fields, depending on professional requirements."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Who Can Study Architecture in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The eligibility criteria for Architecture in Italy depend on the degree level, university and admission route."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For a Bachelors degree:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Pass in Class 12 from a recognized Board."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A qualification that satisfies the entry requirements of the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Selection process/Entrance test where applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "English or Italian, depending on the language of instruction of the program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Any other academic requirements as set out by the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For Master's degree:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A recognized bachelor's degree in Architecture or a comparable field is accepted by the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Relevant academic credits and prerequisite subjects as required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "An academic record that meets the programme's requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A design portfolio (where required)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "English or Italian language level according to the program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some Italian architecture programs offer a five-year single-cycle degree, while others have a three-year bachelor's degree and a two-year master's degree. Students need to check which pathway is best for their academic and career goals."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Italian Universities",
+      "title": "Top Universities in Italy",
+      "lead": "Explore top public research universities and polytechnics in Italy offering English-taught degrees, historic campuses, and generous regional scholarships.",
+      "unis": [
+        {
+          "name": "Politecnico di Milano",
+          "location": "Milan, Italy",
+          "fee": "€1,000 – €3,900 / Year",
+          "image": "/uploads/study_abroad/italy/architecture_Politecnico_di_Milano_-_Milan-image2.png",
+          "desc": "Politecnico di Milano is one of Italy's prominent technical universities, known for its education and research in architecture, engineering and design."
+        },
+        {
+          "name": "Sapienza University of Rome",
+          "location": "Rome, Italy",
+          "fee": "€1,000 – €3,000 / Year",
+          "image": "/uploads/study_abroad/italy/architecture_Sapienza_University_of_Rome_-_Rome-image1.png",
+          "desc": "Sapienza University of Rome is a major public university offering programmes across architecture, engineering, humanities and other academic disciplines."
+        },
+        {
+          "name": "University of Bologna",
+          "location": "Bologna, Italy",
+          "fee": "€1,000 – €3,500 / Year",
+          "image": "/uploads/study_abroad/italy/architecture_University_of_Bologna_-_Bologna-image3.png",
+          "desc": "The University of Bologna offers academic opportunities in architecture and related built-environment disciplines. Students"
+        }
+      ],
+      "groups": []
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Italy Entry Requirements for Architecture",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Indian students may be required to submit:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic certificates and mark sheets."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A passport valid for travel."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "English-language test results, if needed."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Results of entrance examinations, if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Portfolio of drawings, design projects, or other creative works if requested."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A statement of purpose / motivation letter (if required)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A CV and letters of recommendation for selected postgraduate programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Certifications of translations or legalized academic documents where applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For example, Politecnico di Milano has an ARCHED admission test for its Architectural Design bachelor's program, and its single-cycle Building Engineering-Architecture program. The requirements for testing and application vary depending on the program and the academic year."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Architecture courses in Italy are highly competitive, so students should check the test dates, places available, portfolio requirements and application deadlines well in advance."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Costs",
+      "title": "Cost of Italy Architecture Study",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Tuition fees for Architecture in Italy will vary between universities, between programs, between degree levels and between eligibility for financial assistance."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Type of institution"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Example of annual tuition"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Approx. INR value"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Public universities €1,000-€4,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹1.09 - ₹4.34 lakh"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Other Public Programs €3,000-€8,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹3.26-₹8.69 lakh"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Private Institutions & Specialized Schools €8,000 - €20,000+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "INR 8.69 - 21.72 lakh+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are broad planning estimates and not confirmed fees for all architecture programs. The actual fees can vary a lot. Before applying, check the most recent official fee schedule."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Other costs architecture students may need to budget for include model making, drawing materials, printing, software, studio projects and field trips. Accommodation, food, transport, insurance, travel and visa costs should be considered separately."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Scholarship for Architecture Students"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students may explore, depending on eligibility:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Merit scholarships for university"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Tuition reductions based on need."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Regional Scholarships & Grants."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "International student scholarships."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Waivers of institutional fees."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Scholarships are subject to the terms and conditions of the scheme, closing dates and funding available. Admission does not automatically come with financial aid."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "How to Apply",
+      "title": "Architecture Admissions Procedure in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Select your degree pathway: Select from a bachelor's degree, a single-cycle five-year degree program or a master's degree."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Research universities: Look into course structure, language of instruction, studio facilities, and professional outcomes."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Check eligibility: Check the academic requirements, language requirements, entrance tests and portfolio requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Get your documents ready: Collect transcripts, certificates, passport information and any design portfolio needed."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Fill out the application: Apply through the official portal of the university and register for the required entrance exams."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Meet the selection requirements: If the university requires it, take the entrance test or go for an interview."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Accept your admission offer Complete the enrollment steps & fee formalities at the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Sort out your student visa: Follow the Italian visa and pre-enrolment procedures that apply to your intake."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Each institution has different selection processes and deadlines. Some programs have limited places and so early preparation is important."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "recognition",
+      "eyebrow": "Degree Recognition & Accreditation",
+      "title": "Recognition of Degree for Architecture in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Italy has universities and technical institutes that are accredited and offer degrees in architecture. But academic recognition and professional authorization to practice as an architect are not the same."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Indian students must check before enrolling:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Whether the program and university are formally recognized."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "That the qualification supports their intended progression to further study."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "If the degree is recognized by professional requirements in India or Italy."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "If further examination, supervised practice, registration or recognition procedures are necessary."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Whether the qualification is suitable for work in another country."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students intending to practice architecture in India should refer to the latest requirements of the Council of Architecture (COA). Students wishing to practise in Italy should check the relevant Italian professional registration and qualification requirements."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Prospects",
+      "title": "Salary and Employment Opportunities After Italian Architecture",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Architecture graduates may look for work with architecture practices, construction companies, property developers, engineering consultancies, urban planning organizations and design studios."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Possible positions include:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Architectural Designer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Junior Architect (m/f/d)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "BIM Modeler / BIM Coordinator"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Interior Design Architect"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "City Planner"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Designer, Landscape"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Sustainable Building Design Advisor"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Architecture Visualization Specialist"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Assistant, Heritage Conservation"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Project Co-ordinator"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Salary ranges, as an example"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Years of experience"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Estimated annual gross salary"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Approx INR equivalent"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Starting level €22,000-€30,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹23.89-₹32.58 lakh"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Mid-level €30,000 - €45,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹32.58 - ₹48.87 lakh"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Experienced professionals €45,000-€65,000+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹48.87-₹70.59 lakh+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are representative gross annual estimates, not verified salary statistics or guarantyd earnings. Your actual salary will depend on location, employer, experience, technical skills, language skills and professional registration. INR values are currency conversion, not actual salary."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Proficiency with architectural software such as AutoCAD, Revit, Archicad, Rhino, and BIM workflows can be useful depending on the position. Skills in the Italian language may also be useful for access to local firms and client-facing jobs."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Required Documents",
+      "title": "Documents for the Study of Architecture in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The university checklist may include:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Passport valid."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Class 10 & Class 12 certificate and marksheet for bachelor applicants."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For Master's program applicants, Bachelor's degree certificate and transcripts."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Results of the English or Italian language test, if required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Portfolio of design work as required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Statement of purpose/motivational letter, if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Letters of recommendation, if applicable Résumé"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Entrance test or result registration."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Certified translations or legalized documents if required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Financial, accommodation, insurance and other documents for the visa procedure."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Applicants should refer to the official university and visa checklists for their specific intake, rather than a generic list of documents."
+          ]
+        }
+      ]
+    }
+  ],
   "universities": [
     {
       "name": "Politecnico di Milano",
       "location": "Milan, Italy",
       "fee": "€1,000 – €3,900 / Year",
-      "image": ""
+      "image": "/uploads/study_abroad/italy/architecture_Politecnico_di_Milano_-_Milan-image2.png",
+      "desc": "Politecnico di Milano is one of Italy's prominent technical universities, known for its education and research in architecture, engineering and design."
     },
     {
       "name": "Sapienza University of Rome",
       "location": "Rome, Italy",
       "fee": "€1,000 – €3,000 / Year",
-      "image": ""
+      "image": "/uploads/study_abroad/italy/architecture_Sapienza_University_of_Rome_-_Rome-image1.png",
+      "desc": "Sapienza University of Rome is a major public university offering programmes across architecture, engineering, humanities and other academic disciplines."
     },
     {
       "name": "University of Bologna",
       "location": "Bologna, Italy",
       "fee": "€1,000 – €3,500 / Year",
-      "image": ""
-    },
-    {
-      "name": "University of Padua",
-      "location": "Padua, Italy",
-      "fee": "€1,000 – €2,800 / Year",
-      "image": ""
+      "image": "/uploads/study_abroad/italy/architecture_University_of_Bologna_-_Bologna-image3.png",
+      "desc": "The University of Bologna offers academic opportunities in architecture and related built-environment disciplines. Students"
     }
   ],
-  "faq": []
+  "faq": [
+    {
+      "question": "Do Italian universities provide Architecture in English for Indian students?",
+      "answer": "Yeah. There are a couple of architecture programs with courses taught in English. For example, Politecnico di Milano has a bachelor's program in Architectural Design with Italian and English study options, depending on the track."
+    },
+    {
+      "question": "How long does it take to get an Architecture degree in Italy?",
+      "answer": "A bachelor's degree is usually three years, followed by a two-year master's degree. Some architecture qualifications are structured as a single-cycle five-year program. Is there an entrance exam for Architecture in Italy? 3. Some universities ask you to take an entrance exam or undergo a selection process. Entry requirements vary from program to program and students should check the latest entry regulations."
+    },
+    {
+      "question": "What is the cost of studying Architecture in Italy?",
+      "answer": "Tuition depends on the university and program. Tuition for a public university can be relatively cheap , tuition for a private university can be more expensive . There are other studio and project costs."
+    },
+    {
+      "question": "Can I become an architect in India after studying in Italy?",
+      "answer": "Possibly, subject to the qualification and professional requirements. Students should check the degree recognition and registration requirements with the Council of Architecture in India before choosing a program."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do Italian universities provide Architecture in English for Indian students?",
+      "a": "Yeah. There are a couple of architecture programs with courses taught in English. For example, Politecnico di Milano has a bachelor's program in Architectural Design with Italian and English study options, depending on the track."
+    },
+    {
+      "q": "How long does it take to get an Architecture degree in Italy?",
+      "a": "A bachelor's degree is usually three years, followed by a two-year master's degree. Some architecture qualifications are structured as a single-cycle five-year program. Is there an entrance exam for Architecture in Italy? 3. Some universities ask you to take an entrance exam or undergo a selection process. Entry requirements vary from program to program and students should check the latest entry regulations."
+    },
+    {
+      "q": "What is the cost of studying Architecture in Italy?",
+      "a": "Tuition depends on the university and program. Tuition for a public university can be relatively cheap , tuition for a private university can be more expensive . There are other studio and project costs."
+    },
+    {
+      "q": "Can I become an architect in India after studying in Italy?",
+      "a": "Possibly, subject to the qualification and professional requirements. Students should check the degree recognition and registration requirements with the Council of Architecture in India before choosing a program."
+    }
+  ]
 }

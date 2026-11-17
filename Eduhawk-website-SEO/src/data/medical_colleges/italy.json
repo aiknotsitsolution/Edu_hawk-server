@@ -1,57 +1,99 @@
 {
   "seo": {
-    "title": "MBBS in Italy for Indian Students 2026-27 | Edu Hawk Worldwide",
-    "description": "Complete guide to MBBS in Italy. Eligibility, low tuition fees, top medical universities, NMC recognition and visa process."
+    "title": "MBBS in Italy 2026-27 | Admissions, Fees & Universities | Edu Hawk",
+    "description": "Explore MBBS in Italy for Indian students: eligibility, admission process, top medical universities, documents and food & accommodation costs.",
+    "keywords": "mbbs in italy, study mbbs italy, italy medical colleges, imat exam, mbbs abroad italy"
   },
   "hero": {
     "badge": "MBBS Admissions 2026-27",
-    "title": "MBBS in Italy",
-    "subtitle": "Pursue your dream medical career with NMC & WHO accredited universities in Italy.",
-    "ctaText": "Apply for 2026-27 Intake",
-    "image": ""
+    "title": "STUDY MBBS IN ITALY",
+    "subtitle": "Explore MBBS Opportunities in Italy 2026–2027. Subsidized tuition fees in historic European public universities with 100% English medium programs.",
+    "image": "/uploads/colleges/italy_header.webp",
+    "ctaText": "Apply for Italy MBBS"
   },
+  "flag": "/uploads/colleges/italy_header.webp",
   "stats": [
     {
-      "n": "1000+",
-      "l": "Students Placed Globally"
+      "n": "6 Years",
+      "l": "Single-Cycle Medicine & Surgery"
     },
     {
-      "n": "20+",
-      "l": "Countries"
-    },
-    {
-      "n": "200+",
-      "l": "Partner Universities"
+      "n": "€1,200",
+      "l": "Starting Annual Public Tuition"
     },
     {
       "n": "100%",
-      "l": "Support (Visa & End-to-End Guidance)"
+      "l": "European Degree Recognized Worldwide"
+    },
+    {
+      "n": "IMAT",
+      "l": "Standardized Entrance Route"
     }
   ],
   "highlights": {
-    "degree": "MD / MBBS (Equivalent)",
-    "duration": "5 to 6 Years",
-    "fee": "15 - 35 Lakhs Total Package",
-    "eligibility": "50% in PCB (Class 12) + NEET Qualified",
-    "medium": "100% English Medium"
+    "degree": "Laurea Magistrale a Ciclo Unico in Medicina e Chirurgia",
+    "duration": "6 Years",
+    "fee": "€1,200 – €4,000 / Year (Income-based)",
+    "eligibility": "12th PCB + NEET Qualified + IMAT Exam",
+    "medium": "English",
+    "recognition": "NMC, WHO, FAIMER & Ministry of Health Italy",
+    "neet": "Mandatory for Indian students",
+    "ielts": "Not Required"
   },
-  "overview": "MBBS in Italy offers high quality medical education, advanced clinical training in affiliated government hospitals, and globally recognized medical degrees.",
+  "overview": "Italy is one of the most attractive European destinations for Indian students due to its top-ranked public universities, English-taught single-cycle medicine programs, and government-subsidized tuition fees. Students gain deep theoretical grounding and clinical experience across historic teaching hospitals.",
+  "universitiesHeading": "Top Public Medical Universities in Italy",
   "universities": [
     {
-      "name": "Top State Medical University (Italy)",
-      "location": "Italy",
-      "fee": "₹3.5 Lakhs / Year",
-      "image": ""
+      "name": "University of Bologna",
+      "location": "Bologna, Italy",
+      "fee": "€1,500 – €3,500 / Year",
+      "image": "/uploads/colleges/university_of_bologna.webp",
+      "desc": "Founded in 1088, the oldest university in the world, offering an English-taught 6-year Medicine programme."
+    },
+    {
+      "name": "University of Milan",
+      "location": "Milan, Italy",
+      "fee": "€1,800 – €4,000 / Year",
+      "image": "/uploads/colleges/university_of_milan.webp",
+      "desc": "Home to the International Medical School (IMS) with rotations in Milan's premier research hospitals."
+    },
+    {
+      "name": "University of Padua",
+      "location": "Padua, Italy",
+      "fee": "€1,500 – €3,000 / Year",
+      "image": "/uploads/colleges/university_of_padua.webp",
+      "desc": "World-famous for medical discoveries with ancient anatomical theater and cutting-edge labs."
+    },
+    {
+      "name": "University of Pavia",
+      "location": "Pavia, Italy",
+      "fee": "€1,200 – €3,500 / Year",
+      "image": "/uploads/colleges/university_of_pavia.webp",
+      "desc": "Prestigious Harvey Medicine Course taught entirely in English with high clinical mentorship."
+    },
+    {
+      "name": "Sapienza University of Rome",
+      "location": "Rome, Italy",
+      "fee": "€1,500 – €3,200 / Year",
+      "image": "/uploads/colleges/sapienza_university_of_rome.webp",
+      "desc": "One of Europe's largest universities with high patient volume across Rome's municipal hospitals."
+    },
+    {
+      "name": "University of Turin",
+      "location": "Turin, Italy",
+      "fee": "€1,400 – €3,000 / Year",
+      "image": "/uploads/colleges/university_of_turin.webp",
+      "desc": "Excellent clinical training in Northern Italy with modern simulation centers and research wards."
     }
   ],
   "faq": [
     {
-      "question": "Is NEET mandatory for MBBS in Italy?",
-      "answer": "Yes, qualifying NEET in the year of admission or preceding two years is mandatory as per NMC guidelines."
+      "question": "Is IMAT exam compulsory for MBBS in Italy?",
+      "answer": "Yes, public universities in Italy require international students to qualify the IMAT (International Medical Admissions Test) conducted annually."
     },
     {
-      "question": "Is the degree from Italy valid in India?",
-      "answer": "Yes, all our partner medical universities comply fully with NMC gazette guidelines, making graduates eligible for the NExT/FMGE exam."
+      "question": "What is the fee structure in Italian public universities?",
+      "answer": "Public university tuition in Italy is subsidized and ranges between €1,000 and €4,000 per year, often reducible based on family income documents."
     }
   ]
 }

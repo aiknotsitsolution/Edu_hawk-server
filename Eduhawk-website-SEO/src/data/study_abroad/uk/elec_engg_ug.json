@@ -1,10 +1,5 @@
 {
-  "seo": {
-    "title": "Study BEng Electrical Engineering in the UK for Indian Students | Edu-Hawk Worldwide",
-    "description": "Complete guide to BEng Electrical Engineering in the UK for Indian students: Top UK universities, eligibility criteria, tuition fees (£14,000–£35,000/yr), scholarships, and 2-year post-study work visa (Graduate Route)."
-  },
   "hero": {
-    "badge": "Study Abroad - United Kingdom",
     "title": "Study Electrical Engineering in the United Kingdom",
     "subtitle": "The engineering field of \"Electrical Engineering\" is focused on the production, distribution, control, and utilization of electrical energy. Electrical machinery, power systems, control technologies, renewable energy and the electrical infrastructure utilized in contemporary businesses are also covered."
   },
@@ -13,17 +8,47 @@
     "Common degree titles for undergraduate Electrical Engineering programs in the UK include Electrical Engineering, Electrical and Electronic Engineering, and Electronic and Electrical Engineering.",
     "With the right preparation and direction, Edu Hawk worldwide consultancy helps students understand university admission standards explore international study possibilities, and prepare for the overseas education journey."
   ],
+  "universities": [
+    {
+      "name": "Greenwich University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_elec_engg_ug_Greenwich_University-image4.png",
+      "image": "/uploads/study_abroad/uk/uk_elec_engg_ug_Greenwich_University-image4.png",
+      "desc": "Greenwich University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Leeds University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_elec_engg_ug_Leeds_University-image3.png",
+      "image": "/uploads/study_abroad/uk/uk_elec_engg_ug_Leeds_University-image3.png",
+      "desc": "Leeds University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Sheffield University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_elec_engg_ug_Sheffield_University-image2.png",
+      "image": "/uploads/study_abroad/uk/uk_elec_engg_ug_Sheffield_University-image2.png",
+      "desc": "Sheffield University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Southampton University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_elec_engg_ug_Southampton_University-image1.png",
+      "image": "/uploads/study_abroad/uk/uk_elec_engg_ug_Southampton_University-image1.png",
+      "desc": "Southampton University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    }
+  ],
   "sections": [
     {
+      "slot": "why-study",
+      "eyebrow": "Why UK",
       "title": "Why Study Electrical Engineering in the UK?",
-      "eyebrow": "Why Study in the UK",
+      "lead": "The engineering field of \"Electrical Engineering\" is focused on the production, distribution, control, and utilization of electrical energy. Electrical machinery, power systems, control technologies, renewable energy and the electrical infrastructure utilized in contemporary businesses are also covered.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The engineering field of \"Electrical Engineering\" is focused on the production, distribution, control, and utilization of electrical energy. Electrical machinery, power systems, control technologies, renewable energy and the electrical infrastructure utilized in contemporary businesses are also covered."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -57,15 +82,11 @@
       ]
     },
     {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
       "title": "UK Courses in Electrical Engineering",
-      "eyebrow": "Course Guide",
+      "lead": "After Class 12, Indian students can select from a number of undergraduate-entry Electrical Engineering pathways.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "After Class 12, Indian students can select from a number of undergraduate-entry Electrical Engineering pathways."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -149,46 +170,52 @@
       ]
     },
     {
+      "slot": "universities",
+      "eyebrow": "Top UK Universities",
       "title": "UK's Best Universities for Electrical Engineering",
-      "eyebrow": "Top Institutions",
-      "groups": [
+      "lead": "Undergraduate Electrical Engineering or similarly related Electrical and Electronic Engineering programs are available at the following universities. This is not an official ranking; rather, it is a shortlist for course research.",
+      "groups": [],
+      "unis": [
         {
-          "t": "universities",
-          "items": [
-            {
-              "name": "Greenwich University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Greenwich_University_webp"
-            },
-            {
-              "name": "Leeds University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Leeds_University_webp"
-            },
-            {
-              "name": "Sheffield University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Sheffield_University_webp"
-            },
-            {
-              "name": "Southampton University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Southampton_University_webp"
-            }
-          ]
+          "name": "Greenwich University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_elec_engg_ug_Greenwich_University-image4.png",
+          "image": "/uploads/study_abroad/uk/uk_elec_engg_ug_Greenwich_University-image4.png",
+          "desc": "Greenwich University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Leeds University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_elec_engg_ug_Leeds_University-image3.png",
+          "image": "/uploads/study_abroad/uk/uk_elec_engg_ug_Leeds_University-image3.png",
+          "desc": "Leeds University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Sheffield University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_elec_engg_ug_Sheffield_University-image2.png",
+          "image": "/uploads/study_abroad/uk/uk_elec_engg_ug_Sheffield_University-image2.png",
+          "desc": "Sheffield University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Southampton University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_elec_engg_ug_Southampton_University-image1.png",
+          "image": "/uploads/study_abroad/uk/uk_elec_engg_ug_Southampton_University-image1.png",
+          "desc": "Southampton University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
         }
       ]
     },
     {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
       "title": "Qualifications for Studying Electrical Engineering in the United Kingdom",
-      "eyebrow": "Course Guide",
+      "lead": "The university, degree, academic standing, and selected course of study all influence the prerequisites for admission.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The university, degree, academic standing, and selected course of study all influence the prerequisites for admission."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -212,10 +239,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Language Requirements in English"
-          ]
+          "t": "h4",
+          "text": "Language Requirements in English"
         },
         {
           "t": "p",
@@ -247,20 +272,14 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "UK Admission Requirements for Electrical Engineering",
-      "eyebrow": "Eligibility & Process",
+      "lead": "Students should verify their preferred university's application criteria as well as their academic eligibility.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Students should verify their preferred university's application criteria as well as their academic eligibility."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Academic requirements"
-          ]
+          "t": "h4",
+          "text": "Academic requirements"
         },
         {
           "t": "p",
@@ -279,10 +298,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Language Requirements in English"
-          ]
+          "t": "h4",
+          "text": "Language Requirements in English"
         },
         {
           "t": "p",
@@ -299,27 +316,18 @@
       ]
     },
     {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
       "title": "The cost of studying electrical engineering in the United Kingdom",
-      "eyebrow": "Tuition & Living",
+      "lead": "The university, length of degree, location, lodging, and individual lifestyle all affect the total cost of studying Electrical Engineering in the UK.",
+      "groups": []
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "The cost of tuition",
+      "lead": "For the designated entrance years, the published examples in Section 3 vary from roughly £17,975 to £47,800 per year.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The university, length of degree, location, lodging, and individual lifestyle all affect the total cost of studying Electrical Engineering in the UK."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The cost of tuition"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "For the designated entrance years, the published examples in Section 3 vary from roughly £17,975 to £47,800 per year."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -361,13 +369,15 @@
           "items": [
             "The declared maintenance requirement for UK student visa financial evidence is £1,529 per month for studies in London and £1,171 per month outside London for a maximum of nine months, subject to the relevant immigration regulations. These are financial requirements for visas; there is no assurance that the same sum will be sufficient to meet each student's actual living expenses."
           ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Financial aid and scholarships"
-          ]
-        },
+        }
+      ]
+    },
+    {
+      "slot": "scholarships",
+      "eyebrow": "Scholarships & Aid",
+      "title": "Financial aid and scholarships",
+      "lead": "",
+      "groups": [
         {
           "t": "p",
           "items": [
@@ -387,153 +397,81 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "The UK Admissions Process for Electrical Engineering",
-      "eyebrow": "Eligibility & Process",
+      "lead": "",
       "groups": [
         {
-          "t": "p",
+          "t": "steps",
           "items": [
-            "Step 1: Select Your Degree Route"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Choose between a foundation-year route, an integrated MEng, a BEng, or a degree with an industrial placement."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 2: Make a shortlist of universities"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Examine the course modules, cost of tuition, location, labs, length of the course, options for placement, and accreditation."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 3: Verify Your Qualifications"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Examine the prerequisites for math and physics, English language proficiency, Class 12 qualifications, and any other entry criteria."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 4: Get Your Application Ready"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The majority of undergraduate candidates apply via UCAS or another method the university specifies."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 5 : Submit the supporting documentation"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Academic records, certifications, English language proficiency scores, answers to personal statements, reference data, and other requested documents should be provided."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 6: Accept and Examine Your Offer"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Verify if the offer is unconditional or conditional. Examine the enrollment guidelines, deadlines, deposit requirements, tuition costs, and academic criteria."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 7: Accept the Offer"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Follow the university's instructions to complete the necessary acceptance procedures and make preparations for the tuition deposit."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 8: Get Your Study Acceptance Confirmation"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The university may provide a Confirmation of Acceptance for Studies (CAS) for the student visa application procedure if the pertinent offer requirements have been met."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 9 : Apply for a UK student visa"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "In accordance with the most recent UK immigration regulations, prepare the necessary paperwork and submit your application."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 10: Make Travel and Accommodation Plans"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Make travel, lodging, money, university enrollment, and pre-departure plans."
+            {
+              "step": 1,
+              "title": "Select Your Degree Route",
+              "desc": "Choose between a foundation-year route, an integrated MEng, a BEng, or a degree with an industrial placement."
+            },
+            {
+              "step": 2,
+              "title": "Make a shortlist of universities",
+              "desc": "Examine the course modules, cost of tuition, location, labs, length of the course, options for placement, and accreditation."
+            },
+            {
+              "step": 3,
+              "title": "Verify Your Qualifications",
+              "desc": "Examine the prerequisites for math and physics, English language proficiency, Class 12 qualifications, and any other entry criteria."
+            },
+            {
+              "step": 4,
+              "title": "Get Your Application Ready",
+              "desc": "The majority of undergraduate candidates apply via UCAS or another method the university specifies."
+            },
+            {
+              "step": 5,
+              "title": "Submit the supporting documentation",
+              "desc": "Academic records, certifications, English language proficiency scores, answers to personal statements, reference data, and other requested documents should be provided."
+            },
+            {
+              "step": 6,
+              "title": "Accept and Examine Your Offer",
+              "desc": "Verify if the offer is unconditional or conditional. Examine the enrollment guidelines, deadlines, deposit requirements, tuition costs, and academic criteria."
+            },
+            {
+              "step": 7,
+              "title": "Accept the Offer",
+              "desc": "Follow the university's instructions to complete the necessary acceptance procedures and make preparations for the tuition deposit."
+            },
+            {
+              "step": 8,
+              "title": "Get Your Study Acceptance Confirmation",
+              "desc": "The university may provide a Confirmation of Acceptance for Studies (CAS) for the student visa application procedure if the pertinent offer requirements have been met."
+            },
+            {
+              "step": 9,
+              "title": "Apply for a UK student visa",
+              "desc": "In accordance with the most recent UK immigration regulations, prepare the necessary paperwork and submit your application."
+            },
+            {
+              "step": 10,
+              "title": "Make Travel and Accommodation Plans",
+              "desc": "Make travel, lodging, money, university enrollment, and pre-departure plans."
+            }
           ]
         }
       ]
     },
     {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
       "title": "Accreditation and Professional Recognition for Electrical Engineering in the United Kingdom",
-      "eyebrow": "Course Guide",
+      "lead": "For students who intend to pursue a long-term career in electrical engineering, professional accreditation is crucial.",
+      "groups": []
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Accreditation of Engineering Degrees",
+      "lead": "On behalf of the Engineering Council, qualified electrical and electronic engineering programs are accredited by the Institution of Engineering and Technology (IET).",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "For students who intend to pursue a long-term career in electrical engineering, professional accreditation is crucial."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Accreditation of Engineering Degrees"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "On behalf of the Engineering Council, qualified electrical and electronic engineering programs are accredited by the Institution of Engineering and Technology (IET)."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -570,15 +508,11 @@
       ]
     },
     {
+      "slot": "careers",
+      "eyebrow": "Career & Salary",
       "title": "Pay and Employment Prospects for Electrical Engineers in the United Kingdom",
-      "eyebrow": "Career & Prospects",
+      "lead": "Graduates in electrical engineering can pursue careers in manufacturing, industrial automation, electronics, transportation, renewable energy, power generation, and electrical infrastructure.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Graduates in electrical engineering can pursue careers in manufacturing, industrial automation, electronics, transportation, renewable energy, power generation, and electrical infrastructure."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -656,15 +590,11 @@
       ]
     },
     {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
       "title": "Documents Needed in the UK to Study Electrical Engineering",
-      "eyebrow": "Course Guide",
+      "lead": "Depending on the university, degree, and visa conditions, different documents are needed to study Electrical Engineering in the UK.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Depending on the university, degree, and visa conditions, different documents are needed to study Electrical Engineering in the UK."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -698,10 +628,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Documents for Student Visas"
-          ]
+          "t": "h4",
+          "text": "Documents for Student Visas"
         },
         {
           "t": "p",
@@ -728,136 +656,37 @@
           ]
         }
       ]
-    },
-    {
-      "title": "11.FAQs",
-      "eyebrow": "Got Questions?",
-      "groups": [
-        {
-          "t": "faqs",
-          "items": [
-            {
-              "q": "Q1. After Class 12, are Indian kids able to pursue Electrical Engineering studies in the UK?",
-              "a": "Yes . After Class 12, qualified Indian students can apply to BEng or integrated MEng programs. Each university sets its own academic requirements for the majority of traditional majors, which often include mathematics and frequently physics."
-            },
-            {
-              "q": "Q2. How long do undergraduate Electrical Engineering courses in the UK last?",
-              "a": "An integrated MEng typically takes four years, whereas a BEng typically takes three. The entire study period may be extended by foundation years and industry placements."
-            },
-            {
-              "q": "Q3. What is the cost of an undergraduate degree in electrical engineering in the United Kingdom?",
-              "a": "For the designated entering years, the published tuition examples in this book range from roughly £17,975 to £47,800 per year. Budgeting must be done separately for living expenses, visa fees, medical costs, and potential yearly fee hikes."
-            },
-            {
-              "q": "Q4. After completing my electrical engineering undergraduate degree, what careers may I pursue?",
-              "a": "Jobs like Electrical Engineer , Power Systems Engineer, Electrical Design Engineer, Renewable Energy Engineer, Control Systems Engineer, Electronics Engineer, and Automation Engineer are available to graduates. Technical expertise, experience, employer demands, and labor market conditions all affect career results."
-            },
-            {
-              "q": "Q5. After earning my undergraduate degree in electrical engineering, may I remain in the UK?",
-              "a": "Graduates who meet the requirements may apply for a Graduate visa. An 18-month graduate visa is granted to qualified bachelor's degree holders who apply on or after January 1, 2027, in accordance with regulations released in October 2026. Before applying, students should confirm the current regulations."
-            },
-            {
-              "q": "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
-              "a": "Students may plan their study-abroad journey, organize application materials, comprehend admission requirements, and research suitable universities With the assistance of Edu Hawk worldwide Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
-            }
-          ]
-        }
-      ]
     }
   ],
-  "universities": [
-    {
-      "name": "Greenwich University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Greenwich_University.webp"
-    },
-    {
-      "name": "Leeds University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Leeds_University.webp"
-    },
-    {
-      "name": "Sheffield University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Sheffield_University.webp"
-    },
-    {
-      "name": "Southampton University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Southampton_University.webp"
-    }
-  ],
-  "table": {
-    "title": "Estimated Cost of Studying BEng Electrical Engineering in the UK (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (£ / GBP)",
-      "Details / Scope"
-    ],
-    "rows": [
-      [
-        "Undergraduate Degree (Annual)",
-        "£14,000 – £28,000 / year",
-        "Varies by university ranking, laboratory access, and course type"
-      ],
-      [
-        "Postgraduate Degree (Annual)",
-        "£16,000 – £35,000 / year",
-        "1-year intensive master's program or research dissertation"
-      ],
-      [
-        "Monthly Living Costs (Outside London)",
-        "£900 – £1,100 / month",
-        "Includes private/student accommodation, groceries, and utilities"
-      ],
-      [
-        "Monthly Living Costs (London)",
-        "£1,250 – £1,450 / month",
-        "Mandated UKVI maintenance requirement for London study"
-      ],
-      [
-        "Health Surcharge (IHS)",
-        "£776 / year",
-        "Access to UK National Health Service (NHS) for student visa holders"
-      ]
-    ]
-  },
   "faqs": [
     {
-      "q": "Q1. After Class 12, are Indian kids able to pursue Electrical Engineering studies in the UK?",
+      "q": "After Class 12, are Indian kids able to pursue Electrical Engineering studies in the UK?",
       "a": "Yes . After Class 12, qualified Indian students can apply to BEng or integrated MEng programs. Each university sets its own academic requirements for the majority of traditional majors, which often include mathematics and frequently physics."
     },
     {
-      "q": "Q2. How long do undergraduate Electrical Engineering courses in the UK last?",
+      "q": "How long do undergraduate Electrical Engineering courses in the UK last?",
       "a": "An integrated MEng typically takes four years, whereas a BEng typically takes three. The entire study period may be extended by foundation years and industry placements."
     },
     {
-      "q": "Q3. What is the cost of an undergraduate degree in electrical engineering in the United Kingdom?",
+      "q": "What is the cost of an undergraduate degree in electrical engineering in the United Kingdom?",
       "a": "For the designated entering years, the published tuition examples in this book range from roughly £17,975 to £47,800 per year. Budgeting must be done separately for living expenses, visa fees, medical costs, and potential yearly fee hikes."
     },
     {
-      "q": "Q4. After completing my electrical engineering undergraduate degree, what careers may I pursue?",
+      "q": "After completing my electrical engineering undergraduate degree, what careers may I pursue?",
       "a": "Jobs like Electrical Engineer , Power Systems Engineer, Electrical Design Engineer, Renewable Energy Engineer, Control Systems Engineer, Electronics Engineer, and Automation Engineer are available to graduates. Technical expertise, experience, employer demands, and labor market conditions all affect career results."
     },
     {
-      "q": "Q5. After earning my undergraduate degree in electrical engineering, may I remain in the UK?",
+      "q": "After earning my undergraduate degree in electrical engineering, may I remain in the UK?",
       "a": "Graduates who meet the requirements may apply for a Graduate visa. An 18-month graduate visa is granted to qualified bachelor's degree holders who apply on or after January 1, 2027, in accordance with regulations released in October 2026. Before applying, students should confirm the current regulations."
     },
     {
       "q": "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
       "a": "Students may plan their study-abroad journey, organize application materials, comprehend admission requirements, and research suitable universities With the assistance of Edu Hawk worldwide Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
     }
-  ]
+  ],
+  "seo": {
+    "title": "Study Electrical Engineering in the United Kingdom | Edu-Hawk Worldwide",
+    "description": "The engineering field of \"Electrical Engineering\" is focused on the production, distribution, control, and utilization of electrical energy. Electrical machiner",
+    "keywords": "Study Electronics and Communication Engineering in the UK for Indian Students, Best Universities for Electronics and Communication Engineering in the UK, Undergraduate Electronics and Communication Engineering Courses in the UK, ECE Eligibility in the UK After Class 12, Electronics and Communication Engineering Admission Requirements in the UK, Electronics and Communication Engineering Fees in the UK for Indian Students, ECE Scholarships in the UK for International Students, Bachelor of Engineering (BEng) in Electronic Engineering in the UK, Electronic and Electrical Engineering Courses in the UK, Electronic and Computer Engineering Degrees in the UK, Keywords -, Study Electrical Engineering in the UK for Indian Students, Best Universities for Electrical Engineering in the UK, Undergraduate Electrical Engineering Courses in the UK, Electrical Engineering Eligibility in the UK After Class 12, Electrical Engineering Admission Requirements in the UK, Electrical Engineering Fees in the UK for Indian Students, Electrical Engineering Scholarships in the UK for International Students, Bachelor of Engineering (BEng) in Electrical Engineering in the UK, Integrated Master of Engineering (MEng) in Electrical Engineering in the UK, Electrical and Electronic Engineering Courses in the UK"
+  }
 }

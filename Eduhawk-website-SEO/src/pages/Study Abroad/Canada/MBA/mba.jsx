@@ -10,6 +10,7 @@ import HaskayneSchoolOfBusinessUniversityOfCalgaryImg from "../../../../Images/A
 import DesautelsFacultyOfManagementAtMcGillUniversitImg from "../../../../Images/Abroad/Canada/MBA/Desautels_Faculty_of_Management_at_McGill_Universit.webp";
 import YorkUniversitysSchulichSchoolOfBusinessImg from "../../../../Images/Abroad/Canada/MBA/York_Universitys_Schulich_School_of_Business.webp";
 import TheAlbertaSchoolOfBusinessAtTheUniversityOfAlbertaImg from "../../../../Images/Abroad/Canada/MBA/The_Alberta_School_of_Business_at_the_University_of_Alberta.webp";
+import cmsData from "../../../../data/study_abroad/canada/mba.json";
 
 const page = {
   "name": "MBA in Canada",
@@ -451,9 +452,36 @@ const page = {
 };
 
 export default function MBACanada() {
+  const dynamicPage = {
+    ...page,
+    title: cmsData?.seo?.title || page.title,
+    description: cmsData?.seo?.description || page.description,
+    introTitle: cmsData?.hero?.title || page.introTitle || page.name,
+    heroParas: cmsData?.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
+    overview: (cmsData?.overview && cmsData.overview.length > 0 && cmsData.overview[0] !== "")
+      ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
+      : page.overview,
+    sections: (cmsData?.sections && cmsData.sections.length > 0)
+      ? cmsData.sections
+      : page.sections,
+    universities: (cmsData?.universities && cmsData.universities.length > 0)
+      ? cmsData.universities
+      : page.universities,
+    faqs: (cmsData?.faqs && cmsData.faqs.length > 0)
+      ? cmsData.faqs.map(f => ({ q: f.q || f.question, a: f.a || f.answer, question: f.q || f.question, answer: f.a || f.answer }))
+      : (cmsData?.faq && cmsData.faq.length > 0)
+        ? cmsData.faq.map(f => ({ q: f.q || f.question, a: f.a || f.answer, question: f.q || f.question, answer: f.a || f.answer }))
+        : page.faqs,
+    seo: {
+      title: cmsData?.seo?.title || page.title,
+      description: cmsData?.seo?.description || page.description,
+      keywords: cmsData?.seo?.keywords || page.keywords,
+    },
+  };
+
   return (
     <AbroadCoursePage
-      page={page}
+      page={dynamicPage}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

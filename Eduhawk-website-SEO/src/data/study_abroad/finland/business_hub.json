@@ -1,69 +1,94 @@
 {
-  "seo": {
-    "title": "Business Management in Finland for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study Business Management in Finland: Bachelor"
-  },
   "hero": {
-    "badge": "Study Abroad - Finland",
-    "title": "Business Management in Finland – Bachelor’s and Master’s Courses",
-    "subtitle": "Experience world-class academic training and global career pathways in Finland with Edu-Hawk Worldwide.",
-    "ctaText": "Book Free Counselling",
-    "image": ""
+    "title": "Business Management in Finland –  Bachelor’s and Master’s Courses",
+    "subtitle": "Explore world-class Finnish research universities and universities of applied sciences (UAS) offering English-taught degrees, high innovation ranking, and generous scholarships."
   },
-  "stats": [
-    {
-      "n": "1000+",
-      "l": "Students Placed Globally"
-    },
-    {
-      "n": "20+",
-      "l": "Countries"
-    },
-    {
-      "n": "200+",
-      "l": "Partner Universities"
-    },
-    {
-      "n": "100%",
-      "l": "Support (Visa & End-to-End Guidance)"
-    }
+  "overview": [
+    "Explore world-class Finnish research universities and universities of applied sciences (UAS) offering English-taught degrees, high innovation ranking, and generous scholarships.",
+    "Studying in Finland provides Indian students with access to the world's highest-ranking education system, safe and modern Nordic campuses, extensive English-taught degree options, and high happiness indices.",
+    "Edu Hawk Worldwide Consultancy guides Indian students through Studyinfo.fi centralized joint applications, Finnish residence permits for studies, tuition fee scholarship grants, and 2-year post-study work search permits."
   ],
-  "highlights": {
-    "degree": "Bachelor",
-    "duration": "3–4 Years (UG) / 2 Years (PG)",
-    "fee": "€10,000 – €15,000 / Year (~₹10.86L – ₹16.29L)",
-    "eligibility": "Recognised academic qualification + English proficiency",
-    "medium": "English"
-  },
-  "overview": "A Bachelor’s in Business Management in Finland can help students build a foundation in management, marketing, finance, economics and entrepreneurship. A Master’s in Business Management in Finland allows graduates to deepen their knowledge of strategic management, international business, business analytics and organisational leadership.",
   "universities": [
     {
-      "name": "Top University in Finland",
-      "location": "Finland",
-      "fee": "€10,000 – €15,000 / Year (~₹10.86L – ₹16.29L)",
-      "image": ""
+      "name": "Aalto University",
+      "location": "Espoo, Greater Helsinki, Finland",
+      "fee": "€12,000 – €15,000 / Year",
+      "img": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
+      "image": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
+      "desc": "Aalto University is a leading multidisciplinary research university celebrated worldwide for engineering, design innovation, business entrepreneurship, and startup ecosystems."
+    },
+    {
+      "name": "University of Helsinki",
+      "location": "Helsinki, Finland",
+      "fee": "€13,000 – €18,000 / Year",
+      "img": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
+      "image": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
+      "desc": "Finland's oldest and highest-ranked institution (founded 1640), globally recognized among the top 1% of research universities for sciences, medicine, and education."
+    },
+    {
+      "name": "University of Oulu",
+      "location": "Oulu, Finland",
+      "fee": "€10,000 – €13,000 / Year",
+      "img": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
+      "image": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
+      "desc": "An international science university pioneering 6G wireless technology, arctic innovation, sustainable energy, and multidisciplinary research."
+    },
+    {
+      "name": "Tampere University",
+      "location": "Tampere, Finland",
+      "fee": "€10,000 – €12,000 / Year",
+      "img": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
+      "image": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
+      "desc": "One of Finland's most multidisciplinary universities, known for cutting-edge technology, social sciences, photonics, and signal processing."
     }
   ],
-  "faq": [
+  "sections": [
     {
-      "question": "Can Indian students study Business Management in Finland in English?",
-      "answer": "Yes. Finnish universities and universities of applied sciences offer English-taught programmes in international business, business administration, management and related fields. Applicants must meet the specific academic and language requirements."
-    },
-    {
-      "question": "What is the duration of a Business Management degree in Finland?",
-      "answer": "Bachelor’s programmes generally take three to three and a half years. Research university master’s programmes commonly take two years, while professional master’s programmes may have different durations."
-    },
-    {
-      "question": "What are the tuition fees for Business Management in Finland?",
-      "answer": "For the programmes listed in this article, annual tuition fees range from approximately €10,000 to €15,000, equivalent to about ₹10.86 lakh to ₹16.29 lakh using the indicative exchange rate. Some professional programmes have separate fee structures."
-    },
-    {
-      "question": "Can I pursue a master’s degree in Business Management after a bachelor’s in another field?",
-      "answer": "Some universities accept applicants from related or different academic backgrounds if they meet the programme’s requirements. Others require a relevant bachelor’s degree or specific prior coursework. Always check the official eligibility criteria."
-    },
-    {
-      "question": "How can Edu-Hawk Worldwide help me study Business Management in Finland?",
-      "answer": "Edu-Hawk Worldwide can guide students in shortlisting suitable universities, comparing courses and fees, understanding eligibility requirements, preparing documents and navigating the admission process."
+      "slot": "universities",
+      "eyebrow": "Top Finnish Universities",
+      "title": "Top Universities to Consider in Finland",
+      "lead": "Explore world-class Finnish research universities and universities of applied sciences (UAS) offering English-taught degrees, high innovation ranking, and generous scholarships.",
+      "unis": [
+        {
+          "name": "Aalto University",
+          "location": "Espoo, Greater Helsinki, Finland",
+          "fee": "€12,000 – €15,000 / Year",
+          "img": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
+          "image": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
+          "desc": "Aalto University is a leading multidisciplinary research university celebrated worldwide for engineering, design innovation, business entrepreneurship, and startup ecosystems."
+        },
+        {
+          "name": "University of Helsinki",
+          "location": "Helsinki, Finland",
+          "fee": "€13,000 – €18,000 / Year",
+          "img": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
+          "image": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
+          "desc": "Finland's oldest and highest-ranked institution (founded 1640), globally recognized among the top 1% of research universities for sciences, medicine, and education."
+        },
+        {
+          "name": "University of Oulu",
+          "location": "Oulu, Finland",
+          "fee": "€10,000 – €13,000 / Year",
+          "img": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
+          "image": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
+          "desc": "An international science university pioneering 6G wireless technology, arctic innovation, sustainable energy, and multidisciplinary research."
+        },
+        {
+          "name": "Tampere University",
+          "location": "Tampere, Finland",
+          "fee": "€10,000 – €12,000 / Year",
+          "img": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
+          "image": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
+          "desc": "One of Finland's most multidisciplinary universities, known for cutting-edge technology, social sciences, photonics, and signal processing."
+        }
+      ],
+      "groups": []
     }
-  ]
+  ],
+  "faqs": [],
+  "seo": {
+    "title": "Business Management in Finland –  Bachelor’s and Master’s Courses | Edu-Hawk Worldwide",
+    "description": "Explore world-class Finnish research universities and universities of applied sciences (UAS) offering English-taught degrees, high innovation ranking, and gener",
+    "keywords": "Study in Finland, Top Universities in Finland, Edu Hawk Worldwide"
+  }
 }

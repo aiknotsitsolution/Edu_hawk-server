@@ -1,538 +1,94 @@
 {
-  "name": "Hospitality Management",
-  "country": "Denmark",
-  "slug": "hospitality-management",
-  "title": "Hospitality Management in Denmark for Indian Students | Edu-Hawk Worldwide",
-  "description": "Study Hospitality Management in Denmark: Top universities, course duration, tuition fees in DKK & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study Hospitality Management in Denmark, Hospitality Management in Denmark for Indian Students, Best Universities in Denmark, Denmark Hospitality Management Admission, Cost of Studying in Denmark, Edu-Hawk Worldwide",
-  "introTitle": "Hospitality Management in Denmark for Indian Students",
-  "heroParas": [
-    "Comprehensive guide to studying Hospitality Management in Denmark for Indian students."
-  ],
+  "hero": {
+    "title": "Bachelor's and Master's in Hospitality Management in Denmark",
+    "subtitle": "Explore world-renowned public universities and leading research institutes in Denmark offering English-taught degrees, progressive problem-based learning, and modern Scandinavian campuses."
+  },
   "overview": [
-    "Explore top accredited Danish universities, tuition costs, eligibility, and visa procedures for Hospitality Management."
-  ],
-  "level": "Bachelor & Master in Hospitality",
-  "crumb": "Hospitality Management",
-  "stats": [
-    {
-      "val": "DKK 60K-130K",
-      "label": "Tuition / Year"
-    },
-    {
-      "val": "English",
-      "label": "Medium of Study"
-    },
-    {
-      "val": "3-4 Years",
-      "label": "Course Duration"
-    },
-    {
-      "val": "20 Hrs/Week",
-      "label": "Part-Time Work"
-    }
-  ],
-  "highlights": [
-    {
-      "icon": "FaAward",
-      "title": "World Top-100 Universities",
-      "desc": "Study in globally respected Danish institutions including University of Copenhagen, DTU, and Aarhus University."
-    },
-    {
-      "icon": "FaGraduationCap",
-      "title": "Innovative PBL Learning",
-      "desc": "Problem-Based Learning model focusing on collaborative projects, real-world applications, and critical analysis."
-    },
-    {
-      "icon": "FaFileAlt",
-      "title": "High Living Standard & Safety",
-      "desc": "Denmark consistently ranks among the happiest, safest, and most progressive countries in the world."
-    },
-    {
-      "icon": "FaCheckCircle",
-      "title": "Post-Study Work Visa",
-      "desc": "Non-EU graduates are eligible for post-study residence permits to seek employment and build global careers."
-    }
-  ],
-  "sections": [
-    {
-      "slot": "why",
-      "eyebrow": "Why Denmark",
-      "title": "Why Study Hospitality Management in Denmark?",
-      "lead": "Essential details regarding hospitality management in Denmark, covering key requirements, procedures, and guidance for international applicants.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Denmark is an attractive study destination for the fields of hotel operations, tourism, event planning, restaurant management and international hospitality. The country is known for its focus on service quality, sustainability, modern design and customer experience.",
-            "Hospitality Management Studies prepare students with practical and managerial skills for working in hotels, resorts, restaurants, travel companies, event organizations and tourism businesses. Students can study guest relations, hospitality operations, revenue management, marketing and sustainable tourism.",
-            "The main benefits are:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Familiarity with international hospitality standards.",
-            "Practical education and industry projects.",
-            "Building skills in communication and leadership.",
-            "Opportunities to tour hotel and tourism operations.",
-            "International hospitality business careers."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Studying **Hospitality Management in Denmark** can help students develop industry knowledge and prepare for opportunities in international hotel, tourism and service businesses."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "courses",
-      "eyebrow": "Degrees & Pathways",
-      "title": "Hospitality Management Courses in Denmark",
-      "lead": "Essential details regarding hospitality management in Denmark, covering key requirements, procedures, and guidance for international applicants.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Students can explore bachelor\u2019s and master\u2019s degree programs in hospitality-related fields such as tourism, service management and experience management.",
-            "The Bachelor\u2019s programs may comprise:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Hospitality and Hotel Management",
-            "Hotel Management International",
-            "**Tourism and Experience Management**",
-            "Experience and Service Management",
-            "Operations of Hotel and Restaurant",
-            "Tourism and Event Management",
-            "Business Administration for the Hotel Industry"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Master\u2019s programs may contain:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Management of Hospitality and Tourism",
-            "Tourism Management & Service Management",
-            "The Experience Economy and Management",
-            "Sustainable Development of Tourism",
-            "International Service Management",
-            "Business Strategy for Hospitality",
-            "Event Management & Destination"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Program titles vary from institution to institution and some options might be offered as business or tourism degrees rather than specific Hospitality Management degrees.",
-            "Students interested in **Hospitality Management courses in Denmark** should compare the curriculum, degree level, practical training and language of instruction before choosing a program."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "universities",
-      "eyebrow": "Top Institutions",
-      "title": "Hospitality Management Universities in Denmark and Institutions to Look Out For",
-      "lead": "Explore leading universities and institutions in Denmark offering accredited Hospitality Management programmes, modern campuses, and international student support.",
-      "unis": [
-        {
-          "name": "University of Copenhagen (UCPH)",
-          "location": "Copenhagen, Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
-          "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-          "img": "/uploads/study_abroad/denmark/HospitalityManagement/image1.png"
-        },
-        {
-          "name": "Technical University of Denmark (DTU)",
-          "location": "Kongens Lyngby, Denmark",
-          "fee": "DKK 75,000 \u2013 115,000 / Year",
-          "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-          "img": "/uploads/study_abroad/denmark/HospitalityManagement/image2.png"
-        },
-        {
-          "name": "Aarhus University (AU)",
-          "location": "Aarhus, Denmark",
-          "fee": "DKK 60,000 \u2013 110,000 / Year",
-          "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-          "img": "/uploads/study_abroad/denmark/HospitalityManagement/image3.png"
-        },
-        {
-          "name": "Aalborg University (AAU)",
-          "location": "Aalborg, Denmark",
-          "fee": "DKK 58,000 \u2013 105,000 / Year",
-          "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-          "img": "/uploads/study_abroad/denmark/HospitalityManagement/image1.png"
-        },
-        {
-          "name": "University of Southern Denmark (SDU)",
-          "location": "Odense, Denmark",
-          "fee": "DKK 62,000 \u2013 115,000 / Year",
-          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
-          "img": "/uploads/study_abroad/denmark/HospitalityManagement/image2.png"
-        }
-      ],
-      "unis_data": [
-        {
-          "name": "University of Copenhagen (UCPH)",
-          "location": "Copenhagen, Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
-          "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-          "img": "/uploads/study_abroad/denmark/HospitalityManagement/image1.png"
-        },
-        {
-          "name": "Technical University of Denmark (DTU)",
-          "location": "Kongens Lyngby, Denmark",
-          "fee": "DKK 75,000 \u2013 115,000 / Year",
-          "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-          "img": "/uploads/study_abroad/denmark/HospitalityManagement/image2.png"
-        },
-        {
-          "name": "Aarhus University (AU)",
-          "location": "Aarhus, Denmark",
-          "fee": "DKK 60,000 \u2013 110,000 / Year",
-          "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-          "img": "/uploads/study_abroad/denmark/HospitalityManagement/image3.png"
-        },
-        {
-          "name": "Aalborg University (AAU)",
-          "location": "Aalborg, Denmark",
-          "fee": "DKK 58,000 \u2013 105,000 / Year",
-          "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-          "img": "/uploads/study_abroad/denmark/HospitalityManagement/image1.png"
-        },
-        {
-          "name": "University of Southern Denmark (SDU)",
-          "location": "Odense, Denmark",
-          "fee": "DKK 62,000 \u2013 115,000 / Year",
-          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
-          "img": "/uploads/study_abroad/denmark/HospitalityManagement/image2.png"
-        }
-      ],
-      "note": [
-        "Tuition fees are indicative and subject to annual review by Danish higher education institutions.",
-        "EU/EEA students may study tuition-free; international fees apply to non-EU/EEA citizens."
-      ]
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Eligibility Criteria",
-      "title": "Who can study Hospitality Management in Denmark?",
-      "lead": "Essential details regarding hospitality management in Denmark, covering key requirements, procedures, and guidance for international applicants.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "**Bachelor\u2019s Admission**",
-            "Applicants typically require:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Class 12 or equivalent.",
-            "Academic results meeting the entry requirements of the institution;",
-            "Relevant background / required subjects where applicable.",
-            "English language proficiency for English language-taught programs (if needed).",
-            "Danish language proficiency if the program is taught in Danish."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "**Eligibility for Master\u2019s**",
-            "Applicants normally need:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "A recognized bachelor\u2019s degree in hospitality, tourism, business, management, or a related field.",
-            "Relevant academic credits as per program.",
-            "English language proficiency as needed.",
-            "Relevant professional background or work experience where applicable."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Different institutions have different eligibility criteria, so students are advised to check the official program requirements before applying.",
-            "Understanding **Hospitality Management eligibility in Denmark** can help students identify suitable undergraduate and postgraduate programs according to their academic background."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "requirements",
-      "eyebrow": "Admission Requirements",
-      "title": "Entry Requirements for Hospitality Management in Denmark",
-      "lead": "Essential details regarding hospitality management in Denmark, covering key requirements, procedures, and guidance for international applicants.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Universities or colleges usually consider school qualifications, academic results, subject prerequisites and language proficiency for bachelor\u2019s programs.",
-            "For master\u2019s programs applicants are usually required to submit a bachelor\u2019s degree certificate and transcripts. Some programs may require you to have taken papers in management, business, tourism or service industries.",
-            "Applicants may also need to submit a CV, motivation letter or recommendation letters or evidence of work experience. Practical experience in the hotel industry can be useful but is not a requirement for all programs.",
-            "Students should review the **Hospitality Management admission requirements in Denmark** carefully, as academic prerequisites and application procedures may differ between institutions."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "fees",
-      "eyebrow": "Tuition & Living Costs",
-      "title": "Hospitality Management Fees in Denmark \u2013 Fee Structure",
-      "lead": "Essential details regarding hospitality management in Denmark, covering key requirements, procedures, and guidance for international applicants.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The following are ballpark planning numbers for Indian students. Fees vary by institution and by program."
-          ]
-        },
-        {
-          "t": "table",
-          "headers": [
-            "Cost",
-            "Bachelor's",
-            "Master's"
-          ],
-          "rows": [
-            [
-              "Tuition fees per annum",
-              "\u20b96-15 lakhs",
-              "\u20b98-18 lakhs"
-            ],
-            [
-              "Monthly living expenses",
-              "\u20b980,000 \u2013 \u20b91.30 lakh",
-              "\u20b980,000 \u2013 \u20b91.30 lakh"
-            ],
-            [
-              "Cost of living per year",
-              "\u20b99.6-15.6 lakh",
-              "\u20b99.6-15.6 lakh"
-            ],
-            [
-              "Normal length",
-              "Approx 3 years",
-              "About 2 years"
-            ],
-            [
-              "Estimated total budget",
-              "\u20b947-92 lakh",
-              "\u20b935-70 lakh"
-            ]
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The figures are rough estimates, not official quotes. Some professional programs may have different length or fee structure. Additional may be Travel, Insurance where applicable and Personal expenses.",
-            "Students should also check the scholarships and tuition waivers offered to eligible international applicants.",
-            "The actual **Hospitality Management fees in Denmark** depend on the university, course duration, accommodation and individual living expenses. Students should confirm the latest tuition details before applying."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "timeline",
-      "eyebrow": "Admission Procedure",
-      "title": "Admission Procedure for Hospitality Management in Denmark",
-      "lead": "Essential details regarding hospitality management in Denmark, covering key requirements, procedures, and guidance for international applicants.",
-      "groups": [
-        {
-          "t": "ul",
-          "items": [
-            "Select a program: Degree in hospitality, tourism, service management or related field.",
-            "Check eligibility: Look at the academic requirements, language requirements and length of the course.",
-            "Documents to prepare: Collect academic certificates, transcripts, passport details, and language test results as required.",
-            "Submit the application: Apply via the official admissions portal of the institution.",
-            "Other requirements: If requested, provide interviews, motivation letters or work-experience documents.",
-            "Get the admission decision: Review the offer and terms and conditions.",
-            "Take the offer: Complete the required registration and tuition payment steps.",
-            "Organize your move: Book travel, accommodation and apply for the relevant residence permit."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Students planning to pursue **Hospitality Management in Denmark** should follow the selected institution's application instructions and submit all required documents within the specified deadlines."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Further Studies & Scope",
-      "title": "Accreditation and Acknowledgment",
-      "lead": "Essential details regarding hospitality management in Denmark, covering key requirements, procedures, and guidance for international applicants.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Make sure the institution is officially recognized in Denmark and check precisely what qualification you get before you enroll.",
-            "Students should look at the curriculum, internship opportunities, industry connections, practical training and graduate career support. Real-world experience and service skills are particularly helpful for careers in hospitality.",
-            "If you plan to pursue higher education in India or abroad, verify if your qualification fulfills the criteria of the institution you are considering."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Career Opportunities",
-      "title": "Careers After Hospitality Management",
-      "lead": "Essential details regarding hospitality management in Denmark, covering key requirements, procedures, and guidance for international applicants.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "There are opportunities for graduates in the hotel, restaurant, tourism, event, travel and customer-experience industries.",
-            "Possible career paths include:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Hotel Operations Manager",
-            "Front Office Supervisor",
-            "Guest Relations Executive",
-            "Food & Beverage Supervisor",
-            "Restaurant Manager",
-            "Events Co-ordinator",
-            "Tourism Operations Officer",
-            "Revenue Management Officer",
-            "Travel and Destination Consultant",
-            "Hospitality Business Development Manager"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Graduates with relevant experience can transition into hotel management, operations leadership, event management or hospitality entrepreneurship.",
-            "A degree doesn\u2019t mean you\u2019re guarantyd a job."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Required Documentation",
-      "title": "Required documents",
-      "lead": "Essential details regarding hospitality management in Denmark, covering key requirements, procedures, and guidance for international applicants.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "**For Bachelor\u2019s Degree Applicants**"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Passport valid",
-            "Marksheets of Class 10 and Class 12",
-            "Certificate of School Leaving",
-            "Mandatory courses and grade certificates",
-            "English language test results, if applicable",
-            "Motivation letter, if required",
-            "Certified translations where applicable"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "**For M.A. Candidates:**"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "A valid passport",
-            "Certificate of Bachelor Degree",
-            "Studies transcript",
-            "Updated CV or resume",
-            "Statement of purpose or motivation letter",
-            "English-language test results (if required)"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "**Edu-Hawk Worldwide** helps students explore hospitality and tourism study options, understand university requirements and plan their study-abroad applications for **Hospitality Management in Denmark**."
-          ]
-        }
-      ]
-    }
+    "Explore world-renowned public universities and leading research institutes in Denmark offering English-taught degrees, progressive problem-based learning, and modern Scandinavian campuses.",
+    "Studying in Denmark offers Indian students high-quality Scandinavian higher education with innovative problem-based learning, vibrant student cities, and excellent work-life balance.",
+    "Edu Hawk Worldwide Consultancy guides Indian students through Optagelse.dk centralized admissions, Danish residence permits for study, document translation, and post-study establishment cards."
   ],
   "universities": [
     {
       "name": "University of Copenhagen (UCPH)",
       "location": "Copenhagen, Denmark",
-      "fee": "DKK 65,000 \u2013 120,000 / Year",
-      "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-      "img": "/uploads/study_abroad/denmark/HospitalityManagement/image1.png"
+      "fee": "€10,000 – €16,000 / Year",
+      "img": "/uploads/study_abroad/denmark/den_Architecture_image1.png",
+      "image": "/uploads/study_abroad/denmark/den_Architecture_image1.png",
+      "desc": "UCPH is Denmark's oldest and highest-ranking research university, celebrated across Scandinavia for medicine, life sciences, environmental law, and physics."
     },
     {
       "name": "Technical University of Denmark (DTU)",
-      "location": "Kongens Lyngby, Denmark",
-      "fee": "DKK 75,000 \u2013 115,000 / Year",
-      "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-      "img": "/uploads/study_abroad/denmark/HospitalityManagement/image2.png"
+      "location": "Lyngby, Denmark",
+      "fee": "€13,500 – €15,000 / Year",
+      "img": "/uploads/study_abroad/denmark/den_Architecture_image2.png",
+      "image": "/uploads/study_abroad/denmark/den_Architecture_image2.png",
+      "desc": "DTU is a leading European technical university renowned for sustainable energy, biotech engineering, wind turbine technology, and high startup spin-offs."
     },
     {
-      "name": "Aarhus University (AU)",
+      "name": "Aarhus University",
       "location": "Aarhus, Denmark",
-      "fee": "DKK 60,000 \u2013 110,000 / Year",
-      "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-      "img": "/uploads/study_abroad/denmark/HospitalityManagement/image3.png"
+      "fee": "€8,000 – €15,000 / Year",
+      "img": "/uploads/study_abroad/denmark/den_Architecture_image3.png",
+      "image": "/uploads/study_abroad/denmark/den_Architecture_image3.png",
+      "desc": "A globally top-100 public research university with an attractive yellow-brick park campus, acclaimed for business, computer science, and agricultural sciences."
     },
     {
-      "name": "Aalborg University (AAU)",
-      "location": "Aalborg, Denmark",
-      "fee": "DKK 58,000 \u2013 105,000 / Year",
-      "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-      "img": "/uploads/study_abroad/denmark/HospitalityManagement/image1.png"
-    },
-    {
-      "name": "University of Southern Denmark (SDU)",
-      "location": "Odense, Denmark",
-      "fee": "DKK 62,000 \u2013 115,000 / Year",
-      "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
-      "img": "/uploads/study_abroad/denmark/HospitalityManagement/image2.png"
+      "name": "Copenhagen Business School (CBS)",
+      "location": "Frederiksberg, Copenhagen, Denmark",
+      "fee": "€12,500 – €18,000 / Year",
+      "img": "/uploads/study_abroad/denmark/den_BBA_image1.png",
+      "image": "/uploads/study_abroad/denmark/den_BBA_image1.png",
+      "desc": "One of Europe's largest triple-crown accredited business schools (EQUIS, AMBA, AACSB), leading in international management, finance, and green leadership."
     }
   ],
-  "faqs": [
+  "sections": [
     {
-      "q": "Can Indian students apply for Hospitality Management in Denmark?",
-      "a": "Yes, Indian students meeting the academic eligibility prerequisites and English language proficiency requirements (IELTS/TOEFL) can apply to Danish higher education institutions."
-    },
-    {
-      "q": "What is the medium of instruction for Hospitality Management in Denmark?",
-      "a": "Programmes designed for international students across Danish universities are taught entirely in English."
-    },
-    {
-      "q": "What are the typical tuition fees for Hospitality Management in Denmark?",
-      "a": "Tuition fees for non-EU international students typically range from DKK 60,000 to DKK 120,000 per year, depending on the programme and university."
-    },
-    {
-      "q": "Can international students work part-time in Denmark?",
-      "a": "Yes, non-EU international students holding a valid Danish residence permit are legally permitted to work up to 20 hours per week during term and full-time in June, July, and August."
+      "slot": "universities",
+      "eyebrow": "Top Danish Universities",
+      "title": "Top Universities to Consider in Denmark",
+      "lead": "Explore world-renowned public universities and leading research institutes in Denmark offering English-taught degrees, progressive problem-based learning, and modern Scandinavian campuses.",
+      "unis": [
+        {
+          "name": "University of Copenhagen (UCPH)",
+          "location": "Copenhagen, Denmark",
+          "fee": "€10,000 – €16,000 / Year",
+          "img": "/uploads/study_abroad/denmark/den_Architecture_image1.png",
+          "image": "/uploads/study_abroad/denmark/den_Architecture_image1.png",
+          "desc": "UCPH is Denmark's oldest and highest-ranking research university, celebrated across Scandinavia for medicine, life sciences, environmental law, and physics."
+        },
+        {
+          "name": "Technical University of Denmark (DTU)",
+          "location": "Lyngby, Denmark",
+          "fee": "€13,500 – €15,000 / Year",
+          "img": "/uploads/study_abroad/denmark/den_Architecture_image2.png",
+          "image": "/uploads/study_abroad/denmark/den_Architecture_image2.png",
+          "desc": "DTU is a leading European technical university renowned for sustainable energy, biotech engineering, wind turbine technology, and high startup spin-offs."
+        },
+        {
+          "name": "Aarhus University",
+          "location": "Aarhus, Denmark",
+          "fee": "€8,000 – €15,000 / Year",
+          "img": "/uploads/study_abroad/denmark/den_Architecture_image3.png",
+          "image": "/uploads/study_abroad/denmark/den_Architecture_image3.png",
+          "desc": "A globally top-100 public research university with an attractive yellow-brick park campus, acclaimed for business, computer science, and agricultural sciences."
+        },
+        {
+          "name": "Copenhagen Business School (CBS)",
+          "location": "Frederiksberg, Copenhagen, Denmark",
+          "fee": "€12,500 – €18,000 / Year",
+          "img": "/uploads/study_abroad/denmark/den_BBA_image1.png",
+          "image": "/uploads/study_abroad/denmark/den_BBA_image1.png",
+          "desc": "One of Europe's largest triple-crown accredited business schools (EQUIS, AMBA, AACSB), leading in international management, finance, and green leadership."
+        }
+      ],
+      "groups": []
     }
   ],
-  "faqTitle": "Frequently Asked Questions",
-  "hero_image": "/uploads/study_abroad/denmark/HospitalityManagement/hero.webp",
-  "hero_bg": "/uploads/study_abroad/denmark/HospitalityManagement/hero_bg.webp",
-  "side_image": "/uploads/study_abroad/denmark/HospitalityManagement/side.webp",
-  "cta_bg": "/uploads/study_abroad/denmark/HospitalityManagement/cta_bg.webp"
+  "faqs": [],
+  "seo": {
+    "title": "Bachelor's and Master's in Hospitality Management in Denmark | Edu-Hawk Worldwide",
+    "description": "Explore world-renowned public universities and leading research institutes in Denmark offering English-taught degrees, progressive problem-based learning, and m",
+    "keywords": "Study in Denmark, Top Universities in Denmark, Edu Hawk Worldwide"
+  }
 }

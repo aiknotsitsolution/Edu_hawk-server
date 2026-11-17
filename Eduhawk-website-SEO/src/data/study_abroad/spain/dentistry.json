@@ -1,81 +1,496 @@
 {
-  "seo": {
-    "title": "Dentistry in Spain for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study Dentistry in Spain: Top universities, English-taught programs, tuition fees (€2,000–€18,000/yr), scholarships, eligibility criteria, and post-study work permit opportunities."
-  },
   "hero": {
-    "badge": "Study Abroad - Spain",
     "title": "Dentistry in Spain for Indian Students",
-    "subtitle": "Studying Dentistry in Spain for Indian students is an opportunity to get a European dental qualification, develop clinical skills, and gain international academic exposure. Spanish universities provide undergraduate degrees in dentistry, called Grado en Odontología. These programs generally take five years to complete and are worth 300 ECTS credits.",
-    "ctaText": "Book Free Counselling",
-    "image": ""
+    "subtitle": "Studying Dentistry in Spain for Indian students is an opportunity to get a European dental qualification, develop clinical skills, and gain international academic exposure. Spanish universities provide undergraduate degrees in dentistry, called Grado en Odontolog&iacute;a. These programs generally take five years to complete and are worth 300 ECTS credits."
   },
-  "stats": [
-    {
-      "n": "1000+",
-      "l": "Students Placed Globally"
-    },
-    {
-      "n": "20+",
-      "l": "Countries"
-    },
-    {
-      "n": "200+",
-      "l": "Partner Universities"
-    },
-    {
-      "n": "100%",
-      "l": "Support (Visa & Post-Study Work Guidance)"
-    }
+  "overview": [
+    "European education: Study in Spain's higher education system and gain international academic exposure.",
+    "Clinical learning: Dentistry degrees will include practical training and clinical components.",
+    "Five-year degree pathway: Most undergraduate Dentistry courses in Spain are structured in five years and 300 ECTS."
   ],
-  "highlights": {
-    "degree": "Undergraduate & Graduate Entry",
-    "duration": "1 to 2 Years (PG) / 3 to 4 Years (UG)",
-    "fee": "€2,000 – €18,000 / Year",
-    "eligibility": "Recognised academic qualification + IELTS / TOEFL / Spanish proficiency",
-    "medium": "English & Spanish Taught"
-  },
-  "overview": "Studying Dentistry in Spain for Indian students is an opportunity to get a European dental qualification, develop clinical skills, and gain international academic exposure. Spanish universities provide undergraduate degrees in dentistry, called Grado en Odontología. These programs generally take five years to complete and are worth 300 ECTS credits.\n\nStudents can investigate public and private universities, clinical training opportunities and selected Dentistry programs in Spain taught in English . But the language of instruction is especially important: many dentistry degrees in Spain are taught mostly in Spanish or a regional language and clinical placements require good communication with patients.",
   "universities": [
+    {
+      "name": "The Catholic University of Valencia",
+      "location": "Spain",
+      "fee": "€1,500 – €8,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_dentistry_The_Catholic_University_of_Valencia-image4.png",
+      "image": "/uploads/study_abroad/spain/spain_dentistry_The_Catholic_University_of_Valencia-image4.png",
+      "desc": "Provides a 5-year Dentistry degree with 300 ECTS. The university lists Spanish, Valencian and English as languages of instruction; applicants should check the language mix for their cohort. Official Program: Degree in Dentistry"
+    },
     {
       "name": "Universitat de Barcelona",
       "location": "Spain",
-      "fee": "€2,000 – €18,000 / Year",
-      "image": ""
+      "fee": "€1,500 – €8,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_dentistry_Universitat_de_Barcelona-image3.png",
+      "image": "/uploads/study_abroad/spain/spain_dentistry_Universitat_de_Barcelona-image3.png",
+      "desc": "Offers a five-year Dentistry degree in Spain worth 300 ECTS. The published curriculum is taught mainly in Catalan, with Spanish and a little English also included, so it is important to check language expectations before applying. Official program: Degree in Dentistry"
     },
     {
       "name": "University of València",
       "location": "Spain",
-      "fee": "€2,000 – €18,000 / Year",
-      "image": ""
-    },
-    {
-      "name": "The Catholic University of Valencia",
-      "location": "Spain",
-      "fee": "€2,000 – €18,000 / Year",
-      "image": ""
+      "fee": "€1,500 – €8,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_dentistry_University_of_Val_ncia-image2.png",
+      "image": "/uploads/study_abroad/spain/spain_dentistry_University_of_Val_ncia-image2.png",
+      "desc": "Provides a 5-year Dentistry degree with 300 ECTS. The university lists Spanish, Valencian and English as languages of instruction; applicants should check the language mix for their cohort. Official Program: Degree in Dentistry"
     }
   ],
-  "faq": [
+  "sections": [
     {
-      "question": "How many years are required to study Dentistry in Spain?",
-      "answer": "The normal undergraduate Dentistry degree in Spain lasts for five years and consists of 300 ECTS credits. Universitat de Barcelona +Q2. Can Indian students pursue Dentistry in Spain in English? Yes, some universities have English language pathways or international cohorts. But many programs are conducted mostly in Spanish or a regional language. Students should also confirm the language requirements for clinical training."
+      "slot": "why-study",
+      "eyebrow": "Why Spain",
+      "title": "Why Choose Dentistry in Spain?",
+      "lead": "European education: Study in Spain's higher education system and gain international academic exposure.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Clinical learning: Dentistry degrees will include practical training and clinical components."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Five-year degree pathway: Most undergraduate Dentistry courses in Spain are structured in five years and 300 ECTS."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "English language options Some universities offer English language pathways. Availability and conditions vary."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Specialization opportunities: Graduates can undertake postgraduate study in orthodontics, periodontology, oral surgery and implant dentistry."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "International experience: Live and study in Spain, and develop cross-cultural communication skills."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Career flexibility. Graduates may seek further education and licensing opportunities in Spain, India or elsewhere, depending on applicable regulations."
+          ]
+        }
+      ]
     },
     {
-      "question": "How much does Dentistry in Spain cost for Indian students?",
-      "answer": "Public universities charge tuition of €1,000–€5,000 per year, while private programs can cost €12,000–€25,000 or more. These are indicative estimates, please check the current fee schedule of the chosen university."
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Dental Courses in Spain",
+      "lead": "We offer Dentistry courses in Spain at undergraduate and postgraduate levels. The title of the course and entry requirements differ from university to university.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "CourseTypical length of timePrimary focus"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Bachelor Degree in Dentistry5 yrsOral health diagnosis prevention treatment and clinical practice"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master of OrthodonticsTypically 1 to 3 yearsStraightening teeth and correcting bite problems."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master Degree in PeriodontologyVaries according to programPeriodontal Treatment and Gum Health"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master of Science in Oral Surgery & ImplantologyDepends on the programOral Surgery and Dental Implants"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Advanced Dental StudiesProgram dependentProfessional development and special clinical knowledge."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The undergraduate degree in Dentistry is the main access route for students who want to be dentists. Most of the specialist programs will expect that you already have a dental qualification and some will expect you to have clinical experience."
+          ]
+        }
+      ]
     },
     {
-      "question": "After finishing Dentistry in Spain, can I practice in India?",
-      "answer": "Not by default . Before choosing a program, check the current requirements for recognition of foreign dental qualifications, screening examinations and registration in India."
+      "slot": "universities",
+      "eyebrow": "Top Spanish Universities",
+      "title": "Best Dentistry Schools in Spain",
+      "lead": "The following three universities are a good place to start when looking into Dentistry universities in Spain. No ranking order is provided and applicants need to check the current intake, language of instruction and entry requirements.",
+      "groups": [],
+      "unis": [
+        {
+          "name": "The Catholic University of Valencia",
+          "location": "Spain",
+          "fee": "€1,500 – €8,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_dentistry_The_Catholic_University_of_Valencia-image4.png",
+          "image": "/uploads/study_abroad/spain/spain_dentistry_The_Catholic_University_of_Valencia-image4.png",
+          "desc": "Provides a 5-year Dentistry degree with 300 ECTS. The university lists Spanish, Valencian and English as languages of instruction; applicants should check the language mix for their cohort. Official Program: Degree in Dentistry"
+        },
+        {
+          "name": "Universitat de Barcelona",
+          "location": "Spain",
+          "fee": "€1,500 – €8,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_dentistry_Universitat_de_Barcelona-image3.png",
+          "image": "/uploads/study_abroad/spain/spain_dentistry_Universitat_de_Barcelona-image3.png",
+          "desc": "Offers a five-year Dentistry degree in Spain worth 300 ECTS. The published curriculum is taught mainly in Catalan, with Spanish and a little English also included, so it is important to check language expectations before applying. Official program: Degree in Dentistry"
+        },
+        {
+          "name": "University of València",
+          "location": "Spain",
+          "fee": "€1,500 – €8,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_dentistry_University_of_Val_ncia-image2.png",
+          "image": "/uploads/study_abroad/spain/spain_dentistry_University_of_Val_ncia-image2.png",
+          "desc": "Provides a 5-year Dentistry degree with 300 ECTS. The university lists Spanish, Valencian and English as languages of instruction; applicants should check the language mix for their cohort. Official Program: Degree in Dentistry"
+        }
+      ]
     },
     {
-      "question": "Do Indian students need NEET to study Dentistry in Spain?",
-      "answer": "For Indian students who want to study dentistry abroad and then practice in India, the NEET and other eligibility requirements are important to consider. Please check the latest applicable Indian regulations with the relevant regulator before admission. Please check the entry requirements of the Spanish University separately."
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Who is eligible to study dentistry in Spain",
+      "lead": "Indian students will normally have to meet the university's academic entry requirements and the relevant international-student entry rules.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Typical Dentistry eligibility in Spain for Indian students requirements may include:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Class 12 qualification: Secondary education equivalent to the Spanish qualification for university entry."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Science subjects Biology and Chemistry are especially important. Some universities may ask for other subjects."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic performance: The academic or entrance exam scores required may differ for each institution and admission process."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "University admission assessment Applicants may be required to meet Spanish university entrance requirements, credential recognition or university-specific selection requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Language proficiency: May require use of Spanish or other language used in teaching and clinical practice."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Passport and documents: A valid passport and correctly prepared academic documents are needed."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "There are some public universities that are hard to get in to. Don't assume that just because you have passed class 12 you will get admission."
+          ]
+        }
+      ]
     },
     {
-      "question": "Top 6 SEO Keywords",
-      "answer": "Dentistry in Spain for Indian Students Dentistry Courses in Spain Best Universities for Dentistry in Spain Dentistry Eligibility in Spain Dentistry Admission Requirements in Spain Cost of Studying Dentistry in Spain"
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Requirements for admission to Dentistry in Spain",
+      "lead": "The process of applying may differ for public and private universities. Dentistry admission requirements in Spain might include:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Certificate & Mark sheets of Class 10 and 12.",
+            "Copy of passport.",
+            "Academic credential recognition or equivalency documents as applicable.",
+            "Results of Spanish university entrance examinations or other accepted admission credentials as appropriate.",
+            "Proof of English or Spanish Language Proficiency.",
+            "University application form.",
+            "CV or personal statement if required.",
+            "Certified translations and where required document legalization or apostille.",
+            "Proof of financial resources for the visa.",
+            "Any other documents requested by the university or the Spanish Consulate."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Indian applicants should have the university confirm which credential-evaluation and entrance route applies to their particular school-qualification."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "How much does it cost to study dentistry in Spain?",
+      "lead": "The cost of studying Dentistry in Spain can vary a lot between public and private schools. Fees at public universities may also vary for non-EU students, and private universities generally charge higher fees.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Type of universityFor instance, annual tuitionApprox. INR"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Public university5,000₹1.09 to ₹5.43 lakhs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Private University€12,000-€25,000+₹13.03-₹27.15 lakh+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are estimates for planning purposes and not firm fees. For the 2026 intake, the Catholic University of Valencia lists its Dentistry degree at €12,780, and UIC Barcelona lists first-year tuition for 2026–27 at €18,600, by reference."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "INR conversions are at illustrative rate of €1 &asymp; ₹108.60. University fees & real exchange rates may differ."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should also budget separately for accommodation, food, transport, health insurance, visa formalities, dental instruments and other course related expenses. Ask the university for a full breakdown of fees before you accept an offer."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Scholarships and financial aid might be available, but eligibility and funding vary widely from one institution to another and from one individual to another."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "How to Get Dental Care in Spain",
+      "lead": "",
+      "groups": [
+        {
+          "t": "steps",
+          "items": [
+            {
+              "step": 1,
+              "title": "Research (academics)",
+              "desc": "Compare public vs. private institutions, language of instruction, tuition, clinical training, and admission requirements."
+            },
+            {
+              "step": 2,
+              "title": "Check your academic eligibility",
+              "desc": "Check whether you will need to take an entrance exam or need recognition of credentials. Find out how your Indian Class 12 qualification will be assessed."
+            },
+            {
+              "step": 3,
+              "title": "Preparing papers",
+              "desc": "Arrange academic records, passport, language evidence, translations and any equivalency needed."
+            },
+            {
+              "step": 4,
+              "title": "Applying to university",
+              "desc": "Submit the application, get through the selection process at the university and follow the instructions to accept an offer."
+            },
+            {
+              "step": 5,
+              "title": "Visa formalities completed",
+              "desc": "On arrival, check Spanish student-visa requirements and arrange accommodation, insurance and travel."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Recognition of Dentistry Degree and Certificates",
+      "lead": "The undergraduate qualification in Spain is typically referred to as Grado en Odontolog&iacute;a. Formal Dentistry programs in Spain are usually five years long, worth 300 ECTS credits, and involve clinical training.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "University of Barcelona +Indian students check the following before enrollment:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "The university and the specific program are officially recognized in Spain.",
+            "The degree complies with the professional requirements in force in Spain.",
+            "The program is documented in terms of training, duration and clinical aspects.",
+            "The qualification meets the current requirements for professional registration in the country where the student intends to practice."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Return to India is important: A degree in Dentistry from Spain does not automatically qualify a graduate to practice dentistry in India. Foreign dental graduates must refer to current National Dental Commission / Dental Council requirements including applicable screening examinations and conditions of registration prior to admission."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "NITI Aayog +2 Official Reference: Dental Council of India / National Dental Commission website"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Salary and Job Opportunities After Studying Dentistry in Spain",
+      "lead": "Graduates, after completing an accredited Dentistry degree in Spain and satisfying the professional registration requirements, may pursue opportunities in dental clinics, hospitals, private practices, research and further specialization.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Stage in careerExample of gross annual salary"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Junior dentist€25,000–€35,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Dentist (experienced)€35,000-€50,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Specialist or Established Practitioner€50,000 - €80,000+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are large representative numbers, not audited salary figures or guarantyd income. Your earnings will depend on where you work, your experience, your employment arrangements, your specialization and whether you are a dentist in practice or an employee."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Possible career paths include:"
+        },
+        {
+          "t": "p",
+          "items": [
+            "General Dentistry:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Orthodontics following suitable specialist training.",
+            "Periodontology and dental implants.",
+            "Oral surgery, subject to the relevant training and professional requirements . \"",
+            "Academic and dental research.",
+            "Public health, dental"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Graduates must meet the licensing and language requirements of the country where they intend to work."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Needed to Study Dentistry in Spain",
+      "lead": "Prepare the following documents required to study Dentistry in Spain as applicable to the chosen university:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Class 10 Marksheet and Certificate.",
+            "Class 12th mark sheet and certificate.",
+            "Valid passport.",
+            "Equivalency certificates or recognition of academic credentials.",
+            "Results of entrance examinations, where applicable.",
+            "Language proficiency certificate if applicable.",
+            "Passport size photographs.",
+            "Application form and any statement of personal statement required.",
+            "Certified translations and where required apostilled or legalized documents.",
+            "\"University admission letter.",
+            "Evidence of financial means and accommodation where required for the visa.",
+            "Visa related documents i.e. health insurance."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The university and Spanish consulate should provide you with the final list of documents required for your application."
+          ]
+        }
+      ]
     }
-  ]
+  ],
+  "faqs": [
+    {
+      "q": "How many years are required to study Dentistry in Spain?",
+      "a": "The normal undergraduate Dentistry degree in Spain lasts for five years and consists of 300 ECTS credits."
+    },
+    {
+      "q": "Can Indian students pursue Dentistry in Spain in English?",
+      "a": "Yes, some universities have English language pathways or international cohorts. But many programs are conducted mostly in Spanish or a regional language. Students should also confirm the language requirements for clinical training."
+    },
+    {
+      "q": "How much does Dentistry in Spain cost for Indian students?",
+      "a": "Public universities charge tuition of €1,000–€5,000 per year, while private programs can cost €12,000–€25,000 or more. These are indicative estimates, please check the current fee schedule of the chosen university."
+    },
+    {
+      "q": "After finishing Dentistry in Spain, can I practice in India?",
+      "a": "Not by default . Before choosing a program, check the current requirements for recognition of foreign dental qualifications, screening examinations and registration in India."
+    },
+    {
+      "q": "Do Indian students need NEET to study Dentistry in Spain?",
+      "a": "For Indian students who want to study dentistry abroad and then practice in India, the NEET and other eligibility requirements are important to consider. Please check the latest applicable Indian regulations with the relevant regulator before admission. Please check the entry requirements of the Spanish University separately."
+    }
+  ],
+  "seo": {
+    "title": "Dentistry in Spain for Indian Students | Edu-Hawk Worldwide",
+    "description": "European education: Study in Spain's higher education system and gain international academic exposure.",
+    "keywords": "Dentistry in Spain for Indian Students, Dentistry Courses in Spain, Best Universities for Dentistry in Spain, Dentistry Eligibility in Spain, Dentistry Admission Requirements in Spain, Cost of Studying Dentistry in Spain"
+  }
 }

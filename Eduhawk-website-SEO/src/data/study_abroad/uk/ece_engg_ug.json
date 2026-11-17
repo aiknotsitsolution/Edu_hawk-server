@@ -1,10 +1,5 @@
 {
-  "seo": {
-    "title": "Study BEng Electronics & Communication Engineering in the UK for Indian Students | Edu-Hawk Worldwide",
-    "description": "Complete guide to BEng Electronics & Communication Engineering in the UK for Indian students: Top UK universities, eligibility criteria, tuition fees (£14,000–£35,000/yr), scholarships, and 2-year post-study work visa (Graduate Route)."
-  },
   "hero": {
-    "badge": "Study Abroad - United Kingdom",
     "title": "Study Electronics and Communication Engineering in UK",
     "subtitle": "Electronic circuit design, communication systems, signal processing, digital technology, and wireless communication are all combined in Electronics and Communication Engineering (ECE). It focuses on creating the technologies that make it possible for systems and devices to effectively interact and process information."
   },
@@ -13,17 +8,47 @@
     "Electronic Engineering, Electronic and Electrical Engineering, Electronic and Computer Engineering, and Electronic and Information Engineering are among the undergraduate programs in ECE-related disciplines offered in the United Kingdom.",
     "A foundation for jobs in electronics, telecommunications, semiconductor technologies, linked devices, robotics, and digital infrastructure can be established for Indian students by studying ECE-related disciplines in the UK."
   ],
+  "universities": [
+    {
+      "name": "Edinburgh Napier University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_ece_engg_ug_Edinburgh_Napier_University-image4.png",
+      "image": "/uploads/study_abroad/uk/uk_ece_engg_ug_Edinburgh_Napier_University-image4.png",
+      "desc": "Edinburgh Napier University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Liverpool University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_ece_engg_ug_Liverpool_University-image1.png",
+      "image": "/uploads/study_abroad/uk/uk_ece_engg_ug_Liverpool_University-image1.png",
+      "desc": "Liverpool University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Sheffield University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_ece_engg_ug_Sheffield_University-image2.png",
+      "image": "/uploads/study_abroad/uk/uk_ece_engg_ug_Sheffield_University-image2.png",
+      "desc": "Sheffield University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Trent University in Nottingham",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_ece_engg_ug_Trent_University_in_Nottingham-image3.png",
+      "image": "/uploads/study_abroad/uk/uk_ece_engg_ug_Trent_University_in_Nottingham-image3.png",
+      "desc": "Trent University in Nottingham is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    }
+  ],
   "sections": [
     {
+      "slot": "why-study",
+      "eyebrow": "Why UK",
       "title": "Why Study Electronics and Communication Engineering in the UK?",
-      "eyebrow": "Why Study in the UK",
+      "lead": "Electronic circuit design, communication systems, signal processing, digital technology, and wireless communication are all combined in Electronics and Communication Engineering (ECE). It focuses on creating the technologies that make it possible for systems and devices to effectively interact and process information.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Electronic circuit design, communication systems, signal processing, digital technology, and wireless communication are all combined in Electronics and Communication Engineering (ECE). It focuses on creating the technologies that make it possible for systems and devices to effectively interact and process information."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -43,10 +68,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Key Advantages of Studying ECE in the UK"
-          ]
+          "t": "h4",
+          "text": "Key Advantages of Studying ECE in the UK"
         },
         {
           "t": "ul",
@@ -63,15 +86,11 @@
       ]
     },
     {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
       "title": "UK Courses in Electronics and Communication Engineering",
-      "eyebrow": "Course Guide",
+      "lead": "Numerous undergraduate-entry pathways connected to ECE are available at UK universities. Whether you are more interested in computer hardware, electronics, telecommunications, or a combination of these fields will determine which course is appropriate for you.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Numerous undergraduate-entry pathways connected to ECE are available at UK universities. Whether you are more interested in computer hardware, electronics, telecommunications, or a combination of these fields will determine which course is appropriate for you."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -197,46 +216,52 @@
       ]
     },
     {
+      "slot": "universities",
+      "eyebrow": "Top UK Universities",
       "title": "Top UK Universities for Communication and Electronics Engineering",
-      "eyebrow": "Top Institutions",
-      "groups": [
+      "lead": "Undergraduate programs in ECE-related disciplines are offered by the following institutions. Not all of them grant a degree with the precise title Electronics and Communication Engineering, and they are alternatives to consider rather than a formal ranking.",
+      "groups": [],
+      "unis": [
         {
-          "t": "universities",
-          "items": [
-            {
-              "name": "Trent University in Nottingham",
-              "desc": "Prominent UK institution known for academic excellence, state-of-the-art facilities, and strong industry linkages.",
-              "imgKey": "uniImg_Trent_University_in_Nottingham_webp"
-            },
-            {
-              "name": "Sheffield University",
-              "desc": "Prominent UK institution known for academic excellence, state-of-the-art facilities, and strong industry linkages.",
-              "imgKey": "uniImg_Sheffield_University_webp"
-            },
-            {
-              "name": "Liverpool University",
-              "desc": "Prominent UK institution known for academic excellence, state-of-the-art facilities, and strong industry linkages.",
-              "imgKey": "uniImg_Liverpool_University_webp"
-            },
-            {
-              "name": "Edinburgh Napier University",
-              "desc": "Prominent UK institution known for academic excellence, state-of-the-art facilities, and strong industry linkages.",
-              "imgKey": "uniImg_Edinburgh_Napier_University_webp"
-            }
-          ]
+          "name": "Edinburgh Napier University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_ece_engg_ug_Edinburgh_Napier_University-image4.png",
+          "image": "/uploads/study_abroad/uk/uk_ece_engg_ug_Edinburgh_Napier_University-image4.png",
+          "desc": "Edinburgh Napier University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Liverpool University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_ece_engg_ug_Liverpool_University-image1.png",
+          "image": "/uploads/study_abroad/uk/uk_ece_engg_ug_Liverpool_University-image1.png",
+          "desc": "Liverpool University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Sheffield University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_ece_engg_ug_Sheffield_University-image2.png",
+          "image": "/uploads/study_abroad/uk/uk_ece_engg_ug_Sheffield_University-image2.png",
+          "desc": "Sheffield University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Trent University in Nottingham",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_ece_engg_ug_Trent_University_in_Nottingham-image3.png",
+          "image": "/uploads/study_abroad/uk/uk_ece_engg_ug_Trent_University_in_Nottingham-image3.png",
+          "desc": "Trent University in Nottingham is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
         }
       ]
     },
     {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
       "title": "Qualifications for Studying Communication and Electronics Engineering in the UK",
-      "eyebrow": "Course Guide",
+      "lead": "The university, degree, academic standing, and selected course of study determine the entry requirements.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The university, degree, academic standing, and selected course of study determine the entry requirements."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -290,10 +315,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Language Requirements in English"
-          ]
+          "t": "h4",
+          "text": "Language Requirements in English"
         },
         {
           "t": "p",
@@ -325,20 +348,14 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "UK Admission Requirements for Electronics and Communication Engineering",
-      "eyebrow": "Eligibility & Process",
+      "lead": "Institutions and degree programs have different prerequisites for admission.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Institutions and degree programs have different prerequisites for admission."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Academic requirements"
-          ]
+          "t": "h4",
+          "text": "Academic requirements"
         },
         {
           "t": "p",
@@ -358,10 +375,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Language Requirements in English"
-          ]
+          "t": "h4",
+          "text": "Language Requirements in English"
         },
         {
           "t": "p",
@@ -414,27 +429,18 @@
       ]
     },
     {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
       "title": "The cost of studying communication and electronics engineering in the UK",
-      "eyebrow": "Tuition & Living",
+      "lead": "The university, length of the course, city, lodging, and individual lifestyle all affect the total cost of studying ECE in the UK.",
+      "groups": []
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "The cost of tuition",
+      "lead": "Depending on the particular academic years mentioned, international tuition fees ranging from roughly £17,950 to £44,400 per year are included in the published examples in Section 3.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The university, length of the course, city, lodging, and individual lifestyle all affect the total cost of studying ECE in the UK."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The cost of tuition"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Depending on the particular academic years mentioned, international tuition fees ranging from roughly £17,950 to £44,400 per year are included in the published examples in Section 3."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -498,21 +504,47 @@
         {
           "t": "ul",
           "items": [
-            "If applicable, UCAS or university application fees",
-            "The cost of applying for a student visa",
-            "When appropriate, the Immigration Health Surcharge",
-            "The cost of international travel",
+            "If applicable, UCAS or university application fees"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "The cost of applying for a student visa",
+      "lead": "",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "When appropriate, the Immigration Health Surcharge"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "The cost of international travel",
+      "lead": "",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
             "The first deposits for lodging",
             "When necessary, laboratory or project materials",
             "Travel and housing expenses for an optional industrial placement"
           ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Financial aid and scholarships"
-          ]
-        },
+        }
+      ]
+    },
+    {
+      "slot": "scholarships",
+      "eyebrow": "Scholarships & Aid",
+      "title": "Financial aid and scholarships",
+      "lead": "",
+      "groups": [
         {
           "t": "p",
           "items": [
@@ -538,153 +570,81 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "Admission Procedure for Electronics and Communication Engineering in the UK",
-      "eyebrow": "Eligibility & Process",
+      "lead": "",
       "groups": [
         {
-          "t": "p",
+          "t": "steps",
           "items": [
-            "Step 1: Select Your Study Route"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Choose between an undergraduate degree with a placement year, an integrated MEng, a foundation-year track, or a BEng."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 2: Make a shortlist of universities"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Examine course modules, technical facilities, subjects pertaining to communication, location, tuition costs, length of time, and accreditation."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 3: Verify Your Eligibility"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Examine your class 12 grades, the prerequisites for math and physics, your English language proficiency, and any additional requirements for admission."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 4: Get Your Application Ready"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Apply using UCAS or another method the university specifies."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 5 : Submit the supporting documentation"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Academic credentials, transcripts, results from any necessary English tests, answers to personal statements, references, and any other specified documents should all be provided."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 6: Accept and Examine the Offer"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Verify if the offer is unconditional or conditional. Examine enrollment requirements, tuition costs, deadlines for payments, and academic conditions."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 7: Accept the Offer"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Finish the acceptance process at the university and make all necessary preparations for tuition deposits."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 8: Get Your Study Acceptance Confirmation"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The university may provide a Confirmation of Acceptance for Studies (CAS) for the student visa application procedure if the pertinent offer requirements have been met."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 9 : Apply for a UK student visa"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "In accordance with the most recent UK immigration regulations, prepare the necessary documentation and submit your visa application."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 10: Make Travel and Accommodation Plans"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Make travel, lodging, financial, enrollment, and pre-departure plans."
+            {
+              "step": 1,
+              "title": "Select Your Study Route",
+              "desc": "Choose between an undergraduate degree with a placement year, an integrated MEng, a foundation-year track, or a BEng."
+            },
+            {
+              "step": 2,
+              "title": "Make a shortlist of universities",
+              "desc": "Examine course modules, technical facilities, subjects pertaining to communication, location, tuition costs, length of time, and accreditation."
+            },
+            {
+              "step": 3,
+              "title": "Verify Your Eligibility",
+              "desc": "Examine your class 12 grades, the prerequisites for math and physics, your English language proficiency, and any additional requirements for admission."
+            },
+            {
+              "step": 4,
+              "title": "Get Your Application Ready",
+              "desc": "Apply using UCAS or another method the university specifies."
+            },
+            {
+              "step": 5,
+              "title": "Submit the supporting documentation",
+              "desc": "Academic credentials, transcripts, results from any necessary English tests, answers to personal statements, references, and any other specified documents should all be provided."
+            },
+            {
+              "step": 6,
+              "title": "Accept and Examine the Offer",
+              "desc": "Verify if the offer is unconditional or conditional. Examine enrollment requirements, tuition costs, deadlines for payments, and academic conditions."
+            },
+            {
+              "step": 7,
+              "title": "Accept the Offer",
+              "desc": "Finish the acceptance process at the university and make all necessary preparations for tuition deposits."
+            },
+            {
+              "step": 8,
+              "title": "Get Your Study Acceptance Confirmation",
+              "desc": "The university may provide a Confirmation of Acceptance for Studies (CAS) for the student visa application procedure if the pertinent offer requirements have been met."
+            },
+            {
+              "step": 9,
+              "title": "Apply for a UK student visa",
+              "desc": "In accordance with the most recent UK immigration regulations, prepare the necessary documentation and submit your visa application."
+            },
+            {
+              "step": 10,
+              "title": "Make Travel and Accommodation Plans",
+              "desc": "Make travel, lodging, financial, enrollment, and pre-departure plans."
+            }
           ]
         }
       ]
     },
     {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
       "title": "Accreditation and Professional Recognition for Electronics and Communication Engineering in the UK",
-      "eyebrow": "Course Guide",
+      "lead": "For students who wish to pursue a long-term engineering career, professional accreditation is crucial.",
+      "groups": []
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Accreditation of Engineering Degrees",
+      "lead": "On behalf of the Engineering Council, the Institution of Engineering and Technology (IET) accredits qualifying engineering degrees.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "For students who wish to pursue a long-term engineering career, professional accreditation is crucial."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Accreditation of Engineering Degrees"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "On behalf of the Engineering Council, the Institution of Engineering and Technology (IET) accredits qualifying engineering degrees."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -703,15 +663,11 @@
       ]
     },
     {
+      "slot": "careers",
+      "eyebrow": "Career & Salary",
       "title": "Pay and Employment Prospects for UK Electronics and Communication Engineers",
-      "eyebrow": "Career & Prospects",
+      "lead": "Opportunities in telecommunications, digital technologies, embedded systems, manufacturing, and other engineering sectors are available to graduates of ECE-related degrees.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Opportunities in telecommunications, digital technologies, embedded systems, manufacturing, and other engineering sectors are available to graduates of ECE-related degrees."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -801,15 +757,11 @@
       ]
     },
     {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
       "title": "Documents Needed",
-      "eyebrow": "Course Guide",
+      "lead": "The university, course, and visa arrangements determine the precise document checklist.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The university, course, and visa arrangements determine the precise document checklist."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -848,10 +800,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Documents for Student Visas"
-          ]
+          "t": "h4",
+          "text": "Documents for Student Visas"
         },
         {
           "t": "p",
@@ -878,136 +828,37 @@
           ]
         }
       ]
-    },
-    {
-      "title": "FAQs",
-      "eyebrow": "Got Questions?",
-      "groups": [
-        {
-          "t": "faqs",
-          "items": [
-            {
-              "q": "Q1. After Class 12, are Indian kids able to pursue a degree in Electronics and Communication Engineering in the UK?",
-              "a": "Yes . After Class 12, qualified Indian students can enroll for undergraduate engineering degrees. Students should also look for Electronic Engineering, Electronic and Electrical Engineering, Electronic and Computer Engineering, and comparable degrees because the precise ECE title is less prevalent in the UK. The majority call for related science courses and mathematics."
-            },
-            {
-              "q": "Q2. How long do undergraduate ECE courses last in the UK?",
-              "a": "In England, Wales, and Northern Ireland, a BEng typically takes three years. Typically, an integrated MEng requires four years. The term may be extended by an industrial placement or foundation year."
-            },
-            {
-              "q": "Q3. What is the price of ECE-related courses in the United Kingdom?",
-              "a": "For the designated entry years, the published course examples in this book vary from roughly £17,950 to £44,400 per year. Budgeting separately is required for living expenses, visa fees, medical expenses, and potential yearly school fee increases."
-            },
-            {
-              "q": "Q4. After completing my studies in Electronics and Communication Engineering, what careers might I pursue?",
-              "a": "Jobs like Electronics EngineerCommunications Engineer, Telecommunications Engineer, Embedded Systems Engineer, RF Engineer, Hardware Design Engineer, Network Engineer, and Signal Processing Engineer are available to graduates. Skills, experience, employer demands, and labor market variables all affect career results."
-            },
-            {
-              "q": "Q5. After earning my undergraduate degree in ECE, can I remain in the UK?",
-              "a": "Graduates who meet the requirements may apply for a Graduate visa. An 18-month graduate visa is granted to qualified bachelor's degree holders who apply on or after January 1, 2027, according to regulations released in October 2026. Before applying, students should confirm the current regulations."
-            },
-            {
-              "q": "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
-              "a": "Students may plan their study-abroad journey, organize application materials, comprehend admission requirements, and research suitable universities With the assistance of Edu Hawk worldwide Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
-            }
-          ]
-        }
-      ]
     }
   ],
-  "universities": [
-    {
-      "name": "Trent University in Nottingham",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "",
-      "imgFile": "Trent_University_in_Nottingham.webp"
-    },
-    {
-      "name": "Sheffield University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "",
-      "imgFile": "Sheffield_University.webp"
-    },
-    {
-      "name": "Liverpool University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "",
-      "imgFile": "Liverpool_University.webp"
-    },
-    {
-      "name": "Edinburgh Napier University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "",
-      "imgFile": "Edinburgh_Napier_University.webp"
-    }
-  ],
-  "table": {
-    "title": "Estimated Cost of Studying BEng Electronics & Communication Engineering in the UK (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (£ / GBP)",
-      "Details / Scope"
-    ],
-    "rows": [
-      [
-        "Undergraduate Degree (Annual)",
-        "£14,000 – £28,000 / year",
-        "Varies by university ranking, laboratory access, and course type"
-      ],
-      [
-        "Postgraduate Degree (Annual)",
-        "£16,000 – £35,000 / year",
-        "1-year intensive master's program or research dissertation"
-      ],
-      [
-        "Monthly Living Costs (Outside London)",
-        "£900 – £1,100 / month",
-        "Includes private/student accommodation, groceries, and utilities"
-      ],
-      [
-        "Monthly Living Costs (London)",
-        "£1,250 – £1,450 / month",
-        "Mandated UKVI maintenance requirement for London study"
-      ],
-      [
-        "Health Surcharge (IHS)",
-        "£776 / year",
-        "Access to UK National Health Service (NHS) for student visa holders"
-      ]
-    ]
-  },
   "faqs": [
     {
-      "q": "Q1. After Class 12, are Indian kids able to pursue a degree in Electronics and Communication Engineering in the UK?",
+      "q": "After Class 12, are Indian kids able to pursue a degree in Electronics and Communication Engineering in the UK?",
       "a": "Yes . After Class 12, qualified Indian students can enroll for undergraduate engineering degrees. Students should also look for Electronic Engineering, Electronic and Electrical Engineering, Electronic and Computer Engineering, and comparable degrees because the precise ECE title is less prevalent in the UK. The majority call for related science courses and mathematics."
     },
     {
-      "q": "Q2. How long do undergraduate ECE courses last in the UK?",
+      "q": "How long do undergraduate ECE courses last in the UK?",
       "a": "In England, Wales, and Northern Ireland, a BEng typically takes three years. Typically, an integrated MEng requires four years. The term may be extended by an industrial placement or foundation year."
     },
     {
-      "q": "Q3. What is the price of ECE-related courses in the United Kingdom?",
+      "q": "What is the price of ECE-related courses in the United Kingdom?",
       "a": "For the designated entry years, the published course examples in this book vary from roughly £17,950 to £44,400 per year. Budgeting separately is required for living expenses, visa fees, medical expenses, and potential yearly school fee increases."
     },
     {
-      "q": "Q4. After completing my studies in Electronics and Communication Engineering, what careers might I pursue?",
+      "q": "After completing my studies in Electronics and Communication Engineering, what careers might I pursue?",
       "a": "Jobs like Electronics EngineerCommunications Engineer, Telecommunications Engineer, Embedded Systems Engineer, RF Engineer, Hardware Design Engineer, Network Engineer, and Signal Processing Engineer are available to graduates. Skills, experience, employer demands, and labor market variables all affect career results."
     },
     {
-      "q": "Q5. After earning my undergraduate degree in ECE, can I remain in the UK?",
+      "q": "After earning my undergraduate degree in ECE, can I remain in the UK?",
       "a": "Graduates who meet the requirements may apply for a Graduate visa. An 18-month graduate visa is granted to qualified bachelor's degree holders who apply on or after January 1, 2027, according to regulations released in October 2026. Before applying, students should confirm the current regulations."
     },
     {
       "q": "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
       "a": "Students may plan their study-abroad journey, organize application materials, comprehend admission requirements, and research suitable universities With the assistance of Edu Hawk worldwide Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
     }
-  ]
+  ],
+  "seo": {
+    "title": "Study Electronics and Communication Engineering in UK | Edu-Hawk Worldwide",
+    "description": "Electronic circuit design, communication systems, signal processing, digital technology, and wireless communication are all combined in Electronics and Communic",
+    "keywords": "Study Electronics and Communication Engineering in the UK for Indian Students, Best Universities for Electronics and Communication Engineering in the UK, Undergraduate Electronics and Communication Engineering Courses in the UK, ECE Eligibility in the UK After Class 12, Electronics and Communication Engineering Admission Requirements in the UK, Electronics and Communication Engineering Fees in the UK for Indian Students, ECE Scholarships in the UK for International Students, Bachelor of Engineering (BEng) in Electronic Engineering in the UK, Electronic and Electrical Engineering Courses in the UK, Electronic and Computer Engineering Degrees in the UK"
+  }
 }

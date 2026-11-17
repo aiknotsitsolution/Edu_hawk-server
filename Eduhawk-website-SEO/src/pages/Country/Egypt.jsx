@@ -1,3 +1,4 @@
+import cmsData from "../../data/medical_colleges/egypt.json";
 import React, { useState } from "react";
 import EgyptFlag from "../../Images/country flag png/Egypt.svg"; // Correct path to Egypt flag
 import { Plus as FiPlus, Minus as FiMinus } from "lucide-react";
@@ -63,9 +64,9 @@ const Egypt = () => {
     <>
     
       <SeoHead
-        title="MBBS in Egypt for Indian Students | Fees & Top Universities"
-        description="MBBS in Egypt with globally recognized universities. Get details on fees, eligibility and admission process for Indian students."
-        keywords="mbbs in egypt, egypt mbbs fees, study mbbs egypt, mbbs in egypt for indian students, top medical universities in egypt, mbbs in egypt eligibility, mbbs in egypt admission"
+        title={cmsData?.seo?.title || "MBBS in Egypt for Indian Students | Fees & Top Universities"}
+        description={cmsData?.seo?.description || "MBBS in Egypt with globally recognized universities. Get details on fees, eligibility and admission process for Indian students."}
+        keywords={cmsData?.seo?.keywords || "mbbs in egypt, egypt mbbs fees, study mbbs egypt, mbbs in egypt for indian students, top medical universities in egypt"}
         path="/mbbs-abroad/egypt"
         ogType="website"
       />
@@ -74,7 +75,7 @@ const Egypt = () => {
         <div className="relative h-screen overflow-hidden">
           <div className="absolute inset-0">
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Alexandria_University.JPG/1280px-Alexandria_University.JPG"
+              src={cmsData?.hero?.image || "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Alexandria_University.JPG/1280px-Alexandria_University.JPG"}
               alt="Alexandria University"
               className="w-full h-full object-cover brightness-75"
                   srcSet="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Alexandria_University.JPG/1280px-Alexandria_University.JPG 1x, https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Alexandria_University.JPG/1280px-Alexandria_University.JPG 2x"
@@ -233,7 +234,7 @@ const Egypt = () => {
           {/* UNIVERSITIES GRID */}
           <div className="mb-20">
             <h2 className="text-4xl font-bold text-center text-blue-900 mb-12">
-              Top Medical Universities in Egypt
+              {cmsData?.universitiesHeading || "Top Medical Universities in Egypt"}
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               {[
@@ -461,7 +462,7 @@ const Egypt = () => {
               </h2>
 
               <div className="space-y-5">
-                {faqData.map((item, index) => (
+                {((cmsData?.faq && cmsData.faq.length > 0) ? cmsData.faq : faqData).map((item, index) => (
                   <div
                     key={index}
                     className={`bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden transition-all duration-300 hover:shadow-md ${

@@ -1,81 +1,532 @@
 {
-  "seo": {
-    "title": "Nursing in Spain for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study Nursing in Spain: Top universities, English-taught programs, tuition fees (€2,000–€18,000/yr), scholarships, eligibility criteria, and post-study work permit opportunities."
-  },
   "hero": {
-    "badge": "Study Abroad - Spain",
     "title": "Nursing in Spain for Indian Students",
-    "subtitle": "Nursing in Spain for Indian students gives you the opportunity to earn a European healthcare qualification, get practical clinical training and explore global career opportunities. The Grado en Enfermería (undergraduate nursing degree in Spain) generally takes 4 years to complete and is made up of 240 ECTS credits.",
-    "ctaText": "Book Free Counselling",
-    "image": ""
+    "subtitle": "Nursing in Spain for Indian students gives you the opportunity to earn a European healthcare qualification, get practical clinical training and explore global career opportunities. The Grado en Enfermer&iacute;a (undergraduate nursing degree in Spain) generally takes 4 years to complete and is made up of 240 ECTS credits."
   },
-  "stats": [
-    {
-      "n": "1000+",
-      "l": "Students Placed Globally"
-    },
-    {
-      "n": "20+",
-      "l": "Countries"
-    },
-    {
-      "n": "200+",
-      "l": "Partner Universities"
-    },
-    {
-      "n": "100%",
-      "l": "Support (Visa & Post-Study Work Guidance)"
-    }
+  "overview": [
+    "Professional and academic advantages for Indian students studying Nursing in Spain:",
+    "European education: Study in Spain's recognized higher education system.",
+    "Practical clinical experience: Gain patient-care skills in supervised placements and laboratory sessions."
   ],
-  "highlights": {
-    "degree": "Undergraduate & Postgraduate",
-    "duration": "1 to 2 Years (PG)",
-    "fee": "€2,000 – €18,000 / Year",
-    "eligibility": "Recognised academic qualification + IELTS / TOEFL / Spanish proficiency",
-    "medium": "English & Spanish Taught"
-  },
-  "overview": "Nursing in Spain for Indian students gives you the opportunity to earn a European healthcare qualification, get practical clinical training and explore global career opportunities. The Grado en Enfermería (undergraduate nursing degree in Spain) generally takes 4 years to complete and is made up of 240 ECTS credits.\n\nSpanish universities combine classroom learning with laboratory practice, clinical placements and patient-care training. Most of the Nursing courses in Spain are in Spanish, but there are some universities that offer courses with English or specific international paths. Indian students should check the teaching language, tuition fees for non-EU students, Nursing admission requirements in Spain and professional registration rules carefully before applying.\n\nEdu-Hawk Worldwide supports Indian students who wish to explore international education opportunities, including Nursing in Spain for Indian Students . From selecting suitable universities and understanding admission requirements to preparing application documents and exploring study-abroad opportunities, Edu-Hawk Worldwide helps students navigate their international education journey.",
   "universities": [
     {
       "name": "Universidad Autónoma de Madrid",
       "location": "Spain",
-      "fee": "€2,000 – €18,000 / Year",
-      "image": ""
-    },
-    {
-      "name": "University of Barcelona",
-      "location": "Spain",
-      "fee": "€2,000 – €18,000 / Year",
-      "image": ""
+      "fee": "€1,500 – €8,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_nursing_Universidad_Aut_noma_de_Madrid-image1.png",
+      "image": "/uploads/study_abroad/spain/spain_nursing_Universidad_Aut_noma_de_Madrid-image1.png",
+      "desc": "Offers a four-year Nursing degree for 240 ECTS credits. El programa se imparte en espa&ntilde;ol. For the 2026-27 academic year, the university's standard fee category charges a first enrollment fee of about €1,241, while non-EU students pay €8,186. Official program: Degree in Nursing"
     },
     {
       "name": "University of Alicante",
       "location": "Spain",
-      "fee": "€2,000 – €18,000 / Year",
-      "image": ""
+      "fee": "€1,500 – €8,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_nursing_University_of_Alicante-image2.png",
+      "image": "/uploads/study_abroad/spain/spain_nursing_University_of_Alicante-image2.png",
+      "desc": "Four-year, 240-ECTS degree in Nursing. The published language breakdown is about 80.8% Catalan, 18.7% Spanish and 0.5% English so students should consider if they can study and do their clinical training in the required languages. Official program: Nursing Bachelor's Degree"
+    },
+    {
+      "name": "University of Barcelona",
+      "location": "Spain",
+      "fee": "€1,500 – €8,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_nursing_University_of_Barcelona-image3.png",
+      "image": "/uploads/study_abroad/spain/spain_nursing_University_of_Barcelona-image3.png",
+      "desc": "Four-year, 240-ECTS degree in Nursing. The published language breakdown is about 80.8% Catalan, 18.7% Spanish and 0.5% English so students should consider if they can study and do their clinical training in the required languages. Official program: Nursing Bachelor's Degree"
     }
   ],
-  "faq": [
+  "sections": [
     {
-      "question": "How long does a Nursing study last in Spain?",
-      "answer": "Most Nursing degrees at undergraduate level are four years in duration and carry 240 ECTS credits."
+      "slot": "why-study",
+      "eyebrow": "Why Spain",
+      "title": "Why Study Nursing in Spain?",
+      "lead": "Professional and academic advantages for Indian students studying Nursing in Spain:",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "European education: Study in Spain's recognized higher education system."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Practical clinical experience: Gain patient-care skills in supervised placements and laboratory sessions."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Four-year degree: Most undergraduate Nursing programs in Spain last four years, and are 240-ECTS."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "International exposure: Exposure to a different health care system and multicultural learning environment."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Career opportunities: Opportunities in healthcare careers, subject to meeting the relevant requirements for professional registration."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Further study: Think about postgraduate study such as critical care, community health, pediatrics and public health."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Transferable Skills: Develop skills in communication, teamwork, clinical reasoning and patient management."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "One of the important things to consider for students planning to study Nursing in Spain is the language proficiency. Spanish fluency is critical in clinical training and professional practice because nurses interact directly with patients, families and health care teams."
+          ]
+        }
+      ]
     },
     {
-      "question": "Is it possible for Indian students to study Nursing in Spain in English?",
-      "answer": "Some programs may have English-language components or international pathways. But many degrees are taught mostly in Spanish or a regional language. Please check teaching language and clinical-placement requirements before applying."
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Nursing Studies in Spain",
+      "lead": "Spanish universities offer undergraduate nursing degrees in Spain and postgraduate specializations in various healthcare fields. Indian students can explore the following Nursing courses in Spain, depending on their academic qualifications and career aspirations.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "CourseTypical durationPrimary focus"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Bachelor's Degree in Nursing4 yearsGeneral nursing and clinical practice"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master's in Nursing Science1–2 years, depending on the programAdvanced nursing knowledge and research"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Critical Care NursingVaries by programCare for critically ill patients"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Pediatric NursingVaries by programHealthcare for infants, children and adolescents"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Community Health NursingVaries by programCommunity health and disease prevention"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Geriatric NursingVaries by programCare for older adults"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Public HealthVaries by programPopulation health, prevention and healthcare planning"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The traditional route into nursing is a four-year undergraduate degree. Specialist courses may need professional registration or a nursing degree and/or previous clinical experience. Students from India who are looking at Nursing in Spain should check the eligibility criteria for the courses they want to apply to before submitting an application."
+          ]
+        }
+      ]
     },
     {
-      "question": "What is the tuition fee of studying Nursing in Spain for Indian students?",
-      "answer": "Tuition is highly variable. Public-university fees may be relatively affordable for some student categories, but fees for non-EU students can be higher. Private programs may be more costly. Always consult the official fee schedule for Indian applicants."
+      "slot": "universities",
+      "eyebrow": "Top Spanish Universities",
+      "title": "Best Nursing Colleges in Spain",
+      "lead": "The universities listed below provide official information regarding their undergraduate nursing programs. They are starting points to compare the best universities for Nursing in Spain, not a ranking.",
+      "groups": [],
+      "unis": [
+        {
+          "name": "Universidad Autónoma de Madrid",
+          "location": "Spain",
+          "fee": "€1,500 – €8,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_nursing_Universidad_Aut_noma_de_Madrid-image1.png",
+          "image": "/uploads/study_abroad/spain/spain_nursing_Universidad_Aut_noma_de_Madrid-image1.png",
+          "desc": "Offers a four-year Nursing degree for 240 ECTS credits. El programa se imparte en espa&ntilde;ol. For the 2026-27 academic year, the university's standard fee category charges a first enrollment fee of about €1,241, while non-EU students pay €8,186. Official program: Degree in Nursing"
+        },
+        {
+          "name": "University of Alicante",
+          "location": "Spain",
+          "fee": "€1,500 – €8,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_nursing_University_of_Alicante-image2.png",
+          "image": "/uploads/study_abroad/spain/spain_nursing_University_of_Alicante-image2.png",
+          "desc": "Four-year, 240-ECTS degree in Nursing. The published language breakdown is about 80.8% Catalan, 18.7% Spanish and 0.5% English so students should consider if they can study and do their clinical training in the required languages. Official program: Nursing Bachelor's Degree"
+        },
+        {
+          "name": "University of Barcelona",
+          "location": "Spain",
+          "fee": "€1,500 – €8,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_nursing_University_of_Barcelona-image3.png",
+          "image": "/uploads/study_abroad/spain/spain_nursing_University_of_Barcelona-image3.png",
+          "desc": "Four-year, 240-ECTS degree in Nursing. The published language breakdown is about 80.8% Catalan, 18.7% Spanish and 0.5% English so students should consider if they can study and do their clinical training in the required languages. Official program: Nursing Bachelor's Degree"
+        }
+      ]
     },
     {
-      "question": "What is the difference between a financial advisor and a financial planner? Can I work in Spain after Nursing?",
-      "answer": "Graduates may explore nursing employment after gaining the relevant professional qualification, registration, language and immigration requirements. A degree does not guaranty a job or permission to work."
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Nursing Study Requirements in Spain",
+      "lead": "In general, Indian students will have to meet the academic admission requirements of the university and the relevant entry regulations for university in Spain. Students who want to pursue a degree in nursing should know about the Nursing eligibility in Spain.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Typical eligibility factors include:"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Class 12 qualification: Secondary education equivalent to the relevant Spanish entry qualification."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic Subjects: Biology, Chemistry and other science subjects may be useful or required, depending on the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic performance: Admission can be competitive, especially for public universities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Recognition of credentials: applicants may need to go through an equivalency process for Spanish secondary education qualifications or university admission."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Entrance assessment: Some routes into the course require results from recognized exams or further assessment."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Language skills: Spanish is often a requirement for nursing study and clinical placements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Documentation: Submit academic transcripts, identity documents and any other certificates as required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Eligibility and selection rules differ according to each autonomous region and university. Graduating Class 12 in India does not mean you are automatically admitted. Students must verify the Nursing admission requirements in Spain with the university of their choice."
+          ]
+        }
+      ]
     },
     {
-      "question": "Do you need NEET to study Nursing in Spain?",
-      "answer": "NEET is not necessarily necessary for everyone, nor is it necessarily unnecessary for everyone. Please check the entry requirements of the chosen Spanish University along with the current Indian regulations pertaining to your intended course of study and possible future professional registration. Nursing in Spain for Indian Students Nursing Studies in Spain Top Nursing Schools in Spain Nursing Admission in Spain Entry Requirements for Nursing Courses in Spain Cost of Nursing Education in Spain Edu-Hawk Worldwide"
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Requirements for Access to Nursing in Spain",
+      "lead": "The Nursing admission requirements in Spain differ depending on the university, admission route and the program. Universities may request one or more of the following documents:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Class 10 and Class 12 Mark Sheet and Certificate.",
+            "Passport valid.",
+            "Academic credential recognition or equivalency documents, if applicable.",
+            "Results of university entrance or entrance examinations, if applicable.",
+            "Evidence of proficiency in the Spanish language, if applicable.",
+            "University application form (completed).",
+            "Certified translations. Legalization or apostille, if required.",
+            "Passport photos.",
+            "Other documents as required by the selected institution."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some universities may also require health-related documentation or other prerequisites prior to clinical placements. Before applying for Nursing in Spain for Indian Students, do confirm the exact checklist from the admissions office."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "What Is the Cost of Studying Nursing in Spain?",
+      "lead": "The price of studying Nursing in Spain depends on the university, the region and the student's category. Some public universities may charge non-EU students a lot more than EU or domestic fee categories. Indian applicants should not make a decision based on the lowest advertized public tuition only.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Type of universityIndicative annual tuitionApprox. in INR"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Public university€1,000-€8,500₹1.09-₹9.23 lakh"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Private university€6,000-€15,000+₹6.52-₹16.29 lakh+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These ranges are indicative of planning costs and not confirmed fees at each university. For example, the Autonomous University of Madrid lists approximately 8,186€ for the first enrollment of non-EU students in its Nursing degree for 2026–27."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "INR conversions are based on an illustrative exchange rate of €1 &asymp; ₹108.60. Actual fees and exchange rates may vary."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Other costs may include accommodation, food, transport, health insurance, visa formalities, study materials and clinical placement requirements. Look out for extra administration charges on university fee estimates."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Scholarships and financial aid may be available, but eligibility for international students depends on the institution and the funding program. Students who are Planning Nursing in Spain for Indian students should prepare a complete budget that includes tuition fees and living expenses."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission to Nursing in Spain",
+      "lead": "Nursing in Spain for Indian students The students can study by following the admission steps:",
+      "groups": [
+        {
+          "t": "steps",
+          "items": [
+            {
+              "step": 1,
+              "title": "Select a university",
+              "desc": "Compare the language of the program, tuition fees, clinical training, admission requirements and location."
+            },
+            {
+              "step": 2,
+              "title": "Assess your academic eligibility",
+              "desc": "Check evaluation of your Indian Class 12 qualification and if you need to get your credentials recognized or write an entrance exam."
+            },
+            {
+              "step": 3,
+              "title": "Fulfilll the language requirements",
+              "desc": "Find out what level of Spanish is required and what language is used on clinical placements."
+            },
+            {
+              "step": 4,
+              "title": "Apply",
+              "desc": "Submit the required academic documents, ID documents, entrance test results and other documents by the deadline."
+            },
+            {
+              "step": 5,
+              "title": "Fulfilll visa formalities",
+              "desc": "Once admitted, check the relevant Spanish student-visa requirements and arrange accommodation, insurance and travel."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students can also seek study-abroad guidance from Edu-Hawk Worldwide when exploring university options and preparing for the application process."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Recognition of Nursing Degrees and Certification in Spain",
+      "lead": "The Spanish Grado en Enfermer&iacute;a is a university baccalaureate degree that trains students for professional nursing practice. Graduates must fulfill the relevant requirements to practice in Spain.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Indian students must check the following before taking admission in Nursing in Spain."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "The university and its nursing program are accredited.",
+            "The program provides the required clinical training.",
+            "The degree satisfies the relevant professional criteria.",
+            "The qualification can be assessed according to the rules of the country in which the student wishes to work."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For Indian students who are planning to return to India: Please do not assume that a Spanish nursing qualification automatically qualifies you to register or work as a nurse in India. Before selecting a program, please check the latest requirements with the Indian Nursing Council and the concerned State Nursing Registration Council."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Official reference: Indian Nursing Council"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Nursing Salary in Spain and Nursing Job Opportunities",
+      "lead": "Graduates who have completed an appropriate qualification and meet the professional registration and language requirements may seek employment in hospitals, clinics, community health services and other health care settings. Indian students thinking of Nursing in Spain for Indian students should be aware that the career prospects vary according to the professional recognition, language skills and job requirements.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Career stageSample gross annual salary"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Entry-level nurse€22,000–€28,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Experienced nurse€28,000–€38,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Advanced or specialized roles€35,000–€45,000+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are rough illustrative estimates, not verified salary statistics or guarantyd earnings. Your real salary depends on region, employer, your experience, shift allowances, collective agreements and specialization."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Possible career fields are:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Clinical and hospital nursing.",
+            "Critical & emergency care.",
+            "Pediatric Nursing.",
+            "Community and geriatric medicine.",
+            "Health education and public health.",
+            "Nursing research and other scholarly inquiry."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "In Spain nursing is a regulated profession. Foreign-qualified applicants seeking degree recognition must meet the relevant professional requirements. The Spanish Ministry of Science, Innovation and Universities has advice on foreign nursing qualifications."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Official source: Spain's official guidance for Nursing qualification recognition"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Paperwork for Studying Nursing in Spain",
+      "lead": "Nursing in Spain for Indian students needs to prepare the below documents as applicable for the university and visa application:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "10th pass certificate & mark sheet.",
+            "Mark sheet and certificate of class 12.",
+            "Valid passport.",
+            "Academic equivalency or credential-recognition papers, if applicable.",
+            "Results of entrance examinations, if applicable.",
+            "Certificate of Spanish language if applicable.",
+            "I have finished my university application.",
+            "Passport size photographs.",
+            "Certified translations and where applicable, legalized or apostilled documents.",
+            "Letter of University Admission.",
+            "Proof of financial means and accommodation if required for visa.",
+            "Health insurance and other necessary visa paperwork."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The final list will depend on the university, the route through which you apply and the visa requirements. Make sure you check this before you submit your application."
+          ]
+        }
+      ]
     }
-  ]
+  ],
+  "faqs": [
+    {
+      "q": "How long does a Nursing study last in Spain?",
+      "a": "Most Nursing degrees at undergraduate level are four years in duration and carry 240 ECTS credits."
+    },
+    {
+      "q": "Is it possible for Indian students to study Nursing in Spain in English?",
+      "a": "Some programs may have English-language components or international pathways. But many degrees are taught mostly in Spanish or a regional language. Please check teaching language and clinical-placement requirements before applying."
+    },
+    {
+      "q": "What is the tuition fee of studying Nursing in Spain for Indian students?",
+      "a": "Tuition is highly variable. Public-university fees may be relatively affordable for some student categories, but fees for non-EU students can be higher. Private programs may be more costly. Always consult the official fee schedule for Indian applicants."
+    },
+    {
+      "q": "What is the difference between a financial advisor and a financial planner? Can I work in Spain after Nursing?",
+      "a": "Graduates may explore nursing employment after gaining the relevant professional qualification, registration, language and immigration requirements. A degree does not guaranty a job or permission to work."
+    },
+    {
+      "q": "Do you need NEET to study Nursing in Spain?",
+      "a": "NEET is not necessarily necessary for everyone, nor is it necessarily unnecessary for everyone. Please check the entry requirements of the chosen Spanish University along with the current Indian regulations pertaining to your intended course of study and possible future professional registration."
+    }
+  ],
+  "seo": {
+    "title": "Nursing in Spain for Indian Students | Edu-Hawk Worldwide",
+    "description": "Professional and academic advantages for Indian students studying Nursing in Spain:",
+    "keywords": "Nursing in Spain for Indian Students, Nursing Studies in Spain, Top Nursing Schools in Spain, Nursing Admission in Spain, Entry Requirements for Nursing Courses in Spain, Cost of Nursing Education in Spain, Edu-Hawk Worldwide"
+  }
 }

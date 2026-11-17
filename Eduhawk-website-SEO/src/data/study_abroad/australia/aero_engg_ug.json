@@ -6,9 +6,9 @@
   "hero": {
     "badge": "Study Abroad - Australia",
     "title": "Study Australia's Undergraduate Aerospace Engineering Program",
-    "subtitle": "Aerospace engineering encompasses the design, development, testing, and production of aircraft, spacecraft, satellites, drones, and advanced defense systems.",
+    "subtitle": "Develop Your Interest in Space and Aircraft Technology into a Career in Engineering",
     "ctaText": "Book Free Counselling",
-    "image": ""
+    "image": "/uploads/study_abroad/australia/aero_engg_ug_Adelaide_University-image3.png"
   },
   "stats": [
     {
@@ -33,55 +33,634 @@
     "duration": "4 Years Full-Time",
     "fee": "AUD 30,000 – AUD 52,000 / Year",
     "eligibility": "Recognised academic qualification + English proficiency",
-    "medium": "100% English Taught"
+    "medium": "English"
   },
-  "overview": "Undergraduate programs focus on aerodynamics, propulsion systems, flight mechanics, orbital dynamics, composite materials, avionics, and autonomous aerospace systems.",
+  "overview": [
+    "Develop Your Interest in Space and Aircraft Technology into a Career in Engineering",
+    "The design, development, testing, and operation of airplanes, spacecraft, and associated flight systems are the main objectives of the specialized technical field of aerospace engineering.",
+    "In order to address difficult problems in aviation and aerospace technology , the field integrates mathematics, physics, mechanical engineering, materials science, electronics, and computer-based modeling.",
+    "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities."
+  ],
+  "sections": [
+    {
+      "slot": "overview",
+      "eyebrow": "Course Scope",
+      "title": "Overview of the Course",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Develop Your Interest in Space and Aircraft Technology into a Career in Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The design, development, testing, and operation of airplanes, spacecraft, and associated flight systems are the main objectives of the specialized technical field of aerospace engineering."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "In order to address difficult problems in aviation and aerospace technology , the field integrates mathematics, physics, mechanical engineering, materials science, electronics, and computer-based modeling."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "why-study",
+      "eyebrow": "Key Benefits",
+      "title": "Why Come to Australia to Study Aerospace Engineering?",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Learn about aircraft design, aerodynamics, propulsion, flight mechanics, and aerospace systems with specialized engineering education.",
+            "Practical Design Experience: Depending on the program, students may work on laboratory exercises, engineering projects, simulations, and problems related to aircraft design.",
+            "Explore technology related to space applications, autonomous systems, aerospace materials, and aircraft performance.",
+            "Interdisciplinary Learning: To solve aerospace challenges, integrate principles from mechanical, electronic, computational, and materials engineering.",
+            "Industry-Related Learning: A few programs offer work-integrated learning opportunities, professional projects, or industry training.",
+            "International Learning Environment: Gain technical communication, teamwork, and problem-solving skills while studying with students from different backgrounds.",
+            "Flexible Technical Skills: Some positions in mechanical engineering, manufacturing, transportation, simulation, and advanced technologies may benefit from an understanding of aerospace engineering."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Australian Universities",
+      "title": "Top Universities in Australia",
+      "lead": "Explore leading Group of Eight and prestigious Australian universities renowned for academic excellence, state-of-the-art research laboratories, and strong industry partnerships.",
+      "unis": [
+        {
+          "name": "University of Adelaide",
+          "location": "Adelaide, South Australia",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/aero_engg_ug_Adelaide_University-image3.png",
+          "desc": "Course: Aerospace Engineering Bachelor of Engineering with Honors"
+        },
+        {
+          "name": "University of Monas",
+          "location": "Australia",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/aero_engg_ug_University_of_Monas-image4.png",
+          "desc": "Course: Aerospace Engineering Bachelor of Engineering (Honors)"
+        },
+        {
+          "name": "RMIT University",
+          "location": "Melbourne, Victoria",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/aero_engg_ug_University_of_RMIT-image2.png",
+          "desc": "Course : Mechanical engineering and related aerospace-focused electives or projects that fall under the existing curriculum are pertinent study areas."
+        },
+        {
+          "name": "UNSW Sydney (The University of New South Wales)",
+          "location": "Sydney, New South Wales",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/aero_engg_ug_UNSW_Sydney-image1.png",
+          "desc": "Course : Mechanical and associated engineering programs are pertinent study areas, depending on the availability of courses at the moment."
+        }
+      ],
+      "groups": []
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Popular Courses",
+      "title": "Aerospace Courses for Undergraduates",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "In Australia, Indian students can look at the following course options:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Aerospace Engineering Bachelor of Engineering (Honors)",
+            "Aerospace Engineering Bachelor of Engineering (Honors)",
+            "Aeronautical engineering bachelor's degree with honors",
+            "Bachelor of Engineering (Honors) with a focus on aerospace engineering",
+            "Aeronautical engineering is the major for the Bachelor of Engineering (Honors).",
+            "Mechanical engineering bachelor's degree with honors, with optional aeronautical courses"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "specializations",
+      "eyebrow": "Specializations",
+      "title": "Specializations in Aerospace Engineering",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "A erodynamics.",
+            "Structures of Aircraft",
+            "Systems of Propulsion",
+            "Flight Dynamics and Mechanics",
+            "Aerospace Materials for Aircraft Design",
+            "Systems in Space",
+            "Control Systems and Avionics",
+            "Simulation and Computational Modeling",
+            "Systems for Unmanned Aircraft"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Indian Students Eligibility",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Indian students who have finished Class 12 or an equivalent degree may apply for qualified undergraduate programs in aerospace or aeronautical engineering."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Common Academic Requirements"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Obtaining a Class 12 diploma or a comparable credential.",
+            "In general, mathematics is a crucial precondition for engineering.",
+            "Physics is typically crucial to aeronautical and aerospace engineering.",
+            "Academic standing that satisfies the requirements for admission to the institution.",
+            "proficiency in English, where necessary.",
+            "A current passport and the necessary paperwork for the application."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "language",
+      "eyebrow": "Language Requirements",
+      "title": "Language Requirements in English",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "International students might have to take an approved test to prove they are proficient in English."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Tests that are frequently accepted include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Academic TOEFL iBT IELTS",
+            "English Academic Pearson Test (PTE Academic)",
+            "An IELTS Academic score of between 6.0 and 6.5 overall, with minimum scores in each component, may be required for several undergraduate engineering programs. Programs and universities have different requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Before scheduling an exam, students should validate the current English requirements unique to their subject."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tests",
+      "eyebrow": "Entrance Exams",
+      "title": "Admission Tests",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "In Australia, admission to undergraduate programs in aerospace engineering is often determined by academic credentials and the entrance requirements of the chosen university."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "SAT or ACT: Not always necessary; for Indian applicants, see the university's policies.",
+            "Physics and mathematics are essential prerequisites for many programs in the aerospace industry.",
+            "Assessments for the foundation program may be applicable to students who enroll through a different route.",
+            "Certain universities evaluate Indian Class 12 credentials using national academic equivalencies. Students should verify the prerequisites for the intake they have selected."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Popular Courses",
+      "title": "Duration of Course",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "In Australia, many committed undergraduate honors programs in aerospace engineering and aeronautical engineering require four years of full-time study."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Costs",
+      "title": "Living expenses and tuition",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Estimated Cost of Tuition"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The cost of international tuition varies depending on the university, program, study load, and year of admission."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For many undergraduate aerospace-related engineering programs, students can utilize an indicative range of roughly AUD 45,000-65,000 or more annually for initial planning. This is not a definite cost for each course; rather, it is a general planning estimate."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Extra Costs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Additionally, students should set aside money for:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Lodging and utilities",
+            "Food and groceries",
+            "Public transportation",
+            "Study guides, software, and books",
+            "Project or equipment costs, if any",
+            "Health Coverage for International Students (OSHC)",
+            "Costs associated with applying for a visa",
+            "Emergency and personal costs"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scholarships",
+      "eyebrow": "Scholarships & Funding",
+      "title": "Indian Students Scholarships",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Australian institutions may give scholarships or tuition cost reductions to international students."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Opportunities that could arise include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Scholarships for international merit",
+            "Awards for academic excellence",
+            "Scholarships for international students tailored to a university",
+            "Awards pertaining to engineering or faculty, when applicable",
+            "Opportunities for qualified outside funding",
+            "Academic achievement, nationality, the chosen program, admission, and application deadlines may all affect one's eligibility for a scholarship.",
+            "While some scholarships require a separate application, others are evaluated automatically. Instead of paying for full living and educational costs, several provide partial tuition fee reductions."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Prior to applying, confirm:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Availability of scholarships for overseas students",
+            "Value or percentage of the award",
+            "Requirements for academic eligibility",
+            "Deadlines for applications",
+            "Documents that must be supported",
+            "Conditions for academic advancement and renewal"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Prospects",
+      "title": "Post-Aerospace Engineering Career Opportunities",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Graduates with an undergraduate degree in aerospace engineering may be better equipped to pursue technical positions in the aviation, aerospace, and allied engineering industries."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Possible Career Routes"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Aerospace Engineer Graduate",
+            "Engineer for Aeronautics and Aircraft Design",
+            "Engineers in the fields of aerospace structures, flight systems, aerodynamics, propulsion systems, testing, simulation, and mechanical design"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scope",
+      "eyebrow": "Details",
+      "title": "Accreditation for Professionals",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "When selecting an engineering degree, professional accreditation is a crucial consideration."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Under its framework for professional accreditation, Engineers Australia grants accreditation to qualified engineering programs . However, the particular degree, site, manner of delivery, and relevant accreditation period all affect accreditation"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Prior to accepting an offer, students must to:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Verify the precise title of the degree.",
+            "Consult Engineers Australia to find out its current certification status.",
+            "Check if the desired campus and intake are covered by accreditation.",
+            "Recognize any further prerequisites for registration or professional recognition in the nation where they intend to work."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "How to Apply",
+      "title": "Indian Students Admission Procedure",
+      "groups": [
+        {
+          "t": "step",
+          "step": 1,
+          "title": "Evaluation of Academic Profile",
+          "desc": "Examine your grades from class 12, your background in math and physics, your level of English, your budget, and your chosen study space."
+        },
+        {
+          "t": "step",
+          "step": 2,
+          "title": "Shortlisting Courses and Universities",
+          "desc": "Examine the course design, specializations in aerospace, cost of tuition, requirements for entrance, and accreditation."
+        },
+        {
+          "t": "step",
+          "step": 3,
+          "title": "Prepare the Document",
+          "desc": "Prepare academic credentials, passport information, the results of any necessary English tests, and any other supporting documentation."
+        },
+        {
+          "t": "step",
+          "step": 4,
+          "title": "Submission of the Application",
+          "desc": "Apply in accordance with the university's policies using the official application system or an authorized representative."
+        },
+        {
+          "t": "step",
+          "step": 5,
+          "title": "Letter of Offer",
+          "desc": "The university may make an unconditional or conditional offer to those who qualify. Examine each condition in detail."
+        },
+        {
+          "t": "step",
+          "step": 6,
+          "title": "Make an Acceptance Offer",
+          "desc": "Finish the necessary acceptance procedures and pay the tuition deposit or any additional fees the university specifies."
+        },
+        {
+          "t": "step",
+          "step": 7,
+          "title": "Enrollment Confirmation",
+          "desc": "Obtain the Confirmation of Enrollment (CoE) by fulfilling the provider's requirements."
+        },
+        {
+          "t": "step",
+          "step": 8,
+          "title": "Applying for a Student Visa",
+          "desc": "Submit the necessary supporting documentation along with your application for the relevant Australian student visa."
+        },
+        {
+          "t": "step",
+          "step": 9,
+          "title": "Getting Ready Before Departure",
+          "desc": "Before leaving, make travel, lodging, health insurance, and other practical arrangements. The university's evaluation and the relevant Australian Government regulations determine admissions and visa decisions."
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Required Documents",
+      "title": "Documents Needed",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "When applying to universities and applying for visas, students may require the following paperwork:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Marksheet and certificate for Class 10",
+            "Marksheet and certificate for class 12",
+            "A valid passport",
+            "Test results in English, if needed",
+            "Academic records and transcripts",
+            "If asked, a personal statement or additional documentation",
+            "When necessary, financial documentation and a letter of offer from the university",
+            "Verification of Enrollment",
+            "Health of International Students Cover the evidence",
+            "Application materials for a student visa",
+            "Any further documentation that the university or other appropriate authorities seek",
+            "The institution and the student's situation determine the final document checklist."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "visa",
+      "eyebrow": "Student Visa",
+      "title": "Student Visa for Australia",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "In order to enroll in an authorized full-time program, Indian students typically need the proper Australian student visa."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The application might need:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A legitimate Enrollment Confirmation",
+            "Proof that satisfies the Genuine Student criterion",
+            "Proof of adequate cash, when necessary",
+            "Health Coverage for International Students",
+            "Character and health checks, if relevant",
+            "Documents proving identity and further evidence",
+            "Procedures, costs, and requirements for visas are subject to change."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "assistance",
+      "eyebrow": "Edu Hawk Support",
+      "title": "How Edu Hawk Can Assist",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Students looking into undergraduate engineering possibilities overseas might get advice from Edu Hawk."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Our assistance could consist of:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Initial evaluation of academic profile",
+            "Shortlisting for courses in aerospace and aeronautical engineering",
+            "Comparing universities according to funding and curriculum",
+            "Guidelines for Indian Class 12 qualifying eligibility",
+            "Budgeting and tuition fees",
+            "Guidelines for application documents",
+            "assistance in the admission process for universities",
+            "Offer letter with enrollment instructions",
+            "Guidance on student visa documentation",
+            "Planning prior to departure",
+            "Before making a final choice, students should independently evaluate all admission, fee, accreditation, and visa requirements as well as official institution information."
+          ]
+        }
+      ]
+    }
+  ],
   "universities": [
     {
-      "name": "The University of Melbourne",
-      "location": "Melbourne, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "name": "University of Adelaide",
+      "location": "Adelaide, South Australia",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/aero_engg_ug_Adelaide_University-image3.png",
+      "desc": "Course: Aerospace Engineering Bachelor of Engineering with Honors"
     },
     {
-      "name": "The University of Sydney",
-      "location": "Sydney, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "name": "University of Monas",
+      "location": "Australia",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/aero_engg_ug_University_of_Monas-image4.png",
+      "desc": "Course: Aerospace Engineering Bachelor of Engineering (Honors)"
     },
     {
-      "name": "The University of Queensland",
-      "location": "Brisbane, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "name": "RMIT University",
+      "location": "Melbourne, Victoria",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/aero_engg_ug_University_of_RMIT-image2.png",
+      "desc": "Course : Mechanical engineering and related aerospace-focused electives or projects that fall under the existing curriculum are pertinent study areas."
     },
     {
-      "name": "Monash University",
-      "location": "Melbourne, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "name": "UNSW Sydney (The University of New South Wales)",
+      "location": "Sydney, New South Wales",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/aero_engg_ug_UNSW_Sydney-image1.png",
+      "desc": "Course : Mechanical and associated engineering programs are pertinent study areas, depending on the availability of courses at the moment."
     }
   ],
   "faq": [
     {
       "question": "Is it possible for Indian students to study aerospace engineering in Australia?",
-      "answer": "Yes, qualified students completing Class 12 with senior secondary Mathematics and Physics are eligible to apply."
+      "answer": "Yes, Indian students who fulfill the academic, subject, and English language requirements of the university are able to apply to undergraduate programs in aerospace or aeronautical engineering."
     },
     {
       "question": "What is the duration of an Australian degree program in aerospace engineering?",
-      "answer": "A standard Bachelor of Engineering (Honours) requires 4 years of full-time study."
+      "answer": "A lot of college honors programs need four years of full-time study. Alternative program structures and combined degrees might take longer."
     },
     {
       "question": "Does aerospace engineering require mathematics?",
-      "answer": "Yes, advanced mathematics and physics are mandatory prerequisites."
+      "answer": "A major qualification for many engineering degrees connected to aerospace is mathematics. Another crucial subject that can be necessary for admission is physics."
     },
     {
       "question": "Which Australian colleges provide degrees specifically in aerospace engineering?",
-      "answer": "Leading institutions include UNSW Sydney, RMIT University, Monash University, and The University of Adelaide."
+      "answer": "This article lists the specific undergraduate degrees in aerospace engineering offered by RMIT University and UNSW Sydney. An honors program in Aeronautical Engineering is offered by UNSW Canberra. Students should confirm the availability of intake and their current eligibility for foreign study."
     },
     {
       "question": "How much does it cost to study aerospace engineering in Australia?",
-      "answer": "Annual international tuition ranges from AUD 42,000 to AUD 55,000, depending on the university."
+      "answer": "Many engineering programs related to aerospace may cost between AUD 45,000 and AUD 65,000 or more per year for initial planning. The actual costs differ depending on the intake, course, and university. Keywords - Study Aerospace Engineering in Australia for Indian Students Undergraduate Aerospace Engineering Courses in Australia Best Universities for Aerospace Engineering in Australia Bachelor of Aerospace Engineering in Australia After 12th Aerospace Engineering Eligibility in Australia for Indian Students Aerospace Engineering Admission Requirements in Australia Aerospace Engineering Fees in Australia for International Students Aerospace Engineering Scholarships in Australia for Indian Students Aerospace Engineering Course Duration in Australia English Language Requirements for Aerospace Engineering in Australia Aerospace Engineering Specialisations in Australia Aerospace Engineering Admission Process for Indian Students Engineers Australia Accredited Aerospace Engineering Courses Career Opportunities After Aerospace Engineering in Australia Australian Student Visa Requirements for Aerospace Engineering Students"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is it possible for Indian students to study aerospace engineering in Australia?",
+      "a": "Yes, Indian students who fulfill the academic, subject, and English language requirements of the university are able to apply to undergraduate programs in aerospace or aeronautical engineering."
+    },
+    {
+      "q": "What is the duration of an Australian degree program in aerospace engineering?",
+      "a": "A lot of college honors programs need four years of full-time study. Alternative program structures and combined degrees might take longer."
+    },
+    {
+      "q": "Does aerospace engineering require mathematics?",
+      "a": "A major qualification for many engineering degrees connected to aerospace is mathematics. Another crucial subject that can be necessary for admission is physics."
+    },
+    {
+      "q": "Which Australian colleges provide degrees specifically in aerospace engineering?",
+      "a": "This article lists the specific undergraduate degrees in aerospace engineering offered by RMIT University and UNSW Sydney. An honors program in Aeronautical Engineering is offered by UNSW Canberra. Students should confirm the availability of intake and their current eligibility for foreign study."
+    },
+    {
+      "q": "How much does it cost to study aerospace engineering in Australia?",
+      "a": "Many engineering programs related to aerospace may cost between AUD 45,000 and AUD 65,000 or more per year for initial planning. The actual costs differ depending on the intake, course, and university. Keywords - Study Aerospace Engineering in Australia for Indian Students Undergraduate Aerospace Engineering Courses in Australia Best Universities for Aerospace Engineering in Australia Bachelor of Aerospace Engineering in Australia After 12th Aerospace Engineering Eligibility in Australia for Indian Students Aerospace Engineering Admission Requirements in Australia Aerospace Engineering Fees in Australia for International Students Aerospace Engineering Scholarships in Australia for Indian Students Aerospace Engineering Course Duration in Australia English Language Requirements for Aerospace Engineering in Australia Aerospace Engineering Specialisations in Australia Aerospace Engineering Admission Process for Indian Students Engineers Australia Accredited Aerospace Engineering Courses Career Opportunities After Aerospace Engineering in Australia Australian Student Visa Requirements for Aerospace Engineering Students"
     }
   ]
 }

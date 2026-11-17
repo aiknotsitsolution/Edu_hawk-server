@@ -1,57 +1,107 @@
 {
   "seo": {
-    "title": "MBBS in Egypt for Indian Students 2026-27 | Edu Hawk Worldwide",
-    "description": "Complete guide to MBBS in Egypt. Eligibility, low tuition fees, top medical universities, NMC recognition and visa process."
+    "title": "MBBS in Egypt for Indian Students | Fees & Top Universities",
+    "description": "MBBS in Egypt with globally recognized universities. Get details on fees, eligibility and admission process for Indian students.",
+    "keywords": "mbbs in egypt, egypt mbbs fees, study mbbs egypt, mbbs in egypt for indian students, top medical universities in egypt"
   },
   "hero": {
     "badge": "MBBS Admissions 2026-27",
-    "title": "MBBS in Egypt",
-    "subtitle": "Pursue your dream medical career with NMC & WHO accredited universities in Egypt.",
-    "ctaText": "Apply for 2026-27 Intake",
-    "image": ""
+    "title": "STUDY MBBS IN EGYPT",
+    "subtitle": "Explore MBBS Opportunities in Egypt 2026–2027. Century-old medical heritage, massive tertiary hospitals, and globally respected faculties.",
+    "image": "/uploads/colleges/egypt_flag.svg",
+    "ctaText": "Apply for Egypt MBBS"
   },
+  "flag": "/uploads/colleges/egypt_flag.svg",
   "stats": [
     {
-      "n": "1000+",
-      "l": "Students Placed Globally"
+      "n": "6 Years",
+      "l": "Course Duration (5+1 Internship)"
     },
     {
-      "n": "20+",
-      "l": "Countries"
-    },
-    {
-      "n": "200+",
-      "l": "Partner Universities"
+      "n": "₹30-45L",
+      "l": "Complete Budget for 6 Years"
     },
     {
       "n": "100%",
-      "l": "Support (Visa & End-to-End Guidance)"
+      "l": "English Medium Programs"
+    },
+    {
+      "n": "NMC & WHO",
+      "l": "Recognized Government Universities"
     }
   ],
   "highlights": {
-    "degree": "MD / MBBS (Equivalent)",
-    "duration": "5 to 6 Years",
-    "fee": "15 - 35 Lakhs Total Package",
-    "eligibility": "50% in PCB (Class 12) + NEET Qualified",
-    "medium": "100% English Medium"
+    "degree": "MBBS / MBBCh",
+    "duration": "6 Years (5+1 Internship)",
+    "fee": "₹30 - ₹45 Lakhs Complete Package",
+    "eligibility": "50% in PCB aggregate + NEET Qualified",
+    "medium": "English",
+    "recognition": "NMC & WHO Recognized",
+    "neet": "Compulsory for Indians",
+    "ielts": "Not Required"
   },
-  "overview": "MBBS in Egypt offers high quality medical education, advanced clinical training in affiliated government hospitals, and globally recognized medical degrees.",
+  "overview": "Egypt has emerged as a premier destination for Indian medical aspirants seeking top-tier clinical exposure. Historic government universities in Cairo and Alexandria manage enormous hospital networks with thousands of beds, enabling students to gain extensive practical bedside experience.",
+  "universitiesHeading": "Top Medical Universities in Egypt",
   "universities": [
     {
-      "name": "Top State Medical University (Egypt)",
-      "location": "Egypt",
+      "name": "Cairo University",
+      "location": "Cairo, Egypt",
+      "fee": "₹4.5 Lakhs / Year",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/CairoUniv.webp",
+      "desc": "Kasr Alainy Medical School, founded in 1827, is one of the world's most historic medical academies."
+    },
+    {
+      "name": "Ain Shams University",
+      "location": "Cairo, Egypt",
+      "fee": "₹4.2 Lakhs / Year",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Eng_asu_main_bldng.JPG",
+      "desc": "Renowned for its specialized heart institutes and world-class surgical research wards."
+    },
+    {
+      "name": "Alexandria University",
+      "location": "Alexandria, Egypt",
+      "fee": "₹4.0 Lakhs / Year",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Alexandria_University.JPG/1280px-Alexandria_University.JPG",
+      "desc": "Mediterranean coastal medical faculty offering advanced clinical diagnostics."
+    },
+    {
+      "name": "Mansoura University",
+      "location": "Mansoura, Egypt",
+      "fee": "₹3.8 Lakhs / Year",
+      "image": "https://s3.ap-south-1.amazonaws.com/gotouniv/cover_photo/2002/cover_photo_1500X500.jpg",
+      "desc": "Famous international center for urology, nephrology and organ transplant surgery."
+    },
+    {
+      "name": "Assiut University",
+      "location": "Assiut, Egypt",
+      "fee": "₹3.6 Lakhs / Year",
+      "image": "https://oktamam.com/wp-content/uploads/2024/03/assiut-university.png",
+      "desc": "Leading public university in Upper Egypt with expansive modern tertiary hospital."
+    },
+    {
+      "name": "Helwan University",
+      "location": "Helwan, Egypt",
       "fee": "₹3.5 Lakhs / Year",
-      "image": ""
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b4/%D0%9F%D0%B3%D0%BD%D0%B8%D1%83._%D0%9A%D0%BE%D1%80%D0%BF%D1%83%D1%81_%E2%84%965.jpg",
+      "desc": "Rapidly growing medical campus featuring modern simulation wards and laboratories."
     }
   ],
   "faq": [
     {
-      "question": "Is NEET mandatory for MBBS in Egypt?",
-      "answer": "Yes, qualifying NEET in the year of admission or preceding two years is mandatory as per NMC guidelines."
+      "question": "Is MBBS in Egypt valid for Indian students?",
+      "answer": "Yes, MBBS degrees from NMC/WHO-recognized Egyptian universities are valid in India. Graduates must qualify NExT/FMGE to practice in India."
     },
     {
-      "question": "Is the degree from Egypt valid in India?",
-      "answer": "Yes, all our partner medical universities comply fully with NMC gazette guidelines, making graduates eligible for the NExT/FMGE exam."
+      "question": "What is the total cost of MBBS in Egypt?",
+      "answer": "The complete package (tuition + hostel + food) usually ranges from ₹30 lakh to ₹45 lakh for the full 6-year course."
+    },
+    {
+      "question": "Is NEET required for MBBS in Egypt?",
+      "answer": "Yes, NEET qualification is compulsory for all Indian students as per NMC guidelines."
+    },
+    {
+      "question": "What is the duration of MBBS in Egypt?",
+      "answer": "The MBBS course duration is 6 years (5 years of academic study + 1 year of compulsory rotatory internship)."
     }
   ]
 }

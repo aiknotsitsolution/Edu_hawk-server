@@ -1,14 +1,26 @@
 {
   "seo": {
     "title": "Business Management in Canada for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study Business Management in Canada: Top universities, English-taught programs, tuition fees (CAD $18,000–$45,000/yr), scholarships, eligibility criteria, and post-graduation work permit (PGWP) opportunities."
+    "description": "Study Business Management in Canada: Top universities, English-taught programs, tuition fees (CAD $18,000–$45,000/yr), scholarships, eligibility criteria, and post-graduation work permit (PGWP) opportunities.",
+    "keywords": [
+      "Business management courses in Canada, including undergraduate and graduate",
+      "Business Analyst | Data-driven choices and business processes",
+      "Marketing Executive | Brand development and marketing initiatives",
+      "Coordinator for Human Resources | Hiring and employee relations",
+      "Operations Coordinator | Process improvement and business operations",
+      "Project Coordinator | Management Consultant",
+      "Business strategy and organizational improvement",
+      "Project planning and execution | Operations Manager",
+      "Team and operational performance | Business Development Executive",
+      "Partnerships and revenue growth"
+    ]
   },
   "hero": {
-    "badge": "Study Abroad - Canada",
+    "badge": "Study Abroad · Canada",
     "title": "Business Management in Canada for Indian Students",
-    "subtitle": "Studying Business Management in Canada offers Indian students world-class North American academic excellence, cutting-edge research facilities, multicultural campuses, and lucrative post-graduation work permit (PGWP) opportunities.",
+    "subtitle": "Business Management in Canada for Indian Students",
     "ctaText": "Book Free Counselling",
-    "image": ""
+    "image": "/uploads/study_abroad/canada/canada_business_hub_Concordia_University-image3.png"
   },
   "stats": [
     {
@@ -35,49 +47,513 @@
     "eligibility": "Recognised academic qualification + IELTS / TOEFL / PTE proficiency",
     "medium": "English & French Taught"
   },
-  "overview": "Studying Business Management in Canada offers Indian students world-class North American academic excellence, cutting-edge research facilities, multicultural campuses, and lucrative post-graduation work permit (PGWP) opportunities.",
+  "overview": [
+    "Business principles, leadership, strategic planning, and practical decision-making are all included in Canada's business management programs in Canada . Careers in management, marketing, finance, human resources, operations, and entrepreneurship can be developed by students.",
+    "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey..",
+    "Business-related undergraduate courses include the Bachelor of Business Administration (BBA), Bachelor of Commerce (B.Com), Bachelor of Management, and Bachelor of International Business, which typically take 3-4 years to complete. The Bachelor of Entrepreneurship is another option, with the duration varying by university."
+  ],
   "universities": [
     {
-      "name": "York University",
+      "name": "Concordia University",
       "location": "Canada",
       "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
+      "img": "/uploads/study_abroad/canada/canada_business_hub_Concordia_University-image3.png",
+      "image": "/uploads/study_abroad/canada/canada_business_hub_Concordia_University-image3.png",
+      "desc": "Concordia University is one of Canada's top recognized institutions offering advanced academic and research programs."
     },
     {
       "name": "Toronto Metropolitan University",
       "location": "Canada",
       "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
-    },
-    {
-      "name": "Concordia University",
-      "location": "Canada",
-      "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
+      "img": "/uploads/study_abroad/canada/canada_business_hub_Toronto_Metropolitan_University-image2.png",
+      "image": "/uploads/study_abroad/canada/canada_business_hub_Toronto_Metropolitan_University-image2.png",
+      "desc": "Toronto Metropolitan University is one of Canada's top recognized institutions offering advanced academic and research programs."
     },
     {
       "name": "University of Waterloo",
       "location": "Canada",
       "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
+      "img": "/uploads/study_abroad/canada/canada_business_hub_University_of_Waterloo-image4.png",
+      "image": "/uploads/study_abroad/canada/canada_business_hub_University_of_Waterloo-image4.png",
+      "desc": "University of Waterloo is one of Canada's top recognized institutions offering advanced academic and research programs."
+    },
+    {
+      "name": "York University",
+      "location": "Canada",
+      "fee": "CAD $18,000 – $45,000 / Year",
+      "img": "/uploads/study_abroad/canada/canada_business_hub_York_University-image1.png",
+      "image": "/uploads/study_abroad/canada/canada_business_hub_York_University-image1.png",
+      "desc": "York University is one of Canada's top recognized institutions offering advanced academic and research programs."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "What is the purpose of studying business management in Canada?",
+      "lead": "Business principles, leadership, strategic planning, and practical decision-making are all included in Canada's business management programs in Canada . Careers in management, marketing, finance, human resources, operations, and entrepreneurship can be developed by students.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Principal Advantages"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Business education that is relevant to the industry.",
+            "Opportunities for co-ops and internships are available.",
+            "Exposure to foreign business methods.",
+            "Business management courses in Canada, including undergraduate and graduate"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Canadian Business Management Courses",
+      "lead": "",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Undergraduate Courses"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Business-related undergraduate courses include the Bachelor of Business Administration (BBA), Bachelor of Commerce (B.Com), Bachelor of Management, and Bachelor of International Business, which typically take 3–4 years to complete. The Bachelor of Entrepreneurship is another option, with the duration varying by university."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Postgraduate Courses"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Postgraduate business courses include the Master of Business Administration (MBA), Master of Management, and Master of International Business, which generally take 1–2 years to complete. Students can also pursue a Master of Management Studies, depending on the institution, or a Postgraduate Diploma in Business Management, which usually takes 1–2 years"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Canadian Universities",
+      "title": "Canada's Best Universities for Business Management",
+      "lead": "",
+      "groups": [
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "York University",
+              "d": "Ontario"
+            },
+            {
+              "t": "University of Waterloo",
+              "d": "Ontario"
+            },
+            {
+              "t": "Concordia University",
+              "d": "Quebec"
+            },
+            {
+              "t": "Toronto Metropolitan University",
+              "d": "Ontario"
+            }
+          ]
+        }
+      ],
+      "unis": [
+        {
+          "name": "Concordia University",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_business_hub_Concordia_University-image3.png",
+          "image": "/uploads/study_abroad/canada/canada_business_hub_Concordia_University-image3.png",
+          "desc": "Concordia University is one of Canada's top recognized institutions offering advanced academic and research programs."
+        },
+        {
+          "name": "Toronto Metropolitan University",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_business_hub_Toronto_Metropolitan_University-image2.png",
+          "image": "/uploads/study_abroad/canada/canada_business_hub_Toronto_Metropolitan_University-image2.png",
+          "desc": "Toronto Metropolitan University is one of Canada's top recognized institutions offering advanced academic and research programs."
+        },
+        {
+          "name": "University of Waterloo",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_business_hub_University_of_Waterloo-image4.png",
+          "image": "/uploads/study_abroad/canada/canada_business_hub_University_of_Waterloo-image4.png",
+          "desc": "University of Waterloo is one of Canada's top recognized institutions offering advanced academic and research programs."
+        },
+        {
+          "name": "York University",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_business_hub_York_University-image1.png",
+          "image": "/uploads/study_abroad/canada/canada_business_hub_York_University-image1.png",
+          "desc": "York University is one of Canada's top recognized institutions offering advanced academic and research programs."
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Undergraduate Business Management Study Eligibility in Canada:",
+      "lead": "",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Undergraduate"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A Class 12 diploma or its equivalent.",
+            "Prerequisite courses and necessary academic grades.",
+            "Proficiency in English, if necessary.",
+            "IELTS Academic scores often range from 6.5 to 6.5, depending on university requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Postgraduate:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A bachelor's degree that is recognized.",
+            "Minimum academic achievement is required.",
+            "English language competency, often between 6.5 and 7.0 on the IELTS, depending on the curriculum. Certain schools, especially some MBA programs in Canada , may require the GMAT/GRE, work experience, or interviews"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Business Management Admission Requirements in Canada",
+      "lead": "",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Typical prerequisites include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Certificates and academic transcripts.",
+            "A current passport. Test results in English, if necessary.",
+            "A personal statement or statement of purpose.",
+            "Letters of recommendation, if necessary.",
+            "A current resume for applicants to postgraduate programs."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Institutions and programs have different requirements."
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "The Cost of Business Management Education in Canada",
+      "lead": "",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Undergraduate"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Tuition | CAD 20,000–50,000+ |"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Living Expenses | CAD 14,000–32,000 |"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Postgraduate"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Tuition | CAD 20,000–60,000+ |"
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Books, Insurance, and Other Costs",
+              "d": "Varies"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "There may be options for scholarships, admission prizes, and specific graduate support. The program and institution determine eligibility and funding amounts."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "The Canadian Admission Process for Business Management",
+      "lead": "",
+      "groups": []
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Choose a Canadian business management course and a specialization.",
+      "lead": "",
+      "groups": []
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Admission Step",
+      "title": "Make a shortlist of colleges based on factors including tuition, content, and location.",
+      "lead": "",
+      "groups": []
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Verify the English language and academic qualifications.",
+      "lead": "",
+      "groups": []
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Prepare supporting documentation and transcripts.",
+      "lead": "",
+      "groups": []
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Send in the online application.",
+      "lead": "",
+      "groups": []
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Admission Step",
+      "title": "Monitor the application and reply to inquiries from the university.",
+      "lead": "",
+      "groups": []
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Examine and accept the offer of admission.",
+      "lead": "",
+      "groups": []
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Verify the most recent IRCC standards and apply for a study permit in Canada.",
+      "lead": "9. After receiving the required approvals, make travel and lodging arrangements.#8. Professional Recognition and Accreditation",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Make that the organization has the right to offer the qualification. Verify whether the business school is accredited by reputable organizations, such as AMBA, EQUIS, or AACSB, if appropriate."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A school's or program's accreditation should be independently confirmed. While some specialized occupations may have different prerequisites, business management degrees in Canada typically do not require a professional license."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Compensation and job options in Canada Following Business Management",
+      "lead": "In Canada, recent graduates can search for positions in business management such as:",
+      "groups": [
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Business Analyst",
+              "d": "Data-driven choices and business processes"
+            },
+            {
+              "t": "Marketing Executive",
+              "d": "Brand development and marketing initiatives"
+            },
+            {
+              "t": "Coordinator for Human Resources",
+              "d": "Hiring and employee relations"
+            },
+            {
+              "t": "Operations Coordinator",
+              "d": "Process improvement and business operations"
+            },
+            {
+              "t": "Project Coordinator",
+              "d": "Management Consultant"
+            },
+            {
+              "t": "Project planning and execution",
+              "d": "Operations Manager"
+            },
+            {
+              "t": "Team and operational performance",
+              "d": "Business Development Executive"
+            }
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Business strategy and organizational improvement",
+            "Partnerships and revenue growth"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Needed to Pursue a Business Management Education in Canada",
+      "lead": "",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Certificates and academic transcripts."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A current passport. Test results in English, if necessary."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A purpose statement. Letters of recommendation, if necessary."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "CV or resume for postgraduate applications."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Documentation of work experience, if relevant."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A confirmation of the university application."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The acceptance letter for the study permit procedure."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The IRCC requires proof of cash and other immigration paperwork. If necessary and not exempt, a provincial or territory attestation letter"
+          ]
+        }
+      ]
     }
   ],
   "faq": [
     {
+      "q": "Can I pursue a business management degree in Canada after completing my 12th grade education?",
+      "a": "Yes, undergraduate business management courses in Canada are open to students who fulfill the academic and English language requirements.",
       "question": "Can I pursue a business management degree in Canada after completing my 12th grade education?",
       "answer": "Yes, undergraduate business management courses in Canada are open to students who fulfill the academic and English language requirements."
     },
     {
+      "q": "Does an MBA in Canada require work experience?",
+      "a": "Professional experience is either required or preferred by many MBA schools, however criteria differ. Candidates with little job experience are accepted into several master's programs in management.",
       "question": "Does an MBA in Canada require work experience?",
       "answer": "Professional experience is either required or preferred by many MBA schools, however criteria differ. Candidates with little job experience are accepted into several master's programs in management."
     },
     {
+      "q": "How long do business management courses last in Canada?",
+      "a": "Usually, undergraduate degrees require three to four years to complete. Depending on the degree, postgraduate programs often last one to two years.",
       "question": "How long do business management courses last in Canada?",
       "answer": "Usually, undergraduate degrees require three to four years to complete. Depending on the degree, postgraduate programs often last one to two years."
     },
     {
+      "q": "How much does it cost to study business management in Canada?",
+      "a": "Depending on the curriculum and school, tuition might vary from about CAD 20,000 to CAD 60,000 or more per year. Living costs are extra",
       "question": "How much does it cost to study business management in Canada?",
-      "answer": "Depending on the curriculum and school, tuition might vary from about CAD 20,000 to CAD 60,000 or more per year. Living costs are extra Study Business Management in Canada for Indian StudentsBest Universities for Business Management in CanadaBusiness Management Courses in Canada for International StudentsUndergraduate Business Management Courses in Canada After 12thMaster's in Business Management in CanadaBusiness Management Eligibility in CanadaBusiness Management Admission Requirements in CanadaBusiness Management Fees in Canada for Indian StudentsBusiness Management Scholarships in Canada for International StudentsMBA in Canada for Indian StudentsBusiness Management Course Duration in CanadaBusiness Management Admission Process in Canada"
+      "answer": "Depending on the curriculum and school, tuition might vary from about CAD 20,000 to CAD 60,000 or more per year. Living costs are extra"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I pursue a business management degree in Canada after completing my 12th grade education?",
+      "a": "Yes, undergraduate business management courses in Canada are open to students who fulfill the academic and English language requirements.",
+      "question": "Can I pursue a business management degree in Canada after completing my 12th grade education?",
+      "answer": "Yes, undergraduate business management courses in Canada are open to students who fulfill the academic and English language requirements."
+    },
+    {
+      "q": "Does an MBA in Canada require work experience?",
+      "a": "Professional experience is either required or preferred by many MBA schools, however criteria differ. Candidates with little job experience are accepted into several master's programs in management.",
+      "question": "Does an MBA in Canada require work experience?",
+      "answer": "Professional experience is either required or preferred by many MBA schools, however criteria differ. Candidates with little job experience are accepted into several master's programs in management."
+    },
+    {
+      "q": "How long do business management courses last in Canada?",
+      "a": "Usually, undergraduate degrees require three to four years to complete. Depending on the degree, postgraduate programs often last one to two years.",
+      "question": "How long do business management courses last in Canada?",
+      "answer": "Usually, undergraduate degrees require three to four years to complete. Depending on the degree, postgraduate programs often last one to two years."
+    },
+    {
+      "q": "How much does it cost to study business management in Canada?",
+      "a": "Depending on the curriculum and school, tuition might vary from about CAD 20,000 to CAD 60,000 or more per year. Living costs are extra",
+      "question": "How much does it cost to study business management in Canada?",
+      "answer": "Depending on the curriculum and school, tuition might vary from about CAD 20,000 to CAD 60,000 or more per year. Living costs are extra"
     }
   ]
 }

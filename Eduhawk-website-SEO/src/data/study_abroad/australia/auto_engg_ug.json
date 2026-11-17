@@ -6,9 +6,9 @@
   "hero": {
     "badge": "Study Abroad - Australia",
     "title": "Australia's Automobile Engineering",
-    "subtitle": "Automobile engineering focuses on vehicle design, powertrain development, electric vehicle (EV) technologies, autonomous driving systems, and smart mobility solutions.",
+    "subtitle": "Examine engineering courses and studies pertaining to advanced manufacturing, energy, mechanical systems, and vehicle-related technologies.",
     "ctaText": "Book Free Counselling",
-    "image": ""
+    "image": "/uploads/study_abroad/australia/auto_engg_ug_New_South_Wales_University-image3.png"
   },
   "stats": [
     {
@@ -29,37 +29,644 @@
     }
   ],
   "highlights": {
-    "degree": "Bachelor of Engineering (Honours)",
+    "degree": "Bachelor of Engineering (Automotive)",
     "duration": "4 Years Full-Time",
     "fee": "AUD 30,000 – AUD 52,000 / Year",
     "eligibility": "Recognised academic qualification + English proficiency",
-    "medium": "100% English Taught"
+    "medium": "English"
   },
-  "overview": "Undergraduate programs focus on vehicle dynamics, battery electric powertrains, autonomous vehicle control, crash safety, lightweight materials, and advanced automotive manufacturing.",
+  "overview": [
+    "Examine engineering courses and studies pertaining to advanced manufacturing, energy, mechanical systems, and vehicle-related technologies.",
+    "Studying in Australia provides Indian students with access to globally recognized qualifications, world-class teaching faculties, and strong post-study work rights under the Subclass 500 visa program.",
+    "Edu-Hawk Worldwide Consultancy guides students through CRICOS-registered program selection, university applications, GTE / Genuine Student requirements, and visa processing."
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Key Benefits",
+      "title": "Why Come to Australia to Study Automobile Engineering?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Study Automobile Engineering in Australia provides engineering education with a focus on industry relevant projects, research, prac tical learning, and technical expertise."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Principal Advantages"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Industry-Relevant Learning: Gain engineering expertise through project-based learning, design tasks, and laboratory work.",
+            "Advanced Vehicle Technologies: Through pertinent course electives and research, learn about automation, hybrid systems, electric vehicles, and sustainable transportation.",
+            "Practical Experience: Students may be able to participate in industry projects, internships, workshops, or engineering labs, depending on the university and course.",
+            "Flexible Specialization Options: Establish a foundation in engineering domains such as mechanical, mechatronic, electrical, or similar.",
+            "International Learning Environment: Learn with students from various backgrounds while honing your teamwork and communication abilities.",
+            "Global Career Exposure: Acquire technical skills that could be useful in the manufacturing, automotive, transportation, and more general engineering sectors."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Popular Courses",
+      "title": "Courses in Undergraduate",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The following study options are available to students who are interested in automotive engineering:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Mechanical Engineering Bachelor of Engineering (Honors)",
+            "Mechatronic engineering bachelor's degree with honors",
+            "Electrical Engineering Bachelor of Engineering (Honors)",
+            "Bachelor of Engineering (Honors) in Automation Engineering or Robotics, if appropriate colleges offer degrees in Automotive Technology or Automotive Engineering"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Australian Universities",
+      "title": "Top Universities in Australia",
+      "lead": "Explore leading Group of Eight and prestigious Australian universities renowned for academic excellence, state-of-the-art research laboratories, and strong industry partnerships.",
+      "unis": [
+        {
+          "name": "UNSW Sydney (The University of New South Wales)",
+          "location": "Sydney, New South Wales",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/auto_engg_ug_New_South_Wales_University-image3.png",
+          "desc": "Examine engineering courses and studies pertaining to advanced manufacturing, energy, mechanical systems, and vehicle-related technologies."
+        },
+        {
+          "name": "RMIT University",
+          "location": "Melbourne, Victoria",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/auto_engg_ug_University_of_RMIT-image2.png",
+          "desc": "Examine programs in engineering and technology, such as mechanical engineering and associated applied engineering disciplines."
+        },
+        {
+          "name": "Swinburne University of Technology",
+          "location": "Melbourne, Victoria",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/auto_engg_ug_University_of_Technology_Swinburne-image1.png",
+          "desc": "Examine engineering programs related to advanced manufacturing, mechatronics, mechanical systems, and emerging technologies."
+        }
+      ],
+      "groups": []
+    },
+    {
+      "slot": "specializations",
+      "eyebrow": "Specializations",
+      "title": "SPECIALIZATIONS IN AUTOMOBILE ENGINEERING",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Design and Development of Vehicles"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Examine the engineering principles, materials, design techniques, vehicle constructions, and component design used in vehicle development."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Engineering of Electric Vehicles"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Examine battery systems, electric motors, electric powertrains, energy economy, and charging methods."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Powertrain Engineering for Automobiles"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Recognize the engineering concepts underlying vehicle power delivery as well as engines, transmissions, and propulsion systems."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Dynamics and Control of Vehicles"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Discover more about steering, braking, handling, control technology, suspension systems, and vehicle stability."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Automotive Electronics"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Examine the sensors, electrical systems, embedded systems, and electronic control units found in contemporary cars."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Production Engineering and Manufacturing"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Examine manufacturing system design, automation, materials, production methods, and quality control."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Self-Driving and Networked Automobiles"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Examine pertinent technologies such software, robotics, sensors, control systems, and vehicle communication."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "INDIAN STUDENTS ELIGIBILITY",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "When applying to undergraduate engineering programs in Australia , Indian candidates often have to fulfill the academic and English language requirements of the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic prerequisites"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "completion of a recognized board's Class 12 coursework or a comparable credential.",
+            "For engineering degrees, mathematics is frequently necessary.",
+            "Depending on the university and area of expertise, physics and other science courses might be necessary.",
+            "Students must fulfill the course requirements or minimum academic score set by the university.",
+            "Before pursuing a bachelor's degree, some candidates might need to finish an approved foundation or route program.",
+            "Subject combinations and academic grades are evaluated separately.",
+            "Universities and courses have different prerequisites for admission.",
+            "Depending on the institution's requirements, applicants with relevant prior university coursework may be eligible for credit.",
+            "Before applying, students should confirm the precise criteria for the course they have selected."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "7. LANGUAGE AND ENGLISH REQUIREMENTS"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Unless they are eligible for an exemption under the university's rules, international students typically have to prove their English language competency."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Tests that are frequently accepted could be:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Academic TOEFL iBT IELTS",
+            "English Academic Pearson Test (PTE Academic)",
+            "Additional exams approved by the chosen institution",
+            "An IELTS score of about 6.5 overall, frequently with minimum component scores, may be required for some engineering degrees. Requirements vary by university, course, and intake; this is merely a basic guide."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Before submitting an application, students should confirm the most recent acceptable examinations, minimum scores, and validity guidelines."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "8. EXAMS FOR ENTRANCE"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Undergraduate engineering applications are typically evaluated by Australian institutions based on prerequisite subjects, academic standing, and school credentials."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Further evaluation or a route program may be necessary, depending on the school and the applicant's qualifications."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Indian students should find out if the university they have chosen requires:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A specific Class 12 score",
+            "Prerequisites for physics and mathematics",
+            "An exam in the English language",
+            "A diploma or foundation route",
+            "Extra records or evaluation",
+            "Every Australian automotive or related engineering course has a different entrance exam."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Popular Courses",
+      "title": "DURATION OF THE COURSE",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "In Australia, a bachelor's degree in engineering typically takes three to four years , depending on the qualification and course design. Honors degrees in professional engineering often need four years."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Costs",
+      "title": "Living expenses and tuition fees",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The university, length of the course, city, kind of lodging, and way of life all affect the overall cost of studying automotive engineering in Australia."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The cost of tuition"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The cost of engineering education varies greatly between Australian universities. Instead of depending on a broad approximation, students should use the current international-student cost schedule for their specific course and intake."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Living Costs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students ought to set up money for:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Lodging and utilities",
+            "Food and groceries",
+            "Public transportation",
+            "Internet and mobile services",
+            "Study resources, software, and books",
+            "Individual costs",
+            "Health Coverage for International Students (OSHC)",
+            "Initial settlement expenses and airfare",
+            "Living expenses in Sydney and Melbourne could differ from those in smaller towns and rural areas."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should create a comprehensive budget that accounts for all course expenses, including potential yearly price hikes and unforeseen costs."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scholarships",
+      "eyebrow": "Scholarships & Funding",
+      "title": "Indian Students Scholarships",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "International students who meet the requirements may be able to apply for financial aid or university scholarships."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Among the potential scholarship categories are:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Scholarships for academic merit",
+            "Scholarships for international students",
+            "Engineering or faculty scholarships",
+            "Scholarships for research for qualified postgraduate students",
+            "Possibilities for outside finance",
+            "Scholarships may offer other advantages, such as a partial tuition fee reduction. Providers vary in terms of eligibility, award value, application dates, and renewal requirements."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Prospects",
+      "title": "AFTER AUTOMOBILE ENGINEERING CAREER OPPORTUNITIES",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Depending on their degree, practical experience, technical skills, and local job criteria, graduates may seek opportunities in automotive related companies or more general engineering areas."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Possible Job Positions"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Engineer for Automotive Design",
+            "Engineer for Vehicle Systems",
+            "Engineer for Mechanical Design",
+            "Engineer for Manufacturing",
+            "Engineer for Automotive Testing and Quality Control",
+            "Engineer for Electric Vehicle Systems",
+            "Engineer in Mechatronics",
+            "Engineer for Production",
+            "CAD Design Engineer, Research and Development Engineer, and Engineering Project Coordinator"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Having a degree does not guarantee employment. Results are based on work permissions, employer needs, experience, and skills."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scope",
+      "eyebrow": "Details",
+      "title": "ENGINEERING ACCREDITATION",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "When selecting an engineering degree, accreditation is a crucial consideration."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should confirm whether the course they have chosen is accredited by Engineers Australia or through another appropriate, recognized accreditation process. The precise course title, campus, accreditation status, and relevant graduating year should all be verified."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Although it may be important for future engineering career paths and professional recognition, accreditation does not automatically ensure employment, professional registration, or eligibility for immigration."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "How to Apply",
+      "title": "Indian Students Admission Procedure",
+      "groups": [
+        {
+          "t": "step",
+          "step": 1,
+          "title": "Select the Proper Course",
+          "desc": "When available, compare degrees in mechanical, mechatronic, and electrical engineering with specialized automotive programs."
+        },
+        {
+          "t": "step",
+          "step": 2,
+          "title": "Verify Your Eligibility",
+          "desc": "Examine your Class 12 grades, subject requirements, English language proficiency, and any available pathways."
+        },
+        {
+          "t": "step",
+          "step": 3,
+          "title": "Make a shortlist of colleges",
+          "desc": "Examine the course material, costs, location, facilities, accreditation, scholarships, and eligibility for overseas students."
+        },
+        {
+          "t": "step",
+          "step": 4,
+          "title": "Get the paperwork ready",
+          "desc": "Gather academic transcripts, diplomas, passport information, results in English where necessary, and any other paperwork the university requests."
+        },
+        {
+          "t": "step",
+          "step": 5,
+          "title": "Send in the application",
+          "desc": "Apply in accordance with the university's procedure via the official application portal or through an authorized education agent."
+        },
+        {
+          "t": "step",
+          "step": 6,
+          "title": "Accept and Examine the Offer",
+          "desc": "Before accepting, review the terms of the offer, the tuition costs, the deposit requirements, the terms of the refund, and the deadlines."
+        },
+        {
+          "t": "step",
+          "step": 7,
+          "title": "Set Up Enrollment",
+          "desc": "If applicable, obtain the Confirmation of Enrollment (CoE) by completing the necessary acceptance and payment procedures."
+        },
+        {
+          "t": "step",
+          "step": 8,
+          "title": "Submit a student visa application",
+          "desc": "Assemble the necessary visa paperwork and submit the application in accordance with the most recent guidelines from the Australian government."
+        },
+        {
+          "t": "step",
+          "step": 9,
+          "title": "Schedule Your Arrival",
+          "desc": "Make travel, lodging, health insurance, and other practical arrangements necessary to start your studies."
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Required Documents",
+      "title": "NEEDED DOCUMENTS",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Different documentation may be requested by the university and the visa authorities. Typical application materials consist of:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A valid passport",
+            "Marksheet and certificate for Class 10",
+            "Marksheet and certificate for class 12",
+            "Certificates of completion and academic transcripts",
+            "Test results in English, if needed",
+            "If asked, a personal statement or a statement of purpose",
+            "If applicable to the course, a resume or portfolio",
+            "Proof of pertinent prior research, if any",
+            "Scholarship application materials, if necessary",
+            "Financial records in order to obtain a visa",
+            "Confirmation of Enrollment (CoE) for the application for a student visa",
+            "Details of Overseas Student Health Cover (OSHC)",
+            "Any further paperwork that the Department of Home Affairs or the university requests"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "visa",
+      "eyebrow": "Student Visa",
+      "title": "Australian student visa",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "An Australian student visa (subclass 500) is often required for Indian students enrolled in approved full-time courses."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Applicants for visas should check the most recent regulations for:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Verification of Enrollment",
+            "Requirement for genuine students",
+            "Evidence of financial capacity",
+            "Evidence in English, where appropriate",
+            "Health Coverage for International Students",
+            "Requirements for character and health",
+            "Identity and supporting documentation"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Processing arrangements and conditions for visas are subject to change. Instead of depending on out-of-date checklists or guaranteed visa claims, students should visit the official Department of Home Affairs website."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "assistance",
+      "eyebrow": "Edu Hawk Support",
+      "title": "HOW EDU HAWK CAN ASSIST",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Edu Hawk Worldwide helps Indian students organize their admissions process and investigate opportunities for abroad education."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Our advice could consist of:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Recognizing engineering study routes associated to automobiles",
+            "Making a shortlist of appropriate Australian institutions",
+            "Examining subject requirements and academic eligibility",
+            "Comparing living expenses, tuition, and course design",
+            "Finding appropriate scholarship possibilities",
+            "Getting ready for a university application",
+            "Knowing the terms of the offer and the enrollment process"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Eligibility and course choices are evaluated on an individual basis. The Australian government makes judgments about visas, while the university makes final admissions decisions."
+          ]
+        }
+      ]
+    }
+  ],
   "universities": [
     {
-      "name": "The University of Melbourne",
-      "location": "Melbourne, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "name": "UNSW Sydney (The University of New South Wales)",
+      "location": "Sydney, New South Wales",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/auto_engg_ug_New_South_Wales_University-image3.png",
+      "desc": "Examine engineering courses and studies pertaining to advanced manufacturing, energy, mechanical systems, and vehicle-related technologies."
     },
     {
-      "name": "The University of Sydney",
-      "location": "Sydney, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "name": "RMIT University",
+      "location": "Melbourne, Victoria",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/auto_engg_ug_University_of_RMIT-image2.png",
+      "desc": "Examine programs in engineering and technology, such as mechanical engineering and associated applied engineering disciplines."
     },
     {
-      "name": "The University of Queensland",
-      "location": "Brisbane, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
-    },
-    {
-      "name": "Monash University",
-      "location": "Melbourne, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "name": "Swinburne University of Technology",
+      "location": "Melbourne, Victoria",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/auto_engg_ug_University_of_Technology_Swinburne-image1.png",
+      "desc": "Examine engineering programs related to advanced manufacturing, mechatronics, mechanical systems, and emerging technologies."
     }
   ],
   "faq": [
@@ -69,7 +676,7 @@
     },
     {
       "question": "How long does it take to become an automobile engineer in Australia?",
-      "answer": "It typically takes three to four years to complete a relevant undergraduate engineering degree. The degree and university determine the precise time frame."
+      "answer": "It typically takes three to four years to complete a relevant undergraduate engineering degree . The degree and university determine the precise time frame."
     },
     {
       "question": "What topics are crucial for automotive engineering?",
@@ -81,7 +688,29 @@
     },
     {
       "question": "Does a degree in automotive engineering provide employment or long-term residency?",
-      "answer": "No, a degree does not ensure employment, a specific wage, immigration status, or permanent residency. These rely on the specifics of each case, the demands of the employer, and the regulations in force at the time."
+      "answer": "No, a degree does not ensure employment, a specific wage, immigration status, or permanent residency. These rely on the specifics of each case, the demands of the employer, and the regulations in force at the time. Keywords - Study Automobile Engineering in Australia for Indian Students Undergraduate Automobile Engineering Courses in Australia Best Universities for Automobile Engineering in Australia Automotive Engineering Courses in Australia After 12th Automobile Engineering Course Duration in Australia English Language Requirements for Engineering in Australia Automobile Engineering Specialisations in Australia Automobile Engineering Admission Process for Indian Students Engineers Australia Accredited Engineering Courses"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is it possible for Indian students to study automotive engineering in Australia?",
+      "a": "Indeed, when available, Indian students can pursue degrees in mechanical, mechatronic, and electrical engineering as well as automotive engineering. The course and the institution determine eligibility."
+    },
+    {
+      "q": "How long does it take to become an automobile engineer in Australia?",
+      "a": "It typically takes three to four years to complete a relevant undergraduate engineering degree . The degree and university determine the precise time frame."
+    },
+    {
+      "q": "What topics are crucial for automotive engineering?",
+      "a": "Physics and mathematics are very pertinent. Certain Class 12 subjects or comparable prerequisites may be necessary for certain courses."
+    },
+    {
+      "q": "Are scholarships available to students?",
+      "a": "Scholarships are available from some universities to qualified foreign students. Academic merit, course eligibility, and other factors may influence awards."
+    },
+    {
+      "q": "Does a degree in automotive engineering provide employment or long-term residency?",
+      "a": "No, a degree does not ensure employment, a specific wage, immigration status, or permanent residency. These rely on the specifics of each case, the demands of the employer, and the regulations in force at the time. Keywords - Study Automobile Engineering in Australia for Indian Students Undergraduate Automobile Engineering Courses in Australia Best Universities for Automobile Engineering in Australia Automotive Engineering Courses in Australia After 12th Automobile Engineering Course Duration in Australia English Language Requirements for Engineering in Australia Automobile Engineering Specialisations in Australia Automobile Engineering Admission Process for Indian Students Engineers Australia Accredited Engineering Courses"
     }
   ]
 }

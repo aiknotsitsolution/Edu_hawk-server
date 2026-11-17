@@ -1,5 +1,6 @@
 import React from "react";
-import { AbroadCoursePage } from "../../../../component/CoursePageKit.jsx";
+import { AbroadCoursePage, withCmsData } from "../../../../component/CoursePageKit.jsx";
+import cmsData from "../../../../data/study_abroad/ireland/law.json";
 
 // Page layout images
 import heroImg from "../../../../Images/Abroad/Ireland/Law/hero.webp";
@@ -311,6 +312,20 @@ const page = {
   ]
 };
 
+const uniImages = {
+  "hero.webp": heroImg,
+  "hero_bg.webp": heroBgImg,
+  "side.webp": sideImg,
+  "cta_bg.webp": ctaBgImg,
+  "Trinity_College_Dublin.webp": uniImg1,
+  "University_College_Cork.webp": uniImg2,
+  "University_of_Galway.webp": uniImg3,
+  "Dublin_City_University.webp": uniImg4,
+};
+
+const cmsPage = withCmsData(page, cmsData, uniImages);
+
+
 export default function LawIreland() {
   const images = {
     hero: heroImg,
@@ -321,7 +336,7 @@ export default function LawIreland() {
 
   return (
     <AbroadCoursePage
-      page={page}
+      page={cmsPage}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

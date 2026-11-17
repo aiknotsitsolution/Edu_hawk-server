@@ -1,81 +1,93 @@
 {
-  "seo": {
-    "title": "Public Health in Switzerland for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study Public Health in Switzerland: Top universities, course duration, tuition fees, eligibility criteria, admission process & visa requirements for Indian students."
-  },
   "hero": {
-    "badge": "Study Abroad - Switzerland",
     "title": "Public Health in Switzerland for Indian Students",
-    "subtitle": "**Public Health in Switzerland for Indian Students** offers an opportunity to develop the knowledge and skills needed to improve population health, prevent diseases, analyse health data, evaluate healthcare systems, and design public health programmes. Swiss universities offer opportunities to explore epidemiology, global health, health policy, biostatistics, health promotion, and public health research.",
-    "ctaText": "Book Free Counselling",
-    "image": ""
+    "subtitle": "Public Health in Switzerland for Indian Students offers an opportunity to develop the knowledge and skills needed to improve population health, prevent diseases, analyse health data, evaluate healthcare systems, and design public health programmes. Swiss universities offer opportunities to explore epidemiology, global health, health policy, biostatistics, health promotion, and public health research."
   },
-  "stats": [
-    {
-      "n": "1000+",
-      "l": "Students Placed Globally"
-    },
-    {
-      "n": "20+",
-      "l": "Countries"
-    },
-    {
-      "n": "200+",
-      "l": "Partner Universities"
-    },
-    {
-      "n": "100%",
-      "l": "Support (Visa & Post-Study Work Guidance)"
-    }
+  "overview": [
+    "Public Health in Switzerland for Indian Students offers an opportunity to develop the knowledge and skills needed to improve population health, prevent diseases, analyse health data, evaluate healthcare systems, and design public health programmes. Swiss universities offer opportunities to explore epidemiology, global health, health policy, biostatistics, health promotion, and public health research.",
+    "Explore world-leading Swiss cantonal universities and federal institutes of technology offering globally renowned degrees, modern research labs, and international faculty."
   ],
-  "highlights": {
-    "degree": "M.Sc. in Global Health / MPH",
-    "duration": "1.5 to 2 Years",
-    "fee": "CHF 1,000 – CHF 4,500 / Year",
-    "eligibility": "Class 12 / Bachelor's + German/French/English proficiency",
-    "medium": "German, French & English Taught"
-  },
-  "overview": "Students who want to **Study Public Health in Switzerland** can explore programmes at different academic levels and gain exposure to international health research and healthcare systems. Switzerland is home to international health organisations and research institutions, making it a relevant destination for students interested in global health and international development. However, Public Health is different from clinical medical training: an MPH or related degree does not qualify a graduate to practise as a doctor.\n\nFor programme research and application planning, students can also connect with **Edu-Hawk Worldwide**.",
   "universities": [
     {
+      "name": "ETH Zurich (Swiss Federal Institute of Technology)",
+      "location": "Zurich, Switzerland",
+      "fee": "CHF 730 / Semester",
+      "img": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+      "image": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+      "desc": "ETH Zurich ranks among the top universities worldwide for technology and natural sciences, producing 22 Nobel laureates including Albert Einstein."
+    },
+    {
+      "name": "EPFL (École Polytechnique Fédérale de Lausanne)",
+      "location": "Lausanne, Switzerland",
+      "fee": "CHF 780 / Semester",
+      "img": "/uploads/study_abroad/switzerland/switz_Architecture_image2.png",
+      "image": "/uploads/study_abroad/switzerland/switz_Architecture_image2.png",
+      "desc": "EPFL is a dynamic European research institute celebrated for computer science, robotics, biomedical innovation, and global startup spin-offs."
+    },
+    {
+      "name": "University of Zurich (UZH)",
+      "location": "Zurich, Switzerland",
+      "fee": "CHF 1,220 / Semester",
+      "img": "/uploads/study_abroad/switzerland/switz_Dentistry_University_of_Zurich.png",
+      "image": "/uploads/study_abroad/switzerland/switz_Dentistry_University_of_Zurich.png",
+      "desc": "The largest university in Switzerland, renowned for medical research, life sciences, banking and finance, and law."
+    },
+    {
       "name": "University of Geneva",
-      "location": "Geneva | English",
-      "fee": "CHF 1,000 – CHF 4,000 / Year",
-      "image": ""
-    },
-    {
-      "name": "University of Basel",
-      "location": "Basel | Programme-dependent",
-      "fee": "CHF 1,000 – CHF 4,000 / Year",
-      "image": ""
-    },
-    {
-      "name": "University of Zurich",
-      "location": "Zurich | Programme-dependent",
-      "fee": "CHF 1,000 – CHF 4,000 / Year",
-      "image": ""
+      "location": "Geneva, Switzerland",
+      "fee": "CHF 500 / Semester",
+      "img": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+      "image": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+      "desc": "Located near UN and WHO headquarters, world-famous for international relations, biomedical sciences, and multilateral diplomacy."
     }
   ],
-  "faq": [
+  "sections": [
     {
-      "question": "Can Indian students study Public Health in Switzerland?",
-      "answer": "Yes, Indian students can explore suitable programmes, provided they meet the institution’s academic, language, and application requirements. Eligibility should be confirmed directly with the university."
-    },
-    {
-      "question": "Is IELTS required for Public Health in Switzerland?",
-      "answer": "It depends on the programme and the applicant’s educational background. English-taught programmes may require proof of English proficiency or accept specified exemptions. Check the university’s official requirements before booking a test."
-    },
-    {
-      "question": "How long does a Public Health degree take in Switzerland?",
-      "answer": "The duration depends on the qualification. The University of Geneva’s MSc in Global Health takes two years full-time, while the joint Master of Public Health coordinated by Swiss TPH is part-time and can be completed over two to five years."
-    },
-    {
-      "question": "What is the cost of studying Public Health in Switzerland?",
-      "answer": "Costs vary by institution and programme. For example, the University of Geneva lists tuition of CHF 500 per semester for its MSc in Global Health, while the joint MPH coordinated by Swiss TPH has a published total course fee of approximately CHF 39,000. Living expenses are additional."
-    },
-    {
-      "question": "What jobs can I get after studying Public Health in Switzerland?",
-      "answer": "Possible career paths include public health research, epidemiology, health policy, programme management, health data analysis, and work with NGOs or international health organisations. Employment depends on your qualifications, experience, language skills, and work authorisation."
+      "slot": "universities",
+      "eyebrow": "Top Swiss Universities",
+      "title": "Top Universities to Consider in Switzerland",
+      "lead": "Explore world-leading Swiss cantonal universities and federal institutes of technology offering globally renowned degrees, modern research labs, and international faculty.",
+      "unis": [
+        {
+          "name": "ETH Zurich (Swiss Federal Institute of Technology)",
+          "location": "Zurich, Switzerland",
+          "fee": "CHF 730 / Semester",
+          "img": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+          "image": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+          "desc": "ETH Zurich ranks among the top universities worldwide for technology and natural sciences, producing 22 Nobel laureates including Albert Einstein."
+        },
+        {
+          "name": "EPFL (École Polytechnique Fédérale de Lausanne)",
+          "location": "Lausanne, Switzerland",
+          "fee": "CHF 780 / Semester",
+          "img": "/uploads/study_abroad/switzerland/switz_Architecture_image2.png",
+          "image": "/uploads/study_abroad/switzerland/switz_Architecture_image2.png",
+          "desc": "EPFL is a dynamic European research institute celebrated for computer science, robotics, biomedical innovation, and global startup spin-offs."
+        },
+        {
+          "name": "University of Zurich (UZH)",
+          "location": "Zurich, Switzerland",
+          "fee": "CHF 1,220 / Semester",
+          "img": "/uploads/study_abroad/switzerland/switz_Dentistry_University_of_Zurich.png",
+          "image": "/uploads/study_abroad/switzerland/switz_Dentistry_University_of_Zurich.png",
+          "desc": "The largest university in Switzerland, renowned for medical research, life sciences, banking and finance, and law."
+        },
+        {
+          "name": "University of Geneva",
+          "location": "Geneva, Switzerland",
+          "fee": "CHF 500 / Semester",
+          "img": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+          "image": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+          "desc": "Located near UN and WHO headquarters, world-famous for international relations, biomedical sciences, and multilateral diplomacy."
+        }
+      ],
+      "groups": []
     }
-  ]
+  ],
+  "faqs": [],
+  "seo": {
+    "title": "Public Health in Switzerland for Indian Students | Edu-Hawk Worldwide",
+    "description": "Public Health in Switzerland for Indian Students offers an opportunity to develop the knowledge and skills needed to improve population health, prevent diseases",
+    "keywords": "Study in Switzerland, Top Swiss Universities, Edu Hawk Worldwide"
+  }
 }

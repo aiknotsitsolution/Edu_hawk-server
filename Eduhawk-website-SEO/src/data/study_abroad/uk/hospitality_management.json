@@ -1,34 +1,57 @@
 {
-  "seo": {
-    "title": "Study Hospitality Management in the UK for Indian Students | Edu-Hawk Worldwide",
-    "description": "Complete guide to Hospitality Management in the UK for Indian students: Top UK universities, eligibility criteria, tuition fees (£14,000–£35,000/yr), scholarships, and 2-year post-study work visa (Graduate Route)."
-  },
   "hero": {
-    "badge": "Study Abroad - United Kingdom",
     "title": "Study Hospitality Management in the UK",
     "subtitle": "Students who want to work in hotels, tourism, event management, restaurants, resorts, and other hospitality-related industries should consider studying Hospitality Management in the UK. The UK is famous for its broad hospitality industry, world-leading universities and opportunities for practical learning."
   },
   "overview": [
     "Students who want to work in hotels, tourism, event management, restaurants, resorts, and other hospitality-related industries should consider studying Hospitality Management in the UK. The UK is famous for its broad hospitality industry, world-leading universities and opportunities for practical learning.",
-    "The main advantages of hospitality management in the UK",
-    "Internationally Recognized Qualifications: Hospitality management programs offered by UK institutions are accepted by businesses all over the world."
+    "Some colleges have links with hotels, tourism organizations, restaurants and event companies.",
+    "Edu Hawk worldwide Consultancy assists students in understanding university admission requirements, exploring study abroad options, and preparing for the overseas education journey with the right preparation and direction."
+  ],
+  "universities": [
+    {
+      "name": "Oxford Brookes University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_hospitality_management_Oxford_Brookes_University-image2.png",
+      "image": "/uploads/study_abroad/uk/uk_hospitality_management_Oxford_Brookes_University-image2.png",
+      "desc": "University of Birmingham Students interested in the broader hospitality industry may find the business and tourism-related course choices appealing. University of Strathclyde - well-known for its business and management programs, which include pertinent alternatives for jobs in the hotel industry. University of Derby - offers courses in tourism, events, hospitality and associated fields."
+    },
+    {
+      "name": "University of Birmingham",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_hospitality_management_University_of_Birmingham-image1.png",
+      "image": "/uploads/study_abroad/uk/uk_hospitality_management_University_of_Birmingham-image1.png",
+      "desc": "Eligibility depends on the level of the course, the university and the candidate's previous education. For Undergraduate Studies Class 12 or its recognized equivalent."
+    },
+    {
+      "name": "University of Derby",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_hospitality_management_University_of_Derby-image4.png",
+      "image": "/uploads/study_abroad/uk/uk_hospitality_management_University_of_Derby-image4.png",
+      "desc": "Must be able to speak English. Relevant courses or a foundation study if specified by the program. Some universities may consider a variety of academic backgrounds. For Graduate Studies Recognized Bachelor's degree in business, management, hospitality, tourism or related profession. The relevant bachelor's degrees or equivalent."
+    },
+    {
+      "name": "University of Strathclyde",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_hospitality_management_University_of_Strathclyde-image3.png",
+      "image": "/uploads/study_abroad/uk/uk_hospitality_management_University_of_Strathclyde-image3.png",
+      "desc": "Some programs will accept graduates of other disciplines. Some specialized courses may require or prefer relevant work experience. For MBA or Executive Programs A recognized bachelor degree. Where applicable, have relevant professional experience There is some evidence of managerial or leadership responsibility for some programs. English Proficiency CV, interview, personal statement or references as appropriate."
+    }
   ],
   "sections": [
     {
+      "slot": "why-study",
+      "eyebrow": "Why UK",
       "title": "Why Study Hospitality Management in the UK?",
-      "eyebrow": "Why Study in the UK",
+      "lead": "Students who want to work in hotels, tourism, event management, restaurants, resorts, and other hospitality-related industries should consider studying Hospitality Management in the UK. The UK is famous for its broad hospitality industry, world-leading universities and opportunities for practical learning.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Students who want to work in hotels, tourism, event management, restaurants, resorts, and other hospitality-related industries should consider studying Hospitality Management in the UK. The UK is famous for its broad hospitality industry, world-leading universities and opportunities for practical learning."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The main advantages of hospitality management in the UK"
-          ]
+          "t": "h4",
+          "text": "The main advantages of hospitality management in the UK"
         },
         {
           "t": "ul",
@@ -54,15 +77,11 @@
       ]
     },
     {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
       "title": "Hospitality Management Courses UK",
-      "eyebrow": "Course Guide",
+      "lead": "UK universities offer hospitality management programs at undergraduate, graduate and professional levels. Students can choose a course according to their academic background and professional goals.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "UK universities offer hospitality management programs at undergraduate, graduate and professional levels. Students can choose a course according to their academic background and professional goals."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -95,96 +114,62 @@
       ]
     },
     {
+      "slot": "universities",
+      "eyebrow": "Top UK Universities",
       "title": "The UK's Best Universities for Hospitality Management",
-      "eyebrow": "Top Institutions",
-      "groups": [
-        {
-          "t": "universities",
-          "items": [
-            {
-              "name": "Popular Universities to explore",
-              "desc": "Oxford Brookes University - Programs in hospitality, tourism, and allied management are available. University of Birmingham Students interested in the broader hospitality industry may find the business and tourism-related course choices appealing. University of Strathclyde - well-known for its business and management programs, which include pertinent alternatives for jobs in the hotel industry. University of Derby - offers courses in tourism, events, hospitality and associated fields.",
-              "imgKey": null
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Eligibility for study Hospitality Management Degree in the UK",
-      "eyebrow": "Course Guide",
+      "lead": "Hospitality, tourism, hotel management, and related business programs are offered by a number of universities in the United Kingdom. Before applying, students should evaluate course content, industry connections, location, tuition fees, and placement opportunities.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Eligibility depends on the level of the course, the university and the candidate's previous education."
+            "Popular Universities to explore"
           ]
+        }
+      ],
+      "unis": [
+        {
+          "name": "Oxford Brookes University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_hospitality_management_Oxford_Brookes_University-image2.png",
+          "image": "/uploads/study_abroad/uk/uk_hospitality_management_Oxford_Brookes_University-image2.png",
+          "desc": "University of Birmingham Students interested in the broader hospitality industry may find the business and tourism-related course choices appealing. University of Strathclyde - well-known for its business and management programs, which include pertinent alternatives for jobs in the hotel industry. University of Derby - offers courses in tourism, events, hospitality and associated fields."
         },
         {
-          "t": "p",
-          "items": [
-            "For Undergraduate Studies"
-          ]
+          "name": "University of Birmingham",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_hospitality_management_University_of_Birmingham-image1.png",
+          "image": "/uploads/study_abroad/uk/uk_hospitality_management_University_of_Birmingham-image1.png",
+          "desc": "Eligibility depends on the level of the course, the university and the candidate's previous education. For Undergraduate Studies Class 12 or its recognized equivalent."
         },
         {
-          "t": "ul",
-          "items": [
-            "Class 12 or its recognized equivalent.",
-            "Academic grades are required by the university.",
-            "Must be able to speak English.",
-            "Relevant courses or a foundation study if specified by the program.",
-            "Some universities may consider a variety of academic backgrounds."
-          ]
+          "name": "University of Derby",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_hospitality_management_University_of_Derby-image4.png",
+          "image": "/uploads/study_abroad/uk/uk_hospitality_management_University_of_Derby-image4.png",
+          "desc": "Must be able to speak English. Relevant courses or a foundation study if specified by the program. Some universities may consider a variety of academic backgrounds. For Graduate Studies Recognized Bachelor's degree in business, management, hospitality, tourism or related profession. The relevant bachelor's degrees or equivalent."
         },
         {
-          "t": "p",
-          "items": [
-            "For Graduate Studies"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Recognized Bachelor's degree in business, management, hospitality, tourism or related profession.",
-            "The relevant bachelor's degrees or equivalent.",
-            "English language proficiency which meets the requirements of the university.",
-            "Some programs will accept graduates of other disciplines.",
-            "Some specialized courses may require or prefer relevant work experience."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "For MBA or Executive Programs"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "A recognized bachelor degree.",
-            "Where applicable, have relevant professional experience",
-            "There is some evidence of managerial or leadership responsibility for some programs.",
-            "English Proficiency",
-            "CV, interview, personal statement or references as appropriate."
-          ]
+          "name": "University of Strathclyde",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_hospitality_management_University_of_Strathclyde-image3.png",
+          "image": "/uploads/study_abroad/uk/uk_hospitality_management_University_of_Strathclyde-image3.png",
+          "desc": "Some programs will accept graduates of other disciplines. Some specialized courses may require or prefer relevant work experience. For MBA or Executive Programs A recognized bachelor degree. Where applicable, have relevant professional experience There is some evidence of managerial or leadership responsibility for some programs. English Proficiency CV, interview, personal statement or references as appropriate."
         }
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "Admission Requirements for Hospitality Management in UK",
-      "eyebrow": "Eligibility & Process",
+      "lead": "Students must meet the academic and English language requirements of the university they have chosen.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Students must meet the academic and English language requirements of the university they have chosen."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Education requirements"
-          ]
+          "t": "h4",
+          "text": "Education requirements"
         },
         {
           "t": "ul",
@@ -196,10 +181,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "English Language Proficiency Requirements"
-          ]
+          "t": "h4",
+          "text": "English Language Proficiency Requirements"
         },
         {
           "t": "ul",
@@ -209,10 +192,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Additional requirements"
-          ]
+          "t": "h4",
+          "text": "Additional requirements"
         },
         {
           "t": "p",
@@ -234,15 +215,11 @@
       ]
     },
     {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
       "title": "The price of studying hospitality management in the UK",
-      "eyebrow": "Course Guide",
+      "lead": "The cost of studying hospitality management in the UK depends on the university, program level, course duration, and student's city.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The cost of studying hospitality management in the UK depends on the university, program level, course duration, and student's city."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -253,7 +230,7 @@
           "t": "ul",
           "items": [
             "Undergraduate courses cost overseas students between £13,000 and £25,000 a year for many.",
-            "Postgraduate courses -  Many master's courses are in the £15,000-30,000 range.",
+            "Postgraduate courses - Many master's courses are in the £15,000-30,000 range.",
             "MBA programs can be more expensive, especially at business schools that offer executive or specialized programs."
           ]
         },
@@ -283,11 +260,18 @@
           "items": [
             "Additional Cost"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "The cost of the visa application.",
+      "lead": "",
+      "groups": [
         {
           "t": "ul",
           "items": [
-            "The cost of the visa application.",
             "English language test fee if applicable.",
             "Travel costs",
             "Setup fees and initial room deposits.",
@@ -303,147 +287,74 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "Admission Procedure for Hospitality Management in the UK",
-      "eyebrow": "Eligibility & Process",
+      "lead": "Below are some of the most common steps in applying to hospitality management schools:",
       "groups": [
         {
-          "t": "p",
+          "t": "steps",
           "items": [
-            "Below are some of the most common steps in applying to hospitality management schools:"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 1: Choose a University and Course"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Look for colleges offering hospitality management or related courses. Compare modules, duration of course, cost, location, hands on training and career assistance."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 2: Check your eligibility"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Check the academic requirements, English-language requirements and any work-experience requirements stipulated by the university."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 3: Prepare Your Documents"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Collect academic degrees, transcripts, passport information, results of any required English language tests, and any other supporting documentation."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 4: Submit your application"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Apply through the relevant application system or the university's application portal. Most postgraduate applications are made directly to universities. Where applicable, undergraduate applications can be made through UCAS."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 5: If invited for an interview, attend it."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Some programs or schools might require a interview or additional evaluation."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 6: Get the Offer"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "If you are accepted, the university will make a conditional or unconditional offer. Finish up any remaining requirements before proceeding."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 7: Accept Offer and Arrange Financing"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Follow the university's instructions to accept the offer and pay any required deposits. Do your research on scholarships and be prepared with proof of finances."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 8: Obtain Your CAS"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Once the requirements are met, students who are eligible and require a student visa will need to apply for a Confirmation of Acceptance for Studies (CAS) from their certified student sponsor."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 9 : Apply for a UK student visa"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Complete the identity-verification and biometric processes and submit the visa application with all necessary supporting documentation."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 10: Get Ready To Leave"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Arrange travel, accommodations and enrollment. Look at the enrollment policies of the university, student assistance and also any placement requirements for the course."
+            {
+              "step": 1,
+              "title": "Choose a University and Course",
+              "desc": "Look for colleges offering hospitality management or related courses. Compare modules, duration of course, cost, location, hands on training and career assistance."
+            },
+            {
+              "step": 2,
+              "title": "Check your eligibility",
+              "desc": "Check the academic requirements, English-language requirements and any work-experience requirements stipulated by the university."
+            },
+            {
+              "step": 3,
+              "title": "Prepare Your Documents",
+              "desc": "Collect academic degrees, transcripts, passport information, results of any required English language tests, and any other supporting documentation."
+            },
+            {
+              "step": 4,
+              "title": "Submit your application",
+              "desc": "Apply through the relevant application system or the university's application portal. Most postgraduate applications are made directly to universities. Where applicable, undergraduate applications can be made through UCAS."
+            },
+            {
+              "step": 5,
+              "title": "If invited for an interview, attend it.",
+              "desc": "Some programs or schools might require a interview or additional evaluation."
+            },
+            {
+              "step": 6,
+              "title": "Get the Offer",
+              "desc": "If you are accepted, the university will make a conditional or unconditional offer. Finish up any remaining requirements before proceeding."
+            },
+            {
+              "step": 7,
+              "title": "Accept Offer and Arrange Financing",
+              "desc": "Follow the university's instructions to accept the offer and pay any required deposits. Do your research on scholarships and be prepared with proof of finances."
+            },
+            {
+              "step": 8,
+              "title": "Obtain Your CAS",
+              "desc": "Once the requirements are met, students who are eligible and require a student visa will need to apply for a Confirmation of Acceptance for Studies (CAS) from their certified student sponsor."
+            },
+            {
+              "step": 9,
+              "title": "Apply for a UK student visa",
+              "desc": "Complete the identity-verification and biometric processes and submit the visa application with all necessary supporting documentation."
+            },
+            {
+              "step": 10,
+              "title": "Get Ready To Leave",
+              "desc": "Arrange travel, accommodations and enrollment. Look at the enrollment policies of the university, student assistance and also any placement requirements for the course."
+            }
           ]
         }
       ]
     },
     {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
       "title": "Hospitality Management Accreditation and Recognition in the UK",
-      "eyebrow": "Course Guide",
+      "lead": "There are various reputed educational institutions including universities in the UK offering a hospitality management course. Before enrolling, prospective students should research the standing of the institution and the professional recognition of the particular program.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "There are various reputed educational institutions including universities in the UK offering a hospitality management course. Before enrolling, prospective students should research the standing of the institution and the professional recognition of the particular program."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -454,7 +365,7 @@
           "t": "ul",
           "items": [
             "Check that the university is a recognized higher education provider in the UK.",
-            "Verify that the specific course has  accreditation or recognition  from an appropriate professional body. Industry Alliances: Look for collaborations with travel agencies, hotels, resorts or event businesses.",
+            "Verify that the specific course has accreditation or recognition from an appropriate professional body. Industry Alliances: Look for collaborations with travel agencies, hotels, resorts or event businesses.",
             "Verify whether placements are competitive, optional, included or subject to additional conditions.",
             "See if the degree satisfies the requirements of employers or post secondary educational institutions in the country where the student intends to work.",
             "This area of study in the area of hospitality management can help graduates get jobs in hotels, restaurants, resorts, tourism companies, event companies, conference venues, and other service-based organizations."
@@ -463,8 +374,10 @@
       ]
     },
     {
+      "slot": "careers",
+      "eyebrow": "Career & Salary",
       "title": "Prospects for UK pay and employment",
-      "eyebrow": "Career & Prospects",
+      "lead": "",
       "groups": [
         {
           "t": "p",
@@ -525,15 +438,18 @@
       ]
     },
     {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
       "title": "Documents Required to Study Hospitality Management in UK",
-      "eyebrow": "Course Guide",
+      "lead": "",
+      "groups": []
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Documents needed depend on the university, program, and visa route.",
+      "lead": "",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Documents needed depend on the university, program, and visa route."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -550,10 +466,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Personal and Application Documents"
-          ]
+          "t": "h4",
+          "text": "Personal and Application Documents"
         },
         {
           "t": "ul",
@@ -564,16 +478,17 @@
             "A CV or a resume, particularly for professional or postgraduate programs.",
             "Reference letters will be academic or professional if requested.",
             "Results of English language tests or recognized evidence of proficiency if required.",
-            "Unless the program mentions a portfolio or something else.",
-            "Documents needed for a student visa to the UK"
+            "Unless the program mentions a portfolio or something else."
           ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "These could include, depending on the applicant's situation and the relevant regulations:"
-          ]
-        },
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents needed for a student visa to the UK",
+      "lead": "These could include, depending on the applicant's situation and the relevant regulations:",
+      "groups": [
         {
           "t": "ul",
           "items": [
@@ -585,112 +500,37 @@
           ]
         }
       ]
-    },
-    {
-      "title": "FAQs",
-      "eyebrow": "Got Questions?",
-      "groups": [
-        {
-          "t": "faqs",
-          "items": [
-            {
-              "q": "Q1. Is it a good idea to study hospitality management in the UK?",
-              "a": "Yes. The UK has a wide range of hospitality businesses, globally recognized certifications and initiatives which may include real world projects or industry internships. Students are urged to compare individual courses to find the ones that best align with their career aspirations."
-            },
-            {
-              "q": "Q2. How long does it take to complete a hospitality management course in the UK?",
-              "a": "An undergraduate degree usually takes three years in England, Wales and Northern Ireland, although some courses are longer or include a year in industry. In Scotland many undergraduate honors degrees are of four years duration. Most full-time taught master's programs are one year long."
-            },
-            {
-              "q": "Q3. What qualifications do I require to be a hospitality manager in the UK?",
-              "a": "Undergraduate candidates are often required to have a recognized secondary-school qualification. Postgraduate candidates are typically required to have a recognized bachelor's degree. The university and the course will determine the English-language proficiency and other pre-requisites."
-            },
-            {
-              "q": "Q4. How much does it cost to study hospitality management in the UK?",
-              "a": "International tuition fees for many undergraduate courses will be in the region of £13,000 to £25,000 per year and for many taught master's courses, £15,000 to £30,000 per year. Living expenses are additional and vary by city and lifestyle."
-            },
-            {
-              "q": "Q5. What kind of jobs can I do in the UK after studying hospitality management?",
-              "a": "Graduates work in hotel operations, restaurant management, guest relations, events, food and beverage management, tourism, and revenue management. Career advancement and pay depend on experience, skills, employer and function."
-            },
-            {
-              "q": "Edu Hawk World Wide Consultancy – How to Study Abroad?",
-              "a": "Edu Hawk Worldwide helps students in planning their study-abroad journey, preparing application documents, understanding admission requirements and exploring appropriate universities. Students should check the appropriate official sources for advice on their academic, financial, immigration and licensing requirements."
-            }
-          ]
-        }
-      ]
     }
   ],
-  "universities": [
-    {
-      "name": "Popular Universities to explore",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Oxford Brookes University - Programs in hospitality, tourism, and allied management are available. University of Birmingham Students interested in the broader hospitality industry may find the business and tourism-related course choices appealing. University of Strathclyde - well-known for its business and management programs, which include pertinent alternatives for jobs in the hotel industry. University of Derby - offers courses in tourism, events, hospitality and associated fields.",
-      "imgFile": null
-    }
-  ],
-  "table": {
-    "title": "Estimated Cost of Studying Hospitality Management in the UK (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (£ / GBP)",
-      "Details / Scope"
-    ],
-    "rows": [
-      [
-        "Undergraduate Degree (Annual)",
-        "£14,000 – £28,000 / year",
-        "Varies by university ranking, laboratory access, and course type"
-      ],
-      [
-        "Postgraduate Degree (Annual)",
-        "£16,000 – £35,000 / year",
-        "1-year intensive master's program or research dissertation"
-      ],
-      [
-        "Monthly Living Costs (Outside London)",
-        "£900 – £1,100 / month",
-        "Includes private/student accommodation, groceries, and utilities"
-      ],
-      [
-        "Monthly Living Costs (London)",
-        "£1,250 – £1,450 / month",
-        "Mandated UKVI maintenance requirement for London study"
-      ],
-      [
-        "Health Surcharge (IHS)",
-        "£776 / year",
-        "Access to UK National Health Service (NHS) for student visa holders"
-      ]
-    ]
-  },
   "faqs": [
     {
-      "q": "Q1. Is it a good idea to study hospitality management in the UK?",
+      "q": "Is it a good idea to study hospitality management in the UK?",
       "a": "Yes. The UK has a wide range of hospitality businesses, globally recognized certifications and initiatives which may include real world projects or industry internships. Students are urged to compare individual courses to find the ones that best align with their career aspirations."
     },
     {
-      "q": "Q2. How long does it take to complete a hospitality management course in the UK?",
+      "q": "How long does it take to complete a hospitality management course in the UK?",
       "a": "An undergraduate degree usually takes three years in England, Wales and Northern Ireland, although some courses are longer or include a year in industry. In Scotland many undergraduate honors degrees are of four years duration. Most full-time taught master's programs are one year long."
     },
     {
-      "q": "Q3. What qualifications do I require to be a hospitality manager in the UK?",
+      "q": "What qualifications do I require to be a hospitality manager in the UK?",
       "a": "Undergraduate candidates are often required to have a recognized secondary-school qualification. Postgraduate candidates are typically required to have a recognized bachelor's degree. The university and the course will determine the English-language proficiency and other pre-requisites."
     },
     {
-      "q": "Q4. How much does it cost to study hospitality management in the UK?",
+      "q": "How much does it cost to study hospitality management in the UK?",
       "a": "International tuition fees for many undergraduate courses will be in the region of £13,000 to £25,000 per year and for many taught master's courses, £15,000 to £30,000 per year. Living expenses are additional and vary by city and lifestyle."
     },
     {
-      "q": "Q5. What kind of jobs can I do in the UK after studying hospitality management?",
+      "q": "What kind of jobs can I do in the UK after studying hospitality management?",
       "a": "Graduates work in hotel operations, restaurant management, guest relations, events, food and beverage management, tourism, and revenue management. Career advancement and pay depend on experience, skills, employer and function."
     },
     {
       "q": "Edu Hawk World Wide Consultancy – How to Study Abroad?",
       "a": "Edu Hawk Worldwide helps students in planning their study-abroad journey, preparing application documents, understanding admission requirements and exploring appropriate universities. Students should check the appropriate official sources for advice on their academic, financial, immigration and licensing requirements."
     }
-  ]
+  ],
+  "seo": {
+    "title": "Study Hospitality Management in the UK | Edu-Hawk Worldwide",
+    "description": "Students who want to work in hotels, tourism, event management, restaurants, resorts, and other hospitality-related industries should consider studying Hospital",
+    "keywords": "Study in the UK, Best UK Universities, Edu Hawk Worldwide"
+  }
 }

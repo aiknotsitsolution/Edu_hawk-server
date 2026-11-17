@@ -1,14 +1,31 @@
 {
   "seo": {
     "title": "Biotechnology in Canada for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study Biotechnology in Canada: Top universities, English-taught programs, tuition fees (CAD $18,000–$45,000/yr), scholarships, eligibility criteria, and post-graduation work permit (PGWP) opportunities."
+    "description": "Study Biotechnology in Canada: Top universities, English-taught programs, tuition fees (CAD $18,000–$45,000/yr), scholarships, eligibility criteria, and post-graduation work permit (PGWP) opportunities.",
+    "keywords": [
+      "Study Biotechnology in Canada",
+      "Study Biotechnology in Canada for Indian Students",
+      "Biotechnology Courses in Canada",
+      "Biotechnology Universities in Canada",
+      "Best Universities for Biotechnology in Canada",
+      "Biotechnology Programs in Canada for International Students",
+      "Biotechnology Courses in Canada After 12th",
+      "Biotechnology Eligibility in Canada",
+      "Biotechnology Admission Requirements in Canada",
+      "Cost of Studying Biotechnology in Canada",
+      "Biotechnology Tuition Fees in Canada",
+      "Biotechnology Jobs in Canada",
+      "Biotechnology Salary in Canada",
+      "Biotechnology Career Opportunities in Canada",
+      "MSc Biotechnology in Canada"
+    ]
   },
   "hero": {
-    "badge": "Study Abroad - Canada",
+    "badge": "Study Abroad · Canada",
     "title": "Indian Students Can Study Biotechnology in Canada",
-    "subtitle": "Students interested in molecular biology, genetics, biomedical research, pharmaceutical development, and industrial applications of biological sciences are drawn to Canada for biotechnology courses in Canada. Programs that integrate scientific theory with laboratory practice, research, and technology-based learning are available in Canadian universities.",
+    "subtitle": "Indian Students Can Study Biotechnology in Canada",
     "ctaText": "Book Free Counselling",
-    "image": ""
+    "image": "/uploads/study_abroad/canada/canada_biotechnology_Toronto_Metropolitan_University-image1.png"
   },
   "stats": [
     {
@@ -35,53 +52,703 @@
     "eligibility": "Recognised academic qualification + IELTS / TOEFL / PTE proficiency",
     "medium": "English & French Taught"
   },
-  "overview": "Students interested in molecular biology, genetics, biomedical research, pharmaceutical development, and industrial applications of biological sciences are drawn to Canada for biotechnology courses in Canada. Programs that integrate scientific theory with laboratory practice, research, and technology-based learning are available in Canadian universities.\n\nThe key advantages for studying biotechnology in Canada are:\n\nCareers in science, technology, and research can be attained by studying biotechnology in Canada. Employment prospects, however, are contingent upon the student's area of expertise, practical abilities, experience, and the demands of specific employers.",
+  "overview": [
+    "Students interested in molecular biology, genetics, biomedical research, pharmaceutical development, and industrial applications of biological sciences are drawn to Canada for biotechnology courses in Canada . Programs that integrate scientific theory with laboratory practice, research, and technology-based learning are available in Canadian universities.",
+    "Study biological sciences, genetics, microbiology, molecular biology, and applications of biotechnology for a high-quality education.",
+    "Explore drug development, cell biology, gene technology, and biomedical research."
+  ],
   "universities": [
     {
       "name": "Toronto Metropolitan University",
       "location": "Canada",
       "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
+      "img": "/uploads/study_abroad/canada/canada_biotechnology_Toronto_Metropolitan_University-image1.png",
+      "image": "/uploads/study_abroad/canada/canada_biotechnology_Toronto_Metropolitan_University-image1.png",
+      "desc": "Toronto Metropolitan University is one of Canada's top recognized institutions offering advanced academic and research programs."
     },
     {
       "name": "University of Calgary",
       "location": "Canada",
       "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
-    },
-    {
-      "name": "University of Manitoba",
-      "location": "Canada",
-      "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
+      "img": "/uploads/study_abroad/canada/canada_biotechnology_University_of_Calgary-image2.png",
+      "image": "/uploads/study_abroad/canada/canada_biotechnology_University_of_Calgary-image2.png",
+      "desc": "University of Calgary is one of Canada's top recognized institutions offering advanced academic and research programs."
     },
     {
       "name": "University of Guelph",
       "location": "Canada",
       "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
+      "img": "/uploads/study_abroad/canada/canada_biotechnology_University_of_Guelph-image4.png",
+      "image": "/uploads/study_abroad/canada/canada_biotechnology_University_of_Guelph-image4.png",
+      "desc": "University of Guelph is one of Canada's top recognized institutions offering advanced academic and research programs."
+    },
+    {
+      "name": "University of Manitoba",
+      "location": "Canada",
+      "fee": "CAD $18,000 – $45,000 / Year",
+      "img": "/uploads/study_abroad/canada/canada_biotechnology_University_of_Manitoba-image3.png",
+      "image": "/uploads/study_abroad/canada/canada_biotechnology_University_of_Manitoba-image3.png",
+      "desc": "University of Manitoba is one of Canada's top recognized institutions offering advanced academic and research programs."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why Canada",
+      "title": "Why Come to Canada to Study Biotechnology?",
+      "lead": "Students interested in molecular biology, genetics, biomedical research, pharmaceutical development, and industrial applications of biological sciences are drawn to Canada for biotechnology courses in Canada . Programs that integrate scientific theory with laboratory practice, research, and technology-based learning are available in Canadian universities.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "The key advantages for studying biotechnology in Canada are:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Study biological sciences, genetics, microbiology, molecular biology, and applications of biotechnology for a high-quality education.",
+            "Explore drug development, cell biology, gene technology, and biomedical research.",
+            "A few programs provide internships, co-ops, research projects, and laboratory training.",
+            "Medical biotechnology, agricultural biotechnology, industrial biotechnology, bioinformatics, and pharmaceutical biotechnology are among the many specializations available.",
+            "Discover how biotechnology is used in medicines, agriculture, food production, healthcare, and environmental science.",
+            "Study with scholars and students from a variety of academic backgrounds in an international setting.",
+            "Graduates who meet the requirements may pursue master's degrees, doctorate studies, or specialized professional training."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Careers in science, technology, and research can be attained by studying biotechnology in Canada. Employment prospects, however, are contingent upon the student's area of expertise, practical abilities, experience, and the demands of specific employers."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Canadian Biotechnology Courses",
+      "lead": "Biotechnology programs in Canada are available at undergraduate, graduate, diploma, certificate, and PhD levels from Canadian universities. Depending on their credentials and professional aspirations, Indian students can investigate the following possibilities.",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Three to four years for a bachelor's degree in biotechnology",
+            "Three to four years for a bachelor's degree in biological sciences",
+            "Three to four years for a bachelor's degree in molecular biology and genetics",
+            "Biotechnology Bachelor of Technology - 3–4 years",
+            "Biotechnology Diploma - About 2 years",
+            "Biotechnology Advanced Diploma - About 2 - 3 years",
+            "Biotechnology Master of Science - About 1` 2 years",
+            "Molecular biology master's degree - about 1-2 years",
+            "Master of Applied Science in Biomedical Engineering or a Related Field"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "- About 1-2 years"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Master of Science in Bioinformatics- About 1-2 years",
+            "Pharmaceutical Sciences Master of Science - About 1-2 years",
+            "Doctor of Philosophy in Biotechnology or a Related Field - About 4-6 years"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Canadian Universities",
+      "title": "Canada's Leading Biotechnology Universities",
+      "lead": "Students looking into the best universities for biotechnology in Canada should take into account establishments that provide biological sciences, laboratory training, biotechnology-related education, or opportunities for specialized research.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "University of Guelph - Research in molecular biology, microbiology, biological sciences and biotechnology."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "University of Calgary - Molecular biology, biological sciences, and biomedical research"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "University of Manitoba - Research on microbiology, biological sciences, and biotechnology"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Toronto Metropolitan University - Opportunities for applied science and education in biotechnology"
+          ]
+        }
+      ],
+      "unis": [
+        {
+          "name": "Toronto Metropolitan University",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_biotechnology_Toronto_Metropolitan_University-image1.png",
+          "image": "/uploads/study_abroad/canada/canada_biotechnology_Toronto_Metropolitan_University-image1.png",
+          "desc": "Toronto Metropolitan University is one of Canada's top recognized institutions offering advanced academic and research programs."
+        },
+        {
+          "name": "University of Calgary",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_biotechnology_University_of_Calgary-image2.png",
+          "image": "/uploads/study_abroad/canada/canada_biotechnology_University_of_Calgary-image2.png",
+          "desc": "University of Calgary is one of Canada's top recognized institutions offering advanced academic and research programs."
+        },
+        {
+          "name": "University of Guelph",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_biotechnology_University_of_Guelph-image4.png",
+          "image": "/uploads/study_abroad/canada/canada_biotechnology_University_of_Guelph-image4.png",
+          "desc": "University of Guelph is one of Canada's top recognized institutions offering advanced academic and research programs."
+        },
+        {
+          "name": "University of Manitoba",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_biotechnology_University_of_Manitoba-image3.png",
+          "image": "/uploads/study_abroad/canada/canada_biotechnology_University_of_Manitoba-image3.png",
+          "desc": "University of Manitoba is one of Canada's top recognized institutions offering advanced academic and research programs."
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Qualifications for Studying Biotechnology in Canada",
+      "lead": "The university, specialization, and course level all affect the eligibility requirements for biotechnology in Canada.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Regarding Undergraduate Courses"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Bachelor's degrees in biotechnology or related disciplines may be available to Indian students who have finished Class 12."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Common prerequisites consist of:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Completing Class 12 at an accredited board.",
+            "The university's required academic grades.",
+            "Depending on the course, biology, chemistry, and occasionally math or physics are included.",
+            "Proficiency in English, if necessary.",
+            "Any further criteria for subjects that the university specifies."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Subject requirements for some technology-focused degrees may differ from those for conventional Bachelor of Science programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Regarding Master's Courses"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Typically, applicants require:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A valid bachelor's degree in biotechnology or a similar field.",
+            "A minimum GPA or percentage that the school has established.",
+            "Relevant education in genetics, chemistry, microbiology, biology, biochemistry, or similar fields.",
+            "Proficiency in English, if necessary.",
+            "Experience in a lab or conducting research for particular programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Biotechnology, microbiology, biochemistry, biological sciences, genetics, biomedical sciences, and other related fields are examples of appropriate undergraduate backgrounds. Program-specific requirements differ."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Regarding PhD Courses"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Although some universities offer direct entry PhD programs for outstanding candidates, applicants typically need a relevant master's degree or an equivalent certification. A study project, academic achievement, research experience, and the availability of a supervisor could all be significant factors."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Before choosing a program, students should study the particular biotechnology admission requirements in Canada for international students"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Canada's Biotechnology Admission Requirements",
+      "lead": "Academic credentials, topic requirements, language skills, and other program-specific requirements are evaluated by universities. The following credentials and documentation may be needed for the biotechnology admissions procedure in Canada",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Academic Requirement - A relevant bachelor's degree for master's programs; class 12 for qualifying bachelor's or diploma programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic Performance - The institution's minimum GPA or percentage."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Subject Prerequisites - Depending on the program, prerequisites may include biology, chemistry, mathematics, physics, or similar disciplines."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "English Language Proficiency , If necessary, take the TOEFL iBT, IELTS Academic, or similar recognized exam."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic transcripts are official documents from schools or universities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Statement of Purpose - Certain postgraduate programs may demand it."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Letters of recommendation are frequently asked for in master's and doctorate programs that focus on research."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For postgraduate or applied programs"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "a CV or resume may be necessary.",
+            "Research Experience, Crucial for many master's and doctoral applications with a research focus.",
+            "Research Proposal, Some research-based programs may need it.",
+            "Supervisor Approval, Before applying to certain research programs, candidates must locate or get in touch with a possible supervisor.",
+            "Depending on the program, an interview or additional assessment may be necessary."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Candidates should differentiate between postgraduate programs that are course-based and those that are research-based. Funding, supervisor availability, research interests, and laboratory expertise may all be given more weight in research programs."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "The Cost of studying biotechnology in Canada",
+      "lead": "The school, course level, city, laboratory fees, and length of the program all affect how much it costs for Indian students to study biotechnology in Canada.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Projected Annual Costs for Foreign Students"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Tuition Costs - CAD 18,000–45,000+"
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Lodging",
+              "d": "CAD 10,000–24,000"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Food and groceries - CAD 3,600–7,200"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Local Transportation - CAD 1,000–2,400"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Books and Study Guides - CAD 500–1,500"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Personal Expenses and Health Insurance - CAD 2,000–5,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Estimated Annual Total - CAD 35,100–85,100+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Extra Costs to Take Into Account"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Additionally, students should set aside money for:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "The cost of applying to universities.",
+            "Tests of English language competency.",
+            "Biometrics fees and study permits.",
+            "The cost of traveling to Canada.",
+            "The first deposit for lodging.",
+            "Health insurance and fees unique to the university.",
+            "Any appropriate laboratory, research, or placement costs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Always determine the overall cost of the full program and consult the university's current price schedule."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Canada's Admission Procedure for Biotechnology",
+      "lead": "To learn about the admission procedure for biotechnology courses in Canada , follow these steps.",
+      "groups": [
+        {
+          "t": "steps",
+          "items": [
+            {
+              "step": 1,
+              "title": "Select the Course Level",
+              "desc": "Choose if you wish to pursue a PhD, master's, bachelor's, or diploma."
+            },
+            {
+              "step": 2,
+              "title": "Choose Your Area of Expertise",
+              "desc": "Investigate genetics, microbiology, pharmaceutical biotechnology, medical biotechnology, molecular biology, agricultural biotechnology, or bioinformatics."
+            },
+            {
+              "step": 3,
+              "title": "Make a shortlist of universities",
+              "desc": "Examine the course material, costs, labs, research topics, length, and eligibility for international students."
+            },
+            {
+              "step": 4,
+              "title": "Verify your academic eligibility",
+              "desc": "Examine prerequisites for the subjects, minimum grades, degrees needed, and English language proficiency."
+            },
+            {
+              "step": 5,
+              "title": ". Prepare the results of the language test.",
+              "desc": "If the institution requires it, take an approved English proficiency test."
+            },
+            {
+              "step": 6,
+              "title": "Get Your Documents Ready",
+              "desc": "Gather academic records, certifications, passport information, English test results, and any necessary research papers, references, or statements."
+            },
+            {
+              "step": 7,
+              "title": "Use the Official Portal to Apply",
+              "desc": "Before the applicable date, submit the application together with the necessary paperwork."
+            },
+            {
+              "step": 8,
+              "title": "Fulfill Extra Requirements",
+              "desc": "If the program calls for it, submit a research proposal, go to an interview, or get in touch with a supervisor."
+            },
+            {
+              "step": 9,
+              "title": "Examine the Offer of Admission",
+              "desc": "Examine the cost of tuition, any limitations related to the offer, deposit deadlines, and scholarship or funding requirements."
+            },
+            {
+              "step": 10,
+              "title": "Submit a Study Permit Application",
+              "desc": "Prepare the necessary paperwork and financial proof, and adhere to Immigration, Refugees and Citizenship Canada's most recent directives."
+            },
+            {
+              "step": 11,
+              "title": "Get Ready to Arrive",
+              "desc": "Make travel, lodging, health insurance, and any necessary laboratory safety or placement paperwork arrangements."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Registration and Licensing",
+      "lead": "In Canada, biotechnology is typically not a single licensed profession. A universal professional license is not necessary for many biotechnology employment in Canada in manufacturing, product development, pharmaceutical businesses and research labs.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "However, certain positions can call for further credentials, education, certification, or familiarity with regulations."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Research and Laboratory Roles in Biotechnology"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Knowledge of laboratory procedures, biosafety, quality assurance, research ethics, and pertinent scientific methods may be expected by employers. The role and employer determine the requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Roles in Clinical and Diagnostic Laboratories"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Depending on the province and job description, several clinical laboratory positions are subject to regulations or have particular credential requirements. A biotechnology degree by itself does not make a person eligible for every job in a medical laboratory."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Roles in Biomanufacturing and Pharmaceuticals"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Knowledge of good manufacturing techniques, documentation, validation, and relevant regulatory requirements may be necessary for employment in pharmaceutical manufacture, quality assurance, quality control, and regulatory affairs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Careers in Research and Academics"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A master's or doctoral degree, publications, specialized laboratory abilities, and pertinent research experience may be necessary for advanced research roles."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Pay and job opportunity in Canada Following Biotechnology",
+      "lead": "Pharmaceutical research, laboratory science, biomanufacturing, agriculture, food science, environmental testing, and biomedical research are just a few of the biotechnology employment prospects in Canada available to graduates.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Among the many career opportunities are:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Biotechnology Laboratory Technician - Assists with sample preparation, experiments, lab operations, and equipment upkeep.",
+            "Research Assistant - Helps scientists with research documentation, data collecting, experimentation, and literature reviews.",
+            "Molecular Biology Technician - Utilizes biological material, DNA, RNA, and molecular methods.",
+            "Quality Control Analyst - Verifies that items or materials fulfill specified quality criteria through testing.",
+            "Supports quality systems, documentation, audits, and compliance initiatives as a Quality Assurance Associate .",
+            "Biomanufacturing Technician - Assists with biological product production, including paperwork and process monitoring.",
+            "Clinical Research Coordinator - Assists in organizing participant-related activities, research paperwork, and clinical investigations.",
+            "Bioinformatics Analyst - Programming and statistical knowledge may be necessary; use computational tools to analyze biological data.",
+            "Supports regulatory compliance and paperwork for pharmaceutical, medical, and biotechnology goods as a Regulatory Affairs Associate .",
+            "Pharmaceutical Research Associate - Assists with medication and therapeutic product research and development.",
+            "Environmental Biotechnology Technician - Utilizes biological techniques in environmental monitoring, testing, and treatment initiatives."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Expectations for Salary"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Job title, province, company, education, laboratory abilities, and work experience all affect biotechnology earnings in Canada. Research assistants, quality analysts, entry-level technicians, and seasoned scientists may earn very varying salaries."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Needed to Learn Biotechnology in Canada",
+      "lead": "Depending on the school and course level, different documents are needed for biotechnology admission in Canada.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Typical documents consist of:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A current passport.",
+            "Certificates and mark sheets for Classes 10 and 12, if appropriate.",
+            "Transcripts and a bachelor's degree certificate are required for postgraduate entrance.",
+            "Transcripts of master's degrees for pertinent doctoral applications.",
+            "Results of any necessary English language proficiency tests.",
+            "A personal statement or a statement of intent, upon request.",
+            "Letters of recommendation, if necessary.",
+            "A current curriculum vitae or resume.",
+            "A research proposal for specific initiatives that rely on research.",
+            "Proof of research or laboratory experience, if necessary.",
+            "When appropriate, write a portfolio or sample.",
+            "If necessary, supervisor permission or correspondence.",
+            "Completed application forms and a confirmation of payment.",
+            "Documents related to grants or scholarships, if any.",
+            "A letter of offer from the university and proof of the tuition deposit, if applicable.",
+            "Evidence of funding for the study permission procedure.",
+            "Examine the permit paperwork.",
+            "Any further paperwork that the university or Canadian immigration authorities request."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Candidates must adhere to the translation and document format guidelines set forth by the university. Certified translations may be necessary for documents published in languages other than those recognized by the organization."
+          ]
+        }
+      ]
     }
   ],
   "faq": [
     {
+      "q": "After Class 12, are Indian students able to pursue biotechnology studies in Canada?",
+      "a": "Yes . After Class 12, Indian students who meet the academic and subject standards of the institution are able to apply for bachelor's degrees and diploma programs in biotechnology or similar subjects.",
       "question": "After Class 12, are Indian students able to pursue biotechnology studies in Canada?",
       "answer": "Yes . After Class 12, Indian students who meet the academic and subject standards of the institution are able to apply for bachelor's degrees and diploma programs in biotechnology or similar subjects."
     },
     {
+      "q": "Does studying biotechnology in Canada need NEET?",
+      "a": "For biotechnology programs, NEET is typically not a prerequisite for admission. Academic credentials, necessary courses, and language proficiency are typically used by universities to evaluate applicants.",
       "question": "Does studying biotechnology in Canada need NEET?",
       "answer": "For biotechnology programs, NEET is typically not a prerequisite for admission. Academic credentials, necessary courses, and language proficiency are typically used by universities to evaluate applicants."
     },
     {
+      "q": "How long do biotechnology courses last in Canada?",
+      "a": "A diploma may take about two years, but a bachelor's degree often takes three to four years. PhD programs often take four to six years, while many master's programs take one to two years.",
       "question": "How long do biotechnology courses last in Canada?",
       "answer": "A diploma may take about two years, but a bachelor's degree often takes three to four years. PhD programs often take four to six years, while many master's programs take one to two years."
     },
     {
+      "q": "How much does it cost to study biotechnology in Canada?",
+      "a": "As a general planning estimate, living expenditures and tuition might come to at least CAD 35,100–85,100 annually. The university, program, and city all affect actual costs.",
       "question": "How much does it cost to study biotechnology in Canada?",
-      "answer": "As a general planning estimate, living expenditures and tuition might come to at least CAD 35,100-85,100 annually. The university, program, and city all affect actual costs."
+      "answer": "As a general planning estimate, living expenditures and tuition might come to at least CAD 35,100–85,100 annually. The university, program, and city all affect actual costs."
     },
     {
+      "q": "After completing biotechnology, can I find employment in Canada?",
+      "a": "Graduates can apply for jobs in clinical research, pharmaceutical firms, biotechnology manufacturing, research labs, quality control, and related fields. Qualifications, real-world experience, technological proficiency, work authorization, and the job market all play a role in employment.",
       "question": "After completing biotechnology, can I find employment in Canada?",
-      "answer": "Graduates can apply for jobs in clinical research, pharmaceutical firms, biotechnology manufacturing, research labs, quality control, and related fields. Qualifications, real-world experience, technological proficiency, work authorization, and the job market all play a role in employment. Examine Your Biotechnology Study Options with Edu Hawk worldwide consultancy Comparing university options, eligibility requirements, tuition costs, lab facilities, and career objectives is necessary to select the best program. Students can research study alternatives and be ready for the application process with the aid of Edu Hawk. If you want to study biotechnology in Canada as an Indian student, start looking into your desired programs as soon as possible and ask the university directly about the most recent requirements for admission. Study Biotechnology in Canada Study Biotechnology in Canada for Indian Students Biotechnology Courses in Canada Biotechnology Universities in Canada Best Universities for Biotechnology in Canada Biotechnology Programs in Canada for International Students Biotechnology Courses in Canada After 12th Biotechnology Eligibility in Canada Biotechnology Admission Requirements in Canada Cost of Studying Biotechnology in Canada Biotechnology Tuition Fees in Canada Biotechnology Jobs in Canada Biotechnology Salary in Canada Biotechnology Career Opportunities in Canada MSc Biotechnology in Canada"
+      "answer": "Graduates can apply for jobs in clinical research, pharmaceutical firms, biotechnology manufacturing, research labs, quality control, and related fields. Qualifications, real-world experience, technological proficiency, work authorization, and the job market all play a role in employment."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "After Class 12, are Indian students able to pursue biotechnology studies in Canada?",
+      "a": "Yes . After Class 12, Indian students who meet the academic and subject standards of the institution are able to apply for bachelor's degrees and diploma programs in biotechnology or similar subjects.",
+      "question": "After Class 12, are Indian students able to pursue biotechnology studies in Canada?",
+      "answer": "Yes . After Class 12, Indian students who meet the academic and subject standards of the institution are able to apply for bachelor's degrees and diploma programs in biotechnology or similar subjects."
+    },
+    {
+      "q": "Does studying biotechnology in Canada need NEET?",
+      "a": "For biotechnology programs, NEET is typically not a prerequisite for admission. Academic credentials, necessary courses, and language proficiency are typically used by universities to evaluate applicants.",
+      "question": "Does studying biotechnology in Canada need NEET?",
+      "answer": "For biotechnology programs, NEET is typically not a prerequisite for admission. Academic credentials, necessary courses, and language proficiency are typically used by universities to evaluate applicants."
+    },
+    {
+      "q": "How long do biotechnology courses last in Canada?",
+      "a": "A diploma may take about two years, but a bachelor's degree often takes three to four years. PhD programs often take four to six years, while many master's programs take one to two years.",
+      "question": "How long do biotechnology courses last in Canada?",
+      "answer": "A diploma may take about two years, but a bachelor's degree often takes three to four years. PhD programs often take four to six years, while many master's programs take one to two years."
+    },
+    {
+      "q": "How much does it cost to study biotechnology in Canada?",
+      "a": "As a general planning estimate, living expenditures and tuition might come to at least CAD 35,100–85,100 annually. The university, program, and city all affect actual costs.",
+      "question": "How much does it cost to study biotechnology in Canada?",
+      "answer": "As a general planning estimate, living expenditures and tuition might come to at least CAD 35,100–85,100 annually. The university, program, and city all affect actual costs."
+    },
+    {
+      "q": "After completing biotechnology, can I find employment in Canada?",
+      "a": "Graduates can apply for jobs in clinical research, pharmaceutical firms, biotechnology manufacturing, research labs, quality control, and related fields. Qualifications, real-world experience, technological proficiency, work authorization, and the job market all play a role in employment.",
+      "question": "After completing biotechnology, can I find employment in Canada?",
+      "answer": "Graduates can apply for jobs in clinical research, pharmaceutical firms, biotechnology manufacturing, research labs, quality control, and related fields. Qualifications, real-world experience, technological proficiency, work authorization, and the job market all play a role in employment."
     }
   ]
 }

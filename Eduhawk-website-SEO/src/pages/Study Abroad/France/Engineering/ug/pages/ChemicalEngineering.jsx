@@ -11,6 +11,7 @@ import ctaBgImg from "../../../../../../Images/Abroad/France/Engineering_UG/Chem
 import uniImg1 from "../../../../../../Images/Abroad/France/Engineering_UG/Chemical/Ecole_Nationale_Suprieure_de_Chimie_de_M.webp";
 import uniImg2 from "../../../../../../Images/Abroad/France/Engineering_UG/Chemical/cole_Nationale_Suprieure_des_Industries_.webp";
 import uniImg3 from "../../../../../../Images/Abroad/France/Engineering_UG/Chemical/cole_Nationale_Suprieure_des_Industries__3.webp";
+import cmsData from "../../../../../../data/study_abroad/france/chem_engg_ug.json";
 
 const page = {
   name: "UG Chemical Engineering in France",
@@ -382,6 +383,23 @@ const page = {
 };
 
 export default function UGChemicalEngineeringinFrancePage() {
+  const dynamicPage = {
+    ...page,
+    name: cmsData.hero?.title || page.name,
+    heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
+    overview: cmsData.overview
+      ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
+      : page.overview,
+    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      .filter(s => s.label && s.value).length > 0
+      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      : page.stats,
+    seo: {
+      title: cmsData.seo?.title || page.title,
+      description: cmsData.seo?.description || page.description,
+    },
+  };
+
   const images = {
     hero: heroImg,
     heroBg: heroBgImg,
@@ -408,7 +426,7 @@ export default function UGChemicalEngineeringinFrancePage() {
 
   return (
     <AbroadCoursePage
-      page={page}
+      page={dynamicPage}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

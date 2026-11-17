@@ -1,5 +1,6 @@
+import cmsData from "../../../../data/study_abroad/finland/public_health.json";
 import React from "react";
-import { AbroadCoursePage } from "../../../../component/CoursePageKit.jsx";
+import { AbroadCoursePage, withCmsData } from "../../../../component/CoursePageKit.jsx";
 import heroImg from "../../../../Images/Abroad/Finland/PublicHealth/public_health_finland_hero.webp";
 import heroBgImg from "../../../../Images/Abroad/Finland/PublicHealth/public_health_finland_hero_bg.webp";
 import researchImg from "../../../../Images/Abroad/Finland/PublicHealth/public_health_finland_research.webp";
@@ -471,7 +472,7 @@ const page = {
 const PublicHealthFinland = () => {
   return (
     <AbroadCoursePage
-      page={page}
+      page={withCmsData(page, cmsData)}
       heroImg={heroImg}
       sideImg={sideImg}
       heroBgImg={heroBgImg}

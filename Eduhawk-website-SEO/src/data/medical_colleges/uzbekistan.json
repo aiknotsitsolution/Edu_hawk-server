@@ -1,57 +1,99 @@
 {
   "seo": {
-    "title": "MBBS in Uzbekistan for Indian Students 2026-27 | Edu Hawk Worldwide",
-    "description": "Complete guide to MBBS in Uzbekistan. Eligibility, low tuition fees, top medical universities, NMC recognition and visa process."
+    "title": "MBBS in Uzbekistan 2026-27 | Admissions, Fees & Universities | Edu Hawk",
+    "description": "Explore MBBS in Uzbekistan for Indian students: eligibility, admission process, top medical universities, documents and food & accommodation costs.",
+    "keywords": "mbbs in uzbekistan, uzbekistan mbbs fees, study mbbs uzbekistan, uzbekistan medical universities"
   },
   "hero": {
     "badge": "MBBS Admissions 2026-27",
-    "title": "MBBS in Uzbekistan",
-    "subtitle": "Pursue your dream medical career with NMC & WHO accredited universities in Uzbekistan.",
-    "ctaText": "Apply for 2026-27 Intake",
-    "image": ""
+    "title": "STUDY MBBS IN UZBEKISTAN",
+    "subtitle": "Explore MBBS Opportunities in Uzbekistan 2026–2027. Fast-growing Central Asian destination with 100% English medium instruction, safe hostels, and modern clinics.",
+    "image": "/uploads/colleges/uzbekistan_flag.webp",
+    "ctaText": "Apply for Uzbekistan MBBS"
   },
+  "flag": "/uploads/colleges/uzbekistan_flag.webp",
   "stats": [
     {
-      "n": "1000+",
-      "l": "Students Placed Globally"
+      "n": "6 Years",
+      "l": "Course Duration (5+1 Internship)"
     },
     {
-      "n": "20+",
-      "l": "Countries"
+      "n": "₹2.8L",
+      "l": "Starting Annual Tuition"
     },
     {
-      "n": "200+",
-      "l": "Partner Universities"
+      "n": "3 Hours",
+      "l": "Short Flight Duration from Delhi"
     },
     {
-      "n": "100%",
-      "l": "Support (Visa & End-to-End Guidance)"
+      "n": "NMC & WHO",
+      "l": "Accredited State Academies"
     }
   ],
   "highlights": {
-    "degree": "MD / MBBS (Equivalent)",
-    "duration": "5 to 6 Years",
-    "fee": "15 - 35 Lakhs Total Package",
-    "eligibility": "50% in PCB (Class 12) + NEET Qualified",
-    "medium": "100% English Medium"
+    "degree": "MD Physician (Equivalent to MBBS)",
+    "duration": "6 Years",
+    "fee": "₹16 - ₹24 Lakhs Total Package",
+    "eligibility": "50% in PCB aggregate + NEET Qualified",
+    "medium": "English",
+    "recognition": "NMC & WHO approved",
+    "neet": "Compulsory",
+    "ielts": "Not Required"
   },
-  "overview": "MBBS in Uzbekistan offers high quality medical education, advanced clinical training in affiliated government hospitals, and globally recognized medical degrees.",
+  "overview": "Uzbekistan has emerged as a top choice for Indian students due to its short 3-hour flight from Delhi, affordable cost of living, and high-quality government medical institutes in Tashkent, Samarkand, and Bukhara.",
+  "universitiesHeading": "Top Medical Universities in Uzbekistan",
   "universities": [
     {
-      "name": "Top State Medical University (Uzbekistan)",
-      "location": "Uzbekistan",
-      "fee": "₹3.5 Lakhs / Year",
-      "image": ""
+      "name": "Tashkent Medical Academy",
+      "location": "Tashkent, Uzbekistan",
+      "fee": "₹3.2 Lakhs / Year",
+      "image": "https://tashkentmedicalacademy.in/wp-content/uploads/2025/03/Second-Tashkent-State-Medical-Institute.webp",
+      "desc": "The benchmark medical academy in Uzbekistan, with leading hospital branches across Tashkent."
+    },
+    {
+      "name": "Samarkand State Medical Institute",
+      "location": "Samarkand, Uzbekistan",
+      "fee": "₹3.0 Lakhs / Year",
+      "image": "https://www.moksh16.com/uploads/images/samarkand1.webp",
+      "desc": "Historic and modern medical institute with over 60 departments and large Indian student body."
+    },
+    {
+      "name": "Bukhara State Medical Institute",
+      "location": "Bukhara, Uzbekistan",
+      "fee": "₹2.9 Lakhs / Year",
+      "image": "https://mbbsadmissionindia.com/upload/media/bukhara-state-medical-institute-uzbekistan.jpeg",
+      "desc": "Highly regarded for simulation training, clinical pediatrics, and surgical sciences."
+    },
+    {
+      "name": "Andijan State Medical Institute",
+      "location": "Andijan, Uzbekistan",
+      "fee": "₹2.8 Lakhs / Year",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxwr0cTA6P-tyHV6l3NQ3FJ9A3ynhR-hIxvA&s",
+      "desc": "Leading public academy in Fergana Valley equipped with modern diagnostic facilities."
+    },
+    {
+      "name": "Tashkent Pediatric Medical Institute",
+      "location": "Tashkent, Uzbekistan",
+      "fee": "₹3.1 Lakhs / Year",
+      "image": "https://mbbs-in-uzbekistan.in/assets/images/college/Tashkent%20Pediatric%20Medical%20Institute.jpg",
+      "desc": "Specialized pediatric and general medicine training center with large municipal patient beds."
+    },
+    {
+      "name": "Urgench Branch of Tashkent Medical Academy",
+      "location": "Urgench, Uzbekistan",
+      "fee": "₹2.7 Lakhs / Year",
+      "image": "https://mbbs-in-uzbekistan.in/assets/images/college/Urgench%20Branch%20of%20Tashkent%20Medical%20Academy.jpg",
+      "desc": "Rapidly growing medical branch offering low cost of living and dedicated international hostels."
     }
   ],
   "faq": [
     {
-      "question": "Is NEET mandatory for MBBS in Uzbekistan?",
-      "answer": "Yes, qualifying NEET in the year of admission or preceding two years is mandatory as per NMC guidelines."
+      "question": "Is MBBS in Uzbekistan valid for Indian students?",
+      "answer": "Yes, MBBS from NMC & WHO recognized universities in Uzbekistan is fully valid in India upon passing the NExT/FMGE licensing examination."
     },
     {
-      "question": "Is the degree from Uzbekistan valid in India?",
-      "answer": "Yes, all our partner medical universities comply fully with NMC gazette guidelines, making graduates eligible for the NExT/FMGE exam."
+      "question": "What is the flight time between India and Uzbekistan?",
+      "answer": "Direct flights from New Delhi to Tashkent take only about 3 hours, making travel very convenient for students and parents."
     }
   ]
 }

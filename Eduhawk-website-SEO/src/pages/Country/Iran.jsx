@@ -1,3 +1,4 @@
+import cmsData from "../../data/medical_colleges/iran.json";
 import React, { useState } from "react";
 import SeoHead from "../../component/SeoHead.jsx";
 import RussiaFlag from "../../Images/Russia/russia header threejpg.webp";
@@ -15,8 +16,9 @@ const Iran = () => {
   return (
     <div className="min-h-screen bg-gray-50 font-sans">
       <SeoHead
-        title="MBBS in Iran 2026-27 | Admissions, Fees & Universities | Edu Hawk"
-        description="Explore MBBS in Iran for Indian students: eligibility, admission process, top medical universities, documents and food & accommodation costs. Study MBBS in Iran for a safe, affordable, and globally recognized medical education."
+        title={cmsData?.seo?.title || "MBBS in Iran 2026-27 | Admissions, Fees & Universities | Edu Hawk"}
+        description={cmsData?.seo?.description || "Explore MBBS in Iran for Indian students: eligibility, admission process, top medical universities, documents and food & accommodation costs."}
+        keywords={cmsData?.seo?.keywords || "mbbs in iran, iran mbbs fees, study mbbs iran, iran medical universities"}
         path="/mbbs-abroad/iran"
         ogType="website"
       />
@@ -24,7 +26,7 @@ const Iran = () => {
       <div className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/2/23/Azadi_Tower_%2829358497718%29.jpg"
+            src={cmsData?.hero?.image || "https://upload.wikimedia.org/wikipedia/commons/2/23/Azadi_Tower_%2829358497718%29.jpg"}
             alt="Kremlin Bridge City"
             className="w-full h-full object-cover brightness-75"
                   srcSet="https://upload.wikimedia.org/wikipedia/commons/2/23/Azadi_Tower_%2829358497718%29.jpg 1x, https://upload.wikimedia.org/wikipedia/commons/2/23/Azadi_Tower_%2829358497718%29.jpg 2x"
@@ -32,7 +34,7 @@ const Iran = () => {
                 />
           <div className="absolute inset-0 flex items-center justify-center">
             <h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-2xl">
-              STUDY MBBS IN IRAN
+              {cmsData?.hero?.title || "STUDY MBBS IN IRAN"}
             </h1>
           </div>
         </div>
@@ -58,7 +60,7 @@ const Iran = () => {
           </div>
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-blue-900">
-              Explore MBBS Opportunities in IRAN 2026–2027
+              {cmsData?.hero?.subtitle || "Explore MBBS Opportunities in IRAN 2026–2027"}
             </h2>
           </div>
         </div>
@@ -190,7 +192,7 @@ const Iran = () => {
         {/* ==================== UNIVERSITIES GRID ==================== */}
         <div className="mb-20">
           <h2 className="text-4xl font-bold text-center text-blue-900 mb-12">
-            Top Medical Universities in IRAN
+            {cmsData?.universitiesHeading || "Top Medical Universities in IRAN"}
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">

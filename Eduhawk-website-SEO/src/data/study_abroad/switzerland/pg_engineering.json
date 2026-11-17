@@ -1,41 +1,93 @@
 {
-  "seo": {
-    "title": "Postgraduate Engineering in Switzerland in Switzerland for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study Postgraduate Engineering in Switzerland in Switzerland: Top universities, course duration, tuition fees, eligibility criteria, admission process & visa requirements for Indian students."
-  },
   "hero": {
-    "badge": "Study Abroad - Switzerland",
-    "title": "Postgraduate Engineering in Switzerland in Switzerland for Indian Students",
-    "subtitle": "**Master’s in Engineering in Switzerland for Indian Students** provides a chance to gain advanced technical knowledge, engage in research, and specialize in areas like mechanical engineering, electrical engineering, computer engineering, robotics, civil engineering, materials science, and sustainable technology. Swiss universities are renowned for their emphasis on scientific research, innovation and engineering applications.",
-    "ctaText": "Book Free Counselling",
-    "image": ""
+    "title": "Engineering in Switzerland for Indian Students",
+    "subtitle": "Master’s in Engineering in Switzerland for Indian Students provides a chance to gain advanced technical knowledge, engage in research, and specialize in areas like mechanical engineering, electrical engineering, computer engineering, robotics, civil engineering, materials science, and sustainable technology. Swiss universities are renowned for their emphasis on scientific research, innovation and engineering applications."
   },
-  "stats": [
+  "overview": [
+    "Master’s in Engineering in Switzerland for Indian Students provides a chance to gain advanced technical knowledge, engage in research, and specialize in areas like mechanical engineering, electrical engineering, computer engineering, robotics, civil engineering, materials science, and sustainable technology. Swiss universities are renowned for their emphasis on scientific research, innovation and engineering applications.",
+    "Explore world-leading Swiss cantonal universities and federal institutes of technology offering globally renowned degrees, modern research labs, and international faculty."
+  ],
+  "universities": [
     {
-      "n": "1000+",
-      "l": "Students Placed Globally"
+      "name": "ETH Zurich (Swiss Federal Institute of Technology)",
+      "location": "Zurich, Switzerland",
+      "fee": "CHF 730 / Semester",
+      "img": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+      "image": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+      "desc": "ETH Zurich ranks among the top universities worldwide for technology and natural sciences, producing 22 Nobel laureates including Albert Einstein."
     },
     {
-      "n": "20+",
-      "l": "Countries"
+      "name": "EPFL (École Polytechnique Fédérale de Lausanne)",
+      "location": "Lausanne, Switzerland",
+      "fee": "CHF 780 / Semester",
+      "img": "/uploads/study_abroad/switzerland/switz_Architecture_image2.png",
+      "image": "/uploads/study_abroad/switzerland/switz_Architecture_image2.png",
+      "desc": "EPFL is a dynamic European research institute celebrated for computer science, robotics, biomedical innovation, and global startup spin-offs."
     },
     {
-      "n": "200+",
-      "l": "Partner Universities"
+      "name": "University of Zurich (UZH)",
+      "location": "Zurich, Switzerland",
+      "fee": "CHF 1,220 / Semester",
+      "img": "/uploads/study_abroad/switzerland/switz_Dentistry_University_of_Zurich.png",
+      "image": "/uploads/study_abroad/switzerland/switz_Dentistry_University_of_Zurich.png",
+      "desc": "The largest university in Switzerland, renowned for medical research, life sciences, banking and finance, and law."
     },
     {
-      "n": "100%",
-      "l": "Support (Visa & Post-Study Work Guidance)"
+      "name": "University of Geneva",
+      "location": "Geneva, Switzerland",
+      "fee": "CHF 500 / Semester",
+      "img": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+      "image": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+      "desc": "Located near UN and WHO headquarters, world-famous for international relations, biomedical sciences, and multilateral diplomacy."
     }
   ],
-  "highlights": {
-    "degree": "M.Sc. / MSE in Engineering (1.5 to 2 Years)",
-    "duration": "1.5 to 2 Years (90–120 ECTS)",
-    "fee": "CHF 1,000 – CHF 3,000 / Year",
-    "eligibility": "Bachelor's degree in Engineering + English/German proficiency",
-    "medium": "English & German Taught"
-  },
-  "overview": "In Switzerland, internationally recognized institutions such as ETH Zurich, EPFL and several universities of applied sciences offer master’s programs in engineering. Depending on the university and the course, students can opt for research-oriented academic programs or professionally oriented degrees. Many master’s programs are taught in English, but the language requirements vary.\n\n**Students who want to study Master’s in Engineering in Switzerland** can choose from a range of academic and research-oriented options in different engineering disciplines.\n\n**Master’s in Engineering in Switzerland for Indian Students** provides opportunities to explore advanced technical education and research pathways. **Edu-Hawk Worldwide** helps students understand international education options and prepare for their university applications.",
-  "universities": [],
-  "faq": []
+  "sections": [
+    {
+      "slot": "universities",
+      "eyebrow": "Top Swiss Universities",
+      "title": "Top Universities to Consider in Switzerland",
+      "lead": "Explore world-leading Swiss cantonal universities and federal institutes of technology offering globally renowned degrees, modern research labs, and international faculty.",
+      "unis": [
+        {
+          "name": "ETH Zurich (Swiss Federal Institute of Technology)",
+          "location": "Zurich, Switzerland",
+          "fee": "CHF 730 / Semester",
+          "img": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+          "image": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+          "desc": "ETH Zurich ranks among the top universities worldwide for technology and natural sciences, producing 22 Nobel laureates including Albert Einstein."
+        },
+        {
+          "name": "EPFL (École Polytechnique Fédérale de Lausanne)",
+          "location": "Lausanne, Switzerland",
+          "fee": "CHF 780 / Semester",
+          "img": "/uploads/study_abroad/switzerland/switz_Architecture_image2.png",
+          "image": "/uploads/study_abroad/switzerland/switz_Architecture_image2.png",
+          "desc": "EPFL is a dynamic European research institute celebrated for computer science, robotics, biomedical innovation, and global startup spin-offs."
+        },
+        {
+          "name": "University of Zurich (UZH)",
+          "location": "Zurich, Switzerland",
+          "fee": "CHF 1,220 / Semester",
+          "img": "/uploads/study_abroad/switzerland/switz_Dentistry_University_of_Zurich.png",
+          "image": "/uploads/study_abroad/switzerland/switz_Dentistry_University_of_Zurich.png",
+          "desc": "The largest university in Switzerland, renowned for medical research, life sciences, banking and finance, and law."
+        },
+        {
+          "name": "University of Geneva",
+          "location": "Geneva, Switzerland",
+          "fee": "CHF 500 / Semester",
+          "img": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+          "image": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+          "desc": "Located near UN and WHO headquarters, world-famous for international relations, biomedical sciences, and multilateral diplomacy."
+        }
+      ],
+      "groups": []
+    }
+  ],
+  "faqs": [],
+  "seo": {
+    "title": "Engineering in Switzerland for Indian Students | Edu-Hawk Worldwide",
+    "description": "Master’s in Engineering in Switzerland for Indian Students provides a chance to gain advanced technical knowledge, engage in research, and specialize in areas l",
+    "keywords": "Study in Switzerland, Top Swiss Universities, Edu Hawk Worldwide"
+  }
 }

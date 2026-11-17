@@ -1,0 +1,113 @@
+{
+  "id": "cmat",
+  "name": "CMAT (Common Management Admission Test)",
+  "shortName": "CMAT",
+  "category": "Entrance & Academic Tests",
+  "badge": "NTA National Management Test",
+  "seo": {
+    "title": "CMAT Exam Guide: Pattern, 5 Sections, Syllabus, Marking & Eligibility | EduHawk Worldwide",
+    "description": "Complete guide to the Common Management Admission Test (CMAT) conducted by the National Testing Agency (NTA) in India for MBA and PGDM admissions. Explore pattern, negative marking, 180 min duration, and prep tips.",
+    "keywords": "CMAT Common Management Admission Test, CMAT exam pattern, CMAT eligibility criteria, CMAT exam fees NTA, CMAT registration, CMAT preparation tips, CMAT for MBA admission, MBA in India CMAT"
+  },
+  "hero": {
+    "badge": "NTA National Management Test",
+    "heroPara": "The Common Management Admission Test (CMAT), conducted by the National Testing Agency (NTA), is a national-level entrance examination evaluating candidates for admission into MBA and PGDM programs at AICTE-approved management institutes."
+  },
+  "stats": [
+    {
+      "label": "Test Duration",
+      "value": "180 Minutes (3 Hours)"
+    },
+    {
+      "label": "Total Questions",
+      "value": "100 Multiple-Choice Questions"
+    },
+    {
+      "label": "Marking Scheme",
+      "value": "+4 for Correct, -1 for Incorrect Answer"
+    },
+    {
+      "label": "Total Marks",
+      "value": "400 Total Marks"
+    },
+    {
+      "label": "Conducting Body",
+      "value": "National Testing Agency (NTA)"
+    },
+    {
+      "label": "Delivery Mode",
+      "value": "Computer-Based Test (CBT) across India"
+    }
+  ],
+  "countries": [
+    "India"
+  ],
+  "overview": [
+    "The Common Management Admission Test (CMAT) is a premier national entrance examination conducted by the National Testing Agency (NTA).",
+    "It facilitates admissions into MBA, PGDM, Executive PGDM, and related management postgraduate courses at over 1,000 AICTE-approved institutions and universities across India.",
+    "The exam evaluates candidates across five comprehensive disciplines: Quantitative Techniques, Logical Reasoning, Language Comprehension, General Awareness, and Innovation & Entrepreneurship."
+  ],
+  "sections": [
+    {
+      "name": "Quantitative Techniques & Data Interpretation",
+      "questions": "20 Questions (80 Marks)",
+      "measures": "Arithmetic, algebra, geometry, modern math, number systems, and graphical data interpretation."
+    },
+    {
+      "name": "Logical Reasoning",
+      "questions": "20 Questions (80 Marks)",
+      "measures": "Analytical reasoning, coding-decoding, blood relations, series, syllogisms, and critical logical deductions."
+    },
+    {
+      "name": "Language Comprehension",
+      "questions": "20 Questions (80 Marks)",
+      "measures": "Reading comprehension passages, grammar, vocabulary, sentence correction, idioms, and verbal ability."
+    },
+    {
+      "name": "General Awareness",
+      "questions": "20 Questions (80 Marks)",
+      "measures": "Current national and international affairs, business news, economics, history, geography, and static general knowledge."
+    },
+    {
+      "name": "Innovation & Entrepreneurship",
+      "questions": "20 Questions (80 Marks)",
+      "measures": "Understanding start-up concepts, business frameworks, funding stages, innovation lifecycles, and entrepreneurial case scenarios."
+    }
+  ],
+  "eligibilityCriteria": [
+    "Candidates must hold a Bachelor's degree in any discipline from a recognized university.",
+    "Final-year undergraduate students are also eligible to apply, provided their graduation results are submitted by the specified deadline.",
+    "There is no upper age limit for appearing in the CMAT examination."
+  ],
+  "registrationSteps": [
+    "Visit the official NTA CMAT website (exams.nta.ac.in/CMAT).",
+    "Complete the online registration form by creating login credentials.",
+    "Enter personal, educational, category, and contact details accurately.",
+    "Upload scanned copies of your recent photograph and signature as per NTA size specifications.",
+    "Pay the applicable examination fee online using Net Banking, Debit/Credit Card, or UPI.",
+    "Download and save the official Confirmation Page after successful fee transaction.",
+    "Download your CMAT Admit Card when issued and verify test center allocation."
+  ],
+  "faqs": [
+    {
+      "q": "What is the full form of CMAT?",
+      "a": "CMAT stands for Common Management Admission Test, an entrance exam conducted by NTA for admission to participating management institutes."
+    },
+    {
+      "q": "Who is eligible for the CMAT exam?",
+      "a": "Graduates in any discipline from recognized universities and eligible final-year undergraduate students can apply."
+    },
+    {
+      "q": "Is CMAT compulsory for an MBA?",
+      "a": "No. CMAT is one of several accepted management entrance exams in India (alongside CAT, XAT, MAT). Colleges accept scores based on their admission policies."
+    },
+    {
+      "q": "What is the duration of the CMAT exam?",
+      "a": "The CMAT exam is a single 180-minute (3-hour) computer-based test with 100 questions."
+    },
+    {
+      "q": "Is there negative marking in CMAT?",
+      "a": "Yes. Each correct answer earns +4 marks, while each incorrect answer results in a penalty deduction of -1 mark."
+    }
+  ]
+}

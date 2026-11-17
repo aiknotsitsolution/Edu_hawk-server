@@ -1,3 +1,4 @@
+import cmsData from "../../data/medical_colleges/uzbekistan.json";
 // import React, { useState } from "react";
 // import RussiaFlag from "../../Images/Russia/russia header threejpg.webp";
 // import kernal from "../../Images/Russia/about-russia.webp";
@@ -626,8 +627,9 @@ const Uzbekistan = () => {
   return (
     <div className="min-h-screen bg-gray-50 font-sans">
       <SeoHead
-        title="MBBS in Uzbekistan 2026-27 | Admissions, Fees & Universities | Edu Hawk"
-        description="Explore MBBS in Uzbekistan for Indian students: eligibility, admission process, top medical universities, documents and food & accommodation costs. Study MBBS in Uzbekistan for a safe, affordable, and globally recognized medical education."
+        title={cmsData?.seo?.title || "MBBS in Uzbekistan 2026-27 | Admissions, Fees & Universities | Edu Hawk"}
+        description={cmsData?.seo?.description || "Explore MBBS in Uzbekistan for Indian students: eligibility, admission process, top medical universities, documents and food & accommodation costs."}
+        keywords={cmsData?.seo?.keywords || "mbbs in uzbekistan, uzbekistan mbbs fees, study mbbs uzbekistan, uzbekistan medical universities"}
         path="/mbbs-abroad/uzbekistan"
         ogType="website"
       />
@@ -635,7 +637,7 @@ const Uzbekistan = () => {
       <div className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://ik.imagekit.io/syustaging/SYU_PREPROD/Campus_vYiO8Uzxk.webp?tr=w-3840"
+            src={cmsData?.hero?.image || "https://ik.imagekit.io/syustaging/SYU_PREPROD/Campus_vYiO8Uzxk.webp?tr=w-3840"}
             alt="Uzbekistan Landscape"
             className="w-full h-full object-cover brightness-75"
                   srcSet="https://ik.imagekit.io/syustaging/SYU_PREPROD/Campus_vYiO8Uzxk.webp?tr=w-3840 1x, https://ik.imagekit.io/syustaging/SYU_PREPROD/Campus_vYiO8Uzxk.webp?tr=w-3840 2x"
@@ -643,7 +645,7 @@ const Uzbekistan = () => {
                 />
           <div className="absolute inset-0 flex items-center justify-center">
             <h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-2xl">
-              STUDY MBBS IN UZBEKISTAN
+              {cmsData?.hero?.title || "STUDY MBBS IN UZBEKISTAN"}
             </h1>
           </div>
         </div>
@@ -667,7 +669,7 @@ const Uzbekistan = () => {
           </div>
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-blue-900">
-              Explore MBBS Opportunities in Uzbekistan 2026–2027
+              {cmsData?.hero?.subtitle || "Explore MBBS Opportunities in Uzbekistan 2026–2027"}
             </h2>
           </div>
         </div>
@@ -813,7 +815,7 @@ const Uzbekistan = () => {
         {/* ==================== UNIVERSITIES GRID ==================== */}
         <div id="universities" className="mb-20">
           <h2 className="text-4xl font-bold text-center text-blue-900 mb-12">
-            Top Medical Universities in Uzbekistan
+            {cmsData?.universitiesHeading || "Top Medical Universities in Uzbekistan"}
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">

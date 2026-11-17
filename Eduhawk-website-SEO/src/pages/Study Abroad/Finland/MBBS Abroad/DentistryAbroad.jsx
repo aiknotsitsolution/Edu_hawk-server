@@ -1,5 +1,6 @@
+import cmsData from "../../../../data/study_abroad/finland/dentistry.json";
 import React from "react";
-import { AbroadCoursePage } from "../../../../component/CoursePageKit.jsx";
+import { AbroadCoursePage, withCmsData } from "../../../../component/CoursePageKit.jsx";
 import heroImg from "../../../../Images/Abroad/Finland/Dentistry/dentistry_finland_hero.webp";
 import langImg from "../../../../Images/Abroad/Finland/Dentistry/finland-dentisrty-img3.webp";
 import heroBgImg from "../../../../Images/Abroad/Finland/Dentistry/finland-dentisrty-img1-hero-background.webp";
@@ -480,7 +481,7 @@ const page = {
 const DentistryFinland = () => {
   return (
     <AbroadCoursePage
-      page={page}
+      page={withCmsData(page, cmsData)}
       heroImg={heroImg}
       sideImg={sideImg}
       heroBgImg={heroBgImg}

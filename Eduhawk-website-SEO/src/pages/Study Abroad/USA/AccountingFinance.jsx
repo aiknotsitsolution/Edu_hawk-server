@@ -1,3 +1,4 @@
+import afData from "../../../data/study_abroad/usa/accounting_finance.json";
 import React, { useState } from "react";
 import SeoHead from "../../../component/SeoHead.jsx";
 

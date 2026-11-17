@@ -1,241 +1,526 @@
 {
-  "seo": {
-    "title": "Study UG Automobile Engineering in France for Indian Students | Edu-Hawk Worldwide",
-    "description": "Complete guide to UG Automobile Engineering in France for Indian students: Top French universities, admission requirements, tuition fees (€255 – €3,950 / year public), scholarships, and 2-year post-study work visa."
-  },
   "hero": {
-    "badge": "Study Abroad - France",
-    "title": "AUTOMOBILE ENGINEERING UNDERGRADUATE IN FRANCE",
-    "subtitle": "Students are attracted to **study automobile engineering****, **vehicle design**, **automotive manufacturing**, **electric vehicles**, and **sustainable mobility** in France."
+    "title": "Automobile Engineering Undergraduate in France",
+    "subtitle": "Students are attracted to study automobile engineering\\\\, \\\\vehicle design\\\\, \\\\automotive manufacturing\\\\, \\\\electric vehicles\\\\, and \\\\sustainable mobility\\\\ in France."
   },
   "overview": [
-    "Students are attracted to **study automobile engineering****, **vehicle design**, **automotive manufacturing**, **electric vehicles**, and **sustainable mobility** in France.",
-    "There are multiple ways to enter the French education system for ****automotive engineering**** for international students.",
-    "Some engineering schools have a **preparatory cycle** and then a specialized engineering cycle. Other institutions have **bachelor's level programmes** in mechanical engineering, mobility or related fields. The right path for you will depend on your academic qualifications, language preferences, budget and career plans.",
-    "With ****Edu Hawk worldwide** study abroad guidance** students can find out about these opportunities and know about the requirements for study abroad.",
-    "**"
+    "The design, development, testing, manufacturing, and enhancement of automobiles and their systems is referred to as automobile engineering.",
+    "In France you can study traditional automotive technologies as well as \\\\electric mobility, hybrid propulsion, connected vehicles and sustainable transportation\\.",
+    "Students need to be well versed in \\\\mathematics, physics, mechanics and computing\\\\ to be prepared for the technical demands of the field."
+  ],
+  "universities": [
+    {
+      "name": "The following institutions provide \\\\automotive",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+      "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+      "desc": "focused engineering education\\\\ or closely related mechanical and mobility programs. Not all options are three:year bachelor degrees, check the exact qualification & entry requirements."
+    },
+    {
+      "name": "### ESTACA",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+      "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+      "desc": "School of Engineering : \\\\ESTACA\\\\ is specialized in engineering for transport systems (automobile, aeronautics, railroads and space). Its \\\\automotive:focused curriculum\\\\ includes vehicle design, propulsion, mechanical systems, and transport technologies."
+    },
+    {
+      "name": "University of Technology of Belfort",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_University_of_Technology_of_Belfort.webp",
+      "image": "/uploads/study_abroad/france/france_University_of_Technology_of_Belfort.webp",
+      "desc": "Montbeliard (UTBM) : The \\\\UTBM\\\\ provides engineering education in \\\\mechanical engineering and design\\\\ in topics related to vehicle engineering, automotive components, energy systems and manufacturing."
+    },
+    {
+      "name": "Polytech Orléans",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+      "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+      "desc": "Polytech Orléans is an engineering school that trains engineers in the mechanical and related engineering fields. It is also linked to the international Master's program \\\\Automotive Engineering for Sustainable Mobility\\\\, co:accredited by ISAT."
+    }
   ],
   "sections": [
     {
-      "title": "1.** Can I do automobile engineering in France after 12th?",
-      "eyebrow": "Why Study in France",
+      "slot": "why-study",
+      "eyebrow": "Why France",
+      "title": "Why study Automobile Engineering in France?",
+      "lead": "The design, development, testing, manufacturing, and enhancement of automobiles and their systems is referred to as automobile engineering.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Yes. Some engineering schools have a **preparatory cycle** which begins after secondary school and leads to an engineering qualification. You could also look into **bachelor’s programs in mechanical engineering** which provide a base for automotive specialization."
+            "In France you can study traditional automotive technologies as well as \\\\electric mobility, hybrid propulsion, connected vehicles and sustainable transportation\\."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "The main benefits are:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Automotive industry exposure:\\\\ Students can learn about vehicle manufacturers, automotive suppliers, research centers and mobility technology companies.",
+            "\\\\Practical engineering education:\\\\ The courses may include lab work, design projects, vehicle testing and industrial internships.",
+            "Electric vehicle technologies: Relevant topics are battery systems, electric motors, power electronics and energy management.",
+            "\\\\Specialised study:\\\\ Students can specialize in \\\\vehicle dynamics, automotive design, propulsion, manufacturing or autonomous systems.",
+            "\\\\International career opportunities:\\\\ The skills you learn in automotive engineering are transferable to the vehicle manufacturing industry, the automotive supply industry, motorsport, research and transport technology."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students need to be well versed in \\\\mathematics, physics, mechanics and computing\\\\ to be prepared for the technical demands of the field."
           ]
         }
       ]
     },
     {
-      "title": "2. How many years is automobile engineering in France ?",
-      "eyebrow": "Degrees & Specializations",
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Automotive Engineering Courses in France",
+      "lead": "The exact name of a \\\\automotive engineering course in France\\\\ varies from one French school to another. Useful alternatives include:",
       "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Automotive Engineering:\\\\ Design of vehicles, vehicle systems, automotive mechanics, testing and manufacturing.",
+            "\\\\Mechanical Engineering:\\\\ Mechanics, machine design, materials, manufacturing processes, vehicle parts.",
+            "\\\\Automotive and Aeronautical Design:\\\\ Engineering design methods for transportation systems, including automotive applications.",
+            "\\\\Vehicle Dynamics & Control:\\\\ Suspension, steering, handling, vehicle stability & control.",
+            "\\\\Electric and Hybrid Vehicle Engineering:\\\\ Electric drive, energy conversion, battery technology, power management.",
+            "\\\\ Automotive Manufacturing Engineering:\\\\ Production systems, quality management, industrial automation and manufacturing optimization.",
+            "\\\\Connected and Autonomous Vehicles:\\\\ Sensor systems, embedded systems, vehicle-to-vehicle communication, autonomous driving technologies."
+          ]
+        },
         {
           "t": "p",
           "items": [
-            "A **bachelor's programme** usually lasts three years. The full **engineering-school pathway** usually lasts five years after high school, often with two years of pre-university studies and three years of engineering studies."
+            "A \\\\three-year bachelor's degree\\\\ is usually worth \\\\180 ECTS credits\\. However many specialist French automotive engineering schools offer a \\\\five year pathway after secondary school\\\\ with a two year preparatory cycle and a three year engineering cycle."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A \\\\mechanical engineering bachelor's degree\\\\ can also serve as a starting point for future specialization in automotive engineering."
           ]
         }
       ]
     },
     {
-      "title": "3. Do they teach automobile engineering in English in France?",
-      "eyebrow": "Top Institutions in France",
+      "slot": "universities",
+      "eyebrow": "Top French Universities",
+      "title": "Top UG Automobile Engineering Universities in France",
+      "lead": "",
+      "groups": [],
+      "unis": [
+        {
+          "name": "The following institutions provide \\\\automotive",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+          "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+          "desc": "focused engineering education\\\\ or closely related mechanical and mobility programs. Not all options are three:year bachelor degrees, check the exact qualification & entry requirements."
+        },
+        {
+          "name": "### ESTACA",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+          "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+          "desc": "School of Engineering : \\\\ESTACA\\\\ is specialized in engineering for transport systems (automobile, aeronautics, railroads and space). Its \\\\automotive:focused curriculum\\\\ includes vehicle design, propulsion, mechanical systems, and transport technologies."
+        },
+        {
+          "name": "University of Technology of Belfort",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_University_of_Technology_of_Belfort.webp",
+          "image": "/uploads/study_abroad/france/france_University_of_Technology_of_Belfort.webp",
+          "desc": "Montbeliard (UTBM) : The \\\\UTBM\\\\ provides engineering education in \\\\mechanical engineering and design\\\\ in topics related to vehicle engineering, automotive components, energy systems and manufacturing."
+        },
+        {
+          "name": "Polytech Orléans",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+          "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+          "desc": "Polytech Orléans is an engineering school that trains engineers in the mechanical and related engineering fields. It is also linked to the international Master's program \\\\Automotive Engineering for Sustainable Mobility\\\\, co:accredited by ISAT."
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Eligibility for UG Automobile Engineering in France",
+      "lead": "",
+      "groups": []
+    },
+    {
+      "slot": "why-study",
+      "eyebrow": "Why France",
+      "title": "Eligibility to study automobile engineering in France depending on the institution you choose",
+      "lead": "your through a bachelor's program, a preparatory cycle or an engineering-school pathway will vary.",
       "groups": [
+        {
+          "t": "h4",
+          "text": "Usual requirements demand:"
+        },
         {
           "t": "p",
           "items": [
-            "The language of instruction depends on the institution and the program. Many of the undergraduate engineering tracks are taught primarily in French, while a choice of international programs and graduate level courses are taught in English. Please check the current language requirements before you apply."
+            "Class 12\\\\ or equivalent recognized secondary school qualification."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Good academic background in \\\\mathematics and physics\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Chemistry or computing where required by the curriculum."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "French language proficiency\\\\ for courses taught in French."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "English language proficiency\\\\ for English taught programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Successful completion of any required entrance examination, interview or selection process."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For applicants from India, \\\\Class 12 with mathematics and physics\\\\ is typically a suitable academic background for engineering admission. Some institutions may have subject specific combinations, minimum grades or entrance procedures which are highly competitive."
           ]
         }
       ]
     },
     {
-      "title": "4. What is the cost of automobile engineering in France?",
-      "eyebrow": "Academic & Language Criteria",
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission Requirements",
+      "lead": "\\\\Admission requirements for automotive engineering in France\\\\ may include competitive selection to evaluate academic ability, scientific preparation, language proficiency and motivation.",
       "groups": [
+        {
+          "t": "h4",
+          "text": "Typical requirements are:"
+        },
         {
           "t": "p",
           "items": [
-            "**Tuition fees for automobile engineering in France** depend on the institution and the level of qualification. The reference fees for Licence at public universities for 2026-2027 are €178 per year for French and EU students who meet the conditions and €2,902 for non-EU students subject to differentiated fees. Fees may vary between engineering schools and private institutions."
+            "Secondary school certificates and academic transcripts."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Good performance in math and physics."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Results of tests in French or English language where required."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Filled out application form and supporting documents."
+        },
+        {
+          "t": "p",
+          "items": [
+            "Motivation letter or personal statement - If required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Entrance tests or interviews for selected courses."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "University transcripts for applicants for advanced standing."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For courses taught in French, a \\\\ B2-level French \\\\ is a useful planning benchmark, but the actual requirement depends on the institution. You may need to take an approved \\\\English language test\\\\ for programs taught in English."
           ]
         }
       ]
     },
     {
-      "title": "5.  What jobs are available after Automobile Engineering?",
-      "eyebrow": "Application Checklist",
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Cost of Studying Automobile Engineering in France",
+      "lead": "\\\\Cost of Studying Automobile Engineering in France\\\\ The cost of studying automobile engineering in France depends on the type of institution, the degree you choose to pursue, your nationality and whether you can get exemptions on tuition.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "You could pursue a career in **automotive design, vehicle testing, electric vehicle systems, manufacturing, powertrain engineering, quality assurance, or research and development. Some specialist roles require a diploma in engineering or further study.",
-            "How can I study abroad with **Edu Hawk worldwide Consultancy?**",
-            "****Edu Hawk worldwide**** can help students to find the right universities, know admission requirements, arrange application documents and prepare their **study-abroad journey**. Students should check with the appropriate official authorities to determine requirements for academic, financial, immigration and licensing purposes.",
-            "**Keywords -**",
-            "Study Automobile Engineering in France",
-            "Automotive Engineering Courses in France",
-            "Top UG Automobile Engineering Universities in France",
-            "Eligibility for UG Automobile Engineering in France",
-            "Automobile Engineering Admission Requirements for Indian Students",
-            "Automobile Engineering Tuition Fees in France 2026–2027",
-            "Cost of Studying Automobile Engineering in France",
-            "English-Taught Automotive Engineering Programmes in France",
-            "Mechanical Engineering Courses for Automotive Specialisation in France",
-            "Automotive Design and Vehicle Dynamics Courses in France",
-            "Electric and Hybrid Vehicle Engineering Courses in France",
-            "Automobile Engineering at ESTACA and UTBM France",
-            "CTI Accredited Engineering Schools for Automobile Engineering in France",
-            "Automobile Engineering Jobs and Career Opportunities in France"
+            "Tuition Rates 2026-2027"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The indicative tuition fees for public higher education institutions under the relevant national legislation are published by Campus France as follows:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Public university Licence \\| €178/year \\| €2,902/year"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master's degree Public university \\| €255 per year \\| €3,950 per year"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Many public engineering programs \\| €630 per year \\| Ask the school for the rate"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The rates indicated are only indicative and are not the fees charged by all institutions. Some engineering schools have their own fee structures and there may be exemptions for eligible international students."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Private schools may charge a lot more tuition."
           ]
         }
       ]
     },
     {
-      "title": "6. **Apply**: Fill out all forms and submit them before the deadline for the program you’re applying to.",
-      "eyebrow": "Tuition & Cost of Living",
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Cost of living",
+      "lead": "",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Details available upon request."
-          ]
-        }
-      ]
-    },
-    {
-      "title": "7. **Complete selection stages: Appear for any entrance test or interview as per the requirement of the school.",
-      "eyebrow": "Step-by-Step Guide",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Details available upon request."
-          ]
-        }
-      ]
-    },
-    {
-      "title": "8. Accreditation and Recognition**",
-      "eyebrow": "Degrees & Recognition",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Students should ensure that the qualification they have chosen is **recognised and appropriate for their career goals** before enrolling.",
-            "The *Diplôme d’ingénieur* is a recognized engineering qualification in France, if it is conferred by a program that is authorized by the appropriate French authorities after undergoing the **Commission des titres d’ingénieur (CTI) accreditation process**.",
-            "**Please read the details below before applying:**"
+            "Students need to set aside money for:"
           ]
         },
         {
           "t": "ul",
           "items": [
-            "- The **exact degree or diploma** that is awarded.",
-            "- Whether the program is **CTI accredited**, where applicable.",
-            "- Duration of the course and **credits (ECTS)**.",
-            "- Availability of internships, practical training & industry projects.",
-            "- Opportunities for postgraduate study or professional recognition overseas."
+            "\\\\Housing and utilities.",
+            "\\\\Food and grocery shopping.",
+            "\\\\Transport local.",
+            "Engineering books, software and study material.",
+            "Health-related costs and insurance where appropriate.",
+            "\\\\Visa and administration fees."
           ]
         },
         {
           "t": "p",
           "items": [
-            "A ****bachelor’s degree in mechanical engineering**** is not equivalent to a recognized engineering diploma. Students should not expect to have the same professional or academic outcomes.",
-            "**"
+            "The \\\\cost of living in France\\\\ will depend on the city, your housing situation and your lifestyle. Living in Paris or another big city costs more than living in a smaller university town."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Scholarships, financial aid and eligible work-study arrangements\\\\ may reduce costs depending on the program and the student's circumstances."
           ]
         }
       ]
     },
     {
-      "title": "9. Salary & Career Prospects**",
-      "eyebrow": "Job Roles & Industry Growth",
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admissions Process",
+      "lead": "International applicants should follow the institution's application route and relevant French higher educational procedures.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**Automobile engineering graduates** can find jobs in **vehicle manufacturing, auto component development, electric mobility, vehicle testing and transport technology**.",
-            "****Potential automobile engineering career paths** include:**"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "- **Car designer.**",
-            "- **Engineer of vehicle dynamics**.",
-            "- **Mechanical design engineer**.",
-            "- **Systems engineer for electric vehicles**.",
-            "- **Automotive manufacturing engineer**.",
-            "- **Powertrain engineer** or **propulsion engineer**.",
-            "- **Automotive Test & Validation Engineer**"
+            "1. \\\\Select your course:\\\\ Choose from a \\\\bachelor's degree, a preparatory cycle, or a complete engineering qualification\\."
           ]
         },
         {
           "t": "p",
           "items": [
-            "**Quality Assurance Engineer**"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "- **Automotive Research and Development Engineer",
-            "- Connected and autonomous vehicles systems engineer."
+            "2. \\\\Check institutions:\\\\ Look at course content, duration, medium of instruction, tuition fees and degree recognition."
           ]
         },
         {
           "t": "p",
           "items": [
-            "Job prospects depend on your degree level, technical skills, internships, language skills and work permit. Some senior design and research posts require a **master's level or recognized engineering qualification**.",
-            "****Automobile engineering salary**** depends on the employer, location, specialization and experience. Students should not rely on one salary estimate, but should consult current job advertisements and salary surveys relevant to their intended job.",
-            "**"
+            "3. \\\\Check eligibility:\\\\ Check the required academic subjects, grades and language requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "4. \\\\Choose the platform:\\\\ Schools can use \\\\Parcours, Études en France\\\\ or their own platform depending on the school and the applicant category."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "5. \\\\Documents to prepare:\\\\ Collect certificates, transcripts, passport details and language-test results."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "6. \\\\Apply\\\\: Fill out all forms and submit them before the deadline for the program you're applying to."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "7. \\\\Complete selection stages: Appear for any entrance test or interview as per the requirement of the school."
           ]
         }
       ]
     },
     {
-      "title": "10. Required Documents**",
-      "eyebrow": "Document Requirements",
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
+      "title": "Accreditation and Recognition",
+      "lead": "Students should ensure that the qualification they have chosen is \\\\recognised and appropriate for their career goals\\\\ before enrolling.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "The ****documents required for automobile engineering applications in France**** are typically:"
+            "The \\Diplôme d'ingénieur\\ is a recognized engineering qualification in France, if it is conferred by a program that is authorized by the appropriate French authorities after undergoing the \\\\Commission des titres d'ingénieur (CTI) accreditation process\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Please read the details below before applying:"
           ]
         },
         {
           "t": "ul",
           "items": [
-            "* - Valid Passport",
-            "* - **Class 10 and Class 12 certificates and transcripts**, if applicable",
-            "* - Academic qualifications with a **background in mathematics and physics**.",
-            "* - **Proof of language skills** – French or English, if needed.",
-            "* - Curriculum Vitae (if required).",
-            "* - Letter of motivation or statement of purpose (if required).",
-            "* - **Recommendation letters** (if required).",
-            "* - Certified translations of academic documents (if applicable).",
-            "* Application form completed and proof of payment of application fee, if applicable.",
-            "* - University transcripts for advanced entry applications.",
-            "* - **Financial and visa documentation** at the appropriate time."
+            "The \\\\exact degree or diploma\\\\ that is awarded.",
+            "Whether the program is \\\\CTI accredited\\\\, where applicable.",
+            "Duration of the course and \\\\credits (ECTS).",
+            "Availability of internships, practical training & industry projects.",
+            "Opportunities for postgraduate study or professional recognition overseas."
           ]
         },
         {
           "t": "p",
           "items": [
-            "**"
+            "A \\\\bachelor's degree in mechanical engineering\\\\ is not equivalent to a recognized engineering diploma. Students should not expect to have the same professional or academic outcomes."
           ]
         }
       ]
     },
     {
-      "title": "11. FAQs on Automobile Engineering UG in France**",
-      "eyebrow": "Frequently Asked Questions",
+      "slot": "careers",
+      "eyebrow": "Career & Salary",
+      "title": "Salary & Career Prospects",
+      "lead": "\\\\Automobile engineering graduates\\\\ can find jobs in \\\\vehicle manufacturing, auto component development, electric mobility, vehicle testing and transport technology\\.",
       "groups": [
+        {
+          "t": "h4",
+          "text": "\\\\Potential automobile engineering career paths\\\\ include:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Car designer.\\\\",
+            "\\\\Engineer of vehicle dynamics.",
+            "\\\\Mechanical design engineer.",
+            "\\\\Systems engineer for electric vehicles.",
+            "\\\\Automotive manufacturing engineer.",
+            "\\\\Powertrain engineer\\\\ or \\\\propulsion engineer.",
+            "\\\\Automotive Test & Validation Engineer\\\\"
+          ]
+        },
         {
           "t": "p",
           "items": [
-            "Details available upon request."
+            "\\\\Quality Assurance Engineer\\\\"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Automotive Research and Development Engineer",
+            "Connected and autonomous vehicles systems engineer."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Job prospects depend on your degree level, technical skills, internships, language skills and work permit. Some senior design and research posts require a \\\\master's level or recognized engineering qualification\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Automobile engineering salary\\\\ depends on the employer, location, specialization and experience. Students should not rely on one salary estimate, but should consult current job advertisements and salary surveys relevant to their intended job."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Required Documents",
+      "lead": "The \\\\documents required for automobile engineering applications in France\\\\ are typically:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Valid Passport",
+            "\\\\Class 10 and Class 12 certificates and transcripts\\\\, if applicable",
+            "Academic qualifications with a \\\\background in mathematics and physics.",
+            "\\\\Proof of language skills\\\\ – French or English, if needed.",
+            "Curriculum Vitae (if required).",
+            "Letter of motivation or statement of purpose (if required).",
+            "\\\\Recommendation letters\\\\ (if required).",
+            "Certified translations of academic documents (if applicable)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Application form completed and proof of payment of application fee, if applicable."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "University transcripts for advanced entry applications.",
+            "\\\\Financial and visa documentation\\\\ at the appropriate time."
           ]
         }
       ]
@@ -243,12 +528,33 @@
   ],
   "faqs": [
     {
-      "question": "1. Can Indian students study UG Automobile Engineering in France?",
-      "answer": "Yes, Indian students with valid academic qualifications, required English or French language proficiency, and relevant documentation can apply."
+      "q": "\\\\ Can I do automobile engineering in France after 12th?",
+      "a": "Yes. Some engineering schools have a \\\\preparatory cycle\\\\ which begins after secondary school and leads to an engineering qualification. You could also look into \\\\bachelor's programs in mechanical engineering\\\\ which provide a base for automotive specialization."
     },
     {
-      "question": "2. How can Edu Hawk Worldwide Consultancy help me?",
-      "answer": "Edu Hawk Worldwide provides end-to-end guidance including university selection, application processing, Campus France procedure, visa assistance, and pre-departure briefings."
+      "q": "How many years is automobile engineering in France ?",
+      "a": "A \\\\bachelor's programme\\\\ usually lasts three years. The full \\\\engineering-school pathway\\\\ usually lasts five years after high school, often with two years of pre-university studies and three years of engineering studies."
+    },
+    {
+      "q": "Do they teach automobile engineering in English in France?",
+      "a": "The language of instruction depends on the institution and the program. Many of the undergraduate engineering tracks are taught primarily in French, while a choice of international programs and graduate level courses are taught in English. Please check the current language requirements before you apply."
+    },
+    {
+      "q": "What is the cost of automobile engineering in France?",
+      "a": "\\\\Tuition fees for automobile engineering in France\\\\ depend on the institution and the level of qualification. The reference fees for Licence at public universities for 2026-2027 are €178 per year for French and EU students who meet the conditions and €2,902 for non-EU students subject to differentiated fees. Fees may vary between engineering schools and private institutions."
+    },
+    {
+      "q": "What jobs are available after Automobile Engineering?",
+      "a": "You could pursue a career in \\\\automotive design, vehicle testing, electric vehicle systems, manufacturing, powertrain engineering, quality assurance, or research and development. Some specialist roles require a diploma in engineering or further study."
+    },
+    {
+      "q": "How can I study abroad with Edu Hawk worldwide Consultancy?",
+      "a": "\\\\Edu Hawk worldwide\\\\ can help students to find the right universities, know admission requirements, arrange application documents and prepare their \\\\study-abroad journey. Students should check with the appropriate official authorities to determine requirements for academic, financial, immigration and licensing purposes."
     }
-  ]
+  ],
+  "seo": {
+    "title": "Automobile Engineering Undergraduate in France | Edu-Hawk Worldwide",
+    "description": "The design, development, testing, manufacturing, and enhancement of automobiles and their systems is referred to as automobile engineering.",
+    "keywords": "Study Automobile Engineering in France, Automotive Engineering Courses in France, Top UG Automobile Engineering Universities in France, Eligibility for UG Automobile Engineering in France, Automobile Engineering Admission Requirements for Indian Students, Automobile Engineering Tuition Fees in France 2026–2027, Cost of Studying Automobile Engineering in France, English-Taught Automotive Engineering Programmes in France, Mechanical Engineering Courses for Automotive Specialisation in France, Automotive Design and Vehicle Dynamics Courses in France, Electric and Hybrid Vehicle Engineering Courses in France, Automobile Engineering at ESTACA and UTBM France, CTI Accredited Engineering Schools for Automobile Engineering in France, Automobile Engineering Jobs and Career Opportunities in France, <"
+  }
 }

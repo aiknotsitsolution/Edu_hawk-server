@@ -1,57 +1,107 @@
 {
   "seo": {
-    "title": "MBBS in Russia for Indian Students 2026-27 | Edu Hawk Worldwide",
-    "description": "Complete guide to MBBS in Russia. Eligibility, low tuition fees, top medical universities, NMC recognition and visa process."
+    "title": "MBBS in Russia for Indian Students | Russia MBBS Fees & Admission",
+    "description": "Study MBBS in Russia with low fees and NMC recognized universities. Check eligibility, admission process, and top medical universities in Russia.",
+    "keywords": "mbbs in russia, russia mbbs fees, study mbbs russia, russia medical colleges, mbbs russia admission"
   },
   "hero": {
     "badge": "MBBS Admissions 2026-27",
-    "title": "MBBS in Russia",
-    "subtitle": "Pursue your dream medical career with NMC & WHO accredited universities in Russia.",
-    "ctaText": "Apply for 2026-27 Intake",
-    "image": ""
+    "title": "STUDY MBBS IN RUSSIA",
+    "subtitle": "Explore MBBS Opportunities in Russia 2026–2027. NMC & WHO recognized government medical universities with 100% English medium instruction.",
+    "image": "/uploads/colleges/russia_header.webp",
+    "ctaText": "Apply for 2026-27 Intake"
   },
+  "flag": "/uploads/colleges/russia_flag.svg",
   "stats": [
     {
       "n": "1000+",
-      "l": "Students Placed Globally"
+      "l": "Indian Students Placed in Russia"
     },
     {
-      "n": "20+",
-      "l": "Countries"
+      "n": "6 Years",
+      "l": "Course Duration (5+1 Internship)"
     },
     {
-      "n": "200+",
-      "l": "Partner Universities"
+      "n": "50+",
+      "l": "NMC Recognized Universities"
     },
     {
       "n": "100%",
-      "l": "Support (Visa & End-to-End Guidance)"
+      "l": "English Medium Programs"
     }
   ],
   "highlights": {
     "degree": "MD / MBBS (Equivalent)",
-    "duration": "5 to 6 Years",
-    "fee": "15 - 35 Lakhs Total Package",
-    "eligibility": "50% in PCB (Class 12) + NEET Qualified",
-    "medium": "100% English Medium"
+    "duration": "6 Years",
+    "fee": "₹15 - ₹35 Lakhs Total Package",
+    "eligibility": "50% in PCB aggregate",
+    "medium": "English",
+    "recognition": "NMC & WHO Recognized",
+    "neet": "Compulsory",
+    "ielts": "Not Required"
   },
-  "overview": "MBBS in Russia offers high quality medical education, advanced clinical training in affiliated government hospitals, and globally recognized medical degrees.",
+  "overview": "Russia has become one of the most preferred destinations for Indian students who want to study MBBS abroad because of its high-quality education, affordable tuition fees, and globally recognized medical universities. With a course duration of around 6 years, MBBS in Russia offers the perfect combination of theoretical learning and practical clinical exposure in modern government hospitals.",
+  "universitiesHeading": "Top Medical Universities in Russia",
   "universities": [
     {
-      "name": "Top State Medical University (Russia)",
-      "location": "Russia",
+      "name": "Mari State University",
+      "location": "Yoshkar-Ola, Russia",
       "fee": "₹3.5 Lakhs / Year",
-      "image": ""
+      "image": "/uploads/colleges/mari_state_university.webp",
+      "desc": "Leading public university with high clinical exposure and active Indian student community."
+    },
+    {
+      "name": "Orel State University",
+      "location": "Oryol, Russia",
+      "fee": "₹3.2 Lakhs / Year",
+      "image": "/uploads/colleges/orel_state_university.webp",
+      "desc": "Renowned medical faculty with state-of-the-art anatomy labs and simulation centers."
+    },
+    {
+      "name": "Orenburg State University",
+      "location": "Orenburg, Russia",
+      "fee": "₹3.6 Lakhs / Year",
+      "image": "/uploads/colleges/orenburg_state_university.webp",
+      "desc": "Prestigious government medical university with comprehensive NEXT/FMGE coaching."
+    },
+    {
+      "name": "Perm State University",
+      "location": "Perm, Russia",
+      "fee": "₹3.8 Lakhs / Year",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b4/%D0%9F%D0%B3%D0%BD%D0%B8%D1%83._%D0%9A%D0%BE%D1%80%D0%BF%D1%83%D1%81_%E2%84%965.jpg",
+      "desc": "Historic European medical institute offering cutting-edge surgical research facilities."
+    },
+    {
+      "name": "Tver State Medical University",
+      "location": "Tver, Russia",
+      "fee": "₹3.9 Lakhs / Year",
+      "image": "/uploads/colleges/tver_state_medical_university.jpeg",
+      "desc": "One of the oldest medical academies in Russia, popular among Indian medical graduates."
+    },
+    {
+      "name": "Altai State Medical University",
+      "location": "Barnaul, Russia",
+      "fee": "₹3.4 Lakhs / Year",
+      "image": "/uploads/colleges/altai_state_medical_university.jpg",
+      "desc": "High pass-rate medical university with dedicated Indian food hostels and mentors."
     }
   ],
   "faq": [
     {
       "question": "Is NEET mandatory for MBBS in Russia?",
-      "answer": "Yes, qualifying NEET in the year of admission or preceding two years is mandatory as per NMC guidelines."
+      "answer": "Yes, qualifying NEET in the year of admission or preceding two years is mandatory as per NMC guidelines for Indian students."
     },
     {
-      "question": "Is the degree from Russia valid in India?",
-      "answer": "Yes, all our partner medical universities comply fully with NMC gazette guidelines, making graduates eligible for the NExT/FMGE exam."
+      "question": "Is the MBBS degree from Russia recognized in India?",
+      "answer": "Yes, all our partner medical universities comply fully with NMC gazette guidelines, making graduates eligible for the NExT/FMGE licensing examination."
+    },
+    {
+      "question": "What is the medium of instruction for MBBS in Russia?",
+      "answer": "The entire 6-year MBBS curriculum is taught in English medium for international students."
+    },
+    {
+      "question": "Are hostel and Indian mess facilities available in Russia?",
+      "answer": "Yes, universities provide safe on-campus hostels with round-the-clock security and Indian food messes serving vegetarian and non-vegetarian meals."
     }
   ]
 }

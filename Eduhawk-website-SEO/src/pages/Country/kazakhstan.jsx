@@ -1,3 +1,4 @@
+import cmsData from "../../data/medical_colleges/kazakhstan.json";
 // // import React, { useState } from "react";
 // // import RussiaFlag from "../../Images/Russia/russia header threejpg.webp";
 // // import kernal from "../../Images/university-image/kazakistan.webp";
@@ -1036,9 +1037,9 @@ const Kazakhstan = () => {
   return (
     <>
       <SeoHead
-        title="MBBS in Kazakhstan for Indian Students | Fees & Admission 2026"
-        description="MBBS in Kazakhstan at low cost with top universities. Get details on fees, eligibility, admission process and medical colleges."
-        keywords="mbbs in kazakhstan, kazakhstan mbbs fees, study mbbs kazakhstan, kazakhstan medical colleges, mbbs kazakhstan admission"
+        title={cmsData?.seo?.title || "MBBS in Kazakhstan for Indian Students | Fees & Admission 2026"}
+        description={cmsData?.seo?.description || "MBBS in Kazakhstan at low cost with top universities. Get details on fees, eligibility, admission process and medical colleges."}
+        keywords={cmsData?.seo?.keywords || "mbbs in kazakhstan, kazakhstan mbbs fees, study mbbs kazakhstan, kazakhstan medical colleges"}
         path="/mbbs-abroad/kazakhstan"
         ogType="website"
       />
@@ -1048,7 +1049,7 @@ const Kazakhstan = () => {
       <div className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://www.ruseducation.in/wp-content/uploads/2022/01/Kazakh-National-Medical-University.webp"
+            src={cmsData?.hero?.image || "https://www.ruseducation.in/wp-content/uploads/2022/01/Kazakh-National-Medical-University.webp"}
             alt="Kazakhstan Landscape"
             className="w-full h-full object-cover brightness-75"
                   srcSet="https://www.ruseducation.in/wp-content/uploads/2022/01/Kazakh-National-Medical-University.webp 1x, https://www.ruseducation.in/wp-content/uploads/2022/01/Kazakh-National-Medical-University.webp 2x"
@@ -1056,7 +1057,7 @@ const Kazakhstan = () => {
                 />
           <div className="absolute inset-0 flex items-center justify-center">
             <h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-2xl">
-              STUDY MBBS IN KAZAKHSTAN
+              {cmsData?.hero?.title || "STUDY MBBS IN KAZAKHSTAN"}
             </h1>
           </div>
         </div>
@@ -1080,7 +1081,7 @@ const Kazakhstan = () => {
           </div>
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-blue-900">
-              Explore MBBS Opportunities in Kazakhstan 2026–2027
+              {cmsData?.hero?.subtitle || "Explore MBBS Opportunities in Kazakhstan 2026–2027"}
             </h2>
           </div>
         </div>
@@ -1248,7 +1249,7 @@ const Kazakhstan = () => {
         {/* ==================== UNIVERSITIES GRID ==================== */}
         <div id="universities" className="mb-20">
           <h2 className="text-4xl font-bold text-center text-blue-900 mb-12">
-            Top Medical Universities in Kazakhstan
+            {cmsData?.universitiesHeading || "Top Medical Universities in Kazakhstan"}
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">

@@ -1,3 +1,4 @@
+import hospitalityManagementData from "../../../../data/study_abroad/usa/hospitality_management.json";
 import { formatRichText, EligibilityCtaCard } from "../../../../component/CoursePageKit";
 import React from "react";
 import { AbroadCoursePage } from "../../../../component/CoursePageKit";
@@ -395,14 +396,29 @@ const imgDims = { w: 900, h: 760 };
 
 // UI is rendered by the shared polished course template (CoursePageKit).
 // All content in the page object above is unchanged.
-const HospitalityManagementAbroad = () => (
-  <AbroadCoursePage
-    page={page}
-    heroImg={heroImg}
-    sideImg={sideImg}
-    imgDims={imgDims}
-    seoPath="/study-abroad/usa/hospitality-management"
-  />
-);
+const HospitalityManagementAbroad = () => {
+  const dynamicPage = {
+    ...page,
+    title: hospitalityManagementData?.seo?.title || page.title,
+    description: hospitalityManagementData?.seo?.description || page.description,
+    heroParas: hospitalityManagementData?.hero?.subtitle ? [hospitalityManagementData.hero.subtitle] : page.heroParas,
+    overview: hospitalityManagementData?.overview ? (Array.isArray(hospitalityManagementData.overview) ? hospitalityManagementData.overview : hospitalityManagementData.overview.split('\n\n')) : page.overview,
+    faqs: (hospitalityManagementData?.faq && hospitalityManagementData.faq.length > 0)
+      ? hospitalityManagementData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
+      : page.faqs,
+  };
+
+  return (
+    <AbroadCoursePage
+      page={dynamicPage}
+      heroImg={heroImg}
+      heroBgImg={typeof heroBgImg !== 'undefined' ? heroBgImg : undefined}
+      sideImg={sideImg}
+      ctaBgImg={typeof ctaBgImg !== 'undefined' ? ctaBgImg : undefined}
+      imgDims={typeof imgDims !== 'undefined' ? imgDims : undefined}
+      seoPath="/study-abroad/usa/hospitality-management"
+    />
+  );
+};
 
 export default HospitalityManagementAbroad;

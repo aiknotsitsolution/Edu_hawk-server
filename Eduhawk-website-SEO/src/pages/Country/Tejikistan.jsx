@@ -1,3 +1,4 @@
+import cmsData from "../../data/medical_colleges/tajikistan.json";
 
 
 import React, { useState } from "react";
@@ -16,9 +17,9 @@ const Tajikistan = () => {
   return (
     <>
       <SeoHead
-        title="MBBS in Tajikistan for Indian Students | Fees & Admission"
-        description="Study MBBS in Tajikistan at affordable cost. Check eligibility, admission process and recognized medical universities."
-        keywords="mbbs in tajikistan, tajikistan mbbs fees, study mbbs tajikistan, tajikistan medical colleges, mbbs tajikistan admission"
+        title={cmsData?.seo?.title || "MBBS in Tajikistan for Indian Students | Fees & Admission"}
+        description={cmsData?.seo?.description || "Study MBBS in Tajikistan at affordable cost. Check eligibility, admission process and recognized medical universities."}
+        keywords={cmsData?.seo?.keywords || "mbbs in tajikistan, tajikistan mbbs fees, study mbbs tajikistan, tajikistan medical colleges"}
         path="/mbbs-abroad/tajikistan"
         ogType="website"
       />
@@ -27,7 +28,7 @@ const Tajikistan = () => {
         <div className="relative h-screen overflow-hidden">
           <div className="absolute inset-0">
             <img
-              src="https://www.edurizon.in/_next/image?url=%2Fassets%2FImages%2Fmbbs-in-tajikistan%2Ftajik-national-university%2Ftnu.jpg&w=3840&q=75"
+              src={cmsData?.hero?.image || "https://www.edurizon.in/_next/image?url=%2Fassets%2FImages%2Fmbbs-in-tajikistan%2Ftajik-national-university%2Ftnu.jpg&w=3840&q=75"}
               alt="Tajikistan Landscape"
               className="w-full h-full object-cover brightness-75"
                   srcSet="https://www.edurizon.in/_next/image?url=%2Fassets%2FImages%2Fmbbs-in-tajikistan%2Ftajik-national-university%2Ftnu.jpg&w=3840&q=75 1x, https://www.edurizon.in/_next/image?url=%2Fassets%2FImages%2Fmbbs-in-tajikistan%2Ftajik-national-university%2Ftnu.jpg&w=3840&q=75 2x"
@@ -35,8 +36,8 @@ const Tajikistan = () => {
                 />
             <div className="absolute inset-0 flex items-center justify-center">
               <h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-2xl">
-                STUDY MBBS IN TAJIKISTAN
-              </h1>
+              {cmsData?.hero?.title || "STUDY MBBS IN TAJIKISTAN"}
+            </h1>
             </div>
           </div>
         </div>
@@ -59,7 +60,7 @@ const Tajikistan = () => {
             </div>
             <div>
               <h2 className="text-4xl md:text-5xl font-bold text-blue-900">
-                Explore MBBS Opportunities in Tajikistan 2026–2027
+                {cmsData?.hero?.subtitle || "Explore MBBS Opportunities in Tajikistan 2026–2027"}
               </h2>
             </div>
           </div>
@@ -209,7 +210,7 @@ const Tajikistan = () => {
           {/* ==================== UNIVERSITIES GRID ==================== */}
           <div className="mb-20">
             <h2 className="text-4xl font-bold text-center text-blue-900 mb-12">
-              Top Medical Universities in Tajikistan
+              {cmsData?.universitiesHeading || "Top Medical Universities in Tajikistan"}
             </h2>
 
             <div className="grid md:grid-cols-3 gap-8">

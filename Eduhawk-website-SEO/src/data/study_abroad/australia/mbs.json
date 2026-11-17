@@ -6,9 +6,9 @@
   "hero": {
     "badge": "Study Abroad - Australia",
     "title": "Indian Students Pursuing a Master of Business Studies in Australia",
-    "subtitle": "Developing knowledge of business operations, management, finance, marketing, organizational strategy, and decision-making is the main goal of the Master of Business Studies (MBS), a postgraduate-level business degree.",
+    "subtitle": "Developing knowledge of business operations, management, finance, marketing, organizational strategy, and decision-making is the main goal of the Master of Business Studies (MBS), a postgraduate-level business degree .",
     "ctaText": "Book Free Counselling",
-    "image": ""
+    "image": "/uploads/study_abroad/australia/mbs_Sydney_University_of_Technology-image3.png"
   },
   "stats": [
     {
@@ -29,37 +29,640 @@
     }
   ],
   "highlights": {
-    "degree": "Master of Business Studies (MBS)",
+    "degree": "Master of Business Studies",
     "duration": "1.5 to 2 Years Full-Time",
     "fee": "AUD 30,000 – AUD 52,000 / Year",
     "eligibility": "Recognised academic qualification + English proficiency",
-    "medium": "100% English Taught"
+    "medium": "English"
   },
-  "overview": "These courses may incorporate case studies, research, group projects, business initiatives, and real-world industry applications with theoretical instruction.\n\nOptions for Related Postgraduate Courses:\n\nMaster of Business Studies, if applicable\n\nMaster of Business\n\nMaster's degree in Commerce\n\nMaster of Management\n\nMaster's degree in International Business\n\nMaster's degree in Business Analytics\n\nMaster's degree in Human Resource Management\n\nMaster's degree in Marketing\n\nMaster's degree in Finance\n\nMaster's Program in Project Management\n\nThe university determines the precise qualification that is granted. Before submitting an application, students should verify the official course title.\n\nEdu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities.",
-  "universities": [
+  "overview": [
+    "Developing knowledge of business operations, management, finance, marketing, organizational strategy, and decision-making is the main goal of the Master of Business Studies (MBS), a postgraduate-level business degree .",
+    "The Master of Business, Master of Commerce, Master of Management, and specialized business master's degrees are examples of Australian postgraduate programs that offer comparable business education to students interested in this sector.",
+    "These courses may incorporate case studies, research, group projects, business initiatives, and real-world industry applications with theoretical instruction.",
+    "Options for Related Postgraduate Courses:",
+    "Master of Business Studies, if applicable",
+    "Master of Business",
+    "Master's degree in Commerce",
+    "Master of Management",
+    "Master's degree in International Business",
+    "Master's degree in Business Analytics",
+    "Master's degree in Human Resource Management",
+    "Master's degree in Marketing",
+    "Master's degree in Finance",
+    "Master's Program in Project Management",
+    "The university determines the precise qualification that is granted. Before submitting an application, students should verify the official course title.",
+    "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities."
+  ],
+  "sections": [
     {
-      "name": "The University of Melbourne",
-      "location": "Melbourne, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "slot": "overview",
+      "eyebrow": "Course Scope",
+      "title": "Overview of the Course",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Developing knowledge of business operations, management, finance, marketing, organizational strategy, and decision-making is the main goal of the Master of Business Studies (MBS), a postgraduate-level business degree ."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The Master of Business, Master of Commerce, Master of Management, and specialized business master's degrees are examples of Australian postgraduate programs that offer comparable business education to students interested in this sector."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These courses may incorporate case studies, research, group projects, business initiatives, and real-world industry applications with theoretical instruction."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Options for Related Postgraduate Courses:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Master of Business Studies, if applicable",
+            "Master of Business",
+            "Master's degree in Commerce",
+            "Master of Management",
+            "Master's degree in International Business",
+            "Master's degree in Business Analytics",
+            "Master's degree in Human Resource Management",
+            "Master's degree in Marketing",
+            "Master's degree in Finance",
+            "Master's Program in Project Management"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The university determines the precise qualification that is granted. Before submitting an application, students should verify the official course title."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities."
+          ]
+        }
+      ]
     },
     {
+      "slot": "why-study",
+      "eyebrow": "Key Benefits",
+      "title": "Why Study Business Studies in Australia?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Australia provides a variety of postgraduate business study alternatives, internationally recognized degrees, and a multicultural academic environment."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Principal Advantages"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Gain a thorough understanding of management and business.",
+            "Develop your analytical and problem-solving abilities",
+            "Study business strategy, operations, marketing, and finance.",
+            "Boost teamwork, communication, and presenting abilities",
+            "Examine various business specializations.",
+            "When available, take advantage of industry projects and opportunities for hands-on learning.",
+            "Create professional networks in a global setting"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "One's career can be advanced in many different fields with a postgraduate business degree. However, the student's talents, experience, chosen specialization, and market conditions all affect job outcomes."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "3. Postgraduate Business Programs"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Master of Business: Gains extensive knowledge of management, strategy, leadership, marketing, finance, and related fields.",
+            "Master of Commerce: Typically concentrates on topics like business analytics, accounting, finance, economics, and commercial decision-making.",
+            "Master of Management: Develops leadership, organizational behavior, strategic planning, and management abilities.",
+            "Global business strategy, worldwide markets, cross-cultural management, and international trade are all included in the Master of worldwide Business program.",
+            "The Master of Business Analytics program focuses on supporting organizational choices with data, analytical tools, and business intelligence.",
+            "Recruitment, employee relations, talent development, workforce planning, and organizational development are all included in the Master of Human Resource Management program.",
+            "Consumer behavior, branding, market research, digital marketing, and marketing strategy are the main topics covered in the Master of Marketing program.",
+            "Master of Finance: Expands understanding of corporate finance, investment analysis, financial markets, and financial decision-making.",
+            "Project planning, budgeting, risk management, scheduling, and project delivery are all covered in the Master of Project Management program."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Australian Universities",
+      "title": "Top Universities in Australia",
+      "lead": "Explore leading Group of Eight and prestigious Australian universities renowned for academic excellence, state-of-the-art research laboratories, and strong industry partnerships.",
+      "unis": [
+        {
+          "name": "The University of Sydney",
+          "location": "Sydney, New South Wales",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/mbs_Sydney_University_of_Technology-image3.png",
+          "desc": ""
+        },
+        {
+          "name": "The National University of Australia",
+          "location": "Australia",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/mbs_The_National_University_of_Australia-image1.png",
+          "desc": ""
+        },
+        {
+          "name": "The University of Queensland",
+          "location": "Brisbane, Queensland",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/mbs_University_of_Technology_in_Queensland-image4.png",
+          "desc": ""
+        },
+        {
+          "name": "University of Wollongong",
+          "location": "Sydney, New South Wales",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/mbs_Wollongong_University-image2.png",
+          "desc": ""
+        }
+      ],
+      "groups": []
+    },
+    {
+      "slot": "specializations",
+      "eyebrow": "Specializations",
+      "title": "Specializations",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Students may explore specializations or electives in the following areas, depending on the university and course structure:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Management of Businesses",
+            "Accounting",
+            "Money",
+            "Promotion",
+            "Global Commerce",
+            "Management of Human Resources",
+            "Analytics for Business",
+            "Innovation and Entrepreneurship",
+            "Management of Projects",
+            "Logistics and Supply Chain",
+            "Economics",
+            "Systems of Information",
+            "Management of Strategy",
+            "Digital Enterprises",
+            "Management of Operations"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Not every degree offers every specialization. Some can call for enrolling in a different master's program."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Qualifications for Students from India",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Depending on the chosen university and postgraduate program, different admission requirements apply."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Typical prerequisites could be:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "An accredited bachelor's degree",
+            "Degree certificates and academic records",
+            "The university's minimum requirements for academic performance",
+            "Evidence of English language competency, when necessary",
+            "If asked, a personal statement or a statement of purpose",
+            "Letters of recommendation, if relevant",
+            "Work experience that is pertinent to the chosen programs",
+            "Extra requirements for specialized courses"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "language",
+      "eyebrow": "Language Requirements",
+      "title": "Language Requirements in English",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Unless they are excluded, international students typically have to show that they are proficient in the English language."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Tests that are frequently accepted include:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic IELTS"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "iBT for the TOEFL"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic PTE"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Additional exams that the university accepts"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "While not a prerequisite for all postgraduate programs, an IELTS Academic score of about 6.5 overall is a general planning reference. Higher scores or minimum outcomes in each component may be required for specific courses."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tests",
+      "eyebrow": "Entrance Exams",
+      "title": "Admission Tests",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "A separate entrance exam is not necessary for many postgraduate business programs. English language and prior academic credentials may be taken into consideration for admission."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Depending on the program, extra prerequisites could consist of:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "GRE or GMAT results for particular classes",
+            "An extra evaluation or interview",
+            "Work experience that is pertinent",
+            "A curriculum vitae or resume",
+            "Professional or scholarly references",
+            "Subjects required for specialized programs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Requirements for the GMAT or GRE are not uniform. Students should review each shortlisted university's unique admissions requirements."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Popular Courses",
+      "title": "Duration of Course",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "A postgraduate business degree's duration is determined by the university, degree program, prior coursework, and any credits awarded."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "While some may be shorter or longer, most Australian coursework master's programs require one to two years of full-time study."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Costs",
+      "title": "Living Expenses and Tuition",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The institution, length of the course, location, lodging, and individual lifestyle all affect the overall cost of studying in Australia."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Principal costs consist of:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "The cost of tuition",
+            "Lodging and utilities",
+            "Food and groceries",
+            "Public transportation",
+            "Health Coverage for International Students (OSHC)",
+            "Books and study guides",
+            "The cost of applying for a student visa",
+            "Emergency and personal costs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The cost of tuition varies significantly between degrees and universities. Students should determine the overall cost of tuition for the whole course by looking over the most recent international student price schedule."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Additionally, living expenses vary by city and personal situation. When creating the study budget, consult the most recent financial-capacity guidelines from the Australian Government."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scholarships",
+      "eyebrow": "Scholarships & Funding",
+      "title": "Indian Students Scholarships",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "International students who meet the requirements may be eligible to apply for tuition aid or scholarships."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Possible choices consist of:",
+            "Merit-based scholarships at universities",
+            "Scholarships for international students",
+            "Awards for academic excellence",
+            "Scholarships specific to faculty",
+            "Grants for tuition fees related to a course",
+            "Scholarships from outside sources for qualified candidates",
+            "The university, degree, intake, academic standing, nationality, and other eligibility requirements all affect the availability of scholarships."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "While some scholarships may automatically evaluate qualified applicants, others may require a separate application. The most recent award amount, deadline, renewal requirements, and course eligibility should all be verified by students."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Prospects",
+      "title": "Career Opportunities Following Graduation",
+      "groups": [
+        {
+          "t": "step",
+          "step": 1,
+          "title": "Evaluation of the Profile",
+          "desc": "Examine educational background, prior coursework, English language skills, financial situation, and professional objectives."
+        },
+        {
+          "t": "step",
+          "step": 2,
+          "title": "Choosing a Course",
+          "desc": "Examine the curriculum, length, specializations, cost of tuition, and career goals of pertinent postgraduate business schools."
+        },
+        {
+          "t": "step",
+          "step": 3,
+          "title": "Verify Your Eligibility",
+          "desc": "Verify any job experience or entrance exam requirements, as well as any academic prerequisites and English language proficiency requirements."
+        },
+        {
+          "t": "step",
+          "step": 4,
+          "title": "Prepare the Document",
+          "desc": "Prepare your passport, diplomas, academic credentials, and any necessary English test results."
+        },
+        {
+          "t": "step",
+          "step": 5,
+          "title": "Applying to Universities",
+          "desc": "Use an approved application channel or the university's official portal to submit your application."
+        },
+        {
+          "t": "step",
+          "step": 6,
+          "title": "Letter of Offer",
+          "desc": "Examine the enrollment requirements, deadlines, tuition deposit, and terms of the offer."
+        },
+        {
+          "t": "step",
+          "step": 7,
+          "title": "Verification of Enrollment",
+          "desc": "Obtain the necessary enrollment paperwork and finish the necessary acceptance procedures."
+        },
+        {
+          "t": "step",
+          "step": 8,
+          "title": "Applying for a Student Visa",
+          "desc": "If applicable, prepare the necessary documentation and submit an application for an Australian student visa (subclass 500)."
+        },
+        {
+          "t": "step",
+          "step": 9,
+          "title": "Getting Ready Before Departure",
+          "desc": "Make travel, lodging, insurance, financial planning, and orientation arrangements."
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Required Documents",
+      "title": "Documents Needed",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Students may require the following, depending on the university and visa application:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A valid passport",
+            "Certificate of bachelor's degree or temporary certificate",
+            "Marksheets and academic transcripts",
+            "Results of any appropriate English language tests",
+            "Current curriculum vitae or resume",
+            "If necessary, a statement of purpose",
+            "Letters of recommendation, if necessary",
+            "certifications of employment, if applicable",
+            "Financial records in order to obtain a visa",
+            "When necessary for the visa application, Confirmation of Enrollment (CoE)",
+            "Evidence of overseas student health coverage",
+            "The institution or Australian authorities have requested additional documents."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Each course and applicant has different requirements. Students should provide correct documentation and adhere to the official application guidelines."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "visa",
+      "eyebrow": "Student Visa",
+      "title": "Student Visa for Australia",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "In order to enrolll in an authorized full-time course in Australia, Indian students often require an Australian student visa (subclass 500)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Important factors could be:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Verification of Enrollment from a Qualified Educational Institution",
+            "Proof that satisfies the Genuine Student criterion",
+            "Evidence of financial capacity",
+            "Evidence in English, if applicable",
+            "Health Coverage for International Students",
+            "Requirements for character and health",
+            "Identity records and corroborating information"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Charges for applying for a visa, processing times, and proof requirements are subject to change. Before applying, students should visit the official website of the Australian Department of Home Affairs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Acceptance into a university does not ensure that a visa will be granted."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "assistance",
+      "eyebrow": "Edu Hawk Support",
+      "title": "How Edu Hawk Can Assist",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Edu Hawk worldwide consulting provides individualized course shortlisting and admission assistance to Indian students who are considering studying abroad."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Our assistance may consist of:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Examining educational backgrounds and professional aspirations",
+            "Finding appropriate postgraduate business courses",
+            "Comparing course lengths, tuition costs, and universities",
+            "Describe the English language requirements and academic eligibility.",
+            "Assisting students with the application materials",
+            "Assisting students in comprehending admission procedures and offer letters",
+            "Giving general advice on pre-departure preparation and visa paperwork"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "While Edu Hawk can assist students in finding appropriate options, institutions and the appropriate Australian authorities are still in charge of making admissions and visa decisions."
+          ]
+        }
+      ]
+    }
+  ],
+  "universities": [
+    {
       "name": "The University of Sydney",
-      "location": "Sydney, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "location": "Sydney, New South Wales",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/mbs_Sydney_University_of_Technology-image3.png",
+      "desc": ""
+    },
+    {
+      "name": "The National University of Australia",
+      "location": "Australia",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/mbs_The_National_University_of_Australia-image1.png",
+      "desc": ""
     },
     {
       "name": "The University of Queensland",
-      "location": "Brisbane, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "location": "Brisbane, Queensland",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/mbs_University_of_Technology_in_Queensland-image4.png",
+      "desc": ""
     },
     {
-      "name": "Monash University",
-      "location": "Melbourne, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "name": "University of Wollongong",
+      "location": "Sydney, New South Wales",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/mbs_Wollongong_University-image2.png",
+      "desc": ""
     }
   ],
   "faq": [
@@ -81,7 +684,29 @@
     },
     {
       "question": "Is employment or permanent residency guaranteed by a postgraduate business degree?",
-      "answer": "No. Outcomes related to employment, pay, and migration are not assured and rely on personal circumstances, the state of the labor market, and current immigration laws."
+      "answer": "No. Outcomes related to employment, pay, and migration are not assured and rely on personal circumstances, the state of the labor market, and current immigration laws. Keywords- Study Master of Business Studies in Australia for Indian Students Study Business Studies in Australia: Best Universities and Fees Study Master's in Business in Australia with Scholarships Study Business Studies in Australia: Eligibility and Admission Requirements Study Business Management and Commerce in Australia for Indian Students Study Business Studies in Australia: Career Opportunities After Graduation Study Business Studies in Australia: IELTS and GMAT Requirements Study Business Studies in Australia: Admission Process and Student Visa"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is it possible to get a Master of Business Studies in Australia?",
+      "a": "Australian universities do not all provide the precise title of Master of Business Studies. Related degrees including the Master of Business, Master of Commerce, and Master of Management are available to students."
+    },
+    {
+      "q": "How long does postgraduate business study take in Australia?",
+      "a": "Depending on the degree and the student's prior credentials, many coursework master's programs require one to two years of full-time study."
+    },
+    {
+      "q": "After earning a bachelor's degree, may Indian students apply?",
+      "a": "Indeed. If they fulfill the academic, English language, and other prerequisites for their program of choice, eligible Indian graduates may apply."
+    },
+    {
+      "q": "Is a background in business required?",
+      "a": "Not in every course. While specialized degrees may require pertinent academic preparation, other institutions admit graduates from other academic areas. For information on work limitations and relevant exclusions, consult the most recent Australian Government regulations."
+    },
+    {
+      "q": "Is employment or permanent residency guaranteed by a postgraduate business degree?",
+      "a": "No. Outcomes related to employment, pay, and migration are not assured and rely on personal circumstances, the state of the labor market, and current immigration laws. Keywords- Study Master of Business Studies in Australia for Indian Students Study Business Studies in Australia: Best Universities and Fees Study Master's in Business in Australia with Scholarships Study Business Studies in Australia: Eligibility and Admission Requirements Study Business Management and Commerce in Australia for Indian Students Study Business Studies in Australia: Career Opportunities After Graduation Study Business Studies in Australia: IELTS and GMAT Requirements Study Business Studies in Australia: Admission Process and Student Visa"
     }
   ]
 }

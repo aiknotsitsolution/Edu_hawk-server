@@ -11,6 +11,7 @@ import ctaBgImg from "../../../../Images/Abroad/France/PublicHealth/cta_bg.webp"
 import uniImg1 from "../../../../Images/Abroad/France/PublicHealth/EHESP_Rennes_School_of_Public_Health.webp";
 import uniImg2 from "../../../../Images/Abroad/France/PublicHealth/Paris_Cit_University_Paris.webp";
 import uniImg3 from "../../../../Images/Abroad/France/PublicHealth/University_of_Strasbourg.webp";
+import cmsData from "../../../../data/study_abroad/france/public_health.json";
 
 const page = {
   name: "Public Health in France",
@@ -302,6 +303,23 @@ const page = {
 };
 
 export default function PublicHealthinFrancePage() {
+  const dynamicPage = {
+    ...page,
+    name: cmsData.hero?.title || page.name,
+    heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
+    overview: cmsData.overview
+      ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
+      : page.overview,
+    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      .filter(s => s.label && s.value).length > 0
+      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      : page.stats,
+    seo: {
+      title: cmsData.seo?.title || page.title,
+      description: cmsData.seo?.description || page.description,
+    },
+  };
+
   const images = {
     hero: heroImg,
     heroBg: heroBgImg,
@@ -328,7 +346,7 @@ export default function PublicHealthinFrancePage() {
 
   return (
     <AbroadCoursePage
-      page={page}
+      page={dynamicPage}
       images={images}
       heroImg={heroImg}
       heroBgImg={heroBgImg}

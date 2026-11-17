@@ -1,3 +1,4 @@
+import cmsData from "../../../../../../data/study_abroad/finland/cs_engg_pg.json";
 import React from "react";
 import { AbroadCoursePage, formatRichText } from "../../../../../../component/CoursePageKit.jsx";
 import heroImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/ComputerScience/cs_pg_hero.webp";
@@ -431,7 +432,7 @@ const page = {
 const MastersinComputerScienceEngineeringPG = () => {
   return (
     <AbroadCoursePage
-      page={page}
+      page={withCmsData(page, cmsData)}
       heroImg={heroImg}
       sideImg={sideImg}
       heroBgImg={heroBgImg}

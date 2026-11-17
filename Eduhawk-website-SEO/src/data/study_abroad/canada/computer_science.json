@@ -1,14 +1,49 @@
 {
   "seo": {
     "title": "Computer Science in Canada for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study Computer Science in Canada: Top universities, English-taught programs, tuition fees (CAD $18,000–$45,000/yr), scholarships, eligibility criteria, and post-graduation work permit (PGWP) opportunities."
+    "description": "Study Computer Science in Canada: Top universities, English-taught programs, tuition fees (CAD $18,000–$45,000/yr), scholarships, eligibility criteria, and post-graduation work permit (PGWP) opportunities.",
+    "keywords": [
+      "Applied Computer Science",
+      "Software Engineering",
+      "Information Technology",
+      "Artificial Intelligence and Machine Learning",
+      "Data Science | | Cybersecurity",
+      "Computer Networks",
+      "Cloud Computing",
+      "Database Management",
+      "Computer Systems and Architecture",
+      "Human-Computer Interaction",
+      "Information security and cybersecurity",
+      "Software Engineering and Development",
+      "The use of cloud computing",
+      "Development of Web and Mobile Applications",
+      "Distributed Systems and Computer Networks",
+      "Data analytics and database management",
+      "Intelligent systems and robotics",
+      "Computational theory and algorithms",
+      "The campus's amenities, location, and available student assistance",
+      "Academic Performance - Minimum grades specified by the university or college",
+      "Programming expertise - May be suggested or necessary for specific programs",
+      "Depending on the course, candidates might require:",
+      "Software Developer",
+      "Web Developer",
+      "Data Analyst",
+      "Cybersecurity Analyst",
+      "Database Administrator",
+      "Artificial Intelligence Expert",
+      "Cloud Engineer",
+      "Machine Learning Engineer",
+      "Systems Analyst",
+      "Quality Assurance Analyst",
+      "When necessary, certified translations"
+    ]
   },
   "hero": {
-    "badge": "Study Abroad - Canada",
+    "badge": "Study Abroad · Canada",
     "title": "Computer Science in Canada",
-    "subtitle": "Studying Computer Science in Canada offers Indian students world-class North American academic excellence, cutting-edge research facilities, multicultural campuses, and lucrative post-graduation work permit (PGWP) opportunities.",
+    "subtitle": "Computer Science in Canada",
     "ctaText": "Book Free Counselling",
-    "image": ""
+    "image": "/uploads/study_abroad/canada/canada_computer_science_McGill_University-image4.png"
   },
   "stats": [
     {
@@ -35,53 +70,572 @@
     "eligibility": "Recognised academic qualification + IELTS / TOEFL / PTE proficiency",
     "medium": "English & French Taught"
   },
-  "overview": "Studying Computer Science in Canada offers Indian students world-class North American academic excellence, cutting-edge research facilities, multicultural campuses, and lucrative post-graduation work permit (PGWP) opportunities.",
+  "overview": [
+    "Opportunities to explore programming, software development, artificial intelligence, data science, cybersecurity, and other facets of contemporary technology are provided by computer science in Canada. Innovative digital solutions, software systems, algorithms, and computer principles are the main topics of this subject.",
+    "Software design, databases, cloud computing, machine learning, computer networks, and information security are just a few of the topics covered in the variety of Computer Science courses in Canada offered by Canadian universities and institutions. Students can select courses that fit their interests, professional aspirations, and academic backgrounds",
+    "Develop a solid foundation in computer programming, algorithms, software development, and computing systems with a high-quality education."
+  ],
   "universities": [
     {
-      "name": "University of Waterloo",
+      "name": "McGill University",
       "location": "Canada",
       "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
-    },
-    {
-      "name": "University of British Columbia",
-      "location": "Canada",
-      "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
+      "img": "/uploads/study_abroad/canada/canada_computer_science_McGill_University-image4.png",
+      "image": "/uploads/study_abroad/canada/canada_computer_science_McGill_University-image4.png",
+      "desc": "McGill University is one of Canada's top recognized institutions offering advanced academic and research programs."
     },
     {
       "name": "University of Alberta",
       "location": "Canada",
       "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
+      "img": "/uploads/study_abroad/canada/canada_computer_science_University_of_Alberta-image3.png",
+      "image": "/uploads/study_abroad/canada/canada_computer_science_University_of_Alberta-image3.png",
+      "desc": "University of Alberta is one of Canada's top recognized institutions offering advanced academic and research programs."
     },
     {
-      "name": "McGill University",
+      "name": "University of British Columbia",
       "location": "Canada",
       "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
+      "img": "/uploads/study_abroad/canada/canada_computer_science_University_of_British_Columbia-image2.png",
+      "image": "/uploads/study_abroad/canada/canada_computer_science_University_of_British_Columbia-image2.png",
+      "desc": "University of British Columbia is one of Canada's top recognized institutions offering advanced academic and research programs."
+    },
+    {
+      "name": "University of Waterloo",
+      "location": "Canada",
+      "fee": "CAD $18,000 – $45,000 / Year",
+      "img": "/uploads/study_abroad/canada/canada_computer_science_University_of_Waterloo-image1.png",
+      "image": "/uploads/study_abroad/canada/canada_computer_science_University_of_Waterloo-image1.png",
+      "desc": "University of Waterloo is one of Canada's top recognized institutions offering advanced academic and research programs."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Courses in Computer Science in Canada",
+      "lead": "Numerous Computer Science programs in Canada are available at Canadian universities and colleges. Each institution has different course names, lengths, prerequisites, and specialization options.",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Applied Computer Science",
+            "Software Engineering",
+            "Information Technology",
+            "Artificial Intelligence and Machine Learning",
+            "Data Science | | Cybersecurity",
+            "Computer Networks",
+            "Cloud Computing",
+            "Database Management",
+            "Computer Systems and Architecture",
+            "Human-Computer Interaction"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Computer Science Specializations"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Machine learning and artificial intelligence Big Data Analytics and Data Science",
+            "Information security and cybersecurity",
+            "Software Engineering and Development",
+            "The use of cloud computing",
+            "Development of Web and Mobile Applications",
+            "Distributed Systems and Computer Networks",
+            "Data analytics and database management",
+            "Intelligent systems and robotics",
+            "Computational theory and algorithms"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Canadian Universities",
+      "title": "Canada's Best Universities to Consider for Computer Science",
+      "lead": "",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "University of Waterloo"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "University of British Columbia"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "McGill University"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "University of Alberta"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "How to Pick the Best University"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Compare establishments according to:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Curriculum and specializations in computer science.",
+            "Research facilities and faculty expertise.",
+            "Project-based learning and laboratory work.",
+            "Co-ops, internships, and possibilities for work-integrated learning.",
+            "Career assistance and industry connections.",
+            "Living expenditures, scholarships, and tuition.",
+            "English language competency standards and admission requirements.",
+            "The campus's amenities, location, and available student assistance"
+          ]
+        }
+      ],
+      "unis": [
+        {
+          "name": "McGill University",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_computer_science_McGill_University-image4.png",
+          "image": "/uploads/study_abroad/canada/canada_computer_science_McGill_University-image4.png",
+          "desc": "McGill University is one of Canada's top recognized institutions offering advanced academic and research programs."
+        },
+        {
+          "name": "University of Alberta",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_computer_science_University_of_Alberta-image3.png",
+          "image": "/uploads/study_abroad/canada/canada_computer_science_University_of_Alberta-image3.png",
+          "desc": "University of Alberta is one of Canada's top recognized institutions offering advanced academic and research programs."
+        },
+        {
+          "name": "University of British Columbia",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_computer_science_University_of_British_Columbia-image2.png",
+          "image": "/uploads/study_abroad/canada/canada_computer_science_University_of_British_Columbia-image2.png",
+          "desc": "University of British Columbia is one of Canada's top recognized institutions offering advanced academic and research programs."
+        },
+        {
+          "name": "University of Waterloo",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_computer_science_University_of_Waterloo-image1.png",
+          "image": "/uploads/study_abroad/canada/canada_computer_science_University_of_Waterloo-image1.png",
+          "desc": "University of Waterloo is one of Canada's top recognized institutions offering advanced academic and research programs."
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Computer Science Study Eligibility in Canada",
+      "lead": "The institution, course level, program structure, and academic background all affect eligibility.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "General Requirement"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Academic Performance - Minimum grades specified by the university or college",
+            "Academic Qualification - Relevant prior academic qualification recognized by the institution",
+            "Mathematics Background - Programs involving algorithms, computing theory, and data science may require mathematics.",
+            "Programming expertise - May be suggested or necessary for specific programs"
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "English proficiency",
+              "d": "IELTS Academic, TOEFL iBT, PTE Academic, or another recognized exam"
+            }
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "IELTS score | Requirements vary; some universities typically demand an overall score of about 6.5 | | GRE | Only necessary for some programs, if applicable | Work Experience | May be important for some professional or specialized programs |"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should verify the precise requirements for admission to the Computer Science program in Canada that they have selected."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Computer Science Admission Requirements in Canada",
+      "lead": "Academic credentials, subject prerequisites, English language competency, and other program-specific requirements are typically evaluated by universities and colleges",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Educational requirements"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Academic credentials and grades.",
+            "Official transcripts of education. Verification of prior research completion.",
+            "Proof of proficiency in arithmetic or other necessary areas. - When necessary, certified translations of scholarly documents"
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Language Requirements in English"
+        },
+        {
+          "t": "p",
+          "items": [
+            "The TOEFL iBT, PTE Academic, IELTS Academic, or another recognized test may be required of international students to prove their English competence."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Institutions and programs have different minimum scores and exemption criteria."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Extra Requirements for Applications"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Depending on the course, candidates might require:",
+            "A current passport.",
+            "A purpose statement.",
+            "Letters of endorsement.",
+            "A current curriculum vitae or resume.",
+            "Programming project portfolio, upon request.",
+            "A research proposal for specific initiatives that rely on research.",
+            "GRE results, if relevant. - Filling out the application and paying the application cost."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "The cost of Computer Science Education in Canada",
+      "lead": "The institution, curriculum, city, lodging, and way of life all affect how much it costs to study computer science in Canada for international students .",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Projected Annual Costs"
+          ]
+        },
+        {
+          "t": "table",
+          "headers": [
+            "Tuition Fees",
+            "CAD 20,000–60,000+ annually"
+          ],
+          "rows": [
+            [
+              "Accommodations",
+              "CAD 8,000–18,000 annually"
+            ],
+            [
+              "Food and groceries",
+              "CAD 3,000–6,000 annually"
+            ],
+            [
+              "Books, software, and academic supplies",
+              "CAD 500–2,000 annually"
+            ],
+            [
+              "Transportation",
+              "CAD 800–2,000 annually"
+            ],
+            [
+              "Personal Expenses and Health Insurance",
+              "CAD 1,500–4,000 annually"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are not official university quotes; rather, they are general planning estimates. The actual costs can differ significantly depending on the region, course, and institution."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Opportunities for Funding and Scholarships"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students can explore :"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "International students are eligible for university scholarships.",
+            "Awards based on academic merit.",
+            "Scholarships from the department.",
+            "Research assistantships, if they are offered.",
+            "When available, teaching assistantships are offered.",
+            "External scholarships are available to qualified foreign applicants."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Funding and scholarships are contingent upon institutional policy, availability, and eligibility requirements"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Canada's Computer Science Admission Process",
+      "lead": "",
+      "groups": [
+        {
+          "t": "steps",
+          "items": [
+            {
+              "step": 1,
+              "title": "Determine Your Interests",
+              "desc": "Select a field like cloud computing, data science, cybersecurity, artificial intelligence, or software development."
+            },
+            {
+              "step": 2,
+              "title": "Make a shortlist of colleges and universities",
+              "desc": "Examine the classes, curriculum, facilities, job options, tuition costs, and location."
+            },
+            {
+              "step": 3,
+              "title": "Verify Your Eligibility",
+              "desc": "Examine the minimum grades, necessary disciplines, academic credentials, and any other prerequisites."
+            },
+            {
+              "step": 4,
+              "title": "Examine the English Language Requirements",
+              "desc": ""
+            },
+            {
+              "step": 5,
+              "title": "Verify the minimum scores, acceptable tests, and requirements for exemptions.",
+              "desc": "Prepare the application materials"
+            },
+            {
+              "step": 6,
+              "title": "Send in Your Application",
+              "desc": "Use the university's official application portal to submit an application and pay the applicable application fee before the deadline."
+            },
+            {
+              "step": 7,
+              "title": "Examine your admission offer",
+              "desc": "Examine the course specifics, cost, length, deposit requirements, and acceptance deadline."
+            },
+            {
+              "step": 8,
+              "title": "apply for a study permit in Canada.",
+              "desc": "Observe Immigration, Refugees and Citizenship Canada's (IRCC) current regulations. Unless there is an exemption, a provincial or territorial attestation letter might be necessary."
+            },
+            {
+              "step": 9,
+              "title": "Get Ready to Arrive",
+              "desc": "Make travel, lodging, health insurance, and university enrollment arrangements."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Gather identity documents, academic records, language test scores, and any other documentation needed."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Career Prospects in Canada Following Computer Science Study",
+      "lead": "Career options in software development, information technology, data management, cybersecurity, research, and other technology-related industries can be supported by a background in Computer Science",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Possible Jobs in Computer Science in Canada"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Software Developer",
+            "Web Developer",
+            "Data Analyst",
+            "Cybersecurity Analyst",
+            "Database Administrator",
+            "Artificial Intelligence Expert",
+            "Cloud Engineer",
+            "Machine Learning Engineer",
+            "Systems Analyst",
+            "Quality Assurance Analyst"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Qualifications, technical skills, real-world experience, company demands, and labor market conditions all influence career prospects. Additional education or training may be necessary for certain specialized positions."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Needed to Pursue Computer Science Education in Canada",
+      "lead": "The institution, program, and unique circumstances determine the precise document checklist.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Academic Writings"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Academic credentials and grades.",
+            "The official transcripts.",
+            "Verification of prior research completion.",
+            "Proof of the necessary preparatory courses.",
+            "When necessary, certified translations"
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Documents for University Applications"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A current passport.",
+            "Test results in English, if necessary.",
+            "A purpose statement, if necessary.",
+            "Letters of recommendation, if necessary.",
+            "A current curriculum vitae or resume, if appropriate.",
+            "Programming portfolio or project specifics, upon request.",
+            "A research proposal, if relevant. - Completed application and confirmation of fee payment"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Financial Records and Study Permit"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "An acceptance letter from a recognized educational institution in Canada.",
+            "If necessary and not exempt, a provincial or territorial attestation letter.",
+            "Proof of finances in accordance with IRCC regulations as of right now.",
+            "Forms and supporting documentation for immigration applications.",
+            "If necessary, a police certificate or medical checkup.",
+            "When appropriate, biometrics."
+          ]
+        }
+      ]
     }
   ],
   "faq": [
     {
+      "q": "Is it possible for Indian students to pursue computer science in Canada?",
+      "a": "Yes, assuming they fulfill the academic, linguistic, and other prerequisites for admission, Indian students can apply to qualified Computer Science programs in Canada.",
       "question": "Is it possible for Indian students to pursue computer science in Canada?",
       "answer": "Yes, assuming they fulfill the academic, linguistic, and other prerequisites for admission, Indian students can apply to qualified Computer Science programs in Canada."
     },
     {
+      "q": "What topics are taught in Canadian computer science courses?",
+      "a": "Programming, algorithms, data structures, software development, databases, computer networks, cybersecurity, and artificial intelligence are common topics. Programs have different subjects.",
       "question": "What topics are taught in Canadian computer science courses?",
       "answer": "Programming, algorithms, data structures, software development, databases, computer networks, cybersecurity, and artificial intelligence are common topics. Programs have different subjects."
     },
     {
+      "q": "How much does it cost to study computer science in Canada?",
+      "a": "The location, course, and institution all affect the cost of living and tuition. Before applying, students should study official fee schedules and create a budget.",
       "question": "How much does it cost to study computer science in Canada?",
       "answer": "The location, course, and institution all affect the cost of living and tuition. Before applying, students should study official fee schedules and create a budget."
     },
     {
+      "q": "After studying computer science in Canada, what are the employment options?",
+      "a": "Graduates can look for positions in database management, cloud computing, cybersecurity, software development, web development, data analytics, and other technology-related fields.",
       "question": "After studying computer science in Canada, what are the employment options?",
       "answer": "Graduates can look for positions in database management, cloud computing, cybersecurity, software development, web development, data analytics, and other technology-related fields."
     },
     {
+      "q": "How can Edu Hawk worldwide Consultancy help me study abroad?",
+      "a": "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities.",
       "question": "How can Edu Hawk worldwide Consultancy help me study abroad?",
-      "answer": "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities. Study Computer Science in Canada for Indian StudentsBest Universities for Computer Science in CanadaComputer Science Courses in Canada for International StudentsComputer Science Eligibility in CanadaComputer Science Admission Requirements in CanadaComputer Science Fees in Canada for Indian StudentsComputer Science Scholarships in Canada for International StudentsComputer Science Specialisations in CanadaArtificial Intelligence and Machine Learning Courses in CanadaSoftware Development Courses in CanadaCybersecurity Courses in CanadaData Science and Cloud Computing Courses in CanadaComputer Science Admission Process in CanadaCareer Opportunities After Computer Science in CanadaCanadian Study Permit Requirements for Computer Science Students"
+      "answer": "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is it possible for Indian students to pursue computer science in Canada?",
+      "a": "Yes, assuming they fulfill the academic, linguistic, and other prerequisites for admission, Indian students can apply to qualified Computer Science programs in Canada.",
+      "question": "Is it possible for Indian students to pursue computer science in Canada?",
+      "answer": "Yes, assuming they fulfill the academic, linguistic, and other prerequisites for admission, Indian students can apply to qualified Computer Science programs in Canada."
+    },
+    {
+      "q": "What topics are taught in Canadian computer science courses?",
+      "a": "Programming, algorithms, data structures, software development, databases, computer networks, cybersecurity, and artificial intelligence are common topics. Programs have different subjects.",
+      "question": "What topics are taught in Canadian computer science courses?",
+      "answer": "Programming, algorithms, data structures, software development, databases, computer networks, cybersecurity, and artificial intelligence are common topics. Programs have different subjects."
+    },
+    {
+      "q": "How much does it cost to study computer science in Canada?",
+      "a": "The location, course, and institution all affect the cost of living and tuition. Before applying, students should study official fee schedules and create a budget.",
+      "question": "How much does it cost to study computer science in Canada?",
+      "answer": "The location, course, and institution all affect the cost of living and tuition. Before applying, students should study official fee schedules and create a budget."
+    },
+    {
+      "q": "After studying computer science in Canada, what are the employment options?",
+      "a": "Graduates can look for positions in database management, cloud computing, cybersecurity, software development, web development, data analytics, and other technology-related fields.",
+      "question": "After studying computer science in Canada, what are the employment options?",
+      "answer": "Graduates can look for positions in database management, cloud computing, cybersecurity, software development, web development, data analytics, and other technology-related fields."
+    },
+    {
+      "q": "How can Edu Hawk worldwide Consultancy help me study abroad?",
+      "a": "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities.",
+      "question": "How can Edu Hawk worldwide Consultancy help me study abroad?",
+      "answer": "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities."
     }
   ]
 }

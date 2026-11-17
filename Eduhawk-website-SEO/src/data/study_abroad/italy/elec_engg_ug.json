@@ -1,14 +1,15 @@
 {
   "seo": {
     "title": "Electrical Engineering - UG in Italy for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study Electrical Engineering - UG in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities."
+    "description": "Study Electrical Engineering - UG in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
+    "keywords": "Primary keyword, 1. Electrical Engineering in Italy, Secondary keywords, Bachelors programs in Electrical Engineering in Italy, Why Study Electrical Engineering in Italy Bachelors, Bachelors degrees in Electrical Engineering in Italy, Electrical Engineering Study Programs in Italy, Electrical Engineering Courses in Italy, Electrical Engineering Universities in Italy, studying Electrical Engineering in Italy Bachelors, Electrical Engineering in Italy Eligibility, Electrical Engineering Admission Requirements in Italy, Electrical Engineering Fees in Italy, Admission to Electrical Engineering in Italy, Electrical Engineering Jobs In Italy, Edu-Hawk Worldwide"
   },
   "hero": {
     "badge": "Study Abroad - Italy",
     "title": "Introduction",
-    "subtitle": "Secondary keywords",
+    "subtitle": "Italy is a very interesting destination for students interested in electricity, power systems, renewable energy, electrical machines, industrial automation and modern energy infrastructure. The engineering programs offered by Italian universities provide a mix of scientific fundamentals, technical knowledge and practical experience.",
     "ctaText": "Book Free Counselling",
-    "image": ""
+    "image": "/uploads/study_abroad/italy/elec_engg_ug_Polytechnic_of_Turin-image1.png"
   },
   "stats": [
     {
@@ -29,38 +30,767 @@
     }
   ],
   "highlights": {
-    "degree": "Undergraduate",
+    "degree": "Bachelor in Electrical Engineering",
     "duration": "3 to 4 Years (UG) / 2 Years (PG)",
     "fee": "€1,000 – €4,000 / Year (Public) | €6,000 – €20,000 / Year (Private)",
     "eligibility": "Recognised academic qualification + English / Italian proficiency",
-    "medium": "English & Italian Taught"
+    "medium": "English / Italian"
   },
-  "overview": "Secondary keywords",
-  "universities": [
+  "overview": [
+    "Italy is a very interesting destination for students interested in electricity, power systems, renewable energy, electrical machines, industrial automation and modern energy infrastructure. The engineering programs offered by Italian universities provide a mix of scientific fundamentals, technical knowledge and practical experience.",
+    "In Italy, Electrical Engineering in Italy at the bachelor's level is usually a three-year undergraduate degree (Laurea) worth 180 ECTS credits. Students are introduced to electrical circuits, electromagnetism, electrical machines, power generation, energy distribution, control systems and electrical safety.",
+    "For students in India who have completed Class 12, Bachelors programs in Electrical Engineering in Italy can provide a path to international engineering education. However, applicants should verify the teaching language, academic requirements, entrance examinations, tuition fees and application deadlines for each university.",
+    "Edu-Hawk Worldwide helps students to find the right universities, know eligibility, prepare their documents and strategize their applications to study in Italy."
+  ],
+  "sections": [
     {
-      "name": "Politecnico di Milano",
-      "location": "Milan, Italy",
-      "fee": "€1,000 – €3,900 / Year",
-      "image": ""
+      "slot": "why-study",
+      "eyebrow": "Key Benefits",
+      "title": "Why Study Electrical Engineering in Italy?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Electrical engineering is important in renewable energy, electric transportation, industrial automation, power distribution and energy efficient infrastructure. Italy's engineering universities have programs that introduce students to these technical areas and their industrial applications."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Why Study Electrical Engineering in Italy Bachelors programs?"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Solid engineering foundations: Learn math, physics, electrical circuits and electromagnetism.",
+            "Energy and power systems: Find out about electrical machines, power grids, electricity distribution and energy management.",
+            "Renewable energy applications: Learn about the electrical systems used in solar, wind and other renewable energy technologies.",
+            "Industrial applications: Gain an understanding of electrical equipment, automation, control systems and industrial processes.",
+            "Practical learning: Depending on the university, students may participate in lab sessions, design exercises and technical projects.",
+            "Further studies: Graduates can pursue master's degrees in electrical engineering, energy systems, power engineering and related fields."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students looking at Bachelors degrees in Electrical Engineering in Italy should think about course content, language of instruction, entrance test requirements, total study costs and postgraduate opportunities before deciding."
+          ]
+        }
+      ]
     },
     {
-      "name": "Sapienza University of Rome",
-      "location": "Rome, Italy",
-      "fee": "€1,000 – €3,000 / Year",
-      "image": ""
+      "slot": "programs",
+      "eyebrow": "Popular Courses",
+      "title": "Electrical Engineering Study Programs in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The undergraduate electrical engineering program equips students with the analytical, design, operational and managerial skills for electrical systems."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Core subjects"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Depending on the university, students may learn:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Engineering Maths",
+            "Physics and chemistry",
+            "Computer science CS",
+            "Theory of electric circuits",
+            "Electricity and magnetism",
+            "Electrical characterization",
+            "Electrical machines",
+            "Electricity production and distribution",
+            "Power electronic",
+            "Control systems",
+            "Fundamentals of Industrial Automation",
+            "Electrical installations and safety",
+            "Active systems",
+            "Technical drawing and engineering design"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "When comparing Electrical Engineering Courses in Italy , refer to the official curriculum to get an idea of how much each program focuses on power engineering, electronics, automation and energy technologies."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Popular specialization fields"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Power Systems Engineering: The study of the generation, transmission and distribution of electricity, grid reliability and power-system operation.",
+            "Renewable Energy Engineering: Electrical integration of solar and wind energy, energy conversion and sustainable electricity systems.",
+            "Electrical Machines: Motors, generators, transformers and their application in the industry.",
+            "Power Electronics: deals with electronic systems for conversion and control of electrical power.",
+            "Industrial Automation: Electrical engineering, control systems, sensors and automated industrial equipment.",
+            "Electric Mobility: Covers the electrical systems of electric vehicles, charging infrastructure and electrified transport."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some specializations are offered only as electives or master's programs and not as separate bachelor's degrees."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Italian Universities",
+      "title": "Top Universities in Italy",
+      "lead": "Explore top public research universities and polytechnics in Italy offering English-taught degrees, historic campuses, and generous regional scholarships.",
+      "unis": [
+        {
+          "name": "Polytechnic of Turin",
+          "location": "Italy",
+          "fee": "€1,000 – €4,000 / Year",
+          "image": "/uploads/study_abroad/italy/elec_engg_ug_Polytechnic_of_Turin-image1.png",
+          "desc": "The Politecnico di Torino offers a Bachelor's Degree in Electrical Engineering. The language of teaching is Italian and a limited number of students is indicated with an obligatory admission test in its program information 2026/27. The program exposes students to engineering mathematics, physics, electrical systems, electrical machines and energy related technologies. It will be of interest to students in power engineering, industrial electrification and sustainable energy systems. Applicants should check the entrance exam requirements, selection process and the seats available for the intake they wish to apply for. Official course page: https://www.polito.it/en/education/bachelor-s-degree-programmes/electrical-engineering"
+        },
+        {
+          "name": "University of Bologna",
+          "location": "Italy",
+          "fee": "€1,000 – €3,500 / Year",
+          "image": "/uploads/study_abroad/italy/elec_engg_ug_University_of_Bologna-image2.png",
+          "desc": "You could also look at the University of Bologna for undergraduate engineering paths. Applicants are advised to consult its current degree catalog for the exact electrical engineering program or related degree available for their intended intake. Before choosing a course, ensure it is a specific Electrical Engineering degree or a related program such as electronic, energy or automation engineering. These fields overlap but differ in curriculum and professional emphasis. Official degree catalog: https://www.unibo.it/en/study"
+        },
+        {
+          "name": "Other Engineering Routes",
+          "location": "Italy",
+          "fee": "€1,000 – €4,000 / Year (Public) | €6,000 – €20,000 / Year (Private)",
+          "image": "/uploads/study_abroad/italy/elec_engg_ug_Polytechnic_of_Turin-image1.png",
+          "desc": "Students can also look into related programs in energy engineering, electronic engineering, automation engineering and engineering science at Italian universities. These programs may overlap with electrical engineering in terms of subject matter, but they are not necessarily the equivalent of a dedicated bachelor's degree in electrical engineering. Electrical Engineering Universities in Italy - Compare the exact title of the degree, language of teaching, curriculum, admission test, tuition fees and qualification delivered."
+        }
+      ],
+      "groups": []
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Electrical Engineering in Italy Eligibility",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Indian applicants need to meet the academic and admission requirements of the university of their choice."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic qualifications"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Applicants typically need:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A recognized Higher Secondary School pass of Class 12 or equivalent.",
+            "A school qualification fulfilling the University's requirements for undergraduate study in Italy.",
+            "Mathematics and other prerequisite subjects as stated by the program.",
+            "Meeting any selection criteria Academic results",
+            "Additional qualification verification documents as requested."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The University assesses foreign qualifications according to its admission regulations and Italian requirements in force. There is no guaranty of admission even after passing Class 12."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Subject prerequisites"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electrical engineering students take classes in electromagnetism, circuit theory, power systems and engineering calculations. All of these require math. Physics is also important to understand electricity, energy, machines and electrical phenomena."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Applicants should check with the university to see if there are any subject requirements or minimum academic standards."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Language requirements"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Language requirements vary depending on the program chosen:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Italian-taught programs: Applicants might need to demonstrate Italian proficiency.",
+            "English-taught programs: May require proof of English language proficiency.",
+            "Mixed-language programs Students should check the language used in each year and any additional language requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Entrance tests"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some universities have an engineering entrance test or some other selection procedure. For example, Politecnico di Torino requires a mandatory admission test for its 2026/27 Electrical Engineering bachelor program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The syllabus, registration dates, selection criteria, and examination pattern vary from one institution to another. Students interested in studying Electrical Engineering in Italy Bachelors should consult the official admissions information for the program they are interested in."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Electrical Engineering Admission Requirements in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Admission may involve academic checks, entrance tests, language requirements, and supporting documents."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Documents commonly requested are:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Class 10 certificate and marksheet",
+            "Class 12 marksheet & certificate.",
+            "Matriculation certificate.",
+            "Passport (valid)",
+            "Results of entrance exams where applicable.",
+            "Evidence of language proficiency in Italian or English, where applicable.",
+            "Official translation of academic documents on demand.",
+            "Documents required for verification of foreign qualification.",
+            "Sorted out my university application.",
+            "Application Fee, if any.",
+            "Other declarations or forms required by the institution."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "What are entry exams for?"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Depending on the university, an engineering admission test may test:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Mathematics",
+            "Logic and rationality",
+            "Basic sciences",
+            "Problem solving skills",
+            "and other topics in the official syllabus of examination"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should not expect that all universities will have the same examination format and should prepare for the specific test required by their chosen institution."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Yes, Indian students can apply after 12th."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Yeah. Indian students are eligible to apply if they meet the university's entry requirements in terms of school qualification and the relevant subject, language, entrance test and documentation requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu-Hawk Worldwide can help students to check their eligibility, compare courses and organize their application documents."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "6. Electrical Engineering prices in Italy"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The cost of studying electrical engineering will depend on the university you choose, the tuition policies that apply, scholarships and your living arrangements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Estimated annual tuition:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Type of institution"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Estimated annual tuition fee"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Approx. INR equivalent"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "State Universities"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€900-€4,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹97,200-₹4,32,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Private institutions"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€6,000-€20,000+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹6,48,000-₹21,60,000+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are broad planning figures and not official fee quotations for all electrical engineering programs. Actual tuition may be higher or lower depending on the school and the student's circumstances."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Exchange rate example: €1 = ₹108. INR values are estimates and subject to change based on exchange rates."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should consult the university's official fee schedule for the academic year in question before entering into any financial commitments."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Estimated Monthly Living Costs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Spending"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Monthly cost estimate"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Lodgings"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€300-€600"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Grocer and food"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€150-€250"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Transport locally"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€25-€60"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Personal expenses and utilities"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€100-€200"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Total Estimate"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€700-€1,100"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Using the example exchange rate, this is an estimated living budget of about ₹75,600-₹1,18,800 a month. Real expenses will vary by city, accommodation and personal spending."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Bursaries and financial help"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "International students who meet the criteria can explore:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "University scholarships based on merit",
+            "Student grants and regional scholarships",
+            "Tuition remission or discounts",
+            "need-based financial assistance, when available",
+            "Other funding schemes for eligible students"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Scholarship eligibility, award amounts and deadlines differ. Financial aid is not guaranteed, so please prepare your budgets accordingly."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Tuition, accommodation, food, transport, insurance, travel, visa expenses and study materials. Electrical Engineering Fees in Italy - Calculate your tuition fees"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "7. Admission to Electrical Engineering in Italy"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are the general steps that students can follow when applying to Italian universities."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Pick your branch of engineering: You can opt to specialize in power systems, renewable energy, electrical machines, automation or electric mobility.",
+            "Shortlist Universities. Look at course structure, teaching language, tuition fees and location.",
+            "Check eligibility: Ensure that your Class 12 qualification and subjects are in line with the university's requirements.",
+            "Prepare for the entrance test: Find out what examination is required, review the syllabus and register before the deadline.",
+            "Collect your documents: Academic records, passport, proof of language proficiency and any qualification verification documents that are required.",
+            "Submit the application: Finish the application and selection procedures of the university.",
+            "Get the admission decision: Follow the university instructions to accept and enroll.",
+            "Complete pre-enrolment, if necessary Students requiring an Italian study visa usually complete the pre-enrolment procedure through Universitaly.",
+            "Apply for a student visa: send the documents requested by the Italian diplomatic mission competent for your country. Admission doesn't mean you'll get a visa.",
+            "Prepare for arrival Make accommodation, insurance and travel arrangements before you leave."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Application deadlines and procedures vary by institution, applicant category and intake. Follow the latest official university and visa guidance."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu-Hawk Worldwide can assist the students in comprehending the procedure, shortlist the suitable options and manage their applications."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Recognition, Professional Requirements and Further Education",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The Bachelor of Science degree in Electrical Engineering is appropriate as a basis for technical employment or for graduate study. Professionals have different requirements depending on the country, role and responsibilities."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Further studies: Graduates may continue with master's programs in electrical engineering, power systems, energy engineering, automation or similar subjects.",
+            "Engineering jobs Employers may test technical knowledge, practical experience, project work and relevant software skills.",
+            "Professional practice in Italy: Certain self-employed professional activities may require additional examinations or registration, depending on the profession.",
+            "Employment in India: Graduates should check the requirements of the prospective employer, the role and any relevant professional authority.",
+            "Plans for an international career: Recognition and work authorization rules differ from country to country."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students need to check that the program curriculum supports their intended career pathway and any professional requirements relevant to their future plans."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "9. Electrical Engineering Jobs In Italy"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Graduates may find employment in electrical equipment manufacturing, energy, industrial automation, power distribution, electric transportation and engineering services."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Possible starting positions are:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Graduate Engineer Electrical",
+            "Junior Electrical Design Enginner",
+            "Maintenance Engineer - Electrical",
+            "Assistant, Power Systems Engineering",
+            "Electric Testing Technician",
+            "Assistant, Industrial Automation",
+            "Trainee Electrical Project Engineer (",
+            "Assistant Engineer - Energy (Renewable)",
+            "Assistant Electrical Equipment Designer",
+            "Assistant Power Distribution Engineer",
+            "Assistant Control Systems",
+            "Technician Project Coordinator"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Industries needing electrical engineering graduates"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Power and utilities: electricity generation, transmission, distribution and power system operations.",
+            "Renewable energy: Electrical systems for solar, wind, storage and grid-integration.",
+            "Industrial manufacturing: Electrical machinery, motors, generators, equipment testing and plant maintenance.",
+            "Automation and robotics: Electrical control systems, sensors, industrial equipment and automated production systems.",
+            "Transportation: Electric vehicles, charging infrastructure, railroad electrification, transport systems",
+            "Engineering consultancy: Technical documentation, electrical design support, testing and energy-efficiency projects."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Required Documents",
+      "title": "Required documents",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "International applicants may need to submit all or some of the following documents:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Valid passport.",
+            "Class 10 certificate and marksheet.",
+            "Class 12 marksheet & certificate.",
+            "School-leaving certificate (SSL)",
+            "The university requested academic transcripts and other school records.",
+            "Score on entrance exam (if applicable).",
+            "Proof of English or Italian language skills, if required.",
+            "Official translations of academic documents, if required.",
+            "Qualification-verification documents (if required).",
+            "Application to university submitted.",
+            "Letter of admission or enrollment papers.",
+            "Proof of financial means, accommodation and insurance as required for the visa.",
+            "Any other documents required by the university or consular authority."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The final checklist depends on the university, applicant's qualification and applicable visa procedures. Refer to the official checklist of the selected course and intake."
+          ]
+        }
+      ]
+    }
+  ],
+  "universities": [
+    {
+      "name": "Polytechnic of Turin",
+      "location": "Italy",
+      "fee": "€1,000 – €4,000 / Year",
+      "image": "/uploads/study_abroad/italy/elec_engg_ug_Polytechnic_of_Turin-image1.png",
+      "desc": "The Politecnico di Torino offers a Bachelor's Degree in Electrical Engineering. The language of teaching is Italian and a limited number of students is indicated with an obligatory admission test in its program information 2026/27. The program exposes students to engineering mathematics, physics, electrical systems, electrical machines and energy related technologies. It will be of interest to students in power engineering, industrial electrification and sustainable energy systems. Applicants should check the entrance exam requirements, selection process and the seats available for the intake they wish to apply for. Official course page: https://www.polito.it/en/education/bachelor-s-degree-programmes/electrical-engineering"
     },
     {
       "name": "University of Bologna",
-      "location": "Bologna, Italy",
+      "location": "Italy",
       "fee": "€1,000 – €3,500 / Year",
-      "image": ""
+      "image": "/uploads/study_abroad/italy/elec_engg_ug_University_of_Bologna-image2.png",
+      "desc": "You could also look at the University of Bologna for undergraduate engineering paths. Applicants are advised to consult its current degree catalog for the exact electrical engineering program or related degree available for their intended intake. Before choosing a course, ensure it is a specific Electrical Engineering degree or a related program such as electronic, energy or automation engineering. These fields overlap but differ in curriculum and professional emphasis. Official degree catalog: https://www.unibo.it/en/study"
     },
     {
-      "name": "University of Padua",
-      "location": "Padua, Italy",
-      "fee": "€1,000 – €2,800 / Year",
-      "image": ""
+      "name": "Other Engineering Routes",
+      "location": "Italy",
+      "fee": "€1,000 – €4,000 / Year (Public) | €6,000 – €20,000 / Year (Private)",
+      "image": "/uploads/study_abroad/italy/elec_engg_ug_Polytechnic_of_Turin-image1.png",
+      "desc": "Students can also look into related programs in energy engineering, electronic engineering, automation engineering and engineering science at Italian universities. These programs may overlap with electrical engineering in terms of subject matter, but they are not necessarily the equivalent of a dedicated bachelor's degree in electrical engineering. Electrical Engineering Universities in Italy - Compare the exact title of the degree, language of teaching, curriculum, admission test, tuition fees and qualification delivered."
     }
   ],
-  "faq": []
+  "faq": [
+    {
+      "question": "Can Indian students pursue Electrical Engineering in Italy after 12th?",
+      "answer": "Yeah. Indian students can apply provided they have Class 12 qualification meeting the university's entry requirements and also meet the relevant academic, language, entrance-test and document conditions."
+    },
+    {
+      "question": "How long does a bachelors degree in electrical engineering last in Italy?",
+      "answer": "In Italy, most electrical engineering bachelor degrees are three years long and give 180 ECTS credits. Students should check the length and structure of the program they are applying for."
+    },
+    {
+      "question": "Are there any electrical engineering bachelor's programs taught in English in Italy?",
+      "answer": "Many of the programs are taught in Italian. For instance, the aforementioned bachelor's programs of Politecnico di Milano and Politecnico di Torino are taught in Italian. It is recommended that applicants check the language of instruction before applying."
+    },
+    {
+      "question": "How much does it cost to study electrical engineering in Italy?",
+      "answer": "The average cost of tuition at public universities can range from about €900 to €4,000 per year, whereas private institutions are generally more expensive. Actual fees depend on the institution, program and fee rules applicable."
+    },
+    {
+      "question": "What to do after bachelor in electrical engineering in Italy?",
+      "answer": "Depending on your skills and experience, you may be looking for jobs in power systems, electrical design, equipment manufacturing, renewable energy, industrial automation, maintenance and electrical testing. Some graduates take a master's degree for further specialization."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can Indian students pursue Electrical Engineering in Italy after 12th?",
+      "a": "Yeah. Indian students can apply provided they have Class 12 qualification meeting the university's entry requirements and also meet the relevant academic, language, entrance-test and document conditions."
+    },
+    {
+      "q": "How long does a bachelors degree in electrical engineering last in Italy?",
+      "a": "In Italy, most electrical engineering bachelor degrees are three years long and give 180 ECTS credits. Students should check the length and structure of the program they are applying for."
+    },
+    {
+      "q": "Are there any electrical engineering bachelor's programs taught in English in Italy?",
+      "a": "Many of the programs are taught in Italian. For instance, the aforementioned bachelor's programs of Politecnico di Milano and Politecnico di Torino are taught in Italian. It is recommended that applicants check the language of instruction before applying."
+    },
+    {
+      "q": "How much does it cost to study electrical engineering in Italy?",
+      "a": "The average cost of tuition at public universities can range from about €900 to €4,000 per year, whereas private institutions are generally more expensive. Actual fees depend on the institution, program and fee rules applicable."
+    },
+    {
+      "q": "What to do after bachelor in electrical engineering in Italy?",
+      "a": "Depending on your skills and experience, you may be looking for jobs in power systems, electrical design, equipment manufacturing, renewable energy, industrial automation, maintenance and electrical testing. Some graduates take a master's degree for further specialization."
+    }
+  ]
 }

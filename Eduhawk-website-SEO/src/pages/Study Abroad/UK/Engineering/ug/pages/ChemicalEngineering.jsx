@@ -1,3 +1,4 @@
+import cmsData from "../../../../../../data/study_abroad/uk/chem_engg_ug.json";
 import React from "react";
 import { AbroadCoursePage } from "../../../../../../component/CoursePageKit.jsx";
 
@@ -25,7 +26,6 @@ const page = {
     "Chemical engineering is a branch of engineering that uses process design, chemistry, mathematics, and physics to safely and effectively convert raw materials into useful products. Pharmaceutical, food, energy, water treatment, biotechnology, sophisticated materials, and manufacturing processes are developed and enhanced by chemical engineers."
   ],
   "overview": [
-    "Chemical engineering is a branch of engineering that uses process design, chemistry, mathematics, and physics to safely and effectively convert raw materials into useful products. Pharmaceutical, food, energy, water treatment, biotechnology, sophisticated materials, and manufacturing processes are developed and enhanced by chemical engineers.",
     "The UK offers undergraduate Chemical Engineering degrees that incorporate practical projects, laboratory experimentation, industrial design, process modeling, and theoretical learning. While taking sustainability, efficiency, safety, and environmental effect into account, students learn how to design and run large-scale manufacturing systems.",
     "Studying Chemical Engineering in the UK can lay the groundwork for Indian students to pursue jobs in biotechnology, energy, pharmaceuticals, chemicals, process industries, and sustainable manufacturing."
   ],
@@ -1005,9 +1005,40 @@ const page = {
 };
 
 export default function ChemicalEngineeringUK() {
+  const dynamicPage = {
+    ...page,
+    title: cmsData?.seo?.title || page.title,
+    description: cmsData?.seo?.description || page.description,
+    introTitle: cmsData?.hero?.title || page.introTitle || page.name,
+    heroParas: cmsData?.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
+    overview: (cmsData?.overview && cmsData.overview.length > 0 && cmsData.overview[0] !== "")
+      ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
+      : page.overview,
+    sections: (cmsData?.sections && cmsData.sections.length > 0)
+      ? cmsData.sections
+      : page.sections,
+    universities: (cmsData?.universities && cmsData.universities.length > 0)
+      ? cmsData.universities.map((u, idx) => ({
+          ...u,
+          img: u.img || u.image || page.universities?.[idx]?.img,
+          image: u.img || u.image || page.universities?.[idx]?.image || page.universities?.[idx]?.img
+        }))
+      : page.universities,
+    faqs: (cmsData?.faqs && cmsData.faqs.length > 0)
+      ? cmsData.faqs.map(f => ({ q: f.q || f.question, a: f.a || f.answer, question: f.q || f.question, answer: f.a || f.answer }))
+      : (cmsData?.faq && cmsData.faq.length > 0)
+        ? cmsData.faq.map(f => ({ q: f.q || f.question, a: f.a || f.answer, question: f.q || f.question, answer: f.a || f.answer }))
+        : page.faqs,
+    seo: {
+      title: cmsData?.seo?.title || page.title,
+      description: cmsData?.seo?.description || page.description,
+      keywords: cmsData?.seo?.keywords || page.keywords,
+    },
+  };
+
   return (
     <AbroadCoursePage
-      page={page}
+      page={dynamicPage}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

@@ -1,3 +1,4 @@
+import cmsData from "../../data/medical_colleges/italy.json";
 import React, { useState } from "react";
 import SeoHead from "../../component/SeoHead.jsx";
 import { Link } from "react-router-dom";
@@ -28,8 +29,9 @@ const Italy = () => {
   return (
     <div className="min-h-screen bg-gray-50 font-sans">
       <SeoHead
-        title="MBBS in Italy 2026-27 | Admissions, Fees & Universities | Edu Hawk"
-        description="Explore MBBS in Italy for Indian students: eligibility, admission process, top medical universities, documents and food & accommodation costs. Study MBBS in Italy for a safe, affordable, and globally recognized medical education."
+        title={cmsData?.seo?.title || "MBBS in Italy 2026-27 | Admissions, Fees & Universities | Edu Hawk"}
+        description={cmsData?.seo?.description || "Explore MBBS in Italy for Indian students: eligibility, admission process, top medical universities, documents and food & accommodation costs."}
+        keywords={cmsData?.seo?.keywords || "mbbs in italy, study mbbs italy, italy medical colleges, imat exam, mbbs abroad italy"}
         path="/mbbs-abroad/italy"
         ogType="website"
       />
@@ -48,7 +50,7 @@ const Italy = () => {
                 />
           <div className="absolute inset-0 flex items-center justify-center">
             <h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-2xl text-center px-4">
-              STUDY MBBS IN ITALY
+              {cmsData?.hero?.title || "STUDY MBBS IN ITALY"}
             </h1>
           </div>
         </div>
@@ -70,7 +72,7 @@ const Italy = () => {
           </div>
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-blue-900">
-              Explore MBBS Opportunities in Italy 2026–2027
+              {cmsData?.hero?.subtitle || "Explore MBBS Opportunities in Italy 2026–2027"}
             </h2>
           </div>
         </div>

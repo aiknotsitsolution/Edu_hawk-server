@@ -1,57 +1,81 @@
 {
   "seo": {
-    "title": "MBBS in India for Indian Students 2026-27 | Edu Hawk Worldwide",
-    "description": "Complete guide to MBBS in India. Eligibility, low tuition fees, top medical universities, NMC recognition and visa process."
+    "title": "MBBS Colleges in India 2026-27 | Government & Private Medical College List",
+    "description": "Explore MBBS colleges across India by state, management type (Government, Private, Trust, Society) and seat matrix. Complete guidance for NEET-UG aspirants.",
+    "keywords": "mbbs in india, medical colleges in india, aiims, govt medical colleges, neet ug counselling"
   },
   "hero": {
-    "badge": "MBBS Admissions 2026-27",
-    "title": "MBBS in India",
-    "subtitle": "Pursue your dream medical career with NMC & WHO accredited universities in India.",
-    "ctaText": "Apply for 2026-27 Intake",
-    "image": ""
+    "badge": "NEET-UG Counselling 2026-27",
+    "title": "MBBS Colleges in India",
+    "subtitle": "Comprehensive directory of NMC recognized Government, Private, and Trust Medical Colleges across all Indian States & Union Territories.",
+    "image": "/uploads/colleges/russia_header.webp",
+    "ctaText": "Explore Seat Matrix & Cut-offs"
   },
   "stats": [
     {
-      "n": "1000+",
-      "l": "Students Placed Globally"
+      "n": "700+",
+      "l": "Medical Colleges Across India"
     },
     {
-      "n": "20+",
-      "l": "Countries"
-    },
-    {
-      "n": "200+",
-      "l": "Partner Universities"
+      "n": "1,00,000+",
+      "l": "Total MBBS Seats"
     },
     {
       "n": "100%",
-      "l": "Support (Visa & End-to-End Guidance)"
+      "l": "NMC Recognized"
+    },
+    {
+      "n": "NEET-UG",
+      "l": "Central & State Counselling"
     }
   ],
   "highlights": {
-    "degree": "MD / MBBS (Equivalent)",
-    "duration": "5 to 6 Years",
-    "fee": "15 - 35 Lakhs Total Package",
-    "eligibility": "50% in PCB (Class 12) + NEET Qualified",
-    "medium": "100% English Medium"
+    "degree": "MBBS (Bachelor of Medicine & Bachelor of Surgery)",
+    "duration": "5.5 Years (4.5 Years + 1 Year Internship)",
+    "fee": "Govt: ₹10k - ₹1L/yr | Private: ₹12L - ₹25L/yr",
+    "eligibility": "10+2 with 50% in PCB + NEET-UG Qualified",
+    "medium": "English"
   },
-  "overview": "MBBS in India offers high quality medical education, advanced clinical training in affiliated government hospitals, and globally recognized medical degrees.",
+  "overview": "India features over 700 NMC-recognized medical colleges offering more than 100,000 MBBS seats through NEET-UG. From premier national institutes like AIIMS and JIPMER to respected state government colleges and deemed universities, Edu Hawk Worldwide provides end-to-end guidance for all-India quota (AIQ) and state quota counselling.",
+  "universitiesHeading": "Premier Medical Institutes in India",
   "universities": [
     {
-      "name": "Top State Medical University (India)",
-      "location": "India",
-      "fee": "₹3.5 Lakhs / Year",
-      "image": ""
+      "name": "AIIMS New Delhi",
+      "location": "New Delhi, India",
+      "fee": "₹1,628 / Year (Nominal Govt)",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Alexandria_University.JPG/1280px-Alexandria_University.JPG",
+      "desc": "India's highest-ranked medical institute and premier research hospital."
+    },
+    {
+      "name": "Christian Medical College (CMC)",
+      "location": "Vellore, Tamil Nadu",
+      "fee": "₹52,000 / Year",
+      "image": "https://images.shiksha.com/mediadata/images/1702625100phpu2Kbnu.jpeg",
+      "desc": "One of the most prestigious non-profit private healthcare teaching institutions in Asia."
+    },
+    {
+      "name": "JIPMER",
+      "location": "Puducherry, India",
+      "fee": "₹12,000 / Year",
+      "image": "https://ik.imagekit.io/syustaging/SYU_PREPROD/Cover-image_h-rxqfBC9.webp",
+      "desc": "Institute of National Importance (INI) offering world-class medical training and research."
+    },
+    {
+      "name": "King George's Medical University (KGMU)",
+      "location": "Lucknow, Uttar Pradesh",
+      "fee": "₹54,000 / Year",
+      "image": "https://s3.ap-south-1.amazonaws.com/gotouniv/cover_photo/2002/cover_photo_1500X500.jpg",
+      "desc": "Historic medical university with one of the largest bed capacities in North India."
     }
   ],
   "faq": [
     {
-      "question": "Is NEET mandatory for MBBS in India?",
-      "answer": "Yes, qualifying NEET in the year of admission or preceding two years is mandatory as per NMC guidelines."
+      "question": "What is the minimum qualification for MBBS in India?",
+      "answer": "Candidates must have passed 10+2 with Physics, Chemistry, Biology/Biotechnology and English with at least 50% marks (40% for reserved categories) and qualified NEET-UG."
     },
     {
-      "question": "Is the degree from India valid in India?",
-      "answer": "Yes, all our partner medical universities comply fully with NMC gazette guidelines, making graduates eligible for the NExT/FMGE exam."
+      "question": "What is the difference between AIQ and State Quota?",
+      "answer": "15% of all government college seats are reserved for All India Quota (counselled by MCC), while 85% are filled through respective State Government counselling authorities."
     }
   ]
 }

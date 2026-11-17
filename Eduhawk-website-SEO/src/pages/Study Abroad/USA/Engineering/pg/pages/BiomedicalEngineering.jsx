@@ -1,3 +1,4 @@
+import biomedicalEngineeringPGData from "../../../../../../data/study_abroad/usa/biomed_engg_pg.json";
 import React from "react";
 import { EngineeringBranchPage } from "../../../../../../component/CoursePageKit";
 import heroImg from "../../../../../../Images/Abroad/USA/Engineering_PG/biomedical-engineering.webp";
@@ -239,21 +240,33 @@ const faqTitle = `Frequently Asked Questions — ${branch.name} in the USA`;
 
 // UI is rendered by the shared polished course template (CoursePageKit).
 // All content strings above are unchanged.
-const PostgraduateBiomedicalEngineering = () => (
-  <EngineeringBranchPage
-    branch={branch}
-    level="PG"
-    heroImg={heroImg}
-    imgDims={imgDims}
-    seoPath="/study-abroad/usa/pg/biomedical-engineering"
-    heroAlt={heroAlt}
-    coursesTitle={coursesTitle}
-    unisTitle={unisTitle}
-    testsEyebrow="Standardised tests"
-    testsTitle="GRE & Other Admission Requirements"
-    careersTitle={careersTitle}
-    faqTitle={faqTitle}
-  />
-);
+const PostgraduateBiomedicalEngineering = () => {
+  const dynamicBranch = {
+    ...branch,
+    title: biomedicalEngineeringPGData?.seo?.title || branch.title,
+    description: biomedicalEngineeringPGData?.seo?.description || branch.description,
+    heroSub: biomedicalEngineeringPGData?.hero?.subtitle || branch.heroSub,
+    faqs: (biomedicalEngineeringPGData?.faq && biomedicalEngineeringPGData.faq.length > 0)
+      ? biomedicalEngineeringPGData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
+      : branch.faqs,
+  };
+
+  return (
+    <EngineeringBranchPage
+      branch={dynamicBranch}
+      level="PG"
+      heroImg={heroImg}
+      imgDims={imgDims}
+      seoPath="/study-abroad/usa/pg/biomedical-engineering"
+      heroAlt={heroAlt}
+      coursesTitle={coursesTitle}
+      unisTitle={unisTitle}
+      testsEyebrow="Standardised tests"
+      testsTitle="GRE & Other Admission Requirements"
+      careersTitle={careersTitle}
+      faqTitle={faqTitle}
+    />
+  );
+};
 
 export default PostgraduateBiomedicalEngineering;

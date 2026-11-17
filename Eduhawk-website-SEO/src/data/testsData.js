@@ -1200,7 +1200,7 @@ export const TESTS_DATA = {
     ],
     countries: ["Italy"],
     overview: [
-      "The International Medical Admissions Test (IMAT) is conducted annually by the Italian Ministry of Universities and Research (MUR) for international students seeking medical education at public Italian universities.",
+      "Italy's public universities offer one of the most affordable and globally respected pathways to an English-taught medical degree, with IMAT serving as the single centralized admissions gateway evaluated and administered by the Italian Ministry of Universities and Research (MUR).",
       "Prominent participating universities include University of Milan, Sapienza University of Rome, University of Bologna, University of Padua, University of Pavia, and University of Turin.",
       "The examination evaluates scientific proficiency in biology, chemistry, physics, and mathematics, combined with rigorous logical reasoning and general knowledge."
     ],
