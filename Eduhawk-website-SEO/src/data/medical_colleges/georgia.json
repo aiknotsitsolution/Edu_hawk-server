@@ -103,5 +103,57 @@
       "question": "What is the duration of MBBS in Georgia?",
       "answer": "The MBBS course duration in Georgia is 6 years, including 5 years of academic study and 1 year of clinical internship."
     }
+  ],
+  "comparisonTable": [
+    {
+      "feature": "Tuition Fees (per year)",
+      "georgia": "₹5 Lakhs – ₹8 Lakhs ($5000 – $8,000 USD)",
+      "india": "Govt: ₹10,000 – ₹50,000\nPrivate: ₹8 Lakhs – ₹25 Lakhs+"
+    },
+    {
+      "feature": "Course Duration",
+      "georgia": "6 years (including clinical internship)",
+      "india": "5.5 years (4.5 years academic study + 1-year internship)"
+    },
+    {
+      "feature": "Degree Awarded",
+      "georgia": "MD (equivalent to MBBS, following European/Bologna system)",
+      "india": "MBBS"
+    },
+    {
+      "feature": "Class Strength",
+      "georgia": "Smaller, more controlled batches with moderate international/Indian student ratios",
+      "india": "Larger batch sizes in most government and private medical colleges"
+    },
+    {
+      "feature": "Global Recognition",
+      "georgia": "Recognized by WHO, NMC, WDOMS, and listed internationally",
+      "india": "Recognized by NMC and national authorities (Indian recognition primary)"
+    },
+    {
+      "feature": "Licensing in India",
+      "georgia": "Must qualify the FMGE / NExT exam after returning to practice in India",
+      "india": "Direct eligibility for state medical council registration post-internship/NExT"
+    },
+    {
+      "feature": "Medium of Instruction",
+      "georgia": "English (dedicated English-medium batches for foreign students)",
+      "india": "English (local regional languages may be used in patient interactions)"
+    },
+    {
+      "feature": "Hostel & Food",
+      "georgia": "University-provided or rented hostels; Indian mess/food options available in major cities",
+      "india": "On-campus or local private mess/hostel facilities tailored to regional tastes"
+    },
+    {
+      "feature": "Insurance & Visa Costs",
+      "georgia": "Mandatory annual health insurance and student residence permit/visa renewals (~₹15,000 – ₹30,000/yr combined)",
+      "india": "Local student setup costs apply (negligible visa/residence costs domestically)"
+    },
+    {
+      "feature": "Other Living Costs",
+      "georgia": "~₹1.5 Lakhs – ₹3 Lakhs per year (approx. ₹15,000 – ₹25,000/month)",
+      "india": "~₹1.5 Lakhs – ₹3.5 Lakhs per year depending on the city"
+    }
   ]
 }

@@ -1226,57 +1226,91 @@ const Georgia = () => {
         <div className="py-16 bg-white mb-20">
           <div className="container mx-auto px-4 max-w-5xl">
             <h2 className="text-3xl md:text-4xl font-bold text-blue-900 text-center mb-12">
-              MBBS in India vs MBBS in Georgia
+              MBBS in Georgia vs MBBS in India – Quick Comparison (2026–2027)
             </h2>
-            <div className="overflow-x-auto">
+            <div className="overflow-x-auto shadow-md rounded-lg">
               <table className="min-w-full border-collapse border border-gray-300 text-left">
                 <thead>
                   <tr className="bg-blue-900 text-white">
-                    <th className="p-4 border">Criteria</th>
-                    <th className="p-4 border">MBBS in India</th>
-                    <th className="p-4 border">MBBS in Georgia</th>
+                    <th className="p-4 border border-gray-300 text-center font-semibold w-1/4">
+                      Feature
+                    </th>
+                    <th className="p-4 border border-gray-300 text-center font-semibold w-3/8">
+                      MBBS in Georgia
+                    </th>
+                    <th className="p-4 border border-gray-300 text-center font-semibold w-3/8">
+                      MBBS in India
+                    </th>
                   </tr>
                 </thead>
-                <tbody className="text-gray-700">
-                  <tr className="bg-gray-50">
-                    <td className="p-4 border font-medium">Admission</td>
-                    <td className="p-4 border">
-                      NEET and high cut-off required
-                    </td>
-                    <td className="p-4 border">
-                      Admission based on NEET qualification
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="p-4 border font-medium">
-                      Seats Availability
-                    </td>
-                    <td className="p-4 border">
-                      Government seats very limited
-                    </td>
-                    <td className="p-4 border">
-                      More seats available for international students
-                    </td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="p-4 border font-medium">Fees</td>
-                    <td className="p-4 border">Private: ₹50–90 lakh</td>
-                    <td className="p-4 border">
-                      Total MBBS cost around ₹30–45 lakh
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="p-4 border font-medium">Course Duration</td>
-                    <td className="p-4 border">Around 5.5 years</td>
-                    <td className="p-4 border">Around 6 years</td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="p-4 border font-medium">
-                      Admission Competition
-                    </td>
-                    <td className="p-4 border">Very high</td>
-                    <td className="p-4 border">Easier</td>
-                  </tr>
+                <tbody className="text-gray-700 divide-y divide-gray-200">
+                  {(cmsData?.comparisonTable || [
+                    {
+                      feature: "Tuition Fees (per year)",
+                      georgia: "₹5 Lakhs – ₹8 Lakhs ($5000 – $8,000 USD)",
+                      india: "Govt: ₹10,000 – ₹50,000\nPrivate: ₹8 Lakhs – ₹25 Lakhs+"
+                    },
+                    {
+                      feature: "Course Duration",
+                      georgia: "6 years (including clinical internship)",
+                      india: "5.5 years (4.5 years academic study + 1-year internship)"
+                    },
+                    {
+                      feature: "Degree Awarded",
+                      georgia: "MD (equivalent to MBBS, following European/Bologna system)",
+                      india: "MBBS"
+                    },
+                    {
+                      feature: "Class Strength",
+                      georgia: "Smaller, more controlled batches with moderate international/Indian student ratios",
+                      india: "Larger batch sizes in most government and private medical colleges"
+                    },
+                    {
+                      feature: "Global Recognition",
+                      georgia: "Recognized by WHO, NMC, WDOMS, and listed internationally",
+                      india: "Recognized by NMC and national authorities (Indian recognition primary)"
+                    },
+                    {
+                      feature: "Licensing in India",
+                      georgia: "Must qualify the FMGE / NExT exam after returning to practice in India",
+                      india: "Direct eligibility for state medical council registration post-internship/NExT"
+                    },
+                    {
+                      feature: "Medium of Instruction",
+                      georgia: "English (dedicated English-medium batches for foreign students)",
+                      india: "English (local regional languages may be used in patient interactions)"
+                    },
+                    {
+                      feature: "Hostel & Food",
+                      georgia: "University-provided or rented hostels; Indian mess/food options available in major cities",
+                      india: "On-campus or local private mess/hostel facilities tailored to regional tastes"
+                    },
+                    {
+                      feature: "Insurance & Visa Costs",
+                      georgia: "Mandatory annual health insurance and student residence permit/visa renewals (~₹15,000 – ₹30,000/yr combined)",
+                      india: "Local student setup costs apply (negligible visa/residence costs domestically)"
+                    },
+                    {
+                      feature: "Other Living Costs",
+                      georgia: "~₹1.5 Lakhs – ₹3 Lakhs per year (approx. ₹15,000 – ₹25,000/month)",
+                      india: "~₹1.5 Lakhs – ₹3.5 Lakhs per year depending on the city"
+                    }
+                  ]).map((row, index) => (
+                    <tr
+                      key={index}
+                      className={index % 2 === 0 ? "bg-gray-50" : "bg-white"}
+                    >
+                      <td className="p-4 border border-gray-300 font-medium text-gray-900">
+                        {row.feature || row.parameter}
+                      </td>
+                      <td className="p-4 border border-gray-300 whitespace-pre-line text-sm leading-relaxed">
+                        {row.georgia}
+                      </td>
+                      <td className="p-4 border border-gray-300 whitespace-pre-line text-sm leading-relaxed">
+                        {row.india}
+                      </td>
+                    </tr>
+                  ))}
                 </tbody>
               </table>
             </div>
