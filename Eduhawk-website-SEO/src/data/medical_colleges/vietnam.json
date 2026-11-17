@@ -96,5 +96,47 @@
       "question": "What is the duration of MBBS in Vietnam?",
       "answer": "The MBBS duration is 6 years total: 5 years of academic study plus 1 year mandatory rotatory clinical internship."
     }
+  ],
+  "comparisonTable": [
+    {
+      "parameter": "Tuition Fees (per year)",
+      "vietnam": "₹3 Lakhs – ₹6 Lakhs per year\n(Total tuition/course: ₹20 Lakhs – ₹45 Lakhs)",
+      "india": "Govt: ₹50,000 – ₹2.5 Lakhs (Total)\nPrivate: ₹15 Lakhs – ₹25 Lakhs+ per year\nDeemed/Management: ₹80 Lakhs – ₹1.65+ Crore (Total)"
+    },
+    {
+      "parameter": "Course Duration",
+      "vietnam": "6 Years (5 years of academic & theoretical study + 1 year of compulsory hospital internship)",
+      "india": "5.5 Years (4.5 years of academic study + 1 year of rotating compulsory internship)"
+    },
+    {
+      "parameter": "Class Strength",
+      "vietnam": "Moderate and controlled batch sizes for international/English-medium sections (often 30–60 students)",
+      "india": "Large lecture batches (frequently 100 to 250+ students per college in India)"
+    },
+    {
+      "parameter": "Global Recognition",
+      "vietnam": "Listed in WDOMS, WHO, and ECFMG-approved; complies with NMC FMGL 2021 rules (requires clearing NExT/FMGE to practice in India)",
+      "india": "Recognized globally and by the National Medical Commission (NMC) in India"
+    },
+    {
+      "parameter": "Medium of Instruction",
+      "vietnam": "English-medium for lectures and exams, though basic local language (Vietnamese) is learned for clinical years and patient interaction",
+      "india": "English (standard medium across all medical colleges in India)"
+    },
+    {
+      "parameter": "Hostel & Food",
+      "vietnam": "₹1 Lakh – ₹1.2 Lakhs per year; many campus-associated hostels provide Indian food options",
+      "india": "₹1.5 Lakhs – ₹2 Lakhs per year (varies heavily by city and private vs. govt mess)"
+    },
+    {
+      "parameter": "Insurance, Visa & Other Costs",
+      "vietnam": "One-time pre-departure, documentation, visa, and insurance packages total around ₹2.8 Lakhs initially, with minor annual renewals",
+      "india": "Minimal visa/international costs (local state/hostel fees apply); recurring personal/travel overhead varies"
+    },
+    {
+      "parameter": "Bonds / Compulsory Service",
+      "vietnam": "Zero compulsory rural service bonds upon graduation",
+      "india": "Frequently mandates 1 to 5 years of rural service bonds in government colleges (with non-fulfillment penalties up to ₹50 Lakhs)"
+    }
   ]
 }

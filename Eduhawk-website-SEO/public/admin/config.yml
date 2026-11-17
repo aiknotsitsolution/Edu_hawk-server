@@ -1056,6 +1056,13 @@ collections:
             fields:
               - { label: "Question", name: "question", widget: "string" }
               - { label: "Answer", name: "answer", widget: "text" }
+          - label: "Quick Comparison Table"
+            name: "comparisonTable"
+            widget: "list"
+            fields:
+              - { label: "Parameter", name: "parameter", widget: "string" }
+              - { label: "MBBS in Vietnam", name: "vietnam", widget: "text" }
+              - { label: "MBBS in India", name: "india", widget: "text" }
 
       - label: "MBBS in Armenia"
         name: "college_armenia"

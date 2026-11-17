@@ -446,37 +446,86 @@ const Vietnam = () => {
 
           {/* Comparison Table */}
           <div className="py-16 bg-white mb-20">
-            <h2 className="text-3xl md:text-4xl font-bold text-blue-900 text-center mb-12">
-              MBBS in Vietnam vs India (Private Colleges)
-            </h2>
-            <div className="overflow-x-auto container mx-auto px-4 max-w-5xl">
-              <table className="min-w-full border-collapse border border-gray-300 text-left">
-                <thead>
-                  <tr className="bg-blue-900 text-white">
-                    <th className="p-4 border">Criteria</th>
-                    <th className="p-4 border">Vietnam</th>
-                    <th className="p-4 border">India (Private)</th>
-                  </tr>
-                </thead>
-                <tbody className="text-gray-700">
-                  <tr className="bg-gray-50">
-                    <td className="p-4 border font-medium">Total Cost</td>
-                    <td className="p-4 border">₹25–35 lakhs</td>
-                    <td className="p-4 border">₹50–90+ lakhs</td>
-                  </tr>
-
-                  <tr className="bg-gray-50">
-                    <td className="p-4 border font-medium">Duration</td>
-                    <td className="p-4 border">6 years</td>
-                    <td className="p-4 border">5.5 + 1 year</td>
-                  </tr>
-                  <tr>
-                    <td className="p-4 border font-medium">Admission</td>
-                    <td className="p-4 border">NEET + simple process</td>
-                    <td className="p-4 border">High cut-offs/donation</td>
-                  </tr>
-                </tbody>
-              </table>
+            <div className="container mx-auto px-4 max-w-5xl">
+              <h2 className="text-3xl md:text-4xl font-bold text-blue-900 text-center mb-12">
+                MBBS in Vietnam vs MBBS in India – Quick Comparison (2026–2027)
+              </h2>
+              <div className="overflow-x-auto shadow-md rounded-lg">
+                <table className="min-w-full border-collapse border border-gray-300 text-left">
+                  <thead>
+                    <tr className="bg-blue-900 text-white">
+                      <th className="p-4 border border-gray-300 text-center font-semibold w-1/4">
+                        Parameter
+                      </th>
+                      <th className="p-4 border border-gray-300 text-center font-semibold w-3/8">
+                        MBBS in Vietnam
+                      </th>
+                      <th className="p-4 border border-gray-300 text-center font-semibold w-3/8">
+                        MBBS in India
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody className="text-gray-700 divide-y divide-gray-200">
+                    {(cmsData?.comparisonTable || [
+                      {
+                        parameter: "Tuition Fees (per year)",
+                        vietnam: "₹3 Lakhs – ₹6 Lakhs per year\n(Total tuition/course: ₹20 Lakhs – ₹45 Lakhs)",
+                        india: "Govt: ₹50,000 – ₹2.5 Lakhs (Total)\nPrivate: ₹15 Lakhs – ₹25 Lakhs+ per year\nDeemed/Management: ₹80 Lakhs – ₹1.65+ Crore (Total)"
+                      },
+                      {
+                        parameter: "Course Duration",
+                        vietnam: "6 Years (5 years of academic & theoretical study + 1 year of compulsory hospital internship)",
+                        india: "5.5 Years (4.5 years of academic study + 1 year of rotating compulsory internship)"
+                      },
+                      {
+                        parameter: "Class Strength",
+                        vietnam: "Moderate and controlled batch sizes for international/English-medium sections (often 30–60 students)",
+                        india: "Large lecture batches (frequently 100 to 250+ students per college in India)"
+                      },
+                      {
+                        parameter: "Global Recognition",
+                        vietnam: "Listed in WDOMS, WHO, and ECFMG-approved; complies with NMC FMGL 2021 rules (requires clearing NExT/FMGE to practice in India)",
+                        india: "Recognized globally and by the National Medical Commission (NMC) in India"
+                      },
+                      {
+                        parameter: "Medium of Instruction",
+                        vietnam: "English-medium for lectures and exams, though basic local language (Vietnamese) is learned for clinical years and patient interaction",
+                        india: "English (standard medium across all medical colleges in India)"
+                      },
+                      {
+                        parameter: "Hostel & Food",
+                        vietnam: "₹1 Lakh – ₹1.2 Lakhs per year; many campus-associated hostels provide Indian food options",
+                        india: "₹1.5 Lakhs – ₹2 Lakhs per year (varies heavily by city and private vs. govt mess)"
+                      },
+                      {
+                        parameter: "Insurance, Visa & Other Costs",
+                        vietnam: "One-time pre-departure, documentation, visa, and insurance packages total around ₹2.8 Lakhs initially, with minor annual renewals",
+                        india: "Minimal visa/international costs (local state/hostel fees apply); recurring personal/travel overhead varies"
+                      },
+                      {
+                        parameter: "Bonds / Compulsory Service",
+                        vietnam: "Zero compulsory rural service bonds upon graduation",
+                        india: "Frequently mandates 1 to 5 years of rural service bonds in government colleges (with non-fulfillment penalties up to ₹50 Lakhs)"
+                      }
+                    ]).map((row, index) => (
+                      <tr
+                        key={index}
+                        className={index % 2 === 0 ? "bg-gray-50" : "bg-white"}
+                      >
+                        <td className="p-4 border border-gray-300 font-medium text-gray-900">
+                          {row.parameter || row.feature}
+                        </td>
+                        <td className="p-4 border border-gray-300 whitespace-pre-line text-sm leading-relaxed">
+                          {row.vietnam}
+                        </td>
+                        <td className="p-4 border border-gray-300 whitespace-pre-line text-sm leading-relaxed">
+                          {row.india}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
 
