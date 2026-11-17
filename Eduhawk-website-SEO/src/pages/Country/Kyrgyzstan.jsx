@@ -1148,59 +1148,79 @@ const Kyrgyzstan = () => {
               MBBS in Kyrgyzstan vs MBBS in India – Quick Comparison (2026–2027)
             </h2>
 
-            <div className="overflow-x-auto">
+            <div className="overflow-x-auto shadow-md rounded-lg">
               <table className="min-w-full border-collapse border border-gray-300 text-left">
                 <thead>
                   <tr className="bg-blue-900 text-white">
-                    <th className="p-4 border border-gray-300 text-center font-semibold">
-                      Criteria
+                    <th className="p-4 border border-gray-300 text-center font-semibold w-1/4">
+                      Parameter
                     </th>
-                    <th className="p-4 border border-gray-300 text-center font-semibold">
+                    <th className="p-4 border border-gray-300 text-center font-semibold w-3/8">
                       MBBS in Kyrgyzstan
                     </th>
-                    <th className="p-4 border border-gray-300 text-center font-semibold">
-                      MBBS in India
+                    <th className="p-4 border border-gray-300 text-center font-semibold w-3/8">
+                      MBBS in India (Government vs. Private)
                     </th>
                   </tr>
                 </thead>
-                <tbody className="text-gray-700">
-                  <tr className="bg-gray-50">
-                    <td className="p-4 border font-medium">Entrance Exams</td>
-                    <td className="p-4 border">
-                      Admission based on NEET qualification
-                    </td>
-                    <td className="p-4 border">NEET + high competition</td>
-                  </tr>
-                  <tr>
-                    <td className="p-4 border font-medium">Course Duration</td>
-                    <td className="p-4 border">
-                      6 years (including internship)
-                    </td>
-                    <td className="p-4 border">
-                      5.5 years + 1 year internship
-                    </td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="p-4 border font-medium">Total Cost</td>
-                    <td className="p-4 border">₹17–28 lakhs</td>
-                    <td className="p-4 border">Private: ₹20–80+ lakhs</td>
-                  </tr>
-                  <tr>
-                    <td className="p-4 border font-medium">
-                      Seats Availability
-                    </td>
-                    <td className="p-4 border">
-                      More seats for international students
-                    </td>
-                    <td className="p-4 border">
-                      Limited in government colleges
-                    </td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="p-4 border font-medium">Infrastructure</td>
-                    <td className="p-4 border">Modern labs and hospitals</td>
-                    <td className="p-4 border">Varies between colleges</td>
-                  </tr>
+                <tbody className="text-gray-700 divide-y divide-gray-200">
+                  {(cmsData?.comparisonTable || [
+                    {
+                      parameter: "Tuition Fees (Per Year)",
+                      kyrgyzstan: "₹3,00,000 – ₹6,00,000 (approx. $3,000 – $4,000/yr)",
+                      india: "Govt: ₹10,000 – ₹1,50,000 / yr\nPrivate: ₹10,00,000 – ₹25,00,000+ / yr"
+                    },
+                    {
+                      parameter: "Course Duration",
+                      kyrgyzstan: "6 Years (5 years academic + 1 year compulsory internship)",
+                      india: "5.5 Years (4.5 years academic + 1 year compulsory rotating internship)"
+                    },
+                    {
+                      parameter: "Class Strength",
+                      kyrgyzstan: "Generally smaller batches; high concentration of international students (largely Indian, South Asian)",
+                      india: "Large batch sizes (typically 100 to 250+ students per medical college)"
+                    },
+                    {
+                      parameter: "Global Recognition",
+                      kyrgyzstan: "Recognized by NMC, WHO, WDOMS, FAIMER, ECFMG",
+                      india: "Recognized globally (NMC, WHO, WDOMS, FAIMER, etc.)"
+                    },
+                    {
+                      parameter: "Medium of Instruction",
+                      kyrgyzstan: "Offered in English (though basic local language like Russian/Kyrgyz is needed for patient interaction)",
+                      india: "English"
+                    },
+                    {
+                      parameter: "Hostel & Food",
+                      kyrgyzstan: "Separate hostels with Indian mess facilities available; costs around ₹1,80,000 – ₹2,00,000/yr",
+                      india: "On-campus or local hostels/mess; varies widely by college (₹50,000 – ₹1,50,000/yr)"
+                    },
+                    {
+                      parameter: "Insurance & Visa Costs",
+                      kyrgyzstan: "Annual medical insurance + visa/extension costs roughly ₹20,000 – ₹30,000/yr",
+                      india: "N/A (Domestic students do not pay visa/international health insurance)"
+                    },
+                    {
+                      parameter: "Other Costs (Travel, Living)",
+                      kyrgyzstan: "Flight tickets (annual), local transit, and living (~$100–$200/month); total course package often lands around ₹18 – ₹35 Lakhs",
+                      india: "Low living costs in govt colleges; overall private college investment can scale to ₹50L – ₹1Cr+"
+                    }
+                  ]).map((row, index) => (
+                    <tr
+                      key={index}
+                      className={index % 2 === 0 ? "bg-gray-50" : "bg-white"}
+                    >
+                      <td className="p-4 border border-gray-300 font-medium text-gray-900">
+                        {row.parameter || row.feature}
+                      </td>
+                      <td className="p-4 border border-gray-300 whitespace-pre-line text-sm leading-relaxed">
+                        {row.kyrgyzstan}
+                      </td>
+                      <td className="p-4 border border-gray-300 whitespace-pre-line text-sm leading-relaxed">
+                        {row.india}
+                      </td>
+                    </tr>
+                  ))}
                 </tbody>
               </table>
             </div>
