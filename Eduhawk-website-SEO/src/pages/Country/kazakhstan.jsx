@@ -1511,6 +1511,92 @@ const Kazakhstan = () => {
           </div>
         </div>
 
+        {/* ==================== COMPARISON TABLE ==================== */}
+        <div className="py-16 bg-white">
+          <div className="container mx-auto px-4 max-w-5xl">
+            <h2 className="text-3xl md:text-4xl font-bold text-blue-900 text-center mb-12">
+              MBBS in Kazakhstan vs MBBS in India – Quick Comparison (2026–2027)
+            </h2>
+
+            <div className="overflow-x-auto shadow-md rounded-lg">
+              <table className="min-w-full border-collapse border border-gray-300 text-left">
+                <thead>
+                  <tr className="bg-blue-900 text-white">
+                    <th className="p-4 border border-gray-300 text-center font-semibold w-1/4">
+                      Parameter
+                    </th>
+                    <th className="p-4 border border-gray-300 text-center font-semibold w-3/8">
+                      MBBS in Kazakhstan
+                    </th>
+                    <th className="p-4 border border-gray-300 text-center font-semibold w-3/8">
+                      MBBS in India
+                    </th>
+                  </tr>
+                </thead>
+                <tbody className="text-gray-700 divide-y divide-gray-200">
+                  {(cmsData?.comparisonTable || [
+                    {
+                      parameter: "Tuition Fees (per year)",
+                      kazakhstan: "₹3,00,000 – ₹5,00,000 per year (Total course approx. ₹18 – ₹30+ lakhs)",
+                      india: "Government Colleges: Very low (₹10,000 – ₹50,000/year)\nPrivate/Deemed Colleges: ₹60,000,000 – ₹1,20,000,000+ (₹60 lakhs – ₹1.2+ crore)"
+                    },
+                    {
+                      parameter: "Course Duration",
+                      kazakhstan: "5 Years study + 1 Year internship (Total 6 years)",
+                      india: "4.5 Years study + 1 Year mandatory rotating internship (Total 5.5 years)"
+                    },
+                    {
+                      parameter: "Class Strength",
+                      kazakhstan: "Usually smaller, batch-controlled international student groups (10–15 students per practical/clinical batch)",
+                      india: "Larger lecture halls, often 100–250+ students per batch depending on the medical college"
+                    },
+                    {
+                      parameter: "Global Recognition",
+                      kazakhstan: "Recognized by NMC, WHO, WDOMS, ECFMG, and FAIMER (eligible for USMLE, FMGE/NExT)",
+                      india: "Recognized by NMC, WHO, and WDOMS (Globally accepted; mandatory NEET-UG for entry)"
+                    },
+                    {
+                      parameter: "Medium of Instruction",
+                      kazakhstan: "100% English medium for international/Indian student cohorts",
+                      india: "English (with local patient interaction in regional languages during clinical postings)"
+                    },
+                    {
+                      parameter: "Hostel & Food (Mess)",
+                      kazakhstan: "Hostel: ₹50,000 – ₹1,00,000/year\nIndian Mess/Food: ₹80,000 – ₹1,40,000/year (optional Indian mess available)",
+                      india: "Hostel: ₹10,000 – ₹1,00,000+/year\nMess/Food: ₹30,000 – ₹1,00,000+/year (varies by city and college type)"
+                    },
+                    {
+                      parameter: "Medical Insurance",
+                      kazakhstan: "Approx. ₹10,000/year (mandatory health coverage)",
+                      india: "Nominal institutional or private health insurance costs (often covered or minimal)"
+                    },
+                    {
+                      parameter: "Visa & Other Costs",
+                      kazakhstan: "1st Year Visa, Documentation & One-time Registration: ₹60,000 – ₹1,00,000; annual visa extensions cost extra",
+                      india: "Standard domestic documentation and state/central counseling registration fees (₹1,000 – ₹50,000 depending on quota)"
+                    }
+                  ]).map((row, index) => (
+                    <tr
+                      key={index}
+                      className={index % 2 === 0 ? "bg-gray-50" : "bg-white"}
+                    >
+                      <td className="p-4 border border-gray-300 font-medium text-gray-900">
+                        {row.parameter || row.feature}
+                      </td>
+                      <td className="p-4 border border-gray-300 whitespace-pre-line text-sm leading-relaxed">
+                        {row.kazakhstan}
+                      </td>
+                      <td className="p-4 border border-gray-300 whitespace-pre-line text-sm leading-relaxed">
+                        {row.india}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
         {/* ==================== FAQs (same design as Uzbekistan) ==================== */}
         <div className="py-16 bg-white">
           <div className="container mx-auto px-4 max-w-5xl">
