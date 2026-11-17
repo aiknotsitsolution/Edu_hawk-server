@@ -532,59 +532,84 @@ const Nepal = () => {
               MBBS in Nepal vs MBBS in India – Quick Comparison (2026–2027)
             </h2>
 
-            <div className="overflow-x-auto">
+            <div className="overflow-x-auto shadow-md rounded-lg">
               <table className="min-w-full border-collapse border border-gray-300 text-left">
                 <thead>
                   <tr className="bg-blue-900 text-white">
-                    <th className="p-4 border border-gray-300 text-center font-semibold">
-                      Criteria
+                    <th className="p-4 border border-gray-300 text-center font-semibold w-1/4">
+                      Parameter
                     </th>
-                    <th className="p-4 border border-gray-300 text-center font-semibold">
+                    <th className="p-4 border border-gray-300 text-center font-semibold w-3/8">
                       MBBS in Nepal
                     </th>
-                    <th className="p-4 border border-gray-300 text-center font-semibold">
-                      MBBS in India
+                    <th className="p-4 border border-gray-300 text-center font-semibold w-3/8">
+                      MBBS in India (Private / Govt)
                     </th>
                   </tr>
                 </thead>
-                <tbody className="text-gray-700">
-                  <tr className="bg-gray-50">
-                    <td className="p-4 border font-medium">
-                      Entrance Requirement
-                    </td>
-                    <td className="p-4 border">NEET qualified</td>
-                    <td className="p-4 border">NEET + high cut-offs</td>
-                  </tr>
-                  <tr>
-                    <td className="p-4 border font-medium">Course Duration</td>
-                    <td className="p-4 border">
-                      5.5–6 years (incl. internship)
-                    </td>
-                    <td className="p-4 border">5.5 years + internship</td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="p-4 border font-medium">Total Cost</td>
-                    <td className="p-4 border">₹45–65 lakhs</td>
-                    <td className="p-4 border">Private: ₹20–80+ lakhs</td>
-                  </tr>
-                  <tr>
-                    <td className="p-4 border font-medium">
-                      Seats Availability
-                    </td>
-                    <td className="p-4 border">
-                      More seats for international/Indian students
-                    </td>
-                    <td className="p-4 border">Limited in govt colleges</td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="p-4 border font-medium">
-                      Infrastructure & Exposure
-                    </td>
-                    <td className="p-4 border">
-                      Modern hospitals, good clinical training
-                    </td>
-                    <td className="p-4 border">Varies widely</td>
-                  </tr>
+                <tbody className="text-gray-700 divide-y divide-gray-200">
+                  {(cmsData?.comparisonTable || [
+                    {
+                      parameter: "Tuition Fees (Per Year / Total)",
+                      nepal: "Approx. ₹35 lakh – ₹55 lakh total tuition (roughly ₹7–10 lakh per year)",
+                      india: "Government: ₹10,000 – ₹1.5 lakh/year\nPrivate: ₹10 lakh – ₹30+ lakh/year (Total ₹80L–₹1.5Cr+)"
+                    },
+                    {
+                      parameter: "Course Duration",
+                      nepal: "5.5 years (4.5 years study + 1 year internship)",
+                      india: "5.5 years (4.5 years study + 1 year internship)"
+                    },
+                    {
+                      parameter: "Class Strength",
+                      nepal: "Usually moderate (around 100 to 150 students per batch)",
+                      india: "Varies widely; private and government colleges can have 50–150+ students per batch"
+                    },
+                    {
+                      parameter: "Global Recognition",
+                      nepal: "Recognized by NMC, WHO, FAIMER, UNESCO",
+                      india: "Recognized by NMC, WHO, and major international bodies"
+                    },
+                    {
+                      parameter: "Medium of Instruction",
+                      nepal: "English",
+                      india: "English"
+                    },
+                    {
+                      parameter: "Hostel & Food",
+                      nepal: "₹8 lakh – ₹12 lakh for the entire course (often mandatory in private colleges)",
+                      india: "Varies by college; typically ₹6 lakh – ₹12 lakh for the full duration"
+                    },
+                    {
+                      parameter: "Visa / Travel Requirements",
+                      nepal: "No visa required for Indian citizens (open border; entry via Aadhaar or Voter ID)",
+                      india: "Not applicable (domestic)"
+                    },
+                    {
+                      parameter: "Insurance & Medical Cover",
+                      nepal: "Nominal student/health insurance costs managed via campus/local policies (approx. ₹5,000–₹15,000/year)",
+                      india: "Standard student/health or institutional medical perks within local hospitals"
+                    },
+                    {
+                      parameter: "Other Costs (Books, Exams, Misc)",
+                      nepal: "University registration, exam fees, books, and utilities add roughly ₹2 lakh – ₹4 lakh total",
+                      india: "Uniforms, books, state/university exam fees, and miscellaneous add ₹3 lakh – ₹6 lakh total"
+                    }
+                  ]).map((row, index) => (
+                    <tr
+                      key={index}
+                      className={index % 2 === 0 ? "bg-gray-50" : "bg-white"}
+                    >
+                      <td className="p-4 border border-gray-300 font-medium text-gray-900">
+                        {row.parameter || row.feature}
+                      </td>
+                      <td className="p-4 border border-gray-300 whitespace-pre-line text-sm leading-relaxed">
+                        {row.nepal}
+                      </td>
+                      <td className="p-4 border border-gray-300 whitespace-pre-line text-sm leading-relaxed">
+                        {row.india}
+                      </td>
+                    </tr>
+                  ))}
                 </tbody>
               </table>
             </div>
