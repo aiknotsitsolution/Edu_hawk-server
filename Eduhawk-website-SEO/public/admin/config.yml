@@ -678,6 +678,13 @@ collections:
             fields:
               - { label: "Question", name: "question", widget: "string" }
               - { label: "Answer", name: "answer", widget: "text" }
+          - label: "Quick Comparison Table"
+            name: "comparisonTable"
+            widget: "list"
+            fields:
+              - { label: "Parameter", name: "parameter", widget: "string" }
+              - { label: "MBBS in Kazakhstan", name: "kazakhstan", widget: "text" }
+              - { label: "MBBS in India", name: "india", widget: "text" }
 
       - label: "MBBS in Kyrgyzstan"
         name: "college_kyrgyzstan"

@@ -95,5 +95,47 @@
       "question": "What is the total fee for MBBS in Kazakhstan?",
       "answer": "The complete package (tuition + hostel + Indian food) usually ranges from ₹18 lakh to ₹26 lakh for the full 6-year duration."
     }
+  ],
+  "comparisonTable": [
+    {
+      "parameter": "Tuition Fees (per year)",
+      "kazakhstan": "₹3,00,000 – ₹5,00,000 per year (Total course approx. ₹18 – ₹30+ lakhs)",
+      "india": "Government Colleges: Very low (₹10,000 – ₹50,000/year)\nPrivate/Deemed Colleges: ₹60,000,000 – ₹1,20,000,000+ (₹60 lakhs – ₹1.2+ crore)"
+    },
+    {
+      "parameter": "Course Duration",
+      "kazakhstan": "5 Years study + 1 Year internship (Total 6 years)",
+      "india": "4.5 Years study + 1 Year mandatory rotating internship (Total 5.5 years)"
+    },
+    {
+      "parameter": "Class Strength",
+      "kazakhstan": "Usually smaller, batch-controlled international student groups (10–15 students per practical/clinical batch)",
+      "india": "Larger lecture halls, often 100–250+ students per batch depending on the medical college"
+    },
+    {
+      "parameter": "Global Recognition",
+      "kazakhstan": "Recognized by NMC, WHO, WDOMS, ECFMG, and FAIMER (eligible for USMLE, FMGE/NExT)",
+      "india": "Recognized by NMC, WHO, and WDOMS (Globally accepted; mandatory NEET-UG for entry)"
+    },
+    {
+      "parameter": "Medium of Instruction",
+      "kazakhstan": "100% English medium for international/Indian student cohorts",
+      "india": "English (with local patient interaction in regional languages during clinical postings)"
+    },
+    {
+      "parameter": "Hostel & Food (Mess)",
+      "kazakhstan": "Hostel: ₹50,000 – ₹1,00,000/year\nIndian Mess/Food: ₹80,000 – ₹1,40,000/year (optional Indian mess available)",
+      "india": "Hostel: ₹10,000 – ₹1,00,000+/year\nMess/Food: ₹30,000 – ₹1,00,000+/year (varies by city and college type)"
+    },
+    {
+      "parameter": "Medical Insurance",
+      "kazakhstan": "Approx. ₹10,000/year (mandatory health coverage)",
+      "india": "Nominal institutional or private health insurance costs (often covered or minimal)"
+    },
+    {
+      "parameter": "Visa & Other Costs",
+      "kazakhstan": "1st Year Visa, Documentation & One-time Registration: ₹60,000 – ₹1,00,000; annual visa extensions cost extra",
+      "india": "Standard domestic documentation and state/central counseling registration fees (₹1,000 – ₹50,000 depending on quota)"
+    }
   ]
 }
