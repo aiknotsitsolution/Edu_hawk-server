@@ -958,6 +958,97 @@ const Uzbekistan = () => {
         {/* Admission Process, Documents, etc. - kept structure, updated country names where needed */}
         {/* ... You can paste the remaining sections from your original code here, replacing Russia → Uzbekistan and adjusting minor text as above ... */}
 
+        {/* ==================== COMPARISON TABLE ==================== */}
+        <div className="py-16 bg-white">
+          <div className="container mx-auto px-4 max-w-5xl">
+            <h2 className="text-3xl md:text-4xl font-bold text-blue-900 text-center mb-12">
+              MBBS in Uzbekistan vs MBBS in India – Quick Comparison (2026–2027)
+            </h2>
+
+            <div className="overflow-x-auto shadow-md rounded-lg">
+              <table className="min-w-full border-collapse border border-gray-300 text-left">
+                <thead>
+                  <tr className="bg-blue-900 text-white">
+                    <th className="p-4 border border-gray-300 text-center font-semibold w-1/4">
+                      Parameter
+                    </th>
+                    <th className="p-4 border border-gray-300 text-center font-semibold w-3/8">
+                      MBBS in Uzbekistan
+                    </th>
+                    <th className="p-4 border border-gray-300 text-center font-semibold w-3/8">
+                      MBBS in India (Government vs. Private)
+                    </th>
+                  </tr>
+                </thead>
+                <tbody className="text-gray-700 divide-y divide-gray-200">
+                  {(cmsData?.comparisonTable || [
+                    {
+                      parameter: "Tuition Fees (Per Year)",
+                      uzbekistan: "$2,500 – $4,500 (~₹2.5 to ₹4.5 lakh per year)",
+                      india: "Government: ₹10,000 – ₹50,000 per year\nPrivate/Deemed: ₹10 Lakhs – ₹25+ Lakhs per year (Total ₹60L – ₹2Cr+)"
+                    },
+                    {
+                      parameter: "Course Duration",
+                      uzbekistan: "6 Years (5 years academic + 1 year clinical internship)",
+                      india: "5.5 Years (4.5 years academic + 1 year mandatory rotating internship)"
+                    },
+                    {
+                      parameter: "Class Strength",
+                      uzbekistan: "Generally larger or moderate international student batches (varies by university)",
+                      india: "Regulated by the National Medical Commission (NMC); fixed intake capacity per college"
+                    },
+                    {
+                      parameter: "Global Recognition",
+                      uzbekistan: "Recognized by NMC, WHO, and listed in the WDOMS (World Directory of Medical Schools)",
+                      india: "Recognized by NMC and globally accepted (Gold standard in India)"
+                    },
+                    {
+                      parameter: "Medium of Instruction",
+                      uzbekistan: "English for international/Indian student cohorts",
+                      india: "English"
+                    },
+                    {
+                      parameter: "Hostel & Food",
+                      uzbekistan: "Available; many universities offer Indian mess/food options or low-cost campus housing (~₹1,50,000 to ₹2 Lakh/year)",
+                      india: "Varies; government colleges have heavily subsidized mess/hostels, while private ones vary widely"
+                    },
+                    {
+                      parameter: "Insurance & Visa",
+                      uzbekistan: "Annual visa extension, medical insurance, and documentation add ₹1.5 – ₹2 Lakhs total over the course",
+                      india: "Domestic student status (no visa or international insurance required)"
+                    },
+                    {
+                      parameter: "Other Costs",
+                      uzbekistan: "Flights (Delhi to Tashkent ~3 hours, ~₹10k–₹25k one way), books, local transport (Yandex/trains), and FMGE/NExT prep (~₹15L – ₹25L total comprehensive cost)",
+                      india: "Books, uniform, local living expenses, and minimal coaching fees"
+                    },
+                    {
+                      parameter: "Licensing to Practice in India",
+                      uzbekistan: "Must qualify NEET beforehand and clear the FMGE / NExT exam upon return",
+                      india: "Direct registration with State Medical Council / NMC after internship completion"
+                    }
+                  ]).map((row, index) => (
+                    <tr
+                      key={index}
+                      className={index % 2 === 0 ? "bg-gray-50" : "bg-white"}
+                    >
+                      <td className="p-4 border border-gray-300 font-medium text-gray-900">
+                        {row.parameter || row.feature}
+                      </td>
+                      <td className="p-4 border border-gray-300 whitespace-pre-line text-sm leading-relaxed">
+                        {row.uzbekistan}
+                      </td>
+                      <td className="p-4 border border-gray-300 whitespace-pre-line text-sm leading-relaxed">
+                        {row.india}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
         {/* Example: FAQs with better design */}
         <div className="py-16 bg-white">
           <div className="container mx-auto px-4 max-w-5xl">

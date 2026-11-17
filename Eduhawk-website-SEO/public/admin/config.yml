@@ -804,6 +804,13 @@ collections:
             fields:
               - { label: "Question", name: "question", widget: "string" }
               - { label: "Answer", name: "answer", widget: "text" }
+          - label: "Quick Comparison Table"
+            name: "comparisonTable"
+            widget: "list"
+            fields:
+              - { label: "Parameter", name: "parameter", widget: "string" }
+              - { label: "MBBS in Uzbekistan", name: "uzbekistan", widget: "text" }
+              - { label: "MBBS in India (Government vs. Private)", name: "india", widget: "text" }
 
       - label: "MBBS in Tajikistan"
         name: "college_tajikistan"
