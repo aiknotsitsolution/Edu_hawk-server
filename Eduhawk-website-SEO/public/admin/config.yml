@@ -432,6 +432,15 @@ collections:
               - { label: "Question", name: "question", widget: "string" }
               - { label: "Answer", name: "answer", widget: "text" }
 
+          - label: "India vs Russia Comparison Table"
+            name: "comparisonTable"
+            widget: "list"
+            required: false
+            fields:
+              - { label: "Parameter", name: "parameter", widget: "string" }
+              - { label: "MBBS in Russia", name: "russia", widget: "text" }
+              - { label: "MBBS in India (Public and Private)", name: "india", widget: "text" }
+
       - label: "MBBS in Bangladesh"
         name: "college_bangladesh"
         file: "src/data/medical_colleges/bangladesh.json"

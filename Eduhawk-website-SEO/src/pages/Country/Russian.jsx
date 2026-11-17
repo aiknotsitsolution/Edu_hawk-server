@@ -519,62 +519,81 @@ const Russia = () => {
             MBBS in Russia vs MBBS in India – Quick Comparison (2026–2027)
           </h2>
 
-          <div className="overflow-x-auto">
+          <div className="overflow-x-auto shadow-md rounded-lg">
             <table className="min-w-full border-collapse border border-gray-300 text-left">
               <thead>
                 <tr className="bg-blue-900 text-white">
-                  <th className="p-4 border border-gray-300 text-center font-semibold">
-                    Criteria
+                  <th className="p-4 border border-gray-300 text-center font-semibold w-1/4">
+                    Parameter
                   </th>
-                  <th className="p-4 border border-gray-300 text-center font-semibold">
+                  <th className="p-4 border border-gray-300 text-center font-semibold w-3/8">
                     MBBS in Russia
                   </th>
-                  <th className="p-4 border border-gray-300 text-center font-semibold">
-                    MBBS in India
+                  <th className="p-4 border border-gray-300 text-center font-semibold w-3/8">
+                    MBBS in India (Public & Private)
                   </th>
                 </tr>
               </thead>
-              <tbody className="text-gray-700">
-                <tr className="bg-gray-50">
-                  <td className="p-4 border font-medium">
-                    Tuition Fees (per year)
-                  </td>
-                  <td className="p-4 border">₹2 – 5 Lakhs</td>
-                  <td className="p-4 border">
-                    Govt: ₹40k – ₹2 Lakhs
-                    <br />
-                    Private: ₹10 – 25+ Lakhs
-                  </td>
-                </tr>
-          
-                <tr className="bg-gray-50">
-                  <td className="p-4 border font-medium">Course Duration</td>
-                  <td className="p-4 border">6 years (including internship)</td>
-                  <td className="p-4 border">5.5 years + 1 year internship</td>
-                </tr>
-                <tr>
-                  <td className="p-4 border font-medium">Class Strength</td>
-                  <td className="p-4 border">20–40 students</td>
-                  <td className="p-4 border">
-                    100–150+ students (especially private)
-                  </td>
-                </tr>
-                <tr className="bg-gray-50">
-                  <td className="p-4 border font-medium">Global Recognition</td>
-                  <td className="p-4 border">
-                    NMC, WHO, WFME recognized universities
-                  </td>
-                  <td className="p-4 border">
-                    NMC recognized, but private colleges vary
-                  </td>
-                </tr>
-                <tr>
-                  <td className="p-4 border font-medium">
-                    Medium of Instruction
-                  </td>
-                  <td className="p-4 border">English</td>
-                  <td className="p-4 border">English</td>
-                </tr>
+              <tbody className="text-gray-700 divide-y divide-gray-200">
+                {(cmsData?.comparisonTable || [
+                  {
+                    parameter: "Tuition Fees (Per Year)",
+                    russia: "₹3 Lakhs – ₹6 Lakhs per year (Total program: ₹18–₹40 Lakhs)",
+                    india: "Public: ₹10,000 – ₹1 Lakh/year\nPrivate: ₹10 Lakhs – ₹25+ Lakhs/year (Total private: ₹80 Lakhs – ₹1.5 Crore+)"
+                  },
+                  {
+                    parameter: "Course Duration",
+                    russia: "6 years (including a 1-year clinical internship)",
+                    india: "5.5 years (including a 1-year compulsory rotating internship)"
+                  },
+                  {
+                    parameter: "Class Strength",
+                    russia: "Smaller batches (typically 15–30 students per class for better practical interaction)",
+                    india: "Larger batches (typically 50–120+ students per lecture hall)"
+                  },
+                  {
+                    parameter: "Global Recognition",
+                    russia: "Recognized by the NMC, WHO, ECFMG, FAIMER, and WFME",
+                    india: "Recognized by the NMC, WHO, and national statutory bodies"
+                  },
+                  {
+                    parameter: "Medium of Instruction",
+                    russia: "Offered in English (though learning basic Russian is required later for patient interaction)",
+                    india: "English"
+                  },
+                  {
+                    parameter: "Hostel & Accommodation",
+                    russia: "Very affordable (₹25,000 – ₹1 Lakh per year; living/hostel combined ~₹3,000 – ₹9,000/month)",
+                    india: "Moderate to high (₹1 Lakh – ₹3 Lakhs per year in many private/city setups)"
+                  },
+                  {
+                    parameter: "Hostel Food",
+                    russia: "Varies; many hostels have Indian messes or self-cooking kitchens, costing around USD 100 –USD 150 / month",
+                    india: "Generally local/mess food included or affordable within campus setups"
+                  },
+                  {
+                    parameter: "Medical Insurance",
+                    russia: "Mandatory annual health insurance policy required by Russian universities (~₹5,000 – ₹15,000/year)",
+                    india: "Covered locally or nominal institutional charges"
+                  },
+                  {
+                    parameter: "Visa & Other Costs",
+                    russia: "Annual visa extension/processing fees, one-time flight tickets, medical checkups, and winter clothing (~₹50,000 – ₹1,50,000 total initial/annual miscellany)",
+                    india: "Standard domestic travel and minimal administrative documentation costs"
+                  }
+                ]).map((row, idx) => (
+                  <tr key={idx} className={idx % 2 === 0 ? "bg-gray-50 hover:bg-gray-100 transition" : "bg-white hover:bg-gray-50 transition"}>
+                    <td className="p-4 border font-semibold text-gray-900 align-top">
+                      {row.parameter}
+                    </td>
+                    <td className="p-4 border align-top whitespace-pre-line text-sm leading-relaxed">
+                      {row.russia}
+                    </td>
+                    <td className="p-4 border align-top whitespace-pre-line text-sm leading-relaxed">
+                      {row.india}
+                    </td>
+                  </tr>
+                ))}
               </tbody>
             </table>
           </div>
